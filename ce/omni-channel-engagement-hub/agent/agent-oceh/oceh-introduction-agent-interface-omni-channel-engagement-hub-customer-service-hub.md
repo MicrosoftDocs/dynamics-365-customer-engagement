@@ -88,7 +88,6 @@ The sitemap displays the following record types:
 
   When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **Omni-channel Agent Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **Omni-channel Agent Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
 
-
     - My work items
     - Open work items
     - Closed work items
