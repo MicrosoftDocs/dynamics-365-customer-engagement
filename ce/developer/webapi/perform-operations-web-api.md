@@ -1,9 +1,10 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api
 title: "Perform operations using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 for Customer Engagement Web API provides a modern, RESTful web service that you can use to interact with data in Dynamics 365 for Customer Engagement using a wide variety of platforms, programming languages and devices. Read about the operations that can be performed using the Web API"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
