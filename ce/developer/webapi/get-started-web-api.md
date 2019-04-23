@@ -2,7 +2,7 @@
 title: "Get started with the Dynamics 365 for Customer Engagement Web API | MicrosoftDocs"
 description: "Read about the various operations you can perform using the Dynamics 365 for Customer Engagement Web API."
 ms.custom: 
-ms.date: 04/17/2017
+ms.date: 04/22/2019
 ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
@@ -36,7 +36,6 @@ This topic lists the resources that you can use to get started with using the We
 - [Authenticate with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api)<br />
 - [Web API Types and operations](/powerapps/developer/common-data-service/webapi/web-api-types-operations)<br />
 - [Perform operations using the Web API](/powerapps/developer/common-data-service/webapi/perform-operations-web-api)<br />
-- [Work with metadata](/powerapps/developer/common-data-service/webapi/use-web-api-metadata)<br />
 
 ## See also
 
