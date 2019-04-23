@@ -83,10 +83,8 @@ search.app:
    > ![Select a view](media/teams-select-view.png "Select an view")
 
 
-After completing the above steps, you can select a Dynamics 365 for Customer Engagement apps record to connect to the Microsoft Teams   channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
+8. After completing the above steps, you can select a Dynamics 365 for Customer Engagement apps record to connect to the Microsoft Teams   channel. For more information, see [Collaborate with Teams](teams-collaboration.md). (update this)
   
-  > [!div class="mx-imgBorder"] 
-> ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
 
 
 For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
