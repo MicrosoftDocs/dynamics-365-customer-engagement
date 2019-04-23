@@ -1,6 +1,6 @@
 ---
-title: "Steps or procedure to attach customer summary related action calls to events | MicrosoftDocs"
-description: "Learn how to attach the customer summary related action calls to events for agents using Omni-channel Engagement Hub."
+title: "Attach customer summary-related action calls to events | MicrosoftDocs"
+description: "Learn how to attach the customer summary-related action calls to events for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
