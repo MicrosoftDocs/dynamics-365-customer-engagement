@@ -56,8 +56,6 @@ You can search for the case, account, contact and its associated fields as enabl
 > [!NOTE]
 > Advanced Search is also known called as Categorized Search.
 
-![Search for records using the advanced search](../../media/oceh-oc-search-record.png "Search for records using the advanced search")  
-
 1. Select the search icon ![Advanced Search icon](../../media/oceh-oc-search-icon.png "Advanced Search icon"). The application launches the **Advanced Search** tab in the application tab.  
 
 2. In the search box, specify the entity or attribute based on your search requirements and select the search icon.
