@@ -52,7 +52,7 @@ The topic describes how to configure scripts using scriplets to define case and 
     | General | Name | ResolveCaseTitle |
     | General | Script Text | function ResolveCaseNameTitle() { <br>  if ("\[\[incident.title\]+\]" != "") { <br>    return "\[\[incident.title\]+\]"; <br>  } <br>  else <br>    return "\[\[$Resources.ResolveCaseTitleScriptletDefaultText\]\]"; <br>  } <br> ResolveCaseNameTitle(); |
 
-6. Specify the following for **ResolveChannelTitle**. 
+6. Repeat step 4 and 5 to create **ResolveChannelTitle**.
 
     | Tab           | Field             | Value              |
     |---------------|-------------------|--------------------|
@@ -73,9 +73,9 @@ The topic describes how to configure scripts using scriplets to define case and 
 
 5. Select the **Session Lines, Agent Scripts, and Scriplets** tab.
 
-6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**, type the name of the **Scriptlets** in the search box, and then press **Enter** or select the search icon.
+6. In the **Scriplets** section, select the more commands (...), select **Add Existing Session Scriplets**, type the name of the **Scriplets** in the search box, and then press **Enter** or select the search icon.
 
-7. Select the scriptlet from the search results and select **Add**.
+7. Select the scriplet from the search results and select **Add**.
 
 8. When you've finished, select **Save**.
 
