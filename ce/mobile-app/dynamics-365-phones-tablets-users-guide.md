@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/25/2019
+ms.date: 04/30/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -406,7 +406,8 @@ In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, ta
 
 When you’re finished with your call, the app prompts you to enter details about
 the call.
- 
+
+<!--
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
@@ -452,7 +453,7 @@ Background sync is enabled even when the app is minimized so long as a network c
 
 Other things to keep in mind about background sync: 
   
-- Sync will run until you  sign in to the mobile app.    
+- Sync will run until you sign in to the mobile app.    
   
 - While the app is running in the background, sync is automatically disabled when a network is disabled.  
   
@@ -480,7 +481,7 @@ Other things to keep in mind about background sync:
 
 If multiple entries are made in the same field by offline users (for example, two or more “close by” dates), the conflict is clearly marked and you can choose the correct entry.  
   
-If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes.
+If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes. -->
  
 ## Reconfigure the app
 
