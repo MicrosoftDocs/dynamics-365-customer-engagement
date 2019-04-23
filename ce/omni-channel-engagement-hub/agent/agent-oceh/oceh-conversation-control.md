@@ -19,14 +19,15 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. Expanding the communication panel displays the welcome screen with certain key features.
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. You cannot view the communication panel unless you accept a incoming conversation to communicate with the customer.
 
- > [!div class=mx-imgBorder] 
- > ![Omni-channel Engagement Hub conversation control landing page](../../media/oceh-conversation-control-landing-page.png "Omni-channel Engagement Hub conversation control landing page")  
+For a chat channel:
 
-For a chat channel, you can send quick replies and search for and share knowledge articles with the customer with whom you are interacting. You can transfer the conversation (work item) to another agent or queue. Use the consult option if you need help to resolve the work item. Also, you can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
-
-The landing page explains some of the key features of Omni-channel Engagement Hub and the communication panel. When you interact with a customer, you can see the following interface in the communication panel.
+- You can send quick replies
+- Search for and share knowledge articles with the customer with whom you are interacting.
+- You can transfer the conversation (work item) to another agent or queue.
+- You can use the consult option if you need help to resolve the work item.
+- You can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
  > [!div class=mx-imgBorder]
  > ![Omni-channel Engagement Hub communication panel chat interface](../../media/oceh-conversation-control-chat-interface.png "Omni-channel Engagement Hub communication panel chat interface")  
