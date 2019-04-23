@@ -1,4 +1,5 @@
 ---
+redirect_url: setup-mobile-offline-for-admin
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
 ms.date: 05/16/2018
