@@ -41,11 +41,27 @@ You either can build your own frontend or customize the provided demo event port
 
 To get started with customizing the provided demo event portal you need to follow this steps:
 
-1. Install [Node](https://nodejs.org/en/download).
-1. Open Node cmd (or reopen if you have it opened) and run `Node -v` to check whether the installation is successful or not. More information: [Node](https://nodejs.org/en/about).
-1. Run the command `npm install -g @angular/cli` to install Angular command line interface (cli). This is required to build and run the angular app. More information: [Angular](https://angular.io).
+1. Install [Node.js](https://nodejs.org/en/download) (we recommend Node.js version 10.x).
+
+1. Open a terminal or shell of your choice (e.g. Command Prompt or Powershell) and ru the below command to check whether the installation is successful or not.
+    ```CLI
+    node -v
+    ```
+> [!NOTE]
+> If you have a terminal or shell is already open, restart it before typing in the command.
+
+1. Run the following command to install the Angular CLI (command line interface) tools. This is required to build and run the Angular app. More information: [Angular CLI](https://cli.angular.io/).
+    ```CLI
+    npm install -g @angular/cli
+    ```
 1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
-1. Go to the directory where you have downloaded the source code and run the command `npm install` to fetch all the necessary packages that are required to run the website.
+
+1. Go into the directory where you have downloaded the source code and run the following command to fetch all the necessary packages that are required to run the website. 
+    ```CLI
+    npm install
+    ```
+> [!NOTE]
+> The command needs to be executed in the same directory where the `package.json` file is located.
 
 ## Configuration
 
@@ -79,7 +95,7 @@ Most of the customization possibilities for the Event Management application are
 This will expose your new custom field through the API and you should be able to utilize it in the front-end.
 
 > [!div class="nextstepaction"]
-> [Self-hosted](self-hosted.md)<br /><br />
-> [Dynamics 365 Portal hosted](portal-hosted.md)<br /><br />
+> [Self-hosted](self-hosted.md)<br />
+> [Dynamics 365 Portal hosted](portal-hosted.md)<br />
 > [Localization](event-portal-localization.md)
 
