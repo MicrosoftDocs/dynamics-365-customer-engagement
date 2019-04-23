@@ -35,9 +35,30 @@ When you sign in to the Omni-channel Engagement Hub app, the agent interface has
 
 ## 1. Session panel
 
-The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity. You can close any session manually by selecting the **X** button next to the session title.
+The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
+
+### Start and close a session
+
+As an agent, you can press **CTRL** + **Shift** and select on a link that can open as a session. The entities' link that you can open as a session are:
+   - Case
+   - Account
+   - Contact
+
+You can't use the shortcut to open any other links.
+
+You can start a session by accepting the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
+
+You can close any session manually by selecting the **X** button next to the session title.
+
+### Mode of Session panel
 
 By default, the session panel is in expanded mode and it is collapsible based on your requirement. The **Home** session is default and you can't close it. The Home session shows the default **Omni-channel Agent Dashboard**.
+
+### Title and icon of the session
+
+By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or issue snapshot forms. After linking, the session title is automatically updated.
+
+By default, the first two letters of the session title is displayed as the session icon.
 
  > [!div class=mx-imgBorder]
  > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
@@ -65,7 +86,7 @@ The sitemap displays the following record types:
 
 - **Dashboards**
 
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **My Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **My Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
+  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **Omni-channel Agent Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **Omni-channel Agent Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
 
 
     - My work items
@@ -74,7 +95,7 @@ The sitemap displays the following record types:
 
 - **Activities**
 
-  Activities help you keep track of all your customer communications in the form of **Conversation** and **Session** record types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
+  Activities help you keep track of all your customer communications using the **Conversation** and **Session** form types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
 
 - **Accounts**
 
