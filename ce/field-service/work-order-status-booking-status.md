@@ -105,14 +105,17 @@ When the work is complete, the field technician will change the booking status t
 > [!Note]
 > If there are multiple bookings for a single work order, once all related booking have statuses of Completed including fi a portion are Canceled, the related work order will have a status of **Open - Completed**. 
 
-| Work Order System Status | Booking Status |
-| --- | --- |
+| Work Order System Status | Booking Status | Details |
+| --- | --- | --- |
 | Open-Unscheduled | Not applicable as booking does not exist yet |
 | Open-Scheduled | Scheduled |
-| Open-In Progress | Scheduled |
-| Open-Completed | Scheduled |
+| Open-In Progress | Traveling |
+| Open-In Progress | In Progress |
+| Open-In Progress | On Break |
+| Open-Completed | Completed |
 | Closed-Posted | Scheduled |
-| Closed-Canceled | Scheduled |
+| Closed-Canceled | Canceled |
+| Open-Unscheduled | Canceled |
 
 ## Estimate Work Order Sub-status
 ## Delayed Booking Status
