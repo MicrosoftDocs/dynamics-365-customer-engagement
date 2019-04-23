@@ -47,7 +47,7 @@ In addition to datacenter specific (regional) discovery services that are availa
 Organization information is stored in the `Instance` entity of the Discovery service.  To see the kind of information contained in that entity, send an HTTP GET request to the service for one of your instances.  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v1.0/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
 ```  
   
 In the above example, the global Discovery service of  is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
