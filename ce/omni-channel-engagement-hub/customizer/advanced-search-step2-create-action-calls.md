@@ -48,7 +48,7 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
  
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Initiate Omni-channel Context - Agent Session Search Page     |
+    | General | Name           | Initialize Omni-channel Context - Agent Session Search Page     |
     | General | Hosted Control | Omni-channel Advanced Search |
     | General | Action         | RunScript             | 
     | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]'}; <br> ocConfig.config.sessionParams = session; <br> } <br> initOCContext(); |

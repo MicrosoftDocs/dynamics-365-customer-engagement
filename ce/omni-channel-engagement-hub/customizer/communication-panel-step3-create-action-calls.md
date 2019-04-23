@@ -133,7 +133,7 @@ This topic demonstrates how to create communication panel-related action calls i
     | General | Data | SessionTabId=\[\[SessionTabId\]+\] |
     | Advanced | Condition | '\[\[CanActivateSession\]+\]' == 'True' |
 
-## Create Customer SessionS
+## Create Customer Session
     
     | Tab | Field | Value |
     |------------------|------------------|------------------|
@@ -193,11 +193,11 @@ This topic demonstrates how to create communication panel-related action calls i
     | General | Action         | SetVisualProperty | 
     | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
-## Create Customer Session
+## Omni-channel Session Accepted
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Create Customer Session   |
+    | General | Name           | Omni-channel Session Accepted   |
     | General | Order | 10 |
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | OmnichannelSessionAccepted | 
@@ -230,17 +230,6 @@ This topic demonstrates how to create communication panel-related action calls i
     | Tab | Field | Value |
     |------------------|------------------|------------------|
     | General | Name           | Load Case session Agent Script  |
-    | General | Order | 20 |
-    | General | Hosted Control | Agent Script |
-    | General | Action         | GotoTask | 
-    | General | Data | Case Resolution Script |
-    | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
-
-## Load Case session Agent Script
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Load Case session Agent Script   |
     | General | Order | 20 |
     | General | Hosted Control | Agent Script |
     | General | Action         | GotoTask | 
@@ -393,16 +382,6 @@ This topic demonstrates how to create communication panel-related action calls i
     | General | Hosted Control | CRM Global Manager |
     | General | Action         | ClearEntityList | 
     | General | Data | global=True |
-
-## Omni-channel Copy Contact Ids To Context
-
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Omni-channel Copy Contact Ids To Context |
-    | General | Order | 2 |
-    | General | Hosted Control | CRM Global Manager |
-    | General | Action         | CopyToContext | 
-    | General | Data | contactIds = \[\[contact\]+\] |
 
 ## Omni-channel Fetch Context Contacts
 

@@ -64,7 +64,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Hosted Control | Omni-channel Alert Notification |
  | General        | Action         | Show               |
  | General        | Data           | formname=SimpleChatRequestPopUpForm <br>  top=10 <br> left=98 <br> timeout=120 <br> stack=true <br> stackHeight=50 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> position=absolute <br> isAccept=TRUE <br> isReject=TRUE |
- | Advanced        | Condition | /[/[RequestType/]/] == "1"< |
+ | Advanced        | Condition | \[\[RequestType\]\] == "1"< |
 
 ## Show Chat Transfer Request Alert Notification
 
@@ -195,7 +195,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Action         | GotoTask                  |
  | General        | Data           | Welcome Script            |
 
-## Load Agent Session Search Page With Condition**
+## Load Agent Session Search Page
 
  | Tab           | Field        | Value        |
  |---------------|---------------|------------------------------------------------------|
@@ -204,7 +204,6 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Hosted Control| AgentSessionSearchPage |
  | General        | Action         | Navigate |
  | General        | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off|
- | Advanced       | Condition      | '\[\[isUniqueContactRecognized\]\]'=='False' |
 
 ## Load Agent Session Overview Page**
 

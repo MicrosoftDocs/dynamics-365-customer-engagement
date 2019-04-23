@@ -55,7 +55,8 @@ This topic describes how to create customer summary-related action calls in Unif
     | General | Order | 5 | 
     | General | Hosted Control | Customer Summary |
     | General | Action         | RunScript    |
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]\+\]'); <br> var session = JSON.parse(JSON.stringify(\[\[$Context.SessionParameters\]\])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
+    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = JSON.parse(JSON.stringify([[$Context.SessionParameters]])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> }  <br> 
+initOCContext(); |
 
 ## Update Conversation Context Entities
 
@@ -138,17 +139,7 @@ This topic describes how to create customer summary-related action calls in Unif
     | General | Order | 4 |
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelSaveUpdatedContextEntities | 
-    | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] | 
-
-## Initialize Omni-channel Context - Window Variable - Customer Summary
-
-    | Tab | Field      | Value                       |
-    |------------------|----------------------|---------------------------------|
-    | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary |
-    | General | Order | 5 |
-    | General | Hosted Control | Customer Summary |
-    | General | Action         | RunScript | 
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]\+\]'); <br> var session = JSON.parse(JSON.stringify(\[\[$Context.SessionParameters\]\])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
+    | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] |
 
 ## Refresh Customer Summary Controls
 

@@ -49,7 +49,7 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Initiate Omni-channel Context - Agent Session Search Page     |
+    | General | Name           | Initialize Omni-channel Context - Agent Session Search Page     |
     | General | Hosted Control | Omni-channel Agent Dashboard |
     | General | Action         | RunScript             | 
     | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
@@ -88,11 +88,11 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
     | General | Action         | RunScript | 
     | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> window.ocContext = ocConfig; <br> } <br> initOCContext();|
 
-## Initialize Omni-channel Context - Agent Home Page
+## Load Agent Home Page
 
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Initialize Omni-channel Context - Agent Home Page    |
+    | General | Name           | Load Agent Home Page    |
     | General | Order | 1 |
     | General | Hosted Control | Omni-channel Agent Dashboard |
     | General | Action         | Navigate | 

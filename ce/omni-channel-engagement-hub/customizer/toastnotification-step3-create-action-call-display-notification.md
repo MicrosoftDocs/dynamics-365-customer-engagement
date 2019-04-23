@@ -62,7 +62,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Order           | 10                                           |
  | General | Hosted Control  | Omni-channel Toast Notification              |
  | General | Action          | Show                                         |
- | General | Data            | formname=CaseEntityNotification <br> top=85 <br> left=95 <br> timeout=60 <br> stack=true <br> stackHeight=50 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] |
+ | General | Data            | formname=EntityNotification <br> top=85 <br> left=95 <br> timeout=60 <br> stack=true <br> stackHeight=50 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] |
 
 ## Expand Right Pane
 
@@ -136,9 +136,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=\[\[$Resources.SessionErrorToastNotificationText\]+\] <br> NotificationIcon=new_omni_toast_error_icon |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
+## Omni-channel Session Timeout 
+
  | Tab             | Field           | Value                       |
  |-----------------|-----------------|-----------------------------|
- | General | General | Name            | OCSessionTimeout            |
+ | General | Name            | Omni-channel Session Timeout            |
  | General | Order           | 16                          |
  | General | Hosted Control  | OmniChannelHostedControl    |
  | General | Action          | OCSessionTimeout            |

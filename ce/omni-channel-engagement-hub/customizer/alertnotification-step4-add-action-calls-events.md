@@ -52,7 +52,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
  | Event | Action Call |
  |------------------------------------------------|--------------------------------------------------------|
- | CreateCustomerSession | <ul> <li>Close Omni-channel Alert Notification</li> <li>Expand Right Pane</li> <li>Omni-channel Presence Status</li> <li> <li>Create Customer Session</li> <li>Omni-channel Session Accepted</li> <li>Omni-channel Session Rejected</li> <li>Fire Session Timer</li> <li> Load Agent Search Session Page with Condition </li> <li>Load Default Agent Script</li> <li>Load Agent Session Overview Page</li> <li>Focus on Overview</li> |
+ | CreateCustomerSession | <ul> <li>Close Omni-channel Alert Notification</li> <li>Expand Right Pane</li> <li>Omni-channel Presence Status</li> <li>Create Customer Session</li> <li>Omni-channel Session Accepted</li> <li>Omni-channel Session Rejected</li> <li>Fire Session Timer</li> <li> Load Agent Search Session Page</li> <li>Load Default Agent Script</li> <li>Load Agent Session Overview Page</li> <li>Focus on Overview</li> |
  | IncomingRequestRejected | <ul> <li>Close Omni-channel Alert Notification</li> <li>Omni-channel Session Rejected</li> </ul> |
  | TimedOut | <ul>Omni-channel Session Timeout</ul> |
  | OmnichannelContextFetch | <ul> <li>Show Chat Transfer Request Alert Notification </li> <li>Show Consult Request Alert Notification</li> <li>Show Simple Chat Request Alert Notification</li> <li>Show Simple Chat Request From Supervisor Alert Notification</li>  |
