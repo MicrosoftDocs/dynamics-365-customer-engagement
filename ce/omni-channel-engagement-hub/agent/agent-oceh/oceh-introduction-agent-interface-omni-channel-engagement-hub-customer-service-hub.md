@@ -195,9 +195,9 @@ The sitemap displays the following record types:
 > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
 
 > [!div class="nextstepaction"]
-> [Next topic: Understand conversation states](oceh-conversation-state.md)
+> [Next topic: View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
 
 ## See also
-
+- [Understand conversation states](oceh-conversation-state.md)
 - [Sign in to Omni-channel Engagement Hub](oceh-sign-dynamics-365-customer-service-hub.md)
 - [View communication panel](oceh-conversation-control.md)
