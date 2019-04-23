@@ -2,7 +2,7 @@
 title: "Best practices for using business process flow entity attributes | MicrosoftDocs"
 description: "Learn the best practices for using business process flow entity attributes."
 ms.custom: 
-ms.date: 04/09/2019
+ms.date: 04/23/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,8 +24,7 @@ manager: kvivek
 # Best practices in using business process flow attributes
 
 
-Legacy process-related attributes in entities is deprecated. Here are some best practices for using the *Active Stage* (activestageid) and *Traversed Path* (traversedpath) attributes on the
-business process flow entity. 
+Legacy process-related attributes in entities is deprecated. Here are some best practices for using the *Active Stage* (activestageid) attribute on the business process flow entity. 
 
 ## Reporting on the active stage of a business process flow
 
