@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-attributemetadata
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-attributemetadata
 title: "Work with attribute metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates creating, retriving, updating and attributes, and creating lookup, creating a picklist that uses a global option set, inserting a new status value, updating a state value and so on. "
 ms.custom: 

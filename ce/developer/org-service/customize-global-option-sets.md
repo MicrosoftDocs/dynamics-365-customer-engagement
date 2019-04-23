@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-option-sets
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets
 title: "Customize global option sets | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/20/2017

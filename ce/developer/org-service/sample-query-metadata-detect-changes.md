@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-option-sets
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets
 title: "Sample: Query metadata and detect changes (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to use the classes and methods in the Query and Metadata namespaces to query for specific items of metadata and then track changes to the organization metadata. "
 keywords: 

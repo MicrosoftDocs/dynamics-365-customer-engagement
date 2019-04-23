@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/samples/work-activity-party-records
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/work-activity-party-records
 title: "Sample: Create and update an emailable entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create an entity that can be used in the To field of an email activity. It uses the CreateEntityRequest message. "
 ms.custom: 

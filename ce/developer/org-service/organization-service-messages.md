@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/dotnet/api/microsoft.crm.sdk.messages
+redirect_url: https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages
 title: "Organization service messages in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic shows the messages available in the Dynamics 365 for Customer Engagement namespace"
 ms.custom: 

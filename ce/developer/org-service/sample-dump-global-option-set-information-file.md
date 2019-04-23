@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-option-sets
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets
 title: "Sample: Dump global option set information to a file | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017

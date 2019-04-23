@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/create-custom-entity
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/create-custom-entity
 title: "Sample: Create and update entity metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create a custom entity by using the CreateEntityRequest message. It also uses the CreateAttributeRequest to add several different types of attributes to the entity."
 ms.custom: 

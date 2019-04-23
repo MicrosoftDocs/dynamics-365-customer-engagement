@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata
 title: "Create and retrieve entity relationships (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The topic shows how to create and retrieve entity relationships."
 ms.custom: 

@@ -1,5 +1,5 @@
 ---
-redirect_url: https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata
 title: "Sample: Create and retrieve entity relationships (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to verify that entities are eligible to participate in an entity relationship and then creates a 1:N and an N:N entity relationship."
 keywords: 
