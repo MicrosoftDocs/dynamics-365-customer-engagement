@@ -1,7 +1,7 @@
 ---
 title: "Work Offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/01/2019
+ms.date: 04/30/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -23,16 +23,11 @@ search.app:
   - D365Sales
 ---
 
-# Preview Feature: Work offline on your mobile device
+# Work offline on your mobile device
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Work with your data in disconnected mode on your mobile device with mobile offline. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
-
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+Work with your data in disconnected mode on your mobile device with mobile offline. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
 When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
@@ -194,21 +189,3 @@ If user was working on a record and lost network connection, any updates made to
 Any views which have linked - entities (related entity) which are not available offline are also not supported. 
 
 
-## Provide Feedback
-
-We would love to hear from you. If you have any concerns, questions or feedback.
-
-To provide feedback through the Dynamics insider preview portal: 
-
-1. Sign in to the Dynamics insider portal using your organization account.
-
-2. Once signed in, select **Insider programs** and select **Dynamics 365 mobile offline Preview Program**.
-
-Once you are a part of the program, you will easily be able to add feedback and chat with the experts. You will also have access to feature guide which you can access through **Program downloads**.
-
-3. Select **View feedback**, then select **Add feedback to add any comments**. 
-
-The feedback will be continuously monitored by us and we will respond to you as soon as possible.  
-
-
-   ![Provide feedback](media/feedback.png "Provide feedback")
