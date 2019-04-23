@@ -24,7 +24,7 @@ Your organization might have a classification where certain agents work in the c
 Select the plus icon in the application tab to view the sitemap and select **Activities**.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities.png "Select activities in the sitemap") 
+> ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities.png "Select activities in the sitemap")
 
 You can find the following form types in Dynamics 365 for Customer Engagement apps:
 
@@ -35,9 +35,9 @@ You can find the following form types in Dynamics 365 for Customer Engagement ap
 > [!div class=mx-imgBorder]
 > ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities-list.png "Select activities in the sitemap")
 
-### Conversation Form
+### Conversation form
 
-The Conversation Form displays information about an engagement request.
+The Conversation form displays information about an conversation request.
 
 ![Omni-channel conversation form](../../media/oceh-oc-conversation-form.png "Omni-channel conversation form")  
 
@@ -50,7 +50,7 @@ The Conversation Form displays information about an engagement request.
 
 ### Session form
 
-The session form displays information about a conversation request.
+The session form displays information about a individual session in a conversation request.
 
 ![Omni-channel session form](../../media/oceh-oc-session-form.png "Omni-channel session form")  
 
