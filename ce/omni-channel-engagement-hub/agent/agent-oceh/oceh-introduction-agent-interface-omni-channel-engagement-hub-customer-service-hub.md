@@ -65,15 +65,10 @@ By default, the first two letters of the session title is displayed as the sessi
 
 ## 2. Communication panel
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in minimized mode. That is, the minimized communication panel appears at the bottom left side. The landing page explains some of the key features of Omni-channel Engagement Hub and the communication panel. To learn more, see [View communication panel](oceh-conversation-control.md).
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oceh-conversation-control.md).
 
  > [!div class=mx-imgBorder]
  > ![Communication panel in the collapsed mode](../../media/oceh/oceh-agent-interface-communication-panel-collapsed.png "Communication panel in the collapsed mode")
-
-To expand the communication panel, select the arrow on the gray bar of the communication panel. Select the same arrow to again minimize the communication panel.
-
- > [!div class=mx-imgBorder]
- > ![Communication panel in the expanded mode](../../media/oceh/oceh-agent-interface-communication-panel-expanded.png "Communication panel in the expanded mode")
 
 ## 3. Application tab
 
@@ -91,6 +86,8 @@ The sitemap displays the following record types:
     - My work items
     - Open work items
     - Closed work items
+    
+    To learn more, see [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
 
 - **Activities**
 
