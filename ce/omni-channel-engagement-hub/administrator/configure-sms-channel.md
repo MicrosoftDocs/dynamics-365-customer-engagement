@@ -55,7 +55,7 @@ To sign up for TeleSign:
     - **Customer ID**: Customer ID generated from the TeleSign account.
     - **API key**: API key generated from the TeleSign account.
 
-7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com).
+7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com). This value is the callback URL that is used to process incoming SMS messages.
 
 8.	Select **Save**.
 
@@ -71,11 +71,11 @@ To sign up for TeleSign:
 
 11.	Select **Save**.
 
-12.	Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID, API key, and phone number.
+12.	Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
 
 13. Open the work stream you created for SMS.
 
-14.	On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity.
+14.	On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field.
 
 ### See also
 
