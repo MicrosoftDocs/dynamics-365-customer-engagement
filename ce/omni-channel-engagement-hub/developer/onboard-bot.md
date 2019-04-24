@@ -1,5 +1,5 @@
 ---
-title: "Onboard a bot to Omni-channel Engagement Hub| Microsoft Docs"
+title: "Integrate a bot with Omni-channel Engagement Hub| Microsoft Docs"
 description: "Read how you can integrate a bot with Omni-channel Engagement Hub"
 keywords: ""
 ms.date: 04/24/2019
@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Onboard a bot to Omni-channel Engagement Hub
+# Integrate a bot with Omni-channel Engagement Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
@@ -26,7 +26,7 @@ Following conditions need to be met for a bot to be onboarded to Omni-Channel En
 
 -	The bot must be developed using Microsoft Bot Framework
 -	The bot must be registered with Azure bot service
--	The bot must be configured to have  Teams channel
+-	The bot must be configured to have Microsoft Teams channel
 
 ## Create your bot’s reply activity 
 
@@ -50,7 +50,7 @@ return replyActivity;
 }
 ```
 
-## Send bot’s response to your customer’s end
+## Send bot’s response to customer’s chat widget
 
 Every message that the bot sends, will be received by Omni-Channel Engagement Hub services by default. To make the bot’s response visible on the customer’s chat widget, you must set `deliveryMode` to `bridged` on the reply activity’s `ChannelData`. The sample code shown below illustrates how the reply sent by the bot can be shown on the customer's chat widget.
 
@@ -66,11 +66,11 @@ Dictionary<string, object> channelinfo = new Dictionary<string, object>();
 
 ```
  
-## How Escalation Works
+## Escalating conversation to human agent
 
 In Omni-Channel Engagement Hub, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the work stream. The primary way a bot can dictate how the conversation will be routed is by using Omni-channel Engagement Hub context variables that are associated with the chat. A bot can send out a list of context variables and the values they need to be updated to along with the escalation request. Omni-Channel Engagegent Hub service will update the context variables to the specified values and then rerun the routing engine. This will ensure that escalated chat will be routed to the proper queue. Once the agent accepts the invitation, the chat transcript with the bot will be visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
 
-### Sample Code for Escalation
+### Sample Code for escalation management
 
 Create a data class called `TagModel` to represent the bot context.
 
@@ -118,11 +118,11 @@ var contextVarPairs = new Dictionary<string, object>();
 contextVarPairs.Add($"BotHandoffTopic", "CreditCard");
 IActivity activitiy = CreateEscalationReplyActivity(context, "Conversation Summary: Customer wants to increase credit limit.", contextVarPairs);
 ``` 
-## How End Conversation Works
+## End a conversation
 
 An Omni-Channel Engagement Hub bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `endconversation` request to Omni-Channel Engagement Hub.
 
-### Sample Code for Escalation and EndConversation
+### Sample code for escalation management
 
 ```csharp
 private IActivity CreateEndConversationReplyActivity(ITurnContext context, string endConversationSummary)
@@ -145,20 +145,21 @@ IActivity activity = CreateOmniChannelReplyActivity(context, endConversationSumm
 ```csharp
 IActivity activity = CreateEndConversationReplyActivity(context, "Customer ended chat");
 ```
-## Guidelines for Modelling Bot configuration
+## Best practices for bot configuration
 
 Following points should be kept in mind while modelling the bot agent in Omni-Channel Engagement Hub.
 
-1.	In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked by the bot first.
+1.	In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked by the bot first.     
 
-2.	In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.
+2.	In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.     
 
-3.	In case of the event where a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. So, it is suggested to have few human agents configured as backup in the bot queue to handle such chats.
+3.	In case of the event where a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. So, it is suggested to have few human agents configured as backup in the bot queue to handle such chats.     
 
-4.	Bot agents are not supported in consult mode in current release.
+4.	Bot agents are not supported in consult mode in current release.     
 
 5.	Unlike other Omni-Channel Engagement Hub agents, bots are not added to `default` queue at the outset. But, they can be added from the Administration hub, if required.
 
 ## See also
 
-[Work with bots](../administrator/configure-bot.md)
+[Work with bots](../administrator/configure-bot.md)<br />
+[Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)

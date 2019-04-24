@@ -109,7 +109,7 @@
 ### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 ### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 ### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
-### [Onboard a bot](developer/onboard-bot.md)
+### [Integrate a bot](developer/onboard-bot.md)
 ### [Live chat JavaScript API Reference](developer/omni-channel-reference.md)
 #### [Methods]()
 ##### [getContextProvider](developer/reference/methods/getContextProvider.md)
