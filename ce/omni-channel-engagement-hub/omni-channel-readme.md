@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
 > [!Important]
-> We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience.
+> We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 
 ## Communication panel not loading in Customer Service Hub app
 
