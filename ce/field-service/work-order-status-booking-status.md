@@ -139,33 +139,30 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 ### Booking status processes
 		
 **Scheduled**
+- Miles Traveled updated, calculated as the driving distance from the previous location to the booking location (typically the work order location).
 - Booking Timestamp created. Booking Timestamps track the date and time of all booking status changes.
 
 
 **Traveling**
-- Booking Timestamp created
-
+- Booking Timestamp created.
 
 **In Progress**
-- Actual arrival time field updated
-- Actual travel duration field updated
-- Miles Traveled
-- Booking Timestamp created
+- Actual arrival time field updated with the date and time the booking status was changed.
+- Actual travel duration field updated, calculated as the total time the booking status is **Traveling**.
+- Booking Timestamp created.
 
 
 **On Break**
-- Booking Timestamp created
-
+- Booking Timestamp created.
 
 **Completed**
 - End time updated
-- Total duration in progress updated
-- Total cost
-- Total billable duration
-- Total duration in progress
-- Total Break Duration
+- Total duration in progress updated, calculated as the total time the booking status is **In progress**.
+- Total break duration updated, calculated as the total time the booking status is **On Break**.
+- Total cost updated, defined as the internal cost of the resource for the booking and calculated as the sum total of actual travel duration, total duration in progress, and total break duration, multiplied by the resource's hourly rate. 
+- Total billable duration updated, calculated as the sum total of total duration in progress and total break duration.
 - Booking Journals created. Booking Journals use Booking Timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking Journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the Bookable Resource record.
-- Booking Timestamp created
+- Booking Timestamp created.
 
 
 ## Estimate Work Order Substatus
