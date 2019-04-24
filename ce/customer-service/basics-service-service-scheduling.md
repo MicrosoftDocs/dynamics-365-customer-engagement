@@ -172,7 +172,7 @@ Make sure that you have the required security role or equivalent permissions.
     b. On the Insider home page, go to [Dynamics 365 Service Scheduling](https://experience.dynamics.com/insider/campaign/?id=0faac2df-32db-e811-a96b-000d3a1bece3). </br>
     c. Select the program link and select **Join Now**. 
     This will add you as a participant to the program. </br>
-    d. On the program page, sign-up to enable Service Scheduling on URS. The link will open a simple questionnaire and one of the questions is the instance URL; provide the URL of the instance. </br>
+    d. On the program page, sign up to enable Service Scheduling on URS. The link will open a simple questionnaire and one of the questions is the instance URL; provide the URL of the instance. </br>
     
     As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 for Customer Engagement instance and you will recieve a confirmation email from Microsoft.
 
