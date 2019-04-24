@@ -1,5 +1,5 @@
 ---
-title: "Configure scripts using scriplets to define case and channel titles | MicrosoftDocs"
+title: "Configure scripts using scriptlets to define case and channel titles | MicrosoftDocs"
 description: "Learn how to configure sto define case and channel titles when using Omni-channel Engagement Hub in Unified Service Desk."
 keywords: ""
 author: kabala123
@@ -13,13 +13,13 @@ ms.assetid: 49DAA28B-5FCA-4A6F-A2B4-6EBD37CCF75E
 ms.custom: 
 ---
 
-# Configure scriplets to define case and channel titles
+# Configure scriptlets to define case and channel titles
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic describes how to configure scripts using scriplets to define case and channel titles.
+The topic describes how to configure scripts using scriptlets to define case and channel titles.
 
 ## Prerequisites
 
@@ -71,9 +71,9 @@ The topic describes how to configure scripts using scriplets to define case and 
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. Select the **Session Lines, Agent Scripts, and Scriplets** tab.
+5. Select the **Session Lines, Agent Scripts, and Scriptlets** tab.
 
-6. In the **Scriplets** section, select the more commands (...), select **Add Existing Session Scriplets**, type the name of the **Scriplets** in the search box, and then press **Enter** or select the search icon.
+6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**, type the name of the **Scriptlets** in the search box, and then press **Enter** or select the search icon.
 
 7. Select the scriplet from the search results and select **Add**.
 

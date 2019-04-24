@@ -137,7 +137,7 @@
 
 #### [Configure session name information](customizer/configure-session-name-information.md)
 
-#### [Configure scriplets to define case and channel titles](customizer/configure-scriplets-define-case-channel-titles.md)
+#### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 ### [How to]()

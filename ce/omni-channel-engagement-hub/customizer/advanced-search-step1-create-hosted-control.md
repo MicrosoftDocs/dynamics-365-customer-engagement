@@ -48,7 +48,7 @@ This topic describes how to create an Advanced Search hosted control in Unified 
     |-------------------------------------|---------------------------------|
     | Name                                | Omni-channel Advanced Search |
     | Sort | 10 |
-    | Display Name | \[\[$Resources.AgentSessionSearchPageHCDisplayName\]\] |
+    | Display Name | Omni-channel Advanced Search |
     | Unified Service Desk Component Type | Unified Interface Page |
     | Hosting Type | Chrome Process |
     | Pre-Fetch Data               | Select the check box  |
