@@ -87,7 +87,7 @@ When a work order is created, it has a status of **Open-Unscheduled** by default
 
 Once the work order is scheduled, i.e. a booking is created for it, the work order system status automatically changes to **Open-Scheduled**.
 
-The Booking that is created when the work order is scheduled has a booking status of S**cheduled** by default.
+The Booking that is created when the work order is scheduled has a booking status of **Scheduled** by default.
 
 After the work order is scheduled to a field technician resource, it is viewable on the Field Service Mobile app and the next step is for the field technician to note that he or she is traveling to the work order location by changing the booking status to **Traveling**. 
 
@@ -118,62 +118,49 @@ Here is a table fo the out of the box relationship between work order system sta
 | Open-In Progress | On Break | |
 | Open-Completed | Completed | |
 | Closed-Posted | Scheduled | |
-| Closed-Canceled | Canceled | If the work order system status is changed to Closed-Canceled all booking with a status of Scheduled will change to Canceled |
-| Open-Unscheduled | Canceled | If the booking status is canceled, the work order system status will revert to Open-Unscheduled |
+| Closed-Canceled | Canceled | If the work order system status is changed to Closed-Canceled all bookings with a status of Scheduled will change to Canceled, you cannot cancel a work order if in progress bookings exist, completed bookings will remain as completed |
+| Open-Unscheduled | Canceled | If the booking status is canceled, and is the only booking, the work order system status will revert to Open-Unscheduled. If one of multiple bookings is canceled, the work order system status will revert to  |
 
 ### Status related processes
 
-#### Work order system status
+Beyond work order system statuses updating booking statuses and vice versa, many processes and data updates are also triggered. Here are the most common.
+
+
+#### Work order system status processes
 
 Open – Unscheduled
-		o Default status when work order is created
 Open – Scheduled
-		o Default status when bookings exist but the work has not yet been begun.
-				§ Bookings exist in a Booking Status where Field Service Status is “Scheduled.”
 Open - In Progress
-		o Default status when at least one booking is in a status indicating that work is actively being performed.
-				§ Bookings exist in a Booking Status where Field Service Status is “Traveling,” “In Progress,” or “On Break.”
 Open – Completed
-		o Default status when all bookings are either completed or cancelled with at least one booking in a status indicating that work has been completed.
-				§ All bookings on a work order in a Booking Status where Field Service Status is “Completed” or “Canceled” with at least one that is “Completed.”
-		o Can also be set to this status manually, assuming no bookings are “Scheduled,” “Traveling,” “In Progress,” or “On Break.”
-		o Applicable used work order products and services become customer assets
-		o Travel charge item is added to work order products if applicable
+- Applicable used work order products and services become customer assets
+- Travel charge item is added to work order products if applicable
 Closed – Posted
-		o Status to be used when all work on the work order is completed and the work is ready to be posted to the general ledger (Note: Field Service does not have detailed accounting functionality. General ledger refers to the overall business process).
-		o Invoice is generated for billing account + Actuals.
+- Invoice is generated for billing account + Actuals.
 Closed – Canceled
-		o Default state to use when indicating that all of the work for the work order is cancelled and should not be performed.
-		o Cancelling a Booking does not drive the Work Order to this Open – Canceled system status.
-		o Can we set into this state manually.
 
-
-#### Bookable resource booking
+#### Booking status processes
 		
-Scheduled
-		o Timestamp created
-		o Work order system status becomes open-scheduled
-Traveling
-		o Timestamp created
-		o Work order system status becomes open-completed if sole booking of work order
-In Progress
-		o actual arrival time field updated
-		o actual travel duration field updated
-		o Miles Traveled
-		o Timestamp created
-On Break
-		o Timestamp created
-Completed
-		o End time field updated
-		o Total duration in progress updated
-		o Total Cost
-		o Total Billable Duration
-		o Total Duration In Progress
-		o Total Break Duration
-		o Booking journals
-		o Work order system status becomes open-completed if sole booking of work order
-		o Timestamp created
-Canceled
+**Scheduled**
+- Timestamp created
+**Traveling**
+- Timestamp created
+**In Progress**
+- Actual arrival time field updated
+- Actual travel duration field updated
+- Miles Traveled
+- Timestamp created
+**On Break**
+- Timestamp created
+**Completed**
+- End time field updated
+- Total duration in progress updated
+- Total Cost
+- Total Billable Duration
+- Total Duration In Progress
+- Total Break Duration
+- Booking journals
+- Timestamp created
+**Canceled**
 
 ## Estimate Work Order Sub-status
 
