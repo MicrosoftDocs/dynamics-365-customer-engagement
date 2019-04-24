@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/execute-multiple-requests#example
 title: "Sample: Execute multiple requests (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample uses a single web method call to execute multiple message requests"
 ms.custom: 
