@@ -30,7 +30,7 @@ Following conditions need to be met for a bot to be onboarded to Omni-Channel En
 
 ## Create your bot’s reply activity 
 
-Bot’s reply activity is sent on Microsoft Teams channel and it is important to make sure that the channel is enabled on your bot. To create a reply activity, set the required information by following the sample given below.
+Bot’s reply activity is sent on Microsoft Teams channel and it is important to make sure that the Teams channel is enabled on your bot. The sample given below shows how you can create your bot's reply activity.
  
 ```csharp
 private IActivity CreateOmniChannelReplyActivity(ITurnContext context, string replyText)
