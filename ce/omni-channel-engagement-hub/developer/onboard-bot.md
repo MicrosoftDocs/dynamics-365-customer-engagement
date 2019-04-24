@@ -1,6 +1,6 @@
 ---
 title: "Onboard a bot to Omni-channel Engagement Hub| Microsoft Docs"
-description: ""
+description: "Read how you can integrate a bot with Omni-channel Engagement Hub"
 keywords: ""
 ms.date: 04/24/2019
 ms.service: dynamics-365-customerservice
@@ -13,6 +13,12 @@ ms.author: susikka
 manager: shujoshi
 ---
 # Onboard a bot to Omni-channel Engagement Hub
+
+Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+The topic illustrates how you can integrate a bot that can start a conversation with a customer then shift the conversation to a human agent as required, with Omni-channel Engagement Hub.
 
 ## Prerequisites for a bot to be onboarded to Omni-Channel
 
