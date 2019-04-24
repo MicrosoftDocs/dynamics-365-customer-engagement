@@ -45,7 +45,7 @@ Presence status is updated in two ways:
   - When your capacity is not utilized, the presence is set to **Available**.<br>
 
 > [!div class="nextstepaction"]
-> [Next topic: View notifications and screen pops](oceh-notifications-screen-pops.md) 
+> [Next topic: View alert and toast notifications](oceh-notifications-screen-pops.md) 
 
 ## See also
 

@@ -13,7 +13,7 @@ ms.assetid: 6043F127-BF47-4F97-8D1E-319B1D578D8A
 ms.custom: 
 ---
 
-# View notifications and screen pops 
+# View alert and toast notifications
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
