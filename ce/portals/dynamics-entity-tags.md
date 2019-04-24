@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 for Customer Engagement tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about Dynamics 365 for Customer Engagement tags available in portal"
 keywords: "Dynamics 365 for Customer Engagement tags; liquid tags"
-ms.date: 04/23/2019
+ms.date: 04/24/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
