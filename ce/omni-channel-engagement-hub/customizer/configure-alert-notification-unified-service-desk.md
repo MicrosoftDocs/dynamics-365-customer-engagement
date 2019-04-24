@@ -64,11 +64,7 @@ You must define an event and attach action calls so that an agent can accept an 
 
 - Omni-channel session is accepted.
 
-- Session timer starts.
-
 - KB Articles search control opens.
-
-- Open agent session search page.
 
 - Load default agent script.
 

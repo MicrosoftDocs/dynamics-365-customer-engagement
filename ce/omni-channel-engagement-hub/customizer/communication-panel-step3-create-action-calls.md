@@ -237,7 +237,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
 > [!Note]
-> This action call is optional.
+> **Load Case session Agent Script** action call is optional.
 
 ## Load Form for entity
 

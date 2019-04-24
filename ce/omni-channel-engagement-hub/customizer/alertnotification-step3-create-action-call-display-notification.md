@@ -64,7 +64,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Hosted Control | Omni-channel Alert Notification |
  | General        | Action         | Show               |
  | General        | Data           | formname=SimpleChatRequestPopUpForm <br>  top=10 <br> left=98 <br> timeout=120 <br> stack=true <br> stackHeight=50 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> position=absolute <br> isAccept=TRUE <br> isReject=TRUE |
- | Advanced        | Condition | \[\[RequestType\]\] == "1"< |
+ | Advanced        | Condition | \[\[RequestType\]\] == "1" |
 
 ## Show Chat Transfer Request Alert Notification
 
@@ -86,7 +86,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
   | General | Data | formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=\[\[showWarning\]+\] <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
   | Advanced | Condition | \[\[RequestType\]\] == "2" |
 
-## Show Simple Chat Request From Supervisor Alert Notification
+<!--## Show Simple Chat Request From Supervisor Alert Notification
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -94,7 +94,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
   | General | Hosted Control | Omni-channel Alert Notification |
   | General | Action         | Show | 
   | General | Data | formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=\[\[showWarning\]+\] <br> channelIcon=\[\[channelIcon\]+\] <br> channelName=\[\[channelName\]+\] <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
-  | Advanced | Condition | \[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]\]" == "Supervisor" |
+  | Advanced | Condition | \[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]\]" == "Supervisor" | -->
 
 ## Expand Right Pane**
 
@@ -196,25 +196,25 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Action         | Navigate |
  | General        | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off|
 
-## Load Agent Session Overview Page**
+## Load Agent Customer Summary Page
 
  | Tab            | Field          | Value    |
  |----------------|----------------|---------------------------------------------|
- | General        | Name           | Load Agent Session Overview Page  |
+ | General        | Name           | Load Agent Customer Summary Page  |
  | General        | Order          | 200           |
- | General        | Hosted Control | Session Overview  |
+ | General        | Hosted Control | Customer Summary |
  | General        | Action         | Navigate   |
  | General        | Data           | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn\_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true\# <br> Hidenav=true |
 
-## Focus on Overview**
+## Focus on Customer Summary
 
  | Tab            | Field          | Value              |
  |----------------|----------------|--------------------|
- | General        | Name           | Focus on Overview  |
+ | General        | Name           | Focus on Customer Summary  |
  | General        | Order          | 220                |
  | General        | Hosted Control | CRM Global Manager |
  | General        | Action         | ShowTab            |
- | General        | Data           | Session Overview   |
+ | General        | Data           | Customer Summary   |
 
 ## Omni-channel Session Rejected
 
