@@ -29,16 +29,18 @@ search.app:
 
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. 
 
-With Dynamics 365 for Teams integration, add the Dynamics 365 for Customer Engagement apps features you rely on to the Teams app you collaborate with. This lets you easily work with Dynamics 365 customer information and share files directly from Microsoft Teams.
+With the Dynamics 365 for Teams integration, you add the Dynamics 365 for Customer Engagement app features that you rely on, to the Teams app you collaborate with. This lets you easily work with Dynamics 365 customer information and share files directly from Microsoft Teams.
+
+Use Microsfot Teams to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. Access records in your Dynamics 365 Customer Engagement app by adding a tab for Dynamics 365 in the Teams channel. You can also use the Dynamics 365 view to work on multiple records. Or, use the Dynamics 365 bot for Microsoft Teams mobile app to access records on the go and collaborate on a set of records such as, your **Active Opportunities**.
 
 Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Overview video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 <!-- Cindy will provide new video when it's published. -->
 
 The Dynamics 365 app for Teams provides the following: 
 
-- **Collaboration hub**: Access records in your Dynamics 365 Customer Engagement app by adding a tab for Dynamics 365 in the Teams channel. Use the Dynamics 365 view to work on multiple records.
+- **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
-- **File integration**: Seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams.
+- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365. 
 - **Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
