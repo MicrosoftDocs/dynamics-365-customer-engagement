@@ -22,7 +22,6 @@ This topic is a short dictionary of terms used in Omni-channel Engagement Hub.
 |Term  |Definition  |
 |---------|---------|
 |Agents    |  Customer service representatives assisting customers with their queries.       |
-|Agent association   |  Agents that are associated with a work stream receive conversations only from that work stream.  |
 |Auto-close after inactivity  |  Time after which a conversation is moved from waiting state to closed state due to inactivity.  |
 |||
 
@@ -33,9 +32,9 @@ This topic is a short dictionary of terms used in Omni-channel Engagement Hub.
 |Term  |Definition  |
 |---------|---------|
 |Channels    |  A medium through which a customer can reach out and engage with the agents.       |
-|Capacity    |  Units of capacity that are required to process a conversation.      |
-|Context variables    | Variables used to define routing rules to channelize conversations into different queues. With context variables, the system takes logical decisions and distributes the conversations to the correct omni-channel queue or agent. |
-|Conversation states    | States of a conversation (work item) in Omni-channel Engagement Hub. Types of conversation states are: Open, Active, Waiting, Wrap-up, Closed.   |
+|Capacity    |  Units of agent capacity required to handle a conversation.    |
+|Context variables    | Variables that capture context of an incoming conversation. Omni-channel supports three types of context variables: Channel context, Customer context, and Custom context. You can use context variables to define routing rules as well as to show additional context on Customer 360. |
+|Conversation states    | States of a conversation in Omni-channel Engagement Hub. Types of conversation states are: Open, Active, Waiting, Wrap-up, Closed.   |
 |||
 
 ## D
