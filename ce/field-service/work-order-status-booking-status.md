@@ -75,7 +75,7 @@ Lets explore work order and booking statuses with the following scenarios:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Work Order life cycle
+## Statuses and the Work Order life cycle
 
 A field service organization wants to understand how the out-of-the-box statuses are designed for the work order process without any customizations based on their specific business needs.
 
@@ -121,12 +121,12 @@ Here is a table fo the out of the box relationship between work order system sta
 | Closed-Canceled | Canceled | If the work order system status is changed to Closed-Canceled all bookings with a status of Scheduled will change to Canceled, you cannot cancel a work order if in progress bookings exist, completed bookings will remain as completed |
 | Open-Unscheduled | Canceled | If the booking status is canceled, and is the only booking, the work order system status will revert to Open-Unscheduled. If one of multiple bookings is canceled, the work order system status will revert to  |
 
-### Status related processes
+## Status related processes
 
 Beyond work order system statuses updating booking statuses and vice versa, many processes and data updates are also triggered. Here are the most common.
 
 
-#### Work order system status processes
+### Work order system status processes
 
 **Open – Completed**
 - Used work order products are converted to new customer assets if applicable. This is accomplished by setting the **Convert to Customer Asset** field on the published product record to **Yes**.
@@ -136,39 +136,39 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 - Invoice is generated for billing account and Actuals records are created. Actuals are line items of goods, services, and costs.
 
 
-#### Booking status processes
+### Booking status processes
 		
 **Scheduled**
-- Timestamp created
+- Booking Timestamp created. Booking Timestamps track the date and time of all booking status changes.
 
 
 **Traveling**
-- Timestamp created
+- Booking Timestamp created
 
 
 **In Progress**
 - Actual arrival time field updated
 - Actual travel duration field updated
 - Miles Traveled
-- Timestamp created
+- Booking Timestamp created
 
 
 **On Break**
-- Timestamp created
+- Booking Timestamp created
 
 
 **Completed**
-- End time field updated
+- End time updated
 - Total duration in progress updated
-- Total Cost
-- Total Billable Duration
-- Total Duration In Progress
+- Total cost
+- Total billable duration
+- Total duration in progress
 - Total Break Duration
-- Booking journals
-- Timestamp created
+- Booking Journals created. Booking Journals use Booking Timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking Journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the Bookable Resource record.
+- Booking Timestamp created
 
 
-## Estimate Work Order Sub-status
+## Estimate Work Order Substatus
 
 A field service organization would like to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
 
