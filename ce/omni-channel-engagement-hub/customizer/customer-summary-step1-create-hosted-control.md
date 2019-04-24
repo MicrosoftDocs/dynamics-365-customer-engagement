@@ -48,7 +48,7 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
     |-----------------------------------------------|---------------------------------|
     | Name                                | Customer Summary |
     | Sort Order | 30 |
-    | Display Name | \[\[$Resources.SessionOverviewHCDisplayName\]\] |
+    | Display Name | Customer Summary |
     | Unified Service Desk Component Type | Unified Interface Page |
     | Hosting Type | Chrome Process |
     | Pre-Fetch | Select the check box |

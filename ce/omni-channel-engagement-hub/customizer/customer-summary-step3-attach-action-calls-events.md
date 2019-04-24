@@ -58,7 +58,7 @@ This topic describes how to attach the customer summary-related action calls to 
     | BrowserWindowReady | <ul> Initialize Omni-channel Context - Window Variable - Customer Summary </ul> |
     | OmnichannelSessionInlineSearchAndLink | <ul> Update Conversation Context Entities </ul> |
     | Refresh | <ul> Initialize Omni-channel Context - Window Variable - Customer Summary </ul> |
-    | CreateCustomerSession | <ul> Omni-channel Session Accepted <ul> Sub action calls <ul> <li> Show Dashboards On Data Available </li> <li>Load Customer Summary</li> </ul></ul></ul> |
+    | CreateCustomerSession | <ul> Omni-channel Session Accepted <ul> Sub action calls <ul> <li> Show Dashboards On Data Available </li> <ul> Sub action calls  <ul><li>Load Customer Summary</li></ul></ul></ul> |
     | OmnichannelFetchContextEntitiesOnUpdate | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities on Update</li> <li>Initialize Omni-channel Context - Window Variable - Customer Summary</li> <li>Refresh Customer Summary Controls</li> </ul> |
 
 > [!div class="nextstepaction"]
