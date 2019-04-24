@@ -128,34 +128,34 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 
 ### Work order system status processes
 
-**Open – Completed**
+#### Open – Completed
 - Used work order products are converted to new customer assets if applicable. This is accomplished by setting the **Convert to Customer Asset** field on the published product record to **Yes**.
 - Travel charge item is added to work order products if applicable. See [this topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations) for more details.
 
-**Closed – Posted**
+#### Closed – Posted
 - Invoice is generated for billing account and Actuals records are created. Actuals are line items of goods, services, and costs.
 
 
 ### Booking status processes
 		
-**Scheduled**
+#### Scheduled
 - Miles Traveled updated, calculated as the driving distance from the previous location to the booking location (typically the work order location).
 - Booking Timestamp created. Booking Timestamps track the date and time of all booking status changes.
 
 
-**Traveling**
+#### Traveling
 - Booking Timestamp created.
 
-**In Progress**
+#### In Progress
 - Actual arrival time field updated with the date and time the booking status was changed.
-- Actual travel duration field updated, calculated as the total time the booking status is **Traveling**.
+- Actual travel duration field updated, calculated as the total time the booking status is 
+**Traveling**.
 - Booking Timestamp created.
 
-
-**On Break**
+#### On Break
 - Booking Timestamp created.
 
-**Completed**
+#### Completed
 - End time updated
 - Total duration in progress updated, calculated as the total time the booking status is **In progress**.
 - Total break duration updated, calculated as the total time the booking status is **On Break**.
@@ -171,11 +171,11 @@ A field service organization would like to utilize work orders for estimating po
 
 First, go to **Field Service > Settings > Work Order Substatuses > then select +New**
 
-**Name:** "Estimate
+**Name:** enter Estimate.
 
-**System Status:** Open-Unscheduled. When the field service organization is building a work order
+**System Status:** enter Open-Unscheduled. When the field service organization is building an estimated work order, this is before it should be scheduled to a resource, therefore, this substatus will relate to the Open-Unscheduled system status.
 
-**Default Substatus:**
+**Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status up Open-Unscheduled. Because work orders are given a system status of Open-Unscheduled when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**.
 
 
 ## Delayed Booking Status
