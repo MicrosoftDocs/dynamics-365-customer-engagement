@@ -2,7 +2,7 @@
 title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
-ms.date: 04/22/2019
+ms.date: 04/24/2019
 ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
 author: susikka
 ms.author: susikka
-manager: annbe
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 
@@ -41,6 +41,8 @@ In addition to datacenter specific (regional) discovery services that are availa
 > It is recommended that users switch from the legacy regional discovery service (`https://disco.crm.dynamics.com`) to global discovery service (`https://globaldisco.crm.dynamics.com`).
 >
 > For Dynamics 365 US Government users, the global discovery service is available only for the **GCC** users and the URL is `https://globaldisco.crm9.dynamics.com`. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
+
+For more information on global discovery service, see [Global discovery service](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api#global-discovery-service).
   
 ## Information provided by the Discovery service
 
