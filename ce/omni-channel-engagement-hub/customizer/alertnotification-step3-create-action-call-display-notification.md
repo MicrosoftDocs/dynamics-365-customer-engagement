@@ -154,16 +154,16 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Order          | 15                                          |
  | General        | Hosted Control | Communication Panel                         |
  | General        | Action         | OmnichannelSessionAccepted                  |
- | General        | Data           | ConversationId=\[\[cid\\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
- | Advanced | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
+ | General        | Data           | ConversationId=\[\[cid\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
+ | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] \|\| '\[\[CanActivateSession\]+\]' == 'True' |
 
 ## Omni-channel Presence status**
 
  | Tab            | Field          | Value                        |
  |----------------|----------------|------------------------------|
  | General        | Name           | Omni-channel Presence Status |
- | General        | Hosted Control | OmniChannelHostedControl     |
- | General        | Action         | OCPresenceUpdate             |
+ | General        | Hosted Control | Communication Panel     |
+ | General        | Action         | OmnichannelPresenceUpdate             |
 
 ## ExecuteKBSearchOnDataAvailable**
 
@@ -175,15 +175,6 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Hosted Control | CRM Global Manager              |
  | General        | Action         | ExecuteOnDataAvailable          |
  | General        | Data           | milliseconds=5000 <br> \[\[$Context.PRECHATANSWER3\]\]  |
-
-## FireSessionTimer**
-
- | Tab            | Field          | Value            |
- |----------------|----------------|------------------|
- | General        | Name           | FireSessionTimer |
- | General        | Order          | 20               |
- | General        | Hosted Control | SessionTimer     |
- | General        | Action         | FireEvent        |
 
 ## Load Default Agent Script**
 
@@ -198,10 +189,10 @@ This topic describes how to create Omni-channel Alert Notification-related actio
 ## Load Agent Session Search Page
 
  | Tab           | Field        | Value        |
- |---------------|---------------|------------------------------------------------------|
- | General        | Name          | Load Agent Session Search Page With Condition |
- | General        | Order         | 20                                           |
- | General        | Hosted Control| AgentSessionSearchPage |
+ |---------------|-----------------|------------------------------------------------------|
+ | General        | Name           | Load Agent Session Search Page |
+ | General        | Order          | 20                                           |
+ | General        | Hosted Control | Omni-channel Advanced Search |
  | General        | Action         | Navigate |
  | General        | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off|
 
