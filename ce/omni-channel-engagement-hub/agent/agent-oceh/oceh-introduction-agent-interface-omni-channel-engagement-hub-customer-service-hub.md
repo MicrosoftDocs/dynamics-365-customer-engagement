@@ -130,11 +130,14 @@ The sitemap displays the following record types:
 
  - **Open work items**
 
-   In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, the system moves the work item from the **Open work items** stream to the **My work items** stream, and you can see the message **Work item picked successfully. Work item: < subject of work item >**. Your presence status is updated and the capacity is automatically blocked.
+   In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself.
 
  - **Closed work items**
 
    In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+
+   To learn more, see #### [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
+
 
 ## 5. Navigation bar buttons
 
