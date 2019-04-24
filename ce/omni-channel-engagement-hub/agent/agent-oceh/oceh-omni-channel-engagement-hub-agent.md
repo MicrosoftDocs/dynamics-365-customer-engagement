@@ -30,7 +30,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 - [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
 - [View communication panel](oceh-conversation-control.md)
 - [Set user presence](oceh-set-user-presence-status.md)
-- [View notifications and screen pops](oceh-notifications-screen-pops.md)
+- [View alert and toast notifications](oceh-notifications-screen-pops.md)
 - [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 - [Take notes specific to conversation](oceh-take-notes.md)
