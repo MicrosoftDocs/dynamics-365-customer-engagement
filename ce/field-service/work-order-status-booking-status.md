@@ -128,29 +128,35 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 
 #### Work order system status processes
 
-Open – Unscheduled
-Open – Scheduled
-Open - In Progress
-Open – Completed
-- Applicable used work order products and services become customer assets
-- Travel charge item is added to work order products if applicable
-Closed – Posted
-- Invoice is generated for billing account + Actuals.
-Closed – Canceled
+**Open – Completed**
+- Used work order products are converted to new customer assets if applicable. This is accomplished by setting the **Convert to Customer Asset** field on the published product record to **Yes**.
+- Travel charge item is added to work order products if applicable. See [this topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations) for more details.
+
+**Closed – Posted**
+- Invoice is generated for billing account and Actuals records are created. Actuals are line items of goods, services, and costs.
+
 
 #### Booking status processes
 		
 **Scheduled**
 - Timestamp created
+
+
 **Traveling**
 - Timestamp created
+
+
 **In Progress**
 - Actual arrival time field updated
 - Actual travel duration field updated
 - Miles Traveled
 - Timestamp created
+
+
 **On Break**
 - Timestamp created
+
+
 **Completed**
 - End time field updated
 - Total duration in progress updated
@@ -160,7 +166,7 @@ Closed – Canceled
 - Total Break Duration
 - Booking journals
 - Timestamp created
-**Canceled**
+
 
 ## Estimate Work Order Sub-status
 
