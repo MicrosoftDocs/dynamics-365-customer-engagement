@@ -1,5 +1,5 @@
 ---
-title: "Create communication panel entity search forms | MicrosoftDocs"
+title: "Create communication panel entity search | MicrosoftDocs"
 description: "Learn how to create the communication panel entity search forms."
 author: kabala123
 ms.author: kabala
@@ -12,13 +12,13 @@ ms.assetid: 5ad92775-6091-4385-a661-22f6b4ab0cf3
 ms.custom: 
 ---
 
-# Step 1: Create communication panel entity search forms
+# Step 1: Create communication panel entity search
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to create a communication panel entity search forms in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to create a communication panel entity search in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
@@ -32,7 +32,7 @@ This topic describes how to create a communication panel entity search forms in 
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
  
-## Create entity search forms
+## Create entity search
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
