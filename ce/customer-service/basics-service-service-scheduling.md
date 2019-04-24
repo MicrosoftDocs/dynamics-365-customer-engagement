@@ -188,7 +188,7 @@ Make sure that you have the required security role or equivalent permissions.
 ## Access scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
 
-- Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types
+- Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
 
   > [!div class=mx-imgBorder]
   > ![access-service-scheduling](media/access-service-scheduling-csh.png)
