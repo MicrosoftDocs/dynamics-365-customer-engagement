@@ -22,10 +22,11 @@ The topic illustrates how you can integrate a bot that can start a conversation 
 
 ## Prerequisites
 
-Following conditions need to be met for a bot to be onboarded to Omni-Channel Engagement Hub as an agent
-1.	The bot must be developed using Microsoft Bot Framework
-2.	The bot must be registered with Azure bot service
-3.	The bot must be configured to have  Teams channel
+Following conditions need to be met for a bot to be onboarded to Omni-Channel Engagement Hub as an agent.
+
+-	The bot must be developed using Microsoft Bot Framework
+-	The bot must be registered with Azure bot service
+-	The bot must be configured to have  Teams channel
 
 ## Create your bot’s reply activity 
 
@@ -149,9 +150,13 @@ IActivity activity = CreateEndConversationReplyActivity(context, "Customer ended
 Following points should be kept in mind while modelling the bot agent in Omni-Channel Engagement Hub.
 
 1.	In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked by the bot first.
+
 2.	In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.
+
 3.	In case of the event where a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. So, it is suggested to have few human agents configured as backup in the bot queue to handle such chats.
+
 4.	Bot agents are not supported in consult mode in current release.
+
 5.	Unlike other Omni-Channel Engagement Hub agents, bots are not added to `default` queue at the outset. But, they can be added from the Administration hub, if required.
 
 ## See also
