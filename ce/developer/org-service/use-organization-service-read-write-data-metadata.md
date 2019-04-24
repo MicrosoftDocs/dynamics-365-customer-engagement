@@ -29,24 +29,8 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
  To use the `IOrganizationService` web service, add a reference to the Microsoft.Xrm.Sdk.dll assembly to your [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] project. To access the non-core xRM messages, add a reference to the Microsoft.Crm.Sdk.Proxy.dll assembly to your project also. Alternatively, add the service reference to your project. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Developer resources page](../developer-resources-page.md)
   
 ## In This Section  
- [IOrganizationService Methods](organization-service-methods.md)  
-  
- [Use Messages](use-messages-request-response-classes-execute-method.md)  
-  
  [Use Execute Multiple to Improve Performance](use-executemultiple-improve-performance-bulk-data-load.md)  
-  
- [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)  
-  
- [Microsoft.Crm.Sdk Data Messages](organization-service-messages.md)  
-  
- [Perform specialized operations using Update](perform-specialized-operations-using-update.md)  
-  
- [IOrganizationService Entities](organization-service-entities.md)  
-  
- [Sample: Execute Multiple Requests](sample-execute-multiple-requests.md)  
-  
- [Sample: Execute multiple requests in transaction](sample-execute-multiple-requests-transaction.md)  
-  
+ 
 ## Related Sections  
  [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)  
   
