@@ -62,7 +62,7 @@ The administrator must enable email engagement before you can try it out. Email 
 Using this information, [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] shows you the full interaction history for any message, and calculates key performance indicators (KPIs). 
 
 > [!NOTE]
-> The actions that are performed on email are stored data storage specific to Email engagement in Microsoft Azure. This data storage is unique for each organization. If an organization is restored to another organization, the interaction history of previous organization will not be displayed in the restored organization.
+> The actions that are performed on email are stored in Microsoft Azure Storage. This storage is unique for each organization. If an organization is restored to another organization, the history of the actions that are performed on email of previous organization will not be displayed in the restored organization.
 
 > [!IMPORTANT]
 >  You should treat all email interaction data as approximations. The system can only register an email-open event if the recipient also downloads the message's images (including the invisible GIF), so the actual number of opens could be larger than the number recorded in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. Similarly, if images are cached (which is typical for web-based email clients), then additional opens may not get reported to [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)].  
