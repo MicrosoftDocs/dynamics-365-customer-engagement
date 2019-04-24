@@ -60,7 +60,7 @@ Lets explore work order and booking statuses with the following scenarios:
 
 2. **Estimate work order**. A field service organization would like to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
 
-3. **Delayed schedules**. Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to traffic or longer than expected work by changing the status of their bookings to "Delayed".
+3. **Delayed schedules**. Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to longer than expected work by changing the status of their bookings to "Delayed".
 
 4. **Follow up work orders**. It is common for a field service organization to schedule a follow up inspection after an initial installation or repair work order. If a follow up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back office workers create a follow up before closing the work order.
 
@@ -179,13 +179,31 @@ First, create a new work order substatus by going to **Field Service > Settings 
 
 Next time a work order is created, this substatus will populate automatically or be available in the substatus lookup. This lets dispatchers and other stakeholders know this work order is a "work in progress" and not agreed upon yet with the customer as the work order creator adds tasks, products, services, and other relevant data.
 
-Next, it is important that dispatchers do not schedule estimate work orders. One way to achieve this is to remove esitmate work orders from the Unscheduled Work Orders view on the schedule board.
+Next, it is important that dispatchers do not schedule estimate work orders as they are not ready yet. One way to achieve this is to remove esitmate work orders from the Unscheduled Work Orders view on the schedule board.
 
-To accomplish this go to Settings > Customizations > 
+To accomplish this go to Settings > Customizations > Customize the System > Entities > Resource Requirements > Views.
+
+
+Next, edit the Unscheduled Work Order Requirements view to filter out requirements related to work orders where the substatus equals estimate.
+
+This will remove estimate work orders from the lower pane in the schedule board among other places.
 
 ## Delayed Booking Status
 
-### Relationship between Work Order System Status and Booking Status
+Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to longer than expected work by changing the status of their bookings to "Delayed". This will help dispatchers manage the remaining bookings for that resource for the rest of the day by running [Single Resource Optimization](../field-service/single-resource-optimization) or triggering automated messages to the next customer.
+
+First, go to **Resource Scheduling > Settings > Booking Statuses > +New**
+
+**Name:** enter Delayed
+
+**Status:** select Committed
+
+**Status Color:** choose a color. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
+
+**Image URL:**
+
+**Field Service Status:** select Traveling.
+
 
 ## Follow up Work Order Sub-status
 
