@@ -52,22 +52,6 @@ You see a toast notification for the case request. Therefore, the following even
 
  - Create an event and action when an agent does not act, and the notification hides after a brief wait time.
 
-## Create an event to open a session when the agent selects the toast notification
-
-You must define an event and attach the action calls for an agent to select the case request notification. When the agent selects the notification, the agent will experience the following actions:
-
--  The notification closes.
-
--  The right panel expands.
-
--  Omni-channel customer session is created.
-
--  The communication control panel does not load as it is not a chat request.
-
--  Load the form of the case
-
--  Load the Omni-channel session for the case entity
-
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
 

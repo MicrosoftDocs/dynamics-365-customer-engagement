@@ -55,7 +55,7 @@ This topic describes how to attach Omni-channel Toast Notification related actio
 |                              | CollapseLeftPanel                      |
 |                              | Load Form for Case Entity              |
 |                              | OCSetSessionTabIdForEntitySession      |
-| Show Foo Entity Notification | OmniChannelHostedControl               |
+| Show Entity Notification | Show Entity Notification                |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)

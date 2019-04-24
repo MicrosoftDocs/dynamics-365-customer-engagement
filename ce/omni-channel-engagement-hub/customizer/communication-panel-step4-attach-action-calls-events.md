@@ -76,7 +76,7 @@ This topic describes how to attach communication panel-related action calls to t
     | OmnichannelSwitchToGlobalSession | <ul>Focus on Omni-channel Agent Dashboard</ul> |
     | OmnichannelUpdatePresenceGlobalContext | <ul> <li>Update Old Presence Status In Settings</li> <li>Update Current Presence Status In Settings</li></ul> |
     | OmnichannelUpdatePresenceParameters | <ul> <li>Update Current Presence Status In Settings</li> <li>Update All Presence State In Settings</li> </ul> |
-    | ShowEntityNotification | <ul> <li>ShowCaseEntityNotification</li> <li>ShowDefaultEntityNotification</li> </ul> |
+    | EntityNotification | <ul> <li>ShowCaseEntityNotification</li> <li>ShowDefaultEntityNotification</li> </ul> |
     | UnreadMessage | <ul> Omni-channel Unread Message Action </ul> |
     | UpdatePresence | <ul> Omni-channel Update Presence </ul> |
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |

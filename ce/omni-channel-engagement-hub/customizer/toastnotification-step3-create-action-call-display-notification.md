@@ -101,7 +101,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Order           | 12                |
  | General | Hosted Control  | Custom Panel      |
  | General | Action          | SetVisualProperty |
- | General | Data            | elementname=LeftPanelParent <br>  propertyname=Visibility <br> value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' || '\[\[$Context.ISENTITYSESSION\]+\]'=='True' || '\[\[$Session.IsGlobal\]+\]'=='True' || '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible")  |
+ | General | Data            | elementname=LeftPanelParent <br>  propertyname=Visibility <br> value=$Expression('\[\[$Context.IsCaseSession\]+\]'=='True' \|\| '\[\[$Context.ISENTITYSESSION\]+\]'=='True' \|\| '\[\[$Session.IsGlobal\]+\]'=='True' \|\| '\[\[$Context.cticallincoming\]+\]'=='1'? "Collapsed" : "Visible")  |
 
 ## Load Form for Entity 
 
@@ -109,7 +109,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  |-----------------|-----------------|----------------------------------------|
  | General | Name            | Load Form for Entity              |
  | General | Order           | 30                                     |
- | General | Hosted Control  | FOO Entity Page                        |
+ | General | Hosted Control  | Entity Page                        |
  | General | Action          | Open\_CRM\_Page                        |
  | General | Data            | LogicalName=\[\[EntityLogicalName\]+\] <br> id=\[\[EntityId\]+\]  |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
@@ -133,7 +133,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Order | 10 |
  | General | Hosted Control | Omni-channel Toast Notification |
  | General | Action         | Show | 
- | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=\[\[$Resources.SessionErrorToastNotificationText\]+\] <br> NotificationIcon=new_omni_toast_error_icon |
+ | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=To open this incoming conversation in a session, close an existing session. <br> NotificationIcon=new_omni_toast_error_icon |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
 ## Omni-channel Session Timeout 

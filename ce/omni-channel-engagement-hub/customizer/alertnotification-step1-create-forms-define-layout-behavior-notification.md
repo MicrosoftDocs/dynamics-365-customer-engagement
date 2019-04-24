@@ -1801,15 +1801,6 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
  </Grid>
 </Border>
 ```
-<!-- ## Show simple chat request from supervisor Alert Notification
-
-| Field     | value                      |
-|-----------|----------------------------|
-| Name      | SimpleChatRequestFromSupervisorForm |
-| Order     | 6                         |
-| Markup    | Copy and paste the XML content as shown below |
-  
--->
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
