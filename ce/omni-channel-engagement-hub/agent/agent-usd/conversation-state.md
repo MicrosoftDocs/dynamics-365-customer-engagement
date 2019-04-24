@@ -71,7 +71,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 | From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Waiting       | Closed           | When you don't reconnect to the conversation with in a specified timeout period.<br><br> When the customer selects the **End** button to end the conversation and close the session.| Conversation. |
-| Waiting       | Active           | When you revive the session from your **My work items** stream on **My Dashboard**. | Conversation |
+| Waiting       | Active           | When you revive the session from your **My work items** stream on **Omni-channel Agent Dashboard**. | Conversation |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period. | Conversation |
 
 ![Transition from waiting to closed, active, or open state](../../media/oc-conversation-waiting.png "Waiting state")

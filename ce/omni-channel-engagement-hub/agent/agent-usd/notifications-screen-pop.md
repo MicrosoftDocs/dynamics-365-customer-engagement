@@ -55,9 +55,6 @@ Toast notifications or floating notifications appear for SMS, email, voice call,
 
 An alert notification appears as a dialog box that contains buttons. When you select the **Accept** button, a screen pop appears and shows Customer summary details. You must take action within a specific time. After that time passes, the screen pop disappears. If your business requires an auto-accept request for an incoming request based on the routing rules, the alert notification doesn't contain buttons.
 
-> [!div class=mx-imgBorder]
-> ![omni-channel alert notification](../../media/oc-usd-alert-notification.png "omni-channel alert notification")  
-
 ##### Incoming chat notification
 
 When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
