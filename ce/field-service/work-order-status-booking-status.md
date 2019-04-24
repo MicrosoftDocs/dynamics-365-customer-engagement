@@ -169,7 +169,7 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 
 A field service organization would like to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
 
-First, go to **Field Service > Settings > Work Order Substatuses > then select +New**
+First, create a new work order substatus by going to **Field Service > Settings > Work Order Substatuses > then select +New**
 
 **Name:** enter Estimate.
 
@@ -177,6 +177,11 @@ First, go to **Field Service > Settings > Work Order Substatuses > then select +
 
 **Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status up Open-Unscheduled. Because work orders are given a system status of Open-Unscheduled when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**.
 
+Next time a work order is created, this substatus will populate automatically or be available in the substatus lookup. This lets dispatchers and other stakeholders know this work order is a "work in progress" and not agreed upon yet with the customer as the work order creator adds tasks, products, services, and other relevant data.
+
+Next, it is important that dispatchers do not schedule estimate work orders. One way to achieve this is to remove esitmate work orders from the Unscheduled Work Orders view on the schedule board.
+
+To accomplish this go to Settings > Customizations > 
 
 ## Delayed Booking Status
 
