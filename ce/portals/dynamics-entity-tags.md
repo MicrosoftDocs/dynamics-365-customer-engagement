@@ -131,7 +131,7 @@ If you have defined roles in Power BI and assigned them to reports, you must spe
 {% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000000/ReportSection2" roles:"Region_East,Region_West" %}
 ```
 
-If you have assigned a role to a Power BI report and don't specify the **roles** parameter in the Liquid tag or don't specify a role in the parameter, an error is displayed.
+If you've assigned a role to a Power BI report, and didn't specify the **roles** parameter in the Liquid tag or didn't specify a role in the parameter, an error is displayed.
 
 > [!TIP]
 > If you want to use the web roles defined in your portal as the Power BI roles, you can define a variable and assign web roles to it. You can then use the defined variable in the Liquid tag.
