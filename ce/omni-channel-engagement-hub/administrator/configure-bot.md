@@ -39,28 +39,24 @@ To integrate a bot with Omni-channel Engagement Hub, you must:
 
 ### Step 1: Create a bot user
 
-Creating a bot user is supported in the Web Client only. A bot user is created as an application user and assigned with the Omni-channel agent role. To create a bot user, you must have the following information available:
+A bot user is created as an application user and assigned with the **Omni-channel agent** role. Creating an application user is supported in the Web Client only. To create a bot user, you must:
 
-- Application ID of your Dynamics 365 for Customer Engagement app that is registered in Azure Active Directory (Azure AD).
-- Bot application ID of your bot.
+1.	Get the Microsoft App ID of the bot.
+2.	Create an application user and add bot specific information to the application user.
+
+To get Microsoft App ID of the bot:
+
+1.	Open [https://portal.azure.com](https://portal.azure.com) and select **Bot Services** in the **All services** section.
+
+2.	Search for **Bot Channels Registration** in the list and select it.
+
+3.	Select **Settings** and then copy the value in the **Microsoft App Id** field. This value is your bot's application ID to be used while creating a bot user.
 
 To create a bot user:
 
-1.	Sign in to the Dynamics 365 for Customer Engagement app.
+1.	[Create an application user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
-2.	Go to **Settings** > **Security**.
-
-3.	Select **Users**.
-
-4.	Change the view to **Application Users**.
-
-5.	Select **New**.
-
-6.	On the **New User** page, enter the following information:
-    - **Name**: Name of the bot user.
-    - **Application ID**: Application ID of your Dynamics 365 for Customer Engagement app from Azure AD.
-    - **Full Name**: Full name of the bot user.
-    - **Primary Email**: Email of the bot user.
+6.	On the **New User** page, enter or select the following information for bot:
     - **Agent type**: Select **Bot**.
     - **Bot application ID**: Bot's application ID from Azure AD.
 
@@ -72,20 +68,17 @@ To create a bot user:
 
 ### Step 2: Create a work stream and context variable
 
-You must create a work stream and the required context variable for the bot handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. You must create a context variable named **BotHandoffTopic**. This context variable will be used in [Step 4](#step-4-create-routing-rules) when you create routing rules. For information on creating a work stream and context variables, see [Understand and create work streams](work-streams-introduction.md).
-
-> [!NOTE]
-> If you want to use any other context variable, it must be updated in the bot code.
+You must create a work stream and the required context variables for the bot handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. You must create a context variable that is used by a bot to engage in a conversation and while escalating a customer query to a human agent. This context variable will be used in [Step 4](#step-4-create-routing-rules) when you create routing rules. For information on creating a work stream and context variables, see [Understand and create work streams](work-streams-introduction.md).
 
 ### Step 3: Create queues
 
-Queues distribute the incoming customer queries among bots and agents. You must add a bot user as the first user in the queue, followed by the agents. You can also create multiple queues for bot users and agents. For information on creating a queue, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
+Queues distribute the incoming customer queries among bots and agents. You must add the bot user with the highest capacity among all users in queue. This ensures that the bot user receives the customer query first. If the bot user escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. You can also create multiple queues for bot users and agents. For information on creating a queue, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
 
 ### Step 4: Create routing rules
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable (as defined in [Step 2](#step-2-create-a-work-stream-and-context-variable)).
 
-You must set the value of the **BotHandoffTopic** context variable to **Does Not Contain Data** for a bot to engage in a conversation. Set the value of the context variable to any other value as per the requirement to route the conversation to a human agent. You must keep the routing rule that maps to the queue containing a bot user as the first routing rule.
+Bots are developed to receive customer queries first, gain information of the query, and then pass the query to a human agent, if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with bot user. 
 
 Ensure to map the routing rules to the correct queues so that the queries are routed appropriately. For information on creating a routing rule, see [Create and manage routing rules](routing-rules.md).
 
