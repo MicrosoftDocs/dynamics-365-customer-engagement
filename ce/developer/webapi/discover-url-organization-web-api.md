@@ -29,10 +29,10 @@ The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynam
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 >
-> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Discover the URL for your organization using Web API](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api). The code sample that shows how to use the Web API Global discovery service can be found here: [Web API Global Discovery Service sample (C#)](/powerapps/developer/common-data-service/webapi/samples/global-discovery-service-csharp).
+> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Discover the URL for your organization using Web API](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api).
 
 Clients applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one on-premises datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
-  
+<!--  
 ## Global discovery service
 
 In addition to datacenter specific (regional) discovery services that are available on the 2011 (SOAP) endpoint and through the Web API, there is also a Web API only *global* discovery service that spans all operational datacenters. For information about the regional discovery services on the 2011 endpoint, see  [Discover the URL for your organization using the Discovery Service](../org-service/discover-url-organization-organization-service.md)
@@ -43,7 +43,7 @@ In addition to datacenter specific (regional) discovery services that are availa
 > For Dynamics 365 US Government users, the global discovery service is available only for the **GCC** users and the URL is `https://globaldisco.crm9.dynamics.com`. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
 
 For more information on global discovery service, see [Global discovery service](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api#global-discovery-service).
-  
+  -->
 ## Information provided by the Discovery service
 
 Organization information is stored in the `Instance` entity of the Discovery service.  To see the kind of information contained in that entity, send an HTTP GET request to the service for one of your instances.  
@@ -52,11 +52,11 @@ Organization information is stored in the `Instance` entity of the Discovery ser
 GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
 ```  
   
-In the above example, the global Discovery service of  is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
+In the above example, the discovery service is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
   
 ### Scope of the returned information
 
-For the global Discovery service, the `Instances` entity set, returns the set of instances that the user has access to across all geographies, when no filters are applied.   The returned data has a scope as described below.  
+For the global Discovery service, the `Instances` entity set, returns the set of instances that the user has access to across all geographies, when no filters are applied. The returned data has a scope as described below.  
   
 -   Includes all instances in the commercial cloud where the user is provisioned and enabled, except sovereign clouds instances are not returned  
   
