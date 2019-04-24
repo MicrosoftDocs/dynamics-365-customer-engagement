@@ -59,12 +59,12 @@ This topic demonstrates how to create communication panel-related action calls i
 
 ## Omni-channel Clear Entity List
 
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Omni-channel Clear Entity List      |
-    | General | Order | 1 |
-    | General | Hosted Control | CRM Global Manager |
-    | General | Action         | ClearEntityList    |
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name           | Omni-channel Clear Entity List      |
+   | General | Order | 1 |
+   | General | Hosted Control | CRM Global Manager |
+   | General | Action         | ClearEntityList    |
 
 ## Omni-channel Fetch Live Work Streams
 
