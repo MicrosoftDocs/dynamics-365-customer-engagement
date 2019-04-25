@@ -140,23 +140,33 @@ During work, the field technician may want to record times he or she is on break
 For both **In Progress** and **On Break** booking statuses, the work order system status remains in **Open - In Progress**.
 
 
-When the work is complete, the field technician will change the booking status to **Completed** and this will change the related Work Order System Status to **Open-Completed**.
+When the work is complete, the field technician will change the booking status to **Completed**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-completed-mobile.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-booking-status-completed-schedule-board.png)
+
+In the image above, the color and icon reflect a completed status, the duration is updated to the actual duration of the booking, and the end time is updated to reflect the time the status was changed to completed.
+
+This will change the related Work Order System Status to **Open-Completed**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-open-completed.png)
 
 > [!Note]
-> If there are multiple bookings for a single work order, once all related booking have statuses of Completed including fi a portion are Canceled, the related work order will have a status of **Open - Completed**. 
+> If there are multiple bookings for a single work order, once all related booking have statuses of Completed including if some are Canceled, the related work order will have a status of **Open - Completed**. 
 
-Finally, a back office worker will review the completed work order ensure data was entered correctly, communicate with the customer, review survey results and more depending on the organization's specific business needs. The last step is to change the Work Order System Status to Closed-Posted. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-This is done only by office workers in the web interface. In fact, the out of the box resource secuirty roles prohibit field technicians from editing the Work Order System Status field on the Field Service Mobile app.
+Finally, a back office worker will review the completed work order ensure data was entered correctly, communicate with the customer, review survey results and more depending on the organization's specific business needs. The last step is to change the Work Order System Status to **Closed-Posted**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-closed-posted.png)
+
+Changing the work order system status to Closed-Posted is only performed by office workers in the web interface. In fact, the out of the box resource security roles prohibit field technicians from editing the Work Order System Status field on the Field Service Mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-system-status-mobile.png)
 
 Here is a table of the out of the box relationship between work order system statuses and booking statuses.
 
