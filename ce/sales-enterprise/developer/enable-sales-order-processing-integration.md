@@ -29,13 +29,13 @@ By default, sales order processing is turned off. When sales order processing is
 
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../developer/entities/organization.md) to Yes (1).
 
-## What happens when sales order processing integration is turned on?
+## 
 
 When sales order processing is turned on,  
 
-- Order records will no longer have a Create invoice action on the ribbon 
+- Order records will no longer have a Create invoice action on the ribbon. 
 
-- Order records will support a Submit order button. On, submitting an order, the order is marked to Submitted status; the order is made read-only except for an integration user (refer to IsIntegrationUser attribute on SystemUser entity).
+- Order records will support a Submit order button. Upon submitting an order, the order is marked to Submitted status. The order is made read-only except, if created by an integration user. For more information about IsIntegrationUser attribute, see [IsIntegrationUser attribute]() on [SystemUser entity]().
 
 ## See also
 
