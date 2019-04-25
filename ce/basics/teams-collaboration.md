@@ -102,15 +102,15 @@ You can return to these settings any time by selecting the **Settings** tab.
 
 
 
-## Open a record in Dynamics 365 for Customer Engagement apps
+## Open a record or view in Dynamics 365 for Customer Engagement apps
 
-It's easy to use Teams to open a record in Dynamics 365 for Customer Engagement apps. From a record pinned in a Teams channel, select the **Go to website** button to open the record in Dynamics 365 for Customer Engagement apps.
+It's easy to use Teams to open a record or view in Dynamics 365 for Customer Engagement apps. From the Dynamics 365 tab pinned in a Teams channel, select the **Go to website** button to open the record or view in Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
 
 ## Have a conversation
-You can chat with your team members side-by-side with the Dynamics 365 record page. From a record pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
+You can chat with your team members side-by-side with the Dynamics 365 tab. From the Dynamics 365 tab pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
 
 > [!div class="mx-imgBorder"] 
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
