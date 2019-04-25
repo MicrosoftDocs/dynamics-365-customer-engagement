@@ -39,20 +39,20 @@ This happens when the external app for Microsoft Teams service is not enabled by
 2. From the list of apps, select **Admin**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Admin portal](ts1.png "Admin portal")
+   > ![Admin portal]((media/ts1.png "Admin portal")
    
 3. From the menu select **Settings** > **Services & add-ins**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Setting and add-insl](ts2.png "Setting and add-ins")
+   > ![Setting and add-insl]((media/ts2.png "Setting and add-ins")
    
 4. Find Microsoft Teams and then enable **External Apps** > **Allow external app in Microsoft Teams**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Find Microsoft Teams](ts3.png "Find Microsoft Teams")
+   > ![Find Microsoft Teams]((media/ts3.png "Find Microsoft Teams")
    
    > [!div class="mx-imgBorder"] 
-   > ![Enable external apps](ts4.png "Enable external apps")
+   > ![Enable external apps]((media/ts4.png "Enable external apps")
    
 5. Restart Microsoft Teams and then try seaching for **Dynamics 365** again in the Teams app store.
 
