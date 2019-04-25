@@ -54,7 +54,6 @@ Follow these steps to upgrade Omni-channel app.
         > [!NOTE]
         > If the upgrade fails for one or more solutions, the system displays the message **Upgrade error**. Open the instance and select **Upgrade** to retry.
 
-
 ### See also
 
 [Manage updates in Dynamics 365](../../admin/manage-updates.md)
