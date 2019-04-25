@@ -272,16 +272,29 @@ First, create a new work order substatus by going to **Field Service > Settings 
 
 **Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status up Open-Unscheduled. Because work orders are given a system status of Open-Unscheduled when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-estimate.png)
+
 Next time a work order is created, this substatus will populate automatically or be available in the substatus lookup. This lets dispatchers and other stakeholders know this work order is a "work in progress" and not agreed upon yet with the customer as the work order creator adds tasks, products, services, and other relevant data.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-estimate-work-order.png)
 
 Next, it is important that dispatchers do not schedule estimate work orders as they are not ready yet. One way to achieve this is to remove esitmate work orders from the Unscheduled Work Orders view on the schedule board.
 
 To accomplish this go to **Settings > Customizations > Customize the System > Entities > Resource Requirements > Views**.
 
-
 Next, edit the Unscheduled Work Order Requirements view to filter out requirements related to work orders where the substatus equals estimate.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-edit-requirement-view.png)
 
 This will remove estimate work orders from the lower pane in the schedule board among other places.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-edit-requirement-view-schedule-board.png)
 
 ## Delayed Booking Status
 
@@ -293,10 +306,15 @@ First, go to **Resource Scheduling > Settings > Booking Statuses > +New**
 
 **Status:** select Committed
 
+work-order-status-booking-status-delayed
+
 **Status Color:** choose a color. This color will appear on the schedule board when the booking has this status. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
 
-**Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-booking-status-delayed-color.png)
+
+**Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-statuses-booking-icons-web-resource.png)
@@ -304,12 +322,20 @@ First, go to **Resource Scheduling > Settings > Booking Statuses > +New**
 
 **Field Service Status:** select Traveling. This means the new Delayed status applies to the travel portion of the field service booking process. If for example, we wanted a status to indicate when actual work was taking longer than expected, we could choose In Progress for the Field Service Status.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-booking-status-delayed-field-service-status.png)
+
 > [!Note]
 > Field Service Status is required when creating Booking Statuses for Field Service use cases. This allows the booking status to fit into the above work order processes. By default, only booking statuses with field service statuses are available for work order bookings, but this is editable in Booking Setup Metadata.
 
 **Save & Close**
 
 This means the new Delayed Booking Status will appear as an option on the Field Service Mobile for field technicians, and on the schedule board. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-booking-status-delayed-schedule-board.png)
 
 
 ## Follow up Work Order Sub-status
