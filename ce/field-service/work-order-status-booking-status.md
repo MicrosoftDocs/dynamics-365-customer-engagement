@@ -242,27 +242,7 @@ Options include:
 
 If you create a new custom Booking Status, then you should pick a scheduling method that relates to the field service booking status. As an example, the out of the box booking status, Traveling, has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our example above, our new Delayed booking status is related to the Traveling Field Service Status so its scheduling method should be sent to **Do Not Move** as well.
 
+see the topic on [RSO configuration](../field-service/rso-configuration) for more details.
 
-## Additional Notes
-> ### Related processes
-> When the Work Order System Statuses becomes:
-
-  > - Open - Unscheduled
-  > - Open - Scheduled
-  > - Open - In Progress
-  > - Open - Completed
-  > - Closed - Posted
-  > - Closed - Canceled
-
-  > When the Bookable Resource Booking, Booking Statuses becomes: 
-
-  > - Scheduled
-  > - Traveling
-  > - In Progress
-  > - On Break
-  > - Completed
-  > - Canceled
-
-
-See also
+### See also
 [Booking Statuses Blog](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)
