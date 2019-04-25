@@ -134,6 +134,9 @@ The communication panel allows you to consult with other agents and/or superviso
 
 You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
+> [!Note]
+> We recommend inviting a maximum of five consulting agents when conversing with the customer.
+
 ### Search for consulting participants
 
 After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
