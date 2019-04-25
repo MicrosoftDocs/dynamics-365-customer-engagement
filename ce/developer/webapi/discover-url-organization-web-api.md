@@ -56,7 +56,7 @@ In the above example, the discovery service is used to obtain the organization i
   
 ### Scope of the returned information
 
-For the global Discovery service, the `Instances` entity set, returns the set of instances that the user has access to across all geographies, when no filters are applied. The returned data has a scope as described below.  
+For the regional discovery service, the `Instances` entity set, returns the set of instances that the user has access to in a particular geography, when no filters are applied. The returned data has a scope as described below.  
   
 -   Includes all instances in the commercial cloud where the user is provisioned and enabled, except sovereign clouds instances are not returned  
   
