@@ -35,7 +35,7 @@ When sales order processing is turned on,
 
 - Order records will no longer have a Create invoice action on the ribbon. 
 
-- Order records will support a Submit order button. Upon submitting an order, the order is marked to `Submitted` status. The order is made read-only except, if created by an integration user. For more information about IsIntegrationUser attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on [SystemUser entity](../../developer/entities/systemuser.md).
+- Order records will support a Submit order button. Upon submitting an order, the order is marked to `Submitted` status. The order is made read-only except, if created by an integration user. For more information about `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on [SystemUser entity](../../developer/entities/systemuser.md).
 
 ## See also
 
