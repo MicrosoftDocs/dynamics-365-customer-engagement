@@ -12,15 +12,6 @@
       href: use-executemultiple-improve-performance-bulk-data-load.md
   - name: Create early bound entity classes
     href: create-early-bound-entity-classes-code-generation-tool.md
-  - name: Use the late bound entity class in code
-    href: use-late-bound-entity-class-code.md
-    items:
-    - name: Use the Entity class for create, update and delete
-      href: use-entity-class-create-update-delete.md
-    - name: Use the Entity class to add or update associations between related records
-      href: use-entity-class-add-update-associations-records.md
-    - name: 'Sample: Create, retrieve, update, and delete (late bound)'
-      href: sample-create-retrieve-update-delete-late-bound.md
   - name: Retrieve data with queries using SDK assemblies
     href: retrieve-data-queries-sdk-assemblies.md
     items:
