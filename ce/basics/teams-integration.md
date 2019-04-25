@@ -35,7 +35,7 @@ Watch this video short video for a quick overview.
 > [!VIDEO https://www.youtube.com/embed/U11x5BlQlDU]
 
 
-The Dynamics 365 app for Teams allows users to collaborate more effectively using Microsoft Teams. 
+The Dynamics 365 app for Teams allows users to collaborate more effectively using Microsoft Teams and provide these benefits:
 
 - **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
