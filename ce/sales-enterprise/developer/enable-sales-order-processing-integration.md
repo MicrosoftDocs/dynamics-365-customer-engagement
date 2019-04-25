@@ -1,0 +1,44 @@
+---
+title: "Enable sales order processing integration (Dynamics 365 for Sales) | MicrosoftDocs"
+description: ""
+keywords: sales, developer guide
+ms.date: 04/25/2019
+ms.service:
+  - dynamics-365-sales
+ms.custom:
+  - dyn365-sales
+ms.topic: get-started-article
+applies_to:
+  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 for Customer Engagement apps version 9.x
+ms.assetid: 94DFA02D-0793-48AA-B3E4-D5E61F0330CD
+author: susikka
+ms.author: susikka
+manager: shujoshi
+ms.reviewer: susikka
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 5
+topic-status: Drafting
+---
+# Enable sales order processing integration
+
+Sales order processing integration makes it convenient to connect Dynamics 365 for Sales with an external back office order processing application. It allows a sales order created on Dynamics 365 for Sales to be submitted, upon which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 for Sales except, if submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 for Sales). 
+
+By default, sales order processing is turned off. When sales order processing is turned off, the application allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
+
+You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../developer/entities/organization.md) to Yes (1).
+
+## What happens when sales order processing integration is turned on?
+
+When sales order processing is turned on,  
+
+- Order records will no longer have a Create invoice action on the ribbon 
+
+- Order records will support a Submit order button. On, submitting an order, the order is marked to Submitted status; the order is made read-only except for an integration user (refer to IsIntegrationUser attribute on SystemUser entity).
+
+## See also
+
+[Organization entity reference]()<br />
+[System user entity reference]()<br />
+[Quote, order and invoice entities]()
