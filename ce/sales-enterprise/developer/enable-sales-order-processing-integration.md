@@ -27,6 +27,8 @@ Sales order processing integration makes it convenient to connect Dynamics 365 f
 
 By default, sales order processing is turned off. When sales order processing is turned off, the application allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
 
+## Enable sales order processing integration
+
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../developer/entities/organization.md) to Yes (1).
 
 ## What happens when sales order processing is turned on?
