@@ -50,12 +50,26 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-   
-
     Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement   apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement     apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement  apps.
 
     > [!div class="mx-imgBorder"] 
     > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
+   
+    
+**Two connection states** 
+
+There are two connection states possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
+
+The successful connection state indicates that the connection was successfully saved in Dynamics 365 for Customer Engagement apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 for Customer Engagement apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 for Customer Engagement apps. 
+
+A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
+
+**View and associate files** 
+
+Select the **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
+
+> [!div class="mx-imgBorder"] 
+> ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
    3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. When you select a view, it will be pinned as a tab.
   
@@ -71,7 +85,8 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
      > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
      
      
-    > ![NOTE] If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+   > [!NOTE]
+   > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
    
     > [!div class="mx-imgBorder"] 
     > ![Select from My View](media/teams-select-view3.png "Select from My View")
@@ -85,22 +100,7 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
    You can return to these settings any time by selecting the **Settings** tab.
 
-The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
-### Two connection states (only applies to step 3.1 **Entity Selection**)
-
-There are two connection states possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
-
-The successful connection state indicates that the connection was successfully saved in Dynamics 365 for Customer Engagement apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 for Customer Engagement apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 for Customer Engagement apps. 
-
-A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
-
-### View and associate files (only applies to step 3.1 **Entity Selection**)
-
-Select the **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
-
-> [!div class="mx-imgBorder"] 
-> ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
 ## Open a record in Dynamics 365 for Customer Engagement apps
 
