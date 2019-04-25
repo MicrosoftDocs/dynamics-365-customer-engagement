@@ -32,20 +32,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
  [Use Execute Multiple to Improve Performance](use-executemultiple-improve-performance-bulk-data-load.md)  
  
 ## Related Sections  
- [Use the Early Bound Entity Classes in Code](use-early-bound-entity-classes-code.md)  
-  
- [Use the Late Bound Entity Class in Code](use-late-bound-entity-class-code.md)  
-  
- [Retrieve Data with Queries](retrieve-data-queries-sdk-assemblies.md)  
-  
- [Developing Custom Code](../extend-dynamics-365-server.md)  
-  
- [Connecting to the Dynamics 365 for Customer Engagement apps Services - Authentication](../authenticate-users.md)  
-  
- [Discover the URL for your organization using the Organization Service](discover-url-organization-organization-service.md)  
-  
- [Quick Start: A Simple Program](../simple-program-web-services.md)  
 
- [Work with metadata using the Organization service](/powerapps/developer/common-data-service/org-service/work-with-metadata)  
-
- [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+ [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
+ [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps (on-premises)](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
+ [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)
