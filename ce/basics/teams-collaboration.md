@@ -73,16 +73,16 @@ Select the **Files** tab in the connected Teams channel to associate files with 
 
    3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. When you select a view, it will be pinned as a tab.
   
-    > [!div class="mx-imgBorder"] 
-    > ![Select a view](media/teams-select-view.png "Select an view")
+   > [!div class="mx-imgBorder"] 
+   > ![Select a view](media/teams-select-view.png "Select an view")
    
-     > [!div class="mx-imgBorder"] 
-     > ![Select a view](media/teams-select-view2.png "Select an view")
+   > [!div class="mx-imgBorder"] 
+   > ![Select a view](media/teams-select-view2.png "Select an view")
    
-    Once you complete the above steps, you'll see the Dynamics 365 Customer Engagement app record view in Teams.
+   Once you complete the above steps, you'll see the Dynamics 365 Customer Engagement app record view in Teams.
 
-     > [!div class="mx-imgBorder"] 
-     > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
+   > [!div class="mx-imgBorder"] 
+   > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
      
      
    > [!NOTE]
