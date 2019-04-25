@@ -85,24 +85,59 @@ Let's walk through the standard work order and booking statuses at each stage of
 
 When a work order is created, it has a status of **Open-Unscheduled** by default.
 
-Once the work order is scheduled, i.e. a booking is created for it, the work order system status automatically changes to **Open-Scheduled**.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
-The Booking that is created when the work order is scheduled has a booking status of **Scheduled** by default.
+Once the work order is scheduled, the booking created for it has a booking status of **Scheduled** by default.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+The creation of a booking automatically changes the work order system status to **Open-Scheduled**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 After the work order is scheduled to a field technician resource, it is viewable on the Field Service Mobile app and the next step is for the field technician to note that he or she is traveling to the work order location by changing the booking status to **Traveling**. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 Each booking status has a color and icon and is displayed on the schedule board.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 Changing the booking status to Traveling automatically changes the work order system status to **Open - In Progress**.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 > [!Note]
 > If there are multiple bookings for a single work order, if at least one booking is traveling or in progress, the related work order will have a status of Open - In Progress.
 
 When the field technician arrives on site and is ready to begin the work order, he or she changes the booking status to **In Progress**.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 During work, the field technician may want to record times he or she is on break by changing the booking status to **On Break**.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+For both **In Progress** and **On Break** booking statuses, the work order system status remains in **Open - In Progress**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 When the work is complete, the field technician will change the booking status to **Completed** and this will change the related Work Order System Status to **Open-Completed**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
 > [!Note]
 > If there are multiple bookings for a single work order, once all related booking have statuses of Completed including fi a portion are Canceled, the related work order will have a status of **Open - Completed**. 
