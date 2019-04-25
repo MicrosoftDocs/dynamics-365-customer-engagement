@@ -68,7 +68,7 @@ Try repinning the Dynamics 365 tab. To repin, remove the tab and then re-add, as
 
 5. Continue through the steps as in [Collaborate with Teams](teams-collaboration.md).
 
-### Error: Sorry, the environment you selected is not up-to-date. Please select another environment.
+### Error: Sorry, the environment you selected is not up-to-date or is not supported. Please select another environment.
 
 > [!div class="mx-imgBorder"] 
 > ![environment is not up to date](media/teams-error-org-not-up-to-date.png "environment is not up to date")
