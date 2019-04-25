@@ -36,7 +36,8 @@ Use Microsfot Teams integration to seamlessly collaborate on documents between D
 Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Overview video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
 <!-- Cindy will provide new video when it's published. -->
 
-[!VIDEO https://www.youtube.com/embed/U11x5BlQlDU]
+> [!VIDEO https://www.youtube.com/embed/U11x5BlQlDU]
+
 
 The Dynamics 365 app for Teams provides the following: 
 
