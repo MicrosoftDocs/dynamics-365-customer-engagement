@@ -54,7 +54,7 @@ To get started with customizing the provided demo event portal you need to follo
     ```CLI
     npm install -g @angular/cli
     ```
-1. Download the [Source code](https://go.microsoft.com/fwlink/?linkid=2020107).
+1. Download the sample event website from the download section.
 
 1. Go into the directory where you have downloaded the source code and run the following command to fetch all the necessary packages that are required to run the website. 
     ```CLI
@@ -99,3 +99,15 @@ This will expose your new custom field through the API and you should be able to
 > [Dynamics 365 Portal hosted](portal-hosted.md)<br />
 > [Localization](event-portal-localization.md)
 
+## Download Sample Event Website
+Please select the version you would like to download from the table below.
+
+> [!NOTE]
+> Please make sure to use a version of the sample event website that matches your Event Management solution version.
+
+
+| Name | Release | Changes | Uploaded | |
+|--|--|--|--|
+| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bugfixes | not released |
+| Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bugfixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip") |
+| Sample Event Website | 1.11.0 (February Release) | Session level registration, UI polishing, bugfixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/DemoEventWebsite-1-1902.zip") |
