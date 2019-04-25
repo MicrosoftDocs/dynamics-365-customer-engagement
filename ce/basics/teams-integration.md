@@ -31,7 +31,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 
 With the Dynamics 365 for Teams integration, add the Dynamics 365 for Customer Engagement app features that you rely on, to the Teams app you collaborate with. This lets you easily work with Dynamics 365 customer information and share files directly from Microsoft Teams.
 
-
+Watch this quick overview view.
 > [!VIDEO https://www.youtube.com/embed/U11x5BlQlDU]
 
 
@@ -47,6 +47,7 @@ The Dynamics 365 app for Teams allows users to collaborate more effectively usin
 
 
 Once the app is intalled you can sse Microsfot Teams integration to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. Access records in your Dynamics 365 Customer Engagement app by adding a tab for Dynamics 365 in the Teams channel. You can also use the Dynamics 365 view to work on multiple records. Or, use the Dynamics 365 bot for Microsoft Teams mobile app to access records on the go and collaborate on a set of records such as, your **Active Opportunities**.
+
 ## Feedback
 
  If you have additonal feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](D365forTeams@microsoft.com).
