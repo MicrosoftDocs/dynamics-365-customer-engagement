@@ -96,7 +96,7 @@ To learn more about how to set up channels and associate work streams, see the f
 
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an entity channel](create-entity-channel.md)
-- [Configure an SMS channel] (configure-sms-channel.md)
+- [Configure an SMS channel](configure-sms-channel.md)
 
 ## Set up an entity work stream
 
