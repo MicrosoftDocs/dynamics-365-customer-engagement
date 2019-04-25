@@ -88,10 +88,10 @@ Select the **Files** tab in the connected Teams channel to associate files with 
    > [!NOTE]
    > - If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
    
-    > [!div class="mx-imgBorder"] 
-    > ![Select from My View](media/teams-select-view3.png "Select from My View")
+   > [!div class="mx-imgBorder"] 
+   > ![Select from My View](media/teams-select-view3.png "Select from My View")
      
-4. In the above page, if you have multiple environments or app modules, you can change the environment and app module by selecting      **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
+4. Once you complete the steps above, if you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
    > [!div class="mx-imgBorder"] 
    > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
@@ -143,26 +143,42 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 
 Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share option will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
  
-- account
-- annotation
-- appointment
-- businessunit
-- campaign
-- category
-- competitor
-- contact
-- email
-- incident
-- kbarticle
-- knowledgearticle
-- lead
-- opportunity
-- opportunityproduct
-- product
-- quote
-- salesorder
-- task
-- team
+- Account
+-	Agreement
+-	Note
+- Appointment
+-	Business Unit
+-	Campaign
+-	Case
+-	Category
+-	Competitor
+-	Contact
+-	Email
+-	Expense
+-	Fulfillment Preference
+- Inventory Adjustment
+-	Inventory Transfer
+-	Invoice
+-	Article
+-	Knowledge Article
+-	Lead
+-	Opportunity
+-	Opportunity Line
+-	Order
+-	Product
+-	Project
+-	Purchase Order
+-	Purchase Order Receipt
+-	Quote
+-	Resource Request
+-	RMA
+-	RMA Receipt
+-	RTV
+-	Sales Literature
+-	Task
+-	Team
+-	Work Order
+
 
 ### See also  
  [Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
