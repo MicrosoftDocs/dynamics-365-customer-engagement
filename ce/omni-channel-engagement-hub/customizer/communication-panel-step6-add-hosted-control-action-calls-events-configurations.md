@@ -12,7 +12,7 @@ ms.assetid: 6DA89CD7-F4D1-438C-B55D-A3AB04E2679C
 ms.custom: 
 ---
 
-# Step 6:  Add the hosted control, action calls, and events to configurations
+# Step 6:  Add the hosted control, action calls, window navigation rule, and events to configurations
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -36,7 +36,7 @@ This topic describes how to add action calls, events, window navigation rule, an
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-## Add the hosted control, action calls, and events to agent and supervisor configurations
+## Add the hosted control, action calls, window navigation and events to configurations
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
@@ -46,15 +46,27 @@ This topic describes how to add action calls, events, window navigation rule, an
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. On the navigation bar, select the Down arrow next to **Configuration**, and then select **Action Calls**.
+5. Select the **Hosted Controls, Events and Action Calls** tab.
 
-6. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press **Enter** or select the search icon.
+6. In the **Hosted Controls** section, select the more commands (...), select **Add Existing Hosted Control**, type the name of the **Hosted Control** in the search box, and then press **Enter** or select the search icon.
 
-7. Add the action calls that are shown in the search results.
+7. Select the hosted control from the search results and select **Add**.
 
-8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the Down arrow next to **Configuration**, and then selecting **Hosted Controls** and **Events**, respectively.
+8. In the **Events** section, select the more commands (...), select **Add Existing Events**, type the name of the **Event** in the search box, and then press **Enter** or select the search icon.
 
-9. When you've finished, select **Save**.
+9. Select the event from the search results and select **Add**.
+
+10. In the **Action Calls** section, select the more commands (...), select **Add Existing Action Calls**, type the name of the **Action Calls** in the search box, and then press **Enter** or select the search icon.
+
+11. Select the action calls from the search results and select **Add**.
+
+12. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab.
+
+12. In the **Windows Navigation Rules** section, select the more commands (...), select **Add Existing Window Navigation Rule**, type the name of the **Forms** in the search box, and then press **Enter** or select the search icon.
+
+13. Select the window navigation rule from the search results and select **Add**.
+
+14. When you've finished, select **Save**.
 
 ## See also
 

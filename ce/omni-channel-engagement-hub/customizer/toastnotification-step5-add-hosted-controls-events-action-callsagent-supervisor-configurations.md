@@ -1,6 +1,6 @@
 ---
-title: "Add the hosted control, events, and action calls to the agent and supervisor configurations | MicrosoftDocs"
-description: "Learn how to add the hosted control, events, action calls to the agent and supervisor configurations in Omni-channel Engagement Hub - Unified Service Desk."
+title: "Add the hosted control, events, forms, and action calls to configurations | MicrosoftDocs"
+description: "Learn how to add the hosted control, events, forms, and action calls to the agent and supervisor configurations in Omni-channel Engagement Hub - Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 39fa4483-8b31-4a42-99b3-1f46b62767d8
 ms.custom: 
 ---
 
-# Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations 
+# Step 5: Add the hosted control, events, forms and action calls to configurations 
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -35,21 +35,37 @@ This topic describes how to add hosted control, events, actions calls to the con
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-1.  Sign in to Microsoft Dynamics 365 for Customer Engagement instance. 
+## Add hosted controls, events, action calls, and forms to configurations
 
-2.  Go to **Settings** > **Unified Service Desk** > **Configuration**. 
+1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
-3.  Select the configuration from the list. 
+2. Select the Down arrow next to Dynamics 365.
 
-4.  On the nav bar, select the down arrow next to Configuration, and select **Action Calls**. 
+3. Select **Unified Service Desk Administrator**.
 
-5.  On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press ENTER or select the search icon.
+4. Select **Configuration** and then select a configuration from the list.
 
-6.  Add the Action calls that are displayed in the search results. 
+5. Select the **Hosted Controls, Events and Action Calls** tab.
 
-7.  Similarly, add the hosted controls and the events by selecting the down arrow next to Configuration, and selecting Hosted Controls and Events, respectively. 
+6. In the **Hosted Controls** section, select the more commands (...), select **Add Existing Hosted Control**, type the name of the **Hosted Control** in the search box, and then press **Enter** or select the search icon.
 
-8.  Select **Save**.
+7. Select the hosted control from the search results and select **Add**.
+
+8. In the **Events** section, select the more commands (...), select **Add Existing Events**, type the name of the **Event** in the search box, and then press **Enter** or select the search icon.
+
+9. Select the event from the search results and select **Add**.
+
+10. In the **Action Calls** section, select the more commands (...), select **Add Existing Action Calls**, type the name of the **Action Calls** in the search box, and then press **Enter** or select the search icon.
+
+11. Select the action calls from the search results and select **Add**.
+
+12. Select the **Others Entities** tab.
+
+12. In the **Forms** section, select the more commands (...), select **Add Existing Form**, type the name of the **Forms** in the search box, and then press **Enter** or select the search icon.
+
+13. Select the forms from the search results and select **Add**.
+
+14. When you've finished, select **Save**.
 
 ## See also
 
