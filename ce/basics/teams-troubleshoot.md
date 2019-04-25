@@ -46,15 +46,16 @@ This happens when the external app for Microsoft Teams service is not enabled by
    > [!div class="mx-imgBorder"] 
    > ![Setting and add-insl](media/ts2.png "Setting and add-ins")
    
-4. Find Microsoft Teams and then enable **External Apps** > **Allow external app in Microsoft Teams**.
+4. Find Microsoft Teams and then enable **External Apps**. 
 
    > [!div class="mx-imgBorder"] 
    > ![Find Microsoft Teams](media/ts3.png "Find Microsoft Teams")
    
+5.  Set **Allow external app in Microsoft Teams** to **On**.
    > [!div class="mx-imgBorder"] 
    > ![Enable external apps](media/ts4.png "Enable external apps")
    
-5. Restart Microsoft Teams and then try seaching for **Dynamics 365** again in the Teams app store.
+6. Restart Microsoft Teams and then try seaching for **Dynamics 365** again in the Teams app store.
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 for Customer Engagement apps. However, changes made to the record in Teams will update in Dynamics 365 for Customer Engagement apps.
