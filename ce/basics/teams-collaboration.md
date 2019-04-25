@@ -141,11 +141,10 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 
 ## Record types supporting Collaborate    
 
-Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share option will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
+Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share feature will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
  
 - Account
 -	Agreement
--	Note
 - Appointment
 -	Business Unit
 -	Campaign
@@ -162,6 +161,7 @@ Currently, the following record types only support Microsoft Teams collaborate c
 -	Article
 -	Knowledge Article
 -	Lead
+-	Note
 -	Opportunity
 -	Opportunity Line
 -	Order
