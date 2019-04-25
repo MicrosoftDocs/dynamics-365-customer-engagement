@@ -23,8 +23,8 @@ The communication panel is where you, as an agent, interact with your customer. 
 
 For a conversation channel:
 
-- You can send quick replies
-- Search for and share knowledge articles with the customer with whom you are interacting.
+- You can send quick replies.
+- You can search for and share knowledge articles with the customer with whom you are interacting.
 - You can transfer the conversation (work item) to another agent or queue.
 - You can use the consult option if you need help to resolve the work item.
 - You can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
