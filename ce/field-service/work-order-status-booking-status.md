@@ -86,33 +86,38 @@ Let's walk through the standard work order and booking statuses at each stage of
 When a work order is created, it has a status of **Open-Unscheduled** by default.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-open-unscheduled.png)
 
 Once the work order is scheduled, the booking created for it has a booking status of **Scheduled** by default.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-scheduled.png)
 
 The creation of a booking automatically changes the work order system status to **Open-Scheduled**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-open-scheduled.png)
 
 After the work order is scheduled to a field technician resource, it is viewable on the Field Service Mobile app and the next step is for the field technician to note that he or she is traveling to the work order location by changing the booking status to **Traveling**. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-scheduled-mobile.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-booking-status-traveling-mobile.png)
 
 Each booking status has a color and icon and is displayed on the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-traveling-schedule-board.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-booking-status-traveling-mobile-icon.png)
 
 
 Changing the booking status to Traveling automatically changes the work order system status to **Open - In Progress**.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-open-inprogress.png)
 
 > [!Note]
 > If there are multiple bookings for a single work order, if at least one booking is traveling or in progress, the related work order will have a status of Open - In Progress.
@@ -120,18 +125,19 @@ Changing the booking status to Traveling automatically changes the work order sy
 When the field technician arrives on site and is ready to begin the work order, he or she changes the booking status to **In Progress**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-inprogress-mobile.png)
 
 
 During work, the field technician may want to record times he or she is on break by changing the booking status to **On Break**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-onbreak-mobile-icon.png)
 
-For both **In Progress** and **On Break** booking statuses, the work order system status remains in **Open - In Progress**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-status-onbreak-schedule-board.png)
+
+For both **In Progress** and **On Break** booking statuses, the work order system status remains in **Open - In Progress**.
 
 
 When the work is complete, the field technician will change the booking status to **Completed** and this will change the related Work Order System Status to **Open-Completed**.
@@ -142,7 +148,17 @@ When the work is complete, the field technician will change the booking status t
 > [!Note]
 > If there are multiple bookings for a single work order, once all related booking have statuses of Completed including fi a portion are Canceled, the related work order will have a status of **Open - Completed**. 
 
-Here is a table fo the out of the box relationship between work order system statuses and booking statuses.
+Finally, a back office worker will review the completed work order ensure data was entered correctly, communicate with the customer, review survey results and more depending on the organization's specific business needs. The last step is to change the Work Order System Status to Closed-Posted. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+This is done only by office workers in the web interface. In fact, the out of the box resource secuirty roles prohibit field technicians from editing the Work Order System Status field on the Field Service Mobile app.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+Here is a table of the out of the box relationship between work order system statuses and booking statuses.
 
 | Work Order System Status | Booking Status | Details |
 | --- | --- | --- |
@@ -236,6 +252,8 @@ First, go to **Resource Scheduling > Settings > Booking Statuses > +New**
 **Status Color:** choose a color. This color will appear on the schedule board when the booking has this status. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
 
 **Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
+
+work-order-statuses-booking-icons-web-resource
 
 **Field Service Status:** select Traveling. This means the new Delayed status applies to the travel portion of the field service booking process. If for example, we wanted a status to indicate when actual work was taking longer than expected, we could choose In Progress for the Field Service Status.
 
