@@ -50,21 +50,14 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
-   In the above page, if you have multiple environments or app modules, you can change the environment and app module by selecting      **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
- 
-   > [!div class="mx-imgBorder"] 
-   > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
-
-   You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
-
-   You can return to these settings any time by selecting the **Settings** tab.
+   
 
     Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement   apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement     apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement  apps.
 
     > [!div class="mx-imgBorder"] 
     > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
 
-   3.2 **View Selection**: Select an entity to see the list of available views. When you select a view, it will be pinned as a tab.
+   3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. When you select a view, it will be pinned as a tab.
   
     > [!div class="mx-imgBorder"] 
     > ![Select a view](media/teams-select-view.png "Select an view")
@@ -72,15 +65,25 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
      > [!div class="mx-imgBorder"] 
      > ![Select a view](media/teams-select-view2.png "Select an view")
    
-    If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users     in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
-   
-    > [!div class="mx-imgBorder"] 
-    > ![Select from My View](media/teams-select-view3.png "Select from My View")
-   
-    Once you complete the above steps, you'll see the the record view in Teams.
+    Once you complete the above steps, you'll see the Dynamics 365 Customer Engagement app record view in Teams.
 
      > [!div class="mx-imgBorder"] 
      > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
+     
+     
+    > ![NOTE] If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
+   
+    > [!div class="mx-imgBorder"] 
+    > ![Select from My View](media/teams-select-view3.png "Select from My View")
+     
+4. In the above page, if you have multiple environments or app modules, you can change the environment and app module by selecting      **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+
+   You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
+
+   You can return to these settings any time by selecting the **Settings** tab.
 
 The following section provides information about connections between Dynamics 365 for Customer Engagement apps and Microsoft Teams.
 
