@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. You cannot view the communication panel unless you accept a incoming conversation to communicate with the customer.
 
-For a chat channel:
+For a conversation channel:
 
 - You can send quick replies
 - Search for and share knowledge articles with the customer with whom you are interacting.
@@ -31,24 +31,31 @@ For a chat channel:
 
  > [!div class=mx-imgBorder]
  > ![Omni-channel Engagement Hub communication panel chat interface](../../media/oceh-conversation-control-chat-interface.png "Omni-channel Engagement Hub communication panel chat interface")  
+## Enhance agent productivity using keyboard commands
+
+The communication panel has options that, as an agent, you can use to perform certain actions such as see quick replies, consult, and transfer list, launch notes control, and much more.
+
+In addition, as an agent, you can use the keyboard commands in the communication panel to perform the actions that are such as see quick replies, consult, and transfer list, launch notes control, and much more.
+
+The keyboard commands helps allows you completing the scenario effectively and efficiently thus increasing your productivity.
 
 In the communication panel, you can see the following options:
  
 | Annotation | Option     | Description                                   | Shortcut |
 |------|------------------|-----------------------------------------------|----------|
-|  1   | Public           | Send messages to public | `/P` |
-|  2   | Internal         | Send messages to internal users | `/I` |
+|  1   | Public           | Send messages to public | `/p` |
+|  2   | Internal         | Send messages to internal users | `/i` |
 |  3   | Customer summary | View customer summary |  |
-|  4   | Quick replies    | Send templatized messages  | `/Q` |
+|  4   | Quick replies    | Send templatized messages  | `/q` |
 |  5   | Notes            | Take notes specific to conversation | |
-|  6   | Knowledge articles | Search for knowledge articles and share | `/KB` |
+|  6   | Knowledge articles | Search for knowledge articles and share | `/kb` |
 |  7   | Link to conversation | Link the record to this conversation | |
-|  8   | Consult          | View list to consult with other users | `/C` |
-|  9   |  Transfer        | View list to transfer the request | `/T` and `/TQ` |
+|  8   | Consult          | View list to consult with other users | `/c` |
+|  9   |  Transfer        | View list to transfer the request | `/t` and `/tq` |
 
 ## Send messages using Public and Internal mode
 
-The communication panel allows you to send messages in two ways: **Internal** and **Public**. 
+The communication panel allows you to send messages in two ways: **Internal** and **Public**.
 
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
@@ -57,9 +64,12 @@ When you want to send messages only to the internal participants like other agen
 
 You can use keyboard shortcuts to send internal and public messages:
 
-- **/I** – Press the forward slash (/) key and the letter I to send an internal message to other agents and/or a supervisor.
+- **/i** – Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
-- **/P** – Press the forward slash (/) key and the letter P to send a public message to all the participants in the interaction.
+- **/p** – Type the forward slash (/) key and the letter **p** to send a public message to all the participants in the interaction.
+
+When you type the keyboard command, the mode changes to as per the command. For example, now, you are on Public mode. Type **/i** to change to **Internal** mode.
+
 
 ## Customer summary
 
@@ -77,7 +87,14 @@ The communication panel allows you to send templatized messages to the customer 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
 
-You can use a keyboard shortcut to see the list of quick replies. Press the forward slash (/) key and the letter Q (**/Q**).
+You can use a keyboard shortcut to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the **Quick replies** fly-out is displayed.
+
+### Search for messages
+
+After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
+
+ > [!div class=mx-imgBorder] 
+ > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
 
 ## Take notes specific to conversation
 
@@ -95,13 +112,13 @@ From the communication panel, you can search for relevant knowledge articles bas
  > [!div class=mx-imgBorder]
  > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
 
-**/KB** (forward slash, letter K, and letter B) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
+**/kb** (forward slash, letter K, and letter B) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
 To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
 
 ### Link to conversation
 
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact). 
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
 
 > [!div class=mx-imgBorder]
 > ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
@@ -115,8 +132,11 @@ The communication panel allows you to consult with other agents and/or superviso
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list](../../media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")  
 
-You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Press the forward slash (/) key and the letter C (**/C**).
+You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
+### Search for consulting participants
+
+After you type **/c** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the names are filtered and displayed to you.
 
 ## Transfer the conversation
 
@@ -127,14 +147,19 @@ The communication panel allows you to transfer a conversation request. You can t
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Press the forward slash (/) key and the letter T (**/T**).
+Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
-Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/TQ**).
+Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
 
+**/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** shortcut keeps the focus on the Agent tab whereas the **/tq** shortcut keeps the focus on the Queue tab.
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
-**/T** (forward slash, letter T) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/T** shortcut keeps the focus on the Agent tab whereas the **/TQ** shortcut keeps the focus on the Queue tab.
+### Search for agents or queues
+
+After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
+
+![Filter transfer queue list](../../media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
 > [Next topic: Set user presence](oceh-set-user-presence-status.md)
