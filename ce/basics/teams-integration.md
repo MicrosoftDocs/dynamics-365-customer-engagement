@@ -46,7 +46,7 @@ The Dynamics 365 app for Teams allows users to collaborate more effectively usin
 > ![Features of Teams app](media/teams-intro.png "Features of Teams app")
 
 
-Once the app is intalled you can sse Microsfot Teams integration to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. Access records in your Dynamics 365 Customer Engagement app by adding a tab for Dynamics 365 in the Teams channel. You can also use the Dynamics 365 view to work on multiple records. Or, use the Dynamics 365 bot for Microsoft Teams mobile app to access records on the go and collaborate on a set of records such as, your **Active Opportunities**.
+Use Microsfot Teams integration to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. Access records in your Dynamics 365 Customer Engagement app by adding a tab for Dynamics 365 in the Teams channel. You can also use the Dynamics 365 view to work on multiple records. Or, use the Dynamics 365 bot for Microsoft Teams mobile app to access records on the go and collaborate on a set of records such as, your **Active Opportunities**.
 
 ## Feedback
 
