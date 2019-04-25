@@ -56,20 +56,20 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
     > ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
    
     
-**Two connection states** 
+    **Two connection states** 
 
-There are two connection states possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
+    There are two connection states possible when connecting Dynamics 365 for Customer Engagement apps and Microsoft Teams: successful and failed. 
 
-The successful connection state indicates that the connection was successfully saved in Dynamics 365 for Customer Engagement apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 for Customer Engagement apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 for Customer Engagement apps. 
+    The successful connection state indicates that the connection was successfully saved in Dynamics 365 for Customer Engagement apps so that the link to the connected Microsoft Teams channel appears on the Dynamics 365 for Customer Engagement apps page and the files used on this channel also appear on the **Documents** tab in Dynamics 365 for Customer Engagement apps. 
 
-A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
+    A failed connection means the connection was not successfully saved. When seeing this message, you should remove and connect the record again. See: [Error: This record is not connected to Dynamics 365. Repin the tab and try again.](teams-troubleshoot.md#error-this-record-is-not-connected-to-dynamics-365-repin-the-tab-and-try-again)
 
-**View and associate files** 
+    **View and associate files** 
 
-Select the **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
+    Select the **Files** tab in the connected Teams channel to associate files with a Dynamics 365 for Customer Engagement apps record. Files added here will appear in Dynamics 365 for Customer Engagement apps under **Documents** for the linked record. Likewise, when you add a document to a record in Dynamics 365 for Customer Engagement apps, that document will appear in Teams under the **Files** tab.
 
-> [!div class="mx-imgBorder"] 
-> ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
+    > [!div class="mx-imgBorder"] 
+    > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
    3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. Once you've picked a view, select **Save**.
   
@@ -93,8 +93,8 @@ Select the **Files** tab in the connected Teams channel to associate files with 
 
 4. If you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
-  > [!div class="mx-imgBorder"] 
-  > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+ > [!div class="mx-imgBorder"] 
+ > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
 You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
