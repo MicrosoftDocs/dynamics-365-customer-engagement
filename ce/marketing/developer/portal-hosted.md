@@ -27,6 +27,7 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 ![Portal Hosted](../media/portal-hosted.png "Portal Hosted")
 
 ## Additional project setup
+
 ### Environment configuration for portal hosted
 
 1. Duplicate the `environment.d365.ts` configuration file (located in `\src\environments`) and name it `environment.ts`.
@@ -39,14 +40,17 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 1. Make sure that the `useRestStack` variable is set to false.
 
 ### Local Development
+
 #### Bypass CSRF
+
 You need to bypass the **anti-CSRF** token for local development. To do that, you need to go to **Dynamics 365 > Portals > Web Templates** and open the **PortalAPI** web template and flip the flag `bypassTokenVerification` to `true`. Restart Portals to make sure that the settings are applied.
 
 > [!NOTE]
 > The **PortalAPI** web template is added by default when you install the Event Management data.
 
 #### Serving page locally
-In order to serve the application locally you need to follow the steps below:
+
+To serve the application locally, you need to follow the steps below:
 
 1.	Run `npm install` to make sure all the dependencies are installed and are up-to-date.
 2.	Run `ng serve` to start the local development server to see the changes immediately.
@@ -68,7 +72,7 @@ To manually replace the files in Dynamics 365, follow the steps below:
 
 1. Open your Dynamics 365 instance.
 1. Navigate to **Portals** and click on **Web Files**.
-1. Open the web file `style.css` .
+1. Open the web file `style.css`.
 1. Scroll down to **Notes** section and delete the existing attachment.
 1. Upload your `style.css` file as an attachment.
 1. Now, open the web file `main.es` and scroll down to **Notes** section and delete the existing attachment.

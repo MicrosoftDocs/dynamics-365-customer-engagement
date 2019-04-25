@@ -149,8 +149,6 @@ By default, Microsoft Teams integration is disabled. To turn this feature on, fo
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. Enable **Microsoft Teams Integration**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
 When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear.   
 

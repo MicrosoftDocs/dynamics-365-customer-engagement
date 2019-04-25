@@ -1,9 +1,10 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors
 title: "Compose HTTP requests and handle errors (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the HTTP methods and headers that form a part of HTTP requests that interact with the Web API and how to identify and handle errors returned in the response"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

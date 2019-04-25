@@ -46,8 +46,8 @@
 ### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
 #### [Create bookable resources](resources-service-scheduling.md)  
-#### [Create and manage resource categories](resource-categories-service-scheduling.md)
 #### [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
+#### [Create and manage resource categories](resource-categories-service-scheduling.md)
 #### [Create or edit services](create-edit-service-csh.md)
 #### [Schedule a service activity](schedule-service-activity-csh.md)
 #### [Manage fulfillment preferences](../common-scheduler/fulfillment-preferences.md)
