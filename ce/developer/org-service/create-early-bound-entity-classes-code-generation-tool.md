@@ -50,6 +50,8 @@ You can find these assemblies in the folder where you download the tools.
 Folder path: `<Download_directory>\tools\CoreTools`.
 For example, if you download the tools in devtools folder on your D drive, you can find the assemblies in `D:\devtools\Tools\CoreTools`.
 
+More information about using the tool is available under [Generate early-bound classes for the Organization service](/powerapps/developer/common-data-service/org-service/generate-early-bound-classes).
+
 <a name="bkmk_RuntheCodeGenerationUtility"></a>
 
 ## Run the code generation tool
@@ -108,8 +110,6 @@ The following sample shows how to configure the output file and the domain name 
     <add key="d" value="mydomain"/>
 </appSettings>  
 ```
-
-More information about using the tool is available under [Generate early-bound classes for the Organization service](/powerapps/developer/common-data-service/org-service/generate-early-bound-classes).
 
 ### See Also
 
