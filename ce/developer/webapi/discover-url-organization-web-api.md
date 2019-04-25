@@ -49,7 +49,7 @@ For more information on global discovery service, see [Global discovery service]
 Organization information is stored in the `Instance` entity of the Discovery service.  To see the kind of information contained in that entity, send an HTTP GET request to the service for one of your instances.  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
 ```  
   
 In the above example, the discovery service is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
@@ -70,7 +70,7 @@ For the regional discovery service, the `Instances` entity set, returns the set 
   
 ## How to access the Discovery services
 
-In general, the Web API address of the Discovery service has the following format: `<service base address>/api/discovery/`.  The addresses for  each deployment type are identified below. You can easily  find the Web API addresses and version number for your deployment in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application by navigating to **Settings > Customization > Developer Resources**  
+In general, the Web API address of the Discovery service has the following format: `<service base address>/api/discovery/`.  The addresses for  each deployment type are identified below. You can easily  find the Web API addresses and version number for your deployment in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application by navigating to **Settings > Customization > Developer Resources**.  
   
 The service base address of the Discovery service for an on-premises or IFD deployment is : `http[s]://{servername}/` or `http[s]://dev.{servername}/`. This results in the service address of `http[s]://{servername}/api/discovery/` or `http[s]://dev.{servername}/api/discovery/`.  
   
@@ -87,7 +87,7 @@ On-premise or IFD instances of the Discovery Web API adopt the authentication mo
 Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service. For example:  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
 ```  
 
 ### CORS support
@@ -99,25 +99,25 @@ The Discovery service Web API supports the CORS standard for cross-origin access
 -   Get the details of a specific instance. If you leave out the GUID, all instances that the authenticated user has access to are returned.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances(<guid>)  
+    GET https://dev.{servername}/api/discovery/v9.0/Instances(<guid>)  
     ```  
   
 -   You can use the UniqueName attribute as an alternate key.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
+    GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
     ```  
   
 -   Retrieve a list of available instances, filtered by production type.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
+    GET https://dev.{servername}/api/discovery/v9.0/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
     ```  
   
 -   Retrieve a specific instance's ID property value.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')/Id/$value  
+    GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')/Id/$value  
     ```
 ## See also
 
