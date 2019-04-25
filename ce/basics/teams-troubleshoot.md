@@ -35,7 +35,7 @@ The following are error messages with possible resolutions.
 
 This happens when the external app for Microsoft Teams service is not enabled by your Office 365 admin. To fix the issue, do the following:
 
-1. Sign in to [portal.office.com](portal.office.com).
+1. Sign in to [http://portal.office.com](http://portal.office.com).
 2. From the list of apps, select **Admin**.
 3. From the menu select **Settings** > **Services & add-ins**.
 4. Find Microsoft Teams and then enable **External Apps** > **Allow external app in Microsoft Teams**.
