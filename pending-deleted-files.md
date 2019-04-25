@@ -91,5 +91,18 @@ ce/developer/org-service/sample-work-global-option-sets.md
 ce/developer/org-service/sample-dump-global-option-set-information-file.md
 ce/developer/org-service/sample-query-metadata-detect-changes.md
 ce\developer\org-service\perform-specialized-operations-using-update.md
+ce/developer/org-service/use-early-bound-entity-classes-code.md
+ce/developer/org-service/extend-code-generation-tool.md
+ce/developer/org-service/use-the-organizationservicecontext-class.md
+ce/developer/org-service/use-early-bound-entity-classes-create-update-delete.md
+ce/developer/org-service/use-early-bound-entity-classes-associate-records.md
+ce/developer/org-service/mix-early-late-bound-entities.md
+ce/developer/org-service/sample-use-organization-service-context.md
+ce/developer/org-service/sample-create-retrieve-update-delete-records-early-bound.md
+ce/developer/org-service/sample-associate-records-early-bound.md
+ce/developer/org-service/use-late-bound-entity-class-code.md
+ce/developer/org-service/use-entity-class-create-update-delete.md
+ce/developer/org-service/use-entity-class-add-update-associations-records.md
+ce/developer/org-service/sample-create-retrieve-update-delete-late-bound.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
