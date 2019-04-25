@@ -39,6 +39,6 @@ When sales order processing is turned on,
 
 ## See also
 
-[Organization entity reference]()<br />
-[System user entity reference]()<br />
-[Quote, order and invoice entities]()
+[Organization entity reference](../../developer/entities/organization.md)<br />
+[System user entity reference](../../developer/entities/systemuser.md)<br />
+[Quote, order and invoice entities](../,,/developer/quote-order-invoice-entities.md)
