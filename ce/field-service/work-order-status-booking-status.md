@@ -191,10 +191,28 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 
 #### Open – Completed
 - Used work order products are converted to new customer assets if applicable. This is accomplished by setting the **Convert to Customer Asset** field on the published product record to **Yes**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-product-used.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-customer-asset.png)
+
+
 - Travel charge item is added to work order products if applicable. See [this topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/work-order-customer-account#configuration-considerations) for more details.
 
 #### Closed – Posted
-- Invoice is generated for billing account and Actuals records are created. Actuals are line items of goods, services, and costs.
+- Invoice is generated for used work order products and services billing account 
+- Actuals records are created for time and materials costs related to work orders and bookings. 
+- Closed By field updated.
+- Closed On field updated.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-invoice.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-closed-on-closed-by.png)
 
 
 ### Booking status processes
@@ -202,6 +220,13 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 #### Scheduled
 - Miles Traveled updated, calculated as the driving distance from the previous location to the booking location (typically the work order location).
 - Booking Timestamp created. Booking Timestamps track the date and time of all booking status changes.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-closed-on-closed-by.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-closed-on-closed-by.png)
 
 
 #### Traveling
@@ -263,7 +288,10 @@ First, go to **Resource Scheduling > Settings > Booking Statuses > +New**
 
 **Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
 
-work-order-statuses-booking-icons-web-resource
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-booking-icons-web-resource.png)
+
 
 **Field Service Status:** select Traveling. This means the new Delayed status applies to the travel portion of the field service booking process. If for example, we wanted a status to indicate when actual work was taking longer than expected, we could choose In Progress for the Field Service Status.
 
