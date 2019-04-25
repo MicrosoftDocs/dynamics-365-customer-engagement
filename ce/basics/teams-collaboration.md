@@ -71,7 +71,7 @@ Select the **Files** tab in the connected Teams channel to associate files with 
 > [!div class="mx-imgBorder"] 
 > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
-   3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. When you select a view, it will be pinned as a tab.
+   3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. Once you've picked a view, select **Save**.
   
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view.png "Select an view")
@@ -79,7 +79,7 @@ Select the **Files** tab in the connected Teams channel to associate files with 
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view2.png "Select an view")
    
-   Once you complete the above steps, you'll see the Dynamics 365 Customer Engagement app record view in Teams.
+   Once you complete the above steps, you'll see the Dynamics 365 for Customer Engagement app entity view in the new added tab.
 
    > [!div class="mx-imgBorder"] 
    > ![My View in Teams](media/teams-select-view4.png "My View in Teams")
@@ -91,8 +91,7 @@ Select the **Files** tab in the connected Teams channel to associate files with 
    > [!div class="mx-imgBorder"] 
    > ![Select from My View](media/teams-select-view3.png "Select from My View")
 
-
-4. Once you complete the steps above, if you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
+4. If you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
   > [!div class="mx-imgBorder"] 
   > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
