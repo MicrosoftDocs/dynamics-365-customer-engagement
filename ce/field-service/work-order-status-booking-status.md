@@ -270,7 +270,7 @@ First, create a new work order substatus by going to **Field Service > Settings 
 
 **System Status:** enter Open-Unscheduled. When the field service organization is building an estimated work order, this is before it should be scheduled to a resource, therefore, this substatus will relate to the Open-Unscheduled system status.
 
-**Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status up Open-Unscheduled. Because work orders are given a system status of Open-Unscheduled when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**.
+**Default Substatus:** choose if you want this substatus populated by default any time a work order has a system status up Open-Unscheduled. Because work orders are given a system status of Open-Unscheduled when created, this substatus would populate on all newly created work orders, but can be manually updated. If all or most work orders first originate as an estimate, then this field should be set to **Yes**, giving the work order creator one less field to manually populate. If a smaller proportion of work orders are estimates, then set to **No**. In this example we will choose **Yes**.
 
 
 > [!div class="mx-imgBorder"]
@@ -342,19 +342,23 @@ This means the new Delayed Booking Status will appear as an option on the Field 
 
 It is common for a field service organization to schedule a follow up inspection after an initial installation or repair work order. If a follow up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back office workers create a follow up before closing the work order.
 
-Similar to the example before, go to **Resource Scheduling > Settings > Booking Statuses > +New**
+Similar to the example before, go to **Field Service > Settings > Work Order Substatuses > then select +New**
 
-**Name:** enter Follow Up Required
+**Name:** enter Follow Up Required.
 
-**Status:** select Committed
+**System Status:** enter Open-Completed. When the field service organization is building an estimated work order, this is before it should be scheduled to a resource, therefore, this substatus will relate to the Open-Unscheduled system status.
 
-**Status Color:** choose a color. This color will appear on the schedule board when the booking has this status. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
+**Default Substatus:** choose if all Open-Completed work orders should be given a substatus of Follow Up Required by default. For our example, we will choose **No** because not all completed work orders require a follow up and it is left to the discretion of the field technician.
 
-**Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
 
-**Field Service Status:** select Completed. This means the new Follow Up Required status applies to completed bookings.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-estimate.png)
 
 **Save & Close**
+
+Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. The substatuses will appear based on the work order system status. In the example above, Follow Up Required only appears when the Work Order System Status is Open-Completed because we related the two.
+
+
 
 
 ## Configuration considerations
