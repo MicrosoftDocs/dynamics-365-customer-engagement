@@ -223,10 +223,10 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-statuses-closed-on-closed-by.png)
+> ![Screenshot of ](./media/work-order-statuses-miles-traveled.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-statuses-closed-on-closed-by.png)
+> ![Screenshot of ](./media/work-order-statuses-booking-timestamps.png)
 
 
 #### Traveling
@@ -237,6 +237,9 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 - Actual travel duration field updated, calculated as the total time the booking status is 
 **Traveling**.
 - Booking Timestamp created.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-actual-arrival-time.png)
 
 #### On Break
 - Booking Timestamp created.
@@ -249,6 +252,12 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 - Total billable duration updated, calculated as the sum total of total duration in progress and total break duration.
 - Booking Journals created. Booking Journals use Booking Timestamps to calculate the working duration, travel time, and break time for a specific booking. Booking Journals also calculate internal resource costs for bookings based on resource's hourly rate as defined on the Bookable Resource record.
 - Booking Timestamp created.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-end-time.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-statuses-total-billiable-duration.png)
 
 
 ## Estimate Work Order Substatus
