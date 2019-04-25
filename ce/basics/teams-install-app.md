@@ -74,9 +74,8 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
 
-    7.2 **View Selection**: Select an entity to see the list of available views. When you select a view, it will be pinned as a tab.
-  
-  
+    7.2 **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
+    
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view.png "Select an view")
    
@@ -86,9 +85,6 @@ search.app:
 
 8. After completing the above steps, you will see a new tab for Dynamics 365 for Customer Engagement apps for the selected Teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md).
   
-
-
-For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
 
 ## Set up the Dynamics 365 bot
 
@@ -154,9 +150,9 @@ By default, Microsoft Teams integration is disabled. To turn this feature on, fo
    > [!div class="mx-imgBorder"] 
    > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
-When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
+When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file libary will appear.   
 
-If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement apps.  
+If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file libary do not appear in Dynamics 365 for Customer Engagement apps.  
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)
