@@ -93,8 +93,8 @@ Select the **Files** tab in the connected Teams channel to associate files with 
 
 4. Once you complete the steps above, if you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
-   > [!div class="mx-imgBorder"] 
-   > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
+  > [!div class="mx-imgBorder"] 
+  > ![Specify org and app](media/teams-change-org-app.png "Specify org and app")
 
 You can enable **Remember this preference** to set the environment and app selections to be the default personal dashboard that appears when you select **My Dashboard**.
 
