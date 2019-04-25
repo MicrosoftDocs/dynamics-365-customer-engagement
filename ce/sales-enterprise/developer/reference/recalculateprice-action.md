@@ -2,7 +2,7 @@
 title: "RecalculatePrice Action (Dynamics 365 for Sales) | MicrosoftDocs"
 description: ""
 keywords: recalculateprice
-ms.date: 04/02/2019
+ms.date: 04/25/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -54,8 +54,42 @@ OData-Version: 4.0
 ### Client Invocation
 
 ```JavaScript
-var recalculatePriceRequest = new ODataContract.ReCalculatePriceRequest({guid: ClientUtility.Guid.create(Xrm.Page.data.entity.getId())}, Xrm.Page.data.entity.getEntityName());
-                Xrm.WebApi.online.execute(recalculatePriceRequest).then(() => {
-                );
+function RecalculatePrice(formContext) {
+    var entityName = formContext.data.entity.getEntityName();
+    var parameters = {};
+    var target = {};
+    target[entityName + "id"] = formContext.data.entity.getId();
+    target["@odata.type"] = "Microsoft.Dynamics.CRM." + entityName;
+    parameters.Target = target;
+
+    var recalculatePriceRequest = {
+        Target: parameters.Target,
+
+        getMetadata: function () {
+            return {
+                boundParameter: null,
+                parameterTypes: {
+                    "Target": {
+                        "typeName": "mscrm.crmbaseentity",
+                        "structuralProperty": 5
+                    }
+                },
+                operationType: 0,
+                operationName: "CalculatePrice"
+            };
+        }
+    };
+
+    Xrm.WebApi.online.execute(recalculatePriceRequest).then(
+        function success(result) {
+            if (result.ok) {
+                //Success
+            }
+        },
+        function (error) {
+            Xrm.Utility.alertDialog(error.message);
+        }
+    );
+}
 ```
 
