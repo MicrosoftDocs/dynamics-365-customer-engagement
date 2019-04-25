@@ -91,6 +91,7 @@ Select the **Files** tab in the connected Teams channel to associate files with 
    > [!div class="mx-imgBorder"] 
    > ![Select from My View](media/teams-select-view3.png "Select from My View")
 
+
 4. Once you complete the steps above, if you have multiple environments or app modules, you can change the environment and app module by selecting **Edit** (![Edit](media/edit-icon.png "Edit")) to specify which environment or app module to use in Teams.
  
   > [!div class="mx-imgBorder"] 
