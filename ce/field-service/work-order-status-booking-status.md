@@ -181,7 +181,7 @@ Next time a work order is created, this substatus will populate automatically or
 
 Next, it is important that dispatchers do not schedule estimate work orders as they are not ready yet. One way to achieve this is to remove esitmate work orders from the Unscheduled Work Orders view on the schedule board.
 
-To accomplish this go to Settings > Customizations > Customize the System > Entities > Resource Requirements > Views.
+To accomplish this go to **Settings > Customizations > Customize the System > Entities > Resource Requirements > Views**.
 
 
 Next, edit the Unscheduled Work Order Requirements view to filter out requirements related to work orders where the substatus equals estimate.
@@ -198,19 +198,50 @@ First, go to **Resource Scheduling > Settings > Booking Statuses > +New**
 
 **Status:** select Committed
 
-**Status Color:** choose a color. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
+**Status Color:** choose a color. This color will appear on the schedule board when the booking has this status. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
 
-**Image URL:**
+**Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
 
-**Field Service Status:** select Traveling.
+**Field Service Status:** select Traveling. This means the new Delayed status applies to the travel portion of the field service booking process. If for example, we wanted a status to indicate when actual work was taking longer than expected, we could choose In Progress for the Field Service Status.
+
+> [!Note]
+> Field Service Status is required when creating Booking Statuses for Field Service use cases. This allows the booking status to fit into the above work order processes. By default, only booking statuses with field service statuses are available for work order bookings, but this is editable in Booking Setup Metadata.
+
+**Save & Close**
+
+This means the new Delayed Booking Status will appear as an option on the Field Service Mobile for field technicians, and on the schedule board. 
 
 
 ## Follow up Work Order Sub-status
 
+It is common for a field service organization to schedule a follow up inspection after an initial installation or repair work order. If a follow up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back office workers create a follow up before closing the work order.
+
+Similar to the example before, go to **Resource Scheduling > Settings > Booking Statuses > +New**
+
+**Name:** enter Follow Up Required
+
+**Status:** select Committed
+
+**Status Color:** choose a color. This color will appear on the schedule board when the booking has this status. Because the out of the box Traveling status has a red color, one option is to make this delayed travel status a darker red that is distinguishable. 
+
+**Image URL:** select the Web Resource URL that references an image icon that will appear on the schedule board. New images can be uploaded via Settings > Customizations > Customize the System > Web Resources.
+
+**Field Service Status:** select Completed. This means the new Follow Up Required status applies to completed bookings.
+
+**Save & Close**
+
+
 ## Configuration considerations
-- Booking statuses with RSO
-  - new ones
-  - simulation -RSO
+
+If your organization is using Resource Scheduling Optimization then an additional field called Scheduling Method will appear on the Book Status entity. 
+
+Options include:
+- Optimize
+- Do Not Move
+- Ignore
+
+If you create a new custom Booking Status, then you should pick a scheduling method that relates to the field service booking status. As an example, the out of the box booking status, Traveling, has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our example above, our new Delayed booking status is related to the Traveling Field Service Status so its scheduling method should be sent to **Do Not Move** as well.
+
 
 ## Additional Notes
 > ### Related processes
