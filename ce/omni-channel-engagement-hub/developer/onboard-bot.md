@@ -68,7 +68,7 @@ Dictionary<string, object> channelinfo = new Dictionary<string, object>();
  
 ## Escalating a conversation to a human agent
 
-In Omni-channel Engagement Hub, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the workstream. The primary way a bot can dictate how the conversation will be routed is by using Omni-channel Engagement Hub context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omni-channel Engagement Hub service will update the context variables to the specified values and then rerun the routing engine. This will ensure that an escalated chat will be routed to the proper queue. Once the agent accepts the invitation, the chat transcript with the bot will be visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
+In Omni-channel Engagement Hub, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the work stream. The primary way a bot can dictate how the conversation will be routed is by using Omni-channel Engagement Hub context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omni-channel Engagement Hub service will update the context variables to the specified values and then rerun the routing engine. This will ensure that an escalated chat will be routed to the proper queue. Once the agent accepts the invitation, the chat transcript with the bot will be visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
 
 ### Sample Code for escalation management
 
@@ -92,7 +92,7 @@ namespace BasicBot.Models
 }
 ```
 
-To create an escalate activity, set the `TagModel` type to `Escalate`. Set the Omni-channel Engagement Hub workstream context variables and value pair in the `TagModel` context. Once Omni-channel Engagement Hub receives the request, it will update the context variables to the specified values and rerun routing rules. Make sure the routing rules are set up correctly to handle the escalation scenarios.
+To create an escalate activity, set the `TagModel` type to `Escalate`. Set the Omni-channel Engagement Hub work stream context variables and value pair in the `TagModel` context. Once Omni-channel Engagement Hub receives the request, it will update the context variables to the specified values and rerun routing rules. Make sure the routing rules are set up correctly to handle the escalation scenarios.
 
 ```csharp
 private IActivity CreateEscalationReplyActivity(ITurnContext context, string escalationSummary, Dictionary<string, object> contextVarPairs)
@@ -153,15 +153,15 @@ IActivity activity = CreateEndConversationReplyActivity(context, "Customer ended
 
 You should consider the following points when modeling the bot agent in Omni-channel Engagement Hub:
 
-1.	In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.     
+-	In a queue, if there are both bots and human agents, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue will be picked up by the bot first.     
 
-2.	In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.     
+-	In case of bot escalation, make sure that context variables that the bot is updating and the corresponding routing rules are correctly matched.     
 
-3.	In the event where a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.     
+-	If a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.     
 
-4.	Bot agents are not supported in consult mode in the current release.     
+-	Bot agents are not supported in consult mode in the current release.     
 
-5.	Unlike other Omni-channel Engagement Hub agents, bots are not added to a `default` queue at the outset. But, they can be added from the Administration hub, if required.
+-	Unlike other Omni-channel Engagement Hub agents, bots are not added to a `default` queue at the outset. But, they can be added from the Administration hub, if required.
 
 ## See also
 
