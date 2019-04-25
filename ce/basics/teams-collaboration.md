@@ -139,6 +139,16 @@ When there is more than one Microsoft Teams channel connected to a Dynamics 365 
 > [!div class="mx-imgBorder"] 
 > ![Change document location](media/teams-change-document-location.png "Change document location")
 
+
+To view a consolidated file list across all document locations including all connected team channel file libraries, from **Document Location** select **All Locations**.
+
+> [!div class="mx-imgBorder"] 
+> ![Document location](media/doclocation.png "Document location")
+
+
+> [!div class="mx-imgBorder"] 
+> ![Document location](media/doclocation1.png "Document location")
+
 ## Record types supporting Collaborate    
 
 Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share feature will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
