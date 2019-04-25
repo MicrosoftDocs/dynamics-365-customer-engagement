@@ -50,7 +50,7 @@ With the Dynamics 365 for Teams integration, add the Dynamics 365 for Customer E
 
 ## Feedback
 
- If you have additonal feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](D365forTeams@microsoft.com).
+ If you have additonal feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](mailto:D365forTeams@microsoft.com).
 
 ## Privacy notice
 
