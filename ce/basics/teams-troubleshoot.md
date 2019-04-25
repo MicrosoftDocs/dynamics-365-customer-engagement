@@ -31,7 +31,7 @@ The following are error messages with possible resolutions.
 ## Error messages in the Teams app
 
 
-### Error: I can't find the Dynamics app in the Teams store.
+### Error: I can't find the Dynamics 365 app in the Teams app store.
 
 This happens when the external app for Microsoft Teams service is not enabled by your Office 365 admin. To fix the issue, do the following:
 
@@ -39,7 +39,7 @@ This happens when the external app for Microsoft Teams service is not enabled by
 2. From the list of apps, select **Admin**.
 3. From the menu select **Settings** > **Services & add-ins**.
 4. Find Microsoft Teams and then enable **External Apps** > **Allow external app in Microsoft Teams**.
-5. Restart Microsoft Teams and then try seaching for **Dynamics 365** again.
+5. Restart Microsoft Teams and then try seaching for **Dynamics 365** again in the Teams app store.
 
 ### Error: This record is not connected to Dynamics 365. Repin the tab and try again.
 A failed connection means file synchronization is not set up between Microsoft Teams and Dynamics 365 for Customer Engagement apps. However, changes made to the record in Teams will update in Dynamics 365 for Customer Engagement apps.
