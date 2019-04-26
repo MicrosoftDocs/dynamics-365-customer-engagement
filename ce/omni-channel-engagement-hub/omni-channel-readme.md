@@ -24,6 +24,10 @@ The topic explains the known issues and limitations of Omni-channel Engagement H
 > [!Important]
 > We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 
+## Upgrade doesn’t start if the organization name is changed
+
+If you change the organization name, the upgrade process doesn’t start, and an internal server error is displayed. To begin the upgrade, rename the organization to its original name.
+
 ## Communication panel not loading in Customer Service Hub app
 
 After you provision Omni-channel Engagement Hub, the communication panel doesn't load in the Customer Service Hub app.
