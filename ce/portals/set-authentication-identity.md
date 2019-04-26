@@ -2,7 +2,7 @@
 title: "Set authentication identity for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
 keywords: "portal authentication"
-ms.date: 04/24/2018
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
