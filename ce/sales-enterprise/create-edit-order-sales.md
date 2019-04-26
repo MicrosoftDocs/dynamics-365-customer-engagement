@@ -1,16 +1,16 @@
 ---
 title: "Create or edit an order (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
-keywords: Order, quote, accepted
+keywords: "Order, quote, accepted"
 ms.date: 10/29/2018
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 19543bce-3228-4723-825f-2358c4b18ff7
 author: shubhadaj
 ms.author: shujoshi
@@ -58,7 +58,13 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 > 
 > Your base record and all its line items must use the same currency. For example, if your order has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the order. You can’t change the currency of the base record (in this case, an order), unless you remove all the line items associated with the record.
 > Similarly, if the order is created from a quote that is generated from an opportunity, it must use the same currency as the opportunity.
-  
+
+
+> [!IMPORTANT]
+> Once your order is final, you can create an invoice from the order by selecting the **Create Invoice** button on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
+> If Dynamics 365 for Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 for Sales to be submitted, upon which the order is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 for Sales except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](/developer/enable-sales-order-processing-integration.md)
+
+
 <a name="bkmk2"></a>   
 ## Create an order  
  You can create an order that is based on your communication with a customer instead of an accepted quote.  
