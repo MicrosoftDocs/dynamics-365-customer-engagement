@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -109,6 +109,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 ## About group teams
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)
+Applies to Common Data Service
 
 A group team can own one or more records. To make a team an owner of the record, you must assign the record to the team.
 
@@ -119,6 +120,38 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 ### Group Team members are automatically added/removed when the user team member accesses the application
 
 When group team members log into the instance, they are dynamically added/removed from the Azure AD Group team based on their membership in the Azure AD Group.  Team members of the Azure AD Group automatically inherit the privileges of the Azure AD Group’s security role when performing transactions.
+
+### Using Azure Active Directory groups to manage user’s app and data access 
+
+The administration of app and data access for Dynamics 365 for Customer Engagement and Common Data Service (CDS) has been extended to allow administrators to use their organization Azure Active Directory (Azure AD) groups to manage access rights for licensed CDS users.  Both types of Azure AD groups – Office and Security - can be used to secure user access rights.  Using groups lets the administrators assign a security role with its respective privileges to all the members of the group, instead of having to provide the access rights to  an individual team member. 
+
+The administrator can create Azure AD Group Teams that are associated to the Azure AD groups in each of the Customer Engagement and Common Data Service environments and assign a security role to these Group Teams.  When members of these Group Teams access these environments, their access rights are automatically granted based on the Group Team’s security role. 
+
+#### Provision and de-provision of users 
+
+Once the Group Team and its security role is established in an environment, the user access to the environment is based on the user membership of the Azure AD groups.  When a new user is created in the tenant, all the administrator needs to do is to assign the user to the appropriate Azure AD group and a CDS license. The user can immediately access the environment without the need to wait for the administrator to assign a security role. 
+
+When users are deleted/disabled in Azure AD or removed from the Azure AD groups, they will lose their group membership and won’t be able to access the environment when they try to sign in.  
+
+#### Remove user access at real-time 
+
+When a user is removed from the Azure AD groups by an administrator, the user will be removed from the Group team and will lose their access rights the next time they access the environment.  User’s Azure AD groups and Dynamics Group Teams memberships are synchronized and the user’s access rights are dynamically derived at run-time.  
+
+#### Administer user security role 
+
+Administrators will no longer have to wait for the user to sync to the environment and assign a security role to the user individually by using Azure AD group team.  Once a group team is established and created in an environment with a security role, any licensed CDS users who are added to the Azure AD group can immediately access the environment.  
+
+#### Lock down user access to environments 
+
+Administrators can continue to use an Azure AD security group to lock down the list of users synced to an environment.  This can be further reinforced by using Azure AD group teams.  To lock-down environment/app access to restricted environments, the administrator can create separate Azure AD groups for each environment and assign the appropriate security role for these groups.  Only these Azure AD group team members have the access rights to the environment. 
+
+#### Share PowerApps to team members of Azure AD group 
+
+When canvas and model-driven apps are shared to Azure AD group team, team members of the group team can immediately run the apps.   
+
+#### User or team owned records 
+
+A new property has been added to the Security role definition to provide special team privileges when the role is assigned to Group teams.  This type of Security role allows team members to be granted User/Basic level privileges as if the security role is directly assigned to them.  Team members can create and be an owner of records without the need to have an additional security role assigned.  
 
 ## Create a group team
 
@@ -141,7 +174,7 @@ When group team members log into the instance, they are dynamically added/remove
 
 5. Enter a Team Name 
 
-6. Select a Business Unit (only the default root Business Unit is allowed).
+6. Select a Business Unit.
 
 7. Enter an Administrator.
 
@@ -187,6 +220,7 @@ A team template is displayed on all record forms for the specified entity as a l
 Because of the parental relationship between the team template and system-managed access teams, when you delete a template, all teams associated with the template are deleted according to the cascading rules. If you change access rights for the team template, the changes are applied only to the new auto-created (system-managed) access teams. The existing teams are not affected.
 
 <a name="AboutAccess"></a>   
+
 ## About access teams and team templates  
  You can create an access team manually by choosing the team type **Access**, or let the system create and manage an access team for you. When you create an access team, you can share multiple records with the team.  
   
@@ -201,7 +235,8 @@ Because of the parental relationship between the team template and system-manage
   
  For the step-by-step instructions on how to create a team template and add it the entity form, see the article in the [Create a team template and add to an entity form](create-team-template-add-entity-form.md)  
   
-<a name="MaxSettings"></a>   
+<a name="MaxSettings"></a>  
+ 
 ## Maximum settings for system-managed access teams  
  The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TeamSettings](Update%20deployment%20configuration%20settings.md#team) or -->   
   
