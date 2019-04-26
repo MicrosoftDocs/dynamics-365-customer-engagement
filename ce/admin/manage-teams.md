@@ -27,7 +27,7 @@ search.app:
 
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
- You can use two types of teams:  
+ You can use three types of teams:  
   
 - An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team member’s privilege inheritance roles (see [Security roles and privileges](security-roles-privileges.md)), and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team. 
 
@@ -111,16 +111,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
-A group team can own one or more records. To make a team an owner of the record, you must assign the record to the team.
-
-While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning security roles to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has Member’s privilege inheritance. (link to security role) 
-
-For more information, see [Assign a record to a user or team](../basics/assign-record-user-team.md).
-
-### Group Team members are automatically added/removed when the user team member accesses the application
-
-When group team members log into the instance, they are dynamically added/removed from the Azure AD Group team based on their membership in the Azure AD Group.  Team members of the Azure AD Group automatically inherit the privileges of the Azure AD Group’s security role when performing transactions.
-
 ### Using Azure Active Directory groups to manage user’s app and data access 
 
 The administration of app and data access for Dynamics 365 for Customer Engagement and Common Data Service (CDS) has been extended to allow administrators to use their organization Azure Active Directory (Azure AD) groups to manage access rights for licensed CDS users.  Both types of Azure AD groups – Office and Security - can be used to secure user access rights.  Using groups lets the administrators assign a security role with its respective privileges to all the members of the group, instead of having to provide the access rights to  an individual team member. 
@@ -153,6 +143,12 @@ When canvas and model-driven apps are shared to Azure AD group team, team member
 
 A new property has been added to the Security role definition to provide special team privileges when the role is assigned to Group teams.  This type of Security role allows team members to be granted User/Basic level privileges as if the security role is directly assigned to them.  Team members can create and be an owner of records without the need to have an additional security role assigned.  
 
+A group team can own one or more records. To make a team an owner of the record, you must assign the record to the team.
+
+While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning security roles to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has Member’s privilege inheritance. (link to security role) 
+
+For more information, see [Assign a record to a user or team](../basics/assign-record-user-team.md).
+
 ## Create a group team
 
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
@@ -172,7 +168,7 @@ A new property has been added to the Security role definition to provide special
 
 4. On the Actions toolbar, select the **New** button.
 
-5. Enter a Team Name 
+5. Enter a Team Name.
 
 6. Select a Business Unit.
 
@@ -207,7 +203,7 @@ A new property has been added to the Security role definition to provide special
 6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 > [!NOTE]
-> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member.
+> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's AAD group memberships are cached upon the team member's log-in.  This means that any AAD group membership maintenance done on the team member in AAD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
 
 ## About access teams and team templates
 
