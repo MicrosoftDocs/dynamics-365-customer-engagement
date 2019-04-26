@@ -40,7 +40,7 @@ In addition to datacenter specific (regional) discovery services that are availa
 > [!NOTE]
 > It is recommended that users switch from the legacy regional discovery service (`https://disco.crm.dynamics.com`) to global discovery service (`https://globaldisco.crm.dynamics.com`).
 >
-> For Dynamics 365 US Government users, the global discovery service is available only for the **GCC** users and the URL is `https://globaldisco.crm9.dynamics.com`. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
+> For Dynamics 365 US Government users, the global discovery service is available for the **GCC** and **GCC High** users, and the URL is different from the regular global discovery service URL. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
   
 ## Information provided by the Discovery service
 

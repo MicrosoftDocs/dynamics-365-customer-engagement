@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-update-delete
 title: "Use the Entity class for create, update and delete (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the Entity class to create, update, and delete entities and entity attributes"
 ms.custom: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/organizationservicecontext
 title: "Use the early-bound entity classes for create, update, and delete (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to create, update and delete an entity record using the early-bound entity classes and OrganizationServiceContext class"
 ms.custom: 

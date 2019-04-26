@@ -51,6 +51,7 @@ This document provides important, late-breaking information about known issues a
 - If you stop a live customer journey, then add contacts to the target segment, and restart the journey, those added contacts might receive emails sent by this journey more than once. <!-- 1196442 -->
 - If you edit a live customer journey to associate a new email message with an existing email tile, the system may continue to send the previously associated email to recipients. To prevent this, either create a new journey or live-edit the existing email record. <!--- 1345959 -->
 - The calendar (date picker) on the scheduler tile's properties on a customer journey might not show the arrows to move the calendar from one month to the next. While these buttons are actually present, the arrows are not visible. <!--- 1450049 -->
+- When creating a new customer journey, the default start date and time is set to 2 hours from the system's time, rather than the time according to the timezone of the journey. <!--- 1454828 -->
 
 ### Fixed issues
 
