@@ -108,7 +108,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## About group teams
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)
+Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
 A group team can own one or more records. To make a team an owner of the record, you must assign the record to the team.
@@ -133,7 +133,7 @@ Once the Group Team and its security role is established in an environment, the 
 
 When users are deleted/disabled in Azure AD or removed from the Azure AD groups, they will lose their group membership and won’t be able to access the environment when they try to sign in.  
 
-#### Remove user access at real-time 
+#### Remove user access at run-time 
 
 When a user is removed from the Azure AD groups by an administrator, the user will be removed from the Group team and will lose their access rights the next time they access the environment.  User’s Azure AD groups and Dynamics Group Teams memberships are synchronized and the user’s access rights are dynamically derived at run-time.  
 
