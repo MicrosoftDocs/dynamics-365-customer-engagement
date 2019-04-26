@@ -46,5 +46,5 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 
 ## See also
 
-- [Introduction to the agent interface](csh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
-- [View communication panel](csh-conversation-control.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
+- [View communication panel](oceh-conversation-control.md)
