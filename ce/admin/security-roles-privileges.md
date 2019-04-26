@@ -78,7 +78,10 @@ To control data access, you must set up an organizational structure that both pr
   
  It’s not possible to remove access for a particular record. Any change to a security role privilege applies to all records of that record type.  
 
-**User and Team privileges**:
+## Team Member’s privilege inheritance
+
+### User and Team privileges
+
 - **User privileges**: User is granted these privileges directly when a security role is assigned to the user.  User can create and has access to records created/owned by the user when Basic access level for Create and Read were given.
 - **Team privileges**: User is granted these privileges as member of the team.  For team members who do not have user privileges of their own, they can only create records with the team as the owner and they have access to records owned by the Team when Basic access level for Create and Read were given.
 
