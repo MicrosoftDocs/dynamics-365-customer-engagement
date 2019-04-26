@@ -30,7 +30,7 @@ search.app:
 
 Work Order System Statuses, Work Order Substatuses, and Booking Statuses all work together to help stakeholders stay up to date with work orders during the life cycle from creation to close. Updating one of these statuses can update the others automatically.
 
-**Work Order System Statuses** are noted on the Work Order entity, mark the current point of a work order in its life cycle, are part of the product by default and **should not** be edited, and are:
+**Work Order System Statuses** are noted on the Work Order entity, mark the current point of a work order in its life cycle, are part of the product by default and **should not** be edited. They are:
 
 - Open - Unscheduled
 - Open - Scheduled
@@ -60,7 +60,7 @@ Lets explore work order and booking statuses with the following scenarios:
 
 2. **Estimate work order**. A field service organization would like to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
 
-3. **Delayed schedules**. Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to longer than expected work by changing the status of their bookings to "Delayed".
+3. **Delayed schedules**. Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule due to traffic by changing the status of their bookings to "Delayed".
 
 4. **Follow up work orders**. It is common for a field service organization to schedule a follow up inspection after an initial installation or repair work order. If a follow up is required, field technicians should note this with a custom "Follow Up Required" work order substatus to ensure back office workers create a follow up before closing the work order.
 
@@ -71,9 +71,6 @@ Lets explore work order and booking statuses with the following scenarios:
 
 > [!Note]
 > Work Order System Statuses should NEVER be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom Work Order Substatuses that relate to Work Order System Statuses.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 ## Statuses and the Work Order life cycle
 
@@ -111,6 +108,7 @@ Each booking status has a color and icon and is displayed on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling on schedule board](./media/work-order-statuses-booking-status-traveling-schedule-board.png)
 
+The status and a color is displayed on the mobile app as well.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of traveling status on mobile](./media/work-order-statuses-booking-status-traveling-mobile-icon.png)
 
@@ -178,9 +176,9 @@ Here is a table of the out of the box relationship between work order system sta
 | Open-In Progress | In Progress | |
 | Open-In Progress | On Break | |
 | Open-Completed | Completed | |
-| Closed-Posted | Scheduled | |
+| Closed-Posted | -- | No booking status can change the work order system status to Closed-Posted, changing the system status to Closed-Posted does not effect bookings. |
 | Closed-Canceled | Canceled | If the work order system status is changed to Closed-Canceled all bookings with a status of Scheduled will change to Canceled, you cannot cancel a work order if in progress bookings exist, completed bookings will remain as completed |
-| Open-Unscheduled | Canceled | If the booking status is canceled, and is the only booking, the work order system status will revert to Open-Unscheduled. If one of multiple bookings is canceled, the work order system status will revert to  |
+| Open-Unscheduled | Canceled | If the booking status is canceled, and is the only booking, the work order system status will revert to Open-Unscheduled. If one of multiple bookings is canceled, the work order system status will revert to Open-Scheduled, Open-In Progress, or Open Completed based on the other uncanceled bookings remaining |
 
 ## Status related processes
 
@@ -195,6 +193,7 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 > [!div class="mx-imgBorder"]
 > ![Screenshot of used work order product](./media/work-order-statuses-product-used.png)
 
+Here is the customer asset that results from the used work order product. Notice the customer asset record references the specific work order product.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of customer asset related to work order product](./media/work-order-statuses-customer-asset.png)
 
@@ -226,7 +225,7 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 > ![Screenshot of miles traveled](./media/work-order-statuses-miles-traveled.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking timestamp](./media/work-order-statuses-booking-timestamps.png)
+> ![Screenshot of booking timestamp](./media/work-order-statuses-booking-timestamps1.png)
 
 
 #### Traveling
@@ -259,10 +258,17 @@ Beyond work order system statuses updating booking statuses and vice versa, many
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking fields updated](./media/work-order-statuses-total-billiable-duration.png)
 
+By the end of the work order life cycle, you will have timestamps of all booking status changes from both the field technicians and dispatchers.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of booking timestamp](./media/work-order-statuses-booking-timestamps.png)
+
 
 ## Estimate Work Order Substatus
 
 A field service organization would like to utilize work orders for estimating potential products, services, and prices for their clients and want to mark such work orders with a custom "Estimate" work order substatus.
+
+> [!Note]
+> For this scenario substatuses must be used. Work Order System Statuses should NEVER be edited because system jobs and plug-ins rely on these statuses. Instead, administrators should create custom Work Order Substatuses that relate to Work Order System Statuses.
 
 First, create a new work order substatus by going to **Field Service > Settings > Work Order Substatuses > then select +New**
 
