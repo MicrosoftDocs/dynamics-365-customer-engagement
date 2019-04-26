@@ -110,3 +110,4 @@ The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps portal has its 
 
 - To enforce users to re-authenticate, users are required to sign in with their credentials after they signed out within the application. 
 - To prevent users from sharing credentials to access [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the user access token is validated to ensure that the user who was given access by the identity provider is the same user who is accessing [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.
+
