@@ -131,8 +131,8 @@ You can create business rules and recommendations to apply form logic without wr
 ## Common issues
 This section describes common issues that may occur when you use business rules.
 
-### Full Name field not supported with Unified Interface apps
-Actions or conditions that use a **Full Name** (fullname) field aren’t supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions with **First Name** (firstname) and **Last Name** (lastname) fields. 
+### Composite attributes not supported with Unified Interface apps
+Actions or conditions that use [composite attributes](../developer/clientapi/reference/composite-attributes.md) are not supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions on the attributes that comprise the composite attributes. For example, instead of using the **Full Name** (fullname) attribute, you can use the **First Name** (firstname) and **Last Name** (lastname) attributes. 
 
 ### Is your business rule not firing for a form?
 A business rule may not execute because the field referenced in the business rule isn’t included with the form. 
