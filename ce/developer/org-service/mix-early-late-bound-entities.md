@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming#mix-early-and-late-bound
 title: "Mix early and late bound entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to mix early and late binding methods to work with both strong types and the Entity class"
 ms.custom: 

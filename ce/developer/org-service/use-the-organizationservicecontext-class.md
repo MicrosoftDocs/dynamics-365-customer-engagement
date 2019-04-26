@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/organizationservicecontext
 title: "Use the OrganizationServiceContext class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The OrganizationServiceContext class lets you track changes, manage identities and relationships, and gives you access to the Dynamics 365 for Customer Engagement LINQ provider. This class also contains a OrganizationServiceContext.SaveChanges method that you use to submit the changes to data that the context is tracking"
 ms.custom: 

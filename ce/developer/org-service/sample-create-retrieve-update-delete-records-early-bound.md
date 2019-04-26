@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/early-bound-entity-operations
 title: "Sample: Create, retrieve, update, and delete records (early bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create, retrieve, update, and delete operations on an account using the early bound class. This sample uses IOrganizationService.Entity), IOrganizationService.ColumnSet), IOrganizationService.Entity) and IOrganizationService.Guid)"
 keywords: 
