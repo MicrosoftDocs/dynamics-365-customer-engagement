@@ -2,7 +2,7 @@
 title: "Integrate a bot with Omni-channel Engagement Hub| Microsoft Docs"
 description: "Read how you can integrate a bot with Omni-channel Engagement Hub"
 keywords: ""
-ms.date: 04/24/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -24,9 +24,9 @@ The topic illustrates how you can integrate a bot that can start a conversation 
 
 You must ensure the following conditions are met to onboard a bot to Omni-channel Engagement Hub as an agent.
 
--	The bot must be developed using Microsoft Bot Framework.
--	The bot must be registered with Azure Bot Service.
--	The bot must be configured to have a Microsoft Teams channel.
+-	The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
+-	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
+-	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
 ## Create your bot’s reply activity 
 
