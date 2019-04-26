@@ -49,5 +49,5 @@ Presence status is updated in two ways:
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View communication panel](oceh-conversation-control.md)

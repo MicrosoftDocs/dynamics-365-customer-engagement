@@ -26,7 +26,7 @@ The Omni-channel Engagement Hub application on a web browser provides a unified 
 Use the resources in the following sections to learn how to use Omni-channel Engagement Hub.
 
 - [Sign in to Omni-channel Engagement Hub](oceh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
 - [View communication panel](oceh-conversation-control.md)
 - [Set user presence](oceh-set-user-presence-status.md)

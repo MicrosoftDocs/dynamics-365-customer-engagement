@@ -25,7 +25,7 @@ When you sign in to the Omni-channel Engagement Hub app, the agent interface has
 
 1. Session panel
 
-2. Communication panel (Collapsed mode)
+2. Communication panel (hidden mode)
 
 3. Application tab
 
@@ -33,20 +33,22 @@ When you sign in to the Omni-channel Engagement Hub app, the agent interface has
 
 5. Navigation bar buttons
 
+ > [!div class=mx-imgBorder]
+ > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface.png "Session panel in Omni-channel Engagement Hub app") 
+
+
 ## 1. Session panel
 
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
 ### Start and close a session
 
-As an agent, you can press **CTRL** + **Shift** and select on a link that can open as a session. The entities' link that you can open as a session are:
-   - Case
-   - Account
-   - Contact
+As an agent, you can start the sessions in two ways:
 
-You can't use the shortcut to open any other links.
+- **Manual:** Select **More options** (**...**) in the dashboard and select **Open** or **Pick** to start the session. Open as a session is available for **My work items** and **Closed work items** streams. Pick is available in **Open work items** streams. <br>
+Also, alternatively, you can press **CTRL** and select on a link that can open as a session from the dashboard. You can't use the shortcut to open any other links.
 
-You can start a session by accepting the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
+- **Accept incoming conversation:** Accept the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
 
 You can close any session manually by selecting the **X** button next to the session title.
 
@@ -93,29 +95,7 @@ The sitemap displays the following record types:
 
   Activities help you keep track of all your customer communications using the **Conversation** and **Session** form types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
 
-- **Accounts**
-
-  Account records are used to store the information that you collect from the customer with whom you interact. That is, you store the details about the companies in the accounts. An account might have more than one contact associated with it.
-
-- **Contacts**
-
-  Contact records help you manage and store information about the customers you work with. Usually, multiple contacts work in the same organization, and as a result, you can associate these contacts with the account (organization).
-
-- **Social Profiles**
-
-  Social profiles are the profiles of the customer on social media. You use the social profiles to interact with the customer on social media and track all the conversations in Common Data Service.
-
-- **Cases**
-
-  Cases (tickets or incidents) are the requests, inquiries, issues, feedback, complaints, and so on about the product or service that your customers need assistance with to resolve. The cases will be routed to the queues to which you are added as an agent. You link the cases to the conversation and the details appear in the **Customer summary** form.
-
-- **Queues**
-
-  Queues are the route where the cases are assigned to you. Your organization creates queues and agents based on the business requirement. This ensures that you get conversations (work items) from the queues to which you are added as a member (agent). You can view and work on the conversations only to the queues you are assigned as a member (agent).
-
-- **Knowledge articles**
-
-  Knowledge articles are articles about the questions, issues, feedback, resolutions, best practices, and guidelines that are helpful. You can share the articles with the customers and help them to resolve the cases.
+To learn more about Accounts, Contacts, Social Profiles, Cases, Queues, and Knowledge articles, see [Understand the sitemap navigation](../../../customer-service/customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation).
 
 ## 4. Omni-channel Agent Dashboard
 
@@ -136,7 +116,7 @@ The sitemap displays the following record types:
 
    In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
-   To learn more, see #### [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
+   To learn more, see [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
 
 
 ## 5. Navigation bar buttons
@@ -145,35 +125,9 @@ The sitemap displays the following record types:
 
    ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/oceh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
-   a. **Search.** Do a simple search for records.
-    
-   b. **Task flow.** Create an automated task flow between your apps and services.
-    
-   c. **Relationship assistant.**
-    
-   d. **Quick create.** Add a new record.
-    
-   e. **Advanced find.** Do an advanced search using filters, sorting, and criteria.
-    
-   f. **Settings.** Set personal options.
-    
-   g. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status.
-    
-   h. **Help.** Get the help documentation.
-    
-   i. **User.** See user information.
+   a. **Search.** Do a simple search for records using the advanced search option open the record in a application tab. Advanced Search is also called as Categorized Search.
 
- ### Search
-    
-  The search option lets you search records and open a record in a new active session. You can search for the following records using the search option:
-    
-   - Case
-   - Contact
-   - Account
-    
- ### Create
-    
-   The quick-create option provides the list of related records (entities) that you can create. The following are the record types that you can create: 
+   b. **Quick create.** Add a new record. The quick-create option provides the list of related records (entities) that you can create. The following are the record types that you can create:
     
    - Activities
    - Appointment
@@ -185,11 +139,13 @@ The sitemap displays the following record types:
    - Contact
    - Knowledge Article
     
-  Select the expand button next to Activities to create different activities.
+     Select the expand button next to Activities to create different activities.
     
-   ![Quick-create option in Omni-channel Engagement Hub](../../media/oceh-quick-create.png) ![Quick-create option for activities in Omni-channel Engagement Hub](../../media/oceh-quick-create-activities.png)
+     ![Quick-create option in Omni-channel Engagement Hub](../../media/oceh-quick-create.png) ![Quick-create option for activities in Omni-channel Engagement Hub](../../media/oceh-quick-create-activities.png)
     
-   When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
+     When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
+
+   c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Set user presence](oceh-set-user-presence-status.md).
 
 > [!div class="mx-imgBorder"]
 > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")

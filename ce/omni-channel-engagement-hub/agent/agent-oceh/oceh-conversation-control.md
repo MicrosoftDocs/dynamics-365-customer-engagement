@@ -169,7 +169,7 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 - [Take notes specific to conversation](oceh-take-notes.md)

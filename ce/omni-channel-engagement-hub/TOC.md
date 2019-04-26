@@ -64,7 +64,7 @@
 
 ### [Agents using Omni-channel Engagement Hub app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub app](agent/agent-oceh/oceh-sign-dynamics-365-customer-service-hub.md)
-#### [Introduction to the agent interface](agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md)
+#### [Introduction to the agent interface](agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 #### [View agent dashboard and work items](agent/agent-oceh/oceh-omni-channel-agent-dashboard.md)
 #### [Understand conversation states](agent/agent-oceh/oceh-conversation-state.md)
 #### [View communication panel](agent/agent-oceh/oceh-conversation-control.md)

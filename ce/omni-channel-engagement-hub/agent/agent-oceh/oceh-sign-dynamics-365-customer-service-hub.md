@@ -32,7 +32,7 @@ To sign in to Omni-channel Engagement Hub, do the following:
     ![Sign in to Omni-channel Engagement Hub](../../media/oceh-sign-in.png "Sign in to Omni-channel Engagement Hub")
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub-customer-service-hub.md) 
+> [Next topic: Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md) 
 
 ## See also
 
