@@ -25,7 +25,7 @@ topic-status: Drafting
 
 Sales order processing integration makes it convenient to connect Dynamics 365 for Sales with an external back office order processing application. It allows a sales order created on Dynamics 365 for Sales to be submitted, upon which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 for Sales except, if submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 for Sales). 
 
-By default, sales order processing is turned off. When sales order processing is turned off, the application allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
+By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 for Sales allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
 
 ## Enable sales order processing integration
 
@@ -35,7 +35,7 @@ You can enable sales order processing integration by setting the value of the [I
 
 When sales order processing is turned on,  
 
-- Order records will no longer have a Create invoice action on the ribbon. 
+- The **Create Invoice** button is not shown on the command bar of the Order records. 
 
 - Order records will support a Submit order button. Upon submitting an order, the order is marked to `Submitted` status. The order is made read-only except, if created by an integration user. For more information about `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on [SystemUser entity](../../developer/entities/systemuser.md).
 
