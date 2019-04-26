@@ -346,19 +346,19 @@ Similar to the example before, go to **Field Service > Settings > Work Order Sub
 
 **Name:** enter Follow Up Required.
 
-**System Status:** enter Open-Completed. When the field service organization is building an estimated work order, this is before it should be scheduled to a resource, therefore, this substatus will relate to the Open-Unscheduled system status.
+**System Status:** enter Open-Completed. This implies the follow up required substatus can only be entered on Open-Completed work orders and the organization's follow up process should only be carried on these work orders.
 
 **Default Substatus:** choose if all Open-Completed work orders should be given a substatus of Follow Up Required by default. For our example, we will choose **No** because not all completed work orders require a follow up and it is left to the discretion of the field technician.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-status-estimate.png)
-
 **Save & Close**
 
-Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. The substatuses will appear based on the work order system status. In the example above, Follow Up Required only appears when the Work Order System Status is Open-Completed because we related the two.
+Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-status-follow-up-mobile.png)
 
+The substatuses will appear based on the work order system status. In the example above, Follow Up Required only appears when the Work Order System Status is Open-Completed because we related the two.
 
 
 ## Configuration considerations
