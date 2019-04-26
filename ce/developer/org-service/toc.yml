@@ -103,33 +103,8 @@
         href: role-privileges-intersect-entity-metadata.md
       - name: 'Sample: Retrieve records from an intersect table'
         href: sample-retrieve-records-intersect-table.md
-  - name: Reduce potential data loss using optimistic concurrency
-    href: reduce-potential-data-loss-using-optimistic-concurrency.md
-    items:
-    - name: 'Sample: Use optimistic concurrency with update and delete operations'
-      href: sample-use-optimistic-concurrency-update-delete-operations.md
   - name: Offline use of services
     href: offline-use-services.md
-  - name: Troubleshooting and error handling
-    href: troubleshooting-error-handling.md
-    items:
-    - name: Handle exceptions in your code
-      href: handle-exceptions-code.md
-    - name: Troubleshooting tips
-      href: troubleshooting-tips.md
-    - name: Web service error codes
-      href: web-service-error-codes.md
-  - name: Use the sample and helper code
-    href: use-sample-helper-code.md
-    items:
-    - name: 'Helper code: ServerConnection class'
-      href: helper-code-serverconnection-class.md
-    - name: 'Helper code: SystemUserProvider class'
-      href: helper-code-systemuserprovider-class.md
-    - name: 'Helper code: Enumerations for option sets'
-      href: helper-code-enumerations-option-sets.md
-  - name: Subscribe to SDK assembly updates using NuGet
-    href: subscribe-sdk-assembly-updates-using-nuget.md
   - name: Impersonate another user
     href: impersonate-another-user.md
     items:
