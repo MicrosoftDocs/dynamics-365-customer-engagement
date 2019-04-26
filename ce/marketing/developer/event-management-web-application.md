@@ -90,11 +90,6 @@ Most of the customization possibilities for the event management application are
 
 This exposes your new custom field through the API, and you can utilize it in the front-end.
 
-> [!div class="nextstepaction"]
-> [Self-hosted](self-hosted.md)<br />
-> [Dynamics 365 Portal hosted](portal-hosted.md)<br />
-> [Localization](event-portal-localization.md)
-
 ## Download sample event website
 
 Select the version you would like to download from the table below.
@@ -104,6 +99,12 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
-| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | not released |
+| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
 | Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
 | Sample Event Website | 1.11.0 (February Release) | Session level registration, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/DemoEventWebsite-1-1902.zip) |
+
+
+> [!div class="nextstepaction"]
+> [Self-hosted](self-hosted.md)<br />
+> [Dynamics 365 Portal hosted](portal-hosted.md)<br />
+> [Localization](event-portal-localization.md)
