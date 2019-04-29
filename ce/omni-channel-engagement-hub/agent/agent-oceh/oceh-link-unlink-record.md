@@ -42,9 +42,6 @@ After you search a record using Advanced Search, you can link the record to the 
 > [!Note]
 > You can link only one record to a conversation.
 
-> [!div class=mx-imgBorder]
-> ![Select the record to link](../../media/oceh-oc-search-link-account-record.png "Select the record to link")  
-
 1. Select the record to open it using the Application tab.
 
 2. Select the more options (**...**) in the communication panel, and select **Link to conversation**. The record is linked to the conversation.
