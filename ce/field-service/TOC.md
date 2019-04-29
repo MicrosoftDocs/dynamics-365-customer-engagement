@@ -55,7 +55,6 @@
 ### [Booking rules](set-up-booking-rules.md)
 
 ## Scheduling
-
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
