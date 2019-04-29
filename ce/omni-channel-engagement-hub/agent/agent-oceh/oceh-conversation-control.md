@@ -41,7 +41,7 @@ The keyboard commands helps allows you completing the scenario effectively and e
 
 In the communication panel, you can see the following options:
  
-| Annotation | Option     | Description                                   | Shortcut |
+| Annotation | Option     | Description                                   | command |
 |------|------------------|-----------------------------------------------|----------|
 |  1   | Public           | Send messages to public | `/p` |
 |  2   | Internal         | Send messages to internal users | `/i` |
@@ -64,7 +64,7 @@ When you want to send messages to all the participants in the conversation inclu
  > [!div class=mx-imgBorder]
  > ![Reply messages by selecting internal or public mode](../../media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
 
-You can use keyboard shortcuts to send internal and public messages:
+You can use keyboard commands to send internal and public messages:
 
 - **/i** – Type the forward slash (/) key and the letter **i** to send an internal message to other agents and/or a supervisor. 
 
@@ -89,7 +89,7 @@ The communication panel allows you to send templatized messages to the customer 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
 
-You can use a keyboard shortcut to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the **Quick replies** fly-out is displayed.
+You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the **Quick replies** fly-out is displayed.
 
 ### Search for messages
 
@@ -109,16 +109,16 @@ To learn more, see [Take notes specific to conversation](oceh-take-notes.md).
 
 ## Search for and share knowledge articles
 
-From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the shortcut to launch knowledge articles search.
+From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
 
  > [!div class=mx-imgBorder]
  > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
 
-**/kb** (forward slash, letter K, and letter B) is the keyboard shortcut to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
+**/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
 To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
 
-### Link to conversation
+## Link to conversation
 
 When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
 
@@ -134,7 +134,7 @@ The communication panel allows you to consult with other agents and/or superviso
  > [!div class=mx-imgBorder]
  > ![Use the consult option to launch the consulting list](../../media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")  
 
-You can use a keyboard shortcut to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
+You can use a keyboard command to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
 > [!Note]
 > We recommend inviting a maximum of five consulting agents when conversing with the customer.
@@ -152,11 +152,11 @@ The communication panel allows you to transfer a conversation request. You can t
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
-Use a keyboard shortcut to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
+Use the keyboard command to see the list of agents and/or the supervisor who is available for transfer. Type the forward slash (/) key and the letter t (**/t**).
 
-Use a keyboard shortcut to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
+Use the keyboard command to see the list of queues to transfer the conversation request. Press the forward slash (/) key and the letters T and Q (**/tq**).
 
-**/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** shortcut keeps the focus on the Agent tab whereas the **/tq** shortcut keeps the focus on the Queue tab.
+**/t** (forward slash, letter t) launches the **Agent** and **Queue** tabs. Select either tab and then select the agent or the queue from the list to transfer the conversation. The **/t** command keeps the focus on the Agent tab whereas the **/tq** command keeps the focus on the Queue tab.
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
