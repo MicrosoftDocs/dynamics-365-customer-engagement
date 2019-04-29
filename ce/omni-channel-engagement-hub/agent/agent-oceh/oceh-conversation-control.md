@@ -59,6 +59,8 @@ The communication panel allows you to send messages in two ways: **Internal** an
 
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
+When you want to send messages to all the participants in the conversation including the customer, then use the **Public** option.
+
  > [!div class=mx-imgBorder]
  > ![Reply messages by selecting internal or public mode](../../media/oceh-cc-public-internal-modes.png "Reply messages by selecting internal or public mode")
 
