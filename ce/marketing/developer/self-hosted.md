@@ -20,16 +20,14 @@ manager: kvivek
 
 Before you start hosting self-hosted custom event portal complete the actions mentioned in [Prerequisites](event-management-web-application.md) topic.
 
-The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service or you can develop your own backend. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
+The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service, or you can develop your backend. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
 
-If you choose to develop your own backend service, you need to take care of the Dynamics 365 authentication and the Dynamics 365 web services by yourself. 
-
-If you want the event registration to be linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact record for every new website user.  
+If you choose to develop your backend service, you need to take care of the Dynamics 365 authentication and the Dynamics 365 web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact record for every new website user.  
 
 ![Self-hosted](../media/self-hosted.png "Self-hosted")
 
 To give users full control of the event portal you can host the frontend by yourself.
-In order to do so a few additional steps need to be done.
+To do so, a few additional steps need to be done.
 
 ## Dynamics 365 configuration
 
@@ -40,16 +38,16 @@ In order to do so a few additional steps need to be done.
 > You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
 
 1. Enter an arbitrary `Name`.
-1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`) .
+1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`).
 
   > [!NOTE]
   > The origin URL may not contain a trailing slash!
   
-1. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to enter the `AAD Client ID` and `AAD Metadata Endpoint`. More information [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
+1. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis), you need to enter the `AAD Client ID` and `AAD Metadata Endpoint`. More information [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
 1. Click save.
 1. After the changes are saved, the fields `Token` and `Endpoint` should contain values.
 
-### Environment configuration for self hosted
+### Environment configuration for self-hosted
 
 1. Duplicate the `environment.selfhosted.ts` configuration file (located in `\src\environments`) and name it as `environment.ts`.
 2. Open the `environment.ts` configuration file for modification.
@@ -60,11 +58,12 @@ In order to do so a few additional steps need to be done.
 
 ### Configuration for Azure Active Directory
 
-The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need follow this steps:
+The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need to follow these steps:
 
-1. Create B2C tenant. More information [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
-> [!NOTE]
-> To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname`' attributes and also selecting them in the `Application claim` section.
+1. Create a B2C tenant. More information [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
+
+    > [!NOTE]
+    > To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname`' attributes and also selecting them in the `Application claim` section.
 
 1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** and select the earlier created **Web Application**.
 1. Insert your client ID in the `AAD Client ID` field.

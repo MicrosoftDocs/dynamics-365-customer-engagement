@@ -119,7 +119,7 @@ Schemas define which Dynamics 365 for Customer Engagement apps fields are sent t
 |CorrelationId     |Edm.Guid         |No         |A unique value used to associate related rows (e.g., when a large row is split)          |
 |CreationTime     |Edm.Date         |No         |Date and time of when the log was generated in UTC          |
 |Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 for Customer Engagement apps SDK          |
-|UserKey     |Edm.String         |No         |Unique Identifier of the User in AAD. AKA User PUID          |
+|UserKey     |Edm.String         |No         |Unique Identifier of the User in Azure AD. AKA User PUID          |
 |UserType     |Self.UserType         |No         |The Office 365 audit type (Admin, Regular, System)          |
 |User     |Edm.String        |No         |UPN of the user          |
 

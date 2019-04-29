@@ -2,7 +2,7 @@
 title: "Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises) | MicrosoftDocs"
 description: "Follow theses steps to migrate from Microsoft Dynamics 365 for Customer Engagement apps (online) to Microsoft Dynamics 365 for Customer Engagement apps (on-premises)."
 ms.custom: 
-ms.date: 08/21/2018
+ms.date: 04/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -11,10 +11,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: Mattp123
+author: jimholtz
 ms.assetid: e7e8ea24-0872-42e6-bec3-bcf362a26450
 caps.latest.revision: 15
-ms.author: matp
+ms.author: jimholtz
 manager: kvivek
 ---
 # Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises)
@@ -78,15 +78,13 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 <a name="BKMK_requestBU"></a>   
 
 ## Request a backup of your organization database  
- To request a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database contact [!INCLUDE[pn-ms-customer-support-services](../includes/pn-ms-customer-support-services.md)] for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. For contact information, see [Contact Technical Support](contact-technical-support.md).  
-
-
-> [!IMPORTANT]
-> Obtaining a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database isn’t available with Dynamics 365 for Customer Engagement apps (online), version 9.x.
+Obtaining a backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database isn’t available with Dynamics 365 for Customer Engagement apps (online), version 9.x.
   
 <a name="BKMK_restoreBU"></a>   
 
 ## Restore the Dynamics 365 for Customer Engagement apps (online) database  
+Obtaining and restoring a backup is not available with Dynamics 365 for Customer Engagement apps (online), version 9.x. 
+<!-- 
  The backup of your [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database must be restored by using a server running the same or a later version of [!INCLUDE[pn-ms-sql-server](../includes/pn-ms-sql-server.md)] as the database you receive.  You will be able to request the version you need before you receive the database.  
   
  Restore the copy of the [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] database to a computer running [!INCLUDE[pn-sql-server-short](../includes/pn-sql-server-short.md)] in the target Customer Engagement apps (on-premises) deployment. To do this, follow the steps here.  
@@ -115,7 +113,8 @@ This document describes the steps needed to migrate from an instance of [!INCLUD
 9. Mark the checkbox in the **Restore column next to the backup set** option.  
   
 10. Click **OK** to begin the restore process.  
-  
+-->
+
 <a name="BKMK_applyUpdates"></a>   
 
 ## Apply the latest updates to the Dynamics 365 for Customer Engagement apps (on-premises) deployment  

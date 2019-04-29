@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-update-delete
 title: "Sample: Create, retrieve, update, and delete (late bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates the create, retrieve, update, and delete operations on an account using the late bound Entity class"
 ms.custom: 

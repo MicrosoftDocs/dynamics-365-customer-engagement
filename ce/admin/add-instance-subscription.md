@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 12/05/2018
+ms.date: 04/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,7 +15,7 @@ ms.assetid: 7e8b84a7-ae29-4180-94f5-5d89fc43bdbc
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -65,9 +65,11 @@ You can add Production and non-Production (Sandbox) instances to a [!INCLUDE[pn_
     >  Once set, the base currency cannot be changed.  
   
 <a name="BKMK_add_instance"></a>   
+
 ## Add an additional instance  
  The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  
   
+
 ### Step 1: Purchase the additional instance  
   
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) as an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrator. In the navigation pane, click **Billing** > **Purchase Services**.  

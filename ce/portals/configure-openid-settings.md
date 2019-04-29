@@ -3,7 +3,7 @@ title: "Configure OpenID Connect provider settings for a portal in Dynamics 365 
 description: "Instructions to add and configure OpenID Connect provider settings for a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 01/02/2019
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -136,5 +136,4 @@ Multiple identity providers can be configured by substituting a label for the [p
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
 [SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](#facebook-app-page-tab-authentication-for-portals) 
 
