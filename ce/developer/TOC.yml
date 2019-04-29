@@ -1,8 +1,6 @@
 - name: Developer Guide for Dynamics 365 Customer Engagement
   href: developer-guide.md
   items:
-  - name: Release history
-    href: release-history.md
   - name: What's new
     href: whats-new-developers.md
 - name: Get started

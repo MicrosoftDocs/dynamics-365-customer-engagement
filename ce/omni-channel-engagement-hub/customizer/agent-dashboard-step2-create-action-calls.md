@@ -1,6 +1,6 @@
 ---
 title: "Create Omni-channel Agent Dashboard-related action calls | MicrosoftDocs"
-description: "Learn how to set up the Omni-channel Agent Dashboard-related action calls for agents using Omni-channel Engagement Hub."
+description: "Learn how to create the Omni-channel Agent Dashboard-related action calls for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.assetid: C4D4CD30-059F-4BA5-A80A-DE06E1B10A72
 ms.custom: 
 ---
 
-# Step 2: Create action calls related to Omni-channel Agent Dashboard
+# Step 2: Create Omni-channel Agent Dashboard-related action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -47,48 +47,47 @@ This topic demonstrates how to create Omni-channel Agent Dashboard-related actio
 
 5. In the new page, specify the following details:
 
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Initiate Omni-channel Context - Agent Session Search Page     |
-    | General | Hosted Control | Omni-channel Agent Dashboard |
-    | General | Action         | RunScript             | 
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> window.ocContext = ocConfig; <br> } <br> initOCContext(); |
+  | Tab | Field | Value |
+  |------------------|------------------|------------------|
+  | General | Name       | Initialize Omni-channel Context - Agent Home Page  |
+  | General | Hosted Control | Omni-channel Agent Dashboard |
+  | General | Action     | RunScript | 
+  | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> window.ocContext = ocConfig; <br> } <br> initOCContext();|
 
 6. Save the action call.
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
+ 
+## Omni-channel Check Existing Session For Conversation
 
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Omni-channel Check Existing Session For Conversation     |
-    | General | Hosted Control | Communication Panel |
-    | General | Action         | OmnichannelCheckExistingSessionForConversation | 
-    | General | Data | ConversationId=\[\[OcConversationId\]+\] <br> OcSessionId=\[\[OcSessionId\]+\] <br> LiveWorkStreamId=\[\[LiveWorkStreamId\]+\]|
-    | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
+  | Tab | Field | Value |
+  |------------------|------------------|------------------|
+  | General | Name       | Omni-channel Check Existing Session For Conversation   |
+  | General | Hosted Control | Communication Panel |
+  | General | Action     | OmnichannelCheckExistingSessionForConversation | 
+  | General | Data | ConversationId=\[\[OcConversationId\]+\] <br> OcSessionId=\[\[OcSessionId\]+\] <br> LiveWorkStreamId=\[\[LiveWorkStreamId\]+\]|
+  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Show My Work Items Error Toast Notification    |
-    | General | Order | 10 |
-    | General | Hosted Control | Omni-channel Toast Notification |
-    | General | Action         | Show | 
-    | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> tack=true <br> stackHeight=56 <br> placementmode=absolute  <br> ToastNotificationText=\[\[$Resources.MyItemsErrorToastNotificationText\]+\] <br> NotificationIcon=new_omni_toast_error_icon|
-    | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] |
+## Show My Work Items Error Toast Notification
 
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Initialize Omni-channel Context - Agent Home Page    |
-    | General | Hosted Control | Omni-channel Agent Dashboard |
-    | General | Action         | RunScript | 
-    | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> window.ocContext = ocConfig; <br> } <br> initOCContext();|
+  | Tab | Field | Value |
+  |------------------|------------------|------------------|
+  | General | Name       | Show My Work Items Error Toast Notification  |
+  | General | Order | 10 |
+  | General | Hosted Control | Omni-channel Toast Notification |
+  | General | Action     | Show | 
+  | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> tack=true <br> stackHeight=56 <br> placementmode=absolute  <br> ToastNotificationText=\[\[$Resources.MyItemsErrorToastNotificationText\]+\] <br> NotificationIcon=new_omni_toast_error_icon|
+  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] |
 
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Initialize Omni-channel Context - Agent Home Page    |
-    | General | Order | 1 |
-    | General | Hosted Control | Omni-channel Agent Dashboard |
-    | General | Action         | Navigate | 
-    | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
+## Load Agent Home Page
+
+  | Tab | Field | Value |
+  |------------------|------------------|------------------|
+  | General | Name       | Load Agent Home Page  |
+  | General | Order | 1 |
+  | General | Hosted Control | Omni-channel Agent Dashboard |
+  | General | Action     | Navigate |
+  | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 3: Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)

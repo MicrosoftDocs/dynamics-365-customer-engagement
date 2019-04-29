@@ -12,7 +12,7 @@ ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
 ms.custom: 
 ---
 
-# Step 2:  Create action calls related to Omni-channel Advanced Search
+# Step 2: Create Omni-channel Advanced Search-related action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -48,7 +48,7 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
  
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Initiate Omni-channel Context - Agent Session Search Page     |
+    | General | Name           | Initialize Omni-channel Context - Agent Session Search Page     |
     | General | Hosted Control | Omni-channel Advanced Search |
     | General | Action         | RunScript             | 
     | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]'}; <br> ocConfig.config.sessionParams = session; <br> } <br> initOCContext(); |
@@ -57,13 +57,15 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
+## Close Omni-channel Advanced Search
     | Tab | Field | Value |
     |------------------|------------------|------------------|
     | General | Name           | Close Omni-channel Advanced Search     |
     | General | Order | 1 |
     | General | Hosted Control | Omni-channel Advanced Search |
     | General | Action         | Close             |
-   
+
+## Update Conversation Context Entities
     | Tab | Field | Value |
     |------------------|------------------|------------------|
     | General | Name           | Update Conversation Context Entities    |
@@ -71,7 +73,8 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
     | General | Hosted Control | Communication Panel |
     | General | Action         | OmnichannelUpdateContextEntities |
     | General | Data | ChatPayLoad=\[\[PostData\]\] |
-    
+
+## Load Agent Session Search Page
     | Tab | Field | Value |
     |------------------|------------------|------------------|
     | General | Name           | Load Agent Session Search Page    |

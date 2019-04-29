@@ -1,9 +1,10 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/start-web-api-project-visual-studio-csharp
 title: "Start a Dynamics 365 for Customer Engagement Web API project in Visual Studio (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Create a new project in Visual Studio to build a console application that uses Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
 ms.date: 01/25/2019
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -111,7 +112,7 @@ This topic demonstrates how to create a new project in [!INCLUDE[pn_Visual_Studi
   
 3. If you have additional functionality that you routinely use in your applications, you can add the associated references to the required assemblies now. For more information, see [How to: Add or Remove References by Using the Add Reference Dialog Box](https://msdn.microsoft.com/library/wkze6zky.aspx).  
   
-   Because the Dynamics 365 for Customer Engagement Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 for Customer Engagement apps do require these; for more information, see [Assemblies included in Dynamics 365 for Customer Engagement apps SDK](../org-service/assemblies-included-sdk.md).  
+   Because the Dynamics 365 for Customer Engagement Web API is based on REST principles, it does not require client-side assemblies to access.  However, other APIs supported by Dynamics 365 for Customer Engagement apps do require these; for more information, see [Subscribe to SDK assembly updates using NuGet](/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget).  
   
 #### Add typical using statements  
   

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets
 title: "Sample: Create a global option set | MicrosoftDocs"
 description: ""
 keywords: 

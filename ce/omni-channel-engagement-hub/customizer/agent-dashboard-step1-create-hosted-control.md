@@ -48,7 +48,7 @@ This topic describes how to create an Omni-channel Agent Dashboard hosted contro
     |-------------------------------------|---------------------------------|
     | Name                                | Omni-channel Agent Dashboard |
     | Sort Order | 10 |
-    | Display Name | \[\[$Resources.MyDashboard\]\] |
+    | Display Name | Omni-channel Agent Dashboard |
     | Unified Service Desk Component Type | Unified Interface Page |
     | Hosting Type | Chrome Process |
     | Pre-Fetch Data | Select the check box |

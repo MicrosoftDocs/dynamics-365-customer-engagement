@@ -23,7 +23,7 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 - PackageDeployer.exe
 
-- OmnichannelNewEnvironmentPackage
+- OmnichannelAddOnPackage
 
 - OmnichannelDemoPackage
 
@@ -37,11 +37,49 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
+> [!Note]
+> If you are already using Omni-channel Engagement Hub and want to upgrade to April 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omni-channel Engagement Hub - Preview - Add-On** or **Omni-channel Engagement Hub - Preview - Demo** package. To learn more, see [Uninstall the solutions](#uninstall-the-solutions).
+
+### Uninstall the solutions
+
+When you deploy a Omni-channel Engagement Hub package in a Customer Engagement organization, following managed solutions are created:
+
+  - OCSDSolution
+  - USDUnifiedInterfaceCustomization
+  - DynamicsUnifiedServiceDesk
+  - UiiForMicrosoftDynamicsCRM2011
+ 
+> [!Note]
+> If you have deployed Omni-channel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
+ 
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+
+2. On the nav bar, Choose **Settings** > **Solutions**.  
+
+4. On the Solutions page, select one of the solutions by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
+   - OCSDSolution
+   - USDUnifiedInterfaceCustomization
+   - DynamicsUnifiedServiceDesk
+   - UiiForMicrosoftDynamicsCRM2011
+
+   > [!NOTE]
+   > You must the delete the solutions in the following order:
+   > 1. OCSDSolution
+   > 2. USDUnifiedInterfaceCustomization
+   > 3. DynamicsUnifiedServiceDesk
+   > 4. UiiForMicrosoftDynamicsCRM2011
+   > 
+   >  You must follow the order to remove the solutions as some of the components in the solution depend on the components in the other solution.
+
+5. After the solution is removed, repeat the steps for the other solutions to delete them.
+
+### Deploy a package
+
 1. Run the **PackageDeployer.exe** file. 
 
 2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to deploy the package.
 
-3. The next screen displays information about the packages. Select the **Unified Service Desk - Omni-channel Engagement Hub - Preview - New Environment** or **Unified Service Desk - Omni-channel Engagement Hub - Preview - Demo** to install on your Customer Engagement instance. Review the information, and choose **Next**.
+3. The next screen displays information about the packages. Select the **Unified Service Desk - Omni-channel Engagement Hub - Preview - Add-On** or **Unified Service Desk - Omni-channel Engagement Hub - Preview - Demo** to install on your Customer Engagement instance. Review the information, and choose **Next**.
 
 4. The **Ready to Install** screen displays the package name for deployment and name of the Customer Engagement organization. Review the information, and choose **Next**.
 
@@ -54,9 +92,9 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
 ).
 
-<!-- ## Upgrade package on Dynamics 365 for Customer Engagement instance
+<!-- ### Upgrade a package 
 
-1. Run the **PackageDeployer.exe** file. 
+1. Run the **PackageDeployer.exe** file.
 
 2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to upgrade the current package.
 

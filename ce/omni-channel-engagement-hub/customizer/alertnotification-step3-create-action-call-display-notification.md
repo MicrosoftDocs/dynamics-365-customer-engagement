@@ -1,6 +1,6 @@
 ---
-title: "Create action calls to show the notifications | MicrosoftDocs"
-description: "Learn how to create action calls that can be used to show notifications in Omni-channel Engagement Hub."
+title: "Create Omni-channel Alert Notification-related action calls | MicrosoftDocs"
+description: "Learn how to create Omni-channel Alert Notification-related action calls that can be used to show notifications in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -17,6 +17,8 @@ ms.custom:
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+This topic describes how to create Omni-channel Alert Notification-related actions calls.
 
 ## Prerequisites 
 
@@ -62,7 +64,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General        | Hosted Control | Omni-channel Alert Notification |
  | General        | Action         | Show               |
  | General        | Data           | formname=SimpleChatRequestPopUpForm <br>  top=10 <br> left=98 <br> timeout=120 <br> stack=true <br> stackHeight=50 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> position=absolute <br> isAccept=TRUE <br> isReject=TRUE |
- | Advanced        | Condition | /[/[RequestType/]/] == "1"< |
+ | Advanced        | Condition | \[\[RequestType\]\] == "1" |
 
 ## Show Chat Transfer Request Alert Notification
 
@@ -84,7 +86,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
   | General | Data | formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=\[\[showWarning\]+\] <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
   | Advanced | Condition | \[\[RequestType\]\] == "2" |
 
-## Show Simple Chat Request From Supervisor Alert Notification
+<!--## Show Simple Chat Request From Supervisor Alert Notification
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
@@ -92,7 +94,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
   | General | Hosted Control | Omni-channel Alert Notification |
   | General | Action         | Show | 
   | General | Data | formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=\[\[showWarning\]+\] <br> channelIcon=\[\[channelIcon\]+\] <br> channelName=\[\[channelName\]+\] <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
-  | Advanced | Condition | \[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]\]" == "Supervisor" |
+  | Advanced | Condition | \[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]\]" == "Supervisor" | -->
 
 ## Expand Right Pane**
 
@@ -152,16 +154,16 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General        | Order          | 15                                          |
  | General        | Hosted Control | Communication Panel                         |
  | General        | Action         | OmnichannelSessionAccepted                  |
- | General        | Data           | ConversationId=\[\[cid\\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
- | Advanced | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] ||  '\[\[CanActivateSession\]+\]' == 'True' |
+ | General        | Data           | ConversationId=\[\[cid\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
+ | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] \|\| '\[\[CanActivateSession\]+\]' == 'True' |
 
 ## Omni-channel Presence status**
 
  | Tab            | Field          | Value                        |
  |----------------|----------------|------------------------------|
  | General        | Name           | Omni-channel Presence Status |
- | General        | Hosted Control | OmniChannelHostedControl     |
- | General        | Action         | OCPresenceUpdate             |
+ | General        | Hosted Control | Communication Panel     |
+ | General        | Action         | OmnichannelPresenceUpdate             |
 
 ## ExecuteKBSearchOnDataAvailable**
 
@@ -174,15 +176,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General        | Action         | ExecuteOnDataAvailable          |
  | General        | Data           | milliseconds=5000 <br> \[\[$Context.PRECHATANSWER3\]\]  |
 
-## FireSessionTimer**
-
- | Tab            | Field          | Value            |
- |----------------|----------------|------------------|
- | General        | Name           | FireSessionTimer |
- | General        | Order          | 20               |
- | General        | Hosted Control | SessionTimer     |
- | General        | Action         | FireEvent        |
-
 ## Load Default Agent Script**
 
  | Tab            | Field          | Value                     |
@@ -193,36 +186,35 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General        | Action         | GotoTask                  |
  | General        | Data           | Welcome Script            |
 
-## Load Agent Session Search Page With Condition**
+## Load Agent Session Search Page
 
  | Tab           | Field        | Value        |
- |---------------|---------------|------------------------------------------------------|
- | General        | Name          | Load Agent Session Search Page With Condition |
- | General        | Order         | 20                                           |
- | General        | Hosted Control| AgentSessionSearchPage |
+ |---------------|-----------------|------------------------------------------------------|
+ | General        | Name           | Load Agent Session Search Page |
+ | General        | Order          | 20                                           |
+ | General        | Hosted Control | Omni-channel Advanced Search |
  | General        | Action         | Navigate |
  | General        | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off|
- | Advanced       | Condition      | '\[\[isUniqueContactRecognized\]\]'=='False' |
 
-## Load Agent Session Overview Page**
+## Load Agent Customer Summary Page
 
  | Tab            | Field          | Value    |
  |----------------|----------------|---------------------------------------------|
- | General        | Name           | Load Agent Session Overview Page  |
+ | General        | Name           | Load Agent Customer Summary Page  |
  | General        | Order          | 200           |
- | General        | Hosted Control | Session Overview  |
+ | General        | Hosted Control | Customer Summary |
  | General        | Action         | Navigate   |
  | General        | Data           | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn\_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true\# <br> Hidenav=true |
 
-## Focus on Overview**
+## Focus on Customer Summary
 
  | Tab            | Field          | Value              |
  |----------------|----------------|--------------------|
- | General        | Name           | Focus on Overview  |
+ | General        | Name           | Focus on Customer Summary  |
  | General        | Order          | 220                |
  | General        | Hosted Control | CRM Global Manager |
  | General        | Action         | ShowTab            |
- | General        | Data           | Session Overview   |
+ | General        | Data           | Customer Summary   |
 
 ## Omni-channel Session Rejected
 
@@ -246,12 +238,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Add the action calls to the events](alertnotification-step4-add-action-calls-events.md)
+> [Next topic: Step 4: Attach the Omni-channel Alert Notification-related action calls to the events](alertnotification-step4-add-action-calls-events.md)
 
 ## See also
 
-- [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
+- [Configure notification for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-- [Step 2: Create hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 2: Create Omni-channel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
+- [Step 5: Add the hosted control, events, and action calls to configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

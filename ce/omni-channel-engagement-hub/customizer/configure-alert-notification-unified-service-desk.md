@@ -64,31 +64,13 @@ You must define an event and attach action calls so that an agent can accept an 
 
 - Omni-channel session is accepted.
 
-- Session timer starts.
-
 - KB Articles search control opens.
-
-- Open agent session search page.
 
 - Load default agent script.
 
 - Load agent session Customer summary page.
 
 - Focus on the Customer summary page.
-
-### Create an event and action when agent selects Reject 
-
-You must define an event and attach action calls so that an agent can reject an incoming request. When the agent selects the **Reject** button, he or she will experience the following actions:
-
-- The notification closes.
-
-- Omni-channel session is rejected.
-
-## Create an event and action when agent doesn't act, and time-out occurs after the specified wait Time value
-
-You must define an event and an action call when an agent does not act in a stipulated time. The notification hides after the wait time. The agent will experience the following action:
-
-- The Omni-channel session times out.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)

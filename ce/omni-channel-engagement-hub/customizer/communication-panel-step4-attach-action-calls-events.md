@@ -1,5 +1,5 @@
 ---
-title: "Steps or procedure to configure communication panel for agents | MicrosoftDocs"
+title: "Attach communication panel-related action calls to events | MicrosoftDocs"
 description: "Learn how to the attach the communication panel-related action calls to the out-of-the-box events for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
@@ -76,7 +76,7 @@ This topic describes how to attach communication panel-related action calls to t
     | OmnichannelSwitchToGlobalSession | <ul>Focus on Omni-channel Agent Dashboard</ul> |
     | OmnichannelUpdatePresenceGlobalContext | <ul> <li>Update Old Presence Status In Settings</li> <li>Update Current Presence Status In Settings</li></ul> |
     | OmnichannelUpdatePresenceParameters | <ul> <li>Update Current Presence Status In Settings</li> <li>Update All Presence State In Settings</li> </ul> |
-    | ShowEntityNotification | <ul> <li>ShowCaseEntityNotification</li> <li>ShowDefaultEntityNotification</li> </ul> |
+    | EntityNotification | <ul> <li>ShowCaseEntityNotification</li> <li>ShowDefaultEntityNotification</li> </ul> |
     | UnreadMessage | <ul> Omni-channel Unread Message Action </ul> |
     | UpdatePresence | <ul> Omni-channel Update Presence </ul> |
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
@@ -89,4 +89,4 @@ This topic describes how to attach communication panel-related action calls to t
 - [Step 1: Create communication panel entity search forms](communication-panel-step1-create-entity-searches.md)
 - [Step 2: Create communication panel hosted control](communication-panel-step2-create-hosted-control.md)
 - [Step 3: Attach communication panel-related action calls to events](communication-panel-step3-create-action-calls.md)
-- [Step 6: Add the hosted control, action calls, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md)
+- [Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md)

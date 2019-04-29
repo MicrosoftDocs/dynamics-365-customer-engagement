@@ -1,5 +1,5 @@
 ---
-title: "Steps or procedure to configure customer summary page for agents | MicrosoftDocs"
+title: "Create customer summary page hosted control | MicrosoftDocs"
 description: "Learn how to create the customer summary hosted control for agents using Omni-channel Engagement Hub."
 author: kabala123
 ms.author: kabala
@@ -48,7 +48,7 @@ This topic demonstrates how to create a customer summary hosted control in Unifi
     |-----------------------------------------------|---------------------------------|
     | Name                                | Customer Summary |
     | Sort Order | 30 |
-    | Display Name | \[\[$Resources.SessionOverviewHCDisplayName\]\] |
+    | Display Name | Customer Summary |
     | Unified Service Desk Component Type | Unified Interface Page |
     | Hosting Type | Chrome Process |
     | Pre-Fetch | Select the check box |

@@ -26,7 +26,7 @@ search.app:
 
 Most managed code samples provided in the [!INCLUDE [pn-sdk](../../includes/pn-sdk.md)] that use the organization and discovery web services are using shared helper code to perform common tasks. You might find this helper code useful in applications that you write. This sample code is available as a NuGet package: [Microsoft.CrmSdk.Samples.HelperCode-CS](https://www.nuget.org/packages/Microsoft.CrmSdk.Samples.HelperCode-CS)
   
- When writing an application that uses the .NET SDK assemblies, you typically have to perform a number of steps to configure your application’s project. To learn more about setting up a project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], or other development environment, see [Start a managed code project in Visual Studio](start-managed-code-project-visual-studio.md).  
+ When writing an application that uses the .NET SDK assemblies, you typically have to perform a number of steps to configure your application’s project. To learn more about setting up a project in [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)], or other development environment, see [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app).  
   
 To view a sample application that uses the helper code and includes the required .NET references, see [Run a simple program using Customer Engagement web services](../simple-program-web-services.md).  
   

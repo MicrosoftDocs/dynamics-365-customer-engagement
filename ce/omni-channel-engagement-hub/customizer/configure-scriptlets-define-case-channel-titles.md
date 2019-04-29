@@ -1,6 +1,6 @@
 ---
-title: "Configure session name information | MicrosoftDocs"
-description: "Learn how to configure session name information when using Omni-channel Engagement Hub in Unified Service Desk."
+title: "Configure scripts using scriptlets to define case and channel titles | MicrosoftDocs"
+description: "Learn how to configure sto define case and channel titles when using Omni-channel Engagement Hub in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -9,17 +9,17 @@ applies_to:
 ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: 10610694-53A1-425D-9393-9C48FE6942A1
+ms.assetid: 49DAA28B-5FCA-4A6F-A2B4-6EBD37CCF75E
 ms.custom: 
 ---
 
-# Configure session name information using session lines
+# Configure scriptlets to define case and channel titles
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic describes how to dynamically display the session tab name, you'll configure a session lines rules using the replacement parameters.
+The topic describes how to configure scripts using scriptlets to define case and channel titles.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-## Configure session name
+## Configure scriptlets
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
@@ -43,17 +43,23 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 3. Select **Unified Service Desk Administrator**.
 
-4. Select **Session Lines** and then select **+ New**.
+4. Select **Scriptlets** and then select **+ New**.
 
-5. In the new page, specify the following.
+5. In the new page, specify the following for **ResoleCaseTitle**.
 
     | Tab           | Field             | Value              |
     |---------------|-------------------|--------------------|
-    | General | Name | Omni-channel Session Name |
-    | General | Type | Session Name |
-    | General | Display | \[\[$Context.From\]+\] |
+    | General | Name | ResolveCaseTitle |
+    | General | Script Text | function ResolveCaseNameTitle() { <br>  if ("\[\[incident.title\]+\]" != "") { <br>    return "\[\[incident.title\]+\]"; <br>  } <br>  else <br>    return "\[\[$Resources.ResolveCaseTitleScriptletDefaultText\]\]"; <br>  } <br> ResolveCaseNameTitle(); |
 
-6. Save the session name information.
+6. Repeat step 4 and 5 to create **ResolveChannelTitle**.
+
+    | Tab           | Field             | Value              |
+    |---------------|-------------------|--------------------|
+    | General | Name | ResolveChannelTitle |
+    | General | Script Text | function GetChannelIdRequestMessage() {  <br> var channelName = "\[\[channelName\]+\]"; <br> var resString = "\[\[$Resources.ChatRequestTitle\]\]";  <br> if(channelName == "SMS") { <br> resString = "\[\[$Resources.SMSRequestTitle\]\]"; <br> } <br> return resString;  <br>  }  <br> GetChannelIdRequestMessage(); |
+   
+7. Save the session name information.
 
 ## Add the session name information to configuration
 
@@ -65,11 +71,11 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. Select the **Session Lines, Agent Scripts, and Scriplets** tab.
+5. Select the **Session Lines, Agent Scripts, and Scriptlets** tab.
 
-6. In the **Session Lines** section, select the more commands (...), select **Add Existing Session Information**, type the name of the **Session Lines** in the search box, and then press **Enter** or select the search icon.
+6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**, type the name of the **Scriptlets** in the search box, and then press **Enter** or select the search icon.
 
-7. Select the session lines from the search results and select **Add**.
+7. Select the scriplet from the search results and select **Add**.
 
 8. When you've finished, select **Save**.
 
@@ -80,3 +86,4 @@ The topic describes how to dynamically display the session tab name, you'll conf
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)
 - [Configure advanced search](configure-advanced-search.md)
+- [Configure session name information using session lines](configure-session-name-information.md)

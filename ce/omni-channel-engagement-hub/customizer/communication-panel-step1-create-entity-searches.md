@@ -1,5 +1,5 @@
 ---
-title: "Create communication panel entity search forms | MicrosoftDocs"
+title: "Create communication panel entity search | MicrosoftDocs"
 description: "Learn how to create the communication panel entity search forms."
 author: kabala123
 ms.author: kabala
@@ -12,13 +12,13 @@ ms.assetid: 5ad92775-6091-4385-a661-22f6b4ab0cf3
 ms.custom: 
 ---
 
-# Step 1: Create communication panel entity search forms
+# Step 1: Create communication panel entity search
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to create a communication panel hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to create a communication panel entity search in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
@@ -32,7 +32,7 @@ This topic describes how to create a communication panel hosted control in Unifi
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
  
-## Create entity search forms
+## Create entity search
 
 1. Sign in to a Microsoft Dynamics 365 for Customer Engagement instance.
 
@@ -108,7 +108,7 @@ This topic describes how to create a communication panel hosted control in Unifi
 
 ## See also
 
-- [Step 3: Create action calls related to communication panel](communication-panel-step3-create-action-calls.md)
+- [Step 3: Create communication panel related-action calls related to communication panel](communication-panel-step3-create-action-calls.md)
 - [Step 4: Attach communication panel-related action calls to events](communication-panel-step4-attach-action-calls-events.md)
 - [Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md) 
-- [Step 6: Add the hosted control, action calls, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 
+- [Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 

@@ -52,29 +52,13 @@ You see a toast notification for the case request. Therefore, the following even
 
  - Create an event and action when an agent does not act, and the notification hides after a brief wait time.
 
-## Create an event to open a session when the agent selects the toast notification
-
-You must define an event and attach the action calls for an agent to select the case request notification. When the agent selects the notification, the agent will experience the following actions:
-
--  The notification closes.
-
--  The right panel expands.
-
--  Omni-channel customer session is created.
-
--  The communication control panel does not load as it is not a chat request.
-
--  Load the form of the case
-
--  Load the Omni-channel session for the case entity
-
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
 
 ## See also
 
-- [Step 2: Create hosted controls](toastnotification-step2-create-hosted-controls.md)
-- [Step 3: Create an action call to display the notification](toastnotification-step3-create-action-call-display-notification.md)
-- [Step 4: Add the action calls to the events](toastnotification-step4-add-action-calls-events.md)
-- [Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+- [Step 2: Create Omni-channel Toast Notification hosted control](toastnotification-step2-create-hosted-controls.md)
+- [Step 3: Create Omni-channel Toast Notification-related action call](toastnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Attach Omni-channel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
+- [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

@@ -2,7 +2,7 @@
 title: "View forecasts (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "See forecasts in Dynamics 365 for Sales to know the health of your pipeline or to track how your sales team is performing against their quota or target. Define the data and period to use for the purpose of forecasting in Dynamics 365 for Sales."
 keywords: ""
-ms.date: 04/05/2019
+ms.date: 04/23/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -64,15 +64,15 @@ Track your forecasts to project what a sales person, team, or organization will 
 
     -	**Owner**. Shows the owner of the records that are included in the forecast (participating records) or the name of the manager. Refer forecasts and sales hierarchy section for more details.
 
-    -	**Quota**. Shows the quota value from the goal created for the owner and period. If the Quota source in the forecast definition is Manual, then this field is initially set to blank. You can edit the Quota column inline.
+    -	**Quota**. Shows the quota value from the goal created for the owner and period. If the **Quota source** in the forecast definition is **Manual**, then this field is initially set to blank. For manual quota source forecasts, you can edit the **Quota** column inline.
 
     -	**Closed**. Shows the aggregated or rolled-up value of the actual revenue of all closed opportunities owned by a specific owner for the defined period.
 
-    - **Committed**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to Committed. This value can be edited inline.
+    - **Committed**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to **Committed**. This value can be edited inline.
 
-    -	**Best case**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to Best Case. This value can be edited inline.
+    -	**Best case**. For the specific period and owner, this column shows the aggregated or rolled-up value of estimated revenue of all open opportunities that have the forecast category set to **Best case**. This value can be edited inline.
 
-    -	**Pipeline**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to Committed or Best case. This value can be edited inline.
+    -	**Pipeline**. For the specific period and owner, this column shows the aggregated or rollup value of estimated revenue of all open opportunities that have the forecast category set to **Pipeline**. This value can be edited inline.
 
     -	**% Achieved**. Shows the percentage of quota achieved based on closed revenue versus quota/goals.
 
@@ -86,7 +86,7 @@ Forecasts are shown based on the sales team hierarchy. For example, if Wade Roqu
 
 If Wade Roque reports to Bert Hair, Bert will see his own forecasts along with Wade's rolled-up forecast. Bert will not see the forecasts of Wade's direct reports.
 
-To see the forecast for everyone in the hierarchy, expand a specific forecast.
+To see the rolled-up forecast for everyone in the hierarchy, expand a specific forecast.
 
 The parent row (for the manager) shows values rolled up from all the child records (for the direct reports and manager themselves if the manager is also owning some participating opportunities).
  

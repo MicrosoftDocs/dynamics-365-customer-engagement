@@ -40,19 +40,25 @@ This topic describes how to add hosted control, action calls, and events to conf
 
 2. Select the Down arrow next to Dynamics 365.
 
-3. Select **Unified Service Desk Administrator**
+3. Select **Unified Service Desk Administrator**.
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. On the navigation bar, select the Down arrow next to **Configuration** and then select **Action Calls**.
+5. Select the **Hosted Controls, Events and Action Calls** tab.
 
-6. On the next page, select **Add Existing Action Call**, type the name of the action in the search bar, and then press **Enter** or select the search icon.
+6. In the **Hosted Controls** section, select the more commands (...), select **Add Existing Hosted Control**, type the name of the **Hosted Control** in the search box, and then press **Enter** or select the search icon.
 
-7. Add the action calls that are shown in the search results.
+7. Select the hosted control from the search results and select **Add**.
 
-8. Repeat steps 4 through 7 to add the hosted controls and the events by selecting the Down arrow next to **Configuration** and then selecting **Hosted Controls** and **Events**, respectively.
+8. In the **Events** section, select the more commands (...), select **Add Existing Events**, type the name of the **Event** in the search box, and then press **Enter** or select the search icon.
 
-9. When you've finished, select **Save**.  
+9. Select the event from the search results and select **Add**.
+
+10. In the **Action Calls** section, select the more commands (...), select **Add Existing Action Calls**, type the name of the **Action Calls** in the search box, and then press **Enter** or select the search icon.
+
+11. Select the action calls from the search results and select **Add**.
+
+12. When you've finished, select **Save**. 
 
 ## See also
 

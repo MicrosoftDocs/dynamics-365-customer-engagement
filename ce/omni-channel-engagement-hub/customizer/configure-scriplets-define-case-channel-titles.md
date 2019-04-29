@@ -71,7 +71,7 @@ The topic describes how to configure scripts using scriplets to define case and 
 
 4. Select **Configuration** and then select a configuration from the list.
 
-5. Select the **Session Lines, Agent Scripts, and Scriplets** tab.
+5. Select the **Session Lines, Agent Scripts, and Scriptlets** tab.
 
 6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**, type the name of the **Scriptlets** in the search box, and then press **Enter** or select the search icon.
 
