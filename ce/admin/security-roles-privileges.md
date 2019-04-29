@@ -95,7 +95,7 @@ This member’s privilege inheritance role is applicable to [Owner](manage-teams
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
 Check your security role:
-- Follow the steps in [View your user profile](../basics/view-your-user-profile.md)View your user profile.
+- Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
 - Don’t have the correct permissions? Contact your system administrator.
 
 1. Go to **Settings** > **Security**.
