@@ -59,13 +59,15 @@ To get started with customizing the provided demo event portal you need to follo
 > [!NOTE]
 > The command needs to be executed in the same directory where the `package.json` file is located.
 
-## Configuration
+## Environment Configuration
 
 All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
 
 - **production** - Used internally by **Angular** to differentiate between production and development environments.
+- **buildVersion** - This file links to the version specified in the 'package.json' file by default. There is no need to change this property. However, if you prefer to not expose the version of the application you can set it to 'null'.
 - **apiEndpoint** - Used by the event management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
+- **imagesEndpoint** - Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.
 - **useRestStack** - Used by the event management application to adjust to different types of APIs used when utilizing the self-hosted approach against Dynamics 365 hosted approach. The self-hosted approach uses the REST API.
 - **isAuthenticationEnabled** - Used by the event management application to turn on support user authentication. If false login or logout dropdown is shown on the navigation bar.
 - **useAadB2C** - Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
