@@ -160,7 +160,7 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 
 ![Transfer agent list](../../media/oceh-cc-transfer-agent-list.png "transfer agent list") ![Transfer queue list](../../media/oceh-cc-transfer-queue-list.png "Transfer queue list")
 
-### Search for agents or queues
+### Search agents or queues for conversation request transfer
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
