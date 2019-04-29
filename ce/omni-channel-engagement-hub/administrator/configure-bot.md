@@ -32,8 +32,8 @@ In Omni-channel Engagement Hub, you can integrate a bot to start the conversatio
 To integrate a bot with Omni-channel Engagement Hub, you must:
 
 1.	[Create a bot user](#step-1-create-a-bot-user)
-2.	Add a bot user to the queue(s)
-3.	Set escalation rules
+2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues)
+3.	[Set escalation rules](#step-3-set-escalation-rules)
 
 
 ### Step 1: Create a bot user
@@ -49,7 +49,13 @@ To get Microsoft App ID of the bot:
 
 2.	Search for **Bot Channels Registration** in the list and select it.
 
-3.	Select **Settings** and then copy the value in the **Microsoft App Id** field. This value is your bot's application ID to be used while creating a bot user.
+   > [!div class=mx-imgBorder]
+   > ![Bot Channels Registration](../media/bot-channels-reg.png "Bot Channels Registration")
+
+3.	Select **Settings** and then copy the value in the **Microsoft App ID** field. This value is your bot's application ID to be used while creating a bot user.
+
+   > [!div class=mx-imgBorder]
+   > ![Copy Microsoft App ID](../media/bot-id.png "Copy Microsoft App ID")
 
 To create a bot user:
 
