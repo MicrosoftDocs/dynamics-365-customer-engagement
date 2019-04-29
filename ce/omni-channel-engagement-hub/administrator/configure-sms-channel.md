@@ -83,7 +83,7 @@ When you validate the API key while adding SMS support, a call is made to TeleSi
 
 For an incoming message from a customer, it is first sent to the TeleSign service and then pushed to Omni-channel Engagement Hub using the callback URL thereby creating a conversation.
 
-For an outgoing message from an agent, it is first sent to the TeleSign service and then pushed to the customer. When am agent sends a message to the customer, the text message, contact phone, support phone, and TeleSign account information are sent to the TeleSign API and then to the customer.
+For an outgoing message from an agent, it is first sent to the TeleSign service and then pushed to the customer. When an agent sends a message to the customer, the text message, contact phone, support phone, and TeleSign account information are sent to the TeleSign API and then to the customer.
 
 ### See also
 
