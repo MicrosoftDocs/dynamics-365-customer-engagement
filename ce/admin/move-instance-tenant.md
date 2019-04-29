@@ -1,7 +1,7 @@
 ---
 title: "Tenant to tenant migration (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/15/2019
+ms.date: 04/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -29,7 +29,7 @@ search.app:
 You can use the Tenant to Tenant Migration feature for Dynamics 365 for Customer Engagement apps (online) to request to have an instance in one tenant moved to another tenant. To do so, [contact technical support](contact-technical-support.md) and submit a support request.
 
 > [!IMPORTANT]
-> Dynamics 365 for Customer Engagement apps (online) version 9.0 does not currently support tenant to tenant migration. Check back later for availability. 
+> Dynamics 365 for Customer Engagement apps (online) version 9.0 now supports tenant to tenant migration.
 
 There are no user-interface changes or version changes as part of this move. You can move one or multiple Dynamics 365 for Customer Engagement apps (online) instances. Once complete, your Dynamics 365 for Customer Engagement apps (online) instance(s) will appear in your new tenant.
 
@@ -41,7 +41,7 @@ There are no user-interface changes or version changes as part of this move. You
 
 ## Impact of migrating between tenants
 
-When your organization is moved from one tenant to another, the URL does not need to change, as the source instance will be deleted after the move.
+When your organization is moved from one tenant to another within the same region, the URL does not change.
 
 In order to perform this operation, you'll need to provide some information, such as:
 - What is the source tenant domain and its region? (example: EMEA, NA, APAC)
@@ -53,7 +53,7 @@ In order to perform this operation, you'll need to provide some information, suc
 
 If you do not have a Dynamics 365 for Customer Engagement apps subscription and/or trial in the destination tenant, then you will need to create one. You might need to purchase a new Dynamics 365 for Customer Engagement apps subscription in the destination tenant (or convert a trial to paid), if not already done.
 
-You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source instance type and destination instance type must match (Production vs non-Production (Sandbox)). These instances should also be version 8.2.2 or below. The users to be migrated from one tenant to another need to be created on the target tenant as well.
+You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source instance type and destination instance type must match (Production vs non-Production (Sandbox)). The users to be migrated from one tenant to another need to be created on the target tenant as well.
 
 The destination tenant needs an equal or higher number of active user licenses, Dynamics 365 for Customer Engagement instance licenses for the instances being migrated, and equal or greater storage as the source tenant.
 
@@ -67,3 +67,4 @@ You’ll be provided with a list of prerequisites and post-requisites for your m
 |**What Microsoft does**   |Your support representative or Account Manager will work with you to request a move and schedule it.         |Cut-over for the migration takes several hours, depending on the number of users and the amount of data. During this period, the organization is not accessible, so the cut-over should be scheduled during the evening or over a weekend.<br/><br/>There is a step that will require your involvement, which is to provide a Dynamics 365 for Customer Engagement apps User Mapping File. This is requested in advance so that we can validate the users being moved before the migration takes place.         |You will be alerted by email or telephone when your instance is migrated to the new tenant.<br/><br/>After the tenant migration is complete, your support representative or Account Manager will assist you to contact with billing to cancel and/or credit your previous subscription, if needed.         |
 
 We will adhere to the terms of the [Microsoft Online Services Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=523897) for all moves. 
+

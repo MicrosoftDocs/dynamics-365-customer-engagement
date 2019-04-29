@@ -3,7 +3,7 @@ title: "Gather feedback by using polls on a portal in Dynamics 365 for Customer 
 description: "Instructions to create polls on a portal and gather feedback by using them."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -33,7 +33,7 @@ Polls can be placed on the portal by using the PollPlacement control. This contr
 
 ## Add a poll to the page
 
-Content managers can use [Template tags](#template-tags) to add a poll to any editable content area:  
+Content managers can use [Template tags](custom-templates-dynamic-content.md) to add a poll to any editable content area:  
 
 `{% include 'Random Poll' placement:polls.placements[Sidebar] %}`
 
@@ -42,7 +42,7 @@ or
 `{% include 'Poll Template' ad:ads[Wireframe Development] %}`
 
 > [!Note]
-> Example web templates are configured in the starter websites. You can use the Random Poll template to display a random poll from a particular Poll Placement entity, or you can use the Poll Template template to display a specific poll. You can edit these templates or follow their example and create your own by using [Polls](#polls-1).  
+> Example web templates are configured in the starter websites. You can use the Random Poll template to display a random poll from a particular Poll Placement entity, or you can use the Poll Template template to display a specific poll. You can edit these templates or follow their example and create your own by using [Polls](liquid-objects.md#polls). 
 
 ## Create a poll placement
 

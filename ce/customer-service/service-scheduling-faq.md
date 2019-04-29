@@ -26,9 +26,9 @@ search.app:
 
 Read this topic to find answers to some common questions regarding Service Scheduling, it's legacy and new experience, setup, and some key concepts.
 
-## Do I need Field Service or Project Service license to enable service scheduling for my org?
+## What licenses do I need to enable service scheduling for my org?
  
-The new scheduling experience is available to you if you have Dynamics 365 for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 for Customer Engagement Plan licenses.
+The new scheduling experience is available to you if you have Dynamics 365 for Customer Service Enterprise, Customer Engagement Plan, or Dynamics 365 Plan licenses.
 
 ## Is the new scheduling experience automatically available with the next Dynamics 365 for Customer Engagement upgrade?
 

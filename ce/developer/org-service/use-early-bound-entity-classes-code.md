@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming#early-bound
 title: "Use the early bound entity classes in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The code generation tool (CrmSvcUtil) creates early-bound entity classes that you can use to access business data in Dynamics 365 for Customer Engagement. The advantage of using early-bound entity classes is that all type references are checked at compile time"
 ms.custom: 

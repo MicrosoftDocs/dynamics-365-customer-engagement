@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-associate-disassociate
 title: "Use the Entity class to add or update associations between related records (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the IOrganizationService. Associate and IOrganizationService.Disassociate methods to create and remove associations between related records"
 ms.custom: 

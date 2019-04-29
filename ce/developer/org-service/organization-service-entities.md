@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/browse-your-metadata
 title: "Organization service entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic lists the entities available in default deployments of Dynamics 365 for Customer Engagement."
 ms.custom: 
