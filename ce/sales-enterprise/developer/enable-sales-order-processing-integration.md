@@ -2,7 +2,7 @@
 title: "Enable sales order processing integration (Dynamics 365 for Sales) | MicrosoftDocs"
 description: ""
 keywords: sales, developer guide
-ms.date: 04/25/2019
+ms.date: 04/29/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -38,6 +38,16 @@ When sales order processing is turned on,
 - The **Create Invoice** button is not shown on the command bar of the Order records. 
 
 - Order records will support a Submit order button. Upon submitting an order, the order is marked to `Submitted` status. The order is made read-only except, if created by an integration user. For more information about `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on [SystemUser entity](../../developer/entities/systemuser.md).
+
+|Entity name|Create|Update|Delete|Recalculate|
+|------|------|------|------|------|
+|Opportunity|Calculate always|Calculate always|NA|Calculate always|
+|Quote|Calculate always|Calculate always|NA|Calculate always|
+|Sales order|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />(Back office is installed and parent sales order is in submitted state) or (logged in user is an integration user)|NA|Calculation skips if -<br />Back office is installed and parent sales order is in submitted state|
+|Invoice|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|Calculation skips if -<br />Back office is installed|
+|Opportunity product|Calculate always|Calculate always|Calculate always|NA|
+|Quote product|Calculate always|Calculate always|Calculate always|NA|
+|Sales order product|
 
 ## See also
 
