@@ -27,12 +27,13 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Work with your data in disconnected mode on your mobile device with mobile offline. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Work with your data even in disconnected mode on your mobile device with mobile offline. The app provides a rich offline experience which lets you to work with commands like create, read, update, and delete along with some special commands - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
 When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 > [!NOTE]
 > To use the mobile offline feature, download the latest version (13.19031.55 or greater) of the **Dynamics 365 for phones app** from the app store on your device. 
+> Mobile offline feature is available for iOS and android users only
 
 - When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
@@ -118,7 +119,7 @@ These entities and corresponding commands available in offline mode.
 |Custome Entity|Create, Read, Update, Delete	|
 |Email|Read only	|
 |Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
-|Opportunity|Create, Read, Update, Delete, Lost/Won	|
+|Opportunity|Create, Read, Update, Delete|
 |Opportunity Product|Create, Read, Update, Delete	|
 |Phone Call|Create, Read, Update, Delete	|
 |Position|Create, Read, Update, Delete	|
@@ -147,8 +148,6 @@ If user was working on a record and lost network connection, any updates made to
 > - The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see Xrm.Mobile.offline (client-side reference)
 
 ## Known Issues
-
-**Business Process Flows**: Business Process Flows are not supported for offline. When offline, Business Process Flow grids and views will not be available for use, and BPFs will not be rendered on records opened in mobile offline. If a record containing a BPF was loaded prior to going offline, BPF functions (such as move next/move previous, etc.) will not work, branching conditions will not be evaluated and recommendations on steps will not be displayed 
 
 **Qualify a lead**:
 
