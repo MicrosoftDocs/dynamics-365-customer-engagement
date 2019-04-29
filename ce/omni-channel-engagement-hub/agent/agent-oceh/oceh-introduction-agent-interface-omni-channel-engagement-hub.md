@@ -19,6 +19,23 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+As an agent, you might engage with several customers simultaneously across different channels but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. Omni-channel Engagement Hub provides a consistent experience regardless of the support channel and organizations can maximize agent productivity.
+
+The Omni-channel Engagement Hub provides key capabilities like:
+
+- Agent dashboard
+- Multi-session
+- Application tabs associated with sessions
+- Customer summary
+- Presence management
+- Notifications
+- Consult with agents and/or supervisors
+- Transfer conversation to another agent or queue
+- Capture notes specific to the conversation
+
+ > [!div class=mx-imgBorder]
+ > ![Interface of Omni-channel Engagement Hub app](../../media/oceh-oc-agent-interface-tier1-dashboard.png "Interface of Omni-channel Engagement Hub app") 
+
 ## Components in the agent interface
 
 When you sign in to the Omni-channel Engagement Hub app, the agent interface has the following components:

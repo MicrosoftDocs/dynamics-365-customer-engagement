@@ -55,10 +55,31 @@ An alert notification is a type of notification where a dialog appears with acti
 
 ## Incoming chat notification
 
-You see a notification for an incoming chat request. When you accept the chat request, you’ll see a screen pop with details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands in the left panel of the Unified Service Desk.
+You receive a notification for an incoming chat request. When you accept the chat request, you’ll see a screen pop with details about the customer in the Customer summary page. A simultaneous session starts, and a chat window expands in the left panel of the Unified Service Desk.
 
  > [!div class=mx-imgBorder]
  > ![Incoming chat notification](../../media/oceh/chat-notification-request.png "Incoming chat notification")  
+
+The details you’ll see for a chat channel are:
+
+ - Customer profile
+
+ - Snapshot
+
+ - Conversation summary
+
+ - Recent cases
+
+ - Recent activities
+
+## Incoming SMS notification
+
+You receive a notification for a SMS conversation request. When you accept the SMS request, a session is started, and the communication panel appears where you can exchange messages with the customer. When you select the Customer summary option in the communication panel, the customer details are populated on the Customer summary page.
+
+Identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 for Customer Engagement. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
+
+ > [!div class=mx-imgBorder]
+ > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
 The details you’ll see for a chat channel are:
 
