@@ -20,7 +20,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts different channels.
 
-In the chat channel, you can see the following options:
+In the conversation channel, you can see the following options:
  
  | Option           | Description                                   |  Shortcut |
  |------------------|-----------------------------------------------|-----------|
