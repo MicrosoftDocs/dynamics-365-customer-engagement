@@ -43,7 +43,6 @@
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
-
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
 ## [Types of scheduling](scheduling-capabilities.md)
 ## [Scheduling personas](scheduling-roles-personas.md)
