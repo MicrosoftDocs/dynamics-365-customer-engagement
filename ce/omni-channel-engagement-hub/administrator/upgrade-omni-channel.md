@@ -15,13 +15,13 @@ ms.custom:
 
 # Upgrade Omni-channel Engagement Hub
 
-Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the application management page in the **Dynamics 365 admin center**.
+Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the **Manage Instances** page in **Dynamics 365 Admin Center**. 
 
 See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to learn about the new features in the latest release.
 
 Follow these steps to upgrade Omni-channel Engagement Hub:
 
-1. Log in to the [Dynamics 365 admin center](https://admin.microsoft.com/adminportal/home#/homepage).
+1. Log in to the [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
 
 2. Select **Manage Instances** and navigate to your org in the **Manage Omni-channel Instances** page. 
 3. Check for an upgrade for your org. 
