@@ -25,6 +25,9 @@ Agents can view the incoming SMS requests in their dashboard and respond accordi
 
 To add SMS support for your organization, you must first register with TeleSign and get your customer ID and API key, and purchase a phone number. You can then add SMS support through Omni-channel Engagement Hub.
 
+> [!NOTE]
+> The maximum number of characters supported for sent and received messages is 1600.
+
 ## Sign up for TeleSign account
 
 An SMS channel is enabled within Omni-channel Engagement Hub by integrating with TeleSign. This integration uses public APIs of TeleSign for sending and receiving text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
