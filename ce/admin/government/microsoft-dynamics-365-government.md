@@ -2,7 +2,7 @@
 title: "Dynamics 365 US Government | MicrosoftDocs"
 description: "Microsoft Dynamics 365 US Government is available to qualified government entities in the United States."
 ms.custom: 
-ms.date: 04/10/2019
+ms.date: 04/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -184,7 +184,9 @@ You use a different set of URLs to access Dynamics 365 US Government environment
 - GCC: 
     - Discovery URL: https://disco.crm9.dynamics.com/api/discovery/v9.1/
     - Global discovery URL: https://globaldisco.crm9.dynamics.com/api/discovery/v1.0/
-- GCC High: https://disco.crm.microsoftdynamics.us/api/discovery/v9.1/
+- GCC High: 
+    - Discovery URL: https://disco.crm.microsoftdynamics.us/api/discovery/v9.1/
+    - Global discovery URL: https://globaldisco.crm.microsoftdynamics.us/api/discovery/v1.0
 
 ### Instance WebAPI
 

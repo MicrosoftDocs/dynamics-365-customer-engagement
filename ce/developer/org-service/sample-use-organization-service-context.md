@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/organizationservicecontext
 title: "Sample: Use the organization service context (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the OrganizationServiceContext to perform basic operations such as create, retrieve, update and delete"
 keywords: 
