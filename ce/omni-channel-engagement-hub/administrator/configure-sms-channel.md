@@ -26,7 +26,8 @@ Agents can view the incoming SMS requests in their dashboard and respond accordi
 To add SMS support for your organization, you must first register with TeleSign and get your customer ID and API key, and purchase a phone number. You can then add SMS support through Omni-channel Engagement Hub.
 
 > [!NOTE]
-> The maximum number of characters supported for sent and received messages is 1600.
+> - The maximum number of characters supported for sent and received messages is 1600.
+> - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved.
 
 ## Sign up for TeleSign account
 
