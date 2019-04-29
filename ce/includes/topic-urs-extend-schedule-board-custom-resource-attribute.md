@@ -198,7 +198,7 @@ Back on the schedule board we've been working on, you'll see that we have define
 
 ## Additional notes
 
-- At this time, resource cards cannot be extended for custom layouts and fields. Resource cards are displayed when hovering over or right clicking the resource's name on the schedule board.
+- At this time, resource cards can't be extended for custom layouts and fields. Resource cards are displayed when hovering over or right-clicking the resource's name on the schedule board.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource card](../field-service/media/schedule-board-tab-settings-resource-card.png)
 
