@@ -64,7 +64,7 @@ To get started with customizing the provided demo event portal you need to follo
 All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
 
 - **production** - Used internally by **Angular** to differentiate between production and development environments.
-- **buildVersion** - This field links to the version specified in the 'package.json' file by default. There is no need to change this property. However, if you prefer to not expose the version of the application you can set it to 'null'.
+- **buildVersion** - This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application you can set it to `null`.
 - **apiEndpoint** - Used by the event management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
 - **imagesEndpoint** - Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.
