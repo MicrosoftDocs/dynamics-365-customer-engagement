@@ -80,13 +80,19 @@ To sign up for TeleSign:
 
 14.	On the **Routing rules items** tab, create a routing rule to transfer the SMS to an appropriate agent. Routing rule for SMS works on the **Mobile Phone** field of the Contact entity. The customer is identified based on the **Mobile Phone** field and the conversation is automatically linked to the contact record.
 
-## Flow of data between Omni-channel Engagement Hub and TeleSign
+## Flow of data between Omni-channel Engagement Hub - SMS channel and TeleSign
 
-When you validate the API key while adding SMS support, a call is made to TeleSign to validate customer ID and the API key.
+### Incoming text messages
 
-For an incoming message from a customer, it is first sent to the TeleSign service and then pushed to Omni-channel Engagement Hub using the callback URL thereby creating a conversation.
+For an incoming text message sent by a customer to the support phone number, the message is first sent to the TeleSign service and then pushed by TeleSign to Omni-channel Engagement Hub using the callback URL. After this, the message gets routed and associated to either a new or an existing conversation by Omni-channel Engagement Hub.
 
-For an outgoing message from an agent, it is first sent to the TeleSign service and then pushed to the customer. When an agent sends a message to the customer, the text message, contact phone, support phone, and TeleSign account information are sent to the TeleSign API and then to the customer.
+### Outgoing Text Messages
+
+For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign services and then TeleSign sends it to the customer. In addition to the text message, Omni-channel Engagement Hub uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign services.
+
+### TeleSign API Key Validation
+
+When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
 
 ### See also
 
