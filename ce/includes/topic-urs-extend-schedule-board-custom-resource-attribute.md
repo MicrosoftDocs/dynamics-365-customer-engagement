@@ -200,7 +200,7 @@ Back on the schedule board we've been working on, you'll see that we have define
 
 - At this time, resource cards cannot be extended for custom layouts and fields. Resource cards are displayed when hovering over or right clicking the resource's name on the schedule board.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of final result entering 5 for resource cost on the schedule board](../field-service/media/schedule-board-tab-settings-resource-card.png)
+> ![Screenshot of resource card](../field-service/media/schedule-board-tab-settings-resource-card.png)
 
 - For further context on schedule board extensibility, visit our [topic that provides a deep overview of scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
 
