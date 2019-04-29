@@ -26,18 +26,18 @@ Select the plus icon in the application tab to view the sitemap and select **Act
 > [!div class=mx-imgBorder]
 > ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities.png "Select activities in the sitemap")
 
-You can find the following form types in Dynamics 365 for Customer Engagement apps:
+You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 
-- Conversation form
+- Conversation
 
-- Session form
+- Session
 
 > [!div class=mx-imgBorder]
 > ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities-list.png "Select activities in the sitemap")
 
-### Conversation form
+### Conversation activity type
 
-The Conversation form displays information about an conversation request.
+The Conversation activity type displays information about an conversation request.
 
 ![Omni-channel conversation form](../../media/oceh-oc-conversation-form.png "Omni-channel conversation form")  
 
@@ -48,9 +48,9 @@ The Conversation form displays information about an conversation request.
 | Details | Session Details |<ul> <li>Subject</li> <li>Date created</li> <ul>|
 | Details | Chat Transcript |<ul> <li>Download</li> <ul>|
 
-### Session form
+### Session activity type
 
-The session form displays information about a individual session in a conversation request.
+The session activity type displays information about a individual session in a conversation request.
 
 ![Omni-channel session form](../../media/oceh-oc-session-form.png "Omni-channel session form")  
 

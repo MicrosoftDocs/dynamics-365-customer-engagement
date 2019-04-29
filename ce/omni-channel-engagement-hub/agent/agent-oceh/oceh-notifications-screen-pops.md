@@ -23,7 +23,9 @@ A notification is a visual alert you see as a dialog box each time you get a cal
 
 Some of the scenarios for which you can see the screen pop or notifications are:
 
-- Incoming chat
+- Incoming chat conversation
+
+- Incoming SMS conversation
 
 - Incoming email
 
@@ -45,7 +47,7 @@ There are two types of notifications:
 
 A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens.
 
-Toast notifications or floating notifications appear for SMS, email, chat, and voice scenarios. Also, they appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
+Toast notifications or floating notifications appear for SMS, email, and chat conversation requests scenarios. Also, they appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
 
 ### Alert notifications
 
