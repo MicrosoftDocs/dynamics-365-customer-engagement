@@ -57,8 +57,6 @@ In the above example, the discovery service is used to obtain the organization i
 
 For the regional discovery service, the `Instances` entity set, returns the set of instances that the user has access to in a particular geography, when no filters are applied. The returned data has a scope as described below.  
   
--   Includes all instances in the commercial cloud where the user is provisioned and enabled, except sovereign clouds instances are not returned  
-  
 -   Does not  include instances where the user's account is disabled  
   
 -   Does not include instances where users have been filtered out based on an instance security group  
