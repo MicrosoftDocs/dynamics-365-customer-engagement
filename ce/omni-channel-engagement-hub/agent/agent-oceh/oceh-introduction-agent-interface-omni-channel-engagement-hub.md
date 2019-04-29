@@ -45,8 +45,8 @@ The vertical panel on the left side is the session panel that allows you (the ag
 
 As an agent, you can start the sessions in two ways:
 
-- **Manual:** Select **More options** (**...**) in the dashboard and select **Open** or **Pick** to start the session. Open as a session is available for **My work items** and **Closed work items** streams. Pick is available in **Open work items** streams. <br>
-Also, alternatively, you can press **CTRL** and select on a link that can open as a session from the dashboard. You can't use the shortcut to open any other links.
+- **Manual:** Select **More options** (**...**) in the dashboard and select **Open** or **Pick** to start the session. Open as a session is available for **My work items** and **Open work items** streams. Pick is available in **Open work items** streams. <br>
+In addition, you can press **CTRL** and select on a link that can open as a tab in the application tab. Also, you can press **Shift** and select on a link to open as a session. You can't use the shortcut to open any other links apart from session enabled entities.
 
 - **Accept incoming conversation:** Accept the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
 
@@ -125,7 +125,7 @@ To learn more about Accounts, Contacts, Social Profiles, Cases, Queues, and Know
 
    ![Navigation bar buttons of Omni-channel Engagement Hub](../../media/oceh-navigation-bar-buttons.png "Navigation bar buttons of Omni-channel Engagement Hub")
 
-   a. **Search.** Do a simple search for records using the advanced search option open the record in a application tab. Advanced Search is also called as Categorized Search.
+   a. **Search.** Do a simple search for records using the advanced search option and open the record in a application tab. Advanced Search is also called as Categorized Search.
 
    b. **Quick create.** Add a new record. The quick-create option provides the list of related records (entities) that you can create. The following are the record types that you can create:
     

@@ -24,7 +24,7 @@ Presence is the indication of your (agent) availability or status.
 ## Update your presence status
 
 Presence status is updated in two ways: 
-- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the status icon at the lower-right corner and then select the status from the list to update your status manually. The list shows five standard presence statuses: 
+- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the nav bar and then select the status from the list to update your status manually. The list shows five standard presence statuses:
 
   - Offline
   - Appear away
