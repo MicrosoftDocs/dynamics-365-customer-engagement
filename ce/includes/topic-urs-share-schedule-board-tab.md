@@ -62,8 +62,8 @@ Finally, use the pop up screen to add users and teams to share the schedule boar
 ## Additional notes
 
 - Even if a schedule board tab is shared with a specific user, that user must have the minimum user permissions on the **Schedule Board Settings entity** to view it. Minimum permissions are included with the **Field Service - Administrator**, **Field Service - Dispatcher**, and **Field Service - Resource** security roles.
-- The recommended best practice is to give relevant users minimum user secuirty level privileges for read, write, create etc and then use the Shared With option (Everyone, Specific People, Just Me) on the schedule baord tab settings to share approporiately. This is better than using the Dynamics security model as that could lead to oversharing. 
-- You can share a schedule board tab with a Team for convenience. 
+- We recommend giving relevant users minimum security level privileges for read, write, and create. Then use the **Shared With** option (Everyone, Specific People, Just Me) on the schedule baord tab settings to share appropriately. This is better than using the Dynamics security model, as that could lead to oversharing. 
+- You can share a schedule board tab with a team for convenience. 
 - To edit a schedule board, it must be shared with you and you must have write priviledges. 
 
 
