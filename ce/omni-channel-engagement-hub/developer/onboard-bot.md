@@ -1,8 +1,8 @@
 ---
 title: "Integrate a bot with Omni-channel Engagement Hub| Microsoft Docs"
-description: "Read how you can integrate a bot with Omni-channel Engagement Hub"
+description: "Read how a bot in Omni-channel Engagement Hub can be used to escalate a conversation to a human agent."
 keywords: ""
-ms.date: 04/29/2019
+ms.date: 04/30/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -28,6 +28,7 @@ You must ensure the following conditions are met to onboard a bot to Omni-channe
 -	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
 -	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
+<!--
 ## Create your bot’s reply activity 
 
 A bot’s reply activity is sent on a Microsoft Teams channel, so it is important to make sure that the Teams channel is enabled on your bot. The following sample shows how you can create your bot's reply activity.
@@ -65,6 +66,7 @@ Dictionary<string, object> channelinfo = new Dictionary<string, object>();
 }
 
 ```
+-->
 <!-- 
 ## Escalating a conversation to a human agent
 
