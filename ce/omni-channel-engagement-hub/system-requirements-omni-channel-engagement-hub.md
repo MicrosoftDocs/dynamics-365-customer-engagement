@@ -19,23 +19,25 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+<<<<<<< HEAD
 This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance (Omni-channel Engagement Hub app).
+=======
+This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement organization.
+>>>>>>> 8badc2b12d1b71fa1fa4fb68af0100d684393890
 
 You can deploy Omni-channel Engagement Hub - Preview solution over a Customer Engagement application and experience it through the following ways:
 
 - Unified Service Desk client application
 
+<<<<<<< HEAD
 - Web experience on Dynamics 365 Unified Interface application (Omni-channel Engagement Hub app).
+=======
+- Omni-channel Engagement Hub app - Web experience on Dynamics 365 Unified Interface application.
+>>>>>>> 8badc2b12d1b71fa1fa4fb68af0100d684393890
 
 ## Pre-requisites
 
 This section explains the pre-requisites for using Omni-channel Engagement Hub.
-
-### Dynamics 365 for Customer Service
-
-To deploy Omni-channel Engagement solution, your organization must have Customer Service Hub application.
-
-More information: [Customer Service Hub app](../customer-service/user-guide-customer-service-hub.md)
 
 ### Licensing requirement of Office 365
 
@@ -52,7 +54,7 @@ Your organization needs the following Office 365 license:
 
 | Area | Requirements | 
 |----------|----------|
-| Dynamics 365 | Omni-channel Engagement Hub in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version |
+| Dynamics 365 | Dynamics 365 for Customer Engagement apps version 9.1.0000.3653 and a higher version |
 | Web browsers | Supported browsers are: <li>Microsoft Edge</li><li>Google Chrome</li> |
 
 For hardware and other requirements, see [Microsoft Dynamics 365 for Customer Engagement apps requirements](../admin/online-requirements.md)
@@ -63,9 +65,9 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 
 | Area | Requirements | 
 |----------|----------|
-| Desktop application | Unified Service Desk 4.1.0.1179 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)<br><br>**Note:** Unified Service Desk 4.1.0.1179 is in preview.|
-| Dynamics 365 | Omni-channel Engagement Hub app in Dynamics 365 for Customer Engagement apps version 9.1 and a higher version<br><br> **Note:** We recommend you to use a new production Dynamics 365 for Customer Engagement instance to use Omni-channel Engagement Hub on Unified Service Desk. |
-| Web browsers | Supported browsers are: <li> [Microsoft Edge](/dynamics365/customer-engagement/unified-service-desk/edge-process) </li> <li>[Internet Explorer](/dynamics365/customer-engagement/unified-service-desk/ie-process)</li> <br>**Note:**<li> The Microsoft Edge support in Unified Service Desk is in preview. </li> <li>The browsers are used as hosting types to host web applications in Unified Service Desk.</li> <li>To learn more about the other hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md).</li> </ul>|
+| Desktop application | Unified Service Desk 4.1.1.1253 and higher version <br><br>More information: [Download Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md#download-unified-service-desk-client-application)|
+| Dynamics 365 |Dynamics 365 for Customer Engagement apps version 9.1.0000.3653 and a higher version<br><br> **Note:** We recommend you to use a new production Dynamics 365 for Customer Engagement instance to use Omni-channel Engagement Hub on Unified Service Desk. |
+| Hosting Types | Supported hosting types are: <li>Chrome Process</li> <li>IE Process</li> <br> To learn more about the hosting types, see [Configure recommended settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md). |
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 

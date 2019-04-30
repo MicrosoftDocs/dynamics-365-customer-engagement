@@ -37,7 +37,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 3. If you have multiple organizations, select the organization you want to connect to.
 
-4. In the app selection dialog, select the **Omni-channel Administrator** app from the list.
+4. In the app selection dialog, select the **Omni-channel Administrator - Preview** app from the list.
 
 You signed in to Unified Service Desk - Omni-channel Engagement Hub application.
 
