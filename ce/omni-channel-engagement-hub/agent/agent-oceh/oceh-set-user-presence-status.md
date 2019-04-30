@@ -1,5 +1,5 @@
 ---
-title: "Set user presence status in Omni-channel Engagement Hub | MicrosoftDocs"
+title: "Manage presence status in Omni-channel Engagement Hub | MicrosoftDocs"
 description: "Learn how to set your presence status in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
@@ -13,7 +13,7 @@ ms.assetid: E6A73938-1FFE-4BC9-AB05-B4C46C52F3B3
 ms.custom: 
 ---
 
-# Set user presence
+# Manage presence status
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -50,4 +50,6 @@ Presence status is updated in two ways:
 ## See also
 
 - [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Manage sessions](oceh-manage-sessions.md)
+- [Manage applications](oceh-manage-applications.md)
 - [View communication panel](oceh-conversation-control.md)

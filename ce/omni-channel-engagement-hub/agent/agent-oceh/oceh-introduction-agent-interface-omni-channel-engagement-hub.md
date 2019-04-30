@@ -1,12 +1,12 @@
 ---
 title: "Introduction to the agent interface of Omni-channel Engagement Hub app | MicrosoftDocs"
-description: "Learn about agent interface of Omni-channel Engagement Hub in the Omni-channel Engagement Hub app"
+description: "Learn about agent interface of Omni-channel Engagement Hub app"
 keywords: ""
 author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 04/17/2019
+ms.date: 04/26/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 891E5572-F1D6-413C-8F2E-299AF3CC34F9
@@ -58,27 +58,6 @@ When you sign in to the Omni-channel Engagement Hub app, the agent interface has
 
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
-### Start and close a session
-
-As an agent, you can start the sessions in two ways:
-
-- **Manual:** Select **More options** (**...**) in the dashboard and select **Open** or **Pick** to start the session. Open as a session is available for **My work items** and **Open work items** streams. Pick is available in **Open work items** streams. <br>
-In addition, you can press **CTRL** and select on a link that can open as a tab in the application tab. Also, you can press **Shift** and select on a link to open as a session. You can't use the shortcut to open any other links apart from session enabled entities.
-
-- **Accept incoming conversation:** Accept the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
-
-You can close any session manually by selecting the **X** button next to the session title.
-
-### Mode of Session panel
-
-By default, the session panel is in expanded mode and it is collapsible based on your requirement. The **Home** session is default and you can't close it. The Home session shows the default **Omni-channel Agent Dashboard**.
-
-### Title and icon of the session
-
-By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or issue snapshot forms. After linking, the session title is automatically updated.
-
-By default, the first two letters of the session title is displayed as the session icon.
-
  > [!div class=mx-imgBorder]
  > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
 
@@ -95,24 +74,6 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
-
-The sitemap displays the following record types:
-
-- **Dashboards**
-
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **Omni-channel Agent Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **Omni-channel Agent Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
-
-    - My work items
-    - Open work items
-    - Closed work items
-    
-    To learn more, see [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
-
-- **Activities**
-
-  Activities help you keep track of all your customer communications using the **Conversation** and **Session** form types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
-
-To learn more about Accounts, Contacts, Social Profiles, Cases, Queues, and Knowledge articles, see [Understand the sitemap navigation](../../../customer-service/customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation).
 
 ## 4. Omni-channel Agent Dashboard
 
@@ -162,15 +123,18 @@ To learn more about Accounts, Contacts, Social Profiles, Cases, Queues, and Know
     
      When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
 
-   c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Set user presence](oceh-set-user-presence-status.md).
+   c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oceh-set-user-presence-status.md).
 
 > [!div class="mx-imgBorder"]
 > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
 
 > [!div class="nextstepaction"]
-> [Next topic: View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
+> [Next topic: Manage sessions](oceh-manage-sessions.md)
 
 ## See also
+
+- [Manage applications](oceh-manage-applications.md)
 - [Understand conversation states](oceh-conversation-state.md)
 - [Sign in to Omni-channel Engagement Hub](oceh-sign-dynamics-365-customer-service-hub.md)
 - [View communication panel](oceh-conversation-control.md)
+- [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)

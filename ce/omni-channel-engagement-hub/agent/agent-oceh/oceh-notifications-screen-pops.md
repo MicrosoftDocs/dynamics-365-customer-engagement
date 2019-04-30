@@ -99,7 +99,7 @@ The details you’ll see for a chat channel are:
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
-- [Set user presence](oceh-set-user-presence-status.md)
+- [Manage presence status](oceh-set-user-presence-status.md)
 - [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 - [Take notes specific to conversation](oceh-take-notes.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)

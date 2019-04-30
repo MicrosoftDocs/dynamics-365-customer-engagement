@@ -37,4 +37,4 @@ To sign in to Omni-channel Engagement Hub, do the following:
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
-- [Set user presence](oceh-set-user-presence-status.md)
+- [Manage presence status](oceh-set-user-presence-status.md)
