@@ -157,7 +157,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
    - Follow the steps in View your user profile.
    - Don’t have the correct permissions? Contact your system administrator.
 
-   Pre-requisites:
+   Prerequisites:
    1.	An Azure Active Directory (Azure AD) Group is required for each group Team.
    2.	Obtain the Azure AD Group’s ObjectID from your https://portal.azure.com site.
    3.	Create a custom security role that contains privileges as per your team’s collaboration requirement.  Please see Security role [member’s inherited privileges](security-roles-privileges.md#team-members-privilege-inheritance) if you need to extend the team member's privileges directly to a user.
@@ -203,7 +203,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 > [!NOTE]
-> - The list of team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's AAD group memberships are cached upon the team member's log-in.  This means that any AAD group membership maintenance done on the team member in AAD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
+> - The list of team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's Azure AD group memberships are cached upon the team member's log-in.  This means that any Azure AD group membership maintenance done on the team member in Azure AD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
 > - **Impersonate an Azure AD Group team member**. To make user impersonation calls on behalf of an Azure AD Group team member using Dynamics 365 Web services, the Group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
 
 
