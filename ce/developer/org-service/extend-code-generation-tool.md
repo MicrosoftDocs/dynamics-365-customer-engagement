@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/extend-code-generation-tool
 title: "Create extensions for the code generation tool | MicrosoftDocs"
 description: "You can extend the functionality of the code generation tool by specifying additional command-line parameters and parameter values."
 keywords: 

@@ -23,7 +23,9 @@ search.app:
   - D365CE
   - D365FS
 ---
-# User Guide (Field Service)
+# Field Service user guide
+
+Not sure what you're looking for? Use this guide to see a birds-eye view of the Dynamics 365 for Field Service documention. 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]  
   

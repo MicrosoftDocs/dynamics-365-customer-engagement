@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming
 title: "Use the late bound entity class in code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Entity class lets you use late binding so that you can work with types such as custom entities and custom attributes that weren’t available when your application was compiled"
 ms.custom: 

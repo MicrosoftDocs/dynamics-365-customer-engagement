@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-messages
 title: "Use messages (request and response classes) with the Execute method (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about IOrganizationService.Execute method that takes a message request class as a parameter and returns a message response class"
 ms.custom: 

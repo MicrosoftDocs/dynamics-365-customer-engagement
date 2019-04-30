@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-associate-disassociate
 title: "Use the early bound entity classes to associate records (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can create an association between related records using AddLink method in OrganizationServiceContext class for a one-to-many relationship and Associate method in IOrganizationService class using for a many-to-many relationship"
 ms.custom: 

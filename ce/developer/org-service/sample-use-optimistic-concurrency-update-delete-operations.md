@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-optimistic-concurrency-update-delete-operations
 title: "Sample: Use optimistic concurrency with update and delete operations (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use optimistic concurrency for update and delete operations"
 ms.custom: 

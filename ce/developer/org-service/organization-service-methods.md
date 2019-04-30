@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/iorganizationservice-interface#iorganizationservice-methods
 title: "Organization service methods (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the set of methods that IOrganizationService web service provides that can be used to perform common operations like Create, Retrieve, RetrieveMultiple, Update and Delete on system and custom entities and on the metadata for your organization"
 ms.custom: 

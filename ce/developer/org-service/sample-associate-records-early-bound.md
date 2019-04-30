@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-associate-disassociate
 title: "Sample: Associate records (early bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to associate a contact with three account records using the IOrganizationService.EntityReferenceCollection) method. It also shows how to use the IOrganizationService.EntityReferenceCollection) method"
 keywords: 

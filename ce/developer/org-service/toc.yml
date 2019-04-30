@@ -10,55 +10,8 @@
     items:
     - name: Use ExecuteMultiple to improve performance for bulk data load
       href: use-executemultiple-improve-performance-bulk-data-load.md
-    - name: Metadata operations
-      items:
-      - name: 'Sample: Dump attribute metadata to a file'
-        href: sample-dump-attribute-metadata-file.md
-      - name: 'Sample: Dump attribute picklist metadata to a file'
-        href: sample-dump-attribute-picklist-metadata-file.md
-      - name: 'Sample: Convert date and time behavior'
-        href: sample-convert-date-time-behavior.md
-  - name: Use the early bound entity classes in code
-    href: use-early-bound-entity-classes-code.md
-    items:
-    - name: Create early bound entity classes
-      href: create-early-bound-entity-classes-code-generation-tool.md
-      items:
-      - name: Create extensions for the code generation tool
-        href: extend-code-generation-tool.md     
-    - name: Use the OrganizationServiceContext class
-      href: use-the-organizationservicecontext-class.md
-    - name: Use the early-bound entity classes for create, update, and delete
-      href: use-early-bound-entity-classes-create-update-delete.md
-    - name: Use the early bound entity classes to associate records
-      href: use-early-bound-entity-classes-associate-records.md
-    - name: Mix early and late bound entities
-      href: mix-early-late-bound-entities.md
-    - name: 'Sample: Use the organization service context'
-      href: sample-use-organization-service-context.md
-    - name: 'Sample: Create, retrieve, update, and delete records (early bound)'
-      href: sample-create-retrieve-update-delete-records-early-bound.md
-    - name: 'Sample: Associate records (early bound)'
-      href: sample-associate-records-early-bound.md
-    - name: 'Sample: Create and update records with related records (early bound)'
-      href: sample-create-update-records-related-records-early-bound.md
-    - name: 'Sample: Assign a record to a new owner'
-      href: sample-assign-record-new-owner.md
-    - name: 'Sample: Serialize and deserialize an entity Instance'
-      href: sample-serialize-deserialize-entity-instance.md
-    - name: 'Sample: Initialize a record from an existing record'
-      href: sample-initialize-record-existing-record.md
-    - name: 'Sample: Retrieve license information'
-      href: sample-retrieve-license-information.md
-  - name: Use the late bound entity class in code
-    href: use-late-bound-entity-class-code.md
-    items:
-    - name: Use the Entity class for create, update and delete
-      href: use-entity-class-create-update-delete.md
-    - name: Use the Entity class to add or update associations between related records
-      href: use-entity-class-add-update-associations-records.md
-    - name: 'Sample: Create, retrieve, update, and delete (late bound)'
-      href: sample-create-retrieve-update-delete-late-bound.md
+  - name: Create early bound entity classes
+    href: create-early-bound-entity-classes-code-generation-tool.md
   - name: Retrieve data with queries using SDK assemblies
     href: retrieve-data-queries-sdk-assemblies.md
     items:
@@ -150,45 +103,5 @@
         href: role-privileges-intersect-entity-metadata.md
       - name: 'Sample: Retrieve records from an intersect table'
         href: sample-retrieve-records-intersect-table.md
-  - name: Reduce potential data loss using optimistic concurrency
-    href: reduce-potential-data-loss-using-optimistic-concurrency.md
-    items:
-    - name: 'Sample: Use optimistic concurrency with update and delete operations'
-      href: sample-use-optimistic-concurrency-update-delete-operations.md
   - name: Offline use of services
     href: offline-use-services.md
-  - name: Troubleshooting and error handling
-    href: troubleshooting-error-handling.md
-    items:
-    - name: Handle exceptions in your code
-      href: handle-exceptions-code.md
-    - name: Troubleshooting tips
-      href: troubleshooting-tips.md
-    - name: Web service error codes
-      href: web-service-error-codes.md
-  - name: Use the sample and helper code
-    href: use-sample-helper-code.md
-    items:
-    - name: 'Helper code: ServerConnection class'
-      href: helper-code-serverconnection-class.md
-    - name: 'Helper code: SystemUserProvider class'
-      href: helper-code-systemuserprovider-class.md
-    - name: 'Helper code: Enumerations for option sets'
-      href: helper-code-enumerations-option-sets.md
-  - name: Subscribe to SDK assembly updates using NuGet
-    href: subscribe-sdk-assembly-updates-using-nuget.md
-  - name: Impersonate another user
-    href: impersonate-another-user.md
-    items:
-    - name: 'Sample: Impersonate using the ActOnBehalfOf privilege'
-      href: sample-impersonate-actonbehalfof-privilege.md
-  - name: Detect duplicate data
-    items:
-    - name: Manage duplicate detection during Create and Update operations
-      href: manage-duplicate-detection-create-update.md
-    - name: 'Sample: Enable duplicate detection and retrieve duplicates'
-      href: sample-enable-duplicate-detection-and-retrieve-duplicates.md
-    - name: 'Sample: Use duplicate detection when creating and updating records'
-      href: sample-use-duplicate-detection-when-creating-and-updating-records.md
-    - name: 'Sample: Detect multiple duplicate records'
-      href: sample-detect-multiple-duplicate-records.md
