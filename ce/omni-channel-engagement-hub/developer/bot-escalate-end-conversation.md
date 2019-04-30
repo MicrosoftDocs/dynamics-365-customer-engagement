@@ -36,7 +36,7 @@ In Omni-channel Engagement Hub, a bot can escalate the current conversation to a
 
 An Omni-channel Engagement Hub bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `endconversation` request to Omni-channel Engagement Hub.
 
-### Sample code for escalation management
+## Sample code for escalation management and ending conversation
 
 Follow the procedure given below to configure a bot that is capable of escalating a conversation to a human agent.
 
