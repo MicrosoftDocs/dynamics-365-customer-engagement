@@ -108,13 +108,9 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
         > [!div class=mx-imgBorder]
         > ![select org](../media/select-org.png)
 
-      You must select the checkboxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them in the **Terms & Conditions** section. 
-
-        > [!div class=mx-imgBorder]
-        > ![Preview terms](../media/preview-terms.png)
-        
-      Select **Close** to close the privacy and preview conditions. 
-
+        > [!IMPORTANT]
+        > You must select the checkboxes for **Microsoft Privacy Statement** and **Terms & Conditions** to accept the terms and proceed with the set up.
+      
       Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
 
      4. Select the check box to enable **Chat** channel on your org.
@@ -122,23 +118,31 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
           > [!div class=mx-imgBorder]
           > ![enable chat](../media/enable-chat.png)
 
-     5. Select the check box to enable **SMS** channel on your org.
-
-          > [!div class=mx-imgBorder]
-          > ![enable SMS](../media/enable-sms.png)
-
           > [!IMPORTANT]
-          > You must select the checkbox to accept the **SMS Preview Terms**. At least one channel must be selected to proceed with the setup.
-   
-           Once the setup is completed successfully, you can see the **Chat** and **SMS** channel enabled on the **Summary** page.
-
-          > [!div class=mx-imgBorder]
-          > ![summary of set up](../media/summary-fre.png)
+          > Chat channel must be selected to proceed with the setup. SMS channel is available with the latest release of Omni-channel. More information: [Enable SMS channel](#enable-sms-channel).
          
-On successful set up, you can view the org and the enabled channels in the **Manage Instances** view.
+        On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
+
+        > [!div class=mx-imgBorder]
+        > ![Set up complete](../media/install-complete.png)
+
+### Enable SMS channel
+
+ You can enable SMS channel after you have upgraded to the latest release of Omni-channel. To upgrade Omni-channel Engagement Hub, see [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md).
+
+ Post upgrade, go to **Manage Omni-channel instances** page and enable SMS channel by selecting the checkbbox in **SMS** tab.
 
 > [!div class=mx-imgBorder]
-> ![Set up complete](../media/install-complete.png)
+> ![enable SMS](../media/enable-sms.png)
+
+> [!IMPORTANT]
+> You must select the checkbox for **SMS Preview Terms** to enable the channel.
+
+Once enabled, you can see the status for both the channels on the **Summary** page.
+
+> [!div class=mx-imgBorder]
+> ![summary of set up](../media/summary-fre.png)
+
 
 ## Locate your Org ID
 
