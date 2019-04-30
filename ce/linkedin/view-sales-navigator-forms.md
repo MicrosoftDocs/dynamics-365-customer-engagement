@@ -23,7 +23,7 @@ search.app:
 
 # View Sales Navigator controls on forms
 
-To use the Sales Navigator controls, you need to be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator) and [a customizer needs to add the controls to a form](add-sales-navigator-controls-forms.md). 
+To use the Sales Navigator controls, an admin needs to [enable the Sales Navigator integration](install-sales-navigator.md) and you need to be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator). To customize the form with Sales Navigator controls [a customizer needs to add the controls to a form](add-sales-navigator-controls-forms.md). 
 
 ## View controls on the form
 
