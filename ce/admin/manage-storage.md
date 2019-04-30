@@ -2,7 +2,7 @@
 title: "Manage storage for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 04/25/2019
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,7 +27,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
-> Capacity reports are now available. See [Common Data Service storage capacity](https://docs.microsoft.com/power-platform/admin/capacity-storage). The content below applies to customers where the capacity reports are not yet available.
+> Capacity reports are now available. See [Common Data Service storage capacity](https://docs.microsoft.com/power-platform/admin/capacity-storage). The content below applies to customers with capacity reports not yet available.
 
 You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   
