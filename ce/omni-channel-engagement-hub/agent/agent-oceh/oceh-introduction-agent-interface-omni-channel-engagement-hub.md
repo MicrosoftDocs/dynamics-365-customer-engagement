@@ -44,14 +44,14 @@ When you sign in to the Omni-channel Engagement Hub app, the agent interface has
 
 2. Communication panel (hidden mode)
 
-3. Application tab
+3. Application tab panel
 
-4. Omni-channel Agent Dashboard
+4. Unified Interface application area
 
 5. Navigation bar buttons
 
  > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface.png "Session panel in Omni-channel Engagement Hub app") 
+ > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-interface.png "Session panel in Omni-channel Engagement Hub app") 
 
 
 ## 1. Session panel
@@ -89,7 +89,7 @@ The communication panel is where you, as an agent, interact with your customer. 
  > [!div class=mx-imgBorder]
  > ![Communication panel in the collapsed mode](../../media/oceh/oceh-agent-interface-communication-panel-collapsed.png "Communication panel in the collapsed mode")
 
-## 3. Application tab
+## 3. Application tab panel
 
 The horizontal bar below the Dynamics 365 navigation bar is called the application tab. Every customer session has at least one that is not closable; it is called the Anchor tab. The Application tab has a **+** icon. If you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities. You press **Ctrl** and select any link to open it in the application tab.
 
