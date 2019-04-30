@@ -27,18 +27,8 @@ Sales order processing integration makes it convenient to connect Dynamics 365 f
 
 By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 for Sales allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
 
-The table shown below lists the conditions that need to be satisfied before price computation for various entities.
-
-|Entity name|Create|Update|Delete|Recalculate|
-|------|------|------|------|------|
-|Opportunity|Calculate always|Calculate always|NA|Calculate always|
-|Quote|Calculate always|Calculate always|NA|Calculate always|
-|Sales order|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />(Back office is installed and parent sales order is in submitted state) or (logged in user is an integration user)|NA|Calculation skips if -<br />Back office is installed and parent sales order is in submitted state|
-|Invoice|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|Calculation skips if -<br />Back office is installed|
-|Opportunity product|Calculate always|Calculate always|Calculate always|NA|
-|Quote product|Calculate always|Calculate always|Calculate always|NA|
-|Sales order product|Calculation skips if -<br />Back office is installed and ( logged in user is an integration user or parent sales order is in submitted state)|Calculation skips if -<br />Back office is installed and (logged in user is an integration user or parent sales order is in submitted state)|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|
-|Invoice product|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|
+> [!NOTE]
+> Price computation can be triggered by Dynamics 365 for Sales only if the sales entities, like Opportunity, Quote, Order and Invoice are editable.
 
 ## Enable sales order processing integration
 
@@ -51,6 +41,19 @@ When sales order processing is turned on,
 - The **Create Invoice** button is not shown on the command bar of the Order records. 
 
 - Order records will support a Submit order button. Upon submitting an order, the order is marked to `Submitted` status. The order is made read-only except, if created by an integration user. For more information about `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on [SystemUser entity](../../developer/entities/systemuser.md).
+
+The table shown below lists the conditions that need to be satisfied before price computation is executed by Dynamics 365 for Sales for various entities.
+
+|Entity name|Create|Update|Delete|Recalculate|
+|------|------|------|------|------|
+|Opportunity|Calculates always|Calculate always|NA|Calculate always|
+|Quote|Calculate always|Calculate always|NA|Calculate always|
+|Sales order|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />(Back office is installed and sales order is in submitted state) or (logged in user is an integration user)|NA|Calculation skips if -<br />Back office is installed and sales order is in submitted state|
+|Invoice|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|Calculation skips if -<br />Back office is installed|
+|Opportunity product|Calculate always|Calculate always|Calculate always|NA|
+|Quote product|Calculate always|Calculate always|Calculate always|NA|
+|Sales order product|Calculation skips if -<br />Back office is installed and ( logged in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />Back office is installed and (logged in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|
+|Invoice product|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|Calculation skips if -<br />Back office is installed and logged in user is an integration user|NA|
 
 ## See also
 
