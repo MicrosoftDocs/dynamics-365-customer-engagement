@@ -2,7 +2,7 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 for Customer Engagement."
 keywords: custom control, sales navigator, linkedin, integration, customization
-ms.date: 07/12/2018
+ms.date: 04/30/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -25,9 +25,7 @@ search.app:
 
 ## Prerequisites
 
-- Sales Navigator Controls for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Unified Interface [is installed](install-sales-navigator.md) in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
 - You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
-- Your organization uses Unified Interface apps.
 - To test the controls, you need to be a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator seat holder.
 
 ## Add Sales Navigator controls to a form
