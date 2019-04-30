@@ -30,9 +30,8 @@ search.app:
 Mobile offline allows Dynamics 365 for phones app users to interact with their data on a mobile device, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
-
 > - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, you will need to download the latest version (13.19043.0 or greater) of the Dynamics 365 for phones and tablet app from the app store.
+> - To use the mobile offline feature, download the latest version (13.19043.0 or greater) of the Dynamics 365 for phones and tablet app from the app store.
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set-up mobile offline for their organization. 
   
