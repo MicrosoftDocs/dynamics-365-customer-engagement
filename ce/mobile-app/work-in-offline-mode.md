@@ -31,10 +31,10 @@ Work with your data even in disconnected mode on your mobile device with mobile 
 
 When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-> [!NOTE]
-> To use the mobile offline feature, download the latest version (13.19043.0 or greater) of the **Dynamics 365 for phones and tablet app** from the app store on your device. 
+> [!Note]
+> - The mobile offline feature is only available for iOS and Android devices.
+> - To use the mobile offline feature, download the latest version (13.19043.0 or greater) of the Dynamics 365 for phones and tablet app from the app store.
 
-> Mobile offline feature is available for iOS and android users only.
 
 - When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
