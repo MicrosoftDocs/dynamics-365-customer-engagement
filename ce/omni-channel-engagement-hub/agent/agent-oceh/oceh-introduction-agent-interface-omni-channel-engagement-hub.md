@@ -65,8 +65,6 @@ The vertical panel on the left side is the session panel that allows you (the ag
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oceh-conversation-control.md).
 
- > [!div class=mx-imgBorder]
- > ![Communication panel in the collapsed mode](../../media/oceh/oceh-agent-interface-communication-panel-collapsed.png "Communication panel in the collapsed mode")
 
 ## 3. Application tab panel
 
@@ -75,27 +73,19 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
 > [!div class=mx-imgBorder]
 > ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
 
-## 4. Omni-channel Agent Dashboard
+## 4. Unified Interface application area
 
-   When you sign in to Omni-channel Engagement Hub, as an agent, you see the Omni-channel Agent Dashboard that shows the different work items in streams. The dashboard is present in the application tab of the **Home** session and you can't close the dashboard tab.
+ When you sign in to Omni-channel Engagement Hub, as an agent, in the application area, you see a dashboard that is set as default by your administrator. If set as default, Omni-channel Agent Dashboard shows the different work items in streams, and the dashboard is present in the application tab of the **Home** session and you can't close the dashboard tab.
 
    > [!div class=mx-imgBorder]
    > ![Omni-channel Agent Dashboard shows My work items, Open work items, and closed work items](../../media/oceh/oceh-agent-interface-oceh-dashboard.png "Omni-channel Agent Dashboard")
 
-  - **My work items**
-
-    In this stream, you see the conversations (work items) that you are actively working on. Select the ellipses and select the **Open** option to open the work item in a session.
-
- - **Open work items**
-
-   In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself.
-
- - **Closed work items**
-
-   In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+   The dashboard shows the following work item streams:
+    - **My work items**
+    - **Open work items**
+    - **Closed work items**
 
    To learn more, see [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
-
 
 ## 5. Navigation bar buttons
 
