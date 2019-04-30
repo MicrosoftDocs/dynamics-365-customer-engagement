@@ -2,7 +2,7 @@
 title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
-ms.date: 04/22/2019
+ms.date: 04/24/2019
 ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
 author: susikka
 ms.author: susikka
-manager: annbe
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 
@@ -29,10 +29,10 @@ The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynam
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 >
-> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Discover the URL for your organization using Web API](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api). The code sample that shows how to use the Web API Global discovery service can be found here: [Web API Global Discovery Service sample (C#)](/powerapps/developer/common-data-service/webapi/samples/global-discovery-service-csharp).
+> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Discover the URL for your organization using Web API](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api).
 
-Clients applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one on-premises datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
-  
+Client applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one on-premises datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
+<!--  
 ## Global discovery service
 
 In addition to datacenter specific (regional) discovery services that are available on the 2011 (SOAP) endpoint and through the Web API, there is also a Web API only *global* discovery service that spans all operational datacenters. For information about the regional discovery services on the 2011 endpoint, see  [Discover the URL for your organization using the Discovery Service](../org-service/discover-url-organization-organization-service.md)
@@ -40,23 +40,22 @@ In addition to datacenter specific (regional) discovery services that are availa
 > [!NOTE]
 > It is recommended that users switch from the legacy regional discovery service (`https://disco.crm.dynamics.com`) to global discovery service (`https://globaldisco.crm.dynamics.com`).
 >
-> For Dynamics 365 US Government users, the global discovery service is available only for the **GCC** users and the URL is `https://globaldisco.crm9.dynamics.com`. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
-  
+> For Dynamics 365 US Government users, the global discovery service is available for the **GCC** and **GCC High** users, and the URL is different from the regular global discovery service URL. More information: [Dynamics 365 Government URLs](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government#dynamics-365-us-government-urls). 
+
+-->
 ## Information provided by the Discovery service
 
 Organization information is stored in the `Instance` entity of the Discovery service.  To see the kind of information contained in that entity, send an HTTP GET request to the service for one of your instances.  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v1.0/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
 ```  
   
-In the above example, the global Discovery service of  is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
+In the above example, the discovery service is used to obtain the organization information of the instance with a unique name of "myorg". More details about this request is expanded upon later in this topic.  
   
 ### Scope of the returned information
 
-For the global Discovery service, the `Instances` entity set, returns the set of instances that the user has access to across all geographies, when no filters are applied.   The returned data has a scope as described below.  
-  
--   Includes all instances in the commercial cloud where the user is provisioned and enabled, except sovereign clouds instances are not returned  
+For the regional discovery service, the `Instances` entity set, returns the set of instances that the user has access to in a particular geography, when no filters are applied. The returned data has a scope as described below.  
   
 -   Does not  include instances where the user's account is disabled  
   
@@ -68,7 +67,7 @@ For the global Discovery service, the `Instances` entity set, returns the set of
   
 ## How to access the Discovery services
 
-In general, the Web API address of the Discovery service has the following format: `<service base address>/api/discovery/`.  The addresses for  each deployment type are identified below. You can easily  find the Web API addresses and version number for your deployment in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application by navigating to **Settings > Customization > Developer Resources**  
+In general, the Web API address of the Discovery service has the following format: `<service base address>/api/discovery/`.  The addresses for  each deployment type are identified below. You can easily  find the Web API addresses and version number for your deployment in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application by navigating to **Settings > Customization > Developer Resources**.  
   
 The service base address of the Discovery service for an on-premises or IFD deployment is : `http[s]://{servername}/` or `http[s]://dev.{servername}/`. This results in the service address of `http[s]://{servername}/api/discovery/` or `http[s]://dev.{servername}/api/discovery/`.  
   
@@ -85,7 +84,7 @@ On-premise or IFD instances of the Discovery Web API adopt the authentication mo
 Versioning of the Discovery service for a datacenter or on-premises/IFD is supported and is consistent with version numbering as used by the Organization service. For example:  
   
 ```http  
-GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
+GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
 ```  
 
 ### CORS support
@@ -97,25 +96,25 @@ The Discovery service Web API supports the CORS standard for cross-origin access
 -   Get the details of a specific instance. If you leave out the GUID, all instances that the authenticated user has access to are returned.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances(<guid>)  
+    GET https://dev.{servername}/api/discovery/v9.0/Instances(<guid>)  
     ```  
   
 -   You can use the UniqueName attribute as an alternate key.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')  
+    GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')  
     ```  
   
 -   Retrieve a list of available instances, filtered by production type.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
+    GET https://dev.{servername}/api/discovery/v9.0/Instances?$select=DisplayName,Description&$filter=Type+eq+0   
     ```  
   
 -   Retrieve a specific instance's ID property value.  
   
     ```http  
-    GET https://dev.{servername}/api/discovery/v9.1/Instances(UniqueName='myorg')/Id/$value  
+    GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')/Id/$value  
     ```
 ## See also
 
