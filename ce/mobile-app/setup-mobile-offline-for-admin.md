@@ -32,7 +32,7 @@ Mobile offline allows Dynamics 365 for phones app users to interact with their d
 > [!Note]
 
 > - Mobile offline feature is available only for iOS and android users
-> - To use mobile offline feature, users will have to download the latest version (13.19031.55 or greater) of the Dynamics 365 for phones app from the app store on their device
+> - To use mobile offline feature, users will have to download the latest version (13.19043.0 or greater) of the Dynamics 365 for phones app from the app store on their device
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set-up mobile offline for their organization. 
   
