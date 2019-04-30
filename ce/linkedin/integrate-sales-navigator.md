@@ -54,7 +54,7 @@ Both controls also provide an alternate version, which takes a lookup (entity re
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account lookup** control: the name of the referenced entity is used as the company name.
 
-The control binds to a field that is used to match the record with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile or company account. Once a match is found, subsequent loads are done through the record GUID association. If the control does not load the correct profile on the first match, users can resolve the issue by [finding the correct match](view-sales-navigator-forms.md#select-the-right-match-from-multiple-matches) with the provided search interface. 
+The control binds to a field that is used to match the record with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile or company account. Once a match is found, subsequent loads are done through the record GUID association. If the control does not load the correct profile on the first match, users can resolve the issue by [finding the correct match](view-sales-navigator-forms.md#change-the-incorrect-matching) with the provided search interface. 
 
 
 ## Dynamics CRM 2016 and Dynamics 365 for Customer Engagement apps: [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator for Microsoft Dynamics
