@@ -81,7 +81,6 @@
 ### [Secure your app](manage-access-apps-security-roles.md)
 ### [Export, import, or remove an app](export-import-remove-app.md)
 ### [Accessibility](accessibility-app-designer-site-map-designer-my-apps-page.md)
-## [Create in-app help with Learning Path](create-guided-help-learning-path.md)
 
 # [Create custom business logic through processes](guide-staff-through-common-tasks-processes.md)
 ## [Work with business process flows](business-process-flows-overview.md)
