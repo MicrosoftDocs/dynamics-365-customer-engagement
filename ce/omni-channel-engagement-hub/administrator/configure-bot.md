@@ -47,7 +47,7 @@ To get Microsoft App ID of the bot:
 
 1.	Open [https://portal.azure.com](https://portal.azure.com) and select **Bot Services** in the **All services** section.
 
-2.	Search for **Bot Channels Registration** in the list and select it.
+2.	Search for the appropriate **Bot Channels Registration** in the list and select it.
 
     > [!div class=mx-imgBorder]
     > ![Bot Channels Registration](../media/bot-channels-reg.png "Bot Channels Registration")
@@ -61,20 +61,20 @@ To create a bot user:
 
 1.	[Create an application user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
-6.	On the **New User** page, enter or select the following information for bot:
-    - **Agent type**: Select **Bot**.
-    - **Bot application ID**: Bot's application ID from Azure AD.
+2.	On the **New User** page, enter or select the following information for bot:
+    - **Agent type**: Select **Bot Agent**.
+    - **Bot application ID**: Bot's application ID from Azure AD that you copied in the previous step.
 
     > [!NOTE]
     > You'll see two sections as **Bot Information**. You must enter information in the first **Bot Information** section.
     >
     > ![Two Bot Information sections](../media/two-bot-sections.png "Two Bot Information sections")
 
-7.	Save the record.
+3.	Save the record.
 
-8.	Select **Manage Roles** on the command bar.
+4.	Select **Manage Roles** on the command bar.
 
-9.	In the **Manage User Roles** window, select **Omni-channel agent**, and then select **OK**.
+5.	In the **Manage User Roles** window, select **Omni-channel agent**, and then select **OK**.
 
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user doesn't reduce when a query is handled by it.
@@ -94,7 +94,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
 
-If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
+If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
 
 > [!NOTE]
 > If you've only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
@@ -117,12 +117,12 @@ This sample provides exact steps and configuration values to integrate a bot and
 
 1.	Follow the instructions in [Step 1](#step-1-create-a-bot-user) to create a bot user.
 
-2.	Follow the instructions in Step 2 to create three queues and add users as follows:
+2.	Follow the instructions in [Step 2](#step-2-add-a-bot-user-to-the-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle credit card related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan related queries.
 
-3.	Follow the instructions in Step 3 to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream. 
+3.	Follow the instructions in [Step 3](#step-3-set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream. 
 
 4.	Create three routing rules in the **ChatWorkStream** work stream in the following order:
     - **BotRule**: Specify the work stream and queue as **ChatWorkStream** and **BotQueue** respectively. Add the condition as follows:
@@ -135,7 +135,7 @@ This sample provides exact steps and configuration values to integrate a bot and
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](../media/home-loan-rule.png "Create a rule to send customer query from bot to an agent")
 
-When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules.
+When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. Bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md).
 
 ## Privacy notice
 
@@ -146,4 +146,5 @@ You understand that your data may be transmitted and shared with external system
 [Understand and create work streams](work-streams-introduction.md)<br>
 [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
-[Add a chat widget](add-chat-widget.md)
+[Add a chat widget](add-chat-widget.md)<br>
+[Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
