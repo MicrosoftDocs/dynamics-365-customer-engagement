@@ -1,4 +1,5 @@
 ---
+redirect_url: https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs
 title: "Helper code: SystemUserProvider class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The SystemUserProvider class demonstrates how to programmatically create additional users in Active Directory andDynamics 365 for Customer Engagement (online) Customer Engagement"
 ms.custom: 

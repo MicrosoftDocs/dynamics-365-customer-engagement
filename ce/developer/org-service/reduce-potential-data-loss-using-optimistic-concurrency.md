@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/optimistic-concurrency
 title: "Reduce potential data loss using optimistic concurrency (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to reduce potential data loss when two or more update or delete operations on the same piece of data happen at the same time using optimistic concurrency"
 ms.custom: 
