@@ -2,7 +2,7 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365 for Customer Engagement."
 keywords: custom control, sales navigator, linkedin, integration, customization
-ms.date: 07/12/2018
+ms.date: 04/30/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -25,16 +25,14 @@ search.app:
 
 ## Prerequisites
 
-- Sales Navigator Controls for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Unified Interface [is installed](install-sales-navigator.md) in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
 - You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
-- Your organization uses Unified Interface apps.
 - To test the controls, you need to be a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator seat holder.
 
 ## Add Sales Navigator controls to a form
 
 You can use the web app to [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) on any form or entity of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
 
-There are four different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls: 
+There are four different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls which are added automatically when using the latest version of the out-of-box integrations: 
  
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile)**: Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile using a specific lead or contact name.
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Lookup Control**: Shows member profile information using the name of the primary contact related to the record.
@@ -52,7 +50,7 @@ The Sales Navigator controls can be added by modifying field on a form in [!INCL
 
 
 
-This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way.
+This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way on other entities where the controls aren't placed by default.
 
 1. In the web client of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], go to **Settings** > **Customizations**.
 
