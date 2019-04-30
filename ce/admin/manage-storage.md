@@ -27,11 +27,7 @@ search.app:
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!NOTE]
-> We have updated the storage model and process and the content below no longer applies to most Dynamics 365 for Customer Engagement subscribers. Please see [Common Data Service storage capacity](https://docs.microsoft.com/power-platform/admin/capacity-storage).
->
-> The following content still applies to some subscribers, including:
-> - [Dynamics 365 US Government](https://docs.microsoft.com/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)
-> - [Dynamics 365 for Customer Engagement - operated by 21Vianet in China](https://docs.microsoft.com/dynamics365/customer-engagement/admin/datacenter/about-microsoft-cloud-china)
+> Capacity reports are now available. See [Common Data Service storage capacity](https://docs.microsoft.com/power-platform/admin/capacity-storage). The content below applies to customers where the capacity reports are not yet available.
 
 You can manage your organization’s data storage capacity in connection with your subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. The type of subscription you purchase determines the amount of storage initially allocated to your organization. If you run out of storage, you can add more.  
   

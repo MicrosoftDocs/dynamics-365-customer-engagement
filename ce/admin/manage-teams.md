@@ -203,7 +203,9 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 6. On the Actions toolbar, select **Edit**, change the desired fields, and then select **Save**.
 
 > [!NOTE]
-> The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's AAD group memberships are cached upon the team member's log-in.  This means that any AAD group membership maintenance done on the team member in AAD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
+> - The list of Team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's AAD group memberships are cached upon the team member's log-in.  This means that any AAD group membership maintenance done on the team member in AAD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
+> - **Impersonate an Azure AD Group team member**. To make user impersonation calls on behalf of an Azure AD Group team member using Dynamics 365 Web services, the Group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
+
 
 ## About access teams and team templates
 
@@ -246,4 +248,4 @@ Because of the parental relationship between the team template and system-manage
  [About team templates](about-team-templates.md)   
  [Download: Access Teams in Microsoft Dynamics CRM](http://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)   
  [Download: Scalable security modeling with Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkID=328757)   
-[Entity relationship behavior](../developer/entity-relationship-behavior.md)
+ [Entity relationship behavior](../developer/entity-relationship-behavior.md)
