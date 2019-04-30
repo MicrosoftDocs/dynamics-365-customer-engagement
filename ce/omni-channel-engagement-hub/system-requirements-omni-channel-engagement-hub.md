@@ -19,13 +19,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement apps instance (Customer Service Hub app).
+This topic provides information about the pre-requisites and system requirements for deploying Omni-channel Engagement Hub - Preview on a Dynamics 365 for Customer Engagement organization.
 
 You can deploy Omni-channel Engagement Hub - Preview solution over a Customer Engagement application and experience it through the following ways:
 
 - Unified Service Desk client application
 
-- Web experience on Dynamics 365 Unified Interface application (Customer Service Hub app).
+- Omni-channel Engagement Hub app - Web experience on Dynamics 365 Unified Interface application .
 
 ## Pre-requisites
 
