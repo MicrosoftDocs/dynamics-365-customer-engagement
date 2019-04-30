@@ -31,7 +31,7 @@ Mobile offline allows Dynamics 365 for phones app users to interact with their d
 
 > [!Note]
 
-> - Mobile offline feature is available only for iOS and android users
+> - Mobile offline feature is available for iOS and android users
 > - To use mobile offline feature, users will have to download the latest version (13.19043.0 or greater) of the Dynamics 365 for phones app from the app store on their device
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set-up mobile offline for their organization. 
@@ -354,8 +354,6 @@ Ensure that you have configured at least one of the Profile rules for each entit
 The recommended data volume should be <= 10k records per user subscription.
 
 ## Known Issues
-
-**Business Process Flows**: Business Process Flows are not supported for offline. When offline, Business Process Flow grids and views will not be available for use, and BPFs will not be rendered on records opened in mobile offline. If a record containing a BPF was loaded prior to going offline, BPF functions (such as move next/move previous, etc.) will not work, branching conditions will not be evaluated and recommendations on steps will not be displayed 
 
 **Qualify a lead**:
 
