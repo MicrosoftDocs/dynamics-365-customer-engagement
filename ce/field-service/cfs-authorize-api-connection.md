@@ -27,6 +27,16 @@ search.app:
 ---
 
 # Authorize API connection between Dynamics and AzureIoT
+
+		· This is the real urgent one as the documentation link will be referenced within the product UX.
+		· How and why you authorize D365 API connection
+		· Go to d365 api connection in resource group
+		· Enter dynamics credentials
+Why: allow logic apps to read and write dynamics data, if not wont be able to see alerts or registyer device 
+
+https://msit.microsoftstream.com/video/f12a1190-2872-48e6-af2a-3751c4cd4749?list=studio
+
+
 ## Prerequisites
 > [!Note]
 >
