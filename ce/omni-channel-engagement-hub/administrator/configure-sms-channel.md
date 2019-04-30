@@ -89,7 +89,7 @@ For an incoming text message sent by a customer to the support phone number, the
 
 ### Outgoing Text Messages
 
-For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign services and then TeleSign sends it to the customer. In addition to the text message, Omni-channel Engagement Hub uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign services.
+For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the TeleSign service and then TeleSign sends it to the customer. In addition to the text message, Omni-channel Engagement Hub uses the APIs provided by TeleSign to send the customer's phone number, support phone number (TeleSign SenderID), and the TeleSign account information (CustomerID and the API Key) to the TeleSign service.
 
 ### TeleSign API Key Validation
 
