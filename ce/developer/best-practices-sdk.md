@@ -342,9 +342,6 @@ One of the key tenets of ISV extensibility is that you should not assume that yo
 
 You should put the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web service URLs into a configuration file, for example, into an app.config file, so that your code is isolated from changes to the URL. For example, there are different URLs for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps data centers throughout the world.  
 
-### Where should you put plug-ins and custom workflow activities?
-
-For on-disk plug-ins or custom workflow activities, place the assemblies in the `<installdir>\Server\bin\assembly` folder.
 
 ### Where should you put your custom web applications or webpages?
 
