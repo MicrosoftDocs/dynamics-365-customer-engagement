@@ -51,7 +51,7 @@ To do so, a few additional steps need to be done.
 
 1. Duplicate the `environment.selfhosted.ts` configuration file (located in `\src\environments`) and name it as `environment.ts`.
 2. Open the `environment.ts` configuration file for modification.
-3. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v1.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
+3. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v2.0/` where `{web-application-endpoint}` needs to be replaced with value from the `Endpoint` field in the newly created **Dynamics 365 Web Application**.
 4. Make sure that the `useRestStack` variable is set to true.
 5. Update the URL for `imagesEndpoint`. If you want to serve the images from the same server, the URL should look like this: `https://HOST/assets/images/` ('HOST' needs to be replaced with your domain name). 
 6. Change the `emApplicationtoken` variable to point to the URL from the `Token` field in the newly created **Dynamics 365 Web Application**. 
