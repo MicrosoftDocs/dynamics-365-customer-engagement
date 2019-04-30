@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget
 title: "Subscribe to SDK assembly updates using NuGet (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Use of NuGet packages in your application project enables you to keep your project up-to-date with the latest releases of the SDK assemblies and tools. Learn how to subscribe to SDK assembly updates using NuGet"
 ms.custom: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/web-service-error-codes
 title: "Web service error codes (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic lists the error codes you might encounter when you debug your code. These error codes are also available in the Dynamics 365 for Customer Engagement apps SDK package"
 ms.custom: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/enable-disable-duplicate-detection
 title: "Sample: Enable duplicate detection and retrieve duplicates (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to enable duplicate detection and retrieve duplicate records based on active duplicate detection rules."
 ms.custom: 
