@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/run-duplicate-detection#detect-duplicates-during-create-and-update-operations
 title: "Manage duplicate detection for create and update operations using Organization Service (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Read how to detect duplicates during create and update operations using the Dynamics 365 for Customer Engagement Organization service."
 ms.custom: 
