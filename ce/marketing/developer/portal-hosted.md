@@ -97,5 +97,5 @@ If you want to serve the custom event website from a **custom domain** you need 
 
 ### See also
 
-[Custom Event Portal Localization](event-portal-localization.md)<br /><br />
+[Custom Event Portal Localization](event-portal-localization.md)<br />
 [Build and Host Custom Event Portal](event-management-web-application.md)
