@@ -86,7 +86,7 @@ When the updates have downloaded, you can check to see if mobile offline is avai
  
      ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
  
-   You can also track offline status of entities from the **Menu** ![Menu button](media/MenuButton.png "Menu button") button.
+You can also track the offline status of entities from the **Menu** ![Menu button](media/MenuButton.png "Menu button") button.
 
 -  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
 -  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
