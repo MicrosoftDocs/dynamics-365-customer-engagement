@@ -50,7 +50,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
   ![Download Customization](media/DownloadCustomization.png "Download Customization")
 
-2. Once you select update on the dialog above or download customizations from the offline status page, you will see a progress indicator while the updates are being downloaded. When the download is complete, it's a good idea to verify offline mode is available
+3. Once you select update on the dialog above or download customizations from the offline status page, you will see a progress indicator while the updates are being downloaded. When the download is complete, it's a good idea to verify offline mode is available
 
     ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
 
