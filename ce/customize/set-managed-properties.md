@@ -2,7 +2,7 @@
 title: "Set managed properties | MicrosoftDocs"
 description: "Learn how to set managed properties of an entity"
 ms.custom: 
-ms.date: 01/08/2019
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -19,10 +19,9 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 # Set managed properties overview
-
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
 <a name="BKMK_ManagedProperties"></a>   
+
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
  Managed properties only apply when you include an entity with a managed solution and import it into another environment. These settings allow a solution maker to have some control over the level of customization that they want to allow people who install their solution to have. To set managed properties for an entity, select the entity and select **Managed Properties** on the menu bar.  
   

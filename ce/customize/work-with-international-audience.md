@@ -26,6 +26,8 @@ search.app:
 
 This section describes the customization features available to you for language and translation.
 
+[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
 ### See also
 [Enable additional languages](enable-additional-languages.md) <br />
 [Translate customized entity and field text into other languages](export-customized-entity-field-text-translation.md) <br />
