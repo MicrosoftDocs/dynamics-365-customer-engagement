@@ -23,9 +23,9 @@ manager: "kvivek"
 <a name="BKMK_Solutions"></a>   
 # Solutions overview  
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- Solutions exist so that a model-driven app can be purchased, shared, or otherwise transported from one organization to another. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
+ Solutions exist so that a Dynamics 365 for Customer Engagement apps can be purchased, shared, or otherwise transported from one organization to another. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Whitepaper: Patterns and Principles for Solution Builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)  
   
