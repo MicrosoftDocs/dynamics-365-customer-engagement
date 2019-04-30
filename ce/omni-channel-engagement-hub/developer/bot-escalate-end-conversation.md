@@ -20,6 +20,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 The topic illustrates how you can program a bot in Omni-channel Engagement Hub to shift a conversation to a human agent and if required, to end a conversation.
 
+> [!NOTE]
+> Bot agents are not supported in consult mode in the current release.     
+
 ## Prerequisites
 
 You must ensure the following conditions are met to onboard a bot to Omni-channel Engagement Hub as an agent.
@@ -28,13 +31,13 @@ You must ensure the following conditions are met to onboard a bot to Omni-channe
 -	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
 -	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
-## Escalating a conversation to a human agent
+## Escalate a conversation to a human agent
 
 In Omni-channel Engagement Hub, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the work stream. The primary way a bot can dictate how the conversation will be routed is by using Omni-channel Engagement Hub context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omni-channel Engagement Hub service will update the context variables to the specified values and then rerun the routing engine. This will ensure that an escalated chat will be routed to the proper queue. Once the agent accepts the invitation, the chat transcript with the bot will be visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
 
 ## End a conversation
 
-An Omni-channel Engagement Hub bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `endconversation` request to Omni-channel Engagement Hub.
+An Omni-channel Engagement Hub bot can choose to end the conversation if it determines that the customer’s queries have been answered or if the customer is no longer responding. The bot can do so by sending an `EndConversation` request to Omni-channel Engagement Hub.
 
 ## Sample code for escalation management and ending conversation
 
@@ -176,7 +179,9 @@ namespace EchoBot.OmniChannel
 
 ```
 
-3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below. Change the `escalate` and `endconversation` command criteria to something that suits your requirements.
+3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below.
+
+Change the `escalate` and `endconversation` command criteria to something that suits your requirements.
 
 ```csharp
 using System;
@@ -261,9 +266,7 @@ You should consider the following points when modeling the bot agent in Omni-cha
 
 -	If a chat that is escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.     
 
--	Bot agents are not supported in consult mode in the current release.     
-
--	Unlike other Omni-channel Engagement Hub agents, bots are not added to a `default` queue at the outset. But, they can be added from the Administration hub, if required.
+-	Unlike other Omni-channel Engagement Hub agents, bots are not added to a `default` queue at the outset. They are added from the Administration hub.
 
 ## See also
 
