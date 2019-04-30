@@ -28,7 +28,7 @@ Sales order processing integration makes it convenient to connect Dynamics 365 f
 By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 for Sales allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
 
 > [!NOTE]
-> Price computation can be triggered by Dynamics 365 for Sales only if the sales entities, like Opportunity, Quote, Order and Invoice are editable.
+> Price computation can be triggered by Dynamics 365 for Sales only if the sales entities, like Opportunity, Quote, Sales order and Invoice are editable.
 
 ## Enable sales order processing integration
 
