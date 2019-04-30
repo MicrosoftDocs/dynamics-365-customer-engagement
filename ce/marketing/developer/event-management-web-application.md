@@ -104,9 +104,8 @@ Select the version you would like to download from the table below.
 | Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
 | Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
 
+### See also
 
-
-> [!div class="nextstepaction"]
-> [Self-hosted](self-hosted.md)<br />
-> [Dynamics 365 Portal hosted](portal-hosted.md)<br />
-> [Localization](event-portal-localization.md)
+[Self-hosted](self-hosted.md)<br />
+[Dynamics 365 Portal hosted](portal-hosted.md)<br/>
+[Localization](event-portal-localization.md)

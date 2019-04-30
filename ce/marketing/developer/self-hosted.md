@@ -73,6 +73,7 @@ The event portal is capable of integrating the Azure Active Directory B2C. To in
 1. Open the `environment.ts` configuration file (located in `\src\environments`) for modification.
 1. Enter all required values in the `aadB2cConfig` variable.
 
-> [!div class="nextstepaction"]
-> [Dynamics 365 Portal Hosted](portal-hosted.md)<br /><br />
-> [Custom Event Portal Localization](event-portal-localization.md)
+### See also
+
+[Dynamics 365 Portal Hosted](portal-hosted.md)<br />
+[Custom Event Portal Localization](event-portal-localization.md)

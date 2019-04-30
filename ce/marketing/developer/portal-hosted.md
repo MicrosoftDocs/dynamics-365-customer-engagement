@@ -79,11 +79,8 @@ To manually replace the files in Dynamics 365, follow the steps below:
 1. Upload your `main.es` file as an attachment.
 1. Restart the portal website and reopen your browser.
 
-> [!div class="nextstepaction"]
-> [Custom Event Portal Localization](event-portal-localization.md)<br /><br />
-> [Build and Host Custom Event Portal](event-management-web-application.md)
-
 ### CORS
+
 If you want to serve the custom event website from a **custom domain** you need to configure CORS to allow that custom domain:
 
 1. Go to **Dynamics 365 > Portals > Site Settings** and add a **new setting**.
@@ -97,3 +94,8 @@ If you want to serve the custom event website from a **custom domain** you need 
 
 > [!NOTE]
 > More information about CORS can be found here [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
+
+### See also
+
+[Custom Event Portal Localization](event-portal-localization.md)<br /><br />
+[Build and Host Custom Event Portal](event-management-web-application.md)
