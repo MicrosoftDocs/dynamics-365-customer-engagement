@@ -1,5 +1,5 @@
 ---
-title: "Integrate a bot with Omni-channel Engagement Hub| Microsoft Docs"
+title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "Read how a bot in Omni-channel Engagement Hub can be used to escalate a conversation to a human agent."
 keywords: ""
 ms.date: 04/30/2019
@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Integrate a bot with Omni-channel Engagement Hub
+# Enable a bot with Omni-channel Engagement Hub
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
