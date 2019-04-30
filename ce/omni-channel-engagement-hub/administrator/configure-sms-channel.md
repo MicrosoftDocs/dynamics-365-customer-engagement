@@ -55,15 +55,21 @@ To sign up for TeleSign:
 
 5.	In the **Auto-close after inactivity** field, select a duration of at least 8 hours.
 
-6.	On the **SMS settings** tab, enter the following information:
+    > [!div class=mx-imgBorder]
+    > ![SMS work stream](../media/sms-workstream.png "SMS work stream")
+
+6.	On the **SMS Settings** tab, enter the following information:
     - **Customer ID**: Customer ID generated from the TeleSign account.
     - **API key**: API key generated from the TeleSign account.
 
 7. Copy the value from the **TeleSign inbound URL** field and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com). This value is the callback URL that is used to process incoming SMS messages.
 
+    > [!div class=mx-imgBorder]
+    > ![SMS Settings tab](../media/sms-settings.png "SMS Settings tab")
+
 8.	Select **Save**.
 
-9.	On the **SMS numbers** tab, select **Add new SMS number**.
+9.	On the **SMS Numbers** tab, select **Add new SMS number**.
 
 10.	On the **New SMS Number** page, enter the following information:
     - **Number**: Phone number purchased from TeleSign.
@@ -73,9 +79,15 @@ To sign up for TeleSign:
     > [!NOTE]
     > For this preview, only one phone number is supported per work stream.
 
+    > [!div class=mx-imgBorder]
+    > ![SMS Numbers tab](../media/sms-number.png "SMS Numbers tab")
+
 11.	Select **Save**.
 
 12.	Select **Validate API Key** from the toolbar at the top of the page to validate the customer ID and API key.
+
+    > [!div class=mx-imgBorder]
+    > ![Validate API Key](../media/validate-key.png "Validate API Key")
 
 13. Open the work stream you created for SMS.
 

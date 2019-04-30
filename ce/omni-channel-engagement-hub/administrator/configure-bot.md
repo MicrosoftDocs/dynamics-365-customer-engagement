@@ -13,7 +13,7 @@ ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
 ms.custom: 
 ---
 
-# Work with bots
+# Integrate a bot
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -49,13 +49,13 @@ To get Microsoft App ID of the bot:
 
 2.	Search for **Bot Channels Registration** in the list and select it.
 
-   > [!div class=mx-imgBorder]
-   > ![Bot Channels Registration](../media/bot-channels-reg.png "Bot Channels Registration")
+    > [!div class=mx-imgBorder]
+    > ![Bot Channels Registration](../media/bot-channels-reg.png "Bot Channels Registration")
 
 3.	Select **Settings** and then copy the value in the **Microsoft App ID** field. This value is your bot's application ID to be used while creating a bot user.
 
-   > [!div class=mx-imgBorder]
-   > ![Copy Microsoft App ID](../media/bot-id.png "Copy Microsoft App ID")
+    > [!div class=mx-imgBorder]
+    > ![Copy Microsoft App ID](../media/bot-id.png "Copy Microsoft App ID")
 
 To create a bot user:
 
@@ -67,6 +67,7 @@ To create a bot user:
 
     > [!NOTE]
     > You'll see two sections as **Bot Information**. You must enter information in the first **Bot Information** section.
+    >
     > ![Two Bot Information sections](../media/two-bot-sections.png "Two Bot Information sections")
 
 7.	Save the record.
