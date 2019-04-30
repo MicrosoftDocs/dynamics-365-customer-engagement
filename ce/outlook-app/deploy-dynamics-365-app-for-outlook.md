@@ -84,7 +84,7 @@ Dynamics 365 App for Outlook is an App Module in version 9. The minimum set of p
 
 3.  In the dialog that appears, apply the **Dynamics 365 App for Outlook User** security role to the users.
 
-This will ensure that the users have the basic privileges needed to access App for Outlook.
+This will ensure that the users have the basic privileges needed to access App for Outlook. Other security privileges on top of the basic privileges, related to the user's role, will light up more features. For example, if a user has create privilege on Lead entity, in addition to **Dynamics 365 App for Outlook User** security role, they would see an email resolve to a Lead entity where applicable.
 
 > [!NOTE]
 >  The security role **Dynamics 365 App for Outlook User** is available from Build 9.1.0.4206. If a user doesn’t have this security role or its underlying privileges, they’ll receive the following error: 

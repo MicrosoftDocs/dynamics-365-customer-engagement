@@ -1,4 +1,5 @@
 ---
+redirect_url: https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs
 title: "Helper code: Enumerations for option sets (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The SDK download package includes an extension to the CrmSvcUtil code generation tool that you can use to generate enumerations for all option set values including global option sets, picklist, state, and status values."
 ms.custom: 
