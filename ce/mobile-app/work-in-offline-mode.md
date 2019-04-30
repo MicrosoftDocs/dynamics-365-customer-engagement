@@ -33,7 +33,7 @@ When your admin has enabled mobile offline, the next time you access the mobile 
 
 > [!Note]
 > - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version (13.19043.0 or greater) of the Dynamics 365 for phones and tablet app from the app store.
+> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS version 13.19043.0 or greater is supported and for Android version 4.3.19043.21 or greater supported.
 
 
 - When you see the **Offline Updates Available** dialog box, choose **Update**. 
