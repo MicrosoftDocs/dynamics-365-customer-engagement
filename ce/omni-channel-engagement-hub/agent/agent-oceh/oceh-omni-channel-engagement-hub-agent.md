@@ -37,7 +37,7 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 - [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](oceh-create-record.md)
-- [Search for records](oceh-search-record.md)
+- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
 
 
 ## How-tos
@@ -45,4 +45,4 @@ Use the resources in the following sections to learn how to use Omni-channel Eng
 - [Communication panel](oceh-conversation-control.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](oceh-create-record.md)
-- [Search for records](oceh-search-record.md)
+- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
