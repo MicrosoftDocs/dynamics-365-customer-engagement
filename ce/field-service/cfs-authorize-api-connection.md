@@ -28,13 +28,21 @@ search.app:
 
 # Authorize API connection between Dynamics and AzureIoT
 
-The last step when deploying Connected Field Service with IoTHub is to authorize CRM API Managament 
-Why: allow logic apps to read and write dynamics data, if not wont be able to see alerts or registyer device 
+The last step when deploying Connected Field Service with IoTHub is to authorize **CRM API Managament Access**. This allows data and actions to be passed between Azure IoTHub and Dynamics 365. More specifically, it allows LogicApps to read and write dynamics data bi-directionally. 
+
+As two examples, without completing this step, you will not be able to: 
+
+> 1. Send IotAlerts from IoTHub to Dynamics 365
+> 2. Create a device in Dynamics 365 and register it in IoTHub
+
 
 https://msit.microsoftstream.com/video/f12a1190-2872-48e6-af2a-3751c4cd4749?list=studio
 
 
 ## Prerequisites
+Azure subscription
+Dynamics 365 for Field Service environment
+Deployed Connected Field Service with IoTHub 
 > [!Note]
 >
 
@@ -42,7 +50,7 @@ https://msit.microsoftstream.com/video/f12a1190-2872-48e6-af2a-3751c4cd4749?list
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-azure-api-management.png)
 
-Enter dynamics credentials
+Authorize using your dynamics credentials
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/cfs-azure-api-management-owner.png)
