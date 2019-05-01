@@ -131,8 +131,8 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
     
      When you select any record, the application displays a new quick create form. For example, select the **Account** record from the list. The application displays the **Quick Create: Account** form. Specify the details in the fields and save the form.
     
-    > [!div class="mx-imgBorder"]
-    > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
+   > [!div class="mx-imgBorder"]
+   > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
 
    c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oceh-set-user-presence-status.md).
 
