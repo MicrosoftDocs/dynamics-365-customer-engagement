@@ -1,5 +1,5 @@
 ---
-title: " Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
@@ -23,7 +23,8 @@ search.app:
   - D365CE
   - D365Sales
 ---
-# Set-up mobile offline synchronization to allow users to work in offline mode on their mobile device 
+
+# Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
