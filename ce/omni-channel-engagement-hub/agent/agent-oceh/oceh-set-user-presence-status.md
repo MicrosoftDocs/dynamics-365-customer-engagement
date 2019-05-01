@@ -29,15 +29,15 @@ Presence is the indication of your availability or status.
 As an agent, you can view your presence status that is shown in the Dynamics 365 nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
 
   - ![Offline presence status](../../media/oceh/oceh-offline-icon.png "Offline presence status") - Offline
-  - 
+
   - ![Appear away presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Appear away
-  - 
+ 
   - ![Do not disturb presence status](../../media/oceh/oceh-do-not-disturb-icon.png "Do not disturb presence status") - Do not disturb
-  - 
+ 
   - ![Busy presence status](../../media/oceh/oceh-busy-icon.png "Busy presence status") - Busy
-  - 
+ 
   - ![Available presence status](../../media/oceh/oceh-available-icon.png "Available presence status") - Available
-  - 
+ 
 ## Update your presence status
 
 Presence status is updated in two ways:
