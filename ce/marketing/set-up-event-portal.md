@@ -61,7 +61,7 @@ For more information about how to download the latest version of the event websi
 
 Most of the information shown on the website comes directly from your event models and their various related records, so all you need to do get the website online is make sure that all the information is available in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and that the event itself, plus its relevant sessions and tracks, are set to be published on the website.
 
-To publish an event, session, or track, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Published**. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event website.
+To publish an event, session, or track, open the relevant record and set its **Publish Status** in the drop-down list (usually shown in the upper-right corner of the form) to **Live**. Set the **Publish Status** to any other value to unpublish an event, session, or track if needed, thus removing it from your event website.
 
 ![The Publish Status menu](media/event-publish-ill.png "How to set the publish status of an event to the website")
 
@@ -69,10 +69,10 @@ The following table summarizes how to publish each publishable entity to the web
 
 |   **Entity**   |  **How and where it gets published**   |  **Which fields get published** |
 |-------|----|-----------|
-|     Events     |  Publish each event manually by opening the event record and setting the **Publish status** to **Published**. Unpublished events won't be shown on the website.<p>All published events are listed on the **All Events** page of the website.</p> |  Event name, Start date & time, End date & time, Primary venue, Description|
-|    Sessions    | Publish each session manually by opening the session record and setting the **Publish status** to **Published**. Unpublished sessions won't be shown on the website.<p>Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to. | Session title, Start date & time, End date & time, Session summary, Detailed description, Session tracks, Duration|
+|     Events     |  Publish each event manually by opening the event record and setting the **Publish status** to **Live**. Unpublished events won't be shown on the website.<p>All published events are listed on the **All Events** page of the website.</p> |  Event name, Start date & time, End date & time, Primary venue, Description|
+|    Sessions    | Publish each session manually by opening the session record and setting the **Publish status** to **Live**. Unpublished sessions won't be shown on the website.<p>Each published session is listed on the **Sessions** page for the event it belongs to, on the **Speaker** page for the speaker presenting it, and on the **Session Tracks** page for tracks it belongs to. | Session title, Start date & time, End date & time, Session summary, Detailed description, Session tracks, Duration|
 |    Speakers    | Speakers are published automatically when you publish a session they are assigned to.<p>Speakers are listed on the front page for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker.</p> | Name, Photo, Title, About, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], [!INCLUDE[tn-twitter](../includes/tn-twitter.md)], Website |
-| Session Tracks |    Publish each track manually by opening the track record and setting the **Publish status** to **Published**. Unpublished tracks won't be shown on the website.<p>Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |  Name, Audience |
+| Session Tracks |    Publish each track manually by opening the track record and setting the **Publish status** to **Live**. Unpublished tracks won't be shown on the website.<p>Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |  Name, Audience |
 |     Passes     | Passes are published automatically when you publish the event they belong to.<p>All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.</p>| Name, Name of the related track record, Pass price, Sold out status</p>             |
 |    Sponsors    | Sponsors are published automatically when you publish the event they belong to.<p>Sponsors associated with published events are displayed at the bottom of most pages of the website for those events.  |  Event sponsor (the  name of the related account record), Logo (taken from the related account record for each sponsor)</p>                          |
 
@@ -143,9 +143,9 @@ If you choose to enable lead generation for events, then a new lead will also be
 To find the URL for your sample event website and open it:
 
 1. Open the relevant [event record](set-up-event.md).
-1. Make sure the **Publish status** is set to **Published**.
+1. Make sure the **Publish status** is set to **Live**.
 1. Open the **General** tab and find the **Key information** section.
-1. The **Event URL** field here shows the address of the website for this event. This URL is provided automatically if you're using the event website that was installed together with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but if you're hosting the site somewhere else, you (or another user) must mark the **Custom event URL** check box and specify this value as required. Select the globe button at the edge of this field to open the URL.
+1. The **Event URL** field here shows the address of the website for this event. This URL is provided automatically if you're using the event website that was installed together with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but if you're hosting the site [somewhere else](#customize), you (or another user) must mark the **Custom event URL** check box and specify this value as required. Select the globe button at the edge of this field to open the URL.
 
 The URL for any specific event takes the following form:
 
