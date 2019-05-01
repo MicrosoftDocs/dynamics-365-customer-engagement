@@ -1,7 +1,7 @@
 ---
 title: "Import data (all record types) for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -35,7 +35,7 @@ Importing data is often the first important task that you need to perform after 
   
 There are several ways to import data into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps:  
   
-1. To import large volumes of data, we recommend a programmatic way, as most efficient. When you import data programmatically, you gain additional capabilities that are not available when you use other methods of importing data. These advanced capabilities include viewing stored source data, accessing error logs and creating data maps that include complex transformation mapping, such as concatenation, split, and replace. 
+1. To import large volumes of data, we recommend a programmatic way, as most efficient. When you import data programmatically, you gain additional capabilities that are not available when you use other methods of importing data. These advanced capabilities include viewing stored source data, accessing error logs and creating data maps that include complex transformation mapping, such as concatenation, split, and replace. See [Import data](../developer/import-data.md).
   
 2. For smaller import jobs, you can use the Import Data Wizard tool included in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps web application. For information about the Import Data Wizard or how to import specific record types, see [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md).  
   

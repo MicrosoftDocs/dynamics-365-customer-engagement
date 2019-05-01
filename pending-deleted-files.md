@@ -91,5 +91,35 @@ ce/developer/org-service/sample-work-global-option-sets.md
 ce/developer/org-service/sample-dump-global-option-set-information-file.md
 ce/developer/org-service/sample-query-metadata-detect-changes.md
 ce\developer\org-service\perform-specialized-operations-using-update.md
+ce/developer/org-service/use-early-bound-entity-classes-code.md
+ce/developer/org-service/extend-code-generation-tool.md
+ce/developer/org-service/use-the-organizationservicecontext-class.md
+ce/developer/org-service/use-early-bound-entity-classes-create-update-delete.md
+ce/developer/org-service/use-early-bound-entity-classes-associate-records.md
+ce/developer/org-service/mix-early-late-bound-entities.md
+ce/developer/org-service/sample-use-organization-service-context.md
+ce/developer/org-service/sample-create-retrieve-update-delete-records-early-bound.md
+ce/developer/org-service/sample-associate-records-early-bound.md
+ce/developer/org-service/use-late-bound-entity-class-code.md
+ce/developer/org-service/use-entity-class-create-update-delete.md
+ce/developer/org-service/use-entity-class-add-update-associations-records.md
+ce/developer/org-service/sample-create-retrieve-update-delete-late-bound.md
+ce/developer/org-service/reduce-potential-data-loss-using-optimistic-concurrency.md
+ce/developer/org-service/sample-use-optimistic-concurrency-update-delete-operations.md
+ce/developer/org-service/troubleshooting-error-handling.md
+ce/developer/org-service/handle-exceptions-code.md
+ce/developer/org-service/troubleshooting-tips.md
+ce/developer/org-service/web-service-error-codes.md
+ce/developer/org-service/use-sample-helper-code.md
+ce/developer/org-service/helper-code-serverconnection-class.md
+ce/developer/org-service/helper-code-systemuserprovider-class.md
+ce/developer/org-service/helper-code-enumerations-option-sets.md
+ce/developer/org-service/subscribe-sdk-assembly-updates-using-nuget.md
+ce/developer/org-service/sample-impersonate-actonbehalfof-privilege.md
+ce/developer/org-service/manage-duplicate-detection-create-update.md
+ce/developer/org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md
+ce/developer/org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md
+ce/developer/org-service/sample-detect-multiple-duplicate-records.md
+
 
 These files have been deleted, but the list hasn't been communicated to loc yet.

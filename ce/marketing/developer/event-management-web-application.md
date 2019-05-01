@@ -59,13 +59,15 @@ To get started with customizing the provided demo event portal you need to follo
 > [!NOTE]
 > The command needs to be executed in the same directory where the `package.json` file is located.
 
-## Configuration
+## Environment Configuration
 
 All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
 
 - **production** - Used internally by **Angular** to differentiate between production and development environments.
+- **buildVersion** - This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application you can set it to `null`.
 - **apiEndpoint** - Used by the event management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
+- **imagesEndpoint** - Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.
 - **useRestStack** - Used by the event management application to adjust to different types of APIs used when utilizing the self-hosted approach against Dynamics 365 hosted approach. The self-hosted approach uses the REST API.
 - **isAuthenticationEnabled** - Used by the event management application to turn on support user authentication. If false login or logout dropdown is shown on the navigation bar.
 - **useAadB2C** - Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
@@ -90,11 +92,6 @@ Most of the customization possibilities for the event management application are
 
 This exposes your new custom field through the API, and you can utilize it in the front-end.
 
-> [!div class="nextstepaction"]
-> [Self-hosted](self-hosted.md)<br />
-> [Dynamics 365 Portal hosted](portal-hosted.md)<br />
-> [Localization](event-portal-localization.md)
-
 ## Download sample event website
 
 Select the version you would like to download from the table below.
@@ -104,6 +101,11 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
-| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | not released |
-| Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip") |
-| Sample Event Website | 1.11.0 (February Release) | Session level registration, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/DemoEventWebsite-1-1902.zip") |
+| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
+| Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
+
+### See also
+
+[Self-hosted](self-hosted.md)<br />
+[Dynamics 365 Portal hosted](portal-hosted.md)<br/>
+[Localization](event-portal-localization.md)
