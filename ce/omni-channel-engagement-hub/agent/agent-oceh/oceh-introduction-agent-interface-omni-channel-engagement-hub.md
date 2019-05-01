@@ -19,6 +19,22 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions.
+
+## Value propositions of Omni-channel Engagement Hub app:
+
+- **Unified experience:** The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omni-channel Engagement Hub app.
+
+- **Multi-session and application management:** The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
+
+- **Single-view interface:** The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
+
+- **Deployment and upgrade:** The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
+
+- **Extensibility:** The app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the app.
+
+## High-level feature capabilities for the agents
+
 As an agent, you might engage with several customers simultaneously across different channels but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. Omni-channel Engagement Hub provides a consistent experience regardless of the support channel and organizations can maximize agent productivity.
 
 The Omni-channel Engagement Hub provides key capabilities like:
@@ -65,6 +81,8 @@ The vertical panel on the left side is the session panel that allows you (the ag
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oceh-conversation-control.md).
 
+ > [!div class=mx-imgBorder]
+ > ![Communication panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-communication-panel.png "Communication panel in Omni-channel Engagement Hub app")
 
 ## 3. Application tab panel
 
