@@ -13,7 +13,7 @@ ms.assetid: BAC4B607-59A4-4FD2-B121-9799081D5EB1
 ms.custom: 
 ---
 
-# View conversation and session form in Dynamics 365 for Customer Engagement apps
+# View conversation and session activity types in the Customer Engagement apps
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
