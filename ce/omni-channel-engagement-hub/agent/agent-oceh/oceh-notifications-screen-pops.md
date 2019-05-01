@@ -1,6 +1,6 @@
 ---
-title: "Notification and screen pop for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about notifications and their types. Agents will see nofications and screen pops in Omni-channel Engagement Hub."
+title: "Notifications for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
+description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omni-channel Engagement Hub."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 6043F127-BF47-4F97-8D1E-319B1D578D8A
 ms.custom: 
 ---
 
-# View alert and toast notifications
+# View notifications
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -39,19 +39,9 @@ Some of the scenarios for which you can see the screen pop or notifications are:
 
 There are two types of notifications:
 
-- Toast notifications or floating notifications
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on. 
 
-- Alert notifications
-
-### Toast notifications or floating notifications
-
-A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens.
-
-Toast notifications or floating notifications appear for SMS, email, and chat conversation requests scenarios. Also, they appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios. This kind of notification might have buttons that require action from you, depending on your business requirements.
-
-### Alert notifications
-
-An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time; the screen-pop dialog vanishes when the time is up. If your business requires an auto-accept request for an incoming request based on the routing rules, you will see the notification with no buttons.
+- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
 ## Incoming chat notification
 
