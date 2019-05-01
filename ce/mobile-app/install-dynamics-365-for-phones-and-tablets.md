@@ -48,9 +48,9 @@ This list identifies all services to which Dynamics 365 for phones and tablets t
 
 This list identifies all resources used by Dynamics 365 for phones and tablets. Your configuration (for example, Azure Active Directory or Intune) must not block these resources.
 
-| resources(s) | Protocols | Uses |
-| --- | --- | --- |
-| service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
+| resources(s) | Uses |
+| --- | --- |
+| service.powerapps.com |Starting with version 13.19033.0, used for email sign-in and the app list. |
 
 ## Install the app from your device’s app store  
  Choose the download link for your device:  
