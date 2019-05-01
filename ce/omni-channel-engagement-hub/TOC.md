@@ -64,8 +64,7 @@
 #### [View conversation and session activity types in the Customer Engagement apps](agent/agent-oceh/oceh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oceh/oceh-view-customer-360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-oceh/oceh-create-record.md)
-#### [Search for records](agent/agent-oceh/oceh-search-record.md)
-#### [Link and unlink a record](agent/agent-oceh/oceh-link-unlink-record.md)
+#### [Search, link, and unlink a record](agent/agent-oceh/oceh-search-link-unlink-record.md)
 
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 #### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)

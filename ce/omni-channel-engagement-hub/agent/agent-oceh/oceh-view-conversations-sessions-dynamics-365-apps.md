@@ -69,5 +69,4 @@ The Session Participants section lets you add a participant related to the sessi
 
 - [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [Create a record](oceh-create-record.md)
-- [Search for records](oceh-search-record.md)
-- [Link and unlink a record](oceh-link-unlink-record.md)
+- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)

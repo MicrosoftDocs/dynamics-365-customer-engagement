@@ -52,5 +52,4 @@ Again, when you switch back to the session, launch the notes panel and take the 
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](oceh-create-record.md)
-- [Search for records](oceh-search-record.md)
-- [Link and unlink a record](oceh-link-unlink-record.md)
+- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)

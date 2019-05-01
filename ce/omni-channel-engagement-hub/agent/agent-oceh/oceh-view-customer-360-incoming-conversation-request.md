@@ -58,5 +58,4 @@ When you choose to Search for records, the application launches the **Omni-chann
 
 - [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)]
-- [Search for records](oceh-search-record.md)
-- [Link and unlink a record](oceh-link-unlink-record.md)
+- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
