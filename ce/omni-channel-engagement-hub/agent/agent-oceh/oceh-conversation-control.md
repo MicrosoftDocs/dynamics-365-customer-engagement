@@ -125,7 +125,7 @@ When you have a conversation with a customer, you can link the conversation to t
 > [!div class=mx-imgBorder]
 > ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
 
-To learn more, see [Search for records to the conversation](oceh-search-record.md).
+To learn more, see [Search, link, and unlink a record to the conversation](oceh-search-link-unlink-record.md).
 
 ## Consult with agent or supervisor
 

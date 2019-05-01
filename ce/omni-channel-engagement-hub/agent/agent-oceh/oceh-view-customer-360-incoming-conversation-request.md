@@ -31,7 +31,7 @@ When you get an incoming conversation request, you see a notification (screen po
 
 If you select a record, the Customer summary page displays details by pre-populating the fields.
 
-If you select a case, contact, or account, the Customer summary page refreshes and updates the **Issue snapshot** section with the current case details.
+If you select a case, contact, or account, the Customer summary page refreshes and updates the **Case** section with the current case details.
 
 If you choose a case that is different than the one you are assigned, you will see a warning message that needs your action to link the conversation to the record. More information: [Search for records](#search-for-records)  
 

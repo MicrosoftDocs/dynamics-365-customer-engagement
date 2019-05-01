@@ -36,7 +36,7 @@ By default, the session panel is in expanded mode and it is collapsible based on
 
 ## Title and icon of the session
 
-By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or issue snapshot forms. After linking, the session title is automatically updated.
+By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or Case forms. After linking, the session title is automatically updated.
 
 By default, the first two letters of the session title is displayed as the session icon.
 

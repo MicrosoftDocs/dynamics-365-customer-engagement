@@ -27,11 +27,11 @@ Having this information ready when a customer contacts the support agent can red
 
 Customer summary is a page that gives you complete information about a customer when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
 
- - Customer profile
+ - Customer profile (Contact or Account)
 
  - Conversation summary
 
- - Issue snapshot
+ - Case
 
  - Recent cases
 
@@ -40,7 +40,7 @@ Customer summary is a page that gives you complete information about a customer 
 > [!div class='mx-imgBorder']
 > ![View Customer summary](../../media/customer-summary.png "View Customer summary") 
 
-## Customer profile
+## Customer profile (Contact or Account)
 
 This section provides details about the customer or account such as name, job, title, relationship type, city, category, primary contact for the account, and preferred channel of engagement.
 
@@ -60,12 +60,12 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md)
 
-## Issue snapshot
+## Case
 
-For an incoming engagement request, the system links an existing case to engagement and displays it in the **Issue snapshot** section. This section displays information such as the title of the case, priority, status, product, and owner.
+For an incoming engagement request, the system links an existing case to engagement and displays it in the **Case** section. This section displays information such as the title of the case, priority, status, product, and owner.
 
 > [!div class='mx-imgBorder']
-> ![Issue snapshot section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Issue snapshot section in the customer summary form")
+> ![Case section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Case section in the customer summary form")
 
 ## Recent cases
 
