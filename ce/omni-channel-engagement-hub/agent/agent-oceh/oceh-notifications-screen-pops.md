@@ -52,9 +52,9 @@ You receive a notification for an incoming chat request. When you accept the cha
 
 The details you’ll see for a chat channel are:
 
- - Customer profile
+ - Customer profile (Contact or Account)
 
- - Snapshot
+ - Case 
 
  - Conversation summary
 
@@ -73,9 +73,9 @@ Identification of a customer happens based on the **Mobile Phone** field present
 
 The details you’ll see for a chat channel are:
 
- - Customer profile
+ - Customer profile (Contact or Account)
 
- - Snapshot
+ - Case
 
  - Conversation summary
 
