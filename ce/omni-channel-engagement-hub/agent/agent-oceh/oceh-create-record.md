@@ -46,6 +46,6 @@ After you save the changes, the record is linked to the conversation. You can se
 ## See also
 
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
 - [Link and unlink a record](oceh-link-unlink-record.md)

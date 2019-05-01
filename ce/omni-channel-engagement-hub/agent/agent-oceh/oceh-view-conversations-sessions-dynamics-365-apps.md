@@ -1,6 +1,6 @@
 ---
-title: "View omni-channel conversation and session form in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omni-channel Engagement Hub can under the Acitivities in Dynamics 365 for Customer Engagement apps."
+title: "View omni-channel conversation and session activity types in the Customer Engagement apps | MicrosoftDocs"
+description: "Learn about the omni-channel conversation and session activity types that users (agents and supervisors) can see under the Activities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -24,7 +24,7 @@ Your organization might have a classification where certain agents work in the c
 Select the plus icon in the application tab to view the sitemap and select **Activities**.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities.png "Select activities in the sitemap")
+> ![Select activities in the sitemap to view the list of activity types](../../media/oceh-oc-activities.png "Select activities in the sitemap")
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 
@@ -33,7 +33,7 @@ You can find the following activity types in Dynamics 365 for Customer Engagemen
 - Session
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of forms](../../media/oceh-oc-activities-list.png "Select activities in the sitemap")
+> ![Select activities in the sitemap to view the list of activity types](../../media/oceh-oc-activities-list.png "Select activities in the sitemap")
 
 ### Conversation activity type
 

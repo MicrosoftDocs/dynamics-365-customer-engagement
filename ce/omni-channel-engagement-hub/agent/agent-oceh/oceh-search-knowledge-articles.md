@@ -39,5 +39,5 @@ When you interact with a customer in the conversation control, you can use the *
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
-- [View conversations and sessions in Dynamics 365 for Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+- [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
