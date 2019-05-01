@@ -19,6 +19,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+In addition, you can press **CTRL** and select on a link that can open as a tab in the application tab.
+
 The sitemap displays the following record types:
 
 - **Dashboards**

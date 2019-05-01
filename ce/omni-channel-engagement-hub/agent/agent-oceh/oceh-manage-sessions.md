@@ -24,7 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 As an agent, you can start the sessions in two ways:
 
 - **Manual:** Select **More options** (**...**) in the dashboard and select **Open** or **Pick** to start the session. Open as a session is available for **My work items** and **Open work items** streams. Pick is available in **Open work items** streams. <br>
-In addition, you can press **CTRL** and select on a link that can open as a tab in the application tab. Also, you can press **Shift** and select on a link to open as a session. You can't use the shortcut to open any other links apart from session enabled entities.
+Also, you can press **Shift** and select on a link to open as a session. You can't use the shortcut to open any other links apart from session enabled entities.
 
 - **Accept incoming conversation:** Accept the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
 

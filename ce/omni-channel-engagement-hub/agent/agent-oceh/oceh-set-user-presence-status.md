@@ -19,18 +19,35 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Presence is the indication of your (agent) availability or status. 
+Presence is the indication of your availability or status.
 
+  > [!div class=mx-imgBorder]
+  > ![Agent presence status](../../media/oceh/oceh-presence-icon.png "Agent presence status")
+
+## View your presence status
+
+As an agent, you can view your presence status that is shown in the Dynamics 365 nav bar. Select the icon to launch the presence dialog. Each presence status indicates an icon:
+
+  - ![Offline presence status](../../media/oceh/oceh-offline-icon.png "Offline presence status") - Offline
+  - 
+  - ![Appear away presence status](../../media/oceh/oceh-appear-away-icon.png "Appear away presence status") - Appear away
+  - 
+  - ![Do not disturb presence status](../../media/oceh/oceh-do-not-disturb-icon.png "Do not disturb presence status") - Do not disturb
+  - 
+  - ![Busy presence status](../../media/oceh/oceh-busy-icon.png "Busy presence status") - Busy
+  - 
+  - ![Available presence status](../../media/oceh/oceh-available-icon.png "Available presence status") - Available
+  - 
 ## Update your presence status
 
-Presence status is updated in two ways: 
+Presence status is updated in two ways:
 - **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the nav bar and then select the status from the list to update your status manually. The list shows five standard presence statuses:
 
   - Offline
   - Appear away
   - Do not disturb
   - Busy
-  - Available  
+  - Available
   
 
     Also, you may see any other additional presence statuses that your administrator configured for you.
