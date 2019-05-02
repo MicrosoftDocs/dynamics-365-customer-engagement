@@ -2,7 +2,7 @@
 title: "Enable sales order processing integration (Dynamics 365 for Sales) | MicrosoftDocs"
 description: ""
 keywords: sales, developer guide
-ms.date: 04/30/2019
+ms.date: 05/02/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -49,7 +49,7 @@ The table shown below lists the conditions that need to be satisfied before pric
 |Opportunity|Calculates always|Calculate always|NA|Calculate always|
 |Quote|Calculate always|Calculate always|NA|Calculate always|
 |Sales order|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />([IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and sales order is in submitted state) or (logged in user is an integration user)|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and sales order is in submitted state|
-|Invoice|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1)|
+|Invoice|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|
 |Opportunity product|Calculate always|Calculate always|Calculate always|NA|
 |Quote product|Calculate always|Calculate always|Calculate always|NA|
 |Sales order product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and ( logged in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and (logged in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|NA|
