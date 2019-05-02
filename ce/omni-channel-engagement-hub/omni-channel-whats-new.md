@@ -53,7 +53,7 @@ You can unlink a record (case, contact, and account) from a conversation while y
 
 More information: </br>
 [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation)  
-[Unlink a record from the conversation](agent/agent-oceh/oceh-search-link-unlink-record#unlink-a-record-from-the-conversation)
+[Unlink a record from the conversation](agent/agent-oceh/oceh-search-link-unlink-record.md#unlink-a-record-from-the-conversation)
 
 ## Developer experience
 
