@@ -130,7 +130,7 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
 
  You can enable SMS channel after you have upgraded to the latest release of Omni-channel. To upgrade Omni-channel Engagement Hub, see [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md).
 
- Post upgrade, go to **Manage Omni-channel instances** page and enable SMS channel by selecting the checkbbox in **SMS** tab.
+ Post upgrade, go to **Manage Omni-channel instances** page and enable SMS channel by selecting the checkbox in **SMS** tab.
 
 > [!div class=mx-imgBorder]
 > ![enable SMS](../media/enable-sms.png)
