@@ -247,7 +247,7 @@ Once you have created a mobile offline profile, you can start adding users to th
   
 2.  In the **Users** area, select **+** to add a new user.  
 
-  ![Add a user](media/adduser.png "Add a user")
+    ![Add a user](media/adduser.png "Add a user")
   
 3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
   
@@ -299,7 +299,7 @@ Enable mobile offline for a specific app from MyApps page.
    ![Enable mobile offline for the app](media/EnableMobileOffline.png "Enable mobile offline for the app")
    
    > [!NOTE] 
-   > -   You can add more than one profile for an app module.
+   > You can add more than one profile for an app module.
 
 6. At the top choose **Save** and then **Publish**.
 
