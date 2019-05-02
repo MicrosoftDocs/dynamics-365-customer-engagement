@@ -33,10 +33,15 @@ Not sure what you're looking for, where to begin, or how to improve your Field S
 Before we begin, here are the top places for Field Service knowledge.
 
 [Docs](../field-service/overview) - written documentation
+
 [Learn](https://docs.microsoft.com/en-us/learn/browse/?products=dynamics-field-service) - guided videos and courses 
+
 [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X) - concept videos
+
 [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service) - product feedback
+
 [Forum](https://community.dynamics.com/365/fieldservice) - questions, answers, and events
+
 [Blog](https://cloudblogs.microsoft.com/dynamics365/it/) - release notes and blog posts
 
   
