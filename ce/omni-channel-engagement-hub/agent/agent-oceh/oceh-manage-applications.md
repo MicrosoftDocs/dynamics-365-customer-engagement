@@ -19,32 +19,39 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called the Anchor tab.
+The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a Anchor tab.
 
-The Application tab has a **+** icon. If you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities. You press **Ctrl** and select any link to open it in the application tab.
+The Application tab has a **+** icon. If you select the icon, a context menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omni-channel Engagement Hub app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
 
-In addition, you can press **CTRL** and select on a link that can open as a tab in the application tab.
+## Open an application
 
-The sitemap displays the following record types:
+You can open an application in the application tab panel in the following ways:
 
-- **Dashboards**
+- Select the content menu **+** icon on the application table panel.
+- Use gestures.
 
-  When you sign in to the application, you see a dashboard that gives you easy-to-read information about the tasks you are working on. Several dashboards are tailored for your role. To see the other dashboards, select the drop-down list next to **Omni-channel Agent Dashboard**. Also, you can see any dashboard as your default view using the **Set As Default** option in the command bar. By default, you see **Omni-channel Agent Dashboard**, which displays information about the tasks that you work on. As an agent, when you sign in to the application, the dashboard displays the following streams:
+### Select the content menu + icon on the application table panel
 
-    - My work items
-    - Open work items
-    - Closed work items
-    
-    To learn more, see [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
+On the application tab panel, select **+** icon that shows a context menu. The context menu has a list of out-of-the-box and custom entities. Selecting an option from the context menu opens the application in the application tab panel. The application opens in the current active session.
 
-- **Activities**
+> [!div class=mx-imgBorder]
+> ![App tab context menu](../../media/oceh/oceh-app-tab-select-icon.png "App tab context menu")
 
-  Activities help you keep track of all your customer communications using the **Conversation** and **Session** form types. Activities are the details of the interactions between the customer and you, such as the history of the conversation, a transcript of the conversation, session details, and more.
+### Use gestures to open an application
 
-To learn more about Accounts, Contacts, Social Profiles, Cases, Queues, and Knowledge articles, see [Understand the sitemap navigation](../../../customer-service/customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation).
+Use a combination of keyboard and mouse-click gesture to start an application. You can press **Ctrl** and select on a link to open in a new application tab. The application opens in the current active session.
+
+## Work with applications
+Every session has a application tab which is called Anchor tab. A session can have a maximum of one Anchor tab and there will no close option on the application tab. When you working on a Omni-channel conversation request, then customer summary page is the default anchor tab.
+
+When you switch sessions or between applications in the current session, unsaved changes are not lost and you can continue to work on them.
+
+For example, you are working on a case by entering the title of the case. Before saving the form, you open an account record in a new application tab. Now, the application focus changes to the account record. However, the unsaved changes is preserved for you to continue working on the form.
+
+You can switch between applications by selecting the application tab title.
 
 > [!div class="nextstepaction"]
 > [Next topic: View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
