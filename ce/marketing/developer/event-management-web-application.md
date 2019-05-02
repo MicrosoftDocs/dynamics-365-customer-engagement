@@ -43,18 +43,24 @@ To get started with customizing the provided demo event portal you need to follo
 
 1. Download the [source code](#download-sample-event-website)
 
-1. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
+2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
-1. Open a terminal or shell of your choice (e.g., Command Prompt or Powershell) and run the command `node -v` to check whether the installation is successful or not.
+3. Open a terminal or shell of your choice (e.g., Command Prompt or Powershell) and run the below command to check whether the installation is successful or not.
+    ```CLI
+    node -v
+    ```
         
   > [!NOTE]
   > If you have a terminal or shell is already open, restart it before typing in the command.
 
-1. Run the command `npm install -g @angular/cli` to install the Angular CLI (command line interface). This is required to build and run the Angular app. More information: [Angular CLI](https://cli.angular.io/).
+4. Run the below command to install the Angular CLI (command line interface). This is required to build and run the Angular app. More information: [Angular CLI](https://cli.angular.io/).
+   ```CLI
+   npm install -g @angular/cli
+   ```
 
-1. Download the sample event website from the download section.
+5. Download the sample event website from the download section.
 
-1. Go into the directory where you have downloaded the [source code](#download-sample-event-website) and run the following command `npm install` to fetch all the necessary packages that are required to run the website.
+6. Go into the directory where you have downloaded the [source code](#download-sample-event-website) and run the following command `npm install` to fetch all the necessary packages that are required to run the website.
     
 > [!NOTE]
 > The command needs to be executed in the same directory where the `package.json` file is located.
