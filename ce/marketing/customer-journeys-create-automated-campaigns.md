@@ -233,7 +233,7 @@ You can use any existing segment as a suppression segment. To choose a suppressi
 
 ## Go live to start running the journey and processing contacts
 
-When you first create a new customer journey, and while you're working on it, the journey stays in *draft* status. (The status is displayed above the journey canvas in the **Status Reason** field.) While it's still in draft status, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status Reason** to **Published**, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
+When you first create a new customer journey, and while you're working on it, the journey shows a **Status reason** of **Draft**. While it's still in draft, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status reason** to **Live**, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
 
 When you've finished designing your customer journey, do the following to verify and publish it:
 

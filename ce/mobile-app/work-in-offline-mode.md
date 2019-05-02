@@ -30,6 +30,7 @@ search.app:
 Work with your data in disconnected mode on your mobile device with mobile offline. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
 > [!IMPORTANT]
+> - Mobile offline is only available for iOS and Android.
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
