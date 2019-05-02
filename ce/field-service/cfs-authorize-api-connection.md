@@ -28,7 +28,7 @@ search.app:
 
 # Authorize API connection between Dynamics and AzureIoT
 
-The last step when deploying Connected Field Service with IoTHub is to authorize **CRM API Managament Access**. This allows data and actions to be passed between Azure IoTHub and Dynamics 365. More specifically, it allows LogicApps to read and write dynamics data bi-directionally. 
+In order to begin using Connected Field Service with IoTHub, you need to authorize **CRM API Managament Access**, which is the last step when deploying from [https://cfsdeployment.crm.dynamics.com](https://cfsdeployment.crm.dynamics.com/). This allows data and actions to be passed between Azure IoTHub and Dynamics 365. More specifically, it allows LogicApps to read and write dynamics data bi-directionally. 
 
 As two examples, without completing this step, you will not be able to: 
 
@@ -36,24 +36,30 @@ As two examples, without completing this step, you will not be able to:
 > 2. Create a device in Dynamics 365 and register it in IoTHub
 
 
-https://msit.microsoftstream.com/video/f12a1190-2872-48e6-af2a-3751c4cd4749?list=studio
-
-
 ## Prerequisites
-Azure subscription
-Dynamics 365 for Field Service environment
-Deployed Connected Field Service with IoTHub 
-> [!Note]
->
+- Azure account and subscription
+- Dynamics 365 for Field Service 
+- CFS with IoTHub deployed via [https://cfsdeployment.crm.dynamics.com](https://cfsdeployment.crm.dynamics.com/)
 
- Go to d365 api connection in resource group
+
+## Instructions
+
+Sign into your Azure account, and then navigate to the [Azure portal](https://portal.azure.com) 
+
+From there go to **Resource Groups** and find the resource group you recently deployed IoTHub to. 
+
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-azure-api-management.png)
+> ![Screenshot of ](./media/cfs-iothub-resource-group.png)
 
-Authorize using your dynamics credentials
+One such resource will be an API Connection type to Dynamics CRM. Select and edit this resource.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-azure-api-management-owner.png)
+> ![Screenshot of ](./media/cfs-iothub-api-connection.png)
 
-## Configuration considerations
-## Additional Notes
+Finally, select **Authorize** and use your Dynamics credentials that you use to sign into your Connected Field Service environment, which may be different than your Azure credentials to the Azure portal.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/cfs-iothub-api-connection-authorize.png)
+
+Congratulations! You are now ready to pass data between Azure IoTHub and Dynamics to use Connected Field Service.
