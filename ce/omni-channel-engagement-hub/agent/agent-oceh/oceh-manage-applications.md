@@ -19,6 +19,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
+The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called the Anchor tab.
+
+The Application tab has a **+** icon. If you select the icon, the sitemap is available as a context menu. The sitemap shows the out-of-box and custom entities. You press **Ctrl** and select any link to open it in the application tab.
+
+> [!div class=mx-imgBorder]
+> ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
+
 In addition, you can press **CTRL** and select on a link that can open as a tab in the application tab.
 
 The sitemap displays the following record types:
