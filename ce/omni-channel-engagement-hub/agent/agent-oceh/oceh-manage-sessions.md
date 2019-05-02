@@ -50,7 +50,13 @@ Use a combination of keyboard and mouse-click gesture to start a session. You ca
 
 ### Automatically start a session using the incoming notification
 
-When you accept an incoming conversation request by selecting the **Accept** button, the session is started and the customer summary page is loaded in the Unified Interface application area.
+When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the customer summary page is loaded in the Unified Interface application area.
+
+ > [!div class=mx-imgBorder]
+ > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification")
+
+ > [!div class=mx-imgBorder]
+ > ![Session start](../../media/oceh/oceh-session-start.png "Session start")
 
 ## Work on multiple customer sessions
 
@@ -62,7 +68,10 @@ For example, you are working on a case by entering the title of the case and not
 
 ## Close a session
 
-You can close any session manually by selecting the **X** button next to the session title.
+You can close any session manually by selecting the **X** button next to the session title. When you close a session, a confirmation dialog is shown to you.
+
+    > [!div class=mx-imgBorder]
+    > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
 
 ## Mode of Session panel
 
