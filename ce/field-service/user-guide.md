@@ -79,8 +79,39 @@ The purpose of this section is to help you set up a Field Service environment an
 ### Set up an environment
 This includes deploying an environment, setting up users, and performing initial administrative actions. 
 
+[Install Field Service (web + mobile)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service)
+
+[Setup Users and Security roles](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
+
+[Perform initial configurations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
+
 ### Configure Work Order Scenario
 This includes creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
+
+[Quickstart - Create and schedule a work order](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
+
+Additionally, configuring the core Field Service scenario involves understanding resources, work orders, scheduling, and the mobile app.
+
+#### Resources
+
+[Set up Bookable Resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
+
+#### Work Orders
+[Create a Work Order](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-work-order)
+
+#### Scheduling
+![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up and use the schedule board](https://youtu.be/OXBXck9cwn4)
+
+[Universal Resource Scheduling for Field Service](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)
+
+#### Mobility
+Installation: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet
+
+Configure and customize: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/mobile-app-configuration-customization - 
+
+Get started with Microsoft Dynamics 365 for Field Service Mobile  
+
+Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service
 
 ## Configure more scenarios
 The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
