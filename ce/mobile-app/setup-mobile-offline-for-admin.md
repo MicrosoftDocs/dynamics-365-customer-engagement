@@ -28,22 +28,22 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Mobile offline allows Dynamics 365 for phones app users to interact with their data on a mobile device, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
+Mobile offline allows users of the Dynamics 365 for phones app to interact with their data on a mobile device, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
 > - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS version 13.19043.0 or greater is supported and for Android version 4.3.19043.21 or greater supported.
+> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.0 or greater is supported; for Android, version 4.3.19043.21 or greater supported.
 
-To allows users to use this feature, a Dynamics 365 administrator will need to set-up mobile offline for their organization. 
+To allows users to use this feature, a Dynamics 365 administrator will need to set up mobile offline for their organization. 
   
 This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
  
 ## Step 1: Enable entities for mobile offline synchronization 
  
-One of the first things that you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
+One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-•	The following entities are available in offline mode:  
+The following entities are available in offline mode:  
   
 - Account  
 
@@ -90,12 +90,11 @@ One of the first things that you need to do is enable entities that will be avai
 - User  
 
   > [!NOTE] 
-  > -   You can disable any of these above entities for offline or enable any entity from supported list for offline. Follow the steps below to enable or disable an entity. 
+  > You can disable any of the above entities for offline or enable any entity from a supported list for offline. Follow the steps below to enable or disable an entity. 
 
-To enable more entities for offline, follow the steps below.
+To enable more entities for offline:
   
-  
-1.  In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings > Customizations**.  
+1.  In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings** > **Customizations**.  
   
 2.  Select **Customize the System**.  
   
@@ -107,18 +106,18 @@ To enable more entities for offline, follow the steps below.
  
 6.  Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
   
-The entities that are enabled for mobile offline by default have **Modified On** set for **Last X Days** = 10, so the data modified or created in the last 10 days will be available for downloading to mobile devices.  
+    The entities that are enabled for mobile offline by default have **Modified On** set for **Last X Days** = 10, so the data modified or created in the last 10 days will be available for downloading to mobile devices.  
   
 7.  Select **Save**.  
   
 8.  When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
 
 > [!WARNING]
->  Keep in mind that the amount of data you make available to users while they’re offline can affect the data usage rates for devices on cellular networks. The amount of data depends on:  
+> Keep in mind that the amount of data you make available to users while they’re offline can affect the data usage rates for devices on cellular networks. The amount of data depends on:  
 >   
-> -   The number of entities you enable for mobile offline  
-> -   The number of days you specify since records were last modified  
-> -   The filters you set while creating mobile offline profiles  
+> -   The number of entities you enable for mobile offline.  
+> -   The number of days you specify since records were last modified.  
+> -   The filters you set while creating mobile offline profiles.  
  
 ## Step 2: Create a mobile offline profile to determine what data will be available while offline
  
@@ -138,17 +137,17 @@ You need to create mobile offline profiles for users to configure filters that d
   
 4.  Enter a name and description for your mobile offline profile.  
 
- ![Name your Mobile Offline Profile](media/namemobileofflineprofile.png "Name your Mobile Offline Profile")
+ ![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
   
-5.  Select **Save** to create the mobile offline profile so you can continue editing it.  
+5.  Select **Save** to create the mobile offline profile so you can continue to edit it.  
   
 6.  In the **Mobile Offline Profile Item Details** area, select **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
- ![Enter Mobile Offline Profile Item Details](media/itemdetails.png "Enter Mobile Offline Profile Item Details")
+ ![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
   
 7.  Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
 
- ![Enter Mobile Offline Profile Item Name](media/profileitemname.png "Enter Profile Item name")
+ ![Enter Mobile Offline Profile Item name](media/profileitemname.png "Enter Profile Item name")
  
 
  
@@ -235,24 +234,24 @@ Admins can define a custom filter based on the following rules. You can create f
   
     When you’re done adding mobile offline profile item associations to the mobile offline profile item, select **Save & Close** at the top of the **Mobile Offline Profile Item** screen.  
   
-13. When you’re done adding mobile offline profile item details to the mobile offline profile item, select the **Save** button at the bottom right corner of the **Mobile Offline Profile Item** window.  
+13. When you’re done adding mobile offline profile item details to the mobile offline profile item, select **Save** at the lower right corner of the **Mobile Offline Profile Item** window.  
  
 ### Step 2.1: Add users to a mobile offline profile 
 
 Once you have created a mobile offline profile, you can start adding users to the profile.  
   
 > [!NOTE]
->  You can add a user to only one mobile offline profile.  
+> You can add a user to only one mobile offline profile.  
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
   
 2.  In the **Users** area, select **+** to add a new user.  
 
-  ![Add a user](media/adduser.png "add a user")
+  ![Add a user](media/adduser.png "Add a user")
   
 3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
   
-4.  When you’re done adding users, choose the **Save** button in the bottom right corner of the **Mobile Offline Profile** window.  
+4.  When you’re done adding users, select **Save** in the lower right corner of the **Mobile Offline Profile** window.  
 
 ### Step 2.2: Publish a mobile offline profile
 
@@ -267,7 +266,7 @@ To make a mobile offline profile available to users so they can get the mobile o
 > [!TIP]
 > **Solution export and import**  
 >   
->  When exporting a solution that includes mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
+>  When exporting a solution that includes a mobile offline profile, always select the **Include entity metadata** check box for each entity you export.  
 >   
 >  After importing the solution into the target organization, publish all mobile offline profiles.  
 
@@ -277,17 +276,17 @@ To make a mobile offline profile available to users so they can get the mobile o
 
 When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
 
-- Select **No** - Conflict detection for mobile offline is turned off - so whatever changes are made by a user in offline mode are automatically synced to the server when the user is back online, and client wins over server.
+- Select **No** - Conflict detection for mobile offline is turned off, so whatever changes are made by a user in offline mode are automatically synced to the server when the user is back online, and client wins over server.
 
 - Select **Yes** - Server wins over client.
 
- ![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline  ")
+ ![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline")
 
-## Step 3: Enable the App Module for offline
+## Step 3: Enable the app module for offline
 
 Enable mobile offline for a specific app from MyApps page.
 
-1. In the **Dynamics 365 for Customer Engagement apps- custom** app, go to **Settings** > **My Apps**.
+1. In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings** > **My Apps**.
 
 2. From the list of published apps, select an app you want to enable for mobile offline.  
 
@@ -297,7 +296,7 @@ Enable mobile offline for a specific app from MyApps page.
 
 5. On the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a profile.
 
-   ![Enable mobile offline for the App](media/EnableMobileOffline.png "Enable mobile offline for the App")
+   ![Enable mobile offline for the app](media/EnableMobileOffline.png "Enable mobile offline for the app")
    
    > [!NOTE] 
    > -   You can add more than one profile for an app module.
@@ -310,11 +309,11 @@ Here are a few things to keep in mind about mobile offline synchronization:
   
 - Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on Azure network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
   
-- The time for initial metadata download is determined by the number of total entities in offline enabled app modules. Make sure to enable only those entities and app modules for offline that are necessary to optimize experience for end users. 
+- The time for initial metadata download is determined by the number of total entities in offline-enabled app modules. Make sure to enable only those entities and app modules for offline that are necessary to optimize the experience for end users. 
   
-- Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline enabled, for example, assuming Account is in the offline profile then an Account view that references the primary contact when Contact is not in the profile will not be available.
+- Ensure that any view that you want to work in offline doesn’t reference the entities that are not offline-enabled. For example, assuming Account is in the offline profile, then an Account view that references the primary contact when Contact is not in the profile will not be available.
 
-- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can still continue accessing data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Customer Engagement server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
+- Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can continue to access data according to their previous security privileges, but any changes they make will be validated during the synchronization to the Customer Engagement server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.
 
 - Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.
   
@@ -322,50 +321,63 @@ Here are a few things to keep in mind about mobile offline synchronization:
 ## Limitations and recommendations 
 
 ### Organization data filter 
-It is recommended to have at least one rule defined for all mobile offline enabled entity for org filters, if you are using the entities across profiles.  By default, this value is set to last 10 days for most of the offline enabled entities.
+It is recommended that you have at least one rule defined for all mobile offline-enabled entity for org filters, if you are using the entities across profiles.  By default, this value is set to last 10 days for most of the offline-enabled entities.
 
- ![Edit org data filter](media/datafilter_1.png "Edit org data filter")
+![Edit org data filter](media/datafilter_1.png "Edit org data filter")
 
 
-### Profile Filters 
+### Profile filters 
 
-**Profile Limitations**
+**Profile limitations**
 
-|Profile Details |Limitation|  
+|Profile details |Limitation|  
 |-------------|---------|  
-|User in profile|	1000|
-|Relationship defined for each entity|Maximum of 10 relationships. And Maximum of 3 many to many M:M or one to many 1:M relationship with in those 10 relationships. If any custom entities demand this scenario then revisit the data model. No Circular references or self-references is supported.|
+|User in profile|	1,000|
+|Relationship defined for each entity|Maximum of 10 relationships. And maximum of 3 many to many (M:M) or one to many (1:M) relationships within those 10 relationships. If any custom entities demand this scenario, then revisit the data model. No circular references or self-references are supported.|
 
 
-### Profile Filter Rules Recommendation 
+### Profile filter rules recommendation 
 
 Ensure that you have configured at least one of the Profile rules for each entity to download its data. 
   
 |Customization |Recommendation|  
 |-------------|---------|  
-|All Records|	If you are selecting this filter you cannot define any other filter rule.|
-|Download Related Data only|If you are selecting this filter you cannot define any other filter rule. Ensure that the entity has been define as a Profile Item Association entity also.|
-|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It recommended for a master data scenario with small data set like Country codes. |
-|Custom Data Filter |<=3 filters can be defined in the custom data filter |
+|All Records|	If you are selecting this filter, you cannot define any other filter rule.|
+|Download Related Data only|If you are selecting this filter, you cannot define any other filter rule. Ensure that the entity has been defined as a Profile Item Association entity also.|
+|Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an entity unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
+|Custom Data Filter |<=3 filters can be defined in the custom data filter. |
 
 
-### Data Volume recommendation 
+### Data volume recommendation 
+
+
+<!--Does 10k mean 10,000? If so, please change.-->
+
 
 The recommended data volume should be <= 10k records per user subscription.
 
-## Known Issues
+## Known issues
 
 **Qualify a lead**:
 
-- Users cannot see the qualify button after selecting a lead from the grid. As a workaround they can open the lead record to qualify. 
+- Users cannot see the qualify button after selecting a lead from the grid. As a workaround, they can open the lead record to qualify. 
 
-- Qualify button does show up on the lead form, if any custom status codes are added against the qualify state of the lead. 
 
-- When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. User will have to manually click “Next stage” to move to the next stage.
 
-**Disqualify a lead**: Users will not be able to disqualify a lead in mobile offline. Clicking on disqualify button from lead’s grid or from the lead form gives an error.
+<!--Is "does show up" correct, or should it be "does not show up"?-->
 
-**Close opportunity**: Users cannot close an opportunity as won or lost from mobile offline. When users click on “Close as won “or “Close as lost”, the close dialog will open but ok and cancel buttons are disabled. 
+
+- The qualify button does show up on the lead form, if any custom status codes are added against the qualify state of the lead. 
+
+- When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
+
+**Disqualify a lead**: Users will not be able to disqualify a lead in mobile offline. Clicking on the disqualify button from the lead’s grid or from the lead form gives an error.
+
+
+
+<!--Does "ok" (lowercase) match the UI? Usually it would be uppercase.-->
+
+**Close opportunity**: Users cannot close an opportunity as won or lost from mobile offline. When users click **Close as won** or **Close as lost**, the close dialog box will open but the ok and cancel buttons are disabled. 
 
 **Views** are not supported for the following entities in offline mode: 
 
@@ -391,7 +403,7 @@ The recommended data volume should be <= 10k records per user subscription.
 
 - Socialactivity
 
-Any views which have linked - entities (related entity) which are not available offline are also not supported. 
+Any views that have linked entities (related entity) that are not available offline are also not supported. 
 
 
 
