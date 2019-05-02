@@ -261,7 +261,7 @@ To make a mobile offline profile available to users so they can get the mobile o
   
 2.  When you’re done adding users and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
- ![Publish offline profile](media/publishprofile.png "Publish offline profile")
+    ![Publish offline profile](media/publishprofile.png "Publish offline profile")
   
 > [!TIP]
 > **Solution export and import**  
@@ -280,7 +280,7 @@ When there is a mismatch of data between client and server, conflict errors occu
 
 - Select **Yes** - Server wins over client.
 
- ![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline")
+  ![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline")
 
 ## Step 3: Enable the app module for offline
 
