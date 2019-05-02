@@ -127,27 +127,27 @@ You need to create mobile offline profiles for users to configure filters that d
 > -  A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode.
   
 1.  Go to Power Platform Admin Center by going to **Environments** > [select an environment] > **Settings** > **Mobile configuration**.  
- ![Mobile configuration setting screen](media/MobileConfig.png "Mobile configuration setting screen")
+    ![Mobile configuration setting screen](media/MobileConfig.png "Mobile configuration setting screen")
   
 2.  Select **Mobile Offline Profiles**.  
 
- ![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
+    ![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
 
 3.  Select **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
   
 4.  Enter a name and description for your mobile offline profile.  
 
- ![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
+    ![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
   
 5.  Select **Save** to create the mobile offline profile so you can continue to edit it.  
   
 6.  In the **Mobile Offline Profile Item Details** area, select **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
- ![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
+    ![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
   
 7.  Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
 
- ![Enter Mobile Offline Profile Item name](media/profileitemname.png "Enter Profile Item name")
+    ![Enter Mobile Offline Profile Item name](media/profileitemname.png "Enter Profile Item name")
  
 
  
