@@ -28,18 +28,30 @@ search.app:
 
 
 # Azure subscription prerequisites for CFS with IoTHub
-## Prerequisites
-> [!Note]
->
+
+When deploying and administering CFS with IoTHub, there are a few considerations and prerequisites for your Azure subscription. 
+
+**First,** CFS with IoTHub can only be deployed and administered to one Azure tenant, which should be your home (first) Azure tenant tied to your credentials.
+
+**Second,** in order to deploy and administer IotHub, you must have one of the following Azure security roles:
+
+- Owner in Role Assignments (see screenshot below)
+- For classic administrator role:
+  - Co-Administrator
+  - Service Administrator
+  - Account Administrator
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-azure-api-management.png)
+> ![Screenshot of azure security role dropdown](./media/cfs-azure-api-management-owner.png)
 
+
+As an example, if I invite a new user to administer IoTHub, he or she must have one of the four security roles above.
+
+**Third,** You will only see subscriptions that are tied to your login's **primary Active Directory**. For example, david@contoso.com will only see subscriptions from contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
+
+
+**Fourth,** your user must have permission to use the Dynamics API within the Azure Active Directory tenant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/cfs-azure-api-management-owner.png)
-
-## Configuration considerations
-## Additional Notes
-
+> ![Screenshot of CRM API access](./media/cfs-azure-api-management.png)
 
