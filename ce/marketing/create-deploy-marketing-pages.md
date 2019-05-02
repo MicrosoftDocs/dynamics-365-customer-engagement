@@ -110,7 +110,7 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] comes with a collection of sample templates to help get you started quickly. You can also save your own templates, which you might do to establish your own visual identity and quickly create new pages that conform to it.
 
-You can view, edit, and create all marketing page templates by going to **Marketing** &gt; **Lead Management** &gt; **Marketing Page Templates**. The process for creating a new template is similar to creating a new page, but you'll start from a blank slate rather than choose a template at the beginning.
+You can view, edit, and create all marketing page templates by going to **Marketing** &gt; **Templates** &gt; **Marketing Page Templates**. The process for creating a new template is similar to creating a new page, but you'll start from a blank slate rather than choose a template at the beginning.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with email, page, and form templates](email-templates.md)
 
