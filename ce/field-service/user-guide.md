@@ -25,9 +25,16 @@ search.app:
 ---
 # Field Service user guide
 
-Not sure what you're looking for? Use this guide to see a birds-eye view of the Dynamics 365 for Field Service documention. 
-
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]  
+
+Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 for Field Service resources. 
+
+## Resources
+Before we begin, here are the top places for Field Service knowledge.
+
+[Docs](../field-service/overview) - this is the website you are on now and is the application reference guide to use and configure Field Service.
+[Learn](https://docs.microsoft.com/en-us/learn/browse/?products=dynamics-field-service) - guided videos and courses to use and configure Field Service.
+[Field Service YouTube Playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)
   
 ## Overview  
  [Manage your field service operations](../field-service/overview.md)  
