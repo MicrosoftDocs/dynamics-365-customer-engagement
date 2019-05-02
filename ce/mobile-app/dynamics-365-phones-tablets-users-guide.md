@@ -404,6 +404,9 @@ the call.
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
+> [!NOTE]
+> - Mobile offline is only available for iOS and Android.
+
 When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 1. When you see the **Offline Updates Available** dialog box, choose **Update**. 
