@@ -45,13 +45,20 @@ On the application tab panel, select **+** icon that shows a context menu. The c
 Use a combination of keyboard and mouse-click gesture to start an application. You can press **Ctrl** and select on a link to open in a new application tab. The application opens in the current active session.
 
 ## Work with applications
-Every session has a application tab which is called Anchor tab. A session can have a maximum of one Anchor tab and there will no close option on the application tab. When you working on a Omni-channel conversation request, then customer summary page is the default anchor tab.
+Every session has a application tab which is called Anchor tab. A session can have a maximum of one Anchor tab and there will be no close option on the application tab. When you are working on a Omni-channel conversation request, then customer summary page is the default anchor tab.
 
 When you switch sessions or between applications in the current session, unsaved changes are not lost and you can continue to work on them.
 
 For example, you are working on a case by entering the title of the case. Before saving the form, you open an account record in a new application tab. Now, the application focus changes to the account record. However, the unsaved changes is preserved for you to continue working on the form.
 
+You can close an application tab manually by selecting the close icon on the application tab. After closing the application tab, the focus moves to the next available application tab in the left-side.
+
 You can switch between applications by selecting the application tab title.
+
+### Title of the application tab
+
+The title of the application tab will the name of the Customer Engagement entity. Third-party applications, the name appears as configured by your administrator.
+
 
 > [!div class="nextstepaction"]
 > [Next topic: View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
