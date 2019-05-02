@@ -272,7 +272,7 @@ To make a mobile offline profile available to users so they can get the mobile o
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
-- To configure conflict resolution behavior, select **Mobile Offline Settings**.
+To configure conflict resolution behavior, select **Mobile Offline Settings**.
 
 When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
 
