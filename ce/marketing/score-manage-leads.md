@@ -51,7 +51,7 @@ A typical lead-scoring model would increase a lead's score slightly in response 
 
 You can create as many scoring models as you want. If you have more than one model, all leads will be scored according to each model and you'll be able to see the score and grade for each of them.
 
-To view, edit, and create lead-scoring models, go to **Marketing** &gt; **Lead Management** &gt; **Lead Scoring Models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
+To view, edit, and create lead-scoring models, go to **Marketing** &gt; **Lead management** &gt; **Lead scoring models**. This opens a standard list view, where you can create, delete, search, sort, or filter items in the list. Select any item in the list to open it, or select **New** to create a new one.
 
 ![The lead-scoring model designer](media/lead-score-designer.png "The lead-scoring model designer")
 
