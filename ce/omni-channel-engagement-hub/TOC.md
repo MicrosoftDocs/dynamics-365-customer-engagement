@@ -16,6 +16,8 @@
 #### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 
+### [Integrate a bot](administrator/configure-bot.md)
+
 ### Channels
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
@@ -24,6 +26,7 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 #### [Configure an entity channel](administrator/create-entity-channel.md)
+#### [Configure an SMS channel](administrator/configure-sms-channel.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omni-channel.md)
