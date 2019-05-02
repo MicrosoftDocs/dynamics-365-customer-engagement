@@ -42,9 +42,22 @@ Before we begin, here are the top places for Field Service knowledge.
 
 [Forum](https://community.dynamics.com/365/fieldservice) - questions, answers, and events
 
-[Blog](https://cloudblogs.microsoft.com/dynamics365/it/) - release notes and blog posts
+[Blog](https://cloudblogs.microsoft.com/dynamics365/it/) - release notes and product team blog posts
 
-  
+
+## Understand Field Service concepts
+The purpose of this section is to understand what D365 for Field Service is and why it is valuable to customers.
+
+
+## Set up Field Service
+The purpose of this section is to help you set up a D365 for Field Service environment, set up users, and perform initial administrative actions. It will also take you through the basic scenario of creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
+
+## Configure more scenarios
+The purpose of this section is to help you explore all the features of D365 for Field Service and configure more detailed scenarios and business requirements.
+
+## Implement Field Service
+The purpose of this section is to help provide implementation guidance and best practices both technical and strategic. It also points toward extensibility and developer instructions. 
+
 ## Overview  
  [Manage your field service operations](../field-service/overview.md)  
   
