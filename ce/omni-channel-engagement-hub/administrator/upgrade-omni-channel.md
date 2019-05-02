@@ -29,22 +29,20 @@ Follow these steps to upgrade Omni-channel Engagement Hub:
     > [!div class=mx-imgBorder] 
     > ![Omni-channel users](../media/check-upgrade.png)
 
-      - When an upgrade is available </br>
-        Select the **Upgrade** button to upgrade your org to the latest version.
+    As an upgrade is available, select the **Upgrade** button to upgrade your org to the latest version.
 
-        > [!div class=mx-imgBorder] 
-        > ![Omni-channel users](../media/upgrade-oc.png)
+     > [!div class=mx-imgBorder] 
+     > ![Omni-channel users](../media/upgrade-oc.png)
 
-        The system begins the upgrade and displays the message **Omni-channel Engagement Hub upgrade is currently in  progress**.
+    The system begins the upgrade and displays the message **Omni-channel Engagement Hub upgrade is currently in  progress**.
          
-        > [!div class=mx-imgBorder] 
-        > ![Omni-channel users](../media/upgrade-progress.png)
+     > [!div class=mx-imgBorder] 
+     > ![Omni-channel users](../media/upgrade-progress.png)
 
-      - When the upgrade process is completed successfully </br>
-        Your org is upgraded to the latest version and the message **Omni-channel Engagement Hub upgrade was completed successfully** is displayed with the date.
+    When the upgrade process is completed successfully, your org is upgraded to the latest version and the message **Omni-channel Engagement Hub upgrade was completed successfully** is displayed with the date.
 
-        > [!NOTE]
-        > If the upgrade fails for one or more solutions, the system displays the message **Upgrade error**. Open the instance and select **Upgrade** to retry.
+    > [!NOTE]
+    > If the upgrade fails for one or more solutions, the system displays the message **Upgrade error**. Open the instance and select **Upgrade** to retry.
 
 ### See also
 
