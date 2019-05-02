@@ -24,21 +24,6 @@ The topic explains the known issues and limitations of Omni-channel Engagement H
 > [!Important]
 > We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience.
 
-## Communication panel not loading in Customer Service Hub app
-
-After you provision Omni-channel Engagement Hub, the communication panel doesn't load in the Customer Service Hub app.
-
-### Workaround
-
-To work around the issue, follow these steps:
-
-1. Go to `https://<orgURL>.dynamics.com/apps` and select the **Channel Integration Framework** app.
-2. Select the channel provider from the list.
-3. In the channel provider page, remove the **Customer Service Hub** app from the **Select Unified Interface apps for the Channel** form, and select **Save**.
-4. After saving, add the **Customer Service Hub** app in the **Select Unified Interface apps for the Channel** form, and select **Save**.
-
-Now, when you sign in to the Customer Service Hub app, the communication panel loads.
-
 ## Conversation does not open as session or as a form 
 When you use Omni-channel Engagement Hub with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omni-channel agent dashboard doesn't open as a session or as a form in the application management toolbar.
 
@@ -90,7 +75,16 @@ When you use Edge Process in Unified Service Desk, agents cannot open knowledge 
 After an agent creates a customer (contact/account) or case record using the quick create (+) option when in a session, it is not auto-linked to the conversation. As a workaround, the agent can search for the newly created record using omni-channel search and link it to the conversation manually.
 
 ## Authentication error for different agent credentials
-If an agent is signed in to Office 365 or Dynamics 365 through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in. 
+If an agent is signed in to Office 365 or Dynamics 365 through a different username in the browser (Internet Explorer or Edge) than the one used for USD sign-in, an authentication error is shown and the user is not allowed to sign in. As a workaround, the user should sign out from all other accounts on the browser and try signing back in.
 
 ## Transfer to queue does not show a message for the initiating agent 
 When an agent initiates a transfer, the initiating agent becomes a consulting agent without any user interface message. However, the session tab name shows the **Consult** tag because the initiating agent is added to the same conversation as a consulting agent to enable smooth transition.
+
+## Support for Notes when customer is not linked to a conversation
+You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a workaround, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
+
+## Wait time count down in notification
+When you receive notification, the wait time in the notification doesn't show the time lapse. However, the notification will timeout after the default wait time period. The default wait time is 120 seconds.
+
+## Queue support for notifications
+The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.

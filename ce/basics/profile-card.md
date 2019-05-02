@@ -74,6 +74,6 @@ Profile cards in Dynamics 365 are only enabled for browsers on a desktop/PC curr
 ### What will happen to the Skype presence integration in Unified Interface?
 When you have enabled both Skype presence and the profile card integration in Dynamics 365, you will see the profile card displayed in a lookup. All other areas referencing Skype card integration will not be affected.
 
- 
- 
- 
+> [!NOTE]
+>  The profile card in Dynamics 365 is not displayed if multi-factor authentication is turned on for Office Delve service in Azure Active Directory.
+  

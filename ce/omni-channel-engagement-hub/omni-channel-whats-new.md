@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 03/26/2019
+ms.date: 05/03/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
@@ -14,6 +14,108 @@ ms.custom:
 ---
 
 # What's new in Omni-channel Engagement Hub
+
+##  What's new in May 2019 Update
+
+This topic contains information about updates in Omni-channel Engagement Hub available in this version.
+
+## Administrator experience
+
+Upgrade Omni-channel Engagement Hub 
+Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the Manage Instances page in Dynamics 365 Admin Center.  
+To learn more, see <link>
+
+### Integrate a bot
+
+Integration of a bot built using Microsoft Bot Framework, with Omni-channel Engagement Hub helps to provide automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues. More information: <link> 
+
+### Configure an SMS channel
+
+Configure an SMS channel to connect to your customers by using text messages. Your customers can now send their queries as text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel. To enable SMS channel in your organization, you must register and create your account with TeleSign. SMS channel uses public APIs of TeleSign to send and receive text messages. More information: <link> 
+
+### Omni-channel Engagement Hub packages 
+
+- **Unified Service Desk - Omni-channel Engagement Hub - Preview - Add-on:**
+
+    Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omni-channel Engagement Hub with it. This package installs Unified Service Desk solutions with minimal configuration data for Omni-channel Engagement Hub to work with an existing Unified Service Desk in the specified Customer Engagement organization.
+
+- **Unified Service Desk - Omni-channel Engagement Hub – Preview:**
+    
+    Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data. 
+
+- **Unified Service Desk - Omni-channel Engagement Hub - Preview – Upgrade:**
+    
+    Use this sample package if you are already using Omni-channel Engagement Hub with Unified Service Desk. This package upgrades the existing Unified Service Desk solutions in the specified Customer Engagement organization to the latest version required for Omni-channel without affecting the existing configuration data.
+
+To learn more, see <link> 
+
+## Agent experience
+
+### Omni-channel Engagment Hub Agent interface
+
+The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
+
+- **Unified experience:** The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omni-channel Engagement Hub app.
+
+- **Multi-session and application management:** The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
+
+- **Single-view interface:** The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
+
+#### Key features of agent interface
+
+- **Switch between multiple sessions:**
+
+    As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omni-channel Engagement Hub, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
+
+    To learn more, see <link> 
+
+- **Enhance productivity using the application tab:**
+
+    With a simplified experience, the application tab allows you to manage the applications like KB search, advanced search, access sitemap, within the context of the customer session. This helps the agents to switch between the customer sessions with relevant customer information and context leading to higher productivity.
+    
+    To learn more, see <link>
+
+### Communication panel enhancements
+
+#### Search for consulting participants
+
+In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult. 
+To learn more, see <link>
+
+#### Search agents or queues for the transfer of a conversation request
+
+In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
+To learn more, see <link>
+
+## System customizer experience
+
+### Configure Omni-channel experience with the Add-On package
+
+When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
+
+- Omni-channel agent dashboard
+- Advanced search
+- Communication panel
+- Customer summary
+- Notifications
+- Session name information
+- Scriptlets to define the case and channel titles
+
+To learn more, see <link> 
+
+## Developer experience
+
+### Omni-channel Engagement Hub app extensibility
+
+The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-part applications to show within in the application tab menu.
+
+To learn more, see <link>.
+
+### Integrate bots
+
+Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent.
+  
+To learn more, see <link>.
 
 ##  What's new in March 2019 Update
 

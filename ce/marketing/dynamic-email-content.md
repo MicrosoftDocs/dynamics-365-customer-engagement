@@ -221,15 +221,15 @@ Conditional (if-then-else) statements display content depending on whether one o
 Conditional statements take the following form:
 
  ```Handlebars
-{{#if (<operator> <value1> <value>)}}
-      Content displayed when the expression is true
-{{else if (<operator> <value1> <value>)}}
-      Content displayed when the first expression is false and the second one is true
+{{#if (<operator> <value1> <value2>)}}
+    Content displayed when the expression is true
+{{else if (<operator> <value1> <value2>)}}
+    Content displayed when the first expression is false and the second one is true
 .
 .
 .
 {{else}}
-      <p>Content displayed when all expressions are false</p>
+    Content displayed when all expressions are false
 {{/if}}
 ```
 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs
 title: "Helper code: ServerConnection class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The ServerConnection class demonstrates how to establish a connection to the Dynamics 365 for Customer Engagement web services for the purpose of invoking web methods"
 ms.custom: 
