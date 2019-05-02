@@ -21,6 +21,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
+The session panel 
+
 > [!div class=mx-imgBorder]
 > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
 
@@ -35,7 +37,7 @@ When a session is started, the following happens:
 As an agent, you can start the sessions in two ways:
 
 - Manually start a session
-- Automatically start a session using the incoming notificaiton
+- Automatically start a session using the incoming notification
  
 When you start a session, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
 
@@ -45,14 +47,20 @@ Use a combination of keyboard and mouse click gesture to start a session. You ca
 
 > [!Tip]
 > Alternatively, from the Omni-channel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
+>
+> ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") ![Pick to start session in Open work items](../../media/oceh/oc-pick-work-item-open-work-items.png "Pick to start session in Open work items")
 
 ### Automatically start a session using the incoming notification
 
 When you accept an incoming conversation request by selecting the **Accept** button, the session is started and the customer summary page is loaded in the Unified Interface application area.
 
-## Work with multiple customer sessions
+## Work on multiple customer sessions
 
 As an agent, when you are working on a case, you get an incoming conversation request (chat), and you accept the request. This starts a new session and the customer summary page is loaded with context of the session. You can add applications such as KB Search, Open records, and any Line-of-Business applications made available in the app tab panel sitemap. You can add these applications using the gestures, sitemap, and the options in the communication panel.
+
+When you switch sessions, unsaved changes are not lost and you can continue to work on them
+
+For example, you are working on a case by entering the title of the case and not yet saved the form. Now, you get a notification about the incoming conversation and you accept the request, which leads to starting of a new session. Again, you can switch back to case session and the data entered is present for you to continue.
 
 ## Close a session
 
@@ -60,13 +68,24 @@ You can close any session manually by selecting the **X** button next to the ses
 
 ## Mode of Session panel
 
-By default, the session panel is in expanded mode and it is collapsible based on your requirement. The **Home** session is default and you can't close it. The Home session shows the default **Omni-channel Agent Dashboard**.
+By default, the session panel is in expanded mode and it is collapsible based on your requirement.
+At all times, the **Home** session is default and you can't close it. The Home session shows the default dashboard set for you by your administrator.
 
 ## Title and icon of the session
 
-By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or Case forms. After linking, the session title is automatically updated.
+- **Session Title**
 
-By default, the first two letters of the session title is displayed as the session icon.
+    By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or Case forms. After linking, the session title is automatically updated.
+
+    > [!div class=mx-imgBorder]
+    > ![Session icon](../../media/oceh/oceh-session-icon.png "Session icon")
+
+- **Session icon**
+
+    By default, the first two letters of the session title is displayed as the session icon.
+
+    > [!div class=mx-imgBorder]
+    > ![Session title](../../media/oceh/oceh-session-title.png "Session title")
 
 > [!div class="nextstepaction"]
 > [Next topic: Manage applications](oceh-manage-applications.md)
