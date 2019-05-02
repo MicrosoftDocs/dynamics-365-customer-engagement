@@ -43,7 +43,6 @@
 ## [Submit and approve time-off requests](submit-approve-time-off-requests.md)
 
 # Scheduling
-
 ## [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)
 ## [Types of scheduling](scheduling-capabilities.md)
 ## [Scheduling personas](scheduling-roles-personas.md)
@@ -51,11 +50,11 @@
 
 ## Administration and configuration
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
+### [Booking statuses](set-up-booking-statuses.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
 ### [Booking rules](set-up-booking-rules.md)
 
 ## Scheduling
-### [Booking statuses](set-up-booking-statuses.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)

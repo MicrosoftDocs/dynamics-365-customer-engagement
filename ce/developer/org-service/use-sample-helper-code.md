@@ -1,4 +1,5 @@
 ---
+redirect_url: get-started-managed-code-application-development
 title: "Use the Organization Service sample and helper code (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Some tasks that are common to all Dynamics 365 for Customer Engagement samples such as connecting to Dynamics 365 for Customer Engagement web services, registering a computing device with Microsoft account and creating additional users in Active Directory and Dynamics 365 for Customer Engagement (online) Customer Engagement are done using the sample helper code available in Developers Guide for Dynamics 365 for Customer Engagement (SDK)."
 ms.custom: 

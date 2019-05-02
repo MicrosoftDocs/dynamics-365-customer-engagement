@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/impersonate-another-user
 title: "Sample: Impersonate using the ActOnBehalfOf privilege (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to impersonate another user by setting the CallerId property of the organization web service proxy"
 keywords: 
