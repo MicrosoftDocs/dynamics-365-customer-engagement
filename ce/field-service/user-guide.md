@@ -74,10 +74,16 @@ The purpose of this section is to understand what D365 for Field Service is and 
 ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
 
 ## Set up Field Service
-The purpose of this section is to help you set up a D365 for Field Service environment, set up users, and perform initial administrative actions. It will also take you through the basic scenario of creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
+The purpose of this section is to help you set up a Field Service environment and configure the core Field Service scenario.  
+
+### Set up an environment
+This includes deploying an environment, setting up users, and performing initial administrative actions. 
+
+### Configure Work Order Scenario
+This includes creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
 
 ## Configure more scenarios
-The purpose of this section is to help you explore all the features of D365 for Field Service and configure more detailed scenarios and business requirements.
+The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
 
 ## Implement Field Service
 The purpose of this section is to help provide implementation guidance and best practices both technical and strategic. It also points toward extensibility and developer instructions. 
