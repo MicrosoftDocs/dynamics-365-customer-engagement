@@ -35,7 +35,7 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
 -   An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write, or Append.  
   
-## Owner/Group team or access team? 
+## Owner/group team or access team? 
 
 Choosing the type of the team may depend on the goals, nature of the project, and even the size of your organization. There are a few guidelines that you can use when choosing the team type. 
 
@@ -113,39 +113,39 @@ Applies to Common Data Service
 
 ### Using Azure Active Directory groups to manage user’s app and data access 
 
-The administration of app and data access for Dynamics 365 for Customer Engagement and Common Data Service (CDS) has been extended to allow administrators to use their organization Azure Active Directory (Azure AD) groups to manage access rights for licensed Customer Engagement and CDS users.  Both types of Azure AD groups – Office and Security - can be used to secure user access rights.  Using groups lets the administrators assign a security role with its respective privileges to all the members of the group, instead of having to provide the access rights to  an individual team member. 
+The administration of app and data access for Microsoft Dynamics 365 for Customer Engagement and Common Data Service has been extended to allow administrators to use their organization’s Azure Active Directory (Azure AD) groups to manage access rights for licensed Customer Engagement and Common Data Service users.Both types of Azure AD groups—Office and Security—can be used to secure user-access rights. Using groups lets administrators assign a security role with its respective privileges to all the members of the group, instead of having to provide the access rights to an individual team member.
 
-The administrator can create Azure AD Group teams that are associated to the Azure AD groups in each of the Customer Engagement and Common Data Service environments and assign a security role to these group teams.  When members of these group teams access these environments, their access rights are automatically granted based on the Group Team’s security role. 
+The administrator can create Azure AD group teams that are associated to the Azure AD groups in each of the Customer Engagement and Common Data Service environments and assign a security role to these group teams. When members of these group teams access these environments, their access rights are automatically granted based on the group team’s security role.
 
-#### Provision and de-provision of users 
+#### Provision and deprovision of users 
 
-Once the Group Team and its security role is established in an environment, the user access to the environment is based on the user membership of the Azure AD groups.  When a new user is created in the tenant, all the administrator needs to do is to assign the user to the appropriate Azure AD group and a Customer Engagement and CDS license. The user can immediately access the environment without the need to wait for the administrator to assign a security role. 
+Once the group team and its security role is established in an environment, user access to the environment is based on the user membership of the Azure AD groups. When a new user is created in the tenant, all the administrator needs to do is assign the user to the appropriate Azure AD group, and assign Customer Engagement and Common Data Service licenses. The user can immediately access the environment without the need to wait for the administrator to assign a security role.
 
-When users are deleted/disabled in Azure AD or removed from the Azure AD groups, they will lose their group membership and won’t be able to access the environment when they try to sign in.  
+When users are deleted/disabled in Azure AD or removed from the Azure AD groups, they lose their group membership and won’t be able to access the environment when they try to sign in.  
 
-#### Remove user access at run-time 
+#### Remove user access at run time 
 
-When a user is removed from the Azure AD groups by an administrator, the user will be removed from the Group team and will lose their access rights the next time they access the environment.  User’s Azure AD Group and Customer Engagement Group teams memberships are synchronized and the user’s access rights are dynamically derived at run-time.  
+When a user is removed from the Azure AD groups by an administrator, the user is removed from the group team, and they lose their access rights the next time they access the environment. The memberships for the user’s Azure AD groups and Customer Engagement group teams are synchronized, and the user’s access rights are dynamically derived at run time.
 
 #### Administer user security role 
 
-Administrators will no longer have to wait for the user to sync to the environment and assign a security role to the user individually by using Azure AD group team.  Once a group team is established and created in an environment with a security role, any licensed Customer Engagement and CDS users who are added to the Azure AD group can immediately access the environment.  
+Administrators no longer have to wait for the user to sync to the environment and then to assign a security role to the user individually by using Azure AD group teams. Once a group team is established and created in an environment with a security role, any licensed Customer Engagement and Common Data Service users who are added to the Azure AD group can immediately access the environment. 
 
 #### Lock down user access to environments 
 
-Administrators can continue to use an Azure AD security group to lock down the list of users synced to an environment.  This can be further reinforced by using Azure AD Group teams.  To lock-down environment/app access to restricted environments, the administrator can create separate Azure AD groups for each environment and assign the appropriate security role for these groups.  Only these Azure AD group team members have the access rights to the environment. 
+Administrators can continue to use an Azure AD security group to lock down the list of users synced to an environment. This can be further reinforced by using Azure AD group teams. To lock down environment or app access to restricted environments, the administrator can create separate Azure AD groups for each environment and assign the appropriate security role for these groups. Only these Azure AD group team members have the access rights to the environment.
 
 #### Share PowerApps to team members of Azure AD group 
 
-When canvas and model-driven apps are shared to Azure AD group team, team members of the group team can immediately run the apps.   
+When canvas and model-driven apps are shared to an Azure AD group team, team members can immediately run the apps.
 
-#### User or team owned records 
+#### User-owned and team-owned records 
 
-A new property has been added to the Security role definition to provide special team privileges when the role is assigned to group teams.  This type of Security role allows team members to be granted User/Basic level privileges as if the security role is directly assigned to them.  Team members can create and be an owner of records without the need to have an additional security role assigned.  
+A new property has been added to the security role definition to provide special team privileges when the role is assigned to group teams. This type of security role allows team members to be granted User/Basic-level privileges as if the security role is directly assigned to them. Team members can create and be an owner of records without the need to have an additional security role assigned.
 
 A group team can own one or more records. To make a team an owner of the record, you must assign the record to the team.
 
-While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning a non-member privilege inherited security role to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
+While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges that they need to create, update, or delete user-owned records. These privileges can’t be applied by assigning a nonmember’s privilege inherited security role to a team and then adding the user to that team. If you need to provide your team members the team privileges directly, without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
 
 For more information, see [Assign a record to a user or team](../basics/assign-record-user-team.md).
 
@@ -158,7 +158,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
    - Don’t have the correct permissions? Contact your system administrator.
 
    Prerequisites:
-   1.	An Azure Active Directory (Azure AD) Group is required for each group Team.
+   1.	An Azure Active Directory (Azure AD) Group is required for each group team.
    2.	Obtain the Azure AD Group’s ObjectID from your https://portal.azure.com site.
    3.	Create a custom security role that contains privileges as per your team’s collaboration requirement.  Please see Security role [member’s inherited privileges](security-roles-privileges.md#team-members-privilege-inheritance) if you need to extend the team member's privileges directly to a user.
 
@@ -204,8 +204,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 > [!NOTE]
 > - The list of team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's Azure AD group memberships are cached upon the team member's log-in.  This means that any Azure AD group membership maintenance done on the team member in Azure AD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
-> - **Impersonate an Azure AD Group team member**. To make user impersonation calls on behalf of an Azure AD Group team member using Dynamics 365 Web services, the Group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
-
+> - **Impersonate an Azure AD group team member**. To make user impersonation calls on behalf of an Azure AD group team member using Dynamics 365 Web services, the group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
 
 ## About access teams and team templates
 
