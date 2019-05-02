@@ -23,37 +23,46 @@ topic-status: Drafting
 ---
 # Enable sales order processing integration
 
-Sales order processing integration makes it convenient to connect Dynamics 365 for Sales with an external back office order processing application. It allows a sales order created on Dynamics 365 for Sales to be submitted, upon which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 for Sales except, if submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 for Sales). 
+Sales order processing integration makes it convenient to connect Dynamics 365 for Sales with an external back-office order processing application. It allows a sales order created on Dynamics 365 for Sales to be submitted, upon which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 for Sales except if submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 for Sales). 
 
 By default, sales order processing is turned off. When sales order processing is turned off, Dynamics 365 for Sales allows invoices to be created from orders. For more information, see [Create an invoice from an order](../create-edit-invoice-sales.md). 
 
 > [!NOTE]
-> Price computation can be triggered by Dynamics 365 for Sales only if the sales entities, like Opportunity, Quote, Sales order and Invoice are editable.
+> Price computation can be triggered by Dynamics 365 for Sales only if the sales entities, like Opportunity, Quote, Sales order, and Invoice, are editable.
 
 ## Enable sales order processing integration
 
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../developer/entities/organization.md) to Yes (1).
 
+
+<!--from editor: Should there be a space between Yes and (1) above? In the table below, there is no space between them.-->
+
+
 ## What happens when sales order processing is turned on?
 
-When sales order processing is turned on,  
+When sales order processing is turned on:  
 
 - The **Create Invoice** button is not shown on the command bar of the Order records. 
 
-- Order records will support a Submit order button. Upon submitting an order, the order is marked to `Submitted` status. The order is made read-only except, if created by an integration user. For more information about `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on [SystemUser entity](../../developer/entities/systemuser.md).
+- Order records will support a Submit order button. Upon submitting an order, the order status is marked as `Submitted`. The order is made read-only except if created by an integration user. For more information about the `IsIntegrationUser` attribute, see [IsIntegrationUser attribute](../../developer/entities/systemuser.md#BKMK_IsIntegrationUser) on the [SystemUser entity](../../developer/entities/systemuser.md).
 
-The table shown below lists the conditions that need to be satisfied before price computation is executed by Dynamics 365 for Sales for various entities.
+The following table lists the conditions to be satisfied before Dynamics 365 for Sales executes price computation for various entities.
+
+
+
+<!--from editor: in the 3rd line below, should "Calculates always" be "Calculate always" like the others?-->
+
 
 |Entity name|Create|Update|Delete|Recalculate|
 |------|------|------|------|------|
 |Opportunity|Calculates always|Calculate always|NA|Calculate always|
 |Quote|Calculate always|Calculate always|NA|Calculate always|
-|Sales order|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />([IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and sales order is in submitted state) or (logged in user is an integration user)|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and sales order is in submitted state|
-|Invoice|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|
+|Sales order|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />([IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and sales order is in submitted state) or the (signed-in user is an integration user)|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the sales order is in submitted state|
+|Invoice|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|
 |Opportunity product|Calculate always|Calculate always|Calculate always|NA|
 |Quote product|Calculate always|Calculate always|Calculate always|NA|
-|Sales order product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and ( logged in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and (logged in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|NA|
-|Invoice product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and logged in user is an integration user|NA|
+|Sales order product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and (the signed-in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and (the signed-in user is an integration user or sales order is in submitted state)|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|NA|
+|Invoice product|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|NA|
 
 ## See also
 
