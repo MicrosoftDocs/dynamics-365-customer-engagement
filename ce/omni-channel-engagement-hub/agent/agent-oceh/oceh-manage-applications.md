@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a Anchor tab.
 
-The Application tab has a **+** icon. If you select the icon, a context menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omni-channel Engagement Hub app. Select the option from the list to open it in the application tab.
+The Application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omni-channel Engagement Hub app. Select the option from the list to open it in the application tab.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel Engagement Hub sitemap appears when you select + icon in the application tab](../../media/oceh/oceh-agent-interface-sitemap.png "Omni-channel Engagement Hub sitemap in the application tab")
@@ -35,10 +35,10 @@ You can open an application in the application tab panel in the following ways:
 
 ### Select the content menu + icon on the application table panel
 
-On the application tab panel, select **+** icon that shows a context menu. The context menu has a list of out-of-the-box and custom entities. Selecting an option from the context menu opens the application in the application tab panel. The application opens in the current active session.
+On the application tab panel, select **+** icon that shows a menu. The menu has a list of out-of-the-box and custom entities. Selecting an option from the menu opens the application in the application tab panel. The application opens in the current active session.
 
 > [!div class=mx-imgBorder]
-> ![App tab context menu](../../media/oceh/oceh-app-tab-select-icon.png "App tab context menu")
+> ![App tab menu](../../media/oceh/oceh-app-tab-select-icon.png "App tab menu")
 
 ### Use gestures to open an application
 

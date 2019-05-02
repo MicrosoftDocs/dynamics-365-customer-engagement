@@ -50,7 +50,7 @@ When you interact with a customer in the conversation control, you can use the *
 1. Select the KB Search option in the communication panel. The KB Search tab opens in the application tab panel.
 2. Search for the KB articles and view.
 3. Select **Send Link**. The link is displayed in the message area of the communication panel.
-4. Select **Send** button in the communication panel.
+4. Select **Send** in the communication panel.
 
 ![Search knowledge articles using the option from conversation control](../../media/oceh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
 
