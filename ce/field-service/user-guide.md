@@ -52,15 +52,11 @@ The purpose of this section is to understand what D365 for Field Service is and 
   
  [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)
 
-[![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Deliver connected customer service with Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)
+[![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JFonGXOo3ms) [Deliver connected customer service with Dynamics 365 for Field Service](https://youtu.be/JFonGXOo3ms)
 
+[![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JG1JAbwWAwU) [Transform field service with Microsoft Dynamics 365](https://youtu.be/JG1JAbwWAwU)
 
-
-[![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Transform field service with Microsoft Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=786689)
-
-
-
-[![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Provide proactive maintenance with Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)
+[![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 for Field Service](https://youtu.be/A1qpoi0EYWU)
 
   
 
