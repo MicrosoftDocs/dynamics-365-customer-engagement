@@ -2,7 +2,7 @@
 title: "Search and open records on an incoming conversation | MicrosoftDocs"
 description: "Read how you can use the Channel Integration Framework APIs to search and open records on an incoming conversation."
 keywords: ""
-ms.date: 04/17/2019
+ms.date: 05/02/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -34,8 +34,161 @@ In this tutorial, we demonstrate how you can search and open records in Dynamics
 1. Open the basic widget you created using the steps mentioned in [Getting started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below.
 
-```html
+The sample given below covers four scenarios:
 
+1. A customer calls and his/her contact number matches one record in Dynamics 365. The record is retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+2. A customer calls and his/her contact number matches multiple records of same entity type in Dynamics 365. The records are retrieved using the [searchAndOpenRecords](reference/microsoft-ciframework/searchAndOpenRecords.md) API.
+3. A customer calls and his/her contact number matches multiple records of multiple entity types in Dynamics 365. The Account entity and Contact entity records are searched for the contact number of the incoming call and then, the search results are displayed on the console.
+4. A customer calls and his/her contact number does not match any record in Dynamics 365, so we search and open empty results and then, create a new record for the customer using the [createRecord](reference/microsoft-ciframework/createRecord.md) API.
+
+
+```html
+<!DOCTYPE html>
+<style>
+    .button {
+        background-color: #4FAFCD;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        height: 85px;
+        width: 350px;
+    }
+</style>
+
+<html>
+<body>
+    <br /><br />
+    <script type="text/javascript" src="https://lpmars.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" data-crmurl="https://lpmars.crm.dynamics.com" data-cifid="CIFMainLibrary">
+    </script>
+    <script>
+        function singlematch() {
+            // The customer phone number matches one contact in Dynamics 365
+            // Search and screen pop to the contact
+            var contactno = "555-5555";
+            var entityname = "account";
+
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+                function success(result) {
+                    res = JSON.parse(result);
+                    console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
+                },
+                function (error) {
+                    console.log(error.message);
+                }
+            );
+            // renderSearchPage API allows you to search among the records of a particular entity type
+                Microsoft.CIFramework.renderSearchPage(entityname, contactno).then(
+                    function (success) {
+                        console.log(success);
+                    },
+                    function (error) {
+                        console.log(error);
+                    }
+                ); 
+        }
+        function multiplematchsingletype() {
+            // More than one contacts are matched with same phone number
+            // Search and show search results , then user selects one of the records, associate a record with the phone call
+            var contactno = "555-5555";
+            var entityname = "account";
+
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+                function success(result) {
+                    res = JSON.parse(result);
+                    console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
+                },
+                function (error) {
+                    console.log(error.message);
+                }
+            );
+        }
+
+        function multiplematchmultipletype() {
+            // More than one type of records are matched with the same phone number - account/contact
+            // search and show search results , then user selects one of the records, associate a record with the phone call
+            var contactno = "555-5555";
+
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+                function success(result) {
+                    res = JSON.parse(result);
+                    console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
+                },
+                function (error) {
+                    console.log(error.message);
+                }
+            );
+
+            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+                function success(result) {
+                    res = JSON.parse(result);
+                    console.log(`Record values: Name: ${res[0].fullname}, Telephone number: ${res[0].telephone1}`);
+                },
+                function (error) {
+                    console.log(error.message);
+                }
+            );
+        }
+        function nomatch() {
+            // search and show empty search results
+            // create new contact
+            // associate new contact to session
+            var contactno = "5510239395-5555";
+            var entityname = "account";
+
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+                function success(result) {
+                    res = JSON.parse(result);
+                    console.log(res);
+                    if (res[0].name == null) {
+                        console.log("No records");
+                        // Creating new Account record
+                        var entityLogicalName = "account";
+                        var data = {
+                            "name": "Contoso Ltd.",
+                            "telephone1": "555-555"
+                        }
+                        var jsondata = JSON.stringify(data);
+
+                        Microsoft.CIFramework.createRecord(entityLogicalName, jsondata).then(
+                            function success(result) {
+                                res = JSON.parse(result);
+                                console.log("Account record created with ID: " + res.id);
+                            })
+                    }
+                    else {
+                        console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
+                    } 
+                },
+                function (error) {
+                    console.log(error.message);
+                }
+            );
+        }
+    </script>
+
+    <button class="button" type="button" onclick="singlematch()">One matching record</button><br /><br />
+    
+    <button class="button" type="button" onclick="multiplematchsingletype()">More than one matching records of same type</button><br /><br />
+    
+    <button class="button" type="button" onclick="multiplematchmultipletype()">More than one matching records of different types</button><br /><br />
+    
+    <button class="button" type="button" onclick="nomatch()">No match</button><br /><br />
+
+    
+</body>
+</html>
 ```
+
 3. Run the application in a web browser.
-4. Publish the application.
+4. Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget.
+5. Assuming the widget is already hosted using Channel Integration Framework, open your Dynamics 365 instance and test the widget.
+
+## See also
+
+[Getting started with building a simple communication widget](getting-started-simple-widget.md)

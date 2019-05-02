@@ -64,6 +64,8 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
     ![Run app in browser](media/cif-helloworld-run-browser.PNG "Run app in browser")<br />
 
+<a name="BKMK_publish"></a>
+
 ## Publish and configure the widget 
 
 1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-get-started-dotnet-framework).
