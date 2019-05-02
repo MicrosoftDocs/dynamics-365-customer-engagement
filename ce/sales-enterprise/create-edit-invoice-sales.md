@@ -2,7 +2,7 @@
 title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
-ms.date: 09/22/2017
+ms.date: 05/02/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -44,7 +44,7 @@ Typically, you convert an order into an invoice. However, you can also create an
 3. Select **Create Invoice** at the top of the screen.  
 
     > [!IMPORTANT]
-    > If Dynamics 365 for Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 for Sales to be submitted, upon which the order is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 for Sales except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](/developer/enable-sales-order-processing-integration.md)
+    > If Dynamics 365 for Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 for Sales to be submitted, upon which the order is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 for Sales except by an integration user. 
 
 4. Review the contents of the invoice and make any additions or corrections before sending to your customer.  
 
