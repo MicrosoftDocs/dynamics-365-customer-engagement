@@ -19,19 +19,42 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
+The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
 > [!div class=mx-imgBorder]
 > ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
 
-## Start and close a session
+When a session is started, the following happens:
+
+- The presence status is updated as per the configuration set by your administrator.
+- The communication panel is displayed so you can interact and exchange messages with the customer.
+- The Customer summary page is loaded with the details of customer such as contact or account name, case, conversation summary and so on.
+
+## Start a session
 
 As an agent, you can start the sessions in two ways:
 
-- **Manual:** Select **More options** (**...**) in the dashboard and select **Open** or **Pick** to start the session. Open as a session is available for **My work items** and **Open work items** streams. Pick is available in **Open work items** streams. <br>
-Also, you can press **Shift** and select on a link to open as a session. You can't use the shortcut to open any other links apart from session enabled entities.
+- Manually start a session
+- Automatically start a session using the incoming notificaiton
+ 
+When you start a session, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
 
-- **Accept incoming conversation:** Accept the incoming conversation or by selecting the work items from **Omni-channel Agent Dashboard**. After the session starts, the customer summary page is loaded in the form area.
+### Manually start a session
+
+Use a combination of keyboard and mouse click gesture to start a session. You can press **Shift** and select on a link to open as a session. You can't use the gesture to open any other link apart from Customer Engagement session enabled records.
+
+> [!Tip]
+> Alternatively, from the Omni-channel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
+
+### Automatically start a session using the incoming notification
+
+When you accept an incoming conversation request by selecting the **Accept** button, the session is started and the customer summary page is loaded in the Unified Interface application area.
+
+## Work with multiple customer sessions
+
+As an agent, when you are working on a case, you get an incoming conversation request (chat), and you accept the request. This starts a new session and the customer summary page is loaded with context of the session. You can add applications such as KB Search, Open records, and any Line-of-Business applications made available in the app tab panel sitemap. You can add these applications using the gestures, sitemap, and the options in the communication panel.
+
+## Close a session
 
 You can close any session manually by selecting the **X** button next to the session title.
 
