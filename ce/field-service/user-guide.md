@@ -48,6 +48,9 @@ Before we begin, here are the top places for Field Service knowledge.
 ## Understand Field Service concepts
 The purpose of this section is to understand what D365 for Field Service is and why it is valuable to customers.
 
+[Overview of Dynamics 365 for Field Service](../field-service/overview.md)  
+  
+ [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)  
 
 ## Set up Field Service
 The purpose of this section is to help you set up a D365 for Field Service environment, set up users, and perform initial administrative actions. It will also take you through the basic scenario of creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
@@ -58,17 +61,8 @@ The purpose of this section is to help you explore all the features of D365 for 
 ## Implement Field Service
 The purpose of this section is to help provide implementation guidance and best practices both technical and strategic. It also points toward extensibility and developer instructions. 
 
-## Overview  
- [Manage your field service operations](../field-service/overview.md)  
-  
- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)  
-  
-## Get started  
- [Find your way around Dynamics 365 for Customer Engagement](../basics/navigation-customer-engagement-enterprise.md)  
-  
-## What's new  
- [What's new in Dynamics 365 for Field Service and Project Service Automation](../field-service/whats-new-field-service-project-service.md) 
-  
+ 
+      
 ## Scheduling  
  [Configure the schedule board](../field-service/configure-schedule-board.md)  
   
@@ -77,21 +71,6 @@ The purpose of this section is to help provide implementation guidance and best 
  [Schedule a work order ](../field-service/schedule-work-order.md)  
   
  [Submit and approve time-off requests](../field-service/submit-approve-time-off-requests.md)  
-  
-## Inventory management  
- [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)  
-  
- [Create a purchase order](../field-service/create-purchase-order.md)  
-  
- [Create an inventory transfer](../field-service/create-inventory-transfer.md)  
-  
- [Create an inventory adjustment](../field-service/create-inventory-adjustment.md)  
-  
- [Process a return](../field-service/process-return.md)  
-  
- [Create a return to vendor](../field-service/create-return-vendor.md)  
-  
- [View product inventory](../field-service/view-product-inventory.md)  
-  
+   
 ## Field Service Mobile app  
  [Field Service Mobile App User’s Guide](../field-service/field-service-mobile-app-user-guide.md)  
