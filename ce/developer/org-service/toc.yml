@@ -14,6 +14,7 @@
     href: create-early-bound-entity-classes-code-generation-tool.md
   - name: Retrieve data with queries using SDK assemblies
     href: retrieve-data-queries-sdk-assemblies.md
+    items:
     - name: Retrieve records for many-to-many relationships using intersect entities
       href: retrieve-records-many-to-many-relationships-intersect-entities.md
       items:
