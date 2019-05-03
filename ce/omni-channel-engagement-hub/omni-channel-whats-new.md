@@ -88,14 +88,6 @@ More information: [Agents using Omni-channel Engagement Hub app](agent/agent-oce
 
 - **Enable a bot to escalate and end conversation**: Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent. More information: [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md).
 
-The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-party applications to show within in the application tab menu.
-
-#### Integrate bots
-
-Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent.
-  
-More information: <link>.
-
 ##  What's new in March 2019 update
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
