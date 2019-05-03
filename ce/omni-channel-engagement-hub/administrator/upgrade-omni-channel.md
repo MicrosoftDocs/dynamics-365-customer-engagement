@@ -15,38 +15,43 @@ ms.custom:
 
 # Upgrade Omni-channel Engagement Hub
 
-Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the March 2019 release of Omni-channel Engagement Hub from **Dynamics 365 Admin Center**.
+Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the **Manage Instances** page in **Dynamics 365 Admin Center**. 
 
-See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to know about the new features in the March 2019 release.
+See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to learn about the new features in the latest release.
 
-To upgrade the Omni-channel app to the latest version, upgrade the following solutions from the **Manage your solutions** section in Admin Center.
+Follow these steps to upgrade Omni-channel Engagement Hub:
 
-- Omni-channel Engagement Hub – Chat Package for Dynamics 365
-- Omni-channel Engagement Hub – Customer Service Hub
+1. Log in to the [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
 
-Follow these steps to upgrade Omni-channel app.
-
-1. Go to [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
-2. Select the **Instances** tab and navigate to your Dynamics 365 instance. 
-3. In the **Manage your solutions** section, select **Omni-channel Engagement Hub – Chat Package for Dynamics 365** from the list of solutions.
-4. Select **Upgrade** to upgrade the solution.
+2. Select **Manage Instances** and navigate to your org in the **Manage Omni-channel Instances** page. 
+3. Check for an upgrade notification for your org. 
 
     > [!div class=mx-imgBorder] 
-    > ![Upgrade Omni-channel](../media/upgrade-omnichannel.png)
+    > ![Check upgrade](../media/check-upgrade.png)
 
-    > [!NOTE]
-    > Upgrade may take up to an hour. Please wait for the installation to complete successfully.
+    As an upgrade is available, select the **Upgrade** button to upgrade your org to the latest version.
 
-5. Similarly, select **Omni-channel Engagement Hub – Customer Service Hub** from the list of solutions and select **Upgrade**.
+     > [!div class=mx-imgBorder] 
+     > ![Upgrade Omni-channel](../media/upgrade-oc.png)
+
+    The system begins the upgrade and displays the message **Omni-channel Engagement Hub upgrade is currently in  progress**.
+         
+     > [!div class=mx-imgBorder] 
+     > ![Upgrade in progress](../media/upgrade-progress.png)
+
+    When the upgrade process is completed successfully, your org is upgraded to the latest version and the message **Omni-channel Engagement Hub upgrade was completed successfully** is displayed with the date.
 
     > [!div class=mx-imgBorder] 
-    > ![Upgrade Omni-channel](../media/upgrade-csh.png)
+    > ![Upgrade complete](../media/upgrade-complete.png)
 
-    Once both the solutions are installed and the upgrade is complete,  you are now ready to use the Omni-channel app.
+
+## Upgrade Omni-channel Engagement Hub package on Unified Service Desk
+
+If you are using Omni-channel Engagement Hub on Unified Service Desk, refer [Deploy package on Dynamics 365 for Customer Engagement instance](omni-channel-engagement-hub-package.md#deploy-package-on-dynamics-365-for-customer-engagement-instance) to upgrade.
 
 ### See also
 
-[Manage updates in Dynamics 365](../../admin/manage-updates.md)
+[Enable SMS channel](omni-channel-provision-license.md#enable-sms-channel)
 
 [Pre-requisites and system requirements of Omni-channel Engagement Hub - Preview](../system-requirements-omni-channel-engagement-hub.md)
 

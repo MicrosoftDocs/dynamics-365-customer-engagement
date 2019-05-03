@@ -22,7 +22,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 The topic explains the known issues and limitations of Omni-channel Engagement Hub.
 
 > [!Important]
-> We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience.
+> We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
+
+## Upgrade doesn’t start if the organization name is changed
+
+If you change the organization name, the upgrade process doesn’t start, and an internal server error is displayed. To begin the upgrade, rename the organization to its original name.
 
 ## Conversation does not open as session or as a form 
 When you use Omni-channel Engagement Hub with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omni-channel agent dashboard doesn't open as a session or as a form in the application management toolbar.
