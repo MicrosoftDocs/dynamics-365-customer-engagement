@@ -57,7 +57,7 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 
 - **Single-view interface:** The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
 
-- **Browser support:** The app works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
+- **Operating system agnostic:** The app is agnostic operating systems and also works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
 
 #### Key features of agent interface
 
