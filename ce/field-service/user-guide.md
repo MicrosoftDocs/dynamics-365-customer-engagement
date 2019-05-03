@@ -160,7 +160,7 @@ When working through implementation scenarios, it is important to know org level
 
 [The 5 stages of scheduling adoption](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption)
 
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings
+[Schedule board tab settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings) are extremely important in implementations to get the most out of the schedule board.
 
 [Scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
 
