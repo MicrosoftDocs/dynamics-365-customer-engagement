@@ -62,7 +62,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
 > [!IMPORTANT]
 > Once your order is final, you can create an invoice from the order by selecting the **Create Invoice** button on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
-> If Dynamics 365 for Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 for Sales to be submitted, upon which the order is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 for Sales except by an integration user. 
+> If Dynamics 365 for Sales is integrated with an external order processing application, you may see the **Submit Order** button instead of the **Create Invoice** button on the Order form command bar. This is because the integration allows an order created in Dynamics 365 for Sales to be submitted, upon which the order is synced to the order processing app where the lifecycle of the order continues. A submitted order is locked for editing in Dynamics 365 for Sales except by an integration user. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable sales order processing integration](developer/enable-sales-order-processing-integration.md)
 
 
 <a name="bkmk2"></a>   
