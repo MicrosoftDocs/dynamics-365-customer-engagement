@@ -19,22 +19,22 @@ ms.custom:
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
 
-## Administrator experience
+### Administrator experience
 
-### Upgrade Omni-channel Engagement Hub 
+#### Upgrade Omni-channel Engagement Hub 
 Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the **Manage Instances** page in **Dynamics 365 Admin Center**.  
 
 More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 
-### Integrate a bot
+#### Integrate a bot
 
 Integration of a bot built using Microsoft Bot Framework, with Omni-channel Engagement Hub helps to provide automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues. More information: [Integrate a bot](administrator/configure-bot.md)
 
-### Configure an SMS channel
+#### Configure an SMS channel
 
 Configure an SMS channel to connect to your customers by using text messages. Your customers can now send their queries as text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel. To enable SMS channel in your organization, you must register and create your account with TeleSign. SMS channel uses public APIs of TeleSign to send and receive text messages. More information: [Configure an SMS channel](administrator/configure-sms-channel.md) 
 
-### Omni-channel Engagement Hub packages 
+#### Omni-channel Engagement Hub packages 
 
 - **Unified Service Desk - Omni-channel Engagement Hub - Preview - Add-on:**
 
@@ -46,9 +46,9 @@ Configure an SMS channel to connect to your customers by using text messages. Yo
 
 To learn more, see <link> 
 
-## Agent experience
+### Agent experience
 
-### Omni-channel Engagement Hub Agent interface
+#### Omni-channel Engagement Hub Agent interface
 
 The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
 
@@ -60,7 +60,7 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 
 - **Operating system agnostic:** The app is agnostic operating systems and also works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
 
-#### Key features of agent interface
+##### Key features of agent interface
 
 - **Switch between multiple sessions:**
 
@@ -74,21 +74,21 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
     
     To learn more, see <link>
 
-### Communication panel enhancements
+#### Communication panel enhancements
 
-#### Search for consulting participants
+##### Search for consulting participants
 
 In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult. 
 To learn more, see <link>
 
-#### Search agents or queues for the transfer of a conversation request
+##### Search agents or queues for the transfer of a conversation request
 
 In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
 To learn more, see <link>
 
-## System customizer experience
+### System customizer experience
 
-### Configure Omni-channel experience with the Add-On package
+#### Configure Omni-channel experience with the Add-On package
 
 When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
 
@@ -102,15 +102,15 @@ When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, 
 
 To learn more, see <link> 
 
-## Developer experience
+### Developer experience
 
-### Omni-channel Engagement Hub app extensibility
+#### Omni-channel Engagement Hub app extensibility
 
 The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-part applications to show within in the application tab menu.
 
 To learn more, see <link>.
 
-### Integrate bots
+#### Integrate bots
 
 Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent.
   
@@ -120,21 +120,21 @@ To learn more, see <link>.
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
 
-## Administrator experience
+### Administrator experience
 
-### Data masking
+#### Data masking
 
 You can block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation by using data masking. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the masking character. More information: [Create and manage data masking rules](administrator/data-masking-settings.md)
 
-### Visitor location detection
+#### Visitor location detection
 
 You can configure your chat widget to detect a visitor's location based on their latitude and longitude. If you have enabled location detection, a visitor receives a prompt in their web browser when they start to chat. If a visitor allows the location to be shared, the location is detected. Agents can then use this information to provide a personalized support experience. More information: [Set up visitor location detection](administrator/geo-location-provider.md)
 
-### Agent display name configuration
+#### Agent display name configuration
 
 To protect an agent's privacy, you can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent's identity and anonymize, choose to display the nickname. More information: [Configure agent display name](administrator/agent-display-name.md)
 
-### Simplified configuration experience for administrators
+#### Simplified configuration experience for administrators
 
 With this release, administrators can now configure varied customer experiences separately for chat and entity channels.
 
@@ -146,9 +146,9 @@ Configure context variables and routing rules in work streams to ensure that con
 
 More information: [Understand and create work streams](administrator/work-streams-introduction.md) </br>
 
-## Agent experience
+### Agent experience
 
-### Unlink a record (case, contact, and account) from a conversation
+#### Unlink a record (case, contact, and account) from a conversation
 
 You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record.
 
@@ -156,7 +156,7 @@ More information: </br>
 [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation)  
 [Unlink a record from the conversation](agent/agent-csh/csh-link-unlink-record.md#unlink-a-record-from-the-conversation)
 
-## Developer experience
+### Developer experience
 
 Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals.
 
