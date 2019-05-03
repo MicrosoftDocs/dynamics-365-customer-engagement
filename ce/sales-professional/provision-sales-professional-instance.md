@@ -1,5 +1,5 @@
 ---
-title: "Provision your Dynamics 365 for Sales Professional Environment (Dynamics 365 for Sales Professional) | MicrosoftDocs"
+title: "Provision your Dynamics 365 for Sales Professional environment (Dynamics 365 for Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 05/03/2019
@@ -17,7 +17,7 @@ ms.author: shujoshi
 manager: annbe
 ---
 
-# Provision your Dynamics 365 for Sales Professional Environment
+# Provision your Dynamics 365 for Sales Professional environment
 Congratulations on the purchase of the Sales Professional application. 
 
 Before you can start using the Sales Professional application you need to
