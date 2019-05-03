@@ -44,8 +44,6 @@ Follow these steps to upgrade Omni-channel Engagement Hub:
     > [!div class=mx-imgBorder] 
     > ![Upgrade complete](../media/upgrade-complete.png)
 
-    > [!NOTE]
-    > If the upgrade fails for one or more solutions, the system displays the message **Upgrade error**. Open the instance and select **Upgrade** to retry.
 
 ### See also
 
