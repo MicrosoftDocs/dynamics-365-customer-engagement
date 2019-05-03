@@ -120,7 +120,7 @@ Each session in the Unified Service Desk client is shown on the session tab tool
 
 ## Application management toolbar
 
-The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **My Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
+The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **Omni-channel Agent Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
 > [!div class=mx-imgBorder]
 > ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
@@ -131,7 +131,7 @@ The application management toolbar lets you see all the related information for 
 ## See also
 
 - [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [View notifications and screen pops](notifications-screen-pop.md)
+- [View alert and toast notifications](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
