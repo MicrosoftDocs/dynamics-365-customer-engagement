@@ -116,14 +116,10 @@ Additionally, configuring the core Field Service scenario involves understanding
 ## Configure more scenarios
 The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
 
-Start with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/implementing-dyn365-field-service/) that shows an administrative view of the previous work order scenario to create products, services, incidents and other core work order attributes.  
-
-Administration https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup
-
-
+Start with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/implementing-dyn365-field-service/) that shows an administrative view of the previous work order scenario to create products, services, incidents and other core work order entities.  
 
 ### Scheduling
-Learn Videos: https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/
+Next, dive into configuring the schedule board and exploring other scheduling capabilities such as crews, facilities, and pools with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/)
 
 ### Agreements, assets & inventory
 https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements
