@@ -40,11 +40,11 @@ Using Bing Maps API by default, Dynamics 365 for Field Service calculates the dr
 In this topic, we will explore how travel time and distance are calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with Resource Scheduling Optimization (RSO).
 
 ## Prerequisites
-1. Connect your Dynamics 365 environment to Bing Maps. For more information, see [our topic on setting this up](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling). This allows you to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
+1. Connect your Dynamics 365 environment to Bing Maps. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling). This allows you to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
    
-2. Set auto geo code addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
+2. Set auto geo code addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
-3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geo coded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](./set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
+3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geo coded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](./set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
 4. Understand that only requirements where **Work Location = Onsite** and have **latitude and longitude values** are eligible for travel time calculations. 
 
@@ -163,7 +163,7 @@ In the following screenshot, the work location is location agnostic and no trave
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking a location agnostic requirement with no travel time](./media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
-## Add travel time with resource scheduling optimization (RSO)
+## Add travel time with Resource Scheduling Optimization
 
 While the schedule assistant can help dispatchers make better scheduling decisions for individual requirements, Resource Scheduling Optimization (RSO) helps dispatchers make smarter scheduling decisions across many or all requirements at once. In regards to travel, this is the difference between reducing travel times and distances and **minimizing** them. 
 
@@ -196,14 +196,14 @@ To help with scheduling decisions, current traffic patterns and accidents can be
 
 Scheduling based on real-time traffic is generally not applicable since most organizations schedule days or weeks in advance and you cannot predict real time traffic ahead of time. 
 
-Bing Maps and other mapping providers can provide real-time and historical travel time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/en-us/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate if the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
+Bing Maps and other mapping providers can provide real-time and historical travel time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate if the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
 If a field technician begins travel to his or her next work order and sees the travel time is much longer than estimated by the system, then he or she should indicate this with a custom booking status of "running late" so dispatchers can plan accordingly. 
 
 ## Configuration considerations
 
 - By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
-- A field technician's current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing) for more details.
+- A field technician's current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing) for more details.
 - Field Service uses the Bing Maps API for travel time and distance calculations, but other APIs such as Google Maps can be utilized as well.
 - By default, work order requirements have a work location of **Onsite**, but default work location can be edited for each scheduleable entity by going to **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >** then double-clicking an **Enabled Entity**.  
 
