@@ -30,12 +30,12 @@ The Application tab has a **+** icon. If you select the icon, a menu  appears th
 
 You can open an application in the application tab panel in the following ways:
 
-- Select the content menu **+** icon on the application table panel.
+- Use the application tab menu
 - Use gestures.
 
-### Select the content menu + icon on the application table panel
+### Use the application tab menu
 
-On the application tab panel, select **+** icon that shows a menu. The menu has a list of out-of-the-box and custom entities. Selecting an option from the menu opens the application in the application tab panel. The application opens in the current active session.
+On the application tab panel, select **+** icon to view the menu that has a list of out-of-the-box and custom entities. Selecting an option from the menu opens the application in the application tab panel. The application opens in the current active session.
 
 > [!div class=mx-imgBorder]
 > ![App tab menu](../../media/oceh/oceh-app-tab-select-icon.png "App tab menu")
