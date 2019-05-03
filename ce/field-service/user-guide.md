@@ -134,15 +134,16 @@ Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/en-us/d
 
 ### Connected Field Service
 
-Similarly, the pinnacle of work order creation is Connected Field Service that combines AzureIoT and Dynamics to analyze data streams from Internet-connected equipment and create work orders oftentimes before the customer is aware of a problem.
+Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics to analyze data streams from Internet-connected equipment and proactively create work orders oftentimes before the customer is aware of a problem.
 
-Overview: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service
+First, get an [Overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../customer-engagement/field-service/developer/connected-field-service-architecture) to better understand how Azure and Dynamics work together.
 
-CFS with IoTCentral: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview
+Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the Saas option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. In contrast, think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
 
-CFS with IoTHub: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide
 
 Learn Videos: https://docs.microsoft.com/en-us/learn/paths/working-with-connected-field-service-iot/
+
+**Pro Tip:** Combining Resource Scheduling Optimization and Connected Field Service enables an organization to proactively detect issues and schedule them to field technicians to fix them.
 
 ## Implement Field Service
 
