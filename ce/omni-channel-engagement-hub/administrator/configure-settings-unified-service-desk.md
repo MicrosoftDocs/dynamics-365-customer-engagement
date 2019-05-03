@@ -21,10 +21,6 @@ The topic explains the recommended settings for Unified Service Desk.
 
 The Chrome Process is used to host web applications in Unified Service Desk client application. More information: [Use Chrome Process to host web applications in Unified Serivce Desk (Preview)](/dynamics365/customer-engagement/unified-service-desk/chrome-process)
 
-## Set up Edge Process with Unified Service Desk
-
-The Edge Process is used to host web applications in Unified Service Desk client application. More information: [Use Edge Process to host web applications in Unified Serivce Desk (Preview)](/dynamics365/customer-engagement/unified-service-desk/edge-process)
-
 ## Set up Unified Service Desk recommended settings for Internet Explorer
 
 The Internet Explorer process is used to host web applications in Unified Service Desk client application. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
