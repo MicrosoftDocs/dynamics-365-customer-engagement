@@ -27,11 +27,11 @@ To learn more, see <link>
 
 ### Integrate a bot
 
-Integration of a bot built using Microsoft Bot Framework, with Omni-channel Engagement Hub helps to provide automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues. More information: <link> 
+Integration of a bot built using Microsoft Bot Framework, with Omni-channel Engagement Hub helps to provide automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues. More information: [Integrate a bot](administrator/configure-bot.md)
 
 ### Configure an SMS channel
 
-Configure an SMS channel to connect to your customers by using text messages. Your customers can now send their queries as text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel. To enable SMS channel in your organization, you must register and create your account with TeleSign. SMS channel uses public APIs of TeleSign to send and receive text messages. More information: <link> 
+Configure an SMS channel to connect to your customers by using text messages. Your customers can now send their queries as text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel. To enable SMS channel in your organization, you must register and create your account with TeleSign. SMS channel uses public APIs of TeleSign to send and receive text messages. More information: [Configure an SMS channel](administrator/configure-sms-channel.md) 
 
 ### Omni-channel Engagement Hub packages 
 
