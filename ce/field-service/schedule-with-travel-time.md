@@ -1,5 +1,5 @@
 ---
-title: "Schedule with travel time | MicrosoftDocs"
+title: "Schedule with travel time and distance | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 05/03/2019
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# Schedule with travel time
+# Schedule with travel time and distance
 
 Field Service organizations often perform preventative maintenance, inspections, repairs, and other types of service by sending field technicians to multiple customer sites, and must actively manage locations and routes. This makes understanding and minimizing travel time critical for a field service organization's success.
 
