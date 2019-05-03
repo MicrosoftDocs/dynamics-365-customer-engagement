@@ -116,35 +116,59 @@ Additionally, configuring the core Field Service scenario involves understanding
 ## Configure more scenarios
 The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
 
-		○ Learn Videos: https://docs.microsoft.com/en-us/learn/paths/implementing-dyn365-field-service/
-		○ Administration
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-default-settings
-		○ Scheduling
-			• Learn Videos: https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/
-		○ Agreements, assets & inventory
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-warehouse
-		○ Resource Scheduling Optimization
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/rso-overview
-		○ Connected Field Service
-			• Overview: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service
-			• CFS with IoTCentral: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview
-			• CFS with IoTHub: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide
+Start with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/implementing-dyn365-field-service/) that shows an administrative view of the previous work order scenario to create products, services, incidents and other core work order attributes.  
+
+Administration https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup
+
+
+
+### Scheduling
+Learn Videos: https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/
+
+### Agreements, assets & inventory
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements
+
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets
+
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-warehouse
+
+### Resource Scheduling Optimization
+
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/rso-overview
+
+### Connected Field Service
+
+Overview: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service
+
+CFS with IoTCentral: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview
+
+CFS with IoTHub: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide
+
 Learn Videos: https://docs.microsoft.com/en-us/learn/paths/working-with-connected-field-service-iot/
 
 ## Implement Field Service
+
 The purpose of this section is to help provide implementation guidance and best practices both technical and strategic. It also points toward extensibility and developer instructions. 
 
-		○ Scheduling best practices
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption
-			• https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings
-		○ Scheduling extensibility: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes
-		○ Deployment best practices Microsoft Dynamics 365 for Field Service: Deployment best practices - BRK2478
-		○ Release Notes: https://docs.microsoft.com/en-us/business-applications-release-notes/
-		○ Version history: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history
+Adminsitration
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-default-settings 
+
+Scheduling best practice
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities
+
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas
+
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption
+
+https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings
+
+Scheduling extensibility: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes
+
+Deployment best practices Microsoft Dynamics 365 for Field Service: Deployment best practices - BRK2478
+
+Release Notes: https://docs.microsoft.com/en-us/business-applications-release-notes/
+
+Version history: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history
+
 AppSource Add-ins: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins
   
