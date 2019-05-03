@@ -29,22 +29,9 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ before you can use them in your live marketing initiatives. The go-live process takes a record you are working with on your application server (such as an email message or customer journey), checks it for errors, prepares it for use, and moves the result to one of the external services used by [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] to process data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
+Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ with a record before you can it them in your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
 
-Once a record is live, the version you have on your application server (the version you can open and edit in the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] UI), is just a local representation of a live process running on an external service. Some types of entities require the live process to be stopped before you can edit them, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
-
-The following table lists all entities that have a go-live function and which services they are published to.
-
-| Entity | Live service |
-| --- | --- |
-| Marketing email messages | Marketing services |
-| Customer journeys | Marketing services |
-| Content settings | Marketing services |
-| Lead-scoring models | Customer-insights services |
-| Segments | Customer-insights services |
-| Marketing pages | Marketing services, shared with portals |
-| Marketing forms | Portals |
-| Events, sessions, and tracks | Portals |
+Some types of entities require a live records to be stopped before you can edit it, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.
 
 ## Monitor go-live status with status and status reason
 
@@ -62,14 +49,14 @@ For customer journeys, both the **Status** and a **Status reason** are managed b
 
 | Status | Status&nbsp;reason | Description |
 | --- | --- | --- |
-| Active | Draft | The journey has never been live and can be edited and saved locally without restrictions.<br><br>To publish a draft journey, open it and then choose **Go Live** on the command bar. |
-| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar. |
-| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>Thirty days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. Once a journey has expired, you can no longer edit or restart it, but until then you could extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again. |
-| Active | Live, editable | The journey is currently live, but you have chosen to edit it locally. The live journey will continue to process contacts and take other actions while you work with the local version.<br><br>Make the required changes and then choose **Save** to update the live journey automatically (after an error check) and return to the active/live state. |
+| Active | Draft | The journey has never been live and can be edited, saved, or deleted without restrictions.<br><br>To publish a draft journey, open it and then choose **Go Live** on the command bar. |
+| Active | Live | The journey is currently live. If the current date is between the journey start and end dates, then it is processing contacts. The journey will automatically go to the stopped state when its end date passes.<br><br>To stop a live journey, open it and then choose **Stop** on the command bar.<br><br>To edit a live journey without stopping it, open it and then choose **Edit** on the command bar.<br><br>You can't delete a journey while it's live. |
+| Active | Stopped | The journey was once live, and may have already processed some contacts, but is now stopped, so it won't process any more contacts or take any other actions. It may have stopped because the end date passed, or because you stopped it manually.<br><br>Thirty days after the end date, the journey will automatically change from _active/stopped_ to _inactive/expired_. Once a journey has expired, you can no longer edit or restart it, but until then you could extend the end date and restart it if needed.<br><br>While stopped, you can edit and save the journey without going live. Select **Go live** to start running the journey again.<br><br>You can delete a stopped journey even if its end date hasn't passed. |
+| Active | Live, editable | The journey is currently live, but you have chosen to edit it locally. The live journey will continue to process contacts and take other actions while you work with the local version.<br><br>Make the required changes and then choose **Save** to update the live journey automatically (after an error check) and return to the active/live state. You can't delete a journey while it's in this state.|
 | Active | Error | An error occurred while the journey was going live. This is usually a temporary issue, so you should wait a short time, then try again to go live again. |
 | Active | Going live | The journey is currently in the process of going live. |
 | Active | Stopping | The journey has been live but is currently in the process of stopping due to a stop request. |
-| Inactive | Expired | The journey end date passed at least 30 days ago, and the journey can't be restarted. |
+| Inactive | Expired | The journey end date passed at least 30 days ago, and the journey can't be restarted. You can delete expired journeys if needed. |
 
 Some customer journey settings become locked (read-only) based on the journey's status reason. Some settings become permanent after you've gone live once. The following table summarizes these effects.
 
@@ -208,7 +195,7 @@ All marketing-form settings are editable when the page has a status reason of Dr
 
 ## Events, session, and tracks go-live operations and status
 
-The event go-live functionality works a bit differently from the other entities described in this topic. When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] generates an event website for that event rather than going live with the event record itself. The generated website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the website, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
+When you publish an event, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] makes that event available to the event website. The event website displays many types of information that are defined on, and linked to, the event record. The event and all its settings remain editable even after you publish the record, and any changes you make to a published event, and its related published records, will immediately be reflected on the website too.
 
 Event sessions work similarly to the event itself, and essentially function as sub-events that, taken together, create the overall event schedule. The event website shows a schedule of sessions that belong to each event. An event can include both published and unpublished sessions, but only published sessions belonging to published events are shown on the website.
 

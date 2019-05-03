@@ -47,15 +47,15 @@ As with marketing pages, each marketing form has a type, which maps directly to 
 
 To create a new marketing form, do one of the following:
 
-- Go to **Lead Management** &gt; **Marketing Forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
+- Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-- While working on an existing marketing page design, add a form element to your design, and then select **+New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Lead Management** &gt; **Marketing Forms**.
+- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Marketing** > **Internet marketing** > **Marketing forms**.
 
 Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
-- Go to **Lead Management** &gt; **Marketing Forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
+- Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
 
 - Open a marketing page where you use the form, select the form element in the canvas, and then go to the **Properties** tab of the page designer and open it from there.
 
@@ -94,6 +94,8 @@ When you're done designing your form, select **Check for errors** and to make su
 > [!IMPORTANT]
 > Forms are nearly always intended to create or update one or more database records&mdash;especially contact or lead records. However, record creation will fail if any fields required by the database are missing when the form is submitted. When you're designing a form, always be sure to identify all of the fields required by your database, and add a form element with its **Required** check box selected for each of them. That will ensure that contacts who submit the form will get an error message if any required values are missing. If you don't do this, then form submissions may simply be ignored without informing contacts of the problem. Your database could be customized to require fields that you don't expect, so be sure to talk to your system customizer or administrator if you're not sure which fields are required. The **Check for errors** function for forms doesn't identify all of the fields required by your database, especially custom fields, so you can't depend on it to inform you of this issue. Always be sure to test your form to confirm that it creates the types of records you expect it to.
 
+<a name="form-summary"></a>
+
 ## Form summary and configuration
 
 In addition to the basic form design, each marketing-form record also includes a **Summary** tab, where you can set a few options and get more information about the form. The following settings and information are provided:
@@ -113,7 +115,7 @@ As with marketing pages themselves, marketing forms are also based on templates,
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] comes with a collection of sample form templates, and you can also save your own templates, which you might do to establish your own visual identity and quickly create new forms that conform to it.
 
-You can view, edit, and create form templates by going to **Templates** &gt; **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
+You can view, edit, and create form templates by going to **Marketing** > **Templates** > **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
 
 ## Add a form to a marketing page
 

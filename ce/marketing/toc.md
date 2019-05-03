@@ -11,6 +11,8 @@
 #### [Run the setup wizard](purchase-setup.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Transfer data between instances](transfer-data.md)
+#### [Transfer customizations between instances](transfer-solution.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
@@ -63,7 +65,6 @@
 
 #### [Tutorials for specific scenarios](advanced-tutorials.md)
 ##### [Set up lead scoring](set-up-lead-scoring.md)
-##### [Set up a subscription center](set-up-subscription-center.md)
 ##### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
 ##### [Manage images](manage-images.md)
 ##### [Track online behavior](track-online-behavior.md)
@@ -80,10 +81,12 @@
 
 ### Create marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+#### [Provide personalized page content](personalized-page-content.md)
 #### [Create marketing forms](marketing-forms.md)
 #### [Enable prefilling for forms](form-prefill.md)
-#### [Embed a form on an external website](embed-forms.md)
+#### [Integrate with landing pages on external websites](embed-forms.md)
 #### [Create input fields for forms](marketing-fields.md)
+#### [Set up a subscription center](set-up-subscription-center.md)
 
 ### Build a library of marketing content
 #### [Upload and use images and files](upload-images-files.md)
@@ -92,10 +95,12 @@
 
 ### Define market segments
 #### [Working with segments](segmentation-lists-subscriptions.md)
+#### [Segments vs. lists](segments-vs-lists.md)
 #### [Design profile-based dynamic segments](segments-profile.md)
 #### [Use the explore view](segments-explorer.md)
 #### [Design interaction-based dynamic segments](segments-interaction.md)
 #### [Define a static segment](segments-static.md)
+#### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
 #### [Market to Dynamics 365 segments on LinkedIn ](linkedin-matched-audience.md)
 
@@ -104,6 +109,7 @@
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
+#### [Create activity templates](activity-templates.md)
 
 ### Manage, score, and qualify leads
 #### [The lead lifecycle](lead-lifecycle.md)
@@ -111,12 +117,12 @@
 #### [Account-based marketing](account-based-marketing.md)
 #### [Design lead-scoring models](score-manage-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
-#### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
 #### [Open the event management work area](open-events.md)
 #### [Set up an event](set-up-event.md)
+#### [Set up session-level registration and waitlisting](session-level-registration.md)
 #### [Set up and manage an event waitlist](event-waitlist.md)
 #### [Create and manage recurring events](event-recurring.md)
 #### [Create and use event templates](event-templates.md)
@@ -132,19 +138,21 @@
 #### [Record and view financial information for events](event-financials.md)
 
 ### Engage contacts with portals and surveys
-#### [Engage customers online with portals](portals.md)
+#### [Create interactive features with or without portals](portals.md)
 #### [Create and run online surveys](surveys.md)
+
+### Marketing on social media
+#### [Schedule and post messages on social media](social-posting.md)
+#### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
+#### [Get social-listening insights](social-listening.md)
 
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
-### [Get social-listening insights](social-listening.md)
 
 ### Analyze marketing results
 #### [Analyze results to gain insights](insights.md)
 #### [Insights glossary](insights-glossary.md)
 #### [Preview: Create custom analytics with Power BI](custom-analytics.md)
-
-### [Activate and use preview features](marketing-preview-features.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
@@ -166,9 +174,7 @@
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
 #### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
-### [Basic operations on segments using code](developer/extend-segments.md)
 ### [Extend marketing forms using Client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
-

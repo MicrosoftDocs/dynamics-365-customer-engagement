@@ -23,7 +23,7 @@ You can create authentication settings to validate a signed-in customer from a d
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
 
-An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](../agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md#conversation-summary).
+An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](../agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md#conversation-summary).
 
 
 ## Create a chat authentication setting record
@@ -43,7 +43,7 @@ An agent will get a notification in the **Conversation summary** section whether
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record](../media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-custom-portal) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for a Microsoft Dynamics 365 portal](#setup-for-a-dynamics-365-for-customer-engagement-portal) section or the [Setup for portals that don't use Dynamics 365 (custom portal)](#setup-for-portals-that-dont-use-dynamics-365-for-customer-engagement-custom-portal) section later in this topic.
 
 5. Select **Save**.
 

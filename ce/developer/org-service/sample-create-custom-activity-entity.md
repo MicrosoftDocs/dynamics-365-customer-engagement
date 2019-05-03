@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/create-custom-activity
 title: "Sample: Create a custom activity entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create a custom activity entity. It uses the CreateEntityRequest message and sets the EntityMetadata.IsActivity property to true."
 ms.custom: 

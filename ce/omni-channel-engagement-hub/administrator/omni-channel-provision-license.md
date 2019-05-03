@@ -23,7 +23,7 @@ Omni-channel Engagement Hub provides a modern, customizable, high-productivity a
 
 
 > [!NOTE]
-> Before you can provison Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the pre-requisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
+> Before you can provision Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Allow sideloading of external apps in Microsoft Teams](#allow-sideloading-of-external-apps-in-microsoft-teams) and [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the pre-requisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
 
 Looking for an upgrade? See [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md) for more information.
 
@@ -108,33 +108,38 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
         > [!div class=mx-imgBorder]
         > ![select org](../media/select-org.png)
 
-      You must select the checkboxes for **Microsoft Privacy Statement** and **Terms and Conditions** to accept the terms and proceed with the set up. You can read the privacy and preview conditions by selecting them in the **Terms & Conditions** section. 
-
-        > [!div class=mx-imgBorder]
-        > ![Preview terms](../media/preview-terms.png)
-        
-      Select **Close** to close the privacy and preview conditions. 
-
+        > [!IMPORTANT]
+        > You must select the checkboxes for **Microsoft Privacy Statement** and **Terms & Conditions** to accept the terms and proceed with the set up.
+      
       Select the continue arrow ![Continue terms](../media/continue-arrow.png) to proceed.
 
-     4. Ensure that the check box to enable the **Chat** channel on your org is selected by default.
+     4. Select the check box to enable **Chat** channel on your org and select the continue arrow to proceed with the set up.
 
           > [!div class=mx-imgBorder]
           > ![enable chat](../media/enable-chat.png)
-
-          > [!NOTE]
-          > In this release, **Chat** check box is selected by default as this preview supports the set up of only the **Chat** channel. You cannot un-select the check box.</br> </br> SMS with Omni-channel Engagement Hub is currently in limited private preview. It is available to limited participants by invite only.
-   
-          Once the set up is completed successfully, you can see the **Chat** channel enabled on the **Summary** page.
-
-           > [!div class=mx-imgBorder]
-           > ![summary of set up](../media/summary-fre.png)
-
          
-On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
+        On successful set up, you can view the org and the enabled channel in the **Manage Instances** view.
+
+        > [!div class=mx-imgBorder]
+        > ![Set up complete](../media/install-complete.png)
+
+### Enable SMS channel
+
+ You can enable SMS channel after you have upgraded to the latest release of Omni-channel. To upgrade Omni-channel Engagement Hub, see [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md).
+
+ Post upgrade, go to **Manage Omni-channel instances** page and enable SMS channel by selecting the checkbox in **SMS** tab.
 
 > [!div class=mx-imgBorder]
-> ![Set up complete](../media/install-complete.png)
+> ![enable SMS](../media/enable-sms.png)
+
+> [!IMPORTANT]
+> You must select the checkbox for **SMS Preview Terms** to enable the channel. Either Chat or SMS channel must be selected to continue with the setup.
+
+Once enabled, you can see the status for both the channels on the **Summary** page.
+
+> [!div class=mx-imgBorder]
+> ![summary of set up](../media/summary-fre.png)
+
 
 ## Locate your Org ID
 

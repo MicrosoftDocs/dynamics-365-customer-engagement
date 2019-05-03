@@ -62,7 +62,7 @@ The process for using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md
 
 In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], select a record type (entity) to export to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook.
 
-For example, go to **Marketing** &gt; **Lead Management** &gt; **Leads**.
+For example, go to **Marketing** &gt; **Lead management** &gt; **Leads**.
 
 ### Step 2: Export [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data by using an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 

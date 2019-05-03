@@ -40,7 +40,7 @@ The new experience lists the entities as follows, as compared to the legacy expe
 
 |Legacy Scheduling    |New Scheduling    |
 |---------|---------|
-|Facilities/Equipment     |   Resources      |
+|Facilities/Equipment     | Facilities/Equipment, Resources      |
 |Service     |   Service,  Requirement Groups    |
 |Resource Groups     |      Resource Categories      |
 |Sites     |      Organizational Units   |
@@ -168,22 +168,30 @@ Make sure that you have the required security role or equivalent permissions.
 
 2.  Get the scheduling package.
 
-    a. Access the [Dynamics Insider Portal](http://experience.dynamics.com/insider). </br>
-    b. Log in with your Insider credentials. </br>
-    c. On the Insider home page, search for **Dynamics 365 for Customer Engagement Service Scheduling**. </br>
-    d. Select the program link in the search results and select **Join Now**. 
+    a. Access the [Dynamics Insider Portal](http://experience.dynamics.com/insider) and log in with your Insider credentials. </br>
+    b. On the Insider home page, go to [Dynamics 365 Service Scheduling](https://experience.dynamics.com/insider/campaign/?id=0faac2df-32db-e811-a96b-000d3a1bece3). </br>
+    c. Select the program link and select **Join Now**. 
     This will add you as a participant to the program. </br>
-    e. On the program page, sign-up to enable Service Scheduling on URS. The link will open a simple questionnaire and one of the questions is the instance URL; provide the URL of the instance. </br>
+    d. On the program page, sign up to enable Service Scheduling on URS. The link will open a simple questionnaire and one of the questions is the instance URL; provide the URL of the instance. </br>
     
     As we receive your details, we will enable the Service Scheduling package on your Dynamics 365 for Customer Engagement instance and you will recieve a confirmation email from Microsoft.
+
+
+    > [!NOTE]
+    > Ensure you have the required licenses to enable service scheduling on your org. More information: [What licenses do I need to enable service scheduling for my org?](service-scheduling-faq.md#what-licenses-do-i-need-to-enable-service-scheduling-for-my-org)
 
     Once you receive the email, you can access your Dynamics 365 for Customer Engagement Admin portal to install Dynamics 365 for Customer Engagement Service Scheduling on the enabled instance. 
 
 
-  
-3. Access scheduling in the Customer Service Hub sitemap.
+      After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access Scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub)
+## Access scheduling in the Customer Service Hub
+With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
+
+- Select ![change area](media/change-area-icon.png) to go to **Scheduling** and access the entity record types.
+
+  > [!div class=mx-imgBorder]
+  > ![access-service-scheduling](media/access-service-scheduling-csh.png)
 
 ## Configure entity records in the new scheduling experience
 
@@ -200,13 +208,6 @@ Make sure that you have the correct security role or equivalent permissions. Kno
 ### Migrate Service Activity
 To know how to migrate your service activity entity records from legacy to new experience by running SDK code samples, see [Migrate Service Activity entity](migrate-service-activity-entity.md).
 
-## Access scheduling in the Customer Service Hub
-With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
-
-- On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **...** to go to **Scheduling** and access the entity record types
-
-  ![access-service-scheduling](media/access-service-scheduling-csh.png)
-
 ## Understand scheduling entities
 
 Scheduling entities are grouped under the following logical groups:
@@ -218,15 +219,15 @@ Scheduling entities are grouped under the following logical groups:
 
   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
 
-- **Resource Categories** </br>
-   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
- 
-   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
-
 - **Facilities/Equipment**  </br>
    Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+
+- **Resource Categories** </br>
+   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
+ 
+   [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
 
 - **Services**  </br>
    To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. 

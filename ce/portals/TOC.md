@@ -16,6 +16,7 @@
 ## [Set up Power BI integration](set-up-power-bi-integration.md)
 ## [Restrict portal access by IP address](ip-address-restrict.md)
 ## [Use portal checker](portal-checker.md)
+## [Enable maintenance mode](enable-maintenance-mode.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
@@ -54,25 +55,6 @@
 ## [Create and run advertisements](create-run-advertisement.md)
 ## [Gather feedback by using polls](gather-feedback-poll.md)
 ## [Create and manage publishing states](publishing-states.md)
-## [Work with Liquid templates](custom-templates-dynamic-content.md)
-### [Store content by using web templates](store-content-web-templates.md)
-### [Understand Liquid operators](liquid-operators.md)
-### [Available Liquid types](liquid-types.md)
-### [Available Liquid conditional operators](liquid-conditional-operators.md)
-### [Available Liquid objects](liquid-objects.md)
-### [Available Liquid tags](liquid-tags.md)
-####  [Control flow tags](control-flow-tags.md)
-####  [Iteration tags](iteration-tags.md)
-####  [Variable tags](variable-tags.md)
-####  [Template tags](template-tags.md)
-####  [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)
-### [Available Liquid filters](liquid-filters.md)
-### [Create advanced templates](create-advanced-templates.md)
-#### [Create a custom page template](create-custom-template.md)
-#### [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
-#### [Render the entity list for a page](render-entity-list-current-page.md)
-#### [Render an RSS feed by using a custom page template](render-rss-custom-page-template.md)
-#### [Render a site header and primary navigation bar](render-site-header-primary-navigation.md)
 
 # Display data from Dynamics 365 for Customer Engagement on a portal
 ## [Create and expose portal content easily](create-expose-portal-content.md)
@@ -109,6 +91,7 @@
 ### [Subscribe to alerts](subscribe-alerts.md)
 ## [Manage blogs](manage-blogs.md)
 ## [Manage ideas](crowdsource-ideas.md)
+### [Enable content moderation on ideas](enable-idea-content-moderation.md)
 ## [Manage cases in portals](case-management.md)
 
 # Document storage in portal
@@ -116,6 +99,29 @@
 ## [Enable Azure storage](enable-azure-storage.md) 
 ### [Add the Azure Storage web resource to a form](add-web-resource.md)
 ## [Manage SharePoint documents](manage-sharepoint-documents.md)
+
+# Advance portal customizations
+## [Work with Liquid templates](custom-templates-dynamic-content.md)
+### [Store content by using web templates](store-content-web-templates.md)
+### [Understand Liquid operators](liquid-operators.md)
+### [Available Liquid types](liquid-types.md)
+### [Available Liquid conditional operators](liquid-conditional-operators.md)
+### [Available Liquid objects](liquid-objects.md)
+### [Available Liquid tags](liquid-tags.md)
+####  [Control flow tags](control-flow-tags.md)
+####  [Iteration tags](iteration-tags.md)
+####  [Variable tags](variable-tags.md)
+####  [Template tags](template-tags.md)
+####  [Dynamics 365 for Customer Engagement entity tags](dynamics-entity-tags.md)
+### [Available Liquid filters](liquid-filters.md)
+### [Create advanced templates](create-advanced-templates.md)
+#### [Create a custom page template](create-custom-template.md)
+#### [Use hybrid navigation to render page hierarchy](hybrid-navigation-render-page-hierachy.md)
+#### [Render the entity list for a page](render-entity-list-current-page.md)
+#### [Render an RSS feed by using a custom page template](render-rss-custom-page-template.md)
+#### [Render a site header and primary navigation bar](render-site-header-primary-navigation.md)
+## [OAuth 2.0 implicit grant flow](oauth-implicit-grant-flow.md)
+
 
 # Additional resources
 ## [Walkthrough: Get data on the portal](walkthrough-get-data-on-portal.md)
@@ -127,6 +133,7 @@
 ## [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ## [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
 ## [Add a Power BI report or dashboard to a webpage in portal](add-powerbi-report.md)
+## [Provision a Common Data Service starter portal](cds-portal.md)
 
 # [Best practices and common portal configuration issues](portal-faq.md)
 

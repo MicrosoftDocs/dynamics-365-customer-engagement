@@ -86,6 +86,31 @@
       "search.appverid": "met150"
     },
     "fileMetadata": {
+      "featureFlags": {
+        "**/*.md": [
+          "show_learn_banner"
+        ]
+      },
+      "learn_banner_products": {
+        "**/*.md": [
+          "dynamics-customer-engagement"
+        ],
+        "customer-service/**/*.md": [
+          "dynamics-customer-service"
+        ],
+        "field-service/**/*.md": [
+          "dynamics-field-service"
+        ],
+        "marketing/**/*.md": [
+          "dynamics-marketing"
+        ],
+        "sales-enterprise/**/*.md": [
+          "dynamics-sales"
+        ],
+        "sales-professional/**/*.md": [
+          "dynamics-sales"
+        ]
+      },
       "feedback_product_url":{
         "admin/**.*": "https://ideas.powerapps.com",
         "customize/**.*": "https://ideas.powerapps.com",
@@ -113,6 +138,7 @@
         "sales-business/**.*": "bc/toc.yml",
         "developer/**/*.*": "bc/toc.yml",
         "sales-enterprise/**.*": "bc/toc.yml",
+        "sales-professional/**.*": "bc/toc.yml",
         "social-engagement/**.*": "bc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml",
         "versium-predict/**.*": "bc/toc.yml",
@@ -195,11 +221,11 @@
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "sales-business/**.*": [
+        "sales-enterprise/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "sales-enterprise/**.*": [
+        "sales-professional/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ],

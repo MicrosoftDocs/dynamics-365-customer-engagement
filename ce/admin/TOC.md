@@ -1,5 +1,5 @@
 # [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
-# [Release history](release-history.md)
+# [What's new](release-history.md)
 # [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
@@ -98,12 +98,13 @@
 ## [Migrate Dynamics 365 for Customer Engagement to Dynamics 365 for Customer Engagement (on-premises)](migrate-online-onpremises.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
+## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
 
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
-<!-- ## [China](../admin/datacenter/about-microsoft-cloud-china.md)
-### [21Vianet support](../admin/datacenter/21vianet-support.md) -->
+## [China](../admin/datacenter/about-microsoft-cloud-china.md)
+### [21Vianet support](../admin/datacenter/21vianet-support.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
@@ -149,7 +150,7 @@
 ## [Data encryption](data-encryption.md)
 ## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
-## [Free storage space](free-storage-space.md) -->
+## [Free storage space](free-storage-space.md) 
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
@@ -209,6 +210,7 @@
 #### [Server-based SharePoint integration considerations](important-considerations-server-based-sharepoint-integration.md)
 #### [Set up](set-up-sharepoint-integration.md)
 ##### [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+##### [Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md)
 ##### [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)
 ##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)
 ##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
@@ -248,9 +250,6 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-# [Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)
-## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
-## [Enable document suggestions](enable-document-suggestions.md)
 
 # [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)

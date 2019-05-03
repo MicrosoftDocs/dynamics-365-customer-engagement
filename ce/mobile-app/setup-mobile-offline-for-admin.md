@@ -30,9 +30,11 @@ search.app:
 Mobile offline allows Dynamics 365 for phones app users to interact with their data on a mobile device, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!IMPORTANT]
+> - Mobile offline is only available for iOS and Android.
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)] 
+> - Mobile offline feature is not available in a trial account.
 
 To allows users to use this feature, a Dynamics 365 administrator will need to set-up mobile offline for their organization. 
   
@@ -144,7 +146,7 @@ You need to create mobile offline profiles for users to configure filters that d
   
 6.  In the **Mobile Offline Profile Item Details** area, select **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
- ![Enter Mobile Offline Profile Item Details](media/itemdetails.png "[Enter Mobile Offline Profile Item Details")
+ ![Enter Mobile Offline Profile Item Details](media/itemdetails.png "Enter Mobile Offline Profile Item Details")
   
 7.  Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
 
@@ -156,41 +158,41 @@ You need to create mobile offline profiles for users to configure filters that d
   
    **User or Team**  
   
-    - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
-    - **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
-    - **Other data filter**. Make only the specified records for this entity available offline.  
+   - **Other data filter**. Make only the specified records for this entity available offline.  
   
-     If you select **Other records**, you can choose from the following:  
+   If you select **Other records**, you can choose from the following:  
   
-    - **Download my records**. Make only your records available offline.  
+   - **Download my records**. Make only your records available offline.  
   
-    - **Download my team’s records**. Make your team’s records available offline.  
+   - **Download my team’s records**. Make your team’s records available offline.  
   
-    - **Download my business unit’s records**. Make your business unit’s records available offline.  
+   - **Download my business unit’s records**. Make your business unit’s records available offline.  
   
  **Organization**  
   
-    - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
-    - **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
  **Business**  
   
-    - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
-    - **All records**. Make all records for this entity available offline.  
+   - **All records**. Make all records for this entity available offline.  
   
-    - **Other records**. Make only the specified records for this entity available offline.  
+   - **Other records**. Make only the specified records for this entity available offline.  
   
-     If you select **Other records**, you can choose from the following:  
+   If you select **Other records**, you can choose from the following:  
   
-    - **Download my business unit’s records**. Make your business unit’s records available offline.  
+   - **Download my business unit’s records**. Make your business unit’s records available offline.  
   
  **None**  
   
-    - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
+   - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
     
 Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
     

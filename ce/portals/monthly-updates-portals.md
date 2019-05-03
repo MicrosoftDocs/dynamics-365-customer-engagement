@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365 for Customer Engagement."
 keywords: "portal new features, portal enhancements, portal user guide"
-ms.date: 02/08/2019
+ms.date: 04/17/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -28,6 +28,20 @@ search.app:
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps. Here's a list of recently added features. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps to date, see [portal capabilities for Microsoft Dynamics 365 for Customer Engagement Releases](https://support.microsoft.com/en-us/help/3181191).
 
+## Portal capabilities version 9.1.4 for Dynamics 365 for Customer Engagement apps
+
+Portal capabilities version 9.1.4 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
+
+- **Maintenance mode for portal**: As a portal administrator, you can now configure your portal to display a proper message to the customers whenever a maintenance activity is going on—for example, solution packages are being upgraded. More information: [Maintenance mode for a portal](enable-maintenance-mode.md)
+
+- **Enable Power BI Embedded service**: As a portal customizer, you can now embed dashboards and reports created in the new workspace of Power BI by enabling Power BI Embedded service. The dashboards and reports are embedded on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md#enable-power-bi-embedded-service)
+
+- **Enable content moderation on ideas**: As a portal administrator, you can now create a content moderation policy to moderate the ideas that are submitted on your portal. More information: [Enable content moderation on ideas](enable-idea-content-moderation.md)
+
+- **OAuth 2.0 implicit grant flow**: As a portal developer, you can now make client-side API calls to external APIs and get them secured by using OAuth 2.0 implicit grant flow. More information: [OAuth 2.0 implicit grant flow](oauth-implicit-grant-flow.md)
+
+- **Common Data Service starter portal (preview)**: As a portal administrator, you can now configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) preinstalled. More information: [Common Data Service starter portal](cds-portal.md)
+
 ## Portal capabilities version 9.1.1 for Dynamics 365 for Customer Engagement apps
 
 Portal capabilities version 9.1.1 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps brings these new updates and features:
@@ -40,7 +54,7 @@ Portal capabilities version 9.0.10 for [!INCLUDE[pn-dynamics-crm](../includes/pn
 
 - **Migrate Dynamics 365 for Customer Engagement Portal configuration**: You can now migrate your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal configuration from development to testing or the production environments. Migration involves exporting the existing configuration from the source [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, and then importing it into the target [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance. To migrate configuration data, you need to use the Configuration Migration tool and a portal-specific configuration schema file. More information: [Migrate Dynamics 365 for Customer Engagement Portal configuration](migrate-portal-configuration.md)
 
-- **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, amd tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
+- **Add Power BI visualization**: As a portal customizer, you can now embed Power BI visualizations (dashboard, reports, and tiles) on web pages in a portal by using the powerbi Liquid tag. More information: [Set up Power BI integration](set-up-power-bi-integration.md)
 
 - **Restrict portal access by IP address**: As a portal administrator, you can now define a list of IP addresses that are allowed to access your portal. When a request to the portal is generated from any user, their IP address is evaluated against the allow list. If the IP address is not on the list, the portal displays a web page with an HTTP 403 status code. More information: [Restrict portal access by IP address](ip-address-restrict.md)
 
@@ -87,12 +101,6 @@ Portal capabilities version 8.3 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dy
   > Search for attachments can only be performed on the note's description and file attachment name. The content of the attached file is not searchable.
   
 - **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and makes a subset of it available to your portal customers, based on the security and permission model you choose. More information: [Create and expose portal content easily](create-expose-portal-content.md)
-- **Portal interaction tracking (preview)**: Use this preview feature to track a customer's interaction with your portal and funnel it to [!include[](../includes/pn-customerinsight-full.md)]. This will be helpful for plotting a 360-degree view of the user’s journey on your portal before and after a case is created. This also helps you to understand the real issue, avoid asking the user for the same information over again, and enable you to respond with relevant information.
-
-<!-- 
-  > [!NOTE]
-  > The preview for this feature has ended. For more information on Microsoft Dynamics 365 for Customer Insights preview, click [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-insights/preview-retire).
--->
 
 - **Import metadata translation**: Use this feature to import the metadata translation of newly activated languages after you install a portal. More information: [Import metadata translation](manage-portal.md#import-metadata-translation)
 - **Source code availability for portals**: A one-time release of portal capabilities code is released to the Microsoft Download Center under MIT license for developers to download. This feature enables portals to be deployed to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on-premises or online environments, and allows developers to customize the code to suit their specific business needs.

@@ -1,9 +1,10 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-samples-csharp
 title: "Web API Samples (C#) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic provides a description of various Web API samples that are implemented using C#"
 ms.custom: 
 ms.date: 06/12/2018
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

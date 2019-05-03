@@ -1,9 +1,10 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/create-update-entity-definitions-using-web-api
 title: "Create and update entity definitions using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating and updating entity definitions using the Web API."
 ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

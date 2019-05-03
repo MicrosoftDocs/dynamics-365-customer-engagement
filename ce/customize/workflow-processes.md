@@ -89,7 +89,9 @@ Developers can create workflows using information in the [Dynamics 365 for Custo
  This check box reflects the option you selected when you created the workflow. This option is disabled, but you can change it from the **Actions** menu by choosing either **Convert to a real-time workflow** or **Convert to a background workflow**.  
   
  **As an on-demand process**  
- Choose this option if you want to allow users to run this workflow from the **Run Workflow** command.  
+Choose this option if you want to allow users to run this workflow manually. You can find on-demand processes under the **Run Workflow** section of the flow. 
+
+![run workflow](media/run-workflow.png)
   
  **As a child process**  
  Choose this option if you want to allow the workflow to be available to be started from another workflow.  

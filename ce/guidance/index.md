@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/
 title: "Overview of guidance content | MicrosoftDocs"
 description: "Technical guidance for developers created by the Microsoft Dynamics 365 for Customer Engagement team based on common issues and problems reported by customers. The guidance in these topics includes guidance regarding usage, design, performance, security, upgrade readiness, online migration, maintainability, and supportability. This content describes common symptoms, problematic patterns, and the potential impact of common problems as well as guidance about how to avoid them."
 ms.date: 2/8/2019

@@ -109,6 +109,8 @@ To assign a payment gateway to an event:
 
 For details about how to develop the system for receiving payment and finalizing registrations, see [Develop a system to finalize event registration](#finalize-registration) later in this topic.
 
+<a name="external"></a>
+
 ## Create a payment gateway when hosting on an external site
 
 If you are hosting the event website on your own web server, then you must download and customize the event website to include the payment option as needed. Your payment provider will give you the instructions you need to interact with their system.
@@ -137,7 +139,7 @@ Your back-end service must authenticate against your [!INCLUDE[pn-microsoftcrm](
 
 Depending on your payment provider, your back-end service may also be able to apply additional checks to the transaction. This isn't strictly required to finalize the registration, but it is good practice. If you need additional purchase details to verify the transaction, you can get the data by executing the custom action `msevtmgt_GetPurchaseDetailsAction`. It expects the input parameter `PurchaseId`, which is the ID of the temporary event registration. The output result of this custom action returns the event name, purchase amount, currency name, ISO currency code, and currency symbol.
 
-After your back-end solution has verified payment, it must invoke the `adx_FinalizeExternalRegistrationRequest` custom action against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. This custom action requires the following input parameters:
+After your back-end solution has verified payment, it must invoke the `msevtmgt_FinalizeExternalRegistrationRequest` (or `adx_FinalizeExternalRegistrationRequest` if you are using a version prior to 1.13 (April release 2019)) custom action against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. This custom action requires the following input parameters:
 
 - `PurchaseId`: The ID of the temporary event registration that was generated after the contact submitted their registration and payment details.
 - `ReadableEventId`: A value that uniquely identifies the event. One way that you can see this is by opening the relevant event record, going to the **General** tab and finding the **Readable event ID** field.

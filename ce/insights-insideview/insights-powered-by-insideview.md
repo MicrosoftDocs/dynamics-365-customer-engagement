@@ -4,14 +4,14 @@ description: ""
 keywords: ""
 ms.date: 09/30/2017
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
   - "dyn365-insightsinsideview"
 ms.topic: article
 ms.assetid: cf2feda4-7286-4d0e-aee2-790a7982a847
-author: saurabh-kudesia
-ms.author: sakudes
-manager: sakudes
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

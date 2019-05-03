@@ -1,22 +1,26 @@
 ---
 title: "Versium Predict (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.custom:
-  - dyn365-versium
+description: ""
+keywords: ""
 ms.date: 09/30/2017
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-versium"
+ms.topic: article
+applies_to:
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
+ms.assetid: 02a2310b-efb1-4418-8af6-28dc8c243f6c
+author: shubhadaj
+ms.author: shujoshi
+manager: annbe
 ms.reviewer: 
-ms.service: dynamics-365-sales
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-author: saurabh-kudesia
-ms.assetid: 02a2310b-efb1-4418-8af6-28dc8c243f6c
 caps.latest.revision: 17
-ms.author: sakudes
-manager: sakudes
 ---
+
 # Versium Predict
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

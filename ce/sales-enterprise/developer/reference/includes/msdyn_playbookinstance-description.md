@@ -1,0 +1,1 @@
+Actual instance of a playbook template once it is launched.

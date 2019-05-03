@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 03/19/2019
+ms.date: 05/03/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B5E47D77-A36D-4CA5-A817-C8BD848D93B8
@@ -22,8 +22,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 > - [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-<!--note from editor:  In below items, change "the context" to "the context provider", the wording used in other topics?  -->
-
 > [!NOTE]
 > The live chat widget SDK methods listed in this developer guide are subject to change until the live chat feature becomes generally available.
 
@@ -37,6 +35,7 @@ Omni-channel Engagement Hub live chat widget SDK provides methods that allow you
 [Manage custom context](how-to/send-context-starting-chat.md)<br />
 [Send authentication token](how-to/send-auth-token-starting-chat.md)<br />
 [Initiate a chat](how-to/initiate-chat-wait-time.md)<br />
+[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
 [JavaScript API reference for live chat SDK](omni-channel-reference.md)
 
 ### See also
