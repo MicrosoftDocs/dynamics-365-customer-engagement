@@ -167,7 +167,7 @@ https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/s
 ### Key implementation resources
 Stay up to date on new features with the [release notes](https://docs.microsoft.com/en-us/business-applications-release-notes/)
 
-Use [Version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
+Use [version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
 
 Understand [AppSource Add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
   
