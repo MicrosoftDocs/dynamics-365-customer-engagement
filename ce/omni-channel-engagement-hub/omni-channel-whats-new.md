@@ -41,11 +41,7 @@ Configure an SMS channel to connect to your customers by using text messages. Yo
 
 - **Unified Service Desk - Omni-channel Engagement Hub – Preview:**
     
-    Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data. 
-
-- **Unified Service Desk - Omni-channel Engagement Hub - Preview – Upgrade:**
-    
-    Use this sample package if you are already using Omni-channel Engagement Hub with Unified Service Desk. This package upgrades the existing Unified Service Desk solutions in the specified Customer Engagement organization to the latest version required for Omni-channel without affecting the existing configuration data.
+    Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
 To learn more, see <link> 
 
