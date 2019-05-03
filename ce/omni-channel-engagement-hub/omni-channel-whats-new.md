@@ -47,7 +47,7 @@ To learn more, see <link>
 
 ## Agent experience
 
-### Omni-channel Engagment Hub Agent interface
+### Omni-channel Engagement Hub Agent interface
 
 The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
 
