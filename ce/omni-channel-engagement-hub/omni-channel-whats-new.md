@@ -76,15 +76,13 @@ More information: [Agents using Omni-channel Engagement Hub app](agent/agent-oce
 
 - **Configure Omni-channel experience with the Add-On package**: When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
 
-    - Omni-channel agent dashboard
-    - Advanced search
-    - Communication panel
-    - Customer summary
-    - Notifications
-    - Session name information
-    - Scriptlets to define the case and channel titles
-
-    More information: <link> 
+    - [Omni-channel agent dashboard](customizer/configure-agent-dashboard.md)
+    - [Advanced search](customizer/configure-advanced-search.md)
+    - [Communication panel](customizer/configure-communication-panel.md)
+    - [Customer summary](customizer/configure-customer-summary.md)
+    - [Notifications](customizer/configure-notification-screen-pop-agents.md)
+    - [Session name information](customizer/configure-session-name-information.md)
+    - [Scriptlets to define the case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
 ### Developer experience
 
