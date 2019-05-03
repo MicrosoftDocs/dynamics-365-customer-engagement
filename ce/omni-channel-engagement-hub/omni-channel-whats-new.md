@@ -79,11 +79,13 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 ##### Search for consulting participants
 
 In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult. 
+
 More information: <link>
 
 ##### Search agents or queues for the transfer of a conversation request
 
 In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
+
 More information: <link>
 
 ### System customizer experience
