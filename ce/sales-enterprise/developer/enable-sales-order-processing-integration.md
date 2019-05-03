@@ -2,7 +2,7 @@
 title: "Enable sales order processing integration (Dynamics 365 for Sales) | MicrosoftDocs"
 description: ""
 keywords: sales, developer guide
-ms.date: 05/02/2019
+ms.date: 05/03/2019
 ms.service:
   - dynamics-365-sales
 ms.custom:
@@ -35,9 +35,6 @@ By default, sales order processing is turned off. When sales order processing is
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) attribute on the [Organization entity](../../developer/entities/organization.md) to Yes (1).
 
 
-<!--from editor: Should there be a space between Yes and (1) above? In the table below, there is no space between them.-->
-
-
 ## What happens when sales order processing is turned on?
 
 When sales order processing is turned on:  
@@ -48,14 +45,9 @@ When sales order processing is turned on:
 
 The following table lists the conditions to be satisfied before Dynamics 365 for Sales executes price computation for various entities.
 
-
-
-<!--from editor: in the 3rd line below, should "Calculates always" be "Calculate always" like the others?-->
-
-
 |Entity name|Create|Update|Delete|Recalculate|
 |------|------|------|------|------|
-|Opportunity|Calculates always|Calculate always|NA|Calculate always|
+|Opportunity|Calculate always|Calculate always|NA|Calculate always|
 |Quote|Calculate always|Calculate always|NA|Calculate always|
 |Sales order|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and sales order is in submitted state or the signed-in user is an integration user|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the sales order is in submitted state|
 |Invoice|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|NA|Calculation skips if -<br />[IsSOPIntegrationEnabled](../../developer/entities/organization.md#BKMK_IsSOPIntegrationEnabled) flag is set to Yes(1) and the signed-in user is an integration user|
