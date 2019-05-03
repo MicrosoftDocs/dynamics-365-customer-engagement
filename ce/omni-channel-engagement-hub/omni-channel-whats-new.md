@@ -41,17 +41,13 @@ Configure an SMS channel to connect to your customers by using text messages. Yo
 
 - **Unified Service Desk - Omni-channel Engagement Hub – Preview:**
     
-    Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data. 
-
-- **Unified Service Desk - Omni-channel Engagement Hub - Preview – Upgrade:**
-    
-    Use this sample package if you are already using Omni-channel Engagement Hub with Unified Service Desk. This package upgrades the existing Unified Service Desk solutions in the specified Customer Engagement organization to the latest version required for Omni-channel without affecting the existing configuration data.
+    Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
 To learn more, see <link> 
 
 ## Agent experience
 
-### Omni-channel Engagment Hub Agent interface
+### Omni-channel Engagement Hub Agent interface
 
 The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
 
@@ -60,6 +56,8 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 - **Multi-session and application management:** The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
 
 - **Single-view interface:** The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
+
+- **Browser support:** The app works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
 
 #### Key features of agent interface
 
