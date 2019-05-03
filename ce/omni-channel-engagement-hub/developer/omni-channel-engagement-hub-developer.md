@@ -22,8 +22,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 > - [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-<!--note from editor:  In below items, change "the context" to "the context provider", the wording used in other topics?  -->
-
 > [!NOTE]
 > The live chat widget SDK methods listed in this developer guide are subject to change until the live chat feature becomes generally available.
 

@@ -2,7 +2,7 @@
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "Read how a bot in Omni-channel Engagement Hub can be used to escalate a conversation to a human agent."
 keywords: ""
-ms.date: 04/30/2019
+ms.date: 05/03/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -270,6 +270,6 @@ You should consider the following points when modeling the bot agent in Omni-cha
 
 ## See also
 
-[Work with bots](../administrator/configure-bot.md)<br />
+[Integrate a bot](../administrator/configure-bot.md)<br />
 [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)<br />
 [Connect a bot to channels](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)
