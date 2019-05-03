@@ -1,7 +1,7 @@
 ---
 title: "Try Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 05/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -127,6 +127,72 @@ The following table shows what’s installed for each choice, what you see in th
 |                                                                                                 | Dynamics 365 - custom |  Full suite of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] capabilities, including administration  |      Web       |
 |                                              None                                               |                             CRM Hub                              |    Mobile-optimized app that provides core CRM functionality, including accounts, contacts, and activities (Unified Interface)     |     Mobile     |
 |                                                                                                 | Dynamics 365 - custom |  Full suite of [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] capabilities, including administration  |      Web       |
+
+## Add new users to a trial
+
+New users can follow these steps to start a trial of Customer Engagement. 
+
+The user should:
+- Not already be licensed for Customer Engagement
+- Have an Office 365 license to the Customer Engagement tenant
+
+> [!NOTE]
+> Only five users can join a trial organization and a maximum of five trial organizations can be added to the same tenant.
+
+1. Go to [https://trials.dynamics.com ](https://trials.dynamics.com )
+
+2. Select **Sign in here**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-sign-up-here.png "Sign up here")
+
+
+3. Select **Sign in**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-sign-in.png "Sign in")
+
+4. Select **Continue to trial**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-continue.png "Continue to trial sign up")
+
+5. Enter the user's email address and then select **Sign up**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-enter-email-address.png "Enter email adddress")
+
+6. Select **Sign in**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-sign-in-again.png "Sign in")
+
+7. Enter your password and select **Sign in**.
+
+8. Optionally, you can share information with partners. Select **Create**. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-almost-there.png "Create")
+
+9. Select a trial organization and then select **Join**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/trial-organization-join.png "Join")
+
+   > [!NOTE]
+   > This page shows the number of users available to join the organization. Only five users can join a trial organization and a maximum of five trial organizations can be added to the same tenant.
+
+10. Choose the Customer Engagement apps to include in the trial organization, and then select **Continue**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/trial-select-apps.png "Select apps")
+
+11. Your request is confirmed.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/trial-thank-you.png "Select apps")
+
+The trial owner will receive an email with your request. Once approved, you'll receive an email with access instructions.
 
 ### See also  
  [Onboard your organization and users to Dynamics 365 for Customer Engagement apps (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
