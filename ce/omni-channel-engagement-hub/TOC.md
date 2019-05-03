@@ -126,5 +126,3 @@
 #### [Error code reference](developer/reference/error-code-reference.md)
 
 ## [Readme](omni-channel-readme.md)
-
-## [Glossary](glossary.md)
