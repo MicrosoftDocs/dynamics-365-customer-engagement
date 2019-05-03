@@ -49,7 +49,7 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 
 |Role  |Privileges  |
 |---------|---------|
-|**Omni-channel administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+|**Omni-channel Administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
 |    |    Can edit roles of a user     |
 |    |   Can edit default presence and default capacity of a user      |
 |    |     Can edit queue assignment of a user    |
@@ -64,19 +64,19 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 |    |     Can add / edit / delete PBI config    |
 |    |    Can view add / edit / delete operating hours    |
 |    |    Can view add / edit / delete auth settings     |
-|**Omni-channel supervisor**     |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+|**Omni-channel Supervisor**     |  Can view user list / presence list / work stream list / queue list / PBI config list       |
 ||Can edit default presence and default capacity of a user|
 ||Can edit queue assignment of a user|
 || Can add / remove users from presence |
 ||Can add / remove agents from queue| 
 || Can view / add / edit / delete quick replies|
 ||Can view operating hours |
-|**Omni-channel agent**  |Can view user list / presence list / work stream list / queue list|
+|**Omni-channel Agent**  |Can view user list / presence list / work stream list / queue list|
 ||Can view quick replies|
 |||
 
-
-
+> [!NOTE]
+> Agents should be assigned **Channel Access** role in addition to Omni-channel Agent role. 
 
 
 ### See also

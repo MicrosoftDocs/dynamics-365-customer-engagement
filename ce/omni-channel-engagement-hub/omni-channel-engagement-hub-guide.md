@@ -38,7 +38,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 <li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
-<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat widget](administrator/set-up-chat-widget.md)">Configure a chat widget</a></li>
+<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat channel](administrator/set-up-chat-widget.md)">Configure a chat channel</a></li>
+<li><a href="administrator/configure-sms-channel.md" data-raw-source="[Configure an SMS channel](administrator/configure-sms-channel.md)">Configure an SMS channel</a></li>
 </td>
 </tr>
 <tr>
@@ -81,9 +82,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm a developer </h2>
 
-<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Walkthrough: Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Walkthrough: Initiate a chat</a></li>
-<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Walkthrough: Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Walkthrough: Send authentication token</a></li>
-<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Walkthrough: Manage custom context](developer/how-to/send-context-starting-chat.md)">Walkthrough: Manage custom context</a></li>
+<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Initiate a chat</a></li>
+<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Send authentication token</a></li>
+<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Manage custom context](developer/how-to/send-context-starting-chat.md)">Manage custom context</a></li>
+<li><a href="developer/bot-escalate-end-conversation.md" data-raw-source="[Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)">Enable a bot to escalate and end conversation</a></li>
 <li><a href="developer/omni-channel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omni-channel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
 </tr>
 </td>
