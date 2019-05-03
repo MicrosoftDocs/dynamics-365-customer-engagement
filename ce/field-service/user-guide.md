@@ -134,6 +134,8 @@ Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/en-us/d
 
 ### Connected Field Service
 
+Similarly, the pinnacle of work order creation is Connected Field Service that combines AzureIoT and Dynamics to analyze data streams from Internet-connected equipment and create work orders oftentimes before the customer is aware of a problem.
+
 Overview: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service
 
 CFS with IoTCentral: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview
