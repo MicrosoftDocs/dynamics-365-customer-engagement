@@ -95,7 +95,7 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 - **Simplified configuration experience for administrators**: With this release, administrators can now configure varied customer experiences separately for chat and entity channels. More information: [Configure a chat channel](administrator/set-up-chat-widget.md) and [Configure an entity channel](administrator/create-entity-channel.md)
 
-Configure context variables and routing rules in work streams to ensure that conversations are distributed to appropriate agents. More information: [Understand and create work streams](administrator/work-streams-introduction.md)
+    Configure context variables and routing rules in work streams to ensure that conversations are distributed to appropriate agents. More information: [Understand and create work streams](administrator/work-streams-introduction.md)
 
 ### Agent experience
 
