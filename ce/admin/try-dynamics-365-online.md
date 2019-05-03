@@ -130,7 +130,14 @@ The following table shows what’s installed for each choice, what you see in th
 
 ## Add new users to a trial
 
-New users can follow these steps to start a trial of Customer Engagement. The user should not already be licensed for Customer Engagement.
+New users can follow these steps to start a trial of Customer Engagement. 
+
+The user should:
+- Not already be licensed for Customer Engagement
+- Have an Office 365 license to the Customer Engagement tenant
+
+> [!NOTE]
+> Only five users can join a trial organization and a maximum of five trial organizations can be added to the same tenant.
 
 1. Go to [https://trials.dynamics.com ](https://trials.dynamics.com )
 
