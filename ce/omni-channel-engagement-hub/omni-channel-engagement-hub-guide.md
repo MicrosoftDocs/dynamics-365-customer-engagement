@@ -78,9 +78,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm a developer </h2>
 
-<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Walkthrough: Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Walkthrough: Initiate a chat</a></li>
-<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Walkthrough: Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Walkthrough: Send authentication token</a></li>
-<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Walkthrough: Manage custom context](developer/how-to/send-context-starting-chat.md)">Walkthrough: Manage custom context</a></li>
+<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Initiate a chat</a></li>
+<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Send authentication token</a></li>
+<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Manage custom context](developer/how-to/send-context-starting-chat.md)">Manage custom context</a></li>
+<li><a href="developer/bot-escalate-end-conversation.md" data-raw-source="[Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)">Enable a bot to escalate and end conversation</a></li>
 <li><a href="developer/omni-channel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omni-channel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
 </td>
 </tr>

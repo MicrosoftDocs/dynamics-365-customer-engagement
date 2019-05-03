@@ -110,7 +110,13 @@ More information: <link>
 
 The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-party applications to show within in the application tab menu.
 
-More information: <link>.
+To learn more, see [Omni-channel Engagement Hub developer guide](developer/omni-channel-engagement-hub-developer.md).
+
+### Enable a bot to escalate and end conversation
+
+Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent.
+  
+More information: [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md).
 
 #### Integrate bots
 
