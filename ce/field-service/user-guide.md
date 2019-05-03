@@ -153,7 +153,7 @@ When working through implementation scenarios, it is important to know org level
 
 [General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
 
-### Scheduling best practice
+### Scheduling best practices
 [Types of Scheduling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities)
 
 [Scheduling personas](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas)
@@ -164,6 +164,7 @@ https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/s
 
 [Scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
 
+### Key implementation resources
 Stay up to date on new features with the [release notes](https://docs.microsoft.com/en-us/business-applications-release-notes/)
 
 Use [Version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
