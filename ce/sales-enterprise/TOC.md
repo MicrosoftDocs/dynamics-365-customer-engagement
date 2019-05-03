@@ -85,7 +85,9 @@
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
 ### [FAQs](faqs-sales.md)
 
-## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
+## Developer Guide
+### [Get started](../sales-enterprise/developer/developer-guide.md)
+### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
 ### Manual forecasting
 #### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
 ##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)
