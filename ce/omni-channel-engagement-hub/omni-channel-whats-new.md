@@ -15,7 +15,7 @@ ms.custom:
 
 # What's new in Omni-channel Engagement Hub
 
-##  What's new in May 2019 update
+##  What's new in April 2019 update
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
 
