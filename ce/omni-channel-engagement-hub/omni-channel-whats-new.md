@@ -108,7 +108,7 @@ More information: <link>
 
 #### Omni-channel Engagement Hub app extensibility
 
-The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-part applications to show within in the application tab menu.
+The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-party applications to show within in the application tab menu.
 
 More information: <link>.
 
