@@ -44,7 +44,7 @@ Configure an SMS channel to connect to your customers by using text messages. Yo
     
     Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
-More information: <link> 
+More information: [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 
 ### Agent experience
 
@@ -66,13 +66,15 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 
     As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omni-channel Engagement Hub, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
 
-    More information: <link> 
+    More information: [Manage sessions](agent/agent-oceh/oceh-manage-sessions.md)
 
 - **Enhance productivity using the application tab:**
 
     With a simplified experience, the application tab allows you to manage the applications like KB search, advanced search, access sitemap, within the context of the customer session. This helps the agents to switch between the customer sessions with relevant customer information and context leading to higher productivity.
     
-    More information: <link>
+    More information: [Manage applications](agent/agent-oceh/oceh-manage-applications.md)
+
+More information: [Agents using Omni-channel Engagement Hub app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
 
 #### Communication panel enhancements
 
@@ -80,13 +82,13 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 
 In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult. 
 
-More information: <link>
+More information: [View communication panel](agent/agent-oceh/oceh-conversation-control.md#search-for-consulting-participants)
 
 ##### Search agents or queues for the transfer of a conversation request
 
 In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
 
-More information: <link>
+More information: [View communication panel](agent/agent-oceh/oceh-conversation-control.md#search-agents-or-queues-for-the-transfer-of-a-conversation-request)
 
 ### System customizer experience
 
@@ -109,8 +111,6 @@ More information: <link>
 #### Omni-channel Engagement Hub app extensibility
 
 The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-party applications to show within in the application tab menu.
-
-More information: <link>.
 
 #### Integrate bots
 

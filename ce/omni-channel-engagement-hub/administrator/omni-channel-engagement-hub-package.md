@@ -35,6 +35,14 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 > [!Important]
 > As Omni-channel Engagement Hub is in preview, we recommend deploying the **Unified Service Desk - Omni-channel Engagement Hub - Preview** package on a new organization. We recommend not to use your existing organization (test or production) for testing Omni-channel Engagement Hub - Preview.
 
+## Unified Service Desk - Omni-channel Engagement Hub - Preview - Add-on
+
+Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omni-channel Engagement Hub with it. This package installs Unified Service Desk solutions with minimal configuration data for Omni-channel Engagement Hub to work with an existing Unified Service Desk in the specified Customer Engagement organization.
+
+## Unified Service Desk - Omni-channel Engagement Hub - Preview
+    
+Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
 > [!Note]
