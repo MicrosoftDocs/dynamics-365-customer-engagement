@@ -30,12 +30,12 @@ As a system customizer, you might want to customize the conversation forms to su
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Live Work Item** and then select **Forms**.
+3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
 
 4.  Select either **Conversation Form** or **Omni-channel Session Form** from the list.
 
  > [!div class=mx-imgBorder]
- > ![modify live work item form](../media/oc-crm-modify-position-live-work-item-form.png "Modify live work item form")  
+ > ![modify conversation form](../media/oc-crm-modify-position-live-work-item-form.png "Modify conversation form")  
 
 5.  Drag and drop the field in the order you want to align. You can align the fields within the same section or from one section to another section.
 
@@ -48,7 +48,7 @@ As a system customizer, you might want to customize the conversation forms to su
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Live Work Item** and then select **Forms**.
+3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
 
 4.  Select either **Conversation Form** or **Omni-channel Stream Form** from the list.
 
