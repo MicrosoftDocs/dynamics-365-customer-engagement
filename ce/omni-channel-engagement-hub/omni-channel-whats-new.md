@@ -60,6 +60,9 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 
 - **Operating system agnostic:** The app is agnostic operating systems and also works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
 
+   > [!div class=mx-imgBorder]
+   > ![Omni-channel Engagement Hub app interface](media/oceh/oceh-whats-new.png "Omni-channel Engagement Hub app interface")
+
 ##### Key features of agent interface
 
 - **Switch between multiple sessions:**
