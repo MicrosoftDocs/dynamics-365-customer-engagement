@@ -73,7 +73,7 @@ You can close any session manually by selecting the **X** button next to the ses
    > [!div class=mx-imgBorder]
    > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
 
-## Mode of Session panel
+## Mode of the session panel
 
 By default, the session panel is in expanded mode and it is collapsible based on your requirement.
 At all times, the **Home** session is default and you can't close it. The Home session shows the default dashboard set for you by your administrator.
