@@ -25,6 +25,7 @@
 #### [Use document templates](use-document-templates-sales-professional.md)
 
 ## [Administrator and Sales Manager guide](admin-guide.md)
+### [Provision your Dynamics 365 for Sales Professional environment](provision-sales-professional-instance.md)
 ### [Standard settings](admin-settings-overview.md)
 #### [Connect with SharePoint](connect-with-sharepoint.md)
 #### [Import data](import-data.md)
