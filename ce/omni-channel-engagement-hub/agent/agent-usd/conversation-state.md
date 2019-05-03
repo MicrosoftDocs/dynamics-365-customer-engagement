@@ -29,7 +29,7 @@ Types of conversation states:
  
  - [Wrap-up](#wrap-up)
 
- - [Closed](#closed)
+ - [Closed](#closed) 
 
  ![Omni-channel conversation states](../../media/oc-conversation-state.png "Conversation states")
 

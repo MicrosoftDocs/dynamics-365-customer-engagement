@@ -33,7 +33,7 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
     - **Unified Service Desk - Omni-channel Engagement Hub – Preview**: Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
-    More information: <link> 
+More information: [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 
 ### Agent experience
 
@@ -47,39 +47,54 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
     - **Operating system agnostic**: The app is agnostic operating systems and also works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
 
+   > [!div class=mx-imgBorder]
+   > ![Omni-channel Engagement Hub app interface](media/oceh/oceh-whats-new.png "Omni-channel Engagement Hub app interface")
+
     The key features of agent interface are:
 
-    - **Switch between multiple sessions**:
+    - **Switch between multiple sessions**: As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omni-channel Engagement Hub, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
 
-        As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omni-channel Engagement Hub, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity. More information: <link> 
+    More information: [Manage sessions](agent/agent-oceh/oceh-manage-sessions.md)
 
-    - **Enhance productivity using the application tab**:
+    - **Enhance productivity using the application tab**: With a simplified experience, the application tab allows you to manage the applications like KB search, advanced search, access sitemap, within the context of the customer session. This helps the agents to switch between the customer sessions with relevant customer information and context leading to higher productivity.
+    
+    More information: [Manage applications](agent/agent-oceh/oceh-manage-applications.md)
 
-        With a simplified experience, the application tab allows you to manage the applications like KB search, advanced search, access sitemap, within the context of the customer session. This helps the agents to switch between the customer sessions with relevant customer information and context leading to higher productivity. More information: <link>
+More information: [Agents using Omni-channel Engagement Hub app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
 
 - **Communication panel enhancements**
 
-    - **Search for consulting participants**: In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult. More information: <link>
+    - **Search for consulting participants**: In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult.
 
-    - **Search agents or queues for the transfer of a conversation request**: In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request. More information: <link>
+    More information: [View communication panel](agent/agent-oceh/oceh-conversation-control.md#search-for-consulting-participants)
+
+    - **Search agents or queues for the transfer of a conversation request**: In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
+
+    More information: [View communication panel](agent/agent-oceh/oceh-conversation-control.md#search-agents-or-queues-for-the-transfer-of-a-conversation-request)
 
 ### System customizer experience
 
 - **Configure Omni-channel experience with the Add-On package**: When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
 
-    - Omni-channel agent dashboard
-    - Advanced search
-    - Communication panel
-    - Customer summary
-    - Notifications
-    - Session name information
-    - Scriptlets to define the case and channel titles
-
-    More information: <link> 
+    - [Omni-channel agent dashboard](customizer/configure-agent-dashboard.md)
+    - [Advanced search](customizer/configure-advanced-search.md)
+    - [Communication panel](customizer/configure-communication-panel.md)
+    - [Customer summary](customizer/configure-customer-summary.md)
+    - [Notifications](customizer/configure-notification-screen-pop-agents.md)
+    - [Session name information](customizer/configure-session-name-information.md)
+    - [Scriptlets to define the case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
 ### Developer experience
 
 - **Enable a bot to escalate and end conversation**: Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent. More information: [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md).
+
+The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-party applications to show within in the application tab menu.
+
+#### Integrate bots
+
+Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent.
+  
+More information: <link>.
 
 ##  What's new in March 2019 update
 
@@ -99,7 +114,7 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 ### Agent experience
 
-- **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-csh/csh-link-unlink-record.md#unlink-a-record-from-the-conversation)
+- **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-oceh/oceh-search-link-unlink-record.md)
 
 - **Developer experience**: Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals.
 
