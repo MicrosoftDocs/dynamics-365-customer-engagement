@@ -44,7 +44,7 @@ Configure an SMS channel to connect to your customers by using text messages. Yo
     
     Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
-To learn more, see <link> 
+More information: <link> 
 
 ### Agent experience
 
@@ -66,25 +66,25 @@ The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that e
 
     As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omni-channel Engagement Hub, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
 
-    To learn more, see <link> 
+    More information: <link> 
 
 - **Enhance productivity using the application tab:**
 
     With a simplified experience, the application tab allows you to manage the applications like KB search, advanced search, access sitemap, within the context of the customer session. This helps the agents to switch between the customer sessions with relevant customer information and context leading to higher productivity.
     
-    To learn more, see <link>
+    More information: <link>
 
 #### Communication panel enhancements
 
 ##### Search for consulting participants
 
 In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult. 
-To learn more, see <link>
+More information: <link>
 
 ##### Search agents or queues for the transfer of a conversation request
 
 In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
-To learn more, see <link>
+More information: <link>
 
 ### System customizer experience
 
@@ -100,7 +100,7 @@ When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, 
 - Session name information
 - Scriptlets to define the case and channel titles
 
-To learn more, see <link> 
+More information: <link> 
 
 ### Developer experience
 
@@ -108,13 +108,13 @@ To learn more, see <link>
 
 The Omni-channel Engagement Hub app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the third-part applications to show within in the application tab menu.
 
-To learn more, see <link>.
+More information: <link>.
 
 #### Integrate bots
 
 Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent.
   
-To learn more, see <link>.
+More information: <link>.
 
 ##  What's new in March 2019 Update
 
