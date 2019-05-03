@@ -21,9 +21,10 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 ## Administrator experience
 
-Upgrade Omni-channel Engagement Hub 
-Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the Manage Instances page in Dynamics 365 Admin Center.  
-To learn more, see <link>
+### Upgrade Omni-channel Engagement Hub 
+Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the **Manage Instances** page in **Dynamics 365 Admin Center**.  
+
+More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 
 ### Integrate a bot
 

@@ -45,6 +45,10 @@ Follow these steps to upgrade Omni-channel Engagement Hub:
     > ![Upgrade complete](../media/upgrade-complete.png)
 
 
+## Upgrade Omni-channel Engagement Hub package on Unified Service Desk
+
+If you are using Omni-channel Engagement Hub on Unified Service Desk, refer [Deploy package on Dynamics 365 for Customer Engagement instance](omni-channel-engagement-hub-package.md#deploy-package-on-dynamics-365-for-customer-engagement-instance) to upgrade.
+
 ### See also
 
 [Enable SMS channel](omni-channel-provision-license.md#enable-sms-channel)
