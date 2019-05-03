@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/handle-exceptions-code
 title: "Troubleshooting tips (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic contains tips to diagnose and fix certain common issues that may arise when developing Dynamics 365 for Customer Engagement apps SDK–based applications"
 ms.custom: 

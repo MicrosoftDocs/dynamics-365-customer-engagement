@@ -87,7 +87,7 @@ To control data access, you must set up an organizational structure that both pr
 
 A security role can be set to provide team member direct Basic level access user privileges.  Team member can create records with self as owner as well as team as owner when Basic access level for Create is given.  When Basic access level for Read is given, team member can access records that are owned by both self and by the team.  
 
-This member’s privilege inheritance role is applicable to [Owner](manage-teams.md#about-owner-teams) and Azure Active Directory (Azure AD) [Group Teams](manage-teams.md#about-group-teams). 
+This member’s privilege inheritance role is applicable to [Owner](manage-teams.md#about-owner-teams) and Azure Active Directory (Azure AD) [Group teams](manage-teams.md#about-group-teams). 
 
 ### Create a security role with team member’s privilege inheritance
 
@@ -95,7 +95,7 @@ This member’s privilege inheritance role is applicable to [Owner](manage-teams
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
 Check your security role:
-- Follow the steps in [View your user profile](../basics/view-your-user-profile.md)View your user profile.
+- Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
 - Don’t have the correct permissions? Contact your system administrator.
 
 1. Go to **Settings** > **Security**.
