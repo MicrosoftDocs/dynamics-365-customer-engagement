@@ -70,8 +70,8 @@ For example, you are working on a case by entering the title of the case and not
 
 You can close any session manually by selecting the **X** button next to the session title. When you close a session, a confirmation dialog is shown to you.
 
-    > [!div class=mx-imgBorder]
-    > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
+   > [!div class=mx-imgBorder]
+   > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
 
 ## Mode of Session panel
 
