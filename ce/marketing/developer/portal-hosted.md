@@ -34,8 +34,8 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 1. Open the `environment.ts` configuration file (located in `\src\environments`) for modification.
 1. Change the `apiEndpoint` variable to point to the in **Portal Website Binding** configured URL.
 
-> [!NOTE]
-> You need to add a trailing slash at the end of the URL.
+    > [!NOTE]
+    > You need to add a trailing slash at the end of the URL.
 
 1. Make sure that the `useRestStack` variable is set to false.
 
@@ -55,9 +55,8 @@ To serve the application locally, you need to follow the steps below:
 1.	Run `npm install` to make sure all the dependencies are installed and are up-to-date.
 2.	Run `ng serve` to start the local development server to see the changes immediately.
 
-> [!NOTE]
-> You can find more information on serving an Angular application locally here [Serving an Angular application locally]( https://angular.io/guide/quickstart#step-3-serve-the-application)
-
+    > [!NOTE]
+    > You can find more information on serving an Angular application locally here [Serving an Angular application locally]( https://angular.io/guide/quickstart#step-3-serve-the-application)
 
 ### Deployment
 
@@ -79,11 +78,8 @@ To manually replace the files in Dynamics 365, follow the steps below:
 1. Upload your `main.es` file as an attachment.
 1. Restart the portal website and reopen your browser.
 
-> [!div class="nextstepaction"]
-> [Custom Event Portal Localization](event-portal-localization.md)<br /><br />
-> [Build and Host Custom Event Portal](event-management-web-application.md)
-
 ### CORS
+
 If you want to serve the custom event website from a **custom domain** you need to configure CORS to allow that custom domain:
 
 1. Go to **Dynamics 365 > Portals > Site Settings** and add a **new setting**.
@@ -95,5 +91,10 @@ If you want to serve the custom event website from a **custom domain** you need 
 
     ![A new site setting to allow 'https://contoso.com/' as a custom domain.](../media/cors-settings-portals.png "A new site setting to   allow 'https://contoso.com/' as a custom domain.")
 
-> [!NOTE]
-> More information about CORS can be found here [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
+    > [!NOTE]
+    > More information about CORS can be found here [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
+
+### See also
+
+[Custom Event Portal Localization](event-portal-localization.md)<br />
+[Build and Host Custom Event Portal](event-management-web-application.md)
