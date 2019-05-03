@@ -94,7 +94,7 @@ To upgrade Omni-channel, see [Upgrade Omni-channel Engagement Hub](administrator
 - [Introduction](introduction-omni-channel.md)
 - [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Customer Service Hub app](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)
+- [Agents using Omni-channel Engagement Hub app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
 - [System customizers](customizer/omni-channel-engagement-hub-customizer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

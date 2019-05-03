@@ -88,7 +88,7 @@ You can use a keyboard command to see the list of quick replies. Type the forwar
 After you type **/q** in the communication panel messaging area, you can continue typing any keywords and if the **Quick replies** library has at least one message associated with the word, it is filtered and displayed to you.
 
  > [!div class=mx-imgBorder] 
- > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")
+ > ![Type /q and the keyword to filter the replies](../../media/oc-usd-send-quick-replies-filter.png "Filter replies") 
 
 ## Search for and share knowledge articles
 
@@ -129,7 +129,7 @@ Use a keyboard command to see the list of queues to transfer the conversation re
 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
-![Filter transfer queue list](../../media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
+![Filter transfer queue list](../../media/oc-usd-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
 > [Next topic: View call scripts, take notes, and search knowledge articles](right-control-panel.md)
