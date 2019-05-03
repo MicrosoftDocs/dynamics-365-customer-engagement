@@ -75,6 +75,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md" data-raw-source="[Configure the supervisor dashboard](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)">Configure the supervisor dashboard</a></li>
 <li><a href="supervisor/add-users-supervisor-configuration.md" data-raw-source="[Add users to the supervisor configuration](add-users-supervisor-configuration.md)">Add users to the supervisor configuration</a></li>
 </td> -->
+</tr>
+
+<tr>
 <td>
 
 <h2> I'm a developer </h2>
@@ -84,6 +87,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Manage custom context](developer/how-to/send-context-starting-chat.md)">Manage custom context</a></li>
 <li><a href="developer/bot-escalate-end-conversation.md" data-raw-source="[Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)">Enable a bot to escalate and end conversation</a></li>
 <li><a href="developer/omni-channel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omni-channel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
-</td>
 </tr>
+</td>
 </table>

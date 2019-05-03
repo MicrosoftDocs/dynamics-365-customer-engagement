@@ -86,27 +86,61 @@
 #### [Link and unlink a record](agent/agent-csh/csh-link-unlink-record.md)
 
 ## [System customizer guide](customizer/omni-channel-engagement-hub-customizer.md)
+
 ### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 #### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
 #### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
+
 ### [Customize the conversation forms](customizer/customize-conversation-form.md)
-### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
-### [Configure notifications (screen pops) for agents](customizer/configure-notification-screen-pop-agents.md)
-#### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
-##### [Step 1: Create forms to define the layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-##### [Step 2: Create hosted controls](customizer/alertnotification-step2-create-hosted-controls.md)
-##### [Step 3: Create events](customizer/alertnotification-step3-create-the-events.md)
-##### [Step 4: Create an action calls to display the notification](customizer/alertnotification-step4-create-action-call-display-notification.md)
-##### [Step 5: Add the action calls to the events](customizer/alertnotification-step5-add-action-calls-events.md)
-##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/alertnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
-#### [Configure toast notifications in Unified Service Desk](customizer/configure-toast-notification-unified-service-desk.md)
-##### [Step 1: Create forms to define layout and behavior of the notification](customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md)
-##### [Step 2: Create hosted controls](customizer/toastnotification-step2-create-hosted-controls.md)
-##### [Step 3: Create events](customizer/toastnotification-step3-create-the-events.md)
-##### [Step 4: Create an action calls to display the notification](customizer/toastnotification-step4-create-action-call-display-notification.md)
-##### [Step 5: Add the action calls to the events](customizer/toastnotification-step5-add-action-calls-events.md)
-##### [Step 6: Add the hosted controls, events, and action calls to the agent and supervisor configurations](customizer/toastnotification-step6-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+### Unified Service Desk settings
+
+#### [Create agent and supervisor configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)
+
+#### [Configure Omni-channel Agent Dashboard](customizer/configure-agent-dashboard.md)
+##### [Step 1: Create Omni-channel Agent Dashboard hosted control](customizer/agent-dashboard-step1-create-hosted-control.md)
+##### [Step 2: Create Omni-channel Agent Dashboard-related action calls](customizer/agent-dashboard-step2-create-action-calls.md)
+##### [Step 3: Attach Omni-channel Agent Dashboard-related action Calls to events](customizer/agent-dashboard-step3-attach-action-calls-events.md)
+##### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
+
+#### [Configure communication panel for agents](customizer/configure-communication-panel.md)
+##### [Step 1: Create entity searches](customizer/communication-panel-step1-create-entity-searches.md)
+##### [Step 2: Create communication panel hosted control](customizer/communication-panel-step2-create-hosted-control.md)
+##### [Step 3: Create communication panel-related action calls](customizer/communication-panel-step3-create-action-calls.md)
+##### [Step 4: Attach the communication panel-related action calls to events](customizer/communication-panel-step4-attach-action-calls-events.md)
+##### [Step 5: Configure window navigation rule for communication panel](customizer/communication-panel-step5-configure-window-navigation-rule.md)
+##### [Step 6: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations.md)
+
+#### [Configure customer summary](customizer/configure-customer-summary.md)
+##### [Step 1: Create customer summary hosted control](customizer/customer-summary-step1-create-hosted-control.md)
+##### [Step 2: Create customer summary-related action calls](customizer/customer-summary-step2-create-action-calls.md)
+##### [Step 3: Attach customer summary-related action Calls to events](customizer/customer-summary-step3-attach-action-calls-events.md)
+##### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
+
+#### [Configure notifications for agents](customizer/configure-notification-screen-pop-agents.md)
+##### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
+###### [Step 1: Create forms to define the layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)
+###### [Step 2: Create Omni-channel Alert Notification hosted control](customizer/alertnotification-step2-create-hosted-controls.md)
+###### [Step 3: Create Omni-channel Alert Notification related-action calls](customizer/alertnotification-step3-create-action-call-display-notification.md)
+###### [Step 4: Attach the Omni-channel Alert Notification-related action calls to the events](customizer/alertnotification-step4-add-action-calls-events.md)
+###### [Step 5: Add the hosted control, events, forms, and action calls to configurations](customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+##### [Configure toast notifications in Unified Service Desk](customizer/configure-toast-notification-unified-service-desk.md)
+###### [Step 1: Create forms to define layout and behavior of the notification](customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md)
+###### [Step 2: Create Omni-channel Toast Notification hosted controls](customizer/toastnotification-step2-create-hosted-controls.md)
+###### [Step 3: Create Omni-channel Toast Notification-related action calls](customizer/toastnotification-step3-create-action-call-display-notification.md)
+###### [Step 4: Attach Omni-channel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
+###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
+
+#### [Configure advanced search](customizer/configure-advanced-search.md)
+##### [Step 1: Create advanced search hosted control](customizer/advanced-search-step1-create-hosted-control.md)
+##### [Step 2: Create advanced search-related action calls](customizer/advanced-search-step2-create-action-calls.md)
+##### [Step 3: Attach advanced search-related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
+##### [Step 4: Add hosted control, action calls, and events to configurations](customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
+
+#### [Configure session name information](customizer/configure-session-name-information.md)
+
+#### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
 ## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
 ### [How to]()
