@@ -122,15 +122,15 @@ Start with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/impl
 Next, dive into configuring the schedule board and exploring other scheduling capabilities such as crews, facilities, and pools with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/)
 
 ### Agreements, assets & inventory
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements
 
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets
+After that, look into using [Agreements](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements) to auto generate recurring work orders, [Customer Assets](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets) to build service history, and [Inventory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-warehouse) to track parts usage from a field technicians truck.  
 
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-warehouse
 
 ### Resource Scheduling Optimization
+The pinnacle of field service scheduling is Resource Scheduling Optimization (RSO) that automatically schedules work orders (and other requirements) to the best resources to minimize total travel time and maximize working hours and more based on your choice.
 
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/rso-overview
+Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/rso-overview). 
+
 
 ### Connected Field Service
 
