@@ -80,6 +80,8 @@ The Omni-channel Engagement Hub - Preview is available in the following regions:
 
 See [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md) to know how to enable the Omni-channel Engagement Hub app in your Dynamics 365 org.
 
+To upgrade Omni-channel, see [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md).
+
 > [!NOTE]
 > - Omni-channel Engagement Hub - Preview is not supported on Dynamics 365 for Customer Engagement apps (on-premises).
 >
