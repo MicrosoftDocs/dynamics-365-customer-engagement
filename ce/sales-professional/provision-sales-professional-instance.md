@@ -2,7 +2,7 @@
 title: "Provision your Dynamics 365 for Sales Professional Environment (Dynamics 365 for Sales Professional) | MicrosoftDocs"
 description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
 keywords: ""
-ms.date: 05/02/2019
+ms.date: 05/03/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:

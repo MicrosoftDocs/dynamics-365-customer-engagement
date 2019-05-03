@@ -2,7 +2,7 @@
 title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
-ms.date: 05/02/2019
+ms.date: 05/03/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
