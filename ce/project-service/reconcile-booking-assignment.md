@@ -25,43 +25,36 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A project team member's project bookings and project task assignments are loosely coupled. This means that a resource can have and assignment that doesn't correspond to bookings and bookings that don't correspond to task assignments. Ideally, project bookings and assignments are aligned so that resources have committed capacity to perform their task assignments. However, the reality is that bookings may happen based on availability and task timings may change as the project continues through its lifecycle. Because of the loose coupling of bookings and assignments to allow for flexibility, Dynamics 365 for Project Service Automation (PSA) has a tab on the Project entity called Reconciliation view. This view assists project managers in reconciling team member bookings and their assignments for their project team. 
-
-On the Project entity, click the **Reconciliation** tab to open the Reconciliation view.
+A project team member's project bookings and project task assignments are loosely coupled. This means that a resource can have an assignment that doesn't correspond to bookings and bookings that don't correspond to task assignments. Ideally, project bookings and assignments are aligned so that resources have committed capacity to perform their task assignments. However, the reality is that bookings may happen based on availability and task timings may change as the project continues through its lifecycle. Because of the loose coupling of bookings and assignments to allow for flexibility, Dynamics 365 for Project Service Automation (PSA) has a tab on the Project entity called **Reconciliation** view. This view assists project managers in reconciling team member bookings and their assignments for their project team. 
  
-GRAPHIC 
- 
-The reconciliation view shows for each named team member their bookings and assignments down to the individual task assignment. The view shows hours in cells which can represent time phases from months down to days. 
+For each named team member, the Reconciliation view shows bookings and assignments down to the individual task assignment. The view shows hours in cells which can represent time phases from months down to days. 
 
-You can use the timescale control to choose the timescale of Month, Week or Day.  The view uses week as the default, but you can change the default under settings.  The view will open set to the current date, and you can use the calendar control to move forward or backwards in time.  In the case where a project has a start date that is sometime in the future, the reconciliation view will open on that date.  The calendar control also has move to project start date and move to project end date controls as well.   
+In the **Timescale** field, you can select **Month**, **Week**, or **Day**. The view automatically selects **Week**, but you can change it by clicking the **Settings** icon. The view will open to the current date, and you can use the calendar control to move forward or backward in time. When a project has a start date that is sometime in the future, the Reconciliation view will open on that date. The calendar control also has move to project start date and move to project end date controls as well.   
 
 You can use the expander controls on each resource to show the details on their bookings as well as expand their assignments to the individual task level. 
-
-GRAPHIC 
  
-The view also shows an overall net total for the project at the bottom along with a total column. 
+The view also shows an overall net total for the project at the bottom along with a total column. For each resource, the view takes the difference between a team member’s bookings on the project and rollup of their task assignments. Ideally, this should be zero, with no difference between the resource’s bookings and their task assignments. Any differences are indicated with color/shading to call out two conditions: 
 
-For each resource, the view takes the difference between a team member’s bookings on the project and rollup of their task assignments. Ideally, this should be zero i.e. there is no difference between the resource’s bookings and their task assignments. Any differences are indicated with color/shading to call out two conditions: 
+- **Booking shortage**: Booking shortages occur when a resource has more assignments than they have bookings. Since this capacity has not been reserved, a project manager can correct this by extending the resource’s bookings to cover the deficit. 
+- **Excess bookings**: Excess bookings occur when a resource has been booked to the project, but has not been assigned to tasks. This may be an acceptable occurrence, for example if the resource has been booked prior to task assignment. However in other cases, the resource may not be planned to assigned and the project manager should consider canceling the resource’s bookings to allow the capacity to be used for another project. 
 
-- Booking shortage. Booking shortages occur when a resource has more assignments than they have bookings. Since this capacity has not been reserved, a project manager may wish to correct this by extending the resource’s bookings to cover the deficit. 
-- Excess bookings. An excess of bookings occurs where a resource has been booked to the project, but has not been assigned to tasks. This may be an acceptable occurrence, for example the resource has been booked prior to task assignment. However, in other cases the resource may not be planned to assigned and the PM should consider cancelling the resource’s bookings to allow the capacity to be used for another project. 
+> [!NOTE]
+> The legend for these conditions may be hidden in the **Settings** in order to have more room on the screen for the grid. 
 
-The legend for these conditions may be hidden via Settings in order to have more room on the screen for the grid. 
+In some cases, when the Time view is used at a higher level than Day, differences may calculate to zero. For example, in a Month view you may see a net zero for a resource (meaning bookings = assignments), but if you looked at the week you would see that in the first week of the month there are assignments of zero hours and bookings of 40 hours and in the second week of the month assignments of 40 hours and bookings of zero hours. In total for the month, the bookings and assignments are equsl, but by week they differ. 
 
-In some cases when using the time view at a higher level than day, differences may net to zero. For example, in a month view you may see a net 0 for a resource (meaning bookings = assignments), but if you looked at the week you would see that in the first week of the month there are assignments of 0hrs and bookings of 40 and in the second week of the month assignments of 40 and bookings of 0. In total for the month the bookings and assignments net, but by week they have a difference. The reconciliation view will show that there are differences at lower levels when viewing at higher time levels with a cell indicator.  
+The reconciliation view will show that there are differences at lower time levels when viewing at higher time levels with a cell indicator. For example, the cell indicator for the resource Katelyn Merritt in the month of October, 2018 shows that even though the resources have bookings equal to assignments that are aggregated at the month level, there is a mis-match at the lower level between bookings and assignments. 
 
-For example, the cell indicator for the resource Katelyn Merritt in the month of October, 2018 shows that even though the resources have bookings equal to assignments aggregated at the month level, at a lower level there is a mis-match between bookings and assignments. 
+![Mismatched bookings and assignments](media/reconcile-assignments-01.JPG)
 
-GRAPHIC
+Double-click on a cell zoom-in to the next level and view the difference. In the example used, double-click the October difference for Katelyn Merritt. This drills down to the Week view, and you can see that she has bookings totaling 16 hours without any assignments in the first two weeks of October, and assignments of 16 hours in the third week of October without any bookings. 
 
-By double-clicking on such a cell, you can zoom-in to the next level to reveal the difference. In the example, double clicking on October difference for Katelyn Merritt, drills down to the week view, and you can see that she has bookings totaling 16 hours without any assignments in the first two weeks of October and assignments of 16 hours in the third week of October without any bookings. 
-
-GRAPHIC?
+![Mismatched bookings and assignments](media/reconcile-assignments-02.JPG)
  
-You can then right-click to zoom-out a level. You can also turn off the lower level indicator under Settings. 
-You can also use the previous and next difference buttons to navigate through any differences in your project.  The difference buttons work when you have a resource selected.  With a resource selected, Using the next difference control in the grid toolbar will navigate you to the next difference between bookings and assignments for that selected resource. Previous will navigate you back. 
+You can right-click to zoom-out a level or, you can turn off the lower level indicator in the **Settings**. 
+You can also use the **Previous** and **Next** difference buttons to navigate through any differences in your project. To do this, you must have a resource selected. Using the **Next** difference control in the grid toolbar will navigate you to the next difference between bookings and assignments for that selected resource. **Previous** will navigate you back. 
 
-When you have a situation where you have task assignments for a resource without bookings, you can select the booking shortage and click the Extend Booking button (or right-click and select Extend bookings from the context menu).  
+When you have a situation where you have task assignments for a resource without bookings, you can select the booking shortage and click **Extend Booking** or right-click and select **Extend bookings** from the context menu.  
  
-This will bring up a surface where you can see the booking needed to address the resource’s shortage along with their bookings on this and other projects. Clicking OK will create the booking for the resource without regards to their current availability. 
-The PM or their resource manager can then use Schedule Board to manage any situations that may occur where the result of extending a resource is that they are overbooked beyond their capacityl.
+You can then see the booking needed to address the resource’s shortage along with their bookings on this and other projects. Select **OK** to create the booking for the resource without regards to current availability. 
+The project manager or their resource manager can then use Schedule Board to manage any situations that may occur where the result of extending a resource is that they are overbooked beyond their capacity.
