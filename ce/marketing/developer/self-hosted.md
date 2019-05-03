@@ -32,20 +32,20 @@ To do so, a few additional steps need to be done.
 ## Dynamics 365 configuration
 
 1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** 
-1. Create a new web application
+2. Create a new web application
 
-> [!NOTE]
-> You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
+   > [!NOTE]
+   > You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
 
-1. Enter an arbitrary `Name`.
-1. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`).
+3. Enter an arbitrary `Name`.
+4. Enter the `Origin` URL of the custom event portal (e.g. `http://localhost:4200`).
 
-  > [!NOTE]
-  > The origin URL may not contain a trailing slash!
+    > [!NOTE]
+    > The origin URL may not contain a trailing slash!
   
-1. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis), you need to enter the `AAD Client ID` and `AAD Metadata Endpoint`. More information [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
-1. Click save.
-1. After the changes are saved, the fields `Token` and `Endpoint` should contain values.
+5. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis), you need to enter the `AAD Client ID` and `AAD Metadata Endpoint`. More information [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
+6. Click save.
+7. After the changes are saved, the fields `Token` and `Endpoint` should contain values.
 
 ### Environment configuration for self-hosted
 
