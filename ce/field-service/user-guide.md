@@ -141,7 +141,7 @@ First, get an [Overview](https://docs.microsoft.com/en-us/dynamics365/customer-e
 Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the Saas option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. In contrast, think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
 
 
-Learn Videos: https://docs.microsoft.com/en-us/learn/paths/working-with-connected-field-service-iot/
+Finally, here is a [Learn course](https://docs.microsoft.com/en-us/learn/paths/working-with-connected-field-service-iot/) to guide you through setting up CFS with IoTCentral.
 
 **Pro Tip:** Combining Resource Scheduling Optimization and Connected Field Service enables an organization to proactively detect issues and schedule them to field technicians to fix them.
 
@@ -149,25 +149,24 @@ Learn Videos: https://docs.microsoft.com/en-us/learn/paths/working-with-connecte
 
 The purpose of this section is to help provide implementation guidance and best practices both technical and strategic. It also points toward extensibility and developer instructions. 
 
-Adminsitration
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-default-settings 
+When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-default-settings)
 
-Scheduling best practice
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities
+[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
 
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas
+### Scheduling best practice
+[Types of Scheduling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities)
 
-https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption
+[Scheduling personas](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas)
+
+[The 5 stages of scheduling adoption](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption)
 
 https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings
 
-Scheduling extensibility: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes
+[Scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
 
-Deployment best practices Microsoft Dynamics 365 for Field Service: Deployment best practices - BRK2478
+Stay up to date on new features with the [release notes](https://docs.microsoft.com/en-us/business-applications-release-notes/)
 
-Release Notes: https://docs.microsoft.com/en-us/business-applications-release-notes/
+Use [Version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
 
-Version history: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history
-
-AppSource Add-ins: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins
+Understand [AppSource Add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
   
