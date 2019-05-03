@@ -15,7 +15,7 @@ ms.custom:
 
 # What's new in Omni-channel Engagement Hub
 
-##  What's new in May 2019 Update
+##  What's new in May 2019 update
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
 
@@ -81,7 +81,7 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 - **Enable a bot to escalate and end conversation**: Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent. More information: [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md).
 
-##  What's new in March 2019 Update
+##  What's new in March 2019 update
 
 This topic contains information about updates in Omni-channel Engagement Hub available in this version.
 
