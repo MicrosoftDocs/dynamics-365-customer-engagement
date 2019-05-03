@@ -158,3 +158,8 @@ More information: </br>
 ## Developer experience
 
 Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals.
+
+
+### See also
+
+[Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
