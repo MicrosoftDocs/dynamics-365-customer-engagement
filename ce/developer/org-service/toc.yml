@@ -12,21 +12,5 @@
       href: use-executemultiple-improve-performance-bulk-data-load.md
   - name: Create early bound entity classes
     href: create-early-bound-entity-classes-code-generation-tool.md
-  - name: Retrieve data with queries using SDK assemblies
-    href: retrieve-data-queries-sdk-assemblies.md
-    items:
-    - name: Retrieve records for many-to-many relationships using intersect entities
-      href: retrieve-records-many-to-many-relationships-intersect-entities.md
-      items:
-      - name: CampaignActivityItem intersect entity metadata
-        href: campaignactivityitem-intersect-entity-metadata.md
-      - name: CampaignItem intersect entity metadata
-        href: campaignitem-intersect-entity-metadata.md
-      - name: ListMember intersect entity metadata
-        href: listmember-intersect-entity-metadata.md
-      - name: Role Privileges intersect entity metadata
-        href: role-privileges-intersect-entity-metadata.md
-      - name: 'Sample: Retrieve records from an intersect table'
-        href: sample-retrieve-records-intersect-table.md
   - name: Offline use of services
     href: offline-use-services.md
