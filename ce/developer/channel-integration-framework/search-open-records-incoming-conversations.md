@@ -187,9 +187,7 @@ The sample given below covers four scenarios:
 
 ## Publish and configure the widget
 
-Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget.
-
-Assuming the widget is already hosted using Channel Integration Framework, open your Dynamics 365 instance and test the widget. The published widget should look like this.<br />
+Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this.<br />
 
   ![Published sample widget in Unified Interface apps](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
  
