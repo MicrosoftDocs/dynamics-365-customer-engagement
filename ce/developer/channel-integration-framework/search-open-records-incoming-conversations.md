@@ -29,9 +29,9 @@ In this tutorial, we demonstrate how you can search and open records in Dynamics
 > [!IMPORTANT]
 > This tutorial is a continuation of [Getting started with building a simple communication widget](getting-started-simple-widget.md). So, if you have not created a simple *Hello World!* widget yet that can be hosted on Channel Integration Framework, we suggest you read that first.
 
-## Add buttons to the *Hello World!* widget
+## Build the widget
 
-1. Open the basic widget you created using the steps mentioned in [Getting started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
+1. Open the basic widget you created using the steps mentioned in [Get started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below.
 
 The sample given below covers four scenarios:
@@ -185,10 +185,15 @@ The sample given below covers four scenarios:
 </html>
 ```
 
-3. Run the application in a web browser.
-4. Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget.
-5. Assuming the widget is already hosted using Channel Integration Framework, open your Dynamics 365 instance and test the widget.
+## Publish and configure the widget
+
+Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget.
+
+Assuming the widget is already hosted using Channel Integration Framework, open your Dynamics 365 instance and test the widget. The published widget should look like this.<br />
+
+  ![Published sample widget in Unified Interface apps](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
+ 
 
 ## See also
 
-[Getting started with building a simple communication widget](getting-started-simple-widget.md)
+[Get started with building a simple communication widget](getting-started-simple-widget.md)
