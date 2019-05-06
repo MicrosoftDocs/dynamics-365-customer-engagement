@@ -1,8 +1,8 @@
 ---
-title: "Install and setup Dynamics 365 for Field Service | MicrosoftDocs"
+title: "Learn the basics of Field Service Mobile | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2019
+ms.date: 05/06/2019
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,7 +26,31 @@ search.app:
   - D365FS
 ---
 
-# title
+# Learn the basics of Field Service Mobile
+
+
+Supported Platforms
+
+OS requirements Minimum version requirements
+
+Device requirements
+
+Security
+
+Install
+
+Upgrade
+
+Authentication
+
+Key capabilities
+
+Previous versions 
+
+
+
+
+
 ## Prerequisites
 > [!Note]
 >
@@ -37,7 +61,17 @@ search.app:
 ## Configuration considerations
 ## Additional Notes
 
+Available Space: how much space required on the phone depends on how much DB space is needed based on the quantity of records that an organization is having sync for mobile. You can connect to your organization with the app and go to the app's settings on your phone to see how much space the app is utilizing. Note: this amount can and will change based on how much data the app has to sync from the organization. Also note that you should account for how much data will be needed outside of Field Service Mobile (e.g. photos, texts, other apps). 
 
+RAM: Minimum 512MB, 1GB is highly recommended, particularly for organizations with lots of records and customizations. That said, how much RAM is required really depends on how many apps a user will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications, and so on, should provide mobile devices that have a minimum of 2 GB of RAM.
+
+Processor: a common recommendation is to have a clock speed of ~1.4 GHz at a minimum. Again, what other apps will be running should be taken into consideration. 
+
+Camera: autofocus is required for both QR and barcode scanning. 
+
+GPS: GPS is required if wanting to use any GPS/location functionalities such as navigating, utilizing maps, or location auditing.  
+
+OS Specific Requirements: iOS 8+, Android 4.4+, and Windows 10.  
 
 
 
