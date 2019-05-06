@@ -110,8 +110,10 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 - **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-oceh/oceh-search-link-unlink-record.md)
 
-- **Developer experience**: Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals.
 
+### Developer experience
+
+- **Live chat SDK**: Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals. More information: [Live chat SDK JavaScript API reference](developer/omni-channel-reference.md).
 
 ### See also
 
