@@ -134,7 +134,7 @@ New users can follow these steps to start a trial of Customer Engagement.
 
 The user should:
 - Not already be licensed for Customer Engagement
-- Have an Office 365 license to the Customer Engagement tenant
+- Have an email account in the Customer Engagement tenant
 
 > [!NOTE]
 > Only five users can join a trial organization and a maximum of five trial organizations can be added to the same tenant.
