@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/fetchxml-schema
 title: "FetchXML schema (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The FetchXML query language is used to create queries against the Dynamics 365 for Customer Engagement database"
 ms.custom: 

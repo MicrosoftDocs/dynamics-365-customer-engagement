@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/build-queries-with-queryexpression
 title: "Build queries with QueryExpression (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the QueryExpression class to programmatically build a query containing data filters and search conditions that define the scope of a database search"
 ms.custom: 
