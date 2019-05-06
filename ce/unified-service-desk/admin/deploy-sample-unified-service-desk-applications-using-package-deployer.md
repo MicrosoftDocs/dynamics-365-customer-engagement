@@ -55,9 +55,9 @@ search.app:
 | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] |                                                                                                          This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] solutions. [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant rules.<br><br> **Note:** This package is available separately for [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or lower versions until [!INCLUDE [pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)].                                                                                                          |
 
 <a name="Deploy"></a>   
-## Deploy a sample Unified Service Desk package using Package Deployer  
+## Deploy a sample Unified Service Desk package using Package Deployer
 
-1. [Download](http://go.microsoft.com/fwlink/p/?LinkID=872261) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
+1. [Download](http://go.microsoft.com/fwlink/p/?LinkID=2086721) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.
 
 2. Run the downloaded file to extract the contents into a folder.  
 
