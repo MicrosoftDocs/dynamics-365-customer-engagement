@@ -171,3 +171,6 @@ Use [version history](https://docs.microsoft.com/en-us/dynamics365/customer-enga
 
 Understand [AppSource Add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
   
+## Get help
+
+If you're looking for help with errors, unexpected behavior, crashes, and bugs, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/)
