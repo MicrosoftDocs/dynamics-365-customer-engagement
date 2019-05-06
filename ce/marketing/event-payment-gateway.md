@@ -128,9 +128,9 @@ For details about how to develop the system for receiving payment and finalizing
 
 After a contact submits their registration and payment details, the following events occur:
 
-1. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary  event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
+1. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
 1. The system waits for the payment provider to confirm payment by calling the *success URL* operated by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. When you sign up with a payment provider, they will usually ask for this success URL and use it in the code they return to you to include on your payment page.
-1. When [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] receives the success-URL request, it finalizes the registration by turning the temporary registration into an actual registration that users can see in the system.
+1. When [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] receives the success-URL request, it finalizes the registration by turning the temporary registration into an actual registration record that users can see in the system. For registrations that include several contacts, a separate registration record is created for each of them.
 
 To set up the success URL, you must create a back-end service that is triggered when your payment provider calls that URL. You'll probably need assistance from a developer to create this service. You (or your developer) can use any implementation technology you like to create it.
 
