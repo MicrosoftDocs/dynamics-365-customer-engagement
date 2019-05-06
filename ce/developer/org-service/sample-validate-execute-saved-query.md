@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/validate-execute-saved-query
 title: "Sample: Validate and execute a saved query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the IOrganizationService.ValidateSavedQueryRequest message to validate a FetchXML query, and then use the IOrganizationService.ExecuteByIdSavedQueryRequest message to execute the query."
 ms.custom: 
