@@ -93,6 +93,10 @@ Each file in the blob store (attachment store) contains a header with random IV 
 
 Synchronization is when the Field Service Mobile app calls the server for new or updated data. As an example, the app will need to synchronize to the server for a field technician to see a new work order booking scheduled by the dispatcher. 
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-quick-facts-sync.png)
+
 The app can perform a synchronization manually, timed, or on available connection.
 
 - If password stored, sync is automatic​
@@ -115,6 +119,13 @@ The system also tracks a **synchronization log** that tracks when users last syn
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-quick-facts-lock-wipe-sync.png)
+
+### Auditing
+
+Keep an audit record of when specific entities are edited, application state events, and GPS location
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-quick-facts-audit.png)
 
 #### Dynamics security
 
