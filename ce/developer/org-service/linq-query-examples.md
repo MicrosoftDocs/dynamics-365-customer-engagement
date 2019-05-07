@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/linq-query-examples
 title: "LINQ query examples (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic contains many samples of LINQ queries. These samples demonstrate use of Simple Where clause, Join and simple where clause, Distinct operator, simple inner join, Self join and Double and multiple joins"
 ms.custom: 

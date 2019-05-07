@@ -103,6 +103,12 @@ Most of the insights displayed for a lead are the same as those shown for contac
 
 For leads associated with an account rather than a single contact, the insights combine interactions made by all contacts that belong to that account.
 
+## Account insights
+
+To view account insights, go to **Marketing** > **Customers** > **Accounts**, select an account record, and then open its **Insights** tab.
+
+Most of the insights displayed for an account are the same as those shown for contacts as previously described in [Contact insights](#contact-insights), except that subscription list interactions are not provided. These insights represent the combined interactions of all contacts associated with that account (these are contacts that have that account listed as their **Account name**; they usually represent employees of that company).
+
 ## Segment insights
 
 To view segment insights, go to **Marketing** > **Customers** > **Segments**, select a segment record, and then open its **Insights** tab. Here you can see how the membership of your selected segment has changed over time.
