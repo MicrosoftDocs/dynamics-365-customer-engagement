@@ -14,7 +14,7 @@ applies_to:
 author: jimholtz
 ms.assetid: e7e8ea24-0872-42e6-bec3-bcf362a26450
 caps.latest.revision: 15
-ms.author: jimholtz
+ms.author: matp
 manager: kvivek
 ---
 # Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises)
