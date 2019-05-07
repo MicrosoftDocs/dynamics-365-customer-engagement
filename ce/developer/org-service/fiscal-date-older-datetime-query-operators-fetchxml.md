@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-fiscal-date-older-datetime-query-operators
 title: "Fiscal date and older than datetime query operators in FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to use FetchXML fiscal data conditional operators and &quot;older than&quot; clauses for date and time values"
 ms.custom: 

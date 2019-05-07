@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-multiple-queryexpression-class
 title: "Sample: Retrieve multiple with the QueryExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve multiple entities using the QueryBase) method with QueryExpression along with their related entity columns. The code returns columns from the primary account record as well as the firstname and lastname of the primary contacts associated with the account"
 ms.custom: 

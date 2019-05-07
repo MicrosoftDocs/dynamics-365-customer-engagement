@@ -58,30 +58,30 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
 ## Close Omni-channel Advanced Search
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Close Omni-channel Advanced Search     |
-    | General | Order | 1 |
-    | General | Hosted Control | Omni-channel Advanced Search |
-    | General | Action         | Close             |
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name           | Close Omni-channel Advanced Search     |
+   | General | Order | 1 |
+   | General | Hosted Control | Omni-channel Advanced Search |
+   | General | Action         | Close             |
 
 ## Update Conversation Context Entities
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Update Conversation Context Entities    |
-    | General | Order | 2 |
-    | General | Hosted Control | Communication Panel |
-    | General | Action         | OmnichannelUpdateContextEntities |
-    | General | Data | ChatPayLoad=\[\[PostData\]\] |
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name           | Update Conversation Context Entities    |
+   | General | Order | 2 |
+   | General | Hosted Control | Communication Panel |
+   | General | Action         | OmnichannelUpdateContextEntities |
+   | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
 ## Load Agent Session Search Page
-    | Tab | Field | Value |
-    |------------------|------------------|------------------|
-    | General | Name           | Load Agent Session Search Page    |
-    | General | Order | 20 |
-    | General | Hosted Control | Omni-channel Advanced Search |
-    | General | Action         | Navigate |
-    | General | Data | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off <br> HideNavigationBar=true |
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name           | Load Agent Session Search Page    |
+   | General | Order | 20 |
+   | General | Hosted Control | Omni-channel Advanced Search |
+   | General | Action         | Navigate |
+   | General | Data | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off <br> HideNavigationBar=true |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 3: Attach Omni-channel Advanced Search-related action calls to events](advanced-search-step3-attach-action-calls-events.md)

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table
 title: "CampaignItem intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The CampaignItem intersect entity is the intersect table for several many-to-many relationships for the Campaign entity"
 ms.custom: 

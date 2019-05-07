@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-multiple-querybyattribute-class
 title: "Sample: Retrieve multiple with the QueryByAttribute class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use QueryByAttribute in the QueryBase) method"
 ms.custom: 

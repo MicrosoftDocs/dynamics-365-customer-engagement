@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/order-results-entity-attributes-linq
 title: "Order results using entity attributes with LINQ (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use lookup or OptionSet (Picklist) attributes to order results within a LINQ query"
 ms.custom: 
