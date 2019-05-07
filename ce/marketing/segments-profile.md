@@ -43,9 +43,9 @@ This topic describes how to work with profile segments. For more about interacti
 
 To create a dynamic segment, go to **Marketing** > **Customers** > **Segments** and then select **New** on the command bar. A new segment is created. Set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of *query clauses*, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
 
-## Define a segment group
+## Define a query group
 
-Each group in your segment must result in a list of contacts, which are selected by the logic defined in that group. Each group must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query group might query the contact entity alone, but a more complex one could pass through several entities.
+Each group in your segment query must result in a list of contacts, which are selected by the logic defined in that group. Each group must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query group might query the contact entity alone, but a more complex one could pass through several entities.
 
 > [!TIP]
 > The segmentation designer now supports fields of all data types supported by Dynamics 365 for Customer Engagement, including: option set, two option set, multiple option set, single line of text, multiple line of text, whole number, floating number, decimal number, currency, look up, date time, and customer.
@@ -99,7 +99,7 @@ Lookup fields also provide a special operator called **has**. Use this operator 
 
 ### Example: Define a simple segment based on contacts
 
-A simple segment group uses the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
+A simple query uses a single group that references the contact entity only. When you create this type of segment definition, set up a query with clauses that test various field values from your contact records and combine the various clauses using the logical operators AND and OR. For an example, see the tutorial [Create a dynamic segment](create-segment.md).
 
 ### Move between entities with relationships
 
@@ -136,14 +136,14 @@ Here's an example of how to define a segment that starts by finding a collection
 1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
-    ![Close the default group](media/segment-opportunity-close-group.png "Close the default group")
+    ![Close the default query group](media/segment-opportunity-close-group.png "Close the default query group")
 
     Do the following:
 
     - Enter a **Name** for the segment at the top of the page.
-    - Select the close button to remove the default contact group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with opportunities instead.
+    - Select the close button to remove the default contact-based query group from the **Designer** area. Many of your segments will probably start and end with the contact entity, but for this example we will start with opportunities instead.
 
-1. When default contact group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)  
+1. When default group closes, it's replaced by a **Select a profile or relationship** drop-down list. Select **Opportunity** from here. (If you don't see the **Opportunity** entity listed here, then you probably need to set up syncing for this entity as described in the first step of this procedure; note that it can take up to half an hour for a new entity to appear in this list after the first sync.)  
     ![Select the waitlist-item entity](media/segment-opportunity-choose-entity.png "Select the waitlist-item entity")
 
 1. Complete the row to create the clause:  
@@ -160,9 +160,9 @@ Here's an example of how to define a segment that starts by finding a collection
 
 1. Your segment is now live and will now find contacts associated with opportunities valued over $10,000.
 
-## Combine segment groups
+## Combine query groups
 
-A simple segment might have just one group, but you can create and combine as many groups as needed. As a result, you can create highly sophisticated queries.
+A simple segment might have just one query group, but you can create and combine as many groups as needed. As a result, you can create highly sophisticated queries.
 
 You combine groups, working first group to last, by using the following operators:
 
