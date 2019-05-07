@@ -2,7 +2,7 @@
 title: "Design dynamic profile segments in the standard view (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to use the standard view to construct segments in Dynamics 365 for Marketing"
 keywords: segment; compound segment
-ms.date: 04/01/2019
+ms.date: 05/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -114,7 +114,7 @@ _PrimaryEntity_ **->** _SecondaryEntity_ **(**_FieldName_**)**
 Where:
 
 - ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. For example, a *contact* (primary entity) can be related to an *account* (secondary entity) through the account's *primary contact* field (field name).
-- ***FieldName*** is the name of the field through which the relation is established. It is always shown in parenthesis. The named field belongs to the primary entity, and displays a value from the secondary entity (but actually contains the ID of the related record that value is drawn from). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
+- ***FieldName*** is the name of the field through which the relation is established. It is always shown in parenthesis. The named field belongs to the primary entity, and displays a value from the secondary entity (but actually contains the ID of the related record that value is drawn from). In some cases, you might see two or more relationships between the same two entities, each of which flows through a different field.
 - ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow.
 
 When you're choosing relationships, either the primary entity or the secondary entity must be the entity of the previous clause, while the other entity must the be one you are changing to with the next clause after the relation. Relationships work in both directions, so it doesn't matter which is the primary and which is the secondary.
