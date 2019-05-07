@@ -28,6 +28,7 @@ search.app:
 
 # Learn the basics of Field Service Mobile
 
+The Field Service Mobile app is what field technicians use to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. Here are some of the basic details of the application.
 
 ## Supported platforms and minimum OS
 
@@ -53,49 +54,73 @@ Installing Field Service Mobile involves downloading the "Field Service Mobile" 
 
 ## Upgrade
 
-New versions of the Field Service Mobile app are released in similar cadences to Dynamics 365 and can be downloaded and applied to your mobile phone or tablet the same as any other app via your app store. In some cases such as with Windows 10, downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
+New versions of the Field Service Mobile app are released in similar cadences to Dynamics 365 for Field Service and can be downloaded and applied to your mobile phone or tablet the same as any other app via your app store. In some cases such as with Windows 10, downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
 
 The mobile configuration tool is also upgraded periodically and new releases can enable you to configure and customize the Field Service Mobile app in new ways.
 
 ## Authentication
 
 ### OAuth2
-The main security token for the application is the application master password. The application uses this master password to encrypt the application database and other sensitive information stored in Mobile CRM application, as described later in more detail.
+The main security token for the application is the application master password. The application uses this master password to encrypt the application database and other sensitive information stored in Field Service Mobile app.
 
-In case of legacy authentication methods which require the app to submit the user’s password to server (standard user, external user), the server password is used for encrypting the application master password for user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
+In case of legacy authentication methods which require the app to submit the user’s password to the server (standard user, external user), the server password is used for encrypting the application master password for user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
 
 Regarding password storage, the app can be configured to either:
 
 - Require the user to enter the password each time the application is launched (or resumed from background), or
-- Store the password in the device secure storage so that the user does not need to type it in repeatedly
+- Store the password in the device's secure storage so that the user does not need to type it in repeatedly
 
 ### Multi-factor authentication (MFA)
-Multi-factor authentication based on Office 365 Azure Active Directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message to user sign-ins and transactions.  
+Multi-factor authentication based on the related Office 365 tenant Azure Active Directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message to user sign-ins and transactions.  
 
 ## Security
 
-Data encryption
+### Data encryption
 
-Synchronization
+Data encryption is based on an application key. The application key is randomly generated and protected by the user password. The key is used to encrypt all local Field Service data. The details of this procedure are explained below.
 
-    Synchronization log
+The application generates the random application key when it creates its local database. Afterwards, it is stored in an encrypted form on the device file system and the application decrypts it when needed. The application key AES256 is used together with the user password (PBKDF2), a random IV and salt for encryption/decryption.
 
-Mobile device management (MDM)
+The following explains how the application key is used to secure application data. Remember, there are two data stores: the database and the blob store (attachments).
 
-Lock
+For encrypting the SQLite database, the application key is passed to the SQLite database driver.
 
-Wipe
+The driver uses the application key and IV to encrypt/decrypt individual database pages using AES128 in CFB mode. Each page (1024 bytes) is encrypted separately. The IV is the page header (contains variable/unpredictable data).
 
-Force Full Sync
+Each file in the blob store (attachment store) contains a header with random IV (16 bytes) and encrypted data. The blob data is encrypted with AES256 in CBC mode using the application key, file header IV. PKCS7 is used for data alignment.
 
-Dynamics security
+### Synchronization
 
-https://microsoft.sharepoint.com/:p:/t/FPSCentaurusFieldReadiness/ET54Gmhca8tAoskh9VybyB4B2e1JIKBM4MKhm9CsiwDBnA?e=lKuVpv 
+Synchronization is when the Field Service Mobile app calls the server for new or updated data. As an example, the app will need to synchronize to the server for a field technician to see a new work order booking scheduled by the dispatcher. 
+
+The app can perform a synchronization manually, timed, or on available connection.
+
+- If password stored, sync is automatic​
+- If password isn’t stored, requires password entry to sync
+
+The system also tracks a **synchronization log** that tracks when users last synced and on what devices.
+
+### Mobile device management (MDM)
+
+**Lock** - If a device is stolen or there are concerns about the security of offline data, the administrator is able to lock the application remotely on a single device, or a whole group of devices, in just one click and block the user from opening the application.
+
+**Wipe** - In the worst-case scenario you can completely wipe out the data from the application. All is done remotely just by one click and regardless the synchronization. This means that you delete the data remotely from the mobile device and nobody will be longer available to see them.
+
+**Force Full Sync** - By just one click, you can force the application to perform a full synchronization of the data during the next synchronization of the app.
+
+#### Dynamics security
+
+For accessing Dynamics 365 for Field Service entities and fields, the Field Service Mobile app utilizes the Dynamics 365 security role and field security profile framework. In addition, entities and fields can be further restricted at the mobile app level, but a user cannot access any entity or field that could not be accessed in Dynamics 365.
 
 
 ## Key capabilities
 
-Offline mode
+**Native application** - Field Service Mobile is a native application on the Windows, iOS, and Android platforms. Because a native app is built for use on a particular device and its OS, it has the ability to better use device-specific hardware and software such as the camera and microphone.
+
+**Offline and Online mode** - Field Service Mobile has full offline capabilities when the mobile app is in "offline mode". This means work order details and other valuable data can be downloaded locally to the field technicians' phones and tablets to use when internet connectivity is not available. When a field technician is working in "online mode"
+  sync filters
+
+GPS 
 
 Camera
 
