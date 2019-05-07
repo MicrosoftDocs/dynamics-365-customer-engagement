@@ -70,6 +70,12 @@ This matrix describes supported versions of Microsoft Dynamics 365 for Customer 
 | Unified Service Desk 4.0 | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") |
 | Unified Service Desk 3.3 | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") |
 
+> [!Note]
+> In the following scenarios, we recommend upgrading your Unified Service Desk and/or Customer Engagement to the latest version.
+> - If you are using the Unified Service Desk 3.3 or a higher version and a version lesser than Customer Engagement 8.2, we recommend upgrading your Customer Engagement instance to the latest version.
+>
+> - If you are upgrading from a older version to the latest version of Unified Service Desk but the using a version lesser than Customer Engagement 8.2, we recommend upgrading your Customer Engagement instance to the latest version. 
+
 <a name="SampleApps"></a>   
 ## Software requirements for deploying Unified Service Desk sample applications  
  To deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application, an instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps (online or on-premises) as per the above mentioned matrix is mentioned.
