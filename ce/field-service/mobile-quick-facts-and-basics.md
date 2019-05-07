@@ -102,6 +102,11 @@ The system also tracks a **synchronization log** that tracks when users last syn
 
 ### Mobile device management (MDM)
 
+**Application sessions** - Require Login after X minutes of inactivity – after defined time in minutes Field Service Mobile asks for the password to continue using it.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/mobile-quick-facts-application-sessions.png)
+
 **Lock** - If a device is stolen or there are concerns about the security of offline data, the administrator is able to lock the application remotely on a single device, or a whole group of devices, in just one click and block the user from opening the application.
 
 **Wipe** - In the worst-case scenario you can completely wipe out the data from the application. All is done remotely just by one click and regardless the synchronization. This means that you delete the data remotely from the mobile device and nobody will be longer available to see them.
@@ -109,7 +114,7 @@ The system also tracks a **synchronization log** that tracks when users last syn
 **Force Full Sync** - By just one click, you can force the application to perform a full synchronization of the data during the next synchronization of the app.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/mobile-quick-facts-lock-wipe-sync.png)
 
 #### Dynamics security
 
@@ -127,7 +132,7 @@ For accessing Dynamics 365 for Field Service entities and fields, the Field Serv
 | Server data in real time | Data stored on device |
 | No data stored locally | All data encrypted by default 1) File storage encrypted to AES 256 2) Data storage encrypted to AES 128 |
 | Requires internet connection | Data sent to device can be limited to records necessary for time, user or role |
-| Any and all entities can be forced to “Online” only mode | Can scheduled sync with server at intervals |
+| Any and all entities can be forced to “Online” only mode | Can schedule server syncs at intervals |
 
 
 **GPS** - The phone or tablet's GPS used for location services is extremely valuable for field service scenarios allowing an organization to schedule work orders to the closest available field technician, calculating arrival times to customer locations, and geofencing. 
@@ -140,14 +145,15 @@ For accessing Dynamics 365 for Field Service entities and fields, the Field Serv
   2. Scan the barcode of an existing asset to automatically locate the asset record in the database. This ensures that new data is entered on the correct asset record for accurate service history.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/mobile-quick-facts-barcode.png)
 
 **Dictation** - Allow field technicians to enter notes and important work order data using the device's speech-to-text capabilities. Particularly helpful for field technicians who wear protective gloves and cannot type information into mobile forms, but would rather simply select a field and talk.
 
-**Signature** - Capture a digital signature from a customer in the mobile form often as approval of completed work. For more comprehensive and legally binding requirements, digital signature service providers can be integrated with.
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/mobile-quick-facts-speech-text.png)
+
+
+**Signature** - Capture a digital signature from a customer in the mobile form often as approval of completed work. For more comprehensive and legally binding requirements, digital signature service providers can be integrated with.
 
 **Email integration** - Access emails, calendar, events and contacts by enabling Exchange and other email providers on the mobile app without having to toggle to another mobile app.
 
@@ -157,5 +163,5 @@ For accessing Dynamics 365 for Field Service entities and fields, the Field Serv
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/mobile-quick-facts-push-notifications-ios.png)
 
