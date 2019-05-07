@@ -29,25 +29,85 @@ search.app:
 # Learn the basics of Field Service Mobile
 
 
-Supported Platforms
+## Supported platforms and minimum OS
 
-OS requirements Minimum version requirements
+- Windows 10 desktop + tablet
+- iOS 8.0+ phones + tablets
+- Android 5.0+ phones + tablets
 
-Device requirements
+## Device requirements
 
-Security
+**Available Space:** how much space required on the phone depends on how much DB space is needed based on the quantity of records that an organization is having sync for mobile. You can connect to your organization with the app and go to the app's settings on your phone to see how much space the app is utilizing. Note: this amount can and will change based on how much data the app has to sync from the organization. Also note that you should account for how much data will be needed outside of Field Service Mobile (e.g. photos, texts, other apps). 
 
-Install
+**RAM:** Minimum 512MB, 1GB is highly recommended, particularly for organizations with lots of records and customizations. That said, how much RAM is required really depends on how many apps a user will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications, and so on, should provide mobile devices that have a minimum of 2 GB of RAM.
 
-Upgrade
+**Processor:** a common recommendation is to have a clock speed of ~1.4 GHz at a minimum. Again, what other apps will be running should be taken into consideration. 
 
-Authentication
+**Camera:** autofocus is required for both QR and barcode scanning. 
 
-Key capabilities
+**GPS:** GPS is required if wanting to use any GPS/location functionalities such as navigating, utilizing maps, or location auditing.
 
-Previous versions 
+## Install
+
+Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation (web + mobile) doc](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet).
+
+## Upgrade
+
+New versions of the Field Service Mobile app are released in similar cadences to Dynamics 365 and can be downloaded and applied to your mobile phone or tablet the same as any other app via your app store. In some cases such as with Windows 10, downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
+
+The mobile configuration tool is also upgraded periodically and new releases can enable you to configure and customize the Field Service Mobile app in new ways.
+
+## Authentication
+
+### OAuth2
+The main security token for the application is the application master password. The application uses this master password to encrypt the application database and other sensitive information stored in Mobile CRM application, as described later in more detail.
+
+In case of legacy authentication methods which require the app to submit the user’s password to server (standard user, external user), the server password is used for encrypting the application master password for user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
+
+Regarding password storage, the app can be configured to either:
+
+- Require the user to enter the password each time the application is launched (or resumed from background), or
+- Store the password in the device secure storage so that the user does not need to type it in repeatedly
+
+### Multi-factor authentication (MFA)
+Multi-factor authentication based on Office 365 Azure Active Directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message to user sign-ins and transactions.  
+
+## Security
+
+Data encryption
+
+Synchronization
+
+    Synchronization log
+
+Mobile device management (MDM)
+
+Lock
+
+Wipe
+
+Force Full Sync
+
+https://microsoft.sharepoint.com/:p:/t/FPSCentaurusFieldReadiness/ET54Gmhca8tAoskh9VybyB4B2e1JIKBM4MKhm9CsiwDBnA?e=lKuVpv 
 
 
+## Key capabilities
+
+Offline mode
+
+camera
+
+speech to text
+
+signature
+
+## Previous versions 
+
+Before Field Service Mobile, two other mobile apps were used for previous versions of Dynamics 365 for Field Service
+
+Field Service Mobile (2017)
+
+Field Service Mobile (2018)
 
 
 
@@ -61,15 +121,7 @@ Previous versions
 ## Configuration considerations
 ## Additional Notes
 
-Available Space: how much space required on the phone depends on how much DB space is needed based on the quantity of records that an organization is having sync for mobile. You can connect to your organization with the app and go to the app's settings on your phone to see how much space the app is utilizing. Note: this amount can and will change based on how much data the app has to sync from the organization. Also note that you should account for how much data will be needed outside of Field Service Mobile (e.g. photos, texts, other apps). 
-
-RAM: Minimum 512MB, 1GB is highly recommended, particularly for organizations with lots of records and customizations. That said, how much RAM is required really depends on how many apps a user will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications, and so on, should provide mobile devices that have a minimum of 2 GB of RAM.
-
-Processor: a common recommendation is to have a clock speed of ~1.4 GHz at a minimum. Again, what other apps will be running should be taken into consideration. 
-
-Camera: autofocus is required for both QR and barcode scanning. 
-
-GPS: GPS is required if wanting to use any GPS/location functionalities such as navigating, utilizing maps, or location auditing.  
+  
 
 OS Specific Requirements: iOS 8+, Android 4.4+, and Windows 10.  
 

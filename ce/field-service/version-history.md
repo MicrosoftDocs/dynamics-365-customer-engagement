@@ -49,7 +49,15 @@ search.app:
 |  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |  
 
 
+## Field Service Mobile version history
 
+## Previous versions 
+
+Field Service Mobile
+
+Field Service Mobile (2017)
+
+Field Service Mobile (2018)
 
 ## Mobile project file library
 
