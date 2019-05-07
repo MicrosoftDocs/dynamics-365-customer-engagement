@@ -31,9 +31,9 @@ search.app:
 
 ## Supported platforms and minimum OS
 
-- Windows 10 desktop + tablet
-- iOS 8.0+ phones + tablets
-- Android 5.0+ phones + tablets
+- Windows 10, desktop + tablet
+- iOS 8.0+, phones + tablets
+- Android 5.0+, phones + tablets
 
 ## Device requirements
 
@@ -88,6 +88,8 @@ Wipe
 
 Force Full Sync
 
+Dynamics security
+
 https://microsoft.sharepoint.com/:p:/t/FPSCentaurusFieldReadiness/ET54Gmhca8tAoskh9VybyB4B2e1JIKBM4MKhm9CsiwDBnA?e=lKuVpv 
 
 
@@ -95,21 +97,19 @@ https://microsoft.sharepoint.com/:p:/t/FPSCentaurusFieldReadiness/ET54Gmhca8tAos
 
 Offline mode
 
-camera
+Camera
 
-speech to text
+Barcode scanning
 
-signature
+Speech to text
 
-## Previous versions 
+Signature
 
-Before Field Service Mobile, two other mobile apps were used for previous versions of Dynamics 365 for Field Service
+Email integration
 
-Field Service Mobile (2017)
+Access documents
 
-Field Service Mobile (2018)
-
-
+Push notifications
 
 ## Prerequisites
 > [!Note]
@@ -128,29 +128,51 @@ OS Specific Requirements: iOS 8+, Android 4.4+, and Windows 10. 
 
 
 Mobile engineer capabilities - Engineers require a mobile application supported on multiple HW/SW platforms and in different languages which is usable in an on- and off line mode. One engineer may use multiple mobile devices, like a smart phone plus a PC. All devices must synchronize to the dispatch system so that a user can transparently work on any of these devices.
+
 Mobile engineer capabilities - Please describe the concept of your solution for mobile engineers
+
 View Engineer plan, receive, view and accept work order - The mobile application needs to give engineers the ability to understand and manage their work order assignments:
 please comment on the extent to which these features are available when there is no connection to the internet:
+
 Report progress - Engineers must be able to update progress of work orders during the delivery process. The mobile application should allow updates independently of whether there is an online connection.
 Manage Spare Parts - Engineers must have the capability to manage Spare Parts on the mobile application. Can the tool:
+
 View technical documentation -
+
 Collaborate with dispatch and other resources, support, sales
+
 Collaborate with dispatch and other resources, support, sales - please provide any additional details
+
 Manage customer signatures and forms Q1 - Does your solution support the capture of customer electronic signature on the mobile device? If yes, how is this integrated into a document workflow that can replace paper signatures and how is the security of signatures managed? Please also describe what other forms of electronic signature you support
+
 Manage customer signatures and forms Q2 - Do you support other forms of electronic signature?  If yes, please describe.
+
 Manage customer signatures and forms Q3 - In case there are legal requirements for paper documents, Does your solution provide capabilities to generate and print paper documents using work order data? Can these documents be easily sent to a local printer or emailed to the customer?
+
 Take pictures and attach to work orders - Can your solution take pictures (using the mobile device) and attach them to the work order so that they are synced back to the work order management system?
+
 Use device camera to populate work order fields - Today, the work order closure process is highly manual and requires many steps and entries.Can your solution support a more automated process that utilises data captured through the work order and guides the user to just add the missing pieces?
+
 Perform work order closure - Today, the work order closure process is highly manual and requires many steps and entries.  Can your solution support a more automated process that utilizes data captured through the work order and guides the user to just add the missing pieces? If yes, please describe
+
 Perform work order closure Q2 - The current work order closure process involves the following items.  Please confirm which are supported by your solution.
+
 Capture current engineer location using GPS technology. Please mark check boxes if your solution provides:
+
 Update engineer availability
+
 Case and Work order creation capability - Please describe whether your solution enables the request for creation of additional work orders through the mobile device. Typical situations are
+
 Case and Work order creation capability - Please provide any other related functionality
+
 Alerts for work order progress - The mobile solution must be able to alert the engineer to take action when planned work order milestones are not achieved in time.  Please comment on how you solution handles alerts of this type
+
 Alerts for work order progress Q2 - Can your mobile solution alert the engineer if one of their work orders has been updated by someone else or the system?
+
 Connection status
+
 Manage engineer and user attributes - Finding appropriate field resources, engineers, resident engineers or partners for work orders depends heavily on known field resource capabilities and attributes. These attributes are stored in Salesforce within HPE
+
 Please comment on how your solution would use this information
 Access rights and management capabilities Q1 - Explain the resource configuration capabilities and if they support multiple profiles with different data access permissions (Engineers, dispatchers, managers)
 Access rights and management capabilities Q2 - Explain the resource configuration capabilities and if they support Internet / Intranet access requirement
