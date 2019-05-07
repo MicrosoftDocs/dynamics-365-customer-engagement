@@ -117,24 +117,23 @@ For accessing Dynamics 365 for Field Service entities and fields, the Field Serv
 
 **Native application** - Field Service Mobile is a native application on the Windows, iOS, and Android platforms. Because a native app is built for use on a particular device and its OS, it has the ability to better use device-specific hardware and software such as the camera and microphone.
 
-**Offline and Online mode** - Field Service Mobile has full offline capabilities when the mobile app is in "offline mode". This means work order details and other valuable data can be downloaded locally to the field technicians' phones and tablets to use when internet connectivity is not available. When a field technician is working in "online mode"
-  sync filters
+**Offline and Online mode** - Field Service Mobile has full offline capabilities when the mobile app is in "offline mode". This means work order details and other valuable data can be downloaded locally to the field technicians' phones and tablets to use when internet connectivity is not available. When a field technician is working in "online mode" then the data on the mobile app reflects the server data. The mobile app can be put into online mode at all times, only when the device is connected to Wifi, when the field technician manually toggles to online mode, or never. In addition, **sync filters** allow administrators yo decide which entities and records should be downloaded locally for offline mode. As an example, an administrator can say only this week's work orders should be downloaded by filtering based on date.
 
-GPS 
+**GPS** - The phone or tablet's GPS used for location services is extremely valuable for field service scenarios allowing an organization to schedule work orders to the closest available field technician, calculating arrival times to customer locations, and geofencing. 
 
-Camera
+**Camera**
 
-Barcode scanning
+**Barcode scanning**
 
-Speech to text
+**Speech to text**
 
-Signature
+**Signature**
 
-Email integration
+**Email integration**
 
-Access documents
+**Access documents**
 
-Push notifications
+**Push notifications**
 
 ## Prerequisites
 > [!Note]
