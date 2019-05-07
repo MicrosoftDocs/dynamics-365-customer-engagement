@@ -28,13 +28,12 @@ You need to name the label and apply the directive. If you name the label as `Ne
 
 `<p [appTranslate]="'NewLabel'">this is my new paragraph</p>`
 
-After you add the directive in the code, you need to add the label in your localization files located under `/Localization` folder. It contains many files named in `portalLCID.json` format. To add the translated label, modify the `portal1033.json` file. It contains the labels in the JSON format, so to add the new label you can append the following JSON object to the file:
+After you add the directive in the code, you need to add the label in your localization files located under `/Localization` folder. This directory contain a JSON file for each language that is supported. The localization files use the [Windows Language Code Identifier (LCID)](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f) as naming schema (e.g. `1033.json`). 
+
+To add the translated label, modify the `1033.json` file (this file contains all english translations). It contains the labels in the JSON format, so to add the new label you can append the following to the JSON object:
 
 ```JSON
-"NewLabel": {
-  "Purpose": "This only describes the purpose of this label",
-  "Value": "this is my new paragraph in English"
-}
+"NewLabel": "this is my new paragraph in English"
 ```
 
 After doing this, the resulting paragraph should contain the text `this is my new paragraph in English`, if you have selected English as a current website language. Since you have added the label for English only, other languages default to the original text `this is my new paragraph`.
