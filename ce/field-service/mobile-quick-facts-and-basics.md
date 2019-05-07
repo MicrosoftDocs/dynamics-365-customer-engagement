@@ -179,4 +179,5 @@ For accessing Dynamics 365 for Field Service entities and fields, the Field Serv
 ### See also
 
 [Mobile configurations and customizations](../field-service/mobile-app-configuration-customization.md)
+
 [Push notifications](../field-service/mobile-push-notifications.md)
