@@ -58,7 +58,7 @@ This topic provides information about the system requirements for installing the
 
 ## Support matrix of Microsoft Dynamics 365 for Customer Engagement and Unified Service Desk
 
-Unified Service Desk supports last three releases (N-2 format). On the release of next version of Unified Service Desk, oldest supported version will be deprecated.
+Unified Service Desk supports the last three releases (N-2 format). On the release of the next version of Unified Service Desk, the oldest supported version will be deprecated.
 
 The latest release is Unified Service Desk 4.1.
 
@@ -72,9 +72,9 @@ This matrix describes supported versions of Microsoft Dynamics 365 for Customer 
 
 > [!Note]
 > In the following scenarios, we recommend upgrading your Unified Service Desk and/or Customer Engagement to the latest version.
-> - If you are using the Unified Service Desk 3.3 or a higher version and a version lesser than Customer Engagement 8.2, we recommend upgrading your Customer Engagement instance to the latest version.
+> - If you install Unified Service Desk 4.1 or a higher version and Customer Engagement 8.2 or a lesser version, we recommend upgrading your Customer Engagement instance to the latest version.
 >
-> - If you are upgrading from a older version to the latest version of Unified Service Desk but the using a version lesser than Customer Engagement 8.2, we recommend upgrading your Customer Engagement instance to the latest version. 
+> - If you upgrade from an older version to the latest version of Unified Service Desk but the using Customer Engagement 8.2 or a lesser version, we recommend upgrading your Customer Engagement instance to the latest version.
 
 <a name="SampleApps"></a>   
 ## Software requirements for deploying Unified Service Desk sample applications  
