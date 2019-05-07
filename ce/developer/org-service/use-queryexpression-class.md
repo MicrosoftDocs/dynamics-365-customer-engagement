@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-queryexpression-class
 title: "Use the QueryExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "In Dynamics 365 for Customer Engagement (online) Customer Engagement, you can use the QueryExpression class to build complex queries for use with the IOrganizationService.QueryBase) method or the RetrieveMultipleRequest message"
 ms.custom: 

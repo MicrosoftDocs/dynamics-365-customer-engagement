@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata#retrieve-entity-relationships
 title: "Sample: Retrieve with one-to-many relationship (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The following sample shows how to use the QueryBase) method to return the 1:N related entities of an entity along with the primary entity"
 ms.custom: 

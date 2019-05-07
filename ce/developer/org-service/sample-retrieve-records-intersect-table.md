@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table
 title: "Sample: Retrieve records from an intersect table (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve records from an intersect table"
 ms.custom: 

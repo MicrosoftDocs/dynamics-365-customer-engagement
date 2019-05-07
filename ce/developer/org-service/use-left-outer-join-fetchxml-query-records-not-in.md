@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-left-outer-join-query-records-not-in
 title: "Use a left outer join in FetchXML to query for records &quot;not in&quot; (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Read how to use a left outer join in FetchXML to perform a query that filters on the join table and build a query to find records “not in” a set"
 ms.custom: 

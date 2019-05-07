@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table
 title: "Retrieve records for many-to-many relationships using intersect entities (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "An intersect entity is automatically created when there is a many-to-many (N:N) relationship between two entities. Read how you can retrieve records for many-to-many relationships using intersect entities. This topic lists the intersect entities that are used in N:N relationships between default entities"
 ms.custom: 

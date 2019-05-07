@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-querybyattribute-class
 title: "Use the QueryByAttribute class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "In Dynamics 365 for Customer Engagement (online) Customer Engagement, you can use the QueryByAttribute class to build queries that test a set of attributes against a set of values"
 ms.custom: 
