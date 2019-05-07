@@ -47,51 +47,43 @@ This topic provides information about the system requirements for installing the
  To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on a computer, the following is required:  
 
 | Requirement | Recommended Version | Supported Version|
-|---------------------------|---------------------------|---------------------|
+|---------------------------|---------------------------|-------------------------------------|
 | Operating system | <ul><li>[!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul> |<ul><li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
-| Web browser | <ul><li> [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] </li><li> Microsoft Edge (Preview)</li></ul> | <ul><li> [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)] </li><li> Microsoft Edge (Preview)</li></ul> |
+| Hosting Types | <ul><li> Chrome Process </li></ul> | <ul><li> Chrome Process </li><li> IE Process</li><li>Edge Process</li></ul> **Note:** Currently Edge Process is in Preview. |
 | Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> |  |
 | Windows Identity Foundation  | <ul><li> Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) </li></ul> |  |
 | Screen resolution | <ul><li> 1920 x 1080 (Pixels) </li></ul> |  |
-| Magnifier | <ul><li> 100 % </li></ul> |  
+| Magnifier | <ul><li> 100 % </li></ul> |
 
-  > [!Tip]
-  > We recommend that you use [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] and [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)].
-  > 
-  > [!IMPORTANT]
-  > [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)] (Preview) is currently supported for use with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. More information: [Edge Process](../edge-process.md).
+
+## Support matrix of Microsoft Dynamics 365 for Customer Engagement and Unified Service Desk
+
+Unified Service Desk supports last three releases (N-2 format). On the release of next version of Unified Service Desk, oldest supported version will be deprecated.
+
+The latest release is Unified Service Desk 4.1.
+
+This matrix describes supported versions of Microsoft Dynamics 365 for Customer Engagement and Unified Service Desk and compatible versions.
+
+| | Customer Engagement 9.1 | Customer Engagement 9.0 | Customer Engagement 8.2 |
+|:---------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+| Unified Service Desk 4.1 |![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") |
+| Unified Service Desk 4.0 | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") |
+| Unified Service Desk 3.3 | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") | ![Yes](../../unified-service-desk/media/tick.PNG "Yes") |
 
 <a name="SampleApps"></a>   
 ## Software requirements for deploying Unified Service Desk sample applications  
- To deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application, an instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)] is required.  
-
-::: moniker range=">=dynamics-usd-4.1"
+ To deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application, an instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps (online or on-premises) as per the above mentioned matrix is mentioned.
 
 > [!IMPORTANT]
->  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.1 with [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.1 for Dynamics 365 for Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2086721).
+>  We recommend that you upgrade to the lastest version of [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] for Customer Engagement and Unified Service Desk so you can use the new features available.  
+> [Get Unified Service Desk 4.1 for Dynamics 365 for Customer Engagement apps now](../download-unified-service-desk.md).
 
-::: moniker-end
-
-::: moniker range="=dynamics-usd-4" 
-
-> [!IMPORTANT]
->  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0 for Dynamics 365 for Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
-
-::: moniker-end
 
  For information about the sample applications available for this release, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
- The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. The tool supports and requires the following technologies:  
-
-- For running the tool, use one of these [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] versions: [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)], [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)], [!INCLUDE[pn_Windows_Server_2008_R2](../../includes/pn-windows-server-2008-r2.md)].
-
-- An instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)].  
-
-- Additionally, [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] 3.0 or later is required if you’ll be using [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../includes/pn-package-deployer-short.md)] to deploy sample applications. To check your [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] version, open a [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] window, and then run the following command: `$Host`  
+ The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. For more information on the requirements, see [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)  
 
 <a name="appvirtual"></a>   
 ## Software requirements for Citrix XenApp application virtualization  
