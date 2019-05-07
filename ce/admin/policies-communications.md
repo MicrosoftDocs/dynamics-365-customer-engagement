@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/02/2019
+ms.date: 05/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: e351e995-d299-4817-8e84-0a70743627bd
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -118,16 +118,16 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
  To limit the impact on users, the maintenance window is planned according to the region where environments are deployed. The following list shows the maintenance window for each region. The times are shown in Coordinated Universal Time (UTC, which is also known as Greenwich Mean Time).
  
-- OCE: 11 AM to 9 PM
-- JPN: 10 AM to 7 PM
+- OCE: 10 AM to 8 PM
+- JPN: 9 AM to 6 PM
 - APJ: 2 PM to 8 PM
 - IND: 7:30 PM to 1 AM
-- EUR: 6 PM to 3 AM
-- GBR: 6 PM to 3 AM
-- SAM: 12 AM to 10 AM
+- EUR: 5 PM to 2 AM
+- GBR: 5 PM to 2 AM
+- SAM: 11 PM to 9 AM
 - CAN: 1 AM to 10 AM
-- NAM: 2 AM to 11 AM
-- GCC: 2 AM to 11 AM
+- NAM: 1 AM to 10 AM
+- GCC: 1 AM to 10 AM
 - DEU: 5 PM to 2 AM
 
 **Prior notification**  
