@@ -1,7 +1,7 @@
 ---
 title: "Incident Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
-ms.date: 04/02/2019
+ms.date: 05/07/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -66,6 +66,9 @@ Service request case associated with a contract.
 <a name="writable-attributes"></a>
 
 ## Writable attributes
+
+> [!WARNING]
+> If you see the error `Entity: Incident does not have valid status code`, make sure that you have valid values of both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes mentioned in the request body. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.
 
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
@@ -1180,6 +1183,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
+<a name ="BKMK_StateCode_options"></a>
+
 #### StateCode Options
 
 |Value|Label|DefaultStatus|InvariantName|
@@ -1201,6 +1206,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|statuscode|
 |RequiredLevel|None|
 |Type|Status|
+
+<a name ="BKMK_StatusCode_options"></a>
 
 #### StatusCode Options
 
