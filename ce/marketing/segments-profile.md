@@ -47,12 +47,15 @@ To create a dynamic segment, go to **Marketing** > **Customers** > **Segments** 
 
 Each group in your segment must result in a list of contacts, which are selected by the logic defined in that group. Each group must therefore establish a path through various entities, each linked through relations, and which ends with the contact entity. A simple query group might query the contact entity alone, but a more complex one could pass through several entities.
 
+> [!TIP]
+> The segmentation designer now supports fields of all data types supported by Dynamics 365 for Customer Engagement, including: option set, two option set, multiple option set, single line of text, multiple line of text, whole number, floating number, decimal number, currency, look up, date time, and customer.
+
 > [!NOTE]
 > While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
 
 ### Build a clause that finds standard field values
 
-*Standard fields* are fields where users can freely enter any value (of the correct data type). A typical example is the **First Name** field of the contact entity. Users are free to enter any text in this field, and the field is directly part of the contact entity. The following illustration shows how to construct a clause based on a standard field.
+*Standard fields* are fields where users can freely enter any value (of the appropriate data type). A typical example is the **First Name** field of the contact entity. Users are free to enter any text in this field, and the field is directly part of the contact entity. The following illustration shows how to construct a clause based on a standard field.
 
 ![A clause based on a standard field](media/segment-clause-standard.png "A clause based on a standard field")
 
@@ -70,7 +73,13 @@ Legend:
 
 *Option-set fields* are fields that accept a limited set of specific input values. They are typically presented to users as drop-down lists in input forms. For example, the contact entity might include a **Role** field that provides specific options such as **Decision Maker**, **Employee**, and **Influencer**.  The available values are part of the entity itself, so they don't refer to any related entities.
 
-Option-set fields work in nearly the same way as the standard fields described in the previous section. The only difference is that when you are entering the value, you'll only be able to choose from among the values defined in the entity for that option set. As with standard fields, you can specify multiple values, which are combined with an OR operator.
+Option-set fields work in nearly the same way as the standard fields described in the previous section. The only difference is that when you are entering the value(s), you'll only be able to choose from among the values defined in the entity for that option set. As with standard fields, you can specify multiple values, which are combined with an OR operator.
+
+### Build a clause that finds multiple option-set values
+
+*Multiple option-set fields* are nearly the same as option-set fields, but they allow each record to accept multiple values while option-set fields accept just a single value. For example, the contact entity might include a **Favorite pets** field that provides the values **Dogs**, **Cats**, and **Birds**, and each contact might have none, one, two, or all three of these values applied to it.
+
+In the segment designer, multi option-set fields provide operators that appropriate for processing multiple values. For example, you can list several values and set the operator to **contains all of** (to only find contacts where *all listed values* are present) or **contains any of** (to find all contacts that have *at least one* of the listed values).
 
 ### Create a clause that finds a lookup value
 
