@@ -90,7 +90,7 @@ This matrix describes supported versions of Microsoft Dynamics 365 for Customer 
 
 You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only have Unified Interface experience. To enable the Web Client experience, set **No** for the **Use the new Unified Interface Only** option in the system settings. More information: [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
-After you enable Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
+After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
 <a name="appvirtual"></a>   
 ## Software requirements for Citrix XenApp application virtualization  
