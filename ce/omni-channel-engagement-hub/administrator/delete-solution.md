@@ -32,7 +32,7 @@ This topic describes how to delete the older solution from your Customer Engagem
     >
     > - When you sign in to a different app in the Customer Engagement organization, then select the default Customer Engagement app and perform the steps 2 and 3.
 
-2. On the nav bar, Choose **Settings** > **Solutions**.
+2. On the nav bar select the down arrow button, and choose **Settings** > **Solutions**.
 
 3. On the Solutions page, select the **OmnichannelCustomerServiceHub** solution by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed.
 
