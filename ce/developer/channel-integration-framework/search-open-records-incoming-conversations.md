@@ -40,7 +40,6 @@ The sample given below covers four scenarios:
 
 1. Open the basic widget that you created using the steps mentioned in [Get started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below. <br />
-
 ![Open Index.cshtml file from solution explorer](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
 
 ```html
@@ -57,8 +56,9 @@ The sample given below covers four scenarios:
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
-        height: 85px;
-        width: 350px;
+        height: 55px;
+        width: 200px;
+        font-size: 12px;
     }
 </style>
 
@@ -74,7 +74,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555";
             var entityname = "account";
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}`+"'", false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
@@ -83,7 +83,6 @@ The sample given below covers four scenarios:
                     console.log(error.message);
                 }
             );
-            // renderSearchPage API allows you to search among the records of a particular entity type
                 Microsoft.CIFramework.renderSearchPage(entityname, contactno).then(
                     function (success) {
                         console.log(success);
@@ -99,7 +98,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555";
             var entityname = "account";
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
@@ -115,7 +114,7 @@ The sample given below covers four scenarios:
             // search and show search results , then user selects one of the records, associate a record with the phone call
             var contactno = "555-5555";
 
-            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
@@ -125,7 +124,7 @@ The sample given below covers four scenarios:
                 }
             );
 
-            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].fullname}, Telephone number: ${res[0].telephone1}`);
@@ -139,20 +138,21 @@ The sample given below covers four scenarios:
             // search and show empty search results
             // create new contact
             // associate new contact to session
-            var contactno = "5510239395-5555";
-            var entityname = "account";
+            var contactno = "0000-00000-21";
+            var callername = "Contoso Ltd.";
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
                 function success(result) {
                     res = JSON.parse(result);
-                    console.log(res);
-                    if (res[0].name == null) {
+                   // console.log(res);
+                    // Check if the JSON response returned by the request is empty
+                    if (isEmpty(res)) {
                         console.log("No records");
                         // Creating new Account record
-                        var entityLogicalName = "account";
+                        var entityLogicalName = entityname;
                         var data = {
-                            "name": "Contoso Ltd.",
-                            "telephone1": "555-555"
+                            "name": callername,
+                            "telephone1": contactno
                         }
                         var jsondata = JSON.stringify(data);
 
@@ -191,8 +191,9 @@ The sample given below covers four scenarios:
 Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this.<br />
 
   ![Published sample widget in Unified Interface apps](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
- 
 
 ## See also
 
-[Get started with building a simple communication widget](getting-started-simple-widget.md)
+[Get started with building a simple communication widget](getting-started-simple-widget.md)<br />
+[Sample code for softphone integration](sample-softphone-integration.md)<br />
+[Frequently asked questions](faq-channel-integration-framework.md)
