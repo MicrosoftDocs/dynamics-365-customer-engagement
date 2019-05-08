@@ -28,7 +28,7 @@ This topic describes how to delete the solution from the previous releases from 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization as system administrator.
 
     > [!Note]
-    > - When you sign in to a different app in the Customer Engagement organization, then select the default Customer Engagement app and perform the steps 2 and 3.
+    > When you sign in to a different app in the Customer Engagement organization, then select the default Customer Engagement app and perform the steps 2 and 3.
 
 2. On the nav bar select the down arrow button, and choose **Settings** > **Solutions**.
 
