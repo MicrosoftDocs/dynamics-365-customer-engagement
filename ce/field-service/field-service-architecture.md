@@ -28,7 +28,10 @@ search.app:
 
 # Field Service Work Order Architecture
 
-The most important process in Field Service is the 
+The most important process in Field Service is the work order process where work orders are created, scheduled to resources, performed by field technicians, and completed and reviewed. The following diagram can help you understand the various entities, attributes, and relationships that enable the work order process.
+
+
+
 > [!Note]
 >
 
