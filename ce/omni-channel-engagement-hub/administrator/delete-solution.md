@@ -25,7 +25,12 @@ This topic describes how to delete the older solution from your Customer Engagem
 
 ## Delete the OmnichannelCustomerServiceHub solution
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization.
+
+    > [!Note]
+    > - You must sign in with your system administrator credentials.
+    >
+    > - When you sign in to a different app in the Customer Engagement organization, then select the default Customer Engagement app and perform the steps 2 and 3.
 
 2. On the nav bar, Choose **Settings** > **Solutions**.
 
