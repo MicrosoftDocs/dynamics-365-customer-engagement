@@ -36,6 +36,9 @@ This topic describes how to delete the older solution from your Customer Engagem
 
 3. On the Solutions page, select the **OmnichannelCustomerServiceHub** solution by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed.
 
+    > [!div class=mx-imgBorder]
+    > ![Delete Omni-channel Solution](../media/oceh-admin-delete-solution.png "Delete Omni-channel Solution")  
+
 The **OmnichannelCustomerServiceHub** solution is deleted form your Customer Engagement organization.
 
 ## See also
