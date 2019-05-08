@@ -74,7 +74,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555";
             var entityname = "account";
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}`+"'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
@@ -98,7 +98,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555";
             var entityname = "account";
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
@@ -114,7 +114,7 @@ The sample given below covers four scenarios:
             // search and show search results , then user selects one of the records, associate a record with the phone call
             var contactno = "555-5555";
 
-            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].name}, Telephone number: ${res[0].telephone1}`);
@@ -124,7 +124,7 @@ The sample given below covers four scenarios:
                 }
             );
 
-            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(`Record values: Name: ${res[0].fullname}, Telephone number: ${res[0].telephone1}`);
@@ -138,18 +138,20 @@ The sample given below covers four scenarios:
             // search and show empty search results
             // create new contact
             // associate new contact to session
-            var contactno = "0000-00000-21";
+            var contactno = "000040000021";
             var callername = "Contoso Ltd.";
 
-            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "&$search=" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
-                   // console.log(res);
+                    console.log(res);
                     // Check if the JSON response returned by the request is empty
-                    if (isEmpty(res)) {
-                        console.log("No records");
+                    if (Object.keys(res).length == 0) {
+                        console.log("No records with contact number as " + contactno);
+                        console.log("Creating a new Account record");
+
                         // Creating new Account record
-                        var entityLogicalName = entityname;
+                        var entityLogicalName = "account";
                         var data = {
                             "name": callername,
                             "telephone1": contactno
