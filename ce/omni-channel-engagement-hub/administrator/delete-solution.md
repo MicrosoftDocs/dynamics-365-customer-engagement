@@ -1,5 +1,5 @@
 ---
-title: "Delete a Omni-channel solution | MicrosoftDocs"
+title: "Delete Omni-channel solutions | MicrosoftDocs"
 description: "Learn how to delete a Omni-channel solution from the Microsoft Dynamics 365 for Customer Engagement organization."
 keywords: ""
 author: kabala123
@@ -13,17 +13,17 @@ ms.assetid: 9DD734AE-8137-427C-A4BE-F4B2A0E58C00
 ms.custom: 
 ---
 
-# Delete a Omni-channel solution
+# Delete Omni-channel solutions
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you upgrade your Omni-channel Engagement Hub to the latest release certain managed solutions appears in the **Solutions** page of your Microsoft Dynamics 365 for Customer Engagement organization.
+When you upgrade your Omni-channel Engagement Hub to the latest release, certain managed solutions appears in the **Solutions** page of your Microsoft Dynamics 365 for Customer Engagement organization. After the upgrade, you must delete the solution from the previous release if it is not already deleted.
 
-This topic describes how to delete the older solution from your Customer Engagement organization.
+This topic describes how to delete the solution from the previous releases from your Customer Engagement organization.
 
-## Delete the OmnichannelCustomerServiceHub solution
+## Delete OmnichannelCustomerServiceHub solution
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization.
 
