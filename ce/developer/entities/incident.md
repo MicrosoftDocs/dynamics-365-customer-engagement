@@ -67,9 +67,6 @@ Service request case associated with a contract.
 
 ## Writable attributes
 
-> [!WARNING]
-> If you see the error `Entity: Incident does not have valid status code`, make sure that you have valid values of both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes mentioned in the request body. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.
-
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ActivitiesComplete](#BKMK_ActivitiesComplete)
@@ -1196,6 +1193,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
+
+> [!WARNING]
+> If you see the error `Entity: Incident does not have valid status code`, make sure that you have used valid values of both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes in the request body. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.
 
 |Property|Value|
 |--------|-----|
