@@ -19,22 +19,22 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you upgrade your Omni-channel Engagement Hub to the latest release, certain managed solutions appears in the **Solutions** page of your Microsoft Dynamics 365 for Customer Engagement organization. After the upgrade, you must delete the solution from the previous release if it is not already deleted.
+When you upgrade Omni-channel Engagement Hub to the latest release, certain managed solutions appears in the **Solutions** page of your Microsoft Dynamics 365 for Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if it is not already deleted.
 
 This topic describes how to delete the solution from the previous releases from your Customer Engagement organization.
 
 ## Delete OmnichannelCustomerServiceHub solution
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization as system administrator.
 
     > [!Note]
-    > - You must sign in with your system administrator credentials.
-    >
     > - When you sign in to a different app in the Customer Engagement organization, then select the default Customer Engagement app and perform the steps 2 and 3.
 
 2. On the nav bar select the down arrow button, and choose **Settings** > **Solutions**.
 
-3. On the Solutions page, select the **OmnichannelCustomerServiceHub** solution by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed.
+3. On the **Solutions** page, select the **OmnichannelCustomerServiceHub** solution and then choose **Delete**. 
+
+4. A confirmation message appears prompting you to uninstall a managed solution. Choose **OK**. 
 
     > [!div class=mx-imgBorder]
     > ![Delete Omni-channel Solution](../media/oceh-admin-delete-solution.png "Delete Omni-channel Solution")  
