@@ -66,4 +66,6 @@ This diagram references the same work order process diagram above but with commo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order process diagram with common names](./media/admin-field-service-architecture-common.png)
 
+### See also
 
+[Connected Field Service Architecture](../field-service/developer/connected-field-service-architecture)
