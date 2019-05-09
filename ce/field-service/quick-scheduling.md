@@ -37,22 +37,30 @@ Within the same window of a work order, a new panel displays available time slot
 
 This is great for several scenarios:
 
-1. Organizations with a high volume of bookings that need to quickly schedule. 
+1. Organizations with a high volume of bookings they need to quickly schedule. 
 2. Organizations with homogeneous resources who are more concerned with quickly understanding availability and do not need the extra information and filter abilities of the schedule assistant.
 3. For users who scheduling is a smaller proportion of their job. As an example, a customer service rep spends most of his or her time handling customer issues, and the few times he or she needs to schedule it should be quick and easy.
 
-When quick scheduling is not enabled, the book button defaults to the full schedule assistant experience that displays without quick book enabled, the book button triggers the SF
+When quick scheduling is not enabled, the book button defaults to the full schedule assistant experience that displays additional information and filter options for more comprehensive resource assigning.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-schedule-assistant.png)
 
 ## Prerequisites
 
 - Field Service v8.7+
-- In Field Service v8.7 quick book capabilities need to be enabled in RS > Settings > Administration > Enable resource scheduling for entities > select an entity work orders set enable quick book to yes
-- In Field Service v8.8+ Quick Book is Yes by default
-
 > [!Note]
->
+> In Field Service v8.7 quick book capabilities need to be enabled, but in v8.8+ quick book is enabled by default. Quick booking onsite requirements is only available in v8.8+
+
+Enable quick scheduling by going to Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities
+
+Then double click an entity to display the entities Booking Setup Metadata.
+
+Set **Enable Quick Book** to **Yes**.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-enable-quick-book.png)
 
 create a work order
 
