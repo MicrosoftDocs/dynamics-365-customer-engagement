@@ -65,14 +65,16 @@ The sample given below covers four scenarios:
 <html>
 <body>
     <br /><br />
-    <script type="text/javascript" src="https://lpmars.crm.dynamics.com/webresources/Widget/msdyn_ciLibrary.js" data-crmurl="https://lpmars.crm.dynamics.com" data-cifid="CIFMainLibrary">
+    <!--Replace <ORG-URL> in the script tag below with the URL of your Dynamics 365 instance -->
+    <script type="text/javascript" src="<ORG-URL>/webresources/Widget/msdyn_ciLibrary.js" data-crmurl="<ORG-URL>" data-cifid="CIFMainLibrary">
     </script>
     <script>
+
         function singlematch() {
             // The customer phone number matches one contact in Dynamics 365
             // Search and screen pop to the contact
-            var contactno = "555-5555";
-            var entityname = "account";
+            var contactno = "555-5555"; // The contact number to be searched
+            var entityname = "account"; // Entity type whose records to be searched
 
             Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
@@ -83,14 +85,6 @@ The sample given below covers four scenarios:
                     console.log(error.message);
                 }
             );
-                Microsoft.CIFramework.renderSearchPage(entityname, contactno).then(
-                    function (success) {
-                        console.log(success);
-                    },
-                    function (error) {
-                        console.log(error);
-                    }
-                ); 
         }
         function multiplematchsingletype() {
             // More than one contacts are matched with same phone number
@@ -114,6 +108,7 @@ The sample given below covers four scenarios:
             // search and show search results , then user selects one of the records, associate a record with the phone call
             var contactno = "555-5555";
 
+            // Search for contact number of the incoming call in Account entity records
             Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
@@ -124,6 +119,7 @@ The sample given below covers four scenarios:
                 }
             );
 
+            // Search for contact number of the incoming call in Contact entity records
             Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
@@ -157,10 +153,12 @@ The sample given below covers four scenarios:
                             "telephone1": contactno
                         }
                         var jsondata = JSON.stringify(data);
-
+                        
+                        // use createRecord API to create a new entity record
                         Microsoft.CIFramework.createRecord(entityLogicalName, jsondata).then(
                             function success(result) {
                                 res = JSON.parse(result);
+                                // Print the AccountID of the created Account record on the console
                                 console.log("Account record created with ID: " + res.id);
                             })
                     }
