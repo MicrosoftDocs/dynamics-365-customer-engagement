@@ -49,13 +49,17 @@ To set up a recurring event:
 
 1. Set up your event by giving it a name and making other basic settings on the **General** tab as usual, but don't leave the **General** tab yet.
 
-  **IMPORTANT**: When you're setting up a recurring event, set the recurring schedule before you add any sessions to the agenda. This ensures that your sessions are correctly created as recurring sessions (with relative start dates) rather than absolute sessions (that have a fixed calendar date and therefore won't recur).
+    > [!IMPORTANT]
+    > When you're setting up a recurring event, set the recurring schedule before you add any sessions to the agenda. This ensures that your sessions are correctly created as recurring sessions (with relative start dates) rather than absolute sessions (that have a fixed calendar date and therefore won't recur).
 
-1. In the **Schedule** section on the **General** tab, set **This is a recurring event** to **Yes**. The **Event Recurrence** section opens.  
+1. In the **Schedule** section on the **General** tab, set **This is a recurring event** to **Yes**. The **Event recurrence** section opens.  
 
     ![Event recurrence settings](media/event-recurring-setup.png "Event recurrence settings")
 
 1. Use the settings in the **Event recurrence** section to establish the pattern for your schedule of occurrences. The example shown in the previous screenshot creates a series where each event runs from 9:00 AM – 5:00 PM on the first Monday every other month, and which ends after 10 occurrences.
+
+    > [!NOTE]
+    > The maximum number of recurrences is 150. If you enter a combination of settings that would produce more than 150 recurrences, you will get a warning and won't be able to save the event until you adjust your settings.
 
 1. Select **Save** in the bottom-right corner of the window.
 

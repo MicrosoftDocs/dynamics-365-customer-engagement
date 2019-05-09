@@ -2,7 +2,7 @@
 
 ## [Overview](overview.md)
 ## [Marketing videos](marketing-videos.md)
- 
+
 ## [Administrator Guide](admin-guide.md)
 
 ### [Set up and manage Marketing instances](setup-manage-instances.md)
