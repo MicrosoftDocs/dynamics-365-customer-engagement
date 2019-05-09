@@ -74,7 +74,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 ## Client caching store location  
  When enabled, client caching stores its files in a compressed and encrypted format in the users roaming directory: %appData%\Microsoft\USD  
   
- For example, for a user called agent1 running the client application on [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], the client caching files will be available at c:\Users\agent1\AppData\Roaming\Microsoft\USD.  
+ For example, for a user called agent1 running the client application on [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], the client caching files will be available at `c:\Users\agent1\AppData\Roaming\Microsoft\Microsoft\Microsoft Dynamics 365 Unified Service Desk`.  
   
  Information in this directory can only be accessed by the user account that created it.  
   
