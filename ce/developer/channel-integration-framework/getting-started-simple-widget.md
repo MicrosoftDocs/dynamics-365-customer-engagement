@@ -83,6 +83,11 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
   ![Published sample widget in Unified Interface apps](media/cif-helloworld-configure-app.PNG "Published sample widget in Unified Interface apps")<br />
 
+Now, proceed to the next section of this walkthrough that shows how you can search and open a record in Dynamics 365  on an incoming call.<br />
+
+> [!div class="nextstepaction"]
+> [Search and open records on an incoming conversation](search-open-records-incoming-conversation.md)
+
 ### See also
 
 [Sample code for softphone integration](sample-softphone-integration.md)<br />
