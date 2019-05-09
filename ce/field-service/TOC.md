@@ -9,6 +9,7 @@
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
+## [Work order process architecture](field-service-architecture.md)
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
