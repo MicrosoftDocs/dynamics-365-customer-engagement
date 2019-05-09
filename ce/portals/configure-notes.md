@@ -3,7 +3,7 @@ title: "Configure notes on entity forms and web forms for a portal in Dynamics 3
 description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 05/09/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,7 +26,7 @@ search.app:
 Just like with subgrids, adding notes to your managed forms on the portal is easy&mdash;just add the notes control to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form through the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer and you're done. You can configure the behavior of the notes control by using metadata.
 
 > [!Note]                                                           
-> Explicit [Entity Permissions](assign-entity-permissions.md) are required for any notes to appear on the portal. For read and edit, the Read and Write privileges must be granted. For create, two permissions must exist: a permission with the Create and Append privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the Append To privilege granted.
+> Explicit [Entity Permissions](assign-entity-permissions.md) are required for any notes to appear on the portal. For read and edit, the Read and Write privileges must be granted. For create, two permissions must exist: a permission with the Create and Append privileges must be granted for the note (annotation) entity, the second permission must be assigned to the entity type the note is being attached to with the Append To privilege granted. The **Enable Entity Permissions** check box must be selected on the corresponding entity form or web form step for the entity permissions to take effect.
 
 ## Notes configuration for entity forms
 
