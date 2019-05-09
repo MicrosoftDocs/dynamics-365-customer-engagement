@@ -47,6 +47,9 @@ To view and manage omni-channel users, see [Manage users in Omni-channel Engagem
 
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
+> [!NOTE]
+> Agents should be assigned **Channel Access** role in addition to Omni-channel Agent role.
+
 |Role  |Privileges  |
 |---------|---------|
 |**Omni-channel Administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
@@ -73,10 +76,8 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 ||Can view operating hours |
 |**Omni-channel Agent**  |Can view user list / presence list / work stream list / queue list|
 ||Can view quick replies|
-|||
-
-> [!NOTE]
-> Agents should be assigned **Channel Access** role in addition to Omni-channel Agent role. 
+|**Channel Access**  |Can access Omni-channel records||
+||
 
 
 ### See also
