@@ -53,9 +53,12 @@ Before any scheduling can take place, a bookable resource must be created that r
 
 Finally, when it's time to schedule a work order, you assign a requirement to a resource and this creates a booking. You can think of a booking as a scheduled time slot for a specific resource. Requirements are scheduled via numerous methods including manual drag and drop on the schedule board, schedule assistant, and resource scheduling optimization. Field technicians will see their daily, weekly, and monthly bookings on their Field Service Mobile calendar.
 
-Field technicians can also track the status of the bookings they are working on by editing the status of the booking to traveling, in progress, on break, completed, and custom statuses. Each status change is recorded in the system as a Booking Timestamp and eventually Booking Journals, which are used to understand the time and labor cost of a booking.
+Field technicians can also track the status of the bookings they are working on by editing the status of the booking to traveling, in progress, on break, completed, and custom statuses. Each status change is recorded in the system as a Booking Timestamp and eventually Booking Journals, which are used to calculate the time and labor cost of a booking. As an example, a booking timestamp and booking journal help an organization understand the total time a field technician travels to a work order location and this can be utilized for reporting and billing.
+
+While performing a work order, field technicians may "use" products and services indicating that a part was needed and a specific labor type was performed and can be billed to the work order customer (billing account). Though these products and services were previously added to the work order, they were originally listed in the Product Catalog. In the case of products which represent physical parts and not labor, they are tracked in Inventory and are replenished with the Purchasing process that relies on submitting and receiving purchase orders.
 
 This diagram references the same work order process diagram above but with common names.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of work order process diagram with common names](./media/admin-field-service-architecture-common.png)
+
 
