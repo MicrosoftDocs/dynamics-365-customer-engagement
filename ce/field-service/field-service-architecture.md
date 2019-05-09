@@ -49,7 +49,11 @@ Lastly, on a work order you can define time and resource preferences that specif
 
 All of the important work order details that relate to scheduling are passed to an automatically generated related entity called a Resource Requirement that is used to assign the work order to the most appropriate resource (field technician). The resource requirement framework is partly what allows any entity to be scheduled such as cases, opportunities, or custom entities.
 
-Before any scheduling can take place, a bookable resource must be created that represents an employee, contractor, equipment, facility or anything that needs to be scheduled. When creating a bookable resource you can add attributes that distinguish them from each other.
+Before any scheduling can take place, a bookable resource must be created that represents an employee, contractor, equipment, facility or anything that needs to be scheduled. When creating a bookable resource you can add attributes that distinguish them from each other like location, organizational unit, role, characteristics (skills), and more.
+
+Finally, when it's time to schedule a work order, you assign a requirement to a resource and this creates a booking. You can think of a booking as a scheduled time slot for a specific resource. Requirements are scheduled via numerous methods including manual drag and drop on the schedule board, schedule assistant, and resource scheduling optimization. Field technicians will see their daily, weekly, and monthly bookings on their Field Service Mobile calendar.
+
+Field technicians can also track the status of the bookings they are working on by editing the status of the booking to traveling, in progress, on break, completed, and custom statuses. Each status change is recorded in the system as a Booking Timestamp and eventually Booking Journals, which are used to understand the time and labor cost of a booking.
 
 This diagram references the same work order process diagram above but with common names.
 > [!div class="mx-imgBorder"]
