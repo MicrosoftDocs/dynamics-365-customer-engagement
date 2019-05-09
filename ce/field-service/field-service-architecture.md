@@ -30,10 +30,11 @@ search.app:
 
 The most important process in Field Service is the work order process where work orders are created, scheduled to resources, performed by field technicians, and completed and reviewed. The following diagram can help you understand the various entities, attributes, and relationships that enable the work order process.
 
+This diagram references the specific entity names in the application. See a diagram with common names at the end of this article. 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/admin-field-service-architecture.png)
+> ![Screenshot of the specific entity names in the application](./media/admin-field-service-architecture.png)
 
-The work order entity holds the details of the job that needs to be completed. This includes work order type, status, duration, priority and more. Work orders are related to the standard Dynamics Account entity in that specifying a service account on the work order adds related account information such as territory, address, geocode (latitude and longitude), price list, and more. For instances where the work order location (service account) is different than the billing location, you can relate a service account to a billing account. 
+The work order entity holds the details of the job that needs to be completed. This includes basic details such as work order type, status, duration, priority and more. Work orders are related to the standard Dynamics Account entity in that specifying a service account on the work order adds related account information such as territory, address, geocode (latitude and longitude), price list, and more. For instances where the work order location (service account) is different than the billing location, you can relate a service account to a billing account. 
 
 > [!Note]
 > A service account and billing account are both simply Account entity records. The only difference is which account is entered in the Service Account and Billing Account work order fields, though organizations can distinguish between the two with their own business processes. 
@@ -42,8 +43,15 @@ Service accounts are also important when creating Agreements which are used to a
 
 Service accounts are also important for Customer Assets. Adding a service account to a customer asset implies the piece of equipment is located at the service account location. Work orders related to a customer asset maintenance, inspection, repair should correlate to the asset's service account.
 
+Beyond adding basic details and an account to a work order, you can add revenue and cost items that better define the specific work to be done. Work order incidents are a defined package of service tasks, products, services, and characteristics (skills) that are recommended. This makes creating a work order faster because rather than adding service tasks, products, services, and characteristics (skills) manually one by one, you can simply add an incident that effectively serves as a template and will populate these items.
 
+Lastly, on a work order you can define time and resource preferences that specify when a work order should be completed to meet an SLA.
 
-## Configuration considerations
-## Additional Notes
+All of the important work order details that relate to scheduling are passed to an automatically generated related entity called a Resource Requirement that is used to assign the work order to the most appropriate resource (field technician). The resource requirement framework is partly what allows any entity to be scheduled such as cases, opportunities, or custom entities.
+
+Before any scheduling can take place, a bookable resource must be created that represents an employee, contractor, equipment, facility or anything that needs to be scheduled. When creating a bookable resource you can add attributes that distinguish them from each other.
+
+This diagram references the same work order process diagram above but with common names.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of work order process diagram with common names](./media/admin-field-service-architecture-common.png)
 
