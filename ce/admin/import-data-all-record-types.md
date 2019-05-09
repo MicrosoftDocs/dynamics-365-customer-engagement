@@ -1,7 +1,7 @@
 ---
 title: "Import data (all record types) for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/30/2019
+ms.date: 05/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -34,6 +34,9 @@ Importing data is often the first important task that you need to perform after 
 2. Preparing data maps for mapping data contained in the source file to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps record fields. You must map every column in the source file to an appropriate field. Unmapped data isn’t imported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Select a data map](../basics/select-data-map.md)  
   
 There are several ways to import data into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps:  
+
+> [!NOTE]
+> We recommend limiting your import to 20K rows or fewer.
   
 1. To import large volumes of data, we recommend a programmatic way, as most efficient. When you import data programmatically, you gain additional capabilities that are not available when you use other methods of importing data. These advanced capabilities include viewing stored source data, accessing error logs and creating data maps that include complex transformation mapping, such as concatenation, split, and replace. See [Import data](../developer/import-data.md).
   
