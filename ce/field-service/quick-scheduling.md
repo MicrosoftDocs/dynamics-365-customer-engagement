@@ -28,25 +28,31 @@ search.app:
 
 # Quick scheduling
 
-simplify the schedule assistant experience to make the scheduling process quicker.
+Quick scheduling simplifies the schedule assistant experience to make scheduling easier and quicker.
 
-great for organizations that have a high volume of bookings and want to simplify the scheduling process..health club
-great for scenarios where the focus is more on availablity and less on finding the absolute best resource
-single click
+Within the same window of a work order, a new panel displays available time slots for booking with a single click.
 
-without quick book enabled, the book button triggers the SF
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book.png)
+
+This is great for several scenarios:
+
+1. Organizations with a high volume of bookings that need to quickly schedule. 
+2. Organizations with homogeneous resources who are more concerned with quickly understanding availability and do not need the extra information and filter abilities of the schedule assistant.
+3. For users who scheduling is a smaller proportion of their job. As an example, a customer service rep spends most of his or her time handling customer issues, and the few times he or she needs to schedule it should be quick and easy.
+
+When quick scheduling is not enabled, the book button defaults to the full schedule assistant experience that displays without quick book enabled, the book button triggers the SF
 
 ## Prerequisites
 
 - Field Service v8.7+
 - In Field Service v8.7 quick book capabilities need to be enabled in RS > Settings > Administration > Enable resource scheduling for entities > select an entity work orders set enable quick book to yes
-- In Field Service v8.8+ Enable Quick Book is Yes by default
+- In Field Service v8.8+ Quick Book is Yes by default
 
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 create a work order
 
@@ -66,6 +72,8 @@ filters
 
 open schedule assistant
 
+requirement group
+
 ## Configuration considerations
 
 successfully booked message is not configurable 
@@ -73,6 +81,8 @@ successfully booked message is not configurable
 quick book again adds on a booking
 
 org level setting, not for certain users or security roles
+
+combine with fulfillment preference
 
 ## Additional Notes
 - quick scheduling as long as there is a book button and the related entity has it enabled
