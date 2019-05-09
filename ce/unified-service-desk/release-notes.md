@@ -260,7 +260,7 @@ when you launch Unified Service Desk, the application displays the login screen 
 
 If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
 
-`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
 
 Open the recent log file in the notepad. Search for the following message - 
 
@@ -449,7 +449,7 @@ when you launch Unified Service Desk, the application displays the login screen 
 
 If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
 
-`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
 
 Open the recent log file in the notepad. Search for the following message - 
 
@@ -462,7 +462,7 @@ One of the reason for the application crash is due to caching of multiple tokens
 To resolve the Unified Service Desk application crash issue, follow the steps.
 
 1. Go to the location following in your computer. <br>
-	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk`
 	
 2. In the location, you will see the following file.<br>
 **Default_USD.tokens.dat** file. 
