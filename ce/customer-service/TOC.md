@@ -25,28 +25,28 @@
 ## Service Manager Guide
 ### [Understand Service Manager](service-manager-guide.md)
 ### Case Settings
-### [Create and manage queues](set-up-queues-manage-activities-cases.md)
-### [Define parent and child case settings](define-settings-parent-child-cases.md)
-### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
-### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
-### [Automatically create a case from an email](automatically-create-case-from-email.md)
-### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
+#### [Create and manage queues](set-up-queues-manage-activities-cases.md)
+#### [Define parent and child case settings](define-settings-parent-child-cases.md)
+#### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
+#### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
+#### [Automatically create a case from an email](automatically-create-case-from-email.md)
+#### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 ### Service Terms
-### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
-### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
-### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
-### [Create and manage holiday schedule](set-up-holiday-schedule.md)
-### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
-### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+#### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
+#### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
+#### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
+#### [Create and manage holiday schedule](set-up-holiday-schedule.md)
+#### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
+#### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
 ### Templates
-### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
-### [Create email templates](../admin/create-templates-email.md)
-### [Create article templates](../admin/create-templates-articles.md)
+#### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
+#### [Create email templates](../admin/create-templates-email.md)
+#### [Create article templates](../admin/create-templates-articles.md)
 ### Knowledge Base Management
-### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
-### [Create and manage categories](create-manage-categories.md)
+#### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
+#### [Create and manage categories](create-manage-categories.md)
 ### Similar Record Suggestions
-### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
+#### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
 
 ## Service Scheduling Guide
