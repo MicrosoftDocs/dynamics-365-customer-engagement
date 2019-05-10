@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/build-queries-with-linq-net-language-integrated-query
 title: "Build queries with LINQ (.NET language-integrated query) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how to use .NET Language-Integrated Query (LINQ) to write queries in Dynamics 365 for Customer Engagement (online & on-premises)"
 ms.custom: 

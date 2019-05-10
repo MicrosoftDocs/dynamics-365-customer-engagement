@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/convert-queries-fetch-queryexpression
 title: "Sample: Convert queries between Fetch and QueryExpression (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to convert queries between FetchXML and Query Expression"
 ms.custom: 

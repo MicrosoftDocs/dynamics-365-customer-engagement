@@ -51,11 +51,11 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
 4. Add specific field permissions, such as Create, Update or Read for a specific attribute to the profile  
   
-   The following diagram shows the interaction between role-based security, record-based security, and field-level security.  
+   The following diagram shows the interaction between role-based security and field-level security.
   
    ![Role&#45;based compared to field&#45;level security](../media/crm-v5s-sm-fieldlevelsecurity.png "Role-based compared to field-level security")  
   
-   Role-based security lets you see a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
+   Role-based security lets you see records of a specific entity type, record-based security lets you see individual records, and field-level security lets you see specific fields.  
   
    [Video: Field Level Security in Microsoft Dynamics CRM 2015](http://youtu.be/Czc9sKvWd9k)  
   

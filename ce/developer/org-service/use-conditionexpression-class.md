@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-conditionexpression-class
 title: "Use the ConditionExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the ConditionExpression class to compare an attribute to a value or set of values by using an operator, such as “equal to” or “greater than”"
 ms.custom: 

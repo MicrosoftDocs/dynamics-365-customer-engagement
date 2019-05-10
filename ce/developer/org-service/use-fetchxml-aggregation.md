@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-aggregation
 title: "Use FetchXML aggregation (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read about the grouping and aggregation features of FetchXML that let you calculate sum, average min, max and count"
 ms.custom: 

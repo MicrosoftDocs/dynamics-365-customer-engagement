@@ -63,9 +63,6 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | [1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | January 2017  | Field Service v6.1 and  **Field Service Mobile (2017)** 9.0+ | 9.1 |
 | [1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | June 2016  |  Field Service v6.0 and **Field Service Mobile (2016)** 8.0 | 8.0 |
 
-- . 
-- .
-
 ## Additional notes
 
  - New Dynamics 365 trials created through [https://trials.dynamics.com](https://trials.dynamics.com) will install the latest generally available Field Service solution. 

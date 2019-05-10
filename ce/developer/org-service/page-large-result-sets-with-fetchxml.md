@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/page-large-result-sets-with-fetchxml
 title: "Page large result sets with FetchXML (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can page the results of a FetchXML query by using the paging cookie"
 ms.custom: 

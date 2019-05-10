@@ -104,7 +104,7 @@ To use assist-edit:
     - Select **Property** to place a field directly from the entity you chose on the previous page. As with the relationship, you can also search here.
 1. At the bottom of the dialog, you now see the final expression. Select **OK** to place that expression.
 
-When you are selecting a relationship in assist-edit, the options are displayed using one of the following naming convention:
+When you are selecting a relationship in assist-edit, the options are displayed using one of the following naming conventions:
 
 _PrimaryEntity_ **->** _FieldName_ **(**_SecondaryEntity_**)**  
 _FieldName_ **(**_PrimaryEntity_**)** **->** _SecondaryEntity_
@@ -221,15 +221,15 @@ Conditional (if-then-else) statements display content depending on whether one o
 Conditional statements take the following form:
 
  ```Handlebars
-{{#if (<operator> <value1> <value>)}}
-      Content displayed when the expression is true
-{{else if (<operator> <value1> <value>)}}
-      Content displayed when the first expression is false and the second one is true
+{{#if (<operator> <value1> <value2>)}}
+    Content displayed when the expression is true
+{{else if (<operator> <value1> <value2>)}}
+    Content displayed when the first expression is false and the second one is true
 .
 .
 .
 {{else}}
-      <p>Content displayed when all expressions are false</p>
+    Content displayed when all expressions are false
 {{/if}}
 ```
 
