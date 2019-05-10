@@ -1,13 +1,13 @@
 ---
 title: "getValue (Client API reference)| MicrosoftDocs"
-ms.date: 10/16/2018
+ms.date: 05/10/2019
 ms.service: crm-online
 ms.topic: reference
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: acc78a1e-212a-4eef-88c5-8272f9ba3009
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -29,7 +29,7 @@ All
 
 ## Return Value
 
-**Type**: Depends on the type of attaribute. 
+**Type**: Depends on the type of attribute. 
 
 | Attribute Type | Return Type| 
 |----|-----|
