@@ -22,15 +22,16 @@
 #### [Create and manage parent and child cases](user-guide-customer-service.md#create-and-manage-parent-and-child-cases)
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
-## [Service Manager Guide](service-manager-guide.md)
+## Service Manager Guide
+### [Understand Service Manager](service-manager-guide.md)
 ### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 ### [Define parent and child case settings](define-settings-parent-child-cases.md)
 ### [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)
 ### [Automatically create and update records](set-up-rules-to-automatically-create-or-update-records.md)
-#### [Automatically create a case from an email](automatically-create-case-from-email.md)
+### [Automatically create a case from an email](automatically-create-case-from-email.md)
 ### [Define subjects to categorize cases](../admin/define-subjects-categorize-cases-products-articles.md)
 ### [Define Service Level Agreements (SLAs)](define-service-level-agreements.md)
-#### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
+### [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
 ### [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md)
 ### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 ### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
@@ -43,7 +44,8 @@
 ### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
 
-## [Service Scheduling Guide](basics-service-service-scheduling.md)
+## Service Scheduling Guide
+### [Understand Service Scheduling](basics-service-service-scheduling.md)
 ### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
