@@ -46,9 +46,9 @@ Use this sample package if you want to start using a new Unified Service Desk en
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
 > [!Note]
-> If you are already using Omni-channel Engagement Hub and want to upgrade to April 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omni-channel Engagement Hub - Preview - Add-On** or **Omni-channel Engagement Hub - Preview - Demo** package. To learn more, see [Uninstall the solutions](#uninstall-the-solutions).
+> If you are already using Omni-channel Engagement Hub and want to upgrade to April 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omni-channel Engagement Hub - Preview - Add-On** or **Omni-channel Engagement Hub - Preview - Demo** package. To learn more, see [Uninstall the solutions](#delete-solutions).
 
-### Uninstall the solutions
+### Delete solutions
 
 When you deploy a Omni-channel Engagement Hub package in a Customer Engagement organization, following managed solutions are created:
 
