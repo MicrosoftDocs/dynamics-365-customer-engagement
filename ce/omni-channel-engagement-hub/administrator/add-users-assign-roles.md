@@ -48,7 +48,7 @@ To view and manage omni-channel users, see [Manage users in Omni-channel Engagem
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
 > [!NOTE]
-> Omni-channel users should be assigned **Channel Access** role to access session templates and create sessions.
+> Omni-channel users (agents and supervisors) should be assigned **Channel Access** role.
 
 |Role  |Privileges  |
 |---------|---------|
