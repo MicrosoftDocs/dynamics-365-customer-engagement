@@ -2,7 +2,8 @@
 ## [Overview](overview.md)
 ## [What's new](whats-new-customer-service.md)
 ## User Guides
-### [Customer Service Hub](user-guide-customer-service-hub.md)
+### Customer Service Hub
+#### [Introduction to Customer Service Hub](user-guide-customer-service-hub.md)
 #### [Learn the basics](customer-service-hub-user-guide-basics.md)
 #### [Work with cases and manage SLAs](customer-service-hub-user-guide-case-sla.md)
 #### [Search for knowledge articles](search-knowledge-articles-csh.md)
@@ -11,7 +12,8 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
-### [Customer Service app](user-guide-customer-service.md)
+### Customer Service app
+#### [Introduction to Customer Service app](user-guide-customer-service.md)
 #### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)
 #### [Add an activity to a case](user-guide-customer-service.md#add-an-activity-to-a-case)
 #### [Find what's assigned to you in a queue](user-guide-customer-service.md#find-whats-assigned-to-you-in-a-queue)
