@@ -14,12 +14,9 @@ applies_to:
 ms.assetid: 3B05CB86-5C50-4EED-A33E-86A0B46A1D33
 author: kabala123
 ms.author: kabala
+ms.reviewer: susikka
 manager: shujoshi
 ---
-
-<!--from editor: Line 39 reads like it has extra or missing words. "... when the panel width is setting operation fails." Probably the "is" should be removed.-->
-
-
 
 # setWidth (CIF JavaScript API Reference)
 
