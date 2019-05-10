@@ -48,7 +48,8 @@ When quick scheduling is not enabled, the book button defaults to the full sched
 
 ## Prerequisites
 
-- Field Service v8.7+
+Field Service v8.7+
+  
 > [!Note]
 > In Field Service v8.7 quick book capabilities need to be enabled, but in v8.8+ quick book is enabled by default. Quick booking onsite requirements is only available in v8.8+
 
@@ -58,14 +59,51 @@ Then double click an entity to display the entities Booking Setup Metadata.
 
 Set **Enable Quick Book** to **Yes**.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-enable-quick-book.png)
 
-create a work order
+## Instructions
 
-select book
+### 1. Create a work order
 
+First create a work order or another entity you'd like to schedule.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-create-work-order.png)
+
+Then go to the related requirement and add additional attributes the resource you want to schedule should possess.  
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-requirement.png)
+
+In our example above, we are looking for a resource within the specified date range with the Assembly Repair skill and part of the Seattle Organizational Unit.
+
+### 2. Select book
+
+From the requirement or the work order select **Book** in the top ribbon. This opens the quick book side panel interface.
+
+Next, all you need to do is select a time slot and then Book at the bottom.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-confirmation.png)
+
+
+In the background, the system chooses an available resource based on the filter criteria on the requirement we edited earlier.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-schedule-board.png)
+
+Though quick scheduling is designed for quick and easy scheduling, the scheduler is still given a few simple filters in the quick book pane.
+
+The date range is taken from the requirement date range and can be edited.
+
+> [!Note]
+> Time parameters on the work order such as Date Window Start and End are passed down to requirements and are factored into quick booking.
+
+The **Filters** option on the top allows you to search through All Resources (meaning all resources that meet the requirement criteria) or select a specific resource to quick book to that resources schedule (again if the selected resource meets the criteria).
+
+Simply select a time slot and then choose boo
 notice date range, can edit
 
 select a time slot
@@ -93,6 +131,7 @@ org level setting, not for certain users or security roles
 combine with fulfillment preference
 
 ## Additional Notes
+- alphabetical order
 - quick scheduling as long as there is a book button and the related entity has it enabled
 - We discovered a bug with scheduling onsite requirements, so with this update of URS 3.7.*, the scope of the feature would only be non-onsite requirements (location agnostic, and Facilities). The bug with the onsite requirements scheduling is being fixed and will be pushed in the next update of URS 3.8.*. In this update 3.7.*, this feature will be disabled by default, however, with 3.8.*, we will flip it on all newer orgs
 
