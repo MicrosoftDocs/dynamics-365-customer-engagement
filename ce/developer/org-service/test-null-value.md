@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/test-null-value
 title: "Test for a null value (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to test for a null value by using the FilterExpression and QueryByAttribute classes"
 ms.custom: 

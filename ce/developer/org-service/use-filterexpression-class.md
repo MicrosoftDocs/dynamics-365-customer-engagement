@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-filterexpression-class
 title: "Use the FilterExpression class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the FilterExpression class to build a query that expresses multiple conditions"
 ms.custom: 

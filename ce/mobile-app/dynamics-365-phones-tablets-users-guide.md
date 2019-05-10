@@ -45,12 +45,6 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 > - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
 
-### Required services (for admins)
-This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
-
-| Domain(s) | Protocols | Uses |
-| --- | --- | --- |
-| service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
 
 ### Sign in with your email address
 
@@ -410,6 +404,9 @@ the call.
 <!-- old work offline content - added a new seperate for work offline.
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
+
+> [!NOTE]
+> - Mobile offline is only available for iOS and Android.
 
 When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
 

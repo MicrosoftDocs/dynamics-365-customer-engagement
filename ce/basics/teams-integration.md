@@ -1,8 +1,8 @@
 ---
-title: "Preview: Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
+title: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams."
-ms.date: 11/06/2018
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,35 +22,35 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Preview: Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
+# Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. 
 
-If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, Power BI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)]. With the Dynamics 365 for Teams integration, you add the Dynamics 365 for Customer Engagement apps features you rely on to the Teams app you collaborate with.
+Dynamics 365 for Microsoft Teams integration enables users to easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. This helps them to be more productive and get work done more effectively. 
 
-Check out the following video to get a quick overview of how Dynamics 365 for Customer Engagement apps and Teams can work together to make easy collaboration possible: [Dynamics 365 for Customer Engagement app for Microsoft Teams Demo Video](https://go.microsoft.com/fwlink/p/?linkid=2038623).
-<!-- Cindy will provide new video when it's published. -->
-
-The Dynamics 365 for Teams provides the following: 
-
-- **Collaboration hub**: Access records together with the Office applications you need to close deals.
+- **Collaboration hub**: Access a shared workspace for Office apps that most of us already use to work sales opportunities.  
 - **Cross-functional collaboration**: Work together with customers and any colleague across functions, even if they aren’t a Dynamics 365 for Customer Engagement apps user.
-- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365 for Customer Engagement apps.
-- **Teams mobile app**: Search and update records from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
+- **File integration**: Co-author documents using Office 365 and automatically sync to Dynamics 365. 
+- **Teams mobile app**: Search from Microsoft Teams mobile app using the Dynamics 365 bot while on the go. 
 
 > [!div class="mx-imgBorder"] 
 > ![Features of Teams app](media/teams-intro.png "Features of Teams app")
 
-The Dynamics 365 app for Teams, when installed into a Teams channel, provides a fully functional page in which you can edit information and navigate to related records—all this without leaving Teams.
+With the Dynamics 365 for Teams integration, add the Dynamics 365 for Customer Engagement app features that you rely on, to the Teams app you collaborate with. This lets you easily work with Dynamics 365 customer information and share files directly from Microsoft Teams.
 
-<!--from editor: I read but made no changes to the following section, assuming it was provided by legal. If that's not the case, I'd edit it a little. Also, are you sure it's called Azure bot framework? The link takes me to Azure Bot Service, and there's mention on that page of Microsoft Bot Framework. -->
+- Access Dynamics 365 records by adding a Dynamics 365 tab into the Teams channel. Collaborate at a large scale not only on a single Dynamics 365 record (like a sales opportunity), but also on multiple records with a Dynamics 365 view.
+- Use Microsfot Teams integration to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. 
+- Collaborate on a set of records, such as *active opportunity* using Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
+
+
+> [!VIDEO https://www.youtube.com/embed/U11x5BlQlDU]
+
+## Feedback
+
+ If you have additonal feedback or questions regarding this feature, contact [D365forTeams@microsoft.com](mailto:D365forTeams@microsoft.com).
 
 ## Privacy notice
 
@@ -61,6 +61,7 @@ By installing and allowing access to use of the bot, you agree to allow the LUIS
 The content of user’s queries and messages is retained in LUIS system for a maximum of 30 days, encrypted at rest and is not used for training or service improvement. Read more about Cognitive Services [here](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
 To manage admin settings for apps in Teams, go to the Microsoft 365 admin center and open **Settings** > **Services & add-ins**, then choose Microsoft Teams. If you're signed in as an Office 365 admin, you can access these controls [here](https://admin.microsoft.com/adminportal/home#/Settings/ServicesAndAddIns), including the ability to uninstall.
+
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)<br/>

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-the-columnset-class
 title: "Use the ColumnSet class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use the ColumnSet class to specify what attributes to return from a query expression"
 ms.custom: 

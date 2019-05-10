@@ -24,7 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Unified Service Desk for Dynamics 365 for Customer Engagement apps is a client application. You need to install the Unified Service Desk client application on every agent desktop to use Omni-channel Engagement Hub. 
  
-Omni-channel Engagement Hub is packaged as solution that you need to deploy on a Dynamics 365 for Customer Service Hub application instance. Use the Microsoft Dynamics 365 Package Deployer to deploy the Omni-channel Engagement Hub solution on the Customer Service Hub application instance.
+Omni-channel Engagement Hub is packaged as solution that you need to deploy on a Dynamics 365 for Customer Engagement organization. Use the Microsoft Dynamics 365 Package Deployer to deploy the Omni-channel Engagement Hub solution on a Customer Engagement organization.
 
 ## Download Unified Service Desk client application
 

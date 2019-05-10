@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/29/2019
+ms.date: 05/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -13,7 +13,7 @@ applies_to:
 author: jimholtz
 ms.assetid: 5355ef54-ce27-4383-bf21-1419c71f4cc4
 caps.latest.revision: 29
-mms.author: jimholtz
+ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
@@ -31,13 +31,13 @@ Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps 
   
 - An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance) roles, and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team.
 
-- An Azure Active Directory (Azure AD) *group* team. Similar to owner team, an Azure AD group team can own records and can have security roles assigned to the team. There are two *group* team types and they correspond directly to the Azure AD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their Azure AD group membership.  
+- An Azure Active Directory (Azure AD) *group* team. Similar to owner team, an Azure AD group team can own records and can have security roles assigned to the team. There are two *group* team types, and they correspond directly to the Azure AD group types – Security and Office. Team members are dynamically derived (added and removed) when they access the instance based on their Azure AD group membership.  
   
--   An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team and the team is granted access rights on the records, such as Read, Write, or Append.  
+- An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team, and the team is granted access rights on the records, such as Read, Write, or Append.  
   
-## Owner/Group team or access team? 
+## Owner/group team or access team? 
 
-Choosing the type of the team may depend on the goals, nature of the project, and even the size of your organization. There are a few guidelines that you can use when choosing the team type. 
+The type of team you choose depends on the goals, nature of the project, and even the size of your organization. There are a few guidelines that you can use when choosing the team type. 
 
 ### When to use owner or group teams 
 
@@ -47,10 +47,10 @@ Choosing the type of the team may depend on the goals, nature of the project, an
 
 ### When to use access teams 
 
-- The teams are dynamically formed and dissolved. This typically happens if the clear criteria for defining the teams, such as established territory, product, or volume are not provided. 
+- The teams are dynamically formed and dissolved. This typically happens if clear criteria for defining the teams, such as established territory, product, or volume are not provided. 
 - The number of teams is not known at the design time of your Dynamics 365 for Customer Engagement apps system. 
 - The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write, and Share access rights on the same account. 
-- A unique set of users requires access to a single record without having an ownership of the record. 
+- A unique set of users requires access to a single record without having ownership of the record. 
 
 ## About owner teams 
 
@@ -58,7 +58,7 @@ An owner team can own one or more records. To make a team an owner of the record
 
 While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning security roles to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
 
-If an owner team doesn’t own records and doesn’t have security roles assigned to the team, it can be converted to an access team. It is a one-way conversion. You can’t convert the access team back to the owner team. During conversion, all queues and mailboxes associated with the team are deleted. When you create a team in the Web application, you have to choose the team type **Owner**.
+If an owner team doesn’t own records and doesn’t have security roles assigned to the team, it can be converted to an access team. It is a one-way conversion. You can’t convert the access team back to the owner team. During conversion, all queues and mailboxes associated with the team are deleted. When you create a team in the web application, you have to choose the team type **Owner**.
 
 For more information, see [Assign a record to a user or team](../basics/assign-record-user-team.md).
 
@@ -74,15 +74,15 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 3. Select **Teams**.
 
-4. On the Actions toolbar, select the **New** button.
+4. On the Actions toolbar, select **New** button.
 
-5. Enter a Team Name.
+5. Enter a team name.
 
-6. Select a Business Unit.
+6. Select a business unit.
 
-7. Enter an Administrator.
+7. Enter an administrator.
 
-8. Select **Owner** in Team Type.
+8. Select **Owner** in **Team Type**.
 
 9. Complete other required fields, and then select **Save**.
 
@@ -93,14 +93,14 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
    
    Check your security role:
-   - Follow the steps in View your user profile.
+   - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
    - Don’t have the correct permissions? Contact your system administrator.
 
 2. Go to **Settings** > **Security**. In Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
 
 3. Select **Teams**.
 
-4. In the **Teams** dropdown list, select **All Owner Teams** or another appropriate view.
+4. In the **Teams** drop-down list, select **All Owner Teams** or another appropriate view.
 
 5. In the grid, select the team you want to edit.
 
@@ -111,41 +111,43 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
-### Using Azure Active Directory groups to manage user’s app and data access 
+### Using Azure Active Directory groups to manage a user’s app and data access 
 
-The administration of app and data access for Dynamics 365 for Customer Engagement and Common Data Service (CDS) has been extended to allow administrators to use their organization Azure Active Directory (Azure AD) groups to manage access rights for licensed Customer Engagement and CDS users.  Both types of Azure AD groups – Office and Security - can be used to secure user access rights.  Using groups lets the administrators assign a security role with its respective privileges to all the members of the group, instead of having to provide the access rights to  an individual team member. 
+The administration of app and data access for Microsoft Dynamics 365 for Customer Engagement and Common Data Service has been extended to allow administrators to use their organization’s Azure Active Directory (Azure AD) groups to manage access rights for licensed Customer Engagement and Common Data Service users.
 
-The administrator can create Azure AD Group teams that are associated to the Azure AD groups in each of the Customer Engagement and Common Data Service environments and assign a security role to these group teams.  When members of these group teams access these environments, their access rights are automatically granted based on the Group Team’s security role. 
+Both types of Azure AD groups—Office and Security—can be used to secure user-access rights. Using groups lets administrators assign a security role with its respective privileges to all the members of the group, instead of having to provide the access rights to an individual team member.
 
-#### Provision and de-provision of users 
+The administrator can create Azure AD group teams that are associated to the Azure AD groups in each of the Customer Engagement and Common Data Service environments and assign a security role to these group teams. When members of these group teams access these environments, their access rights are automatically granted based on the group team’s security role.
 
-Once the Group Team and its security role is established in an environment, the user access to the environment is based on the user membership of the Azure AD groups.  When a new user is created in the tenant, all the administrator needs to do is to assign the user to the appropriate Azure AD group and a Customer Engagement and CDS license. The user can immediately access the environment without the need to wait for the administrator to assign a security role. 
+#### Provision and deprovision users 
 
-When users are deleted/disabled in Azure AD or removed from the Azure AD groups, they will lose their group membership and won’t be able to access the environment when they try to sign in.  
+Once the group team and its security role is established in an environment, user access to the environment is based on the user membership of the Azure AD groups. When a new user is created in the tenant, all the administrator needs to do is assign the user to the appropriate Azure AD group, and assign Customer Engagement and Common Data Service licenses. The user can immediately access the environment without the need to wait for the administrator to assign a security role.
 
-#### Remove user access at run-time 
+When users are deleted/disabled in Azure AD or removed from the Azure AD groups, they lose their group membership and won’t be able to access the environment when they try to sign in.  
 
-When a user is removed from the Azure AD groups by an administrator, the user will be removed from the Group team and will lose their access rights the next time they access the environment.  User’s Azure AD Group and Customer Engagement Group teams memberships are synchronized and the user’s access rights are dynamically derived at run-time.  
+#### Remove user access at run time 
+
+When a user is removed from the Azure AD groups by an administrator, the user is removed from the group team, and they lose their access rights the next time they access the environment. The memberships for the user’s Azure AD groups and Customer Engagement group teams are synchronized, and the user’s access rights are dynamically derived at run time.
 
 #### Administer user security role 
 
-Administrators will no longer have to wait for the user to sync to the environment and assign a security role to the user individually by using Azure AD group team.  Once a group team is established and created in an environment with a security role, any licensed Customer Engagement and CDS users who are added to the Azure AD group can immediately access the environment.  
+Administrators no longer have to wait for the user to sync to the environment and then to assign a security role to the user individually by using Azure AD group teams. Once a group team is established and created in an environment with a security role, any licensed Customer Engagement and Common Data Service users who are added to the Azure AD group can immediately access the environment. 
 
 #### Lock down user access to environments 
 
-Administrators can continue to use an Azure AD security group to lock down the list of users synced to an environment.  This can be further reinforced by using Azure AD Group teams.  To lock-down environment/app access to restricted environments, the administrator can create separate Azure AD groups for each environment and assign the appropriate security role for these groups.  Only these Azure AD group team members have the access rights to the environment. 
+Administrators can continue to use an Azure AD security group to lock down the list of users synced to an environment. This can be further reinforced by using Azure AD group teams. To lock down environment or app access to restricted environments, the administrator can create separate Azure AD groups for each environment and assign the appropriate security role for these groups. Only these Azure AD group team members have the access rights to the environment.
 
-#### Share PowerApps to team members of Azure AD group 
+#### Share PowerApps to team members of an Azure AD group 
 
-When canvas and model-driven apps are shared to Azure AD group team, team members of the group team can immediately run the apps.   
+When canvas and model-driven apps are shared to an Azure AD group team, team members can immediately run the apps.
 
-#### User or team owned records 
+#### User-owned and team-owned records 
 
-A new property has been added to the Security role definition to provide special team privileges when the role is assigned to group teams.  This type of Security role allows team members to be granted User/Basic level privileges as if the security role is directly assigned to them.  Team members can create and be an owner of records without the need to have an additional security role assigned.  
+A new property has been added to the security role definition to provide special team privileges when the role is assigned to group teams. This type of security role allows team members to be granted User/Basic-level privileges as if the security role is directly assigned to them. Team members can create and be an owner of records without the need to have an additional security role assigned.
 
 A group team can own one or more records. To make a team an owner of the record, you must assign the record to the team.
 
-While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning a non-member privilege inherited security role to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
+While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges that they need to create, update, or delete user-owned records. These privileges can’t be applied by assigning a nonmember’s privilege inherited security role to a team and then adding the user to that team. If you need to provide your team members the team privileges directly, without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
 
 For more information, see [Assign a record to a user or team](../basics/assign-record-user-team.md).
 
@@ -154,31 +156,31 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
 
    Check your security role:
-   - Follow the steps in View your user profile.
+   - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
    - Don’t have the correct permissions? Contact your system administrator.
 
    Prerequisites:
-   1.	An Azure Active Directory (Azure AD) Group is required for each group Team.
-   2.	Obtain the Azure AD Group’s ObjectID from your https://portal.azure.com site.
-   3.	Create a custom security role that contains privileges as per your team’s collaboration requirement.  Please see Security role [member’s inherited privileges](security-roles-privileges.md#team-members-privilege-inheritance) if you need to extend the team member's privileges directly to a user.
+   1.	An Azure Active Directory (Azure AD) Group is required for each group team.
+   2.	Obtain the Azure AD Group’s **ObjectID** from your https://portal.azure.com site.
+   3.	Create a custom security role that contains privileges per your team’s collaboration requirement. Please see the discussion of [member’s inherited privileges](security-roles-privileges.md#team-members-privilege-inheritance) if you need to extend the team member's privileges directly to a user.
 
 2. Go to **Settings** > **Security**. In Microsoft Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
 
 3. Select **Teams**.
 
-4. On the Actions toolbar, select the **New** button.
+4. On the Actions toolbar, select **New** button.
 
-5. Enter a Team Name.
+5. Enter a team name.
 
-6. Select a Business Unit.
+6. Select a business unit.
 
-7. Enter an Administrator.
+7. Enter an administrator.
 
-8. Select the Team Type (a drop-down list will be displayed).
+8. Select the team type (a drop-down list is displayed).
 
-9. Select **AAD Security** or **Office group** (this must match to the Azure AD Group type).
+9. Select **AAD Security** or **Office group** (this must match the Azure AD Group type).
 
-10.	Enter the respective Azure AD ObjectID of the Azure AD Security or Office group.
+10.	Enter the respective Azure AD **ObjectID** of the Azure AD Security or Office group.
 
 11. Select **Save**. 
     
@@ -189,14 +191,14 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
    
    Check your security role:
-   - Follow the steps in View your user profile.
+   - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
    - Don’t have the correct permissions? Contact your system administrator.
 
 2. Go to **Settings** > **Security**. In Dynamics 365 for Outlook, go to **Settings** > **System** > **Security**.
 
 3. Select **Teams**.
 
-4. In the **Teams** dropdown list, select **All AAD Office or Security Teams**.
+4. In the **Teams** drop-down list, select **All AAD Office or Security Teams**.
 
 5. In the grid, select the team you want to edit.
 
@@ -204,8 +206,9 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 > [!NOTE]
 > - The list of team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's Azure AD group memberships are cached upon the team member's log-in.  This means that any Azure AD group membership maintenance done on the team member in Azure AD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
-> - **Impersonate an Azure AD Group team member**. To make user impersonation calls on behalf of an Azure AD Group team member using Dynamics 365 Web services, the Group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
-
+> - **Discover and launch apps** coming soon in October 2019 - Group team members can see the list of all the apps and the list of all the environments they have access to based on their AAD Group membership. The temporary workaround is to assign a security role directly to the team member.  
+> - **System Administrator and Environment Maker security roles**. These are special administrator's security roles and they need to be assigned to the user directly. If these security roles are assigned to Group teams, team members get the team privileges only and won't have any direct/inherited privileges. Team members won't be able to perform all the system administrator and environment maker functions. In addition they won't be able to see the list of all the environments in their tenant. 
+> - **Impersonate an Azure AD group team member**. To make user impersonation calls on behalf of an Azure AD group team member using Dynamics 365 Web services, the group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
 
 ## About access teams and team templates
 
@@ -224,14 +227,16 @@ Because of the parental relationship between the team template and system-manage
   
  A system-managed access team is created for a specific record, other records can’t be shared with this team. You have to provide a team template that the system uses to create a team. In this template, you define the entity type and the access rights on the record that are granted to the team members when the team is created.  
   
- A team template is displayed on all record forms for the specified entity as a list. When you add the first user to the list, the actual access team for this record is created. You can add and remove members in the team by using this list. The team template applies to the records of the specified entity type and the related entities, according to the cascading rules. To give team members different access on the record, you can provide several team templates, each template specifying different access rights. For example, you can create a team template for the Account entity with the Read access right, which allows the team members to view the specified account. For another team that requires more access to the same account, you can create a team template with Read, Write, Share and other access rights. To be added to the team, a minimum access level a user must have on the entity specified in the template is Basic (User) Read.  
+ A team template is displayed on all record forms for the specified entity as a list. When you add the first user to the list, the actual access team for this record is created. You can add and remove members in the team by using this list. The team template applies to the records of the specified entity type and the related entities, according to the cascading rules. To give team members different access on the record, you can provide several team templates, each template specifying different access rights. 
+
+For example, you can create a team template for the Account entity with the Read access right, which allows the team members to view the specified account. For another team that requires more access to the same account, you can create a team template with Read, Write, Share and other access rights. To be added to the team, a minimum access level a user must have on the entity specified in the template is Basic (User) Read.  
   
  Because of the parental relationship between the team template and system-managed access teams, when you delete a template, all teams associated with the template are deleted according to the cascading rules. If you change access rights for the team template, the changes are applied only to the new auto-created (system-managed) access teams. The existing teams are not affected.  
   
 > [!NOTE]
->  A user must have sufficient privileges to join an access team. For example, if the access team has the Delete access right on an account, the user must have the Delete privilege on the Account entity to join the team. If you’re trying to add a user with insufficient privileges, you’ll see this error message: “You can’t add the user to the access team because the user doesn’t have sufficient privileges on the entity.”  
+>  A user must have sufficient privileges to join an access team. For example, if the access team has Delete access rights on an account, the user must have Delete privileges on the Account entity to join the team. If you’re trying to add a user with insufficient privileges, you’ll see this error message: “You can’t add the user to the access team because the user doesn’t have sufficient privileges on the entity.”  
   
- For the step-by-step instructions on how to create a team template and add it the entity form, see the article in the [Create a team template and add to an entity form](create-team-template-add-entity-form.md)  
+ For step-by-step instructions on how to create a team template and add the entity form, see [Create a team template and add to an entity form](create-team-template-add-entity-form.md)  
   
 <a name="MaxSettings"></a>  
  
