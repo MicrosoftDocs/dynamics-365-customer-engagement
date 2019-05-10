@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you upgrade Omni-channel Engagement Hub to the latest release, certain managed solutions appears in the **Solutions** page of your Microsoft Dynamics 365 for Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if it is not already deleted.
+When you upgrade Omni-channel Engagement Hub to the latest release, certain managed solutions appear in the **Solutions** page of your Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete.
 
 This topic describes how to delete the solution from the previous releases from your Customer Engagement organization.
 
@@ -34,12 +34,12 @@ This topic describes how to delete the solution from the previous releases from 
 
 3. On the **Solutions** page, select the **OmnichannelCustomerServiceHub** solution and then choose **Delete**. 
 
-4. A confirmation message appears prompting you to uninstall a managed solution. Choose **OK**. 
+4. A confirmation message appears prompting you to uninstall the managed solution. Choose **OK**. 
 
     > [!div class=mx-imgBorder]
     > ![Delete Omni-channel Solution](../media/oceh-admin-delete-solution.png "Delete Omni-channel Solution")  
 
-The **OmnichannelCustomerServiceHub** solution is deleted form your Customer Engagement organization.
+You have deleted the **OmnichannelCustomerServiceHub** solution from your Customer Engagement organization.
 
 ## See also
 
