@@ -71,13 +71,12 @@ First create a work order or another entity you'd like to schedule.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-create-work-order.png)
 
-Then go to the related requirement and add additional attributes the resource you want to schedule should possess.  
-
+Then go to the related requirement and add additional attributes. This is to add more details for the desired resource to schedule this requirement to.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-requirement.png)
 
-In our example above, we are looking for a resource within the specified date range with the Assembly Repair skill and part of the Seattle Organizational Unit.
+In our example above, we are looking for a resource within the specified date range with the "Assembly Repair" skill and part of the "Seattle" Organizational Unit.
 
 ### 2. Select book
 
@@ -89,7 +88,7 @@ Next, all you need to do is select a time slot and then Book at the bottom.
 > ![Screenshot of ](./media/scheduling-quick-book-confirmation.png)
 
 
-In the background, the system chooses an available resource based on the filter criteria on the requirement we edited earlier.
+In the background, the system chooses an available resource based on the filter criteria on the requirement we edited earlier. If the requirement is location based, as in the case of on site work orders, the system chooses the closest resource. The closest resource is determined based on the resource's starting location or previous work order. For location agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-schedule-board.png)
@@ -103,13 +102,16 @@ The date range is taken from the requirement date range and can be edited.
 
 The **Filters** option on the top allows you to search through All Resources (meaning all resources that meet the requirement criteria) or select a specific resource to quick book to that resources schedule (again if the selected resource meets the criteria).
 
-Simply select a time slot and then choose boo
-notice date range, can edit
+Additionally, 
 
-select a time slot
 
-if location based - choose the closest resource
-if location agnostic - choose 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-select-resources.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-select-resources2.png)
 
 select a resource
 if location based it shows distance
