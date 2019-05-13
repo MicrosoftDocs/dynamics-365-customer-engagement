@@ -342,7 +342,7 @@ For the following fields:
 > [!Note]
 > **Field Service Status** is required when creating booking statuses for Field Service use cases. This allows the booking status to fit into the above work order processes. By default, only booking statuses with field service statuses are available for work order bookings, but this is editable in **Booking Setup Metadata**.
 
-Finally, **Save & Close**.
+Finally, **Save and Close**.
 
 This means the new **Delayed Booking Status** will appear as an option on the Field Service Mobile for field technicians, and on the schedule board. 
 
@@ -365,7 +365,7 @@ For the following fields:
 
 **Default Substatus:** set to **Yes** if all **Open-Completed** work orders should be given a substatus of **Follow-Up Required** by default. For our example, we will choose **No** because not all completed work orders require a follow-up so it's left to the discretion of the field technician.
 
-Finally, **Save & Close**.
+Finally, **Save and Close**.
 
 Unlike work order system statuses, work order substatuses can be updated on the mobile app by the field technicians. 
 
