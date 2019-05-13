@@ -33,8 +33,12 @@ To create an Azure storage account, follow the steps below:
 1. Login into [Azure portal](https://portal.azure.com) and click on **Sign in**, if you dont have an Azure account, register for it.
 
 2. Click on **Storage accounts** and click on **Add** to create a new storage account.
+  
+    ![Storage accounts](../media/storage-accounts.png "Storage accounts")
 
 3. In the **Subscription and Resource group** dropdown, select your subscription from the existing list of subscriptions. When you select an existing **Subscription**, the **resource group** field displays the available resource groups. If you don't have an existing one, create a new **Resource group**.
+
+    ![Create Storage accounts](../media/create-storage-account.png "Create Storage accounts")
 
 4. Enter the **Storage account name**and also select the **Location**.
 
@@ -51,7 +55,10 @@ To create an Azure storage account, follow the steps below:
 
 2. Enable the **Static website** by flipping the switch and configure **Index document name** and **Error document path** to use **Index.html**
 
+    ![Static website](../media/enabling-static-website.png "Static website")
 3. Click on **Save**. A new field **Primary endpoint** is shown. Copy the URL from the **Primary endpoint** field. This is the URL from which you reach your custom event website.
+  
+     1[Enable static website](../media/static-website.png "Enable static website")
 
 ## Step 2: Create a web application token
 
@@ -59,10 +66,19 @@ To use event management public API, you need a web application token. The web ap
 
 1. Open your Dynamics 365 and navigate to Event Management
 2. Click on the dropdown and select **Settings**
+
+    ![Settings](../media/event-management-settings.png "Settings")
+    
 3. Click on the **Web applications**
+    
+    ![Web application token](../media/create-we-application-token.png "Web application token")
+    
 4. Click on the **New** to create a new web application token.
 5. Enter details in the **Name** field.
 6. For the **Origin** field enter the **Primary endpoint** value that you got while enabling the static website.
+
+   ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
+   
 7. Click on **Save**. You will get the web application token and the API endpoint. 
 
 ## Step 3: Create environment.ts file
@@ -84,4 +100,11 @@ To use event management public API, you need a web application token. The web ap
 2. Sign in with your Azure account. 
 3. Select your **Storage account** 
 4. Select the **$web blob container**
+
+   1[Web blob container](../media/web-blob-container.png "Web blob container")
+   
 5. Drag all files that you have generated before (located in `dist/ClientApp` directory) in the `$web` blob container. 
+
+### See also
+
+[Build and host custom event portals](event-management-web-application.md)
