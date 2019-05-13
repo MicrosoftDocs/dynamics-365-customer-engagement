@@ -85,7 +85,7 @@ This includes deploying an environment, setting up users, and performing initial
 
 - [Perform initial configurations](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
 
-### Configure Work Order Scenario
+### Configure work order scenario
 This includes creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
 
 - [Quickstart - Create and schedule a work order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
@@ -96,7 +96,7 @@ Additionally, configuring the core Field Service scenario involves understanding
 
 - [Set up Bookable Resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
 
-#### Work Orders
+#### Work orders
 - [Create a Work Order](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-work-order)
 
 #### Scheduling
@@ -121,7 +121,7 @@ Start with this [Learn course](https://docs.microsoft.com/learn/paths/implementi
 ### Scheduling
 Next, dive into configuring the schedule board and exploring other scheduling capabilities such as crews, facilities, and pools with this [Learn course](https://docs.microsoft.com/learn/paths/universal-resource-scheduling/).
 
-### Agreements, assets & inventory
+### Agreements, assets, and inventory
 
 After that, look into using [agreements](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-customer-agreements) to auto-generate recurring work orders, [customer assets](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets) to build service history, and [inventory](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/create-warehouse) to track parts usage from a field technicians truck.  
 
