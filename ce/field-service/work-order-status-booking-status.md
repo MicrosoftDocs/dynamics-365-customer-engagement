@@ -308,7 +308,7 @@ This will remove estimate work orders from the lower pane in the schedule board,
 
 ## Delayed Booking Status
 
-Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule by changing the status of their bookings to "Delayed". This will help dispatchers manage the remaining bookings for that resource for the rest of the day by running [Single Resource Optimization](../field-service/single-resource-optimization) or triggering automated messages to the next customer.
+Field technicians want to make dispatchers aware if they are running more than 15 minutes behind schedule by changing the status of their bookings to "Delayed". This will help dispatchers manage the remaining bookings for that resource for the rest of the day by running [Single Resource Optimization](single-resource-optimization.md) or triggering automated messages to the next customer.
 
 First, go to **Resource Scheduling > Settings > Booking Statuses > +New**.
 
@@ -387,7 +387,7 @@ Options include:
 
 If you create a new custom **Booking Status**, then you should pick a scheduling method that relates to the field service booking status. For example, the out-of-the-box booking status **Traveling** has an RSO scheduling method set to **Do Not Move** because RSO should not move bookings that a field technician is traveling to. Therefore, using our previous example, our new **Delayed** booking status is related to the **Traveling** Field Service status, so its scheduling method should be set to **Do Not Move** as well.
 
-See the topic on [RSO configuration](../field-service/rso-configuration) for more details.
+See the topic on [RSO configuration](rso-configuration.md) for more details.
 
 ### See also
 - [Booking Statuses blog post](https://community.dynamics.com/365/b/365teamblog/archive/2017/06/01/manage-the-status-of-your-team-s-bookings-with-universal-resource-scheduling)
