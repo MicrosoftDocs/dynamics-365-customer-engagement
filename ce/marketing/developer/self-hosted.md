@@ -70,6 +70,9 @@ The event portal is capable of integrating the Azure Active Directory B2C. To in
 1. Insert your client ID in the `AAD Client ID` field.
 1. Insert your metadata endpoint in the `AAD Metadata Endpoint` field.
 1. Save the changes.
+    > [!NOTE]
+    > It can take up to 10 minutes until the changes become active.
+
 1. Open the `environment.ts` configuration file (located in `\src\environments`) for modification.
 1. Enter all required values in the `aadB2cConfig` variable.
 
