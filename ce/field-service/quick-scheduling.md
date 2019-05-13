@@ -102,14 +102,12 @@ The date range is taken from the requirement date range and can be edited.
 
 The **Filters** option on the top allows you to search through All Resources (meaning all resources that meet the requirement criteria) or select a specific resource to quick book to that resources schedule (again if the selected resource meets the criteria).
 
-Additionally, 
-
-
+Additionally, select the resource icon next to a time slot to see a simple list of applicable resources for that time slot. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-select-resources.png)
 
-
+This displays more details such as travel time and distance but still a simpler interface with less details than the full schedule assistant.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-select-resources2.png)
 
