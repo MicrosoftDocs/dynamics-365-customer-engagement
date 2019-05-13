@@ -55,6 +55,7 @@
 ### [Submit a resource request](submit-resource-request.md)
 ### [Accept or reject a proposed resource](accept-reject-proposed-resource.md)
 ## [Resource management home page](resource-management-home-page.md)
+### [Manage resources](manage-resources.md)
 ### [Key concepts](reports-key-concepts.md)
 ### [Fulfilling resource requests](resource-management-fulfill-requests.md)
 ### [Proposing resources](resource-management-propose-resources.md)
