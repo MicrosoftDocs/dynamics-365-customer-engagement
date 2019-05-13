@@ -19,7 +19,7 @@
 ## [Schedule a work order](quickstart-schedule-work-order.md)
 
 # Work orders
-## [Work Order life cycle and statuses](work-order-status-booking-status.md)
+## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Create a new work order](create-work-order.md)
 ## [Work order types](create-work-order-types.md)
 ## [Create a product or service](create-product-or-service.md)
