@@ -32,7 +32,7 @@ In Microsoft Dynamics 365 for Project Service Automation (PSA) v3.x, time entrie
 Complete the following steps to create a new time entry.
 
 1. On the **Time Entries** page, click **New**.
-2. In the **Quick Create: Time Entry** pane, enter the time entry duration in minutes, hours, or days by typing **h**, **m**, or **d** and the number.   
+2. In the **Quick Create: Time Entry** pane, enter the time entry duration in minutes, hours, or days. The duration must be entered in the following format: x minutes, x hours or x days. Hours and days can also be entered using decimals, for example, x.x hours or x.x days.   
 3. Select the type of time entry and the project that you are entering the entry for. 
 4. In the **Project Task** field, locate the task for this time entry.
 
