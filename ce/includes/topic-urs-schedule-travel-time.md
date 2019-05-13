@@ -14,7 +14,7 @@ In this topic, we will explore how travel time and distance are calculated and v
    
 2. Set auto geo code addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
-3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geo coded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](./set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
+3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geo coded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
 4. Understand that only requirements where **Work Location = Onsite** and have **latitude and longitude values** are eligible for travel time calculations. 
 
