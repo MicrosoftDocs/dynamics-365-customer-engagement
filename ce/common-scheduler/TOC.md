@@ -1,7 +1,7 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
-## [Travel time and distance](schedule-time-distance.md)
+## [Travel time and distance](schedule-travel-time.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ## [Fulfillment preferences](fulfillment-preferences.md)
 ## [Resource crew scheduling](resource-crews.md)
