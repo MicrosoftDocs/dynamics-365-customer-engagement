@@ -30,48 +30,48 @@ search.app:
 Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 for Field Service resources. 
 
 ## Resources
-Before we begin, here are the top places for Field Service knowledge.
+Before we begin, here are the top places for information about Field Service: 
 
-[Docs](../field-service/overview) - written documentation
+- [Docs](../field-service/overview): The primary documentation for Dynamics 365 for Field Service (and it's where you are now).
 
-[Learn](https://docs.microsoft.com/en-us/learn/browse/?products=dynamics-field-service) - guided videos and courses 
+- [Learn](https://docs.microsoft.com/en-us/learn/browse/?products=dynamics-field-service): Here you will find guided videos and courses.
 
-[Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X) - concept videos
+- [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
 
-[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service) - product feedback
+- [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 
-[Forum](https://community.dynamics.com/365/fieldservice) - questions, answers, and events
+- [Forum](https://community.dynamics.com/365/fieldservice): Go here to ask questions, find answers, and see upcoming events.
 
-[Blog](https://cloudblogs.microsoft.com/dynamics365/it/) - release notes and product team blog posts
+- [Blog](https://cloudblogs.microsoft.com/dynamics365/it/): On the blog, you'll find ongoing release notes and posts from the product team.
 
 
 ## Understand Field Service concepts
-The purpose of this section is to understand what D365 for Field Service is and why it is valuable to customers.
+The purpose of this section is to understand what Dynamics 365 for Field Service is, and why it's valuable to customers.
 
-[Overview of Dynamics 365 for Field Service](../field-service/overview.md)  
+- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)  
   
- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkID=786689) [Watch a short video (3:51) on the benefits of Dynamics 365 for Field Service](http://go.microsoft.com/fwlink/p/?LinkID=786689)
 
-[![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JFonGXOo3ms) [Deliver connected customer service with Dynamics 365 for Field Service](https://youtu.be/JFonGXOo3ms)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JFonGXOo3ms) [Deliver connected customer service with Dynamics 365 for Field Service](https://youtu.be/JFonGXOo3ms)
 
-[![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JG1JAbwWAwU) [Transform field service with Microsoft Dynamics 365](https://youtu.be/JG1JAbwWAwU)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/JG1JAbwWAwU) [Transform field service with Microsoft Dynamics 365](https://youtu.be/JG1JAbwWAwU)
 
-[![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 for Field Service](https://youtu.be/A1qpoi0EYWU)
+- [![Video symbol](../field-service/media/video-icon.png "Video symbol")](https://youtu.be/A1qpoi0EYWU) [Provide proactive maintenance with Dynamics 365 for Field Service](https://youtu.be/A1qpoi0EYWU)
 
 ### Customer Stories
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Christensen Farms – Industrial Farming](https://www.youtube.com/watch?v=YlI0CdSV4hk&feature=youtu.be)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol")[Christensen Farms – Industrial Farming](https://www.youtube.com/watch?v=YlI0CdSV4hk&feature=youtu.be)
 	
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Climatec – Facilities Management](https://www.youtube.com/watch?v=KZbvivXBb6Y&feature=youtu.be)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Climatec – Facilities Management](https://www.youtube.com/watch?v=KZbvivXBb6Y&feature=youtu.be)
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Navco – Safety and Security](https://www.youtube.com/watch?v=ILRl-MvlkhM&feature=youtu.be)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Navco – Safety and Security](https://www.youtube.com/watch?v=ILRl-MvlkhM&feature=youtu.be)
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [DMS Health Technologies – Health Services](https://www.youtube.com/watch?v=-H4wwuOfdOg&feature=youtu.be)
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Yougenio Italy – Facilities Management](https://www.youtube.com/watch?v=URZueU-eFvo)
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Michelin – Auto Services](https://www.youtube.com/watch?v=_vJS2Knz-cQ)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Michelin – Auto Services](https://www.youtube.com/watch?v=_vJS2Knz-cQ)
 
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Sandvik Coromant](https://www.youtube.com/watch?v=Oq6z3UALoYI)
 
 ## Set up Field Service
 The purpose of this section is to help you set up a Field Service environment and configure the core Field Service scenario.  
@@ -79,39 +79,39 @@ The purpose of this section is to help you set up a Field Service environment an
 ### Set up an environment
 This includes deploying an environment, setting up users, and performing initial administrative actions. 
 
-[Install Field Service (web + mobile)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service)
+- [Install Field Service (web + mobile)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service)
 
-[Setup Users and Security roles](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
+- [Setup Users and Security roles](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/view-user-accounts-security-roles)
 
-[Perform initial configurations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
+- [Perform initial configurations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup)
 
 ### Configure Work Order Scenario
 This includes creating a work order, scheduling it to a resource, and viewing it on the Field Service Mobile app.
 
-[Quickstart - Create and schedule a work order](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
+- [Quickstart - Create and schedule a work order](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/quickstart-schedule-work-order)
 
 Additionally, configuring the core Field Service scenario involves understanding resources, work orders, scheduling, and the mobile app.
 
 #### Resources
 
-[Set up Bookable Resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
+- [Set up Bookable Resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-bookable-resources)
 
 #### Work Orders
-[Create a Work Order](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-work-order)
+- [Create a Work Order](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-work-order)
 
 #### Scheduling
-![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up and use the schedule board](https://youtu.be/OXBXck9cwn4)
+- ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up and use the schedule board](https://youtu.be/OXBXck9cwn4)
 
-[Universal Resource Scheduling for Field Service](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)
+- [Universal Resource Scheduling for Field Service](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/universal-resource-scheduling-for-field-service)
 
 #### Mobility
-[Installation](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
+- [Installation](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
 
-[Configure and customize](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/mobile-app-configuration-customization)
+- [Configure and customize](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/mobile-app-configuration-customization)
 
-[Get started with Microsoft Dynamics 365 for Field Service Mobile](https://docs.microsoft.com/en-us/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
+- [Get started with Microsoft Dynamics 365 for Field Service Mobile](https://docs.microsoft.com/en-us/learn/modules/implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile/)
 
-[Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/en-us/learn/modules/implement-deliver-a-customized-mobile-experience/)
+- [Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service](https://docs.microsoft.com/en-us/learn/modules/implement-deliver-a-customized-mobile-experience/)
 
 ## Configure more scenarios
 The purpose of this section is to help you explore all the features of Field Service and configure more detailed scenarios and business requirements.
@@ -123,54 +123,55 @@ Next, dive into configuring the schedule board and exploring other scheduling ca
 
 ### Agreements, assets & inventory
 
-After that, look into using [Agreements](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements) to auto generate recurring work orders, [Customer Assets](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets) to build service history, and [Inventory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-warehouse) to track parts usage from a field technicians truck.  
+After that, look into using [agreements](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/set-up-customer-agreements) to auto-generate recurring work orders, [customer assets](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-set-up-customer-assets) to build service history, and [inventory](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/create-warehouse) to track parts usage from a field technicians truck.  
 
 
 ### Resource Scheduling Optimization
-The pinnacle of field service scheduling is Resource Scheduling Optimization (RSO) that automatically schedules work orders (and other requirements) to the best resources to minimize total travel time and maximize working hours and more based on your choice.
+The pinnacle of field service scheduling is Resource Scheduling Optimization (RSO), which automatically schedules work orders (and other requirements) to the best resources in order to minimize total travel time and maximize working hours.
 
 Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/rso-overview). 
 
 
 ### Connected Field Service
 
-Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics to analyze data streams from Internet-connected equipment and proactively create work orders oftentimes before the customer is aware of a problem.
+Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics to analyze data streams from Internet-connected equipment and proactively create work orders based on alerts - oftentimes before the customer is aware of a problem.
 
-First, get an [Overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../customer-engagement/field-service/developer/connected-field-service-architecture) to better understand how Azure and Dynamics work together.
+First, get an [Overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../customer-engagement/field-service/developer/connected-field-service-architecture) to better understand how Azure and Dynamics 365 work together.
 
-Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the Saas option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. In contrast, think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
+Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
 
 
 Finally, here is a [Learn course](https://docs.microsoft.com/en-us/learn/paths/working-with-connected-field-service-iot/) to guide you through setting up CFS with IoTCentral.
 
-**Pro Tip:** Combining Resource Scheduling Optimization and Connected Field Service enables an organization to proactively detect issues and schedule them to field technicians to fix them.
+> [!Note]
+> Combining Resource Scheduling Optimization and Connected Field Service allows an organization to proactively detect issues and schedule them to field technicians to fix.
 
 ## Implement Field Service
 
-The purpose of this section is to help provide implementation guidance and best practices both technical and strategic. It also points toward extensibility and developer instructions. 
+The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions. 
 
-When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-default-settings)
+When working through implementation scenarios, it is important to know org level details that can be found in [Field Service Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/configure-default-settings).
 
-[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)
+- [General Field Service implementation best practices (YouTube)](https://youtu.be/LQXpjMMrJIo)
 
 ### Scheduling best practices
-[Types of Scheduling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities)
+- [Types of Scheduling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-capabilities)
 
-[Scheduling personas](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas)
+- [Scheduling personas](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/scheduling-roles-personas)
 
-[The 5 stages of scheduling adoption](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption)
+- [The 5 stages of scheduling adoption](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/5-stages-scheduling-adoption)
 
-[Schedule board tab settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings) are extremely important in implementations to get the most out of the schedule board.
+- [Schedule board tab settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings) are extremely important in implementations to get the most out of the schedule board.
 
-[Scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
+- [Scheduling extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes)
 
 ### Key implementation resources
-Stay up to date on new features with the [release notes](https://docs.microsoft.com/en-us/business-applications-release-notes/)
+- Stay up to date on new and upcoming features with the [Dynamics 365 release notes](https://docs.microsoft.com/en-us/business-applications-release-notes/). 
 
-Use [version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
+- Use [version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
 
-Understand [AppSource Add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
+- Understand [AppSource Add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
   
 ## Get help
 
-If you're looking for help with errors, unexpected behavior, crashes, and bugs, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/)
+If you're looking for help with errors, unexpected behavior, crashes, and bugs, [create a Dynamics 365 support ticket](https://dynamics.microsoft.com/en-us/contact-us/). 
