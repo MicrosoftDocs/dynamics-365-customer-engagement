@@ -119,7 +119,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 Start with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/implementing-dyn365-field-service/) that shows an administrative view of the previous work order scenario to create products, services, incidents and other core work order entities.  
 
 ### Scheduling
-Next, dive into configuring the schedule board and exploring other scheduling capabilities such as crews, facilities, and pools with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/)
+Next, dive into configuring the schedule board and exploring other scheduling capabilities such as crews, facilities, and pools with this [Learn course](https://docs.microsoft.com/en-us/learn/paths/universal-resource-scheduling/).
 
 ### Agreements, assets & inventory
 
@@ -134,7 +134,7 @@ Learn how to [deploy, configure, and run RSO](https://docs.microsoft.com/en-us/d
 
 ### Connected Field Service
 
-Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics to analyze data streams from Internet-connected equipment and proactively create work orders based on alerts - oftentimes before the customer is aware of a problem.
+Similarly, the pinnacle of work order creation is Connected Field Service (CFS) that combines AzureIoT and Dynamics 365 to analyze data streams from Internet-connected equipment and proactively create work orders based on alerts - oftentimes before the customer is aware of a problem.
 
 First, get an [Overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service) of CFS and learn about the [CFS with IoTHub architecture](../customer-engagement/field-service/developer/connected-field-service-architecture) to better understand how Azure and Dynamics 365 work together.
 
@@ -168,9 +168,9 @@ When working through implementation scenarios, it is important to know org level
 ### Key implementation resources
 - Stay up to date on new and upcoming features with the [Dynamics 365 release notes](https://docs.microsoft.com/en-us/business-applications-release-notes/). 
 
-- Use [version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
+- Use the [version history](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/version-history) to know the latest version and download the latest mobile projects.
 
-- Understand [AppSource Add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
+- Understand [AppSource add-ins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/appsource-addins) to meet more implementation requirements.
   
 ## Get help
 
