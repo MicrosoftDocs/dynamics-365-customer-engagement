@@ -2,18 +2,18 @@
 title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 05/13/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 8a311df9-3307-4524-85e5-76258d80ff86
 caps.latest.revision: 46
-ms.author: krbjoran
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
