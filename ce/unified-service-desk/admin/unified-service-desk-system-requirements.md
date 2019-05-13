@@ -49,7 +49,6 @@ This topic provides information about the system requirements for installing the
 | Requirement | Recommended Version | Supported Version|
 |---------------------------|---------------------------|-------------------------------------|
 | Operating system | <ul><li>[!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li></ul> |<ul><li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
-| Hosting Types | <ul><li> Chrome Process </li></ul> | <ul><li> Chrome Process </li><li> IE Process</li><li>Edge Process</li></ul> **Note:** Currently Edge Process is in Preview. |
 | Microsoft .NET Framework | <ul><li>[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing)</li></ul> |  |
 | Windows Identity Foundation  | <ul><li> Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) </li></ul> |  |
 | Screen resolution | <ul><li> 1920 x 1080 (Pixels) </li></ul> |  |
@@ -85,10 +84,19 @@ This matrix describes supported versions of Microsoft Dynamics 365 for Customer 
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
- The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. For more information on the requirements, see [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell).  
+ The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. For more information on the requirements, see [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell).
+
+## Hosting types
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages.
+
+| Supported Hosting Types | Recommended Hosting Types |
+|-----------------------------|--------------------------------------|
+| <ul><li> Chrome Process </li><li> IE Process</li><li>Edge Process</li> <li> Internal WPF </li></ul> **Note:** Currently Edge Process is in Preview. | <ul><li> Chrome Process </li></ul> |
+
 ## Impact of Unified Interface Only availability with Unified Service Desk
 
-You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only have Unified Interface experience. To enable the Web Client experience, set **No** for the **Use the new Unified Interface Only** option in the system settings. More information: [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
+You have deployed Unified Service Desk in a Customer Engagement Sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the Web Client experience, set **No** for the **Use the new Unified Interface Only** option in the system settings. More information: [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
 After you enable the Web Client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
 
