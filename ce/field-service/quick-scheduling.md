@@ -62,9 +62,9 @@ Set **Enable Quick Book** to **Yes**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-enable-quick-book.png)
 
-## Instructions
+## Quick book a single resource
 
-### 1. Create a work order
+### Create a work order
 
 First create a work order or another entity you'd like to schedule.
 
@@ -78,7 +78,7 @@ Then go to the related requirement and add additional attributes. This is to add
 
 In our example above, we are looking for a resource within the specified date range with the "Assembly Repair" skill and part of the "Seattle" Organizational Unit.
 
-### 2. Select book
+### Select book
 
 From the requirement or the work order select **Book** in the top ribbon. This opens the quick book side panel interface.
 
@@ -93,6 +93,7 @@ In the background, the system chooses an available resource based on the filter 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-schedule-board.png)
 
+### Filter options 
 Though quick scheduling is designed for quick and easy scheduling, the scheduler is still given a few simple filters in the quick book pane.
 
 The date range is taken from the requirement date range and can be edited.
@@ -107,18 +108,21 @@ Additionally, select the resource icon next to a time slot to see a simple list 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-select-resources.png)
 
-This displays more details such as travel time and distance but still a simpler interface with less details than the full schedule assistant.
+This displays more details such as travel time and distance but still a simpler interface with less details than the full schedule assistant, which can be triggered by selecting the **Open Schedule Assistant** link at the bottom of the Quick Book panel.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-select-resources2.png)
 
-select a resource
-if location based it shows distance
+## Quick book multiple resources
 
-filters
+Quick scheduling also works with requirement groups, which allow organizations to schedule multiple resources at one time. For more details see the topic on [requirement groups](../field-service/multi-resource-scheduling-requirement-groups). 
 
-open schedule assistant
+### Create a requirement group
 
-requirement group
+Go to Resource Scheduling >
+
+
+
+
 
 ## Configuration considerations
 
