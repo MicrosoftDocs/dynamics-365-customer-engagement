@@ -37,22 +37,22 @@ Complete the following steps to create a new time entry.
 4. In the **Project Task** field, locate the task for this time entry.
 
 > [!NOTE] 
-> If you are creating a time entry for a task not assigned to a user, click **Change View** and then in the **Project Task** field, select **All Active Project Tasks**.
+> If you are creating a time entry for a task not assigned to a user, in the **Project Task** field click the **Search** icon, then click **Change View** and select **All Active Project Tasks** to list all tasks.
 
-5. Enter a description if needed, and then click **Save**
+5. Enter a description if needed, and then click **Save and Close**
 
-After the time entry is created and saved, you can edit the entry in the time entry grid. 
+After the time entry is created and saved, you can edit the entry in the time entry grid. We allow two formats in the time entry grid, **hh:mm** which will be converted to hours and fractions, and hours and fractions directly. Note that the fraction of an hour is not minutes, so 1.5 hours is 1 hour and 30 minutes. The same follows for a day, which is 24 hours, 0.5 days is 12 hours.
 
 ## Bulk create time entries
 After a few time entries have been created, you can copy them to create additional time entries in bulk. 
 
-1. On the **Time Entries** page, click **Copy**. 
+1. On the **Time Entries** page, click **Copy Week**. 
 2. In the **From Period** group, in the **Start Date** and **End Date** fields, set the date range from which to copy the time periods. 
 3. In the **To Period** group, in the **Start Date** field, specify the date for which time entries are to be created in.  
 4. Click **Copy** to create a copy of the time entries for the corresponding day of the week entered in the **To Period** field. For example, Monday's time entry from last week is copied into Monday for the week indicated in the **To Period** field.
 
 ## Import data for time entries
-You can import data from project bookings and ssignments. When you import data, you can specify the date range of the bookings that you want to import and then explicitly select the bookings that should be copied into **Draft** time entries.
+You can import data from project bookings and assignments. When you import data, you can specify the date range of the bookings that you want to import and then explicitly select the bookings that should be created as **Draft** time entries.
 
 ## Group by, sort, search, and filter capabilities
 You can group and filter time entries by the dimensions specified in the columns. In the **Group by** field, select the dimension that you want to use to filter time entries. You can also sort the time entry records in ascending or descending order using the Sort arrow on the column headings. Additionally, you can show or hide entries by using the Filter icon on the column headings. In the **Search** box, enter the text you want to use to search for time entries by project name, project task, time entry, or resource.  
