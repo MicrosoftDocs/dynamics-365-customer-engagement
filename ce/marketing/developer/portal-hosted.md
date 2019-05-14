@@ -96,7 +96,7 @@ If you want to serve the custom event website from a **custom domain** you need 
 
 ### Manually overwriting sample website
 
-If you want to owerwrite sample website to match the version of Event Management that you currently have please refer to this page: [Manually overwriting sample website](manually-overwriting-sample-website.md)<br />
+If you want to overwrite the sample website to match the version of event management that you have currently, see [Manually overwriting sample website](manually-overwriting-sample-website.md)<br />
 
 ### See also
 
