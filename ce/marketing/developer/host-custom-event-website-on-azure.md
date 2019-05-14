@@ -22,8 +22,8 @@ This topic will walk you through how to host your custom event portal on Azure. 
 
 ## Prerequisites
 
-1. Download the [source code]() to customize the provided demo portal.
-2. Install [Node.js] version 10.x or higher.
+1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo portal.
+2. Install [Node.js](https://nodejs.org/en/download/) version 10.x or higher.
 3. Download the [Azure storage explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
 ## Step 1:  Create an Azure storage account
@@ -79,6 +79,9 @@ To use event management public API, you need a web application token. The web ap
 
    ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
    
+   > [!NOTE]
+   When you enter the Primary endpoint value, make sure that you don't have a trailing slash (/) at the end of the url.
+   
 7. Click on **Save**. You will get the web application token and the API endpoint. 
 
 ## Step 3: Create environment.ts file
@@ -86,9 +89,9 @@ To use event management public API, you need a web application token. The web ap
 1. Open the (in the prerequisites downloaded) source code with your favorite IDE (we recommend Visual Studio Code).  
 2. Navigate to `src/environments/` directory. 
 3. Open the file `environment.selfhosted.ts`. This file contains all the configuration settings for your event website. 
-4. Enter the `Endpoint` value from the Web Application setting in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the value. 
-5. Enter the generated `Token` from Web Application setting in the `emApplicationtoken` field and save the file. 
-6. Open a terminal in the root of your custom event website directory and type in 
+4. Enter the `Endpoint` value from the web application record that you have created in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the `apiEndpoint` value. 
+5. Enter the generated `Token` from the web application record in the `emApplicationtoken` field and save the file. 
+6. Open a terminal in the root of your custom event website directory and run the command
     ```CLI 
      ng build --prod --output-hashing none --configuration self-hosted 
     ``` 
@@ -101,7 +104,7 @@ To use event management public API, you need a web application token. The web ap
 3. Select your **Storage account** 
 4. Select the **$web blob container**
 
-   1[Web blob container](../media/web-blob-container.png "Web blob container")
+   ![Web blob container](../media/web-blob-container.png "Web blob container")
    
 5. Drag all files that you have generated before (located in `dist/ClientApp` directory) in the `$web` blob container. 
 
