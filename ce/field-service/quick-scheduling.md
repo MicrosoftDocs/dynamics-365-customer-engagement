@@ -64,9 +64,11 @@ Set **Enable Quick Book** to **Yes**.
 
 In the example above we enabled quick book for the work order entity meaning quick book will trigger from the work order form and requirements related to work orders.
 
-Some organizations use requirements unrelated to entities like work orders for scheduling. In this case, enable quick book for the **Default Metadata Settings (none)** option.
+Some organizations use requirements on their own for scheduling, unrelated to entities like work orders. Organizations like this should enable quick book for the **Default Metadata Settings (none)** option.
 
-scheduling-quick-book-default-metadata-setting
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-default-metadata-setting.png)
 
 ## Quick book a single resource
 
@@ -86,15 +88,22 @@ In our example above, we are looking for a resource within the specified date ra
 
 ### Select book
 
-From the requirement or the work order select **Book** in the top ribbon. This opens the quick book side panel interface.
+From the requirement or the work order select **Book** in the top ribbon. This opens the quick book side panel interface. When quick book is not enabled, the Book button triggers the Schedule Assistant interface.
 
 Next, all you need to do is select a time slot and then Book at the bottom.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-confirmation.png)
 
 
-In the background, the system chooses an available resource based on the filter criteria on the requirement we edited earlier. If the requirement is location based, as in the case of on site work orders, the system chooses the closest resource. The closest resource is determined based on the resource's starting location or previous work order. For location agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name. 
+In the background, the system chooses an available resource based on the filter criteria on the requirement we edited earlier. 
+
+- If the requirement is location based, as in the case of on site work orders, the system chooses the closest resource. The closest resource is determined based on the resource's starting location or previous work order. 
+- For location agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-quick-book-schedule-board.png)
@@ -107,7 +116,7 @@ The date range is taken from the requirement date range and can be edited.
 > [!Note]
 > Time parameters on the work order such as Date Window Start and End are passed down to requirements and are factored into quick booking.
 
-The **Filters** option on the top allows you to search through All Resources (meaning all resources that meet the requirement criteria) or select a specific resource to quick book to that resources schedule (again if the selected resource meets the criteria).
+The **Filters** option on the top allows you to search through All Resources (meaning all resources that meet the requirement criteria) or select a specific resource to quick book to that resource's schedule (again if the selected resource meets the criteria).
 
 Additionally, select the resource icon next to a time slot to see a simple list of applicable resources for that time slot. 
 
@@ -120,19 +129,45 @@ This displays more details such as travel time and distance but still a simpler 
 
 ## Quick book multiple resources
 
-Quick scheduling also works with requirement groups, which allow organizations to schedule multiple resources at one time. For more details see the topic on [requirement groups](../field-service/multi-resource-scheduling-requirement-groups). 
+Quick scheduling also works with requirement groups, which allow organizations to schedule multiple resources at one time. 
 
 ### Create a requirement group
 
 Go to **Resource Scheduling > Requirement Groups > +New**. 
 
-scheduling-quick-book-rg
+Use the requirement group control to define multiple resources needed. Each row represents a resource requirement.
 
-scheduling-quick-book-rg-open-form
+In the example below, we need two resources each with different skills but part of the same Seattle organizational unit for tow hours.
 
-scheduling-quick-book-rg-open-form2and3
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-rg.png)
 
-scheduling-quick-book-rg-results-onsite
+For more details see the topic on [requirement groups](../field-service/multi-resource-scheduling-requirement-groups).
+
+Additionally, select a row and open the form to edit more fields.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-rg-open-form.png)
+
+These requirements call for resource types contact, user, and account, and have a work location of onsite with a location indicating we are sending resource's to the customer's location.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-rg-open-form2and3.png)
+
+Next, from the requirement group control, select Book at the top to trigger Quick Book.
+
+Again, you can select a time slot then book to assign the requirement group to multiple resources, or you can select the resource icon to see the different combinations of resources to fulfill the group.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-rg-results-onsite.png)
+
+The results are displayed in order of travel time and distance, and because each resource can be traveling from a different location, travel time and distance is calculated as the average. 
+
+Lastly, as discussed in the [requirement groups](../field-service/multi-resource-scheduling-requirement-groups) topic, requirement groups can include different option sets and quick book will respect these.
+
+In the example below, we want to schedule a single resource with both required skills **OR** two resources, each with one skill.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-quick-book-rg-option.png)
 
 To utilize requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section.
 
@@ -140,7 +175,7 @@ To utilize requirement groups as part of the work order process, associate a req
 
 ## Configuration considerations
 
-successfully booked message is not configurable 
+ 
 
 quick book again adds on a booking
 
@@ -149,6 +184,7 @@ org level setting, not for certain users or security roles
 combine with fulfillment preference
 
 ## Additional Notes
+successfully booked message is not configurable
 - alphabetical order
 - quick scheduling as long as there is a book button and the related entity has it enabled
 - We discovered a bug with scheduling onsite requirements, so with this update of URS 3.7.*, the scope of the feature would only be non-onsite requirements (location agnostic, and Facilities). The bug with the onsite requirements scheduling is being fixed and will be pushed in the next update of URS 3.8.*. In this update 3.7.*, this feature will be disabled by default, however, with 3.8.*, we will flip it on all newer orgs
