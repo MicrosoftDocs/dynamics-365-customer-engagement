@@ -2,7 +2,7 @@
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 keywords: ""
-ms.date: 05/10/2018
+ms.date: 05/15/2018
 ms.service: 
   - usd
 ms.topic: article
@@ -29,6 +29,14 @@ search.app:
 ::: moniker range="dynamics-usd-4.1"
 
 ## Unified Service Desk 4.1 known issues and limitations
+
+### Window Navigation Rules for Advanced Find does not work
+
+When you use Unified Service Desk with Unified Interface apps, the Window Navigation Rules for the Advanced Find page might not work as the page is available only with the Web Client and hence you must retain the route type as **Popup**.
+
+### Importing solution causes error with Package Deployer
+
+When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To workaround the issue, you must upgrade your Customer Engagement instance to the latest version (9.1.0.4626).
 
 ### Support for inactivity timeout with Chrome Process and SSO
 
@@ -478,7 +486,7 @@ You can sign in to Unified Service Desk client application now.
 For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
 For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
 
-####
+#### Workaround
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
