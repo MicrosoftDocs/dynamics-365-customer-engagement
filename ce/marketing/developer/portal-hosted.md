@@ -94,6 +94,10 @@ If you want to serve the custom event website from a **custom domain** you need 
     > [!NOTE]
     > More information about CORS can be found here [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) [Access-Control-Allow-Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
 
+### Manually overwriting sample website
+
+If you want to owerwrite sample website to match the version of Event Management that you currently have please refer to this page: [Manually overwriting sample website](manually-overwriting-sample-website.md)<br />
+
 ### See also
 
 [Custom Event Portal Localization](event-portal-localization.md)<br />
