@@ -54,6 +54,7 @@
 ### [Book named resources from resource requirements](book-named-resource.md)
 ### [Submit a resource request](submit-resource-request.md)
 ### [Accept or reject a proposed resource](accept-reject-proposed-resource.md)
+## [Reconcile bookings and assignments](reconcile-booking-assignment.md)
 ## [Reporting](reports-reporting-dynamics-365-project-service.md)
 ### [Dashboards](reports-dashboards.md)
 ### [Working with the Project Service Automation data model](reports-working-project-service-data-model.md)
