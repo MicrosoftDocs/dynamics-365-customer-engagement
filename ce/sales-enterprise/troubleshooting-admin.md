@@ -164,7 +164,7 @@ If the issue resolve, then fix your custom Java Script.
    > [!NOTE]
    > To view your customizations: <br>
    > a. Go to **Settings** > **Solutions** and then select the solution. <br>
-   > b. Select **Events**. Verify the values are selected as:  **Component Type** to **Events** and **View** to **All**.
+   > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.
 
 4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
@@ -193,8 +193,8 @@ If the issue resolve, then fix your custom Java Script.
 4. Choose the processes that are coming from the solutions owned by you.
 
     > [!NOTE]
-    > To view your customizations:
-    > a. Go to **Settings** > **Solutions** and then select the solution. 
+    > To view your customizations:<br>
+    > a. Go to **Settings** > **Solutions** and then select the solution.<br> 
     > b. Select **Processes**. Verify the values are selected as:  **Component Type** to **Processes** and **View** to **All**.
 
 5. Select **Deactivate**.
