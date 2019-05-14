@@ -129,8 +129,8 @@ These issues might occur due to improper customization of the application. You m
 4. Select the **SDK Message Processing Steps** that are coming from the solutions owned by you. 
 
     > [!NOTE]
-    > To view your customizations:
-    > a. Go to **Settings** > **Solutions** and then select the solution. 
+    > To view your customizations:<br>
+    > a. Go to **Settings** > **Solutions** and then select the solution. <br>
     > b. Select **SDKMessage Processing Steps**. Verify the values are selected as:  **Component Type** to **SDK Message Processing Step** and **View** to **All**.
 
 5. Select **Deactivate**.
@@ -139,7 +139,7 @@ These issues might occur due to improper customization of the application. You m
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged custom plug-ins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
 
-If the issue persists, try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
+7. Verify the error and if it persists, activate the **SDK Message Processing Steps** that you deactivated now and try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Disable custom JavaScript
 
@@ -161,6 +161,11 @@ If the issue resolve, then fix your custom Java Script.
    > [!div class="mx-imgBorder"]
    > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
 
+   > [!NOTE]
+   > To view your customizations: <br>
+   > a. Go to **Settings** > **Solutions** and then select the solution. <br>
+   > b. Select **Events**. Verify the values are selected as:  **Component Type** to **Events** and **View** to **All**.
+
 4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
     > [!div class="mx-imgBorder"]
@@ -173,7 +178,7 @@ If the issue resolve, then fix your custom Java Script.
  
 6. Publish the customizations.
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
+7. Verify the error and if it persists, enable the **Events** that you disabled now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Deactivate custom process
 
@@ -198,7 +203,7 @@ If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plu
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged process workflows](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
+7. Verify the error and if it persists, activate the **Processes** that you deactivated now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
 
 ## Unable to see data in certain columns in entity views
 
