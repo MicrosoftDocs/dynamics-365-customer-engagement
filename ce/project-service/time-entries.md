@@ -1,7 +1,7 @@
 ---
 
 title: Create time entries
-description: This topic provides information about how to create time entries in Dynamics 365 for Project Service Automation (PSA).
+description: This topic provides information about how to create time entries in Microsoft Dynamics 365 for Project Service Automation (PSA).
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -25,35 +25,43 @@ search.app:
 # Create time entries
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
- 
-In Microsoft Dynamics 365 for Project Service Automation (PSA) v3.x, time entries are entered on a per day basis instead of on a weekly basis, as in previous versions of PSA. However, after a few time entries have been created, you can select to bulk create or copy time entries.
 
-## Create a new time entry
-Complete the following steps to create a new time entry.
+In previous versions of Microsoft Dynamics 365 for Project Service Automation (PSA), time entries were entered on a weekly basis. In version 3 and later of PSA, time entries are entered on a daily basis. However, after a few time entries have been created, you can bulk create or copy them.
 
-1. On the **Time Entries** page, click **New**.
-2. In the **Quick Create: Time Entry** pane, enter the time entry duration in minutes, hours, or days. The duration must be entered in the following format: x minutes, x hours or x days. Hours and days can also be entered using decimals, for example, x.x hours or x.x days.   
-3. Select the type of time entry and the project that you are entering the entry for. 
-4. In the **Project Task** field, locate the task for this time entry.
+## Create a time entry
 
-> [!NOTE] 
-> If you are creating a time entry for a task not assigned to a user, in the **Project Task** field click the **Search** icon, then click **Change View** and select **All Active Project Tasks** to list all tasks.
+Follow these steps to create a time entry.
 
-5. Enter a description if needed, and then click **Save and Close**
+1. On the **Time Entries** page, select **New**.
+2. In the **Quick Create: Time Entry** dialog box, enter the duration of the time entry in minutes, hours, or days. The duration must be entered in the following format: *x* minutes, *x* hours, or *x* days. Hours and days can also be entered as decimal values, such as *x.x* hours or *x.x* days.
+3. Select the type of time entry and the project that you're entering the time entry for.
+4. In the **Project Task** field, find the task for this time entry.
 
-After the time entry is created and saved, you can edit the entry in the time entry grid. We allow two formats in the time entry grid, **hh:mm** which will be converted to hours and fractions, and hours and fractions directly. Note that the fraction of an hour is not minutes, so 1.5 hours is 1 hour and 30 minutes. The same follows for a day, which is 24 hours, 0.5 days is 12 hours.
+    > [!NOTE]
+    > If you're creating a time entry for a task that isn't assigned to a user, in the **Project Task** field, select the **Search** button, select **Change View**, and then select **All Active Project Tasks** to list all tasks.
+
+5. Enter a description, if a description is required, and then select **Save and Close**.
+
+After the time entry is created and saved, you can edit it in the time entry grid. The time entry grid supports two formats:
+
+- You can enter time entries in **hh:mm** format. This format is then converted to hours and fractions.
+- You can enter hours and fractions directly.
+
+Note that the fractions of an hour aren't minutes. Therefore, 1.5 hours represents 1 hour and 30 minutes. The same rule applies to fractions of a day. One day is 24 hours, and 0.5 days represents 12 hours.
 
 ## Bulk create time entries
-After a few time entries have been created, you can copy them to create additional time entries in bulk. 
 
-1. On the **Time Entries** page, click **Copy Week**. 
-2. In the **From Period** group, in the **Start Date** and **End Date** fields, set the date range from which to copy the time periods. 
-3. In the **To Period** group, in the **Start Date** field, specify the date for which time entries are to be created in.  
-4. Click **Copy** to create a copy of the time entries for the corresponding day of the week entered in the **To Period** field. For example, Monday's time entry from last week is copied into Monday for the week indicated in the **To Period** field.
+After a few time entries have been created, you can copy them to create additional time entries in bulk.
+
+1. On the **Time Entries** page, select **Copy Week**.
+2. In the **From Period** field group, in the **Start Date** and **End Date** fields, define the date range to copy time entries from.
+3. In the **To Period** field group, in the **Start Date** field, specify the date to create time entries for.
+4. Select **Copy** to create a copy of the time entries that correspond to the day of the week that is specified in the **To Period** field group. For example, the time entry for Monday of last week is copied to Monday of the week that is specified in the **To Period** field group.
 
 ## Import data for time entries
-You can import data from project bookings and assignments. When you import data, you can specify the date range of the bookings that you want to import and then explicitly select the bookings that should be created as **Draft** time entries.
+
+You can import data from project bookings and assignments. When you import data, you can specify the date range of the bookings to import and then explicitly select the bookings that should be created as **Draft** time entries.
 
 ## Group by, sort, search, and filter capabilities
-You can group and filter time entries by the dimensions specified in the columns. In the **Group by** field, select the dimension that you want to use to filter time entries. You can also sort the time entry records in ascending or descending order using the Sort arrow on the column headings. Additionally, you can show or hide entries by using the Filter icon on the column headings. In the **Search** box, enter the text you want to use to search for time entries by project name, project task, time entry, or resource.  
- 
+
+You can group and filter time entries by the dimensions that are specified in the columns. In the **Group by** field, select the dimension to use to filter time entries. You can also sort the time entry records in ascending or descending order by using the sort arrow on the column headings. Additionally, you can show or hide entries by selecting the **Filter** button on the column headings, and then, in the **Search** box, entering the text that should be used to search for time entries by project name, project task, time entry, or resource.
