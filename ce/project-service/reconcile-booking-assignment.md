@@ -53,8 +53,8 @@ Double-click a cell to zoom in to the next lower level and view the difference. 
 
 ![Mismatched bookings and assignments](media/reconcile-assignments-02.JPG)
 
-You can right-click to zoom out the next higher level. You can also turn off the cell indicator by selecting the **Settings** button. 
+You can right-click a cell to zoom out the next higher level. You can also turn off the cell indicator by selecting the **Settings** button. 
 
 You can also use the **Previous** and **Next** buttons above the grid to move through any differences in your project. To use these buttons, you must first select a resource. Select **Next** to go to the next difference between bookings and assignments for that resource. Select **Previous** to go to the previous difference.
 
-In situations where you have task assignments for a resource but no bookings, you can select the booking shortage and then select **Extend Booking**. Alternatively, you can right-click and then select **Extend bookings** on the shortcut menu. In both cases, you can then see the booking that is required in order to address the resource's shortage. You can also view the resource's bookings on the current project and other projects. Select **OK** to create the booking for the resource without regard to current availability. The project manager or resource manager can then use Schedule Board to manage situations where a resource has become overbooked beyond capacity because its bookings were extended.
+In situations where you have task assignments for a resource but no bookings, you can select the booking shortage and then select **Extend Booking**. You can then see the booking that is required in order to address the resource's shortage. You can also view the resource's bookings on the current project and other projects. Select **OK** to create the booking for the resource without regard to current availability. The project manager or resource manager can then use Schedule Board to manage situations where a resource has become overbooked beyond capacity because its bookings were extended.
