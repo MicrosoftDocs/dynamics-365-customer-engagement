@@ -32,7 +32,7 @@ search.app:
 
 ### Window Navigation Rules for Advanced Find does not work
 
-When you use Unified Service Desk with Unified Interface apps, the Window Navigation Rules for the Advanced Find page might not work as the page is available only with the Web Client and hence you must retain the route type as **Popup**.
+When you use Unified Service Desk with the Unified Interface apps, Window Navigation Rules for the Advanced Find page might not work as the page is available only on Web Client and hence you must retain the route type as **Popup**.
 
 ### Importing solution causes error with Package Deployer
 
