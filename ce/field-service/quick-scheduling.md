@@ -120,6 +120,8 @@ Quick scheduling also works with requirement groups, which allow organizations t
 
 Go to **Resource Scheduling > Requirement Groups > +New**. 
 
+
+
 To utilize requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section.
 
 
