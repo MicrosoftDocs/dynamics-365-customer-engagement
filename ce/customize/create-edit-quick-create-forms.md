@@ -37,10 +37,9 @@ search.app:
 |||||  
 |-|-|-|-|  
 |Account|Campaign Response|Case|Competitor|  
-|Contact|Lead|Opportunity| *[Activity](#allow-quick-create-property-form-behavior-for-activities) |  
+|Contact|Lead|Opportunity| Activity |  
   
 <!-- Although you can create quick create forms for system activity entities, with the exception of the appointment entity, they do not support quick create forms. With the release of Dynamics 365 for Customer Engagement, version 9.0, the appointment entity includes a quick create form for use with the Unified Interface. Currently, the option to disable the quick create form for the appointment entity is not supported.--> 
-With the release of update 9.1.0.2007, the **Allow Quick Create** property can be enabled or disabled for most standard activities. More information: [Allow Quick Create property form behavior for activities](#allow-quick-create-property-form-behavior-for-activities)
 Any of the [updated entities](../customize/create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for the entity. 
 
 You can enable custom activity entities to support quick create forms, and you can create quick create forms for those entities. However, the quick create form for custom activity entities will not be used when people select **Create** on the navigation bar. These quick create forms can be used only when people add a new record for a sub-grid that displays that specific custom activity entity. 
