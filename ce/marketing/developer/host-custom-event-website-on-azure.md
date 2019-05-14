@@ -80,23 +80,23 @@ To use event management public API, you need a web application token. The web ap
    ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
    
    > [!NOTE]
-   When you enter the Primary endpoint value, make sure that you don't have a trailing slash (/) at the end of the url.
+   > When you enter the Primary endpoint value, make sure that you don't have a trailing slash (/) at the end of the url.
    
 7. Click on **Save**. You will get the web application token and the API endpoint. 
 
 ## Step 3: Create environment.ts file
 
-1. Open the (in the prerequisites downloaded) source code with your favorite IDE (we recommend Visual Studio Code).  
+1. Open the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) with your favorite IDE (we recommend Visual Studio Code).  
 2. Navigate to `src/environments/` directory. 
 3. Create an empty `environment.ts` file.
-3. Open the file `environment.selfhosted.ts`. This file contains all the configuration settings for your event website. 
-4. Enter the **Endpoint** field value from the web application record that you have created in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the `apiEndpoint` value. 
-5. Enter the generated **Token** field value from the web application record in the `emApplicationtoken` field and save the file. 
-6. Open a terminal in the root of your custom event website directory and run the command
+4. Open the file `environment.selfhosted.ts`. This file contains all the configuration settings for your event website. 
+5. Enter the **Endpoint** field value from the web application record that you have created in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the `apiEndpoint` value. It should look like this `https://yourorg.crm.dynamics.com/EvtMgmt/api/v2.0/`
+6. Enter the generated **Token** field value from the web application record in the `emApplicationtoken` field and save the file. 
+7. Open a terminal in the root of your custom event website directory and run the command
     ```CLI 
      ng build --prod --output-hashing none --configuration selfhosted 
     ``` 
-7. This will build the website. You can find the generated files in `dist\ClientApp`. 
+8. This will build the website. You can find the generated files in `dist\ClientApp` folder. 
 
 ## Upload your custom event website
 
@@ -107,7 +107,7 @@ To use event management public API, you need a web application token. The web ap
 
    ![Web blob container](../media/web-blob-container.png "Web blob container")
    
-5. Upload all files that you have generated before (located in `dist/ClientApp` directory) in the `$web` blob container. 
+5. Upload all the files that you have generated before located in `dist/ClientApp` folder into the `$web` blob container. 
 6. To see the custom event website in run time, copy the **Origin** field value from the web application record in Dynamics 365 for Marketing and open it in the browser.
 
 ### See also
