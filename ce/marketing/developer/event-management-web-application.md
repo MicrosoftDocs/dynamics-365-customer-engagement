@@ -122,4 +122,5 @@ Select the version you would like to download from the table below.
 
 [Self-hosted](self-hosted.md)<br />
 [Dynamics 365 Portal hosted](portal-hosted.md)<br/>
-[Localization](event-portal-localization.md)
+[Localization](event-portal-localization.md)<br />
+[Host your custom event website on Azure](host-custom-event-website-on-azure.md)
