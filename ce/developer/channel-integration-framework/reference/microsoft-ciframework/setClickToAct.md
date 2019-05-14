@@ -2,7 +2,7 @@
 title: "setClickToAct (JavaScript API Reference) for Channel Integration Framework (CIF) in Dynamics 365 | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 05/14/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -36,6 +36,4 @@ manager: shujoshi
 
 ## Return value
 
-**Type:** Boolean
-
-**Description:** Returns Promise object with the value. True to enable **ClickToAct** is enabled and false to disable.
+**Type:** Null
