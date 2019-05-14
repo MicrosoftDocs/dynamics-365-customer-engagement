@@ -1,7 +1,7 @@
 ---
 title: "On-off switch for Learning Path (guided help) for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 05/14/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -56,5 +56,5 @@ Learning Path (guided help) is turned on by default, but is easy to turn off.
 [!INCLUDE[cc_privacy_learning_path](../includes/cc-privacy-learning-path.md)]
   
 ### See also  
- [Create your own guided help (Learning Path) for your customers](../customize/create-guided-help-learning-path.md)   
+ [Create guided help (Learning Path) for your app](/powerapps/maker/model-driven-apps/create-guided-help-learning-path)   
  [Video: Learning Path in-app Help designer for customers and partners](https://go.microsoft.com/fwlink/p/?linkid=723184)

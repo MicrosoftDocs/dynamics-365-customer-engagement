@@ -2,7 +2,7 @@
 title: "Set managed properties for relationships in PowerApps | MicrosoftDocs"
 description: "Learn how to set managed properties for an entity relationship"
 ms.custom: 
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,7 +21,7 @@ tags:
 ---
 # Set managed properties for relationships
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_ManagedProperties"></a>   
 
