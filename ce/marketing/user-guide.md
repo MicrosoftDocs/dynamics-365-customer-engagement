@@ -66,7 +66,7 @@ search.app:
 <li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
 <li><a href="dynamic-email-content.md" data-raw-source="[Add dynamic content to email messages](dynamic-email-content.md)">Add dynamic content to email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
-<li><a href="embed-forms.md" data-raw-source="[Embed a marketing form on your own website](embed-forms.md)">Embed a marketing form on your own website</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
+<li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
 <li><a href="custom-template-attributes.md" data-raw-source="[Use custom attributes to enable designer features](custom-template-attributes.md)">Use custom attributes to enable designer features</a></li>
 
 </td><td>
@@ -100,7 +100,7 @@ search.app:
 <tr><td>
 
 <h2>Engage with contacts online</h2>
-<li><a href="portals.md" data-raw-source="[Engage customers online with portals](portals.md)">Engage customers online with portals</a></li>
+<li><a href="portals.md" data-raw-source="[Create interactive features with or without portals](portals.md)">Create interactive features with or without portals</a></li>
 <li><a href="surveys.md" data-raw-source="[Create and run online surveys](surveys.md)">Create and run online surveys</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="LinkedIn-Lead-Gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>

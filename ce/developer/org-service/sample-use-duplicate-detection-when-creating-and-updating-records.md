@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/run-duplicate-detection
 title: "Sample: Use duplicate detection when creating and updating records (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrating how to detect duplicate records when when creating and updating entity records."
 ms.custom: 

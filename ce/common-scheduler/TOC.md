@@ -1,11 +1,19 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
-# [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
-# [Fulfillment preferences](fulfillment-preferences.md)
-# [Resource crew scheduling](resource-crews.md)
-# [Facility scheduling](facility-scheduling.md)
-# [Resource pools](resource-pools.md)
-# [Schedule board tab settings](schedule-board-tab-settings.md)
-# URS extensibility
+
+# Scheduling
+## [Travel time and distance](schedule-travel-time.md)
+## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
+## [Fulfillment preferences](fulfillment-preferences.md)
+## [Resource crew scheduling](resource-crews.md)
+## [Facility scheduling](facility-scheduling.md)
+## [Resource pools](resource-pools.md)
+
+# Schedule board configuration
+## [Share schedule board tabs](share-schedule-board-tab.md)
+## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+## [Schedule board tab settings](schedule-board-tab-settings.md)
+
+# Extensibility
 ## [Extensibility updates](developer/extensibility-release-notes.md)
 ## Preferred geospatial data provider
 ### [Use your preferred geospatial data provider](developer/use-preferred-geospatial-data-provider.md)

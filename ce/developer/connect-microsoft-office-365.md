@@ -2,8 +2,8 @@
 title: "Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "The Microsoft Office 365 portal provides a single sign-on experience for Office 365 customers where they can sign in once and access any Office 365 application, including Dynamics 365 for Customer Engagement apps"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

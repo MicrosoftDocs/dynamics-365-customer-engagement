@@ -3,7 +3,7 @@ title: "Create and run advertisements on a portal in Dynamics 365 for Customer E
 description: "Instructions to create text or image-based advertisements and have them run in multiple placements throughout your site."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -56,7 +56,7 @@ When creating a new ad placement, specify a **Name** to describe the ad placemen
 
 ## Using Liquid templates to place advertisements
 
-Content managers may use Liquid to add an ad to any editable content area, as described in [Add dynamic content and create custom templates](custom-templates-dynamic-content.md) and, more specifically, [Ads](#ads-1).
+Content managers may use Liquid to add an ad to any editable content area, as described in [Add dynamic content and create custom templates](custom-templates-dynamic-content.md) and, more specifically, [Ads](liquid-objects.md#ads).
 
 This template renders an ad by name, or a random ad from an ad placement. Currently, the code below will not render multiple ads in the ad placement (that is, a rotating ad). To render multiple ads in the ad placement, you would need to build a Liquid ads API. For more information about built-in web templates, see [Store source content by using web templates](store-content-web-templates.md).
 

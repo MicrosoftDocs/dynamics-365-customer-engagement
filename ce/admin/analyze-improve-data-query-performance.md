@@ -1,7 +1,7 @@
 ---
-title: "Analyze and improve data query performance for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Data query performance for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/23/2019
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,17 +14,19 @@ ms.assetid: e9c76958-472f-47b9-816f-d9ee376f97fa
 caps.latest.revision: 15
 author: Mattp123
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - Powerplatform
 ---
-# Analyze and improve data query performance
-Applies to [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]
+# Data query performance
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a sub-grid or view. When you optimize an entity that has long-running queries, it could significantly reduce the amount of time the query takes to load. Behind the scenes, optimizations add one or more [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] indexes.  
+To improve query performance, index management is executed automatically using Azure SQL Database automatic tuning. Subsequently, there’s no need to manually configure recommendations to create or drop indexes in Dynamics 365 for Customer Engagement apps or Azure SQL Database. More information: [Automatic tuning in Azure SQL Database](/azure/sql-database/sql-database-automatic-tuning) 
+
+<!-- You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a sub-grid or view. When you optimize an entity that has long-running queries, it could significantly reduce the amount of time the query takes to load. Behind the scenes, optimizations add one or more [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] indexes.  
 
 > [!NOTE]
 >  The Data Performance feature is only available with [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
@@ -59,7 +61,7 @@ You can analyze and optimize query performance using the Data Performance view, 
   
 3. Select the entity that you want to create an optimization for, and then click **OPTIMIZE**.  To remove an applied optimization, click **REMOVE OPTIMIZATION**.  
   
-   Optimizations take effect immediately after they are applied. However, for entities that have large tables, it can take two or more hours before the optimization fully takes effect. Optimizations are processed as an asynchronous process and can be viewed in the **Settings** > **System Jobs** area of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Notice that an optimization may not be completely applied even after the system job is completed because the actual index must be built in the back-end storage engine.  
+   Optimizations take effect immediately after they are applied. However, for entities that have large tables, it can take two or more hours before the optimization fully takes effect. Optimizations are processed as an asynchronous process and can be viewed in the **Settings** > **System Jobs** area of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Notice that an optimization may not be completely applied even after the system job is completed because the actual index must be built in the back-end storage engine.  -->
   
 ### See also  
  [Performance tuning and optimization](../admin/performance-tuning-and-optimization.md)   

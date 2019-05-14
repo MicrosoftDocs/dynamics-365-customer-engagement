@@ -23,7 +23,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Live Work Item** and then select **Forms**.
+3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
 
 4.  Select **Session Overview Form** in the list.
 

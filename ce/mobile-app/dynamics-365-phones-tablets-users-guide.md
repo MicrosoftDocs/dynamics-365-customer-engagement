@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/15/2018
+ms.date: 05/2/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -13,6 +13,7 @@ applies_to:
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -32,17 +33,66 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 > [!NOTE]
 > - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 for Customer Engagement apps, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 for Customer Engagement apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
 > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Customer Engagement apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 for Customer Engagement apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
-> - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
+> - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected. 
+> - Mobile offline is only available for iOS and Android.
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
 
-## Preview: Introducing new sign-in experience for iOS users
+## Signing in and signing out (for iOS users)
 
-For more information, see [Preview: New sign in experience](previewsignin.md).
+Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. 
+
+> [!IMPORTANT]
+> - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
+> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
+
+
+### Sign in with your email address
+
+1. To sign in using your work email address, enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
+
+![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
+
+2.	When you sign in, you see a list of apps that you have access to. If you have access to multiple organizations, you see all the apps that you have access to across organizations.
+
+3.	Select the app that you want to use.
+
+    ![Select an app to use](media/openanapp.png "Select an app to use"). 
+
+#### Sign out
+
+From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
+
+![Sign out](media/signout1.png "Sign out")
+
+### Sign in with your web address
+
+You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
+
+1. On the sign-in screen, select **Sign in with a web address instead**.
+
+    ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
+
+    > [!NOTE]
+    > If you need help with your sign-in information, contact your Dynamics 365 administrator.
+
+2. Enter the URL for your Dynamics 365 Customer Engagement app, and select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). After that, enter your user name and password.
+3.	When you sign in, you see a list of all the apps that you have access to.
+4.	Select the app that you want to use.
+
+    ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
+
+#### Sign out
+
+From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
+
+![Sign out](media/previewsignout.png "Sign out")
+
+
       
 <a name="BKMK_Signin"></a> 
-## Signing in and signing out
+## Signing in and signing out (for Android users)
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin.
 
@@ -355,6 +405,9 @@ the call.
  
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
+
+> [!NOTE]
+> - Mobile offline is only available for iOS and Android.
 
 When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
 

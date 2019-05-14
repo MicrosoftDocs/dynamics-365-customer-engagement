@@ -131,8 +131,8 @@ You can create business rules and recommendations to apply form logic without wr
 ## Common issues
 This section describes common issues that may occur when you use business rules.
 
-### Full Name field not supported with unified interface apps
-Actions or conditions that use a **Full Name** (fullname) field aren’t supported in apps based on the unified interface.  Alternatively, you can use actions or conditions with **First Name** (firstname) and **Last Name** (lastname) fields. 
+### Full Name field not supported with Unified Interface apps
+Actions or conditions that use a **Full Name** (fullname) field aren’t supported in apps based on the Unified Interface.  Alternatively, you can use actions or conditions with **First Name** (firstname) and **Last Name** (lastname) fields. 
 
 ### Is your business rule not firing for a form?
 A business rule may not execute because the field referenced in the business rule isn’t included with the form. 
@@ -148,6 +148,13 @@ A business rule may not execute because the field referenced in the business rul
 
      > [!div class="mx-imgBorder"] 
      > ![](media/account-name-on-form.png "Account name field on form")
+
+## Frequently asked questions (FAQ)
+*Can business rules unlock fields on a read-only form?*
+- Yes, a business rule can unlock fields and edit actions on a read-only form.
+
+*How do I troubleshoot a business rule that isn't working?* 
+- See [Is your business rule not firing for a form?](#is-your-business-rule-not-firing-for-a-form) in this topic.
 
 ### See also  
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)   

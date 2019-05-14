@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.9 Readme"
+title: "Social Engagement Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: readme, known issues, information
-ms.date: 09/26/2018
+ms.date: 04/16/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -99,6 +99,10 @@ URL.
 
 ## Display of content - known issues
 
+### Organization logo from LinkedIn not shown in Social Engagement
+
+Starting April 15 2019, due to a change on the LinkedIn API, the organization logo from LinkedIn pages can't be displayed in Social Engagement.
+
 ### Blog content delivered in some cases in JSON format
 
 For some blogs coming through WordPress, the format of the text is not delivered
@@ -149,6 +153,10 @@ authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-enga
 Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This is a temporary issue and will be fixed with one of the upcoming releases. 
 
 ## Search setup - known issues
+
+### Creating a stream with % in keywords will fail
+
+When you try to create a stream in Social Center based on a search rule with keywords including the **%** character, its creation will fail. Please avoid creating streams based on keywords rules including the % character. Alternatively, consider removing the % character from the keyword rule before creating the stream.
 
 ### Changing search topic category not reflected in the UI   
 

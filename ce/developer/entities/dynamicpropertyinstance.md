@@ -1,36 +1,38 @@
 ---
-title: "DynamicPropertyInstance Entity Reference (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "DynamicPropertyInstance Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the DynamicPropertyInstance entity."
-ms.date: 12/05/2017
-ms.service: crm-online
-ms.topic: reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+ms.date: 04/02/2019
+ms.service: "crm-online"
+ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: "KumarVivek"
+ms.author: "kvivek"
+manager: "annbe"
 search.audienceType: 
   - developer
 search.app: 
+  - PowerApps
   - D365CE
 ---
 # DynamicPropertyInstance Entity Reference
 
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 Instance of a property with its value.
 
-**Added by**: Product Management Solution<br />
+**Added by**: Product Management Solution
+
 
 ## Messages
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/dynamicpropertyinstances<br />See [Create](../webapi/create-entity-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Delete](../webapi/update-delete-entities-using-web-api.md#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Retrieve](../webapi/retrieve-entity-using-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dynamicpropertyinstances<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Create|POST [*org URI*]/api/data/v9.0/dynamicpropertyinstances<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/dynamicpropertyinstances<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrieveProductProperties|<xref href="Microsoft.Dynamics.CRM.RetrieveProductProperties?text=RetrieveProductProperties Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveProductPropertiesRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Update](../webapi/update-delete-entities-using-web-api.md#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Update|PATCH [*org URI*]/api/data/v9.0/dynamicpropertyinstances(*dynamicpropertyinstanceid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 |UpdateProductProperties|<xref href="Microsoft.Dynamics.CRM.UpdateProductProperties?text=UpdateProductProperties Action" />|<xref:Microsoft.Crm.Sdk.Messages.UpdateProductPropertiesRequest>|
 
 ## Entity Properties
@@ -122,6 +124,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_DynamicPropertyInstanceIdType"></a> DynamicPropertyInstanceIdType
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -199,6 +203,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
+**Added by**: Active Solution Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Owner Id Type|
@@ -213,6 +219,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
+**Added by**: Sales Solution
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the object that the property is associated with.|
@@ -226,6 +234,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 ### <a name="BKMK_RegardingObjectIdType"></a> RegardingObjectIdType
+
+**Added by**: Active Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -371,7 +381,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 <a name="read-only-attributes"></a>
+
 ## Read-only attributes
+
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
@@ -456,7 +468,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was created.|
 |DisplayName|Created On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|createdon|
@@ -627,7 +639,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |DateTimeBehavior|UserLocal|
 |Description|Date and time when the record was modified.|
 |DisplayName|Modified On|
-|Format|DateOnly|
+|Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|modifiedon|
@@ -751,11 +763,13 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |IsValidForRead|True|
 |LogicalName|owninguser|
 |RequiredLevel|None|
-|Targets|systemuser|
+|Targets||
 |Type|Lookup|
 
 
 ### <a name="BKMK_RegardingObjectIdName"></a> RegardingObjectIdName
+
+**Added by**: Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -772,6 +786,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 ### <a name="BKMK_RegardingObjectIdYomiName"></a> RegardingObjectIdYomiName
+
+**Added by**: Sales Solution
 
 |Property|Value|
 |--------|-----|
@@ -826,12 +842,13 @@ Listed by **SchemaName**.
 - [dynamicpropertyinstance_SyncErrors](#BKMK_dynamicpropertyinstance_SyncErrors)
 - [dynamicpropertyinstance_AsyncOperations](#BKMK_dynamicpropertyinstance_AsyncOperations)
 - [dynamicpropertyinstance_MailboxTrackingFolders](#BKMK_dynamicpropertyinstance_MailboxTrackingFolders)
-- [dynamicpropertyinstance_UserEntityInstanceDatas](#BKMK_dynamicpropertyinstance_UserEntityInstanceDatas)
 - [dynamicpropertyinstance_BulkDeleteFailures](#BKMK_dynamicpropertyinstance_BulkDeleteFailures)
 - [dynamicpropertyinstance_PrincipalObjectAttributeAccesses](#BKMK_dynamicpropertyinstance_PrincipalObjectAttributeAccesses)
 
 
 ### <a name="BKMK_dynamicpropertyinstance_SyncErrors"></a> dynamicpropertyinstance_SyncErrors
+
+**Added by**: System Solution Solution
 
 Same as syncerror entity [dynamicpropertyinstance_SyncErrors](syncerror.md#BKMK_dynamicpropertyinstance_SyncErrors) Many-To-One relationship.
 
@@ -843,10 +860,12 @@ Same as syncerror entity [dynamicpropertyinstance_SyncErrors](syncerror.md#BKMK_
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|dynamicpropertyinstance_SyncErrors|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_dynamicpropertyinstance_AsyncOperations"></a> dynamicpropertyinstance_AsyncOperations
+
+**Added by**: System Solution Solution
 
 Same as asyncoperation entity [dynamicpropertyinstance_AsyncOperations](asyncoperation.md#BKMK_dynamicpropertyinstance_AsyncOperations) Many-To-One relationship.
 
@@ -863,6 +882,8 @@ Same as asyncoperation entity [dynamicpropertyinstance_AsyncOperations](asyncope
 
 ### <a name="BKMK_dynamicpropertyinstance_MailboxTrackingFolders"></a> dynamicpropertyinstance_MailboxTrackingFolders
 
+**Added by**: System Solution Solution
+
 Same as mailboxtrackingfolder entity [dynamicpropertyinstance_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_dynamicpropertyinstance_MailboxTrackingFolders) Many-To-One relationship.
 
 |Property|Value|
@@ -873,25 +894,12 @@ Same as mailboxtrackingfolder entity [dynamicpropertyinstance_MailboxTrackingFol
 |IsCustomizable|True|
 |ReferencedEntityNavigationPropertyName|dynamicpropertyinstance_MailboxTrackingFolders|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
-
-### <a name="BKMK_dynamicpropertyinstance_UserEntityInstanceDatas"></a> dynamicpropertyinstance_UserEntityInstanceDatas
-
-Same as userentityinstancedata entity [dynamicpropertyinstance_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_dynamicpropertyinstance_UserEntityInstanceDatas) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|userentityinstancedata|
-|ReferencingAttribute|objectid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|dynamicpropertyinstance_UserEntityInstanceDatas|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_dynamicpropertyinstance_BulkDeleteFailures"></a> dynamicpropertyinstance_BulkDeleteFailures
+
+**Added by**: System Solution Solution
 
 Same as bulkdeletefailure entity [dynamicpropertyinstance_BulkDeleteFailures](bulkdeletefailure.md#BKMK_dynamicpropertyinstance_BulkDeleteFailures) Many-To-One relationship.
 
@@ -907,6 +915,8 @@ Same as bulkdeletefailure entity [dynamicpropertyinstance_BulkDeleteFailures](bu
 
 
 ### <a name="BKMK_dynamicpropertyinstance_PrincipalObjectAttributeAccesses"></a> dynamicpropertyinstance_PrincipalObjectAttributeAccesses
+
+**Added by**: System Solution Solution
 
 Same as principalobjectattributeaccess entity [dynamicpropertyinstance_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_dynamicpropertyinstance_PrincipalObjectAttributeAccesses) Many-To-One relationship.
 
@@ -943,33 +953,49 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 ### <a name="BKMK_Dynamicpropertyinsatance_createdby"></a> Dynamicpropertyinsatance_createdby
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [Dynamicpropertyinsatance_createdby](systemuser.md#BKMK_Dynamicpropertyinsatance_createdby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_Dynamicpropertyinsatanceattribute_createdonbehalfby"></a> lk_Dynamicpropertyinsatanceattribute_createdonbehalfby
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_Dynamicpropertyinsatanceattribute_createdonbehalfby](systemuser.md#BKMK_lk_Dynamicpropertyinsatanceattribute_createdonbehalfby) One-To-Many relationship.
 
 ### <a name="BKMK_lk_Dynamicpropertyinsatanceattribute_ModifiedBy"></a> lk_Dynamicpropertyinsatanceattribute_ModifiedBy
 
+**Added by**: System Solution Solution
+
 See systemuser Entity [lk_Dynamicpropertyinsatanceattribute_ModifiedBy](systemuser.md#BKMK_lk_Dynamicpropertyinsatanceattribute_ModifiedBy) One-To-Many relationship.
 
 ### <a name="BKMK_lk_Dynamicpropertyinsatanceattribute_ModifiedOnBehalfBy"></a> lk_Dynamicpropertyinsatanceattribute_ModifiedOnBehalfBy
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [lk_Dynamicpropertyinsatanceattribute_ModifiedOnBehalfBy](systemuser.md#BKMK_lk_Dynamicpropertyinsatanceattribute_ModifiedOnBehalfBy) One-To-Many relationship.
 
 ### <a name="BKMK_team_DynamicPropertyInstance"></a> team_DynamicPropertyInstance
 
+**Added by**: System Solution Solution
+
 See team Entity [team_DynamicPropertyInstance](team.md#BKMK_team_DynamicPropertyInstance) One-To-Many relationship.
 
 ### <a name="BKMK_business_unit_dynamicproperyinstance"></a> business_unit_dynamicproperyinstance
+
+**Added by**: System Solution Solution
 
 See businessunit Entity [business_unit_dynamicproperyinstance](businessunit.md#BKMK_business_unit_dynamicproperyinstance) One-To-Many relationship.
 
 ### <a name="BKMK_TransactionCurrency_Dynamicpropertyinsatance"></a> TransactionCurrency_Dynamicpropertyinsatance
 
+**Added by**: System Solution Solution
+
 See transactioncurrency Entity [TransactionCurrency_Dynamicpropertyinsatance](transactioncurrency.md#BKMK_TransactionCurrency_Dynamicpropertyinsatance) One-To-Many relationship.
 
 ### <a name="BKMK_OwningUser_Dynamicpropertyinsatance"></a> OwningUser_Dynamicpropertyinsatance
+
+**Added by**: System Solution Solution
 
 See systemuser Entity [OwningUser_Dynamicpropertyinsatance](systemuser.md#BKMK_OwningUser_Dynamicpropertyinsatance) One-To-Many relationship.
 
@@ -979,23 +1005,31 @@ See dynamicproperty Entity [DynamicProperty_DynamicPropertyInstance](dynamicprop
 
 ### <a name="BKMK_InvoiceDetail_Dynamicpropertyinstance"></a> InvoiceDetail_Dynamicpropertyinstance
 
+**Added by**: Sales Solution
+
 See invoicedetail Entity [InvoiceDetail_Dynamicpropertyinstance](invoicedetail.md#BKMK_InvoiceDetail_Dynamicpropertyinstance) One-To-Many relationship.
 
 ### <a name="BKMK_OpportunityProduct_Dynamicpropertyinstance"></a> OpportunityProduct_Dynamicpropertyinstance
+
+**Added by**: Sales Solution
 
 See opportunityproduct Entity [OpportunityProduct_Dynamicpropertyinstance](opportunityproduct.md#BKMK_OpportunityProduct_Dynamicpropertyinstance) One-To-Many relationship.
 
 ### <a name="BKMK_QuoteDetail_Dynamicpropertyinstance"></a> QuoteDetail_Dynamicpropertyinstance
 
+**Added by**: Sales Solution
+
 See quotedetail Entity [QuoteDetail_Dynamicpropertyinstance](quotedetail.md#BKMK_QuoteDetail_Dynamicpropertyinstance) One-To-Many relationship.
 
 ### <a name="BKMK_SalesOrderDetail_Dynamicpropertyinstance"></a> SalesOrderDetail_Dynamicpropertyinstance
+
+**Added by**: Sales Solution
 
 See salesorderdetail Entity [SalesOrderDetail_Dynamicpropertyinstance](salesorderdetail.md#BKMK_SalesOrderDetail_Dynamicpropertyinstance) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 for Customer Engagement apps](../programming-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.dynamicpropertyinstance?text=dynamicpropertyinstance EntityType" />

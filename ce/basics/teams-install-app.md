@@ -2,7 +2,7 @@
 title: "Install and set up the Dynamics 365 app for Teams| MicrosoftDocs"
 ms.custom: 
 description: "Install and set up the Dynamics 365 app for Teams."
-ms.date: 12/04/2018
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,6 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Install the app and set up the Teams tab
 
@@ -35,7 +34,7 @@ search.app:
    > [!div class="mx-imgBorder"]
    > ![Select Store](media/select-store.png "Select Store")
 
-2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
+2. Search for **dynamics**, and then select the **Dynamics 365** tile.
 
    > [!div class="mx-imgBorder"]
    > ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
@@ -57,42 +56,40 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![Pick a channel and select Set up](media/teams-install-app-step2.png "Pick a channel and select Set up")
 
-6. Select **Review permissions**.
+
+6. Select a version 9.x environment and a Unified Interface app to connect, and then choose **Save**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Review permissions](media/teams-review-premissions75.png "Review permissions")
-
-7. Read through the permissions and select **Accept**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Accept permissions](media/teams-permissions-requested.png "Accept permissions")
-
-8. Select a version 9.x org and a Unified Interface app to connect, and then choose **Save**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select org and app module](media/teams-fre-org-app.png "Select org and app module")
+   > ![Select environment and app module](media/teams-fre-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+   > - Only Dynamics 365 for Customer Engagement version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
-   > - Only app modules licensed for the selected organization are listed. 
+   > - Only app modules licensed for the selected environment are listed. 
 
-9. Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+7. Select **Entity Selection** or **View Selection**.
+
+    7.1 **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can     use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an entity](media/teams-add-channel-pin-record2.png "Select an entity")
 
-After completing the above steps, you can select a Dynamics 365 for Customer Engagement apps record to connect to the Microsoft Teams channel. For more information, see [Collaborate with Teams](teams-collaboration.md). 
+    7.2 **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
+    
+   > [!div class="mx-imgBorder"] 
+   > ![Select a view](media/teams-select-view.png "Select an view")
+   
+      > [!NOTE]
+   > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
 
-> [!div class="mx-imgBorder"] 
-> ![Record successfully connected and pinned](media/teams-pinned-record.png "Record successfully connected and pinned")
 
-For troubleshooting, see [Troubleshoot Teams integration](teams-troubleshoot.md).
+8. After completing the above steps, you will see a new tab for Dynamics 365 for Customer Engagement apps for the selected Teams channel. 
+ 
+ 
+See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the tab feature to collaborate with Dynamics 365 for Customer Engagement apps.
 
 ## Set up the Dynamics 365 bot
 
-> [!NOTE]
-> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
 
 Set up the bot feature to interact with Dynamics 365 for Customer Engagement apps.
 
@@ -103,15 +100,15 @@ Set up the bot feature to interact with Dynamics 365 for Customer Engagement app
    > [!div class="mx-imgBorder"] 
    > ![Sign in to the bot](media/teams-bot-welcome.png "Sign in to the bot")
 
-3. Select an org, and then select **Next**.
+3. Select an environment, and then select **Next**.
 
-   If the org has multiple app modules (Sales, Marketing, Service, and so on), then you'll also select an app module.
+   If the environment has multiple app modules (Sales, Marketing, Service, and so on), then you'll also select an app module.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select an org](media/teams-bot-select-org.png "Select an org")
+   > ![Select an environment](media/teams-bot-select-org.png "Select an environment")
 
    > [!NOTE]
-   > Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed.
+   > Only Dynamics 365 for Customer Engagement version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed.
 
 4. Enter credentials and sign in.
 
@@ -130,37 +127,32 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for C
    > [!div class="mx-imgBorder"] 
    > ![Open the Dynamics 365 for Customer Engagement appsapp](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement appsapp")
 
-2. Select a version 9.x org and a Unified Interface app to connect with Dynamics 365 for Customer Engagement apps, and then choose **Save Changes**.
+2. Select a version 9.x environment and a Unified Interface app to connect with Dynamics 365 for Customer Engagement apps, and then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
-   > ![Select org and app module](media/teams-mydashboard-org-app.png "Select org and app module")
+   > ![Select environment and app module](media/teams-mydashboard-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 for Customer Engagement version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+   > - Only Dynamics 365 for Customer Engagement version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
-   > - Only app modules licensed for the selected organization are listed. 
+   > - Only app modules licensed for the selected environments are listed. 
 
 3. Select the **My Dashboard** tab.
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
 
-## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration Preview features
+## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
 
-Because this is a preview feature, you can control whether to display Teams integration in Dynamics 365 for Customer Engagement apps. For [Teams integration in Customer Engagement apps](teams-collaboration.md#teams-integration-in-dynamics-365-for-customer-engagement-apps), the Customer Engagement apps admin should enable the following setting.
-
-> [!NOTE]
-> This setting is currently only available for organizations in the North American region. 
+By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
-2. Go to **Settings** > **Administration** > **System Settings** > **Previews** tab.
-3. Enable **Microsoft Teams Integration Preview**.
+2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
+3. Enable **Microsoft Teams Integration**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Enable preview settings](media/teams-system-settings.png "Enable preview settings")
 
-When Microsoft Teams Integration Preview is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab, files synchronized with Teams will appear.   
+When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear.   
 
-If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the related Microsoft Teams channel and document do not appear in Dynamics 365 for Customer Engagement apps.  
+If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 for Customer Engagement apps.  
 
 ### See also  
  [Troubleshoot Teams integration](teams-troubleshoot.md)

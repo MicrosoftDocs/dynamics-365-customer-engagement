@@ -1,9 +1,9 @@
 ---
 title: "Audit user access (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Support for the ability to audit user access, including user identification, access time, and client type."
-ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.custom: audit
+ms.date: 03/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

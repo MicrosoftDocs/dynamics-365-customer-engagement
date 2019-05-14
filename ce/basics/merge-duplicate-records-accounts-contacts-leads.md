@@ -12,7 +12,7 @@ applies_to:
 author: jimholtz
 ms.assetid: 3e3aba01-d5d0-469b-8b21-e857ad9e64dd
 caps.latest.revision: 50
-mms.author: jimholtz
+ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - enduser

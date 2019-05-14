@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-queryexpression-with-a-paging-cookie
 title: "Sample: Use QueryExpression with a paging cookie (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The following sample shows how to use the QueryBase) method to return the 1:N related entities of an entity along with the primary entity"
 ms.custom: 

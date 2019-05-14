@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-fetchxml-paging-cookie
 title: "Sample: Use FetchXML with a paging cookie (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the paging cookie in a FetchXML query to retrieve successive pages of query results. It uses the IOrganizationService. QueryBase) method"
 ms.custom: 

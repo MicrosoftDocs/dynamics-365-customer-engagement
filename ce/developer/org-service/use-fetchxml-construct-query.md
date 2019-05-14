@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-construct-query
 title: "Use FetchXML to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This article discusses how to create and execute a FetchXML query "
 ms.custom: 

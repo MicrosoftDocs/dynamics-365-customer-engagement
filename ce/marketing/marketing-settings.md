@@ -1,8 +1,8 @@
 ---
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
-description: "Use the marketing settings to configure landing pages, email marketing, and customer-insights sync in Dynamics 365 for Marketing"
-keywords: administration; landing page; customer-insights sync
-ms.date: 03/08/2019
+description: "Use the marketing settings to configure landing pages, email marketing, and marketing-insights sync in Dynamics 365 for Marketing"
+keywords: administration; landing page; marketing insights sync
+ms.date: 05/03/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -30,7 +30,7 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and customer-insights services.
+The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and marketing services.
 
 To find these settings, open **Settings** > **Advanced settings** and choose one of the pages under the **Marketing settings** heading in the left column. You can also access these same settings by finding the **Marketing settings** section in the right column and choosing the icons there.
 
@@ -40,26 +40,42 @@ See the remaining sections of this topic for information about how to work with 
 
 ## Authenticate your domains
 
-Domain authentication is important when you send marketing email messages because it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+Domain authentication is important for two reasons:
 
-The primary purpose of these authentications is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
+- For *marketing email messages*, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+- For *externally hosted forms*, it confirms that you own the domain and therefore establishes an enhanced trust relationship with your domain, which enables embedded marketing forms to be prefilled with data for known contacts.
+
+The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
 When you error check or go live with a marketing email message, the verification system makes sure the message uses a from-address that specifies an authenticated domain registered and confirmed for your organization. You'll get a warning if you try to send a message that has a from-address that has an unregistered domain; you'll get an error if you try to send a message that uses a from-address that uses a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
 
-To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md).
+To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and prefilling, see [Integrate with landing pages on external websites](embed-forms.md).
 
-To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the DNS to authenticate marketing email messages from a given domain:
+### Which domains to authenticate
+
+Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with prefill enabled.
+
+- When you're authenticating a domain for email, use the full domain name as it appears in your email return addresses. Email addresses take the form _&lt;MailAccount&gt;_@_&lt;domain&gt;_, so if your email address is `lamar.ferrari@contoso.com`, then the domain you need to authenticate is `contoso.com` (not `www.contoso.com` or any other subdomain).
+- When you're authenticating a domain to support prefilled forms, you must authenticate each subdomain individually. So if you have forms on `contoso.com`, `www.contoso.com`, and `events.contoso.com`, then you must set up a separate domain-authentication record for each of them and specify the full subdomain each time.
+
+> [!IMPORTANT]
+> To use form prefilling, the page hosting the form must be served over HTTPS (not HTTP).
+
+### Authenticate a domain
+
+To set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and the DNS to authenticate marketing email messages and embedded forms for a given domain:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
 1. Select **New** on the command bar to add a new domain.
-1. A new authenticated domain record opens. In the **Domain name** field, enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
+1. A new authenticated domain record opens. Make the following settings:
+    - **Domain name**: Enter the name of the domain you want to authenticate. This must be a domain that your organization owns, and which you can access through your DNS provider.
+    - **Authenticate email**: Select this check box if you want to authenticate email for this domain using DKIM.
+    - **Enable prefilled forms**: Select this check box if you want to authenticate marketing forms [embedded](embed-forms.md) on this domain for the purpose of supporting prefill for known contacts. This check box also enables [page personalization](personalized-page-content.md) on this domain.
 1. Select **Save** from the command bar. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] saves the new record and generates a set of authentication keys for your specified domain. The page reloads to show the new keys. The following are provided:
     - **Ownership authentication key**: Proves that your organization owns the domain.
     - **Email authentication keys for DKIM**: Prove that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is authorized to send messages that show your organization's domain name in the from-address.
 1. Contact your DNS provider and tell them you are setting up domain authentication and DKIM so that you can do email marketing with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. They will typically provide you with an online form where you can submit the values now being provided for you by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Follow the instructions provided by your DNS provider to register all these values. (If your DNS registration is already configured with a key that matches one of the new ones you are registering now, then keep the existing key and append the new value(s) to form a comma-separated list for it.)
 1. When you are done registering the values with your DNS provider, return to your authenticated-domain record in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and select **Confirm DNS registration** on the command bar. Dynamics 365 checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
-
-Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails.
 
 As you are setting up an authenticated domain, you can track the progress of both its **Ownership status** and **Email status** , each of which is reported as one of the following:
 
@@ -127,16 +143,16 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 <a name="dci-sync"></a>
 
-## Choose entities to sync with the customer-insights services
+## Choose entities to sync with the marketing insights service
 
-The customer-insights services are external services that provide analytical tools for working with customer records. They help you to better understand your customers and help you set up subscription lists and target segments for use in email-marketing campaigns. The customer-insights services also make dynamic field values available for use in marketing email messages as they are processed and sent by the marketing services.
+The marketing insights service provides analytical tools for working with customer records. It helps you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The marketing insights service also makes dynamic field values available for use in marketing email messages as they are processed and sent.
 
-The analytical and data-crunching capabilities of the customer-insights services are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and these external services. For optimal performance and functionality, choose only the entities you need—no more and no less.
+The analytical and data-crunching capabilities of the marketing insights service is very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and this service. The marketing insights service also collects and manages all interaction data. For optimal performance and functionality, choose only the entities you need&mdash;no more and no less.
 
 > [!IMPORTANT]
 > The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
 
-The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the customer-insights services:
+The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the marketing insights service:
 
 - **Segmentation**: All entities that you need to query in your segmentation criteria must be present.
 - **Dynamic email content**: All entities with field values that you want to show as dynamic data in an email message must be present.
@@ -145,8 +161,8 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > [!NOTE]
 > You can only sync entities that are configured with **Change tracking** enabled. Entities without change tacking won't be listed on the **Customer insights sync** page. If you are a system customizer or admin, then you can find this setting by doing the following:
 > 
-> 1. Open the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.
-> 1. Go to **Settings** > **Customization**.
+> 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+> 1. Navigate to **Settings** > **Customization** > **Customization**.
 > 1. Select **Customize the system** (or select **Solutions** and open a solution if your entity is part of a solution).
 > 1. Find and select the entity you want to sync.
 > 1. On the **General** tab for the entity, select the **Change tracking** check box.
@@ -154,7 +170,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > 
 > [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Dynamics 365 for Marketing](customize.md)
 
-To sync a new entity with the customer-insights services:
+To sync a new entity with the marketing insights service:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**.
 
@@ -240,6 +256,36 @@ Use the **Double opt-in** tab to enable set up the double opt-in feature. For co
 Normally, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
 
 However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
+
+<a name="config-social"></a>
+
+## Configure your social media accounts
+
+Social posting enables Dynamics 365 for Marketing users to author, schedule, and publish posts to a variety of social media channels and accounts. You must configure and authenticate each channel and account that you'd like to make available for use with this feature. In the current version, you can configure accounts for Twitter, LinkedIn, and Facebook.
+
+To add and authenticate a social media account:
+
+1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**. A list view opens showing your existing social media accounts (if any).
+1. Select **Create configuration** on the command bar.
+1. A quick-create flyout slides in from the side of the screen. Make the following settings:
+    - **Name**: Enter a name that you and others will easily recognize. Choose a name that gives a good idea what type of channel it is what type of content should be posted there, such as "Contoso Electronics LinkedIn."
+    - **Social channel**: Choose the social-media site you want to connect to (such as LinkedIn or Facebook).
+1. After you've selected a channel, links for the **Privacy policy** and **Terms of service** of your selected channel are provided. It's important that you read and understand these terms before you begin using this feature.
+1. Provided you agree with the privacy policy and terms of service, select **Create** to continue.
+1. Follow the instructions on your screen to sign in to your social media account and allow [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to post through this account.
+    > [!IMPORTANT]
+    > If you are setting up a Facebook account that has more than one Facebook page associated with it, then pay extra attention to the settings offered while you are setting up the connection. One of the setup pages will ask you which of your Facebook pages you want to use&mdash;be sure to choose **All pages** first (to make all pages available) and then choose the specific page later on. Otherwise, Facebook will choose an arbitrary page from among those you have set up on the site. If you miss the **All pages** setting, then you must reauthorize the connection (as described in the following procedure) and try again.
+
+If your sign-in times out, or if the password changes on one of your accounts, you can update an account by doing the following:
+
+1. Go to **Settings** > **Advanced Settings** > **Marketing settings** > **Social configuration**.
+1. Select a social media configuration from the list.
+1. Select **Reauthorize** on the command bar.
+1. Follow the instructions on your screen to update your sign-in details.
+
+You can delete a social configuration at any time to prevent [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from posting through that account from now on. Use the **Delete** button on the command bar to delete the currently shown or selected configuration.
+
+For details about how to post messages to your configured accounts, see [Schedule and post messages on social media](social-posting.md)
 
 ## Data protection tools
 

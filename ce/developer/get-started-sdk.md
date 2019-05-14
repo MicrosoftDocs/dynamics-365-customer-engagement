@@ -2,8 +2,8 @@
 title: "Get started (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 3/29/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -35,7 +35,7 @@ The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.m
 
  If you just want to get an environment to start learning with, the easiest approach is to sign up for a [30-day free trial on Dynamics 365 for Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=708412).
 
- If you’re looking for something more long term, or you specifically want to use the on-premises version, you can [download the on-premises Microsoft Dynamics CRM Server 2016](http://go.microsoft.com/fwlink/p/?LinkId=708414). During Setup, you have the option to supply a commercial key, or you can use one of the product keys listed on the download page for a 90 day free trial.
+ If you’re looking for something more long term or specifically want to use the on-premises version, you can download it from [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=2025342). During setup, you have the option to supply a commercial key or you can use one of the product keys listed on the download page for a 90 day free trial. More information about installing the on-premises version: [Microsoft Dynamics 365 Server installation](https://docs.microsoft.com/dynamics365/customer-engagement/on-premises/microsoft-dynamics-365-server-installation).
 
  If you have an [MSDN subscription](https://msdn.microsoft.com/subscriptions), you can download [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] server software and access static activation keys that can be used for any number of installations.
 
