@@ -53,7 +53,7 @@ Field Service v8.7+
 > [!Note]
 > In Field Service v8.7 quick book capabilities need to be enabled, but in v8.8+ quick book is enabled by default. Quick booking onsite requirements is only available in v8.8+
 
-Enable quick scheduling by going to Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities
+Enable quick scheduling by going to **Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities**
 
 Then double click an entity to display the entities Booking Setup Metadata.
 
@@ -61,6 +61,12 @@ Set **Enable Quick Book** to **Yes**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-enable-quick-book.png)
+
+In the example above we enabled quick book for the work order entity meaning quick book will trigger from the work order form and requirements related to work orders.
+
+Some organizations use requirements unrelated to entities like work orders for scheduling. In this case, enable quick book for the **Default Metadata Settings (none)** option.
+
+scheduling-quick-book-default-metadata-setting
 
 ## Quick book a single resource
 
@@ -120,7 +126,13 @@ Quick scheduling also works with requirement groups, which allow organizations t
 
 Go to **Resource Scheduling > Requirement Groups > +New**. 
 
+scheduling-quick-book-rg
 
+scheduling-quick-book-rg-open-form
+
+scheduling-quick-book-rg-open-form2and3
+
+scheduling-quick-book-rg-results-onsite
 
 To utilize requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section.
 
