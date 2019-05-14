@@ -126,7 +126,13 @@ These issues might occur due to improper customization of the application. You m
     > [!div class="mx-imgBorder"]
     > ![Go to custom plug-in list](media/troubleshooting-goto-custom-plugin-list.png "Go to custom plug-in list")
 
-4. Choose all the plug-ins that are in an **Unmanaged** state. In this example, we have selected **ActivityFeeds.Plugins** with **Create** and **Update** SDK message types.
+4. Select the **SDK Message Processing Steps** that are coming from the solutions owned by you. 
+
+    > [!NOTE]
+    > To view your customizations:
+    > a. Go to **Settings** > **Solutions** and then select the solution. 
+    > b. Select **SDKMessage Processing Steps**. Verify the values are selected as:  **Component Type** to **SDK Message Processing Step** and **View** to **All**.
+
 5. Select **Deactivate**.
 6. Publish the customizations.
  
@@ -149,10 +155,11 @@ If the issue persists, try to [Disable custom JavaScript](#disable-custom-javasc
 
     The **Form Properties** dialog opens.
 
-3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list and choose the custom JavaScript file.  
+3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list and choose the custom JavaScript file.
+If the issue resolve, then fix your custom Java Script.
 
-    > [!div class="mx-imgBorder"]
-    > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
+   > [!div class="mx-imgBorder"]
+   > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
 
 4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
@@ -178,7 +185,13 @@ If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plu
     > [!div class="mx-imgBorder"]
     > ![Go to custom process workflow list](media/troubleshooting-goto-custom-process-workflow-list.png "Go to custom process workflow list")
 
-4. Choose all process that are in the **Unmanaged** state. In this example, we have to select all the unmanaged process.
+4. Choose the processes that are coming from the solutions owned by you.
+
+    > [!NOTE]
+    > To view your customizations:
+    > a. Go to **Settings** > **Solutions** and then select the solution. 
+    > b. Select **Processes**. Verify the values are selected as:  **Component Type** to **Processes** and **View** to **All**.
+
 5. Select **Deactivate**.
 6. Publish the customizations.
  
