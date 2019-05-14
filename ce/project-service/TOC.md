@@ -54,6 +54,7 @@
 ### [Book named resources from resource requirements](book-named-resource.md)
 ### [Submit a resource request](submit-resource-request.md)
 ### [Accept or reject a proposed resource](accept-reject-proposed-resource.md)
+## [Reconcile bookings and assignments](reconcile-booking-assignment.md)
 ## [Resource management home page](resource-management-home-page.md)
 ### [Manage resources](manage-resources.md)
 ### [Key concepts](reports-key-concepts.md)
