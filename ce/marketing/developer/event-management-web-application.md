@@ -18,14 +18,14 @@ manager: kvivek
 
 # Build and host a custom event portal
 
-The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the event management solution, you get an **Event Portal** which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
+The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the event management solution, you get an Event Portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 The event portal consists of two parts:
 
-1. Frontend (e.g., Angular, Vanilla JS, etc.)
+1. Frontend 
 2. REST API backend
 
-The frontend part is a single page application created using the [Angular](https://angular.io) framework and is fully customizable. The backend and the customization of the backend depends on the hosting type.
+You can implement the frontend using any of the available frameworks. The frontend part is a single page application and is fully customizable. The backend and the customization of the backend depends on the hosting type.
 
 You can host a custom event portal in two ways:
 
@@ -41,26 +41,26 @@ You either can build your frontend or customize the provided demo event portal.
 
 To get started with customizing the demo event portal, you need to follow these steps:
 
-1. Download the [source code](#download-sample-event-website)
+1. Download the [source code](#download-sample-event-website). Make sure that the version of the source code matches the version of the event management solution installed in your instance. More information: [Download sample event website](#download-sample-event-website)
 
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
-3. Open a terminal or shell of your choice (e.g., Command Prompt or Powershell) and run the below command to check whether the installation is successful or not.
+3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
     ```CLI
     node -v
     ```
         
     > [!NOTE]
-    > If you have a terminal or shell is already open, restart it before typing in the command.
+    > If you have a terminal or shell already open, restart it before typing in the command.
 
-4. Run the below command to install the Angular CLI (command line interface) required to build and run the Angular app. More information: [Angular CLI](https://cli.angular.io/).
+4. Run the  command to install the Angular CLI (command line interface) required to build and run the Angular app. More information: [Angular CLI](https://cli.angular.io/).
    ```CLI
    npm install -g @angular/cli
    ```
 
 5. Download the sample event website from the [download](#download-sample-event-website) section.
 
-6. Go into the directory where you have downloaded the [source code](#download-sample-event-website) and run the following command to fetch all the necessary packages that are required to run the website.
+6. Navigate into the directory where you have downloaded the [source code](#download-sample-event-website) and run the command to fetch all the necessary packages that are required to run the website.
 
     ```CLI
     npm install
@@ -71,26 +71,19 @@ To get started with customizing the demo event portal, you need to follow these 
 
 ## Environment Configuration
 
-All the configuration for your custom event portal can be made by creating an `environment.ts` file in `\src\environments`. This directory contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the settings that you need to know:
+All the configuration for your custom event portal can be made by creating an `environment.ts` file inside the `\src\environments` folder. This folder contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the parameters that you need to know before you start configuring:
 
 - **production** - Used internally by **Angular** to differentiate between production and development environments.
 - **buildVersion** - This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.
 - **apiEndpoint** - Used by the event management application. Points to the API endpoint that **Angular** services use.
 - **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
-- **imagesEndpoint** - Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.
-- **useRestStack** - Used by the event management application to adjust to different types of APIs used when utilizing the self-hosted approach against Dynamics 365 hosted approach. The self-hosted approach uses the REST API.
-- **isAuthenticationEnabled** - Used by the event management application to turn on support user authentication. If false login or logout dropdown is shown on the navigation bar.
+- **imagesEndpoint** - Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.
+- **useRestStack** - Used by the event management application to adjust to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.
+- **isAuthenticationEnabled** - Used by the event management application to turn on to support user authentication. If false login or logout dropdown is shown on the navigation bar.
 - **useAadB2C** - Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
 - **useMockData** - Used by the event management for development purposes. Overrides **Angular** application data services to return mock data.
 - **aadB2CConfig** - Configuration object used by event management application when **AAD B2C identity management** is enabled. 
 
-## Development
-
-Run the command from your working directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (default is `localhost:4200`).
-
-```CLI
-npm serve
-```
 
 ## Backend customization
 
