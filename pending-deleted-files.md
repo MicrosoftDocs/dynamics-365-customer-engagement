@@ -158,6 +158,7 @@ ce/developer/org-service/campaignactivityitem-intersect-entity-metadata.md
 ce/developer/org-service/campaignitem-intersect-entity-metadata.md
 ce/developer/org-service/listmember-intersect-entity-metadata.md
 ce/developer/org-service/role-privileges-intersect-entity-metadata.md
+ce\field-service\set-up-work-order-sub-statuses.md
 
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
