@@ -94,7 +94,7 @@ When you start collecting performance data, log files are generated with a uniqu
 
 The default path where the log files are maintained on the client computer:
 
-```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
+```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
 
 You can change the default path of the log files from the application configuration file. In the XML node of the application configuration file, change the value of the following attributes. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Enable Unified Interface Only for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
 ms.custom: 
-ms.date: 04/16/2019
+ms.date: 05/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -133,3 +133,7 @@ You can achieve this by [setting all apps to be Unified Interface apps](https://
 
 ### How do I resolve errors seen while using a *Dynamics 365 - custom* legacy app in Unified Interface?
 If there are issues with Unified Interface, [please let us know](https://docs.microsoft.com/power-platform/admin/get-help-support).
+
+### How does it impact my Unified Service Desk deployment?
+
+To learn about the impact of Unified Service Desk, see [Impact of Unified Interface Only availability with Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements#impact-of-unified-interface-only-availability-with-unified-service-desk).
