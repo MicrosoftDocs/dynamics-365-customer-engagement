@@ -32,9 +32,6 @@
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Incident types](configure-incident-types.md)
-## [Work order sub-statuses](set-up-work-order-sub-statuses.md)
-
-
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
