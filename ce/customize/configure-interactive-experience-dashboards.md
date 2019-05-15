@@ -1,12 +1,12 @@
 ---
-title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement for Customer Engagement | Microsoft Docs"
-description: "Know how to configure interactive experience dashboards in Dynamics 365 for Customer Engagement for Customer Engagement"
+title: "Configure interactive experience dashboards in Dynamics 365 for Customer Engagement | Microsoft Docs"
+description: "Know how to configure interactive experience dashboards in Dynamics 365 for Customer Engagement"
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,6 +23,8 @@ search.app:
 ---
 
 # Configure interactive experience dashboards
+
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Interactive experience dashboards can be a one-stop workplace for app users, such as service reps, to see workload information and take action. They're fully configurable, security-role based, and deliver workload information across multiple streams in real time. Interactive dashboard users don't need to page through the application looking for a particular record; they can act on a it directly from the dashboard. 
 

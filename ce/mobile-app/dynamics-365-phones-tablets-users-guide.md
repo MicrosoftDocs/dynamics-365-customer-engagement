@@ -13,6 +13,7 @@ applies_to:
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin

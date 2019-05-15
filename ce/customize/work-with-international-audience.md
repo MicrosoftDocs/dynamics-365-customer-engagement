@@ -1,7 +1,7 @@
 ---
-title: "Work with an international audience | MicrosoftDocs"
+title: "Work with an international features | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/14/2019
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,9 +22,11 @@ search.app:
 
 # Work with international features
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This section describes the customization features available to you for language and translation.
+
+[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
 
 ### See also
 [Enable additional languages](enable-additional-languages.md) <br />

@@ -1,7 +1,7 @@
 ---
 title: "Customize and organize reports (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/28/2018
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,7 +22,7 @@ search.app:
 ---
 # Customize and organize reports
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)] <br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Analyze data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps by using reports. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes default reports for many common business needs. However, most organizations customize the default reports and add custom reports for specific needs.  
   

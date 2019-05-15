@@ -2,7 +2,7 @@
 title: "Enable an entity for feedback | MicrosoftDocs"
 description: "Learn how to enable feedback for an entity"
 ms.custom: 
-ms.date: 11/03/2018
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -31,10 +31,6 @@ Let customers write feedback for any entity record, or rate entity records withi
  For example, you can enable feedback or ratings on the Case entity to receive feedback on the support experience the customer received. When several customers are rating a record, the ratings can be consolidated for each record through a custom rollup field.   In a sales scenario, you can enable the Product entity for feedback to get users' feedback on the products you sell.  
   
  By default, feedback is enabled for the Knowledge Article entity and the rollup field that stores the rating is added to knowledge article form.  
-  
-> [!IMPORTANT]
->  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and in [!INCLUDE[pn_crm_8_1_0_op_subsequent](../includes/pn-crm-8-1-0-op-subsequent.md)] (on-premises).  
-
   
 ## Enable feedback  
   
