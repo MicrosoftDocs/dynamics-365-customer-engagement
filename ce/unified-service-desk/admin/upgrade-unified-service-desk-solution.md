@@ -26,12 +26,12 @@ search.app:
   - D365USD
 ---
 # Upgrading the solution
-You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] sample application package to [!INCLUDE[pn_unified_service_desk_3_2](../../includes/pn-unified-service-desk-3-2.md)] by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  
+You can upgrade an existing Unified Service Desk sample application package to the latest Unified Service Desk by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  
   
 ## Upgrade procedure  
  To upgrade a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution, follow these steps.  
   
-1. [Download](http://go.microsoft.com/fwlink/p/?LinkID=867343) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages and [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)] tool.  
+1. [Download](../download-unified-service-desk.md) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages and [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)] tool.  
   
 2. Start [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], that will be used  to import the Upgrade sample application package. Alternatively, you can use [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] commands. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Import-CrmPackage](https://technet.microsoft.com/library/dn756301.aspx)  
   

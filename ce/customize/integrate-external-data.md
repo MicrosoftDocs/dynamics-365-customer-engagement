@@ -1,7 +1,7 @@
 ---
 title: "Integrate external data (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 12/04/2018
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,7 +22,7 @@ search.app:
 
 # Integrate external data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The topics in this section explain how you can integrate data from sources outside of [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 

@@ -2,7 +2,7 @@
 title: "Publish a Dynamics 365 for Customer Engagement app using the app designer | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 01/08/2019
+ms.date: 04/30/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -26,7 +26,7 @@ search.app:
 
 # Publish an app using the app designer
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Publish an app to make it available to users.  
   
