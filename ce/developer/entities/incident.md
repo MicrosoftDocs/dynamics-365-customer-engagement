@@ -1194,9 +1194,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-> [!WARNING]
-> If you see the error `Incident does not have valid status code`, make sure that you have used valid values of both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes in the request body. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.
-
 |Property|Value|
 |--------|-----|
 |Description|Select the case's status.|
@@ -3344,6 +3341,14 @@ Relationship details provided where the Incident entity is the first entity in t
 ### <a name="BKMK_KnowledgeBaseRecord_Incident"></a> KnowledgeBaseRecord_Incident
 
 See knowledgebaserecord Entity [KnowledgeBaseRecord_Incident](knowledgebaserecord.md#BKMK_KnowledgeBaseRecord_Incident) Many-To-Many Relationship.
+
+<a name= "BKMK_errors"></a>
+
+## Troubleshoot errors
+
+| Error | Resolution |
+| ----- | ----- |
+| `Incident does not have valid status code` | Make sure that you have used valid values of both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes in the request body if initiating any state change. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.|
 
 ### See also
 
