@@ -229,7 +229,7 @@ As per the data definitions and stages are outlined in the GDPR, the data contai
 
 - **Diagnostic log files.** The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named **UnifiedServiceDesk-.log** are maintained at the following location on the client computer: 
 
-`c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<Version>`
+`c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
 
 In this case, you hold the responsibility to delete the Diagnostic log files. 
 

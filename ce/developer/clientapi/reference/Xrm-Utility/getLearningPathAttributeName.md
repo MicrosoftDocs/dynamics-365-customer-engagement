@@ -33,7 +33,7 @@ An attribute by this name must be added to the UI element that needs to be expos
 
 ### Related topics
 
-[Create your own guided help (Learning Path) for your customers](../../../../customize/create-guided-help-learning-path.md)
+[Create your own guided help (Learning Path) for your customers](/powerapps/maker/model-driven-apps/create-guided-help-learning-path)
 
 [Xrm.Utility](../xrm-utility.md)
 
