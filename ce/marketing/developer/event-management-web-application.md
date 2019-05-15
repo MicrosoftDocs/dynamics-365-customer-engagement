@@ -68,8 +68,21 @@ To get started with customizing the demo event portal, you need to follow these 
     
    > [!NOTE]
    > The command needs to be executed in the same directory where the `package.json` file is located.
+7. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
 
-## Environment Configuration
+## Download sample event website
+
+Select the version you would like to download from the table below.
+
+> [!NOTE]
+> Make sure to use a version of the sample event website that matches your event management solution version.
+
+| Name | Release | Changes | Uploaded |
+|--|--|--|--|
+| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
+| Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
+
+## Environment Configuration parameters
 
 All the configuration for your custom event portal can be made by creating an `environment.ts` file inside the `\src\environments` folder. This folder contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the parameters that you need to know before you start configuring:
 
@@ -81,7 +94,7 @@ All the configuration for your custom event portal can be made by creating an `e
 - **useRestStack** - Used by the event management application to adjust to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.
 - **isAuthenticationEnabled** - Used by the event management application to turn on to support user authentication. If false login or logout dropdown is shown on the navigation bar.
 - **useAadB2C** - Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
-- **useMockData** - Used by the event management for development purposes. Overrides **Angular** application data services to return mock data.
+- **useMockData** - Used by the event management for development purposes. Overrides the **Angular** application data services to return mock data.
 - **aadB2CConfig** - Configuration object used by event management application when **AAD B2C identity management** is enabled. 
 
 
@@ -99,17 +112,7 @@ Most of the customization possibilities for the event management application are
 
 This exposes your new custom field through the API, and you can utilize it in the frontend.
 
-## Download sample event website
 
-Select the version you would like to download from the table below.
-
-> [!NOTE]
-> Make sure to use a version of the sample event website that matches your event management solution version.
-
-| Name | Release | Changes | Uploaded |
-|--|--|--|--|
-| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
-| Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
 
 ### See also
 
