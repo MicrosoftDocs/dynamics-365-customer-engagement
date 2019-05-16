@@ -24,7 +24,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-We have updated the content of the Assignment and booking reconciliation content and moved it into this document library. To learn more about reconciling assignments and bookings, see [Reconcile bookings and assignments](reconcile-booking-assignment.md).
+We have updated the content of the Assignment and booking reconciliation content and moved it into this document library. To learn more about reconciling assignments and bookings, see [Reconcile bookings and assignments](../reconcile-booking-assignment.md).
 
 You can still access and download the [Reconcile bookings and assignments (PDF)](https://go.microsoft.com/fwlink/?linkid=2008497), however we will no longer be updating this guide.
 
