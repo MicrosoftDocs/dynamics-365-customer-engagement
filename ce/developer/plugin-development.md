@@ -2,7 +2,7 @@
 title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement apps to modify or augment the standard behavior of the platform. "
 ms.custom: 
-ms.date: 1/18/2019
+ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -35,6 +35,22 @@ A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[
   
  For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
   
+## Best practices for on-premise plug-in development
+
+This section includes best practices specific to on-premise plug-in development
+
+### Don't depend on references to variables passed into plug-ins
+
+In an on-premises environment where a full trust plug-ins are executed within the same app domain, don't expect that a variable that refers to data included in the plug-in context will maintain a reference to the object.
+
+When data is passed into the event pipeline, the data is serialized and de-serialized to create a new object instances. The object instances do not refer to the same memory address. Any changes to the object in the plug-in execution pipeline will not be reflected in an object instance that was passed into an operation in the pipeline.
+
+For example, if you define a <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> that is included in a <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>, if there is any code within a plug-in that changes the QueryExpression, that change will not occur on the original QueryExpression instance variable that was passed with the RetrieveMultiple request. Within the pipeline, the QueryExpression object properties may be updated in the process of retrieving the data. For example, the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression>.<xref:Microsoft.Xrm.Sdk.Query.QueryExpression.PageInfo> property will be updated as a part of executing the query. You will not be able to detect these changes by examining the original QueryExpression variable that was used with the RetrieveMultipleRequest.
+
+### Where should you put plug-ins and custom workflow activities?
+
+For on-disk plug-ins or custom workflow activities, place the assemblies in the `<installdir>\Server\bin\assembly` folder.
+
 ## In This Section
 
  [Impersonation in Plug-ins](impersonation-plugins.md)  

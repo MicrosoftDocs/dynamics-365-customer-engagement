@@ -13,8 +13,8 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 74ADE5B8-3EA0-4100-BC2C-52FFBB7956EE
-author: kabala123
-ms.author: kabala
+author: susikka
+ms.author: susikka
 manager: shujoshi
 ---
 

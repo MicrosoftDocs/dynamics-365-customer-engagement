@@ -1,8 +1,8 @@
 ---
 title: "App making and customization overview | MicrosoftDocs"
-description: "Learn about metadata and how it relates to app making"
+description: "Learn about app making and customization with Dynamics 365 for Customer Engagement"
 ms.custom: 
-ms.date: 01/08/2019
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,11 +23,15 @@ search.app:
   - D365CE
 ---
 
-# App making and customization overview
+# App making and customization overview for Dynamics 365 for Customer Engagement, version 9 (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 The way your organization works is unique. Some organizations have well-defined business processes that they apply using an app. Others aren’t happy with their current business processes and use a custom app or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to apply new data and processes to their business. Whatever situation you find yourself in, you’ll find a lot of app design and customization capabilities in [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps so that they can work for your organization.  
+
+[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
+For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](https://docs.microsoft.com/en-us/previous-versions/dynamics/).
   
  Of course you’re eager to get started, but please take a few minutes to read the content in this section. This will introduce you to important terms, give you some background about why things are done a certain way, and help you avoid potential problems in the future.  
 

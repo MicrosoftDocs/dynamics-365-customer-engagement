@@ -53,7 +53,7 @@ For example, you might build a path as follows:
 1. Continue to the **Accounts** entity to find the accounts from that list, and find only companies working in the insurance industry.
 1. End at the **Contacts** entity to find the contacts from those accounts, and find only contacts living in California.
 
-Because the path ends with contacts, the result is a list of contacts who live in California and work for insurance companies that are on the **subscribers** list. (Many segment groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
+Because the path ends with contacts, the result is a list of contacts who live in California and work for insurance companies that are on the **subscribers** list. (Many query groups that you create will probably query the **Contacts** entity only, but even groups such as these might employ complex logic that combines multiple AND and OR clauses.)
 
 The following image shows this example query midway through construction, where we're adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can (and can't) do next.
 

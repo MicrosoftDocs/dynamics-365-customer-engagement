@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 04017981-2d10-496b-a6b8-5ad0ea99fa4f
 ms.custom: 
 ---
-# View notifications and screen pops
+# View alert and toast notifications
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -54,9 +54,6 @@ Toast notifications or floating notifications appear for SMS, email, voice call,
 #### Alert notifications
 
 An alert notification appears as a dialog box that contains buttons. When you select the **Accept** button, a screen pop appears and shows Customer summary details. You must take action within a specific time. After that time passes, the screen pop disappears. If your business requires an auto-accept request for an incoming request based on the routing rules, the alert notification doesn't contain buttons.
-
-> [!div class=mx-imgBorder]
-> ![omni-channel alert notification](../../media/oc-usd-alert-notification.png "omni-channel alert notification")  
 
 ##### Incoming chat notification
 

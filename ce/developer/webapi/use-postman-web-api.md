@@ -2,8 +2,8 @@
 title: "Use Postman with Dynamics 365 for Customer Engagement Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Postman to work with Dynamics 365 for Customer Engagement Web API"
 ms.custom: 
-ms.date: 01/12/2019
-ms.reviewer: 
+ms.date: 04/23/2019
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,9 +27,9 @@ There are a number of third-party tools that allow you to authenticate to [!INCL
 
 Use Postman to perform ad hoc queries or to verify the behavior of operations without writing a program. This section covers information on how to configure a Postman environment that connects to your [!INCLUDE[](../../includes/pn-dyn-365.md)] for Customer Engagement apps instance and use Postman to perform operations with the Web API.
 
+> [!NOTE]
+> [!INCLUDE[](../includes/cc-cdsnote-2-section.md)]
+>
+> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Use Postman with Common Data Service Web API](/powerapps/developer/common-data-service/webapi/use-postman-web-api).
+
 Postman offers many other capabilities beyond those covered in this content. More information: [First 5 things to try if you’re new to Postman](http://blog.getpostman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/)
-
-## In this section
-
-[Set up a Postman environment](setup-postman-environment.md)<br>
-[Use Postman to perform operations with the Web API](use-postman-perform-operations.md)<br>

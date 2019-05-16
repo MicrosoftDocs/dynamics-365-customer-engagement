@@ -47,29 +47,38 @@ To view and manage omni-channel users, see [Manage users in Omni-channel Engagem
 
 Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
 
+> [!NOTE]
+> Omni-channel users (agents and supervisors) should be assigned **Channel Access** role.
 
+|Role  |Privileges  |
+|---------|---------|
+|**Omni-channel Administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+|    |    Can edit roles of a user     |
+|    |   Can edit default presence and default capacity of a user      |
+|    |     Can edit queue assignment of a user    |
+|    |    Can add / edit / delete presence     |
+|    |      Can add / remove users from presence   |
+|    |    Can add / edit / delete presence associations     |
+|    |      Can add / edit / delete work streams   |
+|    |   Can add / edit / delete channel settings, context settings, routing rules      |
+|    |     Can add / edit / delete queues    |
+|    |     Can add / remove agents from queue    |
+|    |    Can view / add / edit / delete quick replies     |
+|    |     Can add / edit / delete PBI config    |
+|    |    Can view add / edit / delete operating hours    |
+|    |    Can view add / edit / delete auth settings     |
+|**Omni-channel Supervisor**     |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+||Can edit default presence and default capacity of a user|
+||Can edit queue assignment of a user|
+|| Can add / remove users from presence |
+||Can add / remove agents from queue| 
+|| Can view / add / edit / delete quick replies|
+||Can view operating hours |
+|**Omni-channel Agent**  |Can view user list / presence list / work stream list / queue list|
+||Can view quick replies|
+|**Channel Access**  |Can access Omni-channel records||
+||
 
-|                        Area         |  Operation |  Omni-channel administrator                 |    Omni-channel supervisor                       |    Omni-channel agent                      |
-|---------------------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------|---------------------------|----------------------------------|
-|    **User Management**           |    View user list|    Yes                    |     Yes  |     Yes |
-|            |    Edit roles of a user |    Yes                    |     No                |      No              |
-|            |    Edit default presence/default capacity/queue assignment of a user|    Yes                    |     Yes                |      No              |
-|    **Custom Presence**      |    View presence list|    Yes   |     Yes  |     Yes |
-|            |    Add/edit/delete presence |    Yes                    |     No                |      No              |
-|            |   Add users to presence|    Yes                    |     Yes                |      No              |
-|            |   Remove users from presence|    Yes                    |     Yes                |      No              |
-| **Work streams** |    View work stream list/details|    Yes   |     Yes  |     Yes |
-|        |    Add/edit/delete </br> - Work stream </br> - Channel settings </br> - Context settings </br> - Routing rules </br> - Presence associations  |    Yes      |     No   |      No 
-|    **Queues**      |    View queue list/details|    Yes   |     Yes  |     Yes |
-|            |    Add/edit/delete queue |    Yes                    |     No                |      No              |
-|            |  Add agents to queue|    Yes                    |     Yes                |      No              |
-|            |   Remove agents from queue|    Yes                    |     Yes                |      No              |
-|    **Quick Replies**      |    View quick replies|    Yes   |     Yes  |     Yes |
-|            |   Add/edit/delete quick replies |    Yes                    |     Yes                |      No              |
-|    **Operating Hours**      |    View operating hours|    Yes   |     Yes  |     No |
-|            |   Add/edit/delete operating hours |    Yes                    |     No                |      No              |
-|    **Authentication Settings**      |    View/add/edit/delete authentication settings|    Yes   |     No  |     No |
-|||
 
 ### See also
 

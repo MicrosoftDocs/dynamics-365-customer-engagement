@@ -1,5 +1,5 @@
 ---
-title: Special field properties for main forms in PowerApps | MicrosoftDocs
+title: Special field properties for main forms | MicrosoftDocs
 description: Understand the special field properties for main forms
 Keywords: Main forms; Special field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
@@ -9,7 +9,7 @@ applies_to:
   - powerapps
 ms.author: matp
 manager: kvivek
-ms.date: 04/24/2018
+ms.date: 04/29/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -20,7 +20,7 @@ ms.assetid: 6ad7e43c-b6a1-48c4-9dfb-ed830142a841
 ---
 # Overview of special field properties
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
  All fields have the properties listed in [Common field properties](../customize/common-field-properties-legacy.md), but certain fields have additional properties, such as this entitlement field that can be opened from the main case form.  
 

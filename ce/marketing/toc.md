@@ -2,7 +2,7 @@
 
 ## [Overview](overview.md)
 ## [Marketing videos](marketing-videos.md)
- 
+
 ## [Administrator Guide](admin-guide.md)
 
 ### [Set up and manage Marketing instances](setup-manage-instances.md)
@@ -170,6 +170,7 @@
 #### [Self-hosted](developer/self-hosted.md)
 #### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
 #### [Localization](developer/event-portal-localization.md)
+#### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
 ### [Work with Segments using code](developer/extend-segments.md)
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
 #### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)

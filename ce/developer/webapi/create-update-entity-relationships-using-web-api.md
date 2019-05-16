@@ -1,9 +1,10 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/create-update-entity-relationships-using-web-api
 title: "Create and update entity relationships using the Web API (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating and updating entity Dynamics 365 for Customer Engagement (online) Customer Engagement uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: susikka
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-linq-construct-query
 title: "Use LINQ to construct a query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Discusses how to use .NET Language-Integrated Query(LINQ) query provider in Dynamics 365 for Customer Engagement to construct a query"
 ms.custom: 

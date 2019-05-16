@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table
 title: "ListMember intersect entity metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "This topic lists the various many-to-many relationships for the List entity for which the ListMember intersect entity is the intersect table"
 ms.custom: 

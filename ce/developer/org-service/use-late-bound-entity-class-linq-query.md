@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-late-bound-entity-class-linq-query
 title: "Use late-bound entity class with a LINQ query (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can use late binding with .NET Language-Integrated Query (LINQ) queries"
 ms.custom: 

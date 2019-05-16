@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/page-large-result-sets-linq
 title: "Page large result sets with LINQ (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Read how you can page the results of a large .NET Language-Integrated Query (LINQ) query by using the Take and Skip operators"
 ms.custom: 

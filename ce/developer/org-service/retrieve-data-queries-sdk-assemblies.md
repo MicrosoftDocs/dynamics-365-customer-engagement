@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-query-data
 title: "Retrieve data with queries using SDK assemblies (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "There are several ways to create queries in Dynamics 365 for Customer Engagement (online) Customer Engagement. This topic lists the basic capabilities of each query style"
 ms.custom: 

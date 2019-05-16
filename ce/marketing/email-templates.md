@@ -2,7 +2,7 @@
 title: "Work with email, page, and form templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
 keywords: designer; email; preview; template; Litmus; marketing page; marketing form
-ms.date: 04/01/2018
+ms.date: 05/07/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -44,10 +44,10 @@ The first thing you do each time you create a new message, page, or form is to c
 
 When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 
-You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message, page, or form as a template, or work directly in the relevant templates area to create them. You'd typically start with a design based on an existing template, customize the design as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select a template** dialog box shown to users each time they create a new email, page, or form design.
+You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing email or customer journey as a template by selecting **Save as template** while the email or journey is open, or work directly in the relevant templates area to create them from scratch. You can also create page and form templates, but you can only do so by creating them in the templates area&mdash;no **Save as template** buttons are provided for these, but you could copy/paste the HTML from an existing page or form into a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select a template** dialog box shown to users each time they create a new email, page, or form design.
 
 > [!IMPORTANT]
-> The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&nbsp;otherwise your customizations could be overwritten during the next update.
+> The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&mdash;otherwise your customizations could be overwritten during the next update.
 
 ## Style a template
 

@@ -14,9 +14,9 @@ helpviewer_keywords:
   - duplicate detection, Web API, Organization Service
 ms.assetid: 5B84D5F0-CFB6-4212-ACCB-03AE81271F1E
 caps.latest.revision: 25
-author: SushantSikka
+author: susikka
 ms.author: susikka
-manager: amyla
+manager: shujoshi
 search.audienceType: 
   - developer
 search.app: 

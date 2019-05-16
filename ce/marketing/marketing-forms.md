@@ -47,15 +47,15 @@ As with marketing pages, each marketing form has a type, which maps directly to 
 
 To create a new marketing form, do one of the following:
 
-- Go to **Lead Management** &gt; **Marketing Forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
+- Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-- While working on an existing marketing page design, add a form element to your design, and then select **+New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Lead Management** &gt; **Marketing Forms**.
+- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Marketing** > **Internet marketing** > **Marketing forms**.
 
 Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
-- Go to **Lead Management** &gt; **Marketing Forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
+- Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the form list page. Use the search, sort, and filter controls to find the form you want to edit, and then select its name in the list to go to the form designer.
 
 - Open a marketing page where you use the form, select the form element in the canvas, and then go to the **Properties** tab of the page designer and open it from there.
 
@@ -115,7 +115,7 @@ As with marketing pages themselves, marketing forms are also based on templates,
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] comes with a collection of sample form templates, and you can also save your own templates, which you might do to establish your own visual identity and quickly create new forms that conform to it.
 
-You can view, edit, and create form templates by going to **Templates** &gt; **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
+You can view, edit, and create form templates by going to **Marketing** > **Templates** > **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
 
 ## Add a form to a marketing page
 

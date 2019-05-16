@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/powerapps/developer/common-data-service/special-update-operation-behavior
 title: "Perform specialized operations using Update (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Before Dynamics CRM Online 2015 Update 1, specialized messages were required to update certain entity attribute values. Learn about how UpdateRequest can now be used to set these attributes. This article lists the specialized deprecated message requests and the related message attributes that can be updated using UpdateRequest"
 ms.custom: 

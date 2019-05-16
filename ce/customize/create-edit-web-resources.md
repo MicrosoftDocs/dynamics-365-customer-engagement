@@ -27,6 +27,8 @@ search.app:
 
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
+[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
 > [!TIP]
 > 
 > For an in-depth discussion of web resources, see [Web resources for Customer Engagement apps](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources). For information on web resource dependencies added in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], see [Web resource dependencies](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/web-resources).
