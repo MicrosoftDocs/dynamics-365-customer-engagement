@@ -164,7 +164,10 @@ If the issue resolve, then fix your custom Java Script.
    > [!NOTE]
    > To view your customizations: <br>
    > a. Go to **Settings** > **Solutions** and then select the solution. <br>
-   > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.
+   > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.<br>
+   > c. Select **Filter** icon to enable filter options for columns. Select **Type** and set the filter as **Script (JScript)**.<br>
+   > [!div class="mx-imgBorder"]
+   > ![Select type filter as script](media/troubleshooting-javascript-view-javascript-filter.png "Select type filter as script")
 
 4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
