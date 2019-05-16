@@ -105,9 +105,9 @@ The user trying to close the opportunity doesn’t have sufficient permissions o
 
 While working on entities (such as opportunities, quote, order, invoice, quote product, and order product), you observe unexpected behavior or an error in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the errors that you might encounter while working on opportunities and this might be same for other entities:
 
-- "Not able to open opportunity" - this error might have occured due to Custom Plugin.
-- "Error while saving the opportunity" - this error might have occured due to Custom JavaScript.
-- "Error while close opportunity" - this error might have occured due to Custom Workflow.
+- "Extended Amount is wrong after revising quote"- this error might have occurred due to Custom Plugin.
+- "Error while saving the opportunity" - this error might have occurred due to Custom JavaScript.
+- "Error while close opportunity" - this error might have occurred due to Custom Workflow.
 
 These issues might occur due to improper customization of the application. You must verify these customization and resolve them. Perform the following verification methods to identify which customization is causing the issue and then resolve:
 
