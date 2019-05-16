@@ -188,9 +188,9 @@ To further enforce content locking, you can limit access to the **HTML** tab, wh
 
 ## Import externally created HTML into the designer
 
-You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form.
+You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form. When your HTML is ready, just paste it into the relevant designer and then add any Dynamics 365 features that you need as described in the following subsections.
 
-### Import HTML code
+### Import your HTML code
 
 To bring HTML created externally into the designer, start by doing the following:
 
@@ -203,7 +203,7 @@ To bring HTML created externally into the designer, start by doing the following
 > [!TIP]
 > Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 for Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) assist-edit for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
 
-### Enable the  drag and drop editor for imported emails
+### Enable the drag and drop editor after import
 
 If you'd like to enable the full-featured drag-and drop editor and/or add advanced design elements while working in the **Designer** view, you can easily do so by further editing your imported HTML code as follows:
 
