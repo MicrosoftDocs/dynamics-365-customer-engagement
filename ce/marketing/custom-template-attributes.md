@@ -186,6 +186,45 @@ When a design element is marked as protected, users working in the **Designer** 
 
 To further enforce content locking, you can limit access to the **HTML** tab, which will prevent selected users from accessing the code (where they could otherwise defeat this setting). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control access to designer features](designer-feature-protection.md)
 
+## Import externally created HTML into the designer
+
+You can use any tool you like to create the initial HTML layout and content for a marketing email, page, or form. When your HTML is ready, just paste it into the relevant designer and then add any Dynamics 365 features that you need as described in the following subsections.
+
+### Import your HTML code
+
+To bring HTML created externally into the designer, start by doing the following:
+
+1. Create a new marketing email, page, or form in Dynamics 365 for Marketing.
+1. Go to the **Design** > **HTML** tab of the designer.
+1. Clear all content from the HTML tab and paste in the HTML you created externally.
+1. Go to the **Design** > **Designer** tab of the designer and inspect your design.
+1. If you are working with a marketing email, be sure to use assist-edit to [place all required content and links](prepare-marketing-emails.md#required-links) (including a subscription-center link and your physical sender address).
+
+> [!TIP]
+> Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 for Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) assist-edit for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
+
+### Enable the drag and drop editor after import
+
+If you'd like to enable the full-featured drag-and drop editor and/or add advanced design elements while working in the **Designer** view, you can easily do so by further editing your imported HTML code as follows:
+
+1. Go back to the **Design** > **HTML** tab of the  designer.
+1. Enable the drag-and-drop editor by adding the required meta tag to the **\&lt;head\&gt;** section of your document as described in [Show the toolbox and enable drag-and-drop editing](#show-toolbox).
+1. Do the following as needed while working on the **Design** > **HTML** tab:
+
+    - At each part of your design where you'd like to be able to drag one or more design element, add code to create a data container as described in [Create a container where users can add design elements](#containers).
+    - If you prefer to position design elements directly in your code without using drag-and-drop, you can enter the required code directly into the **Design** > **HTML** tab. Elements that you add in this way won't support drag-and-drop, but they will provide settings in the **Properties** panel of the **Design** > **Designer** tab. You can only place text, image, divider, and button elements using this technique (create containers and use drag-and-drop for other types of design elements). See the table after this procedure for the HTML structures required to create each of these elements; copy/paste this code directly from the table as needed.
+
+1. You can now go to the **Design** > **Designer** tab and drag design elements into each of the containers you set up and then use the **Properties** panel to configure each design element that you dragged in or pasted directly into your code.
+
+| **Design&nbsp;element type** | **Paste this code** | **Notes**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| --- | --- | --- |
+| Text | `<div data-editorblocktype="Text"><p> Enter your text here</p></div>` | You can enter HTML content between the `<p>` tags directly here, or go to the **Designer** to use the rich-text editor to do it. |
+| Image | `<div data-editorblocktype="Image"><div align="Center" class="imageWrapper"><a href="example.com" title="example.com"><img alt="Some alt text" height="50" src="about:blank" width="50"></a></div></div>` | The easiest way to change your image source and/or image link is to go to the <strong>Designer</strong> and use the <strong>Properties</strong> panel. But you can also edit the following attributes directly in the HTML:<ul><li>Set the image link and/or title by editing the href and/or title attributes of the <code>&lt;a&gt;</code> element.</li><li>To remove the link from the image, clear the content of the <code>href</code> and <code>title</code> attributes of the <code>&lt;a&gt;</code> element (but keep the attributes and the quotes, such as <code>href=""</code>).</li><li>Set the image source by editing the src attribute of the <code>&lt;img&gt;</code> element.</li></ul>Don't edit any of the other code. |
+| Divider | `<div data-editorblocktype="Divider"><div align="center" class="dividerWrapper"><table aria-role="presentation" style="padding: 0px; margin: 0px; width: 100%"><tbody><tr style="padding: 0px;"> <td style="margin:0px; padding-left: 0px; padding-right: 0px; padding-top: 5px; padding-bottom: 5px; vertical-align:top;"> <p style="margin: 0px; padding: 0px; border-bottom-width: 3px; border-bottom-style: solid; border-bottom-color: rgb(0, 0, 0); line-height: 0px; width: 100%;"><span>&nbsp;</span></p></td></tr></tbody></table></div></div>` | Don't edit any of this code directly in the HTML editor. Instead, go do the **Designer** and use the **Properties** panel. |
+| Button | `<div data-editorblocktype="Button"><!--[if mso]><div align="center"><v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"`  | Don't edit any of this code directly in the HTML editor. Instead, go do the **Designer** and use the **Properties** panel. |
+
+For more information about how design elements appear in code, see [Identify design elements](#elements).
+
 <a name="fonts"></a>
 
 ## Add new fonts to the text-element toolbar
