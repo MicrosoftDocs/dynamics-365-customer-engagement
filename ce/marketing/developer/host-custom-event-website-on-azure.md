@@ -98,7 +98,7 @@ To use event management public API, you need a web application token. The web ap
     ``` 
 8. This will build the website. You can find the generated files in `dist\ClientApp` folder. 
 
-## Upload your custom event website
+## Step 4: Upload your custom event website
 
 1. Open **Microsoft Azure Storage Explorer** 
 2. Sign in with your Azure account. 
