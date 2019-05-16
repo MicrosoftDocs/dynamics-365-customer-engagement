@@ -2,7 +2,7 @@
 title: "Create a work order (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 05/16/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -82,8 +82,8 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
         - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
   
-        - **Sales tax**: Sales tax information is inherited from the service account.  
-  
+        - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
+
         - **Preferences**: Enter the resource and time information for the work order.  
   
         - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
