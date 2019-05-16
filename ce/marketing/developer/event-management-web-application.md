@@ -68,7 +68,9 @@ To get started with customizing the demo event portal, you need to follow these 
     
    > [!NOTE]
    > The command needs to be executed in the same directory where the `package.json` file is located.
+
 7. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
+8. Dynamics 365 for Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup)
 
 ## Download sample event website
 
@@ -100,18 +102,15 @@ All the configuration for your custom event portal can be made by creating an `e
 
 ## Backend customization
 
-Most of the customization possibilities for the event management application are found on the frontend, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if `custom_new_field` field is added to the `evtmgmt_pass` entity. The passes for the event can be retrieved using API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. To expose the new fields to be visible in API, you should do the following:
+Most of the customization possibilities for the event management application are found on the frontend, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. To expose the new fields to be visible in the API, you should do the following:
 
 1. Open your Dynamics 365 instance.
 1. Open Advanced Find view
-1. Select `Website Entity Configuration` entity and hit results button
+1. Select **Website Entity Configuration** entity and Click on **Results**
 1. Create a new record
 1. Enter a name of your choice
-1. Select the entity that you want an extra field to be visible for (`Pass` in this example)
-1. Write a JSON array that contains the new custom fields that should be visible through the API. In this example: `["custom_new_field"]`.
-
-This exposes your new custom field through the API, and you can utilize it in the frontend.
-
+1. Select the entity that you want an extra field to be visible for (Pass in this example)
+1. Write a JSON array that contains the new custom fields that should be visible through the API. In this example **custom_new_field**. This exposes your new custom field through the API, and you can utilize it in the frontend.
 
 
 ### See also
