@@ -3348,7 +3348,7 @@ See knowledgebaserecord Entity [KnowledgeBaseRecord_Incident](knowledgebaserecor
 
 | Error | Resolution |
 | ----- | ----- |
-| `Incident does not have valid status code` | Make sure that you have used valid values of both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes in the request body if initiating any state change. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.|
+| `Incident does not have valid status code` | Make sure that you have used valid values for both [StateCode](#BKMK_StateCode) and [StatusCode](#BKMK_StatusCode) attributes in the request body if initiating any state change. See [StateCode Options](#BKMK_StateCode_options) and [StatusCode options](#BKMK_StatusCode_options) for the list of valid values for these two attributes.|
 
 ### See also
 
