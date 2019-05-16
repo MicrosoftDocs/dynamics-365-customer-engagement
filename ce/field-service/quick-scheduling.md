@@ -170,12 +170,12 @@ To utilize requirement groups as part of the work order process, associate a req
 
 ## Configuration considerations
 
-- After quick booking a requirement, selecting book again for the same requirement will create an additional booking, and will not re-book the previous one.
+- After quick booking a single requirement, selecting book again for the same requirement will create an additional booking, and will not re-book the previous one. If selecting Book again for a requirement group, this will trigger the re-book process which cancels previous bookings.
 - Enabling quick book for a scheduleable entity (work order in this article) is an org wide setting and cannot be applied to specific users or security roles. 
 
 ### Consider using fulfillment preferences with quick scheduling
 
-The purpose of quick scheduling is to simplify the scheduling process. [Fulfillment preferences](../field-service/set-up-time-groups) further simplify scheduling by organizing quick book (or schedule assistant) results in neat time blocks.
+The purpose of quick scheduling is to simplify the scheduling process. [Fulfillment preferences](../field-service/set-up-time-groups) further simplify scheduling by organizing quick book (or schedule assistant) results in neat time blocks. By default, quick scheduling uses a fulfillment preference with 30 minute intervals for single requirements, and 30 minute intervals and 10 results per interval for requirement groups. To apply a custom fulfillment preference and override the default one:
 1. Create a fulfillment preference. In this example we created a fulfillment preference with 1 hour intervals.
 
 > [!div class="mx-imgBorder"]
