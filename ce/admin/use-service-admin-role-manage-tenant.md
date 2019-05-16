@@ -1,7 +1,7 @@
 ---
 title: "Use the Dynamics 365 for Customer Engagement apps (online) service admin role to manage your tenant | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/18/2019
+ms.date: 05/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: a92f7d58-fbe0-4ad7-bf42-d2961e306b85
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -42,27 +42,17 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
   
  Here's a matrix of what's available with the various [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] roles.  
   
-|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Customer Engagement licenses|Approve Customer Engagement emails<sup>1</sup>|Access support requests|Access Service health|Access Message center|  
+|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Customer Engagement licenses|Access support requests|Access Service health|Access Message center|  
 |--------------------------------|----------------------|------------------|-----------------------------|------------------------|-------------------------------|---------------------------------|-----------------------------|---------------------------|---------------------------|  
-|Office 365 global admin|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
-|Exchange admin|n/a|n/a|n/a|n/a|n/a|n/a|n/a|Yes|Yes|  
-|Office 365 service admin|No|No|No|No|No|No|Yes|Yes|Yes|  
-|Office 365 user|No|No|No|No|No|No|No|No|No|  
-|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes<sup>1</sup>|Yes|Yes|Yes| 
-|License administrator|No|No|No|No|Yes|No|No|No|No|  
+|Office 365 global admin|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
+|Exchange admin|n/a|n/a|n/a|n/a|n/a|n/a|Yes|Yes|  
+|Office 365 service admin|No|No|No|No|No|Yes|Yes|Yes|  
+|Office 365 user|No|No|No|No|No|No|No|No|  
+|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes|Yes|Yes| 
+|License administrator|No|No|No|No|Yes|No|No|No|  
 
-<sup>1</sup>You must be an Office 365 Global administrator to approve emails.
-
-To approve emails for Dynamics 365 for Customer Engagement apps (online), a Dynamics 365 user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
-
-This behavior has been changed for privacy reasons to allow an Office 365 Global administrator to approve emails.
-
-To approve emails for Dynamics 365 for Customer Engagement apps (on-premises), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege.  A system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
-
-To manually assign the **Approve Email Addresses for Users or Queues** privilege to a security role: 
-1. In Dynamics 365 for Customer Engagement, go to **Settings** > **Security** > **Security Roles**. 
-2. Select a security role, and then select the **Business Management** tab. 
-3. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
+> [!NOTE]
+> For information on email approval, see [Approve email](connect-exchange-online.md#approve-email).
 
 ### See also  
  [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   
