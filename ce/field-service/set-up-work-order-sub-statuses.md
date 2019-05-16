@@ -1,4 +1,5 @@
 ---
+redirect_url: work-order-status-booking-status
 title: "Set up work order sub-statuses (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
