@@ -1,7 +1,7 @@
 ---
 title: "Software requirements for Dynamics 365 Server | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/08/2019"
+ms.date: "05/15/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -69,9 +69,11 @@ This topic lists the software and application requirements for this version of [
   
 -   [!INCLUDE[pn_windowsserver2012](../includes/pn-windowsserver2012.md)]  
   
--   [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)]  
+-   [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] 
+
+-   Windows Server 2016  
   
- For more information about [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain and forest functional levels, see the [!INCLUDE[pn_Active_Directory_Domains_and_Trusts](../includes/pn-active-directory-domains-and-trusts.md)] [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in Help.  
+ For more information about [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain and forest functional levels, see [Forest and Domain Functional Levels](/windows-server/identity/ad-ds/active-directory-functional-levels). 
   
 > [!IMPORTANT]
 >  -   The computer that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Server is running on shouldn’t function as an [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain controller.  

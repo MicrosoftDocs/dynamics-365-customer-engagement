@@ -24,6 +24,7 @@
 ## [Schedule a work order](quickstart-schedule-work-order.md)
 
 # Work orders
+## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Create a new work order](create-work-order.md)
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
@@ -31,9 +32,6 @@
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Incident types](configure-incident-types.md)
-## [Work order sub-statuses](set-up-work-order-sub-statuses.md)
-
-
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)

@@ -97,7 +97,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
    </sharedListeners>  
    ```  
 
-    The `<sharelisteners>` section controls the location and type of logs that are generated for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. By default, `fileListener` will create a file called **UnifiedServiceDesk.log** in c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\UnifiedServiceDesk\\*\<Version>* directory, and `USDDebugListener` will create events in the [Debug output tab](../../unified-service-desk/use-debugger-control-unified-service-desk.md) of the Debugger hosted control.  
+    The `<sharelisteners>` section controls the location and type of logs that are generated for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. By default, `fileListener` will create a file called **UnifiedServiceDesk.log** in `c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>` directory, and `USDDebugListener` will create events in the [Debug output tab](../../unified-service-desk/use-debugger-control-unified-service-desk.md) of the Debugger hosted control.  
 
 5. If you want to change the location of the **UnifiedServiceDesk.log** file, change the value of the `Location` parameter.  
 
@@ -169,7 +169,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="View_diagnostic_log"></a>   
 ## Viewing the diagnostic log file  
- By default, diagnostics logging is enabled for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. A log file, **UnifiedServiceDesk-\<date>.log**, is available at c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\\*\<Version>* on the client computer to record operational errors in the client application. The log file is created the first time you encounter any errors in the client application.  
+ By default, diagnostics logging is enabled for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. A log file, **UnifiedServiceDesk-\<date>.log**, is available at `c:\Users\<UserName>\\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>` on the client computer to record operational errors in the client application. The log file is created the first time you encounter any errors in the client application.  
 
  When an error occurs in a hosted control, the  information logged in the log files provide detailed information about the exception such as the originating hosted control that caused the exception along with the exception details. Notice that the entire JavaScript code that caused the exception isn't logged. Only the faulty code along with exception description are logged.  
 

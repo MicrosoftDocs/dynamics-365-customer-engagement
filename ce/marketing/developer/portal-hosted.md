@@ -28,10 +28,10 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 
 ## Additional project setup
 
-### Environment configuration for portal hosted
+### Environment configuration 
 
-1. Duplicate the `environment.d365.ts` configuration file (located in `\src\environments`) and name it `environment.ts`.
-1. Open the `environment.ts` configuration file (located in `\src\environments`) for modification.
+1. Duplicate the `environment.d365.ts` configuration file located in the **\src\environments** folder and name it **environment.ts**.
+1. Open the **environment.ts** configuration file in the developer environment of your choice.
 1. Change the `apiEndpoint` variable to point to the in **Portal Website Binding** configured URL.
 
     > [!NOTE]
@@ -52,8 +52,22 @@ You need to bypass the **anti-CSRF** token for local development. To do that, yo
 
 To serve the application locally, you need to follow the steps below:
 
-1.	Run `npm install` to make sure all the dependencies are installed and are up-to-date.
-2.	Run `ng serve` to start the local development server to see the changes immediately.
+1. Run the command to make sure all the dependencies are installed and are up-to-date.
+
+    ```CLI
+    npm install
+    ```
+1. Run the command to generate the style.css file 
+
+   ```CLI
+   ng build --prod --output-hashing none
+   ```
+
+1. Run the command to start the local development server to see the changes immediately.
+
+   ```CLI
+   ng serve
+   ```
 
     > [!NOTE]
     > You can find more information on serving an Angular application locally here [Serving an Angular application locally]( https://angular.io/guide/quickstart#step-3-serve-the-application)

@@ -1,7 +1,7 @@
 ---
 title: "Business process flows overview | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/04/2018
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -168,7 +168,7 @@ You can assign the following privileges on a business process flow:
   
 ## Business process flow entity customization support 
 
-Introduced in the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
+Business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
 
 ### Use business process flow entity records with grids, views, charts, and dashboards
 
