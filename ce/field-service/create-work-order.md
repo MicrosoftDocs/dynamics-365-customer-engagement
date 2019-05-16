@@ -82,7 +82,7 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
         - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
   
-        - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details such as service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is taxable and the billing account is not tax exempt. If the work order is taxable, a Sales Tax Code lookup field will display and inherit a value from the service account or can be updated manually.
+        - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
 
         - **Preferences**: Enter the resource and time information for the work order.  
   
