@@ -129,8 +129,8 @@ These issues might occur due to improper customization of the application. You m
 4. Select the **SDK Message Processing Steps** that are coming from the solutions owned by you. 
 
     > [!NOTE]
-    > To view your customizations:<br>
-    > a. Go to **Settings** > **Solutions** and then select the solution. <br>
+    > To view your custom SDK Message Processing Steps:<br>
+    > a. Go to **Settings** > **Solutions** and then open the solution. <br>
     > b. Select **SDKMessage Processing Steps**. Verify the values are selected as:  **Component Type** to **SDK Message Processing Step** and **View** to **All**.
 
 5. Select **Deactivate**.
@@ -139,7 +139,10 @@ These issues might occur due to improper customization of the application. You m
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged custom plug-ins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
 
-7. Verify the error and if it persists, activate the **SDK Message Processing Steps** that you deactivated now and try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
+7. Verify the issue and if it doesn't occur, then the issue is with the custom SDK Message Processing Steps. Resolve the issue.
+
+> [!NOTE]
+> If the issue occurs, activate the **SDK Message Processing Steps** that you deactivated now and try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Disable custom JavaScript
 
@@ -163,8 +166,8 @@ These issues might occur due to improper customization of the application. You m
 4. Choose the custom **JavaScript** files that are coming from the solution owned by you.
 
    > [!NOTE]
-   > To view your customizations: <br>
-   > a. Go to **Settings** > **Solutions** and then select the solution. <br>
+   > To view your custom JavaScript: <br>
+   > a. Go to **Settings** > **Solutions** and then open the solution. <br>
    > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.<br>
    > c. Select **Filter** icon to enable filter options for columns. Select **Type** and set the filter as **Script (JScript)**.<br>
    >> [!div class="mx-imgBorder"]
@@ -182,7 +185,10 @@ These issues might occur due to improper customization of the application. You m
  
 7. Publish the customizations.
 
-8. Verify the error and if it persists, enable the JavaScripts that you disabled now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
+8. Verify the issue and if it doesn't occur, then the issue is with the custom JavaScript. Resolve the issue.
+
+> [!NOTE]
+> If the issue occurs, enable the JavaScripts that you disabled now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Deactivate custom process
 
@@ -197,8 +203,8 @@ These issues might occur due to improper customization of the application. You m
 4. Choose the processes that are coming from the solutions owned by you.
 
     > [!NOTE]
-    > To view your customizations:<br>
-    > a. Go to **Settings** > **Solutions** and then select the solution.<br> 
+    > To view your custom Processes:<br>
+    > a. Go to **Settings** > **Solutions** and then open the solution.<br> 
     > b. Select **Processes**. Verify the values are selected as:  **Component Type** to **Processes** and **View** to **All**.
 
 5. Select **Deactivate**.
@@ -207,7 +213,10 @@ These issues might occur due to improper customization of the application. You m
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged process workflows](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
 
-7. Verify the error and if it persists, activate the **Processes** that you deactivated now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
+7. Verify the issue and if it doesn't occur, then the issue is with the custom processes. Resolve the issue.
+
+> [!NOTE]
+> If the issue occurs, activate the **Processes** that you deactivated now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
 
 ## Unable to see data in certain columns in entity views
 
