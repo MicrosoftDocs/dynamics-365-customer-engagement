@@ -7,7 +7,7 @@ manager: shellyha
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/16/2018
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
