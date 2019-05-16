@@ -155,33 +155,34 @@ These issues might occur due to improper customization of the application. You m
 
     The **Form Properties** dialog opens.
 
-3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list and choose the custom JavaScript file.
-If the issue resolve, then fix your custom Java Script.
+3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list. 
 
    > [!div class="mx-imgBorder"]
    > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
+
+4. Choose the custom **JavaScript** files that are coming from the solution owned by you.
 
    > [!NOTE]
    > To view your customizations: <br>
    > a. Go to **Settings** > **Solutions** and then select the solution. <br>
    > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.<br>
    > c. Select **Filter** icon to enable filter options for columns. Select **Type** and set the filter as **Script (JScript)**.<br>
-   > [!div class="mx-imgBorder"]
-   > ![Select type filter as script](media/troubleshooting-javascript-view-javascript-filter.png "Select type filter as script")
+   >> [!div class="mx-imgBorder"]
+   >> ![Select type filter as script](media/troubleshooting-javascript-view-javascript-filter.png "Select type filter as script")
 
-4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
+5. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
     > [!div class="mx-imgBorder"]
     > ![Handler properties dialog](media/troubleshooting-javascript-handler-properties-dialog.png "Handler properties dialog") 
 
-5. Clear the **Enabled** option and select **OK**.
+6. Clear the **Enabled** option and select **OK**.
  
     > [!div class="mx-imgBorder"]
     > ![Clear enabled option](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Clear enabled option") 
  
-6. Publish the customizations.
+7. Publish the customizations.
 
-7. Verify the error and if it persists, enable the **Events** that you disabled now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
+8. Verify the error and if it persists, enable the JavaScripts that you disabled now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Deactivate custom process
 
