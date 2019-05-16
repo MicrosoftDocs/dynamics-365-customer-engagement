@@ -63,8 +63,6 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 |
 | [ Field Service v6.0 v1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
-- . 
-- .
 
 ## Additional notes
 
