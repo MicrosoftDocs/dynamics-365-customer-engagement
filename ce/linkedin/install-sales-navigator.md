@@ -2,7 +2,7 @@
 title: "Enable LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Enable the LinkedIn Sales Navigator for Dynamics 365 capabilities"
 keywords: "installation, setup, sales navigator"
-ms.date: 04/17/2019
+ms.date: 05/17/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -32,7 +32,7 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 - You will need to enable JavaScript in your browser.
 - You will need to disable your pop-up blocker for the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] domain.
 
-## Existing orgs that got update with April 19 features
+## Existing orgs that got updated with April 19 features
 
 In the [April 19 release](https://docs.microsoft.com/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview) we introduced changes to how the Sales Navigator controls are enabled. The out-of-the-box experience provides all features of V1 and V2 LinkedIn Sales Navigator integrations except the profile photo sync feature that comes as part of V2 when CRM Sync is enabled.   
    
