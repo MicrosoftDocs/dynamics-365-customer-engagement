@@ -60,10 +60,10 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
 | [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
-| [1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | January 2017  | Field Service v6.1 and  **Field Service Mobile (2017)** 9.0+ | 9.1 |
-| [1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | June 2016  |  Field Service v6.0 and **Field Service Mobile (2016)** 8.0 | 8.0 |
+| [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 |
+| [ Field Service v6.0 v1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
-## Additional notes
+## Trials and upgrades
 
  - New Dynamics 365 trials created through [https://trials.dynamics.com](https://trials.dynamics.com) will install the latest generally available Field Service solution. 
  - You can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 
