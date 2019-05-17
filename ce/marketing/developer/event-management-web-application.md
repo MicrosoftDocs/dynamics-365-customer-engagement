@@ -67,7 +67,7 @@ To get started with customizing the demo event portal, you need to follow these 
    > [!NOTE]
    > You need to execute the command in the same directory where the `package.json` file is located.
 
-6. See [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
+6. See [public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
 7. Dynamics 365 for Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup)
 
 ## Download sample event website
@@ -98,7 +98,6 @@ Some of the parameters that you need to understand before you start configuring 
 |**useMockData** | Used by the event management for development purposes. Overrides the Angular application data services to return mock data.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled.|
 
-
 ## Backend customization
 
 Most of the customization possibilities for the event management application are on the frontend, but there is also a use case where the system customizer wants to add a new field to the existing Event Management entity and wants to see that field in the event website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. 
@@ -111,7 +110,7 @@ The passes for the event can be retrieved using the API endpoint `api/v2.0/event
 1. Click on **New Website Entity Configuration** to create a new record.
 1. Enter the name of your choice in the **Name** field.
 1. Select the entity that you want an extra field to be visible in the **Selected Entity** field.
-2. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the API, and you can utilize it in the frontend.
+1. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the API, and you can utilize it in the frontend.
 
 ### See also
 

@@ -20,7 +20,7 @@ manager: kvivek
 
 Before you start hosting self-hosted custom event portal complete the actions mentioned in [Prerequisites](event-management-web-application.md) topic.
 
-The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service, or you can develop your backend. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
+The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service, or you can develop your backend. To interact with the backend service see [Public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
 
 If you choose to develop your backend service, you need to take care of the Dynamics 365 authentication and the Dynamics 365 web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact record for every new website user.  
 
@@ -51,7 +51,7 @@ To do so, a few additional steps need to be done.
 
 1. Duplicate the `environment.selfhosted.ts` configuration file located in the **\src\environments** folder and name it as **environment.ts**.
 2. Open the `environment.ts` configuration file in the developer environment of your choice.
-3. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v2.0/` where `{web-application-endpoint}` needs to be replaced with value from the **Endpoint** field in the newly created web application record in your instance.
+3. Change the value of the `apiEndpoint` variable to  `{web-application-endpoint}/EvtMgmt/api/v2.0/` where `{web-application-endpoint}` needs to be replaced with value from the **Endpoint** field in the newly created web application record in your instance.
 4. Make sure that the `useRestStack` variable is set to true.
 5. Update the URL for `imagesEndpoint`. If you want to serve the images from the same server, the URL should look like this: `https://HOST/assets/images/` (HOST needs to be replaced with your domain name). 
 6. Change the `emApplicationtoken` variable to point to the URL from the **Token** field in the newly created in the web application record. 
