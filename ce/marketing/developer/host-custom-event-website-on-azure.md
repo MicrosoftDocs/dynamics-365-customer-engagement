@@ -4,7 +4,7 @@ description: "Step-by-step tutorial on how to host your custom event website on 
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 03/13/2019
+ms.date: 05/15/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"

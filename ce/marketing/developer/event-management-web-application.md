@@ -1,10 +1,10 @@
 ---
-title: "Build and host a custom event portal | MicrosoftDocs"
+title: "Overview | MicrosoftDocs"
 description: "Provides information about how you can extend event management  web application functionality."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 02/21/2019
+ms.date: 05/20/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -16,7 +16,7 @@ ms.author: nabuthuk
 manager: kvivek
 ---
 
-# Build and host a custom event portal
+# Overview
 
 The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the event management solution, you get an Event Portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
@@ -53,31 +53,26 @@ To get started with customizing the demo event portal, you need to follow these 
     > [!NOTE]
     > If you have a terminal or shell already open, restart it before typing in the command.
 
-4. Run the  command to install the Angular CLI (command line interface) required to build and run the Angular app. More information: [Angular CLI](https://cli.angular.io/).
+4. Run the command to install the Angular CLI (command line interface) required to build and run the Angular application. More information: [Angular CLI](https://cli.angular.io/).
    ```CLI
    npm install -g @angular/cli
    ```
 
-5. Download the sample event website from the [download](#download-sample-event-website) section.
-
-6. Navigate into the directory where you have downloaded the [source code](#download-sample-event-website) and run the command to fetch all the necessary packages that are required to run the website.
+5. Navigate into the directory where you have downloaded the [source code](#download-sample-event-website) and run the command to fetch all the necessary packages required to run the website.
 
     ```CLI
     npm install
     ```
     
    > [!NOTE]
-   > The command needs to be executed in the same directory where the `package.json` file is located.
+   > You need to execute the command in the same directory where the `package.json` file is located.
 
-7. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
-8. Dynamics 365 for Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup)
+6. See [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
+7. Dynamics 365 for Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup)
 
 ## Download sample event website
 
 Select the version you would like to download from the table below.
-
-> [!NOTE]
-> Make sure to use a version of the sample event website that matches your event management solution version.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
@@ -86,32 +81,37 @@ Select the version you would like to download from the table below.
 
 ## Environment Configuration parameters
 
-All the configuration for your custom event portal can be made by creating an `environment.ts` file inside the `\src\environments` folder. This folder contains sample configuration files for different environments (self-hosted, portal hosted, development). You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). Here are some of the parameters that you need to know before you start configuring:
+ The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). All the configuration set up for your custom event portal is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). 
 
-- **production** - Used internally by **Angular** to differentiate between production and development environments.
-- **buildVersion** - This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.
-- **apiEndpoint** - Used by the event management application. Points to the API endpoint that **Angular** services use.
-- **localizationEndpoint** - Points to the localization endpoint that Event Management localization system uses to fetch the localized labels.
-- **imagesEndpoint** - Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.
-- **useRestStack** - Used by the event management application to adjust to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.
-- **isAuthenticationEnabled** - Used by the event management application to turn on to support user authentication. If false login or logout dropdown is shown on the navigation bar.
-- **useAadB2C** - Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).
-- **useMockData** - Used by the event management for development purposes. Overrides the **Angular** application data services to return mock data.
-- **aadB2CConfig** - Configuration object used by event management application when **AAD B2C identity management** is enabled. 
+Some of the parameters that you need to understand before you start configuring your custom event portal:
+
+|Parameter|Description|
+|-----|-----|
+|**production**| Used internally by the Angular application to differentiate production and development environments.|
+|**buildVersion** |This field links to the version specified in the `package.json` file by default. You don't need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
+|**apiEndpoint** | Used by the event management application. Points to the API endpoint that the Angular services use.|
+|**localizationEndpoint** | Points to the localization endpoint that the event management localization system uses to fetch the localized labels.|
+|**imagesEndpoint** | Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which is required if you prefer to use a CDN or image processing service.|
+|**useRestStack** | Used by the event management application which adjusts to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.|
+|**isAuthenticationEnabled** |Used by the event management application to turn on the support for user authentication if a false login or logout dropdown is shown on the navigation bar.|
+|**useAadB2C** | Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).|
+|**useMockData** | Used by the event management for development purposes. Overrides the Angular application data services to return mock data.|
+|**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled.|
 
 
 ## Backend customization
 
-Most of the customization possibilities for the event management application are found on the frontend, but there is also a use case when customizer adds a new field to the existing Event Management entity and would like to see that field in the website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. To expose the new fields to be visible in the API, you should do the following:
+Most of the customization possibilities for the event management application are on the frontend, but there is also a use case where the system customizer wants to add a new field to the existing Event Management entity and wants to see that field in the event website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. 
+
+The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. To expose the new field to be visible in the API, follow the steps below:
 
 1. Open your Dynamics 365 instance.
-1. Open Advanced Find view
-1. Select **Website Entity Configuration** entity and Click on **Results**
-1. Create a new record
-1. Enter a name of your choice
-1. Select the entity that you want an extra field to be visible for (Pass in this example)
-1. Write a JSON array that contains the new custom fields that should be visible through the API. In this example **custom_new_field**. This exposes your new custom field through the API, and you can utilize it in the frontend.
-
+1. Open **Advanced Find**
+1. Select the **Website Entity Configurations** entity from the dropdown and Click on **Results**
+1. Click on **New Website Entity Configuration** to create a new record.
+1. Enter the name of your choice in the **Name** field.
+1. Select the entity that you want an extra field to be visible in the **Selected Entity** field.
+2. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the API, and you can utilize it in the frontend.
 
 ### See also
 
