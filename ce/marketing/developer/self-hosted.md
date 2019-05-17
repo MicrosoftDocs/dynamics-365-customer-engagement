@@ -4,7 +4,7 @@ description: "Provides information about how you can extend event management web
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 03/13/2019
+ms.date: 05/20/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -20,7 +20,7 @@ manager: kvivek
 
 Before you start hosting self-hosted custom event portal complete the actions mentioned in [Prerequisites](event-management-web-application.md) topic.
 
-The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service, or you can develop your backend. To interact with the backend service see [API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
+The frontend can be fully customized and hosted by yourself. Additionally, you can choose to use our backend service, or you can develop your backend. To interact with the backend service see [Public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224).
 
 If you choose to develop your backend service, you need to take care of the Dynamics 365 authentication and the Dynamics 365 web services by yourself. If you want the event registration linked to the appropriate user who created it, make sure that you create the Dynamics 365 contact record for every new website user.  
 
@@ -31,11 +31,11 @@ To do so, a few additional steps need to be done.
 
 ## Dynamics 365 configuration
 
-1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** 
+1. Go to **Dynamics 365 > Marketing > Settings > Web applications** 
 2. Create a new web application
 
    > [!NOTE]
-   > You need to create a new web application for each origin of which the custom event portal is accessible (most probably you need at least two web applications (for development and production)).
+   > You need to create a new web application record for each origin, from which the custom event portal is accessible (you need at least two web applications for development and production).
 
 3. Enter an arbitrary **Name**.
 4. Enter the **Origin** URL of the custom event portal (e.g. `http://localhost:4200`).
@@ -51,7 +51,7 @@ To do so, a few additional steps need to be done.
 
 1. Duplicate the `environment.selfhosted.ts` configuration file located in the **\src\environments** folder and name it as **environment.ts**.
 2. Open the `environment.ts` configuration file in the developer environment of your choice.
-3. Change the value of the `apiEndpoint` variable to the following endpoint: `{web-application-endpoint}/EvtMgmt/api/v2.0/` where `{web-application-endpoint}` needs to be replaced with value from the **Endpoint** field in the newly created web application record in your instance.
+3. Change the value of the `apiEndpoint` variable to  `{web-application-endpoint}/EvtMgmt/api/v2.0/` where `{web-application-endpoint}` needs to be replaced with value from the **Endpoint** field in the newly created web application record in your instance.
 4. Make sure that the `useRestStack` variable is set to true.
 5. Update the URL for `imagesEndpoint`. If you want to serve the images from the same server, the URL should look like this: `https://HOST/assets/images/` (HOST needs to be replaced with your domain name). 
 6. Change the `emApplicationtoken` variable to point to the URL from the **Token** field in the newly created in the web application record. 
@@ -66,16 +66,14 @@ The event portal is capable of integrating the Azure Active Directory B2C. To in
     > [!NOTE]
     > To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname`' attributes and also selecting them in the `Application claim` section.
 
-1. Go to **Dynamics 365 > Settings > Event settings > Web Applications** and select the earlier created **Web Application**.
-1. Insert your client ID in the **AAD Client ID** field.
-1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
-1. Save the changes.
-1. Open the `environment.ts` configuration file located in the **\src\environments** folder.
+1. Go to **Dynamics 365 > Marketing > Settings > Web applications** and select the created **Web application** record.
+2. Insert your client ID in the **AAD Client ID** field.
+3. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
+4. Save the changes.
+5. Open the `environment.ts` configuration file located in the **\src\environments** folder and enter all required values in the `aadB2cConfig` variable.
 
     > [!NOTE]
     > It can take up to 10 minutes until the changes become active.
-
-1. Enter all required values in the `aadB2cConfig` variable.
 
 ## Development
 
