@@ -2,7 +2,7 @@
 title: "Enable viewing profile cards | MicrosoftDocs"
 description: "Enable viewing profile cards."
 ms.custom: 
-ms.date: 04/02/2019
+ms.date: 05/17/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,6 +22,14 @@ manager: kvivek
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Microsoft’s people experience is centered around profile cards that have been around in Microsoft Outlook and other Office apps and services on the web. When you select someone’s name or picture in Outlook or other Office apps, you can find information related to them on their profile card. The profile card is also sometimes referred to as contact card or people card. Profile cards are available on contacts and users in any Unified Interface app.
+
+> [!NOTE]
+> Profile cards are enabled except for the following regions. These regions will be enabled with the version indicated: 
+> 
+> - Region: **EUR**. Deployed with build 9.1.0.4626. Default: **On**.
+> - Region: **NAM**. Deployed with build 9.1.0.4626. Default: **On**.
+
+ To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right corner of the screen, select the **Settings** button (![User profile Settings button](media/user-profile-settings-button.gif)) > **About**.  
 
 ## Prerequisites
 
