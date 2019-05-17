@@ -34,6 +34,8 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 1. Open the **environment.ts** configuration file in the developer environment of your choice.
 1. Change the `apiEndpoint` variable to point to the **Website Bindings** value.
 
+    ![Website binding](../media/website-binding-record.png "Website binding")
+
     > [!NOTE]
     > You need to add a trailing slash at the end of the URL.
 

@@ -166,11 +166,11 @@
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
-### [Overview](developer/event-management-web-application.md)
+### [Build and host custom event portal overview](developer/event-management-web-application.md)
 #### [Self-hosted](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
 #### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
-##### [Manually overwriting sample website ]
+##### [Manually overwriting sample website](manually-overwriting-sample-website.md)
 #### [Localization](developer/event-portal-localization.md)
 ### [Work with Segments using code](developer/extend-segments.md)
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)

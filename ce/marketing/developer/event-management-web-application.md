@@ -91,7 +91,7 @@ Some of the parameters that you need to understand before you start configuring 
 |**buildVersion** |This field links to the version specified in the `package.json` file by default. You don't need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
 |**apiEndpoint** | Used by the event management application. Points to the API endpoint that the Angular services use.|
 |**localizationEndpoint** | Points to the localization endpoint that the event management localization system uses to fetch the localized labels.|
-|**imagesEndpoint** | Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which is required if you prefer to use a CDN or image processing service.|
+|**imagesEndpoint** | Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which is required if you prefer to use Content Delivery Network or image processing service.|
 |**useRestStack** | Used by the event management application which adjusts to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.|
 |**isAuthenticationEnabled** |Used by the event management application to turn on the support for user authentication if a false login or logout dropdown is shown on the navigation bar.|
 |**useAadB2C** | Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).|
