@@ -33,7 +33,7 @@ When your admin has enabled mobile offline, the next time you access the mobile 
 
 > [!Note]
 > - The mobile offline feature is only available for iOS and Android devices.
-> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.0 or greater is supported; for Android, version 4.3.19043.21 or greater supported.
+> - To use the mobile offline feature, download the latest version of the Dynamics 365 for phones and tablet app from the app store. For iOS, version 13.19043.32 or greater is supported; for Android, version 4.3.19043.33 or greater supported.
 
 
 <!--Seems like this needs an introductory sentence to explain what the steps are for. Also, is the first line (When you see ...) part of the steps? It isn't numbered like the rest.-->
