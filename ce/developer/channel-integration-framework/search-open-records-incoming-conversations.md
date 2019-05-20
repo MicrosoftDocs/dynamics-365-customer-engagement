@@ -2,7 +2,7 @@
 title: "Search and open records on an incoming conversation | MicrosoftDocs"
 description: "Read how you can use the Channel Integration Framework APIs to search and open records on an incoming conversation."
 keywords: ""
-ms.date: 05/08/2019
+ms.date: 05/20/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -90,13 +90,14 @@ The sample given below covers four scenarios:
         function multiplematchsingletype() {
             // More than one contacts are matched with same phone number
             // Search and show search results on console
-            var contactno = "555-5555"; 
-            var entityname = "account";
+            var contactno = "555-5555"; // The contact number to be searched
+            var entityname = "account"; // Entity type whose records are to be searched
 
             Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     count = Object.keys(res).length;
+                    // Print all the retrieved records on the console
                     while (count >= 1) {
                         console.log(`Record values: Name: ${res[count - 1].name}, Telephone number: ${res[count - 1].telephone1}`);
                         count = count - 1;
@@ -118,6 +119,7 @@ The sample given below covers four scenarios:
                 function success(result) {
                     res = JSON.parse(result);
                     count = Object.keys(res).length;
+                    // Print all the retrieved records on the console
                     while (count >= 1)
                     {
                         console.log(`Contact entity record values: Name: ${res[count - 1].fullname}, Telephone number: ${res[count-1].telephone1}`);
@@ -131,6 +133,7 @@ The sample given below covers four scenarios:
                 function success(result) {
                     res = JSON.parse(result);
                     count = Object.keys(res).length;
+                    // Print all the retrieved records on the console
                     while (count >= 1)
                     {
                         console.log(`Contact entity record values: Name: ${res[count - 1].name}, Telephone number: ${res[count - 1].telephone1}`);
@@ -146,7 +149,7 @@ The sample given below covers four scenarios:
             // Create new contact based on the details of the incoming call
             // Associate new contact to session
             var contactno = "000040000025"; // The contact number to be searched
-            var callername = "Contoso Ltd.";
+            var callername = "Contoso Ltd."; 
 
             Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
                 function success(result) {
@@ -185,12 +188,13 @@ The sample given below covers four scenarios:
     </script>
 
     <button class="button" type="button" onclick="singlematch()">One matching record</button><br /><br />
-    
+    <!-- singlematch() method is invoked when you click on "One matching record" button. This returns the record which has the same phone number as the number of the incoming call -->
     <button class="button" type="button" onclick="multiplematchsingletype()">More than one matching records of same type</button><br /><br />
-    
+    <!-- multiplematchsingletype() method is invoked when you click on "More than one matching records of same type" button. This returns the all records of one particular entity type, which have the same phone number as the number of the incoming call -->
     <button class="button" type="button" onclick="multiplematchmultipletype()">More than one matching records of different types</button><br /><br />
-    
+    <!-- multiplematchmultipletype() method is invoked when you click on "More than one matching records of different types" button. This returns the all records of mutliple entity types, which have the same phone number as the number of the incoming call -->
     <button class="button" type="button" onclick="nomatch()">No match</button><br /><br />
+    <!-- nomatch() method is invoked when you click on "No match" button. If there is no existing record with the same phone number as the number of the incoming call, it uses the details of the incoming call to create a new record -->
 
     
 </body>
