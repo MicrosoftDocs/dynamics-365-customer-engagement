@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/2/2019
+ms.date: 05/19/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -33,8 +33,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 > [!NOTE]
 > - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365 for Customer Engagement apps, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365 for Customer Engagement apps, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
 > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Customer Engagement apps for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365 for Customer Engagement apps  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
-> - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected. 
-> - Mobile offline is only available for iOS and Android.
+> - Mobile offline feature is now available. It's available only for iOS and Android users.
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
@@ -45,7 +44,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 > [!IMPORTANT]
 > - This feature is supported for version 9.x (Online and on-premises) when signing in using the mobile app on an iOS device.
-> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government)(GCC and GCC High)user, you are required to sign in using the web address option.
+> - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
 
 
 ### Sign in with your email address
@@ -402,7 +401,8 @@ In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, ta
 
 When you’re finished with your call, the app prompts you to enter details about
 the call.
- 
+
+<!-- old work offline content - added a new seperate for work offline.
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
@@ -451,7 +451,7 @@ Background sync is enabled even when the app is minimized so long as a network c
 
 Other things to keep in mind about background sync: 
   
-- Sync will run until you  sign in to the mobile app.    
+- Sync will run until you sign in to the mobile app.    
   
 - While the app is running in the background, sync is automatically disabled when a network is disabled.  
   
@@ -479,7 +479,7 @@ Other things to keep in mind about background sync:
 
 If multiple entries are made in the same field by offline users (for example, two or more “close by” dates), the conflict is clearly marked and you can choose the correct entry.  
   
-If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes.
+If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes. -->
  
 ## Reconfigure the app
 
