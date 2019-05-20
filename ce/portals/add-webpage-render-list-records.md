@@ -3,7 +3,7 @@ title: "Add a webpage to render a list of records on a portal in Dynamics 365 fo
 description: "Instructions to add and configure entity lists to render a list of records on a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 01/02/2019
+ms.date: 05/20/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,7 +34,8 @@ The data can also be filtered by the current portal user, the current portal use
 The entity list contains relationships to webpages and various properties to control the initialization of the list of records within the portal. The relationship to the webpage allows dynamic retrieval of the list definition for a given page node within the website. To view existing Entity views or to create new Entity views, go to **Portals** > **Entity Lists**.
 
 > [!Note]
-> An entity list must be associated with a webpage in a given website for the list to be viewable within the site.
+> - An entity list must be associated with a webpage in a given website for the list to be viewable within the site.
+> - Multi-select option set is not supported in entity lists.
 
 The webpages associated with the entity list can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu. When creating your entity list, the first step is to choose the entity for which you want to render a list on the portal. You'll then choose one or more [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] views to render.
 
