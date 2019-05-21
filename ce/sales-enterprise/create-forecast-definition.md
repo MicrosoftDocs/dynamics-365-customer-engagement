@@ -65,9 +65,9 @@ Before creating a forecast definition, review the following requisites:
 
         > [!NOTE]
         > Only the rollup queries with opportunity as the parent entity are available and valid for selection.
-    - **Owner**. Select the user name, and based on the hierarchy of the selected user name the forecast definition is created. If you are creating the forecast definition for yourself, choose your name. Otherwise, choose the user name for whom you are creating the forecast definition.
+    - **Owner**. If you are creating the forecast definition for yourself, choose your name as owner. Otherwise, choose the username for whom you are creating the forecast definition. Based on the hierarchy of the selected username the forecast definition is created.
 
-        For example, Bert Hair (manager) requests Wade Roque (reports to Bert) to create a forecast definition for Bert. While creating the forecast definition Wade selects Bert Hair as the owner so the forecast definition is created based on the Bert's hierarchy. 
+        For example, Bert Hair (manager) requests Wade Roque (reports to Bert) to create a forecast definition for Bert. While creating the forecast definition, Wade selects Bert Hair as the owner so the forecast definition is created based on the Bert's hierarchy. 
 
       > [!div class="mx-imgBorder"]
       > ![Forecast definition record](media/forecast-definition-form.png "Forecast definition record")
