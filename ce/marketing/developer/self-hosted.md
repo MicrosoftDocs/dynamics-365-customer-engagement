@@ -29,13 +29,14 @@ If you choose to develop your backend service, you need to take care of the Dyna
 To give users full control of the event portal you can host the frontend by yourself.
 To do so, a few additional steps need to be done.
 
-## Dynamics 365 configuration
+## Register your web application
+To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization.
 
 1. Go to **Dynamics 365 > Marketing > Settings > Web applications** 
-2. Create a new web application
+2. Create a **new web application**
 
    > [!NOTE]
-   > You need to create a new web application record for each origin, from which the custom event portal is accessible (you need at least two web applications for development and production).
+   > You need to create a new web application record for each origin, from which the custom event website is accessible (you need at least two web applications for development and production).
 
 3. Enter an arbitrary **Name**.
 4. Enter the **Origin** URL of the custom event portal (e.g. `http://localhost:4200`).
@@ -45,9 +46,9 @@ To do so, a few additional steps need to be done.
   
 5. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis), you need to enter the **AAD Client ID** and **AAD Metadata Endpoint**. More information [Configuration for Azure Active Directory](#configuration-for-azure-active-directory).
 6. Click on **Save**.
-7. After the changes are saved, the fields **Token** and **Endpoint** should contain values.
+7. After the changes are saved, the fields **Token** and **Endpoint** should contain values. Make note of this values because you will need them in your web application!
 
-### Environment configuration
+## Web application environment configuration
 
 1. Duplicate the `environment.selfhosted.ts` configuration file located in the **\src\environments** folder and name it as **environment.ts**.
 2. Open the `environment.ts` configuration file in the developer environment of your choice.
@@ -57,7 +58,42 @@ To do so, a few additional steps need to be done.
 6. Change the `emApplicationtoken` variable to point to the URL from the **Token** field in the newly created in the web application record. 
 7. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to set the `useAadB2C` variable to `true` and modify the `aadB2CConfig`. More information [Configure Azure Active Directory](#configuration-for-azure-active-directory).
 
-### Configuration for Azure Active Directory
+
+## Development
+
+Open Command Prompt or PowerShell and run the command from the root directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (The default location is `localhost:4200`).
+
+```CLI
+ng serve
+```
+
+### Specifying environment directly
+Starting with June Release 2019 it is possible to specify the environment directly in the `ng serve` command.
+With the following command you can automatically use the configuration from the `environment.selfhosted.ts` file.
+
+```CLI
+ng serve --configuration=self-hosted
+```
+
+## Building
+
+Open Command Prompt or PowerShell and run the command from the root directory to build the website for production.
+```CLI
+ng build --prod
+```
+
+Afterwards you will find your built website in the `dist` folder of the root directory.
+
+### Specifying environment directly
+Starting with June Release 2019 it is possible to specify the environment directly in the `ng build` command.
+With the following command you can automatically use the configuration from the `environment.selfhosted.ts` file.
+
+```CLI
+ng build --prod --configuration=self-hosted
+```
+
+
+## Configuration for Azure Active Directory
 
 The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need to follow these steps:
 
@@ -74,14 +110,6 @@ The event portal is capable of integrating the Azure Active Directory B2C. To in
 
     > [!NOTE]
     > It can take up to 10 minutes until the changes become active.
-
-## Development
-
-Open Command Prompt or PowerShell and run the command from your working directory to build and locally serve the website. Additionally, this command prints the URL and port where you can reach the application (The default location is `localhost:4200`).
-
-```CLI
-ng serve
-```
 
 ### See also
 
