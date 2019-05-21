@@ -66,4 +66,4 @@ Congratulations! You are now ready to pass data between Azure IoTHub and Dynamic
 
 ### See also
 
-[Azure subscription prerequisites for CFS with IoTHub](../fieldservice/cfs-azure-subscription.md)
+[Azure subscription prerequisites for CFS with IoTHub](cfs-azure-subscription.md)
