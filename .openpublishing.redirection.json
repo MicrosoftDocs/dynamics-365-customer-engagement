@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/migrate-online-onpremises.md",
+      "redirect_url": "help-additional-resources",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/enable-document-suggestions.md",
       "redirect_url": "admin-guide",
       "redirect_document_id": "false"
