@@ -39,9 +39,9 @@ Forecasting helps organizations to project how much a sales team can sell or to 
 
 Similarly, sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.
 
-To start forecasting, a sales manager must create a forecast definition that has information about parameters such as the period for which the forecast should be generated or the data to use for forecasting. 
+To start forecasting, a sales manager must create a forecast definition that has information about parameters such as the period for which the forecast should be generated or the data to use for forecasting. To learn more, see [Create a forecast definition](create-forecast-definition.md).
 
-While working on opportunities, sales people define what forecast category an opportunity is in. The forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale.
+While working on opportunities, sales people define what forecast category an opportunity is in. The forecast category is used to determine the different confidence levels of an opportunity as it moves through the different stages before it is converted to a sale.  To learn more, see [Capture forecast category for opportunity](capture-forecast-category-opportunity.md).  
 
 ## See also
 [Create a forecast definition](create-forecast-definition.md)  

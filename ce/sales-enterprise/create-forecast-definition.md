@@ -33,10 +33,19 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 > - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 > - To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
 
+Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
 
-Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting. 
+## Prerequisites
 
-1.	Make sure you have the System Administrator, System Customizer, Sales Manager, Forecast Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+Before creating a forecast definition, review the following requisites:
+
+- Administrator, forecast manager, or forecast user role is assigned to you.
+- All the users under your hierarchy are assigned forecast manager or forecast user role.
+- No users are disabled under your hierarchy when you publish the forecast definition.
+ 
+## Create forecast definition
+
+1.	Sign in to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
 2.  Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and in the lower left of the site map, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select the **App Settings** area.	
 
@@ -56,6 +65,9 @@ Capture information about parameters such as the period for which the forecast s
 
         > [!NOTE]
         > Only the rollup queries with opportunity as the parent entity are available and valid for selection.
+    - **Owner**. Select the user name, and based on the hierarchy of the selected user name the forecast definition is created. If you are creating the forecast definition for yourself, choose your name. Otherwise, choose the user name for whom you are creating the forecast definition.
+
+        For example, Bert Hair (manager) requests Wade Roque (reports to Bert) to create a forecast definition for Bert. While creating the forecast definition Wade selects Bert Hair as the owner so the forecast definition is created based on the Bert's hierarchy. 
 
       > [!div class="mx-imgBorder"]
       > ![Forecast definition record](media/forecast-definition-form.png "Forecast definition record")
