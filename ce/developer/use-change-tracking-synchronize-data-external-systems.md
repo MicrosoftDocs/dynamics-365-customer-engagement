@@ -34,7 +34,7 @@ The change tracking feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamic
  ```http 
  GET [Organization URI]/api/data/v9.0/$metadata?annotations=true
  ```
- Read more about metadata annotations on [Metadata annotations](webapi/web-api-types-operations.md#bkmk_metannot).
+ Read more about metadata annotations on [Metadata annotations](/powerapps/developer/common-data-service/webapi/web-api-types-operations#metadata-annotations).
  
  For more information about using the customization user interface (UI), see [Enable change tracking to control data synchronization](https://technet.microsoft.com/library/3fa9c316-9dc9-4b28-9abf-43a3fce5b01d.aspx).  
   
