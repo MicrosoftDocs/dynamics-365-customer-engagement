@@ -36,6 +36,8 @@ To allow your users to generate PDF documents directly from a quote, you must en
 
     ![PDF generation settings page to enable PDF generation](media/enable-pdf-generation.png "PDF generation settings page to enable PDF generation")
 
+4.  Select **Save**.   
+
 ### See also
 
 [Generate a PDF document from a quote record](create-quote-pdf-sales-professional.md)

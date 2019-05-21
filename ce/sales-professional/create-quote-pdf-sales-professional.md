@@ -37,7 +37,7 @@ Create and share a professional-looking quote by generating a PDF document from 
 
     ![A quote form showing the Create PDF button on the command bar](media/create-pdf-sales-professional.png "A quote form showing the Create PDF button on the command bar")
     
-     A PDF using the selected template is downloaded to your computer. You can add this document to a note, send it as an attachment in email, or upload it to SharePoint.
+     A PDF using the selected template is downloaded to your computer. You can add this document to a note or send it as an attachment in email.
 
     > [!TIP]
     > To learn more about using Word templates, see [Use Word templates to create standardized documents](../admin/using-word-templates-dynamics-365.md). 

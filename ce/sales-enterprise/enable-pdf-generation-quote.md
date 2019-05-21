@@ -30,7 +30,7 @@ To allow your users to generate PDF documents directly from a quote, you must en
 
 2.	Under **Sales Administration**, select **PDF generation**.
 
-3.	On the **Generate PDF file** page, set **Select whether PDF files can be created, saved, and emailed based on Dynamics 365 for Sales entity records** to **Enabled**.
+3.	On the **Generate PDF file** page, under **Select whether PDF files can be created, saved, and emailed based on Dynamics 365 for Sales entity records**, set the **Quote** toggle to **Enabled**.
 
     ![PDF generation settings page to enable PDF generation](media/enable-pdf-generation-quote.png "PDF generation settings page to enable PDF generation")
 
