@@ -1,4 +1,5 @@
 ---
+redirect_url: help-additional-resources
 title: "Migrate Dynamics 365 for Customer Engagement apps (online) to Dynamics 365 for Customer Engagement apps (on-premises) | MicrosoftDocs"
 description: "Follow theses steps to migrate from Microsoft Dynamics 365 for Customer Engagement apps (online) to Microsoft Dynamics 365 for Customer Engagement apps (on-premises)."
 ms.custom: 
