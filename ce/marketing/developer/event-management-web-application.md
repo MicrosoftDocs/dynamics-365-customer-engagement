@@ -87,16 +87,17 @@ Some of the parameters that you need to understand before you start configuring 
 
 |Parameter|Description|
 |-----|-----|
-|**production**| Used internally by the Angular application to differentiate production and development environments.|
-|**buildVersion** |This field links to the version specified in the `package.json` file by default. You don't need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
-|**apiEndpoint** | Used by the event management application. Points to the API endpoint that the Angular services use.|
-|**localizationEndpoint** | Points to the localization endpoint that the event management localization system uses to fetch the localized labels.|
-|**imagesEndpoint** | Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which is required if you prefer to use Content Delivery Network or image processing service.|
-|**useRestStack** | Used by the event management application which adjusts to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.|
-|**isAuthenticationEnabled** |Used by the event management application to turn on the support for user authentication if a false login or logout dropdown is shown on the navigation bar.|
-|**useAadB2C** | Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).|
-|**useMockData** | Used by the event management for development purposes. Overrides the Angular application data services to return mock data.|
-|**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled.|
+|**production**| Enables/Disables the production mode of Angular. You can find more information about the production mode in the [Angular Documentation](https://angular.io/api/core/enableProdMode).|
+|**buildVersion** |This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
+|**apiEndpoint** | The URL that points to the Event Management API endpoint (which is used to retrieve information of events and to make registrations).|
+|**localizationEndpoint** | Points to the URL where the localization files are stored (by default they are stored in the root directory).|
+|**imagesEndpoint** | Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.|
+|**useRestStack** | This setting specifies which API is used. If set to true then the new Event Management Public API is used. If set to false then the deprecated Event Management Portal API is used. This API can only be used if you host on Portals. Note: In order to use the new Event Management Public API you need to register your web application in CRM.|
+|**emApplicationtoken**| This token authenticates your web application against our Event Management Public API. You can retrieve the application token by registering a new web application in CRM. Note: This token is not required if you're using the deprecated Event Management Portal API.
+|**isAuthenticationEnabled** | This flag specifies whether user authentication is supported (meaning user can to register/sign-in). If set to false then the application will not display a possibility sign-in or register.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. Note: If AAD B2C is enabled then you need to configure the `aadB2CConfig` variable.|
+|**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
+|**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 
 ## Backend customization
 
