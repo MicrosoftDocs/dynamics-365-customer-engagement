@@ -12,7 +12,7 @@
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Manage leads](manage-leads-sales-professional.md)
 #### [Manage opportunities](manage-opportunities-sales-professional.md)
-### [Understand sales transactions.md](understanding-sales-transactions-sales-professional.md)
+### [Understand sales transactions](understanding-sales-transactions-sales-professional.md)
 #### [Create quotes](create-quotes-sales-professional.md)
 #### [Create invoices](create-invoices.md)
 ### Set up a product catalog
