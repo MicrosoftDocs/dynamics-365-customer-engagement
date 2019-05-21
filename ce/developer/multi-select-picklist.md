@@ -299,7 +299,7 @@ foreach (Contact contact in nonHikers.Entities)
 
 The easiest way to create a multi-select picklist is to use the attribute editor in the customization tools. More information [Create and edit fields](../customize/create-edit-fields.md)
 
-But if you need to automate creation of this kind of attribute you can use C# code like the following with the organization service which creates a multi-select picklist to allow choices of outdoor activities to the `contact` entity. More information [Create attributes](org-service/work-attribute-metadata.md#create-attributes)
+But if you need to automate creation of this kind of attribute you can use C# code like the following with the organization service which creates a multi-select picklist to allow choices of outdoor activities to the `contact` entity. More information [Create attributes](/powerapps/developer/common-data-service/org-service/metadata-attributemetadata#create-attributes)
 
 ```csharp
     private const int _languageCode = 1033; //English
