@@ -87,15 +87,15 @@ Some of the parameters that you need to understand before you start configuring 
 
 |Parameter|Description|
 |-----|-----|
-|**production**| Enables/Disables the production mode of Angular. You can find more information about the production mode in the [Angular Documentation](https://angular.io/api/core/enableProdMode).|
+|**production**| Enables or disables the production mode of the Angular application. More information: [Angular Documentation](https://angular.io/api/core/enableProdMode).|
 |**buildVersion** |This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
-|**apiEndpoint** | The URL that points to the Event Management API endpoint (which is used to retrieve information of events and to make registrations).|
+|**apiEndpoint** | The URL that points to the event management API endpoint (which is used to retrieve information of events and to make registrations).|
 |**localizationEndpoint** | Points to the URL where the localization files are stored (by default they are stored in the root directory).|
-|**imagesEndpoint** | Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a CDN or image processing service.|
-|**useRestStack** | This setting specifies which API is used. If set to true then the new Event Management Public API is used. If set to false then the deprecated Event Management Portal API is used. This API can only be used if you host on Portals. Note: In order to use the new Event Management Public API you need to register your web application in CRM.|
-|**emApplicationtoken**| This token authenticates your web application against our Event Management Public API. You can retrieve the application token by registering a new web application in CRM. Note: This token is not required if you're using the deprecated Event Management Portal API.
-|**isAuthenticationEnabled** | This flag specifies whether user authentication is supported (meaning user can to register/sign-in). If set to false then the application will not display a possibility sign-in or register.|
-|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. Note: If AAD B2C is enabled then you need to configure the `aadB2CConfig` variable.|
+|**imagesEndpoint** | Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a content delivery network or image processing service.|
+|**useRestStack** | This setting specifies which API is used. If set to true then the new event management public API is used. If set to false then the deprecated event management Portal API is used. This API can only be used if you host custom event website on Portals. To use the new event management public API, you need to register your web application in the Dynamics 365 instance.|
+|**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynmics 365 insance. This token is not required if you're using the deprecated event management Portal API.
+|**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported (i.e., user can register or sign in). If set to false then the application will not display a way to sign in or register.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 
