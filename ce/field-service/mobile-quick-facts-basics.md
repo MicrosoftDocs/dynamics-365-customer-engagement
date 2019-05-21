@@ -28,7 +28,7 @@ search.app:
 
 # Learn the basics of Field Service Mobile
 
-The Field Service Mobile app is what field technicians use to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. Here are some of the basic details of the application.
+The Field Service Mobile app is what field technicians use to view their schedules, work orders, equipment details, and more as they travel to various customer locations each day. In this topic, we'll take a look at some basic details of the application.
 
 ## Supported platforms and minimum OS
 
@@ -38,91 +38,90 @@ The Field Service Mobile app is what field technicians use to view their schedul
 
 ## Device requirements
 
-**Available Space:** how much space required on the phone depends on how much DB space is needed based on the quantity of records that an organization is having sync for mobile. You can connect to your organization with the app and go to the app's settings on your phone to see how much space the app is utilizing. Note: this amount can and will change based on how much data the app has to sync from the organization. Also note that you should account for how much data will be needed outside of Field Service Mobile (e.g. photos, texts, other apps). 
+- **Available Space:** The amount of required mobile device space depends on the quantity of records that an organization wants to sync to mobile. You can connect to your organization with the app and go to the app's settings on your phone to see how much space the app is utilizing. This amount can and will change based on how much data the app has to sync from the organization. Also note that you should account for how much data will be needed outside of Field Service Mobile (for photos, texts, other apps, and so on). 
 
-**RAM:** Minimum 512MB, 1GB is highly recommended, particularly for organizations with lots of records and customizations. That said, how much RAM is required really depends on how many apps a user will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications, and so on, should provide mobile devices that have a minimum of 2 GB of RAM.
+- **RAM:** Minimum 512MB, though we recommend 1GB, particularly for organizations with many records and customizations. That said, how much RAM is required depends on how many apps a person will be using. For example, organizations that are using mobile device management (MDM) solutions, requiring their users to switch between multiple applications should provide mobile devices that have a minimum of 2 GB of RAM.
 
-**Processor:** a common recommendation is to have a clock speed of ~1.4 GHz at a minimum. Again, what other apps will be running should be taken into consideration. 
+- **Processor:** The typical standard is a minimum clock speed of approximately 1.4 GHz. Again, be sure to consider other app usage. 
 
-**Camera:** autofocus is required for both QR and barcode scanning. 
+- **Camera:** Autofocus is required for both QR and barcode scanning. 
 
-**GPS:** GPS is required if wanting to use any GPS/location functionalities such as navigating, utilizing maps, or location auditing.
+- **GPS:** GPS is required if you need to use any locational functionalities, like navigation, maps, or location auditing.
 
-## Install
+## Installation
 
-Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation (web + mobile) doc](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet).
+Installing Field Service Mobile involves downloading the "Field Service Mobile" app from the relevant app store and setting up the mobile configuration tool. Instructions for both can be found in the [Field Service installation topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet).
 
 ## Upgrade
 
-New versions of the Field Service Mobile app are released in similar cadences to Dynamics 365 for Field Service and can be downloaded and applied to your mobile phone or tablet the same as any other app via your app store. In some cases such as with Windows 10, downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
+New versions of the Field Service Mobile app are released in a cadence similar to Dynamics 365 for Field Service. They can be downloaded and applied through your relevant app store. In some cases - like with Windows 10 - downloading the app from the Windows Store allows for automatic upgrades as new versions are released.
 
-The mobile configuration tool is also upgraded periodically and new releases can enable you to configure and customize the Field Service Mobile app in new ways.
+The mobile configuration tool is also upgraded periodically, but not always on the same cadence as the app.
 
 ## Authentication
 
 ### OAuth2
-The main security token for the application is the application master password. The application uses this master password to encrypt the application database and other sensitive information stored in Field Service Mobile app.
+The main security token for the mobile app is the application master password. The application uses this master password to encrypt the application database and other sensitive information stored in Field Service Mobile app.
 
-In case of legacy authentication methods which require the app to submit the user’s password to the server (standard user, external user), the server password is used for encrypting the application master password for user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
+In the case of legacy authentication methods which require the app to submit the user’s password to the server, the server password is used for encrypting the application master password for the user’s convenience. With the OAuth2 authentication, the user must provide a dedicated password used for encrypting the application master password. 
 
 Regarding password storage, the app can be configured to either:
 
-- Require the user to enter the password each time the application is launched (or resumed from background), or
+- Require the user to enter the password each time the application is launched (or resumed from the background), or
 - Store the password in the device's secure storage so that the user does not need to type it in repeatedly
 
 ### Multi-factor authentication (MFA)
-Multi-factor authentication based on the related Office 365 tenant Azure Active Directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message to user sign-ins and transactions.  
+Multi-factor authentication based on the related Office 365 tenant Azure active directory can be enabled for Field Service Mobile. This adds a second layer of security with a phone call or text message for user sign-in and transactions.  
 
 ## Security
 
 ### Data encryption
 
-Data encryption is based on an application key. The application key is randomly generated and protected by the user password. The key is used to encrypt all local Field Service data. The details of this procedure are explained below.
+Data encryption is based on an application key. The application key is randomly generated and protected by the user password. The key is used to encrypt all local Field Service data. Let's take a look at how this works.
 
-The application generates the random application key when it creates its local database. Afterwards, it is stored in an encrypted form on the device file system and the application decrypts it when needed. The application key AES256 is used together with the user password (PBKDF2), a random IV and salt for encryption/decryption.
+The application generates the random application key when it creates its local database. Afterwards, it is stored in an encrypted form on the device file system and the application decrypts it when needed. The application key AES256 is used together with the user password (PBKDF2), a random IV and salt for encryption and decryption.
 
 The following explains how the application key is used to secure application data. Remember, there are two data stores: the database and the blob store (attachments).
 
 For encrypting the SQLite database, the application key is passed to the SQLite database driver.
 
-The driver uses the application key and IV to encrypt/decrypt individual database pages using AES128 in CFB mode. Each page (1024 bytes) is encrypted separately. The IV is the page header (contains variable/unpredictable data).
+The driver uses the application key and IV to encrypt or decrypt individual database pages using AES128 in CFB mode. Each page (1024 bytes) is encrypted separately. The IV is the page header (contains variable or unpredictable data).
 
 Each file in the blob store (attachment store) contains a header with random IV (16 bytes) and encrypted data. The blob data is encrypted with AES256 in CBC mode using the application key, file header IV. PKCS7 is used for data alignment.
 
 ### Synchronization
 
-Synchronization is when the Field Service Mobile app calls the server for new or updated data. As an example, the app will need to synchronize to the server for a field technician to see a new work order booking scheduled by the dispatcher. 
-
+Synchronization is when the Field Service Mobile app calls the server for new or updated data. For example, the app will need to synchronize to the server for a field technician to see a new work order booking scheduled by the dispatcher. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-quick-facts-sync.png)
 
-The app can perform a synchronization manually, timed, or on available connection.
+The app can perform a synchronization manually, timed, or based on available connection.
 
-- If password stored, sync is automatic​
-- If password isn’t stored, requires password entry to sync
+- If the password is stored, sync is automatic​
+- If the password isn’t stored, password entry is required to sync
 
-The system also tracks a **synchronization log** that tracks when users last synced and on what devices.
+The system also keeps a **synchronization log** that tracks when users last synced and on what devices.
 
 ### Mobile device management (MDM)
 
-**Application sessions** - Require Login after X minutes of inactivity – after defined time in minutes Field Service Mobile asks for the password to continue using it.
+- **Application sessions**: Require login after X minutes of inactivity. After the defined time in minutes passes, Field Service Mobile asks for the password to continue using it.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-quick-facts-application-sessions.png)
 
-**Lock** - If a device is stolen or there are concerns about the security of offline data, the administrator is able to lock the application remotely on a single device, or a whole group of devices, in just one click and block the user from opening the application.
+- **Lock**: If a device is stolen or there are concerns about the security of offline data, the administrator is able to remotely lock the application on a single device, or a group of devices. This blocks the user from opening the application.
 
-**Wipe** - In the worst-case scenario you can completely wipe out the data from the application. All is done remotely just by one click and regardless the synchronization. This means that you delete the data remotely from the mobile device and nobody will be longer available to see them.
+- **Wipe**: In the worst case scenario, you can completely wipe out the data from the application. This is done remotely by just one action and regardless of the synchronization. This means that you delete the data remotely from the mobile device and users will no longer be able to see it.
 
-**Force Full Sync** - By just one click, you can force the application to perform a full synchronization of the data during the next synchronization of the app.
+- **Force Full Sync**: This forces the application to perform a full synchronization of the data during the next synchronization of the app.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-quick-facts-lock-wipe-sync.png)
 
 ### Auditing
 
-Keep an audit record of when specific entities are edited, application state events, and GPS location
+This allows you to keep an audit record of when specific entities are edited, as well as application state events and GPS location of the device.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/mobile-quick-facts-audit.png)
