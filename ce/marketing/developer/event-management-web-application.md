@@ -27,19 +27,19 @@ The event portal consists of two parts:
 
 You can implement the frontend using any of the available frameworks. The frontend part is a single page application and is fully customizable. The backend and the customization of the backend depends on the hosting type.
 
-You can host a custom event portal in two ways:
+You can host a custom event website in two ways:
 
 1. [Self-hosted](self-hosted.md)
 2. [Dynamics 365 Portal hosted](portal-hosted.md)
 
 ## Prerequisites
 
-You either can build your frontend or customize the provided demo event portal.
+You either can build your frontend or customize the provided demo event website.
 
 > [!NOTE]
-> The provided demo event portal is built on the [Angular framework](https://angular.io/guide/quickstart). However, since the backend is not dependent on the frontend, you can use a framework of your choice.
+> The provided demo event website is built on the [Angular framework](https://angular.io/guide/quickstart). However, since the backend is not dependent on the frontend, you can use a framework of your choice.
 
-To get started with customizing the demo event portal, you need to follow these steps:
+To get started with customizing the demo event website, you need to follow these steps:
 
 1. Download the [source code](#download-sample-event-website). Make sure that the version of the source code matches the version of the event management solution installed in your instance. More information: [Download sample event website](#download-sample-event-website)
 
@@ -81,22 +81,23 @@ Select the version you would like to download from the table below.
 
 ## Environment Configuration parameters
 
- The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). All the configuration set up for your custom event portal is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for portal hosted](portal-hosted.md). 
+ The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). All the configuration set up for your custom event portal is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md). 
 
-Some of the parameters that you need to understand before you start configuring your custom event portal:
+Some of the parameters that you need to understand before you start configuring your custom event website:
 
 |Parameter|Description|
 |-----|-----|
-|**production**| Used internally by the Angular application to differentiate production and development environments.|
-|**buildVersion** |This field links to the version specified in the `package.json` file by default. You don't need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
-|**apiEndpoint** | Used by the event management application. Points to the API endpoint that the Angular services use.|
-|**localizationEndpoint** | Points to the localization endpoint that the event management localization system uses to fetch the localized labels.|
-|**imagesEndpoint** | Specifies the base URL from where the images are served. This configuration enables you to serve images from a different location which is required if you prefer to use Content Delivery Network or image processing service.|
-|**useRestStack** | Used by the event management application which adjusts to different types of APIs used when utilizing the self-hosted approach against portal hosted approach. The self-hosted approach uses the REST API.|
-|**isAuthenticationEnabled** |Used by the event management application to turn on the support for user authentication if a false login or logout dropdown is shown on the navigation bar.|
-|**useAadB2C** | Used by the event management application to enable **Azure Active Directory B2C identity management** (for self-hosted) and **Dynamics 365 Portals identity management** (for Dynamics 365 Portal hosted).|
-|**useMockData** | Used by the event management for development purposes. Overrides the Angular application data services to return mock data.|
-|**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled.|
+|**production**| Enables or disables the production mode of the Angular application. More information: [Angular Documentation](https://angular.io/api/core/enableProdMode).|
+|**buildVersion** |This field links to the version specified in the `package.json` file by default. There is no need to change this property. However, if you prefer not to expose the version of the application, you can set it to `null`.|
+|**apiEndpoint** | The URL that points to the event management API endpoint (which is used to retrieve information of events and to make registrations).|
+|**localizationEndpoint** | Points to the URL where the localization files are stored (by default they are stored in the root directory).|
+|**imagesEndpoint** | Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a content delivery network or image processing service.|
+|**useRestStack** | This setting specifies which API is used. If set to true then the new event management public API is used. If set to false then the deprecated event management Portal API is used. This API can only be used if you host custom event website on Portals. To use the new event management public API, you need to register your web application in the Dynamics 365 instance.|
+|**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynmics 365 insance. This token is not required if you're using the deprecated event management Portal API.
+|**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported (i.e., user can register or sign in). If set to false then the application will not display a way to sign in or register.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled then you need to configure the `aadB2CConfig` variable.|
+|**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
+|**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 
 ## Backend customization
 

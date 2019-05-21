@@ -18,11 +18,11 @@ manager: kvivek
 
 # Host your custom event website on Azure
 
-This topic will walk you through how to host your custom event portal on Azure. You can either build your frontend or customize the provided demo portal build using the [Angular](https://angular.io/) framework. More information [Build and host custom event portal](event-management-web-application.md)
+This topic will walk you through how to host your custom event website on Azure. You can either build your frontend or customize the provided demo website build using the [Angular](https://angular.io/) framework. More information [Build and host custom event website](event-management-web-application.md)
 
 ## Prerequisites
 
-1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo portal.
+1. Download the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) to customize the provided demo website.
 2. Install [Node.js](https://nodejs.org/en/download/) version 10.x or higher.
 3. Download the [Azure storage explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 
@@ -113,4 +113,4 @@ To use event management public API, you need a web application token. The web ap
 
 ### See also
 
-[Build and host custom event portals](event-management-web-application.md)
+[Build and host custom event website](event-management-web-application.md)
