@@ -86,6 +86,7 @@
 ### [Configure steps](configure-workflow-steps.md)
 ### [Best practices](best-practices-workflow-processes.md)
 ### [Monitor/manage workflows](monitor-manage-processes.md)
+### [Run bulk operations on workflows](bulk-sync-operations.md)
 ## [Actions overview](actions.md)
 ### [Configure custom actions from workflow](configure-actions.md)
 ### [Invoke custom actions from a workflow](invoke-custom-actions-workflow-dialog.md)
