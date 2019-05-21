@@ -61,7 +61,7 @@ You create a managed solution by exporting an unmanaged solution as a managed so
   
  You can import or update a managed solution programmatically by using the <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest> message. When using this message, you can request a reference to an `ImportJob`  entity record that will include details about the success of the import. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or Upgrade a Solution](work-solutions.md#BKMK_InstallUpgradeSolution)  
   
- The <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest> can be called using the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteAsyncRequest>. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Execute messages in the background (asynchronously)](org-service/use-messages-request-response-classes-execute-method.md#bkmk_executeasync)  
+ The <xref:Microsoft.Crm.Sdk.Messages.ImportSolutionRequest> can be called using the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteAsyncRequest>. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use ExecuteAsync to execute messages asynchronously](/powerapps/developer/common-data-service/org-service/use-executeasync)  
   
  There are limits to the size of a solution you can install. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Maximum size of solution to import](create-export-import-unmanaged-solution.md#BKMK_MaxSizeOfSolution)  
   
