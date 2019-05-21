@@ -37,7 +37,7 @@ When deploying and administering Connected Field Service (CFS) with IoTHub, ther
 
 2. In order to deploy and administer IotHub, you must have one of the following Azure security roles:
 
-- Owner in Role Assignments (see the following screenshot)
+- Owner in role assignments (see the following screenshot)
 - One of the following administrator roles:
   - Co-administrator
   - Service administrator
