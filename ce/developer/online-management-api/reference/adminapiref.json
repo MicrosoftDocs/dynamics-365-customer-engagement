@@ -761,7 +761,7 @@
         ],
         "summary": "Retrieves available tenant protection keys.",
         "operationId": "RetrieveAvailableTenantProtectionKeys",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "consumes": [],
         "produces": [
           "application/json",
@@ -801,7 +801,7 @@
         ],
         "summary": "Retrieves the current tenant protection key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
-	"operationId": "RetrieveTenantProtectionKey",
+        "operationId": "RetrieveTenantProtectionKey",
         "consumes": [],
         "produces": [
           "application/json",
@@ -828,7 +828,7 @@
         ],
         "summary": "Imports tenant protection key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
-	"operationId": "ImportKey",
+        "operationId": "ImportKey",
         "consumes": [
           "application/json",
           "text/json"
@@ -841,7 +841,7 @@
           {
             "name": "importKeyData",
             "in": "body",
-            "description": "keyName: The name of the key to import\r\nkeyType: The type of the key to import\r\nkeyPassword: The password of the key\r\nrawData: The raw data of the key's certificate as a byte array",
+            "description": null,
             "required": true,
             "schema": {
               "$ref": "#/definitions/ImportKeyData"
@@ -911,7 +911,7 @@
           "Keys"
         ],
         "summary": "Generates tenant protection key.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GenerateKey",
         "consumes": [
           "application/json",
@@ -955,7 +955,7 @@
         ],
         "summary": "Sets the tenant protection key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
-	"operationId": "SetTenantProtectionKey",
+        "operationId": "SetTenantProtectionKey",
         "consumes": [],
         "produces": [
           "application/json",
@@ -1169,7 +1169,7 @@
           "OperationStatus"
         ],
         "summary": "Retrieves operation status of a Customer Engagement instance.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetOperationStatusByQuery",
         "consumes": [],
         "produces": [
@@ -1445,7 +1445,7 @@
           "TestRuns"
         ],
         "summary": "Retrieves all the test suite runs.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteRuns",
         "consumes": [],
         "produces": [
@@ -1531,7 +1531,7 @@
           "TestRuns"
         ],
         "summary": "Retrieves the test suite based on the specified ID.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteRunById",
         "consumes": [],
         "produces": [
@@ -1581,7 +1581,7 @@
           "TestRuns"
         ],
         "summary": "Get all the test run's test cases.\r\nSupports OData $filter query parameters on Outcome field (e.g. $filter=Outcome eq 'Failed')",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestRunTestCases",
         "consumes": [],
         "produces": [
@@ -1628,7 +1628,7 @@
           "TestRuns"
         ],
         "summary": "Cancel an active test run.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "TestRuns_CancelActiveRun",
         "consumes": [],
         "produces": [
@@ -1678,7 +1678,7 @@
           "TestSuites"
         ],
         "summary": "Retrieves all the test suites for the specified Organization ID.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuites",
         "consumes": [],
         "produces": [
@@ -1759,7 +1759,7 @@
           "TestSuites"
         ],
         "summary": "Get the test suite details for the specified Organization ID and test suite name.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteByName",
         "consumes": [],
         "produces": [
@@ -1839,7 +1839,7 @@
           "TestTriggers"
         ],
         "summary": "Retrieves all the test suite triggers.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteTriggers",
         "consumes": [],
         "produces": [
@@ -1934,7 +1934,7 @@
           "TestTriggers"
         ],
         "summary": "Get the test suite trigger by name.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteTriggerByName",
         "consumes": [],
         "produces": [
@@ -2725,6 +2725,7 @@
       }
     },
     "Key": {
+      "description": "Tenant protection key",
       "required": [
         "TenantId"
       ],
@@ -2732,10 +2733,12 @@
       "properties": {
         "TenantId": {
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "description": "ID of the Tenant"
         },
         "KeyName": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the protection key"
         },
         "KeyState": {
           "enum": [
@@ -2748,17 +2751,20 @@
             "None"
           ],
           "type": "string",
+          "description": "State of the key",
           "x-ms-enum": {
             "name": "KeyState"
           }
         },
         "CreatedOn": {
           "format": "date-time",
+          "description": "Date on which the key was created",
           "type": "string"
         },
         "LockedOn": {
           "format": "date-time",
-          "type": "string"
+          "type": "string",
+          "description": "Date on which the key was locked"
         }
       }
     },
@@ -2766,18 +2772,22 @@
       "type": "object",
       "properties": {
         "KeyName": {
-          "type": "string"
+          "type": "string",
+          "description": "The name of the key to import"
         },
         "KeyType": {
           "format": "int32",
-          "type": "integer"
+          "type": "integer",
+          "description": "The type of the key to import"
         },
         "KeyPassword": {
-          "type": "string"
+          "type": "string",
+          "description": "The password of the key to import"
         },
         "Key": {
           "format": "byte",
-          "type": "string"
+          "type": "string",
+          "description": "The raw data of the key certificate as a byte array"
         }
       }
     },
@@ -2785,10 +2795,12 @@
       "type": "object",
       "properties": {
         "SubjectName": {
-          "type": "string"
+          "type": "string",
+          "description": "Subject name for the protection key"
         },
         "KeyPassword": {
-          "type": "string"
+          "type": "string",
+          "description": "Password for the protection key"
         }
       }
     },
@@ -2803,11 +2815,11 @@
         "LCID": {
           "format": "int32",
           "type": "integer",
-          "description": "Locale ID of the language."
+          "description": "Locale ID of the language"
         },
         "Name": {
           "type": "string",
-          "description": "The language name."
+          "description": "The language name"
         },
         "LocalizedName": {
           "type": "string"
@@ -2815,41 +2827,41 @@
       }
     },
     "EnvironmentMetadata": {
-      "description": "A representation of an EnvironmentMetadata of an UserNotification.",
+      "description": "A representation of an environment metadata of an user notification.",
       "type": "object",
       "properties": {
         "Id": {
           "format": "uuid",
-          "description": "The id of the EnvironmentMetadata.",
+          "description": "ID of the environment metadata",
           "type": "string"
         },
         "Name": {
-          "description": "The name of the EnvironmentMetadata.",
+          "description": "Name of the environment metadata",
           "type": "string"
         },
         "Geo": {
-          "description": "The geo of the EnvironmentMetadata.",
+          "description": "Geographic location of the environment metadata",
           "type": "string"
         }
       }
     },
     "UserNotification": {
-      "description": "A representation of a notification that has been retrieved from/already exists in the Notification Service.",
+      "description": "A representation of a notification that has been retrieved from or already exists in the Notification Service",
       "type": "object",
       "properties": {
         "NotificationId": {
           "format": "uuid",
-          "description": "The id of the current notification.",
+          "description": "ID of the current notification",
           "type": "string"
         },
         "AdminId": {
           "format": "uuid",
-          "description": "The id of the admin associated with the notification.",
+          "description": "ID of the admin associated with the notification",
           "type": "string"
         },
         "TenantId": {
           "format": "uuid",
-          "description": "The id of the tenant associated with the notification.",
+          "description": "ID of the tenant associated with the notification",
           "type": "string"
         },
         "CreatedAt": {
@@ -2865,7 +2877,7 @@
           }
         },
         "State": {
-          "description": "The state of the notification.",
+          "description": "The state of the notification",
           "enum": [
             "None",
             "Ready",
