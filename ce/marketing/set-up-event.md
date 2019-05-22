@@ -61,11 +61,13 @@ Here you can see and edit your basic event information, including
   - **Event name**: Enter a name for the event.
   - **Event type**: Choose which type of event this is. This is for information only and won't affect any features. Use it to make your event easier to find and identify.
   - **Format** Set up your event as a [webinar](set-up-webinar.md),  webinar simulcast, or on-site only.
-  - **Registration count**: Shows the number of people who registered for the event.
-  - **Check-in count**: Shows the number of attendees that checked in during the event.
+  - **Registration count**: Shows the number of people who registered for the event. The maximum value that can be shown here is 50,000, but you can still store more registrations than this in the system.
+  - **Check-in count**: Shows the number of attendees that checked in during the event. The maximum value that can be shown here is 50,000, but you can still store more check-ins than this in the system.
   - **Custom event URL**: If you are [hosting your event website](set-up-event-portal.md) on your own server, or in a custom location of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution, then select this check box and edith the **Event URL** as needed.
   - **Event URL**: Shows the address of your [event website](set-up-event-portal.md). If you're using the default location on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution, then this value is read-only and provided automatically. If you are hosting your website at a custom location, then select the **Custom event URL** check box and edit the value here. Select the globe button next this field to open the site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Open the event website](set-up-event-portal.md#open-site)
   - **Create leads for event registrations**: Set to **Yes** to create a new lead for each contact that registers for the event. Set to **No** to turn off lead generation for events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate and match contacts and leads from event registrations](set-up-event-portal.md#generate-leads)
+    > [!NOTE]
+    > As mentioned, the **Registration count** and **Check-in count** fields can each count up to a maximum of 50,000 contacts. The system can easily handle more registrations and/or check-ins than this, but for values higher than 50,000, these fields are no longer accurate.
 - **Website**: Use these settings to configure your [event website](set-up-event-portal.md). The following settings are provided:
   - **Readable event ID**: This is a unique ID for the event. It is generated the first time you save the event, and is based on the event name. This becomes [part of the URL](set-up-event-portal.md#open-site) for opening the event website to a particular event.
   - **Enable CAPTCHA**: Set this to **Yes** to include a [CAPTCHA](http://www.captcha.net/) on the [registration page](set-up-event-portal.md#registration) of your event website. Set this to **No** to disable the CAPTCHA.
