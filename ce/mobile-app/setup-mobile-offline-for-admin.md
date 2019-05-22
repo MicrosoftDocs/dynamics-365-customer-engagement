@@ -360,24 +360,10 @@ The recommended data volume should be <= 10k records per user subscription.
 
 **Qualify a lead**:
 
-- Users cannot see the qualify button after selecting a lead from the grid. As a workaround, they can open the lead record to qualify. 
-
-
-
-<!--Is "does show up" correct, or should it be "does not show up"?-->
-
-
-- The qualify button does show up on the lead form, if any custom status codes are added against the qualify state of the lead. 
 
 - When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
-**Disqualify a lead**: Users will not be able to disqualify a lead in mobile offline. Clicking on the disqualify button from the lead’s grid or from the lead form gives an error.
-
-
-
-<!--Does "ok" (lowercase) match the UI? Usually it would be uppercase.-->
-
-**Close opportunity**: Users cannot close an opportunity as won or lost from mobile offline. When users click **Close as won** or **Close as lost**, the close dialog box will open but the ok and cancel buttons are disabled. 
+**Close as lost**, the close dialog box will open but the ok and cancel buttons are disabled. 
 
 **Views** are not supported for the following entities in offline mode: 
 
