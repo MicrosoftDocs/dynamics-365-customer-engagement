@@ -166,7 +166,7 @@
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
-### [Build and host custom event portal overview](developer/event-management-web-application.md)
+### [Create a custom event website](developer/event-management-web-application.md)
 #### [Self-hosted](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
 #### [Dynamics 365 Portal hosted](developer/portal-hosted.md)

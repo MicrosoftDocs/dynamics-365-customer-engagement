@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 Portal hosted custom event portal | MicrosoftDocs"
+title: "Dynamics 365 Portal hosted custom event website | MicrosoftDocs"
 description: "Provides information about how you can extend event management web application functionality."
 ms.custom:
   - dyn365-developer
@@ -18,7 +18,7 @@ manager: kvivek
 
 # Dynamics 365 Portal hosted
 
-Before you start hosting custom event portal, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event portal comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
+Before you start hosting custom event website, complete the actions mentioned in the [Prerequisites](event-management-web-application.md) topic. The custom event website comes as a Dynamics 365 Portal hosted web application when you install the Event Management solution.
 
 The frontend part of the application is bundled into two resource files that are stored as Dynamics 365 Portal [web files](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/web-files), and the main single page application entry-point is stored as Dynamics 365 Portal [web template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/store-content-web-templates).
 
@@ -28,7 +28,7 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 
 ## Additional project setup
 
-### Environment configuration 
+## Environment configuration 
 
 1. Duplicate the `environment.d365.ts` configuration file located in the **\src\environments** folder and name it as **environment.ts**.
 1. Open the **environment.ts** configuration file in the developer environment of your choice.
@@ -41,7 +41,7 @@ Although the frontend definition is hosted on Dynamics 365 Portal, you can still
 
 1. Make sure that the `useRestStack` variable is set to false.
 
-### Local Development
+## Local Development
 
 #### Bypass CSRF
 
@@ -50,7 +50,7 @@ You need to bypass the **anti-CSRF** token for local development. To do that, na
 > [!NOTE]
 > The **PortalAPI** web template is added by default when you install the Event Management data.
 
-#### Serving page locally
+## Serving page locally
 
 To serve the application locally, you need to follow the steps below:
 
@@ -76,9 +76,9 @@ To serve the application locally, you need to follow the steps below:
     > [!NOTE]
     > You can find more information on serving an Angular application locally here [Serving an Angular application locally]( https://angular.io/guide/quickstart#step-3-serve-the-application)
 
-### Deployment
+## Deployment
 
-You need to replace the files hosted under portals. This can be done using the provided script, or manually if something fails during the automatic process.
+You need to replace the files hosted under Portals. This can be done using the provided script, or manually if something fails during the automatic process.
 
 > [!NOTE]
 > You don’t need to change all the files, usually main.js and styles.css files are enough, but it is always good to use a source control tool to track the changes.
@@ -97,7 +97,7 @@ To manually replace the files in Dynamics 365, follow the steps below:
 1. Upload your `main.es` file as an attachment.
 1. Restart the Portal website and reopen your browser.
 
-### Configuring cross-origin resource sharing (CORS)
+## Configuring cross-origin resource sharing (CORS)
 
 If you want to serve the custom event website from a **custom domain**, you need to configure CORS to allow that custom domain, to do that
 
