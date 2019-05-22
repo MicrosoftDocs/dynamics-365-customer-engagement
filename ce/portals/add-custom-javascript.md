@@ -3,7 +3,7 @@ title: "Use custom JavaScript for a portal in Dynamics 365 for Customer Engageme
 description: "Instructions to add custom JavaScript to a form in a portal"
 ms.custom: 
   - dyn365-portal
-ms.date: 05/10/2019
+ms.date: 05/22/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -1,7 +1,7 @@
 ---
 title: "Set up Power BI integration with Dynamics 365 for Customer Engagement portal | MicrosoftDocs"
 description: "Learn how to set up Power BI integration with your portal."
-ms.date: 04/26/2019
+ms.date: 05/22/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -87,7 +87,7 @@ Enabling the Power BI Embedded service allows you to embed dashboards and report
     
     > [!NOTE]
     > - After you add workspaces to the **Selected workspaces** list, the databases and reports are rendered after a few minutes.
-    > - Copy the portal's application ID displayed in this window.
+    > - Copy the portal's application ID displayed in this window. The portal's application ID is also available on the **Portal Details** page in Portal Admin Center.
 
 5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and is unavailable for a few minutes. A message appears when Power BI Embedded service is enabled.
 

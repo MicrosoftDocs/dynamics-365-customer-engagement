@@ -3,7 +3,7 @@ title: "Azure AD B2C provider settings for portals in Dynamics 365 for Customer 
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal
-ms.date: 05/09/2019
+ms.date: 05/22/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
