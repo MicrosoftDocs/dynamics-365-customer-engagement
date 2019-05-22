@@ -925,7 +925,7 @@
           {
             "name": "generateKeyData",
             "in": "body",
-            "description": "Class that contains the required information for generating the key",
+            "description": "Set of values required for generating the tenant protection (encryption) key",
             "required": true,
             "schema": {
               "$ref": "#/definitions/GenerateKeyData"
@@ -2086,47 +2086,47 @@
         "Version",
         "Label"
       ],
+      "description": "An object defining the instance backup",
       "type": "object",
-      "decription": "An object defining the instace backup",
       "properties": {
         "Id": {
           "format": "uuid",
           "type": "string",
-          "decription": "ID of the instace backup"
+          "description": "ID of the instance backup"
         },
         "Status": {
           "type": "string",
-          "decription": "Status of the instace backup"
+          "description": "Status of the instance backup"
         },
         "CreatedBy": {
           "type": "string",
-          "decription": "User who created the instace backup"
+          "description": "User who created the instance backup"
         },
         "CreatedOn": {
           "format": "date-time",
           "type": "string",
-          "decription": "Date and time of the creation of the instace backup"
+          "description": "Date and time of the creation of the instance backup"
         },
         "ExpiresOn": {
           "format": "date-time",
           "type": "string",
-          "decription": "Expiration date and time of the instace backup"
+          "description": "Expiration date and time of the instance backup"
         },
         "Version": {
           "type": "string",
-          "decription": "Version of the instace backup"
+          "description": "Version of the instance backup"
         },
         "Notes": {
           "type": "string",
-          "decription": "Notes associated with the instace backup"
+          "description": "Notes associated with the instance backup"
         },
         "Label": {
-          "type": "string",
-          "decription": "Label of the instace backup"
+          "description": "Label of the instance backup",
+          "type": "string"
         },
         "IsAzureBackup": {
-          "type": "boolean",
-          "decription": "For internal use only"
+          "description": "For internal use only",
+          "type": "boolean"
         },
         "AzureStorageInformation": {
           "$ref": "#/definitions/AzureStorage"
@@ -2191,6 +2191,7 @@
         "Status"
       ],
       "type": "object",
+      "description": "Status of the operation",
       "properties": {
         "OperationId": {
           "format": "uuid",
@@ -2218,14 +2219,14 @@
             "Conflict"
           ],
           "type": "string",
-          "description": "Status of the operation",
+          "description": "State of the operation",
           "x-ms-enum": {
             "name": "OperationState"
           }
         },
         "Errors": {
           "type": "array",
-          "description": "Errors occured during an operation",
+          "description": "Set of values to display errors during an operation",
           "items": {
             "$ref": "#/definitions/ItemDescription"
           },
@@ -2233,7 +2234,7 @@
         },
         "Information": {
           "type": "array",
-          "description": "Inofrmation displayed during an operation",
+          "description": "Set of values to display information during an operation",
           "items": {
             "$ref": "#/definitions/ItemDescription"
           },
@@ -2255,7 +2256,7 @@
     },
     "ItemDescription": {
       "type": "object",
-      "description": "The error or information item description object",
+      "description": "Set of values to define an error or information item",
       "properties": {
         "Subject": {
           "type": "string",
@@ -2538,9 +2539,11 @@
     },
     "LockTenantKeyData": {
       "type": "object",
+      "description": "The set of values to lock the tenant protection key",
       "properties": {
         "KeyName": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the protection key to lock"
         }
       }
     },
@@ -2756,7 +2759,7 @@
       }
     },
     "Key": {
-      "description": "Tenant protection (encryption) key object",
+      "description": "Set of values to define a tenant protection (encryption) key",
       "required": [
         "TenantId"
       ],
@@ -2801,6 +2804,7 @@
     },
     "ImportKeyData": {
       "type": "object",
+      "description": "Set of values to import a tenant protection (encryption) key",
       "properties": {
         "KeyName": {
           "type": "string",
@@ -2824,6 +2828,7 @@
     },
     "GenerateKeyData": {
       "type": "object",
+      "description": "Set of values required for generating the tenant protection (encryption) key",
       "properties": {
         "SubjectName": {
           "type": "string",
@@ -2842,6 +2847,7 @@
         "LocalizedName"
       ],
       "type": "object",
+      "description": "Set of values required for defining a language",
       "properties": {
         "LCID": {
           "format": "int32",
@@ -2990,6 +2996,7 @@
         "Name"
       ],
       "type": "object",
+      "description": "Set of values to define a service (release) version",
       "properties": {
         "LocalizedName": {
           "type": "string",
@@ -3010,7 +3017,8 @@
           "description": "ID of the service (release)"
         },
         "Name": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the service (release)"
         }
       }
     },
@@ -3021,7 +3029,8 @@
       "type": "object",
       "properties": {
         "UserName": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the user"
         }
       }
     },
@@ -3033,6 +3042,7 @@
         "SupportedReleases"
       ],
       "type": "object",
+      "description": "Set of values to define a template",
       "properties": {
         "Name": {
           "type": "string",
@@ -3056,17 +3066,19 @@
     },
     "SupportedReleases": {
       "type": "object",
+      "description": "Set of values to define supported releases",
       "properties": {
         "Id": {
           "format": "uuid",
           "type": "string",
-          "description": "Releases supported by the template"
+          "description": "ID of the supported release"
         },
         "Name": {
           "type": "string"
         },
         "Types": {
           "type": "array",
+          "description": "Type of the supported release",
           "items": {
             "enum": [
               "None",
@@ -3090,11 +3102,12 @@
         "Enabled"
       ],
       "type": "object",
+      "description": "Set of values to define Tenant Application Identity",
       "properties": {
         "Id": {
-          "description": "",
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "description": "ID of the Tenant Application Identity"
         },
         "AadApplicationId": {
           "format": "uuid",
