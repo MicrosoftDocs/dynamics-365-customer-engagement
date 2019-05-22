@@ -13,10 +13,11 @@ applies_to:
   - "Dynamics 365 (online)"
 author: tohomanms
 ms.author: tohoman
-manager: dariosap
+manager: kvivek
 ---
+# Setting up event management to work with AAD B2C
 
-# Overview
+## Overview
 
 The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need to implement a couple of steps. 
 
@@ -25,18 +26,18 @@ The event portal is capable of integrating the Azure Active Directory B2C. To in
 1. Register the application with your CRM instance
 1. Configure event management application to work with your Azure AD B2C tenant
 
-# Creating Azure AD B2C tenant and adding a web application to the tenant
+## Creating Azure AD B2C tenant and adding a web application to the tenant
 For your purposes you can follow quick start tutorial that explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant)
 
 After you have sucessfully created Azure AD B2C tenant you can follow this tutorial to add a web application to the newly created tenant:
-[Register a web application](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
+[Register a web application with AAD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
 
 > [!NOTE]
 > To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section.
 
 Detailed information about configuring Azure AD B2C tenant can be found here: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
 
-# Naming
+## Naming
 
 To reduce the clutter while navigating Azure portal we will use the following naming for the portal screens:
 * B2C Tenant : **Tenant**
@@ -48,7 +49,7 @@ To reduce the clutter while navigating Azure portal we will use the following na
 * Settings > User Flows (policies): **Policy** (e.g. 'B2C_1_default-sign-up')
 * Application > Published scopes > Full scope value textbox: **Scope** (e.g. 'https://contosoeventmanagementtest.onmicrosoft.com/events/registration')
 
-# Registering the application with CRM instance
+## Registering the application with CRM instance
 According to the defined naming assemble your AAD metadata endpoint following this pattern: 'https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}'
 
 With given examples AAD metadata endpoint would be: 'https://contosoeventmanagementtest.b2clogin.com/contosoeventmanagementtest.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_default-sign-up'
@@ -65,7 +66,7 @@ With that follow next steps:
     > [!NOTE]
     > It can take up to 10 minutes until the changes become active.
 
-# Configuring event management application
+## Configuring event management application
 
 Open the `environment.ts` configuration file located in the **\src\environments** folder and enter all required values in the `aadB2cConfig` variable.
 
