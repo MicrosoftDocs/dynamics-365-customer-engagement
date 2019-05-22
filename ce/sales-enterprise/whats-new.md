@@ -24,6 +24,11 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
 
+
+## Dynamics 365 for Sales, May 2019 release
+
+With Dynamics 365 for Sales version 9.0.1905.2010 or later, users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
+
 ## Dynamics 365 for Sales, April 2019 release
 
 -  Dynamics 365 for Sales (build 9.1.0.4023) introduces forecasting, a new capability to help organizations to provide the necessary insights into how they can manage their workforce, cash flow, and resources.

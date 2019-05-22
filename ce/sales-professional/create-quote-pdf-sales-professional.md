@@ -27,7 +27,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
 
 > [!IMPORTANT]
-> The **Create PDF** and **Email as PDF** options are available only if your system administrator has enabled the PDF-generation capability for your organization. If you do not see these options, please talk to your system administrator.
+> The capability to create quote PDF is introduced in version 9.1.1904.1025. The **Create PDF** and **Email as PDF** options are available only if your system administrator has enabled the PDF-generation capability for your organization. If you do not see these options, please talk to your system administrator.
 
 
 

@@ -24,6 +24,10 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional! Visit this page to see what’s added or updated recently. 
 
+## Dynamics 365 for Sales Professional, May 2019 release
+
+With Dynamics 365 for Sales Professional version 9.1.1904.1025 or later, users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf-sales-professional.md), [Enable PDF generation from quotes](enable-pdf-generation-quote-sales-professional.md)  
+
 ## Dynamics 365 for Sales Professional, April 2019 release
 
 Dynamics 365 for Sales Professional (app version 9.1.0.0) introduces the following capabilities:

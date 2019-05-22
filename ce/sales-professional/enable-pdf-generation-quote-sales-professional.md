@@ -26,9 +26,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
 To allow your users to generate PDF documents directly from a quote, you must enable PDF generation.
 
-<!--note from editor: In step below, change "setup" to "**Setup**"?   -->
 
-1.	In the site map, under setup, select **Sales settings**.
+> [!IMPORTANT]
+> The create quote PDF capability and the option to enable PDF generation is introduced in version 9.1.1904.1025. 
+
+1.	In the site map, under **Setup**, select **Sales settings**.
 
 2.	Under **Advanced settings**, select **PDF generation**.
 
