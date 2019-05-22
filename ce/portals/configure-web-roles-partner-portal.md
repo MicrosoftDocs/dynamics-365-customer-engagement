@@ -3,7 +3,7 @@ title: "Configure web roles for a partner portal in Dynamics 365 for Customer En
 description: "Instructions to add web roles for a partner portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 04/08/2019
+ms.date: 05/22/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -50,9 +50,9 @@ Web roles for the Partner Relationship Management (PRM) portal grant specific ac
 ## Create a partner account on a PRM portal
 You can use partner accounts to keep track of your various partners. We recommend creating a separate account for each partner so that you can manage each partner organization separately. To create a partner account, 
 
-1. Go to **Sales &gt; Accounts**.
+1. Go to **Sales &gt; Accounts** (within Dynamics 365 - Account Form).
 2. Choose **New** and fill in your information.
-3. In the **Partner Details** area, use the **Classification** field and select the Partner classification.
+3. In the **Partner Information** tab, use the **Classification** field and select the Partner.
 4. Select **Save**.
 
 ## Associate partner contacts with an account

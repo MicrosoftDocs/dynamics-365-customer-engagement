@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date: 04/17/2019
+ms.date: 05/22/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -98,10 +98,16 @@ To complete provisioning a portal, after you have purchased a new portal license
     > ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
 
 11. Select **Submit**, and accept the Terms of Service.
-
-    ![Terms of service](media/terms-of-service.png "Terms of service")  
+    > [!div class="mx-imgBorder"]
+    > ![Terms of service](media/terms-of-service.png "Terms of service")  
 
 After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to *Name*-Configuring while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+
+After the portal is provisioned, the **Portal Details** page is displayed with the required details.
+
+> [!div class="mx-imgBorder"]
+> ![Portal details](media/portal-details.png "Portal details") 
+
 
 > [!Note]
 > When a portal user signs in to the portal for the first time by using an Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.
