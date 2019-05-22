@@ -759,7 +759,7 @@
         "tags": [
           "Keys"
         ],
-        "summary": "Retrieves available tenant protection keys.",
+        "summary": "Retrieves available tenant protection (encryption) keys.",
         "operationId": "RetrieveAvailableTenantProtectionKeys",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "consumes": [],
@@ -799,7 +799,7 @@
         "tags": [
           "Keys"
         ],
-        "summary": "Retrieves the current tenant protection key.",
+        "summary": "Retrieves the current tenant protection (encryption) key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "RetrieveTenantProtectionKey",
         "consumes": [],
@@ -826,7 +826,7 @@
         "tags": [
           "Keys"
         ],
-        "summary": "Imports tenant protection key.",
+        "summary": "Imports tenant protection (encryption) key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "ImportKey",
         "consumes": [
@@ -841,7 +841,7 @@
           {
             "name": "importKeyData",
             "in": "body",
-            "description": null,
+            "description": "The key data to import",
             "required": true,
             "schema": {
               "$ref": "#/definitions/ImportKeyData"
@@ -910,7 +910,7 @@
         "tags": [
           "Keys"
         ],
-        "summary": "Generates tenant protection key.",
+        "summary": "Generates tenant protection (encryption) key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GenerateKey",
         "consumes": [
@@ -953,7 +953,7 @@
         "tags": [
           "Keys"
         ],
-        "summary": "Sets the tenant protection key.",
+        "summary": "Sets the tenant protection (encryption) key.",
         "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "SetTenantProtectionKey",
         "consumes": [],
@@ -972,13 +972,13 @@
         ],
         "responses": {
           "202": {
-            "description": "Set Tenant Protection Key Operation Started",
+            "description": "Set Tenant Protection Key operation started",
             "schema": {
               "$ref": "#/definitions/OperationStatus"
             }
           },
           "400": {
-            "description": "There was an issue when either validating or setting the tenant protection key",
+            "description": "There was an issue with either validating or setting the tenant protection key",
             "schema": {
               "$ref": "#/definitions/OperationStatus"
             }
@@ -2087,36 +2087,46 @@
         "Label"
       ],
       "type": "object",
+      "decription": "An object defining the instace backup",
       "properties": {
         "Id": {
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "decription": "ID of the instace backup"
         },
         "Status": {
-          "type": "string"
+          "type": "string",
+          "decription": "Status of the instace backup"
         },
         "CreatedBy": {
-          "type": "string"
+          "type": "string",
+          "decription": "User who created the instace backup"
         },
         "CreatedOn": {
           "format": "date-time",
-          "type": "string"
+          "type": "string",
+          "decription": "Date and time of the creation of the instace backup"
         },
         "ExpiresOn": {
           "format": "date-time",
-          "type": "string"
+          "type": "string",
+          "decription": "Expiration date and time of the instace backup"
         },
         "Version": {
-          "type": "string"
+          "type": "string",
+          "decription": "Version of the instace backup"
         },
         "Notes": {
-          "type": "string"
+          "type": "string",
+          "decription": "Notes associated with the instace backup"
         },
         "Label": {
-          "type": "string"
+          "type": "string",
+          "decription": "Label of the instace backup"
         },
         "IsAzureBackup": {
-          "type": "boolean"
+          "type": "boolean",
+          "decription": "For internal use only"
         },
         "AzureStorageInformation": {
           "$ref": "#/definitions/AzureStorage"
@@ -2130,6 +2140,7 @@
         "StorageAccountName"
       ],
       "type": "object",
+      "description": "For internal use only. Azure storage is not supported.",
       "properties": {
         "ContainerName": {
           "type": "string",
@@ -2184,7 +2195,7 @@
         "OperationId": {
           "format": "uuid",
           "type": "string",
-          "description": "ID of the backup operation."
+          "description": "ID of the operation"
         },
         "Status": {
           "enum": [
@@ -2207,12 +2218,14 @@
             "Conflict"
           ],
           "type": "string",
+          "description": "Status of the operation",
           "x-ms-enum": {
             "name": "OperationState"
           }
         },
         "Errors": {
           "type": "array",
+          "description": "Errors occured during an operation",
           "items": {
             "$ref": "#/definitions/ItemDescription"
           },
@@ -2220,16 +2233,19 @@
         },
         "Information": {
           "type": "array",
+          "description": "Inofrmation displayed during an operation",
           "items": {
             "$ref": "#/definitions/ItemDescription"
           },
           "readOnly": true
         },
         "OperationLocation": {
-          "type": "string"
+          "type": "string",
+          "description": "Location of the operation"
         },
         "ResourceLocation": {
-          "type": "string"
+          "type": "string",
+          "description": "Location of the resource"
         },
         "Context": {
           "$ref": "#/definitions/OperationContext",
@@ -2239,32 +2255,39 @@
     },
     "ItemDescription": {
       "type": "object",
+      "description": "The error or information item description object",
       "properties": {
         "Subject": {
-          "type": "string"
+          "type": "string",
+          "description": "Subject of the item"
         },
         "Description": {
-          "type": "string"
+          "type": "string",
+          "description": "Description of the item"
         },
         "Code": {
-          "type": "string"
+          "type": "string",
+          "description": "Code of the item"
         }
       }
     },
     "OperationContext": {
       "type": "object",
+      "description": "The operation context object",
       "properties": {
         "Items": {
           "type": "object",
+          "description": "The item object",
           "additionalProperties": {
-            "type": "object"
+            "type": "object",
+            "description": "An object defining additional properties for an item"
           },
           "readOnly": true
         }
       }
     },
     "Instance": {
-      "description": "A representation of an organization",
+      "description": "A representation of an environment",
       "required": [
         "Id",
         "UniqueName",
@@ -2280,27 +2303,27 @@
       "properties": {
         "Id": {
           "format": "uuid",
-          "description": "The id of the instance",
+          "description": "ID of the instance",
           "type": "string"
         },
         "UniqueName": {
-          "description": "The unique name of the instance",
+          "description": "Unique name of the instance",
           "type": "string"
         },
         "Version": {
-          "description": "The version of the instance",
+          "description": "Version of the instance",
           "type": "string"
         },
         "ApplicationUrl": {
-          "description": "The url to the web application of the instance",
+          "description": "URL to the web application of the instance",
           "type": "string"
         },
         "ApiUrl": {
-          "description": "The url of the web api for the instance",
+          "description": "URL of the Web API for the instance",
           "type": "string"
         },
         "State": {
-          "description": "The state of the instance",
+          "description": "State of the instance",
           "enum": [
             "None",
             "Ready",
@@ -2326,15 +2349,15 @@
           "type": "boolean"
         },
         "AdminMode": {
-          "description": "Whether the instance is in admin mode",
+          "description": "Indicates whether the instance is in admin mode",
           "type": "boolean"
         },
         "IsLocked": {
-          "description": "Whether the instance is locked",
+          "description": "Indicates whether the instance is locked",
           "type": "boolean"
         },
         "ProtectionStatus": {
-          "description": "Whether is the instance is Microsoft or Tenant encrypted",
+          "description": "Indicated whether the instance is Microsoft or Tenant encrypted",
           "enum": [
             "MicrosoftEncrypted",
             "TenantEncrypted"
@@ -2345,7 +2368,7 @@
           }
         },
         "Type": {
-          "description": "The type of the instance",
+          "description": "The type of instance",
           "enum": [
             "None",
             "Production",
@@ -2362,20 +2385,20 @@
           }
         },
         "Purpose": {
-          "description": "The purpose of the instance",
+          "description": "Purpose of the instance",
           "type": "string"
         },
         "FriendlyName": {
-          "description": "The friendly name of the instance",
+          "description": "Friendly name of the instance",
           "type": "string"
         },
         "DomainName": {
-          "description": "The public domain name of the instance.",
+          "description": "Public domain name of the instance.",
           "type": "string"
         },
         "BaseLanguage": {
           "format": "int32",
-          "description": "The base language code for the instance",
+          "description": "Base language code for the instance",
           "type": "integer"
         },
         "InitialUserEmail": {
@@ -2384,7 +2407,7 @@
         },
         "SecurityGroupId": {
           "format": "uuid",
-          "description": "The (optional) security group set for the instance.",
+          "description": "Security group set for the instance.",
           "type": "string"
         },
         "AdditionalProperties": {
@@ -2664,14 +2687,18 @@
         "DomainName"
       ],
       "type": "object",
+      "description": "An object defining the domain name settings",
       "properties": {
         "DomainName": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the domain"
         },
         "AdditionalProperties": {
           "type": "object",
+          "description": "An object defining additional properties for the domain",
           "additionalProperties": {
-            "type": "string"
+            "type": "string",
+            "description": "Additional properties for the domain"
           }
         }
       }
@@ -2697,6 +2724,7 @@
         "Consumed"
       ],
       "type": "object",
+      "description": "Object containing the information about the instance type",
       "properties": {
         "Type": {
           "enum": [
@@ -2710,22 +2738,25 @@
             "Developer"
           ],
           "type": "string",
+          "description": "Type of instance",
           "x-ms-enum": {
             "name": "InstanceType"
           }
         },
         "Total": {
           "format": "int32",
-          "type": "integer"
+          "type": "integer",
+          "description": "Total storage capacaity for the instance"
         },
         "Consumed": {
           "format": "int32",
-          "type": "integer"
+          "type": "integer",
+          "description": "Consumed storage capacaity for the instance"
         }
       }
     },
     "Key": {
-      "description": "Tenant protection key",
+      "description": "Tenant protection (encryption) key object",
       "required": [
         "TenantId"
       ],
@@ -2734,11 +2765,11 @@
         "TenantId": {
           "format": "uuid",
           "type": "string",
-          "description": "ID of the Tenant"
+          "description": "ID of the tenant where the key is present"
         },
         "KeyName": {
           "type": "string",
-          "description": "Name of the protection key"
+          "description": "Name of the key"
         },
         "KeyState": {
           "enum": [
