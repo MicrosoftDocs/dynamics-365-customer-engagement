@@ -59,21 +59,7 @@ To do so, a few additional steps need to be done.
 
 ### Configuration for Azure Active Directory
 
-The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need to follow these steps:
-
-1. Create a B2C tenant. More information [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
-
-    > [!NOTE]
-    > To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname`' attributes and also selecting them in the `Application claim` section.
-
-1. Go to **Dynamics 365 > Marketing > Settings > Web applications** and select the created **Web application** record.
-2. Insert your client ID in the **AAD Client ID** field.
-3. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
-4. Save the changes.
-5. Open the `environment.ts` configuration file located in the **\src\environments** folder and enter all required values in the `aadB2cConfig` variable.
-
-    > [!NOTE]
-    > It can take up to 10 minutes until the changes become active.
+More details about setting up AAD B2C tenant and configuring event management to work with AAD B2C can be found here [Setting up event management to work with AAD B2C](event-management-aad-b2c-setup.md)
 
 ## Development
 
