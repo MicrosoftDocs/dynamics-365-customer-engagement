@@ -1,5 +1,6 @@
 # [Dynamics 365 for Sales Professional](help-hub.md)
 
+## [What's new](whats-new.md)
 ## Get started
 ### [Overview](sales-professional-overview.md)
 ### [Learn the basics](learn-basics-sales-professional.md)
