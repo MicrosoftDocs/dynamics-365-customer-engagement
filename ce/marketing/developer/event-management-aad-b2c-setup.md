@@ -18,21 +18,21 @@ manager: dariosap
 
 # Overview
 
-The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need to fimplement a couple of steps. 
+The event portal is capable of integrating the Azure Active Directory B2C. To integrate it you need to implement a couple of steps. 
 
-1. If you don't have one already, create B2C tenant
+1. If you don't have one already, create Azure AD B2C tenant
 1. Add a web application to your Azure AD B2C tenant
 1. Register the application with your CRM instance
 1. Configure event management application to work with your Azure AD B2C tenant
 
-# Creating B2C tenant and adding a web application to the tenant
+# Creating Azure AD B2C tenant and adding a web application to the tenant
 For your purposes you can follow quick start tutorial that explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant)
 
 After you have sucessfully created Azure AD B2C tenant you can follow this tutorial to add a web application to the newly created tenant:
 [Register a web application](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
 
-    > [!NOTE]
-    > To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section.
+> [!NOTE]
+> To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section.
 
 Detailed information about configuring Azure AD B2C tenant can be found here: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
 
