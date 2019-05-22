@@ -15,6 +15,7 @@ author: tohomanms
 ms.author: tohoman
 manager: kvivek
 ---
+
 # Setting up event management to work with AAD B2C
 
 ## Overview
@@ -27,6 +28,7 @@ The event portal is capable of integrating the **Azure Active Directory B2C**. T
 1. Configure event management application to work with your Azure AD B2C tenant
 
 ## Creating Azure AD B2C tenant and adding a web application to the tenant
+
 The quick start tutorial explains how to create a new Azure AD B2C tenant here: [Create an Azure AD B2C tenant](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant)
 
 After you have successfully created **Azure AD B2C** tenant, follow the tutorial to add a web application to the newly created tenant:
@@ -38,20 +40,21 @@ After you have successfully created **Azure AD B2C** tenant, follow the tutorial
 ## Naming
 
 To reduce the clutter while navigating Azure portal we will use the following naming for the portal screens:
+
 * B2C Tenant : **Tenant**
 * B2C Tenant > Azure AD B2C Settings: **Settings**
 * B2C Tenant > Azure AD B2C Settings > Application > Select your application: **Application**
-* Application > Application Id textbox: **Application id** (it is a GUID)
-* Tenant > Properties > Name textbox: **Tenant name** (e.g. 'contosoeventmanagementtest.onmicrosoft.com')
-* First part of the tenant name: **Tenant id** (e.g. 'contosoeventmanagementtest')
-* Settings > User Flows (policies): **Policy** (e.g. 'B2C_1_default-sign-up')
-* Application > Published scopes > Full scope value textbox: **Scope** (e.g. 'https://contosoeventmanagementtest.onmicrosoft.com/events/registration')
+* Application > Application Id textbox: **Application id**
+* Tenant > Properties > Name textbox: **Tenant name** (e.g. `contosoeventmanagementtest.onmicrosoft.com`)
+* First part of the tenant name: **Tenant id** (e.g. `contosoeventmanagementtest`)
+* Settings > User Flows (policies): **Policy** (e.g. `B2C_1_default-sign-up`)
+* Application > Published scopes > Full scope value textbox: **Scope** (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
 
 ## Registering the application with Dynamics 365 instance
 
-According to the defined naming assembly, the AAD metadata endpoint looks in this pattern 'https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}'
+According to the defined naming assembly, the AAD metadata endpoint looks in this pattern `https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}`
 
-The AAD metadata endpoint looks in this pattern 'https://contosoeventmanagementtest.b2clogin.com/contosoeventmanagementtest.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_default-sign-up'
+The AAD metadata endpoint looks in this pattern `https://contosoeventmanagementtest.b2clogin.com/contosoeventmanagementtest.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_default-sign-up`
 
 With that follow next steps:
 
@@ -71,17 +74,17 @@ Open the `environment.ts` configuration file located in the **\src\environments*
 
 Use following mapping while entering the values:
 
-* authorityHost: {tenant id}.b2clogin.com (e.g. 'contosoeventmanagementtest.b2clogin.com')
-* tenant: Tenant name (e.g. 'contosoeventmanagementtest.onmicrosoft.com')
+* authorityHost: {tenant id}.b2clogin.com (e.g. `contosoeventmanagementtest.b2clogin.com`)
+* tenant: Tenant name (e.g. `contosoeventmanagementtest.onmicrosoft.com`)
 * clientID: Application id 
-* signUpSignInPolicy: Policy (e.g. 'B2C_1_default-sign-up')
-* b2cScopes: ['Scope'] (e.g. ['https://contosoeventmanagementtest.onmicrosoft.com/events/registration'])
-* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost 'http://localhost:4200')
+* signUpSignInPolicy: Policy (e.g. `B2C_1_default-sign-up`)
+* b2cScopes: ['Scope'] (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
+* redirectUri: Application > Reply URL > Pick your application uri (e.g. for localhost `http://localhost:4200`)
 
 An example of the full aadB2cConfig object would be:
 
 ```JSON
-aadB2CConfig: {
+aadB2CConfig:{
     authorityHost: 'contosoeventmanagementtest.b2clogin.com',
     tenant: 'contosoeventmanagementtest.onmicrosoft.com',
     clientID: '971ff1c7-c5bc-4ac9-90a3-3a363db7ea2d',
