@@ -358,12 +358,8 @@ The recommended data volume should be <= 10k records per user subscription.
 
 ## Known issues
 
-**Qualify a lead**:
+**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
-
-- When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
-
-**Close as lost**, the close dialog box will open but the ok and cancel buttons are disabled. 
 
 **Views** are not supported for the following entities in offline mode: 
 
