@@ -26,8 +26,8 @@ topic-status: Drafting
 
 <h2>Get started</h2>
 <ul>
-<li><a href="whats-new.md" data-raw-source="[Dynamics 365 for Sales Professional Overview](whats-new.md)">Dynamics 365 for Sales Professional Overview</a></li>
-<li><a href="sales-professional-overview.md" data-raw-source="[What's new](sales-professional-overview.md)">What's new</a></li>
+<li><a href="sales-professional-overview.md" data-raw-source="[Dynamics 365 for Sales Professional Overview](sales-professional-overview.md)">Dynamics 365 for Sales Professional Overview</a></li>
+<li><a href="whats-new.md" data-raw-source="[What's new](whats-new.md)">What's new</a></li>
 <li><a href="learn-basics-sales-professional.md" data-raw-source="[Learn the basics](learn-basics-sales-professional.md)">Learn the basics</a></li>
 <li><a href="manage-accounts-contacts.md" data-raw-source="[Manager your customers](manage-accounts-contacts.md)">Manager your customers</a></li>
 <li><a href="manage-activities.md" data-raw-source="[Manage tasks, appointments, email, or phone calls](manage-activities.md)">Manage tasks, appointments, email, or phone calls</a></li>

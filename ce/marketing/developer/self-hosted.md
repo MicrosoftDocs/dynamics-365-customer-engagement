@@ -58,6 +58,9 @@ To use event management public API, you need a web application token. The web ap
 6. Change the `emApplicationtoken` variable to point to the URL from the **Token** field in the newly created in the web application record. 
 7. If you want to use the [Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis) you need to set the `useAadB2C` variable to `true` and modify the `aadB2CConfig`. More information [Configure Azure Active Directory](#configuration-for-azure-active-directory).
 
+## Configuration for Azure Active Directory
+
+To learn how to setup AAD B2C tenant and configure the event management to work with AAD B2C, see [Setting up event management to work with AAD B2C](event-management-aad-b2c-setup.md)
 
 ## Development
 
@@ -85,24 +88,6 @@ ng build --prod
 ```
 
 You will find the built website in the **dist** folder of the root directory.
-
-## Configuration for Azure Active Directory
-
-The event website is capable of integrating the Azure Active Directory B2C. To integrate it you need to follow these steps:
-
-1. Create a B2C tenant. More information [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/). 
-
-    > [!NOTE]
-    > To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname`' attributes and also selecting them in the `Application claim` section.
-
-1. Go to **Dynamics 365 > Marketing > Settings > Web applications** and select the created **Web application** record.
-1. Insert your client ID in the **AAD Client ID** field.
-1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
-1. Save the changes.
-1. Open the `environment.ts` configuration file located in the **\src\environments** folder and enter all required values in the `aadB2cConfig` variable.
-
-    > [!NOTE]
-    > It can take up to 10 minutes until the changes become active.
 
 ### See also
 
