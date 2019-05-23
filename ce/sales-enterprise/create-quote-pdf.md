@@ -2,7 +2,7 @@
 title: "Create a quote PDF document (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create and share a professional-looking quote PDF document with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
-ms.date: 04/17/2019
+ms.date: 05/22/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:

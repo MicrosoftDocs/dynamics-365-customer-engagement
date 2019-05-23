@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 04/12/2019
+ms.date: 05/22/2019
 ms.service:
   - "crm-online"
 ms.topic: article
