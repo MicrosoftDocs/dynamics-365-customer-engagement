@@ -27,7 +27,8 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Customize the appearance of your application
+# Overview of configuring agent application
+
 You can customize the appearance of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] login screen, splash screen, and the client application to change the branding and look and feel to align with your organization branding.  
   
  As XAML is the language behind the visual presentation of UI elements in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you should have knowledge of [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] and XAML scripting for customizing the appearance of your agent application by manipulating styles in a XAML file.  

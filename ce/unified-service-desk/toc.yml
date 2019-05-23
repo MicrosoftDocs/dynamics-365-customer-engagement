@@ -258,8 +258,9 @@
     - name: Configure and manage agent scripts
       href: configure-manage-agent-scripts.md
     - name: Customize the appearance of your application
-      href: customize-appearance-application.md
       items:
+      - name: Overview of customizing the appearance
+        href: customize-appearance-application.md
       - name: Customize login and splash screens in Unified Service Desk
         href: customize-login-and-splash-screens-in-unified-service-desk.md
       - name: Customize themes in Unified Service Desk
@@ -271,27 +272,11 @@
     - name: Configure notifications in Unified Service Desk
       href: configure-notifications-unified-service-desk.md
   - name: Unified Service Desk configuration walkthroughs
-    href: unified-service-desk-configuration-walkthroughs.md
     items:
-    - name: 'Walkthrough 1: Build a simple agent application'
-      href: walkthrough-1-build-a-simple-agent-application.md
-    - name: 'Walkthrough 2: Display an external webpage in your agent application'
-      href: walkthrough-2-display-an-external-webpage-in-your-agent-application.md
-    - name: 'Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application'
-      href: walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md
-    - name: 'Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application'
-      href: walkthrough-display-dynamics-365-record-session-agent-application.md
-    - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
-      href: walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md
-    - name: 'Walkthrough 6: Configure the Debugger hosted control in your agent application'
-      href: walkthrough-configure-debugger-hosted-control-agent-application.md
-    - name: 'Walkthrough 7: Configure agent scripting in your agent application'
-      href: walkthrough-configure-agent-scripting-agent-application.md
-    - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
-      href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
-  - name: Unified Service Desk and Unified Interface configuration walkthroughs
-    href: unified-service-desk-unified-interface-configuration-walkthroughs.md
-    items:
+    - name: Configure using Unified Interface
+      items:
+      - name: Unified Service Desk and Unified Interface configuration walkthroughs
+        href: unified-service-desk-unified-interface-configuration-walkthroughs.md
       - name: 'Walkthrough 1: Build a simple agent application for Unified Interface Apps'
         href: walkthrough1-unified-interface-build-a-simple-agent-application.md
       - name: 'Walkthrough 2: Display an external webpage in your agent application'
@@ -306,6 +291,26 @@
         href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
       - name: 'Walkthrough 7: Configure agent scripting in your agent application'
         href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
+    - name: Configure using Web Client
+      items:
+      - name: Unified Service Desk and Web Client configuration walkthroughs
+        href: unified-service-desk-configuration-walkthroughs.md
+      - name: 'Walkthrough 1: Build a simple agent application'
+        href: walkthrough-1-build-a-simple-agent-application.md
+      - name: 'Walkthrough 2: Display an external webpage in your agent application'
+        href: walkthrough-2-display-an-external-webpage-in-your-agent-application.md
+      - name: 'Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application'
+        href: walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md
+      - name: 'Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application'
+        href: walkthrough-display-dynamics-365-record-session-agent-application.md
+      - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
+        href: walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md
+      - name: 'Walkthrough 6: Configure the Debugger hosted control in your agent application'
+        href: walkthrough-configure-debugger-hosted-control-agent-application.md
+      - name: 'Walkthrough 7: Configure agent scripting in your agent application'
+        href: walkthrough-configure-agent-scripting-agent-application.md
+      - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
+        href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
 - name: Extend Unified Service Desk
   href: extend-unified-service-desk.md
   items:
