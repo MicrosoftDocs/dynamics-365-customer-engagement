@@ -1,22 +1,25 @@
 - name: Unified Service Desk Guide
   href: unified-service-desk.md
+- name: Release history
+  href: release-history.md
+- name: What's new
   items:
-  - name: Release history
-    href: release-history.md
   - name: What's new for Administrators
     href: admin/whats-new-unified-service-desk-administrators.md
   - name: What's new for Developers
     href: what-s-new-in-unified-service-desk.md
-  - name: Download Unified Service Desk
-    href: download-unified-service-desk.md
-- name: Overview of Unified Service Desk
-  href: admin/overview-unified-service-desk.md
+- name: Download Unified Service Desk
+  href: download-unified-service-desk.md
+- name: Over of Unified Service Desk
   items:
+  - name: Overview of Unified Service Desk
+    href: admin/overview-unified-service-desk.md
   - name: Call center challenges and how Unified Service Desk can help
     href: admin/call-center-challenges-how-unified-service-desk-can-help.md
   - name: Sample Unified Service desk applications
-    href: admin/sample-unified-service-desk-applications.md
-    items:
+    items:  
+    - name: Use sample applications to get started
+      href: admin/sample-unified-service-desk-applications.md
     - name: Unified Service Desk New Environment sample package
       href: admin/unified-service-desk-new-environment-package.md
     - name: Unified Service Desk Interactive Service Hub sample package
