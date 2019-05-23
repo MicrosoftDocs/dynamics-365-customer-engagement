@@ -34,8 +34,24 @@ The quick start tutorial explains how to create a new Azure AD B2C tenant here: 
 After you have successfully created **Azure AD B2C** tenant, follow the tutorial to add a web application to the newly created tenant:
 [Register a web application with AAD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
 
+### Create a user flow policy
+You need to create a user flow policy if you don't already have one.
+
+Follow these steps to do so:
+1. Go to your Azure portal and open your Azure AD B2C
+2. Select 'User flows (policies)' in the 'Policies' section.
+3. Click on 'new user flow'.
+4. Select 'Sign up and sign in' user flow type.
+5. Specify a name. 
+6. Select an identity provider.
+7. Select at least the following user attributes and claims:
+  * Email Address (required, **collect attribute**)
+  * Given Name (**collect attribute** and **return claim**)
+  * Surname (**collect attribute** and **return claim**)
+8. Click on Create.
+
 > [!NOTE]
-> To use a name-based contact matching strategy, you need to configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
+> To use a name-based contact matching strategy, you must configure the sign-up policy to include the `Given Name` and `Surname` attributes and also selecting them in the `Application claim` section. More information: [How to configure and set it up in the Azure AD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/)
 
 ## Naming
 
