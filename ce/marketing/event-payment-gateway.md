@@ -130,7 +130,7 @@ After a contact submits their registration and payment details, the following ev
 
 1. The event website sends a registration request to the Dynamics 365 for Marketing "register" endpoint.
 1. Dynamics 365 for Marketing creates a temporary event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
-1. After a successful payment, the payment provider must confirm the payment by calling a custom back-end service created by you. Your custom service must authenticate against your Dynamics 365 for Marketing instance and trigger a custom action called `msevtmgt_FinalizeExternalRegistrationRequest` (described later in this section).
+1. On capturing payment, the payment provider must confirm with Dynamics 365 for Marketing by calling a custom back-end service created by you. Your custom service must authenticate against your Dynamics 365 for Marketing instance and trigger a custom action called `msevtmgt_FinalizeExternalRegistrationRequest` (described later in this section).
 1. When your back-end service triggers the custom action, Dynamics 365 for Marketing finalizes the registration by turning the temporary registration into an standard registration record that users can see in the system. For registrations that include several attendees, a separate registration record is created for each of them.
 
 You'll probably need assistance from a developer to create the custom back-end service. You (or your developer) can use any implementation technology you like to create it.
