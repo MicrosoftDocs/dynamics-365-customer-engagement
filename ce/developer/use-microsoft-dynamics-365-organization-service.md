@@ -3,7 +3,7 @@ title: "Use the Dynamics 365 for Customer Engagement Organization service (Devel
 description: "Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations"
 ms.custom: 
 ms.date: 11/28/2017
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
