@@ -64,9 +64,10 @@
       href: action-calls.md
     - name: Replacement parameters
       href: replacement-parameters.md
-  - name: Unified Service Desk and the UII framework
-    href: unified-service-desk-uii-framework.md
+  - name: User Interface Integration (UII) framework  
     items:
+    - name: Unified Service Desk and the UII framework
+      href: unified-service-desk-uii-framework.md
     - name: UII Application Integration Framework
       href: uii-application-integration-framework.md
     - name: UII hosted applications
@@ -81,32 +82,33 @@
       href: ui-shell-framework.md
     - name: UII computer telephony integration (CTI) framework
       href: uii-computer-telephony-integration-cti-framework.md
-- name: Administer and manage Unified Service Desk
-  href: admin/administer-manage-unified-service-desk.md
-  items:
-  - name: Support for Unified Interface Apps
-    href: admin/Support-unified-interfaces-apps-usd.md
-  - name: Unified Service Desk Administrator app
-    href: admin/unified-service-desk-administrator-app.md
-  - name: Unified Interface Settings
-    href: admin/unified-interface-settings.md
-  - name: Manage Options for Unified Service Desk
-    href: admin/manage-options-unified-service-desk.md
-    items:
-    - name: Configure client caching in Unified Service Desk
-      href: admin/configure-client-caching-unified-service-desk.md
-    - name: Cache specific configuration for agents
-      href: admin/set-configuration-cache-version.md     
-    - name: Help improve Unified Service Desk
-      href: admin/help-improve-unified-service-desk.md
+  - name: Administer and manage Unified Service Desk
+    items: 
+    - name: Administer and manage overview
+      href: admin/administer-manage-unified-service-desk.md
+    - name: Support for Unified Interface Apps
+      href: admin/Support-unified-interfaces-apps-usd.md
+    - name: Unified Service Desk Administrator app
+      href: admin/unified-service-desk-administrator-app.md
+    - name: Unified Interface Settings
+      href: admin/unified-interface-settings.md
+    - name: Manage Options for Unified Service Desk
+      href: admin/manage-options-unified-service-desk.md
       items:
-      - name: Provide feedback about Unified Service Desk
-        href: admin/provide-feedback.md
-    - name: Comply with General Data Protection Regulation (GDPR)
-      href: admin/comply-gdpr.md
-      items:
-      - name: Comply Unified Service Desk data
-        href: admin/comply-unified-service-desk-data-gdpr.md
+      - name: Configure client caching in Unified Service Desk
+        href: admin/configure-client-caching-unified-service-desk.md
+      - name: Cache specific configuration for agents
+        href: admin/set-configuration-cache-version.md     
+      - name: Help improve Unified Service Desk
+        href: admin/help-improve-unified-service-desk.md
+        items:
+        - name: Provide feedback about Unified Service Desk
+          href: admin/provide-feedback.md
+      - name: Comply with General Data Protection Regulation (GDPR)
+        href: admin/comply-gdpr.md
+        items:
+        - name: Comply Unified Service Desk data
+          href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Distribute custom hosted controls using Customization Files
