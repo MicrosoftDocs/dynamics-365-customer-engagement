@@ -312,8 +312,9 @@
       - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
         href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
 - name: Extend Unified Service Desk
-  href: extend-unified-service-desk.md
   items:
+  - name: Overview of extensibility
+    href: extend-unified-service-desk.md    
   - name: Integrate with external applications and web applications
     href: integrate-external-applications-web-applications.md
     items:

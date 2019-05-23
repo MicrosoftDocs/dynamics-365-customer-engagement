@@ -28,6 +28,8 @@ search.app:
   - D365USD
 ---
 # Extend Unified Service Desk
+
+## Overview of extensibility
 This section provides information on how you can use the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] components to extend [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to integrate with external applications, web applications, and [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] systems. It also provides information on how to customize [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by developing custom hosted controls and panel layouts.  
   
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with a host of [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] project templates that you can use to create a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] application adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] web adapter, a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] customer search control (Windows Forms and [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] hosted control (Windows Forms and [!INCLUDE[pn_wpf_acronym](../includes/pn-wpf-acronym.md)]), a [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapter, a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, and a custom panel layout. 
