@@ -45,8 +45,8 @@ To reduce the clutter while navigating Azure portal we will use the following na
 * B2C Tenant > Azure AD B2C Settings: **Settings**
 * B2C Tenant > Azure AD B2C Settings > Application > Select your application: **Application**
 * Application > Application Id textbox: **Application id**
-* Tenant > Properties > Name textbox: **Tenant name** (e.g. `contosoeventmanagementtest.onmicrosoft.com`)
-* First part of the tenant name: **Tenant id** (e.g. `contosoeventmanagementtest`)
+* Tenant > Properties > Name textbox: **Tenant name** (e.g. `contoso.onmicrosoft.com`)
+* First part of the tenant name: **Tenant id** (e.g. `contoso`)
 * Settings > User Flows (policies): **Policy** (e.g. `B2C_1_default-sign-up`)
 * Application > Published scopes > Full scope value textbox: **Scope** (e.g. https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
 
@@ -85,11 +85,11 @@ An example of the full aadB2cConfig object would be:
 
 ```JS
 aadB2CConfig: {
-    authorityHost: 'contosoeventmanagementtest.b2clogin.com',
-    tenant: 'contosoeventmanagementtest.onmicrosoft.com',
-    clientID: '971ff1c7-c5bc-4ac9-90a3-3a363db7ea2d',
+    authorityHost: 'contoso.b2clogin.com',
+    tenant: 'contoso.onmicrosoft.com',
+    clientID: '7e67b9fe-d976-4db0-be90-05d797332658',
     signUpSignInPolicy: 'B2C_1_default-sign-up',
-    b2cScopes: ['https://contosoeventmanagementtest.onmicrosoft.com/events/registration'],
+    b2cScopes: ['https://contoso.onmicrosoft.com/events/registration'],
     redirectUri: 'http://localhost:4200'
 }
 ```
