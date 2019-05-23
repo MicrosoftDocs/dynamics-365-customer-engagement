@@ -68,16 +68,15 @@ To reduce the clutter while navigating Azure portal we will use the following na
 
 ## Registering the application with Dynamics 365 instance
 
-According to the defined naming assembly, the AAD metadata endpoint looks in this pattern `https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}`
-
-The AAD metadata endpoint looks in this pattern `https://contosoeventmanagementtest.b2clogin.com/contosoeventmanagementtest.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_default-sign-up`
-
-With that follow next steps:
+Follow those steps to register the application with Dynamics 365.
 
 1. Open your Dynamics 365 instance
 1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, then please follow the steps to [register your web application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
 1. Insert your **Application id** in the **AAD Client ID** field.
 1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
+  According to the defined naming assembly, the AAD metadata endpoint looks in this pattern `https://{tenant id}.b2clogin.com/{tenant id}.onmicrosoft.com/v2.0/.well-known/openid-configuration?p={policy}`
+  The AAD metadata endpoint looks in this pattern `https://contosoeventmanagementtest.b2clogin.com/contosoeventmanagementtest.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_default-sign-up`
+
 1. Save the changes.
 
 
