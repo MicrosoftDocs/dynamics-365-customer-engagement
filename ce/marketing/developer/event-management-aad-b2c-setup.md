@@ -34,6 +34,14 @@ The quick start tutorial explains how to create a new Azure AD B2C tenant here: 
 After you have successfully created **Azure AD B2C** tenant, follow the tutorial to add a web application to the newly created tenant:
 [Register a web application with AAD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
 
+### Grant API access to the regsitered web application.
+1. Select the web application that you have registered before.
+2. Specify `events` as 'App ID URI' (you can do this in the 'Properties' tab)
+3. Go to API access.
+4. Click on Add
+5. Select your API and select all scopes.
+6. Click Ok.
+
 ### Create a user flow policy
 You need to create a user flow policy if you don't already have one.
 
