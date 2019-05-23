@@ -75,7 +75,7 @@ To change the **TotalRecordCountLimit** timeout value:
 
 *Target audience*: System administrator or system customizer who has experience working with different configurations in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, analyzing the results, and improving or changing the configurations in an iterative manner until the desired functionality and user experience is achieved.
 
-To get started with configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Core concepts for configuring Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).  
+To get started with configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md).  
   
 ## Extend Unified Service Desk to integrate with other applications
 

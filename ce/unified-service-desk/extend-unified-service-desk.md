@@ -64,4 +64,4 @@ This section provides information on how you can use the [!INCLUDE[pn_user_intef
 ## Related Sections  
  [Core concepts for extending Unified Service Desk](../unified-service-desk/unified-service-desk-uii-framework.md)  
   
- [Core concepts for configuring Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+ [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)

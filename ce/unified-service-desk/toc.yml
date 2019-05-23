@@ -51,8 +51,9 @@
   - name: Understand Unified Service Desk
     href: understand-unified-service-desk-concepts.md
   - name: Core concepts for configuring Unified Service Desk
-    href: core-concepts-for-configuring-unified-service-desk.md
     items:
+    - name: Components of Unified Service Desk 
+      href: core-concepts-for-configuring-unified-service-desk.md
     - name: Unified Service Desk hosted controls
       href: unified-service-desk-hosted-controls.md
     - name: Events
