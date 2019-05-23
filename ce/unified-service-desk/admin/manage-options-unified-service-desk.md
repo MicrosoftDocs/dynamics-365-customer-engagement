@@ -168,4 +168,4 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 
  [Help improve Unified Service Desk by sending usage data](../../unified-service-desk/admin/help-improve-unified-service-desk.md)
 
- [Understand Unified Service Desk concepts](../../unified-service-desk/understand-unified-service-desk-concepts.md)
+ [Understand Unified Service Desk](../../unified-service-desk/understand-unified-service-desk-concepts.md)

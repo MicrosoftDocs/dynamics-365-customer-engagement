@@ -31,8 +31,9 @@
     - name: Unified Service Desk Upgrade sample package
       href: admin/unified-service-desk-upgrade-package.md
 - name: Install, deploy, and upgrade Unified Service Desk
-  href: admin/install-upgrade-deploy-unified-service-desk.md
   items:
+  - name: Overview 
+    href: admin/install-upgrade-deploy-unified-service-desk.md
   - name: Unified Service Desk system requirements
     href: admin/unified-service-desk-system-requirements.md
   - name: Install the Unified Service Desk client
@@ -41,13 +42,14 @@
     href: admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md
   - name: Upgrade Unified Service Desk
     href: admin/upgrade-unified-service-desk-solution.md
+  - name: Update Unified Service Desk solution
+    href: admin/update-unified-service-desk-solution.md
 - name: Connect to a Dynamics 365 instance using the Unified Service Desk client
   href: admin/connect-dynamics-365-instance-using-unified-service-desk-client.md
-- name: Update Unified Service Desk solution
-  href: admin/update-unified-service-desk-solution.md
-- name: Understand Unified Service Desk Concepts
-  href: understand-unified-service-desk-concepts.md
+- name: Understand Unified Service Desk concepts
   items:
+  - name: Understand Unified Service Desk
+    href: understand-unified-service-desk-concepts.md
   - name: Core concepts for configuring Unified Service Desk
     href: core-concepts-for-configuring-unified-service-desk.md
     items:
