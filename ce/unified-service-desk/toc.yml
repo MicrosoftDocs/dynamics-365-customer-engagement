@@ -187,11 +187,12 @@
     - name: Unified Service Desk configurations
       href: admin/unified-service-desk-configurations-bpa.md   
 - name: Configure your agent application using Unified Service Desk
-  href: configure-agent-application-unified-service-desk.md
   items:
-  - name: Learn to use Unified Service Desk
-    href: learn-to-use-unified-service-desk.md
+  - name: Overview of configuring agent application
+    href: configure-agent-application-unified-service-desk.md
     items:
+    - name: Learn to use Unified Service Desk
+      href: learn-to-use-unified-service-desk.md
     - name: Hosted control types, actions, and events
       href: hosted-control-types-actions-events.md
     - name: View predefined actions and events for a hosted control
@@ -216,15 +217,18 @@
       href: search-data-entity-searches.md
     - name: Use Dynamics 365 knowledge for effective customer engagement
       href: use-dynamics-365-knowledge-effective-customer-engagement.md
-  - name: Get started with configuring your agent application
-    href: get-started-configuring-agent-application.md
+  - name: Get started with the configurations
     items:
-    - name: Manage hosted controls, actions, and events
-      href: manage-hosted-controls-actions-events.md
+    - name: Get started with configuring your agent application
+      href: get-started-configuring-agent-application.md
+    - name: Hosted controls, actions, and events
       items:
-      - name: 'Select a hosting method for your controls '
-        href: select-hosting-method-controls.md
+      - name: Manage hosted controls, actions, and events
+        href: manage-hosted-controls-actions-events.md
+      - name: Hosting types
         items:
+        - name: Select a hosting method for your controls
+          href: select-hosting-method-controls.md
         - name: Use Edge Process to host web applications (Preview)
           href: edge-process.md
         - name: Use Chrome Process to host web applications
