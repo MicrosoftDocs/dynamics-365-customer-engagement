@@ -3,7 +3,7 @@ title: "Publish your app on AppSource (Developer Guide for Dynamics 365 for Cust
 description: "Learn about how to publish your Dynamics 365 for Customer Engagement app on Microsoft AppSource so that subscribers can find it, try it, and buy it."
 ms.custom: 
 ms.date: 02/26/2019
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

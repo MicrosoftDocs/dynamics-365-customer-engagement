@@ -4,7 +4,7 @@ description: "Extend Marketing forms with Javascript to apply custom business lo
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 04/02/2019
+ms.date: 05/23/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -221,5 +221,4 @@ So the final html looks like
     })();
     </script>  
 ```
-
 
