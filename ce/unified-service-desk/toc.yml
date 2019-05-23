@@ -146,46 +146,6 @@
     href: admin/recover-chrome-process-instance.md
   - name: Configure close confirmation window
     href: admin/configure-close-confirmation-window.md
-- name: Analyze performance of Unified Service Desk (Preview)
-  items:
-  - name: Overview of Unified Service Desk Performance Analyzer
-    href: admin/overview-performance-analyzer.md
-  - name: Download Unified Service Desk Performance Analyzer
-    href: admin/download-performance-analyzer.md
-  - name: Generate (collect) performance data log
-    href: admin/performance-data-collection-using-keyboard-shortcut.md
-  - name: Generate performance report
-    href: admin/generate-performance-report.md
-  - name: Performance report
-    items:
-    - name: Overview of performance report user interface
-      href: admin/overview-performance-report-user-interface.md
-    - name: Terminologies in the performance report
-      href: admin/terminologies-performance-report.md
-    - name: View, read, and compare performance report
-      href: admin/view-read-compare-performance-report.md
-    - name: Categories and operations
-      href: admin/operations-categories.md
-- name: Best Practices Analyzer
-  items:
-  - name: Analyze best practices in Unified Service Desk
-    href: admin/analyze-best-practices-unified-service-desk.md
-  - name: Download and install Best Practices Analyzer
-    href: admin/download-install-best-practices-analyzer.md
-  - name: Walkthrough - Configure Best Practices Analyzer
-    href: admin/walkthrough-configure-best-practices-analyzer.md
-  - name: Read Best Practices Analyzer report
-    href: admin/read-best-practices-analyzer-report.md
-  - name: Best practice rule categories and parameters
-    items:
-    - name: List of rule categories and parameters
-      href: admin/compliance-categories-parameters-bpa.md
-    - name: System configurations
-      href: admin/system-configurations-bpa.md
-    - name: Internet Explorer settings
-      href: admin/internet-explorer-settings-bpa.md
-    - name: Unified Service Desk configurations
-      href: admin/unified-service-desk-configurations-bpa.md   
 - name: Configure your agent application using Unified Service Desk
   items:
   - name: Overview of configuring agent application
@@ -310,7 +270,47 @@
       - name: 'Walkthrough 7: Configure agent scripting in your agent application'
         href: walkthrough-configure-agent-scripting-agent-application.md
       - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
-        href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md
+        href: walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md    
+- name: Analyze performance of Unified Service Desk (Preview)
+  items:
+  - name: Overview of Unified Service Desk Performance Analyzer
+    href: admin/overview-performance-analyzer.md
+  - name: Download Unified Service Desk Performance Analyzer
+    href: admin/download-performance-analyzer.md
+  - name: Generate (collect) performance data log
+    href: admin/performance-data-collection-using-keyboard-shortcut.md
+  - name: Generate performance report
+    href: admin/generate-performance-report.md
+  - name: Performance report
+    items:
+    - name: Overview of performance report user interface
+      href: admin/overview-performance-report-user-interface.md
+    - name: Terminologies in the performance report
+      href: admin/terminologies-performance-report.md
+    - name: View, read, and compare performance report
+      href: admin/view-read-compare-performance-report.md
+    - name: Categories and operations
+      href: admin/operations-categories.md
+- name: Best Practices Analyzer
+  items:
+  - name: Analyze best practices in Unified Service Desk
+    href: admin/analyze-best-practices-unified-service-desk.md
+  - name: Download and install Best Practices Analyzer
+    href: admin/download-install-best-practices-analyzer.md
+  - name: Walkthrough - Configure Best Practices Analyzer
+    href: admin/walkthrough-configure-best-practices-analyzer.md
+  - name: Read Best Practices Analyzer report
+    href: admin/read-best-practices-analyzer-report.md
+  - name: Best practice rule categories and parameters
+    items:
+    - name: List of rule categories and parameters
+      href: admin/compliance-categories-parameters-bpa.md
+    - name: System configurations
+      href: admin/system-configurations-bpa.md
+    - name: Internet Explorer settings
+      href: admin/internet-explorer-settings-bpa.md
+    - name: Unified Service Desk configurations
+      href: admin/unified-service-desk-configurations-bpa.md   
 - name: Extend Unified Service Desk
   items:
   - name: Overview of extensibility
