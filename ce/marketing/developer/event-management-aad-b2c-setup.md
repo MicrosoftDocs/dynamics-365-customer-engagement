@@ -59,7 +59,7 @@ The AAD metadata endpoint looks in this pattern `https://contosoeventmanagementt
 With that follow next steps:
 
 1. Open your Dynamics 365 instance
-1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select the created **Web application** record.
+1. Navigate to **Dynamics 365 > Marketing > Settings > Web applications** and select your **Web application** record. If you haven't created a **Web application** record yet, then please follow the steps to [register your web application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/developer/self-hosted#register-your-web-application).
 1. Insert your **Application id** in the **AAD Client ID** field.
 1. Insert your metadata endpoint in the **AAD Metadata Endpoint** field.
 1. Save the changes.
@@ -83,8 +83,8 @@ Use following mapping while entering the values:
 
 An example of the full aadB2cConfig object would be:
 
-```JSON
-aadB2CConfig:{
+```JS
+aadB2CConfig: {
     authorityHost: 'contosoeventmanagementtest.b2clogin.com',
     tenant: 'contosoeventmanagementtest.onmicrosoft.com',
     clientID: '971ff1c7-c5bc-4ac9-90a3-3a363db7ea2d',
