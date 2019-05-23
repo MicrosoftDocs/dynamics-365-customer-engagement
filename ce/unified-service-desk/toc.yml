@@ -10,7 +10,7 @@
     href: what-s-new-in-unified-service-desk.md
 - name: Download Unified Service Desk
   href: download-unified-service-desk.md
-- name: Over of Unified Service Desk
+- name: Introduction to Unified Service Desk
   items:
   - name: Overview of Unified Service Desk
     href: admin/overview-unified-service-desk.md
@@ -150,6 +150,7 @@
   items:
   - name: Overview of configuring agent application
     href: configure-agent-application-unified-service-desk.md
+  - name: Features and capabilities  
     items:
     - name: Learn to use Unified Service Desk
       href: learn-to-use-unified-service-desk.md
