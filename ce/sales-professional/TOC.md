@@ -24,7 +24,6 @@
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records](assign-records-sales-professional.md)
 #### [Use document templates](use-document-templates-sales-professional.md)
-#### [Create a quote PDF](create-quote-pdf-sales-professional.md)
 
 ## [Administrator and Sales Manager guide](admin-guide.md)
 ### [Standard settings](admin-settings-overview.md)
@@ -41,7 +40,6 @@
 #### [Manage Word templates](manage-word-templates.md)
 #### [Automatic generation of quotes or invoices](enable-automatic-generation-quotes-invoices.md)
 #### [Export data](export-data.md)
-#### [Enable PDF generation from quotes](enable-pdf-generation-quote-sales-professional.md)
 
 ### Customize the app
 #### [Customize forms](customize-forms.md)
