@@ -114,9 +114,10 @@
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Distribute custom hosted controls using Customization Files
     href: admin/distribute-custom-hosted-controls-using-customization-files.md
-  - name: Access management in Unified Service Desk
-    href: admin/security-unified-service-desk.md
+  - name: Access management
     items:
+    - name: Access management in Unified Service Desk
+      href: admin/security-unified-service-desk.md
     - name: Manage access using Unified Service Desk security roles
       href: admin/manage-access-using-unified-service-desk-security-roles.md
     - name: Manage access using Unified Service Desk configuration
@@ -129,9 +130,10 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
-  - name: Migrate your Unified Service Desk configuration to another Customer Engagement instance
-    href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
-    items:
+  - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
+    items:    
+    - name: Migration of a Unified Service Desk configuration
+      href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
     - name: Import Unified Service Desk configuration data
       href: admin/import-unified-service-desk-configuration-data.md
     - name: Export Unified Service Desk configuration data
@@ -154,27 +156,30 @@
     href: admin/performance-data-collection-using-keyboard-shortcut.md
   - name: Generate performance report
     href: admin/generate-performance-report.md
-  - name: Overview of performance report user interface
-    href: admin/overview-performance-report-user-interface.md
+  - name: Performance report
     items:
+    - name: Overview of performance report user interface
+      href: admin/overview-performance-report-user-interface.md
     - name: Terminologies in the performance report
       href: admin/terminologies-performance-report.md
     - name: View, read, and compare performance report
       href: admin/view-read-compare-performance-report.md
     - name: Categories and operations
       href: admin/operations-categories.md
-- name: Analyze best practices in Unified Service Desk
-  href: admin/analyze-best-practices-unified-service-desk.md
+- name: Best Practices Analyzer
   items:
+  - name: Analyze best practices in Unified Service Desk
+    href: admin/analyze-best-practices-unified-service-desk.md
   - name: Download and install Best Practices Analyzer
     href: admin/download-install-best-practices-analyzer.md
-  - name: "Walkthrough: Configure Best Practices Analyzer"
+  - name: Walkthrough - Configure Best Practices Analyzer
     href: admin/walkthrough-configure-best-practices-analyzer.md
   - name: Read Best Practices Analyzer report
     href: admin/read-best-practices-analyzer-report.md
   - name: Best practice rule categories and parameters
-    href: admin/compliance-categories-parameters-bpa.md
     items:
+    - name: List of rule categories and parameters
+      href: admin/compliance-categories-parameters-bpa.md
     - name: System configurations
       href: admin/system-configurations-bpa.md
     - name: Internet Explorer settings
