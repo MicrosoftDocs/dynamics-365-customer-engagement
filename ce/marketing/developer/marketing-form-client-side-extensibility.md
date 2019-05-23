@@ -174,6 +174,7 @@ MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId)
   }
 }
 ```
+
 ## How to implement spinner sample
 
 1. Navigate to **Marketing Pages** and open your marketing page in which you have placed your marketing form, switch to **HTML** tab, add the following block in the <style> tag.
