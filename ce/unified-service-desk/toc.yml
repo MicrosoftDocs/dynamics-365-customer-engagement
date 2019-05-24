@@ -323,14 +323,16 @@
       href: create-manage-uii-hosted-applications.md
     - name: Use UII adapters to interact with external and web applications
       href: use-uii-adapters-interact-external-web-applications.md
-    - name: Use UII automation adapter to interact with external and web applications
-      href: use-uii-automation-adapter-interact-external-web-applications.md
+    - name: UII automation adapter
       items:
+      - name: Use UII automation adapter to interact with external and web applications
+        href: use-uii-automation-adapter-interact-external-web-applications.md
       - name: Hosted Application Toolkit (HAT) architecture
         href: hosted-application-toolkit-hat-architecture.md
-      - name: Work with the HAT Software Factory
-        href: work-with-hat-software-factory.md
+      - name: HAT Software Factory
         items:
+        - name: Work with the HAT Software Factory
+          href: work-with-hat-software-factory.md
         - name: Use HAT Software Factory to create a hosted application
           href: use-hat-software-factory-create-hosted-application.md
         - name: Use UII inspector to create bindings for the hosted application
@@ -343,21 +345,24 @@
           href: deploy-hosted-application-unified-service-desk.md
         - name: Import the hosted application from Unified Service Desk
           href: import-hosted-application-from-unified-service-desk.md
-        - name: Automate hosted applications using HAT automation activities
-          href: automate-hosted-applications-using-hat-automation-activities.md
+        - name: Automate hosted application
           items:
+          - name: Automate hosted applications using HAT automation activities
+            href: automate-hosted-applications-using-hat-automation-activities.md
           - name: Use HAT automation activities
             href: use-hat-automation-activities.md
           - name: Types of HAT automation activities
             href: types-of-hat-automation-activities.md
           - name: Create HAT automation
             href: create-hat-automation.md
-      - name: Use data driven adapters (DDAs)
-        href: use-data-driven-adapters-ddas.md
+      - name: Data driven adapters
         items:
+        - name: Use data driven adapters (DDAs)
+          href: use-data-driven-adapters-ddas.md
         - name: WinDDA
-          href: windda.md
           items:
+          - name: Overview of WinDDA
+            href: windda.md
           - name: AccControl Tag
             href: acccontrol-tag.md
           - name: ACCSelector Tag
@@ -369,8 +374,9 @@
           - name: WinDDA events
             href: win-dda-events.md
         - name: WebDDA
-          href: web-dda.md
           items:
+          - name: Overview of WebDDA
+            href: web-dda.md
           - name: AnchorElement
             href: anchor-element.md
           - name: ButtonElement
@@ -396,8 +402,9 @@
           - name: WebDDA Events
             href: web-dda-events.md
         - name: UIADDA
-          href: uiadda.md
           items:
+          - name: Overview of UIADDA
+            href: uiadda.md
           - name: UI Automation Inspector
             href: ui-automation-inspector.md
           - name: FindControl Operation
@@ -417,8 +424,9 @@
           - name: UIA Pattern List
             href: uia-pattern-list.md
         - name: JavaDDA
-          href: javadda.md
           items:
+          - name: Overview of JavaDDA
+            href: javadda.md
           - name: JAccControl Tag
             href: jacc-control-tag.md
           - name: JAccSelector Tag
@@ -447,14 +455,16 @@
       href: walkthrough-create-uii-windows-forms-hosted-control.md
     - name: 'Walkthrough: Create a UII WPF Hosted Control'
       href: walkthrough-create-uii-wpf-hosted-control.md
-  - name: Integrate channel using Channel Integration Framework
-    href: integrate-channel-provider-channel-integration-framework.md   
+  - name: Channel Integration Framework
     items:
+    - name: Integrate channel using Channel Integration Framework
+      href: integrate-channel-provider-channel-integration-framework.md 
     - name: Create Channel Integration Framework hosted control
       href: create-channel-integration-framework-hosted-control.md
-  - name: Integrate with CTI systems using CTI adapters
-    href: integrate-cti-systems-cti-adapters.md
+  - name: Computer Telephony Integration adapters
     items:
+    - name: Integrate with CTI systems using CTI adapters
+      href: integrate-cti-systems-cti-adapters.md
     - name: Use the generic listener adapter in Unified Service Desk
       href: use-generic-listener-adapter-unified-service-desk.md
     - name: Build a custom CTI adapter for Unified Service Desk
@@ -471,9 +481,10 @@
       href: walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md
   - name: Integrate with Citrix applications
     href: integrate-citrix-applications.md
-  - name: Use custom hosted control in Unified Service Desk
-    href: use-custom-hosted-control-unified-service-desk.md
+  - name: Customer hosted control
     items:
+    - name: Use custom hosted control in Unified Service Desk
+      href: use-custom-hosted-control-unified-service-desk.md
     - name: "Walkthrough: Create custom hosted control for Unified Service Desk"
       href: walkthrough-create-custom-hosted-control-for-unified-service-desk.md
     - name: Use SafeDispatcher for custom hosted controls in Unified Service Desk
@@ -482,9 +493,10 @@
       href: configure-enhanced-diagnostic-logging-custom-hosted-controls.md
   - name: Create custom listeners for auditing, diagnostics and traces
     href: create-custom-listeners-auditing-diagnostics-traces.md
-  - name: Use custom panel types and panel layouts in Unified Service Desk
-    href: use-custom-panel-types-panel-layouts-unified-service-desk.md
+  - name: Custom panel types and panel layouts
     items:
+    - name: Use custom panel types and panel layouts in Unified Service Desk
+      href: use-custom-panel-types-panel-layouts-unified-service-desk.md
     - name: Create a custom panel type
       href: create-custom-panel-type.md
     - name: Create a custom panel layout
