@@ -510,23 +510,23 @@
   - name: Reuse Entity Search definition in your custom code
     href: reuse-entity-search-definition-custom-code.md
 - name: Troubleshoot Unified Service Desk
-  href: admin/troubleshoot-unified-service-desk.md
   items:
+  - name: Debug and troubleshoot
+    href: admin/troubleshoot-unified-service-desk.md
   - name: Configure client diagnostic logging in Unified Service Desk
     href: admin/configure-client-diagnostic-logging-unified-service-desk.md
-    items:
-    - name: How Unified Service Desk handles application and system errors
-      href: admin/how-unified-service-desk-handles-application-system-errors.md
+  - name: How Unified Service Desk handles application and system errors
+    href: admin/how-unified-service-desk-handles-application-system-errors.md
   - name: Debug issues in Unified Service Desk
     href: debug-issues-unified-service-desk.md
-    items:
-    - name: Use the Debugger control in Unified Service Desk
-      href: use-debugger-control-unified-service-desk.md
-    - name: Debug your custom code for Unified Service Desk
-      href: debug-custom-code-unified-service-desk.md
+  - name: Use the Debugger control in Unified Service Desk
+    href: use-debugger-control-unified-service-desk.md
+  - name: Debug your custom code for Unified Service Desk
+    href: debug-custom-code-unified-service-desk.md
 - name: Hosted control types and action/event reference
-  href: hosted-control-types-action-event-reference.md
   items:
+  - name: Overview of hosted control types, actions, and events reference
+    href: hosted-control-types-action-event-reference.md
   - name: Connection Manager (Hosted Control)
     href: connection-manager-hosted-control.md
   - name: Global Manager (Hosted Control)
