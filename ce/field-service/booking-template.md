@@ -87,12 +87,13 @@ Refresh the schedule board and bookings related to work order requirements will 
 
 **Pro Tip:** To avoid typing mistakes, navigate to **Customization > Entities > Bookable Resource Bookings** and copy the field names. Fields from the Bookable Resource Booking entity can be referenced directly using the field name in curly brackets. Example: **{duration}**.
 
-If you want to display a field from a linked entity, find the name of the N:1 relationship, for the Work Order entity it is **msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder** and add a “." followed by the field name of the target entity. For example, the primary incident type field on the work order has a schema name of **msdyn_primaryincidenttype**. To reference this value, enclose the whole string with curly brackets: {msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}
+If you want to display a field from a linked entity, find the name of the N:1 relationship, for the Work Order entity it is **msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder** and add a “." followed by the field name of the target entity. For example, the primary incident type field on the work order has a schema name of **msdyn_primaryincidenttype** simply add this after the relationship schema and enclose the whole string with curly brackets: 
 
-Linking to yet another entity (e.g. from work order to account) is also possible, just concatenate the relationship name with a “.”.
+**{msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}**
+
+Linking to yet another entity (e.g. from work order to account) is also possible, just concatenate the relationship name with a “.”
 
  
-
 Following the above instructions will edit the booking template for work order requirements displayed on this particular schedule board tab only. When **< Default >** is displayed in a schedule board tab setting field, this means the value is being dictated by the default settings. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
 
 
