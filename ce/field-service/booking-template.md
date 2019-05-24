@@ -41,7 +41,7 @@ Field Service v6.1+
 > [!Note]
 >
 
-## Instructions 
+## Edit work order booking template
 
 Each schedule board and each schedule-able entity (Work Order, Project, Case, custom entity) can have a different booking template. When a work order requirement is scheduled, the booking template shows the Bookable Resource Booking record's **Name** and **Duration** values as seen in the image below.
  
@@ -61,17 +61,9 @@ The HTML that displays these values is:
 
 In this example we will choose Work Order then find the **Booking Template** field at the end of the section.
 
-Doing so will edit the booking template of this particular schedule board tab. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
-
-
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduling-booking-template-tab-default.png)
+> ![Screenshot of Schedule board settings - booking template](./media/schedule-board-settings-booking-template.png)  
 
- board and scroll down to the Schedule Types setting. Since the board can show different entities, you can also specify individual booking templates for each entity. In this example, we will change the style of Work Order bookings. Select the Work Order entity and find the .
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule board settings - booking template](./media/schedule-board-settings -booking-template.png)  
 
 
 Modify the booking template
@@ -91,19 +83,24 @@ Fields from the Bookable Resource Booking entity can be referenced directly usin
 
 If you want to display a field from a linked entity, find the name of n:1 relationship, for the 
 
-Work Order entity it is msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder. Add a “.” 
-
-Followed by the field name of the target entity, for example the Incident Type with field name msdyn_primaryincidenttype. Enclose the whole string with curly brackets: {msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}
+Work Order entity it is msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder. Add a “." Followed by the field name of the target entity, for example the Incident Type with field name msdyn_primaryincidenttype. Enclose the whole string with curly brackets: {msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}
 
 Linking to yet another entity (e.g. from work order to account) is also possible, just concatenate the relationship name with a “.”.
 
-The result of the above booking template looks like this:
+The select **Apply**.
 
+The result of the above booking template looks like this:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Custom booking visualization](./media/custom-booking-visualization.png)  
 
-Advanced booking template styling using CSS
+Following the above instructions will edit the booking template for work order requirements displayed on this particular schedule board tab only. When **< Default >** is displayed in a schedule board tab setting field, this means the value is being dictated by the default settings. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-booking-template-tab-default.png)
+
+## Advanced booking template styling using CSS
 
 Navigate to Resources>Scheduling Parameters and set Disable Sanitizing HTML Templates to Yes. This is required to be able to include CSS statements into the booking templates.
 Let’s assume that there is a customer rating that the dispatcher should see on the schedule board to prioritize jobs. The customizer has added a field new_customerrating on the Account entity and propagates that field to the Work Order entity with an integer range from 1 to 10. Using the approach above this field could easily be added to the booking template, but this would not be visually appealing.
