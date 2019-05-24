@@ -73,13 +73,13 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
 
 ### Example 2: Search and display on the list of contact records
 
-This sample code searches the name and phone number of a contact and opens the contact record.
+This sample code searches and displays the name and phone number of Contact entity records whose first name is "Contoso". Using `$search` we can make sure that the search results page is pre-populated with the search term "Contoso".
 
 ```JavaScript
 
 // retrieve contact record
 // query = true, searches but do not open the record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", true ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1$$filter=firstname eq 'Contoso'&$search=Contoso", true ).then(
     function success(result) {
     res=JSON.parse(result);
         console.log(`The caller name is: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
