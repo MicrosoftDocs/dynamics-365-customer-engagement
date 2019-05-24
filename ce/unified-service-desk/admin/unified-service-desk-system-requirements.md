@@ -61,7 +61,7 @@ Unified Service Desk supports the latest three releases (N-2 format). On the rel
 
 For example, If Unified Service Desk 4.2 is released, then Unified Service Desk 3.3 version will be deprecated.
 
-Supported Unified Service Desk versions are as follows:
+Supported Unified Service Desk versions are:
 
 - Unified Service Desk 4.1
 
