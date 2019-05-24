@@ -97,7 +97,6 @@
 #### [Working with segments](segmentation-lists-subscriptions.md)
 #### [Segments vs. lists](segments-vs-lists.md)
 #### [Design profile-based dynamic segments](segments-profile.md)
-#### [Use the explore view](segments-explorer.md)
 #### [Design interaction-based dynamic segments](segments-interaction.md)
 #### [Define a static segment](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
