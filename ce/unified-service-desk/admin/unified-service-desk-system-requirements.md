@@ -71,12 +71,8 @@ Supported Unified Service Desk versions are:
 
 
 > [!Note]
-> We recommend you to use the latest version of Unified Service Desk and Microsoft Dynamics 365 for Customer Engagement.
->
-> In the following scenarios, we recommend upgrading your Unified Service Desk and/or Customer Engagement to the latest version.
-> - If you install Unified Service Desk 4.1 or a higher version and use with any version lesser than Customer Engagement 8.2, we recommend upgrading your Customer Engagement instance to the latest version.
->
-> - If you upgrade from an older version to the latest version of Unified Service Desk but use with any version lesser than Customer Engagement 8.2, we recommend upgrading your Customer Engagement instance to the latest version.
+> If you using older versions, We recommend upgrading to the latest version of Unified Service Desk and Microsoft Dynamics 365 for Customer Engagement.
+
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
