@@ -129,6 +129,11 @@ For example:
 > [!IMPORTANT]
 > Your segment must always end on the contact entity. If you start with some other entity, then you must always end with a relation back to the contact entity.
 
+> [!TIP]
+> While you're designing your query, select the **Explore** button to see a graphical map of how the current entity relates to other entities. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity (shown in turquoise). Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
+> 
+> ![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
+
 ### Example: Define a more complex segment based on opportunities
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
@@ -175,8 +180,6 @@ When you're working on the **Designer** tab, use the **+ Add Group** button to a
 The **Flow** tab provides another view of how your groups are combined. Here, you get a Sankey diagram of how your groups are combined, and how contacts flow into and out of the segment as a result of the operation from each group.
 
 ![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
-
-You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
 
 ### See also
 
