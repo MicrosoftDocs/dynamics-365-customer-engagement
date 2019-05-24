@@ -65,9 +65,9 @@ In this example we will choose Work Order then find the **Booking Template** fie
 > ![Screenshot of Schedule board settings - booking template](./media/schedule-board-settings-booking-template.png)  
 
 
+Next, modify the booking template by deleting the existing value and entering HTML and CSS that can reference fields from the Bookable Resource Booking entity as well as linked entities such as the work order. 
 
-Modify the booking template
-The booking template is defined by HTML and CSS, it can reference fields from the Bookable Resource Booking entity but also from linked entities. Here is a simple example of a Work Order template.
+Here is an example that pulls values from the work order that relates to the booking.
 
     <div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
     WO: 
@@ -77,22 +77,21 @@ The booking template is defined by HTML and CSS, it can reference fields from th
     Duration: <b>{duration} minutes</b><br/>
     </div>
 
-To avoid typing mistakes, navigate to Customization>Entities>Bookable Resource Bookings and copy the field name:
+Enter the sample text above and select **Apply**.
 
-Fields from the Bookable Resource Booking entity can be referenced directly using the field name in curly brackets. Example: {duration}
+Refresh the schedule board and bookings related to work order requirements will appear as the following:
 
-If you want to display a field from a linked entity, find the name of n:1 relationship, for the 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Custom booking visualization](./media/custom-booking-visualization.png) 
 
-Work Order entity it is msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder. Add a “." Followed by the field name of the target entity, for example the Incident Type with field name msdyn_primaryincidenttype. Enclose the whole string with curly brackets: {msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}
+
+**Pro Tip:** To avoid typing mistakes, navigate to **Customization > Entities > Bookable Resource Bookings** and copy the field names. Fields from the Bookable Resource Booking entity can be referenced directly using the field name in curly brackets. Example: **{duration}**.
+
+If you want to display a field from a linked entity, find the name of the N:1 relationship, for the Work Order entity it is **msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder** and add a “." followed by the field name of the target entity. For example, the primary incident type field on the work order has a schema name of **msdyn_primaryincidenttype**. To reference this value, enclose the whole string with curly brackets: {msdyn_msdyn_workorder_bookableresourcebooking_WorkOrder.msdyn_primaryincidenttype}
 
 Linking to yet another entity (e.g. from work order to account) is also possible, just concatenate the relationship name with a “.”.
 
-The select **Apply**.
-
-The result of the above booking template looks like this:
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Custom booking visualization](./media/custom-booking-visualization.png)  
+ 
 
 Following the above instructions will edit the booking template for work order requirements displayed on this particular schedule board tab only. When **< Default >** is displayed in a schedule board tab setting field, this means the value is being dictated by the default settings. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
 
