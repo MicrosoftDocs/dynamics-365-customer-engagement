@@ -2,7 +2,7 @@
 title: "Enable viewing profile cards | MicrosoftDocs"
 description: "Enable viewing profile cards."
 ms.custom: 
-ms.date: 05/17/2019
+ms.date: 05/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
