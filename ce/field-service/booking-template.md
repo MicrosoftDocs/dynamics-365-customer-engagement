@@ -53,7 +53,21 @@ The HTML that displays these values is:
     <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div> 
 
  
- To edit the HTML that controls the booking temnplate, double-click the name of the schedule board tab. board and scroll down to the Schedule Types setting. Since the board can show different entities, you can also specify individual booking templates for each entity. In this example, we will change the style of Work Order bookings. Select the Work Order entity and find the Booking Template at the end of the section.
+ To edit the HTML that controls the booking template, double-click the name of the schedule board tab, then scroll down to the **Schedule Types** section and then select the entity on the left that you would like to change the booking template for. 
+ 
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-booking-template-tab.png)
+
+In this example we will choose Work Order then find the **Booking Template** field at the end of the section.
+
+Doing so will edit the booking template of this particular schedule board tab. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-booking-template-tab-default.png)
+
+ board and scroll down to the Schedule Types setting. Since the board can show different entities, you can also specify individual booking templates for each entity. In this example, we will change the style of Work Order bookings. Select the Work Order entity and find the .
 
 
 > [!div class="mx-imgBorder"]
