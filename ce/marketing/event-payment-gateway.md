@@ -128,11 +128,12 @@ For details about how to develop the system for receiving payment and finalizing
 
 After a contact submits their registration and payment details, the following events occur:
 
-1. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] creates a temporary event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
-1. The system waits for the payment provider to confirm payment by calling the *success URL* operated by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. When you sign up with a payment provider, they will usually ask for this success URL and use it in the code they return to you to include on your payment page.
-1. When [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] receives the success-URL request, it finalizes the registration by turning the temporary registration into an actual registration record that users can see in the system. For registrations that include several contacts, a separate registration record is created for each of them.
+1. The event website sends a registration request to the Dynamics 365 for Marketing "register" endpoint.
+1. Dynamics 365 for Marketing creates a temporary event registration, associates it with the current browser session, and then opens a page that links or redirects to your payment provider and forwards the payment details.
+1. On capturing payment, the payment provider must confirm with Dynamics 365 for Marketing by calling a custom back-end service created by you. Your custom service must authenticate against your Dynamics 365 for Marketing instance and trigger a custom action called `msevtmgt_FinalizeExternalRegistrationRequest` (described later in this section).
+1. When your back-end service triggers the custom action, Dynamics 365 for Marketing finalizes the registration by turning the temporary registration into a standard registration record that users can see in the system. For registrations that include several attendees, a separate registration record is created for each of them.
 
-To set up the success URL, you must create a back-end service that is triggered when your payment provider calls that URL. You'll probably need assistance from a developer to create this service. You (or your developer) can use any implementation technology you like to create it.
+You'll probably need assistance from a developer to create the custom back-end service. You (or your developer) can use any implementation technology you like to create it.
 
 Your back-end service must authenticate against your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance to enable the service to execute the custom actions needed to finalize the workflow. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
  [Authenticate to Dynamics 365 for Customer Engagement with the Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/webapi/authenticate-web-api)
