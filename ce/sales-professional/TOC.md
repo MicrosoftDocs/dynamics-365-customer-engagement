@@ -48,7 +48,7 @@
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote-sales-professional.md)
 
 ## Customizer guide
-#### [Customize forms](customize-forms.md)
-#### [Customize views](customize-views.md)
-#### [Customize business process flows](customize-business-process-flows.md)
-#### [Customize the Dynamics 365 for Sales Professional app](manage-app.md)
+### [Customize forms](customize-forms.md)
+### [Customize views](customize-views.md)
+### [Customize business process flows](customize-business-process-flows.md)
+### [Customize the Dynamics 365 for Sales Professional app](manage-app.md)
