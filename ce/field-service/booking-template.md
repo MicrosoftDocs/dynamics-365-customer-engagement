@@ -2,8 +2,8 @@
 title: "Edit schedule board booking template | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2019
-ms.reviewer: ""
+ms.date: 05/24/2019
+ms.reviewer: krbjoran 
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
-ms.author: FieldServiceDave
+ms.author: alheinze 
 manager: shellyha
 search.audienceType: 
   - admin
@@ -28,7 +28,10 @@ search.app:
 
 # Edit schedule board booking template
 
-When a requirement is scheduled to a resource, a booking record is created and displayed on the schedule board during the respective resource's time slot. The fields displayed in the schedule board booking can be edited and is called a **Booking Template**.
+When a requirement is scheduled to a resource, a booking record is created and displayed on the schedule board during the respective resource's time slot. The fields displayed in the schedule board booking is called a **Booking Template** and is editable.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Standard booking visualization](./media/standard-booking-visualization.png)
 
 In this article we will discuss how to edit the booking template.
 
@@ -38,15 +41,19 @@ Field Service v6.1+
 > [!Note]
 >
 
+## Instructions 
 
-
-Schedule Board Tab Settings – Booking Templates
-Booking templates define how a booking will be displayed on the schedule board’s Gantt chart. This is how it looks like initially:
+Each schedule board and each schedule-able entity (Work Order, Project, Case, custom entity) can have a different booking template. When a work order requirement is scheduled, the booking template shows the Bookable Resource Booking record's **Name** and **Duration** values as seen in the image below.
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Standard booking visualization](./media/standard-booking-visualization.png)
-  
-The visualization can be altered for every individual schedule board. To do that double-click the name of the board and scroll down to the Schedule Types setting. Since the board can show different entities, you can also specify individual booking templates for each entity. In this example, we will change the style of Work Order bookings. Select the Work Order entity and find the Booking Template at the end of the section.
+> ![Screenshot of Standard booking visualization](./media/standard-booking-visualization.png)   
+
+The HTML that displays these values is:
+
+    <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div> 
+
+ 
+ To edit the HTML that controls the booking temnplate, double-click the name of the schedule board tab. board and scroll down to the Schedule Types setting. Since the board can show different entities, you can also specify individual booking templates for each entity. In this example, we will change the style of Work Order bookings. Select the Work Order entity and find the Booking Template at the end of the section.
 
 
 > [!div class="mx-imgBorder"]
