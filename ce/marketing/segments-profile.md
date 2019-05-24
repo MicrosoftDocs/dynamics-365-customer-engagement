@@ -130,7 +130,7 @@ For example:
 > Your segment must always end on the contact entity. If you start with some other entity, then you must always end with a relation back to the contact entity.
 
 > [!TIP]
-> While you're designing your query, select the **Explore** button to see a graphical map of how the current entity relates to other entities. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity (shown in turquoise). Available paths and entities are show in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
+> While you're designing your query, select the **Explore** button to see a graphical map of how the current entity relates to other entities. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity (shown in turquoise). Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
 > 
 > ![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
 
