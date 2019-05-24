@@ -27,8 +27,8 @@ search.app:
 
 ## Upgrade from Project Service Automation version 2.x or 1.x to version 3.x
 As of May 17th 2019, customers that have an instance with the legacy PS v2.x will need to contact support with their instance details so support can enable thier Orgs for upgrade to 3.x or UCI based Project Service application.
-> [!NOTE]
-The release of Project Service Automation (PSA) version 3.x includes significant changes. This release is built on the Unified Interface framework for an improved user experience. The redesigned app delivers a consistent, uniform user interface, and follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application including changes to pricing, booking and assigning resources, time, expenses, and approvals.  
+> NOTE
+>The release of Project Service Automation (PSA) version 3.x includes significant changes. This release is built on the Unified Interface framework for an improved user experience. The redesigned app delivers a consistent, uniform user interface, and follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application including changes to pricing, booking and assigning resources, time, expenses, and approvals.  
 
 When ready to upgrade to the UCI version, please submit a request with MS support i.e log a support ticket with the details of your instance to make the upgrade available from Admin center.
 
