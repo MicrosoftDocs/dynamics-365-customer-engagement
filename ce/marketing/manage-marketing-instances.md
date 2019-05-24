@@ -113,7 +113,7 @@ After the copy, your sandbox instance will be set up as follows:
 
 To copy a production instance to a sandbox:
 
-1. **Important**: before you do anything else, [reset your sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance).
+<!-- 1. **Important**: before you do anything else, [reset your sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance). -->
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application and its related solutions are all up to date on your production instance, as described in [Keep Marketing up to date](apply-updates.md).
 
