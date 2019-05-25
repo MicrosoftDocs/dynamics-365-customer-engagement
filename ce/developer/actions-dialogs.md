@@ -2,7 +2,7 @@
 title: "Actions on dialogs (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 for Customer Engagement web services (SDK). "
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 05/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,10 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic describes the actions you can perform on dialogs.  
+This topic describes the actions you can perform on dialogs.
+
+> [IMPORTANT]
+> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in PowerApps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
 
 <a name="DialogRelated"></a>   
 
