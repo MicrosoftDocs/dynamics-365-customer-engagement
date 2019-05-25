@@ -28,7 +28,7 @@ search.app:
 
 This topic describes the actions you can perform on dialogs.
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in PowerApps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
 
 <a name="DialogRelated"></a>   
