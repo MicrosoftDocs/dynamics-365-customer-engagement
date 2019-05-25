@@ -38,9 +38,6 @@ In this article we will discuss how to edit the booking template.
 ## Prerequisites
 Field Service v6.1+
 
-> [!Note]
->
-
 ## Edit work order booking template
 
 Each schedule board and each schedule-able entity (Work Order, Project, Case, custom entity) can have a different booking template. When a work order requirement is scheduled, the booking template shows the Bookable Resource Booking record's **Name** and **Duration** values as seen in the image below.
@@ -94,30 +91,40 @@ If you want to display a field from a linked entity, find the name of the N:1 re
 Linking to yet another entity (e.g. from work order to account) is also possible, just concatenate the relationship name with a “.”
 
  
-Following the above instructions will edit the booking template for work order requirements displayed on this particular schedule board tab only. When **< Default >** is displayed in a schedule board tab setting field, this means the value is being dictated by the default settings. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
+Following the above instructions will edit the booking template for work order requirements displayed on this particular schedule board tab only. If you would like to edit the default booking template for all schedule board tabs, then select **Open Default Settings** and edit the Booking Template field there.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-booking-template-tab-default.png)
 
+> [!Note]
+> When **< Default >** is displayed in a schedule board tab setting field, this means the value is being dictated by the default settings.
+
 ## Advanced booking template styling using CSS
 
-Navigate to Resources>Scheduling Parameters and set Disable Sanitizing HTML Templates to Yes. This is required to be able to include CSS statements into the booking templates.
-Let’s assume that there is a customer rating that the dispatcher should see on the schedule board to prioritize jobs. The customizer has added a field new_customerrating on the Account entity and propagates that field to the Work Order entity with an integer range from 1 to 10. Using the approach above this field could easily be added to the booking template, but this would not be visually appealing.
+In this scenario let's add customer rating and service call icons to the booking template based on conditional values on the account and work order records.
+
+
+Let’s assume that there is a customer rating that the dispatcher should see on the schedule board to prioritize jobs. The customizer has added a field **new_customerrating** on the Account entity and propagates that field to the Work Order entity with an integer range from 1 to 10. Using the approach above this field could easily be added to the booking template, but this would not be visually appealing.
+
+
 Instead the booking template should draw 5 stars in gray color, this is the background. On top of these 5 gray stars we’ll put 5 orange stars, but only show a percentage of these, which corresponds with the customer rating.
+
 Example: Customer rating is 4 out of 10, thus we only show 40% of the orange stars, which is 2 out of 5:
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Star rating](./media/star-rating.png) 
+
+
+In addition, the dispatcher should also see whether a work order is a service call or another type of job. The customizer has created a field **new_isservicecall** on the work order entity, values are 0 or 1. Using the same approach as above, we first draw a gray wrench as background, put an orange wrench on top and limit its size to 0% (new_isservicecall = 0) or 100% (new_isservicecall = 1).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Star rating](./media/star-rating.png)
+> ![Screenshot of Wrench rating](./media/wrench-rating.png) 
 
-In addition, the dispatcher should also see whether a work order is a service call or another type of job. The customizer has created a field new_isservicecall on the work order entity, values are 0 or 1. Using the same approach as above, we first draw a gray wrench as background, put an orange wrench on top and limit its size to 0% (new_isservicecall=0) or 100% (new_isservicecall=1).
+Navigate to **Resource Scheduling > Administration > Scheduling Parameters** and set **Disable Sanitizing HTML Templates** to **Yes**. This is required to be able to include CSS statements into the booking templates.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Wrench rating](./media/wrench-rating.png)
-
-This is the final booking template:
+Next, add the following HTML and CSS text to Booking Tempalte field in Schedule Board Tab Settings. 
 
     <div style="line-height: 11px !important; width: 99%; overflow: hidden; display: block; text-overflow: ellipsis;">
     <div class="back-stars" style="color: #AAAAAA; position: relative; display:inline-block;">
@@ -156,7 +163,6 @@ Here is the result of the change:
   
 When building these advanced booking templates, make sure to test on multiple browsers and also consider accessibility.
 
+### See also
 
-
-## Configuration considerations
-## Additional Notes
+[Add custom resource attributes to the schedule board](/field-service/extend-schedule-board-custom-resource-attribute.md)
