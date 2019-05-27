@@ -21,7 +21,7 @@ search.app:
 ---
 # Create a knowledge article using a template
 
-Use the **msdyn_GetKAObjectFromTemplate** action to programmatically create a knowlegde article from an existing knowledge article template.
+Use the **msdyn_GetKAObjectFromTemplate** action to programmatically create a knowledge article from an existing knowledge article template.
 
 ## Action parameters
 
@@ -35,7 +35,7 @@ The **msdyn_GetKAObjectFromTemplate** action requires the following parameters:
 
 | Type | Description |
 | ---- | ---- |
-| [KnowlegdeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
+| [KnowledgeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
 
 ## Example
 
