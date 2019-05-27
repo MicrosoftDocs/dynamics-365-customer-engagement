@@ -28,7 +28,10 @@ search.app:
   - D365CE
   - D365USD
 ---
-# About access control
+# Access management in Unified Service Desk
+
+## Overview of access control
+
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration entities and the underlying [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] entities are stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and you can use the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] security model to govern access to both of these entities. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] has a robust security model that combines role-based, record-level, and field-level security to define the overall security rights that users have. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics CRM](/dynamics365/customer-engagement/admin/security-concepts)  
   
  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] users can be broadly classified into two categories:  

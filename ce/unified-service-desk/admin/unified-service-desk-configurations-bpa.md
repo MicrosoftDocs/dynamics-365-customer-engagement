@@ -302,7 +302,7 @@ Set the **ProcessTerminationThreshold** value between the range **0** and **3000
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

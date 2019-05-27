@@ -183,7 +183,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 ## See also  
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)
 
- [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+ [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
  
  [Add a UII action to a hosted control](../../unified-service-desk/add-uii-action-hosted-control.md)   
  
