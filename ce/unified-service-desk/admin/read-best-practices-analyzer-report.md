@@ -64,7 +64,7 @@ You must expand a parameter to see the details, which illustrate the following:
 
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

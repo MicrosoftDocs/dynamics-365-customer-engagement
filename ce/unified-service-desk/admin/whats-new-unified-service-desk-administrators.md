@@ -207,7 +207,7 @@ From this release, by default, the Help Improve [!INCLUDE[pn_unified_service_des
 
 Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] send  application-specific information like product usage, health, and performance data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. We use the information that we collect from the program to analyze and improve the service and product experience for our customers.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Help improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
 
 ### Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
