@@ -29,13 +29,13 @@ The **msdyn_GetKAObjectFromTemplate** action requires the following parameters:
 
 | Name | Type | Nullable | Description |
 | ---- | ---- | ---- | ---- |
-| TemplateId | Edm.Guid | False | The GUID of the knowledge article template to use |
+| TemplateId | Edm.Guid | False | The GUID of the knowledge article template to use. |
 
 ## Action return type
 
 | Type | Description |
 | ---- | ---- |
-| [KnowlegdeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value |
+| [KnowlegdeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
 
 ## Example
 
