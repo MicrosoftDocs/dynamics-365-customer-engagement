@@ -12,8 +12,8 @@
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
 #### [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
-#### [Developer guide]
-##### [Create knowledge article using a template](create-knowledge-article-using-template.md)
+#### Developer guide
+##### [Create knowledge article using template](create-knowledge-article-using-template.md)
 
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
