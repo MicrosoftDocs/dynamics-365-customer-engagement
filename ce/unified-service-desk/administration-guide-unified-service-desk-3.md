@@ -43,6 +43,6 @@ This guide provides information about how to install, administer, and manage [!I
   
  [Security in Unified Service Desk](../unified-service-desk/admin/security-unified-service-desk.md)  
   
- [Administer and manage Unified Service Desk](../unified-service-desk/admin/administer-manage-unified-service-desk.md)  
+ [Administer and manage overview](../unified-service-desk/admin/administer-manage-unified-service-desk.md)  
   
  [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  

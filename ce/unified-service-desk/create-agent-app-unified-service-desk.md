@@ -33,7 +33,7 @@ search.app:
   
    *Target audience*: System administrator or system customizer who has experience working with different configurations in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, analyzing the results, and improving or changing the configurations in an iterative manner until the desired functionality and user experience is achieved.  
   
-   To get started with configuring [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], see [Core concepts for configuring Unified Service Desk](core-concepts-for-configuring-unified-service-desk.md).  
+   To get started with configuring [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], see [Components of Unified Service Desk](core-concepts-for-configuring-unified-service-desk.md).  
   
 - **Extend [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] to integrate with other applications**: [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] is built using the [!INCLUDE[pn-user-interface-integration-uii](../includes/pn-user-interface-integration-uii.md)] framework, which enables you to build and deploy composite agent applications that can provide unified access to customer information in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and external systems. Also, the [!INCLUDE[pn-computer-telephony-integration-cti](../includes/pn-computer-telephony-integration-cti.md)] framework of [!INCLUDE[pn-uii-acronym](../includes/pn-uii-acronym.md)] enables organizations to build adapters to connect [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] with their existing [!INCLUDE[pn-cti-acronym](../includes/pn-cti-acronym.md)] infrastructure to support customer communication in agent desktops over various channels such as chat, email, or telephone. To integrate with external applications, you’ll have to extend [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] by writing code. [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] provides you with [!INCLUDE[pn-Visual-Studio](../includes/pn-Visual-Studio.md)] project templates that you can use to create the modules and applications so you can integrate and interact with data in external applications.  
   
@@ -49,7 +49,7 @@ Before you start using [!INCLUDE[pn-unified-service-desk](../includes/pn-unified
   
 ## Related Sections  
 
-[Core concepts for configuring Unified Service Desk](core-concepts-for-configuring-unified-service-desk.md)  
+[Components of Unified Service Desk](core-concepts-for-configuring-unified-service-desk.md)  
   
 [Unified Service Desk and the UII framework](unified-service-desk-uii-framework.md)
  

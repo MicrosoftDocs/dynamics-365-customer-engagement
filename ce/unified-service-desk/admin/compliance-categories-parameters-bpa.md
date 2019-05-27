@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Best practice rule categories and parameters
+# List of rule categories and parameters
 
 The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes.
 
