@@ -35,7 +35,7 @@ The **msdyn_GetKAObjectFromTemplate** action requires the following parameters:
 
 | Type | Description |
 | ---- | ---- |
-| [KnowlegdeArticle]() | The **msdyn_GetKAObjectFromTemplate** action returns the following value |
+| [KnowlegdeArticle](../developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value |
 
 ## Example
 
@@ -80,4 +80,4 @@ OData-Version: 4.0
 ## See also
 
 [Search for knowledge articles](search-knowledge-articles-csh.md)<br />
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article)
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
