@@ -2,7 +2,7 @@
 title: "Copy an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 02/21/2019
+ms.date: 05/28/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,7 +15,7 @@ ms.assetid: 475d5b1f-4526-4e76-a4fe-b8fbaf394944
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -28,6 +28,9 @@ search.app:
 
 You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   
+> [!NOTE]
+> You can now use the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) to copy an instance (environment). See [Copy an environment](https://docs.microsoft.com/power-platform/admin/copy-environment).
+
 ## Full copy instance  
  A full copy includes all application data, users, and customizations from the source instance and is suitable for:  
   
