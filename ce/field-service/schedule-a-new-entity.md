@@ -34,7 +34,7 @@ Enabling an entity for scheduling allows dispatchers to schedule that entity via
 
 In this article we will show how to enable an entity for scheduling and utilize the entity on the schedule board. 
 
-**Scenario:** A solar panel company must perform consultations over the phone and on site at their customers' homes before a solar panel installation can take place because details regarding the home's structure, location, and local laws need to be discussed as part of the qualification process. The solar panel company would like to use the schedule board and other scheduling tools to assign leads to appropriate sales resources to perform the consultation and qualification process with potential customers. 
+**Scenario:** A solar energy company must perform consultations over the phone and on site at their customers' homes before a solar panel installation can take place because details regarding the home's structure, location, and local laws need to be discussed as part of the qualification process. The solar panel company would like to use the schedule board and other scheduling tools to assign leads to appropriate sales resources to perform the consultation and qualification process with potential customers. 
 
 To configure this scenario, we will show how to enable the **Lead** entity for scheduling and add a new requirement view to the schedule board that specifically relates to Lead resource requirements. 
 
@@ -51,22 +51,22 @@ To configure this scenario, we will show how to enable the **Lead** entity for s
 To enable an entity to be scheduled, navigate to the Administration section of Universal Resource Scheduling: Enable Resource Scheduling for Entities.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/enablescheduling.png)
+> ![Screenshot of ](./media/enablescheduling.jpg)
  
  
 When choosing to add a new Entity, pick the Entity with the Add Entity drop down.  Choose Create New Relationship for both Booking and Requirement Relationship.  This will create the necessary relationships to the Bookable Resource Booking entity and the Resource Requirement entity.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/enableleads.png)
+> ![Screenshot of ](./media/enableleads.jpg)
  
 Once selected, click Publish Customizations.  
  
 To make changes to the settings for booking this entity, double-click on the Entity in the Enabled Entities section.  Defaults and scheduling options for the entity can be manipulated to assist with creating Resource Requirements.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/leadsetup.png)
+> ![Screenshot of ](./media/leadsetup.jpg)
   
 You have successfully enabled an entity for scheduling when requirements show as a related entity and the **Book** button is displayed on the top ribbon.
 
@@ -75,104 +75,107 @@ You have successfully enabled an entity for scheduling when requirements show as
 
 Before scheduling a record, a Resource Requirement must be created.  These can be created manually or created by a custom workflow.  To create a Resource Requirement, navigate to the Related tab on the Entity and choose Resource Requirements.
 
-Screenshot of
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/leadscheduling.png)
+> ![Screenshot of ](./media/leadscheduling.jpg)
  
 
 Click the New button to create the new Resource Requirement.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/addresourcereq.png)
+> ![Screenshot of ](./media/addresourcereq.jpg)
  
 Populate the information that will provide details on what requirements are needed for a recourse to be scheduled including dates, duration, priority and territory. 
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/newreq.png)
+> ![Screenshot of ](./media/newreq.jpg)
 
 
 Once you have the Requirement created, bookings can be created directly from the record or by using the Schedule Board.  To book using the Scheduling Assistant directly from the record, use the Book button.  If Quick Scheduling is enabled for the entity, the Quick Scheduler will be initiated, otherwise the Scheduling Assistant will be used.
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/bookfromrecord.png)
+> ![Screenshot of ](./media/bookfromrecord.jpg)
  
 Quick Scheduler View
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/quick.png)
+> ![Screenshot of ](./media/quick.jpg)
 
 If using Quick Scheduling, the Schedule Assistant can also be viewed by clicking on Open Schedule Assistant.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/assistant.png)
+> ![Screenshot of ](./media/assistant.jpg)
 
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedulingassistant.png)
+> ![Screenshot of ](./media/schedulingassistant.jpg)
  
 Once the record is booked, a new record is created on the Booking Resource Bookings tab on the entity.  
 Screenshot of
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/booked.png)
+> ![Screenshot of ](./media/booked.jpg)
   
 
 ## Add a requirement view to the schedule board
 
 To view the new entity on the Schedule board, new views will need to be created.  All views on the schedule board use the Resource Requirement Entity.  Navigate to Customizations, Entities and Resource Requirement Entity.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customizations.png)
+> ![Screenshot of ](./media/customizations.jpg)
 
 Create a New View 
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/createview.png)
+> ![Screenshot of ](./media/createview.jpg)
  
 Add fields to the view that will provide details to what you are scheduling. Use the drop down to capture fields from the Entity (in this case Lead) 
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/addleadentity.png)
+> ![Screenshot of ](./media/addleadentity.jpg)
  
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/createview.png)
+> ![Screenshot of ](./media/createview.jpg)
  
 Edit the Filter Criteria to display the appropriate records.  To ensure only the Lead Resource Requirements will be displayed, select the Lead entity and filter the records appropriately.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/editfiltercriteria.png)
+> ![Screenshot of ](./media/editfiltercriteria.jpg)
  
 Save and Close & Publish.  
 
  
 The final step to view this on the Schedule Board, is to edit the Schedule Board that you will be using to Schedule the Entity.  In this case, start by creating a new tab.  
 
-Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/newtab.png)
+> ![Screenshot of ](./media/newtab.jpg)
 
 
 In the Requirement Panels section, add a Title and select the new View. Click + to add the view.  
 Screenshot of
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/addviewtoboard.png)
+> ![Screenshot of ](./media/addviewtoboard.jpg)
  
 Choose “Hide default requirement panels” if you don’t want to display the other tabs.  
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduleboard.jpg)
  
 NOTE: There will be no data until the Resource Requirements are created.  These will need to be manually created or setup a workflow to auto create upon creation of a Lead.  
-Screenshot of
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
+
+
 
 
 ## Configuration considerations
@@ -180,7 +183,7 @@ Screenshot of
 - BSM for default lat and long
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduleboard.png)
+> ![Screenshot of ](./media/.png)
 
 
 ## Additional Notes
