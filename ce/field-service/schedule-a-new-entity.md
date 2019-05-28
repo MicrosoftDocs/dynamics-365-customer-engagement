@@ -28,7 +28,9 @@ search.app:
 
 # Enable an entity for scheduling
 
-Universal Resource Scheduling can be used to schedule any entity.
+Field Service uses [Universal Resource Scheduling](./field-service/universal-resource-scheduling-for-field-service.md) (the "Resource Scheduling" app) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Based on your business processes, other entities in your system including custom entities can be enabled for scheduling. 
+
+Enabling an entity for scheduling allows dispatchers to schedule that entity via the schedule board, the schedule assistant, and even resource scheduling optimization (RSO). 
 
 In this article we will show how to enable an entity for scheduling and utilize the entity on the schedule board. 
 
@@ -47,7 +49,7 @@ To configure this scenario, we will show how to enable the **Lead** entity for s
 ## Enable an entity for scheduling 
 
 To enable an entity to be scheduled, navigate to the Administration section of Universal Resource Scheduling: Enable Resource Scheduling for Entities.
-Screenshot of
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/enablescheduling.png)
  
@@ -66,6 +68,10 @@ Screenshot of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/leadsetup.png)
   
+You have successfully enabled an entity for scheduling when requirements show as a related entity and the **Book** button is displayed on the top ribbon.
+
+
+
 
 Before scheduling a record, a Resource Requirement must be created.  These can be created manually or created by a custom workflow.  To create a Resource Requirement, navigate to the Related tab on the Entity and choose Resource Requirements.
 
@@ -171,6 +177,7 @@ Screenshot of
 
 ## Configuration considerations
 - schedule onsite leads and custom entities 
+- BSM for default lat and long
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduleboard.png)
@@ -178,5 +185,6 @@ Screenshot of
 
 ## Additional Notes
 - If the entity that you want to enable for scheduling is not displayed, you have to check the Managed Properties settings for that entity. If by chance the "Can be customized" setting is set to False, then that's the reason why the entity is not being displayed. This is true even if the entity is in unmanaged state (development environment). Another strange issue I've faced (and thanks to MS support I'd been able to fix) is changing that flag to False. The steps to solve this issue is creating a solution patch (using Clone as patch feature) from the solution that contains the custom entity. Then add that entity to the patch, update the Can be customized flag to True and publish entity. Then you can delete the patch.
+- To turn off scheduling for the entity, on the command bar, click DEACTIVATE. On the Confirm Deactivation dialog box, click Deactivate.
 
 
