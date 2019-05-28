@@ -44,7 +44,6 @@ To configure this scenario, we will show how to enable the **Lead** entity for s
 >
 
 
-
 ## Enable an entity for scheduling 
 
 To enable an entity to be scheduled, navigate to the Administration section of Universal Resource Scheduling: Enable Resource Scheduling for Entities.
@@ -88,6 +87,8 @@ Populate the information that will provide details on what requirements are need
 Screenshot of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
+
+
  
 Once you have the Requirement created, bookings can be created directly from the record or by using the Schedule Board.  To book using the Scheduling Assistant directly from the record, use the Book button.  If Quick Scheduling is enabled for the entity, the Quick Scheduler will be initiated, otherwise the Scheduling Assistant will be used.
 
@@ -119,6 +120,9 @@ Screenshot of
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
   
+
+## Add a requirement view to the schedule board
+
 To view the new entity on the Schedule board, new views will need to be created.  All views on the schedule board use the Resource Requirement Entity.  Navigate to Customizations, Entities and Resource Requirement Entity.  
 
 Screenshot of
@@ -169,13 +173,17 @@ Choose “Hide default requirement panels” if you don’t want to display the 
  
 NOTE: There will be no data until the Resource Requirements are created.  These will need to be manually created or setup a workflow to auto create upon creation of a Lead.  
 Screenshot of
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
-
-## Add a requirement view to the schedule board
 
 ## Configuration considerations
 - schedule onsite leads and custom entities 
-- 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
 ## Additional Notes
 - If the entity that you want to enable for scheduling is not displayed, you have to check the Managed Properties settings for that entity. If by chance the "Can be customized" setting is set to False, then that's the reason why the entity is not being displayed. This is true even if the entity is in unmanaged state (development environment). Another strange issue I've faced (and thanks to MS support I'd been able to fix) is changing that flag to False. The steps to solve this issue is creating a solution patch (using Clone as patch feature) from the solution that contains the custom entity. Then add that entity to the patch, update the Can be customized flag to True and publish entity. Then you can delete the patch.
 
