@@ -188,13 +188,19 @@ Choose “Hide default requirement panels” if you don’t want to display the 
 ## Configuration considerations
 ### Onsite Leads
 
-If resources must perform work on site at the customer's location and travel time and distances should be considered when scheduling, it is recommended to use the Work order entity as it is designed for on site service. However if you would like to use Leads 
+If resources must perform work on site at the customer's location and travel time and distances should be considered when scheduling, it is recommended to use the Work Order entity as it is designed for on site service. However if you would like to schedule leads to be performed on site:
 
-- schedule onsite leads and custom entities 
-- BSM for default lat and long
+1. Create a Lead
+2. Create a related resource requirement
+3. On the requirement, set **Work Location** to **Onsite**
+4. On the requirement, add **Latitude** and **Longitude** values. These serve as the Lead location and can be compared to the locations of resources in the system during scheduling.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/scheduling-enable-entity-onsite-lead.png)
+1. (Optional) Consider going to the Lead Booking Setup Metadata (BCM) and adding a default Work Location for when lead requirements are related and mapping requirement latitude and longitude fields to lead latitude and longitude fields for auto population. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-enable-entity-onsite-lead-bsm.png)
 
 
 ## Additional Notes
