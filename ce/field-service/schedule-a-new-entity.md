@@ -40,29 +40,36 @@ To configure this scenario, we will show how to enable the **Lead** entity for s
 
 ## Prerequisites
 - Field Service v6.1+
-- Logged in as a user with Field Service - Administrator or System Administrator security roles.
-
-> [!Note]
->
+- Logged in as a user with **Field Service - Administrator** or **System Administrator** security roles.
 
 
 ## Enable an entity for scheduling 
 
-To enable an entity to be scheduled, navigate to the Administration section of Universal Resource Scheduling: Enable Resource Scheduling for Entities.
+To enable an entity for scheduling, navigate to **Resource Scheduling > Administration > Enable Resource Scheduling for Entities**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/enablescheduling.jpg)
  
- 
-When choosing to add a new Entity, pick the Entity with the Add Entity drop down.  Choose Create New Relationship for both Booking and Requirement Relationship.  This will create the necessary relationships to the Bookable Resource Booking entity and the Resource Requirement entity.  
+On the right is a list of entities that have been enabled for scheduling. Appointments, Projects, and Work Orders are enabled for scheduling by default if you have Field Service and Project Service Automation solutions installed.
+
+On the left is the process to enable a new entity for scheduling. 
+
+**Add Entity:** select the entity from the list fo entities in your Dynamics organization. In this example we will choose the **Lead** entity.
+
+**Booking Relationship:** Select "Create New Relationship"
+
+**Requirement Relationship:** Select "Create New Relationship"
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/enableleads.jpg)
+
+> [!Note]
+> If you have previously created relationships from the entity to the Bookable Resource Booking or Resource Requirement entities then they can be selected here as well. 
  
-Once selected, click Publish Customizations.  
- 
-To make changes to the settings for booking this entity, double-click on the Entity in the Enabled Entities section.  Defaults and scheduling options for the entity can be manipulated to assist with creating Resource Requirements.  
+Next, click **Publish Customizations**.  
+
+To edit settings for how Leads are booked, double-click Leads once it appears in the Enabled Entities section. As an example, defaults booking statuses and other scheduling options can be edited.
 
 
 > [!div class="mx-imgBorder"]
