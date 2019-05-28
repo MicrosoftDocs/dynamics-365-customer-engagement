@@ -34,7 +34,7 @@ Enabling an entity for scheduling allows dispatchers to schedule that entity via
 
 In this article we will show how to enable an entity for scheduling and utilize the entity on the schedule board. 
 
-**Scenario:** A solar panel company must perform consultations over the phone and on site at their customers' homes before installing solar panels because details regarding the home's structure, location, and local laws need to be discussed as part of the qualification process before a solar panel installation can take place. The solar panel company would like to use the schedule board and other scheduling tools to assign leads to appropriate sales resources to perform the consultation and qualification process with potential customers. 
+**Scenario:** A solar panel company must perform consultations over the phone and on site at their customers' homes before a solar panel installation can take place because details regarding the home's structure, location, and local laws need to be discussed as part of the qualification process. The solar panel company would like to use the schedule board and other scheduling tools to assign leads to appropriate sales resources to perform the consultation and qualification process with potential customers. 
 
 To configure this scenario, we will show how to enable the **Lead** entity for scheduling and add a new requirement view to the schedule board that specifically relates to Lead resource requirements. 
 
