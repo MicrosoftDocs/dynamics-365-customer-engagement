@@ -197,14 +197,20 @@ If resources must perform work on site at the customer's location and travel tim
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-enable-entity-onsite-lead.png)
-1. (Optional) Consider going to the Lead Booking Setup Metadata (BCM) and adding a default Work Location for when lead requirements are related and mapping requirement latitude and longitude fields to lead latitude and longitude fields for auto population. 
+5. (Optional) Consider going to the Lead Booking Setup Metadata (BCM) and adding a default Work Location for when lead requirements are related and mapping requirement latitude and longitude fields to lead latitude and longitude fields for auto population. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-enable-entity-onsite-lead-bsm.png)
 
 
 ## Additional Notes
-- If the entity that you want to enable for scheduling is not displayed, you have to check the Managed Properties settings for that entity. If by chance the "Can be customized" setting is set to False, then that's the reason why the entity is not being displayed. This is true even if the entity is in unmanaged state (development environment). Another strange issue I've faced (and thanks to MS support I'd been able to fix) is changing that flag to False. The steps to solve this issue is creating a solution patch (using Clone as patch feature) from the solution that contains the custom entity. Then add that entity to the patch, update the Can be customized flag to True and publish entity. Then you can delete the patch.
-- To turn off scheduling for the entity, on the command bar, click DEACTIVATE. On the Confirm Deactivation dialog box, click Deactivate.
+If the entity you want to enable for scheduling is not displayed in the Add Entity list,  go to the Managed Properties of the entity (Settings > Customizations) and set the **Can be customized** setting to **True**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/enableleads.jpg)
+
+
+- To turn off scheduling for a previously enabled entity, click DEACTIVATE in the ribbon of the Booking Setup Metadata (BSM) record.
+
 
 
