@@ -131,14 +131,6 @@ Where:
 > [!NOTE]
 > For N:N relations, no field value is shown. That means that if you have more than one N:N relation between the same two entities, you'll see multiple identical-looking relations in the drop-down list. This situation is very rare, but if you see it, you'll have to use trial-and-error to identify the correct relation to use. To confirm, you can check the [resulting expression](#assist-edit-expressions) to see if it looks like you chose the right relation (relations are shown differently here and may provide a clue), or set up a test message that includes both versions of the N:N relation and use a test customer journey to deliver it to yourself.
 
-> [!NOTE]
-> On some Dynamics 365 for Marketing instances, you may see a slightly longer format being used to represent relations in assist-edit. This format repeats one of the entities, such as the following:
-> 
-> **N:1:** *FieldName SecondaryEntity (PrimaryEntity) -> SecondaryEntity*  
-> **1:N:** *PrimaryEntity -> FieldName PrimaryEntity (SecondaryEntity)*
->  
-> If you see this, it's because your instance is still using a previous version of one of the marketing services. Your instance should be updated automatically some time during the next few months. Other than this repeated entity name shown in assist-edit, the relations will work the same as described previously, and the [resulting expressions](#assist-edit-expressions) will be identical.
-
 Here are a few examples:
 
 - **Company Name (Contact) -> Account**: This relationship is used by the **Contact** entity to display information from the **Account** entity in a contact record's **Company Name** field. In other words, it links to the company (account) that the contact works for.
