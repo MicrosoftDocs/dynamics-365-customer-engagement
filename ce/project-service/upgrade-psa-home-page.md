@@ -31,15 +31,18 @@ As of May 17th 2019, whenever a new Org is being provisioned, **PSA v3.x will be
 Also, as of May 17th 2019, if customers that have an instance with the legacy PSA v2.x need to upgrade to PSA 3.x (UCI-based version of PSA), you will need to contact support with your instance details so support can enable your Org for upgrade to 3.x or UCI based Project Service application.
 > [!NOTE]
 >The release of Project Service Automation (PSA) version 3.x includes significant changes. This release is built on the Unified Interface framework for an improved user experience. The redesigned app delivers a consistent, uniform user interface, and follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application including changes to pricing, booking and assigning resources, time, expenses, and approvals.  
-> If the identified instance has both Field Service and Project Service installed, plan to upgrade both solutions before you resume normal use of the instance. 
+
+
 > Before you begin your upgrade process, we recommend the following:
-> Carefully review the “What’s new or changed in Project Service Automation version 3” and “Upgrade considerations” topics listed below. An awareness and understanding of the changes between versions will help you with the upgrade process.
+
+>1.  Check if the identified instance has both Field Service and Project Service installed, if so, plan to upgrade both solutions before you resume normal use of the instance.  
+>2. Carefully review the “What’s new or changed in Project Service Automation version 3” and “Upgrade considerations” topics listed below. An awareness and understanding of the changes between versions will help you with the upgrade process.
 The following topics provide information about the major changes in PSA, along with considerations and recommendations for planning your upgrade to version 3.x.
 
 >- [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
 >- [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
  
->- Upgrade your sandbox instance to evaluate the changes on your implementation before you upgrade your production instance.
+>2. Upgrade your sandbox instance to evaluate the changes on your implementation before you upgrade your production instance.
 
 Once you have reviewed all the materials above and are ready to upgrade to PSA 3.x or UCI-based version, please submit a request with MS support i.e log a support ticket with the details of your instance to make the upgrade available from Admin center.
  
