@@ -26,6 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## Upgrade from Project Service Automation version 2.x or 1.x to version 3.x
+
 **New Orgs**
 
 As of May 17th 2019, whenever a new Org is being provisioned, **PSA v3.x will be the default PSA version** installed during the provisioning process. 
@@ -50,7 +51,7 @@ The following topics provide information about the major changes in PSA, along w
 
 Once you have reviewed all the materials above and are ready to upgrade to PSA 3.x or UCI-based version, please submit a request with MS support i.e log a support ticket with the details of your instance to make the upgrade available from Admin center.
  
-**Getting legacy versions of FS and PSA (FS v7.x and PSA v3.x) enabled on a new UCI Org:** 
+## Getting legacy versions of FS and PSA (FS v7.x and PSA v3.x) enabled on a new UCI Org:
 
 As of May 17th, 2019, all new Orgs will have UCI as the default client. In line with that, the default PSA and FS versions that will get provisioned will be 3.x and 8.x respectiviely as these versions are designed to work with the UCI client. If you are creating a new Org and want it with the legacy version of FS and PSA (FS v7.x or PSA v2.x), please make sure that you do not select PSA or FS duirng the Org provisioning process. Instead, once the Org is provisioned, please log a support ticket that has your instance details so support can enable your org for legacy versions of FS and PSA. 
 > [!NOTE]
