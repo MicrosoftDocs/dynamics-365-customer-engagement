@@ -26,7 +26,11 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## Upgrade from Project Service Automation version 2.x or 1.x to version 3.x
+**New Orgs**
+
 As of May 17th 2019, whenever a new Org is being provisioned, **PSA v3.x will be the default PSA version** installed during the provisioning process. 
+
+**Existing Orgs**
 
 Also, as of May 17th 2019, if customers that have an instance with the legacy PSA v2.x need to upgrade to PSA 3.x (UCI-based version of PSA), you will need to contact support with your instance details so support can enable your Org for upgrade to 3.x or UCI based Project Service application.
 > [!NOTE]
@@ -42,7 +46,7 @@ The following topics provide information about the major changes in PSA, along w
 >- [What's new or changed in Project Service Automation version 3](whats-new-changed-v3.md)
 >- [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
  
->2. Upgrade your sandbox instance to evaluate the changes on your implementation before you upgrade your production instance.
+>3. Upgrade your sandbox instance to evaluate the changes on your implementation before you upgrade your production instance.
 
 Once you have reviewed all the materials above and are ready to upgrade to PSA 3.x or UCI-based version, please submit a request with MS support i.e log a support ticket with the details of your instance to make the upgrade available from Admin center.
  
