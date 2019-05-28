@@ -31,10 +31,8 @@ search.app:
 
  After you create and import [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] templates into [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, with one click users can generate standardized documents automatically populated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data. This feature has some special considerations you should know about to successfully create [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates.  
 
-> [!NOTE]
+> [!TIP]
 > [![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Create documents directly from Dynamics CRM by using Word and Excel templates (2:38)](http://go.microsoft.com/fwlink/p/?LinkID=723604)  
-> 
-> Macro-enabled Microsoft Word documents (.docm) are not supported.
 
 > [!WARNING]
 >  There is a known issue when creating templates in [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]. This topic contains information on how to prevent interactions that could potentially destabilize [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)]. See: [Important! A known issue and how to avoid it](../admin/using-word-templates-dynamics-365.md#BKMK_Important)  
@@ -46,6 +44,9 @@ search.app:
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 |                                    Creating a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] template                                    |                              2013, 2016                               |
 | Using a [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] document generated in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps |                           2010, 2013, 2016                            |
+
+> [!NOTE]
+> Macro-enabled Word documents (.docm) are not supported.
 
  Follow the steps in this topic to successfully create and use [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
 
