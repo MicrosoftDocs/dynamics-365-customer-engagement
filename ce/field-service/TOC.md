@@ -47,6 +47,7 @@
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 
 ## Administration and configuration
+### [Enable an entity for scheduling](schedule-a-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
