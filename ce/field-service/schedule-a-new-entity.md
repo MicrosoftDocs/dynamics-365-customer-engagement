@@ -69,7 +69,7 @@ On the left is the process to enable a new entity for scheduling. 
  
 Next, click **Publish Customizations**.  
 
-To edit settings for how Leads are booked, double-click Leads once it appears in the Enabled Entities section. As an example, defaults booking statuses and other scheduling options can be edited.
+To edit settings for how Leads are booked, double-click Leads once it appears in the Enabled Entities section. As an example, default booking statuses and whether the entity is enabled for [Quick scheduling](./field-service/quick-scheduling.md) can be edited.
 
 
 > [!div class="mx-imgBorder"]
