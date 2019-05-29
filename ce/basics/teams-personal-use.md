@@ -31,10 +31,12 @@ You can use the Dynamics 365 app for Teams for your own use. If you want to work
 
 ## Naviagte to personal dashboard
  
-- From the Teams app > **More added apps** > **Dynamics 365** app.
+1. From the Teams app > **More added apps** > **Dynamics 365** app.
 
    > [!div class="mx-imgBorder"] 
    > ![Open the Dynamics 365 for Customer Engagement appsapp](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement appsapp")
+
+2. Select the **My Dashboard** tab to view.
 
 ## My Dashboard tab
 
