@@ -154,7 +154,7 @@ To view a consolidated file list across all document locations including all con
 Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share feature will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
 
 > [!NOTE]
-   >  The list below shows the logical name of an entity (not the dispaly name).
+   >  The list below shows the logical name of an entity (not the display name).
  
 - Account
 -	Agreement
