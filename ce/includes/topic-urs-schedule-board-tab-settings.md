@@ -320,3 +320,17 @@ One scenario this enables is performing additional resource filtering when the s
 ### Schedule Assistant Retrieve Constraints Query
 
 Here you will find XML that defines how resource records are filtered based on attributes from the requirement. Whereas Schedule Assistant Retrieve Resources Query can filter schedule assistant resources based on **resource** attributes, the schedule assistant retrieve constraints query can use **requirement** attributes to further filter resource results.
+
+## Requirement Panels
+
+Use this section to control the requirement views at the bottom of the schedule board. Select a requirement system view, enter a name, click the + to add it, then select Apply. After adding views, you can change the order they appear on the schedule board with the up and down arrows.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel.png)
+
+It will then appear in the lower panel.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel-add.png)
+
+Resource Scheduling and Field Service come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 
