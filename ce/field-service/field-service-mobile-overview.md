@@ -64,10 +64,6 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 - **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's particularly helpful for field technicians who wear protective gloves and can't type information into mobile forms.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service Mobile showing the dictation feature in action](./media/mobile-quick-facts-speech-text.png)
-
-
 - **Signature**: Capture a digital signature from a customer in the mobile form, often as approval of completed work. For more comprehensive and legally binding requirements, digital signature service providers can be integrated with.
 
 - **Email integration**: Access emails, calendars, events and contacts by enabling Exchange and other email providers on the mobile app without having to toggle to another mobile app.
