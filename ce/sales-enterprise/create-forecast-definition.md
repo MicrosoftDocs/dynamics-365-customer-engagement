@@ -35,13 +35,20 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
 Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
 
+Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 for Customer Engagement for sales forecast: 
+
+**Forecast manager**.  
+
+**Forecast user**. 
+
 ## Prerequisites
 
 Before creating a forecast definition, review the following requisites:
 
 - Administrator, forecast manager, or forecast user role is assigned to you.
-- All the users under your hierarchy are assigned forecast manager or forecast user role.
-- No users are disabled under your hierarchy when you publish the forecast definition.
+- Enable preview feature option. To learn more, see [How do I enable a preview feature](../admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature).
+- All the users under the selected hierarchy are assigned forecast manager or forecast user role. If not, the publishing of the forecast definition will fail. 
+- No users are disabled under the selected hierarchy when you publish the forecast definition. If not, the publishing of the forecast definition will fail. 
  
 ## Create forecast definition
 
@@ -55,9 +62,12 @@ Before creating a forecast definition, review the following requisites:
 
 5.	In the **General** section of the Forecast definition record, enter the following information:
 
-    -  **Forecast name**. Enter a descriptive name that explains what the forecast is about. For example, My team’s forecast.
+    -  **Forecast name**. Enter a descriptive name that explains what the forecast is about. For example, Jane’s team’s 2019 Quarterly Forecast.
 
     -  **Forecast metric**. Select a metric for forecasting. It is a lookup to the **Goal metric** entity. The field that you select here is used in aggregating data for the forecast. Only the opportunity fields of type amount (revenue) are available for selection. 
+        
+        > [!NOTE]
+        > By default, the out-of-the-box **Revenue Metric** is selected.
     
     -  **Quota source**. Select whether the targets used for the purpose of forecasting will be based on existing goals or manual targets. If this is set to Goal based, then when the forecast is being generated, the system looks for the matching goal based on the forecast metric and rollup query In-progress (Money) you’ve selected and the Goal owner, and uses the quota/target defined in the goal.
 
@@ -65,7 +75,7 @@ Before creating a forecast definition, review the following requisites:
 
         > [!NOTE]
         > Only the rollup queries with opportunity as the parent entity are available and valid for selection.
-    - **Owner**. If you are creating the forecast definition for yourself, choose your name as owner. Otherwise, choose the username for whom you are creating the forecast definition. Based on the hierarchy of the selected username the forecast definition is created.
+    - **Owner**. If you are creating the forecast definition for yourself, choose your name as owner. Otherwise, choose the username for whom you are creating the forecast definition. This user acts as the top of the forecast hierarchy. Based on the user hierarchy (as defined by the Manager field of the User object) a forecast is created for all child users.
 
         For example, Bert Hair (manager) requests Wade Roque (reports to Bert) to create a forecast definition for Bert. While creating the forecast definition, Wade selects Bert Hair as the owner so the forecast definition is created based on the Bert's hierarchy. 
 
