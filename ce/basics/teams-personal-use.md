@@ -2,7 +2,7 @@
 title: "Use the personal dashboard| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal dashboard."
-ms.date: 4/30/2019
+ms.date: 5/30/2019
 ms.reviewer: ""
 ms.service: crm-online
 ms.suite: ""
@@ -29,9 +29,7 @@ search.app:
 
 You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
-## Conversation tab
 
-Select the **Conversation** tab to access the bot as described above.
 
 ## My Dashboard tab
 
