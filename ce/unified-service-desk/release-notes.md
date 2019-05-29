@@ -337,7 +337,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
   If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
 
-  To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
+  To enable **HelpImproveUsd**, view [Improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
@@ -496,6 +496,6 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 
 [Performance enhancement for CRM entity page loads](admin/performance-enhancement-CRM-entity-page-loads.md)
 
-[Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
+[Improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
 
 ::: moniker-end

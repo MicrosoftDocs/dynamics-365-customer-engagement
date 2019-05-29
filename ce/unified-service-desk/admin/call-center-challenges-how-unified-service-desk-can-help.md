@@ -82,5 +82,5 @@ Before you start with [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/
   
 ### See also  
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
- [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)   
+ [Components of Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)   
  [Learn to use Unified Service Desk](../../unified-service-desk/learn-to-use-unified-service-desk.md)

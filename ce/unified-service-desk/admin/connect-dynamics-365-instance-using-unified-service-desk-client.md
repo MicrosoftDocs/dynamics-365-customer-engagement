@@ -200,4 +200,4 @@ To enable/disable the SSO feature, follow the steps:
  [Manage access in Unified Service Desk](../../unified-service-desk/admin/security-unified-service-desk.md)   
  [Learn to use Unified Service Desk](../../unified-service-desk/learn-to-use-unified-service-desk.md)   
  [Unified Service Desk Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+ [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)

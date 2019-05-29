@@ -3,7 +3,7 @@ title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 for Cus
 description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 for Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

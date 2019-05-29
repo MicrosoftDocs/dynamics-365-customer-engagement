@@ -1,7 +1,7 @@
 ---
 title: "Field level security for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/25/2019
+ms.date: 05/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -119,9 +119,18 @@ Any Dynamics 365 for Customer Engagement apps users not defined in the previousl
   
 <a name="BKMK_FLS_fields"></a>   
 ## Which fields can be secured?  
- Every field in the system contains a setting for whether field security is allowed. You can view this in the Customizations area of the web application. 
+ Every field in the system contains a setting for whether field security is allowed. You can view this in the field definition from Solution Explorer. In Solution Explorer expand **Entities**, expand the entity that you want, select **Fields**, and then open the field that you want. If **Enable** can be selected, the field can be enabled for field security. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/field-security-enabled.png "Field security enabled")
  
-There are thousands of attributes that can be secured, so there are two easier ways to look for this information. To view the entity metadata for your organization, install the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
+Although most attributes can be secured, there are system attributes, such as IDs, timestamps, and record tracking attributes, that can't. Below are a few examples of attributes that can't be enabled for field security. 
+-	ownerid, processid, stageid, accountid, contactid
+-	createdby, modifiedby, OwningTeam, OwningUser
+- createdon, EntityImage_Timestamp, modifiedon, OnHoldTime, overriddencreatedon
+-	statecode, statuscode
+
+You can view the entity metadata for your organization including which fields can be enabled for field security, by installing the Metadata Browser solution described in [Browse the Metadata for Your Organization](../developer/browse-your-metadata.md). You can also view the metadata for an uncustomized organization in the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] file called EntityMetadata.xlsx included in the top-level folder of the SDK. [Download the Microsoft Dynamics 365 for Customer Engagement apps SDK](http://go.microsoft.com/fwlink/p/?LinkId=691153)  
    
 <a name="BKMK_FLSbestprac"></a>   
 ## Best practices when you use field security  
