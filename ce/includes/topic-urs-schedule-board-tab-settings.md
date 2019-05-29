@@ -244,33 +244,32 @@ For more details on editing filter layouts, resource cell templates, and client 
 
 ## Schedule Types
 
+The following settings are dependent on the entity that is being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or not related to any at all. First select the scheduleable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
+
 ### Booking Tooltips View
 
-hover over booking
-
+Select the system view that dictates the fields displayed when hovering your mouse over a booking.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-tooltips-view.png)
 
 ### Booking Details View
 
-select a booking
-
+Select the system view that dictates the fields displayed in the Details pane when a booking is selected.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-details-view.png)
 
 ### Schedule Assistant Requirement View
 
-Defines fields displayed in lower panel
-
+Select the system view that dictates the fields displayed in the lower pane when the schedule assistant is triggered for an individual requirement from the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-requirement-view.png)
 
 ### Requirement Details View
 
-when you select a requirement in lower pane, the view displaye din details view
+Select the system view that dictates the fields displayed in the Details pane when a requirement is selected in the lower pane of the schedule board.
 
 
 > [!div class="mx-imgBorder"]
@@ -278,26 +277,46 @@ when you select a requirement in lower pane, the view displaye din details view
 
 ### Requirement Map Pin Tooltips View
 
-hover over a map pin
+Select the system view that dictates the fields displayed when hovering your mouse over a requirement map pin.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-map-pin-tooltip.png)
 
 ### Booking Template
 
-fields in the booking HTML and CSS
+HTML and CSS that controls the fields inside a booking time slot on the schedule board.
 
+Here is the default Work Order HTML,
+
+    <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
+
+that results in the following:
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-template.png)
 
+
 > [!Note]
-> The following Schedule Types settings can only be edited from the default settings 
+> The following Schedule Types settings can only be edited from the default settings. 
 
 ### Schedule Assistant Filter Layout
 
+This controls the fields displayed in the filter pane on the left-hand side of the schedule assistant. These fields are used to filter which resources are displayed in schedule assistant results. A common example is the default values for Search Start and Search End.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-filter-layout.png)
+
 ### Schedule Assistant Resource Cell Template
+
+This controls the images, values, fields displayed in the box that holds the resource's name and utilization in the schedule assistant.
 
 ### Schedule Assistant Retrieve Resources Query
 
+Here you will find XML that defines how resource records are fetched, filtered, and sorted when the schedule assistant is triggered. **Schedule Assistant Retrieve Resources Query** can use schedule assistant filter layout and schedule assistant resource cell templates to perform filtering and sorting in the background. 
+
+One scenario this enables is performing additional resource filtering when the schedule assistant is triggered without input from the dispatcher.
+
 ### Schedule Assistant Retrieve Constraints Query
+
+Here you will find XML that defines how resource records are filtered based on attributes from the requirement. Whereas Schedule Assistant Retrieve Resources Query can filter schedule assistant resources based on **resource** attributes, the schedule assistant retrieve constraints query can use **requirement** attributes to further filter resource results.
