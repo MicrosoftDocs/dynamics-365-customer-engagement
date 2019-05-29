@@ -2,7 +2,7 @@
 title: "Discontinuation of Microsoft Social Engagement | Microsoft Docs"
 description: "Information about the discontinuation of the Microsoft Social Engagement service."
 keywords: "discontinuation, MSE, AI for Market Insights"
-ms.date: 05/28/2019
+ms.date: 05/29/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -41,9 +41,9 @@ The announcement will be communicated through periodic customer emails and exist
 
 ###	What is the recommended path for Microsoft Social Engagement customers and prospects?
 
-If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview the United States web data based email alerts in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
+If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview the US web-data-based email alerts in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
 
-<!--note from editor: Line 44: Not sure what is modifying what in the phrase "United States web data based email alerts." Change to "email alerts based on web data". Not sure what the "United States" is modifying--is this a version that is available only in the United States?   -->
+<!--note from editor: Line 44: Change "the US web-data-based email alerts" to "email alerts based on US web data" ? -->
 
 
 
@@ -59,7 +59,7 @@ Any customers with the following license entitlements will be impacted.
 - Dynamics 365 for Field Service 	
 - Dynamics 365 for Project Service Automation	
 - Dynamics 365 for Marketing	
-- Dynamics 365 Customer Engagement Plan	
+- Dynamics 365 for Customer Engagement Plan	
 - Dynamics 365 Plan	
 
 **Legacy Licenses**
