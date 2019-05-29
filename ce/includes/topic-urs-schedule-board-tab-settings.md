@@ -251,21 +251,21 @@ The following settings are dependent on the entity that is being scheduled. Thou
 Select the system view that dictates the fields displayed when hovering your mouse over a booking.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-tooltips-view.png)
+> ![Screenshot of Booking Tooltips View](../field-service/media/scheduling-schedule-board-tab-settings-booking-tooltips-view.png)
 
 ### Booking Details View
 
 Select the system view that dictates the fields displayed in the Details pane when a booking is selected.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-details-view.png)
+> ![Screenshot of Booking Details View](../field-service/media/scheduling-schedule-board-tab-settings-booking-details-view.png)
 
 ### Schedule Assistant Requirement View
 
 Select the system view that dictates the fields displayed in the lower pane when the schedule assistant is triggered for an individual requirement from the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-requirement-view.png)
+> ![Screenshot of Schedule Assistant Requirement View](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-requirement-view.png)
 
 ### Requirement Details View
 
@@ -273,14 +273,14 @@ Select the system view that dictates the fields displayed in the Details pane wh
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-details-view.png)
+> ![Screenshot of Requirement Details View](../field-service/media/scheduling-schedule-board-tab-settings-requirement-details-view.png)
 
 ### Requirement Map Pin Tooltips View
 
 Select the system view that dictates the fields displayed when hovering your mouse over a requirement map pin.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-map-pin-tooltip.png)
+> ![Screenshot of Requirement Map Pin Tooltips View](../field-service/media/scheduling-schedule-board-tab-settings-requirement-map-pin-tooltip.png)
 
 ### Booking Template
 
@@ -293,7 +293,7 @@ Here is the default Work Order HTML,
 that results in the following:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-template.png)
+> ![Screenshot of Booking Template](../field-service/media/scheduling-schedule-board-tab-settings-booking-template.png)
 
 
 > [!Note]
@@ -305,7 +305,7 @@ This controls the fields displayed in the filter pane on the left-hand side of t
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-filter-layout.png)
+> ![Screenshot of Schedule Assistant Filter Layout](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-filter-layout.png)
 
 ### Schedule Assistant Resource Cell Template
 
@@ -326,11 +326,11 @@ Here you will find XML that defines how resource records are filtered based on a
 Use this section to control the requirement views at the bottom of the schedule board. Select a requirement system view, enter a name, click the + to add it, then select Apply. After adding views, you can change the order they appear on the schedule board with the up and down arrows.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel.png)
+> ![Screenshot of adding a new Requirement Panel](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel.png)
 
 It will then appear in the lower panel.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel-add.png)
+> ![Screenshot of Requirement Panels](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel-add.png)
 
 Resource Scheduling and Field Service come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 
