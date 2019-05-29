@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams 
+# Microsoft Teams integration with Dynamics 365 for Customer Engagement apps
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
