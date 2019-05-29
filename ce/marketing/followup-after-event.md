@@ -36,6 +36,8 @@ After an event is over, you'll want to evaluate how it went and start following 
 
 To promote the survey, you might create a marketing email message that links to it and deliver that message to a segment of attendees that you've set up. You might even provide an incentive for submitting the survey, such as a free download. You can include this message in the same customer journey that you used to promote the event, but use trigger and scheduler tiles to ensure the message is only sent after the event, and only to people who attended.
 
+[!INCLUDE [cc-marketing-surveys-disclaimer](../includes/cc-marketing-surveys-disclaimer.md)]
+
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
 - [Create and run online surveys](surveys.md).

@@ -132,6 +132,8 @@ Use the **Properties** tab to establish the appearance of your new or selected b
 > [!NOTE]
 > Surveys are optional. If your system admin decided not to include Voice of the Customer as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then the survey element will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
 
+[!INCLUDE [cc-marketing-surveys-disclaimer](../includes/cc-marketing-surveys-disclaimer.md)]
+
 ## The form element for marketing pages
 
 This section describes the form element, which is only available when you are designing a marketing page. This is currently the only element that is unique for marketing pages.
