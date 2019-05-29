@@ -42,7 +42,7 @@ The following data is stored with Dynamics 365 for Customer Engagement apps inte
 
 You can [contact support](../admin/contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 for Customer Engagement apps support.
 
-For more information on how to install Windows PowerShell, [Azure ActiveDirectory](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
+For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 |Command  |Comment  |
 |---------|---------|
