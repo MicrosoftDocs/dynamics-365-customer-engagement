@@ -231,7 +231,7 @@ This controls the images, values, fields displayed in the box that holds the res
 
 ### Retrieve Resources Query
 
-Here you will find XML that basically defines how resource records are fetched,filtered, and sorted when the schedule board loads. **Retrieve Resources Query** can use filter layout and resource cell templates to perform filtering and sorting in the background. 
+Here you will find XML that basically defines how resource records are fetched, filtered, and sorted when the schedule board loads. **Retrieve Resources Query** can use filter layout and resource cell templates to perform filtering and sorting in the background. 
 
 One scenario this enables is filtering resources without having to expose the filter field in the filter layout. Instead, the filtering happens in the background as the schedule board loads, without additional input from the dispatcher. 
 
@@ -246,23 +246,58 @@ For more details on editing filter layouts, resource cell templates, and client 
 
 ### Booking Tooltips View
 
-Booking Details VIew
+hover over booking
 
-Schedule Assistant Requirement View
 
-Requirement Details View
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-tooltips-view.png)
 
-Requirement Map Pin Tooltips View
+### Booking Details View
 
-Booking Template
+select a booking
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-details-view.png)
+
+### Schedule Assistant Requirement View
+
+Defines fields displayed in lower panel
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-requirement-view.png)
+
+### Requirement Details View
+
+when you select a requirement in lower pane, the view displaye din details view
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-details-view.png)
+
+### Requirement Map Pin Tooltips View
+
+hover over a map pin
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-requirement-map-pin-tooltip.png)
+
+### Booking Template
+
+fields in the booking HTML and CSS
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](../field-service/media/scheduling-schedule-board-tab-settings-booking-template.png)
 
 > [!Note]
-> The following Schedule Types settings only display in the Default Settings of Schedule Board Tabs
+> The following Schedule Types settings can only be edited from the default settings 
 
-Schedule Assistant Filter Layout
+### Schedule Assistant Filter Layout
 
-Schedule Assistant Resource Cell Template
+### Schedule Assistant Resource Cell Template
 
-Schedule Assistant Retrieve Resources Query
+### Schedule Assistant Retrieve Resources Query
 
-Schedule Assistant Retrieve Constraints Query
+### Schedule Assistant Retrieve Constraints Query
