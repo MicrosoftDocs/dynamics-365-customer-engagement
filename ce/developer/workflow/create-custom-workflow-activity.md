@@ -98,14 +98,15 @@ This topic describes how to create a custom workflow activity and register it fo
   
  To specify the name and group name for a custom workflow activity, use the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes when you register the custom workflow activity assembly. For more information about registering custom workflow activities, see [Registering the Workflow Assembly](register-use-custom-workflow-activity-assembly.md). If the `PluginType.Name` and `PluginType.WorkflowActivityGroupName` attributes are set to **null**, the custom activity is hidden from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] workflow designer and is only accessible from XAML workflows.  
   
- If you are using the Plug-in Registration tool to register the custom workflow activity assembly, you can specify appropriate values in the **Name** and **WorkflowActivityGroupName** boxes, under the **Editable** region. For more information about using the Plug-in Registration tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
+ When using the Plug-in Registration tool to register the custom workflow activity assembly, you must specify appropriate values in the **Name** and **WorkflowActivityGroupName** property fields after selecting the registered assembly in the listing. Those fields are located in the **Properties** tab under the **Editable** region. For more information about using the Plug-in Registration tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
   
- ![Specify the Group Name and Name while registering](../media/process-name-workflow-activity.png "Specify the Group Name and Name while registering")  
+ ![Specify the Group Name and Name while registering](../media/custom-workflow-activity-property-settings.png "Specify the Group Name and Name while registering")  
   
  After this custom workflow activity is registered, you can use it from the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] process designer for workflows or dialogs. For more information, see [Register and Use a Custom Workflow Activity Assembly](register-use-custom-workflow-activity-assembly.md).  
   
 ### See also
 
+ [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions)  
  [Custom workflow activities (workflow assemblies)](../custom-workflow-activities-workflow-assemblies.md)   
  [Adding Metadata to the Custom Workflow Activity](add-metadata-custom-workflow-activity.md)   
  [Using the IOrganization Web Service within a Custom Workflow Activity](use-iorganization-web-service-custom-workflow-activity.md)   

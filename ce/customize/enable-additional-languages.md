@@ -1,7 +1,7 @@
 ---
 title: "Enable additional languages (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/03/2017
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,11 +24,11 @@ search.app:
 <a name="BKMK_Localization"></a>   
 # Enable additional languages 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
  
  If your organization has people who use a language other than the base language you chose when you deployed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can add more languages.  
   
- For [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you’ll find all the languages are already installed; you just need to enable them.  
+ Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../on-premises/install-or-upgrade-language-packs.md) 
   
 > [!NOTE]
 >  Enabling a language can take several minutes. During this time, people might not be able to use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  

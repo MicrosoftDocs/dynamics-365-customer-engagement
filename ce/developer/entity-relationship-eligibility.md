@@ -45,5 +45,4 @@ Before you create an entity relationship you should confirm whether the entity i
  [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
- [Create a 1:N Entity Relationship](org-service/create-retrieve-entity-relationships.md#BKMK_Create1NEntityRelationship)   
- [Create an N:N Entity Relationship](org-service/create-retrieve-entity-relationships.md#BKMK_CreateNNEntityRelationship)
+ [Create one-to-many or many-to-one entity relationships overview](/powerapps/maker/common-data-service/create-edit-1n-relationships)

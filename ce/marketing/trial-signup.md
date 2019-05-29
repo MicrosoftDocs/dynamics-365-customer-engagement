@@ -26,16 +26,16 @@ search.app:
   - D365Mktg
 ---
 
-# Sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+# Sign up for a free trial of Dynamics 365 for Marketing
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can sing up for, install, and use a trial version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free.
+You can sign up for, install, and use a trial version of Dynamics 365 for Marketing for free.
 
 > [!IMPORTANT]
 > - You will receive a trial [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance together with your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You must run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial instance, and can't install it on a production instance.
 > - You can install, at most, one [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial per Microsoft 365 tenant.
-> - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+> - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 for Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
 > [!IMPORTANT]
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can market to, monthly email messages you can send, Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.
@@ -43,41 +43,36 @@ You can sing up for, install, and use a trial version of [!INCLUDE[pn-marketing-
 > - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 > - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
 > 
-> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
+> You can keep an eye on your usage levels by going to  **Settings**  >  **Advanced settings**  >  **Other settings**  >  **Quota limits**  in Dynamics 365 for Marketing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
+
+> [!NOTE]
+> If would like help setting up a trial, or if you would prefer to get a guided demo, go to the [Get started with Dynamics 365 for Marketing](https://dynamics.microsoft.com/get-started/?appname=marketing) page and then fill out and submit the **Request a call back** form. You will soon be contacted by a Dynamics 365 sales representative who can help you. To set up your own trial without personal assistance, continue reading this topic.
 
 <a name="choose-tenant"></a>
 
 ## Step 1: Choose or prepare your Microsoft 365 tenant
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a cloud-based application that runs on a *Microsoft 365 tenant*. Your tenant hosts your cloud applications (including [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]), provides user and license management, and much more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (which is a tenant where Azure Active Directory (Azure AD) is available), an unmanaged tenant, or no tenant at all. Nearly all organizations that already use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] or [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have managed tenants, but if your organization doesn't currently use any [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services (or have only ever set up a trial tenant), then you must set up a managed trial tenant first. Do one of the following:
+Dynamics 365 for Marketing is a cloud-based application that runs on a *Microsoft 365 tenant*. Your tenant hosts your cloud applications (including [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]), provides user and license management, and much more. The procedure for setting up your trial depends on whether you already have a *managed* tenant (which is a tenant where Azure Active Directory (Azure AD) is available), an unmanaged tenant, or no tenant at all. Nearly all organizations that already use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] or [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have managed tenants, but if your organization doesn't currently use any [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services (or have only ever set up a trial tenant), then you must set up a managed trial tenant first. Do one of the following:
 
-- *If you already have a managed tenant*, then you can install the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial there simply by requesting it. The trial setup installs a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] trial instance at the same time and configures [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] to run on that trial (you can't install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production instance of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]). Jump to [Step 2: Sign up for the Dynamics 365 for Marketing trial](#sign-up-marketing-trial) to continue.
-- *If you don't already have a Microsoft 365 tenant*, then you can set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial that creates its own managed trial tenant at the same time. We recommend that you sign up for an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] E3 trial, which you can do by going to [products.office.com/business/office-365-enterprise-e3-business-software](https://products.office.com/business/office-365-enterprise-e3-business-software). You can also purchase [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] from there.
-- *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed one as described in [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then conintue with [Step 2: Sign up for the Dynamics 365 for Marketing trial](#sign-up-marketing-trial).
+- *If you already have a managed tenant*, then you can install the Dynamics 365 for Marketing trial there simply by requesting it. The trial setup installs a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] trial instance at the same time and configures [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] to run on that trial (you can't install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production instance of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]). Jump to [Step 2: Install the Dynamics 365 for Marketing trial on your tenant](#install-on-existing-tenant) to continue.
+- *If you don't already have a Microsoft 365 tenant*, then you can set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial that creates its own managed trial tenant at the same time. We recommend that you sign up for an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] E3 trial, which you can do by going to [products.office.com/business/office-365-enterprise-e3-business-software](https://products.office.com/business/office-365-enterprise-e3-business-software). You can also purchase [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] from there. When your trial tenant is ready, continue to [Step 2: Install the Dynamics 365 for Marketing trial on your tenant](#install-on-existing-tenant).
+- *If you already have an unmanaged tenant and prefer to continue using it*, then you must first convert it to a managed one as described in [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761). Then continue with [Step 2: Install the Dynamics 365 for Marketing trial on your tenant](#install-on-existing-tenant).
 
 If you try to install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on an unmanaged tenant, you'll see the following error message when you try to run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard:
 
 ![Unmanaged organization error](media/setup-ts-unmanaged-aad.png "Unmanaged organization error")
 
-<a name="sign-up-marketing-trial"></a>
-
-## Step 2: Sign up for the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial
-
-To sign up for the free [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial, go to the [Get started with Dynamics 365 for Marketing](https://dynamics.microsoft.com/get-started/?appname=marketing) page and then fill out and submit the **Request a call back** form.
-
-Soon after you submit the form, you'll be contacted by a Microsoft representative who will also send you a link that will help you add the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial to your tenant.
-
 <a name="install-on-existing-tenant"></a>
 
-## Step 3: Install the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial on your tenant
+## Step 2: Install the Dynamics 365 for Marketing trial on your tenant
 
-To install your trial:
+To install your trial on a managed tenant:
 
-1. Make sure you have a [managed tenant](#choose-tenant) available and have  [signed up for the Marketing trial](#sign-up-marketing-trial).
+1. Make sure you have a [managed tenant](#choose-tenant) available.
 
-1. Soon after you signed up for the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial, you should have received a link for adding trial to your tenant. Open that link.
+1. Go to the [Get started with Dynamics 365 for Marketing](https://dynamics.microsoft.com/get-started/?appname=marketing) page and select the **Sign up for a free trial** link to get started.
 
 1. Enter your email address and phone number in the fields provided. Use the email address that you normally use to sign into the tenant where you will install the Marketing trial (or the one created for you if you set up a trial tenant) and choose **Get Started**.    
     ![The Marketing trial tile](media/trial-signup-tile.png "The Marketing trial tile")
@@ -96,9 +91,9 @@ To install your trial:
 
 1. A third settings page now opens, asking for a few more consent permissions and your organization's physical street address.
 
-    - Carefully read the consent text shown for each check box, and follow the links to make sure you understand all the relevant issues. If you agree with the terms, then mark each check box as you go to indicate your consent. Some of these are optional, so you can still use the product without them, though the related features will be disabled. Other features are required, so you won't be able to use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] without agreeing to them.
+    - Carefully read the consent text shown for each check box, and follow the links to make sure you understand all the relevant issues. If you agree with the terms, then mark each check box as you go to indicate your consent. Some of these are optional, so you can still use the product without them, though the related features will be disabled. Other features are required, so you won't be able to use Dynamics 365 for Marketing without agreeing to them.
 
-    - Type the full physical street address for your organization in the field provided. All marketing email messages sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include the physical street address of your organization (among several other required elements). These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
+    - Type the full physical street address for your organization in the field provided. All marketing email messages sent by Dynamics 365 for Marketing must include the physical street address of your organization (among several other required elements). These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
 
     ![Provide consent and enter your postal address](media/trial-marketing-setup.png "Provide consent and enter your postal address")
 
@@ -125,7 +120,7 @@ If you set up a trial tenant and installed the Marketing trial there, then you s
 - A trial tenant.
 - A trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization installed on the trial tenant.
 - A trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3 license installed on the trial tenant.
-- A trial [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app installed on the trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org.
+- A trial Dynamics 365 for Marketing app installed on the trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org.
 
 The user account that you used to set it up is now:
 
@@ -175,5 +170,5 @@ Check the email inbox for the trial global admin. You should find a message tell
 1. Select the **Approve** link included in the email.
 2. The link opens in your browser, which should now be asking you to sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Sign in using the global admin account.
 
-You should now see an **Approved!** message. The system sends the new user an email that includes a link they can use to sign in to the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial using the password you chose for them.
-The new user is granted most user roles (including admin) in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you'd like to restrict access, then see [Assign a security role to a user](manage-users.md#assign-role) for instructions.
+You should now see an **Approved!** message. The system sends the new user an email that includes a link they can use to sign in to the Dynamics 365 for Marketing trial using the password you chose for them.
+The new user is granted most user roles (including admin) in Dynamics 365 for Marketing. If you'd like to restrict access, then see [Assign a security role to a user](manage-users.md#assign-role) for instructions.

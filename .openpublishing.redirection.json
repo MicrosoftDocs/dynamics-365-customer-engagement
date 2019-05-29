@@ -1,13 +1,819 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/migrate-online-onpremises.md",
+      "redirect_url": "help-additional-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/enable-document-suggestions.md",
+      "redirect_url": "admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/public-preview-automatically-suggest-knowledge-articles.md",
+      "redirect_url": "admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/public-preview-microsoft-cognitive-services-integration.md",
+      "redirect_url": "admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-insights/preview-retire.md",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/ai/customer-insights/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/assemblies-included-sdk.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/build-queries-fetchxml.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-construct-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/build-queries-with-linq-net-language-integrated-query.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/build-queries-with-linq-net-language-integrated-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/build-queries-with-queryexpression.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/build-queries-with-queryexpression",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/campaignactivityitem-intersect-entity-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/campaignitem-intersect-entity-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/create-custom-activity-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/create-custom-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/create-custom-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/create-custom-entity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/create-retrieve-entity-relationships.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/create-update-entity-emailed.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/create-update-entity-emailed",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/customize-global-option-sets.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/discovery-service-messages-request-response-classes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/discovery-service-methods.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/entity-attribute-naming-conventions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/extend-code-generation-tool.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/extend-code-generation-tool",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/fetchxml-schema.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/fetchxml-schema",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/fiscal-date-older-datetime-query-operators-fetchxml.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-fiscal-date-older-datetime-query-operators",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/handle-exceptions-code.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/handle-exceptions-code",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/helper-code-enumerations-option-sets.md",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/helper-code-serverconnection-class.md",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/helper-code-systemuserprovider-class.md",
+      "redirect_url": "https://github.com/Microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/insert-update-delete-order-global-option-set-options.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/linq-query-examples.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/linq-query-examples",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/listmember-intersect-entity-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/manage-duplicate-detection-create-update.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/run-duplicate-detection#detect-duplicates-during-create-and-update-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/messages-discovery-service.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/mix-early-late-bound-entities.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming#mix-early-and-late-bound",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/order-results-entity-attributes-linq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/order-results-entity-attributes-linq",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/organization-service-entities.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/browse-your-metadata",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/organization-service-messages.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/organization-service-methods.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/iorganizationservice-interface#iorganizationservice-methods",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/page-large-result-sets-linq.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/page-large-result-sets-linq",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/page-large-result-sets-with-fetchxml.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/page-large-result-sets-with-fetchxml",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/page-large-result-sets-with-queryexpression.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/page-large-result-sets-with-queryexpression",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/perform-specialized-operations-using-update.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/special-update-operation-behavior",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/query-hierarchical-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/query-hierarchical-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/reduce-potential-data-loss-using-optimistic-concurrency.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/optimistic-concurrency",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/retrieve-data-queries-sdk-assemblies.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-query-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/retrieve-records-many-to-many-relationships-intersect-entities.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/retrieve-update-delete-entities.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-retrieve-update-delete-entities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/role-privileges-intersect-entity-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-access-discovery-service.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/discovery-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-associate-records-early-bound.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-associate-disassociate",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-convert-date-time-behavior.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.convertdateandtimebehaviorrequest",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-convert-queries-fetch-queryexpression.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/convert-queries-fetch-queryexpression",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-custom-activity-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/create-custom-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-global-option-set.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-retrieve-entity-relationships.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-retrieve-update-delete-late-bound.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-update-delete",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-retrieve-update-delete-records-early-bound.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/early-bound-entity-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-update-emailable-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/work-activity-party-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-create-update-entity-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/create-custom-entity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-detect-multiple-duplicate-records.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/duplicate-detection-messages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-dump-attribute-metadata-file.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/dump-entity-metadata-file",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-dump-attribute-picklist-metadata-file.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/dump-entity-metadata-file",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-dump-entity-metadata-file.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/dump-entity-metadata-file",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-dump-entity-privilege-information-file.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/dump-entity-metadata-file",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-dump-entity-relationship-information-file.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-dump-global-option-set-information-file.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/enable-disable-duplicate-detection",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-execute-multiple-requests-transaction.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-executetransaction",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-execute-multiple-requests.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/execute-multiple-requests#example",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-impersonate-actonbehalfof-privilege.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/impersonate-another-user",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-query-metadata-detect-changes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-retrieve-multiple-querybyattribute-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-multiple-querybyattribute-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-retrieve-multiple-queryexpression-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-multiple-queryexpression-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-retrieve-records-intersect-table.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/retrieve-records-intersect-table",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-retrieve-with-one-to-many-relationship.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-relationshipmetadata#retrieve-entity-relationships",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-use-aggregation-fetchxml.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-aggregation-fetchxml",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/run-duplicate-detection",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-use-fetchxml-paging-cookie.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-fetchxml-paging-cookie",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-use-optimistic-concurrency-update-delete-operations.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-optimistic-concurrency-update-delete-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-use-organization-service-context.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/organizationservicecontext",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-use-queryexpression-with-a-paging-cookie.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/use-queryexpression-with-a-paging-cookie",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-validate-execute-saved-query.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/samples/validate-execute-saved-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/sample-work-global-option-sets.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-option-sets",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/start-managed-code-project-visual-studio.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/subscribe-sdk-assembly-updates-using-nuget.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/test-null-value.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/test-null-value",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/troubleshooting-error-handling.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/handle-exceptions-code",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/troubleshooting-tips.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/handle-exceptions-code",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-conditionexpression-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-conditionexpression-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-early-bound-entity-classes-associate-records.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-associate-disassociate",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-early-bound-entity-classes-code.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming#early-bound",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-early-bound-entity-classes-create-update-delete.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/organizationservicecontext",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-entity-class-add-update-associations-records.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-associate-disassociate",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-entity-class-create-update-delete.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/entity-operations-update-delete",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-fetchxml-aggregation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-aggregation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-fetchxml-construct-query.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-construct-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-filterexpression-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-filterexpression-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-late-bound-entity-class-code.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/early-bound-programming",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-late-bound-entity-class-linq-query.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-late-bound-entity-class-linq-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-left-outer-join-fetchxml-query-records-not-in.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-fetchxml-left-outer-join-query-records-not-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-left-outer-join-queryexpression-query-records-not-in.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-left-outer-join-queryexpression-query-records-not-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-linq-construct-query.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-linq-construct-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-messages-request-response-classes-execute-method.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-messages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-querybyattribute-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-querybyattribute-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-queryexpression-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-queryexpression-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-sample-helper-code.md",
+      "redirect_url": "get-started-managed-code-application-development",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-services-in-code.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-the-columnset-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/use-the-columnset-class",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/use-the-organizationservicecontext-class.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/organizationservicecontext",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/web-service-error-codes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/web-service-error-codes",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/work-attribute-metadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/org-service/metadata-attributemetadata",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/org-service/xrm-messages-organization-service.md",
+      "redirect_url": "https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/associate-disassociate-entities-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/compose-http-requests-handle-errors.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/compose-http-requests-handle-errors",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/create-entity-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/create-entity-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/create-update-entity-definitions-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/create-update-entity-definitions-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/create-update-entity-relationships-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/create-update-entity-relationships-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/execute-batch-operations-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/execute-batch-operations-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/get-started-dynamics-365-web-api-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/get-started-dynamics-365-web-api-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/get-started-web-api-client-side-javascript.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/get-started-web-api-client-side-javascript",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/impersonate-another-user-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/impersonate-another-user-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/manage-duplicate-detection-create-update.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/manage-duplicate-detection-create-update",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/perform-conditional-operations-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-conditional-operations-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/perform-operations-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/query-data-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/query-metadata-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-metadata-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/retrieve-and-execute-predefined-queries.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-and-execute-predefined-queries",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/retrieve-entity-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/retrieve-metadata-name-metadataid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-metadata-name-metadataid",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/retrieve-related-entities-query.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/simple-web-api-quick-start-sample-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/quick-start-console-app-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/start-web-api-project-visual-studio-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/start-web-api-project-visual-studio-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/update-delete-entities-using-web-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/use-web-api-actions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/use-web-api-functions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-functions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-basic-operations-sample-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-basic-operations-sample.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-basic-operations-sample",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-conditional-operations-sample-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-conditional-operations-sample-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-conditional-operations-sample.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-conditional-operations-sample",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-functions-actions-sample-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-functions-actions-sample-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-functions-actions-sample.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-functions-actions-sample",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-query-data-sample-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-query-data-sample-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-query-data-sample.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-query-data-sample",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-samples-client-side-javascript.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-samples-client-side-javascript",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-samples-csharp.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-samples-csharp",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-samples.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-samples",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/webapi/web-api-types-operations.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/web-api-types-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/configure-tracing-xrm-tooling.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/configure-tracing-xrm-tooling",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/sample-quick-start-xrm-tooling-api.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/sample-quick-start-xrm-tooling-api",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/sample-simplified-connection-quick-start.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/sample-simplified-connection-quick-start",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-crmserviceclient-constructors-connect.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-messages-executecrmorganizationrequest-method.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-messages-executecrmorganizationrequest-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-common-login-control-client-applications.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-create-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-create-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-delete-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-delete-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-execute-actions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-execute-actions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-retrieve-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-retrieve-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/xrm-tooling/use-xrm-tooling-update-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-update-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/set-up-work-order-sub-statuses.md",
+      "redirect_url": "work-order-status-booking-status",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/guidance/index.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/best-practices/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md",
+      "redirect_url": "setup-mobile-offline-for-admin",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/developer-guide.md",
+      "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/developer/developer-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales-enterprise/recalculateprice-action.md",
+      "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/developer/reference/recalculateprice-action",
+      "redirect_document_id": "false"
+    },
+
+    {
       "source_path": "ce/developer/disaster-recovery-online-customer-engagement.md",
       "redirect_url": "manage-deployment",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/developer/walkthrough-multi-tenant-server-server-authentication.md",
-      "redirect_url": "https//docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication",
       "redirect_document_id": "false"
     },
     {
@@ -333,7 +1139,7 @@
     },
     {
       "source_path": "ce/social-engagement/ebooks-and-videos.md",
-      "redirect_url": "https//docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub",
       "redirect_document_id": "false"
     },
     {
@@ -348,12 +1154,12 @@
     },
     {
       "source_path": "ce/social-engagement/videos-ebooks.md",
-      "redirect_url": "https//docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub",
       "redirect_document_id": "false"
     },
     {
       "source_path": "ce/social-engagement/visual-filtering-widgets.md",
-      "redirect_url": "https//docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters",
+      "redirect_url": "https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters",
       "redirect_document_id": "false"
     },
     {

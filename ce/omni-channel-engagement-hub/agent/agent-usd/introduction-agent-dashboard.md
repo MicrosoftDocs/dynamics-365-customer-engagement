@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you first sign in to Unified Service Desk, you see the **My Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
+When you first sign in to Unified Service Desk, you see the **Omni-channel Agent Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
 
-The **Home** button on the **Session** tab provides quick navigation to the **My Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
+The **Home** button on the **Session** tab provides quick navigation to the **Omni-channel Agent Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
 
-The **My Dashboard** page consists of the following stream:
+The **Omni-channel Agent Dashboard** page consists of the following stream:
 
  - My work items
 
@@ -46,7 +46,7 @@ In the **Open work items** stream, you see all the conversations that are in the
 In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed conversation (work item), select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
-> [Next topic: View notifications and screen pops](notifications-screen-pop.md)
+> [Next topic: View alert and toast notifications](notifications-screen-pop.md)
 
 ## See also
 

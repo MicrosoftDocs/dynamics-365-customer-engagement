@@ -54,7 +54,9 @@
 ### [Book named resources from resource requirements](book-named-resource.md)
 ### [Submit a resource request](submit-resource-request.md)
 ### [Accept or reject a proposed resource](accept-reject-proposed-resource.md)
+## [Reconcile bookings and assignments](reconcile-booking-assignment.md)
 ## [Resource management home page](resource-management-home-page.md)
+### [Manage resources](manage-resources.md)
 ### [Key concepts](reports-key-concepts.md)
 ### [Fulfilling resource requests](resource-management-fulfill-requests.md)
 ### [Proposing resources](resource-management-propose-resources.md)
@@ -65,6 +67,8 @@
 ## [Reporting](reports-reporting-dynamics-365-project-service.md)
 ### [Dashboards](reports-dashboards.md)
 ### [Working with the Project Service Automation data model](reports-working-project-service-data-model.md)
+## [Create time entries](time-entries.md)
+### [Time entry calendar](time-entry-calendar.md)
 
 
 # How-to guides (app version 3.x)

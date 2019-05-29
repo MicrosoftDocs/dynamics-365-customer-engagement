@@ -88,9 +88,9 @@ Unified Service Desk activates the client caching for configurations.
 6. Select **Save**.
 
 ## Client caching store location
-When enabled, client caching stores its files in a compressed and encrypted format in the user’s roaming directory: `%appData%\Microsoft\USD`
+When enabled, client caching stores its files in a compressed and encrypted format in the user’s roaming directory: `%appData%\Microsoft\Microsoft Dynamics 365 Unified Service Desk`
 
-For example, for a user called agent1 running the Unified Service Desk client application on Windows 8, the client caching files are available at `c:\Users\agent1\AppData\Roaming\Microsoft\USD`.
+For example, for a user called agent1 running the Unified Service Desk client application on Windows 8, the client caching files are available at `c:\Users\agent1\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk`.
 
 
 ## See also

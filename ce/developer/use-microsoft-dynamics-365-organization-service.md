@@ -3,7 +3,7 @@ title: "Use the Dynamics 365 for Customer Engagement Organization service (Devel
 description: "Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations"
 ms.custom: 
 ms.date: 11/28/2017
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,7 +24,14 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations.  
+Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations.
+
+> [!NOTE]
+> [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
+>
+> The Organization service programming documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+>
+> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
   
 ### See also
 

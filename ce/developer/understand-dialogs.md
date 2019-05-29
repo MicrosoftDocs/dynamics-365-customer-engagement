@@ -2,7 +2,7 @@
 title: "Understand dialogs (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a child dialog, and then invoke that dialog from within a parent dialog"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 05/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,10 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a *child dialog*, and then invoke that dialog from within a parent dialog.  
+Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a *child dialog*, and then invoke that dialog from within a parent dialog. 
+
+> [!IMPORTANT]
+> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in PowerApps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
   
 <a name="DialogComponents"></a>   
 ## Dialog components  

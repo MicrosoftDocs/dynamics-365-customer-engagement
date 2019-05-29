@@ -72,9 +72,9 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 <a name="CachingStoreLocation"></a>   
 ## Client caching store location  
- When enabled, client caching stores its files in a compressed and encrypted format in the users roaming directory: %appData%\Microsoft\USD  
+ When enabled, client caching stores its files in a compressed and encrypted format in the users roaming directory: `%appData%\Roaming\Microsoft\Microsoft\Microsoft Dynamics 365 Unified Service Desk`  
   
- For example, for a user called agent1 running the client application on [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], the client caching files will be available at c:\Users\agent1\AppData\Roaming\Microsoft\USD.  
+ For example, for a user called agent1 running the client application on [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], the client caching files will be available at `c:\Users\agent1\AppData\Roaming\Microsoft\Microsoft\Microsoft Dynamics 365 Unified Service Desk`.  
   
  Information in this directory can only be accessed by the user account that created it.  
   
@@ -183,7 +183,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 ## See also  
  [Sample Unified Service Desk applications](../../unified-service-desk/admin/sample-unified-service-desk-applications.md)
 
- [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+ [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
  
  [Add a UII action to a hosted control](../../unified-service-desk/add-uii-action-hosted-control.md)   
  

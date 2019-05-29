@@ -34,8 +34,6 @@ search.app:
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Schedule anything in Dynamics 365 for Customer Engagement using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
   
  For example, you can enable scheduling for the opportunity form and schedule marketing visits for your opportunities. You can also do this for the case form and schedule time to work on cases.  

@@ -2,11 +2,10 @@
 title: "Use the bot| MicrosoftDocs"
 ms.custom: 
 description: "Use the bot to interact with Dynamics 365 for Customer Engagement apps."
-ms.date: 11/08/2018
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
@@ -26,12 +25,8 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!NOTE]
-> The Dynamics 365 bot for Teams is currently only available for organizations in the North American region.
-
-The Dynamics 365 app for Teams bot feature allows you to interact with Dynamics 365 for Customer Engagement apps to find, display, and update the records within Microsoft Teams conversations.
+The Dynamics 365 app for Teams bot feature allows you search Dynamics 365 for Customer Engagement apps records within Microsoft Teams conversations.
 
 Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365**.
 
@@ -48,7 +43,6 @@ You'll see some preloaded options. For example, select **Opportunities** to have
 > [!div class="mx-imgBorder"] 
 > ![List of open opportunities](media/teams-bot-list-opportunities.png "List of open opportunities")
 
-Here are more things you can do with the bot feature.
 
 ## Search
 Enter text like "contoso" in the search field to find related records.
@@ -59,6 +53,8 @@ Enter text like "contoso" in the search field to find related records.
 > [!div class="mx-imgBorder"] 
 > ![Related records returned](media/teams-bot-search-results.png "Related records returned")
 
+
+<!-- Removing for GA since these features will shop sometime after GA
 ## Edit
 Edit and update a record.
 
@@ -72,10 +68,10 @@ Create a post in Dynamics 365 for Customer Engagement apps.
 > ![Create a post](media/teams-bot-create-post.png "Create a post")
 
 ## Other
-Use the bot menu for other actions such as change the org or app module.
+Use the bot menu for other actions such as change the environment or app module.
 
 > [!div class="mx-imgBorder"] 
-> ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")
+> ![Open the bot menu](media/teams-bot-menu.png "Open the bot menu")-->
 
 ### See also  
-[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)
+[Set up the Dynamics 365 bot](teams-install-app.md#set-up-the-dynamics-365-bot)  

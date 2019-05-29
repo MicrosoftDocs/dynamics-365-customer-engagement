@@ -3,7 +3,7 @@ title: "Introduction to solutions (Developer Guide for Dynamics 365 for Customer
 description: "Developers and authors create, package and maintain units that extend Dynamics 365 for Customer Engagement apps"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

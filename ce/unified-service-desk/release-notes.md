@@ -2,7 +2,7 @@
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 keywords: ""
-ms.date: 05/10/2018
+ms.date: 05/15/2018
 ms.service: 
   - usd
 ms.topic: article
@@ -29,6 +29,14 @@ search.app:
 ::: moniker range="dynamics-usd-4.1"
 
 ## Unified Service Desk 4.1 known issues and limitations
+
+### Window Navigation Rules for Advanced Find does not work
+
+When you use Unified Service Desk with the Unified Interface apps, Window Navigation Rules for the Advanced Find page might not work as the page is available only on Web Client and hence you must retain the route type as **Popup**.
+
+### Importing solution causes error with Package Deployer
+
+When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To workaround the issue, you must upgrade your Customer Engagement instance to the latest version (9.1.0.4626).
 
 ### Support for inactivity timeout with Chrome Process and SSO
 
@@ -260,7 +268,7 @@ when you launch Unified Service Desk, the application displays the login screen 
 
 If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
 
-`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
 
 Open the recent log file in the notepad. Search for the following message - 
 
@@ -329,7 +337,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
   If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
 
-  To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
+  To enable **HelpImproveUsd**, view [Improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
@@ -449,7 +457,7 @@ when you launch Unified Service Desk, the application displays the login screen 
 
 If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
 
-`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
 
 Open the recent log file in the notepad. Search for the following message - 
 
@@ -462,7 +470,7 @@ One of the reason for the application crash is due to caching of multiple tokens
 To resolve the Unified Service Desk application crash issue, follow the steps.
 
 1. Go to the location following in your computer. <br>
-	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk`
 	
 2. In the location, you will see the following file.<br>
 **Default_USD.tokens.dat** file. 
@@ -478,7 +486,7 @@ You can sign in to Unified Service Desk client application now.
 For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
 For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
 
-####
+#### Workaround
 
 As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
@@ -488,6 +496,6 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 
 [Performance enhancement for CRM entity page loads](admin/performance-enhancement-CRM-entity-page-loads.md)
 
-[Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
+[Improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
 
 ::: moniker-end
