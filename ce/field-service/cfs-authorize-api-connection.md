@@ -57,7 +57,7 @@ One such resource will be an API Connection type to Dynamics CRM. Select and edi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of API connection between dynamics and azure](./media/cfs-iothub-api-connection.png)
 
-Finally, select **Authorize** and use your Dynamics 365 credentials that you use to sign into your Connected Field Service environment, which may be different than your Azure credentials to the Azure portal.
+Finally, select **Authorize**, **Save**, and use your Dynamics 365 credentials that you use to sign into your Connected Field Service environment, which may be different than your Azure credentials to the Azure portal.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of authorizing the subscription](./media/cfs-iothub-api-connection-authorize.png)
