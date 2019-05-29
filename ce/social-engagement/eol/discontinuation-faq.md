@@ -33,7 +33,7 @@ Also starting October 1, 2019, Microsoft Social Engagement will no longer suppor
 
 ###	Why is Microsoft Social Engagement being discontinued? 
 
-Based on market trends and strategic direction, we have decided to focus [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) on the opportunity to provide insights about broader market patterns derived from aggregated data to help business professionals make decisions. 
+Based on market trends and strategic direction, we have decided to focus [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) on providing insights about broader market patterns derived from aggregated data to help business professionals make decisions. 
 
 ###	How will current Microsoft Social Engagement customers be notified?
 
@@ -41,7 +41,11 @@ The announcement will be communicated through periodic customer emails and exist
 
 ###	What is the recommended path for Microsoft Social Engagement customers and prospects?
 
-If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities can preview the US web data based email alerts in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
+If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview the United States web data based email alerts in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
+
+<!--note from editor: Line 44: Not sure what is modifying what in the phrase "United States web data based email alerts." Change to "email alerts based on web data". Not sure what the "United States" is modifying--is this a version that is available only in the United States?   -->
+
+
 
 ## Subscription and billing information
 
@@ -70,7 +74,7 @@ Monthly quota add-ons for Microsoft Social Engagement will continue to be availa
 
 ###	Will new Dynamics 365 customers be entitled to Dynamics 365 Market Insights? 
 
-New Dynamics 365 customers are encouraged to sign up to try the [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/). However, Market Insights isn't intended to be a successor product to Social Engagement anymore. More details about pricing and licensing for Dynamics 365 Market Insights will be available closer to General Availability release. 
+New Dynamics 365 customers are encouraged to sign up to try the [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/). However, Market Insights isn't intended to be a successor product to Microsoft Social Engagement anymore. More details about pricing and licensing for Dynamics 365 Market Insights will be available closer to the General Availability release. 
 
 ###	Who can customers contact for billing issues and concerns?
 If customers need to locate their Dynamics 365 (online) billing and subscription support team, they can go to [Dynamics 365 (online) Billing FAQ](https://technet.microsoft.com/library/mt826763.aspx) to locate their billing support number or submit a billing support query. They can also email us at [MSEEol@microsoft.com](mailto:MSEEol@microsoft.com) for any escalations.
@@ -86,31 +90,31 @@ Customer data will be retained for at least 90 days after the expiration of your
 
 ###	What is the Microsoft Social Engagement to Dynamics 365 Market Insights transitional experience?
 
-Dynamics 365 Market Insights Preview is no longer intended to be a successor for Social Engagement. If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces.  
+Dynamics 365 Market Insights Preview is no longer intended to be a successor to Microsoft Social Engagement. If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces.  
 
 ###	What are the key capabilities of Dynamics 365 Market Insights?
 
-Dynamics 365 Market Insights Preview will help business professionals know what their audience say, seek and feel.  
+Dynamics 365 Market Insights Preview helps business professionals learn what their audiences say, seek, and feel.  
 
 The current capabilities of the app include: 
 
 - **Daily or weekly email alert notifications** - Stay better informed about emerging news and trends with customizable email alerts relevant to your monitored topics. 
 
-- **AI assisted query builder** - Leverage the power of AI to spend less time setting up searches and more time acting on insights. 
+- **AI-assisted query builder** - Leverage the power of AI to spend less time setting up searches and more time acting on insights. 
 
 - **Bing web search rising topics** - Identify trends by analyzing search query results during a specified period for key topics of interest to your business.  
 
  
 
-The application will soon add more capabilities to provide aggregated news and insights, based on web activities such as search, browse and other signals.
+The application will soon add more capabilities to provide aggregated news and insights, based on web activities such as search, browse, and other signals.
 
 Refer to the [Release Notes](https://dynamics.microsoft.com/business-applications/release/) for information about additional capabilities for future releases.
  
 ###	What is the international availability of Dynamics 365 Market Insights?
 
-Email alerts and insights are based on US web activities data and is available only in English. It can also be used by global organizations seeking insights for their US operations. International availability expansion is currently not in scope for the initial release. 
+Email alerts and insights are based on US web-activities data and are available only in English. They can also be used by global organizations seeking insights for their US operations. Expanding international availability is currently not in scope for the initial release. 
 
-###	Can customers access the Dynamics 365 Market Insights public preview if they are located outside of the countries or regions set forth in the Availability Guide?
+###	Can customers access the Dynamics 365 Market Insights preview if they are located outside of the countries or regions set forth in the Availability Guide?
 
 Unfortunately, Dynamics 365 Market Insights is only available in the countries/regions and languages set forth in the [Availability Guide](https://aka.ms/dynamics_365_international_availability_deck).
 
@@ -118,7 +122,7 @@ Unfortunately, Dynamics 365 Market Insights is only available in the countries/r
 
 New and existing customers can [preview the new Dynamics 365 Market Insights](https://alerts.microsoft.com) to get free email alerts based on US web activities.  
 
-### Can Dynamics 365 Market Insights be integrated with other Dynamics 365 or 3rd party applications? 
+### Can Dynamics 365 Market Insights be integrated with other Dynamics 365 or third-party applications? 
 
 Not currently. Please refer to the release notes that will soon be updated with future capabilities that are planned for release. 
 
@@ -126,7 +130,7 @@ Not currently. Please refer to the release notes that will soon be updated with 
 
 - [Dynamics 365 Market Insights community forum](https://community.dynamics.com/365/aimarketinsights)
 - [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights)
-- For questions related to transitioning, please contact your Microsoft representative or partner or email [MSEeol@microsoft.com](mailto:MSEeol@microsoft.com). 
+- For questions related to transitioning, please contact your Microsoft representative or partner, or email [MSEeol@microsoft.com](mailto:MSEeol@microsoft.com). 
 
 ### See also
 
