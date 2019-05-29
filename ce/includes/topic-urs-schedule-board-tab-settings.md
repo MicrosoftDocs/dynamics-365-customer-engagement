@@ -241,3 +241,28 @@ One scenario this enables is filtering resources without having to expose the fi
 Using the Schedule Board Client Extension framework, you can modify the CSS, add your own JavaScript files, and localize the schedule board. This means that you can change labels and wording on certain supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
 For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
+
+## Schedule Types
+
+### Booking Tooltips View
+
+Booking Details VIew
+
+Schedule Assistant Requirement View
+
+Requirement Details View
+
+Requirement Map Pin Tooltips View
+
+Booking Template
+
+> [!Note]
+> The following Schedule Types settings only display in the Default Settings of Schedule Board Tabs
+
+Schedule Assistant Filter Layout
+
+Schedule Assistant Resource Cell Template
+
+Schedule Assistant Retrieve Resources Query
+
+Schedule Assistant Retrieve Constraints Query
