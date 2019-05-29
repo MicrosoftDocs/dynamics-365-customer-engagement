@@ -93,7 +93,7 @@ Marketing-page tiles provide the following settings in the **Properties** pane w
 
 Event tiles are typically nested under email tiles, where they represent a link to an event website that is included in the message's content, but they can also be placed on their own. The most important reason to add an event tile is to enable trigger tiles placed later in the pipeline to "know" about the event link and to react to contact interactions with it (registered or attended). Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact registers for or attends the event.
 
-When nest an event tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same event (the system doesn't confirm this or modify the message when you add a nested tile).
+When you nest an event tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same event (the system doesn't confirm this or modify the message when you add a nested tile).
 
 Event tiles provide the following settings in the **Properties** pane while selected:
 
@@ -105,9 +105,11 @@ Event tiles provide the following settings in the **Properties** pane while sele
 
 ### Survey
 
-Survey tiles are typically nested under marketing email tiles, where they represent a link to an online survey that is included in the message's content. The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the survey.
+Survey tiles are typically nested under marketing email tiles, where they represent a link to an online survey that is included in the message's content. <!-- The most important reason to add a survey tile is to enable trigger tiles placed later in the pipeline to "know" about the survey link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the survey. -->
 
-When nest a survey tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same survey (the system doesn't confirm this or modify the message when you add a nested tile).
+[!INCLUDE [cc-marketing-surveys-disclaimer](../includes/cc-marketing-surveys-disclaimer.md)]
+
+When you nest a survey tile under an email tile, you must take care to ensure that the marketing email message itself also includes a link to the same survey (the system doesn't confirm this or modify the message when you add a nested tile).
 
 Survey tiles provide the following settings in the **Properties** pane while selected:
 
@@ -286,7 +288,7 @@ Trigger tiles hold contacts either until some condition is true, or until a defi
 
 A typical use of this is to set up an email tile followed by a trigger tile that holds each contact for 7 days, or until he or she opens the message. As soon as a contact opens the message, the trigger sends that contact down the *true* path, which might include tiles designed for contacts that have shown an interest in your messages. However, if the time limit passes and the contact still has not opened the message, then the trigger will send that contact down the *false* path, which might send the original message again, just to make sure.
 
-A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific marketing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, marketing page, marketing form, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a nested tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
+A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific marketing page submissions <!--, survey submissions--> or event registrations, but for these to work, the relevant <!--survey,--> marketing page, marketing form, or event must be available to the trigger. So, to trigger on an email open or click, that email must be part of the current customer journey&mdash;and to trigger on a page submission or event registration related to that email, that email tile must also have a nested tile that links to the appropriate page or event. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
 
 Trigger tiles are stand-alone, so they can neither contain nor be nested under other tiles.
 
