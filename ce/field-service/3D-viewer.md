@@ -37,7 +37,7 @@ In this topic, we'll walk through how to associate a 3D model record with a cust
 
 - Dynamics 365 for Customer Engagement v9.0+ 
 - Field Service v8.0+
-- Ensure the 3DViewer solution is installed in **Settings > Customizations**
+- Ensure the **3D Viewer** solution is installed in **Settings > Customizations**
 - Increased storage for large 3D file sizes. You can do this by increasing attachment file size limit in Dynamics 365 administration, or by using Azure Blob storage.
 
 To increase attachment file size in D365 administration:
@@ -125,62 +125,64 @@ Once you have your GLB, GLTF, or OBJ file, and you have configured your organiza
 
 ## View 3D Model on Field Service Mobile
 
-Now that the 3D model is associated to a customer asset and viewable from the web, let's enable it to be viewed on Field Service Mobile for field technicians to utilize during onsite work orders.
+Now that the 3D model is associated to a customer asset and viewable from the web, let's enable it to be viewed on the Field Service Mobile app for field technicians to utilize during onsite work orders.
 
-1.	  If it isn’t installed, install it.
-2.	Navigate to the Field Service Mobile Configuration tool (Woodford)
-3.	Open the mobile project that holds your customizations.
-4.	Click on the entity “Three-Dimensional Model” (do NOT click the paint brush icon)
-5.	Click Enable at the top of the page.
+1.	Navigate to the Field Service Mobile Configuration tool (Woodford)
+2.	Open the mobile project that holds your customizations.
+3.	Click on the entity “Three-Dimensional Model” (do NOT click the paint brush icon)
+4.	Click **Enable** at the top of the page.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
+> ![Screenshot of ](media/mobile-3d-entity.png)
  
-6.	Check the File Type, File URL, and Storage Type fields
-7.	Click Save
+5.	Check the File Type, File URL, and Storage Type fields
+6.	Click Save
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
+> ![Screenshot of ](media/mobile-3d-entity-fields.png)
 
-8.	Click the paint brush icon next to “Three-Dimensional Model”
-9.	Click “New Form”
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
-
-10.	Give the form a name and click Ok
-11.	Click on the blank, white part of the form and the available fields should show on the right panel
-12.	Drag and drop the Storage Type, File URL, and File Type fields to the form
-13.	Add a Notes List to the form (Add List > Notes List)
+7.	Click the paint brush icon next to “Three-Dimensional Model”
+8.	Click “New Form”
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
+> ![Screenshot of ](media/3mobile-3d-entity-form.png)
 
-
-14.	Click the “Add Iframe” button
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
-
-
-15.	Give the Iframe a name and click Browse
-16.	Select viewer.html and click Ok
+9.	Give the form a name and click Ok
+10.	Click on the blank, white part of the form and the available fields should show on the right panel
+11.	Drag and drop the Storage Type, File URL, and File Type fields to the form
+12.	Add a Notes List to the form **Add List > Notes List**
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
+> ![Screenshot of ](media/mobile-3d-entity-form-fields.png)
 
 
-17.	Leave the defaults as shown below and click Ok
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
-
-
-18.	Save & Close the form
-19.	Click Publish
+13.	Click the **Add Iframe** button
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3DViewerDocumentationDoc-image10.png)
+> ![Screenshot of ](media/mobile-3d-add-iframe.png)
+
+
+14.	Give the Iframe a name and click Browse
+15.	Select viewer.html and click Ok
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/mobile-3d-add-iframe-html.png)
+
+
+16.	Leave the defaults as shown below and click Ok
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/mobile-3d-add-iframe-defaults.png)
+
+
+17.	Save & Close the form
+18.	Click Publish
+
+The 3D image will now be viewable on the Field Service Mobile App by navigating to **Customer Assets > Three Dimensional Models**
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/mobile-3d-mobile-app.png)
 
 ## Additional notes
 - You can view 3D files on Field Service Mobile for Windows, iOS, and Android devices.
