@@ -29,7 +29,7 @@ search.app:
 
 Effective January 16, 2019, Microsoft Social Engagement will no longer be included as part of any Microsoft Dynamics 365 license entitlement for new customers. Current customers with license entitlements to Microsoft Social Engagement will continue to be able to access the service and add any additional social post capacity as needed, until the earlier of these dates: the expiration of your subscription or January 16, 2020. Effective January 16, 2020, Microsoft Social Engagement will be discontinued for all Dynamics 365 customers.
 
-Also starting October 1, 2019, Microsoft Social Engagement will no longer support Twitter as a data source. However, Social Engagement capabilities are not expected to function differently without Twitter data.
+Also starting October 1, 2019, Microsoft Social Engagement will no longer support Twitter as a data source. However, social engagement capabilities are not expected to function differently without Twitter data.
 
 ###	Why is Microsoft Social Engagement being discontinued? 
 
