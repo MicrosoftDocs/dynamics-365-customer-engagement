@@ -32,6 +32,12 @@ While managing resources' availability and scheduling work orders, dispatchers m
 
 To bring important notifications to the dispatchers' attention, Dynamics 365 for Field Service offers a feature called Booking Alerts that display notes and reminders on the schedule board where dispatchers spend most of their time. These alerts can relate to bookings, work orders, users, and other entities and can be triggered based on timers, set alarms, or workflows.
 
+There are three significant additional benefits: 
+
+1)	A booking alert has a start time after which it will be shown.
+2)	A booking alert can be assigned to one or many users.
+3)	Using the “Snooze” button the alert will disappear and re-appear after the desired time. This helps the dispatcher handle multiple issues in parallel.
+
 Though the goal of a modern business application is to introduce automation for routine tasks, booking alerts can help remind dispatchers to perform the remaining manual processes; or notify them of automated process that have taken place.
 
 In this article let's talk about creating and viewing Booking Alerts.
@@ -41,17 +47,8 @@ In this article let's talk about creating and viewing Booking Alerts.
 - Field Service v6.1+
 - Field Service - Dispatcher security privileges. 
 
-> [!Note]
->
 
- This could be that a technician is running late or that prerequisites for a job have not been met. One could alternatively use different color codes for the bookings, however they are based on the booking status and we do not necessarily want to change this just to alert the dispatcher.
-
-There are three significant additional benefits: 
-
-1)	A booking alert has a start time after which it will be shown.
-2)	A booking alert can be assigned to one or many users.
-3)	Using the “Snooze” button the alert will disappear and re-appear after the desired time. This helps the dispatcher handling multiple issues in parallel.
-
+## Create a booking alert
 Booking alerts for any entity
 
 One use case might be that the dispatcher wants to set herself a reminder. On the schedule board, click the Actions button and select New Booking Alert.
@@ -66,10 +63,18 @@ The New Booking Alert window pops up.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Booking alert](./media/booking-alert.png)
  
-Subject and Description define the message that will appear on the alert. Priority will not trigger different behavior but could be used for additional logic. Regarding allows the user to link the alert to a specific record. For any entity, the booking alert will immediately show up on the record’s timeline. However, only upon reaching the Due Date, the alert will also show up on the schedule boards detail pane, alerts tab. An alert can be associated to one or multiple attendees, and each attendee can choose to snooze or dismiss the alert.
+**Subject** and **Description** define the message that will appear on the alert. 
 
-When setting the Regarding field, pay attention to the entity type that you select. By default, the work order, the associated resource requirement and the booking have the same name. On top of the regarding field, you can use a filter to limit results to the desired entity.
+**Priority** will not trigger different behavior but could be used for additional logic. 
 
+**Regarding** allows the user to link the alert to a specific record. For any entity, the booking alert will immediately show up on the record’s timeline. However, only upon reaching the **Due Date**, the alert will also show up on the schedule boards detail pane, alerts tab. 
+
+An alert can be associated to one or multiple assignees, and each assignee can choose to snooze or dismiss the alert.
+
+> [!Note]
+> When setting the **Regarding** field, pay attention to the entity type that you select. By default, the work order, the associated resource requirement and the booking have the same name. On top of the regarding field, you can use a filter to limit results to the desired entity.
+
+## View the booking alert
 Here is how the alert will look like and how a dispatcher can put an alert on hold by clicking Snooze.
 
 
@@ -84,8 +89,6 @@ In addition to what was explained in the previous section, alerts for Bookable R
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Booking alert on the schedule board](./media/booking-alert-on-the-schedule-board.png)
  
-
-## Configuration considerations
 
 ## Additional Notes
 
