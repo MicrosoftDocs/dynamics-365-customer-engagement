@@ -40,7 +40,7 @@ manager: shujoshi
 <tr>
 <td>
 
-<h2> How-to </h2>
+<h2> How to </h2>
 
 <li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
 <li><a href="getting-started-simple-widget.md" data-raw-source="[Build a simple communication widget](getting-started-simple-widget.md)">Build a simple communication widget</a></li>
@@ -51,7 +51,7 @@ manager: shujoshi
 </td>
 <td>
 
-<h2> JavaScript reference </h2>
+<h2> JavaScript API Reference </h2>
 
 <li><a href="reference/microsoft-ciframework.md" data-raw-source="[Microsoft.CIFramework
  methods](reference/microsoft-ciframework.md)">Microsoft.CIFramework</a></li>
@@ -63,7 +63,7 @@ manager: shujoshi
 <tr>
 <td>
 
-<h2> FAQ </h2>
+<h2> FAQs </h2>
 
 <li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently Asked Questions](faq-channel-integration-framework.md)">Frequently Asked Questions</a></li>
 
