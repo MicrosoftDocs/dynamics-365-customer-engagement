@@ -32,6 +32,10 @@ While managing resources' availability and scheduling work orders, dispatchers m
 
 To bring important notifications to the dispatchers' attention, Dynamics 365 for Field Service offers a feature called Booking Alerts that display notes and reminders on the schedule board where dispatchers spend most of their time. These alerts can relate to bookings, work orders, users, and other entities and can be triggered based on timers, set alarms, or workflows.
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Manual creation of a booking alert](./media/scheduling-booking-alert-schedule-board.png)
+
 There are three significant additional benefits: 
 
 1)	A booking alert has a start time after which it will be shown.
@@ -49,16 +53,13 @@ In this article let's talk about creating and viewing Booking Alerts.
 
 
 ## Create a booking alert
-Booking alerts for any entity
-
-One use case might be that the dispatcher wants to set herself a reminder. On the schedule board, click the Actions button and select New Booking Alert.
+Let's say the dispatcher wants to set herself a reminder. On the schedule board, click the Actions button and select **New Booking Alert**.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Manual creation of a booking alert](./media/manual-creation-of-a-booking-alert.png)
 
 The New Booking Alert window pops up.
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Booking alert](./media/booking-alert.png)
@@ -75,28 +76,31 @@ An alert can be associated to one or multiple assignees, and each assignee can c
 > When setting the **Regarding** field, pay attention to the entity type that you select. By default, the work order, the associated resource requirement and the booking have the same name. On top of the regarding field, you can use a filter to limit results to the desired entity.
 
 ## View the booking alert
-Here is how the alert will look like and how a dispatcher can put an alert on hold by clicking Snooze.
+
+Once the due date is reached and the alert appears on the schedule board side pane, here is how the alert will look like and how a dispatcher can put an alert on hold by clicking Snooze.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Alert - Snooze](./media/alert-snooze.png)
  
-Booking alerts for bookings
+### Booking alerts for bookings
 
-In addition to what was explained in the previous section, alerts for Bookable Resource Bookings provide an additional feature. They will not only be shown in the booking’s timeline and the details panel, but also on the schedule board’s Gantt chart, specifically in the upper left-hand corner of the booking. The icon indicates the number of active alerts for that booking, clicking it expands or collapses the details. Snooze and Dismiss work the same way as in the panel.
+In addition, alerts for Bookable Resource Bookings provide an additional feature. They will not only be shown in the booking’s timeline and the details panel, but also in the schedule board alongside a booking time slot, specifically in the upper left-hand corner of the booking. 
 
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Booking alert on the schedule board](./media/booking-alert-on-the-schedule-board.png)
+
+The icon indicates the number of active alerts for that booking, clicking it expands or collapses the details. Snooze and Dismiss work the same way as in the panel.
  
 
 ## Additional Notes
 
-By creating the booking alert, the system automatically creates one Booking Alert Status record for every assignee. This allows the affected users to individually snooze (there is a field Next Time To Show) or dismiss alerts. When a user dismisses the alert, the Booking Alert Status records gets inactivated. When every assignee dismissed the alert, its Activity Status field is set to Completed.
+- By creating the booking alert, the system automatically creates one Booking Alert Status record for every assignee. This allows the affected users to individually snooze (there is a field Next Time To Show) or dismiss alerts. When a user dismisses the alert, the Booking Alert Status records gets inactivated. When every assignee dismisses the alert, its Activity Status field is set to Completed.
 
-In most situations, the user will not create the alert manually. Instead Flow or workflow can be used to automate the record creation upon certain events.
+- In most situations, the user will not create the alert manually. Instead Flow or workflow can be used to automate the record creation upon certain events.
 
-When deleting records, keep the relationship booking – booking alert – booking alert status in mind. By default, you cannot remove a booking that has booking alerts associated to it.
+- When deleting records, keep the relationship booking – booking alert – booking alert status in mind. By default, you cannot remove a booking that has booking alerts associated to it.
 
 
 
