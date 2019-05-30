@@ -28,15 +28,23 @@ search.app:
 
 # Booking Alerts
 
-Beyond scheduling work orders to resources, dispatchers often have to perform many other tasks for their organization and customers. Typical examples include confirming appointments, billing concerns, ensuring customer satisfaction and more. 
+While managing resources' availability and scheduling work orders, dispatchers must be aware of important updates and status changes to ensure accurate schedules and timely job completion. As an example, a dispatcher may need to be aware if a field technician is running late or prerequisites for a job have not been met to take appropriate actions. Beyond scheduling, dispatchers may also need to ensure billing and customer satisfaction concerns are taken care of.
 
-To help dispatchers keep track of tasks, Dynamics 365 for Field Service offers a feature called Booking Alerts that display notes and reminders on the schedule board where dispatchers spend most of their time.
+To bring important notifications to the dispatchers' attention, Dynamics 365 for Field Service offers a feature called Booking Alerts that display notes and reminders on the schedule board where dispatchers spend most of their time. These alerts can relate to bookings, work orders, users, and other entities and can be triggered based on timers, set alarms, or workflows.
+
+Though the goal of a modern business application is to introduce automation for routine tasks, booking alerts can help remind dispatchers to perform the remaining manual processes; or notify them of automated process that have taken place.
+
+In this article let's talk about creating and viewing Booking Alerts.
 
 ## Prerequisites
+
+- Field Service v6.1+
+- Field Service - Dispatcher security privileges. 
+
 > [!Note]
 >
 
-Booking alerts are a way to draw the dispatcher’s attention to an issue that needs attention. This could be that a technician is running late or that prerequisites for a job have not been met. One could alternatively use different color codes for the bookings, however they are based on the booking status and we do not necessarily want to change this just to alert the dispatcher.
+ This could be that a technician is running late or that prerequisites for a job have not been met. One could alternatively use different color codes for the bookings, however they are based on the booking status and we do not necessarily want to change this just to alert the dispatcher.
 
 There are three significant additional benefits: 
 
