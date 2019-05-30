@@ -37,6 +37,7 @@ In this topic, we'll walk through how to associate a 3D model record with a cust
 
 - Dynamics 365 for Customer Engagement v9.0+ 
 - Field Service v8.0+
+- Ensure the 3DViewer solution is installed in **Settings > Customizations**
 - Increased storage for large 3D file sizes. You can do this by increasing attachment file size limit in Dynamics 365 administration, or by using Azure Blob storage.
 
 To increase attachment file size in D365 administration:
@@ -126,7 +127,7 @@ Once you have your GLB, GLTF, or OBJ file, and you have configured your organiza
 
 Now that the 3D model is associated to a customer asset and viewable from the web, let's enable it to be viewed on Field Service Mobile for field technicians to utilize during onsite work orders.
 
-1.	Check to make sure the 3DViewer solution is installed.  If it isn’t installed, install it.
+1.	  If it isn’t installed, install it.
 2.	Navigate to the Field Service Mobile Configuration tool (Woodford)
 3.	Open the mobile project that holds your customizations.
 4.	Click on the entity “Three-Dimensional Model” (do NOT click the paint brush icon)
