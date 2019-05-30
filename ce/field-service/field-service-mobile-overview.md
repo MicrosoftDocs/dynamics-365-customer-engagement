@@ -117,15 +117,15 @@ Multi-factor authentication based on the related Office 365 tenant Azure active 
 
 Data encryption is based on an application key. The application key is randomly generated and protected by the user password. The key is used to encrypt all local Field Service data. Let's take a look at how this works.
 
-The application generates the random application key when it creates its local database. After that, it's stored in an encrypted form on the device file system and the application decrypts it when needed. The application key (AES256) is used together with the user password (PBKDF2), a random intialization vector (IV), and salt for encryption and decryption.
+The application generates the random application key when it creates its local database. After that, it's stored in an encrypted form on the device file system and the application decrypts it when needed. The application key (AES256) is used together with the user password (PBKDF2), a random initialization vector (IV), and salt for encryption and decryption.
 
 Let's take a look at how this works.
 
 For encrypting the SQLite database, the application key is passed to the SQLite database driver.
 
-The driver uses the application key and IV to encrypt or decrypt individual database pages using AES128 in cypher feedback (CFB) mode. Each page (1024 bytes) is encrypted separately. The IV is the page header (contains variable or unpredictable data).
+The driver uses the application key and IV to encrypt or decrypt individual database pages using AES128 in cipher feedback (CFB) mode. Each page (1024 bytes) is encrypted separately. The IV is the page header (contains variable or unpredictable data).
 
-Each file in the blob store (attachment store) contains a header with random IV (16 bytes) and encrypted data. The blob data is encrypted with AES256 in cypher block chaining (CBC) mode using the application key and file header IV. PKCS7 is used for data alignment.
+Each file in the blob store (attachment store) contains a header with random IV (16 bytes) and encrypted data. The blob data is encrypted with AES256 in cipher block chaining (CBC) mode using the application key and file header IV. PKCS7 is used for data alignment.
 
 ### Synchronization
 
