@@ -30,11 +30,11 @@ search.app:
 
 ### New instances
 
-As of May 17, 2019, when a new instance is provisioned, Microsoft Dynamics 365 for Project Service Automation (PSA) version 3.x is installed by default.
+As of May 17, 2019, when Microsoft Dynamics PSA is selected during the provisioning of a new instance, Project Service Automation (PSA) version 3.x is installed by default.
 
 ### Existing instances
 
-As of May 17, 2019, customers who have an instance of PSA version 2.x must upgrade to version 3.x, which is the Unified client interface-based (UCI) version of PSA. You must contact support and provide the details of your instance, so that support can enable your instance for upgrade to version 3.x.
+As of May 17, 2019, customers who have an instance of PSA version 2.x and need to upgrade to version 3.x, which is the Unified client interface-based (UCI) version of PSA, must contact support and provide the details of thier instance, so that support can enable the instance for upgrade to version 3.x.
 
 > [!NOTE]
 > PSA version 3.x includes significant changes. It has been built on the Unified Interface framework to help provide an improved user experience. The redesigned app delivers a consistent, uniform user interface (UI), and it follows responsive design principles for optimal viewing on any screen size or device. There have been other changes throughout the application. Some of the areas that have been changed include pricing, booking and assigning resources, time, expenses, and approvals.
