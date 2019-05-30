@@ -2,7 +2,7 @@
 title: "Discontinuation of Microsoft Social Engagement | Microsoft Docs"
 description: "Information about the discontinuation of the Microsoft Social Engagement service."
 keywords: "discontinuation, MSE, AI for Market Insights"
-ms.date: 05/29/2019
+ms.date: 05/31/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -41,11 +41,7 @@ The announcement will be communicated through periodic customer emails and exist
 
 ###	What is the recommended path for Microsoft Social Engagement customers and prospects?
 
-If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview the US web-data-based email alerts in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
-
-<!--note from editor: Line 44: Change "the US web-data-based email alerts" to "email alerts based on US web data" ? -->
-
-
+If you are seeking a social engagement solution, please look for other [solutions available in Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?search=social) or external marketplaces. If you are looking for aggregated insights based on web activities, you can preview email alerts based on US web data in [Dynamics 365 Market Insights Preview](https://dynamics.microsoft.com/en-us/ai/market-insights/) for free.
 
 ## Subscription and billing information
 
