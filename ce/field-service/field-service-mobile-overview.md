@@ -59,7 +59,6 @@ Field technicians use the Field Service Mobile app to view their schedules, work
   1. Scan a barcode on a new piece of equipment that was recently installed for a customer - this automatically enters the barcode number on the customer asset record, saving the technician time from manually entering this information. 
   2. Scan the barcode of an existing asset to automatically locate the asset record in the database. This ensures that new data is entered on the correct asset record for accurate service history.
 
-> [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile showing a barcode on a record](./media/mobile-quick-facts-barcode.png)
 
 - **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's particularly helpful for field technicians who wear protective gloves and can't type information into mobile forms.
@@ -73,7 +72,6 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 - **Push notifications**: Trigger push notifications to the field technician's device reminding him or her to perform actions or enter data. For example, you can notify field technicians with a push notification when he or she has been booked to a new work order. Selecting a push notification can take the user to specific booking, work order, or other records. 
 
 
-> [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile push notifications showing "You've been booked on a work order" and "Synchronization complete"](./media/mobile-quick-facts-push-notifications-ios.png)
 
 ## Device requirements
@@ -133,7 +131,6 @@ Each file in the blob store (attachment store) contains a header with random IV 
 
 Synchronization is when the Field Service Mobile app calls the server for new or updated data. For example, the app will need to synchronize to the server for a field technician to see a new work order booking scheduled by the dispatcher. 
 
-> [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile on a mobile device, showing a "Syncing: Metadata" progress bar](./media/mobile-quick-facts-sync.png)
 
 The app can perform a synchronization manually, timed, or based on available connection.
