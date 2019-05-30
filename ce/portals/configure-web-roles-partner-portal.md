@@ -3,7 +3,7 @@ title: "Configure web roles for a partner portal in Dynamics 365 for Customer En
 description: "Instructions to add web roles for a partner portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 05/22/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -50,9 +50,9 @@ Web roles for the Partner Relationship Management (PRM) portal grant specific ac
 ## Create a partner account on a PRM portal
 You can use partner accounts to keep track of your various partners. We recommend creating a separate account for each partner so that you can manage each partner organization separately. To create a partner account, 
 
-1. Go to **Sales &gt; Accounts**.
+1. Go to **Sales &gt; Accounts** (within Dynamics 365 - Account Form).
 2. Choose **New** and fill in your information.
-3. In the **Partner Details** area, use the **Classification** field and select the Partner classification.
+3. In the **Partner Information** tab, use the **Classification** field and select the Partner.
 4. Select **Save**.
 
 ## Associate partner contacts with an account
@@ -66,7 +66,7 @@ Website Access Permissions is a permission set, associated with a web role, that
 |             Name             |                                                                                                                   Description                                                                                                                   |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   Manage Content Snippets    |                          Allows the editing of Snippet controls. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)                           |
-|     Manage Site Markers      |                                                                                      Allows the editing of hyperlinks that use [sitemarkers](#sitemarkers)                                                                                      |
+|     Manage Site Markers      |    Allows the editing of hyperlinks that use site markers.                                                                                      |
 |     Manage Web Link Sets     | Allows the editing of web link sets, including adding and removing web links from a web link set. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 for Customer Engagement or on portals](manage-web-links.md) |
 | Preview Unpublished Entities |                                                                            Allows the viewing of portal-exposed entities that have a publishing state of **Draft**.                                                                             |
 |                              |                                                                                                                                                                                                                                                 |
@@ -76,6 +76,6 @@ To add website access permission to a web role, just create a new Website Access
 ### See also
 [Control webpage access for portals](webpage-access-control.md)  
 [Add record-based security using entity permissions for portals](assign-entity-permissions.md)  
-[Create a partner account on a partner relationship management (PRM) portal](#create-a-partner-account-on-a-partner-relationship-management-prm-portal)  
+[Create a partner account on a partner relationship management (PRM) portal](configure-web-roles-partner-portal.md#create-a-partner-account-on-a-prm-portal)  
 [Create web roles for portals](create-web-roles.md)  
 [Configure web roles for a PRM portal](configure-web-roles-partner-portal.md)

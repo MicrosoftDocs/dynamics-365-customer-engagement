@@ -2,7 +2,7 @@
 title: "Import data (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Overview of the data import feature, which enables data upload from various customer relationship management systems and other data sources."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 05/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -79,8 +79,10 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
   Parsing, transforming, and uploading of data is done by the asynchronous jobs that run in the background.  
   
 > [!NOTE]
->  By default, all custom entities are enabled for import. To determine if a business entity is enabled for import, see the entity metadata for the specific entity. If an entity is enabled for import, the entity metadata property `IsImportable` is set to `true`. The value of this property can’t be changed for the out-of-the-box business entities. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
-  
+> By default, all custom entities are enabled for import. To determine if a business entity is enabled for import, see the entity metadata for the specific entity. If an entity is enabled for import, the entity metadata property `IsImportable` is set to `true`. The value of this property can’t be changed for the out-of-the-box business entities. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
+>
+> We recommend limiting your import to 20K rows or fewer.
+
 ## In This Section  
  [Prepare Source Files](prepare-source-files-import.md)  
   

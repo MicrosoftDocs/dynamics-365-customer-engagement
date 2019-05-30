@@ -6,6 +6,7 @@
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -61,6 +62,7 @@
 #### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quote, order, or invoice](../sales-enterprise/add-product-quote-order-invoice.md)
+#### [Create a quote PDF](create-quote-pdf.md)
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)
@@ -85,7 +87,9 @@
 ### [Troubleshooting guide for administrators](troubleshooting-admin.md)
 ### [FAQs](faqs-sales.md)
 
-## [Developer Guide](../sales-enterprise/developer/developer-guide.md)
+## Developer Guide
+### [Get started](../sales-enterprise/developer/developer-guide.md)
+### [Enable sales order processing integration](../sales-enterprise/developer/enable-sales-order-processing-integration.md)
 ### Manual forecasting
 #### [Entity reference](../sales-enterprise/developer/reference/manual-forecasting-entity-reference.md)
 ##### [msdyn_forecastdefinition](../sales-enterprise/developer/reference/entities/msdyn_forecastdefinition.md)

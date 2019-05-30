@@ -175,4 +175,4 @@ Each step in an agent script is represented as an agent script task. An agent sc
  [Guide customer interactions with agent scripts](../unified-service-desk/guide-customer-interactions-agent-scripts.md)   
  [Agent Scripting (Hosted Control)](../unified-service-desk/agent-scripting-hosted-control.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+ [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)

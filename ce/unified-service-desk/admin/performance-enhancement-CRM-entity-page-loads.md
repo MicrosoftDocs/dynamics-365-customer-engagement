@@ -143,7 +143,7 @@ For example, with Chrome Process pooling, if you've set window navigation rule t
 To avoid the crash of Unified Service Desk, you can perform the following:
 
 - Remove or change the window navigation rule
-- Add the **BlockChromePoolingSecondNavigation** UII option
+- Add the **BlockChromeProcessSecondInlineNavigation** UII option
 
 #### Remove or change the window navigation rule
 
@@ -151,9 +151,9 @@ Window navigation rule for same entity navigation, you can remove or delete the 
 
 Window navigation rule for different entity navigation, you can change the window navigation rule to be more specific from which entity you want the navigation to happen. For example, you can set the window navigation rule from Contact or a Case entity to the Account entity type with the **Route Window** action and **In Place** type.
 
-#### Add the BlockChromePoolingSecondNavigation UII option
+#### Add the BlockChromeProcessSecondInlineNavigation UII option
 
-If you face challenges to change the window navigation rule, you can block the second inline navigation by adding the **BlockChromePoolingSecondNavigation** UII option and set the value as **True**.
+If you face challenges to change the window navigation rule, you can block the second inline navigation by adding the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **True**.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
@@ -165,7 +165,7 @@ If you face challenges to change the window navigation rule, you can block the s
 
 5. Choose **Others** for the **Global Option** field.
 
-6. Type **BlockChromePoolingSecondNavigation** for the **Name** field.
+6. Type **BlockChromeProcessSecondInlineNavigation** for the **Name** field.
 
 7. Set **True** for the **Value** field.
 

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 US Government - Feature availability | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/10/2019
+ms.date: 05/08/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -59,6 +59,7 @@ There are certain experiences that are currently not available with Dynamics 365
 - [Forms Professional (Preview)](https://docs.microsoft.com/business-applications-release-notes/April19/forms-pro/)
 - [Microsoft Dynamics Portals](https://docs.microsoft.com/dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365) (Currently available in GCC; GCC High availability in May, 2019)
 - [Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/admin-guide): The admin center can be used to open support tickets, but other functionality is currently not available in US Government tenants.
+- [Teams Integration](../../basics/teams-integration.md)
 
 There are a number of other business application apps and services that are not currently available as a service operating within the GCC or GCC High at this time. They include:
 

@@ -2,7 +2,7 @@
 title: "Enable viewing profile cards | MicrosoftDocs"
 description: "Enable viewing profile cards."
 ms.custom: 
-ms.date: 04/02/2019
+ms.date: 05/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,12 +23,17 @@ manager: kvivek
 
 Microsoft’s people experience is centered around profile cards that have been around in Microsoft Outlook and other Office apps and services on the web. When you select someone’s name or picture in Outlook or other Office apps, you can find information related to them on their profile card. The profile card is also sometimes referred to as contact card or people card. Profile cards are available on contacts and users in any Unified Interface app.
 
+> [!NOTE]
+> The profile card feature involves a network call to the Office 365 service to display the card. Endpoint data below lists requirements for connectivity from a user’s machine to Office 365. See [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges) for more information.
+
+ To determine your version, sign in to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, and in the upper-right corner of the screen, select the **Settings** button (![User profile Settings button](media/user-profile-settings-button.gif)) > **About**.  
+
 ## Prerequisites
 
 The following settings/environment are required for profile cards to be enabled in Dynamics 365 for Customer Engagement apps.
 
 1. Office 365 (Exchange Online)
-2. Dynamics 365 Unified Interface Build 9.1.0.4203 or higher
+2. Dynamics 365 Unified Interface Build 9.1.0.4626 or higher
 3. Enable Dynamics 365 Admin setting
    1. Navigate to **Settings** > **Administration** > **System Settings**
    2. Select the **General** tab.

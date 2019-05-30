@@ -35,7 +35,7 @@ The report displays the following elements:
 
 |       Element       |                                                                                                                        Description                                                                                                                         |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      Downloads      |                                 This is the location where the generated report is maintained.<br><br>`C:\Users\\\<User>\AppData\Roaming\Microsoft\Microsoft Dynamics® 365 Unified Service Desk\\\<Version>\BPA\BPALogs\`                                  |
+|      Downloads      |                                 This is the location where the generated report is maintained.<br><br>`C:\Users\<User>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>\BPA\BPALogs\`                                  |
 |    Computer name    |                                                         Local computer name on which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] performed the analysis.                                                          |
 | Analysis Start Time |                                                       The time at which the you start analysis. The format of the Analysis Start Time appears as a timestamp in the format <MM-DD-YYYY> <HH:MM:SS>.                                                        |
 |    Analysis Time    |                                                                                                    The time taken in seconds to complete the analysis.                                                                                                     |
@@ -64,7 +64,7 @@ You must expand a parameter to see the details, which illustrate the following:
 
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

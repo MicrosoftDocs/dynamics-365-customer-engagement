@@ -31,9 +31,7 @@ search.app:
 To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], sample applications have been provided that you can deploy to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and then use to understand how to develop an agent application using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
 > [!IMPORTANT]
-> The sample applications are not supported for production use.  
-  
- For information about the requirements for deploying a sample application, see [System requirements for deploying Unified Service Desk sample applications](../../unified-service-desk/admin/unified-service-desk-system-requirements.md#SampleApps).  
+> The sample applications are not supported for production use.
   
  For information about the sample applications, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   

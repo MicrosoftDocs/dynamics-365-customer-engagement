@@ -1,7 +1,7 @@
 ---
 title: "Post-installation and configuration guidelines for Dynamics 365 for Customer Engagement (on-premises) | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "05/09/2019"
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -190,6 +190,8 @@ net stop adfssrv
 net start adfssrv
 ```
 
+#### Enable Device Registration Service (DRS) on the federation server
+To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](https://docs.microsoft.com/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
 
 <a name="BKMK_usertrain"></a>   
 ## User training and adoption  

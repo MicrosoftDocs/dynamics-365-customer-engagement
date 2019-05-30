@@ -22,7 +22,7 @@ search.app:
 > [!NOTE]
 > This method is supported only for the online mode ([Xrm.WebApi.online](../online.md)).
 
-If you want to execute multiple requests in a transaction, you must pass in a change set as a parameter to this method. [Change sets](../../../../webapi/execute-batch-operations-using-web-api.md#bkmk_ChangeSets) represent a collection of operations that are executed in a transaction. You can also pass in individual requests and change sets together as parameters to this method.
+If you want to execute multiple requests in a transaction, you must pass in a change set as a parameter to this method. [Change sets](/powerapps/developer/common-data-service/webapi/execute-batch-operations-using-web-api#change-sets) represent a collection of operations that are executed in a transaction. You can also pass in individual requests and change sets together as parameters to this method.
 
 > [!NOTE]
 > You cannot include read operations (retrieve, retrieve multiple, and Web API functions) as part of a change set; this is as per the OData v4 specifications.

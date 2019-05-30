@@ -207,7 +207,7 @@ From this release, by default, the Help Improve [!INCLUDE[pn_unified_service_des
 
 Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] send  application-specific information like product usage, health, and performance data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. We use the information that we collect from the program to analyze and improve the service and product experience for our customers.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Help improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
 
 ### Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
@@ -229,7 +229,7 @@ As per the data definitions and stages are outlined in the GDPR, the data contai
 
 - **Diagnostic log files.** The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named **UnifiedServiceDesk-.log** are maintained at the following location on the client computer: 
 
-`c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<Version>`
+`c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
 
 In this case, you hold the responsibility to delete the Diagnostic log files. 
 

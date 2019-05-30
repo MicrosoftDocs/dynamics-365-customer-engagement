@@ -754,6 +754,238 @@
         }
       }
     },
+    "/api/v1.2/Keys": {
+      "get": {
+        "tags": [
+          "Keys"
+        ],
+        "summary": "Retrieves available tenant protection (encryption) keys.",
+        "operationId": "RetrieveAvailableTenantProtectionKeys",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "List of available tenant protection keys",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Key"
+              }
+            },
+            "examples": {
+              "application/json": [
+                [
+                  {
+                    "tenantId": "14af7e3d-7b14-4e5a-83e1-7d0ac773f4f7",
+                    "keyName": "exampleKey",
+                    "keyState": 3,
+                    "createdOn": "2019-04-30T00:00:00-03:00",
+                    "lockedOn": null
+                  }
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "/api/v1.2/Keys/RetrieveTenantKey": {
+      "get": {
+        "tags": [
+          "Keys"
+        ],
+        "summary": "Retrieves the current tenant protection (encryption) key.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "RetrieveTenantProtectionKey",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "The retrieved tenant protection key",
+            "schema": {
+              "$ref": "#/definitions/Key"
+            }
+          },
+          "404": {
+            "description": "NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1.2/Keys/Import": {
+      "post": {
+        "tags": [
+          "Keys"
+        ],
+        "summary": "Imports tenant protection (encryption) key.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "ImportKey",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "importKeyData",
+            "in": "body",
+            "description": "The key data to import",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ImportKeyData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Import Key Operation Succeeded",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            },
+            "examples": {
+              "application/json": [
+                {
+                  "operationId": "00000000-0000-0000-0000-000000000000",
+                  "status": "Succeeded",
+                  "errors": [],
+                  "information": [],
+                  "operationLocation": null,
+                  "resourceLocation": null,
+                  "context": {
+                    "items": {
+                      "importKeyState": "Ready",
+                      "admin.InstanceId": "e746736c-32dd-49cd-a0e4-e80586b56a30"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "400": {
+            "description": "There was an issue when either validating or importing the key",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            },
+            "examples": {
+              "application/json": [
+                {
+                  "operationId": "00000000-0000-0000-0000-000000000000",
+                  "status": "FailedToCreate",
+                  "errors": [
+                    {
+                      "subject": "ImportKey",
+                      "description": "There was an error validating or importing the key.",
+                      "code": null
+                    }
+                  ],
+                  "information": [],
+                  "operationLocation": null,
+                  "resourceLocation": null,
+                  "context": {
+                    "items": {
+                      "importeKeyState": "FailedImporting"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "/api/v1.2/Keys/Generate": {
+      "post": {
+        "tags": [
+          "Keys"
+        ],
+        "summary": "Generates tenant protection (encryption) key.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "GenerateKey",
+        "consumes": [
+          "application/json",
+          "text/json"
+        ],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "generateKeyData",
+            "in": "body",
+            "description": "Set of values required for generating the tenant protection (encryption) key",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/GenerateKeyData"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Tenant protection key generated",
+            "schema": {
+              "format": "byte",
+              "type": "string"
+            },
+            "examples": {
+              "application/json": [
+                "Qnl0ZUFycmF5Q29udGVudEV4YW1wbGU="
+              ]
+            }
+          }
+        }
+      }
+    },
+    "/api/v1.2/Keys/{keyName}/SetTenantProtectionKey": {
+      "post": {
+        "tags": [
+          "Keys"
+        ],
+        "summary": "Sets the tenant protection (encryption) key.",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "operationId": "SetTenantProtectionKey",
+        "consumes": [],
+        "produces": [
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "name": "keyName",
+            "in": "path",
+            "description": "The name of the key being set",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "202": {
+            "description": "Set Tenant Protection Key operation started",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          },
+          "400": {
+            "description": "There was an issue with either validating or setting the tenant protection key",
+            "schema": {
+              "$ref": "#/definitions/OperationStatus"
+            }
+          }
+        }
+      }
+    },
     "/api/v1.2/Languages": {
       "get": {
         "tags": [
@@ -937,7 +1169,7 @@
           "OperationStatus"
         ],
         "summary": "Retrieves operation status of a Customer Engagement instance.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetOperationStatusByQuery",
         "consumes": [],
         "produces": [
@@ -1213,7 +1445,7 @@
           "TestRuns"
         ],
         "summary": "Retrieves all the test suite runs.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteRuns",
         "consumes": [],
         "produces": [
@@ -1299,7 +1531,7 @@
           "TestRuns"
         ],
         "summary": "Retrieves the test suite based on the specified ID.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteRunById",
         "consumes": [],
         "produces": [
@@ -1349,7 +1581,7 @@
           "TestRuns"
         ],
         "summary": "Get all the test run's test cases.\r\nSupports OData $filter query parameters on Outcome field (e.g. $filter=Outcome eq 'Failed')",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestRunTestCases",
         "consumes": [],
         "produces": [
@@ -1396,7 +1628,7 @@
           "TestRuns"
         ],
         "summary": "Cancel an active test run.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "TestRuns_CancelActiveRun",
         "consumes": [],
         "produces": [
@@ -1446,7 +1678,7 @@
           "TestSuites"
         ],
         "summary": "Retrieves all the test suites for the specified Organization ID.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuites",
         "consumes": [],
         "produces": [
@@ -1527,7 +1759,7 @@
           "TestSuites"
         ],
         "summary": "Get the test suite details for the specified Organization ID and test suite name.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteByName",
         "consumes": [],
         "produces": [
@@ -1607,7 +1839,7 @@
           "TestTriggers"
         ],
         "summary": "Retrieves all the test suite triggers.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteTriggers",
         "consumes": [],
         "produces": [
@@ -1702,7 +1934,7 @@
           "TestTriggers"
         ],
         "summary": "Get the test suite trigger by name.",
-	"description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
+        "description": "For a list of region-specific service URLs, see [Service URL](/dynamics365/customer-engagement/developer/online-management-api/get-started-online-management-api#service-url)",
         "operationId": "GetTestSuiteTriggerByName",
         "consumes": [],
         "produces": [
@@ -1854,36 +2086,46 @@
         "Version",
         "Label"
       ],
+      "description": "An object defining the instance backup",
       "type": "object",
       "properties": {
         "Id": {
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "description": "ID of the instance backup"
         },
         "Status": {
-          "type": "string"
+          "type": "string",
+          "description": "Status of the instance backup"
         },
         "CreatedBy": {
-          "type": "string"
+          "type": "string",
+          "description": "User who created the instance backup"
         },
         "CreatedOn": {
           "format": "date-time",
-          "type": "string"
+          "type": "string",
+          "description": "Date and time of the creation of the instance backup"
         },
         "ExpiresOn": {
           "format": "date-time",
-          "type": "string"
+          "type": "string",
+          "description": "Expiration date and time of the instance backup"
         },
         "Version": {
-          "type": "string"
+          "type": "string",
+          "description": "Version of the instance backup"
         },
         "Notes": {
-          "type": "string"
+          "type": "string",
+          "description": "Notes associated with the instance backup"
         },
         "Label": {
+          "description": "Label of the instance backup",
           "type": "string"
         },
         "IsAzureBackup": {
+          "description": "For internal use only",
           "type": "boolean"
         },
         "AzureStorageInformation": {
@@ -1898,6 +2140,7 @@
         "StorageAccountName"
       ],
       "type": "object",
+      "description": "For internal use only. Azure storage is not supported.",
       "properties": {
         "ContainerName": {
           "type": "string",
@@ -1948,11 +2191,12 @@
         "Status"
       ],
       "type": "object",
+      "description": "Status of the operation",
       "properties": {
         "OperationId": {
           "format": "uuid",
           "type": "string",
-          "description": "ID of the backup operation."
+          "description": "ID of the operation"
         },
         "Status": {
           "enum": [
@@ -1970,15 +2214,19 @@
             "Aborted",
             "Tombstone",
             "Deleting",
-            "Deleted"
+            "Deleted",
+            "NotFound",
+            "Conflict"
           ],
           "type": "string",
+          "description": "State of the operation",
           "x-ms-enum": {
             "name": "OperationState"
           }
         },
         "Errors": {
           "type": "array",
+          "description": "Set of values to display errors during an operation",
           "items": {
             "$ref": "#/definitions/ItemDescription"
           },
@@ -1986,16 +2234,19 @@
         },
         "Information": {
           "type": "array",
+          "description": "Set of values to display information during an operation",
           "items": {
             "$ref": "#/definitions/ItemDescription"
           },
           "readOnly": true
         },
         "OperationLocation": {
-          "type": "string"
+          "type": "string",
+          "description": "Location of the operation"
         },
         "ResourceLocation": {
-          "type": "string"
+          "type": "string",
+          "description": "Location of the resource"
         },
         "Context": {
           "$ref": "#/definitions/OperationContext",
@@ -2005,32 +2256,39 @@
     },
     "ItemDescription": {
       "type": "object",
+      "description": "Set of values to define an error or information item",
       "properties": {
         "Subject": {
-          "type": "string"
+          "type": "string",
+          "description": "Subject of the item"
         },
         "Description": {
-          "type": "string"
+          "type": "string",
+          "description": "Description of the item"
         },
         "Code": {
-          "type": "string"
+          "type": "string",
+          "description": "Code of the item"
         }
       }
     },
     "OperationContext": {
       "type": "object",
+      "description": "The operation context object",
       "properties": {
         "Items": {
           "type": "object",
+          "description": "The item object",
           "additionalProperties": {
-            "type": "object"
+            "type": "object",
+            "description": "An object defining additional properties for an item"
           },
           "readOnly": true
         }
       }
     },
     "Instance": {
-      "description": "A representation of an organization",
+      "description": "A representation of an environment",
       "required": [
         "Id",
         "UniqueName",
@@ -2040,34 +2298,33 @@
         "State",
         "Type",
         "FriendlyName",
-        "DomainName",
-        "InitialUserEmail"
+        "DomainName"
       ],
       "type": "object",
       "properties": {
         "Id": {
           "format": "uuid",
-          "description": "The id of the instance",
+          "description": "ID of the instance",
           "type": "string"
         },
         "UniqueName": {
-          "description": "The unique name of the instance",
+          "description": "Unique name of the instance",
           "type": "string"
         },
         "Version": {
-          "description": "The version of the instance",
+          "description": "Version of the instance",
           "type": "string"
         },
         "ApplicationUrl": {
-          "description": "The url to the web application of the instance",
+          "description": "URL to the web application of the instance",
           "type": "string"
         },
         "ApiUrl": {
-          "description": "The url of the web api for the instance",
+          "description": "URL of the Web API for the instance",
           "type": "string"
         },
         "State": {
-          "description": "The state of the instance",
+          "description": "State of the instance",
           "enum": [
             "None",
             "Ready",
@@ -2093,11 +2350,26 @@
           "type": "boolean"
         },
         "AdminMode": {
-          "description": "Whether the instance is in admin mode",
+          "description": "Indicates whether the instance is in admin mode",
           "type": "boolean"
         },
+        "IsLocked": {
+          "description": "Indicates whether the instance is locked",
+          "type": "boolean"
+        },
+        "ProtectionStatus": {
+          "description": "Indicated whether the instance is Microsoft or Tenant encrypted",
+          "enum": [
+            "MicrosoftEncrypted",
+            "TenantEncrypted"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "ProtectionStatus"
+          }
+        },
         "Type": {
-          "description": "The type of the instance",
+          "description": "The type of instance",
           "enum": [
             "None",
             "Production",
@@ -2114,20 +2386,20 @@
           }
         },
         "Purpose": {
-          "description": "The purpose of the instance",
+          "description": "Purpose of the instance",
           "type": "string"
         },
         "FriendlyName": {
-          "description": "The friendly name of the instance",
+          "description": "Friendly name of the instance",
           "type": "string"
         },
         "DomainName": {
-          "description": "The public domain name of the instance.",
+          "description": "Public domain name of the instance.",
           "type": "string"
         },
         "BaseLanguage": {
           "format": "int32",
-          "description": "The base language code for the instance",
+          "description": "Base language code for the instance",
           "type": "integer"
         },
         "InitialUserEmail": {
@@ -2136,7 +2408,47 @@
         },
         "SecurityGroupId": {
           "format": "uuid",
-          "description": "The (optional) security group set for the instance.",
+          "description": "Security group set for the instance.",
+          "type": "string"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "FeatureStatus": {
+      "type": "object",
+      "properties": {
+        "FeatureName": {
+          "type": "string"
+        },
+        "DisplayName": {
+          "type": "string"
+        },
+        "CanBeReset": {
+          "type": "boolean"
+        },
+        "Enabled": {
+          "type": "boolean"
+        },
+        "IsAllowed": {
+          "type": "boolean"
+        },
+        "NotBefore": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "NotAfter": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "MinVersion": {
+          "type": "string"
+        },
+        "MaxVersion": {
           "type": "string"
         },
         "AdditionalProperties": {
@@ -2216,6 +2528,52 @@
           "format": "uuid",
           "description": "The (optional) security group set for the instance.",
           "type": "string"
+        },
+        "AdditionalProperties": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "LockTenantKeyData": {
+      "type": "object",
+      "description": "The set of values to lock the tenant protection key",
+      "properties": {
+        "KeyName": {
+          "type": "string",
+          "description": "Name of the protection key to lock"
+        }
+      }
+    },
+    "CopyRequest": {
+      "type": "object",
+      "properties": {
+        "FriendlyName": {
+          "description": "Friendly name of the instance.\r\nThis value is from the required \"Name\" input of the Copy UI and is mapped to OrganizationLifecycle.OrganizationFriendlyName in Geo config db.",
+          "type": "string"
+        },
+        "SecurityGroupId": {
+          "format": "uuid",
+          "description": "ID of the security group for which members will sync to this instance\r\nThis value is from the optional Security Group input of the Copy UI and is mapped to OrganizationLifecycle.SecurityGroup in Geo config db.",
+          "type": "string"
+        },
+        "TargetInstanceId": {
+          "format": "uuid",
+          "description": "Target instance ID",
+          "type": "string"
+        },
+        "CopyType": {
+          "description": "Copy Type.",
+          "enum": [
+            "FullCopy",
+            "MinimalCopy"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "CopyType"
+          }
         },
         "AdditionalProperties": {
           "type": "object",
@@ -2332,14 +2690,18 @@
         "DomainName"
       ],
       "type": "object",
+      "description": "An object defining the domain name settings",
       "properties": {
         "DomainName": {
-          "type": "string"
+          "type": "string",
+          "description": "Name of the domain"
         },
         "AdditionalProperties": {
           "type": "object",
+          "description": "An object defining additional properties for the domain",
           "additionalProperties": {
-            "type": "string"
+            "type": "string",
+            "description": "Additional properties for the domain"
           }
         }
       }
@@ -2365,6 +2727,7 @@
         "Consumed"
       ],
       "type": "object",
+      "description": "Object containing the information about the instance type",
       "properties": {
         "Type": {
           "enum": [
@@ -2378,17 +2741,102 @@
             "Developer"
           ],
           "type": "string",
+          "description": "Type of instance",
           "x-ms-enum": {
             "name": "InstanceType"
           }
         },
         "Total": {
           "format": "int32",
-          "type": "integer"
+          "type": "integer",
+          "description": "Total storage capacaity for the instance"
         },
         "Consumed": {
           "format": "int32",
-          "type": "integer"
+          "type": "integer",
+          "description": "Consumed storage capacaity for the instance"
+        }
+      }
+    },
+    "Key": {
+      "description": "Set of values to define a tenant protection (encryption) key",
+      "required": [
+        "TenantId"
+      ],
+      "type": "object",
+      "properties": {
+        "TenantId": {
+          "format": "uuid",
+          "type": "string",
+          "description": "ID of the tenant where the key is present"
+        },
+        "KeyName": {
+          "type": "string",
+          "description": "Name of the key"
+        },
+        "KeyState": {
+          "enum": [
+            "Imported",
+            "Installing",
+            "Available",
+            "Active",
+            "Locked",
+            "InstallationFailed",
+            "None"
+          ],
+          "type": "string",
+          "description": "State of the key",
+          "x-ms-enum": {
+            "name": "KeyState"
+          }
+        },
+        "CreatedOn": {
+          "format": "date-time",
+          "description": "Date on which the key was created",
+          "type": "string"
+        },
+        "LockedOn": {
+          "format": "date-time",
+          "type": "string",
+          "description": "Date on which the key was locked"
+        }
+      }
+    },
+    "ImportKeyData": {
+      "type": "object",
+      "description": "Set of values to import a tenant protection (encryption) key",
+      "properties": {
+        "KeyName": {
+          "type": "string",
+          "description": "The name of the key to import"
+        },
+        "KeyType": {
+          "format": "int32",
+          "type": "integer",
+          "description": "The type of the key to import"
+        },
+        "KeyPassword": {
+          "type": "string",
+          "description": "The password of the key to import"
+        },
+        "Key": {
+          "format": "byte",
+          "type": "string",
+          "description": "The raw data of the key certificate as a byte array"
+        }
+      }
+    },
+    "GenerateKeyData": {
+      "type": "object",
+      "description": "Set of values required for generating the tenant protection (encryption) key",
+      "properties": {
+        "SubjectName": {
+          "type": "string",
+          "description": "Subject name for the protection key"
+        },
+        "KeyPassword": {
+          "type": "string",
+          "description": "Password for the protection key"
         }
       }
     },
@@ -2399,15 +2847,16 @@
         "LocalizedName"
       ],
       "type": "object",
+      "description": "Set of values required for defining a language",
       "properties": {
         "LCID": {
           "format": "int32",
           "type": "integer",
-          "description": "Locale ID of the language."
+          "description": "Locale ID of the language"
         },
         "Name": {
           "type": "string",
-          "description": "The language name."
+          "description": "The language name"
         },
         "LocalizedName": {
           "type": "string"
@@ -2415,41 +2864,41 @@
       }
     },
     "EnvironmentMetadata": {
-      "description": "A representation of an EnvironmentMetadata of an UserNotification.",
+      "description": "A representation of an environment metadata of an user notification.",
       "type": "object",
       "properties": {
         "Id": {
           "format": "uuid",
-          "description": "The id of the EnvironmentMetadata.",
+          "description": "ID of the environment metadata",
           "type": "string"
         },
         "Name": {
-          "description": "The name of the EnvironmentMetadata.",
+          "description": "Name of the environment metadata",
           "type": "string"
         },
         "Geo": {
-          "description": "The geo of the EnvironmentMetadata.",
+          "description": "Geographic location of the environment metadata",
           "type": "string"
         }
       }
     },
     "UserNotification": {
-      "description": "A representation of a notification that has been retrieved from/already exists in the Notification Service.",
+      "description": "A representation of a notification that has been retrieved from or already exists in the Notification Service",
       "type": "object",
       "properties": {
         "NotificationId": {
           "format": "uuid",
-          "description": "The id of the current notification.",
+          "description": "ID of the current notification",
           "type": "string"
         },
         "AdminId": {
           "format": "uuid",
-          "description": "The id of the admin associated with the notification.",
+          "description": "ID of the admin associated with the notification",
           "type": "string"
         },
         "TenantId": {
           "format": "uuid",
-          "description": "The id of the tenant associated with the notification.",
+          "description": "ID of the tenant associated with the notification",
           "type": "string"
         },
         "CreatedAt": {
@@ -2465,7 +2914,7 @@
           }
         },
         "State": {
-          "description": "The state of the notification.",
+          "description": "The state of the notification",
           "enum": [
             "None",
             "Ready",
@@ -2547,6 +2996,7 @@
         "Name"
       ],
       "type": "object",
+      "description": "Set of values to define a service (release) version",
       "properties": {
         "LocalizedName": {
           "type": "string",
@@ -2572,6 +3022,18 @@
         }
       }
     },
+    "IsSupportUserRequest": {
+      "required": [
+        "UserName"
+      ],
+      "type": "object",
+      "properties": {
+        "UserName": {
+          "type": "string",
+          "description": "Name of the user"
+        }
+      }
+    },
     "Template": {
       "required": [
         "Name",
@@ -2580,6 +3042,7 @@
         "SupportedReleases"
       ],
       "type": "object",
+      "description": "Set of values to define a template",
       "properties": {
         "Name": {
           "type": "string",
@@ -2603,17 +3066,19 @@
     },
     "SupportedReleases": {
       "type": "object",
+      "description": "Set of values to define supported releases",
       "properties": {
         "Id": {
           "format": "uuid",
           "type": "string",
-          "description": "Releases supported by the template"
+          "description": "ID of the supported release"
         },
         "Name": {
           "type": "string"
         },
         "Types": {
           "type": "array",
+          "description": "Type of the supported release",
           "items": {
             "enum": [
               "None",
@@ -2637,11 +3102,12 @@
         "Enabled"
       ],
       "type": "object",
+      "description": "Set of values to define Tenant Application Identity",
       "properties": {
         "Id": {
-          "description": "",
           "format": "uuid",
-          "type": "string"
+          "type": "string",
+          "description": "ID of the Tenant Application Identity"
         },
         "AadApplicationId": {
           "format": "uuid",
@@ -2727,6 +3193,9 @@
         },
         "EventLogs": {
           "type": "string"
+        },
+        "TestCasesToRun": {
+          "$ref": "#/definitions/TestCasesToRun"
         }
       }
     },
@@ -2744,6 +3213,9 @@
           "type": "string"
         },
         "OrganizationVersion": {
+          "type": "string"
+        },
+        "OrganizationRegion": {
           "type": "string"
         }
       }
@@ -2778,6 +3250,25 @@
         },
         "Tags": {
           "type": "string"
+        }
+      }
+    },
+    "TestCasesToRun": {
+      "type": "object",
+      "properties": {
+        "FullNameMatchRegEx": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "StartManualTestRunRequest": {
+      "type": "object",
+      "properties": {
+        "TestCasesToRun": {
+          "$ref": "#/definitions/TestCasesToRun"
         }
       }
     },
@@ -2960,6 +3451,9 @@
         "OrganizationUrl": {
           "type": "string"
         },
+        "OrganizationRegion": {
+          "type": "string"
+        },
         "TenantId": {
           "type": "string"
         }
@@ -2970,6 +3464,12 @@
       "properties": {
         "CallbackUrl": {
           "type": "string"
+        },
+        "Context": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       }
     },
@@ -3011,6 +3511,9 @@
         "OrganizationUniqueName": {
           "type": "string"
         },
+        "OrganizationRegion": {
+          "type": "string"
+        },
         "AdminUserName": {
           "type": "string"
         },
@@ -3033,6 +3536,70 @@
         },
         "Password": {
           "type": "string"
+        }
+      }
+    },
+    "TestRunCompletionCallbackNotification": {
+      "type": "object",
+      "properties": {
+        "EnvironmentName": {
+          "type": "string"
+        },
+        "TestSuiteName": {
+          "type": "string"
+        },
+        "TestSuiteType": {
+          "enum": [
+            "Generic",
+            "Organization",
+            "PowerApp",
+            "Flow"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestSuiteType"
+          }
+        },
+        "TestRunTrigger": {
+          "enum": [
+            "Unknown",
+            "Manual",
+            "OrganizationDatabaseUpdate",
+            "OrganizationDatabaseUpgrade",
+            "OrganizationBitsUpdate",
+            "OrganizationPackageInstall",
+            "OrganizationPackageUninstall"
+          ],
+          "type": "string",
+          "x-ms-enum": {
+            "name": "TestRunTriggerType"
+          }
+        },
+        "TestRunStatus": {
+          "type": "string"
+        },
+        "TestRunId": {
+          "type": "string"
+        },
+        "Context": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "GetTestSuiteTestCasesResponseApi": {
+      "type": "object",
+      "properties": {
+        "TestCases": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/TestAssemblyResultApi"
+            }
+          }
         }
       }
     },

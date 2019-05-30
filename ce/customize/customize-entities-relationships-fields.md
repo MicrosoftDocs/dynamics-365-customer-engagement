@@ -1,7 +1,7 @@
 ---
 title: "Customize entities, relationships, and fields | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/28/2018
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,11 @@ search.app:
 
 # Customize entities, relationships, and fields
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 This section describes how to create and customize entities, entity relationships, and fields. 
+
+[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
 
 ### See also
 [Create or edit entities (record types)](create-edit-entities.md)

@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 03/19/2019
+ms.date: 05/03/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
@@ -38,7 +38,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="administrator/omni-channel-engagement-hub-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omni-channel-engagement-hub-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 <li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
-<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat widget](administrator/set-up-chat-widget.md)">Configure a chat widget</a></li>
+<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat channel](administrator/set-up-chat-widget.md)">Configure a chat channel</a></li>
+<li><a href="administrator/configure-sms-channel.md" data-raw-source="[Configure an SMS channel](administrator/configure-sms-channel.md)">Configure an SMS channel</a></li>
 </td>
 </tr>
 <tr>
@@ -47,13 +48,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <h2> I'm an agent </h2>
 
 <li><a href="agent/omni-channel-engagement-hub-agent-introduction.md" data-raw-source="[Omni-channel agent](agent/omni-channel-engagement-hub-agent-introduction.md)">Omni-channel agent</a></li>
-<li><a href="agent/agent-csh/csh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-csh/csh-omni-channel-engagement-hub-agent.md)">Use on Customer Service Hub</a></li>
+<li><a href="agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)">Use on Omni-channel Engagement Hub</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
-<li><a href="agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Customer Service Hub)](agent/agent-csh/csh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Customer Service Hub)</a> </li>
+<li><a href="agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omni-channel Engagement Hub)](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omni-channel Engagement Hub)</a> </li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
-<li><a href="agent/agent-csh/csh-conversation-control.md" data-raw-source="[View communication panel (Customer Service Hub)](agent/agent-csh/csh-conversation-control.md)">View communication panel (Customer Service Hub)</a></li>
+<li><a href="agent/agent-oceh/oceh-conversation-control.md" data-raw-source="[View communication panel (Omni-channel Engagement Hub)](agent/agent-oceh/oceh-conversation-control.md)">View communication panel (Omni-channel Engagement Hub)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
 <td>
@@ -74,14 +75,18 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md" data-raw-source="[Configure the supervisor dashboard](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)">Configure the supervisor dashboard</a></li>
 <li><a href="supervisor/add-users-supervisor-configuration.md" data-raw-source="[Add users to the supervisor configuration](add-users-supervisor-configuration.md)">Add users to the supervisor configuration</a></li>
 </td> -->
+</tr>
+
+<tr>
 <td>
 
 <h2> I'm a developer </h2>
 
-<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Walkthrough: Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Walkthrough: Initiate a chat</a></li>
-<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Walkthrough: Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Walkthrough: Send authentication token</a></li>
-<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Walkthrough: Manage custom context](developer/how-to/send-context-starting-chat.md)">Walkthrough: Manage custom context</a></li>
+<li><a href="developer/how-to/initiate-chat-wait-time.md" data-raw-source="[Initiate a chat](developer/how-to/initiate-chat-wait-time.md)">Initiate a chat</a></li>
+<li><a href="developer/how-to/send-auth-token-starting-chat.md" data-raw-source="[Send authentication token](developer/how-to/send-auth-token-starting-chat.md)">Send authentication token</a></li>
+<li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Manage custom context](developer/how-to/send-context-starting-chat.md)">Manage custom context</a></li>
+<li><a href="developer/bot-escalate-end-conversation.md" data-raw-source="[Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)">Enable a bot to escalate and end conversation</a></li>
 <li><a href="developer/omni-channel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omni-channel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
-</td>
 </tr>
+</td>
 </table>

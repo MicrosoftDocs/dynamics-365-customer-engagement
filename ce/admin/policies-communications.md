@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/25/2018
+ms.date: 05/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: e351e995-d299-4817-8e84-0a70743627bd
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -120,8 +120,8 @@ Emails regarding the scheduling or rescheduling of your update will be sent with
  
 - OCE: 11 AM to 9 PM
 - JPN: 10 AM to 7 PM
-- APJ: 2 PM to 8 PM
-- IND: 12 PM to 9 PM
+- APJ: 3 PM to 9 PM
+- IND: 7:30 PM to 1 AM
 - EUR: 6 PM to 3 AM
 - GBR: 6 PM to 3 AM
 - SAM: 12 AM to 10 AM

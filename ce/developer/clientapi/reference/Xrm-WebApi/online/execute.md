@@ -45,7 +45,7 @@ search.app:
 <ul><li>Specify <code>undefined</code> if you are executing a CRUD request.</li>
 <li>Specify <code>null</code> if the action or function to execute is not bound to any entity.</li>
 <li>Specify <code>entity</code> in case the action or function to execute is bound to an entity. </li></ul>
-<li><b>operationName</b>: (Optional). String. Name of the action, function, or one of the following values if you are executing a CRUD request: &quot;Create&quot;, &quot;Retrieve&quot;, &quot;RetrieveMultiple&quot;, &quot;Update&quot;, or &quot;Delete&quot;.</li>
+<li><b>operationName</b>: (Optional). String. Name of the action, function, or one of the following values if you are executing a CRUD request: &quot;Create&quot;, &quot;Retrieve&quot;, &quot;Update&quot;, or &quot;Delete&quot;.</li>
 <li><b>operationType</b>: (Optional). Number. Indicates the type of operation you are executing; specify one of the following values:
 <br/><code>0: Action</code>
 <br/><code>1: Function</code>
@@ -98,7 +98,7 @@ On success, returns a promise object with the attributes specified earlier in th
 
 ### Execute an action
 
-The following example demonstrates how to execute the <xref:Microsoft.Dynamics.CRM.WinOpportunity> action. The request object is created based on the action definition here: [Unbound actions](../../../../webapi/use-web-api-actions.md#bkmk_unboundActions)
+The following example demonstrates how to execute the <xref:Microsoft.Dynamics.CRM.WinOpportunity> action. The request object is created based on the action definition here: [Unbound actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions#unbound-actions)
 
 ```JavaScript
 var Sdk = window.Sdk || {};
