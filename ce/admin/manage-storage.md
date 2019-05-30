@@ -37,11 +37,35 @@ You can manage your organization’s data storage capacity in connection with yo
   
 ## Monitor the amount of storage your organization is using  
 
-You now monitor storage usage in the [Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/capacity-storage).
+Most customers can now monitor storage usage in the [Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/capacity-storage).
    
+If you're a customer with a non-commercial subscription, such as Dynamics 365 for Customer Engagement for U.S. Government (Dynamics 365 GCC and GCC High), follow the steps below to view storage consumption.
+  
+If your total storage used is 80% or more of capacity, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admins will receive email notifications and alerts will appear on the Service Health page.  
+  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+  
+3. Choose the **Service Health** tab.  
+  
+   ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
+
 ## Add storage to Dynamics 365 for Customer Engagement apps (online)  
  
 As a global or billing administrator, you can purchase additional storage for your company on Microsoft 365 admin center by following the steps below. [Learn how to find your global or billing administrator](../basics/find-administrator-support.md). 
+
+ Monitor your Customer Engagement apps storage to make sure you’ve got lots of capacity for growth.  
+  
+ If your total storage used is 80% or more of capacity, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps admins will receive email notifications and alerts will appear on the Service Health page.  
+  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+  
+3. Choose the **Service Health** tab.  
+  
+   ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
 
 If you purchase through volume licensing or a cloud solutions provider, please contact your partner directly.  
  
