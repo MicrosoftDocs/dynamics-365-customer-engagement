@@ -27,6 +27,9 @@
     - name: Customer Service
       tocHref: /dynamics365/customer-engagement/customer-service/
       topicHref: /dynamics365/customer-engagement/customer-service/overview
+    - name: Universal Resource Scheduling
+      tocHref: /dynamics365/customer-engagement/common-scheduler/
+      topicHref: /dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling
     - name: Field Service
       tocHref: /dynamics365/customer-engagement/field-service/
       topicHref: /dynamics365/customer-engagement/field-service/overview
