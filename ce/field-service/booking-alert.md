@@ -34,7 +34,7 @@ To bring important notifications to the dispatchers' attention, Dynamics 365 for
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Manual creation of a booking alert](./media/scheduling-booking-alert-schedule-board.png)
+> ![Screenshot of full schedule board showing booking alert](./media/scheduling-booking-alert-schedule-board.png)
 
 There are three significant additional benefits: 
 
