@@ -28,12 +28,13 @@ search.app:
 
 # Booking Alerts
 
+Beyond scheduling work orders to resources, dispatchers often have to perform many other tasks for their organization and customers. Typical examples include confirming appointments, billing concerns, ensuring customer satisfaction and more. 
+
+To help dispatchers keep track of tasks, Dynamics 365 for Field Service offers a feature called Booking Alerts that display notes and reminders on the schedule board where dispatchers spend most of their time.
+
 ## Prerequisites
 > [!Note]
 >
-
-
-
 
 Booking alerts are a way to draw the dispatcher’s attention to an issue that needs attention. This could be that a technician is running late or that prerequisites for a job have not been met. One could alternatively use different color codes for the bookings, however they are based on the booking status and we do not necessarily want to change this just to alert the dispatcher.
 
