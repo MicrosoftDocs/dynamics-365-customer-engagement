@@ -61,6 +61,8 @@ Field technicians use the Field Service Mobile app to view their schedules, work
 
 > ![Screenshot of Field Service Mobile showing a barcode on a record](./media/mobile-quick-facts-barcode.png)
 
+> ![Screenshot of Field Service Mobile showing a barcode on a record](./media/mobile-quick-facts-barcode-smaller.png)
+
 - **Dictation**: This allows field technicians to enter notes and important work order data using the device's speech-to-text capabilities. It's particularly helpful for field technicians who wear protective gloves and can't type information into mobile forms.
 
 - **Signature**: Capture a digital signature from a customer in the mobile form, often as approval of completed work. For more comprehensive and legally binding requirements, digital signature service providers can be integrated with.
