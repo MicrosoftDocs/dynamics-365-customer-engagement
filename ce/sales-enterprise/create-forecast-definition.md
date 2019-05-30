@@ -37,9 +37,10 @@ Capture information about parameters such as the period for which the forecast s
 
 Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 for Customer Engagement for sales forecast: 
 
-**Forecast manager**.  
-
-**Forecast user**. 
+| Security role        |	Description                                 |
+|----------------------|----------------------------------------------|  
+|**Forecast manager**  | Create, assign, and edit forecast definition in your business unit and other business units that are subordinate to your business unit.<br> Delete forecast definitions that are defined only for your business unit.<br> Share forecast definitions with all users in your organization. |
+|**Forecast user**     | Create forecast definitions only for yourself.<br> Edit and delete forecast definitions that are defined by you. <br> View forecast definitions that are defined for your business unit. |
 
 ## Prerequisites
 
