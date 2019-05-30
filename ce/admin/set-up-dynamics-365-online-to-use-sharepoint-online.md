@@ -36,8 +36,6 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
 > [!IMPORTANT]
 >  This topic is for organizations who wish to deploy for the first time or upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. After you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you can’t revert to the previous client-based authentication method.  
 > 
->  For some organizations, using the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution might be a better choice. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SharePoint integration using the list component](configure-sharepoint-integration-using-list-component.md).  
-> 
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement apps to SharePoint Online](https://go.microsoft.com/fwlink/p/?linkid=837790)  
   

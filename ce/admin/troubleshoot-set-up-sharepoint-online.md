@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot SharePoint Online integration with Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/19/2019
+ms.date: 05/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Troubleshoot SharePoint Online integration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 If you experience any of following situations, use the steps below to correct.
 
