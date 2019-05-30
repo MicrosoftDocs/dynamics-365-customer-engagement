@@ -68,6 +68,7 @@
 
 
 # Field Service Mobile
+## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)
