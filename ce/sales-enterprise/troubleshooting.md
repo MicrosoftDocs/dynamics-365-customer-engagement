@@ -214,13 +214,11 @@ Make sure the product you want to add is in the Active state, and then add the p
 
 **Reason**
 
-There might be several reasons pertaining to publishing failure. The following are some of the examples that might have caused the failure: 
+There might be several reasons pertaining to publishing failure. The following are some examples that might have caused the failure: 
 - All the users under the selected hierarchy are assigned forecast manager or forecast user role. 
 - No users are disabled under the selected hierarchy when you publish the forecast definition.  
 
 **Resolution**
-
-In this example, we have created **Bart FY'19** forecast definition. The publishing of forecast definition failed due to a user in Bart's hierarchy did not has forecast security role assigned. To verify this:  
 
 1. Go to **Settings** > **System Jobs**.
 
@@ -239,15 +237,39 @@ In this example, we have created **Bart FY'19** forecast definition. The publish
     > [!div class="mx-imgBorder"]
     > ![Select failed system job](media/troubleshooting-forecast-system-job-select.png "Select failed system job")
 
-4. In the information page, you can see the error message highlighted in **Yellow** with the reason why the forecast definition publishing is failed. Select Details section to further drill-down in to the error details. In this example, you can see that the error has occurred due to insufficient user privileges in Bart's hierarchy. 
+4. In the information page, you can see the error message highlighted in **Yellow** with the reason why the forecast definition publishing is failed. Select **Details** section to further drill-down in to the error details. In this example, you can see that the error has occurred due to insufficient user privileges in Bart's hierarchy. 
 
     > [!div class="mx-imgBorder"]
     > ![Failed reason in information page](media/troubleshooting-forecast-system-job-failed-reason.png "Failed reason in information page")
 
-5. Take the necessary actions to resolve the error and republish the forecast definition. In this example to resolve the error, assign Forecast manager or Forecast user roles to all the user under Bart's hierarchy as required and republish the forecast definition. 
+5. Take the necessary actions to resolve the error and republish the forecast definition. 
+    
+    In this example to resolve the error, assign Forecast manager or Forecast user roles to all the user under Bart's hierarchy as required and republish the forecast definition.
 
+### Why am I unable to recalculation forecast?
 
-### 
+**Reason**
+
+There might be several reasons pertaining to the failure of recalculation of the forecast. The following are some examples that might have caused the failure: 
+- User roles (forecast manager or forecast user) might have been removed under the selected hierarchy after the forecast was created. 
+- In the **Forecast metric** value, for **Revenue** field, the **Rollup Fields** value is changed.
+
+**Resolution**
+
+1. Go to **Change area** and select **Sales** > **Forecasts**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select forecasts](media/troubleshooting-forecast-changearea-sales-forecasts.png "Select forecasts")
+
+    A list of published forecasts are displayed.
+
+2. In **Last recalculated on** column displays a error icon corresponding to recalculation failed forecast. Place cursor over the icon and a message/reason for the error is displayed.
+ 
+    > [!div class="mx-imgBorder"]
+    > ![View recalculation failed icon](media/troubleshooting-forecast-recalculation-failed-error-message.png "View recalculation failed icon")
+
+4. Take necessary actions to resolve the error and recalculate forecast. 
+
 
 ### See Also
 

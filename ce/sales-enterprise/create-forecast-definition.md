@@ -110,7 +110,7 @@ Generating a forecast is a background process. After all the forecasts are gener
 > ![Published forecast definition](media/published-forecast-definitions.png "Published forecast definition")
 
 > [!NOTE]
-> If the publishing fails, the forecast definition’s status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](troubleshooting.md)
+> If the publishing fails, the forecast definition’s status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](../sales-enterprise/troubleshooting.md#why-am-i-unable-to-publish-forecast-definition).
 
 ## See also
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
