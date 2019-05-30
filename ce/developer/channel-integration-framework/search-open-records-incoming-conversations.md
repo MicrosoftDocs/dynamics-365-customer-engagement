@@ -2,7 +2,7 @@
 title: "Search and open records on an incoming conversation | MicrosoftDocs"
 description: "Read how you can use the Channel Integration Framework APIs to search and open records on an incoming conversation."
 keywords: ""
-ms.date: 05/20/2019
+ms.date: 05/30/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
@@ -75,7 +75,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555"; // The contact number to be searched
             var entityname = "account"; // Entity type whose records are to be searched
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     // Display the name and telephone number of the retrieved contact on the console
@@ -93,7 +93,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555"; // The contact number to be searched
             var entityname = "account"; // Entity type whose records are to be searched
 
-            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords(entityname, "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'" + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     count = Object.keys(res).length;
@@ -115,7 +115,7 @@ The sample given below covers four scenarios:
             var contactno = "555-5555"; // The contact number to be searched
 
             // Set the value of searchOnly parameter to True if you only want to get results of the search as a promise result and not open the record or search page. More information: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/channel-integration-framework/reference/microsoft-ciframework/searchandopenrecords#parameters.
-            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", true).then(
+            Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'"  + "&$search=" + `${contactno}`, true).then(
                 function success(result) {
                     res = JSON.parse(result);
                     count = Object.keys(res).length;
@@ -129,7 +129,7 @@ The sample given below covers four scenarios:
                     console.log(error.message);
                 });
 
-            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", true).then(
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'"  + "&$search=" + `${contactno}`, true).then(
                 function success(result) {
                     res = JSON.parse(result);
                     count = Object.keys(res).length;
@@ -151,7 +151,7 @@ The sample given below covers four scenarios:
             var contactno = "000040000025"; // The contact number to be searched
             var callername = "Contoso Ltd."; 
 
-            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'", false).then(
+            Microsoft.CIFramework.searchAndOpenRecords("account", "?$select=name,telephone1&$filter=telephone1 eq '" + `${contactno}` + "'"  + "&$search=" + `${contactno}`, false).then(
                 function success(result) {
                     res = JSON.parse(result);
                     console.log(res);
