@@ -39,8 +39,8 @@ Sales forecasting has security roles that are defined specifically to create and
 
 | Security role        |	Description                                 |
 |----------------------|----------------------------------------------|  
-|**Forecast manager**  | Create, assign, and edit forecast definition in your business unit and other business units that are subordinate to your business unit.<br> Delete forecast definitions that are defined only for your business unit.<br> Share forecast definitions with all users in your organization. |
-|**Forecast user**     | Create forecast definitions only for yourself.<br> Edit and delete forecast definitions that are defined by you. <br> View forecast definitions that are defined for your business unit. |
+|**Forecast manager**  | Create, assign, and edit forecast definition in your business unit and other business units that are subordinate to your business unit.<br> Delete forecast definitions that are defined only for your business unit.<br> Share forecast definitions with all users in your organization. <br> After the forecast definition is published, you can view and edit forecast at your business unit and other business units that are subordinate to your business unit. |
+|**Forecast user**     | Create forecast definitions only for yourself.<br> Edit and delete forecast definitions that are defined by you. <br> View forecast definitions that are defined for your business unit.<br> You can only view and edit forecast that are defined by you, after the forecast definition is published. |
 
 ## Prerequisites
 
@@ -104,11 +104,13 @@ Before creating a forecast definition, review the following requisites:
 
 8.	To generate forecasts based on this definition, publish the forecast definition. On the command bar, select **Publish**. After a forecast definition is published, it becomes read-only.
  
-Generating a forecast is a background process. After all the forecasts are generated, the forecast definition’s state and status is set to Published and Success respectively.
+Generating a forecast is a background process. After all the forecasts are generated, the forecast definition’s status and status reason is set to Published and Success respectively.
 
 > [!div class="mx-imgBorder"]
 > ![Published forecast definition](media/published-forecast-definitions.png "Published forecast definition")
 
+> [!NOTE]
+> If the publishing fails, the forecast definition’s status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](troubleshooting.md)
 
 ## See also
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
