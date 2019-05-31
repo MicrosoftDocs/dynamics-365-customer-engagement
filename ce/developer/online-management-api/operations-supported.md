@@ -19,7 +19,7 @@ search.app:
 
 You can perform most of the instance-related operations using the API that you can do using the [Dynamics 365 for Customer Engagement apps Admin Center](/dynamics365/customer-engagement/admin/manage-online-instances). The API also lets you perform some additional operations such as using tenant application identities to create/manage instances and retrieving service versions (releases) for instances.
 
-For a list of operations supported by the API, see [Online Management API reference](/rest/api/admin.services.crm.dynamics.com/)
+For a list of operations supported by the API, see [Online Management API reference](/rest/api/admin.services.crm.dynamics.com/).
 
 For a quick start sample on how to authenticate and execute operations using Online Management API, see [Quick Start Sample: Retrieve instances in your tenant](sample-quick-start.md).
 
