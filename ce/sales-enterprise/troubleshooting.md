@@ -215,8 +215,8 @@ Make sure the product you want to add is in the Active state, and then add the p
 **Reason**
 
 There might be several reasons pertaining to publishing failure. The following are some examples that might have caused the failure: 
-- All the users under the selected hierarchy are assigned forecast manager or forecast user role. 
-- No users are disabled under the selected hierarchy when you publish the forecast definition.  
+- All theSome users under the selected hierarchy may not be assigned the forecast manager or forecast user role. 
+- Some users are disabled under the selected hierarchy when you publish the forecast definition.  
 
 **Resolution**
 
@@ -246,7 +246,7 @@ There might be several reasons pertaining to publishing failure. The following a
     
     In this example to resolve the error, assign Forecast manager or Forecast user roles to all the user under Bart's hierarchy as required and republish the forecast definition.
 
-### Why am I unable to recalculation forecast?
+### Why am I unable to recalculate forecast?
 
 **Reason**
 
