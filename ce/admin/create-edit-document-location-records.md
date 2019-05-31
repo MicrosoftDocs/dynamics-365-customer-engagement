@@ -58,5 +58,4 @@ search.app:
 > [!NOTE]
 >  To activate or deactivate a document location, on the **Document Locations** page, select the document location record, and choose **Activate** or **Deactivate**.  
   
-### See also  
- [Create or add a location for the first time](../admin/create-add-location-first-time.md)
+

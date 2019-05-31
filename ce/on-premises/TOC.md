@@ -126,5 +126,8 @@
 #### [Failure recovery](microsoft-dynamics-365-failure-recovery.md)
 ##### [SQL Server failure recovery](sql-server-failure-recovery.md)
 ##### [Dynamics 365 Server failure recovery](microsoft-dynamics-365-server-failure-recovery.md) 
+### [Document management with SharePoint](doc-management-sharepoint.md)
+#### [Server-based authentication with Dynamics 365 (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
+#### [Server-based authentication with Dynamics 365 (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
 <!-- ### [Connect to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md) -->
 
