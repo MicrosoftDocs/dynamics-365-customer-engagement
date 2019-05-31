@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/configure-sharepoint-integration-using-list-component.md",
+      "redirect_url": "set-up-sharepoint-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/create-add-location-first-time.md",
+      "redirect_url": "create-edit-document-location-records",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/migrate-online-onpremises.md",
       "redirect_url": "help-additional-resources",
       "redirect_document_id": "false"
