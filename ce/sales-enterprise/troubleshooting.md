@@ -215,7 +215,7 @@ Make sure the product you want to add is in the Active state, and then add the p
 **Reason**
 
 There might be several reasons pertaining to publishing failure. The following are some examples that might have caused the failure: 
-- All theSome users under the selected hierarchy may not be assigned the forecast manager or forecast user role. 
+- Some users under the selected hierarchy may not be assigned the forecast manager or forecast user role. 
 - Some users are disabled under the selected hierarchy when you publish the forecast definition.  
 
 **Resolution**
@@ -227,12 +227,12 @@ There might be several reasons pertaining to publishing failure. The following a
     
     The system jobs page opens.
 
-2. Identify the forecast definition publishing job that is failed. It is difficult for you to identify the job in the list of system jobs, so we recommend you to use the **Regarding** column to identify the failed job with forecast definition's title. In this example, the failed forecast definition title is **Bart FY'19**.
+2. Identify the forecast definition publishing job that is failed. It is difficult for you to identify the job in the list of system jobs, so we recommend you to use the **Regarding** column to identify the failed job with forecast definition's title. In this example, the failed forecast definition title is **Bert FY'19**.
 
     > [!div class="mx-imgBorder"]
     > ![System jobs page](media/troubleshooting-forecast-system-jobs.png "System jobs page")
     
-3. Select the System Job Name to view the error details. In this example, we have selected the system job name that is corresponding to **Bart FY'19**.
+3. Select the System Job Name to view the error details. In this example, we have selected the system job name that is corresponding to **Bert FY'19**.
 
     > [!div class="mx-imgBorder"]
     > ![Select failed system job](media/troubleshooting-forecast-system-job-select.png "Select failed system job")
