@@ -27,11 +27,13 @@ Microsoft’s people experience is centered around profile cards that have been 
 > If multi-factor authentication has been enabled for Office 365 services and not enabled for Dynamics 365 for Customer Engagement, profile cards will not be rendered for users in Unified Interface.
 >
 > The profile card feature involves a network call to the Office 365 service to display the card. Please make sure that following endpoints are reachable, by configuring and updating network perimeter devices such as firewalls and proxy servers.
+> 
 > - *.loki.delve.office.com
 > - loki.delve.office.com
 > - loki.delve-gcc.office.com
 > - lpcres.delve.office.com 
-> - Port: TCP:443 <br />
+> - Port: TCP:443 
+> 
 > To view the complete endpoint requirements for connectivity from a user’s machine to Office 365 for profile cards to be displayed in Unified Interface, see [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) ID 130.
 
 ## Prerequisites
