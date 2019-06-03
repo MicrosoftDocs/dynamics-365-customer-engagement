@@ -1,7 +1,7 @@
 ---
 title: "Supported email service configurations for server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/06/2018
+ms.date: 06/03/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -36,10 +36,10 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] ap
   
 |                          Dynamics 365 for Customer Engagement apps deployment                          |                                                                                                                                                   Email system                                                                                                                                                   | Email synchronization | Appointments, contacts, and tasks synchronization |                                   Protocol                                    |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|---------------------------------------------------|-------------------------------------------------------------------------------|
-|          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps          | 1. [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]<br />2. [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)] SP3<br />3. [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)] SP1<br />4.  Exchange Server 2016 |          Yes          |                        Yes                        | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] |
-|          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps          |                                                                                                                                          -   Gmail<br />-   Yahoo! Mail                                                                                                                                          |          Yes          |                        No                         |         [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP          |
-| [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps (on-premises) |      - [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]<br />- [!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]<br />- [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)]<br />-   Exchange Server 2016       |          Yes          |                        Yes                        | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] |
-| [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps (on-premises) |                                                                                         -   Gmail<br />-   Yahoo! Mail<br />-   MSN<sup>1</sup><br />-   Outlook.com<sup>1</sup><br />-   Windows Live Mail<sup>1</sup>                                                                                          |          Yes          |                        No                         |                                   POP3/SMTP                                   |
+|          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps          |<ul><li> [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]</li><br /><li>[!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)] SP3</li><br /><li> [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)] SP1</li><br /><li> Exchange Server 2016</li><br /><li>Exchange Server 2019</li></ul>|           Yes          |                        Yes                        | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] |
+|          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps          |                                                                                                                                      <ul> <li>Gmail</li><br /><li>  Yahoo! Mail</li></ul>          |          Yes          |                        No                         |         [!INCLUDE[pn_POP3_short](../includes/pn-pop3-short.md)]/SMTP          |
+| [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps (on-premises) |  <ul><li> [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]</li><br /><li>[!INCLUDE[pn_ms_Exchange_Server_2010_short](../includes/pn-ms-exchange-server-2010-short.md)]</li><br /><li>[!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)]</li><br /><li>   Exchange Server 2016   </li> </ul>   |          Yes          |                        Yes                        | [!INCLUDE[pn_Exchange_Web_Services](../includes/pn-exchange-web-services.md)] |
+| [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps (on-premises) | <ul><li>Gmail</li><br /><li> Yahoo! Mail</li><br /><li>  MSN<sup>1</sup></li><br /><li>   Outlook.com<sup>1</sup></li><br /><li>  Windows Live Mail<sup>1</sup>  </li> </ul>                                                                                       |          Yes          |                        No                         |                                   POP3/SMTP                                   |
   
  <sup>1</sup> May be unsupported for FIPS-compliancy. See the following section for more information.  
   
@@ -48,15 +48,15 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] ap
   
  Customer Engagement apps supports server-side synchronization with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in the same tenant in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] with Server to Server Authentication. Other authentication methods or settings are not recommended or supported, including:  
   
--   Using credentials specified by a user or queue  
+- Using credentials specified by a user or queue  
   
--   Using credentials specified in an email server profile  
+- Using credentials specified in an email server profile  
   
--   Using Impersonation  
+- Using Impersonation  
   
--   Setting Auto Discover Server Location to No  
+- Setting Auto Discover Server Location to No  
   
--   Using an email server profile other than Exchange Online  
+- Using an email server profile other than Exchange Online  
 
 <!--  
 -   Using non-default [network ports](https://technet.microsoft.com/library/hh699823.aspx)  
