@@ -96,7 +96,7 @@ As you are setting up an authenticated domain, you can track the progress of bot
 | Internal error (record not found) | An internal error occurred while confirming the DNS registration. Please contact Microsoft Support for assistance. |
 | Internal error (query failed) | An internal error occurred while confirming the DNS registration. Please contact Microsoft Support for assistance. |
 
-## CDS-A connector settings
+## Marketing analytics configuration
 
 Use these settings to connect your Dynamics 365 for Marketing instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
 
