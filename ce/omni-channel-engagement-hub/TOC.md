@@ -1,4 +1,4 @@
-# [Omni-channel Engagement Hub Guide](omni-channel-engagement-hub-guide.md)
+# [Omnichannel for Customer Service Guide](omni-channel-engagement-hub-guide.md)
 
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
@@ -12,8 +12,8 @@
 ## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
-### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
-#### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
+### [Omnichannel for Customer Service on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
+#### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omni-channel-engagement-hub-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omni-channel solutions](administrator/delete-solution.md)
 
@@ -52,8 +52,8 @@
 
 ## [Agent guide](agent/omni-channel-engagement-hub-agent-introduction.md)
 
-### [Agents using Omni-channel Engagement Hub app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
-#### [Sign in to Omni-channel Engagement Hub app](agent/agent-oceh/oceh-sign-dynamics-365-customer-service-hub.md)
+### [Agents using Omnichannel for Customer Service app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
+#### [Sign in to Omnichannel for Customer Service app](agent/agent-oceh/oceh-sign-dynamics-365-customer-service-hub.md)
 #### [Introduction to the agent interface](agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 #### [Manage sessions](agent/agent-oceh/oceh-manage-sessions.md)
 #### [Manage applications](agent/agent-oceh/oceh-manage-applications.md)
@@ -71,7 +71,7 @@
 #### [Search, link, and unlink a record](agent/agent-oceh/oceh-search-link-unlink-record.md)
 
 ### [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
-#### [Sign in to Omni-channel Engagement Hub](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
+#### [Sign in to Omnichannel for Customer Service](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
 #### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
 #### [Understand conversation states](agent/agent-usd/conversation-state.md)
