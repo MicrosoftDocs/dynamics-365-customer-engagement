@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/requirements-supported-configurations.md",
+      "redirect_url": "online-requirements",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/configure-sharepoint-integration-using-list-component.md",
       "redirect_url": "set-up-sharepoint-integration",
       "redirect_document_id": "false"
