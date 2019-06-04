@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: fb84962a-1ba4-4c56-992f-533cf921540a
 ms.custom: 
 ---
-# Omnichannel for Customer Service for agent using Unified Service Desk
+# Agents using Omnichannel for Customer Service on Unified Service Desk
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
