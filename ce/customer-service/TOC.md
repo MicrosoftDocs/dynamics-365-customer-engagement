@@ -24,7 +24,7 @@
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
 ## Service Manager Guide
-### [Understand Service Manager](service-manager-guide.md)
+### [Understand Service Management](service-manager-guide.md)
 ### Case Settings
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
