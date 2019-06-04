@@ -1,6 +1,6 @@
 ---
-title: "Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about Omni-channel Engagement Hub."
+title: "Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 213B2D86-403C-418F-AD64-44AD1DD3382A
 ms.custom: 
 ---
 
-# Omni-channel Engagement Hub Guide
+# Omnichannel for Customer Service Guide
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -24,7 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <td>
 
 <h2> Get started </h2>
-<li><a href="introduction-omni-channel.md" data-raw-source="[Omni-channel Engagement Hub introduction](introduction-omni-channel.md)">Omni-channel Engagement Hub introduction</a></li>
+<li><a href="introduction-omni-channel.md" data-raw-source="[Omnichannel for Customer Service introduction](introduction-omni-channel.md)">Omnichannel for Customer Service introduction</a></li>
 <li><a href="system-requirements-omni-channel-engagement-hub.md" data-raw-source="[Pre-requisities and system requirements](system-requirements-omni-channel-engagement-hub.md)">Pre-requisities and system requirements</a></li>
 <li><a href="administrator/omni-channel-provision-license.md" data-raw-source="[Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)">Provision Omni-channel Engagement Hub</a></li>
 <li><a href="administrator/upgrade-omni-channel.md" data-raw-source="[Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)">Upgrade Omni-channel Engagement Hub</a></li>
@@ -49,12 +49,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <li><a href="agent/omni-channel-engagement-hub-agent-introduction.md" data-raw-source="[Omni-channel agent](agent/omni-channel-engagement-hub-agent-introduction.md)">Omni-channel agent</a></li>
 <li><a href="agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)">Use on Omni-channel Engagement Hub</a></li>
+](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)">Use on Omnichannel for Customer Service</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
-<li><a href="agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omni-channel Engagement Hub)](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omni-channel Engagement Hub)</a> </li>
+<li><a href="agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
-<li><a href="agent/agent-oceh/oceh-conversation-control.md" data-raw-source="[View communication panel (Omni-channel Engagement Hub)](agent/agent-oceh/oceh-conversation-control.md)">View communication panel (Omni-channel Engagement Hub)</a></li>
+<li><a href="agent/agent-oceh/oceh-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oceh/oceh-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
 <td>
