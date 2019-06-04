@@ -13,7 +13,7 @@ ms.assetid: 9EC999FF-3008-429B-BFC7-B02AE3D6CCC2
 ms.custom: 
 ---
 
-# Configure Omnichannel Advanced Search for agents
+# Configure Omnichannel Advanced Search for agents overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

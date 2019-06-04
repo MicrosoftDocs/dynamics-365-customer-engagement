@@ -13,7 +13,7 @@ ms.assetid: 10610694-53A1-425D-9393-9C48FE6942A1
 ms.custom: 
 ---
 
-# Configure customer summary page for agents
+# Configure customer summary page for agents overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

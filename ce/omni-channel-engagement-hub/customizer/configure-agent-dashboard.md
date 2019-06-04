@@ -13,7 +13,7 @@ ms.assetid: 5347F6B9-93F8-466F-80FB-11E989A6A3CE
 ms.custom: 
 ---
 
-# Configure Omnichannel Agent Dashboard for agents
+# Configure Omnichannel Agent Dashboard for agents overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

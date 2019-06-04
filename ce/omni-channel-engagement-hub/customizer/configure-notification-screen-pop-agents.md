@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 227c2e0e-4d42-463b-87a1-d538a8e4b8a1
 ms.custom: 
 ---
-# Configure notifications (Screen pops) for agents
+# Configure notifications (Screen pops) for agents overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
