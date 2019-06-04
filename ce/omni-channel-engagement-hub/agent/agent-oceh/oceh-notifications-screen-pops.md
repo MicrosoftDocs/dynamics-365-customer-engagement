@@ -1,6 +1,6 @@
 ---
-title: "Notifications for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omni-channel Engagement Hub."
+title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

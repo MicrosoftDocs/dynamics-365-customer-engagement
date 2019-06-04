@@ -19,13 +19,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omni-channel Engagement Hub 
+## Scenario 1: An incoming engagement request for an existing customer record with a case already in the Omnichannel for Customer Service 
 
 When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. When you accept or select the incoming notification, the application displays the Customer summary page with details about the customer. 
 
-## Scenario 2: An incoming conversation request where you find several customer records in the Omni-channel Engagement Hub 
+## Scenario 2: An incoming conversation request where you find several customer records in the Omnichannel for Customer Service 
 
-When you get an incoming conversation request, you see a notification (screen pop) with contextual information about the incoming request. The Omni-channel Engagement Hub displays a message: **One or more records found. Select a record or create new**.
+When you get an incoming conversation request, you see a notification (screen pop) with contextual information about the incoming request. The Omnichannel for Customer Service displays a message: **One or more records found. Select a record or create new**.
 
 ### Select a record
 
@@ -39,13 +39,13 @@ If you choose a case that is different than the one you are assigned, you will s
 
 You can create a record using the quick create (+) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record)
 
-## Scenario 3: An incoming conversation request where you find no customer records in the Omni-channel Engagement Hub
+## Scenario 3: An incoming conversation request where you find no customer records in the Omnichannel for Customer Service
 
-When you get an incoming conversation request, you will see a notification (screen pop) with contextual information for an incoming request. However, if no records are linked to a conversation in the Omni-channel Engagement Hub, you will see this message: **No records found. Search for an existing customer record or create a new one to link to this conversation**.
+When you get an incoming conversation request, you will see a notification (screen pop) with contextual information for an incoming request. However, if no records are linked to a conversation in the Omnichannel for Customer Service, you will see this message: **No records found. Search for an existing customer record or create a new one to link to this conversation**.
 
 ### Create a record
 
-When no records are linked to a conversation in the Omni-channel Engagement Hub, you can create one using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record)
+When no records are linked to a conversation in the Omnichannel for Customer Service, you can create one using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation. More information: [Create a record](#create-a-record)
 
 ### Search for records
 

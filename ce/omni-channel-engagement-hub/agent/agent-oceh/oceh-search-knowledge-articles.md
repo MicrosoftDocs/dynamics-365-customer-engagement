@@ -1,6 +1,6 @@
 ---
-title: "Search for and share knowledge articles in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to set your presence status in Omni-channel Engagement Hub."
+title: "Search for and share knowledge articles in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to set your presence status in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -23,7 +23,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help you reduce the average handling time to provide quick and accurate answers to your customers.
 
-Omni-channel Engagement Hub enables you to use the rich knowledge base (KB) in Dynamics 365 so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
+Omnichannel for Customer Service enables you to use the rich knowledge base (KB) in Dynamics 365 so that you can quickly search for relevant information while working on a case and provide accurate answers to customers without having to switch applications.
 
 ## Launch KB Search Page
 

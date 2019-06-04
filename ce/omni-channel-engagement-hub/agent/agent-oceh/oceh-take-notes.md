@@ -1,6 +1,6 @@
 ---
-title: "Take notes specific to conversation in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to take notes specific to conversation in Omni-channel Engagement Hub."
+title: "Take notes specific to conversation in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to take notes specific to conversation in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

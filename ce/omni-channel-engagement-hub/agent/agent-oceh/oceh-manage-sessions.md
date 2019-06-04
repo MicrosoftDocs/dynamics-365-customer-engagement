@@ -1,6 +1,6 @@
 ---
-title: "Manage sessions in Omni-channel Engagement Hub app | MicrosoftDocs"
-description: "Learn how to manage sessions using the session panel in Omni-channel Engagement Hub app"
+title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
+description: "Learn how to manage sessions using the session panel in Omnichannel for Customer Service app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 56B33304-9A3C-4ECF-9C4B-5D838323C327
 ms.custom: 
 ---
 
-# Manage sessions in Omni-channel Engagement Hub
+# Manage sessions in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
 > [!div class=mx-imgBorder]
-> ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
+> ![Session panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
 When a session is started, the following happens:
 

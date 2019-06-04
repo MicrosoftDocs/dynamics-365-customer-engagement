@@ -1,6 +1,6 @@
 ---
-title: "Manage presence status in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to set your presence status in Omni-channel Engagement Hub."
+title: "Manage presence status in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to set your presence status in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

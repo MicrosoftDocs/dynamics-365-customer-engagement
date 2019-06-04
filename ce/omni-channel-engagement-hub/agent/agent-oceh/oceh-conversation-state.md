@@ -1,6 +1,6 @@
 ---
-title: "Understand conversation states in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn what the conversation states are in Omni-channel Engagement Hub."
+title: "Understand conversation states in Omnichannel | MicrosoftDocs"
+description: "Learn what the conversation states are in Omnichannel."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,9 +13,9 @@ ms.assetid: 6C893ED1-0B3E-4E6C-96DB-796B807E6C6E
 ms.custom: 
 ---
 
-# Understand conversation states in Omni-channel Engagement Hub
+# Understand conversation states in Omnichannel
 
-The topic explains the various states of the conversation (work item) in Omni-channel Engagement Hub.
+The topic explains the various states of the conversation (work item) in Omnichannel.
 
 Types of conversation states:
 
