@@ -156,12 +156,12 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 ```
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 2: Create Omni-channel Toast Notification hosted controls](toastnotification-step2-create-hosted-controls.md)
+> [Next topic: Step 2: Create Omnichannel Toast Notification hosted controls](toastnotification-step2-create-hosted-controls.md)
 
 ## See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
-- [Step 3: Create Omni-channel Toast Notification-related action call](toastnotification-step3-create-action-call-display-notification.md)
-- [Step 4: Attach Omni-channel Toast Notification-related action calls to events](toastnotification-step4-add-action-calls-events.md)
+- [Step 3: Create Omnichannel Toast Notification-related action call](toastnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Attach Omnichannel Toast Notification-related action calls to events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

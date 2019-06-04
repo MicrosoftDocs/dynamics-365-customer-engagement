@@ -22,7 +22,7 @@ As a system customizer, you might want to customize the conversation forms to su
 
 -   Conversation Form
 
--   Omni-channel Session Form
+-   Omnichannel Session Form
 
 ## Modify the position or alignment of a form
 
@@ -32,7 +32,7 @@ As a system customizer, you might want to customize the conversation forms to su
 
 3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
 
-4.  Select either **Conversation Form** or **Omni-channel Session Form** from the list.
+4.  Select either **Conversation Form** or **Omnichannel Session Form** from the list.
 
  > [!div class=mx-imgBorder]
  > ![modify conversation form](../media/oc-crm-modify-position-live-work-item-form.png "Modify conversation form")  
@@ -50,7 +50,7 @@ As a system customizer, you might want to customize the conversation forms to su
 
 3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
 
-4.  Select either **Conversation Form** or **Omni-channel Stream Form** from the list.
+4.  Select either **Conversation Form** or **Omnichannel Stream Form** from the list.
 
 5.  Add or remove the forms (card) for which you want to change the properties.
 
@@ -65,7 +65,7 @@ As a system customizer, you might want to customize the conversation forms to su
 
 ## See also
 
-- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Omnichannel system customizers](omni-channel-engagement-hub-customizer.md)
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)

@@ -1,6 +1,6 @@
 ---
-title: "Create Omni-channel Alert Notification-related action calls | MicrosoftDocs"
-description: "Learn how to create Omni-channel Alert Notification-related action calls that can be used to show notifications in Omnichannel for Customer Service."
+title: "Create Omnichannel Alert Notification-related action calls | MicrosoftDocs"
+description: "Learn how to create Omnichannel Alert Notification-related action calls that can be used to show notifications in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,13 +12,13 @@ ms.topic: article
 ms.assetid: ffd0550b-260d-4f23-bab5-c757a258cac1
 ms.custom: 
 ---
-# Step 3: Create Omni-channel Alert Notification related-action calls
+# Step 3: Create Omnichannel Alert Notification related-action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to create Omni-channel Alert Notification-related actions calls.
+This topic describes how to create Omnichannel Alert Notification-related actions calls.
 
 ## Prerequisites 
 
@@ -48,8 +48,8 @@ This topic describes how to create Omni-channel Alert Notification-related actio
 
  | Tab            | Field          | Value                           |
  |----------------|----------------|---------------------------------|
- | General        | Name           | Close Omni-channel Alert Notification       |
- | General        | Hosted Control | Omni-channel Alert Notification |
+ | General        | Name           | Close Omnichannel Alert Notification       |
+ | General        | Hosted Control | Omnichannel Alert Notification |
  | General        | Action         | Close                           |
 
 6. Save the action call.
@@ -61,7 +61,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | Tab            | Field          | Value                           |
  |----------------|----------------|---------------------------------|
  | General        | Name           | Show Simple Chat Request Alert Notification |
- | General        | Hosted Control | Omni-channel Alert Notification |
+ | General        | Hosted Control | Omnichannel Alert Notification |
  | General        | Action         | Show               |
  | General        | Data           | formname=SimpleChatRequestPopUpForm <br>  top=10 <br> left=98 <br> timeout=120 <br> stack=true <br> stackHeight=50 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> position=absolute <br> isAccept=TRUE <br> isReject=TRUE |
  | Advanced        | Condition | \[\[RequestType\]\] == "1" |
@@ -71,7 +71,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | Tab | Field | Value |
  |------------------|------------------|------------------|
  | General | Name           | Show Chat Transfer Request Alert Notification  |
- | General | Hosted Control | Omni-channel Alert Notification |
+ | General | Hosted Control | Omnichannel Alert Notification |
  | General | Action         | Show | 
  | General | Data | formname=ChatTransferRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> showWarning=\[\[showWarning\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
   | Advanced | Condition | \[\[RequestType\]\] == "3" && "\[\[ParticipantInitiatorType\]+\]" != "AutoAssign" |
@@ -81,7 +81,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
   | Tab | Field | Value |
   |------------------|------------------|------------------|
   | General | Name           | Show Consult Request Alert Notification  |
-  | General | Hosted Control | Omni-channel Alert Notification |
+  | General | Hosted Control | Omnichannel Alert Notification |
   | General | Action         | Show | 
   | General | Data | formname=ConsultRequestPopUpForm <br> top=8 <br> left=85 <br> timeout=120 <br> stack=true <br> showWarning=\[\[showWarning\]+\] <br> stackHeight=100 <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
   | Advanced | Condition | \[\[RequestType\]\] == "2" |
@@ -91,7 +91,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
   | Tab | Field | Value |
   |------------------|------------------|------------------|
   | General | Name           | Show Simple Chat Request From Supervisor Alert Notification  |
-  | General | Hosted Control | Omni-channel Alert Notification |
+  | General | Hosted Control | Omnichannel Alert Notification |
   | General | Action         | Show | 
   | General | Data | formname=SimpleChatRequestFromSupervisorForm <br> top=8  <br> left=85 <br> timeout=120 <br> stack=true <br> stackHeight=100 <br> showWarning=\[\[showWarning\]+\] <br> channelIcon=\[\[channelIcon\]+\] <br> channelName=\[\[channelName\]+\] <br> cid=\[\[ConversationId\]+\] <br> from=\[\[From\]+\] <br> isUniqueContactRecognized=\[\[IsUniqueContactRecognized\]+\] <br> jobTitle=\[\[contact_jobtitle_0\]+\] <br> email=\[\[contact_emailaddress1_0\]+\] <br> state=\[\[contact_Address1_Stateorprovince_0\]+\] <br> city=\[\[contact_Address1_City_0\]+\] <br> CanActivateSession=\[\[CanActivateSession\]+\] <br> SessionTabId=\[\[SessionTabId\]+\] <br> placementmode=absolute <br> isAccept=TRUE <br> isReject=TRUE |
   | Advanced | Condition | \[\[RequestType\]\] == "1" && "\[\[ParticipantInitiatorType\]\]" == "Supervisor" | -->
@@ -101,7 +101,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | Tab            | Field          | Value                           |
  |----------------|----------------|---------------------------------|
  | General        | Name           | Expand Right Pane               |
- | General        | Hosted Control | Omni-channel Popup Notification |
+ | General        | Hosted Control | Omnichannel Popup Notification |
  | General        | Action         | SetVisualProperty               |
  | General        | Data           | elementName=RightPanelExpander<br>propertyname=IsExpanded<br>value=true |
 
@@ -115,21 +115,21 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Action         | CreateSession         |
  | Advanced       | Condition |  \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\]  && '\[\[CanActivateSession\]+\]' != 'True' |
 
-## Omni-channel Activate Session
+## Omnichannel Activate Session
 
  | Tab            | Field          | Value                 |
  |----------------|----------------|-----------------------|
- | General        | Name           | Omni-channel Activate Session |
+ | General        | Name           | Omnichannel Activate Session |
  | General        | Hosted Control | Session Tabs    |
  | General        | Action         | SwitchSession         |
  | General        | Data |  sessionid=\[\[SessionTabId\]+\] |
  | Advanced       | Condition |  '\[\[CanActivateSession\]+\]' == 'True' |
 
-## Omni-channel Rehydrate Conversation
+## Omnichannel Rehydrate Conversation
 
  | Tab            | Field          | Value                 |
  |----------------|----------------|-----------------------|
- | General        | Name           | Omni-channel Rehydrate Conversation |
+ | General        | Name           | Omnichannel Rehydrate Conversation |
  | General        | Hosted Control | Communication Panel    |
  | General        | Action         | OmnichannelSwitchSessionsTabs         |
  | General        | Data |  SessionTabId=\[\[SessionTabId\]+\] |
@@ -146,22 +146,22 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Data |  IsCaseSession=False |
  | Advanced       | Condition |  \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Omni-channel Session Accepted
+## Omnichannel Session Accepted
 
  | Tab            | Field          | Value                                       |
  |----------------|----------------|---------------------------------------------|
- | General        | Name           | Omni-channel Session Accepted               |
+ | General        | Name           | Omnichannel Session Accepted               |
  | General        | Order          | 15                                          |
  | General        | Hosted Control | Communication Panel                         |
  | General        | Action         | OmnichannelSessionAccepted                  |
  | General        | Data           | ConversationId=\[\[cid\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] \|\| '\[\[CanActivateSession\]+\]' == 'True' |
 
-## Omni-channel Presence status**
+## Omnichannel Presence status**
 
  | Tab            | Field          | Value                        |
  |----------------|----------------|------------------------------|
- | General        | Name           | Omni-channel Presence Status |
+ | General        | Name           | Omnichannel Presence Status |
  | General        | Hosted Control | Communication Panel     |
  | General        | Action         | OmnichannelPresenceUpdate             |
 
@@ -192,7 +192,7 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  |---------------|-----------------|------------------------------------------------------|
  | General        | Name           | Load Agent Session Search Page |
  | General        | Order          | 20                                           |
- | General        | Hosted Control | Omni-channel Advanced Search |
+ | General        | Hosted Control | Omnichannel Advanced Search |
  | General        | Action         | Navigate |
  | General        | Data           | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off|
 
@@ -216,21 +216,21 @@ This topic describes how to create Omni-channel Alert Notification-related actio
  | General        | Action         | ShowTab            |
  | General        | Data           | Customer Summary   |
 
-## Omni-channel Session Rejected
+## Omnichannel Session Rejected
 
  | Tab            | Field          | Value                      |
  |----------------|----------------|----------------------------|
- | General        | Name           | Omni-channel Session Rejected          |
+ | General        | Name           | Omnichannel Session Rejected          |
  | General        | Order          | 16                         |
  | General        | Hosted Control | Communication Panel   |
  | General        | Action         | OmnichannelSessionRejected          |
  | General        | Data           | ConversationId=\[\[cid\]\] |
 
-## Omni-channel Session Timeout
+## Omnichannel Session Timeout
 
  | Tab            | Field          | Value                      |
  |----------------|----------------|----------------------------|
- | General        | Name           | Omni-channel Session Timeout           |
+ | General        | Name           | Omnichannel Session Timeout           |
  | General        | Order          | 16                         |
  | General        | Hosted Control | Communication Panel    |
  | General        | Action         | OmnichannelSessionTimeout           |
@@ -238,12 +238,12 @@ This topic describes how to create Omni-channel Alert Notification-related actio
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 4: Attach the Omni-channel Alert Notification-related action calls to the events](alertnotification-step4-add-action-calls-events.md)
+> [Next topic: Step 4: Attach the Omnichannel Alert Notification-related action calls to the events](alertnotification-step4-add-action-calls-events.md)
 
 ## See also
 
 - [Configure notification for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-- [Step 2: Create Omni-channel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
+- [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
 - [Step 5: Add the hosted control, events, and action calls to configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

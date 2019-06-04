@@ -60,9 +60,9 @@ You must define an event and attach action calls so that an agent can accept an 
 
 - Presence status of the agent is updated.
 
-- Omni-channel customer session is created.
+- Omnichannel customer session is created.
 
-- Omni-channel session is accepted.
+- Omnichannel session is accepted.
 
 - KB Articles search control opens.
 

@@ -1,6 +1,6 @@
 ---
-title: "Create Omni-channel Advanced Search hosted control for agents | MicrosoftDocs"
-description: "Learn how to Omni-channel Advanced Search hosted control for agents using Omnichannel for Customer Service."
+title: "Create Omnichannel Advanced Search hosted control for agents | MicrosoftDocs"
+description: "Learn how to Omnichannel Advanced Search hosted control for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -12,7 +12,7 @@ ms.assetid: 491DB915-C0FB-4AD4-A969-159F7CA9CB65
 ms.custom: 
 ---
 
-# Step 1: Create Omni-channel Advanced Search hosted control
+# Step 1: Create Omnichannel Advanced Search hosted control
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -46,9 +46,9 @@ This topic describes how to create an Advanced Search hosted control in Unified 
 
     | Field                           | Value                       |
     |-------------------------------------|---------------------------------|
-    | Name                                | Omni-channel Advanced Search |
+    | Name                                | Omnichannel Advanced Search |
     | Sort | 10 |
-    | Display Name | Omni-channel Advanced Search |
+    | Display Name | Omnichannel Advanced Search |
     | Unified Service Desk Component Type | Unified Interface Page |
     | Hosting Type | Chrome Process |
     | Pre-Fetch Data               | Select the check box  |

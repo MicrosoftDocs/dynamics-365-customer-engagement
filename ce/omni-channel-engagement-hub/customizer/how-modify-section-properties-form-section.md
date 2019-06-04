@@ -92,7 +92,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## See also
 
-- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Omnichannel system customizers](omni-channel-engagement-hub-customizer.md)
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [Customize the conversation form](customize-conversation-form.md)

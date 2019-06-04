@@ -1,6 +1,6 @@
 ---
-title: "Create Omni-channel Agent Dashboard for agents | MicrosoftDocs"
-description: "Learn how to set up the Omni-channel Agent Dashboard hosted control for agents using Omnichannel for Customer Service."
+title: "Create Omnichannel Agent Dashboard for agents | MicrosoftDocs"
+description: "Learn how to set up the Omnichannel Agent Dashboard hosted control for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -12,13 +12,13 @@ ms.assetid: 17C51A23-AACD-4D77-8394-5FF4700FEE9E
 ms.custom: 
 ---
 
-# Step 1: Create Omni-channel Agent Dashboard hosted control
+# Step 1: Create Omnichannel Agent Dashboard hosted control
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to create an Omni-channel Agent Dashboard hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic describes how to create an Omnichannel Agent Dashboard hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites 
 
@@ -46,9 +46,9 @@ This topic describes how to create an Omni-channel Agent Dashboard hosted contro
 
     | Field                           | Value                       |
     |-------------------------------------|---------------------------------|
-    | Name                                | Omni-channel Agent Dashboard |
+    | Name                                | Omnichannel Agent Dashboard |
     | Sort Order | 10 |
-    | Display Name | Omni-channel Agent Dashboard |
+    | Display Name | Omnichannel Agent Dashboard |
     | Unified Service Desk Component Type | Unified Interface Page |
     | Hosting Type | Chrome Process |
     | Pre-Fetch Data | Select the check box |
@@ -61,9 +61,9 @@ This topic describes how to create an Omni-channel Agent Dashboard hosted contro
 6. Save the hosted control.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 2:  Create action calls related to Omni-channel Agent Dashboard](agent-dashboard-step2-create-action-calls.md)
+> [Next topic: Step 2:  Create action calls related to Omnichannel Agent Dashboard](agent-dashboard-step2-create-action-calls.md)
 
 ## See also
 
-- [Step 3: Attach Omni-channel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
+- [Step 3: Attach Omnichannel Agent Dashboard-related action calls to events](agent-dashboard-step3-attach-action-calls-events.md)
 - [Step 4: Add hosted control, action calls, and events to configurations](agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)

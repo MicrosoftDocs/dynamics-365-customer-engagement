@@ -57,8 +57,8 @@ You see a toast notification for the case request. Therefore, the following even
 
 ## See also
 
-- [Step 2: Create Omni-channel Toast Notification hosted control](toastnotification-step2-create-hosted-controls.md)
-- [Step 3: Create Omni-channel Toast Notification-related action call](toastnotification-step3-create-action-call-display-notification.md)
-- [Step 4: Attach Omni-channel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
+- [Step 2: Create Omnichannel Toast Notification hosted control](toastnotification-step2-create-hosted-controls.md)
+- [Step 3: Create Omnichannel Toast Notification-related action call](toastnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Attach Omnichannel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

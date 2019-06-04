@@ -1808,7 +1808,7 @@ xmlns:Converters="clr-namespace:USDConverters;assembly=USDConverters" xmlns:loca
 ## See also
 
 - [Configure notification for agents](configure-notification-screen-pop-agents.md)
-- [Step 3: Create Omni-channel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md)
-- [Step 4: Attach Omni-channel Alert Notification-related to the events](alertnotification-step4-add-action-calls-events.md)
+- [Step 3: Create Omnichannel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md)
+- [Step 4: Attach Omnichannel Alert Notification-related to the events](alertnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

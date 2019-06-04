@@ -49,7 +49,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
     | Tab           | Field             | Value              |
     |---------------|-------------------|--------------------|
-    | General | Name | Omni-channel Session Name |
+    | General | Name | Omnichannel Session Name |
     | General | Type | Session Name |
     | General | Display | \[\[$Context.From\]+\] |
 
@@ -75,7 +75,7 @@ The topic describes how to dynamically display the session tab name, you'll conf
 
 ## See also
 
-- [Configure Omni-channel Agent Dashboard](configure-agent-dashboard.md)
+- [Configure Omnichannel Agent Dashboard](configure-agent-dashboard.md)
 - [Configure notifications for agents](configure-notification-screen-pop-agents.md)
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)

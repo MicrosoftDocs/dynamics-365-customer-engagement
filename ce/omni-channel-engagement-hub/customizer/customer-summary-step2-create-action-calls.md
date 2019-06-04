@@ -47,11 +47,11 @@ This topic describes how to create customer summary-related action calls in Unif
 
 5. On the new page, specify the following details.
 
-## Initialize Omni-channel Context - Window Variable - Customer Summary
+## Initialize Omnichannel Context - Window Variable - Customer Summary
 
    | Tab     | Field          | Value                           |
    |------------------|----------------------|---------------------------------|
-   | General | Name           | Initialize Omni-channel Context - Window Variable - Customer Summary      |
+   | General | Name           | Initialize Omnichannel Context - Window Variable - Customer Summary      |
    | General | Order | 5 | 
    | General | Hosted Control | Customer Summary |
    | General | Action         | RunScript    |
@@ -67,11 +67,11 @@ This topic describes how to create customer summary-related action calls in Unif
    | General | Action         | OmnichannelUpdateContextEntities    |
    | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-## Omni-channel Session Accepted
+## Omnichannel Session Accepted
 
    | Tab | Field      | Value                       |
    |------------------|----------------------|---------------------------------|
-   | General | Name           | Omni-channel Session Accepted   |
+   | General | Name           | Omnichannel Session Accepted   |
    | General | Order | 15 |
    | General | Hosted Control | Communication Panel |
    | General | Action         | OmnichannelSessionAccepted | 
@@ -99,42 +99,42 @@ This topic describes how to create customer summary-related action calls in Unif
    | General | Action         | Navigate | 
    | General | Data | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
 
-## Omni-channel Clear Context Entities
+## Omnichannel Clear Context Entities
 
    | Tab | Field      | Value                       |
    |------------------|----------------------|---------------------------------|
-   | General | Name           | Omni-channel Clear Context Entities |
+   | General | Name           | Omnichannel Clear Context Entities |
    | General | Order | 1 |
    | General | Hosted Control | CRM Global Manager |
    | General | Action         | ClearEntityList | 
    | General | Data | global=True |    
 
-## Omni-channel Copy Contact Ids To Context
+## Omnichannel Copy Contact Ids To Context
 
    | Tab | Field      | Value                       |
    |------------------|----------------------|---------------------------------|
-   | General | Name           | Omni-channel Copy Contact Ids To Context |
+   | General | Name           | Omnichannel Copy Contact Ids To Context |
    | General | Order | 2 |
    | General | Hosted Control | CRM Global Manager |
    | General | Action         | CopyToContext | 
    | General | Data | contactIds = \[\[contact\]+\] |
 
-## Omni-channel Fetch Context Contacts
+## Omnichannel Fetch Context Contacts
 
    | Tab | Field      | Value                       |
    |------------------|----------------------|---------------------------------|
-   | General | Name           | Omni-channel Fetch Context Contacts |
+   | General | Name           | Omnichannel Fetch Context Contacts |
    | General | Order | 3 |
    | General | Hosted Control | CRM Global Manager |
    | General | Action         | DoSearch | 
    | General | Data | ContextContactSearch <br> global=True |
    | Advanced | Condition | $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
-## Omni-channel Save Context Entities on Update
+## Omnichannel Save Context Entities on Update
 
    | Tab | Field      | Value                       |
    |------------------|----------------------|---------------------------------|
-   | General | Name           | Omni-channel Save Context Entities on Update |
+   | General | Name           | Omnichannel Save Context Entities on Update |
    | General | Order | 4 |
    | General | Hosted Control | Communication Panel |
    | General | Action         | OmnichannelSaveUpdatedContextEntities | 
