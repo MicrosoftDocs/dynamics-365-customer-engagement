@@ -1,6 +1,6 @@
 ---
-title: "What's new in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about what's new in Omni-channel Engagement Hub."
+title: "What's new in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about what's new in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,11 +13,11 @@ ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
 ms.custom: 
 ---
 
-# What's new in Omni-channel Engagement Hub
+# What's new in Omnichannel for Customer Service
 
 ##  What's new in April 2019 update
 
-This topic contains information about updates in Omni-channel Engagement Hub available in this version.
+This topic contains information about updates in Omnichannel for Customer Service available in this version.
 
 ### Administrator experience
 
@@ -27,19 +27,19 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 - **Configure an SMS channel**: Configure an SMS channel to connect to your customers by using text messages. Your customers can now send their queries as text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel. To enable SMS channel in your organization, you must register and create your account with TeleSign. SMS channel uses public APIs of TeleSign to send and receive text messages. More information: [Configure an SMS channel](administrator/configure-sms-channel.md) 
 
-- **Omni-channel Engagement Hub packages**
+- **Omnichannel for Customer Service packages**
 
-    - **Unified Service Desk - Omni-channel Engagement Hub - Preview - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omni-channel Engagement Hub with it. This package installs Unified Service Desk solutions with minimal configuration data for Omni-channel Engagement Hub to work with an existing Unified Service Desk in the specified Customer Engagement organization.
+    - **Unified Service Desk - Omnichannel for Customer Service - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified Customer Engagement organization.
 
-    - **Unified Service Desk - Omni-channel Engagement Hub – Preview**: Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+    - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
-More information: [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
+More information: [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omni-channel-engagement-hub-package.md)
 
 ### Agent experience
 
-- **Omni-channel Engagement Hub Agent interface**: The Omni-channel Engagement Hub app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
+- **Omnichannel for Customer Service Agent interface**: The Omnichannel for Customer Service app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
 
-    - **Unified experience**: The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omni-channel Engagement Hub app.
+    - **Unified experience**: The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
     - **Multi-session and application management**: The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
 
@@ -48,11 +48,11 @@ More information: [Deploy Unified Service Desk - Omni-channel Engagement Hub pac
     - **Operating system agnostic**: The app is agnostic operating systems and also works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
 
    > [!div class=mx-imgBorder]
-   > ![Omni-channel Engagement Hub app interface](media/oceh/oceh-whats-new.png "Omni-channel Engagement Hub app interface")
+   > ![Omnichannel for Customer Service app interface](media/oceh/oceh-whats-new.png "Omnichannel for Customer Service app interface")
 
     The key features of agent interface are:
 
-    - **Switch between multiple sessions**: As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omni-channel Engagement Hub, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
+    - **Switch between multiple sessions**: As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omnichannel for Customer Service, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
 
     More information: [Manage sessions](agent/agent-oceh/oceh-manage-sessions.md)
 
@@ -60,7 +60,7 @@ More information: [Deploy Unified Service Desk - Omni-channel Engagement Hub pac
     
     More information: [Manage applications](agent/agent-oceh/oceh-manage-applications.md)
 
-More information: [Agents using Omni-channel Engagement Hub app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
+More information: [Agents using Omnichannel for Customer Service app](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
 
 - **Communication panel enhancements**
 
@@ -74,7 +74,7 @@ More information: [Agents using Omni-channel Engagement Hub app](agent/agent-oce
 
 ### System customizer experience
 
-- **Configure Omni-channel experience with the Add-On package**: When you deploy the Omni-channel Engagement Hub – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
+- **Configure Omni-channel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
 
     - [Omni-channel agent dashboard](customizer/configure-agent-dashboard.md)
     - [Advanced search](customizer/configure-advanced-search.md)
@@ -117,4 +117,4 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 ### See also
 
-[Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
+[Upgrade Omnichannel for Customer Service](administrator/upgrade-omni-channel.md)

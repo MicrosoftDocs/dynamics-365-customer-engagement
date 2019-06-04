@@ -1,6 +1,6 @@
 ---
 title: "Known issues and limitations   | MicrosoftDocs"
-description: "Learn about the known issues and limitations in Omni-channel Engagement Hub."
+description: "Learn about the known issues and limitations in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,23 +13,23 @@ ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
 ms.custom: 
 ---
 
-# Omni-channel Engagement Hub - Preview readme (known issues and limitations)
+# Omnichannel for Customer Service readme (known issues and limitations)
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic explains the known issues and limitations of Omni-channel Engagement Hub.
+The topic explains the known issues and limitations of Omnichannel for Customer Service.
 
 > [!Important]
-> We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
+> We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omni-channel.md)
 
 ## Upgrade doesn’t start if the organization name is changed
 
 If you change the organization name, the upgrade process doesn’t start, and an internal server error is displayed. To begin the upgrade, rename the organization to its original name.
 
 ## Conversation does not open as session or as a form 
-When you use Omni-channel Engagement Hub with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omni-channel agent dashboard doesn't open as a session or as a form in the application management toolbar.
+When you use Omnichannel for Customer Service with Unified Service Desk and use **IE Process** to host web applications, a conversation (work item) from the Omni-channel agent dashboard doesn't open as a session or as a form in the application management toolbar.
 
 ### Workaround
 
@@ -74,7 +74,7 @@ When an agent declines the screen pop or when the screen pop times out, the work
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
 ## Support for multiple channel providers
-If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omni-channel Engagement Hub in the same organization, the Omni-channel solution overrides the Channel Integration Framework solution because there is no support for multiple channel providers.
+If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, the Omni-channel solution overrides the Channel Integration Framework solution because there is no support for multiple channel providers.
  
 ## Support for knowledge articles when using Edge Process in Unified Service Desk
 When you use Edge Process in Unified Service Desk, agents cannot open knowledge articles from the Knowledge Base Search control.  
