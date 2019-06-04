@@ -18,13 +18,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omni-channel Engagement Hub  
+## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omnichannel for Customer Service  
 
 When you receive an incoming conversation request, you see a notification (screen pop) that contains contextual information for the request. When you accept or select the notification, the **Customer summary** page appears. This page shows the details of the customer and case.
 
-## Scenario 2: Incoming conversation request where you find several customer records in the Omni-channel Engagement Hub 
+## Scenario 2: Incoming conversation request where you find several customer records in the Omnichannel for Customer Service 
 
-When you receive an incoming conversation request, you see a notification (screen pop) that contains contextual information for the request. Omni-channel Engagement Hub shows the following message: **One or more records found. Select a record or create new**.
+When you receive an incoming conversation request, you see a notification (screen pop) that contains contextual information for the request. Omnichannel for Customer Service shows the following message: **One or more records found. Select a record or create new**.
 ### Select a record
 
 If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
@@ -35,16 +35,16 @@ If you select a case that differs from the case that is assigned to you, you rec
 
 ### Create a record
 
-You can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omni-channel Engagement Hub, based on the contextual information that is obtained from the notifications (screen pops).
+You can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notifications (screen pops).
 
-However, there are no records present in Omni-channel Engagement Hub based on the contextual information obtained from the notification (screen pop).
+However, there are no records present in Omnichannel for Customer Service based on the contextual information obtained from the notification (screen pop).
 
 > [!div class=mx-imgBorder]
 > ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
 
-## Scenario 3: Incoming conversation request where you find no customer records in Omni-channel Engagement Hub 
+## Scenario 3: Incoming conversation request where you find no customer records in Omnichannel for Customer Service 
 
-When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. However, if there are no records present in Omni-channel Engagement Hub based on the incoming conversation request, you see a message stating - **No records found. Search for an existing customer record or create a new one to link to this conversation**.
+When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. However, if there are no records present in Omnichannel for Customer Service based on the incoming conversation request, you see a message stating - **No records found. Search for an existing customer record or create a new one to link to this conversation**.
 
 ### Search for records
 
@@ -81,7 +81,7 @@ If you choose a case that is different than the one you are assigned, then you s
 
 ### Create a record
 
-When no record is found in Omni-channel Engagement Hub, you can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omni-channel Engagement Hub, based on the contextual information that is obtained from the notification (screen pop).
+When no record is found in Omnichannel for Customer Service, you can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notification (screen pop).
 
 > [!div class=mx-imgBorder]
 > ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  

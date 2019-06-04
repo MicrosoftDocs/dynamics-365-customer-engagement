@@ -1,6 +1,6 @@
 ---
-title: "Omni-channel Engagement Hub for agent | MicrosoftDocs"
-description: "Learn about the Omni-channel Engagement Hub for agent"
+title: "Omnichannel for Customer Service for agent | MicrosoftDocs"
+description: "Learn about the Omnichannel for Customer Service for agent"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 6D5C5B09-8B17-47D8-84D6-0DC539B9F762
 ms.custom: 
 ---
 
-# Omni-channel Engagement Hub for agent
+# Omnichannel for Customer Service for agent
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -24,15 +24,15 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
-Omni-channel Engagement Hub is a single interface for various communication channels. As an agent, you can use queues to manage the work items that are assigned to you via queues. Therefore, you can focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You get a holistic view of a customer's data and can see the details of the customer's previous interactions. In this way, you can be sure that you have all the available information that you might need to resolve the customer's issue.
+Omnichannel for Customer Service is a single interface for various communication channels. As an agent, you can use queues to manage the work items that are assigned to you via queues. Therefore, you can focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You get a holistic view of a customer's data and can see the details of the customer's previous interactions. In this way, you can be sure that you have all the available information that you might need to resolve the customer's issue.
 
-Omni-channel Engagement Hub is available on the following:
+Omnichannel for Customer Service is available on the following:
 
 - Unified Service Desk
 
-- Omni-channel Engagement Hub app (Unified Interface app)
+- Omnichannel for Customer Service app (Unified Interface app)
 
 ## See also
 
 - [Agents using Unified Service Desk](agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Omni-channel Engagement Hub app](agent-oceh/oceh-omni-channel-engagement-hub-agent.md)
+- [Agents using Omnichannel for Customer Service app](agent-oceh/oceh-omni-channel-engagement-hub-agent.md)

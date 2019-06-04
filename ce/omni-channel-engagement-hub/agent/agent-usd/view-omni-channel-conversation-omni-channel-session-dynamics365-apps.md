@@ -1,6 +1,6 @@
 ---
 title: "View conversation and session form in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omni-channel Engagement Hub can under the Acitivities in Dynamics 365 for Customer Engagement apps."
+description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-In your organization, some agents might work in a contact center that uses Omni-channel Engagement Hub, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Omni-channel Engagement Hub app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omni-channel Engagement Hub, you can find the information through **activities** in Dynamics 365.
+In your organization, some agents might work in a contact center that uses Omnichannel for Customer Service, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Omnichannel for Customer Service app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omnichannel for Customer Service, you can find the information through **activities** in Dynamics 365.
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
 

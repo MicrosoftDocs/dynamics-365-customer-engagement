@@ -136,7 +136,7 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 ## See also
 
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)

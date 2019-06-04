@@ -1,6 +1,6 @@
 ---
-title: "Introduction to the agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about the Omni-channel Engagement Hub agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
+title: "Introduction to the agent interface in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about the Omnichannel for Customer Service agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,13 +13,13 @@ ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
 ms.custom: 
 ---
 
-# Introduction to the agent interface in Omni-channel Engagement Hub
+# Introduction to the agent interface in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you sign in to Omni-channel Engagement Hub through Unified Service Desk, the Omni-channel Engagement Hub interface has the following components:
+When you sign in to Omnichannel for Customer Service through Unified Service Desk, the Omnichannel for Customer Service interface has the following components:
 
  - Omni-channel toolbar
 
@@ -28,7 +28,7 @@ When you sign in to Omni-channel Engagement Hub through Unified Service Desk, th
  - Application management toolbar
 
  > [!div class=mx-imgBorder]
- >![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
+ >![Omnichannel for Customer Service agent interface](../../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")  
 
 ## Default global toolbar
 
@@ -130,7 +130,7 @@ The application management toolbar lets you see all the related information for 
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [View alert and toast notifications](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)

@@ -1,6 +1,6 @@
 ---
-title: "Search for records in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
+title: "Search for records in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn on how to Search for records in Omnichannel for Customer Service and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,19 +13,19 @@ ms.assetid: 9DE991EA-5B54-4D31-89EE-9CE05E73AF3C
 ms.custom: 
 ---
 
-# Search for records in Omni-channel Engagement Hub
+# Search for records in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic explains how to Search for records in Omni-channel Engagement Hub.
+The topic explains how to Search for records in Omnichannel for Customer Service.
 
 You can search for the records in two ways.
 
 ## Search for records using the inline search option
 
-You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
+You accept an incoming conversation request and there is no customer record identified in the Omnichannel for Customer Service. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
 
 The inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that is based on the Lookup View and Quick View Field.
 

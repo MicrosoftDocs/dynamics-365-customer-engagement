@@ -1,6 +1,6 @@
 ---
-title: "Link and unlink a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
+title: "Link and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn on how to Search for records in Omnichannel for Customer Service and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
