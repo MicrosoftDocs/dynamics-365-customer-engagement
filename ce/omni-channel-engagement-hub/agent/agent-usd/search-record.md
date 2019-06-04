@@ -95,11 +95,11 @@ To learn on how to link a record, see [Link a record to the conversation](link-u
 
 ## Search for records using the search option
 
-You can search for omni-channel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
+You can search for Omnichannel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
 
-![omni-channel search lists](../../media/agent-search-lists.png "omni-channel search lists")
+![Omnichannel search lists](../../media/agent-search-lists.png "Omnichannel search lists")
 
-1. Select the search icon ![omni-channel search icon](../../media/agent-search-icon.png "omni-channel search icon"), and select **Omni-channel Search**.
+1. Select the search icon ![Omnichannel search icon](../../media/agent-search-icon.png "Omnichannel search icon"), and select **Omnichannel Search**.
 
 2. Specify any of the following values as per your search requirements:
 

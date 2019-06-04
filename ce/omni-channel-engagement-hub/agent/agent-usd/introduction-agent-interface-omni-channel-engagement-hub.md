@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 When you sign in to Omnichannel for Customer Service through Unified Service Desk, the Omnichannel for Customer Service interface has the following components:
 
- - Omni-channel toolbar
+ - Omnichannel toolbar
 
  - Session management toolbar
 
@@ -32,7 +32,7 @@ When you sign in to Omnichannel for Customer Service through Unified Service Des
 
 ## Default global toolbar
 
-The Omni-channel toolbar also called as default global toolbar as the components are
+The Omnichannel toolbar also called as default global toolbar as the components are
 
  - Search
 

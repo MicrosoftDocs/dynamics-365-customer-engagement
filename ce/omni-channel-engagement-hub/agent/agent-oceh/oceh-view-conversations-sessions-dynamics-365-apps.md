@@ -1,6 +1,6 @@
 ---
-title: "View omni-channel conversation and session activity types in the Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omni-channel conversation and session activity types that users (agents and supervisors) can see under the Activities in Dynamics 365 for Customer Engagement apps."
+title: "View omnichannel conversation and session activity types in the Customer Engagement apps | MicrosoftDocs"
+description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -39,7 +39,7 @@ You can find the following activity types in Dynamics 365 for Customer Engagemen
 
 The Conversation activity type displays information about an conversation request.
 
-![Omni-channel conversation form](../../media/oceh-oc-conversation-form.png "Omni-channel conversation form")  
+![Omnichannel conversation form](../../media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -52,7 +52,7 @@ The Conversation activity type displays information about an conversation reques
 
 The session activity type displays information about a individual session in a conversation request.
 
-![Omni-channel session form](../../media/oceh-oc-session-form.png "Omni-channel session form")  
+![Omnichannel session form](../../media/oceh-oc-session-form.png "Omnichannel session form")  
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|

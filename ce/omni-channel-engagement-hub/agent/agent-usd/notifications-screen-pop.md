@@ -49,7 +49,7 @@ A toast notification, or floating notification, is a type of notification where 
 Toast notifications or floating notifications appear for SMS, email, voice call, consult, and transfer scenarios. This kind of notification may or may not have buttons that require your actions, which depends on your business requirements.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel toast notification](../../media/oc-usd-toast-notification.png "Omni-channel toast notification")  
+> ![Omnichannel toast notification](../../media/oc-usd-toast-notification.png "Omnichannel toast notification")  
 
 #### Alert notifications
 
@@ -60,7 +60,7 @@ An alert notification appears as a dialog box that contains buttons. When you se
 When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omni-channel incoming chat alert notification")  
+> ![Omnichannel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omnichannel incoming chat alert notification")  
 
 You see the following details for a chat channel:
 
@@ -75,7 +75,7 @@ You see the following details for a chat channel:
 -   Recent activities
 
 > [!div class=mx-imgBorder]
-> ![Omni-channel Customer summary form for chat](../../media/oc-usd-chat-customer360.png "Omni-channel Customer summary page for chat")
+> ![Omnichannel Customer summary form for chat](../../media/oc-usd-chat-customer360.png "Omnichannel Customer summary page for chat")
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)

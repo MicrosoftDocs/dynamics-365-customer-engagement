@@ -31,7 +31,7 @@ Types of conversation states:
 
  - [Closed](#closed) 
 
- ![Omni-channel conversation states](../../media/oc-conversation-state.png "Conversation states")
+ ![Omnichannel conversation states](../../media/oc-conversation-state.png "Conversation states")
 
 ## Open
 

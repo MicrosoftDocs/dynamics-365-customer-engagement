@@ -1,6 +1,6 @@
 ---
-title: "Omni-channel Agent Dashboard in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the Omni-channel Agent Dashboard that shows the work items for the agents using Omnichannel for Customer Service"
+title: "Omnichannel Agent Dashboard in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about the Omnichannel Agent Dashboard that shows the work items for the agents using Omnichannel for Customer Service"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Omni-channel Agent Dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
+The Omnichannel Agent Dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
 
 -   My work items
 

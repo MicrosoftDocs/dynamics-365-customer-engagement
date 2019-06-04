@@ -1,6 +1,6 @@
 ---
 title: "View conversation and session form in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omni-channel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in Dynamics 365 for Customer Engagement apps."
+description: "Learn about the omnichannel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in Dynamics 365 for Customer Engagement apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 6fa913f3-f0f4-4917-91d1-f895d5648368
 ms.custom: 
 ---
-# View omni-channel conversations and omni-channel session in Dynamics 365 apps
+# View omnichannel conversations and omnichannel session in Dynamics 365 apps
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -24,7 +24,7 @@ You can find the following activity types in Dynamics 365 for Customer Engagemen
 
  - Conversation form
 
- - Omni-channel session
+ - Omnichannel session
 
 ### Conversation form
 
@@ -37,11 +37,11 @@ The conversation form displays information about a conversation request.
 | Session details | <ul> <li>Subject</li> <li>Date created</li> </ul> |
 
 > [!div class=mx-imgBorder]
-> ![omni-channel conversation form](../../media/oc-crm-conversation-form.png "omni-channel conversation form")  
+> ![omnichannel conversation form](../../media/oc-crm-conversation-form.png "omnichannel conversation form")  
 
 ### Session form
 
-The omni-channel session displays information about a conversation request.
+The omnichannel session displays information about a conversation request.
 
 | Section | Field           |
 |---------|-----------------|
@@ -50,7 +50,7 @@ The omni-channel session displays information about a conversation request.
 | Notes   | <ul> <li>Notes</li> </ul> |
 
 > [!div class=mx-imgBorder]
-> ![omni-channel session form](../../media/oc-crm-omni-channel-session-form.png "Omni-channel session form") 
+> ![omnichannel session form](../../media/oc-crm-omni-channel-session-form.png "Omnichannel session form") 
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)

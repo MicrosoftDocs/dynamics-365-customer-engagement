@@ -40,7 +40,7 @@ You can create a contact or account by using the quick create option. After you 
 However, there are no records present in Omnichannel for Customer Service based on the contextual information obtained from the notification (screen pop).
 
 > [!div class=mx-imgBorder]
-> ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
+> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")  
 
 ## Scenario 3: Incoming conversation request where you find no customer records in Omnichannel for Customer Service 
 
@@ -71,7 +71,7 @@ When you choose to Search for records, the application opens the **Search** on t
 After the search is completed, the results are shown in the form of a list.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel search record](../../media/oc-usd-crm-search-record.png "Omni-channel search record")  
+> ![omnichannel search record](../../media/oc-usd-crm-search-record.png "Omnichannel search record")  
 
 If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
 
@@ -84,7 +84,7 @@ If you choose a case that is different than the one you are assigned, then you s
 When no record is found in Omnichannel for Customer Service, you can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notification (screen pop).
 
 > [!div class=mx-imgBorder]
-> ![omni-channel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omni-channel create record search page")  
+> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")  
 
 > [!div class="nextstepaction"]
 > [Next topic: Create a record](create-record.md)
