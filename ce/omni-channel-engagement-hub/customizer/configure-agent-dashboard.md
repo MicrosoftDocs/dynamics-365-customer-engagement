@@ -1,6 +1,6 @@
 ---
 title: "Configure Omni-channel Agent Dashboard for agents | MicrosoftDocs"
-description: "Learn how to configure Omni-channel Agent Dashboard for agents using Omni-channel Engagement Hub."
+description: "Learn how to configure Omni-channel Agent Dashboard for agents using Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

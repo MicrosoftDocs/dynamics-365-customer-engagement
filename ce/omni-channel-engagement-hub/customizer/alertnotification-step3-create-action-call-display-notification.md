@@ -1,6 +1,6 @@
 ---
 title: "Create Omni-channel Alert Notification-related action calls | MicrosoftDocs"
-description: "Learn how to create Omni-channel Alert Notification-related action calls that can be used to show notifications in Omni-channel Engagement Hub."
+description: "Learn how to create Omni-channel Alert Notification-related action calls that can be used to show notifications in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

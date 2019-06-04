@@ -1,6 +1,6 @@
 ---
 title: "Create Omni-channel Alert Notification hosted controls | MicrosoftDocs"
-description: "Learn how to create hosted control that can be used to show alert notification in Omni-channel Engagement Hub."
+description: "Learn how to create hosted control that can be used to show alert notification in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

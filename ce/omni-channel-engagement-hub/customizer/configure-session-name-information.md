@@ -1,6 +1,6 @@
 ---
 title: "Configure session name information | MicrosoftDocs"
-description: "Learn how to configure session name information when using Omni-channel Engagement Hub in Unified Service Desk."
+description: "Learn how to configure session name information when using Omnichannel for Customer Service in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala

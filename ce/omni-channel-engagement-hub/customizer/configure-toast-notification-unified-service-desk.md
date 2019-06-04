@@ -1,6 +1,6 @@
 ---
 title: "Configure toast notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to configure toast notification for agents in Omni-channel Engagement Hub using Unified Service Desk settings."
+description: "Learn how to configure toast notification for agents in Omnichannel for Customer Service using Unified Service Desk settings."
 keywords: ""
 author: kabala123
 ms.author: kabala

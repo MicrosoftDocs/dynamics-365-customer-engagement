@@ -1,6 +1,6 @@
 ---
 title: "Configure notifications (screen pops) for agents | MicrosoftDocs"
-description: "Learn how to configure notification for using Omni-channel Engagement Hub based on routing and work distribution."
+description: "Learn how to configure notification for using Omnichannel for Customer Service based on routing and work distribution."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-You configure notifications (screen pops) in Unified Service Desk - Omni-channel Engagement Hub. These notifications pop up on the screen, and they contain either general information, customer-related or process-related information that the agent can act upon. Here are some examples of the information that screen pops can contain:
+You configure notifications (screen pops) in Unified Service Desk - Omnichannel for Customer Service. These notifications pop up on the screen, and they contain either general information, customer-related or process-related information that the agent can act upon. Here are some examples of the information that screen pops can contain:
 
 - Wait time
 

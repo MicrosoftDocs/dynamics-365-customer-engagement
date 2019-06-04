@@ -1,6 +1,6 @@
 ---
 title: "Configure Omni-channel Advanced Search for agents | MicrosoftDocs"
-description: "Learn how to configure Omni-channel Advanced Search for agents using Omni-channel Engagement Hub."
+description: "Learn how to configure Omni-channel Advanced Search for agents using Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -20,7 +20,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 
-This topic describes how to configure Omni-channel Advanced Search for agents to search records in Omni-channel Engagement Hub.
+This topic describes how to configure Omni-channel Advanced Search for agents to search records in Omnichannel for Customer Service.
 
 ## Prerequisites
 

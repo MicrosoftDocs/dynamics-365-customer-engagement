@@ -1,6 +1,6 @@
 ---
 title: "Attach action calls to the events | MicrosoftDocs"
-description: "Learn how to attach the Omni-channel Agent Dashboard-related action calls to the out-of-the-box events for agents using Omni-channel Engagement Hub."
+description: "Learn how to attach the Omni-channel Agent Dashboard-related action calls to the out-of-the-box events for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi

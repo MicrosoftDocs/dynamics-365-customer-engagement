@@ -1,6 +1,6 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
-description: "Learn on how to customize the Customer summary form in Omni-channel Engagement Hub as a system customizer."
+description: "Learn on how to customize the Customer summary form in Omnichannel for Customer Service as a system customizer."
 keywords: ""
 author: kabala123
 ms.author: kabala

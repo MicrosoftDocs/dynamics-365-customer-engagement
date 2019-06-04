@@ -1,6 +1,6 @@
 ---
 title: "Create forms to define the layout and behavior of the notification | MicrosoftDocs"
-description: "Learn how to create forms to define layout and behavior of the alert notification in Omni-channel Engagement Hub."
+description: "Learn how to create forms to define layout and behavior of the alert notification in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala

@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omni-channel Engagement Hub application. Follow these steps to create an agent configuration and a supervisor configuration.
+A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omnichannel for Customer Service application. Follow these steps to create an agent configuration and a supervisor configuration.
 
 1.  Sign in to Dynamics 365.
 

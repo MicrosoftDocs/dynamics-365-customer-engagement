@@ -1,6 +1,6 @@
 ---
 title: "Create customer summary-related action calls for agents | MicrosoftDocs"
-description: "Learn how to set up the customer summary-related action calls for agents using Omni-channel Engagement Hub."
+description: "Learn how to set up the customer summary-related action calls for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi

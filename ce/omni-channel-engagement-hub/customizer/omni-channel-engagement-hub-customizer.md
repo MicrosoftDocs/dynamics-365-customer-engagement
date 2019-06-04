@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: dd7d843f-bec2-4262-8126-69828387de42
 ms.custom: 
 ---
-# Omni-channel Engagement Hub for system customizers
+# Omnichannel for Customer Service for system customizers
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -27,7 +27,7 @@ Every organization has a unique way of working. Some organizations have well-def
 
 ## In this section
 
-Use the resources in the following sections to learn how to use Omni-channel Engagement Hub for system customizer:
+Use the resources in the following sections to learn how to use Omnichannel for Customer Service for system customizer:
 
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [Customize the conversation form](customize-conversation-form.md)

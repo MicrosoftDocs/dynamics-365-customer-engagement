@@ -1,6 +1,6 @@
 ---
 title: "Create Omni-channel Advanced Search-related action calls | MicrosoftDocs"
-description: "Learn how to create Advanced Search-related action calls for agents using Omni-channel Engagement Hub."
+description: "Learn how to create Advanced Search-related action calls for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi

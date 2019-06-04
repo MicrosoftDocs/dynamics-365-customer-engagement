@@ -1,6 +1,6 @@
 ---
 title: "Configure alert notifications in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to configure alert notification for agents using Omni-channel Engagement Hub in Unified Service Desk."
+description: "Learn how to configure alert notification for agents using Omnichannel for Customer Service in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
