@@ -207,7 +207,7 @@
 #### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
 #### [Connect Customer Engagement to Exchange Server (on-premises)](connect-exchange-server-on-premises.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
-#### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
+<!-- #### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md) -->
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)
 #### [Troubleshooting](troubleshooting-monitoring-server-side-synchronization.md)
 #### [When would I want to use this check box?](when-would-want-use-check-box.md)
@@ -231,7 +231,7 @@
 ### [Forward mailbox vs. individual mailboxes](forward-mailbox-vs-individual-mailboxes.md)
 ### [Recover from Exchange Server failure](recover-from-exchange-server-failure.md)
 ## Extend with integration and solutions
-### Manage your documents using SharePoint
+### Manage your documents using SharePoint 
 #### [Overview](manage-documents-using-sharepoint.md)
 #### [Software requirements](sharepoint-document-management-software-requirements.md)
 #### [Server-based SharePoint integration considerations](important-considerations-server-based-sharepoint-integration.md)
