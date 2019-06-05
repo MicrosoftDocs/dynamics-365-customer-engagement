@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/20/2019
+ms.date: 06/05/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -126,8 +126,16 @@ You need to create mobile offline profiles for users to configure filters that d
 > [!NOTE] 
 > -  A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode.
   
-1.  Go to Power Platform Admin Center by going to **Environments** > [select an environment] > **Settings** > **Mobile configuration**.  
-    ![Mobile configuration setting screen](media/MobileConfig.png "Mobile configuration setting screen")
+1.  Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com). 
+
+2.  On the right, select **Environments**.
+
+ ![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment)
+ 
+3. Choose a enviroemnt and then select **Settings**.
+
+ ![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings)
+
   
 2.  Select **Mobile Offline Profiles**.  
 
