@@ -21,7 +21,7 @@ search.app:
   - D365SE
 ---
 
-# Discontinuation of service for Microsoft Social Engagement
+# Changes coming to Dynamics 365 Market Insights preview and Microsoft Social Engagement 
 
 Due to the upcoming changes in product direction, 
 
