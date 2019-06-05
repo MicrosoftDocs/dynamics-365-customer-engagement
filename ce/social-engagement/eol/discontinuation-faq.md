@@ -21,7 +21,7 @@ search.app:
   - D365SE
 ---
 
-# Frequently asked questions about Microsoft Social Engagement service discontinuation
+# Frequently asked questions about Microsoft Social Engagement service discontinuation and Dynamics 365 Market Insights Preview
 
 ## Announcements related to discontinuation of service for Microsoft Social Engagement 
 
