@@ -55,12 +55,7 @@ Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and
   - One of the following SharePoint versions:
     
       - SharePoint 2016 On-Premises.
-        
-<!--
-        > [!NOTE]
-        > <P>The December 2016 update for Dynamics 365 (online and on-premises) is required to use SharePoint 2016 with Dynamics 365 (on-premises). More information: &nbsp;<A href="https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises">December 2016 update for Dynamics 365 (online and on-premises)</A></P>   -->
 
-    
       - Microsoft SharePoint 2013 On-Premises with Service Pack 1 (SP1) or later version with the following updates.
         
           - [Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp)](http://support2.microsoft.com/kb/2883081)
@@ -77,7 +72,7 @@ Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and
     
       - SharePoint must be configured for a single farm deployment only.
     
-      - To use the default claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same, or the domain where the SharePoint server is located must trust the domain where the Dynamics 365 Server is located. More information: About claims-based authentication mapping
+      - To use the default claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same, or the domain where the SharePoint server is located must trust the domain where the Dynamics 365 Server is located. More information: [About claims-based authentication mapping](#about-claims-based-authentication-mapping)
     
       - The SharePoint website must be configured to use TLS/SSL (HTTPS) and the certificate must be issued by a public root Certificate Authority. More information: [SharePoint: About Secure Channel SSL certificates](/SharePoint/hybrid/plan-connectivity-from-office-365-to-sharepoint-server#aboutsecurechannel)
     
@@ -93,7 +88,7 @@ Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and
         
           - The Dynamics 365 for Customer Engagement apps user Active Directory account must be a member of the Site Members group on the SharePoint site collection where the documents are stored.
         
-          - By default, the claims-based authentication mapping will use the user’s Dynamics 365 for Customer Engagement apps primary email address and the user’s SharePoint On-Premises work email address for mapping. When this mapping is used, the user’s email addresses must match between the two systems. More information: About claims-based authentication mapping
+          - By default, the claims-based authentication mapping will use the Dynamics 365 for Customer Engagement apps user’s SharePoint email address and the user’s SharePoint On-Premises work email address for mapping. When this mapping is used, the user’s email addresses must match between the two systems. More information: [Configure user claims mapping using the SharePoint Email Address](#configure-user-claims-mapping-using-the-sharepoint-email-address)
 
 ## Other prerequisites and limitations
 
@@ -294,7 +289,26 @@ For documentation management with SharePoint troubleshooting and known issues, s
 
 ## About claims-based authentication mapping
 
-By default, server-based authentication between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user. If Microsoft Dynamics 365 Server and SharePoint are located in different Active Directory domains that do not have a trust, you must use a custom claims-based authentication mapping, such as the user’s email address. More information: [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
+By default, server-based authentication between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user. If Microsoft Dynamics 365 Server and SharePoint are located in different Active Directory domains that do not have a trust, you must use a custom claims-based authentication mapping, such as the user’s email address. For information about how to customize user claims mapping, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
+
+### Configure user claims mapping using the SharePoint Email Address
+1. Open the form editor to customize the user form. To do this, go to **Settings** > **Security** > **Users**, and then open the user record that you want. 
+2. On the toolbar, select **…**, and then select **Form Editor**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/open-form-editor.png "Open editor for user form")
+
+3. Find the **SharePoint Email Address** field in the **Field Explorer** pane and drag and drop it on the **User Information** section of the user form.  
+
+   > [!div class="mx-imgBorder"] 
+   > ![](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
+
+4. On the form editor toolbar select **Save**, and then select **Publish**. 
+5. Close the form editor and refresh the web browser tab to display the newly added field on the user record. 
+6. In the user record **SharePoint Email Address** field, enter the user's email address exactly as it appears in SharePoint. 
+7. Select **Save**. 
+8. Repeat the previous two steps for all users that will need document management. 
+
 
 ## Working with digital certificates
 
