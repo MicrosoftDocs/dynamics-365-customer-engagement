@@ -130,19 +130,23 @@ You need to create mobile offline profiles for users to configure filters that d
 
 2.  On the right, select **Environments**.
 
- ![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment")
+   > [!div class="mx-imgBorder"]
+   >![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment")
  
 3. Choose a enviroemnt and then select **Settings**.
 
- ![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings")
+   > [!div class="mx-imgBorder"]
+   >![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings")
  
 4. Under **Data managment**, select **Mobile configuration**.
 
- ![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
+   > [!div class="mx-imgBorder"]
+   >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
   
 5.  Select **Mobile Offline Profiles**.  
 
-    ![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
+   > [!div class="mx-imgBorder"]
+   >![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
 
 6.  Select **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
   
