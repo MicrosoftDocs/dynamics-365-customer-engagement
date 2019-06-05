@@ -130,11 +130,11 @@ You need to create mobile offline profiles for users to configure filters that d
 
 2.  On the right, select **Environments**.
 
- ![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment)
+ ![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment")
  
 3. Choose a enviroemnt and then select **Settings**.
 
- ![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings)
+ ![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings")
 
   
 2.  Select **Mobile Offline Profiles**.  
