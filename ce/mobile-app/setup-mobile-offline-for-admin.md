@@ -156,7 +156,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
   
   
-8.  In the **MOBILE OFFLINE PROFILE DETAILS** area, select **+ Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+8.  In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
@@ -240,7 +240,7 @@ Admins can define a custom filter based on the following rules. You can create f
   
 11. Select **Save** to create the mobile offline profile item so you can continue editing it.  
   
-12. In the **Mobile Offline Profile Item Association Details** area, select **+** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
+12. In the **MOBILE OFFLINE PROFILE ITEM ASSOCIATIONS DETAILS** area, select **Add Mobile Offline Profile Item Association record** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
   
      For example, if you create a mobile offline profile item association from the Lead entity, you need to add the Lead entity to this mobile offline profile.  
      
@@ -314,21 +314,23 @@ Enable mobile offline for a specific app from MyApps page.
 
 1. In the **Dynamics 365 - custom** app, go to **Settings** > **My Apps**.
 
-2. From the list of published apps, select an app you want to enable for mobile offline.  
+  > [!div class="mx-imgBorder"]
+   >![My Apps in Settings](media/My_Apps.png "Go to My Apps in Settings")
 
-3. On the selected app, choose **More Options** (**...**).
-
-4. Choose **OPEN IN APP DESIGNER**.
-
-5. On the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a profile.
+2. From the list of published apps, select **More Options** and then choose, **OPEN IN APP DESIGNER** to open the app designer to add or edit componets.
 
    > [!div class="mx-imgBorder"]
-   >![Enable mobile offline for the app](media/EnableMobileOffline.png "Enable mobile offline for the app")
+   >![Open App Designer](media/OpenAppDesigner.png "Open App Designer")
+
+3. Select the the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a mobile offline profile.
+
+   > [!div class="mx-imgBorder"]
+   >![Enable mobile offline for the app](media/OpenAppDesigner1.png "Enable mobile offline for the app")
    
    > [!NOTE] 
    > You can add more than one profile for an app module.
 
-6. At the top choose **Save** and then **Publish**.
+4. At the top choose **Save** and then **Publish**.
 
 ## Tips
 
