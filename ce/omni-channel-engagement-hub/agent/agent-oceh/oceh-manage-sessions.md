@@ -44,7 +44,7 @@ When you start a session, the presence status is updated as per the configuratio
 Use a combination of keyboard and mouse-click gesture to start a session. You can press **Shift** and select on a link to open as a session. You can't use the gesture to open any other link apart from Customer Engagement session enabled records.
 
 > [!Tip]
-> Alternatively, from the Omni-channel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
+> Alternatively, from the Omnichannel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
 >
 > ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") ![Pick to start session in Open work items](../../media/oceh/oc-pick-work-item-open-work-items.png "Pick to start session in Open work items")
 

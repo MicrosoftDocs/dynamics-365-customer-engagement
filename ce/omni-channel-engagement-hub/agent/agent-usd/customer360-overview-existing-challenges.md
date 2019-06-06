@@ -39,7 +39,7 @@ By having this information ready, when customers reach out to contact center, su
    - Recent activities
 
 > [!div class=mx-imgBorder]
-> ![omni-channel Customer summary page](../../media/oc-usd-customer360-page.png "Omni-channel Customer summary page")  
+> ![omnichannel Customer summary page](../../media/oc-usd-customer360-page.png "Omnichannel Customer summary page")  
 
 #### Customer profile
 

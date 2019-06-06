@@ -39,7 +39,7 @@ You can search for a KB article and open it as a tab on the Application tab mana
 > ![Omnichannel KB articles](../../media/oc-usd-kbartciles.png "Omnichannel KB articles")
 
 > [!div class="nextstepaction"]
-> [Next topic: View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+> [Next topic: View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 
 ## See also
 

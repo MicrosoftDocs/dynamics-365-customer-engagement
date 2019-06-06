@@ -93,10 +93,10 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
 
 ## 4. Unified Interface application area
 
- When you sign in to Omnichannel for Customer Service, as an agent, in the application area, you see a dashboard that is set as default by your administrator. If set as default, Omni-channel Agent Dashboard shows the different work items in streams, and the dashboard is present in the application tab of the **Home** session and you can't close the dashboard tab.
+ When you sign in to Omnichannel for Customer Service, as an agent, in the application area, you see a dashboard that is set as default by your administrator. If set as default, Omnichannel Agent Dashboard shows the different work items in streams, and the dashboard is present in the application tab of the **Home** session and you can't close the dashboard tab.
 
    > [!div class=mx-imgBorder]
-   > ![Omni-channel Agent Dashboard shows My work items, Open work items, and closed work items](../../media/oceh/oceh-agent-interface-oceh-dashboard.png "Omni-channel Agent Dashboard")
+   > ![Omnichannel Agent Dashboard shows My work items, Open work items, and closed work items](../../media/oceh/oceh-agent-interface-oceh-dashboard.png "Omnichannel Agent Dashboard")
 
    The dashboard shows the following work item streams:
     - **My work items**

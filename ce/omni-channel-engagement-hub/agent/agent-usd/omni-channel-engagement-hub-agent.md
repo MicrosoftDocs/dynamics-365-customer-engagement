@@ -32,7 +32,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [View alert and toast notifications](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 
 
 ## How-tos
