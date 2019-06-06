@@ -264,7 +264,8 @@ Once you have created a mobile offline profile, you can start adding users to th
   
 2.  In the **Users** area, select **+** to add a new user.  
 
-    ![Add a user](media/adduser.png "Add a user")
+   > [!div class="mx-imgBorder"]
+   >![Add a user](media/adduser1.png "Add a user")
   
 3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
   
@@ -278,7 +279,8 @@ To make a mobile offline profile available to users so they can get the mobile o
   
 2.  When you’re done adding users and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
-    ![Publish offline profile](media/publishprofile.png "Publish offline profile")
+   > [!div class="mx-imgBorder"]
+   >![Publish offline profile](media/publishprofile.png "Publish offline profile")
   
 > [!TIP]
 > **Solution export and import**  
@@ -297,7 +299,8 @@ When there is a mismatch of data between client and server, conflict errors occu
 
 - Select **Yes** - Server wins over client.
 
-  ![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline")
+   > [!div class="mx-imgBorder"]
+   >![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline")
 
 ## Step 3: Enable the app module for offline
 
@@ -313,7 +316,8 @@ Enable mobile offline for a specific app from MyApps page.
 
 5. On the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a profile.
 
-   ![Enable mobile offline for the app](media/EnableMobileOffline.png "Enable mobile offline for the app")
+   > [!div class="mx-imgBorder"]
+   >![Enable mobile offline for the app](media/EnableMobileOffline.png "Enable mobile offline for the app")
    
    > [!NOTE] 
    > You can add more than one profile for an app module.
@@ -340,7 +344,8 @@ Here are a few things to keep in mind about mobile offline synchronization:
 ### Organization data filter 
 It is recommended that you have at least one rule defined for all mobile offline-enabled entity for org filters, if you are using the entities across profiles.  By default, this value is set to last 10 days for most of the offline-enabled entities.
 
-![Edit org data filter](media/datafilter_1.png "Edit org data filter")
+ > [!div class="mx-imgBorder"]
+ >![Edit org data filter](media/datafilter_1.png "Edit org data filter")
 
 
 ### Profile filters 
