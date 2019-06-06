@@ -294,19 +294,19 @@ To make a mobile offline profile available to users so they can get the mobile o
 1. In the **Dynamics 365 - custom** app, go to **Settings** > **Administration** > **System Settings**.
 
   > [!div class="mx-imgBorder"]
-  >![Settings pages(media/settings-admin.png "Setting page")
-
+  >![Settings pages](media/settings-admin.png "Setting page")
 
 2. To configure conflict resolution behavior, select **Mobile Client**.
+
+  > [!div class="mx-imgBorder"]
+   >![Set conflict detection for mobile offline](media/detectconflict1.png "Set conflict detection for mobile offline")
+
 
 When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
 
 - Select **No** - Conflict detection for mobile offline is turned off, so whatever changes are made by a user in offline mode are automatically synced to the server when the user is back online, and client wins over server.
 
 - Select **Yes** - Server wins over client.
-
-   > [!div class="mx-imgBorder"]
-   >![Set conflict detection for mobile offline](media/detectconflict1.png "Set conflict detection for mobile offline")
 
 ## Step 3: Enable the app module for offline
 
