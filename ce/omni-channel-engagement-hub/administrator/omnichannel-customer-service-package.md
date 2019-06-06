@@ -1,6 +1,6 @@
 ---
 title: " Deploy Omni-channel Engagement Hub package on Unified Service Desk | MicrosoftDocs"
-description: "learn how to deploy Unified Service Desk - Omni-channel Engagement Hub package on Dynamics 365 for Customer Engagement apps instance."
+description: "learn how to Deploy Unified Service Desk - Omnichannel for Customer Service package on Dynamics 365 for Customer Engagement apps instance."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 69C527F6-E863-4D5E-9476-1936B6B79E35
 ms.custom: 
 ---
 
-# Deploy Unified Service Desk - Omni-channel Engagement Hub package
+# Deploy Unified Service Desk - Omnichannel for Customer Service package
 
 Microsoft Dynamics 365 Package Deployer enables you to deploy **Unified Service Desk - Omni-channel Engagement Hub - Preview** package on a Dynamics 365 for Customer Engagement instance.
 
@@ -120,5 +120,5 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 ## See also
 
-- [Omni-channel Engagement Hub on Unified Service Desk](omni-channel-engagement-hub-unified-service-desk.md)
+- [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
 - [Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)

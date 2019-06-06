@@ -44,5 +44,5 @@ You have deleted the **OmnichannelCustomerServiceHub** solution from your Custom
 ## See also
 
 - [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md)
-- [Omni-channel Engagement Hub on Unified Service Desk](omni-channel-engagement-hub-unified-service-desk.md)
-- [Deploy Unified Service Desk - Omni-channel Engagement Hub package](omni-channel-engagement-hub-package.md)
+- [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
+- [Deploy Unified Service Desk - Omnichannel for Customer Service package](omnichannel-customer-service-package.md)

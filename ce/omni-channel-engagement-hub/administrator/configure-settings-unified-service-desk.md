@@ -23,7 +23,7 @@ The Chrome Process is used to host web applications in Unified Service Desk clie
 
 ## Set up Unified Service Desk recommended settings for Internet Explorer
 
-The Internet Explorer process is used to host web applications in Unified Service Desk client application. When you use Omni-channel Engagement Hub on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
+The Internet Explorer process is used to host web applications in Unified Service Desk client application. When you use Omnichannel for Customer Service on Unified Service Desk client application, certain settings are recommended for Internet Explorer for optimal performance.
 
 Set up the Internet Explorer Settings on the every client desktops for the following areas :
 
@@ -353,5 +353,5 @@ Read-Host -Prompt 'Press any key to exit...'
 
 ## See also
 
-- [Omni-channel Engagement Hub on Unified Service Desk](omni-channel-engagement-hub-unified-service-desk.md)
-- [Deploy Omni-channel Engagement Hub package on Unified Service Desk](omni-channel-engagement-hub-package.md)
+- [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
+- [Deploy Omni-channel Engagement Hub package on Unified Service Desk](omnichannel-customer-service-package.md)

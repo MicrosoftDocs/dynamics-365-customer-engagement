@@ -33,7 +33,7 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
     - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
-More information: [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omni-channel-engagement-hub-package.md)
+More information: [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 
 ### Agent experience
 
