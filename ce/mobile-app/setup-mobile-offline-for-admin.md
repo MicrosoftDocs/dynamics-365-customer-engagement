@@ -143,7 +143,7 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
   
-5.  Select **Mobile Offline Profiles**.  
+5.  On the next screen, select **Mobile Offline Profiles**.  
 
    > [!div class="mx-imgBorder"]
    >![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
@@ -156,7 +156,7 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
   
   
-8.  In the **Mobile Offline Profile Item Details** area, select **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+8.  In the **MOBILE OFFLINE PROFILE DETAILS** area, select **+ Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
     ![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
   
