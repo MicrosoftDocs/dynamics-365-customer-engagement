@@ -43,5 +43,5 @@ Omni-channel Engagement Hub live chat widget SDK provides methods that allow you
 
 [Introduction to Omni-channel Engagement Hub](../introduction-omni-channel.md)<br />
 [Omni-channel Engagement Hub for administrators](../administrator/omni-channel-engagement-hub-administrator.md)<br />
-[Omni-channel Engagement Hub for system customizers](../customizer/omni-channel-engagement-hub-customizer.md)<br />
+[Omni-channel Engagement Hub for system customizers](../customizer/omnichannel-customizer.md)<br />
 [Omni-channel Engagement Hub for agent](../agent/omnichannel-agent-overview.md)

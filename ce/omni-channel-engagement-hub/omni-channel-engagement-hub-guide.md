@@ -47,7 +47,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm an agent </h2>
 
-<li><a href="agent/omnichannel-agent-overview.md" data-raw-source="[Omni-channel agent](agent/omnichannel-agent-overview.md)">Omni-channel agent</a></li>
+<li><a href="agent/omnichannel-agent-overview.md" data-raw-source="[Omnichannel agent](agent/omnichannel-agent-overview.md)">Omnichannel agent</a></li>
 <li><a href="agent/agent-oceh/omnichannel-customer-service-app-agent" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-oceh/omnichannel-customer-service-app-agent)">Use on Omnichannel for Customer Service</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
@@ -61,7 +61,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm a system customizer  </h2>
 
-<li><a href="customizer/omni-channel-engagement-hub-customizer.md" data-raw-source="[Omni-channel system customizer](customizer/omni-channel-engagement-hub-customizer.md)">Omni-channel system customizer</a></li>
+<li><a href="customizer/omnichannel-customizer.md" data-raw-source="[Omnichannel system customizer](customizer/omnichannel-customizer.md)">Omnichannel system customizer</a></li>
 <li><a href="customizer/customize-customer-360-page.md" data-raw-source="[Customize the customer summary form](customizer/customize-customer-360-page.md)">Customize the customer summary form</a></li>
 <li><a href="customizer/customize-conversation-form.md" data-raw-source="[Customize the conversation forms](customizer/customize-conversation-form.md)">Customize the conversation form</a></li>
 <li><a href="customizer/create-agent-supervisor-configurations-unified-service-desk.md" data-raw-source="[Create configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)">Create configurations in Unified Service Desk</a></li>

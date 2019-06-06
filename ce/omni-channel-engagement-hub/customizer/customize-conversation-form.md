@@ -65,7 +65,7 @@ As a system customizer, you might want to customize the conversation forms to su
 
 ## See also
 
-- [Omnichannel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)

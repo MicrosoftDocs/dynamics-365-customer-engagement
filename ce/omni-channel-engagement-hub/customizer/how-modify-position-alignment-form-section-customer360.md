@@ -38,7 +38,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## See also
 
-- [Omnichannel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [Add or remove the fields in the form](add-remove-fields-form-section.md)
 - [Customize the conversation form](customize-conversation-form.md)
