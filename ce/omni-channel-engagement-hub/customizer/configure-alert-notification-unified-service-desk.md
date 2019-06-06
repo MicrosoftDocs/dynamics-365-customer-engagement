@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: db796d02-2286-407d-a8c2-60dec859cee0
 ms.custom: 
 ---
-# Configure alert notifications in Unified Service Desk.
+# Configure alert notifications in Unified Service Desk
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
