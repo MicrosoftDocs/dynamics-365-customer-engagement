@@ -102,7 +102,7 @@ curl -X GET \
 
 ### Contact Matching Strategy
 
-The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics CRM.  
+The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics 365.  
 
 To do so, it uses a contact matching strategy which can be configured in event administration settings. By default, first name + last name + email is used as contact matching strategy. More information: [Event administration](../events-settings.md#event-administration).
 
@@ -113,7 +113,7 @@ In case no matching contact is found, a new contact will be automatically create
 
 ### Retrieving information of authenticated user 
 
-The Events API provides an endpoint that returns information of the authenticated user. Starting with June 2019 Release it does also include the Dynamics CRM contact ID of the authenticated user. 
+The Events API provides an endpoint that returns information of the authenticated user. Starting with June 2019 release, it also includes the Dynamics 365 contact ID of the authenticated user. 
 
 **Request** 
 
@@ -140,7 +140,7 @@ curl -X GET \
 
 The Events API allows you to expose custom fields of event management entities. That means you can access all those fields that have been added to an entity by the customer.
 
-By default, when adding a new field to an entity (e.g. `msevtmgt_pass`) it is not exposed by the corresponding API endpoint (for example: `api/v2.0/events/{readableEventId}/passes`). 
+By default, when adding a new field to an entity (for example: `msevtmgt_pass`) it is not exposed by the corresponding API endpoint (for example: `api/v2.0/events/{readableEventId}/passes`). 
 
 However, it is possible to expose the new field in the Events API by creating a so-called ‘Website Entity Configuration’. 
 
