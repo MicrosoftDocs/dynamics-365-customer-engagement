@@ -24,13 +24,13 @@ The topic explains the known issues and limitations of Omni-channel Engagement H
 > [!Important]
 > We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 
-## All Dashboards doesn't appear in Omni-channel Engagement Hub active dashboards view
+## Dashboards doesn't appear in Omni-channel Engagement Hub active dashboards view
 
 When you use Omni-channel Engagement Hub app with Unified Service Desk or Omni-channel Engagement Hub app on web, the dashboard view does not show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
 
 ### Workaround
 
-As a system customizer or administrator, you must manually add these dashboard using app designer.
+As a system customizer or administrator, you must manually add these dashboards using app designer.
 
 To work around the issue, follow these steps:
 
