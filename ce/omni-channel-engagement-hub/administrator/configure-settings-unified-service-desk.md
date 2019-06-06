@@ -40,10 +40,10 @@ You can update the recommended settings in the following ways:
 
 ### Set up the recommended settings using PowerShell script
 
-Download the **AddRecommendedIESettings** PowerShell script file from **Dynamics Insider Program** by joining the **Omni-channel Engagement Hub – Preview** program.
+Download the **AddRecommendedIESettings** PowerShell script file from **Dynamics Insider Program** by joining the **Omnichannel for Customer Service** program.
 
 > [!Note]
-> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
+> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omnichannel for Customer Service** and join.
 
 #### Run the AddRecommendedIESettings PowerShell script file
 
@@ -187,10 +187,10 @@ To configure the **Enable Protected Mode** option, **TabProcGrowth** (Tab Proces
 
 You can disable the recommended settings that you set up using the **CleanUpIESettings** PowerShell script.
 
-Download the **CleanUpIESettings** PowerShell script file from **Dynamics Insider Program** by joining the **Omni-channel Engagement Hub – Preview** program.
+Download the **CleanUpIESettings** PowerShell script file from **Dynamics Insider Program** by joining the **Omnichannel for Customer Service** program.
 
 > [!Note]
-> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omni-channel Engagement Hub - Preview** and join.
+> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omnichannel for Customer Service** and join.
 
 ### Run the CleanUpIESettings PowerShell script file
 
@@ -354,4 +354,4 @@ Read-Host -Prompt 'Press any key to exit...'
 ## See also
 
 - [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
-- [Deploy Omni-channel Engagement Hub package on Unified Service Desk](omnichannel-customer-service-package.md)
+- [Deploy Omnichannel for Customer Service package on Unified Service Desk](omnichannel-customer-service-package.md)
