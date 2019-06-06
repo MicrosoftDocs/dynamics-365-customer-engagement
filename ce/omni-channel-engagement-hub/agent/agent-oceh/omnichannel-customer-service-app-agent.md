@@ -1,5 +1,5 @@
 ---
-title: "Omnichannel for Customer Service app for agents | MicrosoftDocs"
+title: "Agents using Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service app"
 keywords: ""
 author: kabala123
