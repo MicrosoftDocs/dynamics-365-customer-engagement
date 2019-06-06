@@ -280,7 +280,7 @@ To make a mobile offline profile available to users so they can get the mobile o
 2.  When you’re done adding users and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
    > [!div class="mx-imgBorder"]
-   >![Publish offline profile](media/publishprofile.png "Publish offline profile")
+   >![Publish offline profile](media/publishprofile1.png "Publish offline profile")
   
 > [!TIP]
 > **Solution export and import**  
@@ -291,7 +291,13 @@ To make a mobile offline profile available to users so they can get the mobile o
 
 ### Step 2.3: Set conflict detection for mobile offline  
 
-To configure conflict resolution behavior, select **Mobile Offline Settings**.
+1. In the **Dynamics 365 - custom** app, go to **Settings** > **Administration** > **System Settings**.
+
+  > [!div class="mx-imgBorder"]
+  >![Settings pages(media/settings-admin.png "Setting page")
+
+
+2. To configure conflict resolution behavior, select **Mobile Client**.
 
 When there is a mismatch of data between client and server, conflict errors occur. To resolve those, you can choose one of the following settings:
 
@@ -300,13 +306,13 @@ When there is a mismatch of data between client and server, conflict errors occu
 - Select **Yes** - Server wins over client.
 
    > [!div class="mx-imgBorder"]
-   >![Set conflict detection for mobile offline](media/detectconflict.png "Set conflict detection for mobile offline")
+   >![Set conflict detection for mobile offline](media/detectconflict1.png "Set conflict detection for mobile offline")
 
 ## Step 3: Enable the app module for offline
 
 Enable mobile offline for a specific app from MyApps page.
 
-1. In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings** > **My Apps**.
+1. In the **Dynamics 365 - custom** app, go to **Settings** > **My Apps**.
 
 2. From the list of published apps, select an app you want to enable for mobile offline.  
 
