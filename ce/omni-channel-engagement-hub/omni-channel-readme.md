@@ -24,6 +24,29 @@ The topic explains the known issues and limitations of Omni-channel Engagement H
 > [!Important]
 > We recommend updating Omni-channel Engagement Hub to the latest versions for the best experience. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 
+## Certain dashboards does not appear in Omni-channel Engagement Hub default the dashboards view
+
+When you use Omni-channel Engagement Hub app with Unified Service Desk or Omni-channel Engagement Hub app on web, the dashboard view does not show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
+
+### Workaround
+
+As a system customizer or administrator, you must manually add these dashboard using app designer.
+
+To work around the issue, follow the steps:
+
+1. Go to `https://<orgURL>.dynamics.com/apps`.
+2. Select the ellipsis (**...**) in the **Omni-channel Engagement Hub - Preview** app tile. <br>
+    ![Sign in to Omni-channel Engagement Hub](media/oceh-sign-in.png "Sign in to Omni-channel Engagement Hub")
+3. Select **OPEN IN APP DESIGNER**. The App Designer opens in a new tab.
+4. Select **Dashboards** in the canvas area. The Components pane in the right side shows the list of **Classic Dashboards** and **Interactive Dashboards**.
+5. Select the following dashboards that are present under **Interactive Dashboards**.<br>
+    - Knowledge Manager
+    - My Knowledge Dashboard
+    - Tier 1 Dashboard
+    - Tier 2 Dashboard
+    ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
+6. Select **Save** and then select **Publish**.
+
 ## Upgrade doesn’t start if the organization name is changed
 
 If you change the organization name, the upgrade process doesn’t start, and an internal server error is displayed. To begin the upgrade, rename the organization to its original name.
