@@ -1,6 +1,6 @@
 ---
-title: "Notification ans screen pops for agents working in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omni-channel Engagement Hub."
+title: "Notification ans screen pops for agents working in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about the notifications and its types. Agents will see the nofications and screen pop in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A notification is a visual alert that you see as a message box each time that you receive a call, email, chat, or Short Message Service (SMS) conversation request from a customer. You receive notifications even when the Omni-channel Engagement Hub application is minimized.
+A notification is a visual alert that you see as a message box each time that you receive a call, email, chat, or Short Message Service (SMS) conversation request from a customer. You receive notifications even when the Omnichannel for Customer Service application is minimized.
 
 Notifications show the details of the customer that you will interact with. In addition, some types of notifications include **Accept** and **Reject** buttons and indicate the action that you must perform to accept or reject the incoming conversation request. If you accept the request, a screen pop appears and shows the contextual information of the customer and case.
 
@@ -49,7 +49,7 @@ A toast notification, or floating notification, is a type of notification where 
 Toast notifications or floating notifications appear for SMS, email, voice call, consult, and transfer scenarios. This kind of notification may or may not have buttons that require your actions, which depends on your business requirements.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel toast notification](../../media/oc-usd-toast-notification.png "Omni-channel toast notification")  
+> ![Omnichannel toast notification](../../media/oc-usd-toast-notification.png "Omnichannel toast notification")  
 
 #### Alert notifications
 
@@ -60,7 +60,7 @@ An alert notification appears as a dialog box that contains buttons. When you se
 When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
 
 > [!div class=mx-imgBorder]
-> ![omni-channel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omni-channel incoming chat alert notification")  
+> ![Omnichannel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omnichannel incoming chat alert notification")  
 
 You see the following details for a chat channel:
 
@@ -75,7 +75,7 @@ You see the following details for a chat channel:
 -   Recent activities
 
 > [!div class=mx-imgBorder]
-> ![Omni-channel Customer summary form for chat](../../media/oc-usd-chat-customer360.png "Omni-channel Customer summary page for chat")
+> ![Omnichannel Customer summary form for chat](../../media/oc-usd-chat-customer360.png "Omnichannel Customer summary page for chat")
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)

@@ -1,5 +1,5 @@
 ---
-title: "Add the Omni-channel Alert Notification-related action calls to the events | MicrosoftDocs"
+title: "Add the Omnichannel Alert Notification-related action calls to the events | MicrosoftDocs"
 description: "Learn how to add action calls to the events"
 keywords: ""
 author: kabala123
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 90690d1d-906e-48a0-b6c8-1ba8d491f2b0
 ms.custom: 
 ---
-# Step 4: Attach Omni-channel Alert Notification-related action calls to the events
+# Step 4: Attach Omnichannel Alert Notification-related action calls to the events
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md), [Step 2: Create Omni-channel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md), and [Step 3: Create Omni-channel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md), [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md), and [Step 3: Create Omnichannel Alert Notification-related action call](alertnotification-step3-create-action-call-display-notification.md). The configurations that you completed are required for this topic.
  
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -52,9 +52,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
  | Event | Action Call |
  |------------------------------------------------|--------------------------------------------------------|
- | CreateCustomerSession | <ul> <li>Close Omni-channel Alert Notification</li> <li>Expand Right Pane</li> <li>Omni-channel Presence Status</li> <li>Create Customer Session</li> <li>Omni-channel Session Accepted</li> <li>Omni-channel Session Rejected</li> <li>Fire Session Timer</li> <li> Load Agent Search Session Page</li> <li>Load Default Agent Script</li> <li>Load Agent Session Overview Page</li> <li>Focus on Overview</li> |
- | IncomingRequestRejected | <ul> <li>Close Omni-channel Alert Notification</li> <li>Omni-channel Session Rejected</li> </ul> |
- | TimedOut | <ul>Omni-channel Session Timeout</ul> |
+ | CreateCustomerSession | <ul> <li>Close Omnichannel Alert Notification</li> <li>Expand Right Pane</li> <li>Omnichannel Presence Status</li> <li>Create Customer Session</li> <li>Omnichannel Session Accepted</li> <li>Omnichannel Session Rejected</li> <li>Fire Session Timer</li> <li> Load Agent Search Session Page</li> <li>Load Default Agent Script</li> <li>Load Agent Session Overview Page</li> <li>Focus on Overview</li> |
+ | IncomingRequestRejected | <ul> <li>Close Omnichannel Alert Notification</li> <li>Omnichannel Session Rejected</li> </ul> |
+ | TimedOut | <ul>Omnichannel Session Timeout</ul> |
  | OmnichannelContextFetch | <ul> <li>Show Chat Transfer Request Alert Notification </li> <li>Show Consult Request Alert Notification</li> <li>Show Simple Chat Request Alert Notification</li> <li>Show Simple Chat Request From Supervisor Alert Notification</li>  |
 
 > [!div class="nextstepaction"]
@@ -64,6 +64,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 - [Configure notification for agents](configure-notification-screen-pop-agents.md)
 - [Step 1: Create forms to define layout and behavior of the notification](alertnotification-step1-create-forms-define-layout-behavior-notification.md)
-- [Step 2: Create Omni-channel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
-- [Step 3: Create Omni-channel Alert Notification-related action calls](alertnotification-step3-create-action-call-display-notification.md)
+- [Step 2: Create Omnichannel Alert Notification hosted controls](alertnotification-step2-create-hosted-controls.md)
+- [Step 3: Create Omnichannel Alert Notification-related action calls](alertnotification-step3-create-action-call-display-notification.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

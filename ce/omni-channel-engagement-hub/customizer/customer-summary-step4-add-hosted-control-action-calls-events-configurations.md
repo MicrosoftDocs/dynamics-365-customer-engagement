@@ -1,6 +1,6 @@
 ---
 title: "Steps or procedure to add hosted control, action calls, and events to configurations | MicrosoftDocs"
-description: "Learn how to add hosted control, action calls, and events to configurations for agents using Omni-channel Engagement Hub."
+description: "Learn how to add hosted control, action calls, and events to configurations for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi

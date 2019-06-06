@@ -1,6 +1,6 @@
 ---
-title: "Understand conversation states in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn what are the conversation states in Omni-channel Engagement Hub."
+title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn what are the conversation states in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,9 +13,9 @@ ms.assetid: 92C7CE55-87CE-437A-ABD3-65600CAE4DD2
 ms.custom: 
 ---
 
-# Understand conversation states in Omni-channel Engagement Hub
+# Understand conversation states in Omnichannel for Customer Service
 
-The topic explains the various states of the conversation (work item) in Omni-channel Engagement Hub.
+The topic explains the various states of the conversation (work item) in Omnichannel for Customer Service.
 
 Types of conversation states:
 
@@ -31,7 +31,7 @@ Types of conversation states:
 
  - [Closed](#closed) 
 
- ![Omni-channel conversation states](../../media/oc-conversation-state.png "Conversation states")
+ ![Omnichannel conversation states](../../media/oc-conversation-state.png "Conversation states")
 
 ## Open
 
@@ -71,7 +71,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 | From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Waiting       | Closed           | When you don't reconnect to the conversation with in a specified timeout period.<br><br> When the customer selects the **End** button to end the conversation and close the session.| Conversation. |
-| Waiting       | Active           | When you revive the session from your **My work items** stream on **Omni-channel Agent Dashboard**. | Conversation |
+| Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Conversation |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period. | Conversation |
 
 ![Transition from waiting to closed, active, or open state](../../media/oc-conversation-waiting.png "Waiting state")

@@ -1,6 +1,6 @@
 ---
-title: "Introduction to the agent interface in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn about the Omni-channel Engagement Hub agent interface in Unified Service Desk. The agent interface contains Omni-channel toolbar, session tab management toolbar, and application tab management toolbar."
+title: "Introduction to the agent interface in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn about the Omnichannel for Customer Service agent interface in Unified Service Desk. The agent interface contains Omnichannel toolbar, session tab management toolbar, and application tab management toolbar."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,26 +13,26 @@ ms.assetid: 7369f1e2-e536-4585-a69a-eee434a87af1
 ms.custom: 
 ---
 
-# Introduction to the agent interface in Omni-channel Engagement Hub
+# Introduction to the agent interface in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you sign in to Omni-channel Engagement Hub through Unified Service Desk, the Omni-channel Engagement Hub interface has the following components:
+When you sign in to Omnichannel for Customer Service through Unified Service Desk, the Omnichannel for Customer Service interface has the following components:
 
- - Omni-channel toolbar
+ - Omnichannel toolbar
 
  - Session management toolbar
 
  - Application management toolbar
 
  > [!div class=mx-imgBorder]
- >![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")  
+ >![Omnichannel for Customer Service agent interface](../../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")  
 
 ## Default global toolbar
 
-The Omni-channel toolbar also called as default global toolbar as the components are
+The Omnichannel toolbar also called as default global toolbar as the components are
 
  - Search
 
@@ -60,7 +60,7 @@ The **Search** button lets you search for records and open them in a new active 
  - Task Email
  
  > [!div class=mx-imgBorder]
- > ![omni-channel search](../../media/oc-usd-search.png "Omni-channel search")  
+ > ![Omnichannel search](../../media/oc-usd-search.png "Omnichannel search")  
 
 ### Create
 
@@ -71,7 +71,7 @@ The **Create** button provides a list of related options (entities) so that you 
 The **Settings** menu has **Debugger** and **About** options. These options provide insight into code runs and Unified Service Desk, respectively. There is also an option that opens the Best Practices Analyzer.
 
  > [!div class=mx-imgBorder]
- > ![omni-channel settings](../../media/oc-usd-settings.png "Omni-channel settings")  
+ > ![Omnichannel settings](../../media/oc-usd-settings.png "Omnichannel settings")  
 
 #### Debugger
 
@@ -93,7 +93,7 @@ Presence status is updated in two ways:
 - **Manually** - You can change the status manually according to your availability.<br>Select on the presence text to view all the presence statuses and update your status manually. 
 
   > [!div class=mx-imgBorder]
-  > ![Omni-channel presence status](../../media/oc-usd-presence.png "Omni-channel presence status")
+  > ![Omnichannel presence status](../../media/oc-usd-presence.png "Omnichannel presence status")
 
 Out-of-the-box you see the following presence statuses:
 
@@ -116,21 +116,21 @@ Out-of-the-box you see the following presence statuses:
 Each session in the Unified Service Desk client is shown on the session tab toolbar on the main page. You can identify a session by the session name that is shown on the tab. You can switch between sessions to handle cases without affecting key performance indicators (KPIs).
 
 > [!div class=mx-imgBorder]
-> ![Omni-channel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omni-channel session management toolbar")  
+> ![Omnichannel session management toolbar](../../media/oc-usd-session-management-toolbar.png "Omnichannel session management toolbar")  
 
 ## Application management toolbar
 
-The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **Omni-channel Agent Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
+The application management toolbar lets you see all the related information for a session. For example, you can use this toolbar to open the **Omnichannel Agent Dashboard** page, search, use Customer summary, view a knowledge base (KB) article, or view case details. You can also switch between the application and session tab toolbars to effectively manage your sessions and related applications.
 
 > [!div class=mx-imgBorder]
-> ![Omni-channel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omni-channel application management toolbar") 
+> ![Omnichannel application management toolbar](../../media/oc-usd-application-management-toolbar.png "Omnichannel application management toolbar") 
 
 > [!div class="nextstepaction"]
 > [Next topic: View agent dashboard and agent work items](introduction-agent-dashboard.md)
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omni-channel Engagement Hub](signin-unified-service-desk-omni-channel-engagement-hub.md)
+- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omni-channel-engagement-hub.md)
 - [View alert and toast notifications](notifications-screen-pop.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View communication panel](left-control-panel.md)

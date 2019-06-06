@@ -1,6 +1,6 @@
 ---
-title: "Search, link and unlink a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to search, link and unlink a record in Omni-channel Engagement Hub and link the record to a conversation."
+title: "Search, link and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn on how to search, link and unlink a record in Omnichannel for Customer Service and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 3F919FE4-BFCA-42E1-A2B0-169AEDDF445E
 ms.custom: 
 ---
 
-# Search, link, and unlink a record in Omni-channel Engagement Hub
+# Search, link, and unlink a record in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -25,7 +25,7 @@ You can search for the records in two ways.
 
 ## Search for records using inline search option
 
-You accept an incoming conversation request, and there is no customer record identified in Omni-channel Engagement Hub. In this case, use the inline search option in the customer profile (contact or account) form and **Case** form to search for a contact or account and case respectively.
+You accept an incoming conversation request, and there is no customer record identified in Omnichannel for Customer Service. In this case, use the inline search option in the customer profile (contact or account) form and **Case** form to search for a contact or account and case respectively.
 
 The inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that is based on the Lookup View and Quick View Field.
 

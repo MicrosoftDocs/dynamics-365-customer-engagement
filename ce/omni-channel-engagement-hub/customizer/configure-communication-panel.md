@@ -1,6 +1,6 @@
 ---
 title: "Configure communication panel for agents | MicrosoftDocs"
-description: "Learn how to configure communication panel for agents using Omni-channel Engagement Hub."
+description: "Learn how to configure communication panel for agents using Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 68C78C8A-A4A3-4213-A0A4-F641B11A8541
 ms.custom: 
 ---
 
-# Configure communication panel for agents
+# Configure communication panel for agents overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

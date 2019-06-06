@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: dd7d843f-bec2-4262-8126-69828387de42
 ms.custom: 
 ---
-# Omni-channel Engagement Hub for system customizers
+# Omnichannel system customizers
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -23,11 +23,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
+## Overview
+
 Every organization has a unique way of working. Some organizations have well-defined business processes, and some don’t. As a system customizer, you can customize the forms for your agents and supervisors to cater to your business process and workflow requirements.
 
 ## In this section
 
-Use the resources in the following sections to learn how to use Omni-channel Engagement Hub for system customizer:
+Use the resources in the following sections to learn how to use Omnichannel for Customer Service for system customizer:
 
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [Customize the conversation form](customize-conversation-form.md)

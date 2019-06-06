@@ -39,7 +39,7 @@ By having this information ready, when customers reach out to contact center, su
    - Recent activities
 
 > [!div class=mx-imgBorder]
-> ![omni-channel Customer summary page](../../media/oc-usd-customer360-page.png "Omni-channel Customer summary page")  
+> ![omnichannel Customer summary page](../../media/oc-usd-customer360-page.png "Omnichannel Customer summary page")  
 
 #### Customer profile
 
@@ -87,7 +87,7 @@ This section displays the case- and customer-related activities in the form of a
 
 ## See also
 
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)

@@ -1,6 +1,6 @@
 ---
-title: "Link and unlink a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
+title: "Link and unlink a record in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn on how to Search for records in Omnichannel for Customer Service and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -39,20 +39,20 @@ During inline search, the search results are displayed, and you can select a rec
 
 You can link a record in the list of search results to a conversation. You can link only one record to a conversation.
 
-1. Select the ![omni-channel select icon](../../media/select-icon.png "omni-channel select icon") icon to view the selection list.
+1. Select the ![Omnichannel select icon](../../media/select-icon.png "Omnichannel select icon") icon to view the selection list.
 
  > [!div class=mx-imgBorder]
- > ![omni-channel select records](../../media/agent-select-records-link.png "omni-channel select records")
+ > ![Omnichannel select records](../../media/agent-select-records-link.png "Omnichannel select records")
 
 2. Select the check box next to the record you want to link.
 
  > [!div class=mx-imgBorder]
- > ![omni-channel select checbox](../../media/agent-select-record-checkbox.png "omni-channel select checkbox")
+ > ![Omnichannel select checbox](../../media/agent-select-record-checkbox.png "Omnichannel select checkbox")
 
 3. Select the link button at the top.
 
  > [!div class=mx-imgBorder]
- > ![omni-channel send link](../../media/agent-select-link-button.png "omni-channel send link")
+ > ![Omnichannel send link](../../media/agent-select-link-button.png "Omnichannel send link")
 
 After you link the record to the conversation, the Customer summary form is refreshed and reflects the details. Similarly, you can link other record types.
 

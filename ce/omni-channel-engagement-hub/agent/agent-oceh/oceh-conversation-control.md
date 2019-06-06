@@ -1,6 +1,6 @@
 ---
-title: "Omni-channel Engagement Hub communication panel (Conversation control) | MicrosoftDocs"
-description: "Conversation control is a communication panel in Omni-channel Engagement Hub where you interact with the customer."
+title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
+description: "Conversation control is a communication panel in Omnichannel where you interact with the customer."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -30,7 +30,7 @@ For a conversation channel:
 - You can switch between internal and public mode to send messages to the internal participants (other agents and/or supervisors).
 
  > [!div class=mx-imgBorder]
- > ![Omni-channel Engagement Hub communication panel chat interface](../../media/oceh-conversation-control-chat-interface.png "Omni-channel Engagement Hub communication panel chat interface")  
+ > ![Omnichannel communication panel chat interface](../../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 ## Enhance agent productivity using keyboard commands
 
 The communication panel has options that, as an agent, you can use to perform certain actions such as see quick replies, consult, and transfer list, launch notes control, and much more.
