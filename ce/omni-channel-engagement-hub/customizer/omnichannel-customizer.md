@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: dd7d843f-bec2-4262-8126-69828387de42
 ms.custom: 
 ---
-# Omnichannel for Customer Service for system customizers
+# Omnichannel system customizers
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

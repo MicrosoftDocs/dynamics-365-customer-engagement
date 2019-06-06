@@ -90,8 +90,9 @@
 #### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
 
 ## System customizer guide
-## [Overview](customizer/omnichannel-customizer.md)
-### [Customize the Customer summary form](customizer/customize-customer-360-page.md)
+### [Overview](customizer/omnichannel-customizer.md)
+### Customize the Customer summary form
+#### [Overview](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
 #### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
 #### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)

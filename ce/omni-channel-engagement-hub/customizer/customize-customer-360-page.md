@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
 ms.custom: 
 ---
-# Customize the Customer summary form
+# Customize the Customer summary form overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

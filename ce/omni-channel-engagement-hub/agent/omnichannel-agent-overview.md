@@ -13,7 +13,7 @@ ms.assetid: 6D5C5B09-8B17-47D8-84D6-0DC539B9F762
 ms.custom: 
 ---
 
-# Omnichannel for Customer Service for agent
+# Omnichannel for agents
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

@@ -91,7 +91,7 @@
           topicHref:  /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-oceh/oceh-omnichannel-customer-service-agent
       - name: Supervisor
         tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/omni-channel-engagement-hub-supervisor          
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/omnichannel-supervisor          
       - name: System Customizer
         tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customizer/
         topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customizer/omnichannel-customizer                  
