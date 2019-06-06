@@ -126,15 +126,15 @@
 ##### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
 
 #### Configure notifications for agents
-#### [Overview](customizer/configure-notification-screen-pop-agents.md)
-#### Alert notifications
+##### [Overview](customizer/configure-notification-screen-pop-agents.md)
+##### Alert notifications
 ###### [Configure alert notifications in Unified Service Desk](customizer/configure-alert-notification-unified-service-desk.md)
 ###### [Step 1: Create forms to define the layout and behavior of the notification](customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md)
 ###### [Step 2: Create Omnichannel Alert Notification hosted control](customizer/alertnotification-step2-create-hosted-controls.md)
 ###### [Step 3: Create Omnichannel Alert Notification related-action calls](customizer/alertnotification-step3-create-action-call-display-notification.md)
 ###### [Step 4: Attach the Omnichannel Alert Notification-related action calls to the events](customizer/alertnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms, and action calls to configurations](customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
-#### Toast notifications
+##### Toast notifications
 ###### [Configure toast notifications in Unified Service Desk](customizer/configure-toast-notification-unified-service-desk.md)
 ###### [Step 1: Create forms to define layout and behavior of the notification](customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md)
 ###### [Step 2: Create Omnichannel Toast Notification hosted controls](customizer/toastnotification-step2-create-hosted-controls.md)
