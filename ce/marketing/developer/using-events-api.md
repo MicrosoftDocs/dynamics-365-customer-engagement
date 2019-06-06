@@ -1,6 +1,6 @@
 ---
 title: "Using the Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: ""
+description: "Read about the Events API that lets you access data of events, sessions, session tracks and passes"
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
@@ -29,17 +29,19 @@ The Events API is a programmatic method to access data of events, sessions, sess
 
 ## Schema 
 
-All API access is over HTTPS and accessed from the API Endpoint that you receive when creating a web application token ([link to create a web application token]). All data is sent and received as JSON. 
+The API access is over HTTPS and is accessed from the API endpoint that you receive while creating a web application token. All data is sent and received as JSON. 
 
 Blank fields are included as `null` instead of being omitted. 
 
 ## Endpoint 
 
-Every customer has its own endpoint URL. The Event API endpoint URL consists of two parts: the endpoint domain and the sub directory.  
+Every customer has its own endpoint URL. The Event API endpoint URL consists of two parts:
+- the endpoint domain and,
+- the sub directory.  
 
 You will get the root endpoint after creating a `web application token`. You can find more information on how to create a web application token here [link to create web application token page]. 
 
-Example for root endpoint 
+**Example for root endpoint**
 
 ```http
 https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com 
@@ -47,13 +49,13 @@ https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com
 
 The sub directory always starts with `EvtMgmt/api` followed by the API version (which can be retrieved from the API documentation [link to api documtation]). 
 
-### Example for sub directory 
+**Example for sub directory**
 
 ```http
 EvtMgmt/api/v2.0/ 
 ``` 
 
-### Example for full endpoint URL 
+**Example for full endpoint URL** 
 
 ```http
 https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/ 
@@ -65,7 +67,7 @@ To use the Events API, you need to provide a `web application token` as URL para
 
 The `web application token` can be added to the request by adding a URL parameter called `emApplicationtoken`. 
 
-Example: 
+**Example** 
 
 ```http
 https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/events/published? emApplicationtoken=B7vdzdhCiLt9c5iT….
@@ -73,9 +75,9 @@ https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/event
 
 Additionally, the origin from where the request is sent must be equal to the origin specified when creating the `web application token`.
 
-If you do not provide a `web application token` or the `Origin Header` the Events API will return `400 Bad Request`.
+If you do not provide a `web application token` or the `Origin Header` the Events API will return `HTTP 400 Bad Request`.
 
-If the `web application token` is invalid, the Events API will return `401 Unauthorized`.
+If the `web application token` is invalid, the Events API will return `HTTP 401 Unauthorized`.
 
 ## Register your application
 
@@ -102,9 +104,9 @@ curl -X GET \
 
 The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics CRM.  
 
-To do so, it uses a contact matching strategy which can be configured in event administration settings. By default, first name + last name + email is used as contact matching strategy.More information: [Event administration](../events-settings.md#event-administration).
+To do so, it uses a contact matching strategy which can be configured in event administration settings. By default, first name + last name + email is used as contact matching strategy. More information: [Event administration](../events-settings.md#event-administration).
 
-If no matching contact can be found, a new contact will be automatically created in Dynamics 365. 
+In case no matching contact is found, a new contact will be automatically created in Dynamics 365. 
 
 > [!NOTE]
 > Linked contact entities contain an attribute called `msevtmgt_aadobjectid` which stores the object ID of the user in Azure Active Directory B2C.
@@ -115,7 +117,7 @@ The Events API provides an endpoint that returns information of the authenticate
 
 **Request** 
 
-```curl
+```http
 curl -X GET \
   'https:// b7c1ad1ab7fa4a7482b16315d94a26af.svc-tip.dynamics.com/EvtMgmt/api/v2.0/users/authenticated?emApplicationtoken=VZsLZhx251OM9uJa..' \
   -H 'Authorization: Bearer eyJ0eXAiOiJK…\ 
@@ -136,7 +138,7 @@ curl -X GET \
 
 ## Customizing API response
 
-The Events API allows to expose custom fields (meaning fields that have been added to an entity by the customer) of Event Management entities. 
+The Events API allows you to expose custom fields of event management entities. That means you can access all those fields that have been added to an entity by the customer.
 
 By default, when adding a new field to an entity (e.g. `msevtmgt_pass`) it is not exposed by the corresponding API endpoint (for example: `api/v2.0/events/{readableEventId}/passes`). 
 
@@ -145,13 +147,9 @@ However, it is possible to expose the new field in the Events API by creating a 
 Follow the steps below to create a new website entity configuration: 
 
 1. Open your Dynamics 365 instance. 
-
 2. Go to **Dynamics 365** > **Marketing** > **Settings** > **Website Entity Configurations**. 
-
 3. Enter a name of your choice in the `Name` field. 
-
 4. Select the entity for which you would like to expose an extra field in the `Selected Entity` field. 
-
 5. Write a JSON array that contains the new custom field that should be visible through the API in the Selected fields. This exposes the new custom field through the Events API.
 
 ![Customize API response](../media/using-events-api-customize-response.png)
