@@ -48,8 +48,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <h2> I'm an agent </h2>
 
 <li><a href="agent/omni-channel-engagement-hub-agent-introduction.md" data-raw-source="[Omni-channel agent](agent/omni-channel-engagement-hub-agent-introduction.md)">Omni-channel agent</a></li>
-<li><a href="agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md)">Use on Omnichannel for Customer Service</a></li>
+<li><a href="agent/agent-oceh/omnichannel-customer-service-app-agent" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-oceh/omnichannel-customer-service-app-agent)">Use on Omnichannel for Customer Service</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
 <li><a href="agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
