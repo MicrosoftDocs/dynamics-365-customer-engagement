@@ -126,14 +126,14 @@ You need to create mobile offline profiles for users to configure filters that d
 > [!NOTE] 
 > -  A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode.
   
-1. Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
+1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
 2.  On the right, select **Environments**.
 
    > [!div class="mx-imgBorder"]
    >![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment")
  
-3. Choose a enviroemnt and then select **Settings**.
+3. Choose an enviroment and then select **Settings**.
 
    > [!div class="mx-imgBorder"]
    >![Enviroment settings](media/offline_open_an_enviroment.png "Enviroment settings")
@@ -150,13 +150,13 @@ You need to create mobile offline profiles for users to configure filters that d
 
 6.  Select **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
   
-7.  Enter a name and description for your mobile offline profile.  
-
-    ![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
+7.  Enter a name and description for your mobile offline profile. Select **Save** to create the mobile offline profile so you can continue to edit it.  
+    
+   > [!div class="mx-imgBorder"]
+   >![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
   
-8.  Select **Save** to create the mobile offline profile so you can continue to edit it.  
   
-9.  In the **Mobile Offline Profile Item Details** area, select **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+8.  In the **Mobile Offline Profile Item Details** area, select **+** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
     ![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
   
