@@ -13,8 +13,8 @@
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
-#### [Overview](administrator/omni-channel-engagement-hub-unified-service-desk.md)
-#### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omni-channel-engagement-hub-package.md)
+#### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
+#### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
 ### [Delete Omni-channel solutions](administrator/delete-solution.md)
 
