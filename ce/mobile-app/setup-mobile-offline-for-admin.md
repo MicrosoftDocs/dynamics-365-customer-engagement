@@ -167,9 +167,9 @@ You need to create mobile offline profiles for users to configure filters that d
    >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
  
 
-   Select a data download filter based on the ownership type for the entity.
-  
-   **User or Team**  
+   Select a **Data Download Filter** based on the ownership type for the entity.
+ 
+**User or Team**
   
    - **Download related data only**. Make related data for this entity available offline. If you don’t set any relationships, no records for this entity will be available.  
   
@@ -261,15 +261,15 @@ Once you have created a mobile offline profile, you can start adding users to th
 > You can add a user to only one mobile offline profile.  
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
-  
-2.  In the **Users** area, select **+** to add a new user.  
+ 
+2.  In the **USERS** area, select **Add User record** to add a new user.  
 
    > [!div class="mx-imgBorder"]
    >![Add a user](media/adduser1.png "Add a user")
   
 3.  Select the lookup field that appears and select a user to add to this mobile offline profile.  
   
-4.  When you’re done adding users, select **Save** in the lower right corner of the **Mobile Offline Profile** window.  
+4.  When you’re done adding users, select **Save** icon in the lower right corner of the screen.  
 
 ### Step 2.2: Publish a mobile offline profile
 
