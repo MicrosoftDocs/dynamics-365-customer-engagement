@@ -43,7 +43,7 @@ To work around the issue, follow the steps:
     - Knowledge Manager
     - My Knowledge Dashboard
     - Tier 1 Dashboard
-    - Tier 2 Dashboard
+    - Tier 2 Dashboard <br>
     ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
 6. Select **Save** and then select **Publish**.
 
