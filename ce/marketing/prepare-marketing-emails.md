@@ -181,6 +181,15 @@ The following table shows the result of attempting to send a commercial or trans
 
 Your marketing email messages will probably be seen by many potential customers, so you'll want to make sure they look just right when opened, regardless of which combination of device and email software each recipient is using. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you test and evaluate your design before you use it in an email campaign.
 
+> [!IMPORTANT]
+> Previews and test sends give you a fast, convenient way to test your design. However, not all features work with previews and test sends. The following limitations apply:
+> 
+> - Dynamic data from [related records and lookups](dynamic-email-content.md#assist-edit) isn't shown.
+> - [For-each loops](dynamic-email-content.md#for-each) don't render.
+> - [Subscription center links](set-up-subscription-center.md#test-sub-center) will open the subscription center page, but the page won't function.
+> 
+> To test these features, create a simple customer journey that targets a very small segment (such as one that includes a single contact with your email address) and sends the message  you want to test.
+
 ### Send a test message
 
 Select **Test Send** to send your current design to one or more email addresses. This command initiates an [error check](#error-check); provided your message passes the error check, a flyout panel opens asking you to specify the following:
