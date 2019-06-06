@@ -37,4 +37,4 @@ Omnichannel for Customer Service is available on the following:
 ## See also
 
 - [Agents using Unified Service Desk](agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Omnichannel for Customer Service app](agent-oceh/omnichannel-customer-service-app-agent)
+- [Agents using Omnichannel for Customer Service app](agent-oceh/omnichannel-customer-service-app-agent.md)

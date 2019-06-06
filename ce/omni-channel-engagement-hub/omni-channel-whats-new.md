@@ -60,7 +60,7 @@ More information: [Deploy Unified Service Desk - Omnichannel for Customer Servic
     
     More information: [Manage applications](agent/agent-oceh/oceh-manage-applications.md)
 
-More information: [Agents using Omnichannel for Customer Service app](agent/agent-oceh/omnichannel-customer-service-app-agent)
+More information: [Agents using Omnichannel for Customer Service app](agent/agent-oceh/omnichannel-customer-service-app-agent.md)
 
 - **Communication panel enhancements**
 

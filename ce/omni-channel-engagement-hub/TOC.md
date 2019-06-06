@@ -1,4 +1,4 @@
-# [Omnichannel for Customer Service Guide](omni-channel-engagement-hub-guide.md)
+# [Omnichannel for Customer Service Guide](omnichannel-customer-service-guide.md)
 
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
@@ -55,7 +55,7 @@
 
 ### [Overview](agent/omnichannel-agent-overview.md)
 ### Agents using Omnichannel for Customer Service app
-#### [Overview](agent/agent-oceh/omnichannel-customer-service-app-agent)
+#### [Overview](agent/agent-oceh/omnichannel-customer-service-app-agent.md)
 #### [Sign in to Omnichannel for Customer Service app](agent/agent-oceh/oceh-sign-dynamics-365-customer-service-hub.md)
 #### [Introduction to the agent interface](agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 #### [Manage sessions](agent/agent-oceh/oceh-manage-sessions.md)
@@ -83,7 +83,7 @@
 #### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
 #### [View communication panel](agent/agent-usd/left-control-panel.md)
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
-#### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+#### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search for records](agent/agent-usd/search-record.md)
