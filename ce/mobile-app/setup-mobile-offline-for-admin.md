@@ -242,16 +242,16 @@ Admins can define a custom filter based on the following rules. You can create f
   
 12. In the **Mobile Offline Profile Item Association Details** area, select **+** to create a new mobile offline profile item association. You need to create a mobile offline profile item association for each related record you want to make available offline. In addition, you need to include any related entities in this mobile offline profile.  
   
-     For example, if you create a mobile offline profile item association from the Account entity, you need to add the Account entity to this mobile offline profile.  
+     For example, if you create a mobile offline profile item association from the Lead entity, you need to add the Lead entity to this mobile offline profile.  
      
    > [!div class="mx-imgBorder"]
    >![Add Lead entity to offline profile](media/addleadentity1.png "Add Lead entity to offline profile")
   
 13. Enter a name for the mobile offline profile item association, select a relationship, and then select **Save**.  
   
-    When you’re done adding mobile offline profile item associations to the mobile offline profile item, select **Save & Close** at the top of the **Mobile Offline Profile Item** screen.  
+    When you’re done adding mobile offline profile item associations to the mobile offline profile item, select **Save & Close** on the **MOBILE OFFLINE PROFILE ITEM ASSOCIATION** screen.  
   
-14. When you’re done adding mobile offline profile item details to the mobile offline profile item, select **Save** at the lower right corner of the **Mobile Offline Profile Item** window.  
+14. When you’re done adding mobile offline profile item details to the mobile offline profile item, select **Save** at the lower right corner of the **MOBILE OFFLINE PROFILE ITEM** window.  
  
 ### Step 2.1: Add users to a mobile offline profile 
 
