@@ -29,13 +29,13 @@ There are seven sentiment intensities that is shown to you.
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
-| Very positive | ![Very positive sentiment](../../media/sentiment-very-positive.png "Very positive sentiment") |
-| Positive | ![Positive sentiment](../../media/sentiment-positive.png "Positive sentiment") |
-| Slightly positive | ![Slightly positive sentiment](../../media/sentiment-slightly-positive.png "Slightly positive sentiment") |
-| Neutral | ![Neutral sentiment](../../media/sentiment-neutral.png "Neutral sentiment") |
-| Slightly negative | ![Slightly negative sentiment](../../media/sentiment-slightly-negative.png "Slightly negative sentiment") |
-| Negative | ![Negative sentiment](../../media/sentiment-negative.png " Negativesentiment") |
-| Very negative | ![Very negative sentiment](../../media/sentiment-very-negative.png "Very negative sentiment") |
+| Very positive | ![Very positive sentiment](../../media/oceh/sentiment-very-positive.png "Very positive sentiment") |
+| Positive | ![Positive sentiment](../../media//oceh/sentiment-positive.png "Positive sentiment") |
+| Slightly positive | ![Slightly positive sentiment](../../media/oceh/sentiment-slightly-positive.png "Slightly positive sentiment") |
+| Neutral | ![Neutral sentiment](../../media/oceh/sentiment-neutral.png "Neutral sentiment") |
+| Slightly negative | ![Slightly negative sentiment](../../media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
+| Negative | ![Negative sentiment](../../media/oceh/sentiment-negative.png " Negativesentiment") |
+| Very negative | ![Very negative sentiment](../../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
 
 The real-time sentiment is displayed on the communication panel next to the name of the customer.
 
