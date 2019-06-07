@@ -92,25 +92,34 @@ The following entities are available in offline mode:
   > [!NOTE] 
   > You can disable any of the above entities for offline or enable any entity from a supported list for offline. Follow the steps below to enable or disable an entity. 
 
-To enable more entities for offline:
+### To enable more entities for offline:
   
-1.  In the **Dynamics 365 for Customer Engagement apps - custom** app, go to **Settings** > **Customizations**.  
+1. In the **Dynamics 365- custom** app, go to **Settings** > **Customizations**.  
+
+   > [!div class="mx-imgBorder"]
+   >![Setting Customizations](media/Settings_Custom1.png "Settings Customizations")
   
-2.  Select **Customize the System**.  
+2. Select **Customize the System**.  
+
+   > [!div class="mx-imgBorder"]
+   >![Select a Customize the System](media/Settings_Custom.png "Customize the System")
   
-3.  Expand **Entities** in the left pane.  
+3. Expand **Entities** in the left pane.  
   
-4.  Select the entity you want to enable for mobile offline (for example, **Account**).  
+4. Select the entity you want to enable for mobile offline (for example, **Account**).  
   
-5.  Under **Outlook & Mobile**, select **Enable for mobile offline**.  
+5. Under **Outlook & Mobile**, select **Enable for mobile offline**. 
+
+   > [!div class="mx-imgBorder"]
+   >![Select a Customize the System](media/Settings_Custom3.png "Customize the System")
  
-6.  Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
+6. Select **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value. 
   
     The entities that are enabled for mobile offline by default have **Modified On** set for **Last X Days** = 10, so the data modified or created in the last 10 days will be available for downloading to mobile devices.  
   
-7.  Select **Save**.  
+7. Select **Save**.  
   
-8.  When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
+8. When you’re done enabling entities for mobile offline, select **Publish** so your changes take effect.  
 
 > [!WARNING]
 > Keep in mind that the amount of data you make available to users while they’re offline can affect the data usage rates for devices on cellular networks. The amount of data depends on:  
@@ -128,7 +137,7 @@ You need to create mobile offline profiles for users to configure filters that d
   
 1. Go to Power Platform Admin center, [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) and sign-in as an admin.
 
-2.  On the right, select **Environments**.
+2. On the right, select **Environments**.
 
    > [!div class="mx-imgBorder"]
    >![Select a Enviroment](media/offline_admincenter_enviroments.png "Select a Enviroment")
@@ -143,25 +152,25 @@ You need to create mobile offline profiles for users to configure filters that d
    > [!div class="mx-imgBorder"]
    >![Mobile configuration setting](media/offline_mobile_config_settings.png "Mobile configuration settings")
   
-5.  On the next screen, select **Mobile Offline Profiles**.  
+5. On the next screen, select **Mobile Offline Profiles**.  
 
    > [!div class="mx-imgBorder"]
    >![Mobile Offline Profile screen](media/mobileofflineprofile.png "Mobile Offline Profile screen")
 
-6.  Select **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
+6. Select **New** to create a new mobile offline profile. If you already have one that you want to edit, select it from the list.  
   
-7.  Enter a name and description for your mobile offline profile. Select **Save** to create the mobile offline profile so you can continue to edit it.  
+7. Enter a name and description for your mobile offline profile. Select **Save** to create the mobile offline profile so you can continue to edit it.  
     
    > [!div class="mx-imgBorder"]
    >![Name your mobile offline profile](media/namemobileofflineprofile.png "Name your mobile offline profile")
   
   
-8.  In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
+8. In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
   
-10.  Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
+10. Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
 
    > [!div class="mx-imgBorder"]
    >![Enter Mobile Offline Profile Item name](media/profileitemname1.png "Enter Profile Item name")
@@ -275,9 +284,9 @@ Once you have created a mobile offline profile, you can start adding users to th
 
 To make a mobile offline profile available to users so they can get the mobile offline experience you've defined for them, you need to publish the profile.  
   
-1.  If it’s not already open, open the mobile offline profile you want to publish.  
+1. If it’s not already open, open the mobile offline profile you want to publish.  
   
-2.  When you’re done adding users and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
+2. When you’re done adding users and making any other changes to the mobile offline profile, select **Publish** so the data you specified can start syncing with your users’ mobile devices.  
 
    > [!div class="mx-imgBorder"]
    >![Publish offline profile](media/publishprofile1.png "Publish offline profile")
@@ -298,7 +307,7 @@ To make a mobile offline profile available to users so they can get the mobile o
 
 2. To configure conflict resolution behavior, select **Mobile Client**.
 
-  > [!div class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    >![Set conflict detection for mobile offline](media/detectconflict1.png "Set conflict detection for mobile offline")
 
 
@@ -314,7 +323,7 @@ Enable mobile offline for a specific app from MyApps page.
 
 1. In the **Dynamics 365 - custom** app, go to **Settings** > **My Apps**.
 
-  > [!div class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    >![My Apps in Settings](media/My_Apps.png "Go to My Apps in Settings")
 
 2. From the list of published apps, select **More Options** and then choose, **OPEN IN APP DESIGNER** to open the app designer to add or edit componets.
@@ -322,7 +331,7 @@ Enable mobile offline for a specific app from MyApps page.
    > [!div class="mx-imgBorder"]
    >![Open App Designer](media/OpenAppDesigner2.png "Open App Designer")
 
-3. Select the the **Properties** tab, scroll down and select **Enable Mobile Offline** and then choose a mobile offline profile.
+3. Select the the **Properties** tab, and scroll down to select **Enable Mobile Offline** and then choose a mobile offline profile.
 
    > [!div class="mx-imgBorder"]
    >![Enable mobile offline for the app](media/OpenAppDesigner1.png "Enable mobile offline for the app")
