@@ -1,7 +1,7 @@
 ---
 title: "Deactivate or activate an account or contact (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 06/06/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
