@@ -97,4 +97,5 @@ Often, you'll want to find interactions associated with a specific form, custome
 
 ### See also
 
-[Working with segments](segmentation-lists-subscriptions.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Generate dynamic segments from customer journey results](generate-segment-from-journey.md)

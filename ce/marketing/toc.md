@@ -98,6 +98,7 @@
 #### [Segments vs. lists](segments-vs-lists.md)
 #### [Design profile-based dynamic segments](segments-profile.md)
 #### [Design interaction-based dynamic segments](segments-interaction.md)
+#### [Generate interaction segments from journey results](generate-segment-from-journey.md)
 #### [Define a static segment](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
