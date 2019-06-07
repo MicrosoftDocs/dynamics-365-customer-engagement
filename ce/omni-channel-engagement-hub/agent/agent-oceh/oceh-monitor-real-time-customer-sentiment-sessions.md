@@ -23,7 +23,7 @@ As an agent, when you interact with the customers using the communication panel,
 
 ## Understand real-time customer sentiment
 
-The sentitment analysis is based only the customer messages sent to you. That is, the recent six messages from the customer is used to analyze and display the sentiment icon on the communication panel. The analysis is automatic and unbaised that measures the satisfaction levels of the customer.
+The sentiment analysis is based only on the customer messages sent to you. That is, the recent six messages from the customer is used to analyze and display the sentiment icon on the communication panel. The analysis is automatic and unbaised that measures the satisfaction levels of the customer.
 
 There are seven sentiment intensities that is shown to you.
 
