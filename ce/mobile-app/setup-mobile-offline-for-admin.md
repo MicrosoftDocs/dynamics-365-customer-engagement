@@ -43,7 +43,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-The following entities are available to enable in offline mode:  
+The following entities are available for you to enable in offline mode:  
   
 - Account  
 
