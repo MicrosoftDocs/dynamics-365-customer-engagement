@@ -49,6 +49,7 @@ Again, when you switch back to the session, launch the notes panel and take the 
 ## See also
 
 - [View Communication panel](oceh-conversation-control.md)
+- [Monitor real-time customer sentiment in sessions](oceh-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
 - [Create a record](oceh-create-record.md)

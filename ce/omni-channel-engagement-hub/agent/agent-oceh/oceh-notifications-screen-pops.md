@@ -89,6 +89,7 @@ The details you’ll see for a chat channel are:
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
+- [Monitor real-time customer sentiment in sessions](oceh-monitor-real-time-customer-sentiment-sessions.md)
 - [Manage presence status](oceh-set-user-presence-status.md)
 - [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 - [Take notes specific to conversation](oceh-take-notes.md)

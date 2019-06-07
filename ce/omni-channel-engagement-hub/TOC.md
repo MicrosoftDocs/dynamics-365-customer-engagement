@@ -63,6 +63,7 @@
 #### [View agent dashboard and work items](agent/agent-oceh/oceh-omni-channel-agent-dashboard.md)
 #### [Understand conversation states](agent/agent-oceh/oceh-conversation-state.md)
 #### [View communication panel](agent/agent-oceh/oceh-conversation-control.md)
+#### [Monitor real-time customer sentiment in sessions](agent/agent-oceh/oceh-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage presence status](agent/agent-oceh/oceh-set-user-presence-status.md)
 #### [View notifications](agent/agent-oceh/oceh-notifications-screen-pops.md)
 #### [View customer summary](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)

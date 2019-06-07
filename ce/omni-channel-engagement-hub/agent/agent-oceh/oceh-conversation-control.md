@@ -167,13 +167,14 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 ![Filter transfer queue list](../../media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
-> [Next topic: Manage presence status](oceh-set-user-presence-status.md)
+> [Next topic: Monitor real-time customer sentiment in sessions](oceh-monitor-real-time-customer-sentiment-sessions.md)
 
 ## See also
 
 - [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Manage sessions](oceh-manage-sessions.md)
 - [Manage applications](oceh-manage-applications.md)
+- [Manage presence status](oceh-set-user-presence-status.md)
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 - [Take notes specific to conversation](oceh-take-notes.md)

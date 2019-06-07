@@ -60,5 +60,6 @@ When you interact with a customer in the conversation control, you can use the *
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
+- [Monitor real-time customer sentiment in sessions](oceh-monitor-real-time-customer-sentiment-sessions.md)
 - [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
 - [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
