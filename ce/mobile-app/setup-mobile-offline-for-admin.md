@@ -168,7 +168,7 @@ You need to create mobile offline profiles for users to configure filters that d
 8. In the **MOBILE OFFLINE PROFILE DETAILS** area, select **Add Mobile Offline Profile item record** to create a new mobile offline profile item. You need to create a mobile offline profile item for each entity you want to make available for this mobile offline profile.  
 
    > [!div class="mx-imgBorder"]
-   >![Enter Mobile Offline Profile Item details](media/itemdetails.png "Enter Mobile Offline Profile Item details")
+   >![Enter Mobile Offline Profile Item details](media/namemobileofflineprofile2.png "Enter Mobile Offline Profile Item details")
   
 9. Enter a name and select an entity. Only entities that you enabled (in **Step 1**) for mobile offline appear in this list.  
 
