@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Mobile offline allows users of the Dynamics 365 for phones app to interact with their data on a mobile device, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
+Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
 > - The mobile offline feature is only available for iOS and Android devices.
@@ -43,7 +43,7 @@ This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-
  
 One of the first things you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. 
   
-The following entities are available in offline mode:  
+The following entities are available to enable in offline mode:  
   
 - Account  
 
@@ -90,7 +90,7 @@ The following entities are available in offline mode:
 - User  
 
   > [!NOTE] 
-  > You can disable any of the above entities for offline or enable any entity from a supported list for offline. Follow the steps below to enable or disable an entity. 
+  > You can disable or enable any of the above supported entities for offline mode. The next section shows you how to enable or disable an entity. 
 
 ### To enable more entities for offline:
   
