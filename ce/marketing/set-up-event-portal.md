@@ -128,6 +128,15 @@ Here's how to configure each of the options that's described as optional in the 
 1. Go to the **Agenda** tab and set the **Allow registrants to create their own agenda** option to **Yes** if you want to use session-level registration, or to **No** to use pass-level registration (with optional online payment).
 1. Save your settings.
 
+<a name="demo-event-payment"></a>
+
+## Simulate payment for demo purposes
+
+If you'd like to demo the event website checkout process, but haven't yet set up the integration with a third-party payment provider, then you can enable simulated payment as described in [Event administration](events-settings.md#event-admin).
+
+> [!WARNING]
+> You must only enable simulated payment when presenting a demo of the event website. You must always disable it again before going to production because the simulated feature can introduce a security vulnerability if enabled in a production environment.
+
 <a name="generate-leads"></a>
 
 ## Generate and match contacts and leads from event registrations
