@@ -21,7 +21,7 @@ When quick scheduling is not enabled, the book button defaults to the full sched
 - Field Service v8.7+. See the additional notes section at the end of this article for more details.
 
 - Quick scheduling must be enabled: 
-  - Go to **Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities**.
+  - Go to **Resource Scheduling** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
 
   - Double-click an entity to display the entity's **Booking Setup Metadata**.
 
@@ -102,7 +102,7 @@ Quick scheduling also works with requirement groups, which allow organizations t
 
 ### 1. Create a requirement group
 
-Go to **Resource Scheduling > Requirement Groups > +New**. 
+Go to **Resource Scheduling** > **Requirement Groups** > **+New**. 
 
 Use the requirement group control to define the multiple resources needed. Each row represents a resource requirement.
 
