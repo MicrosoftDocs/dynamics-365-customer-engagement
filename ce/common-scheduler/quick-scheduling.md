@@ -28,4 +28,4 @@ search.app:
 
 # Quick scheduling in Universal Resource Scheduling
 
-[!INCLUDE[topic-urs-quick-scheduling.md](../includes/topic-urs-facility-scheduling.md)]
+[!INCLUDE[topic-urs-quick-scheduling.md](../includes/topic-urs-quick-scheduling.md)]
