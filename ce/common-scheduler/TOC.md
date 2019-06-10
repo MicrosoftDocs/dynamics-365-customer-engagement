@@ -9,6 +9,7 @@
 ## [Resource pools](resource-pools.md)
 
 # Schedule board configuration
+## [Enable an entity for scheduling](schedule-new-entity.md)
 ## [Share schedule board tabs](share-schedule-board-tab.md)
 ## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
