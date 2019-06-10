@@ -34,7 +34,6 @@ In the previous example, we enabled quick book for the work order entity, meanin
 
 Some organizations use requirements on their own for scheduling, unrelated to entities like work orders. Organizations like this should enable quick book for the **Default Metadata Settings (none)** option.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the "Default Metadata Settings (none) option selected in the enabled entities settings](../field-service/media/scheduling-quick-book-default-metadata-setting.png)
 
@@ -138,8 +137,6 @@ Lastly, as discussed in the [requirement groups topic](multi-resource-scheduling
 > ![Screenshot of the requirement group settings, showing different resource options](../field-service/media/scheduling-quick-book-rg-option.png)
 
 To utilize requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic.
-
-
 
 ## Configuration considerations
 
