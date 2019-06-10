@@ -1,5 +1,5 @@
 ---
-title: "Monitor real-time customer sentiment in sessions| MicrosoftDocs"
+title: "Monitor real-time customer satisfaction levels | MicrosoftDocs"
 description: "Learn how to monitor real-time customer sentiment when interacting with customers."
 keywords: ""
 author: kabala123
@@ -13,7 +13,7 @@ ms.assetid: 0D1925AF-3124-404B-A7B6-FCC0C3430CC4
 ms.custom: 
 ---
 
-# Monitor real-time customer sentiment in sessions
+# Monitor real-time customer satisfaction levels
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

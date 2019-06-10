@@ -167,7 +167,7 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 ![Filter transfer queue list](../../media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
 > [!div class="nextstepaction"]
-> [Next topic: Monitor real-time customer sentiment in sessions](oceh-monitor-real-time-customer-sentiment-sessions.md)
+> [Next topic: Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
 
 ## See also
 

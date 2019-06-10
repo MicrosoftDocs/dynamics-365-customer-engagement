@@ -87,5 +87,5 @@ This section displays case- and customer-related activities in the form of a tim
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
-- [Monitor real-time customer sentiment in sessions](oceh-monitor-real-time-customer-sentiment-sessions.md)
+- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
