@@ -26,7 +26,7 @@ The topic explains the known issues and limitations of Omni-channel Engagement H
 
 ## Dashboards don't appear in Omni-channel Engagement Hub active dashboards view
 
-When you use Omni-channel Engagement Hub app on Unified Service Desk or on web, the dashboard view don't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
+When you use the Omni-channel Engagement Hub app on Unified Service Desk or on web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
 
 ### Workaround
 
@@ -35,11 +35,11 @@ As a system customizer or administrator, you must manually add these dashboards 
 To work around the issue, follow these steps:
 
 1. Go to `https://<orgURL>.dynamics.com/apps`.
-2. Select the ellipsis (**...**) in the **Omni-channel Engagement Hub - Preview** app tile. <br>
+2. Select the ellipsis (**...**) button in the **Omni-channel Engagement Hub - Preview** app tile. <br>
     ![Sign in to Omni-channel Engagement Hub](media/oceh-sign-in.png "Sign in to Omni-channel Engagement Hub")
 3. Select **OPEN IN APP DESIGNER**. The App Designer opens in a new tab.
 4. Select **Dashboards** in the canvas area. The **Components** pane in the right side shows the list of **Classic Dashboards** and **Interactive Dashboards**.
-5. Select the following dashboards that are present under **Interactive Dashboards**.<br>
+5. Select the following dashboards under **Interactive Dashboards**.<br>
     - Knowledge Manager
     - My Knowledge Dashboard
     - Tier 1 Dashboard
