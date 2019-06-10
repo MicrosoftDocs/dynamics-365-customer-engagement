@@ -1,4 +1,4 @@
-Dynamics 365 for Field Service uses [Universal Resource Scheduling](./field-service/universal-resource-scheduling-for-field-service.md) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Considering your business processes, other entities may also be enabled for scheduling, including custom entities. 
+Dynamics 365 for Field Service uses [Universal Resource Scheduling](../field-service/universal-resource-scheduling-for-field-service.md) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Considering your business processes, other entities may also be enabled for scheduling, including custom entities. 
 
 Enabling an entity for scheduling allows dispatchers to schedule that entity through the schedule board, the schedule assistant, and even resource scheduling optimization (RSO). 
 
@@ -33,14 +33,14 @@ You will see a section called **Setup Wizard - Enable Scheduling** that lets you
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of of the enable scheduling settings, showing the enable new entity form](../field-service/media/enableleads.jpg)
+> ![Screenshot of of the enable scheduling settings, showing the enable new entity form](../field-service/media/enableleads.png)
 
 > [!Note]
 > If you have previously created relationships from the entity to the bookable resource booking or resource requirement entities, then they can be selected here as well. 
  
 Next, select **Publish Customization**.  
 
-To edit settings for how leads are booked, double-click **Leads** once it appears in the **Enabled Entities** section. For example, default booking statuses and whether the entity is enabled for [quick scheduling](./field-service/quick-scheduling.md) can be edited. 
+To edit settings for how leads are booked, double-click **Leads** once it appears in the **Enabled Entities** section. For example, default booking statuses and whether the entity is enabled for [quick scheduling](../field-service/quick-scheduling.md) can be edited. 
 
 
 > [!div class="mx-imgBorder"]
@@ -83,12 +83,12 @@ This will trigger the schedule assistant and display available resources that me
 If quick book is enabled for the entity, the **Book** button will trigger the quick scheduler panel, which also shows available resources that meet the criteria on the requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the quick scheduling pane, showing a calendar and possible time slots](../field-service/media/quick-book.jpg)
+> ![Screenshot of the quick scheduling pane, showing a calendar and possible time slots](../field-service/media/quick-book.png)
  
 Once the lead is booked, a new **Bookable Resource Booking** record is created and is also shown as a related entity.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the lead entity showing **Bookable Resource Bookings** and a single added resource](../field-service/media/booked-resource.jpg)
+> ![Screenshot of the lead entity showing **Bookable Resource Bookings** and a single added resource](../field-service/media/booked-resource.png)
 
 Next, let's talk about scheduling lead requirements from the schedule board.
   
@@ -177,7 +177,7 @@ If resources must perform work on site at the customer's location, travel time a
 If the entity you want to enable for scheduling is not displayed in the **Add Entity** list, go to the managed properties of the entity (**Settings** > **Customizations**) and set the **Can be customized** setting to **True**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Enable Scheduling Setup Wizard showing ](../field-service/media/enableleads.jpg)
+> ![Screenshot of the Enable Scheduling Setup Wizard showing ](../field-service/media/enableleads.png)
 
 
 - To turn off scheduling for a previously enabled entity, select **Deactivate** in the ribbon on the **Booking Setup Metadata** record.
