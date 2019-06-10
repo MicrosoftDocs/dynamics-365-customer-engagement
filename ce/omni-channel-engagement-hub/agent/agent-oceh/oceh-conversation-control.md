@@ -90,35 +90,6 @@ After you type **/q** in the communication panel messaging area, you can continu
  > [!div class=mx-imgBorder] 
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
 
-## Take notes specific to conversation
-
-Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
-
- > [!div class=mx-imgBorder]
- > ![Launch notes panel for taking notes](../../media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
-
-To learn more, see [Take notes specific to conversation](oceh-take-notes.md).
-
-## Search for and share knowledge articles
-
-From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
-
- > [!div class=mx-imgBorder]
- > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
-
-**/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
-
-To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
-
-## Link to conversation
-
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
-
-> [!div class=mx-imgBorder]
-> ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
-
-To learn more, see [Search, link, and unlink a record to the conversation](oceh-search-link-unlink-record.md).
-
 ## Consult with agent or supervisor
 
 The communication panel allows you to consult with other agents and/or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
@@ -157,6 +128,45 @@ Use the keyboard command to see the list of queues to transfer the conversation 
 After you type **/t** or **/tq** in the communication panel messaging area, you can continue typing the name of the participant and if it is present, the agent or queues names are filtered and displayed to you.
 
 ![Filter transfer queue list](../../media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
+
+## Take notes specific to conversation
+
+Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
+
+ > [!div class=mx-imgBorder]
+ > ![Launch notes panel for taking notes](../../media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
+
+To learn more, see [Take notes specific to conversation](oceh-take-notes.md).
+
+## Search for and share knowledge articles
+
+From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
+
+ > [!div class=mx-imgBorder]
+ > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
+
+**/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
+
+To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
+
+## Link to conversation
+
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
+
+> [!div class=mx-imgBorder]
+> ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
+
+To learn more, see [Search, link, and unlink a record to the conversation](oceh-search-link-unlink-record.md).
+
+## Monitor real-time customer satisfaction
+
+As an agent, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
+
+> [!div class=mx-imgBorder]
+> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
+
+To learn more, see [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
+
 
 > [!div class="nextstepaction"]
 > [Next topic: Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
