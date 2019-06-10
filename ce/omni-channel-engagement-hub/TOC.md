@@ -15,6 +15,7 @@
 ### [Omni-channel Engagement Hub on Unified Service Desk](administrator/omni-channel-engagement-hub-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omni-channel Engagement Hub package](administrator/omni-channel-engagement-hub-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
+### [Delete Omni-channel solutions](administrator/delete-solution.md)
 
 ### [Integrate a bot](administrator/configure-bot.md)
 

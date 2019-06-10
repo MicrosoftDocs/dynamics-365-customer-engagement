@@ -39,7 +39,7 @@ This section provides information on how to perform various tasks in [!INCLUDE[p
     
   
 ## Related Sections  
- [Core concepts for configuring Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)  
+ [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)  
   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   

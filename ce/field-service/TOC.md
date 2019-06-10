@@ -9,6 +9,7 @@
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
+## [Work order process architecture](field-service-architecture.md)
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
@@ -24,6 +25,7 @@
 ## [Schedule a work order](quickstart-schedule-work-order.md)
 
 # Work orders
+## [Work order life cycle and statuses](work-order-status-booking-status.md)
 ## [Create a new work order](create-work-order.md)
 ## [Add account details to a work order](work-order-customer-account.md)
 ## [Work order types](create-work-order-types.md)
@@ -31,9 +33,6 @@
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
 ## [Incident types](configure-incident-types.md)
-## [Work order sub-statuses](set-up-work-order-sub-statuses.md)
-
-
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -71,6 +70,7 @@
 
 
 # Field Service Mobile
+## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)
@@ -137,7 +137,9 @@
 ### [Overview](developer/connected-field-service-developer-guide.md)
 ### [Architecture](developer/connected-field-service-architecture.md)
 ### [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 ### [Installation and setup](installation-setup-iothub.md)
+### [Authorize API app connection](cfs-authorize-api-connection.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)

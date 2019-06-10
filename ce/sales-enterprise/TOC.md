@@ -6,6 +6,7 @@
 ### Sales management
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
+#### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -25,7 +26,7 @@
 #### [Delete family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
-### Goal management
+### Forecast and Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
@@ -61,6 +62,7 @@
 #### [Generate orders](../sales-enterprise/create-edit-order-sales.md)
 #### [Generate invoices](../sales-enterprise/create-edit-invoice-sales.md)
 #### [Add products to quote, order, or invoice](../sales-enterprise/add-product-quote-order-invoice.md)
+#### [Create a quote PDF](create-quote-pdf.md)
 ### Sales forecasting
 #### [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 #### [Capture forecast category for opportunity](capture-forecast-category-opportunity.md)

@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 02/20/2019
+ms.date: 05/29/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -41,15 +41,30 @@ search.app:
 
 | Version Number  |  Release date  |  Notes | More details |
 |---|---|---|---|
-| 8.5  |  March 2019 |   | [Release Notes for 8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/) |
-| 8.4  |  February 2019 |   | [Release Notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
-| 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service solution included with Field Service   | [Release Notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
+| 8.5  |  March 2019 |   | [Release notes for 8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/) |
+| 8.4  |  February 2019 |   | [Release notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
+| 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service solution included with Field Service   | [Release notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
 | 8.0  |  July 2018 |  Multi-resource scheduling (requirement groups) |
-|  7.5 |  February 2019 |  |    [Release Notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/) |
+|  7.5 |  February 2019 |  |    [Release notes for 7.5.6.97](https://blogs.msdn.microsoft.com/crm/2019/02/04/release-notes-for-field-service-version-7-5-6-97/), [7.5.7.87](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-7-5-7-87/), [7.5.8.93](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-7-5-8-93/) |
 |  7.0 |  September 2017 |  Schedule board extensibility for custom resource matching |  
 
 
+## Field Service Mobile app version history
 
+**Field Service Mobile** applies to Field Service 7.5.5+ and 8.2+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service mobile app download example](media/mobile-field-service-mobile-windows-app-store.png)
+
+**Field Service Mobile (2017)** applies to Field Service 6.1.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service mobile 2017 app download example](media/mobile-field-service-mobile-2017-windows-app-store.png)
+
+**Field Service Mobile (2016)** applies to Field Service 6.0.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service mobile 2016 app download example](media/mobile-field-service-mobile-2016-windows-app-store.png)
 
 ## Mobile project file library
 
@@ -60,10 +75,10 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 | Template version  | Template name | Release date | Relates to Field Service Mobile version |  Publish to Woodford Version |
 |---|---|---|---|---|
 | [1.0.1322](https://aka.ms/fsmobile-project)  |  FSDyn365_1.0.1322.woodford | December 2018  |  11.2 | 11.2 |
-| [1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | January 2017  | Field Service v6.1 and  **Field Service Mobile (2017)** 9.0+ | 9.1 |
-| [1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | June 2016  |  Field Service v6.0 and **Field Service Mobile (2016)** 8.0 | 8.0 |
+| [Field Service v6.1 v1.0.0.0](https://go.microsoft.com/fwlink/p/?linkid=836310)  |  CentaurusStoreVersion.woodford | December 2018  |  **Field Service Mobile (2017)** 9.0+ | 9.1 |
+| [ Field Service v6.0 v1.0.0.0](http://go.microsoft.com/fwlink/p/?LinkId=808250)  |  Field Service Mobile default project.woodford | December 2018  |  **Field Service Mobile (2016)** 8.0 | 8.0 |
 
-## Additional notes
+## Trials and upgrades
 
  - New Dynamics 365 trials created through [https://trials.dynamics.com](https://trials.dynamics.com) will install the latest generally available Field Service solution. 
  - You can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 

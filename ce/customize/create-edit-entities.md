@@ -1,7 +1,7 @@
 ---
 title: "Create or edit entities | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,9 +21,9 @@ search.app:
 ---
 # Create or edit entities (record types) 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Entities define the types of records people can use in a Dynamics 365 for Customer Engagement apps app or a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization. In Dynamics 365 for Customer Engagement apps, you can edit customizable system entities and create, edit, and delete custom entities.  
+Entities define the types of records people can use in Dynamics 365 for Customer Engagement apps or a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization. In Dynamics 365 for Customer Engagement apps, you can edit customizable system entities and create, edit, and delete custom entities.  
   
 ### See also    
  [Entities and metadata overview](../customize/create-edit-metadata.md)   <br/>

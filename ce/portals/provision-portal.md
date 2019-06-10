@@ -4,7 +4,7 @@ description: "Instructions to provision a portal."
 ms.custom: 
   - dyn365-portal
   - dyn365-deflc
-ms.date: 04/17/2019
+ms.date: 05/29/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,7 +31,7 @@ Portals are websites that you can customize to provide a more personalized exper
 -   Internal employees can create and see best practices.
 
 > [!NOTE]
-> To provision a portal, you must be assigned to the System Administrator role of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal.
+> To provision a portal, you must be assigned either System Administrator or System Customizer role of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization selected for the portal. You must also have the [required permissions](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#required-permissions) to create and register an application in Azure AD. If you don't have the required permissions, contact the Global Administrator to update your permissions or ask the Global Administrator to provision the portal.
 
 To complete provisioning a portal, after you have purchased a new portal license, return to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
 
@@ -98,10 +98,16 @@ To complete provisioning a portal, after you have purchased a new portal license
     > ![Configure settings for your portal](media/configure-settings-portal.png "Configure settings for your portal")  
 
 11. Select **Submit**, and accept the Terms of Service.
-
-    ![Terms of service](media/terms-of-service.png "Terms of service")  
+    > [!div class="mx-imgBorder"]
+    > ![Terms of service](media/terms-of-service.png "Terms of service")  
 
 After you accept the Terms of Service, the portal will begin provisioning. Provisioning usually takes 30 minutes but can take a few hours depending on the system load. The *Name* of the portal on the Application tab will change to *Name*-Configuring while it is provisioning. Navigate back to the portal management page to check whether provisioning has succeeded.
+
+After the portal is provisioned, the **Portal Details** page is displayed with the required details.
+
+> [!div class="mx-imgBorder"]
+> ![Portal details](media/portal-details.png "Portal details") 
+
 
 > [!Note]
 > When a portal user signs in to the portal for the first time by using an Azure AD credential, a consent page is displayed to all users irrespective of the user or portal type.

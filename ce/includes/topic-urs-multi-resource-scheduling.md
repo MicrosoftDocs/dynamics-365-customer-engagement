@@ -43,7 +43,7 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 ## 2. Create a new requirement group
 
-- Navigate to **Universal Resource Scheduling** > **Requirement Group** > **New**
+- Navigate to **Universal Resource Scheduling** > **Requirement Group** > **New**.
 
 - Enter a **Name**. 
 

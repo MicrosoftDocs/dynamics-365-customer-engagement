@@ -48,6 +48,6 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
 ## See also  
  [Hosted control types, action, and event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
  
-[Configure your agent application using Unified Service Desk](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
+[Overview of configuring agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)

@@ -2,7 +2,7 @@
 title: "Use dialogs for guided processes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Dialogs are the synchronous or interactive processes in Dynamics 365 for Customer Engagement (online) Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process"
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 05/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,7 +26,10 @@ search.app:
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Dialogs are the synchronous or interactive processes in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process. For example, you can create dialogs to act as a guide for your service representatives for case resolution and case escalation. Similarly, you can create dialogs for standardizing sales processes such as opportunity qualification and lead scoring.  
+Dialogs are the synchronous or interactive processes in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process. For example, you can create dialogs to act as a guide for your service representatives for case resolution and case escalation. Similarly, you can create dialogs for standardizing sales processes such as opportunity qualification and lead scoring.
+
+> [!IMPORTANT]
+> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in PowerApps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
   
  Every time that you run a dialog in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], a `ProcessSession` record is created. The process session stores the session log about the dialog process that was run.  
   

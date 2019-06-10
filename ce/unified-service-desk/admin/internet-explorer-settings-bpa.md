@@ -217,7 +217,7 @@ If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or ea
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

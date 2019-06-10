@@ -2,7 +2,7 @@
 title: "Set managed properties for fields in PowerApps | MicrosoftDocs"
 description: "Learn how to set managed properties for a field"
 ms.custom: 
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,7 +21,7 @@ tags:
 ---
 # Set managed properties for fields
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 <a name="BKMK_SettingManagedProperties"></a>   
 

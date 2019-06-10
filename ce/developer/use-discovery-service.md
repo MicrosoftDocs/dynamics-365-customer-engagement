@@ -3,7 +3,7 @@ title: "Use the Dynamics 365 for Customer Engagement Discovery services (Develop
 description: "In a multi-tenant environment like Dynamics 365 for Customer Engagement, the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

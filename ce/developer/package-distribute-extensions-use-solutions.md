@@ -3,7 +3,7 @@ title: "Package and distribute extensions using solutions (Developer Guide for D
 description: "In Dynamics 365 for Customer Engagement apps, solutions give you a framework for packaging, installing, and uninstalling components that provide specific business functionality. Solutions are used by ISVs and other Dynamics 365 for Customer Engagement apps solution providers to distribute extensions they create, but you’ll also use them to transfer customizations between different organizations you may use in your development process, such as separate development, test, and production organizations."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
