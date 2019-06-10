@@ -1,6 +1,6 @@
 ---
 title: "Monitor real-time customer satisfaction levels | MicrosoftDocs"
-description: "Learn how to monitor real-time customer sentiment when interacting with customers."
+description: "Learn how to monitor real-time customer satisfaction levels while interacting with customers."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -19,11 +19,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-As an agent, when you interact with the customers using the communication panel, you want to know the customer satisfaction levels in real-time. The analysis of the customer's satisfaction helps you to understand the customer's problem and take a course of action to solve the problem. In Omnichannel for Customer Service, as agent, you can see the customer's satisfaction levels instantly.
+As an agent, while you interact with the customers, you want to know the customer satisfaction levels in real-time. The analysis of the customer's satisfaction helps you to understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, as agent, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## Understand real-time customer sentiment
 
-The sentiment analysis is based on the customer messages sent to you. That is, the recent six messages from the customer is used for the analysis and the sentiment icon is displayed on the communication panel. The analysis is automatic and unbaised that measures the satisfaction levels of the customer.
+The sentiment analysis is based on the customer messages sent to you. That is, the recent six messages from the customer is used for the analysis and the sentiment icon is displayed on the communication panel. The analysis is automatic and unbaised that measures the satisfaction levels of the customer in real-time.
 
 There are seven sentiment icons.
 
@@ -39,7 +39,7 @@ There are seven sentiment icons.
 
 ## View real-time customer sentiment
 
-The real-time sentiment is displayed at the top of the communication panel. The icon changes dynamically based on the recent six customer messages sent to you.
+The real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the recent six customer messages sent to you.
 
 When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates at this moment the customer satisfaction is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
 
