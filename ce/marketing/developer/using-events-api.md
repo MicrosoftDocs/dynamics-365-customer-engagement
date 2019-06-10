@@ -4,7 +4,7 @@ description: "Read about the Events API that lets you access data of events, ses
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 06/06/2019
+ms.date: 06/10/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -39,7 +39,7 @@ Every customer has its own endpoint URL. The Event API endpoint URL consists of 
 - the endpoint domain and,
 - the sub directory.  
 
-You will get the root endpoint after creating a `web application token`. You can find more information on how to create a web application token here [link to create web application token page]. 
+You will get the root endpoint after creating a `web application token`. You can find more information on how to create a web application token here: [Register web application](#bkmk_registerwebapp). 
 
 **Example for root endpoint**
 
@@ -47,7 +47,7 @@ You will get the root endpoint after creating a `web application token`. You can
 https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com 
 ``` 
 
-The sub directory always starts with `EvtMgmt/api` followed by the API version (which can be retrieved from the API documentation [link to api documtation]). 
+The sub directory always starts with `EvtMgmt/api` followed by the API version (which can be retrieved from the API documentation available here: [Event management API reference docs](https://go.microsoft.com/fwlink/?linkid=2042224)). 
 
 **Example for sub directory**
 
@@ -63,14 +63,14 @@ https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/
 
 ## Authentication 
 
-To use the Events API, you need to provide a `web application token` as URL parameter in each request. The web application token is used to control API requests that are associated with your organization. Please see [create web application token page] on how to create and retrieve a web application. 
+To use the Events API, you need to provide a `web application token` as URL parameter in each request. The web application token is used to control API requests that are associated with your organization. Please see [Register web application](#bkmk_registerwebapp) on how to create and retrieve a web application. 
 
 The `web application token` can be added to the request by adding a URL parameter called `emApplicationtoken`. 
 
 **Example** 
 
 ```http
-https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/events/published? emApplicationtoken=B7vdzdhCiLt9c5iT….
+https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/events/published?emApplicationtoken=B7vdzdhCiLt9c5iT….
 ```
 
 Additionally, the origin from where the request is sent must be equal to the origin specified when creating the `web application token`.
@@ -79,7 +79,9 @@ If you do not provide a `web application token` or the `Origin Header` the Event
 
 If the `web application token` is invalid, the Events API will return `HTTP 401 Unauthorized`.
 
-## Register your application
+<a name="bkmk_registerwebapp"></a>
+
+## Register your web application
 
 To use the Events API, you need to provide a web application token in each request. The web application token is used to control API requests that are associated with your organization. More information: [Register your web application](host-custom-event-website-on-azure.md#step-2-register-your-web-application).
 
@@ -128,11 +130,11 @@ curl -X GET \
 
 ```json
 {
-“id”: “05ef77de-b882-e911-a970-000d3a4e9aa0”,
-“firstName”: “John”,
-“lastName”: “Doe”,
-“email”: “joe.doe@contoso.com”,
-“isAnonymous”: false
+   "id":"05ef77de-b882-e911-a970-000d3a4e9aa0",
+   "firstName":"John",
+   "lastName":"Doe",
+   "email":"joe.doe@contoso.com",
+   "isAnonymous":false
 } 
 ```
 
