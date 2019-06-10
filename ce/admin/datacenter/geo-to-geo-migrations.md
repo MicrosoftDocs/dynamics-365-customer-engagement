@@ -1,7 +1,7 @@
 ---
 title: "Geo to geo migrations for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/12/2018
+ms.date: 06/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,6 +30,8 @@ We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest]
  The Geo Migration feature for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will allow customers to move their instances in a single tenant from one region to another. There are no user-interface changes or version changes as part of this move. In the case of a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance residing in an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] instance in a single tenant, moving the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance doesn’t move the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] instance; they are separate services. Your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance will still appear in your tenant alongside the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] instance.  
 
 > [!IMPORTANT]
+> Support for geo migration is limited and generally not available.
+>
 >  For versions prior to [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], you can move individual [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances from one geographical region to another. When you do so, your tenant becomes a multiregional tenant. Regional features are enabled in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)].  
 > 
 >  To request a regional migration, please contact your account manager or  see [Technical Support](../../admin/contact-technical-support.md).  
