@@ -172,6 +172,8 @@
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### [Localization](developer/event-portal-localization.md)
 #### [Using Events API](developer/using-events-api.md)
+##### [User authentication](user-authentication-events-api.md)
+##### [Customize Events API response](customize-events-api-response.md)
 ### [Work with Segments using code](developer/extend-segments.md)
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
 #### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)
