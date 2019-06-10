@@ -111,7 +111,7 @@ In the following screenshot example, we need two resources each with different s
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a requirement group entity with 2 requirements listed](../field-service/media/scheduling-quick-book-rg.png)
 
-For further details, see the [topic on requirement groups](../field-service/multi-resource-scheduling-requirement-groups).
+For further details, see the [topic on requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md).
 
 Select a row and open the form to edit more fields.
 
@@ -131,7 +131,7 @@ Again, you can select a time slot and then **Book** to assign the requirement gr
 
 The results are displayed in order of average travel time and distance; because each resource may be traveling from a different location, travel time and distance is calculated as the average. 
 
-Lastly, as discussed in the [requirement groups topic](multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of our required skill.
+Lastly, as discussed in the [requirement groups topic](../field-service/multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of our required skill.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the requirement group settings, showing different resource options](../field-service/media/scheduling-quick-book-rg-option.png)
