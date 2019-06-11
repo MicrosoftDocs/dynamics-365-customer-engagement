@@ -86,7 +86,7 @@ This document provides important, late-breaking information about known issues a
 
 - Support for advanced dynamic email content is now available in all regions. <br><del>Support for dynamic email content is being expanded to include look-up values, relations, and logical functions like conditionals and for-each loops. We are rolling this capability out gradually, so it may not yet be available on your tenant. For more information about this feature, see [Advanced dynamic content](dynamic-email-content.md#advanced-dynamic-content).</del>
 - Assist-edit correctly creates expressions that display the owning user or team of a contact record.<br><del>When you use assist edit to place dynamic content with information about the owner of a contact record, the relationship rendered is incorrect.</del><!-- 1380000 -->
-- Test send works for all organizations. <br><del>For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please contact Microsoft Support. </del><!-- 1267485 -->
+- Test send works for all organizations. <br><del>For certain organizations that upgraded recently, test send may not work. If you encounter this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). </del><!-- 1267485 -->
 - Assist-edit now loads all contexts correctly.<br><del>- Assist-edit is sometimes unavailable for content settings, resulting in inactive assist-edit buttons on this page. This is due to a script not being loaded by the content settings page. To fix the issue, open any email message (which will load the script) and then open the content settings. The script will remain available thereafter until you reload the browser window or close the browser. More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)</del> <!--1406708-->
 
 ## Marketing pages and forms
@@ -141,7 +141,7 @@ This document provides important, late-breaking information about known issues a
 ### Known issues
 
 - If you disable anonymous registration for the event portal, then customer organizations must create a registerer account using the portal, after which the registerer can register as many attendees from their organization as needed. However, the registerer can't use the portal to create an account using an email address that belongs to a contact already in Dynamics 365. To set up an existing contact as a registerer, create a [portal invitation](../portals/invite-contacts.md) and then send the invitation code to the contact by email.
-- Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please contact Microsoft Support for more information.
+- Even though surveys are available in the app (such as for emails, journeys, and events), this feature currently has limited functionality. Anonymous surveys can be added to emails but can't serve as triggers in customer journeys. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for more information.
 
 ### Fixed issues
 
@@ -162,7 +162,7 @@ This document provides important, late-breaking information about known issues a
 ## Social listening for campaigns
 
 - The social listening feature relies on a product called Microsoft Social Engagement, which has been discontinued. Organizations that are already using the feature can continue to do so until Jan 16, 2020, but it is no longer available to new customers. Twitter will stop being provided as a data source on Oct 1, 2019. More information: [Set up social listening and add it to any record](social-listening.md)
-- The social listening control may not show data on some Dynamics 365 instances. If you experience this issue, please contact Microsoft Support. <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
+- The social listening control may not show data on some Dynamics 365 instances. If you experience this issue, please [contact Microsoft Support](setup-troubleshooting.md#contact-support). <!--- This is for the UCI FCB that's required to be switched on, and requires a platform upgrade. We can also manually flip this FCB on an org by org basis by updating a DB value -->
 
 ## Designer feature protection
 
@@ -174,7 +174,7 @@ This document provides important, late-breaking information about known issues a
 
 ## General
 
-- The following features from the April 2019 release require that your instance has access to the latest Dynamics 365  infrastructure and services: *manage segment memberships from the contact record*, *session-level event registration*, *event-registration QR codes in email*, *portal-optional operation*, and some *segmentation improvements*. We are rolling out the needed infrastructure updates as quickly as possible, and most customers should have them already. If you are running the April 2019 release and require one or more of these features but don't have them available on your instance, please contact Microsoft Support to get your infrastructure updated right away.
+- The following features from the April 2019 release require that your instance has access to the latest Dynamics 365  infrastructure and services: *manage segment memberships from the contact record*, *session-level event registration*, *event-registration QR codes in email*, *portal-optional operation*, and some *segmentation improvements*. We are rolling out the needed infrastructure updates as quickly as possible, and most customers should have them already. If you are running the April 2019 release and require one or more of these features but don't have them available on your instance, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) to get your infrastructure updated right away.
 - If you have different Dynamics 365 sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different Dynamics 365 user account.
 - Avoid deleting fields and creating them again with the same name but a different field type. This causes issues when syncing those fields with the customer-insights database. Instead, create fields with new names (they can still have the same display name as before if needed). <!--- 1424524 -->
 - Avoid deactivating publishable (go-live) records. Instead, change the publishing state (Status reason), and use the **Stop** buttons to manage records that are no longer required. More information: [Go live with publishable entities and track their status](go-live.md)

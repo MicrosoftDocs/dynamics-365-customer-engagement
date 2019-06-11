@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing insights service
-ms.date: 04/01/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -65,14 +65,17 @@ Read this topic to learn how to set up a new [!INCLUDE[pn-marketing-business-app
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
+> [!IMPORTANT]
+> Problems can occur if you try to reinstall Dynamics 365 for Marketing on an instance where it was previously uninstalled. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
+> 
+> - Reset the instance before starting to reinstall Marketing.
+> - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
+
 ## Step 1: Launch the setup wizard
 
 After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app available on your tenant. To set up the app, you must run its setup from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md)
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the setup wizard will help you review all the relevant privacy policies and set up and integrate these various elements. Proceed as described in the following subsections.
-
-> [!IMPORTANT]
-> Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, so take care while filling it out.
 
 ## Step 2: Choose an organization and portal options
 
