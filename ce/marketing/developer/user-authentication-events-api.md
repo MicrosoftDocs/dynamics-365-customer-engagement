@@ -4,7 +4,7 @@ description: "Read about the Events API that lets you access data of events, ses
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 06/10/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -76,4 +76,5 @@ curl -X GET \
 
 ## See also
 
-[Using Events API](using-events-api.md)
+[Using Events API](using-events-api.md)<br />
+[Customize the response from Events API](customize-events-api-response.md)

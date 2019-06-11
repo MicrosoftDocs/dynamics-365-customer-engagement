@@ -4,7 +4,7 @@ description: ""
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 06/10/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -39,6 +39,13 @@ Follow the steps below to create a new website entity configuration:
 
 ![Customize API response](../media/using-events-api-customize-response.png)
 
+**Example**
+
+```
+[“statuscode”, “my_custom_field”]
+```
+
 ## See also
 
-[Using Events API](using-events-api.md)
+[Using Events API](using-events-api.md)<br />
+[User authentication using Events API](user-authentication-events-api.md)
