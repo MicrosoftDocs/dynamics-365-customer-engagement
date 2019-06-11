@@ -49,6 +49,13 @@ The new experience lists the entities as follows, as compared to the legacy expe
 |Service Activity     |     Service Activity     |
 |   |           |
 
+  > [!IMPORTANT]
+  > Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br>
+	- Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling while a service created in the new experience can be scheduled in the URS based scheduling. </br>
+	- You can edit bookings data and configurations in the experience it is originally created in.
+    Bookings created in the legacy experience don’t reflect in the new experience. Vice versa is also true.
+    It is recommended that to effectively manage your bookings, you should migrate your data to the new experience using the migration tool. 
+
 ### Scheduling scenario
 
 The following scenario helps to understand how the new scheduling experience lets you manage your service activities seamlessly: 
