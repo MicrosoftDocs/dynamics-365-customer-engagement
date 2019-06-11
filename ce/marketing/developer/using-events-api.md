@@ -4,7 +4,7 @@ description: "Read about the Events API that lets you access data of events, ses
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 06/10/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -29,7 +29,7 @@ The Events API is a programmatic method to access data of events, sessions, sess
 
 ## Schema 
 
-The API access is over HTTPS and is accessed from the API endpoint that you receive while creating a web application token. All data is sent and received as JSON. 
+The API access is over HTTPS protocol and is accessed from the API endpoint that you receive while creating a web application token. All data is sent and received as JSON. 
 
 Blank fields are included as `null` instead of being omitted. 
 
@@ -63,7 +63,7 @@ https://b7c1ad1ab7fa4a7482b16315d94a26af.svc.dynamics.com/EvtMgmt/api/v2.0/
 
 ## Authentication 
 
-To use the Events API, you need to provide a `web application token` as URL parameter in each request. The web application token is used to control API requests that are associated with your organization. Please see [Register web application](#bkmk_registerwebapp) on how to create and retrieve a web application. 
+To use the Events API, you need to provide a `web application token` as URL parameter in each request. The web application token is used to control API requests that are associated with your organization. Please see [Register web application](#bkmk_registerwebapp) for more information on how to create and retrieve a web application. 
 
 The `web application token` can be added to the request by adding a URL parameter called `emApplicationtoken`. 
 
@@ -88,5 +88,6 @@ To use the Events API, you need to provide a web application token in each reque
 ## See also
 
 [User authentication for Events API](user-authentication-events-api.md)<br />
+[Customize the response from Events API](customize-events-api-response.md)<br />
 [Metadata reference for your organization](marketing-organization-metadata.md)<br />
 [Entity reference](marketing-entity-reference.md)
