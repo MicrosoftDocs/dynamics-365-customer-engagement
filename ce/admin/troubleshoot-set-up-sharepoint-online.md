@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot SharePoint Online integration with Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/29/2019
+ms.date: 06/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
