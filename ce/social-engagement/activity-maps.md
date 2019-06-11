@@ -22,9 +22,10 @@ search.app:
   - D365SE
 ---
 
+# Define activity maps to view real-time data
+
 [!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
-# Define activity maps to view real-time data
 Using activity maps, you can view real-time posts by geographical location on an easy-to-understand map. You can further view these posts in Analytics to understand more details and associated metrics.  
   
 > [!NOTE]
