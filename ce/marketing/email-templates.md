@@ -97,6 +97,7 @@ The following known issues apply to the out-of-the-box email templates and custo
   - Borders around buttons are not supported.
   - Rounded corners might not be rendered correctly.
   - Background images aren't supported when they have text or button overlays.
+  - In some cases, local settings or customizations (such as Outlook plugins) can affect the way messages are rendered. There is no good way to control for this.
 - **T-Online email clients** will render two buttons, regular **Button** and **VML** markup.
 - The **Android 4.4 email client** shows only about 60&nbsp;percent of the template width. We haven't been able to verify whether horizontal scrolling is possible. As far as we know, this only affects the native Android client, not the native clients included with phones from most manufacturers, such as Samsung.
 - **SFR.fr email clients** display a background color for some links.
@@ -106,10 +107,11 @@ The following known issues apply to the out-of-the-box email templates and custo
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
 
-- **Missing footer** : Litmus screenshots sometimes fail to capture the entire message height.
-- **Unable to scroll** : The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
-- **The message is too high** : Sometimes Litmus renders extra content at the end of the email message.
-- **Only half of the message is visible in the preview** : This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
+- **Missing footer**: Litmus screenshots sometimes fail to capture the entire message height.
+- **Unable to scroll**: The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
+- **The message is too high**: Sometimes Litmus renders extra content at the end of the email message.
+- **Only half of the message is visible in the preview**: This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
+- **Outlook previews don't reflect custom plugins**: Outlook supports local customizations and plugins that can, in some cases, affect the way messages are rendered. Litmus provides screenshots based on a standard Outlook installation&mdash;without considering the affect of custom plugins and other local customizations.
 
 ### See also
 
