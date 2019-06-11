@@ -106,36 +106,32 @@ The most common cause for the Documents associated grid not loading is the corru
 12. Make the changes as below for the FetchXml section:
 
     ```  
-    <fetchxml>
-      <fetch distinct="false" mapping="logical">
-        <entity name="sharepointdocument">
-          <attribute name="documentid" />
-          <attribute name="fullname" />
-          <attribute name="relativelocation" />
-          <attribute name="sharepointcreatedon" />
-          <attribute name="filetype" />
-          <attribute name="modified" />
-          <attribute name="sharepointmodifiedby" />
-          <attribute name="title" />
-          <attribute name="readurl" />
-          <attribute name="editurl" />
-          <attribute name="author" />
-          <attribute name="absoluteurl" />
-          <attribute name="ischeckedout" />
-          <attribute name="locationid" />
-          <attribute name="iconclassname" />
-          <filter type="and">
-            <condition attribute="documentlocationtype" operator="eq" value="1" />
-            <condition attribute="isrecursivefetch" operator="eq" value="0" />
-            <filter type="or">
-              <condition attribute="filetype" operator="eq" value="one" />
-              <condition attribute="filetype" operator="eq" value="onetoc2" />
-            </filter>
-          </filter>
-          <order attribute="sharepointcreatedon" descending="true" />
-        </entity>
-      </fetch>
-    </fetchxml>
+<fetch distinct="false" mapping="logical">
+	<entity name="sharepointdocument">
+		<attribute name="documentid" />
+		<attribute name="fullname" />
+		<attribute name="relativelocation" />
+		<attribute name="sharepointcreatedon" />
+		<attribute name="ischeckedout" />
+		<attribute name="filetype" />
+		<attribute name="modified" />
+		<attribute name="sharepointmodifiedby" />
+		<attribute name="servicetype" />
+		<attribute name="absoluteurl" />
+		<attribute name="title" />
+		<attribute name="author" />
+		<attribute name="sharepointdocumentid" />
+		<attribute name="readurl" />
+		<attribute name="editurl" />
+		<attribute name="locationid" />
+		<attribute name="iconclassname" />
+		<order attribute="relativelocation" descending="false" />
+		<filter>
+			<condition attribute="isrecursivefetch" operator="eq" value="0" />
+		</filter>
+	</entity>
+</fetch>
+
      ```  
 
 13. Save the file.
