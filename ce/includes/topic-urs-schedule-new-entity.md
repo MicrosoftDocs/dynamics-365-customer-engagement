@@ -174,10 +174,7 @@ If resources must perform work on site at the customer's location, travel time a
 
 
 ## Additional notes
-If the entity you want to enable for scheduling is not displayed in the **Add Entity** list, go to the managed properties of the entity (**Settings** > **Customizations**) and set the **Can be customized** setting to **True**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Enable Scheduling Setup Wizard showing ](../field-service/media/enableleads.png)
+- If the entity you want to enable for scheduling is not displayed in the **Add Entity** list, go to the managed properties of the entity (**Settings** > **Customizations**) and set the **Can be customized** setting to **True**. For more information, see our [topic on managed properties](https://docs.microsoft.com/dynamics365/customer-engagement/customize/set-managed-properties).
 
 
 - To turn off scheduling for a previously enabled entity, select **Deactivate** in the ribbon on the **Booking Setup Metadata** record.
