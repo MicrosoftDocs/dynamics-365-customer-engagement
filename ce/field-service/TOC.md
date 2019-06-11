@@ -55,6 +55,7 @@
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
+### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
