@@ -103,43 +103,42 @@ The most common cause for the Documents associated grid not loading is the corru
     </layoutxml>
     ```  
 
-12. Make the changes as below for the FetchXml section:
+13. Make the changes as below for the FetchXml section:
 
     ```  
-<fetch distinct="false" mapping="logical">
-	<entity name="sharepointdocument">
-		<attribute name="documentid" />
-		<attribute name="fullname" />
-		<attribute name="relativelocation" />
-		<attribute name="sharepointcreatedon" />
-		<attribute name="ischeckedout" />
-		<attribute name="filetype" />
-		<attribute name="modified" />
-		<attribute name="sharepointmodifiedby" />
-		<attribute name="servicetype" />
-		<attribute name="absoluteurl" />
-		<attribute name="title" />
-		<attribute name="author" />
-		<attribute name="sharepointdocumentid" />
-		<attribute name="readurl" />
-		<attribute name="editurl" />
-		<attribute name="locationid" />
-		<attribute name="iconclassname" />
-		<order attribute="relativelocation" descending="false" />
-		<filter>
-			<condition attribute="isrecursivefetch" operator="eq" value="0" />
-		</filter>
-	</entity>
-</fetch>
-
+    <fetch distinct="false" mapping="logical">
+      <entity name="sharepointdocument">
+        <attribute name="documentid" />
+        <attribute name="fullname" />
+        <attribute name="relativelocation" />
+        <attribute name="sharepointcreatedon" />
+        <attribute name="ischeckedout" />
+        <attribute name="filetype" />
+        <attribute name="modified" />
+        <attribute name="sharepointmodifiedby" />
+        <attribute name="servicetype" />
+        <attribute name="absoluteurl" />
+        <attribute name="title" />
+        <attribute name="author" />
+        <attribute name="sharepointdocumentid" />
+        <attribute name="readurl" />
+        <attribute name="editurl" />
+        <attribute name="locationid" />
+        <attribute name="iconclassname" />
+        <order attribute="relativelocation" descending="false" />
+        <filter>
+          <condition attribute="isrecursivefetch" operator="eq" value="0" />
+        </filter>
+      </entity>
+    </fetch>
      ```  
 
-13. Save the file.
-14. Zip the folder.
-15. Open Dynamics 365 for Customer Engagement.
-16. Navigate to **Settings** > **Solutions**
-17. Import the solution (zipped file in Step 8).
-18. Publish all customizations.
-19. Verify the Document associated grid is displaying in all the required SharePoint documents.
+14. Save the file.
+15. Zip the folder.
+16. Open Dynamics 365 for Customer Engagement.
+17. Navigate to **Settings** > **Solutions**
+18. Import the solution (zipped file in Step 8).
+19. Publish all customizations.
+20. Verify the Document associated grid is displaying in all the required SharePoint documents.
 
 
