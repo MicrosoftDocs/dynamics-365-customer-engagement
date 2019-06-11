@@ -2,7 +2,7 @@
 title: "Set your preferences for the user interface | Microsoft Docs"
 description: "Learn how to configure user preferences for individual users."
 keywords: user preferences, social engagement, my preferences, individual settings
-ms.date: 12/06/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: dc6e2e29-bfbe-4a07-977f-a80d68a2e489
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Set your preferences for the user interface
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] profile, you can select the following:  
   
 - Screen language  

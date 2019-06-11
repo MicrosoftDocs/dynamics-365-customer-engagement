@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: search topic, search rule, Social Engagement
-ms.date: 04/03/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -11,7 +11,6 @@ ms.assetid: 9d65050a-4d34-4d87-8361-1954114da289
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Add rules to a search topic
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Search topics define the data that's available for your analysis. You can add an unlimited number of search rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time, and add more rules or change existing ones.
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports the following search rules. 

@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: news, product updates, product improvements, service updates
-ms.date: 04/17/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -23,6 +23,8 @@ search.app:
 ---
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Here's a list of features we added recently.
 

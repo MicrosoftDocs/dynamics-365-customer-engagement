@@ -2,7 +2,7 @@
 title: "Link posts from Social Engagement to Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn how to link social posts to Dynamics 365 for Customer Engagement and create new case or lead records."
 keywords: link to crm, link to customer engagement
-ms.date: 02/14/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -22,6 +22,8 @@ search.app:
 ---
 
 # Link posts from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides a platform for capturing public posts from social media. You link posts in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance and turn them into new records.
 
