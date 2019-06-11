@@ -23,9 +23,9 @@ As an agent, while you interact with your customers, you want to know their sati
 
 ## Understand real-time customer sentiment
 
-The sentiment analysis is based on the most recent six messages from the customer. A sentiment icon is displayed on the communication panel showing you the current customer sentiment. The analysis is an automatic and unbiased that measurement of satisfaction levels of the customer in real-time.
+The sentiment analysis is based on the most recent six messages from the customer. A sentiment icon is displayed on the communication panel showing you the current customer sentiment. The analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real-time.
 
-There are seven sentiment icons.
+The sentiment icon that is displayed on the communication panel are as follows.
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
