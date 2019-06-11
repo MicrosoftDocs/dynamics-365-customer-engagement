@@ -44,7 +44,7 @@ Customer summary is a page that gives you complete information about a customer.
 
 This section provides details like the contact name or account name. For a contact, you can view the location, email, and any other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
 
-Use the customer form to search for an existing contact or account record in omnichannel and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record using the **Create Contact** or **Create Account** button respectively.  After you create, search the record and then select it to link to the conversation.
+Use the customer form to search for an existing contact or account record in omnichannel and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record using the **+ Add Contact** or **+ Add Account** button respectively.  After you create, search the record and then select it to link to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section in the customer summary form")
@@ -64,7 +64,7 @@ To learn more, see [Create chat authentication settings](../../administrator/cre
 
 ## Case
 
-Use the case form to search for an existing case in omnichannel and select the case to link it to the conversation. If the record doesn't exist, you can create a new case using the **Create Case** button.  After you create, search the record and then select it to link to the conversation.
+Use the case form to search for an existing case in omnichannel and select the case to link it to the conversation. If the record doesn't exist, you can create a new case using the **+ Add Case** button.  After you create, search the record and then select it to link to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Case section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Case section in the customer summary form")
