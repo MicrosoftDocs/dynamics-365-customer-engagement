@@ -1,6 +1,6 @@
 ---
 title: "User authentication using Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Read about the Events API that lets you access data of events, sessions, session tracks and passes"
+description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
@@ -23,9 +23,9 @@ search.app:
 ---
 # User authentication using Events API
 
-The Events API supports user authentication with Azure Active Directory B2C. To link the Events API to your Azure Active Directoty B2C, you need to add your `AAD Client ID` and `AAD Metadata Endpoint` to your `web application setting`.  More information [Creating Azure AD B2C tenant and adding a web application to the tenant](event-management-aad-b2c-setup.md#creating-azure-ad-b2c-tenant-and-adding-a-web-application-to-the-tenant).
+The Events API supports user authentication with Azure Active Directory B2C. To link the Events API to your Azure Active Directory B2C, you need to add your `AAD Client ID` and `AAD Metadata Endpoint` to your `web application setting`.  More information: [Creating Azure AD B2C tenant and adding a web application to the tenant](event-management-aad-b2c-setup.md#creating-azure-ad-b2c-tenant-and-adding-a-web-application-to-the-tenant)
 
-To authenticate the user against the API you need to add the `Authorization` header containing the `token_id` bearer to each API request. 
+To authenticate the user against the API, you need to add the `Authorization` header containing the `token_id` bearer to each API request. 
 
 This `token_id` can be retrieved by authenticating the user against Azure Active Directory B2C. 
 
@@ -38,20 +38,24 @@ curl -X GET \
   -H 'Origin: http://localhost:4200' 
 ``` 
 
-### Contact Matching Strategy
+
+<!--from editor: You have no Level 2 heading, so I suggest changing the following heading to ##. Probably the same for the heading that comes after that, too. -->
+
+
+### Contact matching strategy
 
 The Events API will automatically try to link contacts from Azure Active Directory B2C to the contacts in Dynamics 365.  
 
-To do so, it uses a contact matching strategy which can be configured in event administration settings. By default, first name + last name + email is used as contact matching strategy. More information: [Event administration](../events-settings.md#event-administration).
+To do so, it uses a contact matching strategy that can be configured in the event administration settings. By default, first name, last name, and email are used as the contact matching strategy. More information: [Event administration](../events-settings.md#event-administration)
 
-In case no matching contact is found, a new contact will be automatically created in Dynamics 365. 
+In case no matching contact is found, a new contact will be created automatically in Dynamics 365. 
 
 > [!NOTE]
-> Linked contact entities contain an attribute called `msevtmgt_aadobjectid` which stores the object ID of the user in Azure Active Directory B2C.
+> Linked contact entities contain an attribute called `msevtmgt_aadobjectid` that stores the object ID of the user in Azure Active Directory B2C.
 
 ### Retrieving information of authenticated user 
 
-The Events API provides an endpoint that returns information of the authenticated user. Starting with June 2019 release, it also includes the Dynamics 365 contact ID of the authenticated user. 
+The Events API provides an endpoint that returns the information of the authenticated user. Starting with the June 2019 release, it also includes the Dynamics 365 contact ID of the authenticated user. 
 
 **Request** 
 
@@ -75,6 +79,5 @@ curl -X GET \
 ```
 
 ## See also
-
 [Using Events API](using-events-api.md)<br />
 [Customize the response from Events API](customize-events-api-response.md)
