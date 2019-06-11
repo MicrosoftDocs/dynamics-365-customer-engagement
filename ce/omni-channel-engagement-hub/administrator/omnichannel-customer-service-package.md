@@ -42,7 +42,7 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified Customer Engagement organization.
 
-## Unified Service Desk - Omnichannel for Customer Service - Preview
+## Unified Service Desk - Omnichannel for Customer Service
     
 Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
@@ -88,7 +88,7 @@ When you deploy a Omnichannel for Customer Service package in a Customer Engagem
 
 ### Deploy a Omnichannel for Customer Service package
 
-1. Run the **PackageDeployer.exe** file. 
+1. Run the **PackageDeployer.exe** file.
 
 2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to deploy the package.
 
