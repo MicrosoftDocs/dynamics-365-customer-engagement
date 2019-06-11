@@ -99,7 +99,7 @@ After choosing a template, you'll be in the email content designer, which resemb
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 
 > [!NOTE]
-> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
@@ -216,7 +216,7 @@ The content designer provides two types of previews when you're designing a mark
 See the following sections for details about each of these types of previews.
 
 > [!NOTE]
-> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the standard or inbox preview displays.
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the standard or inbox preview displays. If necessary, you can use test sends to see how your designs look in specific Outlook configurations.
 
 ### Use the basic preview feature
 
