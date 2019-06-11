@@ -19,11 +19,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-As an agent, while you interact with the customers, you want to know the customer satisfaction levels in real-time. The analysis of the customer's satisfaction helps you to understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, as agent, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As an agent, while you interact with your customers, you want to know their satisfaction levels in real-time. The analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, as an agent, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## Understand real-time customer sentiment
 
-The sentiment analysis is based on the customer messages sent to you. That is, the recent six messages from the customer is used for the analysis and the sentiment icon is displayed on the communication panel. The analysis is automatic and unbaised that measures the satisfaction levels of the customer in real-time.
+The sentiment analysis is based on the most recent six messages from the customer. A sentiment icon is displayed on the communication panel showing you the current customer sentiment. The analysis is an automatic and unbiased that measurement of satisfaction levels of the customer in real-time.
 
 There are seven sentiment icons.
 
