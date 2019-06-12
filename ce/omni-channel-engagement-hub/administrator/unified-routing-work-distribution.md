@@ -1,7 +1,7 @@
 ---
 title: Understand unified routing and work distribution | MicrosoftDocs
-description: Understand about unified routing and work distribution in Omni-channel Engagement Hub
-keywords: Omni-channel Engagement Hub; Unified routing and work distribution
+description: Understand about unified routing and work distribution in Omnichannel for Customer Service
+keywords: Omnichannel for Customer Service; Unified routing and work distribution
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -41,7 +41,7 @@ Refer the following scenario to understand how unified routing and work distribu
 
 ## Step 1: Configure the basics
 
-Configure the following entities in the Omni-channel Engagement Hub. Once configured, the app is ready to route and distribute conversations to agents.
+Configure the following entities in the Omnichannel for Customer Service. Once configured, the app is ready to route and distribute conversations to agents.
 
 |Entity   |Value   |
 |---------|---------|
@@ -92,9 +92,9 @@ When an agent has finished working on a conversation, the capacity should be add
 
 If conversations are waiting to be assigned, they are allocated as soon as the agent becomes available.
 
-To effectively route and distribute work to agents, admins can set up the following items in Omni-channel Engagement Hub:
+To effectively route and distribute work to agents, admins can set up the following items in Omnichannel for Customer Service:
 
-- [Enable users for Omni-channel Engagement Hub](add-users-assign-roles.md)
+- [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 - [Manage users](users-user-profiles.md)
 - [Understand and create work streams](work-streams-introduction.md)
 - [Configure a chat channel](set-up-chat-widget.md)
@@ -107,6 +107,6 @@ To effectively route and distribute work to agents, admins can set up the follow
 
 ###  See also
 
-[Omni-channel Engagement Hub for administrators](omni-channel-engagement-hub-administrator.md)
+[Omnichannel for Customer Service for administrators](omni-channel-engagement-hub-administrator.md)
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure a chat widget and embed it in portal | MicrosoftDocs"
-description: "Instructions to configure a chat widget in Omni-channel Engagement Hub and embed it in Dynamics 365 Portal."
-keywords: live chat work stream, chat widget, omni-channel engagement hub
+description: "Instructions to configure a chat widget in Omnichannel for Customer Service and embed it in Dynamics 365 Portal."
+keywords: live chat work stream, chat widget, Omnichannel for Customer Service
 author: sbmjais
 ms.author: shjais
 manager: shujoshi

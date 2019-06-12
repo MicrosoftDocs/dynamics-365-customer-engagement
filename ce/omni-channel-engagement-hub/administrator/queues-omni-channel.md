@@ -1,7 +1,7 @@
 ---
-title: Work with queues in Omni-channel Engagement Hub | MicrosoftDocs
-description: See how you can create and manage queues in Omni-channel Engagement Hub
-keywords: Queues; Omni-channel Engagement Hub
+title: Work with queues in Omnichannel for Customer Service | MicrosoftDocs
+description: See how you can create and manage queues in Omnichannel for Customer Service
+keywords: Queues; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.assetid: 8c1b6127-a00c-4783-8740-52bd63e52eb1
 ms.custom: 
 ---
 
-# Work with queues in Omni-channel Engagement Hub
+# Work with queues in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

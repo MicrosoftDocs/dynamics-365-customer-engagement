@@ -45,7 +45,7 @@ Make sure you computer meets all requirements before you install the Unified Ser
 ## See also
 
 - [Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)
-- [Deploy Omni-channel Engagement Hub package on Unified Service Desk](omnichannel-customer-service-package.md)
+- [Deploy Omnichannel for Customer Service package on Unified Service Desk](omnichannel-customer-service-package.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](../customizer/create-agent-supervisor-configurations-unified-service-desk.md)
 - [Customize Customer summary form](../customizer/customize-customer-360-page.md)
 - [Customize the conversation form](../customizer/customize-conversation-form.md)

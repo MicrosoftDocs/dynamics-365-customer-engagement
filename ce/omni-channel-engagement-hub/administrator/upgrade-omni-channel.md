@@ -1,7 +1,7 @@
 ---
-title: Upgrade Omni-channel Engagement Hub | MicrosoftDocs
-description: Understand how you can upgrade Omni-channel Engagement Hub
-keywords: Omni-channel Engagement Hub; Upgrade Omni-channel Engagement Hub
+title: Upgrade Omnichannel for Customer Service | MicrosoftDocs
+description: Understand how you can upgrade Omnichannel for Customer Service
+keywords: Omnichannel for Customer Service; Upgrade Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,13 +13,13 @@ ms.assetid: 75ee8553-b3bb-4780-a03e-45b2b09c12c2
 ms.custom: 
 ---
 
-# Upgrade Omni-channel Engagement Hub
+# Upgrade Omnichannel for Customer Service
 
-Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the **Manage Instances** page in **Dynamics 365 Admin Center**. 
+Upgrade to the latest version of Omnichannel for Customer Service to unlock the benefits of new features. You can now upgrade to the latest release of Omnichannel for Customer Service from the **Manage Instances** page in **Dynamics 365 Admin Center**. 
 
-See [What's new in Omni-channel Engagement Hub](https://go.microsoft.com/fwlink/?linkid=2083527) to learn about the new features in the latest release.
+See [What's new in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2083527) to learn about the new features in the latest release.
 
-Follow these steps to upgrade Omni-channel Engagement Hub:
+Follow these steps to upgrade Omnichannel for Customer Service:
 
 1. Log in to the [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
 
@@ -34,18 +34,18 @@ Follow these steps to upgrade Omni-channel Engagement Hub:
      > [!div class=mx-imgBorder] 
      > ![Upgrade Omni-channel](../media/upgrade-oc.png)
 
-    The system begins the upgrade and displays the message **Omni-channel Engagement Hub upgrade is currently in  progress**.
+    The system begins the upgrade and displays the message **Omnichannel for Customer Service upgrade is currently in  progress**.
          
      > [!div class=mx-imgBorder] 
      > ![Upgrade in progress](../media/upgrade-progress.png)
 
-    When the upgrade process is completed successfully, your org is upgraded to the latest version and the message **Omni-channel Engagement Hub upgrade was completed successfully** is displayed with the date.
+    When the upgrade process is completed successfully, your org is upgraded to the latest version and the message **Omnichannel for Customer Service upgrade was completed successfully** is displayed with the date.
 
     > [!div class=mx-imgBorder] 
     > ![Upgrade complete](../media/upgrade-complete.png)
 
 
-## Upgrade Omni-channel Engagement Hub package on Unified Service Desk
+## Upgrade Omnichannel for Customer Service package on Unified Service Desk
 
 If you are using Omnichannel for Customer Service on Unified Service Desk, refer [Deploy package on Dynamics 365 for Customer Engagement instance](omnichannel-customer-service-package.md#deploy-package-on-dynamics-365-for-customer-engagement-instance) to upgrade.
 
@@ -53,6 +53,6 @@ If you are using Omnichannel for Customer Service on Unified Service Desk, refer
 
 [Enable SMS channel](omni-channel-provision-license.md#enable-sms-channel)
 
-[Pre-requisites and system requirements of Omni-channel Engagement Hub - Preview](../system-requirements-omni-channel-engagement-hub.md)
+[Pre-requisites and system requirements of Omnichannel for Customer Service - Preview](../system-requirements-omni-channel-engagement-hub.md)
 
-[Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)
+[Provision Omnichannel for Customer Service](omni-channel-provision-license.md)

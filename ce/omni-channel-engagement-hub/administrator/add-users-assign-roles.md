@@ -1,7 +1,7 @@
 ---
 title: Enable users for Omni-channel and assign roles | MicrosoftDocs
-description: Know how to enable users for Omni-channel and assign roles in the Omni-channel Engagement Hub
-keywords: users and user profiles; Omni-channel Engagement Hub; user roles
+description: Know how to enable users for Omni-channel and assign roles in the Omnichannel for Customer Service
+keywords: users and user profiles; Omnichannel for Customer Service; user roles
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.assetid: be3d6733-4d16-48d0-b231-6a6a2dd5d939
 ms.custom: 
 ---
 
-# Assign roles and enable users for Omni-channel Engagement Hub
+# Assign roles and enable users for Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,9 +22,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Omni-channel supervisor**, or **Omni-channel agent** role are enabled for Omni-channel and become Omni-channel users.
 
 > [!IMPORTANT]
-> To enable users for Omni-channel, your org should have successfully on-boarded to the Omni-channel public preview. Refer [Provision Omni-channel Engagement Hub](omni-channel-provision-license.md) to provision Omni-channel in your Dynamics 365 org.
+> To enable users for Omni-channel, your org should have successfully on-boarded to the Omni-channel public preview. Refer [Provision Omnichannel for Customer Service](omni-channel-provision-license.md) to provision Omni-channel in your Dynamics 365 org.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omni-channel Engagement Hub. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
 Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web application:
 
@@ -41,11 +41,11 @@ Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web
     > [!div class=mx-imgBorder]
     > ![user roles](../media/user-roles.png)
 
-To view and manage omni-channel users, see [Manage users in Omni-channel Engagement Hub](users-user-profiles.md).
+To view and manage omni-channel users, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
 ## Understand roles and their privileges 
 
-Each role in Omni-channel Engagement Hub can perform a set of actions based on the privileges. 
+Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges. 
 
 > [!NOTE]
 > Omni-channel users (agents and supervisors) should be assigned **Channel Access** role.
@@ -82,6 +82,6 @@ Each role in Omni-channel Engagement Hub can perform a set of actions based on t
 
 ### See also
 
-[Provision Omni-channel Engagement Hub](omni-channel-provision-license.md)
+[Provision Omnichannel for Customer Service](omni-channel-provision-license.md)
 
-[Manage users in Omni-channel Engagement Hub](users-user-profiles.md)
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)

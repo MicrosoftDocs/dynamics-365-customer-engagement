@@ -1,6 +1,6 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
-description: "Instructions to create and manage operating hours in Omni-channel Engagement Hub."
+description: "Instructions to create and manage operating hours in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -26,7 +26,7 @@ Operating hours define the hours when your organization's customer support team 
 
 ## Create an operating hour record
 
-1. Sign in to Omni-channel Engagement Hub.
+1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** \> **Operating Hours**.
 3. Select **New** to add an operating hour record.
 4. In the **Quick Create: Operating Hour** pane, provide the following information:

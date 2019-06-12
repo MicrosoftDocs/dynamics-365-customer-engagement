@@ -1,7 +1,7 @@
 ---
 title: Understand the conversation state lifecycle
-description: Understand the conversation state lifecycle in the omni-channel engagement hub
-keywords: Conversation state lifecycle; omni-channel engagement hub
+description: Understand the conversation state lifecycle in the Omnichannel for Customer Service
+keywords: Conversation state lifecycle; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -31,4 +31,4 @@ You can also view other important metrics and analyze them on the supervisor das
 
 ### See also
 
-[Understand conversation states in Omni-channel Engagement Hub](../agent/agent-oceh/oceh-conversation-state.md)
+[Understand conversation states in Omnichannel for Customer Service](../agent/agent-oceh/oceh-conversation-state.md)

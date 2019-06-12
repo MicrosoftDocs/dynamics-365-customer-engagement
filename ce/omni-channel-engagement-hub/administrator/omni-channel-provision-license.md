@@ -1,7 +1,7 @@
 ---
-title: Provision Omni-channel Engagement Hub | MicrosoftDocs
-description: See how you can provision omni-channel engagement hub
-keywords: Provision Omni-channel Engagement Hub
+title: Provision Omnichannel for Customer Service | MicrosoftDocs
+description: See how you can provision Omnichannel for Customer Service
+keywords: Provision Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,22 +13,22 @@ ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
 ms.custom: 
 ---
 
-# Provision Omni-channel Engagement Hub
+# Provision Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Omni-channel Engagement Hub provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
+Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
 > [!NOTE]
-> Before you can provision Omni-channel Engagement Hub on your org, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
+> Before you can provision Omnichannel for Customer Service on your org, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
 
-Looking for an upgrade? See [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md) for more information.
+Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-omni-channel.md) for more information.
 
 ## Provide data access consent
 
-To allow Omni-channel Engagement Hub to read and write data on behalf of users, follow these below steps:
+To allow Omnichannel for Customer Service to read and write data on behalf of users, follow these below steps:
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/?linkid=2070932).
 2. Sign in using **Global Tenant Admin** credentials.
@@ -39,17 +39,17 @@ To allow Omni-channel Engagement Hub to read and write data on behalf of users, 
     > ![Grant consent](../media/data-consent.png)
 
 
-## Provision Omni-channel Engagement Hub application
+## Provision Omnichannel for Customer Service application
 
 > [!IMPORTANT]
-> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your Dynamics 365 org to be able to provision the Omni-channel Engagement Hub application.
+> Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your Dynamics 365 org to be able to provision the Omnichannel for Customer Service application.
 
-### Step 1: Sign up for Omni-channel Engagement Hub preview
+### Step 1: Sign up for Omnichannel for Customer Service preview
 
-To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagement Hub preview from the Insider portal.
+To get the Omnichannel for Customer Service app, sign up for the Omnichannel for Customer Service preview from the Insider portal.
 
 1. Go to [Dynamics Insider Portal](http://experience.dynamics.com/insider) and sign in with your Microsoft account.
-2. Search for and open **Omni-channel Engagement Hub preview** in the **Upcoming and Active Public Preview Programs** list.
+2. Search for and open **Omnichannel for Customer Service preview** in the **Upcoming and Active Public Preview Programs** list.
 
     > [!div class=mx-imgBorder]
     > ![Signup omni-channel](../media/preview-signup.png)
@@ -60,17 +60,17 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
     > ![Fill survey for omni-channel](../media/preview-survey.png)
 
 
-4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omni-channel Engagement Hub. To know how to find your Org ID in Dynamics 365 instance, see [Locate your Org ID](#locate-your-org-id).
+4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omnichannel for Customer Service. To know how to find your Org ID in Dynamics 365 instance, see [Locate your Org ID](#locate-your-org-id).
 
     > [!div class=mx-imgBorder]
     > ![Omni-channel org id](../media/preview-org.png)
 
     Select **Submit** to submit the survey.
 
-    Once your request is approved, you will receive a confirmation email from Microsoft. Omni-channel Engagement Hub will be available in the org that you provided in the survey. You can view the app in **Manage applications** in the **Dynamics 365 Administration Center**.
+    Once your request is approved, you will receive a confirmation email from Microsoft. Omnichannel for Customer Service will be available in the org that you provided in the survey. You can view the app in **Manage applications** in the **Dynamics 365 Administration Center**.
 
 
-### Step 2: Set up Omni-channel Engagement Hub
+### Step 2: Set up Omnichannel for Customer Service
 
 > [!NOTE]
 > Ensure that you have provided data access consent before you proceed with the set up. For more information, see [Provide data access consent](#provide-data-access-consent).
@@ -112,7 +112,7 @@ To get the Omni-channel Engagement Hub app, sign up for the Omni-channel Engagem
 
 ### Enable SMS channel
 
- You can enable SMS channel after you have upgraded to the latest release of Omni-channel. To upgrade Omni-channel Engagement Hub, see [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md).
+ You can enable SMS channel after you have upgraded to the latest release of Omni-channel. To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omni-channel.md).
 
  Post upgrade, go to **Manage Omni-channel instances** page and enable SMS channel by selecting the checkbox in **SMS** tab.
 
@@ -145,7 +145,7 @@ Follow these steps to locate your Org ID in your Dynamics 365 instance.
 
 ### See also
 
-[Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md)
+[Upgrade Omnichannel for Customer Service](upgrade-omni-channel.md)
 
 [Understand and create work streams](work-streams-introduction.md)
 

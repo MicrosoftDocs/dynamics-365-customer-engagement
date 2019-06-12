@@ -1,6 +1,6 @@
 ---
 title: "Configure agent display name for a chat widget | MicrosoftDocs"
-description: "Instructions to configure agent display name for a chat widget in Omni-channel Engagement Hub."
+description: "Instructions to configure agent display name for a chat widget in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -19,12 +19,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-To protect an agent's privacy, you can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent’s identity and anonymize, choose to display the nickname. The values for the names are retrieved from the user entity record created in Omni-channel Engagement Hub.
+To protect an agent's privacy, you can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent’s identity and anonymize, choose to display the nickname. The values for the names are retrieved from the user entity record created in Omnichannel for Customer Service.
 
 > [!NOTE]
 > The selected agent display name is displayed only in the chat widget while chatting with a customer. For consultation or chat transfer, full name of the agent is used. 
 
-1. Sign in to Omni-channel Engagement Hub.
+1. Sign in to Omnichannel for Customer Service.
 
 2. Go to **Administration** &gt; **Chat**.
 

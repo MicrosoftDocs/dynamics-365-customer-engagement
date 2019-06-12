@@ -1,7 +1,7 @@
 ---
-title: Create and manage routing rules in omni-channel engagement hub | MicrosoftDocs
-description: Understand how to create and manage routing rules in omni-channel engagement hub
-keywords: routing rules; omni-channel engagement hub
+title: Create and manage routing rules in Omnichannel for Customer Service | MicrosoftDocs
+description: Understand how to create and manage routing rules in Omnichannel for Customer Service
+keywords: routing rules; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi

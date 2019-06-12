@@ -1,7 +1,7 @@
 ---
 title: Automatically identify customers using pre-chat responses | MicrosoftDocs
-description: See how you can Automatically identify customers using pre-chat responses in the Omni-channel Engagement Hub
-keywords: Automatically identify customers using pre-chat responses; Omni-channel Engagement Hub; pre-chat questions
+description: See how you can Automatically identify customers using pre-chat responses in the Omnichannel for Customer Service
+keywords: Automatically identify customers using pre-chat responses; Omnichannel for Customer Service; pre-chat questions
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi

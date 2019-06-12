@@ -1,6 +1,6 @@
 ---
 title: "Configure a pre-chat survey | MicrosoftDocs"
-description: "Instructions to configure a pre-chat survey in Omni-channel Engagement Hub."
+description: "Instructions to configure a pre-chat survey in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 You can configure your chat widget to show users a survey that they should respond to before they start the conversation.
 
-1. Sign in to Omni-channel Engagement Hub.
+1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** &gt; **Chat**.
 3. Open the chat widget in which you need to configure pre-chat survey.
 4. On the **Survey** tab, in the **Pre-chat survey** field, select **Yes**.

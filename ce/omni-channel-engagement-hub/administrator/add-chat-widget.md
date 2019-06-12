@@ -1,6 +1,6 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
-description: "Instructions to add a chat widget in Omni-channel Engagement Hub."
+description: "Instructions to add a chat widget in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to Omni-channel Engagement Hub.
+1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** &gt; **Chat**.
 3. Select **New** to create a chat widget.
 4. On the **New Chat Widget** page, provide the appropriate information on each tab:

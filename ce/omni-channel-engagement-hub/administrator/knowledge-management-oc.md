@@ -1,7 +1,7 @@
 ---
-title: Share knowledge articles in the Omni-channel Engagement Hub | MicrosoftDocs
-description: Understand how you can share knowledge articles in the Omni-channel Engagement Hub
-keywords: Omni-channel Engagement Hub; share knowledge articles
+title: Share knowledge articles in the Omnichannel for Customer Service | MicrosoftDocs
+description: Understand how you can share knowledge articles in the Omnichannel for Customer Service
+keywords: Omnichannel for Customer Service; share knowledge articles
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -13,13 +13,13 @@ ms.assetid: 03e2226e-a947-4b41-8b19-cad79bf59ce4
 ms.custom: 
 ---
 
-# Share knowledge articles in the Omni-channel Engagement Hub
+# Share knowledge articles in the Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Enable knowledge article sharing in the Omni-channel Engagement Hub so that customer queries can be resolved quickly. You can configure an external portal in the **Customer Service Hub** app, so that your customer service agents can share knowledge article links with the customers from within the Omni-channel Engagement Hub app.
+Enable knowledge article sharing in the Omnichannel for Customer Service so that customer queries can be resolved quickly. You can configure an external portal in the **Customer Service Hub** app, so that your customer service agents can share knowledge article links with the customers from within the Omnichannel for Customer Service app.
 
 Follow these steps to enable knowledge article sharing.
 
