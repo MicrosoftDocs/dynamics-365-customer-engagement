@@ -4,7 +4,7 @@ description: "Step-by-step tutorial on how to host your custom event website on 
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 05/15/2019
+ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -18,7 +18,7 @@ manager: kvivek
 
 # Host your custom event website on Azure
 
-This topic will walk you through how to host your custom event website on Azure. You can either build your frontend or customize the provided demo website build using the [Angular](https://angular.io/) framework. More information [Build and host custom event website](event-management-web-application.md)
+This topic will walk you through how to host your custom event website on Azure. You can either build your frontend or customize the provided demo website build using the [Angular](https://angular.io/) framework. More information [Build and host custom event website](event-management-web-application.md).
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ To create an Azure storage account, follow the steps below:
 
 ## Step 2: Register your web application
 
-To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization. More information: [Register your web application](register-web-application-events-api.md).
+To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization. See the steps described in topic [Register your web application](register-web-application-events-api.md) to create a web application token. For the **Origin** field enter the Primary endpoint value that you got while enabling the static website.
 
 ## Step 3: Create environment.ts file
 
