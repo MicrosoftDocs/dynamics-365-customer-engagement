@@ -31,6 +31,19 @@ The execution context object provides the following methods.
 |[getSharedVariable](executioncontext/getSharedVariable.md)|Retrieves a variable set using the [setSharedVariable](executioncontext/setSharedVariable.md) method.|
 |[setSharedVariable](executioncontext/setSharedVariable.md)|Sets the value of a variable to be used by a handler after the current handler completes.|
 
+# How to use ExecutionContext in multiple functions in the Unified Interface
+Code Example:
+function checkFax(executionContext) {
+          var eventArgs = executionContext.getEventArgs();
+        eventArgs.preventDefault();    
+}
+function checkCansel(executionContext) {
+       if (executionContext.getEventArgs().isDefaultPrevented()) {
+           }
+
+The first function calls eventArgs.preventDefault(); but executionContext.getEventArgs().isDefaultPrevented() is evaluated as false in second function even though it was set in the first function.  It is always a new execution context in the Unified Interface for each of the functions.
+
+
 ### Related topics
 
 [Client API execution context](../clientapi-execution-context.md)
