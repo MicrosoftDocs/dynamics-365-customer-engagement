@@ -21,15 +21,18 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The topic explains how to Search for records, link a record to the conversation, and unlink a record from the conversation.
 
-You can search for the records in two ways.
+You can search for the records in two ways:
+
+- Inline search
+- Advanced search
 
 ## Search for records using inline search option
 
-You accept an incoming conversation request, and there is no customer record identified in Omnichannel for Customer Service. In this case, use the inline search option in the customer profile (contact or account) form and **Case** form to search for a contact or account and case respectively.
+You accept an incoming conversation request, and there is no customer record identified in Omnichannel for Customer Service. In this case, use the inline search option in the customer (contact or account) section and case section to search for a contact or account and case respectively.
 
 The inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that is based on the Lookup View and Quick View Field.
 
-For Customer profile (contact or account), you can search for Contact or Account entity. By default, you can search using the following fields.
+For the customer (contact or account) section, you can search for Contact or Account entity. By default, you can search using the following fields.
 
 |Entity|Fields|
 |----------|----------|
@@ -48,15 +51,15 @@ Only active views are displayed for the search results. Also, you can customize 
 ## Link a record to the conversation when doing inline search
 
 > [!div class=mx-imgBorder]
-> ![Customer profile and Case are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Case are blank when there are no records")
+> ![Customer and case section are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer and case section are blank when there are no records")
 
-During inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** form loads with the details.
+During inline search, the search results are displayed and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** page loads with the details.
 
 > [!div class=mx-imgBorder]
 > ![Customer summary is loaded with details after linking](../../media/agent-inline-search-link.PNG "Customer summary is loaded with details after linking")
 
 > [!Note]
-> You can link only one contact or account in the Customer profile (Contact or Account) form and one case in the **Case** section.
+> You can link only one contact or account in the customer (Contact or Account) section and one case in the case section.
 
 ## Search for records using advanced search
 
@@ -92,7 +95,7 @@ After you search a record using Advanced Search, you can link the record to the 
 Now, the Customer summary page refreshes and reflects the details. Similarly, you can link other record types.
 
 > [!Note]
-> You can link only one contact or account in the Customer profile (Contact or Account) form and one case in the **Case** section.
+> You can link only one contact or account in the customer (Contact or Account) section and one case in the case section.
 
 ## Unlink a record from the conversation
 
@@ -101,13 +104,13 @@ You can unlink a record only when you are interacting with a customer using the 
 > [!div class=mx-imgBorder]
 > ![Select the X button next to the textbox to unlink](../../media/oceh-oc-unlink-customer.PNG "Unlink a record")
 
-To unlink a record, select the **X** button next to the customer name in the Customer profile (Contact or Account) form. After the record is removed, the Customer profile (Contact or Account) form is blank. 
+To unlink a record, select the **X** button next to the customer name in the customer (Contact or Account) section. After the record is removed, the customer (Contact or Account) form is blank.
 
 > [!div class=mx-imgBorder]
-> ![Blank customer profile form after unlinking the record](../../media/oceh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
+> ![Blank customer section after unlinking the record](../../media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
 
 > [!Note]
-> You can link and unlink only one contact or account in the Customer profile (Contact or Account) form and one case in the **Case** section.
+> You can link and unlink only one contact or account in the customer (Contact or Account) section and one case in the case section.
 
 ## See also
 
