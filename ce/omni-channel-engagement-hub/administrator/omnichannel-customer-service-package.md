@@ -13,9 +13,9 @@ ms.assetid: 69C527F6-E863-4D5E-9476-1936B6B79E35
 ms.custom: 
 ---
 
-# Deploy Unified Service Desk - Omnichannel for Customer Service package
+# Deploy Unified Service Desk – Omnichannel for Customer Service package
 
-Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Service Desk - Omnichannel for Customer Service** package on a Dynamics 365 for Customer Engagement instance.
+Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Service Desk – Omnichannel for Customer Service** package on a Dynamics 365 for Customer Engagement instance.
 
 ## Download Unified Service Desk
 
