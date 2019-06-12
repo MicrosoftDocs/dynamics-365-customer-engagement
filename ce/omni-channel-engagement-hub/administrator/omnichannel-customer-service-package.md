@@ -15,17 +15,17 @@ ms.custom:
 
 # Deploy Unified Service Desk - Omnichannel for Customer Service package
 
-Microsoft Dynamics 365 Package Deployer enables you to deploy **Unified Service Desk - Omnichannel for Customer Service** package on a Dynamics 365 for Customer Engagement instance.
+Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Service Desk - Omnichannel for Customer Service** package on a Dynamics 365 for Customer Engagement instance.
 
 ## Download Unified Service Desk
 
-<Need confirmation about customers downloading the client>
+<!-- Need confirmation about customers downloading the client -->
 
 ## Download Unified Service Desk - Omnichannel for Customer Service packages
 
-<Need confirmation about customers downoading download the packages>
+<!-- Need confirmation about customers downoading download the packages -->
 
-Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your computer. Extract the contents in to a folder.<br> The extracted contents contain the  following:
+Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your computer. Extract the contents into a folder.<br> The extracted contents contain the  following:
 
 - PackageDeployer.exe
 
@@ -36,26 +36,34 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 - Assembly files
 
 > [!Important]
-> We recommend deploying the **Unified Service Desk - Omnichannel for Customer Service** package on a new organization. We recommend not to use your existing organization (test or production) for testing Omnichannel for Customer Service.
+> We recommend deploying the **Unified Service Desk - Omnichannel for Customer Service** package on a new organization. We recommend not using your existing organization (test or production) for testing Omnichannel for Customer Service.
 
-## Unified Service Desk - Omnichannel for Customer Service - Add-on
+## Unified Service Desk – Omnichannel for Customer Service – Add-on
 
 Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified Customer Engagement organization.
 
-## Unified Service Desk - Omnichannel for Customer Service
-    
-Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+## Unified Service Desk – Omnichannel for Customer Service
+
+
+<!--from editor: I'm unsure how to handle "omnichannel" below. I know it should not be hyphenated, but I'm unsure if it's OK to just call it "omnichannel" and if so, whether it should be capitalized. I'm going with "Omnichannel" here. --> 
+
+
+Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified Service Desk solutions and Omnichannel-supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
 > [!Note]
 > - If you are using Omnichannel for Customer Service, March 2019 Update and want to upgrade to July 2019 Update, see [Upgrade Omnichannel for Customer Service package](#upgrade-omnichannel-for-customer-service-package).
 >
-> - If you are using Omnichannel for Customer Service and want to upgrade to April 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omnichannel for Customer Service - Add-On** or **Omnichannel for Customer Service - Demo** package. To learn more, see [Uninstall the solutions](#delete-solutions).
+> - If you are using Omnichannel for Customer Service and want to upgrade to April 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omnichannel for Customer Service – Add-On** or **Omnichannel for Customer Service – Demo** package. To learn more, see [Uninstall the solutions](#delete-solutions).
+
+
+<!--from editor: The following section wasn't listed as needing editing, but I made some changes anyway. -->
+
 
 ### Delete solutions
 
-When you deploy a Omnichannel for Customer Service package in a Customer Engagement organization, following managed solutions are created:
+When you deploy an Omnichannel for Customer Service package in a Customer Engagement organization, the following managed solutions are created:
 
   - OCSDSolution
   - USDUnifiedInterfaceCustomization
@@ -63,11 +71,11 @@ When you deploy a Omnichannel for Customer Service package in a Customer Engagem
   - UiiForMicrosoftDynamicsCRM2011
  
 > [!Note]
-> If you have deployed Omni-channel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
+> If you have deployed the Omnichannel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
  
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
-2. On the nav bar, Choose **Settings** > **Solutions**.  
+2. On the nav bar, choose **Settings** > **Solutions**.  
 
 4. On the Solutions page, select one of the solutions by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - OCSDSolution
@@ -82,17 +90,17 @@ When you deploy a Omnichannel for Customer Service package in a Customer Engagem
    > 3. DynamicsUnifiedServiceDesk
    > 4. UiiForMicrosoftDynamicsCRM2011
    > 
-   >  You must follow the order to remove the solutions as some of the components in the solution depend on the components in the other solution.
+   >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
 
-5. After the solution is removed, repeat the steps for the other solutions to delete them.
+5. After the solution is removed, repeat the steps to delete the other solutions.
 
-### Deploy a Omnichannel for Customer Service package
+### Deploy an Omnichannel for Customer Service package
 
 1. Run the **PackageDeployer.exe** file.
 
-2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to deploy the package.
+2. On the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to deploy the package.
 
-3. The next screen displays information about the packages. Select the **Unified Service Desk - Omnichannel for Customer Service - Add-On** or **Unified Service Desk - Omnichannel for Customer Service - Demo** to install on your Customer Engagement instance. Review the information, and choose **Next**.
+3. The next screen displays information about the packages. Select the **Unified Service Desk - Omnichannel for Customer Service - Add-On** or **Unified Service Desk - Omnichannel for Customer Service - Demo** to install on your Customer Engagement instance. Review the information and choose **Next**.
 
 4. The **Ready to Install** screen displays the package name for deployment and name of the Customer Engagement organization. Review the information, and choose **Next**.
 
@@ -100,7 +108,7 @@ When you deploy a Omnichannel for Customer Service package in a Customer Engagem
 
 6. The next page displays the package deployment status. A confirmation message is displayed on successful deployment of the package. Select **Next**.
 
-7. The **Installation Complete** screen displays the name and information about the package that you deployed. Review the information, and choose **Finish** to exit the Package Deployer tool.
+7. The **Installation Complete** screen displays the name and information about the package that you deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
 
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
 ).
@@ -109,15 +117,15 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 1. Run the **PackageDeployer.exe** file.
 
-2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to upgrade the current package.
+2. On the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to upgrade the current package.
 
-3. In the **Select the import package to use** page, choose **Unified Service Desk - Omnichannel for Customer Service - Upgrade**, and then select **Next**. he **Unified Service Desk – Omnichannel for Customer Service - Upgrade Setup Tool** page appears.
+3. On the **Select the import package to use** page, choose **Unified Service Desk - Omnichannel for Customer Service - Upgrade**, and then select **Next**. The **Unified Service Desk - Omnichannel for Customer Service - Upgrade Setup Tool** page appears.
 
-4. Review the information about the components that will be upgraded in the **Unified Service Desk – Omnichannel for Customer Service - Upgrade Setup Tool** page, and then select **Next**.
+4. Review the information about the components that will be upgraded on the **Unified Service Desk - Omnichannel for Customer Service - Upgrade Setup Tool** page, and then select **Next**.
 
-5. On the **Ready to Install** page, click Next to verify the components to upgrade.
+5. On the **Ready to Install** page, select **Next** to verify the components to upgrade.
 
-6. On the **Reading Unified Service Desk – Omnichannel for Customer Service - Upgrade Installer Configuration** page, information about what will be upgraded is listed. Select **Next** to begin the upgrade. The next page displays the package deployment status.
+6. On the **Reading Unified Service Desk - Omnichannel for Customer Service - Upgrade Installer Configuration** page, information about what will be upgraded is listed. Select **Next** to begin the upgrade. The next page displays the package deployment status.
 
 7. A confirmation message is displayed on successful deployment of the package. Select **Next**.
 
