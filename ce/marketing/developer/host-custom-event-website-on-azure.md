@@ -62,27 +62,7 @@ To create an Azure storage account, follow the steps below:
 
 ## Step 2: Register your web application
 
-To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization.
-
-1. Open your Dynamics 365 and navigate to Event Management
-2. Click on the dropdown and select **Settings**
-
-    ![Settings](../media/event-management-settings.png "Settings")
-    
-3. Click on the **Web applications**
-    
-    ![Web application token](../media/create-we-application-token.png "Web application token")
-    
-4. Click on the **New** to create a new web application token.
-5. Enter details in the **Name** field.
-6. For the **Origin** field enter the **Primary endpoint** value that you got while enabling the static website.
-
-   ![Web application token details](../media/enter-web-application-token-details.png "Web application token details")
-   
-   > [!NOTE]
-   > When you enter the Primary endpoint value, make sure that you don't have a trailing slash (/) at the end of the url.
-   
-7. Click on **Save**. You will get the web application token and the API endpoint. 
+To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization. More information: [Register your web application](register-web-application-events-api.md).
 
 ## Step 3: Create environment.ts file
 
