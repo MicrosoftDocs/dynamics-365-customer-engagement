@@ -26,7 +26,7 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create new record from the Customer Summary page
 
-In the customer summary page and on the customer and case form, you see an option to create a new record. When you select the add new option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
+In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the add new option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
 To create a new record:
 
@@ -42,7 +42,7 @@ To create a new record:
     > ![Create account, contact, and case](../../media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
 
 
-2. Specify the details in fields according to the form.
+2. Specify the details in the form's fields.
 
 3. Select **Save**.
 
@@ -54,10 +54,14 @@ After you save, the record is automatically linked to the conversation.
    > [!div class=mx-imgBorder]
    > ![Automatic linking of the record](../../media/oceh/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
 
-If you create the case account or contact first and then start to create a case record, the case form links the customer that is already created and linked.
+
+<!--from editor: Below, do you mean the case form links "to" the customer? -->
+
+
+If you create the case account or contact first and then start to create a case record, the case form links the customer who is already created and linked.
 
    > [!div class=mx-imgBorder]
-   > ![Case form automatically links the customer that is already linked to conversation ](../../media/oceh/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
+   > ![Case form automatically links the customer who is already linked to conversation](../../media/oceh/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
 
 ## Create new record using the quick create option
 
