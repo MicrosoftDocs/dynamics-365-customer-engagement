@@ -57,7 +57,7 @@ After you save, the record is automatically linked to the conversation.
 If you create the case account or contact first and then start to create a case record, the case form links the customer that is already created and linked.
 
    > [!div class=mx-imgBorder]
-   > ![Case form automatically links the customer that is already linked to conversation ](../../media/oceh/customer-summary-create-case-customer-linked.PNG "Case forms shows the customer")
+   > ![Case form automatically links the customer that is already linked to conversation ](../../media/oceh/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
 
 ## Create new record using the quick create option
 
