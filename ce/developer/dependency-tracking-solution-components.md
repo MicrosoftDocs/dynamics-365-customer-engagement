@@ -91,6 +91,9 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
 |<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForDeleteRequest>|Returns a list of all the dependencies for solution components that could prevent deleting a solution component.|  
 |<xref:Microsoft.Crm.Sdk.Messages.RetrieveDependenciesForUninstallRequest>|Returns a list of all the dependencies for solution components that could prevent uninstalling a managed solution.|  
   
+> [!NOTE]
+>  When trying to delete a solution, if you get an error that indicates you have a dependicy relationship, check for “SystemForm" dependencies, check for the type and remove the dependency from the form by navigating to customization settings,  select the entity and form of the dependency and remove it from the entityRelationship.  Save and publish the form.  Removing all dependencies will allow your solution to uninstall.
+ 
 <a name="BKMK_RootSolutionComponents"></a>   
 ## Common Solution components  
  These are the solution components displayed in the application and the components that you’ll work with directly when adding or removing solution components using the solution page. Each of the other types of solution components will depend on one or more of these solution components to exist.  
