@@ -28,25 +28,25 @@ By having this information ready, when customers reach out to contact center, su
 
 **Customer summary** is a page where you can get complete information about a customer when you accept an incoming request from any engagement channel. The default view of the **Customer summary** page provides the following sections:
 
-   - Customer profile
+   - Customer
 
    - Conversation summary
 
-   - Issue snapshot
+   - Case
 
    - Recent cases
 
-   - Recent activities
+   - Timeline
 
 > [!div class=mx-imgBorder]
 > ![omnichannel Customer summary page](../../media/oc-usd-customer360-page.png "Omnichannel Customer summary page")  
 
-#### Customer profile
+#### Customer
 
 The **Customer profile** section provides details about the customer, such as the name of the customer or account, job, title, relationship type, city, category, relationship type, primary contact for the account, and preferred channel for engagement.
 
 > [!div class='mx-imgBorder']
-> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-profile.PNG "Customer profile section in the customer summary form")
+> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section in the customer summary form")
 
 #### Conversation summary
 
@@ -61,7 +61,7 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md)
 
-#### Issue snapshot
+#### Case
 
 For an incoming conversation request, the system links an existing case to the conversation and shows it in the **Issue snapshot** section. This section shows  information such as the title of the case, its priority, its status, the product, and the owner.
 
@@ -75,7 +75,7 @@ This section displays the recent cases that relate to the customer.
 > [!div class='mx-imgBorder']
 > ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.PNG "Recent cases section in the customer summary form")
 
-#### All activities
+#### Timeline
 
 This section displays the case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on Customer activities, Case activities, and Conversation activities.
 
