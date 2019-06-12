@@ -30,6 +30,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
+#### [Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing
@@ -77,6 +78,7 @@
 
 ### Create marketing emails
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
+#### [Check your spam score](spam-score.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Create marketing pages and forms
@@ -106,6 +108,7 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Expand your audience with segment boost](segment-boost.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)

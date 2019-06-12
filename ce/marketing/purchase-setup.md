@@ -107,7 +107,7 @@ Give consent and enter your postal address:
 
 2. Type the full physical street address for your organization in the field provided. All marketing email messages sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
 
-3. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about half an hour.
+3. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about three hours to set up a paid instance.
 
 ## Privacy notice
 
