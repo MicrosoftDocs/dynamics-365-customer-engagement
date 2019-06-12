@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/13/2019
+ms.date: 06/12/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -247,7 +247,7 @@ You need to have the System Administrator security role or equivalent permission
 <a name="BKMK_noninteractiveuser"></a>   
 
 ## Create a non-interactive user account  
- The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to five non-interactive user accounts.  
+ The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to seven non-interactive user accounts.  
   
  You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, select the non-interactive access mode for the account.  
   
