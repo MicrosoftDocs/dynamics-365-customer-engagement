@@ -35,6 +35,11 @@ In the Customer Summary page and on the customer and case form, you see an optio
 To create a new record:
 
 1. Select one option in the Customer or Case section based on the record you want to create. After you select the option, a form opens in an application tab panel.
+
+
+<!--from editor: The screenshot beneath the table shows the options as "+ New Account", "+ New Contact" and "+ New Case", which differs from the table. -->
+
+
     
     | Option | Section | Description |
     |---------------------|------------------------|------------------------------------------------|
