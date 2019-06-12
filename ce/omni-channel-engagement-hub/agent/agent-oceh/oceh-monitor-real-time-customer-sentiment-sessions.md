@@ -25,6 +25,17 @@ As an agent, while you interact with your customers, you want to know their sati
 
 The real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the most recent six customer messages sent to you.
 
+When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates at this moment the customer satisfaction is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
+
+When a conversation is escalated from bot, the sentiment icon you see is based on the pervious messages exchanged between the customer and the bot.
+
+> [!div class=mx-imgBorder]
+> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
+
+## Understand real-time customer sentiment
+
+The sentiment analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real-time.
+
 The sentiment icon displayed on the communication panel are as follows.
 
 | Sentiment | Icon |
@@ -36,17 +47,6 @@ The sentiment icon displayed on the communication panel are as follows.
 | Slightly negative | ![Slightly negative sentiment](../../media/oceh/sentiment-slightly-negative.png "Slightly negative sentiment") |
 | Negative | ![Negative sentiment](../../media/oceh/sentiment-negative.png " Negativesentiment") |
 | Very negative | ![Very negative sentiment](../../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
-
-## Understand real-time customer sentiment
-
-The sentiment analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real-time.
-
-When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates at this moment the customer satisfaction is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
-
-When a conversation is escalated from bot, the sentiment icon you see is based on the pervious messages exchanged between the customer and the bot.
-
-> [!div class=mx-imgBorder]
-> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
 > [!Note]
 > The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you are added as a member.
