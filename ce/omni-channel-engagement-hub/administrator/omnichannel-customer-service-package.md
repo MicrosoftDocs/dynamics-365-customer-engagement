@@ -110,6 +110,11 @@ When you deploy an Omnichannel for Customer Service package in a Customer Engage
 
 7. The **Installation Complete** screen displays the name and information about the package that you deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
 
+
+
+<!--from editor: I click a 404 when I click the following URL.  -->
+
+
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer
 ).
 
