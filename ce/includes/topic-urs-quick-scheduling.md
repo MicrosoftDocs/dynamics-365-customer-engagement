@@ -159,7 +159,7 @@ The purpose of quick scheduling is to simplify the scheduling process. Fulfillme
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick book panel with 1-hour intervals](../field-service/media/scheduling-quick-book-fulfillment-preference-results.png)
 
-See our [topic on fulfillment preferences](../field-service/set-up-time-groups.md)] for more information. 
+See our [topic on fulfillment preferences](../field-service/set-up-time-groups.md) for more information. 
 
 
 ## Additional notes
