@@ -62,7 +62,7 @@ To create an Azure storage account, follow the steps below:
 
 ## Step 2: Register your web application
 
-To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization. See the steps described in topic [Register your web application](register-web-application-events-api.md) to create a web application token. For the **Origin** field enter the Primary endpoint value that you got while enabling the static website.
+To use event management public API, you need a web application token. The web application token is used to control API requests that are associated with your organization. More information: [Register your web application](register-web-application-events-api.md).
 
 ## Step 3: Create environment.ts file
 
