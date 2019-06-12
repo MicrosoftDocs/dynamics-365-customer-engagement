@@ -48,7 +48,7 @@ To edit settings for how leads are booked, double-click **Leads** once it appear
   
 You have successfully enabled an entity for scheduling when:
 
-1. **Requirements** (also known as resource requirements) show as a related entity. 
+1. **Resource Requirements** shows as a related entity. 
 2. The **Book** button appears in the top ribbon.
 
 > [!div class="mx-imgBorder"]
