@@ -2,7 +2,7 @@
 title: "3D models for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/30/2019
+ms.date: 06/12/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
