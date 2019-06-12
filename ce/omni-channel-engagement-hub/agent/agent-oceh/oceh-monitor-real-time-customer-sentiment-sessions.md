@@ -19,13 +19,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-As an agent, while you interact with your customers, you want to know their satisfaction levels in real-time. The analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As an agent, while you interact with your customers, you want to know their satisfaction levels in real-time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
-## Understand real-time customer sentiment
+## View real-time customer sentiment
 
-The sentiment analysis is based on the most recent six messages from the customer. A sentiment icon is displayed on the communication panel showing you the current customer sentiment. The analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real-time.
+The real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the most recent six customer messages sent to you.
 
-The sentiment icon that is displayed on the communication panel are as follows.
+The sentiment icon displayed on the communication panel are as follows.
 
 | Sentiment | Icon |
 |--------------------------|---------------------------------------------------|
@@ -37,9 +37,9 @@ The sentiment icon that is displayed on the communication panel are as follows.
 | Negative | ![Negative sentiment](../../media/oceh/sentiment-negative.png " Negativesentiment") |
 | Very negative | ![Very negative sentiment](../../media/oceh/sentiment-very-negative.png "Very negative sentiment") |
 
-## View real-time customer sentiment
+## Understand real-time customer sentiment
 
-The real-time sentiment is displayed at the top of the communication panel. The sentiment icon changes dynamically based on the recent six customer messages sent to you.
+The sentiment analysis is an automatic and unbiased measurement of satisfaction levels of the customer in real-time.
 
 When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates at this moment the customer satisfaction is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
 
