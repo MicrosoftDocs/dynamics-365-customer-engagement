@@ -75,7 +75,7 @@ A quick view form can be added to another form as a quick view control. It provi
    You must save and publish the main form before the quick view control changes will be visible.  
 
 > [!NOTE]
-> Quick view forms will not show in your solutions or applications until you add them using the App Designer.  Make sure you open your solution or app in App Designer, add your quick view form then save and publish.
+> Quick view forms will not show in your solutions or apps until you add them using the App Designer. Make sure you open your solution or app in App Designer, add your quick view form, select save, and then publish.
 
 ### See also   
  [Create and design forms](../customize/create-design-forms.md)   
