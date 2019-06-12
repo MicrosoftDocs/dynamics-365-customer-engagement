@@ -21,7 +21,7 @@ Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Serv
 
 <!-- Need confirmation about customers downloading the client -->
 
-## Download Unified Service Desk - Omnichannel for Customer Service packages
+## Download Unified Service Desk – Omnichannel for Customer Service packages
 
 <!-- Need confirmation about customers downoading download the packages -->
 
@@ -70,8 +70,8 @@ When you deploy an Omnichannel for Customer Service package in a Customer Engage
   - DynamicsUnifiedServiceDesk
   - UiiForMicrosoftDynamicsCRM2011
  
-> [!Note]
-> If you have deployed the Omnichannel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
+    > [!Note]
+    > If you have deployed the Omnichannel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
  
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
@@ -83,14 +83,14 @@ When you deploy an Omnichannel for Customer Service package in a Customer Engage
    - DynamicsUnifiedServiceDesk
    - UiiForMicrosoftDynamicsCRM2011
 
-   > [!NOTE]
-   > You must the delete the solutions in the following order:
-   > 1. OCSDSolution
-   > 2. USDUnifiedInterfaceCustomization
-   > 3. DynamicsUnifiedServiceDesk
-   > 4. UiiForMicrosoftDynamicsCRM2011
-   > 
-   >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
+      > [!NOTE]
+      > You must the delete the solutions in the following order:
+      > 1. OCSDSolution
+      > 2. USDUnifiedInterfaceCustomization
+      > 3. DynamicsUnifiedServiceDesk
+      > 4. UiiForMicrosoftDynamicsCRM2011
+      > 
+      >  You must follow the order to remove the solutions because some of the components in the solution depend on the components in the other solution.
 
 5. After the solution is removed, repeat the steps to delete the other solutions.
 
