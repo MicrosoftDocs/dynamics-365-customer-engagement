@@ -2,7 +2,7 @@
 title: "Understand user roles in Social Engagement | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
 keywords: permissions, user roles, interaction role, configuration role
-ms.date: 06/13/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 40ba637e-3eb2-40bc-b512-ff12aeb12f58
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,8 @@ search.app:
 ---
 
 # Understand user roles
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Administrators can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  
 

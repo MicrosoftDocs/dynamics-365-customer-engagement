@@ -1,21 +1,16 @@
 ---
 title: "Administer Social Engagement | Microsoft Docs"
 description: "Learn about the main areas to administer Social Engagement"
-Description: 
 ms.custom: 
   - dyn365-socialengagement
-ms.date: 09/12/2017
-ms.reviewer: 
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: Social Engagement
 ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
-caps.latest.revision: 33
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -25,6 +20,9 @@ search.app:
   - D365SE
 ---
 # Administer [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Setting up the solution for your users is crucial for the effective usage of [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. To learn more about the main tasks for administering your solution, review the topics listed here.  
   
 > [!NOTE]
