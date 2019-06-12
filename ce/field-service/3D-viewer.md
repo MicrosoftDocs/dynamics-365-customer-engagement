@@ -168,7 +168,7 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > [!div class="mx-imgBorder"]
 > ![Screenshot of selecting HTML for iframe to enbale three dimensional models](media/mobile-3d-add-iframe-html.png)
 
-16.	Leave the defaults as shown in the following and select **Ok**.
+16.	Leave the defaults as shown in the following screenshot and select **Ok**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of iframe settings](media/mobile-3d-add-iframe-defaults.png)
