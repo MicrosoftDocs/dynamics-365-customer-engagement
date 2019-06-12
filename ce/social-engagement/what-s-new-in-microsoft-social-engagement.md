@@ -53,7 +53,6 @@ Dynamics 365 will focus on enabling businesses with artificial-intelligence-powe
 
 More information: 
 - FAQ article - [Frequently asked questions about Microsoft Social Engagement service discontinuation](eol/discontinuation-faq.md)
-- Comparison guide - [Microsoft Social Engagement vs. Dynamics 365 Market Insights](eol/comparison-mse-mi.md).
 - [Help documentation for Dynamics 365 Market Insights](https://docs.microsoft.com/dynamics365/ai/market-insights/help-hub)
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.12

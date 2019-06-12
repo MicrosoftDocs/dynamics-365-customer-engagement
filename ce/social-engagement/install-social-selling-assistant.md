@@ -28,7 +28,7 @@ search.app:
 Enabling the Social Selling Assistant for users of [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] apps is a two-step process. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Install the Social Selling Assistant](https://technet.microsoft.com/library/mt793319\(CRM.8\).aspx)  
   
 > [!NOTE]
-> Social Engagement will be discontinued on January 16, 2020 and integration features will also stop working at this date. We recommend transitioning to Dynamics 365 Market Insights. Learn more about the [capabilities in Market Insights](eol/comparison-mse-mi.md) and find answers to [frequently asked questions about Social Engagement service discontinuation](eol/discontinuation-faq.md).
+> Social Engagement will be discontinued on January 16, 2020 and integration features will also stop working at this date.
 
 You need to add the URL of your organization's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance to the list of **Allowed Domains** in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to see the data.  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Social Engagement to other domains](connect-other-domains.md)  

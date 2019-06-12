@@ -30,7 +30,7 @@ search.app:
 When you link a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, a Social Activity record is created. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps can turn these social activities into other types of records, for example into a lead, an opportunity, or a case.
 
 > [!NOTE]
-> Social Engagement will be discontinued on January 16, 2020 and integration features will also stop working at this date. We recommend transitioning to Dynamics 365 Market Insights. Learn more about the [capabilities in Market Insights](eol/comparison-mse-mi.md) and find answers to [frequently asked questions about Social Engagement service discontinuation](eol/discontinuation-faq.md).
+> Social Engagement will be discontinued on January 16, 2020 and integration features will also stop working at this date. 
   
 ## Steps for linking posts  
 
