@@ -27,7 +27,7 @@ The real-time sentiment is displayed at the top of the communication panel. The 
 
 When you get an incoming conversation request, you accept the request and communicate with the customer. By default, you see the neutral sentiment icon, which indicates at this moment the customer satisfaction is neutral. As you continue to communicate with the customer, the sentiment icon changes dynamically according to the conversation.
 
-When a conversation is escalated from bot, the sentiment icon you see is based on the pervious messages exchanged between the customer and the bot.
+When a conversation is escalated from a bot, the sentiment icon you see is based on the previous messages exchanged between the customer and the bot.
 
 > [!div class=mx-imgBorder]
 > ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
