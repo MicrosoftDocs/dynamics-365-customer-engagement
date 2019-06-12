@@ -1,5 +1,55 @@
 {
-  "redirections": [
+  "redirections": [    {
+      "source_path": "ce/developer/workflow/create-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#visual-studio-requirements",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/add-metadata-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#add-parameters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/use-iorganization-web-service-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#use-the-organization-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/register-use-custom-workflow-activity-assembly.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/debug-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#debug-workflow-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/update-custom-workflow-activity-using-assembly-versioning.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#manage-changes-to-custom-workflow-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/process-classes-attributes-and-types.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#add-parameters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/sample-create-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-create-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/sample-update-next-birthday-using-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-update-next-birthday-using-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/sample-calculate-credit-score-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-calculate-credit-score-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+
     {
       "source_path": "ce/admin/extend-with-integration-solutions.md",
       "redirect_url": "extend",
