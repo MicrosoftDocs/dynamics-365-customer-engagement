@@ -120,3 +120,4 @@ To directly send an email to a customer with an invoice attached, open the invoi
 
 [Develop sales from lead to cash in Dynamics 365 for Sales Professional](develop-sales-lead-to-cash-sales-professional.md)  
 [Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Sales transactions in Dynamics 365 for Sales Professional](understanding-sales-transactions-sales-professional.md)
