@@ -26,7 +26,11 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create new record from the Customer Summary page
 
-In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the add new option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
+
+<!--from editor: In second sentence below, does the option say "Add new" or "+ New"? -->
+
+
+In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **Add new** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
 To create a new record:
 
