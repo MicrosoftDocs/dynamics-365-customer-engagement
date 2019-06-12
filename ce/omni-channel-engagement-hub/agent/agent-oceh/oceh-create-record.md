@@ -26,26 +26,17 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create new record from the Customer Summary page
 
-
-<!--from editor: In second sentence below, does the option say "Add new" or "+ New"? -->
-
-
-In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **Add new** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
+In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **+ New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
 To create a new record:
 
 1. Select one option in the Customer or Case section based on the record you want to create. After you select the option, a form opens in an application tab panel.
-
-
-<!--from editor: The screenshot beneath the table shows the options as "+ New Account", "+ New Contact" and "+ New Case", which differs from the table. -->
-
-
     
     | Option | Section | Description |
     |---------------------|------------------------|------------------------------------------------|
-    | + Add Account | Customer | Select this option to create a new account record |
-    | + Add Contact | Customer | Select this option to create a new contact record |
-    | + Add Case | Case | Select this option to create a new case record |
+    | + New Account | Customer | Select this option to create a new account record |
+    | + New Contact | Customer | Select this option to create a new contact record |
+    | + New Case | Case | Select this option to create a new case record |
 
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](../../media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
@@ -63,11 +54,7 @@ After you save, the record is automatically linked to the conversation.
    > [!div class=mx-imgBorder]
    > ![Automatic linking of the record](../../media/oceh/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
 
-
-<!--from editor: Below, do you mean the case form links "to" the customer? -->
-
-
-If you create the case account or contact first and then start to create a case record, the case form links the customer who is already created and linked.
+If you create the account or contact first and then start to create a case record, the case form shows the customer's name in the **Customer** field who is already created and linked.
 
    > [!div class=mx-imgBorder]
    > ![Case form automatically links the customer who is already linked to conversation](../../media/oceh/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
