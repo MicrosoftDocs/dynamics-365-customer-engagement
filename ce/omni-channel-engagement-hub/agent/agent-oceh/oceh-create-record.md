@@ -39,7 +39,7 @@ To create a new record:
     | + Add Case | Case | Select this option to create a new case record |
 
     > [!div class=mx-imgBorder]
-    > ![Create account, contact, and case](../../media/oceh/customer-summary-create-record.png "Create account, contact, and case")
+    > ![Create account, contact, and case](../../media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
 
 
 2. Specify the details in fields according to the form.
@@ -47,17 +47,17 @@ To create a new record:
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Fill in the form](../../media/oceh/customer-summary-create-new-contact.png "Fill in the form")
+    > ![Fill in the form](../../media/oceh/customer-summary-create-new-contact.PNG "Fill in the form")
 
 After you save, the record is automatically linked to the conversation.
 
    > [!div class=mx-imgBorder]
-   > ![Automatic linking of the record](../../media/oceh/customer-summary-customer-card-linked.png "Automatic linking of the record")
+   > ![Automatic linking of the record](../../media/oceh/customer-summary-customer-card-linked.PNG "Automatic linking of the record")
 
 If you create the case account or contact first and then start to create a case record, the case form links the customer that is already created and linked.
 
    > [!div class=mx-imgBorder]
-   > ![Case form automatically links the customer that is already linked to conversation ](../../media/oceh/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
+   > ![Case form automatically links the customer that is already linked to conversation ](../../media/oceh/customer-summary-create-case-customer-linked.PNG "Case forms shows the customer")
 
 ## Create new record using the quick create option
 
