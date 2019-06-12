@@ -56,11 +56,6 @@ The sentiment icons displayed on the communication panel are as follows.
 
 ## See also
 
-
-<!--from editor: Although Manage sessions and Manage applications point to different files, the files that open look to be the same. -->
-
-
-
 - [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Manage sessions](oceh-manage-sessions.md)
 - [Manage applications](oceh-manage-applications.md)
