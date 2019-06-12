@@ -177,8 +177,6 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 
 The 3D model will now be viewable on the Field Service Mobile App by going to **Customer Assets** > **Three Dimensional Models**.
 
-
-> [!div class="mx-imgBorder"]
 > ![Screenshot of three dimensional model visible on the field service mobile app](media/mobile-3d-mobile-app.png)
 
 ## Additional notes
