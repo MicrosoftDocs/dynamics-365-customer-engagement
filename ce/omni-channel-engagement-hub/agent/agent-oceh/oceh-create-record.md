@@ -26,11 +26,11 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 ## Create new record from the Customer Summary page
 
-In the customer summary page and on the customer and case form, you see an option to create a new record. When you select the add new option, corresponding form opens in a new tab. You can fill the details and save the record and the record is auto-linked to the conversation.
+In the customer summary page and on the customer and case form, you see an option to create a new record. When you select the add new option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
-To create a new record, follow the steps:
+To create a new record:
 
-1. Select one option in the Customer or Case section based on the record you want to create. After you select the option, a forms opens in a application tab panel.
+1. Select one option in the Customer or Case section based on the record you want to create. After you select the option, a form opens in an application tab panel.
     
     | Option | Section | Description |
     |---------------------|------------------------|------------------------------------------------|
@@ -42,12 +42,12 @@ To create a new record, follow the steps:
     > ![Create account, contact, and case](../../media/oceh/customer-summary-create-record.png "Create account, contact, and case")
 
 
-2. Specify the details in fields according the form.
+2. Specify the details in fields according to the form.
 
 3. Select **Save**.
 
     > [!div class=mx-imgBorder]
-    > ![Fill the form](../../media/oceh/customer-summary-create-new-contact.png "Fill the form")
+    > ![Fill in the form](../../media/oceh/customer-summary-create-new-contact.png "Fill in the form")
 
 After you save, the record is automatically linked to the conversation.
 
