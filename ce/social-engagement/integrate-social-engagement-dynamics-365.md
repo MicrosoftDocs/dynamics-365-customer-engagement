@@ -2,7 +2,7 @@
 title: "Social Engagement integration with Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 for Customer Engagement and additional services."
 keywords: social insights, dynamics 365, UCI, unified interface, integration, component
-ms.date: 02/14/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -23,10 +23,12 @@ search.app:
 
 # Integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with Dynamics 365 for Customer Engagement apps
 
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 You can get powerful social insights by connecting your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The [easy-to-understand widgets provide insights](social-insights-widgets.md) and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
 > [!NOTE]
-> Social Engagement will be discontinued on January 16, 2020 and integration features will also stop working at this date. We recommend transitioning to Dynamics 365 Market Insights. Learn more about the [capabilities in Market Insights](eol/comparison-mse-mi.md) and find answers to [frequently asked questions about Social Engagement service discontinuation](eol/discontinuation-faq.md).
+> Social Engagement will be discontinued on January 16, 2020 and integration features will also stop working at this date.
 
 With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
 

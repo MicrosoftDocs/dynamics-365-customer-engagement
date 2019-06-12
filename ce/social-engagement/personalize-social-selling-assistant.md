@@ -2,7 +2,7 @@
 title: "Personalize the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to configure the Social Selling Assistant to receive personalized recommendations."
 keywords: social selling, social selling assistant, social engagement, personalization, social sales
-ms.date: 03/15/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: 534adc26-856a-403d-ac6b-3a3c3518470f
 author: m-hartmann
 ms.author: mhart
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -23,6 +22,9 @@ search.app:
 ---
 
 # Personalize the Social Selling Assistant
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 When using the Social Selling Assistant for the first time, users will get recommendations for all available search topics in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. To personalize the experience, we recommend each user select specific topics that are of interest to them. Additionally, users must add their social profiles to be able to share content recommendations on their networks.  
   
 ## Access the Social Selling Assistant dashboard  

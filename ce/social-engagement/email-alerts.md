@@ -2,7 +2,7 @@
 title: "Stay up to date with alerts in Social Engagement | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 keywords: alerts, notification, emails
-ms.date: 09/26/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -11,7 +11,6 @@ ms.assetid: f2b7a251-39bf-4bb9-b963-0a98020e7f23
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,8 @@ search.app:
 ---
 
 # Stay up to date with alerts
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 You can create email notifications to automatically send to a group of recipients when triggered. Alerts are user-specific, and every user role can create them. There are two types of alerts, which are based on filters and search topics:
 
