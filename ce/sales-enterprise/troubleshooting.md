@@ -103,8 +103,6 @@ Ask your system administrator to grant you the necessary permissions.
 If there’s no error, and you are still not able to qualify a lead, please contact the technical support here.
 
 
-### When I qualify a lead through Leads grid, duplicate records for account or contact are getting created though the duplication detection rule is enabled. 
-
 ## Opportunity issues and resolution
 
 ### How do I close an opportunity?
