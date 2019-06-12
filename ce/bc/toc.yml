@@ -74,7 +74,7 @@
       topicHref: /dynamics365/customer-engagement/marketing/get-started-section
     - name: Omnichannel for Customer Service
       tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/
-      topicHref: /dynamics365/customer-engagement/omnichannel-customer-service-guide
+      topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/omnichannel-customer-service-guide
       items:
       - name: Administrator
         tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/
