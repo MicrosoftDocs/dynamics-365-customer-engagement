@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-As an agent, while you interact with your customers, you want to know their satisfaction levels in real-time. The analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, as an agent, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As an agent, while you interact with your customers, you want to know their satisfaction levels in real-time. The analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## Understand real-time customer sentiment
 
