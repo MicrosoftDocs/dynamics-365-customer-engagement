@@ -111,15 +111,15 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 2. In the **Connect to Microsoft Dynamics 365 for Customer Engagement** screen, provide authentication details to connect to the Customer Engagement instance where you want to upgrade the current package.
 
-3. Under Select the import package to use, choose **Unified Service Desk - Omnichannel for Customer Service - Upgrade**, and then select **Next**.
+3. In the **Select the import package to use** page, choose **Unified Service Desk - Omnichannel for Customer Service - Upgrade**, and then select **Next**. he **Unified Service Desk – Omnichannel for Customer Service - Upgrade Setup Tool** page appears.
 
-4. The **Unified Service Desk – Omnichannel for Customer Service - Upgrade Setup Tool** page appears. Review the information about the components that will be upgraded, and then select **Next**.
+4. Review the information about the components that will be upgraded in the **Unified Service Desk – Omnichannel for Customer Service - Upgrade Setup Tool** page, and then select **Next**.
 
 5. On the **Ready to Install** page, click Next to verify the components to upgrade.
 
-6. On the **Reading Unified Service Desk – Omnichannel for Customer Service - Upgrade Installer Configuration** page, information about what will be upgraded is listed. Select **Next** to begin the upgrade.
+6. On the **Reading Unified Service Desk – Omnichannel for Customer Service - Upgrade Installer Configuration** page, information about what will be upgraded is listed. Select **Next** to begin the upgrade. The next page displays the package deployment status.
 
-7. The next page displays the package deployment status. A confirmation message is displayed on successful deployment of the package. Select **Next**.
+7. A confirmation message is displayed on successful deployment of the package. Select **Next**.
 
 8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool.
 
