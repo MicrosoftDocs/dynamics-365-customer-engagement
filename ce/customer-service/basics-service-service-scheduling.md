@@ -204,6 +204,9 @@ Make sure that you have the required security role or equivalent permissions.
 
 6. Select the install icon next on the **Core Service Scheduling** card. The **Terms of service** page appears.
 
+   > [!div class=mx-imgBorder]
+   > ![Install the solutions](media/core-service-scheduling-install-csh.png)
+
 7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
 
 After successful installation, you can access scheduling in the Customer Service Hub sitemap.
