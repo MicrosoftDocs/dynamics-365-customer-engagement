@@ -21,11 +21,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a new record in two ways:
 
-- Create a new record from the Customer Summary page
-- Create a new record using the quick create option
-- Create a new record using the **+ New** option
+- [Create a new record from the Customer Summary page](oceh-create-record.md#create-a-new-record-from-the-customer-summary-page)
+- [Create a new record using the quick create option](oceh-create-record.md#create-a-new-record-using-the-quick-create-option)
+- [Create a new record using the + New option](oceh-create-record.md#create-a-new-record-using-the-+-new-option)
 
-## Create new record from the Customer Summary page
+## Create a new record from the Customer Summary page
 
 In the Customer Summary page and on the customer and case form, you see an option to create a new record. When you select the **+ New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation. 
 
@@ -60,7 +60,7 @@ If you create the account or contact first and then start to create a case recor
    > [!div class=mx-imgBorder]
    > ![Case form automatically links the customer who is already linked to conversation](../../media/oceh/customer-summary-create-case-customer-linked.png "Case forms shows the customer")
 
-## Create new record using the quick create option
+## Create a new record using the quick create option
 
 Use the quick create (**+**) option in the nav bar to create a new record. After creating the record, you must manually search and link the record to the conversation.
 
