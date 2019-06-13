@@ -112,6 +112,9 @@ To unlink a record, select the **X** button next to the customer name in the cus
 > [!Note]
 > You can link and unlink only one contact or account in the customer (Contact or Account) section and one case in the case section.
 
+> [!div class="nextstepaction"]
+> [Next topic: Understand conversation states](oceh-conversation-state.md)
+
 ## See also
 
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
