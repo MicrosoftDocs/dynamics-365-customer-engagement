@@ -5,8 +5,9 @@
 
 ## [Administrator Guide](admin-guide.md)
 
-### [Set up and manage Marketing instances](setup-manage-instances.md)
+### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
+#### [Decide whether to install Marketing with or without a portal](portal-optional.md)
 #### [Purchase a production version of Marketing](purchase-marketing.md)
 #### [Run the setup wizard](purchase-setup.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
