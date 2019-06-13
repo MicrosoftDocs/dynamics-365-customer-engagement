@@ -8,7 +8,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
-ms.date: 11/20/2018
+ms.date: 06/17/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -152,32 +152,61 @@ Let's see how Contoso accomplishes the task:
    |[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigate the service calendar (Customer Service app)](navigate-service-calendar-cs-app.md)   |    </br>    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the schedule board to configure service activity](use-schedule-board-configure-service-activity.md)  |
    |   |         | 
 
-## Set up the new scheduling experience
+## Set up the new Service Scheduling experience
 
-Make sure that you have the required security role or equivalent permissions. 
+The set up experience is different based on the following scenarios:
+
+- For a new Dynamics 365 for Customer Engagement organization, by default, the **Core Service Scheduling** solutions will be installed in your organization. 
+
+- If your existing Dynamics 365 for Customer Engagement organization doesn't have scheduling, then you must install the service scheduling solutions to access it in the Customer service Hub app site map. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions)
+
+- If your existing Dynamics 365 for Customer Engagement organization has legacy scheduling and want to upgrade to the new experience, then you must install the service scheduling solutions to access it in the Customer service Hub app site map. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions)
+
+Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 > [!IMPORTANT]
-> Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true. It is recommended that to effectively manage your bookings, you should migrate your data to the new experience using the migration tool. 
+> Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true. It is recommended that to effectively manage your bookings, you should migrate your data to the new experience using the migration tool.
 
-1. Check the Universal Resource Scheduling (URS) version.
+### Prerequisites
 
-   For the new scheduling experience, you should have the minimum specific version (3.2.0.405) of URS installed on your system. To check the URS version installed on your system, go to **Settings** and select **Solutions**.
+- For the new scheduling experience, ensure your organization has Universal Resource Scheduling 3.2.0.405 or a higher version. If your organization has a version lesser than 3.2.0.405, then Universal Resource Scheduling will not be upgraded. To check the Unified Resource Scheduling version on your instance, go to **Settings** > **Solutions**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
-      > [!NOTE]
-      >  Consider that importing the scheduling package will upgrade URS to the required version. If Field Service or Project Service is already installed on your org with an older version of URS, then URS will also be upgraded. </br> The latest version of URS might not be compatible with the old versions of Field Service or Project Service.
+   > [!NOTE]
+   > For the new scheduling experience, if your organization doesn't have Universal Resource Scheduling, the **Core Service Scheduling** solution installs the latest version of Universal Resource Scheduling.
+   >
+   > If Field Service or Project Service is already installed on your org with an older version of Universal Resource Scheduling, then Universal Resource Scheduling will also be upgraded to the latest version.
+   >
+   > The latest version of Universal Resource Scheduling might not be compatible with the older versions of Field Service or Project Service.
 
-2.  Get the scheduling package.
+- Ensure your organization has Customer Service Hub application.
 
-    a. Go to Office 365 Admin center and select Dynamics 365. </br>
-    b. In the **Dynamics 365 Administration Center**, select **Instances** tab to view your org.</br>
-    c. Select your org from the list and select **Edit**. </br>
-    d. In the **Manage your solutions** page, select **Core Service Scheduling**. The current status shows *Not installed*. Begin the install of the solution. </br>
+### Install the Scheduling solutions
 
-      After successful installation, you can access scheduling in the Customer Service Hub sitemap.
+1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
+
+2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
+
+   > [!div class=mx-imgBorder]
+   > ![Go to Dynamics 365 in the Microsoft 365 admin center](media/microsoft-365-admin-center-dynamics-csh.png)
+
+3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
+
+4. select the edit icon next solutions. Manage your solutions page appears.
+
+   > [!div class=mx-imgBorder]
+   > ![Edit the solutions](media/dynamics-365-admin-instance-edit-csh.png)
+
+5. In the **Manage your solutions** page, select **Core Service Scheduling**. The status column shows **Not installed**.
+
+6. Select the install icon next on the **Core Service Scheduling** card. The **Terms of service** page appears.
+
+7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
+
+After successful installation, you can access scheduling in the Customer Service Hub sitemap.
 
 ## Access scheduling in the Customer Service Hub
 With the Customer Engagement apps version 9.1 release, Scheduling is powered by Universal Resource Scheduling (URS), and is available from the Customer Service Hub sitemap.
