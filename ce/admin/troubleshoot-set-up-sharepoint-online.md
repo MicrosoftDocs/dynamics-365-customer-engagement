@@ -33,8 +33,6 @@ If **Documents** is missing from entities such as account, use the following to 
 
 ![Documents](media/crm-itpro-crmo365tg-seldoc.png "Documents")
 
-Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
-
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement.
     Check your security role:
     1. Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
@@ -55,8 +53,6 @@ For more information, see [Enable SharePoint document management for specific en
 If the Documents associated grid is missing, use the following to restore.
 
 ![Documents associated grid](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
-
-Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
 
 The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
@@ -140,5 +136,4 @@ The most common cause for the Documents associated grid not loading is the corru
 18. Import the solution (zipped file in Step 8).
 19. Publish all customizations.
 20. Verify the Document associated grid is displaying in all the required SharePoint documents.
-
 
