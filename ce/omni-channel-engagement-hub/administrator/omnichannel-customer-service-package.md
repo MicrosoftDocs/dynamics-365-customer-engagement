@@ -49,7 +49,7 @@ Use this sample package if you want to start using a new Unified Service Desk en
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
 > [!Note]
-> If you are using Omnichannel for Customer Service and want to upgrade to July 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omnichannel for Customer Service – Add-On** or **Omnichannel for Customer Service** package. To learn more, see [Delete Unified Service Desk - Omnichannel for Customer Service package](#delete-unified-service-desk---Omnichannel-for-customer-service-package).
+> If you are using Omnichannel for Customer Service and want to upgrade to July 2019 Update, you must uninstall the solutions from the previous releases and then run the package deployer to deploy the **Omnichannel for Customer Service – Add-On** or **Omnichannel for Customer Service** package. To learn more, see [Delete Unified Service Desk - Omnichannel for Customer Service package](omnichannel-customer-service-package.md#delete-unified-service-desk---Omnichannel-for-customer-service-package).
 
 ### Deploy an Omnichannel for Customer Service package
 
