@@ -2,7 +2,7 @@
 title: "User Power BI to create custom analytics (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 for Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
 keywords: tutorial; templates; email; customer journey; marketing page; page
-ms.date: 12/17/2018
+ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -72,11 +72,11 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
 
     ![Copy the URL](media/custom-analytics-sas-created.png "Copy the URL")
 
-1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **CDS-A connector settings**. The **Marketing Settings** page opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
+1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing analytics configuration**. A list of marketing analytics configurations opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
 
-1. The **CDS-A Connector Configuration** page opens.
+1. The **Marketing analytics configuration** page opens.
 
-    ![CDS-A connector configuration](media/custom-analytics-cds-a-config.png "CDS-A connector configuration")
+    ![Marketing analytics configuration](media/custom-analytics-cds-a-config.png "Marketing analytics configuration")
 
     Make the following settings:
 

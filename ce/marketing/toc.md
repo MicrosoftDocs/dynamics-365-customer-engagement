@@ -5,8 +5,9 @@
 
 ## [Administrator Guide](admin-guide.md)
 
-### [Set up and manage Marketing instances](setup-manage-instances.md)
+### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
+#### [Decide whether to install Marketing with or without a portal](portal-optional.md)
 #### [Purchase a production version of Marketing](purchase-marketing.md)
 #### [Run the setup wizard](purchase-setup.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
@@ -30,6 +31,7 @@
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)
 #### [Quota limits](quota-management.md)
+#### [Preview: Configure AI features](admin-machine-learning.md)
 #### [Control access to designer features](designer-feature-protection.md)
 
 ### Customize Marketing
@@ -77,6 +79,7 @@
 
 ### Create marketing emails
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
+#### [Preview: Check your spam score](spam-score.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Create marketing pages and forms
@@ -98,6 +101,7 @@
 #### [Segments vs. lists](segments-vs-lists.md)
 #### [Design profile-based dynamic segments](segments-profile.md)
 #### [Design interaction-based dynamic segments](segments-interaction.md)
+#### [Generate interaction segments from journey results](generate-segment-from-journey.md)
 #### [Define a static segment](segments-static.md)
 #### [Manage segment memberships from a contact record](manage-segments-from-contacts.md)
 #### [Combine segments into a compound segment](segments-compound.md)
@@ -105,6 +109,8 @@
 
 ### Work with customer journeys
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+#### [Preview: Use smart scheduler to help improve email engagement](smart-scheduler.md)
+#### [Preview: Expand your audience with segment boost](segment-boost.md)
 #### [Create and manage customer journey templates](journey-templates.md)
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
