@@ -88,9 +88,9 @@ After you save the changes, you can link the record to the conversation. To lear
 
 ## Create a new record using the + New option
 
-In the Customer Summary page, when you are trying to search a record in customer or case section, after you type few characters to search, if the record doesn't exist in Omnichannel, you can use the inline **+ New** button to create a record. After you select the button, quick create pane of the entity.
+In the Customer Summary page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **+ New** button to create a record. After you select the button, the quick create pane of the entity appears.
 
-1. Type to search in the search box. The records appear as a list that matches your search criteria if it exists.
+1. Type to search in the search box. The records appear as a list that matches your search criteria.
 
 2. Select **+ New** below the list of records. The Quick create pane appears.
 
