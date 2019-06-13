@@ -26,7 +26,13 @@ search.app:
   - D365Mktg
 ---
 
-# Check the spam score of your email content
+# Preview: Check the spam score of your email content
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> This is a preview feature. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 The spam score feature applies artificial intelligence to analyze the content of each marketing email message, and then generates a score that predicts how likely the message is to be flagged by content-based spam filters.
 

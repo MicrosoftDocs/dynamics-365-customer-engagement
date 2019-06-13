@@ -26,7 +26,13 @@ search.app:
   - D365Mktg
 ---
 
-# Enable and configure artificial intelligence features
+# Preview: Enable and configure artificial intelligence features
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> All AI features are currently preview features. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 Dynamics 365 for Marketing provides several artificial intelligence (AI), which include:
 

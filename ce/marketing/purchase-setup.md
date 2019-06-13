@@ -68,7 +68,7 @@ Read this topic to learn how to set up a new [!INCLUDE[pn-marketing-business-app
 > [!IMPORTANT]
 > Problems can occur if you try to reinstall Dynamics 365 for Marketing on an instance where it was previously uninstalled. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
 > 
-> - Reset the instance before starting to reinstall Marketing.
+> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (sandbox instances only).
 > - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
 
 ## Step 1: Launch the setup wizard

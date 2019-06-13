@@ -26,7 +26,13 @@ search.app:
   - D365Mktg
 ---
 
-# Use smart scheduler to help improve email engagement
+# Preview: Use smart scheduler to help improve email engagement
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> This is a preview feature. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 The smart scheduler feature applies artificial intelligence to identify the days and times when each contact is most likely to be actively reading their email. The feature has two main components:
 
