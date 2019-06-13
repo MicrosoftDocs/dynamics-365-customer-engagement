@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce\social-engagement\eol\comparison-mse-mi.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/extend-with-integration-solutions.md",
       "redirect_url": "extend",
       "redirect_document_id": "false"
