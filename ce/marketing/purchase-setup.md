@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing insights service
-ms.date: 04/01/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -65,14 +65,17 @@ Read this topic to learn how to set up a new [!INCLUDE[pn-marketing-business-app
 > 
 > See also the  [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
+> [!IMPORTANT]
+> Problems can occur if you try to reinstall Dynamics 365 for Marketing on an instance where it was previously uninstalled. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
+> 
+> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (sandbox instances only).
+> - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
+
 ## Step 1: Launch the setup wizard
 
 After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app available on your tenant. To set up the app, you must run its setup from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md)
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the setup wizard will help you review all the relevant privacy policies and set up and integrate these various elements. Proceed as described in the following subsections.
-
-> [!IMPORTANT]
-> Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, so take care while filling it out.
 
 ## Step 2: Choose an organization and portal options
 
@@ -86,7 +89,9 @@ Choose an instance and set your portal options:
 
 1. Select one of the following **Web hosting** options:
     - **Use own webserver**: Select this option if you will run your landing pages and event website on an external webserver or CMS system. This option doesn't require a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license and won't install the portal.
-    - **Use Dynamics 365 portals**: Select this option if you will run your landing pages and event website on a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal running on your tenant and linked to  your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. This requires a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license. A free portals license is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but some restrictions apply&mdash;see [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal) for details.
+    - **Use Dynamics 365 portals**: Select this option if you will run your landing pages and event website on a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal running on your tenant and linked to  your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. This requires a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license, but in some cases a portals license may be included with your Marketing license. 
+
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide whether to install Dynamics 365 for Marketing with or without a Dynamics 365 portal](portal-optional.md)
 
 1. If you selected to **Use Dynamics 365 portals**, then enter a prefix for your portal URL in the field provided. You can also see what the full URL will be here. All your portals are hosted on your tenant, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use.
 
@@ -104,7 +109,7 @@ Give consent and enter your postal address:
 
 2. Type the full physical street address for your organization in the field provided. All marketing email messages sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
 
-3. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about half an hour.
+3. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about three hours to set up a paid instance.
 
 ## Privacy notice
 
