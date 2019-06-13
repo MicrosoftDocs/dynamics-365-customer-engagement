@@ -1,8 +1,8 @@
 ---
 title: "Run Dynamics 365 for Marketing with a portal or portal-free (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to implement interactive marketing features with or without a Dynamics 365 portal with Dynamics 365 for Marketing"
-keywords: portal; website; page; marketing page; event website
-ms.date: 04/01/2018
+description: "How to decide whether to install Dynamics 365 for Marketing with or without a Dynamics 365 portal"
+keywords: 
+ms.date: 06/13/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
