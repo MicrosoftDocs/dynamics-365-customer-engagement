@@ -50,8 +50,6 @@
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-calculate-credit-score-custom-workflow-activity",
       "redirect_document_id": "false"
     },
-{
-  "redirections": [
     {
       "source_path": "ce/social-engagement/eol/comparison-mse-mi.md",
       "redirect_url": "overview",
