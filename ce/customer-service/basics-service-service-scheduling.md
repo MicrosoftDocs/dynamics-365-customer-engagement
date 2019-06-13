@@ -34,7 +34,7 @@ Scheduling, now built atop **Universal Resource Scheduling (URS)**, provides an 
 
 With the Customer Engagement apps version 9.1 release, the new scheduling experience can be enabled from the Customer Service Hub sitemap.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](#set-up-the-new-scheduling-experience)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](#set-up-the-new-service-scheduling-experience)
 
 The new experience lists the entities as follows, as compared to the legacy experience:
 
