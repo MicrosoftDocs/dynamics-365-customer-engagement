@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "ce/admin/configure-server-based-authentication-sharepoint-online.md",
+      "redirect_url": "set-up-dynamics-365-online-to-use-sharepoint-online​",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/validate-fix-sharepoint-site-urls.md",
+      "redirect_url": "troubleshooting-server-based-authentication#validate-and-fix-sharepoint-site-urls​ ",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/important-considerations-server-based-sharepoint-integration.md",
+      "redirect_url": "cmanage-documents-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/social-engagement/eol/comparison-mse-mi.md",
       "redirect_url": "overview",
       "redirect_document_id": "false"
