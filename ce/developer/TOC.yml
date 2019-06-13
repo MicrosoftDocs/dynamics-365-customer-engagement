@@ -206,7 +206,7 @@
       - name: Supported types, triggers, entities, and actions for processes
         href: supported-types-triggers-entities-actions-processes.md
       - name: Custom workflow activities (workflow assemblies)
-        href: workflow/
+        href: custom-workflow-activities-workflow-assemblies.md
       - name: Model business process flows
         href: model-business-process-flows.md
         items:
