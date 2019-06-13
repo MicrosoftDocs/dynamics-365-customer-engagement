@@ -2,7 +2,7 @@
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "Read how a bot in Omni-channel Engagement Hub can be used to escalate a conversation to a human agent."
 keywords: ""
-ms.date: 05/03/2019
+ms.date: 06/14/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -30,6 +30,14 @@ You must ensure the following conditions are met to onboard a bot to Omni-channe
 -	The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
 -	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
 -	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
+
+## Engage a bot
+
+In order to send messages to Omni-channel Engagement Hub you need to add the following code statement to the bot code.
+
+```csharp
+OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
+```
 
 ## Escalate a conversation to a human agent
 
