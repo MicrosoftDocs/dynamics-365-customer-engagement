@@ -40,5 +40,5 @@ With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, you can u
 ### See also 
  [Manage your documents](../admin/manage-documents-using-sharepoint.md)  <br /> 
  [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)   <br />
- [Validate and fix SharePoint site URLs](troubleshooting-server-based-authentication.md#validate-and-fix-sharepoint-site-urls)  <br />
+ [Validate and fix SharePoint site URLs](troubleshoot-set-up-sharepoint-online.md#validate-and-fix-sharepoint-site-urls) <br />
  [Enable SharePoint document management for specific entities](enable-sharepoint-document-management-specific-entities.md)

@@ -1,6 +1,76 @@
 {
   "redirections": [
     {
+      "source_path": "ce/developer/workflow/create-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#visual-studio-requirements",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/add-metadata-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#add-parameters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/use-iorganization-web-service-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#use-the-organization-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/register-use-custom-workflow-activity-assembly.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/debug-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#debug-workflow-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/update-custom-workflow-activity-using-assembly-versioning.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#manage-changes-to-custom-workflow-activities",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/process-classes-attributes-and-types.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#add-parameters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/sample-create-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-create-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/sample-update-next-birthday-using-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-update-next-birthday-using-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/developer/workflow/sample-calculate-credit-score-custom-workflow-activity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/sample-calculate-credit-score-custom-workflow-activity",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/configure-server-based-authentication-sharepoint-online.md",
+      "redirect_url": "set-up-dynamics-365-online-to-use-sharepoint-online",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/validate-fix-sharepoint-site-urls.md",
+      "redirect_url": "troubleshooting-server-based-authentication#validate-and-fix-sharepoint-site-urls​",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/admin/important-considerations-server-based-sharepoint-integration.md",
+      "redirect_url": "manage-documents-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/social-engagement/eol/comparison-mse-mi.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/admin/extend-with-integration-solutions.md",
       "redirect_url": "extend",
       "redirect_document_id": "false"
