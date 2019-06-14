@@ -175,6 +175,6 @@
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 
-## Troubleshooting, readme, and FAQs
+## Troubleshooting and readme
 ### [Readme](omni-channel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
