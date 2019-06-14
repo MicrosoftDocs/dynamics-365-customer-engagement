@@ -24,6 +24,10 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omni-channel.md)
 
+## Send Link button in the KB Search Page is not localized 
+
+If you are using Omnichannel for Customer Service app, then the **Send Link** button in the **KB Search Page** control appears in english for other locales and is not localized.
+
 ## Dashboards don't appear in Omni-channel Engagement Hub active dashboards view
 
 When you use the Omni-channel Engagement Hub app on Unified Service Desk or on web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
