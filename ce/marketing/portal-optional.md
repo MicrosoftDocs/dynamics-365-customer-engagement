@@ -60,6 +60,8 @@ To use a portal, you must have a separate Dynamics 365 portals license for each 
 
 If you choose the non-portals option, then you'll be able to complete the Marketing setup even without an unconfigured portal available.
 
+You can use portal features in parallel with website/CMS features provided you have a portal. You could, for example, start by using a portal for all interactive features and then slowly transition to an external website until you're ready to remove the portal entirely.
+
 For complete details about how to run the setup wizard, including how to choose whether or not to set up portal integration, see [Run the setup wizard](purchase-setup.md).
 
 ## Remove portal integration from an existing Marketing instance
@@ -93,7 +95,7 @@ To add a portal to an existing Marketing installation that doesn't have one:
 1. On the first page of the wizard, do the following:
     - Select the Dynamics 365 organization that you want to add the portal to.
     - Select **Use Dynamics 365 Portals**
-    - Enter a prefix for your portal URL in the field provided. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. 
+    - Enter a prefix for your portal URL in the field provided. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name.
 
     ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
 
