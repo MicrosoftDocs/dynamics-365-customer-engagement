@@ -2,7 +2,7 @@
 title: "Manage global settings for Social Engagement | Microsoft Docs"
 description: "Learn about how to configure global settings that apply to all users of Social Engagement."
 keywords: administrator, settings, configuration
-ms.date: 12/14/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 97fcbd04-f3ce-4591-9e17-4ac08017258c
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Manage global settings
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Define system settings that apply to the entire organization, like solution name, search topic parameters, location groups, labels for Social Center, or a custom link to a privacy statement. Set default values like date and time format, default screen language, or color theme for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution, letting your users start efficiently with your organizational requirements.  
   
 > [!NOTE]

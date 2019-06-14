@@ -2,7 +2,7 @@
 title: "Author details in Social Engagement | Microsoft Docs"
 description: "Learn how to find details about the posts' authors in Social Engagement."
 keywords: author, authors, author details
-ms.date: 12/19/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 99522a0a-cc87-4530-8595-afd48c1a2a3f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Get details on specific authors
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] offers access to author details on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. Users can get quick insights into an author's profile on social media. Learn about their interests and topics, to keep track of people who impact your social feed.  
   
 ## Access author details in Analytics and Social Center  

@@ -70,7 +70,7 @@ To create and publish a content block:
 
     - **Name**: Assign a name to the content block.
     - **Availability**: Choose the types of designs where you'd like to make this content block available (emails, forms, and/or pages).
-    - **Protected**: Choose whether you and other users will be able to customize the properties of the image element contained in a content block (if present) when it's used in the **Designer** view. All text content contained in the content block will be read-only in the **Designer** view regardless of this setting, and regardless of whether that text content is within a text element or in standard HTML constructs.
+    - **Protected**: Choose whether you and other users will be able to apply in-line edits to the block's content (in the **Designer** view) after the block is placed into a design.
 
 1. When you are done designing your content, select **Go live** from the command bar to make it available to other entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
