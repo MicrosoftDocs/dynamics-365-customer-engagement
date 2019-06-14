@@ -50,7 +50,7 @@ In the conversation channel, you can see the following options:
  | Transfer         | View list to transfer the request | `/t` and `/tq` |
 
 > [!div class=mx-imgBorder]
-> ![omni-channel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omni-channel chat panel")   
+> ![omnichannel chat panel](../../media/oc-usd-chat-control-left-panel.png "Omnichannel chat panel")   
 
 ## Internal and public messages
 
@@ -79,7 +79,7 @@ When you type the keyboard command, the mode changes to as per the command. For 
 The communication panel provides you with the capability to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send it to the customers.
 
 > [!div class=mx-imgBorder]
->![omni-channel quick response](../../media/oc-usd-cc-quick-replies.png "Omni-channel quick response")
+>![Omnichannel quick response](../../media/oc-usd-cc-quick-replies.png "Omnichannel quick response")
 
 You can use a keyboard command to see the list of quick replies. Type the forward slash (/) key and the letter q (**/q**). When you type **/q** the Quick replies fly-out is displayed.
 
@@ -101,7 +101,7 @@ You can use a keyboard command to launch the knowledge article search control in
 The communication panel lets you to consult with other agents and/or supervisor using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
 
 > [!div class=mx-imgBorder]
->![omni-channel consult](../../media/oc-usd-cc-consult.png "Omni-channel consult")  
+>![Omnichannel consult](../../media/oc-usd-cc-consult.png "Omnichannel consult")  
 
 You can use a keyboard command to see the list of agents and/or the supervisor who is available for consultation. Press the Slash (/) key and the letter c (**/c**).
 
@@ -117,7 +117,7 @@ After you type **/c** in the communication panel messaging area, you can continu
 The communication panel allows you to transfer a conversation request. You can transfer the conversation (work item) either to an agent or a queue.
 
 > [!div class=mx-imgBorder]
->![omni-channel transfer](../../media/oc-usd-cc-transfer.png "Omni-channel transfer")
+>![Omnichannel transfer](../../media/oc-usd-cc-transfer.png "Omnichannel transfer")
 
 You can transfer a request only to agents who are configured in the same work stream and queue. If the request belongs to another queue and when you transfer the request, routing rules assign the conversation (work item) to the appropriate agent in the queue.
 
@@ -136,7 +136,7 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 ## See also
 
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)

@@ -1,6 +1,6 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
-description: "Learn on how to customize the Customer summary form in Omni-channel Engagement Hub as a system customizer."
+description: "Learn on how to customize the Customer summary form in Omnichannel for Customer Service as a system customizer."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: b8ce1f5a-54b5-46f3-99a4-d4829fe42e67
 ms.custom: 
 ---
-# Customize the Customer summary form
+# Customize the Customer summary form overview
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -51,7 +51,7 @@ The **Recent activities** form (card) shows the case-related and customer-relate
 
 ## See also
 
-- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Omnichannel  system customizers](omnichannel-customizer.md)
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
 - [Add or remove the fields in the form](add-remove-fields-form-section.md)
 - [Customize the conversation form](customize-conversation-form.md)

@@ -1,6 +1,6 @@
 ---
 title: "Attach customer summary-related action calls to events | MicrosoftDocs"
-description: "Learn how to attach the customer summary-related action calls to events for agents using Omni-channel Engagement Hub."
+description: "Learn how to attach the customer summary-related action calls to events for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -47,7 +47,7 @@ This topic describes how to attach the customer summary-related action calls to 
 
 5. Select **Add an Existing Action Call**. The **Lookup Records** pane appears.
 
-6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Initialize Omni-channel Context - Window Variable - Customer Summary** in the search box and select the action from the list, and then select **Add**. The action call is added to the **BrowserWindowReady** event.
+6. In the **Lookup Records** pane, enter the name of the action call you want to add. Enter **Initialize Omnichannel Context - Window Variable - Customer Summary** in the search box and select the action from the list, and then select **Add**. The action call is added to the **BrowserWindowReady** event.
 
 7. Select **Save**.
 
@@ -55,11 +55,11 @@ This topic describes how to attach the customer summary-related action calls to 
 
     | Event                              | Action Call                                    |
     |------------------------------------|------------------------------------------------|
-    | BrowserWindowReady | <ul> Initialize Omni-channel Context - Window Variable - Customer Summary </ul> |
+    | BrowserWindowReady | <ul> Initialize Omnichannel Context - Window Variable - Customer Summary </ul> |
     | OmnichannelSessionInlineSearchAndLink | <ul> Update Conversation Context Entities </ul> |
-    | Refresh | <ul> Initialize Omni-channel Context - Window Variable - Customer Summary </ul> |
-    | CreateCustomerSession | <ul> Omni-channel Session Accepted <ul> Sub action calls <ul> <li> Show Dashboards On Data Available </li> <ul> Sub action calls  <ul><li>Load Customer Summary</li></ul></ul></ul> |
-    | OmnichannelFetchContextEntitiesOnUpdate | <ul> <li>Omni-channel Clear Context Entities</li> <li>Omni-channel Copy Contact Ids To Context</li> <li>Omni-channel Fetch Context Contacts</li> <li>Omni-channel Save Context Entities on Update</li> <li>Initialize Omni-channel Context - Window Variable - Customer Summary</li> <li>Refresh Customer Summary Controls</li> </ul> |
+    | Refresh | <ul> Initialize Omnichannel Context - Window Variable - Customer Summary </ul> |
+    | CreateCustomerSession | <ul> Omnichannel Session Accepted <ul> Sub action calls <ul> <li> Show Dashboards On Data Available </li> <ul> Sub action calls  <ul><li>Load Customer Summary</li></ul></ul></ul> |
+    | OmnichannelFetchContextEntitiesOnUpdate | <ul> <li>Omnichannel Clear Context Entities</li> <li>Omnichannel Copy Contact Ids To Context</li> <li>Omnichannel Fetch Context Contacts</li> <li>Omnichannel Save Context Entities on Update</li> <li>Initialize Omnichannel Context - Window Variable - Customer Summary</li> <li>Refresh Customer Summary Controls</li> </ul> |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 4: Add the hosted control, action calls, and events to configurations](customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Create Omni-channel Advanced Search-related action calls | MicrosoftDocs"
-description: "Learn how to create Advanced Search-related action calls for agents using Omni-channel Engagement Hub."
+title: "Create Omnichannel Advanced Search-related action calls | MicrosoftDocs"
+description: "Learn how to create Advanced Search-related action calls for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -12,19 +12,19 @@ ms.assetid: F0089899-0939-4D11-AAF7-D7FE1D53D3CA
 ms.custom: 
 ---
 
-# Step 2: Create Omni-channel Advanced Search-related action calls
+# Step 2: Create Omnichannel Advanced Search-related action calls
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic demonstrates how to create Omni-channel Advanced Search-related action calls in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
+This topic demonstrates how to create Omnichannel Advanced Search-related action calls in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 
 ## Prerequisites
 
 - You must have required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create Omni-channel Advanced Search hosted control](advanced-search-step1-create-hosted-control.md). The configurations that you completed are required for this topic. 
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 1: Create Omnichannel Advanced Search hosted control](advanced-search-step1-create-hosted-control.md). The configurations that you completed are required for this topic. 
 
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
   
@@ -48,8 +48,8 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
  
     | Tab | Field | Value |
     |------------------|------------------|------------------|
-    | General | Name           | Initialize Omni-channel Context - Agent Session Search Page     |
-    | General | Hosted Control | Omni-channel Advanced Search |
+    | General | Name           | Initialize Omnichannel Context - Agent Session Search Page     |
+    | General | Hosted Control | Omnichannel Advanced Search |
     | General | Action         | RunScript             | 
     | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('\[\[$Settings.OmniChannelConfig\]+\]'); <br> var session = {"LiveWorkItemId" : "\[\[$Context.LiveWorkItemId\]+\]", "OCSessionId" : "\[\[$Context.OCSessionId\]+\]", "LiveWorkStreamId" : "\[\[$Context.LiveWorkStreamId\]+\]", "LiveWorkItemContext" : '\[\[$Context.LiveWorkItemContext\]\]'}; <br> ocConfig.config.sessionParams = session; <br> } <br> initOCContext(); |
 
@@ -57,12 +57,12 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
-## Close Omni-channel Advanced Search
+## Close Omnichannel Advanced Search
    | Tab | Field | Value |
    |------------------|------------------|------------------|
-   | General | Name           | Close Omni-channel Advanced Search     |
+   | General | Name           | Close Omnichannel Advanced Search     |
    | General | Order | 1 |
-   | General | Hosted Control | Omni-channel Advanced Search |
+   | General | Hosted Control | Omnichannel Advanced Search |
    | General | Action         | Close             |
 
 ## Update Conversation Context Entities
@@ -79,12 +79,12 @@ This topic demonstrates how to create Omni-channel Advanced Search-related actio
    |------------------|------------------|------------------|
    | General | Name           | Load Agent Session Search Page    |
    | General | Order | 20 |
-   | General | Hosted Control | Omni-channel Advanced Search |
+   | General | Hosted Control | Omnichannel Advanced Search |
    | General | Action         | Navigate |
    | General | Data | url=/main.aspx?pagetype=control&controlName=MscrmControls.OCSearchRuntime.OCSearchRuntimeControl&navbar=off <br> HideNavigationBar=true |
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Attach Omni-channel Advanced Search-related action calls to events](advanced-search-step3-attach-action-calls-events.md)
+> [Next topic: Step 3: Attach Omnichannel Advanced Search-related action calls to events](advanced-search-step3-attach-action-calls-events.md)
 
 ## See also
 

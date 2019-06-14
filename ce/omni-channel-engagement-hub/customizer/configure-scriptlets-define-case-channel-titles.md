@@ -1,6 +1,6 @@
 ---
 title: "Configure scripts using scriptlets to define case and channel titles | MicrosoftDocs"
-description: "Learn how to configure sto define case and channel titles when using Omni-channel Engagement Hub in Unified Service Desk."
+description: "Learn how to configure sto define case and channel titles when using Omnichannel Engagement Hub in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -81,7 +81,7 @@ The topic describes how to configure scripts using scriptlets to define case and
 
 ## See also
 
-- [Configure Omni-channel Agent Dashboard](configure-agent-dashboard.md)
+- [Configure Omnichannel Agent Dashboard](configure-agent-dashboard.md)
 - [Configure notifications for agents](configure-notification-screen-pop-agents.md)
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)

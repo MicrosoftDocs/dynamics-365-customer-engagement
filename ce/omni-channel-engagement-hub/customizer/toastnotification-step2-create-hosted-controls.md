@@ -1,6 +1,6 @@
 ---
-title: "Create Omni-channel Toast Notification hosted control | MicrosoftDocs"
-description: "Learn how to create Omni-channel Toast notification hosted control for agents using Omni-channel Engagement Hub in Unified Service Desk."
+title: "Create Omnichannel Toast Notification hosted control | MicrosoftDocs"
+description: "Learn how to create Omnichannel Toast notification hosted control for agents using Omnichannel for Customer Service in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-This topic describes how to create Omni-channel Toast Notification hosted control.
+This topic describes how to create Omnichannel Toast Notification hosted control.
 
 ## Prerequisites
 
@@ -49,22 +49,22 @@ This topic describes how to create Omni-channel Toast Notification hosted contro
 
     | Field                                | Value                            |
     |--------------------------------------|----------------------------------|
-    | Name                                 | Omni-channel Toast Notification  |
+    | Name                                 | Omnichannel Toast Notification  |
     | Unified Service Desk Component Type  | Popup Notification               |
     | Application is Global                | Select the checkbox              |
 
  > [!div class=mx-imgBorder] 
- > ![Omni-channel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omni-channel toast notification hosted control")
+ > ![Omnichannel toast notification hosted control](../media/oc-usd-toastnotification-hostedcontrol.png "Omnichannel toast notification hosted control")
 
 5. Save the form.
 
 > [!div class="nextstepaction"]
-> [Next topic: Step 3: Create Omni-channel Toast Notification-related action calls](toastnotification-step3-create-action-call-display-notification.md)
+> [Next topic: Step 3: Create Omnichannel Toast Notification-related action calls](toastnotification-step3-create-action-call-display-notification.md)
 
 ## See also
 
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 - [Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
-- [Step 4: Attach Omni-channel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
+- [Step 4: Attach Omnichannel Toast Notification-related action calls to the events](toastnotification-step4-add-action-calls-events.md)
 - [Step 5: Add the hosted control, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 - [Configure alert notification in Unified Service Desk](configure-alert-notification-unified-service-desk.md)

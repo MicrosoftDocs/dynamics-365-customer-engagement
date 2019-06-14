@@ -1,6 +1,6 @@
 ---
 title: "Create a communication panel related action calls | MicrosoftDocs"
-description: "Learn how to create the communication panel-related action calls for agents using Omni-channel Engagement Hub."
+description: "Learn how to create the communication panel-related action calls for agents using Omnichannel for Customer Service."
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -57,77 +57,77 @@ This topic demonstrates how to create communication panel-related action calls i
 
 7. Repeat steps 3 through 6 to create the following additional action calls.
 
-## Omni-channel Clear Entity List
+## Omnichannel Clear Entity List
 
    | Tab | Field | Value |
    |------------------|------------------|------------------|
-   | General | Name       | Omni-channel Clear Entity List    |
+   | General | Name       | Omnichannel Clear Entity List    |
    | General | Order | 1 |
    | General | Hosted Control | CRM Global Manager |
    | General | Action     | ClearEntityList  |
 
-## Omni-channel Fetch Live Work Streams
+## Omnichannel Fetch Live Work Streams
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Fetch Live Work Streams    |
+  | General | Name       | Omnichannel Fetch Live Work Streams    |
   | General | Order | 2 | 
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | DoSearch  |
   | General | Data | name=LiveWorkStreamSearch <br>global=True |
 
-## Omni-channel Fetch Service End Point
+## Omnichannel Fetch Service End Point
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Fetch Service End Point   |
+  | General | Name       | Omnichannel Fetch Service End Point   |
   | General | Order | 2 | 
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | DoSearch  |
   | General | Data | name=ServiceEndPointSearch <br>global=True |
 
-## Omni-channel Save Configuration Data
+## Omnichannel Save Configuration Data
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Save Configuration Data |
+  | General | Name       | Omnichannel Save Configuration Data |
   | General | Order | 3 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSaveConfigurationData  |
 
-## Update Omni-channel Configuration
+## Update Omnichannel Configuration
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Update Omni-channel Configuration |
+  | General | Name       | Update Omnichannel Configuration |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | SaveSetting  | 
   | General | Data | name=OmniChannelConfig<br>value=\[\[OCConfig\]+\] |
 
-## Omni-channel AAD Authentication Failed 
+## Omnichannel AAD Authentication Failed 
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel AAD Authentication Failed   |
+  | General | Name       | Omnichannel AAD Authentication Failed   |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelAADAuthenticationFailure | 
   | General | Data | PostData=\[\[PostData\]+\] |
 
-## Omni-channel Activate Session
+## Omnichannel Activate Session
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General  | Name       | Omni-channel Activate Session   |
+  | General  | Name       | Omnichannel Activate Session   |
   | General  | Hosted Control | Session Tabs |
   | General  | Action     | SwitchSession | 
   | General  | Data | sessionid=\[\[SessionTabId\]+\] |
   | Advanced | Condition | '\[\[CanActivateSession\]+\]' == 'True' |
 
-## Omni-channel Rehydrate Conversation
+## Omnichannel Rehydrate Conversation
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Rehydrate Conversation   |
+  | General | Name       | Omnichannel Rehydrate Conversation   |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSwitchSessionsTabs | 
   | General | Data | SessionTabId=\[\[SessionTabId\]+\] |
@@ -149,7 +149,7 @@ This topic demonstrates how to create communication panel-related action calls i
   |------------------|------------------|------------------|
   | General | Name       | Show Session Assignment Toast Notification   |
   | General | Order | 10 |
-  | General | Hosted Control | Omni-channel Toast Notification |
+  | General | Hosted Control | Omnichannel Toast Notification |
   | General | Action     | Show | 
   | General | Data | formname=ToastNotification <br>top=85<br>left=82<br>timeout=7<br>stack=true<br>stackHeight=56<br>placementmode=absolute<br>ToastNotificationText=\[\[$Resources.SessionAssignmentToastNotification\]+\]<br>NotificationIcon=new_omni_toast_tick_icon |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
@@ -165,11 +165,11 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Data | IsCaseSession=False |
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Omni-channel Session Accepted
+## Omnichannel Session Accepted
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Session Accepted   |
+  | General | Name       | Omnichannel Session Accepted   |
   | General | Order | 15 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSessionAccepted | 
@@ -181,7 +181,7 @@ This topic demonstrates how to create communication panel-related action calls i
   | Tab | Field | Value |
   |------------------|------------------|------------------|
   | General | Name       | Close Toast Notification  |
-  | General | Hosted Control | Omni-channel Toast Notification |
+  | General | Hosted Control | Omnichannel Toast Notification |
   | General | Action     | Close |
 
 ## Expand Right Pane
@@ -193,11 +193,11 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | SetVisualProperty | 
   | General | Data | elementName=RightPanelExpander <br> propertyname=IsExpanded <br> value=true |
 
-## Omni-channel Session Accepted
+## Omnichannel Session Accepted
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Session Accepted   |
+  | General | Name       | Omnichannel Session Accepted   |
   | General | Order | 10 |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | OmnichannelSessionAccepted | 
@@ -254,7 +254,7 @@ This topic demonstrates how to create communication panel-related action calls i
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       |  Omni-channel Set Session Tab Id For Entity Session  |
+  | General | Name       |  Omnichannel Set Session Tab Id For Entity Session  |
   | General | Order | 40 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSetSessionTabIdForEntitySession | 
@@ -279,30 +279,30 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | DisplayMessage | 
   | General | Data | text=An error occurred in the communication panel. Restart Unified Service Desk and try again. (Error Code - \[\[TEXT\]+\]) <br> caption=Error |
 
-## Omni-channel End Conversation
+## Omnichannel End Conversation
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel End Conversation  |
+  | General | Name       | Omnichannel End Conversation  |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelEndConversation | 
   | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-## Omni-channel Presence Status Update
+## Omnichannel Presence Status Update
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Presence Status Update  |
+  | General | Name       | Omnichannel Presence Status Update  |
   | General | Order | 240 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OCPresenceUpdate | 
   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] <= \[\[$Global.maxNumberOfSessions\]+\] |
 
-## Omni-channel Incoming Session Request
+## Omnichannel Incoming Session Request
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Incoming Session Request  |
+  | General | Name       | Omnichannel Incoming Session Request  |
   | General | Order | 17 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelIncomingSessionRequest |
@@ -323,15 +323,15 @@ This topic demonstrates how to create communication panel-related action calls i
   |------------------|------------------|------------------|
   | General | Name       | Load Agent Home Page  |
   | General | Order | 1 |
-  | General | Hosted Control | Omni-channel Agent Dashboard |
+  | General | Hosted Control | Omnichannel Agent Dashboard |
   | General | Action     | Navigate | 
   | General | Data | url=/main.aspx?pagetype=dashboard&id=e8fb53c5-2f79-e811-8162-000d3aa3ef73&_canOverride=false <br> HideNavigationBar=True |
 
-## Omni-channel Communication Panel Loaded
+## Omnichannel Communication Panel Loaded
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Communication Panel Loaded  |
+  | General | Name       | Omnichannel Communication Panel Loaded  |
   | General | Order | 17 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelConversationControlReady |
@@ -346,72 +346,72 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | Navigate | 
   | General | Data | "url=/main.aspx?pagetype=dashboard&id=7a33c42b-02f9-e811-8161-000d3afe51f1&type=system <br> hideNavigationBar=true" | -->
 
-## Omni-channel Copy Contact Ids To Context
+## Omnichannel Copy Contact Ids To Context
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Copy Contact Ids To Context |
+  | General | Name       | Omnichannel Copy Contact Ids To Context |
   | General | Order | 2 |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | CopyToContext | 
   | General | Data | contactIds = \[\[contact\]+\] |
 
-## Omni-channel Fetch Context Contacts
+## Omnichannel Fetch Context Contacts
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Fetch Context Contacts |
+  | General | Name       | Omnichannel Fetch Context Contacts |
   | General | Order | 3 |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | DoSearch | 
   | General | Data | ContextContactSearch <br> global=True |
   | Advanced | Condition |  $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
-## Omni-channel Save Context Entities
+## Omnichannel Save Context Entities
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Save Context Entities |
+  | General | Name       | Omnichannel Save Context Entities |
   | General | Order | 4 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSaveContextEntities | 
   | General | Data | LiveWorkItemId = \[\[LiveWorkItemId\]+\] <br> SessionId = \[\[SessionId\]+\] <br> RequestType = \[\[RequestType\]+\] <br> LiveWorkStreamId = \[\[LiveWorkStreamId\]+\] <br> ChatId=\[\[ChatId\]+\] |
 
-## Omni-channel Clear Context Entities
+## Omnichannel Clear Context Entities
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Clear Context Entities |
+  | General | Name       | Omnichannel Clear Context Entities |
   | General | Order | 1 |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | ClearEntityList | 
   | General | Data | global=True |
 
-## Omni-channel Fetch Context Contacts
+## Omnichannel Fetch Context Contacts
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Fetch Context Contacts |
+  | General | Name       | Omnichannel Fetch Context Contacts |
   | General | Order | 3 |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | DoSearch | 
   | General | Data | ContextContactSearch <br> global=True |
   | Advanced | Condition | $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
 
-## Omni-channel Save Context Entities on Update
+## Omnichannel Save Context Entities on Update
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Save Context Entities on Update |
+  | General | Name       | Omnichannel Save Context Entities on Update |
   | General | Order | 4 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSaveUpdatedContextEntities |
   | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] |
 
-## Initialize Omni-channel Context - Window Variable - Customer Summary
+## Initialize Omnichannel Context - Window Variable - Customer Summary
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Initialize Omni-channel Context - Window Variable - Customer Summary |
+  | General | Name       | Initialize Omnichannel Context - Window Variable - Customer Summary |
   | General | Order | 5 |
   | General | Hosted Control | Customer Summary |
   | General | Action     | RunScript | 
@@ -427,42 +427,42 @@ This topic demonstrates how to create communication panel-related action calls i
   | General | Action     | RunScript | 
   | General | Data | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
 
-## Omni-channel Notify Communication Panel Error
+## Omnichannel Notify Communication Panel Error
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Notify Communication Panel Error |
+  | General | Name       | Omnichannel Notify Communication Panel Error |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelNotifyConversationControlError | 
   | General | Data | PostData=\[\[PostData\]+\] |
 
-## Omni-channel Proxy Response
+## Omnichannel Proxy Response
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Proxy Response |
+  | General | Name       | Omnichannel Proxy Response |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelProxyResponse | 
   | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-## Omni-channel Session Transfer Initiated
+## Omnichannel Session Transfer Initiated
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Session Transfer Initiated |
+  | General | Name       | Omnichannel Session Transfer Initiated |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelSessionTransferInitiated | 
   | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-## Focus on Omni-channel Agent Dashboard
+## Focus on Omnichannel Agent Dashboard
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Focus on Omni-channel Agent Dashboard |
+  | General | Name       | Focus on Omnichannel Agent Dashboard |
   | General | Order | 2 |
   | General | Hosted Control | CRM Global Manager |
   | General | Action     | ShowTab | 
-  | General | Data | Omni-channel Agent Dashboard |
+  | General | Data | Omnichannel Agent Dashboard |
 
 ## Update Old Presence Status In Settings
 
@@ -499,7 +499,7 @@ This topic demonstrates how to create communication panel-related action calls i
   |------------------|------------------|------------------|
   | General | Name       | Show Case Entity Notification |
   | General | Order | 10 |
-  | General | Hosted Control | Omni-channel Toast Notification |
+  | General | Hosted Control | Omnichannel Toast Notification |
   | General | Action     | Show | 
   | General | Data | formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_case_icon |
   | Advanced | Condition | '\[\[EntityLogicalName\]+\]' == 'incident' |
@@ -510,26 +510,26 @@ This topic demonstrates how to create communication panel-related action calls i
   |------------------|------------------|------------------|
   | General | Name       | Show Default Entity Notification |
   | General | Order | 10 |
-  | General | Hosted Control | Omni-channel Toast Notification |
+  | General | Hosted Control | Omnichannel Toast Notification |
   | General | Action     | Show | 
   | General | Data | formname=EntityNotification <br> top=85 <br> left=82 <br> timeout=60 <br> stack=true <br> stackHeight=56 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] <br> placementmode=absolute <br> NotificationIcon=new_omni_foonotification_default_icon |
   | Advanced | Condition | '\[\[EntityLogicalName\]+\]' != 'incident' |
 
-## Omni-channel Unread Message Action
+## Omnichannel Unread Message Action
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Unread Message Action |
+  | General | Name       | Omnichannel Unread Message Action |
   | General | Order | 10 |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelUnreadMessage | 
   | General | Data | ChatPayLoad=\[\[PostData\]\] |
 
-## Omni-channel Update Presence
+## Omnichannel Update Presence
 
   | Tab | Field | Value |
   |------------------|------------------|------------------|
-  | General | Name       | Omni-channel Update Presence |
+  | General | Name       | Omnichannel Update Presence |
   | General | Hosted Control | Communication Panel |
   | General | Action     | OmnichannelUpdatePresence | 
   | General | Data | ChatPayLoad=\[\[PostData\]+\] |

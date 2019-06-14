@@ -1,6 +1,6 @@
 ---
 title: "Introduction to the agent dashboard | MicrosoftDocs"
-description: "Learn about the omni-channel engagement hub for agent dashboard that displays the work items status in three views - My work items, Open work items, and Closed work items."
+description: "Learn about the Omnichannel for Customer Service for agent dashboard that displays the work items status in three views - My work items, Open work items, and Closed work items."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you first sign in to Unified Service Desk, you see the **Omni-channel Agent Dashboard** page of Omni-channel Engagement Hub. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
+When you first sign in to Unified Service Desk, you see the **Omnichannel Agent Dashboard** page of Omnichannel for Customer Service. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
 
-The **Home** button on the **Session** tab provides quick navigation to the **Omni-channel Agent Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
+The **Home** button on the **Session** tab provides quick navigation to the **Omnichannel Agent Dashboard** page. When you select this button, the dashboard appears on the **Application Management** tab.
 
-The **Omni-channel Agent Dashboard** page consists of the following stream:
+The **Omnichannel Agent Dashboard** page consists of the following stream:
 
  - My work items
 
@@ -31,7 +31,7 @@ The **Omni-channel Agent Dashboard** page consists of the following stream:
  - Closed work items
 
 > [!div class=mx-imgBorder]
-> ![omni-channel engagement hub agent interface](../../media/oc-usd-agent-interface.png "Omni-channel engagement hub agent interface")
+> ![Omnichannel for Customer Service agent interface](../../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
 
 ## My work items
 
@@ -50,4 +50,4 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 
 ## See also
 
-- [Introduction to the agent interface in Omni-channel Engagement Hub](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)

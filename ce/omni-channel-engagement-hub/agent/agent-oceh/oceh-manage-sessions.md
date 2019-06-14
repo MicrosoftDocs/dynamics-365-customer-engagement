@@ -1,6 +1,6 @@
 ---
-title: "Manage sessions in Omni-channel Engagement Hub app | MicrosoftDocs"
-description: "Learn how to manage sessions using the session panel in Omni-channel Engagement Hub app"
+title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
+description: "Learn how to manage sessions using the session panel in Omnichannel for Customer Service app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,7 +13,7 @@ ms.assetid: 56B33304-9A3C-4ECF-9C4B-5D838323C327
 ms.custom: 
 ---
 
-# Manage sessions in Omni-channel Engagement Hub
+# Manage sessions in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
 
 > [!div class=mx-imgBorder]
-> ![Session panel in the agent interface of Omni-channel Engagement Hub app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omni-channel Engagement Hub app")
+> ![Session panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
 When a session is started, the following happens:
 
@@ -44,7 +44,7 @@ When you start a session, the presence status is updated as per the configuratio
 Use a combination of keyboard and mouse-click gesture to start a session. You can press **Shift** and select on a link to open as a session. You can't use the gesture to open any other link apart from Customer Engagement session enabled records.
 
 > [!Tip]
-> Alternatively, from the Omni-channel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
+> Alternatively, from the Omnichannel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
 >
 > ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") ![Pick to start session in Open work items](../../media/oceh/oc-pick-work-item-open-work-items.png "Pick to start session in Open work items")
 

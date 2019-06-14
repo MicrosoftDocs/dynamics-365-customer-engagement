@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omni-channel Engagement Hub application. Follow these steps to create an agent configuration and a supervisor configuration.
+A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omnichannel for Customer Service application. Follow these steps to create an agent configuration and a supervisor configuration.
 
 1.  Sign in to Dynamics 365.
 
@@ -28,16 +28,16 @@ A configuration in Unified Service Desk helps you filter access to components th
 
 4.  Click **New**.
 
-5.  On the **New Configuration** page, in the **Name** field, type **Omni-channel Agent Configuration** and then select **Save**.
+5.  On the **New Configuration** page, in the **Name** field, type **Omnichannel Agent Configuration** and then select **Save**.
 
-6.  Now, repeat the step 4 and 5 to create **Omni-channel Supervisor Configuration**.
+6.  Now, repeat the step 4 and 5 to create **Omnichannel Supervisor Configuration**.
 
-Omni-channel Supervisor Configuration
+Omnichannel Supervisor Configuration
 
  > [!div class=mx-imgBorder]
  > ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
 
-Omni-channel Supervisor Configuration
+Omnichannel Supervisor Configuration
 
  > [!div class=mx-imgBorder]
  > ![new supervisor configuration](../media/oc-usd-crm-supervisor-configuration.png "New supervisor configuration")  
@@ -47,7 +47,7 @@ Omni-channel Supervisor Configuration
 
 ## See also
 
-- [Omni-channel system customizers](omni-channel-engagement-hub-customizer.md)
+- [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [How to modify the section properties of the form](how-modify-section-properties-form-section.md)

@@ -1,6 +1,6 @@
 ---
-title: "Search for records in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn on how to Search for records in Omni-channel Engagement Hub and link the record to a conversation."
+title: "Search for records in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn on how to Search for records in Omnichannel for Customer Service and link the record to a conversation."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,19 +13,19 @@ ms.assetid: 9DE991EA-5B54-4D31-89EE-9CE05E73AF3C
 ms.custom: 
 ---
 
-# Search for records in Omni-channel Engagement Hub
+# Search for records in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-The topic explains how to Search for records in Omni-channel Engagement Hub.
+The topic explains how to Search for records in Omnichannel for Customer Service.
 
 You can search for the records in two ways.
 
 ## Search for records using the inline search option
 
-You accept an incoming conversation request and there is no customer record identified in the Omni-channel Engagement Hub. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
+You accept an incoming conversation request and there is no customer record identified in the Omnichannel for Customer Service. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
 
 The inline search is based on the Lookup View and Quick Find View. You can search the fields (attributes) that is based on the Lookup View and Quick View Field.
 
@@ -95,11 +95,11 @@ To learn on how to link a record, see [Link a record to the conversation](link-u
 
 ## Search for records using the search option
 
-You can search for omni-channel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
+You can search for Omnichannel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
 
-![omni-channel search lists](../../media/agent-search-lists.png "omni-channel search lists")
+![Omnichannel search lists](../../media/agent-search-lists.png "Omnichannel search lists")
 
-1. Select the search icon ![omni-channel search icon](../../media/agent-search-icon.png "omni-channel search icon"), and select **Omni-channel Search**.
+1. Select the search icon ![Omnichannel search icon](../../media/agent-search-icon.png "Omnichannel search icon"), and select **Omnichannel Search**.
 
 2. Specify any of the following values as per your search requirements:
 
@@ -124,6 +124,6 @@ You can search for omni-channel records by using the search functionality. When 
 ## See also
 
 - [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 - [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
 - [Create a record](create-record.md)

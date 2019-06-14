@@ -1,6 +1,6 @@
 ---
-title: "Create a record in Omni-channel Engagement Hub | MicrosoftDocs"
-description: "Learn how to create a record when using Omni-channel Engagement Hub in Omni-channel Engagement Hub app."
+title: "Create a record in Omnichannel for Customer Service | MicrosoftDocs"
+description: "Learn how to create a record in Omnichannel for Customer Service app."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When no records are linked to the conversation in the Omni-channel Engagement Hub, you can create a record using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation.
+When no records are linked to the conversation in the Omnichannel for Customer Service, you can create a record using the quick create (**+**) option. After you create the record, it is automatically linked to the conversation.
 
 1.  Select the **+** icon to create a new record.
 
