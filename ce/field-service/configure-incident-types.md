@@ -2,7 +2,7 @@
 title: "Configure incident types (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 06/14/2019
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -25,7 +25,7 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Configure incident types for work orders (Field Service)
+# Create work order templates with incident types
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -63,3 +63,26 @@ Incident types act as service templates and allow users to quickly create work o
  [Set priorities](../field-service/set-priorities.md)   
  [Set up time groups](../field-service/set-up-time-groups.md)   
  [Set up service task types](../field-service/set-up-service-task-types.md)
+
+## Introduction
+
+uses
+business use case
+
+work order types vs incident types
+
+ ## Prerequisites
+
+ ## Create an incident type
+
+ ## add an incident type to a work order
+
+ ## add multiple incident types to a work order
+
+ ## Use customer assets with incident types
+
+ ## Incidents for multi-resource scheduling
+
+
+
+
