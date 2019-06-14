@@ -23,7 +23,7 @@ When no records are linked to the conversation in Omnichannel for Customer Servi
 
 - [Create a new record from the Customer Summary page](oceh-create-record.md#create-a-new-record-from-the-customer-summary-page)
 - [Create a new record using the quick create option](oceh-create-record.md#create-a-new-record-using-the-quick-create-option)
-- [Create a new record using the + New option](oceh-create-record.md#create-a-new-record-using-the-+-new-option)
+- [Create a new record using the + New option](oceh-create-record.md#create-a-new-record-using-the-new-option)
 
 ## Create a new record from the Customer Summary page
 
@@ -86,7 +86,7 @@ To create a new record, follow the steps:
 
 After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oceh-search-link-unlink-record.md#search-for-records-using-inline-search-option)
 
-## Create a new record using the + New option
+## Create a new record using the new option
 
 In the Customer Summary page, when you are trying to search a record in customer or case section, after you type few characters to search, you can use the inline **+ New** button to create a record. After you select the button, the quick create pane of the entity appears.
 
