@@ -71,6 +71,8 @@ business use case
 
 work order types vs incident types
 
+value
+
  ## Prerequisites
 
  ## Create an incident type
