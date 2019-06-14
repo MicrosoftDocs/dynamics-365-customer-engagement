@@ -35,7 +35,7 @@ For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_sho
 
 ## What does this notification mean, Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 data?
 
-When you use Dynamics 365 App for Outlook, you might see this notification, *Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 data*.
+When you use Dynamics 365 App for Outlook, you might see this notification, **Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 data**.
 
 > [!div class="mx-imgBorder"] 
 > ![Outlook app notification](media/serversidesync.png "Outlook app notification")
