@@ -156,27 +156,25 @@ Let's see how Contoso accomplishes the task:
 
 The set up experience is different based on the following scenarios:
 
-- For a new Dynamics 365 for Customer Engagement organization, by default, the **Core Service Scheduling** solutions will be installed in your organization. 
+- For a new Dynamics 365 for Customer Engagement organization, by default, the **Core Service Scheduling** solutions will be installed in your organization. You can access scheduling from Customer service hub app site map. To learn more, see [Access scheduling in the Customer Service Hub](#access-scheduling-in-the-customer-service-hub).
 
-- If your existing Dynamics 365 for Customer Engagement organization doesn't have scheduling, then you must install the service scheduling solutions to access it in the Customer service Hub app site map. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions)
-
-- If your existing Dynamics 365 for Customer Engagement organization has legacy scheduling and want to upgrade to the new experience, then you must install the service scheduling solutions to access it in the Customer service Hub app site map. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions)
+- For existing Dynamics 365 for Customer Engagement organization, you must install the service scheduling solutions from the Microsoft 365 admin center. To learn more, see [Install the Scheduling solutions](#install-the-scheduling-solutions).
 
 > [!IMPORTANT]
-> Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true. It is recommended that to effectively manage your bookings, you should migrate your data to the new experience using the migration tool.
+> Once you have the new service scheduling available in your org, the legacy scheduling experience in Customer Service app (based on web application) and the new scheduling experience (built atop URS) in Customer Service Hub co-exist. However, the following limitations apply: </br> - Bookings data and configurations in these experiences do not sync with each other. For example, a service created in legacy experience can be scheduled in legacy scheduling experience only while a service created in the new experience can be scheduled in URS based scheduling experience only.  </br> - You can edit bookings data and configurations in the experience it is originally created in. </br> </br> Bookings created in the legacy experience don’t reflect in the new experience and vice versa is also true.
 
 ### Prerequisites
 
 - Make sure that you have the required security role or equivalent permissions. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-- For the new scheduling experience, ensure your organization has Universal Resource Scheduling 3.2.0.405 or a higher version. If your organization has a version lesser than 3.2.0.405, then Universal Resource Scheduling will not be upgraded. To check the Unified Resource Scheduling version on your instance, go to **Settings** > **Solutions**.
+- For the new scheduling experience, ensure your organization has Universal Resource Scheduling 3.2.0.405 or a higher version. If your organization has a version lesser than 3.2.0.405, then Universal Resource Scheduling installation fails. To check the Unified Resource Scheduling version on your instance, go to **Settings** > **Solutions**.
 
    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
    > [!NOTE]
    > - For the new scheduling experience, if your organization doesn't have Universal Resource Scheduling, the **Core Service Scheduling** solution installs the latest version of Universal Resource Scheduling.
    >
-   > - If Field Service or Project Service is already installed on your org with an older version of Universal Resource Scheduling, then Universal Resource Scheduling will also be upgraded to the latest version.
+   > - If Field Service or Project Service is already installed on your org with Universal Resource Scheduling 3.2.0.405 or a higher version, then Universal Resource Scheduling will also be upgraded to the latest version. Otherwise, the installation fails.
    >
    > - The latest version of Universal Resource Scheduling might not be compatible with the older versions of Field Service or Project Service.
 
