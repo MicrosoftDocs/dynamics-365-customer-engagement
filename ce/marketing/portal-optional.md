@@ -123,7 +123,7 @@ To add a portal to an existing Marketing installation that doesn't have one:
 
 ### See also
 
-[Run the setup wizard](purchase-setup.md)  
+[Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)  
 [Create interactive features with or without portals](portals.md)  
 [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal)  
 [Integrate with landing pages published on an external website](embed-forms.md)  
