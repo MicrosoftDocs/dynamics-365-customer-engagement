@@ -10,6 +10,7 @@
 #### [Decide whether to install Marketing with or without a portal](portal-optional.md)
 #### [Purchase a production version of Marketing](purchase-marketing.md)
 #### [Run the setup wizard](purchase-setup.md)
+#### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
