@@ -9,7 +9,8 @@
 
 ## [What's new](omni-channel-whats-new.md)
 
-## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
+## Administrator guide
+### [Overview](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
@@ -156,7 +157,8 @@
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
-## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
+## Developer guide
+### [Overview](developer/omni-channel-engagement-hub-developer.md)
 ### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 ### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 ### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
