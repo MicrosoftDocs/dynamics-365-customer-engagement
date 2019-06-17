@@ -15,6 +15,31 @@ ms.custom:
 
 # What's new in Omnichannel for Customer Service
 
+##  What's new in July 2019 General Availability
+
+### Agent experience
+
+- **Create and auto-link record to the conversation:** You can create a new create a new record in the Customer Summary page on the customer and case form. When you select the **+ New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
+
+    > [!div class=mx-imgBorder]
+    > ![Create account, contact, and case](media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
+
+    More information: [](agent/agent-oceh/oceh-create-record.md#create-a-new-record-from-the-customer-summary-page)
+
+- **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used switch the timeline based on the Case, Contact, or Account record linked to the conversation.
+
+    > [!div class='mx-imgBorder']
+    > ![View only the linked records in the drop-down](media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
+
+    More information: [Timeline](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md#timeline)
+
+- **Monitor real-time customer satisfaction in customer sessions:** As an agent, when you interact with your customers, you want to know their satisfaction levels in real time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+
+    > [!div class=mx-imgBorder]
+    > ![Very positive sentiment](media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
+
+    More information: [Monitor real-time customer satisfaction levels](agent/agent-oceh/oceh-monitor-real-time-customer-sentiment-sessions.md)
+
 ##  What's new in April 2019 update
 
 This topic contains information about updates in Omnichannel for Customer Service available in this version.

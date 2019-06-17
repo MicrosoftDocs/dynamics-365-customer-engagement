@@ -33,7 +33,7 @@ search.app:
 
 There are two basic methods for integrating an external form page with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:
 
-- *Embed* a Dynamics 365 for marketing from on an external page
+- *Embed* a Dynamics 365 for marketing form on an external page
 - Use *form capture* to integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with a form created externally
 
 The third way of publishing a marketing page is to place a [native marketing form](marketing-forms.md) on a [native marketing page](create-deploy-marketing-pages.md) created and published by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal.
@@ -57,7 +57,9 @@ The following table summarizes the capabilities available with each of these app
 | Requires form-capture script | No | Yes | No |
 | Website-tracking script | Automatic | Recommended | Automatic |
 
-## Embed a Dynamics 365 for Marketing from on an external page
+<a name="embed-form"></a>
+
+## Embed a Dynamics 365 for marketing form on an external page
 
 An embedded form is a marketing form that you design using the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] form designer, and which you then embed on an external page using JavaScript code generated for you.
 

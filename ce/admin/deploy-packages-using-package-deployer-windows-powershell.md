@@ -1,7 +1,7 @@
 ---
 title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 06/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -106,7 +106,7 @@ search.app:
  The following example instructs [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] to  bypass some safety checks and sets the language to import as Polish.  
   
 ```  
-packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045  
+packagedeployer.exe /Settings:"SkipChecks=true|lcid=1045"
 ```  
   
 > [!NOTE]

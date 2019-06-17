@@ -1,35 +1,40 @@
 ---
 title: "Configure a bot | MicrosoftDocs"
-description: "Instructions to configure a bot in Omni-channel Engagement Hub."
+description: "Instructions to configure a bot in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/03/2019
+ms.date: 06/13/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
 ms.custom: 
 ---
 
-# Integrate a bot
+# Preview: Integrate a bot
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
+> [!IMPORTANT]
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
+> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
+
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help in resolving customer queries by using case deflection. A bot can also collect basic information from a customer and then provided it to a customer service agent to work further on the issue raised by the customer.  
 
 A bot eases the load on your customer service agents by handling basic queries. This saves some of your agent's time and they can work on more complex issues. You can configure your bots to escalate the query to a human agent as and when required by the customer.
 
-In Omni-channel Engagement Hub, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required. Let's now see how to integrate a bot with Omni-channel Engagement Hub.
+In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required. Let's now see how to integrate a bot with Omnichannel for Customer Service.
 
-## Integrate a bot with Omni-channel Engagement Hub
+## Integrate a bot with Omnichannel for Customer Service 
 
 **Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
 
-To integrate a bot with Omni-channel Engagement Hub, you must:
+To integrate a bot with Omnichannel for Customer Service, you must:
 
 1.	[Create a bot user](#step-1-create-a-bot-user)
 2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues)
@@ -38,7 +43,7 @@ To integrate a bot with Omni-channel Engagement Hub, you must:
 
 ### Step 1: Create a bot user
 
-A bot user is created as an application user and assigned with the **Omni-channel agent** role. Creating an application user is supported in the Web Client only. To create a bot user, you must:
+A bot user is created as an application user and assigned with the **Omnichannel agent** role. Creating an application user is supported in the Web Client only. To create a bot user, you must:
 
 1.	Get the Microsoft App ID of the bot.
 2.	Create an application user and add bot specific information to the application user.
@@ -74,7 +79,7 @@ To create a bot user:
 
 4.	Select **Manage Roles** on the command bar.
 
-5.	In the **Manage User Roles** window, select **Omni-channel agent**, and then select **OK**.
+5.	In the **Manage User Roles** window, select **Omnichannel agent**, and then select **OK**.
 
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user doesn't reduce when a query is handled by it.
@@ -84,7 +89,7 @@ To create a bot user:
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in queue. This ensures that the bot user receives the customer query first. 
 
 > [!NOTE]
-> The bot works with the chat widget, work stream, and queues created in Omni-channel Engagement Hub.
+> The bot works with the chat widget, work stream, and queues created in Omnichannel for Customer Service.
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first. Alternatively, you can also create a queue with the bot user only. If you create a queue with the bot user only, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first line of defense for all queries.
 
@@ -94,7 +99,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
 
-If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md).
+If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omni-channel.md).
 
 > [!NOTE]
 > If you've only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
@@ -139,12 +144,12 @@ When a chat is initiated by a customer, the query is routed to the bot through t
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization’s compliance boundary (even if your organization is in a Government Cloud environment). For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
+You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement).
 
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Work with queues in Omni-channel Engagement Hub](queues-omni-channel.md)<br>
+[Work with queues in Omnichannel for Customer Service](queues-omni-channel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)
