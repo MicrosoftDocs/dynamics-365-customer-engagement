@@ -36,6 +36,8 @@ You must ensure the following conditions are met to onboard a bot to Omnichannel
 -	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
 -	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
+<a name="bkmk_EngageBot"></a>
+
 ## Engage a bot
 
 In order to send messages to Omni-channel Engagement Hub, you need to add the following code statement to the bot code.
@@ -194,7 +196,7 @@ namespace EchoBot.OmniChannel
 
 3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below.
 
-Change the `escalate` and `endconversation` command criteria to something that suits your requirements.
+Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omni-channel Engagement Hub. More information: [Engage a bot](#bkmk_EngageBot).
 
 ```csharp
 using System;
