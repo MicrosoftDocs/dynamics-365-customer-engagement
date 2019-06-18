@@ -26,7 +26,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-blurb about unmanaged and managed solutions and solution export purpose
+Exporting a solution will allow you to transport your configuration changes from one environment to another or to store your configuration into your source control system.  Exporting a solution will export the published unmanaged changes for each component associated to the solution.  You can only export an unmanaged solution.  
 
  # Export solutions  
  We recommend that you export your unmanaged customizations periodically so that you have a backup in case anything happens. You cannot export managed solutions.  
@@ -37,17 +37,15 @@ blurb about unmanaged and managed solutions and solution export purpose
 
 3. In the **Publish Customizations** step you will be reminded that only published customizations are exported and you will have the option to **Publish All Customizations** before you choose **Next**.  
 
-4. If your solution contains any missing required components you will see the **Missing Required Components** step. You can disregard this warning only if you intend to import this as an unmanaged solution back into the original organization. Otherwise, follow the instructions in the dialog to cancel the export and add the required components.  
+4. If your solution contains any missing required components you will see the **Missing Required Components** step. You can disregard this warning only if you intend to import this as an unmanaged solution back into the original organization, or if all of the missing components are in other managed solutions that will be present in your destination organization. Otherwise, follow the instructions in the dialog to cancel the export and add the required components.  
 
 5. In the **Export System Settings (Advanced)** step you can choose certain system settings to include in your solution. If your solution depends on any of the groups of system settings, select them and choose **Next**.  
 
     See **Settings options for solution export** below for details about the settings that will be included with each option.  
 
-6. In the **Package Type** step, you must choose whether to export the solution as an **Unmanaged** or **Managed** solution.  
+6. In the **Package Type** step, you must choose whether to export the solution as an **Unmanaged** or **Managed** solution. Unmanaged solutions are intended to be used to transport configuration from one development environment to another or to check into your source control system.  Managed solutions are intented to be used to transport configuration to all other environments including test and production environments. 
 
-7. The next step allows you to choose a target solution for a specific Dynamics 365 for Customer Engagement apps version. This option is typically used by ISVs who may want to export a solution that is compliant with a previous version. Unless you intend to import this solution into an organization that is not upgraded to the same version as the organization version you are using, accept the default.   
-
-8. Choose **Export** to download the solution file.  
+7. Choose **Export** to download the solution file.  
 
    The exact behavior for downloading files varies between browsers.  
 
