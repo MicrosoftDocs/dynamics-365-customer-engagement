@@ -74,7 +74,7 @@ There are times when you may wish to install an update to an existing managed so
    - **Update (not recommended)**
         This option replaces your solution with this version.  Components that are not in the newer solution will not be deleted and will remain in the system.  This option is not recommended as your destination environment will differ in configuration from your source environment and could cause issues that are difficult to reproduce and diagnose.
         
-7. You will have the following options customization options:
+7. You will have the following customization options:
 
    - **Maintain customizations (recommended)**  
 
