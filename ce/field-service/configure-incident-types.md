@@ -97,7 +97,7 @@ Other important features of incident types are (1) multiple incident types can b
  > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-incident-types-navigation.png)
 
-The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. As an example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, you simply create this service task once and associate it to the relevant incident types. This means there is one list of unique service tasks that are added to incident types creating **incident type service task** records.
+The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. As an example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, you simply create this service task once and associate it to the relevant incident types. This means there is one list of unique service tasks that are added to incident types and this creates **incident type service task** records.
 
  ## Create an incident type
 
