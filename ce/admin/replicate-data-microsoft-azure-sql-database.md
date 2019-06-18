@@ -571,9 +571,13 @@ PRINT 'Finished dropping the entity. Starting to drop the types associated with 
 SELECT @sql='';
 SELECT @sql += 'DROP TYPE ' + QUOTENAME(SCHEMA_NAME([SCHEMA_ID])) + '.' + QUOTENAME([NAME]) + ';'
 FROM SYS.TYPES
-WHERE is_user_defined = 1 AND [NAME] LIKE @prefix + @entityName +'Type' 
-OR [NAME] LIKE @prefix + @entityName +'IdType'
-AND [SCHEMA_ID]=SCHEMA_ID(@schema);
+WHERE
+  is_user_defined = 1
+  AND (
+    [NAME] LIKE @prefix + @entityName +'Type' 
+    OR [NAME] LIKE @prefix + @entityName +'IdType'
+  )
+  AND [SCHEMA_ID] = SCHEMA_ID(@schema);
 PRINT @sql
 EXEC SP_EXECUTESQL @sql;
 ```

@@ -127,7 +127,7 @@ To add the JavaScript code, you need to follow the steps below:
 
 1. Sample validation - checks if the textbox is either Fabricam or Contoso, otherwise prevents the form submission.
 
-```JavaScript
+```JS
     MsCrmMkt.MsCrmFormLoader.onformsubmit = function(formPageId, formEvent) {
   // sample validation - check if 
   document.getElementById('txt-company-name-message').style.visibility = 'hidden';
@@ -140,7 +140,7 @@ To add the JavaScript code, you need to follow the steps below:
    ```
 2. Filling the incoming query string parameters to hidden fields.
 
-```JavaScript
+```JS
 MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId) 
 {
   var self = window.location.toString();
@@ -177,7 +177,7 @@ MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId)
 
 ## How to implement spinner sample
 
-1. Navigate to **Marketing Pages** and open your marketing page in which you have placed your marketing form, switch to **HTML** tab, add the following block in the <style> tag.
+1. Navigate to **Marketing Pages** and open your marketing page in which you have placed your marketing form, switch to **HTML** tab, add the following block in the **style** tag.
 
 ```css
 #loaderSpinner {
@@ -202,19 +202,10 @@ MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId)
 ```
 
 3. After the start of the <body> tag, add the following code:
+  
   ```HTML
     <script>
-    (function() {
-      MsCrmMkt.MsCrmFormLoader.afterformrender = function() {
-        document.getElementById("loaderSpinner").style.display = "none";
-      };
-    })();
-    </script>   
-So the final html looks like
-<body>
-    <script>
- 
-    (function() {
+     (function() {
       MsCrmMkt.MsCrmFormLoader.afterformrender = function() {
         document.getElementById("loaderSpinner").style.display = "none";
       };

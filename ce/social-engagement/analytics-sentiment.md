@@ -2,7 +2,7 @@
 title: "Analytics for sentiment in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on sentiment and tonality in Social Engagement."
 keywords: sentiment, natural language processing, tonality, analytics, sentiment analysis
-ms.date: 12/14/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: eafeef08-d2ea-470a-a538-9010b19bb7dd
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,8 @@ search.app:
 ---
 
 # Understand public perception using sentiment analysis
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 View and understand social sentiment in posts that are found by your search topics. Sentiment analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] calculates the sentiment value of social posts using natural-language processing and machine learning techniques. 
 

@@ -36,4 +36,4 @@ UII action is a concept inherited from [!INCLUDE[pn_user_interface_integration](
  [Add a UII action to a hosted control](../unified-service-desk/add-uii-action-hosted-control.md)   
  [Action calls](../unified-service-desk/action-calls.md)   
  [Create an action call for a UII action](../unified-service-desk/create-action-call-uii-action.md)   
- [Core concepts for configuring Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+ [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)

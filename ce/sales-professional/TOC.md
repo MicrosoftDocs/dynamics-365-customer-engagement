@@ -9,7 +9,8 @@
 ### [Manager your customers](manage-accounts-contacts.md)
 ### [Manage tasks, appointments, email, or phone calls](manage-activities.md)
 
-## [User guide](user-guide.md)
+## User guide
+### [Resources for sales people](user-guide.md)
 ### [Develop sales from lead to cash](develop-sales-lead-to-cash-sales-professional.md)
 #### [Manage leads](manage-leads-sales-professional.md)
 #### [Manage opportunities](manage-opportunities-sales-professional.md)
@@ -24,26 +25,30 @@
 #### [Gain insights with dashboards](gain-insights-dashboards-sales-professional.md)
 #### [Assign records](assign-records-sales-professional.md)
 #### [Use document templates](use-document-templates-sales-professional.md)
+#### [Create a quote PDF](create-quote-pdf-sales-professional.md)
 
-## [Administrator and Sales Manager guide](admin-guide.md)
+## Administrator and sales manager guide
+### [Resources for administrators and sales managers](admin-guide.md)
 ### [Provision your Dynamics 365 for Sales Professional environment](provision-sales-professional-instance.md)
-### [Standard settings](admin-settings-overview.md)
+### [Overview of admin settings](admin-settings-overview.md)
+### Standard settings
 #### [Connect with SharePoint](connect-with-sharepoint.md)
 #### [Import data](import-data.md)
 #### [Install sample data](install-sample-data.md)
 #### [Manage users](manage-users.md)
 #### [Set up email](configure-email.md)
 
-### [Advanced settings](admin-settings-overview.md)
+### Advanced settings
 #### [Set up branding and themeing](change-color-scheme-logo.md)
 #### [Manage teams](manage-teams.md)
 #### [Manage Excel templates](manage-excel-templates.md)
 #### [Manage Word templates](manage-word-templates.md)
 #### [Automatic generation of quotes or invoices](enable-automatic-generation-quotes-invoices.md)
 #### [Export data](export-data.md)
+#### [Enable PDF generation from quotes](enable-pdf-generation-quote-sales-professional.md)
 
-### Customize the app
-#### [Customize forms](customize-forms.md)
-#### [Customize views](customize-views.md)
-#### [Customize business process flows](customize-business-process-flows.md)
-#### [Customize the Dynamics 365 for Sales Professional app](manage-app.md)
+## Customizer guide
+### [Customize forms](customize-forms.md)
+### [Customize views](customize-views.md)
+### [Customize business process flows](customize-business-process-flows.md)
+### [Customize the Dynamics 365 for Sales Professional app](manage-app.md)

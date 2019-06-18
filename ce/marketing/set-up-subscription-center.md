@@ -2,7 +2,7 @@
 title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: tutorial; subscription center; static list; subscription list; marketing page; page
-ms.date: 04/01/2018
+ms.date: 05/24/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -99,7 +99,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 1. On the command bar, select **Save** to save your new list.
 
-1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **Yes**.
+1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **True**.
 
 1. Select **Save** on the command bar to save your new list as a subscription list.
 
@@ -107,9 +107,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 Now that you have a subscription list available, you can add it to a subscription form. The procedure is nearly the same as when you add other types of input fields to a form.
 
-1. If you are still in the **Surveys** app, use the app selector to go back to the **Marketing** app.
-
-1. In the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.
+1. Go to **Marketing** &gt; **Internet Marketing** &gt; **Marketing Forms**.
 
 1. You now see a list of forms. On the command bar, select **New** to create a new one.
 

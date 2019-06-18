@@ -9,6 +9,7 @@
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
+## [Work order process architecture](field-service-architecture.md)
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
@@ -47,6 +48,7 @@
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 
 ## Administration and configuration
+### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
@@ -54,6 +56,7 @@
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
+### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
@@ -68,6 +71,7 @@
 
 
 # Field Service Mobile
+## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)

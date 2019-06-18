@@ -45,15 +45,15 @@ manager: shujoshi
 
 ## Remarks
 
-When you set searchOnly as true, the contact is only searched to the get results as a promise object, and the contact isn't opened. Set searchOnly as true when the search displays a list of records based on the search context.
+When you set `searchOnly` as `true`, the contact entity records are searched to the get results as a promise object, and the record is not opened. Set `searchOnly` as `true` when the search displays a list of records based on the search context.
 
-When you set searchOnly as false, the contact is searched and opened. Set the searchOnly as false when you want the search to display a single record based on the search context. Set false to open search page if the search result has multiple records and auto populate the search page with the tag value mentioned when search field is used in queryParmeters.
+When you set `searchOnly` as `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` as `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open search page if the search result has multiple records and pre-populate the search page with the tag value mentioned when search field is used in queryParmeters.
 
 ## Examples
 
 ### Example 1: Search and open the contact record
 
-This sample code searches the name and telephone number of a contact and opens the contact record.
+This sample code searches the name and phone number of a contact record. It opens an empty search results page.
 
 ```JavaScript
 
@@ -73,13 +73,16 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
 
 ### Example 2: Search and display on the list of contact records
 
-This sample code searches the name and phone number of a contact and opens the contact record.
+This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search` we can make sure that the search results page is pre-populated with the search term **Contoso**.
+
+> [!NOTE]
+> If you are using `$search` in the query and the `searchOnly` parameter is set to `false`, it will always open the search results page and not the retrieved record. If you want to open the retrieved record, do not use `$search` parameter in the query.
 
 ```JavaScript
 
-// retrieve contact record
-// query = true, searches but do not open the record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", true ).then(
+// Retrieve Contact entity record
+// Change searchonly parameter to true, if you do not want to open the search results page
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false ).then(
     function success(result) {
     res=JSON.parse(result);
         console.log(`The caller name is: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);

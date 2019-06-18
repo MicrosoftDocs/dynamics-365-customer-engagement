@@ -2,7 +2,7 @@
 title: "Move data between instances (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 for Marketing"
 keywords: 
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -85,7 +85,7 @@ The Configuration Migration tool requires a database schema that matches your ve
 
 To download the schema package and find the right schema for your version:
 
-1. Download the latest schema package from here: *&lt;Download link coming soon...&gt;* <!--URL NEEDED! -->
+1. Download the [latest schema package](https://go.microsoft.com/fwlink/p/?linkid=2093194).
 1. Unpack the zip file you downloaded.
 1. Open the folder where you unpacked the zip file. Here you should see a collection of zip files, each named with a version number. Identify the file that matches your version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] <!--Add info about how to identify the right schema. Folder name? File name? How to we show this? -->
 

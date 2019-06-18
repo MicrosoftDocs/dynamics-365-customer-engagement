@@ -26,7 +26,8 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Configure your agent application using Unified Service Desk
+# Overview of configuring agent application
+
 This section provides information about how you can use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to quickly configure a highly customized agent application for your organization without using code.  
   
  Before you start configuring your agent application using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you must install and deploy it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install, upgrade, and deploy Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)  

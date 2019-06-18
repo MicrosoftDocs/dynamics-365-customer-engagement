@@ -2,7 +2,7 @@
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
 keywords: email; marketing email; dynamic content; content settings
-ms.date: 05/09/2019
+ms.date: 06/07/2019
 ms.service:
   - dynamics-365-marketing
 ms.custom: 
@@ -107,7 +107,7 @@ To use assist-edit:
 1. At the bottom of the dialog, you now see the [final expression](#assist-edit-expressions). Select **OK** to place that expression.
 
 > [!IMPORTANT]
-> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 <a name="assist-edit-relations"></a>
 
@@ -130,14 +130,6 @@ Where:
 
 > [!NOTE]
 > For N:N relations, no field value is shown. That means that if you have more than one N:N relation between the same two entities, you'll see multiple identical-looking relations in the drop-down list. This situation is very rare, but if you see it, you'll have to use trial-and-error to identify the correct relation to use. To confirm, you can check the [resulting expression](#assist-edit-expressions) to see if it looks like you chose the right relation (relations are shown differently here and may provide a clue), or set up a test message that includes both versions of the N:N relation and use a test customer journey to deliver it to yourself.
-
-> [!NOTE]
-> On some Dynamics 365 for Marketing instances, you may see a slightly longer format being used to represent relations in assist-edit. This format repeats one of the entities, such as the following:
-> 
-> **N:1:** *FieldName SecondaryEntity (PrimaryEntity) -> SecondaryEntity*  
-> **1:N:** *PrimaryEntity -> FieldName PrimaryEntity (SecondaryEntity)*
->  
-> If you see this, it's because your instance is still using a previous version of one of the marketing services. Your instance should be updated automatically some time during the next few months. Other than this repeated entity name shown in assist-edit, the relations will work the same as described previously, and the [resulting expressions](#assist-edit-expressions) will be identical.
 
 Here are a few examples:
 
@@ -369,6 +361,9 @@ For example, your database could include a list of products that a contact has o
 
 In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the marketing insights service (as usual).
 
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
+
 <a name="enter-code"></a>
 
 ## How to enter advanced dynamic content in the designer
@@ -382,7 +377,7 @@ You must be careful when entering advanced dynamic code in the designer because 
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
 - The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing insights service. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
-- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 
