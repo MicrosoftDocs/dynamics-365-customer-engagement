@@ -800,4 +800,4 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
 ## See also  
  [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
- [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+ [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)

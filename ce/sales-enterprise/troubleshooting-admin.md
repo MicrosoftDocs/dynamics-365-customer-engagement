@@ -105,9 +105,9 @@ The user trying to close the opportunity doesn’t have sufficient permissions o
 
 While working on entities (such as opportunities, quote, order, invoice, quote product, and order product), you observe unexpected behavior or an error in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The following are some of the errors that you might encounter while working on opportunities and this might be same for other entities:
 
-- "Not able to open opportunity" - this error might have occured due to Custom Plugin.
-- "Error while saving the opportunity" - this error might have occured due to Custom JavaScript.
-- "Error while close opportunity" - this error might have occured due to Custom Workflow.
+- "Extended Amount is wrong after revising quote"- this error might have occurred due to Custom Plugin.
+- "Error while saving the opportunity" - this error might have occurred due to Custom JavaScript.
+- "Error while close opportunity" - this error might have occurred due to Custom Workflow.
 
 These issues might occur due to improper customization of the application. You must verify these customization and resolve them. Perform the following verification methods to identify which customization is causing the issue and then resolve:
 
@@ -126,14 +126,23 @@ These issues might occur due to improper customization of the application. You m
     > [!div class="mx-imgBorder"]
     > ![Go to custom plug-in list](media/troubleshooting-goto-custom-plugin-list.png "Go to custom plug-in list")
 
-4. Choose all the plug-ins that are in an **Unmanaged** state. In this example, we have selected **ActivityFeeds.Plugins** with **Create** and **Update** SDK message types.
+4. Select the **SDK Message Processing Steps** that are coming from the solutions owned by you. 
+
+    > [!NOTE]
+    > To view your custom SDK Message Processing Steps:<br>
+    > a. Go to **Settings** > **Solutions** and then open the solution. <br>
+    > b. Select **SDKMessage Processing Steps**. Verify the values are selected as:  **Component Type** to **SDK Message Processing Step** and **View** to **All**.
+
 5. Select **Deactivate**.
 6. Publish the customizations.
  
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged custom plug-ins](media/troubleshooting-deactivate-unmanaged-custom-plugin.png "Choose and deactivate unmanaged custom plug-ins")
 
-If the issue persists, try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
+7. Verify the issue and if it doesn't occur, then the issue is with the custom SDK Message Processing Steps. Resolve the issue.
+
+> [!NOTE]
+> If the issue occurs, activate the **SDK Message Processing Steps** that you deactivated now and try to [Disable custom JavaScript](#disable-custom-javascript) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Disable custom JavaScript
 
@@ -149,24 +158,37 @@ If the issue persists, try to [Disable custom JavaScript](#disable-custom-javasc
 
     The **Form Properties** dialog opens.
 
-3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list and choose the custom JavaScript file.  
+3. On the **Events** tab, select the control **OnLoad** from the **Events** drop-down list. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
+   > [!div class="mx-imgBorder"]
+   > ![Event control selection](media/troubleshooting-javascript-form-properties-event-control-selection.png "Event control selection")
 
-4. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
+4. Choose the custom **JavaScript** files that are coming from the solution owned by you.
+
+   > [!NOTE]
+   > To view your custom JavaScript: <br>
+   > a. Go to **Settings** > **Solutions** and then open the solution. <br>
+   > b. Select **WebResources**. Verify the values are selected as:  **Component Type** to **WebResources** and **View** to **All**.<br>
+   > c. Select **Filter** icon to enable filter options for columns. Select **Type** and set the filter as **Script (JScript)**.<br>
+   >> [!div class="mx-imgBorder"]
+   >> ![Select type filter as script](media/troubleshooting-javascript-view-javascript-filter.png "Select type filter as script")
+
+5. Select **Edit**. In this example, we have selected the custom JavaScript file **eg_opportunity** to edit.
    
     > [!div class="mx-imgBorder"]
     > ![Handler properties dialog](media/troubleshooting-javascript-handler-properties-dialog.png "Handler properties dialog") 
 
-5. Clear the **Enabled** option and select **OK**.
+6. Clear the **Enabled** option and select **OK**.
  
     > [!div class="mx-imgBorder"]
     > ![Clear enabled option](media/troubleshooting-javascript-handler-properties-uncheck-enabled.png "Clear enabled option") 
  
-6. Publish the customizations.
+7. Publish the customizations.
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
+8. Verify the issue and if it doesn't occur, then the issue is with the custom JavaScript. Resolve the issue.
+
+> [!NOTE]
+> If the issue occurs, enable the JavaScripts that you disabled now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Deactivate custom workflow process](#deactivate-custom-process).
 
 ### Deactivate custom process
 
@@ -178,14 +200,23 @@ If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plu
     > [!div class="mx-imgBorder"]
     > ![Go to custom process workflow list](media/troubleshooting-goto-custom-process-workflow-list.png "Go to custom process workflow list")
 
-4. Choose all process that are in the **Unmanaged** state. In this example, we have to select all the unmanaged process.
+4. Choose the processes that are coming from the solutions owned by you.
+
+    > [!NOTE]
+    > To view your custom Processes:<br>
+    > a. Go to **Settings** > **Solutions** and then open the solution.<br> 
+    > b. Select **Processes**. Verify the values are selected as:  **Component Type** to **Processes** and **View** to **All**.
+
 5. Select **Deactivate**.
 6. Publish the customizations.
  
     > [!div class="mx-imgBorder"]
     > ![Choose and deactivate unmanaged process workflows](media/troubleshooting-goto-deactivate-unmanaged-custom-process-workflow.png "Choose and deactivate unmanaged custom process workflows") 
 
-If the issue persists, try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
+7. Verify the issue and if it doesn't occur, then the issue is with the custom processes. Resolve the issue.
+
+> [!NOTE]
+> If the issue occurs, activate the **Processes** that you deactivated now and try to [Deactivate custom plug-in](#deactivate-custom-plug-in) or [Disable custom JavaScript](#disable-custom-javascript).
 
 ## Unable to see data in certain columns in entity views
 

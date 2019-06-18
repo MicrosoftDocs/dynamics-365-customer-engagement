@@ -1,8 +1,8 @@
 ---
 title: "App making and customization overview | MicrosoftDocs"
-description: "Learn about metadata and how it relates to app making"
+description: "Learn about app making and customization with Dynamics 365 for Customer Engagement"
 ms.custom: 
-ms.date: 01/08/2019
+ms.date: 05/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,69 +23,93 @@ search.app:
   - D365CE
 ---
 
-# App making and customization overview
+# App making and customization overview for Dynamics 365 for Customer Engagement, version 9 (on-premises)
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-The way your organization works is unique. Some organizations have well-defined business processes that they apply using an app. Others aren’t happy with their current business processes and use a custom app or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to apply new data and processes to their business. Whatever situation you find yourself in, you’ll find a lot of app design and customization capabilities in [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps so that they can work for your organization.  
-  
- Of course you’re eager to get started, but please take a few minutes to read the content in this section. This will introduce you to important terms, give you some background about why things are done a certain way, and help you avoid potential problems in the future.  
+[!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps gives you powerful customization and app making capabilities that don’t require you to write a single line of code. With a comprehensive set of WSYSIG designer and editor tools, most anyone can fully customize [!INCLUDE [pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps or create their own custom apps. 
 
-## What is metadata and why should you care?  
- In the past, you may have customized business applications by editing the source code. This created complications because each organization had unique changes and it was very difficult, or extremely expensive, to upgrade. Then application developers started exposing application programming interfaces (APIs) so that other developers could interact with the application and add their own logic without touching the source code. This was moderately better because it means developers can extend the application without changing it. But it still requires a developer to write code.  
+[!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
+
+For documentation of earlier versions (8.x and earlier), visit [https://docs.microsoft.com/previous-versions/dynamics/](https://docs.microsoft.com/en-us/previous-versions/dynamics/).
   
- Today, modern business applications use a metadata-driven architecture so that people can customize the application without writing code. Metadata means “data about data” and it defines the structure of the data stored in the system. With this metadata, an application knows about any changes to the data structure and this enables the application to adapt as the data structure changes. Since the metadata is known, additional capabilities can be included that are tied to the metadata.  
-  
- When you customize an app using the customization tools, you’re adding or updating the metadata or data used by features that depend on the metadata. Because we know the kinds of data used to customize the system, we can take this data into account and add new features to your app without breaking the underlying platform.   
-  
-### Customize or Configure?
-Dynamics 365 for Customer Engagement apps subscribers say they want to customize the application, so we use the word “customize” to describe changing the system to make it work the way you want. Some people prefer to use the word “configure” because it suggests that no code was required to make changes. Call it whatever you like, we just want to make it clear that you don’t need to be a developer to create apps or customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
-  
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization.  
+ 
+## App making and customization components
+A well designed app consists of several components that you select using the available designers and editors to build the appearance and functionality of the finished app. The components and component properties that you use to make up an app become the metadata.
+
+To understand how each of these components relates to app design, they’re separated here into data, UI, logic, and visualization categories.
+
+### Data
+These components determine what data the app will be based upon.
+
+|Component  |Description  |Designer  |
+|---------|---------|---------|
+|Entity     | An item with properties that you track, such as a contact or account. Many standard entities are available. You can customize a non-system standard entity (production entity) or create a custom entity from scratch.        |  Entity designer       |
+|Field     | A property that is associated with an entity. A field is defined by a data type, which determines the type of data that can be entered or selected. Examples include text, number, date and time, currency, or lookup (creates a relationship with another entity). Fields typically are used with forms, views, and searches.        | Entity designer        |
+|Relationship     | Entity relationships define how entities can be related to each other. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) types of relationships . For example, adding a lookup field to an entity creates a new 1:N relationship between the two entities and lets you put that lookup field on a form.        | Entity designer        |
+|Option set field     |  This is a special type of field, which provides the user a set of predetermined options. Each option has a number value and label. When added to a form, this field displays a control for the user to select an option. There are two kinds of option sets; option sets, where the user can only select one option, and multi-select options sets, which allow more than one selection.       |  Option set designer       |
+
+More infomation: [Create or edit entities (record types)](create-edit-entities.md)
+
+### UI
+These components determine how users interact with the app.
+
+
+|Component  |Description  |Designer  |
+|---------|---------|---------|
+|App     | Determines the application fundamentals such as components, properties, client type, and URL for your app.        |  App designer       |
+|Site map     |  Specifies the navigation for your app.       | Site map designer        |
+|Form     | A set of data-entry fields for a given entity that matches the items that your organization tracks for the entity. For example, a set of data-entry fields that where user’s input relevant information to track a customer’s previous orders along with specific requested reorder dates.        |  Form designer       |
+|View     | Views define how a list of records for a specific entity is displayed in your application. A view defines the columns to display, width of each column, sort behavior, and the default filters.        | View designer        |
+
+More information: [Create or edit an app by using the app designer](create-edit-app.md)
+
+### Logic
+This component determines the business processes, rules, and automation the app will have. App makers use a designer that is specific to the type of process or rule.
+
+
+|Type of logic  |Description  |Designer  |
+|---------|---------|---------|
+|Business process flow     | An online process that walks users through a standard business process. For example, use a business process flow if you want everyone to handle customer service requests the same way, or to require staff to gain approval for an invoice before submitting an order.        | Business process flow designer        |
+|Workflow     |  Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn’t require any user interaction.       | Workflow designer        |
+|Actions     |  Actions are a type of process that let you manually invoke actions, including custom actions, directly from a workflow.       |  Process designer       |
+|Business rule     | Used to apply rule or recommendation logic to a form, such as to set field requirements, hide fields, or validate data. App designers use a simple interface to implement and maintain fast-changing and commonly used rules.     | Business rule designer        |
+
+More information: [Create custom business logic through processes](guide-staff-through-common-tasks-processes.md)
+
+### Visualizations
+
+Determines what type of data visualizations and reporting the app will have available.
+
+|Component  |Description  |Designer  |
+|---------|---------|---------|
+|Chart     | A single graphic visualization that can be displayed within a view, on a form, or be added to a dashboard.        | Chart designer        |
+|Dashboard     |  Functions as a palate for one or more graphic visualizations that provide an overview of actionable business data.       |  Dashboard designer       |
+|Reports     | Several standard reports that provide useful business information to the user are available. These reports are based on SQL Server Reporting Services, and provide the same set of features that are available for the SQL Server Reporting Services reports.        | Report wizard        |
+
+More information: [Create or edit a system chart](create-edit-system-chart.md) and [Overview of reports](/dynamics365/customer-engagement/analytics/get-started-writing-reports)
+
+## Extensibilty
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides a set of web services and APIs that allow developers to write code. When code is written using supported methods you can expect that it will continue to work when you upgrade your organization. 
+
+More information: [Developer Guide for Dynamics 365 for Customer Engagement apps](/dynamics365/customer-engagement/developer/developer-guide)
+
+## Portability
+Solutions exist so that a Dynamics 365 for Customer Engagement apps can be purchased, shared, or otherwise transported from one organization to another. You can create your own solutions or get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.
+
+More information: [Solutions overview](solutions-overview.md)
   
 <a name="BKMK_SupportedCust"></a>   
 ## What kinds of customizations are supported with Dynamics 365 for Customer Engagement apps?  
  We expect that you can do most of your customization with the tools in the application. Everything you do by using those tools is supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] because they apply changes to the metadata or data that depends on the metadata.  
   
  If the customization tools don’t meet your needs, you can install a solution provided by a third party or hire a developer to code your customizations. Either way, it’s good for you to understand supported customizations. If you need to invest in a solution that requires code, you should make sure that the code is written using only supported APIs. This helps you protect your investment in both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and any solutions you get.  
-  
- Developers who extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps have a responsibility to follow rules and best practices documented in the SDK: [Best practices for developing with Dynamics 365 for Customer Engagement apps](../developer/best-practices-sdk.md). The SDK documents the APIs available to developers and provides guidance about how to best use them. [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] supports only the APIs and practices that are documented in the SDK. You may find something on the Internet that describes how you can solve a problem, but if it doesn’t leverage APIs documented in the SDK, it isn’t supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. Before you have a developer apply a change you should verify whether it uses supported methods.  
-  
- If developers use the APIs and best practices described in the SDK we can be sure to test whether any of the changes we make to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has the potential to break existing customizations. Our goal is that code customizations written using supported methods will continue to work when new versions or updates of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps are released. You benefit because you can upgrade to new versions with improved features without having developers change their code each time.  
-  
- If we detect that a change in a new version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps will cause a supported customization to break, we will document what is affected and how people can change their code to fix it.  
-  
-<a name="BKMK_Unsupported"></a>   
-## What kinds of customizations aren’t supported with Dynamics 365 for Customer Engagement apps?  
- Just because certain APIs and programming practices aren’t supported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] doesn’t mean that they don’t work. “Unsupported by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]” means exactly what it says: you can’t get support about these APIs or programming practices from [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. We don’t test them and we don’t know if something we change will break them. We can’t predict what will happen if someone changes code in our application.  
-  
- The developer who uses unsupported APIs and programming practices assumes the responsibility to support their code. They will need to test their code to make sure it works.  
-  
- If you choose to use unsupported customizations in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps deployment you should be sure to document what was done and have a strategy to remove those customizations before you contact [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Technical Support. If you need help with unsupported customizations, contact the developer or organization who prepared the customizations.  
-  
-<a name="BKMK_CommonUnsupportedCustomizations"></a>   
-### Common unsupported customization practices  
- The following is a list of common customization practices that aren’t supported. This is not a complete list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Supported extensions for Dynamics 365 for Customer Engagement apps: Unsupported customizations](../developer/supported-extensions.md#Unsupported). 
  
-**Interacting with the web application Document Object Model (DOM) elements using JavaScript**  
- Any [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries used anywhere in the application must only interact with the documented APIs. When [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers work with applications they frequently access DOM elements using specific names. Because [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is a web application these techniques work, but they are likely to break during an update because the names of the elements they reference are subject to change at any time. We reserve the right to make any changes necessary in the application and this frequently means changing how the page is constructed. Adding any changes that depend on the current structure of the page means that you’ll need to invest in testing and perhaps changing the custom code in these scripts each time you apply an update to your application.  
-  
- jQuery is a very common library used by [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers. Most of the benefit of using jQuery is that it simplifies a developer’s ability to access and create DOM elements, which is exactly what we do not support in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps application pages. jQuery is recommended when developers are creating custom user interfaces with HTML web resources, but within the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]apps application pages, the supported APIs do not require jQuery to be used.  
-  
- **Using any undocumented internal objects or methods using JavaScript**  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps uses many [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] objects within pages. A [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developer can discover these objects by debugging a page and then access and reuse these objects. We reserve the right to make any changes necessary to these objects, including removing them or changing the names of the methods. If a script references these objects, the script will break if they are not found.  <a name="BKMK_Metadata"></a>   
- 
-<a name="BKMK_CombineCustomizations"></a>   
-## Combine customization capabilities  
- Each of the topics in this guide describe individual customization capabilities in considerable depth. But it’s important to keep in mind that the solutions to meeting your business requirements will frequently use one of the capabilities together with one or more other capabilities.  
-  
-<a name="BKMK_ChooseTheRightCustomization"></a>   
-### Choose the right customization capability for the job  
- The law of instrument states “If all you have is a hammer, everything looks like a nail.” With all the different customization capabilities available in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps it’s easy to become familiar with one of them and seek to use it to solve every problem. As you evaluate the business problems you want to solve, think about the end result you want to achieve and then work backwards to how you can get there.  
+ More information: [Supported and unsupported customization](customizations-supported.md)
  
 <a name="BKMK_changesinperformance"></a>   
 ## Changes that affect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps organization performance  
- Importing solutions and applying customizations that change metadata can affect [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization performance. Actions that can interfere with normal system operation include:  
+ App makers and customizers should know that importing solutions and applying customizations that change metadata can affect [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization performance. Actions that can interfere with normal system operation include:  
   
 -   Add, remove, or change entities, alternate keys, attributes, or relationships.   
   
@@ -97,6 +121,7 @@ If you’re applying these changes to a production system, we recommend that you
   
   
 ### See also  
-[Get started with app making and customization](getting-started-customization.md) 
+[Get started with app making and customization](getting-started-customization.md) <br />
+
 
 

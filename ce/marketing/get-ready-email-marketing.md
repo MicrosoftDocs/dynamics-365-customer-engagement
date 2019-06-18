@@ -96,7 +96,7 @@ When you send email from [!INCLUDE[pn-marketing-business-app-module-name](../inc
 
 _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) is a standard that helps email recipients confirm that messages claiming to come from one of your email domains actually came from your organization. This standard helps ensure the authenticity of both your organization's day-to-day email messages and messages sent on your behalf by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, your messages are much more likely to get through, rather than get flagged as junk. We therefore recommend that all organizations set up DMARC for their domains, including the sending domains used by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-DMARC builds on the SPF and DKIM standards mentioned previously. In many cases, those are enough, but if you are already using DMARC on your other sending domains (or if you would like to), then you must  [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) for assistance with setting it up for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. 
+DMARC builds on the SPF and DKIM standards mentioned previously. In many cases, those are enough, but if you are already using DMARC on your other sending domains (or if you would like to), then you must [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance with setting it up for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. 
 
 > [!IMPORTANT]
 > If are using DMARC but fail to integrate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] into your DMARC configuration, your marketing emails are very likely to be labelled as junk and removed from inboxes by many private domains and most large email providers including Gmail and Outlook.com.
@@ -109,7 +109,6 @@ DMARC builds on the SPF and DKIM standards mentioned previously. In many cases, 
 
 DMARC requires you to have either your own envelope domain or your own DKIM signing domain. It's best to have both to minimize false positives during a DMARC check by the receiving party.
 
-
 ## Test your deliverability
 
 Once you have all of the relevant email-authentication systems in place, we highly recommend that you test your deliverability to all of the major email hosts (such as Gmail, Outlook.com, Yahoo mail, and more), and to as many private domains as your can (including your own). To do this:
@@ -119,12 +118,29 @@ Once you have all of the relevant email-authentication systems in place, we high
 1. Run a [simple email campaign](create-simple-customer-journey.md) that targets all of your test contacts.
 1. Inspect the inbox for each account to confirm your messages arrive in the inbox and don't get labelled as junk.
 
+## [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]'s spam policy for email marketing
+
+Throughout this topic, we've stressed the importance of maintaining clean, opted-in send lists combined with valued content and collaborative sending behavior. These are all important aspects of building a strong sender reputation and thereby achieving high deliverability and in-box placement. Because email sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is delivered from shared sending domains, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] constantly monitors all delivery results, spam complaints, and blacklists to make sure our sending domains maintain their high reputation for the benefit of all customers.
+
+To help protect you, the responsible marketer, against the behavior of bad actors beyond your control, we have implemented an anti-spam policy that protects your sending reputation. Here’s how it works:
+
+### Stage 1: Inform and warn
+
+When we notice that a particular customer is generating a relatively high rate of bounces or spam complaints, we'll let them know right away that something is wrong with the way they are using the system and will offer our assistance to help sort it out.
+When this occurs, we will send a notification directly to the administrator by email. This communication will urge the customer to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance as soon as possible.
+
+### Stage 2: Move to a higher risk sending pool
+
+If the problem persists for more than a few days and the customer still has not contacted [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)], then we will move that customer to a higher risk sending pool, which has a lower reputation than the high-deliverability sending pool provided to compliant customers.
+
+When this occurs, we will send email notification to alert the customer that we have moved them to a higher risk sending pool and to urge them to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance. It may still be possible for the customer to return to the low-risk email sending pool, but not before contacting [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] and learning how to address the issue going forward.
+
 ## Using a custom, dedicated sender IP
 
 In a standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] setup, all sender IPs are managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] and shared among customers that have similar reputation scores. This lets us manage reputation, balance the send load, and warm up new IPs as needed. However, some organizations prefer to use one or more of their own, dedicated sender IPs, especially if they will be sending very high volumes.
 
 > [!NOTE]
-> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IPs. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis, and we can support multiple dedicated sender IPs if needed. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to consider when making this decision include:
+> Dedicated sender IPs are not part of the standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] subscription agreement, and [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not generally recommend them because they introduce extra complexity and expense—and can result reduced deliverability compared to our standard sender IPs. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] considers applications for dedicated sender IPs on a case-by-case basis, and we can support multiple dedicated sender IPs if needed. If you think your organization could benefit from a dedicated sender IP, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) to find out if you qualify. The main goal of this process is to help you achieve as high a delivery rate as possible. Some of the most important factors to consider when making this decision include:
 > 
 > - How many messages does your organization send each month?
 > - Is your content of high quality and in compliance with all relevant regulations?

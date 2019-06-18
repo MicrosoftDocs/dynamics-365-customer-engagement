@@ -116,7 +116,7 @@ Enabling a **Download action** renders a button above the subgrid that, when sel
 
 ## Associate action
 
-Enabling an **Associate action** displays a button above the subgrid that, when selected, opens a table of entities that the user can choose to associate to the entity record currently being displayed by the [entity form](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal), provided the Append and AppendTo privileges have been granted by [Entity Permissions](assign-entity-permissions.md) for the applicable entity types.  
+Enabling an **Associate action** displays a button above the subgrid that, when selected, opens a table of entities that the user can choose to associate to the entity record currently being displayed by the [entity form](entity-forms-custom-logic.md), provided the Append and AppendTo privileges have been granted by [Entity Permissions](assign-entity-permissions.md) for the applicable entity types.  
 
 ### Associate action settings
 
@@ -189,7 +189,7 @@ Enabling a **Details action** allows a user to view a read-only [entity form](en
 
 ## Edit action
 
-Enabling an **Edit action** allows a user to view an editable [entity form](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) that is data-bound to the record of the subgrid's selected row, if the Write privilege has been granted by [Entity Permissions](assign-entity-permissions.md).  
+Enabling an **Edit action** allows a user to view an editable [entity form](entity-forms-custom-logic.md) that is data-bound to the record of the subgrid's selected row, if the Write privilege has been granted by [Entity Permissions](assign-entity-permissions.md).  
 
 ### Edit action settings
 
@@ -263,7 +263,7 @@ Enabling a **Workflow action** allows a user to run an on-demand workflow agains
 
 ## Disassociate action
 
-Enabling a **Disassociate action** allows a user to remove the link between the record represented by the currently viewed [entity form](#define-entity-forms-and-custom-logic-within-the-dynamics-365-portal) and the record represented by the selected row in the subgrid, as long as the Append and AppendTo privileges have been granted by [Entity Permissions](assign-entity-permissions.md) for the applicable entity types.  
+Enabling a **Disassociate action** allows a user to remove the link between the record represented by the currently viewed [entity form](entity-forms-custom-logic.md) and the record represented by the selected row in the subgrid, as long as the Append and AppendTo privileges have been granted by [Entity Permissions](assign-entity-permissions.md) for the applicable entity types.
 
 ### Disassociate action settings
 

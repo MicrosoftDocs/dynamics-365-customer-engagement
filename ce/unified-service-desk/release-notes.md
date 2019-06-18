@@ -2,7 +2,7 @@
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 keywords: ""
-ms.date: 12/17/2018
+ms.date: 05/15/2018
 ms.service: 
   - usd
 ms.topic: article
@@ -28,19 +28,33 @@ search.app:
 
 ::: moniker range="dynamics-usd-4.1"
 
-## Public Preview: Unified Service Desk 4.1 known issues and limitations
+## Unified Service Desk 4.1 known issues and limitations
 
-## Preview: Chrome Process
+### Window Navigation Rules for Advanced Find does not work
 
-#### Support for CloseAndPrompt action in Chrome Process
+When you use Unified Service Desk with the Unified Interface apps, Window Navigation Rules for the Advanced Find page might not work as the page is available only on Web Client and hence you must retain the route type as **Popup**.
+
+### Importing solution causes error with Package Deployer
+
+When you use the latest version of the package deployer (4.1.1.1246) to deploy sample packages, you might encounter an error. To workaround the issue, you must upgrade your Customer Engagement instance to the latest version (9.1.0.4626).
+
+### Support for inactivity timeout with Chrome Process and SSO
+
+If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically signed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#enable-or-disable-single-sign-on).
+
+### JavaScript Alert and Confirmation dialog
+
+While you use **Chrome Process** to host applications in Unified Service Desk, if you load applications hosted using **IE Process**, then web pages doesn't show the JavaScript alert, Confirmation, and prompt dialog on the application that uses **IE Process**. The web pages show the dialogs on the applications hosted using the Chrome Process. This issue occurs if you have at least one application hosted using Chrome Process and loaded in Unified Service Desk.
+
+### Support for CloseAndPrompt action in Chrome Process
 
 The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
-#### Support for Microphone and webcam with Channel Integration Framework
+### Support for Microphone and webcam with Channel Integration Framework
 
-When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channels is not based on the Chromium Embedded Framework, then you might not have access to Microphone and webcam.
+When you integrate a channel with Unified Service Desk using the Channel Integration Framework and if that channel does not work on the Chromium browser (which is based on Chromium Embedded Framework), then you might not have access to Microphone and webcam.
 
-## Preview: Edge Process
+### Preview: Edge Process
 
 #### Support for CloseAndPrompt action in Edge Process
 
@@ -108,6 +122,23 @@ Remove the following values from the data field:
 To open an KB article, only the article url is sufficient. For example: `url=[[KB Search.articleurl]g]`
 
 Now, save the configuration. Login to Unified Service Desk and open any article to see the article contents.
+
+### Ribbon command not loading in the forms
+
+For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
+For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
+
+#### Workaround
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+
+## See also
+
+[Use Edge Process to host web application](edge-process.md)
+
+[Use Chrome Process to host web application](chrome-process.md)
+
+[Integrate channel using Channel Integration Framework](integrate-channel-provider-channel-integration-framework.md)
 
 ::: moniker-end
 
@@ -237,7 +268,7 @@ when you launch Unified Service Desk, the application displays the login screen 
 
 If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
 
-`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
 
 Open the recent log file in the notepad. Search for the following message - 
 
@@ -260,6 +291,15 @@ To resolve the Unified Service Desk application crash issue, follow the steps.
 4. Restart the Unified Service Desk client application.
 
 You can sign in to Unified Service Desk client application now.
+
+### Ribbon command not loading in the forms
+
+For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
+For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
+
+####
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
 
 ## See Also
 
@@ -297,7 +337,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
   If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
 
-  To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
+  To enable **HelpImproveUsd**, view [Improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
@@ -417,7 +457,7 @@ when you launch Unified Service Desk, the application displays the login screen 
 
 If you have enabled performance data logging, the crash error is logged in the log files. The log files will be present in the following location of your computer.
 
-`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 for Customer Engagement Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
+`%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\UnifiedServiceDesk_<Id-yyyy-mm-dd>`
 
 Open the recent log file in the notepad. Search for the following message - 
 
@@ -430,7 +470,7 @@ One of the reason for the application crash is due to caching of multiple tokens
 To resolve the Unified Service Desk application crash issue, follow the steps.
 
 1. Go to the location following in your computer. <br>
-	`C:\Users\<computer name>\AppData\Roaming\Microsoft\USD`
+	`C:\Users\<computer name>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk`
 	
 2. In the location, you will see the following file.<br>
 **Default_USD.tokens.dat** file. 
@@ -441,12 +481,21 @@ To resolve the Unified Service Desk application crash issue, follow the steps.
 
 You can sign in to Unified Service Desk client application now.
 
+### Ribbon command not loading in the forms
+
+For an entity list, in the URL, if the `cmdbar=false`, then any URL originating from the URL might not have ribbon command bar.
+For example, if you are navigating from a case grid to a case, and in the URL when `cmdbar=false`, then the case page might not have ribbon command bar.
+
+#### Workaround
+
+As a work around for the issue, in the hosted control configuration of the URL, set `cmdbar=true`.
+
 ## See also
 
 [Analyze best practices in Unified Service Desk](admin/analyze-best-practices-unified-service-desk.md)
 
 [Performance enhancement for CRM entity page loads](admin/performance-enhancement-CRM-entity-page-loads.md)
 
-[Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
+[Improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
 
 ::: moniker-end

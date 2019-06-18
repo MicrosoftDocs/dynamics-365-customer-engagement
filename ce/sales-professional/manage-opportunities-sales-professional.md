@@ -35,7 +35,7 @@ To create or edit an opportunity:
 
     -OR-
 
-    To create a new lead, on the command bar, select **New**.
+    To create a new opportunity, on the command bar, select **New**.
 
  3. In the opportunity form, make sure that your potential customer’s important details are captured. Most of the fields will be automatically populated from the lead record:
 

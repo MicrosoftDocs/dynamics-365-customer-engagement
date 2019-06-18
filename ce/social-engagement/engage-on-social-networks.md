@@ -2,7 +2,7 @@
 title: "Engage on social networks in Social Engagement | Microsoft Docs"
 description: "Get an overview of the requirements to engage on posts from within Social Engagement."
 keywords: social center, streams, engagement
-ms.date: 03/27/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 98e1a49d-1d1a-4fe1-8570-8f32e234c55a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,8 @@ search.app:
 ---
 
 # Engage on social networks
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] offers features that you can use to interact with other users on the social web and to engage with customers, fans, or critics.
 

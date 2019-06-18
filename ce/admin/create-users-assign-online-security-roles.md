@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/11/2019
+ms.date: 06/12/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 5f21f288-f941-4ca0-a15f-a91cd9feee4d
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -115,15 +115,15 @@ The following are Office 365 user contact fields.
   
  In Customer Engagement apps:  
   
-1.  Click **Settings** > **Security** > **Users**.  
+1.  Select **Settings** > **Security** > **Users**.  
   
 2.  In the list, select the user or users that you want to assign a security role to.  
   
-3.  Click **Manage Roles**.  
+3.  Select **Manage Roles**.  
   
      Only the security roles available for that user's business unit are displayed.  
   
-4.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then click **OK**.  
+4.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select **OK**.  
   
 <a name="BKMK_assign_admin"></a>   
 
@@ -201,7 +201,19 @@ The following are Office 365 user contact fields.
 > - Sign out of Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > - Close all open browsers used for Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > - Sign back in to Customer Engagement apps and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+
+## Create a Read-Write user account
+By default all licensed users are created with an access mode of **Read-Write**.  This access mode provides full access rights to the user based on the security privileges that are assigned. To update the access mode of a user:
+1. Go to Customer Engagement apps.  
   
+2. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
+  
+3. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+  
+4. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Read-Write**.  
+
+5. Click the **Save** icon
+
 ## Create an Administrative user account
 An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 for Customer Engagement apps (online) license (after setup).
 
@@ -212,7 +224,7 @@ You need to have the System Administrator security role or equivalent permission
 
 1. [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-    Be sure to assign a Customer Engagement apps license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** Access Mode.
+    Be sure to assign a Customer Engagement apps license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** access mode.
   
 2. Go to Customer Engagement apps.  
   
@@ -220,7 +232,7 @@ You need to have the System Administrator security role or equivalent permission
   
 4. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
   
-5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
+5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Administrative**.  
 
     You then need to remove the Customer Engagement apps license from the account.  
   
@@ -235,7 +247,7 @@ You need to have the System Administrator security role or equivalent permission
 <a name="BKMK_noninteractiveuser"></a>   
 
 ## Create a non-interactive user account  
- The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to five non-interactive user accounts.  
+ The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to seven non-interactive user accounts.  
   
  You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, select the non-interactive access mode for the account.  
   
@@ -249,7 +261,7 @@ You need to have the System Administrator security role or equivalent permission
   
 4. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
   
-5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Non-interactive** for Access Mode.  
+5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Non-interactive**.  
   
     You then need to remove the Customer Engagement apps license from the account.  
   

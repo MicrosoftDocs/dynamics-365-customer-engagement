@@ -103,6 +103,24 @@ When you select a button element, you can use an inline toolbar to style the but
 
 This section describes design elements that are only available when you are designing a marketing email message.
 
+<a name="custom-code"></a>
+
+### Custom-code elements
+
+Use custom-code elements to place code snippets in between the various other design elements on the page. You can place any type of code that you like using these elements, but usually you'll use them to hold advanced dynamic content like if-then statements and for-each loops. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
+
+Use the **Properties** tab to view, enter, and edit the code to be placed by a custom-code element.
+
+<a name="qr-code"></a>
+
+### Event registration QR code elements
+
+Each time a contact [registers for an event](invite-register-house-event-attendees.md), the system creates a new event-registration record, which identifies the contact, the event, and other details. It event-registration record also includes a registration ID stored both as an alphanumeric code and as a machine-readable QR code.
+
+Use QR code elements to place an event-registration QR code in an email message. The code placed in each message provides the registration ID associated with both the recipient of the message and a specific event. Use the **Properties** tab to identify the event for which the QR code applies. No other settings are required.
+
+The QR code is a direct encoding of the registration ID itself. On the day of the event, event workers can quickly and easily scan the code using a QR code scanner or smartphone app. The scanning app could then query the registration database in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to confirm validity and/or to register attendance. Please note, however, that custom development is needed to create the scanning app and implement the integration with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] system.
+
 <a name="event-elements"></a>
 
 ### Marketing-page, event, and survey elements
@@ -114,13 +132,7 @@ Use the **Properties** tab to establish the appearance of your new or selected b
 > [!NOTE]
 > Surveys are optional. If your system admin decided not to include Voice of the Customer as part of your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, then the survey element will be shown as unavailable (greyed out) in your **Toolbox**. Contact your system admin if you want to enable it.
 
-<a name="custom-code"></a>
-
-### Custom-code elements
-
-Use custom-code elements to place code snippets in between the various other design elements on the page. You can place any type of code that you like using these elements, but usually you'll use them to hold advanced dynamic content like if-then statements and for-each loops. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content to email messages](dynamic-email-content.md)
-
-Use the **Properties** tab to view, enter, and edit the code to be placed by a custom-code element.
+[!INCLUDE [cc-marketing-surveys-disclaimer](../includes/cc-marketing-surveys-disclaimer.md)]
 
 ## The form element for marketing pages
 

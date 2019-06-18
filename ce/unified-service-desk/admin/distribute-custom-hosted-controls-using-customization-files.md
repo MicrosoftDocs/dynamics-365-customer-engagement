@@ -70,5 +70,5 @@ Use the customization files feature to distribute custom hosted controls and fun
 7. If the customization file record isn’t already associated with a Configuration, you must do so before the customization can be used by agents. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 ## See also  
- [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
+ [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
  [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)

@@ -3,7 +3,7 @@ title: "Azure AD B2C provider settings for portals in Dynamics 365 for Customer 
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 05/22/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,7 +35,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 | Application-Name  |       | Name of the application that represents the portal as a relying party |
 | Application-ID    |       | The Application ID associated with the application created in Azure Active Directory B2C.  |
 | Policy-Signin-URL |       | The Issuer (iss) URL defined in the metadata endpoint.                |
-| Federation-Name   |       | A unique name to identify the type of federation provider such as ‘B2C’. This will be used in Site Setting names to group configuration settings for this specific provider.                                                                      |
+| Federation-Name   |       | A unique name to identify the type of federation provider such as 'B2C'. This will be used in Site Setting names to group configuration settings for this specific provider.                                                                      |
 | | | |
 
 ### Use [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider for your portal
@@ -46,7 +46,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 4. [Create Azure application](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
 
    > [!Note]
-   > You must choose **Yes** for the **Allow implicit flow** field and specify your portal URL in the **Reply URL** field. The value in the **Reply URL** field should be in the format [portal domain]/signin-[Federation-Name].
+   > You must choose **Yes** for the **Allow implicit flow** field and specify your portal URL in the **Reply URL** field. The value in the **Reply URL** field should be in the format [portal domain]/signin-[Federation-Name]. For example, `https://contosocommunity.microsoftcrmportals.com/signin-B2C`.
 
 5. Copy the application name, and enter it as the value of Application-Name in the preceding table.
 6. Copy the application ID, and enter it as the value of Application-ID in the preceding table.
@@ -141,7 +141,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
 
 **Source**: Use the following sample web template source HTML.
 
-```
+```html
 <!DOCTYPE html>
 <html lang=en-US>
   <head>

@@ -2,8 +2,8 @@
 title: "Impersonate another user (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to impersonate another user using Web API. You can do that by adding a request header named MSCRMCallerID with a GUID value equal to the impersonated user’s systemuserid before sending the request to the web service"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 04/29/2019
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,7 +24,9 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Impersonation is used to execute business logic (code) on behalf of another [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps user to provide a desired feature or service using the appropriate role and object-based security of that impersonated user. This is necessary because the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web services can be called by various clients and services on behalf of a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps user, for example, in a workflow or custom ISV solution. Impersonation involves two different user accounts: one user account (A) is used when executing code to perform some task on behalf of another user (B).  
+Impersonation is used to execute business logic (code) on behalf of another [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps user to provide a desired feature or service using the appropriate role and object-based security of that impersonated user. This is necessary because the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web services can be called by various clients and services on behalf of a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps user, for example, in a workflow or custom ISV solution. Impersonation involves two different user accounts: one user account (A) is used when executing code to perform some task on behalf of another user (B).
+
+More information can be found in the Common Data Service topic [Impersonate another user](/powerapps/developer/common-data-service/impersonate-another-user).
 
 ## Required privileges  
  User account (A) needs the privilege `prvActOnBehalfOfAnotherUser`, which is included in the **Delegate** security role.  
@@ -40,7 +42,6 @@ Impersonation is used to execute business logic (code) on behalf of another [!IN
 
 |           Deployment Type            |                                                                                                                                                                                                                                    Deployment Type  Strategy                                                                                                                                                                                                                                     |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                Online                | -   Use the special  *application user* described in [Build web applications using Server-to-Server (S2S) authentication](../build-web-applications-server-server-s2s-authentication.md) to control the privileges that the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Customer Engagement apps user has access to.<br />-   Grant the application user a security role that includes privileges for the tasks this user will perform on behalf of other users and the `prvActOnBehalfOfAnotherUser` privilege. |
 | On-premises<br /> or<br />IFD/Claims |                                                                                                        Create a new [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] user with a security role which includes the `prvActOnBehalfOfAnotherUser` privilege. Within this security role, also include privileges for the tasks this user account will perform on behalf of other users.                                                                                                         |
 
 ### See also  

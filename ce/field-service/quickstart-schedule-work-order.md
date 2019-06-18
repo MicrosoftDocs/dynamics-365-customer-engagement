@@ -97,7 +97,7 @@ If you're using sample data, you can skip this step. Otherwise, you need to crea
 
 3. On the **Summary** tab: 
     - For **Service Account**, select an account from the list or create a new one.
-    - For **Work Order Type**, select an account from the list or create a new one. 
+    - For **Work Order Type**, select a work order type from the list or create a new one. 
     - For **System Status**, select **Open-Unscheduled**.
     
 > [!div class="mx-imgBorder"]

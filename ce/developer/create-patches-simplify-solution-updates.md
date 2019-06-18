@@ -3,7 +3,7 @@ title: "Create patches to simplify solution updates (Developer Guide for Dynamic
 description: "Patches help you manage entities and all of its related assets when you add an entity to a solution and export that solution"
 ms.custom: 
 ms.date: 09/17/2018
-ms.reviewer: 
+ms.reviewer: "pehecke"
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

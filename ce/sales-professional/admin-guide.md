@@ -19,7 +19,7 @@ ms.tgt_pltfrm:
 topic-status: Drafting
 ---
 
-# Administrator and Sales Manager guide
+# Administrator and Sales Manager guide (Sales Professional)
 
 
 > [!IMPORTANT]

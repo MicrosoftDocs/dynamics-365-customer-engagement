@@ -2,7 +2,7 @@
 title: "Types of fields and field data types | MicrosoftDocs"
 description: "Understand the different field and data types available for your app"
 keywords: 
-ms.date: 03/27/2019
+ms.date: 04/29/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -93,9 +93,6 @@ You can use global option sets that are defined in your organization to configur
 More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)
 
 ### Customer field  
-
-> [!NOTE]
->  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] and [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
 
  In previous releases of Dynamics 365 for Customer Engagement apps, several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
 

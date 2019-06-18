@@ -37,4 +37,4 @@ Events in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 ### See also  
  [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)   
  [Action calls](../unified-service-desk/action-calls.md)   
- [Core concepts for configuring Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+ [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)

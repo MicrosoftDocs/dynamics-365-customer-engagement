@@ -49,7 +49,7 @@ The previous figure shows how a simple customer journey might look in [!INCLUDE[
 
 5. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
 
-6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+6. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
 7. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
@@ -75,7 +75,7 @@ You can add tiles to the pipeline by dragging tiles from the **Toolbox** tab on 
 
 ![Drag a tile from the Toolbox to the canvas](media/cj-drag-ill.png "Drag a tile from the Toolbox to the canvas")
 
-The first tile in the pipeline establishes the target segment for the customer journey. This is what determines which contacts get sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic list) or on a static list, where individual contacts are added and removed manually. You might create dynamic lists based on demographic information (such as finding contacts from New York City), whereas a static list might represent a subscription list that contacts can add themselves to or remove themselves from by using one of your subscription center webpages.
+The first tile in the pipeline establishes the target segment for the customer journey. This is what determines which contacts get sent down the pipeline. You'll typically start with a segment tile, which finds contacts based on a logical query (a dynamic segment) or on a static segment, where individual contacts are added and removed manually.
 
 After they are added, most tiles provide features such as those illustrated in the following figure.
 
@@ -90,6 +90,8 @@ Legend:
 1. **Nested tiles**: You can view, select, configure, or remove existing nested tiles here when the container tile is expanded. You can add new nested tiles by dragging them here or to the container tile (this also works when the container is collapsed).
 
 To configure a tile or nested tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
+
+For a complete list of all available tiles, and information about how to use them, see the [Customer journey tiles reference](customer-journey-tiles-reference.md).
 
 ### Add tiles by using the command bar and arrow keys
 
@@ -126,32 +128,40 @@ Legend:
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
-### Create activity marketing templates for activity tiles
+## Choose the journey's target segment
 
-The activity tile enables a customer journey to generate [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] an activity record (such as a phone call, task, or appointment), associate the activity with each contact who enters the tile, and assign each activity to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user for follow-up. Each activity tile uses an activity marketing template to define the type and details of the activities it generates.
+One of the most important choices you'll make when setting up a customer journey is deciding which of your contacts to include on the journey.
 
-To view, edit, and create an activity marketing template, go to one of the following areas, depending on which type of activity you are setting up:
+### Target a standard segment
 
-- For phone-call activities, go to
- **Templates** &gt; **Phone Call Activity Marketing Templates**.
-- For task activities, go to
- **Templates** &gt; **Task Activity Marketing Templates**.
-- For appointment activities, go to
- **Templates** &gt; **Appointment Activity Marketing Templates**.
+The most common way to target a customer journey is to start with a segment tile and then choose a segment for it. You can combine several segments and choose the relevant logic for combining them (such as union/intersection or include/exclude).
 
-In each case, you'll go to a list showing templates of your selected type. The list includes the usual controls to search, sort, and filter the list, and to add or remove templates.
+- For information about how to create a segment, see [Working with segments](segmentation-lists-subscriptions.md)
+- For information about how to configure a segment tile and set logic for combining segments, see [Customer journey tiles reference](customer-journey-tiles-reference.md#segment)
 
-All types of activity marketing templates have the following required settings:
+<a name="target-subscription-list"></a>
 
-- **Name**: This is the name you'll see when assigning the template to an activity tile.
-- **Owner**: This is the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user who owns the template. Note that the user the activity gets assigned to is established by the settings for the tile that uses the template.
-- **Subject**: This is the subject shown on each activity record generated by using this template.
+### Target a subscription list
 
-Other settings for activity marketing templates vary by activity type and, like the **Subject**, are saved with each activity generated by using the template. These other settings map to those used by the activity records themselves.
+All [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instances must provide a subscription center, which enables contacts to sign up for various mailing lists. You'll probably want to set up customer journeys to send messages to each of these mailing lists from time to time. To target a mailing list with a customer journey, place a segment tile configured to load a subscription list as the first tile in the journey. For more information about subscription lists and the subscription center, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Action tiles](customer-journey-tiles-reference.md#action-tiles)
+To set up a segment tile to target a subscription list:
 
-<a name="general-options"></a> 
+1. Set up a customer journey that starts with a segment group tile, as usual.
+
+1. Select a child segment tile and open the **Properties** tab.
+
+1. Set the **Segment source** to **Subscription Marketing List**, which activates the **Marketing List** field. Then set the **Marking List** to the name of the subscription list you want to use for this journey.  
+    ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
+
+> [!IMPORTANT]
+> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
+
+### Create an inbound customer journey
+
+An inbound customer journey is one that a contacts join by filling out an online form rather than being part of a target segment. To create an inbound journey, start with a marketing page or marketing form tile instead of a segment (or with a segment configured to find contacts who submitted a particular form). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create an inbound customer journey](create-inbound-customer-journey.md)
+
+<a name="general-options"></a>
 
 ## Set general options, including execution schedule and content settings
 
@@ -219,11 +229,11 @@ A journey's suppression segment contains a list of contacts that the journey won
 You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
 
 > [!IMPORTANT]
-> The customer-insights services process changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  suppression segments.
+> The marketing insights service processes changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  suppression segments.
 
 ## Go live to start running the journey and processing contacts
 
-When you first create a new customer journey, and while you're working on it, the journey stays in *draft* status. (The status is displayed above the journey canvas in the **Status Reason** field.) While it's still in draft status, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status Reason** to **Published**, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
+When you first create a new customer journey, and while you're working on it, the journey shows a **Status reason** of **Draft**. While it's still in draft, the journey is inactive and it won't try to send any messages or do any other processing. When everything's in place and you're ready to start running the journey, you publish it. This updates the journey's **Status reason** to **Live**, and as soon as the specified **Start Date** arrives, the journey will start processing all contacts in its target segment.
 
 When you've finished designing your customer journey, do the following to verify and publish it:
 

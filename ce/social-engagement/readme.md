@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.9 Readme"
+title: "Social Engagement Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: readme, known issues, information
-ms.date: 04/03/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -23,6 +23,8 @@ search.app:
 ---
 
 # [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Readme
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 This document provides important, late-breaking information about [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)].
 
@@ -153,6 +155,10 @@ authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-enga
 Instagram authors are currently listed as "Unknown Author" in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. This is a temporary issue and will be fixed with one of the upcoming releases. 
 
 ## Search setup - known issues
+
+### Creating a stream with % in keywords will fail
+
+When you try to create a stream in Social Center based on a search rule with keywords including the **%** character, its creation will fail. Please avoid creating streams based on keywords rules including the % character. Alternatively, consider removing the % character from the keyword rule before creating the stream.
 
 ### Changing search topic category not reflected in the UI   
 

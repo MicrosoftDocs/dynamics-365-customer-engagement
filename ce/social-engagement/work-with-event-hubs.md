@@ -2,7 +2,7 @@
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
 keywords: event hubs, stream analytics, authomation rule
-ms.date: 02/20/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 80d207d4-f2df-4a04-8e39-5d09d3f44005
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Work with events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] in Azure Event Hubs
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets you stream posts to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and empowers you with data, so unleash your creativity! The options that [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] offer are huge. Benefit from a simple data format and highly performant cloud services to work with your data with endless possibilities. Build your own apps, connect your data with other data sources, and step into big data analysis.  
 
  To get you started, we’ve provided some inspiration to build a real-time [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] Dashboard where we’ll stream posts from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. By using the power of [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] we can consolidate the information and push it to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] to analyze our data in real time. [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] provides the capabilities to combine the data from a variety of sources, where [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] is one of them. It can send the data to another event hub, a SQL database, or to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] lets you build your own business intelligence based on the data sources you are connected to. All connections listed in the scenario below are supported by default with the services. No need to customize—get started right away!  

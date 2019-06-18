@@ -3,7 +3,7 @@ title: "Cache specific configuration for agents in Unified Service Desk for Dyna
 description: "Learn how Cache specific configuration for agents in the configuration of Unified Service Desk for Dynamics 365 for Customer Engagement apps."
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 03/01/2019
+ms.date: 04/10/2019
 ms.service: dynamics-365-customerservice
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,9 +25,7 @@ search.app:
 monikerRange : '>= dynamics-usd-4.1'
 ---
 
-# Preview: Cache specific configuration for agents
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+# Cache specific configuration for agents
 
 The Configuration Cache Version option causes the client caching feature to retrieve the configuration that has undergone change from the Customer Engagement server to the agent’s desktop and avoid retrieving all configurations.
 
@@ -90,9 +88,9 @@ Unified Service Desk activates the client caching for configurations.
 6. Select **Save**.
 
 ## Client caching store location
-When enabled, client caching stores its files in a compressed and encrypted format in the user’s roaming directory: `%appData%\Microsoft\USD`
+When enabled, client caching stores its files in a compressed and encrypted format in the user’s roaming directory: `%appData%\Microsoft\Microsoft Dynamics 365 Unified Service Desk`
 
-For example, for a user called agent1 running the Unified Service Desk client application on Windows 8, the client caching files are available at `c:\Users\agent1\AppData\Roaming\Microsoft\USD`.
+For example, for a user called agent1 running the Unified Service Desk client application on Windows 8, the client caching files are available at `c:\Users\agent1\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk`.
 
 
 ## See also

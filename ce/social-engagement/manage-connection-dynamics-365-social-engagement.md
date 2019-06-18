@@ -2,7 +2,7 @@
 title: "Connect Dynamics 365 for Customer Engagement and Social Engagement | Microsoft Docs"
 description: "Learn how to connect Social Engagement and Dynamics 365 for Customer Engagement to link social posts and create new cases or leads."
 keywords: connections, social engagement, dynamics 365, edit, delete
-ms.date: 01/30/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 329b1b1d-3b8c-4d97-a67d-eeb176d835bc
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -24,6 +24,8 @@ search.app:
 ---
 
 # Manage the connection between Dynamics 365 for Customer Engagement apps and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Understand how to change the settings for your connections with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and the consequences of doing so.    
 You must already have a working connection established and you need to be have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to perform the following tasks.

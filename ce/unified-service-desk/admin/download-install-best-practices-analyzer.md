@@ -2,7 +2,7 @@
 title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
 description: "Learn about downloading and installing the Best Practices Analyzer."
 keywords: 
-ms.date: 08/17/2018
+ms.date: 04/05/2019
 ms.service: 
   - usd
 ms.topic: article
@@ -29,11 +29,29 @@ search.app:
 
 The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
+::: moniker range=">=dynamics-usd-4.1"  
 
 |Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
 |---------|-------------|------------------------------------------------------------------------------|------------------|
-|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 for Customer Engagement apps Web client sample application | [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=2007340) |
+|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 for Customer Engagement apps Web client sample application | [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=2086721) |
+
+::: moniker-end
+
+::: moniker range="=dynamics-usd-4"  
+
+|Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
+|---------|-------------|------------------------------------------------------------------------------|------------------|
+|Available through sample application package | [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 for Customer Engagement apps Web client sample application | [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=2007340) |
+
+::: moniker-end
+
+::: moniker range="=dynamics-usd-3"  
+
+|Scenario | Description |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]| Download Location|
+|---------|-------------|------------------------------------------------------------------------------|------------------|
 | Available through [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package |                          [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package |[!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]  <br>  [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] <br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] <br> [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br> [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)] | [Download](https://go.microsoft.com/fwlink/p/?linkid=872089) |
+
+::: moniker-end
 
 ## Install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
@@ -41,14 +59,27 @@ Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../in
 
 ## Download Best Practices Analyzer
 
+::: moniker range=">=dynamics-usd-4.1"  
+
+### Best Practices Analyzer for Unified Service Desk 4.1
+
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-4-1](../../includes/pn-unified-service-desk-4-1.md)] is available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample package.
+
+You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
+
+::: moniker-end
+
+::: moniker range="=dynamics-usd-4"  
+
 ### Best Practices Analyzer for Unified Service Desk 4.0
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)] is available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample package.
 
-You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
+You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).
 
-> [!Note]
-> After you upgrade to [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)], you can also download the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package and follow the procedure mentioned in section [Best Practices Analyzer for Unified Service Desk 3.3 or lower version](download-install-best-practices-analyzer.md#best-practices-analyzer-for-unified-service-desk-33-or-lower-version) to install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)].
+::: moniker-end
+
+::: moniker range="=dynamics-usd-3"
 
 ### Best Practices Analyzer for Unified Service Desk 3.3 or lower version
 
@@ -66,6 +97,8 @@ After deploying the sample package using Package Deployer, perform the walkthrou
 > [!Note]
 > The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support is available until [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)]
 
+::: moniker-end
+
 ## See also
 
 [Analyze best practices in Unified Service Desk](../admin/analyze-best-practices-unified-service-desk.md)
@@ -74,7 +107,7 @@ After deploying the sample package using Package Deployer, perform the walkthrou
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[List of rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

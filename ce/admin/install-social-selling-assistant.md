@@ -86,6 +86,5 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
  For instructions how to set up the connection, see: [Connect to Social Engagement](../admin/connect-microsoft-social-engagement.md), [Integrate Social Engagement with Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/?linkid=521682)  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement apps with integration and solutions](../admin/extend-with-integration-solutions.md)   
  [Connect to Microsoft Social Engagement](../admin/connect-microsoft-social-engagement.md)   
  [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md)

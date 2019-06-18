@@ -2,7 +2,7 @@
 title: "Manage search topics in Social Engagement | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Social Engagement."
 keywords: searches, search topic, search rules, gather data
-ms.date: 10/17/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 9167aafd-1882-4187-add5-4bd874d3c21b
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Create or delete a search topic
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 It’s important to start with a clear idea of what kind of online information you want to listen to. Set up new search topics and add at least one rule to each of them to find out what your audience is discussing in their public social media posts. You can also edit search topics you’ve created or delete them if they are no longer relevant.  
   
 > [!TIP]

@@ -3,7 +3,7 @@ title: "Use Liquid tags for a portal in Dynamics 365 for Customer Engagement | M
 description: "Learn about the available liquid tags in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -54,5 +54,5 @@ You can tell the engine to strip all leading or trailing white space by adding a
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Liquid types](liquid-types.md)  
-[Liquid Objects](#liquid-objects)  
+[Liquid Objects](liquid-objects.md)  
 [Liquid Filters](liquid-filters.md) 

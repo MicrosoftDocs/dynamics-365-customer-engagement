@@ -13,8 +13,8 @@ applies_to:
   - "Dynamics 365 for Customer Engagement (online)"
   - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: D167093B-9F05-4184-8342-2F5FB0415ECC
-author: kabala123
-ms.author: kabala
+author: susikka
+ms.author: susikka
 manager: shujoshi
 ---
 

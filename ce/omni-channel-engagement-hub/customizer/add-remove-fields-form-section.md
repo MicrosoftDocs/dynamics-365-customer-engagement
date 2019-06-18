@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
 
 > [!NOTE]
-> This procedure shows how to modify the **Customer Profile** form (card) in the Customer summary form of the **Live Work Item** entity. However, the process is similar for other forms (cards).
+> This procedure shows how to modify the **Customer Profile** form (card) in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms (cards).
 
 1.  Sign in to Microsoft Dynamics 365.
 

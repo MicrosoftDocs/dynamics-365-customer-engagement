@@ -40,11 +40,15 @@ This topic provides information about the location from where you can download v
 
 ::: moniker range="dynamics-usd-4.1"
 
-Unified Service Desk 4.1 is in preview. To download Unified Service Desk 4.1, you must join Dynamics Insider Program. Go to [Experience Dynamics 365](https://experience.dynamics.com/), select **Insider Program**, and sign. Now, select Unified Service Desk 4.1 from the list of preview programs and then select **Join**. 
+|  Version  |  Download Location |
+|------------------|---------------|
+| [!INCLUDE[pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2086721) |
 
-To download older versions of Unified Service Desk, use the version selector and choose a version to see the download links.
+> [!NOTE]
 
-![Select a version using the version selector](media/usd-version-selector.PNG "Unified Service Desk version selector")
+> To download older versions of Unified Service Desk, use the version selector and choose a version to see the download links.
+>
+> ![Select a version using the version selector](media/usd-version-selector.PNG "Unified Service Desk version selector")
 
 ::: moniker-end
 

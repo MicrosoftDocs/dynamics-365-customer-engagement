@@ -3,7 +3,7 @@ title: "Connect to a Dynamics 365 for Customer Engagement apps instance using th
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 08/23/2017
+ms.date: 04/10/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -56,7 +56,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 4. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] splash screen appears. This screen shows information about the configuration data being read by the client in the background. Next, the main window appears and prompts you to enter your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server credentials. Type in your credentials, and then sign in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.  
 
-   Any time you start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and need to sign in again, you don’t have to provide your connection information again. Your credentials are stored securely in the Windows Credential Manager and other connection information is stored in the Default_USD.config file at c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD, and used for subsequent sign-in activities.  
+   Any time you start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and need to sign in again, you don’t have to provide your connection information again. Your credentials are stored securely in the Windows Credential Manager and other connection information is stored in the Default_USD.config file at `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`, and used for subsequent sign-in activities.  
 
    If you want to change your connection information to sign in, select **Change Credentials** in the splash screen. You’ll see the initial sign-in dialog box where you can enter different credentials.  
 
@@ -64,9 +64,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ::: moniker range=">=dynamics-usd-4.1"   
 
-## Single Sign On for Unified Service Desk - Preview
-
-[This section is pre-release documentation of SSO feature and is subject to change.]
+## Single Sign On for Unified Service Desk
 
 Single Sign On (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a improved startup performance and user experience by authenticating users to access Customer Engagement apps without the need for entering the credentials multiple times. This eliminates the need for entering the same password again and minimizes the possibility of login errors and ensures seamless experience.
 
@@ -77,7 +75,9 @@ While signing in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
 By default, the SSO feature is enabled for the Chrome Process. With SSO, you need to enter the credentials only once while signing into [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and Customer Engagement apps server.
 
 > [!Note]
-> The SSO feature is available only for Dynamics 365 and Unified Service Desk.
+> - The SSO feature is available only for Dynamics 365 and Unified Service Desk.
+>
+> - If your organization has enforced the Inactivity session timeout for the agents, then with Chrome Process, the agent is not automatically singed out when the inactivity session timeout expires as SSO is enabled by default. If you want to enforce Inactivity session timeout for the agents, then disable the SSO feature for the Chrome Process. To learn more see, [Disable Single Sign On](#enable-or-disable-single-sign-on).
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Customer Engagement server. By default, **SingleSignOnThreshold** value is 5000 milliseconds. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md). The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value.
 
@@ -105,7 +105,7 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 
 After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, you've to enter the credentials only once.
 
-### Enable/disable Single Sign On
+### Enable or disable Single Sign On
 
 To disable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **False**. If you leave the value bank, then the SSO is still enabled.
 Again, when you want to enable the SSO feature, set the value as **Chrome**.
@@ -179,19 +179,19 @@ To enable/disable the SSO feature, follow the steps:
 
    1. Copy the UnifiedServiceDesk.exe.config file that you just modified to the client installation directory (typically c:\Program Files\Microsoft Dynamics CRM USD\USD) to replace the existing file.  
 
-   2. Remove the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in information from the roaming user profiles on the user’s computer. If the user has signed in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the computer at least once, the following files are created in the c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD directory: Default_USD.config and Default_USD. You must delete both these files for the configuration settings in the UnifiedServiceDesk.exe.config to take effect.  
+   2. Remove the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in information from the roaming user profiles on the user’s computer. If the user has signed in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the computer at least once, the following files are created in the `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk` directory: Default_USD.config and Default_USD. You must delete both these files for the configuration settings in the UnifiedServiceDesk.exe.config to take effect.  
 
    When the user starts the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on their computer:  
 
-- The sign-in dialog box shows the values specified in the UnifiedServiceDesk.exe.config file, and also creates the Default_USD.config file in the c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD directory to store the connection information (except user name and password; this is stored in [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)]). Thereafter, the client application uses the Default_USD.config file to display the sign-in information or to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+- The sign-in dialog box shows the values specified in the UnifiedServiceDesk.exe.config file, and also creates the Default_USD.config file in the `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk` directory to store the connection information (except user name and password; this is stored in [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)]). Thereafter, the client application uses the Default_USD.config file to display the sign-in information or to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
-- For an on-premises [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you have configured to automatically sign in the user without displaying the sign-in dialog box (`<add key="UseDefaultCreds" value="True" />`), the sign-in dialog box is not displayed, but the Default_USD.config file is created in the c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\USD directory to store the connection information (except user name and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+- For an on-premises [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you have configured to automatically sign in the user without displaying the sign-in dialog box (`<add key="UseDefaultCreds" value="True" />`), the sign-in dialog box is not displayed, but the Default_USD.config file is created in the `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk` directory to store the connection information (except user name and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
   If you need to modify the default sign-in information, you must repeat steps 1-6.  
 
 <a name="LogFiles"></a>   
 ## Troubleshoot sign-in issues  
- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. A log file, Login_ErrorLog.log, is created at c:\Users\\*<USER_NAME>*\AppData\Roaming\Microsoft\UnifiedServiceDesk\\*\<Version>* the first time you encounter any sign-in issues in the client application. Thereafter, the log file is used to record information about subsequent sign-in issues. This information can be helpful for troubleshooting issues related to signing in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps from the client application.  
+ [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. A log file, Login_ErrorLog.log, is created at `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>` the first time you encounter any sign-in issues in the client application. Thereafter, the log file is used to record information about subsequent sign-in issues. This information can be helpful for troubleshooting issues related to signing in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps from the client application.  
 
 > [!NOTE]
 > [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] also creates another log file, UnifiedServiceDesk.log, at the same location to log operational errors in the client application. The log file is created the first time you encounter any issues in the client application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
@@ -200,4 +200,4 @@ To enable/disable the SSO feature, follow the steps:
  [Manage access in Unified Service Desk](../../unified-service-desk/admin/security-unified-service-desk.md)   
  [Learn to use Unified Service Desk](../../unified-service-desk/learn-to-use-unified-service-desk.md)   
  [Unified Service Desk Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
- [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+ [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)

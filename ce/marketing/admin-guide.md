@@ -34,8 +34,7 @@ search.app:
 <h2>Set up and get started</h2>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
-<li><a href="purchase-marketing.md" data-raw-source="[Purchase a production version of Marketing](purchase-marketing.md)">Purchase a production version of Marketing</a></li>
-<li><a href="purchase-setup.md" data-raw-source="[Run the setup wizard](purchase-setup.md)">Run the setup wizard</a></li>
+<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 for Marketing</a></li>
 <li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the administration settings](open-advanced-settings.md)">Open the administration settings</a></li>
@@ -65,7 +64,7 @@ search.app:
 <h2>Configure Marketing features</h2>
 <li><a href="marketing-settings.md#config-mkt-pages" data-raw-source="[Configure landing pages](marketing-settings.md#config-mkt-pages)">Configure landing pages</a></li>
 <li><a href="marketing-settings.md#default-marketing-settings" data-raw-source="[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)">Set default data sources for email previews</a></li>
-<li><a href="marketing-settings.md#dci-sync" data-raw-source="[Sync entities for customer insights](marketing-settings.md#dci-sync)">Sync entities for customer insights</a></li>
+<li><a href="marketing-settings.md#dci-sync" data-raw-source="[Sync entities for marketing insights](marketing-settings.md#dci-sync)">Sync entities for marketing insights</a></li>
 <li><a href="events-settings.md" data-raw-source="[Event management settings](events-settings.md)">Event management settings</a></li>
 <li><a href="linkedin-configuration.md" data-raw-source="[Manage LinkedIn Lead Gen](linkedin-configuration.md)">Manage LinkedIn Lead Gen</a></li>
 <li><a href="quota-management.md" data-raw-source="[Manage quotas](quota-management.md)">Manage quotas</a></li>

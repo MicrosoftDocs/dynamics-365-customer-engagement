@@ -2,7 +2,7 @@
 title: "Set properties for a chart or list included in a dashboard | MicrosoftDocs"
 description: "Learn how to set properties for  chart or list included in a dashboard"
 ms.custom: 
-ms.date: 01/08/2019
+ms.date: 04/30/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -20,9 +20,9 @@ manager: "kvivek"
 ---
 # Set properties for a chart or list included in a dashboard
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-To edit a chart or list component from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
+To edit a chart from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   
  You can set the following chart properties from the **Set Properties** dialog box:  
   

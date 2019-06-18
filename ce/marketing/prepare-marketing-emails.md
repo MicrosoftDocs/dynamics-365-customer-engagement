@@ -100,15 +100,28 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
-## Add standard and specialized links to your message
+> [!IMPORTANT]
+> When you're designing email content, you should always try to minimize the size of your messages as much as you can. When it comes to the text and code content (not including referenced image content), we recommend that you always keep your files under 100 KB for the following reasons:
+> 
+> - Emails larger than 100 KB are often flagged as spam by spam filters
+> - Gmail truncates messages after the first 102 KB of source text and coding.
+> - Emails larger than 128 KB can't be delivered by a customer journey (the journey will [fail its error check](#go-live-journey) if it includes messages larger than this)
+> - Large emails take longer to load, which may annoy recipients.
 
-Marketing messages are delivered as HTML and therefore support hyperlinks. Some types of links provide access to special features that are hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], whereas others can simply be standard links to content anywhere on the web. A subscription center link is required before any message can pass the error check and go live, but other links are optional, so you can use them only as needed. The following list describes the types of links that are available. You'll use the assist-edit feature to add most types of dynamic links as text in a text element, while other types of links are added by using a dedicated design-element type (such as an event element).
+> [!NOTE]
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
+
+<a name="required-links"></a>
+
+## Add standard, required, and specialized links to your message
+
+Marketing messages are delivered as HTML and therefore support hyperlinks. Some types of links provide access to special features that are hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], whereas others can simply be standard links to content anywhere on the web. A subscription center link is required before any message can pass the error check and go live, but other links are optional, so you can use them only as needed. The following list describes the types of links that are available. You'll use the [assist-edit](dynamic-email-content.md#assist-edit) feature to add most types of dynamic links as text in a text element, while other types of links are added by using a dedicated design-element type (such as an event element).
 
 - **Standard links**: You can add standard links to any text content by highlighting the link text and selecting **Link** on the text toolbar. You can also add link URLs to many other types of design elements, including images and buttons. When your message goes live, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] replaces each link with a unique redirect URL that targets your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server and identifies the message recipient, message ID, and the destination you specified for the link. When a contact clicks a link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] logs the click and then forwards the contact directly to the URL you specified.
-- **Event, survey, or landing page**: These links go to an event website, survey, or landing page. You can add them as text links in a text element, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page element to your email design and then configure which item the element should link to. To create a text link, select some text in a text element and then use the assist-edit feature.
-- **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts might also be able to update their contact details here. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes a standard subscription center, which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by highlighting the link text and selecting **Link** on the text toolbar, and then using the assist-edit feature to select the subscription center URL from the content settings.
-- **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page  by highlighting the link text and selecting **Link** on the text toolbar, and then using the assist-edit feature to select the subscription center URL from the content settings.
-- **View as a web page**: This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by highlighting the link text, selecting **Link** on the text toolbar, and then using the assist-edit feature to select the view-as-webpage URL from the message object.
+- **Event, survey, or landing page**: These links go to an event website, survey, or landing page. You can add them as text links in a text element, or as colorful call-to-action buttons. To create a button, drag an event, survey, or landing-page element to your email design and then configure which item the element should link to. To create a text link, select some text in a text element and then use the [assist-edit](dynamic-email-content.md#assist-edit) feature.
+- **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts might also be able to update their contact details here. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes a standard subscription center, which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by highlighting the link text and selecting **Link** on the text toolbar, and then using the [assist-edit](dynamic-email-content.md#assist-edit) feature to select the subscription center URL from the content settings.
+- **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page  by highlighting the link text and selecting **Link** on the text toolbar, and then using the [assist-edit](dynamic-email-content.md#assist-edit) feature to select the subscription center URL from the content settings.
+- **View as a web page**: This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by highlighting the link text, selecting **Link** on the text toolbar, and then using the [assist-edit](dynamic-email-content.md#assist-edit) feature to select the view-as-webpage URL from the message object.
 
 For more information about assist edit, content settings, and the message object, see [Add dynamic content to email messages](dynamic-email-content.md).
 
@@ -138,10 +151,10 @@ In addition to the message description and plain-text version, the **Summary** t
 
 The following **Sender and receiver** settings are available:
 
-- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
-- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **From name**: This is the name shown to recipients as the person who sent the email. By default, this is the name of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
+- **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
 - **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
-- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **From address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
+- **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **From address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
 
 <a name="designation"></a>
 
@@ -179,6 +192,15 @@ The following table shows the result of attempting to send a commercial or trans
 
 Your marketing email messages will probably be seen by many potential customers, so you'll want to make sure they look just right when opened, regardless of which combination of device and email software each recipient is using. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you test and evaluate your design before you use it in an email campaign.
 
+> [!IMPORTANT]
+> Previews and test sends give you a fast, convenient way to test your design. However, not all features work with previews and test sends. The following limitations apply:
+> 
+> - Dynamic data from [related records and lookups](dynamic-email-content.md#assist-edit) isn't shown.
+> - [For-each loops](dynamic-email-content.md#for-each) don't render.
+> - [Subscription center links](set-up-subscription-center.md#test-sub-center) will open the subscription center page, but the page won't function.
+> 
+> To test these features, create a simple customer journey that targets a very small segment (such as one that includes a single contact with your email address) and sends the message  you want to test.
+
 ### Send a test message
 
 Select **Test Send** to send your current design to one or more email addresses. This command initiates an [error check](#error-check); provided your message passes the error check, a flyout panel opens asking you to specify the following:
@@ -200,6 +222,9 @@ The content designer provides two types of previews when you're designing a mark
 - **Inbox preview**: Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms.
 
 See the following sections for details about each of these types of previews.
+
+> [!NOTE]
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the standard or inbox preview displays. If necessary, you can use test sends to see how your designs look in specific Outlook configurations.
 
 ### Use the basic preview feature
 
@@ -246,6 +271,8 @@ The following are also confirmed by the check:
 - All referenced images must exist in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
 - The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](marketing-settings.md#authenticate)
+
+<a name="go-live-journey"></a>
 
 ## Go live and set up a customer journey to deliver your message
 

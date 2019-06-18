@@ -2,7 +2,7 @@
 title: "Use segmented solutions and patches to simplify solution updates | MicrosoftDocs"
 description: "Learn how to use solution segmentation to update your solutions"
 ms.custom: 
-ms.date: 01/11/2019
+ms.date: 04/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,7 +24,7 @@ search.app:
 ---
 # Use segmented solutions and patches to export selected entity assets
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 To gain tighter control over what you distribute in solutions and solution patches, use solution segmentation. With solution segmentation, you can export solutions with selected entity assets, such as entity fields, forms, and views, rather than entire entities with all the assets. To create the segmented solutions and patches, you can use the solutions user interface, without writing code.  
   

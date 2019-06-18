@@ -2,7 +2,7 @@
 title: "Add dynamic content to marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 for Marketing"
 keywords: email; marketing email; dynamic content; content settings
-ms.date: 02/01/2019
+ms.date: 06/07/2019
 ms.service:
   - dynamics-365-marketing
 ms.custom: 
@@ -76,6 +76,11 @@ To view, edit, or create a content-settings set:
 
 The **Assist edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
+> [!NOTE]
+> The assist-edit dialog only shows entities and relations that are synced with the marketing insights service. If you need to show information or use relations for one or more entities that aren't listed, then ask your admin to add the relevant entities to the marketing insights service. If you are an admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+
+### Use assist edit to place a dynamic expression
+
 To use assist-edit:
 
 1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Assist edit**  button  **&lt;/&gt;**. The assist-edit dialog opens.
@@ -96,32 +101,46 @@ To use assist-edit:
 
 1. Now you must identify the specific field you want to place. Do one of the following:
     - Select **Related entity** to find a field from an entity that is related to the one you picked on the previous page. Then make the following settings to identify the relation and the field you want to show:
-        - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you will take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to understand the way relationships are represented here, see the text after this procedure.
-        - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here.
+        - **Select relationship**: The relationship defines which second entity you want to hop to, and the path you will take to get there. To search for a relationship, place your cursor in this box and start to type its name until the relationship you want is shown, and then select it. For more information about how to understand the way relationships are represented here, see [the next section](#assist-edit-relations).
+        - **Select field**: Choose the field name you want to show. As with the relationship, you can also search here. This drop-down list is only available if you've chosen an [N:1 relationship](#assist-edit-relations).
     - Select **Property** to place a field directly from the entity you chose on the previous page. As with the relationship, you can also search here.
-1. At the bottom of the dialog, you now see the final expression. Select **OK** to place that expression.
+1. At the bottom of the dialog, you now see the [final expression](#assist-edit-expressions). Select **OK** to place that expression.
 
-When you are selecting a relationship in assist-edit, the options are displayed using one of the following naming convention:
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
-_PrimaryEntity_ **->** _FieldName_ **(**_SecondaryEntity_**)**  
-_FieldName_ **(**_SecondaryEntity_**)** **->** _PrimaryEntity_
+<a name="assist-edit-relations"></a>
+
+### How assist-edit presents database relationships
+
+When you are selecting a relationship in assist-edit, the options are displayed using one of the following naming conventions:
+
+- ***FieldName (PrimaryEntity) -> SecondaryEntity***  
+    When the primary entity is in parentheses and shows a field name, it’s a *many-to-one* (N:1) relation that leads to a single record from the secondary entity. You should therefore usually use the second drop-down list to choose a field from the secondary entity to display with your expression.
+- ***PrimaryEntity -> FieldName (SecondaryEntity)***  
+    When the secondary entity is in parentheses and shows a field name, it’s a *one-to-many* (1:N) relation that can lead to multiple records from the secondary entity. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values form each available related record.
+- ***PrimaryEntity -> SecondaryEntity***  
+    When neither entity is in parentheses, it’s a *many-to-many* (N:N) relation, which can connect multiple records in both directions. You therefore can’t choose a field (the second drop-down list is disabled) and must instead use this relation as part of a [for/each loop](#for-each) to display values from each available related record.
 
 Where:
 
-- **PrimaryEntity** is an entity that uses a value from the secondary entity. For example, an *account* (primary entity) can show a value from a *contact* (secondary entity) in its *primary contact* field (field name).
-- **FieldName** is always shown next to the secondary entity (which is in parenthesis). This is the name of the field from the primary entity that holds the ID of a record from the secondary entity (but which usually displays the value of a field other than the ID from the secondary entity, such as its name). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
-- **SecondaryEntity** is always shown in parenthesis. This is the entity that provides the field that you want to show with your expression.
-- The direction (indicated by **->**) has no effect, so it doesn't matter whether the primary or secondary entity is listed first.
-
-For example:
-
-- `Company Name (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Company Name` field. In other words, it finds the company (account) that the contact works for.
-- `Managing Partner (Contact) -> Account`: This relationship is used by the `Contact` entity to display information from the `Account` entity in the contact's `Managing Partner` field. In other words, it finds the company (account) that is the managing partner for a contact.
-- `Primary Contact (Account) -> Contact`: This relationship is used by the `Account` entity to display information from the `Contact` entity in the contact's `Primary Contact` field. In other words, it finds the primary contact associated with the account.
-- `Contact -> Contact (Event Registration)`: This relationship is used by the `Event Registration` entity to display information from the `Contact` entity in the contact-registration record's `Contact` field. In other words, it finds the contact that registered for an event.
+- ***PrimaryEntity*** is an entity at the starting side of the relationship. It is always shown on the left side of the arrow. This is the entity you chose on the previous page of the assist-edit dialog. For example, a *Contact* (primary entity) can be related to an *Account* (secondary entity) through the contact's *Company Name* field (field name); this would be shown as: **Company Name (Contact) -> Account**.
+- ***FieldName*** is always shown next to an entity name (which is in parenthesis). This is the name of the field through which the relation is established. The named field belongs to the entity in parenthesis, and displays a value from the entity of the other side of the arrow (but actually contains the ID of the related record that value is drawn from). In some cases, you'll notice a relationship between the same two entities, each of which flows through a different field.
+- ***SecondaryEntity*** is the destination of the relationship. It is always shown on the right side of the arrow. The value(s) that you display with your final expression will come from a field belonging to the secondary entity.
 
 > [!NOTE]
-> The entities included in the assist-edit dialog are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
+> For N:N relations, no field value is shown. That means that if you have more than one N:N relation between the same two entities, you'll see multiple identical-looking relations in the drop-down list. This situation is very rare, but if you see it, you'll have to use trial-and-error to identify the correct relation to use. To confirm, you can check the [resulting expression](#assist-edit-expressions) to see if it looks like you chose the right relation (relations are shown differently here and may provide a clue), or set up a test message that includes both versions of the N:N relation and use a test customer journey to deliver it to yourself.
+
+Here are a few examples:
+
+- **Company Name (Contact) -> Account**: This relationship is used by the **Contact** entity to display information from the **Account** entity in a contact record's **Company Name** field. In other words, it links to the company (account) that the contact works for.
+- **Managing Partner (Contact) -> Account**: This relationship is used by the **Contact** entity to display information from the **Account** entity in a contact record's **Managing Partner** field. In other words, it links to the company (account) that is the managing partner for a contact.
+- **Contact -> Primary contact (Account)**: This relationship is used by the **Account** entity to display information from the **Contact** entity in an account record's **Primary Contact** field. In other words, it finds all of the accounts where the current contact is assigned as the primary contact.
+- **Contact -> Contact (Event Registration)**: This relationship is used by the **Event Registration** entity to display information from the **Contact** entity in an event-registration record's **Contact** field. In other words, it finds all of the event registrations made by (or for) the current contact.
+
+<a name="assist-edit-expressions"></a>
+
+### Expressions created by assist-edit
 
 Assist-edit creates an expression that uses a format such as the following:
 - `{{EntityName.FieldName}}`
@@ -148,14 +167,15 @@ This expression finds the name of the account for the company where a contact wo
 - `{{contact.contact_account_msa_managingpartnerid.name}}`  
 This expression finds the name of the managing partner for the account for the company where a contact works.
 
-> [!IMPORTANT]
-> You can use, at most, two hops (periods) in your field expressions. Some fields (such as email to and from fields), only support one hop (entity and field, no relations).
+Once you have an expression that works, you can copy and paste it anywhere. You don't have to use assist-edit every time.
 
 > [!IMPORTANT]
-> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+> You can have, at most, two hops (periods) in your field expressions. Don't try to create more complex expressions by adding more hops to the expressions produced with assist-edit.
 
 > [!TIP]
-> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity, relation, and field names match those used in the database and will help you avoid misspellings.
+> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code rather than try to type it from scratch. This will ensure that the entity, relation, and field names match those used in the database and will help you avoid misspellings.
+
+<a name="dynamic-from"></a>
 
 ## Dynamic values in To, From-name, From-address, and Reply-to fields
 
@@ -163,10 +183,35 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 
 ![Sender and receiver settings for email messages](media/email-advanced-header-settings.png "Sender and receiver settings for email messages")
 
-Though these settings provide assist-edit buttons, you must only place static values, or values from the contact (context) entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities, relations, or lookup-field values.
+One typical way to take advantage of this feature is to set the **From name** and **From address** to the owner of the contact record. Then, by assigning the owner of each contact record to the salesperson managing that contact, recipients will receive marketing emails that show a from address of somebody they may know, which can greatly increase open rates. Here's how:
 
-> [!TIP]
-> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
+1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the **User (systemuser)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+1. Open your email message and go to the **Summary** tab.
+1. Delete the contents of the **From name** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
+1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
+1. On the second page of the assist-edit dialog, select **Related entity** and then:
+    - Set the top drop-down list (relationship) to **Owning User systemuser (Contact) -> User**.
+    - Set the bottom drop-down list (field) to **Full name**.
+1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.fullname}}`.
+1. Delete the contents of the **From address** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
+1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
+1. On the second page of the assist-edit dialog, select **Related entity** and then:
+    - Set the top drop-down list (relationship) to **Owning User systemuser (Contact) -> User**.
+    - Set the bottom drop-down list (field) to **Primary email**.
+1. Select **OK** to place the expression, which should be: `{{contact.contact_systemuser_owninguser.internalemailaddress}}`.
+
+You can use similar techniques to place the owning user's name or email address anywhere in the message content. You could do this using assist-edit, or copy/paste the handlebar expressions, or even type the handlebar expressions manually.
+
+<!-- > [!TIP]
+> You can include conditional statements in the **Sender and receiver** fields—for example, to use `contact.emailaddress2` if `contact.emailaddress1` is empty. -->
+
+## Use dynamic values to choose an image source or link
+
+You can use a dynamic expression to define the source URL for image elements. To do so, select the image element, go to its **Properties** panel and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to the **Source** field to place dynamic text as part of the URL. You'll typically mix this with static text to assemble a complete URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient.
+
+You can likewise use assist-edit to help construct a dynamic expression for setting a **Link** destination for the image.
+
+<a name="record-ids"></a>
 
 ## Find record IDs
 
@@ -195,15 +240,15 @@ Conditional (if-then-else) statements display content depending on whether one o
 Conditional statements take the following form:
 
  ```Handlebars
-{{#if (<operator> <value1> <value>)}}
-      Content displayed when the expression is true
-{{else if (<operator> <value1> <value>)}}
-      Content displayed when the first expression is false and the second one is true
+{{#if (<operator> <value1> <value2>)}}
+    Content displayed when the expression is true
+{{else if (<operator> <value1> <value2>)}}
+    Content displayed when the first expression is false and the second one is true
 .
 .
 .
 {{else}}
-      <p>Content displayed when all expressions are false</p>
+    Content displayed when all expressions are false
 {{/if}}
 ```
 
@@ -277,6 +322,8 @@ For example, this conditional statement could be used to establish the language 
 > {{#if (eq contact.customernumber 1932333)}}
 > ```
 
+<a name="for-each"></a>
+
 ### For-each loops
 
 For-each loops let you step through a collection of records that are related to a specific current record—for example, to provide a list of all the recent transactions associated with a given contact. You can add the code required to create these statements by placing it within a text element, or by placing custom-code elements in between the other design elements. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [How to enter advanced dynamic content in the designer](#enter-code)
@@ -312,7 +359,10 @@ For example, your database could include a list of products that a contact has o
 </ul>
 ``` 
 
-In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
+In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the marketing insights service (as usual).
+
+> [!IMPORTANT]
+> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 <a name="enter-code"></a>
 
@@ -326,8 +376,8 @@ You must be careful when entering advanced dynamic code in the designer because 
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
-- The relationship name that you use when creating loops or placing lookup values must match the one used in the customer-insights services. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
-- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. To test your related-field expressions, set up a simple customer journey to deliver the message to yourself.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing insights service. This relationship name is not necessarily the same as the one used to customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
+- Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):
 

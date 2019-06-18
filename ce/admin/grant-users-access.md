@@ -1,7 +1,7 @@
 ---
 title: "Grant users access to Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/14/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -34,7 +34,7 @@ To have users up and running in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-onli
  In Customer Engagement apps, populate the service with your organization’s data, including users and their security roles, business units, and any existing [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data that you want to import from other applications or services. If your organization uses business units, assign users to the appropriate business unit, and then assign a security role to each user. Customer Engagement apps includes predefined security roles that aggregate a set of user permissions to simplify user security management. An organization can define additional roles or edit predefined security roles to meet its unique security needs. For more information about security roles in Customer Engagement apps, see [Security roles and privileges](../admin/security-roles-privileges.md).  
   
 > [!IMPORTANT]
->  Users can’t access Customer Engagement apps until they’ve been assigned at least one security role. See [Step Two: Assign security roles in Dynamics 365 for Customer Engagement apps (online)](../admin/grant-users-access.md#BKMK_StepTwo).  
+>  When you assigned any of the Customer Engagement licenses or the Microsoft Flow license to a user,  the user is automatically added to all your environments, however users can’t access any Customer Engagement apps until they’ve been assigned at least one security role. See [Step Two: Assign security roles in Dynamics 365 for Customer Engagement apps (online)](../admin/grant-users-access.md#BKMK_StepTwo).  
   
 <a name="BKMK_O365CRMroles"></a>   
 

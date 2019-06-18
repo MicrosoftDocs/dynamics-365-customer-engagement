@@ -2,7 +2,7 @@
 title: "Use Unified Service Desk Administrator app to administer and manage Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to use the Unified Service Desk Administrator app to administer Unified Service Desk client."
 keywords: 
-ms.date: 08/17/2018
+ms.date: 04/10/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -29,11 +29,17 @@ search.app:
 monikerRange: ">=dynamics-usd-4"
 ---
 
+::: moniker range="dynamics-usd-4"
 # Preview feature: Administer and manage Unified Service Desk using the Administrator app
+::: moniker-end
+
+::: moniker range="dynamics-usd-4.1"
+# Administer and manage Unified Service Desk using the Administrator app
+::: moniker-end
 
 ## Overview
 
-With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
+You can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app is built on the Unified Interface framework, which has a new user experience - **Unified Interface** - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
 
@@ -49,7 +55,7 @@ The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../
 
 | Dynamics 365 for Customer Engagement apps Version | Unified Service Desk Version | Unified Service Desk Administrator App  |
 |:--------------------:|:----------------------------:|:---------------------------------------:|
-| V 9.x                | 4.0                          | Yes                                     |
+| V 9.x                | 4.X                          | Yes                                     |
 
 ### Upgrade installation of Dynamics 365 for Customer Engagement apps and Unified Service Desk
 
@@ -57,9 +63,9 @@ When you are upgrading Dynamics 365 for Customer Engagement apps version and Uni
 
 | Dynamics 365 for Customer Engagement apps version | Unified Service Desk version |Import solution to get Unified Service Desk Administrator App  | 
 |:--------------------:|:----------------------------:|:---------------------------------------:|
-| **V 8.x** to **V 9.x**       | 4.0                          | Yes                                     | 
-| **V 7.x** to **V 9.x**       | 4.0                          | Yes                                     | 
-| **V 6.x** to **V 9.x**       | 4.0                          | Yes                                     |
+| **V 8.x** to **V 9.x**       | 4.X                       | Yes                                     | 
+| **V 7.x** to **V 9.x**       | 4.X                          | Yes                                     | 
+| **V 6.x** to **V 9.x**       | 4.X                          | Yes                                     |
 
 ## Download and install Unified Service Desk Administrator app
 
@@ -71,7 +77,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ### Install the Unified Service Desk Administrator app solution
 
-1. Download [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0 and Package Deployer and save them on your computer. See [Download Unified Service Desk](../download-unified-service-desk.md).
+1. Download [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and Package Deployer and save them on your computer. See [Download Unified Service Desk](../download-unified-service-desk.md).
 
 2. Run the downloaded file to extract the Dynamics 365 for Customer Engagement Package deployer into a folder.
 
@@ -194,6 +200,6 @@ User information lets you identify the currently signed-in user with the first n
 ## See also  
  [Hosted control types, action, and event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
  
-[Configure your agent application using Unified Service Desk](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
+[Overview of configuring agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)

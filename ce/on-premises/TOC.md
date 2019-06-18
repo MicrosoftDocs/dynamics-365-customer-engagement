@@ -81,6 +81,7 @@
 ##### [Microsoft Dynamics 365 Report Authoring Extension XML configuration file](dynamics-365-report-authoring-extension-xml-config-file.md)
 ###### [Sample Dynamics 365 Report Authoring Extension XML configuration file](sample-report-authoring-extension-xml-config-file.md)
 ### [Post-installation and configuration guidelines](post-installation-configuration-guidelines-dynamics-365.md)
+### [Available apps for Dynamics 365 for Customer Engagement (on-premises)](available-apps.md)
 ### [Uninstall, repair, and change](uninstall-repair-and-change-microsoft-dynamics-365.md)
 #### [Uninstall, change, or repair Dynamics 365 Server](uninstall-change-repair-dynamics-365-server.md)
 #### [Uninstall or repair Dynamics 365 Reporting Extensions](uninstall-repair-dynamics-365-reporting-extensions.md)
@@ -125,5 +126,8 @@
 #### [Failure recovery](microsoft-dynamics-365-failure-recovery.md)
 ##### [SQL Server failure recovery](sql-server-failure-recovery.md)
 ##### [Dynamics 365 Server failure recovery](microsoft-dynamics-365-server-failure-recovery.md) 
+### [Document management with SharePoint](doc-management-sharepoint.md)
+#### [Server-based authentication with Dynamics 365 (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
+#### [Server-based authentication with Dynamics 365 (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
 <!-- ### [Connect to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md) -->
 

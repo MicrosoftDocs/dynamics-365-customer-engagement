@@ -1,16 +1,16 @@
 ---
 title: "Dynamics 365 for Sales troubleshooting guide for sales people | MicrosoftDocs"
 description: "Follow the instructions in this topic to troubleshoot the issues you may face while working on Dynamics 365 for Sales."
-keywords: Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution
-ms.date: 07/20/2018
+keywords: "Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution"
+ms.date: 04/10/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 6a381b64-497c-476a-8d4c-98bf5da742b5
 author: shubhadaj
 ms.author: shujoshi
@@ -43,7 +43,7 @@ There could be multiple errors you may get while you qualify a lead.
 3.  [Active stage is not on 'lead' entity](troubleshooting.md#NoActiveStage)
 4.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDenied)
 
-The following sections talk about each of these errors and how you can resolve them.
+The following sections describe each of these errors and how you can resolve them.
 
 <a name="duplicate"> </a>
 #### 1. Duplicate warning - There might already be a match for this account or contact. If so, please select it.
@@ -59,6 +59,9 @@ When the lead is qualified to an opportunity, it automatically creates a corresp
 **Resolution:**
 
 On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, click **Continue**.
+
+> [!NOTE]
+> When you qualify a lead through the Leads grid, the system creates an account or contact even though a duplicate record exists. By design, the rule that detects the duplicate records gets disabled. However, when you qualify a lead through the lead record form, the duplicate detection rule works. The rule prompts you with a warning to resolve the conflict if any duplicate records for account or contact are found.
 
 <a name="CompleteSteps"> </a>
 #### 2. To move to the next stage, complete the required steps
@@ -112,14 +115,14 @@ To close an opportunity, open the opportunity record, and on the command bar, se
 
 ![Close opportunity as Won or Lost](media/close-opportunity.png "Close opportunity as Won or Lost")
 
-### Why am I not able to closing an opportunity?
+### Why am I not able to close an opportunity?
 
-Here are some errors that you may see while you close an opportunity. 
+Here are some errors that you may see when you close an opportunity. 
 1.  [The opportunity cannot be closed](troubleshooting.md#CannotBeClosed)
 2.  [Access denied or Insufficient permissions](troubleshooting.md#AccessDeniedOpportunity)
 3.  [The opportunity has already been closed](troubleshooting.md#AlreadyClosed)
 
-The following sections talk about each of these errors and how you can resolve them.
+The following sections describe each of these errors and how you can resolve them.
 
 <a name="CannotBeClosed"> </a> 
 #### 1. The opportunity cannot be closed
@@ -130,7 +133,7 @@ There may be active or draft quotes associated with the opportunity.
 
 **Resolution:**
 
-1.	In the Opportunity record, go to the Quotes tab (or Quotes line item tab).
+1.	In the Opportunity record, go to the **Quotes** tab (or **Quotes line item** tab).
 2.	Make sure none of the quotes are in the Draft or Active status.
 
     ![Quotes in the Draft status](media/quotes-in-draft-state.png "Quotes in the Draft status")
@@ -158,7 +161,7 @@ The opportunity that you are trying to close is already marked as Won or Lost.
 
 If you want to make changes to the already-closed opportunity, reopen the opportunity, make changes, and close it again.
 
-### I am unable to edit an opportunity?
+### Why am I not able to edit an opportunity?
 
 If you have already closed an opportunity as Won or Lost, it becomes read-only and you can no more change it. If you want to make any changes to the opportunity, reopen the opportunity. 
 
@@ -166,7 +169,7 @@ To reopen, open the opportunity, and on the command bar, select **Reopen Opportu
  
 ![Reopen opportunity](media/reopen-opportunity.png "Reopen opportunity")
 
-### I am unable to add products to opportunity? 
+### Why am I not able to add products to opportunity? 
 
 Here are some errors that you may see while you add products to an opportunity. 
 1.  [You must select a price list before attempting to add a product](troubleshooting.md#SelectPriceList)
@@ -183,7 +186,7 @@ You've not selected a price list for the opportunity. Selecting a price list is 
 **Resolution:**
 
 1.  In the Opportunity record, go to the **Product Line Item** tab.
-2.  In the Price List field, select a price list for the opportunity.  
+2.  In the **Price List** field, select a price list for the opportunity.  
 
 <a name="ProductName"></a>
 #### 2. You must provide a value for product description.
@@ -206,6 +209,69 @@ While adding an existing product, you selected a product in the **Draft** status
 **Resolution:**
 
 Make sure the product you want to add is in the Active state, and then add the product.   
+
+
+## Forecast definition issues and resolution
+
+### Why am I unable to publish forecast definition? 
+
+**Reason**
+
+There might be several reasons pertaining to publishing failure. The following are some examples that might have caused the failure: 
+- Some users under the selected hierarchy may not be assigned the forecast manager or forecast user role. 
+- Some users are disabled under the selected hierarchy when you publish the forecast definition.  
+
+**Resolution**
+
+1. Go to **Settings** > **System Jobs**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Open settings page](media/troubleshooting-forecast-settings.png  "Open settings page")
+    
+    The system jobs page opens.
+
+2. Identify the forecast definition publishing job that is failed. It is difficult for you to identify the job in the list of system jobs, so we recommend you to use the **Regarding** column to identify the failed job with forecast definition's title. In this example, the failed forecast definition title is **Bert FY'19**.
+
+    > [!div class="mx-imgBorder"]
+    > ![System jobs page](media/troubleshooting-forecast-system-jobs.png "System jobs page")
+    
+3. Select the System Job Name to view the error details. In this example, we have selected the system job name that is corresponding to **Bert FY'19**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select failed system job](media/troubleshooting-forecast-system-job-select.png "Select failed system job")
+
+4. In the information page, you can see the error message highlighted in **Yellow** with the reason why the forecast definition publishing is failed. Select **Details** section to further drill-down in to the error details. In this example, you can see that the error has occurred due to insufficient user privileges in Bart's hierarchy. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Failed reason in information page](media/troubleshooting-forecast-system-job-failed-reason.png "Failed reason in information page")
+
+5. Take the necessary actions to resolve the error and republish the forecast definition. 
+    
+    In this example to resolve the error, assign Forecast manager or Forecast user roles to all the user under Bart's hierarchy as required and republish the forecast definition.
+
+### Why am I unable to recalculate forecast?
+
+**Reason**
+
+There might be several reasons pertaining to the failure of recalculation of the forecast. The following are some examples that might have caused the failure: 
+- User roles (forecast manager or forecast user) might have been removed under the selected hierarchy after the forecast was created. 
+- In the **Forecast metric** value, for **Revenue** field, the **Rollup Fields** value is changed.
+
+**Resolution**
+
+1. Go to **Change area** and select **Sales** > **Forecasts**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select forecasts](media/troubleshooting-forecast-changearea-sales-forecasts.png "Select forecasts")
+
+    A list of published forecasts are displayed.
+
+2. In **Last recalculated on** column displays a error icon corresponding to recalculation failed forecast. Place cursor over the icon and a message/reason for the error is displayed.
+ 
+    > [!div class="mx-imgBorder"]
+    > ![View recalculation failed icon](media/troubleshooting-forecast-recalculation-failed-error-message.png "View recalculation failed icon")
+
+4. Take necessary actions to resolve the error and recalculate forecast. 
 
 
 ### See Also

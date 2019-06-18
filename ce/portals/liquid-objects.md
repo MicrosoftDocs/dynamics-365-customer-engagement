@@ -3,7 +3,7 @@ title: "Use Liquid objects for a portal in Dynamics 365 for Customer Engagement 
 description: "Learn about the available liquid objects in a portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 12/03/2018
+ms.date: 04/08/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -324,7 +324,7 @@ A note is an entity object that provides access to the attributes and relationsh
 |     url      |                                                                                                                                   Returns the URL path for the built-in portal annotation attachment handler. If the user has permission, and the note has an attached file, a request to this URL will download the note file attachment.                                                                                                                                    |
 
 >[!Note]
-> [Additional filters](#additional-filters)                     
+> [Additional filters](liquid-filters.md#additional-filters)                     
 
 ### Option Set Value
 
@@ -1379,6 +1379,5 @@ Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
 [Liquid types](liquid-types.md)  
-[Liquid Objects](#liquid-objects)  
 [Liquid Tags](liquid-tags.md)  
 [Liquid Filters](liquid-filters.md)  

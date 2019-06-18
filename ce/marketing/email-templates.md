@@ -2,7 +2,7 @@
 title: "Work with email, page, and form templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
 keywords: designer; email; preview; template; Litmus; marketing page; marketing form
-ms.date: 04/01/2018
+ms.date: 05/07/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -44,10 +44,10 @@ The first thing you do each time you create a new message, page, or form is to c
 
 When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 
-You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message, page, or form as a template, or work directly in the relevant templates area to create them. You'd typically start with a design based on an existing template, customize the design as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select a template** dialog box shown to users each time they create a new email, page, or form design.
+You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing email or customer journey as a template by selecting **Save as template** while the email or journey is open, or work directly in the relevant templates area to create them from scratch. You can also create page and form templates, but you can only do so by creating them in the templates area&mdash;no **Save as template** buttons are provided for these, but you could copy/paste the HTML from an existing page or form into a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select a template** dialog box shown to users each time they create a new email, page, or form design.
 
 > [!IMPORTANT]
-> The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&nbsp;otherwise your customizations could be overwritten during the next update.
+> The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&mdash;otherwise your customizations could be overwritten during the next update.
 
 ## Style a template
 
@@ -97,6 +97,7 @@ The following known issues apply to the out-of-the-box email templates and custo
   - Borders around buttons are not supported.
   - Rounded corners might not be rendered correctly.
   - Background images aren't supported when they have text or button overlays.
+  - Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements. These effects can't be simulated by the designer or preview displays. If necessary, you can use [test sends](prepare-marketing-emails.md#preview-message) to see how your designs look in specific Outlook configurations.
 - **T-Online email clients** will render two buttons, regular **Button** and **VML** markup.
 - The **Android 4.4 email client** shows only about 60&nbsp;percent of the template width. We haven't been able to verify whether horizontal scrolling is possible. As far as we know, this only affects the native Android client, not the native clients included with phones from most manufacturers, such as Samsung.
 - **SFR.fr email clients** display a background color for some links.
@@ -106,10 +107,11 @@ The following known issues apply to the out-of-the-box email templates and custo
 
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides both a simulated preview and an inbox preview for email messages. Inbox previews are more accurate because they're rendered for specific email clients. Inbox previews are provided by a Microsoft partner called Litmus Software, Inc. Litmus previews are created by rending your message on actual email clients and then returning a screenshot of the result to you. The following known issues can occur with inbox previews.
 
-- **Missing footer** : Litmus screenshots sometimes fail to capture the entire message height.
-- **Unable to scroll** : The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
-- **The message is too high** : Sometimes Litmus renders extra content at the end of the email message.
-- **Only half of the message is visible in the preview** : This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
+- **Missing footer**: Litmus screenshots sometimes fail to capture the entire message height.
+- **Unable to scroll**: The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
+- **The message is too high**: Sometimes Litmus renders extra content at the end of the email message.
+- **Only half of the message is visible in the preview**: This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
+- **Outlook previews don't reflect custom plugins**: Outlook supports local customizations and plugins that can, in some cases, affect the way messages are rendered. Litmus provides screenshots based on a standard Outlook installation&mdash;without considering the affect of custom plugins and other local customizations. If necessary, you can use [test sends](prepare-marketing-emails.md#preview-message) to see how your designs look in specific Outlook configurations.
 
 ### See also
 
