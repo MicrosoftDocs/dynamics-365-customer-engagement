@@ -65,7 +65,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
 
     Make the following settings:
 
-    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid.
+    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid. Please note that the signature needs to be valid for as long as you intend to run the export. The export will stop immediately when the signature expires.
     - Enable all four **Permissions** by selecting their check boxes.
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
