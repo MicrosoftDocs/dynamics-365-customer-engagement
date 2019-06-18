@@ -453,7 +453,7 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
 -   Switch to the **Dynamics 365 Contacts** tab on the top of screen to view the list of all your active Dynamics 365 contatcs. Enter a value in the search box. You can search for data stored in the **Full name**, **Title**, **Department**, and **Business address** fields. You can’t search for data stored in any of the other fields like **Business phone**, **Account** or **Email**.
 
-    ![Dynamics 365 App for Outlook D365 Contact Search](../outlook-app/media/search-contacts.png "Dynamics 365 App for Outlook D365 Contact Search")  
+    ![Dynamics 365 App for Outlook Dynamics 365 Contact Search](../outlook-app/media/search-contacts.png "Dynamics 365 App for Outlook Dynamics 365 Contact Search")  
 
 ### Filter by all contacts, tracked contacts, or untracked contacts  
 
