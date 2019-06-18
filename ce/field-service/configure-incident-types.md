@@ -77,7 +77,7 @@ Most importantly, adding an incident type to a work order can add other details 
 
 The value organizations get from using incident types is they codify issues, procedures, and resolutions and help standardize processes across geographies and business lines. This ensures all field technicians are performing the same actions to resolve work orders, and if better procedures are discovered, the incident type is updated and implemented across the entire organization. Another benefit is using incident types saves time creating work orders. Without using incident types, the customer service reps or dispatchers creating work orders would have to manually add the details. Consider the Connected Field Service scenario where IoT alerts create work orders. If you correlate IoT alerts with incident types, your organization can have a situation where IoT alerts create work orders with much of the details filled in.
 
-Other important features are (1) multiple incident types can be added to a work order to define multiple issues or procedures that need to be completed (2) each incident type can be related to a customer asset to build service history (3) relating incident types 
+Other important features of incident types are (1) multiple incident types can be added to a work order to define multiple issues or procedures that need to be completed (2) each incident type can be related to a customer asset to build service history and (3) relating incident types to requirement group templates allows you to auto-populate multiple requirements for a work order and schedule the work order to multiple resources.
 
 
  ## Prerequisites
