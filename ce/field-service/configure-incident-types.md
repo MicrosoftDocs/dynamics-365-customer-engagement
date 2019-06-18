@@ -73,7 +73,7 @@ As an example, an incident type can be:
 - a common customer complaint or request; "The building temperature is too hot"
 - a specific procedure; "Perform stress test"
 
-Most importantly, adding an incident type to a work order can add other details such as duration and add related records including work order service tasks, work order products, and work order services. This means incident types can **effectively serve as work order templates** that pre-populate information, which can be manually edited as needed.
+Most importantly, adding an incident type to a work order can add other details such as duration and add related records including work order service tasks, work order products, work order services, and characteristics (skills). This means incident types can **effectively serve as work order templates** that pre-populate information, which can be manually edited as needed.
 
 The value organizations get from using incident types is they codify issues, procedures, and resolutions and help standardize processes across geographies and business lines. This ensures all field technicians are performing the same actions to resolve work orders, and if better procedures are discovered, the incident type is updated and implemented across the entire organization. Another benefit is using incident types saves time creating work orders. Without using incident types, the customer service reps or dispatchers creating work orders would have to manually add the details. Consider the Connected Field Service scenario where IoT alerts create work orders. If you correlate IoT alerts with incident types, your organization can have a situation where IoT alerts create work orders with much of the details filled in.
 
@@ -97,9 +97,22 @@ Other important features of incident types are (1) multiple incident types can b
  > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-incident-types-navigation.png)
 
-The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. As an example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, you simply create this service task once and associate it to the relevant incident types. This means there is one list of unique service tasks that are added to incident types and this creates **incident type service task** records.
+The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. As an example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, you simply create this service task once and associate it to the relevant incident types. This means there is one list of unique service tasks that are added to incident types and this creates **Incident Type Service Task** records.
 
  ## Create an incident type
+
+ To create an incident type go to **Field Service > Settings > Incident Types > +New**
+
+ Enter a **Name** and a **Description**.
+
+ **Default Work Order Type** - the work order type selected here will populate the work order type field on the work order when this incident type is entered as the primary incident type. It will overwrite a previously entered work order type. This saves time and is convenient as an incident type should be related to a larger category. Entering a work order type will not populate an incident type.
+
+> [!Note]
+> **Pro Tip:** A default Price List can be added to a Work Order Type. THis means you can add a primary incident type that adds a work order type and the work order type will add a price list. this further saves time with automatic data population.
+
+**Estimated Duration** - Enter a duration for this incident type. If you add multiple incidents to a work order, the work order duration will be the total of all incident durations as reflected in the duration of the resource requirement related to the work order. Service tasks can each have a duration as well, in which case the estimated duration of the incident type will be the sum total of the incident service task durations. The only way you can utilize the estimated duration field as the duration of the incident type is if 1) you do not add incident type service tasks or 2) none of the incident type service tasks you add have durations. If this incident type is set as the primary incident type of a work order this value will populate the primary incident type duration field.
+
+**Copy Incident Items to Agreement** - 
 
  ## add an incident type to a work order
 
