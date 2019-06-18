@@ -22,11 +22,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Import, update, and upgrade solution 
+# Import solution 
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. You can import the default solution only to the organization from which you exported it, but not into a different organization.  
+You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. 
 
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
 
@@ -51,8 +51,8 @@ search.app:
 
 <a name="BKMK_UpdateSolutions"></a>   
 
-## Update solutions  
- There are times when you may wish to install an update to an existing managed solution. The procedure is similar to installing a new managed solution, except you will get some different options. If you are updating a solution you got from someone else, you should get guidance from the solution publisher about which options you should choose.  
+## Update or upgrade solution  
+There are times when you may wish to install an update to an existing managed solution. The procedure is similar to installing a new managed solution, except you will get some different options. If you are updating a solution you got from someone else, you should get guidance from the solution publisher about which options you should choose.  
 
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
 
@@ -64,105 +64,38 @@ search.app:
 
 5. You can view information about the solution before you choose **Next**. This page will display a yellow bar saying **This solution package contains an update for a solution that is already installed**.  
 
-6. You will have the following options:  
+6. You will have the following Solution Action options:  
+   - **Upgrade (recommended)
+        This option upgrades your solution to the latest version and rolls up all previous patches in one step.  Any components associated to the previous solution version that are not in the newer solution version will be deleted. This option is the recommended option as it will ensure that your resulting configuration state is consistent with the importing solution including removal of components that are no longer part of the solution.
+        
+   - **Stage for Upgrade**
+        This option upgrades your solution to the higher version, but deders the deletion of the previous version and any related partches until you apply a solution upgrade later.  This option should only be selected if you want to have both the old and new solutions installed in the system concurrently so that you can do some data migration before you complete the solution upgrade which will delete the old solution and any components that are not included in the new solution.
+        
+   - **Update (not recommended)**
+        This option replaces your solution with this version.  Components that are not in the newer solution will not be deleted and will remain in the system.  This option is not recommended as your destination environment will differ in configuration from your source environment and could cause issues that are difficult to reproduce and diagnose.
+        
+7. You will have the following options customization options:
 
    - **Maintain customizations (recommended)**  
 
         Selecting this option will maintain any unmanaged customizations performed on components but also implies that some of the updates included in this solution will not take effect.  
 
-   - **Overwrite Customizations**  
+   - **Overwrite Customizations (not recommended)**  
 
-        Selecting this option overwrites any unmanaged customizations previously performed on components included in this solution. All updates included in this solution will take effect.  
+        Selecting this option will overwrite or remove any unmanaged customizations previously performed on components included in this solution. This option does not affect components that support merge behavior (forms, sitemap, ribbon, app modules).  Components that have other managed solutions on top of the existing solution you are replacing do also still remain on top and are not affected by this option.  
 
-     Choose the appropriate option and then choose **Next**.  
+8. You will have the following option available to enable for Post Import Actions:
+   - **Enable any SDK message processing steps included in the solution**  
+        Selecting this option will enable plugins and workflows that are included in the solution.
+        
+9. Choose **Next**.  
 
-7. You may need to wait a few moments while the solution import completes. If it is successful, you can view the results and choose **Close**.  
+10. You may need to wait a few moments while the solution import completes. If it is successful, you can view the results and choose **Close**.  
 
    If you have imported any changes that require publishing, you must publish customizations before they will be available. 
 
-   Solution publishers may ask you to export your existing unmanaged customizations, update their managed solution using the option to overwrite customizations, and then re-import your unmanaged customizations. This will help ensure that the changes they are expecting are applied while preserving your customizations.  
-
-<a name="BKMK_ExportSolutions"></a>   
-
-## Export solutions  
- We recommend that you export your unmanaged customizations periodically so that you have a backup in case anything happens. You cannot export managed solutions.  
-
-1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
-
-2. In the list select the solution you want to export and choose **Export**.  
-
-3. In the **Publish Customizations** step you will be reminded that only published customizations are exported and you will have the option to **Publish All Customizations** before you choose **Next**.  
-
-4. If your solution contains any missing required components you will see the **Missing Required Components** step. You can disregard this warning only if you intend to import this as an unmanaged solution back into the original organization. Otherwise, follow the instructions in the dialog to cancel the export and add the required components.  
-
-5. In the **Export System Settings (Advanced)** step you can choose certain system settings to include in your solution. If your solution depends on any of the groups of system settings, select them and choose **Next**.  
-
-    See **Settings options for solution export** below for details about the settings that will be included with each option.  
-
-6. In the **Package Type** step, you must choose whether to export the solution as an **Unmanaged** or **Managed** solution.  
-
-7. The next step allows you to choose a target solution for a specific Dynamics 365 for Customer Engagement apps version. This option is typically used by ISVs who may want to export a solution that is compliant with a previous version. Unless you intend to import this solution into an organization that is not upgraded to the same version as the organization version you are using, accept the default.   
-
-8. Choose **Export** to download the solution file.  
-
-   The exact behavior for downloading files varies between browsers.  
-
-<a name="BKMK_SettingsOptionsOnSolutionExport"></a>  
-
-## Settings options for solution export  
- The following table shows the options available when you export a solution:  
-
-
-|                                     Group                                     |                                                                                  Setting                                                                                   |                                                                               Description                                                                                |
-|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                Auto-numbering                                 |                                                                              Campaign Prefix                                                                               |                                                                   Prefix used for campaign numbering.                                                                    |
-|                                  Case Prefix                                  |                                                              Prefix to use for all cases throughout the app.                                                               |                                                                                                                                                                          |
-|                                Contract Prefix                                |                                                            Prefix to use for all contracts throughout the app.                                                             |                                                                                                                                                                          |
-|                                Invoice Prefix                                 |                                                         Prefix to use for all invoice numbers throughout the app.                                                          |                                                                                                                                                                          |
-|                                Article Prefix                                 |                                                                 Prefix to use for all articles in the app.                                                                 |                                                                                                                                                                          |
-|                                 Order Prefix                                  |                                                              Prefix to use for all orders throughout the app.                                                              |                                                                                                                                                                          |
-|                             Unique String Length                              |                                                    Number of characters appended to invoice, quote, and order numbers.                                                     |                                                                                                                                                                          |
-|                                   Calendar                                    |                                                                               Calendar Type                                                                                |                                                       Calendar type for the system. Set to Gregorian US by default                                                       |
-|                               Date Format Code                                |                                                    Information about how the date is displayed throughout Dynamics 365 for Customer Engagement apps.                                                    |                                                                                                                                                                          |
-|                                Date Separator                                 |                                          Character used to separate the month, the day, and the year in dates throughout the app.                                          |                                                                                                                                                                          |
-|                           Max Appointment Duration                            |                                                              Maximum number of days an appointment can last.                                                               |                                                                                                                                                                          |
-|                               Show Week Number                                |                                   Information that specifies whether to display the week number in calendar displays throughout the app.                                   |                                                                                                                                                                          |
-|                               Time Format Code                                |                                                  Information that specifies how the time is displayed throughout the app.                                                  |                                                                                                                                                                          |
-|                              Week Start Day Code                              |                                                            Designated first day of the week throughout the app.                                                            |                                                                                                                                                                          |
-|                                 Customization                                 |                                                                        Is Application Mode Enabled                                                                         | Indicates whether loading of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in a browser window that does not have address, tool, and menu bars is enabled. |
-|                                Email-tracking                                 |                                                                    Allow Unresolved Address Email Send                                                                     |                           Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).                            |
-|                             Ignore Internal Email                             |                                              Indicates whether incoming email sent by app users or queues should be tracked.                                               |                                                                                                                                                                          |
-|                              Max Tracking Number                              |                                                           Maximum tracking number before recycling takes place.                                                            |                                                                                                                                                                          |
-|                         Render Secure Frame For Email                         | Flag to render the body of email in the webform in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt. |                                                                                                                                                                          |
-|                                Tracking Prefix                                |                                                                  History list of tracking token prefixes.                                                                  |                                                                                                                                                                          |
-|                              Tracking Token Base                              |                                Base number used to provide separate tracking token identifiers to users belonging to different deployments.                                |                                                                                                                                                                          |
-|                             Tracking Token Digits                             |                                                      Number of digits used to represent a tracking token identifier.                                                       |                                                                                                                                                                          |
-|                                    General                                    |                                                                             Block Attachments                                                                              |                                          Prevent upload or download of certain attachment types that are considered dangerous.                                           |
-|                             Currency Format Code                              |                                                   Information about how currency symbols are placed throughout the app.                                                    |                                                                                                                                                                          |
-|                                Currency Symbol                                |                                                                              Currency Symbol                                                                               |                                                                                                                                                                          |
-|                            Full Name Display Order                            |                                                        Order in which names are to be displayed throughout the app.                                                        |                                                                                                                                                                          |
-|                               Presence Enabled                                |                                                               Information on whether IM presence is enabled.                                                               |                                                                                                                                                                          |
-|                                Negative Format                                |                                             Information that specifies how negative numbers are displayed throughout the app.                                              |                                                                                                                                                                          |
-|                                 Number Format                                 |                                                       Specification of how numbers are displayed throughout the app.                                                       |                                                                                                                                                                          |
-|                           Pricing Decimal Precision                           |                                                           Number of decimal places that can be used for prices.                                                            |                                                                                                                                                                          |
-|                       Share To Previous Owner On Assign                       |                                                  Information that specifies whether to share to previous owner on assign.                                                  |                                                                                                                                                                          |
-|                                   Marketing                                   |                                                                     Allow Automatic Response Creation                                                                      |                                                         Indicates whether automatic response creation is allowed                                                         |
-|                          Allow Automatic Unsubscribe                          |                                                            Indicates whether automatic unsubscribe is allowed.                                                             |                                                                                                                                                                          |
-|                  Allow Automatic Unsubscribe Acknowledgement                  |                                             Indicates whether automatic unsubscribe acknowledgement email is allowed to send.                                              |                                                                                                                                                                          |
-|                        Allow Marketing Email Execution                        |                                                          Indicates whether marketing emails execution is allowed.                                                          |                                                                                                                                                                          |
-| [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] Synchronization |                                                                     Allow Address Book Synchronization                                                                     |                                    Indicates whether background address book synchronization in Microsoft Office Outlook is allowed.                                     |
-|                    Allow Offline Scheduled Synchronization                    |                   Indicates whether background offline synchronization in [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)] is allowed.                    |                                                                                                                                                                          |
-|                        Allow Scheduled Synchronization                        |                         Indicates whether scheduled synchronizations to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] are allowed.                         |                                                                                                                                                                          |
-|                         Email Send Polling Frequency                          |                             Normal polling frequency used for sending email in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].                              |                                                                                                                                                                          |
-|                     Min Address Synchronization Frequency                     |                      Normal polling frequency used for address book synchronization in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].                      |                                                                                                                                                                          |
-|                     Min Offline Synchronization Frequency                     |                   Normal polling frequency used for background offline synchronization in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].                   |                                                                                                                                                                          |
-|                         Min Synchronization Frequency                         |                           Minimum allowed time between scheduled [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] synchronizations.                           |                                                                                                                                                                          |
-|                              Auto-Tag Max Cycles                              |                                 Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.                                  |                                                                                                                                                                          |
-|                               Auto-Tag Interval                               |                           Normal polling frequency used for email auto-tagging in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].                           |                                                                                                                                                                          |
-|                                  ISV Config                                   |                                                                 Service Calendar Appearance Configuration                                                                  |                                                           You can define visual styles for service calendars. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Calendar Appearance Configuration](../developer/customize-dev/service-calendar-appearance-configuration.md)                                                           |
-
-
-
+###Completing Solution Upgrade###
+If you chose to stage for upgrade, or if the system had an issue completing an upgrade, you will see that you have the original solution still installed in your system as well as a new solution that has the same solution name as the base solution suffixed with \_Upgrade.  To complete the upgrade simply select the base solution in the solution list and click **Apply Solution Upgrade**.  This will uninstall all previous patches and the base solution then rename the \_Upgrade solution to be the same name as the previous base solution.  Any components that were in the original solution and patches that are not present in the \_Upgrade solution will be deleted as part of this process.
 
 ### See also
 
