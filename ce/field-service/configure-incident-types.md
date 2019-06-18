@@ -82,6 +82,21 @@ Other important features of incident types are (1) multiple incident types can b
 
  ## Prerequisites
 
+ Incident types are available for all version of Field Service. However using incident types with requirement group templates for multi-resource scheduling is only available with Field Service v8.0+.
+
+ Because incident types mostly represent a grouping of service tasks, products, and services, it is recommended to have these records created in the system before creating an incident type.
+
+ A **service task** is checklist item that field technicians should complete
+
+ A **product** is a part that may be used and may be billed to the customer and deducted from inventory if necessary.
+
+ A **service** is labor that may be billed to the customer. **Note:** there is no Service entity. A service is created by creating a Product record with **Field Service Type = Service**. 
+
+ To create these records, go to **Field Service > Settings**.
+
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-incident-types-navigation.png)
+
  ## Create an incident type
 
  ## add an incident type to a work order
