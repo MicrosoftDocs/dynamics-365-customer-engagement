@@ -62,4 +62,4 @@ To re-run the Marketing setup wizard:
     - **Take me to the app**: Brings you to Dynamics 365 for Marketing.
     - **Uninstall Marketing from this org**: Removes Marketing from the selected instance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Uninstall Marketing](uninstall-marketing.md)
 
-    If your selected Marketing instance isn't currently integrated with a Dynamics 365 portal, then you can set this up by selecting **Use Dynamics 365 Portals** in the main area of the window. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide whether to install Dynamics 365 for Marketing with or without a Dynamics 365 portal](portal-optional.md)
+    If your selected Marketing instance isn't currently integrated with a Dynamics 365 portal, then you can set this up by selecting **Use Dynamics 365 Portals** in the main area of the window. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
