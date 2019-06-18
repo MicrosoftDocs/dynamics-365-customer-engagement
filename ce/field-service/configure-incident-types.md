@@ -66,6 +66,8 @@ Incident types act as service templates and allow users to quickly create work o
 
 ## Introduction
 
+Incident types are used to define the specific issue of a work order and the recommended prescription to resolve the issue. Whereas Work Order Types define the general category of a work order (inspection, repair, maintenance, etc),  
+
 uses
 business use case
 
