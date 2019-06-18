@@ -43,7 +43,7 @@ When you create a new report, share it with other people on your team or in your
   
    4.  In the **Share Report dialog** box, select the type of share access that you want. The available permissions are: Read, Write, Delete, Append, Assign, or Share.  
   
-&lt;!--&gt; <strong>If using Dynamics 365 for Outlook:</strong>  
+<!-- <strong>If using Dynamics 365 for Outlook:</strong>  
   
     1.  In the list of reports, select a report, and in the **Collaborate** group, click **Share**.  
   
