@@ -65,7 +65,7 @@ There are times when you may wish to install an update to an existing managed so
 5. You can view information about the solution before you choose **Next**. This page will display a yellow bar saying **This solution package contains an update for a solution that is already installed**.  
 
 6. You will have the following Solution Action options:  
-   - **Upgrade (recommended)
+   - **Upgrade (recommended)**
         This option upgrades your solution to the latest version and rolls up all previous patches in one step.  Any components associated to the previous solution version that are not in the newer solution version will be deleted. This option is the recommended option as it will ensure that your resulting configuration state is consistent with the importing solution including removal of components that are no longer part of the solution.
         
    - **Stage for Upgrade**
@@ -94,7 +94,7 @@ There are times when you may wish to install an update to an existing managed so
 
    If you have imported any changes that require publishing, you must publish customizations before they will be available. 
 
-###Completing Solution Upgrade###
+**Completing Solution Upgrade**
 If you chose to stage for upgrade, or if the system had an issue completing an upgrade, you will see that you have the original solution still installed in your system as well as a new solution that has the same solution name as the base solution suffixed with \_Upgrade.  To complete the upgrade simply select the base solution in the solution list and click **Apply Solution Upgrade**.  This will uninstall all previous patches and the base solution then rename the \_Upgrade solution to be the same name as the previous base solution.  Any components that were in the original solution and patches that are not present in the \_Upgrade solution will be deleted as part of this process.
 
 ### See also
