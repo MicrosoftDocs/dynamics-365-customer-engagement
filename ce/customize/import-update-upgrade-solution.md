@@ -1,6 +1,6 @@
 ---
-title: "Import, update, and upgrade solutions | MicrosoftDocs"
-description: "Learn how to import, update, and export a solution"
+title: "Import, update, and upgrade solution | MicrosoftDocs"
+description: "Learn how to import, update, and upgrade a solution"
 ms.custom: 
 ms.date: 01/22/2019
 ms.reviewer: 
@@ -22,7 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Import, update, and upgrade solutions 
+# Import, update, and upgrade solution 
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
