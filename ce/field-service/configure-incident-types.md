@@ -86,9 +86,9 @@ Other important features of incident types are (1) multiple incident types can b
 
  Because incident types mostly represent a grouping of service tasks, products, and services, it is recommended to have these records created in the system before creating an incident type.
 
- A **service task** is checklist item that field technicians should complete
+ A **service task** is checklist item that field technicians should complete as part of performing an incident type. 
 
- A **product** is a part that may be used and may be billed to the customer and deducted from inventory if necessary.
+ A **product** is a part that may be used when completing an incident type and can be billed to the customer and deducted from inventory if necessary.
 
  A **service** is labor that may be billed to the customer. **Note:** there is no Service entity. A service is created by creating a Product record with **Field Service Type = Service**. 
 
