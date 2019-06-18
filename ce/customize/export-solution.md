@@ -1,6 +1,6 @@
 ---
 title: "export solutions | MicrosoftDocs"
-description: "Learn how to import, update, and export a solution"
+description: "Learn how to export a solution"
 ms.custom: 
 ms.date: 01/22/2019
 ms.reviewer: 
@@ -22,69 +22,13 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# export solutions 
+# export solution 
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. You can import the default solution only to the organization from which you exported it, but not into a different organization.  
+blurb about unmanaged and managed solutions and solution export purpose
 
-1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
-
-2. In the solutions list menu, choose **Import**.  
-
-3. In the **Import Solution** dialog, **Select Solution Package** step browse to the compressed (.zip or .cab) file that contains the solution you want to import.  
-
-4. Choose **Next**.  
-
-5. You can view information about the solution before you choose **Import**.  
-
-6. You may need to wait a few moments while the solution import completes. If it is successful, you can view the results and choose **Close**.  
-
-   If you have imported any changes that require publishing, you must publish customizations before they will be available. 
-
-   If the import isn’t successful, you will see a report showing any errors or warnings that were captured. You can choose **Download Log File** to capture details about what caused the import to fail. The most common cause for a solution import to fail is that the solution did not contain some required solution components.  
-
-   When you download the log file, you will find an XML file that you can open using [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] and view the contents.  
-
-> [!NOTE]
->  You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)  
-
-<a name="BKMK_UpdateSolutions"></a>   
-
-## Update solutions  
- There are times when you may wish to install an update to an existing managed solution. The procedure is similar to installing a new managed solution, except you will get some different options. If you are updating a solution you got from someone else, you should get guidance from the solution publisher about which options you should choose.  
-
-1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
-
-2. In the solutions list menu choose **Import**.  
-
-3. In the **Import Solution** dialog, **Select Solution Package** step browse to the compressed (.zip or .cab) file that contains the solution you want to update.  
-
-4. Choose **Next**.  
-
-5. You can view information about the solution before you choose **Next**. This page will display a yellow bar saying **This solution package contains an update for a solution that is already installed**.  
-
-6. You will have the following options:  
-
-   - **Maintain customizations (recommended)**  
-
-        Selecting this option will maintain any unmanaged customizations performed on components but also implies that some of the updates included in this solution will not take effect.  
-
-   - **Overwrite Customizations**  
-
-        Selecting this option overwrites any unmanaged customizations previously performed on components included in this solution. All updates included in this solution will take effect.  
-
-     Choose the appropriate option and then choose **Next**.  
-
-7. You may need to wait a few moments while the solution import completes. If it is successful, you can view the results and choose **Close**.  
-
-   If you have imported any changes that require publishing, you must publish customizations before they will be available. 
-
-   Solution publishers may ask you to export your existing unmanaged customizations, update their managed solution using the option to overwrite customizations, and then re-import your unmanaged customizations. This will help ensure that the changes they are expecting are applied while preserving your customizations.  
-
-<a name="BKMK_ExportSolutions"></a>   
-
-## Export solutions  
+ # Export solutions  
  We recommend that you export your unmanaged customizations periodically so that you have a backup in case anything happens. You cannot export managed solutions.  
 
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
@@ -160,9 +104,6 @@ search.app:
 |                              Auto-Tag Max Cycles                              |                                 Maximum number of aggressive polling cycles executed for email auto-tagging when a new email is received.                                  |                                                                                                                                                                          |
 |                               Auto-Tag Interval                               |                           Normal polling frequency used for email auto-tagging in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)].                           |                                                                                                                                                                          |
 |                                  ISV Config                                   |                                                                 Service Calendar Appearance Configuration                                                                  |                                                           You can define visual styles for service calendars. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Calendar Appearance Configuration](../developer/customize-dev/service-calendar-appearance-configuration.md)                                                           |
-
-
-
 
 ### See also
 
