@@ -1,6 +1,6 @@
 ---
-title: "Run Dynamics 365 for Marketing with a portal or portal-free (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to decide whether to install Dynamics 365 for Marketing with or without a Dynamics 365 portal"
+title: "Run Dynamics 365 for Marketing with a Dynamics 365 portal and/or CMS system (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "Learn how you can run interactive marketing features for Dynamics 365 for Marketing by using an integrated Dynamics 365 portal or by using your own website or CMS system."
 keywords: 
 ms.date: 06/13/2019
 ms.service: dynamics-365-marketing
@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Decide whether to install Dynamics 365 for Marketing with or without a Dynamics 365 portal
+# Integrate Marketing with a CMS system or Dynamics 365 portal
 
 Read this topic to learn how you can run interactive marketing features for Dynamics 365 for Marketing by using an integrated Dynamics 365 portal or by using your own website or CMS system.
 
