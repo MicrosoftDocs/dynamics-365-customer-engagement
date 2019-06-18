@@ -114,6 +114,12 @@ The service tasks, products, and services you create will serve as the building 
 
 **Copy Incident Items to Agreement** - Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed at the end of the agreement than originally intended. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on the Agreement Booking Setup. 
 
+### Product
+
+Next add an incident type product by going to the product section and selecting +New Incident Type Product.
+
+
+
  ## add an incident type to a work order
 
  ## add multiple incident types to a work order
