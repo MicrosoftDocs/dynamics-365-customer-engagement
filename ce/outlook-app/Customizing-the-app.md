@@ -1,7 +1,7 @@
 ---
 title: "Customizing App for Outlook  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/19/2019
+ms.date: 06/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
