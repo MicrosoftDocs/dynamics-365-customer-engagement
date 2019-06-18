@@ -98,10 +98,18 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
+
+> [!IMPORTANT]
+> When you're designing email content, you should always try to minimize the size of your messages as much as you can. When it comes to the text and code content (not including referenced image content), we recommend that you always keep your files under 100 KB for the following reasons:
+> 
+> - Emails larger than 100 KB are often flagged as spam by spam filters
+> - Gmail truncates messages after the first 102 KB of source text and coding.
+> - Emails larger than 128 KB can't be delivered by a customer journey (the journey will [fail its error check](#go-live-journey) if it includes messages larger than this)
+> - Large emails take longer to load, which may annoy recipients.
+
 > [!NOTE]
 > Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
 <a name="required-links"></a>
 
@@ -263,6 +271,8 @@ The following are also confirmed by the check:
 - All referenced images must exist in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
 - The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](marketing-settings.md#authenticate)
+
+<a name="go-live-journey"></a>
 
 ## Go live and set up a customer journey to deliver your message
 
