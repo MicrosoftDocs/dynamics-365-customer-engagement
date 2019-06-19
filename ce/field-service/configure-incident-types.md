@@ -177,17 +177,40 @@ When characteristics are added to a resource, you can define the level of profic
 
 Next, we are ready to use the incident type by adding it to a work order. From our incident type products, services, service tasks and characteristics, the system will create work order products, services, service tasks and characteristics.
 
-## add an incident type to a work order
+## Add an incident type to a work order
 
-## add multiple incident types to a work order
+Next let's create a new work order.
+
+In the **Primary Incident Type** field, we will look up and add our newly created incident type.
+
+This populates the fields:
+- Primary Incident Description
+- Primary Incident Estimated Duration
+- Work Order Type
+
+Not immediately, but after a short time, the related work order products, services, and service tasks will be added. 
+
+The **Estimate Quantity** of the Work Order Product reflects the incident product quantity we specified.
+
+The same is true for Work Order Services and Estimate Duration.
+
+Also, the Work Order Service Tasks are added in the order reflected on the incident type.
+
+In Related > Characteristics, the incident type characteristics are added as requirement characteristics.
+
+In order to appropriately schedule this work order, the related Resource Requirement has a Duration = the incident type duration (2 hours in our example) and the characteristic is passed along as well. 
+
+## Add multiple incident types to a work order
 
 ## Use customer assets with incident types
 
 ## Incidents for multi-resource scheduling
 
+> [!Note]
+> If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead you should add required characteristics to the requirement group template.
+
 ## Configuration considerations
 - if you add multiple incidents with characteristics, does the system look for a resource that has all characteristics
-
 
 ## Additional notes
 
