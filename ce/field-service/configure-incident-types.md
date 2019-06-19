@@ -156,8 +156,25 @@ After adding multiple service tasks they will display in the incident service ta
 
 ### Incident Type Characteristics
 
+Next, you can associate characteristics (skills) to incident types in order to define the skillset needed to perform such an incident type. Characteristics are also added to resources (field technicians) and this helps the system match work order incidents with the best resources who can do the job. This also means when this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the characteristics.
+
 > [!Note]
-> If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type
+> If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead you should add required characteristics to the requirement group template. See the topic on [Requirement groups for Work Orders for more details](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders)
+
+Go to Characteristics and **+New Incident Type Characteristic**.
+
+Select a **Characteristic** from the look up or create a new one.
+
+Characteristics are a very versatile way to define the resource attributes needed to perform an incident types. 
+
+Examples include:
+- Skills; "JavaScript and HTML"
+- Language proficiency; "Spanish"
+- Certifications; "CPR certifications"
+- Security clearance; "Building 12 access"
+
+When characteristics are added to a resource, you can define the level of proficiency a resource 
+
 
 Next, we are ready to use the incident type by adding it to a work order. From our incident type products, services, service tasks and characteristics, the system will create work order products, services, service tasks and characteristics.
 
