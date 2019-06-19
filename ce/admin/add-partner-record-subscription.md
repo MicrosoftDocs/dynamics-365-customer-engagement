@@ -1,7 +1,7 @@
 ---
 title: "Add a Partner of Record (POR) to your subscription of Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: 16f7174e-6adf-46c9-9ddf-b6ccd805e73a
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -28,34 +28,39 @@ search.app:
 You can choose to work with a designated Microsoft partner who can provide the sales and technical expertise you need to help set up, customize, deploy, and administer your [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] instances. You can find a designated Partner of Record (POR) on the [Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/register/joinnow/enrollmentWelcome/valueaddedreseller) site. Once you find a partner, request their Microsoft Partner ID and designate them in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## Add a partner at time of purchase  
+
+> [!NOTE]
+> These steps assume you are using the new admin center user interface.
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
-2. Click **Billing** > **Purchase Services**.  
+2. Select **Billing** > **Purchase services**.  
   
-   ![Office 365 Purchase Services](../admin/media/office-365-purchase-services.png "Office 365 Purchase Services")  
+3. Scroll down and under **Other categories that might interest you**, select **Dynamics 365**.
+
+4. Select a subscription.
   
-3. Select a subscription, click **Buy now**.  
+   > [!div class="mx-imgBorder"] 
+   > ![](media/purchase-services-d365.png "Select a subscription")
+
+5. Select **Buy**.
   
-   ![Dynamics 365 for Customer Engagement Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 for Customer Engagement Sales Plan buy now")  
-  
-4. Fill in the number of users and a promo code, if you have one, then click **Next**.  
-  
-5. Under Account, click **Add** and then fill in the partner information.  
-  
-   ![Click Add to add a partner](../admin/media/click-add-partner.png "Click Add to add a partner")  
+6. At the top of the page, select **Find a solution provider**. 
+
+7. Go through the steps to select a partner, and then return to the subscription purchase page to complete the subscription purchase process.
   
 ## Add a partner to an existing subscription  
   
+> [!NOTE]
+> These steps assume you are using the new admin center user interface.
+
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
-2. Go to **Billing** > **Subscriptions** and select a subscription.  
+2. Go to **Billing** > **Products & services** and select a subscription.  
   
-   ![Choose Billing &#62; Subscription](../admin/media/choose-billing-subscription.png "Choose Billing > Subscription")  
+3. Under the subscription, select the **Partner** tab.
   
-3. Under **Active**, click **More actions** > **Add partner of record**, and then fill in the partner information.  
-  
-   ![Add a partner of record](../admin/media/add-partner-record-short-menu.png "Add a partner of record")  
+4. Enter the Partner Network ID, and then select **Add**.
   
 ### See also  
  [Add, change, or delete a subscription advisor partner](https://support.office.com/article/Add-change-or-delete-a-subscription-advisor-partner-f86e8177-936e-491e-9024-44dea2b296ff)   
