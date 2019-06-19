@@ -173,20 +173,23 @@ Examples include:
 - Certifications; "CPR certifications"
 - Security clearance; "Building 12 access"
 
-When characteristics are added to a resource, you can define the level of proficiency of the resource. As an example, one resource may be excellent at speaking Spanish but another may be just adequate. **Rating Value** allows you to set the level of expertise required to perform this incident type. If left blank, this means all proficiency levels are acceptable given the resource has the matching characteristic. You can define rating values in **Resource Scheduling > Settings > Proficiency Models**.
-
+When characteristics are added to a resource, you can define the level of proficiency of the resource. As an example, one resource may be excellent at speaking Spanish but another may be just adequate. **Rating Value** allows you to set the level of expertise required to perform this incident type. This means a resource must meet or exceed the rating value to be considered when attempting to schedule work orders this incident type will be added to. If left blank, this means all proficiency levels are acceptable given the resource has the matching characteristic. You can define rating values in **Resource Scheduling > Settings > Proficiency Models**.
 
 Next, we are ready to use the incident type by adding it to a work order. From our incident type products, services, service tasks and characteristics, the system will create work order products, services, service tasks and characteristics.
 
- ## add an incident type to a work order
+## add an incident type to a work order
 
- ## add multiple incident types to a work order
+## add multiple incident types to a work order
 
- ## Use customer assets with incident types
+## Use customer assets with incident types
 
- ## Incidents for multi-resource scheduling
+## Incidents for multi-resource scheduling
 
-## additional notes
+## Configuration considerations
+- if you add multiple incidents with characteristics, does the system look for a resource that has all characteristics
+
+
+## Additional notes
 
 - importing with excel
 
