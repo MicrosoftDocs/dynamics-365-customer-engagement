@@ -112,13 +112,20 @@ The service tasks, products, and services you create will serve as the building 
 
 **Estimated Duration** - Enter a duration for this incident type. If you add multiple incidents to a work order, the work order duration will be the total of all incident durations as reflected in the duration of the resource requirement related to the work order. Service tasks can each have a duration as well, in which case the estimated duration of the incident type will be the sum total of the incident service task durations. The only way you can utilize the estimated duration field as the duration of the incident type is if 1) you do not add incident type service tasks or 2) none of the incident type service tasks you add have durations. If this incident type is set as the primary incident type of a work order this value will populate the primary incident type duration field.
 
-**Copy Incident Items to Agreement** - Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed at the end of the agreement than originally intended. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on the Agreement Booking Setup. 
+**Copy Incident Items to Agreement** - This setting is important for two reasons.
+1. The incident you would like to add to an agreement may be slightly different than the incident you would add to a single work order that's not part of an agreement. As an example, normally the incident would require one hour of a service, but for the agreement
+
+2. Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed at the end of the agreement than originally intended. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on the Agreement Booking Setup. 
 
 ### Product
 
-Next add an incident type product by going to the product section and selecting +New Incident Type Product.
+Next add an incident type product by going to the product section and selecting **+New Incident Type Product**.
 
+Select a **Product** and **Unit**
 
+Enter a **Quantity**. This is the number of work order products will be added to the work order when this incident is added. It can be manually overridden by the work order creator as needed. However, if for example, a process or procedure generally requires two units of a part to complete the job, you should enter 2 here.
+
+Enter a **Name** if you want the eventual work order product to have a different name than the product name.
 
  ## add an incident type to a work order
 
