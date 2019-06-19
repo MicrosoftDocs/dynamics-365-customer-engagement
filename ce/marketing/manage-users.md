@@ -30,13 +30,46 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Create an account for each user that requires access to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+Read this topic to learn how to add users to Dynamics 365 for Marketing and grant access priveleges to them.
 
-## Create a user account and assign licenses
+## Create user accounts and assign licenses
 
-User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. Use the Microsoft 365 admin center to create a new user and then assign licenses for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and other apps to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
+Like most Customer Engagement apps, Dynamics 365 for Marketing integrates with the user management and licensing features of the Microsoft 365 admin center, so to get started, each user that requires access to Marketing must have a user account on your Microsoft 365 tenant. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
 
- [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md).
+Unlike most Customer Engagement apps, Dynamics 365 for Marketing is licensed per instance (also based on certain quotas, such as the number of marketing contacts and monthly email messages) but it isn't licensed per seat, which means that you can add as many users to each Marketing instance as you like for no extra charge because Marketing user licenses are free.
+
+### Grant access to users that already have a Customer Engagement license
+
+Any user that already has a license for any Customer Engagement app also will be able to access Dynamics 365 for Marketing without requiring any additional licenses. All you need to do is [assign them the security roles and privileges](#assign-role) required to access the Marketing features they need.  
+
+### Grant access to users without a Customer Engagement license
+
+For Microsoft 365 users that don't have a Customer Engagement license, you can "purchase" and assign a free Marketing user license. Free Marketing user licenses don't grant access to any other Customer Engagement apps, but you can have as many of them as you need to grant access to Marketing.
+
+To purchase and assign a free Marketing user license:
+
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+
+1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services** and fnd the **Dynamics 365 for Marketing USL** item, which shows a price of **$0.00 user/month**.
+
+    ![Purchase a free user license for Marketing](media/admin-m365-usl.png "Purchase a free user license for Marketing")
+
+1. Select **Buy now** for the **Dynamics 365 for Marketing USL** and follow the instructions on your screen to complete the transaction.
+
+1. Return to the Microsoft 365 admin center and go to **Users** > **Active users**, select a user account to open its settings in a fly-out, and then select **Edit** in the **Product license** row to add and remove licenses for that user.
+
+    ![Edit settings for a user account](media/admin-m365-edit-user.png "Edit settings for a user account")
+
+1. The **Product licenses** fly-out opens, which lists the status of each available license for your selected user. Set the **Dynamics 365 for Marketing USL slider** to **On**.
+
+    ![Add a license](media/admin-m365-assign-license.png "Add a license")
+
+1. Select **Save** and then close the fly-out. The user now has a free Marketing license and should be visible in the Customer Engagement user-admin interface in a few minutes.
+
+1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] 
+[Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
 
 <a name="assign-role"></a>
 
@@ -51,7 +84,7 @@ Administrators can also create teams, apply security roles to those teams, and a
 > [!IMPORTANT]
 > You must assign at least one security role to every user. The app doesn't allow access to any user who does not have at least one security role.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides a read-only view of users who are licensed to use the system. To apply security roles to users, and to customize each role, do the following:
+To apply security roles to users, and to customize each role, do the following:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
@@ -66,7 +99,7 @@ Administrators can also create teams, apply security roles to those teams, and a
 All [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user that should be assigned the role.
 
 > [!IMPORTANT]
-> Each time you update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
+> Each time you update Dynamics 365 for Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
@@ -82,9 +115,9 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 Here are a few notes for working with the **Security role** settings:
 
-- Most of the entities added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are on the **Custom entities** tab. The other tabs manage features that belong to other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps and basic platform features.
-- There is a tab called **Marketing**, but it doesn't contain entities related to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Its settings apply to the *enterprise marketing* feature included with the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] platform (though [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] does make use of the marketing lists feature that is provided here).
-- Some of the security roles provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] include permissions from all available tabs. This is to provide access to relevant platform features required by users marketing roles.
+- Most of the entities added by Dynamics 365 for Marketing are on the **Custom entities** tab. The other tabs manage features that belong to other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps and basic platform features.
+- There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 for Marketing. Its settings apply to the *enterprise marketing* feature included with the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] platform (though Dynamics 365 for Marketing does make use of the marketing lists feature that is provided here).
+- Some of the security roles provided with Dynamics 365 for Marketing include permissions from all available tabs. This is to provide access to relevant platform features required by users marketing roles.
 
 Security roles are a concept shared by all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
@@ -92,22 +125,22 @@ Security roles are a concept shared by all [!INCLUDE[pn-microsoftcrm](../include
 
 In addition to the entity-level security set directly on each security role, you can also control access to specific forms and/or fields. These work as follows:
 
-- *Form-level security* restricts access to specific forms, so even if a user has a security role that grants access to a given entity (such as customer journeys), that user might not be able to access some of the forms of that entity (such as the insights) unless they have one of the additional roles required by that form. Most of the entities added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] don't include any form-level security out of the box, so users that can access these entities can also access all the forms that belong to them, though some exceptions exist (including insights forms for some entities).
+- *Form-level security* restricts access to specific forms, so even if a user has a security role that grants access to a given entity (such as customer journeys), that user might not be able to access some of the forms of that entity (such as the insights) unless they have one of the additional roles required by that form. Most of the entities added by Dynamics 365 for Marketing don't include any form-level security out of the box, so users that can access these entities can also access all the forms that belong to them, though some exceptions exist (including insights forms for some entities).
 - *Field-level security* applies extra restrictions on specific fields, so even if a user can view a given form, some fields on that from could be hidden if they require an additional field security profile. Field security profiles are similar to, but separate from, the entity-level security roles otherwise described in this topic.
 
 You don't see form or field settings when you edit the security role, so you must manage these separately.
 
 Form and field level security are concepts shared by all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] apps. For more information about how to work with them, see Field level security and  Assign security roles to a form.
 
-## Security roles added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+## Security roles added by Dynamics 365 for Marketing
 
-The tables in this section summarize the purpose of each role added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. They should give you a good idea of which roles to assign each of your users. For details information about precisely which permissions and access levels any single role provides, inspect the permissions tables provided in the **Security roles** window, as described previously in [Inspect and customize security roles](#inspect-roles).
+The tables in this section summarize the purpose of each role added by Dynamics 365 for Marketing. They should give you a good idea of which roles to assign each of your users. For details information about precisely which permissions and access levels any single role provides, inspect the permissions tables provided in the **Security roles** window, as described previously in [Inspect and customize security roles](#inspect-roles).
 
 ### Core marketing security roles
 
 | Security&nbsp;role | Who&nbsp;needs&nbsp;it | Access&nbsp;granted |
 |---------------|--------------|----------------|
-| Marketing Professional - Business | Most standard marketers who require access to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] core features, but don't need to configure the system | Nearly all entities in the **Marketing** work area, including segments, customer journeys, emails, marketing pages, marketing lists, and related features and templates (but not including LinkedIn or lead-scoring features). This role grants only limited access to the **Settings** work area. Also grants access to fundamental entities like contacts, leads, accounts, activities (tasks, phone calls, appointments), and marketing lists. Because this role is intended for individual contributors, most create and delete permissions are limited to records the user owns, but they can view and edit records owned by other users in their business unit. This role is provided access to insights forms through from-based security.|
+| Marketing Professional - Business | Most standard marketers who require access to Dynamics 365 for Marketing core features, but don't need to configure the system | Nearly all entities in the **Marketing** work area, including segments, customer journeys, emails, marketing pages, marketing lists, and related features and templates (but not including LinkedIn or lead-scoring features). This role grants only limited access to the **Settings** work area. Also grants access to fundamental entities like contacts, leads, accounts, activities (tasks, phone calls, appointments), and marketing lists. Because this role is intended for individual contributors, most create and delete permissions are limited to records the user owns, but they can view and edit records owned by other users in their business unit. This role is provided access to insights forms through from-based security.|
 | Marketing Manager - Business | Marketing managers (who also administer the system) | All the same entities as the **Marketing Professional – Business** role, but more often grants enhanced permissions to work with records owned by other users in the same business unit as the manager. This role also provides access to all views and settings of the **Settings** work area. This role is provided access to insights forms through from-based security. |
 | Marketing, Business App Access | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 | Marketing Services User | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
@@ -143,7 +176,7 @@ The surveys package adds the following security roles:
 
 ## Don't modify or remove the Marketing service user
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
+Dynamics 365 for Marketing includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
 
 - EventManagement S2SInbound
 - [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LeadGen S2SInbound
@@ -155,4 +188,6 @@ The system uses this account when performing important internal tasks, and [!INC
 ### See also
 
 [Manage security, users, and teams](../admin/manage-security-users-and-teams.md)  
-[Manage teams](manage-teams.md)
+[Manage teams](manage-teams.md)  
+[Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
+[Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
