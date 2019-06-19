@@ -118,6 +118,9 @@ The service tasks, products, and services you create will serve as the building 
 
   2. Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed at the end of the agreement than originally intended. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on the Agreement Booking Setup. 
 
+
+After setting basic details of the incident type, you should consider adding recommended products and services field technicians may need to complete the incident type, service tasks to guide field technicians through a check list of tasks, and characteristics (skills) that will help schedulers find the right resources to perform work orders this incident is added to. When this incident type is added to a work order, the related items will be added as well.
+
 ### Incident Type Product
 
 Next add an incident type product by going to the product section and selecting **+New Incident Type Product**.
@@ -144,16 +147,19 @@ Next go to Service Tasks and **+New Incident Type Service Task**.
 
 Select a **Task Type** or create a new one in the system. 
 
-If the task type you select has a duration, it will populate in the Estimated Duration field and can be adjusted for this specific incident as needed. As you add incident service tasks, 
+If the task type you select has a duration, it will populate in the **Estimated Duration** field of the incident type service task and can be adjusted for this specific incident as needed. As you add incident service tasks, the duration of the incident type will be the sum of the service task durations. If you do not want the incident duration to be derived from service task durations, then you should either 1) set the incident service task duration to 0 minutes or null for all incident service task types or 2) consider removing durations from the original Task Type.
 
 The order in which you add service task types is the order they will appear on the work orders when this incident is added. The order of service tasks is generally important for organizations and reflects a process that should be followed. It is common for organizations to have as many as 40 service tasks for a detailed process. After saving, you can edit the **Line Order** field as needed to change the order of service tasks where "1" is the service task that will appear first.
+
+After adding multiple service tasks they will display in the incident service task list. In the example below, none of the individual service tasks was given an estimated duration because we chose to add an estimated duration at the incident type level instead.
 
 
 ### Incident Type Characteristics
 
 > [!Note]
->
+> If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type
 
+Next, we are ready to use the incident type by adding it to a work order. From our incident type products, services, service tasks and characteristics, the system will create work order products, services, service tasks and characteristics.
 
  ## add an incident type to a work order
 
