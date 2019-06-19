@@ -449,6 +449,15 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
 -   Enter a value in the search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking status**, **Business phone**, or **Email** fields.  
 
+### Search for a Dynamics 365 contact  
+
+1. Switch to the **Dynamics 365 Contacts** tab on the top of screen to view the list of all your active Dynamics 365 contacts. 
+2. Enter a value in the search box. You can search for data stored in the **Full name**, **Title**, **Department**, and **Business address** fields. 
+
+You can’t search for data stored in any of the other fields like **Business phone**, **Account** or **Email**.
+
+   ![Dynamics 365 App for Outlook Dynamics 365 Contact Search](../outlook-app/media/search-contacts.png "Dynamics 365 App for Outlook Dynamics 365 Contact Search")  
+
 ### Filter by all contacts, tracked contacts, or untracked contacts  
 
 1. Click the arrow next to the view drop-down.  

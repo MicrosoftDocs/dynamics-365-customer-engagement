@@ -2,7 +2,7 @@
 title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 instance"
 keywords: uninstall;solutions;administration;instances
-ms.date: 04/01/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -36,6 +36,13 @@ The uninstall process has two steps:
 1. Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services by running the uninstall wizard.
 1. Clean up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
 
+> [!IMPORTANT]
+> Before uninstalling Dynamics 365 for Marketing from an instance, you should be sure that you won't want to reinstall it on that instance again because problems can occur on reinstall. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
+> 
+> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (sandbox instances only).
+> - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
+
+
 ## Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services
 The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uninstall wizard manages most of the uninstall process. It:
 
@@ -48,19 +55,13 @@ To run the uninstall wizard:
 
 1. If you have sample data installed, remove it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage sample data](additional-settings.md).
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
+1. [Launch the Marketing setup wizard](re-run-setup.md) for the instance you want to uninstall Marketing from. Make sure the correct instance (organization) is shown.
 
-1. To see a list of applications you have installed, select the **Applications** tab.  
-    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
+    ![Setup wizard for an existing instance with portal integration](media/fre-re-run.png "Setup wizard for an existing instance with portal integration")
 
-    The list shows a row named **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+1. From the **Other actions** panel, choose **Uninstall Marketing from this org**.
 
-1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance you are about to uninstall. Confirm that you selected the right one.  
-    ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
-
-1. Under **Other actions**, select **Uninstall Marketing from this org**.
 
 1. Follow the instructions on your screen to confirm and complete the uninstall.
 
