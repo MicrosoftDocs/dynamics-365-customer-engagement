@@ -1,6 +1,32 @@
 # Weekly time entry with support for customization
 Applies to Dynamics 365 for Project Service version 3.3 and above
 
+ - [Introduction](#Introduction)
+ - [Features](#Features)
+    - [Layout](#Layout)
+    - [New](#New)
+    - [Edit Entry](#Edit-Entry)
+    - [Copy Row](#Copy-Row)
+    - [Open Entry](#Open-Entry)
+    - [Time entry actions impacting the Entry Status](#Time-entry-actions-impacting-the-Entry-Status)
+        - [Submit](#Submit)
+        - [Recall](#Recall)
+    - [Entry Status](#Entry-Status)
+    - [Viewing rejection comments](#Viewing-Rejection-comments)
+    - [Copy week](#Copy-week)
+    - [Import](#Import)  
+ - [Extensibility](#Extensiblity)
+    - [Add customer fields with lookups to other entities](#Add-customer-fields-with-lookups-to-other-entities)
+        - [Add the custom field to the quick create form](#Add-the-custom-field-to-the-quick-create-form)
+        - [Configure the grid to show the custom field](#Configure-the-grid-to-show-the-custom-field)
+        - [Add the custom field to the appropriate edit task flow](#Add-the-custom-field-to-the-appropriate-edit-task-flow)
+    - [Add custom option set values to OOB fields](#Add-custom-option-set-values-to-OOB-fields)
+        - [Add a new option set value](#Add-a-new-option-set-value)
+        - [Designate a new time entry status as read-only](#Designate-a-new-time-entry-status-as-read-only)
+    - [Add custom validation rules](#Add-custom-validation-rules)
+        - [Business rules](#Business-rules)
+        - [Plugin validations](#Plugin-validations)
+
 ## Introduction
 With PSA v3.3 we introduced a modern grid that will allow project resources quick time entry for a week in one go. It includes features to total by date and by row, as well as the total for the whole week. Resources can make copies of time entries within the week and perform bulk copies from previous weeks. With this feature, system customizers can customize this view to add custom fields, lookups to other entities and implement custom business rules to support their organization's practices.  
 
@@ -50,7 +76,7 @@ After a few time entries have been created, the **Copy week** allows users to bu
 Import from bookings, assignments and Exchange follows the same UI pattern, which allows a user to specify the date range from which bookings are imported. The user then must explicitly select the bookings that should be copied into Draft time entries. Users no longer see the pattern from the previous release, where suggested time entries show up on the grid and calendar, and which were lost in session refresh. 
 
 ## Extensiblity
-### Add customer fields, with lookups to other entities
+### Add customer fields with lookups to other entities
 There are three parts to adding a custom field to the weekly time entry grid: adding the custom field to the quick create form, configuring the grid to show the custom field, and adding the custom field to the row or cell edit task flow as appropriate. 
 
 You will also need to ensure that the new field has the necessary validations in the row or cell edit task flow (including locking based on status) – see the “Add custom validation rules” section below for details. 
