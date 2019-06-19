@@ -173,7 +173,7 @@ Examples include:
 - Certifications; "CPR certifications"
 - Security clearance; "Building 12 access"
 
-When characteristics are added to a resource, you can define the level of proficiency a resource 
+When characteristics are added to a resource, you can define the level of proficiency of the resource. As an example, one resource may be excellent at speaking Spanish but another may be just adequate. **Rating Value** allows you to set the level of expertise required to perform this incident type. If left blank, this means all proficiency levels are acceptable given the resource has the matching characteristic. You can define rating values in **Resource Scheduling > Settings > Proficiency Models**.
 
 
 Next, we are ready to use the incident type by adding it to a work order. From our incident type products, services, service tasks and characteristics, the system will create work order products, services, service tasks and characteristics.
