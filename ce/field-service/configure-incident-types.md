@@ -128,6 +128,10 @@ Enter a **Quantity**. This is the number of work order products that will be add
 
 Enter a **Name** if you want the eventual work order product to have a different name than the product name.
 
+For scenarios where multiple products are added as part of an incident type, **Line Order** is a numeric value that can be used to define the order they appear in the work order product list. This is true for service tasks and service as well.
+
+Because the **Description** field may be communicated to the customer or even be customized to appear on an invoice, there is also an **Internal Description** to add more details for the field technician to view.
+
  ## add an incident type to a work order
 
  ## add multiple incident types to a work order
