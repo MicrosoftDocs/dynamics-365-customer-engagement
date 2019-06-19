@@ -138,6 +138,23 @@ Similar to incident type products, add incident type services.
 
 The only difference is instead of quantity, there is a **Duration** field to represent the service time because a service represents labor and not a physical part. 
 
+### Incident Type Service Tasks
+
+Next go to Service Tasks and **+New Incident Type Service Task**.
+
+Select a **Task Type** or create a new one in the system. 
+
+If the task type you select has a duration, it will populate in the Estimated Duration field and can be adjusted for this specific incident as needed. As you add incident service tasks, 
+
+The order in which you add service task types is the order they will appear on the work orders when this incident is added. The order of service tasks is generally important for organizations and reflects a process that should be followed. It is common for organizations to have as many as 40 service tasks for a detailed process. After saving, you can edit the **Line Order** field as needed to change the order of service tasks where "1" is the service task that will appear first.
+
+
+### Incident Type Characteristics
+
+> [!Note]
+>
+
+
  ## add an incident type to a work order
 
  ## add multiple incident types to a work order
@@ -146,6 +163,8 @@ The only difference is instead of quantity, there is a **Duration** field to rep
 
  ## Incidents for multi-resource scheduling
 
+## additional notes
 
+- importing with excel
 
 
