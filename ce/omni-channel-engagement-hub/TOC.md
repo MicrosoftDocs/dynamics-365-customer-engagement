@@ -46,6 +46,11 @@
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 
+### Supervisor Experience
+#### [Configure Intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+
+
+
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
