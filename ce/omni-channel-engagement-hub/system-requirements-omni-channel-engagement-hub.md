@@ -65,7 +65,7 @@ You require the following to use Omni-channel Engagement Hub - Preview with Unif
 
 ^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omni-channel Engagement Hub - Preview solution or when using other line-of-business applications with Unified Service Desk.
 
-For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/unified-service-desk/admin/unified-service-desk-system-requirements.md)
+For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
 ## International availability
 

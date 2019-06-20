@@ -42,13 +42,14 @@ search.app:
  This failure can also occur if an incorrect URL is entered in the Enable Server-Based SharePoint Integration wizard or if there is a problem with the digital certificate used for server authentication.  
   
 <a name="BKMK_fail_Author"></a>   
-### Failed Authorization  
- This failure can occur when the claims-based authentication types do not match. For example, in a hybrid deployment such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises, when you use the default claims-based authentication mapping, the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address used by the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps user must match the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] user’s **Work email**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Selecting a claims mapping type](../admin/configure-server-based-authentication-sharepoint-on-premises.md#BKMK_selectclmmap)  
+### Failed authorization or 401 unauthorized error
+ This failure can occur when the claims-based authentication types do not match. For example, in a hybrid deployment such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises, when you use the default claims-based authentication mapping, the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address used by the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps user must match the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] user’s **Work email**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About claims-based authentication mapping](../on-premises/on-prem-server-based-sharepoint-on-prem.md#about-claims-based-authentication-mapping) 
   
 <a name="BKMK_SP_nosupp"></a>   
 ### SharePoint Version Not Supported  
  This failure indicates that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] edition, version, required service pack, or required hotfix are missing. 
-  
+ 
+ 
 <a name="BKMK_TS_SP"></a>   
 ## Troubleshooting SharePoint  
  Issues that affect server-based authentication can also be recorded in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] logs and reports. For more information about how to view and troubleshoot [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] monitoring, see the following topics. [View reports and logs in SharePoint 2013](https://technet.microsoft.com/library/ee748651.aspx) and [Configure diagnostic logging in SharePoint 2013](https://technet.microsoft.com/library/ee748656.aspx)  
@@ -117,4 +118,5 @@ search.app:
  This error can be returned to the user who doesn’t have site permissions or the user has had permissions removed from the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site where [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps document management is enabled. Currently, this is a known issue with [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] where the error message that is displayed to the user doesn’t indicate that the user’s permissions are not sufficient to access the site.  
   
 ### See also  
+[Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md) <br />
  [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)

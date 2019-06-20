@@ -207,7 +207,7 @@
 #### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
 #### [Connect Customer Engagement to Exchange Server (on-premises)](connect-exchange-server-on-premises.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
-<!-- #### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md) -->
+#### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)
 #### [Troubleshooting](troubleshooting-monitoring-server-side-synchronization.md)
 #### [When would I want to use this check box?](when-would-want-use-check-box.md)
@@ -234,23 +234,19 @@
 ### Manage your documents using SharePoint 
 #### [Overview](manage-documents-using-sharepoint.md)
 #### [Software requirements](sharepoint-document-management-software-requirements.md)
-#### [Server-based SharePoint integration considerations](important-considerations-server-based-sharepoint-integration.md)
 #### Set up
 ##### [Overview](set-up-sharepoint-integration.md)
-##### [Set up Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-##### [Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md)
-##### [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)
-##### [Configure server-based authentication with Customer Engagement and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)
-##### [Configure server-based authentication with Customer Engagement and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+##### [Set up to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+##### [Set up to use SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+##### [Switching from the list component](switching-list-component-changing-deployment.md)
+#### Configure
+##### [Enable document management for entities](enable-sharepoint-document-management-specific-entities.md)
+##### [Edit existing site records](edit-existing-sharepoint-site-records.md)
+##### [Create document location records](create-edit-document-location-records.md)
+##### [Permissions required](permissions-required-document-management-tasks.md)
+#### Troubleshoot
 ##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)
-##### [Configure SharePoint integration using the list component](configure-sharepoint-integration-using-list-component.md)
-#### [Enable SharePoint document management for specific entities](enable-sharepoint-document-management-specific-entities.md)
-#### [Create or add a document location for the first time](create-add-location-first-time.md)
-#### [Edit existing SharePoint site records](edit-existing-sharepoint-site-records.md)
-#### [Create or edit document location records](create-edit-document-location-records.md)
-#### [Permissions required for document management tasks](permissions-required-document-management-tasks.md)
-#### [Validate and fix SharePoint site URLs](validate-fix-sharepoint-site-urls.md)
-<!-- #### [Set up Customer Service](../customer-service/improve-customer-service-better-automation-tracking.md) -->
+##### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md)
 ### Connect to Microsoft Social Engagement
 #### [Connect, assign licenses, and reset](connect-microsoft-social-engagement.md)
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)
