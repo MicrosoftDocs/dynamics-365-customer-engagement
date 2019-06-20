@@ -2,7 +2,7 @@
 title: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams| MicrosoftDocs"
 ms.custom: 
 description: "Integrate Dynamics 365 for Customer Engagement appswith Microsoft Teams."
-ms.date: 4/30/2019
+ms.date: 6/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
