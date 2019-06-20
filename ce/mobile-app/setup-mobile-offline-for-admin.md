@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/05/2019
+ms.date: 06/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -396,6 +396,8 @@ Ensure that you have configured at least one of the Profile rules for each entit
 The recommended data volume should be <= 10k records per user subscription.
 
 ## Known issues
+
+**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Branching conditions will not be evaluated and recommendations on steps will not be displayed.
 
 **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
