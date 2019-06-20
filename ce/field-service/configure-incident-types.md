@@ -225,7 +225,11 @@ When attempting to book a work order with multiple incidents, the schedule assis
 
 ## Use customer assets with incident types
 
-Another great feature of incident types is they
+Another great feature of incident types is they can be related to customer assets to tell field technicians which asset needs attention and build service history. You can have all incidents related to the same asset or even have each incident related to different customer assets as needed.
+
+For the primary incident type, simply populate the **primary incident customer asset** field. This field is filtered to only show customer assets related to the work order service account by default. 
+
+For other work order incident types, go to the **Incident Relates To** section and associate a customer asset.
 
 ## Incidents for multi-resource scheduling
 
@@ -242,5 +246,9 @@ Another great feature of incident types is they
 ## Additional notes
 
 - importing with excel
+- - understanding the entities involved
+  - incident type
+  - incident type product
+  - work order product
 
 
