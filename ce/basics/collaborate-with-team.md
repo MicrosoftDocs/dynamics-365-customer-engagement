@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with your team (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/30/2019
+ms.date: 06/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
