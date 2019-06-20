@@ -200,6 +200,10 @@ In Related > Characteristics, the incident type characteristics are added as req
 
 In order to appropriately schedule this work order, the related Resource Requirement has a Duration = the incident type duration (2 hours in our example) and the characteristic is passed along as well. 
 
+The requirement record is utilized for scheduling, so when you select **Book** from the work order or requirement, the duration and characteristic (with rating value) are used as filters, both of which originated with the incident type.
+
+Finally, after it is scheduled the field technician will receive the booked work order along with the incident and related details. 
+
 ## Add multiple incident types to a work order
 
 ## Use customer assets with incident types
