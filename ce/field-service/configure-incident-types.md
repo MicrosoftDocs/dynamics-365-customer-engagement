@@ -231,6 +231,9 @@ For the primary incident type, simply populate the **primary incident customer a
 
 For other work order incident types, go to the **Incident Relates To** section and associate a customer asset.
 
+Once a work order incident and customer asset are associated, you will see the work order on the customer asset record, along with all previous work orders related to the asset. This could be displayed on the mobile app for field technicians to better understand the history of the part they are working on.
+
+
 ## Incidents for multi-resource scheduling
 
 > [!Note]
