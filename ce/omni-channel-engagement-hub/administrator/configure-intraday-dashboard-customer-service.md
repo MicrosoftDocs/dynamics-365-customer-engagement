@@ -1,38 +1,26 @@
 ---
 title: "Configure to view Intraday insights dashboard | MicrosoftDocs"
-description: "Instructions to configure intraday insights dashboard for Omnichannel in Dynamics 365 for Customer Service and Unified Service Desk."
+description: "Instructions to configure intraday insights dashboard for Omnichannel for Customer Service."
 keywords: ""
-author: sbmjais
-ms.author: shjais
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 applies_to: 
-ms.date: 2/8/2019
+ms.date: 6/20/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.assetid: F263FBCC-2406-4487-8461-E7FC3A99BF53
+ms.assetid: bf252418-3e3d-4f1c-9fc6-f153f4f067f4
 ms.custom: 
 ---
 
-# Configure to view Intraday Insights dashboard
+# Configure to view Intraday Insights dashboard in Omnichannel for Customer Service
 
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents, and make sure that they remain highly productive. At the same time, they help guarantee a superior experience for customers. To help supervisors carry out this dual responsibility, the dashboard consists of real-time monitoring and intraday health tracking of agent productivity and performance.
 
 > [!IMPORTANT]
 > The supervisor overview dashboard is not available in the GCC region (Gulf Cooperation Council).
 
-As an administrator, you must configure the overview dashboard in your organization before supervisors can use it. This dashboard is available on **Omnichannel for Customer Service** and **Unified Service Desk**.
-
-To configure the dashboard on **Unified Service Desk**, follow these steps:
-
-1. [Review prerequisites](#review-prerequisites)
-2. [Create Power BI datasets in your workspace](#create-power-bi-datasets-in-your-workspace)
-3. [Verify workspace creation in Power BI](#verify-workspace-creation-in-power-bi)
-4. [Configure dashboards in Power BI](#configure-dashboards-in-power-bi)
-5. [Configure Unified Service Desk to display supervisor dashboard](#configure-unified-service-desk-to-display-supervisor-dashboard)
-6. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
-7. [Update client cache version](#update-client-cache-version)
-
-To configure the dashboard on **Omnichannel for Customer Service** app, follow these steps:
+As an administrator, you must configure the overview dashboard in your organization before supervisors can use it. To configure the dashboard on **Omnichannel for Customer Service** app, follow these steps:
 
 1. [Review prerequisites](#review-prerequisites)
 2. [Create Power BI datasets in your workspace](#create-power-bi-datasets-in-your-workspace)
@@ -166,7 +154,7 @@ Follow these steps to configure Power BI dashboards.
 
     The **IntradayMonitoring** report is created.
 
-7.  In [Power BI Service](app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-report-open).
+7.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-report-open).
 
 8.  Pin the required tiles to dashboards. To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
 
@@ -183,73 +171,6 @@ Follow these steps to configure Power BI dashboards.
 11.  Copy the URL of the dashboard.  
 
    The dashboard is ready, and you can configure the **Unified Service Desk** or **Omnichannel for Customer Service** to make the dashboard available for supervisors.
-
-## Configure Unified Service Desk to display supervisor dashboard
-
-You must configure the **Unified Service Desk** to display the supervisor intraday insights dashboard when a supervisor signs in to the workspace in Omnichannel. To configure the **Unified Service Desk**, follow these steps:
-
-1.  Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Unified Service Desk**.
-
-    The Unified Service Desk settings page opens.
-
-2.  Select **Action Calls** and open **Load Supervisor Dashboard**.
-
-3.  In the **Action** section, enter the **Data** as “*url=* *https://powerbi.com/dashboards/&lt;id&gt;*” that you copied in [Configure dashboards in Power BI](#configure-dashboards-in-power-bi). Also, add the parameters **chromeless=1** and **nosignupcheck=1** at the end of the URL.  
-
-    For example,
-
-    url=*https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx?chromeless=1&nosignupcheck=1*
-
-4.  Save and close the settings page.
-
-The supervisor dashboard is configured and available. Add users to supervisor configuration to view the dashboards when signing on to the Omnichannel in **Unified Service Desk**. 
-
-## Add users to supervisor configuration
-
-You must add users in the supervisor configuration to access any supervisor dashboard in **Unified Service Desk**. To add users in supervisor configuration, follow these steps:
-
-1.  Sign in to Dynamics 365 for Customer Service.
-
-2.  Go to **Settings** > **Unified Service Desk** and then select **Configuration**.
-
-3.  On the configuration page, select **Supervisor Configuration**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select supervisor configuration](../media/supervisor-admin-select-supervisor-configuration-add-user.png "Select supervisor configuration")  
-
-4.  On the **Users** section, select **+ Add User record** and enter the user name to add the user.
-
-    > [!div class=mx-imgBorder]
-    > ![Add user to supervisor configuration](../media/supervisor-admin-supervisor-configuration-add-user.png "Add user to supervisor configuration")  
-
-5.  Save and close the configuration.
-
-    Users are added to the supervisor dashboard and when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
-
-## Update client cache version
-
-Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the life cycle of the client application.
-
-To learn more, see [Client caching overview](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?view=dynamics-usd-4.1).  
-
-1.  Sign in to **Dynamics 365 for Customer Service**.
-
-2.  Go to **Settings** > **Unified Service Desk** and then select **Options**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select options in settings](../media/supervisor-admin-select-options-usd-settings.png "Select options in settings")  
- 
-3.  Select **ClientCacheVersionNumber**.
-
-    > [!div class=mx-imgBorder]
-    > ![Select client cache version number](../media/supervisor-admin-select-client-cache-version-number.png "Select client cache version number")  
-
-4.  In the **Value** box, updated the existing alphanumeric number. For example, the existing alphanumeric number is OC2019\_04\_010 and updated this number as OC2019\_04\_011.
-
-    > [!div class=mx-imgBorder]
-    > ![Update value](../media/supervisor-admin-update-value-client-cache-number.png "Update value")  
-
-5.  Select **Save**.
 
 ## Configure supervisor dashboard in Omnichannel for Customer Service
 

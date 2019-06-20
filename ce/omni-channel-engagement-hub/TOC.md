@@ -47,7 +47,8 @@
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 
 ### Supervisor Experience
-#### [Configure Intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Configure Intraday insights dashboard for Unified Service Desk](administrator/configure-intraday-dashboard-usd.md)
+#### [Configure Intraday insights dashboard for Omnichannel for Customer Service](administrator/configure-intraday-dashboard-customer-service.md)
 
 
 
