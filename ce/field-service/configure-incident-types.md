@@ -188,7 +188,7 @@ This populates the fields:
 - Primary Incident Estimated Duration
 - Work Order Type
 
-Not immediately, but after a short time, the related work order products, services, and service tasks will be added. 
+Not immediately, but after a short time, the related work order products, services, and service tasks will be added. This is the result of a system job running titled "LongJobs_CopyIncidentItemsToWorkOrder" number 464. 
 
 The **Estimate Quantity** of the Work Order Product reflects the incident product quantity we specified.
 
@@ -196,7 +196,7 @@ The same is true for Work Order Services and Estimate Duration.
 
 Also, the Work Order Service Tasks are added in the order reflected on the incident type.
 
-In Related > Characteristics, the incident type characteristics are added as requirement characteristics.
+In **Related > Characteristics**, the incident type characteristics are added as requirement characteristics.
 
 In order to appropriately schedule this work order, the related Resource Requirement has a Duration = the incident type duration (2 hours in our example) and the characteristic is passed along as well. 
 
@@ -205,6 +205,11 @@ The requirement record is utilized for scheduling, so when you select **Book** f
 Finally, after it is scheduled the field technician will receive the booked work order along with the incident and related details. 
 
 ## Add multiple incident types to a work order
+
+The primary incident type field is a great way to define the main purpose of a work order. However you can add multiple incident types to a work order. Doing so will add on to the duration and existing service tasks, products, services, and characteristics. 
+
+> [!Note]
+> If you plan to use requirement groups with incident types for multi-resource scheduling, your work order can only have one work order incident.
 
 ## Use customer assets with incident types
 
