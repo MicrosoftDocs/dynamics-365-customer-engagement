@@ -206,12 +206,26 @@ Finally, after it is scheduled the field technician will receive the booked work
 
 ## Add multiple incident types to a work order
 
-The primary incident type field is a great way to define the main purpose of a work order. However you can add multiple incident types to a work order. Doing so will add on to the duration and existing service tasks, products, services, and characteristics. 
+The primary incident type field is a great way to define the main purpose of a work order. However you can add multiple incident types to a work order. A common example is a machine has multiple issues or error codes or multiple machines need to be worked on. This implies all incidents should be performed by the dispatched resource(s). Doing so will add on to the duration and existing service tasks, products, services, and characteristics. 
+
+Go to **Related > Incidents > +New Incident Type** and add another incident. 
+
+Though the primary incident estimated duration will not change, the duration of the related resource requirement will be increased by the new incident's duration. 
+
+Below we can see the duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
+
+Back on the Work Order, the second incident's products, services, and service tasks were added as well. It is common for incident types to have overlapping service tasks, and duplicates will be added so consider if this is right for your business processes.
+
+The order of the service tasks reflects the order in which incidents are added.
+
+When attempting to book a work order with multiple incidents, the schedule assistant and resource scheduling optimization will look for a single resource with time availability to complete all incidents and has all the matching characteristics. In the case of the schedule assistant, these filters can be edited at the time of scheduling as needed. 
 
 > [!Note]
 > If you plan to use requirement groups with incident types for multi-resource scheduling, your work order can only have one work order incident.
 
 ## Use customer assets with incident types
+
+Another great feature of incident types is they
 
 ## Incidents for multi-resource scheduling
 
@@ -220,6 +234,10 @@ The primary incident type field is a great way to define the main purpose of a w
 
 ## Configuration considerations
 - if you add multiple incidents with characteristics, does the system look for a resource that has all characteristics
+- work order with multiple incidents vs requirement groups
+- -only one work order incident can be the primary incident. the first incident added is the primary incident or the one entered in the primary incident type field. there is boolean value on the work order incident type indicating if it is the primary that can be used for business logic.
+- resolution 
+- boolean for service tasks
 
 ## Additional notes
 
