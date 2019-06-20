@@ -2,7 +2,7 @@
 title: "Use the personal dashboard| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal dashboard."
-ms.date: 4/30/2019
+ms.date: 6/20/2019
 ms.reviewer: ""
 ms.service: crm-online
 ms.suite: ""
@@ -29,9 +29,19 @@ search.app:
 
 You can use the Dynamics 365 app for Teams for your own use. If you want to work with other team members, consider the [team app](teams-collaboration.md).
 
-## Conversation tab
+## Naviagte to your personal dashboard
 
-Select the **Conversation** tab to access the bot as described above.
+1. From the Teams app > **More added apps** > **Dynamics 365** app.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Open the Dynamics 365 for Customer Engagement app](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement appsapp")
+
+2. Select the **My Dashboard** tab.
+
+ > [!div class="mx-imgBorder"] 
+ > ![Open the Dynamics 365 for Customer Engagement app Dashboard](media/teams-mydashboard.png "Open the Dynamics 365 for Customer Engagement apps dashboard")
+
+teams-mydashboard.png
 
 ## My Dashboard tab
 
