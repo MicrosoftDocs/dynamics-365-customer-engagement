@@ -2,7 +2,7 @@
 title: "Use the personal dashboard| MicrosoftDocs"
 ms.custom: ""
 description: "Use the personal dashboard."
-ms.date: 5/30/2019
+ms.date: 6/20/2019
 ms.reviewer: ""
 ms.service: crm-online
 ms.suite: ""
