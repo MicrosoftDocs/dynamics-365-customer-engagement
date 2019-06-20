@@ -32,7 +32,7 @@ Let's look at the common tasks that you have to perform to configure **Unified S
 
 To configure the dashboard on **Unified Service Desk**, follow these steps:
 
-1. Perform the common tasks.
+1. [Perform the common tasks](#common-tasks-to-configure-intraday-insights-dashboard).
 2. [Configure Unified Service Desk to display supervisor dashboard](#configure-unified-service-desk-to-display-supervisor-dashboard)
 3. [Add users to supervisor configuration](#add-users-to-supervisor-configuration)
 4. [Update client cache version](#update-client-cache-version)
@@ -40,12 +40,16 @@ To configure the dashboard on **Unified Service Desk**, follow these steps:
 
 To configure the dashboard on **Omnichannel for Customer Service** app, follow these steps:
 
-1. Perform the common tasks.
-3. [Configure supervisor dashboard in Omnichannel for Customer Service](#configure-supervisor-dashboard-in-omnichannel-for-customer-service)
-4. [Share dashboard in Omnichannel for Customer Service](#share-dashboard-in-omnichannel-for-customer-service)
+1. [Perform the common tasks](#common-tasks-to-configure-intraday-insights-dashboard).
+2. [Configure supervisor dashboard in Omnichannel for Customer Service](#configure-supervisor-dashboard-in-omnichannel-for-customer-service)
+3. [Share dashboard in Omnichannel for Customer Service](#share-dashboard-in-omnichannel-for-customer-service)
 
 
-## Review prerequisites
+## Common tasks to configure intraday insights dashboard 
+
+You must perform these common tasks before you go ahead and configure Intraday insights dashboard for **Unified Service Desk** and **Omnichannel for Customer Service**.
+
+### Review prerequisites
 
 Review the following prerequisites before configuring the supervisor dashboard:Â 
 
@@ -76,7 +80,7 @@ Review the following prerequisites before configuring the supervisor dashboard:Â
 
 -  Verify that your administrator has allowed Omnichannel Customer Service to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omni-channel-provision-license.md).  
 
-## Create Power BI datasets in your workspace
+### Create Power BI datasets in your workspace
 
 You must configure the Power BI workspace in Dynamics 365 Customer Engagement to import the data sets that are defined for supervisor in Power BI. Follow these steps to create the supervisor datasets to your workspace.
 
@@ -124,7 +128,7 @@ You must configure the Power BI workspace in Dynamics 365 Customer Engagement to
     > [!IMPORTANT]
     > Don't create more than one analytics configuration in your Dynamics 365. If you have more than one record, the application would use the configuration that you last created. If you want to add a new analytics configuration, delete or deactivate any existing configuration.
 
-## Verify workspace creation in Power BI
+### Verify workspace creation in Power BI
 
 To verify the creation of workspace in Power BI, follow these steps:
 
@@ -141,7 +145,7 @@ To verify the creation of workspace in Power BI, follow these steps:
 
     -   The report and datasets **IntradayMonitoring**.
 
-## Configure dashboards in Power BI
+### Configure dashboards in Power BI
 
 Configuring the Power BI workspace provides you only the **IntradayMonitoring** report. Create the dashboard out of **IntradayMonitoring** Power BI report after it is available.
 
@@ -187,7 +191,11 @@ Follow these steps to configure Power BI dashboards.
 
    The dashboard is ready, and you can configure the **Unified Service Desk** or **Omnichannel for Customer Service** to make the dashboard available for supervisors.
 
-## Configure Unified Service Desk to display supervisor dashboard
+## Configuration tasks for Unified Service Desk 
+
+After you complete the common tasks, you must perform the tasks defined in this section to complete the configuration for Intraday insights dashboard for **Unified Service Desk**.
+
+### Configure Unified Service Desk to display supervisor dashboard
 
 You must configure the **Unified Service Desk** to display the supervisor intraday insights dashboard when a supervisor signs in to the workspace in Omnichannel. To configure the **Unified Service Desk**, follow these steps:
 
@@ -207,7 +215,7 @@ You must configure the **Unified Service Desk** to display the supervisor intrad
 
 The supervisor dashboard is configured and available. Add users to supervisor configuration to view the dashboards when signing on to the Omnichannel in **Unified Service Desk**. 
 
-## Add users to supervisor configuration
+### Add users to supervisor configuration
 
 You must add users in the supervisor configuration to access any supervisor dashboard in **Unified Service Desk**. To add users in supervisor configuration, follow these steps:
 
@@ -229,7 +237,7 @@ You must add users in the supervisor configuration to access any supervisor dash
 
     Users are added to the supervisor dashboard and when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
 
-## Update client cache version
+### Update client cache version
 
 Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the life cycle of the client application.
 
@@ -253,6 +261,11 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/en-us/dy
     > ![Update value](../media/supervisor-admin-update-value-client-cache-number.png "Update value")  
 
 5.  Select **Save**.
+
+
+## Configuration tasks for Omnichannel for Customer Service
+
+After you complete the common tasks, you must perform the tasks defined in this section to complete the configuration for Intraday insights dashboard for **Omnichannel for Customer Service**.
 
 ## Configure supervisor dashboard in Omnichannel for Customer Service
 
