@@ -206,7 +206,7 @@ Finally, after it is scheduled the field technician will receive the booked work
 
 ## Add multiple incident types to a work order
 
-The primary incident type field is a great way to define the main purpose of a work order. However you can add multiple incident types to a work order. A common example is a machine has multiple issues or error codes or multiple machines need to be worked on. This implies all incidents should be performed by the dispatched resource(s). Doing so will add on to the duration and existing service tasks, products, services, and characteristics. 
+The primary incident type field is a great way to define the main purpose of a work order. However you can add multiple incident types to a work order. A common example is a machine has multiple issues or multiple machines need to be worked on. This implies all incidents should be performed by the dispatched resource. Adding multiple incidents to a work order will add on to the duration and existing service tasks, products, services, and characteristics. 
 
 Go to **Related > Incidents > +New Incident Type** and add another incident. 
 
@@ -220,8 +220,7 @@ The order of the service tasks reflects the order in which incidents are added.
 
 When attempting to book a work order with multiple incidents, the schedule assistant and resource scheduling optimization will look for a single resource with time availability to complete all incidents and has all the matching characteristics. In the case of the schedule assistant, these filters can be edited at the time of scheduling as needed. 
 
-> [!Note]
-> If you plan to use requirement groups with incident types for multi-resource scheduling, your work order can only have one work order incident.
+
 
 ## Use customer assets with incident types
 
@@ -236,15 +235,22 @@ Once a work order incident and customer asset are associated, you will see the w
 
 ## Incidents for multi-resource scheduling
 
-o	they show up at same time
-o	doubles work if schedule twice
+If an incident type should be completed by multiple resources, it is advantageous to relate the incident type to a requirement group template. This will add a requirement group to the work order when the incident is added. Scheduling requirement groups for work orders ensures each resource arrives on site at the same time. 
+
+There are a few important notes when utilizing incidents with requirement groups:
+1. You cannot add characteristics to the incident type or directly to the work order. This is because you should add required characteristics in the requirement group template
+2. The work order can only have one incident
+
+For more information see the topic on [requirement groups for work orders](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
+
 
 
 > [!Note]
-> If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead you should add required characteristics to the requirement group template.
+> **Multiple incidents vs. requirement group templates:** If you know a work order should be performed by multiple resources, it is highly recommended to use requirement group templates compared to multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. When attempting to book the work order, the system will look for a single resource (including crews) to fulfill the job. The scheduler would need to do extra work to schedule it to two different resources to arrive at the same time. However, if you utilize a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time. 
+
 
 ## Configuration considerations
-- if you add multiple incidents with characteristics, does the system look for a resource that has all characteristics
+
 - work order with multiple incidents vs requirement groups
 - -only one work order incident can be the primary incident. the first incident added is the primary incident or the one entered in the primary incident type field. there is boolean value on the work order incident type indicating if it is the primary that can be used for business logic.
 - resolution 
