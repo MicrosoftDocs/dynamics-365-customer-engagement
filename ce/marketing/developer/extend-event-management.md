@@ -74,11 +74,11 @@ In this section, there will be additional details given about what exactly happe
 1. After you called ***redirect_uri*** we will again call your provider implementation, this time to obtain the bearer token. ***/auth/token*** endpoint will be called with the following request body:
    * grant_type:"authorization_code"
    * code: The code you generated in the previous step - check against it
-   * client_id: Clint ID from the provider that this webinar configuration is using
-   * client_secret: Clint secret from the provider that this webinar configuration is using
+   * client_id: Client ID from the provider that this webinar configuration is using
+   * client_secret: Client secret from the provider that this webinar configuration is using
    * refresh_token: null
    * redirect_uri: https://YOUR_ORG/WebResources/msevtmgt_AuthorizationResult.html
 
    In this moment you should generate the bearer token for us to use and return it from this call.
-1. If we get the token we will mark the configuration as authenticated and use that token in further communication with your provider implementation
+1. If we get the token we will mark the configuration as authenticated and use that token in further communication with your provider implementation.
 
