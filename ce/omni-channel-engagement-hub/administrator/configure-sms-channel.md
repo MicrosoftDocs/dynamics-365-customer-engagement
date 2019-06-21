@@ -82,9 +82,8 @@ To sign up for TeleSign:
     - **Description**: Optional description for the number.
     
     > [!NOTE]
-    > For this preview, only one phone number is supported per work stream.
-    > Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. 
-    > For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
+    > - For this preview, only one phone number is supported per work stream.
+    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
 
     > [!div class=mx-imgBorder]
     > ![SMS Numbers tab](../media/sms-number.png "SMS Numbers tab")
