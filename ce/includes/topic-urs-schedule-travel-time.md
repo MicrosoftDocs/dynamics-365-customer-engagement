@@ -143,7 +143,7 @@ When the schedule assistant is triggered, it finds the available time slot.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of scheduling work order before other bookings with schedule assistant](../field-service/media/scheduling-travel-time-schedule-assistant.png)
 
-After it is booked, the travel time of the subesequent booking is updated as the location has changed.
+After it is booked, the travel time of the subsequent booking is updated as the location has changed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of travel time of subsequent booking being updated](../field-service/media/scheduling-travel-time-schedule-assistant-update-subsequent.png)
 
