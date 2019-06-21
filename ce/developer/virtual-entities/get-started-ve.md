@@ -50,6 +50,7 @@ In this release, there are some limitations to virtual entities that you need to
   - All entity properties must be represented as [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps attributes. You can use simple types representing text, numbers, optionsets, dates, images, and lookups. 
   - You must be able to model any entity relationships in [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps.
   - An attribute on a virtual entity cannot be calculated or rollup.  Any desired calculations must be done on the external side, possibly within or directed by the data provider.
+  - Although you can add virtual entity columns as a lookup on a grid or other UI views, you cannot filter or sort based on this virtual entity lookup column.
 
 - Auditing and change tracking is not supported.  These may be implemented within the external data store.
 - Virtual entities cannot be enabled for queues.
