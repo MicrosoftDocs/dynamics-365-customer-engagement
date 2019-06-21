@@ -75,7 +75,7 @@ As an example, an incident type can be:
 
 Most importantly, adding an incident type to a work order can add other details such as duration and add related records including work order service tasks, work order products, work order services, and characteristics (skills). This means incident types can **effectively serve as work order templates** that pre-populate information, which can be manually edited as needed.
 
-The value organizations get from using incident types is they codify issues, procedures, and resolutions and help standardize processes across geographies and business lines. This ensures all field technicians are performing the same actions to resolve work orders, and if better procedures are discovered, the incident type is updated and implemented across the entire organization. Another benefit is using incident types saves time creating work orders. Without using incident types, the customer service reps or dispatchers creating work orders would have to manually add the details. Consider the Connected Field Service scenario where IoT alerts create work orders. If you correlate IoT alerts with incident types, your organization can have a situation where IoT alerts create work orders with much of the details filled in.
+The value organizations get from using incident types is they codify issues, procedures, and resolutions and help standardize processes across geographies and business lines. This ensures all field technicians are performing the same actions to resolve work orders, and if better procedures are discovered, the incident type is updated and implemented across the entire organization. Another benefit is using incident types saves time creating work orders. Without using incident types, the customer service reps or dispatchers creating work orders would have to manually add the details. Lastly, incident types are very helpful for reporting purposes because they allow you to see trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type will allow you to report on the number of power failures for a specific asset category for example.
 
 Other important features of incident types are (1) multiple incident types can be added to a work order to define multiple issues or procedures that need to be completed (2) each incident type can be related to a customer asset to build service history and (3) relating incident types to requirement group templates allows you to auto-populate multiple requirements for a work order and schedule the work order to multiple resources.
 
@@ -236,6 +236,10 @@ Once a work order incident and customer asset are associated, you will see the w
 
 ## Incidents for multi-resource scheduling
 
+o	they show up at same time
+o	doubles work if schedule twice
+
+
 > [!Note]
 > If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead you should add required characteristics to the requirement group template.
 
@@ -246,12 +250,23 @@ Once a work order incident and customer asset are associated, you will see the w
 - resolution 
 - boolean for service tasks
 
+
 ## Additional notes
 
+o	implementation notes
+o	at what point is it repetitive enough
+o	applying incident types with same skill, looks at more restrictive on
+o	don’t create too many at the beginning, as the company uses the project
+o	incident by type an incident by product
 - importing with excel
 - - understanding the entities involved
   - incident type
   - incident type product
   - work order product
+  - agreement incident
+- 
+- Crew for multi-incident?
+o	machine learning for duration
+o	bring IoT Alert and incident types together 
 
-
+Consider the Connected Field Service scenario where IoT alerts create work orders. If you correlate IoT alerts with incident types, your organization can have a situation where IoT alerts create work orders with much of the details filled in.
