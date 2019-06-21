@@ -5,9 +5,9 @@ ms.service: crm-online
 ms.topic: reference
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+author: msftman
+ms.author: deonhe
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
