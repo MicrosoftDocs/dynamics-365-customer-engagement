@@ -9,7 +9,6 @@
 #### [Sign up for a free trial](trial-signup.md)
 #### [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)
 #### [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
-#### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
@@ -17,6 +16,8 @@
 #### [Transfer customizations between instances](transfer-solution.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
+
+### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 
 ### Administration settings
 #### [Open the administration settings](open-advanced-settings.md)
