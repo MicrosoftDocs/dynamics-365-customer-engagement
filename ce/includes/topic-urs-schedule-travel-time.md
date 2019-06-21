@@ -133,6 +133,8 @@ In the following screenshot, the work location is location agnostic and no trave
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking a location agnostic requirement with no travel time](../field-service/media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
+Additionally, the **Auto Update Booking Travel** feature mentioned above available with Field Service v8.6+, will update subsequent bookings when using the schedule assistant.
+
 ## Add travel time with Resource Scheduling Optimization
 
 While the schedule assistant can help dispatchers make better scheduling decisions for individual requirements, Resource Scheduling Optimization (RSO) helps dispatchers make smarter scheduling decisions across many or all requirements at once. In regards to travel, this is the difference between reducing travel times and distances and **minimizing** them. 
