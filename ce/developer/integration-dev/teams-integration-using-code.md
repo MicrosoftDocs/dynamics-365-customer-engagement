@@ -19,12 +19,7 @@ search.app:
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-Enable Microsoft Teams Integration (preview feature) in Dynamics 365 for Customer Engagement to seamlessly collaborate and work effectively across Microsoft Teams and Customer Engagement apps. For detailed information about the feature, see [Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams](/dynamics365/customer-engagement/basics/teams-integration).
-
-> [!NOTE]
-> The Microsoft Teams Integration preview feature is currently only available for organizations in the North American region.
+Enable Microsoft Teams Integration in Dynamics 365 for Customer Engagement to seamlessly collaborate and work effectively across Microsoft Teams and Customer Engagement apps. For detailed information about the feature, see [Integrate Dynamics 365 for Customer Engagement apps with Microsoft Teams](/dynamics365/customer-engagement/basics/teams-integration).
 
 When your admin [enables](/dynamics365/customer-engagement/basics/teams-install-app#bkmk_enable) the Microsoft Teams integration feature for your instance in system settings, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional system entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action.
 
