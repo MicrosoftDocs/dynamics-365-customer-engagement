@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 1C8C2D34-541C-468E-A73C-AB5EE40706C4
 ms.custom: 
 ---
-# lcw:error (Omni-channel Engagement Hub JavaScript API reference)
+# lcw:error (Omnichannel for Customer Service JavaScript API reference)
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 

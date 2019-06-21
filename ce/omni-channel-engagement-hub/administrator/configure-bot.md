@@ -6,14 +6,14 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/12/2019
+ms.date: 06/13/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
 ms.custom: 
 ---
 
-# Integrate a bot (Preview)
+# Preview: Integrate a bot
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -30,7 +30,7 @@ A bot eases the load on your customer service agents by handling basic queries. 
 
 In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required. Let's now see how to integrate a bot with Omnichannel for Customer Service.
 
-## Integrate a bot with Omnichannel for Customer Service
+## Integrate a bot with Omnichannel for Customer Service 
 
 **Prerequisites**: You must have a bot that is built using Microsoft Bot Framework. For more information on how to build a bot, see [Azure Bot Service Documentation](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0).
 
@@ -43,7 +43,7 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 
 ### Step 1: Create a bot user
 
-A bot user is created as an application user and assigned with the **Omni-channel agent** role. Creating an application user is supported in the Web Client only. To create a bot user, you must:
+A bot user is created as an application user and assigned with the **Omnichannel agent** role. Creating an application user is supported in the Web Client only. To create a bot user, you must:
 
 1.	Get the Microsoft App ID of the bot.
 2.	Create an application user and add bot specific information to the application user.
@@ -79,7 +79,7 @@ To create a bot user:
 
 4.	Select **Manage Roles** on the command bar.
 
-5.	In the **Manage User Roles** window, select **Omni-channel agent**, and then select **OK**.
+5.	In the **Manage User Roles** window, select **Omnichannel agent**, and then select **OK**.
 
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user doesn't reduce when a query is handled by it.

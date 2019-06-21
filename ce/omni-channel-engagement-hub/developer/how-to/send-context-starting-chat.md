@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When a user initiates a chat, you can pass custom context to Omni-channel Engagement Hub. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
+When a user initiates a chat, you can pass custom context to Omnichannel for Customer Service. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
 
 > [!IMPORTANT]
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
 > The custom context provider would be invoked by live chat widget when starting a new chat.
 
 Follow these steps to send custom context when starting a chat:
@@ -48,7 +48,7 @@ function contextProvider(){
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 	// Handle LiveChat Ready event
 	// SDK methods are ready for use now
-	// Setting custom context provider to be used for the chat
+	// Setting custom context provider to be used with Chat for Dynamics 365
 	// The custom context provided by custom context provider can be used for routing the chat to a particular queue
 	Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(contextProvider);
 	// Starting a new chat

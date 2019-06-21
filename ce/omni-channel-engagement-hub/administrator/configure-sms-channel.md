@@ -6,14 +6,14 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/12/2019
+ms.date: 06/13/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 4392FF3A-51B1-42DC-A576-C3001D879469
 ms.custom: 
 ---
 
-# Configure an SMS channel (Preview)
+# Preview: Configure an SMS channel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
