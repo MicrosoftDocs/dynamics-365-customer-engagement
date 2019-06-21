@@ -26,6 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+<a name="enable"></a> 
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
 
 By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
