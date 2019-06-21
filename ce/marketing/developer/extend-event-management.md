@@ -56,6 +56,9 @@ To add a new webinar provider:
 
 ![Webinar Provider](../media/webinar-provider.png "Webinar Provider")
 
+> [!NOTE]
+> If you want to integrate with existing webinar provider, it is not enough to just set their API url as a base url, as it is highly unlikely that that webinar provider will have the exact API that we demand. In that case you need to create your service that would serve as an adapter between Event Management and existing webinar provider and put base url for your service in ***Base service URL field***. 
+
 ## Add a webinar configuration
 
 To create a new webinar configuration, 
@@ -70,3 +73,21 @@ To create a new webinar configuration,
 ## Webinar Extension API Reference
 
 Download the API reference [here](https://go.microsoft.com/fwlink/?linkid=2006678)
+
+## Webinar configuration authentication flow
+In this section, there will be addition details given about what exactly happend when user slicks authenticate button on the webinar configuration flow, so you can adjust your provider implementation accordingly. 
+
+1. Upon clicking authorize ***/auth/authorize*** endpoint on your provider implementation should be called. 
+1. You should return authorization form HTML from that call and that HTML will be loaded into the popup on the CRM side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embeed it in the form HTML that you return or temporary store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
+1. After authentication has been done on your side, you should generate a one time code and call the ***redirect_uri*** together with the ***code*** paremeter and ***state*** parameter that you already have. It will lokk like this: ***{redirect_uri}?code={code_you_generated}&state={state_you_got_before}***
+1. After you called ***redirect_uri*** we will again call your provider implementation, this time to obtain the bearer token. ***/auth/token*** endpoint will be called with the following request body:
+   * grant_type:"authorization_code"
+   * code: The code you generated in the previous step - check against it
+   * client_id: Clint ID from the provider that this webinar configuration is using
+   * client_secret: Clint secret from the provider that this webinar configuration is using
+   * refresh_token: null
+   * redirect_uri: https://YOUR_ORG/WebResources/msevtmgt_AuthorizationResult.html
+
+   In this moment you should generate the bearer token for us to use and return it from this call.
+1. If we get the token we will mark the configuration as authenticated and use that token in further communication with your provider implementation
+
