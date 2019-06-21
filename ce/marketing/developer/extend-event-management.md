@@ -1,6 +1,6 @@
 ---
 title: "Extend Event Management | MicrosoftDocs"
-description: "Provides information about how you can extend event management functionality to add external webinar providers."
+description: "Provides information about how you can connect Event Management to third-party webinar providers."
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
@@ -17,7 +17,7 @@ ms.author: nabuthuk
 manager: kvivek
 ---
 
-# Preview: Extend Event Management to support more webinar providers
+# Preview: Connect Event Management to third-party webinar providers
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -36,15 +36,6 @@ Other webinar providers can implement the new Webinar Extension API to become a 
 
 The webinar provider must create a service that implements the Webinar Extension API so that it can be used as webinar provider in Dynamics 365 for Customer Engagement. More information: [Webinar Extension API Reference](#webinar-extension-api-reference)
 
-Further, the webinar provider should be able to authenticate with the Event management solution. This means that according to the API, `{BaseServiceURL}/v1/users` should return a JSON response with the following structure:
-
-```json
-{
-    "Username": "JohnDoe",
-    "Password": "Password"
-}
-```
-
 ## Add a webinar provider
 
 When adding a new webinar provider in Dynamics 365 for Customer Engagement, you will need to have ***Client ID*** and ***Client secret*** values. This information is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 for Customer Engagement uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
@@ -57,7 +48,7 @@ To add a new webinar provider:
 ![Webinar Provider](../media/webinar-provider.png "Webinar Provider")
 
 > [!NOTE]
-> If you want to integrate with existing webinar provider, it is not enough to just set their API url as a base url, as it is highly unlikely that that webinar provider will have the exact API that we demand. In that case you need to create your service that would serve as an adapter between Event Management and existing webinar provider and put base url for your service in ***Base service URL field***. 
+> If you want to integrate with existing webinar provider, it is not enough to just set their API url as a base url, as it is highly unlikely that webinar provider will have the exact API that we demand. In that case you need to create your own service that would serve as an adapter between Event Management and existing webinar provider, and put the base url for your service in ***Base service URL field***. 
 
 ## Add a webinar configuration
 
@@ -75,11 +66,11 @@ To create a new webinar configuration,
 Download the API reference [here](https://go.microsoft.com/fwlink/?linkid=2006678)
 
 ## Webinar configuration authentication flow
-In this section, there will be addition details given about what exactly happend when user slicks authenticate button on the webinar configuration flow, so you can adjust your provider implementation accordingly. 
+In this section, there will be additional details given about what exactly happens when user clicks authenticate button on the webinar configuration flow, so you can adjust your provider implementation accordingly. 
 
-1. Upon clicking authorize ***/auth/authorize*** endpoint on your provider implementation should be called. 
-1. You should return authorization form HTML from that call and that HTML will be loaded into the popup on the CRM side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embeed it in the form HTML that you return or temporary store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
-1. After authentication has been done on your side, you should generate a one time code and call the ***redirect_uri*** together with the ***code*** paremeter and ***state*** parameter that you already have. It will lokk like this: ***{redirect_uri}?code={code_you_generated}&state={state_you_got_before}***
+1. Upon clicking authorize ***/auth/authorize*** endpoint on the webinar configuration form, your provider implementation should be called. 
+1. You should return authorization form HTML from that call. That HTML will be loaded into the popup on the CRM side. One of the parameters passed to the ***/auth/authorize*** endpoint is ***redirect_uri***. You should either embeed it in the form HTML that you return or temporarily store it on your side, depending on your implementation. Another parameter is ***state***, you should keep track of that too.
+1. After authentication has been done on your side, you should generate one time code and call the ***redirect_uri*** together with the ***code*** paremeter and ***state*** parameter that you already have. It will lokk like this: ***{redirect_uri}?code={code_you_generated}&state={state_you_got_before}***
 1. After you called ***redirect_uri*** we will again call your provider implementation, this time to obtain the bearer token. ***/auth/token*** endpoint will be called with the following request body:
    * grant_type:"authorization_code"
    * code: The code you generated in the previous step - check against it
