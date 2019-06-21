@@ -127,7 +127,7 @@ In the following screenshot, travel time and distance calculations appear in the
 > [!NOTE]
 > If the work order requirement has a work location of **Location Agnostic** or if the schedule assistant work location filter is changed to **Location Agnostic**, then resources without locations will also be displayed along with resources that do have locations, except the booking will not calculate travel time.
 
-In the following screenshot, the work location is location agnostic and no travel times are displayed in results
+In the following screenshot, the work location is location agnostic and no travel times are displayed in results.
 
 
 > [!div class="mx-imgBorder"]
