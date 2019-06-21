@@ -26,7 +26,7 @@ A presence status consists of two elements:
 - **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
 
 ## Out of the box presence statuses
-Out of the box, Omni-channel provides the following presence statuses:
+Out of the box, Omnichannel provides the following presence statuses:
 
 - Available
 - Away
@@ -46,7 +46,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 Follow these steps to create a new presence record.
 
-1. In the Omni-channel site map, go to **Agent Experience \> Custom Presence**.
+1. In the Omnichannel site map, go to **Agent Experience \> Custom Presence**.
 
     The **Active Presences** view is shown.
 

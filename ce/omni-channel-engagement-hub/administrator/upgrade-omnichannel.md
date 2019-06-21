@@ -23,7 +23,7 @@ Follow these steps to upgrade Omnichannel for Customer Service:
 
 1. Log in to the [Dynamics 365 Admin Center](https://admin.microsoft.com/adminportal/home#/homepage).
 
-2. Select **Manage Instances** and navigate to your org in the **Manage Omni-channel Instances** page. 
+2. Select **Manage Instances** and navigate to your org in the **Manage Omnichannel Instances** page. 
 3. Check for an upgrade notification for your org. 
 
     > [!div class=mx-imgBorder] 
@@ -32,7 +32,7 @@ Follow these steps to upgrade Omnichannel for Customer Service:
     As an upgrade is available, select the **Upgrade** button to upgrade your org to the latest version.
 
      > [!div class=mx-imgBorder] 
-     > ![Upgrade Omni-channel](../media/upgrade-oc.png)
+     > ![Upgrade Omnichannel](../media/upgrade-oc.png)
 
     The system begins the upgrade and displays the message **Omnichannel for Customer Service upgrade is currently in  progress**.
          
@@ -51,8 +51,8 @@ If you are using Omnichannel for Customer Service on Unified Service Desk, refer
 
 ### See also
 
-[Enable SMS channel](omni-channel-provision-license.md#enable-sms-channel)
+[Enable SMS channel](omnichannel-provision-license.md#enable-sms-channel)
 
-[Pre-requisites and system requirements of Omnichannel for Customer Service - Preview](../system-requirements-omni-channel-engagement-hub.md)
+[Pre-requisites and system requirements of Omnichannel for Customer Service - Preview](../system-requirements-omnichannel-engagement-hub.md)
 
-[Provision Omnichannel for Customer Service](omni-channel-provision-license.md)
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)

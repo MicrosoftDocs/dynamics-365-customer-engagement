@@ -22,7 +22,7 @@ Use entity channel to route entities from Common Data Service to the Omnichannel
 
 Follow these steps to configure an entity channel.
 
-1. In the Omni-channel site map, go to **Channels \> Entity**.
+1. In the Omnichannel site map, go to **Channels \> Entity**.
 
 2. On the command bar, select **New** to create a new entity channel.
 3. In the **General** tab:

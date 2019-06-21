@@ -27,17 +27,17 @@ Omnichannel for Customer Service is a customizable application, that you can eff
 
 ## Access Omnichannel for Customer Service for administrators
 
-1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](omni-channel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your Dynamics 365 instance.
+1. Provision the Omnichannel for Customer Service app. Follow the steps given in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up and enable the Omnichannel for Customer Service app in your Dynamics 365 instance.
 
-2. Once the app is enabled, go to the Dynamics 365 for Customer Engagement site map, navigate to the app switcher and then select **Omni-channel Administration**.
+2. Once the app is enabled, go to the Dynamics 365 for Customer Engagement site map, navigate to the app switcher and then select **Omnichannel Administration**.
 
     > [!div class=mx-imgBorder] 
     > ![App switcher](../media/app-switcher-oc.png)
 
-You can view the entities in the **Omni-channel Administration** site map.
+You can view the entities in the **Omnichannel Administration** site map.
 
   > [!div class=mx-imgBorder] 
-  > ![Omni-channel sitemap](../media/omni-channel-sitemap.png)
+  > ![Omnichannel sitemap](../media/omnichannel-sitemap.png)
 
 ## In this section
 
@@ -48,13 +48,13 @@ You can view the entities in the **Omni-channel Administration** site map.
 
 ## How-to topics
 - [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
-- [Manage a user in Omni-channel](users-user-profiles.md#manage-a-user-in-omni-channel)<br>
+- [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel)<br>
 - [Configure a chat channel](set-up-chat-widget.md) </br>
 - [Configure an entity channel](create-entity-channel.md)</br>
 - [Configure an SMS channel](configure-sms-channel.md) </br>
 - [Automatically identify customers using pre-chat responses](record-identification-rule.md)<br>
 - [Create custom presence status](presence-custom-presence.md#create-custom-presence-status)<br>
-- [Create a new Omni-channel queue](queues-omni-channel.md#create-a-new-omni-channel-queue)<br>
+- [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-omnichannel-queue)<br>
 - [Create a routing rule](routing-rules.md#create-a-routing-rule)<br>
 - [Enable knowledge articles in the Omnichannel for Customer Service](knowledge-management-oc.md) </br>
 - [Add a chat widget](add-chat-widget.md)<br>

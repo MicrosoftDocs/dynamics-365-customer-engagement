@@ -21,13 +21,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Unified routing and work distribution ensures that conversations from all the channels are routed to agents efficiently. This is a two-step process:
 
-1. Routing dispatches conversations into the right Omni-channel queues.
+1. Routing dispatches conversations into the right Omnichannel queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
 For example, a customer initiates a chat regarding a query about **Billing**. In this case, unified routing and work distribution helps route the chat to the **Billing** queue and assign the chat to an agent who is a member of the queue and has the required presence and required capacity. This is shown in the following illustration.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](../../omni-channel-engagement-hub/media/oc-scenario.png)
+> ![Routing and work distribution scenario](../../omnichannel-engagement-hub/media/oc-scenario.png)
 
 Here are some of the benefits of unified routing and work distribution:
 
@@ -45,12 +45,12 @@ Configure the following entities in the Omnichannel for Customer Service. Once c
 
 |Entity   |Value   |
 |---------|---------|
-|Omni-channel users </br> *Name - Presence : Capacity*     |  Gilda – Busy : 70 units </br> Bert – Available : 80 units </br> Samuel – Available : 20 units</br> Jill – DND : 30 units</br> Shana – Busy : 20 units </br> John – DND : 80 units |
+|Omnichannel users </br> *Name - Presence : Capacity*     |  Gilda – Busy : 70 units </br> Bert – Available : 80 units </br> Samuel – Available : 20 units</br> Jill – DND : 30 units</br> Shana – Busy : 20 units </br> John – DND : 80 units |
 |Work stream      |  Product & Billing live chat        |
 |Capacity     |   50 units        |
 |Work distribution mode     | Push       |
-|Omni-channel routing rules      |  If *category* = **Billing**, assign to **Billing** queue </br>  If *category* = **Product**, assign to **Product** queue |
-|  Omni-channel queues & members     |   Billing Queue = Gilda, Bert, Samuel </br> Product Queue = Jill, Shana, John |
+|Omnichannel routing rules      |  If *category* = **Billing**, assign to **Billing** queue </br>  If *category* = **Product**, assign to **Product** queue |
+|  Omnichannel queues & members     |   Billing Queue = Gilda, Bert, Samuel </br> Product Queue = Jill, Shana, John |
 |    |         |
 
 ## Step 2: Process the chat conversation
@@ -100,13 +100,13 @@ To effectively route and distribute work to agents, admins can set up the follow
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an entity channel](create-entity-channel.md)
 - [Configure an SMS channel](configure-sms-channel.md)
-- [Work with queues](queues-omni-channel.md)
+- [Work with queues](queues-omnichannel.md)
 - [Set up record identification rule](record-identification-rule.md)
 - [Create and manage routing rules](routing-rules.md)
 - [Configure and manage presence status](presence-custom-presence.md)
 
 ###  See also
 
-[Omnichannel for Customer Service for administrators](omni-channel-engagement-hub-administrator.md)
+[Omnichannel for Customer Service for administrators](omnichannel-engagement-hub-administrator.md)
 
 

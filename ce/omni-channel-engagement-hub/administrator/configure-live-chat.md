@@ -27,13 +27,13 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 1: Create a live chat work stream
 
-1. In the Omni-channel site map, go to **Work Streams** and select **New** from the command bar.
+1. In the Omnichannel site map, go to **Work Streams** and select **New** from the command bar.
 2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
 3. In the **Channel** drop-down list, select **Live chat** as the channel.
 4. Select **Save** to save the live chat work stream.
 
    > [!div class=mx-imgBorder]
-   > ![New workstream](../media/omni-channel-new-work-stream.png)
+   > ![New workstream](../media/omnichannel-new-work-stream.png)
 
 ## Step 2: Configure a chat widget
 
@@ -71,5 +71,5 @@ You can maximize the chat widget by selecting it.
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md) </br>
-[Create and manage routing rules in Omni-channel](routing-rules.md) </br>
+[Create and manage routing rules in Omnichannel](routing-rules.md) </br>
 [Configure a chat widget](set-up-chat-widget.md)

@@ -1,6 +1,6 @@
 ---
-title: Enable users for Omni-channel and assign roles | MicrosoftDocs
-description: Know how to enable users for Omni-channel and assign roles in the Omnichannel for Customer Service
+title: Enable users for Omnichannel and assign roles | MicrosoftDocs
+description: Know how to enable users for Omnichannel and assign roles in the Omnichannel for Customer Service
 keywords: users and user profiles; Omnichannel for Customer Service; user roles
 author: anjgupta
 ms.author: anjgup
@@ -19,14 +19,14 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-All Dynamics 365 users who are assigned the **Omni-channel administrator**, **Omni-channel supervisor**, or **Omni-channel agent** role are enabled for Omni-channel and become Omni-channel users.
+All Dynamics 365 users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** role are enabled for Omnichannel and become Omnichannel users.
 
 > [!IMPORTANT]
-> To enable users for Omni-channel, your org should have successfully on-boarded to the Omni-channel public preview. Refer [Provision Omnichannel for Customer Service](omni-channel-provision-license.md) to provision Omni-channel in your Dynamics 365 org.
+> To enable users for Omnichannel, your org should have successfully on-boarded to the Omnichannel public preview. Refer [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to provision Omnichannel in your Dynamics 365 org.
 
 Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see  [Create users in Dynamics 365 for Customer Engagement apps and assign security roles](../../admin/create-users-assign-online-security-roles.md).
 
-Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web application:
+Follow these steps to assign Omnichannel roles to users in the Dynamics 365 web application:
 
 1. Select **Settings** > **Security** > **Users**.
 
@@ -41,18 +41,18 @@ Follow these steps to assign Omni-channel roles to users in the Dynamics 365 web
     > [!div class=mx-imgBorder]
     > ![user roles](../media/user-roles.png)
 
-To view and manage omni-channel users, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
+To view and manage omnichannel users, see [Manage users in Omnichannel for Customer Service](users-user-profiles.md).
 
 ## Understand roles and their privileges 
 
 Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges. 
 
 > [!NOTE]
-> Omni-channel users (agents and supervisors) should be assigned **Channel Access** role.
+> Omnichannel users (agents and supervisors) should be assigned **Channel Access** role.
 
 |Role  |Privileges  |
 |---------|---------|
-|**Omni-channel Administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+|**Omnichannel Administrator**      |  Can view user list / presence list / work stream list / queue list / PBI config list       |
 |    |    Can edit roles of a user     |
 |    |   Can edit default presence and default capacity of a user      |
 |    |     Can edit queue assignment of a user    |
@@ -67,21 +67,21 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 |    |     Can add / edit / delete PBI config    |
 |    |    Can view add / edit / delete operating hours    |
 |    |    Can view add / edit / delete auth settings     |
-|**Omni-channel Supervisor**     |  Can view user list / presence list / work stream list / queue list / PBI config list       |
+|**Omnichannel Supervisor**     |  Can view user list / presence list / work stream list / queue list / PBI config list       |
 ||Can edit default presence and default capacity of a user|
 ||Can edit queue assignment of a user|
 || Can add / remove users from presence |
 ||Can add / remove agents from queue| 
 || Can view / add / edit / delete quick replies|
 ||Can view operating hours |
-|**Omni-channel Agent**  |Can view user list / presence list / work stream list / queue list|
+|**Omnichannel Agent**  |Can view user list / presence list / work stream list / queue list|
 ||Can view quick replies|
-|**Channel Access**  |Can access Omni-channel records||
+|**Channel Access**  |Can access Omnichannel records||
 ||
 
 
 ### See also
 
-[Provision Omnichannel for Customer Service](omni-channel-provision-license.md)
+[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)

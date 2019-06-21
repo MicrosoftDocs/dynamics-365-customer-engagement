@@ -21,7 +21,7 @@ Conversation state plays an important role in this process by updating the state
 
 During their complete lifecycle, conversations follow a dedicated path. They are created, assigned to agents, worked on by agents (attended to), and are closed after being in the waiting state for a configured time. 
 
-During the process, the omni-channel system gathers data about agent efficiency, and also about operational bottlenecks that the organization can fix to achieve optimum efficiency. For example, the view of conversations in the **Waiting** state, conversations in the **Closed** state, conversations in the **Open** state, and so on, helps organizations track the operational health of incoming requests.
+During the process, the omnichannel system gathers data about agent efficiency, and also about operational bottlenecks that the organization can fix to achieve optimum efficiency. For example, the view of conversations in the **Waiting** state, conversations in the **Closed** state, conversations in the **Open** state, and so on, helps organizations track the operational health of incoming requests.
 
 You can also view other important metrics and analyze them on the supervisor dashboard. Here are some examples:
 

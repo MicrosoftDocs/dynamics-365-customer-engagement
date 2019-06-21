@@ -22,9 +22,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
 > [!NOTE]
-> Before you can provision Omnichannel for Customer Service on your org, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omni-channel-engagement-hub.md#pre-requisites).
+> Before you can provision Omnichannel for Customer Service on your org, a **Global Tenant Admin** must [Provide data access consent](#provide-data-access-consent). </br> </br> Ensure that all the prerequisites are set up before the app is provisioned. More information, see [Pre-requisites](../system-requirements-omnichannel-engagement-hub.md#pre-requisites).
 
-Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-omni-channel.md) for more information.
+Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md) for more information.
 
 ## Provide data access consent
 
@@ -52,18 +52,18 @@ To get the Omnichannel for Customer Service app, sign up for the Omnichannel for
 2. Search for and open **Omnichannel for Customer Service preview** in the **Upcoming and Active Public Preview Programs** list.
 
     > [!div class=mx-imgBorder]
-    > ![Signup omni-channel](../media/preview-signup.png)
+    > ![Signup omnichannel](../media/preview-signup.png)
 
 3. Select **Join now**. A preview survey is displayed.
 
     > [!div class=mx-imgBorder]
-    > ![Fill survey for omni-channel](../media/preview-survey.png)
+    > ![Fill survey for omnichannel](../media/preview-survey.png)
 
 
 4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omnichannel for Customer Service. To know how to find your Org ID in Dynamics 365 instance, see [Locate your Org ID](#locate-your-org-id).
 
     > [!div class=mx-imgBorder]
-    > ![Omni-channel org id](../media/preview-org.png)
+    > ![Omnichannel org id](../media/preview-org.png)
 
     Select **Submit** to submit the survey.
 
@@ -78,17 +78,17 @@ To get the Omnichannel for Customer Service app, sign up for the Omnichannel for
    1. In the **Dynamics 365 Administration Center**, select **Manage**.
       
         > [!div class=mx-imgBorder]
-        > ![Manage omni-channel](../media/manage-oc.png)
+        > ![Manage omnichannel](../media/manage-oc.png)
 
-       The **Manage Omni-channel Instances** page is displayed.
+       The **Manage Omnichannel Instances** page is displayed.
 
-   3. On the **Manage Omni-channel Instances** page, select **Add Org** to add an organization. </br> Omni-channel is set up on the organization instance that you add here.
+   3. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. </br> Omnichannel is set up on the organization instance that you add here.
    
        > [!div class=mx-imgBorder]
        > ![manage instances](../media/manage-instances.png)
 
        > [!IMPORTANT]
-       > As an admin, you can configure Omni-channel on multiple org instances. You can view the status of all org instances where the Omni-channel app has been configured in the **Manage Instances** view.
+       > As an admin, you can configure Omnichannel on multiple org instances. You can view the status of all org instances where the Omnichannel app has been configured in the **Manage Instances** view.
 
    3. Select the organization in the **Organization Selector** drop-down list. 
 
@@ -112,9 +112,9 @@ To get the Omnichannel for Customer Service app, sign up for the Omnichannel for
 
 ### Enable SMS channel
 
- You can enable SMS channel after you have upgraded to the latest release of Omni-channel. To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omni-channel.md).
+ You can enable SMS channel after you have upgraded to the latest release of Omnichannel. To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
 
- Post upgrade, go to **Manage Omni-channel instances** page and enable SMS channel by selecting the checkbox in **SMS** tab.
+ Post upgrade, go to **Manage Omnichannel instances** page and enable SMS channel by selecting the checkbox in **SMS** tab.
 
 > [!div class=mx-imgBorder]
 > ![enable SMS](../media/enable-sms.png)
@@ -145,7 +145,7 @@ Follow these steps to locate your Org ID in your Dynamics 365 instance.
 
 ### See also
 
-[Upgrade Omnichannel for Customer Service](upgrade-omni-channel.md)
+[Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
 [Understand and create work streams](work-streams-introduction.md)
 

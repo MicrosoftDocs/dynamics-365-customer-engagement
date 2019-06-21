@@ -41,7 +41,7 @@ Use this sample package if you have an existing deployment of Unified Service De
 
 ## Unified Service Desk - Omnichannel for Customer Service - Preview
     
-Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified service desk solutions and Omnichannel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
@@ -58,7 +58,7 @@ When you deploy a Omnichannel for Customer Service package in a Customer Engagem
   - UiiForMicrosoftDynamicsCRM2011
  
 > [!Note]
-> If you have deployed Omni-channel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
+> If you have deployed Omnichannel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
  
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
