@@ -1,6 +1,6 @@
 ---
 title: "Get started with virtual entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 06/21/2019
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to: 
@@ -57,7 +57,5 @@ In this release, there are some limitations to virtual entities that you need to
 - Offline caching of values is not supported for virtual entities.
 - A virtual entity cannot represent an activity and do not support business process flows.
 - Once created, a virtual entity cannot be changed to be a standard (non-virtual) entity.  The reverse is also true: a standard entity cannot be converted into a virtual entity.
-
-<!-- TODO: Make bulleted list into table.  Make more complete by reviewing API modification tables. -->
 
 For more information about how these limitations are reflected in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps API, see [API considerations of virtual entities](api-considerations-ve.md). 
