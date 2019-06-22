@@ -27,7 +27,7 @@ The Omnichannel for Customer Service application on a web browser provides a uni
 
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service.
 
-- [Sign in to Omnichannel for Customer Service](oceh-sign-in-omnichannel.md)
+- [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
 - [View agent dashboard and work items](oc-agent-dashboard.md)
 - [View communication panel](oc-conversation-control.md)

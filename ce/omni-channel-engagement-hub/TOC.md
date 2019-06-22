@@ -57,7 +57,7 @@
 ### [Overview](agent/omnichannel-agent-overview.md)
 ### Agents using Omnichannel for Customer Service app
 #### [Overview](agent/agent-oc/omnichannel-customer-service-app-agent.md)
-#### [Sign in to Omnichannel for Customer Service app](agent/agent-oc/oceh-sign-in-omnichannel.md)
+#### [Sign in to Omnichannel for Customer Service app](agent/agent-oc/oc-sign-in-omnichannel.md)
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)

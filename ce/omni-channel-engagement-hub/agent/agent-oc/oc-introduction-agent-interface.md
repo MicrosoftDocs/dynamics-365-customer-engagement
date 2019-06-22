@@ -143,6 +143,6 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
 
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)
-- [Sign in to Omnichannel for Customer Service](oceh-sign-in-omnichannel.md)
+- [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [View communication panel](oc-conversation-control.md)
 - [View agent dashboard and work items](oc-agent-dashboard.md)
