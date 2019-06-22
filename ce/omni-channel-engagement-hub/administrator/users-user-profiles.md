@@ -26,7 +26,7 @@ For more information on how to create users and assign security roles, see [Assi
 Navigate to **Queues & Users > Users** to view the list of Omnichannel users in the **Omnichannel Users** view.
 
 > [!div class=mx-imgBorder] 
-> ![Omnichannel users](../media/omnichannel-users.png)
+> ![Omnichannel users](../media/omni-channel-users.png)
 
 ## Manage a user in Omnichannel
 
