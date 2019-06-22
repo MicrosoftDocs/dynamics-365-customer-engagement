@@ -24,7 +24,7 @@ Typically, the dashboard is divided into two sections:
 
 ## Dynamics 365 Omnichannel Insights Chat dashboard
 
-The following screen shot shows an example of the Omnichannel hat insights dashboard:
+The following screen shot shows an example of the Omnichannel chat insights dashboard:
 
 > [!div class=mx-imgBorder]
 > ![Sample Omnichannel Insights Chat dashboard](../media/supervisor-historical-chat-dashboard.png "Sample Omnichannel Insights Chat dashboard")  
