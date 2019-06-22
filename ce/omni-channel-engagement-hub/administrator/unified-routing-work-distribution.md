@@ -27,7 +27,7 @@ Unified routing and work distribution ensures that conversations from all the ch
 For example, a customer initiates a chat regarding a query about **Billing**. In this case, unified routing and work distribution helps route the chat to the **Billing** queue and assign the chat to an agent who is a member of the queue and has the required presence and required capacity. This is shown in the following illustration.
 
 > [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](../../omnichannel-engagement-hub/media/oc-scenario.png)
+> ![Routing and work distribution scenario](../media/oc-scenario.png)
 
 Here are some of the benefits of unified routing and work distribution:
 
