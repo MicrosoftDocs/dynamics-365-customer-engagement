@@ -7,7 +7,7 @@
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 
-## [What's new](omni-channel-whats-new.md)
+## [What's new](omnichannel-whats-new.md)
 
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
@@ -179,5 +179,5 @@
 #### [Error code reference](developer/reference/error-code-reference.md)
 
 ## Troubleshooting, readme, and FAQs
-### [Readme](omni-channel-readme.md)
+### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
