@@ -30,7 +30,7 @@ Supervisors can use Omnichannel Insights to perform the following tasks:
 
 Verify the following prerequisites before you use the Omnichannel Chat and Sentiment dashboards:
 
--	Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Engagement Hub](../administrator/add-users-assign-roles). 
+-	Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Engagement Hub](../administrator/add-users-assign-roles.md). 
 
 -	User added in supervisor configuration. To learn more, see [Add users to supervisor configuration](../administrator/configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
