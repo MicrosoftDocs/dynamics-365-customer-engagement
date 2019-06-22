@@ -78,7 +78,7 @@
       items:
       - name: Administrator
         tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-administrator          
+        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/omnichannel-administrator          
       - name: Agent
         tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/
         topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/omnichannel-customer-service-agent
@@ -87,8 +87,8 @@
           tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-usd/
           topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-usd/omnichannel-customer-service-agent
         - name: Agent using Omnichannel for Customer Service
-          tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-oceh/
-          topicHref:  /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-oceh/oceh-omnichannel-customer-service-agent
+          tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-oc/
+          topicHref:  /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-oc/oceh-omnichannel-customer-service-agent
       - name: Supervisor
         tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/
         topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/omnichannel-supervisor          
