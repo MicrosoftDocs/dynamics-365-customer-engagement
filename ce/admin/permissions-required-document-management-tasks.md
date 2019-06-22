@@ -43,5 +43,6 @@ The following table shows the default security roles or other permissions that a
 |                                  Manage documents                                   |                                                                           Security roles:  Any<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Document Location permissions: Read, Write                                                                            |
   
 ### See also  
- [Manage Your Documents](../admin/manage-documents-using-sharepoint.md) <br /> [Validate and fix SharePoint site URLs](troubleshooting-server-based-authentication.md#validate-and-fix-sharepoint-site-urls) 
+ [Manage Your Documents](../admin/manage-documents-using-sharepoint.md) <br /> 
+[Validate and fix SharePoint site URLs](troubleshoot-set-up-sharepoint-online.md#validate-and-fix-sharepoint-site-urls)
 
