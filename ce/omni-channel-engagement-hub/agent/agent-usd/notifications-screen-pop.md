@@ -22,60 +22,61 @@ A notification is a visual alert that you see as a message box each time that yo
 
 Notifications show the details of the customer that you will interact with. In addition, some types of notifications include **Accept** and **Reject** buttons and indicate the action that you must perform to accept or reject the incoming conversation request. If you accept the request, a screen pop appears and shows the contextual information of the customer and case.
 
-Here are some of the scenarios where you can receive notifications or see screen pops:
+Here are some of the scenarios where you can receive notifications or see screen pops: 
 
- - Incoming chat
+- Incoming chat conversation
 
- - Incoming email
+- Incoming SMS conversation
 
- - Case assignment
+- Incoming email
 
- - Case transfer
+- Conversation (work item) assignment
 
- - Case escalation
+- Conversation transfer
 
-### Type of notifications
+- Conversation escalation
+
+- Conversation escalation from Bot
+
+## Types of notifications
 
 There are two types of notifications:
 
- - Toast notifications (floating notifications)
+- **Toast notifications:** A toast notification or floating notification is a notification message type where you receive information in a dialog, which disappears after a stipulated time. If you select the notification, the associated session or application opens. This type notifications appear for conversation (work item) assignments, conversation escalations, and conversation transfer scenarios and so on. 
 
- - Alert notifications
+- **Alert notifications:** An alert notification is a type of notification where a dialog appears with actionable buttons. When you select the **Accept** button, a screen pops up with Customer summary details. You need to take an action within the stipulated time and the notification disappears when the time is up.
 
-#### Toast notifications (floating notifications)
+## Incoming chat notification
 
-A toast notification, or floating notification, is a type of notification where information is shown in a screen pop that disappears after a specific time. If you select the notification, the associated session or application is shown.
+When a chat conversation request comes in, you receive a notification. When you accept the chat request, you’ll see a details about the customer in the Customer summary page. A simultaneous session starts, and the chat window is expanded in the left panel of Unified Service Desk so you can exchange messages with the customer.
 
-Toast notifications or floating notifications appear for SMS, email, voice call, consult, and transfer scenarios. This kind of notification may or may not have buttons that require your actions, which depends on your business requirements.
+ > [!div class=mx-imgBorder]
+ > ![Incoming chat notification](../../media/oceh/chat-notification-request.png "Incoming chat notification")  
 
-> [!div class=mx-imgBorder]
-> ![Omnichannel toast notification](../../media/oc-usd-toast-notification.png "Omnichannel toast notification")  
+The details you’ll see for a chat channel are:
 
-#### Alert notifications
+ - Name of the customer
 
-An alert notification appears as a dialog box that contains buttons. When you select the **Accept** button, a screen pop appears and shows Customer summary details. You must take action within a specific time. After that time passes, the screen pop disappears. If your business requires an auto-accept request for an incoming request based on the routing rules, the alert notification doesn't contain buttons.
+ - Comment
 
-##### Incoming chat notification
+ - Wait time
 
-When a chat conversation request comes in, you receive a notification. When you accept the chat request, a screen pop appears and shows the customer's details on the **Customer summary** page. Simultaneously, a session is started, and the chat window is expanded in the left panel of Unified Service Desk.
+## Incoming SMS notification
 
-> [!div class=mx-imgBorder]
-> ![Omnichannel incoming chat alert notification](../../media/oc-usd-alert-notification.png "Omnichannel incoming chat alert notification")  
+You receive a notification for a SMS conversation request. When you accept the SMS request, a session is starts, and the communication panel appears where you can exchange messages with the customer.
 
-You see the following details for a chat channel:
+Identification of a customer happens based on the **Mobile Phone** field present in the Contact record in Dynamics 365 for Customer Engagement. That is, if the incoming SMS conversation is from a phone whose number is present in the mobile phone field of a Contact record, the conversation automatically links to the contact record.
 
--   Customer profile
+ > [!div class=mx-imgBorder]
+ > ![Incoming SMS notification](../../media/oceh/sms-notification-request.png "Incoming SMS notification") 
 
--   Snapshot
+The details you’ll see for a SMS channel are:
 
--   Conversation summary
+ - Name of the customer
 
--   Recent cases
+ - Comment
 
--   Recent activities
-
-> [!div class=mx-imgBorder]
-> ![Omnichannel Customer summary form for chat](../../media/oc-usd-chat-customer360.png "Omnichannel Customer summary page for chat")
+ - Wait time
 
 > [!div class="nextstepaction"]
 > [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
