@@ -72,6 +72,9 @@ To unlink a record, select the **X** button next to the customer name in the **C
 > [!Note]
 > You can link and unlink only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
 
+> [!div class="nextstepaction"]
+> [Understand conversation states](agent/agent-usd/conversation-state.md)
+
 
 ## See also
 

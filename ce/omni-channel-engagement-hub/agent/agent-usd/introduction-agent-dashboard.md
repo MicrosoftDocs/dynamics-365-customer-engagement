@@ -46,7 +46,7 @@ In the **Open work items** stream, you see all the conversations that are in the
 In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed conversation (work item), select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
-> [Next topic: View alert and toast notifications](notifications-screen-pop.md)
+> [Next topic: Create a record](agent/agent-usd/create-record.md)
 
 ## See also
 

@@ -80,6 +80,9 @@
 #### [Sign in to Omnichannel for Customer Service](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
 #### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
 #### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
+#### [Create a record](agent/agent-usd/create-record.md)
+#### [Search for records](agent/agent-usd/search-record.md)
+#### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
 #### [Understand conversation states](agent/agent-usd/conversation-state.md)
 #### [View alert and toast notifications](agent/agent-usd/notifications-screen-pop.md)
 #### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
@@ -87,9 +90,7 @@
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
 #### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
-#### [Create a record](agent/agent-usd/create-record.md)
-#### [Search for records](agent/agent-usd/search-record.md)
-#### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
+
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
