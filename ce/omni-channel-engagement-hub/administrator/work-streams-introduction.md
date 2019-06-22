@@ -73,7 +73,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
 
       > [!div class=mx-imgBorder] 
-      > ![New workstream](../media/omnichannel-new-work-stream.png)
+      > ![New workstream](../media/omni-channel-new-work-stream.png)
 
 4. View and quickly create context variables in the **Context variables** tab. Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations into different queues. 
 
