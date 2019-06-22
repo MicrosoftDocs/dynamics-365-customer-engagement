@@ -48,13 +48,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <h2> I'm an agent </h2>
 
 <li><a href="agent/omnichannel-agent-overview.md" data-raw-source="[Omnichannel agent](agent/omnichannel-agent-overview.md)">Omnichannel agent</a></li>
-<li><a href="agent/agent-oceh/omnichannel-customer-service-app-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-oceh/omnichannel-customer-service-app-agent.md)">Use on Omnichannel for Customer Service</a></li>
+<li><a href="agent/agent-oc/omnichannel-customer-service-app-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-oc/omnichannel-customer-service-app-agent.md)">Use on Omnichannel for Customer Service</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
-<li><a href="agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
+<li><a href="agent/agent-oc/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
-<li><a href="agent/agent-oceh/oceh-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oceh/oceh-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
+<li><a href="agent/agent-oc/oceh-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oceh-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
 <td>

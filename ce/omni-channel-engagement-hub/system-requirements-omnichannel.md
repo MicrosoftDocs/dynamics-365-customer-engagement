@@ -94,7 +94,7 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 - [Introduction](introduction-omnichannel.md)
 - [Administrators](administrator/omnichannel-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
-- [Agents using Omnichannel for Customer Service app](agent/agent-oceh/omnichannel-customer-service-app-agent.md)
+- [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 - [System customizers](customizer/omnichannel-customizer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

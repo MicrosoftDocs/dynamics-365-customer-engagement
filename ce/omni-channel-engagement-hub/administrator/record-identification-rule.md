@@ -23,7 +23,7 @@ Identify and assist customers better by showing their details on the **Customer 
 
 When an incoming conversation request is received, a notification appears that includes contextual information for the request, including customer details  if available. When an agent accepts the incoming notification, the **Customer summary** page opens, and shows the details of the identified customer and case. 
 
-For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oceh/oceh-view-customer-360-incoming-conversation-request.md).
+For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oc/oceh-view-customer-360-incoming-conversation-request.md).
 
 > [!NOTE]
 > To know how to create pre-chat questions and use them in a pre-chat survey, see [Create a question library](create-question-library.md) and [Configure a pre-chat survey](configure-pre-chat-survey.md). 
