@@ -74,7 +74,7 @@ Dynamics 365 for Marketing is licensed per instance, with each instance priced a
 If you are entitled to a free Dynamics 365 for Marketing license, do the following to find or obtain it:
 
 1. [Go to the Dynamics 365 admin center](dynamics-365-admin-center.md), open the **Applications** tab, and check whether your free Dynamics 365 for Marketing app is already shown in the list. If so, then set it up as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app) and skip the rest of this procedure.
-1. If your free Dynamics 365 for Marketing app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured Dynamics 365 for Marketing app added to it. Then set up the app as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app).
+1. If your free Dynamics 365 for Marketing app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](#contact-support) to have an unconfigured Dynamics 365 for Marketing app added to it. Then set up the app as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app).
 
 <a name="incompatible-platform"></a>
 
@@ -343,9 +343,11 @@ Also, some administration and customization features, and some integrated user f
 
 ## How can I contact support if I still need help?
 
+For additional support and help resources you can:
+
+- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
+- Get in touch with the community on the [Dynamics 365 for Marketing forum](https://community.dynamics.com/365/marketing/f/768).
+- Find additional [online help resources for Dynamics 365](../admin/help-additional-resources.md).
+
 If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Premier channel or MPN partner channel.
 
-For more information about how to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] directly, and how to find forums, FAQs, and other resources, see the following:
-
-- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support)
-- [Help and additional resources](../admin/help-additional-resources.md)

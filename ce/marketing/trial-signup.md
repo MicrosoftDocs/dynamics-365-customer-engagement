@@ -102,8 +102,10 @@ To install your trial on a managed tenant:
 1. When you're trial is ready, select **Begin** to go to the app.
     ![Select Begin to get started](media/trial-setup-done.png "Select Begin to get started")
 
-<a name="add-users"></a>
+1. On launching the app, you'll be welcomed by the **Get started** page, which  provides shortcuts to several key features, highlights new features, and gives links to featured help topics.
+    ![The get-started page](media/get-started-page.png "The get-started page")
 
+<a name="add-users"></a>
 
 ## Add more users to a trial
 

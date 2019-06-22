@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Microsoft Social Engagement | Microsoft Docs"
 description: "Find answers to frequently asked questions about Social Engagement."
 keywords: FAQ, questions, common issues, quota, search setup, search topics
-ms.date: 05/09/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: ac2d84b4-f7c6-9694-cf10-539e529f2e25
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -23,6 +23,8 @@ search.app:
 ---
 
 # [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] FAQ
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
 

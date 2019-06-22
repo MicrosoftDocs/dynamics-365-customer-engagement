@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: quota, post quota, contingent
-ms.date: 01/22/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -22,6 +22,9 @@ search.app:
 ---
 
 # Manage your post quota
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Keep track of the number of posts that result from your search topics and count toward your solution's post quota. Your solution is priced based on the number of posts you can acquire per month.  
   
 If you're expected to exceed the post quota for the current month, administrators get a notification email. When you exceed your post quota, data acquisition will be stopped for either of the following reasons:  

@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 05/03/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: D25BB656-E29F-4233-B5BB-ADF678CCD7D2
@@ -25,9 +25,9 @@ Having this information ready when a customer contacts the support agent can red
 
 ## What is Customer summary?
 
-Customer summary is a page that gives you complete information about a customer when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
+Customer summary is a page that gives you complete information about a customer. The page appears when you accept an incoming request from any channel. The default Customer summary view provides the following sections:
 
- - Customer profile (Contact or Account)
+ - Customer (Contact or Account)
 
  - Conversation summary
 
@@ -35,21 +35,23 @@ Customer summary is a page that gives you complete information about a customer 
 
  - Recent cases
 
- - Recent activities
+ - Timeline
 
 > [!div class='mx-imgBorder']
-> ![View Customer summary](../../media/customer-summary.png "View Customer summary") 
+> ![View Customer summary](../../media/customer-summary.png "View Customer summary")
 
-## Customer profile (Contact or Account)
+## Customer (Contact or Account)
 
-This section provides details about the customer or account such as name, job, title, relationship type, city, category, primary contact for the account, and preferred channel of engagement.
+This section provides details like the contact name or account name. For a contact, you can view the location, email, and any other details of the contact. For an account, you can view location, telephone number, and primary contact person for the account.
+
+Use the customer form to search for an existing contact or account record in omnichannel and select the record to link it to the conversation. If the record doesn't exist, you can create a new contact or account record using the **+ Add Contact** or **+ Add Account** button respectively.  After you create, search the record and then select it to link to the conversation.
 
 > [!div class='mx-imgBorder']
-> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-profile.PNG "Customer profile section in the customer summary form")
+> ![Customer profile section in the customer summary form](../../media/customer-summary-customer-form.PNG "Customer profile section in the customer summary form")
 
 ## Conversation summary
 
-This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your engagement with the customer. The **Visitor details** tab provides some information such as whether the customer is authenticated, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
+This section provides two tabs with details that help you to understand the information about the conversation with the customer. **Pre-chat** and **Visitor info** are the tabs in the Conversation summary card. The **Pre-chat survey** tab displays the survey answers against the questions that are requested by your organization, which helps your interaction with the customer. The **Visitor details** tab provides some information such as whether the customer is authenticated or not, browser used by the customer for contacting support, operating system used by the customer, location of the customer, interacting language of the customer, and so on.
 
 > [!div class='mx-imgBorder']
 > ![Conversation summary section in the customer summary form](../../media/customer-summary-conversation-summary.png "Conversation summary section in the customer summary form")
@@ -62,24 +64,29 @@ To learn more, see [Create chat authentication settings](../../administrator/cre
 
 ## Case
 
-For an incoming engagement request, the system links an existing case to engagement and displays it in the **Case** section. This section displays information such as the title of the case, priority, status, product, and owner.
+Use the case form to search for an existing case in omnichannel and select the case to link it to the conversation. If the record doesn't exist, you can create a new case using the **+ Add Case** button.  After you create, search the record and then select it to link to the conversation.
 
 > [!div class='mx-imgBorder']
 > ![Case section in the customer summary form](../../media/customer-summary-issue-snapshot.PNG "Case section in the customer summary form")
 
 ## Recent cases
 
-This section displays recent cases that relate to the customer.
+This section displays recent cases related to the customer.
 
 > [!div class='mx-imgBorder']
 > ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.png "Recent cases section in the customer summary form")
 
-### Recent activities
+### Timeline
 
-This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Also, you can filter the timeline to view it based on Customer activities, Case activities, and Conversation activities.
-
+This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 > [!div class='mx-imgBorder']
 > ![Recent activities section in the customer summary form](../../media/customer-summary-recent-activities.PNG "Recent activities section in the customer summary form")
+
+The **Linked records** field drop-down shows the record that is linked to conversation. For example, if you link a contact and case to the conversation, the **Linked records** field drop-down shows **Contact** and **Case** respectively.
+
+
+> [!div class='mx-imgBorder']
+> ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
 
 > [!div class="nextstepaction"]
 > [Next topic: Search for and share knowledge articles](oceh-search-knowledge-articles.md)
@@ -87,4 +94,5 @@ This section displays case- and customer-related activities in the form of a tim
 ## See also
 
 - [View communication panel](oceh-conversation-control.md)
+- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)

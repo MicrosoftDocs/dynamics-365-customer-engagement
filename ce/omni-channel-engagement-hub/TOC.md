@@ -9,7 +9,8 @@
 
 ## [What's new](omni-channel-whats-new.md)
 
-## [Administrator guide](administrator/omni-channel-engagement-hub-administrator.md)
+## Administrator guide
+### [Overview](administrator/omni-channel-engagement-hub-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
 ### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
@@ -61,8 +62,11 @@
 #### [Manage sessions](agent/agent-oceh/oceh-manage-sessions.md)
 #### [Manage applications](agent/agent-oceh/oceh-manage-applications.md)
 #### [View agent dashboard and work items](agent/agent-oceh/oceh-omni-channel-agent-dashboard.md)
+#### [Create a record](agent/agent-oceh/oceh-create-record.md)
+#### [Search, link, and unlink a record](agent/agent-oceh/oceh-search-link-unlink-record.md)
 #### [Understand conversation states](agent/agent-oceh/oceh-conversation-state.md)
 #### [View communication panel](agent/agent-oceh/oceh-conversation-control.md)
+#### [Monitor real-time customer satisfaction levels](agent/agent-oceh/oceh-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage presence status](agent/agent-oceh/oceh-set-user-presence-status.md)
 #### [View notifications](agent/agent-oceh/oceh-notifications-screen-pops.md)
 #### [View customer summary](agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md)
@@ -70,8 +74,7 @@
 #### [Take notes specific to conversation](agent/agent-oceh/oceh-take-notes.md)
 #### [View conversation and session activity types in the Customer Engagement apps](agent/agent-oceh/oceh-view-conversations-sessions-dynamics-365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-oceh/oceh-view-customer-360-incoming-conversation-request.md)
-#### [Create a record](agent/agent-oceh/oceh-create-record.md)
-#### [Search, link, and unlink a record](agent/agent-oceh/oceh-search-link-unlink-record.md)
+
 
 ### Agents using Unified Service Desk
 #### [Overview](agent/agent-usd/omni-channel-engagement-hub-agent.md)
@@ -154,7 +157,8 @@
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
-## [Developer guide](developer/omni-channel-engagement-hub-developer.md)
+## Developer guide
+### [Overview](developer/omni-channel-engagement-hub-developer.md)
 ### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 ### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 ### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
@@ -173,4 +177,6 @@
 ##### [lcw:error](developer/reference/events/lcw-error.md)
 #### [Error code reference](developer/reference/error-code-reference.md)
 
-## [Readme](omni-channel-readme.md)
+## Troubleshooting and readme
+### [Readme](omni-channel-readme.md)
+### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)

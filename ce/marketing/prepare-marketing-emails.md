@@ -98,6 +98,9 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 
+> [!NOTE]
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
+
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
 <a name="required-links"></a>
@@ -181,6 +184,15 @@ The following table shows the result of attempting to send a commercial or trans
 
 Your marketing email messages will probably be seen by many potential customers, so you'll want to make sure they look just right when opened, regardless of which combination of device and email software each recipient is using. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you test and evaluate your design before you use it in an email campaign.
 
+> [!IMPORTANT]
+> Previews and test sends give you a fast, convenient way to test your design. However, not all features work with previews and test sends. The following limitations apply:
+> 
+> - Dynamic data from [related records and lookups](dynamic-email-content.md#assist-edit) isn't shown.
+> - [For-each loops](dynamic-email-content.md#for-each) don't render.
+> - [Subscription center links](set-up-subscription-center.md#test-sub-center) will open the subscription center page, but the page won't function.
+> 
+> To test these features, create a simple customer journey that targets a very small segment (such as one that includes a single contact with your email address) and sends the message  you want to test.
+
 ### Send a test message
 
 Select **Test Send** to send your current design to one or more email addresses. This command initiates an [error check](#error-check); provided your message passes the error check, a flyout panel opens asking you to specify the following:
@@ -202,6 +214,9 @@ The content designer provides two types of previews when you're designing a mark
 - **Inbox preview**: Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms.
 
 See the following sections for details about each of these types of previews.
+
+> [!NOTE]
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the standard or inbox preview displays. If necessary, you can use test sends to see how your designs look in specific Outlook configurations.
 
 ### Use the basic preview feature
 

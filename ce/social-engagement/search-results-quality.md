@@ -2,7 +2,7 @@
 title: "Manage the quality of your search results in Social Engagement | Microsoft Docs"
 description: "Learn how to increase the quality of your search results."
 keywords: block content, block authors
-ms.date: 07/11/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 302a0005-c7b0-4247-8d2d-663685716b75
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Manage the quality of your search results
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 You can perform quality management over the entire application by blocking irrelevant posts and sources.  
   
 > [!NOTE]

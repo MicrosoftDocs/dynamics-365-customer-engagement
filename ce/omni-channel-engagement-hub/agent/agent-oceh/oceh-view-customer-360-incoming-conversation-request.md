@@ -51,9 +51,6 @@ When no records are linked to a conversation in the Omnichannel for Customer Ser
 
 When you choose to Search for records, the application launches the **Omnichannel search** tab. Specify the details according to the field and then search. Once the search is complete, you can see the results in the form of a list. You can link the record to the conversation. Also, if you select a record, you can see it in the application management toolbar.
 
-> [!div class="nextstepaction"]
-> [Next topic: Create a record](oceh-create-record.md)
-
 ## See also
 
 - [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)

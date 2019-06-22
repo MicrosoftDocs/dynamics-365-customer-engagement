@@ -45,13 +45,14 @@ In the communication panel, you can see the following options:
 |------|------------------|-----------------------------------------------|----------|
 |  1   | Public           | Send messages to public | `/p` |
 |  2   | Internal         | Send messages to internal users | `/i` |
-|  3   | Customer summary | View customer summary |  |
-|  4   | Quick replies    | Send templatized messages  | `/q` |
-|  5   | Notes            | Take notes specific to conversation | |
-|  6   | Knowledge articles | Search for knowledge articles and share | `/kb` |
-|  7   | Link to conversation | Link the record to this conversation | |
-|  8   | Consult          | View list to consult with other users | `/c` |
-|  9   |  Transfer        | View list to transfer the request | `/t` and `/tq` |
+|  3   | Quick replies    | Send templatized messages  | `/q` |
+|  4   | Consult          | View list to consult with other users | `/c` |
+|  5   | Transfer         | View list to transfer the request | `/t` and `/tq` |
+|  6   | Notes            | Take notes specific to conversation | |
+|  7   | Knowledge articles | Search for knowledge articles and share | `/kb` |
+|  8   | Link to conversation | Link the record to this conversation | |
+|  9   | Customer sentiment | View real-time customer satisfaction levels |  |
+
 
 ## Send messages using Public and Internal mode
 
@@ -73,15 +74,6 @@ You can use keyboard commands to send internal and public messages:
 When you type the keyboard command, the mode changes to as per the command. For example, now, you are on Public mode. Type **/i** to change to **Internal** mode.
 
 
-## Customer summary
-
-The Customer summary page displays details about a customer with whom you interact. When you are conversing with more than one customer simultaneously, and when you switch from one chat conversation to another, the customer session details are fetched according to the context.
-
-Also, you can manually refresh the Customer summary page to get the details of the customer when switching from one customer session to another. Use the Refresh button to refresh the Customer summary page to get relevant details about the customer based on chat conversations with the customer.
-
- > [!div class=mx-imgBorder]
- > ![Session overview refresh button in the communication panel](../../media/oceh-cc-options-refresh-session-overview-customer360.png "Session overview refresh button in the communication panel")
-
 ## Send templatized messages in the chat
 
 The communication panel allows you to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers.
@@ -98,41 +90,12 @@ After you type **/q** in the communication panel messaging area, you can continu
  > [!div class=mx-imgBorder] 
  > ![Type /q and the keyword to filter the replies](../../media/oceh-send-quick-replies-filter.png "Filter replies")  
 
-## Take notes specific to conversation
-
-Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
-
- > [!div class=mx-imgBorder]
- > ![Launch notes panel for taking notes](../../media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
-
-To learn more, see [Take notes specific to conversation](oceh-take-notes.md).
-
-## Search for and share knowledge articles
-
-From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
-
- > [!div class=mx-imgBorder]
- > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
-
-**/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
-
-To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
-
-## Link to conversation
-
-When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
-
-> [!div class=mx-imgBorder]
-> ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
-
-To learn more, see [Search, link, and unlink a record to the conversation](oceh-search-link-unlink-record.md).
-
 ## Consult with agent or supervisor
 
 The communication panel allows you to consult with other agents and/or supervisors using the consult option. You can invite the agent or supervisor by selecting the **Consult** button in the communication panel.
 
  > [!div class=mx-imgBorder]
- > ![Use the consult option to launch the consulting list](../../media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")  
+ > ![Use the consult option to launch the consulting list](../../media/oceh-cc-options-ellipsis-consult.png "Use the consult option to launch the consulting list")
 
 You can use a keyboard command to see the list of agents and/or the supervisor who are available for consultation. Type the forward slash (/) key and the letter c (**/c**).
 
@@ -166,14 +129,54 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 ![Filter transfer queue list](../../media/oceh-cc-transfer-queue-filter.png "Filter transfer queue list")
 
+## Take notes specific to conversation
+
+Use the notes option to capture information specific to the conversation when you interact with customers. Use the option in the communication panel to launch the notes.
+
+ > [!div class=mx-imgBorder]
+ > ![Launch notes panel for taking notes](../../media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
+
+To learn more, see [Take notes specific to conversation](oceh-take-notes.md).
+
+## Search for and share knowledge articles
+
+From the communication panel, you can search for relevant knowledge articles based on the context of the session and share it with the customers through the communication panel. Use the command to launch knowledge articles search.
+
+ > [!div class=mx-imgBorder]
+ > ![Use the knowledge articles option in the communication panel to launch the knowledge search page](../../media/oceh-cc-options-knowledge-articles.png "Use the knowledge articles option in the communication panel to launch the knowledge search page")  
+
+**/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
+
+To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
+
+## Link to conversation
+
+When you have a conversation with a customer, you can link the conversation to the record (case or account/contact).
+
+> [!div class=mx-imgBorder]
+> ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
+
+To learn more, see [Search, link, and unlink a record to the conversation](oceh-search-link-unlink-record.md).
+
+## Monitor real-time customer satisfaction
+
+As an agent, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
+
+> [!div class=mx-imgBorder]
+> ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
+
+To learn more, see [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
+
+
 > [!div class="nextstepaction"]
-> [Next topic: Manage presence status](oceh-set-user-presence-status.md)
+> [Next topic: Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
 
 ## See also
 
 - [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
 - [Manage sessions](oceh-manage-sessions.md)
 - [Manage applications](oceh-manage-applications.md)
+- [Manage presence status](oceh-set-user-presence-status.md)
 - [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
 - [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
 - [Take notes specific to conversation](oceh-take-notes.md)

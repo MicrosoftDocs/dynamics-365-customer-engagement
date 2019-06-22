@@ -3,18 +3,14 @@ title: "Optimize browser settings for Social Engagement | Microsoft Docs"
 description: "Configure your browser to allow pop-up windows and JavaScript."
 ms.custom: 
   - dyn365-socialengagement
-ms.date: 09/12/2017
-ms.reviewer: 
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Social Engagement
 ms.assetid: b7134fb0-2a84-4881-9ded-05fab9edcfc8
-caps.latest.revision: 11
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -24,6 +20,9 @@ search.app:
   - D365SE
 ---
 # Optimize browser settings for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 In our everyday lives, we use our favorite browsers to work with web applications and surf the Internet.  Some browser settings can impact the user experience for a few features in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. This topic discusses recommended browser settings for a smooth experience.  
   
 <a name="managePopUpBlockers"></a>   
