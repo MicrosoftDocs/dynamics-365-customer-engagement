@@ -38,7 +38,7 @@ Your organization needs the following Office 365 license:
 - Office 365 Enterprise E1 plan or a higher plan. To learn more, see [Office 365 Business Plans](https://products.office.com/en-US/business/compare-more-office-365-for-business-plans).
 
 > [!NOTE]
-> - You must assign the Office 365 Enterprise E1 plan or a higher plan licenses to the Omni-channel users.
+> - You must assign the Office 365 Enterprise E1 plan or a higher plan licenses to the Omnichannel users.
 >
 > - To assign the licenses, you must have the **Global Tenant Admin** access. 
 
@@ -76,11 +76,11 @@ The Omnichannel for Customer Service is available in the following regions:
 > [!NOTE]
 > Since Omnichannel for Customer Service is in preview in the NAM region, your organization and tenant must be in the NAM region.
 
-## Provision Omni-channel in Dynamics 365
+## Provision Omnichannel in Dynamics 365
 
-See [Provision Omnichannel for Customer Service](administrator/omni-channel-provision-license.md) to know how to enable the Omnichannel for Customer Service app in your Dynamics 365 org.
+See [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md) to know how to enable the Omnichannel for Customer Service app in your Dynamics 365 org.
 
-To upgrade Omni-channel, see [Upgrade Omnichannel for Customer Service](administrator/upgrade-omni-channel.md).
+To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md).
 
 > [!NOTE]
 > - Omnichannel for Customer Service is not supported on Dynamics 365 for Customer Engagement apps (on-premises).
@@ -92,7 +92,7 @@ To upgrade Omni-channel, see [Upgrade Omnichannel for Customer Service](administ
 ## See also
 
 - [Introduction](introduction-omni-channel.md)
-- [Administrators](administrator/omni-channel-engagement-hub-administrator.md)
+- [Administrators](administrator/omnichannel-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
 - [Agents using Omnichannel for Customer Service app](agent/agent-oceh/omnichannel-customer-service-app-agent.md)
 - [System customizers](customizer/omnichannel-customizer.md)

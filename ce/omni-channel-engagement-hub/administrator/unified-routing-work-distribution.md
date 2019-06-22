@@ -107,6 +107,6 @@ To effectively route and distribute work to agents, admins can set up the follow
 
 ###  See also
 
-[Omnichannel for Customer Service for administrators](omnichannel-engagement-hub-administrator.md)
+[Omnichannel for Customer Service for administrators](omnichannel-administrator.md)
 
 

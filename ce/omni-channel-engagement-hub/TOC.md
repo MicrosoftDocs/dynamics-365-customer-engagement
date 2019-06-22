@@ -2,7 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omni-channel.md)
-### [Pre-requisites and system requirements](system-requirements-omni-channel-engagement-hub.md)
+### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
@@ -10,7 +10,7 @@
 ## [What's new](omni-channel-whats-new.md)
 
 ## Administrator guide
-### [Overview](administrator/omnichannel-engagement-hub-administrator.md)
+### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)
 ### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
