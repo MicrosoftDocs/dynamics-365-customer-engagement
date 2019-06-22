@@ -1,6 +1,6 @@
 ---
 title: "Create and manage data masking rules | MicrosoftDocs"
-description: "Instructions on how to create and manage data masking rules in Omni-channel Engagement Hub."
+description: "Instructions on how to create and manage data masking rules in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -31,11 +31,11 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 > [!NOTE]
 > - Only an administrator can access data masking rules.
-> - Only 10 data masking rules, including out of the box masking rules, can exist in Omni-channel Engagement Hub. 
+> - Only 10 data masking rules, including out of the box masking rules, can exist in Omnichannel for Customer Service. 
 
 ## Create a data masking rule
 
-1.	Sign in to Omni-channel Engagement Hub.
+1.	Sign in to Omnichannel for Customer Service.
 
 2.	Go to **Administration** > **Data Masking**.
 
@@ -63,7 +63,7 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 Once a masking rule is created, you can activate a rule, deactivate a rule, or delete it permanently.
 
-1.	Sign in to Omni-channel Engagement Hub.
+1.	Sign in to Omnichannel for Customer Service.
 
 2.	Go to **Administration** > **Data Masking**.
 

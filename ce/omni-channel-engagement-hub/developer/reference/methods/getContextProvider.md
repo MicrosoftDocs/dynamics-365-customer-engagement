@@ -1,5 +1,5 @@
 ---
-title: "getContextProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
+title: "getContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka

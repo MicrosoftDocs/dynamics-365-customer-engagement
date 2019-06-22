@@ -1,5 +1,5 @@
 ---
-title: "setAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
+title: "setAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
@@ -25,7 +25,7 @@ The authentication token provider function, when called with a callback function
 > [!IMPORTANT]
 > In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.<br />
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
 
 > [!NOTE]
@@ -63,7 +63,7 @@ None
 ```
 > [!NOTE]
 > In the above payload, the value corresponding to `lwicontexts` key should be the serialized custom context.
-> The keys `msdyn_cartvalue` and `msdyn_isvip` in the serialized custom context correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.
+> The keys `msdyn_cartvalue` and `msdyn_isvip` in the serialized custom context correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
 
 ```JavaScript
 let payloadToEncrypt = {

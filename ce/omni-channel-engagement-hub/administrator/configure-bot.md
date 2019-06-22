@@ -99,7 +99,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
 
-If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omni-channel.md).
+If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
 
 > [!NOTE]
 > If you've only one queue with bot and agents, and you didn't create a routing rule, the customer query is redirected to the same queue in case of escalation and picked up by an agent.
@@ -149,7 +149,7 @@ You understand that your data may be transmitted and shared with external system
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md)<br>
-[Work with queues in Omnichannel for Customer Service](queues-omni-channel.md)<br>
+[Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Add a chat widget](add-chat-widget.md)<br>
 [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md)

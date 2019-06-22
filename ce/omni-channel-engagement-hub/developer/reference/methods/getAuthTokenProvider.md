@@ -1,5 +1,5 @@
 ---
-title: "getAuthTokenProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
+title: "getAuthTokenProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka

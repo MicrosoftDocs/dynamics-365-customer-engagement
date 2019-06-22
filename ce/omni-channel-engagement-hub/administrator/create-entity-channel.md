@@ -1,7 +1,7 @@
 ---
 title: Create entity channel | MicrosoftDocs
-description: See how you can create entity channel in the Omni-channel Engagement Hub
-keywords: Create entity channel; Omni-channel Engagement Hub
+description: See how you can create entity channel in the Omnichannel for Customer Service
+keywords: Create entity channel; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use entity channel to route entities from Common Data Service to the Omni-channel Engagement Hub so that they can be automatically distributed and assigned to agents.
+Use entity channel to route entities from Common Data Service to the Omnichannel for Customer Service so that they can be automatically distributed and assigned to agents.
 
 Follow these steps to configure an entity channel.
 
-1. In the Omni-channel site map, go to **Channels \> Entity**.
+1. In the Omnichannel site map, go to **Channels \> Entity**.
 
 2. On the command bar, select **New** to create a new entity channel.
 3. In the **General** tab:

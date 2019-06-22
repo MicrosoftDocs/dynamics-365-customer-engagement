@@ -1,6 +1,6 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
-description: "Instructions to set up visitor location detection in Omni-channel Engagement Hub."
+description: "Instructions to set up visitor location detection in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -25,7 +25,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 ## Create a geo location provider record
 
-1.	Sign in to Omni-channel Engagement Hub.
+1.	Sign in to Omnichannel for Customer Service.
 
 2.	Go to **Administration** > **Geo Location**. A list of existing records is displayed.
 

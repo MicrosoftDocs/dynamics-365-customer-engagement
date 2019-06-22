@@ -1,7 +1,7 @@
 ---
 title: Understand and create work streams
-description: Understand and create work streams in the Omni-channel Engagement Hub
-keywords: Understand and create work streams; Omni-channel Engagement Hub
+description: Understand and create work streams in the Omnichannel for Customer Service
+keywords: Understand and create work streams; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 A work stream is a collection of routing and work distribution settings. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. 
 
-In Omni-channel Engagement Hub, you can create the following types of work streams:
+In Omnichannel for Customer Service, you can create the following types of work streams:
 
 - Live chat work stream
 - Entity work stream
@@ -31,14 +31,14 @@ In Omni-channel Engagement Hub, you can create the following types of work strea
 
 ## Create a work stream
 
-Follow these steps to create a new work stream in Omni-channel Engagement Hub.
+Follow these steps to create a new work stream in Omnichannel for Customer Service.
 
-1. In the Omni-channel site map, go to **Work Distribution Management \> Work Streams**.
+1. In the Omnichannel site map, go to **Work Distribution Management \> Work Streams**.
 
     The **Active Work Streams** view is shown. 
 
     > [!div class=mx-imgBorder] 
-    > ![Omni-channel work streams](../media/oc-workstream-view.png)
+    > ![Omnichannel work streams](../media/oc-workstream-view.png)
 
 2. On the command bar, select **New** to create a work stream.
 
@@ -84,7 +84,7 @@ Follow these steps to create a new work stream in Omni-channel Engagement Hub.
             > [!div class=mx-imgBorder] 
             > ![New context variable](../media/context-variable.png)
 
-5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omni-channel](routing-rules.md). 
+5. Define routing rule items in the **Routing rule items** tab. Routing rule items are configured for each work stream, so that conversations can be routed to the correct queues. To learn how to configure a routing rule, see [Create and manage routing rules in Omnichannel](routing-rules.md). 
 
 6. Select **Save** to save the work stream.
 
@@ -100,16 +100,16 @@ To learn more about how to set up channels and associate work streams, see the f
 
 ## Set up an entity work stream
 
-Entity work streams help route entities from **Common Data Service** to the Omni-channel Engagement Hub. For example, you can enable high-priority cases to be routed to Omni-channel so that they can be automatically distributed and assigned to agents.
+Entity work streams help route entities from **Common Data Service** to the Omnichannel for Customer Service. For example, you can enable high-priority cases to be routed to Omnichannel so that they can be automatically distributed and assigned to agents.
 
 > [!NOTE]
 > You can route any activity enabled entity.
 
-To set up entity routing, you need to configure an entity work stream in **Omni-channel Engagement Hub** and set up a corresponding flow in **Microsoft Flow**. Follow the detailed steps as given below.
+To set up entity routing, you need to configure an entity work stream in **Omnichannel for Customer Service** and set up a corresponding flow in **Microsoft Flow**. Follow the detailed steps as given below.
 
-### In Omni-channel Engagement Hub
+### In Omnichannel for Customer Service
 
-1. In the Omni-channel site map, go to **Work Distribution Management \> Work Streams**.
+1. In the Omnichannel site map, go to **Work Distribution Management \> Work Streams**.
 2. Fill in the **General information** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
     For entity work stream, select **Channel** as **Entity**. 
 3. Fill in the **Work distribution** section as given in [Create a work stream](work-streams-introduction.md#create-a-work-stream).
