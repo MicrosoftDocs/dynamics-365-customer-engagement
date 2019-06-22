@@ -51,8 +51,6 @@
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 
 
-
-
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
@@ -102,8 +100,8 @@
 
 ## Supervisor guide
 ### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
-### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
-### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
+#### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
+#### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 ### [Monitor conversations](supervisor/monitor-conversations.md)
 
 
