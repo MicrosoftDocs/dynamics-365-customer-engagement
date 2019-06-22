@@ -48,6 +48,7 @@
 
 ### Supervisor Experience
 #### [Configure Intraday insights dashboard for Unified Service Desk](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Configuring Dynamics 365 omnichannel insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 
 
