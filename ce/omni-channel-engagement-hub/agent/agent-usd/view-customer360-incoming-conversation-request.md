@@ -84,10 +84,7 @@ If you choose a case that is different than the one you are assigned, then you s
 When no record is found in Omnichannel for Customer Service, you can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notification (screen pop).
 
 > [!div class=mx-imgBorder]
-> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")  
-
-> [!div class="nextstepaction"]
-> [Next topic: Create a record](create-record.md)
+> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")
 
 ## See also
 
