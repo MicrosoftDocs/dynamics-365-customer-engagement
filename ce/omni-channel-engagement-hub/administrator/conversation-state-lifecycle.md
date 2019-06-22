@@ -1,7 +1,7 @@
 ---
 title: Understand the conversation state lifecycle
-description: Understand the conversation state lifecycle in the omni-channel engagement hub
-keywords: Conversation state lifecycle; omni-channel engagement hub
+description: Understand the conversation state lifecycle in the Omnichannel for Customer Service
+keywords: Conversation state lifecycle; Omnichannel for Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -21,7 +21,7 @@ Conversation state plays an important role in this process by updating the state
 
 During their complete lifecycle, conversations follow a dedicated path. They are created, assigned to agents, worked on by agents (attended to), and are closed after being in the waiting state for a configured time. 
 
-During the process, the omni-channel system gathers data about agent efficiency, and also about operational bottlenecks that the organization can fix to achieve optimum efficiency. For example, the view of conversations in the **Waiting** state, conversations in the **Closed** state, conversations in the **Open** state, and so on, helps organizations track the operational health of incoming requests.
+During the process, the omnichannel system gathers data about agent efficiency, and also about operational bottlenecks that the organization can fix to achieve optimum efficiency. For example, the view of conversations in the **Waiting** state, conversations in the **Closed** state, conversations in the **Open** state, and so on, helps organizations track the operational health of incoming requests.
 
 You can also view other important metrics and analyze them on the supervisor dashboard. Here are some examples:
 
@@ -31,4 +31,4 @@ You can also view other important metrics and analyze them on the supervisor das
 
 ### See also
 
-[Understand conversation states in Omni-channel Engagement Hub](../agent/agent-oceh/oceh-conversation-state.md)
+[Understand conversation states in Omnichannel for Customer Service](../agent/agent-oceh/oceh-conversation-state.md)

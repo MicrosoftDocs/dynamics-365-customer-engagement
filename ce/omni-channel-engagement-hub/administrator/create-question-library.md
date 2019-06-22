@@ -1,6 +1,6 @@
 ---
 title: "Create a question library | MicrosoftDocs"
-description: "Instructions to create a question library in Omni-channel Engagement Hub."
+description: "Instructions to create a question library in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 You can create survey questions and associate them with a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are associated with the work stream.
 
-1. Sign in to Omni-channel Engagement Hub.
+1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** &gt; **Chat**.
 3. Open the chat widget in which you need to add a question.
 4. On the **Survey** tab, in the **Pre-chat survey** field, select **Yes**.

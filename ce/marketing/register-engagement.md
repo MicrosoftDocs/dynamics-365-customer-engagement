@@ -77,7 +77,7 @@ The same website record where you find the [!INCLUDE[pn-javascript](../includes/
 > [!NOTE]
 > Website results and insights are also reported for each individual contact record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Contact insights](insights.md#contact-insights)
 
-## track visitors to your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] marketing pages
+## Track visitors to your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] marketing pages
 
 Each time you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] sets up a new website (including unique [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] tracking code) to track interactions with that page only. You'll find these in the **Marketing** &gt; **Internet Marketing** &gt; **Websites** list next to your other websites. For more information about how to work with website tracking and view the results, see the previous section.
 

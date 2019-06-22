@@ -1,5 +1,5 @@
 ---
-title: "Error code reference for Omni-channel Engagement Hub in Dynamics 365 | MicrosoftDocs"
+title: "Error code reference for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
 description: "Read about the error codes and error messages that are returned when using the live chat SDK methods, and how to resolve the errors"
 keywords: ""
 author: susikka
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 284DD86F-84B5-4000-AACF-5DA72D084814
 ms.custom: 
 ---
-# Error code reference for Omni-channel Engagement Hub
+# Error code reference for Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 

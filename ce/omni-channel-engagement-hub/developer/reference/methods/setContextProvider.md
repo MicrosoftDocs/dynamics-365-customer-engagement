@@ -1,5 +1,5 @@
 ---
-title: "setContextProvider (Omni-channel Engagement Hub JavaScript API reference) | MicrosoftDocs"
+title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: 
 keywords: ""
 author: susikka
@@ -22,7 +22,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 > [!IMPORTANT]
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
 > The custom context provider would be invoked by live chat widget when starting a new chat.
 
 > [!NOTE]

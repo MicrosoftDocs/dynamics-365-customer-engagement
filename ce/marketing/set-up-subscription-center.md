@@ -99,7 +99,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 1. On the command bar, select **Save** to save your new list.
 
-1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **Yes**.
+1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **True**.
 
 1. Select **Save** on the command bar to save your new list as a subscription list.
 

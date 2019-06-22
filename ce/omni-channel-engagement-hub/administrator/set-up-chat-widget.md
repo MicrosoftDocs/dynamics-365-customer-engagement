@@ -1,6 +1,6 @@
 ---
 title: "Configure a chat channel | MicrosoftDocs"
-description: "Instructions to configure a chat channel in Omni-channel Engagement Hub."
+description: "Instructions to configure a chat channel in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais

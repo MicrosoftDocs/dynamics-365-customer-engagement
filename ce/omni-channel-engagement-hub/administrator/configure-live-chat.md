@@ -1,7 +1,7 @@
 ---
 title: "Configure a chat widget and embed it in portal | MicrosoftDocs"
-description: "Instructions to configure a chat widget in Omni-channel Engagement Hub and embed it in Dynamics 365 Portal."
-keywords: live chat work stream, chat widget, omni-channel engagement hub
+description: "Instructions to configure a chat widget in Omnichannel for Customer Service and embed it in Dynamics 365 Portal."
+keywords: live chat work stream, chat widget, Omnichannel for Customer Service
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -27,7 +27,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 1: Create a live chat work stream
 
-1. In the Omni-channel site map, go to **Work Streams** and select **New** from the command bar.
+1. In the Omnichannel site map, go to **Work Streams** and select **New** from the command bar.
 2. On the **Summary** tab of the new work stream page, provide the name of the work stream.
 3. In the **Channel** drop-down list, select **Live chat** as the channel.
 4. Select **Save** to save the live chat work stream.
@@ -71,5 +71,5 @@ You can maximize the chat widget by selecting it.
 ### See also
 
 [Understand and create work streams](work-streams-introduction.md) </br>
-[Create and manage routing rules in Omni-channel](routing-rules.md) </br>
+[Create and manage routing rules in Omnichannel](routing-rules.md) </br>
 [Configure a chat widget](set-up-chat-widget.md)

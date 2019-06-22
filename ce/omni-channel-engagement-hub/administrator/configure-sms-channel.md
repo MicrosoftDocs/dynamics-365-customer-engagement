@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/13/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 4392FF3A-51B1-42DC-A576-C3001D879469
@@ -82,7 +82,8 @@ To sign up for TeleSign:
     - **Description**: Optional description for the number.
     
     > [!NOTE]
-    > For this preview, only one phone number is supported per work stream.
+    > - For this preview, only one phone number is supported per work stream.
+    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;country code&gt;&lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
 
     > [!div class=mx-imgBorder]
     > ![SMS Numbers tab](../media/sms-number.png "SMS Numbers tab")

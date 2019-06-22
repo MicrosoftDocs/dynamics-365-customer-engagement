@@ -1,6 +1,6 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
-description: "Instructions to set up quick replies in Omni-channel Engagement Hub."
+description: "Instructions to set up quick replies in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -21,7 +21,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 Quick replies are pre-defined messages that can be created for agents to quickly reply to common questions by customers. For information on agent experience of quick response, see [Send quick replies in the chat](../agent/agent-usd/left-control-panel.md#send-quick-replies-in-the-chat).  
 
-1. Sign in to Omni-channel Engagement Hub.
+1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** &gt; **Quick Replies**.
 3. Select **New** to add a quick reply. To edit an existing quick reply, select the name of the quick reply.
 4. Provide or change the following information:

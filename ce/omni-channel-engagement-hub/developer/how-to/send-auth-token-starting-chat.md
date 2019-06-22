@@ -20,17 +20,17 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 [!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 <!--note from editor:  Suggest changing the sentence 
-"When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub, which helps in authenticating the user." 
+"When a user initiates a chat, you can pass an authentication token to Omnichannel for Customer Service, which helps in authenticating the user." 
 to this:
-"To authenticate a user when they initiate a chat, pass an authentication token to Omni-channel Engagement Hub." -->
+"To authenticate a user when they initiate a chat, pass an authentication token to Omnichannel for Customer Service." -->
 
-When a user initiates a chat, you can pass an authentication token to Omni-channel Engagement Hub. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
+When a user initiates a chat, you can pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
 
 <!--note from editor:Should the below sentence say "Follow these steps to pass an authentication token:"?    -->
 > [!IMPORTANT]
 > In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omni-channel Engagement Hub.<br />
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
 
 The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md).

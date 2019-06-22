@@ -2587,6 +2587,11 @@
       "source_path": "ce/customize/types-forms.md",
       "redirect_url": "/dynamics365/customer-engagement/customize/create-design-forms#type-of-forms",
       "redirect_document_id": true
+     },
+     {
+      "source_path": "ce/marketing/purchase-marketing.md",
+      "redirect_url": "/dynamics365/customer-engagement/marketing/purchase-setup",
+      "redirect_document_id": true
      }
   ]
 }

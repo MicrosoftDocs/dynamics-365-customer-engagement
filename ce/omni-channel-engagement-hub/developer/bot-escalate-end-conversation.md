@@ -36,6 +36,16 @@ You must ensure the following conditions are met to onboard a bot to Omnichannel
 -	The bot must be registered with [Azure Bot Service](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
 -	The bot must be configured to [have Microsoft Teams as a supported channel](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
 
+<a name="bkmk_EngageBot"></a>
+
+## Engage a bot
+
+In order to send messages to Omni-channel Engagement Hub, you need to add the following code statement to the bot code.
+
+```csharp
+OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
+```
+
 ## Escalate a conversation to a human agent
 
 In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing to the new agent depends on the routing rule that is configured for the work stream. The primary way a bot can dictate how the conversation will be routed is by using Omnichannel for Customer Service context variables that are associated with the chat. A bot can send out a list of context variables and the values to which they need to be updated along with the escalation request. Omnichannel for Customer Service will update the context variables to the specified values and then rerun the routing engine. This will ensure that an escalated chat will be routed to the proper queue. Once the agent accepts the invitation, the chat transcript with the bot will be visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
@@ -186,7 +196,7 @@ namespace EchoBot.OmniChannel
 
 3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below.
 
-Change the `escalate` and `endconversation` command criteria to something that suits your requirements.
+Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omni-channel Engagement Hub. More information: [Engage a bot](#bkmk_EngageBot).
 
 ```csharp
 using System;
