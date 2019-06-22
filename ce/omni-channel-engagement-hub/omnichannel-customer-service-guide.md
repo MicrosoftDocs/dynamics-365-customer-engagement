@@ -52,9 +52,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 ](agent/agent-oc/omnichannel-customer-service-app-agent.md)">Use on Omnichannel for Customer Service</a></li>
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
-<li><a href="agent/agent-oc/oceh-customer-360-overview-of-the-existing-challenges.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oceh-customer-360-overview-of-the-existing-challenges.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
+<li><a href="agent/agent-oc/oc-customer-summary.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oc-customer-summary.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
 <li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
-<li><a href="agent/agent-oc/oceh-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oceh-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
+<li><a href="agent/agent-oc/oc-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oc-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
 <td>

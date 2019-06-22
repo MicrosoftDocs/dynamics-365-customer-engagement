@@ -89,10 +89,10 @@ The **Linked records** field drop-down shows the record that is linked to conver
 > ![View only the linked records in the drop-down](../../media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
 
 > [!div class="nextstepaction"]
-> [Next topic: Search for and share knowledge articles](oceh-search-knowledge-articles.md)
+> [Next topic: Search for and share knowledge articles](oc-search-knowledge-articles.md)
 
 ## See also
 
-- [View communication panel](oceh-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [View communication panel](oc-conversation-control.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

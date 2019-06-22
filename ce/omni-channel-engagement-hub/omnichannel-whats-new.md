@@ -24,21 +24,21 @@ ms.custom:
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
 
-    More information: [](agent/agent-oc/oceh-create-record.md#create-a-new-record-from-the-customer-summary-page)
+    More information: [](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
 
 - **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
     > [!div class='mx-imgBorder']
     > ![View only the linked records in the drop-down](media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
 
-    More information: [Timeline](agent/agent-oc/oceh-customer-360-overview-of-the-existing-challenges.md#timeline)
+    More information: [Timeline](agent/agent-oc/oc-customer-summary.md#timeline)
 
 - **Monitor real-time customer satisfaction in customer sessions:** As an agent, when you interact with your customers, you want to know their satisfaction levels in real time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
     > [!div class=mx-imgBorder]
     > ![Very positive sentiment](media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
-    More information: [Monitor real-time customer satisfaction levels](agent/agent-oc/oceh-monitor-real-time-customer-sentiment-sessions.md)
+    More information: [Monitor real-time customer satisfaction levels](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 
 ##  What's new in April 2019 update
 
@@ -79,11 +79,11 @@ More information: [Deploy Unified Service Desk - Omnichannel for Customer Servic
 
     - **Switch between multiple sessions**: As an agent, you might engage with several customers simultaneously but managing all the customer sessions is a challenge, especially switching between the sessions while understanding the context of the engagement. With Omnichannel for Customer Service, the session panel helps you to switch between multiple customer sessions simultaneously while preserving customer context and resolve issues faster and achieve higher productivity.
 
-    More information: [Manage sessions](agent/agent-oc/oceh-manage-sessions.md)
+    More information: [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 
     - **Enhance productivity using the application tab**: With a simplified experience, the application tab allows you to manage the applications like KB search, advanced search, access sitemap, within the context of the customer session. This helps the agents to switch between the customer sessions with relevant customer information and context leading to higher productivity.
     
-    More information: [Manage applications](agent/agent-oc/oceh-manage-applications.md)
+    More information: [Manage applications](agent/agent-oc/oc-manage-applications.md)
 
 More information: [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 
@@ -91,11 +91,11 @@ More information: [Agents using Omnichannel for Customer Service app](agent/agen
 
     - **Search for consulting participants**: In the communication panel, you can use the keyboard command to launch the consult fly-out. Once the fly-out is displayed, continue to type the agent name in the communication panel to quickly find and initiate consult.
 
-    More information: [View communication panel](agent/agent-oc/oceh-conversation-control.md#search-for-consulting-participants)
+    More information: [View communication panel](agent/agent-oc/oc-conversation-control.md#search-for-consulting-participants)
 
     - **Search agents or queues for the transfer of a conversation request**: In the communication panel, you can use the keyboard command to launch the transfer fly-out. Once the fly-out is displayed, continue to type the agent or queue name in the communication panel to quickly find and initiate the transfer of the conversation request.
 
-    More information: [View communication panel](agent/agent-oc/oceh-conversation-control.md#search-agents-or-queues-for-the-transfer-of-a-conversation-request)
+    More information: [View communication panel](agent/agent-oc/oc-conversation-control.md#search-agents-or-queues-for-the-transfer-of-a-conversation-request)
 
 ### System customizer experience
 
@@ -133,7 +133,7 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
 ### Agent experience
 
-- **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-oc/oceh-search-link-unlink-record.md)
+- **Unlink a record (case, contact, and account) from a conversation**: You can unlink a record (case, contact, and account) from a conversation while you are interacting with the customer. You can unlink inline on the **Customer profile** and **Issue snapshot** form and link any other required record. More information: [Unlink a record from the conversation](agent/agent-usd/link-unlink-record.md#unlink-a-record-from-the-conversation) and [Unlink a record from the conversation](agent/agent-oc/oc-search-link-unlink-record.md)
 
 
 ### Developer experience

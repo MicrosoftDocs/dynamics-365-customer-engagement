@@ -27,24 +27,24 @@ The Omnichannel for Customer Service application on a web browser provides a uni
 
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service.
 
-- [Sign in to Omnichannel for Customer Service](oceh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
-- [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
-- [View communication panel](oceh-conversation-control.md)
-- [Manage presence status](oceh-set-user-presence-status.md)
-- [View notifications](oceh-notifications-screen-pops.md)
-- [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
-- [Take notes specific to conversation](oceh-take-notes.md)
-- [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](oceh-create-record.md)
-- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
+- [Sign in to Omnichannel for Customer Service](oceh-sign-in-omnichannel.md)
+- [Introduction to the agent interface](oc-introduction-agent-interface.md)
+- [View agent dashboard and work items](oc-agent-dashboard.md)
+- [View communication panel](oc-conversation-control.md)
+- [Manage presence status](oc-manage-presence-status.md)
+- [View notifications](oc-notifications.md)
+- [View customer summary](oc-customer-summary.md)
+- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+- [Take notes specific to conversation](oc-take-notes.md)
+- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Create a record](oc-create-record.md)
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 
 
 ## How-tos
 
-- [Communication panel](oceh-conversation-control.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](oceh-create-record.md)
-- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
+- [Communication panel](oc-conversation-control.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Create a record](oc-create-record.md)
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)

@@ -113,11 +113,11 @@ To unlink a record, select the **X** button next to the customer name in the cus
 > You can link and unlink only one contact or account in the customer (Contact or Account) section and one case in the case section.
 
 > [!div class="nextstepaction"]
-> [Next topic: Understand conversation states](oceh-conversation-state.md)
+> [Next topic: Understand conversation states](oc-conversation-state.md)
 
 ## See also
 
-- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](oceh-create-record.md)
+- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Create a record](oc-create-record.md)

@@ -32,7 +32,7 @@ To add SMS support for your organization, you must first register with TeleSign 
 
 > [!NOTE]
 > - The maximum number of characters supported for sent and received messages is 1600.
-> - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](../agent/agent-oc/oceh-conversation-state.md)
+> - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](../agent/agent-oc/oc-conversation-state.md)
 
 ## Sign up for TeleSign account
 

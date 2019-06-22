@@ -55,11 +55,11 @@ When you interact with a customer in the conversation control, you can use the *
 ![Search knowledge articles using the option from conversation control](../../media/oceh-oc-search-knowledge-articles-cc.png "Search knowledge articles using the option from conversation control")
 
 > [!div class="nextstepaction"]
-> [Next topic: Take notes specific to conversation](oceh-take-notes.md)
+> [Next topic: Take notes specific to conversation](oc-take-notes.md)
 
 ## See also
 
-- [View communication panel](oceh-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
-- [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
+- [View communication panel](oc-conversation-control.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View customer summary](oc-customer-summary.md)

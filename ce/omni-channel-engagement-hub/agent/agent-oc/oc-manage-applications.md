@@ -65,10 +65,10 @@ The title of the application tab will the name of the Customer Engagement entity
 
 
 > [!div class="nextstepaction"]
-> [Next topic: View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
+> [Next topic: View agent dashboard and work items](oc-agent-dashboard.md)
 
 ## See also
 
-- [Manage sessions](oceh-manage-sessions.md)
-- [Understand conversation states](oceh-conversation-state.md)
-- [View communication panel](oceh-conversation-control.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Understand conversation states](oc-conversation-state.md)
+- [View communication panel](oc-conversation-control.md)

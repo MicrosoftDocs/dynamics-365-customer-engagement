@@ -79,7 +79,7 @@ The vertical panel on the left side is the session panel that allows you (the ag
 
 ## 2. Communication panel
 
-The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oceh-conversation-control.md).
+The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. That is, the communication panel appears on the left side next to the session panel only when you accept an incoming conversation request. To learn more, see [View communication panel](oc-conversation-control.md).
 
  > [!div class=mx-imgBorder]
  > ![Communication panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-communication-panel.png "Communication panel in Omnichannel for Customer Service app")
@@ -103,7 +103,7 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
     - **Open work items**
     - **Closed work items**
 
-   To learn more, see [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md).
+   To learn more, see [View agent dashboard and work items](oc-agent-dashboard.md).
 
 ## 5. Navigation bar buttons
 
@@ -134,15 +134,15 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
    > [!div class="mx-imgBorder"]
    > ![Quick create account form](../../media/oceh/oceh-quick-create-forms-account.png "Quick create account form")
 
-   c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oceh-set-user-presence-status.md).
+   c. **Presence.** Set presence as per your availability. Select the icon to launch the presence dialog and use the drop-down list to select a status. To learn more, see [Manage presence status](oc-manage-presence-status.md).
 
 > [!div class="nextstepaction"]
-> [Next topic: Manage sessions](oceh-manage-sessions.md)
+> [Next topic: Manage sessions](oc-manage-sessions.md)
 
 ## See also
 
-- [Manage applications](oceh-manage-applications.md)
-- [Understand conversation states](oceh-conversation-state.md)
-- [Sign in to Omnichannel for Customer Service](oceh-sign-dynamics-365-customer-service-hub.md)
-- [View communication panel](oceh-conversation-control.md)
-- [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
+- [Manage applications](oc-manage-applications.md)
+- [Understand conversation states](oc-conversation-state.md)
+- [Sign in to Omnichannel for Customer Service](oceh-sign-in-omnichannel.md)
+- [View communication panel](oc-conversation-control.md)
+- [View agent dashboard and work items](oc-agent-dashboard.md)

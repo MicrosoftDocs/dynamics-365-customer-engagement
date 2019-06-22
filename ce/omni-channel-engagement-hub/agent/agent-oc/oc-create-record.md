@@ -21,9 +21,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a new record in two ways:
 
-- [Create a new record from the Customer Summary page](oceh-create-record.md#create-a-new-record-from-the-customer-summary-page)
-- [Create a new record using the quick create option](oceh-create-record.md#create-a-new-record-using-the-quick-create-option)
-- [Create a new record using the + New option](oceh-create-record.md#create-a-new-record-using-the-new-option)
+- [Create a new record from the Customer Summary page](oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
+- [Create a new record using the quick create option](oc-create-record.md#create-a-new-record-using-the-quick-create-option)
+- [Create a new record using the + New option](oc-create-record.md#create-a-new-record-using-the-new-option)
 
 ## Create a new record from the Customer Summary page
 
@@ -84,7 +84,7 @@ To create a new record, follow the steps:
  > [!div class=mx-imgBorder]
  > ![Quick create contact](../../media/oc-oceh-quick-create-contact.png "Quick create contact")
 
-After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oceh-search-link-unlink-record.md#search-for-records-using-inline-search-option)
+After you save the changes, you can link the record to the conversation. To learn more, see [Search and link a record to the conversation](oc-search-link-unlink-record.md#search-for-records-using-inline-search-option)
 
 ## Create a new record using the new option
 
@@ -103,10 +103,10 @@ In the Customer Summary page, when you are trying to search a record in customer
     > ![Auto-link record](../../media/oceh/customer-summary-search-section-auto-link-case.png "Auto-link record")
 
 > [!div class="nextstepaction"]
-> [Next topic: Search, link, and unlink a record](oceh-search-link-unlink-record.md)
+> [Next topic: Search, link, and unlink a record](oc-search-link-unlink-record.md)
 
 ## See also
 
-- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

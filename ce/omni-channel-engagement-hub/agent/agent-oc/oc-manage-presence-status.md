@@ -62,12 +62,12 @@ Presence status is updated in two ways:
   - When your capacity is not utilized, the presence is set to **Available**.<br>
 
 > [!div class="nextstepaction"]
-> [Next topic: View notifications](oceh-notifications-screen-pops.md) 
+> [Next topic: View notifications](oc-notifications.md) 
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
-- [Manage sessions](oceh-manage-sessions.md)
-- [Manage applications](oceh-manage-applications.md)
-- [View communication panel](oceh-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
+- [Introduction to the agent interface](oc-introduction-agent-interface.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Manage applications](oc-manage-applications.md)
+- [View communication panel](oc-conversation-control.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)

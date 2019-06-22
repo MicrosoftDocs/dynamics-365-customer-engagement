@@ -63,10 +63,10 @@ The session activity type displays information about a individual session in a c
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+> [Next topic: View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 
 ## See also
 
-- [View customer summary](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [Create a record](oceh-create-record.md)
-- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
+- [View customer summary](oc-customer-summary.md)
+- [Create a record](oc-create-record.md)
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)

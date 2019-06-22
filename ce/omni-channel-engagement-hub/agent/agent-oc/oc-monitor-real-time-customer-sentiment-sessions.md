@@ -52,14 +52,14 @@ The sentiment icons displayed on the communication panel are as follows.
 > The real-time sentiment is shown to you only if the supervisor or administrator has enabled sentiment analysis for a queue where you are added as a member.
 
 > [!div class="nextstepaction"]
-> [Next topic: Manage presence status](oceh-set-user-presence-status.md)
+> [Next topic: Manage presence status](oc-manage-presence-status.md)
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
-- [Manage sessions](oceh-manage-sessions.md)
-- [Manage applications](oceh-manage-applications.md)
-- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
-- [Take notes specific to conversation](oceh-take-notes.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Introduction to the agent interface](oc-introduction-agent-interface.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Manage applications](oc-manage-applications.md)
+- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+- [Take notes specific to conversation](oc-take-notes.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

@@ -95,10 +95,10 @@ At all times, the **Home** session is default and you can't close it. The Home s
     > ![Session title](../../media/oceh/oceh-session-title.png "Session title")
 
 > [!div class="nextstepaction"]
-> [Next topic: Manage applications](oceh-manage-applications.md)
+> [Next topic: Manage applications](oc-manage-applications.md)
 
 ## See also
 
-- [Understand conversation states](oceh-conversation-state.md)
-- [View communication panel](oceh-conversation-control.md)
-- [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
+- [Understand conversation states](oc-conversation-state.md)
+- [View communication panel](oc-conversation-control.md)
+- [View agent dashboard and work items](oc-agent-dashboard.md)

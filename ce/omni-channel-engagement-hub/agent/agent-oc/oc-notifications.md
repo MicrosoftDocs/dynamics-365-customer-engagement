@@ -79,13 +79,13 @@ The details you’ll see for a SMS channel are:
  - Wait time
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
+> [Next topic: View customer summary and know everything about customers](oc-customer-summary.md)
 
 ## See also
 
-- [View communication panel](oceh-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
-- [Manage presence status](oceh-set-user-presence-status.md)
-- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
-- [Take notes specific to conversation](oceh-take-notes.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [View communication panel](oc-conversation-control.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Manage presence status](oc-manage-presence-status.md)
+- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+- [Take notes specific to conversation](oc-take-notes.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

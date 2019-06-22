@@ -136,7 +136,7 @@ Use the notes option to capture information specific to the conversation when yo
  > [!div class=mx-imgBorder]
  > ![Launch notes panel for taking notes](../../media/oceh-cc-option-notes.png "Launch notes panel for taking notes")
 
-To learn more, see [Take notes specific to conversation](oceh-take-notes.md).
+To learn more, see [Take notes specific to conversation](oc-take-notes.md).
 
 ## Search for and share knowledge articles
 
@@ -147,7 +147,7 @@ From the communication panel, you can search for relevant knowledge articles bas
 
 **/kb** (forward slash, letter K, and letter B) is the keyboard command to launch the knowledge articles search control. You can search and share the article with the customer through the communication panel. Use the **Send link** button to share the knowledge article link with the customer.
 
-To learn more, see [Search for and share knowledge articles](oceh-search-knowledge-articles.md).
+To learn more, see [Search for and share knowledge articles](oc-search-knowledge-articles.md).
 
 ## Link to conversation
 
@@ -156,7 +156,7 @@ When you have a conversation with a customer, you can link the conversation to t
 > [!div class=mx-imgBorder]
 > ![Use the link to conversation option to launch the link the conversation to a record](../../media/oceh-cc-options-ellipsis-link.png "Use the link to conversation option to launch the link the conversation to a record")
 
-To learn more, see [Search, link, and unlink a record to the conversation](oceh-search-link-unlink-record.md).
+To learn more, see [Search, link, and unlink a record to the conversation](oc-search-link-unlink-record.md).
 
 ## Monitor real-time customer satisfaction
 
@@ -165,19 +165,19 @@ As an agent, you can view the real-time customer satisfaction levels on the comm
 > [!div class=mx-imgBorder]
 > ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
-To learn more, see [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
+To learn more, see [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
+> [Next topic: Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
-- [Manage sessions](oceh-manage-sessions.md)
-- [Manage applications](oceh-manage-applications.md)
-- [Manage presence status](oceh-set-user-presence-status.md)
-- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [Search for and share knowledge articles](oceh-search-knowledge-articles.md)
-- [Take notes specific to conversation](oceh-take-notes.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
+- [Introduction to the agent interface](oc-introduction-agent-interface.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Manage applications](oc-manage-applications.md)
+- [Manage presence status](oc-manage-presence-status.md)
+- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [Search for and share knowledge articles](oc-search-knowledge-articles.md)
+- [Take notes specific to conversation](oc-take-notes.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

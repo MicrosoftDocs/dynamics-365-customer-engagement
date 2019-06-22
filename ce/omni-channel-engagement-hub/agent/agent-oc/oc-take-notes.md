@@ -44,13 +44,13 @@ When you are working on multiple customer sessions, and while capturing notes, y
 Again, when you switch back to the session, launch the notes panel and take the notes. After you add the notes, these notes will be appended to the previously added notes in the timeline.
 
 > [!div class="nextstepaction"]
-> [Next topic: View conversation and session activity types in the Customer Engagement apps](oceh-view-conversations-sessions-dynamics-365-apps.md)
+> [Next topic: View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
 
 ## See also
 
-- [View Communication panel](oceh-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oceh-monitor-real-time-customer-sentiment-sessions.md)
-- [View customer summary and know everything about customers](oceh-customer-360-overview-of-the-existing-challenges.md)
-- [View customer summary for an incoming conversation request](oceh-view-customer-360-incoming-conversation-request.md)
-- [Create a record](oceh-create-record.md)
-- [Search, link, and unlink a record](oceh-search-link-unlink-record.md)
+- [View Communication panel](oc-conversation-control.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [View customer summary and know everything about customers](oc-customer-summary.md)
+- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [Create a record](oc-create-record.md)
+- [Search, link, and unlink a record](oc-search-link-unlink-record.md)

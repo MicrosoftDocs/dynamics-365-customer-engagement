@@ -42,10 +42,10 @@ In this stream, you see the conversations (work items) in a waiting state from a
 In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
-> [Next topic: Create a record](oceh-create-record.md)
+> [Next topic: Create a record](oc-create-record.md)
 
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
-- [View communication panel](oceh-conversation-control.md)
+- [Introduction to the agent interface](oc-introduction-agent-interface.md)
+- [View communication panel](oc-conversation-control.md)
