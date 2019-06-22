@@ -1,6 +1,6 @@
 ---
-title: "Delete Omni-channel solutions | MicrosoftDocs"
-description: "Learn how to delete a Omni-channel solution from the Microsoft Dynamics 365 for Customer Engagement organization."
+title: "Delete Omnichannel solutions | MicrosoftDocs"
+description: "Learn how to delete a Omnichannel solution from the Microsoft Dynamics 365 for Customer Engagement organization."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,13 +13,13 @@ ms.assetid: 9DD734AE-8137-427C-A4BE-F4B2A0E58C00
 ms.custom: 
 ---
 
-# Delete Omni-channel solutions
+# Delete Omnichannel solutions
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you upgrade Omni-channel Engagement Hub to the latest release, certain managed solutions appear in the **Solutions** page of your Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete.
+When you upgrade Omnichannel Engagement Hub to the latest release, certain managed solutions appear in the **Solutions** page of your Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete.
 
 This topic describes how to delete the solution from the previous releases from your Customer Engagement organization.
 
@@ -37,12 +37,12 @@ This topic describes how to delete the solution from the previous releases from 
 4. A confirmation message appears prompting you to uninstall the managed solution. Choose **OK**. 
 
     > [!div class=mx-imgBorder]
-    > ![Delete Omni-channel Solution](../media/oceh-admin-delete-solution.png "Delete Omni-channel Solution")  
+    > ![Delete Omnichannel Solution](../media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
 
 You have deleted the **OmnichannelCustomerServiceHub** solution from your Customer Engagement organization.
 
 ## See also
 
-- [Upgrade Omni-channel Engagement Hub](upgrade-omni-channel.md)
+- [Upgrade Omnichannel Engagement Hub](upgrade-Omni-channel.md)
 - [Omnichannel for Customer Service on Unified Service Desk](omnichannel-customer-service-unified-service-desk.md)
 - [Deploy Unified Service Desk - Omnichannel for Customer Service package](omnichannel-customer-service-package.md)

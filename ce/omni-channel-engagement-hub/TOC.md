@@ -16,7 +16,7 @@
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 #### [Configure settings for Unified Service Desk](administrator/configure-settings-unified-service-desk.md)
-### [Delete Omni-channel solutions](administrator/delete-solution.md)
+### [Delete Omnichannel solutions](administrator/delete-solution.md)
 
 ### [Integrate a bot](administrator/configure-bot.md)
 
