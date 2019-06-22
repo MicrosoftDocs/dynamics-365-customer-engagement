@@ -48,7 +48,7 @@
 
 ### Supervisor Experience
 #### [Configure Intraday insights dashboard for Unified Service Desk](administrator/configure-intraday-dashboard-supervisor.md)
-#### [Configuring Dynamics 365 omnichannel insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)
+#### [Configuring Dynamics 365 omnichannel insights dashboard](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 
 
@@ -103,10 +103,9 @@
 ### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
 #### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
 #### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
-### [Monitor conversations](supervisor/monitor-conversations.md)
-
-
-
+#### [Monitor conversations](supervisor/monitor-conversations.md)
+### [Introduction to Dynamics 365 omnichannel insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+#### [Dynamics 365 omnichannel insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 
 ## System customizer guide

@@ -188,3 +188,7 @@ You must add users in the supervisor configuration to access any supervisor dash
     Users are added to the supervisor dashboard and when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
 
 ### See also
+
+-  [Introduction to Dynamics 365 omnichannel insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+
+-   [Dynamics 365 omnichannel insights dashboards](../supervisor/omnichannel-insights-dashboard.md) 
