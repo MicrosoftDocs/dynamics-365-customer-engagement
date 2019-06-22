@@ -56,7 +56,13 @@ As well as mobile devices.
    - **Description**: Type a short description of what the app is or does.  
   
    - **Icon**: By default, the **Use Default App** thumbnail check box is checked. To select a different web resource as an icon for the app, clear the check box, and then select an icon from the drop-down list. This icon will be displayed on the preview tile of the app.  
-        
+   
+   - **Client**: Choose the client type. 
+      - **Web**. This is the classic web client. This client is not suitable for mobile devices.
+      - **Unified Interface**. This client offers a new user experience that uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. More information: [About Unified Interface](../admin/about-unified-interface.md)
+   
+   - **App URL Suffix**. By default, the URL suffix is the app **Unique Name** without the prefix, such as *www.contoso.com/sales/Apps/MyApp*. You can enter a different URL suffix if you want to create an easy-to-remember URL for the app. 
+  
    - **Use existing solution to create the App**: Select this option to create the app from a list of installed solutions. When you select this option, **Done** switches to **Next** on the header. If you select **Next**, the **Create app from existing solution** page opens. From the **Select Solution** drop-down list, select a solution from which you want to create the app. If any site map is available for the selected solution, the **Select Sitemap** drop-down list will appear. Select the site map, and then select **Done**.
 
      > [!NOTE]

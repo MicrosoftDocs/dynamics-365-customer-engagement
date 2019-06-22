@@ -26,6 +26,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+<a name="bkmk_enable"></a> 
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
 
 By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
@@ -40,7 +41,8 @@ By default, Microsoft Teams integration is disabled. To turn this feature on, fo
 When Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear.   
 
    > [!IMPORTANT]
-   > If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 for Customer Engagement apps.  
+   > - If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 for Customer Engagement apps.
+   > - > When the feature is enabled, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).  
 
 ## Install the app and set up the Teams tab
 
@@ -155,7 +157,6 @@ Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for C
 3. Select the **My Dashboard** tab.
 
 See [Use the personal dashboard](teams-personal-use.md) for information on how you can use **My Dashboard**.
-
 
 
 ### See also  
