@@ -39,7 +39,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 - **Ongoing Conversations**: This tab provides information about the conversations that agents are handling and are in active, open, and waiting states. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 > [!NOTE]
-> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure Intraday insights dashboard for Unified Service Desk](administrator/configure-intraday-dashboard-supervisor.md).
+> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md).
 
 ## Prerequisites
 
@@ -54,7 +54,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 ### See also
 
--  [Configure intraday insights dashboard for Unified Service Desk](administrator/configure-intraday-dashboard-supervisor.md)
+-  [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
 
 -  [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
 
