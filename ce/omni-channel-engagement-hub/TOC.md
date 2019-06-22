@@ -1,7 +1,7 @@
 # [Omnichannel for Customer Service Guide](omnichannel-customer-service-guide.md)
 
 ## Get started
-### [Introduction](introduction-omni-channel.md)
+### [Introduction](introduction-omnichannel.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)

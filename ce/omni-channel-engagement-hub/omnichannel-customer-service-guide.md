@@ -24,7 +24,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <td>
 
 <h2> Get started </h2>
-<li><a href="introduction-omni-channel.md" data-raw-source="[Omnichannel for Customer Service introduction](introduction-omni-channel.md)">Omnichannel for Customer Service introduction</a></li>
+<li><a href="introduction-omnichannel.md" data-raw-source="[Omnichannel for Customer Service introduction](introduction-omnichannel.md)">Omnichannel for Customer Service introduction</a></li>
 <li><a href="system-requirements-omnichannel.md" data-raw-source="[Pre-requisites and system requirements](system-requirements-omnichannel.md)">Pre-requisites and system requirements</a></li>
 <li><a href="administrator/omnichannel-provision-license.md" data-raw-source="[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)">Provision Omnichannel for Customer Service</a></li>
 <li><a href="administrator/upgrade-omnichannel.md" data-raw-source="[Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)">Upgrade Omnichannel for Customer Service</a></li>
