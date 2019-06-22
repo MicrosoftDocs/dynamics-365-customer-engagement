@@ -10,9 +10,9 @@
 ## [What's new](omni-channel-whats-new.md)
 
 ## Administrator guide
-### [Overview](administrator/omni-channel-engagement-hub-administrator.md)
-### [Provision Omni-channel Engagement Hub](administrator/omni-channel-provision-license.md)
-### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
+### [Overview](administrator/omnichannel-engagement-hub-administrator.md)
+### [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)
+### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
@@ -32,7 +32,7 @@
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 
 ### Queues & Users
-#### [Work with queues](administrator/queues-omni-channel.md)
+#### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
 
 ### Work Distribution Management
