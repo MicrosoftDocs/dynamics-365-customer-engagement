@@ -33,7 +33,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 4. Select **Save** to save the live chat work stream.
 
    > [!div class=mx-imgBorder]
-   > ![New workstream](../media/omnichannel-new-work-stream.png)
+   > ![New workstream](../media/omni-channel-new-work-stream.png)
 
 ## Step 2: Configure a chat widget
 
