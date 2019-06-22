@@ -48,6 +48,7 @@
 
 ### Supervisor Experience
 #### [Configure Intraday insights dashboard for Unified Service Desk](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 
 
 
@@ -97,6 +98,17 @@
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search for records](agent/agent-usd/search-record.md)
 #### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
+
+
+## Supervisor guide
+### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
+### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
+### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
+### [Monitor conversations](supervisor/monitor-conversations.md)
+
+
+
+
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)

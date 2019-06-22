@@ -13,14 +13,14 @@ ms.assetid: 184b39be-7ac3-45f1-a63e-d6ad2cb7b547
 ms.custom: 
 ---
 
-# Configure to view Intraday Insights dashboard in Unified Service Desk
+# Configure to view intraday insights dashboard
 
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents, and make sure that they remain highly productive. At the same time, they help guarantee a superior experience for customers. To help supervisors carry out this dual responsibility, the dashboard consists of real-time monitoring and intraday health tracking of agent productivity and performance.
 
 > [!IMPORTANT]
 > The supervisor overview dashboard is not available in the GCC region (Gulf Cooperation Council).
 
-As an administrator, you must configure the Intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service**.
+As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service**.
 
 Let's look at the common tasks that you have to perform to configure **Unified Service Desk** and **Omnichannel for Customer Service**:  
 
@@ -47,7 +47,7 @@ To configure the dashboard on **Omnichannel for Customer Service** app, follow t
 
 ## Common tasks to configure intraday insights dashboard 
 
-You must perform these common tasks before you go ahead and configure Intraday insights dashboard for **Unified Service Desk** and **Omnichannel for Customer Service**.
+You must perform these common tasks before you go ahead and configure intraday insights dashboard for **Unified Service Desk** and **Omnichannel for Customer Service**.
 
 ### Review prerequisites
 
