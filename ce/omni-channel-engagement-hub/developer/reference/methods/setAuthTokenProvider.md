@@ -102,4 +102,4 @@ The following error codes can occur with this method.
 
 ## See also
 
-[JavaScript API reference for live chat SDK](../../omni-channel-reference.md)
+[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)

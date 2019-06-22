@@ -37,7 +37,7 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 [Send authentication token](how-to/send-auth-token-starting-chat.md)<br />
 [Initiate a chat](how-to/initiate-chat-wait-time.md)<br />
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)<br />
-[JavaScript API reference for live chat SDK](omni-channel-reference.md)
+[JavaScript API reference for live chat SDK](omnichannel-reference.md)
 
 ### See also
 

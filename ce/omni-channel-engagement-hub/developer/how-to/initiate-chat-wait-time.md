@@ -45,4 +45,4 @@ You might want to set up a rule that a chat widget will programmatically open af
 ### See also
 
 [startChat](../reference/methods/startChat.md)<br />
-[JavaScript API reference for Live chat SDK](../omni-channel-reference.md)
+[JavaScript API reference for Live chat SDK](../omnichannel-reference.md)

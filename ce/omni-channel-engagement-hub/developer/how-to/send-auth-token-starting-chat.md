@@ -92,5 +92,5 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md)<br />
 [getAuthTokenProvider](../reference/methods/getAuthTokenProvider.md)<br />
 [removeAuthTokenProvider](../reference/methods/removeAuthTokenProvider.md)<br />
-[JavaScript API reference](../omni-channel-reference.md)<br />
+[JavaScript API reference](../omnichannel-reference.md)<br />
 [Manage custom context](send-context-starting-chat.md)

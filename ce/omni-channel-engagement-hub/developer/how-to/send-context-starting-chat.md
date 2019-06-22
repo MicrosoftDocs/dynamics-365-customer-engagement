@@ -68,4 +68,4 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 [setContextProvider](../reference/methods/setContextProvider.md)<br />
 [getContextProvider](../reference/methods/getContextProvider.md)<br />
 [removeContextProvider](../reference/methods/removeContextProvider.md)<br />
-[JavaScript API reference](../omni-channel-reference.md)
+[JavaScript API reference](../omnichannel-reference.md)

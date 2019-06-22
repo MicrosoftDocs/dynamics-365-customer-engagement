@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 05/03/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
@@ -46,9 +46,9 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
 ### Administrator experience
 
-- **Upgrade Omni-channel Engagement Hub**: Upgrade to the latest version of Omni-channel Engagement Hub to unlock the benefits of new features. You can now upgrade to the latest release of Omni-channel Engagement Hub from the **Manage Instances** page in **Dynamics 365 Admin Center**. More information: [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omni-channel.md)
+- **Upgrade Omnichannel for Customer Service**: Upgrade to the latest version of Omnichannel for Customer Service to unlock the benefits of new features. You can now upgrade to the latest release of Omnichannel for Customer Service from the **Manage Instances** page in **Dynamics 365 Admin Center**. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
-- **Integrate a bot**: Integration of a bot built using Microsoft Bot Framework, with Omni-channel Engagement Hub helps to provide automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues. More information: [Integrate a bot](administrator/configure-bot.md)
+- **Integrate a bot**: Integration of a bot built using Microsoft Bot Framework, with Omnichannel for Customer Service helps to provide automated responses in a conversational manner to a customer. If required, the bot can also escalate the customer query to a customer service agent and provide the information collected from the customer to the agent. Using a bot will ease the load on your customer service agents by handling basic queries so they can work on more complex issues. More information: [Integrate a bot](administrator/configure-bot.md)
 
 - **Configure an SMS channel**: Configure an SMS channel to connect to your customers by using text messages. Your customers can now send their queries as text messages and connect with an appropriate customer service agent. This provides your customers the flexibility to connect with their mobile devices even if there is no internet connection for connecting to a chat channel. To enable SMS channel in your organization, you must register and create your account with TeleSign. SMS channel uses public APIs of TeleSign to send and receive text messages. More information: [Configure an SMS channel](administrator/configure-sms-channel.md) 
 
@@ -56,7 +56,7 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
     - **Unified Service Desk - Omnichannel for Customer Service - Add-on**: Use this sample package if you have an existing deployment of Unified Service Desk and want to start using Omnichannel for Customer Service with it. This package installs Unified Service Desk solutions with minimal configuration data for Omnichannel for Customer Service to work with an existing Unified Service Desk in the specified Customer Engagement organization.
 
-    - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omni-channel. This package installs Unified service desk solutions and Omni-channel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+    - **Unified Service Desk - Omnichannel for Customer Service**: Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified service desk solutions and Omnichannel supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
 More information: [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
 
@@ -99,9 +99,9 @@ More information: [Agents using Omnichannel for Customer Service app](agent/agen
 
 ### System customizer experience
 
-- **Configure Omni-channel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omni-channel Engagement. Learn how to configure the following components:
+- **Configure Omnichannel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omnichannel for Customer Service. Learn how to configure the following components:
 
-    - [Omni-channel agent dashboard](customizer/configure-agent-dashboard.md)
+    - [Omnichannel agent dashboard](customizer/configure-agent-dashboard.md)
     - [Advanced search](customizer/configure-advanced-search.md)
     - [Communication panel](customizer/configure-communication-panel.md)
     - [Customer summary](customizer/configure-customer-summary.md)
@@ -111,13 +111,13 @@ More information: [Agents using Omnichannel for Customer Service app](agent/agen
 
 ### Developer experience
 
-- **Enable a bot to escalate and end conversation**: Omni-channel Engagement Hub provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent. More information: [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md).
+- **Enable a bot to escalate and end conversation**: Omnichannel for Customer Service provides developers the capability to integrate bots that can start a conversation with a customer and if required, programmatically escalate the conversation to a human agent. More information: [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md).
 
-- **Extend Omni-channel Engagement Hub app for agents:** The Omni-channel Engagement Hub app is built on the Unified Interface framework, which enables the developers to customize and extend the third-party applications. These applications are shown in the application tab menu.
+- **Extend Omnichannel for Customer Service app for agents:** The Omnichannel for Customer Service app is built on the Unified Interface framework, which enables the developers to customize and extend the third-party applications. These applications are shown in the application tab menu.
 
 ##  What's new in March 2019 update
 
-This topic contains information about updates in Omni-channel Engagement Hub available in this version.
+This topic contains information about updates in Omnichannel for Customer Service available in this version.
 
 ### Administrator experience
 
@@ -138,8 +138,8 @@ This topic contains information about updates in Omni-channel Engagement Hub ava
 
 ### Developer experience
 
-- **Live chat SDK**: Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals. More information: [Live chat SDK JavaScript API reference](developer/omni-channel-reference.md).
+- **Live chat SDK**: Use the Live Chat JavaScript APIs to programmatically control the visibility of the live chat widget, pass additional user context, and enable user identification when hosting the widget on custom websites or portals. More information: [Live chat SDK JavaScript API reference](developer/omnichannel-reference.md).
 
 ### See also
 
-[Upgrade Omnichannel for Customer Service](administrator/upgrade-omni-channel.md)
+[Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
