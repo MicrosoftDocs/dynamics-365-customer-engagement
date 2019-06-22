@@ -37,7 +37,7 @@ Omnichannel for Customer Service is a customizable application, that you can eff
 You can view the entities in the **Omnichannel Administration** site map.
 
   > [!div class=mx-imgBorder] 
-  > ![Omnichannel sitemap](../media/omnichannel-sitemap.png)
+  > ![Omnichannel sitemap](../media/omni-channel-sitemap.png)
 
 ## In this section
 
