@@ -32,7 +32,7 @@ To sign in to Omnichannel for Customer Service, do the following:
     ![Sign in to Omnichannel for Customer Service](../../media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md) 
+> [Next topic: Introduction to the agent interface](oceh-introduction-agent-interface.md) 
 
 ## See also
 

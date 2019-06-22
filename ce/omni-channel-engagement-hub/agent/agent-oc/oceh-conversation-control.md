@@ -173,7 +173,7 @@ To learn more, see [Monitor real-time customer satisfaction levels](oceh-monitor
 
 ## See also
 
-- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
 - [Manage sessions](oceh-manage-sessions.md)
 - [Manage applications](oceh-manage-applications.md)
 - [Manage presence status](oceh-set-user-presence-status.md)

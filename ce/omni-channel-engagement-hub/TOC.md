@@ -58,7 +58,7 @@
 ### Agents using Omnichannel for Customer Service app
 #### [Overview](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 #### [Sign in to Omnichannel for Customer Service app](agent/agent-oc/oceh-sign-dynamics-365-customer-service-hub.md)
-#### [Introduction to the agent interface](agent/agent-oc/oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
+#### [Introduction to the agent interface](agent/agent-oc/oceh-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oceh-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oceh-manage-applications.md)
 #### [View agent dashboard and work items](agent/agent-oc/oceh-omni-channel-agent-dashboard.md)

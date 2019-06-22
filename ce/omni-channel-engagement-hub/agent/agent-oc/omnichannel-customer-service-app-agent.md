@@ -28,7 +28,7 @@ The Omnichannel for Customer Service application on a web browser provides a uni
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service.
 
 - [Sign in to Omnichannel for Customer Service](oceh-sign-dynamics-365-customer-service-hub.md)
-- [Introduction to the agent interface](oceh-introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface](oceh-introduction-agent-interface.md)
 - [View agent dashboard and work items](oceh-omni-channel-agent-dashboard.md)
 - [View communication panel](oceh-conversation-control.md)
 - [Manage presence status](oceh-set-user-presence-status.md)
