@@ -267,7 +267,7 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/en-us/dy
 
 After you complete the common tasks, you must perform the tasks defined in this section to complete the configuration for Intraday insights dashboard for **Omnichannel for Customer Service**.
 
-## Configure supervisor dashboard in Omnichannel for Customer Service
+### Configure supervisor dashboard in Omnichannel for Customer Service
 
 To view the supervisor dashboards in **Omnichannel for Customer Service**, you must add the Power BI reports to your app.
 
@@ -292,7 +292,7 @@ To view the supervisor dashboards in **Omnichannel for Customer Service**, you m
 
     The supervisor dashboard is added to **Omnichannel for Customer Service**.
 
-## Share dashboard in Omnichannel for Customer Service
+### Share dashboard in Omnichannel for Customer Service
 
 You must share the Intraday insights dashboard with supervisors in your organization to access the dashboard in **Omnichannel for Customer Service**. To share the dashboard, follow these steps:
 
