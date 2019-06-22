@@ -44,4 +44,4 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 [Introduction to Omnichannel for Customer Service](../introduction-omnichannel.md)<br />
 [Omnichannel for Customer Service for administrators](../administrator/omnichannel-administrator.md)<br />
 [Omnichannel for Customer Service for system customizers](../customizer/omnichannel-customizer.md)<br />
-[Omnichannel for Customer Service for agent](../agent/omnichannel-agent-overview.md.md)
+[Omnichannel for Customer Service for agent](../agent/omnichannel-agent-overview.md)

@@ -53,6 +53,6 @@ If you are using Omnichannel for Customer Service on Unified Service Desk, refer
 
 [Enable SMS channel](omnichannel-provision-license.md#enable-sms-channel)
 
-[Pre-requisites and system requirements of Omnichannel for Customer Service - Preview](../system-requirements-omnichannel-engagement-hub.md)
+[Pre-requisites and system requirements of Omnichannel for Customer Service - Preview](../system-requirements-omnichannel.md)
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
