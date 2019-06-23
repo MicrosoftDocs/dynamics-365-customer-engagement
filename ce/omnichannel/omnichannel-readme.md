@@ -28,29 +28,6 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 If you are using Omnichannel for Customer Service app, then the **Send Link** button in the **KB Search Page** control appears in english for other locales and is not localized.
 
-## Dashboards don't appear in Omnichannel for Customer Service active dashboards view
-
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard.
-
-### Workaround
-
-As a system customizer or administrator, you must manually add these dashboards using app designer.
-
-To work around the issue, follow these steps:
-
-1. Go to `https://<orgURL>.dynamics.com/apps`.
-2. Select the ellipsis (**...**) button in the **Omnichannel for Customer Service** app tile. <br>
-    ![Sign in to Omnichannel for Customer Service](media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
-3. Select **OPEN IN APP DESIGNER**. The App Designer opens in a new tab.
-4. Select **Dashboards** in the canvas area. The **Components** pane in the right side shows the list of **Classic Dashboards** and **Interactive Dashboards**.
-5. Select the following dashboards under **Interactive Dashboards**.<br>
-    - Knowledge Manager
-    - My Knowledge Dashboard
-    - Tier 1 Dashboard
-    - Tier 2 Dashboard <br>
-    ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
-6. Select **Save** and then select **Publish**.
-
 ## Upgrade doesn’t start if the organization name is changed
 
 If you change the organization name, the upgrade process doesn’t start, and an internal server error is displayed. To begin the upgrade, rename the organization to its original name.
