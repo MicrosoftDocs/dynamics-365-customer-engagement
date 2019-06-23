@@ -192,7 +192,7 @@ The issue is due to the package deployment failure.
 
 ## Resolution:
 
-Deploy the Unified Service Desk - Omnichannel for Customer Service package. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
+Deploy the Unified Service Desk - Omnichannel for Customer Service package. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk-–-omnichannel-for-customer-service-package).
 
 ## An error occurred in the communication panel
 
