@@ -90,7 +90,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
    | Title | Type the title of record. |
    | Value | The website domain where the chat widget must be displayed. The domain format should not include the protocol (http or https). For example, the website is  `https://contoso.microsoftcrmportals.com`. Now, the value is  `contoso.microsoftcrmportals.com`. | 
 9. Select **Save** to save the record.
-10. Go to the website and try to check if the chat widget loads.
+10. Go to the website and check if the chat widget loads.
 
 ## Dashboards don't appear in Omnichannel for Customer Service active dashboards view
 
