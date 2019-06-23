@@ -161,7 +161,7 @@ After you delete the solutions, import the Unified Service Desk - Omnichannel fo
 To delete the solutions, follow these steps:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
-2. Choose **Settings** > **Solutions** on the nav bar,
+2. Choose **Settings** > **Solutions** on the nav bar.
 4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
    - USDUnifiedInterfaceCustomization
@@ -213,3 +213,41 @@ When you enter different credentials, this issue occurs.
 If you use **IE process** to host applications, open Internet Explorer browser, and go to http://login.microsoftonline.com/logout.srf. The URL signs you from office.com. Now, sign in to Unified Service Des client application and try again. 
 
 If you use **Chrome process** to host applications, go to `C:\Users\<USER_NAME>\AppData\Roaming\Microsoft\USD` and delete the **CEF** folder. Now, sign in to Unified Service Des client application and try again. 
+
+## Communication panel doesn't load in Omnichannel for Customer Service app
+
+### Issue:
+
+Communication panel doesn't load in Omnichannel for Customer Service app:
+
+- When a record doesn't exist in the Channel Integration Framework app.
+- When configurations don't sync.
+
+### Resolution:
+
+- Create a Channel Integration Framework record with the following values. 
+
+   | Field | value |
+   |---------------------|--------------------------------------------------|
+   | Name | Omnichannel |
+   | Label | Omnichannel |
+   | Channel URL | <Chat control cdn url>?uci=true&env=<env>&ocBaseUrl=<oc endpoint>&ucilib=<crm org url>/webresources/Widget/msdyn_ciLibrary.js |
+   | Enable Outbound Communication | No |
+   | Channel Order | 0 |
+   | API Version | 1.0 |
+   | Select Unified Interface Apps for the Channel | Omnichannel for Customer Service |
+   | Select the Roles for the Channel | <li>Omnichannel administrator</li>  <li>Omnichannel agent</li> <li>Omnichannel supervisor</li> |
+
+   To know how to create a record, see [Configure a channel provider for your Dynamics 365 organization](/dynamics365/customer-engagement/developer/channel-integration-framework/configure-channel-provider-channel-integration-framework)
+
+- To sync the configurations, remove the channel and roles, add it again and save the record.
+
+   1. Sign-in to Dynamics 365 for Customer Engagement apps.
+   2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+   3. Select the **Omnichannel** record from the list.
+   4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
+   5. Add **Omnichannel for Customer Service** again in the **Select Unified Interface Apps for the Channel** section.
+   5. Remove **Omnichannel agent**, **Omnichannel supervisor**, and **Omnichannel administrator** from the **Select the Roles for the Channel** section.
+   6. Add **Omnichannel agent**, **Omnichannel supervisor**, and **Omnichannel administrator** again in the **Select the Roles for the Channel** section.
+   7. Select **Save** to save the record.
+   8. Sign in to Omnichannel for Customer Service app and check if the communication panel loads.
