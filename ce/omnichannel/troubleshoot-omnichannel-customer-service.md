@@ -38,9 +38,9 @@ Open Chat Settings, navigate to Design tab and change **Logo** field and use an 
 
 ### Issue
 
-A message stating "Sorry, we're not able to serve you at the moment" is shown to the customers when they start a chart on the portal. The possible issues might be: 
-- Agents not configured in the Queue: 
-- Allowed Presence is not updated in the Live Work Stream: The default work streams which are shipped out-of-the-box, does not have **Allowed Presence** values in the Live Work stream.
+A message stating **Sorry, we're not able to serve you at the moment** is shown to the customers when they start a chart on the portal. The possible issues might be: 
+- Agents not configured in the Queue.
+- Allowed Presence is not updated in the work stream: The default work streams that are shipped out-of-the-box, does not have **Allowed Presence** values in the work stream.
 
    > [!div class=mx-imgBorder]
    > ![Sorry, we are not able to serve you at this moment message on portal chat widget](media/oceh/chat-widget-not-able-serve.png "Sorry, we are not able to serve you at this moment")
@@ -52,7 +52,7 @@ A message stating "Sorry, we're not able to serve you at the moment" is shown to
  1. Sign in to Omnichannel for Customer Service.
  2. Go to **Queues & Users** > **Queues**
  3. Select the queue from the list.
- 4. In the **Users (Agents)** section, select **Add Existing User **to add existing agents to the queue.
+ 4. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
  5. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
  6. Select **Save** to save the record.
 
