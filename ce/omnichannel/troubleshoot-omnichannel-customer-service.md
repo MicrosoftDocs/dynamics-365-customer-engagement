@@ -21,11 +21,11 @@ Use the following list of troubleshooting topics to quickly find information to 
 
 ### Issue: 
 
-Chat icon does not load on the portal. The chat icon URL which was configured as default in Jan release, does not work anymore.
+Chat icon doesn't load on the portal. The chat icon URL which was configured as default doesn't load.
 
 ### Resolution:
 
-Open Chat Settings, navigate to Design tab and change "logo" field and use an Icon URL which works.
+Open Chat Settings, navigate to Design tab and change **Logo** field and use an icon URL of your choice.
 
 1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** > **Chat**.
@@ -84,7 +84,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 5. Select a record in the **Widget Location** section, and select **Delete**.
 6. Select **Save**.
 7. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
-8. Specify the following.
+8. Specify the following.<br>
    | Field | Value |
    |---------------------------|-----------------------------------------|
    | Title | Type the title of record. |
@@ -179,7 +179,7 @@ To delete the solutions, follow these steps:
 
 ## Unable to launch Unified Service Desk client application
 
-## Issue:
+### Issue:
 
 When you sign in to Unified Service Desk, you see the following error. 
 
@@ -190,13 +190,13 @@ When you sign in to Unified Service Desk, you see the following error.
 
 The issue is due to the package deployment failure.
 
-## Resolution:
+### Resolution:
 
 Deploy the Unified Service Desk - Omnichannel for Customer Service package. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk-–-omnichannel-for-customer-service-package).
 
 ## An error occurred in the communication panel
 
-## Issue: 
+### Issue: 
 
 After you sign in to Unified Service Desk, you see the following error message.
 
@@ -206,7 +206,7 @@ After you sign in to Unified Service Desk, you see the following error message.
 While signing in to Unified Service Desk you must enter the Customer Engagement apps credentials and sign in, and again, you are shown a dialog to enter credentials to connect to Customer Engagement server. 
 The difference in the credentials you entered to sign in to the Unified Service Desk client application and Customer Engagement server causes the issue.
 
-## Resolution:
+### Resolution:
 
 If you are using **IE process** to host applications, open Internet Explorer browser, and go to http://login.microsoftonline.com/logout.srf to logout from office.com. 
 
