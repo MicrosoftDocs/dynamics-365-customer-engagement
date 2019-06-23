@@ -160,7 +160,7 @@ After you delete the solutions, import the Unified Service Desk - Omnichannel fo
 
 To delete the solutions, follow these steps:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 2. Choose **Settings** > **Solutions** on the nav bar,
 4. Select one of the solutions on the **Solutions** page by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
    - USDISHCustomization or USDWebClientCustomization (one of these solutions would be present depending on the org template)
@@ -192,7 +192,7 @@ The issue is due to the package deployment failure.
 
 ## Resolution:
 
-Deploy the Unified Service Desk - Omnichannel for Customer Service package. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator\omnichannel-customer-service-package.md#deploy-unified-service-desk-–-omnichannel-for-customer-service-package).
+Deploy the Unified Service Desk - Omnichannel for Customer Service package. To learn more, see [Deploy Unified Service Desk – Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md#deploy-unified-service-desk---omnichannel-for-customer-service-package).
 
 ## An error occurred in the communication panel
 
