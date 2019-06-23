@@ -19,7 +19,7 @@ ms.custom:
 
 ### Agent experience
 
-- **Create and auto-link record to the conversation:** You can create a new create a new record in the Customer Summary page on the customer and case form. When you select the **+ New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
+- **Create and auto-link a record to the conversation:** You can create a new create a new record in the Customer Summary page on the customer and case form. When you select the **+ New** option, a corresponding form opens in a new tab. You can fill in the details and save the record and the record is auto-linked to the conversation.
 
     > [!div class=mx-imgBorder]
     > ![Create account, contact, and case](media/oceh/customer-summary-create-record.PNG "Create account, contact, and case")
