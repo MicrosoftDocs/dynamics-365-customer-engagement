@@ -228,17 +228,17 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 - Create a Channel Integration Framework record with the following values. 
 
    | Field | value |
-   |---------------------|--------------------------------------------------|
+   |-------------------------------------------|--------------------------------------------------|
    | Name | Omnichannel |
    | Label | Omnichannel |
-   | Channel URL | <Chat control cdn url>?uci=true&env=<env>&ocBaseUrl=<oc endpoint>&ucilib=<crm org url>/webresources/Widget/msdyn_ciLibrary.js |
+   | Channel URL | \<Chat control cdn url>?uci=true&env=<env>&ocBaseUrl=\<oc endpoint\>&ucilib=\<crm org url\>/webresources/Widget/msdyn_ciLibrary.js |
    | Enable Outbound Communication | No |
    | Channel Order | 0 |
    | API Version | 1.0 |
    | Select Unified Interface Apps for the Channel | Omnichannel for Customer Service |
    | Select the Roles for the Channel | <li>Omnichannel administrator</li>  <li>Omnichannel agent</li> <li>Omnichannel supervisor</li> |
 
-   To know how to create a record, see [Configure a channel provider for your Dynamics 365 organization](/dynamics365/customer-engagement/developer/channel-integration-framework/configure-channel-provider-channel-integration-framework)
+   To learn how to create a record, see [Configure a channel provider for your Dynamics 365 organization](/dynamics365/customer-engagement/developer/channel-integration-framework/configure-channel-provider-channel-integration-framework).
 
 - To sync the configurations, remove the channel and roles, add it again and save the record.
 
