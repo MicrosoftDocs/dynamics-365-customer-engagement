@@ -34,7 +34,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 6. Select **Save** and then select **Publish**.
 
 > [!div class="nextstepaction"]
-> [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
+> [Add or remove the fields in a form](add-remove-fields-form-section.md)
 
 ## See also
 
