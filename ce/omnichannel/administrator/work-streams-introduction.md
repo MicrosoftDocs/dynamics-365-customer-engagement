@@ -51,7 +51,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
             - **SMS** </br>
 
            > [!IMPORTANT]
-           > Entity channel is not supported in this release, please select other channel type. See [Readme](../omni-channel-readme.md) for more information
+           > Entity channel is not supported in this release, please select other channel type. See [Readme](../omnichannel-readme.md) for more information
 
       3. **Capacity**: Specify the units of capacity that are required to process a conversation for the work stream in the text box.
       
