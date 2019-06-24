@@ -127,11 +127,25 @@ In the following screenshot, travel time and distance calculations appear in the
 > [!NOTE]
 > If the work order requirement has a work location of **Location Agnostic** or if the schedule assistant work location filter is changed to **Location Agnostic**, then resources without locations will also be displayed along with resources that do have locations, except the booking will not calculate travel time.
 
-In the following screenshot, the work location is location agnostic and no travel times are displayed in results
+In the following screenshot, the work location is location agnostic and no travel times are displayed in results.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking a location agnostic requirement with no travel time](../field-service/media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
+
+Additionally, the **Auto Update Booking Travel** feature (Field Service v8.6+) will update subsequent bookings when using the schedule assistant.
+
+In the following screenshot, you'll see a resource's schedule with time available at the beginning of the day, perhaps due to a cancellation.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of bookings on schedule board](../field-service/media/scheduling-travel-time.png)
+
+When the schedule assistant is triggered, it finds the available time slot.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of scheduling work order before other bookings with schedule assistant](../field-service/media/scheduling-travel-time-schedule-assistant.png)
+
+After it's booked, the travel time of the subsequent booking is updated as the location has changed.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of travel time of subsequent booking being updated](../field-service/media/scheduling-travel-time-schedule-assistant-update-subsequent.png)
 
 ## Add travel time with Resource Scheduling Optimization
 
