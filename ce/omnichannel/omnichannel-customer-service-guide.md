@@ -91,21 +91,18 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="developer/bot-escalate-end-conversation.md" data-raw-source="[Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)">Enable a bot to escalate and end conversation</a></li>
 <li><a href="developer/omnichannel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omnichannel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
 </td>
-
-
 </tr>
 
 <tr>
+
 <td>
-
 <h2> Videos </h2>
-
 <li><a href=" " data-raw-source="[ ]( )">video 1</a></li>
 <li><a href=" " data-raw-source="[ ]( )">video 2</a></li>
 <li><a href="" data-raw-source="[ ]( )">video 3</a></li>
 <li><a href=" " data-raw-source="[ ]( )">video 4</a></li>
+</td>
 
 </tr>
-</td>
 
 </table>
