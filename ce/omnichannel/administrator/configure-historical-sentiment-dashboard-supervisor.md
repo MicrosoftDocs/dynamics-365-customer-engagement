@@ -13,7 +13,7 @@ ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
 ms.custom: 
 ---
 
-# Configuring Dynamics 365 omnichannel insights dashboard
+# Configure Dynamics 365 omnichannel insights dashboard
 
 Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. 
 

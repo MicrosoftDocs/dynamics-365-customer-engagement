@@ -61,7 +61,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm a supervisor  </h2>
 <li><a href="administrator/configure-intraday-dashboard-supervisor.md" data-raw-source="[Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)">Configure to view intraday insights dashboard</a></li>
-<li><a href="administrator/configure-historical-sentiment-dashboard-supervisor.md" data-raw-source="[Configuring Dynamics 365 omnichannel insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)">Configuring Dynamics 365 omnichannel insights dashboard</a></li>
+<li><a href="administrator/configure-historical-sentiment-dashboard-supervisor.md" data-raw-source="[Configure Dynamics 365 omnichannel insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)">Configure Dynamics 365 omnichannel insights dashboard</a></li>
 <li><a href="supervisor/intro-intraday-insights-dashboard.md" data-raw-source="[Introduction to Intraday insights dashboard](intro-intraday-insights-dashboard.md)">Introduction to Intraday insights dashboard</a></li>
 <li><a href="supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md" data-raw-source="[Introduction to Dynamics 365 omnichannel insights](dynamics-365-omnichannel-insights-dashboard.md)">Introduction to Dynamics 365 omnichannel insights</a></li>
 
