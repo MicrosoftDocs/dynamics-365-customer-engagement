@@ -12,9 +12,9 @@
 
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
-### [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)
+### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
 ### [Remove Omnichannel](administrator/remove-omnichannel.md)
-### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omnichannel.md)
+### [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
@@ -97,7 +97,7 @@
 #### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
 #### [View communication panel](agent/agent-usd/left-control-panel.md)
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
-#### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
+#### [View Omnichannel conversation and Omnichannel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 
 

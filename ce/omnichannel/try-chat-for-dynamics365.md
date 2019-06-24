@@ -39,7 +39,7 @@ You can start a 30-day trial of Chat with 25 user licenses. After signing up for
 Once you have the subscription of Chat and have assigned the licenses to the desired users, you can enable Chat in your organizations from Dynamics 365 admin center. 
 
 In Dynamics 365 admin center, go to the **Applications** tab, select the **Omnichannel for Customer Service application** and select **Configure**. This will guide you to enable Chat within one or more organizations that you may have. 
-For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md).
+For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
 ## Configure chat in your organization
 
@@ -48,5 +48,5 @@ For more information on configuring Chat in Dynamics 365, see [Configure a chat 
 
 ### See also
 
-[Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)  
+[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
 [Configure a chat channel](administrator/set-up-chat-widget.md)
