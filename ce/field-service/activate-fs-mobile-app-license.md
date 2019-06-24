@@ -1,5 +1,5 @@
 ---
-title: "Activate Field Service Mobile Configurator | MicrosoftDocs"
+title: "Activate Field Service mobile configurator | MicrosoftDocs"
 ms.custom: dyn365-fieldservice
 ms.date: 06/21/2019
 ms.reviewer: krbjoran
@@ -11,8 +11,8 @@ ms.topic: activate-fs-mobile-app-license
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: shellyhaverkamp
-ms.author: FieldServiceDave
+author: FieldServiceDave
+ms.author: daclar
 ms.manager: shellyhaverkamp
 search.audienceType: 
   - admin
@@ -23,7 +23,7 @@ search.app:
   - D365FS
 ---
 
-# Activate Field Service Mobile Configurator
+# Activate Field Service mobile configurator
    
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,7 +38,7 @@ Complete the [form to request an activation of the mobile configurator](https://
 
 ## Additional notes
 
-To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
+- To find out your **trial end date**, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
 
   > ![OrgID](media/woodford-expiration.png)  
 
