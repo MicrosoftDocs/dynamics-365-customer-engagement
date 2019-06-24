@@ -54,7 +54,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 ### See also
 
--  [Configure intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md)
+-  [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md)
 
 -  [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
 
