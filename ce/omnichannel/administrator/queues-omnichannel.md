@@ -34,7 +34,7 @@ There is a default Omnichannel queue for each organization. Admins can't delete 
   > [!NOTE]
   > When no queues or routing rules are defined, all conversations are collected in the **Default** queue.
 
-## Create a new Omnichannel queue
+## Create a new queue
 
 Follow these steps to create a new Omnichannel queue.
 

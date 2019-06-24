@@ -24,6 +24,60 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Customer Summary page shows default icons
+
+If your organization is using public preview of chat for Dynamics 365 and you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon.
+
+## Entity routing conversations aren’t routed
+
+Omnichannel routing service doesn't route the entity routing conversations as the Common Data Service Entity routing is not used any more.
+
+After you upgrade: 
+- Any existing CDS entity channel and work stream configurations will become obsolete.  
+- You can't create any new CDS entity work stream. 
+- You can access existing CDS entity work stream configuration records, but those configurations are disabled. 
+- CDS Entities can't be routed using omnichannel routing and work-distribution.
+
+## Existing queues don't appear in the Omnichannel queues/Dashboards view
+
+After you upgrade, your Existing queues don't appear in the Omnichannel queues/Dashboards view. The issue is due to removal of omnichannel specific queue entity, which is replaced with the Common Data Service (CDS) queue entity. This queue will be used for omnichannel routing and work distribution.
+
+After you upgrade, you may experience the following:
+
+- All your existing omnichannel queue configurations becomes obsolete. 
+- All existing active conversations will be closed and moved to CDS-T.
+
+### Workaround
+
+-   You must manually configure the queues. Ensure that you capture your existing omnichannel queue record configurations before the upgrade. If you've already upgraded, you can access previous omnichannel queue records from a URL by replacing `etn=queue` with `etn=msdyn_omnichannelqueue` from queue grid page. 
+
+    For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist`, now add `etn=queue` with `etn=msdyn_omnichannelqueue` to the URL.
+
+    `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=queue&etn=msdyn_omnichannelqueue`.
+
+    Now, to configure the queues, In the omnichannel site map, select **Queues** and select **New** to create a new queue. Provide the required information and save the queue. After saving, add users to the queues. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue. Repeat the steps to configure all queue configurations.
+
+    To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue)
+
+    > [!Note]
+    > Default queue is created automatically, and you need not reconfigure it manually.
+
+- Update the existing routing rules to the Common Data Service queue records.
+
+    After you upgrade, the old queue records will be removed from the **Queue** field in routing rules. You need to update the **Queue** field with the newly created CDS queue records.
+
+    To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
+
+    > [!Note]
+    > After you save the configurations, it may take up to 15 mins to reflect.
+
+### Validate
+
+As a supervisors, you must setup and validate the dashboard filters. 
+- The issue impacts the existing queue filters on the dashboards. 
+- The existing queue filters setup on conversation dashboard becomes obsolete after the upgrade. 
+- Supervisors need to setup the filters again on new queue records.
+
 ## Send Link button in the KB Search Page is not localized 
 
 If you are using Omnichannel for Customer Service app, then the **Send Link** button in the **KB Search Page** control appears in english for other locales and is not localized.
