@@ -113,13 +113,12 @@
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
-### Customize the Customer summary form
+### Customize sections in the Customer summary form
 #### [Overview](customizer/customize-customer-360-page.md)
 #### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
-#### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
 #### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
 
-### [Customize the conversation forms](customizer/customize-conversation-form.md)
+### [Customize the session forms](customizer/customize-conversation-form.md)
 
 ### Unified Service Desk settings
 

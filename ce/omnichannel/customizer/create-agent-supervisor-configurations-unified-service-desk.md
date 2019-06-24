@@ -24,15 +24,15 @@ A configuration in Unified Service Desk helps you filter access to components th
 
 2.  Go to **Settings** > **Unified Service Desk**.
 
-3.  Click **Configuration**.
+3.  Select **Configuration**.
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  On the **New Configuration** page, in the **Name** field, type **Omnichannel Agent Configuration** and then select **Save**.
 
 6.  Now, repeat the step 4 and 5 to create **Omnichannel Supervisor Configuration**.
 
-Omnichannel Supervisor Configuration
+Omnichannel Agent Configuration
 
  > [!div class=mx-imgBorder]
  > ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
@@ -50,6 +50,5 @@ Omnichannel Supervisor Configuration
 - [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-360-page.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
 - [Add or remove the fields in the form](add-remove-fields-form-section.md)
 - [Customize the conversation form](customize-conversation-form.md)

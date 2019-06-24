@@ -1,6 +1,6 @@
 ---
-title: "Modify the position or alignment of the form (card) in the Customer summary form | MicrosoftDocs"
-description: "Learn how to modify the position or alignment of the form (card) in the Customer summary form"
+title: "Modify the position or alignment of the section in the Customer summary form | MicrosoftDocs"
+description: "Learn how to modify the position or alignment of the section in the Customer summary form"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 9b0d8dfb-3c40-4e15-9fe1-17d02f07d38d
 ms.custom: 
 ---
-# Modify the position or alignment of a form (card) in the Customer summary
+# Modify the position or alignment of a section in the Customer summary
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -29,12 +29,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  > [!div class=mx-imgBorder]
  > ![modify cusomter 360 form section](../media/oc-crm-modify-customer360form.png "Modify cusomter 360 form section")  
 
-5. Drag and drop the form (card) in the order you want to align.
+5. Drag and drop the section in the order you want to align.
 
 6. Select **Save** and then select **Publish**.
 
 > [!div class="nextstepaction"]
-> [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+> [Add or remove the fields in a form](add-remove-fields-form-section.md)
 
 ## See also
 
