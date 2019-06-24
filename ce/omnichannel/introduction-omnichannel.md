@@ -38,7 +38,7 @@ The enterprise-grade routing and work distribution engine allows customers to co
 - [Quickly configure a chat widget](administrator/configure-live-chat.md)
 - [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 - [Administrators guide](administrator/omnichannel-administrator.md)
-- [Agents using Unified Service Desk](agent/agent-usd/omni-channel-engagement-hub-agent.md)
+- [Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
 - [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 - [System customizers guide](customizer/omnichannel-customizer.md)
 - [Developer guide](developer/omnichannel-developer.md)
