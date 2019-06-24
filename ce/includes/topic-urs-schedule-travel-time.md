@@ -133,9 +133,9 @@ In the following screenshot, the work location is location agnostic and no trave
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking a location agnostic requirement with no travel time](../field-service/media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
-Additionally, the **Auto Update Booking Travel** feature mentioned above (Field Service v8.6+), will update subsequent bookings when using the schedule assistant.
+Additionally, the **Auto Update Booking Travel** feature (Field Service v8.6+) will update subsequent bookings when using the schedule assistant.
 
-In the screenshot below, see a resource's schedule with time available at the beginning of the day, perhaps due to a cancellation.
+In the following screenshot, you'll see a resource's schedule with time available at the beginning of the day, perhaps due to a cancellation.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of bookings on schedule board](../field-service/media/scheduling-travel-time.png)
 
@@ -143,7 +143,7 @@ When the schedule assistant is triggered, it finds the available time slot.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of scheduling work order before other bookings with schedule assistant](../field-service/media/scheduling-travel-time-schedule-assistant.png)
 
-After it is booked, the travel time of the subsequent booking is updated as the location has changed.
+After it's booked, the travel time of the subsequent booking is updated as the location has changed.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of travel time of subsequent booking being updated](../field-service/media/scheduling-travel-time-schedule-assistant-update-subsequent.png)
 
