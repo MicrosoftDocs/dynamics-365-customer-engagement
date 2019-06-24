@@ -206,7 +206,7 @@
       - name: Supported types, triggers, entities, and actions for processes
         href: supported-types-triggers-entities-actions-processes.md
       - name: Custom workflow activities (workflow assemblies)
-        href: workflow/
+        href: custom-workflow-activities-workflow-assemblies.md
       - name: Model business process flows
         href: model-business-process-flows.md
         items:
@@ -541,6 +541,8 @@
       href: integration-dev/sample-retrieve-absolute-url-and-site-collection-url-of-a-location-record.md
   - name: Integrate with OneNote
     href: integration-dev/integrate-onenote.md
+  - name: Integrate with Microsoft Teams
+    href: integration-dev/teams-integration-using-code.md
 - name: Model your business data
   href: model-business-data.md
   items:

@@ -2,7 +2,7 @@
 title: "Find more relevant content in Social Engagement | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
 keywords: search optimization, search topic, search rule
-ms.date: 10/17/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 8ce8506f-179d-4eae-a56a-e9293e935d26
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Refine your search rules to find relevant content
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Analyze your results and optimize your search queries regularly to make sure you get the most relevant data. Your searches may return posts that are irrelevant in the context you are looking for. For example, if you want to search for the [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] operating system and have “Windows” as your search keyword, you are likely to find results about house windows. In this case, consider adding “OS” or similar terms to make sure you’re searching for the operating system.  
   
 > [!TIP]

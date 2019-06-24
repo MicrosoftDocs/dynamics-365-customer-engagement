@@ -1,14 +1,14 @@
 ---
 title: "Work with the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to share posts and view insights from your personalized feed in Social Selling Assistant."
-ms.date: 09/12/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: Social Engagement
 ms.assetid: 689020c7-0790-47a1-996c-040d052a81de
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -20,6 +20,8 @@ search.app:
   - D365SE
 ---
 # Work with the Social Selling Assistant
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 After personalizing the Social Selling Assistant for your individual use-case, you can start using it to discover and share posts that are of interest for your audience
 

@@ -49,7 +49,7 @@ To create a segment based on interaction records:
 
 1. Select **New** on the command bar to create a new segment.
 
-1. Give the new segment a suitable **Name** on the **General** tab, set its **Segment type** to **Dynamic**, and then open its **Definition** tab.
+1. Enter a suitable **Name** for the new segment using the field at the top of the form.
 
 1. Your new segment already has a query group set to the **Contact** entity. Select the combo box next to this (currently showing a value of **All\*)** and start to type the name of the interaction you want to look for; a drop-down list will open and quickly shrink to show contact fields and interaction types with names that match your text. For example, type "email" to list all available email interactions, "event" to list event interactions, or "form" to list form interactions. If you're not sure what to look for, you can just scroll through the list to find a likely match under the **Interactions** heading near the bottom of the menu.
 
@@ -97,4 +97,5 @@ Often, you'll want to find interactions associated with a specific form, custome
 
 ### See also
 
-[Working with segments](segmentation-lists-subscriptions.md)
+[Working with segments](segmentation-lists-subscriptions.md)  
+[Generate dynamic segments from customer journey results](generate-segment-from-journey.md)

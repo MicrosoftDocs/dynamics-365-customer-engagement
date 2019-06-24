@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Social Engagement."
 keywords: ease of access, accessibility, a11y, screen reader, color patterns
-ms.date: 09/26/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -11,7 +11,6 @@ ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-topic-status: Drafting
 ms.custom: 
   - dyn365-a11y
   - dyn365-socialengagement
@@ -25,6 +24,8 @@ search.app:
 ---
 
 # Accessibility for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 [Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
