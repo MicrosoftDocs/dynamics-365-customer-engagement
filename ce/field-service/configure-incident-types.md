@@ -219,27 +219,32 @@ The primary incident type field is a great way to define the main purpose of a w
 
 Go to **Related > Incidents > +New Incident Type** and add another incident. 
 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-add-multiple-form.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-incident-type-add-multiple.png)
 
 Though the primary incident estimated duration will not change, the duration of the related resource requirement will be increased by the new incident's duration. 
 
 Below we can see the requirement duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-add-multiple-requirement.png)
 
 Back on the Work Order, the second incident's products, services, and service tasks were added as well. It is common for incident types to have overlapping service tasks, and duplicates will be added so consider if this is right for your business processes.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-add-multiple-products.png)
 
 The order of the service tasks reflects the order in which incidents are added.
 
 When attempting to book a work order with multiple incidents, the schedule assistant and resource scheduling optimization will look for a single resource with time availability to complete all incidents and has all the matching characteristics. In the case of the schedule assistant, these filters can be edited at the time of scheduling as needed. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-add-multiple-schedule-assistant.png)
 
 ## Use customer assets with incident types
 
@@ -248,14 +253,14 @@ Another great feature of incident types is they can be related to customer asset
 For the primary incident type, simply populate the **primary incident customer asset** field. This field is filtered to only show customer assets related to the work order service account by default. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-customer-seet-work-order.png)
 
 For other work order incident types, go to the **Incident Relates To** section and associate a customer asset.
 
 Once a work order incident and customer asset are associated, you will see the work order on the customer asset record, along with all previous work orders related to the asset. This could be displayed on the mobile app for field technicians to better understand the history of the part they are working on.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-customer-seet.png)
 
 
 ## Incidents for multi-resource scheduling
@@ -293,7 +298,7 @@ If set to no they will not.
 - Crews will display in schedule assistant results for work orders with multiple incidents because the system views crews as a single resource. CUrrently, resource scheduling optimization does not schedule crews.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/work-order-incident-type-add-multiple-crew.png)
 
 ### Understanding incident entities
 
