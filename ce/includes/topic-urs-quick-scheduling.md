@@ -9,8 +9,8 @@ This is useful in several scenarios:
 
 1. Organizations with a high volume of bookings that they need to quickly schedule.
 2. Organizations with call center workers, who may need to schedule while on the phone with customers, and need to do so quickly to respect the caller's time. 
-3. Organizations whose schedulers do not need to see the extra details of the schedule assistant or manipulate the filters to make a resource assignment, but simply need the schedule assistant logic working "behind the scenes" as they quickly understand availability.
-4. For people whom scheduling is not their primary job. For example, a customer service rep spends most of his or her time handling customer issues, and the few times he or she needs to schedule, it should be quick and easy.
+3. Organizations with schedulers who don't need to see the extra details provided by the schedule assistant or manipulate the filters to make a resource assignment.
+4. For people in scenarios where scheduling is not their primary job. For example, a customer service representative spends most of his time handling customer issues, and the few times he needs to schedule, it should be quick and easy.
 
 When quick scheduling is not enabled, the book button defaults to the full schedule assistant experience that displays additional information and filter options for more comprehensive resource assigning.
 
@@ -31,9 +31,9 @@ When quick scheduling is not enabled, the book button defaults to the full sched
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Enable Quick Book set to "Yes"](../field-service/media/scheduling-enable-quick-book.png)
 
-In the previous example, we enabled quick book for the work order entity, meaning quick book will trigger from the work order form and requirements created by work orders. The process is the same for enabling quick booking for the other entities you have enabled for scheduling. 
+In the previous example, we enabled quick book for the work order entity, meaning quick book will trigger from the work order form and requirements created by work orders. The process is the same for enabling quick booking for other entities you have enabled for scheduling. 
 
-Having said that, not all scheduling relates to other entities. Some organizations use requirements on their own for scheduling. Organizations like this should enable quick book for the **Default Metadata Settings (none)** option.
+However, not all scheduling relates to other entities. Some organizations use requirements on their own for scheduling. Organizations like this should enable quick book for the **Default Metadata Settings (none)** option.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the "Default Metadata Settings (none) option selected in the enabled entities settings](../field-service/media/scheduling-quick-book-default-metadata-setting.png)
@@ -137,7 +137,7 @@ Lastly, as discussed in the [requirement groups topic](../field-service/multi-re
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the requirement group settings, showing different resource options](../field-service/media/scheduling-quick-book-rg-option.png)
 
-To utilize requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic. Additionally, you can use requirement groups for customer service scenarios. Check out the [service scheduling topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/basics-service-service-scheduling).
+To use requirement groups as part of the work order process, associate a requirement group template to an incident type. See more details in the [requirement groups for work orders](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders) section of the requirement groups topic. Additionally, you can use requirement groups for customer service scenarios. Visit the [customer service scheduling topic](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/basics-service-service-scheduling) to learn more.
 
 ## Configuration considerations
 
