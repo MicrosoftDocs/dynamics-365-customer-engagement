@@ -32,7 +32,7 @@ Omnichannel for Customer Service provides dashboards that help supervisors keep 
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app in Unified Service Desk:
 
-- **My dashboard**: This tab provides information about the conversations that you're handling, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](../agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub.md). 
+- **My dashboard**: This tab provides information about the conversations that you're handling, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](../agent/agent-oc/oc-introduction-agent-interface.md). 
 
 - **Intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. This dashboard is also known as Omnichannel intraday insights dashboard. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) .
 
