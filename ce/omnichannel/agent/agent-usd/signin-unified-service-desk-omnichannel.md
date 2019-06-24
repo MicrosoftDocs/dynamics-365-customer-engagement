@@ -42,9 +42,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 You signed in to Unified Service Desk - Omnichannel for Customer Service application.
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
+> [Next topic: Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
 
 ## See also
 
-- [Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
+- [Omni channel engagement hub for agent](omnichannel-agent.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)

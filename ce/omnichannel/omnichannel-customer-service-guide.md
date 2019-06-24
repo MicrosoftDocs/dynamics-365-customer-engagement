@@ -53,7 +53,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
 <li><a href="agent/agent-oc/oc-customer-summary.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oc-customer-summary.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
-<li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
+<li><a href="agent/agent-usd/customer-summary.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer-summary.md)">View customer summary (Unified Service Desk)</a></li>
 <li><a href="agent/agent-oc/oc-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oc-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
@@ -62,7 +62,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <h2> I'm a system customizer  </h2>
 
 <li><a href="customizer/omnichannel-customizer.md" data-raw-source="[Omnichannel system customizer](customizer/omnichannel-customizer.md)">Omnichannel system customizer</a></li>
-<li><a href="customizer/customize-customer-360-page.md" data-raw-source="[Customize the customer summary form](customizer/customize-customer-360-page.md)">Customize the customer summary form</a></li>
+<li><a href="customizer/customize-customer-summary.md" data-raw-source="[Customize the customer summary form](customizer/customize-customer-summary.md)">Customize the customer summary form</a></li>
 <li><a href="customizer/customize-conversation-form.md" data-raw-source="[Customize the session forms](customizer/customize-conversation-form.md)">Customize the conversation form</a></li>
 <li><a href="customizer/create-agent-supervisor-configurations-unified-service-desk.md" data-raw-source="[Create configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)">Create configurations in Unified Service Desk</a></li>
 <li><a href="customizer/configure-notification-screen-pop-agents.md" data-raw-source="[Configure notifications in Unified Service Desk](customizer/configure-notification-screen-pop-agents.md)">Configure notifications in Unified Service Desk</a></li>

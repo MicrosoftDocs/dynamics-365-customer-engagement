@@ -50,4 +50,4 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 
 ## See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)

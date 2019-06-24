@@ -31,7 +31,7 @@ Every organization has a unique way of working. Some organizations have well-def
 
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service for system customizer:
 
-- [Customize Customer summary form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-summary.md)
 - [Customize the conversation form](customize-conversation-form.md)
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 

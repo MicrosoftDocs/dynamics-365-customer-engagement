@@ -88,9 +88,9 @@ When no record is found in Omnichannel for Customer Service, you can create a co
 
 ## See also
 
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [View customer summary and know everything about customers](customer-summary.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)

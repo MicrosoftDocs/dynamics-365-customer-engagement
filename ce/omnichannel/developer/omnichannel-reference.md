@@ -41,4 +41,4 @@ The following JavaScript methods can be used to perform various operations with 
 
 ### See also
 
-[Omnichannel for Customer Service for developers](omni-channel-engagement-hub-developer.md)
+[Omnichannel for Customer Service for developers](omnichannel-developer.md)

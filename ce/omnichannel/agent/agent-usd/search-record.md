@@ -123,7 +123,7 @@ You can search for Omnichannel records by using the search functionality. When y
 
 ## See also
 
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary and know everything about customers](customer-summary.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)

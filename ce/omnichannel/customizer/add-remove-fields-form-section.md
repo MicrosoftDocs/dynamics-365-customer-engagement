@@ -56,7 +56,7 @@ You can also use the previous procedure to add or remove fields in other section
 ## See also
 
 - [Omnichannelsystem customizers](omnichannel-customizer.md)
-- [Customize Customer summary form](customize-customer-360-page.md)
+- [Customize Customer summary form](customize-customer-summary.md)
 - [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
