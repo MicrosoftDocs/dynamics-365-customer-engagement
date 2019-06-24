@@ -134,7 +134,7 @@ You must share the configured application with your entire organization so the s
 The app is now available to install for all individuals in your organization.
 
 > [!NOTE]
-> Verify that your administrator has allowed Omnichannel Engagement Hub to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omni-channel-provision-license.md).
+> Verify that your administrator has allowed Omnichannel Engagement Hub to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
 
 ## Step 6: Add Power BI Dashboard to Omnichannel Engagement Hub
 
