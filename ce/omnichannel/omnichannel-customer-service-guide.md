@@ -35,7 +35,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm an administrator </h2>
 
-<li><a href="administrator/omnichannel-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omnichannel-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
+<li><a href="administrator/omnichannel-administrator.md" data-raw-source="[Omnichannel administrator](administrator/omnichannel-administrator.md#how-to-topics)">Omnichannel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 <li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
 <li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat channel](administrator/set-up-chat-widget.md)">Configure a chat channel</a></li>
@@ -50,8 +50,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="agent/omnichannel-agent-overview.md" data-raw-source="[Omnichannel agent](agent/omnichannel-agent-overview.md)">Omnichannel agent</a></li>
 <li><a href="agent/agent-oc/omnichannel-customer-service-app-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-oc/omnichannel-customer-service-app-agent.md)">Use on Omnichannel for Customer Service</a></li>
-<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
+<li><a href="agent/agent-usd/omnichannel-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-usd/omnichannel-agent.md)">Use on Unified Service Desk</a></li>
 <li><a href="agent/agent-oc/oc-customer-summary.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oc-customer-summary.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
 <li><a href="agent/agent-usd/customer-summary.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer-summary.md)">View customer summary (Unified Service Desk)</a></li>
 <li><a href="agent/agent-oc/oc-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oc-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
