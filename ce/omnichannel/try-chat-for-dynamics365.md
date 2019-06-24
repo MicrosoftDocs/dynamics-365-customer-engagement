@@ -24,15 +24,15 @@ Chat for Dynamics 365 is an engagement channel that will enable your live agents
 
 1. Go to <https://portal.office.com> and sign in using administrator credentials. 
 
-2. Go to **Billing** > **Purchase Services**, and select *Add-on subscriptions*. 
+2. Go to **Billing** > **Purchase Services**, and select **Add-on subscriptions**. 
 
     You'll see Chat. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant, otherwise Chat will not be visible.
 
-    ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png) "Add-on subscriptions in Microsoft 365 admin center"
-
+    ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
+    
 You can start a 30-day trial of Chat with 25 user licenses. After signing up for a trial, you must assign licenses of Chat to the users who need to engage with customers and provide support via Chat. This can be done by selecting one or more Active users and editing their product licenses.
 
-    ![Product licenses dialog box](media/product-licenses-dialog-box.png "Product licenses dialog box)
+![Product licenses dialog box](media/product-licenses-dialog-box.png "Product licenses dialog box")
 
 ## Enable Chat in your organization
 
@@ -44,9 +44,9 @@ For more information on provisioning channels through the Dynamics 365 admin cen
 ## Configure chat in your organization
 
 Once Chat is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring Chat. 
-For more information on configuring Chat in Dynamics 365, see [Configure a chat channe](administrator/set-up-chat-widget.md).
+For more information on configuring Chat in Dynamics 365, see [Configure a chat channel](administrator/set-up-chat-widget.md).
 
 ### See also
 
 [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)  
-[Configure a chat channe](administrator/set-up-chat-widget.md)
+[Configure a chat channel](administrator/set-up-chat-widget.md)
