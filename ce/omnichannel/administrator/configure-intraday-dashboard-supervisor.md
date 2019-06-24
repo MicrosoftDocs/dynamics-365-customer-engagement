@@ -179,9 +179,8 @@ Follow these steps to configure Power BI dashboards.
 
     The following screen shows how to pin a visual to the dashboard.
 
-<!--need to get this image-->
    > [!div class=mx-imgBorder]
-   > ![](../media/ "")  
+   > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-to-dashboard.png "Pin a report on dashboard")  
 
 9.  Select **Set as featured** for the created dashboard.
 
@@ -298,11 +297,10 @@ You must share the Intraday insights dashboard with supervisors in your organiza
 
 1.  Sign in to **Dynamics 365 for Customer Service** and open **Omnichannel for Customer Service**.
 
-2.  From the dashboard view selector, under My Dashboards, select the Intraday insights dashboard that you want to share with supervisors. In this example, we are selecting Contoso updates.
+2.  From the dashboard view selector, under **My Dashboards**, select the intraday insights dashboard that you want to share with supervisors. In this example, we are selecting **Contoso**.
 
-<!--need to get this image-->
    > [!div class=mx-imgBorder]
-   > ![](../media/ "")  
+   > ![Select dashboard to share](../media/supervisor-admin-select-dashboard-to-share.png "Select dashboard to share")  
 
 3.  Select **Share Dashboard**.
 
@@ -331,3 +329,5 @@ You must share the Intraday insights dashboard with supervisors in your organiza
     The Intraday insights dashboard is shared with the users or teams that you have selected.
 
 ### See also
+
+[Introduction to Intraday insights dashboard](../supervisor/intro-intraday-insights-dashboard.md)
