@@ -35,7 +35,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <h2> I'm an administrator </h2>
 
-<li><a href="administrator/omnichannel-administrator.md" data-raw-source="[Omni-channel administrator](administrator/omnichannel-administrator.md#how-to-topics)">Omni-channel administrator</a></li>
+<li><a href="administrator/omnichannel-administrator.md" data-raw-source="[Omnichannel administrator](administrator/omnichannel-administrator.md#how-to-topics)">Omnichannel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 <li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
 <li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat channel](administrator/set-up-chat-widget.md)">Configure a chat channel</a></li>
@@ -50,10 +50,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="agent/omnichannel-agent-overview.md" data-raw-source="[Omnichannel agent](agent/omnichannel-agent-overview.md)">Omnichannel agent</a></li>
 <li><a href="agent/agent-oc/omnichannel-customer-service-app-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-oc/omnichannel-customer-service-app-agent.md)">Use on Omnichannel for Customer Service</a></li>
-<li><a href="agent/agent-usd/omni-channel-engagement-hub-agent.md" data-raw-source="[Agents using Unified Service Desk
-](agent/agent-usd/omni-channel-engagement-hub-agent.md)">Use on Unified Service Desk</a></li>
+<li><a href="agent/agent-usd/omnichannel-agent.md" data-raw-source="[Agents using Unified Service Desk
+](agent/agent-usd/omnichannel-agent.md)">Use on Unified Service Desk</a></li>
 <li><a href="agent/agent-oc/oc-customer-summary.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oc-customer-summary.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
-<li><a href="agent/agent-usd/customer360-overview-existing-challenges.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer360-overview-existing-challenges.md)">View customer summary (Unified Service Desk)</a></li>
+<li><a href="agent/agent-usd/customer-summary.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer-summary.md)">View customer summary (Unified Service Desk)</a></li>
 <li><a href="agent/agent-oc/oc-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oc-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
 <li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
@@ -62,7 +62,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <h2> I'm a system customizer  </h2>
 
 <li><a href="customizer/omnichannel-customizer.md" data-raw-source="[Omnichannel system customizer](customizer/omnichannel-customizer.md)">Omnichannel system customizer</a></li>
-<li><a href="customizer/customize-customer-360-page.md" data-raw-source="[Customize the customer summary form](customizer/customize-customer-360-page.md)">Customize the customer summary form</a></li>
+<li><a href="customizer/customize-customer-summary.md" data-raw-source="[Customize the customer summary form](customizer/customize-customer-summary.md)">Customize the customer summary form</a></li>
 <li><a href="customizer/customize-conversation-form.md" data-raw-source="[Customize the session forms](customizer/customize-conversation-form.md)">Customize the conversation form</a></li>
 <li><a href="customizer/create-agent-supervisor-configurations-unified-service-desk.md" data-raw-source="[Create configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)">Create configurations in Unified Service Desk</a></li>
 <li><a href="customizer/configure-notification-screen-pop-agents.md" data-raw-source="[Configure notifications in Unified Service Desk](customizer/configure-notification-screen-pop-agents.md)">Configure notifications in Unified Service Desk</a></li>

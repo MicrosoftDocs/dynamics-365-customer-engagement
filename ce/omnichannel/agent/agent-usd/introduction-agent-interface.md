@@ -130,9 +130,9 @@ The application management toolbar lets you see all the related information for 
 
 ## See also
 
-- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [View alert and toast notifications](notifications-screen-pop.md)
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omnichannel.md)
+- [View alert and toast notifications](notifications.md)
+- [View customer summary and know everything about customers](customer-summary.md)
 - [View communication panel](left-control-panel.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)

@@ -39,14 +39,14 @@ You can search for a KB article and open it as a tab on the Application tab mana
 > ![Omnichannel KB articles](../../media/oc-usd-kbartciles.png "Omnichannel KB articles")
 
 > [!div class="nextstepaction"]
-> [Next topic: View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
+> [Next topic: View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
 
 ## See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md) 
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md) 
+- [View customer summary and know everything about customers](customer-summary.md)
 - [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)

@@ -79,9 +79,9 @@ The details you’ll see for a SMS channel are:
  - Wait time
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+> [Next topic: View customer summary and know everything about customers](customer-summary.md)
 
 ## See also
 
 - [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)

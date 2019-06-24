@@ -87,9 +87,9 @@ This section displays the case- and customer-related activities in the form of a
 
 ## See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)

@@ -40,7 +40,7 @@ You must ensure the following conditions are met to onboard a bot to Omnichannel
 
 ## Engage a bot
 
-In order to send messages to Omni-channel Engagement Hub, you need to add the following code statement to the bot code.
+In order to send messages to Omnichannel for Customer Service, you need to add the following code statement to the bot code.
 
 ```csharp
 OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
@@ -196,7 +196,7 @@ namespace EchoBot.OmniChannel
 
 3. In the Bot ActivityHandler class, call the appropriate client method. The sample code is given below.
 
-Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omni-channel Engagement Hub. More information: [Engage a bot](#bkmk_EngageBot).
+Change the `escalate` and `endconversation` command criteria to something that suits your requirements. Add code `OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);` in your bot code to send messages to Omnichannel for Customer Service. More information: [Engage a bot](#bkmk_EngageBot).
 
 ```csharp
 using System;

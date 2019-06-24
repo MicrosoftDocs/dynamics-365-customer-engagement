@@ -30,4 +30,4 @@ Here are the error codes and error messages that are returned when using live ch
 ### See also
 
 [JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
-[Developer guide](../omni-channel-engagement-hub-developer.md)
+[Developer guide](../omnichannel-developer.md)
