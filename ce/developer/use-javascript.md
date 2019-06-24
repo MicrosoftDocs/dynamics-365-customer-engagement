@@ -2,7 +2,7 @@
 title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
 ms.custom: 
-ms.date: 01/10/2018
+ms.date: 06/24/2019
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -56,6 +56,10 @@ search.app:
  We recommend that you use jQuery together with HTML web resources to provide user interfaces because it is an excellent cross-browser library.  
   
  With HTML web resources, you control the libraries that are present and there is no restriction against manipulating the DOM. Feel free to use jQuery within your HTML Web resources.  
+ 
+ > [!NOTE]
+ > If the script reference to [ClientGlobalContext.js.aspx](/dynamics365/customer-engagement/developer/clientapi/reference/getglobalcontext-clientglobalcontext.js.aspx
+) is placed after your own jQuery reference, the ClientGlobalContext.js.aspx scripts will overwrite your previously loaded version of jQuery. To ensure this does not happen place the clientGlobalContext script reference prior to any other script references in your webresource.
   
  
   
