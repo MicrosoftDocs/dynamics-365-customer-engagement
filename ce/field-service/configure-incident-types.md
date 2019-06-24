@@ -279,12 +279,6 @@ When using incidents with Agreements, the incidents and related items are added 
 - When setting up incident types for the first time, it is recommended not to create too many too quickly as customers may end up using incident types differently than intended. As an example, a customer may perform a safety test on three different models of a machine. Rather than creating three safety test incidents, one for each model, simply start with one incident type that can be used on work orders for all three models. Then determine at a later date if more are needed.
 - By default, work order service tasks have a field called "% Complete" that field technicians can use to record their progress completing each service task. It is common to replace this field or add another field that is a simple yes or no field. It is also common to use custom Offline HTML and JavaScript on Field Service Mobile to prevent field technicians from completing a work order until all work order service tasks are complete. 
   
-
-
-
-To add additional value for customers, solution architects should consider 
-
-o	machine learning for duration
-o	bring IoT Alert and incident types together 
-
-Consider the Connected Field Service scenario where IoT alerts create work orders. If you correlate IoT alerts with incident types, your organization can have a situation where IoT alerts create work orders with much of the details filled in.
+### Maximizing Incidents
+- To add additional value for customers, solution architects should consider using Azure Machine Learning to improve the estimated durations of incidents types. This means adjusting the duration of incidents as they are completed based on the actual duration of the work order.
+- Furthermore, correlating incident types with IoT alerts generated from Connected Field Service can streamline issues and resolutions and improve the organizations first time fix rate.
