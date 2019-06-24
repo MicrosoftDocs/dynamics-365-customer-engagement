@@ -243,20 +243,19 @@ There are a few important notes when utilizing incidents with requirement groups
 For more information see the topic on [requirement groups for work orders](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
 
 
-
 > [!Note]
-> **Multiple incidents vs. requirement group templates:** If you know a work order should be performed by multiple resources, it is highly recommended to use requirement group templates compared to multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. When attempting to book the work order, the system will look for a single resource (including crews) to fulfill the job. The scheduler would need to do extra work to schedule it to two different resources to arrive at the same time. However, if you utilize a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time. 
+> **Multiple incidents vs. requirement group templates:** If you know a work order should be performed by multiple resources, it is highly recommended to use requirement group templates compared to multiple incident types. Let's say you have a work order with two incident types, each requiring different skills. When attempting to book the work order, the system will look for a single resource (including crews) to fulfill the job. The scheduler would need to perform extra steps, like editing filters or selecting book twice, to schedule it to two different resources to arrive at the same time. However, if you utilize a requirement group template, the schedule assistant will simultaneously search for both a single resource with both skills or two resources each with one skill to arrive at the same time. 
 
 
 ## Configuration considerations
 
-- work order with multiple incidents vs requirement groups
-- -only one work order incident can be the primary incident. the first incident added is the primary incident or the one entered in the primary incident type field. there is boolean value on the work order incident type indicating if it is the primary that can be used for business logic.
+
 - resolution 
 - boolean for service tasks
 
 
 ## Additional notes
+- Only one work order incident can be the primary incident and this is either the first incident added or the one entered in the primary incident type field. There is boolean value on the work order incident type called "Is Primary" that indicates this and can be used for business logic.
 
 o	implementation notes
 o	at what point is it repetitive enough
