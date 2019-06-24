@@ -36,7 +36,7 @@ The **Omnichannel Ongoing Conversations** is available in:
 2.	Sign in with your supervisor credentials.
     
     > [!NOTE]
-    > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub).
+    > To learn more, see [Sign in to Unified Service Desk – Omnichannel for Customer Service](../agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md).
 
 3.	Select the **Conversations** tab.
 
