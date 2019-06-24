@@ -2,7 +2,7 @@
 title: "Enable a bot to escalate and end conversation| Microsoft Docs"
 description: "Read how a bot in Omnichannel for Customer Service can be used to escalate a conversation to a human agent."
 keywords: ""
-ms.date: 06/13/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
