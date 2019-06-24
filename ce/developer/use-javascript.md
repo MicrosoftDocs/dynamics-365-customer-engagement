@@ -59,7 +59,7 @@ search.app:
  
  > [!NOTE]
  > If the script reference to [ClientGlobalContext.js.aspx](/dynamics365/customer-engagement/developer/clientapi/reference/getglobalcontext-clientglobalcontext.js.aspx
-) is placed after your own jQuery reference, the ClientGlobalContext.js.aspx scripts will overwrite your previously loaded version of jQuery. To ensure this does not happen place the clientGlobalContext script reference prior to any other script references in your webresource.
+) is placed after your own jQuery reference, the ClientGlobalContext.js.aspx scripts will overwrite your previously loaded version of jQuery. To avoid this, place the ClientGlobalContext.js.aspx script reference prior to any other script references in your web resource.
   
  
   
