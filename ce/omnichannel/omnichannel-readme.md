@@ -26,7 +26,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Customer Summary page shows default icons
 
-If your organization is using earlier releases of chat for Dynamics 365, and after upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon.
+If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon.
 
 ## Entity routing conversations aren’t routed
 
