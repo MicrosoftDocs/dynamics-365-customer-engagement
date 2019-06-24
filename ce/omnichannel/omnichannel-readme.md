@@ -51,11 +51,11 @@ After you upgrade, you may experience the following:
 
 -   You must manually configure the queues. Ensure that you capture your existing omnichannel queue record configurations before the upgrade. If you've already upgraded, you can access previous omnichannel queue records from a URL by replacing `etn=queue` with `etn=msdyn_omnichannelqueue` from queue grid page. 
 
-    For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist`, now add `etn=queue` with `etn=msdyn_omnichannelqueue` to the URL.
+    For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylistetn=queue`, now replace `etn=queue` with `etn=msdyn_omnichannelqueue` in the URL.
 
-    `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=queue&etn=msdyn_omnichannelqueue`.
+    `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=msdyn_omnichannelqueue`.
 
-    Now, to configure the queues, In the omnichannel site map, select **Queues** and select **New** to create a new queue. Provide the required information and save the queue. After saving, add users to the queues. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue. Repeat the steps to configure all queue configurations.
+    Now, to configure the queues, in the omnichannel site map, select **Queues** and select **New** to create a new queue. Provide the required information and save the queue. After saving, add users to the queues. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue. Repeat the steps to configure all queue configurations.
 
     To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue)
 
