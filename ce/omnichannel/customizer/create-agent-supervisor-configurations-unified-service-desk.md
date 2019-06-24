@@ -24,9 +24,9 @@ A configuration in Unified Service Desk helps you filter access to components th
 
 2.  Go to **Settings** > **Unified Service Desk**.
 
-3.  Click **Configuration**.
+3.  Select **Configuration**.
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  On the **New Configuration** page, in the **Name** field, type **Omnichannel Agent Configuration** and then select **Save**.
 
