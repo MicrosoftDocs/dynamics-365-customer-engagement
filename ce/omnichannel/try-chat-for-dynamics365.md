@@ -44,9 +44,9 @@ For more information on provisioning channels through the Dynamics 365 admin cen
 ## Configure chat in your organization
 
 Once Chat is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring Chat. 
-For more information on configuring Chat in Dynamics 365, see [Configure a chat channe](administrator/set-up-chat-widget).
+For more information on configuring Chat in Dynamics 365, see [Configure a chat channe](administrator/set-up-chat-widget.md).
 
 ### See also
 
 [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)  
-[Configure a chat channe](administrator/set-up-chat-widget)
+[Configure a chat channe](administrator/set-up-chat-widget.md)
