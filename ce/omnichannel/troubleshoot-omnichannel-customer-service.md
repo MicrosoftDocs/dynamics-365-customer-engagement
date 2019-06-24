@@ -117,24 +117,6 @@ To add the dashboards using app designer, follow these steps:
     ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
 6. Select **Save** and then select **Publish**.
 
-## Chat widget code snippet doesn't appear after chat widget configuration
-
-### Issue:
-
-Chat widget code snippet doesn't appear after chat widget configuration. This issue is Code snippet is not saved while creating the chat widget record.
-
-### Resolution:
-
-Select the Save button twice to ensure the code snippet is saved and appears on the record.
-
-To add and save the code snippet, follow these steps:
-
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** > **Chat**.
-3. Select a chat widget from the list.
-4. Add the code snippet in the **Widget snippet** field.
-5. Select the **Save** button twice.
-
 ## Pre-imported Unified Service Desk configurations in Customer Engagement organization
 
 ### Issue:

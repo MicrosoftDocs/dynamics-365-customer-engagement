@@ -65,9 +65,7 @@ You can unlink a record only when you are interacting with customer using the co
 
 ![Select X button next the textbox to unlink](../../media/oceh-oc-unlink-customer.PNG "Unlink a record")
 
-To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
-
-![Blank customer profile form after unlinking the record](../../media/oceh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
+To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank.
 
 > [!Note]
 > You can link and unlink only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
