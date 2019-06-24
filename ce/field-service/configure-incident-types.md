@@ -73,18 +73,18 @@ As an example, an incident type can be:
 - a common customer complaint or request; "The building temperature is too hot"
 - a specific procedure; "Perform stress test"
 
-Most importantly, adding an incident type to a work order can add other details such as duration and add related records including work order service tasks, work order products, work order services, and characteristics (skills). This means incident types can **effectively serve as work order templates** that pre-populate information, which can be manually edited as needed.
+Most importantly, adding an incident type to a work order can add other details like duration, work order service tasks, products, services, and characteristics (skills). This means incident types can **effectively serve as work order templates** that pre-populate information, which can be manually edited as needed.
 
-The value organizations get from using incident types is they codify issues, procedures, and resolutions and help standardize processes across geographies and business lines. This ensures all field technicians are performing the same actions to resolve work orders, and if better procedures are discovered, the incident type is updated and implemented across the entire organization. Another benefit is using incident types saves time creating work orders. Without using incident types, the customer service reps or dispatchers creating work orders would have to manually add the details. Lastly, incident types are very helpful for reporting purposes because they allow you to see trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type will allow you to report on the number of power failures for a specific asset category for example.
+The value organizations get from using incident types is they **codify issues, procedures, and resolutions** and help **standardize processes** across geographies and business lines. This ensures all field technicians are performing the same actions to resolve work orders, and if better procedures are discovered, the incident type is updated and implemented across the entire organization. Another benefit is using incident types **saves time creating work orders**. Without using incident types, the customer service reps or dispatchers creating work orders would have to manually add the details. Lastly, incident types are very **helpful for reporting purposes** because they allow you to see trends for specific issues. Rather than reporting on work order types to understand the number of repair work orders, an incident type will allow you to report on the number of power failures for a specific asset category for example.
 
-Other important features of incident types are (1) multiple incident types can be added to a work order to define multiple issues or procedures that need to be completed (2) each incident type can be related to a customer asset to build service history and (3) relating incident types to requirement group templates allows you to auto-populate multiple requirements for a work order and schedule the work order to multiple resources.
+Other important features of incident types are **(1)** multiple incident types can be added to a work order to define multiple issues or procedures that need to be completed **(2)** each incident type can be related to a customer asset to build service history and **(3)** relating incident types to requirement group templates allows you to auto-populate multiple requirements for a work order and schedule the work order to multiple resources.
 
 
  ## Prerequisites
 
- Incident types are available for all version of Field Service. However using incident types with requirement group templates for multi-resource scheduling is only available with Field Service v8.0+.
+ Incident types are available for all versions of Field Service. However using incident types with requirement group templates for multi-resource scheduling is only available with Field Service v8.0+.
 
- Because incident types mostly represent a grouping of service tasks, products, and services, it is recommended to have these records created in the system before creating an incident type.
+ Because incident types mostly represent a grouping of service tasks, products, and services, it is recommended to have these records created in the system before creating an incident type. Each of the following can be created in **Field Service > Settings**.
 
  A **service task** is checklist item that field technicians should complete as part of performing an incident type. 
 
@@ -92,12 +92,11 @@ Other important features of incident types are (1) multiple incident types can b
 
  A **service** is labor that may be billed to the customer. **Note:** there is no Service entity. A service is created by creating a Product record with **Field Service Type = Service**. 
 
- To create these records, go to **Field Service > Settings**.
 
  > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-incident-types-navigation.png)
 
-The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. As an example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, you simply create this service task once and associate it to the relevant incident types. This means there is one list of unique service tasks that are added to incident types and this creates **Incident Type Service Task** records.
+The service tasks, products, and services you create will serve as the building blocks of incident types and can be associated to multiple incident types as needed. As an example, if "Put on safety goggles" is a service task that needs to be completed as part of many or all incident types, you simply create this service task once and associate it to the relevant incident types. This means there is one list of unique service tasks that are added to incident types and this creates **Incident Type Service Task** records. The same is true for products, services, and characteristics.
 
  ## Create an incident type
 
@@ -108,11 +107,11 @@ The service tasks, products, and services you create will serve as the building 
  **Default Work Order Type** - the work order type selected here will populate the work order type field on the work order when this incident type is entered as the primary incident type. It will overwrite a previously entered work order type. This saves time and is convenient as an incident type should be related to a larger category. Entering a work order type will not populate an incident type.
 
 > [!Note]
-> **Pro Tip:** A default Price List can be added to a Work Order Type. THis means you can add a primary incident type that adds a work order type and the work order type will add a price list. this further saves time with automatic data population.
+> **Pro Tip:** A default Price List can be added to a Work Order Type. This means you can add a primary incident type that adds a work order type and the work order type will add a price list. This further saves time with automatic data population.
 
-**Estimated Duration** - Enter a duration for this incident type. If you add multiple incidents to a work order, the work order duration will be the total of all incident durations as reflected in the duration of the resource requirement related to the work order. Service tasks can each have a duration as well, in which case the estimated duration of the incident type will be the sum total of the incident service task durations. The only way you can utilize the estimated duration field as the duration of the incident type is if 1) you do not add incident type service tasks or 2) none of the incident type service tasks you add have durations. If this incident type is set as the primary incident type of a work order this value will populate the primary incident type duration field.
+**Estimated Duration** - Enter a duration for this incident type. If you add multiple incidents to a work order, the work order duration will be the total of all incident durations as reflected in the resource requirement related to the work order. Service tasks can each have a duration as well, in which case the estimated duration of the incident type will be the sum total of the incident service task durations. The only way you can utilize the estimated duration field as the duration of the incident type is if 1) you do not add incident type service tasks or 2) none of the incident type service tasks you add have durations. If this incident type is set as the primary incident type of a work order this value will populate the primary incident type duration field.
 
-**Copy Incident Items to Agreement** - This setting dictates if agreement "items" including service tasks, products, services, and characteristics (skills) should be added to the agreement when this incident is added to the agreement. This is important for two reasons.
+**Copy Incident Items to Agreement** - This setting is only important for when you use incident types as part of agreements and dictates if agreement "items" including service tasks, products, services, and characteristics (skills) should be added when this incident is added to the agreement. This is important for two reasons.
 
   1. The incident you would like to add to an agreement may be slightly different than the incident you would add to a single work order that's not part of an agreement. As an example, normally the incident would require one hour of a service, but for the agreement, you negotiated with the customer two hours of a service. Imagine variations for all items making it better to start from scratch. Rather than having to create a second incident type just for this agreement, you can set Copy Incident Items to Agreement to **No**, add the incident to the agreement, then manually add the specific service tasks, product, services, etc. This way you can use the same incident type which helps for reporting later on. Set this option to **Yes** and the incident items will be added to the agreement and you can accept these items or make slight variations from there. 
 
@@ -123,7 +122,7 @@ After setting basic details of the incident type, you should consider adding rec
 
 ### Incident Type Product
 
-Next add an incident type product by going to the product section and selecting **+New Incident Type Product**.
+Next, add an incident type product by going to the product section and selecting **+New Incident Type Product**.
 
 Select a **Product** and **Unit**
 
@@ -156,7 +155,7 @@ After adding multiple service tasks they will display in the incident service ta
 
 ### Incident Type Characteristics
 
-Next, you can associate characteristics (skills) to incident types in order to define the skillset needed to perform such an incident type. Characteristics are also added to resources (field technicians) and this helps the system match work order incidents with the best resources who can do the job. This also means when this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the characteristics.
+Next, you can associate characteristics (skills) to incident types in order to define the skillset needed to perform the incident type. Characteristics are also added to resources (field technicians) and this helps the system match work order incidents with the best resources who can do the job. This also means when this incident is added to a work order and scheduled, the schedule assistant and resource scheduling optimization will consider the characteristics.
 
 > [!Note]
 > If you want to utilize Requirement Groups with Incident Types for multi-resource scheduling, do not add characteristics (skills) to the incident type. Instead you should add required characteristics to the requirement group template. See the topic on [Requirement groups for Work Orders for more details](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders)
@@ -194,7 +193,7 @@ The **Estimate Quantity** of the Work Order Product reflects the incident produc
 
 The same is true for Work Order Services and Estimate Duration.
 
-Also, the Work Order Service Tasks are added in the order reflected on the incident type.
+Also, the Work Order Service Tasks are added to the order in the order reflected on the incident type.
 
 In **Related > Characteristics**, the incident type characteristics are added as requirement characteristics.
 
@@ -212,7 +211,7 @@ Go to **Related > Incidents > +New Incident Type** and add another incident.
 
 Though the primary incident estimated duration will not change, the duration of the related resource requirement will be increased by the new incident's duration. 
 
-Below we can see the duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
+Below we can see the requirement duration was increased to 4.5 hours and another characteristic was added to the work order requirement.
 
 Back on the Work Order, the second incident's products, services, and service tasks were added as well. It is common for incident types to have overlapping service tasks, and duplicates will be added so consider if this is right for your business processes.
 
@@ -238,8 +237,8 @@ Once a work order incident and customer asset are associated, you will see the w
 If an incident type should be completed by multiple resources, it is advantageous to relate the incident type to a requirement group template. This will add a requirement group to the work order when the incident is added. Scheduling requirement groups for work orders ensures each resource arrives on site at the same time. 
 
 There are a few important notes when utilizing incidents with requirement groups:
-1. You cannot add characteristics to the incident type or directly to the work order. This is because you should add required characteristics in the requirement group template
-2. The work order can only have one incident
+1. You cannot add characteristics to the incident type or directly to the work order. This is because you should add required characteristics in the requirement group template.
+2. The work order can only have one incident.
 
 For more information see the topic on [requirement groups for work orders](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/multi-resource-scheduling-requirement-groups#requirement-groups-for-work-orders).
 
