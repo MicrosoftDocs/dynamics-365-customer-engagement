@@ -32,7 +32,7 @@ A configuration in Unified Service Desk helps you filter access to components th
 
 6.  Now, repeat the step 4 and 5 to create **Omnichannel Supervisor Configuration**.
 
-Omnichannel Supervisor Configuration
+Omnichannel Agent Configuration
 
  > [!div class=mx-imgBorder]
  > ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
