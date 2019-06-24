@@ -47,7 +47,7 @@ The steps describe how to delete the solution from your Customer Engagement orga
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
 
-2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
    
 3. Select the record that is related to omnichannel.
    

@@ -225,7 +225,7 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 - To sync the configurations, remove the channel and roles, add it again and save the record.
 
    1. Sign in to Dynamics 365 for Customer Engagement apps.
-   2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+   2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
    3. Select the **Omnichannel** record from the list.
    4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
    5. Add **Omnichannel for Customer Service** again in the **Select Unified Interface Apps for the Channel** section.
