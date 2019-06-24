@@ -49,7 +49,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
     When you join the conversation, a notification will be sent to both agent and customer stating that you have joined as a consultant. Depending on your requirement, you can start consultation with agent and customer by using a messaging mode (public or internal).
     
-    To learn more, see [View communication panel](../agent/agent-oceh/oceh-conversation-control.md).
+    To learn more, see [View communication panel](../agent/agent-oc/oc-conversation-control.md).
 
 ## Analyze chat and SMS sentiment
 
