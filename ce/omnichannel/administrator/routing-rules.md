@@ -39,7 +39,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
     - In the **General information** section of the **General** tab, provide the following information: </br>
     a. **Name**. Name of the rule item </br>
     b. **Work Stream** is auto populated </br>
-    c. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-omnichannel-queue) </br>
+    c. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue) </br>
     d. **Description**. A brief description of the rule item.
               
     - In the **Condition** section, provide the conditions for Omnichannel rule. Based on the conditions defined, the conversations are routed to the correct queues. When you define conditions for the Omnichannel routing rules, you can choose from:
