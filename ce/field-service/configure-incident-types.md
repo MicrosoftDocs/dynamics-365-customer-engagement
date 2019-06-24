@@ -251,24 +251,27 @@ For more information see the topic on [requirement groups for work orders](https
 - There is a Resolution tab on the Work Order Incident to document if the incident was completed.
 - In the case of adding multiple incident types to a work order, if doing so adds two or more of the same characteristic (skill), the scheduling logic will use the most restrictive of the skills to match resources. As an example, if one incident type adds the characteristic "Spanish" with a "Good" rating value; and another incident adds "Spanish" with an "Excellent" rating value, the schedule assistant and resource scheduling optimization will look for resources that are excellent in Spanish, because it has a higher value and deemed more restrictive. 
 
+- Crew for multi-incident?
 
 ## Additional notes
 - Only one work order incident can be the primary incident and this is either the first incident added or the one entered in the primary incident type field. There is boolean value on the work order incident type called "Is Primary" that indicates this and can be used for business logic.
 
 ### Implementing Incident Types
+- Incidents should be created for issues that are common or for issues that have a specific process though they may be uncommon. If you'd like better reporting for issues, consider making incidents for them as well.
+- Incidents should be more specific than work order types, but not too specific as to not be reusable.
+- Ask customers if they maintain a list of most common work order issues. Often they do and these can be imported into Dynamics via Excel as a start to configuring incidents.
+- When setting up incident types for the first time, it is recommended not to create too many too quickly as customers may end up using incident types differently than intended. As an example, a customer may perform a safety test on three different models of a machine. Rather than creating three safety test incidents, one for each model, simply start with one incident type that can be used on work orders for all three models. Then determine at a later date if more are needed.
 - By default, work order service tasks have a field called "% Complete" that field technicians can use to record their progress completing each service task. It is common to replace this field or add another field that is a simple yes or no field. It is also common to use custom Offline HTML and JavaScript on Field Service Mobile to prevent field technicians from completing a work order until all work order service tasks are complete. 
-o	at what point is it repetitive enough
-o	applying incident types with same skill, looks at more restrictive on
-o	don’t create too many at the beginning, as the company uses the project
-o	incident by type an incident by product
-- importing with excel
+  
+
 - - understanding the entities involved
   - incident type
   - incident type product
   - work order product
   - agreement incident
-- 
-- Crew for multi-incident?
+
+To add additional value for customers, solution architects should consider 
+
 o	machine learning for duration
 o	bring IoT Alert and incident types together 
 
