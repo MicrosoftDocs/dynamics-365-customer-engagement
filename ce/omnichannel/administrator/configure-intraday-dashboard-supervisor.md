@@ -78,7 +78,7 @@ Review the following prerequisites before configuring the supervisor dashboard:Â
         > [!div class=mx-imgBorder]
         > ![Enable service principals for security group](../media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")  
 
--  Verify that your administrator has allowed Omnichannel Customer Service to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omni-channel-provision-license.md).  
+-  Verify that your administrator has allowed Omnichannel Customer Service to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).  
 
 ### Create Power BI datasets in your workspace
 
