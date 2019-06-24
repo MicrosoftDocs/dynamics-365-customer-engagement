@@ -46,6 +46,12 @@
 #### [Configure and manage custom presence](administrator/presence-custom-presence.md)
 #### [Share knowledge articles](administrator/knowledge-management-oc.md)
 
+### Supervisor Experience
+#### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Configuring Dynamics 365 omnichannel insights dashboard](administrator/configure-historical-sentiment-dashboard-supervisor.md)
+#### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
+
+
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
 #### [Set up location detection](administrator/geo-location-provider.md)
@@ -91,6 +97,16 @@
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
 #### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
+
+
+
+## Supervisor guide
+### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
+#### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
+#### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
+#### [Monitor conversations](supervisor/monitor-conversations.md)
+### [Introduction to Dynamics 365 omnichannel insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+#### [Dynamics 365 omnichannel insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 
 ## System customizer guide
