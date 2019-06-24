@@ -246,11 +246,7 @@ As an agent, you aren't receiving chat in the Omnichannel for Customer Service a
 You must remove the Customer Service Hub app from the channel provider configuration in the Channel Integration Framework app.
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
-
 2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
-   
 3. Select the record that is related to omnichannel.
-   
 4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
-   
 5. Select **Save** to save the record.
