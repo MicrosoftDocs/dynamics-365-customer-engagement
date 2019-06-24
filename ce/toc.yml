@@ -35,7 +35,7 @@
   expanded: true
   items:    
   - name: Omnichannel for Customer Service
-    href: omni-channel-engagement-hub/omnichannel-customer-service-guide.md   
+    href: omnichannel/omnichannel-customer-service-guide.md   
   - name: Voice of the Customer
     href: voice-of-customer/help-hub.md
   - name: Portals

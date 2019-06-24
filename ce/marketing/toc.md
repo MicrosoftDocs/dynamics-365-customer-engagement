@@ -7,10 +7,10 @@
 
 ### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
-#### [Decide whether to install Marketing with or without a portal](portal-optional.md)
-#### [Purchase a production version of Marketing](purchase-marketing.md)
-#### [Run the setup wizard](purchase-setup.md)
+#### [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)
+#### [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
+#### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
