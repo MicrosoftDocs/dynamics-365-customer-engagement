@@ -2,6 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
+### [Try Chat for Dynamics 365](try-chat-for-dynamics365.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
