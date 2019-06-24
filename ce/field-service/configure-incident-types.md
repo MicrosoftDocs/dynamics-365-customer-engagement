@@ -250,8 +250,25 @@ For more information see the topic on [requirement groups for work orders](https
   2. Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed at the end of the agreement than originally intended. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on the Agreement Booking Setup. 
 - There is a Resolution tab on the Work Order Incident to document if the incident was completed.
 - In the case of adding multiple incident types to a work order, if doing so adds two or more of the same characteristic (skill), the scheduling logic will use the most restrictive of the skills to match resources. As an example, if one incident type adds the characteristic "Spanish" with a "Good" rating value; and another incident adds "Spanish" with an "Excellent" rating value, the schedule assistant and resource scheduling optimization will look for resources that are excellent in Spanish, because it has a higher value and deemed more restrictive. 
+- Crews will display in schedule assistant results for work orders with multiple incidents because the system views crews as a single resource. CUrrently, resource scheduling optimization does not schedule crews.
 
-- Crew for multi-incident?
+### Understanding incident entities
+
+There are multiple entities involved in using incident types, and you should be aware of them when you'd like to write workflows or other plug-ins. First let's consider a simple example with an incident type with one product. 
+
+**Work Order scenario**
+Incident Type > Incident Product > Work Order Incident > Work Order Incident Product
+
+First an Incident Type is created and a product is added to the incident creating an Incident Product. When the incident type is added to a work order, a Work Order Incident is created along with a Work Order Incident Product. 
+
+**Agreement scenario**
+Incident type > Incident Product > Agreement Incident > Agreement Product > Work Order iIncident
+
+- - understanding the entities involved
+  - incident type
+  - incident type product
+  - work order product
+  - agreement incident
 
 ## Additional notes
 - Only one work order incident can be the primary incident and this is either the first incident added or the one entered in the primary incident type field. There is boolean value on the work order incident type called "Is Primary" that indicates this and can be used for business logic.
@@ -264,11 +281,7 @@ For more information see the topic on [requirement groups for work orders](https
 - By default, work order service tasks have a field called "% Complete" that field technicians can use to record their progress completing each service task. It is common to replace this field or add another field that is a simple yes or no field. It is also common to use custom Offline HTML and JavaScript on Field Service Mobile to prevent field technicians from completing a work order until all work order service tasks are complete. 
   
 
-- - understanding the entities involved
-  - incident type
-  - incident type product
-  - work order product
-  - agreement incident
+
 
 To add additional value for customers, solution architects should consider 
 
