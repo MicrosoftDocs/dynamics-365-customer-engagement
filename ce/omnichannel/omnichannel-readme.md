@@ -26,25 +26,25 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Customer Summary page shows default icons
 
-If your organization is using public preview of chat for Dynamics 365 and you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon.
+If your organization is using earlier releases of chat for Dynamics 365, and you after upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon.
 
 ## Entity routing conversations aren’t routed
 
-Omnichannel routing service doesn't route the entity routing conversations as the Common Data Service Entity routing is not used any more.
+Omnichannel routing service doesn't route the entity routing conversations as the Common Data Service entity routing is disabled.
 
 After you upgrade: 
-- Any existing CDS entity channel and work stream configurations will become obsolete.  
+- You can't use any existing CDS entity channel and work stream configurations.  
 - You can't create any new CDS entity work stream. 
-- You can access existing CDS entity work stream configuration records, but those configurations are disabled. 
-- CDS Entities can't be routed using omnichannel routing and work-distribution.
+- You can access existing CDS entity work stream configuration records, but the configurations are disabled. 
+- You can't route CDS entities using omnichannel routing and work-distribution.
 
 ## Existing queues don't appear in the Omnichannel queues/Dashboards view
 
-After you upgrade, your Existing queues don't appear in the Omnichannel queues/Dashboards view. The issue is due to removal of omnichannel specific queue entity, which is replaced with the Common Data Service (CDS) queue entity. This queue will be used for omnichannel routing and work distribution.
+After you upgrade, your existing queues don't appear in the Omnichannel queues/Dashboards view. The issue is due to removal of omnichannel specific queue entity, which is replaced with the Common Data Service (CDS) queue entity. The CDS queue entity will be used for omnichannel routing and work distribution.
 
 After you upgrade, you may experience the following:
 
-- All your existing omnichannel queue configurations becomes obsolete. 
+- All your existing omnichannel queue configurations is disabled. 
 - All existing active conversations will be closed and moved to CDS-T.
 
 ### Workaround
