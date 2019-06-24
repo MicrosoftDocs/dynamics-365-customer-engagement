@@ -127,7 +127,7 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
 - **Agent display name configuration**: To protect an agent's privacy, you can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent's identity and anonymize, choose to display the nickname. More information: [Configure agent display name](administrator/agent-display-name.md)
 
-- **Simplified configuration experience for administrators**: With this release, administrators can now configure varied customer experiences separately for chat and entity channels. More information: [Configure a chat channel](administrator/set-up-chat-widget.md) and [Configure an entity channel](administrator/create-entity-channel.md)
+- **Simplified configuration experience for administrators**: With this release, administrators can now configure varied customer experiences separately for chat and entity channels. More information: [Configure a chat channel](administrator/set-up-chat-widget.md)
 
     Configure context variables and routing rules in work streams to ensure that conversations are distributed to appropriate agents. More information: [Understand and create work streams](administrator/work-streams-introduction.md)
 
