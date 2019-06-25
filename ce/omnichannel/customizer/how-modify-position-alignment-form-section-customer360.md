@@ -41,6 +41,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 - [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-summary.md)
 - [Add or remove the fields in the form](customize-quick-view-form.md)
-- [Customize the conversation form](customize-conversation-form.md)
+- [Customize the conversation form](customize-session-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

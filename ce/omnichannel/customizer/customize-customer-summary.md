@@ -53,6 +53,6 @@ This section displays case- and customer-related activities in the form of a tim
 
 - [Omnichannel  system customizers](omnichannel-customizer.md)
 - [Add or remove the fields in the form](customize-quick-view-form.md)
-- [Customize the conversation form](customize-conversation-form.md)
+- [Customize the conversation form](customize-session-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure notification for agents](configure-notification-screen-pop-agents.md)

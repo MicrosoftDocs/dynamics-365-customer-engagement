@@ -116,7 +116,7 @@
 #### [Overview](customizer/customize-customer-summary.md)
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
-### [Customize the session forms](customizer/customize-conversation-form.md)
+### [Customize the session forms](customizer/customize-session-form.md)
 
 ### Unified Service Desk settings
 

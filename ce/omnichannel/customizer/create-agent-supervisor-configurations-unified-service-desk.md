@@ -50,4 +50,4 @@ Omnichannel Supervisor Configuration
 - [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-summary.md)
 - [Add or remove the fields in the form](customize-quick-view-form.md)
-- [Customize the conversation form](customize-conversation-form.md)
+- [Customize the conversation form](customize-session-form.md)

@@ -52,7 +52,7 @@ You can also use the previous procedure to add or remove fields in other section
 | Recent cases     | Contact > Forms |  Cases for customer |
 
 > [!div class="nextstepaction"]
-> [Next topic: Customize the conversation form](customize-conversation-form.md)
+> [Next topic: Customize the conversation form](customize-session-form.md)
 
 ## See also
 
