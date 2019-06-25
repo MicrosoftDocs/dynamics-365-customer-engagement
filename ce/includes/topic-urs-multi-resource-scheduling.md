@@ -81,7 +81,7 @@ In the preceding screenshot, the lower split view shows all bookings scheduled f
 
 ## Requirement groups for work orders
 
-For field service scenarios, requirement group templates are designed to work with incident types. An incident type is a way of automatically adding duration, service tasks, products, services, and other attributes to a work order. Adding an incident type to a work order can also automatically add requirement groups. This is achieved by **associating a requirement group template to an incident type**:
+For field service scenarios, requirement group templates are designed to work with incident types. An incident type is a way of automatically adding duration, service tasks, products, services, and other attributes to a work order. Adding an incident type to a work order can also automatically add requirement groups. This is achieved by associating a requirement group template to an incident type:
  
 
 1. Create a requirement group template.
