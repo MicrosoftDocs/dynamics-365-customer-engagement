@@ -10,6 +10,10 @@ Using Bing Maps API by default, Dynamics 365 for Field Service calculates the dr
 In this topic, we will explore how travel time and distance are calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with Resource Scheduling Optimization (RSO).
 
 ## Prerequisites
+
+<!--note from editor: In item 2, is "yes" in the UI, and does lowercase "y" match the UI?   -->
+
+
 1. Connect your Dynamics 365 environment to Bing Maps. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling). This allows you to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
    
 2. Set auto geocode addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
@@ -25,6 +29,8 @@ In this topic, we will explore how travel time and distance are calculated and v
 
 
 ## Visualize travel time on the schedule board
+
+<!--note from editor: Throughout topic, in screenshots, I'm not seeing the people names on the group's approved fictitious names lists. -->
 
 After a requirement is scheduled to a resource, the booking appears on the schedule board, and, if applicable, travel time displays preceding the booking.
 
@@ -54,18 +60,20 @@ When field technicians arrive onsite, they can update the booking status to **In
 By default, manually scheduling a requirement by dragging and dropping on the schedule board will not calculate travel time and distance. This can be helpful for field service organizations that are not very concerned with managing or optimizing their field technicians' travel but simply need to manage appointment start times. Imagine a scenario where an emergency work order arises, and the dispatcher simply wants to communicate the time that a field technician will arrive.
 
 
-For example, a work order requirement that is manually scheduled to a resource at 9:00 AM implies that the field technician should arrive at the customer's location at 9:00 AM; in this scenario, it's the field technician's responsibility to manage travel arrangements. In the following screenshot, an unscheduled work order requirement was dragged from the lower requirement pane to 9:00 AM for a resource. No travel time is calculated or added to the duration of the booking, implying all 4 hours are the working duration.
+For example, a work order requirement that is manually scheduled to a resource at 9:00 AM implies that the field technician should arrive at the customer's location at 9:00 AM; in this scenario, it's the field technician's responsibility to manage travel arrangements. In the following screenshot, an unscheduled work order requirement was dragged from the lower requirement pane to 9:00 AM for a resource. No travel time is calculated or added to the duration of the booking, implying that all 4 hours make up the working duration.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of manually scheduled work order with no travel calculation](../field-service/media/scheduling-board-manual.png)
+
+<!--note from editor: I don't see Coho Winery (or Blue Yonder, further down) on approved list of co. names: https://microsoft.sharepoint.com/sites/LCAWeb/Home/Copyrights-Trademarks-and-Patents/Trademarks/Fictitious-Names# -->
 
 Organizations that operate in small contained geographic areas can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
 > [!NOTE]
 > As of Dynamics 365 for Field Service version 8.6, travel time and distance calculations can be added to bookings that are **manually scheduled**. 
 
-<!--note from editor: I think a word is missing in the below sentence. Also, make it more clear which task(?) is being referred to.  -->
+<!--note from editor: I think a word is missing in the below sentence, after "completing the". Also, make it more clear which task(?) is being referred to.  -->
 
 In addition to completing the mentioned earlier in this topic, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
@@ -92,10 +100,10 @@ If a third onsite requirement is scheduled in between the original two, the trav
 > ![Screenshot of scheduling an onsite booking between two onsite requirements](../field-service/media/scheduling-schedule-board-2-onsite-bookings-add-3rd.png)
 
 > [!NOTE]
-> When updates (like in the preceding screenshot) take place, the booking start and end times are not cascaded for the rest of the day, as evident by the overlap. Only the travel times and distances are updated. To ensure that the remaining bookings cascade, correct overlapping times, and fit inside working hours after changes, organizations should consider using Resource Schedule Optimization (RSO).
+> When updates (like in the preceding screenshot) take place, the booking start and end times are not cascaded for the rest of the day, as is evident by the overlap. Only the travel times and distances are updated. To ensure that the remaining bookings cascade, correct overlapping times, and fit inside working hours after changes, organizations should consider using Resource Schedule Optimization (RSO).
 
 
-For more details on the auto-update booking travel feature, see the “Additional notes” section of this article.
+For more details on the Auto Update Booking Travel feature, see the “Additional notes” section of this article.
 
 
 ## Add travel time with schedule assistant
@@ -135,7 +143,7 @@ In the following screenshot, the work location is location agnostic, and no trav
 > [!div class="mx-imgBorder"]
 > ![Screenshot of booking a location-agnostic requirement with no travel time](../field-service/media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
-Additionally, the **Auto Update Booking Travel** feature (Field Service version 8.6 and later) updates subsequent bookings when using the schedule assistant.
+Additionally, the Auto Update Booking Travel feature (Field Service version 8.6 and later) updates subsequent bookings when using the schedule assistant.
 
 In the following screenshot, you'll see a resource's schedule with time available at the beginning of the day, perhaps due to a cancellation.
 > [!div class="mx-imgBorder"]
@@ -201,9 +209,9 @@ If a field technician begins travel to their next work order and sees that the t
 
 - The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
 
-### Auto update booking travel feature for Field Service version 8.6 and later**
+### Auto Update Booking Travel for Field Service version 8.6 and later**
 
-The auto update booking travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **On site**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
+The Auto Update Booking Travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **On site**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
 
 <!--note from editor: Is "Location Agnostic" the capping that appears in the UI?   -->
 
@@ -214,7 +222,7 @@ The auto update booking travel feature for manual scheduling needs two locations
 
 
 
-Here are a few more notes about the auto update booking travel feature:
+Here are a few more notes about the Auto Update Booking Travel feature:
 
 - The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
 
