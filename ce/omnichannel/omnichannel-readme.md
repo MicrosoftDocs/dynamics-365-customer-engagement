@@ -49,7 +49,7 @@ After you upgrade, you will experience the following:
 
 ### Workaround
 
-You must manually configure the queues. Ensure that you capture your existing omnichannel queue record configurations before the upgrade. 
+You must manually configure the queues. If you captured your existing omnichannel queue record configurations before the upgrade, then follow from step 2. 
 
 If you've already upgraded, follow these steps:
 
