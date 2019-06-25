@@ -11,7 +11,7 @@ This is useful in several scenarios:
 - Organizations with a high volume of bookings that they need to quickly schedule.
 - Organizations with call-center workers who might need to schedule while they are on the phone with a customer, and need to do so quickly to respect the caller's time. 
 - Organizations with schedulers who don't need to see the extra details provided by the schedule assistant or manipulate the filters to make a resource assignment.
-- People for whom scheduling is not their primary job. For example, customer service representatives spends most of their time handling customer issues, and the few times they need to schedule, it should be quick and easy.
+- People for whom scheduling is not their primary job. For example, customer service representatives spend most of their time handling customer issues, and the few times they need to schedule, it should be quick and easy.
 
 When quick scheduling is not enabled, the **Book** button defaults to the full schedule assistant experience, which displays additional information and filter options for more comprehensive resource assigning.
 
