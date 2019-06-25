@@ -167,7 +167,7 @@ However, to better understand how RSO minimizes overall travel time, each RSO ru
 > [!div class="mx-imgBorder"]
 > ![Screenshot of travel time graph](../field-service/media/rso-travel-time-graph.png)
 
-> [!Note]
+> [!NOTE]
 > If the RSO is set to schedule within working hours, it will calculate time to leave at the end of the day for resources to travel to their ending location, generally a home or office.
 
 > [!div class="mx-imgBorder"]
@@ -179,7 +179,7 @@ To help with scheduling decisions, current traffic patterns and accidents can be
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of show traffic button on schedule baord map](../field-service/media/scheduling-schedule-board-traffic.png)
+> ![Screenshot of show traffic button on schedule board map](../field-service/media/scheduling-schedule-board-traffic.png)
 
 > [!NOTE]
 > Travel time calculations do not reflect traffic patterns or historical travel times based on the time of day or year.
@@ -188,7 +188,7 @@ Scheduling based on real-time traffic is generally not applicable because most o
 
 Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
-If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, then they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
+If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
 
 ## Configuration considerations
 
@@ -201,20 +201,27 @@ If a field technician begins travel to their next work order and sees that the t
 
 - The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
 
-### Auto Update Booking Travel Field Service v8.6+**
+### Auto update booking travel feature for Field Service version 8.6 and later**
 
-The auto travel time update feature for manual scheduling needs two locations to work. For example, if a resource has a starting location and the first requirement scheduled to the resource has a location (for instance, work location is **On site**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, resource start location is **Location Agnostic**), the first on site requirement scheduled will not have a travel time. However, if an on site requirement is scheduled after another on site requirement, then the feature has two known locations and the travel time between the two requirements will be calculated, **even if the resource is location agnostic**.
+The auto update booking travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **On site**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
+
+<!--note from editor: Is "Location Agnostic" the capping that appears in the UI?   -->
 
 
-<!--note from editor: Does the UI use "Onsite" or "On site"?    -->
+<!--note from editor: Does the UI use "Onsite" or "On site"? (dictionary spelling is "onsite")   -->
+
+<!--note from editor: Suggest limiting the use of boldface to UI elements. MWSG says it's OK to use italic formatting sparingly for emphasis.   -->
 
 
-Here are a few more notes about the Auto Update Booking Travel feature:
 
-- The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific scheduleable entities. 
+Here are a few more notes about the auto update booking travel feature:
 
-- The feature only applies to the Hours view of the schedule board and travel time and distances will not be updated if the bookable resource booking form is edited manually, edited with a workflow, or if the bookings are imported.
+- The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
 
-- If you have an on site booking, the subsequent on site booking will calculate travel time from the previous booking up until the beginning of the next day's working hours, even if there are multiple hours in between the two on site bookings.
+- The feature only applies to the Hours view of the schedule board, and travel time and distances are not updated if the bookable resource booking form is edited manually, edited with a workflow, or if the bookings are imported.
+
+- If you have an existing onsite booking, the subsequent onsite booking calculates travel time from the previous booking up until the beginning of the next day's working hours, even if there are multiple hours in between the two onsite bookings.
   
-- The time the requirement is dragged to the schedule board is the time the resource will arrive on site and the travel time is added **before** that time. This is not configurable. For example, if you schedule an on site work order requirement at 10:00 AM by dragging the mouse to the 10:00 AM time slot, and the feature calculates 20 minutes of travel time, then travel will begin at 9:40 AM and the resource will arrive by 10:00 AM.
+- The time that the requirement is dragged to the schedule board is the time that the resource will arrive onsite, and the travel time is added **before** that time. This is not configurable. For example, if you schedule an onsite work order requirement at 10:00 AM by dragging the mouse to the 10:00 AM time slot, and the feature calculates 20 minutes of travel time, then the travel will begin at 9:40 AM, and the resource will arrive by 10:00 AM.
+
+<!--note from editor: In above paragraph, instead of "by dragging the mouse", name the object/field that is getting dragged/moved?   -->
