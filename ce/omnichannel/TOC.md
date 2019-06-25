@@ -200,5 +200,4 @@
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 
-## Learn more 
-### [Videos](videos.md)
+## [Videos](videos.md)

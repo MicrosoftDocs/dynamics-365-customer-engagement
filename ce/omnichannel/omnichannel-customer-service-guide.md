@@ -97,10 +97,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 <td>
 <h2> Videos </h2>
-<li><a href=" " data-raw-source="[ ]( )">video 1</a></li>
-<li><a href=" " data-raw-source="[ ]( )">video 2</a></li>
-<li><a href="" data-raw-source="[ ]( )">video 3</a></li>
-<li><a href=" " data-raw-source="[ ]( )">video 4</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Overview</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Set up chat</a></li>
+<li><a href="" data-raw-source="[ ]( )">Agent Experience</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Supervisor Experience</a></li>
+<li><a href="" data-raw-source="[ ]( )">Real-time Sentiment Analysis</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Historical Insights Report</a></li>
 </td>
 
 </tr>
