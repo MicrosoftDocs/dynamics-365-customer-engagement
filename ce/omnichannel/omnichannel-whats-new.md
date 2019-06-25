@@ -102,7 +102,6 @@ More information: [Agents using Omnichannel for Customer Service app](agent/agen
 - **Configure Omnichannel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omnichannel for Customer Service. Learn how to configure the following components:
 
     - [Omnichannel agent dashboard](customizer/configure-agent-dashboard.md)
-    - [Advanced search](customizer/configure-advanced-search.md)
     - [Communication panel](customizer/configure-communication-panel.md)
     - [Customer summary](customizer/configure-customer-summary.md)
     - [Notifications](customizer/configure-notification-screen-pop-agents.md)

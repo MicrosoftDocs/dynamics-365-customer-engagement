@@ -34,13 +34,13 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 6. Select **Save** and then select **Publish**.
 
 > [!div class="nextstepaction"]
-> [Add or remove the fields in a form](add-remove-fields-form-section.md)
+> [Customize quick view forms](customize-quick-view-form.md)
 
 ## See also
 
 - [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-summary.md)
-- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Add or remove the fields in the form](customize-quick-view-form.md)
 - [Customize the conversation form](customize-conversation-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

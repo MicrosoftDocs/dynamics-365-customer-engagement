@@ -36,9 +36,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)
 
 ## How-tos
-
-- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Add or remove the fields in the form](customize-quick-view-form.md)
 - [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

@@ -49,6 +49,5 @@ Omnichannel Supervisor Configuration
 
 - [Omnichannel system customizers](omnichannel-customizer.md)
 - [Customize Customer summary form](customize-customer-summary.md)
-- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-- [Add or remove the fields in the form](add-remove-fields-form-section.md)
+- [Add or remove the fields in the form](customize-quick-view-form.md)
 - [Customize the conversation form](customize-conversation-form.md)
