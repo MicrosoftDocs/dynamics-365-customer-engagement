@@ -124,8 +124,8 @@ Refer to the first section of this topic for instructions.
 
 3. Navigate to **Work Order** > **Requirement Groups** to verify that requirements have been added to the work order according to the requirement group template.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group added to work order when work order incident type is created](../common-scheduler/media/scheduling-multi-resource-work-order-requirements.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of requirement group added to work order when work order incident type is created](../common-scheduler/media/scheduling-multi-resource-work-order-requirements.png)
 
 ### 4. Book the work order
 
