@@ -114,10 +114,9 @@
 ### [Overview](customizer/omnichannel-customizer.md)
 ### Customize sections in the Customer summary form
 #### [Overview](customizer/customize-customer-summary.md)
-#### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
-#### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
+#### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
-### [Customize the session forms](customizer/customize-conversation-form.md)
+### [Customize the session forms](customizer/customize-session-form.md)
 
 ### Unified Service Desk settings
 
@@ -162,13 +161,6 @@
 ###### [Step 3: Create Omnichannel Toast Notification-related action calls](customizer/toastnotification-step3-create-action-call-display-notification.md)
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
-
-#### Configure advanced search
-##### [Overview](customizer/configure-advanced-search.md)
-##### [Step 1: Create advanced search hosted control](customizer/advanced-search-step1-create-hosted-control.md)
-##### [Step 2: Create advanced search-related action calls](customizer/advanced-search-step2-create-action-calls.md)
-##### [Step 3: Attach advanced search-related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
-##### [Step 4: Add hosted control, action calls, and events to configurations](customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
 
 #### [Configure session name information](customizer/configure-session-name-information.md)
 

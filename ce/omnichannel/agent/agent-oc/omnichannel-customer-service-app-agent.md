@@ -23,6 +23,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The Omnichannel for Customer Service application on a web browser provides a unified experience for your agents interacting across communication channels to deliver an enhanced customer service. As an agent, you can use the Omnichannel for Customer Service app to manage the work items assigned to you via queues. This helps you to focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue.
 
+> [!Note]
+> - The omnichannel provisioning provides the Omnichannel for Customer Service app and is available to the users working with Chat for Dynamics and SMS.
+> 
+> - As of now, administrators or system cutomizers can't integrate third-party channels with Omnichannel for Customer Service app.
+
 ## In this section
 
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service.
