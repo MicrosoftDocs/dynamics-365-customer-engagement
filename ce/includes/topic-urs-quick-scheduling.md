@@ -37,7 +37,7 @@ When quick scheduling is not enabled, the **Book** button defaults to the full s
 
 In the preceding example, we enabled quick book for the work order entity, meaning quick book will trigger from the work order form and requirements created by work orders. The process is the same for enabling quick booking for other entities you have enabled for scheduling. 
 
-<!--note from editor: Is the feature called "quick book" or "quick booking"? OK to use "quick book" as a verb?   -->
+<!--note from editor: RE: terminology consistency: Is the feature called "quick book" or "quick booking"? OK to use "quick book" as a verb?   -->
 
 
 However, not all scheduling relates to other entities. Some organizations use requirements on their own for scheduling. Organizations like this should enable quick book for the **Default Metadata Settings (none)** option.
@@ -158,14 +158,14 @@ The purpose of quick scheduling is to simplify the scheduling process. Fulfillme
 
 1. Create a fulfillment preference. In this example, we created a fulfillment preference with 1-hour intervals.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of an example fulfillment preference](../field-service/media/scheduling-quick-book-fulfillment-preference.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of an example fulfillment preference](../field-service/media/scheduling-quick-book-fulfillment-preference.png)
 
 2. Add the fulfillment preference to a requirement and quick book. The quick book results will appear in hourly intervals.
 
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of the quick book panel with 1-hour intervals](../field-service/media/scheduling-quick-book-fulfillment-preference-results.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the quick book panel with 1-hour intervals](../field-service/media/scheduling-quick-book-fulfillment-preference-results.png)
 
 See our [topic on fulfillment preferences](../field-service/set-up-time-groups.md) for more information. 
 
