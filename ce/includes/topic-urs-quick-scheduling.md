@@ -23,7 +23,7 @@ When quick scheduling is not enabled, the **Book** button defaults to the full s
 
 ## Prerequisites
 
-- Dynamics 365 for Field Service version 8.7 or later. See the additional notes section at the end of this article for more details.
+- Dynamics 365 for Field Service version 8.7 or later. See the “Additional notes” section at the end of this article for more details.
 
 - Quick scheduling must be enabled: 
   - Go to **Resource Scheduling** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
@@ -89,20 +89,20 @@ Although quick scheduling is designed for quick and easy scheduling, there are a
 
 The date range is taken from the requirement date range and can be changed.
 
-> [!Note]
+> [!NOTE]
 > Time parameters on the work order like **Date Window Start and End** are passed down to requirements and are factored into quick booking.
 
 The **Filters** option allows you to search through all resources (meaning all resources that meet the requirement criteria) or select a specific resource to quick book (only if the selected resource meets the criteria).
 
-Additionally, select the resource icon next to a time slot to see a simple list of applicable resources for that time slot. See the following screenshot for reference.
+Additionally, you can select the resource icon next to a time slot to see a simple list of applicable resources for that time slot. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the resources icon in the quick book panel](../field-service/media/scheduling-quick-book-select-resources.png)
+> ![Screenshot of the resources icon in the quick book pane](../field-service/media/scheduling-quick-book-select-resources.png)
 
-This displays more details like travel time and distance, but still with a simpler interface and with fewer details than the full schedule assistant. The schedule assistant can still be triggered by selecting the **Open Schedule Assistant** link at the bottom of the quick book panel.
+This displays more details like travel time and distance, but still has a simpler interface with fewer details than the full schedule assistant. The schedule assistant can still be triggered by selecting the **Open Schedule Assistant** link at the bottom of the quick book pane.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the quick book panel, including the link that opens the schedule assistant](../field-service/media/scheduling-quick-book-select-resources2.png)
+> ![Screenshot of the quick book pane, including the link that opens the schedule assistant](../field-service/media/scheduling-quick-book-select-resources2.png)
 
 ## Quick book multiple resources
 
@@ -110,14 +110,14 @@ Quick scheduling also works with requirement groups, which allow organizations t
 
 ### 1. Create a requirement group
 
-Go to **Resource Scheduling** > **Requirement Groups** > **+New**. 
+Go to **Resource Scheduling** > **Requirement Groups** > **New**. 
 
 Use the requirement group control to define the multiple resources needed. Each row represents a resource requirement.
 
-In the following screenshot example, we need two resources each with different skills but part of the same Seattle organizational unit, and we need them for two hours.
+In the following screenshot example, we need two resources, each with different skills but part of the same Seattle organizational unit, and we need them for two hours.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a requirement group entity with 2 requirements listed](../field-service/media/scheduling-quick-book-rg.png)
+> ![Screenshot of a requirement group entity with two requirements listed](../field-service/media/scheduling-quick-book-rg.png)
 
 For further details, see the [topic on requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md).
 
@@ -126,7 +126,7 @@ Select a row and open the form to edit more fields.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group details](../field-service/media/scheduling-quick-book-rg-open-form.png)
 
-These requirements call for resource types **contact, user, and account**, and have a work location of **Onsite** with a defined location (latitude and longitude). This means we are sending resources to the customer's location.
+These requirements call for resource types **contact, user, and account** and have a work location of **Onsite** with a defined location (latitude and longitude). This means we are sending resources to the customer's location.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource requirements with attention to type and location](../field-service/media/scheduling-quick-book-rg-open-form2and3.png)
 
@@ -135,11 +135,11 @@ Next, from the requirement group control, select **Book** to trigger quick book.
 Again, you can select a time slot and then **Book** to assign the requirement group to multiple resources, or you can select the resource icon to see different combinations of resources that fulfill the requirement group.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the quick book panel showing a calendar and a list of resource groups](../field-service/media/scheduling-quick-book-rg-results-onsite.png)
+> ![Screenshot of the quick book pane showing a calendar and a list of resource groups](../field-service/media/scheduling-quick-book-rg-results-onsite.png)
 
-The results are displayed in order of average travel time and distance; because each resource may be traveling from a different location, travel time and distance is calculated as the average. 
+The results are displayed in order of average travel time and distance. Because each resource might be traveling from a different location, travel time and distance is calculated as an average. 
 
-Lastly, as discussed in the [requirement groups topic](../field-service/multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of our required skill.
+Lastly, as discussed in the [requirement groups topic](../field-service/multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets, and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of the required skills.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the requirement group settings, showing different resource options](../field-service/media/scheduling-quick-book-rg-option.png)
@@ -148,7 +148,7 @@ To use requirement groups as part of the work order process, associate a require
 
 ## Configuration considerations
 
-- After quick booking a *single requirement*, selecting **Book** again for the same requirement will create an additional booking, and will not re-book the previous one. Selecting **Book** again for a *requirement group* will trigger the re-book process, which cancels previous bookings.
+- After quick booking a *single requirement*, selecting **Book** again for the same requirement creates an additional booking and will not rebook the previous one. Selecting **Book** again for a *requirement group* will trigger the rebook process, which cancels previous bookings.
   
 - If you have enabled quick book, you enable it for your entire organization; it can't be enabled only for specific users or security roles. 
 
@@ -156,7 +156,7 @@ To use requirement groups as part of the work order process, associate a require
 
 The purpose of quick scheduling is to simplify the scheduling process. Fulfillment preferences further simplify scheduling by organizing quick book (or schedule assistant) results in neat time blocks. By default, quick scheduling uses a fulfillment preference with 30-minute intervals for single requirements, and 30-minute intervals with 10 results per interval for requirement groups. To apply a custom fulfillment preference and override the default:
 
-1. Create a fulfillment preference. In this example we created a fulfillment preference with 1-hour intervals.
+1. Create a fulfillment preference. In this example, we created a fulfillment preference with 1-hour intervals.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an example fulfillment preference](../field-service/media/scheduling-quick-book-fulfillment-preference.png)
@@ -172,6 +172,6 @@ See our [topic on fulfillment preferences](../field-service/set-up-time-groups.m
 
 ## Additional notes
 - The confirmation message shown after quick book is currently not configurable. 
-- When quick book is enabled and applicable to the scheduleable entity, it will trigger wherever the **Book** button is displayed.
-- Quick book is **disabled** by default in Field Service v8.7 (Universal Resource Scheduling v3.7), but is **enabled** by default in v8.8+ and 3.8+.
-- With Field Service v8.7 (Universal Resource Scheduling v3.7), quick book is not applicable to onsite requirements. With 8.8+ and 3.8+, it is applicable to onsite, facility, and location agnostic requirements.
+- When quick book is enabled and applicable to the schedulable entity, it triggers wherever the **Book** button is displayed.
+- Quick book is **disabled** by default in Dynamics 365 for Field Service version 8.7 (Universal Resource Scheduling version 3.7) but is **enabled** by default in Field Service versions 8.8 and later (Universal Resource Scheduling versions 3.8 and later).
+- With Field Service version 8.7 (Universal Resource Scheduling version 3.7), quick book is not applicable to onsite requirements. With Field Service version 8.8 and later and Universal Resource Scheduling version 3.8 and later, quick book is applicable to onsite, facility, and location-agnostic requirements.
