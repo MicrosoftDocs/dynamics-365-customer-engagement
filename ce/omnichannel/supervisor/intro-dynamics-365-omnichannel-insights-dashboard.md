@@ -15,6 +15,9 @@ ms.custom:
 
 # Introduction to Dynamics 365 omnichannel insights dashboard
 
+> [!IMPORTANT]
+> Customers must ensure they comply with all applicable laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+
 Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. These metrics seen through trends over a period of time helps them understand how each agent and queue is performing over time, so that they can take corrective measures and provide appropriate guidance to agents and fine tune the customer support experience provided.
 
 Supervisors can use Omnichannel Insights to perform the following tasks: 
