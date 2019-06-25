@@ -34,7 +34,7 @@ You customize the quick view form (section) by navigating to the respective enti
 5.  In the form, select the section for which you want to add a field, and then in the **Field Explorer** pane, double-click the field you want to add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to the section.
 
  > [!div class=mx-imgBorder]
- > ![add or revmoe fields from Customer summary form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from Customer summary form")  
+ > ![Customize quick view form](../media/oc-crm-add-remove-fields-customer360.png "Customize quick view form")  
 
 6.  Select **Save** and then select **Publish**.
 
