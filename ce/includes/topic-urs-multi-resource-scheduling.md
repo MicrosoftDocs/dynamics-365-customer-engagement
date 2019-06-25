@@ -21,18 +21,18 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 ## 1. Create a requirement group template
 
-- Navigate to **Universal Resource Scheduling** > **Settings** > **Requirement Group Templates** , and then select **New**.
+1. Navigate to **Universal Resource Scheduling** > **Settings** > **Requirement Group Templates** , and then select **New**.
 
-- Enter a name for the requirement group, and set the **Is Template** field to **Yes**. Select **Save**. You will see a grid view of requirement details with a root requirement named after the template.
+2. Enter a name for the requirement group, and set the **Is Template** field to **Yes**. Select **Save**. You will see a grid view of requirement details with a root requirement named after the template.
 
-- In the root, set a duration for all related requirements. Note that changing the duration for the root or an individual requirement changes the duration for all requirements in the group. 
+3. In the root, set a duration for all related requirements. Note that changing the duration for the root or an individual requirement changes the duration for all requirements in the group. 
 
-- Select the root, and then select **Add Requirements**. Fill the fields across the columns. If you need to add details that aren't displayed in the columns, select the requirement, and then select **Open Form** to add details in the requirement form.
+4. Select the root, and then select **Add Requirements**. Fill the fields across the columns. If you need to add details that aren't displayed in the columns, select the requirement, and then select **Open Form** to add details in the requirement form.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
 
-- Set the **All** or **Any** option. Setting **All** means that all requirements must be fulfilled, so that the system searches for resources for each requirement. Setting **Any** means that the system searches for resources that can fulfill any requirement and that fulfilling one requirement fulfills the entire requirement group. 
+5. Set the **All** or **Any** option. Setting **All** means that all requirements must be fulfilled, so that the system searches for resources for each requirement. Setting **Any** means that the system searches for resources that can fulfill any requirement and that fulfilling one requirement fulfills the entire requirement group. 
 
   > [!NOTE]
   > The **All** or **Any** setting is powerful when you need to add multiple option sets to a requirement group, which is done by adding subgroups. 
@@ -44,13 +44,13 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 ## 2. Create a new requirement group
 
-- Navigate to **Universal Resource Scheduling** > **Requirement Group** > **New**.
+1. Navigate to **Universal Resource Scheduling** > **Requirement Group** > **New**.
 
-- Enter a name. 
+2. Enter a name. 
 
-- Select a template from the drop-down list, and then select **Save**.
+3. Select a template from the drop-down list, and then select **Save**.
 
-- If needed, edit the requirements, and then select **Book**.
+4. If needed, edit the requirements, and then select **Book**.
 
  > ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
 
@@ -61,7 +61,7 @@ The requirement group is noted on all related requirements.
 
 ## 3. Book the requirement group 
 
-- Select **Book** from a requirement group, which triggers the schedule assistant, as shown in the following screenshot.
+Select **Book** from a requirement group, which triggers the schedule assistant, as shown in the following screenshot.
 
  > [!div class="mx-imgBorder"]
  > ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
