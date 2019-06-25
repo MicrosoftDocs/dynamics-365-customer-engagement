@@ -160,6 +160,10 @@ When the optimization runs and automatically schedules work orders or other requ
 
 However, to better understand how RSO minimizes overall travel time, each RSO run (called a "request") displays a graph comparing total working minutes scheduled to total travel minutes for those optimized bookings. This can be compared to the same graph for requirements manually scheduled or with the schedule assistant.
 
+<!--note from editor:  At the end of above sentence, add "scheduled" before "with the schedule assistant"?  -->
+
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of travel time graph](../field-service/media/rso-travel-time-graph.png)
 
@@ -171,35 +175,39 @@ However, to better understand how RSO minimizes overall travel time, each RSO ru
 
 ## Consider traffic when scheduling
 
-To help with scheduling decisions, current traffic patterns and accidents can be displayed on the schedule board map alongside technician routes. To do this, select the traffic light icon at the top of the schedule board map. See the following screenshot for reference.
+To help with scheduling decisions, current traffic patterns and accidents can be displayed on the schedule-board map alongside technician routes. To do this, select the traffic light icon at the top of the schedule board map. See the following screenshot for reference.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of show traffic button on schedule baord map](../field-service/media/scheduling-schedule-board-traffic.png)
 
-> [!Note]
-> Travel time calculations do not reflect traffic patterns or historical travel times based on time of day or year.
+> [!NOTE]
+> Travel time calculations do not reflect traffic patterns or historical travel times based on the time of day or year.
 
-Scheduling based on real-time traffic is generally not applicable since most organizations schedule days or weeks in advance and you cannot predict real time traffic ahead of time. 
+Scheduling based on real-time traffic is generally not applicable because most organizations schedule days or weeks in advance, and you can't predict real-time traffic ahead of time. 
 
-Bing Maps and other mapping providers can provide real-time and historical travel time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate if the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
+Bing Maps and other mapping providers can provide real-time and historical travel-time calculations, and this information can be called with [Microsoft Flow](https://flow.microsoft.com/galleries/public/templates/71e9c3773102499fafba51edf94ebbd7/get-travel-time-and-distance-in-current-traffic-to-reach-the-destination/) to calculate whether the current travel time is greater than the estimated travel time and automatically update the booking status accordingly.
 
-If a field technician begins travel to his or her next work order and sees the travel time is much longer than estimated by the system, then he or she should indicate this with a custom booking status of "running late" so dispatchers can plan accordingly. 
+If a field technician begins travel to their next work order and sees that the travel time is much longer than estimated by the system, then they should indicate this with a custom booking status of "running late," so dispatchers can plan accordingly. 
 
 ## Configuration considerations
 
-- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account related details to work orders](../field-service/work-order-customer-account.md) for more details.
-- A field technician's current location as derived from his or her mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing) for more details.
-- Field Service uses the Bing Maps API for travel time and distance calculations, but other APIs such as Google Maps can be utilized as well.
-- By default, work order requirements have a work location of **Onsite**, but default work location can be edited for each scheduleable entity by going to **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >** then double-clicking an **Enabled Entity**.  
+- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account-related details to work orders](../field-service/work-order-customer-account.md) for more details.
+- A field technician's current location as derived from their mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing) for more details.
+- Field Service uses the Bing Maps API for travel time and distance calculations, but other APIs such as Google Maps can be used as well.
+- By default, work order requirements have a work location of **Onsite**, but default work location can be edited for each schedulable entity by going to **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >**, and then selecting **Enabled Entity**.  
 
 ## Additional notes
 
-- The out-of-the-box functionality only supports travel time and distance calculations for driving, not walking or flying.
+- The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
 
 ### Auto Update Booking Travel Field Service v8.6+**
 
 The auto travel time update feature for manual scheduling needs two locations to work. For example, if a resource has a starting location and the first requirement scheduled to the resource has a location (for instance, work location is **On site**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, resource start location is **Location Agnostic**), the first on site requirement scheduled will not have a travel time. However, if an on site requirement is scheduled after another on site requirement, then the feature has two known locations and the travel time between the two requirements will be calculated, **even if the resource is location agnostic**.
+
+
+<!--note from editor: Does the UI use "Onsite" or "On site"?    -->
+
 
 Here are a few more notes about the Auto Update Booking Travel feature:
 
