@@ -40,7 +40,7 @@ To schedule multiple resources with requirement groups, follow these steps:
   > In the following screenshot example, the root requirement is set to **Any**, but each option within the root is set to **All**. This means that when attempting to book the requirement group, the system searches for either **all of option 1** *or* **all of Option 2**. The system searches for two resources, each with one required skill (characteristic), *or* searches for one resource with two required skills.
     ![Screenshot of requirement group with two options](../common-scheduler/media/scheduling-multi-resource-2-options.png)
 
-- Save the requirement group template.
+6. Save the requirement group template.
 
 ## 2. Create a new requirement group
 
@@ -52,9 +52,9 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 4. If needed, edit the requirements, and then select **Book**.
 
- > ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
+  > ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
 
-The requirement group is noted on all related requirements.
+  The requirement group is noted on all related requirements.
 
  > [!div class="mx-imgBorder"]
  > ![Screenshot of requirement group lookup from individual requirements](../common-scheduler/media/scheduling-multi-resource-rg-field.png)
