@@ -29,15 +29,15 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 4. Select the root, and then select **Add Requirements**. Fill the fields across the columns. If you need to add details that aren't displayed in the columns, select the requirement, and then select **Open Form** to add details in the requirement form.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of requirement group with two requirements](../common-scheduler/media/scheduling-multi-resource-2-requirements.png)
 
 5. Set the **All** or **Any** option. Setting **All** means that all requirements must be fulfilled, so that the system searches for resources for each requirement. Setting **Any** means that the system searches for resources that can fulfill any requirement and that fulfilling one requirement fulfills the entire requirement group. 
 
-  > [!NOTE]
-  > The **All** or **Any** setting is powerful when you need to add multiple option sets to a requirement group, which is done by adding subgroups. 
-  >
-  > In the following screenshot example, the root requirement is set to **Any**, but each option within the root is set to **All**. This means that when attempting to book the requirement group, the system searches for either **all of option 1** *or* **all of Option 2**. The system searches for two resources, each with one required skill (characteristic), *or* searches for one resource with two required skills.
+   > [!NOTE]
+   > The **All** or **Any** setting is powerful when you need to add multiple option sets to a requirement group, which is done by adding subgroups. 
+   >
+   > In the following screenshot example, the root requirement is set to **Any**, but each option within the root is set to **All**. This means that when attempting to book the requirement group, the system searches for either **all of option 1** *or* **all of Option 2**. The system searches for two resources, each with one required skill (characteristic), *or* searches for one resource with two required skills.
     ![Screenshot of requirement group with two options](../common-scheduler/media/scheduling-multi-resource-2-options.png)
 
 6. Save the requirement group template.
@@ -98,18 +98,18 @@ Refer to the first section of this topic for instructions.
 1. Navigate to **Field Service Settings** > **Incident Types**.
 2. Select an incident type, or create a new one.
 
-  > [!NOTE]
-  > Incident types with characteristics cannot relate to requirement group templates.
+   > [!NOTE]
+   > Incident types with characteristics cannot relate to requirement group templates.
 
 3. Select **Requirement Group** under related entities, and select **add a new one**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of requirement group template from incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of requirement group template from incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt.png)
 
 4. Select a requirement group template from the drop-down menu to associate the template with the incident type, and then select **Save**.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of associating requirement group template with incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of associating requirement group template with incident type](../common-scheduler/media/scheduling-multi-resource-incident-rgt2.png)
 
 ### 3. Add the incident type to a work order
 
@@ -117,10 +117,10 @@ Refer to the first section of this topic for instructions.
 
 2. Fill out required work order details, and add the incident type **before saving**.
 
-  This is done by choosing an incident type for the **Primary Incident Type** field or navigating to **Work Order Incident Types**.
+   This is done by choosing an incident type for the **Primary Incident Type** field or navigating to **Work Order Incident Types**.
 
-   > [!NOTE]
-   > When an incident type with a requirement group template is added to a work order, the number of work order incidents is limited to one.
+    > [!NOTE]
+    > When an incident type with a requirement group template is added to a work order, the number of work order incidents is limited to one.
 
 3. Navigate to **Work Order** > **Requirement Groups** to verify that requirements have been added to the work order according to the requirement group template.
 
