@@ -42,6 +42,8 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 6. Save the requirement group template.
 
+<!--note from editor: Suggest moving text inside above Note into normal text, as part of list item #5.   -->
+
 ## 2. Create a new requirement group
 
 1. Navigate to **Universal Resource Scheduling** > **Requirement Group** > **New**.
@@ -76,6 +78,9 @@ If multiple bookings are created when scheduling a requirement group, you can us
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of split view of schedule board view of requirement group bookings](../common-scheduler/media/scheduling-multi-resource-split-view.png)
+
+<!--note from editor:  I don't see the names in the screenshot--Brady Hannon, Christal Robles, etc--on the approved fictitious names list  -->
+
 
 In the preceding screenshot, the lower split view shows all bookings scheduled from the requirement group.
 
