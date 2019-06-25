@@ -52,19 +52,19 @@ To schedule multiple resources with requirement groups, follow these steps:
 
 4. If needed, edit the requirements, and then select **Book**.
 
-  > ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
+   > ![Screenshot showing where to find book command for requirement group](../common-scheduler/media/scheduling-multi-resource-group.png)
 
   The requirement group is noted on all related requirements.
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of requirement group lookup from individual requirements](../common-scheduler/media/scheduling-multi-resource-rg-field.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of requirement group lookup from individual requirements](../common-scheduler/media/scheduling-multi-resource-rg-field.png)
 
 ## 3. Book the requirement group 
 
 Select **Book** from a requirement group, which triggers the schedule assistant, as shown in the following screenshot.
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of schedule assistant for requirement group](../common-scheduler/media/scheduling-multi-resource-schedule-assistant.png)
 
 The schedule assistant displays different options to fulfill the requirement group, noting the particular requirement it is fulfilling in the Requirement column. 
 
@@ -74,8 +74,8 @@ Selecting and booking an option for multiple requirements creates multiple booki
 
 If multiple bookings are created when scheduling a requirement group, you can use the split view feature on the schedule board to view all related bookings.  
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of split view of schedule board view of requirement group bookings](../common-scheduler/media/scheduling-multi-resource-split-view.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of split view of schedule board view of requirement group bookings](../common-scheduler/media/scheduling-multi-resource-split-view.png)
 
 In the preceding screenshot, the lower split view shows all bookings scheduled from the requirement group.
 
@@ -124,15 +124,15 @@ Refer to the first section of this topic for instructions.
 
 3. Navigate to **Work Order** > **Requirement Groups** to verify that requirements have been added to the work order according to the requirement group template.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group added to work order when work order incident type is created](../common-scheduler/media/scheduling-multi-resource-work-order-requirements.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of requirement group added to work order when work order incident type is created](../common-scheduler/media/scheduling-multi-resource-work-order-requirements.png)
 
 ### 4. Book the work order
 
 Select **Book** to schedule the work order.
 
- > [!div class="mx-imgBorder"]
- > ![Screenshot of scheduling requirement group from a work order via schedule assistant](../common-scheduler/media/scheduling-multi-resource-work-order-book.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of scheduling requirement group from a work order via schedule assistant](../common-scheduler/media/scheduling-multi-resource-work-order-book.png)
 
 ## Tips for using templates for requirement groups
 
