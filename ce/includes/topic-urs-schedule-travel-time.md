@@ -1,22 +1,22 @@
-Field Service organizations often perform preventative maintenance, inspections, repairs, and other types of service by sending field technicians to multiple customer sites, and must actively manage locations and routes. This makes understanding and minimizing travel time critical for a field service organization's success.
+Field service organizations often perform preventative maintenance, inspections, repairs, and other types of services by sending field technicians to multiple customer sites, and they must actively manage locations and routes. This makes understanding and minimizing travel time critical for a field service organization's success.
 
 Using Bing Maps API by default, Dynamics 365 for Field Service calculates the driving travel time and distance as field technicians travel:
 
-1. from their personal address to a work order location
-2. from a company address to a work order location
-3. from their current work order location to the next work order location
-4. from their current location to a work order location (typically for high priority emergencies)
+- From their personal address to a work order location.
+- From a company address to a work order location.
+- From their current work order location to the next work order location.
+- From their current location to a work order location (typically for high-priority emergencies).
 
 In this topic, we will explore how travel time and distance are calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with Resource Scheduling Optimization (RSO).
 
 ## Prerequisites
 1. Connect your Dynamics 365 environment to Bing Maps. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling). This allows you to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
    
-2. Set auto geo code addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geo code accounts and work orders when addresses are entered. Geo coding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
+2. Set auto geocode addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
-3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geo coded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
+3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
-4. Understand that only requirements where **Work Location = Onsite** and have **latitude and longitude values** are eligible for travel time calculations. 
+4. Understand that only requirements for which **Work Location** is set to **Onsite** and for which latitude and longitude values are specified are eligible for travel time calculations. 
 
 In the following screenshot, a work order has **Work Location** set to **Onsite**; this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field, the location of the requirement, and the location of the resource in order to calculate travel time.
 
