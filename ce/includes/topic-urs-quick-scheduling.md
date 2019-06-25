@@ -1,37 +1,44 @@
-Quick scheduling (sometimes referred to as quick book) simplifies the schedule assistant experience to make scheduling easier and quicker.
+Quick scheduling (sometimes referred to as “quick book”) simplifies the schedule assistant experience to make scheduling easier and quicker.
 
-Within the same window of a work order, a panel will appear showing available booking time slots with a single click.
+Within the same window of a work order, a single click brings up a pane showing available booking time slots.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick schedule pane appearing over an open work order](../field-service/media/scheduling-quick-book.png)
 
 This is useful in several scenarios:
 
-1. Organizations with a high volume of bookings that they need to quickly schedule.
-2. Organizations with call center workers, who may need to schedule while on the phone with customers, and need to do so quickly to respect the caller's time. 
-3. Organizations with schedulers who don't need to see the extra details provided by the schedule assistant or manipulate the filters to make a resource assignment.
-4. For people in scenarios where scheduling is not their primary job. For example, a customer service representative spends most of his time handling customer issues, and the few times he needs to schedule, it should be quick and easy.
+- Organizations with a high volume of bookings that they need to quickly schedule.
+- Organizations with call-center workers who might need to schedule while they are on the phone with a customer, and need to do so quickly to respect the caller's time. 
+- Organizations with schedulers who don't need to see the extra details provided by the schedule assistant or manipulate the filters to make a resource assignment.
+- People for whom scheduling is not their primary job. For example, customer service representatives spends most of their time handling customer issues, and the few times they need to schedule, it should be quick and easy.
 
-When quick scheduling is not enabled, the book button defaults to the full schedule assistant experience that displays additional information and filter options for more comprehensive resource assigning.
+When quick scheduling is not enabled, the **Book** button defaults to the full schedule assistant experience, which displays additional information and filter options for more comprehensive resource assigning.
+
+<!--note from editor: Throughout the screenshots in this topic, the people names are not on the approved fictitious names list.   -->
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule assistant in Dynamics 365 for Field service](../field-service/media/scheduling-quick-book-schedule-assistant.png)
 
 ## Prerequisites
 
-- Field Service v8.7+. See the additional notes section at the end of this article for more details.
+- Dynamics 365 for Field Service version 8.7 or later. See the additional notes section at the end of this article for more details.
 
 - Quick scheduling must be enabled: 
   - Go to **Resource Scheduling** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
 
-  - Double-click an entity to display the entity's **Booking Setup Metadata**.
+  - Select an entity to display the entity's **Booking Setup Metadata**.
 
   - Set **Enable Quick Book** to **Yes**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Enable Quick Book set to "Yes"](../field-service/media/scheduling-enable-quick-book.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of Enable Quick Book set to "Yes"](../field-service/media/scheduling-enable-quick-book.png)
 
-In the previous example, we enabled quick book for the work order entity, meaning quick book will trigger from the work order form and requirements created by work orders. The process is the same for enabling quick booking for other entities you have enabled for scheduling. 
+In the preceding example, we enabled quick book for the work order entity, meaning quick book will trigger from the work order form and requirements created by work orders. The process is the same for enabling quick booking for other entities you have enabled for scheduling. 
+
+<!--note from editor: Is the feature called "quick book" or "quick booking"? OK to use "quick book" as a verb?   -->
+
 
 However, not all scheduling relates to other entities. Some organizations use requirements on their own for scheduling. Organizations like this should enable quick book for the **Default Metadata Settings (none)** option.
 
@@ -47,25 +54,25 @@ First, create a work order or another entity that is enabled for scheduling and 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a new work order entity](../field-service/media/scheduling-quick-book-create-work-order.png)
 
-Then go to the related requirement and add additional attributes.
+Then, go to the related requirement and add additional attributes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the related resource requirement](../field-service/media/scheduling-quick-book-requirement.png)
 
-In our previous example screenshot, we are looking for a resource within the specified date range with the "Assembly Repair" skill and part of the "Seattle" organizational unit.
+In this example screenshot, we are looking for a resource who is available within the specified date range, who has the "Assembly Repair" skill, and who is part of the "Seattle" organizational unit.
 
-### 2. Select book
+### 2. Select Book
 
-From the requirement or the work order, select **Book** in the top ribbon. This opens the quick book side panel. If quick book is not enabled, the **Book** button triggers the schedule assistant interface.
+From the requirement or the work order, select **Book** in the top ribbon. This opens the quick book pane. If quick book is not enabled, the **Book** button triggers the schedule assistant interface.
 
-Next, select a time slot and then **Book** at the bottom.
+Next, select a time slot, and then select **Book** in the lower-right side of the pane.
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the quick book side panel triggered from a work order](../field-service/media/scheduling-quick-book.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a quick book booking summary in the side panel](../field-service/media/scheduling-quick-book-confirmation.png)
+> ![Screenshot of the quick book pane triggered from a work order](../field-service/media/scheduling-quick-book.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a booking summary in the quick book pane](../field-service/media/scheduling-quick-book-confirmation.png)
 
 
 In the background, the system chooses an available resource that also meets requirement criteria like skills, organizational unit, and so on.
@@ -78,7 +85,7 @@ For location-agnostic requirements, the system chooses the first available resou
 > ![Screenshot of the filter and map view including resources and the booking](../field-service/media/scheduling-quick-book-schedule-board.png)
 
 ### 3. Filter options 
-Though quick scheduling is designed for quick and easy scheduling, there are a few simple filters in the quick book pane.
+Although quick scheduling is designed for quick and easy scheduling, there are a few simple filters in the quick book pane.
 
 The date range is taken from the requirement date range and can be changed.
 
