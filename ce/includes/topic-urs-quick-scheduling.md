@@ -75,9 +75,9 @@ Next, select a time slot, and then select **Book** in the lower-right side of th
 > ![Screenshot of a booking summary in the quick book pane](../field-service/media/scheduling-quick-book-confirmation.png)
 
 
-In the background, the system chooses an available resource that also meets requirement criteria like skills, organizational unit, and so on.
+In the background, the system chooses an available resource that also meets requirement criteria like skills and organizational unit. 
 
-If the requirement is location-based, as in the case of on site work orders or facilities, the system chooses the closest resource. The closest resource is determined based on the resource's starting location or previous work order location. 
+If the requirement is location-based, as in the case of onsite work orders or facilities, the system chooses the closest resource. The closest resource is determined based on the resource's starting location or previous work order location. 
 
 For location-agnostic requirements, the system chooses the first available resource based on alphabetical order of the resource's first name. 
 
@@ -121,12 +121,12 @@ In the following screenshot example, we need two resources, each with different 
 
 For further details, see the [topic on requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md).
 
-Select a row and open the form to edit more fields.
+Select a row, and open the form to edit more fields.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of requirement group details](../field-service/media/scheduling-quick-book-rg-open-form.png)
 
-These requirements call for resource types **contact, user, and account** and have a work location of **Onsite** with a defined location (latitude and longitude). This means we are sending resources to the customer's location.
+These requirements call for resource types **contact**, **user**, and **account** and have a work location of **Onsite** with a defined location (latitude and longitude). This means we are sending resources to the customer's location.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of resource requirements with attention to type and location](../field-service/media/scheduling-quick-book-rg-open-form2and3.png)
 
@@ -137,7 +137,7 @@ Again, you can select a time slot and then **Book** to assign the requirement gr
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the quick book pane showing a calendar and a list of resource groups](../field-service/media/scheduling-quick-book-rg-results-onsite.png)
 
-The results are displayed in order of average travel time and distance. Because each resource might be traveling from a different location, travel time and distance is calculated as an average. 
+The results are displayed in order of average travel time and distance. Because each resource might be traveling from a different location, travel time and distance are calculated as averages. 
 
 Lastly, as discussed in the [requirement groups topic](../field-service/multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets, and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of the required skills.
 
@@ -158,14 +158,14 @@ The purpose of quick scheduling is to simplify the scheduling process. Fulfillme
 
 1. Create a fulfillment preference. In this example, we created a fulfillment preference with 1-hour intervals.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an example fulfillment preference](../field-service/media/scheduling-quick-book-fulfillment-preference.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of an example fulfillment preference](../field-service/media/scheduling-quick-book-fulfillment-preference.png)
 
 2. Add the fulfillment preference to a requirement and quick book. The quick book results will appear in hourly intervals.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the quick book panel with 1-hour intervals](../field-service/media/scheduling-quick-book-fulfillment-preference-results.png)
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of the quick book panel with 1-hour intervals](../field-service/media/scheduling-quick-book-fulfillment-preference-results.png)
 
 See our [topic on fulfillment preferences](../field-service/set-up-time-groups.md) for more information. 
 
