@@ -50,7 +50,7 @@ As field technicians complete work, they can update the booking status to **Trav
 > [!div class="mx-imgBorder"]
 > ![Screenshot of changing booking status to traveling](../field-service/media/scheduling-board-travel-status.png)
 
-When field technicians arrive onsite, they can update the booking status to **In progress**, indicating work has begun. The system tracks the duration of time the booking status is set to **in progress** and updates the **Total Duration In Progress** booking field. Finally, when the booking is complete (in other words, the booking status is set to **Completed**), the booking **End Time** is updated, and the booking length is updated visually on the schedule board.
+When field technicians arrive onsite, they can update the booking status to **In progress**, indicating work has begun. The system tracks the duration of time the booking status is set to **In progress** and updates the **Total Duration In Progress** booking field. Finally, when the booking is complete (in other words, the booking status is set to **Completed**), the booking **End Time** is updated, and the booking length is updated visually on the schedule board.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of changing booking status to completed](../field-service/media/scheduling-board-completed-status.png)
@@ -123,7 +123,7 @@ When triggered from the schedule board, the schedule assistant shows resources w
 
 This is predicated on the following:
 
-- The work order requirement has a work location of **on site**. 
+- The work order requirement has a work location of **Onsite**. 
 - The work order requirement has a location (latitude and longitude). 
 - The resources displayed have defined locations.
 
@@ -207,16 +207,15 @@ If a field technician begins travel to their next work order and sees that the t
 
 ## Additional notes
 
-- The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
+The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
 
 ### Auto Update Booking Travel for Field Service version 8.6 and later**
 
-The Auto Update Booking Travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **On site**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
-
-<!--note from editor: Is "Location Agnostic" the capping that appears in the UI?   -->
+The Auto Update Booking Travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **Onsite**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
 
 
-<!--note from editor: Does the UI use "Onsite" or "On site"? (dictionary spelling is "onsite")   -->
+
+
 
 <!--note from editor: Suggest limiting the use of boldface to UI elements. MWSG says it's OK to use italic formatting sparingly for emphasis.   -->
 
