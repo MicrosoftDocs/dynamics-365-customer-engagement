@@ -18,7 +18,7 @@ ms.custom:
 Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. 
 
 > [!IMPORTANT]
-> The supervisor dashboards is not available in the GCC region.
+> The supervisor dashboards are not available in the GCC region.
 
 As an administrator, you must configure the configure the historical chat and sentiment insights dashboards to display in Omnichannel Engagement Hub app for supervisors to use. You must perform the following steps to configure the historical chat and sentiment insights dashboards: 
 
