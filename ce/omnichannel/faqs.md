@@ -33,10 +33,17 @@ Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/
 Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to get help on the issues you face.
 
 ### What additional channels are supported with this release?
-This release adds support for chat. Please also try out our SMS channel, currently in preview. For upcoming channels and capabilities, see the 2019 release wave 2 plan.
+This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
-Are Chat and the associated Omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 Customer Engagement license?
-No, Chat and related Omnichannel capabilities require a separate add-in. For additional details on pricing, see here.
-How do I get started?
+## Are Chat and the associated Omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 Customer Engagement license?
+No, Chat and related Omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
-If you are looking to try out Chat for free, sign up for a trial using the instructions here. You can find information about Omnichannel for Customer Service and how to quickly get started here. Information about prerequisites for setting up Omnichannel on your organization is available here.
+## How do I get started?
+If you are looking to try out Chat for Dynamics 365 for free, sign up for a trial using the [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/introduction-omnichannel) and [Pre-requisites](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/system-requirements-omnichannel#pre-requisites) for setting up Omnichannel on your organization.
+
+## Agent Experiences
+
+### Can I use Chat for Dynamics 365 in Customer Service Hub app module or any custom app module? 
+No. You can only use Chat for Dynamics 365 in the **Omnichannel for Customer Service** app.  The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-sign-in-omnichannel).
+
+
