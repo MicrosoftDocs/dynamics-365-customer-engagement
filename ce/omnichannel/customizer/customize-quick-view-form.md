@@ -39,7 +39,7 @@ You customize the quick view form (section) by navigating to the respective enti
 6.  Select **Save** and then select **Publish**.
 
 > [!TIP]
-> To create a new quick view form, see [How to create a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#create-a-quick-view-form)  
+> To create a new quick view form, see [Edit a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 You can also use the previous procedure to add or remove fields in other sections. In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
 
