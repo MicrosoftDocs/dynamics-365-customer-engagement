@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear in the **Solutions** page of your Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete.
+When you upgrade Omnichannel for Customer Service to the latest release, certain managed solutions appear in the **Solutions** page of your Customer Engagement organization. After the upgrade is complete, you must delete the solution from the previous release if the upgrade does not delete. In addition, if your organization is using **Customer Service Hub** app, then you must delete the app from the channel configuration in the **Channel Integration Framework** app.
 
 ## Delete OmnichannelCustomerServiceHub solution
 
@@ -40,6 +40,20 @@ The steps describe how to delete the solution from your Customer Engagement orga
     > ![Delete Omnichannel Solution](../media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")  
 
 You have deleted the **OmnichannelCustomerServiceHub** solution from your Customer Engagement organization.
+
+## Remove Customer Service Hub from channel provider configuration
+
+The steps describe how to delete the solution from your Customer Engagement organization.
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+   
+3. Select the record that is related to omnichannel.
+   
+4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
+   
+5. Select **Save** to save the record.
 
 ## See also
 
