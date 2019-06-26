@@ -30,12 +30,12 @@ Quick replies are pre-defined messages that can be created for agents to quickly
     - **Locale**: Specify the locale of the message.
 
         > [!NOTE]
-        > In this preview, the **Locale** field can't be edited.
+        > In this release, the **Locale** field can't be edited.
 
     - **Message**: Enter the text of the message.
 
         > [!NOTE]
-        > This field supports slugs, but the slug editor isn't available in this preview.
+        > This field supports slugs, but the slug editor isn't available in this release.
 
     > [!div class=mx-imgBorder]
     > ![Create a quick reply](../media/oc-create-a-quick-reply.png "Create a quick reply")

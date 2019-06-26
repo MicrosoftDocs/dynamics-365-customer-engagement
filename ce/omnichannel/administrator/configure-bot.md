@@ -26,7 +26,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 A bot is a program that provides automated responses in a conversational manner to a customer. It can also help in resolving customer queries by using case deflection. A bot can also collect basic information from a customer and then provided it to a customer service agent to work further on the issue raised by the customer.  
 
-A bot eases the load on your customer service agents by handling basic queries. This saves some of your agent's time and they can work on more complex issues. You can configure your bots to escalate the query to a human agent as and when required by the customer.
+A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time and they can work on more complex issues. You can configure your bots to escalate the query to a human agent as and when required by the customer.
 
 In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required. Let's now see how to integrate a bot with Omnichannel for Customer Service.
 
@@ -40,7 +40,6 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues)
 3.  [Add code snippet to engage a bot](#step-3-add-code-snippet-to-engage-a-bot)
 4.	[Set escalation rules](#step-3-set-escalation-rules)
-
 
 
 ### Step 1: Create a bot user
@@ -161,7 +160,7 @@ This sample provides exact steps and configuration values to integrate a bot and
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent](../media/home-loan-rule.png "Create a rule to send customer query from bot to an agent")
 
-When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. Bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md).
+When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](../developer/bot-escalate-end-conversation.md).
 
 ## Privacy notice
 
