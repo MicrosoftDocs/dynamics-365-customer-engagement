@@ -70,7 +70,7 @@ No. Only the primary agent of the chat can initiate transfers or consults. If th
 ### My presence isn’t loading or it’s showing Unknown. What should I do?
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
 - Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel Engagement Hub](administrator/add-users-assign-roles.md).
-- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles). 
+- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md). 
 
 ### My agent dashboard isn’t loading or is giving an authorization error. What should I do?
 - Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
