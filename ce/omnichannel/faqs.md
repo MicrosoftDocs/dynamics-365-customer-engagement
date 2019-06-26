@@ -39,11 +39,11 @@ This release provides support for Chat for Dynamics 365 and SMS (preview). For u
 No, Chat and related omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
 ### How do I get started?
-If you would like to try out Chat for Dynamics 365 Customer Service for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up omnichannel in your organization.
 
 ## Agent experiences
 
-### Can I use Chat for Dynamics 365 Customer Service in the Customer Service Hub app module or any custom app module? 
+### Can I use Chat for Dynamics 365 in the Customer Service Hub app module or any custom app module? 
 No. You can only use Chat in the **Omnichannel for Customer Service** app.  The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](agent/agent-oc/oc-sign-in-omnichannel.md).
 
 ### Can I work on cases along with chats? 
@@ -51,7 +51,7 @@ Yes. You can work on cases alongside customer conversations in different session
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
 
-Omnichannel for Customer Service supports Chat for Dynamics 365 Customer Service and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
+Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows? 
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
@@ -174,7 +174,7 @@ No. Omnichannel routing can be used to route chat or SMS requests (in preview) o
 Please note that the SMS channel is currently in preview and is not a part of the Generally Available product. You can sign up for the Omnichannel for Customer Service - Preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### How can I sign up to use the SMS channel preview?
-You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 Customer Service in your tenant.
+You can sign up for the Omnichannel for Customer Service – Preview program on the [Dynamics Insider portal](https://experience.dynamics.com/insider/). The product team will get back to you once preview is enabled for your organization. You will need an account with TeleSign (with two-way SMS). Preview of the SMS channel will work only if you have an active subscription for Chat for Dynamics 365 in your tenant.
 
 ### What information from a TeleSign account do I need to enter in Dynamics 365?
 You will need the customer ID, API key, and the phone number from your TeleSign account. This information needs to be provided in Dynamics 365 when you create or set up an SMS workstream.
