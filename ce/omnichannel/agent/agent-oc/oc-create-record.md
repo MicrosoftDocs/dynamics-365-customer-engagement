@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 When no records are linked to the conversation in Omnichannel for Customer Service, you can create a record. You can create a new record in two ways:
 
 - [Create a new record from the Customer Summary page](oc-create-record.md#create-a-new-record-from-the-customer-summary-page)

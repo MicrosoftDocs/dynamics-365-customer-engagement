@@ -17,9 +17,7 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-The Omnichannel for Customer Service app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions.
+The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 and SMS. The app provides context rich multi-tasking experience across different customer interactions.
 
 ## Value propositions of Omnichannel for Customer Service app:
 
@@ -43,6 +41,7 @@ The Omnichannel for Customer Service provides key capabilities like:
 - Multi-session
 - Application tabs associated with sessions
 - Customer summary
+- Communication panel
 - Presence management
 - Notifications
 - Consult with agents and/or supervisors

@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 
 This topic describes how to configure customer summary page for agents to view customer and conversation details and engage with customers. When agents accept an incoming conversation notification request, they see the details of the customer and conversation using the customer summary page.
 

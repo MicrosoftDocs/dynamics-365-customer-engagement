@@ -17,10 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-The Omnichannel for Customer Service provides a unified experience for your agents interacting across communication channels to deliver an enhanced customer service.
-
 ## Sign in to Omnichannel for Customer Service
 
 To sign in to Omnichannel for Customer Service, do the following:
