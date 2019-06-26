@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 1. Sign in to Omnichannel for Customer Service.
 2. Go to **Administration** &gt; **Chat**.
 3. Select **New** to create a chat widget.

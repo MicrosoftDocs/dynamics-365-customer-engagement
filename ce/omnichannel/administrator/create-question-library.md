@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can create survey questions and associate them with a work stream. You can then use those questions to create pre-chat surveys for chat widgets that are associated with the work stream.
 
 1. Sign in to Omnichannel for Customer Service.

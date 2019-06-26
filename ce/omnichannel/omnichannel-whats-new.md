@@ -26,7 +26,7 @@ ms.custom:
 
     More information: [](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
 
-- **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used switch the timeline based on the Case, Contact, or Account record linked to the conversation.
+- **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
     > [!div class='mx-imgBorder']
     > ![View only the linked records in the drop-down](media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")
@@ -102,7 +102,6 @@ More information: [Agents using Omnichannel for Customer Service app](agent/agen
 - **Configure Omnichannel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omnichannel for Customer Service. Learn how to configure the following components:
 
     - [Omnichannel agent dashboard](customizer/configure-agent-dashboard.md)
-    - [Advanced search](customizer/configure-advanced-search.md)
     - [Communication panel](customizer/configure-communication-panel.md)
     - [Customer summary](customizer/configure-customer-summary.md)
     - [Notifications](customizer/configure-notification-screen-pop-agents.md)
@@ -127,7 +126,7 @@ This topic contains information about updates in Omnichannel for Customer Servic
 
 - **Agent display name configuration**: To protect an agent's privacy, you can configure your chat widget to display either full name, first name, last name, or nickname of an agent to the customers. If you would like to hide your agent's identity and anonymize, choose to display the nickname. More information: [Configure agent display name](administrator/agent-display-name.md)
 
-- **Simplified configuration experience for administrators**: With this release, administrators can now configure varied customer experiences separately for chat and entity channels. More information: [Configure a chat channel](administrator/set-up-chat-widget.md) and [Configure an entity channel](administrator/create-entity-channel.md)
+- **Simplified configuration experience for administrators**: With this release, administrators can now configure varied customer experiences separately for chat and entity channels. More information: [Configure a chat channel](administrator/set-up-chat-widget.md)
 
     Configure context variables and routing rules in work streams to ensure that conversations are distributed to appropriate agents. More information: [Understand and create work streams](administrator/work-streams-introduction.md)
 

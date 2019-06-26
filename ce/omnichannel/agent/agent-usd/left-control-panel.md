@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts different channels.
 
 For a conversation channel:
@@ -136,9 +134,9 @@ After you type **/t** or **/tq** in the communication panel messaging area, you 
 
 ## See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
+- [View customer summary and know everything about customers](customer-summary.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
 - [Link and unlink a record](link-unlink-record.md)

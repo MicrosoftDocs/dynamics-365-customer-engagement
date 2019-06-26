@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 > [!NOTE]
 > The topic applies when you want to use Omnichannel for Customer Service with Unified Service Desk client application.
 
@@ -47,6 +45,6 @@ Make sure you computer meets all requirements before you install the Unified Ser
 - [Configure recommended settings for Unified Service Desk](configure-settings-unified-service-desk.md)
 - [Deploy Omnichannel for Customer Service package on Unified Service Desk](omnichannel-customer-service-package.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](../customizer/create-agent-supervisor-configurations-unified-service-desk.md)
-- [Customize Customer summary form](../customizer/customize-customer-360-page.md)
-- [Customize the conversation form](../customizer/customize-conversation-form.md)
+- [Customize Customer summary form](../customizer/customize-customer-summary.md)
+- [Customize the conversation form](../customizer/customize-session-form.md)
 - [Configure notification (Screen pop) for agents](../customizer/configure-notification-screen-pop-agents.md)

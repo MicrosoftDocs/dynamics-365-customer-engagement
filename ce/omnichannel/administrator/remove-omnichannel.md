@@ -24,15 +24,15 @@ You can remove Omnichannel application and disable all channels on a Customer En
 > [!NOTE]
 > Removing Omnichannel application will not delete Omnichannel solutions. To delete Omnichannel solutions, see [Delete Omnichannel solutions](delete-solution.md).  
 
-To remove Omnichannel application from the organization,
+To remove the Omnichannel application from the organization,
 
-1.	In the Dynamics 365 administration center, select the omnichannel application, and select **Manage**.
+1.	In the Dynamics 365 administration center, select the Omnichannel application, and select **Manage**.
  
-    ![Select Manage for the Omnichannel app](../media/manage-omnichannel-application.png "Select Manage for the Omnichannel app")
+    ![Select Manage for the Omnichannel for Customer Service app](../media/manage-omnichannel-application.png "Select Manage for the Omnichannel for Customer Service app")
 
-    The **Manage Instances of Omnichannel** page is displayed.
+    The **Manage Omnichannel instances** page is displayed.
 
-2.	On the **Manage Instances of Omnichannel** page, choose the instance and select **Remove Omnichannel**. 
+2.	On the **Manage Omnichannel instances** page, choose the instance and select **Remove Omnichannel**. 
 
     ![Remove button on the Manage Omnichannel instances page](../media/choose-remove-manage-instances.png "Remove button on the Manage Omnichannel instances page")
  

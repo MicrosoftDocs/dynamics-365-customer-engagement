@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
 2. In the Unified Service Desk sign-in dialog box, provide authentication details to connect to your Dynamics 365 for Customer Engagement server, and then select **Login**.
@@ -42,9 +40,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 You signed in to Unified Service Desk - Omnichannel for Customer Service application.
 
 > [!div class="nextstepaction"]
-> [Next topic: Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
+> [Next topic: Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
 
 ## See also
 
-- [Omni channel engagement hub for agent](omni-channel-engagement-hub-agent.md)
+- [Omni channel engagement hub for agent](omnichannel-agent.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)

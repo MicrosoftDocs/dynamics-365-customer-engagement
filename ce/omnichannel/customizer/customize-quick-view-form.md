@@ -1,6 +1,6 @@
 ---
-title: "Add or remove the fields in a form (section) | MicrosoftDocs"
-description: "Learn how to add or remove the fields in the form (section)"
+title: "Customize quick view forms | MicrosoftDocs"
+description: "Learn how to customize the quick view forms present in the Customer Summary page."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -12,16 +12,14 @@ ms.topic: article
 ms.assetid: ab116bdb-a31f-48d3-a8e6-9f4790276a63
 ms.custom: 
 ---
-# Add or remove the fields in a form (section)
+# Customize quick view forms
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-You add or remove the fields from the form (section) by navigating to the respective entities and quick view forms.
+You customize the quick view form in the section by navigating to the respective entities and quick view forms.
 
 > [!NOTE]
-> This procedure shows how to modify the **Customer Profile** form (card) in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms (cards).
+> This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms in the sections.
 
 1.  Sign in to Microsoft Dynamics 365.
 
@@ -34,30 +32,29 @@ You add or remove the fields from the form (section) by navigating to the respec
 5.  In the form, select the section for which you want to add a field, and then in the **Field Explorer** pane, double-click the field you want to add to the form. For example, double-click the **Address 1: Address Type** field from the **Field Explorer** pane. The field is added to the section.
 
  > [!div class=mx-imgBorder]
- > ![add or revmoe fields from Customer summary form](../media/oc-crm-add-remove-fields-customer360.png "Add or revmoe fields from Customer summary form")  
+ > ![Customize quick view form](../media/oc-crm-add-remove-fields-customer360.png "Customize quick view form")  
 
 6.  Select **Save** and then select **Publish**.
 
 > [!TIP]
-> To create a new quick view form, see [How to create a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#create-a-quick-view-form)  
+> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
-You can also use the previous procedure to add or remove fields in other forms (cards). In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
+You can also use the previous procedure to add or remove fields in other sections. In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
 
 | **Card**         | **Entity**         | **Quick View Form** |
 |------------------|--------------------|----------------------|
 | Customer profile | Account > Forms | Customer summary         |
 | Customer profile | Contact > Forms | Customer summary         |
 | Issue snapshot   | Case > Forms    | Issue Snapshot       |
-| Recent cases     |                 |                      |
+| Recent cases     | Account > Forms |  Cases for customer |
+| Recent cases     | Contact > Forms |  Cases for customer |
 
 > [!div class="nextstepaction"]
-> [Next topic: Customize the conversation form](customize-conversation-form.md)
+> [Next topic: Customize the session form](customize-session-form.md)
 
 ## See also
 
 - [Omnichannelsystem customizers](omnichannel-customizer.md)
-- [Customize Customer summary form](customize-customer-360-page.md)
-- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
+- [Customize Customer summary form](customize-customer-summary.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure notification (Screen pop) for agents](configure-notification-screen-pop-agents.md)

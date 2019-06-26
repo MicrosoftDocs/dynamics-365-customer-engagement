@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 You configure notifications (screen pops) in Unified Service Desk - Omnichannel for Customer Service. These notifications pop up on the screen, and they contain either general information, customer-related or process-related information that the agent can act upon. Here are some examples of the information that screen pops can contain:
 
 - Wait time
@@ -42,7 +40,7 @@ There are two types of notifications:
 ## See also
 
 - [Omnichannel system customizers](omnichannel-customizer.md)
-- [Customize Customer summary form](customize-customer-360-page.md)
-- [Customize the conversation form](customize-conversation-form.md)
+- [Customize Customer summary form](customize-customer-summary.md)
+- [Customize the conversation form](customize-session-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)

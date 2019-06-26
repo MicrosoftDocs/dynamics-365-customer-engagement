@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The topic explains how to link and unlink a record to the conversation.
 
 ## Link a record to the conversation when doing inline search
@@ -65,9 +63,7 @@ You can unlink a record only when you are interacting with customer using the co
 
 ![Select X button next the textbox to unlink](../../media/oceh-oc-unlink-customer.PNG "Unlink a record")
 
-To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank. 
-
-![Blank customer profile form after unlinking the record](../../media/oceh-oc-unlinked-form.PNG "Blank customer profile form after unlinking the record")
+To unlink a record, select the **X** button next to the customer name in the **Customer profile** form. After the record is removed, the **Customer profile** form is blank.
 
 > [!Note]
 > You can link and unlink only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
@@ -79,6 +75,6 @@ To unlink a record, select the **X** button next to the customer name in the **C
 ## See also
 
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)

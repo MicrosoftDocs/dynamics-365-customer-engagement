@@ -16,23 +16,21 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 A configuration in Unified Service Desk helps you filter access to components that are shown to users in the Omnichannel for Customer Service application. Follow these steps to create an agent configuration and a supervisor configuration.
 
 1.  Sign in to Dynamics 365.
 
 2.  Go to **Settings** > **Unified Service Desk**.
 
-3.  Click **Configuration**.
+3.  Select **Configuration**.
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  On the **New Configuration** page, in the **Name** field, type **Omnichannel Agent Configuration** and then select **Save**.
 
 6.  Now, repeat the step 4 and 5 to create **Omnichannel Supervisor Configuration**.
 
-Omnichannel Supervisor Configuration
+Omnichannel Agent Configuration
 
  > [!div class=mx-imgBorder]
  > ![new agent configuration](../media/oc-usd-crm-agent-configuration.png "New agent configuration")  
@@ -48,8 +46,6 @@ Omnichannel Supervisor Configuration
 ## See also
 
 - [Omnichannel system customizers](omnichannel-customizer.md)
-- [Customize Customer summary form](customize-customer-360-page.md)
-- [How to modify the position or alignment of the section](how-modify-position-alignment-form-section-customer360.md)
-- [How to modify the section properties of the form](how-modify-section-properties-form-section.md)
-- [Add or remove the fields in the form](add-remove-fields-form-section.md)
-- [Customize the conversation form](customize-conversation-form.md)
+- [Customize Customer summary form](customize-customer-summary.md)
+- [Add or remove the fields in the form](customize-quick-view-form.md)
+- [Customize the conversation form](customize-session-form.md)

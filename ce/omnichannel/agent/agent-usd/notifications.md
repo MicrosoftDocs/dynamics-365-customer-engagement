@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 A notification is a visual alert that you see as a message box each time that you receive a call, email, chat, or Short Message Service (SMS) conversation request from a customer. You receive notifications even when the Omnichannel for Customer Service application is minimized.
 
 Notifications show the details of the customer that you will interact with. In addition, some types of notifications include **Accept** and **Reject** buttons and indicate the action that you must perform to accept or reject the incoming conversation request. If you accept the request, a screen pop appears and shows the contextual information of the customer and case.
@@ -79,9 +77,9 @@ The details you’ll see for a SMS channel are:
  - Wait time
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+> [Next topic: View customer summary and know everything about customers](customer-summary.md)
 
 ## See also
 
 - [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)

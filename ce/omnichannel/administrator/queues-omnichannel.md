@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS or Entity records like Cases or Leads. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
 Omnichannel queues are proxies for skills or domains. For example, you can create separate queues for billing issues, investment issues, and so on. When a customer query comes for these issue types, it is routed to its designated queue.
@@ -34,7 +32,7 @@ There is a default Omnichannel queue for each organization. Admins can't delete 
   > [!NOTE]
   > When no queues or routing rules are defined, all conversations are collected in the **Default** queue.
 
-## Create a new Omnichannel queue
+## Create a new queue
 
 Follow these steps to create a new Omnichannel queue.
 

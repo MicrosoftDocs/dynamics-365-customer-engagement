@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
 
 |Error Code|Error message|
@@ -30,4 +28,4 @@ Here are the error codes and error messages that are returned when using live ch
 ### See also
 
 [JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
-[Developer guide](../omni-channel-engagement-hub-developer.md)
+[Developer guide](../omnichannel-developer.md)

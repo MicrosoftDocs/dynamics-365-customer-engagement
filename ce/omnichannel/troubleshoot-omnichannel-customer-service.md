@@ -92,7 +92,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 9. Select **Save** to save the record.
 10. Go to the website and check if the chat widget loads.
 
-## Dashboards don't appear in Omnichannel for Customer Service active dashboards view
+## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
 ### Issue:
 
@@ -116,24 +116,6 @@ To add the dashboards using app designer, follow these steps:
     - Tier 2 Dashboard <br>
     ![Add dashboards in the app designer canvas area](media/oceh-app-designer-add-dashboard.png "Add dashboards")
 6. Select **Save** and then select **Publish**.
-
-## Chat widget code snippet doesn't appear after chat widget configuration
-
-### Issue:
-
-Chat widget code snippet doesn't appear after chat widget configuration. This issue is Code snippet is not saved while creating the chat widget record.
-
-### Resolution:
-
-Select the Save button twice to ensure the code snippet is saved and appears on the record.
-
-To add and save the code snippet, follow these steps:
-
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** > **Chat**.
-3. Select a chat widget from the list.
-4. Add the code snippet in the **Widget snippet** field.
-5. Select the **Save** button twice.
 
 ## Pre-imported Unified Service Desk configurations in Customer Engagement organization
 
@@ -242,12 +224,29 @@ Communication panel doesn't load in Omnichannel for Customer Service app:
 
 - To sync the configurations, remove the channel and roles, add it again and save the record.
 
-   1. Sign-in to Dynamics 365 for Customer Engagement apps.
-   2. Select the drop-down button on the Dynamics 365 and select **Channel Integration Framework**.
+   1. Sign in to Dynamics 365 for Customer Engagement apps.
+   2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
    3. Select the **Omnichannel** record from the list.
    4. Remove **Omnichannel for Customer Service** from the **Select Unified Interface Apps for the Channel** section.
    5. Add **Omnichannel for Customer Service** again in the **Select Unified Interface Apps for the Channel** section.
-   5. Remove **Omnichannel agent**, **Omnichannel supervisor**, and **Omnichannel administrator** from the **Select the Roles for the Channel** section.
-   6. Add **Omnichannel agent**, **Omnichannel supervisor**, and **Omnichannel administrator** again in the **Select the Roles for the Channel** section.
-   7. Select **Save** to save the record.
-   8. Sign in to Omnichannel for Customer Service app and check if the communication panel loads.
+   6. Remove **Omnichannel agent**, **Omnichannel supervisor**, and **Omnichannel administrator** from the **Select the Roles for the Channel** section.
+   7. Add **Omnichannel agent**, **Omnichannel supervisor**, and **Omnichannel administrator** again in the **Select the Roles for the Channel** section.
+   8. Select **Save** to save the record.
+   9. Sign in to Omnichannel for Customer Service app and check if the communication panel loads.
+
+
+## Agents not receiving chat in Omnichannel for Customer Service
+
+### Issue:
+
+As an agent, you aren't receiving chat in the Omnichannel for Customer Service app. The issue is caused when you receive the chats in Customer Service Hub app.
+
+### Resolution:
+
+You must remove the Customer Service Hub app from the channel provider configuration in the Channel Integration Framework app.
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+2. Select the drop-down button on Dynamics 365 and select **Channel Integration Framework**.
+3. Select the record that is related to omnichannel.
+4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
+5. Select **Save** to save the record.

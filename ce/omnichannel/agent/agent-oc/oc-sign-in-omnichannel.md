@@ -17,19 +17,20 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-The Omnichannel for Customer Service provides a unified experience for your agents interacting across communication channels to deliver an enhanced customer service.
-
 ## Sign in to Omnichannel for Customer Service
 
 To sign in to Omnichannel for Customer Service, do the following:
 
 1. Go to `https://<orgURL>.dynamics.com/apps`.
 
-2. Select the **Omnichannel for Customer Service** app.
+2. Enter your username and password. The apps page appears.
+
+3. Select the **Omnichannel for Customer Service** app.
 
     ![Sign in to Omnichannel for Customer Service](../../media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
+
+> [!Note]
+> If you have Omnichannel access, then you can see the Omnichannel for Customer Service app in your Customer Engagement instance.
 
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to the agent interface](oc-introduction-agent-interface.md) 

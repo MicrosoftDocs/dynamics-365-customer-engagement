@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 Routing rules define how conversations are routed to different queues. Each routing rule has a condition and a destination queue. If the rule condition is evaluated as **True**, then the conversation is routed to the destination queue.
 
 A single work stream can have multiple routing rules, and these are evaluated in the order of definition. For example, if a work stream called **Chat** contains 5 routing rules, an incoming chat conversation will be evaluated against all the 5 routing rules in the defined order. 
@@ -39,7 +37,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
     - In the **General information** section of the **General** tab, provide the following information: </br>
     a. **Name**. Name of the rule item </br>
     b. **Work Stream** is auto populated </br>
-    c. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-omnichannel-queue) </br>
+    c. **Queue**. Look up a queue or select **New** to add a new queue. For more information, see [Create a new Omnichannel queue](queues-omnichannel.md#create-a-new-queue) </br>
     d. **Description**. A brief description of the rule item.
               
     - In the **Condition** section, provide the conditions for Omnichannel rule. Based on the conditions defined, the conversations are routed to the correct queues. When you define conditions for the Omnichannel routing rules, you can choose from:

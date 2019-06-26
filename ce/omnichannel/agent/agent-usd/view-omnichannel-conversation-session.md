@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 In your organization, some agents might work in a contact center that uses Omnichannel for Customer Service, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Omnichannel for Customer Service app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omnichannel for Customer Service, you can find the information through **activities** in Dynamics 365.
 
 You can find the following activity types in Dynamics 365 for Customer Engagement apps:
@@ -53,8 +51,8 @@ The omnichannel session displays information about a conversation request.
 > ![omnichannel session form](../../media/oc-crm-omni-channel-session-form.png "Omnichannel session form") 
 
 > [!div class="nextstepaction"]
-> [Next topic: View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+> [Next topic: View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 
 ## See also
 
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [View customer summary and know everything about customers](customer-summary.md)

@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The topic describes how to configure scripts using scriptlets to define case and channel titles.
 
 ## Prerequisites
@@ -85,5 +83,4 @@ The topic describes how to configure scripts using scriptlets to define case and
 - [Configure notifications for agents](configure-notification-screen-pop-agents.md)
 - [Configure customer summary](configure-customer-summary.md)
 - [Configure communication panel for agents](configure-communication-panel.md)
-- [Configure advanced search](configure-advanced-search.md)
 - [Configure session name information using session lines](configure-session-name-information.md)

@@ -16,8 +16,6 @@ manager: shujoshi
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The following JavaScript methods can be used to perform various operations with the live chat widget of Omnichannel for Customer Service.
 
 ## Methods
@@ -41,4 +39,4 @@ The following JavaScript methods can be used to perform various operations with 
 
 ### See also
 
-[Omnichannel for Customer Service for developers](omni-channel-engagement-hub-developer.md)
+[Omnichannel for Customer Service for developers](omnichannel-developer.md)

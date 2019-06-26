@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 ## Overview
 
 Omnichannel for Customer Service is a single interface for various communication channels. As an agent, you can use Omnichannel for Customer Service on Unified Service Desk to manage the work items that are assigned to you via queues. Therefore, you can focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You get a holistic view of a customer's data and can see the details of the customer's previous interactions. In this way, you can be sure that you have all the available information that you might need to resolve the customer's issue.
@@ -26,18 +24,18 @@ Omnichannel for Customer Service is a single interface for various communication
 
 Use the resources in the following sections to learn how to use Omnichannel for Customer Service for agents:
 
-- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omni-channel-engagement-hub.md)
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface-omni-channel-engagement-hub.md)
+- [Sign in to Unified Service Desk – Omnichannel for Customer Service](signin-unified-service-desk-omnichannel.md)
+- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
 - [View agent dashboard and agent work items](introduction-agent-dashboard.md)
-- [View alert and toast notifications](notifications-screen-pop.md)
-- [View customer summary and know everything about customers](customer360-overview-existing-challenges.md)
+- [View alert and toast notifications](notifications.md)
+- [View customer summary and know everything about customers](customer-summary.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
+- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
 
 
 ## How-tos
 
 - [View communication panel](left-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer360-incoming-conversation-request.md)
+- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
 - [Create a record](create-record.md)
 - [Search for records](search-record.md)
