@@ -18,11 +18,11 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omnichannel for Customer Service  
 
-When you receive an incoming conversation request, you see a notification (screen pop) that contains contextual information for the request. When you accept or select the notification, the **Customer summary** page appears. This page shows the details of the customer and case.
+When you receive an incoming conversation request, you see a notification and accept the request, a session starts and the **Customer summary** page appears with the details of the customer and case.
 
-## Scenario 2: Incoming conversation request where you find several customer records in the Omnichannel for Customer Service 
+<!-- ## Scenario 2: Incoming conversation request where you find several customer records in the Omnichannel for Customer Service 
 
-When you receive an incoming conversation request, you see a notification (screen pop) that contains contextual information for the request. Omnichannel for Customer Service shows the following message: **One or more records found. Select a record or create new**.
+When you receive an incoming conversation request, you see a notification and accept the request, Omnichannel for Customer Service shows the following message: **One or more records found. Select a record or create new**.
 ### Select a record
 
 If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
@@ -38,13 +38,13 @@ You can create a contact or account by using the quick create option. After you 
 However, there are no records present in Omnichannel for Customer Service based on the contextual information obtained from the notification (screen pop).
 
 > [!div class=mx-imgBorder]
-> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")  
+> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")  -->
 
-## Scenario 3: Incoming conversation request where you find no customer records in Omnichannel for Customer Service 
+## Scenario 2: Incoming conversation request where you find no customer records in Omnichannel for Customer Service 
 
-When you get an incoming conversation request, you see a notification (screen pop) with contextual information for an incoming request. However, if there are no records present in Omnichannel for Customer Service based on the incoming conversation request, you see a message stating - **No records found. Search for an existing customer record or create a new one to link to this conversation**.
+When you get an incoming conversation request, you see a notification and accept the request. However, if there are no records present in Omnichannel for Customer Service based on the incoming conversation request, you can search for the records using the inline search option. After you search, you can link the record to the conversation. To learn more, see [Link a record](link-unlink-record.md).
 
-### Search for records
+<!-- ### Search for records
 
 When you choose to Search for records, the application opens the **Search** on the toolbar. You can search by using the following fields:
 
@@ -69,20 +69,14 @@ When you choose to Search for records, the application opens the **Search** on t
 After the search is completed, the results are shown in the form of a list.
 
 > [!div class=mx-imgBorder]
-> ![omnichannel search record](../../media/oc-usd-crm-search-record.png "Omnichannel search record")  
-
-If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
-
-If you select a contact or account, the **Customer summary** page is refreshed, and the **Issue Snapshot** section is updated with the current case details.
-
-If you choose a case that is different than the one you are assigned, then you see a warning message that needs your action to link the conversation to the record.
+> ![omnichannel search record](../../media/oc-usd-crm-search-record.png "Omnichannel search record")  -->
 
 ### Create a record
 
 When no record is found in Omnichannel for Customer Service, you can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notification (screen pop).
-
+<!--
 > [!div class=mx-imgBorder]
-> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")
+> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page") -->
 
 ## See also
 

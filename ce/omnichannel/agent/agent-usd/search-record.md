@@ -19,8 +19,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The topic explains how to Search for records in Omnichannel for Customer Service.
 
-You can search for the records in two ways.
-
 ## Search for records using the inline search option
 
 You accept an incoming conversation request and there is no customer record identified in the Omnichannel for Customer Service. In this case, use the inline search option in the **Customer profile** form and **Issue snapshot** form to search for a contact or account and case respectively.
@@ -91,7 +89,7 @@ Only active views are displayed for the search results. Also, you can customize 
 
 To learn on how to link a record, see [Link a record to the conversation](link-unlink-record.md)
 
-## Search for records using the search option
+<!-- ## Search for records using the search option
 
 You can search for Omnichannel records by using the search functionality. When you select the **Search** button, the **Search** page appears on the application management toolbar. Specify the details, and then select **Search**. The results appear in the form of a list.
 
@@ -114,7 +112,7 @@ You can search for Omnichannel records by using the search functionality. When y
  - Address 1: ZIP/Post Code
  - Case Number
 
-3. Select **Search**. The search results appear.
+3. Select **Search**. The search results appear. -->
 
 > [!div class="nextstepaction"]
 > [Next topic: Link and unlink a record](link-unlink-record.md)
