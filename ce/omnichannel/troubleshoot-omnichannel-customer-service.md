@@ -92,7 +92,7 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 9. Select **Save** to save the record.
 10. Go to the website and check if the chat widget loads.
 
-## Dashboards don't appear in Omnichannel for Customer Service active dashboards view
+## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 
 ### Issue:
 
