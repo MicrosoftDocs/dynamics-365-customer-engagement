@@ -63,7 +63,7 @@ You require the following to use Omnichannel for Customer Service with Unified S
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
-^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service - Preview solution or when using other line-of-business applications with Unified Service Desk.
+^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
 For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
@@ -72,9 +72,6 @@ For other hardware requirements of Unified Service Desk client application, see 
 The Omnichannel for Customer Service is available in the following regions: 
 
 - North America Region (NAM)
-
-> [!NOTE]
-> Since Omnichannel for Customer Service is in preview in the NAM region, your organization and tenant must be in the NAM region.
 
 ## Provision Omnichannel in Dynamics 365
 
@@ -92,9 +89,9 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 ## See also
 
 - [Introduction](introduction-omnichannel.md)
-- [Administrators](administrator/omnichannel-administrator.md)
+- [Administrator guide](administrator/omnichannel-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
 - [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
-- [System customizers](customizer/omnichannel-customizer.md)
+- [System customizers guide](customizer/omnichannel-customizer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

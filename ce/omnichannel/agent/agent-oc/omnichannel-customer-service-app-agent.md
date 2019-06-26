@@ -34,22 +34,22 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [View agent dashboard and work items](oc-agent-dashboard.md)
-- [View communication panel](oc-conversation-control.md)
-- [Manage presence status](oc-manage-presence-status.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Manage applications](oc-manage-applications.md)
+- [View agent dashboard and work items](oc-agent-dashboard.md))
+- [Understand conversation states](oc-conversation-state.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View notifications](oc-notifications.md)
 - [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
 - [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
-- [Create a record](oc-create-record.md)
-- [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 
 
 ## How-tos
 
-- [Communication panel](oc-conversation-control.md)
+- [View communication panel](oc-conversation-control.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+- [Manage presence status](oc-manage-presence-status.md)
+- [Take notes specific to conversation](oc-take-notes.md)
