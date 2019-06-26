@@ -32,14 +32,14 @@ Omnichannel for Customer Service provides dashboards that help supervisors keep 
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app in Unified Service Desk:
 
-- **My dashboard**: This tab provides information about the conversations that you're handling, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](../agent/agent-oc/oc-introduction-agent-interface.md). 
+- **My dashboard**: This tab provides information about the conversations that you're directly connected and engaged with customers as an agent, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](../agent/agent-oc/oc-introduction-agent-interface.md). 
 
-- **Intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. This dashboard is also known as Omnichannel intraday insights dashboard. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) .
+- **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations and refreshes every 15 minutes. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md).
 
 - **Ongoing Conversations**: This tab provides information about the conversations that agents are handling and are in active, open, and waiting states. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 > [!NOTE]
-> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure Intraday insights dashboard for Unified Service Desk](../administrator/configure-intraday-dashboard-supervisor.md).
+> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md).
 
 ## Prerequisites
 
@@ -59,3 +59,5 @@ Verify the following prerequisites before you use the supervisor dashboards:
 -  [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
 
 -  [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+ 
+-  [Monitor conversations](monitor-conversations.md)

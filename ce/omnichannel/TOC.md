@@ -101,14 +101,13 @@
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
 
 
-
 ## Supervisor guide
 ### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
 #### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
 #### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 #### [Monitor conversations](supervisor/monitor-conversations.md)
-### [Introduction to Dynamics 365 omnichannel insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
-#### [Dynamics 365 omnichannel insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 
 ## System customizer guide

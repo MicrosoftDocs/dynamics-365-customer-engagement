@@ -24,7 +24,7 @@ As an administrator, you must configure the configure the historical chat and se
 
 1.	[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
 2.	[Step 2: Install Omnichannel Historical Chat Analytics app](#step-2-install-omnichannel-historical-chat-analytics-app)
-3.	[Step 3: Connect Dynamics 365 organization to Omnichannel Chat Insights app](#step-3-dynamics-365-connect-organization-to-omnichannel-insights-app)
+3.	[Step 3: Connect Dynamics 365 organization to Omnichannel Insights app](#step-3-connect-dynamics-365-organization-to-omnichannel-insights-app)
 4.	[Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
 5.	[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
 6.	[Step 6: Add Power BI Dashboard to Omnichannel for Customer Service](#step-6-add-power-bi-dashboard-to-omnichannel-for-customer-service)
@@ -43,11 +43,11 @@ Review the following prerequisites before configuring the supervisor dashboard:
     
     3.	Select **OK**.
 
-## Step 2: Install Omnichannel Historical Chat Analytics app
+## Step 2: Install Omnichannel Insights for Dynamics 365 app
 
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-2.	As a Power BI admin, Install [Omnichannel Insights](http://aka.ms/oc-chat-insights) app.
+2.	As a Power BI admin, Install [Omnichannel Insights for Dynamics 365](http://aka.ms/oc-chat-insights) app.
 
 3.	After the **Omnichannel Insights** app is installed, select the app and configuration options page displays.
 
@@ -56,9 +56,9 @@ Review the following prerequisites before configuring the supervisor dashboard:
 
     Now you can proceed to configure the app by connecting your Dynamics 365 organization.
 
-## Step 3: Connect Dynamics 365 organization to Omnichannel Insights app
+## Step 3: Connect Dynamics 365 organization to Omnichannel Insights for Dynamics 365 app
 
-1.	On the **Omnichannel Insights** app configuration page, select **Connect**.
+1.	On the **Omnichannel Insights for Dynamics 365** app configuration page, select **Connect**.
 
     > [!div class=mx-imgBorder]
     > ![Select connect on configuration page](../media/supervisor-admin-historical-select-connect-data.png "Select connect on configuration page")
