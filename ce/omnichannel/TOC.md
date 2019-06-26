@@ -13,7 +13,7 @@
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
-### [Remove Omnichannel](administrator/remove-omnichannel.md)
+### [Remove Omnichannel for Customer Service](administrator/remove-omnichannel.md)
 ### [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
