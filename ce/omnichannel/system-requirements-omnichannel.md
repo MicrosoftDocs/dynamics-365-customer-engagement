@@ -67,9 +67,13 @@ For other hardware requirements of Unified Service Desk client application, see 
 
 ## International availability
 
-The Omnichannel for Customer Service is available in the following regions: 
+The Chat for Dynamics 365 service is available in the following regions currently:
 
-- North America Region (NAM)
+- North America 
+- Europe
+- Canada
+
+For the service to work, your tenant and organization have to be co-located in one of these regions.
 
 ## Provision Omnichannel in Dynamics 365
 
