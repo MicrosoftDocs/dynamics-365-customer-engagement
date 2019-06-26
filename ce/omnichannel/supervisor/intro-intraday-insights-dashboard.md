@@ -30,7 +30,7 @@ Omnichannel for Customer Service provides dashboards that help supervisors keep 
 
 -	Manage agent and customer escalations 
 
-As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app in Unified Service Desk:
+As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service in Unified Service Desk:
 
 - **My dashboard**: This tab provides information about the conversations that you're directly connected and engaged with customers as an agent, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](../agent/agent-oc/oc-introduction-agent-interface.md). 
 

@@ -20,9 +20,9 @@ Supervisors have a dual responsibility with respect to agents and customers. T
 > [!IMPORTANT]
 > The supervisor dashboards are not available in the GCC region (Gulf Cooperation Council).
 
-As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service**.
+As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service** app.
 
-Let's look at the common tasks that you have to perform to configure **Unified Service Desk** and **Omnichannel for Customer Service**:  
+Let's look at the common tasks that you have to perform to configure **Unified Service Desk** and **Omnichannel for Customer Service** app:  
 
 1. [Review prerequisites](#review-prerequisites)
 2. [Create Power BI datasets in your workspace](#create-power-bi-datasets-in-your-workspace)
@@ -55,7 +55,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 -  You have administrative privileges for Dynamics 365 for Customer Service and Power BI. 
 
--  You must <!-- need to verify this--> have Power BI Pro license for all supervisors. 
+-  You must have **Power BI Pro** or **Power BI Premium** license for all supervisors. 
 
 -  You must enable to embed Power BI reports in Dynamics 365.
     1.	Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Administration** > **System Settings**.
@@ -68,15 +68,25 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 -  As a system administrator, you must configure the following in Power BI service:
 
-   1. Create a [security group in Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal), and add **Omnichannel Customer Service** to that security group. <!-- add app as a member of the group and name of the application --> 
+   1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel Customer Service** to that security group. To learn more, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups). 
 
-   2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal. Add the security group that you created in Azure AD to the **Specific security group** section in the **Developer settings**. <!-- add steps to go to admin portal and talk about enable toggle. Important note to be reviewed>
+   2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and ddd the security group that you created in Azure AD.
+        a.  Sign in to [Power BI service](app.powerbi.com) and go to **Settings** > **Admin portal**.
+           
+         > [!div class=mx-imgBorder]
+         > ![Select admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select admin portal") 
 
-        > [!IMPORTANT]
-        > Service principals inherit the permissions for all Power BI tenant settings from their security group. To restrict permissions, create a dedicated security group for service principals and add it to the 'Except specific security groups' list for the relevant, enabled Power BI settings.
+        b.  In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
+
+        c.  Enable **Allow service principals to use Power BI APIs** and specify the security group that you want to give access.
         
-        > [!div class=mx-imgBorder]
-        > ![Enable service principals for security group](../media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")  
+         > [!div class=mx-imgBorder]
+         > ![Enable service principals for security group](../media/supervisor-admin-enable-service-principals.png "Enable service principals for security group")
+
+         > [!IMPORTANT]
+         > By default, service principals inherit the permissions for all Power BI tenant settings from their security group. To restrict permissions, create a dedicated security group for service principals and add it to the **Except specific security groups** list.
+        
+        d. Select **Apply**. 
 
 -  Verify that your administrator has allowed Omnichannel Customer Service to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).  
 
@@ -84,7 +94,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 You must configure the Power BI workspace in Dynamics 365 Customer Engagement to import the data sets that are defined for supervisor in Power BI. Follow these steps to create the supervisor datasets to your workspace.
 
-1.  Sign in to **Dynamics 365** and open **Omnichannel Administration** app. 
+1.  Sign in to **Dynamics 365 for Customer Service** and open **Omnichannel Administration** app. 
 
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel administration](../media/supervisor-admin-select-omnichannel-administration.png "Select Omnichannel administration")
@@ -110,7 +120,14 @@ You must configure the Power BI workspace in Dynamics 365 Customer Engagement to
 
     > [!div class=mx-imgBorder]
     > ![Power BI workspace settings](../media/supervisor-admin-power-bi-workspace-settings.png "Power BI workspace settings")  
+    
+    -OR-
 
+    If you want to add an existing Power BI workspace, select **Add existing work space** and the existing workspaces are listed. Select the workspace that you want to add.
+
+    > [!div class=mx-imgBorder]
+    > ![Add existing Power BI workspace](../media/supervisor-admin-add-existing-workspace.png "Add existing Power BI workspace")  
+        
 5.  Select **Configure**. The workspace creation takes a few seconds and a confirmation message is displayed with the generated workspace ID.
 
     > [!NOTE]
@@ -128,8 +145,6 @@ You must configure the Power BI workspace in Dynamics 365 Customer Engagement to
 <!-- check with kiran about this-->
     > [!IMPORTANT]
     > Don't create more than one Power BI configuration in your **Omnichannel Administration** app. If you have more than one record, the application would use the configuration that you last created. If you want to add a new Power BI configuration, delete or deactivate any existing configuration.
-
-<!--cover how to use an existing workspace to add dashboards-->
 
 ### Verify workspace creation in Power BI
 
@@ -160,21 +175,20 @@ Configuring the Power BI workspace provides you only the **IntradayMonitoring** 
 
 Follow these steps to configure Power BI dashboards.
 
-<!--open the workspace and pin the repots-->
-7.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-report-open).
+1.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-report-open).
 
-8.  Pin the required tiles to dashboards. To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
+2.  Pin the required tiles to dashboards. To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
 
     The following screen shows how to pin a visual to the dashboard.
 
    > [!div class=mx-imgBorder]
    > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-to-dashboard.png "Pin a report on dashboard")  
 
-9.  Select **Set as featured** for the created dashboard.
+3.  Select **Set as featured** for the created dashboard.
 
-10.  Share the dashboard with supervisor users. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).  
+4.  Share the dashboard with supervisor users. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).  
 
-11.  For Unified Service Desk configuration, copy the URL of the dashboard.  
+5.  For Unified Service Desk configuration, copy the URL of the dashboard.  
 
    The dashboard is ready, and you can configure the **Unified Service Desk** or **Omnichannel for Customer Service** to make the dashboard available for supervisors.
 
@@ -317,9 +331,11 @@ You must share the Intraday insights dashboard with supervisors in your organiza
     The Intraday insights dashboard is shared with the users or teams that you have selected.
 
 
-## Configure Ongoing Conversations dashboard
+## Provide access to Ongoing Conversations dashboard
 
-pre req and where to find it for ZFP and USD.
+To access the **Omnichannel Ongoing Conversations** dashboard, you must assign **Omnichannel supervisor** role to the users. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).  
+
+Once the users get access to **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 ### See also
 

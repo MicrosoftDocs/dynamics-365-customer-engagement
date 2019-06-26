@@ -23,9 +23,9 @@ The Omnichannel intraday insights dashboard provides information about the healt
 
 The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes.
 
-<!--update this-->
+
 > [!IMPORTANT]
-> The preciseness of insights that are displayed in the dashboard is affected if agents leave their account open without signing out or if you configure to assign conversations to agents who are offline.
+> You must follow best practices so that the data displayed on the dashboards are affected affected. To learn more, see [Best practices to use Omnichannel for Customer Service](../best-practices.md).
 
 
 ## Conversations insights
