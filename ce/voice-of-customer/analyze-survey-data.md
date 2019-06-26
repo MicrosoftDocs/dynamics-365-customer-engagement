@@ -20,6 +20,9 @@ ms.custom:
 
 # Analyze survey data
 
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704), and get started with Microsoft Forms Pro [here](https://formspro.microsoft.com/en-us/).
+
 Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and you can analyze them by using features such as:
 
 - Survey response entity
