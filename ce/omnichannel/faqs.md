@@ -2,15 +2,18 @@
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
 keywords: ""
+ms.date: 07/01/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
-ms.custom: 
 ---
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
@@ -32,14 +35,14 @@ Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/
 ### How do I get help with the issues I face?
 Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to get help with your issues.
 
-### What additional channels are supported with this release?
+### What additional channels are supported wiomnichath this release?
 This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
-### Are Chat and the associated omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
-No, Chat and related omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
+### Are Chat and the associated Omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
+No, Chat and related Omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
 ### How do I get started?
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up Omnichannel in your organization.
 
 ## Agent experiences
 
@@ -109,7 +112,7 @@ If you are using multiple fields for automated record identification, they must 
 
 When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
-### How long do configuration changes to omnichannel settings take to update?
+### How long do configuration changes to Omnichannel settings take to update?
 Changes made by administrators within the Omnichannel Administration application can take up to 15 minutes to reflect.
 
 ### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
@@ -125,10 +128,10 @@ As of today, only chat conversations can be silently monitored by a supervisor.
 
 ### Why am I not able to see the supervisor dashboards in my app?
 Check the following:
-- Make sure that the omnichannel supervisor role is assigned to the user.
-- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service as well as in the omnichannel app.
+- Make sure that the Omnichannel supervisor role is assigned to the user.
+- For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service as well as in the Omnichannel app.
 
-For more information, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard.md). 
+For more information, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md). 
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you will see data come through.
@@ -142,13 +145,13 @@ Yes, you can customize the visualizations by editing the report in Power BI.
 ### How frequently does the data refresh?
 The dataset for the Live Monitoring report is real time; if a report is refreshed or filters are changed, the data will be updated as per the current state of the system.
 
-The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard.md) and Chat Insights set-up. <!--(need to update the link)-->
+The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
 ### What controls are in place to limit the exposure of agent performance KPIs within my organization?
 These controls are in place for exposing the data in reports:
-- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the omnichannel app. <!--LINK to supervisor doc covering this -->
+- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role. <!--LINK to supervisor doc covering this  -->
-- Sentiment can be turned on or off in the Omnichannel Administration app. <!--LINK to admin doc covering this  -->
+- Sentiment can be turned on or off in the Omnichannel Administration app. To learn more, see [Enable sentiment analysis](administrator/enable-sentiment-analysis.md) 
 
 ## Chat widgets
 
@@ -166,7 +169,7 @@ Yes, you can create custom context variables and create routing rules based on t
 - [Create and manage routing rules](administrator/routing-rules.md)
 - [Manage custom context](developer/how-to/send-context-starting-chat.md)
 
-### Can omnichannel routing be used for other external channels (for example, my phone calls)?
+### Can Omnichannel routing be used for other external channels (for example, my phone calls)?
 No. Omnichannel routing can be used to route chat or SMS requests (in preview) only.
 
 ## SMS
@@ -198,15 +201,15 @@ You can send messages to a customer only after the customer has initiated the co
 Yes, Dynamics 365 will automatically identify the customer based on the incoming phone number. It will look for phone numbers in the Mobile Phone field of Contact records or the Phone field of Account records. Ensure that the phone number in these field has the country code along with the plus sign (+) without any spaces or special characters; for example: +14251234567
 
 ### Can we send automated SMS responses?
-Microsoft Flow connectors from SMS providers can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/en-us/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
+There are Microsoft Flow connectors from SMS providers that can be used for automated SMS responses. For example, [TeleSign](https://preview.flow.microsoft.com/en-us/connectors/shared_telesignsms/telesign-sms/) has a connector for these scenarios.
 
 ### Is there anything unique about the way SMS messages are routed to agents?
-All channels integrated into omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
+All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
 
 ### Integrating a bot
-Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
+Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the Omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
-### Can a third-party bot be integrated with omnichannel through this feature?
+### Can a third-party bot be integrated with Omnichannel through this feature?
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
 
 ### What is the application ID field on the application user form?
