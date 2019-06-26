@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The topic describes how to define the layout and behavior of the alert notification.
 
 ## Prerequisites 

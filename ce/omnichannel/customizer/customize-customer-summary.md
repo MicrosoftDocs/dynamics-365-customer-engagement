@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can customize some quick view forms on the **Customer summary** page by navigating to the entity quick view forms. By default, the **Customer summary** page shows the following sections.
 
 ## Customer profile
