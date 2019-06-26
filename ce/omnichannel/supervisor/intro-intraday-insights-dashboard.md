@@ -49,7 +49,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  User added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
-- While using the **Omnichannel for Customer Service** app, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service)
+- While using the **Omnichannel for Customer Service** app, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app)
 
 
 ### See also

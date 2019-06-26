@@ -41,8 +41,8 @@ To configure the dashboard on **Unified Service Desk**, follow these steps:
 To configure the dashboard on **Omnichannel for Customer Service** app, follow these steps:
 
 1. [Perform the common tasks](#common-tasks-to-configure-intraday-insights-dashboard).
-2. [Configure supervisor dashboard in Omnichannel for Customer Service app](#configure-supervisor-dashboard-in-omnichannel-for-customer-service)
-3. [Share dashboard in Omnichannel for Customer Service app](#share-dashboard-in-omnichannel-for-customer-service)
+2. [Configure supervisor dashboard in Omnichannel for Customer Service app](#configure-supervisor-dashboard-in-omnichannel-for-customer-service-app)
+3. [Share dashboard in Omnichannel for Customer Service app](#share-dashboard-in-omnichannel-for-customer-service-app)
 
 
 ## Common tasks to configure intraday insights dashboard 
@@ -71,7 +71,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
    1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel Customer Service** to that security group. To learn more, see [Manage app and resource access using Azure Active Directory groups](/azure/active-directory/fundamentals/active-directory-manage-groups). 
 
    2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and ddd the security group that you created in Azure AD.
-        a.  Sign in to [Power BI service](app.powerbi.com) and go to **Settings** > **Admin portal**.
+        a.  Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
            
          > [!div class=mx-imgBorder]
          > ![Select admin portal](../media/supervisor-admin-powerbi-select-admin-portal.png "Select admin portal") 
@@ -335,7 +335,7 @@ You must share the Intraday insights dashboard with supervisors in your organiza
 
 To access the **Omnichannel Ongoing Conversations** dashboard, you must assign **Omnichannel supervisor** role to the users. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).  
 
-Once the users get access to **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+Once the users get access to **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app. To learn more, see [Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).
 
 ### See also
 
