@@ -42,8 +42,13 @@ This release provides support for Chat for Dynamics 365 and SMS (preview). For u
 ### Are Chat and the associated omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 Customer Engagement license?
 No, Chat and related omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
+
+
+<!--from editor: The style guide says it's Chat for Dynamics 365 Customer Service, so I changed it here. https://styleguides.azurewebsites.net/Styleguide/Read?id=2858&topicid=44634  -->
+
+
 ### How do I get started?
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 Customer Service for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up omnichannel in your organization.
 
 ## Agent experiences
 
@@ -58,7 +63,7 @@ Yes. You can work on cases alongside customer conversations in different session
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
 
-Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
+Omnichannel for Customer Service supports Chat for Dynamics 365 Customer Service and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows? 
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
