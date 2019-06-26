@@ -35,28 +35,16 @@ Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to 
 ### What additional channels are supported with this release?
 This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
-
-
-<!--from editor: Below, should it be Dynamics 365 **for** Customer Engagement? -->
-
-### Are Chat and the associated omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 Customer Engagement license?
+### Are Chat and the associated omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
 No, Chat and related omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
-
-
-
-<!--from editor: The style guide says it's Chat for Dynamics 365 Customer Service, so I changed it here. https://styleguides.azurewebsites.net/Styleguide/Read?id=2858&topicid=44634  -->
-
 
 ### How do I get started?
 If you would like to try out Chat for Dynamics 365 Customer Service for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up omnichannel in your organization.
 
 ## Agent experiences
 
-
-<!--from editor: Please provide page title for link and check the link. -->
-
 ### Can I use Chat for Dynamics 365 Customer Service in the Customer Service Hub app module or any custom app module? 
-No. You can only use Chat in the **Omnichannel for Customer Service** app.  The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-sign-in-omnichannel).
+No. You can only use Chat in the **Omnichannel for Customer Service** app.  The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](agent/agent-oc/oc-sign-in-omnichannel.md).
 
 ### Can I work on cases along with chats? 
 Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
@@ -110,7 +98,7 @@ The timer in the communication panel represents how long the current session tab
 For information about managing work items from your dashboard, see [View agent dashboard and agent work items](agent/agent-oc/oc-agent-dashboard.md).
 
 ### Where are conversations stored and how can I access them?
-Conversations and sessions are stored as activity types within Dynamics 365 for Customer Engagement apps. For more information, see [View conversation and session activity types in the Customer Engagement apps](../agent/agent-oc/oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within Dynamics 365 for Customer Engagement apps. For more information, see [View conversation and session activity types in the Customer Engagement apps](agent/agent-oc/oc-view-activity-types.md).
 
 ## Administration
 
@@ -119,10 +107,7 @@ If you are using multiple fields for automated record identification, they must 
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
-
-<!--from editor: Not sure why, but the following link isn't working. -->
-
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-don't-appear-in-omnichannel-for-customer-service active dashboards view).
+When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-don't-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
 ### How long do configuration changes to omnichannel settings take to update?
 Changes made by administrators within the Omnichannel Administration application can take up to 15 minutes to reflect.
