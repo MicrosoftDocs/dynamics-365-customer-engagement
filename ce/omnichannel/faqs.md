@@ -131,7 +131,7 @@ Check the following:
 - Make sure that the omnichannel supervisor role is assigned to the user.
 - For the Power BI intraday dashboard, ensure that the dashboard is shared with the user both on Power BI service as well as in the omnichannel app.
 
-For more information, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard.md). 
+For more information, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md). 
 
 ### Why are my Chat Insights and Sentiment dashboard reports empty?
 By default, the reports are installed with only a data connection. Once you start using chat and sentiment features, you will see data come through.
@@ -145,7 +145,7 @@ Yes, you can customize the visualizations by editing the report in Power BI.
 ### How frequently does the data refresh?
 The dataset for the Live Monitoring report is real time; if a report is refreshed or filters are changed, the data will be updated as per the current state of the system.
 
-The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard.md) and Chat Insights set-up. <!--(need to update the link)-->
+The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
 ### What controls are in place to limit the exposure of agent performance KPIs within my organization?
 These controls are in place for exposing the data in reports:
