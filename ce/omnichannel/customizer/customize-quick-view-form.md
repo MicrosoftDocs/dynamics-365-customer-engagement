@@ -18,10 +18,10 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-You customize the quick view form (section) by navigating to the respective entities and quick view forms.
+You customize the quick view form in the section by navigating to the respective entities and quick view forms.
 
 > [!NOTE]
-> This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms (sections).
+> This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms in the sections.
 
 1.  Sign in to Microsoft Dynamics 365.
 
@@ -39,7 +39,7 @@ You customize the quick view form (section) by navigating to the respective enti
 6.  Select **Save** and then select **Publish**.
 
 > [!TIP]
-> To create a new quick view form, see [Edit a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
+> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 You can also use the previous procedure to add or remove fields in other sections. In step 3, select the entity that is shown in the following table, and then, in step 4, select the quick view form that is shown. Then follow steps 5 through 6.
 
@@ -52,7 +52,7 @@ You can also use the previous procedure to add or remove fields in other section
 | Recent cases     | Contact > Forms |  Cases for customer |
 
 > [!div class="nextstepaction"]
-> [Next topic: Customize the conversation form](customize-session-form.md)
+> [Next topic: Customize the session form](customize-session-form.md)
 
 ## See also
 

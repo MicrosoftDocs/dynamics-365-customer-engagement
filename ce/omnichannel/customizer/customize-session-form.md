@@ -18,7 +18,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-As a system customizer, you might want to Customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and Common Data Service. You can customize the Omnichannel Session Form.
+As a system customizer, you might want to Customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and other Customer Engagement apps. You can customize the Omnichannel session form.
 
 ## Modify the position of sections in Session Form
 
@@ -26,9 +26,9 @@ As a system customizer, you might want to Customize the session forms to suit yo
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 
-3.  Expand **Components** > **Entities** > **Conversation** and then select **Forms**.
+3.  Expand **Components** > **Entities** > **Session** and then select **Forms**.
 
-4.  Select either **Session Form** from the list.
+4.  Select **Omnichannel session form** from the list.
 
 5.  Drag and drop the field in the order you want to modify.
 
