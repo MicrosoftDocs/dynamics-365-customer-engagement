@@ -13,9 +13,9 @@
 
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
-### [Provision Omni-channel Engagement Hub](administrator/omnichannel-provision-license.md)
-### [Remove Omnichannel](administrator/remove-omnichannel.md)
-### [Upgrade Omni-channel Engagement Hub](administrator/upgrade-omnichannel.md)
+### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
+### [Remove Omnichannel for Customer Service](administrator/remove-omnichannel.md)
+### [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
 #### [Deploy Unified Service Desk - Omnichannel for Customer Service package](administrator/omnichannel-customer-service-package.md)
@@ -31,7 +31,6 @@
 ##### [Create a survey question](administrator/create-question-library.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
-#### [Configure an entity channel](administrator/create-entity-channel.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 
 ### Queues & Users
@@ -86,20 +85,20 @@
 
 
 ### Agents using Unified Service Desk
-#### [Overview](agent/agent-usd/omni-channel-engagement-hub-agent.md)
-#### [Sign in to Omnichannel for Customer Service](agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md)
-#### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md)
+#### [Overview](agent/agent-usd/omnichannel-agent.md)
+#### [Sign in to Omnichannel for Customer Service](agent/agent-usd/signin-unified-service-desk-omnichannel.md)
+#### [Introduction to the agent interface](agent/agent-usd/introduction-agent-interface.md)
 #### [View agent dashboard and agent work items](agent/agent-usd/introduction-agent-dashboard.md)
 #### [Create a record](agent/agent-usd/create-record.md)
 #### [Search for records](agent/agent-usd/search-record.md)
 #### [Link and unlink a record](agent/agent-usd/link-unlink-record.md)
 #### [Understand conversation states](agent/agent-usd/conversation-state.md)
-#### [View alert and toast notifications](agent/agent-usd/notifications-screen-pop.md)
-#### [View customer summary](agent/agent-usd/customer360-overview-existing-challenges.md)
+#### [View alert and toast notifications](agent/agent-usd/notifications.md)
+#### [View customer summary](agent/agent-usd/customer-summary.md)
 #### [View communication panel](agent/agent-usd/left-control-panel.md)
 #### [View call scripts, take notes, and search knowledge articles](agent/agent-usd/right-control-panel.md)
-#### [View Omni-channel conversation and Omni-channel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-omnichannel-session-dynamics365-apps.md)
-#### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer360-incoming-conversation-request.md)
+#### [View Omnichannel conversation and Omnichannel session in Dynamics 365 apps](agent/agent-usd/view-omnichannel-conversation-session.md)
+#### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
 
 ## Supervisor guide
@@ -113,13 +112,11 @@
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
-### Customize the Customer summary form
-#### [Overview](customizer/customize-customer-360-page.md)
-#### [Modify the position or alignment of the section](customizer/how-modify-position-alignment-form-section-customer360.md)
-#### [Modify the section properties of a form](customizer/how-modify-section-properties-form-section.md)
-#### [Add or remove the fields in a form](customizer/add-remove-fields-form-section.md)
+### Customize quick view forms for Customer summary
+#### [Overview](customizer/customize-customer-summary.md)
+#### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
-### [Customize the conversation forms](customizer/customize-conversation-form.md)
+### [Customize the session forms](customizer/customize-session-form.md)
 
 ### Unified Service Desk settings
 
@@ -129,7 +126,7 @@
 ##### [Overview](customizer/configure-agent-dashboard.md)
 ##### [Step 1: Create Omnichannel Agent Dashboard hosted control](customizer/agent-dashboard-step1-create-hosted-control.md)
 ##### [Step 2: Create Omnichannel Agent Dashboard-related action calls](customizer/agent-dashboard-step2-create-action-calls.md)
-##### [Step 3: Attach Omnichannel Agent Dashboard-related action Calls to events](customizer/agent-dashboard-step3-attach-action-calls-events.md)
+##### [Step 3: Attach Omnichannel Agent Dashboard-related action calls to events](customizer/agent-dashboard-step3-attach-action-calls-events.md)
 ##### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md)
 
 #### Configure communication panel for agents
@@ -145,7 +142,7 @@
 ##### [Overview](customizer/configure-customer-summary.md)
 ##### [Step 1: Create customer summary hosted control](customizer/customer-summary-step1-create-hosted-control.md)
 ##### [Step 2: Create customer summary-related action calls](customizer/customer-summary-step2-create-action-calls.md)
-##### [Step 3: Attach customer summary-related action Calls to events](customizer/customer-summary-step3-attach-action-calls-events.md)
+##### [Step 3: Attach customer summary-related action calls to events](customizer/customer-summary-step3-attach-action-calls-events.md)
 ##### [Step 4: Add the hosted control, action calls, and events to configurations](customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md)
 
 #### Configure notifications for agents
@@ -165,19 +162,12 @@
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
-#### Configure advanced search
-##### [Overview](customizer/configure-advanced-search.md)
-##### [Step 1: Create advanced search hosted control](customizer/advanced-search-step1-create-hosted-control.md)
-##### [Step 2: Create advanced search-related action calls](customizer/advanced-search-step2-create-action-calls.md)
-##### [Step 3: Attach advanced search-related action call to events](customizer/advanced-search-step3-attach-action-calls-events.md)
-##### [Step 4: Add hosted control, action calls, and events to configurations](customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md)
-
 #### [Configure session name information](customizer/configure-session-name-information.md)
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
 ## Developer guide
-### [Overview](developer/omni-channel-engagement-hub-developer.md)
+### [Overview](developer/omnichannel-developer.md)
 ### [Manage custom context](developer/how-to/send-context-starting-chat.md)
 ### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 ### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
@@ -201,3 +191,5 @@
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
 
 ## [Videos](videos.md)
+
+## [FAQs](faqs.md)
