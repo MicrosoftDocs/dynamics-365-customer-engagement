@@ -13,21 +13,21 @@ ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
 ms.custom: 
 ---
 
-# Configure Dynamics 365 omnichannel insights dashboard
+# Configure Omnichannel Insights dashboard
 
 Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. 
 
 > [!IMPORTANT]
 > The supervisor dashboards are not available in the GCC region.
 
-As an administrator, you must configure the configure the historical chat and sentiment insights dashboards to display in Omnichannel Engagement Hub app for supervisors to use. You must perform the following steps to configure the historical chat and sentiment insights dashboards: 
+As an administrator, you must configure the configure the historical chat and sentiment analysis insights dashboards to display in Omnichannel for Customer Service app for supervisors to use. You must perform the following steps to configure the historical chat and sentiment analysis insights dashboards: 
 
 1.	[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
-2.	[Step 2: Install Dynamics 365 Omnichannel Historical Chat Analytics app](#step-2-install-dynamics-365-omnichannel-historical-chat-analytics-app)
-3.	[Step 3: Connect Dynamics 365 organization to Omnichannel Chat Insights app](#step-3-connect-dynamics-365-organization-to-omnichannel-insights-app)
+2.	[Step 2: Install Omnichannel Historical Chat Analytics app](#step-2-install-omnichannel-historical-chat-analytics-app)
+3.	[Step 3: Connect Dynamics 365 organization to Omnichannel Chat Insights app](#step-3-dynamics-365-connect-organization-to-omnichannel-insights-app)
 4.	[Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
 5.	[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
-6.	[Step 6: Add Power BI Dashboard to Omnichannel Engagement Hub](#step-6-add-power-bi-dashboard-to-omnichannel-engagement-hub)
+6.	[Step 6: Add Power BI Dashboard to Omnichannel for Customer Service](#step-6-add-power-bi-dashboard-to-omnichannel-for-customer-service)
 
 ## Step 1: Review the prerequisites
 
@@ -43,22 +43,22 @@ Review the following prerequisites before configuring the supervisor dashboard:
     
     3.	Select **OK**.
 
-## Step 2: Install Dynamics 365 Omnichannel Historical Chat Analytics app
+## Step 2: Install Omnichannel Historical Chat Analytics app
 
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-2.	As a Power BI admin, Install [Dynamics 365 Omnichannel Insights](http://aka.ms/oc-chat-insights).
+2.	As a Power BI admin, Install [Omnichannel Insights](http://aka.ms/oc-chat-insights) app.
 
-3.	After the **Dynamics 365 omnichannel insights** app is installed, select the app and configuration options page displays.
+3.	After the **Omnichannel Insights** app is installed, select the app and configuration options page displays.
 
     > [!div class=mx-imgBorder]
-    > ![Dynamics 365 Omnichannel insights configuration page](../media/supervisor-admin-historical-configuration-page-doi.png "Dynamics 365 Omnichannel insights configuration page")
+    > ![Omnichannel insights configuration page](../media/supervisor-admin-historical-configuration-page-doi.png "Omnichannel insights configuration page")
 
     Now you can proceed to configure the app by connecting your Dynamics 365 organization.
 
-## Step 3: Connect Dynamics 365 organization to omnichannel insights app
+## Step 3: Connect Dynamics 365 organization to Omnichannel Insights app
 
-1.	On the **Dynamics 365 omnichannel insights** app configuration page, select **Connect**.
+1.	On the **Omnichannel Insights** app configuration page, select **Connect**.
 
     > [!div class=mx-imgBorder]
     > ![Select connect on configuration page](../media/supervisor-admin-historical-select-connect-data.png "Select connect on configuration page")
@@ -92,7 +92,7 @@ Now configure the refresh frequency for the reports and dashboards.
 
 ## Step 4: Configure refresh frequency on Power BI dataset
 
-After you connect Dynamics 365 Omnichannel Chat Insights app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset to refresh the report and dashboards properly.
+After you connect Omnichannel Chat Insights app with Dynamics 365 organization, you need to configure the refresh frequency on the Power BI dataset to refresh the report and dashboards properly.
 
 1.	Sign in to [Power BI](https://app.powerbi.com/) app as administrator.
 
@@ -116,11 +116,11 @@ After you connect Dynamics 365 Omnichannel Chat Insights app with Dynamics 365 o
 
 5. Select **Apply**.
 
-Omnichannel insight reports and dashboards will refresh daily. Now, publish the application in your organization.
+Omnichannel Insight reports and dashboards will refresh daily. Now, publish the application in your organization.
 
 ## Step 5: Publish application within your organization
 
-You must share the configured application with your entire organization so the supervisors can view the **Dynamics 365 omnichannel insights** dashboards and reports with their own **Power BI Pro** accounts.
+You must share the configured application with your entire organization so the supervisors can view the **Omnichannel Insights** dashboards and reports with their own **Power BI Pro** accounts.
 
 1.	On the App workspace, select **Update app**.
 
@@ -137,11 +137,11 @@ You must share the configured application with your entire organization so the s
 The app is now available to install for all individuals in your organization.
 
 > [!NOTE]
-> Verify that your administrator has allowed Omnichannel Engagement Hub to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
+> Verify that your administrator has allowed Omnichannel for Customer Service to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md#provide-data-access-consent).
 
-## Step 6: Add Power BI Dashboard to Omnichannel Engagement Hub
+## Step 6: Add Power BI Dashboard to Omnichannel for Customer Service
 
-Each supervisor must configure their Dynamics 365 for Customer Engagement environment to integrate the Omnichannel Chat Insights and Omnichannel Sentiment Insights dashboards.
+Each supervisor must configure their Dynamics 365 for Customer Service environment to integrate the Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashboards.
 
 1.  Sign in to Dynamics 365 for Customer Service and go to **Omnichannel Administration** app.
  
@@ -152,18 +152,18 @@ Each supervisor must configure their Dynamics 365 for Customer Engagement enviro
     > [!div class=mx-imgBorder]
     > ![Select Power BI dashboard option](../media/supervisor-admin-select-power-bi-dashboard-option.png "Select Power BI dashboard option")  
 
-4.	Choose **Workspace** as **Dynamics 365 omnichannel insights** and **Dashboard** as **omnichannel Chat Insights**.
+4.	Choose **Workspace** as **Omnichannel Insights** and **Dashboard** as **Omnichannel Insights - Chat**.
 
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel Chat insights dashboard](../media/supervisor-admin-historical-select-omnichannel-insights.png "Select Omnichannel Chat insights dashboard")  
 
 5.	Save and close.
-6.	Repeat Step 3 to step 5 to add **Omnichannel Sentiment Analysis Insights** app.
+6.	Repeat Step 3 to step 5 to add **Omnichannel Insights - Sentiment Analysis**.
 
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel sentiment insights dashboard](../media/supervisor-admin-historical-select-sentiment-insights.png "Select Omnichannel sentiment insights dashboard")  
 
-The Omnichannel Chat Insights and Omnichannel Sentiment Insights dashboards are now available in Dynamics 365.
+The Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashboards are now available in Dynamics 365.
 
 ## Add users to supervisor configuration
 
@@ -187,32 +187,30 @@ You must add users in the supervisor configuration to access any supervisor dash
 
     Users are added to the supervisor dashboard and when they sign in to Omnichannel on Unified Service Desk, the supervisor dashboard tabs are available.
 
-## Configuring Dynamics 365 omnichannel insights Demo app
+## Configuring Omnichannel Insights Demo app
 
-You must perform the following steps to configure the Dynamics 365 omnichannel insights Demo app:
+There is an accompanying demo application which uses a predefined dataset to help demonstrate the features and capabilities of Omnichannel Insights. Please follow the steps outlined below to configure the Omnichannel Insights Demo application:
+
+You must perform the following steps to configure the Omnichannel Insights Demo app:
 
 1.	[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
-2.	Step 2: Install Dynamics 365 Omnichannel Historical Chat Analytics app
+2.	Install Omnichannel Historical Chat Analytics app
 
     a.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-    b.	Install [Dynamics 365 omnichannel insights - Demo](http://aka.ms/oc-chat-insights-demo).
+    b.	Install [Omnichannel Insights - Demo](http://aka.ms/oc-chat-insights-demo) app.
 
-    c.	After the **Dynamics 365 omnichannel insights - Demo** app is installed, select the app and configuration options page displays.
+    c.	After the **Omnichannel Insights - Demo** app is installed, select the app and configuration options page displays.
 
        > [!div class=mx-imgBorder]
-       > ![Dynamics 365 Omnichannel insights demo app configuration page](../media/supervisor-admin-historical-configuration-page-doi-demo.png "Dynamics 365 Omnichannel insights demo app configuration page")
+       > ![Omnichannel Insights demo app configuration page](../media/supervisor-admin-historical-configuration-page-doi-demo.png "Omnichannel Insights demo app configuration page")
 
-       Now you can proceed to configure the app by connecting your Dynamics 365 organization.
-
-3.	[Step 3: Connect Dynamics 365 organization to Omnichannel Chat Insights app](#step-3-connect-dynamics-365-organization-to-omnichannel-insights-app)
-4.	[Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
-5.	[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
-6.	[Step 6: Add Power BI Dashboard to Omnichannel Engagement Hub](#step-6-add-power-bi-dashboard-to-omnichannel-engagement-hub)
+4.	[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
+5.	[Step 6: Add Power BI Dashboard to Omnichannel for Customer Service](#step-6-add-power-bi-dashboard-to-omnichannel-for-customer-service)
 
 
 ### See also
 
--  [Introduction to Dynamics 365 omnichannel insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+-  [Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
 
--   [Dynamics 365 omnichannel insights dashboards](../supervisor/omnichannel-insights-dashboard.md) 
+-   [View and understand Omnichannel Insights dashboards](../supervisor/omnichannel-insights-dashboard.md) 

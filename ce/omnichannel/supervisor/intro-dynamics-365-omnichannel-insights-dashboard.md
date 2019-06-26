@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Dynamics 365 omnichannel insights dashboard for supervisor | MicrosoftDocs"
-description: "Introduction to Dynamics 365 omnichannel insights dashboard for supervisor"
+title: "Introduction to Omnichannel Insights dashboard for supervisor | MicrosoftDocs"
+description: "Introduction to Omnichannel Insights dashboard for supervisor"
 keywords: ""
 author: udaykirang
 ms.author: udag
@@ -13,7 +13,11 @@ ms.assetid: c59f8487-0f19-445c-bd96-4c2d468802d4
 ms.custom: 
 ---
 
-# Introduction to Dynamics 365 omnichannel insights dashboard
+# Introduction to Omnichannel Insights dashboard
+
+> [!DISCLAIMER]
+> 
+
 
 > [!IMPORTANT]
 > Customers must ensure they comply with all applicable laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -27,18 +31,18 @@ Supervisors can use Omnichannel Insights to perform the following tasks:
 -	Monitor support quality of chats via sentiment analysis across Queues and Agents.
 
 > [!NOTE]
-> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. To learn more, see [Configuring Dynamics 365 omnichannel insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+> Contact your system administrator, for configuration errors or if you are unable to view the dashboards. To learn more, see [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
 ## Prerequisites  
 
 Verify the following prerequisites before you use the Omnichannel Chat and Sentiment dashboards:
 
--	Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Engagement Hub](../administrator/add-users-assign-roles.md). 
+-	Omnichannel supervisor role is assigned. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md). 
 
 -	User added in supervisor configuration. To learn more, see [Add users to supervisor configuration](../administrator/configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
 ### See also
 
--  [Configuring Dynamics 365 omnichannel insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+-  [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
--  [Dynamics 365 omnichannel insights dashboards](omnichannel-insights-dashboard.md) 
+-  [View and understand Omnichannel Insights dashboards](omnichannel-insights-dashboard.md) 
