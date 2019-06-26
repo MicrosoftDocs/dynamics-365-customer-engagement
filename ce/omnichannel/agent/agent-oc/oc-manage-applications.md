@@ -13,11 +13,11 @@ ms.assetid: FC58E398-050E-4281-B613-FAA378E2E981
 ms.custom: 
 ---
 
-# Manage sessions in Omnichannel for Customer Service
+# Manage applications in Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a Anchor tab.
+The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a **Anchor** tab.
 
 The Application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
@@ -44,7 +44,7 @@ Use a combination of keyboard and mouse-click gesture to start an application. Y
 
 ## Work with applications
 
-Every session has a application tab which is called Anchor tab. A session can have a maximum of one Anchor tab and there will be no close option on the application tab. When you are working on a Omnichannel conversation request, then customer summary page is the default anchor tab.
+Every session has an application tab which is called **Anchor** tab. A session can have a maximum of one **Anchor** tab and there will be no close option on the application tab. When you are working on a Omnichannel conversation request, then customer summary page is the default anchor tab.
 
 When you switch sessions or between applications in the current session, unsaved changes are not lost and you can continue to work on them.
 

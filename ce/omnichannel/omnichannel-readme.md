@@ -125,7 +125,10 @@ When an agent declines the screen pop or when the screen pop times out, the work
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
 ## Support for multiple channel providers
-If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, the Omnichannel solution overrides the Channel Integration Framework solution because there is no support for multiple channel providers.
+
+If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, this will result in the upgrade of the Channel Integration Framework solution.
+
+You can continue to use the third-party channel provider in the unified interface apps such as Customer Service Hub, Sales Hub and so on. However, you can't use the third-party channel provider in the Omnichannel for Customer Service app. That is, you should not add the **Omnichannel for Customer Service** app while configuring the app list for in the channel provider.
  
 ## Support for knowledge articles when using Edge Process in Unified Service Desk
 When you use Edge Process in Unified Service Desk, agents cannot open knowledge articles from the Knowledge Base Search control.  
