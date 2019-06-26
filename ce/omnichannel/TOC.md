@@ -112,7 +112,7 @@
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
-### Customize sections in the Customer summary form
+### Customize quick view forms for Customer summary
 #### [Overview](customizer/customize-customer-summary.md)
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
@@ -189,3 +189,4 @@
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
+### [FAQs](faqs.md)

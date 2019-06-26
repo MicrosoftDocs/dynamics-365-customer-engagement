@@ -26,7 +26,7 @@ ms.custom:
 
     More information: [](agent/agent-oc/oc-create-record.md#create-a-new-record-from-the-customer-summary-page)
 
-- **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used switch the timeline based on the Case, Contact, or Account record linked to the conversation.
+- **View timeline based on the Case, Contact, or Account record:** The Timeline section on the Customer Summary page displays case- and customer-related activities in the form of a timeline. The **Linked records** field is used to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
     > [!div class='mx-imgBorder']
     > ![View only the linked records in the drop-down](media/oceh/customer-summary-linked-records.PNG "View only the linked records in the drop-down")

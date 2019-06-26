@@ -44,7 +44,7 @@ Use this sample package if you have an existing deployment of Unified Service De
 
 ## Unified Service Desk – Omnichannel for Customer Service
 
-Use this sample package if you want to start using a new Unified Service Desk environment with omnichannel. This package installs Unified Service Desk solutions and omnichannel-supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified Service Desk solutions and Omnichannel-supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
 
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
