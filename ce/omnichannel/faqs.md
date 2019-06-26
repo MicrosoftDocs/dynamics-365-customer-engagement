@@ -149,9 +149,9 @@ The dataset refresh interval for Intraday and Chat Insights reports depends on y
 
 ### What controls are in place to limit the exposure of agent performance KPIs within my organization?
 These controls are in place for exposing the data in reports:
-- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. <!--LINK to supervisor doc covering this -->
+- Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
 - Access to the Ongoing Conversation dashboard is controlled by the **Omnichannel supervisor** Dynamics role. <!--LINK to supervisor doc covering this  -->
-- Sentiment can be turned on or off in the Omnichannel Administration app. <!--LINK to admin doc covering this  -->
+- Sentiment can be turned on or off in the Omnichannel Administration app. To learn more, see [Enable sentiment analysis](administrator/enable-sentiment-analysis.md) 
 
 ## Chat widgets
 
