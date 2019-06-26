@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 This topic provides information about the pre-requisites and system requirements for deploying Omnichannel for Customer Service on a Dynamics 365 for Customer Engagement organization.
 
 You can deploy Omnichannel for Customer Service solution over a Customer Engagement application and experience it through the following ways:

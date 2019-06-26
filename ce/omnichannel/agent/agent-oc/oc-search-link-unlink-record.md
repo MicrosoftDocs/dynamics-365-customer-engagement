@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The topic explains how to Search for records, link a record to the conversation, and unlink a record from the conversation.
 
 You can search for the records in two ways:

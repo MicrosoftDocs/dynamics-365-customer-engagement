@@ -13,7 +13,7 @@ ms.assetid: B76E910B-0018-4499-B21F-6FEBDFBB2A22
 ms.custom: 
 ---
 
-# Preview: Integrate a bot
+# Preview: Integrate an Azure bot
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -38,7 +38,9 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 
 1.	[Create a bot user](#step-1-create-a-bot-user)
 2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues)
-3.	[Set escalation rules](#step-3-set-escalation-rules)
+3.  [Add code snippet to engage a bot](#step-3-add-code-snippet-to-engage-a-bot)
+4.	[Set escalation rules](#step-3-set-escalation-rules)
+
 
 
 ### Step 1: Create a bot user
@@ -64,22 +66,29 @@ To get Microsoft App ID of the bot:
 
 To create a bot user:
 
-1.	[Create an application user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
+1. Open the Web Client and go to **Settings** > **Security** > **Users**.
 
-2.	On the **New User** page, enter or select the following information for bot:
-    - **Agent type**: Select **Bot Agent**.
+2. In the view drop-down, select **Application Users**.
+
+3. Select **New**.
+
+4. In the view drop-down, select **Application User**.
+
+4.	On the **New User** page, enter or select the following information:
+    - **User Name**: User name of the bot. It is not displayed in the chat widget.
+    - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant. It is not used by the bot in Omnichannel.
+    - **Full Name**: Name of the bot as to be displayed in the chat widget.
+    - **Primary Email**: Enter a dummy email address. It is not used by the bot in Omnichannel.
+    - **Agent type**: Select **Bot application user**.
     - **Bot application ID**: Bot's application ID from Azure AD that you copied in the previous step.
 
-    > [!NOTE]
-    > You'll see two sections as **Bot Information**. You must enter information in the first **Bot Information** section.
-    >
-    > ![Two Bot Information sections](../media/two-bot-sections.png "Two Bot Information sections")
+    For more information on creating an application user, see [Create an application user](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
 
-3.	Save the record.
+5.	Save the record.
 
-4.	Select **Manage Roles** on the command bar.
+6.	Select **Manage Roles** on the command bar.
 
-5.	In the **Manage User Roles** window, select **Omnichannel agent**, and then select **OK**.
+7.	In the **Manage User Roles** window, select **Omnichannel agent**, and then select **OK**.
 
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user doesn't reduce when a query is handled by it.
@@ -93,9 +102,21 @@ Queues distribute the incoming customer queries among bots and agents. You must 
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first. Alternatively, you can also create a queue with the bot user only. If you create a queue with the bot user only, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first line of defense for all queries.
 
+An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue. Please note that the chat cannot be transferred to the same bot.
+
 You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Step 3: Set escalation rules](#step-3-set-escalation-rules)
 
-### Step 3: Set escalation rules
+### Step 3: Add code snippet to engage a bot
+
+In order to send messages to Omni-channel Engagement Hub, you need to add the following code statement to the bot code:
+
+```csharp
+OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
+```
+
+More information: [Engage a bot](../developer/bot-escalate-end-conversation.md#engage-a-bot)
+
+### Step 4: Set escalation rules
 
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
 

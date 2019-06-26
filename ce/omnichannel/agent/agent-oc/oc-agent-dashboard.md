@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 The Omnichannel Agent Dashboard is a default view when you sign in to the application. The dashboard displays the following streams:
 
 -   My work items
