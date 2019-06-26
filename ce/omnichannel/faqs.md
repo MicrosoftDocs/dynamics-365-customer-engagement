@@ -107,7 +107,7 @@ If you are using multiple fields for automated record identification, they must 
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-don't-appear-in-omnichannel-for-customer-service-active-dashboards-view).
+When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
 ### How long do configuration changes to omnichannel settings take to update?
 Changes made by administrators within the Omnichannel Administration application can take up to 15 minutes to reflect.
