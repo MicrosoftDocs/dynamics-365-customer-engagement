@@ -39,7 +39,7 @@ To integrate a bot with Omnichannel for Customer Service, you must:
 1.	[Create a bot user](#step-1-create-a-bot-user)
 2.	[Add a bot user to the queue(s)](#step-2-add-a-bot-user-to-the-queues)
 3.  [Add code snippet to engage a bot](#step-3-add-code-snippet-to-engage-a-bot)
-4.	[Set escalation rules](#step-3-set-escalation-rules)
+4.	[Set escalation rules](#step-4-set-escalation-rules)
 
 
 ### Step 1: Create a bot user
@@ -103,7 +103,7 @@ You can add a bot user to specific queues where you want the bot to handle the c
 
 An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue. Please note that the chat cannot be transferred to the same bot.
 
-You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Step 3: Set escalation rules](#step-3-set-escalation-rules)
+You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Step 4: Set escalation rules](#step-4-set-escalation-rules)
 
 ### Step 3: Add code snippet to engage a bot
 
@@ -147,9 +147,11 @@ This sample provides exact steps and configuration values to integrate a bot and
     - **CreditCardQueue**: Add agents who will handle credit card related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan related queries.
 
-3.	Follow the instructions in [Step 3](#step-3-set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream. 
+3. Follow the instructions in [Step 3](#step-3-add-code-snippet-to-engage-a-bot) to add code snippet for engaging a bot
 
-4.	Create three routing rules in the **ChatWorkStream** work stream in the following order:
+4.	Follow the instructions in [Step 4](#step-4-set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream. 
+
+5.	Create three routing rules in the **ChatWorkStream** work stream in the following order:
     - **BotRule**: Specify the work stream and queue as **ChatWorkStream** and **BotQueue** respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot](../media/bot-rule.png "Create a rule to send customer query to bot")

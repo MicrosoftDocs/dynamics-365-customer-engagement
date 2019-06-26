@@ -30,9 +30,6 @@ Operating hours define the hours when your organization's customer support team 
 
 2. Go to **Settings** \> **Operating Hours**.
 
-    > [!div class=mx-imgBorder]
-    > ![Select Operating Hours](../media/operating-hour-sitemap.png "Select Operating Hours")
-
 3. Select **New** to add an operating hour record.
 
 4. In the **Quick Create: Operating Hour** pane, provide the following information:
