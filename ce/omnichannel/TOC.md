@@ -2,6 +2,7 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
+### [Try Chat for Dynamics 365](try-chat-for-dynamics365.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
@@ -11,7 +12,6 @@
 
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
-### [Try Chat for Dynamics 365](try-chat-for-dynamics365.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
 ### [Remove Omnichannel for Customer Service](administrator/remove-omnichannel.md)
 ### [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
