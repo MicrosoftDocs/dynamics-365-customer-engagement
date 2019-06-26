@@ -26,23 +26,16 @@ search.app:
 
 All reports that are created using the Report Wizard are Fetch-based reports. Note that all reports generated with the Report Wizard print in landscape mode.
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
-    #### Check your security role  
+1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+2. To add a new report, click **New**.  
   
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
-  
-3. To add a new report, click **New**.  
-  
-4. In the **Report: New Report** dialog box, in the **Report Type** list, select **Report Wizard Report**, and then click **Report Wizard**.  
+3. In the **Report: New Report** dialog box, in the **Report Type** list, select **Report Wizard Report**, and then click **Report Wizard**.  
   
     You can only use the Report Wizard to edit reports that were created with the wizard.  
   
-5. Select the starting point for your report.  
+4. Select the starting point for your report.  
   
    1.  To create a new report, select **Start a new report**.  
   
