@@ -26,20 +26,13 @@ search.app:
 
 When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] report, is enabled for prefiltering, and has a default filter, you can change the default filter to display the data you expect to see in the report. This filter is used each time any user runs the report.  
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
-    #### Check your security role  
+1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
-  
-3. Select a report, and on the command bar, click or tap **More Commands**![More Commands button in Appointment Activity](../basics/media/morecommands.gif "More Commands button in Appointment Activity"), and then click or tap **Edit Default Filter**.  
+2. Select a report, and on the command bar, click or tap **More Commands**![More Commands button in Appointment Activity](../basics/media/morecommands.gif "More Commands button in Appointment Activity"), and then click or tap **Edit Default Filter**.  
   
     To see all reports, including sub-reports that aren’t visible in the default view, select the **All reports, Including Sub-reports** view.  
   
-4. Modify the filter criteria.  
+3. Modify the filter criteria.  
   
     The criteria are grouped by record types that you can use in the filter, such as **Accounts** or **Contacts**.  
   
@@ -79,8 +72,8 @@ When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-
    > - To clear all criteria and start over, on the Filter toolbar, click or tap **Clear**, and then click or tap **Confirm**.  
    >   -   To delete a row, click or tap the **Options menu** button ![arrow&#95;down&#95;black](../basics/media/arrow-down-black.gif "arrow_down_black") for that row, and then click or tap **Delete**.  
 
-   ### Save the filter  
-5. Click or tap **Save Default Filter**.  
+    
+4.  To save the filter click **Save Default Filter**.  
   
 ### See also  
  [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)   
