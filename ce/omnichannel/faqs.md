@@ -21,7 +21,7 @@ manager: shujoshi
 ## General
 
 ### What regions are supported?
-See the list of supported regions at [International availability of Microsoft Dynamics 365](/dynamics365/get-started/availability). 
+See the list of supported regions at [International availability of Microsoft Dynamics 365](system-requirements-omnichannel.md#international-availability). 
 
 ### What platforms are supported?
 You can find information about supported platforms and other prerequisites in [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md).
@@ -70,15 +70,6 @@ No. You can consult with any available agent in the queue from which the chat or
 ### Can an agent who receives a consult also initiate a consult or transfer?
 No. Only the primary agent of the chat can initiate transfers or consults. If the chat is transferred to another agent, the receiving agent will become primary and can initiate further transfers or consults.
 
-### My presence isn’t loading or it’s showing Unknown. What should I do?
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
-- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel Engagement Hub](administrator/add-users-assign-roles.md).
-- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md). 
-
-### My agent dashboard isn’t loading or is giving an authorization error. What should I do?
-- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
-- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
-- Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
 
 ### Why are my agents not receiving any new chats?
 New conversation (chat) requests will be assigned to an agent when:

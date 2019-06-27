@@ -24,7 +24,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Customer Summary page shows default icons
 
-If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon.
+If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
 
 ## CSD entity routing conversations aren’t routed
 
@@ -108,12 +108,12 @@ Now, if you open the conversation (work item) from the Omnichannel agent dashboa
 ## Agents receive delayed notification when the chat ends
 A customer ends the chat by selecting the Close (**X**) button on the chat widget. After the customer closes the chat, there's a delay before the agent receives the notification of the customer ending the conversation.
 
-## Support for emojis
-Emojis are not supported for the customer chat widget.
+## Support for emojis 
+Emojis are not supported in the customer chat widget.
 
-## Context variable support for duplicate and delete dependency check
+## Context variable duplication and delete dependency check
 
-While creating a context variable, the system does not perform duplicate detection in the work stream. Also, while deleting a context variable, the system does not perform a check for dependency.
+While creating a context variable, the system does not perform duplication detection in the work stream. Also, while deleting a context variable, the system does not perform dependency check.
 
 ## Available presence configuration
 
@@ -122,10 +122,10 @@ Default work streams shipped out of the box for all channels do not have allowab
 ## Screen pop decline or time out 
 When an agent declines the screen pop or when the screen pop times out, the work distribution mechanism puts a 2-minute pause on the agent’s clock and doesn’t allocate any new conversations to the agent for that time period.
 
-## Queue configuration 
+## Refresh queue configuration to reflect the addition of new user
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
-## Support for multiple channel providers
+## Support for thrid-party channel providers with Omnichannel for Customer Service
 
 If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, this will result in the upgrade of the Channel Integration Framework solution.
 

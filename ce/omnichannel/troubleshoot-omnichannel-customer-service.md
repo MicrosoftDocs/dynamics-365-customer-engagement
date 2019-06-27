@@ -251,3 +251,39 @@ You must remove the Customer Service Hub app from the channel provider configura
 3. Select the record that is related to omnichannel.
 4. Remove **Customer Service Hub** from the **Select Unified Interface Apps for the Channel** section.
 5. Select **Save** to save the record.
+
+## User presence isn’t loading or it’s showing Unknown
+
+### Issue:
+
+The issue might happen due to the following reasons:
+
+- Azure Active Directory consent is not available for Omnichannel for Customer Service app.
+- Agent doesn't the Omnichannel agent role privileges.
+- Capacity and Default presence is not.
+
+### Resolution:
+
+Perform the following:
+
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. For more information, see [Provision for Omnichannel for Customer Service](administrator/omnichannel-provision-license.md). 
+- Ensure the agent account has **Omnichannel Agent**. For more information, see [Assign roles and enable users for Omnichannel Engagement Hub](administrator/add-users-assign-roles.md).
+- Ensure the agent account has values set for **Capacity** and **Default presence** within the Omnichannel Administration app. To learn more, see [Create and manage users and user profiles](administrator/users-user-profiles.md).
+
+## Agent dashboard isn’t loading or is giving an authorization error
+
+## Issue:
+
+The issue might happen due to the following reasons:
+
+- Azure Active Directory consent is not available for Omnichannel for Customer Service app.
+- Agent doesn't the Omnichannel agent role privileges.
+- Agent is not assigned to any queue.
+
+### Resolution:
+
+Perform the following:
+
+- Contact your administrator to verify Azure Active Directory consent is given to the Omnichannel for Customer Service application on your tenant. Go to [Authorize access](https://go.microsoft.com/fwlink/?linkid=2070932) to get access. To learn more, see [Provide data access consent](administrator/omnichannel-provision-license.md#provide-data-access-consent).
+- Ensure the agent account has the role **Omnichannel Agent**. For more information about the relevant roles, see [Understand roles and their privileges](administrator/add-users-assign-roles.md#understand-roles-and-their-privileges). 
+- Ensure the agent account is assigned to at least one queue in the Omnichannel Administration app. To learn more, see [Manage users in Omnichannel for Customer Service](administrator/users-user-profiles.md).
