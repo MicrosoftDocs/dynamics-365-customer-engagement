@@ -42,33 +42,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 > [!IMPORTANT]
 > Ensure that you are either a **Global Tenant Admin** or **Dynamics 365 Service Admin** of your Dynamics 365 org to be able to provision the Omnichannel for Customer Service application.
 
-### Step 1: Sign up for Omnichannel for Customer Service preview
-
-To get the Omnichannel for Customer Service app, sign up for the Omnichannel for Customer Service preview from the Insider portal.
-
-1. Go to [Dynamics Insider Portal](http://experience.dynamics.com/insider) and sign in with your Microsoft account.
-2. Search for and open **Omnichannel for Customer Service preview** in the **Upcoming and Active Public Preview Programs** list.
-
-    > [!div class=mx-imgBorder]
-    > ![Signup omnichannel](../media/preview-signup.png)
-
-3. Select **Join now**. A preview survey is displayed.
-
-    > [!div class=mx-imgBorder]
-    > ![Fill survey for omnichannel](../media/preview-survey.png)
-
-
-4. Fill in all the required fields. Provide the **Org ID** where you want to set up Omnichannel for Customer Service. To know how to find your Org ID in Dynamics 365 instance, see [Locate your Org ID](#locate-your-org-id).
-
-    > [!div class=mx-imgBorder]
-    > ![Omnichannel org id](../media/preview-org.png)
-
-    Select **Submit** to submit the survey.
-
-    Once your request is approved, you will receive a confirmation email from Microsoft. Omnichannel for Customer Service will be available in the org that you provided in the survey. You can view the app in **Manage applications** in the **Dynamics 365 Administration Center**.
-
-
-### Step 2: Set up Omnichannel for Customer Service
+### Set up Omnichannel for Customer Service
 
 > [!NOTE]
 > Ensure that you have provided data access consent before you proceed with the set up. For more information, see [Provide data access consent](#provide-data-access-consent).
@@ -148,4 +122,3 @@ Follow these steps to locate your Org ID in your Dynamics 365 instance.
 [Understand and create work streams](work-streams-introduction.md)
 
 [Manage users](users-user-profiles.md)
-
