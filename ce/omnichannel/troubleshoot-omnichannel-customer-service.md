@@ -84,7 +84,8 @@ To delete and add **Widget location** for the chat widget, follow these steps:
 5. Select a record in the **Widget Location** section, and select **Delete**.
 6. Select **Save**.
 7. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
-8. Specify the following.<br>
+8. Specify the following.
+
    | Field | Value |
    |---------------------------|-----------------------------------------|
    | Title | Type the title of record. |
