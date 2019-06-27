@@ -20,9 +20,9 @@ Supervisors have a dual responsibility with respect to agents and customers. T
 > [!IMPORTANT]
 > The supervisor dashboards that are based on Power BI such as Intraday insights dashboard and live monitoring are not available on Government Community Cloud (GCC). 
 
-As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service** app.
+As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service** app on web.
 
-Let's look at the common tasks that you have to perform to configure **Unified Service Desk** and **Omnichannel for Customer Service** app:  
+Let's look at the common tasks that you have to perform to configure **Unified Service Desk** and **Omnichannel for Customer Service** app on web:  
 
 1. [Review prerequisites](#review-prerequisites)
 2. [Configure Power BI workspace](#configure-power-bi-workspace)
