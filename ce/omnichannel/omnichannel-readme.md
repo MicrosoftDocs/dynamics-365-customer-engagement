@@ -26,28 +26,29 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
 
-## CSD entity routing conversations aren’t routed
+## CDS entity routing is not available in Omnichannel for Customer Service
 
-Omnichannel routing service doesn't route the entity routing conversations as the Common Data Service entity routing is disabled.
+The CDS entity routing is disabled in the latest version of Omnichannel for Customer Service. You can't route CDS entities using omnichannel routing and work-distribution.
 
-After you upgrade: 
-- You can't use any existing CDS entity channel and work stream configurations.  
+Hence, after your upgrade:
+
 - You can't create any new CDS entity work stream. 
-- You can access existing CDS entity work stream configuration records, but the configurations are removed. 
-- You can't route CDS entities using omnichannel routing and work-distribution.
+- You might see existing CDS entity work stream configuration records, but these configurations are disabled and don't have any run-time impact.
 
-## Existing queues don't appear in the Omnichannel queues/Dashboards view
+## Omnichannel queue records are not available after upgrade
 
-After you upgrade, your existing queues don't appear in the Omnichannel queues/Dashboards view. The issue is due to removal of omnichannel specific queue entity, which is replaced with the Common Data Service (CDS) queue entity. The CDS queue entity will be used for omnichannel routing and work distribution.
+After you upgrade to the latest version of Omnichannel for Customer Service, your existing queue records will not be available. This is due to removal of omnichannel queue entity. The Common Data Service (CDS) queue entity will be used for omnichannel routing and work distribution.
 
 After you upgrade, you will experience the following:
 
-- All your existing omnichannel queue configurations is disabled. 
-- All existing active conversations will be closed and moved to CDS Transactional database.
+- All your existing omnichannel queue configurations will be removed. 
+- All your existing active conversations will be closed and moved to CDS Transactional database.
 
 ### Workaround
 
-You must manually configure the queues again as mentioned in the below steps. 
+You must manually configure the queues again.
+
+To configure the queues, perform the following steps.
 
 > [!Note]
 > - If you haven't upgraded your organization to the latest version, take a note of your existing omnichannel queue record configurations before the upgrade.  
@@ -56,21 +57,21 @@ You must manually configure the queues again as mentioned in the below steps.
     For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylistetn=queue`, now replace `etn=queue` with `etn=msdyn_omnichannelqueue` in the URL. <br><br>
     `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=msdyn_omnichannelqueue`.
 
-1. Select **Queues** and select **New** to create a new queue. Specify a value for the fields, and then select **Save** the queue.
-2. Select **Add Existing User** to add agents to the queue in the **Users (Agents)** section of the queue form.
-3. Repeat steps 3 to 5 to configure other configurations. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue). After you upgrade, the old queue records will be removed from the **Queue** field in routing rules. 
-4. Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
+Step 1. Create a queue. Select **Queues** and select **New** to create a new queue. Specify a value for the fields, and then select **Save**. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue).
+
+Step 2. Add users to queues. Select **Add Existing User** to add agents to the queue in the **Users (Agents)** section of the queue form. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue).
+
+Step 3: Update the routing rules. After you upgrade, the old queue records will be removed from the **Queue** field in routing rules.  Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
+
+    > [!Note]
+    > Repeat steps 1 to 3 for all your existing queue configurations.
 
     > [!Note]
     > - Default queue is created automatically, and you need not reconfigure it manually.
     >
     > - After you save the configurations, it may take up to 15 mins to reflect.
 
-### Validate
-
-As a supervisors, you must setup and validate the dashboard filters. 
-- The issue impacts the existing queue filters on the dashboards as it is removed after the upgrade. 
-- Supervisors need to setup the filters again on new queue records.
+Step 4: Ask supervisors to update the dashboard filters. After the upgrade, the existing queue filters on the dashboards will be removed. A a supervisors, you should reconfigure and validate your dashboard filters.
 
 ## Send Link button in the KB Search Page is not localized 
 
