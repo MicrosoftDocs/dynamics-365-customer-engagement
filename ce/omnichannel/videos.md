@@ -19,30 +19,18 @@ ms.custom:
 
 Take a look at the Omnichannel for Customer Service for Dynamics 365 that helps to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. 
 
-<iframe width="560" height="315" src=" " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Product videos
-
-### Set up chat
+## Set up chat
 
 
-<iframe width="560" height="315" src=" " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Agent Experience
+## Agent Experience
 
 
-<iframe width="560" height="315" src=" " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Supervisor Experience
-
-<iframe width="560" height="315" src=" " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Real-time Sentiment Analysis
+## Supervisor Experience
 
 
-<iframe width="560" height="315" src=" " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### Historical Insights Report
+## Real-time Sentiment Analysis
 
 
-<iframe width="560" height="315" src=" " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Historical Insights Report
+
