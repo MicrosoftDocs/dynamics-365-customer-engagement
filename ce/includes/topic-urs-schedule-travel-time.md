@@ -11,12 +11,9 @@ In this topic, we will explore how travel time and distance are calculated and v
 
 ## Prerequisites
 
-<!--note from editor: In item 2, is "yes" in the UI, and does lowercase "y" match the UI?   -->
-
-
 1. Connect your Dynamics 365 environment to Bing Maps. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling). This allows you to locate resources (field technicians) and work orders, and later calculate the travel time and distances between them.
    
-2. Set auto geocode addresses to **yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
+2. Set auto geocode addresses to **Yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
 3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
@@ -29,8 +26,6 @@ In this topic, we will explore how travel time and distance are calculated and v
 
 
 ## Visualize travel time on the schedule board
-
-<!--note from editor: Throughout topic, in screenshots, I'm not seeing the people names on the group's approved fictitious names lists. -->
 
 After a requirement is scheduled to a resource, the booking appears on the schedule board, and, if applicable, travel time displays preceding the booking.
 
@@ -59,23 +54,18 @@ When field technicians arrive onsite, they can update the booking status to **In
 
 By default, manually scheduling a requirement by dragging and dropping on the schedule board will not calculate travel time and distance. This can be helpful for field service organizations that are not very concerned with managing or optimizing their field technicians' travel but simply need to manage appointment start times. Imagine a scenario where an emergency work order arises, and the dispatcher simply wants to communicate the time that a field technician will arrive.
 
-
 For example, a work order requirement that is manually scheduled to a resource at 9:00 AM implies that the field technician should arrive at the customer's location at 9:00 AM; in this scenario, it's the field technician's responsibility to manage travel arrangements. In the following screenshot, an unscheduled work order requirement was dragged from the lower requirement pane to 9:00 AM for a resource. No travel time is calculated or added to the duration of the booking, implying that all 4 hours make up the working duration.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of manually scheduled work order with no travel calculation](../field-service/media/scheduling-board-manual.png)
 
-<!--note from editor: I don't see Coho Winery (or Blue Yonder, further down) on approved list of co. names: https://microsoft.sharepoint.com/sites/LCAWeb/Home/Copyrights-Trademarks-and-Patents/Trademarks/Fictitious-Names# -->
-
 Organizations that operate in small contained geographic areas can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
 > [!NOTE]
 > As of Dynamics 365 for Field Service version 8.6, travel time and distance calculations can be added to bookings that are **manually scheduled**. 
 
-<!--note from editor: I think a word is missing in the below sentence, after "completing the". Also, make it more clear which task(?) is being referred to.  -->
-
-In addition to completing the mentioned earlier in this topic, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
+In addition to completing the tasks mentioned earlier in this topic, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of auto update booking travel](../field-service/media/scheduling-manual-travel-update-enable.png)
@@ -166,11 +156,7 @@ When the optimization runs and automatically schedules work orders or other requ
 > [!div class="mx-imgBorder"]
 > ![Screenshot of optimized schedule board with resource schedule optimization](../field-service/media/rso-optimized-schedule-board.png)
 
-However, to better understand how RSO minimizes overall travel time, each RSO run (called a "request") displays a graph comparing total working minutes scheduled to total travel minutes for those optimized bookings. This can be compared to the same graph for requirements manually scheduled or with the schedule assistant.
-
-<!--note from editor:  At the end of above sentence, add "scheduled" before "with the schedule assistant"?  -->
-
-
+However, to better understand how RSO minimizes overall travel time, each RSO run (called a "request") displays a graph comparing total working minutes scheduled to total travel minutes for those optimized bookings. This can be compared to the same graph for requirements scheduled manually or with the schedule assistant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of travel time graph](../field-service/media/rso-travel-time-graph.png)
@@ -214,13 +200,6 @@ The out-of-the-box functionality supports travel time and distance calculations 
 The Auto Update Booking Travel feature for manual scheduling needs two locations to work. For example, if a resource has a starting location, and the first requirement scheduled to the resource has a location (for instance, the work location is **Onsite**), then the travel time will be calculated and visualized. If the resource does not have a starting location (for instance, if the resource start location is **Location Agnostic**), the first onsite requirement scheduled will not have a travel time. However, if an onsite requirement is scheduled after another onsite requirement, then the feature has two known locations, and the travel time between the two requirements will be calculated **even if the resource is location agnostic**.
 
 
-
-
-
-<!--note from editor: Suggest limiting the use of boldface to UI elements. MWSG says it's OK to use italic formatting sparingly for emphasis.   -->
-
-
-
 Here are a few more notes about the Auto Update Booking Travel feature:
 
 - The feature cannot be enabled or disabled based on specific users, schedule board tabs, or specific schedulable entities. 
@@ -229,6 +208,4 @@ Here are a few more notes about the Auto Update Booking Travel feature:
 
 - If you have an existing onsite booking, the subsequent onsite booking calculates travel time from the previous booking up until the beginning of the next day's working hours, even if there are multiple hours in between the two onsite bookings.
   
-- The time that the requirement is dragged to the schedule board is the time that the resource will arrive onsite, and the travel time is added **before** that time. This is not configurable. For example, if you schedule an onsite work order requirement at 10:00 AM by dragging the mouse to the 10:00 AM time slot, and the feature calculates 20 minutes of travel time, then the travel will begin at 9:40 AM, and the resource will arrive by 10:00 AM.
-
-<!--note from editor: In above paragraph, instead of "by dragging the mouse", name the object/field that is getting dragged/moved?   -->
+- The time that the requirement is dragged to the schedule board is the time that the resource will arrive onsite, and the travel time is added **before** that time. This is not configurable. For example, if you schedule an onsite work order requirement at 10:00 AM by dragging the requirement to the 10:00 AM time slot, and the feature calculates 20 minutes of travel time, then the travel will begin at 9:40 AM, and the resource will arrive by 10:00 AM.
