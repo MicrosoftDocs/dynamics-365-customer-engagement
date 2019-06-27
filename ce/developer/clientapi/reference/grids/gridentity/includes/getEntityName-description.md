@@ -1,1 +1,0 @@
-Returns the logical name for the record in the row.
