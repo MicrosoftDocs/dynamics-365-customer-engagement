@@ -25,7 +25,7 @@ The information displayed in these sections are displayed based on the conversat
 
 
 > [!IMPORTANT]
-> You must follow best practices so that the data displayed on the dashboards are affected affected. To learn more, see [Best practices to use Omnichannel for Customer Service](../best-practices.md).
+> Best practices should be followed to ensure that metrics displayed on the dashboard are not adversely affected. To learn more, see [Best practices to use Omnichannel for Customer Service](../best-practices.md).
 
 
 ## Conversations insights
@@ -46,7 +46,7 @@ This section of the dashboard consists of the following KPIs.
 | Conversations exceeding 5 min wait time | The number of conversations that are in active state and exceeded the time in queue threshold of five minutes. |
 | Conversations exceeding 5 min handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
 | Conversation state | The distribution of conversations across open, active, waiting, wrap up, and closed state. |
-| Open conversations | The number of work items that are in the open state and that are available to be picked or pushed to an agent. |
+| Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
 
 ## Agent insights
 

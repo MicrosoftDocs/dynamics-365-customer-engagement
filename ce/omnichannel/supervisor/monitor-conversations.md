@@ -53,7 +53,7 @@ By joining the conversation, you provide necessary inputs to both agent and cust
 
     The conversation page opens.
 
-3.	Select **Join chat** in the conversation panel.
+3.	You can choose to join a conversation as required. Select **Join chat** in the conversation panel.
 
     > [!div class=mx-imgBorder]
     > ![Select join chat](../media/supervisor-select-join-chat.png "Select join chat")

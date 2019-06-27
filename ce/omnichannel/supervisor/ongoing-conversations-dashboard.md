@@ -15,7 +15,7 @@ ms.custom:
 
 # Omnichannel Ongoing Conversations dashboard
 
-The **Omnichannel Ongoing Conversations** dashboard provides information on the conversation that are handled by agents and are in active, open, and waiting state in your organization. This dashboard provides a holistic view of the conversations with the details such as customer, agent assigned, subject, queue, activity status and more. The data in the dashboard auto refreshes in near real time.
+The **Omnichannel Ongoing Conversations** dashboard provides information on the conversation that are handled by agents and are in active, open, wrap up, and waiting state in your organization. This dashboard provides a holistic view of the conversations with the details such as customer, agent assigned, subject, queue, activity status and more. The data in the dashboard auto refreshes in near real time.
 
 Further, you can filter the conversations using the **Filter by queues** or **Filter by agents** option to create a personalized view of the queues or the group of agents you wish to monitor or track. Select the queues or agents for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selection. Select **Save** to set this filter as default and when you log in to Omnichannel for Customer Service app, you view conversations based on your saved filter.
 
@@ -27,7 +27,7 @@ Further, you can filter the conversations using the **Filter by queues** or **Fi
 The **Omnichannel Ongoing Conversations** is available in:
 
 -	[Unified Service Desk](#unified-service-desk)
--	[Omnichannel for Customer Service app](#omnichannel-for-customer-service-app)
+-	[Omnichannel for Customer Service app on web](#omnichannel-for-customer-service-app-on-web)
 
 ### Unified Service Desk
 
@@ -45,9 +45,9 @@ The **Omnichannel Ongoing Conversations** is available in:
     > [!div class=mx-imgBorder]
     > ![Ongoing Conversations dashboard in Unified service desk](../media/supervisor-usd-ongoing-conversations-dashboard.png "Ongoing Conversations dashboard in Unified service desk")
 
-## Omnichannel for Customer Service app
+## Omnichannel for Customer Service app on web
 
-1.	Go to *https://<your organization>.dynamics.com/apps* and select the **Omnichannel for Customer Service** app.
+1.	Go to *https://YourOrganization.dynamics.com/apps* and select the **Omnichannel for Customer Service** app.
 
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel for Customer Service app](../media/supervisor-ocs-app-selection.png "Select Omnichannel for Customer Service app")

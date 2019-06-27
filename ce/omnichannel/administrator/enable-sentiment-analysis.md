@@ -15,7 +15,7 @@ ms.custom:
 
 # Enable sentiment analysis
 
-As an administrator, you must enable sentimental analysis for supervisor to view the real-time sentiment of conversation on **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
+Enable sentimental analysis for supervisor to view the real-time sentiment of conversations on **Omnichannel Ongoing Conversation** dashboard in **Omnichannel for Customer Service**. You can enable or disable real-time sentiment through **Sentiment Analysis Settings** in **Omnichannel Administration**.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
@@ -34,7 +34,7 @@ As an administrator, you must enable sentimental analysis for supervisor to view
 
 5.	Save and close.
     
-    The sentiment analysis setting as enabled and available in your organization.
+    The sentiment analysis setting is enabled and available in your organization.
 
 
 ### See also

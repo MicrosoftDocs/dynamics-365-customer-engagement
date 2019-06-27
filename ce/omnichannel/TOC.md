@@ -50,6 +50,7 @@
 
 ### Supervisor Experience
 #### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
+#### [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dsahbaord.md)
 #### [Configure Dynamics 365 omnichannel insights dashboard](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 
