@@ -39,7 +39,7 @@ As an administrator, you must configure the Omnichannel Insights to display Omni
 Review the following prerequisites before configuring the dashboard:
 -  You have administrative privileges for Dynamics 365 and Power BI.
 -  You have a Power BI Pro license for all supervisors.
--  You must enable to embed Power BI reports in Dynamics 365 for Customer Engagement.
+-  You must enable to embed Power BI reports in Dynamics 365 for Customer Service.
     1.	Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Administration** > **System Settings**.
     2.	Go to **Reporting** tab and configure **Allow Power BI visualization embedding** as **Yes**.
     

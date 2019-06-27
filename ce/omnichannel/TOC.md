@@ -53,7 +53,7 @@
 
 ### Supervisor Experience
 #### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
-#### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dsahbaord.md)
+#### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
 #### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 

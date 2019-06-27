@@ -39,4 +39,4 @@ Enable sentimental analysis for supervisor to view the real-time sentiment of co
 
 ### See also
 
-[Monitor conversations](supervisor/monitor-conversations.md)
+[Monitor conversations](../supervisor/monitor-conversations.md)
