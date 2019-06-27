@@ -28,11 +28,10 @@ Omnichannel for Customer Service is packaged as solution that you need to deploy
 
 ## Download Unified Service Desk client application
 
-To download the Unified Service Desk client application, you must join the Omnichannel for Customer Service.
+[Download](/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk) the Unified Service Desk client application. 
 
 > [!Note]
-> Go to [Experience Dynamics 365](https://experience.dynamics.com) and select **Insider Program**. Sign in with you account. Choose **Omnichannel for Customer Service** and join.
-
+> Only Unified Service Desk 4.1 or a higher version of client application is supported to use with Omnichannel for Customer Service.
 
 ## Install Unified Service Desk client application
 

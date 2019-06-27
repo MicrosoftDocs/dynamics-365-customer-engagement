@@ -40,6 +40,8 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 
 - [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 - [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)
+- [Try chat for Dynamics 365](try-chat-for-dynamics365.md)
+- [Configure an SMS channel](administrator/configure-sms-channel.md)
 - [Quickly configure a chat widget](administrator/configure-live-chat.md)
 - [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 - [Administrators guide](administrator/omnichannel-administrator.md)
@@ -47,5 +49,3 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 - [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 - [System customizers guide](customizer/omnichannel-customizer.md)
 - [Developer guide](developer/omnichannel-developer.md)
-
-<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->
