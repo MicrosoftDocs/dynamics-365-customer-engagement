@@ -13,7 +13,7 @@ ms.assetid: e88852ce-b7ad-4196-8939-419f019f3c5f
 ms.custom: 
 ---
 
-# Omnichannel intraday insights dashboard
+# View and understand Omnichannel intraday insights dashboard
 
 The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) of agents in your organization. This dashboard consists of two sections:
 
@@ -23,8 +23,9 @@ The Omnichannel intraday insights dashboard provides information about the healt
 
 The information displayed in these sections are displayed based on the conversations closed in the last 24 hours and refreshes every 15 minutes.
 
+
 > [!IMPORTANT]
-> The preciseness of insights that are displayed in the dashboard is affected if agents leave their account open without signing out or if you configure to assign conversations to agents who are offline.
+> Best practices should be followed to ensure that metrics displayed on the dashboard are not adversely affected. To learn more, see [Best practices to use Omnichannel for Customer Service](../best-practices.md).
 
 
 ## Conversations insights
@@ -41,11 +42,11 @@ This section of the dashboard consists of the following KPIs.
 | KPI | Description |
 |-------|-------|
 | Average wait time per conversation | The average time a conversation is waiting in the queue in open state. |
-| Average handle time per conversation | The average time that is taken to complete a conversation. The KPI is calculated based on the conversations closed in the last 24 hours. |
+| Average handle time per conversation | The average time that is taken to complete a conversation. The KPI is calculated based on the conversations handled in the last 24 hours. |
 | Conversations exceeding 5 min wait time | The number of conversations that are in active state and exceeded the time in queue threshold of five minutes. |
 | Conversations exceeding 5 min handle time | The number of active conversations that are exceeding the handle time threshold of five minutes. |
-| Conversation state | The distribution of conversations across open, active, waiting and closed state. |
-| Open conversations | The number of work items that are in the open state and that are available to be picked or pushed to an agent. |
+| Conversation state | The distribution of conversations across open, active, waiting, wrap up, and closed state. |
+| Open conversations | The distribution of open conversations in pick mode and push mode respectively. |
 
 ## Agent insights
 
@@ -65,10 +66,10 @@ This section of the dashboard consists of the following KPIs.
 | Agent sessions abandon rate | The percentage of conversation sessions abandoned by agents due to timed-out or rejected requests. | 
 | Agent availability | The distribution of agents by presence status. The presence status of agents can be available, busy, busy-do not disturb, away, offline, or your custom defined status. |
 | Sessions abandoned by agents | The number of sessions that are abandoned by agents. | 
-| Agents with highest handle time | The list of agents with highest handle time. |
+| Agents with longest handle time | The list of agents with highest handle time. |
 | Total sessions transferred | The number of sessions that are transferred to agents and supervisors, along with the break up between the two. | 
 | Average consult time | The average time spent by agents on consultation for other agents or supervisor, across sessions. |
-| Conversations per online agent | The average number of conversations that are in active state and being handled by agents. The numbers are shows for online agents (available, busy, and busy DND). | 
+| Conversations per online agent | The average number of conversations that are in active state and being handled by agents. | 
 
 ## View and filter report
 
@@ -82,4 +83,4 @@ You can filter the information by selecting the Queues that are custom defined f
 
 -  [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)
 
--  [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+-  [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)

@@ -112,6 +112,10 @@ The Omnichannel for Customer Service app can be customized to include custom das
 ### Can I customize the Conversation Summary form?
 This is currently not supported. Enabling customizations for the Conversation Summary Form is on our roadmap. 
 
+### Why am I not able to see an empty dashboard, and IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors.
+
+While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. This confirms that an empty dashboard, and IntradayMonitoring report and datasets are available in Power BI service. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
+
 ## Supervisor experience
 
 ### Can I monitor conversations for all channels?
