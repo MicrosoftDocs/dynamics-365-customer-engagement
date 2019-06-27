@@ -13,7 +13,7 @@ ms.assetid: c4db5425-1e08-40b7-bfd8-5d6015b5ae6a
 ms.custom: 
 ---
 
-# Omnichannel Ongoing Conversations dashboard
+# View and understand Omnichannel Ongoing Conversations dashboard
 
 The **Omnichannel Ongoing Conversations** dashboard provides information on the conversation that are handled by agents and are in active, open, wrap up, and waiting state in your organization. This dashboard provides a holistic view of the conversations with the details such as customer, agent assigned, subject, queue, activity status and more. The data in the dashboard auto refreshes in near real time.
 
@@ -47,7 +47,7 @@ The **Omnichannel Ongoing Conversations** is available in:
 
 ## Omnichannel for Customer Service app on web
 
-1.	Go to *https://YourOrganization.dynamics.com/apps* and select the **Omnichannel for Customer Service** app.
+1.	Go to *https://**YourOrganization**.dynamics.com/apps* and select the **Omnichannel for Customer Service** app.
 
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel for Customer Service app](../media/supervisor-ocs-app-selection.png "Select Omnichannel for Customer Service app")
@@ -66,4 +66,4 @@ The **Omnichannel Ongoing Conversations** is available in:
 
 -  [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)
 
--  [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
+-  [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 

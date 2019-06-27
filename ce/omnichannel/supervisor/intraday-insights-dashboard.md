@@ -13,7 +13,7 @@ ms.assetid: e88852ce-b7ad-4196-8939-419f019f3c5f
 ms.custom: 
 ---
 
-# Omnichannel intraday insights dashboard
+# View and understand Omnichannel intraday insights dashboard
 
 The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) of agents in your organization. This dashboard consists of two sections:
 
@@ -83,4 +83,4 @@ You can filter the information by selecting the Queues that are custom defined f
 
 -  [Introduction to intraday insights dashboard](intro-intraday-insights-dashboard.md)
 
--  [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+-  [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)

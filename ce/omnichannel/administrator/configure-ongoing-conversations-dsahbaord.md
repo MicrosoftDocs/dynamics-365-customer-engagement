@@ -17,5 +17,5 @@ ms.custom:
 
 To access the **Omnichannel Ongoing Conversations** dashboard, you must assign **Omnichannel supervisor** role to the users. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).  
 
-Once the users get access to **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app. To learn more, see [Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).
+Once the users get access to **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app on web. To learn more, see [Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).
 

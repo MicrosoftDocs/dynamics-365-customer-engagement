@@ -36,7 +36,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 
 - **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations and refreshes every 15 minutes. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md).
 
-- **Ongoing Conversations**: This tab provides information about the conversations that agents are handling and are in active, open, and waiting states. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
+- **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, and waiting states. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
 > [!NOTE]
 > Contact your system administrator, for configuration errors or if you are unable to view the dashboards. to learn more, see [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md).
@@ -49,15 +49,15 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  User added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
-- While using the **Omnichannel for Customer Service** app, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app)
+- While using the **Omnichannel for Customer Service** app on web, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app)
 
 
 ### See also
 
 -  [Configure to view intraday insights dashboard](../administrator/configure-intraday-dashboard-supervisor.md)
 
--  [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
+-  [View and understand Omnichannel intraday insights dashboard](intraday-insights-dashboard.md) 
 
--  [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+-  [View and understand Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
  
 -  [Monitor conversations](monitor-conversations.md)

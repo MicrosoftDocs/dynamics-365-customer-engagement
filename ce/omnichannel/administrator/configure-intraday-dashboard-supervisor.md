@@ -38,7 +38,7 @@ To configure the dashboard on **Unified Service Desk**, follow these steps:
 4. [Update client cache version](#update-client-cache-version)
 
 
-To configure the dashboard on **Omnichannel for Customer Service** app, follow these steps:
+To configure the dashboard on **Omnichannel for Customer Service** app on web, follow these steps:
 
 1. [Perform the common tasks](#common-tasks-to-configure-intraday-insights-dashboard).
 2. [Configure supervisor dashboard in Omnichannel for Customer Service app](#configure-supervisor-dashboard-in-omnichannel-for-customer-service-app)
@@ -259,7 +259,7 @@ To learn more, see [Client caching overview](https://docs.microsoft.com/en-us/dy
 5.  Select **Save**.
 
 
-## Configuration tasks for Omnichannel for Customer Service app
+## Configuration tasks for Omnichannel for Customer Service app on web
 
 After you complete the common tasks, you must perform the tasks defined in this section to complete the configuration for Intraday insights dashboard for **Omnichannel for Customer Service**.
 
