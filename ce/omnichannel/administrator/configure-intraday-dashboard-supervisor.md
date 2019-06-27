@@ -18,7 +18,7 @@ ms.custom:
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents, and make sure that they remain highly productive. At the same time, they help guarantee a superior experience for customers. To help supervisors carry out this dual responsibility, the dashboard consists of real-time monitoring and intraday health tracking of agent productivity and performance.
 
 > [!IMPORTANT]
-> The supervisor dashboards are not available in the GCC region (Gulf Cooperation Council).
+> The supervisor dashboards are not available on Government Community Cloud (GCC). (Power BI dashboard are not available)
 
 As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service** app.
 
