@@ -1,8 +1,8 @@
 ---
-title: "Multi-resource scheduling with requirement groups | MicrosoftDocs"
+title: "Multiresource scheduling with requirement groups | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 12/13/2018
+ms.date: 06/24/2019
 ms.reviewer: "krbjoran"
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -27,7 +27,7 @@ search.app:
   - D365FS
 ---
 
-# Multi-resource scheduling with requirement groups
+# Multiresource scheduling with requirement groups
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
