@@ -13,14 +13,14 @@ ms.assetid: e8d3d8ae-3e5a-46a7-aed9-b7ad6f42a98f
 ms.custom: 
 ---
 
-# Configure Omnichannel Insights dashboard
+# Configure Omnichannel Insights dashboards
 
-Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. 
+Customer service managers or supervisors are responsible for managing agents who work to resolve customer queries every day through various service channels, including chat. They need to know key operational metrics to ensure that their agents are providing quality support. The Omnichannel Insights consists of Omnichannel Chat and Sentiment Analysis dashboards.
 
 > [!IMPORTANT]
 > The supervisor dashboards that are based on Power BI such as Chat and Sentiment Analysis are not available on Government Community Cloud (GCC).
 
-As an administrator, you must configure the configure the historical chat and sentiment analysis insights dashboards to display in Omnichannel for Customer Service app for supervisors to use. You must perform the following steps to configure the historical chat and sentiment analysis insights dashboards: 
+As an administrator, you must configure the Omnichannel Insights to display Omnichannel Chat and Sentiment Analysis dashboards in Omnichannel for Customer Service app. You must perform the following steps to configure: 
 
 [Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
 
@@ -36,7 +36,7 @@ As an administrator, you must configure the configure the historical chat and se
 
 ## Step 1: Review the prerequisites
 
-Review the following prerequisites before configuring the supervisor dashboard:
+Review the following prerequisites before configuring the dashboard:
 -  You have administrative privileges for Dynamics 365 and Power BI.
 -  You have a Power BI Pro license for all supervisors.
 -  You must enable to embed Power BI reports in Dynamics 365 for Customer Engagement.
