@@ -63,7 +63,7 @@ A chat conversation originates from the customer.
 
 At this point, routing and work distribution mechanism comes in.
 
- - With the help of context variables (*category* in the above table), **routing rules** determine that the chat belongs to the **Billing** queue. </br> </br> The chat is routed it to the **Billing** queue. 
+ - With the help of context variables (*category* in the above table), **routing rules** determine that the chat belongs to the **Billing** queue. </br> </br> The chat is routed to the **Billing** queue. 
 
 - As the chat reaches the Billing queue, the conversation is allocated to one of the agents of the Billing queue, who satisfy the following criteria:
 
@@ -94,15 +94,15 @@ If conversations are waiting to be assigned, they are allocated as soon as the a
 
 To effectively route and distribute work to agents, admins can set up the following items in Omnichannel for Customer Service:
 
-- [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
-- [Manage users](users-user-profiles.md)
+- [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
+- [Manage users in Omnichannel for Customer Service](users-user-profiles.md)
 - [Understand and create work streams](work-streams-introduction.md)
 - [Configure a chat channel](set-up-chat-widget.md)
 - [Configure an SMS channel](configure-sms-channel.md)
-- [Work with queues](queues-omnichannel.md)
-- [Set up record identification rule](record-identification-rule.md)
+- [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)
+- [Automatically identify customers using pre-chat responses](record-identification-rule.md)
 - [Create and manage routing rules](routing-rules.md)
-- [Configure and manage presence status](presence-custom-presence.md)
+- [Configure and manage custom presence](presence-custom-presence.md)
 
 ###  See also
 

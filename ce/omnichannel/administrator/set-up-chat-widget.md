@@ -13,13 +13,13 @@ ms.assetid: 983e691f-0ee2-4e30-ba70-7e534c762611
 ms.custom: 
 ---
 
-# Configure a chat channel
+# Configure a Chat channel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-A chat widget lets your customers connect with you in a way that is convenient for them (for example, from their mobile devices or a computer). The customer service agents can then connect with the customers to respond to their queries.
+A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
 In this section, you will learn how to:
 
