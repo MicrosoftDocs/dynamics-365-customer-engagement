@@ -22,7 +22,7 @@ The topic explains how to Search for records, link a record to the conversation,
 You can search for the records in two ways:
 
 - Inline search
-- Advanced search
+- Relevance search
 
 ## Search for records using inline search option
 
@@ -59,26 +59,23 @@ During inline search, the search results are displayed and you can select a reco
 > [!Note]
 > You can link only one contact or account in the customer (Contact or Account) section and one case in the case section.
 
-## Search for records using advanced search
+## Search for records using relevance search
 
-Search the records using the advanced search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select the search icon. You will see the details in the form of a list.
+Search the records using the relevance search option. When you select the Search icon, the search page launches in the application management toolbar. Specify the details and select the search icon. You will see the details in the form of a list.
 
 You can search for the case, account, contact and its associated fields as enabled by your administrator.
 
-> [!NOTE]
-> Advanced Search is also known called as Categorized Search.
-
-1. Select the search icon ![Advanced Search icon](../../media/oceh-oc-search-icon.png "Advanced Search icon"). The application launches the **Advanced Search** tab in the application tab.  
+1. Select the search icon ![Relevance Search icon](../../media/oceh-oc-search-icon.png "Relevance Search icon"). The application launches the **Relevance Search** tab in the application tab.  
 
 2. In the search box, specify the entity or attribute based on your search requirements and select the search icon.
 
 3. Select **Search**. The search results appear.
 
- ![Search case record using advanced search](../../media/oceh-oc-search-record-case.png "Search case record using advanced search")
+ ![Search case record using relevance search](../../media/oceh-oc-search-record-case.png "Search case record using relevance search")
 
-## Link a record to the conversation when doing advanced search
+## Link a record to the conversation when doing relevance search
 
-After you search a record using Advanced Search, you can link the record to the conversation from the communication panel. To link a record to the conversation when using Advanced Search, select the record from the list, the record opens in the Application tab. Now, go to the communication panel and select the more options (**...**) and select Link to conversation.
+After you search a record using Relevance Search, you can link the record to the conversation from the communication panel. To link a record to the conversation when using Relevance Search, select the record from the list, the record opens in the Application tab. Now, go to the communication panel and select the more options (**...**) and select Link to conversation.
 
 > [!Note]
 > You can link only one record to a conversation.
