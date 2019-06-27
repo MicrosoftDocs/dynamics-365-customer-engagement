@@ -47,7 +47,7 @@ To configure the dashboard on **Omnichannel for Customer Service** app on web, f
 
 ## Common tasks to configure intraday insights dashboard 
 
-You must perform these common tasks before you go ahead and configure intraday insights dashboard for **Unified Service Desk** and **Omnichannel for Customer Service**.
+You must perform these common tasks before you go ahead and configure intraday insights dashboard for **Unified Service Desk** and **Omnichannel for Customer Service** app on web.
 
 ### Review prerequisites
 
