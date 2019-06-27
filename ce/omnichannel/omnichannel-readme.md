@@ -47,18 +47,19 @@ After you upgrade, you will experience the following:
 
 ### Workaround
 
-You must manually configure the queues. If you captured your existing omnichannel queue record configurations before the upgrade, then follow from step 2. 
+You must manually configure the queues again as mentioned in the below steps. 
 
-If you've already upgraded, follow these steps:
-
-1. Access previous omnichannel queue records from a URL by replacing `etn=queue` with `etn=msdyn_omnichannelqueue` from queue grid page. <br>
+> [!Note]
+> - If you haven't upgraded your organization to the latest version, take a note of your existing omnichannel queue record configurations before the upgrade.  
+>
+> - If you've already upgraded your organization to the latest version, then you can still access previous omnichannel queue records from a URL by replacing `etn=queue` with `etn=msdyn_omnichannelqueue` from queue grid page. <br>
     For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylistetn=queue`, now replace `etn=queue` with `etn=msdyn_omnichannelqueue` in the URL. <br><br>
     `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=msdyn_omnichannelqueue`.
-2. Select **Queues** and select **New**. 
-3. Specify the value for the fields, and then select **Save** the queue.
-4. select **Add Existing User** to add existing agents to the queue in the **Users (Agents)** section.
-5. Repeat steps 3 to 5 to configure other configurations. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue). After you upgrade, the old queue records will be removed from the **Queue** field in routing rules. 
-6. Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
+
+1. Select **Queues** and select **New** to create a new queue. Specify a value for the fields, and then select **Save** the queue.
+2. Select **Add Existing User** to add agents to the queue in the **Users (Agents)** section of the queue form.
+3. Repeat steps 3 to 5 to configure other configurations. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue). After you upgrade, the old queue records will be removed from the **Queue** field in routing rules. 
+4. Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
 
     > [!Note]
     > - Default queue is created automatically, and you need not reconfigure it manually.
