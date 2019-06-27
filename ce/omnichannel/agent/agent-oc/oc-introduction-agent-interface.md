@@ -21,11 +21,9 @@ The Omnichannel for Customer Service app for Dynamics enables organizations to i
 
 ## Value propositions of Omnichannel for Customer Service app:
 
-- **Unified experience:** The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omnichannel for Customer Service app.
+- **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
-- **Multi-session and application management:** The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
-
-- **Single-view interface:** The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
+- **Multi-session and application management:** The app enables agents to handle multiple sessions and manage contextual applications (app tab panel) related to the sessions with ease, which in-turn leads to less errors, faster case resolution, and customer satisfaction.
 
 - **Deployment and upgrade:** The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
 
@@ -57,7 +55,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 
 1. Session panel
 
-2. Communication panel (hidden mode)
+2. Communication panel
 
 3. Application tab panel
 

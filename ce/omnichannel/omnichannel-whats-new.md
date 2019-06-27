@@ -64,13 +64,13 @@ More information: [Deploy Unified Service Desk - Omnichannel for Customer Servic
 
 - **Omnichannel for Customer Service Agent interface**: The Omnichannel for Customer Service app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions. Some of the key value propositions are as follows: 
 
-    - **Unified experience**: The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omnichannel for Customer Service app.
+    - **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
-    - **Multi-session and application management**: The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
+    - **Multi-session and application management:** The app enables agents to handle multiple sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
 
-    - **Single-view interface**: The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
+    - **Deployment and upgrade:** The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
 
-    - **Operating system agnostic**: The app is agnostic operating systems and also works seamlessly on modern browsers like Microsoft Edge and Google Chrome.
+    - **Extensibility:** The app is built on the Unified Interface framework, which makes easy for the developers and system customizers to customize and extend the app.
 
    > [!div class=mx-imgBorder]
    > ![Omnichannel for Customer Service app interface](media/oceh/oceh-whats-new.png "Omnichannel for Customer Service app interface")

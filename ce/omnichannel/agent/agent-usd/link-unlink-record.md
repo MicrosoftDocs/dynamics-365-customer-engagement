@@ -33,7 +33,7 @@ During inline search, the search results are displayed, and you can select a rec
 > You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
 
 
-## Link a record by doing advanced search
+<!-- ## Link a record by doing advanced search
 
 You can link a record in the list of search results to a conversation. You can link only one record to a conversation.
 
@@ -55,7 +55,7 @@ You can link a record in the list of search results to a conversation. You can l
 After you link the record to the conversation, the Customer summary form is refreshed and reflects the details. Similarly, you can link other record types.
 
 > [!Note]
-> You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section.
+> You can link only one contact or account in the **Customer profile** section and one case in the **Issue snapshot** section. -->
 
 ## Unlink a record from the conversation
 
