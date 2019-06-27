@@ -15,12 +15,8 @@ ms.custom:
 
 # Introduction to Omnichannel Insights dashboard
 
-> [!DISCLAIMER]
-> 
-
-
 > [!IMPORTANT]
-> Customers must ensure they comply with all applicable laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. These metrics seen through trends over a period of time helps them understand how each agent and queue is performing over time, so that they can take corrective measures and provide appropriate guidance to agents and fine tune the customer support experience provided.
 
@@ -35,7 +31,7 @@ Supervisors can use Omnichannel Insights to perform the following tasks:
 
 ## Prerequisites  
 
-Verify the following prerequisites before you use the Omnichannel Chat and Sentiment dashboards:
+Verify the following prerequisites before you use the Omnichannel Chat and Sentiment Analysis dashboards:
 
 -	Omnichannel supervisor role is assigned. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md). 
 

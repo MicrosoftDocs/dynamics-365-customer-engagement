@@ -18,16 +18,21 @@ ms.custom:
 Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. They need to be able to know key operational metrics to ensure that their agents are providing quality support. 
 
 > [!IMPORTANT]
-> The supervisor dashboards are not available in the GCC region.
+> The supervisor dashboards that are based on Power BI such as Chat and Sentiment Analysis are not available on Government Community Cloud (GCC).
 
 As an administrator, you must configure the configure the historical chat and sentiment analysis insights dashboards to display in Omnichannel for Customer Service app for supervisors to use. You must perform the following steps to configure the historical chat and sentiment analysis insights dashboards: 
 
-1.	[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
-2.	[Step 2: Install Omnichannel Historical Chat Analytics app](#step-2-install-omnichannel-historical-chat-analytics-app)
-3.	[Step 3: Connect Dynamics 365 organization to Omnichannel Insights app](#step-3-connect-dynamics-365-organization-to-omnichannel-insights-app)
-4.	[Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
-5.	[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
-6.	[Step 6: Add Power BI Dashboard to Omnichannel for Customer Service](#step-6-add-power-bi-dashboard-to-omnichannel-for-customer-service)
+[Step 1: Review the prerequisites](#step-1-review-the-prerequisites)
+
+[Step 2: Install Omnichannel Insights for Dynamics 365 app](#step-2-install-omnichannel-insights-for-dynamics-365-app)
+
+[Step 3: Connect Dynamics 365 organization to Omnichannel Insights for Dynamics 365 app](#step-3-connect-dynamics-365-organization-to-omnichannel-insights-for-dynamics-365-app)
+
+[Step 4: Configure refresh frequency on Power BI Dataset](#step-4-configure-refresh-frequency-on-power-bi-dataset)
+
+[Step 5: Publish application within your organization](#step-5-publish-application-within-your-organization)
+
+[Step 6: Add Power BI Dashboard to Omnichannel for Customer Service](#step-6-add-power-bi-dashboard-to-omnichannel-for-customer-service)
 
 ## Step 1: Review the prerequisites
 
@@ -47,9 +52,14 @@ Review the following prerequisites before configuring the supervisor dashboard:
 
 1.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-2.	As a Power BI admin, Install [Omnichannel Insights for Dynamics 365](http://aka.ms/oc-chat-insights) app.
+2.	As a Power BI admin, open [Omnichannel Insights for Dynamics 365](http://aka.ms/d365-oc-insights.) app.
 
-3.	After the **Omnichannel Insights** app is installed, select the app and configuration options page displays.
+3.  Select **GET IT NOW** to install the app.
+
+    > [!div class=mx-imgBorder]
+    > ![Omnichannel Insights for Dynamics 365 app installation](../media/supervisor-admin-historical-install-app-pbi.png "Omnichannel Insights for Dynamics 365 app installation")
+
+4.	After the **Omnichannel Insights** app is installed, select the app and configuration options page displays.
 
     > [!div class=mx-imgBorder]
     > ![Omnichannel insights configuration page](../media/supervisor-admin-historical-configuration-page-doi.png "Omnichannel insights configuration page")
@@ -96,7 +106,7 @@ After you connect Omnichannel Chat Insights app with Dynamics 365 organization, 
 
 1.	Sign in to [Power BI](https://app.powerbi.com/) app as administrator.
 
-2.	Go to the **Dynamics 365 omnichannel insights** app **workspace**. 
+2.	Go to the **Omnichannel Insights** app workspace. 
 
     > [!div class=mx-imgBorder]
     > ![Select power bi workspace](../media/supervisor-admin-historical-powerbi-workspace.png "Select power bi workspace")
@@ -116,7 +126,7 @@ After you connect Omnichannel Chat Insights app with Dynamics 365 organization, 
 
 5. Select **Apply**.
 
-Omnichannel Insight reports and dashboards will refresh daily. Now, publish the application in your organization.
+Omnichannel insight reports and dashboards will refresh daily. Now, publish the application in your organization.
 
 ## Step 5: Publish application within your organization
 
@@ -189,7 +199,7 @@ You must add users in the supervisor configuration to access any supervisor dash
 
 ## Configuring Omnichannel Insights Demo app
 
-There is an accompanying demo application which uses a predefined dataset to help demonstrate the features and capabilities of Omnichannel Insights. Please follow the steps outlined below to configure the Omnichannel Insights Demo application:
+There is an accompanying demo application which uses a predefined dataset to help demonstrate the features and capabilities of Omnichannel Insights. Follow the stepsto configure the Omnichannel Insights Demo application:
 
 You must perform the following steps to configure the Omnichannel Insights Demo app:
 
@@ -198,9 +208,14 @@ You must perform the following steps to configure the Omnichannel Insights Demo 
 
     a.	Sign in to the [Power BI](https://app.powerbi.com/) app as an administrator.
 
-    b.	Install [Omnichannel Insights - Demo](http://aka.ms/oc-chat-insights-demo) app.
+    b.	Open [Omnichannel Insights for Dynamics 365 - Demo](http://aka.ms/d365-oc-insights-demo) app.
 
-    c.	After the **Omnichannel Insights - Demo** app is installed, select the app and configuration options page displays.
+    c.  Select **GET IT NOW** to install the app.
+
+       > [!div class=mx-imgBorder]
+       > ![Omnichannel Insights for Dynamics 365 demo app installation](../media/supervisor-admin-historical-install-demo-app-pbi.png "Omnichannel Insights for Dynamics 365 demo app installation")
+
+    d.	After the **Omnichannel Insights - Demo** app is installed, select the app and configuration options page displays.
 
        > [!div class=mx-imgBorder]
        > ![Omnichannel Insights demo app configuration page](../media/supervisor-admin-historical-configuration-page-doi-demo.png "Omnichannel Insights demo app configuration page")
