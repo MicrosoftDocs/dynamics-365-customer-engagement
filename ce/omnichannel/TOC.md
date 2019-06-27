@@ -12,6 +12,8 @@
 
 ## [What's new](omnichannel-whats-new.md)
 
+## [Videos](videos.md)
+
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
@@ -190,7 +192,5 @@
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
-
-## [Videos](videos.md)
 
 ## [FAQs](faqs.md)
