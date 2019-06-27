@@ -17,10 +17,6 @@ ms.custom:
 
 Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Service Desk – Omnichannel for Customer Service** package on a Dynamics 365 for Customer Engagement instance.
 
-## Download Unified Service Desk
-
-[Download](/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk) the Unified Service Desk client application.
-
 ## Download Unified Service Desk - Omnichannel for Customer Service packages
 
 [Download](https://go.microsoft.com/fwlink/p/?linkid=2097302) the Unified Service Desk - Omnichannel for Customer Service packages.

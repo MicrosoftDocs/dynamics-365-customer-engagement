@@ -24,10 +24,24 @@ Supervisors get real-time and historical visibility and insights into the operat
 
 The enterprise-grade routing and work distribution engine allows customers to configure agent presence, availability, and routing rules, thus ensuring agents are working on the most relevant engagements.
 
+## Channels Available with Omnichannel for Customer Service
+
+You can enable the following channels in your organization with Omnichannel for Customer Service.
+
+### Chat
+
+Chat is an engagement channel that enables your agents to connect with customers in real-time. Chat channel is generally available now. For more information on enabling Chat in your organization, see [Try chat for Dynamics 365](try-chat-for-dynamics365.md).
+
+### SMS
+
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. SMS channel is currently available in preview. For more information on enabling SMS in your organization, see [Configure an SMS channel](administrator/configure-sms-channel.md).
+
 ## See also
 
 - [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 - [Assign roles and enable users for Omnichannel for Customer Service](administrator/add-users-assign-roles.md)
+- [Try chat for Dynamics 365](try-chat-for-dynamics365.md)
+- [Configure an SMS channel](administrator/configure-sms-channel.md)
 - [Quickly configure a chat widget](administrator/configure-live-chat.md)
 - [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
 - [Administrators guide](administrator/omnichannel-administrator.md)
@@ -35,5 +49,3 @@ The enterprise-grade routing and work distribution engine allows customers to co
 - [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
 - [System customizers guide](customizer/omnichannel-customizer.md)
 - [Developer guide](developer/omnichannel-developer.md)
-
-<!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

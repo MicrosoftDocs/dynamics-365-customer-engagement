@@ -74,7 +74,7 @@ This section displays recent cases related to the customer.
 > [!div class='mx-imgBorder']
 > ![Recent cases section in the customer summary form](../../media/customer-summary-recent-cases.png "Recent cases section in the customer summary form")
 
-### Timeline
+## Timeline
 
 This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
