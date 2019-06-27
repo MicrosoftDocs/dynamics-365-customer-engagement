@@ -142,7 +142,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     > [!NOTE]
     > - The `user_json` parameter comes from the identity provider (for example, Microsoft Azure Active Directory or Google).
-    > - `lwicontexts` is the key whose value should have the custom context variable serialized as string. It must be specified in lowercase letters.
+    > - `lwicontexts` is the key whose value should have the custom context variable serialized as string. It must be must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
 7. Sign and encrypt this payload by using the private key to generate the JWT. 
 
