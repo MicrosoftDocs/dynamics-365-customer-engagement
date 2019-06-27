@@ -17,8 +17,8 @@ ms.custom:
 
 Here are the best practices to use Omnichannel for Customer Service, so that the data in the dashboards are not affected:
 
--  Agents should sign out or update presence appropriately before stepping out, to avoid requests to be routed to them.
+-  Agents should sign out or set presence as Appear away before stepping out. This avoids the routing of conversation requests to them.
 
--  For requests from channels that require immediate attention, routing rules should not be configured to assign to away or offline agents.
+-  As an administrator or supervisor, you should not configure routing rules to assign conversation requests for agents whose presence is away or offline. This ensures that conversations from channels that require immediate attention are not assigned to the agents who are away or offline. 
 
--  Close the session in the app once the conversations with the customer is complete. Closing a session ensures, you've capacity to work on the next conversation request. 
+-  Close the session in the app once the conversation with the customer is complete. Closing a session ensures that you have capacity to work on the next conversation request. 

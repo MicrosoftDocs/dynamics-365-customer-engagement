@@ -19,3 +19,7 @@ To access the **Omnichannel Ongoing Conversations** dashboard, you must assign *
 
 Once the users get access to **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app on web. To learn more, see [Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).
 
+add users to for USD
+
+web will be available by default
+
