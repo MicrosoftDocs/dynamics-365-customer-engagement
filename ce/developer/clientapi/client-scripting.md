@@ -26,7 +26,7 @@ You can also use business rules, which provides a way for someone, who does not 
 Dynamics 365 for Customer Engagement apps provide you a rich set of **client APIs** to interact with form objects and events to control what and when to display on a form.
 
 > [!IMPORTANT]
-> - Dynamics 365 for Customer Engagement apps are [model-driven apps](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/model-driven-app-overview) that you create using PowerApps. All the client API documentation for Customer Engagement apps is now available in the model-driven apps section of the PowerApps documentation here: [Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting)
+> Dynamics 365 for Customer Engagement apps are [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview) that you create using PowerApps. All the client API documentation for Customer Engagement apps is now available in the model-driven apps section of the PowerApps documentation here: [Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting)
   
 Some client APIs are deprecated in the current release of Dynamics 365 for Customer Engagement apps. Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
