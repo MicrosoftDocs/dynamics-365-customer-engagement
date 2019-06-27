@@ -181,7 +181,7 @@ Follow these steps to configure Power BI dashboards.
 
 3.  Select **Set as featured** for the created dashboard.
 
-4.  Share the dashboard with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](power-bi/service-share-dashboards).  
+4.  Share the dashboard with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).  
 
 5.  For Unified Service Desk configuration, copy the URL of the dashboard.  
 
