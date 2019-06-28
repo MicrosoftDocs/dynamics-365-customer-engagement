@@ -101,7 +101,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reactivate or reopen the conversation again.
 
 > [!div class="nextstepaction"]
-> [View communication panel](conversation-control.md)
+> [View communication panel](left-control-panel.md)
 
 ## See also
 
