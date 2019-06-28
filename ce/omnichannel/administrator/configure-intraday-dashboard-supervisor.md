@@ -182,7 +182,7 @@ Follow these steps to configure Power BI dashboards.
    > [!div class=mx-imgBorder]
    > ![select report](../media/supervisor-admin-pin-report-to-dashboard.png "select report")  
 
-    Choose on which dashboard you want to pin and select **Pin**. The report is pinned to the chosen dashboard.
+  Choose on which dashboard you want to pin and select **Pin**. The report is pinned to the chosen dashboard.
 
    > [!div class=mx-imgBorder]
    > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-dashboard.png "Pin a report on dashboard")  
