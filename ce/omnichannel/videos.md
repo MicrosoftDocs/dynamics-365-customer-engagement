@@ -15,22 +15,51 @@ ms.custom:
 
 # Videos
 
-## Introduction to Omnichannel for Customer Service 
+<table>
+<tr>
+<td>
 
-Take a look at the Omnichannel for Customer Service for Dynamics 365 that helps to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. 
+<h2> Introduction to Omnichannel for Customer Service </h2>
+<a href="https://go.microsoft.com/fwlink/?linkid=2097511" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2097511)">Introduction to Omnichannel for Customer Service</a>
 
+</td>
+<td>
 
-## Set up chat
+<h2> Set up chat </h2>
+<a href="https://go.microsoft.com/fwlink/?linkid=2097416" data-raw-source="[Set up chat](https://go.microsoft.com/fwlink/?linkid=2097416)">Set up chat</a>
 
+</td>
+</tr>
 
-## Agent Experience
+<tr>
+<td>
 
+<h2> Agent Experience </h2>
+<a href="https://go.microsoft.com/fwlink/?linkid=2097512" data-raw-source="[Agent Experience](https://go.microsoft.com/fwlink/?linkid=2097512)">Agent Experience</a>
 
-## Supervisor Experience
+</td>
+<td>
 
+<h2> Supervisor Experience </h2>
+<a href="https://go.microsoft.com/fwlink/?linkid=2097417" data-raw-source="[Supervisor Experience](https://go.microsoft.com/fwlink/?linkid=2097417)">Supervisor Experience</a>
 
-## Real-time Sentiment Analysis
+</td>
+</tr>
 
+<tr>
+<td>
 
-## Historical Insights Report
+<h2> Real-time Sentiment Analysis </h2>
+<a href="https://go.microsoft.com/fwlink/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/?linkid=2097513)">Real-time Sentiment Analysis</a>
+
+</td>
+<td>
+
+<h2> Historical Insights Report </h2>
+<a href="https://go.microsoft.com/fwlink/?linkid=2097418" data-raw-source="[Historical Insights Report](https://go.microsoft.com/fwlink/?linkid=2097418)">Historical Insights Report</a>
+
+</td>
+</tr>
+
+</table>
 

@@ -35,7 +35,7 @@ Verify the following prerequisites before you use the Omnichannel Chat and Senti
 
 -	Omnichannel supervisor role is assigned. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](../administrator/add-users-assign-roles.md). 
 
--	User added in supervisor configuration. To learn more, see [Add users to supervisor configuration](../administrator/configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
+-	User is added in supervisor configuration. To learn more, see [Add users to supervisor configuration](../administrator/configure-historical-sentiment-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
 ### See also
 

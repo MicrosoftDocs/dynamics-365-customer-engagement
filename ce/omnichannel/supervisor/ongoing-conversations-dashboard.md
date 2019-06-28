@@ -52,10 +52,7 @@ The **Omnichannel Ongoing Conversations** is available in:
     > [!div class=mx-imgBorder]
     > ![Select Omnichannel for Customer Service app](../media/supervisor-ocs-app-selection.png "Select Omnichannel for Customer Service app")
 
-2.	Select the view drop-down list and choose **Omnichannel Ongoing Conversations Dashboard**.
-
-    > [!div class=mx-imgBorder]
-    > ![Change to Omnichannel Ongoing Conversations dashboard view](../media/supervisor-ongoing-conversations-dashboard-view-selection.png "Change to Omnichannel Ongoing Conversations dashboard view")
+2.	Select the **Omnichannel Ongoing Conversations Dashboard** tab.
 
     The Omnichannel Ongoing Conversations dashboard displays the list of conversations that you and agents are handling. 
 

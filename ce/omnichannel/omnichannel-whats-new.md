@@ -97,6 +97,16 @@ More information: [Agents using Omnichannel for Customer Service app](agent/agen
 
     More information: [View communication panel](agent/agent-oc/oc-conversation-control.md#search-agents-or-queues-for-the-transfer-of-a-conversation-request)
 
+### Supervisor Experience 
+
+The Omnichannel for Customer Service app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers. Customer service managers or supervisors are responsible for managing the agents who work to resolve customer queries every day through various service channels, including Chat. Some of the key value propositions are as follows:
+
+-  **Intraday insights dashboards**: This dashboard helps supervisors to keep track of the work that their agents do and can use this dashboard to perform tasks such as to monitor key performance indicators (KPIs), monitor quality and workload of an agent, monitor unassigned workload, and manage agent and customer escalations. To learn more, see [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md).
+
+-  **Omnichannel Insights dashboards**: This dashboard provides metrics to seen through trends over a period of time helps supervisors to understand how each agent and queue is performing over time, so that they can take corrective measures and provide appropriate guidance to agents and fine-tune the customer support experience provided. To learn more, see [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+
+-  **Monitor conversations**: Monitoring the conversations helps supervisors in identifying the conversations that need attention to provide their expertise or suggestions to close. Supervisors can select a conversation from the dashboard and choose to monitor and join a conversation when required.  To learn more, see [Monitor conversations](supervisor/monitor-conversations.md).
+
 ### System customizer experience
 
 - **Configure Omnichannel experience with the Add-On package**: When you deploy the Omnichannel for Customer Service – Preview – Add-on package, you can configure the basic components for agents to use Omnichannel for Customer Service. Learn how to configure the following components:

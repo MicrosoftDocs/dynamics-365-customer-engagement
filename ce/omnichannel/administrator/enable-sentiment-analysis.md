@@ -20,7 +20,7 @@ Enable sentimental analysis for supervisor to view the real-time sentiment of co
 > [!NOTE]
 > Sentiment analysis is enabled by default.
 
-1.	Go to *https://<your organization>.dynamics.com/apps* and select the **Omnichannel Administration** app.
+1.	Go to *https://yourorganization.dynamics.com/apps* and select the **Omnichannel Administration** app.
 
 2.	Go to **Settings** > **Sentimental Analysis** and select **Real-Time Sentiment Analysis**.
 
