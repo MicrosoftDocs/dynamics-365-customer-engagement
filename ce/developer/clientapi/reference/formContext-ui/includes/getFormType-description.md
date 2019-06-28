@@ -1,1 +1,0 @@
-Gets the form type for the record.

@@ -1,1 +1,0 @@
-Use this method to access the [ViewSelector methods](../../viewselector.md) available for the grid control.
