@@ -39,9 +39,9 @@ The conversations (work items) that are in the queue or available for you (agent
 
 The conversation (work item) transitions from **Open** to **Active** or **Closed** state under the following scenarios.
 
-| From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
+| From state | To state | Scenario  | Type (SMS, Chat, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Open          | Active           | When the you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. <br><br> When the supervisor assigns the conversation to you. | SMS, Chat, Conversation, and Entity Routing |
+| Open          | Active           | When the you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. <br><br> When the supervisor assigns the conversation to you. | SMS, Chat, Conversation |
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
 
 ![Transition from open to active or closed state](../../media/oc-conversation-open.png "Open state")
@@ -52,7 +52,7 @@ The conversations that you pick for working are classified under **Active** stat
 
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, **Wrap-up**, or **In-progress** state under the following scenarios.
 
-| From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
+| From state | To state | Scenario  | Type (SMS, Chat, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Closed           | When you complete working on the conversation and end the conversation and close the session.| Entity Routing |
 | Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another agent or queue. <br><br> | Conversation |
@@ -68,7 +68,7 @@ The conversations that you close or customer disconnects are classified under **
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
-| From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
+| From state | To state | Scenario  | Type (SMS, Chat, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Waiting       | Closed           | When you don't reconnect to the conversation with in a specified timeout period.<br><br> When the customer selects the **End** button to end the conversation and close the session.| Conversation. |
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Conversation |
@@ -76,7 +76,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 ![Transition from waiting to closed, active, or open state](../../media/oc-conversation-waiting.png "Waiting state")
 
-## In-progress
+<!-- ## In-progress
 
 The session that you close while conversation is still in active state are classified under **In-progress** state.
 
@@ -84,7 +84,7 @@ The session that you close while conversation is still in active state are class
 |---------------|------------------|---------------------------------------------------------|------------|
 | In-progress   | Closed           | When you don't perform any action, then then conversation auto-closes after the inactivity timeout. | SMS |
 
-![Transition from in-progress to closed state](../../media/oc-conversation-in-progress.png "In-progress state")
+![Transition from in-progress to closed state](../../media/oc-conversation-in-progress.png "In-progress state") -->
 
 ## Wrap-up
 
@@ -92,7 +92,7 @@ The conversations that are ended either by you or the customer are classified un
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** state under the following scenario. 
 
-| From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
+| From state | To state | Scenario  | Type (SMS, Chat, Conversation Channels) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Conversation |
 

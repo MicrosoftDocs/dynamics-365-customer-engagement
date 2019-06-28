@@ -59,7 +59,7 @@ When you accept an incoming conversation request by selecting the **Accept** but
 
 ## Work on multiple customer sessions
 
-As an agent, when you are working on a case, you get an incoming conversation request (chat), and you accept the request. This starts a new session and the customer summary page is loaded with context of the session. You can add applications such as KB Search, Open records, and any Line-of-Business applications made available in the app tab panel sitemap. You can add these applications using the gestures, sitemap, and the options in the communication panel.
+As an agent, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session and the customer summary page is loaded with context of the session. You can open applications such as KB Search, Open records, and any Line-of-Business applications made available in the application tab panel sitemap. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
 
 When you switch sessions, unsaved changes are not lost and you can continue to work on them.
 
@@ -67,21 +67,30 @@ For example, you are working on a case by entering the title of the case and not
 
 ## Close a session
 
-You can close any session manually by selecting the **X** button next to the session title. When you close a session, a confirmation dialog is shown to you.
+You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you see the **X** button, and if you select the button, a confirmation dialog is shown to you.
+
+   > [!div class=mx-imgBorder]
+   > ![Close session](../../media/oceh/close-session.png "Close session")
 
    > [!div class=mx-imgBorder]
    > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
 
 ## Mode of the session panel
 
-By default, the session panel is in expanded mode and it is collapsible based on your requirement.
-At all times, the **Home** session is default and you can't close it. The Home session shows the default dashboard set for you by your administrator.
+By default, the session panel is in expanded mode. Use the burger icon to toggle between expand or collapse mode.
+At all times, the **Home** session is anchored and you can't close it. The Home session shows the default dashboard set for you by your administrator.
+
+   > [!div class=mx-imgBorder]
+   > ![Expand and collapse the session list](../../media/oceh/expand-collapse-session-list.png "Expand and collapse the session list")
+
 
 ## Title and icon of the session
 
 - **Session Title**
 
-    By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or Case forms. After linking, the session title is automatically updated.
+    By default, the title of session is name of the customer, account, or title of the case. For an unauthenticated conversation request, the title will be displayed as visitor with a number. For example, **Visitor 1**.
+    
+    For an authenticated chat, name of the contact, account or title of the case is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Session icon](../../media/oceh/oceh-session-icon.png "Session icon")
@@ -100,4 +109,4 @@ At all times, the **Home** session is default and you can't close it. The Home s
 
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
-- [View agent dashboard and work items](oc-agent-dashboard.md)
+- [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)

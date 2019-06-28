@@ -120,9 +120,6 @@ While creating a context variable, the system does not perform duplication detec
 
 Default work streams shipped out of the box for all channels do not have allowable presence preconfigured. Administrators should configure available presence manually.
 
-## Screen pop decline or time out 
-When an agent declines the screen pop or when the screen pop times out, the work distribution mechanism puts a 2-minute pause on the agent’s clock and doesn’t allocate any new conversations to the agent for that time period.
-
 ## Refresh queue configuration to reflect the addition of new user
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
