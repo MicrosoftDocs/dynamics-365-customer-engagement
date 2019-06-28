@@ -68,7 +68,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 -  As a system administrator, you must configure the following in Power BI service:
 
-   1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel for Customer Service** to that security group. To learn more, see [Manage app and resource access using Azure Active Directory groups](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-manage-groups). 
+   1. Create a security group in Azure Active Directory (AAD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
    2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
         a.  Sign in to [Power BI service](http://app.powerbi.com) and go to **Settings** > **Admin portal**.
@@ -166,7 +166,7 @@ To verify the creation of workspace in Power BI, follow these steps:
 Configuring the Power BI workspace provides you only the **IntradayMonitoring** report. Create the dashboard out of **IntradayMonitoring** Power BI report after it is available.
 
 > [!IMPORTANT]
-> In Power BI settings for **IntradayMonitoring**, DO NOT select the option **Take over**. If you select this option, the credentials used to create this dataset and report will be deleted, and you have to reconfigure intraday insights dashboards. 
+> In Power BI settings for **IntradayMonitoring**, DO NOT select the option **Take over**. If you select this option, the dataset will not connect to the datasource and you have to reconfigure intraday insights dashboards. 
 
 > [!NOTE]
 > If you want the dashboards with faster refresh rate, import the **LiveMonitoring** Power BI report. Pin tiles to the dashboard from this report for the metrics you want to view with faster refresh. This dashboard consists of Active and open conversations, Conversations exceeding 5 min wait time, Conversations exceeding 5 min handle time, Total conversations transferred, and Open conversations.
