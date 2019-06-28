@@ -187,7 +187,7 @@ Follow these steps to configure Power BI dashboards.
    > [!div class=mx-imgBorder]
    > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-dashboard.png "Pin a report on dashboard")  
 
-    To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
+  To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
 
 3.  Select **Set as featured** for the created dashboard to display on the top for each time you open the Power BI service.
 
