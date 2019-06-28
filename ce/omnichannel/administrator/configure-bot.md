@@ -147,7 +147,7 @@ This sample provides exact steps and configuration values to integrate a bot and
     - **CreditCardQueue**: Add agents who will handle credit card related queries.
     - **HomeLoanQueue**: Add agents who will handle home loan related queries.
 
-3. Follow the instructions in [Step 3](#step-3-add-code-snippet-to-engage-a-bot) to add code snippet for engaging a bot
+3. Follow the instructions in [Step 3](#step-3-add-code-snippet-to-engage-a-bot) to add code snippet for engaging a bot.
 
 4.	Follow the instructions in [Step 4](#step-4-set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** work stream. 
 

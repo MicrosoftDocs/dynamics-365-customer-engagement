@@ -1,5 +1,5 @@
 ---
-title: "Add a chat widget | MicrosoftDocs"
+title: "Add a Chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
@@ -13,14 +13,14 @@ ms.assetid: DEDC2F99-3AB4-414D-B3DB-B27F871E804A
 ms.custom: 
 ---
 
-# Add a chat widget
+# Add a Chat widget
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** &gt; **Chat**.
+1. Sign in to Omnichannel Administration.
+2. Go to **Channels** &gt; **Chat**.
 3. Select **New** to create a chat widget.
 4. On the **New Chat Widget** page, provide the appropriate information on each tab:
 
@@ -45,7 +45,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
         > [!div class=mx-imgBorder]
         > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
 
-    - **Survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated. For more information, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
+    - **Pre-chat survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated. For more information, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
 
         > [!div class=mx-imgBorder]
         > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")

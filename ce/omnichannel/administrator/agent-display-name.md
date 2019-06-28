@@ -24,9 +24,9 @@ To protect an agent's privacy, you can configure your chat widget to display eit
 > [!NOTE]
 > The selected agent display name is displayed only in the chat widget while chatting with a customer. For consultation or chat transfer, full name of the agent is used. 
 
-1. Sign in to Omnichannel for Customer Service.
+1. Sign in to Omnichannel Administration.
 
-2. Go to **Administration** &gt; **Chat**.
+2. Go to **Channels** &gt; **Chat**.
 
 3. Open the chat widget in which you need to configure the agent display name.
 
