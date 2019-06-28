@@ -52,7 +52,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 7. Repeat steps 4 through 6 to create the following additional action calls.
  
-## Show Entity Notification
+<!-- ## Show Entity Notification
 
  | Tab             | Field           | Value                                        |
  |-----------------|-----------------|----------------------------------------------|
@@ -61,6 +61,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Hosted Control  | Omnichannel Toast Notification              |
  | General | Action          | Show                                         |
  | General | Data            | formname=EntityNotification <br> top=85 <br> left=95 <br> timeout=60 <br> stack=true <br> stackHeight=50 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] |
+ -->
 
 ## Expand Right Pane
 
