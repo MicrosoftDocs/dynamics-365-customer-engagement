@@ -17,7 +17,9 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-You can create authentication settings to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables. For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
+You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
+
+For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
 
@@ -26,8 +28,8 @@ An agent will get a notification in the **Conversation summary** section whether
 
 ## Create a chat authentication setting record
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** \> **Authentication Settings**.
+1. Sign in to Omnichannel Administration.
+2. Go to **Settings** \> **Authentication Settings**.
 
     A list of existing authentication settings is shown.
 
@@ -138,7 +140,7 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 
     > [!NOTE]
     > - The `user_json` parameter comes from the identity provider (for example, Microsoft Azure Active Directory or Google).
-    > - `lwicontexts` is the key whose value should have the custom context variable serialized as string. It must be specified in lowercase letters.
+    > - `lwicontexts` is the key whose value should have the custom context variable serialized as string. It must be must be defined exactly as they are defined in the work stream that is associated with the chat widget.
 
 7. Sign and encrypt this payload by using the private key to generate the JWT. 
 
@@ -152,7 +154,6 @@ If you're adding authentication for a chat widget on a portal that doesn't use D
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey question](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

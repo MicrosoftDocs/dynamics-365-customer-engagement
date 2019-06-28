@@ -103,6 +103,4 @@ The conversations that are completed by ending, and closing the session are clas
 > [!div class="nextstepaction"]
 > [View communication panel](oc-conversation-control.md)
 
-## See also
 
-[Understand conversation state lifecycle](../../administrator/conversation-state-lifecycle.md)

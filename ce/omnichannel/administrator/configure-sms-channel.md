@@ -2,15 +2,18 @@
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 keywords: ""
+ms.date: 07/01/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: 4392FF3A-51B1-42DC-A576-C3001D879469
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: 4392FF3A-51B1-42DC-A576-C3001D879469
-ms.custom: 
 ---
 
 # Preview: Configure an SMS channel
@@ -28,11 +31,27 @@ An SMS channel allows your organization to connect to customers by using text me
 
 Agents can view the incoming SMS requests in their dashboard and respond accordingly.
 
-To add SMS support for your organization, you must first register with TeleSign and get your customer ID and API key, and purchase a phone number. You can then add SMS support through Omnichannel for Customer Service.
+To add SMS support for your organization,
+
+1.  Enable SMS channel in your Dynamics 365 organization. 
+
+2.  Register with TeleSign and get your customer ID and API key, and purchase a phone number. 
+
+3.  Add SMS support through Omnichannel for Customer Service.
 
 > [!NOTE]
 > - The maximum number of characters supported for sent and received messages is 1600.
 > - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](../agent/agent-oc/oc-conversation-state.md)
+
+## Enable SMS channel in your Dynamics 365 organization
+
+SMS channel is in preview. You can enable SMS channel after you have signed up for the preview through the Insider Portal. For more information on steps to sign up for preview, see [Preview features in Omnichannel for Customer Service](../preview-features.md).
+
+Once you have signed up for preview, you can enable SMS channel by going to the Dynamics 365 Admin Center. For steps on enabling SMS in your organization as a part of Provisioning Omnichannel for Customer Service, see [Provision Omnichannel for Customer Service ](omnichannel-provision-license.md).
+
+> [!NOTE]
+> SMS channel is only available if you have an active subscription of Dynamics 365 for Customer Service Chat.
+
 
 ## Sign up for TeleSign account
 
@@ -50,9 +69,9 @@ To sign up for TeleSign:
 
 ## Add SMS support for your organization
 
-1.	Sign in to Omnichannel for Customer Service.
+1.	Sign in to Omnichannel Administration.
 
-2.	Go to **Administration** > **Work Streams**.
+2.	Go to **Channels** > **Work Streams**.
 
 3.	Select **New** to create a work stream.
 
@@ -78,7 +97,7 @@ To sign up for TeleSign:
 
 10.	On the **New SMS Number** page, enter the following information:
     - **Number**: Phone number purchased from TeleSign.
-    - **Type**: Select if the number is long code, short code, or toll free.
+    - **Type**: Select **Long code**. Other options like Short code or Toll free are not supported in this preview.
     - **Description**: Optional description for the number.
     
     > [!NOTE]

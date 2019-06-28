@@ -17,7 +17,7 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression in it to identify the sensitive information and replace it with the masking character. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
+Data masking allows you to block sensitive data such as credit card information, social security numbers (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. The masking rule applies to every message sent by a customer through a chat or an SMS channel. If an agent sends any sensitive data to a customer, it will not be masked. 
 
 The following masking rules are provided out of the box:
 
@@ -33,9 +33,9 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 ## Create a data masking rule
 
-1.	Sign in to Omnichannel for Customer Service.
+1.	Sign in to Omnichannel Administration.
 
-2.	Go to **Administration** > **Data Masking**.
+2.	Go to **Settings** > **Data Masking**.
 
 3.	Select **New** to add a data masking rule.
 
@@ -61,9 +61,9 @@ As an administrator, you can delete or modify out-of-the-box masking rules and c
 
 Once a masking rule is created, you can activate a rule, deactivate a rule, or delete it permanently.
 
-1.	Sign in to Omnichannel for Customer Service.
+1.	Sign in to Omnichannel  Administration.
 
-2.	Go to **Administration** > **Data Masking**.
+2.	Go to **Settings** > **Data Masking Settings**.
 
 3. Open the masking rule to be managed.
 
