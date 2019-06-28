@@ -1,1 +1,0 @@
-Opens a file.
