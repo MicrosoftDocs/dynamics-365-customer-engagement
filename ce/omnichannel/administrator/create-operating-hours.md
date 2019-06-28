@@ -63,7 +63,6 @@ Operating hours define the hours when your organization's customer support team 
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a question](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>

@@ -58,7 +58,6 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Enable knowledge articles in the Omnichannel for Customer Service](knowledge-management-oc.md) </br>
 - [Add a chat widget](add-chat-widget.md)<br>
 - [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-- [Create a question library](create-question-library.md)<br>
 - [Create quick replies](create-quick-replies.md)<br>
 - [Create and manage operating hours](create-operating-hours.md)<br>
 - [Create chat authentication settings](create-chat-auth-settings.md)<br>

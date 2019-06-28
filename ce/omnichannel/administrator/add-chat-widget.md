@@ -59,7 +59,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ### See also
 
-[Create a survey question](create-question-library.md)<br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

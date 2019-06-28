@@ -45,7 +45,6 @@ Quick replies are pre-defined messages that can be created for agents to quickly
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey questions library](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>

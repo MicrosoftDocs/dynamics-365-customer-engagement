@@ -65,7 +65,6 @@ More information: [Automatically identify customers using pre-chat responses](re
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey question](create-question-library.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
