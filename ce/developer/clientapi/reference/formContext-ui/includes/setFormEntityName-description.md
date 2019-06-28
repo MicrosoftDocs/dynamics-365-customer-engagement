@@ -1,1 +1,0 @@
-Sets the name of the entity to be displayed on the form.

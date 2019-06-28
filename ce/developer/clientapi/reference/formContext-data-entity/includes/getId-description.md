@@ -1,1 +1,0 @@
-Returns a string representing the GUID value for the record.
