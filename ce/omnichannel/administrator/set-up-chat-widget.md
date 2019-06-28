@@ -13,7 +13,7 @@ ms.assetid: 983e691f-0ee2-4e30-ba70-7e534c762611
 ms.custom: 
 ---
 
-# Configure a Chat channel
+# Configure a chat channel
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 

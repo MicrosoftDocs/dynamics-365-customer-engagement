@@ -1,5 +1,5 @@
 ---
-title: "Add a Chat widget | MicrosoftDocs"
+title: "Add a chat widget | MicrosoftDocs"
 description: "Instructions to add a chat widget in Omnichannel for Customer Service."
 keywords: ""
 author: sbmjais
@@ -13,7 +13,7 @@ ms.assetid: DEDC2F99-3AB4-414D-B3DB-B27F871E804A
 ms.custom: 
 ---
 
-# Add a Chat widget
+# Add a chat widget
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
