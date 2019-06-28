@@ -24,8 +24,6 @@ Types of conversation states:
  - [Active](#active)
  
  - [Waiting](#waiting)
-
- - [In-progress](#in-progress)
  
  - [Wrap-up](#wrap-up)
 
