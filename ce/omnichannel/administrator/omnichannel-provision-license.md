@@ -90,7 +90,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
 
         > [!NOTE]
-        > If you haven't signed up for preview through the Insider Portal, the option to enable the SMS channel will be disabled here. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can skip this step, and enable SMS at a later time. For steps on enabling SMS at a later time, see [Enable SMS channel](omnichannel-provision-license#enable-sms-channel).
+        > If you haven't signed up for preview through the Insider Portal, the option to enable the SMS channel will be disabled here. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can skip this step, and enable SMS at a later time. For steps on enabling SMS at a later time, see [Enable SMS channel](#enable-sms-channel).
 
 
         > [!IMPORTANT]
@@ -111,7 +111,7 @@ To allow Omnichannel for Customer Service to read and write data on behalf of us
 
 You can enable SMS channel in your organization after signing up for preview through the Insider Portal. For information on signing up for preview of features in Omnichannel for Customer Service, see [Preview features in Omnichannel for Customer Service](../preview-features.md). You can enable an SMS channel can only if you have an active subscription of Chat for Dynamics 365.
 
-To enable SMS in an organization where Chat isn't enabled, see the steps in the earlier section [Set up Omnichannel for Customer Service](omnichannel-provision-license#set-up-omnichannel-for-customer-service).
+To enable SMS in an organization where Chat isn't enabled, see the steps in the earlier section [Set up Omnichannel for Customer Service](#set-up-omnichannel-for-customer-service).
 
 To enable SMS in an organization where Chat is enabled, 
 
