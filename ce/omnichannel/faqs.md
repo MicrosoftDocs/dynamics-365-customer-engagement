@@ -42,7 +42,7 @@ This release provides support for Chat for Dynamics 365 and SMS (preview). For u
 No, Chat and related Omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
 ### How do I get started?
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up Omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
 
 ## Agent experiences
 
