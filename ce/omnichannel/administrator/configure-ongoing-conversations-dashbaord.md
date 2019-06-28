@@ -19,6 +19,8 @@ To access the **Omnichannel Ongoing Conversations** dashboard, you must assign *
 
 Once the users get access,  the **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app on web. 
 
-For **Unified Service Desk**, you must add users to supervisor configuration to access the dashboard. To learn more, see [Add users to supervisor configuration](configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration)
+For **Unified Service Desk**, you must add users to supervisor configuration for the dashboard to be available in the home session app tab. To learn more, see [Add users to supervisor configuration](configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
-To learn more, see [View and understand Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).
+### See also
+
+[View and understand Omnichannel Ongoing Conversations dashboard](../supervisor/ongoing-conversations-dashboard.md).

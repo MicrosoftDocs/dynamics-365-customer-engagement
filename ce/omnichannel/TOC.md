@@ -105,7 +105,7 @@
 
 
 ## Supervisor guide
-### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
+### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
 #### [View and understand Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 #### [Monitor conversations](supervisor/monitor-conversations.md)

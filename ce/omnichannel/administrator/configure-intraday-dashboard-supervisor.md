@@ -18,7 +18,7 @@ ms.custom:
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents, and make sure that they remain highly productive. At the same time, they help guarantee a superior experience for customers. To help supervisors carry out this dual responsibility, the dashboard consists of real-time monitoring and intraday health tracking of agent productivity and performance.
 
 > [!IMPORTANT]
-> The supervisor dashboards that are based on Power BI such as Intraday insights dashboard and live monitoring are not available on Government Community Cloud (GCC). 
+> The supervisor dashboards that are based on Power BI such as Intraday insights dashboard is not available on Government Community Cloud (GCC). 
 
 As an administrator, you must configure the intraday insights dashboard in your organization before supervisors can use it. Before you configure this dashboard, you have to perform the common tasks and then tasks that are specific to **Unified Service Desk** and **Omnichannel for Customer Service** app on web.
 
@@ -55,7 +55,7 @@ Review the following prerequisites before configuring the supervisor dashboard:�
 
 -  You have administrative privileges for Dynamics 365 for Customer Service and Power BI. 
 
--  You must have **Power BI Pro** or **Power BI Premium** license for all supervisors. 
+-  You must have **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators. 
 
 -  You must enable to embed Power BI reports in Dynamics 365 for **Omnichannel for Customer Service** app on web.
     1.	Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Administration** > **System Settings**.
@@ -176,14 +176,20 @@ Follow these steps to configure Power BI dashboards.
 
 1.  In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-report-open).
 
-2.  Pin the required tiles to dashboards. To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
-
+2.  Pin the required tiles to dashboards. 
     The following screen shows how to pin a visual to the dashboard.
 
    > [!div class=mx-imgBorder]
-   > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-to-dashboard.png "Pin a report on dashboard")  
+   > ![select report](../media/supervisor-admin-pin-report-to-dashboard.png "select report")  
 
-3.  Select **Set as featured** for the created dashboard.
+    Choose on which dashboard you want to pin and select **Pin**. The report is pinned to the chosen dashboard.
+
+   > [!div class=mx-imgBorder]
+   > ![Pin a report on dashboard](../media/supervisor-admin-pin-report-dashboard.png "Pin a report on dashboard")  
+
+    To learn more, see [Pin a tile to a Power BI dashboard from a report](https://docs.microsoft.com/en-us/power-bi/service-dashboard-pin-tile-from-report).
+
+3.  Select **Set as featured** for the created dashboard to display on the top for each time you open the Power BI service.
 
 4.  Share the dashboard with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share your Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).  
 
