@@ -30,7 +30,17 @@ You can configure your chat widget to show users a survey that they should respo
     > [!NOTE]
     > You can add only five questions to a pre-chat survey.
 
-6. In the **New Question** pane, browse and select a question that is already created, and specify whether it's required or optional. To create a new question, see [Create a survey question](create-question-library.md).
+6. In the **New Question** pane, provide the following information:
+
+    - **Question name**: Enter a name for the question.
+    - **Question text**: Enter the text of the question.
+    - **Question type**: Select the type of answer that is required from users:
+
+        - **Single line**: The user can enter a single line of text.
+        - **Multiple lines**: The user can enter multiple lines of text.
+        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
+
+    - **Mandatory**: Select **Yes** or **No** if the question is mandatory or not.
 
     > [!NOTE]
     > Validations in pre-chat survey are supported only for mandatory fields.
