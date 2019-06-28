@@ -17,7 +17,7 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a **Anchor** tab.
+The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a **Anchor** tab. In the image shown, **Omnichannel Agent Dashboard** is the anchor tab.
 
 The Application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
@@ -29,7 +29,7 @@ The Application tab has a **+** icon. If you select the icon, a menu  appears th
 You can open an application in the application tab panel in the following ways:
 
 - Use the application tab menu
-- Use gestures.
+- Use **Ctrl + mouse-click** gesture.
 
 ### Use the application tab menu
 
@@ -38,7 +38,7 @@ On the application tab panel, select **+** icon to view the menu that has a list
 > [!div class=mx-imgBorder]
 > ![App tab menu](../../media/oceh/oceh-app-tab-select-icon.png "App tab menu")
 
-### Use gestures to open an application
+### Use gesture (Ctrl + mouse-click) to open an application
 
 Use a combination of keyboard and mouse-click gesture to start an application. You can press **Ctrl** and select on a link to open in a new application tab. The application opens in the current active session.
 
@@ -63,7 +63,7 @@ The title of the application tab will the name of the Customer Engagement entity
 
 
 > [!div class="nextstepaction"]
-> [Next topic: View agent dashboard and work items](oc-agent-dashboard.md)
+> [Next topic: View agent dashboard and conversations (work items)](oc-agent-dashboard.md)
 
 ## See also
 

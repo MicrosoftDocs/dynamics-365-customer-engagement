@@ -13,7 +13,7 @@ ms.assetid: 69344371-9846-488B-A9A8-875C35398F92
 ms.custom: 
 ---
 
-# View agent dashboard and agent conversations (work item)
+# View agent dashboard and agent conversations (work items)
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -33,11 +33,13 @@ In this stream, you see the conversations (work items) that you are actively wor
 
 ### Open work items
 
-In this stream, you see the conversations (work items) in a waiting state from all queues that are available for you to pick. You can see the conversations (work item) for the work streams where you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, the system moves the work item from the **Open work items** stream to the **My work items** stream.
+In this stream, you see the conversations (work items) in a open state from all queues that you are added as a member. Select the ellipses and select the **Pick** option to assign the work item to yourself. When you select **Pick**, you get a notification, and when you accept it, a session starts and customer summary or case page loads. 
+
+The work item that you picked is moved from the **Open work items** stream to the **My work items** stream. If you reject the request, then work item remains in the **Open work items** stream.
 
 ### Closed work items
 
-In the **Closed work items** stream, the stream refreshes and shows you all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
+In the **Closed work items** stream, you see all the conversations that you've closed in the past 24 hours. To view a closed work item, select the ellipsis button (**...**) for it, and then select **Open** to view the details.
 
 > [!div class="nextstepaction"]
 > [Next topic: Create a record](oc-create-record.md)

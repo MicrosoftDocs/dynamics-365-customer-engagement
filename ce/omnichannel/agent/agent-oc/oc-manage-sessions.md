@@ -22,7 +22,7 @@ The vertical panel on the left side is the session panel that allows you (the ag
 > [!div class=mx-imgBorder]
 > ![Session panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
 
-When a session is started, the following happens:
+For a SMS or chat channel, when a session is started, the following happens:
 
 - The presence status is updated as per the configuration set by your administrator.
 - The Communication panel is displayed so you can interact and exchange messages with the customer.
@@ -36,16 +36,18 @@ As an agent, you can start the sessions in two ways:
 - Manually start a session
 - Automatically start a session using the incoming notification
  
-When you start a session, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
+When you start a session from a notification request that is a Chat or SMS channel, the presence status is updated as per the configuration set for you by your administrator. In addition, the communication panel is displayed so you can communicate with the customer.
 
 ### Manually start a session using the gestures
 
-Use a combination of keyboard and mouse-click gesture to start a session. You can press **Shift** and select on a link to open as a session. You can't use the gesture to open any other link apart from Customer Engagement session enabled records.
+#### Contact and Case session
+Use a combination of keyboard and mouse-click gesture to start a session. You can press **Shift** and select the work item to open a case or contact session. You can also select the **Open** option from the Omnichannel Agent Dashboard to start a case or contact session.
 
-> [!Tip]
-> Alternatively, from the Omnichannel Agent Dashboard, select **More options** (**...**) and select **Open** or **Pick** to start the session. **Open** is available for **My work items** and **Closed work items** streams. **Pick** is available in **Open work items** streams.
->
-> ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") ![Pick to start session in Open work items](../../media/oceh/oc-pick-work-item-open-work-items.png "Pick to start session in Open work items")
+#### Chat and SMS channel
+
+You can start a SMS or Chat session manually from the Omnichannel Agent Dashboard. Select **More options** (**...**) and select **Open** or **Pick** to start the session. The **Open** option is available for **My work items** and **Closed work items** streams. The **Pick** option is available in **Open work items** streams.
+
+ ![Open session in My work items](../../media/oceh/oc-open-work-item-my-work-items.png "Open session in My work items") ![Pick to start session in Open work items](../../media/oceh/oc-pick-work-item-open-work-items.png "Pick to start session in Open work items")
 
 ### Automatically start a session using the incoming notification
 
@@ -59,7 +61,7 @@ When you accept an incoming conversation request by selecting the **Accept** but
 
 ## Work on multiple customer sessions
 
-As an agent, when you are working on a case, you get an incoming conversation request (chat), and you accept the request. This starts a new session and the customer summary page is loaded with context of the session. You can add applications such as KB Search, Open records, and any Line-of-Business applications made available in the app tab panel sitemap. You can add these applications using the gestures, sitemap, and the options in the communication panel.
+As an agent, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session and the customer summary page is loaded with context of the session. You can open applications such as KB Search, Open records, and any Line-of-Business applications made available in the application tab panel sitemap. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
 
 When you switch sessions, unsaved changes are not lost and you can continue to work on them.
 
@@ -67,21 +69,30 @@ For example, you are working on a case by entering the title of the case and not
 
 ## Close a session
 
-You can close any session manually by selecting the **X** button next to the session title. When you close a session, a confirmation dialog is shown to you.
+You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you see the **X** button, and if you select the button, a confirmation dialog is shown to you.
+
+   > [!div class=mx-imgBorder]
+   > ![Close session](../../media/oceh/close-session.png "Close session")
 
    > [!div class=mx-imgBorder]
    > ![Session close confirmation dialog](../../media/oceh/oceh-session-close-confirm-dialog.png "Session close confirmation dialog")
 
 ## Mode of the session panel
 
-By default, the session panel is in expanded mode and it is collapsible based on your requirement.
-At all times, the **Home** session is default and you can't close it. The Home session shows the default dashboard set for you by your administrator.
+By default, the session panel is in expanded mode. Use the burger icon to toggle between expand or collapse mode.
+At all times, the **Home** session is anchored and you can't close it. The Home session shows the default dashboard set for you by your administrator.
+
+   > [!div class=mx-imgBorder]
+   > ![Expand and collapse the session list](../../media/oceh/expand-collapse-session-list.png "Expand and collapse the session list")
+
 
 ## Title and icon of the session
 
 - **Session Title**
 
-    By default, the title of session is name of the entity. That is, the title can be of case, account, or contact name. When you get an unauthenticated incoming conversation request, you can search and link the record in the customer or Case forms. After linking, the session title is automatically updated.
+    By default, the title of session is name of the customer, account, or title of the case. For an unauthenticated conversation request, the title will be displayed as visitor with a number. For example, **Visitor 1**.
+    
+    For an authenticated chat, name of the contact, account or title of the case is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Session icon](../../media/oceh/oceh-session-icon.png "Session icon")
@@ -100,4 +111,4 @@ At all times, the **Home** session is default and you can't close it. The Home s
 
 - [Understand conversation states](oc-conversation-state.md)
 - [View communication panel](oc-conversation-control.md)
-- [View agent dashboard and work items](oc-agent-dashboard.md)
+- [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)

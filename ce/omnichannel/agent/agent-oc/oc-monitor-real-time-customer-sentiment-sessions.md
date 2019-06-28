@@ -1,6 +1,6 @@
 ---
-title: "Monitor real-time customer satisfaction levels | MicrosoftDocs"
-description: "Learn how to monitor real-time customer satisfaction levels while interacting with customers."
+title: "Monitor real-time customer sentiment | MicrosoftDocs"
+description: "Learn how to Monitor real-time customer sentiment while interacting with customers."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -13,11 +13,11 @@ ms.assetid: 0D1925AF-3124-404B-A7B6-FCC0C3430CC4
 ms.custom: 
 ---
 
-# Monitor real-time customer satisfaction levels
+# Monitor real-time customer sentiment
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-As an agent, when you interact with your customers, you want to know their satisfaction levels in real time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As an agent, when you interact with your customers, you want to know their sentiment intensities in real time. Analysis of the customer's satisfaction helps you understand the problem level and take a course of action to solve the problem. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## View real-time customer sentiment
 

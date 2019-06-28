@@ -58,6 +58,6 @@ When you interact with a customer in the conversation control, you can use the *
 ## See also
 
 - [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
 - [View customer summary](oc-customer-summary.md)

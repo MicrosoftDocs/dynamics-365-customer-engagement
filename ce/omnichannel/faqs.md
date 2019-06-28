@@ -116,6 +116,9 @@ This is currently not supported. Enabling customizations for the Conversation Su
 
 Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
 
+### What is the application ID field on the application user form?
+The application ID is a mandatory field for creating application users in Dynamics 365. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
+
 ## Supervisor experience
 
 ### Can I monitor conversations for all channels?
@@ -201,12 +204,11 @@ There are Microsoft Flow connectors from SMS providers that can be used for auto
 ### Is there anything unique about the way SMS messages are routed to agents?
 All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
 
+## Bot
+
 ### Integrating a bot
 Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the Omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
-
-### What is the application ID field on the application user form?
-The application ID is a mandatory field for creating application users in Dynamics 365. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
 
