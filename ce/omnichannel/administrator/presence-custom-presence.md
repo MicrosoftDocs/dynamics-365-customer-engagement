@@ -18,12 +18,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-Presence status indicates an agent's availability or status. Presence status stores, updates, and maintains the real-time status of all agents, with respect to their availability and capacity utilization. When presence status is effectively configured, you can connect customers with agents in real time, for all synchronous conversations (such as live chats) and for all asynchronous conversations (such as cases and leads).
+Presence status indicates an agent's availability.
 
 A presence status consists of two elements:
 
-- **Base status**: The base presence status which indicates an agent's availability and status. Work distribution system distributes work items to agents according to these presence statuses. There are five base presence statuses – **Available**, **Busy**, **BusyDND**, **Away**, and **Offline**.
-- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents and other users during run time. 
+- **Base status**: The base presence status which indicates an agent's status. Work distribution system distributes work items to agents according to base statuses. There are five base statuses – **Available**, **Busy**, **Busy-DND**, **Away**, and **Offline**. The base statuses are available to be selected as **Allowed Presences** while creating a [work stream](work-streams-introduction.md).
+- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents. 
 
 ## Out of the box presence statuses
 Out of the box, Omnichannel provides the following presence statuses:
@@ -31,7 +31,7 @@ Out of the box, Omnichannel provides the following presence statuses:
 - Available
 - Away
 - Busy
-- Busy DND
+- Busy - DND
 - Offline
 
 > [!div class=mx-imgBorder]

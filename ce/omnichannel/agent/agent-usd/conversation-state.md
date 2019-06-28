@@ -104,7 +104,3 @@ The conversations that are completed by ending, and closing the session are clas
 
 > [!div class="nextstepaction"]
 > [Next topic: View alert and toast notifications](notifications.md)
-
-## See also
-
-[Understand conversation state lifecycle](../../administrator/conversation-state-lifecycle.md)
