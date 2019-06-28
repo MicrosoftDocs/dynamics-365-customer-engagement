@@ -57,7 +57,6 @@ After the chat widget is configured, it has the following capabilities:
     > [!div class=mx-imgBorder]
     > ![Pre-chat survey in the chat widget](../media/oc-chat-widget-pre-chat.png "Pre-chat survey in the chat widget")
 
-- **Chat notifications**: Chat notifications are shown when the chat widget is in minimized mode, and when it's opened on a different browser tab. When the chat widget is in minimized mode, it shows a message count. If you move away from the browser tab where you're chatting, the message count is shown on the tab.
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
