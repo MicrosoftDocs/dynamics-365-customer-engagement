@@ -35,7 +35,7 @@ search.app:
      
 You can set up knowledge management for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the web client only; it can’t be done through the SDK. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in Dynamics 365 for Customer Engagement apps](../customer-service/set-up-knowledge-management-embedded-knowledge-search.md)
   
- After you enable knowledge management for an entity using the web client, you can insert and configure a knowledge base search control in the entity form to display relevant knowledge articles from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. The knowledge base search control provides programmability support to automate or enhance the user’s experience when using this control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Knowledge base search control (client-side reference)](clientapi/reference/controls.md#kbsearch-knowledge-base-search-control-type)    
+ After you enable knowledge management for an entity using the web client, you can insert and configure a knowledge base search control in the entity form to display relevant knowledge articles from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. The knowledge base search control provides programmability support to automate or enhance the user’s experience when using this control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Knowledge base search control (client-side reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls#kbsearch-knowledge-base-search-control-type)    
   
  Use the `KnowledgeArticle` and `KnowledgeArticleViews` entities to work with the knowledge articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
@@ -47,7 +47,7 @@ You can set up knowledge management for your [!INCLUDE[pn_crm_shortest](../inclu
  [Blog: New Knowledge Management in the Microsoft Dynamics CRM 2016 release](http://blogs.msdn.com/b/crm/archive/2015/10/15/new-knowledge-management-in-microsoft-dynamics-crm-2016-release.aspx)  
   
 ## Related Sections  
- [Knowledge base search control (client-side reference)](clientapi/reference/controls.md#kbsearch-knowledge-base-search-control-type)  
+ [Knowledge base search control (client-side reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls#kbsearch-knowledge-base-search-control-type)  
   
  [Contract entities](contract-entities.md)  
   
