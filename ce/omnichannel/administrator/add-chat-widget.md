@@ -17,8 +17,10 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** &gt; **Chat**.
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+1. Sign in to Omnichannel Administration.
+2. Go to **Channels** &gt; **Chat**.
 3. Select **New** to create a chat widget.
 4. On the **New Chat Widget** page, provide the appropriate information on each tab:
 
@@ -28,7 +30,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
         
             You can optionally specify authentication settings. For more information about how to specify authentication settings, see [Create chat authentication settings](create-chat-auth-settings.md). You must save the record to enter more details.
 
-        2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected.
+        2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information on work stream: [Understand and create work streams](work-streams-introduction.md)
         
         > [!NOTE]
         > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
@@ -43,7 +45,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
         > [!div class=mx-imgBorder]
         > ![Configure the design of a chat widget](../media/oc-chat-widget-design-tab.png "Configure the design of a chat widget")
 
-    - **Survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated. For more information, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
+    - **Pre-chat survey**: Use this tab to set up a pre-chat survey. This survey is shown to users before a conversation is initiated. For more information, see [Configure a pre-chat survey](configure-pre-chat-survey.md).
 
         > [!div class=mx-imgBorder]
         > ![Configure a pre-chat survey in a chat widget](../media/oc-chat-widget-survey-tab.png "Configure a pre-chat survey in a chat widget")
@@ -57,7 +59,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 ### See also
 
-[Create a survey question](create-question-library.md)<br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

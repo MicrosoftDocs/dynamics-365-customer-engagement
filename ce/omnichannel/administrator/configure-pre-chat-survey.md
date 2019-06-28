@@ -19,16 +19,26 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 You can configure your chat widget to show users a survey that they should respond to before they start the conversation.
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** &gt; **Chat**.
+1. Sign in to Omnichannel Administration.
+2. Go to **Channels** &gt; **Chat**.
 3. Open the chat widget in which you need to configure pre-chat survey.
-4. On the **Survey** tab, in the **Pre-chat survey** field, select **Yes**.
+4. On the **Pre-chat survey** tab, in the **Pre-chat survey** field, select **Yes**.
 5. Select **Add question**.
 
     > [!NOTE]
     > You can add only five questions to a pre-chat survey.
 
-6. In the **Quick Create: Survey Question Sequence** pane, browse and select a question that is already created, and specify whether it's required or optional. To create a new question, see [Create a survey question](create-question-library.md).
+6. In the **New Question** pane, provide the following information:
+
+    - **Question name**: Enter a name for the question.
+    - **Question text**: Enter the text of the question.
+    - **Question type**: Select the type of answer that is required from users:
+
+        - **Single line**: The user can enter a single line of text.
+        - **Multiple lines**: The user can enter multiple lines of text.
+        - **Option set**: The user can select an option in a drop-down list. You must enter options separated by a semi-colon.
+
+    - **Mandatory**: Select **Yes** or **No** if the question is mandatory or not.
 
     > [!NOTE]
     > Validations in pre-chat survey are supported only for mandatory fields.
@@ -53,7 +63,6 @@ More information: [Automatically identify customers using pre-chat responses](re
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey question](create-question-library.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>

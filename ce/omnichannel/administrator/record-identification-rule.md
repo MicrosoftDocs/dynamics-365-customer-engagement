@@ -24,7 +24,7 @@ When an incoming conversation request is received, a notification appears that i
 For more information, see [View Customer summary for an incoming engagement request](../agent/agent-oc/oc-view-customer-summary-incoming-conversation-request.md).
 
 > [!NOTE]
-> To know how to create pre-chat questions and use them in a pre-chat survey, see [Create a question library](create-question-library.md) and [Configure a pre-chat survey](configure-pre-chat-survey.md). 
+> To know how to create pre-chat questions and use them in a pre-chat survey, see [Configure a pre-chat survey](configure-pre-chat-survey.md). 
 
 Use the below question names to create pre-chat questions for an **Unauthenticated chat**.
 

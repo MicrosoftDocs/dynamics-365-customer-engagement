@@ -17,15 +17,18 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-You can configure your chat widget to detect a visitor's location based on their latitude and longitude. If you have enabled location detection, a visitor receives a prompt in their web browser when they start to chat. If a visitor allows the location to be shared, the location is detected. If a customer has turned off location sharing from their web browser, the location cannot be detected even if you have enabled location detection. Agents can then use this information to provide a personalized support experience.
+You can configure your chat widget to detect a visitor's location based on their latitude and longitude. With location detection enabled, visitors receive a prompt in their web browser when they start to chat. If the visitor allows their location to be shared, it will passed through to the agent. Agents can then use this information to provide a personalized support experience.
+
+> [!NOTE]
+> If a customer has turned off location sharing from their web browser, the location cannot be detected even if you have enabled location detection. 
 
 To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 ## Create a geo location provider record
 
-1.	Sign in to Omnichannel for Customer Service.
+1.	Sign in to Omnichannel Administration.
 
-2.	Go to **Administration** > **Geo Location**. A list of existing records is displayed.
+2.	Go to **Settings** > **Geo Location**. A list of existing records is displayed.
 
 3.	Select **New** to add a geo location provider record.
 

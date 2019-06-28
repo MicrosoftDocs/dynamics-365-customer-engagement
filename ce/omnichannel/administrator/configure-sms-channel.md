@@ -69,9 +69,9 @@ To sign up for TeleSign:
 
 ## Add SMS support for your organization
 
-1.	Sign in to Omnichannel for Customer Service.
+1.	Sign in to Omnichannel Administration.
 
-2.	Go to **Administration** > **Work Streams**.
+2.	Go to **Channels** > **Work Streams**.
 
 3.	Select **New** to create a work stream.
 

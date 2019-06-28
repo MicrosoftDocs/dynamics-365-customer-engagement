@@ -31,7 +31,6 @@
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
-##### [Create a survey question](administrator/create-question-library.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
@@ -44,7 +43,6 @@
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
-#### [Understand conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 
 ### Agent Experience
 #### [Create quick replies](administrator/create-quick-replies.md)

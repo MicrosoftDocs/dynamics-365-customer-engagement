@@ -17,16 +17,19 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues. After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to make it work.
+Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues. After you create an operating hour record, you must add it to the **Design** tab of the appropriate chat widget to control the display of the widget.
 
 > [!NOTE]
 > The chat widget will be shown only during the defined operating hours. At all other times, it will be hidden.
 
 ## Create an operating hour record
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** \> **Operating Hours**.
+1. Sign in to Omnichannel Administration.
+
+2. Go to **Settings** \> **Operating Hours**.
+
 3. Select **New** to add an operating hour record.
+
 4. In the **Quick Create: Operating Hour** pane, provide the following information:
 
     - **Name**: Enter a name for the operating hour record.
@@ -50,7 +53,7 @@ Operating hours define the hours when your organization's customer support team 
 
 1.	Open the chat widget to which you want to add operating hours.
 2.	Go to the **Design** tab.
-3.	In the **Operating hours** field, browse and select the operating hour record. The chat widget will now be displayed during the hours specified in the selected operating hour record.
+3.	In the **Operating hours** field, browse and select the operating hour record. The chat widget is displayed during the hours specified in the selected operating hour record.
 
     > [!div class=mx-imgBorder]
     > ![Add operating hours in a chat widget](../media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
@@ -58,7 +61,6 @@ Operating hours define the hours when your organization's customer support team 
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a question](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
