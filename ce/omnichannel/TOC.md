@@ -2,18 +2,22 @@
 
 ## Get started
 ### [Introduction](introduction-omnichannel.md)
+### [Preview features in Omnichannel for Customer Service](preview-features.md)
 ### [Try Chat for Dynamics 365](try-chat-for-dynamics365.md)
 ### [Pre-requisites and system requirements](system-requirements-omnichannel.md)
 ### [Assign roles and enable users](administrator/add-users-assign-roles.md)
 ### [Quickly configure a chat widget](administrator/configure-live-chat.md)
 ### [Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)
+### [Best practices to use Omnichannel for Customer Service](best-practices.md)
 
 ## [What's new](omnichannel-whats-new.md)
+
+## [Videos](videos.md)
 
 ## Administrator guide
 ### [Overview](administrator/omnichannel-administrator.md)
 ### [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)
-### [Remove Omnichannel](administrator/remove-omnichannel.md)
+### [Remove Omnichannel for Customer Service](administrator/remove-omnichannel.md)
 ### [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 ### Omnichannel for Customer Service on Unified Service Desk
 #### [Overview](administrator/omnichannel-customer-service-unified-service-desk.md)
@@ -47,9 +51,9 @@
 
 ### Supervisor Experience
 #### [Configure to view intraday insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
-#### [Configuring Dynamics 365 omnichannel insights dashboard](administrator/configure-historical-sentiment-dashboard-supervisor.md)
+#### [Provide access to Ongoing Conversations dashboard](administrator/configure-ongoing-conversations-dashbaord.md)
 #### [Enable sentiment analysis](administrator/enable-sentiment-analysis.md)
-
+#### [Configure Omnichannel Insights dashboards](administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
 ### Settings
 #### [Create and manage operating hours](administrator/create-operating-hours.md)
@@ -98,19 +102,18 @@
 #### [View customer summary for an incoming conversation request](agent/agent-usd/view-customer-summary-incoming-conversation-request.md)
 
 
-
 ## Supervisor guide
-### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
-#### [Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
-#### [Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
+### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
+#### [View and understand Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
+#### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 #### [Monitor conversations](supervisor/monitor-conversations.md)
-### [Introduction to Dynamics 365 omnichannel insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
-#### [Dynamics 365 omnichannel insights dashboards](supervisor/omnichannel-insights-dashboard.md)
+### [Introduction to Omnichannel Insights](supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+#### [View and understand Omnichannel Insights dashboards](supervisor/omnichannel-insights-dashboard.md)
 
 
 ## System customizer guide
 ### [Overview](customizer/omnichannel-customizer.md)
-### Customize sections in the Customer summary form
+### Customize quick view forms for Customer summary
 #### [Overview](customizer/customize-customer-summary.md)
 #### [Customize quick view forms](customizer/customize-quick-view-form.md)
 
@@ -187,3 +190,5 @@
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
+
+## [FAQs](faqs.md)

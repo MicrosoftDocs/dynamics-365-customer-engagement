@@ -17,11 +17,10 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 ## Overview
 
-The Omnichannel for Customer Service application on a web browser provides a unified experience for your agents interacting across communication channels to deliver an enhanced customer service. As an agent, you can use the Omnichannel for Customer Service app to manage the work items assigned to you via queues. This helps you to focus on the tasks at hand and ensure better customer service. The application empowers you to work on simultaneous conversations with multiple customers. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue.
+The Omnichannel for Customer Service application on a web browser provides a unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app. 
+As an agent, you can use the app to manage the work items assigned, simultaneous customer sessions without losing the context of each session. You view the holistic data of the customer with the details of their previous interaction, which ensures you have all the available information to resolve the customer issue. 
 
 > [!Note]
 > - The omnichannel provisioning provides the Omnichannel for Customer Service app and is available to the users working with Chat for Dynamics and SMS.
@@ -34,22 +33,22 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [View agent dashboard and work items](oc-agent-dashboard.md)
-- [View communication panel](oc-conversation-control.md)
-- [Manage presence status](oc-manage-presence-status.md)
+- [Manage sessions](oc-manage-sessions.md)
+- [Manage applications](oc-manage-applications.md)
+- [View agent dashboard and work items](oc-agent-dashboard.md))
+- [Understand conversation states](oc-conversation-state.md)
+- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View notifications](oc-notifications.md)
 - [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
-- [Take notes specific to conversation](oc-take-notes.md)
 - [View conversation and session activity types in the Customer Engagement apps](oc-view-activity-types.md)
-- [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
-- [Create a record](oc-create-record.md)
-- [Search, link, and unlink a record](oc-search-link-unlink-record.md)
 
 
 ## How-tos
 
-- [Communication panel](oc-conversation-control.md)
+- [View communication panel](oc-conversation-control.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)
 - [Search, link, and unlink a record](oc-search-link-unlink-record.md)
+- [Manage presence status](oc-manage-presence-status.md)
+- [Take notes specific to conversation](oc-take-notes.md)

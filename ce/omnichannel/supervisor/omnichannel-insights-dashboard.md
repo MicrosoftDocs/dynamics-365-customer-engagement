@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 omnichannel Insights dashboards for supervisor | MicrosoftDocs"
-description: "Learn about Dynamics 365 omnichannel Insights dashboards for supervisor"
+title: "Omnichannel Insights dashboards for supervisor | MicrosoftDocs"
+description: "Learn about Omnichannel Insights dashboards for supervisor"
 keywords: ""
 author: udaykirang
 ms.author: udag
@@ -13,25 +13,25 @@ ms.assetid: f7b39a03-6e47-43bd-9c9b-f33170124a78
 ms.custom: 
 ---
 
-# Dynamics 365 omnichannel Insights - Chat dashboard
+# View and understand Omnichannel Insights dashboards
 
-The Dynamics 365 Omnichannel Insights dashboard provides information about the historic performance of the chat channel and sentiment analysis of the chats offered through key performance indicators (KPIs) in context of the  agents in your organization.
+The Omnichannel Insights dashboard provides information about the historic performance of the chat channel and sentiment analysis of the chats offered through key performance indicators (KPIs) in context of the  agents in your organization.
 Typically, the dashboard is divided into two sections:
 
--	[Dynamics 365 Omnichannel Insights Chat dashboard](#dynamics-365-omnichannel-insights-chat-dashboard)
+-	[Omnichannel Insights Chat dashboard](#omnichannel-insights-chat-dashboard)
 
--	[Dynamics 365 omnichannel insights Sentiment Analysis dashboard](#dynamics-365-omnichannel-insights-sentiment-analysis-dashboard)
+-	[Omnichannel Insights Sentiment Analysis dashboard](#omnichannel-insights-sentiment-analysis-dashboard)
 
-## Dynamics 365 Omnichannel Insights Chat dashboard
+## Omnichannel Insights Chat dashboard
 
-The following screen shot shows an example of the Omnichannel chat insights dashboard:
+The following screen shot shows an example of the Omnichannel Insights - Chat dashboard:
 
 > [!div class=mx-imgBorder]
 > ![Sample Omnichannel Insights Chat dashboard](../media/supervisor-historical-chat-dashboard.png "Sample Omnichannel Insights Chat dashboard")  
 
-### Dynamics 365 omnichannel insights chat report details
+### Omnichannel Insights chat report details
 
-The following screen shot shows an example of the Omnichannel Chat Insights report with more comprehensive information.
+The following screen shot shows an example of the Omnichannel Insights - Chat report with more comprehensive information.
 
 > [!div class=mx-imgBorder]
 > ![Sample Omnichannel Insights Chat report](../media/supervisor-historical-chat-report.png "Sample Omnichannel Insights Chat report")  
@@ -48,16 +48,16 @@ This report consists of the following KPIs:
 | Transferred to Supervisor | The percentage of conversations that are escalated to supervisor. |
 | Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. |
 
-## Dynamics 365 Omnichannel Insights Sentiment Analysis dashboard
+## Omnichannel Insights Sentiment Analysis dashboard
 
-The following screen shot shows an example of the Omnichannel Sentiment Analysis dashboard which provides an overview of important KPIs and trends relative to the sentiment analysis of chats offered.
+The following screen shot shows an example of the Omnichannel Insights - Sentiment Analysis dashboard which provides an overview of important KPIs and trends relative to the sentiment analysis of chats offered.
 
 > [!div class=mx-imgBorder]
 > ![Sample Omnichannel Insights sentiment dashboard](../media/supervisor-historical-sentiment-analysis-dashboard.png "Sample Omnichannel Insights sentiment dashboard")  
 
-### Dynamics 365 omnichannel insights sentiment analysis report details
+### Omnichannel Insights Sentiment Analysis report details
 
-The following screen shot shows an example of the Omnichannel Sentiment Analysis report with more comprehensive information.
+The following screen shot shows an example of the Omnichannel Insights - Sentiment Analysis report with more comprehensive information.
 
 > [!div class=mx-imgBorder]
 > ![Sample Omnichannel Insights sentiment report](../media/supervisor-historical-sentiment-analysis-report.png "Sample Omnichannel Insights sentiment report")  
@@ -90,6 +90,6 @@ You can filter the information presented in the reports by selecting **Duration*
 
 ### See also
 
--  [Configuring Dynamics 365 omnichannel insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
+-  [Configuring Omnichannel Insights dashboard](../administrator/configure-historical-sentiment-dashboard-supervisor.md)
 
--  [Introduction to Dynamics 365 omnichannel insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)
+-  [Introduction to Omnichannel Insights dashboard](../supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md)

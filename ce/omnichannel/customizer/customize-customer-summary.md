@@ -16,17 +16,15 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
-You can customize some quick view forms on the **Customer summary** page by navigating to the entity quick view forms. In addition, you can change the position of quick view forms by dragging them to meet your requirements. By default, the **Customer summary** page shows the following sections.
+You can customize some quick view forms on the **Customer summary** page by navigating to the entity quick view forms. By default, the **Customer summary** page shows the following sections.
 
 ## Customer profile
 
-The **Customer profile** section provides details about the customer or account. These details include the name of the customer or account, the category or job, the title, the relationship type, the city, and the preferred channel of engagement. You can customize this section by adding or removing the fields.
+The **Customer profile** section provides details about the customer or account. These details include the name of the customer or account, the category or job, the title, the relationship type, the city, and the preferred channel of engagement. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
 
 ## Conversation summary
 
-The **Conversation summary** section fetches details based on the context of the incoming conversation request. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+The **Conversation summary** section fetches details based on the context of the incoming conversation request.
 
 This section includes **Pre-chat survey** and **Visitor details**. The details on these tabs help you to understand contextual channel-specific information about the conversation with the customer. The **Pre-chat survey** tab shows responses from the customer on the pre-chat questions. 
 
@@ -36,15 +34,15 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ## Issue snapshot
 
-For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** section. This section shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can customize this section by adding or removing the fields. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+For an incoming conversation request, the system links an existing case to the conversation and shows it on the **Issue Snapshot** section. This section shows information such as the title of the case, the priority, the status of the case, the product, and the owner. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
 
 ## Recent cases
 
-This form section displays the recent cases that relate to the customer. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+This form section displays the recent cases that relate to the customer. You can modify the quick view forms in this section by navigating to respective entity forms. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
 
 ## Timeline
 
-This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation. To learn more, see [Customize quick view forms](customize-quick-view-form.md).
+This section displays case- and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
 
 > [!div class="nextstepaction"]
 > [Next topic: Customize quick view forms](customize-quick-view-form.md)
@@ -52,7 +50,6 @@ This section displays case- and customer-related activities in the form of a tim
 ## See also
 
 - [Omnichannel  system customizers](omnichannel-customizer.md)
-- [Add or remove the fields in the form](customize-quick-view-form.md)
 - [Customize the conversation form](customize-session-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure notification for agents](configure-notification-screen-pop-agents.md)

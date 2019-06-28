@@ -17,8 +17,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 <table>
 <tr>
 <td>
@@ -52,11 +50,19 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 ](agent/agent-oc/omnichannel-customer-service-app-agent.md)">Use on Omnichannel for Customer Service</a></li>
 <li><a href="agent/agent-usd/omnichannel-agent.md" data-raw-source="[Agents using Unified Service Desk
 ](agent/agent-usd/omnichannel-agent.md)">Use on Unified Service Desk</a></li>
-<li><a href="agent/agent-oc/oc-customer-summary.md" data-raw-source="[View customer summary (Omnichannel for Customer Service)](agent/agent-oc/oc-customer-summary.md)">View customer summary (Omnichannel for Customer Service)</a> </li>
-<li><a href="agent/agent-usd/customer-summary.md" data-raw-source="[View customer summary (Unified Service Desk)](agent/agent-usd/customer-summary.md)">View customer summary (Unified Service Desk)</a></li>
-<li><a href="agent/agent-oc/oc-conversation-control.md" data-raw-source="[View communication panel (Omnichannel for Customer Service)](agent/agent-oc/oc-conversation-control.md)">View communication panel (Omnichannel for Customer Service)</a></li>
-<li><a href="agent/agent-usd/left-control-panel.md" data-raw-source="[View communication panel (Unified Service Desk)](agent/agent-usd/left-control-panel.md)">View communication panel (Unified Service Desk)</a></li>
 </td>
+<td>
+
+<h2> I'm a supervisor  </h2>
+<li><a href="administrator/configure-intraday-dashboard-supervisor.md" data-raw-source="[Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md)">Configure to view intraday insights dashboard</a></li>
+<li><a href="administrator/configure-historical-sentiment-dashboard-supervisor.md" data-raw-source="[Configure Dynamics 365 omnichannel insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)">Configure Dynamics 365 omnichannel insights dashboard</a></li>
+<li><a href="supervisor/intro-intraday-insights-dashboard.md" data-raw-source="[Introduction to Intraday insights dashboard](intro-intraday-insights-dashboard.md)">Introduction to Intraday insights dashboard</a></li>
+<li><a href="supervisor/intro-dynamics-365-omnichannel-insights-dashboard.md" data-raw-source="[Introduction to Dynamics 365 omnichannel insights](dynamics-365-omnichannel-insights-dashboard.md)">Introduction to Dynamics 365 omnichannel insights</a></li>
+
+</td>
+</tr>
+
+<tr>
 <td>
 
 <h2> I'm a system customizer  </h2>
@@ -66,18 +72,9 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="customizer/customize-session-form.md" data-raw-source="[Customize the session forms](customizer/customize-session-form.md)">Customize the conversation form</a></li>
 <li><a href="customizer/create-agent-supervisor-configurations-unified-service-desk.md" data-raw-source="[Create configurations in Unified Service Desk](customizer/create-agent-supervisor-configurations-unified-service-desk.md)">Create configurations in Unified Service Desk</a></li>
 <li><a href="customizer/configure-notification-screen-pop-agents.md" data-raw-source="[Configure notifications in Unified Service Desk](customizer/configure-notification-screen-pop-agents.md)">Configure notifications in Unified Service Desk</a></li>
-</td>
-<!-- <td>
-<h2> I'm a supervisor  </h2>
-<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Omni-channel supervisor](supervisor/omni-channel-engagement-hub-supervisor.md)">Omni-channel supervisor</a></li>
-<li><a href="supervisor/configure-supervisor-dashboard.md" data-raw-source="[Administer supervisor dashboard](configure-supervisor-dashboard.md)">Administer supervisor dashboard</a></li>
-<li><a href="supervisor/omni-channel-engagement-hub-supervisor.md" data-raw-source="[Introduction to supervisor dashboard](omni-channel-engagement-hub-supervisor.md)">Introduction to supervisor dashboard</a></li>
-<li><a href="supervisor/configure-supervisor-dashboard-display-omni-channel-engagement-hub.md" data-raw-source="[Configure the supervisor dashboard](configure-supervisor-dashboard-display-omni-channel-engagement-hub.md)">Configure the supervisor dashboard</a></li>
-<li><a href="supervisor/add-users-supervisor-configuration.md" data-raw-source="[Add users to the supervisor configuration](add-users-supervisor-configuration.md)">Add users to the supervisor configuration</a></li>
-</td> -->
-</tr>
 
-<tr>
+</td>
+
 <td>
 
 <h2> I'm a developer </h2>
@@ -87,6 +84,21 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="developer/how-to/send-context-starting-chat.md" data-raw-source="[Manage custom context](developer/how-to/send-context-starting-chat.md)">Manage custom context</a></li>
 <li><a href="developer/bot-escalate-end-conversation.md" data-raw-source="[Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)">Enable a bot to escalate and end conversation</a></li>
 <li><a href="developer/omnichannel-reference.md" data-raw-source="[JavaScript API reference for Live chat SDK](developer/omnichannel-reference.md)">JavaScript API reference for Live chat SDK</a></li>
-</tr>
 </td>
+</tr>
+
+<tr>
+
+<td>
+<h2> Videos </h2>
+<li><a href=" " data-raw-source="[ ]( )">Overview</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Set up chat</a></li>
+<li><a href="" data-raw-source="[ ]( )">Agent Experience</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Supervisor Experience</a></li>
+<li><a href="" data-raw-source="[ ]( )">Real-time Sentiment Analysis</a></li>
+<li><a href=" " data-raw-source="[ ]( )">Historical Insights Report</a></li>
+</td>
+
+</tr>
+
 </table>

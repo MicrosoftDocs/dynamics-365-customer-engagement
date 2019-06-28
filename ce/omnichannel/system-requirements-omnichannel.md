@@ -2,22 +2,23 @@
 title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
 keywords: ""
+ms.date: 07/01/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: 94FFAD86-B4BF-48C1-90A5-81FDE7A8D13E
-ms.custom: 
 ---
 
 # Pre-requisites and system requirements of Omnichannel for Customer Service
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This topic provides information about the pre-requisites and system requirements for deploying Omnichannel for Customer Service on a Dynamics 365 for Customer Engagement organization.
 
@@ -27,7 +28,7 @@ You can deploy Omnichannel for Customer Service solution over a Customer Engagem
 
 - Omnichannel for Customer Service app - Web experience on Dynamics 365 Unified Interface application.
 
-## Pre-requisites
+## Prerequisites
 
 This section explains the pre-requisites for using Omnichannel for Customer Service.
 
@@ -63,18 +64,19 @@ You require the following to use Omnichannel for Customer Service with Unified S
 | Operating system |<li>For Microsoft Edge - Windows 10 (October 2018 release and a higher version)</li><li>For Internet Explorer - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1)</li>|
 | Memory (Hardware) | ^8-GB RAM or more |
 
-^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service - Preview solution or when using other line-of-business applications with Unified Service Desk.
+^The memory requirement is for out-of-the-box solution. Evaluate the requirements when creating complex configurations to the Unified Service Desk - Omnichannel for Customer Service solution or when using other line-of-business applications with Unified Service Desk.
 
 For other hardware requirements of Unified Service Desk client application, see [Unified Service Desk system requirements](/dynamics365/customer-engagement/unified-service-desk/admin/unified-service-desk-system-requirements)
 
 ## International availability
 
-The Omnichannel for Customer Service is available in the following regions: 
+The Chat for Dynamics 365 service is available in the following regions currently:
 
-- North America Region (NAM)
+- North America 
+- Europe
+- Canada
 
-> [!NOTE]
-> Since Omnichannel for Customer Service is in preview in the NAM region, your organization and tenant must be in the NAM region.
+For the service to work, your tenant and organization have to be co-located in one of these regions.
 
 ## Provision Omnichannel in Dynamics 365
 
@@ -92,9 +94,9 @@ To upgrade Omnichannel, see [Upgrade Omnichannel for Customer Service](administr
 ## See also
 
 - [Introduction](introduction-omnichannel.md)
-- [Administrators](administrator/omnichannel-administrator.md)
+- [Administrator guide](administrator/omnichannel-administrator.md)
 - [Agents using Unified Service Desk](agent/agent-usd/omnichannel-agent.md)
 - [Agents using Omnichannel for Customer Service app](agent/agent-oc/omnichannel-customer-service-app-agent.md)
-- [System customizers](customizer/omnichannel-customizer.md)
+- [System customizers guide](customizer/omnichannel-customizer.md)
 
 <!-- - [Supervisors](supervisor/omni-channel-engagement-hub-supervisor.md) -->

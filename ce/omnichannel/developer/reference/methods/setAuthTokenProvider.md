@@ -16,8 +16,6 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
-[!include[cc-beta-prerelease-disclaimer](../../../../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[setAuthTokenProvider-description](../includes/setAuthTokenProvider-description.md)]
 
 The authentication token provider function, when called with a callback function as a parameter, invokes the callback function with a valid JSON Web Token (JWT) string as the argument.<br />This method raises an error if the value of the `authTokenProvider` parameter is not a function.

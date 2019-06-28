@@ -17,17 +17,13 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
-
-The Omnichannel for Customer Service app for Dynamics is a cloud-based service that enables organizations to instantly connect and engage with their customers via channels like Live Chat and SMS. The app provides context rich multi-tasking experience across different customer interactions.
+The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 and SMS. The app provides context rich multi-tasking experience across different customer sessions.
 
 ## Value propositions of Omnichannel for Customer Service app:
 
-- **Unified experience:** The app provides unified and consistent experience for the agents to access Line-of-Business applications from within the Omnichannel for Customer Service app.
+- **Unified experience:** The app provides unified and consistent single-view experience for the agents to view conversation details, Customer information, and access Line-of-Business applications from within the Omnichannel for Customer Service app.
 
-- **Multi-session and application management:** The app enables agents to handle multiple customer sessions and contextual applications related to the sessions with ease, which in-turn leads to faster case resolution and customer satisfaction.
-
-- **Single-view interface:** The app provides agents the a single-view experience where agents can view the customer information and communication details simultaneously and side-by-side.
+- **Multi-session and application management:** The app enables agents to handle multiple sessions and manage contextual applications (app tab panel) related to the sessions with ease, which in-turn leads to less errors, faster case resolution, and customer satisfaction.
 
 - **Deployment and upgrade:** The app is available as a web application (thin client), which makes the maintenance easy and the upgrades are seamless.
 
@@ -43,6 +39,7 @@ The Omnichannel for Customer Service provides key capabilities like:
 - Multi-session
 - Application tabs associated with sessions
 - Customer summary
+- Communication panel
 - Presence management
 - Notifications
 - Consult with agents and/or supervisors
@@ -58,7 +55,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 
 1. Session panel
 
-2. Communication panel (hidden mode)
+2. Communication panel
 
 3. Application tab panel
 
