@@ -19,7 +19,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 The communication panel is where you, as an agent, interact with your customer. When you sign in to the application, by default, the communication panel is in hidden mode. You cannot view the communication panel unless you accept a incoming conversation to communicate with the customer.
 
-For a conversation channel:
+From a conversation channel:
 
 - You can send quick replies.
 - You can search for and share knowledge articles with the customer with whom you are interacting.
@@ -31,7 +31,7 @@ For a conversation channel:
  > ![Omnichannel communication panel chat interface](../../media/oceh-conversation-control-chat-interface.png "Omnichannel communication panel chat interface")  
 ## Enhance agent productivity using keyboard commands
 
-The communication panel has options that, as an agent, you can use to perform certain actions such as see quick replies, consult, and transfer list, launch notes control, and much more.
+The communication panel has options that, as an agent, you can use to perform actions such as see quick replies, consult, and transfer, launch notes control, and much more.
 
 In addition, as an agent, you can use the keyboard commands in the communication panel to perform the actions that are such as see quick replies, consult, and transfer list, launch notes control, and much more.
 
@@ -54,7 +54,7 @@ In the communication panel, you can see the following options:
 
 ## Send messages using Public and Internal mode
 
-The communication panel allows you to send messages in two ways: **Internal** and **Public**.
+The communication panel allows you to send messages in two modes: **Internal** and **Public**.
 
 When you want to send messages only to the internal participants like other agents and/or supervisors, then use the **Internal** option. The internal messages are not shown to the customers.
 
@@ -74,7 +74,7 @@ When you type the keyboard command, the mode changes to as per the command. For 
 
 ## Send templatized messages in the chat
 
-The communication panel allows you to send templatized messages to the customer with whom you're interacting. These templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers.
+The communication panel allows you to send predefined templatized messages to the customer with whom you're interacting. These predefined templatized messages are stored as quick replies. Select the **Quick replies** button to retrieve the messages and send them to the customers and/or internal participants.
 
  > [!div class=mx-imgBorder] 
  > ![Use quick replies option to send faster replies to customers](../../media/oceh-send-quick-replies-chat.png "Use quick replies option to send faster replies to customers")  
@@ -163,11 +163,11 @@ As an agent, you can view the real-time customer satisfaction levels on the comm
 > [!div class=mx-imgBorder]
 > ![Very positive sentiment](../../media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
-To learn more, see [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
 
 > [!div class="nextstepaction"]
-> [Next topic: Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+> [Next topic: Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
 ## See also
 

@@ -38,7 +38,7 @@ ms.custom:
     > [!div class=mx-imgBorder]
     > ![Very positive sentiment](media/oceh/sentiment-very-positive-cc.png "Very positive sentiment")
 
-    More information: [Monitor real-time customer satisfaction levels](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
+    More information: [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 
 ##  What's new in April 2019 update
 

@@ -77,7 +77,7 @@
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
 #### [Understand conversation states](agent/agent-oc/oc-conversation-state.md)
 #### [View communication panel](agent/agent-oc/oc-conversation-control.md)
-#### [Monitor real-time customer satisfaction levels](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
+#### [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage presence status](agent/agent-oc/oc-manage-presence-status.md)
 #### [View notifications](agent/agent-oc/oc-notifications.md)
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)

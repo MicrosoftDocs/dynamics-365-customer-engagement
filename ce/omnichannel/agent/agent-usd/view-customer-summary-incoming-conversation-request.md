@@ -16,67 +16,14 @@ ms.custom:
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
-## Scenario 1: Incoming conversation request for an existing customer record that already has a case in Omnichannel for Customer Service  
+## Scenario 1: Incoming conversation request for an existing customer record  
 
 When you receive an incoming conversation request, you see a notification and accept the request, a session starts and the **Customer summary** page appears with the details of the customer and case.
 
-<!-- ## Scenario 2: Incoming conversation request where you find several customer records in the Omnichannel for Customer Service 
+## Scenario 2: Incoming conversation request with an associated record
 
-When you receive an incoming conversation request, you see a notification and accept the request, Omnichannel for Customer Service shows the following message: **One or more records found. Select a record or create new**.
-### Select a record
+When you get an incoming conversation request, you see a notification and accept the request. However, if there are no records present in Omnichannel for Customer Service based on the incoming conversation request, you can create a record. To learn more see, [Create a record](create-record.md), [Search a record](search-record.md),  and [Link a record](link-unlink-record.md).
 
-If you select a case, the contact or account opens the **Customer summary** page by prepopulating the details.
-
-If you select a contact or account, the **Customer summary** page is refreshed, and the **Issue Snapshot** section is updated with the current case details.
-
-If you select a case that differs from the case that is assigned to you, you receive a warning message and must link the conversation to the record.
-
-### Create a record
-
-You can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notifications (screen pops).
-
-However, there are no records present in Omnichannel for Customer Service based on the contextual information obtained from the notification (screen pop).
-
-> [!div class=mx-imgBorder]
-> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page")  -->
-
-## Scenario 2: Incoming conversation request where you find no customer records in Omnichannel for Customer Service 
-
-When you get an incoming conversation request, you see a notification and accept the request. However, if there are no records present in Omnichannel for Customer Service based on the incoming conversation request, you can search for the records using the inline search option. After you search, you can link the record to the conversation. To learn more, see [Link a record](link-unlink-record.md).
-
-<!-- ### Search for records
-
-When you choose to Search for records, the application opens the **Search** on the toolbar. You can search by using the following fields:
-
--   First name
-
--   Last name
-
--   Account name
-
--   Address
-
--   City
-
--   State
-
--   Phone number
-
--   Email ID
-
--   Case ID
-
-After the search is completed, the results are shown in the form of a list.
-
-> [!div class=mx-imgBorder]
-> ![omnichannel search record](../../media/oc-usd-crm-search-record.png "Omnichannel search record")  -->
-
-### Create a record
-
-When no record is found in Omnichannel for Customer Service, you can create a contact or account by using the quick create option. After you create the record, the case is automatically linked to the conversation. However, no records are present in Omnichannel for Customer Service, based on the contextual information that is obtained from the notification (screen pop).
-<!--
-> [!div class=mx-imgBorder]
-> ![omnichannel create record search page](../../media/oc-usd-crm-create-record-search-page.png "Omnichannel create record search page") -->
 
 ## See also
 

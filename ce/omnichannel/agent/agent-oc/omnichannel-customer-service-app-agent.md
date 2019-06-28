@@ -37,7 +37,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [Manage applications](oc-manage-applications.md)
 - [View agent dashboard and conversations (work items)](oc-agent-dashboard.md))
 - [Understand conversation states](oc-conversation-state.md)
-- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View notifications](oc-notifications.md)
 - [View customer summary](oc-customer-summary.md)
 - [Search for and share knowledge articles](oc-search-knowledge-articles.md)
