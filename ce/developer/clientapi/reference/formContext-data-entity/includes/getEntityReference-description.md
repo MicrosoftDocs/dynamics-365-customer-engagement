@@ -1,1 +1,0 @@
-Returns a lookup value that references the record.

@@ -69,7 +69,7 @@ search.app:
 
  Because you don’t know what browser will be in use, you should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Client API](clientapi/understand-clientapi-object-model.md), the changes required to support other browsers could be small.  
   
- A cross-browser library like jQuery is a good solution for developing web resources but should not be necessary for form scripts or ribbon commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid using jQuery for form scripts](clientapi/client-scripting-best-practices.md#avoid-using-jquery-for-form-scripts)   
+ A cross-browser library like jQuery is a good solution for developing web resources but should not be necessary for form scripts or ribbon commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid using jQuery for form scripts](/powerapps/developer/model-driven-apps/clientapi/client-scripting-best-practices#avoid-using-jquery-for-form-scripts)   
  
   
 <a name="BKMK_JavaScriptBestPractices"></a>  
