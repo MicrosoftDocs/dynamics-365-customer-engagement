@@ -42,11 +42,14 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 5. On the page for the new action call, specify the following details. 
 
- | Tab             | Field           | Value                            |
- |-----------------|-----------------|----------------------------------|
- | General | Name            | Close Toast Notification        |
- | General | Hosted Control  | Omnichannel Toast Notification  |
- | General | Action          | Close                            |
+ | Tab             | Field           | Value                       |
+ |-----------------|-----------------|-----------------------------|
+ | General | General | Name            | Show Session Assignment Toast Notification          |
+ | General | Order           | 10                          |
+ | General | Hosted Control  | Omnichannel Toast Notification   |
+ | General | Action          | Show           |
+ | General | Data            | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=\[\[$Resources.SessionAssignmentToastNotification\]+\] <br> NotificationIcon=new_omni_toast_tick_icon  |
+ | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
 6. Save the action call.
 
@@ -61,7 +64,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Hosted Control  | Omnichannel Toast Notification              |
  | General | Action          | Show                                         |
  | General | Data            | formname=EntityNotification <br> top=85 <br> left=95 <br> timeout=60 <br> stack=true <br> stackHeight=50 <br> EntityDisplayName=\[\[EntityDisplayName\]+\] <br> EntityLogicalName=\[\[EntityLogicalName\]+\] <br> EntityId=\[\[EntityId\]+\] <br> ConversationId=\[\[ConversationId\]+\] |
- -->
+
 
 ## Expand Right Pane
 
@@ -124,6 +127,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Data            | ConversationId=\[\[ConversationId\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] | 
 
+  -->
+
 ## Show Session Error Toast Notification
 
  | Tab | Field | Value |
@@ -135,15 +140,17 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Data | formname=ToastNotification <br> top=85 <br> left=82 <br> timeout=7 <br> stack=true <br> stackHeight=56 <br> placementmode=absolute <br> ToastNotificationText=To open this incoming conversation in a session, close an existing session. <br> NotificationIcon=new_omni_toast_error_icon |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] >= \[\[$Global.maxNumberOfSessions\]+\] && '\[\[CanActivateSession\]+\]' != 'True' |
 
+<!--
 ## Omnichannel Session Timeout 
 
  | Tab             | Field           | Value                       |
  |-----------------|-----------------|-----------------------------|
  | General | Name            | Omnichannel Session Timeout            |
  | General | Order           | 16                          |
- | General | Hosted Control  | OmniChannelHostedControl    |
+ | General | Hosted Control  | OmnichannelHostedControl    |
  | General | Action          | OCSessionTimeout            |
  | General | Data            | ConversationId=\[\[cid\]\]  |
+
 
 ## Load Case session Agent Script
 
@@ -155,6 +162,14 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
  | General | Action          | GoToTask           |
  | General | Data            | Case Resolution Script  |
  | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
+
+ | Tab             | Field           | Value                            |
+ |-----------------|-----------------|----------------------------------|
+ | General | Name            | Close Toast Notification        |
+ | General | Hosted Control  | Omnichannel Toast Notification  |
+ | General | Action          | Close                            |
+
+ -->
 
 
 > [!div class="nextstepaction"]
