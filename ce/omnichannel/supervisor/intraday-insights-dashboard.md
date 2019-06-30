@@ -15,7 +15,7 @@ ms.custom:
 
 # View and understand Omnichannel intraday insights dashboard
 
-The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) of agents in your organization. This dashboard consists of two sections:
+The Omnichannel intraday insights dashboard provides information about the health and key performance indicators (KPIs) for your organization. This dashboard consists of two sections:
 
 -	[Conversations insights](#conversations-insights)
 

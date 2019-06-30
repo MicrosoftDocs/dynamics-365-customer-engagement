@@ -61,7 +61,7 @@ When you sign in to the Omnichannel for Customer Service app, the agent interfac
 
 4. Unified Interface application area
 
-5. Navigation bar buttons
+5. Search, quick create, and presence
 
  > [!div class=mx-imgBorder]
  > ![Session panel in the agent interface of Omnichannel for Customer Service app](../../media/oceh/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
@@ -100,11 +100,11 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
     - **Open work items**
     - **Closed work items**
 
-   To learn more, see [View agent dashboard and work items](oc-agent-dashboard.md).
+   To learn more, see [View agent dashboard and conversations (work items)](oc-agent-dashboard.md).
 
-## 5. Navigation bar buttons
+## 5. Search, quick create, and presence
 
-   The navigation bar buttons of Omnichannel for Customer Service in the Omnichannel for Customer Service app contains the following:
+   Search, quick create, and presence are the options present in the nav bar.
 
    ![Navigation bar buttons of Omnichannel for Customer Service](../../media/oceh-navigation-bar-buttons.png "Navigation bar buttons of Omnichannel for Customer Service")
 
@@ -142,4 +142,4 @@ The horizontal bar below the Dynamics 365 navigation bar is called the applicati
 - [Understand conversation states](oc-conversation-state.md)
 - [Sign in to Omnichannel for Customer Service](oc-sign-in-omnichannel.md)
 - [View communication panel](oc-conversation-control.md)
-- [View agent dashboard and work items](oc-agent-dashboard.md)
+- [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)

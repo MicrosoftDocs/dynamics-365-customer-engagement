@@ -59,8 +59,7 @@ This topic describes how to attach communication panel-related action calls to t
     | OmnichannelFetchConfigurationData | <ul> <li> Omnichannel Clear Entity List </li> <li>Omnichannel Fetch Live Work Streams </li> <li> Omnichannel Fetch Service End Point </li> <li>Omnichannel Save Configuration Data </li> </ul> |
     | OmnichannelUpdateConfigurationContext | <ul>Update Omnichannel Configuration</ul> |
     | AADAuthenticationFailed | <ul>Omnichannel AAD Authentication Failed</ul> |
-    | CreateCustomerSession | <ul> <li>Omnichannel Activate Session</li> <li>Omnichannel Rehydrate Conversation</li> <li>Create Customer Session</li> <li>Show Session Assignment Toast Notification</li> <li>Set IsCaseSession to False</li> <li>Omnichannel Session Accepted</li> </ul> |
-    | CreateEntitySession | <ul> <li>Close Toast Notification</li> <li>Expand Right Pane</li> <li>Create Customer Session</li> <li>Show Session Error Toast Notification</li> <li>Set Entity Session Property in Context</li> <li>Collapse Left Panel</li> <li>Load Case Session Agent Script</li> <li>Load Form for Entity</li> <li>Omnichannel Set Session Tab Id for Entity</li> <li>Session</li> </ul>|
+    | CreateCustomerSession | <ul> <li>Omnichannel Activate Session</li> <li>Omnichannel Rehydrate Conversation</li> <li>Create Customer Session</li> <li>Show Session Assignment Toast Notification</li> <li>Set IsCaseSession to False</li> <li>Omnichannel Session Accepted</li> <li>Show Session Error Toast Notification</li> </ul> |
     | DisplayKBSearchControl | <ul> <li> Expand Right Pane </li> <li>Focus on KB Search</li> </ul> |
     | DisplayMessage | <ul>Display Message Action</ul> |
     | EndConversation | <ul> <li>Omnichannel End Conversation</li> <li>Omnichannel Presence Status Update</li> </ul> |
@@ -78,6 +77,8 @@ This topic describes how to attach communication panel-related action calls to t
     | UnreadMessage | <ul> Omnichannel Unread Message Action </ul> |
     | UpdatePresence | <ul> Omnichannel Update Presence </ul> |
     | UpdateSessionCount | <ul> Update Session Count in Dictionary </ul> |
+
+<!-- | CreateEntitySession | <ul> <li>Close Toast Notification</li> <li>Expand Right Pane</li> <li>Create Customer Session</li>  <li>Set Entity Session Property in Context</li> <li>Collapse Left Panel</li> <li>Load Case Session Agent Script</li> <li>Load Form for Entity</li> <li>Omnichannel Set Session Tab Id for Entity</li> <li>Session</li> </ul>| -->
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Configure window navigation rule for communication panel](communication-panel-step5-configure-window-navigation-rule.md) 

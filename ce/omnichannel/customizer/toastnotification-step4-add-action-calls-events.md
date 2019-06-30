@@ -46,14 +46,15 @@ This topic describes how to attach Omnichannel Toast Notification related action
 
 | **Event**                    | **Action Call**                        |
 |------------------------------|----------------------------------------|
-| CreateCaseEntitySession      | CloseUSDToastNotification              |
-|                              | Expand Right Pane                      |
+| CreateCustomerSession      | Show Session Assignment Toast Notification              |
+|                            | Show Session Error Toast Notification  
+<!--|                              | Expand Right Pane                      |
 |                              | CreateCustomerSession                  |
 |                              | Set Entity Session Property in Context |
 |                              | CollapseLeftPanel                      |
 |                              | Load Form for Case Entity              |
 |                              | OCSetSessionTabIdForEntitySession      |
-| Show Entity Notification | Show Entity Notification                |
+| Show Entity Notification | Show Entity Notification                | -->
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 5: Add the hosted controls, events, and action calls to the agent and supervisor configurations](toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)

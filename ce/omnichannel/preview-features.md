@@ -1,16 +1,19 @@
 ---
-title: Preview features in Omnichannel for Customer Service | MicrosoftDocs
+title: "Preview features in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the preview features in Omnichannel for Customer Service"
-keywords: Provision Omnichannel for Customer Service
+keywords: "Provision Omnichannel for Customer Service"
+ms.date: 07/01/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - ""
+ms.topic: article
+applies_to:
+  - ""
+ms.assetid: 1C22301A-E462-4CAD-8263-53DF41C1CF4F
 author: kabala123
 ms.author: kabala
 manager: shujoshi
-applies_to: 
-ms.date: 07/01/2019
-ms.service: dynamics-365-customerservice
-ms.topic: article
-ms.assetid: 1C22301A-E462-4CAD-8263-53DF41C1CF4F
-ms.custom: 
 ---
 
 # Preview features in Omnichannel for Customer Service
@@ -19,12 +22,12 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+You can sign up for Omnichannel for Customer Service features that are in preview from the Dynamics Insider Portal. You can use the preview features only if you've an active subscription of the Dynamics 365 for Customer Service Chat add-on. To learn more, see [Try Chat for Dynamics 365](try-chat-for-dynamics365.md).
+
 > [!IMPORTANT]
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
-
-You can sign up for Omnichannel for Customer Service features that are in preview from the Dynamics Insider Portal. You can use the preview features only if you've an active subscription of the Dynamics 365 for Customer Service Chat add-on. To learn more, see [Try Chat for Dynamics 365](try-chat-for-dynamics365.md).
 
 ## Sign up for Omnichannel for Customer Service preview
 

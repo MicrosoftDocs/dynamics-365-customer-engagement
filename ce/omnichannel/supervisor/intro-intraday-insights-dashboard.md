@@ -13,14 +13,14 @@ ms.assetid: b7ddb6d7-fc46-4541-aaa8-2411198ed856
 ms.custom: 
 ---
 
-# Introduction to intraday insights dashboard
+# Introduction to intraday supervisor experiences
 
 > [!IMPORTANT]
 > Customers must ensure they comply with all applicable laws relating to monitoring, recording, and storing communications with their end users. This includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day through various service channels.
 
-Omnichannel for Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use this dashboard to perform these tasks:
+Omnichannel for Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
 
 -	Monitor key performance indicators (KPIs)
 
@@ -30,7 +30,7 @@ Omnichannel for Customer Service provides dashboards that help supervisors keep 
 
 -	Manage agent and customer escalations 
 
-As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service in Unified Service Desk:
+As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app:
 
 - **My dashboard**: This tab provides information about the conversations that you're directly connected and engaged with customers as an agent, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](../agent/agent-oc/oc-introduction-agent-interface.md). 
 
@@ -49,7 +49,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 
 -  **Power BI Pro** or **Power BI Premium** license is assigned to you.  
 
--  User added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
+-  User is added in supervisor configuration when using intraday insights dashboard for USD. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 
 - While using the **Omnichannel for Customer Service** app on web, intraday insights dashboard must be shared with supervisors. To learn more, see [Add users to supervisor configuration](../administrator/configure-intraday-dashboard-supervisor.md#share-dashboard-in-omnichannel-for-customer-service-app-on-web).
 

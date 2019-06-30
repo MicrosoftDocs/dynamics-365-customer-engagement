@@ -28,13 +28,18 @@ Follow these steps to assign Omnichannel roles to users in the Dynamics 365 web 
 
 1. Select **Settings** > **Security** > **Users**.
 
-2. In the list, select the user or users that you want to assign a security role to.
+2. Select the user or users from the list for whom you want to assign a security role.
 
-3. Select **Manage Roles**.
+3. Select **Manage Roles** in the menu.
 
    Only the security roles available for that user's business unit are displayed.
 
-4. In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then select OK.
+4. In the **Manage User Roles** dialog box, select a security role or roles that you want to provide to the user, and then select **OK**.
+    
+    - Customer service app access
+    - Omnichannel administrator
+    - Omnichannel agent
+    - Omnichannel supervisor
 
     > [!div class=mx-imgBorder]
     > ![user roles](../media/user-roles.png)
@@ -46,7 +51,7 @@ To view and manage omnichannel users, see [Manage users in Omnichannel for Custo
 Each role in Omnichannel for Customer Service can perform a set of actions based on the privileges. 
 
 > [!NOTE]
-> Omnichannel users (agents and supervisors) should be assigned **Channel Access** role.
+> Omnichannel users (agents and supervisors) should be assigned **Channel Access** and **Customer service app access** role.
 
 |Role  |Privileges  |
 |---------|---------|

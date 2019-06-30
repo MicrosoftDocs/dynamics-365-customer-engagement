@@ -93,5 +93,5 @@ The **Linked records** field drop-down shows the record that is linked to conver
 ## See also
 
 - [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)

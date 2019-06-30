@@ -19,8 +19,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 To embed a chat widget in Dynamics 365 for Customer Engagement Portal:
 
-1.	Sign in to Omnichannel for Customer Service.
-2.	Go to **Administration** &gt; **Chat**.
+1.	Sign in to Omnichannel Administration.
+2.	Go to **Channels** &gt; **Chat**.
 3.	Open the chat widget you want to embed in Dynamics 365 for Customer Engagement Portal.
 5.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
@@ -57,7 +57,6 @@ After the chat widget is configured, it has the following capabilities:
     > [!div class=mx-imgBorder]
     > ![Pre-chat survey in the chat widget](../media/oc-chat-widget-pre-chat.png "Pre-chat survey in the chat widget")
 
-- **Chat notifications**: Chat notifications are shown when the chat widget is in minimized mode, and when it's opened on a different browser tab. When the chat widget is in minimized mode, it shows a message count. If you move away from the browser tab where you're chatting, the message count is shown on the tab.
 - **End chat**: A customer can end the chat by selecting the **Close chat** button. A confirmation message is displayed before ending the chat.
 
 > [!NOTE]
@@ -66,7 +65,6 @@ After the chat widget is configured, it has the following capabilities:
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
-[Create a survey questions library](create-question-library.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

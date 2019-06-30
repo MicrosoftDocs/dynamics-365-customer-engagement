@@ -27,7 +27,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="administrator/omnichannel-provision-license.md" data-raw-source="[Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)">Provision Omnichannel for Customer Service</a></li>
 <li><a href="administrator/upgrade-omnichannel.md" data-raw-source="[Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)">Upgrade Omnichannel for Customer Service</a></li>
 <li><a href="administrator/add-users-assign-roles.md" data-raw-source="[Assign roles and enable users](administrator/add-users-assign-roles.md)">Assign roles and enable users</a></li>
-<li><a href="administrator/configure-live-chat.md" data-raw-source="[Quickly configure a chat widget](administrator/configure-live-chat.md)">Quickly configure a chat widget</a></li>
+<li><a href="administrator/configure-live-chat.md" data-raw-source="[Quickly configure a chat widget](administrator/configure-live-chat.md)">Quickly configure a Chat widget</a></li>
 </td>
 <td>
 
@@ -36,7 +36,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 <li><a href="administrator/omnichannel-administrator.md" data-raw-source="[Omnichannel administrator](administrator/omnichannel-administrator.md#how-to-topics)">Omnichannel administrator</a></li>
 <li><a href="administrator/unified-routing-work-distribution.md" data-raw-source="[Understand unified routing and work distribution](administrator/unified-routing-work-distribution.md)"> Understand unified routing and work distribution</a></li>
 <li><a href="administrator/work-streams-introduction.md" data-raw-source="[Understand and create work streams](administrator/work-streams-introduction.md)">Understand and create work streams</a></li>
-<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat channel](administrator/set-up-chat-widget.md)">Configure a chat channel</a></li>
+<li><a href="administrator/set-up-chat-widget.md" data-raw-source="[Configure a chat channel](administrator/set-up-chat-widget.md)">Configure a Chat channel</a></li>
 <li><a href="administrator/configure-sms-channel.md" data-raw-source="[Configure an SMS channel](administrator/configure-sms-channel.md)">Configure an SMS channel</a></li>
 </td>
 </tr>

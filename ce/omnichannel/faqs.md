@@ -42,7 +42,7 @@ This release provides support for Chat for Dynamics 365 and SMS (preview). For u
 No, Chat and related Omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
 ### How do I get started?
-If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#pre-requisites) for setting up Omnichannel in your organization.
+If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
 
 ## Agent experiences
 
@@ -112,9 +112,12 @@ The Omnichannel for Customer Service app can be customized to include custom das
 ### Can I customize the Conversation Summary form?
 This is currently not supported. Enabling customizations for the Conversation Summary Form is on our roadmap. 
 
-### Why am I not able to see an empty dashboard, and IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors.
+### Why am I not able to see the IntradayMonitoring report and datasets in Power BI service while configuring intraday insights dashboard for supervisors.
 
-While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. This confirms that an empty dashboard, and IntradayMonitoring report and datasets are available in Power BI service. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
+Creation of the IntradayMonitoring report may take up to 15 mins to appear in your configured Power BI workspace. While configuring the Power BI workspace in Omnichannel Administration app, ensure that you have saved the configurations before you exit the configuration form. When you select Save, the creation of the report and dataset is initiated. If you missed to save the configuration, initiate the configuration for Supervisor Experience again. To learn more, see [Configure Power BI workspace](administrator/configure-intraday-dashboard-supervisor.md#configure-power-bi-workspace).
+
+### What is the application ID field on the application user form?
+The application ID is a mandatory field for creating application users in Dynamics 365. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
 
 ## Supervisor experience
 
@@ -201,12 +204,11 @@ There are Microsoft Flow connectors from SMS providers that can be used for auto
 ### Is there anything unique about the way SMS messages are routed to agents?
 All channels integrated into Omnichannel have the same routing capabilities, including SMS. You can create Routing rule items with conditions based on Account or Contact entities. Other entities (Case, Context variable, and SMS Engagement Context) are not supported at this time and should not be used for creating conditions in Routing rules items in an SMS workstream.
 
+## Bot
+
 ### Integrating a bot
 Bot integration is currently in preview and not a part of the Generally Available product. You can sign up for the Omnichannel preview on the [Dynamics Insider Portal](https://experience.dynamics.com/insider/).
 
 ### Can a third-party bot be integrated with Omnichannel through this feature?
 Only bots created through [Microsoft Bot Framework](https://dev.botframework.com/) can be integrated at this time.
-
-### What is the application ID field on the application user form?
-The application ID is a mandatory field for creating application users in Dynamics 365. You can copy any application ID for any valid (non-expired) application created in Azure Active Directory for the same tenant into this field. 
 

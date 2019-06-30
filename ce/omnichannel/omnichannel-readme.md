@@ -22,6 +22,31 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Messages repeated in the quick replies menu
+
+When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated multiple times.
+
+### Workaround
+
+To workaround the issue, follow these steps:
+
+1. Sign in to Omnichannel for Customer Engagement apps.
+2. Select the **Omnichannel Administration** app.
+3. Select **Quick Replies** in the site map.
+4. Select the messages that are repeated several times from the **Active Quick Replies** view.
+5. Select **Delete**. A confirmation dialog appears asking you to confirm.
+6. Select **Delete** to delete the records.
+
+    > [!div class=mx-imgBorder]
+    > ![Delete repeated messages](media/oceh/delete-quick-replies.png "Delete repeated messages")
+
+7. Select **Save** to save the changes.
+
+> [!Note]
+> The changes you make might take up to 15 mins to reflect in the system. 
+
+Now, sign in to Omnichannel for Customer Service app and verify if the messages are repeated in the quick replies menu.
+
 ## Customer Summary page shows default icons
 
 If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
@@ -63,13 +88,12 @@ Step 2. Add users to queues. Select **Add Existing User** to add agents to the q
 
 Step 3: Update the routing rules. After you upgrade, the old queue records will be removed from the **Queue** field in routing rules.  Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
 
-    > [!Note]
-    > Repeat steps 1 to 3 for all your existing queue configurations.
-
-    > [!Note]
-    > - Default queue is created automatically, and you need not reconfigure it manually.
-    >
-    > - After you save the configurations, it may take up to 15 mins to reflect.
+   > [!Note]
+   > - Repeat steps 1 to 3 for all your existing queue configurations.
+   >
+   > - Default queue is created automatically, and you need not reconfigure it manually.
+   >
+   > - After you save the configurations, it may take up to 15 mins to reflect.
 
 Step 4: Ask supervisors to update the dashboard filters. After the upgrade, the existing queue filters on the dashboards will be removed. A a supervisors, you should reconfigure and validate your dashboard filters.
 
@@ -119,9 +143,6 @@ While creating a context variable, the system does not perform duplication detec
 ## Available presence configuration
 
 Default work streams shipped out of the box for all channels do not have allowable presence preconfigured. Administrators should configure available presence manually.
-
-## Screen pop decline or time out 
-When an agent declines the screen pop or when the screen pop times out, the work distribution mechanism puts a 2-minute pause on the agent’s clock and doesn’t allocate any new conversations to the agent for that time period.
 
 ## Refresh queue configuration to reflect the addition of new user
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.

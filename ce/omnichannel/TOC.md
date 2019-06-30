@@ -31,7 +31,6 @@
 #### [Configure a chat channel](administrator/set-up-chat-widget.md)
 ##### [Add a chat widget](administrator/add-chat-widget.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
-##### [Create a survey question](administrator/create-question-library.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
@@ -44,7 +43,6 @@
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
-#### [Understand conversation state lifecycle](administrator/conversation-state-lifecycle.md)
 
 ### Agent Experience
 #### [Create quick replies](administrator/create-quick-replies.md)
@@ -72,12 +70,12 @@
 #### [Introduction to the agent interface](agent/agent-oc/oc-introduction-agent-interface.md)
 #### [Manage sessions](agent/agent-oc/oc-manage-sessions.md)
 #### [Manage applications](agent/agent-oc/oc-manage-applications.md)
-#### [View agent dashboard and work items](agent/agent-oc/oc-agent-dashboard.md)
+#### [View agent dashboard and conversations (work items)](agent/agent-oc/oc-agent-dashboard.md)
 #### [Create a record](agent/agent-oc/oc-create-record.md)
 #### [Search, link, and unlink a record](agent/agent-oc/oc-search-link-unlink-record.md)
 #### [Understand conversation states](agent/agent-oc/oc-conversation-state.md)
 #### [View communication panel](agent/agent-oc/oc-conversation-control.md)
-#### [Monitor real-time customer satisfaction levels](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
+#### [Monitor real-time customer sentiment](agent/agent-oc/oc-monitor-real-time-customer-sentiment-sessions.md)
 #### [Manage presence status](agent/agent-oc/oc-manage-presence-status.md)
 #### [View notifications](agent/agent-oc/oc-notifications.md)
 #### [View customer summary](agent/agent-oc/oc-customer-summary.md)
@@ -105,7 +103,7 @@
 
 
 ## Supervisor guide
-### [Introduction to Intraday insights dashboard](supervisor/intro-intraday-insights-dashboard.md)
+### [Introduction to intraday supervisor experiences](supervisor/intro-intraday-insights-dashboard.md)
 #### [View and understand Omnichannel intraday insights dashboard](supervisor/intraday-insights-dashboard.md) 
 #### [View and understand Omnichannel Ongoing Conversations dashboard](supervisor/ongoing-conversations-dashboard.md)
 #### [Monitor conversations](supervisor/monitor-conversations.md)
@@ -192,5 +190,4 @@
 ## Troubleshooting, readme, and FAQs
 ### [Readme](omnichannel-readme.md)
 ### [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md)
-
-## [FAQs](faqs.md)
+### [FAQs](faqs.md)

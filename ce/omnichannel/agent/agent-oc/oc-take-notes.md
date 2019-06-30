@@ -47,7 +47,7 @@ Again, when you switch back to the session, launch the notes panel and take the 
 ## See also
 
 - [View Communication panel](oc-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary and know everything about customers](oc-customer-summary.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [Create a record](oc-create-record.md)

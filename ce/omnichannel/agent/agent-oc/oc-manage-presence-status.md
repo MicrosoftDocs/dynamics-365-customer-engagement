@@ -68,4 +68,4 @@ Presence status is updated in two ways:
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - [View communication panel](oc-conversation-control.md)
-- [Monitor real-time customer satisfaction levels](oc-monitor-real-time-customer-sentiment-sessions.md)
+- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
