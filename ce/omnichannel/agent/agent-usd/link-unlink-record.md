@@ -21,8 +21,9 @@ The topic explains how to link and unlink a record to the conversation.
 
 ## Link a record to the conversation when doing inline search
 
+<!--
 > [!div class=mx-imgBorder]
-> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records")
+> ![Customer profile and Issue snapshot are blank when there are no records](../../media/agent-inline-search-no-record.PNG "Customer profile and Issue snapshot are blank when there are no records") -->
 
 During inline search, the search results are displayed, and you can select a record to link the conversation to the selected record. After you link the record, the **Customer summary** form loads with the details.
 
