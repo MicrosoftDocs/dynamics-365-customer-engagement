@@ -24,7 +24,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 
 ## Messages repeated in the quick replies menu
 
-When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated several multiple times.
+When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated multiple times.
 
 ### Workaround
 
