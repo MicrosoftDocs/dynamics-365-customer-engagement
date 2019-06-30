@@ -36,6 +36,10 @@ To workaround the issue, follow these steps:
 4. Select the messages that are repeated several times from the **Active Quick Replies** view.
 5. Select **Delete**. A confirmation dialog appears asking you to confirm.
 6. Select **Delete** to delete the records.
+
+    > [!div class=mx-imgBorder]
+    > ![Delete repeated messages](media/oceh/delete-quick-replies.png "Delete repeated messages")
+
 7. Select **Save** to save the changes.
 
 Now, sign in to Omnichannel for Customer Service app and verify if the messages are repeated in the quick replies menu.
