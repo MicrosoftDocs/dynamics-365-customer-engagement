@@ -3277,6 +3277,21 @@
       "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/startchat.md",
       "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/startchat",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-bot.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-bot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-sms-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-sms-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/bot-escalate-end-conversation.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/bot-escalate-end-conversation",
+      "redirect_document_id": false
     }
   ]
 }
