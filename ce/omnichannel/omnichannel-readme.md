@@ -42,6 +42,9 @@ To workaround the issue, follow these steps:
 
 7. Select **Save** to save the changes.
 
+> [!Note]
+> The changes you make might take up to 15 mins to reflect in the system. 
+
 Now, sign in to Omnichannel for Customer Service app and verify if the messages are repeated in the quick replies menu.
 
 ## Customer Summary page shows default icons
