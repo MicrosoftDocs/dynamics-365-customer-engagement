@@ -27,12 +27,13 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 Open Chat Settings, navigate to Design tab and change **Logo** field and use an icon URL of your choice.
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** > **Chat**.
-3. Select a chat widget from the list.
-4. Select the **Design** tab.
-5. Specify the URL of the icon you want to use in the **Logo** field.
-6. Select **Save** to save the record.
+1. Sign in to Omnichannel for Customer Engagement.
+2. Select the **Omnichannel Administration** app.
+3. Go to **Administration** > **Chat**.
+4. Select a chat widget from the list.
+5. Select the **Design** tab.
+6. Specify the URL of the icon you want to use in the **Logo** field.
+7. Select **Save** to save the record.
 
 ## Chat not getting initiated on starting a new chat from portal 
 
@@ -49,21 +50,23 @@ A message stating **Sorry, we're not able to serve you at the moment** is shown 
 
  To configure agents in the queue, follow these steps:
 
- 1. Sign in to Omnichannel for Customer Service.
- 2. Go to **Queues & Users** > **Queues**
- 3. Select the queue from the list.
- 4. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
- 5. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
- 6. Select **Save** to save the record.
+ 1. Sign in to Omnichannel for Customer Engagement.
+ 2. Select the **Omnichannel Administration** app.
+ 3. Go to **Queues & Users** > **Queues**
+ 4. Select the queue from the list.
+ 5. In the **Users (Agents)** section, select **Add Existing User** to add existing agents to the queue.
+ 6. On the **Lookup Records** pane, select the agents to add, and then select **Add**.
+ 7. Select **Save** to save the record.
 
 
 To Update default **Allowed Presence** in the Live Work Stream, follow these steps:
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Work Distribution Management** > **Work Streams**.
-3. Select a record from the list.
-4. In the Work Distribution tab, under the Work Distribution section, type **Available**. Select the check box to add it. Similarly, type **Busy** and then select the check box to add it.
-5. Select **Save** to save the record.
+1. Sign in to Omnichannel for Customer Engagement.
+2. Select the **Omnichannel Administration** app.
+3. Go to **Work Distribution Management** > **Work Streams**.
+4. Select a record from the list.
+5. In the Work Distribution tab, under the Work Distribution section, type **Available**. Select the check box to add it. Similarly, type **Busy** and then select the check box to add it.
+6. Select **Save** to save the record.
 
 ## Chat widget does not load on the portal
 
@@ -77,21 +80,22 @@ Delete the **Widget location** location of the chat widget and again create it.
 
 To delete and add **Widget location** for the chat widget, follow these steps:
 
-1. Sign in to Omnichannel for Customer Service.
-2. Go to **Administration** > **Chat**.
-3. Select a chat widget from the list.
-4. Select the **Location** tab.
-5. Select a record in the **Widget Location** section, and select **Delete**.
-6. Select **Save**.
-7. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
-8. Specify the following.
+1. Sign in to Omnichannel for Customer Engagement.
+2. Select the **Omnichannel Administration** app.
+3. Go to **Administration** > **Chat**.
+4. Select a chat widget from the list.
+5. Select the **Location** tab.
+6. Select a record in the **Widget Location** section, and select **Delete**.
+7. Select **Save**.
+8. Select **+ Add** in the **Widget Location** section to add a record. Quick create pane of the chat widget location appears.
+9. Specify the following.
 
    | Field | Value |
    |---------------------------|-----------------------------------------|
    | Title | Type the title of record. |
    | Value | The website domain where the chat widget must be displayed. The domain format should not include the protocol (http or https). For example, the website is  `https://contoso.microsoftcrmportals.com`. Now, the value is  `contoso.microsoftcrmportals.com`. | 
-9. Select **Save** to save the record.
-10. Go to the website and check if the chat widget loads.
+10. Select **Save** to save the record.
+11. Go to the website and check if the chat widget loads.
 
 ## Dashboards do not appear in Omnichannel for Customer Service active dashboards view
 

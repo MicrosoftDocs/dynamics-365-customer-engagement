@@ -22,6 +22,24 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+## Messages repeated in the quick replies menu
+
+When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated several multiple times.
+
+### Workaround
+
+To workaround the issue, follow these steps:
+
+1. Sign in to Omnichannel for Customer Engagement apps.
+2. Select the **Omnichannel Administration** app.
+3. Select **Quick Replies** in the site map.
+4. Select the messages that are repeated several times from the **Active Quick Replies** view.
+5. Select **Delete**. A confirmation dialog appears asking you to confirm.
+6. Select **Delete** to delete the records.
+7. Select **Save** to save the changes.
+
+Now, sign in to Omnichannel for Customer Service app and verify if the messages are repeated in the quick replies menu.
+
 ## Customer Summary page shows default icons
 
 If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
