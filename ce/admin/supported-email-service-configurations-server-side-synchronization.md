@@ -1,7 +1,7 @@
 ---
 title: "Supported email service configurations for server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/11/2019
+ms.date: 06/28/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -69,7 +69,11 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] ap
  Server-side synchronization doesn’t support the following scenarios:  
   
 - Mix of [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]/SMTP and POP3/[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]  
+
+- Exchange Online profile mailbox with Exchange on-premises user. Use the Exchange Server (Hybrid) profile, associate the mailbox to it, then test and enable.
   
+- Exchange Online profile mailbox with an Exchange mailbox that points to an external email server. Use the POP3/SMTP Server profile, associate the mailbox to it, then test and enable.
+
 - Creation of mass email marketing campaigns  
   
 - Extensibility scenarios like extending EWS/POP3/SMTP protocols and creating custom email providers  

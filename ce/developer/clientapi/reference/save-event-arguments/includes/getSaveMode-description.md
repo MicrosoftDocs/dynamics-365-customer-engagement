@@ -1,1 +1,0 @@
-Returns a value indicating how the save event was initiated by the user.

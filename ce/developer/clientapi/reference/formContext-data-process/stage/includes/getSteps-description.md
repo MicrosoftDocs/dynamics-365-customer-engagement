@@ -1,1 +1,0 @@
-Returns a collection of steps in the stage.
