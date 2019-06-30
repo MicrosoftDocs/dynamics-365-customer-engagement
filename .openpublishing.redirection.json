@@ -2592,6 +2592,706 @@
       "source_path": "ce/marketing/purchase-marketing.md",
       "redirect_url": "/dynamics365/customer-engagement/marketing/purchase-setup",
       "redirect_document_id": true
-     }
+     },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/introduction-omni-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/introduction-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/omni-channel-engagement-hub-guide.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/omni-channel-readme.md",
+      "redirect_url": "/dynamics365/customer-engagement/omni-channel-engagement-hub/omni-channel-readme",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/omni-channel-whats-new.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/omnichannel-whats-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/system-requirements-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/system-requirements-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/add-chat-widget.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/add-chat-widget",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/add-users-assign-roles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/agent-display-name.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/agent-display-name",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-live-chat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-live-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-pre-chat-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-pre-chat-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-settings-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-settings-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/conversation-state-lifecycle.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-chat-auth-settings.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-chat-auth-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-entity-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-entity-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-operating-hours.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-operating-hours",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-question-library.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-pre-chat-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-quick-replies.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-quick-replies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/data-masking-settings.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/data-masking-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/delete-solution.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/delete-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/embed-chat-widget-portal.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/embed-chat-widget-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/geo-location-provider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/geo-location-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/knowledge-management-oc.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/knowledge-management-oc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-administrator.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-administrator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-package.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-customer-service-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-customer-service-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-provision-license.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-provision-license",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/presence-custom-presence.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/queues-omni-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/queues-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/record-identification-rule.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/routing-rules.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/set-up-chat-widget.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/unified-routing-work-distribution.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/upgrade-omni-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/upgrade-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/users-user-profiles.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/work-streams-introduction.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/omni-channel-engagement-hub-agent-introduction.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/omnichannel-agent-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-conversation-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-conversation-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-conversation-state.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-create-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-create-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-introduction-agent-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-manage-applications.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-manage-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-manage-sessions.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-manage-sessions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-notifications-screen-pops.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-omni-channel-agent-dashboard.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/omnichannel-customer-service-app-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-search-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-search-knowledge-articles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-search-link-unlink-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-search-link-unlink-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-set-user-presence-status.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-manage-presence-status",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-sign-dynamics-365-customer-service-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-sign-in-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-take-notes.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-take-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-view-conversations-sessions-dynamics-365-apps.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-view-activity-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-view-customer-360-incoming-conversation-request.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-view-customer-summary-incoming-conversation-request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/conversation-state.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/create-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/create-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/customer360-overview-existing-challenges.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/introduction-agent-dashboard.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/introduction-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/introduction-agent-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/left-control-panel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/left-control-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/link-unlink-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/link-unlink-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/notifications-screen-pop.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/omni-channel-engagement-hub-agent.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/omnichannel-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/right-control-panel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/right-control-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/search-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/search-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/signin-unified-service-desk-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/view-customer360-incoming-conversation-request.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/view-customer-summary-incoming-conversation-request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/view-omnichannel-conversation-session",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/add-remove-fields-form-section.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-quick-view-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step1-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step2-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step3-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step1-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step2-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step3-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step3-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step1-create-forms-define-layout-behavior-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step2-create-hosted-controls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step2-create-hosted-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step3-create-action-call-display-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step3-create-action-call-display-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step4-add-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step4-add-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step1-create-entity-searches.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step1-create-entity-searches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step2-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step2-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step3-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step3-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step4-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step4-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step5-configure-window-navigation-rule.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step5-configure-window-navigation-rule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-advanced-search.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-advanced-search",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-agent-dashboard.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-alert-notification-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-alert-notification-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-communication-panel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-communication-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-customer-summary.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-notification-screen-pop-agents.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-scriptlets-define-case-channel-titles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-scriptlets-define-case-channel-titles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-session-name-information.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-session-name-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-toast-notification-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-toast-notification-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/create-agent-supervisor-configurations-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/create-agent-supervisor-configurations-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step1-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step2-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step3-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step3-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customize-conversation-form.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-session-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customize-customer-360-page.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-add-remove-fields.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-modify-position-alignment-form-section-customer360.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-modify-position-alignment-form.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-modify-section-properties-form-section.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/omni-channel-engagement-hub-customizer.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/omnichannel-customizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step1-create-forms-define-layout-behavior-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step2-create-hosted-controls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step2-create-hosted-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step3-create-action-call-display-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step3-create-action-call-display-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step4-add-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step4-add-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/omni-channel-engagement-hub-developer.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/omnichannel-developer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/omni-channel-reference.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/omnichannel-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/how-to/initiate-chat-wait-time.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/how-to/initiate-chat-wait-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/how-to/send-auth-token-starting-chat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/how-to/send-auth-token-starting-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/how-to/send-context-starting-chat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/how-to/send-context-starting-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/error-code-reference.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/error-code-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/events/lcw-error.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/lcw-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/events/lcw-ready.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/lcw-ready",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/getAuthTokenProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/getAuthTokenProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/getContextProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/getContextProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/lcw-error-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/lcw-error-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/lcw-ready-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/lcw-ready-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/removeAuthTokenProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/removeAuthTokenProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/removeContextProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/removeContextProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/setAuthTokenProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/setAuthTokenProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/setContextProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/setContextProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/startchat-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/startchat-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/getAuthTokenProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/getAuthTokenProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/getContextProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/getContextProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/removeAuthTokenProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/removeAuthTokenProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/removeContextProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/removeContextProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/setAuthTokenProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/setAuthTokenProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/setContextProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/setContextProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/startchat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/startchat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-bot.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-bot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-sms-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-sms-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/bot-escalate-end-conversation.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/bot-escalate-end-conversation",
+      "redirect_document_id": false
+    }
   ]
 }
