@@ -63,13 +63,12 @@ Step 2. Add users to queues. Select **Add Existing User** to add agents to the q
 
 Step 3: Update the routing rules. After you upgrade, the old queue records will be removed from the **Queue** field in routing rules.  Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
 
-    > [!Note]
-    > Repeat steps 1 to 3 for all your existing queue configurations.
-
-    > [!Note]
-    > - Default queue is created automatically, and you need not reconfigure it manually.
-    >
-    > - After you save the configurations, it may take up to 15 mins to reflect.
+   > [!Note]
+   > - Repeat steps 1 to 3 for all your existing queue configurations.
+   >
+   > - Default queue is created automatically, and you need not reconfigure it manually.
+   >
+   > - After you save the configurations, it may take up to 15 mins to reflect.
 
 Step 4: Ask supervisors to update the dashboard filters. After the upgrade, the existing queue filters on the dashboards will be removed. A a supervisors, you should reconfigure and validate your dashboard filters.
 
