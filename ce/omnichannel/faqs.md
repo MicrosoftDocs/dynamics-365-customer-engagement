@@ -59,7 +59,7 @@ Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in prev
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows? 
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
 
-### What happens if I accidentally close the browser, browser crashes, or refresh the entire page?
+### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes ?
 If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you have entered some data on the Dynamics 365 forms where autosave has been enabled, they will be saved into Dynamics 365. 
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
