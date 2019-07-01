@@ -28,7 +28,12 @@ search.app:
 
 # Resource utilization on the schedule board
 
-It is important for dispatchers and service managers 
+It is important for dispatchers and service managers to understand the utilization of the resources they manage whether field technicians or equipment.
+
+In all schedule board views, utilization is automatically calculated for each resource based on booked hours and working hours.
+
+schedule-board-utilization
+
 Each resource's utilization is displayed on the schedule board
 
 ## Prerequisites
