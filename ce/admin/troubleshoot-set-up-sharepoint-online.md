@@ -62,11 +62,11 @@ The most common cause for the Documents associated grid not loading is the corru
     2. Don’t have the correct permissions? Contact your system administrator.
 2. Go to **Settings** > **Customizations** > **Solutions**. 
 3. Create a solution (named SharePointDocumentSolution). For more information, see [Create a solution](../customize/create-solution.md).
-4. Add **SharePoint Document** entity (select all fields , forms, views). 
+4. Choose **Entities** > **Add Existing** > **Entity** > Find and Add **SharePoint Document** entity  (select all fields, forms, views). 
 5. Select **Save** and **Close**.
 6. Publish all customizations.
 7. Select the created (SharePointDocumentSolution) solution.
-8. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
+8. Export the solution and choose the Package type as "Unmanaged". (SharePointDocumentSolution.zip will be downloaded) 
 9. Extract the zip file (downloaded file from Step 7).
 10. Browse the folder, locate and open customization.xml.
 11. Search LayoutXml of Document associated grid (search for *Document Associated*).
