@@ -32,9 +32,11 @@ You can deploy Omnichannel for Customer Service solution over a Customer Engagem
 
 This section explains the pre-requisites for using Omnichannel for Customer Service.
 
-### Power BI Pro license
+### License
 
-Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** requires Power BI Pro license or higher.
+- You organization must have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant.
+
+- Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** requires Power BI Pro license or higher.
 
 ## System and hardware requirements of Omnichannel for Customer Service with web experience
 
