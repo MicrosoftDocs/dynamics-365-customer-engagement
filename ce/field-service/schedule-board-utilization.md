@@ -36,6 +36,8 @@ Utilization is defined as the proportion of time a resource is scheduled to work
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization.png)
 
+Let's see how resource utilization is calculated and displayed in the Hours and Days views of the schedule board.
+
 ## Prerequisites
 
 Utilization is calculated and displayed on the schedule board for all versions of Field Service
@@ -43,7 +45,7 @@ Utilization is calculated and displayed on the schedule board for all versions o
 > [!Note]
 >
 
-
+## Hours view
 
 Utilisation % is derived from:
 Total Booked Hours / Total Work Hours Available
@@ -81,6 +83,7 @@ If the duration of that Work Order is increased to 12 hours, then his Utilisatio
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+## Days view
 
 Example 2:
 In the Daily View, as per Example 1, the Total Work Hours Available will be the sum of the hours seen on the Schedule Board.
