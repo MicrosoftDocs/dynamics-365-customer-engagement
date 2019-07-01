@@ -19,7 +19,7 @@ topic-status: Drafting
 # Implementing General Data Protection Regulations in Voice of the Customer
 
 > [!IMPORTANT]
-> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704).
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 

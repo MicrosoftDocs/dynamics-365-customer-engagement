@@ -21,7 +21,7 @@ ms.custom:
 # Plan a survey
 
 > [!IMPORTANT]
-> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704).
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 It's important to have a plan for configuring your Voice of the Customer surveys. Here are a few things to think about to help you design the right questions for your survey:
 

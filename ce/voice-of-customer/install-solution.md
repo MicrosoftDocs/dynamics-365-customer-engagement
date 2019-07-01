@@ -21,7 +21,7 @@ ms.custom:
 # Install or upgrade the Voice of the Customer solution
 
 > [!IMPORTANT]
-> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704).
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 

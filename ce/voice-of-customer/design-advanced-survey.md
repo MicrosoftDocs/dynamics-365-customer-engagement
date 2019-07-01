@@ -21,7 +21,7 @@ ms.custom:
 # Design an advanced survey
 
 > [!IMPORTANT]
-> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704).
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 This section provides information about advanced features for designing surveys—for example, response routing, scoring, piping, and so on.
 

@@ -21,7 +21,7 @@ ms.custom:
 # Distribute a survey
 
 > [!IMPORTANT]
-> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704).
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 After your survey is ready, you can distribute the survey and invite respondents to take part in it. You can distribute surveys in one of two ways:
 

@@ -21,7 +21,7 @@ ms.custom:
 # Design a basic survey
 
 > [!IMPORTANT]
-> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704).
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 After deciding the types of questions you want to include in your survey, you must now create the survey. This article provides information about the basics of designing a survey, creating a survey theme, and adding questions to the survey. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
 
