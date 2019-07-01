@@ -1,5 +1,5 @@
 ---
-title: "Sign up and install a free trial (Dynamics 365 for Marketing) | Microsoft Docs"
+title: "Sign up for and install a free trial (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to sign up for a trial of Dynamics 365 for Marketing, obtain prerequisite software, and set up the trial"
 keywords: trial
 ms.date: 04/01/2019
