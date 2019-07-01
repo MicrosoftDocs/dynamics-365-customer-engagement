@@ -46,8 +46,8 @@ Utilization is calculated and displayed on the schedule board for all versions o
 
 For each resource, utilization percentage (%) is derived from: **Total booked hours / Total working hours** 
 
-Total booked hours = sum of the hours booked to the resource
-Total working hours = sum of the resource's working hours
+**Total booked hours** = sum of the hours booked to the resource
+**Total working hours** = sum of the resource's working hours
 
 > [!Note]
 > Working hours are defined on each Bookable Resource record. Go to **Resource Scheduling > Resources**. See the topic on [setting up bookable resources](../field-service/set-up-bookable-resources) for more details.
