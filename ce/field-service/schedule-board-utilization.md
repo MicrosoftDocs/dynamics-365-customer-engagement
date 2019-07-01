@@ -42,24 +42,22 @@ Let's see how resource utilization is calculated and displayed in the Hours and 
 
 Utilization is calculated and displayed on the schedule board for all versions of Field Service
 
-> [!Note]
->
-
 ## Hours view
 
-For each resource, utilization percentage (%) is derived from: **Total booked hours / Total work hours** 
+For each resource, utilization percentage (%) is derived from: **Total booked hours / Total working hours** 
 
-Total booked hours = sum of the hours booked to that resource
-Total work hours available = sum of the work hours available to that resource
+Total booked hours = sum of the hours booked to the resource
+Total working hours = sum of the resource's working hours
+
+> [!Note]
+> Working hours are defined on each Bookable Resource record. Go to **Resource Scheduling > Resources**. See the topic on [setting up bookable resources](../field-service/set-up-bookable-resources) for more details.
 
 The above values will change based on how many hours, days, and weeks you are viewing, and these are edited by selecting a view, a date range, and how many days to display.
-
-On the schedule board, the utilization value changes with the time frame defined in the view
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-edit-time.png)
 
-This is because the View Mode timeframe changes the Total Work Hours Available that are visible on the schedule board.
+This is because as you view more days, you potenitally view more assigned jobs as well as more working hours. 
 
 Examples
 
