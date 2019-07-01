@@ -93,7 +93,10 @@ Matthew already has a 12 hour booking for one day, so his utilization % becomes 
 
 
 ## Configuration considerations
+
 **Proposed bookings do not contribute to utilization**
+
+Though the field service process utilizes many field service booking statuses such as traveling, in progress, on break, completed, etc, each of those relate to a booking status either **Committed** or **Proposed**. 
 
 - what about proposed bookings?
   - proposes bookings do not add to utilization
