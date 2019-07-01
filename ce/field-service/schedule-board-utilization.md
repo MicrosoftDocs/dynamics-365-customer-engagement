@@ -47,18 +47,17 @@ Utilization is calculated and displayed on the schedule board for all versions o
 
 ## Hours view
 
-Utilisation % is derived from:
-Total Booked Hours / Total Work Hours Available
+For each resource, utilization percentage (%) is derived from: **Total booked hours / Total work hours** 
 
-Total Booked Hours = The sum of the hours booked to that resource
-Total Work Hours Available = The sum of the Work Hours available to that resource
+Total booked hours = sum of the hours booked to that resource
+Total work hours available = sum of the work hours available to that resource
 
-Behaviour
+The above values will change based on how many hours, days, and weeks you are viewing, and these are edited by selecting a view, a date range, and how many days to display.
 
-In the Schedule Board, the utilisation value changes with the timeframe defined in the View Mode:
+On the schedule board, the utilization value changes with the time frame defined in the view
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-utilization-edit-time.png)
 
 This is because the View Mode timeframe changes the Total Work Hours Available that are visible on the schedule board.
 
