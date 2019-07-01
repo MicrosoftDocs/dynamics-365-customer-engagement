@@ -86,14 +86,20 @@ In the Days view, the total working hours will be the sum of the hours seen on t
 
 In this case we see 10 days, so Matthew’s total working hours are 12 X 10 = 120 hours
 
-Matthew already has a 12 hour booking for one day, so his utilization % is 12 / 120 = 10%
+Matthew already has a 12 hour booking for one day, so his utilization % becomes 12 / 120 = 10%
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-days-view.png)
 
 
-
 ## Configuration considerations
+**Proposed bookings do not contribute to utilization**
+
 - what about proposed bookings?
-- least busy
+  - proposes bookings do not add to utilization
+
+**Sort schedule assistant results by utilization**
+
+- sort by utilization
 ## Additional Notes
+
