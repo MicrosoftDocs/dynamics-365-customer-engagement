@@ -28,15 +28,17 @@ search.app:
 
 # Resource utilization on the schedule board
 
-It is important for dispatchers and service managers to understand the utilization of the resources they manage whether field technicians or equipment.
+It is important for dispatchers and service managers to understand resource utilization to make better scheduling decisions, whether it is assigning work orders to field technicians or reserving equipment for customer jobs.  
 
-In all schedule board views, utilization is automatically calculated for each resource based on booked hours and working hours.
+Utilization is defined as the proportion of time a resource is scheduled to work. More specifically, it is calculated as the percentage of booked time compared to working hours. In all schedule board views, utilization is automatically calculated and displayed in each resource's cell.
 
-schedule-board-utilization
 
-Each resource's utilization is displayed on the schedule board
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-utilization.png)
 
 ## Prerequisites
+
+Utilization is calculated and displayed on the schedule board for all versions of Field Service
 
 > [!Note]
 >
@@ -91,4 +93,6 @@ Erik already has a 12 hour booking for one day, so his Utilisation % is 12 / 120
 
 
 ## Configuration considerations
+- what about proposed bookings?
+- least busy
 ## Additional Notes
