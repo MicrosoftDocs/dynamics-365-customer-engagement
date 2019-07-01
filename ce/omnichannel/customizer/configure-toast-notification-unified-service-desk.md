@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 476eb2cf-05e7-42ef-a268-4cb6342fb9b2
 ms.custom: 
 ---
-# Configure toast notifications in Unified Service Desk.
+# Configure toast notifications in Unified Service Desk
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
@@ -42,13 +42,13 @@ The process of configuring toast notification (floating notification) settings i
 
 5. Add the Hosted Controls, Actions, and Events to the Agent and Supervisor Configurations.
 
-Consider a scenario where you receive a case request. What is the interaction experience for this case request?
+<!-- Consider a scenario where you receive a case request. What is the interaction experience for this case request?
 
 You see a toast notification for the case request. Therefore, the following events must be created: 
 
  - Create an event to open a session when the agent selects the toast notification.
 
- - Create an event and action when an agent does not act, and the notification hides after a brief wait time.
+ - Create an event and action when an agent does not act, and the notification hides after a brief wait time. -->
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create forms to define layout and behavior of the notification](toastnotification-step1-create-forms-define-layout-behavior-notification.md)
