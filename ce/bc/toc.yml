@@ -72,32 +72,29 @@
     - name: Marketing
       tocHref: /dynamics365/customer-engagement/marketing
       topicHref: /dynamics365/customer-engagement/marketing/get-started-section
-    - name: Omni-channel Engagement Hub
-      tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/
-      topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub-guide
+    - name: Omnichannel for Customer Service
+      tocHref: /dynamics365/customer-engagement/omnichannel/
+      topicHref: /dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide
       items:
       - name: Administrator
-        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-administrator          
+        tocHref: /dynamics365/customer-engagement/omnichannel/administrator/
+        topicHref: /dynamics365/customer-engagement/omnichannel/administrator/omnichannel-administrator          
       - name: Agent
-        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/omni-channel-engagement-hub-agent
+        tocHref: /dynamics365/customer-engagement/omnichannel/agent/
+        topicHref: /dynamics365/customer-engagement/omnichannel/agent/omnichannel-customer-service-agent
         items:
         - name: Agent using Unified Service Desk
-          tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-usd/
-          topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-usd/omni-channel-engagement-hub-agent
-        - name: Agent using Customer Service Hub
-          tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-csh/
-          topicHref:  /dynamics365/customer-engagement/omni-channel-engagement-hub/agent/agent-csh/csh-omni-channel-engagement-hub-agent
+          tocHref: /dynamics365/customer-engagement/omnichannel/agent/agent-usd/
+          topicHref: /dynamics365/customer-engagement/omnichannel/agent/agent-usd/omnichannel-customer-service-agent
+        - name: Agent using Omnichannel for Customer Service
+          tocHref: /dynamics365/customer-engagement/omnichannel/agent/agent-oc/
+          topicHref:  /dynamics365/customer-engagement/omnichannel/agent/agent-oc/oceh-omnichannel-customer-service-agent
       - name: Supervisor
-        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/supervisor/omni-channel-engagement-hub-supervisor          
+        tocHref: /dynamics365/customer-engagement/omnichannel/supervisor/
+        topicHref: /dynamics365/customer-engagement/omnichannel/supervisor/omnichannel-supervisor          
       - name: System Customizer
-        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customizer/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customizer/omni-channel-engagement-hub-customizer
-      - name: Customer
-        tocHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customer/
-        topicHref: /dynamics365/customer-engagement/omni-channel-engagement-hub/customer/omni-channel-engagement-hub-customer                    
+        tocHref: /dynamics365/customer-engagement/omnichannel/customizer/
+        topicHref: /dynamics365/customer-engagement/omnichannel/customizer/omnichannel-customizer                  
     - name: Developer Documentation
       tocHref: /dynamics365/customer-engagement/developer/
       topicHref: /dynamics365/customer-engagement/developer/index
