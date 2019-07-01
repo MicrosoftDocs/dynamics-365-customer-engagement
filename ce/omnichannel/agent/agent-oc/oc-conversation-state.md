@@ -23,9 +23,9 @@ Types of conversation states:
 
  - [Active](#active)
  
- - [Waiting](#waiting)
- 
  - [Wrap-up](#wrap-up)
+
+ - [Waiting](#waiting)
 
  - [Closed](#closed) 
 
@@ -52,17 +52,30 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 | From state | To state | Scenario  | Type (Chat and SMS) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Active        | Closed           | When you complete working on the conversation and end the conversation and close the session.| Chat |
+| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Chat and SMS |
 | Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation and you are no longer getting reply, you can close the session without ending the conversation. This will keep conversation in waiting state. |   Chat and SMS |
-| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Chat and SMS |
-<!--| Active        | In-progress      | When you close the session with conversation in active state.  | SMS  | -->
+<!--| Active        | In-progress      | When you close the session with conversation in active state.  | SMS  | 
+| Active        | Closed           | When you complete working on the conversation and end the conversation and close the session.| Chat |
+-->
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](../../media/oc-conversation-active.png "Active state")
 
+## Wrap-up
+
+This is an intermediate state after you end the conversation, where you can do after active conversation activities like taking notes and update the customer information before moving the conversation to **Closed** state.
+
+The conversation (work item) transitions from **Wrap-up** to **Closed** state under the following scenario. 
+
+| From state | To state | Scenario  | Type (Chat and SMS) |
+|---------------|------------------|---------------------------------------------------------|------------|
+| Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Chat and SMS |
+
+![Transition from wrap-up to closed state](../../media/oc-conversation-wrap-up.png "Wrap-up state")
+
 ## Waiting
 
-The conversations that you close or customer disconnects are classified under **Waiting** state. Conversation in waiting state don't block your capacity. The conversations get transitioned to waiting state when you (agent) do not end the conversation, and are most probably waiting for some information from customer.
+Conversation in waiting state don't block your capacity. The conversations get transitioned to waiting state when you (agent) close the session without ending the conversation (without clicking **End** button on communication panel). For example, you are waiting for some information from customer and do not want to end the conversation. 
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** state under the following scenarios.
 
@@ -83,18 +96,6 @@ The session that you close while conversation is still in active state are class
 | In-progress   | Closed           | When you don't perform any action, then then conversation auto-closes after the inactivity timeout. | SMS |
 
 ![Transition from in-progress to closed state](../../media/oc-conversation-in-progress.png "In-progress state") -->
-
-## Wrap-up
-
-This is an intermediate state after you end the conversation, where you can do after active conversation activities like taking notes and update the customer information before moving the conversation to **Closed** state.
-
-The conversation (work item) transitions from **Wrap-up** to **Closed** state under the following scenario. 
-
-| From state | To state | Scenario  | Type (Chat and SMS) |
-|---------------|------------------|---------------------------------------------------------|------------|
-| Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Chat and SMS |
-
-![Transition from wrap-up to closed state](../../media/oc-conversation-wrap-up.png "Wrap-up state")
 
 ## Closed
 
