@@ -67,15 +67,15 @@ In the Hourly view, the total working hours will be the sum of the hours seen on
  
 In the example above, Matthew works a 12 hour shift from 9AM to 9PM, this shift is repeated for 5 days shown as the user scrolls from left to right across the schedule board.
 
-Therefore, Matthew’s total working hours in this Hourly view are 12 X 5 = 60.
+Therefore, Matthew’s total working hours in this Hourly view are 12 X 5 = 60 hours.
 
-If Matthew is booked a single 6 hour Work Order, then his Utilization is 6 / 60 = 10%, as shown in his resource card.
+If Matthew is booked a single 6 hour Work Order, then his utilization is 6 / 60 = 10%, as shown in his resource card.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-hourly-view-booked.png)
 
 
-If the duration of that Work Order is increased to 12 hours, then his utiliZation is 12 / 60 = 20%, as shown in his resource card below.
+If the duration of the Work Order is increased to 12 hours, then his utiliZation is 12 / 60 = 20%, as shown in his resource card below.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-hourly-view-booked-more.png)
@@ -84,11 +84,12 @@ If the duration of that Work Order is increased to 12 hours, then his utiliZatio
 
 In the Days view, the total working hours will be the sum of the hours seen on the Schedule Board.
 
-In this case we see 10 days, so Matthew’s Total Work Hours Available are 12 * 10 = 120
-Erik already has a 12 hour booking for one day, so his Utilisation % is 12 / 120 = 10%
+In this case we see 10 days, so Matthew’s total working hours are 12 X 10 = 120 hours
+
+Matthew already has a 12 hour booking for one day, so his utilization % is 12 / 120 = 10%
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/schedule-board-utilization-days-view.png)
 
 
 
