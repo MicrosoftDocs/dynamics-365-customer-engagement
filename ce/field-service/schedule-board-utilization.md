@@ -28,8 +28,11 @@ search.app:
 
 # Resource utilization on the schedule board
 
-Each resource's utilization is displayed
+It is important for dispatchers and service managers 
+Each resource's utilization is displayed on the schedule board
+
 ## Prerequisites
+
 > [!Note]
 >
 
