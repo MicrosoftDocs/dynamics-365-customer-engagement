@@ -34,7 +34,7 @@ This section explains the pre-requisites for using Omnichannel for Customer Serv
 
 ### License
 
-- Your organization must have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant.
+- You must have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant.
 
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** requires Power BI Pro license or higher.
 
