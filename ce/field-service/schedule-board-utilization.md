@@ -103,7 +103,7 @@ As an example, the **In Progress** field service status is categorized as commit
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-in-progress-status.png)
 
-Bookings that have a **proposed** booking status will not add to utilization. As seen in the image below, Brady was assigned a proposed booking but his utilization remained at 0%.
+Bookings that have a **proposed** or **canceled** booking status will not add to utilization. As seen in the image below, Brady was assigned a proposed booking but his utilization remained at 0%.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-proposed.png)
@@ -111,10 +111,15 @@ Bookings that have a **proposed** booking status will not add to utilization. As
 
 **Sort schedule assistant results by utilization**
 
-- sort by utilization
+When using the schedule assistant to book requirement groups, dispatchers have the option to sort results by utilization.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-utilization-schedule-assistant-sort.png)
+
 
 ## Additional Notes
 
-- sort by utilization
+- sort by utilization on schedule board
 
 
