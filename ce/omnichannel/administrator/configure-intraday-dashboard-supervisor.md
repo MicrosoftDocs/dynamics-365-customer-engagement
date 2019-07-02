@@ -159,17 +159,17 @@ To verify the creation of workspace in Power BI, follow these steps:
 
     -   An empty dashboard with the name of the workspace.
 
-    -   The report and datasets **IntradayMonitoring**.
+    -   The report and datasets **Intraday Monitoring**.
 
 ### Configure dashboards in Power BI
 
-Configuring the Power BI workspace provides you only the **IntradayMonitoring** report. Create the dashboard out of **IntradayMonitoring** Power BI report after it is available.
+Configuring the Power BI workspace provides you only the **Intraday Monitoring** report. Create the dashboard out of **Intraday Monitoring** Power BI report after it is available.
 
 > [!IMPORTANT]
-> In Power BI settings for **IntradayMonitoring**, DO NOT select the option **Take over**. If you select this option, the dataset will not connect to the datasource and you have to reconfigure intraday insights dashboards. 
+> In Power BI settings for **Intraday Monitoring**, DO NOT select the option **Take over**. If you select this option, the dataset will not connect to the datasource and you have to reconfigure intraday insights dashboards. 
 
 > [!NOTE]
-> If you want the dashboards with faster refresh rate, import the **LiveMonitoring** Power BI report. Pin tiles to the dashboard from this report for the metrics you want to view with faster refresh. This dashboard consists of Active and open conversations, Conversations exceeding 5 min wait time, Conversations exceeding 5 min handle time, Total conversations transferred, and Open conversations.
+> If you want the dashboards with faster refresh rate, import the **Live Conversations** Power BI report. Pin tiles to the dashboard from this report for the metrics you want to view with faster refresh. This dashboard consists of Active and open conversations, Conversations exceeding 5 min wait time, Conversations exceeding 5 min handle time, Total conversations transferred, and Open conversations.
 
 
 Follow these steps to configure Power BI dashboards.
