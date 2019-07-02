@@ -53,7 +53,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | From state | To state | Scenario  | Type (Chat and SMS) |
 |---------------|------------------|---------------------------------------------------------|------------|
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Chat and SMS |
-| Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
+| Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <!-- <br><br> When you release the conversation to the queue.--> <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation and you are no longer getting reply, you can close the session without ending the conversation. This will keep conversation in waiting state. |   Chat and SMS |
 <!--| Active        | In-progress      | When you close the session with conversation in active state.  | SMS  | 
 | Active        | Closed           | When you complete working on the conversation and end the conversation and close the session.| Chat |
