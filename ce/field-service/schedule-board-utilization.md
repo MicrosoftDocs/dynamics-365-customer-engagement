@@ -98,7 +98,7 @@ Matthew already has a 12 hour booking for one day, so his utilization % becomes 
 
 Though the field service process utilizes many field service booking statuses such as traveling, in progress, on break, and completed, each of those relate to a booking status of either **Committed**, **Proposed**, or **Canceled**. The purpose of a proposed status is to suggest work that needs to be confirmed and the canceled status is used to notify stakeholders that the booking is no longer scheduled. 
 
-As an example, the **In Progress** field service status is categorized as committed.
+As an example, the **In Progress** field service status is categorized as **committed** via the status field on the booking status entity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-in-progress-status.png)
@@ -117,9 +117,5 @@ When using the schedule assistant to book requirement groups, dispatchers have t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-schedule-assistant-sort.png)
 
-
-## Additional Notes
-
-- sort by utilization on schedule board
 
 
