@@ -94,15 +94,27 @@ Matthew already has a 12 hour booking for one day, so his utilization % becomes 
 
 ## Configuration considerations
 
-**Proposed bookings do not contribute to utilization**
+**Proposed and Canceled bookings do not contribute to utilization**
 
-Though the field service process utilizes many field service booking statuses such as traveling, in progress, on break, completed, etc, each of those relate to a booking status either **Committed** or **Proposed**. 
+Though the field service process utilizes many field service booking statuses such as traveling, in progress, on break, and completed, each of those relate to a booking status of either **Committed**, **Proposed**, or **Canceled**. The purpose of a proposed status is to suggest work that needs to be confirmed and the canceled status is used to notify stakeholders that the booking is no longer scheduled. 
 
-- what about proposed bookings?
-  - proposes bookings do not add to utilization
+As an example, the **In Progress** field service status is categorized as committed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-utilization-in-progress-status.png)
+
+Bookings that have a **proposed** booking status will not add to utilization. As seen in the image below, Brady was assigned a proposed booking but his utilization remained at 0%.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-utilization-proposed.png)
+
 
 **Sort schedule assistant results by utilization**
 
 - sort by utilization
+
 ## Additional Notes
+
+- sort by utilization
+
 
