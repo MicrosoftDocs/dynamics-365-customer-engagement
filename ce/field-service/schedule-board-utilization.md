@@ -44,9 +44,10 @@ Utilization is calculated and displayed on the schedule board for all versions o
 
 ## Hours view
 
-For each resource, utilization percentage (%) is derived from: **Total booked hours / Total working hours** 
+For each resource, utilization percentage (%) is derived from: **Total booked hours / Total working hours** in the schedule board time frame.
 
 **Total booked hours** = sum of the hours booked to the resource
+
 **Total working hours** = sum of the resource's working hours
 
 > [!Note]
@@ -75,14 +76,14 @@ If Matthew is booked a single 6 hour Work Order, then his utilization is 6 / 60 
 > ![Screenshot of ](./media/schedule-board-utilization-hourly-view-booked.png)
 
 
-If the duration of the Work Order is increased to 12 hours, then his utiliZation is 12 / 60 = 20%, as shown in his resource card below.
+If the duration of the Work Order is increased to 12 hours, then his utilization is 12 / 60 = 20%, as shown in his resource card below.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-hourly-view-booked-more.png)
 
 ## Days view
 
-In the Days view, the total working hours will be the sum of the hours seen on the Schedule Board.
+In the Days view, the total working hours will be the sum of the hours seen on the schedule board.
 
 In this case we see 10 days, so Matthew’s total working hours are 12 X 10 = 120 hours
 
@@ -103,7 +104,9 @@ As an example, the **In Progress** field service status is categorized as **comm
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-in-progress-status.png)
 
-Bookings that have a **proposed** or **canceled** booking status will not add to utilization. As seen in the image below, Brady was assigned a proposed booking but his utilization remained at 0%.
+Bookings that have a **proposed** or **canceled** booking status will not add to utilization. 
+
+As seen in the image below, Brady was assigned a proposed booking but his utilization remained at 0%.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-utilization-proposed.png)
