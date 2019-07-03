@@ -18,7 +18,7 @@ manager: kvivek
 
 # Finalizing registration for paid events 
 
-This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 for MArketing and triggers a custom action which finalizes the registration for paid events. Before going through the steps, make sure that you read and understand [Set up online payments for events](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
+This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 for Marketing and triggers a custom action which finalizes the registration for paid events. Before going through the steps, make sure that you read and understand [Set up online payments for events](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
 In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth) as authentication mechanism and [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action because this approach works universally with most programming languages and frameworks, which means that you’re not forced to use C# / .NET (Core) as your framework of choice for building a service that finalizes paid registrations. 
 
@@ -160,7 +160,7 @@ Implement the custom logic to authenticate against Dynamics 365 for Marketing. T
 > [!NOTE] 
 > For a fully working example, check the code from [Sample Code](#sample-code) section. More information: [How to authenticate against Dynamics 365](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
 
-```C# 
+```csharp
 public static string AuthenticateToDynamics365() 
 { 
   var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false); 
@@ -177,7 +177,7 @@ After the access token is successfully retrieved, we can call the custom action 
 >[!NOTE]
 > If you’re using a solution version prior to April Release 2019 the custom action is called `adx_FinalizeExternalRegistrationRequest` (different prefix). More information: [Calling custom actions with Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
-```C# 
+```csharp 
 private static HttpResponseMessage FinalizeRegistration(string accessToken) 
 { 
   using (var client = new HttpClient()) 
@@ -207,7 +207,7 @@ The following sample code shows how to authenticate and trigger the custom actio
 > [!NOTE]
 > You should not enter the client id and client secret values directly in code. This is only done to improve the readability of the sample code. 
  
-```C# 
+```csharp 
 class Program 
  { 
     /// <summary> 
