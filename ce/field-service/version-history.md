@@ -41,9 +41,9 @@ search.app:
 
 | Version Number  |  Release date  |  Notes | More details |
 |---|---|---|---|
-| 8.8  |  March 2019 |   | [Release notes for 8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/) |
-| 8.7  |  March 2019 |   | [Release notes for 8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/) |
-| 8.6  |  March 2019 |   | [Release notes for 8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/) |
+| 8.8  |  June 2019 |   | [Release notes for 8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/) |
+| 8.7  |  May 2019 |   | [Release notes for 8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/) |
+| 8.6  |  April 2019 |   | [Release notes for 8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/) |
 | 8.5  |  March 2019 |   | [Release notes for 8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/) |
 | 8.4  |  February 2019 |   | [Release notes for 8.4.0.338](https://blogs.msdn.microsoft.com/crm/2019/02/11/release-notes-for-field-service-version-8-4-0-338/) |
 | 8.3  |  December 2018 | SLA functionality for Work Orders, Connected Field Service solution included with Field Service   | [Release notes for 8.3.0.255](https://blogs.msdn.microsoft.com/crm/2018/12/21/release-notes-for-field-service-version-8-update-release-3/) |
