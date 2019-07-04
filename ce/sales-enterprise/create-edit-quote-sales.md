@@ -73,6 +73,9 @@ One way that can help you increase your sales is to add all products that your c
   
     -	**Price List** and **Currency**: The price list that will be used to calculate the product prices and currency.
 
+        > [!NOTE]
+        > By default, selecting a price list is required to be able to add products a quote. However, your administrator can change your organization settings to make the Price list field optional.
+
 4.	In the **Sales Information** section, in **Potential Customer**, enter information about the customer you're creating this quote for.
 
 5.	On the command bar, select **Save** to enable other sections on the form.

@@ -1,16 +1,16 @@
 ---
 title: "Add products to a quote, order, or invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 for Sales."
-keywords: product, quote, order, invoice
-ms.date: 09/24/2018
+keywords: "product, quote, order, invoice"
+ms.date: 08/01/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: c1f6f66e-25fe-4528-a2f3-f2a3a2e3830d
 author: shubhadaj
 ms.author: shujoshi
@@ -38,7 +38,14 @@ The process for adding a product to a quote record is the same as adding a produ
 
     1.	In the **Select Product** drop-down list, select whether you want to add an existing product or create a new one:
 
-        - To use an existing product, select **Lookup** to search for and add a product. Also, select a unit of measurement for the product.
+        - In the **Existing Product** field, select **Lookup** to search for and add a product. Also, select a unit of measurement for the product.
+
+          > [!NOTE]
+
+          > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the product associated with the selected price list are shown in this field. 
+          > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
+          > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
+          > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
 
         - To create a product, select **Write-In**, and then enter the name of the product.
 
@@ -54,7 +61,7 @@ The process for adding a product to a quote record is the same as adding a produ
 
         - **Tax**. If required, enter the appropriate tax amount. 
 
-4. Select **Save**.
+4. To save this product, and add more products, select **Save and New**.
 
 The **Products** grid shows all the products that are associated with the quote. After you add a product, you can change the unit, price, quantity, and discount of the product inline in the **Products** grid. For a write-in product, you can also change the price of the product in addition to the quantity and discount. 
 

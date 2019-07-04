@@ -2,7 +2,7 @@
 title: "Add products an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Develop your opportunity by defining the products your customers are interested in purchasing."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 04/10/2019
+ms.date: 08/01/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -31,7 +31,10 @@ A way that might help you increase your sales is to add all products that your c
 
 2. Go to the **Product Line Items** tab.
 
-3. Select a **Price List**. The price list determines the cost of the product. Selecting a price list is required to be able to add products to an opportunity. 
+3. Select a **Price List**. The price list determines the cost of the product. 
+  
+    > [!NOTE]
+    > By default, selecting a price list is required to be able to add products to an opportunity. However, your administrator can change your organization settings to make the Price list field optional.
 
 4. If you want the estimated revenue of the opportunity to be calculated based on the total amount of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 
@@ -42,7 +45,15 @@ A way that might help you increase your sales is to add all products that your c
     1.  **Select Product**: Set the switch to choose whether you want to add an existing product or create a new one:
     
         -  To use an existing product, select **Lookup** to search for and add a product.
-         
+
+            
+            > [!NOTE]
+
+            > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the product associated with the selected price list are shown in this field. 
+            > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
+            > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
+            > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
+       
         -  To create a product, select **Write-In**, and then enter the name of the product.
     
     2.  **Pricing**. Select the pricing option. By default, this is the per unit price that is listed in the product catalog. To override the catalog price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.   
@@ -53,7 +64,7 @@ A way that might help you increase your sales is to add all products that your c
     
     5.  **Tax**. If required, enter the appropriate tax amount.  
    
-7. Select **Save**.
+7. To save this product, and add more products, select **Save and New**.
 
 The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
 

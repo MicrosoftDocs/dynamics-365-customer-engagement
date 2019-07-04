@@ -2,7 +2,7 @@
 title: "Create or edit an order (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "A sales order is a quote that your customer has accepted."
 keywords: "Order, quote, accepted"
-ms.date: 05/03/2019
+ms.date: 08/01/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -77,18 +77,27 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
   
 2. Select **New**.  
   
-3. Add your customer's contact information.  
+3. On the **Order** form, enter data in the following required fields:
+
+    -	**Name** 
   
-4. To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and then select **OK**.  
+    -	**Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+
+        > [!NOTE]
+        > By default, selecting a price list is required to be able to add products to an order. However, your administrator can change your organization settings to make the Price list field optional.
+
+4. Add your customer's contact information.  
+  
+5. To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and then select **OK**.  
   
    > [!NOTE]
    >  You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] does not automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
   
-5. In the **Shipping Information** area, enter shipping details.  
+6. In the **Shipping Information** area, enter shipping details.  
   
-6. In the **Addresses** area, enter shipping and billing addresses.  
+7. In the **Addresses** area, enter shipping and billing addresses.  
   
-7. Select **Save** in the lower-right corner of the screen.  
+8. Select **Save** in the lower-right corner of the screen.  
   
 > [!NOTE]
 >  You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.  
