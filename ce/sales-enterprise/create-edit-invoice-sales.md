@@ -53,7 +53,6 @@ Typically, you convert an order into an invoice. However, you can also create an
 > Your base record and all its line items must use the same currency. For example, if your invoice has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the invoice. You can’t change the currency of the base record (in this case, an invoice), unless you remove all the line items associated with the record.
 > Similarly, if the invoice is created from an order that's created from a quote created from an opportunity , it must use the same currency as the opportunity.
   
-<a name="bkmk2"></a>   
 ## Create an invoice  
   
 1. [!INCLUDE[proc_sales_invoices](../includes/proc-sales-invoices.md)]  
@@ -63,20 +62,25 @@ Typically, you convert an order into an invoice. However, you can also create an
     In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Invoices**. 
   
 2. Select **New**.  
+
+3. On the **Invoice** form, enter data in the following required fields:
+
+    -	**Name** 
   
-3. Add your customer's contact information.  
+    -	**Price List** and **Currency**: Select the price list and the currency that will be used to calculate the product prices. 
+
+        > [!NOTE]
+        > By default, selecting a price list is required to be able to add products to an invoice. However, your administrator can change your organization settings to make the Price list field optional.
   
-4. Select **Save** in the upper-left corner to create the invoice record.  
+4. In the **Sales Information** section, in **Potential Customer**, select the customer you're creating this invoice for.
   
-5. To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and then select **OK**.  
+5. On the command bar, select **Save** to create the invoice record.  
   
-6. To add information about a product on the invoice, in the **Products** area, select **Add a Product** ![Add button](../sales-enterprise/media/add-button.PNG "Add button"), and then select one of the following options:  
+6. To add products from your opportunity to your order, select **Get Products** at the top of the screen, select your opportunity, and then select **OK**.  
   
-   - **Existing Product**: A product created in the product catalog that is associated with a price list  
-  
-   - **Write-in Product**: A product that is available but not a part of the product catalog  
-  
-   - **Get Products**: Products from a previously created opportunity  
+    -OR-
+    To manually add other products, in the **Products** section, select the **More commands** icon ![More commands icon](media/more-commands-button.png "More commands icon"), and then select **Add New Invoice Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
+    
   
      You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
   
