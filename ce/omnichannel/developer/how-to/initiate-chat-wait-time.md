@@ -20,7 +20,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 Follow these steps to start a chat:
 
-1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, call the [startChat](../reference/methods/startChat.md) method to initiate a chat.
 
 ## Sample code
@@ -38,7 +38,8 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 	console.log(errorEvent);
 });
 ```
-You might want to set up a rule that a chat widget will programmatically open after a user has been waiting on a website for a certain amount of time. Consider a situation in which a user of the website of Contoso Ltd. has been waiting for one minute.
+
+Consider a scenario where the customer is on your portal page, and you want to initiate chat once the customer has spent some time on the page. You can programmatically open the chat widget once the specified time has elapsed.
 
 ### See also
 
