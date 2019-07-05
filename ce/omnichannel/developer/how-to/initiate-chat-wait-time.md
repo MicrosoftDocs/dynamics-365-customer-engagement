@@ -38,7 +38,10 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 	console.log(errorEvent);
 });
 ```
-You might want to set up a rule that a chat widget will programmatically open after a user has been waiting on a website for a certain amount of time. Consider a situation in which a user of the website of Contoso Ltd. has been waiting for one minute.
+
+Consider a scenario, a customer is using your portal for some time, and you want to open the chat widget after specified amount of time. You can set up a rule such that the chat widget opens programmatically after a specified amount of time.
+
+For example, Bert Hair is on Constoso.com website (portal), and you've set up a rule such that chat widget should open after 1 minute. As Bert Hair is on the portal for more than a minute, the chat widget opens programmatically. 
 
 ### See also
 

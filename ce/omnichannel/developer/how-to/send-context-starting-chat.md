@@ -16,7 +16,7 @@ manager: shujoshi
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
-When a user initiates a chat, you can pass custom context to Omnichannel for Customer Service. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
+When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
 
 > [!IMPORTANT]
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
