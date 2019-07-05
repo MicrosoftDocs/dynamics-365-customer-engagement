@@ -41,8 +41,6 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 
 Consider a scenario where the customer is on your portal page, and you want to initiate chat once the customer has spent some time on the page. You can programmatically open the chat widget once the specified time has elapsed.
 
-For example, Bert Hair is on Constoso.com website (portal), and you've set up a rule such that chat widget should open after 1 minute. As Bert Hair is on the portal for more than a minute, the chat widget opens programmatically.
-
 ### See also
 
 [startChat](../reference/methods/startChat.md)<br />
