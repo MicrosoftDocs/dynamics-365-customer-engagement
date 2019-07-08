@@ -174,9 +174,9 @@
 ### [Create a custom event website]
 #### [Overview](developer/event-management-web-application.md)
 #### [Self-hosted](developer/self-hosted.md)
-#### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
 #### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
-#### [Finalizing registration for paid events](developer/finalizing-registration-for-paid-events.md)
+#### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
+#### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
 #### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
 #### [Localization](developer/event-portal-localization.md)
 #### Events API
