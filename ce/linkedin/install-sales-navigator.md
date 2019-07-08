@@ -2,7 +2,7 @@
 title: "Enable LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Enable the LinkedIn Sales Navigator for Dynamics 365 capabilities"
 keywords: "installation, setup, sales navigator"
-ms.date: 05/17/2019
+ms.date: 07/08/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -52,15 +52,14 @@ Here are a few things to consider if you don't plan to enable the integration.
 
 ## Newly created orgs and orgs without LinkedIn solutions
 
-After April 2019, we changed the way the LinkedIn Sales Navigator integration is rolled out to organizations. By default, no LinkedIn solutions are auto-installed anymore. An administrator needs to install the solution package from AppSource.
+After April 2019, we changed the way the LinkedIn Sales Navigator integration is rolled out to organizations. By default, no LinkedIn solutions are auto-installed anymore. An administrator needs to install the solution package before other users can work with them.
 
 ### To install the Sales Navigator integration
 
-1. Go to AppSource and select the [Dynamics 365 Sales LinkedIn Integration](https://appsource.microsoft.com/product/dynamics-365/mscrm.5ba43194-adc5-4c13-b40d-af04f549d5da?tab=Overview).
-2. Select **Get it now**. 
-3. If you aren't signed in to the target organization, sign in with your administrator credentials. 
-4. In the dialog, review the Terms of service and select **Get**.
-5. The solutions are added to the target organization. Follow the steps below to [Enable the default Sales Navigator controls](#enable-the-default-sales-navigator-controls).
+1. In Dynamics 365 for Sales, go to **Settings** > **Business Management**.
+2. Select **LinkedIn Sales Navigator**.
+3. In the new **Installation** tab that opens, select **Continue** to install the required solutions.
+4. When the installation is completed, select **Go to Configuration** and follow the steps below to [Enable the default Sales Navigator controls](#enable-the-default-sales-navigator-controls).
 
 ## Enable the default Sales Navigator controls
 
