@@ -107,7 +107,7 @@ Additionally, configuring the core Field Service scenario involves understanding
 #### Mobility
 - [Installation](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet)
 
-- [Overview of features and requirements](../field-service/field-service-mobile-overview)
+- [Overview of features and requirements](field-service-mobile-overview.md)
 
 - [Configure and customize](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/mobile-app-configuration-customization)
 
