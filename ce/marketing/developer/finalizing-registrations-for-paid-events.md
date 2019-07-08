@@ -18,16 +18,16 @@ manager: kvivek
 
 # Finalizing registration for paid events 
 
-This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 for Marketing and triggers a custom action which finalizes the registration for paid events. Before going through the steps, make sure that you read and understand [Set up online payments for events](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
+This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 for Marketing and triggers a custom action which finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand the concept [Set up online payments for events](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
-In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth) as authentication mechanism and [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action because this approach works universally with most programming languages and frameworks, which means that you’re not forced to use C# / .NET (Core) as your framework of choice for building a service that finalizes paid registrations. 
+In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth) as authentication mechanism and [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action, as this approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET (Core) for building the services that finalizes the paid registrations. 
 
 > [!NOTE]
-> If you decided to use the .NET framework for developing your service, you can use the Xrm tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 for Marketing. More information: [Authenticate .NET framework](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
+> If you choose to use .NET framework for developing your service, you can use the Xrm tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 for Marketing. More information: [Authenticate .NET framework](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
  
 ## Prerequisites 
 
-1. Create a .NET Core project. To keep the sample code for this demo as small as possible we will create a new .NET Core CLI project instead of a web application (but the code would be the same for any kind of project). 
+1. Create a .NET Core project. To keep the sample code for this demo as small as possible we will create a new .NET Core CLI project instead of a web application. 
 
 2. Install all the required dependencies.
 
@@ -35,27 +35,43 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/develo
    - [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) is used to simplify the authentication with OData. If you’re using a programming language that is not supported by this library, you need to use another library that supports you're programming language or take care of the authentication manually.
    - [Newtonsoft.Json]( https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
  
-## Step 1: Register your app 
+## Step 1: Register your application 
 
 Before we start to authenticate against Dynamics 365 for Marketing, we need to register the application in the Azure Active directory to get the authentication credentials. More information: [How to register an application in Azure Active Directory](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication). Follow the steps below to register you application:
 
 - Navigate to **Office 365 Admin center** by expanding the Admin center item in the left navigation pane, and select **Azure Active Directory**. 
  
 - Navigate to **Azure Active Directory** and then click on **App registrations** and **New registration**. 
+
+    ![Azure app registration](../media/azure-app-registration.png "Azure app registration")
  
-- Enter a name for your application. Then select your account type (in most of the cases this value will be “Accounts in any organizational directory”). You don’t need to add a redirect URI. 
+- Enter a name for your application. Select your account type (in most of the cases this value will be **Accounts in any organizational directory**). You don’t need to add a redirect URI. 
+ 
+    ![Supported account types](../media/supported-account-types.png "Supported account types")
+
 - Click on **Register**. 
 - After the application is registered, you should be redirected to the **Overview** page. Locate the **application ID** and **tenant ID** and note it down. 
 - Navigate to **Certificates & secrets** and click on **New Client secret**. Note down the client secret value.  
 
+    ![Certificates and secrets](../media/certificates-and-secrets.png "Certificates and secrets")
+
 ## Step 2: Create an application user 
 
-In the next step, we need to create an application user and associate it with the created application. More information: [Creating an application user](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication#application-user-creation) 
+In this step, create an application user and associate the application user with the created application. More information: [Creating an application user](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication#application-user-creation) 
 
 - Go to your Dynamics 365 for Marketing instance and navigate to **Settings -> Security** and then click on **Users**. 
-- Switch the view to **Application user** and click on **Create**. 
-- Make sure that **User: Application User** view is selected. If not, click on the dropdown and select **Application User** and then enter the username, application ID of the application that you registered before, name and an email.
-- Click on **Save**. After you save the record,  the **Application ID URI** and **Azure AD Object ID** values should be automatically filled. If not, make sure that you entered the correct application ID and that you registered your application correctly. 
+ 
+    ![Settings security users](../media/settings-secuirty-users.png "Settings-security-users")
+
+- Switch the view to **Application Users** and click on **New**. 
+
+    ![Application user form](../media/application-user-form.png "Application user form")
+
+- Make sure that **User: Application User** view is selected. If not, click on the dropdown and select **Application User** and then enter the **User Name**, **Application ID**, **Full Name** and **Primary Email** values.
+
+   ![Application user form sample](../media/application-user-form-sample.png "Application user form sample")
+
+- Click on **Save**. After you save the record, the **Application ID URI** and **Azure AD Object ID** values should be automatically filled. If not, make sure that you entered the correct application ID and that you registered your application correctly. 
 
 ## Step 3: Assign role to an application user 
 
@@ -153,7 +169,7 @@ If you’re using a version prior to August 2019 you have to create a security g
     <RolePrivilege name="prvWriteSharePointData" level="Global" />  
 ``` 
 
-## Step 4: Authenticate against Dynamics 365 for customer engagement
+## Step 4: Authenticate against Dynamics 365 for Marketing
 
 Implement the custom logic to authenticate against Dynamics 365 for Marketing. The outcome of the authentication should be an access token. If you’re not able to retrieve an access token, check your configuration. 
 
