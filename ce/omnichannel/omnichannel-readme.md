@@ -34,10 +34,15 @@ As an administrator, you must activate the **SDK Message Processing Steps** asso
 To workaround the issue, follow these steps:
 
 1. Sign in to Dynamics 365 for Customer Engagement apps.
+
 2. Go to **Settings** > **Customizations**.
-3. Select**Customize the System**.
+
+3. Select **Customize the System**.
+
 4. Select all the Omnichannel associated plugins.
+
 5. Select **Activate** from the command bar. The **Confirm Sdk Message Processing Step Activation** dialog appears. 
+
 6. Select **Activate** to enable the plugins.
 
 ## Messages repeated in the quick replies menu
