@@ -493,7 +493,7 @@ Now, when an agent selects the number in the contact or account page, based on t
 
 ## Generate Chrome Process crash report
 
-You must generate the reports when you want to investigate the Chrome Process crash in Unified Service Desk. To generate report, you must add the **ChromeEnableLogging** UII option and set the value as **True**.  The files are generated in the following location:
+You must generate the reports when you want to investigate the Chrome Process crash in Unified Service Desk. To generate the report, you must add the **ChromeEnableLogging** UII option and set the value as **True**.  The files are generated in the following location:
 
 `C:\Users\agent1\AppData\Roaming\Microsoft\USD`
 
