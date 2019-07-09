@@ -499,9 +499,9 @@ You must generate the reports when you want to investigate the Chrome Process cr
 
 ### Add the ChromeEnableLogging UII option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
 3. Choose **Options**.  
 
