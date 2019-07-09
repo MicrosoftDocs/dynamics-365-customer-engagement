@@ -68,8 +68,10 @@ When creating or editing a form, you'll be in the form designer, which is an exa
 Use the designer to add, configure, and arrange the various fields, buttons, and graphical elements that your form requires by working as follows:
 
 - Assemble your form by dragging fields and design elements from the **Toolbox** tab to the canvas.
-
 - Configure each element by selecting it and going to the **Properties** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design elements reference](content-blocks-reference.md)
+
+> [!TIP]
+> The **Toolbox** tab of the form designer shows each field for which a field mapping is established. If you don't see the field you are looking for, then you probably need to set up a mapping for it as described in [Create and manage input fields for use in forms](marketing-fields.md)
 
 The designer also provides the usual tools for editing the HTML code and viewing previews in various screen sizes and orientations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
@@ -87,7 +89,7 @@ Design element availability and requirements vary by form type, as outlined in t
 | **Reset button**                    | Yes               | No                      | Yes                      |
 | **Captcha**                          | Yes               | No                      | No                       |
 
-You can also view and edit the raw HTML code for the form by going to the **Designer** &gt; **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
+You can also view and edit the raw HTML code for the form by going to the **Designer** > **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
 
 When you're done designing your form, select **Check for errors** and to make sure you've included all the required content and settings. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
 
@@ -124,3 +126,9 @@ Use a form element to add a form to a landing page. After adding the element, yo
 When you're choosing which form the element will show, you can only choose forms whose type matches the type of marketing page you are working on (landing page, subscription center, or forward to a friend).
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
+
+### See also
+
+[Design your digital content](design-digital-content.md)  
+[Design elements reference](content-blocks-reference.md)  
+[Create input fields for forms](marketing-fields.md)

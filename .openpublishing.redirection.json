@@ -4957,6 +4957,11 @@
       "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/online/executeMultiple.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/online/executeMultiple",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/event-management-web-application.1.md",
+      "redirect_url": "event-management-web-application",
+      "redirect_document_id": false
     }
   ]
 }
