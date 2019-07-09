@@ -20,11 +20,14 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
 ## Example
 
-```JavaScript
-window.addEventListener("lcw:error", function handleLivechatErrorEvent(){
-               // Handle LiveChat error event
-});
+The sample code given below shows how the errorEvent is caught and how the error details are obtained.
 
+```JavaScript
+window.addEventListener("lcw:error", function (errorEvent) {
+    let errorDetail = errorEvent.detail; // Object containing details about the error event
+    let errorCode = errorEvent.detail.errorCode; // Error code corresponding to the error event
+    let errorDescription = errorEvent.detail.errorDescription; // Description of the error
+});
 ```
 ### See also
 

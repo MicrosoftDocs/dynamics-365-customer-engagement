@@ -25,6 +25,17 @@ Here are the error codes and error messages that are returned when using live ch
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 
+Given below is a sample errorEvent object that is raised when the context provider method execution fails.
+
+```JSON
+{
+    detail: {
+        errorCode: 1, // Error code corresponding to the error event
+        errorDescription: "Context provider method execution failed" // Description of the error
+    }
+}
+```
+
 ### See also
 
 [JavaScript API reference for Live chat SDK](../omnichannel-reference.md)<br />
