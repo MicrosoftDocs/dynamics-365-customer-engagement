@@ -80,7 +80,7 @@ In this step, create an application user and associate the application user with
 The last step is to assign the required security roles to the application user. You have to create a security group on your own. You need the following privileges: 
 
 > [!NOTE]
-> In the upcoming August 2019 release, a new security role which contains all required privileges to finalize registration will be introduced. To assign this role, click on **Manage roles** and select **Finalize RegistrationService**. 
+> In the upcoming August 2019 release, a new security role which contains all the required privileges to finalize the registration will be introduced. To assign this role, click on **Manage roles** and select **Finalize RegistrationService**. 
 
 
 ``` XML
