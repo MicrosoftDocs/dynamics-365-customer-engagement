@@ -39,7 +39,7 @@ All new Dynamics 365 for Customer Engagement environments (instances) and Common
 |---------|---------|
 |New Trial Dynamics 365 for Customer Engagement instances     | December 12, 2018         |
 |New Trial and Production Common Data Service environments     | February 2, 2019        |
-|New Production and Sandbox Dynamics 365 for Customer Engagement instances     | To be announced soon        |
+|New Production and Sandbox Dynamics 365 for Customer Engagement instances     | June 8, 2019       |
 
 ### Existing environments
 
