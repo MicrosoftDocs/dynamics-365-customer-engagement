@@ -2,7 +2,7 @@
 title: "Try Chat for Dynamics 365 | MicrosoftDocs"
 description: "Learn how you can try out Chat For Dynamics 365 to connect and engage with your customers in real time."
 keywords: "try, Chat, Chat for Dynamics 365, Trials, sign in, sign-in, login"
-ms.date: 07/01/2019
+ms.date: 07/09/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -28,11 +28,13 @@ Chat for Dynamics 365 is an engagement channel that enables your agents to conne
 
 1. Go to <https://portal.office.com> and sign in with the global administrator credentials. 
 
-2. Go to **Billing** > **Purchase Services**, and select **Add-on subscriptions**. 
+2. Go to **Billing** > **Purchase Services**, and select **Add-ons**. 
 
-    You'll see **Dynamics 365 for Customer Service Chat** under **Add-on subscriptions**. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant, otherwise the **Dynamics 365 for Customer Service Chat** option won't be visible.
+  ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
 
-    ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
+  You'll see **Dynamics 365 for Customer Service Chat Trial** under **Add-ons**. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant, otherwise the **Dynamics 365 for Customer Service Chat Trial** option won't be visible.
+
+  ![Dynamics 365 for Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 for Customer Service Chat Trial option")
     
 You can start a 30-day trial of Chat with 25 user licenses. After signing up for a trial, you must assign licenses of Chat to the users who need to engage with customers and provide support via Chat. This can be done by selecting one or more active users and editing their product licenses. After you're done, select **Save**.
 
