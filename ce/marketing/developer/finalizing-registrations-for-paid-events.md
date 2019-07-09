@@ -187,10 +187,10 @@ public static string AuthenticateToDynamics365()
   var credential = new ClientCredential(clientId, clientSecret); 
   var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result; 
   return authenticationResult.AccessToken; 
-   } 
+   }
 ``` 
  
-## Step 5: Call custom action to finalize registration 
+## Step 5: Calling custom action to finalize registration 
 
 After the access token is successfully retrieved, we can call the custom action `msevtmgt_FinalizeExternalRegistrationRequest`. 
 
@@ -200,117 +200,126 @@ After the access token is successfully retrieved, we can call the custom action 
 ```csharp 
 private static HttpResponseMessage FinalizeRegistration(string accessToken) 
 { 
-  using (var client = new HttpClient()) 
-   { 
-     client.BaseAddress = new Uri(organizationUrl); 
-     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); 
-     var finalizeRegistrationData = new Dictionary<string, string> 
-     { 
-       { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" }, 
-       { "ReadableEventId", "Paid_Event1479011247" }, 
-       { "UserId", "" } 
-     }; 
- 
-     var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData); 
-     var request = new HttpRequestMessage(HttpMethod.Post, "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest"); 
-     request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json"); 
-     request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken); 
-     return client.SendAsync(request).Result; 
-            } 
-        } 
+using (var client = new HttpClient()) 
+{ 
+ client.BaseAddress = new Uri(organizationUrl); 
+ client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); 
+ var finalizeRegistrationData = new Dictionary<string, string> 
+ { 
+   { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" }, 
+   { "ReadableEventId", "Paid_Event1479011247" }, 
+   { "UserId", "" } 
+ }; 
+ var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData); 
+ var request = new HttpRequestMessage(HttpMethod.Post, "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest"); 
+ request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json"); 
+ request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken); 
+ return client.SendAsync(request).Result; 
+		} 
+	}
 ``` 
  
 ## Sample Code 
 
-The following sample code shows how to authenticate and trigger the custom action to finalize the registration. 
+The following sample code shows how to authenticate and trigger the custom action to finalize the registration process for paid events. 
+
+> [!IMPORTANT]
+> In this example we have hard coded the `finalizeRegistrationData` method. In a real application, this data should be retrieved from the event website through the payment gateway to finalize registration service.
 
 > [!NOTE]
-> You should not enter the client id and client secret values directly in code. This is only done to improve the readability of the sample code. 
+> You should not enter either client id or client secret values directly in code. This is only done to improve the readability of the sample code. 
  
 ```csharp 
 class Program 
+{ 
+/// <summary> 
+/// The route to trigger the `msevtmgt_FinalizeExternalRegistrationRequest` custom action. 
+/// </summary> 
+private const string FINALIZE_REGISTRATION_ROUTE = "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest"; 
+
+/// <summary> 
+/// The base URL of your organization. 
+/// E.g.: https://contoso.crm.dynamics.com/ 
+/// </summary> 
+static string organizationUrl = "<org-url>"; 
+
+/// <summary> 
+/// The tenant ID (GUID) of your application. Can be retrieved from the overview section of your application in 
+/// Azure Active Directory. 
+/// </summary> 
+static string tenantId = "<tenant-id>"; 
+
+/// <summary> 
+/// The client ID (GUID) of your application which is used for authentication against Dynamics 365. 
+/// Can be retrieved from the overview section of your application in Azure Active Directory. 
+/// </summary> 
+static string clientId = "<client-id>"; 
+
+/// <summary> 
+/// The client secret that can be generated in the certificates & client secrets section in your 
+/// Azure Active Directory.  
+/// </summary> 
+static string clientSecret = "<client-secret>"; 
+static void Main(string[] args) 
  { 
-    /// <summary> 
-    /// The route to trigger the `msevtmgt_FinalizeExternalRegistrationRequest` custom action. 
-    /// </summary> 
-    private const string FINALIZE_REGISTRATION_ROUTE = "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest"; 
- 
-    /// <summary> 
-    /// The base URL of your organization. 
-    /// E.g.: https://contoso.crm.dynamics.com/ 
-    /// </summary> 
-    static string organizationUrl = "<org-url>"; 
- 
-    /// <summary> 
-    /// The tenant ID (GUID) of your application. Can be retrieved from the overview section of your application in 
-    /// Azure Active Directory. 
-    /// </summary> 
-    static string tenantId = "<tenant-id>"; 
- 
-    /// <summary> 
-    /// The client ID (GUID) of your application which is used for authentication against Dynamics 365. 
-    /// Can be retrieved from the overview section of your application in Azure Active Directory. 
-    /// </summary> 
-    static string clientId = "<client-id>"; 
- 
-    /// <summary> 
-    /// The client secret that can be generated in the certificates & client secrets section in your 
-    /// Azure Active Directory.  
-    /// </summary> 
-    static string clientSecret = "<client-secret>"; 
-    static void Main(string[] args) 
-     { 
-       var accessToken = AuthenticateToDynamics365(); 
-       var response = FinalizeRegistration(accessToken); 
-       if (response.IsSuccessStatusCode) 
-       { 
-         var result = response.Content.ReadAsStringAsync().Result; 
-         // Handle response.  
-         // The response contains an attribute called 'status' which indicates 
-         // if the registration was successful or not.  
-        } 
-        else 
-         { 
-           // Something went wrong.  
-           // This most probably means that there is an issue with your configuration. 
-         } 
- 
-         Console.WriteLine(response.StatusCode); 
-    } 
- 
- public static string AuthenticateToDynamics365() 
-  { 
-    var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false); 
-    var credential = new ClientCredential(clientId, clientSecret); 
-    var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result; 
-    return authenticationResult.AccessToken; 
-        } 
- 
+   var accessToken = AuthenticateToDynamics365(); 
+   var response = FinalizeRegistration(accessToken); 
+   if (response.IsSuccessStatusCode) 
+   { 
+	 var result = response.Content.ReadAsStringAsync().Result; 
+	 // Handle response.  
+	 // The response contains an attribute called 'status' which indicates 
+	 // if the registration was successful or not.  
+	} 
+	else 
+	 { 
+	   // Something went wrong.  
+	   // This most probably means that there is an issue with your configuration. 
+	 } 
+
+	 Console.WriteLine(response.StatusCode); 
+} 
+
+public static string AuthenticateToDynamics365() 
+{ 
+var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false); 
+var credential = new ClientCredential(clientId, clientSecret); 
+var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result; 
+return authenticationResult.AccessToken; 
+	} 
+
 private static HttpResponseMessage FinalizeRegistration(string accessToken) 
-  { 
-    using (var client = new HttpClient()) 
-     { 
-       client.BaseAddress = new Uri(organizationUrl); 
-       client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); 
- var request = CreateFinalizeRegistrationRequest(accessToken); 
- return client.SendAsync(request).Result; 
-     } 
-  } 
- 
- public static HttpRequestMessage CreateFinalizeRegistrationRequest(string accessToken) 
-  { 
-    var finalizeRegistrationData = new Dictionary<string, string> 
-     { 
-       { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" }, 
-       { "ReadableEventId", "Paid_Event1479011247" }, 
-       { "UserId", "" } 
-     }; 
- 
-       var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData); 
-       var request = new HttpRequestMessage(HttpMethod.Post, FINALIZE_REGISTRATION_ROUTE); 
-       request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json"); 
-       request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken); 
-       return request; 
-        } 
-    } 
+{ 
+using (var client = new HttpClient()) 
+ { 
+   client.BaseAddress = new Uri(organizationUrl); 
+   client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); 
+var request = CreateFinalizeRegistrationRequest(accessToken); 
+return client.SendAsync(request).Result; 
+ } 
+} 
+
+public static HttpRequestMessage CreateFinalizeRegistrationRequest(string accessToken) 
+{ 
+var finalizeRegistrationData = new Dictionary<string, string> 
+ { 
+   { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" }, 
+   { "ReadableEventId", "Paid_Event1479011247" }, 
+   { "UserId", "" } 
+ }; 
+
+   var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData); 
+   var request = new HttpRequestMessage(HttpMethod.Post, FINALIZE_REGISTRATION_ROUTE); 
+   request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json"); 
+   request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken); 
+   return request; 
+	} 
+}
 ``` 
+
+### See also
+
+[Self-hosted](self-hosted.md)<br />
+[Dynamics 365 Portal hosted](portal-hosted.md)<br/>
+[Localization](event-portal-localization.md)<br />
+[Host your custom event website on Azure](host-custom-event-website-on-azure.md)

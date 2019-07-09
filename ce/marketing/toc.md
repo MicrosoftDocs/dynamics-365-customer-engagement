@@ -173,14 +173,14 @@
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
 ### Create a custom event website
 #### [Overview](developer/event-management-web-application.md)
-### Self-hosted
-#### [Overview](developer/self-hosted.md)
-#### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
-### Dynamics 365 Portal hosted
-#### [Overview](developer/portal-hosted.md)
-#### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
-### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
-### [Localization](developer/event-portal-localization.md)
+#### Self-hosted
+##### [Overview](developer/self-hosted.md)
+##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
+#### Dynamics 365 Portal hosted
+##### [Overview](developer/portal-hosted.md)
+##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
+#### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
+#### [Localization](developer/event-portal-localization.md)
 #### Events API
 ##### [Using Events API](developer/using-events-api.md)
 ##### [Register your web application](developer/register-web-application-events-api.md)
