@@ -491,6 +491,30 @@ To create a Window Navigation Rule, follow the steps:
 
 Now, when an agent selects the number in the contact or account page, based on the window navigation rule, Chrome Process blocks or opens the application outside of Unified Service Client application.
 
+## Generate Chrome Process crash report
+
+You must generate the reports when you want to investigate the Chrome Process crash in Unified Service Desk. To generate report, you must add the **ChromeEnableLogging** UII option and set the value as **True**.  The files are generated in the following location:
+
+`C:\Users\agent1\AppData\Roaming\Microsoft\USD`
+
+### Add the ChromeEnableLogging UII option
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ChromeEnableLogging** for the **Name** field.
+
+7. Set **True** for the **Value** field.
+
+8. Select **Save**.
+
 
 ## Limitations
 
