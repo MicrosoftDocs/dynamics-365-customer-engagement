@@ -17,6 +17,8 @@
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
+### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+
 ### Administration settings
 #### [Open the administration settings](open-advanced-settings.md)
 #### [Organization settings](organization-settings.md)
@@ -147,8 +149,9 @@
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
-#### [Schedule and post messages on social media](social-posting.md)
+#### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
+#### [Schedule and post messages on social media](social-posting.md)
 #### [Get social-listening insights](social-listening.md)
 
 ### [Work with marketing calendars](marketing-calendar.md)
