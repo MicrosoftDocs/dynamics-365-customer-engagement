@@ -17,7 +17,7 @@ manager: shujoshi
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
 
-When a customer initiates a chat, you can pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
+To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
 
 > [!IMPORTANT]
 > In the payload of the JSON Web Token (JWT) token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
