@@ -104,6 +104,9 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
 
+> [!IMPORTANT]
+> The HTML code for marketing pages published to the portal must be less than 64 KB in size (not including placed images or imported scripts). You'll get an error if you try to publish designs that are larger than this.
+
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
 ### Establish marketing page templates
@@ -139,9 +142,7 @@ To view form submissions and analytics about page usage and performance:
 
 1. Go to **Marketing** > **Internet Marketing** > **Marketing Pages** and use the search, sort, and filtering controls to find the page you want to inspect.
 
-1. Use the drop-down list above the marketing-page name to switch to the **Insights** entity form.
-
-    ![The form selector menu](media/form-selector-insights.png "Choose Insights from the form selector")
+1. Go to the **Insights** tab.
 
 1. Explore the various tabs and displays here to view submissions and gain insights.
 
