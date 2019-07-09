@@ -463,7 +463,7 @@ When using Chrome Process, you might want to block the skype or telephone protoc
 
 Add the URL in the Window Navigation Rules and set the **Action** to **None** to block the navigation and set **Show Outside** to show the application outside of Unified Service Desk client application.
 
-For example, you've integrated a softphone with Unified Service Desk and using the Chrome Process hosting type to host web applications. Now, when a agent selects the phone number in the contact or account page, you want to initiate a call using the softphone instead of Skype. Now, create the window navigation rule and set the **Action** to **None** to block skype protocol. Now, you can create specific action calls to initiate the call using the softphone.
+For example, you've integrated a softphone with Unified Service Desk and using the Chrome Process hosting type to host web applications. Now, when an agent selects the phone number in the contact or account page, you want to initiate a call using the softphone instead of Skype. Now, create the window navigation rule and set the **Action** to **None** to block skype protocol. Now, you can create specific action calls to initiate the call using the softphone.
 
 To create a Window Navigation Rule, follow the steps:
 
@@ -481,8 +481,8 @@ To create a Window Navigation Rule, follow the steps:
 
   | Tab |  Field | Value |
   |-------------------|------------------------------------------------|--------------------------------------------------|
-  | General | Name | Telephone Protocol or Skype Protocol |
-  | General | Url | tel: or skype: |
+  | General | Name | Telephone Protocol <br><br> or <br><br> Skype Protocol |
+  | General | Url | tel: <br><br> or <br><br> skype: |
   | Result | Route Type | Popup |
   | Result | Action | None or Show Outside |
   | Result | Destination | Tab |
