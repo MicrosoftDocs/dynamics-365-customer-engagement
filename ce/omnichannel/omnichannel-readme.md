@@ -22,6 +22,24 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
+
+## Closed conversations don't appear in Closed work items view
+
+After you upgrade Omnichannel for Customer Service to the latest version in the sandbox or trail environment, conversations that agent closes don't appear in the **Closed work items** stream of the agent dashboard.
+
+### Workaround
+
+As an administrator, you must activate the **SDK Message Processing Steps** associated to Omnichannel solution.
+
+To workaround the issue, follow these steps:
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+2. Go to **Settings** > **Customizations**.
+3. Select**Customize the System**.
+4. Select all the Omnichannel associated plugins.
+5. Select **Activate** from the command bar. The **Confirm Sdk Message Processing Step Activation** dialog appears. 
+6. Select **Activate** to enable the plugins.
+
 ## Messages repeated in the quick replies menu
 
 When you open the quick replies menu in the communication panel (Chat and SMS), you see the messages are repeated multiple times.
