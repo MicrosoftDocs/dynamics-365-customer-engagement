@@ -27,7 +27,7 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/develo
  
 ## Prerequisites 
 
-1. Create a .NET Core project. To keep the sample code for this demo as small as possible we will create a new .NET Core CLI project instead of a web application. 
+1. Create a .NET Core CLI project. 
 
 2. Install all the required dependencies.
 
@@ -39,7 +39,7 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/develo
 
 Before we start to authenticate against Dynamics 365 for Marketing, we need to register the application in the **Azure Active Directory** to get the authentication credentials. More information: [How to register an application in Azure Active Directory](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/use-single-tenant-server-server-authentication). 
 
-Follow the steps below to register you application:
+Follow the steps below to register your application:
 
 - Navigate to **Office 365 Admin center** by expanding the **Admin centers** tab in the left navigation pane, and click on **Azure Active Directory**. 
  
@@ -75,11 +75,13 @@ In this step, create an application user and associate the application user with
 
 - Click on **Save**. After you save the record, the **Application ID URI** and **Azure AD Object ID** values should be automatically filled. If not, make sure that you entered the correct application ID and that you registered your application correctly. 
 
-## Step 3: Assign role to an application user 
+## Step 3: Assigning a security role to an application user 
 
-The last step is to assign the required privileges to the application user. The August 2019 Release introduces a new security role which contains all required privileges to finalize registration. To assign this role, click on **Manage roles** and select **Finalize RegistrationService**. 
+The last step is to assign the required security roles to the application user. You have to create a security group on your own. You need the following privileges: 
 
-If you’re using a version prior to August 2019 you have to create a security group on your own. You need the following privileges: 
+> [!NOTE]
+> In the upcoming August 2019 release, a new security role which contains all required privileges to finalize registration will be introduced. To assign this role, click on **Manage roles** and select **Finalize RegistrationService**. 
+
 
 ``` XML
     <RolePrivilege name="prvAppendContact" level="Global" /> 
@@ -218,7 +220,7 @@ private static HttpResponseMessage FinalizeRegistration(string accessToken)
         } 
 ``` 
  
-### Sample Code 
+## Sample Code 
 
 The following sample code shows how to authenticate and trigger the custom action to finalize the registration. 
 
