@@ -515,6 +515,13 @@ You must generate the reports when you want to investigate the Chrome Process cr
 8. Select **Save**.
 
 
+## Use window.IsUSD property to invoke Unified Service Desk event
+
+With Chrome Process, if you use the `window.IsUSD` property in your JavaScript code, you must use it on the predefined events like **pageReady** and **BrowserDocumentComplete** to determine whether the JavaScript code is running under Unified Service Desk or not.
+
+When you use the property on the Unified Service Desk predefined events, the property returns true. Otherwise, it returns false.
+
+
 ## Limitations
 
 To learn about the limitations of the Chrome Process, see [Chrome Process limitations](release-notes.md)
