@@ -457,9 +457,9 @@ After adding the UII option, if you set to false or leave the value empty, the U
 
 When using Chrome Process to host web applications in Unified Service Desk, if you want to set the focus on the webpage automatically, then you must create an action call with action as **RunScript** and **Data** with a JavaScript function - `window.top.USDChromeSetFocus()`. After you create the action call, add it to the **PageReady** event in case of **Unified Interface Page** and the **BrowserDocumentComplete** event in case of the **CRM Page** hosted control.
 
-## Block telephone and skype protocol navigation
+## Handle URI protocol in Chrome Process
 
-When using Chrome Process, you might want to block the skype or telephone protocol navigation inside Unified Service Desk client application or want to open the application in a separate window outside of Unified Service Desk client application. Use the Window Navigation Rules to block or open the application outside of Unified Service Desk client application. 
+When using Chrome Process, you might want to block the protocol navigation inside Unified Service Desk client application or want to open the application in a separate window outside of Unified Service Desk client application. Use the Window Navigation Rules to block or open the application outside of Unified Service Desk client application. 
 
 Add the URL in the Window Navigation Rules and set the **Action** to **None** to block the navigation and set **Show Outside** to show the application outside of Unified Service Desk client application.
 
