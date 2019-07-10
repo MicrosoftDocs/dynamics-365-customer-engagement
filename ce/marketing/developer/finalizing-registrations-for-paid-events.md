@@ -230,91 +230,110 @@ The following sample code shows how to authenticate and trigger the custom actio
 > You should not enter either client id or client secret values directly in code. This is only done to improve the readability of the sample code. 
  
 ```csharp 
-class Program 
-{ 
-/// <summary> 
-/// The route to trigger the `msevtmgt_FinalizeExternalRegistrationRequest` custom action. 
-/// </summary> 
-private const string FINALIZE_REGISTRATION_ROUTE = "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest"; 
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text;
 
-/// <summary> 
-/// The base URL of your organization. 
-/// E.g.: https://contoso.crm.dynamics.com/ 
-/// </summary> 
-static string organizationUrl = "<org-url>"; 
+namespace TriggerFinalizeRegistration
+{
+    class Program
+    {
+        /// <summary>
+        /// The route to trigger the `msevtmgt_FinalizeExternalRegistrationRequest` custom action.
+        /// </summary>
+        private const string FINALIZE_REGISTRATION_ROUTE = "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest";
 
-/// <summary> 
-/// The tenant ID (GUID) of your application. Can be retrieved from the overview section of your application in 
-/// Azure Active Directory. 
-/// </summary> 
-static string tenantId = "<tenant-id>"; 
+        /// <summary>
+        /// The base URL of your organization.
+        /// E.g.: https://contoso.crm.dynamics.com/
+        /// </summary>
+        static string organizationUrl = "<org-url>";
 
-/// <summary> 
-/// The client ID (GUID) of your application which is used for authentication against Dynamics 365. 
-/// Can be retrieved from the overview section of your application in Azure Active Directory. 
-/// </summary> 
-static string clientId = "<client-id>"; 
+        /// <summary>
+        /// The tenant ID (GUID) of your application. Can be retrieved from the overview section of your application in
+        /// Azure Active Directory.
+        /// </summary>
+        static string tenantId = "<tenant-id>";
 
-/// <summary> 
-/// The client secret that can be generated in the certificates & client secrets section in your 
-/// Azure Active Directory.  
-/// </summary> 
-static string clientSecret = "<client-secret>"; 
-static void Main(string[] args) 
- { 
-   var accessToken = AuthenticateToDynamics365(); 
-   var response = FinalizeRegistration(accessToken); 
-   if (response.IsSuccessStatusCode) 
-   { 
-	 var result = response.Content.ReadAsStringAsync().Result; 
-	 // Handle response.  
-	 // The response contains an attribute called 'status' which indicates 
-	 // if the registration was successful or not.  
-	} 
-	else 
-	 { 
-	   // Something went wrong.  
-	   // This most probably means that there is an issue with your configuration. 
-	 } 
+        /// <summary>
+        /// The client ID (GUID) of your application which is used for authentication against Dynamics 365.
+        /// Can be retrieved from the overview section of your application in Azure Active Directory.
+        /// </summary>
+        static string clientId = "<client-id>";
 
-	 Console.WriteLine(response.StatusCode); 
-} 
+        /// <summary>
+        /// The client secret that can be generated in the certificates & client secrets section in your
+        /// Azure Active Directory. 
+        /// </summary>
+        static string clientSecret = "<client-secret>";
 
-public static string AuthenticateToDynamics365() 
-{ 
-var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false); 
-var credential = new ClientCredential(clientId, clientSecret); 
-var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result; 
-return authenticationResult.AccessToken; 
-	} 
+        static void Main(string[] args)
+        {
+            var accessToken = AuthenticateToDynamics365();
+            var response = FinalizeRegistration(accessToken);
 
-private static HttpResponseMessage FinalizeRegistration(string accessToken) 
-{ 
-using (var client = new HttpClient()) 
- { 
-   client.BaseAddress = new Uri(organizationUrl); 
-   client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); 
-var request = CreateFinalizeRegistrationRequest(accessToken); 
-return client.SendAsync(request).Result; 
- } 
-} 
+            if (response.IsSuccessStatusCode)
+            {
+                var result = response.Content.ReadAsStringAsync().Result;
+                // Handle response. 
+                // The respones contains an attribute called 'status' which indicates
+                // if the registration was successful or not. 
+            }
+            else
+            {
+                // Something went wrong. 
+                // This most probably means that there is an issue with your configuration.
+            }
 
-public static HttpRequestMessage CreateFinalizeRegistrationRequest(string accessToken) 
-{ 
-var finalizeRegistrationData = new Dictionary<string, string> 
- { 
-   { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" }, 
-   { "ReadableEventId", "Paid_Event1479011247" }, 
-   { "UserId", "" } 
- }; 
+            Console.WriteLine(response.StatusCode);
+        }
 
-   var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData); 
-   var request = new HttpRequestMessage(HttpMethod.Post, FINALIZE_REGISTRATION_ROUTE); 
-   request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json"); 
-   request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken); 
-   return request; 
-	} 
+        public static string AuthenticateToDynamics365()
+        {
+            var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false);
+            var credential = new ClientCredential(clientId, clientSecret);
+
+            var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result;
+
+            return authenticationResult.AccessToken;
+        }
+
+        private static HttpResponseMessage FinalizeRegistration(string accessToken)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(organizationUrl);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var request = CreateFinalizeRegistrationRequest(accessToken);
+
+                return client.SendAsync(request).Result;
+            }
+        }
+
+        public static HttpRequestMessage CreateFinalizeRegistrationRequest(string accessToken)
+        {
+            var finalizeRegistrationData = new Dictionary<string, string>
+            {
+                { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" },
+                { "ReadableEventId", "Paid_Event1479011247" },
+                { "UserId", "" }
+            };
+
+            var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData);
+            var request = new HttpRequestMessage(HttpMethod.Post, FINALIZE_REGISTRATION_ROUTE);
+            request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json");
+            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            return request;
+        }
+    }
 }
+
 ``` 
 
 ### See also
