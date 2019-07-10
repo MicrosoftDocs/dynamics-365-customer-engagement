@@ -70,7 +70,6 @@ The Chat for Dynamics 365 service is available in the following regions currentl
 - North America 
 - Europe
 - Canada
-- Government Cloud Computing (GCC)
 
 For the service to work, your tenant and organization have to be co-located in one of these regions.
 
