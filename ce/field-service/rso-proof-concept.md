@@ -27,6 +27,9 @@ search.app:
 
 # Setting up a proof of concept for Resource Scheduling Optimization
 
+> [!Note]
+> This topic assumes a working knowledge of Resource Scheduling Optimization. See the "See also" section at the end of this topic for links to learn more about RSO.
+
 Setting up a proof of concept (POC) for Resource Scheduling Optimization (RSO) should follow some basic guidance, and include the following stages: 
 
 1. **Discovery**, where you learn about customer needs and expectations
@@ -113,7 +116,7 @@ Addresses should be geocoded on import. To make sure this happens, go to **Resou
 On that same screen, go to the **Resource Scheduling Optimization** tab, and set **Enable Resource Scheduling Optimization** to **Yes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the enable resource scheduling setting set to yes](./media/rso-poc-address2) 
+> ![Screenshot of the enable resource scheduling setting set to yes](./media/rso-poc-address2.png) 
 
 Addresses will then be automatically geocoded. If you're working with a small amount of address data, you can geocode them manually as well.
 
@@ -234,16 +237,96 @@ You can see the related time off entries by going to the **Resource Record** > *
 > ![Screenshot of new time off request record.](./media/rso-poc-timeoff.png) 
 
 ## Running simulations
+
+Now that we've had a look at types of data that will make for a useful POC, let's take a look at what to do once the data is imported and ready to go. 
+
 ### Simulating a period of time
+
+ RSO's resource optimization engine schedules requirements from the current point in time as far in the future as you specify using the **Range Offset** and the **Range Durations** values defined in the Optimization Scope. Since RSO only looks to the future, the provided data can't have scheduling windows in the past, and you will need to modify any dates provided. 
+ 
+ > [Note!]
+ > This is not as simple as adding 30, 60, or 90 days to the existing dates, as weekdays in a prior month may fall on a weekend in a future month. Be sure to validate how you manage the dates with your customer or prospect and insure there is a clear understanding of the time period you will use in the POC.
+
 ### Scheduling initial data
+
+With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run RSO to the first of the month or period you want to schedule. For example, if running for the month of January on December 16th, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 thru January 31st.
+
+For more detailed information about setting up optimization schedules, see [this topic on on the subject](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).  
+
+
 ### Receiving disruptors
-### Defining Views and Schedules
+
+A good RSO POC will include a data set with a mix of predictive and reactive requirements. To simulate a typical service company's activity, you might expect disruptors representing service calls for an hour or a day. A second scope could then address a shorter period of time, which would optimize the subsequent data representing service calls or these other types of disruptors. This second scope could also re-optimize previously scheduled work along with the new set of service calls. All of this also allows RSO to run more efficiently by using smaller data sets.
+
+Review with the customer, setting clear expectations regarding the different goals of predictive (maintenance) requirements and reactive (service calls) requirements. We've seen that customers might expect a single RSO run to address all their needs, but that won't provide the best results. Be sure to discuss this early on in the POC. 
+
+
+### Defining views and schedules
+
+It's helpful to create views that are used by RSO to filter the data being considered for optimization. These views are combined in the optimization scheduled for specific resources, requirements, and bookings. Consider views that filter data to specific territories. This allows you to associate different goals and objectives to specific territories. For example, a rural area might optimize once a week, whereas a more congested area might optimize on an hourly basis; rural areas frequently have longer drive times that are less subject to change than congested areas, where a schedule or route changes more frequently. 
+
 ### Defining goals with specific constraints and objectives
+
+You can also define how bookings should be optimized. The goal of the RSO engine is to process a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route and list of bookings for the resources. Bookings can be considered optimally scheduled if they:
+
+- Meet all company constraints
+- Have the highest possible score for the company’s objectives
+
+Let's take a look at some constraints and objectives.
+
 #### Constraints
+
+- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. 
+- **Meets Required Characteristics**: Verifies the resource has all the required characteristics and should have minimum required skill level. 
+- **Scheduling Lock Option**: If checked, this will respect lock options configured on a booking record.
+- **Scheduling Windows**:  RSO will schedule work to comply within the time window start and end fields on the resource requirement or booking record. 
+- **Restricted Resources**:  If marked, RSO will not schedule a restricted resource to the booking. 
+
+
 #### Objectives
-#### Simulations
-#### Schedule Board Optimization, selected resources
+
+- **Maximize total working hours**: The combination of the engine results (iteration) with the total highest aggregate work time will best meet this objective.
+- **Minimize total travel time**: The version of the engine results (iteration) with the total lowest aggregate travel time will best meet this objective. 
+
+> [!Note] 
+> **Minimize total travel time** can't be the first objective in the list. RSO might not schedule anything with the travel time of 0 minutes in order to meet the first objective. 
+
+- **Locked bookings**: Once a booking is created, a lock can be set on the scheduling lock options field in the RSO section of the booking. The options are **Time Range**, **Resource**, **Time**, and **Resource and Time**. 
+- **High priority requirements**: RSO will evaluate this objective and give priority to the resource and booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is. For example, set **Level of Importance** to **10** for urgent priority and set **Level of Importance** **1** for low priority; RSO will score 1 urgent requirement the same as 10 low-priority requirements because both scores are 10. 
+
+
+### Simulations
+
+RSO includes the ability to run simulations or "What If" scenarios. In an optimization schedule, Set **Run as Simulation** to **Yes** and when the schedule runs, it will create soft bookings with a Booking status of **Simulations- RSO**. These will show on the schedule board as a white booking. They can then be turned into hard bookings should a simulation meet specific requirements and it is deemed the best option. The simulations should also be deleted should they not meet expectations. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an optimization schedule with Run as Simulation highlighted](./media/rso-poc-simulations.png) 
+
+### Schedule board optimization, selected resources
+
+From the schedule board, you can open the detail pane and select **Optimize**. Here you select to reoptimize one or more resources. This allows for the re-optimization of a single person, should they be assigned a disruptor that takes them some distance from the previously defined route. By optimizing a single resource, RSO can run more quickly and be more focused. You can also select a default goal, which allows for even more control over the schedule. Be sure to include this in your POC planning as it addresses several real-world problems dispatchers face daily.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a schedule details pane, on the Optimization tab, showing the optimization settins available](./media/rso-poc-scheduleboard.png) 
+
 
 ## Presenting results
 ### Reporting on the success criteria
-### Reviewing Routes and Booking details
+
+There are several ways to present the results of an RSO POC, including Excel spreadsheets or PowerBI dashboards. However, we don't recommended that you simply supply the customer a report showing success criteria, as this does not reflect the true value of RSO. As we've covered, defining a detailed POC plan and engaging with the customer to participate in the POC is key. 
+
+Whatever method you use, make sure that you tailor the results to address business needs uncovered during discovery, and walk them through what this POC has shown them about their business processes.
+
+
+### Reviewing routes and booking details
+
+Reviewing specific routes with the customer is another good way to drill into the differences achieved with different goals and objectives. By selecting a few specific **Resources** and **Territories**, you can run RSO schedules and output resulting bookings for comparison. Run RSO with different goals and objectives then compare the same resource and territory to determine the objective that best meets the requirements. Be sure to point out these requirements may vary based on many factors such as time of the month, priority of the requirements, and controlling overtime, just to name a few possibilities. Identify these routes before you start and understand the criteria you will be reviewing with the customer or prospect up front, so expectations are clear.
+
+## See also
+
+For more information about RSO, how it works, and how to use it, check out our following documenation:
+
+- [Resource Scheduling Optimization overview](rso-overview.md)
+- [Configuring Resource Scheduling Optimization](rso-configuration.md)
+- [Scheduling optimization in RSO](rso-schedule-optimization.md)
+- [RSO frequently asked questions](rso-faq.md)
