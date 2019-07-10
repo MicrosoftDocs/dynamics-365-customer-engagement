@@ -69,6 +69,14 @@ If you don't want to remove the favorites bar for the Internet Explorer, add the
 > [!Note]
 > The mitigation works for the issue with HRESULT: 0x8150002E.
 
+### Document Object Model (DOM) access in Chrome Process
+
+With Chrome Process, you can't access the DOM element from the C3 custom code. 
+
+#### Workaround
+
+To work around, you must write JavaScript code to access the DOM and execute the RunScript action on it.
+
 ### Window Navigation Rules for Advanced Find does not work
 
 When you use Unified Service Desk with the Unified Interface apps, Window Navigation Rules for the Advanced Find page might not work as the page is available only on Web Client and hence you must retain the route type as **Popup**.
