@@ -153,7 +153,9 @@ Window navigation rule for different entity navigation, you can change the windo
 
 #### Add the BlockChromeProcessSecondInlineNavigation UII option
 
-By default, second inline navigation is blocked when using Chrome Process. To disable, create the UII option and set the value as **False**.
+By default, second inline navigation is blocked when using Chrome Process. That is, the option is enabled by default. However, if you want to allow the second inline navigation, that is, disable the option, create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**. 
+
+After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
