@@ -23,7 +23,7 @@ The topic explains the known issues and limitations of Omnichannel for Customer 
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
 
 
-## Closed conversations don't appear in Closed work items stream and Closed conversations view
+## Closed conversations don't appear in the Closed work items stream and Closed conversations view
 
 After you upgrade Omnichannel for Customer Service to the latest version in the sandbox or trial environment, conversations that agent closes don't appear in the **Closed work items** stream of the agent dashboard and closed conversations view.
 
