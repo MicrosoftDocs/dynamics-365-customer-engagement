@@ -52,7 +52,7 @@ First, you'll want to make sure that the customer has the right level of expecta
 
 No two organizations run the exact same way, so understanding how your clients use data is critical to running a successful POC. This means you want to work with real data for this run. Make sure to understand *how* they are using their data and for what business reasons.
 
-The data that your client may provide, such as work orders or cases, will result in a requirement record when imported. This means that other entities than just work orders can be configured as schedulable entities during this POC run. For example, if training or time off is a important for the client, create a custom entity and import that type of record along with the typical transactional data like a work order. 
+The data that your client may provide, such as work orders or cases, will result in a requirement record when imported. This means that entities other than just work orders can be configured as schedulable entities during this POC run. For example, if training or time off is important for the client, create a custom entity and import that type of record along with the typical transactional data like a work order. 
 
 Here are a few questions to ask clients that will help tailor the RSO POC: 
 
@@ -76,7 +76,7 @@ Be sure that what the cusomter is asking for is something we can actually measur
 
 Also, understand the data in terms of dates and timeframes. It’s common to receive a data set from prior periods where the expectation is the customer can compare the RSO results to what really happened. This is difficult because RSO cannot schedule in the rears. If you simply add days to the dates provided, remember that a week day in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
 
-You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. RSO can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as promise from and promise to date on the work order, or by setting the start date and end dates on a requirement. You'll often see examples such as “next day before 12:00 PM” or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. 
+You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. RSO can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as Time From Promised and Time To Promised fields on the work order, or by setting the start date and end dates on a requirement. You'll often see examples such as “next day before 12:00 PM” or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. 
 
 Whatever you choose, be sure the result is a date window that can be acted upon by RSO. RSO will only consider these requirements within that date window. If not scheduled, these requirements will not be considered in future RSO runs targeting dates outside that time frame. Have a plan to address those requirements with small scheduling windows, or have a process to push the scheduling window forward as you do subsequent RSO runs. 
 
