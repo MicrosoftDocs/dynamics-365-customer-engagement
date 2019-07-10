@@ -32,16 +32,11 @@ You can deploy Omnichannel for Customer Service solution over a Customer Engagem
 
 This section explains the pre-requisites for using Omnichannel for Customer Service.
 
-### Licensing requirement of Office 365
+### Licensing
 
-Your organization needs the following Office 365 license:
+- You must have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant for each Chat user.
 
-- Office 365 Enterprise E1 plan or a higher plan. To learn more, see [Office 365 Business Plans](https://products.office.com/en-US/business/compare-more-office-365-for-business-plans).
-
-> [!NOTE]
-> - You must assign the Office 365 Enterprise E1 plan or a higher plan licenses to the Omnichannel users.
->
-> - To assign the licenses, you must have the **Global Tenant Admin** access. 
+- Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
 ## System and hardware requirements of Omnichannel for Customer Service with web experience
 

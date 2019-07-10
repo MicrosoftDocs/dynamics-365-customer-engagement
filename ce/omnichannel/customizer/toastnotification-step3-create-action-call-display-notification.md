@@ -44,7 +44,7 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
  | Tab             | Field           | Value                       |
  |-----------------|-----------------|-----------------------------|
- | General | General | Name            | Show Session Assignment Toast Notification          |
+ | General | Name            | Show Session Assignment Toast Notification          |
  | General | Order           | 10                          |
  | General | Hosted Control  | Omnichannel Toast Notification   |
  | General | Action          | Show           |
