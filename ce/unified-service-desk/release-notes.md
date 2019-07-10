@@ -47,11 +47,15 @@ You can work around the issue in two ways:
 
 ##### Remove the Favorites Bar from the Internet Explorer
 
+You must remove the favorites bar from the Internet Explorer, and then end all the IE Process manually before restarting the Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
+
 1. Open the Internet Explorer.
 2. Right-click on the Favorites bar. The context menu appears.
 3. Select **Favorites bar** to disable.
 
 ##### Add the KillUSDIEProcessesOnExit UII option
+
+If you don't want to remove the favorites bar for the Internet Explorer, add the **KillUSDIEProcessesOnExit** UII option and set the value to true. Setting the UII option ends all the IE Process running in the background at the time of exiting Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
