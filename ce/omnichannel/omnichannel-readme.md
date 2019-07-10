@@ -42,7 +42,7 @@ To workaround the issue, follow these steps:
 4. Select all the Omnichannel associated plugins. See the image to select the Omnichannel associated plugins.
 
     > [!div class='mx-imgBorder']
-    > ![Omnichannel plugins](media/oceh/omnichannel-plugins-1-test.PNG "Omnichannel plugins")
+    > ![Omnichannel plugins](media/oceh/omnichannel-plugins-1.PNG "Omnichannel plugins")
 
 5. Select **Activate** from the command bar. The **Confirm Sdk Message Processing Step Activation** dialog appears. 
 
