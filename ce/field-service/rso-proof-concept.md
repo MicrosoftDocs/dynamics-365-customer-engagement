@@ -42,7 +42,7 @@ Setting up a proof of concept (POC) for Resource Scheduling Optimization (RSO) s
 
 ## Discovery
 
-A collaborative RSO proof of concept should engage a client to actively work with the optimizer rather than simply comparing feautres on paper. Setting up a useful discovery phase for your RSO proof of concept means understanding your client's needs, defining success criteria, and making sure they have the right expectations going in. 
+A collaborative RSO proof of concept should engage a client to actively work with the optimizer rather than simply comparing features on paper. Setting up a useful discovery phase for your RSO proof of concept means understanding your client's needs, defining success criteria, and making sure they have the right expectations going in. 
 
 ### Defining the customer's participation 
 
