@@ -2,7 +2,7 @@
 title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
 keywords: ""
-ms.date: 07/01/2019
+ms.date: 07/10/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
