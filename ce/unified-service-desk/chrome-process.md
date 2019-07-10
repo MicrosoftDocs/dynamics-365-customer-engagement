@@ -488,7 +488,7 @@ To create a Window Navigation Rule, follow the steps:
 
 7. Select **Save**.
 
-Now, when an agent selects the number in the contact or account page, based on the window navigation rule, Chrome Process blocks or opens the application outside of Unified Service Client application.
+Now, when an agent selects the number in the contact or account page, based on the window navigation rule, Chrome Process blocks or opens the application outside of Unified Service Desk client application.
 
 ## Generate Chrome Process crash report
 
