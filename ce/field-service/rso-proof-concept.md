@@ -113,11 +113,11 @@ Addresses should be geocoded on import. To make sure this happens, go to **Resou
 On that same screen, go to the **Resource Scheduling Optimization** tab, and set **Enable Resource Scheduling Optimization** to **Yes**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the enable resource scheduling setting set to yes](./media/rso-poc-address2) 
+> ![Screenshot of the enable resource scheduling setting set to yes](./media/rso-poc-address2.png) 
 
 Addresses will then be automatically geocoded. If you're working with a small amount of address data, you can geocode them manually as well.
 
-If you don't wish to rely on geocoding, you can also import longitude and latitude directly to the account. However, manually added latitude and longitude are typically less accurate than the geocoded results.
+If you don't wish to rely on geocoding, you can also import longitude and latitude directly to the account by adding those values in the imported Excel doc. However, manually added latitude and longitude are typically less accurate than the geocoded results.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the latitude and longitude fields on an account](./media/rso-poc-address4.png) 
