@@ -463,7 +463,7 @@ When using Chrome Process, you might want to block the skype or telephone protoc
 
 Add the URL in the Window Navigation Rules and set the **Action** to **None** to block the navigation and set **Show Outside** to show the application outside of Unified Service Desk client application.
 
-For example, you've integrated a softphone with Unified Service Desk and using the Chrome Process hosting type to host web applications. Now, when an agent selects the phone number in the contact or account page, you want to initiate a call using the softphone instead of Skype. Now, create the window navigation rule and set the **Action** to **None** to block skype protocol. Now, you can create specific action calls to initiate the call using the softphone.
+For example, you've integrated a softphone with Unified Service Desk and using the Chrome Process hosting type to host web applications. Now, when an agent selects the phone number in the contact or account page, you want to initiate a call using the softphone instead of Skype. Now, create the window navigation rule and set the **Action** to **None** to block skype protocol. Now, you can create specific action calls as sub-action calls of this window navigation rule to initiate the call using softphone.
 
 To create a Window Navigation Rule, follow the steps:
 
@@ -485,7 +485,6 @@ To create a Window Navigation Rule, follow the steps:
   | General | Url | tel: <br><br> or <br><br> skype: |
   | Result | Route Type | Popup |
   | Result | Action | None or Show Outside |
-  | Result | Destination | Tab |
 
 7. Select **Save**.
 
@@ -495,7 +494,7 @@ Now, when an agent selects the number in the contact or account page, based on t
 
 You must generate the reports when you want to investigate the Chrome Process crash in Unified Service Desk. To generate the report, you must add the **ChromeEnableLogging** UII option and set the value as **True**.  The files are generated in the following location:
 
-`C:\Users\agent1\AppData\Roaming\Microsoft\USD`
+`C:\Users\agent1\AppData\Roaming\Microsoft\USD\CEF\cef_debug.log`
 
 ### Add the ChromeEnableLogging UII option
 
