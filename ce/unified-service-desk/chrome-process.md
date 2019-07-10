@@ -479,12 +479,12 @@ To create a Window Navigation Rule, follow the steps:
 
 6. Specify the following values on the **New Window Navigation Rules** page.
 
-  | Tab |  Field | Value |
-  |-------------------|------------------------------------------------|--------------------------------------------------|
-  | General | Name | Telephone Protocol <br><br> or <br><br> Skype Protocol |
-  | General | Url | tel: <br><br> or <br><br> skype: |
-  | Result | Route Type | Popup |
-  | Result | Action | None or Show Outside |
+   | Tab |  Field | Value |
+   |-------------------|------------------------------------------------|--------------------------------------------------|
+   | General | Name | Telephone Protocol <br><br> or <br><br> Skype Protocol |
+   | General | Url | tel: <br><br> or <br><br> skype: |
+   | Result | Route Type | Popup |
+   | Result | Action | None or Show Outside |
 
 7. Select **Save**.
 
