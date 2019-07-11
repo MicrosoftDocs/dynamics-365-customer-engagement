@@ -4,7 +4,7 @@ description: "Provides information about how to finalize registrations for paid 
 ms.custom:
   - dyn365-developer
   - dyn365-marketing
-ms.date: 07/08/2019
+ms.date: 07/12/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - "marketing"
@@ -181,13 +181,15 @@ Implement the custom logic to authenticate against Dynamics 365 for Marketing. T
 > For a fully working example, check the code from [Sample Code](#sample-code) section. More information: [How to authenticate against Dynamics 365](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
 
 ```csharp
-public static string AuthenticateToDynamics365() 
-{ 
-  var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false); 
-  var credential = new ClientCredential(clientId, clientSecret); 
-  var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result; 
-  return authenticationResult.AccessToken; 
-   }
+public static string AuthenticateToDynamics365()
+        {
+            var authContext = new AuthenticationContext($"https://login.microsoftonline.com/{tenantId}", false);
+            var credential = new ClientCredential(clientId, clientSecret);
+
+            var authenticationResult = authContext.AcquireTokenAsync(organizationUrl, credential).Result;
+
+            return authenticationResult.AccessToken;
+        }
 ``` 
  
 ## Step 5: Calling custom action to finalize registration 
@@ -198,25 +200,35 @@ After the access token is successfully retrieved, we can call the custom action 
 > If you’re using a solution version prior to April Release 2019 the custom action is called `adx_FinalizeExternalRegistrationRequest` (different prefix). More information: [Calling custom actions with Web API](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ```csharp 
-private static HttpResponseMessage FinalizeRegistration(string accessToken) 
-{ 
-using (var client = new HttpClient()) 
-{ 
- client.BaseAddress = new Uri(organizationUrl); 
- client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json")); 
- var finalizeRegistrationData = new Dictionary<string, string> 
- { 
-   { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" }, 
-   { "ReadableEventId", "Paid_Event1479011247" }, 
-   { "UserId", "" } 
- }; 
- var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData); 
- var request = new HttpRequestMessage(HttpMethod.Post, "/api/data/v9.0/msevtmgt_FinalizeExternalRegistrationRequest"); 
- request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json"); 
- request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken); 
- return client.SendAsync(request).Result; 
-		} 
-	}
+private static HttpResponseMessage FinalizeRegistration(string accessToken)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(organizationUrl);
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                var request = CreateFinalizeRegistrationRequest(accessToken);
+
+                return client.SendAsync(request).Result;
+            }
+        }
+
+        public static HttpRequestMessage CreateFinalizeRegistrationRequest(string accessToken)
+        {
+            var finalizeRegistrationData = new Dictionary<string, string>
+            {
+                { "PurchaseId", "ab62525b-7a63-47c0-b6e8-17ad1a2c67a6" },
+                { "ReadableEventId", "Paid_Event1479011247" },
+                { "UserId", "" }
+            };
+
+            var encodedRequestBody = JsonConvert.SerializeObject(finalizeRegistrationData);
+            var request = new HttpRequestMessage(HttpMethod.Post, FINALIZE_REGISTRATION_ROUTE);
+            request.Content = new StringContent(encodedRequestBody, Encoding.UTF8, "application/json");
+            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+
+            return request;
+        }
 ``` 
  
 ## Sample Code 
