@@ -2,7 +2,7 @@
 title: "Import, update, and upgrade solution | MicrosoftDocs"
 description: "Learn how to import, update, and upgrade a solution"
 ms.custom: 
-ms.date: 01/22/2019
+ms.date: 07/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,10 +22,13 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Import solution 
+# Import, update, and upgrade a solution  
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
+This topic describes how to import, update, and upgrade a solution. 
+
+## Import a solution
 You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. 
 
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
@@ -51,7 +54,7 @@ You can import solutions manually using the steps below. Only import solutions t
 
 <a name="BKMK_UpdateSolutions"></a>   
 
-## Update or upgrade solution  
+## Update or upgrade a solution  
 There are times when you may wish to install an update to an existing managed solution. The procedure is similar to installing a new managed solution, except you will get some different options. If you are updating a solution you got from someone else, you should get guidance from the solution publisher about which options you should choose.  
 
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  

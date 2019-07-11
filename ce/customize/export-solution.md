@@ -1,8 +1,8 @@
 ---
-title: "export solutions | MicrosoftDocs"
+title: "Export solutions | MicrosoftDocs"
 description: "Learn how to export a solution"
 ms.custom: 
-ms.date: 01/22/2019
+ms.date: 07/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,13 +22,13 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# export solution 
+# Export a solution 
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Exporting a solution will allow you to transport your configuration changes from one environment to another or to store your configuration into your source control system.  Exporting a solution will export the published unmanaged changes for each component associated to the solution.  You can only export an unmanaged solution.  
 
- # Export solutions  
+ # Export a solution 
  We recommend that you export your unmanaged customizations periodically so that you have a backup in case anything happens. You cannot export managed solutions.  
 
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
