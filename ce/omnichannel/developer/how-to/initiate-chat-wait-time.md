@@ -25,9 +25,11 @@ Follow these steps to start a chat:
 > If you want to use your custom chat button and make sure that the chat widget opens when customers click on your custom chat button, you can choose to hide the chat button provided by Omnichannel for Customer Service from customers. To do this, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. To make the chat button visible to customers, set the attribute value to `false`.
 >
 > **Sample widget code snippet to hide chat button**
+>
 > `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>>" data-org-id="<valid-org-id>>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
 >
 > **Sample widget code snippet to show chat button**
+>
 > `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>>" data-org-id="<valid-org-id>>" data-org-url="<valid-org-url>" data-hide-chat-button=“false"></script>`
 
 ## Sample code
