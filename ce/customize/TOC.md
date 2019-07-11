@@ -133,7 +133,8 @@
 ## [Navigate to a specific solution](navigate-specific-solution.md)
 ## [Use the solution explorer](use-solution-explorer.md)
 ## [Create a solution](create-solution.md)
-## [Import, update, and export solutions](import-update-export-solutions.md)
+## [Export solution](export-solution.md)
+## [Import, update, and upgrade solution](import-update-upgrade-solution.md)
 ## [Distribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)
 
 # [Create or edit a web resource](create-edit-web-resources.md) 
