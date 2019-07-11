@@ -1,7 +1,7 @@
 ---
 title: "Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/29/2019
+ms.date: 07/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
