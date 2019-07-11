@@ -1,7 +1,7 @@
 ---
 title: "Configure Relevance Search for the organization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/27/2018
+ms.date: 07/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -99,8 +99,6 @@ You'll see hit highlights when your search term matches a term in your applicati
    ![Enable Relevance Search in System Settings](../admin/media/relevance-search-enable-search.png "Enable Relevance Search in System Settings")  
 
 4. After you enable Relevance Search, the **Enable Search** consent dialog box opens. Click **OK** to give your consent.  
-
-   ![Enable Relevance Search consent dialog](../admin/media/relevance-search-enable-search-consent.png "Enable Relevance Search consent dialog")  
 
 5. Click **OK** to close the **System Settings** dialog.  
 
