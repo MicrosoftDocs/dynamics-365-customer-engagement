@@ -32,7 +32,7 @@ search.app:
 
 Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more. If you also use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], many of the settings you find here also apply to that app, though some settings are unique to Sales or [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
-1. If you haven't already done so, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [administrator privileges](manage-users.md). Then use the app-selector menu to open the **Marketing** app.
+1. If you haven't already done so, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [administrator privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 

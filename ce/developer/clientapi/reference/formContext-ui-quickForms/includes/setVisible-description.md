@@ -1,1 +1,0 @@
-Displays or hides a control.

@@ -1,7 +1,7 @@
 ---
 title: "Control field synchronization between Dynamics 365 for Customer Engagement apps and Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/18/2019
+ms.date: 06/25/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: d570e1f0-d319-46c6-a247-00c32c78df3b
 caps.latest.revision: 15
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -36,20 +36,20 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
 1. Sign in as a Customer Engagement admin. 
 
-2. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  
+2. In the web app, select **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
   
-3. In the **Set Personal Options** dialog box, choose the **Synchronization** tab.    
+   For [Unified Interface](about-unified-interface.md), select Settings (![Gear button](../admin/media/selection-rule-gear.gif "Gear button")) in the upper-right corner > **Advanced Settings** > **Settings** > **Administration** > **System Settings** > **Synchronization** tab.
   
-4. Choose **synchronized fields**.  
+3. Under **Synchronize Microsoft Dynamics 365 items with Outlook or Exchange**, select **synchronized fields**.  
   
-5. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
+4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
    ![Appointment fields for synchronization](../admin/media/appointment-field-sync.png "Appointment fields for synchronization")  
   
    > [!TIP]
    >  Hover over a field name to see the fields mapped to it.  
   
-6. Choose **OK** > **OK** to close the open dialog boxes.  
+5. Select **OK** > **OK** to close the open dialog boxes.  
   
    Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What fields can be synchronized between Dynamics 365 for Customer Engagement apps and Outlook?](what-fields-synchronized-outlook.md)  
   

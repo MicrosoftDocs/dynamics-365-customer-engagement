@@ -2,7 +2,7 @@
 title: "Pointers for Voice of the Customer | MicrosoftDocs"
 description: "Your starting point for help of Voice of the Customer."
 keywords: voice of the customer help
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -19,6 +19,9 @@ ms.custom:
 ---
 
 # Voice of the Customer help and training
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
  <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/98c28273-0089-42d8-8817-f7349adcb93c" frameborder="0" allowfullscreen=""></iframe></div>
 <table>

@@ -2,7 +2,7 @@
 title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: survey design;  survey theme; share survey; clone survey
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -19,6 +19,9 @@ ms.custom:
 ---
 
 # Design a basic survey
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 After deciding the types of questions you want to include in your survey, you must now create the survey. This article provides information about the basics of designing a survey, creating a survey theme, and adding questions to the survey. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
 

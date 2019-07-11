@@ -2,7 +2,7 @@
 title: "Survey analytics using Power BI (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to connect Voice of the Customer instance to Power BI and get insights about the surveys."
 keywords: voice of the customer analytics, voice of the customer analytics app for power BI
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -17,6 +17,9 @@ ms.reviewer:
 ---
 
 # Survey analytics using Power BI
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 Using the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app or service content pack for Power BI, you can connect to your Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
 

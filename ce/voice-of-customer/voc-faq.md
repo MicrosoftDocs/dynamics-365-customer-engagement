@@ -2,7 +2,7 @@
 title: "Voice of the Customer FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Voice of the Customer"
 keywords: voice of the customer FAQ; voice of the customer frequently asked questions
-ms.date: 01/23/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -19,6 +19,9 @@ ms.custom:
 ---
 
 # Voice of the Customer FAQ
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 We have compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.
 
