@@ -24,7 +24,7 @@ search.app:
 
 # Weekly time entry with support for customization
 
-[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
 In Microsoft Dynamics 365 for Project Service Automation (PSA) version 3.3, we introduced a modern grid that allows project resources to complete a quick time entry for up to one week at a time. The grid includes the ability to total entries by date, by row, or by week. Resources can make copies of time entries within the week and then bulk copy from previous weeks. With this feature, system customizers can customize this view to add fields, add lookups to other entities, and implement custom business rules to support their organization's practices.  
 
