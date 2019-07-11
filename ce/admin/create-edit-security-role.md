@@ -122,7 +122,7 @@ You can create new security roles to accommodate changes in your business requir
 
 Start by downloading the solution from the Download Center: [Common Data Service minimum privilege security role](http://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
 
-Then, follow the directions to import the solution: [Import, update, and export solutions](../customize/import-update-export-solutions.md).
+Then, follow the directions to import the solution: [Import, update, and export solutions](../customize/import-update-upgrade-solution.md).
 
 When you import the solution, it creates the **min prv apps use** role which you can copy (see: [Create a security role by Copy Role](#create-a-security-role-by-copy-role)). When Copying Role is complete, navigate to each tab - Core Records, Business Management, Customization, etc - and set the appropriate privileges. 
 
