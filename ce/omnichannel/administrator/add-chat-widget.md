@@ -38,9 +38,6 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
         > [!div class=mx-imgBorder]
         > ![Configure the basic details of a chat widget](../media/oc-chat-widget-basic-details-tab.png "Configure the basic details of a chat widget")
 
-        > [!NOTE]
-        > If you want to hide the chat button from customers, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. To make the chat button visible to customers, set the attribute value to `false`.
-
     - **Design**: Use this tab to specify the theme color, logo, title, subtitle, and operating hours of the chat widget. For more information about how to set up operating hours, see [Create and manage operating hours](create-operating-hours.md).
 
         > [!div class=mx-imgBorder]
