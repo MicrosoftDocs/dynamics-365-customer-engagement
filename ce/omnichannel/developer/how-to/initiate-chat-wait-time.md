@@ -22,15 +22,11 @@ Follow these steps to start a chat:
 2. Once the **lcw:ready** event is raised, call the [startChat](../reference/methods/startChat.md) method to initiate a chat.
 
 > [!NOTE]
-> If you want to use your custom chat button, you can choose to hide the out-of-the-box chat button provided by Omnichannel for Customer Service from customers. To do this, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. Also, invoke the [startChat](../reference/methods/startChat.md) method whenever there is a click on the custom chat button, in order to open the chat widget. To make the out-of-the-box chat button visible to customers, set the value of `data-hide-chat-button` attribute to `false`.
+> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. Invoke the [startChat](../reference/methods/startChat.md) method on click of the custom UI component, to start chat.
 >
 > **Sample widget code snippet to hide chat button**
 >
 > `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>>" data-org-id="<valid-org-id>>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
->
-> **Sample widget code snippet to show chat button**
->
-> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>>" data-org-id="<valid-org-id>>" data-org-url="<valid-org-url>" data-hide-chat-button=“false"></script>`
 
 ## Sample code
 
