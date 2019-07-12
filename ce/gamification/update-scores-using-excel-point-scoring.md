@@ -3,7 +3,7 @@ title: "Score points using Excel in Dynamics 365 for Customer Engagement – Gam
 description: "Learn how you can score KPIs using an Excel template to track KPIs outside of Dynamics 365 for Customer Engagement (online)."
 ms.custom: 
   - dyn365-gamification
-ms.date: 07/11/2019
+ms.date: 07/12/2019
 ms.service: dynamics-365-sales
 ms.topic: article
 applies_to: Dynamics 365 for Customer Engagement (online)
@@ -24,7 +24,7 @@ search.app:
 If you plan to run a game that uses one or more KPIs that can't be tracked by using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], you can update the scores for those KPIs by using an [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template.  
   
 > [!IMPORTANT]
-> Before you can update a KPI using [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)], you need to [select an Excel KPI](run-games.md#select-a-kpi) when creating or editing your game to use that KPI for scoring.
+> Before you can update the scores using an [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template, you need to [select an Excel KPI](run-games.md#select-a-kpi) when creating or editing your game to use that KPI for scoring.
   
 ## Update scores by using the Excel file
   
