@@ -1,6 +1,6 @@
 ---
 
-title: Weekly time entry with support for customization
+title: Customize weekly time entry 
 description: This topic provides information about how to implement custom business rules that support an organization's practices.
 author: stsporen
 manager: kfend
@@ -22,7 +22,7 @@ search.app:
   - D365PS
 ---
 
-# Weekly time entry with support for customization
+# Customize weekly time entry 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
