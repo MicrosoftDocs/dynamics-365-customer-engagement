@@ -50,8 +50,8 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                    // Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'.
 	               return {
                              'contextKey1': {'Value': 'contextValue1', 'IsDisplayable': true},
-                                             'contextKey2': {'Value': 12.34, 'IsDisplayable': false},
-                                             'contextKey3': {'Value': true}
+                             'contextKey2': {'Value': 12.34, 'IsDisplayable': false},
+                             'contextKey3': {'Value': true}
                    };
         });
 });
