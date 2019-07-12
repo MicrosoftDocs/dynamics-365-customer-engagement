@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/08/2019
+ms.date: 07/12/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -142,6 +142,7 @@ First, get an [Overview](https://docs.microsoft.com/dynamics365/customer-engagem
 
 Next, learn the difference between CFS with [IoTCentral](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/cfs-iot-overview) and CFS with [IoTHub](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/developer/connected-field-service-developer-guide). In short, think of **IoTCentral** as the software-as-a-service option, an easy way to create and demonstrate a protoype, perform a proof-of-concept, test the IoT process with dynamics to outline structure and objectives, and implement CFS for organizations starting from scratch with no IoT infrastructure. Think of **IoTHub** as the platform offering and what will most likely be implemented because it is more customizable and is especially helpful for organizations with existing IoT infrastructure.
 
+Next, set up an environment for testing and development with the following video tutorial ![Video symbol](../field-service/media/video-icon.png "Video symbol") [Set up Connected Field Service with Azure IoTCentral](https://youtu.be/Sp7_JoXjHDk) 
 
 Finally, here is a [Learn course](https://docs.microsoft.com/learn/paths/working-with-connected-field-service-iot/) to guide you through setting up CFS with IoTCentral.
 
