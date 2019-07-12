@@ -35,7 +35,7 @@ Follow these steps to send custom context when starting a chat:
 
 ```JavaScript
 function contextProvider(){
-	// Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'.
+	// contextKey1, contextKey2, contextKey3 are runtime context values which we define using the values passed               
 	return {
 			'contextKey1': 'contextValue1', // string value
 			'contextKey2': 12.34, // number value
