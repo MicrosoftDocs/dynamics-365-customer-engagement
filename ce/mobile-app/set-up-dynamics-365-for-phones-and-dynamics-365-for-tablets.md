@@ -30,7 +30,6 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
-  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 for Customer Engagement apps mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
   
 - **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
