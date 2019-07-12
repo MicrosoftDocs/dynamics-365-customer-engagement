@@ -44,18 +44,17 @@ None
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
-               // Set the custom context provider
-               // Throws error if contextProvider is not a function
-               Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
-                                  // Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'.
-	                              return {
-                                             'contextKey1': {'Value': 'contextValue1', 'IsDisplayable': true},
+        // Set the custom context provider
+        // Throws error if contextProvider is not a function
+        Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
+                   // Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'.
+	               return {
+                             'contextKey1': {'Value': 'contextValue1', 'IsDisplayable': true},
                                              'contextKey2': {'Value': 12.34, 'IsDisplayable': false},
                                              'contextKey3': {'Value': true}
-                                  };
-               });
+                   };
+        });
 });
-
 ```
 In the sample code given above, the `Value` attribute contains the value of the context variables.
 
