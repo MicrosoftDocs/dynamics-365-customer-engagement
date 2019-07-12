@@ -186,7 +186,7 @@
 ##### [Using Events API](developer/using-events-api.md)
 ##### [Register your web application](developer/register-web-application-events-api.md)
 ##### [User authentication](developer/user-authentication-events-api.md)
-##### [Customize Events API response](developer/customize-events-api-response.m
+##### [Customize Events API response](developer/customize-events-api-response.md)
 #### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
 #### [Localization](developer/event-portal-localization.md)
 ### [Work with Segments using code](developer/extend-segments.md)
