@@ -47,7 +47,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         // Set the custom context provider
         // Throws error if contextProvider is not a function
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
-                   // contextKey1, contextKey2, contextKey3 are runtime context values which we define using the values passed
+                   //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'. If no context variable exists with a matching logical name, items are created assuming Type:string               
 	               return {
                              'contextKey1': {'value': 'contextValue1', 'IsDisplayable': true},
                              'contextKey2': {'value': 12.34, 'IsDisplayable': false},
