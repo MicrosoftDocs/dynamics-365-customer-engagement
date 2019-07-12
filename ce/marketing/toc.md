@@ -182,13 +182,13 @@
 #### Dynamics 365 Portal hosted
 ##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
-#### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
-#### [Localization](developer/event-portal-localization.md)
 #### Events API
 ##### [Using Events API](developer/using-events-api.md)
 ##### [Register your web application](developer/register-web-application-events-api.md)
 ##### [User authentication](developer/user-authentication-events-api.md)
-##### [Customize Events API response](developer/customize-events-api-response.md)
+##### [Customize Events API response](developer/customize-events-api-response.m
+#### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
+#### [Localization](developer/event-portal-localization.md)
 ### [Work with Segments using code](developer/extend-segments.md)
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
 #### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)
