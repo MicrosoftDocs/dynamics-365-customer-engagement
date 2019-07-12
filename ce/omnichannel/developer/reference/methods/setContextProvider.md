@@ -49,8 +49,8 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
         Microsoft.Omnichannel.LiveChatWidget.SDK.setContextProvider(function contextProvider(){
                    //Here it is assumed that the corresponding work stream would have context variables with logical name of 'contextKey1', 'contextKey2', 'contextKey3'. If no context variable exists with a matching logical name, items are created assuming Type:string               
 	               return {
-                             'contextKey1': {'value': 'contextValue1', 'IsDisplayable': true},
-                             'contextKey2': {'value': 12.34, 'IsDisplayable': false},
+                             'contextKey1': {'value': 'contextValue1', 'isDisplayable': true},
+                             'contextKey2': {'value': 12.34, 'isDisplayable': false},
                              'contextKey3': {'value': true}
                    };
         });
@@ -58,7 +58,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ```
 In the sample code given above, the `value` attribute contains the value of the context variables.
 
-The `IsDisplayable` attribute, if set to `true` will display the passed items within a third tab on the Conversation Summary Control for a given Conversation.
+The `isDisplayable` attribute, if set to `true` will display the passed items within a third tab on the Conversation Summary Control for a given Conversation. This is an optional parameter and its default value is `false`.
 
 ## Error codes
 
