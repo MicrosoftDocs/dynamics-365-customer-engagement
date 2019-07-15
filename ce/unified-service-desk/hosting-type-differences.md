@@ -26,7 +26,7 @@ search.app:
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-## Learn the behavior differences in Chrome Process and IE Process
+# Learn the behavior differences in Chrome Process and IE Process
 
 This topic demonstrates the differences between the Chrome Process and IE Process.
 
