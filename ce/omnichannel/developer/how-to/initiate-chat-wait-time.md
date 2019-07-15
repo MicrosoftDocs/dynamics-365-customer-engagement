@@ -2,7 +2,7 @@
 title: "Initiate a chat | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 07/09/2019
+ms.date: 07/15/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -22,7 +22,7 @@ Follow these steps to start a chat:
 2. Once the **lcw:ready** event is raised, call the [startChat](../reference/methods/startChat.md) method to initiate a chat.
 
 > [!NOTE]
-> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. Invoke the [startChat](../reference/methods/startChat.md) method on click of the custom UI component, to start chat.
+> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. Invoke the [startChat](../reference/methods/startChat.md) method on click of the custom UI component to start chat.
 >
 > **Sample widget code snippet to hide chat button**
 >
