@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure a pre-chat survey
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can configure your chat widget to show users a survey that they should respond to before they start the conversation.
 

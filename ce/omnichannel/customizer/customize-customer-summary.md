@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Customize the Customer summary form overview
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can customize some quick view forms on the **Customer summary** page by navigating to the entity quick view forms. By default, the **Customer summary** page shows the following sections.
 

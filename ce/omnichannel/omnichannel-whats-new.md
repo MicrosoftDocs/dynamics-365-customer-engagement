@@ -15,6 +15,8 @@ ms.custom:
 
 # What's new in Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 ##  What's new in July 2019 General Availability
 
 ### Agent experience

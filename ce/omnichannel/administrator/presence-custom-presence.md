@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Configure and manage custom presence
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Presence status indicates an agent's availability.
 
