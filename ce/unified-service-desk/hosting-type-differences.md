@@ -33,6 +33,7 @@ This topic demonstrates the differences between the Chrome Process and IE Proces
 | Description | Behavior |Chrome Process | IE Process |
 |---------------------------|------------------------------------------------|-------------------------------------------|-------------------------------------------|
 | Download file attachments | Default behavior when you want to download or view the file attachments. | You must save the file in your local to view it. | You can select **Open** to view the file, where the is file saved in the temporary Internet Explorer folder, or you can save the file in your local folder and then view it. |
+
 --------------------------------------------------------------------------------------
 
 ## See also
