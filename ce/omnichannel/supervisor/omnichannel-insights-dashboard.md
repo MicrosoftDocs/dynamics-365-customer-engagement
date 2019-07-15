@@ -15,6 +15,8 @@ ms.custom:
 
 # View and understand Omnichannel Insights dashboards
 
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
 The Omnichannel Insights dashboard provides information about the historic performance of the chat channel and sentiment analysis of the chats offered through key performance indicators (KPIs) in context of the  agents in your organization.
 Typically, the dashboard is divided into two sections:
 

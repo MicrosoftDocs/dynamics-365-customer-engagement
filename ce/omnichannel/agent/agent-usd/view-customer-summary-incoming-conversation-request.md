@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View customer summary for an incoming conversation request
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 ## Scenario 1: Incoming conversation request for an existing customer record  
 

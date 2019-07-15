@@ -15,7 +15,7 @@ ms.custom:
 
 # Omnichannel for Customer Service readme (known issues and limitations)
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the known issues and limitations of Omnichannel for Customer Service.
 

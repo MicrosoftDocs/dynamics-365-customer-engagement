@@ -15,6 +15,8 @@ ms.custom:
 
 # Troubleshoot Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
 ## Chat widget icon does not load on the portal
