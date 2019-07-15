@@ -46,7 +46,7 @@ The list provides an overview of documentation updates made in Unified Service D
 | [Generate Chrome Process crash report](chrome-process.md#generate-chrome-process-crash-report) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Use window.IsUSD property to invoke Unified Service Desk event](chrome-process.md#use-windowisusd-property-to-invoke-unified-service-desk-event) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) | Added information about downloading file attachments in Chrome Process <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
-| [Learn the behavior differences in Chrome Process and IE Process](hosting-type-differences.md) | New topic about the behavior differences in IE Process and Chrome Process. <br><br> <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |
+| [Learn the behavior differences in Chrome Process and IE Process](hosting-type-differences.md) | New topic about the behavior differences in IE Process and Chrome Process. <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |
 
 
 <a name="Release_4_1"></a>
