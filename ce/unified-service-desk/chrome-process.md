@@ -521,6 +521,10 @@ With Chrome Process, if you use the `window.IsUSD` property in your JavaScript c
 
 When you use the property on the Unified Service Desk predefined events, the property returns true. Otherwise, it returns false.
 
+## Download attachments in Chrome Process
+
+When you use Chrome Process to host web applications in Unified Service Desk and select a file attachment, by design, Chrome Process prompts you to save the file to a local folder. After saving the file, you can open to view it.
+
 
 ## Limitations
 

@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 keywords: 
-ms.date: 04/10/2019
+ms.date: 07/15/2019
 ms.service: 
   - dynamics-365-customerservice
 ms.custom: 
@@ -45,6 +45,8 @@ The list provides an overview of documentation updates made in Unified Service D
 | [[KillUSDIEProcessesOnExit](admin/manage-options-unified-service-desk.md)] | New UII option to kill the IE Process on exit of Unified Service Desk client application. <br><br> New option in the [Mange Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).|
 | [Generate Chrome Process crash report](chrome-process.md#generate-chrome-process-crash-report) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
 | [Use window.IsUSD property to invoke Unified Service Desk event](chrome-process.md#use-windowisusd-property-to-invoke-unified-service-desk-event) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
+| [Download attachments in Chrome Process](chrome-process.md#download-attachments-in-chrome-process) | Added information about downloading file attachments in Chrome Process <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
+| [Learn the behavior differences in Chrome Process and IE Process](hosting-type-differences.md) | New topic about the behavior differences in IE Process and Chrome Process. <br><br> <br><br> Topic under [Select a hosting method for your controls in Unified Service Desk](select-hosting-method-controls.md).  |
 
 
 <a name="Release_4_1"></a>
