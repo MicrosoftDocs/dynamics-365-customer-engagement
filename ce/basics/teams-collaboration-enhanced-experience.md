@@ -43,12 +43,24 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
    > [!div class="mx-imgBorder"]
    > ![Get started button](media/teams-get-started-2.png "Selected Get Started")
    
-4. From the list of teams that you belong to, choose the team that you want to pin the record to and select **Next**. Or, to create a new team select, **Create new team**. 
- 
-   > [!div class="mx-imgBorder"]
-   > ![Choose a team](media/teams-select-team-3 "Choose a team")
+4. To ddd the recording to an exising team or create a new team, do one of the following:
 
-    1. 
+   **Add to existing team**
+   - From the teams that you belong to, choose the team that you want to pin the record to and select **Next**.
+   
+    > [!div class="mx-imgBorder"]
+    > ![Choose a team](media/teams-add-to-existing-team-3 "Choose a team")
+   
+    **Create a new team**
+    1. To create a new team select, **Create new team**. 
+ 
+      > [!div class="mx-imgBorder"]
+      > ![Choose a team](media/teams-create-new-team-4.png "Choose a team")
+
+    2. Enter a name for the team and then select **Next**.
+    
+      > [!div class="mx-imgBorder"]
+      > ![Enter name](media/teams-enter-team-name-5png "Enter a team name")
  
 
 
