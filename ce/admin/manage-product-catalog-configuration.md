@@ -1,7 +1,7 @@
 ---
 title: "Manage product catalog configuration for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 07/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,39 +51,21 @@ search.app:
  You must select the following entities for migrating the product catalog configuration data:  
   
 -   Product  
-  
--   Product Association (needed for bundles)  
-  
 -   Product Relationship (not a mandatory entity, needed only for relationships)  
-  
 -   Property  
-  
 -   Property Association  
-  
 -   Property Option Set Item  
-  
 -   Notes (needed,  if there are any notes for the product)  
-  
 -   Currency  
-  
 -   Price List  
-  
 -   Price List Item  
-  
 -   Unit  
-  
 -   Unit Group  
-  
 -   Territory (needed if there is a default price list configuration)  
-  
 -   Connection (needed, if there is a default price list configuration)  
-  
 -   Competitor (needed, if there are any competitors for product)  
-  
 -   Sales Literature and Sales Literature Item (needed, if there is any sales literature for product)  
-  
 -   Discount (not a mandatory entity, needed only for discounts when added to price lists)  
-  
 -   Discount List (not a mandatory entity, needed only for discounts)  
   
 > [!NOTE]
@@ -92,6 +74,8 @@ search.app:
  Certain conditions and restrictions apply during migration:  
   
 -   Only active and retired products can be exported or imported.  
+    > [!NOTE]
+    > Transferring bundle products isn't currently supported. 
   
 -   If importing of a product record fails because of a missing dependency, the related property records are not imported. When importing the product hierarchy, if creation of a record fails because of a missing dependency, the record’s child hierarchy will not be imported.  
   
