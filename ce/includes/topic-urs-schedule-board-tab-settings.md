@@ -333,4 +333,4 @@ It will then appear in the lower panel.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Requirement Panels](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel-add.png)
 
-Field Service and Resource Scheduling Optimization come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 
+Field Service and Universal Resource Scheduling come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 
