@@ -2,7 +2,7 @@
 title: "Initiate a chat | Microsoft Docs"
 description: ""
 keywords: ""
-ms.date: 07/01/2019
+ms.date: 07/09/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -15,8 +15,6 @@ manager: shujoshi
 # Initiate a chat
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
-
-<!--note from editor:  specify what the user is waiting for--customer support, specifically?  -->
 
 Follow these steps to start a chat:
 
@@ -41,6 +39,16 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 
 Consider a scenario where the customer is on your portal page, and you want to initiate chat once the customer has spent some time on the page. You can programmatically open the chat widget once the specified time has elapsed.
 
+The sample code given below shows how you can start a chat after the customer has been waiting for 5 minutes.
+
+```JavaScript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+    // Open chat widget proactively after customer has been waiting for 5 minutes
+    setTimeout(function startProactiveChat() {
+        Microsoft.Omnichannel.LiveChatWidget.SDK.startChat();
+    }, 300000);
+});
+```
 ### See also
 
 [startChat](../reference/methods/startChat.md)<br />

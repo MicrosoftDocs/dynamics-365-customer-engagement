@@ -69,6 +69,7 @@
 ### [Working with the Project Service Automation data model](reports-working-project-service-data-model.md)
 ## [Create time entries](time-entries.md)
 ### [Time entry calendar](time-entry-calendar.md)
+### [Customize weekly time entry](time-entry-extensibility-v3.md)
 
 
 # How-to guides (app version 3.x)
