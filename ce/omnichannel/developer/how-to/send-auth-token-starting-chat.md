@@ -1,6 +1,6 @@
 ---
 title: "Send authentication token | Microsoft Docs"
-description: ""
+description: "Read how you can pass an authentication token to Omnichannel for Customer Service"
 keywords: ""
 ms.date: 07/09/2019
 ms.service: dynamics-365-customerservice
