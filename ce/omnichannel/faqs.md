@@ -18,6 +18,8 @@ manager: shujoshi
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 ## General
 
 ### What regions are supported?

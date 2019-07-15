@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View call scripts, take notes, and search knowledge articles
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 The right panel consists of agent scripts, notes, and knowledge management search controls.
 

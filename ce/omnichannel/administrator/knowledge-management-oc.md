@@ -15,7 +15,7 @@ ms.custom:
 
 # Share knowledge articles in the Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Enable knowledge article sharing in Omnichannel for Customer Service so customer queries can be resolved quickly. You can configure an external portal in the **Customer Service Hub** app in a way that your customer service agents can share knowledge article links with the customers from within the Omnichannel for Customer Service app.
 

@@ -15,7 +15,7 @@ ms.custom:
 
 # Work with queues in Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Omnichannel queues are used to collect and distribute workload among agents. Workload includes conversations, such as Chat or SMS. Agents are added as queue members to the queues and the workload is distributed among these agents.
 
