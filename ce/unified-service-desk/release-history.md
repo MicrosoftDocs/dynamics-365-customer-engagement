@@ -34,6 +34,19 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 ::: moniker range="dynamics-usd-4.1"
 
+<a name="Release_4_1_1"></a>
+
+## Release history for Unified Service Desk 4.1.1, July 2019
+
+The list provides an overview of documentation updates made in Unified Service Desk 4.1.1.
+
+| Topic | Updates |
+|--------------|----------------|
+| [[KillUSDIEProcessesOnExit](admin/manage-options-unified-service-desk.md)] | New UII option to kill the IE Process on exit of Unified Service Desk client application. <br><br> New option in the [Mange Options in Unified Service Desk](admin/manage-options-unified-service-desk.md).|
+| [Generate Chrome Process crash report](chrome-process.md#generate-chrome-process-crash-report) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
+| [Use window.IsUSD property to invoke Unified Service Desk event](chrome-process.md#use-windowisusd-property-to-invoke-unified-service-desk-event) | New topic about hosting web applications using Chrome Process in Unified Service Desk <br><br> New section in [Use Chrome process to host web applications in Unified Service Desk](chrome-process.md).  |
+
+
 <a name="Release_4_1"></a>
 
 ## Release history for General Availability of [!INCLUDE [pn-unified-service-desk-4-1](../includes/pn-unified-service-desk-4-1.md)], April 2019
