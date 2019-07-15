@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View alert and toast notifications
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 A notification is a visual alert you see as a dialog box each time you get a chat, or SMS conversation request from a customer. When you get a notification, you see the details of the customer with whom you are going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case in the customer summary page.
 

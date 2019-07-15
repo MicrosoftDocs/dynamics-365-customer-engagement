@@ -14,7 +14,7 @@ ms.custom:
 
 # Step 3:  Create action calls related to a communication panel
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic demonstrates how to create communication panel-related action calls in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 

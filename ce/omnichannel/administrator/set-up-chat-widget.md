@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure a chat channel
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 

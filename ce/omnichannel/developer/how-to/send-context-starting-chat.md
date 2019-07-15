@@ -14,7 +14,7 @@ manager: shujoshi
 ---
 # Manage custom context
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
 

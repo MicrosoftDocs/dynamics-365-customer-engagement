@@ -15,6 +15,8 @@ ms.custom:
 
 # Best practices to use Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 Here are the best practices to use Omnichannel for Customer Service, so that the data in the dashboards are not affected:
 
 -  Agents should sign out or set presence as Appear away before stepping out. This avoids the routing of conversation requests to them.

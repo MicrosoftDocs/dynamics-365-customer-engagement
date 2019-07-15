@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View omnichannel conversations and omnichannel session in Dynamics 365 apps
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 In your organization, some agents might work in a contact center that uses Omnichannel for Customer Service, whereas other agents work in a different contact center that uses Microsoft Dynamics 365 apps, such as Omnichannel for Customer Service app. In this case, if you're an agent who works in Dynamics 365 apps, and you must analyze a conversation request from Omnichannel for Customer Service, you can find the information through **activities** in Dynamics 365.
 

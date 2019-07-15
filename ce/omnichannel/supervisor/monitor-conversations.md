@@ -15,6 +15,8 @@ ms.custom:
 
 # Monitor conversations
 
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
 As a supervisor, you can monitor the conversations that are being handled by agents. Monitoring the conversations helps you in identifying the conversations that need your attention to provide your expertise or suggestions to close. You can select a conversation from the dashboard and choose the **Monitor** action from the grid command bar. You can also join a conversation. When you join, notifications are sent to agent and customer who are in the conversation about your presence. You join the conversation in consult mode. The consult mode helps to provide your expertise to the agent who is interacting with the customer when necessary.
 
 Use the **Omnichannel Ongoing Conversations** dashboard to monitor conversations between customers and agents. To learn more, see [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).

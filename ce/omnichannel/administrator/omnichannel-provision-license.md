@@ -18,7 +18,7 @@ manager: shujoshi
 
 # Provision Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
