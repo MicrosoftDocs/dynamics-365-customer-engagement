@@ -28,7 +28,16 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the **Collaborate** option in a record in Dynaics 365 and create a channel in Teams to collaborate, chat, and share files with your teammates.
+Easily pin a Dynamics 365 for Customer Engagement apps record to a Teams channel using the **Collaborate** option in the Dynamics 365 app. The step-by-step process help you connect the recrod to the selected Teams channel.
+
+## Pin a Dynamics 365 for Customer Engagement apps record to a Teams channel
+
+1. In Dynamics 365 for Customer Engagement app, open a record.
+
+   > [!div class="mx-imgBorder"]
+   > ![Select Add button](media/teams-add-tab.png "Select Add button")
+
+
 
 ### See also  
  [Collaborate with Teams - Bacic Experience](teams-collaboration.md)
