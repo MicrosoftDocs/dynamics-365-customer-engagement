@@ -2,7 +2,7 @@
 title: "Schedule board tab settings for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 03/20/2019
+ms.date: 07/15/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
