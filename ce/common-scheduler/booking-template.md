@@ -1,5 +1,5 @@
 ---
-title: "Edit schedule board booking template - Field Service| MicrosoftDocs"
+title: "Edit schedule board booking template - Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/16/2019
