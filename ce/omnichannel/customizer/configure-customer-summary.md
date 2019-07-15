@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure customer summary page for agents overview
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 
 This topic describes how to configure customer summary page for agents to view customer and conversation details and engage with customers. When agents accept an incoming conversation notification request, they see the details of the customer and conversation using the customer summary page.

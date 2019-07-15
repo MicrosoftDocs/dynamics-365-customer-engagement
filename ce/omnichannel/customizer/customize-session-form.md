@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Customize the session forms
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 As a system customizer, you might want to Customize the session forms to suit your business requirements for the agents who use Omnichannel for Customer Service and other Customer Engagement apps. You can customize the Omnichannel session form.
 

@@ -18,6 +18,8 @@ manager: shujoshi
 
 # Videos
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 <table>
 <tr>
 <td>

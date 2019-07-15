@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View agent dashboard and agent work items
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 When you first sign in to Unified Service Desk, you see the **Omnichannel Agent Dashboard** page of Omnichannel for Customer Service. This page provides a multi-stream view of conversations. Here, you can view the conversations that you're actively working on, conversations that are available for you to pick from the queues and conversations that you've completed during the last 24 hours.
 

@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Error code reference for Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
 

@@ -18,6 +18,8 @@ manager: shujoshi
 
 # Try Chat for Dynamics 365
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 Chat for Dynamics 365 is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant. This topic explains the steps to help you sign up for a trial of Chat for Dynamics 365.
 
 

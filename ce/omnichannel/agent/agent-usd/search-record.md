@@ -15,7 +15,7 @@ ms.custom:
 
 # Search for records in Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 The topic explains how to Search for records in Omnichannel for Customer Service.
 
