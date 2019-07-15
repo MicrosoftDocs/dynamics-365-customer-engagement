@@ -38,7 +38,21 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
    > [!div class="mx-imgBorder"]
    > ![Collaborate option](media/teams-collaborate-option_1.png "Collaborate option in Dynamics 365 app")
 
-3. 
+3. On the **Collaborate with Microsoft Teams** window, select **Get started**.
+
+   > [!div class="mx-imgBorder"]
+   > ![Get started button](media/teams-get-started-2.png "Selected Get Started")
+   
+4. From the list of teams that you belong to, choose the team that you want to pin the record to and select **Next**. Or, to create a new team select, **Create new team**. 
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Choose a team](media/teams-select-team-3 "Choose a team")
+
+    1. 
+ 
+
+
+
 
 ### See also  
  [Collaborate with Teams - Bacic Experience](teams-collaboration.md)
