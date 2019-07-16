@@ -345,6 +345,17 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 |  An active case creation rule for social or email source types, with a queue specified   |                                                                                                                                                                 All such rules will be upgraded in an active state.                                                                                                                                                                  |
 | An active case creation rule for social or email source types, without a queue specified |                                                                                  All such rules will be upgraded and deactivated. This is because even in [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], a case creation rule without a queue did not apply and create any record.                                                                                   |
 
+## Recommendation to upgrade solution
+
+Perform the following steps before you upgrade a solution:
+
+1.	Deactivate the Record Creation and Update Rules which are brought through the previous version of the solution. The state of Record Creation and Update Rules changes to draft.
+
+2.	Upgrade your solution as required. 
+
+3.	After the successful upgrade of the solution, activate the Record Creation and Update Rules as required.
+
+
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
 
