@@ -30,6 +30,8 @@ search.app:
 
 Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel using the **Collaborate** option in the Dynamics 365 app. The step-by-step process will help you connect the selected record or view a Teams channel.
 
+With the [basic collaboration experence]() you can only pin a record or view 
+
 ## Pin a Dynamics 365 for Customer Engagement apps record to a Teams channel
 
 1. In Dynamics 365 for Customer Engagement app, open a record.
