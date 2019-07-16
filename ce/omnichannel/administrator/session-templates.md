@@ -1,6 +1,6 @@
 ---
-title: " Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about Omnichannel for Customer Service app"
+title: "Manage session templates in Omnichannel Administrator app | MicrosoftDocs"
+description: "Learn about managing session templates in Omnichannel Administrator app"
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -27,7 +27,11 @@ Session templates are used to define the aforementioned session experience such 
 - what are the additional application tabs that must be opened when a session is started;
 - what must be default mode of the communication panel when a session is started.
 
-Omnichannel provides out-of-the-box session templates that you can use or clone the templates to create new session templates.
+Omnichannel provides out-of-the-box session templates that you can use or create new session templates.
+
+- **Chat for Dynamics 365:** This session template is used for any incoming conversation from the Chat channel.
+- **SMS for Dynamics 365:** This session template is used for any incoming conversation from the SMS channel.
+- **Case:** This session template is used for a case request.
 
 ## Create a session template
 
@@ -42,12 +46,12 @@ To create a session, follow these steps:
 4. Specify the following in the **New Session Templates** page.
 
     | Tab | Name | Value description | Example |
-    |-----------|-------------------|-----------------------------------|
+    |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the session. This name wouldn't be visible for the agents at the run-time. | Chat session |
     | General | Title | Provide the title of the session that you want the agents to see at the run-time. | {customerName} |
-    | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <li> **Docked:** The panel will be in expanded mode. </li> <li> **Minimized:** The panel will be in minimized mode. <li> **Hidden:** The panel will be hidden and will not be shown. | Docked |
+    | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br><br> <ul><li> **Docked:** The panel will be in expanded mode. </li> <li> **Minimized:** The panel will be in minimized mode. <li> **Hidden:** The panel will be hidden and will not be shown. </ul> | Docked |
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
-    | General | Anchor tab | Select an application from the list. By default, the application is opened by default when the session is started, and this application is not closable. | | Customer summary |
+    | General | Anchor tab | Select an application from the list. By default, the application is opened by default when the session is started, and this application is not closable. | Customer summary |
 
 5. Select **Save** to save the session template. After you save, the **Additional tabs** option appears in the page. 
 

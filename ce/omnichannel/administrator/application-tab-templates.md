@@ -1,6 +1,6 @@
 ---
-title: " Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn about Omnichannel for Customer Service app"
+title: "Manage application tab templates in Omnichannel Administrator app | MicrosoftDocs"
+description: "Learn about managing application tab templates in Omnichannel Administrator app"
 keywords: ""
 author: kabala123
 ms.author: kabala
