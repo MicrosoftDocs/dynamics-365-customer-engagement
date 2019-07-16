@@ -91,10 +91,7 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
    > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
    
 When the set-up process is complete, the system will open the Teams channel that you created.
- 
- 
-## 
-  
+
 
 ### See also  
  [Collaborate with Teams - Basic Experience](teams-collaboration.md)
