@@ -19,6 +19,8 @@ ms.custom:
 
 Session templates in Omnichannel are a combination of attributes and application tab information that are reusable. 
 
+## Overview
+
 When a you accept a chat or SMS incoming conversation request, a session is started. The **Customer Summary** application which is defined as **Anchor Tab** is opened in the application tab panel and it is not closable. Simultaneously, the communication panel is expanded for you to exchange messages with the customer. 
 
 Session templates are used to define the aforementioned session experience such as, 
@@ -49,7 +51,7 @@ To create a session, follow these steps:
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the session. This name wouldn't be visible for the agents at the run-time. | Chat session |
     | General | Title | Provide the title of the session that you want the agents to see at the run-time. | {customerName} |
-    | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br><br> <ul><li> **Docked:** The panel will be in expanded mode. </li> <li> **Minimized:** The panel will be in minimized mode. <li> **Hidden:** The panel will be hidden and will not be shown. </ul> | Docked |
+    | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br><br> <ul><li> **Docked:** The panel will be in expanded mode. </li> <li> **Minimized:** The panel will be in minimized mode. <li> **Hidden:** The panel will be hidden and will not be shown. </ul> <br> **Note:** For an entity routing session, that is, for a case session, the communication panel mode is hidden. | Docked |
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
     | General | Anchor tab | Select an application from the list. By default, the application is opened by default when the session is started, and this application is not closable. | Customer summary |
 
