@@ -46,7 +46,7 @@ With the [basic collaboration experience](teams-collaboration.md)) you can only 
    > ![Get started button](media/teams-get-started-2.png "Selected Get Started")
    
    > [!NOTE]
-   >  - If there is channel already set up for the record or view, then select the existing channel and then select,**Start collaboration**. Or, you can choose **Create a new connection**.
+   >  - If there is channel that is already set-up, then select the existing channel and then select,**Start collaboration**. Or, you can choose **Create a new connection**.
     
       > [!div class="mx-imgBorder"]
       > ![Select existing channel](media/teams-existing-channel-screen-note.png "Selected existing channel")
