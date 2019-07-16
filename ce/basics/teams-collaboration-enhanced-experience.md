@@ -83,4 +83,4 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
 
 
 ### See also  
- [Collaborate with Teams - Bacic Experience](teams-collaboration.md)
+ [Collaborate with Teams - Basic Experience](teams-collaboration.md)
