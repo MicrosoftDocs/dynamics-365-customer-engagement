@@ -30,12 +30,12 @@ search.app:
 
 Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel using the **Collaborate** option in the Dynamics 365 app. The step-by-step process will help you connect the selected record or view a Teams channel.
 
-With the [basic collaboration experence]() you can only pin a record or view 
+With the [basic collaboration experience](teams-collaboration.md)) you can only pin a record or view from within the Teams app. The enhanced experiencel guides you through on how to add a record or view to a Teams channel while you are working in the Dynamics 365 for Customer Engagement app.
 
-## Pin a Dynamics 365 for Customer Engagement apps record to a Teams channel
+## Pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel
 
-1. In Dynamics 365 for Customer Engagement app, open a record.
-2. On the record, select **Collaborate**.
+1. In Dynamics 365 for Customer Engagement app, open a record or view.
+2. When the record or view is open on the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
    > ![Collaborate option](media/teams-collorate-option_1.png "Collaborate option in Dynamics 365 app")
@@ -73,9 +73,8 @@ With the [basic collaboration experence]() you can only pin a record or view
     
        > [!div class="mx-imgBorder"]
        > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
-
        
- 5. If you are the owner if the channel then you can add teammates to the channel. From the list, select the suggested members or use the search option to find teammated related to the record. When you are done, select **Finish**.
+ 5. If you are the owner if the channel then you can add teammates to the channel. From the list, select the suggested members or use  the search option to find teammated related to the record. When you are done, select **Finish**.
  
     > [!NOTE]
     >  You will only see this step if you are the owner of the Teams channel.
@@ -83,7 +82,10 @@ With the [basic collaboration experence]() you can only pin a record or view
     > [!div class="mx-imgBorder"]
     > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
    
-   
+When the set up process is complete, the system will open the Teams channel that you created.
+ 
+ 
+## 
   
 
 ### See also  
