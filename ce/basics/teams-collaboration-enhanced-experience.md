@@ -81,9 +81,7 @@ With the [basic collaboration experience](teams-collaboration.md)) you can only 
        > [!div class="mx-imgBorder"]
        > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
        
- 5. If you are the owner of the Teams channel then you can add teammates to the channel. From the list, select the recommended members who either own the record or the record has been shared with them. 
- 
- You can also use the search option to find other teammated related to the record. When you are done, select **Finish**.
+ 5. If you are the owner of the Teams channel then you can add teammates to the channel. From the list, select the recommended members who either own the record or the record has been shared with them. You can also use the search option to find other teammated related to the record. When you are done, select **Finish**.
  
     > [!NOTE]
     >  You will only see this step if you are the owner of the Teams channel.
