@@ -47,7 +47,7 @@ With the [basic collaboration experence]() you can only pin a record or view
    
 4. To pin the record to an exising team or a new team, do one of the following:
 
-   **Pin to an existing team**
+   - **Pin to an existing team**
     1. From the list of teams that you belong to, choose the team that you want to pin the record to and select **Next**.
    
        > [!div class="mx-imgBorder"]
@@ -58,7 +58,7 @@ With the [basic collaboration experence]() you can only pin a record or view
        > [!div class="mx-imgBorder"]
        > ![Choose a channel](media/teams-choose-channel.png "Choose a channel")
    
-    **Pin to a new team**
+    - ** Pin to a new team**
     1. To create a new team select, **Create new team**. 
  
        > [!div class="mx-imgBorder"]
