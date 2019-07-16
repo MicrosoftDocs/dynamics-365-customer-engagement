@@ -72,7 +72,14 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
       > [!div class="mx-imgBorder"]
       > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
 
-
+       
+  5. If you are the owner if the channel then you can add teammates to the channel. From the list, select the suggested members or use the search option to find teammated related to the record. When you are done, select **Finish**.
+  
+   > [!div class="mx-imgBorder"]
+   > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
+   
+   
+   
 
 
 ### See also  
