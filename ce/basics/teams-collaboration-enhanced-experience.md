@@ -35,7 +35,7 @@ With the [basic collaboration experience](teams-collaboration.md)) you can only 
 ## Pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel
 
 1. In Dynamics 365 for Customer Engagement app, open a record or view.
-2. When the record or view is open on the command bar, select **Collaborate**.
+2. When the record or view is open, on the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
    > ![Collaborate option](media/teams-collorate-option_1.png "Collaborate option in Dynamics 365 app")
