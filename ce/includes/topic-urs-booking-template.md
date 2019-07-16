@@ -124,6 +124,7 @@ Next, add the following HTML and CSS text to **Booking Template** field in **Sch
     Duration: <b>{duration} minutes</b><br/>
     </div>
 
+
 See the result of the change in the following screenshot.
 
 > [!div class="mx-imgBorder"]
