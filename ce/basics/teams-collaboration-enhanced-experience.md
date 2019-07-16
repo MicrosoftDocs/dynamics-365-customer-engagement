@@ -36,7 +36,7 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
 2. On the record, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
-   > ![Collaborate option](media/teams-collaborate-option_1.png "Collaborate option in Dynamics 365 app")
+   > ![Collaborate option](media/teams-collorate-option_1.png "Collaborate option in Dynamics 365 app")
 
 3. On the **Collaborate with Microsoft Teams** window, select **Get started**.
 
