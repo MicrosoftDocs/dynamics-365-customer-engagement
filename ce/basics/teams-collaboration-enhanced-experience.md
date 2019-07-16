@@ -86,10 +86,11 @@ With the [basic collaboration experience](teams-collaboration.md)) you can only 
  
  5. If you are the owner of the Teams channel then you can add teammates to the channel. From the list, select the recommended members who either own the record or the record has been shared with them. You can also use the search option to find other teammates related to the record. When you are done, select **Finish**.
  
+ > [!NOTE]
+ > For more information on how to share a record, see [Assign or share records.](https://docs.microsoft.com/en-us/powerapps/user/assign-or-share-records)
 
-  
-    > [!div class="mx-imgBorder"]
-    > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
+   > [!div class="mx-imgBorder"]
+   > ![Choose teammates](media/teams-choose-teammates-7.png "Choose teammates")
    
 When the set-up process is complete, the system will open the Teams channel that you created.
  
