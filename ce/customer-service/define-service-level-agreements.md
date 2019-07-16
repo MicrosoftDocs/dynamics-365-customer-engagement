@@ -318,6 +318,17 @@ Define the level of service or support that your organization agrees to offer to
 > [!IMPORTANT]
 >  To track SLAs for entities other than case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md)  
 
+
+## Recommendation to upgrade solution
+
+Perform the following steps before you upgrade a solution:
+
+1.	Deactivate the SLAs which are brought through the previous version of the solution. The state of SLAs changes to draft.
+
+2.	Upgrade your solution as required. 
+
+3.	After the successful upgrade of the solution, activate the SLAs as required.
+
 ### See also  
 
 [Enable entities for service level agreements](enable-entities-service-level-agreements.md)
