@@ -52,6 +52,8 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
     2. If you are the owner of the team, you will see an option to add other members to the taeam who either own the reocrd or it has been shared with them. When you are done select **Save**. 
+     > [!NOTE] 
+     > The Enhanced collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Teams ](teams-install-app.md).
      
     Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement   apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement     apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement  apps.
 
