@@ -28,6 +28,10 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+Before you can start using the colloboration experice experice, it needs to to turned on. For more information, see [Install and set up the Dynamics 365 app for Teams ](teams-install-app.md).
+
+   > [!div class="mx-imgBorder"] 
+   > ![Settings page](media/teams-system-settings.png "Settings page")
  
  |  |  |
 |---------|---------|
