@@ -44,7 +44,7 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
    > ![Get started button](media/teams-get-started-2.png "Selected Get Started")
    
    > [!NOTE]
-   >  - If there is channel that is already set-up, then can use the existing pinned channel by selecting channel and then select **Start collaboration**. This will open the Team app and go to the pinned channel that you selected. Or, you can create a new channel, by selecting **Create a new connection**.
+   >  - If there is channel that is already set-up, then you can use the existing pinned channel by selecting channel and then select **Start collaboration**. This will open the Teams app and go to the pinned channel that you selected. Or, you can create a new channel, by selecting **Create a new connection**.
     
       > [!div class="mx-imgBorder"]
       > ![Select existing channel](media/teams-existing-channel-screen-note.png "Selected existing channel")
