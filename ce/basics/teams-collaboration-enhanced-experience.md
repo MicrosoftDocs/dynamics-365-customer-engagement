@@ -99,4 +99,9 @@ When the set-up process is complete, the system will open the Teams app and go t
 
 
 ### See also  
- [Collaborate with Teams - Basic Experience](teams-collaboration.md)
+
+[Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
+
+[Use Teams to open a record or view](teams-work-records-and-view.md)
+
+[Basic Collaboration with Teams](teams-collaboration.md)
