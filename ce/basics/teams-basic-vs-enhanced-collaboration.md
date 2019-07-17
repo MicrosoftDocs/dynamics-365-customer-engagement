@@ -1,5 +1,5 @@
 ---
-title: "Capabilities of the Basic and Enhanced Collaboration Experience with Teams| MicrosoftDocs"
+title: "Difference between the Basic and Enhanced Collaboration Experience with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Capability of the Basic and Enhanced Collaboration Experience with Teams."
 ms.date: 8/5/2019
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Capabilities of the Basic and Enhanced Collaboration Experience with Teams
+# Difference between the Basic and Enhanced Collaboration Experience with Teams
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
