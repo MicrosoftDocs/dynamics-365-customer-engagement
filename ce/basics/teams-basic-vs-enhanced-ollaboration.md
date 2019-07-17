@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
  
- | Collaboration Experience | What's Supported |
+ |  |  |
 |---------|---------|
-|**Basic**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option on a Dynamics 365 Customer Engagement app record, the set-up prcocss happens in the Teams app.</li><br/> <li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app. <br/>**Note:** The option to add recommended members during the manually set-up process from within the Teams app is not supported.</li></ul>       |
-|**Enhanced**    | <ul><li>You need Office 365 tenant admin permissons to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a record or view, a set-up wizard in Dynamics 365 Customer Engagement app will guide you thought the connection process.</li><br/> <li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app and have the option to add recommended members.</li><br/>  </ul>  
+|**Basic Collaboration Experience**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option on a Dynamics 365 Customer Engagement app record, the set-up prcocss happens in the Teams app.</li><br/> <li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app. <br/>**Note:** The option to add recommended members during the manually set-up process from within the Teams app is not supported.</li></ul>       |
+|**Enhanced Collaboration Experience**    | <ul><li>You need Office 365 tenant admin permissons to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a record or view, a set-up wizard in Dynamics 365 Customer Engagement app will guide you thought the connection process.</li><br/> <li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app and have the option to add recommended members.</li><br/>  </ul>  
