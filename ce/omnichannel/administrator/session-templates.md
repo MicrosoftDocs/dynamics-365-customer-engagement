@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Session templates in Omnichannel are a combination of attributes and application tab information that are reusable. 
+Session templates in Omnichannel for administrator app are a combination of attributes and application tab information that are reusable. 
 
 ## Overview
 
