@@ -49,9 +49,9 @@ To create a new marketing form, do one of the following:
 
 - Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Marketing** > **Internet marketing** > **Marketing forms**.
+- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form (be sure to save your page design first if you haven't already done so). You'll then be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
+The form designer is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
@@ -110,6 +110,16 @@ In addition to the basic form design, each marketing-form record also includes a
 - **Timeline**: Shows a history of notes and other activities related to the current form. Most types of entities in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] include this type of display.
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
+
+## Go live to make your marketing form available for use
+
+While you are building a marketing form it remains in draft status, and is therefore editable in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] but is unavailable for use on marketing pages. When your form is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be moved to the live state, thereby making it available for use on a marketing page or to be [embedded on an external site](embed-forms.md). If a problem is found, read the error message, address the issue, and try again.
+
+You can edit a live form by selecting **Edit** in the command bar. While you are editing it, it remains functional on all live pages where it is already being used, and available for use on new pages. After editing, select **Save** to go live with your changes. Your design will be checked for errors and then, provided it passes, your updates will be published.
+
+You can prevent a live form from being available for use on new pages by selecting **Stop** in the command bar. <!-- Stopped forms can't be added to new pages, but will continue to function on pages that are already live. However, if you edit or stop a page that includes a stopped form, you'll need to go live with the form (or pick another live form) before you can go live with that page again. -->
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Go live with publishable entities and track their status](go-live.md)
 
 ## Establish marketing-form templates
 

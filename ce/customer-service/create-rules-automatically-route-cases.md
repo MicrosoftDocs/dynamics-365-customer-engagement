@@ -29,7 +29,7 @@ search.app:
 Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. 
 
 ## Create a routing rule set  
 
@@ -73,8 +73,6 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
       !["Then Conditions" for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png "Then Conditions  for routing rule in Dynamics CRM")  
 
-
-
 > [!TIP]
 >  To group conditions in the criteria, use the **Group And** or **Group Or** options.  
 
@@ -94,7 +92,18 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 > [!NOTE]
 >  If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
+
+## Recommendation to upgrade solution
+
+Perform the following steps before you upgrade a solution:
+
+1.	Deactivate the Routing Rule Sets which are brought through the previous version of the solution. The state of Routing Rule Sets changes to draft.
+
+2.	Upgrade your solution as required. 
+
+3.	After the successful upgrade of the solution, activate the Routing Rule Sets as required.
+
   
 ### See also 
-[Create and manage queues](set-up-queues-manage-activities-cases.md)
 
+[Create and manage queues](set-up-queues-manage-activities-cases.md)

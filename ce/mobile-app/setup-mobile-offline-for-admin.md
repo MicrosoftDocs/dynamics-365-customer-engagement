@@ -267,7 +267,8 @@ Admins can define a custom filter based on the following rules. You can create f
 Once you have created a mobile offline profile, you can start adding users to the profile.  
   
 > [!NOTE]
-> You can add a user to only one mobile offline profile.  
+> You can add a user to only one mobile offline profile.
+> Each time user is added to the mobile offline profile, mobile offline profile need to be published again. 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  
