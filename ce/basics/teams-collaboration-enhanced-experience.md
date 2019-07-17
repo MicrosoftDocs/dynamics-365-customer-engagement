@@ -51,6 +51,7 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin r
       > [!div class="mx-imgBorder"]
       > ![Select existing channel](media/teams-existing-channel-screen-note.png "Selected existing channel")
    
+     >  - If you selected an existing channel where you are not the owner or member, then when the Teams app opens select **Join** to send request to be added to the channel. 
    
 4. To pin the record to an exising team or a new team, do one of the following:
 
