@@ -36,7 +36,7 @@ With the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft
 Enabling this setting will hide the option to track an email/appointment without a **Regarding** record in App for Outlook. Previously tracked items without **Regarding** will be unaffected. HOwever, if such an item is untracked, then it cannot be tracked again without a **Regarding** record as long as the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) is enabled.
 
    
-    > [!NOTE]
+   > [!NOTE]
    > - This OrgDBOrgSetting does not apply to tracking contacts through Dynamics 365 App for Outlook.
    > - This is an existing OrgDBOrgSetting which only applied to Dynamics 365 for Outlook and it will not apply to App for Outlook as well.
 
