@@ -61,3 +61,51 @@ To view a consolidated file list across all document locations including all con
 
 > [!div class="mx-imgBorder"] 
 > ![Document location](media/doclocation1.png "Document location")
+
+## Record types supporting Collaborate    
+
+Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share feature will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
+
+> [!NOTE]
+   >  The list below shows the logical name of an entity (not the display name).
+ 
+- Account
+-	Agreement
+-	Annotation
+- Appointment
+-	Businessunit
+-	Campaign
+-	Case
+-	Category
+-	Competitor
+-	Contact
+-	Email
+-	Expense
+-	Fulfillment Preference
+- Inventory Adjustment
+-	Inventory Transfer
+-	Invoice
+-	Kbarticle
+-	Knowledge Article
+-	Lead
+-	Opportunity
+-	Opportunityproduct
+-	Order
+-	Product
+-	Project
+-	Purchase Order
+-	Purchase Order Receipt
+-	Quote
+-	Resource Request
+-	RMA
+-	RMA Receipt
+-	RTV
+-	Sales Literature
+-	Task
+-	Team
+-	Work Order
+
+If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 for Customer Engagement apps.
+
+When the feature is enabled, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md)
+
