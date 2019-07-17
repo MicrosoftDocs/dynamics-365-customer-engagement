@@ -29,7 +29,7 @@ search.app:
 <a name="bkmk_enable"></a> 
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
 
-By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
+By default, the basic and enhanced Microsoft Teams integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
