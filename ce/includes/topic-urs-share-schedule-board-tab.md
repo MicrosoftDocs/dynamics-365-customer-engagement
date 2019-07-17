@@ -57,7 +57,7 @@ Double-click the record to go to the form, and select **Share** on the top ribbo
 Finally, use the pop up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of choosing users and teams to share the schedule baord with](../field-service/media/schedule-board-share-permissions.png)
+> ![Screenshot of choosing users and teams to share the schedule board with](../field-service/media/schedule-board-share-permissions.png)
 
 ## Additional notes
 
