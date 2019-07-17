@@ -31,5 +31,5 @@ search.app:
  
  | Collaboration Experience | What's Supported |
 |---------|---------|
-|**Basic**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option on a record, the connection is set-up in the Teams app.</li><br/> <li></li></ul>       |
-|**Enhanced**    | <ul><li>YOu need Office 365 tenant admin permissons to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a record or view, a set-up wizard will guide you thought the connection process in the Dynamics 365 Customer Engagement app.</li><br/> <li></li><br/>  <li></li><br/> <li></li><br/>  <li></li></ul>  
+|**Basic**     |  <ul><li>You need system admin permissions to enable this feature.</li><br/>  <li>When you choose the **Collaborate** option on a Dynamics 365 Customer Engagement app record, the set-up prcocss happens in the Teams app.</li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app.<br/> <li></li></ul>       |
+|**Enhanced**    | <ul><li>You need Office 365 tenant admin permissons to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on a record or view, a set-up wizard in Dynamics 365 Customer Engagement app will guide you thought the connection process.</li>You can manually pin Dynamics 365 Customer Engagement app records from within the Teams app and have the option to add recommended members.<br/> <li></li><br/>  <li></li><br/> <li></li><br/>  <li></li></ul>  
