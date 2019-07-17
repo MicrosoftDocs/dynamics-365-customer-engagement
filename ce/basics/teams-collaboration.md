@@ -45,11 +45,14 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
 3. Select **Entity Selection** or **View Selection**.
 
-    3.1 **Entity Selection**: Search for an entity to connect. You can pick a recently viewed record or use search to find records. You     can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+- **Entity Selection**
+    1. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type.
 
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
+    2. If you are the owner of the team, you will see an option to add other members to the taeam who either own the reocrd or it has been shared with them. When you are done select **Save**. 
+     
     Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement   apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement     apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement  apps.
 
     > [!div class="mx-imgBorder"] 
@@ -71,7 +74,8 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
     > [!div class="mx-imgBorder"] 
     > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
-   3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. Once you've picked a view, select **Save**.
+- **View Selection**
+    1. Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. Once you've picked a view, select **Save**.
   
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view.png "Select an view")
