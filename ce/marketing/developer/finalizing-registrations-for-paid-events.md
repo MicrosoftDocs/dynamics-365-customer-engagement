@@ -20,16 +20,10 @@ manager: kvivek
 
 This topic walks you through the process of developing a .NET Core application that authenticates against Dynamics 365 for Marketing and triggers a custom action that finalizes the registration process for paid events. Before going through the topic, make sure that you read and understand [Set up online payments for events](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/event-payment-gateway#develop-a-service-to-finalize-event-registration).  
 
-In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the services that finalize the paid registrations. 
-
-
-<!--In the sentence above, I wasn't sure if you wanted to say "services that finalize" or "service that finalizes." 
-Below, although I don't find a single, definitive style for "Xrm," I most often find it as "xRM". 
--->
-
+In this topic, we use [OAuth]( https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth) as an authentication mechanism and [Dynamics 365 Web API](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api) to trigger the custom action. This approach works universally with most of the programming languages and frameworks, which means that you’re not forced to use C# or .NET Core for building the service that finalize the paid registrations. 
 
 > [!NOTE]
-> If you choose to use .NET Framework for developing your service, you can use the Xrm tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 for Marketing. More information: [Authenticate with .NET Framework applications](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
+> If you choose to use .NET Framework for developing your service, you can use the XRM tooling library to authenticate and connect to the organization service. This library makes it more convenient to communicate with Dynamics 365 for Marketing. More information: [Authenticate with .NET Framework applications](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-dot-net-framework) 
  
 ## Prerequisites 
 
@@ -50,10 +44,6 @@ Follow these steps to register your application:
 
 1. Navigate to **Office 365 Admin center** by expanding the **Admin centers** tab in the left navigation pane, and select **Azure Active Directory**. 
 
-
-<!-- If you click Azure Active Directory (above), do you still need to navigate to Azure Active Directory (below)? -->
-
-
 1. Navigate to **Azure Active Directory**, select **App registrations**, and then select **New registration**. 
 
     ![Azure app registration](../media/azure-app-registration.png "Azure app registration")
@@ -64,10 +54,6 @@ Follow these steps to register your application:
 
 1. Select **Register**. 
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
-
-
-<!-- In the following, does the client secret value show up when you select New client secret? -->
-
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
 
@@ -93,20 +79,10 @@ In this step, create an application user and associate the application user with
 
 ## Step 3: Assigning a security role to an application user 
 
-
-<!-- Below, it says this is the last step. But there are still steps 4 and 5 after this. -- >
-
-
-The last step is to assign the required security roles to the application user. You have to create a security group on your own. You need the following privileges: 
+The next step is to assign the required security roles to the application user. You have to create a security group on your own. You need the following privileges: 
 
 > [!NOTE]
 > In the upcoming August 2019 release, a new security role that contains all the required privileges to finalize the registration will be introduced. To assign this role, select **Manage roles** and then select **Finalize RegistrationService**. 
-
-
-<!--Above, should "RegistrationService" be one word? 
-Also, can the note go in a different spot? It gets in the way of the introductory sentence and the list of privileges. -->
-
-
 
 ``` XML
     <RolePrivilege name="prvAppendContact" level="Global" /> 
@@ -202,12 +178,8 @@ Also, can the note go in a different spot? It gets in the way of the introductor
 
 Implement the custom logic to authenticate against Dynamics 365 for Marketing. The outcome of the authentication should be an access token. If you’re not able to retrieve an access token, check your configuration. 
 
-
-<!-- The link below on How to authenticate against Dynamics 365 doesn't open a page with that header. That's confusing. -->
-
-
 > [!NOTE] 
-> For a fully working example, check the code from the [Sample Code](#sample-code) section. More information: [How to authenticate against Dynamics 365](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
+> For a fully working example, check the code from the [Sample Code](#sample-code) section. More information: [Authenticate using OAuth](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/authenticate-oauth#use-the-accesstoken-with-your-requests)
 
 ```csharp
 public static string AuthenticateToDynamics365()
@@ -270,10 +242,6 @@ The following sample code shows how to authenticate and trigger the custom actio
 
 > [!NOTE]
 > You should not enter either client ID or client secret values directly in code. This is only done to improve the readability of the sample code. 
-
-
-<!--Note that in line 329 below, it says "respones" instead of "response." Is that OK? -->
-
 
 ```csharp 
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
