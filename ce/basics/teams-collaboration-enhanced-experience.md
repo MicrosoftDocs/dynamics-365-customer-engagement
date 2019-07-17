@@ -32,7 +32,7 @@ Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams
 
 The [basic collaboration experience](teams-collaboration.md) only lets you pin records to a Teams channel from within Teams. The enhanced collaboration experience lets you pin a record or a view of records to a Teams channel while you are working in Dynamics 365 for Customer Engagement apps.
 
-For more information on which entities support the collaborate option, see [Record types supporting Collaborate](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-collaboration#record-types-supporting-collaborate).
+For more information on which entities support the collaborate option, see [Record types supporting collaborate](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-collaboration#record-types-supporting-collaborate).
 
 ## Pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel
 
