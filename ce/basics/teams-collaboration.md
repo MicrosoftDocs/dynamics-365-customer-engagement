@@ -29,6 +29,8 @@ search.app:
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 for Customer Engagement apps record connections made in teams and channels in Microsoft Teams.
 
+For more information on which entities support the collaborate option, see [Record types supporting collaborate](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-work-records-and-view#record-types-supporting-collaborate)
+
 ## Connect a Dynamics 365 for Customer Engagement apps record or view to a team channel
 
 From a team channel, you can connect a Dynamics 365 for Customer Engagement apps record or view to collaborate on customer accounts,  opportunities, and so on as follows. 
@@ -124,4 +126,6 @@ In addition, document management actions in Dynamics 365 for Customer Engagement
 
 ### See also  
  [Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
+[Enhanced Collaboration with Teams](teams-collaboration-enhanced-experience.md)
+ [Use Teams to open a record or view](teams-work-records-and-view.md)
 
