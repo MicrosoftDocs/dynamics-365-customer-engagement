@@ -25,16 +25,15 @@ search.app:
 ---
 # Expand the fields search on in Regarding lookup 
 
-To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
+To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s quick find view.
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Choose an entity, then choose **Views**.
-3. Open **Account Lookup View**.
+3. Open **Account Quick View**.
 
    ![Account lookup view](media/account-lookup-view.png)
 4. Enable the custom field, and then choose **OK**.
 
-   ![Enable custom field](media/add-custom-field.png)
 5. Choose **Save** > **Publish** on the **Home** tab.
   
   
