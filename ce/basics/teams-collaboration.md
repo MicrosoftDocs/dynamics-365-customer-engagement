@@ -106,7 +106,19 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
    You can return to these settings any time by selecting the **Settings** tab.
 
+## Teams integration in Dynamics 365 for Customer Engagement apps
 
+In Dynamics 365 for Customer Engagement apps, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
+
+In Dynamics 365 for Customer Engagement apps records, select **Collaborate** to display a list of all the connected team channels. Then, select a team channel to go to the relevant channel conversation in Teams.
+
+> [!div class="mx-imgBorder"] 
+> ![From Dynamics 365 for Customer Engagement apps, open a conversation in Teams](media/teams-select-collaborate.png "From Dynamics 365 for Customer Engagement apps, open a conversation in Teams")
+
+In addition, document management actions in Dynamics 365 for Customer Engagement apps are integrated with Teams. You can see the channel file library in Dynamics 365 for Customer Engagement apps and directly upload files; uploaded files will appear in the Teams channel file library under the **Files** tab. Files uploaded in the Teams app will appear in the **Documents** tab in Dynamics 365 for Customer Engagement apps.
+
+> [!div class="mx-imgBorder"] 
+> ![Dynamics 365 for Customer Engagement apps document management in Teams](media/teams-documents-d365.png "Dynamics 365 for Customer Engagement apps document management in Teams")
 
 ## Record types supporting Collaborate    
 
