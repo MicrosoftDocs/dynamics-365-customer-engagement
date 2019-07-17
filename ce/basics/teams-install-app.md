@@ -33,7 +33,7 @@ By default, Microsoft Teams integration is disabled. To turn this feature on, fo
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. For the [bacic collaboration experience](teams-collaboration.md), enable **Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
+3. For the [basic collaboration experience](teams-collaboration.md), enable **Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
 4. For the [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), enable **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in  Dynamics 365 for Customer Engagement apps and you can set up a connection all within Dynamics 365 app.
 
    > [!div class="mx-imgBorder"] 
