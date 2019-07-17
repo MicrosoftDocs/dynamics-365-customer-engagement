@@ -90,7 +90,7 @@ When you send email from Dynamics 365 for Marketing, your messages come from a d
 Dynamics 365 for Marketing helps you to generate, register, and confirm DKIM keys for each of your sending domains. See [Authenticate your domains](marketing-settings.md#authenticate) for instructions.
 
 > [!IMPORTANT]
-> If your organization uses _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) to help protect against phishing attacks involving your domain, then it's extra important that you set up DKIM for your sending domains as described in [Authenticate your domains](marketing-settings.md#authenticate). DMARC requires you to have either your own envelope domain or your own DKIM signing domain, but it's best to have both to help minimize false positives during a DMARC check by the receiving party.
+> If your organization uses _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's extra important that you set up DKIM for your sending domains as described in [Authenticate your domains](marketing-settings.md#authenticate). This will help to prevent false positives during DMARC checks made by receiving systems.
 
 ## Test your deliverability
 
