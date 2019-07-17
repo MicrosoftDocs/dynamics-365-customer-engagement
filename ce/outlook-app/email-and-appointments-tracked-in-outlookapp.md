@@ -26,17 +26,17 @@ search.app:
 # Ensure emails and appointments are tracked with a Regarding record in Dynamics 365 App for Outlook
 
 
-Dynamics 365 App for Outlook allows people to track emails and appointments from Outlook to Dynamics 365. There are two options to track:
+Dynamics 365 App for Outlook allows people to track emails and appointments from Outlook to Dynamics 365 Customer Engagement apps. There are two options to track: 
 
-1.	Track the email/appointment to Dynamics 365 without Regarding.
-2.	Track the email/appointment to Dynamics 365 with Regarding, so the communication is associated to a specific record.
+-	Track the email/appointment to Dynamics 365 without **Regarding**.
+-	Track the email/appointment to Dynamics 365 with **Regarding**, so the communication is associated to a specific record.
 
 
-With the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm), you can ensure that everyone in your organization who has App for Outlook always tracks the email/appointment with a Regarding record.
-Enabling this setting will hide the option to track an email/appointment without a Regarding record in App for Outlook. Previously tracked items without regarding will be unaffected. But if such an item is untracked, then it cannot be tracked again without a Regarding record as long as the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) is enabled.
+With the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm), ensure that everyone in your organization who has App for Outlook always tracks the email/appointment with a Regarding record.
+Enabling this setting will hide the option to track an email/appointment without a **Regarding** record in App for Outlook. Previously tracked items without **Regarding** will be unaffected. HOwever, if such an item is untracked, then it cannot be tracked again without a **Regarding** record as long as the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm) is enabled.
 
    
     > [!NOTE]
-   > 1.	This OrgDBOrgSetting does not apply to tracking contacts through Dynamics 365 App for Outlook
-   > 2.	This is an existing OrgDBOrgSetting which only applied to Dynamics 365 for Outlook and it will not apply to App for Outlook as well.
+   > - This OrgDBOrgSetting does not apply to tracking contacts through Dynamics 365 App for Outlook.
+   > - This is an existing OrgDBOrgSetting which only applied to Dynamics 365 for Outlook and it will not apply to App for Outlook as well.
 
