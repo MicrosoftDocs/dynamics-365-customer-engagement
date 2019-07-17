@@ -127,5 +127,6 @@ In addition, document management actions in Dynamics 365 for Customer Engagement
 ### See also  
  [Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
 [Enhanced Collaboration with Teams](teams-collaboration-enhanced-experience.md)
- [Use Teams to open a record or view](teams-work-records-and-view.md)
+
+[Use Teams to open a record or view](teams-work-records-and-view.md)
 
