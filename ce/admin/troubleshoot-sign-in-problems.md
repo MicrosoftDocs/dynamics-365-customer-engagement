@@ -91,6 +91,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
 > -   .crm8 for India (IND)  
 > -   .crm9 for United States of America Government  
 > -   .crm11 for United Kingdom (UK)  
+> -   .crm12 for France (FRA)
   
  After entering your URL, you’ll be prompted for your user name. Your user name will be in one of the following formats:  
   
