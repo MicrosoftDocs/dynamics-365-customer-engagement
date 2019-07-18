@@ -14,7 +14,7 @@ ms.custom:
 ---
 # View communication panel
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 The communication or conversation panel shows the exchange of messages between you and the customer. The communication panel can hosts different channels.
 

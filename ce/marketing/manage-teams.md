@@ -2,7 +2,7 @@
 title: "Administer teams of users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Organize users into teams and apply roles to teams in Dynamics 365 for Marketing"
 keywords: administration; organization settings; user; team; role; permission; fiscal year
-ms.date: 12/17/2018
+ms.date: 06/21/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -32,19 +32,24 @@ search.app:
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
-1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
+## Create a team
+
+To create a new team:
+
+1. Go to **Settings** > **Advanced settings** > **Organization** > **Team management**. 
 1. Select the **Add Team** button in the heading of the page.
-1. Enter the following details.
-    - **Team Name**: Give the team a name
-    - **Business Unit Name**: This read-only value is your organization name.
-    - **Team Description**: Describe the team.
-    - **Team Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members.
-1. Select the **Add** button.
+1. The **Add new team** fly-out slides in from the side of the page. Enter the following details.
+    - **Team name**: Give the team a name
+    - **Business unit name**: This read-only value is your organization name.
+    - **Team sescription**: Describe the team.
+    - **Team administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members.
+1. Select the **Add** button at the bottom of the fly-out.
 
 ## Add or remove members to the team
 
-1. On the **Team Management** page and select the team you want to add members to.
-1. The **Team members** section lists the current team members. Do one of the following here:
+1. Go to **Settings** > **Advanced settings** > **Organization** > **Team management**.
+1. Find and open the team in the list that you want to edit.
+1. The team record opens. Use the **Team members** section here to view and edit the team members as follows:
     - To add a member, select the **Add existing user** button at the top of the **Team members** section and then select one or more existing users to add.
     - To remove a member, select the target member to highlight it, then select the **Remove** button at the top of the **Team members** section.
 1. Save your settings.
@@ -61,7 +66,7 @@ To apply security roles to teams, and to customize each role:
 
 For more information about managing teams and working with security roles, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
-For more information about the security roles included with the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], see [Manage users](manage-users.md).
+For more information about the security roles included with the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md).
 
 ### See also
 

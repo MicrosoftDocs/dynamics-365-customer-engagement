@@ -15,6 +15,8 @@ ms.custom:
 
 # Understand conversation states in Omnichannel
 
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+
 The topic explains the various states of the conversation (work item) in Omnichannel.
 
 Types of conversation states:

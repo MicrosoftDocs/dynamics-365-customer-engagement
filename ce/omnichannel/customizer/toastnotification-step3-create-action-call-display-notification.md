@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Step 3: Create an action call to display the notification 
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Prerequisites
 

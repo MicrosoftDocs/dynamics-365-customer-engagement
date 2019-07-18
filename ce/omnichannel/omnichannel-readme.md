@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 07/10/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
@@ -15,12 +15,38 @@ ms.custom:
 
 # Omnichannel for Customer Service readme (known issues and limitations)
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The topic explains the known issues and limitations of Omnichannel for Customer Service.
 
 > [!Important]
 > We recommend updating Omnichannel for Customer Service to the latest versions for the best experience. More information: [Upgrade Omnichannel for Customer Service](administrator/upgrade-omnichannel.md)
+
+
+## Closed conversations don't appear in the Closed work items stream and Closed conversations view
+
+After you upgrade Omnichannel for Customer Service to the latest version in the sandbox or trial environment, conversations that agent closes may not appear in the **Closed work items** stream of the agent dashboard and closed conversations view.
+
+### Workaround
+
+As an administrator, you must activate the **SDK Message Processing Steps** associated to Omnichannel solution.
+
+To workaround the issue, follow these steps:
+
+1. Sign in to Dynamics 365 for Customer Engagement apps.
+
+2. Go to **Settings** > **Customizations**.
+
+3. Select **Customize the System**.
+
+4. Select all the Omnichannel associated plugins. See the image to select the Omnichannel associated plugins.
+
+    > [!div class='mx-imgBorder']
+    > ![Omnichannel plugins](media/oceh/omnichannel-plugins-1.PNG "Omnichannel plugins")
+
+5. Select **Activate** from the command bar. The **Confirm Sdk Message Processing Step Activation** dialog appears. 
+
+6. Select **Activate** to enable the plugins.
 
 ## Messages repeated in the quick replies menu
 

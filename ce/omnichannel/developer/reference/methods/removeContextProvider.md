@@ -14,7 +14,7 @@ ms.custom:
 ---
 # removeContextProvider
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[removeContextProvider-description](../includes/removeContextProvider-description.md)]
 

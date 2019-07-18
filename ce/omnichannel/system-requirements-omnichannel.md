@@ -2,7 +2,7 @@
 title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
 keywords: ""
-ms.date: 07/01/2019
+ms.date: 07/12/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -18,7 +18,7 @@ manager: shujoshi
 
 # Pre-requisites and system requirements of Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 This topic provides information about the pre-requisites and system requirements for deploying Omnichannel for Customer Service on a Dynamics 365 for Customer Engagement organization.
 
@@ -70,6 +70,8 @@ The Chat for Dynamics 365 service is available in the following regions currentl
 - North America 
 - Europe
 - Canada
+- United Kingdom
+- Government Cloud Computing (GCC)
 
 For the service to work, your tenant and organization have to be co-located in one of these regions.
 

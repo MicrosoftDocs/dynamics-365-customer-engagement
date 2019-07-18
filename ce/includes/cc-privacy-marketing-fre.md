@@ -21,7 +21,7 @@ Data flows involving the customer-insights services include the following:
 
 ### Marketing services
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses these Azure services:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses these Azure services, all of which are set up for you automatically as needed (and at no extra charge) when you install the Marketing app:
 
 - Azure Data Lake Store
 - Azure Data Lake Analytics
@@ -40,7 +40,7 @@ By using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketi
 
 The customer-insights services are natively built on Azure services, and respective compliance and security standards for each applicable Azure service apply. For more information, go to the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Trust Center: [https://azure.microsoft.com/support/trust-center/](https://azure.microsoft.com/support/trust-center/)
 
-The customer-insights services use these Azure services:
+The customer-insights services use these Azure services, all of which are set up for you automatically as needed (and at no extra charge) when you install the Marketing app:
 
 - Azure Data Lake Store
 - Azure Data Lake Analytics

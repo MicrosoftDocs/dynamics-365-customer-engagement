@@ -14,7 +14,7 @@ ms.custom:
 
 # Step 5: Configure window navigation rule for communication panel
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The topic describes how to create window navigation rule for communication panel.
 

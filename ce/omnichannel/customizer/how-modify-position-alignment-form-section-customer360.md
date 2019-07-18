@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Modify the position or alignment of a section in the Customer summary
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 1. Sign in to Dynamics 365 for Customer Engagement instance.
 

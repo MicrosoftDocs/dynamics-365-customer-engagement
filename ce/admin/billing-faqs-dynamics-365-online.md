@@ -1,6 +1,6 @@
 ---
-title: "Billing FAQs for Dynamics 365 for Customer Engagement apps (online) Customer Engagement | MicrosoftDocs"
-description: "We’ve put together this list of the most frequently asked billing and subscription management questions for Dynamics 365 for Customer Engagement apps (online) Customer Engagement"
+title: "Billing FAQs for Customer Engagement| MicrosoftDocs"
+description: "We’ve put together this list of the most frequently asked billing and subscription management questions for Customer Engagement (online)"
 ms.custom: 
 ms.date: 04/15/2019
 ms.reviewer: 
@@ -22,7 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Billing FAQs for Dynamics 365 for Customer Engagement apps (online) Customer Engagement
+# Billing FAQs for for Customer Engagement 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

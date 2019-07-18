@@ -3,7 +3,7 @@ title: "Performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 02/06/2018
+ms.date: 07/12/2018
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -153,7 +153,9 @@ Window navigation rule for different entity navigation, you can change the windo
 
 #### Add the BlockChromeProcessSecondInlineNavigation UII option
 
-If you face challenges to change the window navigation rule, you can block the second inline navigation by adding the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **True**.
+By default, second inline navigation is blocked when using Chrome Process. That is, the option is enabled by default. However, if you want to allow the second inline navigation, that is, disable the option, create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**. 
+
+After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
@@ -167,7 +169,7 @@ If you face challenges to change the window navigation rule, you can block the s
 
 6. Type **BlockChromeProcessSecondInlineNavigation** for the **Name** field.
 
-7. Set **True** for the **Value** field.
+7. Set **True** or **False** for the **Value** field. When you set **True**, the option is enabled, and when you set **False**, the option is disabled.
 
 8. Select **Save**.
 

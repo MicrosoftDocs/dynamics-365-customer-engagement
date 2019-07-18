@@ -22,7 +22,8 @@
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
-## [Policies and Communications](policies-communications.md)
+## [Policies and communications](policies-communications.md)
+## [Notifications explained](notifications-explained.md)
 
 # Switch from CRM Online to Customer Engagement
 ## [Overview](switch-dynamics-crm-online-dynamics-365.md)

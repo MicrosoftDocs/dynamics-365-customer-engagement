@@ -15,7 +15,7 @@ ms.custom:
 
 # Link and unlink a record to the conversation
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 The topic explains how to link and unlink a record to the conversation.
 
