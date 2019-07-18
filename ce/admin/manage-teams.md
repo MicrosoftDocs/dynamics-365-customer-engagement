@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/07/2019
+ms.date: 07/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -210,16 +210,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 > - **System Administrator and Environment Maker security roles**. These are special administrator's security roles and they need to be assigned to the user directly. If these security roles are assigned to Group teams, team members get the team privileges only and won't have any direct/inherited privileges. Team members won't be able to perform all the system administrator and environment maker functions. In addition they won't be able to see the list of all the environments in their tenant. 
 > - **Impersonate an Azure AD group team member**. To make user impersonation calls on behalf of an Azure AD group team member using Dynamics 365 Web services, the group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
 
-## About access teams and team templates
-
-You can create an access team manually by choosing the team type Access, or let the system create and manage an access team for you. When you create an access team, you can share multiple records with the team.
-
-A system-managed access team is created for a specific record, other records can’t be shared with this team. You have to provide a team template that the system uses to create a team. In this template, you define the entity type and the access rights on the record that are granted to the team members when the team is created.
-
-A team template is displayed on all record forms for the specified entity as a list. When you add the first user to the list, the actual access team for this record is created. You can add and remove members in the team by using this list. The team template applies to the records of the specified entity type and the related entities, according to the cascading rules. To give team members different access on the record, you can provide several team templates, each template specifying different access rights. For example, you can create a team template for the Account entity with the Read access right, which allows the team members to view the specified account. For another team that requires more access to the same account, you can create a team template with Read, Write, Share and other access rights. To be added to the team, a minimum access level a user must have on the entity specified in the template is Basic (User) Read.
-
-Because of the parental relationship between the team template and system-managed access teams, when you delete a template, all teams associated with the template are deleted according to the cascading rules. If you change access rights for the team template, the changes are applied only to the new auto-created (system-managed) access teams. The existing teams are not affected.
-
 <a name="AboutAccess"></a>   
 
 ## About access teams and team templates  
@@ -241,7 +231,7 @@ For example, you can create a team template for the Account entity with the Read
 <a name="MaxSettings"></a>  
  
 ## Maximum settings for system-managed access teams  
- The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TeamSettings](Update%20deployment%20configuration%20settings.md#team) or -->   
+ The maximum number of team templates that you can create for an entity is specified in the `MaxAutoCreatedAccessTeamsPerEntity` deployment setting. The default value is 2. The maximum number of entities that you can enable for auto-created access teams is specified in the `MaxEntitiesEnabledForAutoCreatedAccessTeams` deployment setting. The default value is 5. You can use the `Set-CrmSetting`[!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] command to update this value.   
   
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)<br /> 
