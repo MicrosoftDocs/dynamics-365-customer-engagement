@@ -15,7 +15,9 @@ ms.reviewer:
 
 With the preview release of PowerApps Portals, you can now update your Dynamics 365 domain `microsoftcrmportals.com` to the PowerApps Portals domain `powerappsportals.com`.
 
-1. Open [PowerApps Portals admin center](admin-overview.md).
+1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page and select the **Applications** tab.
+
+2. Select the name of the portal that you want to disable custom errors, and then select **Manage**.
 
 2. Go to **Portal Actions** > **Update to PowerApps Portals domain**.
 
