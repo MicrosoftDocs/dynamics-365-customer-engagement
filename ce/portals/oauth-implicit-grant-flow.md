@@ -1,9 +1,9 @@
 ---
-title: "Make client-side calls to external APIs and secure them by using OAuth implicit grant flow in Dynamics 365 for Customer Engagement Portal | MicrosoftDocs"
+title: "Use OAuth 2.0 implicit grant flow within your portal | MicrosoftDocs"
 description: "Learn how to make client-side calls to external APIs and secure them by using OAuth implicit grant flow in the Dynamics 365 for Customer Engagement Portal."
 ms.custom: 
   - dyn365-portal
-ms.date: 04/17/2019
+ms.date: 07/18/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -133,3 +133,18 @@ You must register the client ID with the portal for which this flow is allowed. 
 |ImplicitGrantFlow/{ClientId}/RedirectUri|The valid redirect URIs that are allowed for a specific client ID. The values must be separated by a semicolon. The URL provided must be of a valid web page of the portal.|
 |||
 
+## Sample code
+
+You can use the following sample code to get started with using OAuth 2.0 Implicit Grant with Dynamics 365 for Customer Engagement Portal APIs.
+
+### Use Portal OAuth token with an external Web API
+
+This sample is an ASP.NET based project and is used to validate the ID token issued by Dynamics 365 for Customer Engagement Portal. The complete sample can be found here: [Use Portal OAuth token with an external Web API](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample).
+
+### Authorize Endpoint sample
+
+This sample shows how authorize endpoint returns the ID token as a fragment in the Redirected URL. It also covers state validation supported in Implicit Grant. The sample can be found here: [Authorize Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/AuthorizeEndpoint.js).
+
+### Token Endpoint sample
+
+This sample shows how you can use the getAuthenticationToken function to fetch an ID token using the Token endpoint in Dynamics 365 for Customer Engagement Portal. The sample can be found here: [Token Endpoint sample](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js).
