@@ -75,7 +75,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 - Tutorial: [Set up lead scoring](set-up-lead-scoring.md)
 - [Design lead-scoring models](score-manage-leads.md)  
-- [Register contacts' engagement](register-engagement.md)  
+- [Register link clicks and website visits](register-engagement.md)  
 - [Manage customer information](manage-customer-information.md)
 
 ## Browse all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] videos on YouTube
