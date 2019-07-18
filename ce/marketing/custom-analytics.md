@@ -84,7 +84,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
     - **Export to blob storage URL** : Paste the URL you copied earlier in this procedure.
 
     > [!NOTE]
-    > The URL you pasted here includes a connection string to connect to your blob storage. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. This URL _won't_ be stored in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in [!include[](../includes/pn-azure-shortest.md)].
+    > The URL you pasted here includes a connection string to connect to your blob storage. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in [!include[](../includes/pn-azure-shortest.md)].
 
 1. Save your settings.
 
