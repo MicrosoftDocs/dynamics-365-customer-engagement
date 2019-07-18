@@ -2,7 +2,7 @@
 title: "Try Chat for Dynamics 365 | MicrosoftDocs"
 description: "Learn how you can try out Chat For Dynamics 365 to connect and engage with your customers in real time."
 keywords: "try, Chat, Chat for Dynamics 365, Trials, sign in, sign-in, login"
-ms.date: 07/01/2019
+ms.date: 07/18/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -20,7 +20,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Chat for Dynamics 365 is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant. This topic explains the steps to help you sign up for a trial of Chat for Dynamics 365.
+Chat for Dynamics 365 is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant.
+
+You can sign-up for a free 30-day trial of Chat from the Microsoft 365 Admin Center only if you have a paid subscription of either Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan that has been purchased directly through the Microsoft 365 Admin Center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available. Stay tuned for availability of free 30-day trial of Chat through other mechanisms.
+
+This topic explains the steps to help you sign up for a trial of Chat for Dynamics 365.
 
 
 > [!NOTE]
@@ -30,11 +34,13 @@ Chat for Dynamics 365 is an engagement channel that enables your agents to conne
 
 1. Go to <https://portal.office.com> and sign in with the global administrator credentials. 
 
-2. Go to **Billing** > **Purchase Services**, and select **Add-on subscriptions**. 
+2. Go to **Billing** > **Purchase Services**, and select **Add-ons**. 
 
-    You'll see **Dynamics 365 for Customer Service Chat** under **Add-on subscriptions**. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant, otherwise the **Dynamics 365 for Customer Service Chat** option won't be visible.
+  ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
 
-    ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
+  You'll see **Dynamics 365 for Customer Service Chat Trial** under **Add-on**. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant that was purchased directly through the Microsoft 365 Admin Center (that is, Web Direct channel), otherwise the **Dynamics 365 for Customer Service Chat Trial** option won't be visible.
+
+  ![Dynamics 365 for Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 for Customer Service Chat Trial option")
     
 You can start a 30-day trial of Chat with 25 user licenses. After signing up for a trial, you must assign licenses of Chat to the users who need to engage with customers and provide support via Chat. This can be done by selecting one or more active users and editing their product licenses. After you're done, select **Save**.
 
