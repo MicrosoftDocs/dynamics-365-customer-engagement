@@ -154,7 +154,7 @@ Here are a few more examples of how to use hops to create useful conditions:
 ### See also
 
 [Set up lead scoring](set-up-lead-scoring.md)  
-[Register contacts' engagement](register-engagement.md)  
+[Register link clicks and website visits](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Go live with publishable entities and track their status](go-live.md)
