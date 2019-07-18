@@ -123,7 +123,6 @@
 #### [Market to leads](market-to-leads.md)
 #### [Account-based marketing](account-based-marketing.md)
 #### [Design lead-scoring models](score-manage-leads.md)
-#### [Register contacts' engagement](register-engagement.md)
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
@@ -154,6 +153,7 @@
 #### [Schedule and post messages on social media](social-posting.md)
 #### [Get social-listening insights](social-listening.md)
 
+### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
 
