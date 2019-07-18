@@ -36,14 +36,17 @@ A team is a group of users who share and collaborate on business records. A user
 
 To create a new team:
 
-1. Go to **Settings** > **Advanced settings** > **Organization** > **Team management**. 
-1. Select the **Add Team** button in the heading of the page.
-1. The **Add new team** fly-out slides in from the side of the page. Enter the following details.
+1. Go to **Settings** > **Advanced settings** > **Organization** > **Team management**.
+1. Select **New** on the command bar.
+1. The **Add new team** page opens. Enter the following details.
     - **Team name**: Give the team a name
-    - **Business unit name**: This read-only value is your organization name.
-    - **Team sescription**: Describe the team.
-    - **Team administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members.
-1. Select the **Add** button at the bottom of the fly-out.
+    - **Business unit**: Select the business unit that members of this team belong to.
+    - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members.
+    - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md).
+    - **Azure AD object ID for a group**: If you are using an AAD-related **Team type**, then specify the relevant Azure AD object ID here.
+    - **Description**: Describe the team.
+1. Select **Save** on the command bar.
+1. The page reloads, now showing a **Team members** table. Use the settings here to view, add, or remove  members for the team.
 
 ## Add or remove members to the team
 
