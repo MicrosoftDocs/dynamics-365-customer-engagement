@@ -25,17 +25,17 @@ Customers can overwrite the out-of-the-box transformer logic by creating a plugi
 
 Follow the procedure given below to extend the transformer logic for your knowledge article templates.
 
-    1. Copy and paste the sample code given below into your plugin code to create a logic where the content section of the knowledge article template is pre-populated with "Hello World".
+1. Copy and paste the sample code given below into your plugin code to create a logic where the content section of the knowledge article template is pre-populated with "Hello World".
 
-    ```csharp
-    Entity kaobject = new Entity();
-    kaobject = context.OutputParameters["Result"] as Entity;
-    // Changing the content of knowledge article object to "Hello World"
-    kaobject["content"] = "Hello World";
-    ```
+```csharp
+Entity kaobject = new Entity();
+kaobject = context.OutputParameters["Result"] as Entity;
+// Changing the content of knowledge article object to "Hello World"
+kaobject["content"] = "Hello World";
+```
 
-    2. While registering, select `PostOperation` in **Event Pipeline Stage of Execution**.
-    3. Once done, select **Register New Step**.
+2. While registering, select `PostOperation` in **Event Pipeline Stage of Execution**.
+3. Once done, select **Register New Step**.
 
 ## See also
 
