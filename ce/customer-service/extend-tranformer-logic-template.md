@@ -1,7 +1,7 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: ""
-keywords:
+keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement;
 author: susikka
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -21,11 +21,14 @@ search.app:
 ---
 # Extend transformer logic on templates
 
-Customers can overwrite the out-of-the-box transformer logic by creating a plugin and registering it as `msdyn_GetKAObjectFromTemplate` message.
+Customers can overwrite the out-of-the-box transformer logic by creating a plug-in and registering it as `msdyn_GetKAObjectFromTemplate` message.
 
 Follow the procedure given below to extend the transformer logic for your knowledge article templates.
 
-1. Copy and paste the sample code given below into your plugin code to create a logic where the content section of the knowledge article template is pre-populated with "Hello World".
+1. Create a plug-in by following the steps mentioned in [Create a plug-in project](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_create).
+2. You can write your own mapping logic with the transformed `kaobject` using `context.OutputParameters["Result"]` as Entity. In this example, we will show how you can pre-populated the knowledge article content section with "Hello World".
+
+In the plug-in that you created, replace the comment `// Plug-in business logic goes here` with the sample code given below.
 
 ```csharp
 Entity kaobject = new Entity();
@@ -34,8 +37,8 @@ kaobject = context.OutputParameters["Result"] as Entity;
 kaobject["content"] = "Hello World";
 ```
 
-2. While registering, select `PostOperation` in **Event Pipeline Stage of Execution**.
-3. Once done, select **Register New Step**.
+2. Follow the steps mentioned in [Register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_register) to register your plug-in using the plug-in registration tool.
+3. Now, when you create a new knowledge article from the existing template, you will be able to see the content section pre-populated with "Hello World".
 
 ## See also
 
