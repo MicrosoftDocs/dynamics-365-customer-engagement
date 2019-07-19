@@ -212,6 +212,46 @@ Managing activities in the timeline wall will be faster and more responsive with
   3. Filter
   4. More commands
 
+  The Timeline section is available on the Summary tab for account, contact, case records, and for knowledge articles, and shows the following:
+- Activity
+  - Appointment
+  - Email
+  - Phone Call
+  - Task
+- Note
+- Post
+
+You can create, edit, and delete an activity, note, post and other interactions from the Timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions – Add info and activities, Open filter pane, and More commands. Use these options to add, filter and sort the interactions on the timeline.
+
+#### **Add info and activities**
+Select + icon in the timeline area to quickly open an activity type page to create and save. The activity type you created, appears in the timeline.
+
+#### **Filter the activities**
+With the help of text and visual filters, you can filter by activity types in the Timeline. You can also view the items from the previous day or week You can filter the interactions using the filter icon in the timeline area.
+
+When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
+
+  | Category | Sub-category |
+  |-----------------------|-----------------------|
+  | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
+  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
+  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> </ul> |
+  | Activity due date (active) | <ul> <li> Last 30 days </li> </ul> |
+  | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
+
+#### **More commands**
+The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the following options: 
+
+- Sort newer to older 
+- Sort older to newer
+
+![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
+
+#### **Take a note**
+You can select the **Enter a note** field in the timeline and specify a title and message. You can also add attachments to your notes.
+
+![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+
 You can do the following:
 
 - Identify the key activities with simple icons.
@@ -252,46 +292,6 @@ You can easily set email messages to show as conversation threads on the timelin
 Select an activity from the timeline to expand and view.
 
 ![Timeline expand and collapse activity](../customer-service/media/timeline-expand-collapse.png "Timeline expand and collapse activity")
-
-The Timeline section is available on the Summary tab for account, contact, case records, and for knowledge articles, and shows the following:
-- Activity
-  - Appointment
-  - Email
-  - Phone Call
-  - Task
-- Note
-- Post
-
-You can create, edit, and delete an activity, note, post and other interactions from the Timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions – Add info and activities, Open filter pane, and More commands. Use these options to add, filter and sort the interactions on the timeline.
-
-#### **Add info and activities**
-Select + icon in the timeline area to quickly open an activity type page to create and save. The activity type you created, appears in the timeline.
-
-#### **Filter the activities**
-With the help of text and visual filters, you can filter by activity types in the Timeline. You can also view the items from the previous day or week You can filter the interactions using the filter icon in the timeline area.
-
-When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
-
-  | Category | Sub-category |
-  |-----------------------|-----------------------|
-  | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
-  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
-  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> </ul> |
-  | Activity due date (active) | <ul> <li> Last 30 days </li> </ul> |
-  | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
-
-#### **More commands**
-The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the following options: 
-
-- Sort newer to older 
-- Sort older to newer
-
-![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
-
-#### **Take a note**
-You can select the **Enter a note** field in the timeline and specify a title and message. You can also add attachments to your notes.
-
-![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
 
 ### **Related section**  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
