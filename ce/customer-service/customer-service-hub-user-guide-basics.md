@@ -212,7 +212,7 @@ Managing activities in the timeline wall will be faster and more responsive with
   3. Filter
   4. More commands
 
-  The Timeline section is available on the Summary tab for account, contact, case records, and for knowledge articles, and shows the following:
+The Timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and shows the following:
 - Activity
   - Appointment
   - Email
@@ -259,10 +259,10 @@ The timeline shows a simple icon next to the activity making it easy for you to 
 #### **Access command bar to perform actions**
 When you hover the cursor on an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
 
-![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
-![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
-![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
-![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
 #### **Filter activities on the timeline**
 Quickly filter the activities with multiple filter options to see what matters to you.
@@ -277,7 +277,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Activity due date (active) | <ul> <li> Last 30 days </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
 
-![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
+  ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
 
 #### **View and manage email conversations**
 You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
@@ -285,7 +285,7 @@ You can easily set email messages to show as conversation threads on the timelin
 #### **Expand and collapse timeline activities**
 Select an activity from the timeline to expand and view.
 
-![Timeline expand and collapse activity](../customer-service/media/timeline-expand-collapse.png "Timeline expand and collapse activity")
+  ![Timeline expand and collapse activity](../customer-service/media/timeline-expand-collapse.png "Timeline expand and collapse activity")
 
 ### **Related section**  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
