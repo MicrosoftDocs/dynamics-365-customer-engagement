@@ -74,15 +74,14 @@ Following these instructions will edit the booking template for work order requi
 
 In this scenario, let's add customer rating and service call icons to the booking template based on conditional values on the account and work order records.
 
-
 Let’s assume that there is a customer rating that the dispatcher should see on the schedule board to prioritize jobs. The customizer has added a field **new_customerrating** on the Account entity and propagates that field to the work order entity with an integer range from 1 to 10. Using the approach above, this field could easily be added to the booking template, though it won't look to good.
 
 Instead, in our scenario, we want the booking template to show the customer rating as 5 grey stars, which represent the range. To represent the actual customer rating, we will overlay 5 orange stars, but only show a percentage of these, corresponding to the 1-10 customer rating.
 
-For example: The customer rating is 4 out of 10, so we only show 40% of the orange stars, which is 2 out of 5. See the following screenshot for an example.
+For example: let's say the customer rating is 4 out of 10, so we only show 40% of the orange stars, which is 2 out of 5. See the following screenshot for an example.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Star rating](../field-service/media/star-rating.png) 
+> ![Screenshot of star rating](../field-service/media/star-rating.png) 
 
 
 We also want our dispatcher to see whether a work order is a service call or another type of job. The customizer has created a field **new_isservicecall** on the work order entity, values are 0 or 1. Using the same approach as above, we first draw a gray wrench as background, put an orange wrench on top and limit its size to 0% (new_isservicecall = 0) or 100% (new_isservicecall = 1).
