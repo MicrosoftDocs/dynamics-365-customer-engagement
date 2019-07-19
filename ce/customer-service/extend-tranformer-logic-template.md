@@ -23,6 +23,8 @@ search.app:
 
 Customers can overwrite the out-of-the-box transformer logic by creating a plugin and registering it as `msdyn_GetKAObjectFromTemplate` message.
 
+Follow the procedure given below to extend the transformer logic for your knowledge article templates.
+
 1. Copy and paste the sample code given below into your plugin code to create a logic where the content section of the knowledge article template is pre-populated with "Hello World".
 
 ```csharp
