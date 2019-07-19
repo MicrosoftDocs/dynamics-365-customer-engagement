@@ -201,7 +201,10 @@ For example, here’s a view of how the tabs appear on the case form:
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-### **Timeline**  
+### **Timeline**
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The Customer Service Hub comes with an enhanced Timeline that shows you all customer interactions, arranged in a single stream. 
 Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
