@@ -175,19 +175,19 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 
 17.	**Save** and **Close** the form
 
-At this point the three dimensional model is set up for mobile. Next, we'll need to make it viewable from the mobile customer asset form.
+At this point the three-dimensional model is set up for mobile. Next, we'll need to make it viewable from the mobile customer asset form.
 
 18. Go to the customer asset entity and then the related form.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3D-customer-asset-mobile-form-list.png)
+> ![Screenshot of the mobile views, forms, and charts list.](media/3D-customer-asset-mobile-form-list.png)
 
-19.  Select **Add List** at the top then choose **Unrelated Entity List**.
+19.  Select **Add List** at the top, then choose **Unrelated Entity List**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](media/3D-customer-asset-mobile-form-add-models.png)
+> ![Screenshot of the Unrelated Entity List option selected in the Add List menu](media/3D-customer-asset-mobile-form-add-models.png)
 
-20. Find the **Three-Dimensional Model** entity and select **OK**. This will ensure three dimensional model records are accessible from the customer asset mobile form.
+20. Find the **Three-Dimensional Model** entity and select **OK**. This will ensure three-dimensional model records are accessible from the customer asset mobile form.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the 3D customer asset mobile form](media/3D-customer-asset-mobile-form-add-models-OK.png)
