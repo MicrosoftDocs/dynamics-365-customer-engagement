@@ -24,7 +24,19 @@ ms.tgt_pltfrm:
 
 When adding products to opportunities, quotes, orders, or invoices, at times, salespeople need to specify the product prices ad hoc. You can allow salespeople to add products without associating a price list first.
 
-To make price list optional while adding products
+## Make price list optional (Sales Hub)
+
+1.	In your app, at the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and select **App Settings**.
+
+2.	Under **Product Catalog**, select **Product Catalog Settings**.
+
+3.  Under **Make price lists optional**, set the **Allow line item creation without an associated price list** option to **Yes**.
+
+    ![Option to make selection of price list optional](media/sales-hub-make-price-list-optional.png "Option to make selection of price list optional")
+
+4.  Select **Apply**.
+
+## Make price list optional (legacy web client)
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -37,7 +49,7 @@ To make price list optional while adding products
 4.  In the **System Settings dialog** box, on the **Sales** tab, set the **Make
     price lists optional** field to **Yes**.
 
-    ![Make price list optional option](media/make-price-list-optional.png "Make price list optional option")
+    ![Option to make selection of price list optional](media/make-price-list-optional.png "Option to make selection of price list optional")
 
 ### See also
 [Add products to an opportunity](add-products-opportunity.md)  
