@@ -225,8 +225,7 @@ Importing work orders will automatically create related requirements that the RS
 > ![Screenshot of a resource requirement record with the scheduling method set to optimize](./media/rso-poc-workhours4.png) 
 
 > [!Note]
-> Work Order requirements Scheduling Method field can be set to Optimize by default in the work order Booking Setup Metadata in Resource Scheduling app > Settings > Administration > Enable Resource Scheduling for Entities.
-
+> Work Order requirements Scheduling Method field can be set to Optimize by default in the work order Booking Setup Metadata in **Resource Scheduling app > Settings > Administration > Enable Resource Scheduling for Entities**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-rso-poc-work-order-booking-setup-metadata.png)
 
@@ -255,7 +254,7 @@ Now that we've had a look at types of data that will make for a useful POC, let'
 
 ### Scheduling initial data
 
-With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run RSO to the first of the month or period you want to schedule. For example, if running for the month of January on December 16th, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 thru January 31st.
+With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run RSO to the first of the month or period you want to schedule. For example, if running for the month of January on December 16th, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 through January 31st.
 
 For more detailed information about setting up optimization schedules, see [this topic on on the subject](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).  
 
@@ -282,7 +281,7 @@ Let's take a look at some constraints and objectives.
 
 #### Constraints
 
-- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. 
+- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. Removing this constraint does not mean RSO will treat working hours as 24-7. Rather, it will allow the booking at the end of the day to overflow into non-working hours. 
 - **Meets Required Characteristics**: Verifies the resource has all the required characteristics and should have minimum required skill level. 
 - **Scheduling Lock Option**: If checked, this will respect lock options configured on a booking record.
 - **Scheduling Windows**:  RSO will schedule work to comply within the time window start and end fields on the resource requirement or booking record. 
@@ -298,12 +297,12 @@ Let's take a look at some constraints and objectives.
 > **Minimize total travel time** can't be the first objective in the list. RSO might not schedule anything with the travel time of 0 minutes in order to meet the first objective. 
 
 - **Locked bookings**: Once a booking is created, a lock can be set on the scheduling lock options field in the RSO section of the booking. The options are **Time Range**, **Resource**, **Time**, and **Resource and Time**. 
-- **High priority requirements**: RSO will evaluate this objective and give priority to the resource and booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is. For example, set **Level of Importance** to **10** for urgent priority and set **Level of Importance** **1** for low priority; RSO will score 1 urgent requirement the same as 10 low-priority requirements because both scores are 10. 
+- **High priority requirements**: RSO will evaluate this objective and give priority to the resource and booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is. For example, set **Level of Importance** to **10** for urgent priority and set **Level of Importance** to **1** for low priority; RSO will score 1 urgent requirement the same as 10 low-priority requirements because both scores are 10. 
 
 
 ### Simulations
 
-RSO includes the ability to run simulations or "What If" scenarios. In an optimization schedule, Set **Run as Simulation** to **Yes** and when the schedule runs, it will create soft bookings with a Booking status of **Simulations- RSO**. These will show on the schedule board as a white booking. They can then be turned into hard bookings should a simulation meet specific requirements and it is deemed the best option. The simulations should also be deleted should they not meet expectations. 
+RSO includes the ability to run simulations or "What If" scenarios. In an optimization schedule, Set **Run as Simulation** to **Yes** and when the schedule runs, it will create soft bookings with a Booking status of **Simulations - RSO**. These will show on the schedule board as a white booking. They can then be turned into hard bookings should a simulation meet specific requirements and it is deemed the best option. The simulations should also be deleted should they not meet expectations. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an optimization schedule with Run as Simulation highlighted](./media/rso-poc-simulations.png) 
