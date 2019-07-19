@@ -187,6 +187,7 @@
 ## [Overview](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
+## [Knowledge article](../customer-service/create-templates-knowledge-article.md)
 ## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
 ## [Entitlements](../customer-service/set-up-entitlements-templates.md)

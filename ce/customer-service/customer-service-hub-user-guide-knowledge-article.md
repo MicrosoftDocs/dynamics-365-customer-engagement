@@ -85,7 +85,45 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 > Select the icon ![flyout](media/flyout.png)  to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
+
+
+## Create knowledge articles using templates
+
+Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
+ 
+1.	Sign in to the Dynamics 365 for Customer Engagement and open **Customer Service Hub** app.
+
+2.	From the **Service** section, select **Knowledge Articles**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select knowledge article](media/ka-select-knowledge-article.png "Select knowledge article")
+ 
+    A list of available articles is displayed. 
+
+3.	To create an article from a template, select **+ New From Template**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select new from template](media/ka-new-article-from-template.png "Select new from template")
   
+4.	On the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select knowledge article template](media/ka-select-template.png "Select knowledge article template")
+  
+    You observe that some fields are pre-populated as defined in the template.
+
+5.	In the **New Knowledge Article** page, edit the fields as required. 
+
+    > [!div class=mx-imgBorder]
+    > ![New knowledge article page](media/ka-new-article-page.png "New knowledge article page")
+  
+6.	Select **Save**.
+
+    The article is saved, and you can take it to the next stage to approve and publish the article to make it available for users.
+
+> [!NOTE] 
+> To learn how to create knowledge articles templates, see [Create knowledge article template](create-templates-knowledge-article.md)
+
 
 ## Use the rich text editor to create knowledge articles and emails
  Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
