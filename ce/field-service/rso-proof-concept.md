@@ -14,7 +14,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-ms.author: daclar
+ms.author: dahumph
 ms.reviewer: krbjoran
 search.audienceType: 
   - admin
@@ -55,7 +55,9 @@ First, you'll want to make sure that the customer has the right level of expecta
 
 No two organizations run the exact same way, so understanding how your clients use data is critical to running a successful POC. This means you want to work with real data for this run. Make sure to understand *how* they are using their data and for what business reasons.
 
-The data that your client may provide, such as work orders or cases, will result in a requirement record when imported. This means that entities other than just work orders can be configured as schedulable entities during this POC run. For example, if training or time off is important for the client, create a custom entity and import that type of record along with the typical transactional data like a work order. 
+RSO is most applicable to onsite service scenarios where work is performed at multiple customer locations each day because a central benefit of RSO is organizing routes to minimize travel time. For this reason, this POC guide will focus on running RSO to optimize work orders scheduled to field technicians. However, knowing that customers use Dynamics 365 in different ways, RSO can optimize cases that are onsite, cases that are remote (referred to as "location agnostic"), as well as other entities that represent work that needs to be scheduled. In the example of remote cases, RSO would be used to schedule cases to customer service reps with the goal of maximizing work orders and matching skills. Another example could be scheduling leads to salespersons in an automated and optimal way. 
+
+RSO can optimze any entity (that is enabled for scheduling) because Universal Resource Scheduling is an open framework that schedules the requirement record. The data that your client may provide, such as work orders or cases, will result in a requirement record when imported. See the topic on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) for more details. 
 
 Here are a few questions to ask clients that will help tailor the RSO POC: 
 
