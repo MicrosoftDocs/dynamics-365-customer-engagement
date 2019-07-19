@@ -2,7 +2,7 @@
 title: "3D models for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/12/2019
+ms.date: 07/17/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -135,7 +135,7 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > [!div class="mx-imgBorder"]
 > ![Screenshot of three dimensional model entity](media/mobile-3d-entity.png)
  
-5.	Check the **File Type**, **File URL**, and **Storage Type** boxes.
+5.	Check the **File Type**, **File URL**, and **Storage Type** boxes to enable those fields for mobile.
 6.	Select **Save**.
 
 > [!div class="mx-imgBorder"]
@@ -162,7 +162,7 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > ![Screenshot of adding iframe](media/mobile-3d-add-iframe.png)
 
 
-14.	Give the Iframe a name and select **Browse**.
+14.	Name the Iframe. The name will appear at the top of the 3D Model. Then select **Browse**.
 15.	Select **viewer.html** and then **Ok**.
 
 > [!div class="mx-imgBorder"]
@@ -173,7 +173,26 @@ Now that the 3D model is associated to a customer asset and viewable from the we
 > [!div class="mx-imgBorder"]
 > ![Screenshot of iframe settings](media/mobile-3d-add-iframe-defaults.png)
 
-17.	**Save** and **Close** the form, then **Publish**.
+17.	**Save** and **Close** the form
+
+At this point the three-dimensional model is set up for mobile. Next, we'll need to make it viewable from the mobile customer asset form.
+
+18. Go to the customer asset entity and then the related form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the mobile views, forms, and charts list.](media/3D-customer-asset-mobile-form-list.png)
+
+19.  Select **Add List** at the top, then choose **Unrelated Entity List**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the Unrelated Entity List option selected in the Add List menu](media/3D-customer-asset-mobile-form-add-models.png)
+
+20. Find the **Three-Dimensional Model** entity and select **OK**. This will ensure three-dimensional model records are accessible from the customer asset mobile form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the 3D customer asset mobile form](media/3D-customer-asset-mobile-form-add-models-OK.png)
+
+21. **Save & Close** the from, then **Publish** the mobile project.
 
 The 3D model will now be viewable on the Field Service Mobile App by going to **Customer Assets** > **Three Dimensional Models**.
 
@@ -181,3 +200,4 @@ The 3D model will now be viewable on the Field Service Mobile App by going to **
 
 ## Additional notes
 - You can view 3D files on Field Service Mobile for Windows, iOS, and Android devices.
+- 3D models are viewable on Field Service Mobile in online and offline modes.
