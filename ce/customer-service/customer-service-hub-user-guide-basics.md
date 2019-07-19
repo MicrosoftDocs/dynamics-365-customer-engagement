@@ -205,7 +205,7 @@ For example, here’s a view of how the tabs appear on the case form:
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Customer Service Hub comes with an enhanced Timeline that shows you all customer interactions, arranged in a single stream. 
+The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
 Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
   ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
@@ -215,7 +215,7 @@ Managing activities in the timeline wall will be faster and more responsive with
   3. Filter
   4. More commands
 
-The Timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and shows the following:
+The timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and it shows the following:
 - Activity
   - Appointment
   - Email
@@ -224,13 +224,13 @@ The Timeline section is available on the **Summary** tab for account, contact, c
 - Note
 - Post
 
-You can create, edit, and delete an activity, note, post and other interactions from the Timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions – Add info and activities, Open filter pane, and More commands. Use these options to add, filter and sort the interactions on the timeline.
+You can create, edit, and delete an activity, note, post, and other interactions from the timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions: **Add info and activities**, **Open filter pane**, and **More commands**. Use these options to add, filter, and sort the interactions on the timeline.
 
-- **Add info and activities:** Select + icon in the timeline area to quickly open an activity type page to create and save. The activity type you created, appears in the timeline.
+- **Add info and activities:** Select the **+** icon in the timeline area to quickly open an activity type page to create and save. The activity type you created appears in the timeline.
 
-- **Filter the activities:** With the help of text and visual filters, you can filter by activity types in the Timeline. You can also view the items from the previous day or week You can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
+- **Filter the activities:** With the help of text and visual filters, you can filter by activity types in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
 
-- **More commands:** The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two - **Sort newer to older** and **Sort older to newer**.
+- **More commands:** The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
 
   ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
 
