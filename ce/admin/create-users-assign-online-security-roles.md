@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/03/2019
+ms.date: 07/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -146,9 +146,12 @@ The following are Office 365 user contact fields.
  To disable a user, remove a license from the user or remove the user from the security group that is associated with an instance of Customer Engagement apps. Removing a user from the security group doesn’t remove the user’s license. If you want to make the license available to another user, you have to remove the license from the disabled user.  
   
 > [!NOTE]
->  Removing all security roles from the user prevents the user from signing into and accessing Customer Engagement apps. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in Customer Engagement apps. Removing security roles from a user isn’t a recommended method of removing access to Customer Engagement apps.  
+> Removing all security roles from the user prevents the user from signing into and accessing Customer Engagement apps. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in Customer Engagement apps. Removing security roles from a user isn’t a recommended method of removing access to Customer Engagement apps.  
 >
 > When using a security group to manage enabling or disabling users or provisioning access to a Dynamics 365 org, nested security groups within a selected security group are not supported and ignored.
+>
+> You can [assign records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/assign-record-user-team) to a disabled user and also [share reports](https://docs.microsoft.com/dynamics365/customer-engagement/basics/share-report-users-teams) and accounts with them. This can be useful when migrating on-premises versions to online. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+
   
  You must be a member of an appropriate administrator role to do these tasks. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)  
   
@@ -195,9 +198,8 @@ The following are Office 365 user contact fields.
 > [!NOTE]
 > You can also delete users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. When you remove a user from your subscription, the license assigned to that user automatically becomes available to be assigned to a different user. If you want the user to still have access to other applications you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete them as a user. Instead, simply remove the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps license you've assigned to them.  
 > 
-> [!NOTE]
 > When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You have to do that separately.  
-> 
+
 > [!TIP]
 > To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and Customer Engagement apps, do the following:  
 > 
@@ -293,7 +295,7 @@ A stub user is a user record that has been created as a placeholder. For example
 A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
 
 > [!NOTE]
-> By default, a security role can only be assigned to users with an Enabled status. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+> By default, a security role can only be assigned to users with an Enabled status. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm). 
 
 
 ## Manage users in Microsoft Dynamics 365 (on-premises)
@@ -390,6 +392,9 @@ After you create users, you must assign security roles for them to use Microsoft
 5.  In the **Confirm User Activation** message, select **Activate**.
 
 ## Disable a user
+
+> [!NOTE]
+> You can [assign records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/assign-record-user-team) to a disabled user and also [share reports](https://docs.microsoft.com/dynamics365/customer-engagement/basics/share-report-users-teams) and accounts with them. This can be useful when migrating on-premises versions to online. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
 
 1.  Go to **Settings** > **Security**.
 
