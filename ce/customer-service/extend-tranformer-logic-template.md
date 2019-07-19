@@ -23,6 +23,8 @@ search.app:
 
 Customers can overwrite the out-of-the-box transformer logic by creating a plugin and registering it as `msdyn_GetKAObjectFromTemplate` message.
 
+1. Copy and paste the sample code given below into your plugin code to create a logic where the content section of the knowledge article template is pre-populated with "Hello World".
+
 ```csharp
 Entity kaobject = new Entity();
 kaobject = context.OutputParameters["Result"] as Entity;
@@ -30,7 +32,8 @@ kaobject = context.OutputParameters["Result"] as Entity;
 kaobject["content"] = "Hello World";
 ```
 
-While registering, select `PostOperation` in **Event Pipeline Stage of Execution**. Once done, select **Register New Step**.
+2. While registering, select `PostOperation` in **Event Pipeline Stage of Execution**.
+3. Once done, select **Register New Step**.
 
 ## See also
 
