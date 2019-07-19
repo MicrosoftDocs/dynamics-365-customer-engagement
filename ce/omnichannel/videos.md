@@ -43,8 +43,8 @@ manager: shujoshi
 
 </td>
 <td>
-<h2> Real-time Sentiment Analysis </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2097513)">Overview of Omnichannel real-time sentiment analysis in Dynamics 365 for Customer Service </a>
+<h2> Supervisor Experience </h2>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2099487" data-raw-source="[Supervisor Experience](https://go.microsoft.com/fwlink/p/?linkid=2099487)">Overview of omnichannel supervisor experience in Dynamics 365 for Customer Service </a>
 
 </td>
 </tr>
@@ -56,7 +56,8 @@ manager: shujoshi
 
 </td>
 <td>
-
+<h2> Real-time Sentiment Analysis </h2>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2097513)">Overview of Omnichannel real-time sentiment analysis in Dynamics 365 for Customer Service </a>
 </td>
 </tr>
 
