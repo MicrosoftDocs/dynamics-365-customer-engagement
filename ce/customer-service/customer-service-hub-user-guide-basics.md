@@ -225,12 +225,11 @@ You can create, edit, and delete an activity, note, post and other interactions 
 
 - **Add info and activities:** Select + icon in the timeline area to quickly open an activity type page to create and save. The activity type you created, appears in the timeline.
 
-#### **Filter the activities**
-With the help of text and visual filters, you can filter by activity types in the Timeline. You can also view the items from the previous day or week You can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
+- **Filter the activities:** With the help of text and visual filters, you can filter by activity types in the Timeline. You can also view the items from the previous day or week You can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
 
 - **More commands:** The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two - **Sort newer to older** and **Sort older to newer**.
 
-![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
+  ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
 
 #### **Take a note**
 You can select the **Enter a note** field in the timeline and specify a title and message. You can also add attachments to your notes.
