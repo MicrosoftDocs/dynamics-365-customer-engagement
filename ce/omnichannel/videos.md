@@ -44,7 +44,7 @@ manager: shujoshi
 </td>
 <td>
 <h2> Supervisor Experience </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2099487" data-raw-source="[Supervisor Experience](https://go.microsoft.com/fwlink/p/?linkid=2099487)">Overview of omnichannel supervisor experience in Dynamics 365 for Customer Service </a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2099487" data-raw-source="[Supervisor Experience](https://go.microsoft.com/fwlink/p/?linkid=2099487)">Overview of Omnichannel supervisor experience in Dynamics 365 for Customer Service </a>
 
 </td>
 </tr>
