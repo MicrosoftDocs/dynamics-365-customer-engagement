@@ -83,4 +83,6 @@ As a Knowledge Manager, you can create knowledge article templates by defining t
 > Similarly, you can edit or delete knowledge article templates from the **Service Management** area. 
 
 
+### See also
 
+[Create knowledge articles using templates](customer-service-hub-user-guide-knowledge-article.md#create-knowledge-articles-using-templates)

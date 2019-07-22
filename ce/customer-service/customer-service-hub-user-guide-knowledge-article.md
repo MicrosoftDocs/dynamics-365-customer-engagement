@@ -98,9 +98,9 @@ Posts about knowledge article-related activities will begin appearing in the **T
 
 Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
  
-1.	Sign in to the Dynamics 365 for Customer Engagement and open **Customer Service Hub** app.
-
-2.	From the **Service** section, select **Knowledge Articles**.
+1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
+  
+2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
 
     > [!div class=mx-imgBorder]
     > ![Select knowledge article](media/ka-select-knowledge-article.png "Select knowledge article")
@@ -478,5 +478,7 @@ If you are creating an alternate key for Knowledge article entity, include the m
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
+[Create knowledge article template](create-templates-knowledge-article.md)
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
