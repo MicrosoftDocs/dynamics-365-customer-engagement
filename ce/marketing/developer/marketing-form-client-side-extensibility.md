@@ -12,6 +12,7 @@ ms.topic: conceptual
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: cfaee020-a29d-4297-8f73-e8fb378843dc
+author: nkrb
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
@@ -133,17 +134,21 @@ To add the code snippet, you need to follow the steps below:
 2. Choose **New** to create a new marketing form.
 3. Click on **Go live**.
 4. Select the **Form hosting** tab, under the **Whitelist rules**, click on **...** and **Add New Form whitelist rule**.
+    
     ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
 
 5. Add your own CMS domain and click on **Save**.
 6. In the **From hosting** tab, under the **Related marketing form pages** tab, click on **...** and **Add New Form Page** to add a marketing form page.
-    ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-page.png "Related Marketing Form Pages")
+    
+    ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-pages.png "Related Marketing Form Pages")
 
 7. Click **Save**.
 8. Now click on the form page you have created and copy the script to the clipboard.
-   ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
+   
+    ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
 
 9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
+    
     ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
 
 
