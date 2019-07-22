@@ -1,7 +1,7 @@
 ---
 title: "Enable a custom entity to appear in the Regarding lookup in Dynamics 365 App for Outlook  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/09/2019
+ms.date: 07/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
