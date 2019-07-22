@@ -118,5 +118,5 @@ To create a lead scoring model:
 ### See also
 
 [Design lead-scoring models](score-manage-leads.md)  
-[Register contacts' engagement](register-engagement.md)  
+[Register link clicks and website visits](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)

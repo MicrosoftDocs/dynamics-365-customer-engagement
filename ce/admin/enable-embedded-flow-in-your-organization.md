@@ -29,7 +29,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
 
 ![Lead record with Flow integration](media/flow-integration.png)
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] instances use the same environment in which the instance resides. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
   
 The Flow integration feature is not available in the following service or geographic regions.
 - Microsoft Dynamics 365 for Customer Engagement apps Government
