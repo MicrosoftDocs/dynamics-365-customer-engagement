@@ -59,7 +59,9 @@ search.app:
 ## Availability of business apps  
  Business apps are available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and with the latest release are also available in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
- Your system administrator or a user with the required privileges can create new business apps for you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md) 
+ Your system administrator or a user with the required privileges can create new business apps for you.
+ 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md) 
   
 ## Find your business apps  
  Apps are available to you based on your security role. You can see all the apps that are available to you on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] home page or the My Apps page.  
