@@ -22,13 +22,13 @@ search.app:
 ---
 # Extend Marketing forms using code
 
-A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form and choose local settings for it, which apply to that page only. More information [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-forms)
+A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in Dynamics 365 for Marketing app. Following are the methods that are available to extend marketing forms.
+Marketing forms can be extended using JavaScript to perform custom business actions in [Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/overview) app. Following are the methods that are available to extend marketing forms.
 
 ## Form load
 
-Triggers when the form placeholder is recognized before the actual form content are fetched.
+Triggers when the form placeholder is recognized before the actual form content is fetched.
 
 ### Syntax
 
@@ -38,7 +38,7 @@ Triggers when the form placeholder is recognized before the actual form content 
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between a particular marketing page and marketing form.|
 
 ## Form rendering
 
@@ -52,7 +52,7 @@ Triggers after the form content is fetched and before the form content is inject
 
 |Parameter Name|Type|Description|
 |------|-------|----------|
-|formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
+|formPageId|`String`| The `msdyncrm_formpageid` value associated between a particular marketing page and marketing form.|
 
 ## After form render
 Triggers after the form content is injected to a page before the validation hooks are attached.
@@ -109,19 +109,43 @@ Triggers on form submit after the form submission is sent to the server. It trig
 |------|-------|----------|
 |formPageId|`String`| The `msdyncrm_formpageid` value associated between particular marketing page and marketing form.|
 
-## Add your code snippet to a marketing form
+## Add your code snippet while using Portals
+
 To add the JavaScript code, you need to follow the steps below:
+
+1. Navigate to **Marketing** app and go to **Marketing pages**.
+2. Choose **New** to create a new marketing page.
+3. Drag and drop **Form** element from the **Toolbox** tab into the **Designer** tab and select the marketing form you want to use.
+
+   ![Add new form page](../media/new-marketing-page.png "Add new form page")
+   
+4. Switch to **HTML** tab and your code snippet.
+
+   ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
+
+5. Click on **Save** to save your changes and click on **Go live**.
+
+## Add your code snippet when you're using your own CMS and form hosting
+
+To add the code snippet, you need to follow the steps below:
 
 1. Navigate to **Marketing** app and go to **Marketing forms**
 2. Choose **New** to create a new marketing form.
-3. Specify the **Name** and **Form type** for the marketing form and click on **Save**.
-4. Click on the **Form hosting** tab and click on **...** as shown below to add a new form page.
+3. Click on **Go live**.
+4. Select the **Form hosting** tab, under the **Whitelist rules**, click on **...** and **Add New Form whitelist rule**.
+    ![Form Hosting Tab](../media/form-hosting-whitelist-rule-page.png "Form Hosting Tab")
 
-   ![Add new form page](../media/add-existing-marketing-page.png "Add new form page")
-   
-5. Open the associated Marketing page and add the script in the **HTML** tab as shown below.
+5. Add your own CMS domain and click on **Save**.
+6. In the **From hosting** tab, under the **Related marketing form pages** tab, click on **...** and **Add New Form Page** to add a marketing form page.
+    ![Related Marketing Form Pages](../media/form-hosting-related-marketing-form-page.png "Related Marketing Form Pages")
 
-   ![Add code in HTML tab](../media/marketing-page-html-tab.png "Add code in HTML tab")
+7. Click **Save**.
+8. Now click on the form page you have created and copy the script to the clipboard.
+   ![Add code snippet](../media/new-form-page-adding-code.png "Add code snippet")
+
+9. Now in your CMS, edit the page where you want to include the form, add your customizations and script.
+    ![Ad customizations to CMS](../media/add-code-to-cms-site.png "Add customization to CMS")
+
 
 ## Examples 
 

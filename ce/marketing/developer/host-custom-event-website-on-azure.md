@@ -30,7 +30,7 @@ This topic will walk you through how to host your custom event website on Azure.
 
 To create an Azure storage account, follow the steps below:
 
-1. Login into [Azure portal](https://portal.azure.com) and click on **Sign in**, if you dont have an Azure account, register for it.
+1. Login into [Azure portal](https://portal.azure.com) and click on **Sign in**, if you don't have an Azure account, register for it.
 
 2. Click on **Storage accounts** and click on **Add** to create a new storage account.
   
@@ -75,7 +75,7 @@ To use event management public API, you need a web application token. The web ap
 7. Enter the generated **Token** field value from the web application record in the `emApplicationtoken` field and save the file. 
 8. Open a terminal in the root of your custom event website directory and run the command
     ```CLI 
-     ng build --prod --output-hashing none --configuration selfhosted 
+     ng build --prod --output-hashing none --configuration self-hosted 
     ``` 
 9. This will build the website. You can find the generated files in `dist\ClientApp` folder. 
 
