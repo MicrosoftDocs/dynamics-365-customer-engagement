@@ -134,6 +134,39 @@ To skip inline navigation for certain entities, a system Administrator must conf
 
 8. Select **Save**.
 
+### Hide command bar in Chrome Process
+
+In Chrome Process, the command bar is always shown on the pooled Chrome Process instances. If you want to hide the command bar for a specific entity or for all the entities in the Chrome Process pooled instances, then you can add the following UII options.
+
+- BlockChromeProcessPooling
+- HideCommandBar
+
+#### Hide command bar for a specific entity
+
+Use the **BlockChromeProcessPooling** UII option if you want to hide the command bar for a specific entity in the Chrome Process pooled instances.
+
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockChromeProcessPooling-UII-option) to know how to add the UII option.
+
+#### Hide command bar for all the entities
+
+Use the **HideCommandBar** UII option if you want to hide the command bar for all the entities in the Chrome Process pooled instances.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **HideCommandBar** for the **Name** field.
+
+7. Type **True** for the **Value** field.
+
+8. Select **Save**.
+
 ### Block second navigation in Chrome Process pooling
 
 When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation is also inline. If you've specific window navigation rule between the same entity type with the **Route Window** action and **In Place** type, then the window navigation rule triggers the rule in a loop causing Unified Service Desk to crash. 
