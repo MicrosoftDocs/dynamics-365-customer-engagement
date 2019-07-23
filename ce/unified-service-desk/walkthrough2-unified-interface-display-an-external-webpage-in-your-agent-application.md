@@ -105,7 +105,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |-----------|-----------|  
    |Name|Contoso About Toolbar Container|  
    |USD Component Type|Toolbar Container|  
-   |Display Group|ToolbarPanel|
+   |Display Group|AboutPanel|
 
    ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-02-unified-interface.png "Toolbar Container hosted control") 
 
