@@ -32,7 +32,7 @@ search.app:
 
 Setting up a proof of concept (POC) for Resource Scheduling Optimization (RSO) should follow some basic guidance, and include the following stages: 
 
-1. **Discovery**, where you learn about customer needs and expectations
+1. **Discovery**, where you learn about client needs and expectations
 
 
 2. **Initial configuration of RSO**, and knowing which entities are critical for a successful POC
@@ -41,15 +41,15 @@ Setting up a proof of concept (POC) for Resource Scheduling Optimization (RSO) s
 3. **Running simulations of data,** which shows the POC in action
 
 
-4. **Presenting results of the POC**, which can help your customer understand how working with RSO can benefit their organizations
+4. **Presenting results of the POC**, which can help your client understand how working with RSO can benefit their organizations
 
 ## Discovery
 
 A collaborative RSO proof of concept should engage a client to actively work with the optimizer rather than simply comparing features on paper. Setting up a useful discovery phase for your RSO proof of concept means understanding your client's needs, defining success criteria, and making sure they have the right expectations going in. 
 
-### Defining the customer's participation 
+### Defining the client's participation 
 
-First, you'll want to make sure that the customer has the right level of expectations around their participation in this proof of concept process. This is very much a collaborative effot, and your customer must actively participate in order to find value in the outcomes. 
+First, you'll want to make sure that the client has the right level of expectations around their participation in this proof of concept process. This is very much a collaborative effort, and your client must actively participate in order to find value in the outcomes. 
 
 ### Understanding your client's needs 
 
@@ -69,15 +69,15 @@ Here are a few questions to ask clients that will help tailor the RSO POC:
 - How do they manage emergencies / exceptions with resourcing? 
 - How are resource priorities defined and managed?
 
-Any other questions that help determine how the customer is currently managing or optimizing their resources will help for a successful discovery.
+Any other questions that help determine how the client is currently managing or optimizing their resources will help for a successful discovery.
 
 ### Defining success criteria
 
-To know if the POC works well for the customer, you first need to determine what measurable success looks like. While it's tempting to declare that "improved travel times" or "decreased overtime" are successes, they aren't specific or measurable enough. Work with the customer to define *measurable* success criteria, such as *reduce travel time by 10 %* or *schedule no overtime for maintenance work*. 
+To know if the POC works well for the client, you first need to determine what measurable success looks like. While it's tempting to declare that "improved travel times" or "decreased overtime" are successes, they aren't specific or measurable enough. Work with the client to define *measurable* success criteria, such as *reduce travel time by 10 %* or *schedule no overtime for maintenance work*. 
 
-Be sure that what the cusomter is asking for is something we can actually measure. For example, reducing the number of trips to a customer’s site is not easily measured, as each requirement will create a related booking when scheduled. RSO will often schedule work at the same location back-to-back, as long as other criteria like the scheduling window allow for it; to report this as a single trip to the customer site, however, is very difficult with multiple booking records. Typically work booked at the same location back-to-back with another work order will have zero travel time or zero miles, so think of ways to present these as success criteria to your customer or prospect. 
+Be sure that what the client is asking for is something we can actually measure. For example, reducing the number of trips to a customer’s site is not easily measured, as each requirement will create a related booking when scheduled. RSO will often schedule work at the same location back-to-back, as long as other criteria like the scheduling window allow for it; to report this as a single trip to the customer site, however, is very difficult with multiple booking records. Typically work booked at the same location back-to-back with another work order will have zero travel time or zero miles, so think of ways to present these as success criteria to your client or prospect. 
 
-Also, understand the data in terms of dates and timeframes. It’s common to receive a data set from prior periods where the expectation is the customer can compare the RSO results to what really happened. This is difficult because RSO cannot schedule in the rears. If you simply add days to the dates provided, remember that a week day in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
+Also, understand the data in terms of dates and timeframes. It’s common to receive a data set from prior periods where the expectation is the client can compare the RSO results to what really happened. This is difficult because RSO cannot schedule in the rears. If you simply add days to the dates provided, remember that a week day in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
 
 You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. RSO can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as **Time From Promised** and **Time To Promised** fields on the work order, or by setting the start date and end dates on a requirement. You'll often see examples such as “next day before 12:00 PM” or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. 
 
@@ -104,7 +104,7 @@ Typical types of data include:
 
 ### Accounts
 
-Account information is helpful when dealing with work orders, since **Service Account** is a required field. The account information can typically be derived from the work order data if an address or longitude and latitude are provided. A generic naming convention can be used for privacy reasons (see GDPR requirements). We frequently see customers who provide data with names removed, and only include an account number so that they can refer to actuals from existing systems.
+Account information is helpful when dealing with work orders, since **Service Account** is a required field. The account information can typically be derived from the work order data if an address or longitude and latitude are provided. A generic naming convention can be used for privacy reasons (see GDPR requirements). We frequently see clients who provide data with names removed, and only include an account number so that they can refer to actuals from existing systems.
 
 ### Addresses
 
@@ -142,7 +142,7 @@ Note that if no territories are provided, you may need to define your own schema
 Include a subset of actual resource data for the purposes of this POC. Working with real data makes it easier to drill into specific use cases and also limits the related data required for resources, such as work hours, resource territories, or skills and characteristics. Resources must be related to a user, account, or contact. The easiest way to make sure this happens is to relate resources to contacts - this ensures that they are separate from the accounts you're scheduling. Of course, if the resources are also users, then relating them to a user record is also acceptable.
 
 > [!Note]
-> If you do relate resource data to user data, note that location data for start and end locations are mainatined in the user record, which can only be edited by an administrator.
+> If you do relate resource data to user data, note that location data for start and end locations are maintained in the user record, which can only be edited by an administrator.
 
 Be sure to set the proper time zone on the resource. This will inform the required work hours. If multiple time zones are needed for the POC, be sure that you have schedule board views set up with the proper time zone filters, or you may misread the outputs. 
 
@@ -159,13 +159,13 @@ On the bookable resource record, go to the **Resource Scheduling Optimization** 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Optimize Schedule setting set to yes on the resource record](./media/rso-poc-resource3.png) 
 
-### Resource Territories 
+### Resource territories 
 Resource territory records must be created for each resource so that RSO will include the resources in any optimization run. RSO will be more efficient if you can use multiple territories to filter the data to smaller subsets. You can run multiple RSO schedules at the same time for separate data sets and territory is a great way to do that. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a highlighted resource territory field on a resource record](./media/rso-poc-territory1.png) 
 
-### Skills & Characteristics 
+### Skills and characteristics 
 While not required for a POC, skills and characteristics can be used as additional filter criteria, as well as in the goals and objectives setups. You can set constraints to **Meet Required Characteristics**, which will add additional dimensions to RSO results. However, we recommend keeping a POC to a manageable number of skills and characteristics.
 
 > [!div class="mx-imgBorder"]
@@ -193,7 +193,7 @@ If you select the **Vary by day** setting, work hours for the first day will rep
 When setting up work hours, you may also set a fixed break time, which RSO will honor during optimizations.  Set the duration for the break, and include a start and end time to represent the scheduling window RSO should use to fit the break into the optimized schedule.
 
 > [Note!]
-> If you require floating breaks or breaks based on other business logic, you'll need to build a custom scheduleable entity for breaks.
+> If you require floating breaks or breaks based on other business logic, you'll need to build a custom schedulable entity for breaks.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Set Work Hours and Service Restrictions window with the break fields highlighted](./media/rso-poc-workhours3.png) 
@@ -245,7 +245,7 @@ Now that we've had a look at types of data that will make for a useful POC, let'
  RSO's resource optimization engine schedules requirements from the current point in time as far in the future as you specify using the **Range Offset** and the **Range Durations** values defined in the Optimization Scope. Since RSO only looks to the future, the provided data can't have scheduling windows in the past, and you will need to modify any dates provided. 
  
  > [Note!]
- > This is not as simple as adding 30, 60, or 90 days to the existing dates, as weekdays in a prior month may fall on a weekend in a future month. Be sure to validate how you manage the dates with your customer or prospect and insure there is a clear understanding of the time period you will use in the POC.
+ > This is not as simple as adding 30, 60, or 90 days to the existing dates, as weekdays in a prior month may fall on a weekend in a future month. Be sure to validate how you manage the dates with your client or prospect and insure there is a clear understanding of the time period you will use in the POC.
 
 ### Scheduling initial data
 
@@ -258,7 +258,7 @@ For more detailed information about setting up optimization schedules, see [this
 
 A good RSO POC will include a data set with a mix of predictive and reactive requirements. To simulate a typical service company's activity, you might expect disruptors representing service calls for an hour or a day. A second scope could then address a shorter period of time, which would optimize the subsequent data representing service calls or these other types of disruptors. This second scope could also re-optimize previously scheduled work along with the new set of service calls. All of this also allows RSO to run more efficiently by using smaller data sets.
 
-Review with the customer, setting clear expectations regarding the different goals of predictive (maintenance) requirements and reactive (service calls) requirements. We've seen that customers might expect a single RSO run to address all their needs, but that won't provide the best results. Be sure to discuss this early on in the POC. 
+Review with the client, setting clear expectations regarding the different goals of predictive (maintenance) requirements and reactive (service calls) requirements. We've seen that clients might expect a single RSO run to address all their needs, but that won't provide the best results. Be sure to discuss this early on in the POC. 
 
 
 ### Defining views and schedules
@@ -307,24 +307,24 @@ RSO includes the ability to run simulations or "What If" scenarios. In an optimi
 From the schedule board, you can open the detail pane and select **Optimize**. Here you select to reoptimize one or more resources. This allows for the re-optimization of a single person, should they be assigned a disruptor that takes them some distance from the previously defined route. By optimizing a single resource, RSO can run more quickly and be more focused. You can also select a default goal, which allows for even more control over the schedule. Be sure to include this in your POC planning as it addresses several real-world problems dispatchers face daily.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a schedule details pane, on the Optimization tab, showing the optimization settins available](./media/rso-poc-scheduleboard.png) 
+> ![Screenshot of a schedule details pane, on the Optimization tab, showing the optimization settings available](./media/rso-poc-scheduleboard.png) 
 
 
 ## Presenting results
 ### Reporting on the success criteria
 
-There are several ways to present the results of an RSO POC, including Excel spreadsheets or PowerBI dashboards. However, we don't recommended that you simply supply the customer a report showing success criteria, as this does not reflect the true value of RSO. As we've covered, defining a detailed POC plan and engaging with the customer to participate in the POC is key. 
+There are several ways to present the results of an RSO POC, including Excel spreadsheets or PowerBI dashboards. However, we don't recommended that you simply supply the client a report showing success criteria, as this does not reflect the true value of RSO. As we've covered, defining a detailed POC plan and engaging with the client to participate in the POC is key. 
 
 Whatever method you use, make sure that you tailor the results to address business needs uncovered during discovery, and walk them through what this POC has shown them about their business processes.
 
 
 ### Reviewing routes and booking details
 
-Reviewing specific routes with the customer is another good way to drill into the differences achieved with different goals and objectives. By selecting a few specific **Resources** and **Territories**, you can run RSO schedules and output resulting bookings for comparison. Run RSO with different goals and objectives then compare the same resource and territory to determine the objective that best meets the requirements. Be sure to point out these requirements may vary based on many factors such as time of the month, priority of the requirements, and controlling overtime, just to name a few possibilities. Identify these routes before you start and understand the criteria you will be reviewing with the customer or prospect up front, so expectations are clear.
+Reviewing specific routes with the client is another good way to drill into the differences achieved with different goals and objectives. By selecting a few specific **Resources** and **Territories**, you can run RSO schedules and output resulting bookings for comparison. Run RSO with different goals and objectives then compare the same resource and territory to determine the objective that best meets the requirements. Be sure to point out these requirements may vary based on many factors such as time of the month, priority of the requirements, and controlling overtime, just to name a few possibilities. Identify these routes before you start and understand the criteria you will be reviewing with the client or prospect up front, so expectations are clear.
 
 ## See also
 
-For more information about RSO, how it works, and how to use it, check out our following documenation:
+For more information about RSO, how it works, and how to use it, check out our following documentation:
 
 - [Resource Scheduling Optimization overview](rso-overview.md)
 - [Configuring Resource Scheduling Optimization](rso-configuration.md)
