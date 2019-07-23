@@ -138,8 +138,8 @@ To skip inline navigation for certain entities, a system Administrator must conf
 
 In Chrome Process, the command bar is always shown on the pooled Chrome Process instances. If you want to hide the command bar for a specific entity or for all the entities in the Chrome Process pooled instances, then you can add the following UII options.
 
-- BlockChromeProcessPooling
-- HideCommandBar
+- To hide a specific entity: **BlockChromeProcessPooling**
+- To hide for all the entities: **HideCommandBar**
 
 #### Hide command bar for a specific entity
 
