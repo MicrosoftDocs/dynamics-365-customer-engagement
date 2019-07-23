@@ -18,7 +18,7 @@ manager: kvivek
 
 # Overview
 
-The Dynamics 365 Event Management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event Portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
+The Dynamics 365 Event Management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 The event portal consists of two parts:
 
