@@ -145,7 +145,7 @@ In Chrome Process, the command bar is always shown on the pooled Chrome Process 
 
 Use the **BlockChromeProcessPooling** UII option if you want to hide the command bar for a specific entity in the Chrome Process pooled instances.
 
-See [Add the BlockChromeProcessPooling UII option](#add-the-blockChromeProcessPooling-UII-option) to know how to add the UII option.
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
 
 #### Hide command bar for all the entities
 
