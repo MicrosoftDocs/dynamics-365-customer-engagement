@@ -76,5 +76,5 @@ You can find the built website in the **dist** folder of the root directory.
 
 ### See also
 
-[Dynamics 365 Portal Hosted](portal-hosted.md)<br />
-[Custom event website Localization](event-portal-localization.md)
+[Dynamics 365 Portal hosted](portal-hosted.md)<br />
+[Custom event website localization](event-portal-localization.md)

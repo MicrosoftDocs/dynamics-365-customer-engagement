@@ -129,4 +129,4 @@ If you want to overwrite the sample website to match the version of event manage
 ### See also
 
 [Localization](event-portal-localization.md)<br />
-[Build and Host custom event portal](event-management-web-application.md)
+[Build and host custom event website](event-management-web-application.md)
