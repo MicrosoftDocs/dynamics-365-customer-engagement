@@ -2,7 +2,7 @@
 title: "Create or edit a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 keywords: "lead, qualify, sales process, activities"
-ms.date: 04/01/2018
+ms.date: 08/01/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -37,12 +37,21 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
 
 3. Follow the process bar to enter data into fields and move the lead to the next stage. 
 
+4. If you’re creating the lead for new customers, enter name, contact details, and company name in the Lead form.
+
+    -OR-
+    
+    If you’re creating the lead for an existing account or contact, in the Qualify stage of the process bar, select the existing account or contact.
+
+    - When you select an existing account while creating a lead record, the company name is automatically populated. 
+    
+    -	When you select an existing contact while creating a lead record, the following information is automatically populated in the Lead form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
+
+
    > [!NOTE]
    > 
    > On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
   
-4. In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
-
 5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
 
 6. In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
@@ -53,24 +62,32 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
    
 8. On the command bar, select **Save**.  
 
-<a name="bkmk2"></a>   
+
 ## Create a lead  (Sales)
   
 1. [!INCLUDE[proc_sales_leads](../includes/proc-sales-leads.md)]  
   
 2. Select **New**.  
  
-3. In the **Summary** area of the **Lead** form, enter your lead's company and contact information.  
+3. Follow the process bar to enter data into fields and move the lead to the next stage. 
 
-4. In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
-  
-5. Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+4. If you’re creating the lead for new customers, enter name, contact details, and company name in the Lead form.
 
-6. In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+    -OR-
+    
+    If you’re creating the lead for an existing account or contact, in the Qualify stage of the process bar, select the existing account or contact.
+
+    - When you select an existing account while creating a lead record, the company name is automatically populated. 
+    
+    -	When you select an existing contact while creating a lead record, the following information is automatically populated in the Lead form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email. 
+
+4. Add any notes or activities (for example, phone calls or emails) related to this lead. [!include[](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
+
+5. In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
   
-7. Select **Save** in the lower-right corner of the form.  
+6. Select **Save** in the lower-right corner of the form.  
     
 <a name="bkmk3"></a>   
 ## Additional considerations  
