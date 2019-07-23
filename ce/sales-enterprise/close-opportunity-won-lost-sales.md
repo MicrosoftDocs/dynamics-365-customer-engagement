@@ -60,6 +60,10 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
         ![Close Opportunity dialog box when the opportunity is lost](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
 
+    > [!IMPORTANT]
+    > If your system administrator has enabled custom fields on opportunity closing forms, you may be required to fill in data in other fields as defined by your organization.
+
+
 For information on how to resolve the common errors that you may see while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
 
 ## Reopen a closed opportunity
