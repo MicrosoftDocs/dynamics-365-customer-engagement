@@ -28,23 +28,23 @@ search.app:
 ---
 # Set up agreements to automatically generate work orders and invoices
 
+An agreement in provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
+  
+ An agreement allows you to choose how often work orders will be generated (for example, daily, weekly, monthly, or yearly) and the details of the work order (such as incidents, products, services, and service tasks).  
+
+
 ## Auto generate work orders
 
 Scenario:
 
 An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They would like to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month with some flexibility. They would like dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work based on an agreed upon price.   
-
-
-An organization must perform monthly maintenance on customer asset A for 2 years
-
-would like the system to auto generate the work orders
-
-should be scheduled in the middle of the month but can be flexible within a week by a dispatcher
-
-will bill the customer as each work order is completed for an agreed upon price
-
+We will use agreements along with customer assets, incident types, and price lists to configure this scenario. 
 
 ## Auto generate invoices
+
+Scenario:
+
+An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter. 
 
 ## Prerequisites
 > [!Note]
@@ -61,6 +61,8 @@ Agreement with multiple recurrences
 
 Schedule agreement work orders with RSO
 
+entitilements/SLAs?
+
 ## Additional Notes
 
 agreements work with the sales  opp quote order process
@@ -71,23 +73,18 @@ generate agreement dates x months - use those to understand work
 
 copy incident items to agreement
 
-
-
-## old 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
-  
- An agreement allows you to choose how often work orders will be generated (for example, daily, weekly, monthly, or yearly) and the details of the work order (such as incidents, products, services, and service tasks).  
-  
- **Tips**:  
+**Tips**:  
   
 -   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
   
 -   The price list on the agreement specifies the price of all products and services related to an agreement. It is important to add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list.  
   
 -   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
-  
+
+
+## old 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 <a name="BKMK_CreateAgreement"></a>   
 ### Create an agreement  
   
