@@ -25,6 +25,26 @@ topic-status: Drafting
 Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit this page to see what’s added or updated recently. 
 
 
+## Dynamics 365 for Sales, August 2019 release
+
+Here are a list of features available with this release:
+
+- **Customization of opportunity close form**. When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. 
+
+- **Enhancements to the adding or editing of Opportunity/Quote/Order/Invoice products experience**. The following enhancements are made to the experience of adding product line items to opportunity, quote, or invoice records:
+    - Salespeople can add an existing product to an Opportunity, Quote, Order, and Invoice, with or without a price list.
+    - Administrators can choose whether to enforce selection of a price list.
+    - Salespeople can quickly view and edit properties for a product, even while editing Opportunity or Quote line items.
+    - Administrators can use additional customization options on the price list item entity.
+
+- **Territory hierarchy**. A hierarchical relationship is available out-of-the-box on the Territory record type (entity). This will allow organizations to model and visualize their sales territories in a hierarchical format.
+
+- **Enhancements to lead management experience**. The following enhancements are made to the experience of managing leads in Dynamics 365 for Sales:
+    - Contact and company-related fields are automatically filled in when a sales rep selects an existing contact or account while creating a new lead.
+    - When a lead is qualified to an opportunity, notes and attachments captured by a sales rep are displayed in the opportunity record.
+    - Sales reps get an option to create an opportnity, account, or contact when they qualify leads based on the organization-level settings configured by the admin for the lead creation experience.  
+
+
 ## Dynamics 365 for Sales, May 2019 release
 
 With Dynamics 365 for Sales version 9.0.1905.2010 or later, users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
