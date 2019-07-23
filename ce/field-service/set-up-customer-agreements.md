@@ -2,8 +2,8 @@
 title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 07/23/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -16,7 +16,7 @@ applies_to:
 author: krbjoran
 ms.assetid: 5a02d87a-56f4-47e8-ab2d-5d816e60dc8a
 caps.latest.revision: 21
-ms.author: krbjoran
+ms.author: FieldServiceDave
 manager: shellyha
 search.audienceType: 
   - admin
@@ -26,8 +26,54 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Set up customer agreements so you can automatically generate work orders and invoices (Field Service)
+# Set up agreements to automatically generate work orders and invoices
 
+## Auto generate work orders
+
+Scenario:
+
+An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They would like to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month with some flexibility. They would like dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work based on an agreed upon price.   
+
+
+An organization must perform monthly maintenance on customer asset A for 2 years
+
+would like the system to auto generate the work orders
+
+should be scheduled in the middle of the month but can be flexible within a week by a dispatcher
+
+will bill the customer as each work order is completed for an agreed upon price
+
+
+## Auto generate invoices
+
+## Prerequisites
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+## Configuration considerations
+
+Agreement with multiple incident types
+
+Agreement with multiple recurrences
+
+Schedule agreement work orders with RSO
+
+## Additional Notes
+
+agreements work with the sales  opp quote order process
+
+Generate agreement start time 
+
+generate agreement dates x months - use those to understand work
+
+copy incident items to agreement
+
+
+
+## old 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
@@ -43,7 +89,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 -   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
   
 <a name="BKMK_CreateAgreement"></a>   
-## Create an agreement  
+### Create an agreement  
   
 1.  From the main menu, click **Field Services** > **Agreements**.  
   
@@ -67,7 +113,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
 4.  Click **Save**.  
   
 <a name="BKMK_DefineBookingSetup"></a>   
-## Define booking setup  
+### Define booking setup  
  Once the agreement has been created, specify how often work orders are generated.  
   
 1.  In the **Booking Setups** section, click **+Add Booking Setup record**.  
@@ -110,7 +156,7 @@ An agreement in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
          If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
   
 <a name="BKMK_AddInvoiceSetup"></a>   
-## Add invoice setup  
+### Add invoice setup  
  Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
   
 1.  In the **Invoice Setups** section, click **+Add Agreement Invoice Setup record**. Fill in your information. Use the handy tooltips as a guide.  
