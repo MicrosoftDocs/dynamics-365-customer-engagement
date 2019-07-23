@@ -121,10 +121,12 @@
 ## China
 ### [About China datacenter](../admin/datacenter/about-microsoft-cloud-china.md)
 ### [21Vianet support](../admin/datacenter/21vianet-support.md)
+## [France](../admin/datacenter/about-microsoft-cloud-france.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
 ## [Geo to geo migrations](../admin/datacenter/geo-to-geo-migrations.md)
+
 
 # Set up an organization
 ## [Overview](set-up-a-dynamics-365-organization.md)
