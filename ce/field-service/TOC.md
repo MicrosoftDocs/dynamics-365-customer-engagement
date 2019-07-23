@@ -118,6 +118,7 @@
 ## [Overview](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
+## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
