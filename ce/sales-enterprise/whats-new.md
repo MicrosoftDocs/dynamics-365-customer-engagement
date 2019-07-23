@@ -27,7 +27,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit 
 
 ## Dynamics 365 for Sales, August 2019 release
 
-Here are a list of features available with this release:
+Here are the list of features available with this release:
 
 - **Customization of opportunity close form**. When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. 
 
