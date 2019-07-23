@@ -14,7 +14,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-ms.author: daclar
+ms.author: dahumph
 ms.reviewer: krbjoran
 search.audienceType: 
   - admin
@@ -55,7 +55,9 @@ First, you'll want to make sure that the client has the right level of expectati
 
 No two organizations run the exact same way, so understanding how your clients use data is critical to running a successful POC. This means you want to work with real data for this run. Make sure to understand *how* they are using their data and for what business reasons.
 
-The data that your client may provide, such as work orders or cases, will result in a requirement record when imported. This means that entities other than just work orders can be configured as schedulable entities during this POC run. For example, if training or time off is important for the client, create a custom entity and import that type of record along with the typical transactional data like a work order. 
+RSO is most applicable to onsite service scenarios where work is performed at multiple customer locations each day because a central benefit of RSO is organizing routes to minimize travel time. For this reason, this POC guide will focus on running RSO to optimize work orders scheduled to field technicians. However, knowing that customers use Dynamics 365 in different ways, RSO can optimize cases that are onsite, cases that are remote (referred to as "location agnostic"), as well as other entities that represent work that needs to be scheduled. In the example of remote cases, RSO would be used to schedule cases to customer service reps with the goal of maximizing work orders and matching skills. Another example could be scheduling leads to salespersons in an automated and optimal way. 
+
+RSO can optimze any entity (that is enabled for scheduling) because Universal Resource Scheduling is an open framework that schedules the requirement record. The data that your client may provide, such as work orders or cases, will result in a requirement record when imported. See the topic on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md) for more details. 
 
 Here are a few questions to ask clients that will help tailor the RSO POC: 
 
@@ -77,9 +79,9 @@ To know if the POC works well for the client, you first need to determine what m
 
 Be sure that what the client is asking for is something we can actually measure. For example, reducing the number of trips to a customer’s site is not easily measured, as each requirement will create a related booking when scheduled. RSO will often schedule work at the same location back-to-back, as long as other criteria like the scheduling window allow for it; to report this as a single trip to the customer site, however, is very difficult with multiple booking records. Typically work booked at the same location back-to-back with another work order will have zero travel time or zero miles, so think of ways to present these as success criteria to your client or prospect. 
 
-Also, understand the data in terms of dates and timeframes. It’s common to receive a data set from prior periods where the expectation is the client can compare the RSO results to what really happened. This is difficult because RSO cannot schedule in the rears. If you simply add days to the dates provided, remember that a week day in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
+Also, understand the data in terms of dates and timeframes. It’s common to receive a data set from prior periods where the expectation is the customer can compare the RSO results to what really happened. This is difficult because RSO cannot schedule before the current time. If you simply add days to the dates provided, remember that a week day in September may be a weekend date in December. If you are maximizing work hours and there are no resources working weekends, this requirement will not be scheduled. Be sure to discuss this up front with the POC stakeholders and define a plan to work around this. 
 
-You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. RSO can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as **Time From Promised** and **Time To Promised** fields on the work order, or by setting the start date and end dates on a requirement. You'll often see examples such as “next day before 12:00 PM” or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. 
+You should also consider how you might manage SLAs or response times. It's not uncommon to receive SLA terms as text. RSO can't act upon text so you should have a plan to convert the various terms and conditions to dates. These can be retained as **Time From Promised** and **Time To Promised** fields on the work order, or by setting the **Date Window Start** and **Date Window End** work order fields, which translate to the Start and End fields on a requirement (using either is applicable). You'll often see examples such as “next day before 12:00 PM” or even something like "within 4 hours or within 8 hours." Work out a plan on how you'll address these types of scenarios. Consider the capbilities of [Service Level Agreements (SLAs) for Work Orders](sla-work-orders.md) 
 
 Whatever you choose, be sure the result is a date window that can be acted upon by RSO. RSO will only consider these requirements within that date window. If not scheduled, these requirements will not be considered in future RSO runs targeting dates outside that time frame. Have a plan to address those requirements with small scheduling windows, or have a process to push the scheduling window forward as you do subsequent RSO runs. 
 
@@ -96,7 +98,7 @@ Typical types of data include:
 - Territories
 - Bookable Resources
 - Resource territories
-- Skills and characteristics
+- Characteristics (skills)
 - Start and end locations
 - Work hours
 - Priorities
@@ -108,7 +110,7 @@ Account information is helpful when dealing with work orders, since **Service Ac
 
 ### Addresses
 
-Addresses should be geocoded on import. To make sure this happens, go to **Resource Scheduling Optimization** > **Resource Scheduling Parameters**. Make sure that **Connect to Maps** is set to yes and that there is a valid **Map API Key*.* 
+Addresses should be geocoded on import. To make sure this happens, go to **Resource Scheduling Optimization** > **Resource Scheduling Parameters**. Make sure that **Connect to Maps** is set to **Yes** and there is a valid **Map API Key*.* 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the connect to maps and map api key settings](./media/rso-poc-address1.png) 
@@ -139,10 +141,10 @@ Note that if no territories are provided, you may need to define your own schema
 
 ### Bookable resources 
 
-Include a subset of actual resource data for the purposes of this POC. Working with real data makes it easier to drill into specific use cases and also limits the related data required for resources, such as work hours, resource territories, or skills and characteristics. Resources must be related to a user, account, or contact. The easiest way to make sure this happens is to relate resources to contacts - this ensures that they are separate from the accounts you're scheduling. Of course, if the resources are also users, then relating them to a user record is also acceptable.
+Include a subset of actual resource data for the purposes of this POC. Working with real data makes it easier to drill into specific use cases and also limits the related data required for resources, such as work hours, resource territories, or characteristics (skills). Resources must be related to a user, account, or contact. The easiest way to make sure this happens is to relate resources to contacts - this ensures that they are separate from the accounts you're scheduling. Of course, if the resources are also users, then relating them to a user record is also acceptable.
 
 > [!Note]
-> If you do relate resource data to user data, note that location data for start and end locations are maintained in the user record, which can only be edited by an administrator.
+> If you relate resource data to user data, note that location data for start and end locations are mainatined in the user record, which can only be edited by an administrator.
 
 Be sure to set the proper time zone on the resource. This will inform the required work hours. If multiple time zones are needed for the POC, be sure that you have schedule board views set up with the proper time zone filters, or you may misread the outputs. 
 
@@ -159,26 +161,25 @@ On the bookable resource record, go to the **Resource Scheduling Optimization** 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Optimize Schedule setting set to yes on the resource record](./media/rso-poc-resource3.png) 
 
+### Start and end locations
+
+Start and end locations are maintained on the resource record. The latitudes and longitudes used by RSO, however, are maintained in whatever record the resource is related to, such as user, account, or contact. Additionally, if using **Organizational Unit**, the latitude and longitude must also be added.
+
 ### Resource territories 
 Resource territory records must be created for each resource so that RSO will include the resources in any optimization run. RSO will be more efficient if you can use multiple territories to filter the data to smaller subsets. You can run multiple RSO schedules at the same time for separate data sets and territory is a great way to do that. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a highlighted resource territory field on a resource record](./media/rso-poc-territory1.png) 
 
-### Skills and characteristics 
+### Characteristics (Skills) 
 While not required for a POC, skills and characteristics can be used as additional filter criteria, as well as in the goals and objectives setups. You can set constraints to **Meet Required Characteristics**, which will add additional dimensions to RSO results. However, we recommend keeping a POC to a manageable number of skills and characteristics.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a characterstic record with type set to skill](./media/rso-poc-skillscharacteristics.png) 
 
-
-### Start and end locations
-
-Start and end locations are maintained on the resource record. The latitudes and longitudes used by RSO, however, are maintained in whatever record the resource is related to, such as user, account, or contact. Additionally, if using **Organizational Unit**, the latitude and longitude must also be added.
-
 ### Work hours 
 
-Work hours are required for RSO to consider a resource for scheduling. We recommend grouping your resources so you can set work hours for one person, and then using the work hour template feature and set calendar for a given group. Time zone is derived from the resource record and while you can change it on the work hours record, be aware this can cause conflicts. It's best to set on the resource record and allow it to default to the work hours.
+Work hours are required for RSO to consider a resource for scheduling. We recommend grouping your resources so you can set work hours for one person, and then using the work hour template and set calendar feature for a given group. Time zone is derived from the resource record and while you can change it on the work hours record, be aware this can cause conflicts. It's best to set time zone on the resource record and allow it to default to the work hours.
 
 You can set work hours for the specific day of the week by checking off the days that the resource will not be working. You can also select **Vary by day** or set work hours.
 
@@ -197,11 +198,6 @@ When setting up work hours, you may also set a fixed break time, which RSO will 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Set Work Hours and Service Restrictions window with the break fields highlighted](./media/rso-poc-workhours3.png) 
- 
-Also, be sure to flag the related resource requirement to **Optimize** in the **Scheduling Method** field.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a resource requirement record with the scheduling method set to optimize](./media/rso-poc-workhours4.png) 
 
 
 ### Priorities
@@ -223,6 +219,15 @@ This data represents the work you are trying to schedule, typically in the form 
 
 Field service POCs are typically set up to receive a bulk load of data that represent a block of maintenance jobs. For example, this might look like a full month of maintenance work and service calls broken down by the day or hour. The service calls are typically more urgent and can require re-optimization of the maintenance jobs in order to take advantage of where a resource will be when he addresses those calls. This may require a separate optimization schedule with different scope, goals, and objectives, and is also typically a different time frame, such as a few days or a week. The key to this schedule is to keep it to a smaller time frame as more service calls are expected - it's much quicker to optimize a smaller, focused data set. We'll look at defining these optimization schedules in the next section.
 
+Importing work orders will automatically create related requirements that the RSO will then automatically schedule. On import or afterwards, you must set the **Scheduling Method** field on the requirement to **Optimize**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a resource requirement record with the scheduling method set to optimize](./media/rso-poc-workhours4.png) 
+
+> [!Note]
+> Work Order requirements Scheduling Method field can be set to Optimize by default in the work order Booking Setup Metadata in **Resource Scheduling app > Settings > Administration > Enable Resource Scheduling for Entities**.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-rso-poc-work-order-booking-setup-metadata.png)
 
 
 ### Time off
@@ -249,7 +254,7 @@ Now that we've had a look at types of data that will make for a useful POC, let'
 
 ### Scheduling initial data
 
-With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run RSO to the first of the month or period you want to schedule. For example, if running for the month of January on December 16th, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 thru January 31st.
+With POCs, it's not unheard of to receive multiple data sets representing information such as a months’ worth of maintenance jobs and daily or hourly service calls. Typically, the first data set is the monthly maintenance work. It's good to have an optimization scope where the range offset is the number of days from the date you run RSO to the first of the month or period you want to schedule. For example, if running for the month of January on December 16th, set the range offset to 15 and the range duration would be 31. The result would be a schedule stating on January 1 through January 31st.
 
 For more detailed information about setting up optimization schedules, see [this topic on on the subject](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).  
 
@@ -276,7 +281,7 @@ Let's take a look at some constraints and objectives.
 
 #### Constraints
 
-- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. 
+- **Schedule Within Working Hours**: Creates the booking if it can be completed within the resource’s working hours. Removing this constraint does not mean RSO will treat working hours as 24-7. Rather, it will allow the booking at the end of the day to overflow into non-working hours. 
 - **Meets Required Characteristics**: Verifies the resource has all the required characteristics and should have minimum required skill level. 
 - **Scheduling Lock Option**: If checked, this will respect lock options configured on a booking record.
 - **Scheduling Windows**:  RSO will schedule work to comply within the time window start and end fields on the resource requirement or booking record. 
@@ -292,12 +297,12 @@ Let's take a look at some constraints and objectives.
 > **Minimize total travel time** can't be the first objective in the list. RSO might not schedule anything with the travel time of 0 minutes in order to meet the first objective. 
 
 - **Locked bookings**: Once a booking is created, a lock can be set on the scheduling lock options field in the RSO section of the booking. The options are **Time Range**, **Resource**, **Time**, and **Resource and Time**. 
-- **High priority requirements**: RSO will evaluate this objective and give priority to the resource and booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is. For example, set **Level of Importance** to **10** for urgent priority and set **Level of Importance** **1** for low priority; RSO will score 1 urgent requirement the same as 10 low-priority requirements because both scores are 10. 
+- **High priority requirements**: RSO will evaluate this objective and give priority to the resource and booking combination with the highest score for priority. The priority is set on the resource requirement record and is an option set with weighted values. RSO checks **Level of Importance** on priority to determine how important that priority is. For example, set **Level of Importance** to **10** for urgent priority and set **Level of Importance** to **1** for low priority; RSO will score 1 urgent requirement the same as 10 low-priority requirements because both scores are 10. 
 
 
 ### Simulations
 
-RSO includes the ability to run simulations or "What If" scenarios. In an optimization schedule, Set **Run as Simulation** to **Yes** and when the schedule runs, it will create soft bookings with a Booking status of **Simulations- RSO**. These will show on the schedule board as a white booking. They can then be turned into hard bookings should a simulation meet specific requirements and it is deemed the best option. The simulations should also be deleted should they not meet expectations. 
+RSO includes the ability to run simulations or "What If" scenarios. In an optimization schedule, Set **Run as Simulation** to **Yes** and when the schedule runs, it will create soft bookings with a Booking status of **Simulations - RSO**. These will show on the schedule board as a white booking. They can then be turned into hard bookings should a simulation meet specific requirements and it is deemed the best option. The simulations should also be deleted should they not meet expectations. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an optimization schedule with Run as Simulation highlighted](./media/rso-poc-simulations.png) 
