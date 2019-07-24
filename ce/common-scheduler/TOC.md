@@ -7,6 +7,7 @@
 ## [Resource crew scheduling](resource-crews.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Resource pools](resource-pools.md)
+### [Booking alerts](booking-alert.md)
 
 # Schedule board configuration
 ## [Share schedule board tabs](share-schedule-board-tab.md)

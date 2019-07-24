@@ -58,6 +58,7 @@
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
 ### [Facility scheduling](facility-scheduling.md)
+### [Booking alerts](booking-alert.md)
 
 
 ## Schedule board 

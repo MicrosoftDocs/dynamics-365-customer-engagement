@@ -1,5 +1,5 @@
 ---
-title: "Booking alerts | MicrosoftDocs"
+title: "Booking alerts in Universal Resource Scheduling| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 07/25/2019
@@ -26,6 +26,6 @@ search.app:
   - D365FS
 ---
 
-# Booking alerts in Dynamics 365 for Field Service
+# Booking alerts in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-booking-alert.md](../includes/topic-urs-booking-alert.md)]
