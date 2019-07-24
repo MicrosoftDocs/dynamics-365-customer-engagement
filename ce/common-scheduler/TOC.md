@@ -1,17 +1,20 @@
 # [Overview of Universal Resource Scheduling (URS)](schedule-anything-with-universal-resource-scheduling.md)
 
 # Scheduling
+## [Quick scheduling](quick-scheduling.md)
 ## [Travel time and distance](schedule-travel-time.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ## [Fulfillment preferences](fulfillment-preferences.md)
 ## [Resource crew scheduling](resource-crews.md)
 ## [Facility scheduling](facility-scheduling.md)
 ## [Resource pools](resource-pools.md)
-## [Booking alerts](booking-alert.md)
 
 # Schedule board configuration
+## [Enable an entity for scheduling](schedule-new-entity.md)
 ## [Share schedule board tabs](share-schedule-board-tab.md)
 ## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+## [Edit booking template](booking-template.md)
+## [Booking alerts](booking-alert.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
 
 # Extensibility
