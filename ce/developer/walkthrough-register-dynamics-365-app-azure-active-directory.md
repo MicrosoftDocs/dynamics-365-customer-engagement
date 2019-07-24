@@ -59,7 +59,7 @@ App registration can also be done by an application developer or individual user
   
 2. In the Azure portal, select **Azure Active Directory** in the left pane and select **App registrations** and click on **New registration**.
     
-    ![Azure App Registration](media/azure-app-registration.png "Azure app registration")  
+    ![Azure App Registration](media/azure-app-registrations-page.png "Azure app registration")  
 
 3. In the **Register an application page**, enter your application's registration information:
    - In the **Name** section, enter a meaningful application name that will be displayed to the users.
