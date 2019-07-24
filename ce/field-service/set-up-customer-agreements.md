@@ -50,10 +50,16 @@ We will use agreements along with customer assets, incident types, and price lis
 
 ### Step 1: Create an agreement
 
+agreement-create
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
+
 ### Step 2: Set up booking recurrence
+
+agreement-booking-setup
+
+agreement-booking-recurrence
 
 ### Step 3: Add agreement work details
 
