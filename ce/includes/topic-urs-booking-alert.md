@@ -55,7 +55,7 @@ Once the due date is reached and the alert appears on the schedule board side pa
  
 ### Booking alerts for bookings
 
-Alerts for **Bookable Resource Bookings** will not only appear in the booking’s timeline and the details panel, but also in the schedule board alongside a booking time slot, specifically in the upper left-hand corner of the booking. SEe the following screenshot for reference.
+Alerts for **Bookable Resource Bookings** will not only appear in the booking’s timeline and the details panel, but also in the schedule board alongside a booking time slot, specifically in the upper left-hand corner of the booking. See the following screenshot for reference.
 
  
 > [!div class="mx-imgBorder"]
