@@ -22,7 +22,8 @@
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
-## [Policies and Communications](policies-communications.md)
+## [Policies and communications](policies-communications.md)
+## [Notifications explained](notifications-explained.md)
 
 # Switch from CRM Online to Customer Engagement
 ## [Overview](switch-dynamics-crm-online-dynamics-365.md)
@@ -120,10 +121,12 @@
 ## China
 ### [About China datacenter](../admin/datacenter/about-microsoft-cloud-china.md)
 ### [21Vianet support](../admin/datacenter/21vianet-support.md)
+## [France](../admin/datacenter/about-microsoft-cloud-france.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
 ## [Geo to geo migrations](../admin/datacenter/geo-to-geo-migrations.md)
+
 
 # Set up an organization
 ## [Overview](set-up-a-dynamics-365-organization.md)

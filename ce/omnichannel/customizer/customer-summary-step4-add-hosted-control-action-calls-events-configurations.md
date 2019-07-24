@@ -14,7 +14,7 @@ ms.custom:
 
 # Step 4: Add the hosted control, action calls, and events to configurations
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to add hosted control, action calls, and events to configurations in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 

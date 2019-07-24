@@ -1,4 +1,5 @@
 ---
+redirect_url: export-solution
 title: "Import, update, and export solutions | MicrosoftDocs"
 description: "Learn how to import, update, and export a solution"
 ms.custom: 

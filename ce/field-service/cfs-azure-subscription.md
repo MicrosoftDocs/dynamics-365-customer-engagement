@@ -49,8 +49,9 @@ When deploying and administering Connected Field Service (CFS) with IoTHub, ther
 
 3. You will only see subscriptions that are tied to your login's **primary active directory**. For example, david@contoso.com will only see subscriptions from the contoso.com directory. If jason@fabrikam.com invites David into their fabrikam.onmicrosoft.com subscription, David will not be able to use the fabrikam subscription on the deployment app.
 
+4. Only organizational Azure accounts can be used to deploy CFS with IoTHub; personal accounts such as Outlook or Gmail cannot be used.
 
-4. Your user must have permission to use the Dynamics API within the Azure active directory tenant.
+5. Your user must have permission to use the Dynamics API within the Azure active directory tenant.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of CRM API access](./media/cfs-azure-api-management.png)

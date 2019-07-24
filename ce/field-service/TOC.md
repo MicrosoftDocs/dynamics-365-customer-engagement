@@ -67,6 +67,7 @@
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Sharing schedule board tabs](share-schedule-board-tab.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+### [Edit booking template](booking-template.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 
 
@@ -117,6 +118,7 @@
 ## [Overview](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
+## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)

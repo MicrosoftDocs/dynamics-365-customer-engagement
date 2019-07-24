@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 07/09/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 284DD86F-84B5-4000-AACF-5DA72D084814
@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Error code reference for Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
 
@@ -24,6 +24,17 @@ Here are the error codes and error messages that are returned when using live ch
 |2|Auth token provider method execution failed|
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
+
+Given below is a sample `errorEvent` object that is raised when the context provider method execution fails.
+
+```JSON
+{
+    detail: {
+        errorCode: 1, // Error code corresponding to the error event
+        errorDescription: "Context provider method execution failed" // Description of the error
+    }
+}
+```
 
 ### See also
 

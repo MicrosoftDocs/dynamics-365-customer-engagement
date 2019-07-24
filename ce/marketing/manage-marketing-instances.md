@@ -167,4 +167,4 @@ To copy a production instance to a sandbox:
 [Manage instances](../admin/manage-online-instances.md)  
 [Manage your data](../admin/manage-your-data.md)  
 [Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
-[Import, update, and export solutions](../customize/import-update-export-solutions.md)
+[Import, update, and export solutions](../customize/import-update-upgrade-solution.md)

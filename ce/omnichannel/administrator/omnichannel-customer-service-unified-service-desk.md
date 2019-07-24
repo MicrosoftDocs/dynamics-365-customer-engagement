@@ -15,7 +15,7 @@ ms.custom:
 
 # Omnichannel for Customer Service on Unified Service Desk
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 > [!NOTE]
 > The topic applies when you want to use Omnichannel for Customer Service with Unified Service Desk client application.

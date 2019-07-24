@@ -14,7 +14,7 @@ ms.custom:
 
 # Step 1: Create Omnichannel Agent Dashboard hosted control
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to create an Omnichannel Agent Dashboard hosted control in Unified Service Desk for a Dynamics 365 for Customer Engagement instance.
 

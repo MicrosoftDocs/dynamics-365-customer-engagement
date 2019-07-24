@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure communication panel for agents overview
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to set up a communication panel for agents to converse with customers. When agents accept an incoming conversation notification request, they use the communication panel to engage with the customer.
 

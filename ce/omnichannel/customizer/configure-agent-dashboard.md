@@ -15,7 +15,7 @@ ms.custom:
 
 # Configure Omnichannel Agent Dashboard for agents overview
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to set up an Omnichannel Agent Dashboard for agents to view the conversation (work items). When agents accept an incoming conversation notification request, they use the Omnichannel Agent Dashboard to engage with the customer.
 

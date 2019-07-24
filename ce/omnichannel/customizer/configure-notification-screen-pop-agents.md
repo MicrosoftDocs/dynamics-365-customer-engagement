@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Configure notifications (Screen pops) for agents overview
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You configure notifications (screen pops) in Unified Service Desk - Omnichannel for Customer Service. These notifications pop up on the screen, and they contain either general information, customer-related or process-related information that the agent can act upon. Here are some examples of the information that screen pops can contain:
 

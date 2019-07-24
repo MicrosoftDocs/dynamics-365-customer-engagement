@@ -95,7 +95,7 @@ Next, let's talk about scheduling lead requirements from the schedule board.
 
 ## Add a requirement view to the schedule board
 
-After creating a requirement for the lead, it will appear in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any scheduleable entity. This is a default view for resource scheduling.
+After creating a requirement for the lead, it will appear in the **Open Requirements** view in the lower pane of the schedule board that shows all open requirements related to any schedulable entity. This is a default view for resource scheduling.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the open requirements pane on the schedule board](../field-service/media/scheduling-enable-entity-open-requirements.png)

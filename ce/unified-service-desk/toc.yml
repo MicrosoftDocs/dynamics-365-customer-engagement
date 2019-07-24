@@ -200,6 +200,8 @@
           href: internal-wpf.md
         - name: Use Web Hosted Application to host web applications
           href: web-hosted-application.md
+        - name: Behavior in Chrome Process and IE Process
+          href: hosting-type-differences.md
       - name: Create or edit a hosted control
         href: create-edit-hosted-control.md
       - name: Add a UII action to a hosted control

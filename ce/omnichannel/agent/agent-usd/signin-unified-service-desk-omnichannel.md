@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 1. Start the Unified Service Desk client by double-clicking the application shortcut on your desktop.
 
