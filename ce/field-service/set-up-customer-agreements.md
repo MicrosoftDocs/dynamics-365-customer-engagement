@@ -109,7 +109,7 @@ Once the agreement has been created, specify how often work orders are generated
   
 4.  When you are done, click **Save**. This will automatically generate the agreement booking dates within 24 hours.  
   
-5.  To add incidents to the agreement booking setup, click **+Add Agreement Booking incident record**.Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.  
+5.  To add incidents to the agreement booking setup, click **+Add Agreement Booking incident record**. Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.  
   
 6.  To add agreement booking dates, click **+Add Agreement Booking Date record**  
   
@@ -121,7 +121,21 @@ agreement-booking-recurrence
 
 ### Step 3: Add agreement work details
 
+agreement-incident
+
 ### Step 4: Activate agreement and view results
+
+agreement-active
+
+agreement-active-booking-dates
+
+agreement-active-booking-dates-annotation
+
+agreement-active-booking-dates-details-work-order
+
+agreement-incident-items
+
+### Step 5: Perform agreement work order
 
 ## Scenario 2: auto generate invoices
 
@@ -171,6 +185,8 @@ generate agreement dates x months - use those to understand work
 copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
 
 an agreement can only be for a single location - yes
+
+what about the characteristics of the agreement incident
 
 **Tips**:  
   
