@@ -4,7 +4,7 @@ description: "Extend Marketing forms with Javascript to apply custom business lo
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
-ms.date: 05/23/2019
+ms.date: 07/23/2019
 ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
@@ -156,27 +156,28 @@ To add the code snippet, you need to follow the steps below:
 
 1. Sample validation - checks if the textbox is either Fabricam or Contoso, otherwise prevents the form submission.
 
-```JS
+    ```JS
     MsCrmMkt.MsCrmFormLoader.onformsubmit = function(formPageId, formEvent) {
-  // sample validation - check if 
-  document.getElementById('txt-company-name-message').style.visibility = 'hidden';
-  var companyName = document.getElementById('txt-company-name').value;
-  if (companyName !== 'Fabricam' && companyName != 'Contoso') {
+    // sample validation - check if 
+    document.getElementById('txt-company-name-message').style.visibility = 'hidden';
+    var companyName = document.getElementById('txt-company-name').value;
+    if (companyName !== 'Fabricam' && companyName != 'Contoso') {
     document.getElementById('txt-company-name-message').style.visibility = 'visible';
     formEvent.preventDefault();
-  }
-}
+    }
+   }
    ```
+
 2. Filling the incoming query string parameters to hidden fields.
 
-```JS
-MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId) 
-{
-  var self = window.location.toString();
-  var queryString = self.split("?");
-  var hiddenFields = document.querySelectorAll("input[type=hidden]");
-  if (queryString.length > 1) 
-  {
+    ```JS
+    MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId) 
+   {
+    var self = window.location.toString();
+    var queryString = self.split("?");
+    var hiddenFields = document.querySelectorAll("input[type=hidden]");
+    if (queryString.length > 1) 
+    {
     var pairs = queryString[1].split("&");
     for (var pairIndex in pairs) 
     {
@@ -185,11 +186,9 @@ MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId)
       {
         continue;
       }
-
-      var key = pair[0];
+     var key = pair[0];
       var value = pair[1];
-
-      if (key && value)
+     if (key && value)
       {
         for (var i = 0; i < hiddenFields.length; i++) 
         {
@@ -199,40 +198,40 @@ MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId)
           }
         }
       }
-    }
-  }
-}
-```
+      }
+       }
+      }
+   ```
 
 ## How to implement spinner sample
 
 1. Navigate to **Marketing Pages** and open your marketing page in which you have placed your marketing form, switch to **HTML** tab, add the following block in the **style** tag.
 
-```css
-#loaderSpinner {
+   ```css
+   #loaderSpinner {
     border: 16px solid #f3f3f3; /* Light grey */
     border-top: 16px solid #3498db; /* Blue */
     border-radius: 50%;
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
-}
-@keyframes spin {
+    }
+     @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
-```
+    }
+   ```
 
 2. In the same editor, find `data-editorblocktype="FormBlock"` tag and add the following code:
 
-```HTML
-<div id="loaderSpinner" class="wrapperContainer"></div>
-<div class="wrapperContainer" data-container="true"><div data-editorblocktype="FormBlock" class="" data-form-block-id="2f516d70-f0a7-e811-a967-000d3a34a1bd"></div>
-```
+    ```HTML
+    <div id="loaderSpinner" class="wrapperContainer"></div>
+    <div class="wrapperContainer" data-container="true"><div data-editorblocktype="FormBlock" class="" data-form-block-id="2f516d70-f0a7-e811-a967-000d3a34a1bd"></div>
+    ```
 
-3. After the start of the <body> tag, add the following code:
+3. After the start of the body tag, add the following code:
   
-  ```HTML
+   ```HTML
     <script>
      (function() {
       MsCrmMkt.MsCrmFormLoader.afterformrender = function() {
@@ -240,5 +239,5 @@ MsCrmMkt.MsCrmFormLoader.afterformload = function(formPageId)
       };
     })();
     </script>  
-```
+  ```
 
