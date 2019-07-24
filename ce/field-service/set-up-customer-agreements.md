@@ -43,9 +43,21 @@ To use agreements, first create the **Agreement**. This is where you'll define h
 
 Let's walk through a scenario to create an agreement.
 
+## Prerequisites
+Field Service v6.1+
+
+This article assumes you have work order related data such as accounts, incident types, products, services, and service tasks configured in your system. 
+
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
 ## Scenario 1: auto generate work orders for asset maintenance
 
 An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They would like to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month with some flexibility. They would like dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work based on an agreed upon price.   
+
 We will use agreements along with customer assets, incident types, and price lists to configure this scenario. 
 
 ### Step 1: Create an agreement
@@ -123,7 +135,7 @@ agreement-booking-recurrence
 
 agreement-incident
 
-### Step 4: Activate agreement and view results
+### Step 4: Activate agreement and view work orders
 
 agreement-active
 
@@ -137,9 +149,23 @@ agreement-incident-items
 
 ### Step 5: Perform agreement work order
 
+agreement-work-order-summary
+
+agreement-work-order-settings
+
+agreement-schedule-assistant-filters
+
 ## Scenario 2: auto generate invoices
 
-An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter for products and services at an agreed upon price. 
+An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter for products and services at an agreed upon price for one year. 
+
+### Step 1: Create an agreement
+
+agreement-create-for-invoice
+
+### Step 2: Set up invoice recurrence and products
+
+### Step 3: Activate invoice recurrence and view invoices
 
 
 Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
@@ -155,12 +181,7 @@ Automatic billing invoices are generated at a set recurrence for a set price. Th
   
 4.  In the **Invoice Product** section, click **+Add Agreement Invoice Product record**. The products will be added to your invoice at the time the invoice is generated.  
 
-## Prerequisites
-> [!Note]
->
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
 
 ## Configuration considerations
 
@@ -169,6 +190,8 @@ Agreement with multiple incident types
 Agreement with multiple recurrences
 
 Schedule agreement work orders with RSO
+
+using invoices and work orders on same agreement?
 
 entitilements/SLAs?
 
@@ -187,6 +210,8 @@ copy incident items to agreement -   There is a field on the incident type recor
 an agreement can only be for a single location - yes
 
 what about the characteristics of the agreement incident
+
+what can you do after activating a work order?
 
 **Tips**:  
   
