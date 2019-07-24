@@ -39,20 +39,29 @@ Here are a few different ways agreements can be configured and utilized. The agr
 - multiple work orders each year to inspect multiple assets at a customer location
 - quarterly invoices to bill customers for predefined products and services
 
-The general flow
+To use agreements, first create the **Agreement**. This is where you'll define high level details such as the customer, date range, and price list. Next create an **Agreement Booking Setup** where you'll define how often work orders should be created for the agreement along with basic details of the eventual work orders like Work Order Type. After that, you'll add **Agreement Incidents, products, services, and service tasks** that define the specific details of the work to be performed as part of each work order that is generated. Finally, you'll **activate** the agreement and Agreement Booking Dates will be created along with work orders as the date approaches.
 
-## Auto generate work orders
+Let's walk through a scenario to create an agreement.
 
-Scenario:
+## Scenario 1: auto generate work orders for asset maintenance
 
 An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They would like to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month with some flexibility. They would like dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work based on an agreed upon price.   
 We will use agreements along with customer assets, incident types, and price lists to configure this scenario. 
 
-## Auto generate invoices
+### Step 1: Create an agreement
 
-Scenario:
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
 
-An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter. 
+### Step 2: Set up booking recurrence
+
+### Step 3: Add agreement work details
+
+### Step 4: Activate agreement and view results
+
+## Scenario 2: auto generate invoices
+
+An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter for products and services at an agreed upon price. 
 
 ## Prerequisites
 > [!Note]
