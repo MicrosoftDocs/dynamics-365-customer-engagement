@@ -27,7 +27,6 @@ You can use security enhancements to better secure the [!INCLUDE[pn_CRM_Online](
 
 ## User session timeout management
 
-**Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.3647 or higher.**
 
 The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Dynamics 365 for Customer Engagement apps and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
 

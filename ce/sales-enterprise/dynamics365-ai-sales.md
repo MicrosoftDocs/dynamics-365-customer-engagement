@@ -22,8 +22,6 @@ topic-status: Drafting
 
 # Dynamics 365 Sales Insights
 
-Applies to Dynamics 365 for Customer Engagement, version 9.1.0
-
 Dynamics 365 Sales Insights enables salespeople to build strong relationships with their customers, take actions based on insights, and close sales faster. These features are categorized as follows:
 - **Dynamics 365 Sales Insights capabilities for sellers:** Helps you to with leads and opportunities to prioritize, view activity history, intelligent suggestion on notes, conversation starters of customers, and contacts who can introduce to a customer. This includes the following features:
     - Relationship analytics

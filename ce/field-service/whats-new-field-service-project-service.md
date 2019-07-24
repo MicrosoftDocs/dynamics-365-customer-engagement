@@ -31,7 +31,7 @@ search.app:
 
 # What's new in Universal Resource Scheduling (URS)
 
-Applies to Field Service application (version 7.2.0.43)<br/>Applies to Project Service Automation application (version 2.2.0.74)<br/>Applies to Universal Resource Scheduling solution (version 2.2.0.49)
+Applies to Project Service Automation application (version 2.2.0.74)
 
 The team is excited to announce the newest updates released in December 2017. Ranging from improvements to screen layout, all the way to more powerful search queries for resource scheduling, and more. You asked; we listened.
 

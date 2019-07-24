@@ -124,7 +124,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## About group teams
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
 ### Using Azure Active Directory groups to manage a user’s app and data access 

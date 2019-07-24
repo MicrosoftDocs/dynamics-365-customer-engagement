@@ -17,8 +17,6 @@ manager: shujoshi
 
 # Sample: Extend Relationship assistant card type (custom card)
 
-Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
-
 ## Create custom action card
 The following process explains how to create a custom card:
 - **Step 1:** Download the extend Relationship assistant card type sample solution
