@@ -136,9 +136,13 @@ The knowledge base search control provides sort the knowledge articles interacti
 
 You can associate and dissociate the knowledge article with a record by using the **Link** and **Unlink** buttons.
 
+  ![Knowledge article link and unlink buttons](media/km-link-unlink.png "Knowledge article link and unlink buttons") 
+
 ### Email the knowledge article
 
 Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
+
+  ![Email knowledge article](media/km-email.png "Email knowledge article")
 
 ### View the knowledge article inline in the search control
 
