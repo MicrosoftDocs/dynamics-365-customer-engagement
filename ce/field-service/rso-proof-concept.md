@@ -2,7 +2,7 @@
 title: "Setting up a proof of concept for Resource Scheduling Optimization | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/19/2019
+ms.date: 07/24/2019
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
