@@ -44,7 +44,7 @@ Dynamics 365 Sales Insights enables salespeople to build strong relationships wi
 
     These features are available only in North America (NAM) region as preview and you must purchase Dynamics 365 Sales Insights license to use.
 
-    More information on Dynamics 365 Sales Insights capabilities for sales mangers, see [Unlock sales potential with Dynamics 365 AI for Sales](/dynamics365/ai/sales/dynamics365-ai-sales-app)
+    More information on Dynamics 365 Sales Insights capabilities for sales mangers, see [Unlock sales potential with Dynamics 365 Sales Insights](/dynamics365/ai/sales/dynamics365-ai-sales-app)
 
 ### See also
 
