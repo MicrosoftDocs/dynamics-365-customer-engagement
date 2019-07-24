@@ -50,71 +50,6 @@ We will use agreements along with customer assets, incident types, and price lis
 
 ### Step 1: Create an agreement
 
-agreement-create
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-
-### Step 2: Set up booking recurrence
-
-agreement-booking-setup
-
-agreement-booking-recurrence
-
-### Step 3: Add agreement work details
-
-### Step 4: Activate agreement and view results
-
-## Scenario 2: auto generate invoices
-
-An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter for products and services at an agreed upon price. 
-
-## Prerequisites
-> [!Note]
->
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-## Configuration considerations
-
-Agreement with multiple incident types
-
-Agreement with multiple recurrences
-
-Schedule agreement work orders with RSO
-
-entitilements/SLAs?
-
-location/account
-
-## Additional Notes
-
-agreements work with the sales  opp quote order process
-
-Generate agreement start time 
-
-generate agreement dates x months - use those to understand work
-
-copy incident items to agreement
-
-an agreement can only be for a single location
-
-**Tips**:  
-  
--   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
-  
--   The price list on the agreement specifies the price of all products and services related to an agreement. It is important to add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list.  
-  
--   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
-
-
-## old 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-<a name="BKMK_CreateAgreement"></a>   
-### Create an agreement  
-  
 1.  From the main menu, click **Field Services** > **Agreements**.  
   
 2.  On the **Active Agreements**> screen, choose **+New**.  
@@ -135,10 +70,15 @@ an agreement can only be for a single location
         - **General**: Add a price list that control the price for products and services used in the agreement. Enter the work order service territory  
   
 4.  Click **Save**.  
-  
-<a name="BKMK_DefineBookingSetup"></a>   
-### Define booking setup  
- Once the agreement has been created, specify how often work orders are generated.  
+
+agreement-create
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+
+### Step 2: Set up booking recurrence
+
+Once the agreement has been created, specify how often work orders are generated.  
   
 1.  In the **Booking Setups** section, click **+Add Booking Setup record**.  
   
@@ -174,14 +114,21 @@ an agreement can only be for a single location
 6.  To add agreement booking dates, click **+Add Agreement Booking Date record**  
   
     -   Use the tooltips as a guide to specify the booking date details and then click **Save & Close**.  
-  
-    -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup.  
-  
-         If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
-  
-<a name="BKMK_AddInvoiceSetup"></a>   
-### Add invoice setup  
- Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
+
+agreement-booking-setup
+
+agreement-booking-recurrence
+
+### Step 3: Add agreement work details
+
+### Step 4: Activate agreement and view results
+
+## Scenario 2: auto generate invoices
+
+An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter for products and services at an agreed upon price. 
+
+
+Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
   
 1.  In the **Invoice Setups** section, click **+Add Agreement Invoice Setup record**. Fill in your information. Use the handy tooltips as a guide.  
   
@@ -193,10 +140,46 @@ an agreement can only be for a single location
 3.  Click **Save**.  
   
 4.  In the **Invoice Product** section, click **+Add Agreement Invoice Product record**. The products will be added to your invoice at the time the invoice is generated.  
+
+## Prerequisites
+> [!Note]
+>
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/.png)
+
+## Configuration considerations
+
+Agreement with multiple incident types
+
+Agreement with multiple recurrences
+
+Schedule agreement work orders with RSO
+
+entitilements/SLAs?
+
+location/account
+
+## Additional Notes
+
+agreements work with the sales  opp quote order process
+
+Generate agreement start time 
+
+generate agreement dates x months - use those to understand work
+
+copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
+
+an agreement can only be for a single location - yes
+
+**Tips**:  
+  
+-   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
+  
+-   The price list on the agreement specifies the price of all products and services related to an agreement. It is important to add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list.  
+  
+-   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
+
   
 ### See also   
- [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
- [Set up agreement sub-statuses](../field-service/set-up-agreement-sub-statuses.md)   
- [Set up tax codes](../field-service/set-up-tax-codes.md)   
- [Set up payment terms](../field-service/set-up-payment-terms.md)<br>
- [User's Guide](../field-service/user-guide.md)
+
