@@ -28,6 +28,19 @@ search.app:
 ---
 # Set up agreements to automatically generate work orders and invoices
 
+Dynamics 365 for Field Service Agreements allow organizations to automatically generate work orders and invoices. This is most commonly applied to maintenance work where an organization must perform daily, weekly, or monthly inspections and tasks for equipment. 
+
+Here are a few different ways agreements can be configured and utilized.
+
+1. generate work order then dispatcher schedules it
+2. generate work order then RSO schedules it
+3. generate work order and schedule it
+4. generate work orders to inspect multiple assets
+5. generate multiple work orders each to inspect one asset
+6. generate invoices with or without work orders
+
+
+
 An agreement in provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
   
  An agreement allows you to choose how often work orders will be generated (for example, daily, weekly, monthly, or yearly) and the details of the work order (such as incidents, products, services, and service tasks).  
@@ -62,6 +75,8 @@ Agreement with multiple recurrences
 Schedule agreement work orders with RSO
 
 entitilements/SLAs?
+
+location/account
 
 ## Additional Notes
 
