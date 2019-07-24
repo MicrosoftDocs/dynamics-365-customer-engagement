@@ -22,8 +22,6 @@ search.app:
 
 # Introduction to Customer Service app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Service unifies the way people experience your business, making information available across engagements so your agents offer the consistency and personalization your customers expect.  
 
 This User's Guide shows customer service agents how to use the application. 

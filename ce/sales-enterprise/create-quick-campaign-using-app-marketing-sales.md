@@ -23,8 +23,6 @@ caps.latest.revision: 43
 
 # Create a quick campaign using in-app marketing (Sales)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   
  ![Quick campaign wizard](../sales-enterprise/media/quick-campaign-wizard.png "Quick campaign wizard")  

@@ -30,8 +30,6 @@ search.app:
 
 # Signing in and signing out (for iOS users)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
-
 Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. 
 
 > [!IMPORTANT]

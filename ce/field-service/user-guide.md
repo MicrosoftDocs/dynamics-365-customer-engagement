@@ -25,7 +25,7 @@ search.app:
 ---
 # Field Service user guide
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]  
+*NA*  
 
 Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 for Field Service resources. 
 

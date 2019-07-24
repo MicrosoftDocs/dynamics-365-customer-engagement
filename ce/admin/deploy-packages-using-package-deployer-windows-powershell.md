@@ -23,7 +23,7 @@ search.app:
 ---
 # Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 [!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a Dynamics 365 for Customer Engagement apps (on-premises) or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. A “package” can consist of any or all of the following:  
   

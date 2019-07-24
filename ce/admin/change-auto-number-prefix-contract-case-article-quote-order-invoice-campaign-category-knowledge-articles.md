@@ -23,7 +23,7 @@ search.app:
 ---
 # Change auto-numbering prefixes for contracts, cases, articles, quotes, orders, invoices, campaigns, categories, and knowledge articles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categories, and knowledge articles (the new Knowledge Article entity introduced in [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] and [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)]) are automatically numbered by [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization.  
   

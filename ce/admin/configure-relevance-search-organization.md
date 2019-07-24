@@ -23,7 +23,7 @@ search.app:
 ---
 # Configure Relevance Search to improve search results and performance 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Relevance Search delivers fast and comprehensive search results in a single list, sorted by relevance. It uses a dedicated search service external to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Search to improve your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps search experience. As an administrator or customizer, you'll be able to enable and configure Relevance Search in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user interface without writing code. Many of the configuration steps will look familiar to you, as they use the same user interface as the Quick Find configuration.  
 

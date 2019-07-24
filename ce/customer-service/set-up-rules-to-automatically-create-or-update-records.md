@@ -24,8 +24,6 @@ search.app:
 
 # Set up rules to automatically create or update records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with the help of *record creation and update rules*.  
 

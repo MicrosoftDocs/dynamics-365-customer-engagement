@@ -24,8 +24,6 @@ search.app:
 
 # 1 - Receive IoT alerts in Connected Field Service from Azure IoT Central
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 At the end of this step in the tutorial, you'll be able to receive and see alerts from Azure IoT Central in your instance of Connected Field Service. IoT alerts will display on your dashboard and relate to relevant work orders that have been created automatically.  
 
 ## Goal

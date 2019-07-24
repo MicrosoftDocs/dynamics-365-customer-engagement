@@ -27,8 +27,6 @@ search.app:
 ---
 # Why can't I see my bookings when logged into the app?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 There are typically 3 possible reasons bookings don't show up in the mobile app:
 
 1. The mobile application isn't synced to the server 

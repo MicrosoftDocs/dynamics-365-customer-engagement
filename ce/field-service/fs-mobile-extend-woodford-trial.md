@@ -25,7 +25,7 @@ search.app:
 
 # How do I extend my Woodford trial?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)] 
+*NA* 
 
 If you need to extend your trial for the Woodford solution, you need to submit a new activation request. To speed up this process, fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR_qdDvPY821Ojv3lrQCnA7JUNEVaR01JNFNIMDNOME8xNlBWMEVFSUhEQS4u) to request the activation.
 

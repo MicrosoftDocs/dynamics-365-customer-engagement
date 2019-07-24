@@ -24,8 +24,6 @@ search.app:
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 Before you can add a resource to a service, you must define a selection rule to determine how resources are selected for service activities. 
   
 You can create a simple rule that selects resources from a list, and nest selection rules and sub-rules to create compound and complex rules. A compound rule selects a combination of resources, and a complex tree of selection rules selects from groups of equivalent resources.  

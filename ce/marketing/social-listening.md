@@ -27,8 +27,6 @@ search.app:
 
 # Set up social listening and add it to any record
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!IMPORTANT]
 > The social listening feature described here relies on a product called Microsoft Social Engagement, which is scheduled to be discontinued. This means that the social listening feature in Dynamics 365 for Marketing will also be discontinued. The following terms apply:
 > 

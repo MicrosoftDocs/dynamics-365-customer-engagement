@@ -23,8 +23,6 @@ search.app:
 ---
 # Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Server (on-premises)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you can connect your Customer Engagement apps with [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] (on-premises).  
 
  Check out the following white paper: [Setup Guide: Server-side synchronization for CRM Online and Exchange Server](http://download.microsoft.com/download/E/D/0/ED05CA70-190F-4BAE-9F6A-0BB2F0010B81/Setup%20Guide%20Server-side%20synchronization%20for%20CRM%20Online%20and%20Exchange%20Server.pdf)  

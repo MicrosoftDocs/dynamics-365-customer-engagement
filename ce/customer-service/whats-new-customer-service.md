@@ -24,8 +24,6 @@ search.app:
 
 # What's new in Dynamics 365 for Customer Service
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Welcome to Dynamics 365 for Customer Service. Visit this page to learn about new or updated features for Customer Service.
 
 ## Dynamics 365 for Customer Engagement apps version 9.1

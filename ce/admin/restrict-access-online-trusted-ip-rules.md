@@ -23,8 +23,6 @@ search.app:
 ---
 # Restrict access with trusted IP rules
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can limit access to Customer Engagement apps to users with   trusted IP addresses to reduce unauthorized access. When trusted IP address restrictions are set in a user’s profile and the user tries to log in from an untrusted IP address, access to Customer Engagement apps is blocked.  
   
  **Requirements**  

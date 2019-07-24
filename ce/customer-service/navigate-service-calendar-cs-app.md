@@ -24,8 +24,6 @@ search.app:
 
 # Navigate the service calendar (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 In the Service calendar, you can do the following tasks and activities:  
   
 - View your organization's daily, weekly, and monthly schedule of appointments and service activities.  

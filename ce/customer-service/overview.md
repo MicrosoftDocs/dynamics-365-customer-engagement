@@ -26,8 +26,6 @@ search.app:
 
 # Overview of the Customer Service Hub and Customer Service app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Welcome to Dynamics 365 for Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   

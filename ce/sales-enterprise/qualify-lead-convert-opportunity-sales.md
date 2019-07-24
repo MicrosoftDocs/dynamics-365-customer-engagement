@@ -24,8 +24,6 @@ topic-status: Tech Reviewing
 
 # Qualify a lead and convert it to an opportunity (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Does your lead have what you're looking for&mdash;and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. Qualifying a lead in the Sales app converts it to an opportunity.  
   
 Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  
