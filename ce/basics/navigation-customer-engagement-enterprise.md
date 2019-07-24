@@ -1,7 +1,7 @@
 ---
 title: "Find your way around Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 07/24/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,22 +24,22 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement, start by opening the app for your role: Sales, Customer Service, Field Service or Project Service Automation.
-<!--, Operations, or Financials.  AMYLA: Removed these because it is not exactly the right list anymore with their name changes-->
+With Dynamics 365 for Customer Engagement apps, start by opening the app for your role: Sales, Customer Service, Field Service or Project Service Automation.
+
   
 > [!NOTE]
->  If you need to setup the product catalog or other management task, or if you’re an administrator, open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – Custom to access functions in the Settings area.  
+>  If you need to setup the product catalog or other management task, or if you’re an administrator, open  **Dynamics 365 – custom** to access functions in the Settings area.  
   
 ## Open an app  
   
-1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** icon.  
+1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the app launcher icon, and then click **Dynamics 365**.  
   
    ![Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected")  
   
 > [!NOTE]
 >  The apps available to you in the app launcher depend on your subscription.  
   
-2. In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
+2. In the home page, select the app for your role.  
   
    ![Dynamics 365 for Customer Engagement apps Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 for Customer Engagement apps Home page with 4 apps")  
   
@@ -48,14 +48,14 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
 ## Switch to a different app  
   
-- On the navigation bar, go to **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]>My apps**, and then select the app you want.  
+- On the navigation bar, click **Swith to another app** > **My apps** and then select the app you want.  
   
   ![Dynamics 365 for Customer Engagement app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 for Customer Engagement app switcher")  
   
 ## Find your way around the app menus
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
- The following illustrations describe the sitemaps for the  Sales, Customer Service, and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – Custom apps.  
+ The following illustrations describe the sitemaps for the  Sales, Customer Service, and Dynamics 365 – Custom apps.  
   
 > [!NOTE]
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  
@@ -132,7 +132,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
-## Dynamics 365 for Customer Engagement apps - Custom (Settings) sitemap  
+## Dynamics 365 - custom (Settings) sitemap  
  ![Dynamics 365 for Customer Engagement apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement apps Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
@@ -173,7 +173,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  **19**. Use **Activity Feeds Rules** to specify when posts will automatically be created for followed records.  
   
- **20**. Set up **Dynamics 365 App for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 for Customer Engagement App for Outlook, users can view Dynamics 365 for Customer Engagement apps data from Outlook, and can track Outlook email and appointment records with a single click.  
+ **20**. Set up **Dynamics 365 App for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 App for Outlook, users can view Dynamics 365 for Customer Engagement app data from Outlook, and can track Outlook email and appointment records with a single click.  
   
  **21**. Set up **Relationship Insights** to continuously analyze a vast collection of data to help users better understand business relationships, evaluate their activities in relation to previous successes, and choose the best path forward.  
   
