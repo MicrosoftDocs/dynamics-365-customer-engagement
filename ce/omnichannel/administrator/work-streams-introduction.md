@@ -58,10 +58,18 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
 
     - In the **Work distribution** section, follow these steps: 
 
-      1. Select whether the **Work distribution mode** should be **Push** or **Pick**. </br> Work distribution mode defines the experience of how agents can take up a conversation - via **Push** or **Pick** mode. 
+        1. Select whether the **Work distribution mode** should be **Push** or **Pick**. </br> Work distribution mode defines the experience of how agents can take up a conversation - via **Push** or **Pick** mode. 
             - In **Push** mode, a conversation is dispatched to agents automatically via a screen-pop. 
             - In **Pick** mode, a conversation is dispatched to agents when they explicitly pick a conversation from the **Open work items** in agent dashboard.
-      2. Select the **Allowed Presences** from the drop-down list. For more information, see [Configure and manage presence status](presence-custom-presence.md).
+        2. In the **Notification** field, select the type of notification setting from the drop-down list.
+            - Directly open session
+            - Screen pop with timeout
+            - Screen pop with decline
+
+            > [!NOTE]
+            > In this release, only **Screen pop with timeout** option is supported with a default timeout value of 120 seconds. An agent has the option either to accept or reject the screen pop.
+
+        3. Select the **Allowed Presences** from the drop-down list. For more information, see [Configure and manage presence status](presence-custom-presence.md).
 
       > [!div class=mx-imgBorder] 
       > ![New workstream](../media/omni-channel-new-work-stream.png)
