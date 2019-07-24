@@ -28,25 +28,18 @@ search.app:
 ---
 # Set up agreements to automatically generate work orders and invoices
 
-Field Service Agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date range. Agreements are most commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections and tasks on equipment. 
+Field Service Agreements allow organizations to automatically generate work orders and invoices with predefined details, frequency, and date range. Agreements are most commonly used for maintenance schedules where an organization must perform daily, weekly, or monthly inspections on equipment. 
 
-Here are a few different ways agreements can be configured and utilized. the agreement generates:
+Here are a few different ways agreements can be configured and utilized. The agreement generates:
 
-1. daily inspection work orders that dispatchers schedule via the schedule board or schedule assistant
-2. monthly maintenance work orders that are automatically scheduled by Resource Scheduling Optimization
-3. weekly work orders and have the agreement assign a predefined resource and booking time slot
-4. a single work order each month to inspect multiple customer assets at a customer location 
-5. multiple work orders each to inspect multiple assets at a customer location
-6. quarterly invoices for a customer and bill for predefined products and services
+- daily inspection work orders that dispatchers schedule via the schedule board or schedule assistant
+- monthly maintenance work orders that are automatically scheduled by Resource Scheduling Optimization
+- weekly work orders where the agreement assigns the same resource each time at a defined start time
+- a single work order each month to inspect multiple customer assets at a customer location 
+- multiple work orders each year to inspect multiple assets at a customer location
+- quarterly invoices to bill customers for predefined products and services
 
-
-
-
-
-An agreement in provides the framework to automatically generated work orders and invoices. They are ideal for preventative maintenance-type work.  
-  
- An agreement allows you to choose how often work orders will be generated (for example, daily, weekly, monthly, or yearly) and the details of the work order (such as incidents, products, services, and service tasks).  
-
+The general flow
 
 ## Auto generate work orders
 
