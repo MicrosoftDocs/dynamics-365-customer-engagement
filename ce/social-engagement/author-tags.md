@@ -2,7 +2,7 @@
 title: "Author tags in Social Engagement | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Social Engagement"
 keywords: author tags, tags
-ms.date: 04/11/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 4e9f6d32-cd46-0ef1-c8d4-ed73bc4de163
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -24,6 +24,8 @@ search.app:
 ---
 
 # Manage author tags
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Author tags let you add tags to authors to group and classify them. For example, you can tag influencers, competitors, or fans. When authors are tagged, you can quickly find them using [filters](understand-filters.md) and you can get a heads-up when new posts from these authors are found by [setting up alerts](email-alerts.md). 
 Every user can add or remove author tags when working with an author's details. You need to have an [interaction role](user-roles.md) of Responder or Manager to create new author tags.

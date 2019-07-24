@@ -60,6 +60,9 @@ When the lead is qualified to an opportunity, it automatically creates a corresp
 
 On the **Duplicate warning** dialog box, select the existing account or contact to avoid creating duplicates. To create a new record instead, click **Continue**.
 
+> [!NOTE]
+> When you qualify a lead through the Leads grid, the system creates an account or contact even though a duplicate record exists. By design, the rule that detects the duplicate records gets disabled. However, when you qualify a lead through the lead record form, the duplicate detection rule works. The rule prompts you with a warning to resolve the conflict if any duplicate records for account or contact are found.
+
 <a name="CompleteSteps"> </a>
 #### 2. To move to the next stage, complete the required steps
 
@@ -206,6 +209,69 @@ While adding an existing product, you selected a product in the **Draft** status
 **Resolution:**
 
 Make sure the product you want to add is in the Active state, and then add the product.   
+
+
+## Forecast definition issues and resolution
+
+### Why am I unable to publish forecast definition? 
+
+**Reason**
+
+There might be several reasons pertaining to publishing failure. The following are some examples that might have caused the failure: 
+- Some users under the selected hierarchy may not be assigned the forecast manager or forecast user role. 
+- Some users are disabled under the selected hierarchy when you publish the forecast definition.  
+
+**Resolution**
+
+1. Go to **Settings** > **System Jobs**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Open settings page](media/troubleshooting-forecast-settings.png  "Open settings page")
+    
+    The system jobs page opens.
+
+2. Identify the forecast definition publishing job that is failed. It is difficult for you to identify the job in the list of system jobs, so we recommend you to use the **Regarding** column to identify the failed job with forecast definition's title. In this example, the failed forecast definition title is **Bert FY'19**.
+
+    > [!div class="mx-imgBorder"]
+    > ![System jobs page](media/troubleshooting-forecast-system-jobs.png "System jobs page")
+    
+3. Select the System Job Name to view the error details. In this example, we have selected the system job name that is corresponding to **Bert FY'19**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select failed system job](media/troubleshooting-forecast-system-job-select.png "Select failed system job")
+
+4. In the information page, you can see the error message highlighted in **Yellow** with the reason why the forecast definition publishing is failed. Select **Details** section to further drill-down in to the error details. In this example, you can see that the error has occurred due to insufficient user privileges in Bart's hierarchy. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Failed reason in information page](media/troubleshooting-forecast-system-job-failed-reason.png "Failed reason in information page")
+
+5. Take the necessary actions to resolve the error and republish the forecast definition. 
+    
+    In this example to resolve the error, assign Forecast manager or Forecast user roles to all the user under Bart's hierarchy as required and republish the forecast definition.
+
+### Why am I unable to recalculate forecast?
+
+**Reason**
+
+There might be several reasons pertaining to the failure of recalculation of the forecast. The following are some examples that might have caused the failure: 
+- User roles (forecast manager or forecast user) might have been removed under the selected hierarchy after the forecast was created. 
+- In the **Forecast metric** value, for **Revenue** field, the **Rollup Fields** value is changed.
+
+**Resolution**
+
+1. Go to **Change area** and select **Sales** > **Forecasts**. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Select forecasts](media/troubleshooting-forecast-changearea-sales-forecasts.png "Select forecasts")
+
+    A list of published forecasts are displayed.
+
+2. In **Last recalculated on** column displays a error icon corresponding to recalculation failed forecast. Place cursor over the icon and a message/reason for the error is displayed.
+ 
+    > [!div class="mx-imgBorder"]
+    > ![View recalculation failed icon](media/troubleshooting-forecast-recalculation-failed-error-message.png "View recalculation failed icon")
+
+4. Take necessary actions to resolve the error and recalculate forecast. 
 
 
 ### See Also

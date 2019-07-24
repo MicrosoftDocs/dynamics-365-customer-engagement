@@ -2,7 +2,7 @@
 title: "Connect Social Engagement to Dynamics 365 for Customer Engagement | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365 for Customer Engagement."
 keywords: connect, connection, integration, dynamice 365
-ms.date: 03/15/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,6 @@ applies_to:
 ms.assetid: f8acc707-064a-47e3-9392-85396b9dda2c
 author: m-hartmann
 ms.author: mhart
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -23,6 +22,8 @@ search.app:
 ---
 
 # Connect [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Set up the connection between a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] instance and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] so you can link social posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. Linking posts lets you create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts that were found in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by using the **Automatic Record Creation and Update Rules** feature.  
   

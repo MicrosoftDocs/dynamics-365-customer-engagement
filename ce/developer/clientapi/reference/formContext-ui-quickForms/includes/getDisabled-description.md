@@ -1,1 +1,0 @@
-Gets a boolean value indicating whether the control is disabled.

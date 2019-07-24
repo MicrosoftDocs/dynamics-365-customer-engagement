@@ -15,7 +15,7 @@ ms.assetid: 4b5e4f18-cb04-4c4a-bb22-2c3505868e90
 caps.latest.revision: 42
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -31,7 +31,7 @@ This page is your source for issues and resolutions for troubleshooting server-s
 > [!TIP]
 >  Check out the following: [Blog: Test and Enable Mailboxes in Dynamics CRM 2015](http://blogs.msdn.com/b/crm/archive/2015/08/31/test-and-enable-mailboxes-in-microsoft-dynamics-crm-2015.aspx)  
  
-## The Server-Side Snychronizations Failures dashboard
+## The Server-Side Snychronization Failures dashboard
 
 Follow the steps in this [KB article](https://support.microsoft.com/help/4468755/troubleshoot-item-level-server-side-synchronization-issues-with-dynami) to enable and use a dashboard to get information on synchronization errors.
 

@@ -1,5 +1,5 @@
 ---
-title: "Set up event eanagement to work with AAD B2C Build | MicrosoftDocs"
+title: "Set up event management to work with AAD B2C Build | MicrosoftDocs"
 description: "Provides information about how you can set up event management  web application to work with AAD B2C."
 ms.custom:
   - dyn365-developer
@@ -34,7 +34,7 @@ The quick start tutorial explains how to create a new Azure AD B2C tenant here: 
 After you have successfully created **Azure AD B2C** tenant, follow the tutorial to add a web application to the newly created tenant:
 [Register a web application with AAD B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications)
 
-### Grant API access to the regsitered web application
+### Grant API access to the registered web application
 
 1. Select the web application that you have registered before.
 2. Specify `events` as **App ID URI**, you can do this in the **Properties** tab.

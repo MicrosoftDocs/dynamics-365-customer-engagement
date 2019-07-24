@@ -63,6 +63,7 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 
 |Event  |Description  |
 |---------|---------|
+|User sign-in authentication    |Logging all user sign-in to the environment - when the **Start Read Auditing** option is selected.|
 |Create, read, update, delete (CRUD)     |Logging all CRUD activities essential for understanding the impact of a problem and being compliant with data protection impact assessments (DPIA). |
 |Multiple record view     |Users of Dynamics view information in bulk, like grid views, Advanced Find search, etc. Critical customer content information is part of these views.|
 |Export to Excel     |Exporting data to Excel moves the data outside of the secure environment and is vulnerable to threats.|

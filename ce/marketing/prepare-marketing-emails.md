@@ -100,6 +100,17 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
+> [!IMPORTANT]
+> When you're designing email content, you should always try to minimize the size of your messages as much as you can. When it comes to the text and code content (not including referenced image content), we recommend that you always keep your files under 100 KB for the following reasons:
+> 
+> - Emails larger than 100 KB are often flagged as spam by spam filters
+> - Gmail truncates messages after the first 102 KB of source text and coding.
+> - Emails larger than 128 KB can't be delivered by a customer journey (the journey will [fail its error check](#go-live-journey) if it includes messages larger than this)
+> - Large emails take longer to load, which may annoy recipients.
+
+> [!NOTE]
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
+
 <a name="required-links"></a>
 
 ## Add standard, required, and specialized links to your message
@@ -131,6 +142,8 @@ Start by designing the HTML version of your message. When you're almost done, go
 - To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
 - To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
 
+<a name="send-receive-options"></a>
+
 ## Set sender and receiver options
 
 In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
@@ -144,6 +157,9 @@ The following **Sender and receiver** settings are available:
 - **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
 - **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 - **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **From address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
+
+> [!NOTE]
+> Domain authentication with DKIM is an increasingly important part of making sure your messages land in recipients' inboxes rather than getting filtered away as junk. It requires that the from-address for each message you send shows a domain that you've authenticated for DKIM. If your instance is configured to use DKIM&mdash;and has a default authenticated domain set up&mdash;then the initial from-address will be modified to use the default authenticated domain when the initial domain (established as the email address for the user in the **From** field) isn't authenticated for DKIM. The resulting **From address** will show the account name of the **From** user combined with the default domain, which will provide the DKIM deliverability benefit, but might not be a valid return address (email addresses have the form *account@domain*). You can overrule this by editing the **From address** after creating the message (or changing the **From** field) if needed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate a domain](marketing-settings.md#authenticate)
 
 <a name="designation"></a>
 
@@ -181,6 +197,15 @@ The following table shows the result of attempting to send a commercial or trans
 
 Your marketing email messages will probably be seen by many potential customers, so you'll want to make sure they look just right when opened, regardless of which combination of device and email software each recipient is using. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you test and evaluate your design before you use it in an email campaign.
 
+> [!IMPORTANT]
+> Previews and test sends give you a fast, convenient way to test your design. However, not all features work with previews and test sends. The following limitations apply:
+> 
+> - Dynamic data from [related records and lookups](dynamic-email-content.md#assist-edit) isn't shown.
+> - [For-each loops](dynamic-email-content.md#for-each) don't render.
+> - [Subscription center links](set-up-subscription-center.md#test-sub-center) will open the subscription center page, but the page won't function.
+> 
+> To test these features, create a simple customer journey that targets a very small segment (such as one that includes a single contact with your email address) and sends the message  you want to test.
+
 ### Send a test message
 
 Select **Test Send** to send your current design to one or more email addresses. This command initiates an [error check](#error-check); provided your message passes the error check, a flyout panel opens asking you to specify the following:
@@ -202,6 +227,9 @@ The content designer provides two types of previews when you're designing a mark
 - **Inbox preview**: Go to the **Designer** &gt; **Preview** &gt; **Inbox Preview** tab to see real-world inbox previews that show your design exactly as it will appear in a wide variety of target email clients and platforms.
 
 See the following sections for details about each of these types of previews.
+
+> [!NOTE]
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the standard or inbox preview displays. If necessary, you can use test sends to see how your designs look in specific Outlook configurations.
 
 ### Use the basic preview feature
 
@@ -248,6 +276,8 @@ The following are also confirmed by the check:
 - All referenced images must exist in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
 - The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](marketing-settings.md#authenticate)
+
+<a name="go-live-journey"></a>
 
 ## Go live and set up a customer journey to deliver your message
 

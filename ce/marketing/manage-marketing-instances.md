@@ -123,7 +123,7 @@ To copy a production instance to a sandbox:
     ![Select the Copy button](media/copy-instance-start.png "Select the Copy button")
 
     > [!NOTE]
-    > You must already have a sandbox instance available before you can copy a production instance to it. Make sure you see a sandbox listed on your **Instances** tab. If you don't have one, contact Microsoft Support for assistance.
+    > You must already have a sandbox instance available before you can copy a production instance to it. Make sure you see a sandbox listed on your **Instances** tab. If you don't have one, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance.
 
     > [!WARNING]
     > This operation will completely delete your current sandbox instance and replace it with a copy of your production instance.
@@ -167,4 +167,4 @@ To copy a production instance to a sandbox:
 [Manage instances](../admin/manage-online-instances.md)  
 [Manage your data](../admin/manage-your-data.md)  
 [Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
-[Import, update, and export solutions](../customize/import-update-export-solutions.md)
+[Import, update, and export solutions](../customize/import-update-upgrade-solution.md)

@@ -1,8 +1,8 @@
 ---
 title: "Define activity maps in Social Engagement | Microsoft Docs"
 description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
-keywords: activiy map, localtion analysis, live map
-ms.date: 07/11/2018
+keywords: activity map, location analysis, live map
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 33326ad3-89ea-4a12-803e-b6c98cf1757f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,9 +23,12 @@ search.app:
 ---
 
 # Define activity maps to view real-time data
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Using activity maps, you can view real-time posts by geographical location on an easy-to-understand map. You can further view these posts in Analytics to understand more details and associated metrics.  
   
-> [!IMPORTANT]
+> [!NOTE]
 >  You can only visualize those posts on an activity map that have location data for posts or authors. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md), [Analyze the sources for the posts](analytics-sources.md)  
   
 ## Role privileges  

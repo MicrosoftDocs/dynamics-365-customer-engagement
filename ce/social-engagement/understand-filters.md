@@ -2,7 +2,7 @@
 title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: filter, filtering, Social Engagement
-ms.date: 03/07/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: ba690f72-43cd-4fdb-a400-b3a9e3eb2f22
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Get to know your filters
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 You can edit or remove filters from your analysis at any time, and the charts, lists, and key performance indicators (KPIs) will adapt to your selection. Filters that you define remain on the different pages of Analytics and adapt if select specific data points to drill down into more detailed analysis. Different filters are available for different interaction areas. Click the Filter button ![Filter button](media/filters-icon.png "Filter button") to expand and see options that are available for each filter.  
   
 > [!NOTE]

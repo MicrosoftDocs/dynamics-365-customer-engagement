@@ -51,7 +51,7 @@ Each group in your segment query must result in a list of contacts, which are se
 > The segmentation designer now supports fields of all data types supported by Dynamics 365 for Customer Engagement, including: option set, two option set, multiple option set, single line of text, multiple line of text, whole number, floating number, decimal number, currency, look up, date time, and customer.
 
 > [!NOTE]
-> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. This is only an estimate, and can be somewhat different from your actual segment size. You must go live with the segment to view its exact size and membership.
+> While you are designing your segment, you can select the **Get estimated segment size** link to get an *estimate* for the number of contacts that will be included in the segment. Usually the estimate will be exact, but sometimes the final size may vary slightly (you must go live with the segment to view its exact size and membership).
 
 ### Build a clause that finds standard field values
 

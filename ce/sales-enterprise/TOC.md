@@ -26,7 +26,7 @@
 #### [Delete family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
-### Goal management
+### Forecast and Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
@@ -126,4 +126,4 @@
 
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
-# [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
+# [Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)

@@ -185,17 +185,10 @@ If a user was working on a record and lost network connection, any updates made 
 
 ## Known Issues
 
-**Qualify a lead**:
+**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
-- Users cannot see the qualify button after selecting a lead from the grid. As a workaround, they can open the lead record to qualify. 
+**Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
-- The Qualify button does show up on the lead form, if any custom status codes are added against the qualify state of the lead. 
-
-- When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
-
-**Disqualify a lead**: Users will not be able to disqualify a lead in mobile offline. Selecting the Disqualify button from the lead’s grid or from the lead form gives an error.
-
-**Close opportunity**: Users cannot close an opportunity as won or lost from mobile offline. When users select **Close as won** or **Close as lost**, the close dialog will open but the OK and Cancel buttons are disabled. 
 
 **Views** are not supported for the following entities in offline mode: 
 
@@ -221,5 +214,5 @@ If a user was working on a record and lost network connection, any updates made 
 
 - Socialactivity
 
-Any views that have linked entities (related entity) that are not available offline are also not supported. 
+Any views that have linked entities (related entity) that are not available offline are also not supported.
 

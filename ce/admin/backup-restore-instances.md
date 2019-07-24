@@ -2,7 +2,7 @@
 title: "Backup and restore instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 03/02/2019
+ms.date: 06/04/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -29,7 +29,8 @@ search.app:
 Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement instances.   
 
 > [!NOTE]
-> Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+> - Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+> - Obtaining a copy of your database backup isn't available. If you want to move your online data to Dynamics 365 for Customer Engagement apps (on-premises), this requires data migration. For smaller datasets, consider [exporting and importing data using Excel](/dynamics365/customer-engagement/basics/import-export-data). For larger datasets, find a third-party data migration solution on [Microsoft AppSource](https://appsource.microsoft.com/). 
   
 <a name="BKMK_DailySystemBackup"></a>  
  

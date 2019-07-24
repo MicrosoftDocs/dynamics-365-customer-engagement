@@ -2,7 +2,7 @@
 title: "Check the health state of your social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to keep the tokens of your social profiles in a healthy state."
 keywords: token, health state
-ms.date: 01/30/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 4d0153a1-4d21-4a73-8685-2ce2e6c55e9f
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Check the health state of your social profiles
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] provides health state checks for tokens of social profiles for data acquisition and interaction so you can make sure they are always active. Checking health states is important so you don't miss out on any posts because of expired tokens. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will notify you through email and in the application when your critical acquisition [tokens are about to expire](manage-access-tokens.md).  
 
  socialengagement@microsoft.com will send email notifications for the following scenarios:  
@@ -34,7 +36,7 @@ search.app:
 
 -   Yellow health state: Only one token is currently valid.  
 
--   Red helath state: No tokens are currently valid and you can't work with them until new tokens are authenticated.  
+-   Red health state: No tokens are currently valid and you can't work with them until new tokens are authenticated.  
 
 
 > [!NOTE]

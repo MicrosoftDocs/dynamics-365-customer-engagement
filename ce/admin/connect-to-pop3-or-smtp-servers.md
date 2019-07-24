@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 for Customer Engagement apps to POP3 or SMTP servers | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,17 +24,18 @@ search.app:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] with POP3/IMAP and SMTP email servers such as used for Gmail and Yahoo! Mail.  
+Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] with POP3 and SMTP email servers such as used for Gmail and Yahoo! Mail.  
 
 > [!NOTE]
->  For POP3/SMTP systems supported by Microsoft, check out the following topic : [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
+>  
+>  For POP3/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
 
 <a name="BKMK_CreateProfile"></a>   
 ## Create an email server profile  
 
 1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.  
 
-2. Choose **New** > **POP3-SMTP Profile**.  
+2. Choose **New** > **POP3/SMTP Server**.  
 
 3. **For an Exchange email server profile, specify the following details:**  
 
@@ -80,14 +81,12 @@ Follow these steps to connect [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)
 
    - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router  
 
-       > [!NOTE]
-       >  Server-Side Synchronization or Email Router for Appointments, Contacts, and Tasks is not supported for the POP3-SMTP profile.  
+     > [!NOTE]
+     >  Server-Side Synchronization or Email Router for Appointments, Contacts, and Tasks is not supported for the POP3-SMTP profile.  
 
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
 
-
- ![System Settings for server-side synchronization](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
-
+     ![System Settings for server-side synchronization](../admin/media/crm-itpro-exchangeonlinessssettingspop.png "System Settings for server-side synchronization")  
 
 3.  Click **OK**.  
 

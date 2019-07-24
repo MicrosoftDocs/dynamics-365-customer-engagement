@@ -41,6 +41,9 @@ Images are an important part of most marketing-page and marketing-email designs.
 > 
 > You will see an error message if you attempt to upload a file of an unsupported type.
 
+> [!NOTE]
+> The maximum file size for uploaded images is 5 MB.
+
 ## Upload files to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
 Whenever you add an image element to a marketing page or email, you can choose to add an image that already exists in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database or upload a new one. After you've uploaded a file in this way, the file will also be available for use in other designs.

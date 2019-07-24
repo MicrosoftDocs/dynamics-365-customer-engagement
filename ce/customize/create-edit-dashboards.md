@@ -1,7 +1,7 @@
 ---
-title: "Create or edit dashboards | MicrosoftDocs"
+title: "Create or edit system dashboards | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 06/12/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -19,11 +19,13 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Create or edit dashboards
+# Create or edit system dashboards
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)] 
 
-There are two types of dashboards, user dashboards and system dashboards. Any user can create a dashboard visible only to them in their work area such as Sales, Service, or Marketing. An admin or customizer creates or customizes system dashboards that, when published, are visible to everyone in the organization. A user can choose to set their user dashboard as their default dashboard and override the system dashboard. This topic focuses on system dashboards.  
+There are two types of dashboards, user dashboards and system dashboards. Any user can create a dashboard visible only to them in their work area such as Sales, Service, or Marketing. An admin or customizer creates or customizes system dashboards that, when published, are visible to everyone in the organization. A user can choose to set their user dashboard as their default dashboard and override the system dashboard. 
+
+This topic focuses on how to create a system dashboard. To create a user dashboard, see [Create a personal dashboard](../basics/start-your-day-dashboard-chart.md#create-a-personal-dashboard). 
   
 <a name="BKMK_createdashboard"></a>   
 ## Create a new dashboard  
@@ -66,4 +68,5 @@ There are two types of dashboards, user dashboards and system dashboards. Any us
 -   Use security roles to make a dashboard visible to just certain roles    
   
 ### See also  
- [Getting started with customization](../customize/getting-started-customization.md)
+[Set properties for a chart or list included in a dashboard](set-properties-chart-list-included-dashboard.md) <br />
+[Configure interactive experience dashboards](configure-interactive-experience-dashboards.md)

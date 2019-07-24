@@ -2,7 +2,7 @@
 title: "Customer service scenarios for Social Engagement | Microsoft Docs"
 description: "Review service scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
 keywords: service scenario, overview, customer service, social customer service
-ms.date: 03/27/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 0c5c29b5-c4f8-43e2-b20e-65408303e53a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,8 @@ search.app:
 ---
 
 # Address customer service scenarios on social media with Social Engagement
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps for further tracking.
 

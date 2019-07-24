@@ -2,7 +2,7 @@
 title: "Move data between instances (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 for Marketing"
 keywords: 
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -154,4 +154,4 @@ To import data to your destination instance:
 [Manage instances](../admin/manage-online-instances.md)  
 [Manage your data](../admin/manage-your-data.md)  
 [Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
-[Import, update, and export solutions](../customize/import-update-export-solutions.md)
+[Import, update, and export solutions](../customize/import-update-upgrade-solution.md)

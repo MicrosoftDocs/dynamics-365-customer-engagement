@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: install voice of the customer
-ms.date: 01/23/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -19,6 +19,9 @@ ms.custom:
 ---
 
 # Install or upgrade the Voice of the Customer solution
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 

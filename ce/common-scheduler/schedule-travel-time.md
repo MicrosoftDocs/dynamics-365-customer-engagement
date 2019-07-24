@@ -1,8 +1,8 @@
 ---
-title: "Schedule with travel time and distance in Universal Resource Scheudling | MicrosoftDocs"
+title: "Schedule with travel time and distance in Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/12/2019
+ms.date: 06/25/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""

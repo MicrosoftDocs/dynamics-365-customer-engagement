@@ -2,7 +2,7 @@
 title: "Collaborate with Teams| MicrosoftDocs"
 ms.custom: 
 description: "Collaborate with team members using the Dynamics 365 app for Teams."
-ms.date: 4/30/2019
+ms.date: 6/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -152,11 +152,15 @@ To view a consolidated file list across all document locations including all con
 ## Record types supporting Collaborate    
 
 Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share feature will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
+
+> [!NOTE]
+   >  The list below shows the logical name of an entity (not the display name).
  
 - Account
 -	Agreement
+-	Annotation
 - Appointment
--	Business Unit
+-	Businessunit
 -	Campaign
 -	Case
 -	Category
@@ -168,12 +172,11 @@ Currently, the following record types only support Microsoft Teams collaborate c
 - Inventory Adjustment
 -	Inventory Transfer
 -	Invoice
--	Article
+-	Kbarticle
 -	Knowledge Article
 -	Lead
--	Note
 -	Opportunity
--	Opportunity Line
+-	Opportunityproduct
 -	Order
 -	Product
 -	Project

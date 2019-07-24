@@ -3,6 +3,9 @@
 ### [Social Engagement Update 2017](what-s-new-archive-2017.md)
 ### [Social Engagement Update 2016](what-s-new-archive-2016.md)
 ### [Social Engagement Update 2015](what-s-new-archive-2015.md)
+## Changes coming to Social Engagement
+### [Overview](eol/overview.md)
+### [FAQ about the service discontinuation](eol/discontinuation-faq.md)
 ## Business scenarios and use cases
 ### [Sales scenarios](overview-sales-scenario.md)
 ### [Marketing scenarios](overview-marketing-scenario.md)

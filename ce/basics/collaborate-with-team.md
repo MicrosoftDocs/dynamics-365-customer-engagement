@@ -1,7 +1,7 @@
 ---
 title: "Collaborate with your team (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 06/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 820dc548-667d-4e12-82c2-0c76314144b3
 caps.latest.revision: 4
-author: jimholtz
-ms.author: jimholtz
+author: mduelae
+ms.author: mkaur
 search.audienceType: 
   - enduser
 search.app: 
@@ -32,6 +32,8 @@ search.app:
 - **[!INCLUDE[pn_onenote](../includes/pn-onenote.md)]** - Access notes stored in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. See [Use OneNote in Dynamics 365 for Customer Engagement apps](../basics/use-onenote.md).
 
 - **[!INCLUDE[pn_yammer](../includes/pn-yammer.md)]** - Use one place to have conversations, create and edit documents, and share information with your colleagues without sending a single email or attending any meetings. See [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md).
+
+- **Microsoft Teams Integration** - Easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. See [Microsoft Teams Integration](teams-integration.md).
   
   
 ### See Also

@@ -2,7 +2,7 @@
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
 description: "Get an overview on the Social Selling Assistant."
 keywords: SSA, social selling assistant, salesforce empowerment
-ms.date: 06/13/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 98a20ce9-1374-4a52-a9a6-987fb75451e6
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
@@ -24,6 +24,8 @@ search.app:
 ---
 
 # Empower your salespeople with the Social Selling Assistant
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 ## Meet the Social Selling Assistant
 

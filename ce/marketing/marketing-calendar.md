@@ -61,7 +61,7 @@ System customizers can add custom calendars to nearly any entity or form, so you
 
 ### View and browse the calendar
 
-The following illustration highlights the major display and navigation features of the marketing calendar. It shows the main calendar available at **Marketing** > **My work** > **Marketing calendar**, which is an entity-level calendar that displays many types of entities. Form-level calendars are nearly the same, and the legend for the figure points out the differences.
+The following illustration highlights the major display and navigation features of the marketing calendar. It shows an entity-level calendar that displays many types of entities. Form-level calendars are nearly the same, and the legend for the figure points out the differences.
 
 ![Features of the marketing calendar](media/calendar-callouts.png "Features of the marketing calendar")
 

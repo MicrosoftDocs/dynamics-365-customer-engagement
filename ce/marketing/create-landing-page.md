@@ -66,7 +66,7 @@ To create a landing page and go live:
 
 6. On the command bar, select **Check for Errors**, and then fix any problems that are reported just as you did with the email message and customer journey.
 
-7. On the command bar, select **Save** to save your form. Forms are always live, so you don't need to select **Go Live**.
+7. On the command bar, select **Save** to save your form and then select **Go Live** to make your form available for use on a marketing page.
 
 8. Now you're ready to use your new form on a landing page. Go to **Marketing** > **Internet Marketing** > **Marketing Pages**, and then select **New** on the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog box shown.  
     ![Select a page template dialog](media/page-template-dialog.png "Select a Template dialog box")

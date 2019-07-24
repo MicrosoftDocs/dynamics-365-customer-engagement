@@ -1,1 +1,0 @@
-Removes an event handler from the [OnProcessStatusChange](../../../events/onprocessstatuschange.md) event.

@@ -2,7 +2,7 @@
 title: "Group search topics into categories in Social Engagement | Microsoft Docs"
 description: "Learn how to use categories to group search topics."
 keywords: categories, search topic
-ms.date: 10/17/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 09b50997-aa34-4c59-8eb5-949f5ea50f7a
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Group search topics into categories
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 You can use categories to structure and group search topics in  ways that make the most sense to you. Although categories have no impact on the posts that result from your search topics, they help greatly to organize your searches.  
   
 > [!NOTE]

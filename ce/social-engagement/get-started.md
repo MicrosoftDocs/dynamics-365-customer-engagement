@@ -2,7 +2,7 @@
 title: "Get started with Social Engagement | Microsoft Docs"
 description: "Learn how to ramp up quickly on Social Engagement."
 keywords: get started, onboarding, key features
-ms.date: 09/26/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 76f856c7-99a1-4220-a5e6-f55938c8e781
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Get started with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 This topic introduces common user-interface elements and useful tips to work efficiently with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. You'll get a basic understanding of the application’s logic and conceptual approaches to help you start to work with the various features and areas.  
   
 ## Prerequisites  

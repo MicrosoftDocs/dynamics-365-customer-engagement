@@ -85,7 +85,7 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 With the retrieve request, you retrieve all the static segments that are in the Live state.  
 
 ```HTTP
-GET {{orgUrl}}/api/data/v9.0/msdyncrm_segment?$filter=statuscode eq 192350001
+GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350001
 ```
 
 You can also retrieve segments with specific properties.

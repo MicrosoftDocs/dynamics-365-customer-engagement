@@ -37,6 +37,8 @@ The sample data packages are:
 
 - [**V902FPSMasterData** - Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
 
+- [**FPSAllDemoData** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage) (includes sample work orders)
+
 These sample data packages are available in English only.
 
 **Important: There is no way to uninstall the sample data.** You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData**, or vice versa). If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.

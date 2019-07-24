@@ -29,6 +29,17 @@ search.app:
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
+> [!IMPORTANT]
+> The social listening feature described here relies on a product called Microsoft Social Engagement, which is scheduled to be discontinued. This means that the social listening feature in Dynamics 365 for Marketing will also be discontinued. The following terms apply:
+> 
+> - Microsoft Social Engagement is no longer available to new customers.
+> - Organizations that already have a Microsoft Social Engagement subscription can continue to use it until Jan 16, 2020. 
+> - Twitter will stop being provided as a data source for Social Engagement on Oct 1, 2019.
+> - Organizations that are already using the social listening feature in Dynamics 365 for Marketing can continue to do so for as long as their Microsoft Social Engagement subscription is active.
+> - In Dynamics 365 for Marketing, social listening tabs will soon stop being visible on new trials and on all instances that aren't already integrated with Microsoft Social Engagement.
+> 
+> [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Frequently asked questions about Microsoft Social Engagement service discontinuation](../social-engagement/eol/discontinuation-faq.md)
+
 Social listening in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] enables you to embed charts, information, and analytics from  [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)] into any type of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] record to see how people on social media are reacting to your campaigns, events, brands, and more.
 
 ![Social listening in Dynamics 365 for Marketing](media/social-listening-panel.png "Social listening in Dynamics 365 for Marketing")

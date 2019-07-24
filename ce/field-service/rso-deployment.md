@@ -44,8 +44,9 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 
     The RSO instance is associated with a single Dynamics 365 for Customer Engagement organization in
     the tenant. You can change the associated organization through the RSO
-    deployment app’s page. If additional RSO instances are needed for dev/test,
-    contact your technical account manager.
+    deployment app’s page. If additional RSO instances are needed for dev/test and you have an
+    Enterprise Agreement with Microsoft, contact your technical account manager. Such instances are
+    not yet available to Cloud Solution Providers or retail purchase.
 
 ## Deployment steps 
 

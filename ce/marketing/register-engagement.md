@@ -1,5 +1,5 @@
 ---
-title: "Register link clicks and website visits (Dynamics 365 for Marketing) | Microsoft Docs"
+title: "Register contacts' engagement with your website and internet marketing initiatives (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
 keywords: website;redirect URL;behavioral analysis;behavior;tracking
 ms.date: 04/01/2018
@@ -25,11 +25,11 @@ search.app:
   - D365Mktg
 ---
 
-# Register contacts' engagement with your internet marketing initiatives
+# Register link clicks and website visits
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can measure customer engagement with your marketing initiatives in several ways, including by:
+You can measure customer engagement with your website, banner ads, and other online marketing initiatives in several ways, including by:
 
 - Adding a script to the pages of your website that enables [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to record how people use your website and to connect browsing records to anonymous and known contacts.
 - Setting up redirect URLs, which log clicks on links that you post to social-media sites, ad banners, and other places online. You'll be able to see how often a link was clicked, when it was clicked, and the physical location where it was clicked. You'll also be able to see which redirect URLs any given lead or contact clicked on (provided they are working on a machine where the right cookie is set).
@@ -77,7 +77,7 @@ The same website record where you find the [!INCLUDE[pn-javascript](../includes/
 > [!NOTE]
 > Website results and insights are also reported for each individual contact record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Contact insights](insights.md#contact-insights)
 
-## track visitors to your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] marketing pages
+## Track visitors to your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] marketing pages
 
 Each time you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] sets up a new website (including unique [!INCLUDE[pn-javascript](../includes/pn-javascript.md)] tracking code) to track interactions with that page only. You'll find these in the **Marketing** &gt; **Internet Marketing** &gt; **Websites** list next to your other websites. For more information about how to work with website tracking and view the results, see the previous section.
 

@@ -2,11 +2,10 @@
 title: Universal FetchXML | Microsoft Docs
 description: Advanced query langugage to extend Universal Resource Scheduling
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
-author: yonalow
-ms.author: yolow
-manager: shellyha
+author: FieldServiceDave
+ms.author: daclar
 ms.date: 06/14/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 

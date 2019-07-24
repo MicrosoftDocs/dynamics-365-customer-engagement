@@ -2,7 +2,7 @@
 title: "Instagram business account search rules | Microsoft Docs"
 description: "Learn more about the changes to Instagram data acquisition and search rules."
 keywords: "Instagram, data acquisition, search rules"
-ms.date: 04/11/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 967a4c6c-38de-4714-a65e-13832668c696
@@ -20,6 +20,8 @@ search.app:
 ---
 
 # [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] account search and [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search removal
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 On December 10, 2018, two changes were introduced in [!INCLUDE [pn-social-engagement-short](../includes/pn-social-engagement-short.md)] regarding [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] as a data source. We're adding search rules for owned [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] business accounts and are removing the [!INCLUDE [tn-instagram](../includes/tn-instagram.md)] keyword search functionality. 
 

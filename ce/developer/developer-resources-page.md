@@ -97,7 +97,7 @@ For more information, see [Discover the URL for your organization using the Orga
 |Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/Organization.svc`|
 |Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/Organization.svc`|
 |India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc`|
-
+|France|`https://OrganizationName.api.crm12.dynamics.com/XrmServices/2011/Organization.svc`|
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps
 
@@ -129,7 +129,7 @@ For more information, see [Discover the URL for your organization using the Orga
 |Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/OrganizationData.svc`|
 |Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/OrganizationData.svc`|
 |India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc`|
-
+|France|`https://OrganizationName.api.crm12.dynamics.com/XrmServices/2011/OrganizationData.svc`|
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps  
  Use the following URL to access the organization data service (ODataREST endpoint):  

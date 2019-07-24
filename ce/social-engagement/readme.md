@@ -2,7 +2,7 @@
 title: "Social Engagement Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: readme, known issues, information
-ms.date: 04/16/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -23,6 +23,8 @@ search.app:
 ---
 
 # [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Readme
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 This document provides important, late-breaking information about [!INCLUDE [pn-social-engagement-long](../includes/pn-social-engagement-long.md)].
 
