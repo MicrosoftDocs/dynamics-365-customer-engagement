@@ -98,4 +98,5 @@ This completes the registration of your application in Azure Active Directory.
   
 ### See also  
  [Application registration in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)    
+ [About the Microsoft 365 admin center](https://docs.microsoft.com/en-us/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)  
  [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](authenticate-users.md)
