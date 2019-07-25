@@ -128,15 +128,17 @@ To set the value for **multi-select option set** field, Specify integer values f
   
 <a name="BKMK_ExampleXrmNavigationOpentForm"></a>   
 ## Example: Use Xrm.Navigation.openForm to open a new window  
- The following sample sets default values on several different fields and shows how to use the `Xrm.Navigation`.[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function. It is equivalent to the previous example that used the `window.open` method.  
-  
+ The following sample sets default values on several different fields and shows how to use the `Xrm.Navigation`.[openForm](clientapi/reference/Xrm-Navigation/openForm.md) function. It is equivalent to the previous example that used the `window.open` method. Please note that the type parameter is actually idtype. In the below example, the proper usage is: 
+ ```javascript 
+ "parameters["parentcustomerididtype"] = "account";.   
+  ```
 ```javascript  
 function OpenNewContact() {  
  var parameters = {};  
  //Set the Parent Customer field value to “Contoso”.  
  parameters["parentcustomerid"] = "2878282E-94D6-E111-9B1D-00155D9D700B";  
  parameters["parentcustomeridname"] = "Contoso";  
- parameters["parentcustomeridtype"] = "account";  
+ parameters["parentcustomerididtype"] = "account";  
  //Set the Address Type to “Primary”.  
  parameters["address1_addresstypecode"] = "3";  
  //Set text in the Description field.  
@@ -168,7 +170,7 @@ function OpenNewContact() {
     //Set the Parent Customer field value to “Contoso”.  
     var extraqs = "parentcustomerid={F01F3F6D-896E-DF11-B414-00155DB1891A}";  
     extraqs += "&parentcustomeridname=Contoso";  
-    extraqs += "&parentcustomeridtype=account";  
+    extraqs += "&parentcustomerididtype=account";  
     //Set the Address Type to “Primary”.  
     extraqs += "&address1_addresstypecode=3";  
     //Set text in the Description field.  
