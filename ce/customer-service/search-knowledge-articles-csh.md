@@ -71,6 +71,8 @@ Here are the required view columns:
 
 ## Knowledge Base Search control
 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 The Customer Service Hub comes with an enhanced Knowledge search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
 
 When you select the Knowledge Base Search option in the RELATED section, knowledge base search control loads, and you can view the following:
