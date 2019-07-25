@@ -8,7 +8,7 @@ ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -19,9 +19,8 @@ ms.topic: conceptual
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2be7f42d-745c-4454-b132-f2a3d47194ae
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+author: FieldServiceDave
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer

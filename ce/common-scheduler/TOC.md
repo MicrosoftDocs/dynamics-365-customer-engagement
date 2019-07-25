@@ -13,6 +13,8 @@
 ## [Enable an entity for scheduling](schedule-new-entity.md)
 ## [Share schedule board tabs](share-schedule-board-tab.md)
 ## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+## [Edit booking template](booking-template.md)
+## [Booking alerts](booking-alert.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
 
 # Extensibility

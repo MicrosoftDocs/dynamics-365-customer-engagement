@@ -201,7 +201,7 @@ When you are viewing insights on the Designer tab for an account-based journey, 
 
 ## Account-based leads and lead scoring
 
-Leads can be associated with accounts or contacts. If a lead is associated with both a contact and a lead, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
+Leads can be associated with accounts or contacts. If a lead is associated with both a contact and an account, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
 
 - You can set each lead-scoring model to apply to either contact-based leads or to account-based leads.
 - Interactions made by all contacts related to an account contribute to the score of an account-based lead. So, for example, each contact from an account that opens an email message could increase the score of the lead associated with that account.

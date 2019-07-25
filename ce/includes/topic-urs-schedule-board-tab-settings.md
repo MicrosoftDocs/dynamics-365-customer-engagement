@@ -231,7 +231,7 @@ This controls the images, values, fields displayed in the box that holds the res
 
 ### Retrieve Resources Query
 
-Here you will find XML that basically defines how resource records are fetched,filtered, and sorted when the schedule board loads. **Retrieve Resources Query** can use filter layout and resource cell templates to perform filtering and sorting in the background. 
+Here you will find XML that defines how resource records are fetched, filtered, and sorted when the schedule board loads. **Retrieve Resources Query** can use filter layout and resource cell templates to perform filtering and sorting in the background. 
 
 One scenario this enables is filtering resources without having to expose the filter field in the filter layout. Instead, the filtering happens in the background as the schedule board loads, without additional input from the dispatcher. 
 
@@ -241,3 +241,96 @@ One scenario this enables is filtering resources without having to expose the fi
 Using the Schedule Board Client Extension framework, you can modify the CSS, add your own JavaScript files, and localize the schedule board. This means that you can change labels and wording on certain supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
 For more details on editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [this topic on schedule board extensibility](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extensibility-release-notes).
+
+## Schedule types
+
+The following settings are dependent on the entity being scheduled. Though requirement records are always scheduled, the requirement can be related to work orders, cases, custom entities, or related to nothing at all. First, select the scheduleable entity on the left to edit the settings for when that entity is scheduled. Select **None** to edit default settings and the settings for when a requirement is scheduled by itself, unrelated to a work item such as work orders or projects. 
+
+### Booking Tooltips View
+
+Select the system view that dictates the fields displayed when hovering your mouse over a booking.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Booking Tooltips View](../field-service/media/scheduling-schedule-board-tab-settings-booking-tooltips-view.png)
+
+### Booking Details View
+
+Select the system view that dictates the fields displayed in the details pane when a booking is selected.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Booking Details View](../field-service/media/scheduling-schedule-board-tab-settings-booking-details-view.png)
+
+### Schedule Assistant Requirement View
+
+Select the system view that dictates the fields displayed in the lower pane when the schedule assistant is triggered for an individual requirement from the schedule board.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Schedule Assistant Requirement View](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-requirement-view.png)
+
+### Requirement Details View
+
+Select the system view that dictates the fields displayed in the details pane when a requirement is selected in the lower pane of the schedule board.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Requirement Details View](../field-service/media/scheduling-schedule-board-tab-settings-requirement-details-view.png)
+
+### Requirement Map Pin Tooltips View
+
+Select the system view that dictates the fields displayed when hovering your cursor over a requirement map pin.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Requirement Map Pin Tooltips View](../field-service/media/scheduling-schedule-board-tab-settings-requirement-map-pin-tooltip.png)
+
+### Booking Template
+
+HTML and CSS that controls the fields inside a booking time slot on the schedule board.
+
+Here is the default work order HTML:
+
+    <div>{SchedulableEntityDisplayName} - {name}<br />Duration: <strong class="bold">{duration}</strong></div>
+
+This HTML results in the following:
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Booking Template](../field-service/media/scheduling-schedule-board-tab-settings-booking-template.png)
+
+
+> [!Note]
+> The following schedule types settings can only be edited from the default settings. 
+
+### Schedule Assistant Filter Layout
+
+This controls the fields displayed in the filter pane on the left-hand side of the schedule assistant. These fields are used to filter which resources are displayed in schedule assistant results. A common example is the default values for **Search Start** and **Search End**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Schedule Assistant Filter Layout](../field-service/media/scheduling-schedule-board-tab-settings-schedule-assistant-filter-layout.png)
+
+### Schedule Assistant Resource Cell Template
+
+This controls the images, values, and fields displayed in the box that holds the resource's name and utilization in the schedule assistant.
+
+### Schedule Assistant Retrieve Resources Query
+
+Here you will find XML that defines how resource records are fetched, filtered, and sorted when the schedule assistant is triggered. **Schedule Assistant Retrieve Resources Query** can use schedule assistant filter layout and schedule assistant resource cell templates to perform filtering and sorting in the background. 
+
+One scenario this enables is performing additional resource filtering when the schedule assistant is triggered without input from the dispatcher.
+
+### Schedule Assistant Retrieve Constraints Query
+
+Here you will find XML that defines how resource records are filtered based on attributes from the requirement. Whereas the **Schedule Assistant Retrieve Resources**  query can filter schedule assistant resources based on **Resource** attributes, the **Schedule Assistant Retrieve Constraints** query can use **Requirement** attributes to further filter resource results.
+
+## Requirement Panels
+
+Use this section to control the requirement views at the bottom of the schedule board. Select a requirement system view, enter a name, select the plus icon (+) to add it, then select Apply. After adding views, you can change the order in which they appear on the schedule board with the up and down arrows.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of adding a new Requirement Panel](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel.png)
+
+It will then appear in the lower panel.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Requirement Panels](../field-service/media/scheduling-schedule-board-tab-settings-requirement-panel-add.png)
+
+Field Service and Universal Resource Scheduling come with default requirement views such as "Open Requirements" and "Unscheduled Work Orders". Select the **Hide default requirement panels** to remove them from the lower pane. 

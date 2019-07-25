@@ -33,7 +33,7 @@ search.app:
 
 - **[!INCLUDE[pn_yammer](../includes/pn-yammer.md)]** - Use one place to have conversations, create and edit documents, and share information with your colleagues without sending a single email or attending any meetings. See [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md).
 
-- **Microsoft Teams Integration** - Easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. See [Mircosoft Teams Integration](teams-integration.md).
+- **Microsoft Teams Integration** - Easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. See [Microsoft Teams Integration](teams-integration.md).
   
   
 ### See Also

@@ -45,7 +45,7 @@ With the Dynamics 365 for Teams integration, add the Dynamics 365 for Customer E
 - Use Microsoft Teams integration to seamlessly collaborate on documents between Dynamics 365 and Microsoft Teams. 
 - Collaborate on a set of records, such as *active opportunity* using Teams conversation and easily access records on the go using the Dynamics 365 bot for Microsoft Teams mobile app. 
 
-> [!VIDEO https://www.youtube.com/embed/U11x5BlQlDU]
+> [!VIDEO https://www.youtube.com/embed/u0DaRzZDAPc]
 
 ## Feedback
 
