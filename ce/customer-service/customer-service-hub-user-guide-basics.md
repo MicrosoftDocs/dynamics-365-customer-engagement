@@ -210,10 +210,10 @@ Managing activities in the timeline wall will be faster and more responsive with
 
   ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
 
-  1. Activity icons
-  2. Add info and activities
+  1. Add info and activities
+  2. More commands
   3. Filter
-  4. More commands
+  4. Activity icons
 
 The timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and it shows the following:
 - Activity
@@ -223,6 +223,9 @@ The timeline section is available on the **Summary** tab for account, contact, c
   - Task
 - Note
 - Post
+
+> [!Note]
+> The activities mentioned above are out-of-the-box. If your administrator or system customizer has configured other activities, then those will appear. 
 
 You can create, edit, and delete an activity, note, post, and other interactions from the timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions: **Add info and activities**, **Open filter pane**, and **More commands**. Use these options to add, filter, and sort the interactions on the timeline.
 
@@ -277,7 +280,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
   | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
   | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> </ul> |
-  | Activity due date (active) | <ul> <li> Last 30 days </li> </ul> |
+  | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
 
   ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
