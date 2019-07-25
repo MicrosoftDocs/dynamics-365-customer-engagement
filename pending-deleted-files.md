@@ -7,5 +7,6 @@ This file tracks files marked for deletion. Localization requirements mean that 
 These files have been redirected, but the actual .md topic files can't been removed yet.
 
 ce\customize\import-update-export-solutions.md
+ce\field-service\field-resource-hub-users-guide.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.

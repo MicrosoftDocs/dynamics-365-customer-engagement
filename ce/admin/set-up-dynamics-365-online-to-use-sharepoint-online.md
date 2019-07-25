@@ -52,7 +52,7 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
   
 2. Open the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click **SharePoint**.  
   
-3. 3.  On the left-side menu, click **Team Site**.  
+3. On the left-side menu, click **Team Site**.  
   
 4. On the Home page, click **SHARE** (upper-right corner).  
   
