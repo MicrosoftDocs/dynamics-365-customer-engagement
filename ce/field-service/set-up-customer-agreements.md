@@ -155,18 +155,38 @@ agreement-work-order-settings
 
 agreement-schedule-assistant-filters
 
+
+invoices are created at close posting of work orders which is true whether work orders are part of an agreement or not.
+
 ## Scenario 2: auto generate invoices
 
-An organization would like to use Field Service agreements to automatically create invoices to bill customers each quarter for products and services at an agreed upon price for one year. 
+Agreement invoices are used to automatically generate invoices for predefined products and services. The invoices are generated regardless of the work orders performed. As an example, let's configure the scenario where a customer pays a field service organization a quarterly amount for a service plan, similar to how you may pay a monthly cell phone bill regardless of the number of phone calls or texts you send. 
 
-### Step 1: Create an agreement
 
-agreement-create-for-invoice
+### Step 1: Create an agreement or select an existing one
+
+You can add an agreement invoice to an existing agreement or add it to a new one. You can have an agreement with only an agreement invoice and no maintenance plan and even have multiple invoices for a single agreement.
+
+In our example, we will add quarterly invoices to the agreement we just created. 
+
+From the agreement, go to **Invoice Setup > Add New Agreement Invoice Setup**
+
+agreement-invoice-create-recurrence
+
+agreement-invoice-setup-header
+
+agreement-invoice-recurrence-pattern
+
+agreement-invoice-add-products
+
+[only inventory or non inventory can be added]
+
+[price list]
 
 ### Step 2: Set up invoice recurrence and products
 
 ### Step 3: Activate invoice recurrence and view invoices
-
+Because this agreement is already Active, the invoices will be eligible
 
 Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
   
@@ -212,6 +232,8 @@ an agreement can only be for a single location - yes
 what about the characteristics of the agreement incident
 
 what can you do after activating a work order?
+
+quote invoice as a substitute
 
 **Tips**:  
   
