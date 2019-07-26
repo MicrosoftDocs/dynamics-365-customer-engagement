@@ -115,7 +115,7 @@ Advantages of automatically closing a conversation:
 
 ### Default time for automatic closure of conversation
 
-The conversations coming from different channel has varied scenarios and hence different threshold time. The matrix describes the channel, state, and default auto-close time.
+The conversations coming from different channel has varied scenarios and hence the different threshold time. The matrix describes the channel, state, and default automatic closure time.
 
  | Channel | State | Automatic closure time | Description |
  |--------------------|-------|-------------|--------------------------------------|
