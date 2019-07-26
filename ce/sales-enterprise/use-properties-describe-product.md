@@ -1,16 +1,16 @@
 ---
 title: "Use properties to describe a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 for Sales."
-keywords: Properties, product properties, classification
-ms.date: 04/01/2018
+keywords: "Properties, product properties, classification"
+ms.date: 08/01/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 3fd1c7a7-2f4d-48d5-9ae8-dbb5689c6d67
 author: shubhadaj
 ms.author: shujoshi
@@ -28,16 +28,18 @@ topic-status: Drafting
 
 Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
 
- A property of a product could be its size, color, or component and so on. Properties are added at the family level. You can add properties only to a family, and only when it is in a draft or under revision state. The child products, bundles, and families inherit the properties from their parent family.  
+ A property of a product could be its size, color, or component and so on. You can add properties to a family, bundle, or product when they're in a draft or under revision state. The child products, bundles, and families inherit the properties from their parent.  
 
 > [!IMPORTANT]
 >  You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
 
-## Add properties to product families (Sales Hub app)
+## Add properties to a product, bundle, or family (Sales Hub app)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
 
 2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
+
+3. Open the product, bundle, or family you want to add the products for.
 
 3. On the **Product Properties** tab, select **Add New Property**.
 

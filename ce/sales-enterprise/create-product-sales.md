@@ -1,16 +1,16 @@
 ---
 title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
-keywords: product, service
-ms.date: 04/01/2018
+keywords: "product, service, create, sales, catalog"
+ms.date: 09/01/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
 author: shubhadaj
 ms.author: shujoshi
@@ -34,7 +34,7 @@ Products are the backbone of your business. They can be physical products or ser
 
 2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
   
-3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
+3. To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
    -OR-  
   
@@ -48,7 +48,10 @@ Products are the backbone of your business. They can be physical products or ser
 
    - **Product ID**.
 
-   - **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+   -	**Parent**. Select a new parent for this product. More information: [Change the parent of a product](change-product-parent.md)
+
+      > [!NOTE]
+      > The capability to choose a new parent (reparenting) is a preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
 
    - **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
     
@@ -96,13 +99,24 @@ Products are the backbone of your business. They can be physical products or ser
   
 3. In the **Product Catalog** area, select **Families & Products**.  
   
-4. If you want to create a child product to an existing product family, select the family in the list, and then select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
+4. If you want to create a child product to an existing product family, select the family in the list, and then select **Add Product**. The selected family becomes the parent family of the new product you're creating.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
     -OR-  
   
     If you want to create an independent product, simply select **Add Product**.  
   
 5. Fill in your information:  
+
+   - **Name**. 
+
+   - **Product ID**.
+
+   -	**Family Hierarchy**. If this product is connected to other products in a hierarchy, the hierarchy is shown here in a breadcrumb. 
+   
+   -	**Parent**. Select a new parent for this product. More information: [Change the parent of a product](change-product-parent.md)
+
+      > [!NOTE]
+      > The capability to choose a new parent (reparenting) and family hierarchy is a preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
   
    - **Unit Group**. Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds," and defined its primary unit as "packet."  
   
@@ -143,3 +157,4 @@ Products are the backbone of your business. They can be physical products or ser
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)  
  [Manage sales literature](create-sales-literature.md)
+ [Change the parent of a product](change-product-parent.md)  

@@ -1,16 +1,16 @@
 ---
 title: "Set up product bundles to sell multiple items together (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
-keywords: Bundle, Product Bundle
-ms.date: 04/01/2018
+keywords: "Bundle, Product Bundle"
+ms.date: 08/01/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 1b15ac3d-9cce-4ad8-8014-5e89e0a709f4
 author: shubhadaj
 ms.author: shujoshi
@@ -63,7 +63,10 @@ Encourage customers to buy more products instead of a single product by combinin
 
    - **Product ID**.
 
-   - **Parent**. Select a parent product family for the product bundle. If you're creating a child product bundle in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+   - **Parent**. Select a parent product family for the product bundle. If you're creating a child product bundle in a product family, the name of the parent product family is populated here. More information: [Change the parent of a product](change-product-parent.md)
+
+      > [!NOTE]
+      > The capability to choose a new parent (reparenting) is a preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
 
    - **Valid From**/**Valid To**. Define the period the product bundle is valid for by selecting a **Valid From** and **Valid To** date.
     

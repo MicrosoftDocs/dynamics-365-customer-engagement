@@ -13,6 +13,7 @@
 #### [Create a product](../sales-enterprise/create-product-sales.md)
 #### [Create a product family](../sales-enterprise/create-product-family.md) 
 #### [Create product bundles](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+#### [Change parent of a product](change-product-parent.md)
 #### [Publish a product or bundle](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Create price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
 #### [Create unit group](../sales-enterprise/create-unit-group-add-units-that-group.md)
