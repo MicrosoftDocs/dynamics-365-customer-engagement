@@ -35,7 +35,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 <a name="WhenToUse"></a>   
 ## When should you use client caching?  
- Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.  
+ Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
   
  Client caching is best employed in performance testing, training, and production environments. It isn’t recommended for development environments because changes are only replicated when the control cache key is updated.  
   
@@ -72,9 +72,9 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
   
 <a name="CachingStoreLocation"></a>   
 ## Client caching store location  
- When enabled, client caching stores its files in a compressed and encrypted format in the users roaming directory: `%appData%\Roaming\Microsoft\Microsoft\Microsoft Dynamics 365 Unified Service Desk`  
+ When enabled, client caching stores its files in a compressed and encrypted format in the users roaming directory: `%appData%\Roaming\Microsoft\USD`  
   
- For example, for a user called agent1 running the client application on [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], the client caching files will be available at `c:\Users\agent1\AppData\Roaming\Microsoft\Microsoft\Microsoft Dynamics 365 Unified Service Desk`.  
+ For example, for a user called agent1 running the client application on [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)], the client caching files will be available at `c:\Users\agent1\AppData\Roaming\Microsoft\USD`.  
   
  Information in this directory can only be accessed by the user account that created it.  
   

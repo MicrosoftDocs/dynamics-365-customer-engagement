@@ -1,7 +1,7 @@
 ---
 title: "Supported email service configurations for server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/28/2019
+ms.date: 07/23/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -63,7 +63,7 @@ Depending on your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] ap
 -   Using non-default [network ports](https://technet.microsoft.com/library/hh699823.aspx)  
 -->
 
-- Connecting Customer Engagement apps with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is not supported.  
+- Connecting Customer Engagement apps with [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] in different tenant is supported by setting up hybrid profile connections to the separate tenant infrastructure.  
   
 ## Unsupported email service configurations  
  Server-side synchronization doesn’t support the following scenarios:  
