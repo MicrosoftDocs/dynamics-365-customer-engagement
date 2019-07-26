@@ -11,7 +11,7 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 for Customer Engagement"
   - "Dynamics 365 for Customer Engagement apps version 9.x"
-ms.assetid: 8c65b7d5-b1bc-4dd7-bf10-c8bdc6334491
+ms.assetid: 30df1a79-615a-4d6c-98df-30041b7faa68
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -22,18 +22,26 @@ caps.latest.revision: 69
 topic-status: Tech Reviewing
 ---
 
-Define lead qualification experience
+# Define lead qualification experience
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
-To define the experience, 
 
-1.	In the sales app, select the Settings icon , and the select Advanced Settings.
 
-2.	Select **Settings** > **Administration** > **System Settings**.
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-3.	Select the Sales tab.
+To define the experience: 
 
-4.	Under Qualify lead experience, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**.
+1.	In the Sales app, select the **Settings** icon, and then select **Advanced Settings**.
+
+2.	Select **Settings**, then **Administration**, and then **System Settings**.
+
+3.	Select the **Sales** tab.
+
+4.	Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**.
 
 This prompts salespeople to select which record types to be created once a lead is qualified. 
 
@@ -42,5 +50,5 @@ If you set **Create Account, Contact, and Opportunity records by default upon qu
 This behavior is applicable on all the leads that are qualified after this setting is updated.
 
 ### See also
-[Qualify a lead](qualify-lead-convert-opportunity-sales.md)
+[Qualify a lead](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit a lead](create-edit-lead-sales.md)  
