@@ -22,7 +22,7 @@ ms.tgt_pltfrm:
 
 # Change the parent of a product (Reparenting)
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 To organize your company's product catalog better, you may want to change the parent of an existing product record, so the child products inherit the appropriate product properties. You can change the parent of an existing product, bundle, or family to a new parent or delete an existing parent.
 
