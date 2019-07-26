@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 08/16/2019
+ms.date: 08/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 6C893ED1-0B3E-4E6C-96DB-796B807E6C6E
@@ -127,7 +127,7 @@ The conversations coming from different channel has varied scenarios and hence d
  | CDS Entity (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
  | CDS Entity (Case) | Active | None | For an entity channel, a conversation in the **Active** won’t be automatically closed. |
  |  |  |  |  |
- | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is automatically moved to the **Closed** state.  |
+ | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Waiting | 30 days | For a SMS channel, a conversation in the **Waiting** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Warp-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is automatically moved to the **Closed** state. |
