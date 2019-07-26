@@ -15,7 +15,7 @@ ms.custom:
 
 # Manage application tab templates
 
-[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Application tab template in Omnichannel for administrator app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
@@ -42,13 +42,13 @@ For example, you can create the **Customer summary** application type and associ
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the application tab. This name wouldn't be visible for the agents at the run-time. | KB Search Page |
     | General | Application title | Provide a title to the application that you want the agents to see at the run-time. | KB Search Page |
-    | General | Application type | Select a application type from the list. Choose one of the following: <br><br> <ul><li>Custom control</li> <li>Dashboard</li> <li>Entity view</li> <li>Entity record</li> <li>Entity search</li> <li>Web resource</li> <li>Website Url</li> </ul> <br> To learn more, see [Application types](#application-types-in-the-application-templates).|  Web resource |
+    | General | Application type | Select a application type from the list. Choose one of the following: <br><br> <ul><li>Custom control</li> <li>Dashboard</li> <li>Entity view</li> <li>Entity record</li> <li>Entity search</li> <li>Web resource</li> <li>Website Url</li> </ul> <br> To learn more, see [Application types](#application-types).|  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display KB Search Page. |
     | General | Value | Specify a value against the parameter. | msdyn_kbsearchpagehost.html <br><br> Update the value against the **webresourceName** parameter |
 
 5. Select **Save** to save the application tab template. After you save, the parameters for the application type you selected is appears in the **Parameters** section.
 
-6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types-in-the-application-templates) for the parameters.
+6. Select the **Value** field of a parameter to edit and provide the value. See the [Application types in the application templates](#application-types) for the parameters.
 
 7. Select **Save** to save the changes.
 
@@ -61,7 +61,7 @@ The types of application available are as follows:
 - [Entity view](#entity-view)
 - [Entity record](#entity-record)
 - [Entity search](#entity-search)
-- [Web resource](#web-resources)
+- [Web resource](#web-resource)
 - [Website Url](#website-url)
 
 ### Custom control
