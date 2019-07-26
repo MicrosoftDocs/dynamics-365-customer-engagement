@@ -271,7 +271,7 @@ When you hover the cursor on an activity, the command bar appears with the optio
   ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
 
 #### **Filter activities on the timeline**
-Quickly filter the activities with multiple filter options to see what matters to you.
+Quickly filter the activities with multiple filter options to see what matters to you. The filter is available for the activity types that are present in timeline. That is, in the image shown, all are activity types are present in the timeline so the filter displays the activity types and the count of those activity types. 
 
 When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
 
