@@ -25,9 +25,6 @@ search.app:
 
 The search results are automatically populated based on a field your administrator configured in the **Knowledge Base Search** control properties. Out of the box, for a case this is the title of the case record.
 
-> [!IMPORTANT]
->  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.
-
 For more information, see [Knowledge Base Search control](#knowledge-base-search-control).
 
 ## Knowledge base search control powered by Relevance search 
