@@ -23,7 +23,7 @@ caps.latest.revision: 9
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can see how info is related or grouped by viewing accounts, products, or users in hierarchical charts. You can click a tile in the chart to get the full details and then navigate to the info you’re interested in.  
+You can see how info is related or grouped by viewing accounts, products, territories, or users in hierarchical charts. You can click a tile in the chart to get the full details and then navigate to the info you’re interested in.  
    
  For example, from the hierarchical charts view for **accounts**, you can:  
   
