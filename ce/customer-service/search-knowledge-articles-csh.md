@@ -107,6 +107,8 @@ Type a keyword in the search box to search for knowledge articles.
 
 - If Relevance search is enabled, you can configure the fields based that you want to be searched upon. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](../admin/configure-relevance-search-organization.md#configure-searchable-fields-for-relevance-search)
 
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
+
 ### Filter knowledge articles
 
 With the help of text and visual filters, you can filter the knowledge articles. To see knowledge articles in specific states, use the **Status** filter. You can filter search results to see all draft, published, or approved articles. See articles that are categorized as internal and external. You can also filter the articles based on date and language.
@@ -117,9 +119,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Status | <ul> <li> Draft </li> <li> Approved </li> <li> Published </li> </ul> |
   | Visibility | <ul> <li> Internal </li> <li> External </li> <li> All </li> </ul> |
   | Date | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
-  | Language | <ul> <li> List of languages </li> </ul> |
-
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
+  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
 
   ![Knowledge article filter](media/km-filter1.png "Knowledge article filter")  
 
