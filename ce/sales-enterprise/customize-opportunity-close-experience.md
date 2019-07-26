@@ -1,5 +1,5 @@
 ---
-title: "Customize opportunity close form (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Preview: Customize opportunity close form (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
 ms.date: 08/01/2019
@@ -20,14 +20,19 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Customize Opportunity close form
+# Preview: Customize Opportunity close form
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Enable sales managers to draw key insights based on the information the sales representatives fill in while closing an opportunity.
 
 System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed.
 
 Sales managers can use this data to know which products are doing well and develop a better strategy.
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## What customizations are possible?
 

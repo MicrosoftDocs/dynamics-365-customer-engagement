@@ -61,7 +61,7 @@ If your customer has accepted your proposal, congratulations! However, whether y
         ![Close Opportunity dialog box when the opportunity is lost](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
 
     > [!IMPORTANT]
-    > If your system administrator has enabled custom fields on opportunity closing forms, you may be required to fill in data in other fields as defined by your organization.
+    > If your system administrator has enabled custom fields on opportunity closing forms, you may be required to fill in data in other fields as defined by your organization. The capability to enable custom fields on Opportunity Close form is in preview.  [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
 
 
 For information on how to resolve the common errors that you may see while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
