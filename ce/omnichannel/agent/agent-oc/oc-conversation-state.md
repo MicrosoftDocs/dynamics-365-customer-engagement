@@ -128,7 +128,7 @@ The conversations coming from different channel has varied scenarios and hence t
  | CDS Entity (Case) | Active | None | For an entity channel, a conversation in the **Active** won’t be automatically closed. |
  |  |  |  |  |
  | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is automatically moved to the **Closed** state. |
- | SMS | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is automatically moved to the **Closed** state. |
+ | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Waiting | 30 days | For a SMS channel, a conversation in the **Waiting** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Warp-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is automatically moved to the **Closed** state. |
 
