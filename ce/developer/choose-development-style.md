@@ -48,7 +48,7 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
 ## .NET Development: Use SDK assemblies  
 
-The SDK assemblies provides you with classes that you can use to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services to identify your organization and perform common business  operations like create, retrieve. update and delete data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget).  
+The SDK assemblies provides you with classes that you can use to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services to identify your organization and perform common business  operations like create, retrieve, update and delete data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The SDK assemblies are available as NuGet packages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Subscribe to SDK assembly updates using NuGet](/powerapps/developer/common-data-service/org-service/subscribe-sdk-assembly-updates-using-nuget).  
 
 > [!IMPORTANT]
 >  You should use the latest version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows. Starting with version 9.0, you should use .NET Framework version 4.6.2.
