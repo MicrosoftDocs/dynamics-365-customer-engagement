@@ -87,6 +87,7 @@
 ### [Enable or disable field security](enable-disable-security-field.md)
 ### [Hierarchy security](hierarchy-security.md)
 ## [Create users and assign security roles](create-users-assign-online-security-roles.md)
+## [System and application users](system-application-users.md)
 ## [Manage teams](manage-teams.md)
 ## [Team templates](about-team-templates.md)
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
@@ -126,7 +127,6 @@
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
 ## [Geo to geo migrations](../admin/datacenter/geo-to-geo-migrations.md)
-
 
 # Set up an organization
 ## [Overview](set-up-a-dynamics-365-organization.md)
