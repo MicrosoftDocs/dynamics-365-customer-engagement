@@ -48,7 +48,6 @@ A way that might help you increase your sales is to add all products that your c
 
             
             > [!NOTE]
-
             > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the product associated with the selected price list are shown in this field. 
             > - When a price list isn't selected, the **Existing product** field shows all active products (not filtered by the price list). You can change the view to look for other products by selecting the **Change View** icon. 
             > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
