@@ -35,7 +35,10 @@ OData-Version: 4.0
 If-None-Match: null
 ```
 
-Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of `msdyn_autocloseliveworkitemafter` attribute. The value for `msdyn_autocloseliveworkitemafter` attribute is in minutes.
+Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of `msdyn_autocloseliveworkitemafter` attribute.
+
+> [!NOTE]
+> The value for `msdyn_autocloseliveworkitemafter` attribute is in minutes. If you want to provide a value that is in days, you will have to convert it into minutes. For example, 1 day will be 24X60= 1440 minutes.
 
 ```http
 PATCH [Organization URI]/api/data/v9.1/msdyn_occhannelstateconfigurations(6283ab63-5778-e911-8196-000d3af7d71e)
