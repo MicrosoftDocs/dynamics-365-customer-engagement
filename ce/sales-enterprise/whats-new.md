@@ -59,9 +59,6 @@ Sales managers and sales people can use forecasting to project how much a sales 
 
 - With Dynamics 365 for Sales (build 9.0.1903.4006), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported. Also, sales managers can associate necessary documents with playbook activities to provide additional contextual information to sales representatives working on a playbook.
 
-  > [!IMPORTANT]
-  > This feature is being released in a phased manner. To know more about the feature's availability in your country or region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
-
 - Dynamics 365 for Sales (build 9.0.1903.4007) allows users to discover the best of third-party Configure, Price and Quote (CPQ) solution providers from within the Sales application. It makes it easier to leverage partner applications to get an immersive and intuitive product configuration experience. For more information, see the blog: [Leverage partner apps for a seamless configure-price-quote (CPQ) experience](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/04/09/leverage-partner-apps-for-a-seamless-configure-price-quote-cpq-experience/)
 
 
