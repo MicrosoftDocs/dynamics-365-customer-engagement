@@ -1,5 +1,5 @@
 ---
-title: "Auto-close a conversation| Microsoft Docs"
+title: "Automatic closure of a conversation| Microsoft Docs"
 description: "Read how you can auto-close a conversation using the Web API"
 keywords: ""
 ms.date: 07/29/2019
@@ -12,7 +12,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 ---
-# Preview: Auto-close a conversation
+# Preview: Automatic closure of a conversation
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
