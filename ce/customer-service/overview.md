@@ -48,11 +48,9 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
 
 
-- The **Customer Service Hub** app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management.  [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
+- The **Customer Service Hub** app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Customer Service Hub app is optimized to use on mobile devices as well as desktops. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
 
-    The Customer Service Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Customer Service Hub on a desktop browser for tasks other than managing knowledge articles is not recommended. 
-
-- The **Customer Service** app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
+- The **Customer Service** app is designed for the legacy web client and is a desktop-optimized web client app for case management scenarios. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
 > [!NOTE]
 > For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
