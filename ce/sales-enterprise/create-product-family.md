@@ -107,6 +107,6 @@ Make it easier for sales agents to find products and services in a product catal
  ![Home button](../sales-enterprise/media/walkthrough-home.png "Home button") [Classify products and bundles into product families](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)  
   
 ### See also  
- [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
+ [Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
  [Clone a product](../sales-enterprise/clone-product.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
