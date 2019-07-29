@@ -55,6 +55,9 @@ The conversation auto-closes if the value of `msdyn_autocloseliveworkitemafter` 
 
 In case the conversation is in wrap-up state, that is, if the agent has resolved the issue and can now perform some post conversation steps to close the conversation then the conversation is closed if the value of `msdyn_autocloseliveworkitemafter` attribute is greater than the value of `wrapupinitiatedon` attribute.
 
+> [!IMPORTANT]
+> The decision on whether to close a conversation based on the values of `msdyn_autocloseliveworkitemafter` and `createdon` attributes is made when a scheduled job executes and not at the time when the `PATCH` Web API request executes. That means, if the value of `msdyn_liveworkitemafter` is mentioned as 5 minutes but the scheduled job executes after, say 24 hours then the conversation will close after the scheduled job executes which is, after 24 hours.
+
 ### See also
 
 [Agent Guide: Automatic closure of a conversation](../agent/agent-oc/oc-conversation-state.md#bkmk_autoclose)<br />
