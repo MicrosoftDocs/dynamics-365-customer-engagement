@@ -21,6 +21,8 @@ search.app:
 ---
 # Extend transformer logic on templates
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Customers can overwrite the out-of-the-box transformer logic by creating a plug-in and registering it as `msdyn_GetKAObjectFromTemplate` message.
 
 Follow the procedure given below to extend the transformer logic for your knowledge article templates.
