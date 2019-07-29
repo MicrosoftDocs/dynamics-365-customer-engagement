@@ -104,7 +104,7 @@ Most of the insights displayed for a lead are the same as those shown for contac
 For leads associated with an account rather than a single contact, the insights combine interactions made by all contacts that belong to that account.
 
 > [!NOTE]
-> Because interaction records relate only to contact records, not lead records, most insights are only available for leads that are associated with a contact record (or with an account record, which itself relates back to contact records). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The lead lifecycle](lead-lifecycle.md)
+> Because interaction records relate only to contact records, not lead records, most insights are only available for leads that are associated with a contact record (or with an account record, which itself relates back to contact records). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use leads to register and track expressions of interest](manage-customer-information.md#leads-in-marketing)
 
 ## Account insights
 
