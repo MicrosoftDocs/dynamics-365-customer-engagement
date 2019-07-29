@@ -108,5 +108,5 @@ Make it easier for sales agents to find products and services in a product catal
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
- [Clone a product](../sales-enterprise/clone-product.md)
+ [Clone a product](../sales-enterprise/clone-product.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  
