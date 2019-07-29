@@ -46,7 +46,8 @@ To get started with customizing the demo event website, you need to follow these
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
 3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
-    ```CLI
+    
+   ```CLI
     node -v
     ```
         
