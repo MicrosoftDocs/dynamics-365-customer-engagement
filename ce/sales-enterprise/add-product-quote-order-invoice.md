@@ -24,7 +24,7 @@ topic-status: Drafting
 
 # Add products to a quote, order, or invoice (Sales Hub)
 
-You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. 
+You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or an ad hoc product that you add as a write-in product. 
 
 If you’ve created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
 
@@ -47,17 +47,21 @@ The process for adding a product to a quote record is the same as adding a produ
           > - By default, the product lookup will show the most recently used products. The most recently used products are not filtered based on the selected price list. 
           > - If a price list is selected, and you select a product that isn’t associated with the price list, you'll see an error. Select a product that's associated with the selected price list.
 
+
+            > [!IMPORTANT]
+            > The capability to make the selection of a price list optional is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+
         - To create a product, select **Write-In**, and then enter the name of the product.
 
     2.	Fill in details in the **Pricing** section:
 
-        - **Price Overridden**. If you’re adding an existing product from the product catalog, select whether you want to use the default pricing that is listed in the product catalog or override the price. For a write-in product, this field is set to **Override** Price. 
+        - **Price Overridden**: If you’re adding an existing product from the product catalog, select whether you want to use the default pricing that is listed in the product catalog or override the price. For a write-in product, this field is set to **Override** Price. 
 
-        - **Price Per Unit**. If you’re adding a write-in product, enter the price to be charged per unit for the product.
+        - **Price Per Unit**: If you’re adding a write-in product, enter the price to be charged per unit for the product.
 
-        - **Quantity**. Enter the quantity of the product or service that will be included. 
+        - **Quantity**: Enter the quantity of the product or service that will be included. 
 
-        - **Manual Discount**. If you want to offer a discount to the product price, enter it here. 
+        - **Manual Discount**: If you want to offer a discount to the product price, enter it here. 
 
         - **Tax**. If required, enter the appropriate tax amount. 
 
@@ -72,7 +76,7 @@ Here are the actions you can take on the products in the Products grid:
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**. You can change details such as the price, quantity, or discount of the added products. <br/> You can also open the quote product, order product, or invoice product record, and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the quote |Select the product, and on the command bar, select **Delete Quote Product**. |
 |View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
-|See and add related products for cross-selling or upselling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
 

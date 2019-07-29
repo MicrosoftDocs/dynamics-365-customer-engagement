@@ -38,7 +38,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
    or
 
-   In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Quotes**. 
+   In the Sales Hub app, select the Site map icon ![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
   
 2. Select the quote you want to create an order from.  
 
@@ -72,7 +72,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
    or
 
-   In the Sales Hub app, select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Orders**. 
+   In the Sales Hub app, select the Site map icon![Site Map icon](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
   
 2. Select **New**.  
   
