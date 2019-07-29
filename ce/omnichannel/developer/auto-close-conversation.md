@@ -55,4 +55,4 @@ In case the conversation is in wrap-up state, that is, if the agent has resolved
 ### See also
 
 [Automatic closure of a conversation](../agent/agent-oc/oc-conversation-state.md#bkmk_autoclose)<br />
-[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)<br />
+[Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)
