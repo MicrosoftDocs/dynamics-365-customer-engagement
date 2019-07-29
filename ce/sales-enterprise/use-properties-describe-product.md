@@ -83,8 +83,10 @@ You can make changes to the inherited properties of an individual product or fam
    > You can override properties only for products and families that have inherited properties from the parent family.  
 
 In the following cases, you'll see the **Overwrite** option instead of the **Override** option:  
-    -   You're trying to change non-inherited properties of a product family that's in the **Under Revision** status.  
-    -   You're trying to change the inherited and already overridden properties of a child product family or product. If the inherited properties of the child product or family weren't overridden, you'll see the **Override** option.  
+
+-   You're trying to change non-inherited properties of a product family that's in the **Under Revision** status.  
+    
+-   You're trying to change the inherited and already overridden properties of a child product family or product. If the inherited properties of the child product or family weren't overridden, you'll see the **Override** option.  
 
 > [!NOTE]
 > Child families can have their own properties in addition to inherited ones.  
