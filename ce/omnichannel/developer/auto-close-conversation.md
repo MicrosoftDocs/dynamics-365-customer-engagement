@@ -50,7 +50,7 @@ If-None-Match: null
 ```
 The conversation auto-closes if the value of `msdyn_autocloseliveworkitemafter` attribute is greater than the value of `createdon` attribute.
 
-In case of a wrap-up conversation, the conversation closed if the value of `msdyn_autocloseliveworkitemafter` attribute is greater than the value of `wrapupinitiatedon` attribute.
+In case the conversation is in wrap-up state, that is, if the agent has resolved the issue and can now perform some post conversation steps to close the conversation then the conversation is closed if the value of `msdyn_autocloseliveworkitemafter` attribute is greater than the value of `wrapupinitiatedon` attribute.
 
 ### See also
 
