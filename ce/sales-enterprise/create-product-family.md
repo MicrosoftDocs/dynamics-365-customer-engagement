@@ -30,22 +30,22 @@ Make it easier for sales agents to find products and services in a product catal
   
  With product families, you can:  
   
-- Categorize your products in whichever way is most meaningful for your organization.  
+- Categorize your products in whichever way is most meaningful to your organization.  
   
-- Create child products and product bundles within a product family. Product bundles allow you to sell multiple items together.  
+- Create child products and product bundles within a product family. (Product bundles allow you to sell multiple items together.)  
   
 - Create as many levels of product families as you want by creating a family within a family.  
   
   ![Hierarchy of families and products in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-hierarchy.png "Hierarchy of families and products in Dynamics 365 for Sales")  
   
 > [!NOTE]
->  The product family that you use for creating a product, bundle, or another product family becomes the parent family.   
+> The product family that you use for creating a product, bundle, or another product family becomes the parent family.   
 
 ## Create a product family (Sales Hub)
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
+2. Select the site map ![Site map icon](media/site-map-icon.png "Site map icon"), and then select **Products**.  
   
 3. To create a family, on the command bar, select **Add Family**.  
   
@@ -58,7 +58,7 @@ Make it easier for sales agents to find products and services in a product catal
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
    > [!NOTE]
-   >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+   > The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
 5. Select **Save**.  
   
@@ -91,7 +91,7 @@ Make it easier for sales agents to find products and services in a product catal
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
    > [!NOTE]
-   >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+   > The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
 6. Select **Save**.  
   
@@ -109,4 +109,4 @@ Make it easier for sales agents to find products and services in a product catal
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)   
  [Clone a product](../sales-enterprise/clone-product.md)
- [Change the parent of a product](change-product-parent.md)  
+ [Change the parent of a product (reparenting)](change-product-parent.md)  
