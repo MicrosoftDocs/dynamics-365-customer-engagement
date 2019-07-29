@@ -2,7 +2,7 @@
 title: "Auto-close a conversation| Microsoft Docs"
 description: "Read how you can auto-close a conversation using the Web API"
 keywords: ""
-ms.date: 07/26/2019
+ms.date: 07/29/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -38,7 +38,7 @@ If-None-Match: null
 Make a `PATCH` request to the `msdyn_occhannelstateconfiguration` entity record and update the value of `msdyn_autocloseliveworkitemafter` attribute. The value for `msdyn_autocloseliveworkitemafter` attribute is in minutes.
 
 ```http
-PATCH [Organization URI]/api/data/v9.1/msdyn_occhannelstateconfiguration(6283ab63-5778-e911-8196-000d3af7d71e)
+PATCH [Organization URI]/api/data/v9.1/msdyn_occhannelstateconfigurations(6283ab63-5778-e911-8196-000d3af7d71e)
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0
@@ -49,6 +49,8 @@ If-None-Match: null
 }
 ```
 The conversation auto-closes if the value of `msdyn_autocloseliveworkitemafter` attribute is greater than the value of `createdon` attribute.
+
+In case of a wrap-up conversation, the conversation closed if the value of `msdyn_autocloseliveworkitemafter` attribute is greater than the value of `wrapupinitiatedon` attribute.
 
 ### See also
 
