@@ -45,5 +45,5 @@ For example, think of a TV that was previously classified as "Plasma." The organ
 
 ### See also
 
-[Set up products](create-product-sales.md)  
-[Set up a product family](create-product-family.md) 
+[Set up products (Sales and Sales Hub)](create-product-sales.md)  
+[Set up a product family (Sales and Sales Hub)](create-product-family.md) 
