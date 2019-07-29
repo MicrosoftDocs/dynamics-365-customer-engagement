@@ -8,7 +8,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: susikka
 manager: shujoshi
-ms.date: 07/30/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 3BEFC582-E967-4310-8744-60639EF56200
