@@ -60,7 +60,7 @@ Anyone who has Create, Read, Update (Write), Delete (CRUD) privileges on the Tea
 > [!div class="mx-imgBorder"] 
 > ![](media/create-teams-security-roles.png "Privileges for creating teams")
 
-### Add a Team administrators
+### Add a Team administrator
 When you create a team, you need to add a Team administrator with a security role that has Read privilege to the Team entity. Go to **Settings** > **Security** > **Teams** and select a team to enter the Team administrator.
 
 > [!div class="mx-imgBorder"] 
