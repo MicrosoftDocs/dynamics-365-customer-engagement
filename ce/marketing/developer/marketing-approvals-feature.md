@@ -25,22 +25,24 @@ search.app:
 
 Dynamics 365 for Marketing released new extensibility features to extend entities covered by a lifecycle to give users the possibility to override or use the default logic. Following are some of the functions:
 
-- **MsDynCrmMkt.ExtensibilityCallback.liveEditablePreAction**: this function is used to introduce the code that executes before an entity enters the **live editable** state.
-- **MsDynCrmMkt.ExtensibilityCallback.customUpdateFormControls**: this function is triggered when the main form of the entity executes. This gives the possibility to unlock all the controls of the page and make them editable.
-- **MsDynCrmMkt.ExtensibilityCallback.canGoLive**: this function gives the ability to completely override the logic to show or hide the **Go live** ribbon.
-- **MsDynCrmMkt.ExtensibilityCallback.preventSave**: this function allows to control the save behavior of the entity.
-- **MsDynCrmMkt.ExtensibilitySupplier.entityValidator**: this function is returning a validator factory. Once correctly initialized can be used to verify that the configuration of the specific entity is valid. 
+|Name|Description|
+|----|-------|
+|MsDynCrmMkt.ExtensibilityCallback.liveEditablePreAction| This function is used to introduce the code that executes before an entity enters the **live editable** state.|
+|MsDynCrmMkt.ExtensibilityCallback.customUpdateFormControls| This function is triggered when the main form of the entity executes. This gives the possibility to unlock all the controls of the page and make them editable.|
+|MsDynCrmMkt.ExtensibilityCallback.canGoLive| This function gives the ability to completely override the logic to show or hide the **Go live** ribbon.|
+|MsDynCrmMkt.ExtensibilityCallback.preventSave| This function allows to control the save behavior of the entity.|
+|MsDynCrmMkt.ExtensibilitySupplier.entityValidator| This function is returning a validator factory. Once correctly initialized can be used to verify that the configuration of the specific entity is valid.| 
 
 Another flexibility introduced for entities with complex lifecycle stage (marketing email, customer journey, content settings, marketing page, marketing form, and segment) is the possibility to configure the lifecycle of an entity. The user can add new states and can change the flow for existing entities. The only limitations are: 
 
-1. New states between transient state (going live and stopping) and fix stage is ignored.
-2. If you try to enter directly to live stage without passing through going live, you have to make sure that the entity value are not changed (otherwise what you will see in the UI it will be different of what is running in in the backend).
-3. Don't remove any of the existing states. This approach should be adopt for any customizations.
-4. Once an entity enters into an inactive state, it cannot be activated.
+1. New states between transient state (Going live and Stopping) and fix stage is ignored.
+2. If you want to go directly into **Live** state, without passing through **Going live** state, make sure that the entity values are not changed.
+3. Do not remove any of the existing states.
+4. When an entity enters into an inactive state, it cannot be activated.
 
-## Sample approvals
+## Example: Approvals scenario
 
-This sample shows how to implement the above mentioned functions by implementing a simple approval scenario for the customer journey. This sample approval example covers the following scenario where a user creates a customer journey record (i.e., in Draft state) and asks for the approval from the manager to publish the record. The manager rejects the approval request and asks for some changes. In this case, the entity goes back to the **Draft** state, and the changes made by the users are kept. 
+This example shows how to utilize the above mentioned functions by implementing a simple approval scenario for the customer journey entity. This approval example covers the following scenario where a user (With no System Administrator privileges) creates a customer journey record (i.e., in Draft state) and asks for the approval from the manager (With System Administrator privileges) to publish the record. The manager rejects the approval request and asks for some changes. In this case, the entity goes back to the **Draft** state, and the changes made by the users will be stored as is.
 
 The user can continue to work on this entity to implement the requested changes and submits a new approval request. This time manager accepts the approval request, and the customer journey record is pushed to **Live** state. 
 
@@ -53,12 +55,16 @@ The user can continue to work on this entity to implement the requested changes 
 - Add the following new states to the **Statuscode** attribute:
    - Approved
    - Need approval
+
+    > [!NOTE]
+    > Copy the values of the new states created for further use. You need  these values while creating custom ribbon buttons.
+
 - Navigate to **Customizations** > **Entities** > **Customer Journey** > **Fields**  and select **Statuscode** attribute. 
 - Click on **Edit Status Reason Transitions**  and click on **...** next to the options available and add the status reasons as shown below and click **Ok**.
 
   ![Status Reason Transition](../media/marketing-status-reason-transition.png "Status Reason Transition")
 
-- Create a new field **msdyncrm_restorestatuscode** of data type **Integer** , which is used to store the previous state information.
+- Create a new field **msdyncrm_restorestatuscode** of data type **Integer** , which stores the previous state information.
 
 ### Step2: Create a Web resource
 
@@ -858,6 +864,10 @@ Use the below CustomActions, CommandDefinition, and EnableRules for the three cu
       </EnableRule>
 
 ```
+
+### Step 4: Create two system views
+
+Create two system views in the cutomer journey entity to display all the entities that need an approval and all the entities that are already approved and waiting to **Go live**. More information: [Create system views](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)
 
 ## Integrate with Microsoft Flow
 
