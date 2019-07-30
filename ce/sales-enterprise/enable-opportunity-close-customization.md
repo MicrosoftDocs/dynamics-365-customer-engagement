@@ -1,5 +1,5 @@
 ---
-title: "Preview: Enable customization of opportunity close form (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Preview: Enable customization of the Opportunity Close form (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Enable the system customizers to customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields, enable"
 ms.date: 08/01/2019
@@ -11,7 +11,7 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 for Customer Engagement"
   - "Dynamics 365 for Customer Engagement apps version 9.1.x"
-ms.assetid: 00b7d8fc-fc21-4c95-8e85-3d9ed19e828e
+ms.assetid: 6cb7044b-0eef-48d1-b4a4-aa605cb9d738
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
@@ -20,11 +20,11 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Preview: Enable customization of Opportunity close form
+# Preview: Enable customization of the Opportunity Close form
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-To allow users in your organization to capture more relevant details about opportunity closing, a system administrator can enable the customization of Opportunity Close form.
+To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -32,11 +32,11 @@ To allow users in your organization to capture more relevant details about oppor
 
 To enable customiztion:
 
-1.  In your app, on the nav bar, select the **Settings** icon ![Settings icon on the nav bar](media/settings-icon.png "Settings icon on the nav bar"), and then select **Advanced Settings**.
+1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
-    The Business Management settings page opens in a new browser tab.
+    The **Business Management settings** page opens in a new browser tab.
 
-1.  On the nav bar, select **Settings**, and then select **Administration**.
+1.  On the navigation bar, select **Settings**, and then select **Administration**.
 
 2.  Select **System Settings**.
 
@@ -49,5 +49,5 @@ To enable customiztion:
 
 ### See also
 
-[Customize opportunity close form](customize-opportunity-close-experience.md)  
+[Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)

@@ -1,5 +1,5 @@
 ---
-title: "Preview: Customize opportunity close form (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Preview: Customize the opportunity Close form (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
 ms.date: 08/01/2019
@@ -20,15 +20,13 @@ ms.suite:
 ms.tgt_pltfrm: 
 ---
 
-# Preview: Customize Opportunity close form
+# Preview: Customize the Opportunity Close form
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Enable sales managers to draw key insights based on the information the sales representatives fill in while closing an opportunity.
 
-System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed.
-
-Sales managers can use this data to know which products are doing well and develop a better strategy.
+System administrators or customizers can use the **Opportunity Close** quick create form to add custom fields, so that sales representatives can capture important details about why an opportunity was closed. Sales managers can use this data to know which products are doing well and develop a better strategy.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -47,9 +45,9 @@ Sales managers can use this data to know which products are doing well and devel
 
 -   Customization of views
 
-## Create custom fields for Opportunity Close entity
+## Create custom fields for the Opportunity Close entity
 
-To enable sales representatives to capture relevant data about opportunity close, create fields as required by your organization for the **Opportunity Close** entity. For example, for all the won opportunities, your organization would like to know the profit margin. To achieve this, create a new field called Profit margin.
+To enable sales representatives to capture relevant data about an opportunity close, create fields as required by your organization for the **Opportunity Close** entity. For example, if your organization would like to know the profit margin for all the won opportunities, create a new field called **Profit Margin**.
 
 To create fields,
 
@@ -59,22 +57,20 @@ To create fields,
 
     The **Business Management** page opens.
 
-1.  On the nav bar, select **Settings**, and then select **Customizations**.
+1.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
-    ![Customization option in the site map](media/customization-in-sitemap.png "Customization option in the site map")
+    ![Customization option on the site map](media/customization-in-sitemap.png "Customization option on the site map")
 
 2.  On the **Customization** page, select **Customize the System**.
 
-    The solution explorer opens.
-
 3.  In the solution explorer, under **Components**, expand **Entities**, and then expand **Opportunity Close**.
 
-4.  Under **Opportunity Close** node, select **Fields**.
+4.  Under the **Opportunity Close** node, select **Fields**.
 
-5.  To add a new field, on the Actions toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
+5.  To add a new field, on the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. For more information on the data to enter, see [Create and edit fields (attributes)](../customize/create-edit-fields.md)
 
 
-## Add newly created custom fields to Opportunity Close form
+## Add newly created custom fields to the Opportunity Close form
 
 After you’ve created the fields that are required by your organization, add those fields to the **Opportunity Close** form, so sales representatives can capture data in those fields at the time of closing opportunities.
 
@@ -90,18 +86,14 @@ After you’ve created the fields that are required by your organization, add th
 
 5.  Select **Save and Close**.
 
-    Important!
+      > [!IMPORTANT]
+      > The Opportunity entity has the following statuses, which aren’t customizable: Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpporunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized values with right defaults preselected for each opportunity Win and Loss state.
 
-    The Opportunity entity has the following statuses, which aren’t customizable:
-
-    Open, Won, Lost. However, you can add multiple status reasons corresponding to the Won and Lost statuses. If you add custom values to a Status Reason field against a state (Won/Lost) in the Opportunity entity, you must add the same custom value to the OpporunityStatusCode field (attribute) on the Opportunity Close entity manually. This displays the correct customized
-    values with right defaults preselected for each opportunity Win and Loss state.
-
-6.  Open the **Information** form of type **Main** and make the same changes that you did in Step 4.
+6.  Open the **Information** form of type **Main**, and make the same changes that you did in Step 4.
 
     The sales representatives or managers have a way to open the **Opportunity Close** record after an opportunity is closed, which uses the **Information** form. For these newly added or removed fields to reflect on the **Information** form, the changes must be made to the **Information** form, too.
 
 
 ### See also
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
-[Enable customization of opportunity close form](enable-opportunity-close-customization.md)
+[Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
