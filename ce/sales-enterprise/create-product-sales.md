@@ -48,7 +48,7 @@ Products are the backbone of your business. They can be physical products or ser
 
    - **Product ID**
 
-   -	**Parent**: Select a new parent for this product. For more information: [Change the parent of a product (reparenting)](change-product-parent.md)
+   -	**Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
 
       > [!NOTE]
       > The capability to choose a new parent (reparenting) is a Preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
@@ -69,13 +69,9 @@ Products are the backbone of your business. They can be physical products or ser
   
 5. Select **Save**.
 
-If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property:
+6. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
-6. In the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
-  
-    > [!NOTE]
-    >  You can't add properties to an independent product.  
-  
+
 7. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
 
 8. To see all the products that are associated with this product in a bundle, select the **Related** tab, and select **Product Bundles**. 
@@ -114,7 +110,7 @@ If you're creating this product under a family, the product will inherit the pro
 
    - **Family Hierarchy**: If this product is connected to other products in a hierarchy, the hierarchy is shown here in a breadcrumb. 
    
-   - **Parent**: Select a new parent for this product. For more information: [Change the parent of a product (reparenting)](change-product-parent.md)
+   - **Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
 
       > [!NOTE]
       > The capability to choose a new parent (reparenting) and family hierarchy is a preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
@@ -137,12 +133,7 @@ If you're creating this product under a family, the product will inherit the pro
    > [!NOTE]
    > A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in Step 7).  
   
-If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property:
-
-9. In the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
-  
-    > [!NOTE]
-    > You can't add properties to an independent product.  
+9. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
 10. In the **Product Relationships** section, select the **Add a Record** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
   

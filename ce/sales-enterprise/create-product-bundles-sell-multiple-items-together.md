@@ -40,7 +40,7 @@ Similar to a kit, a bundle is a collection of products that is sold as single un
   
 - Pairing a top-selling product with a less popular product  
   
-- Grouping products in a way that customers get more benefit from the full line of products (e.g., Microsoft Office Suite or a digital camera with lenses)
+- Grouping products in a way that customers get more benefit from the full line of products, for example, Microsoft Office Suite or a digital camera with lenses)
 
 
 ## Create a product bundle (Sales Hub)
@@ -111,9 +111,6 @@ If you've added this bundle to a family, the bundle will inherit the properties 
 11. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
 
 
-> [!NOTE]
-> Price lists and price list items are not supported in the apps built on the Unified Interface framework. You can't create or add price list items in the Sales Hub app. To do this, use the Sales app instead. 
-
 ## Pricing of bundles (Sales Hub)
 Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle, or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered zero.  
   
@@ -168,9 +165,9 @@ Typically, the pricing of products in bundles is different than the individual p
   
 10. To change properties of an individual product in the bundle, select **Customize** corresponding to the product, and change the values, as required.  
 
-If you've added this bundle to a family, the bundle will inherit the properites from its parent family. To change the bundle's property:
-  
-11. Open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+    If you've added this bundle to a family, the bundle will inherit the properites from its parent family. 
+
+11. To change the bundle's property, open the property, and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
 12. In the **Additional Details** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and add a price list item. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
