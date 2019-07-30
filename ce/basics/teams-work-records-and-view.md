@@ -24,6 +24,7 @@ search.app:
 ---
 # Work with Teams integration
 
+Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 for Customer Engagement apps record connections made in teams and channels in Microsoft Teams.
 
 ## Open a record or view in Dynamics 365 for Customer Engagement apps
 
