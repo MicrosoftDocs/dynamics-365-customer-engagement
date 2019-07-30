@@ -46,12 +46,12 @@ To enable the Device Readings (Preview) chart, organization admin needs to deplo
 - Settings that should be turned on or off
 - Data that must be in place prior to configure or use of this feature 
 
-Note: This Device Readings (Preview) feature is available only in US English (en-US).
+> [!Note]
+> This Device Readings (Preview) feature is available only in US English (en-US).
 
 Admin of organization will be able to enable Connected Field Service Device Readings(Preview) by deploying Azure Time Series(Preview) through [IoT Deployment App](https://aka.ms/deploycfs). 
 
-> [!Note]
->
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
@@ -76,7 +76,8 @@ Note: This Device Readings (Preview) feature is available only in US English (en
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
 
-_Note: Storage account selection is only available when upgrading deployment._ 
+> [!Note]
+> Storage account selection is only available when upgrading deployment._ 
 
 6. After deployment, **Device Readings (Preview)** tab will be showed in IoT Alert, Work Order, Case, Device, Asset form.  
 
@@ -91,7 +92,8 @@ Note: please check prerequisites when Device Readings (preview) tab can be showe
 
 2. Select drop down box on the top right to choose time period. If the device sends device measurements to TSI  and the device measurement data exists for the selected time period, a chart will be loaded.  
 
-Note: When you select **Custom** time period, please limit your time range to 90 days. 
+> [!Note]
+> When you select **Custom** time period, please limit your time range to 90 days. 
 
 3. Click on the eye icon beside measurement to hide or show the measurement on the chart 
 
@@ -105,12 +107,13 @@ Note: When you select **Custom** time period, please limit your time range to 90
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
-Note: If it has no work order in selected time period, Work Order selection will not be shown
+> [!Note]
+> If it has no work order in selected time period, Work Order selection will not be shown
 
 ## Configuration considerations
 ## Additional Notes
 
-Known issue: 
+Known issues: 
 1. In the Custom time settings, the Time Zone is always set as UTC even other Time Zone is selected. The time period displayed after applying the setting is always local time. 
 
 2. When deploying immediately after creating a new Application (client) id from IoT Deployment App,  it may have "unable to deploy TSI with credential" error . Please try again after a minute.
@@ -118,7 +121,8 @@ Known issue:
 **Cost Estimation**
 Azure Time Series Insights (Preview) pricing and cost estimate calculator is available at https://azure.microsoft.com/en-us/pricing/details/time-series-insights. Select the region you are planning to deploy TSI to understand the Storage (TSI uses Azure Blob to store the data) and Query Cost. 
 
-Note that, we are using the Preview version of Time Series Insights which is also referred to as Pay-As-You-Go or PAYG SKU. 
+> [!Note]
+> This feature uses the preview version of Time Series Insights which is Pay-As-You-Go (PAYG). 
 
 
 
