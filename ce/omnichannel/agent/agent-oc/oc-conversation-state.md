@@ -113,6 +113,10 @@ Advantages of automatically closing a conversation:
 - Capacity of the agent is unblocked.
 - Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
 
+### Understand working of auto-close of conversations
+
+Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default time, then the conversation is automatically moved to the **Closed** state.
+
 ### Default time for automatic closure of conversation
 
 The conversations coming from different channel has varied scenarios and hence the different threshold time. The matrix describes the channel, state, and default automatic closure time.
@@ -130,12 +134,11 @@ The conversations coming from different channel has varied scenarios and hence t
  | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Waiting | 30 days | For a SMS channel, a conversation in the **Waiting** state for more than 30 days is automatically moved to the **Closed** state. |
- | SMS | Warp-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is automatically moved to the **Closed** state. |
+ | SMS | Wrap-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is automatically moved to the **Closed** state. |
 
-### Understand working of auto-close of conversations
+### Set default time using APIs
 
-Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default time, then the conversation is automatically moved to the **Closed** state.
-
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [we will add the link here]().
 
 > [!div class="nextstepaction"]
 > [View communication panel](oc-conversation-control.md)
