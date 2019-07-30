@@ -1,14 +1,14 @@
 ---
 title: "Dynamics 365 for Sales and GDPR | MicrosoftDocs"
 description: "Know how Dynamics 365 for Sales complies with GDPR regulations."
-keywords: Sales, GDPR
+keywords: "Sales, GDPR"
 ms.date: 04/01/2018
 ms.service:
-  - crm-online
+  - "crm-online"
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+  - "Dynamics 365 for Customer Engagement"
+  - "Dynamics 365 for Customer Engagement apps version 9.x"
 ms.assetid: 722fa6d7-0d73-4fd0-a726-8148a8d55657
 author: shubhadaj
 ms.author: shujoshi
@@ -32,7 +32,7 @@ The following table shows the states in which the [!INCLUDE[pn-dyn-365-sales](..
 |  Order   | Fulfilled/Canceled/Submitted/Invoiced |
 |  Invoice | Paid/Canceled/Closed | 
 
-In case of orders and invoices, a system administrator can export read-only records, update them, and import back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. In case of quotes, both, a system administrator and a user, can export read-only records and import the updated records back into the system. 
+A system administrator can export read-only quote, order, and invoice records, update them, and import the updated records back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
 
 It is also possible to update the read-only records programmatically with the SDK for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps.
 
