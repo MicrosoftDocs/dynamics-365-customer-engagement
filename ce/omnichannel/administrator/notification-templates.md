@@ -17,6 +17,14 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+## Overview
+
+Notification template in Omnichannel for administrator app is a combination of notification related information that are reusable. The template is used to configure what information are displayed to the agents and supervisors for a incoming conversation, escalation, transfer, consult, and so on.
+
+As an agent, when you are working on a conversation, you might get a notification. The notification may display certain information like from which customer the conversation request is coming, wait time, some button like accept and reject. As an administrator, you can configure the what details are shown to the agents or supervisors.
+
+You must associate the notification templates to a session template.
+
 ## See also
 
 - [Manage session templates](session-templates.md)

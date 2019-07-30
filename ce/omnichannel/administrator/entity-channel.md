@@ -18,6 +18,8 @@ Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
 
 [!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]	
 
+Entity Records channel help routing entities from **Common Data Service** to the Omnichannel for Customer Service. For example, you can enable high-priority cases to be routed to Omnichannel so that they can be automatically distributed and assigned to agents.
+
 
 
 ### See also 	

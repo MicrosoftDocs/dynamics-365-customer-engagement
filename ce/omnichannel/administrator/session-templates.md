@@ -15,13 +15,13 @@ ms.custom:
 
 # Manage session templates
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-Session templates in Omnichannel for administrator app are a combination of attributes and application tab information that are reusable. 
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)] 
 
 ## Overview
 
-When a you accept a chat or SMS incoming conversation request, a session is started. The **Customer Summary** application which is defined as **Anchor Tab** is opened in the application tab panel and it is not closable. Simultaneously, the communication panel is expanded for you to exchange messages with the customer. 
+Session template in Omnichannel for administrator app is a combination of attributes and application tab information that are reusable.
+
+As an agent, when a you accept a chat or SMS incoming conversation request, a session is started. The **Customer Summary** application which is defined as **Anchor Tab** is opened in the application tab panel and it is not closable. Simultaneously, the communication panel is expanded for you to exchange messages with the customer. 
 
 Session templates are used to define the aforementioned session experience such as, 
 

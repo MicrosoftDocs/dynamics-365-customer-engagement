@@ -17,9 +17,9 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-Application tab template in Omnichannel for administrator app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
-
 ## Overview
+
+Application tab template in Omnichannel for administrator app provide the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application tab that is not closable; it is called a **Anchor** tab. That is, when a session is started, by default an application is opened in application tab panel. In addition, there may be few applications that are opened by default. 
 
