@@ -108,7 +108,7 @@ Note: please check prerequisites when Device Readings (preview) tab can be showe
 > [!Note]
 > If it has no work order in selected time period, Work Order selection will not be shown
 
-## Configuration considerations
+
 ## Additional Notes
 - Available only in US English (en-US)
 
