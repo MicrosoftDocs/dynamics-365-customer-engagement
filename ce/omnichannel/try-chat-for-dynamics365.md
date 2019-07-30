@@ -37,11 +37,11 @@ This topic explains the steps to help you sign up for a trial of Chat for Dynami
 
 2. Go to **Billing** > **Purchase Services**, and select **Add-ons**. 
 
-  ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
+    ![Add-on subscriptions in Microsoft 365 admin center](media/add-on-subscriptions.png "Add-on subscriptions in Microsoft 365 admin center")
 
-  You'll see **Dynamics 365 for Customer Service Chat Trial** under **Add-on**. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant that was purchased directly through the Microsoft 365 Admin Center (that is, Web Direct channel), otherwise the **Dynamics 365 for Customer Service Chat Trial** option won't be visible.
+    You'll see **Dynamics 365 for Customer Service Chat Trial** under **Add-on**. You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant that was purchased directly through the Microsoft 365 Admin Center (that is, Web Direct channel), otherwise the **Dynamics 365 for Customer Service Chat Trial** option won't be visible.
 
-  ![Dynamics 365 for Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 for Customer Service Chat Trial option")
+    ![Dynamics 365 for Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 for Customer Service Chat Trial option")
     
 You can start a 30-day trial of Chat with 25 user licenses. After signing up for a trial, you must assign licenses of Chat to the users who need to engage with customers and provide support via Chat. This can be done by selecting one or more active users and editing their product licenses. After you're done, select **Save**.
 
@@ -55,22 +55,22 @@ You can start a 30-day trial of Chat with 25 user licenses. After signing up for
 
 3. Enter your work email and phone number, and then select **Get started**.
 
-  ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
+    ![Create a Customer Service trial](media/cs-trial.png "Create a Customer Service trial")
 
-4. Sign-in with your global administrator credentials and accept the terms and privacy policy. The instance setup takes some time. If you already have a trial instance, see Step 6.
+4. Sign-in with your global administrator credentials and accept the terms and privacy policy. The instance setup takes some time. If you already have trial instances, go to Step 6.
 
 5. Select **Customer Service Hub** to open the application once it is setup.
 
-6. If you already have a trial instance, you'll be asked to either join an existing organization or create your own trial. Select **Create your own trial** and then select **Create New Trial**.
+6. If you already have trial instances, you'll be asked to either join an existing organization or create your own trial. Select **Create your own trial** and then select **Create New Trial**.
 
-  ![Create your own trial](media/create-own-trial.png "Create your own trial")
+   ![Create your own trial](media/create-own-trial.png "Create your own trial")
 
   > [!NOTE]
   > The maximum number of allowed trial instances in a tenant is five. If you already have five trial instances in your tenant, you must delete one instance before creating a new trial.
 
 7. Select **Customer service** and then select **Complete Setup**.
 
-  ![Complete your trial setup](media/trial-complete-setup.png "Complete your trial setup")
+   ![Complete your trial setup](media/trial-complete-setup.png "Complete your trial setup")
 
 8. The newly created instance is displayed in Dynamics 365 Administration Center under the **Instances** tab.
 
@@ -84,7 +84,7 @@ If you already have a subscription of Dynamics 365 Customer Engagement Plan or P
  
 3. Search for Power BI (free) and complete the purchase of Power BI (free) subscription.
 
-  ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
+    ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
 
 ## Enable Chat in your organization
 
