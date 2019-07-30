@@ -155,7 +155,7 @@ Forms are designed to help you quickly handle important customer service tasks a
 
 Understand the different components of a form below:
   
-### **Business processes**  
+### Business processes
  In the Customer Service Hub, forms for cases and knowledge articles include a process bar (also called a business process flow), which appears when you save the record for the first time. 
  
 When you select a process stage on the process bar, you'll see the steps to take to complete that stage. A flag on a stage indicates the stage you’re currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
@@ -174,7 +174,7 @@ If there is more than one process to follow, you can switch between them by sele
   
 -   If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
 
-### **Tabs**  
+### Tabs  
  A tab is a group of sections on a page. Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
   
 For example, here’s a view of how the tabs appear on the case form:
@@ -192,7 +192,7 @@ For example, here’s a view of how the tabs appear on the case form:
 |Knowledge Articles|**Content**. Lets you write and edit the content for the article.<br />**Summary**. Tracks basic settings, Timeline, publishing settings, and related information.<br />**Analytics**. Shows the number of views, feedback, and a list of cases using the article.<br />**Related**. Shows related common entities.|  
 |Social Profiles|**Social Profile**. Captures general information, and social profile details along with related social profiles.<br />**Related**. Shows related common entities.|  
 
-### **Contact card**  
+### Contact card  
  See a complete view of your customer’s touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
 ![contact-card](media/contact-card.png "Contact card")
@@ -201,7 +201,7 @@ For example, here’s a view of how the tabs appear on the case form:
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-### **Timeline**  
+### Timeline  
  See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline makes collaboration with other users easy and efficient.
 
 The Customer Service Hub comes with an enhanced Timeline that lets you view all interactions, arranged in a single stream. You can create, update, and manage notes, posts and other interactions from the Timeline itself. 
@@ -230,7 +230,7 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
 -   Take quick actions on an activity from the timeline, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, or deleting it.   
 -   Sort the entries by latest or oldest entry.
 
-### **Related section**  
+### Related section  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you’re working on. 
