@@ -34,12 +34,14 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 
 ## What customizations are possible?
 
--   Customization of Opportunity Close entity to add custom fields or adding validations such as if an opportunity is closed as Won, the Profit margin (custom field) must be mandatory.  
+-   Customization of Opportunity Close entity to add custom fields or   
 
     > [!IMPORTANT]
     > You can’t delete the out-of-the-box fields or customize the entity relationship.
 
 -   Customization of Opportunity Close Quick Create form to capture details such as Profit Margin, Winning Product and so on,  when closing an opportunity.
+
+-   Customization of form to add client-side validations. For example, when an opportunity is closed as Won, the Profit margin (custom field) is mandatory.
 
 -   Customization of Opportunity Close Information form to view details of the closed opportunity
 

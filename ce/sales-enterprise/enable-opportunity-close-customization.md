@@ -30,7 +30,7 @@ To allow users in your organization to capture more relevant details about an op
 > [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-To enable customiztion:
+To enable customization:
 
 1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
