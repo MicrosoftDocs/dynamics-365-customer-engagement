@@ -30,6 +30,9 @@ search.app:
 
 Connected Field Service Device Readings (Preview) provides the capability to explore near real time and historical trending of measurements and historical work orders from IoT device. Device Readings chart is available in IoT Alert, Work Order, Case, Device, Asset form for users to access.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
+
 
 After an IoT alert is received, the alert needs to be diagnosed. The first step is to understand the current state of the device. The next step is to further analyze the history and trending of the measurements from the device, and repair history. That can help to analyze the problem and perform remediate actions. 
 
@@ -41,15 +44,10 @@ To enable the Device Readings (Preview) chart, organization admin needs to deplo
 
 ## Prerequisites
 
-- Minimum app version required: mainly solution version (8.8.2.X of FS)
-- Knowledge of other features recommended or required
-- Settings that should be turned on or off
-- Data that must be in place prior to configure or use of this feature 
+- Field Service v8.8.2.X 
 
-> [!Note]
-> This Device Readings (Preview) feature is available only in US English (en-US).
 
-Admin of organization will be able to enable Connected Field Service Device Readings(Preview) by deploying Azure Time Series(Preview) through [IoT Deployment App](https://aka.ms/deploycfs). 
+Admin of organization will be able to enable Connected Field Service Device Readings (Preview) by deploying Azure Time Series(Preview) through [IoT Deployment App](https://aka.ms/deploycfs). 
 
 
 
@@ -112,6 +110,8 @@ Note: please check prerequisites when Device Readings (preview) tab can be showe
 
 ## Configuration considerations
 ## Additional Notes
+- Available only in US English (en-US)
+
 
 Known issues: 
 1. In the Custom time settings, the Time Zone is always set as UTC even other Time Zone is selected. The time period displayed after applying the setting is always local time. 
@@ -123,12 +123,6 @@ Azure Time Series Insights (Preview) pricing and cost estimate calculator is ava
 
 > [!Note]
 > This feature uses the preview version of Time Series Insights which is Pay-As-You-Go (PAYG). 
-
-
-
-
-
-
 
 
 > [!div class="mx-imgBorder"]
