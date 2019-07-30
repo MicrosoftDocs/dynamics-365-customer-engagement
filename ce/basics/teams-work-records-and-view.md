@@ -1,7 +1,7 @@
 ---
-title: "Use Teams to open a record or view in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Work with Teams integration| MicrosoftDocs"
 ms.custom: 
-description: "Use Teams to open a record or view in Dynamics 365 for Customer Engagement apps"
+description: "Work with Teams integration"
 ms.date: 8/05/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -22,10 +22,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Use Teams to open a record or view in Dynamics 365 for Customer Engagement apps
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
+# Work with Teams integration
 
 
 ## Open a record or view in Dynamics 365 for Customer Engagement apps
