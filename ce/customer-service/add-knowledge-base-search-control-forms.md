@@ -120,7 +120,7 @@ In the **Set Properties** dialog box, on the **Display** tab, specify the follow
 
    ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
 
-To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-filtered-articles-in-the-Related-section)
+To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-filtered-articles-in-the-related-section)
 
 ### See also  
 
