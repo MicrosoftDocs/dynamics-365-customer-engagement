@@ -108,28 +108,28 @@ Note that, we are using the Preview version of Time Series Insights which is als
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT hub-device-measurements-deployment1.png)
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment1.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT hub-device-measurements-deployment1-2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT hub-device-measurements-deployment2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT hub-device-measurements-devicechart.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT hub-device-measurements-hoover.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT hub-device-measurements-workorder.png)
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-devicechart.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-hoover.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
