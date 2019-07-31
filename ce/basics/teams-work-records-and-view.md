@@ -40,7 +40,7 @@ You can chat with your team members side-by-side with the Dynamics 365 tab. From
 > ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
 
 
-## If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
+### If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
 
 > [!div class="mx-imgBorder"] 
 > ![Shared files in multiple locations](media/teams-error-multiple-locations.png "Shared files in multiple locations")
