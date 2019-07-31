@@ -138,9 +138,9 @@ The conversations coming from different channel has varied scenarios and hence t
 
 ### Conversation in waiting state
 
-For chat and SMS channel, a conversations in the **Waiting** state is moved to the **Closed** state immediately when the conversation inactive for the specified time. **Auto-close after inactivity** is the option in the work stream configuration for which the time is set. 
+For chat and SMS channel, a conversation in the **Waiting** state is moved to the **Closed** state when the conversation is inactive for a specified time. **Auto-close after inactivity** is the option in the work stream configuration based on which the conversation is moved to the closed state. 
 
-For example, You set the **Auto-close after inactivity** as 5 minutes. Now, if the conversation is in **Waiting** state for more than 5 minutes, then the conversation is immediately moved to the **Closed** state.
+For example, You set the **Auto-close after inactivity** as 5 minutes. Now, if the conversation is in **Waiting** state for more than 5 minutes, then the conversation is moved to the **Closed** state.
 
 To learn more, see [Create a work stream](../../administrator/work-streams-introduction.md#create-a-work-stream).
 
