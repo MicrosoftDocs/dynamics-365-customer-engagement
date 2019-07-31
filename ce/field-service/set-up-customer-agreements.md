@@ -48,6 +48,8 @@ Field Service v6.1+
 
 This article assumes you have work order related data such as accounts, incident types, products, services, and service tasks configured in your system. 
 
+Consider specifying an agreement prefix and start number.
+
 > [!Note]
 >
 
@@ -173,6 +175,10 @@ From the agreement, go to **Invoice Setup > Add New Agreement Invoice Setup**
 
 agreement-invoice-create-recurrence
 
+
+
+### Step 2: Set up invoice recurrence and products
+
 agreement-invoice-setup-header
 
 agreement-invoice-recurrence-pattern
@@ -183,10 +189,14 @@ agreement-invoice-add-products
 
 [price list]
 
-### Step 2: Set up invoice recurrence and products
-
 ### Step 3: Activate invoice recurrence and view invoices
 Because this agreement is already Active, the invoices will be eligible
+
+agreement-invoice-dates
+
+agreement-invoice-dates-generated
+
+
 
 Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
   
@@ -223,6 +233,8 @@ agreements work with the sales  opp quote order process
 
 Generate agreement start time 
 
+
+
 generate agreement dates x months - use those to understand work
 
 copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
@@ -234,6 +246,8 @@ what about the characteristics of the agreement incident
 what can you do after activating a work order?
 
 quote invoice as a substitute
+
+you cannot manually generate agreement invoices like you can with agreement work orders
 
 **Tips**:  
   
