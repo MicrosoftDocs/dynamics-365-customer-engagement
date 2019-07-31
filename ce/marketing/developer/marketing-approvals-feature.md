@@ -11,7 +11,7 @@ ms.technology:
 ms.topic: conceptual
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-ms.assetid: cfaee020-a29d-4297-8f73-e8fb378843dc
+ms.assetid: 488e6a2f-81c8-41da-ad4d-bf349abcc468
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
@@ -23,7 +23,7 @@ search.app:
 
 # Build an approvals feature
 
-Dynamics 365 for Marketing offers extensibility features that make it possible for developers to build on its functionality, and one way to take advantage of this extendibility is to create an approvals feature based on Microsoft Flow.
+Dynamics 365 for Marketing offers extensibility features that make it possible for developers to build on its functionality.
 
 Approvals are an often-requested feature that enables organizations to implement an approval workflow in which most users can't go live right away with some types of important entities (such as emails, customer journeys, or segments). Instead, an approver user must inspect each record and decide whether to allow it to go live, or whether more work is needed first. The approver user is typically an administrator or manager who is specifically identified as an approver in the system.
 
@@ -106,7 +106,7 @@ To make our solution to work, we need to create three custom ribbon buttons as e
 
 We will also need to remove the possibility for the marketer to enter in **live editable** state. The main idea is that if a request for approval is coming from a draft, error or stopped state and the approver decide to reject the changes, these are kept and is up to the marketer to make new ones. This logic cannot be applied to live editable stage, in fact if the approver would reject an entity that was in live editable, the entity will switch to live. Now if we would keep the changes the user could be confused since what he will see in the form will be different of what is saved in our services. To prevent this problem, we should revert the changes proposed by the marketer. If the entity is not strongly customized, we suggest achieving this introducing an extra field inside the entity and use this field to serialize the entity when a user access live editable stage. For this scope we introduce a new extensibility point: MsDynCrmMkt.ExtensibilityCallback.liveEditablePreAction. If we create an event on load of the form named as above this code will be called when the entity will enter in live editable state. The deserialization can be done both inside the action of the Reject ribbon or inside a plugin. We strongly suggest the second approach since gives a better control of the typing and is compatible with Microsoft Flow integration. 
 
-Step 3: Leverage extensibility points
+### Step 3: Leverage extensibility points
 
 For our example we will need to use 2 of the extensibility points mention above, both should be added as event on load on the main form of the customer journey inside the new solution created before:
 •	MsDynCrmMkt.ExtensibilityCallback.canGoLive: this function, if defined, is used to decide when show go live button so, for our example we will need to check that the entity is in draft, error, stop state and the logged user is a marketer or we are in approved state 
@@ -116,40 +116,3 @@ For our example we will need to use 2 of the extensibility points mention above,
 
 To easily identify the entities that are in **Approval required** and **Approve** state, we suggest to create two system views in the customer journey entity to display all the entities that need an approval and all the entities that are already approved and waiting to **Go live**.  More information: [Create system views](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)
 
-## Integrate with Microsoft Flow
-
- The approvals feature can also be created using [Microsoft Flow](https://flow.microsoft.com/en-us/). To create the approvals feature, we need to follow the steps below: 
-
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com/en-us/) with your Dynamics 365 for Marketing credentials.
-2. Select **Solutions** tab from the left pane,From the list of available solutions, select **Sample Approval** solution and click on **New** and select **Flow**.
-3. Enter the **Flow Name** on the top left corner and select **Triggers** tab and search for **When a record is updated** and select that as shown below.
-4. Enter the following values in the required fields and click on **New step**.
-   - Environment: Select the environment.
-   - Entity Name: Select the customer journey entity
-   - Scope: Set the scope to **Organization**
-
-5. In the **Actions** tab, select **Condition**.
-6. In the **Condition** section, enter the condition parameters as shown below 
-    > [!NOTE]
-    > The value of the **Approval requested** should be entered in the value parameter
-
-7. Select **Add an action** in the **If yes** tab, search for approvals and select **Start and wait for an approval** form the list.
-8. In the **Select and wait for an approval** tab, select **Approve/Reject - First to respond** option for **Approval type**.
-9. Enter the following details in **Select and wait for an approval** tab
-   - Title: Enter the name of the title you wish.
-   - Assigned to: Enter the email address of the person. In this case, it should be the email address of the person who has to approve. 
-
-10. Select **Add an action** to add one more action to the **Start and wait for an approval** tab, select **Condition** from the **Actions tab**.
-11. Enter the condition parameter values as shown below.
-12. Select **Add an action** in the **If yes** tab, click on **Common Data Service** and select **Update a record**.
-13. Enter the details as shown below
-    - Environment: Select the environment, it should be the same that you have selected earlier.
-    - Entity Name: Select customer journey entity from the list.
-    - Record identifier: Set the customer journey id.
-    - Click on **Show advanced options** and set **Status reason value** to **Approved**.
-
-14. Now in the **If no** tab, select **Add an action** select **Common Data Service** and select **Get record**.
-15. Enter the details in the required fields as shown below
-16. Click on **Add an action**, select **Common Data Service** and select **Update a record**.
-17. Enter the values as shown below. 
-18. Click on **Save**. Click on **Flow Checker** to verify if there are any errors in the flow. 
