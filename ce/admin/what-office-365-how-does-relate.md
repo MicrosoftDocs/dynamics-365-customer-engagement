@@ -23,8 +23,6 @@ search.app:
 ---
 # What is Office 365 and how does it relate to Dynamics 365 for Customer Engagement apps (online)? 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [Office 365](https://products.office.com/business/enterprise-productivity-tools) is a collection of online services designed to work together to provide enterprise-grade, anywhere access to email, file sharing, and online meetings. [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] includes features that allow administrators to add users, manage passwords and licenses, and much more. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps takes advantage of the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administration features to simplify user management. Customer Engagement apps users are created and managed in the [Microsoft 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23).  
   
  A Customer Engagement apps subscription doesn’t include [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] applications such as [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)]. You can significantly enhance your company’s online, collaborative experience by integrating [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] applications with your Customer Engagement apps subscription. However, that requires a separate purchase. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add Office 365 Online services](add-office-365-online-services.md).  

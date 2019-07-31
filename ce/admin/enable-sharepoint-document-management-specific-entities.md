@@ -23,7 +23,7 @@ search.app:
 ---
 # Enable SharePoint document management for specific entities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps entity records in [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps by enabling document management on the specific entities.  
   

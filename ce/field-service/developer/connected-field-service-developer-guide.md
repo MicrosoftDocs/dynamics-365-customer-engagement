@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-developer
   - dyn365-fieldservice
 ms.date: 01/05/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -16,9 +16,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
 caps.latest.revision: 8
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: FieldServiceDave
+ms.author: daclar
 search.audienceType: 
   - developer
 search.app: 

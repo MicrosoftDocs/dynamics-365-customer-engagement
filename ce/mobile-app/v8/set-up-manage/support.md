@@ -24,8 +24,6 @@ search.app:
 ---
 # Support for Dynamics 365 for phones and Dynamics 365 for tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 You can access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../../../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
 
 CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for phones that’s based on and shares many of the features of Dynamics 365 for tablets. To use this new version of Dynamics 365 for phones, you must be running CRM Online 2015 Update 1 or later or Dynamics CRM 2016 on-premises or later.

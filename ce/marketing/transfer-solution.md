@@ -27,8 +27,6 @@ search.app:
 
 # Transfer customizations between instances using solution export and import
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
 
 1. [Create a copy](manage-marketing-instances.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.

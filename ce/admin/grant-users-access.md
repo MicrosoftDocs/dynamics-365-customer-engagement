@@ -23,8 +23,6 @@ search.app:
 ---
 # Grant users access
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To have users up and running in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you complete some administrative tasks in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]—which you generally do only once—followed by administrative tasks in Customer Engagement apps.  
   
  Customer Engagement apps is an online service subscription. When you signed up for this service, you received a set of licenses with your subscription, one license for each user. You can purchase additional licenses if you need them.  

@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: vihuang
+author: FieldServiceDave
 ms.reviewer: krbjoran
 search.audienceType: 
   - admin
@@ -23,8 +24,6 @@ search.app:
 --- 
 
 # Learn the basics of Connected Field Service for Azure IoT Central in 4 tutorials
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Connect Azure IoT Central to Connected Field Service using Microsoft Flow in just a matter of minutes with these tutorials. Be sure to [check out the prerequisites](cfs-iot-central-setup.md) before getting started. 
 

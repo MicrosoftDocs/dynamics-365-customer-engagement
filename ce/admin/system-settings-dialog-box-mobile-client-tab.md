@@ -23,7 +23,7 @@ search.app:
 ---
 # System Settings dialog box - Mobile Client tab
 
-[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Use the settings on this page to...
 

@@ -24,8 +24,6 @@ topic-status: Tech Reviewing
 
 # Create or edit a lead (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business with before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
 <a name="bkmk1"></a>   

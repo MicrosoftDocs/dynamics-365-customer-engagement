@@ -24,8 +24,6 @@ search.app:
 
 # Set the capacity (number of activities in stipulated time) for a service or resource (Customer Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Define a limit to the number of activities a resource can perform in a stipulated time by setting the capacity of the resource and services in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Service. 
 
 > [!IMPORTANT]

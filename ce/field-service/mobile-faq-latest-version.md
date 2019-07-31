@@ -29,8 +29,6 @@ search.app:
 
 # What is the latest version of the mobile app and related Woodford version?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 With the Fall 2018 Field Service release, a new mobile app was released called **Field Service Mobile**. The latest version of **Field Service Mobile** generally available is **11.2**. 
 
 To see your mobile app's version number, find the About menu item, and select it. You'll find the version number here.

@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Set up a discount list (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Motivate customers to buy more by offering them discounts on bulk purchases. To offer discounts, you need to set up a discount list.  
 
 ## Set up a discount list (Sales Hub)

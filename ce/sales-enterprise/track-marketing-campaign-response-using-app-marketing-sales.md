@@ -23,8 +23,6 @@ caps.latest.revision: 46
 
 # Track a marketing campaign response using in-app marketing (Sales)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
   
 ## Create campaign responses manually  

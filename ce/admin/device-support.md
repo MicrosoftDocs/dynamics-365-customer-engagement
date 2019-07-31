@@ -23,6 +23,4 @@ search.app:
 ---
 # Support for devices
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 For information about Dynamics 365 for Customer Engagement apps support for mobile devices, see [What's supported](../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.

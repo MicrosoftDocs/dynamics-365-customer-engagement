@@ -24,8 +24,6 @@ search.app:
 ---
 # Add users to a mobile offline profile
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 Now that you've created a mobile offline profile, it's time to add users to it.  
   
 > [!NOTE]

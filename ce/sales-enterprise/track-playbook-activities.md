@@ -23,8 +23,6 @@ topic-status: Tech Reviewing
 
 # Track playbook activities
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x
-
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
 If the playbook template used for the playbook has its **Track progress** field set to **Yes**, the activities are created under a playbook record that is under the calling record. If the **Track progress** field is set to **No**, the activities are created directly under the calling record.
