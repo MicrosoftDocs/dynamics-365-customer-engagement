@@ -33,7 +33,7 @@ With this option, you can sign-up for a free 30-day trial of Chat from the Micro
 > [!NOTE]
 > For more information on the Chat license, pricing and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
-### Get a trial subscription
+### Step 1: Get a trial subscription of Chat
 
 1. Go to <https://portal.office.com> and sign in with the global administrator credentials. 
 
@@ -54,7 +54,7 @@ With this option, you can sign-up for a free 30-day trial of Chat from the Micro
 
     ![Product licenses dialog box](media/product-licenses-dialog-box.png "Product licenses dialog box")
 
-### Enable Chat in your organization
+### Step 2: Enable Chat in your organization
 
 Once you have the subscription for Chat and assigned licenses to desired users, you can enable Chat in your organizations from Dynamics 365 Administration Center. 
 
@@ -64,13 +64,16 @@ Once Chat is enabled in your organization, you can sign in to Dynamics 365 organ
 
 ## Option 2: Through trials.dynamics.com
 
-With this option, you can get a free 30-day trial of Chat through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial. This option is currently available in Canada and United Kingdom. Your tenant will have to be located in one of these regions.
+With this option, you can get a free 30-day trial of Chat through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial. 
 
-### Start a trial using Dynamics 365 trial instance
+> [!NOTE]
+> This option is currently available in Canada and United Kingdom. Your tenant will have to be located in one of these regions. 
+
+### Step 1: Get a Dynamics 365 trial instance
 
 1. Go to <https://trials.dynamics.com>.
 
-2. Select **Customer Service**.
+2. Select **Customer Service**. If you select any other option, Chat trial will not get enabled in your tenant.
 
 3. Enter your work email and phone number, and then select **Get started**.
 
@@ -89,9 +92,9 @@ With this option, you can get a free 30-day trial of Chat through [https://trial
 
 7.	You will now be able to see the newly created instance in Dynamics 365 Administration Center under the **Instances** tab. The instance type will be set to Trial.
 
-### Get a Power BI (free) subscription
+### Step 2: Get a Power BI (free) subscription
 
-You must get a Power BI (free) subscription if you do not already have a subscription of Dynamics 365 Customer Engagement Plan or a subscription of Power BI.
+If you already have a subscription of Dynamics 365 Customer Engagement Plan or a subscription of Power BI in your tenant, you can skip this step. Otherwise, you must get a Power BI (free) subscription.
 
 1. Go to <https://portal.office.com> and sign in with the global administrator credentials.
  
@@ -101,7 +104,7 @@ You must get a Power BI (free) subscription if you do not already have a subscri
 
     ![Power BI (free) subscription](media/powerbi-free.png "Power BI (free) subscription")
 
-### Enable Chat in your organization
+### Step 3: Enable Chat in your organization
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable Chat on one or more instances that you may have. You can enable Chat on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
