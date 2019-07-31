@@ -21,8 +21,6 @@ search.app:
 ---
 # Start your day with a dashboard
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Each time you sign in to the system you’ll see a dashboard, which gives you easy-to-read charts and graphs that help you see how you and your team are doing with key metrics (also known as key performance indicators, or KPIs).  
   
 ## Choose from different dashboard layouts  

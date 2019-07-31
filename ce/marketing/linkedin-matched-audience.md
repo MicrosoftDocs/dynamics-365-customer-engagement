@@ -27,8 +27,6 @@ search.app:
 
 # Market to Dynamics 365 for Marketing segments on LinkedIn with LinkedIn Matched Audiences
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [LinkedIn Matched Audiences](https://www.linkedin.com/help/lms/answer/86492/linkedin-matched-audiences-overview?lang=en) is a LinkedIn feature that lets you match a collection of contacts stored on an external system, like [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], to an audience of LinkedIn members with matching email addresses. Dynamics 365 for Marketing comes ready to take advantage of this capability, so you can leverage your Dynamics 365 for Marketing static segments to create a matching audience of LinkedIn members. Then, when you run a campaign on LinkedIn, you can target the same segments that you set up in Dynamics 365 for Marketing and also turn any leads generated on LinkedIn into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] leads through the [LinkedIn Lead Gen Forms integration](linkedin-lead-gen-integration.md) feature also offered by Dynamics 365 for Marketing.
 
 [!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]

@@ -23,8 +23,6 @@ search.app:
 ---
 # Deploy Office 365 Groups [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)]
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], available with [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)] apps, provides a new environment for collaboration with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users who don’t use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. For example, use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] when a sales team has a major opportunity requiring input from several people who don’t have access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a single location to share documents, conversations, meetings, and notes. You can enable [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for any entity.  
   
  ![Use Office 365 Groups to collaborate with others](../admin/media/office-groups-venn.png "Use Office 365 Groups to collaborate with others")  

@@ -22,7 +22,7 @@ search.app:
 ---
 # Onboarding cheat sheet for admins
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Here are the seven steps to getting your organization on board with Dynamics 365 for Customer Engagement, and links to guides  to help you complete each step. And if you haven't already seen it, check out the video for an overview of these seven steps to onboarding success.  
   

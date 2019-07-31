@@ -24,8 +24,6 @@ search.app:
 ---
 # Collaborate with Teams 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 for Customer Engagement apps record connections made in teams and channels in Microsoft Teams.
 

@@ -28,8 +28,6 @@ search.app:
 ---
 # Set up bookable resource categories (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Bookable resource categories let you group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.  
   
 1.  From the main menu, click **Field Service** > **Administration**, and then choose **Bookable Resource Categories**.  

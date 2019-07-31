@@ -28,8 +28,6 @@ search.app:
 ---
 # Submit and approve time-off requests (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Keep the schedule board in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] up to date by logging time-off requests.  
   
 For example, if one of your field technicians is taking a vacation, it's important to log the request so that a dispatcher can see the time-off request on the schedule board when scheduling a work order.  

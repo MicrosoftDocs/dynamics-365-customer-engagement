@@ -23,8 +23,6 @@ search.app:
 ---
 # Reset a user's password
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 If a user loses a password, you can reset it. To reset a user’s password, you must be a [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] global administrator, user management administrator, or password administrator.  
   
  For step-by-step instructions, see [Reset a User’s Password](http://go.microsoft.com/fwlink/p/?LinkId=255489).  

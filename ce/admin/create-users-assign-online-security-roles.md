@@ -23,7 +23,7 @@ search.app:
 ---
 # Create users in Dynamics 365 for Customer Engagement apps and assign security roles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to Customer Engagement apps. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
@@ -231,23 +231,34 @@ You need to have the System Administrator security role or equivalent permission
   
     Be sure to assign a Customer Engagement apps license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** access mode.
   
-2. Go to Customer Engagement apps.  
+2. In the Optional settings form, expand on the Roles.
+
+3. Uncheck the User (no administrator access) box.
+
+4. Scroll down the form and click on Show all link.
+
+5. Check the Dynamics 365 service administrator box.
+   **Note:** if you have selected Global Administrator box, you don't need select this option.
   
-3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
+   Wait for user to sync to the environments.
+
+6. Go to Customer Engagement apps.  
   
-4. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+7. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Administrative**.  
+8. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+  
+9. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Administrative**.  
 
     You then need to remove the Customer Engagement apps license from the account.  
   
-6. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+10. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-7. Click **Users** > **Active Users**.  
+11. Click **Users** > **Active Users**.  
   
-8. Choose the Administrative user account and under **Product licenses**, click **Edit**.  
+12. Choose the Administrative user account and click the **Licenses and Apps** tab.  
   
-9. Turn off the Customer Engagement apps license,  and then click **Save** > **Close** multiple times.
+13. Uncheck the Customer Engagement apps license box(es),  and then click **Save changes**.
 
 <a name="BKMK_noninteractiveuser"></a>   
 
@@ -274,9 +285,9 @@ You need to have the System Administrator security role or equivalent permission
   
 7. Click **Users** > **Active Users**.  
   
-8. Choose the non-interactive user account and under **Product licenses**, click **Edit**.  
+8. Choose the non-interactive user account and under **Licenses and Apps** tab.  
   
-9. Turn off the Customer Engagement apps license,  and then click **Save** > **Close** multiple times.  
+9. Uncheck the Customer Engagement apps license box(es),  and then click **Save changes**.  
   
 10. Go back to Customer Engagement apps and confirm that the non-interactive user account **Access Mode** is still set for **Non-interactive**.  
   

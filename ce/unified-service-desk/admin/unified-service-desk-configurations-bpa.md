@@ -134,17 +134,17 @@ Enable client caching:
 | Error   | More than 5         |
 | Warning | 4 or 5              |
 
-**maxNumberOfSesions** indicates the maximum number of simultaneous sessions that each user can open using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+**maxNumberOfSessions** indicates the maximum number of simultaneous sessions that each user can open using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the **maxNumberOfSesions** value is more than **0** and less than or equal to **3**.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the **maxNumberOfSessions** value is more than **0** and less than or equal to **3**.
 
 ### Mitigation
 
-Set the **maxNumberOfSesions** value to less than or equal to **3**: 
+Set the **maxNumberOfSessions** value to less than or equal to **3**: 
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
-3. In the list of options, select **maxNumberOfSesions**.
+3. In the list of options, select **maxNumberOfSessions**.
 4. In the **Value** field, type **3**.
 5. Select **Save**.
 

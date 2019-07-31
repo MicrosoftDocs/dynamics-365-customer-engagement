@@ -22,8 +22,6 @@ search.app:
 ---
 # Run a report
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Reports help you manage your progress towards your goals by helping you see how you’re doing. You can also track trends - which can give you an advantage over your competitors.  
   
 For example it’s important for a sales team to know which product or service is selling and which is not doing so well. For a customer service team, it’s important to track the average time it takes to resolve an issue.  

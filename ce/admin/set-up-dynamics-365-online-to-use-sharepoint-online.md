@@ -23,8 +23,6 @@ search.app:
 ---
 # Set up Dynamics 365 for Customer Engagement to use SharePoint Online
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you can:  
   
 - Create, upload, view, and delete documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
@@ -52,7 +50,7 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
   
 2. Open the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click **SharePoint**.  
   
-3. 3.  On the left-side menu, click **Team Site**.  
+3. On the left-side menu, click **Team Site**.  
   
 4. On the Home page, click **SHARE** (upper-right corner).  
   

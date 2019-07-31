@@ -128,4 +128,4 @@
 
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
-# [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
+# [Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)

@@ -22,8 +22,6 @@ search.app:
 ---
 # Create a signature for your email or for a queue
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement to save time and be consistent in your responses. The owner of an email signature can be a user or a team.  
   
 ## Create an email signature  

@@ -23,7 +23,7 @@ search.app:
 ---
 # Create forward mailboxes or edit mailboxes
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 By default, when users and queues are created in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, their respective mailbox records are also created. These mailbox records contain information that is specific to an individual mailbox on the email server, like email address, mailbox credentials, and email synchronization method. To process email messages using server-side synchronization for users and queues, their respective mailbox records should be associated to an email server profile record in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
 

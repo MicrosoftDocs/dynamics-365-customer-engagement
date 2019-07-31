@@ -24,8 +24,6 @@ search.app:
 ---
 # Configure mobile offline synchronization 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 You can provide an enhanced offline experience for mobile users if your organization is using [!INCLUDE[pn-crm-8-1-0-online](../../../includes/pn-crm-8-1-0-online.md)]and meets one or both of the following licensing requirements:  
   
 - At least 5 Professional [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] licenses OR  

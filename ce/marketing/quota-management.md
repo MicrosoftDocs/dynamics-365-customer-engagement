@@ -28,8 +28,6 @@ search.app:
 
 # Quota limits
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of marketing contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota limits** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
 
 To see how much of each quota you've used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.

@@ -149,7 +149,7 @@ As mentioned in the introduction to this topic, page personalization requires th
 
 1. Set up page personalization and create your personalized page as described earlier in this topic.
 1. Open ([or create](create-deploy-marketing-pages.md)) a marketing page that's live and running on your instance and that includes a [marketing form](marketing-forms.md) with the following:
-    - An [field design element](content-blocks-reference.md#form-content-elements) for each of the values you want to test on your personalized page.
+    - A [field design element](content-blocks-reference.md#form-content-elements) for each of the values you want to test on your personalized page.
     - A [remember-me design element](content-blocks-reference.md#form-content-elements) (which creates a checkbox that enables/disables prefilling and page personalization for the submitting contact)
 1. Fill out all the fields on the registration form and be sure to mark the "remember me" check box. When you submit the form, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will set a cookie in your browser, which enables the system to identify you the next time you open a marketing page.
 1. Allow about 30 seconds for the system to process the submission and create a new contact record.

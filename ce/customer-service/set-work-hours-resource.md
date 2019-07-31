@@ -24,8 +24,6 @@ search.app:
 
 # Set work hours to define availability (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
 
 > [!IMPORTANT]

@@ -55,12 +55,12 @@ To run the diagnostic tool:
 
 2.	Select the name of the portal for which you want to run the diagnostic tool, and then select **Manage**.
 
-3.	Go to **Diagnose and resolve problems**.
+3.	Go to **Run Portal Checker**.
 
     > [!div class=mx-imgBorder]
     > ![Run the diagnostic tool](media/run-diagnostics.png "Run the diagnostic tool")
 
-4.	Select **Run diagnostics**. The diagnostic session will start and gather data about the customer issues. The results are displayed in the **Diagnostic results** section.
+4.	Select **Run Portal Checker**. The diagnostic session will start and gather data about the customer issues. The results are displayed in the **Diagnostic results** section.
 
     > [!div class=mx-imgBorder]
     > ![Diagnostic results](media/diagnostic-results.png "Diagnostic results")

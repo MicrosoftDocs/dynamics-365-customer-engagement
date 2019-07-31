@@ -21,8 +21,6 @@ search.app:
 ---
 # Understanding how data is organized
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Whether you’re in sales, service, or marketing, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement helps you organize and get big returns on your customer data. Because sales and service are unified in one system, salespeople have visibility into any active service issues so that they aren’t blindsided as they’re trying to close a deal. Likewise, if a customer calls in for support, a service rep can see that a big sale is pending and handle the caller accordingly.
 
 With Customer Engagement business apps, you’ll be able to spot and respond to issues that may be blocking deals, see how your service team is doing with meeting the terms of your service level agreements, monitor the success of your marketing campaigns, and so much more. 
