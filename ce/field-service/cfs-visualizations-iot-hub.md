@@ -66,7 +66,9 @@ To enable the device readings chart in Dynamics, organization administrators nee
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
 
 > [!Note]
-> Storage account selection is only available when upgrading deployment._ 
+> - Storage account selection is only available when upgrading deployment.
+> - The Deployment App will add timeseriesinsightsconsumergroup into IoT Hub Consumer Group.
+
 
 6. After deployment, **Device Readings (Preview)** tab will be showed in IoT Alert, Work Order, Case, Device, Asset form.  
 
