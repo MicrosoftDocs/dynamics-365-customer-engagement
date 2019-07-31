@@ -483,7 +483,7 @@ After the *OrgDBOrgSettin*g is enabled, when you open Dynamics 365 App for Outlo
 
 The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 for Customer Engagement apps. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 for Customer Engagement apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 for Customer Engagement apps. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 for Customer Engagement apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
 
-![Outlook app sync](media/sync_table.png "Outlook app sync")
+In most cases items are immediately tracked aside from, when an email is in compose mode and recurring appointments.
 
    > [!NOTE]
    > Server Side Synchronization is used to promote emails when Microsoft Outlook includes images in email signatures as attachments.

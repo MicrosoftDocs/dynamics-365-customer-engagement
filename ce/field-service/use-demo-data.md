@@ -2,7 +2,7 @@
 title: "Experiment with demo data (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/25/2017
-ms.reviewer: 
+ms.reviewer: krbjoran 
 ms.service: crm-online
 ms.suite: 
 ms.technology: 
@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: c7dc07tc-4978-41a9-8542-4f0b0a52a990
 caps.latest.revision: 1
 ms.author: mkaur
-manager: brycho
+author: FieldServiceDave
 ---
 # Experiment with demo data (Field Service)
 
