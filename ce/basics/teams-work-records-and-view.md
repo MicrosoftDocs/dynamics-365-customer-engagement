@@ -28,7 +28,7 @@ Once Team integration is set up, you can start working with Dynamics 365 custome
 
 ## Open a record or view in Dynamics 365 for Customer Engagement apps
 
-To open a record or view in Dynamics 365 for Customer Engagement apps. From the Dynamics 365 tab pinned in a Teams channel, select the **Go to website** button to open the record or view in Dynamics 365 for Customer Engagement apps.
+It's easy to use Teams to open a record or view in Dynamics 365 for Customer Engagement apps. From the Dynamics 365 tab pinned in a Teams channel, select the **Go to website** button to open the record or view in Dynamics 365 for Customer Engagement apps.
 
 > [!div class="mx-imgBorder"] 
 > ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
