@@ -105,6 +105,10 @@ You must get a Power BI (free) subscription if you do not already have a subscri
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable Chat on one or more instances that you may have. You can enable Chat on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
+`image`
+
+Once Chat is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring Chat. For more information on configuring Chat in Dynamics 365, see [Configure a chat channel](administrator/set-up-chat-widget.md).
+
 ### See also
 
 [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
