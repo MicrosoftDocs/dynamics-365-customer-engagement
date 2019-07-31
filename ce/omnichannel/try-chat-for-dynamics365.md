@@ -23,12 +23,15 @@ manager: shujoshi
 Chat for Dynamics 365 is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant.
 
 There are two options to sign-up for a free 30-day trial of Chat. 
-1. [Using the Microsoft 365 Admin Center](#option-1-using-the-microsoft-365-admin-center)
+1. [Using the Microsoft 365 admin center](#option-1-using-the-microsoft-365-admin-center)
 2. [Through trials.dynamics.com](#option-2-through-trialsdynamicscom)
 
 ## Option 1: Using the Microsoft 365 admin center
 
-With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of either Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan that has been purchased directly through the Microsoft 365 Admin Center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available in the Microsoft 365 Admin Center.
+With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of either Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available in the Microsoft 365 admin center.
+
+> [!NOTE]
+> For more information on the Chat license, pricing and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Get a trial subscription
 
@@ -106,9 +109,3 @@ In Dynamics 365 Administration Center, go to the **Applications** tab, select th
 
 [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md)  
 [Configure a chat channel](administrator/set-up-chat-widget.md)
-
-
-
-
-> [!NOTE]
-> For more information on the Chat license, pricing and pre-requisites, please refer to the Dynamics 365 licensing guide [here](https://go.microsoft.com/fwlink/p/?LinkId=866544).
