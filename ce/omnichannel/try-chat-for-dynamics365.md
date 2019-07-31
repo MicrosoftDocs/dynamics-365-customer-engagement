@@ -23,8 +23,8 @@ manager: shujoshi
 Chat for Dynamics 365 is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant.
 
 There are two options to sign-up for a free 30-day trial of Chat. 
-1. Option 1: Using the Microsoft 365 Admin Center
-2. Option 2: Through trials.dynamics.com
+1. [Using the Microsoft 365 Admin Center](#option-1-using-the-microsoft-365-admin-center)
+2. [Through trials.dynamics.com](#option-2-through-trialsdynamicscom)
 
 ## Option 1: Using the Microsoft 365 admin center
 
