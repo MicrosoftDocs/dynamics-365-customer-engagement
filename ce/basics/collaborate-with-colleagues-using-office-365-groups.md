@@ -22,8 +22,6 @@ search.app:
 ---
 # Collaborate with your colleagues using Office 365 Groups
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done.  
   
  You can use groups to collaborate with people across your company, even if they don’t have access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. For example, you can create a group for your sales team and invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities.  

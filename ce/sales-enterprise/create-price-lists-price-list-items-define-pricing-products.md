@@ -23,8 +23,6 @@ topic-status: Drafting
 
 # Define product pricing with price lists and price list items (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
   
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  

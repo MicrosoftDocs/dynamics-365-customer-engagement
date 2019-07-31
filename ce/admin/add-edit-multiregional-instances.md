@@ -23,8 +23,6 @@ search.app:
 ---
 # Add and edit multiregional instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!IMPORTANT]
 > We are currently enabling only a very limited number of instances for multiple regions. Check back for updated information on availability.
 >

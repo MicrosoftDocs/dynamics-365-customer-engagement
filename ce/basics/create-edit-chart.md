@@ -22,8 +22,6 @@ search.app:
 ---
 # Create or edit a chart
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Present large quantities of data in your organization in a more insightful and graphical way by creating useful charts in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 > [!NOTE]

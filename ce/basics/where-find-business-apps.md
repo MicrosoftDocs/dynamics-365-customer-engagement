@@ -21,8 +21,6 @@ search.app:
 ---
 # Where to find your business apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Business apps are available to users based on their security roles. If your system administrator has created any new apps,  they will be visible to you if your security role has been given access to those apps. For information on business apps in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Dynamics 365 for phones and tablets - User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md). 
   
 ## Open business apps from the Dynamics 365 for Customer Engagement appshome page  

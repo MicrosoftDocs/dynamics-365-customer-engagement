@@ -21,8 +21,6 @@ search.app:
 ---
 # What are business processes?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is “process-driven.” But what does that mean?  
   
  Everyone on your team moves customers through standardized business processes with the same stages and steps for each type of customer interaction, collecting and inputting important data along the way. Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.  
