@@ -23,10 +23,10 @@ manager: shujoshi
 Chat for Dynamics 365 is an engagement channel that enables your agents to connect with customers in real-time. Chat can only be used if you have an active subscription of Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant.
 
 There are two options to sign-up for a free 30-day trial of Chat. 
-1. [Using the Microsoft 365 admin center](#option-1-using-the-microsoft-365-admin-center)
-2. [Through trials.dynamics.com](#option-2-through-trialsdynamicscom)
+1. [Chat trial through Microsoft 365 admin center](#option-1-using-the-microsoft-365-admin-center)
+2. [Chat trial through trials.dynamics.com](#option-2-through-trialsdynamicscom)
 
-## Option 1: Using the Microsoft 365 admin center
+## Option 1: Chat trial through Microsoft 365 admin center
 
 With this option, you can sign-up for a free 30-day trial of Chat from the Microsoft 365 admin center only if you have a paid subscription of either Dynamics 365 for Customer Service Enterprise or Dynamics 365 Customer Engagement Plan that has been purchased directly through the Microsoft 365 admin center (that is, Web Direct channel). If you do not have one of these pre-requisite subscriptions, or if you have purchased these pre-requisite subscriptions through another channel then the option to try Chat will not be available in the Microsoft 365 admin center.
 
@@ -62,12 +62,12 @@ In Dynamics 365 Administration Center, go to the **Applications** tab, select th
 
 Once Chat is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring Chat. For more information on configuring Chat in Dynamics 365, see [Configure a chat channel](administrator/set-up-chat-widget.md).
 
-## Option 2: Through trials.dynamics.com
+## Option 2: Chat trial through trials.dynamics.com
 
 With this option, you can get a free 30-day trial of Chat through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial. 
 
 > [!NOTE]
-> This option is currently available in Canada and United Kingdom. Your tenant will have to be located in one of these regions. 
+> This option is currently available only in Canada and United Kingdom. Your tenant must be located in one of these regions. 
 
 ### Step 1: Get a Dynamics 365 trial instance
 
