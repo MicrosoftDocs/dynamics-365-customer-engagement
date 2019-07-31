@@ -2,7 +2,7 @@
 title: "Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs"
 description: "Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement"
 keywords: "Customer Service;  Microsoft Dynamics 365 for Customer Engagement"
-ms.date: 06/01/2018
+ms.date: 07/31/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:

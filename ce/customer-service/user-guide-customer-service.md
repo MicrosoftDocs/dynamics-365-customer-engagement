@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs"
 description: "Resources for the legacy Customer Service app."
 keywords: "Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases"
-ms.date: 09/30/2017
+ms.date: 07/31/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
