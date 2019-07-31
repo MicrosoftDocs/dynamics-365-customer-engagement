@@ -24,8 +24,6 @@ search.app:
 ---
 # Enable mobile offline synchronization
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 Enable mobile offline synchronization so users can stay productive wherever they are.
   
 1. In the web app, go to **Settings > Mobile Offline**. If you don’t see this option, your organization might not meet the requirements for enabling mobile offline synchronization.  

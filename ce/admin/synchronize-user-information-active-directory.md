@@ -23,7 +23,7 @@ search.app:
 ---
 # Synchronize user information with Active Directory
 
-[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps supports two methods for authenticating users:  
   

@@ -22,8 +22,6 @@ search.app:
 
 # Introduction to Customer Service Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
 
 The Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement is optimized for the customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.

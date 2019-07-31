@@ -22,8 +22,6 @@ search.app:
 
 # Use Customer Service Hub on mobile devices
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Access your Customer Service Hub data while you’re on the go using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device.
 
 The Customer Service Hub app works the same whether you’re using it on your mobile device or using it on a web browser on your computer.

@@ -23,8 +23,6 @@ search.app:
 ---
 # Use the bot 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 
 The Dynamics 365 app for Teams bot feature allows you search Dynamics 365 for Customer Engagement apps records within Microsoft Teams conversations.
 

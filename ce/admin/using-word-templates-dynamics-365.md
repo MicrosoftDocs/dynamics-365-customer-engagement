@@ -26,7 +26,7 @@ search.app:
 
 # Use Word templates to create standardized documents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 
  After you create and import [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] templates into [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, with one click users can generate standardized documents automatically populated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data. This feature has some special considerations you should know about to successfully create [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates.  

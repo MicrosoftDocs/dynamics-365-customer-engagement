@@ -27,8 +27,6 @@ search.app:
 
 # Set up the event website
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The event website provides an online resource where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a simplified site map of your event website as your attendees will see it.
 
 ![Sitemap for the standard event website](media/event-portal-sitemap-ill.png "Site map for the standard event website")

@@ -23,8 +23,6 @@ search.app:
 
 # Sample data installation for the Field Service application
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Field Service and Dynamics 365 for Customer Engagement for Project Service.
 
 The sample data is installable in three separate packages, so you can install data only for Field Service, or only for Project Service, or you can install sample data for both applications at once.

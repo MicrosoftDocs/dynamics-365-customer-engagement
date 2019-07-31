@@ -28,8 +28,6 @@ search.app:
 
 # View and edit basic user information in Dynamics 365 for Marketing
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Dynamics 365 for Marketing application provides an overview of users licensed to use the app and lets you view and edit basic information about them.
 
 To view a list of existing users, go to **Settings** > **Advanced settings** > **Organization** > **User management**. The list provides standard tools to search, sort, and page through the list as needed. Select and open any user in the list to view and edit basic information about that user.

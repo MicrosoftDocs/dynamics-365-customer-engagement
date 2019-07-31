@@ -23,8 +23,6 @@ search.app:
 ---
 # What's new for instance management 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You might have noticed some changes to the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. On March 21, 2018, we introduced the following:
 
 ![March 2018 changes to admin center](media/march2018-changes-admin-center.png "March 2018 changes to admin center")

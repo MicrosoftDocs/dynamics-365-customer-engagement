@@ -27,8 +27,6 @@ search.app:
 
 # Record and view financial information for events
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can record financial information for your events with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. For example, you can:
 
 - Record speaker costs (standard cost or for an engagement).

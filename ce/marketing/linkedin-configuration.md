@@ -27,8 +27,6 @@ search.app:
 
 # Set up the LinkedIn Lead Gen integration and define a lead matching strategy
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the settings pages under the **Settings** > **Advanced settings** > **LinkedIn Lead Gen** heading to configure the LinkedIn feature. A few LinkedIn security roles are also provided to let administrators control access to these features.
 
 [!INCLUDE [cc-linkedin-disclaimer](../includes/cc-linkedin-disclaimer.md)]

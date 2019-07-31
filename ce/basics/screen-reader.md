@@ -19,8 +19,6 @@ search.app:
 ---
 # Use a screen reader in Unified Interface apps in Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Screen readers make Dynamics 365 for Customer Engagement apps accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)

@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # View product hierarchy (Sales)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A product hierarchy gives you a visual snapshot of the products your organization sells. It makes it easy to see what products are available to sell and how they are connected. With this information at your fingertips, you can take whatever actions you need to on any product from a single place and improve your chances of a sale.  
   
 1. [!INCLUDE[proc_sales_products](../includes/proc-sales-products.md)]  
