@@ -26,46 +26,37 @@ search.app:
   - D365FS
 ---
 
-# Visualizing device readings
+# Visualizing device readings (Preview)
 
-Connected Field Service Device Readings (Preview) provides the capability to explore near real time and historical trending of measurements and historical work orders from IoT device. Device Readings chart is available in IoT Alert, Work Order, Case, Device, Asset form for users to access.
+Connected Field Service device readings display near real time and historical sensor measurements in a chart alongside work order details. This helps you understand the current state of the device, repair history, and the effect of performed work orders.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
+The device readings chart is available in IoT Alert, Work Order, Case, Device, and Asset forms for users to access.
 
-After an IoT alert is received, the alert needs to be diagnosed. The first step is to understand the current state of the device. The next step is to further analyze the history and trending of the measurements from the device, and repair history. That can help to analyze the problem and perform remediate actions. 
-
-
-Device Readings (Preview) is provided to explore near real time and historical trending of measurements as well as historical work orders from IoT device which trigged alert. The chart is available in IoT Alert, Work Order, Case, Device, Asset form for users to access. 
-
-To enable the Device Readings (Preview) chart, organization admin needs to deploy Azure Time Series (Preview) into customer Azure subscription when choosing to deploy it. 
+To enable the device readings chart in Dynamics, organization administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Field Service with Azure IoTHub. This is done through the [IoT Deployment App (aka.ms/deploycfs)](https://aka.ms/deploycfs)  
 
 
 ## Prerequisites
 
-- Field Service v8.8.2.X 
+- Field Service v8.8.2+
+- Currently in English only. This feature is in **preview** meaning it is not available in all languages and geographies.
 
+## Enable device readings chart
 
-Admin of organization will be able to enable Connected Field Service Device Readings (Preview) by deploying Azure Time Series(Preview) through [IoT Deployment App](https://aka.ms/deploycfs). 
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
-
-## Setup
-
-1. Launch Connected Field Service [IoT Deployment App](https://aka.ms/deploycfs)
-2. Select Dynamics 365 organization where the IoT solution will be deployed 
-3. Select Azure Subscription and Azure Resource Group (Select **Upgrade deployment** if updating existing Connected Field Service for IoT Hub deployment to enable this feature.)
+1. Launch the Connected Field Service [IoT Deployment App (aka.ms/deploycfs)](https://aka.ms/deploycfs) 
+2. Select the Dynamics 365 organization where the IoT solution will be deployed 
+3. Select the Azure subscription and Azure Resource Group (Select **Upgrade deployment** if  you're updating existing Connected Field Service for IoT Hub deployment to enable this feature.)
 4. Select **Deploy Time Series Insight Preview (Optional)** in "Configure Azure resources"
-Note: This Device Readings (Preview) feature is available only in US English (en-US).
+
+> [!Note]
+> This Device Readings (Preview) feature is available only in US English (en-US).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
 
-5. Follow the rest steps in IoT Deployment App to complete Time Series Insight Preview deployment
+5. Follow the remaining steps in the IoT Deployment App to complete Time Series Insight Preview deployment
 - Application (client) Id: Follow steps in [Create an Azure Active Directory application](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
 ) to create Application Id
 - Client Secrete: Follow steps in [Create a new application secret](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
@@ -79,16 +70,24 @@ Note: This Device Readings (Preview) feature is available only in US English (en
 
 6. After deployment, **Device Readings (Preview)** tab will be showed in IoT Alert, Work Order, Case, Device, Asset form.  
 
-## Explore
+## Use device readings chart
 
-**Explore Device Readings**
+In order to view device readings, the following data must be in place:
+
+|Form |Required data
+--|--|
+|Device  |Device ID is not empty  
+ Work Order|The Work Order should have related IoT Alert and the IoT alert has related IoT device. The Device ID in the IoT device is not empty
+| Case| The case should have related IoT Alert and the IoT alert has related IoT device. The Device ID in the IoT device is not empty |
+| Asset|The Device ID is not empty. Device Readings charts is for the Device ID set in Connected Device Attributes section of the Asset form. |
+|IoT Alert|The alert has related IoT device. The Device ID in the IoT device is not empty |
+
  1. Click  **Device Readings (Preview)** tab in  IoT Alert, Work Order, Case, Device, Asset form 
-Note: please check prerequisites when Device Readings (preview) tab can be showed
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-devicechart.png)
 
-2. Select drop down box on the top right to choose time period. If the device sends device measurements to TSI  and the device measurement data exists for the selected time period, a chart will be loaded.  
+1. Select drop down box on the top right to choose time period. If the device sends device measurements to TSI  and the device measurement data exists for the selected time period, a chart will be loaded.  
 
 > [!Note]
 > When you select **Custom** time period, please limit your time range to 90 days. 
@@ -111,21 +110,12 @@ Note: please check prerequisites when Device Readings (preview) tab can be showe
 
 ## Additional Notes
 - Available only in US English (en-US)
+- **Known issues:** 
+  - In the Custom time settings, the Time Zone is always set as UTC even other Time Zone is selected. The time period displayed after applying the setting is always local time. 
+  - When deploying immediately after creating a new Application (client) id from IoT Deployment App,  it may have "unable to deploy TSI with credential" error . Please try again after a minute.
+- Azure Time Series Insights (Preview) uses a Pay-As-You-Go (PAYG) pricing model. The pricing and cost estimate calculator is available at https://azure.microsoft.com/en-us/pricing/details/time-series-insights. Select the region you are planning to deploy TSI to understand the Storage (TSI uses Azure Blob to store the data) and Query Cost. 
 
+ 
 
-Known issues: 
-1. In the Custom time settings, the Time Zone is always set as UTC even other Time Zone is selected. The time period displayed after applying the setting is always local time. 
-
-2. When deploying immediately after creating a new Application (client) id from IoT Deployment App,  it may have "unable to deploy TSI with credential" error . Please try again after a minute.
-
-**Cost Estimation**
-Azure Time Series Insights (Preview) pricing and cost estimate calculator is available at https://azure.microsoft.com/en-us/pricing/details/time-series-insights. Select the region you are planning to deploy TSI to understand the Storage (TSI uses Azure Blob to store the data) and Query Cost. 
-
-> [!Note]
-> This feature uses the preview version of Time Series Insights which is Pay-As-You-Go (PAYG). 
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/connected-field-service-IoT-hub-device-measurements-deployment2.png)
 
 
