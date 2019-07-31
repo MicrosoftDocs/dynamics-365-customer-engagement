@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 92C7CE55-87CE-437A-ABD3-65600CAE4DD2
@@ -105,6 +105,49 @@ The conversations that are completed by ending, and closing the session are clas
 
 > [!div class="nextstepaction"]
 > [Next topic: View alert and toast notifications](notifications.md)
+
+## Automatic closure of a conversation
+
+Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
+
+Advantages of automatically closing a conversation:
+
+- Conversations don’t stay in a state for long duration.
+- Capacity of the agent is unblocked.
+- Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
+
+### Understand working of auto-close of conversations
+
+Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default time, then the conversation is automatically moved to the **Closed** state.
+
+### Default time for automatic closure of conversation
+
+The conversations coming from different channel has varied scenarios and hence the different threshold time. The matrix describes the channel, state, and default automatic closure time.
+
+ | Channel | State | Automatic closure time | Description |
+ |--------------------|-------|-------------|--------------------------------------|
+ | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is automatically moved to the **Closed** state. |
+ | Chat | Active | None | For a chat channel, a conversation in the Active won’t be automatically closed. |
+ | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation in the **Wrap-up** state for more than 15 minutes is automatically moved to the **Closed** state. |
+ |  |  |  |  |
+ | CDS Entity (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
+ | CDS Entity (Case) | Active | None | For an entity channel, a conversation in the **Active** won’t be automatically closed. |
+ |  |  |  |  |
+ | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is automatically moved to the **Closed** state. |
+ | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is automatically moved to the **Closed** state. |
+ | SMS | Wrap-up | 1 day | For a SMS channel, a conversation in the **Wrap-up** state for more than 1 day is automatically moved to the **Closed** state. |
+
+### Conversation in waiting state
+
+For chat and SMS channel, a conversations in the **Waiting** state is moved to the **Closed** state immediately when the conversation inactive for the specified time. **Auto-close after inactivity** is the option in the work stream configuration for which the time is set. 
+
+For example, You set the **Auto-close after inactivity** as 5 minutes. Now, if the conversation is in **Waiting** state for more than 5 minutes, then the conversation is immediately moved to the **Closed** state.
+
+To learn more, see [Create a work stream](../../administrator/work-streams-introduction.md#create-a-work-stream).
+
+### Set default time using APIs
+
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../developer/auto-close-conversation.md).
 
 ## See also
 
