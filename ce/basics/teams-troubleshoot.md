@@ -136,7 +136,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - SharePoint Integration is not configured but there is an active SharePoint Site in your organization. To fix the issue, deactivate the SharePoint site.
 
-- SharePoint Integration is not configured but there is SharePoint document locations created with Absolute URL in your organization. To fix the issue, delete locations with Absolute URL.
+- SharePoint Integration is not configured but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
 
 
