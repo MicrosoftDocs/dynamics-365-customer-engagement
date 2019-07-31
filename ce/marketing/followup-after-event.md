@@ -26,8 +26,6 @@ search.app:
 
 # Follow up after the event
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 After an event is over, you'll want to evaluate how it went and start following up.
 
 ## Collect attendee feedback with a survey

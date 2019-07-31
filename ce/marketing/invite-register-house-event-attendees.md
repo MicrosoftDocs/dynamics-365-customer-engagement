@@ -27,8 +27,6 @@ search.app:
 
 # Invite, register, and house event attendees
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you're ready to start promoting it. The system provides many tools to help you do this.
 
 ## Invite contacts to your events

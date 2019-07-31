@@ -3,7 +3,7 @@ title: "Performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: 
   - dyn365-USD, dyn365-admin
-ms.date: 07/12/2018
+ms.date: 07/24/2018
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -131,6 +131,72 @@ To skip inline navigation for certain entities, a system Administrator must conf
 6. Type **BlockChromeProcessPooling** for the **Name** field.
 
 7. Enter the entity names as comma separated values (CSV) for the **Value** field. For example, **incident,account,contact**.
+
+8. Select **Save**.
+
+### Hide command bar in Chrome Process
+
+In Chrome Process, the command bar is always shown on the pooled Chrome Process instances. If you want to hide the command bar for a specific entity or for all the entities in the Chrome Process pooled instances, then you can add the following UII options.
+
+- To hide a specific entity: **BlockChromeProcessPooling**
+- To hide for all the entities: **HideCommandBar**
+
+#### Hide command bar for a specific entity
+
+Use the **BlockChromeProcessPooling** UII option if you want to hide the command bar for a specific entity in the Chrome Process pooled instances.
+
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+
+#### Hide command bar for all the entities
+
+Use the **HideCommandBar** UII option if you want to hide the command bar for all the entities in the Chrome Process pooled instances.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **HideCommandBar** for the **Name** field.
+
+7. Type **True** for the **Value** field.
+
+8. Select **Save**.
+
+### Show nav bar in Chrome Process
+
+In Chrome Process, the nav bar is always hidden on the pooled Chrome Process instances. If you want to show the nav bar for a specific entity or for all the entities in the Chrome Process pooled instances, then you can add the following UII options.
+
+- To show a specific entity: **BlockChromeProcessPooling**
+- To show for all the entities: **ShowNavBar**
+
+#### Show nav bar for a specific entity
+
+Use the **BlockChromeProcessPooling** UII option if you want to show the nav bar for a specific entity in the Chrome Process pooled instances.
+
+See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option) to know how to add the UII option.
+
+#### Show nav bar for all the entities
+
+Use the **ShowNavBar** UII option if you want to show the nav bar for all the entities in the Chrome Process pooled instances.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. Select **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **ShowNavBar** for the **Name** field.
+
+7. Type **True** for the **Value** field.
 
 8. Select **Save**.
 

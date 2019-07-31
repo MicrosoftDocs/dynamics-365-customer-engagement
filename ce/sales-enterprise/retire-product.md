@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Retire a product (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 If your organization doesn't sell a product anymore, retire it so that the product is no longer available to your sales agents.  
 
 ## Retire a product (Sales Hub)

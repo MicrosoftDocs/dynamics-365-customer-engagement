@@ -27,8 +27,6 @@ search.app:
 
 # Learn the basics of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Learn how to get around in the system, and how to work with basic records, how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.
 
 - [Dynamics 365 for Marketing Overview](overview.md)

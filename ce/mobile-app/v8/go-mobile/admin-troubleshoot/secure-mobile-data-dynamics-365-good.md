@@ -28,8 +28,6 @@ search.app:
 ---
 # Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
-
 As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
 ](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
 

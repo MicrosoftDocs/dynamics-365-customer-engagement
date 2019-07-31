@@ -26,8 +26,6 @@ search.app:
 ---
 # What's new with Dynamics 365 App for Outlook
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## Dec 2018 
 1. Fixed issue with emails losing track status when categories is enabled. 
 

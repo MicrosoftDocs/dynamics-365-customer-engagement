@@ -23,8 +23,6 @@ search.app:
 ---
 # About multiple online instances or tenants
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps gives you options for segregating your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and user access. For most companies, adding and using multiple instances in your subscription provides the right mix of functionality and ease of management. Enterprises with separate geographic locations might consider using multiple tenants to separate [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps licenses. Multiple instances can share users among instances; multiple tenants cannot.  
   
 > [!NOTE]

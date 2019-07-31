@@ -28,8 +28,6 @@ search.app:
 
 # Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:

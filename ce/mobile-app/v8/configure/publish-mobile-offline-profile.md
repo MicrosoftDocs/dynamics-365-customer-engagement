@@ -24,8 +24,6 @@ search.app:
 ---
 # Publish a mobile offline profile
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 To make the mobile offline profile available to users so they can get the mobile offline experience you've defined for them, you need to publish it.  
   
 1.  If it’s not already open, open the mobile offline profile you want to publish.  

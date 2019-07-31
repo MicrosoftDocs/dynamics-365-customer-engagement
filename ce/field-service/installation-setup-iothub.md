@@ -28,8 +28,6 @@ search.app:
 ---
 # Installation & setup - Connected Field Service for IoT Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub. If you're looking for information about CFS for IoT Central, be sure to visit our tutorial on getting set up. 
 
 ## Prerequisites  
