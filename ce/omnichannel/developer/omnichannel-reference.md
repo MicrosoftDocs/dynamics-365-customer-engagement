@@ -14,7 +14,7 @@ manager: shujoshi
 ---
 # Live chat SDK JavaScript API Reference
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The following JavaScript methods can be used to perform various operations with the live chat widget of Omnichannel for Customer Service.
 
@@ -22,11 +22,11 @@ The following JavaScript methods can be used to perform various operations with 
 
 | Method | Description |
 |---------|-------------|
-| [getContextProvider](reference/methods/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
 | [setContextProvider](reference/methods/setContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
+| [getContextProvider](reference/methods/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
 | [removeContextProvider](reference/methods/removeContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/removeContextProvider-description.md)] |
-| [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
 | [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) | [!INCLUDE[setAuthTokenProvider-description](reference/includes/setAuthTokenProvider-description.md)] |
+| [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
 | [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
 | [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 

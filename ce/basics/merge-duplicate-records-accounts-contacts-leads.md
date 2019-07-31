@@ -21,8 +21,6 @@ search.app:
 ---
 # Merge duplicate records for accounts, contacts, or leads
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Duplicate records can creep into your data when you or others enter data manually or import data in bulk. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] helps you address potential duplicates by providing duplicate detection for accounts, contacts, and leads. Your administrator may also set up duplicate detection rules for other situations.  
   
  For example, let's say you enter a contact record, Jim Glynn,  along with a mobile phone number.  The duplicate detection rule discovers that you already have a similar record, and displays this dialog box.  

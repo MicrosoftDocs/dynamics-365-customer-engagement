@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Use properties to describe a product (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
 
  A property of a product could be its size, color, or component and so on. Properties are added at the family level. You can add properties only to a family, and only when it is in a draft or under revision state. The child products, bundles, and families inherit the properties from their parent family.  

@@ -15,6 +15,8 @@ ms.custom:
 
 # View and understand Omnichannel Ongoing Conversations dashboard
 
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
 The **Omnichannel Ongoing Conversations** dashboard provides information on the conversation that are handled by agents and are in active, open, wrap up, and waiting state in your organization. This dashboard provides a holistic view of the conversations with the details such as customer, agent assigned, subject, queue, activity status and more. The data in the dashboard auto refreshes in near real time.
 
 Further, you can filter the conversations using the **Filter by queues** or **Filter by agents** option to create a personalized view of the queues or the group of agents you wish to monitor or track. Select the queues or agents for which you want to view the conversations and then select **Apply**. The filter is applied, and conversations are displayed based on the selection. Select **Save** to set this filter as default and when you log in to Omnichannel for Customer Service app, you view conversations based on your saved filter.

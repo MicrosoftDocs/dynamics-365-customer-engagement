@@ -14,12 +14,12 @@ ms.custom:
 ---
 # startChat
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[startchat-description](../includes/startChat-description.md)]
 
 > [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 
 ## Syntax
 

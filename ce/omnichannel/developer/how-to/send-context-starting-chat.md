@@ -14,9 +14,9 @@ manager: shujoshi
 ---
 # Manage custom context
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-When a user initiates a chat, you can pass custom context to Omnichannel for Customer Service. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
+When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used in routing rules which eventually determine which queue to route the chat to.
 
 > [!IMPORTANT]
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
@@ -27,7 +27,7 @@ Follow these steps to send custom context when starting a chat:
 
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
-1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](../reference/methods/setContextProvider.md) method.
 3. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
 

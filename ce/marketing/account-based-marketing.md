@@ -28,8 +28,6 @@ search.app:
 
 # Account-based marketing
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Account-based marketing is an approach where you organize your marketing initiatives around account records instead of, or in addition to, contacts. That means, for example, that your leads reference accounts, and are scored based on interactions made by any or all of the contacts that belong to those accounts.
 
 Account-based marketing will make it easier for marketers who work in organizations that focus on business-to-business sales to support their salespeople's strategies and sales processes. Feature include:
@@ -201,7 +199,7 @@ When you are viewing insights on the Designer tab for an account-based journey, 
 
 ## Account-based leads and lead scoring
 
-Leads can be associated with accounts or contacts. If a lead is associated with both a contact and a lead, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
+Leads can be associated with accounts or contacts. If a lead is associated with both a contact and an account, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
 
 - You can set each lead-scoring model to apply to either contact-based leads or to account-based leads.
 - Interactions made by all contacts related to an account contribute to the score of an account-based lead. So, for example, each contact from an account that opens an email message could increase the score of the lead associated with that account.

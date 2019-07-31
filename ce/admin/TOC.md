@@ -22,7 +22,8 @@
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
-## [Policies and Communications](policies-communications.md)
+## [Policies and communications](policies-communications.md)
+## [Notifications explained](notifications-explained.md)
 
 # Switch from CRM Online to Customer Engagement
 ## [Overview](switch-dynamics-crm-online-dynamics-365.md)
@@ -86,6 +87,7 @@
 ### [Enable or disable field security](enable-disable-security-field.md)
 ### [Hierarchy security](hierarchy-security.md)
 ## [Create users and assign security roles](create-users-assign-online-security-roles.md)
+## [System and application users](system-application-users.md)
 ## [Manage teams](manage-teams.md)
 ## [Team templates](about-team-templates.md)
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
@@ -120,6 +122,7 @@
 ## China
 ### [About China datacenter](../admin/datacenter/about-microsoft-cloud-china.md)
 ### [21Vianet support](../admin/datacenter/21vianet-support.md)
+## [France](../admin/datacenter/about-microsoft-cloud-france.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)

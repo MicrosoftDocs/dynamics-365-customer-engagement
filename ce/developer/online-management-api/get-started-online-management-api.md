@@ -53,7 +53,7 @@ The following table lists the service URL of Online Management API for worldwide
 |India (IND) | https://admin.services.crm8.dynamics.com |
 |Canada | https://admin.services.crm3.dynamics.com |
 |United Kingdom (UK) | https://admin.services.crm11.dynamics.com |
-
+|France | https://admin.services.crm12.dynamics.com |
 
 ## Standard headers
 

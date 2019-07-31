@@ -18,6 +18,8 @@ manager: shujoshi
 
 # Frequently asked questions (FAQs) about Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 ## General
 
 ### What regions are supported?
@@ -35,7 +37,7 @@ Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/
 ### How do I get help with the issues I face?
 Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to get help with your issues.
 
-### What additional channels are supported wiomnichath this release?
+### What additional channels are supported with Omnichannel in this release?
 This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
 ### Are Chat and the associated Omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?

@@ -35,7 +35,7 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 
 <li><a href="sales-professional-overview.md" data-raw-source="[Overview of Sales Professional](sales-professional-overview.md)">Overview of Sales Professional</a></li>
 <li><a href="learn-basics-sales-professional.md" data-raw-source="[Learn the basics](learn-basics-sales-professional.md)">Learn the basics</a></li>
-<li><a href="manage-accounts-contacts.md" data-raw-source="[Manager your customers](manage-accounts-contacts.md)">Manager your customers</a></li>
+<li><a href="manage-accounts-contacts.md" data-raw-source="[Manage your customers](manage-accounts-contacts.md)">Manage your customers</a></li>
 <li><a href="manage-activities.md" data-raw-source="[Manage tasks, appointments, email, or phone calls](manage-activities.md)">Manage tasks, appointments, email, or phone calls</a></li>
 
 </td><td>

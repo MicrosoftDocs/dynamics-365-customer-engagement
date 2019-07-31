@@ -24,8 +24,6 @@ topic-status: Tech Reviewing
 
 # Launch a playbook to carry out activities consistently
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x
-
 To ensure consistency in your business process or to know what steps to follow in certain scenarios or events, rely on the playbooks prepared by your managers that guide you with the actions you can take. Playbooks can also contain best practices based on practices that have worked in similar situations before.
 
 1. Make sure you have the **Playbook user** role or equivalent permissions.

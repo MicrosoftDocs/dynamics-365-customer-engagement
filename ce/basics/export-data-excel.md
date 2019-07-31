@@ -22,8 +22,6 @@ search.app:
 ---
 # Export data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and convert that data into actionable items that help you drive more sales?  Now you can do this when you export your data to [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] or [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to do a quick data analysis. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
   
  You can choose to export static worksheets or dynamic worksheets, which you can import back into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you need more advanced functions, you can export a dynamic PivotTable, which makes it very easy to organize and summarize data.  

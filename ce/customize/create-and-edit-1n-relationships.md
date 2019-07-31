@@ -181,6 +181,8 @@ search.app:
   
 -   No new relationship can have any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned** if the related entity in that relationship already exists as a related entity in another relationship that has any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned**. This prevents relationships that create a multi-parent relationship.  
 
+-   Cascading on merge can't be set or changed, and is dependent on the referenced entity. If the referenced entity is an account, contact, or lead, the action cascades. Otherwise, it does not.
+
 ### See also
 
 [Create N:N (many-to-many) relationships](../customize/create-and-edit-nn-many-to-many-relationships.md)

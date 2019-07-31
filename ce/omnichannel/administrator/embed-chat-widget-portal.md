@@ -15,7 +15,7 @@ ms.custom:
 
 # Embed chat widget in Dynamics 365 for Customer Engagement Portal
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 To embed a chat widget in Dynamics 365 for Customer Engagement Portal:
 

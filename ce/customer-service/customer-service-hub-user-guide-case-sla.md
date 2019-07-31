@@ -22,8 +22,6 @@ search.app:
 
 # Work with cases and manage SLAs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Track your cases efficiently and act on them quickly in the Customer Service Hub application.
 
 Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub,you can do all your important tasks and actions without navigating to different parts of the application.  

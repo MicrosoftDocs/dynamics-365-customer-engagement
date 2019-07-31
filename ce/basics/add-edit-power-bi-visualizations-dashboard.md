@@ -22,8 +22,6 @@ search.app:
 ---
 # Add or edit Power BI visualizations on your dashboard
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards and  tiles that you add  to your personal dashboards.  
   
 > [!NOTE]

@@ -14,7 +14,7 @@ ms.custom:
 
 # Step 6:  Add the hosted control, action calls, window navigation rule, and events to configurations
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to add action calls, events, window navigation rule, and hosted control to the configurations in Unified Service Desk for Dynamics 365 for Customer Engagement instance.
 

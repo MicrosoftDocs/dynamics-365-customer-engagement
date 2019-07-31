@@ -15,7 +15,7 @@ ms.custom:
 
 # View conversation and session activity types in the Customer Engagement apps
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses Dynamics 365 for Customer Engagement apps. In this case, if you are an agent who works on Dynamics 365 for Customer Engagement apps and you need to analyze the conversation request from Omnichannel for Customer Service on the web, you can find the information through **Activities** in Dynamics 365 for Customer Engagement apps.
 

@@ -19,8 +19,6 @@ caps.latest.revision: 33
 ---
 
 # Insights, powered by InsideView
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Boost your sales close rates with information that will help you find, understand, and engage more qualified buyers with [!INCLUDE[pn_insights](../includes/pn-insights.md)],  powered by InsideView. You’ll find the [!INCLUDE[pn_insights](../includes/pn-insights.md)] pane on your Dynamics 365 for Customer Engagement accounts, contacts, leads, and opportunities forms, where it pulls in company, contact, and social data from thousands of constantly-updated sources.  
   
  [!INCLUDE[pn_insights](../includes/pn-insights.md)], powered by InsideView is a preferred provider solution that your administrator can add from the Dynamics 365 for Customer Engagement Administration Center. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md)  

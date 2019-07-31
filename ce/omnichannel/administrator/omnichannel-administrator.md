@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Omnichannel for Customer Service for administrators
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Omnichannel for Customer Service is a customizable application you can effectively configure to meet the requirements of your business. Use Omnichannel for Customer Service to manage users (agents and supervisors), work streams, conversations, and queues, and effectively route important conversations to agents quickly. You can manage the capacity of agents so they handle conversations effectively and assist your customers better. You can manage the types of conversations agents receive using work stream and queue configurations.
 

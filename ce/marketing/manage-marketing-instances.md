@@ -28,8 +28,6 @@ search.app:
 
 # Manage your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instances
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 General instructions for how to manage [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances are available in [Manage instances](../admin/manage-online-instances.md) and its subtopics, but for instances where you also have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed, some exceptions and added procedures apply. This topic provides details about the exceptions&mdash;for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
 
 ## Elements in a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance
@@ -167,4 +165,4 @@ To copy a production instance to a sandbox:
 [Manage instances](../admin/manage-online-instances.md)  
 [Manage your data](../admin/manage-your-data.md)  
 [Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
-[Import, update, and export solutions](../customize/import-update-export-solutions.md)
+[Import, update, and export solutions](../customize/import-update-upgrade-solution.md)

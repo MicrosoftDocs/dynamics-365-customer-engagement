@@ -37,8 +37,8 @@ search.app:
  Export an app into a solution when you want other organizations to use it. The process of exporting a solution includes:  
 
 1. [Create a solution](../customize/create-solution.md).
-2. [Add apps to the solution](../customize/import-update-export-solutions.md).
-3. [Export the solution to a zip file](../customize/import-update-export-solutions.md).
+2. [Add apps to the solution](../customize/import-update-upgrade-solution.md).
+3. [Export the solution to a zip file](../customize/import-update-upgrade-solution.md).
 
 	> [!NOTE]
 	> When you export an app by using a solution, the app URL is not exported.
@@ -48,7 +48,7 @@ Now you can share the created solution zip file with other organizations to impo
 ## Import an app  
 When you receive the solution zip file which contains the app that you want to import, open the solutions component page and import the solution. When the solution has been successfully imported, your organization will be ready to use the app.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import, update, and export solutions](../customize/import-update-export-solutions.md).  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import, update, and export solutions](../customize/import-update-upgrade-solution.md).  
   
 ## Remove (delete) an app  
 Remove apps that are obsolete in your organization.

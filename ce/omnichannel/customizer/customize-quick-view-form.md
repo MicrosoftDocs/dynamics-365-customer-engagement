@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Customize quick view forms
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You customize the quick view form in the section by navigating to the respective entities and quick view forms.
 

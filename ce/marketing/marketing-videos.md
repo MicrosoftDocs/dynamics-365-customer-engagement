@@ -28,8 +28,6 @@ search.app:
 
 # Watch these videos to learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 If you are new to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], then these videos will help you gain a quick understanding of the system and how to work with some of its most-used features.
 
 ## Get a quick overview
@@ -75,7 +73,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 - Tutorial: [Set up lead scoring](set-up-lead-scoring.md)
 - [Design lead-scoring models](score-manage-leads.md)  
-- [Register contacts' engagement](register-engagement.md)  
+- [Register link clicks and website visits](register-engagement.md)  
 - [Manage customer information](manage-customer-information.md)
 
 ## Browse all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] videos on YouTube

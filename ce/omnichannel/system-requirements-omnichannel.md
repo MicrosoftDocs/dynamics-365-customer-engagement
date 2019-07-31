@@ -2,7 +2,7 @@
 title: "Pre-requisites and system requirements of Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the system requirements of Omnichannel for Customer Service."
 keywords: ""
-ms.date: 07/01/2019
+ms.date: 07/22/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -18,7 +18,7 @@ manager: shujoshi
 
 # Pre-requisites and system requirements of Omnichannel for Customer Service
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 This topic provides information about the pre-requisites and system requirements for deploying Omnichannel for Customer Service on a Dynamics 365 for Customer Engagement organization.
 
@@ -35,6 +35,8 @@ This section explains the pre-requisites for using Omnichannel for Customer Serv
 ### Licensing
 
 - You must have an active subscription of Microsoft Dynamics 365 for Customer Service Enterprise or Customer Engagement Plan in your tenant for each Chat user.
+
+- You must have an active subscription of Dynamics 365 for Customer Service Chat.
 
 - Use of historical Supervisor reporting through **Omnichannel Intraday Insights**, **Omnichannel Chat Insights**, and **Omnichannel Sentiment Insights Dashboards** also requires Power BI Pro license or higher for each individual in a Supervisor role.
 
@@ -70,6 +72,8 @@ The Chat for Dynamics 365 service is available in the following regions currentl
 - North America 
 - Europe
 - Canada
+- United Kingdom
+- Government Cloud Computing (GCC)
 
 For the service to work, your tenant and organization have to be co-located in one of these regions.
 

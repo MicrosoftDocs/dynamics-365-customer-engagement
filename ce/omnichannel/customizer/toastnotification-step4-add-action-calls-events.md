@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Step 4: Add the action calls to the events 
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to attach Omnichannel Toast Notification related action calls to events.
 

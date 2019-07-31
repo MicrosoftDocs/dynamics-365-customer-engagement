@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Create or edit an invoice (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
   
 Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  

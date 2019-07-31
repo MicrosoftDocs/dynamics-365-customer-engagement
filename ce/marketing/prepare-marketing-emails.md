@@ -27,8 +27,6 @@ search.app:
 
 # Prepare marketing email messages
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
@@ -142,6 +140,8 @@ Start by designing the HTML version of your message. When you're almost done, go
 - To fine-tune the text version, clear the **Automatically generate** check box to unlock the text field, and then edit the text as needed. From now on, though, your text version will no longer be linked to the HTML version and won't be updated to match any changes you make to the HTML.
 - To go back to tracking the HTML version, reselect the **Automatically generate** check box. This will remove any customizations that you've made to the plain text and update it to match the current HTML design on an ongoing basis.
 
+<a name="send-receive-options"></a>
+
 ## Set sender and receiver options
 
 In addition to the message description and plain-text version, the **Summary** tab also offers **Sender and receiver** settings. Usually you shouldn't edit these, but they can be useful in some scenarios.
@@ -155,6 +155,9 @@ The following **Sender and receiver** settings are available:
 - **From address**: This is the email address shown to recipients as the address of the person who sent the email. By default, this is the address of the **From** contact chosen at the top of the form (which is initially set to the user who created the message). You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
 - **To address**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 - **Reply-to address**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **From address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the [assist-edit](dynamic-email-content.md#dynamic-from) button to define an alternative dynamic value.
+
+> [!NOTE]
+> Domain authentication with DKIM is an increasingly important part of making sure your messages land in recipients' inboxes rather than getting filtered away as junk. It requires that the from-address for each message you send shows a domain that you've authenticated for DKIM. If your instance is configured to use DKIM&mdash;and has a default authenticated domain set up&mdash;then the initial from-address will be modified to use the default authenticated domain when the initial domain (established as the email address for the user in the **From** field) isn't authenticated for DKIM. The resulting **From address** will show the account name of the **From** user combined with the default domain, which will provide the DKIM deliverability benefit, but might not be a valid return address (email addresses have the form *account@domain*). You can overrule this by editing the **From address** after creating the message (or changing the **From** field) if needed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate a domain](marketing-settings.md#authenticate)
 
 <a name="designation"></a>
 

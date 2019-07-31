@@ -18,6 +18,8 @@ manager: shujoshi
 
 # Remove Omnichannel for Customer Service
 
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
 You can remove Omnichannel for Customer Service and disable all channels on a Customer Engagement organization.
 
 

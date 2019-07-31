@@ -22,8 +22,6 @@ search.app:
 ---
 # Send bulk email to customers
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can send the same message to multiple recipients using email templates. This is known as *direct* or *bulk* emailing. You can also use mail merge with [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] and [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates to create the message.  
   
 1.  Go to your work area. [(How do I get there?)](../basics/navigation-customer-engagement-enterprise.md)  

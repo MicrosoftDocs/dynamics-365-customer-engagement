@@ -24,8 +24,6 @@ search.app:
 
 # Create and manage resource categories 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Multi-resource scheduling with requirement groups](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)

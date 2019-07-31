@@ -1,8 +1,8 @@
 ---
 title: "Send authentication token | Microsoft Docs"
-description: ""
+description: "Read how you can pass an authentication token to Omnichannel for Customer Service"
 keywords: ""
-ms.date: 07/01/2019
+ms.date: 07/09/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference
@@ -15,18 +15,12 @@ manager: shujoshi
 ---
 # Send authentication token
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-<!--note from editor:  Suggest changing the sentence 
-"When a user initiates a chat, you can pass an authentication token to Omnichannel for Customer Service, which helps in authenticating the user." 
-to this:
-"To authenticate a user when they initiate a chat, pass an authentication token to Omnichannel for Customer Service." -->
+To authenticate a customer when they initiate a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
 
-When a user initiates a chat, you can pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when hosting the chat widget outside Dynamics 365 for Customer Engagement Portal.
-
-<!--note from editor:Should the below sentence say "Follow these steps to pass an authentication token:"?    -->
 > [!IMPORTANT]
-> In the payload of the JWT token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
+> In the payload of the JSON Web Token (JWT) token, the value provided for `lwicontexts` key should be the serialized custom context.<br />
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.<br />
 > The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.<br />
 > The authentication token provider would be invoked by live chat widget when starting a new chat.
@@ -38,7 +32,7 @@ Follow these steps to send authentication token when starting a chat:
 <!--note from editor: In Step 1, are the "live chat SDK methods" the same thing as the methods under "JavaScript API Reference" in this developer guide? If so, make that connection clear.   -->
 
 1. Generate a valid JWT token from the JSON payload. More information: [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md).
-2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked only after the widget loads fully and the **lcw:ready** event is fired. You can listen for this event by adding your own event listener on the window object.
+2. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 3. Once the **lcw:ready** event is raised, register an authentication token provider with live chat by using the [setAuthTokenProvider](../reference/methods/setAuthTokenProvider.md) method.
 4. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
 

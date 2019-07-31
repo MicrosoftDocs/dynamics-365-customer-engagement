@@ -18,18 +18,20 @@ manager: shujoshi
 
 # Videos
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 <table>
 <tr>
 <td>
 
 <h2> Overview </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2097511" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)">Overview of chat and omnichannel capabilities in Dynamics 365 for Customer Service </a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2097511" data-raw-source="[Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)">Overview of chat and Omnichannel capabilities in Dynamics 365 for Customer Service </a>
 
 </td>
 <td>
 
 <h2> Set up chat </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2097416" data-raw-source="[Set up chat](https://go.microsoft.com/fwlink/p/?linkid=2097416)">Overview of omnichannel chat setup in Dynamics 365 for Customer Service</a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2097416" data-raw-source="[Set up chat](https://go.microsoft.com/fwlink/p/?linkid=2097416)">Overview of Omnichannel chat setup in Dynamics 365 for Customer Service</a>
 
 </td>
 </tr>
@@ -37,12 +39,12 @@ manager: shujoshi
 <td>
 
 <h2> Agent Experience </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2097512" data-raw-source="[Agent Experience](https://go.microsoft.com/fwlink/p/?linkid=2097512)">Overview of omnichannel agent experience in Dynamics 365 for Customer Service </a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2097512" data-raw-source="[Agent Experience](https://go.microsoft.com/fwlink/p/?linkid=2097512)">Overview of Omnichannel agent experience in Dynamics 365 for Customer Service </a>
 
 </td>
 <td>
-<h2> Real-time Sentiment Analysis </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2097513)">Overview of omnichannel real-time sentiment analysis in Dynamics 365 for Customer Service </a>
+<h2> Supervisor Experience </h2>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2099487" data-raw-source="[Supervisor Experience](https://go.microsoft.com/fwlink/p/?linkid=2099487)">Overview of Omnichannel supervisor experience in Dynamics 365 for Customer Service </a>
 
 </td>
 </tr>
@@ -50,11 +52,12 @@ manager: shujoshi
 <tr>
 <td>
 <h2> Historical Insights Report </h2>
-<a href="https://go.microsoft.com/fwlink/p/?linkid=2097418" data-raw-source="[Historical Insights Report](https://go.microsoft.com/fwlink/p/?linkid=2097418)">Overview of omnichannel historical reporting in Dynamics 365 for Customer Service </a>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2097418" data-raw-source="[Historical Insights Report](https://go.microsoft.com/fwlink/p/?linkid=2097418)">Overview of Omnichannel historical reporting in Dynamics 365 for Customer Service </a>
 
 </td>
 <td>
-
+<h2> Real-time Sentiment Analysis </h2>
+<a href="https://go.microsoft.com/fwlink/p/?linkid=2097513" data-raw-source="[Real-time Sentiment Analysis](https://go.microsoft.com/fwlink/p/?linkid=2097513)">Overview of Omnichannel real-time sentiment analysis in Dynamics 365 for Customer Service </a>
 </td>
 </tr>
 

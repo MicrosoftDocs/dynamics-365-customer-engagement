@@ -26,8 +26,6 @@ search.app:
 
 # Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
 > [!Note]
@@ -267,7 +265,8 @@ Admins can define a custom filter based on the following rules. You can create f
 Once you have created a mobile offline profile, you can start adding users to the profile.  
   
 > [!NOTE]
-> You can add a user to only one mobile offline profile.  
+> You can add a user to only one mobile offline profile.
+> Each time user is added to the mobile offline profile, mobile offline profile need to be published again. 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  

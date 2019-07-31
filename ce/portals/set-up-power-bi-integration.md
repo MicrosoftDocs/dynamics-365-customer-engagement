@@ -86,8 +86,7 @@ Enabling the Power BI Embedded service allows you to embed dashboards and report
     > ![Select Power BI workspaces](media/enable-powerbi-embedded-window.png "Select Power BI workspaces")
     
     > [!NOTE]
-    > - After you add workspaces to the **Selected workspaces** list, the databases and reports are rendered after a few minutes.
-    > - Copy the portal's application ID displayed in this window. The portal's application ID is also available on the **Portal Details** page in Portal Admin Center.
+    > After you add workspaces to the **Selected workspaces** list, the databases and reports are rendered after a few minutes.
 
 5. Select **Enable**. While Power BI Embedded service is being enabled, the portal restarts and is unavailable for a few minutes. A message appears when Power BI Embedded service is enabled.
 
@@ -99,9 +98,6 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
 > [!NOTE]
 > You must sign in with the same Global administrator user that you used to enable the Power BI Embedded service.
-
-<!--note from editor: Should "user" in sentence above be "account", as below?   -->
-
 
 **Step 1: Create a security group**
 
@@ -126,7 +122,7 @@ After enabling the Power BI Embedded service integration, you must create a secu
 
 **Step 2: Add a group member**
 
-**Prerequisite**: Before adding a member to the security group, you must have the portal's application ID with you. The application ID is displayed while enabling Power BI Embedded service integration.
+**Prerequisite**: Before adding a member to the security group, you must have the portal's application ID with you. The portal's application ID is available on the **Portal Details** tab in PowerApps Portals admin center.
 
 1. Sign in to the [Azure portal](https://portal.azure.com) using a Global administrator account for the directory.
 

@@ -27,8 +27,6 @@ search.app:
 
 # Work with email, page, and form templates
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
 
 The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide:
@@ -68,6 +66,8 @@ Here are some common style settings provided by the out-of-the-box templates:
 - **Direction**: Depending on which language you're using, you'll choose either LTR (left-to-right) or RTL (right-to-left).
 
 The settings provided for each template are set up using custom attributes in the template's HTML. You can edit and create these as needed when customizing or creating your own templates. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md).
+
+<a name="tested-clients"></a>
 
 ## Tested email clients
 

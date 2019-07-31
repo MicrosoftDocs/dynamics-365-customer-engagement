@@ -23,8 +23,6 @@ search.app:
 ---
 # Manage email notifications to admins
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps service team regularly sends email notifications to the administrators in your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. Now, with a simple approach of mailbox rules, you have complete control over who should receive these email communications. As an administrator, you can set up mailbox rules to automatically redirect email communications from Customer Engagement apps (crmoln@microsoft.com) to additional recipients that you choose. For example, you can add to the list of recipients:  
   
 - People outside of your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization, such as your partners.  
