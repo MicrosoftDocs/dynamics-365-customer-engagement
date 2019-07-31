@@ -119,7 +119,7 @@ Open the **Knowledge Base Search** control and edit its properties to configure 
 
    ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
 
-To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-filtered-articles-in-the-related-section)
+To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
 
 ### See also  
 

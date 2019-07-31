@@ -101,11 +101,11 @@ In the Knowledge Base search box:
 > [!IMPORTANT]
 >  Knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator. 
 
-## View filtered articles in the Related section
+## View auto filtered results
 
-As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search in entire knowledge base depending on your requirement. 
+As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search in entire knowledge base. 
 
-Administrator or system customizer must configure this option for you. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
+Administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
 
 To view the auto filtered results:
 
@@ -116,7 +116,7 @@ To view the auto filtered results:
 3. If you want to disable automatic filtering option and search the entire knowledge base for articles, deselect the **Auto-filter results** option.  
 
     > [!NOTE]
-    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the automatic filtered results. To learn more, see [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub). 
+    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto filtered results. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
 
 Let’s understand this in detail with the help of an example.
 
@@ -132,22 +132,15 @@ However, if the Auto filter results check box is not selected, you can see more 
 
 As a customer service agent, you can easily provide feedback on knowledge articles with the help of knowledge article rating in the Customer Service Hub. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
 
-So, when you are working on a case and refer to an article from the Knowledge Base Search control, you will be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved
+When you are working on a case and refer to an article from the **Knowledge Base Search** control, you will be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved
 
-> [!IMPORTANT]
->  Ensure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback)
+> [!NOTE]
+> - Ensure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
+> - Customer service agents and customer service managers can create, or view feedbacks based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
 
-Customer service agents and customer service managers can create, or view feedbacks based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
+1. Open an article from search results to read it.
 
-### Rate the articles and submit feedback
-
-You can rate a knowledge article and submit feedback when you open the article in full view in the Knowledge Base Search control of the Related section. To learn more, see [Related section in Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section).
-
-1. In the **Customer Service Hub** sitemap, go to **Cases** > **My Active Cases**.
-2. Select a case and navigate to the **Related** section.
-3. Select **Knowledge Base Search** and select the article title to read it in full view.
-
-    ![Select an article to read](media/ka-rating-feedback-view-article.png "Select an article to read")
+2. You can rate a knowledge article and submit feedback. 
 
     You can provide your feedback on the article, whether it is helpful or not, by selecting the **Thumbs up** or **Thumbs down** button.    
 
