@@ -1,6 +1,6 @@
 ---
-title: "Marketing Approvals feature(Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Sample approvals feature which utilizes Dynamics 365 for Marketing extensibility endpoints"
+title: "Build an approvals feature(Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+description: "Build an approvals feature which utilizes Dynamics 365 for Marketing extensibility endpoints"
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
@@ -21,9 +21,41 @@ search.app:
   - D365Mktg
 ---
 
-# Approvals
+# Build an approvals feature
 
-Dynamics 365 for Marketing released new extensibility features to extend entities covered by a lifecycle to give users the possibility to override or use the default logic. Following are some of the functions:
+Dynamics 365 for Marketing offers extensibility features that make it possible for developers to build on its functionality, and one way to take advantage of this extendibility is to create an approvals feature based on Microsoft Flow.
+
+Approvals are an often-requested feature that enables organizations to implement an approval workflow in which most users can't go live right away with some types of important entities (such as emails, customer journeys, or segments). Instead, an approver user must inspect each record and decide whether to allow it to go live, or whether more work is needed first. The approver user is typically an administrator or manager who is specifically identified as an approver in the system.
+
+> [!IMPORTANT]
+> The approval feature described here is intended to support a collaborative workflow among colleagues, and will help prevent accidentally going live with an entity that is not yet ready. It provides greatly improved control over what gets published but doesn't provide bulletproof security. Expert users of Dynamics 365 for Customer Engagement with suitable permissions may be able to work around the approval workflow by accessing the system-customization features directly, so admins must take care when granting advanced permissions to users. 
+
+## Prerequisites
+
+1. Download the [code]() for sample webresource and ribbon customizations.
+2. Sign up or install [Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app
+3. License for [Microsoft Flow](https://flow.microsoft.com/en-us/) to create sample approvals feature
+
+
+## Approval process
+
+The customizations outlined in this topic will help you design and implement an approval workflow that works something like this:
+
+1. Standard users (non-approvers that we will call Marketer) no longer see a Go live button on entity forms where approvals are enabled. Instead, this is replaced by a Request approval button on the command bar. These entities use a custom collection of Status reason values, which are used to track the approval status of each record. Records requiring approval begin with a Status reason of Approval required.
+1. When a standard user has finished creating a new record (such as an email design), they select the Send for approval button. This triggers the following changes:
+   - The Status reason for this record changes to Approval requested.
+   - The record is locked to further changes.
+	 - An email message is automatically sent to the approver user configured in the system. This message tells the approver that his or her approval is required. It also includes buttons for approving or rejecting right from the message, plus a link to view the relevant record in the Marketing app (where approve and reject buttons are also provided).
+   - For standard users, the Request approval button is replaced with a Cancel approval button. If a user selects Cancel approval, the record returns to the Approval required status and becomes unlocked for editing again.
+   - For the approver user, Approve and Reject buttons are now provided on the command bar. 
+1. The approver responds by doing one of the following:
+   - Approve: The record changes its Status reason to Approved. The Go live button is also made available to all users for this record. Any user can now go live with the record provided no edits are made. If a user edits and approved record, the Go live button is once again replaced with a Request approval button and the Status reason is changed to Approval required.
+   - Reject: The record changes its Status reason to Rejected. The Request approval button is added once again to the command bar. The user can now make changes and then send for approval again.
+1. This process is repeated until the record is approved and live.
+
+## Extensibility functions to support approvals
+
+The following functions are added inside Marketing solution (from August release) and can be used to override or use the default logic for entities with complex lifecycle (marketing email, customer journey, content settings, marketing page, marketing form, and segment):
 
 |Name|Description|
 |----|-------|
@@ -33,18 +65,12 @@ Dynamics 365 for Marketing released new extensibility features to extend entitie
 |MsDynCrmMkt.ExtensibilityCallback.preventSave| This function allows to control the save behavior of the entity.|
 |MsDynCrmMkt.ExtensibilitySupplier.entityValidator| This function is returning a validator factory. Once correctly initialized can be used to verify that the configuration of the specific entity is valid.| 
 
-Another flexibility introduced for entities with complex lifecycle stage (marketing email, customer journey, content settings, marketing page, marketing form, and segment) is the possibility to configure the lifecycle of an entity. The user can add new states and can change the flow for existing entities. The only limitations are: 
+The only limitations that are remaining to  customize  the Marketing solution are:
 
 1. New states between transient state (Going live and Stopping) and fix stage is ignored.
 2. If you want to go directly into **Live** state, without passing through **Going live** state, make sure that the entity values are not changed.
 3. Do not remove any of the existing states.
 4. When an entity enters into an inactive state, it cannot be activated.
-
-## Example: Approvals scenario
-
-This example shows how to utilize the above mentioned functions by implementing a simple approval scenario for the customer journey entity. This approval example covers the following scenario where a user (With no System Administrator privileges) creates a customer journey record (i.e., in Draft state) and asks for the approval from the manager (With System Administrator privileges) to publish the record. The manager rejects the approval request and asks for some changes. In this case, the entity goes back to the **Draft** state, and the changes made by the users will be stored as is.
-
-The user can continue to work on this entity to implement the requested changes and submits a new approval request. This time manager accepts the approval request, and the customer journey record is pushed to **Live** state. 
 
 ## Implementation
 
@@ -52,832 +78,78 @@ The user can continue to work on this entity to implement the requested changes 
 
 - Create a new [solution](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-solution) and name it as **Sample Approval**.
 - Add customer journey entity to the solution.
-- Add the following new states to the **Statuscode** attribute:
+- Navigate to **Solutions** > **SAmple Approval** > **Entities** > **Customer Journey** > **Fields**.
+- Select the **Statuscode** attribute and add the following new states to the **Statuscode** attribute:
    - Approved
-   - Need approval
+   - Approval requested
 
-    > [!NOTE]
-    > Copy the values of the new states created for further use. You need  these values while creating custom ribbon buttons.
+      > [!NOTE]
+      > Copy the values of the new states created for further use. You need  these values while creating custom ribbon buttons.
 
-- Navigate to **Customizations** > **Entities** > **Customer Journey** > **Fields**  and select **Statuscode** attribute. 
-- Click on **Edit Status Reason Transitions**  and click on **...** next to the options available and add the status reasons as shown below and click **Ok**.
+  - Click on **Edit Status Reason Transitions**  and click on **...** next to the options available and add the status reasons as shown below and click **Ok**.
 
-  ![Status Reason Transition](../media/marketing-status-reason-transition.png "Status Reason Transition")
+    ![Status Reason Transition](../media/marketing-status-reason-transition.png "Status Reason Transition")
 
-- Create a new field **msdyncrm_restorestatuscode** of data type **Integer** , which stores the previous state information.
+- Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
+- Inside the solution create a new entity that can be named for example approvals. We will use this entity to decide whether the user logged in the system is an approver or a marketer. 
 
-### Step2: Create a Web resource
 
-Create a JavaScript web resource and add the following code. More information: [Create a Web resource](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-web-resources)
+### Step 2: Create ribbon buttons
 
-```JavaScript
-"use strict";
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constant;
-(function (Constant) {
-	var Constants;
-	(function (Constants) {
-		Constants.statusCode = "statuscode";
-		Constants.requiredConsent = "msgdpr_requiredconsent";
-		Constants.restoreStatusCode = "msdyncrm_restorestatuscode";
-		Constants.marketingForm = "msdyncrm_marketingform";
-	})(Constants = Constant.Constants || (Constant.Constants = {}));
-})(Constant = MsDynCrmApprovals.Constant || (MsDynCrmApprovals.Constant = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constant;
-(function (Constant) {
-	/**
-	* Class for manage status code for default synchronous entities in entity lifecycle
-	*/
-	var DefaultSyncStatusCode = /** @class */ (function () {
-		function DefaultSyncStatusCode() {
-		}
-		DefaultSyncStatusCode.prototype.getDraft = function () {
-			return 192350000;
-		};
-		DefaultSyncStatusCode.prototype.getLive = function () {
-			return 192350001;
-		};
-		DefaultSyncStatusCode.prototype.getStopped = function () {
-			return 192350002;
-		};
-		DefaultSyncStatusCode.prototype.getLiveEditable = function () {
-			return 192350003;
-		};
-		DefaultSyncStatusCode.prototype.getExpired = function () {
-			return 192350004;
-		};
-		DefaultSyncStatusCode.prototype.getError = function () {
-			return 192350005;
-		};
-		DefaultSyncStatusCode.prototype.getGoingLive = function () {
-			return 192350001;
-		};
-		DefaultSyncStatusCode.prototype.getStopping = function () {
-			return 192350002;
-		};
-		DefaultSyncStatusCode.prototype.getNeedApproval = function () {
-			return 812250000;
-		};
-		DefaultSyncStatusCode.prototype.getApproved = function () {
-			return 812250001;
-		};
-		return DefaultSyncStatusCode;
-	}());
-	Constant.DefaultSyncStatusCode = DefaultSyncStatusCode;
-})(Constant = MsDynCrmApprovals.Constant || (MsDynCrmApprovals.Constant = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constant;
-(function (Constant) {
-	/**
-	* Class for manage marketing form status code
-	*/
-	var MarketingFormStatusCode = /** @class */ (function () {
-		function MarketingFormStatusCode() {
-		}
-		MarketingFormStatusCode.prototype.getDraft = function () {
-			return 192350000;
-		};
-		MarketingFormStatusCode.prototype.getLive = function () {
-			return 1;
-		};
-		MarketingFormStatusCode.prototype.getStopped = function () {
-			return 2;
-		};
-		MarketingFormStatusCode.prototype.getLiveEditable = function () {
-			return 192350003;
-		};
-		MarketingFormStatusCode.prototype.getExpired = function () {
-			return 192350004;
-		};
-		MarketingFormStatusCode.prototype.getError = function () {
-			return 192350005;
-		};
-		MarketingFormStatusCode.prototype.getGoingLive = function () {
-			return 1;
-		};
-		MarketingFormStatusCode.prototype.getStopping = function () {
-			return 2;
-		};
-		MarketingFormStatusCode.prototype.getNeedApproval = function () {
-			return 812250000;
-		};
-		MarketingFormStatusCode.prototype.getApproved = function () {
-			return 812250001;
-		};
-		return MarketingFormStatusCode;
-	}());
-	Constant.MarketingFormStatusCode = MarketingFormStatusCode;
-})(Constant = MsDynCrmApprovals.Constant || (MsDynCrmApprovals.Constant = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constant;
-(function (Constant) {
-	var Table;
-	(function (Table) {
-		Table.privilege = "privilege";
-		Table.roleprivilegesCollection = "roleprivileges";
-	})(Table = Constant.Table || (Constant.Table = {}));
-})(Constant = MsDynCrmApprovals.Constant || (MsDynCrmApprovals.Constant = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constant;
-(function (Constant) {
-	var CustomerJourney;
-	(function (CustomerJourney) {
-		CustomerJourney.entityName = "msdyncrm_customerjourney";
-		CustomerJourney.customerJourneyId = "msdyncrm_customerjourneyid";
-		CustomerJourney.name = "msdyncrm_name";
-		CustomerJourney.startDateTime = "msdyncrm_startdatetime";
-		CustomerJourney.endDateTime = "msdyncrm_enddatetime";
-		CustomerJourney.workflowDefinition = "msdyncrm_workflowdefinition";
-		CustomerJourney.isRecurring = "msdyncrm_isrecurring";
-		CustomerJourney.recurrenceIntervalDays = "msdyncrm_recurrenceintervaldays";
-		CustomerJourney.recurrenceCount = "msdyncrm_recurrencecount";
-		CustomerJourney.entityTarget = "msdyncrm_entitytarget";
-		CustomerJourney.validationResults = "msdyncrm_validationresults";
-		CustomerJourney.contentSettingsId = "msdyncrm_contentsettingsid";
-		CustomerJourney.suppressionSegmentId = "msdyncrm_suppressionsegmentid";
-		CustomerJourney.customerJourneyTimeZone = "msdyncrm_customerjourneytimezone";
-		CustomerJourney.customerJourneyTemplate = "msdyncrm_customerjourneytemplate";
-		CustomerJourney.customerJourneyDesignerState = "msdyncrm_customerjourneydesignerstate";
-		CustomerJourney.description = "msdyncrm_description";
-		CustomerJourney.purpose = "msdyncrm_purpose";
-		CustomerJourney.type = "msdyncrm_type";
-		CustomerJourney.requiredConsent = "msgdpr_requiredconsent";
-	})(CustomerJourney = Constant.CustomerJourney || (Constant.CustomerJourney = {}));
-})(Constant = MsDynCrmApprovals.Constant || (MsDynCrmApprovals.Constant = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constant;
-(function (Constant) {
-	/**
-	* Class for manage status code for default transient entities in entity lifecycle
-	*/
-	var DefaultTransientStatusCode = /** @class */ (function () {
-		function DefaultTransientStatusCode() {
-		}
-		DefaultTransientStatusCode.prototype.getDraft = function () {
-			return 192350000;
-		};
-		DefaultTransientStatusCode.prototype.getLive = function () {
-			return 192350001;
-		};
-		DefaultTransientStatusCode.prototype.getStopped = function () {
-			return 192350002;
-		};
-		DefaultTransientStatusCode.prototype.getLiveEditable = function () {
-			return 192350003;
-		};
-		DefaultTransientStatusCode.prototype.getExpired = function () {
-			return 192350004;
-		};
-		DefaultTransientStatusCode.prototype.getError = function () {
-			return 192350005;
-		};
-		DefaultTransientStatusCode.prototype.getGoingLive = function () {
-			return 192350006;
-		};
-		DefaultTransientStatusCode.prototype.getStopping = function () {
-			return 192350007;
-		};
-		DefaultTransientStatusCode.prototype.getNeedApproval = function () {
-			return 812250000;
-		};
-		DefaultTransientStatusCode.prototype.getApproved = function () {
-			return 812250001;
-		};
-		return DefaultTransientStatusCode;
-	}());
-	Constant.DefaultTransientStatusCode = DefaultTransientStatusCode;
-})(Constant = MsDynCrmApprovals.Constant || (MsDynCrmApprovals.Constant = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var CustomerJourneyCustomFormFieldsController = /** @class */ (function () {
-	function CustomerJourneyCustomFormFieldsController(xrm) {
-		this.xrm = xrm;
-		this.customFormFieldsControllerUtil = new MsDynCrmApprovals.Utilities.CustomFormFieldsControllerUtil(xrm);
-	}
-	CustomerJourneyCustomFormFieldsController.prototype.updateControls = function () {
-		var previousStatusCode = this.xrm.Page.data.entity.attributes.get(MsDynCrmApprovals.Constant.Constants.restoreStatusCode);
-		var actualStatusCode = this.xrm.Page.data.entity.attributes.get(MsDynCrmApprovals.Constant.Constants.statusCode);
-		var statusCodeProvider = new MsDynCrmApprovals.Constant.DefaultTransientStatusCode();
-		if (actualStatusCode.getValue() !== statusCodeProvider.getNeedApproval() &&
-			actualStatusCode.getValue() !== statusCodeProvider.getApproved()) {
-			return;
-		}
-		var enabled = previousStatusCode !== null &&
-			previousStatusCode.getValue() !== null &&
-			(previousStatusCode.getValue() === statusCodeProvider.getStopped() ||
-				previousStatusCode.getValue() === statusCodeProvider.getLiveEditable() ||
-				previousStatusCode.getValue() === statusCodeProvider.getError());
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.name, false);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.startDateTime, enabled);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.endDateTime, false);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.workflowDefinition, false);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.isRecurring, enabled);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.recurrenceIntervalDays, false);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.recurrenceCount, false);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.entityTarget, enabled);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.contentSettingsId, enabled);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.suppressionSegmentId, enabled);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.customerJourneyTimeZone, enabled);
-		this.customFormFieldsControllerUtil.setFieldDisabled(MsDynCrmApprovals.Constant.CustomerJourney.customerJourneyTemplate, false);
-	};
-	return CustomerJourneyCustomFormFieldsController;
-}());
-MsDynCrmApprovals.CustomerJourneyCustomFormFieldsController = CustomerJourneyCustomFormFieldsController;
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Utilities;
-(function (Utilities) {
-	/**
-	* Custom form fields controller factory
-	*/
-	var CustomFormFieldsControllerFactory = /** @class */ (function () {
-		function CustomFormFieldsControllerFactory(xrm) {
-			this.xrm = xrm;
-		}
-		CustomFormFieldsControllerFactory.prototype.create = function (entityName) {
-			if (entityName === MsDynCrmApprovals.Constant.CustomerJourney.entityName) {
-				return new MsDynCrmApprovals.CustomerJourneyCustomFormFieldsController(MsDynCrmApprovals.xrm);
-			}
-			return new MsDynCrmApprovals.EmptyCustomFormFieldsController(MsDynCrmApprovals.xrm);
-		};
-		return CustomFormFieldsControllerFactory;
-	}());
-	Utilities.CustomFormFieldsControllerFactory = CustomFormFieldsControllerFactory;
-})(Utilities = MsDynCrmApprovals.Utilities || (MsDynCrmApprovals.Utilities = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Utilities;
-(function (Utilities) {
-	/**
-	* Custom form fields controller utility
-	*/
-	var CustomFormFieldsControllerUtil = /** @class */ (function () {
-		function CustomFormFieldsControllerUtil(xrm) {
-			this.xrm = xrm;
-		}
-		// this function disable/enable all the fields in the form that are matching the name
-		CustomFormFieldsControllerUtil.prototype.setFieldDisabled = function (fieldName, disabled) {
-			var field = this.xrm.Page.data.entity.attributes.get(fieldName);
-			if (field && field.controls && typeof field.controls.forEach === "function") {
-				field.controls.forEach(function (control) {
-					control.setDisabled(disabled);
-				});
-			}
-		};
-		return CustomFormFieldsControllerUtil;
-	}());
-	Utilities.CustomFormFieldsControllerUtil = CustomFormFieldsControllerUtil;
-})(Utilities = MsDynCrmApprovals.Utilities || (MsDynCrmApprovals.Utilities = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var EmptyCustomFormFieldsController = /** @class */ (function () {
-	function EmptyCustomFormFieldsController(xrm) {
-		this.xrm = xrm;
-		this.customFormFieldsControllerUtil = new MsDynCrmApprovals.Utilities.CustomFormFieldsControllerUtil(xrm);
-	}
-	EmptyCustomFormFieldsController.prototype.updateControls = function () {
-	};
-	return EmptyCustomFormFieldsController;
-}());
-MsDynCrmApprovals.EmptyCustomFormFieldsController = EmptyCustomFormFieldsController;
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Constants = MsDynCrmApprovals.Constant.Constants;
-MsDynCrmApprovals.inheritedJQuery = window["jQuery"] || window.parent["jQuery"];
-MsDynCrmApprovals.xrm = window.Xrm;
-MsDynCrmApprovals.Handlers = {
-	// this function is execute when an approver reject an entity
-	restoreStatusCode: function (context) {
-		// popup to ask to the user to confirm the action 
-		var confirmDialogStrings = {
-			text: "Are you sure you want to reject this approval request?",
-			confirmButtonLabel: "Reject"
-		};
-		var confirmationDialog = MsDynCrmApprovals.xrm.Navigation.openConfirmDialog(confirmDialogStrings);
-		confirmationDialog.then(function (result) {
-			if (result.confirmed) {
-				// if the user confirm that he want to reject the changes
-				// the statuscode of the entity must be set with the value saved in msdyncrm_restorestatuscode field
-				MsDynCrmApprovals.Handlers.setStatus(context, Constants.restoreStatusCode, Constants.statusCode);
-				// context.data.save() is throwing exception. This is not happenning with setTimeout
-				setTimeout(function () { return context.data.save(); }, 0);
-			}
-		});
-	},
-	// this function is execute when a marketer ask for approval
-	askApprovals: function (context) {
-		var localizationProvider = new MsDynCrmApprovals.Utilities.LocalizationProxy(MsDynCrmApprovals.inheritedJQuery);
-		var localizationProviderValidationPromise = localizationProvider.getLocalizationProvider("DynamicsMarketing.labels");
-		var entityName = context.data.entity.getEntityName();
-		// popup to ask to the marketer if he is ready to ask for approvals
-		MsDynCrmApprovals.inheritedJQuery.when(localizationProviderValidationPromise)
-			.done(function (localizationProviderValidation) {
-			var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(entityName);
-			var confirmDialogStrings = {
-				text: "Are  you ready to submit this item for approval?",
-				confirmButtonLabel: "Ask approval"
-			};
-			var confirmationDialog = MsDynCrmApprovals.xrm.Navigation.openConfirmDialog(confirmDialogStrings);
-			confirmationDialog.then(function (result) {
-				if (result.confirmed) {
-					// if the marketer confirm that he is ready to ask for approvals
-					// the entity must be validated to check that it is ready to go live without other changes
-					var entityValidatorFactory = MsDynCrmMkt.ExtensibilitySupplier.entityValidator();
-					var entityValidator = entityValidatorFactory.create(localizationProviderValidation, entityName);
-					// validate take as parameters 3 lamda fucntions for handle success, warning and error result
-					entityValidator.validate(function () {
-						//if the entity is valid we need:
-						// 1. set the previous statuscode in msdyncrm_restorestatuscode field
-						// 2. set status code in "needs approval" stage
-						var status = context.getAttribute(Constants.statusCode);
-						if (status != null && status.getValue() !== statusCodeFactory.getNeedApproval()) {
-							if (status.getValue() === statusCodeFactory.getError()) {
-								var restoreStatusCode = context.getAttribute(Constants.restoreStatusCode);
-								restoreStatusCode.setValue(statusCodeFactory.getStopping());
-							}
-							else if (status.getValue() !== statusCodeFactory.getLiveEditable()) {
-								MsDynCrmApprovals.Handlers.setStatus(context, Constants.statusCode, Constants.restoreStatusCode);
-							}
-							status.setValue(statusCodeFactory.getNeedApproval());
-						}
-						context.data.save().then(function () { context.ui.refreshRibbon(); }, function () { context.ui.refreshRibbon(); });
-					}, function () { context.data.refresh(); }, function () { context.data.refresh(); });
-				}
-			});
-		});
-	},
-	// this function is execute when a user approve the entity
-	approve: function (context) {
-		// popup to ask to the approver to confirm that he want to approve the entity
-		var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(context.data.entity.getEntityName());
-		var confirmDialogStrings = {
-			text: "Are you sure you want to approve this approval request?",
-			confirmButtonLabel: "Approve"
-		};
-		var confirmationDialog = MsDynCrmApprovals.xrm.Navigation.openConfirmDialog(confirmDialogStrings);
-		confirmationDialog.then(function (result) {
-			if (result.confirmed) {
-				// if the approver confirm that the entity can be approved
-				// the statuscode of the entity must be set to "approved"
-				context.getAttribute(Constants.statusCode).setValue(statusCodeFactory.getApproved());
-				context.data.save().then(function () { context.ui.refreshRibbon(); }, function () { context.ui.refreshRibbon(); });
-			}
-		});
-	},
-	// check if the entity is in one of the stages that must be approved
-	canReject: function (context) {
-		var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(context.data.entity.getEntityName());
-		var statusCode = context.getAttribute(Constants.statusCode).getValue();
-		return statusCode === statusCodeFactory.getNeedApproval() ||
-			statusCode === statusCodeFactory.getApproved();
-	},
-	// check if the entity is in one of the stages that must be approved
-	needApprove: function (context) {
-		var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(context.data.entity.getEntityName());
-		var statusCode = context.getAttribute(Constants.statusCode).getValue();
-		return window.Xrm.Page.data.entity.getId() !== "" && (statusCode === statusCodeFactory.getDraft() ||
-			statusCode === statusCodeFactory.getStopped() ||
-			statusCode === statusCodeFactory.getError() ||
-			statusCode === statusCodeFactory.getLiveEditable());
-	},
-	// check if the entity is in one of the stages that can go live
-	canGoLive: function (context) {
-		var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(context.data.entity.getEntityName());
-		var statusCode = context.getAttribute(Constants.statusCode).getValue();
-		return statusCode === statusCodeFactory.getDraft() ||
-			statusCode === statusCodeFactory.getStopped() ||
-			statusCode === statusCodeFactory.getError() ||
-			statusCode === statusCodeFactory.getLiveEditable() ||
-			statusCode === statusCodeFactory.getApproved();
-	},
-	// used as enable rule to check that the user is an approver or that the entity is in approved state
-	canIApprove: function (context) {
-		var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(context.data.entity.getEntityName());
-		var privilegesProvider = new MsDynCrmApprovals.Utilities.PrivilegesProvider();
-		var statusCode = context.getAttribute(MsDynCrmApprovals.Constant.Constants.statusCode).getValue();
-		return privilegesProvider.retrieveUserPrivileges(context) ||
-			statusCode === statusCodeFactory.getApproved();
-	},
-	// used as enable rule to check that the user is a marketer
-	iAmMarketer: function (context) {
-		var privilegesProvider = new MsDynCrmApprovals.Utilities.PrivilegesProvider();
-		return !privilegesProvider.retrieveUserPrivileges(context);
-	},
-	// set the value of fieldToRead in fieldToSet. 
-	// In this example is used to set and restore msdyncrm_restorestatuscode
-	setStatus: function (context, fieldToRead, fieldToSet) {
-		var actualField = context.getAttribute(fieldToRead);
-		var toSetField = context.getAttribute(fieldToSet);
-		if (actualField != null && actualField.getValue() != null) {
-			toSetField.setValue(actualField.getValue());
-		}
-	}
-};
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-var MsDynCrmMkt;
-(function (MsDynCrmMkt) {
-MsDynCrmMkt.ExtensibilityCallback = {
-	canGoLive: function () {
-		return MsDynCrmApprovals.Handlers.canIApprove(MsDynCrmApprovals.xrm.Page) &&
-			MsDynCrmApprovals.Handlers.canGoLive(MsDynCrmApprovals.xrm.Page);
-	},
-	liveEditablePreAction: function () {
-	},
-	customUpdateFormControls: function () {
-		var privilegesProvider = new MsDynCrmApprovals.Utilities.PrivilegesProvider();
-		var xrm = window.Xrm;
-		privilegesProvider.getPrivilegeId().then(function (result) {
-			if (result.entities) {
-				var priviledgeId = result.entities[0].privilegeid;
-				var roleIds = xrm.Page.context.getUserRoles();
-				var promises = privilegesProvider.hasPrivileges(priviledgeId, roleIds);
-				Promise.all(promises).then(function (result) {
-					if (result.some(function (e) { return e.entities.length > 0; })) {
-						var customFormFieldsControllerFactory = new MsDynCrmApprovals.Utilities.CustomFormFieldsControllerFactory(xrm);
-						customFormFieldsControllerFactory.create(xrm.Page.data.entity.getEntityName()).updateControls();
-					}
-				});
-			}
-		}, function () { });
-	},
-	preventSave: function () {
-		var xrm = window.Xrm;
-		var statusCodeFactory = new MsDynCrmApprovals.Utilities.StatusCodeFactory().create(xrm.Page.data.entity.getEntityName());
-		var isLiveEditable = xrm.Page.getAttribute(MsDynCrmApprovals.Constant.Constants.statusCode).getValue() === statusCodeFactory.getLiveEditable();
-		if (isLiveEditable && MsDynCrmApprovals.Handlers.iAmMarketer(xrm.Page)) {
-			return true;
-		}
-		return false;
-	}
-};
-})(MsDynCrmMkt || (MsDynCrmMkt = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Utilities;
-(function (Utilities) {
-	var LocalizationProxy = /** @class */ (function () {
-		function LocalizationProxy(inheritedJQuery) {
-			LocalizationProxy.inheritedJQuery = inheritedJQuery;
-		}
-		LocalizationProxy.prototype.getLocalizationProvider = function (webResourceName) {
-			var localizationDeferred = LocalizationProxy.inheritedJQuery.Deferred();
-			var languageId, clientUrl;
-			if (window.GetGlobalContext) {
-				var context = window.GetGlobalContext();
-				languageId = context.userSettings.languageId;
-				clientUrl = context.getClientUrl();
-			}
-			else {
-				var xrm = window.Xrm || window.parent.Xrm;
-				languageId = xrm.Utility.getGlobalContext().userSettings.languageId;
-				clientUrl = xrm.Utility.getGlobalContext().getClientUrl();
-			}
-			var labelPromise = this.getLabels(clientUrl, webResourceName, languageId);
-			LocalizationProxy.inheritedJQuery.when(labelPromise)
-				.done(function (labels) {
-				var localizationProvider = new Utilities.LocalizationProvider(labels, languageId, false);
-				localizationDeferred.resolve(localizationProvider);
-			})
-				.fail(function () {
-				var localizationProvider = new Utilities.LocalizationProvider({ '': '' }, languageId, false);
-				localizationDeferred.resolve(localizationProvider);
-			});
-			return localizationDeferred.promise();
-		};
-		LocalizationProxy.prototype.getLabels = function (crmBaseURL, labelsName, languageCode) {
-			var labelsPromise = LocalizationProxy.inheritedJQuery.Deferred();
-			LocalizationProxy.inheritedJQuery.getJSON(this.getLocalizationFilePath(crmBaseURL, labelsName, languageCode))
-				.done(function (data) {
-				var labels = {};
-				LocalizationProxy.inheritedJQuery.each(data, function (key, val) {
-					labels[key] = val.Value;
-				});
-				labelsPromise.resolve(labels);
-			})
-				.fail(function () {
-				labelsPromise.resolve({});
-			});
-			return labelsPromise;
-		};
-		LocalizationProxy.prototype.getLocalizationFilePath = function (crmBaseURL, labelsName, languageCode) {
-			return crmBaseURL + "/WebResources/msdyncrm_/Localizations/" + labelsName + languageCode;
-		};
-		return LocalizationProxy;
-	}());
-	Utilities.LocalizationProxy = LocalizationProxy;
-})(Utilities = MsDynCrmApprovals.Utilities || (MsDynCrmApprovals.Utilities = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Utilities;
-(function (Utilities) {
-	/**
-	 * Class for accessing localized strings
-	 */
-	var LocalizationProvider = /** @class */ (function () {
-		function LocalizationProvider(labels, localeId, isRtl, labelsProvider) {
-			if (isRtl === void 0) { isRtl = false; }
-			if (labelsProvider === void 0) { labelsProvider = null; }
-			this.allLabels = [];
-			this.allLabels.push(labels);
-			this.localeId = localeId;
-			this.rtl = isRtl;
-			this.labelsProvider = labelsProvider;
-		}
-		/**
-		 * Gets the localized string
-		 */
-		LocalizationProvider.prototype.getLocalizedString = function (key) {
-			for (var _i = 0, _a = this.allLabels; _i < _a.length; _i++) {
-				var labels = _a[_i];
-				if (key in labels) {
-					return labels[key];
-				}
-			}
-			return key;
-		};
-		/**
-		 * Adds new label dictionary to find the localized strings in
-		 */
-		LocalizationProvider.prototype.addLabels = function (labels) {
-			this.allLabels.push(labels);
-		};
-		/**
-		 * Gets the labels provider responsible for getting string JSON file.
-		 */
-		LocalizationProvider.prototype.getLabelsProvider = function () {
-			return this.labelsProvider;
-		};
-		/**
-		 * Gets the locale id for the language assigned by Microsoft. For example, for English - United States it should returns 1033.
-		 */
-		LocalizationProvider.prototype.getLocaleId = function () {
-			return this.localeId;
-		};
-		/**
-		 * Gets the information whether the language is right to left.
-		 */
-		LocalizationProvider.prototype.isRtl = function () {
-			return this.rtl;
-		};
-		return LocalizationProvider;
-	}());
-	Utilities.LocalizationProvider = LocalizationProvider;
-})(Utilities = MsDynCrmApprovals.Utilities || (MsDynCrmApprovals.Utilities = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Utilities;
-(function (Utilities) {
-	var PrivilegesProvider = /** @class */ (function () {
-		function PrivilegesProvider() {
-		}
-		PrivilegesProvider.prototype.retrieveUserPrivileges = function (context) {
-			var _this = this;
-			if (PrivilegesProvider.shouldRefresh) {
-				return PrivilegesProvider.shouldRefresh;
-			}
-			this.getPrivilegeId().then(function (result) {
-				if (result.entities) {
-					var priviledgeId = result.entities[0].privilegeid;
-					var roleIds = MsDynCrmApprovals.xrm.Page.context.getUserRoles();
-					var promises = _this.hasPrivileges(priviledgeId, roleIds);
-					Promise.all(promises).then(function (result) {
-						if (result.some(function (elem) { return elem.entities.length > 0; })) {
-							PrivilegesProvider.shouldRefresh = true;
-							context.ui.refreshRibbon();
-						}
-						else {
-							PrivilegesProvider.shouldRefresh = false;
-						}
-					});
-				}
-				else {
-					PrivilegesProvider.shouldRefresh = false;
-				}
-			}, function () { PrivilegesProvider.shouldRefresh = false; });
-			return false;
-		};
-		PrivilegesProvider.prototype.getPrivilegeId = function () {
-			var filter = "?$select=privilegeid&$filter=name eq 'prvWritemsdyncrm_approval'";
-			return MsDynCrmApprovals.xrm.WebApi.retrieveMultipleRecords(MsDynCrmApprovals.Constant.Table.privilege, filter);
-		};
-		PrivilegesProvider.prototype.hasPrivileges = function (privilegeId, roleIds) {
-			var promises = [];
-			roleIds.forEach(function (roleId) {
-				var filter = "?$filter=privilegeid eq '" + privilegeId + "' and roleid eq '" + roleId + "'";
-				promises.push(MsDynCrmApprovals.xrm.WebApi.retrieveMultipleRecords(MsDynCrmApprovals.Constant.Table.roleprivilegesCollection, filter));
-			});
-			return promises;
-		};
-		return PrivilegesProvider;
-	}());
-	Utilities.PrivilegesProvider = PrivilegesProvider;
-})(Utilities = MsDynCrmApprovals.Utilities || (MsDynCrmApprovals.Utilities = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-/**
-* @license Copyright (c) Microsoft Corporation. All rights reserved.
-*/
-var MsDynCrmApprovals;
-(function (MsDynCrmApprovals) {
-var Utilities;
-(function (Utilities) {
-	/**
-	* Status code factory
-	*/
-	var StatusCodeFactory = /** @class */ (function () {
-		function StatusCodeFactory() {
-		}
-		StatusCodeFactory.prototype.create = function (entityName) {
-			if (entityName === MsDynCrmApprovals.Constant.Constants.marketingForm) {
-				return new MsDynCrmApprovals.Constant.MarketingFormStatusCode();
-			}
-			return new MsDynCrmApprovals.Constant.DefaultTransientStatusCode();
-		};
-		return StatusCodeFactory;
-	}());
-	Utilities.StatusCodeFactory = StatusCodeFactory;
-})(Utilities = MsDynCrmApprovals.Utilities || (MsDynCrmApprovals.Utilities = {}));
-})(MsDynCrmApprovals || (MsDynCrmApprovals = {}));
-//# sourceMappingURL=Approvals.CrmWebResource.js.map
-```
+To make our solution to work, we need to create three custom ribbon buttons as explained below. To create custom ribbon buttons, see [Ribbon customizations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
 
-### Step 3: Create ribbon buttons
+|Ribbon|Enable rules|Action|
+|-----|-------|------|
+|Approve|- Be an Approver <br/> - Be in Approval required state| Move the entity to **Approved** state|
+|Reject| - Be an Approver <br/> - Be in Approval required state| Move the entity back to the previous state (use the `msdyncrm_rstorestatuscode` field to retireve)|
+|Ask approval| - Be a Marketer <br/> - Be in draft, error or stop state| Store the actual state of the entity in `msdyncrm_restorestatuscode` field and move the entity to Approval requested state|
 
-In this step, we will create three custom ribbon buttons **Approve**, **Reject**, and **Ask approval**. To create custom ribbon buttons, see [Ribbon customizations](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
+We will also need to remove the possibility for the marketer to enter in **live editable** state. The main idea is that if a request for approval is coming from a draft, error or stopped state and the approver decide to reject the changes, these are kept and is up to the marketer to make new ones. This logic cannot be applied to live editable stage, in fact if the approver would reject an entity that was in live editable, the entity will switch to live. Now if we would keep the changes the user could be confused since what he will see in the form will be different of what is saved in our services. To prevent this problem, we should revert the changes proposed by the marketer. If the entity is not strongly customized, we suggest achieving this introducing an extra field inside the entity and use this field to serialize the entity when a user access live editable stage. For this scope we introduce a new extensibility point: MsDynCrmMkt.ExtensibilityCallback.liveEditablePreAction. If we create an event on load of the form named as above this code will be called when the entity will enter in live editable state. The deserialization can be done both inside the action of the Reject ribbon or inside a plugin. We strongly suggest the second approach since gives a better control of the typing and is compatible with Microsoft Flow integration. 
 
-Use the below CustomActions, CommandDefinition, and EnableRules for the three custom ribbon buttons respectively.
+Step 3: Leverage extensibility points
 
-**Approve button**
-
-```XML
-<CustomAction Id="msdyncrm.msdyncrm_customerjourney.Approve.CustomAction" Location="Mscrm.Form.msdyncrm_customerjourney.MainTab.Save.Controls._children" Sequence="73">
-      <CommandUIDefinition>
-        <Button Alt="$LocLabels:msdyncrm.msdyncrm_customerjourney.Approve.Button.Alt" Image16by16="/_imgs/imagestrips/transparent_spacer.gif" Command="msdyncrm.msdyncrm_customerjourney.Approve.Command" Description="Approve" Id="msdyncrm.msdyncrm_customerjourney.Approve.Button" LabelText="$LocLabels:msdyncrm.msdyncrm_customerjourney.Approve.Button.LabelText" Sequence="73" TemplateAlias="o1" ToolTipTitle="$LocLabels:msdyncrm.msdyncrm_customerjourney.Approve.Button.ToolTipTitle" ToolTipDescription="$LocLabels:msdyncrm.msdyncrm_customerjourney.Approve.Button.ToolTipDescription" ModernImage="SuccessIcon" />
-      </CommandUIDefinition>
-    </CustomAction>
-<CommandDefinition Id="msdyncrm.msdyncrm_customerjourney.Approve.Command">
-      <EnableRules>
-        <EnableRule Id="msdyncrm.msdyncrm_customerjourney.CanApprove.EnableRule" />
-        <EnableRule Id="msdyncrm.msdyncrm_customerjourney.iAmApprover.EnableRule" /> 
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="MsDynCrmApprovals.Handlers.approve" Library="$webresource:msdyncrm_Approvals.CrmWebResource">
-          <CrmParameter Value="SelectedControl" />
-        </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition>
-  </CommandDefinitions>
-<EnableRule Id="msdyncrm.msdyncrm_customerjourney.CanApprove.EnableRule">
-        <ValueRule Field="statuscode" InvertResult="false" Value="812250000" Default="false" />
-      </EnableRule>
-<EnableRule Id="msdyncrm.msdyncrm_customerjourney.iAmApprover.EnableRule">
-        <CustomRule FunctionName="MsDynCrmApprovals.Handlers.canIApprove" Library="$webresource:msdyncrm_Approvals.CrmWebResource" Default="false" >
-          <CrmParameter Value="SelectedControl" />
-        </CustomRule>
-      </EnableRule>
-``` 
-
-**Reject button**
-
-```XML
-<CustomAction Id="msdyncrm.msdyncrm.msdyncrm_customerjourney.Reject.CustomAction" Location="Mscrm.Form.msdyncrm_customerjourney.MainTab.Save.Controls._children" Sequence="74">
-      <CommandUIDefinition>
-        <Button Alt="$LocLabels:msdyncrm.msdyncrm_customerjourney.Reject.Button.Alt" Command="msdyncrm.msdyncrm_customerjourney.Reject.Command" Id="msdyncrm.msdyncrm_customerjourney.Reject.Button" Image32by32="" Image16by16="/_imgs/imagestrips/transparent_spacer.gif" LabelText="$LocLabels:msdyncrm.msdyncrm_customerjourney.Reject.Button.LabelText" Sequence="74" TemplateAlias="o1" ToolTipTitle="$LocLabels:msdyncrm.msdyncrm_customerjourney.Reject.Button.ToolTipTitle" ToolTipDescription="$LocLabels:msdyncrm.msdyncrm_customerjourney.Reject.Button.ToolTipDescription" ModernImage="Close" />
-      </CommandUIDefinition>
-    </CustomAction>
-<CommandDefinition Id="msdyncrm.msdyncrm_customerjourney.Reject.Command">
-      <EnableRules>
-        <EnableRule Id="msdyncrm.msdyncrm_customerjourney.CanReject.EnableRule" />
-        <EnableRule Id="msdyncrm.msdyncrm_customerjourney.iAmApprover.EnableRule" /> 
-      </EnableRules>
-      <DisplayRules />
-      <Actions>
-        <JavaScriptFunction FunctionName="MsDynCrmApprovals.Handlers.restoreStatusCode" Library="$webresource:msdyncrm_Approvals.CrmWebResource">
-          <CrmParameter Value="SelectedControl" />
-        </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition>
-<EnableRule Id="msdyncrm.msdyncrm_customerjourney.CanReject.EnableRule">
-        <CustomRule FunctionName="MsDynCrmApprovals.Handlers.canReject" Library="$webresource:msdyncrm_Approvals.CrmWebResource" Default="false" InvertResult="false" >
-          <CrmParameter Value="SelectedControl" />
-        </CustomRule>
-      </EnableRule>
-```
-
-**Ask approval button**
-
-```XML
-<CustomAction Id="msdyncrm.msdyncrm.msdyncrm_customerjourney.AskApproval.CustomAction" Location="Mscrm.Form.msdyncrm_customerjourney.MainTab.Save.Controls._children" Sequence="74">
-      <CommandUIDefinition>
-        <Button Alt="$LocLabels:msdyncrm.msdyncrm_customerjourney.AskApproval.Button.Alt" Command="msdyncrm.msdyncrm_customerjourney.AskApproval.Command" Id="msdyncrm.msdyncrm_customerjourney.AskApproval.Button" Image32by32="" Image16by16="/_imgs/imagestrips/transparent_spacer.gif" LabelText="$LocLabels:msdyncrm.msdyncrm_customerjourney.AskApproval.Button.LabelText" Sequence="74" TemplateAlias="o1" ToolTipTitle="$LocLabels:msdyncrm.msdyncrm_customerjourney.AskApproval.Button.ToolTipTitle" ToolTipDescription="$LocLabels:msdyncrm.msdyncrm_customerjourney.AskApproval.Button.ToolTipDescription" ModernImage="Warning" />
-      </CommandUIDefinition>
-    </CustomAction>
-<CommandDefinition Id="msdyncrm.msdyncrm_customerjourney.AskApproval.Command">
-      <EnableRules>
-        <EnableRule Id="msdyncrm.msdyncrm_customerjourney.NeedApprove.EnableRule" />
-        <EnableRule Id="msdyncrm.msdyncrm_customerjourney.iAmMarketer.EnableRule" />
-      </EnableRules>
-      <DisplayRules>
-      </DisplayRules>
-      <Actions>
-        <JavaScriptFunction FunctionName="MsDynCrmApprovals.Handlers.askApprovals" Library="$webresource:msdyncrm_Approvals.CrmWebResource">
-          <CrmParameter Value="SelectedControl" />
-        </JavaScriptFunction>
-      </Actions>
-    </CommandDefinition> 
-<EnableRule Id="msdyncrm.msdyncrm_customerjourney.NeedApprove.EnableRule">
-        <CustomRule FunctionName="MsDynCrmApprovals.Handlers.needApprove" Library="$webresource:msdyncrm_Approvals.CrmWebResource" Default="false" InvertResult="false" >
-          <CrmParameter Value="SelectedControl" />
-        </CustomRule>
-      </EnableRule> 
-<EnableRule Id="msdyncrm.msdyncrm_customerjourney.iAmMarketer.EnableRule">
-        <CustomRule FunctionName="MsDynCrmApprovals.Handlers.iAmMarketer" Library="$webresource:msdyncrm_Approvals.CrmWebResource" Default="false" InvertResult="false" >
-          <CrmParameter Value="SelectedControl" />
-        </CustomRule>
-      </EnableRule>
-
-```
+For our example we will need to use 2 of the extensibility points mention above, both should be added as event on load on the main form of the customer journey inside the new solution created before:
+•	MsDynCrmMkt.ExtensibilityCallback.canGoLive: this function, if defined, is used to decide when show go live button so, for our example we will need to check that the entity is in draft, error, stop state and the logged user is a marketer or we are in approved state 
+•	MsDynCrmMkt.ExtensibilityCallback.customUpdateFormControls: this function, if defined, is execute after the form is full loaded. In our specific case we can use it to unlock the fields that we want to make editable for the marketers
 
 ### Step 4: Create two system views
 
-Create two system views in the cutomer journey entity to display all the entities that need an approval and all the entities that are already approved and waiting to **Go live**. More information: [Create system views](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)
+To easily identify the entities that are in **Approval required** and **Approve** state, we suggest to create two system views in the customer journey entity to display all the entities that need an approval and all the entities that are already approved and waiting to **Go live**.  More information: [Create system views](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)
 
 ## Integrate with Microsoft Flow
 
-Microsoft Flow has a connector for approvals that we can reuse. To do so, create a new flow inside the **Sample approval** solution (in this way, we can export and reuse the solution). To achieve the scenario above, we need to follow the steps below: 
+ The approvals feature can also be created using [Microsoft Flow](https://flow.microsoft.com/en-us/). To create the approvals feature, we need to follow the steps below: 
 
-1. Trigger the new flow when a customer journey is updated, in particular when the **statuscode=need approval**. 
-2. If the status code is equal to need approval, then we want to go ahead with our flow
-3. To configure in a more generic way the next steps, create two new fields inside the customer journey.
-   - **msdyncrm_organizationurl** that contains the URL of the organization.
-   - **msdyncrm_approvers** that contains the email address of the manager.
-4. Create a plugin that fills these new fields on the retrieve of the entity.
-5. We can use the default approval connector to notify the approvers that a new customer journey needs, to be checked. Based on the response, we can change the **statuscode** value of the entity (restore the initial value or go to the approved stage).
+1. Sign in to [Microsoft Flow](https://flow.microsoft.com/en-us/) with your Dynamics 365 for Marketing credentials.
+2. Select **Solutions** tab from the left pane,From the list of available solutions, select **Sample Approval** solution and click on **New** and select **Flow**.
+3. Enter the **Flow Name** on the top left corner and select **Triggers** tab and search for **When a record is updated** and select that as shown below.
+4. Enter the following values in the required fields and click on **New step**.
+   - Environment: Select the environment.
+   - Entity Name: Select the customer journey entity
+   - Scope: Set the scope to **Organization**
 
+5. In the **Actions** tab, select **Condition**.
+6. In the **Condition** section, enter the condition parameters as shown below 
+    > [!NOTE]
+    > The value of the **Approval requested** should be entered in the value parameter
+
+7. Select **Add an action** in the **If yes** tab, search for approvals and select **Start and wait for an approval** form the list.
+8. In the **Select and wait for an approval** tab, select **Approve/Reject - First to respond** option for **Approval type**.
+9. Enter the following details in **Select and wait for an approval** tab
+   - Title: Enter the name of the title you wish.
+   - Assigned to: Enter the email address of the person. In this case, it should be the email address of the person who has to approve. 
+
+10. Select **Add an action** to add one more action to the **Start and wait for an approval** tab, select **Condition** from the **Actions tab**.
+11. Enter the condition parameter values as shown below.
+12. Select **Add an action** in the **If yes** tab, click on **Common Data Service** and select **Update a record**.
+13. Enter the details as shown below
+    - Environment: Select the environment, it should be the same that you have selected earlier.
+    - Entity Name: Select customer journey entity from the list.
+    - Record identifier: Set the customer journey id.
+    - Click on **Show advanced options** and set **Status reason value** to **Approved**.
+
+14. Now in the **If no** tab, select **Add an action** select **Common Data Service** and select **Get record**.
+15. Enter the details in the required fields as shown below
+16. Click on **Add an action**, select **Common Data Service** and select **Update a record**.
+17. Enter the values as shown below. 
+18. Click on **Save**. Click on **Flow Checker** to verify if there are any errors in the flow. 
