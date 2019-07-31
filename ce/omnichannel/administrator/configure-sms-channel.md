@@ -2,7 +2,7 @@
 title: "Configure an SMS channel | MicrosoftDocs"
 description: "Instructions for configuring an SMS channel in Omnichannel for Customer Service."
 keywords: ""
-ms.date: 07/01/2019
+ms.date: 07/31/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -71,7 +71,7 @@ To sign up for TeleSign:
 
 1.	Sign in to Omnichannel Administration.
 
-2.	Go to **Channels** > **Work Streams**.
+2.	Go to **Work Distribution Management** > **Work Streams**.
 
 3.	Select **New** to create a work stream.
 
