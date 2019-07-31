@@ -101,17 +101,16 @@ Microsoft Dynamics 365 for Customer Engagement supports the native Dynamics 365 
 
 ## Configure automatic filtering
 
+Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
+
+For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
+
 This feature can be extended to automatically filter knowledge articles on any lookup field that is present on both Case and Knowledge Article entity. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
 
-Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering.
-
-> [!NOTE]
-> The Knowledge Base Search control is present on Case for Interactive Experience main form in the Customer Service Hub. You can add it on any form as per your requirement.
-
-In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
+Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering. In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
 
 1. Select **Enable Automatic Filtering** check box to enable automatic filtering.
-2. Select **Users can turn off automatic filtering** check box if you want to provide your agents the option to turn off automatic filtering and search the entire knowledge base.
+2. Select **Users can turn off automatic filtering** check box if you want to provide your agents the option to turn off automatic filtering and search the entire knowledge base. This enables **Auto filter results** option for agents on knowledge search control.
 3. Select **Add Filter** to define filtering of knowledge articles on case subject or any other lookup field.
 4. Select **Set** to save the properties.
 

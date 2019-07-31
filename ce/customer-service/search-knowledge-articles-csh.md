@@ -103,31 +103,30 @@ In the Knowledge Base search box:
 
 ## View filtered articles in the Related section
 
-Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
+As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search in entire knowledge base depending on your requirement. 
 
-For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
+Administrator or system customizer must configure this option for you. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
 
-As a customer service agent, you can view automatically filtered knowledge articles in the Related section of a case. With the help of filtered knowledge articles, you can resolve customer queries quickly and accurately. You also have an option to switch between auto-filtered search results or results from the entire knowledge base.
+To view the auto filtered results:
 
-> [!NOTE]
-> Administrators can configure this option in the Knowledge Base Search control. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering)
+1. Search knowledge articles from the case related section. To learn more, see [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub).
 
-Follow these steps to view filtered knowledge articles.
+2. The articles are automatically filtered and displayed to you based on case data.
 
-1. In the **Customer Service Hub** sitemap, go to **Service** > **Cases**.
-2. Select a case from the **Active Cases** view. Navigate to the **Related** section and select **Knowledge Base Search** to search the knowledge articles. To learn more, see [Related section in Customer Service Hub](customer-service-hub-user-guide-basics.md#related-section)
+3. If you want to disable automatic filtering option and search the entire knowledge base for articles, deselect the **Auto-filter results** option.  
 
-    With the **Auto filter results** check box selected, the results are displayed in the **Knowledge Base Search** control as per configured automatic filtering. So, if automatic filtering is configured on case subject, the results display only those knowledge articles which have the same subject as case. 
+    > [!NOTE]
+    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the automatic filtered results. To learn more, see [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub). 
 
-    Let’s understand this in detail with the help of an example.
+Let’s understand this in detail with the help of an example.
 
-    In the below illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** check box selected, only those knowledge articles whose subject is **Xbox** are automatically filtered in and displayed. Other articles are automatically filtered out. This is shown in the below image.
+In the below illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** check box selected, only those knowledge articles whose subject is **Xbox** are automatically filtered in and displayed. Other articles are automatically filtered out. This is shown in the below image.
 
-    ![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
+![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   
-    However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
+However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
 
-    ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
+![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
     
 ## Submit ratings and feedback for knowledge articles
 
