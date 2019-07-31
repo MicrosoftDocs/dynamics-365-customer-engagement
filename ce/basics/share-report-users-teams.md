@@ -22,8 +22,6 @@ search.app:
 ---
 # Share a report with other users or teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you create a new report, share it with other people on your team or in your organization so that they can also benefit from it. There are several ways that you can share your new report with other people.  
   
 ## Share the report with other users or teams  

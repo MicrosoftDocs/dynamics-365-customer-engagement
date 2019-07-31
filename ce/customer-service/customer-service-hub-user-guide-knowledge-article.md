@@ -22,8 +22,6 @@ search.app:
 
 # Create and manage knowledge articles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Reduce call handling times with Knowledge articles in the Customer Service Hub application.
   
 With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 

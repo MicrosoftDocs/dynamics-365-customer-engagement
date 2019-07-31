@@ -23,8 +23,6 @@ search.app:
 ---
 # Manage licenses
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you receive a set of licenses to assign to users. Only licensed users are allowed access to the online service. You must assign a license to every user who will use the service.  
   
  A license conflict occurs if your organization has more users than licenses.  

@@ -25,8 +25,6 @@ search.app:
 
 # 4 - Send booking updates to Azure IoT Central
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Now that you've configured Connected Field Service to send service updates back to IoT Central, let's make it so booking details are sent back too.
 
 ## Goal

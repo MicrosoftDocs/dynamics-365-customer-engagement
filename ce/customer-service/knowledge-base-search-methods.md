@@ -25,8 +25,6 @@ search.app:
 
 # Understand knowledge base search mechanisms
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. 
 A knowledge base is created to help the customer service reps with solutions to the most common issues, so that they can assist customers quickly.
 

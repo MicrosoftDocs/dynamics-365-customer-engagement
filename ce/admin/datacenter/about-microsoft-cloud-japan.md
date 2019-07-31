@@ -22,8 +22,6 @@ search.app:
 ---
 # About the Microsoft Cloud Japan datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
-
 You may request migration to the Japan datacenter upon datacenter availability (March 2015).  
   
  If you’re an existing [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] customer with a billing address mapping to a new data center region, review the information in this topic to understand the move process:  

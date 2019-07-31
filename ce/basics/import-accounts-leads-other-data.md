@@ -21,8 +21,6 @@ search.app:
 ---
 # Import accounts, leads, or other data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Whether your data is stored in spreadsheets, databases, or other systems, you’ll probably want to import the data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] so you can keep track of all your customer information in one place.  
   
  You can import any type of information, such as accounts, leads, or opportunities – even activities or cases. (The different types of information are called “record types.”) Contacts typically come from an email program. You can read about this here: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import contacts](../basics/import-contacts.md)  

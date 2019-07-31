@@ -22,8 +22,6 @@ search.app:
 ---
 # Support for Dynamics 365 for Customer Engagement - operated by 21Vianet in China
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Dynamics 365 for Customer Engagement provides many self-service support options and support through 21Vianet in China.
 
 ## Self-help resources

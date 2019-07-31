@@ -20,8 +20,6 @@ search.app:
 ---
 # Use Microsoft Flow to automate processes across services
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Microsoft Flow lets you create automated processes between your favorite apps and services. From within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can run a Flow on one or more records. Also, you can open Microsoft Flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to view, edit, or create new flows.  
   
 > [!NOTE]

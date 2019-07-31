@@ -22,8 +22,6 @@ search.app:
 ---
 # Export to an Excel static worksheet
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information to an individual who doesn’t have access to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], or you have data that doesn’t change often, consider exporting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
   
  <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 for Customer Engagement apps lists up to 50 records per page. Choose the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  

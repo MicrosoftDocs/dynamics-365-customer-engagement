@@ -22,8 +22,6 @@ search.app:
 ---
 # Drill down in a chart
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can drill down into a segment on a chart to filter chart data for that segment. For example, you can drill down on one segment of a sales pipeline chart. You can also change the chart type as you drill down.  
   
 1. Open the list of records you want to chart, and then click the chart bar to the right of or above the list of records.  

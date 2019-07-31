@@ -23,9 +23,7 @@ search.app:
 ---
 # What are Preview features, and how do I enable them? 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-Preview features are features that aren’t complete but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
+Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Preview features:  
   
 - Are subject to separate [Supplemental Terms of Use](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   

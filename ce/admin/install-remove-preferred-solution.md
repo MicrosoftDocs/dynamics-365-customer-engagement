@@ -23,7 +23,7 @@ search.app:
 ---
 # Install, update, or remove a preferred solution
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Install preferred solutions to gain added features and functionality for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
