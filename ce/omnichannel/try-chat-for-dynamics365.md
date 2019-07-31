@@ -60,6 +60,8 @@ Once you have the subscription for Chat and assigned licenses to desired users, 
 
 In Dynamics 365 Administration Center, go to the **Applications** tab, select the **Omnichannel for Customer Service** application and select **Manage**. This will guide you to enable Chat on one or more instances that you may have. You can enable Chat on any instance type in this step. For more information on provisioning channels through the Dynamics 365 admin center, see [Provision Omnichannel for Customer Service](administrator/omnichannel-provision-license.md).
 
+![Manage Omnichannel application](media/manage-oc-application.png "Manage Omnichannel application")
+
 Once Chat is enabled in your organization, you can sign in to Dynamics 365 organization, and select the Omnichannel Administration application to start configuring Chat. For more information on configuring Chat in Dynamics 365, see [Configure a chat channel](administrator/set-up-chat-widget.md).
 
 ## Option 2: Chat trial through trials.dynamics.com
