@@ -28,8 +28,6 @@ search.app:
 ---
 # Field Service Mobile Setup
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The [!INCLUDE[pn_fieldservice_mobile_app_long](../includes/pn-fieldservice-mobile-app-long.md)] app gives field technicians the information they need to get to a customer location and complete work orders quickly.  
   
  Before field technicians can use the [!INCLUDE[pn_fieldservice_mobile_app_short](../includes/pn-fieldservice-mobile-app-short.md)] app, a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator needs to install the Field Service Mobile configuration tool and related mobile project. 

@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Generate a PDF document from a quote record
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
-
 Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
 
 > [!IMPORTANT]

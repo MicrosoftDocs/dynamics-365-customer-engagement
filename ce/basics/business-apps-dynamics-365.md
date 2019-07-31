@@ -21,8 +21,6 @@ search.app:
 ---
 # Business apps in Dynamics 365 for Customer Engagement
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are role-based business apps so organizations can start with what they need to run their business, and then grow at their own pace.  
   
  These apps are simple and intuitive, and make it easier for users to quickly find the things they need to do every day.  

@@ -27,8 +27,6 @@ search.app:
 
 # Open the Dynamics 365 admin center
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the Dynamics 365 admin center to review the status of your apps and solutions, apply updates, and manage your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances, solutions, and apps. 
 
 There are two ways to open the Dynamics 365 admin center: starting from within the Marketing app or starting from the Microsoft 365 admin center. Both methods produce the same result, so the method you choose will depend on where you are when you want to open the Dynamics 365 admin center.

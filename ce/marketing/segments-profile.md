@@ -27,8 +27,6 @@ search.app:
 
 # Design profile-based dynamic segments
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
 - **Profile segments** query the _profile_ records stored in the marketing insights database. Profiles records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the marketing insights database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#dci-sync).

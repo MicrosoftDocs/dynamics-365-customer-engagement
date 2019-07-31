@@ -28,8 +28,6 @@ search.app:
 ---
 # Create a purchase order (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a purchase order (P.O.) is created to add inventory to a warehouse, or to purchase products to sell to a customer in a work order.    
   
 <a name="BKMK_step1"></a>   

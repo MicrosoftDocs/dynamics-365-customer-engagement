@@ -28,8 +28,6 @@ search.app:
 
 # Purchase and set up Dynamics 365 for Marketing
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Read this topic to learn how to set up a new Dynamics 365 for Marketing instance after you have purchased a license.
 
 > [!TIP]

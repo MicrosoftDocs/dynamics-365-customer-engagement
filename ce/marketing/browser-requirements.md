@@ -27,8 +27,6 @@ search.app:
 
 # Browser and system requirements
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Dynamics 365 for Marketing is a cloud-based service that does not require special software other than an up-to-date web browser, though some restrictions apply. Read this topic to find out which devices, browser, and browser settings you should use when working with Dynamics 365 for Marketing.
 
 ## Supported desktop browsers

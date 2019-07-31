@@ -27,8 +27,6 @@ search.app:
 
 # Preview feature: Use the Organization Insights dashboard to view metrics about your instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Organization Insights dashboard is now deprecated. To view metrics, go to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com) and select **Analytics**.
   
 ### See also  

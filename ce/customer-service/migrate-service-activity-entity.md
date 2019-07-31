@@ -18,8 +18,6 @@ manager: "shujoshi"
 
 # Migrate Service Activity entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Service Activity entity in Service Scheduling can't be migrated through the UI. You can use Dynamics 365 Web API or Organization Service to do this. This topic shows how to use Dynamics 365 Organization Service to migrate the Service Activity entity.
 
 This sample performs the following actions:

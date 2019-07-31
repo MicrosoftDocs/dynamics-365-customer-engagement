@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Set up a product family (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it. A product family lets you group and categorize products, making it easier for you to manage them.  
   
  With product families, you can:  

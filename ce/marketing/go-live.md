@@ -27,8 +27,6 @@ search.app:
 
 # Go live with publishable entities and track their status
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ with a record before you can it them in your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
 
 Some types of entities require a live records to be stopped before you can edit it, while others let you push updates from the app without stopping the live process. In some cases, you won't be able to make certain types of changes (or even any changes at all) once you have gone live with a given record.

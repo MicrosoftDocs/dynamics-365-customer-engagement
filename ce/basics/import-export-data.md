@@ -18,8 +18,6 @@ search.app:
 ---
 # Import and export data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To keep track of all your customer data in one place, you may want to import contacts, leads, or other record types into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] from other sources, such as from an email program, a spreadsheet, or your phone.
 
 > [!NOTE]

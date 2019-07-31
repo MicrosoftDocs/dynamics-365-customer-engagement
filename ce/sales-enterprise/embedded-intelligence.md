@@ -22,8 +22,6 @@ topic-status: Drafting
 
 # Analyze customer-interaction data with Embedded intelligence 
 
-Applies to Dynamics 365 for Customer Engagement (online), version 9.1.0<br>
-
 Embedded intelligence is a suite of features which continuously analyze the vast collection of customer-interaction data already stored in your [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help you better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward.  
   
 Embedded intelligence includes the following features, which all work together to amplify their individual strengths:  

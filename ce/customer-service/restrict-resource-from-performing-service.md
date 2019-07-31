@@ -24,8 +24,6 @@ search.app:
 
 # Restrict a resource from performing a service
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can restrict a resource from performing a service and define the service capacity for the resource. You can also restrict when a resource is available to be scheduled for a specific service. The resource is still available for scheduling service activities for other services.
   
 1. In the Customer Service Hub sitemap, go to **Service Scheduling**.

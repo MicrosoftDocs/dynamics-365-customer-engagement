@@ -24,8 +24,6 @@ search.app:
 
 # Set the custom icon in views for Case Origin field
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a custom icon to display in views where the Case Origin field is visible.  
   
 ## Case Origin field icons  

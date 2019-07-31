@@ -21,8 +21,6 @@ search.app:
 ---
 # Select a data map
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 1. Select a data map to tell the Import Data wizard how to organize your imported data into the right columns and fields in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
     Select the default data map to let the wizard automatically map your data, or select a data map to match the type of information you’re importing.  
