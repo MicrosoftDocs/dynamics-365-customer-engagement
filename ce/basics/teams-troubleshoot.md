@@ -134,7 +134,7 @@ If you get an error while configuring Microsoft Teams Integration from Dynamics 
 
 - SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
 
-- SharePoint Integration is not configured but there is an active SharePoint Site in your organization. To fix the issue, deactivate the SharePoint Site.
+- SharePoint Integration is not configured but there is an active SharePoint Site in your organization. To fix the issue, deactivate the SharePoint site.
 
 - SharePoint Integration is not configured but there is SharePoint document locations created with Absolute URL in your organization. To fix the issue, delete locations with Absolute URL.
 
