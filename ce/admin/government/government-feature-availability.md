@@ -23,8 +23,6 @@ search.app:
 ---
 # Dynamics 365 US Government - Feature availability 
 
-*NA* (through May, 2019)
-
 Microsoft strives to maintain functional parity between our commercially available service and that which is servicing the Dynamics 365 for Customer Engagement for U.S. Government - referred to as Dynamics 365 GCC and GCC High. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
 
 At this time, preview features in the commercial offering are not available to Dynamics 365 US Government Community Cloud (GCC) and GCC High customers. This is intentional, as the GCC and GCC High deployment enable a community leveraging our generally available services, further protected with heightened compliance demands of the U.S. Government and Government community customers.

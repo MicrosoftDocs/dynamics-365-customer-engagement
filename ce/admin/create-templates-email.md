@@ -23,7 +23,6 @@ search.app:
 ---
 # Create templates for email
 
-*NA*</br>
 *This content also applies to the on-premises version.*
 
 Save time when creating multiple email messages by making email templates. Email templates contain prefilled data that you specify, so you don’t have to re-enter the same information for each article.  
