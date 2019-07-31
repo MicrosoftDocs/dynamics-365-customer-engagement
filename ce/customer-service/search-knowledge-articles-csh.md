@@ -150,6 +150,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide comments](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
+To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control) 
 
 ### See also
 
