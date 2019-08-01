@@ -128,7 +128,7 @@ However, if the Auto filter results check box is not selected, you can see more 
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
     
-## Submit ratings and feedback for knowledge articles
+<!--## Submit ratings and feedback for knowledge articles
 
 As a customer service agent, you can easily provide feedback on knowledge articles with the help of knowledge article rating in the Customer Service Hub. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
 
@@ -150,7 +150,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide comments](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
-To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control) 
+To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control) -->
 
 ### See also
 
