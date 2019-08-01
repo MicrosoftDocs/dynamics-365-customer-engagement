@@ -7,6 +7,10 @@
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+#### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
+#### [Define lead qualification experience](define-lead-qualification-experience.md)
+#### [Make price list optional](make-price-list-optional.md)
 #### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
 #### [Customize the business card scanner control](customize-business-card-scan-control.md)
 
@@ -15,6 +19,7 @@
 #### [Create a product](../sales-enterprise/create-product-sales.md)
 #### [Create a product family](../sales-enterprise/create-product-family.md) 
 #### [Create product bundles](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+#### [Change parent of a product](change-product-parent.md)
 #### [Publish a product or bundle](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Create price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
 #### [Create unit group](../sales-enterprise/create-unit-group-add-units-that-group.md)

@@ -97,6 +97,28 @@ Microsoft Dynamics 365 for Customer Engagement supports the native Dynamics 365 
 |    |    Row Layout  |  Select the maximum number of rows per page.|
 
 
+## Configure automatic filtering
+
+Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
+
+For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
+
+This feature can be extended to automatically filter knowledge articles on any lookup field that is present on both Case and Knowledge Article entity. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
+
+Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering. In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
+
+1. Select **Enable Automatic Filtering** check box to enable automatic filtering.
+2. Select **Users can turn off automatic filtering** check box if you want to provide your agents the option to turn off automatic filtering and search the entire knowledge base. This enables **Auto filter results** option for agents on knowledge search control.
+3. Select **Add Filter** to define filtering of knowledge articles on case subject or any other lookup field.
+4. Select **Set** to save the properties.
+
+    > [!NOTE]
+    > Ensure that Relevance search is enabled for automatic filtering to work. The Knowledge Article attribute must be added to the Knowledge Article Quick Find View. Ensure Source Entity Attribute is present on the form.
+
+   ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
+
+To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
+
 ### See also  
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)
