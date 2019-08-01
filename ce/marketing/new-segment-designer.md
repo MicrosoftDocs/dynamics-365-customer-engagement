@@ -176,6 +176,9 @@ Because your database probably includes a large number of contacts, the designer
 
 When you're done picking contacts for your static segment, select Go live on the command bar, as usual. Once the segment is live, it will include a **Members** tab, which lists all contacts in the segment.
 
+> [!IMPORTANT]
+> Static segments can contain a maximum of 5,000 members. If you need to curate a larger list than this, then please create a static marketing list instead. You can bring a static marketing list into a dynamic profile segment using relations if needed. For more information about marketing lists and how they are different from segments, see [Marketing segments vs. marketing lists](segments-vs-lists.md) and [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md).
+
 <a name="segment-compound"></a>
 
 ## Design a compound segment (combined audiences)
