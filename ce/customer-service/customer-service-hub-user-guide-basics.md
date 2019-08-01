@@ -279,7 +279,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   |-----------------------|-----------------------|
   | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
   | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
-  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> </ul> |
+  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> <li> Closed </li> </ul> |
   | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
   | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
 
