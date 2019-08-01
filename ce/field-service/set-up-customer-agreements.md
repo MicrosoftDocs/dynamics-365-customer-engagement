@@ -337,6 +337,8 @@ agreement sub status note
 
 can pick an incidet type with requirement groups for an agreemnt
 
+changing booking recurrence will update booking dates
+
 **Tips**:  
   
 -   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
