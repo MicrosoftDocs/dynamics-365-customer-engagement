@@ -28,14 +28,14 @@ Welcome to Dynamics 365 for Customer Service. Visit this page to learn about new
 
 ## What's new in August 2019 update
 
-### Timeline section
+### Preview: Timeline section
 
 The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
 Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
 To learn more, see [Timeline](customer-service-hub-user-guide-basics.md#timeline).
 
-### Knowledge base search control
+### Preview: Knowledge base search control
 
 The Customer Service Hub comes with an enhanced Knowledge search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
 
