@@ -23,7 +23,12 @@ search.app:
 
 # Build approvals feature using Microsoft Flow
 
-The approvals feature can also be created using [Microsoft Flow](https://flow.microsoft.com/en-us/). To create the approvals feature, we need to follow the steps below:
+We recommend that you integrate your approvals feature with Microsoft Flow. This will help you implement features such as:
+- Automatically generate and send request-for-approval emails to approvers.
+- Include active approve and reject buttons in request-for-approval emails.
+- Easy customization of the approval steps, using a framework that most administrators will be able to understand and adjust for themselves.
+
+To set up an approval workflow in Microsoft Flow:
 
 1. Sign in to [Microsoft Flow](https://flow.microsoft.com/en-us/) with your Dynamics 365 for Marketing credentials.
 1. Select **Solutions** tab from the left pane, from the list of available solutions, select **Sample Approval** solution, click on **New** and select **Flow**.
