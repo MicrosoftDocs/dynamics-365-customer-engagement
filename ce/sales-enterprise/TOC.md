@@ -7,6 +7,8 @@
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+#### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
 #### [Make price list optional](make-price-list-optional.md)
 
