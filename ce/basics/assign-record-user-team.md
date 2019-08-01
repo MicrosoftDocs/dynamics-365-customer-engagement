@@ -21,8 +21,6 @@ search.app:
 ---
 # Assign a record to a user or team
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 If you would like another person in your organization to handle an account or contact for you, you can assign the record to that person.  
   
  You can also assign a record to a team, or to yourself.  

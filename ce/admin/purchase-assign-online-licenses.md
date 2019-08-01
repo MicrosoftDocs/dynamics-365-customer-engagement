@@ -23,8 +23,6 @@ search.app:
 ---
 # Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
   
 > [!TIP]

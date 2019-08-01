@@ -22,8 +22,6 @@ search.app:
 ---
 # Quick create--Enter new records--fast!
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it’s always available whenever you need to enter new info into the system.  
   
  With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.  

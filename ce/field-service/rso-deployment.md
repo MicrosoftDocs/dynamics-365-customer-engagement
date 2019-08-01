@@ -18,8 +18,6 @@ search.app:
 ---
 
 # Deployment of the Resource Scheduling Optimization (RSO) solution
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## Prerequisites 
 
 To deploy Resource Scheduling Optimization, you must first do the following:

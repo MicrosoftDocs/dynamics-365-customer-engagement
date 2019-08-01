@@ -28,8 +28,6 @@ search.app:
 ---
 # Set up resource pay types to track costs associated with resource bookings (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Resource pay types can be used to track your company's costs associated with a resource booking. When the status of a resource booking record is set to "complete," the system generates booking journal records, according to the time that a field agent spent performing the work.  
   
  The system can create one booking journal record for each of the following journal types: travel, working hours, break, overtime, and business closure, depending on the various resource booking statuses that the user applied to the resource booking while completing the work.  

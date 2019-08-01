@@ -21,7 +21,7 @@ caps.latest.revision: 36
 
 # Set up sales territories to organize business markets by geographical area
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Improve sales potential and revenues by creating territories for customer and market segments in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
   

@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Set up product bundles to sell multiple items together (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Encourage customers to buy more products instead of a single product by combining products in a bundle.   
   
  These are the differences between kits and bundles:  

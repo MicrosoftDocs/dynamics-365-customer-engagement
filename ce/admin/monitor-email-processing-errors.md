@@ -23,7 +23,7 @@ search.app:
 ---
 # Monitor email processing errors
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps generates alerts if errors occur while email is being processed. An error can be classified based on the nature of the error and on whether the error is for an email, a mailbox, or an email server profile.  
 

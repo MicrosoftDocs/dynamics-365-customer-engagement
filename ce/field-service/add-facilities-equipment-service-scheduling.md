@@ -24,8 +24,6 @@ search.app:
 
 # Add facilities and equipment for service scheduling (Customer Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] to ensure optimal services to your customers.  
 
 > [!IMPORTANT]
