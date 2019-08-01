@@ -55,7 +55,7 @@ Enter an **Agreement Prefix** and **Agreement Starting Number**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-field-service-settings.png)
 
-Doing so will dictate the Agreement Number when a new agreement is created.
+Doing so will dictate the Agreement Number when a new agreement is created. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-custom-prefix.png)
@@ -63,7 +63,7 @@ Doing so will dictate the Agreement Number when a new agreement is created.
 
 ## Scenario 1: auto generate work orders for asset maintenance
 
-An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They would like to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month with some flexibility. They would like dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work based on an agreed upon price.   
+An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next two years. They would like to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month with some flexibility. They would like dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed upon price.   
 
 We will use agreements along with customer assets, incident types, and price lists to configure this scenario. 
 
@@ -98,6 +98,11 @@ We will use agreements along with customer assets, incident types, and price lis
 ### Step 2: Set up booking recurrence
 
 Once the agreement has been created, specify how often work orders are generated.  
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-create-booking-setup.png)
+
   
 1.  In the **Booking Setups** section, click **+Add Booking Setup record**.  
   
@@ -153,6 +158,8 @@ Once the agreement has been created, specify how often work orders are generated
 
 ### Step 4: Activate agreement and view work orders
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-incident-items.png)
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active.png)
@@ -172,8 +179,7 @@ Once the agreement has been created, specify how often work orders are generated
 > ![Screenshot of ](./media/agreement-active-booking-dates-details-work-order.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/agreement-incident-items.png)
+
 
 ### Step 5: Perform agreement work order
 
@@ -302,6 +308,8 @@ Generate agreement start time
 generate agreement dates x months - use those to understand work
 
 copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
+
+ when are items copied to agreements? on add or on activate?
 
 an agreement can only be for a single location - yes
 
