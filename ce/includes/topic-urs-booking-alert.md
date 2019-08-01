@@ -72,5 +72,6 @@ The icon indicates the number of active alerts for that booking; clicking it exp
 
 - When deleting records, keep the relationship **Booking – Booking Alert – Booking Alert Status** in mind. By default, you can't remove a booking that has booking alerts associated to it.
 
+- You can edit the fields inside a booking alert by editing the Booking Alert Template in [Schedule Board Tab Settings](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/schedule-board-tab-settings#other-settings).
 
 
