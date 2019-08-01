@@ -87,6 +87,8 @@ Fill in your information. Use the handy tooltips as a guide.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-create.png)
 
+Other tab
+
 
 ### Step 2: Set up booking recurrence
 
@@ -252,7 +254,7 @@ Because this agreement is already Active, the invoices will be eligible
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-field-service-settings-invoice.png)
 
-if no date is entered, when will invoices be generated
+if no date is entered, when will invoices be generated - day of date at record generation time
 
 
 
@@ -277,37 +279,49 @@ Automatic billing invoices are generated at a set recurrence for a set price. Th
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-field-service-settings.png)
 
-record generation time is time of user who set the setting? or time of user who created the agreement?
+record generation time is time of user 
 
 
 Agreement with multiple incident types
+- how are you tracking assets - if one asset for a work order you can ensure all time spent on that work order was for that asset
+- multiple people 
 
 
 Agreement with multiple recurrences
+- if youre doing something monthly, quartlery, and yearly, multiple recurrences
 
 Schedule agreement work orders with RSO
+- make sure the requirements of generated work orders are set to optimize. this can be achieved with a workflow, or by default for all work flows. 
 
 using invoices and work orders on same agreement?
+- could be the same
+- pay cell phone whether make calls or not
 
 entitilements/SLAs?
+- pre and bost bookings are effectively your SLA
+- dont bill for work orders from the agreement by setting up entitlement at the incident type level because organizations commonly create incident types specifically for agreements. can be done with price list.
+
 
 location/account
 
 ## Additional Notes
 
-agreements work with the sales  opp quote order process
+agreements work with the sales opp quote order process. 
+- service-maintenance based lead
+- opportunity > opportunity lines with service based lines > monthly maintenance and start and end date 
+- (can go straight to quote) quote > quote lines (service based lines) > quote booking setup > won > order > active agreement
 
-Generate agreement start time 
+if no number is entered, when will invoices be generated? day of at record generation
 
-if no number is entered, when will invoices be generated?
-
-if no number is entered, when will work orders be generated?
+if no number is entered, when will work orders be generated? day of at record generation
 
 generate agreement dates x months - use those to understand work
 
+if generate WO is no and generate booking is yes, booking will happen when WO is generated.
+
 copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
 
- when are items copied to agreements? on add or on activate? looks like on add. what about when no?
+ when are items copied to agreements? on add or on activate? looks like on add. what about when no? asynchronous 
 
 an agreement can only be for a single location - yes
 
@@ -320,6 +334,8 @@ quote invoice as a substitute
 you cannot manually generate agreement invoices like you can with agreement work orders
 
 agreement sub status note
+
+can pick an incidet type with requirement groups for an agreemnt
 
 **Tips**:  
   
