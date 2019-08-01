@@ -24,8 +24,6 @@ search.app:
 
 # Define Service Level Agreements (SLAs)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Define the level of service or support that your organization agrees to offer to a customer by using service level agreements (SLAs) in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Include detailed items to define metrics or key performance indicators (KPIs) to attain the service level. KPIs help you get timely warnings on your team’s issues while providing support.  
 
  You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied.       You can associate only SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)  

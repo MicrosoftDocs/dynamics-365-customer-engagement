@@ -27,8 +27,6 @@ search.app:
 
 # Integrate with landing pages published on an external website
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides a complete solution for designing, publishing, and hosting landing pages on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal running on your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. However, you can also create or embed forms on your own external website that submit values back to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These external pages function similarly to native [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing pages, so they will generate contacts and/or leads in your database when submitted. However, a few limitations apply, depending on how you implement the external forms.
 
 There are two basic methods for integrating an external form page with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:

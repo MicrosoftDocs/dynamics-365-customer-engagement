@@ -23,8 +23,6 @@ search.app:
 ---
 # Plan for deployment and administration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps deployment will go more smoothly with some preliminary planning.  The following table lists some of the items to consider before you start the actual deployment process.  
 
 

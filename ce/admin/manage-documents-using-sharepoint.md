@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage your documents using SharePoint
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Dynamics 365 for Customer Engagement apps document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in Dynamics 365 for Customer Engagement apps that are seamlessly stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. 
 

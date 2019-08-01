@@ -24,8 +24,6 @@ search.app:
 
 # Use embedded knowledge search to set up knowledge management
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] supports two knowledge management solutions that you can choose from:  

@@ -28,8 +28,6 @@ search.app:
 
 # Administration and setup FAQ
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 for Marketing.
 
 <a name="licensing"></a>

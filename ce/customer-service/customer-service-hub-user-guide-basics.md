@@ -21,8 +21,6 @@ search.app:
 ---
 
 # Learn the basics of the Customer Service Hub
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
   
 The Customer Service Hub’s intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 

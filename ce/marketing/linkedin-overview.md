@@ -25,9 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-## Marketing on LinkedIn with Dynamics 365 for Marketing
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+# Marketing on LinkedIn with Dynamics 365 for Marketing
 
 LinkedIn is a social network that focuses on companies, professionals, and working life. It can be a great source for running targeted campaigns, exploring professional networks, and generating new leads. Dynamics 365 for Marketing offers several features for running and integrating marketing campaigns on LinkedIn. Integration points include:
 

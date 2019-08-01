@@ -22,8 +22,6 @@ search.app:
 ---
 # Create or edit a report using the Report Wizard
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 All reports that are created using the Report Wizard are Fetch-based reports. Note that all reports generated with the Report Wizard print in landscape mode.
   
   

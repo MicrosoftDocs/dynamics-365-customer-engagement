@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Clone a product (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you're creating a new product, family or bundle, save time by cloning an existing one. This creates a copy of the original record with all the details except for the name and ID. If the product, bundle or family has any properties, they're also copied to the cloned record.  
   
 ## Clone a product (Sales Hub)

@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/18/2019
+ms.date: 07/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
@@ -52,8 +52,24 @@ The type of team you choose depends on the goals, nature of the project, and eve
 - The team members require different access rights on the records. You can share a record with several access teams, each team providing different access rights on the record. For example, one team is granted the Read access right on the account and another team, the Read, Write, and Share access rights on the same account. 
 - A unique set of users requires access to a single record without having ownership of the record. 
 
-## About owner teams 
+## Common to all team types
 
+### Who can create teams?
+Anyone who has Create, Read, Update (Write), Delete (CRUD) privileges on the Team entity, can create any of the team types.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/create-teams-security-roles.png "Privileges for creating teams")
+
+### Add a Team administrator
+When you create a team, you need to add a Team administrator with a security role that has Read privilege to the Team entity. Go to **Settings** > **Security** > **Teams** and select a team to enter the Team administrator.
+
+> [!div class="mx-imgBorder"] 
+> ![](media/add-team-administrator.png "Adding Team administrator")
+
+### What inherited privilege do Team administrators have?
+Team administrators have access to Team owned records. Team administrators do not need to be added to a team and do not show up as a member of the team.
+
+## About owner teams 
 An owner team can own one or more records. To make a team an owner of the record, you must assign a record to the team.
 
 While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning security roles to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
@@ -64,7 +80,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## Create an owner team
 
-1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+1. Make sure that you have the System Administrator, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
    
    Check your security role:
    - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
@@ -90,7 +106,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## Edit an owner team
 
-1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+1. Make sure that you have the System Administrator, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
    
    Check your security role:
    - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
@@ -108,7 +124,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## About group teams
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
 ### Using Azure Active Directory groups to manage a user’s app and data access 
@@ -153,7 +168,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## Create a group team
 
-1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+1. Make sure that you have the System Administrator, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
 
    Check your security role:
    - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
@@ -188,7 +203,7 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## Edit a group team
 
-1. Make sure that you have the System Administrator, System Customizer, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
+1. Make sure that you have the System Administrator, Sales Manager, Vice President of Sales, Vice President of Marketing, or CEO-Business Manager security role or equivalent permissions.
    
    Check your security role:
    - Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
@@ -208,7 +223,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 > - The list of team members listed in each group team only displays the user members who have accessed the instance. This list doesn’t show all the group members of the Azure AD group. The team member’s privileges are derived dynamically at run-time when the team member accesses the application. The security role of the team is not assigned directly to the team member. Since team member's privileges are derived dynamically at run-time, the team member's Azure AD group memberships are cached upon the team member's log-in.  This means that any Azure AD group membership maintenance done on the team member in Azure AD will not be reflected until the next time the team member logs in or when the system refreshes the cache (after 8 hours of continuous log-in).
 > - **Discover and launch apps** coming soon in October 2019 - Group team members can see the list of all the apps and the list of all the environments they have access to based on their AAD Group membership. The temporary workaround is to assign a security role directly to the team member.  
 > - **System Administrator and Environment Maker security roles**. These are special administrator's security roles and they need to be assigned to the user directly. If these security roles are assigned to Group teams, team members get the team privileges only and won't have any direct/inherited privileges. Team members won't be able to perform all the system administrator and environment maker functions. In addition they won't be able to see the list of all the environments in their tenant. 
-> - **Impersonate an Azure AD group team member**. To make user impersonation calls on behalf of an Azure AD group team member using Dynamics 365 Web services, the group team member must first sign in to Dynamics 365 for Customer Engagement or run a canvas app.  This allows the user’s group team membership to be set and the user’s privileges can be determined when the impersonation calls are made subsequently. Check back for when this limitation will be removed.  
 
 <a name="AboutAccess"></a>   
 

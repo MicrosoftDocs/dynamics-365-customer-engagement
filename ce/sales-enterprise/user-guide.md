@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Resources for sales person (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)] helps you zero in on the right leads, contacts, and opportunities as you build out your team's sales pipeline. Built-in processes guide you from one stage of the sales process to the next, and  easy-to-use dashboards help you set goals and provide actionable insights to help you close more deals.  
   
 <a name="heroArea"></a> ![](media/Convert-Leads-to-Opportunities-Resized.png "Convert Leads to Opportunities: Hero image")
