@@ -8,6 +8,7 @@
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
+#### [Make price list optional](make-price-list-optional.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)

@@ -47,7 +47,7 @@ search.app:
  Generally, solutions can be imported into organizations less than two versions higher than the version the solution was exported from. Service pack releases will provide the option to either export a solution with compatibility for that service pack, or just with capabilities included in the base version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Maintain managed solutions: Version compatibility](maintain-managed-solutions.md#BKMK_VersionCompatibilty).  
   
 > [!NOTE]
-> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Introduction to solutions > Version compatiblity](https://msdn.microsoft.com/library/gg334576.aspx#BKMK_VersionCompat)
+> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Introduction to solutions > Version compatibility](https://msdn.microsoft.com/library/gg334576.aspx#BKMK_VersionCompat)
   
 <a name="BKMK_SolutionComponents"></a>
 
