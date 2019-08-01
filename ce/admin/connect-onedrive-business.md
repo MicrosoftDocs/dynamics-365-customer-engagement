@@ -23,8 +23,6 @@ search.app:
 ---
 # Enable OneDrive for Business (on-premises)
 
-*This content also applies to the on-premises version.*
-
 Users can create and manage private documents with [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Those documents can be accessed within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps after the system administrator has enabled [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].  
   
 ## Requirements  
