@@ -24,8 +24,6 @@ search.app:
   - D365Outlook
 ---
 # Customize the track regarding card 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 ## Customize the track regarding card
 
 The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.

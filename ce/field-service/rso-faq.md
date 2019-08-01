@@ -19,8 +19,6 @@ search.app:
 
 # FAQ and troubleshooting tips
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 for Customer Engagement Org A to Org B (with RSO deployed)? 
 
 RSO Endpoint, which is used for connecting Dynamics 365 for Customer Engagement org and RSO Azure resources on Org B, will be broken after copying an org or rest org. The recommended approach is to delete the current RSO deployment (this will not delete anything inside of the Dynamics 365 for Customer Engagement Org), copy and reset the org, and then redeploy RSO to target the Dynamics 365 for Customer Engagement org as needed.

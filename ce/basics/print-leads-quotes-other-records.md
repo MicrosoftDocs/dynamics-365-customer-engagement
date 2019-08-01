@@ -21,8 +21,6 @@ search.app:
 ---
 # Print leads, quotes, and other records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you need a paper copy of a record such as a contact, lead, quote, or invoice, you can print records individually or in a list.   
 
 ## Print an individual record  

@@ -23,8 +23,6 @@ search.app:
 ---
 # Policies and Communications for service incidents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## Introduction
 Microsoft regularly communicates work done to maintain and update Dynamics 365 for Customer Engagement  to ensure security, performance, and availability, and to provide new features and functionality. Microsoft also communicates details of service incidents including the potential user experience, the start and end times of the incident, and any workaround that may be available. For each of these activities, communication is provided through the Microsoft 365 Admin center in the Message Center, and the Service health dashboard. From time-to-time, Microsoft may also send direct email to users with the System Administrator role in a specifically impacted instance. For example, during a service incident we attempt to deliver an organization-specific email to impacted System Administrators.
   

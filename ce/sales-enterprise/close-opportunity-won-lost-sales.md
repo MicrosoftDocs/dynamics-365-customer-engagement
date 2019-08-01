@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Close an opportunity as won or lost (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
   
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 

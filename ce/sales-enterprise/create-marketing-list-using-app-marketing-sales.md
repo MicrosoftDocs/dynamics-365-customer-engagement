@@ -23,8 +23,6 @@ caps.latest.revision: 48
 
 # Create a marketing list using in-app marketing (Sales)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Your marketing list is the core of running a successful marketing campaign. It can include any one type of customer record, such as leads, accounts, or contacts.  
   
  You can create two types of marketing lists:  

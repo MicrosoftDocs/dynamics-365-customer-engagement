@@ -23,7 +23,7 @@ search.app:
 ---
 # Set up an organization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 This section describes how to set up your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. You will learn about managing business units and sites, adding resources and selecting language options.  
 

@@ -23,8 +23,6 @@ search.app:
 ---
 # Quickly navigate with the Office 365 app launcher and the Dynamics 365 for Customer Engagement apps home page
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] introduces a new app model for [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] apps and makes accessing these and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps fast and easy.  
   
  If you're a Customer Engagement apps user with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, you're just two clicks away from accessing the family of online apps that are available to you, like [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] and Excel Online.  

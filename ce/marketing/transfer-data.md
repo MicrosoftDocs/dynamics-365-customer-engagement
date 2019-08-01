@@ -27,8 +27,6 @@ search.app:
 
 # Transfer data and configurations between instances using the Configuration Migration tool
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can replicate [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] configurations and data across instances using the standard tools provided for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Common scenarios where this comes in handy include:
 
 - Move validated journeys, emails, and other content from a sandbox to a production environment

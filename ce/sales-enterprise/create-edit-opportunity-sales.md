@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Create or edit an opportunity (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win.  
   
  At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
