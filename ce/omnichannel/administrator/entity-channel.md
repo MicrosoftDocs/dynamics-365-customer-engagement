@@ -39,9 +39,12 @@ This allows organizations to tightly define the work profile that their agents a
 
 ## Cases channel
 
+Omnichannel leverages the existing CDS queue entity to automatically route cases. In omnichannel, first, the application routes the cases to the queues. From the queues the work distribution engine automatically distributes the cases to the agents.
 
-
-
+> [!Note]
+> - If you have already setup queues for cases or other entities in Dynamics 365 for Customer Service, you can continue to use the same for omnichannel work distribution.
+>
+> - Only case entity is supported in this release.
 
 ### See also 	
 
