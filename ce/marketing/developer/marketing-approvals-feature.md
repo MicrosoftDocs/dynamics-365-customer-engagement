@@ -29,7 +29,7 @@ Approvals are an often-requested feature that enables organizations to implement
  Instead, an approver user must inspect each record and decide whether to allow it to move to **Go live** state or whether more work is needed. The approver user is typically a system administrator or manager in Dynamics 365 for Marketing.
 
 > [!IMPORTANT]
-> The approval feature is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. It provides greatly improved control over what gets published but doesn't provide bulletproof security. Expert users of Dynamics 365 for Customer Engagement with proper permissions may be able to work around the approval workflow by accessing the system-customization features directly, so admins must take care when granting advanced permissions to users. 
+> The approval feature described here is intended to support a collaborative workflow among colleagues, and will help prevent accidentally going live with an entity that is not yet ready. To improve security, we recommend that you develop plugins that will prevent users from going live from any state that isn't approved, and also prevent users from editing any fields on records that are in the approval required, approved, or live state.
 
 ## Prerequisites
 
