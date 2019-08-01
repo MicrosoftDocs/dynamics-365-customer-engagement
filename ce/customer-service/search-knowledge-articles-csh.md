@@ -156,7 +156,56 @@ Select a article title to see its full content rendered in the same control. The
 >
 > - Copy Link, Email Link, and Email options can be used only for published and expired articles.
 
+## View auto filtered results
 
+As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps in identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can further have an option to disable the auto-filter results and search the entire knowledge base.  
+
+Administrator or system customizer must configure this option for you. To learn more, see [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
+
+To view the auto filtered results:
+
+1. Search knowledge articles from the case related section. To learn more, see [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub).
+
+2. The articles are automatically filtered and displayed to you based on case data.
+
+3. If you want to disable automatic filtering option and search the entire knowledge base for articles, deselect the **Auto-filter results** option.  
+
+    > [!NOTE]
+    > Administrator or system customizer must enable **Users can turn off automatic filtering** option for you to see the **Auto-filter results** option. If the **Users can turn off automatic filtering** option is not enabled, you will always see the auto filtered results. To learn more, see  [Configure automatic filtering](add-knowledge-base-search-control-forms.md#configure-automatic-filtering). 
+
+Let’s understand this in detail with the help of an example.
+
+In the below illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** check box selected, only those knowledge articles whose subject is **Xbox** are automatically filtered in and displayed. Other articles are automatically filtered out. This is shown in the below image.
+
+![Select Auto filter results](media/ka-select-auto-filter-results.png "Select Auto filter results")   
+  
+However, if the Auto filter results check box is not selected, you can see more articles that are not related to subject. These are the results from the entire knowledge base.
+
+![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
+    
+<!--## Submit ratings and feedback for knowledge articles
+
+As a customer service agent, you can easily provide feedback on knowledge articles with the help of knowledge article rating in the Customer Service Hub. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
+
+When you are working on a case and refer to an article from the **Knowledge Base Search** control, you will be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved
+
+> [!NOTE]
+> - Ensure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
+> - Customer service agents and customer service managers can create, or view feedbacks based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
+
+1. Open an article from search results to read it.
+
+2. You can rate a knowledge article and submit feedback. 
+
+    You can provide your feedback on the article, whether it is helpful or not, by selecting the **Thumbs up** or **Thumbs down** button.    
+
+    ![Provide feedback](media/ka-rating-feedback-thubms-up-down.png "Provide feedback")
+
+    If the article is not helpful, you can also provide your comments in the comment box on how the article can be improved. The comment box is displayed when you select **Thumbs down** button.
+
+    ![Provide comments](media/ka-rating-feedback-provide-comments.png "Provide comments")
+
+To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control) -->
 
 ### See also
 
@@ -165,4 +214,3 @@ Select a article title to see its full content rendered in the same control. The
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
-
