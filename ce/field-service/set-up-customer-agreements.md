@@ -85,9 +85,9 @@ We will use agreements along with customer assets, incident types, and price lis
   
 4.  Click **Save**.  
 
-agreement-create
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/agreement-create.png)
 
 
 ### Step 2: Set up booking recurrence
@@ -129,34 +129,62 @@ Once the agreement has been created, specify how often work orders are generated
   
     -   Use the tooltips as a guide to specify the booking date details and then click **Save & Close**.  
 
-agreement-booking-setup
 
-agreement-booking-recurrence
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-booking-setup.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-booking-recurrence.png)
+
 
 ### Step 3: Add agreement work details
 
-agreement-incident
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-incident.png)
+
 
 ### Step 4: Activate agreement and view work orders
 
-agreement-active
 
-agreement-active-booking-dates
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-active.png)
 
-agreement-active-booking-dates-annotation
 
-agreement-active-booking-dates-details-work-order
 
-agreement-incident-items
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-active-booking-dates.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-active-booking-dates-annotation.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-active-booking-dates-details-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-incident-items.png)
 
 ### Step 5: Perform agreement work order
 
-agreement-work-order-summary
 
-agreement-work-order-settings
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-work-order-summary.png)
 
-agreement-schedule-assistant-filters
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-work-order-settings.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-schedule-assistant-filters.png)
 
 invoices are created at close posting of work orders which is true whether work orders are part of an agreement or not.
 
@@ -173,17 +201,27 @@ In our example, we will add quarterly invoices to the agreement we just created.
 
 From the agreement, go to **Invoice Setup > Add New Agreement Invoice Setup**
 
-agreement-invoice-create-recurrence
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-create-recurrence.png)
 
 
 ### Step 2: Set up invoice recurrence and products
 
-agreement-invoice-setup-header
 
-agreement-invoice-recurrence-pattern
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-setup-header.png)
 
-agreement-invoice-add-products
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-recurrence-pattern.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-add-products.png)
+
 
 [only inventory or non inventory can be added]
 
@@ -192,9 +230,20 @@ agreement-invoice-add-products
 ### Step 3: Activate invoice recurrence and view invoices
 Because this agreement is already Active, the invoices will be eligible
 
-agreement-invoice-dates
 
-agreement-invoice-dates-generated
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-dates.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-dates-generated.png)
+
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-field-service-settings-invoice.png)
 
 
 
@@ -215,7 +264,13 @@ Automatic billing invoices are generated at a set recurrence for a set price. Th
 
 ## Configuration considerations
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-field-service-settings.png)
+
+
 Agreement with multiple incident types
+
 
 Agreement with multiple recurrences
 
