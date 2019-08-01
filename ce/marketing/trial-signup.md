@@ -50,6 +50,16 @@ You can sign up for, install, and use a trial version of Dynamics 365 for Market
 > [!NOTE]
 > If would like help setting up a trial, or if you would prefer to get a guided demo, go to the [Get started with Dynamics 365 for Marketing](https://dynamics.microsoft.com/get-started/?appname=marketing) page and then fill out and submit the **Request a call back** form. You will soon be contacted by a Dynamics 365 sales representative who can help you. To set up your own trial without personal assistance, continue reading this topic.
 
+## How trials are different from production instances
+
+In most ways, trials are fully functional, but time-limited, production instances. However, there are a few key differences:
+
+- Trials can only be installed on the trial instance that is included with the trial and installed together with it. You can't integrate trials with existing Dynamics 365 for Customer Engagement instances or other apps.
+- Trials can't be integrated with a Dynamics 365 Portal. All marketing pages are published to, and run on, the same server as the trial itself (on the service fabric). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
+- You can't uninstall/re-install trials using the usual tools provided by the Dynamics 365 admin center. Trials are special and are handled differently than production instances.
+- You won't need to run the [setup wizard](purchase-setup.md) when setting up a trial, and you shouldn't run it after the trial is set up either.
+
+
 <a name="choose-tenant"></a>
 
 ## Step 1: Choose or prepare your Microsoft 365 tenant
