@@ -2,7 +2,7 @@
 title: "Work Order and Booking Statuses | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/14/2019
+ms.date: 08/01/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -204,7 +204,15 @@ Here is the customer asset that results from the used work order product. Notice
 
 #### Closed – Posted
 - Invoice is generated for used work order products and services billing account 
-- Actuals records are created for time and materials costs related to work orders and bookings. 
+- Actuals records are created for time and materials costs related to work orders and bookings. Sales actuals for billed products and services are created once the generated invoice is confirmed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-lifecycle-confirm-invoice.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-lifecycle-sales-actuals.png) 
+
+
 - **Closed By** field is updated.
 - **Closed On** field is updated.
 
