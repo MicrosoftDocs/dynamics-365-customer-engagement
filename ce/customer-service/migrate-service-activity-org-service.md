@@ -17,8 +17,6 @@ manager: shujoshi
 ---
 # Sample: Migrate Service Activity entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 ### Prerequisites
 
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

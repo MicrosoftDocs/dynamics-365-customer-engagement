@@ -24,8 +24,6 @@ search.app:
 
 # Enable entities for service level agreements
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Service level agreements are not just important in the customer service space, but also for sales and marketing to ensure efficient handling of leads from start to finish.  
   
 Previously, you could only create SLAs for case records. With Dynamics CRM Onlin 2016 Update 1, you can now enable any of these entities for SLA:  

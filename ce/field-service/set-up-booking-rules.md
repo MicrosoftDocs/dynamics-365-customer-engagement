@@ -28,8 +28,6 @@ search.app:
 ---
 # Set up booking rules (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Booking rules in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] allow a System Administrator to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. For example, a booking rule could be created to warn a user when they attempt to book a work order to a resource on the schedule board that doesn't have the skills required for the job.  
   
  Set up booking rules to validate a booking when it is created or modified.  

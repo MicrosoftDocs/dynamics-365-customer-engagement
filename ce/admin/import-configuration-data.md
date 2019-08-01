@@ -23,7 +23,7 @@ search.app:
 ---
 # Import configuration data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 After exporting your configuration data from the source [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance, you are now ready to import it to the target [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance.  
   

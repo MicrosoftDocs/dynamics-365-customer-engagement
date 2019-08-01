@@ -6,7 +6,7 @@ author: anjgupta
 ms.author: anjgup
 manager: shujoshi
 applies_to: 
-ms.date: 07/22/2019
+ms.date: 07/31/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 0cc05811-6631-4a5c-85b1-c145be7d7a6f
@@ -67,7 +67,7 @@ Follow these steps to create a new work stream in Omnichannel for Customer Servi
             - Screen pop with decline
 
             > [!NOTE]
-            > In this release, only **Screen pop with timeout** option is supported with a default timeout value of 120 seconds. An agent has the option either to accept or reject the screen pop.
+            > In this release, only **Screen pop with decline** option is supported with a default timeout value of 120 seconds. An agent has the option either to accept or reject the screen pop.
 
         3. Select the **Allowed Presences** from the drop-down list. For more information, see [Configure and manage presence status](presence-custom-presence.md).
 

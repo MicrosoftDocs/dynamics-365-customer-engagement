@@ -23,8 +23,6 @@ search.app:
 ---
 # Delete an instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can delete [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a Production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
   
 <a name="BKMK_Delete"></a>   

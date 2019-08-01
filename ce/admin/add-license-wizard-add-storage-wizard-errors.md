@@ -23,8 +23,6 @@ search.app:
 ---
 # Fixing Add License Wizard and Add Storage Wizard errors
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You may see an error while running the Add User License Wizard if you have:  
   
 - Reached the maximum number of licenses available for your offer.  

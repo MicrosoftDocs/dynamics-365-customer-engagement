@@ -27,8 +27,6 @@ search.app:
 
 # Create interactive features with or without portals
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides features for creating landing pages, subscription centers, online forms, event websites, and other ways of interacting with your customers online. Each of these features is intended to be used by marketing contacts to view and submit information to and from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app. There are two ways to provide these interactive features:
 
 - **Run on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal**: With this option, the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app works together with the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution to provide fully automated publishing and hosting of marketing pages and the event website. You can provide all of these features without changing, or even owning, your own website. However, it requires a portals license and the features aren't fully native on your organization's website.

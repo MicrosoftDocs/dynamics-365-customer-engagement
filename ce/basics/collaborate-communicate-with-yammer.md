@@ -22,8 +22,6 @@ search.app:
 ---
 # Collaborate and communicate with Yammer
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives you one place to have conversations, create and edit documents, and share information with your colleagues without sending a single email or attending any meetings.  
   
  If your organization is set up to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you’ll see posts on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] dashboard when colleagues update customer info and you can comment on their posts—asking questions, offering congratulations, and so on.  

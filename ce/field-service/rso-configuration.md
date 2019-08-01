@@ -20,8 +20,6 @@ search.app:
 
 # Resource Scheduling Optimization (RSO) configuration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Perform these configuration steps after you deploy the RSO solution.
 
 1. Go to **Resource Scheduling Optimization** \> **Administration** \>

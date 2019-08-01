@@ -24,8 +24,6 @@ search.app:
 
 # Add a timer in forms to track time against enhanced SLAs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
  The timer control initially displays a count-down timer to show the time remaining to complete the KPI.  
