@@ -32,10 +32,6 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 
 The My Apps page shows the apps based on the logged in user's security role. 
 
-The following image shows the various Sales apps available:
-
-![Sales apps on My Apps page](media/apps-home-page.png "Sales apps on My Apps page")
-
 Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is available in: 
 
 - The Sales Hub app is built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is optimized to work on mobile devices as well as desktops.
