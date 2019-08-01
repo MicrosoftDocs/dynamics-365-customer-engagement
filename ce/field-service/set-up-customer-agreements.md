@@ -81,14 +81,13 @@ Fill in your information. Use the handy tooltips as a guide.
   
 **price list** - controls the price list populated on work orders and invoices generated from this agreement and effectively work order product, work order service, and invoice product and invoice service prices. It is recommended to add the relevant products and services to the price list with the agreed upon prices to the price list entered here. Because agreements typically involve negotiation, it is common to create a specific price list solely for this agreement. The price list on resulting work orders and invoices can be manually updated as needed.
 
-**Save**.  
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-create.png)
 
-Other tab
+In the Other tab you can enter more details such as the **Service Territory** resulting work orders should be part of, and **Record Generation Time** which dictates the time of day work orders, invoices, and other records related to this agreement should be generated. This is important because some organizations do not want agreements creating work orders in the middle of the working day. 
 
+Finally, **Save**.  
 
 ### Step 2: Set up booking recurrence
 
@@ -337,7 +336,7 @@ agreement sub status note
 
 can pick an incidet type with requirement groups for an agreemnt
 
-changing booking recurrence will update booking dates
+changing booking recurrence will update booking dates   
 
 **Tips**:  
   
