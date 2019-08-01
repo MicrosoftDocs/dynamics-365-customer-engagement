@@ -26,7 +26,8 @@ To allow your users to generate PDF documents directly from a quote, you must en
 
 
 > [!IMPORTANT]
-> The create quote PDF capability and the option to enable PDF generation is introduced in version 9.0.1905.2010.
+> - The create quote PDF capability and the option to enable PDF generation is introduced in version 9.0.1905.2010.
+> - In the August 2019 release, the option to generate PDf is enabled by default.
 
 1.	At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and select **App Settings**.
 
