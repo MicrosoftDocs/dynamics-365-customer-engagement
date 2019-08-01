@@ -155,11 +155,13 @@ Once the agreement has been created, specify how often work orders are generated
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident.png)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-incident-items.png)
+
 
 ### Step 4: Activate agreement and view work orders
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/agreement-incident-items.png)
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active.png)
@@ -175,8 +177,9 @@ Once the agreement has been created, specify how often work orders are generated
 > ![Screenshot of ](./media/agreement-active-booking-dates-annotation.png)
 
 
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/agreement-active-booking-dates-details-work-order.png)
+> ![Screenshot of ](./media/agreement-active-booking-dates-details.png)
 
 
 
@@ -309,7 +312,7 @@ generate agreement dates x months - use those to understand work
 
 copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
 
- when are items copied to agreements? on add or on activate?
+ when are items copied to agreements? on add or on activate? looks like on add. what about when no?
 
 an agreement can only be for a single location - yes
 
@@ -321,6 +324,8 @@ quote invoice as a substitute
 
 you cannot manually generate agreement invoices like you can with agreement work orders
 
+agreement sub status note
+
 **Tips**:  
   
 -   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
@@ -329,6 +334,9 @@ you cannot manually generate agreement invoices like you can with agreement work
   
 -   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-active-booking-dates-details-work-order.png)
   
 ### See also   
 
