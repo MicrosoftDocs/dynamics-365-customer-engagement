@@ -96,3 +96,6 @@ To set up an approval workflow in Microsoft Flow:
     ![If no enter update record details](../media/if-no-update-record-enter-values.png "If no enter update record details")
 
 1. Click on **Save**. Click on **Flow Checker** to verify if there are any errors in the flow.
+
+## See also
+[Build an approvals feature](marketing-approvals-feature.md)
