@@ -31,11 +31,11 @@ Approvals are an often-requested feature that enables organizations to implement
 > [!IMPORTANT]
 > The approval feature described here is intended to support a collaborative workflow among colleagues, and will help prevent accidentally going live with an entity that is not yet ready. To improve security, we recommend that you develop plugins that will prevent users from going live from any state that isn't approved, and also prevent users from editing any fields on records that are in the approval required, approved, or live state.
 
-## Prerequisites
+<!--## Prerequisites-->
 
-1. Download the [code]() for sample web resources and ribbon customizations.
+<!--1. Download the [code]() for sample web resources and ribbon customizations.
 2. Sign up or install [Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app
-3. License for [Microsoft Flow](https://flow.microsoft.com/en-us/) to create sample approvals feature
+3. License for [Microsoft Flow](https://flow.microsoft.com/en-us/) to create sample approvals feature-->
 
 
 ## Approval process
@@ -93,6 +93,7 @@ The only limitations that are remaining to  customize  the Marketing solution ar
 
 - Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
 - Inside the solution, create a new entity that can be named for example, approvals. We will use this entity to decide whether the user logged in the system is an approver or a marketer. 
+- Create two new users approver and marketer. The approver has the system administrator privileges, while the mareketer has only the  write access to the entity created above and with no system administrator or system customizer privileges. 
 
 
 ### Step 2: Create ribbon buttons
@@ -118,3 +119,5 @@ For our example, we will need to use 2 of the extensibility points mention above
 
 To easily identify the entities that are in **Approval required** and **Approve** state, we suggest to create two system views in the customer journey entity to display all the entities that need an approval and all the entities that are already approved and waiting to **Go live**.  More information: [Create system views](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-and-edit-views)
 
+## See also
+[Build approval feature using Microsoft Flow](build-approval-feature-using-flow.md)
