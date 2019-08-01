@@ -2,13 +2,13 @@
 title: What's new in Dynamics 365 for Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently updated or added in Dynamics 365 for Customer Service
 keywords: Dynamics 365 for Customer Engagement; Customer Service; Customer Service Hub; Customer Service app
-author: anjgupta
+author: kabala123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+ms.author: kabala
 manager: shujoshi
-ms.date: 03/08/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
@@ -25,6 +25,21 @@ search.app:
 # What's new in Dynamics 365 for Customer Service
 
 Welcome to Dynamics 365 for Customer Service. Visit this page to learn about new or updated features for Customer Service.
+
+## What's new in August 2019 update
+
+### Preview: Timeline section
+
+The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
+Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
+
+To learn more, see [Timeline](customer-service-hub-user-guide-basics.md#timeline).
+
+### Preview: Knowledge base search control
+
+The Customer Service Hub comes with an enhanced Knowledge search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
+
+To learn more, see [Knowledge Base Search control](search-knowledge-articles-csh.md#knowledge-base-search-control).
 
 ## Dynamics 365 for Customer Engagement apps version 9.1
 

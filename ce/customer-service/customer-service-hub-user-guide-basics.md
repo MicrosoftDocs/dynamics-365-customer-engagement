@@ -199,34 +199,97 @@ For example, here’s a view of how the tabs appear on the case form:
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
-### **Timeline**  
- See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline makes collaboration with other users easy and efficient.
+### **Timeline**
 
-The Customer Service Hub comes with an enhanced Timeline that lets you view all interactions, arranged in a single stream. You can create, update, and manage notes, posts and other interactions from the Timeline itself. 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-With the help of text and visual filters, you can filter by activity types in the Timeline. You can also check what you have missed from the previous day or week, using the **What’s new** section. This section gives you a view of new notes, unread emails, and new activities created while you have been away. 
-  
-The Timeline is available on the **Summary** tab for account, contact, case records, and for knowledge articles.
-  
- ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")  
-  
- Here are a few things you can do in the Timeline: 
- 
-  
--   Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.
-- Quickly create a new interaction with a customer by selecting **+** in the Timeline. 
-- Filter the timeline for a specific activity type or by date. 
-  
-     You can filter by Activity status or record type. Select the ellipsis and then select  **Open filter pane** to explore the filters
+The Customer Service Hub comes with an enhanced timeline that shows you all customer interactions arranged in a single stream. 
+Managing activities in the timeline wall will be faster and more responsive with improvements to data viewability and usability.
 
-     ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
-  
--   Refresh the timeline so you see the updated list of activities.  
-  
--   Select the title of an activity to open the activity record.  
-  
--   Take quick actions on an activity from the timeline, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, or deleting it.   
--   Sort the entries by latest or oldest entry.
+  ![Timeline shows customer activities across channels](../customer-service/media/v9-case-form-timeline.png "Timeline shows customer activities across channels")
+
+  1. Add info and activities
+  2. Filter
+  3. More commands
+  4. Activity icons
+
+The timeline section is available on the **Summary** tab for account, contact, case records, and for knowledge articles, and it shows the following:
+- Activity
+  - Appointment
+  - Email
+  - Phone Call
+  - Task
+- Note
+- Post
+
+> [!Note]
+> The activities mentioned above are out-of-the-box. If your administrator or system customizer has configured other activities, then those will appear. 
+
+You can create, edit, and delete an activity, note, post, and other interactions from the timeline itself. Additionally, you can filter and sort the interactions. In the timeline area, you can see three actions: **Add info and activities**, **Open filter pane**, and **More commands**. Use these options to add, filter, and sort the interactions on the timeline.
+
+- **Add info and activities:** Select the **+** icon in the timeline area to quickly open an activity type page to create and save. The activity type you created appears in the timeline.
+
+- **Filter the activities:** With the help of text and visual filters, you can filter by activity types in the timeline. You can also view the items from the previous day or week, and you can filter the interactions using the filter icon in the timeline area. To learn more, see [Filter activities on the timeline](#filter-activities-on-the-timeline)
+
+- **More commands:** The timeline provides the options to refresh so you see the updated list of activities and sort the timeline interactions. Select the ellipsis (**...**) in the timeline to refresh and sort the timeline by choosing one of the two: **Sort newer to older** and **Sort older to newer**.
+
+  ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
+
+#### **Take a note**
+You can select the **Enter a note** field in the timeline and specify a title and message. You can also add attachments to your notes.
+
+![Timeline notes and attachment](media/timeline-attachment.png "Timeline notes and attachment")
+
+You can do the following:
+
+- Identify the key activities with simple icons.
+- Quick access to the command bar to perform common actions on an activity with ease.
+- Filter activities on the timeline with multiple filter options.
+- View and manage email conversation threads on the timeline with ease.
+- Expand and collapse activities in the timeline with ease.
+
+#### **Identify the activities with icons**
+The timeline shows a simple icon next to the activity making it easy for you to identify the type of activity.
+
+  ![Timeline activity icons](../customer-service/media/activity-icons.png "Timeline activity icons")
+
+  1. Task
+  2. Phone Call
+  3. Posts
+  4. Email
+  5. Note
+  6. Appointment
+
+#### **Access command bar to perform actions**
+When you hover the cursor on an activity, the command bar appears with the options specific to the activity, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, liking a post, replying to a post, editing a note, or deleting the activity.
+
+  ![Timeline command bar options](../customer-service/media/timeline-options1.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options2.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options3.png "Timeline command bar options")
+  ![Timeline command bar options](../customer-service/media/timeline-options4.png "Timeline command bar options")
+
+#### **Filter activities on the timeline**
+Quickly filter the activities with multiple filter options to see what matters to you. The filter is available for the activity types that are present in timeline. That is, in the image shown, all are activity types are present in the timeline so the filter displays the activity types and the count of those activity types. 
+
+When you select the filter icon, you can see the **Filter by** menu where you can filter the items based on the following categories.
+
+  | Category | Sub-category |
+  |-----------------------|-----------------------|
+  | Record type | <ul> <li> Notes </li> <li> Posts </li> <li> Activities </li> </ul> |
+  | Activity type | <ul> <li> Appointment </li> <li> Email </li> <li> Phone Call </li> <li> Task</li> </ul> |
+  | Activity status | <ul> <li> Active </li> <li> Active and overdue </li> <li> Closed </li> </ul> |
+  | Activity due date (active) | <ul> <li> Next 30 days </li> <li> Next 7 days </li> <li> Next 24 hours </li> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
+  | Modified date | <ul> <li> Last 24 hours </li> <li> Last 7 days </li> <li> Last 30 days </li> </ul> |
+
+  ![Timeline activity filter](../customer-service/media/timeline-filter2.png "Timeline activity filter") ![Timeline activity filter](../customer-service/media/timeline-filter5.png "Timeline activity filter")
+
+#### **View and manage email conversations**
+You can easily set email messages to show as conversation threads on the timeline, significantly reducing usability (scroll and clicks) when managing email activities.
+
+#### **Expand and collapse timeline activities**
+Select an activity from the timeline to expand and view.
+
+  ![Timeline expand and collapse activity](../customer-service/media/timeline-expand-collapse.png "Timeline expand and collapse activity")
 
 ### **Related section**  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience. The reference panel is also available in model-driven apps, for information, see  [Reference Panel in model-driven apps ](https://docs.microsoft.com/en-us/powerapps/user/navigation#reference-panel).
