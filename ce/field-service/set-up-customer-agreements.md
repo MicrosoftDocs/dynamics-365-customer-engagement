@@ -41,20 +41,25 @@ Here are a few different ways agreements can be configured and utilized. The agr
 
 To use agreements, first create the **Agreement**. This is where you'll define high level details such as the customer, date range, and price list. Next create an **Agreement Booking Setup** where you'll define how often work orders should be created for the agreement along with basic details of the eventual work orders like Work Order Type. After that, you'll add **Agreement Incidents, products, services, and service tasks** that define the specific details of the work to be performed as part of each work order that is generated. Finally, you'll **activate** the agreement and Agreement Booking Dates will be created along with work orders as the date approaches.
 
-Let's walk through a scenario to create an agreement.
+Let's walk through two scenarios to show how agreements can create work orders and invoices.
 
 ## Prerequisites
 Field Service v6.1+
 
 This article assumes you have work order related data such as accounts, incident types, products, services, and service tasks configured in your system. 
 
-Consider specifying an agreement prefix and start number.
+Consider specifying an agreement prefix and start number (optional). Go to **Field Service > Settings** then the Agreement section.
 
-> [!Note]
->
+Enter an **Agreement Prefix** and **Agreement Starting Number**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/agreement-field-service-settings.png)
+
+Doing so will dictate the Agreement Number when a new agreement is created.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-custom-prefix.png)
+
 
 ## Scenario 1: auto generate work orders for asset maintenance
 
@@ -245,6 +250,8 @@ Because this agreement is already Active, the invoices will be eligible
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-field-service-settings-invoice.png)
 
+if no date is entered, when will invoices be generated
+
 
 
 Automatic billing invoices are generated at a set recurrence for a set price. The customer is billed for a product in the system. You can use this to bill customers for subscriptions, rental fees, and retainer services.  
@@ -267,6 +274,8 @@ Automatic billing invoices are generated at a set recurrence for a set price. Th
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-field-service-settings.png)
+
+record generation time is time of user who set the setting? or time of user who created the agreement?
 
 
 Agreement with multiple incident types
