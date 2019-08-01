@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Use the **msdyn_GetKAObjectFromTemplate** action to programmatically create a knowledge article from an existing knowledge article template.
+Use the **msdyn_GetKAObjectFromTemplate** action to create a knowledge article from an existing knowledge article template programmatically.
 
 ## Action parameters
 
