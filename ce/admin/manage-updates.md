@@ -1,8 +1,8 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement updates | MicrosoftDocs"
+title: "Manage updates | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 02/04/2019
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -24,8 +24,16 @@ search.app:
 ---
 # Manage updates
 
-[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)]
+Since [modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog), the update process has moved to the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
+
+See [Early Opt in to 2019 release wave 2](https://review.docs.microsoft.com/power-platform/admin/preview-october-2019-updates?branch=jimholtzworkbranch).
+
+> [!div class="mx-imgBorder"] 
+> ![](media/new-update.png "Updates")
+
+
+<!--
 On July 6, 2018, we announced some optimizations to how we deliver Dynamics 365 for Customer Engagement apps updates: [Modernizing the way we update Dynamics 365 for Customer Engagement](https://aka.ms/dynamics365updatesblog). Microsoft will continue to support older versions of Dynamics within the timeframe of the details in our [Update policy](../admin/manage-updates.md#BKMK_Policy). 
 
 > [!TIP]
@@ -107,40 +115,6 @@ Here are the recent versions.
 n = current version,  Dynamics 365 for Customer Engagement apps (online), version 9.x
 
 #### Recommended update approach  
-<!--
-1. Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   1. Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   2. Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], test the update for your solutions and customizations.  
-
-       If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-
-2. Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]  **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   1. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   2. Once your Sandbox instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], test the update for your solutions and customizations.  
-
-       If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-
-   3. Prepare a plan to train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-3. Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Production** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], skipping [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   1. Do not approve the [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] update.  
-
-      > [!NOTE]
-      >  If you have already approved the update, you can change the scheduled date to coincide with the availability of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   2. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   3. Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], confirm the update for your solutions and customizations.  
-
-       If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-
-   4. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
--->
 ![Update approach one (recommended)](media/cdu-approach1-flowchart.png "Update approach one (recommended)")
 
 ### CRM Online 2016 Update 1 – Approach Two  
@@ -158,39 +132,6 @@ For version information, see: [Dynamics 365 for Customer Engagement apps (online
 n = current version, Dynamics 365 for Customer Engagement apps (online), version 9.x
 
 #### Recommended update approach  
-<!--
-1. Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   1. Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   2. Once your Sandbox instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], test the update for your solutions and customizations.  
-
-       If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-
-2. Update your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] **Production** instance to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   1. Select your [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)].  
-
-   2. Once your Production instance has been updated to [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
-
-3. Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   1. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   2. Once your Sandbox instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], test the update for your solutions and customizations.  
-
-       If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-
-   3. Prepare a plan to train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-4. Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Production** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   1. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   2. Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
-
-   3. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
--->
 ![Update approach two](media/cdu-approach2-flowchart.png "Update approach two")
 
 
@@ -208,26 +149,6 @@ n = current version, Dynamics 365 for Customer Engagement apps (online), version
 
 #### Recommended update approach  
 Follow the process in the dashed box in the flowchart above. 
-
-<!--
-1. Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Sandbox** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   1. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Sandbox instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   2. Once your Sandbox instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], test the update for your solutions and customizations.  
-
-       If the update is unsuccessful, reset the Sandbox instance and reschedule the update until any issues are resolved.  
-
-   3. Prepare a plan to train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-2. Update your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] **Production** instance to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   1. When the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update becomes available, select your [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] Production instance and approve the update to target version [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
-
-   2. Once your Production instance has been updated to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], apply what you learned from the Sandbox instance update and confirm your Production instance update.  
-
-   3. Train your users for the changes in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].  
--->
 
 <a name="BKMK_Versions"></a>   
 
@@ -258,16 +179,6 @@ For recent versions, see [Dynamics 365 for Customer Engagement apps (online) rel
    -   Clicking **Schedule your update** lets the admin select a target release and then do the scheduling.  
 
    ![Manage Dynamics 365 for Customer Engagement apps Online instances](../admin/media/customer-driven-update-notice-1.png "Manage Dynamics 365 for Customer Engagement apps Online instances")  
-
-<!-- This banner appears to not happen anymore - May 1 2018  
-### A notification appears in your Customer Engagement apps web application  
-
-1.  Sign in to your Customer Engagement instance.  
-
-2.  If an update is available, admins will see a yellow [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps message bar notifying them of an available update.  
-
- ![Dynamics 365 for Customer Engagement apps Online update notice in banner bar](../admin/media/customer-driven-update-notice-2.png "Dynamics 365 for Customer Engagement apps Online update notice in banner bar")  
- -->
 
 ### Update notification emails are sent to admins  
  [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] system administrators will receive an email from the Customer Engagement apps Team. You can use the links in the email to learn more about your update or reschedule it.  
@@ -439,3 +350,4 @@ Please review [Notice About Online Policies and Similar Documents](https://www.m
  [FAQ for Dynamics 365 for Customer Engagement apps Update Policies](https://docs.microsoft.com/dynamics365/get-started/faq-update-policy)<br/>
  [Policies and Communications for Dynamics 365 for Customer Engagement apps (online)](../admin/policies-communications.md)<br/>    
  [Manage email notifications](../admin/manage-email-notifications.md)
+-->

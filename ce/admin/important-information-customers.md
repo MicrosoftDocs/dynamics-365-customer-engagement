@@ -26,8 +26,7 @@ search.app:
 > [!IMPORTANT]
 > Check out the following for current update information:
 >
-> - [Opt in to April 2019 updates](https://docs.microsoft.com/power-platform/admin/preview-april-2019-updates)
-> - [Manage updates](manage-updates.md)
+> - [Early opt in to 2019 release wave 2](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates) 
 
 Microsoft is introducing [Dynamics 365 for Customer Engagement](https://www.microsoft.com/dynamics365/home), the next generation of intelligent business applications that enable your organization to grow, evolve, and transform to meet the needs of your customers and capture new opportunities. As a result, Microsoft introduced new plans for customers November 1, 2016, that are similar, but not identical to your current plan.  
 
