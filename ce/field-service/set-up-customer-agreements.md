@@ -100,10 +100,17 @@ In the **Booking Setups** section, click **+Add Booking Setup record**.
 
 Fill in your information to create the agreement schedule. Use the handy tooltips as a guide.
 
-**Name** - enter the name of the agreement schedule. An example is "Montlhy Maintenance". 
+**Name** - enter the name of the agreement schedule. An example is "Montlhy Maintenance". Naming is important because an agreement can have multiple booking recurrences. As an example, the service organization may perform weekly and monthly maintenance as part of the same agreement.
 
 ### Work Order Settings  
-- **Auto Generate Work Order** - set to Yes to have this agreement automatically generate work orders. The system will generate work orders on a rolling basis. Generated work orders will appear in the active work order view with a status of open-unscheduled. If set to **No**, you have to manually generate the work order for each schedule date.   
+
+**Auto Generate Work Order** - set to **Yes** to have this agreement automatically generate work orders. The system will generate work orders on a rolling basis. Generated work orders will appear in the active work order view with a status of open-unscheduled. If set to **No**, you have to manually generate the work order for each schedule date.   
+
+**Generate Work Orders Day in Advance** - dictates how many days before the expected service date should the work order be generated. As an example, if the agreement calls for monthly maintenance on the 1st day of each month, you may want to generate the work orders starting 15 days before. Generating them more than 30 days before could result in 2 maintenance work orders for the same agreement in the unscheduled work orders queue, but generating it the day before may not give the scheduling team enough time to plan and schedule to the best resource. 
+
+
+**Work Order Type**, **Priority**, and **Work Location** entered here are passed down to resulting work orders.
+
 
 
 ### Booking Settings
