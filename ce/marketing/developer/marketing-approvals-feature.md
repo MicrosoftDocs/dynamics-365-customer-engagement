@@ -30,7 +30,7 @@ search.app:
 > 
 > We encourage all customers to provide feedback related to early access features on the [Dynamics 365 for Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum) and/or through [Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support).
 
-Dynamics 365 for Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers to build on its functionality, and one way to take advantage of this new extendibility is to create an approvals feature, possibly with integration with Microsoft Flow.
+Dynamics 365 for Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers, and one way to take advantage of this new extendibility is to create an approvals feature, possibly including integration with Microsoft Flow.
 
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't **Go live** right away with some types of important entities (such as emails, customer journeys, or segments). Instead, an approver user must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed first. The approver user is typically an administrator or manager who is specifically identified as an approver in the system.
 
