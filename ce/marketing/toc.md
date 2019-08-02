@@ -81,9 +81,9 @@
 
 ### Create marketing emails
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
-#### [Early access: Design multi-column layouts for email messages](email-layouts.md)
-#### [Preview: Check your spam score](spam-score.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
+#### [Preview: Check your spam score](spam-score.md)
+#### [Early access: Design multi-column layouts for email messages](email-layouts.md)
 #### [Early access: Design and run A/B test on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
