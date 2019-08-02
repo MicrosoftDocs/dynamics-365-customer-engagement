@@ -24,7 +24,7 @@ search.app:
 # Early access: Build an approvals feature
 
 > [!IMPORTANT]
-> This is an early access feature, which means that it's currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+> The instructions provided in this topic require you to work on an instance where early-access features are enabled. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
 > 
 > For instructions on how to opt in and enable early access, see [Enable the 2019 release wave 2 updates for Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing). For more information about the 2019 release wave 2 schedule, and answers to frequently asked questions about the early access program, see [2019 release wave 2 features available for early access](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/features-ready-early-access).
 > 
