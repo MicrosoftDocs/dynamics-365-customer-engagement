@@ -1,7 +1,7 @@
 ---
 title: "Policies and Communications for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/09/2019
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -61,7 +61,7 @@ We are transforming how we do service updates for Dynamics 365 for Customer Enga
 In addition to the two major updates, we will continue to deploy regular performance and reliability improvement updates throughout the year. We are phasing deployments over several weeks following safe deployment practices and monitoring updates closely for any issues.  Notifications about when the major release events are enabled in each geographic region are published in the Message Center.
 
 > [!IMPORTANT]
-> Be sure to check out [Update policy](manage-updates.md#BKMK_Policy) for important information about updating to the latest version.  
+> Be sure to check out [Opt in to 2019 release wave 2](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates) for important information about updating to the latest version.  
   
  **How do I find out about Major release events?**  
   
@@ -99,6 +99,7 @@ To limit the impact on users, the maintenance window is planned according to the
 | SAM           | crm2.dynamics.com | 12 AM to 10 AM |
 | CAN           | crm3.dynamics.com | 1 AM to 10 AM |
 | EUR           | crm4.dynamics.com | 6 PM to 3 AM |
+| FRA           | crm4.dynamics.com | 6 PM to 3 AM | 
 | APJ           | crm5.dynamics.com | 3 PM to 8 PM |
 | OCE           | crm6.dynamics.com | 11AM to 9PM |
 | JPN           | crm7.dynamics.com | 10 AM to 7 PM |
