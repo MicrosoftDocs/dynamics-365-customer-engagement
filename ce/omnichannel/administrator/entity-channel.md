@@ -1,5 +1,5 @@
 ---	
-title: Route cases automatically using entity records channel | MicrosoftDocs	
+title: Automate case routing using entity records channel | MicrosoftDocs	
 description: Learn how you can route cases automatically using entity records channel in the Omnichannel for Administrator app."		
 author: kabala123	
 ms.author: kabala	
@@ -11,7 +11,7 @@ ms.topic: article
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
 ms.custom: 	
 ---	
-# Route cases automatically	
+# Automate case routing
 
 Applies to Dynamics 365 for Customer Engagement apps version 9.1.0	
 
@@ -44,7 +44,41 @@ Omnichannel leverages the existing CDS queue entity to automatically route cases
 > [!Note]
 > - If you have already setup queues for cases or other entities in Dynamics 365 for Customer Service, you can continue to use the same for omnichannel work distribution.
 >
-> - Only case entity is supported in this release.
+> - Only case entity record is supported in this release.
+
+### Prerequisites to automate case routing
+
+To automatically route the cases, ensure the following:
+
+- You are on the latest version of Omnichannel for Customer Service.
+- You've installed the **Routing Rules - Preview** solutions. To learn more, see [Link to the topic on how to install routing rules - preview solution]().
+
+### Automatic case distribution work flow
+
+|   |  |
+|---------------|----------------------------|--------------------------------------------------------------------------------------------|
+| Step 1: Cases entity record | **Cases** entity record appears under the **Channels** in the Omnichannel for Administrator app. When you select the Cases entity record, a blank **Case Workstreams** view appears. You must create workstreams to route the cases. |
+| Step 2: Create works stream for case routing | You must create new workstreams to route the cases. To learn learn more, see [Create a case workstream](set-up-entity-workstream.md). |
+| Step 3: Create routing rules | You must create routing rules, to automatically distribute the cases to the agents. |
+| Step 4: Update case distribution flow | You must update the case distribution flow with the conditions, to automatically distribute the cases to the agents. |
+
+## Step 1: Cases entity record
+
+1. Sign in to Omnichannel for Administrator app.
+
+2. Select **Cases** entity record under **Channels** in the sitemap. A blank **Case Workstreams** view is displayed.
+
+> [!Note]
+> After creating the work streams, when you again navigate to 
+
+## Step 2: Create work stream for case routing
+
+You must create work streams, to automatically route the cases to the agents. To learn more, see [Create a case entity work stream](set-up-entity-workstream.md).
+
+## Step 3: Create routing rules
+
+
+
 
 ### See also 	
 

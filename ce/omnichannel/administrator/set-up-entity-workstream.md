@@ -13,5 +13,26 @@ ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F
 ms.custom: 	
 ---	
 
+# Create a case entity work stream
 
- 
+This topic describes how to create a work stream that is used to route case entity record.
+
+1. Sign in to Omnichannel for Administrator app.
+
+2. Select **Cases** entity record under **Channels** in the sitemap. A blank **Case Workstreams** view is displayed.
+
+3. Select **+ New** in the **Case Workstreams** view.
+
+4. Specify the following in the **New Work Stream** page.
+
+    | Tab | Field | Value | Description | 
+    |---------------------|-----------------------------|--------------------------------|-------------------------------------------------|
+    | Work Distribution | Name | High Priority Cases | Provide a name to the work stream. |
+    | Work Distribution | Channel | CDS Entity | Select the CDS Entity channel from the list. Cases from this channel are automatically distributed to the agents. |
+    | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the work stream in the text box. |
+    | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.  |
+    | Work Distribution | Assign Work Item After Decline or Timeout | 2 minutes | Set the time after which the case is assigned to the agent again once the agent has declined the work item or the request has timed out.  |
+    | Work Distribution | Work distribution mode | Push | Select **Push** when you to automatically route the cases to the agents. |
+    | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. |
+
+4. Select **Save** to save the work stream.
