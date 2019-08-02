@@ -21,15 +21,21 @@ search.app:
   - D365Mktg
 ---
 
-# Build an approvals feature
-
-Dynamics 365 for Marketing offers extensibility features that make it possible for developers to build on its functionality.
-
-Approvals feature enables organizations to implement an approval workflow in which most users cannot move their record to **Go live** state right away with some entities (such as emails, customer journeys, or segments).
- Instead, an approver user must inspect each record and decide whether to allow it to move to **Go live** state or whether more work is needed. The approver user is typically a system administrator or manager in Dynamics 365 for Marketing.
+# Early access: Build an approvals feature
 
 > [!IMPORTANT]
-> The approval feature described here is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. To improve the security aspects, we recommend you to develop plugins that prevent users from going live from any state that isn't approved and also prevent users from editing any fields on the records that are in the approval required, approved, or live state.
+> This is an early access feature, which means that it's currently available only on opted-in instances. You can opt in for early access on any instance, but we recommend that you do so only on trial, test, or sandbox instances, which will give you a chance to learn the new functionality before it shows up on your production instances later this year.
+> 
+> For instructions on how to opt in and enable early access, see [Enable the 2019 release wave 2 updates for Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing). For more information about the 2019 release wave 2 schedule, and answers to frequently asked questions about the early access program, see [2019 release wave 2 features available for early access](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/features-ready-early-access).
+> 
+> We encourage all customers to provide feedback related to early access features on the [Dynamics 365 for Marketing Forum](https://community.dynamics.com/365/marketing/f/dynamics-365-for-marketing-forum) and/or through [Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support).
+
+Dynamics 365 for Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers to build on its functionality, and one way to take advantage of this new extendibility is to create an approvals feature, possibly with integration with Microsoft Flow.
+
+This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't **Go live** right away with some types of important entities (such as emails, customer journeys, or segments). Instead, an approver user must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed first. The approver user is typically an administrator or manager who is specifically identified as an approver in the system.
+
+> [!IMPORTANT]
+> The approval feature described here is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. We recommend that you also develop plugins that prevent users from going live from any state that isn't approved and also prevent users from editing any fields on the records that are in the approval-required, approved, or live state.
 
 <!--## Prerequisites-->
 
@@ -37,17 +43,15 @@ Approvals feature enables organizations to implement an approval workflow in whi
 2. Sign up or install [Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app
 3. License for [Microsoft Flow](https://flow.microsoft.com/en-us/) to create sample approvals feature-->
 
+## The approval process
 
-## Approval process
-
-The customizations outlined in this topic helps you design and implement an approval workflow that works as described below:
+The customizations outlined in this topic will help you design and implement an approval workflow that works as described below:
 
 1. Standard users (non-approvers that we will call Marketer) no longer see a **Go live** button on entity forms where approvals are enabled. Instead, this is replaced by a **Request approval** button on the command bar. These entities use a custom collection of Status reason values, which are used to track the approval status of each record. Records requiring approval begin with a Status reason of **Approval required**.
 1. When a standard user has finished creating a new record (such as an email design), they select the **Send for approval** button which triggers the following changes:
    - The Status reason for this record changes to **Approval requested**.
    - The record is locked to further changes.
-     - An email message gets automatically sent to the approver user configured in the system which tells that his or her approval is required and includes buttons for approving or rejecting right from the message. It has a link to view the relevant record in the Dynamics 365 for Marketing app (where the approve and reject buttons are present).
-   - For standard users, the **Request approval** button is replaced with a **Cancel approval** button. If a user selects **Cancel approval**, the record returns to the **Approval required** status and becomes unlocked for editing again.
+   - An email message gets automatically sent to the approver user configured in the system which tells that his or her approval is required and includes buttons for approving or rejecting right from the message. It has a link to view the relevant record in the Dynamics 365 for Marketing app (where the approve and reject buttons are present).
    - For the approver user, **Approve** and **Reject** buttons are now provided on the command bar. 
 1. The approver responds by doing one of the following:
    - Approve: The record changes its Status reason to Approved. The **Go live** button is also made available to all users for this record. Any user can now go live with the record provided no edits are made. If a user edits and approved record, the **Go live** button is once again replaced with a **Request approval button**, and the Status reason is changed to **Approval required**.
