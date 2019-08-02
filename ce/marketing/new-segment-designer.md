@@ -49,9 +49,9 @@ Read this section to get a basic overview of how to create a segment and start i
 
 1. To help you get started, the designer asks you to choose which type of segment you want to create. This selection will establish the initial structure of your segment and also affects the user interface you'll see for working with it. Read the names and descriptions shown, and choose one of the following to get started:
 
-    - **Demographic**: Creates a dynamic profile segments prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a dynamic profile segment (demographic or firmographic)](#segment-profile)
-    - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a dynamic profile segment (demographic or firmographic)](#segment-profile)
-    - **Behavioral**: Creates an interaction segment, which queries the interaction database to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design a dynamic interaction segment (behavioral)](#segment-interaction)
+    - **Demographic**: Creates a dynamic profile segment prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
+    - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
+    - **Behavioral**: Creates a behavioral segment, which queries the interaction database to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design a behavioral segment](#segment-interaction)
     - **Static**: Creates a segment where you manually select each member rather than creating a logical query. For details about how to work with this kind of segment, see [Design a static segment](#segment-static)
     - **Combined audiences**: Creates a compound segment, which combines any number of existing segments union, exclude, and/or intersect operators. For details about how to work with this kind of segment, see [Design a compound segment (combined audiences)](#segment-compound)
 
@@ -71,15 +71,15 @@ See the remaining sections of this topic for more information about each type of
 
 <a name="segment-profile"></a>
 
-## Design a dynamic profile segment (demographic or firmographic)
+## Design a demographic or firmographic segment
 
-_Dynamic profile segments_ query _profile records_ stored in the marketing insights database. Profile records include the entities you normally work with in the Dynamics 365 for Customer Engagement UI, such as contacts, accounts, leads, and any other entities. They are synced between your Dynamics 365 for Customer Engagement database (where you can work with them in the UI) and the marketing insights database (where you can query them with dynamic profile segments).
+_Demographic and firmographic segments_ are dynamic segments that query _profile records_ stored in the marketing insights database. Profile records include the entities you normally work with in the Dynamics 365 for Customer Engagement UI, such as contacts, accounts, leads, and any other entities. They are synced between your Dynamics 365 for Customer Engagement database (where you can work with them in the UI) and the marketing insights database (where you can query them from a segment).
 
-This type of segment is called _dynamic_ because its membership is defined as a query, which is provides a logical description of the contacts the segment should contain, but doesn't list any contacts by name. Member ship in dynamic segments can change from moment to moment in response to new contacts being added or updated in the database.
+This type of segment is called _dynamic_ because its membership is defined as a query, which provides a logical description of the contacts the segment should contain, but doesn't list any contacts by name. Member ship in dynamic segments can change from moment to moment in response to new contacts being added or updated in the database.
 
 Both demographic and firmographic segments are examples of dynamic profile segments. The only difference is that new firmographic segments are created with a relation to the accounts entity by default (which you are free to remove).
 
-To create a dynamic profile segment, create a segment and then select the **Demographic** or **Firmographic** option, as described in [Create and go live with a new segment](#create-segment). Then design your segment logic as described in the remaining subsections of this section.
+To create a demographic or firmographic segment, create a segment and then select the **Demographic** or **Firmographic** option, as described in [Create and go live with a new segment](#create-segment). Then design your segment logic as described in the remaining subsections of this section.
 
 ### Create an entity group
 
@@ -131,32 +131,30 @@ To find, view, and edit the query, scroll to the bottom of the page and open the
 
 <a name="segment-interaction"></a>
 
-## Design a dynamic interaction segment (behavioral)
+## Design a behavioral segment
 
-_Dynamic interaction segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 for Marketing UI, but they aren't synced to the Dynamics 365 for Customer Engagement database.
+_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 for Marketing UI, but they aren't synced to the Dynamics 365 for Customer Engagement database.
 
-The result of a dynamic interaction query is always a set of contacts who performed the relevant type of action according to the conditions established by the query.
+The result of a behavioral segment query is always a set of contacts who performed the relevant type of interaction according to the conditions established by the query.
 
-This type of segment is called _dynamic_ because its membership is defined as a query, whose results can change from moment to moment in response to new interactions being added to the database.
+This type of segment is _dynamic_ because its membership is defined as a query, whose results can change from moment to moment in response to new interactions being added to the database.
 
-Dynamic interaction segments are also known as _behavioral segments_ because they collect contacts based on their behaviors.
+To create a behavioral segment, create a segment and then select the **Behavioral** option, as described in [Create and go live with a new segment](#create-segment).
 
-To create a dynamic interaction segment, create a segment and then select the **Behavioral** option, as described in [Create and go live with a new segment](#create-segment).
-
-The following image shows an example of typical dynamic interaction segment query and outlines key features of the designer user interface.
+The following image shows an example of typical behavioral segment query and outlines key features of the designer user interface.
 
 ![Segment designer UI elements for interaction segments](media/segment-interaction-callouts2.png "Segment designer UI elements for interaction segments")
 
 Legend:
 
-1. **Interaction name**: Use this drop-down list to select the type of interaction the segment will look for.
+1. **Interaction name**: Use this drop-down list to select the type of interaction the behavioral segment will look for.
 2. **Full-screen editor**: Select this button to open the segment designer in full-screen mode, which provides more screen real estate for viewing and editing your query.
 3. **Show/hide interaction filters**: Select this button to show or hide filters for setting limits on the total number of interactions and/or a moving-window time period.
-4. **Interaction filters**: Use these to set a minimum or exact number of interactions that a contact must have performed to be included in this segment. You can also set a moving-window filter to only consider interactions that occurred recently, such as in the last two weeks. The date is always calculated based on the current date, so if you apply a limit here, then some contacts may slip out of the segment with each passing day unless they remain engaged. In this example, the filter will find contacts who clicked on a message at least once in the past 45 days.
-5. **Additional restrictions**: These settings work just like they do for dynamic profile segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [dynamic profile segments](#segment-profile), you can add as many clauses and clause groups as you need here.
+4. **Interaction filters**: Use these to set a minimum or exact number of interactions that a contact must have performed to be included in this segment. You can also set a moving-window filter to only consider interactions that occurred recently, such as in the last two weeks. To enable the moving-window filter, change the third drop-down list from **interactions** to **interactions in the last**. The date of the moving window is always calculated based on the current date, so if you enable this, then some contacts may slip out of the segment with each passing day unless they remain engaged. In this example, the filter will find contacts who clicked on a message at least once in the past 45 days.
+5. **Additional restrictions**: These settings work just like they do for demographic and firmographic segments, but here they enable you to filter results based on values for the selected type of interaction records. For example, you might want to find clicks on email messages sent by a particular customer journey (as shown here). As with [demographic and firmographic segments](#segment-profile), you can add as many clauses and clause groups as you need here.
 
 > [!NOTE]
-> Interaction segments can only contain one entity group, and do not offer the ability to estimate the segment size.
+> Behavioral segments can only contain one entity group, and do not offer the ability to estimate the segment size.
 
 <a name="segment-static"></a>
 
@@ -164,15 +162,13 @@ Legend:
 
 _Static segments_ let you select individual contacts, one by one, to create custom segments without requiring any logical expressions.
 
-When you are working with a static segment, you'll see a list of all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment, and clear the check box for all other contacts.
+When you are working with a static segment, you'll see a list of all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment and clear the check box for all other contacts.
 
 To create a static segment, create a segment and then select the **Static** option, as described in [Create and go live with a new segment](#create-segment).
 
-Because your database probably includes a large number of contacts, the designer often can't show all of them on one page. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
-
+Because your database probably includes many contacts, the designer often can't show all of them on one page. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
 
 ![Segment designer for static segments](media/segment-static.png "Segment designer for static segments")
-
 
 When you're done picking contacts for your static segment, select Go live on the command bar, as usual. Once the segment is live, it will include a **Members** tab, which lists all contacts in the segment.
 
@@ -205,7 +201,7 @@ To create a compound segment:
 
     ![Design a compound segment, step 2](media/segment-compound2-step2.png "Design a compound segment, step 2")
 
-1. Select **Add** at the bottom of the **Add: Segment** panel to add your first two segments. The display updates to show a Sankey diagram, which makes it easy to visualize the way all of the various groups are being combined by your selected logic. It indicates how two incoming groups will be combined, the order of the combination, and the approximate effect that the combination logic will have on the resulting, combined group.
+1. Select **Add** at the bottom of the **Add: Segment** panel to add your first two segments. The display updates to show a Sankey diagram. This makes it easy to visualize the how the various groups are being combined by the logic you design. It indicates how two incoming groups will be combined, the order of the combination, and the approximate effect that the combination logic will have on the resulting, combined group.
 
     ![Design a compound segment, step 3](media/segment-compound2-step3.png "Design a compound segment, step 3")
 
