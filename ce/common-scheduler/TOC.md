@@ -3,7 +3,6 @@
 # Scheduling
 ## [Quick scheduling](quick-scheduling.md)
 ## [Travel time and distance](schedule-travel-time.md)
-## [Utilization](schedule-board-utilization.md)
 ## [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ## [Fulfillment preferences](fulfillment-preferences.md)
 ## [Resource crew scheduling](resource-crews.md)
@@ -13,6 +12,7 @@
 # Schedule board configuration
 ## [Enable an entity for scheduling](schedule-new-entity.md)
 ## [Share schedule board tabs](share-schedule-board-tab.md)
+## [Utilization](schedule-board-utilization.md)
 ## [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
 ## [Schedule board tab settings](schedule-board-tab-settings.md)
 
