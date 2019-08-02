@@ -19,7 +19,15 @@ ms.tgt_pltfrm:
 
 # Enable or disable saving of business card image
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 By default, any business card that is scanned is stored as an image and associated with the **Lead** or **Contact** record. A system administrator can configure this option to enable or disable this setting.
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - This feature is available only in the EMEA and North America regions.
+
 
 To enable or disable saving of business card image:
 
