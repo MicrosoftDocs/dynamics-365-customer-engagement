@@ -2,7 +2,7 @@
 title: "Configure incident types (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/29/2019
+ms.date: 08/02/2019
 ms.service: dynamics-365-customerservice
 ms.reviewer: krbjoran
 ms.technology: 
