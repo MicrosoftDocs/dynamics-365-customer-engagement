@@ -2,7 +2,7 @@
 title: "Use the lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 for Sales Professional."
 keywords: ""
-ms.date: 04/05/2019
+ms.date: 06/18/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -38,7 +38,7 @@ along with seven of your favorite records. If you have not pinned any favorites,
 
 ## Types of lookups
 
-Lookups are classified into two types: 
+Lookups are classified into the following: 
 
 - **Simple lookup:** Select a single record in a field from a single entity. 
 

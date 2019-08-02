@@ -1,1 +1,0 @@
- Get the width of the viewport in pixels.

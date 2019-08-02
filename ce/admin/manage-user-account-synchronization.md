@@ -1,7 +1,7 @@
 ---
 title: "Manage user account online and on-premises synchronization | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 07/17/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: d72e27e3-a8c4-4d0d-96d1-c7f3f85bafdb
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage user account synchronization 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Because [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps user identities are provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], you have multiple options for managing user synchronization between your online and on-premises environments.  
   
@@ -67,8 +67,9 @@ Review the following resources to equip you to make the right decision for your 
 > -   IND: https://\<*yourCRMorganizationname*>.crm8.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
 > -   United States of America Government: https://\< *yourCRMorganizationname*>.crm9.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
 > -   UK: https://\<*yourCRMorganizationname*>.crm11.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
+> -   FRA: https://\<*yourCRMorganizationname*>.crm12.dynamics.com?whr=\<*yourFederationServiceIdentifier*>  
 > -   DEU: https://\<*yourCRMorganizationname*>.crm.microsoftdynamics.de?whr=\<yourFederationServiceIdentifier>  
-  
+
  You can get the Federation Service identifier for your organization by using the following steps:  
   
 1. On the server that is running [!INCLUDE[pn_ADFS2](../includes/pn-adfs2.md)], click or tap **Start** > **Administrative Tools** > **AD FS 2.0 Management**.  

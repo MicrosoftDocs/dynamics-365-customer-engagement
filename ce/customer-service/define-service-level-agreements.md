@@ -24,8 +24,6 @@ search.app:
 
 # Define Service Level Agreements (SLAs)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Define the level of service or support that your organization agrees to offer to a customer by using service level agreements (SLAs) in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Include detailed items to define metrics or key performance indicators (KPIs) to attain the service level. KPIs help you get timely warnings on your team’s issues while providing support.  
 
  You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied.       You can associate only SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)  
@@ -317,6 +315,17 @@ Define the level of service or support that your organization agrees to offer to
 
 > [!IMPORTANT]
 >  To track SLAs for entities other than case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md)  
+
+
+## Recommendation to upgrade solution
+
+Perform the following steps before you upgrade a solution:
+
+1.	Deactivate the SLAs which are brought through the previous version of the solution. The state of SLAs changes to draft.
+
+2.	Upgrade your solution as required. 
+
+3.	After the successful upgrade of the solution, activate the SLAs as required.
 
 ### See also  
 

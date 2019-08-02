@@ -24,8 +24,6 @@ search.app:
 ---
 # Troubleshooting and things to know 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 The following are known issues with [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)].  
   
 <a name="BKMK_ImportantConsiderations"></a>   

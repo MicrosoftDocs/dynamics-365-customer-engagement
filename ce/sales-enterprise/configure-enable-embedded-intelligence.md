@@ -18,8 +18,6 @@ manager: shujoshi
 ---
 # Configure and enable embedded intelligence
 
-Applies to Dynamics 365 for Customer Engagement, version 9.1.0
-
 <a name="Prerequisites"></a>   
 
 ## Requirements and prerequisites  

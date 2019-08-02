@@ -2,7 +2,7 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: advanced survey design; interactive survey; response routing
-ms.date: 04/03/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -19,6 +19,9 @@ ms.custom:
 ---
 
 # Design an advanced survey
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 This section provides information about advanced features for designing surveys—for example, response routing, scoring, piping, and so on.
 

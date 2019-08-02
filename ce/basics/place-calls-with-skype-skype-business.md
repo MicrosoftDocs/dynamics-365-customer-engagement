@@ -22,8 +22,6 @@ search.app:
 ---
 # Place calls with Skype or Skype for Business
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can click a phone number to call your contacts from within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. This capability is called “click to call.”  
   
 > [!NOTE]

@@ -23,13 +23,11 @@ search.app:
 ---
 # Enable Flow integration to automate processes
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Microsoft Flow lets you create automated processes between your favorite apps and services. The ability to run flows from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps makes it simple for users to combine a broad spectrum of services that can be initiated from within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, such as messaging, social engagement, and document routing services.  
 
 ![Lead record with Flow integration](media/flow-integration.png)
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] instances use the default Flow environment. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
+[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] instances use the same environment in which the instance resides. For more information about Flow environments, see [Using environments within Microsoft Flow](https://flow.microsoft.com/documentation/environments-overview-admin/)
   
 The Flow integration feature is not available in the following service or geographic regions.
 - Microsoft Dynamics 365 for Customer Engagement apps Government

@@ -10,4 +10,5 @@
 |India (IND)|`https://disco.crm8.dynamics.com/XRMServices/2011/Discovery.svc`|
 |Canada|`https://disco.crm3.dynamics.com/XRMServices/2011/Discovery.svc`|
 |United Kingdom (UK)|`https://disco.crm11.dynamics.com/XRMServices/2011/Discovery.svc`|
+|France|`https://disco.crm12.dynamics.com/XRMServices/2011/Discovery.svc`|
 |US Gov High (GCC High)|`https://disco.crm.microsoftdynamics.us/XRMServices/2011/Discovery.svc`|

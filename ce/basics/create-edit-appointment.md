@@ -22,8 +22,6 @@ search.app:
 ---
 # Create or edit an appointment
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Block time to meet or talk to your customers by using appointments. You can modify any of the information in an open appointment. If you change the date and times of the appointment, the appointment will be rechecked for schedule conflicts.  
 
 The calendar displays canceled and completed appointments and service activities. 

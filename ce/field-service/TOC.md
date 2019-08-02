@@ -48,6 +48,7 @@
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 
 ## Administration and configuration
+### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
@@ -66,6 +67,8 @@
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Sharing schedule board tabs](share-schedule-board-tab.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+### [Edit booking template](booking-template.md)
+### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 
 
@@ -75,7 +78,7 @@
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
-## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
+## [Activate mobile configurator](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
 ### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
@@ -116,6 +119,7 @@
 ## [Overview](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
+## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)

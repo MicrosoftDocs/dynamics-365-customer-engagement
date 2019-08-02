@@ -7,15 +7,17 @@
 
 ### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
-#### [Decide whether to install Marketing with or without a portal](portal-optional.md)
-#### [Purchase a production version of Marketing](purchase-marketing.md)
-#### [Run the setup wizard](purchase-setup.md)
+#### [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)
+#### [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
+#### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Transfer data between instances](transfer-data.md)
 #### [Transfer customizations between instances](transfer-solution.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
+
+### [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 
 ### Administration settings
 #### [Open the administration settings](open-advanced-settings.md)
@@ -121,7 +123,6 @@
 #### [Market to leads](market-to-leads.md)
 #### [Account-based marketing](account-based-marketing.md)
 #### [Design lead-scoring models](score-manage-leads.md)
-#### [Register contacts' engagement](register-engagement.md)
 
 ### Event planning and management
 #### [Event management overview](event-management.md)
@@ -147,10 +148,12 @@
 #### [Create and run online surveys](surveys.md)
 
 ### Marketing on social media
-#### [Schedule and post messages on social media](social-posting.md)
+#### [Marketing on LinkedIn with Dynamics 365](linkedin-overview.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
+#### [Schedule and post messages on social media](social-posting.md)
 #### [Get social-listening insights](social-listening.md)
 
+### [Register link clicks and website visits](register-engagement.md)
 ### [Work with marketing calendars](marketing-calendar.md)
 ### [Go live with publishable entities and track their status](go-live.md)
 
@@ -171,22 +174,26 @@
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
 ### [Preview: Extend event management to support more webinar providers](developer/extend-event-management.md)
-### [Create a custom event website](developer/event-management-web-application.md)
-#### [Self-hosted](developer/self-hosted.md)
+### Create a custom event website
+#### [Overview](developer/event-management-web-application.md)
+#### Self-hosted
+##### [Overview](developer/self-hosted.md)
 ##### [Host your custom event website on Azure](developer/host-custom-event-website-on-azure.md)
-#### [Dynamics 365 Portal hosted](developer/portal-hosted.md)
+#### Dynamics 365 Portal hosted
+##### [Overview](developer/portal-hosted.md)
 ##### [Manually overwriting sample website](developer/manually-overwriting-sample-website.md)
-#### [Localization](developer/event-portal-localization.md)
 #### Events API
 ##### [Using Events API](developer/using-events-api.md)
 ##### [Register your web application](developer/register-web-application-events-api.md)
 ##### [User authentication](developer/user-authentication-events-api.md)
 ##### [Customize Events API response](developer/customize-events-api-response.md)
+#### [Finalizing registration for paid events](developer/finalizing-registrations-for-paid-events.md)
+#### [Localization](developer/event-portal-localization.md)
 ### [Work with Segments using code](developer/extend-segments.md)
 ### [Work with Customer Journeys using API](developer/basic-operations-on-customer-journey.md)
 #### [Extend Customer journey using code](developer/extend-customer-journey-using-code.md)
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
-### [Extend Marketing Forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
+### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
 #### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
 #### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)

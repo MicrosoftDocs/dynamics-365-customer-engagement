@@ -2,11 +2,10 @@
 title: Understanding and customizing resource matching in Universal Resource Scheduling (URS) | Microsoft Docs
 description: Understanding and customizing resource matching in Universal Resource Scheduling (URS)
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Customer Engagement for Project Service, Field Service, Project Service, Project Service Automation
-author: yonalow
-ms.author: yolow
-manager: shellyha
+author: FieldServiceDave
+ms.author: daclar
 ms.date: 06/14/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -39,7 +38,7 @@ Universal Resource Scheduling (URS), the scheduling engine underlying Field Serv
 
 ### Resources
 
-Core to Universal Resource Scheduling (URS) is the Resource (`bookableresource`) entity. When Booking (`bookableresourcebooking`) records are created, they are associated with a Resource record. To ensure the correct resource is selected, URS ships with many built-in filters and constraints to categorize resources by. Examples are: Resource Type, indicating if the resource is a User, Contact, Account, Equipmant, etc., Characteristic, to filter resources by skills they are proficient in, Territory, to assign resources to specific regions, Organizational Unit to model an organization hierarchy, and many more.
+Core to Universal Resource Scheduling (URS) is the Resource (`bookableresource`) entity. When Booking (`bookableresourcebooking`) records are created, they are associated with a Resource record. To ensure the correct resource is selected, URS ships with many built-in filters and constraints to categorize resources by. Examples are: Resource Type, indicating if the resource is a User, Contact, Account, Equipment, etc., Characteristic, to filter resources by skills they are proficient in, Territory, to assign resources to specific regions, Organizational Unit to model an organization hierarchy, and many more.
 
 A Resource record and its associated constraints are modeled through attributes or relationships to other entities. For example, Name and Resource Type are attributes on the Resource entity.  Resource Characteristics and Resource Territories are child relationships since a resource can be associated with more than one of them. These entities are child relationships to both the Resource AND the Characteristic/Territory entity. Organizational Unit is a lookup attribute on the Resource entity to the Organizational Unit entity.
 

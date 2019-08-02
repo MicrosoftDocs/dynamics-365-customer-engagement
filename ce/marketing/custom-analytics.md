@@ -65,7 +65,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
 
     Make the following settings:
 
-    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid.
+    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid. Please note that the signature must remain valid for as long as you intend to run the export&mdash;the export will stop immediately when the signature expires.
     - Enable all four **Permissions** by selecting their check boxes.
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
@@ -84,7 +84,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
     - **Export to blob storage URL** : Paste the URL you copied earlier in this procedure.
 
     > [!NOTE]
-    > The URL you pasted here includes a connection string to connect to your blob storage. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. This URL _won't_ be stored in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in [!include[](../includes/pn-azure-shortest.md)].
+    > The URL you pasted here includes a connection string to connect to your blob storage. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in [!include[](../includes/pn-azure-shortest.md)].
 
 1. Save your settings.
 

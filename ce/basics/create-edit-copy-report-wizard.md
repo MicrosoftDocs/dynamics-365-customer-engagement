@@ -1,7 +1,7 @@
 ---
 title: "Create or edit a report using the Report Wizard (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 06/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,35 +22,26 @@ search.app:
 ---
 # Create or edit a report using the Report Wizard
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 All reports that are created using the Report Wizard are Fetch-based reports. Note that all reports generated with the Report Wizard print in landscape mode.
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
-    #### Check your security role  
+1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)].  
+2. To add a new report, select **New**.  
   
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
-  
-3. To add a new report, click **New**.  
-  
-4. In the **Report: New Report** dialog box, in the **Report Type** list, select **Report Wizard Report**, and then click **Report Wizard**.  
+3. In the **Report: New Report** dialog box, in the **Report Type** list, select **Report Wizard Report**, and then select **Report Wizard**.  
   
     You can only use the Report Wizard to edit reports that were created with the wizard.  
   
-5. Select the starting point for your report.  
+4. Select the starting point for your report.  
   
    1.  To create a new report, select **Start a new report**.  
   
         \- OR -  
   
-        To start from a copy or edit an existing report, click **Start from an existing report**, and check the **Overwrite existing report** check box.  
+        To start from a copy or edit an existing report, select **Start from an existing report**, and check the **Overwrite existing report** check box.  
   
-   2.  Click **Next**.  
+   2.  Select **Next**.  
   
 6. Enter the name of the report, and specify which record types the report will use.  
   
@@ -67,7 +58,7 @@ All reports that are created using the Report Wizard are Fetch-based reports. No
        > [!CAUTION]
        >  Avoid selecting data from a related record type that is not required, as it makes the report take longer to load.  
   
-   2.  Click **Next**.  
+   2. Select **Next**.  
   
 7. Define a filter to determine which records are included in your report.  
    ## Organize and lay out your report data
@@ -82,14 +73,14 @@ For detailed information on laying out your report, see [Organize and lay out yo
   
         - **Show table below the chart on same page**. Selecting  the chart does nothing.  
   
-        - **Show chart. To view data for a chart region, click the chart region**. Selecting an area in the chart will display a table with details for that section of the chart.  
+        - **Show chart. To view data for a chart region, select the chart region**. Selecting an area in the chart will display a table with details for that section of the chart.  
   
-2. Click **Next**.  
+2. Select **Next**.  
 
 ## Include a chart in the report  
 If the report includes a chart, specify the type of chart, and how the data is displayed in the chart.  
 
-1.  Select the chart type, and then click **Next**.  
+1.  Select the chart type, and then select **Next**.  
 
         The **Chart preview** area shows how the data will be displayed.  
 
@@ -107,21 +98,21 @@ If the report includes a chart, specify the type of chart, and how the data is d
 
         -   For values, you must select a numeric column with a summary type.  
 
-2.  Click **Next**.  
+2.  Select **Next**.  
 
 ## Finish, test and refine the report
 
 After you finish defining the report, return to the Report form, and if required, update the name and description of the report, and determine where the report is displayed.
   
-1. Review the summary of the report, click **Next**, and then click **Finish**. 
+1. Review the summary of the report, select **Next**, and then select **Finish**. 
 
-2. Test the report. On the **reports** tab, in the **Actions** group, click **Run Report**. If the report needs modifications, edit the report.  
+2. Test the report. On the **reports** tab, in the **Actions** group, select **Run Report**. If the report needs modifications, edit the report.  
   
 3. Make the report available to others for use. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Determine who can use a report](determine-who-can-use-report.md)  
  
 ## Edit a report
 
-To edit an existing Report Wizard report, first select the report. Then, in the **Records** group, click **Edit**. Finally, click **Report Wizard**.  
+To edit an existing Report Wizard report, first select the report. Then, in the **Records** group, select **Edit**. Finally, select **Report Wizard**.  
    
 If you need to change data on the **General** or **Administration** tabs for a new report, wait until the report is saved before making the changes. Any changes on these tabs made before a report is saved will be ignored.  
   

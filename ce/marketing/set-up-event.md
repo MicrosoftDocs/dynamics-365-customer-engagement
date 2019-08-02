@@ -27,8 +27,6 @@ search.app:
 
 # Set up an event
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To get started planning an event with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you start by creating an event record, which collects all of your planning details, gives links to related records, and provides a business-process timeline that helps guide you through each step of the event-planning process. Then you set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
 
 ## Create the root event record
@@ -63,7 +61,7 @@ Here you can see and edit your basic event information, including
   - **Format** Set up your event as a [webinar](set-up-webinar.md),  webinar simulcast, or on-site only.
   - **Registration count**: Shows the number of people who registered for the event. The maximum value that can be shown here is 50,000, but you can still store more registrations than this in the system.
   - **Check-in count**: Shows the number of attendees that checked in during the event. The maximum value that can be shown here is 50,000, but you can still store more check-ins than this in the system.
-  - **Custom event URL**: If you are [hosting your event website](set-up-event-portal.md) on your own server, or in a custom location of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution, then select this check box and edith the **Event URL** as needed.
+  - **Custom event URL**: If you are [hosting your event website](set-up-event-portal.md) on your own server, or in a custom location of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution, then select this check box and edit the **Event URL** as needed.
   - **Event URL**: Shows the address of your [event website](set-up-event-portal.md). If you're using the default location on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals solution, then this value is read-only and provided automatically. If you are hosting your website at a custom location, then select the **Custom event URL** check box and edit the value here. Select the globe button next this field to open the site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Open the event website](set-up-event-portal.md#open-site)
   - **Create leads for event registrations**: Set to **Yes** to create a new lead for each contact that registers for the event. Set to **No** to turn off lead generation for events. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate and match contacts and leads from event registrations](set-up-event-portal.md#generate-leads)
     > [!NOTE]

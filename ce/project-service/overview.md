@@ -1,12 +1,12 @@
 ---
-title: What is Dynamics 365 for Customer Engagement for Project Service? (Dynamics 365 for Customer Engagement for Project Service) | MicrosoftDocs
+title: What is Dynamics 365 for Project Service Automation (PSA)?
 description: Introduction and overview of Project Service
-author: JohnPBurrows
+author: stsporen
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 7/09/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -20,11 +20,11 @@ search.app:
   - D365CE
   - D365PS
 ---
-# What is Dynamics 365 for Customer Engagement for Project Service?
+# What is Dynamics 365 for Project Service Automation (PSA)?
 
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
-The Project Service app helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing. The app enables you to:
+The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing. The app enables you to:
 
 - Plan projects, and create estimates and work schedules
 - Estimate and track project cost and revenue 
@@ -38,7 +38,7 @@ The Project Service app helps organizations efficiently track, manage, and deliv
 In addition, to help you monitor and control costs for your project-based work, individual consultants 
 easily enter and track project time and expenses either on mobile or using a web browser.   
 
-## Get help with app version 3.x
+## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.
 
  [Project planning and tracking guide](../project-service/implementation-guides/project-planning-tracking.md)  

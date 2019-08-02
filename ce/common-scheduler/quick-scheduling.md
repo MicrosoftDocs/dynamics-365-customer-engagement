@@ -2,7 +2,7 @@
 title: "Quick scheduling with Universal Resource Scheduling| MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 06/10/2019
+ms.date: 06/25/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""

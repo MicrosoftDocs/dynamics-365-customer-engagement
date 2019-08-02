@@ -27,8 +27,6 @@ search.app:
 
 # Use the explore view to visualize entity relations
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The **Explore** view provides a graphical map of the entities that are available for constructing segment queries and shows how they are related. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity (shown in turquoise). Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
 
 To use the explorer, select the **Explore** button while you are building a query group for a [profile-based dynamic query](segments-profile.md). It isn't available when you are working with an interaction segment.

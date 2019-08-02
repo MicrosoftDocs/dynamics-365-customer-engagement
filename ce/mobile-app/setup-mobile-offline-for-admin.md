@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/05/2019
+ms.date: 06/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,8 +25,6 @@ search.app:
 ---
 
 # Set up mobile offline synchronization to allow users to work in offline mode on their mobile device 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Mobile offline allows your users to use the Dynamics 365 for phones app in offline mode to interact with their data, even when they are not connected to the internet. The Dynamics 365 for phones app provides a rich offline experience and helps you to stay productive. You can use basic commands such as create, read, update, and delete when you are offline. Once you are back online, your changes are automatically synchronized with your Dynamics 365 for phones app. 
 
@@ -267,7 +265,8 @@ Admins can define a custom filter based on the following rules. You can create f
 Once you have created a mobile offline profile, you can start adding users to the profile.  
   
 > [!NOTE]
-> You can add a user to only one mobile offline profile.  
+> You can add a user to only one mobile offline profile.
+> Each time user is added to the mobile offline profile, mobile offline profile need to be published again. 
   
 1.  If it’s not already open, open the mobile offline profile you want to add users to.  
  
@@ -396,6 +395,8 @@ Ensure that you have configured at least one of the Profile rules for each entit
 The recommended data volume should be <= 10k records per user subscription.
 
 ## Known issues
+
+**Business Process Flows**: Business process flows are not supported for mobile offline. When you are offline, business process flows grids and views will not be available and business process flows will not be rendered on records that are opened in offline mode. If a record containing a business process flow was loaded prior to going offline, business process flow functions, such as move next or move previous will not work. Business process flows support the ability to branch to a different set of stages, based on conditions defined on fields of the record. In offline mode, these conditions to determine the next set of stages in the business process flows will not be evaluated.
 
 **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 

@@ -918,8 +918,8 @@
     },
 
     {
-      "source_path": "ce/omni-channel-engagement-hub/index.md",
-      "redirect_url": "/dynamics365/customer-engagement/omni-channel-engagement-hub/omni-channel-engagement-hub-guide",
+      "source_path": "ce/omnichannel/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service-guide",
       "redirect_document_id": "false"
     },
     {
@@ -2587,6 +2587,2381 @@
       "source_path": "ce/customize/types-forms.md",
       "redirect_url": "/dynamics365/customer-engagement/customize/create-design-forms#type-of-forms",
       "redirect_document_id": true
-     }
+     },
+     {
+      "source_path": "ce/marketing/purchase-marketing.md",
+      "redirect_url": "/dynamics365/customer-engagement/marketing/purchase-setup",
+      "redirect_document_id": true
+     },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/introduction-omni-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/introduction-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/omni-channel-engagement-hub-guide.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/omnichannel-customer-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/omni-channel-readme.md",
+      "redirect_url": "/dynamics365/customer-engagement/omni-channel-engagement-hub/omni-channel-readme",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/omni-channel-whats-new.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/omnichannel-whats-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/system-requirements-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/system-requirements-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/add-chat-widget.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/add-chat-widget",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/add-users-assign-roles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/add-users-assign-roles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/agent-display-name.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/agent-display-name",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-live-chat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-live-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-pre-chat-survey.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-pre-chat-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-settings-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-settings-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/conversation-state-lifecycle.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-chat-auth-settings.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-chat-auth-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-entity-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-entity-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-operating-hours.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-operating-hours",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-question-library.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-pre-chat-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/create-quick-replies.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/create-quick-replies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/data-masking-settings.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/data-masking-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/delete-solution.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/delete-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/embed-chat-widget-portal.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/embed-chat-widget-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/geo-location-provider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/geo-location-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/knowledge-management-oc.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/knowledge-management-oc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-administrator.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-administrator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-package.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-customer-service-package",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-engagement-hub-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-customer-service-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/omni-channel-provision-license.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/omnichannel-provision-license",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/presence-custom-presence.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/queues-omni-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/queues-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/record-identification-rule.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/routing-rules.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/set-up-chat-widget.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/unified-routing-work-distribution.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/upgrade-omni-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/upgrade-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/users-user-profiles.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/work-streams-introduction.md",
+      "redirect_url": "#VALUE!",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/omni-channel-engagement-hub-agent-introduction.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/omnichannel-agent-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-conversation-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-conversation-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-conversation-state.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-create-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-create-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-customer-360-overview-of-the-existing-challenges.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-introduction-agent-interface-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-introduction-agent-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-manage-applications.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-manage-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-manage-sessions.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-manage-sessions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-notifications-screen-pops.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-omni-channel-agent-dashboard.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-omni-channel-engagement-hub-agent.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/omnichannel-customer-service-app-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-search-knowledge-articles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-search-knowledge-articles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-search-link-unlink-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-search-link-unlink-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-set-user-presence-status.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-manage-presence-status",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-sign-dynamics-365-customer-service-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-sign-in-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-take-notes.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-take-notes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-view-conversations-sessions-dynamics-365-apps.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-view-activity-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-oceh/oceh-view-customer-360-incoming-conversation-request.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-oc/oc-view-customer-summary-incoming-conversation-request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/conversation-state.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/conversation-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/create-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/create-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/customer360-overview-existing-challenges.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/introduction-agent-dashboard.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/introduction-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/introduction-agent-interface-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/introduction-agent-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/left-control-panel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/left-control-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/link-unlink-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/link-unlink-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/notifications-screen-pop.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/notifications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/omni-channel-engagement-hub-agent.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/omnichannel-agent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/right-control-panel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/right-control-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/search-record.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/search-record",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/signin-unified-service-desk-omni-channel-engagement-hub.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/signin-unified-service-desk-omnichannel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/view-customer360-incoming-conversation-request.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/view-customer-summary-incoming-conversation-request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/agent/agent-usd/view-omni-channel-conversation-omni-channel-session-dynamics365-apps.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/agent/agent-usd/view-omnichannel-conversation-session",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/add-remove-fields-form-section.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-quick-view-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step1-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step2-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step3-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/advanced-search-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step1-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step2-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step3-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step3-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/agent-dashboard-step4-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step1-create-forms-define-layout-behavior-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step1-create-forms-define-layout-behavior-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step2-create-hosted-controls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step2-create-hosted-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step3-create-action-call-display-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step3-create-action-call-display-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step4-add-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step4-add-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/alertnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step1-create-entity-searches.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step1-create-entity-searches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step2-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step2-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step3-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step3-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step4-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step4-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step5-configure-window-navigation-rule.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step5-configure-window-navigation-rule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/communication-panel-step6-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-advanced-search.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-advanced-search",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-agent-dashboard.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-agent-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-alert-notification-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-alert-notification-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-communication-panel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-communication-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-customer-summary.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-notification-screen-pop-agents.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-notification-screen-pop-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-scriptlets-define-case-channel-titles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-scriptlets-define-case-channel-titles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-session-name-information.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-session-name-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/configure-toast-notification-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/configure-toast-notification-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/create-agent-supervisor-configurations-unified-service-desk.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/create-agent-supervisor-configurations-unified-service-desk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step1-create-hosted-control.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step1-create-hosted-control",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step2-create-action-calls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step2-create-action-calls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step3-attach-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step3-attach-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customer-summary-step4-add-hosted-control-action-calls-events-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customize-conversation-form.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-session-form",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/customize-customer-360-page.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-add-remove-fields.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-modify-position-alignment-form-section-customer360.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-modify-position-alignment-form.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/how-modify-section-properties-form-section.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/customize-customer-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/omni-channel-engagement-hub-customizer.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/omnichannel-customizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step1-create-forms-define-layout-behavior-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step1-create-forms-define-layout-behavior-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step2-create-hosted-controls.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step2-create-hosted-controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step3-create-action-call-display-notification.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step3-create-action-call-display-notification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step4-add-action-calls-events.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step4-add-action-calls-events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/omni-channel-engagement-hub-developer.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/omnichannel-developer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/omni-channel-reference.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/omnichannel-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/how-to/initiate-chat-wait-time.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/how-to/initiate-chat-wait-time",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/how-to/send-auth-token-starting-chat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/how-to/send-auth-token-starting-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/how-to/send-context-starting-chat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/how-to/send-context-starting-chat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/error-code-reference.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/error-code-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/events/lcw-error.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/lcw-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/events/lcw-ready.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/lcw-ready",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/getAuthTokenProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/getAuthTokenProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/getContextProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/getContextProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/lcw-error-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/lcw-error-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/lcw-ready-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/lcw-ready-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/removeAuthTokenProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/removeAuthTokenProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/removeContextProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/removeContextProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/setAuthTokenProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/setAuthTokenProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/setContextProvider-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/setContextProvider-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/includes/startchat-description.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/includes/startchat-description",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/getAuthTokenProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/getAuthTokenProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/getContextProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/getContextProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/removeAuthTokenProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/removeAuthTokenProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/removeContextProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/removeContextProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/setAuthTokenProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/setAuthTokenProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/setContextProvider.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/setContextProvider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/reference/methods/startchat.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/reference/methods/startchat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-bot.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-bot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/configure-sms-channel.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/configure-sms-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/developer/bot-escalate-end-conversation.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/developer/bot-escalate-end-conversation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/client-scripting-best-practices.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/business-logic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/clientapi-execution-context.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/clientapi-execution-context",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/clientapi-form-context.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/clientapi-form-context",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/clientapi-grid-context.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/clientapi-grid-context",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/clientapi-xrm.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/clientapi-xrm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/debug-JavaScript-code.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/debug-JavaScript-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/events-forms-grids.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/understand-clientapi-object-model.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/walkthrough-write-your-first-client-script.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/walkthrough-write-your-first-client-script",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/collections.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/collections",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/composite-attributes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/composite-attributes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/execution-context.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/execution-context",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-formSelector.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-formSelector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-process.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-process",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/GetGlobalContext-ClientGlobalContext.js.aspx.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/GetGlobalContext-ClientGlobalContext.js.aspx",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/save-event-arguments.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/save-event-arguments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/xrm-device.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/xrm-encoding.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-encoding",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/xrm-navigation.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/xrm-panel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-panel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/xrm-utility.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-utility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/xrm-webapi.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/addOnChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/addOnChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/controls-collection.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/controls-collection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/fireOnChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/fireOnChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getAttributeType.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getAttributeType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getFormat.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getFormat",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getInitialValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getInitialValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getIsDirty.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getIsDirty",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getIsPartyList.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getIsPartyList",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getMax.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getMax",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getMaxLength.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getMaxLength",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getMin.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getMin",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getOption.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getOption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getOptions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getOptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getParent.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getParent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getPrecision.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getPrecision",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getRequiredLevel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getRequiredLevel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getSelectedOption.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getSelectedOption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getSubmitMode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getSubmitMode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getText.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getText",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getUserPrivilege.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getUserPrivilege",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getUtcValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getUtcValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/getValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/getValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/isValid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/isValid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/removeOnChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/removeOnChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/setPrecision.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/setPrecision",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/setRequiredLevel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/setRequiredLevel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/setSubmitMode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/setSubmitMode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/setUtcValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/setUtcValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/attributes/setValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/attributes/setValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/collections/forEach.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/collections/forEach",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/collections/get.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/collections/get",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/collections/getLength.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/collections/getLength",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addCustomFilter.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addCustomFilter",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addCustomView.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addCustomView",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addNotification.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addNotification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addOnPostSearch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addOnPostSearch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addOnResultOpened.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addOnResultOpened",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addOnSelection.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addOnSelection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addOption.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addOption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/addPreSearch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/addPreSearch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/clearNotification.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/clearNotification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/clearOptions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/clearOptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getAttribute.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getAttribute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getControl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getControl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getControlType.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getControlType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getData.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getData",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getDefaultView.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getDefaultView",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getDisabled.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getDisabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getEntityTypes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getEntityTypes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getInitialUrl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getInitialUrl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getObject.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getObject",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getParent.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getParent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getSearchQuery.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getSearchQuery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getSelectedResults.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getSelectedResults",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getShowTime.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getShowTime",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getSrc.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getSrc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getState.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getState",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getTotalResultCount.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getTotalResultCount",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/getVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/getVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/openSearchResult.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/openSearchResult",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/refresh.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/refresh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/removeOnPostSearch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/removeOnPostSearch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/removeOnResultOpened.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/removeOnResultOpened",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/removeOnSelection.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/removeOnSelection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/removeOption.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/removeOption",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/removePreSearch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/removePreSearch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setData.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setData",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setDefaultView.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setDefaultView",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setDisabled.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setDisabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setEntityTypes.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setEntityTypes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setFocus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setFocus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setNotification.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setNotification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setSearchQuery.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setSearchQuery",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setShowTime.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setShowTime",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setSrc.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setSrc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/controls/setVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/controls/setVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/attribute-onchange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/attribute-onchange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/form-data-onload.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/form-data-onload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/form-onload.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/form-onload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/form-onsave.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/form-onsave",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/grid-onchange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/grid-onchange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/grid-onrecordselect.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/grid-onrecordselect",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/grid-onsave.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/grid-onsave",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/onprocessstatuschange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/onprocessstatuschange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/onreadystatecomplete.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/onreadystatecomplete",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/onresultopened.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/onresultopened",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/onselection.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/onselection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/onstagechange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/onstagechange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/onstageselected.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/onstageselected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/postsearch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/postsearch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/presearch.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/presearch",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/subgrid-onload.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/subgrid-onload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/events/tabstatechange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/events/tabstatechange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/executioncontext/getDepth.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/getDepth",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/executioncontext/getEventArgs.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/getEventArgs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/executioncontext/getEventSource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/getEventSource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/executioncontext/getFormContext.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/getFormContext",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/executioncontext/getSharedVariable.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/getSharedVariable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/executioncontext/SetSharedVariable.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/SetSharedVariable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data/addOnLoad.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data/addOnLoad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data/getIsDirty.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data/getIsDirty",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data/isValid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data/isValid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data/refresh.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data/refresh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data/removeOnLoad.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data/removeOnLoad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data/save.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data/save",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/addOnSave.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/addOnSave",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/getDataXml.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/getDataXml",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/getEntityName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/getEntityName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/getEntityReference.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/getEntityReference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/getId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/getId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/getIsDirty.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/getIsDirty",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/getPrimaryAttributeValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/getPrimaryAttributeValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/isValid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/isValid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/removeOnSave.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/removeOnSave",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-entity/save.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-entity/save",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/getEnabledProcesses.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/getEnabledProcesses",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/getProcessInstances.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/getProcessInstances",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/getSelectedStage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/getSelectedStage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/setActiveProcessInstance.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/setActiveProcessInstance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/activepath/getActivePath.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/activepath/getActivePath",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/activeprocess/getActiveProcess.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/activeprocess/getActiveProcess",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/activeprocess/setActiveProcess.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/activeprocess/setActiveProcess",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/activestage/getActiveStage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/activestage/getActiveStage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/activestage/setActiveStage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/activestage/setActiveStage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/eventhandlers/addOnProcessStatusChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/eventhandlers/addOnProcessStatusChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/eventhandlers/addOnStageChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/eventhandlers/addOnStageChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/eventhandlers/addOnStageSelected.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/eventhandlers/addOnStageSelected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/eventhandlers/removeOnProcessStatusChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/eventhandlers/removeOnProcessStatusChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/eventhandlers/removeOnStageChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/eventhandlers/removeOnStageChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/eventhandlers/removeOnStageSelected.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/eventhandlers/removeOnStageSelected",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/instance/getInstanceId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/instance/getInstanceId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/instance/getInstanceName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/instance/getInstanceName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/instance/getStatus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/instance/getStatus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/instance/setStatus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/instance/setStatus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/navigation/moveNext.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/navigation/moveNext",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/navigation/movePrevious.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/navigation/movePrevious",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/process/getId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/process/getId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/process/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/process/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/process/getStages.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/process/getStages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/process/isRendered.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/process/isRendered",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getCategory.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getCategory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getEntityName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getEntityName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getNavigationBehavior.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getNavigationBehavior",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getStatus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getStatus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/stage/getSteps.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/stage/getSteps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/step/getAttribute.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/step/getAttribute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/step/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/step/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/step/getProgress.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/step/getProgress",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/step/isRequired.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/step/isRequired",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-data-process/step/setProgress.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-data-process/step/setProgress",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/addOnLoad.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/addOnLoad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/clearFormNotification.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/clearFormNotification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/close.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/close",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/getFormType.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/getFormType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/getViewPortHeight.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/getViewPortHeight",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/getViewPortWidth.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/getViewPortWidth",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/refreshRibbon.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/refreshRibbon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/removeOnLoad.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/removeOnLoad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/setFormEntityName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/setFormEntityName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui/setFormNotification.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui/setFormNotification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-formSelector/getId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-formSelector/getId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-formSelector/getLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-formSelector/getLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-formSelector/navigate.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-formSelector/navigate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation/getId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation/getId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation/getLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation/getLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation/getVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation/getVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation/setFocus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation/setFocus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation/setLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation/setLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-navigation/setVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-navigation/setVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-process/getDisplayState.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-process/getDisplayState",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-process/getVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-process/getVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-process/reflow.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-process/reflow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-process/setDisplayState.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-process/setDisplayState",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-process/setVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-process/setVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getControl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getControl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getControlType.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getControlType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getDisabled.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getDisabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getParent.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getParent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/getVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/getVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/isLoaded.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/isLoaded",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/refresh.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/refresh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/setDisabled.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/setDisabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/setFocus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/setFocus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/setLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/setLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-quickForms/setVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-quickForms/setVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections/getLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections/getLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections/getParent.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections/getParent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections/getVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections/getVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections/setLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections/setLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-sections/setVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-sections/setVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/addTabStateChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/addTabStateChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/getDisplayState.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/getDisplayState",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/getLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/getLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/getName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/getName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/getParent.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/getParent",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/getVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/getVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/removeTabStateChange.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/removeTabStateChange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/setDisplayState.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/setDisplayState",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/setFocus.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/setFocus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/setLabel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/setLabel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/formContext-ui-tabs/setVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/formContext-ui-tabs/setVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/grid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/grid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridattribute.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridattribute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcell.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcell",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridControl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridControl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridentity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridentity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridrow.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridrow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridrowdata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridrowdata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/viewselector.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/viewselector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/grid/addOnRecordSelect.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/grid/addOnRecordSelect",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/grid/getRows.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/grid/getRows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/grid/getSelectedRows.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/grid/getSelectedRows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/grid/getTotalRecordCount.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/grid/getTotalRecordCount",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/addOnLoad.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/addOnLoad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getEntityName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getEntityName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getFetchXml.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getFetchXml",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getGrid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getGrid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getGridType.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getGridType",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getRelationship.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getRelationship",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getUrl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getUrl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/getViewSelector.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/getViewSelector",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/openRelatedGrid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/openRelatedGrid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/refresh.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/refresh",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/refreshRibbon.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/refreshRibbon",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridcontrol/removeOnLoad.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridcontrol/removeOnLoad",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridentity/getEntityName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridentity/getEntityName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridentity/getEntityReference.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridentity/getEntityReference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridentity/getId.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridentity/getId",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridentity/getPrimaryAttributeValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridentity/getPrimaryAttributeValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridrow/getData.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridrow/getData",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/gridrowdata/getEntity.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/gridrowdata/getEntity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/viewselector/getCurrentView.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/viewselector/getCurrentView",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/viewselector/isVisible.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/viewselector/isVisible",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/grids/viewselector/setCurrentView.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids/viewselector/setCurrentView",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/save-event-arguments/getSaveMode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/save-event-arguments/getSaveMode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/save-event-arguments/isDefaultPrevented.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/save-event-arguments/isDefaultPrevented",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/save-event-arguments/preventDefault.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/save-event-arguments/preventDefault",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Device/captureAudio.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Device/captureAudio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Device/captureImage.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Device/captureImage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Device/captureVideo.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Device/captureVideo",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Device/getBarcodeValue.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Device/getBarcodeValue",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Device/getCurrentPosition.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Device/getCurrentPosition",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Device/pickFile.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Device/pickFile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Encoding/htmlAttributeEncode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Encoding/htmlAttributeEncode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Encoding/htmlDecode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Encoding/htmlDecode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Encoding/htmlEncode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Encoding/htmlEncode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Encoding/xmlAttributeEncode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Encoding/xmlAttributeEncode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Encoding/xmlEncode.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Encoding/xmlEncode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openAlertDialog.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openAlertDialog",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openConfirmDialog.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openConfirmDialog",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openErrorDialog.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openErrorDialog",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openFile.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openFile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openForm.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openForm",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openUrl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openUrl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Navigation/openWebResource.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Navigation/openWebResource",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Panel/loadPanel.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Panel/loadPanel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/closeProgressIndicator.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/closeProgressIndicator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getAllowedStatusTransitions.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getAllowedStatusTransitions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getEntityMetadata.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getEntityMetadata",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getLearningPathAttributeName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getLearningPathAttributeName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getResourceString.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getResourceString",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/invokeProcessAction.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/invokeProcessAction",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/lookupObjects.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/lookupObjects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/refreshParentGrid.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/refreshParentGrid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/showProgressIndicator.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/showProgressIndicator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/client.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/client",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/getAdvancedConfigSetting.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getAdvancedConfigSetting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppProperties.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppProperties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppUrl.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppUrl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/getVersion.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getVersion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/isOnPremises.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/isOnPremises",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/organizationSettings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/organizationSettings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/prependOrgName.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/prependOrgName",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-Utility/getGlobalContext/userSettings.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/userSettings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/createRecord.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/createRecord",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/deleteRecord.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/deleteRecord",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/isAvailableOffline.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/isAvailableOffline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/offline.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/offline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/online.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/online",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/retrieveMultipleRecords.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/retrieveMultipleRecords",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/retrieveRecord.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/retrieveRecord",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/updateRecord.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/updateRecord",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/online/execute.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/online/execute",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/developer/clientapi/reference/Xrm-WebApi/online/executeMultiple.md",
+      "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/online/executeMultiple",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/marketing/developer/event-management-web-application.1.md",
+      "redirect_url": "event-management-web-application",
+      "redirect_document_id": false
+    }
   ]
 }

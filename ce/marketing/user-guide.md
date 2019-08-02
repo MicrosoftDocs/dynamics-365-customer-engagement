@@ -82,7 +82,7 @@ search.app:
 <h2>Manage, score, and qualify leads</h2>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>
 <li><a href="score-manage-leads.md" data-raw-source="[Score and manage leads](score-manage-leads.md)">Score and manage leads</a></li>
-<li><a href="register-engagement.md" data-raw-source="[Register contacts&#39; engagement](register-engagement.md)">Register contacts&#39; engagement</a></li>
+<li><a href="register-engagement.md" data-raw-source="[Register link clicks and website visits](register-engagement.md)">Register contacts&#39; engagement</a></li>
 <li><a href="LinkedIn-Lead-Gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>
 
 </td><td>

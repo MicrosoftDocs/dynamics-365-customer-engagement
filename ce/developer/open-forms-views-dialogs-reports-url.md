@@ -119,16 +119,23 @@ http://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid={
 
  To display a list of entity records within the application for a SubArea set the Entity attribute value. This displays the default view for that entity and provides the correct title and icon.  
 
- However, if you want to have a SubArea element that uses a specific initial default view, use the following Url pattern.  
 
-```xml  
-Url=“/_root/homepage.aspx?etn=<entity logical name >&amp;viewid=%7b<GUID value of view id>%7d”  
+ However, if you want to have a SubArea element that uses a specific initial default view, use the following Url pattern when working with the Unified Interface.
+
+```
+[Organization Url]/main.aspx?pagetype=entitylist&etn=<entity logical name >&viewid=%7b00000000-0000-0000-0000-000000000000%7d&viewType=1039
+```
+
+For the legacy web client, use the following URL.
+
+```
+[Organization Url]/homepage.aspx?etn=<entity logical name >&viewid=%7b00000000-0000-0000-0000-000000000000%7d  
 ```  
 
  When you use this URL, you must also specify appropriate values for `<Titles>` and `<Descriptions>`, and specify an icon for the entity.  
 
 > [!NOTE]
->  If you specify the view using the `/_root/homepage.aspx` page, the view selector will still be shown. If the user changes the view, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps remembers the user’s most recent selection and the initial default view displays after they close and re-open their browser.  
+>  If you specify the view using the `.../homepage.aspx` page, the view selector will still be shown. If the user changes the view, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps remembers the user’s most recent selection and the initial default view displays after they close and re-open their browser.  
 
 <a name="BKMK_OpenADialogProcess"></a>   
 ## Opening a Dialog Process by using a URL  

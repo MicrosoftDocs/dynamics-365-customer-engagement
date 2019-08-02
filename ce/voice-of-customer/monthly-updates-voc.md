@@ -2,7 +2,7 @@
 title: "Monthly updates in Voice of the Customer for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365 for Customer Engagement."
 keywords: what's new in voice of the customer
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -19,6 +19,9 @@ ms.custom:
 ---
 
 # What's new in Voice of the Customer for Dynamics 365 for Customer Engagement
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 Welcome to Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added and updated recently. For more information about the updates that have been made to Voice of the Customer for Dynamics 365 for Customer Engagement to date, along with additional details about those updates, see [here](https://blogs.msdn.microsoft.com/crm/tag/voice-of-the-customer/).
 

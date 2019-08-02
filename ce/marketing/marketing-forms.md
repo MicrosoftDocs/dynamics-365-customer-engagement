@@ -27,8 +27,6 @@ search.app:
 
 # Create, view, and manage marketing forms
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form and choose local settings for it, which apply to that page only.
 
 Each marketing form is made from a collection of marketing form fields, plus form buttons, graphical elements, and a few configuration settings. Each field included in your form must be set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a marketing form field, which establishes options for how that field is presented in forms where it appears, and which lead or contact fields it maps to. Some features of a marketing form depend on which type of form it is—for example, a subscription center form can include subscription lists.
@@ -49,9 +47,9 @@ To create a new marketing form, do one of the following:
 
 - Go to **Marketing** > **Internet marketing** > **Marketing forms** to go to the list of all forms currently available on your instance, and then select **+New** in the command bar. You'll first be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form element. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form element is selected, or you can do it later either from here or from the forms list at **Marketing** > **Internet marketing** > **Marketing forms**.
+- While working on an existing marketing page design, add a form element to your design, and then select **+ New** on the **Properties** tab instead of choosing an existing form (be sure to save your page design first if you haven't already done so). You'll then be asked to choose a template, which establishes the form type, column layout, and sample content. Then you'll be in the form designer.
 
-Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
+The form designer is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides design elements and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
@@ -68,8 +66,10 @@ When creating or editing a form, you'll be in the form designer, which is an exa
 Use the designer to add, configure, and arrange the various fields, buttons, and graphical elements that your form requires by working as follows:
 
 - Assemble your form by dragging fields and design elements from the **Toolbox** tab to the canvas.
-
 - Configure each element by selecting it and going to the **Properties** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design elements reference](content-blocks-reference.md)
+
+> [!TIP]
+> The **Toolbox** tab of the form designer shows each field for which a field mapping is established. If you don't see the field you are looking for, then you probably need to set up a mapping for it as described in [Create and manage input fields for use in forms](marketing-fields.md)
 
 The designer also provides the usual tools for editing the HTML code and viewing previews in various screen sizes and orientations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
@@ -87,7 +87,7 @@ Design element availability and requirements vary by form type, as outlined in t
 | **Reset button**                    | Yes               | No                      | Yes                      |
 | **Captcha**                          | Yes               | No                      | No                       |
 
-You can also view and edit the raw HTML code for the form by going to the **Designer** &gt; **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
+You can also view and edit the raw HTML code for the form by going to the **Designer** > **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
 
 When you're done designing your form, select **Check for errors** and to make sure you've included all the required content and settings. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
 
@@ -109,6 +109,16 @@ In addition to the basic form design, each marketing-form record also includes a
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 
+## Go live to make your marketing form available for use
+
+While you are building a marketing form it remains in draft status, and is therefore editable in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] but is unavailable for use on marketing pages. When your form is ready for use, you must publish it by selecting **Go Live**. Your design will be checked for errors and then, provided it passes, be moved to the live state, thereby making it available for use on a marketing page or to be [embedded on an external site](embed-forms.md). If a problem is found, read the error message, address the issue, and try again.
+
+You can edit a live form by selecting **Edit** in the command bar. While you are editing it, it remains functional on all live pages where it is already being used, and available for use on new pages. After editing, select **Save** to go live with your changes. Your design will be checked for errors and then, provided it passes, your updates will be published.
+
+You can prevent a live form from being available for use on new pages by selecting **Stop** in the command bar. <!-- Stopped forms can't be added to new pages, but will continue to function on pages that are already live. However, if you edit or stop a page that includes a stopped form, you'll need to go live with the form (or pick another live form) before you can go live with that page again. -->
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Go live with publishable entities and track their status](go-live.md)
+
 ## Establish marketing-form templates
 
 As with marketing pages themselves, marketing forms are also based on templates, so when you need to create a new form, you are provided with a collection of form templates to help get you started more quickly.
@@ -124,3 +134,9 @@ Use a form element to add a form to a landing page. After adding the element, yo
 When you're choosing which form the element will show, you can only choose forms whose type matches the type of marketing page you are working on (landing page, subscription center, or forward to a friend).
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
+
+### See also
+
+[Design your digital content](design-digital-content.md)  
+[Design elements reference](content-blocks-reference.md)  
+[Create input fields for forms](marketing-fields.md)

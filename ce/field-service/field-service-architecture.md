@@ -2,7 +2,7 @@
 title: "Field Service work order architecture | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/09/2019
+ms.date: 05/19/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""

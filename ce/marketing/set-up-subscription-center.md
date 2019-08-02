@@ -27,8 +27,6 @@ search.app:
 
 # Set up subscription lists and subscription centers
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
 All marketing email messages that you create by using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
@@ -99,7 +97,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 1. On the command bar, select **Save** to save your new list.
 
-1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **Yes**.
+1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **True**.
 
 1. Select **Save** on the command bar to save your new list as a subscription list.
 

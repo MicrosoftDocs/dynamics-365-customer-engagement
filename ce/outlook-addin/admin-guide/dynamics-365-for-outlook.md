@@ -31,6 +31,9 @@ search.app:
 >
 > As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have decided not to deprecate Dynamics 365 for Outlook (Outlook add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
 >
+>**When using Dynamics 365 online for Outlook version 9.0 in offline mode, attachments to synchronized records will not be available in offline mode. If there is an attachment to a record, the attachment will only be available when you are back online. If you added an attachment to a record in offline mode, the attachment will be synchronized to the server when you are back online. To use attachments in offline mode, consider saving the attachment your device**.
+>
+>
 > **The offline capability in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] version 9.0 is not available in Dynamics 365 for Customer Engagement (on-premises), version 9.0.**
 >
 > **Customizations that have dependency on the SQL database engine and the local offline instance of Dynamics 365 for Outlook are unsupported.**

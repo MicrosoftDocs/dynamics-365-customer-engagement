@@ -23,8 +23,6 @@ search.app:
 ---
 # Enable Unified Interface Only
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In 2018, we introduced [Unified Interface](https://docs.microsoft.com/powerapps/user/unified-interface), the latest generation of web app design for the PowerApps model-driven apps and Dynamics 365 for Customer Engagement apps. It brings the best in usability, accessibility, functionality, and speed to every user. Improve how your business applications run by using only the Unified Interface. To learn how to enable it, see [How to enable Unified Interface Only](#how-to-enable-unified-interface-only-mode). For more information, see [What experiences are available in Unified Interface Only](#what-experiences-are-available-in-unified-interface-only-mode) and [FAQs](#faqs).
 
 ## When does the Unified Interface Only experience become available, and which environments are affected?
@@ -39,7 +37,7 @@ All new Dynamics 365 for Customer Engagement environments (instances) and Common
 |---------|---------|
 |New Trial Dynamics 365 for Customer Engagement instances     | December 12, 2018         |
 |New Trial and Production Common Data Service environments     | February 2, 2019        |
-|New Production and Sandbox Dynamics 365 for Customer Engagement instances     | To be announced soon        |
+|New Production and Sandbox Dynamics 365 for Customer Engagement instances     | June 8, 2019       |
 
 ### Existing environments
 

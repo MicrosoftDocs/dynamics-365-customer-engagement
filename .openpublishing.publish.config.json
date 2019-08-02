@@ -54,10 +54,6 @@
           "ReferenceTOCUrl": "/dotnet/api/ce-9-packagedeployer/toc.json"
         },
         {
-          "ConceptualTOC": "ce/developer/workflow/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/ce-9-workflow/toc.json"
-        },
-        {
           "ConceptualTOC": "ce/developer/xrm-tooling/toc.yml",
           "ReferenceTOCUrl": "/dotnet/api/ce-9-xrmtooling/toc.json"
         },
