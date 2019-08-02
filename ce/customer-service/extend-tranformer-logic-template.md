@@ -39,16 +39,6 @@ kaobject["content"] = "Hello World";
 3. Follow the steps mentioned in [Register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_register) to register your plug-in.
 4. Now, when you create a new knowledge article from the existing template, you will be able to see the content section pre-populated with "Hello World".
 
-<!--## Example
-
-Let us consider the example where we want to add a custom field for attribute **Country**. A template will allow you to pre-populate the **Country** field.
-
-The sample code given below shows how you can add **Country** field to your template.
-
-```csharp
-
-```
--->
 ## See also
 
 [Create a knowledge article using template](create-knowledge-article-using-template.md)<br />
