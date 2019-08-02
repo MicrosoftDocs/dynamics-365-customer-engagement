@@ -1,7 +1,7 @@
 ---
 title: "Important information for CRM Online customers | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/26/2019
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
