@@ -126,7 +126,7 @@ You need to be a member of the connected channel team to view files. Contact the
 
 This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).
 
-## Troubleshooting while configuring Teams Integration
+## Troubleshoot configuration issues with Teams Integration
 
 Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Teams integration.
 
