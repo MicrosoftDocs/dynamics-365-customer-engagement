@@ -112,23 +112,14 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 ### Booking Settings
 
--   **Auto Generate Booking** - set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to Yes, you must specify a resource and time for the booking. If set to **No** the generated work orders must be scheduled via the normal scheduling process: manually, with the schedule assistant, or with resource scheduling optimization. 
+-   **Auto Generate Booking** - set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to Yes, you must specify a **Preferred Resource** and **Preferred Start Time** for the booking. If set to **No** the generated work orders must be scheduled via the normal scheduling process: manually, with the schedule assistant, or with resource scheduling optimization. 
 
 > [!Note]
 > Bookings made by agreements will not consider existing bookings, meaning it will double book on top of exisitng schedules.
   
--   If you choose to have the system auto-generate work orders, then choose how many days in advance to **Generate Work Order Days in Advance**.   
+**Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant.  As an example, if you plan to perform monthly maintenance on the 15th of each monthly, and set pre and post booking flexibility to 7 days; then the work orders can be scheduled between the 8th and the 22nd of each month.
   
-- **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields that aid the schedule assistant.  
-  
--   The **Priority** will pass down to every work order that is generated from this agreement schedule.  
-  
--   The **Work Order Summary** will pass down to every work order that is generated from this agreement schedule.  
-  
--   If you configure the agreement to automatically generate bookings, then choose a:  
-  
-- **Preferred Resource**: for the work order.  
-  
+   
 - **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work Order should be scheduled between 8 a.m. and 12 p.m.)  
   
 1.  To set up a recurring booking for this agreement, on the command bar at the top, click **Booking Recurrence**, specify the recurrence, and then click **Save**.  
