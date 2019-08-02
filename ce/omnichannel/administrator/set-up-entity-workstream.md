@@ -13,7 +13,9 @@ ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F
 ms.custom: 	
 ---	
 
-# Create a case entity work stream
+# Create cases entity work streams
+
+## Create case entity work stream
 
 This topic describes how to create a work stream that is used to route case entity record.
 
