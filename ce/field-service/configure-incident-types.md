@@ -345,6 +345,6 @@ When using incidents with **Agreements**, the incidents and related items are ad
 
 - [Create work order types](../field-service/create-work-order-types.md)   
 - [Create a work order](../field-service/create-work-order.md)
-- [Add account details to work orders](../field-service/work-order-customer-account)   
-- [Work order life cycle and statuses](..field-service/work-order-status-booking-status.md)  
+- [Add account details to work orders](../field-service/work-order-customer-account.md)   
+- [Work order life cycle and statuses](../field-service/work-order-status-booking-status.md)  
 - [Set up service task types](../field-service/set-up-service-task-types.md)
