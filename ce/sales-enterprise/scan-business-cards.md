@@ -21,7 +21,7 @@ ms.tgt_pltfrm:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The integrated business card scanner in Dynamics 365 for Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met on the fields. It reads basic information from the card and populates data in fields of lead or contact records in Dynamics 365 for Sales, so sales people don’t spend time on entering the data manually and can focus on more important tasks.
+The integrated business card scanner in Dynamics 365 for Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 for Sales, so sales people don’t spend time on entering the data manually and can focus on more important tasks.
 
 > [!IMPORTANT]
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -30,31 +30,26 @@ The integrated business card scanner in Dynamics 365 for Sales helps salespeople
 
 To scan a business card,
 
-1.  On the quick create form of a contact or lead form, select **Scan business card**.
+1.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
 
-    ![Option to scan business card in the Contact quick create form](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact quick create form")
+    ![Option to scan business card in the Contact Quick Create form](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
 
-2.  If you’re using the Dynamics 365 for Sales app on a desktop, browse to the
-    folder where the business card picture is stored, select the business card
-    picture, and then select **Insert**.
+2.  If you’re using the Dynamics 365 for Sales app on a desktop, browse to the folder where the business card picture is stored, select the business card picture, and then select **Insert**.
 
-    \-OR-
+    -OR-
 
-    If you are using a mobile phone, use the mobile camera to capture the
-    business card picture.
+    If you are using a mobile phone, use the mobile phone camera to capture the business card picture.
 
-    The details like first name, last name, account name, job title, and email
-    will be automatically populated from the business card.
+    The details like first name, last name, account name, job title, and email will be automatically populated from the business card.
 
     ![Contact form showing scanned card with automatically populated fields](media/scanned-card-with-populated-fields.jpg "Contact form showing scanned card with automatically populated fields")
 
 3. Select **Save**.
 
-    When you save the contact or lead records, if duplicate records are found based on the available duplicate detection rules, a **Duplicate Records detected** dialog box is shown.
-
-    You can choose whether you want to create a duplicate record or not.
-
-    When you save the contact or lead record, the business card is also associated and stored in the records, so you can refer to it later. If your system administrator has set the **Always retain business card images after scanning option** option to **No**, the business card image won't be saved. 
+    
+    > [!NOTE]
+    > - When you save the **Contact** or **Lead** records, a **Duplicate Records detected** dialog box is shown if duplicate records are found based on the available duplicate detection rules. You can choose whether you want to create a duplicate record or not.
+    > - When you save the **Contact** or **Lead** record, the business card is also associated and stored in the records, so you can refer to it later. If your system administrator has set the **Always retain business card images after scanning option** option to **No**, the business card image won't be saved. 
 
     ![Saved business card on the Business card tab of a Contact form](media/saved-business-card-on-business-card-tab.jpg "Saved business card on the Business card tab of a Contact form")
 
