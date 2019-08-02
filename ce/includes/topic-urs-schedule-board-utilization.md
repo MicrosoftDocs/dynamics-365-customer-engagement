@@ -1,4 +1,4 @@
-It is important for dispatchers and service managers to understand resource utilization to make better scheduling decisions, whether it is assigning work orders to field technicians or reserving equipment for customer jobs.  
+Dispatchers and service managers need to understand resource utilization to make better scheduling decisions, whether through assigning work orders to field technicians or reserving equipment for customer jobs.  
 
 Utilization is defined as the proportion of time a resource is scheduled to work. More specifically, it is calculated as the percentage of booked time compared to working hours. In all schedule board views, utilization is automatically calculated and displayed in each resource's cell.
 
@@ -65,7 +65,7 @@ Matthew already has a 12 hour booking for one day, so his utilization % becomes 
 
 ## Configuration considerations
 
-### Proposed and Canceled bookings do not contribute to utilization
+### Proposed and canceled bookings do not contribute to utilization
 
 Though the field service process utilizes many field service booking statuses such as traveling, in progress, on break, and completed, each of those relate to a booking status of either **Committed**, **Proposed**, or **Canceled**. The purpose of a proposed status is to suggest work that needs to be confirmed and the canceled status is used to notify stakeholders that the booking is no longer scheduled. 
 
