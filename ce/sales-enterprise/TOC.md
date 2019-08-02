@@ -11,6 +11,8 @@
 #### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
 #### [Define lead qualification experience](define-lead-qualification-experience.md)
 #### [Make price list optional](make-price-list-optional.md)
+#### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
+#### [Customize the business card scanner control](customize-business-card-scan-control.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
@@ -50,6 +52,9 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### Manage customers
+#### [Manage accounts and contacts](../basics/accounts-contacts.md)
+#### [Scan business cards](scan-business-cards.md)
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
 #### [Manage your leads](../sales-enterprise/create-edit-lead-sales.md)
