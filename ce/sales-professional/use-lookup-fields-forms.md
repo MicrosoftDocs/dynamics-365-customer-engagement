@@ -44,10 +44,9 @@ Lookups are classified into the following:
 
 - **Complex lookup:** Select a single record or multiple records in a field from multiple entities: 
 
-- **Regarding-type fields:** Use to select a single record from multiple tabs in a lookup. 
+  - **Regarding-type fields:** Use to select a single record from multiple tabs in a lookup. 
 
-- **Party-type fields:** Use to select multiple records from multiple tabs in a lookup. Use party-type fields to select multiple records. This allows you to add
-each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
+  - **Party-type fields:** Use to select multiple records from multiple tabs in a lookup. Use party-type fields to select multiple records. This allows you to add each record by performing a new search, multiple times. Every time you select a record, you will be able to perform a new search for another record.
 
 ### Create a new record if you don’t find an existing record
 
