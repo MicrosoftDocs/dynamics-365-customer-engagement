@@ -106,17 +106,18 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 **Auto Generate Work Order** - set to **Yes** to have this agreement automatically generate work orders. The system will generate work orders on a rolling basis. Generated work orders will appear in the active work order view with a status of open-unscheduled. If set to **No**, you have to manually generate the work order for each schedule date.   
 
-**Generate Work Orders Day in Advance** - dictates how many days before the expected service date should the work order be generated. As an example, if the agreement calls for monthly maintenance on the 1st day of each month, you may want to generate the work orders starting 15 days before. Generating them more than 30 days before could result in 2 maintenance work orders for the same agreement in the unscheduled work orders queue, but generating it the day before may not give the scheduling team enough time to plan and schedule to the best resource. 
-
-
-**Work Order Type**, **Priority**, and **Work Location** entered here are passed down to resulting work orders.
-
-
+**Generate Work Orders Day in Advance** - dictates how many days before the expected service date the work order will be generated. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare.
+ 
+**Work Order Type**, **Priority**, **Work Order Summary**, and **Work Location** entered here are passed down to resulting work orders.
 
 ### Booking Settings
--   Given that the system is automatically generated work orders, do you want   it to schedule those work orders as well? If so, mark **Auto Generate Booking** as **Yes** and choose a preferred resource and start time. When the work order is generated, the system will also schedule it, creating a work order schedule and displaying it on the schedule board.  
+
+-   **Auto Generate Booking** - set to **Yes** to have the system book generated work orders (regardless of auto generated or manually generated). If set to Yes, you must specify a resource and time for the booking. If set to **No** the generated work orders must be scheduled via the normal scheduling process: manually, with the schedule assistant, or with resource scheduling optimization. 
+
+> [!Note]
+> Bookings made by agreements will not consider existing bookings, meaning it will double book on top of exisitng schedules.
   
--   If you choose to have the system auto-generate work orders, then choose how many days in advance to **Generate Work Order Days in Advance**. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare.  
+-   If you choose to have the system auto-generate work orders, then choose how many days in advance to **Generate Work Order Days in Advance**.   
   
 - **Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date thee work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields that aid the schedule assistant.  
   
