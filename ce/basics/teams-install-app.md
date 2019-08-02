@@ -29,6 +29,8 @@ search.app:
 
 By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
 
+If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-troubleshoot#troubleshoot-configuration-issues-with-teams-integration.
+
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
 3. Enable **Microsoft Teams Integration**.
