@@ -2,7 +2,7 @@
 title: "Resource utilization on the schedule board - Universal Resource Scheduling | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/12/2019
+ms.date: 08/02/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
