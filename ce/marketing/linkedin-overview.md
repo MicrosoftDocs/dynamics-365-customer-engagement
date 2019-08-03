@@ -2,7 +2,7 @@
 title: "Integrate LinkedIn marketing with Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Get an overview of all the various ways that Dynamics 365 for Marketing can be integrated with the marketing features of LinkedIn"
 keywords: LinkedIn; Lead Gen Forms; lead; connector
-ms.date: 10/16/2018
+ms.date: 07/04/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing

@@ -66,6 +66,7 @@
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Utilization](schedule-board-utilization.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
 ### [Edit booking template](booking-template.md)
 ### [Booking alerts](booking-alert.md)
