@@ -21,8 +21,6 @@ search.app:
 ---
 # Collaborate with your team
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_crm_online](../includes/pn-crm-online.md)] offers a number of tools for collaboration. Through integration with other Microsoft collaboration tools, users of Dynamics 365 for Customer Engagement apps can work closely with team members, even if they are not also users of the Dynamics 365 for Customer Engagement apps.
 
 - **[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]** - Out-of-the-box integration with [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for agenda, conversation, OneNote, documents, and member management. See [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md).
@@ -33,7 +31,7 @@ search.app:
 
 - **[!INCLUDE[pn_yammer](../includes/pn-yammer.md)]** - Use one place to have conversations, create and edit documents, and share information with your colleagues without sending a single email or attending any meetings. See [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md).
 
-- **Microsoft Teams Integration** - Easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. See [Mircosoft Teams Integration](teams-integration.md).
+- **Microsoft Teams Integration** - Easily work with Dynamics 365 customer information and share files directly from Microsoft Teams. See [Microsoft Teams Integration](teams-integration.md).
   
   
 ### See Also

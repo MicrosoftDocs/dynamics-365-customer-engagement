@@ -1,7 +1,7 @@
 ---
 title: "Sign in to Dynamics 365 for Customer Engagement apps and Office 365 apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 07/17/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Sign in to Customer Engagement and Office 365 apps
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] apps. You can sign in by using the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], or sign in directly. For [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], we're introducing the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] home page which you can also sign in to directly.  
   
@@ -70,6 +68,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
    |**crm7** for Japan (JPN)|[https://port.crm7.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm7.dynamics.com/G/instances/InstancePicker.aspx)|  
    |**crm8** for India (IND)|[https://port.crm8.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm8.dynamics.com/G/instances/InstancePicker.aspx)|  
    |**crm11** for United Kingdom (UK)|[https://port.crm11.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm11.dynamics.com/G/instances/InstancePicker.aspx)|  
+   |**crm12** for France (FRA)|[https://port.crm12.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm12.dynamics.com/G/instances/InstancePicker.aspx)|  
   
     For Germany (DEU), use the following: https://port.crm.microsoftdynamics.de/g/instances.instancepicker.aspx.  
   
@@ -99,6 +98,7 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
 > -   .crm8 for India (IND)  
 > -   .crm9 for United States of America Government  
 > -   .crm11 for United Kingdom (UK)  
+> -   .crm12 for France (FRA)
   
  For Germany (DEU), use the following: [https://\<organization>.crm.microsoftdynamics.de](https://<organization>.crm.microsoftdynamics.de).  
   

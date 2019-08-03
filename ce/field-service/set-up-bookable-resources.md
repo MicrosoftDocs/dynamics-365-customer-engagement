@@ -29,8 +29,6 @@ search.app:
 
 # Set up bookable resources (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A bookable resource in Field Service is anything that needs to be scheduled. This most commonly includes people, equipment, and physical spaces (facilities).   
 
 Each resource can have different attributes that distinguish it from others, including but not limited to:

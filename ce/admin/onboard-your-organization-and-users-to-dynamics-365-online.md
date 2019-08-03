@@ -26,7 +26,7 @@ search.app:
 
 # Onboard your organization and users
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 New to Customer Engagement apps? We've put together step-by-step guidance whether you’re still evaluating Customer Engagement apps, ready to make a purchase, or ready to onboard your organization and users.  
   

@@ -28,8 +28,6 @@ search.app:
 
 # Manage teams
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
 ## Create a team

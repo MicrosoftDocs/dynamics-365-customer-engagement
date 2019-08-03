@@ -23,8 +23,6 @@ topic-status: Drafting
 
 # Find your way around the Sales Hub app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is also built from the ground up with accessibility in mind.
 
 ## Nav bar at the top 

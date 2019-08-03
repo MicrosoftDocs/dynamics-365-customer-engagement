@@ -32,7 +32,7 @@
 ## [Price list](create-price-list.md)
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
-## [Incident types](configure-incident-types.md)
+## [Work order templates (incident types)](configure-incident-types.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -66,7 +66,10 @@
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Utilization](schedule-board-utilization.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+### [Edit booking template](booking-template.md)
+### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 
 
@@ -117,6 +120,7 @@
 ## [Overview](rso-overview.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
+## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)

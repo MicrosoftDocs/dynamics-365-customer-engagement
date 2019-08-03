@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Make revisions to a product (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Keep the product inventory updated by quickly revising properties for the products as required, and republishing the information so that your sales agents can see the latest changes to the inventory.  
 
 ## Revise a product (Sales Hub)

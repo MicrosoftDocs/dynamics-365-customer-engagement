@@ -28,8 +28,6 @@ search.app:
 
 # Sign up for a free trial of Dynamics 365 for Marketing
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can sign up for, install, and use a trial version of Dynamics 365 for Marketing for free.
 
 > [!IMPORTANT]

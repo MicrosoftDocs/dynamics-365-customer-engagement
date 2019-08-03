@@ -24,8 +24,6 @@ search.app:
 ---
 # Billing FAQs for for Customer Engagement 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps often hear similar questions from our customers. To help answer your billing and subscription management questions as quickly as possible, we’ve put together this list of the most frequently asked questions.  
   
 ## How do I find the correct Dynamics 365 for Customer Engagement apps (online) billing and subscription support team?  

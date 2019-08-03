@@ -41,7 +41,7 @@ In this topic, we'll show you how to create and customize push notifications to 
 To use Field Service Mobile push notifications, you'll need:
 
 - Field Service legacy web app v 7.5+ and unified interface framework app v8.3+. 
-- The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment.
+- The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment (minimum version 11.1).
 - Field Service Mobile v11.1+ for Windows, iOS, or Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the **Field Service Mobile** app.
 - Review the [privacy notes for Field Service Mobile push notifications](mobile-push-notifications-privacy.md). **PLEASE NOTE:** Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services are not provisioned in a dedicated data center for exclusive use by you and does not provide data segregation, such as for the Government Community Cloud. Your use of Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you do not wish to use the Push Notification, then you must ensure that your administrator keeps the feature off.

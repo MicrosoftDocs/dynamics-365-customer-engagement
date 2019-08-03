@@ -87,6 +87,7 @@
 ### [Enable or disable field security](enable-disable-security-field.md)
 ### [Hierarchy security](hierarchy-security.md)
 ## [Create users and assign security roles](create-users-assign-online-security-roles.md)
+## [System and application users](system-application-users.md)
 ## [Manage teams](manage-teams.md)
 ## [Team templates](about-team-templates.md)
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
@@ -121,6 +122,7 @@
 ## China
 ### [About China datacenter](../admin/datacenter/about-microsoft-cloud-china.md)
 ### [21Vianet support](../admin/datacenter/21vianet-support.md)
+## [France](../admin/datacenter/about-microsoft-cloud-france.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
@@ -187,6 +189,7 @@
 ## [Overview](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
+## [Knowledge article](../customer-service/create-templates-knowledge-article.md)
 ## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
 ## [Entitlements](../customer-service/set-up-entitlements-templates.md)

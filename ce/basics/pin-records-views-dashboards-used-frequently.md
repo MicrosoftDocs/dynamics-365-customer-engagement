@@ -22,8 +22,6 @@ search.app:
 ---
 # Get back to (or pin) the records, views, or dashboards you used most recently
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You probably work with the same records all the time. For example, you may access the same contact or account on a regular basis. Or you may work with the same lists (views) of data over and over. You can quickly get back to recently used records or views from the global navigation bar. You can also pin records and views to make them easier to find. You can even access and pin recently used dashboards.  
 <!-- commented out>  
 > [!NOTE]

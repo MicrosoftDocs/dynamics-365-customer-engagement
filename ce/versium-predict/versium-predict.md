@@ -22,8 +22,6 @@ caps.latest.revision: 17
 ---
 
 # Versium Predict
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 <a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict")](http://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)  
   
  Use Versium Predict in [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to  precisely target your campaigns.  

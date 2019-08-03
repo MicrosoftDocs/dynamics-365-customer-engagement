@@ -22,8 +22,6 @@ search.app:
 ---
 # Set personal options
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Personalize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement workspace to suit your requirements or preferences. For example, you can choose the page that you want to see as soon as you sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can also personalize many other options such as language, currency, and time zone.  
   
 <!---   If you’re using [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)], you can set options that affect synchronization between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](../admin/set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)  

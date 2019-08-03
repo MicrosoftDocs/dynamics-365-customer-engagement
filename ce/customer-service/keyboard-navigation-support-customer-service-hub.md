@@ -22,8 +22,6 @@ search.app:
 
 # Keyboard navigation support for the Customer Service Hub
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 Microsoft is committed to making its products and services easier for everyone to use.
 
 Dynamics 365 for Customer Engagement supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.

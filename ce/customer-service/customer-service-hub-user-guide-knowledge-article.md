@@ -22,8 +22,6 @@ search.app:
 
 # Create and manage knowledge articles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Reduce call handling times with Knowledge articles in the Customer Service Hub application.
   
 With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
@@ -85,7 +83,52 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 > Select the icon ![flyout](media/flyout.png)  to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
+
+
+## Create knowledge articles using templates
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
+> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../legal/dynamics-insider-agreement.md).
+
+Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
+ 
+1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   
+2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
+
+    > [!div class=mx-imgBorder]
+    > ![Select knowledge article](media/ka-select-knowledge-article.png "Select knowledge article")
+ 
+    A list of available articles is displayed. 
+
+3.	To create an article from a template, select **+ New From Template**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select new from template](media/ka-new-article-from-template.png "Select new from template")
+  
+4.	On the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
+
+    > [!div class=mx-imgBorder]
+    > ![Select knowledge article template](media/ka-select-template.png "Select knowledge article template")
+  
+    You observe that some fields are pre-populated as defined in the template.
+
+5.	In the **New Knowledge Article** page, edit the fields as required. 
+
+    > [!div class=mx-imgBorder]
+    > ![New knowledge article page](media/ka-new-article-page.png "New knowledge article page")
+  
+6.	Select **Save**.
+
+    The article is saved, and you can take it to the next stage to approve and publish the article to make it available for users.
+
+> [!NOTE] 
+> To learn how to create knowledge articles templates, see [Create knowledge article template](create-templates-knowledge-article.md)
+
 
 ## Use the rich text editor to create knowledge articles and emails
  Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
@@ -433,5 +476,7 @@ If you are creating an alternate key for Knowledge article entity, include the m
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
+
+[Create knowledge article template](create-templates-knowledge-article.md)
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)

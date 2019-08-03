@@ -22,8 +22,6 @@ topic-status: Drafting
 
 # What if you're no longer working a lead? (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Let's say you've been talking to a lead and you determine that continuing to work the lead won't be worth your time, at least not right now. Not great news, but it happens.  
   
 You'll need to disqualify the lead and give the reason.  

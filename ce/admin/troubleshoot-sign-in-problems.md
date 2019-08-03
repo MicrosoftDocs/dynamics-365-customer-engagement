@@ -2,7 +2,7 @@
 title: "Troubleshoot Dynamics 365 for Customer Engagement apps sign-in problems | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 09/30/2017
+ms.date: 07/17/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -15,7 +15,7 @@ ms.assetid: a78c5ad7-ad71-48af-b498-b121ee327851
 caps.latest.revision: 60
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,8 +23,6 @@ search.app:
   - Powerplatform
 ---
 # Troubleshoot sign-in problems
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps or another Customer Engagement apps service, such as [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]? Here’s what you need to know about passwords, signing in, and common error messages.  
   
@@ -90,6 +88,8 @@ Having trouble signing in to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.
 > -   .crm7 for Japan (JPN)  
 > -   .crm8 for India (IND)  
 > -   .crm9 for United States of America Government  
+> -   .crm11 for United Kingdom (UK)  
+> -   .crm12 for France (FRA)
   
  After entering your URL, you’ll be prompted for your user name. Your user name will be in one of the following formats:  
   

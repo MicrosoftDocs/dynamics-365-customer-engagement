@@ -21,8 +21,6 @@ search.app:
 
 # How to install Dynamics 365 for Field Service 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 This article describes how to install the Dynamics 365 for Field Service application for Dynamics 365 for Customer Engagement (online). It also includes steps to install the mobile solution, and describes how field technicians download and install the mobile app from their device's app store.
 
 > [!Note]

@@ -23,8 +23,6 @@ topic-status: Tech Reviewing
 
 # Associate documents with playbook activities
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x
-
 
 > [!IMPORTANT]
 > This feature is being released in a phased manner. To know more about the feature's availability in your region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)

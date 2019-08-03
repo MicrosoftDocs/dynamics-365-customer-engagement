@@ -24,8 +24,6 @@ search.app:
 ---
 # Secure and manage Dynamics 365 for phones and tablets 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn-mobile-express-long.md)] and [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)] with the following technologies:  
   
 1. **[!INCLUDE[pn_microsoft_intune](../../../includes/pn-microsoft-intune.md)]**. You can use [!INCLUDE[pn_microsoft_intune](../../../includes/pn-microsoft-intune.md)] to manage [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] on [!INCLUDE[tn_apple](../../../includes/tn-apple.md)] and [!INCLUDE[tn_android](../../../includes/tn-android.md)] tablets and phones. [!INCLUDE[pn_intune](../../../includes/pn-intune.md)] provides mobile device management, mobile application management, and PC management capabilities from the cloud. Using [!INCLUDE[pn_intune](../../../includes/pn-intune.md)], you can provide your users with access to corporate applications, data, and resources from virtually anywhere on almost any device, while helping to keep corporate information secure.  

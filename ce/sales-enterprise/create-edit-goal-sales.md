@@ -23,8 +23,6 @@ topic-status: Drafting
 
 # Create or edit a goal (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use goals to keep track of your progress on achieving target revenue.  
   
 ## Create a goal (Sales Hub)
