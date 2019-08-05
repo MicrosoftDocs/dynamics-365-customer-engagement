@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_opportunitylinetransactioncategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 List of transaction categories that will be considered as costs when computing the profit of an opportunity line (Deprecated in v3.0)
 
 **Added by**: Project Service Automation Solution

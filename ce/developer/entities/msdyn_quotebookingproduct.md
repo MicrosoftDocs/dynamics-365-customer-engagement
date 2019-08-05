@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_quotebookingproduct Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Provides ability to store information about the products that are associated with Quote Booking Setup
 
 **Added by**: Field Service Solution

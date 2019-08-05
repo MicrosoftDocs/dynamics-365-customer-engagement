@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_inventoryadjustment Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Records inventory adjustments
 
 **Added by**: Field Service Solution

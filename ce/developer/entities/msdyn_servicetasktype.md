@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_servicetasktype Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Specify the different service task and labor types that your resources perform as part of their work orders.
 
 **Added by**: Field Service Solution

@@ -27,8 +27,6 @@ search.app:
 ---
 # Implement single sign-on from an ASPX webpage or IFRAME
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes how to develop a custom webpage that can make SDK calls to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps on behalf of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps user who is signed in. The typical use of this capability is to write a webpage that is displayed in an inline frame in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application user interface. That webpage performs its intended operation, for example, providing a store front, while being hosted on a website independent of the site that’s hosting [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. However, the webpage can perform its operations on behalf of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps user who is signed in. The result is seamless integration between a webpage and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps with a separate website  

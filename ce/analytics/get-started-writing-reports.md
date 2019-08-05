@@ -22,9 +22,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Overview of reports
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+# Overview of reports*This content also applies to the on-premises version.*
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes reports that provide useful business information to the user. These reports are based on [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)], and provide the same set of features that are available for the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports. 
 
 <a name="ownership"></a>   

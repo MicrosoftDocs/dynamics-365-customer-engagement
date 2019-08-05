@@ -22,8 +22,6 @@ search.app:
 ---
 # Supported messages and entities for plug-ins
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic identifies the message and entity combinations that support offline execution of plug-ins for [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. For information on server registered plug-ins that do not require offline execution, see [Available events](/powerapps/developer/common-data-service/event-framework#available-events).
   
  The **Message Availability** column of the table shown below indicates whether a message is available online, offline, or both. The **Entity Deployment** column indicates if the entity can be deployed on the server, on the client, or both. A value of **null** in the **Primary Entity** column means that there is no primary entity associated with the message. The same applies to the **Secondary Entity** column.  

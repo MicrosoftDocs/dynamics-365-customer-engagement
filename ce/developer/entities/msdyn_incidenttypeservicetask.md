@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_incidenttypeservicetask Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 In this entity you define all the default service tasks that should be added to the work order as soon as this incident type is added to the work order
 
 **Added by**: Field Service Solution

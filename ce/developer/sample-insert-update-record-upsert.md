@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample: Insert or update a record using Upsert
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code shows how to insert or update records by using the `Upsert` message. For more information about the feature that this sample demonstrates, see [Use Upsert to insert or update a record](use-upsert-insert-update-record.md).  
 
  This is available to download from [Insert or update a record using Upsert](http://go.microsoft.com/fwlink/p/?LinkId=532924).  

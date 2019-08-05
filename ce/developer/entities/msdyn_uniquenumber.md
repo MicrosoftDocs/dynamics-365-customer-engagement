@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_uniquenumber Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Internal entity used to store unique number.
 
 **Added by**: Field Service Solution

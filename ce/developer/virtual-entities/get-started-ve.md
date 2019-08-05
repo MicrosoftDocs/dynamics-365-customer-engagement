@@ -17,8 +17,6 @@ search.app:
 
 # Get started with virtual entities
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Starting with the [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], virtual entities enable the integration of data residing in external systems by seamlessly representing that data as entities in Dynamics 365 for Customer Engagement apps, without replication of data and often without custom coding. The initial implementation of this feature provides just read-only support for such entities, and has a number of other limitations described in the section [Limitations of Virtual Entities](#limitations-of-virtual-entities) below. Besides these limitations, virtual entities behave the same as other custom entities. 
 
 Virtual entities replace previous client-side and server-side approaches to integrating external data, which required customized code and suffered from numerous limitations, including imperfect integration, data duplication, or extensive commitment of development resources.  In addition, for administrators and system customizers, the use of virtual entities greatly simplifies administration and configuration.

@@ -24,8 +24,6 @@ search.app:
 ---
 # Publish customizations
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Publishing customizations makes the Web application aware of changes to the data that affects the user interface.  
   
 <a name="BKMK_WhenToPublishCustomizations"></a>   

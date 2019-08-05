@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_forecastinstance Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores sales predictions for your team or organization. For internal use.
 
 **Added by**: Forecasting Solution

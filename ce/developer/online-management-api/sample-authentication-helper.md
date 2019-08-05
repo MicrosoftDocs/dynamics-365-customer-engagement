@@ -16,8 +16,6 @@ search.app:
 ---
 # Sample: Authentication helper for the Online Management API 
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The helper code sample provides the following methods to easily authenticate to Online Management API using the OAuth 2.0 protocol and pass in the access token in the header of your messages.
 
 ## DiscoverAuthority method

@@ -27,8 +27,6 @@ search.app:
 ---
 # Write plug-ins to extend business processes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Whenever possible, you should first consider applying one of the several declarative process options to define or apply business logic. More information: [Automate your business processes in Customer Engagement apps](automate-business-processes-customer-engagement.md).
 
 When a declarative process doesn’t meet a requirement, as a developer you have several options. This topic will introduce common options to write code.

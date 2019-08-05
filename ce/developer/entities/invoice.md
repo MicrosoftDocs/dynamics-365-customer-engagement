@@ -16,8 +16,6 @@ search.app:
 ---
 # Invoice Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Order that has been billed.
 
 **Added by**: Sales Solution

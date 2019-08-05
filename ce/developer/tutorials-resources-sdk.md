@@ -25,8 +25,6 @@ search.app:
 ---
 # Tutorials and resources for learning about Customer Engagement apps development
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. For the fastest way to get some code running, see [Quick Start: A Simple Program](simple-program-web-services.md).
 
 Questions? Get help in the [Dynamics 365 for Customer Engagement apps Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment).

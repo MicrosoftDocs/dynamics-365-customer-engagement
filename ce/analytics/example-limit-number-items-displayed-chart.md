@@ -23,9 +23,7 @@ search.app:
   - D365CE
 ---
 # Example: Limit the number of items displayed in a chart
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 Chart reports are limited to 15 data points. The dataset must limit the result set to the top 15 rows for the charted value. Additionally, a 16th "other" data point value is optional. This value represents an aggregation of all other rows in the domain. The 16th value is always sorted to the bottom of the result set. This adds a level of complexity to reports that contain drill-through functionality that is appropriate for some reports.  
   
 > [!NOTE]

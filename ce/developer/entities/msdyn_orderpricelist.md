@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_orderpricelist Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Sales price list used on the contract to set default sales prices on all project-based components such as time and expense.
 
 **Added by**: Project Service Automation Solution

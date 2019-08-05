@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_fieldserviceslaconfiguration Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Allows configuration of SLA Type and appropriate behavior based on creation and update of SLA KPI Instances related to Field Service entities.
 
 **Added by**: Field Service Solution

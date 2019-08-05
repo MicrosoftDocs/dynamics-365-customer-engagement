@@ -35,8 +35,6 @@ search.app:
 ---
 # Work with knowledge articles in Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The new knowledge articles in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 for Customer Engagement.  
   
  This topic provides information about working with the new native Dynamics 365 for Customer Engagement knowledge management capabilities.  

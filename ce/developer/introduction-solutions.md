@@ -22,8 +22,6 @@ search.app:
 ---
 # Introduction to solutions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 *Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. Customizers and developers distribute solutions so that organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to install and uninstall the business functionality defined by the solution.  
   
 <a name="BKMK_ExtensibilityChoices"></a>   

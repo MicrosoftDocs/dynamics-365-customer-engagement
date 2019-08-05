@@ -24,8 +24,6 @@ search.app:
 ---
 # Define ribbon display rules
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 When configuring ribbon elements, you can define specific rules to control when the ribbon elements will display.  
 
 -   Use the /`RuleDefinitions`/DisplayRules/`<DisplayRule>` element to define rules controlling when the ribbon element should be displayed.  

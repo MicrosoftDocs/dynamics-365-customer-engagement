@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_quotebookingincident Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores the Incidents associated with Quote and Quote Booking Setup
 
 **Added by**: Field Service Solution

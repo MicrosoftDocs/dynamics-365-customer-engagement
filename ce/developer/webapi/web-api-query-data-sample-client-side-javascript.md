@@ -21,8 +21,6 @@ search.app:
 ---
 # Web API Query Data Sample (Client-side JavaScript)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]  
   
 > [!NOTE]

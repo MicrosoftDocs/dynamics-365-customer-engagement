@@ -31,8 +31,6 @@ search.app:
 ---
 # Resource entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Resources represent the people, tools, rooms, or pieces of equipment that are used to deliver a service. Resources are collected into resource groups with similar attributes to make them easier to work with by adding the resources to a constraint based group (resource group).In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], resources are categorized as Users or Facilities/Equipment.  
   
  A resource is an entity that can be scheduled. Examples of resources include employees, contacts, customers, knowledge workers, or physical assets like equipment. In the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], resources are represented by the system user (user) and equipment (facility/equipment) entities. As resources, these entities also have a site property that can affect scheduling.  

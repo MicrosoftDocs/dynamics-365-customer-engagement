@@ -16,8 +16,6 @@ search.app:
 ---
 # EntitlementEntityAllocationTypeMapping Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Mapping to define which Allocation Types are available for Entity Type to be used on Entitlement
 
 **Added by**: Service Patch Solution
