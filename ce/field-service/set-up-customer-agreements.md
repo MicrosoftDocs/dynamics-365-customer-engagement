@@ -308,7 +308,7 @@ In Field Service Settings there are important defaults that can be set for agree
 ### Multiple incidents vs multiple recurrences
 As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences each with one or more incidents. Here are a few things to consider:
 
-- **Who will perform the work order(s)?** - a single recurrence will create a single work order whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person then using a single recurrence may be better. One workaround is to use incident types with requirement group templates that help schedule single work orders to multiple resources.
+- **Who will perform the work order(s)?** - a single recurrence will create a single work order whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/multi-resource-scheduling-requirement-groups.md) that help schedule single work orders to multiple resources.
 
 - **Travel** - if multiple recurrences create multiple work orders, then this may create more trips and more travel.
 
@@ -321,23 +321,20 @@ RSO automatically schedules work orders to optimize working hours and travel tim
 
 1. Have the agreement auto generate work orders and ensure the generated work order is picked up by the RSO scope.
 2. Have the agreement auto generate and book work orders and ensure the preferred resource it is scheduled to is enabled for RSO and the booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure this agreement booking remains scheduled to that resource, time slot, or both. 
-3. Create a specific RSO schedule and scope that only considers work orders generated from agreements. this allows you to set specific cadences and priorities for when agreement work orders are scheduled.
+3. Create a specific RSO schedule and scope that only considers work orders generated from agreements. This allows you to set specific cadences and priorities for when agreement work order bookings are optimized.
 
-### Adding agreements using invoices and work orders on same agreement?
-- could be the same
-- pay cell phone whether make calls or not
+### Using invoices and entitlements with agreements
+When deciding to use agreement invoices, you can create a new agreement to generate invoices, or add invoices to an existing service agreement. If the agreement invoices relate to scheduled maintenance then it is recommended to have the agreement generated work orders and the agreement generated invoices as part of the same agreement. However, work orders create invoices upon being completed and closed-posted, so you'll need to create a process to ensure the customer receives the if you'd like the agreement invoices to take priority over the work order invoices, then you should use price lists and [entitlements](work-order-entitlements.md) to ensure the work order subtotal and work order invoice is $0. This way the customer is sent the agreement invoices that charge a flat rate every `x` time frame, and work orders that are carried out are not billed. 
 
-entitilements/SLAs?
+entitlements?
 - pre and bost bookings are effectively your SLA
 - dont bill for work orders from the agreement by setting up entitlement at the incident type level because organizations commonly create incident types specifically for agreements. can be done with price list.
-
-
 
 
 ## Additional Notes
 
 
-location/account
+location/account an agreement can only be for a single location - yes
 
 agreements work with the sales opp quote order process. 
 - service-maintenance based lead
@@ -348,7 +345,6 @@ if no number is entered, when will invoices be generated? day of at record gener
 
 if no number is entered, when will work orders be generated? day of at record generation
 
-generate agreement dates x months - use those to understand work
 
 if generate WO is no and generate booking is yes, booking will happen when WO is generated.
 
@@ -356,21 +352,18 @@ copy incident items to agreement -   There is a field on the incident type recor
 
  when are items copied to agreements? on add or on activate? looks like on add. what about when no? asynchronous 
 
-an agreement can only be for a single location - yes
-
-what about the characteristics of the agreement incident
+changing booking recurrence will update booking dates  
 
 what can you do after activating an agreement?
 
-quote invoice as a substitute
+quote invoice as a substitute for agreement invoices
 
 you cannot manually generate agreement invoices like you can with agreement work orders
 
-agreement sub status note
 
 can pick an incidet type with requirement groups for an agreemnt
 
-changing booking recurrence will update booking dates   
+ 
 
 **Tips**:  
   
