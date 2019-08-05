@@ -22,8 +22,6 @@ search.app:
 ---
 # Configure a form to accept custom querystring parameters
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The ability to pass values to a Web page by using query strings represents a concern for security. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] applies the best practice of always comparing any parameter passed as a query string against a list of expected parameter names and data types.  
   
  By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] allows a specified set of query string parameters to be passed to a form. You use these parameters to set default values when you create a new record in the application. Each parameter must use a standard naming convention that includes a reference to the attribute logical name. For more information, see [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md).  

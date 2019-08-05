@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_warehouse Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Warehouses where inventory products are stored and managed
 
 **Added by**: Field Service Solution

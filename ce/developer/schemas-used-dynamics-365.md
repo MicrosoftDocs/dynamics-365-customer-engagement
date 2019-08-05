@@ -25,8 +25,6 @@ search.app:
 ---
 # Schemas used in Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic contains links to all the schemas needed for features described in the Developer guide. [!INCLUDE[schema_download](../includes/schema-download.md)].
   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)  

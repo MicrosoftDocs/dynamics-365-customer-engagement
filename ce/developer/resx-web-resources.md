@@ -22,8 +22,6 @@ search.app:
 ---
 # String (RESX) web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use these web resources to manage localized strings in any user interface you define or with error messages you will display. 
 
 > [!NOTE]

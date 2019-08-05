@@ -25,8 +25,6 @@ search.app:
 ---
 # Marketing entities (campaign, list)
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The marketing entities let you perform detailed campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance.  
   
 ## In This Section  

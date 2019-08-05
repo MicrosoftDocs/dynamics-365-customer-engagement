@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_customerassetcategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The Category of Customer Asset.
 
 **Added by**: Field Service Solution

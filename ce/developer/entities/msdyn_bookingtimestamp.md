@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_bookingtimestamp Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Tracks status changes of bookings and timestamps the change of the status
 
 **Added by**: Field Service Solution

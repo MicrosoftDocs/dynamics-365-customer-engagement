@@ -21,8 +21,6 @@ search.app:
 ---
 # Use a left outer join in QueryExpression to query for records &quot;not in&quot;
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can use a left outer join by using the <xref:Microsoft.Crm.Sdk.Messages.SearchByKeywordsKbArticleRequest.QueryExpression> class to perform a query that filters on the join table, such as to find all contacts who did not have any campaign activities in the past two months. Another common use for this type of a query is to find records “not in” a set, such as in these cases:  
   
 - Find all leads that have no tasks  

@@ -21,8 +21,6 @@ search.app:
 ---
 # Use editable grids in Customer Engagement
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] that provides rich inline editing capabilities on web and mobile clients ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views. The editable grid control is supported in the main grid and subgrids on a form in the web client and in dashboards and on form grids on the mobile clients. Although the editable grid control provides editing capability, it honors the read-only grid metadata and field-level security settings. Editable grids also support entity scoped business rules and form scripting so you can apply custom business logic according to your organization's requirements.  
 
 > [!NOTE] 

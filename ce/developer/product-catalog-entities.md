@@ -28,8 +28,6 @@ search.app:
 ---
 # Product catalog entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 A product catalog is a collection of products with their pricing information. The *product catalog* entities let you create a rich product classification system in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps that provides support for:  
   
 - Defining hierarchical structure of product families and products with configurable properties (attributes) that help you reduce the number of product stock keeping units (SKUs) needed to maintain your product catalog.  

@@ -16,8 +16,6 @@ search.app:
 ---
 # Calendar Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Calendar used by the scheduling system to define when an appointment or activity is to occur.
 
 

@@ -22,8 +22,6 @@ search.app:
 ---
 # Configure Azure integration with Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can post the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, perform the tasks detailed in this topic.  
 
 > [!NOTE]

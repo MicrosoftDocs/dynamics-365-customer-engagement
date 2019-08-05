@@ -22,8 +22,6 @@ search.app:
 ---
 # Authenticate Office 365 users with Customer Engagement web services
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps through the 
 [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. There are multiple 
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps identity providers that must be accounted for when you develop an application that connects to the Organization or 

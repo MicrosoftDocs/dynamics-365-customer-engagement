@@ -21,8 +21,6 @@ search.app:
 ---
 # Web API samples
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The Web API can be used with several different programming languages and libraries. The code samples provide a template that you can use to understand how to use the Web API and build upon them as per your requirements.
 
 The Web API samples listed below are now available in the PowerApps documentation under the Common Data Service section.

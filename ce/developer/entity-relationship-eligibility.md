@@ -26,8 +26,6 @@ search.app:
 ---
 # Entity relationship eligibility
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Before you create an entity relationship you should confirm whether the entity is eligible to participate in the relationship. The following table lists the messages that you can use to determine whether entities can participate in entity relationships.  
   
 |Message|Web API Operation|SDK Assembly|  

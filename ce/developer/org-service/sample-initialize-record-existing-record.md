@@ -24,8 +24,6 @@ search.app:
 
 # Sample: Initialize a record from an existing record
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the Sample: [Work with early bound entity classes in code](https://code.msdn.microsoft.com/Work-with-early-bound-6914f6e7). 
 
 ## Prerequisites

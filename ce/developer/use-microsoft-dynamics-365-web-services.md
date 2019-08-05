@@ -22,8 +22,6 @@ search.app:
 ---
 # Use Dynamics 365 for Customer Engagement web services
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Web services provide APIs that you’ll use when you write programs for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. This topic introduces available web services and provides basic information to understand and compare them.  
   
 <a name="bkmk_webapi"></a>

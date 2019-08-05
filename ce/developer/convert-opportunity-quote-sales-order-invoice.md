@@ -25,8 +25,6 @@ search.app:
 ---
 # Convert an opportunity to a quote, sales order or invoice
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Opportunities, quotes, sales orders, and invoices are all part of the sales process. An opportunity is a possibility to sell products and services to a qualified customer. If an opportunity is won, you may convert it to a quote, or to a sales order or an invoice. The catalog products and write-in products that are included in an opportunity are added to a quote, a sales order, or an invoice during conversion. An opportunity, a quote, a sales order, and an invoice share common data that can be reused in the flow of the sales process. The shared data includes user information, product price and discounts, freight amount, total costs, and tax.  
   
 ## Converting an Opportunity to a Quote, a Sales Order, or an Invoice  

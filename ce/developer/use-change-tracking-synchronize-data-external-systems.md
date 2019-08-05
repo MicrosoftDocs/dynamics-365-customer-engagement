@@ -22,8 +22,6 @@ search.app:
 ---
 # Use change tracking to synchronize data with external systems
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The change tracking feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized. Previously, without this new feature, it was difficult to build a reliable and efficient mechanism to determine what records had changed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This topic discusses how to retrieve changes for an entity.  
   
 <a name="BKMK_enable"></a>   

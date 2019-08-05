@@ -25,8 +25,6 @@ search.app:
 ---
 # Key to entity diagrams
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The following is the key to the entity model diagrams shown in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. The relationships to the organization, business unit, and system user (user) entities have been filtered out to simplify the diagrams. The color coding shows if the entity is owned by one of these entities.  
   
  ![Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams")  
