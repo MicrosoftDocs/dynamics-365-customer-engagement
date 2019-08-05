@@ -16,8 +16,6 @@ search.app:
 ---
 # TeamTemplate Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Team template for an entity enabled for automatically created access teams.
 
 

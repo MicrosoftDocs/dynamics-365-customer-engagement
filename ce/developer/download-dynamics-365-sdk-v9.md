@@ -21,8 +21,6 @@ search.app:
 ---
 # Download Dynamics 365 for Customer Engagement apps version 9.x Software Development Kit (SDK)
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic provides information about where you can download the developer tools, assemblies, and code samples that are shipped as part of the Software Development Kit (SDK) for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps version 9.x.
 
 ## Developer tools

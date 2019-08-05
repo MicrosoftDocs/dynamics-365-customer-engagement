@@ -22,8 +22,6 @@ search.app:
 ---
 # Retrieve and detect changes to metadata
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesRequest> and <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMetadataChangesResponse> classes let you build efficient metadata queries and capture changes to metadata as they occur over time.  
   
  All code examples referenced in this document are found in [Sample: Query Metadata and Detect Changes](org-service/sample-query-metadata-detect-changes.md).  

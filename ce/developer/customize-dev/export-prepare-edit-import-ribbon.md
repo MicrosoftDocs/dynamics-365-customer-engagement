@@ -26,8 +26,6 @@ search.app:
 ---
 # Export, prepare to edit, and import the ribbon
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 To edit the ribbon, you must perform the following steps:  
   
 1.  [Export the ribbon](export-prepare-edit-import-ribbon.md#BKMK_ExportTheRibbon)  

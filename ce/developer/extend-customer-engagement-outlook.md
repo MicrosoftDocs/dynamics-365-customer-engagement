@@ -24,8 +24,6 @@ search.app:
 ---
 # Extend Dynamics 365 for Outlook
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!IMPORTANT]
 > As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have **decided not to deprecate [!INCLUDE[pn-crm-2016-outlook-shortest](../includes/pn-crm-2016-outlook-shortest.md)]** ([!INCLUDE[pn-outlook](../includes/pn-outlook.md)] add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
 

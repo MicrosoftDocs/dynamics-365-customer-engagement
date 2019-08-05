@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_bookingalertstatus Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The status of a booking alert.
 
 **Added by**: Universal Resource Scheduling Solution

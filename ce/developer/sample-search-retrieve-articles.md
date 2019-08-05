@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample: Search and retrieve articles
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Service entities](https://code.msdn.microsoft.com/Service-Samples-f42adf82).
 
 ## Prerequisites

@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_rmareceipt Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Specify RMA receipt.
 
 **Added by**: Field Service Solution

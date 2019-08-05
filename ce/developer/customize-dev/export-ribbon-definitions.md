@@ -24,8 +24,6 @@ search.app:
 ---
 # Export ribbon definitions
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 To effectively define changes to the default RibbonXml, you must be able to reference the RibbonXml data that defines those ribbons.  
   
 <a name="BKMK_AccessRibbonDefinitionsForYourOrganization"></a>   

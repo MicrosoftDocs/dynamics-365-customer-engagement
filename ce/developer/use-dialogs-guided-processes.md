@@ -24,8 +24,6 @@ search.app:
 ---
 # Use dialogs for guided processes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Dialogs are the synchronous or interactive processes in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement that collect and process information by using step-by-step scripts to direct users through a process. For example, you can create dialogs to act as a guide for your service representatives for case resolution and case escalation. Similarly, you can create dialogs for standardizing sales processes such as opportunity qualification and lead scoring.
 
 > [!IMPORTANT]

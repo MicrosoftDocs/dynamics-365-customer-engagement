@@ -25,8 +25,6 @@ search.app:
 
 # Sample: Enable document management for entities
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [With SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
 
 ## Prerequisites

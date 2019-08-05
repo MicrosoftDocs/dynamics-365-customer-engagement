@@ -28,8 +28,6 @@ search.app:
 ---
 # Sales entities (lead, opportunity, competitor, quote, order, invoice)
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You use the entities described in this section to manage various phases of a sales process. They include tracking leads, opportunities, competitors, and managing quotes, orders, products, and sales goals.  
   
 ## In This Section  

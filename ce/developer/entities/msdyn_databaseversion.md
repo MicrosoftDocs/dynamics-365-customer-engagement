@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_databaseversion Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores the latest database version for a solution, for internal use only.
 
 **Added by**: Solution Upgrade Infrastructure Solution

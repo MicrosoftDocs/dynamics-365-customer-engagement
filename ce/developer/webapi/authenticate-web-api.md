@@ -22,8 +22,6 @@ search.app:
 ---
 # Authenticate to Dynamics 365 for Customer Engagement with the Web API
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 > 

@@ -32,8 +32,6 @@ search.app:
 ---
 # Create custom plug-in to use your preferred geospatial data provider
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic provides information about the two geospatial actions in Universal Resource Scheduling, how to create a custom plug-in for the two geospatial actions, and provides examples from a sample custom plug-in on using Google Maps API for geospatial data.
 
 ## Input and output parameters for geospatial actions

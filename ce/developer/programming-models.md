@@ -24,8 +24,6 @@ search.app:
 ---
 # Programming models for Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps offers several programming models designed to give you the flexibility to decide what works best for your needs.
 
 The following diagram illustrates the key programmability scenarios for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Use the appropriate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps programming models for the type of solutions you create.

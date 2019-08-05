@@ -16,8 +16,6 @@ search.app:
 ---
 # Incident Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Service request case associated with a contract.
 
 **Added by**: Service Solution

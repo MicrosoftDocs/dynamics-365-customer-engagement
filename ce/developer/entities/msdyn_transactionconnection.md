@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_transactionconnection Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 System entity used to establish connections between the cost, unbilled revenue, and billed revenue components of a transaction as they happen.
 
 **Added by**: Project Service Automation Solution

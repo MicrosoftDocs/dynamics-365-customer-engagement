@@ -22,8 +22,6 @@ search.app:
 ---
 # Supported entities for asynchronous operations
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The entities and messages that are supported in asynchronous operations are the same as the message and entity combinations that support plug-ins. For more information, see [Supported Messages and Entities for Plug-ins](supported-messages-entities-plugin.md).  
   
  Asynchronous operations are spawned to handle many types of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operations, for example import/export, bulk operations, duplicate detection, recurring appointments, recurring (internal) system jobs, and more.  

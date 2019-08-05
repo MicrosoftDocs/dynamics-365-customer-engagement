@@ -22,8 +22,6 @@ search.app:
 ---
 # Asynchronous operation states
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 After asynchronous operations are added to the asynchronous queue, they exist in a well-defined state. An asynchronous operation can be waiting to run, it can be running, or it can be completed. There are also other possible states before the operation is eventually deleted from the queue. The states define the life cycle of the asynchronous operation.  
   
 <a name="bkmk_states"></a>   

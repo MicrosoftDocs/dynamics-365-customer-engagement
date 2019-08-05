@@ -16,8 +16,6 @@ search.app:
 ---
 # Metric Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Type of measurement for a goal, such as money amount or count.
 
 

@@ -16,8 +16,6 @@ search.app:
 ---
 # Quick Start Sample: Retrieve Customer Engagement instances using Online Management API 
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The C# sample demonstrates how to authenticate to the Online Management API and then retrieve all Customer Engagement instances from your Office 365 tenant.
 
 The sample uses the authentication [helper code](sample-authentication-helper.md) to easily authenticate to Online Management API using the OAuth 2.0 protocol and pass in the access token in header of your request.

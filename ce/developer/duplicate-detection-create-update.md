@@ -25,8 +25,6 @@ search.app:
 
 # Manage duplicate detection for create and update operations
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Dynamics 365 for Customer Engagement Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
 <a name="BKMK_webapi"></a>

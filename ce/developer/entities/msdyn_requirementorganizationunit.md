@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_requirementorganizationunit Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Requirement of Organization Unit
 
 **Added by**: Universal Resource Scheduling Solution

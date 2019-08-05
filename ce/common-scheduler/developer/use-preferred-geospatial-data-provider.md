@@ -32,8 +32,6 @@ search.app:
 ---
 # Extend Universal Resource Scheduling actions to use your preferred geospatial data provider (Field Service, Project Service Automation)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 You can create a *custom* plug-in and register on the Universal Resource Scheduling actions that provide geospatial functionality to use data from a data provider of your choice instead of the default Bing Maps API.
 
 The following Universal Resource Scheduling [actions](../../customize/actions.md) provide geospatial functionality in [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)]:

@@ -25,8 +25,6 @@ search.app:
 
 # Sample: Associate a Security Role to a User
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].
 
 ## Prerequisites

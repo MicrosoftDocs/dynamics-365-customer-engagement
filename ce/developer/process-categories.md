@@ -21,8 +21,6 @@ search.app:
 ---
 # Process categories
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Processes enable you to model real-life business processes, for example best practices or standard practices, in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. When modeling your business practices, you can choose from four categories of processes:  
 
 - **Workflow**. Use this process to model and automate real world business processes. These processes can be configured to run in the background or in real time and can optionally require user input. Workflow processes can start automatically based on specified conditions or can be started manually by a user.  

@@ -24,8 +24,6 @@ search.app:
 ---
 # Create your own actions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can extend the functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps by creating custom messages known as *actions*. These actions will have associated request/response classes and a Web API action will be generated. Actions are typically used to add new domain specific functionality to the organization web service or to combine multiple organization web service message requests into a single request. For example, in a support call center, you may want to combine the Create, Assign, and Setstate messages into a single new Escalate message.  
   
  The business logic of an action is implemented using a workflow. When you create an action, the associated real-time workflow is automatically registered to execute in stage 30 (core operation) of the execution pipeline. For more information about real-time workflows, see [Workflow types](process-categories.md).  

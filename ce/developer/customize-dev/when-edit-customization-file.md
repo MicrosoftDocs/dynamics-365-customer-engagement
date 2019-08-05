@@ -22,8 +22,6 @@ search.app:
 ---
 # When to edit the customizations file
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The customizations.xml file that is exported as part of an unmanaged solution can be edited to perform specific customization tasks. After editing the file you can compress the modified file together with the other files exported in the unmanaged solution. You apply the changes by importing that modified unmanaged solution.  
   
  Editing a complex XML file like the customizations.xml file is much easier and less prone to errors if you use a program designed to support schema validation. While it is possible to edit this file using a simple text editor like [!INCLUDE[pn_Notepad](../../includes/pn-notepad.md)], this is not recommended unless you are very familiar with editing this file. For more information, see [Edit the Customizations file with Schema Validation](edit-customizations-xml-file-schema-validation.md).  

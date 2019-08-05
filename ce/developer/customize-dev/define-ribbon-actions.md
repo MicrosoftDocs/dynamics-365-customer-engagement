@@ -24,8 +24,6 @@ search.app:
 ---
 # Define ribbon actions
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Define the actions to be performed by a command bar or ribbon control in a `<CommandDefinition>` element together with rules that control whether the control is enabled or visible in the ribbon.  
   
  A Ribbon control can perform two types actions and may include multiple actions:  

@@ -22,8 +22,6 @@ search.app:
 ---
 # Customize entity relationship metadata
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Entity relationships define the ways that entity records can be associated with records of other entities or the same entity. Creating new entity relationships creates new table relationships in the database. Use entity relationships to define specific associations that are frequently used to associate records for reports or in the user interface. Once a relationship exists, you can associate and disassociate records based on the relationship using the `Associate` and `Disassociate` methods. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords)  
   
  For relationships between individual records that are less formal and more flexible, see [Connection Entities](connection-entities.md).  

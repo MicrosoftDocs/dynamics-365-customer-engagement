@@ -29,8 +29,6 @@ search.app:
 ---
 # Solution entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Solutions let you create and package customizations as a single unit of software.  
   
  The following diagram describes selected attributes of the solution entities.  
