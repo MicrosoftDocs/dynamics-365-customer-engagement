@@ -379,3 +379,5 @@ can pick an incidet type with requirement groups for an agreemnt
   
 ### See also   
 
+[Add account details to work orders](work-order-customer-account.md)
+[Create work order templates with incident types](configure-incident-types.md)
