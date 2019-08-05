@@ -163,10 +163,14 @@ As you add incidents to the agreement the related products, services, service ta
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident-items.png)
 
-### Customer assets on agreements
-By specifying a customer asset on the agreement incident, you can define recurring work that should be performed on specific equipment to build service history. Furthermore, you can add multiple incident types to an agreement each with a customer asset. In practice, with two incident types 
+### Customer assets with agreements
 
-This means your organization can perform monthly maintenance on 
+By specifying a customer asset on the agreement incident, you can define recurring work that should be performed on specific equipment and build service history. Furthermore, you can add multiple incident types to an agreement booking setup each with a customer asset. 
+
+Using the example of two incidents for monthly maintenance, an organization can:
+
+1. perform two different types of maintenance procedures (incident types) on the same cusotmer asset
+2. perform the same maintenance procedure (incident type) on two different customer assets, as long as both assets are at the same location as defined by the service account.
 
 
 ### Step 4: Activate agreement and view work orders
