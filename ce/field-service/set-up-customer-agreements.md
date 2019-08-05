@@ -143,8 +143,8 @@ Typical examples are:
 
 You an also define custom dates work orders should be performed if a pattern does not reflect your business needs. An example is an agreement to perform service on various holidays throughout the year.
 
-
 **Save**
+
 
 
 ### Step 3: Add agreement work details
@@ -169,23 +169,27 @@ By specifying a customer asset on the agreement incident, you can define recurri
 
 Using the example of two incidents for monthly maintenance, an organization can:
 
-1. perform two different types of maintenance procedures (incident types) on the same cusotmer asset
+1. perform two different types of maintenance procedures (incident types) on the same customer asset
 2. perform the same maintenance procedure (incident type) on two different customer assets, as long as both assets are at the same location as defined by the service account.
 
+> [!Note]
+> A single agreement can have multiple booking setups. Each booking setup can have its own recurrence and work to be done. This means your organization can perform a weekly inspection and a monthly maintenance as part of the same agreement. 
 
 ### Step 4: Activate agreement and view work orders
 
 
 
+Finally, after the high level details, recurrence, and work are defined, the last step is to **activate** the agreement to begin generating related records such as maintenance dates and work orders. This is typically done after manager review and customer acceptance. To add more details to the Agreement status, consider using the Agreement Sub-Status values. Custom agreement sub-statuses can be created.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active.png)
 
-
+From the agreement, set the **System Status** field to **Active**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active-booking-dates.png)
 
-
+Doing so will create the
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active-booking-dates-annotation.png)
