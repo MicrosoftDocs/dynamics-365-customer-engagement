@@ -62,13 +62,13 @@ The **Cases** entity record appears under the **Channels** in the Omnichannel fo
 | Step 1: Create works stream for case routing | You must create new workstreams to route the cases. To learn learn more, see [Create a case workstream](set-up-entity-workstream.md). |
 | Step 2: Create routing rules | You must create routing rules, to automatically distribute the cases to the agents. |
 | Step 3: Update Cases Work Distribution Flow | You must update the Cases Work Distribution Flow with the conditions, to automatically distribute the cases to the agents. The case distribution flow is the out-of-the-box Microsoft flow. |
-## Step 1: Create work stream for case routing
+## Step 1: Create workstream for case routing
 
-You must create work streams, to automatically route the cases to the agents. To learn more, see [Create a case entity work stream](set-up-entity-workstream.md).
+You must create workstreams, to automatically route the cases to the agents. To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
 
 ## Step 2: Create routing rules
 
-After creating the work stream for the cases, you must create the routing rules. 
+After creating the workstream for the cases, you must create the routing rules. 
 
 > [!Note]
 > To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Link to the topic will be added here]().
@@ -77,12 +77,12 @@ After creating the work stream for the cases, you must create the routing rules.
 
 2. Select **Cases** under **Channels** in the sitemap.
 
-3. Select the work stream you created for routing the cases from the **Case Workstreams** view.
+3. Select the workstream you created for routing the cases from the **Case Workstreams** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case work stream](../media/case-entity-channel.png  "Case work stream")
+    > ![Select a case workstream](../media/case-entity-channel.png  "Case workstream")
 
-4. Select the **Routing rule items** tab in the work stream.
+4. Select the **Routing rule items** tab in the workstream.
 
     > [!div class=mx-imgBorder] 
     > ![Select the routing rule items tab](../media/case-routing-rule.png "Routing rule items")
@@ -167,7 +167,7 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 6. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
 
     > [!div class=mx-imgBorder] 
-    > ![Select work stream](../media/case-work-distribution-flow5.png "Select work stream")
+    > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
 
 7. Select the search box to add a rule. A flyout control appears. Type a rule name in the search box. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
@@ -183,20 +183,20 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 
 10. Select the **Set variable 4** option under the **If yes** section.
 
-11. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **High Priority Cases** is one of the case work stream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
+11. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
-    > If you update the name of the work stream, then you must perform the step 11. Otherwise the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream, then you must perform the step 11. Otherwise the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
 12. Select the **Set variable 5** option under the **If no** section.
 
-13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **Low Priority Cases** is one of the case work stream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > If you update the name of the work stream, then you must perform the step 13. Otherwise the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream, then you must perform the step 13. Otherwise the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
@@ -204,10 +204,10 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 14. Select **Save** to save **Cases Work Distribution Flow**.
 
     > [!div class=mx-imgBorder] 
-    > ![Work stream selection](../media/case-work-distribution-flow11.png "Work stream selection")
+    > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
 
 ### See also 	
 
-[Understand and create work streams](work-streams-introduction.md)
+[Understand and create workstreams](work-streams-introduction.md)
 
-[Cases entity work streams](set-upentity-workstream.md)
+[Cases entity workstreams](set-up-entity-workstream.md)
