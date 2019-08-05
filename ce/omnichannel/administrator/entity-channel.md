@@ -185,12 +185,18 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 
 11. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **High Priority Cases** is one of the case work stream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
+    > [!Note]
+    > If you update the name of the work stream, then you must perform the step 11. Otherwise the cases won't be automatically distributed to the agents.
+
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
 12. Select the **Set variable 5** option under the **If no** section.
 
 13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **Low Priority Cases** is one of the case work stream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+
+    > [!Note]
+    > If you update the name of the work stream, then you must perform the step 13. Otherwise the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
