@@ -197,21 +197,24 @@ You also have the ability to manually generate work orders for each booking date
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active-booking-dates-details.png)
 
-
-
+If you decided to have the agreement Auto Generate Bookings, the work orders will be scheduled to the preferred resource when the work orders are generated.
 
 ### Step 5: Perform agreement work order
+
+As work orders are generated, they will appear among other work orders in the Active Work Orders view. 
+
+The generated work orders will have all the details specified on the agreement such as price list, work order type, incident type(s), customer asset, etc.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-work-order-summary.png)
 
-
+A lookup to the agreement will also be noted in the Settings section.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-work-order-settings.png)
 
-
+When attenpting to book the work order with the schedule assistant
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-schedule-assistant-filters.png)
