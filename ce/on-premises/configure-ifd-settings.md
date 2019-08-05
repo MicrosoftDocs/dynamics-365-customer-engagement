@@ -77,6 +77,7 @@ if($RemoveSnapInWhenDone)
 ```  
   
 ## See Also  
- [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)  </br> 
- [Get and set deployment configuration settings](update-deployment-configuration-settings.md)
+[Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)  </br> 
+[Get and set deployment configuration settings](update-deployment-configuration-settings.md) </br>
+[Additional steps for clients unable to connect to the Dynamics 365 Server via IFD](post-installation-configuration-guidelines-dynamics-365.md#additional-steps-for-clients-unable-to-connect-to-the-dynamics-365-server-via-ifd)
 
