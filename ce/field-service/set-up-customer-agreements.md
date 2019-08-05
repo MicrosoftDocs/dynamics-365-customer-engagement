@@ -158,14 +158,15 @@ From the agreement booking setup, click **+Add Agreement Booking incident record
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident.png)
 
-The incidents added to agreements will become work order incidents when the work order is generated. By specifying a customer asset on the agreement incident, you can define 
-
-
-As you add incidents to the agreement the related products, services, and service tasks are added as well. Characteristics are not visualized but are added in the background. See note about the "Copy Incident Items to Agreement" in Configuration considerations at the end of this article.
+As you add incidents to the agreement the related products, services, service tasks, and characteristics (in background, not visualized) are added to the agreement and then to work orders as they are generated. See note about the "Copy Incident Items to Agreement" in Configuration considerations at the end of this article.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident-items.png)
 
+### Customer assets on agreements
+By specifying a customer asset on the agreement incident, you can define recurring work that should be performed on specific equipment to build service history. Furthermore, you can add multiple incident types to an agreement each with a customer asset. In practice, with two incident types 
+
+This means your organization can perform monthly maintenance on 
 
 
 ### Step 4: Activate agreement and view work orders
