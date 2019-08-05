@@ -324,11 +324,9 @@ RSO automatically schedules work orders to optimize working hours and travel tim
 3. Create a specific RSO schedule and scope that only considers work orders generated from agreements. This allows you to set specific cadences and priorities for when agreement work order bookings are optimized.
 
 ### Using invoices and entitlements with agreements
-When deciding to use agreement invoices, you can create a new agreement to generate invoices, or add invoices to an existing service agreement. If the agreement invoices relate to scheduled maintenance then it is recommended to have the agreement generated work orders and the agreement generated invoices as part of the same agreement. However, work orders create invoices upon being completed and closed-posted, so you'll need to create a process to ensure the customer receives the if you'd like the agreement invoices to take priority over the work order invoices, then you should use price lists and [entitlements](work-order-entitlements.md) to ensure the work order subtotal and work order invoice is $0. This way the customer is sent the agreement invoices that charge a flat rate every `x` time frame, and work orders that are carried out are not billed. 
+When deciding to use agreement invoices, you can create a new agreement to generate invoices, or add invoices to an existing service agreement. If the agreement invoices relate to scheduled maintenance then it is recommended to have the agreement generated work orders and the agreement generated invoices as part of the same agreement. 
 
-entitlements?
-- pre and bost bookings are effectively your SLA
-- dont bill for work orders from the agreement by setting up entitlement at the incident type level because organizations commonly create incident types specifically for agreements. can be done with price list.
+Even if you have an agreement generating invoices, agreement work orders will still create invoices upon completion and close-posted status. If only the agreement invoices represent what should be billed to the customer, you will need to create a process to disregard or mitigate the work order invoices. This could be as simple as deactivating those invoices or using price lists and [entitlements](work-order-entitlements.md) to ensure the work order subtotal and work order invoice is $0. Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. It is common to create specific incident types for specific customers outlining custom work; one option is to apply an entitlement when the custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%.
 
 
 ## Additional Notes
