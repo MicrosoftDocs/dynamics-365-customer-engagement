@@ -308,7 +308,7 @@ In Field Service Settings there are important defaults that can be set for agree
 ### Multiple incidents vs multiple recurrences
 As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences each with one or more incidents. Here are a few things to consider:
 
-- **Who will perform the work order(s)?** - a single recurrence will create a single work order whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person then using a single recurrence may be better. One workaround is to use incident types with requirement group templates that help schedule single work orders to multiple resources/
+- **Who will perform the work order(s)?** - a single recurrence will create a single work order whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person then using a single recurrence may be better. One workaround is to use incident types with requirement group templates that help schedule single work orders to multiple resources.
 
 - **Travel** - if multiple recurrences create multiple work orders, then this may create more trips and more travel.
 
@@ -316,7 +316,12 @@ As agreement work increases, you will have to decide whether to add multiple agr
 
 
 ### Schedule agreement work orders automatically with Resource Scheduling Optimization (RSO)
-- make sure the requirements of generated work orders are set to optimize. this can be achieved with a workflow, or by default for all work flows. 
+
+RSO automatically schedules work orders to optimize working hours and travel time. This includes work orders generated from agreements. If you are interested in using RSO to schedule agreement work orders, here are 3 options:
+
+1. Have the agreement auto generate work orders and ensure the generated work order is picked up by the RSO scope.
+2. Have the agreement auto generate and book work orders and ensure the preferred resource it is scheduled to is enabled for RSO and the booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure this agreement booking remains scheduled to that resource, time slot, or both. 
+3. Create a specific RSO schedule and scope that only considers work orders generated from agreements. this allows you to set specific cadences and priorities for when agreement work orders are scheduled.
 
 ### Adding agreements using invoices and work orders on same agreement?
 - could be the same
