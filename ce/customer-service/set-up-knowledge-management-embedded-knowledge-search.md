@@ -95,7 +95,7 @@ After knowledge management is set up, users will be able to:
 8. If you’ve specified the details correctly, the page shows the connection details for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select **Finish** to complete the setup.  
 
 
-<!--## Enable feedback control
+## Enable feedback control
 
 This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
 
@@ -103,7 +103,7 @@ This option allows users to provide feedback on knowledge articles opened from k
 
 2. In the Knowledge Article Feedback section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
 
-To learn on how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles)-->
+To learn on how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
   
 ### See also  
 
