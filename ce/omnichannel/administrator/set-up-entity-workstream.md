@@ -28,8 +28,8 @@ This topic describes how to create a work stream that is used to route case enti
 4. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
-    |---------------------|-----------------------------|--------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | High Priority Cases | Provide a name to the work stream. |
+    |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
+    | Work Distribution | Name | High Priority Cases | Provide a name to the work stream. <br> **Note:** <br> If you update the name of the work stream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.  |
     | Work Distribution | Channel | CDS Entity | Select the CDS Entity channel from the list. Cases from this channel are automatically distributed to the agents. |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the work stream in the text box. |
     | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.  |
