@@ -51,7 +51,7 @@ Omnichannel leverages the existing CDS queue entity to automatically route cases
 To automatically route the cases, ensure the following:
 
 - You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solutions. To learn more, see [Link to the topic on how to install routing rules - preview solution]().
+- You've installed the **Routing Rules - Preview** solution. To learn more, see [Link to the topic on how to install routing rules - preview solution]().
 
 ### Automatic case distribution work flow
 
@@ -79,13 +79,22 @@ After creating the work stream for the cases, you must create the routing rules.
 
 3. Select the work stream you created for routing the cases from the **Case Workstreams** view.
 
+    > [!div class=mx-imgBorder] 
+    > ![Select a case work stream](../media/case-entity-channel.png  "Case work stream")
+
 4. Select the **Routing rule items** tab in the work stream.
+
+    > [!div class=mx-imgBorder] 
+    > ![Select the routing rule items tab](../media/case-routing-rule.png "Routing rule items")
 
 5. Select **+ New** in the **All Routing Rule Sets** page.
 
 6. Specify a name in the **New Routing Rule Set** page, and then select **Save** to save the rule. Once you save the record, you can see the **Rule Items** section in the page.
 
 7. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+
+    > [!div class=mx-imgBorder] 
+    > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
 
 8. Specify the following in the **New Rule Item** page.
 
@@ -108,6 +117,12 @@ After creating the work stream for the cases, you must create the routing rules.
 
     The steps 9 to 11 indicate if the **Priority** of a case is **High**, then then route the case to the selected omnichannel queue.
 
+    > [!div class=mx-imgBorder] 
+    > ![New Rule Item values](../media/case-ws-rr-rule-item1.png "New Rule Item values")
+
+    > [!Note]
+    > You must select an Omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
+
 12. Select **Save** to save the rule item.
 
 ## Step 3: Update cases work distribution flow
@@ -125,39 +140,65 @@ The out-of-the-box Case distribution flow contains the following components.
 | Work Stream Selection - Set LiveWorkStreamId to route this record to |  |
 | Invoke Omnichannel | Do not modify |
 
-### update work distribution flow
+### Update work distribution flow
 
 1. Sign in to Microsoft Flow.
 
-2. Select **Solutions** in the sitemap.
+2. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
-3. Select **Default Solution** from the list.
+    > [!div class=mx-imgBorder] 
+    > ![Select default solution](../media/case-work-distribution-flow1.png "Select default solution")
 
-4. Select the **All** button in the menu and select **Flow** to filter the flows.
+3. Select the **All** button in the menu and select **Flow** to filter the flows.
 
-5. Select **Case Work Distribution Flow** from the list.
+    > [!div class=mx-imgBorder] 
+    > ![Select the All button and filter flow](../media/case-work-distribution-flow2.png "Filter flow")
 
-6. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
+4. Select **Case Work Distribution Flow** from the list.
 
-7. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section and select **Condition 4**.
+    > [!div class=mx-imgBorder] 
+    > ![Select Cases Work Distribution Flow](../media/case-work-distribution-flow3.png "Select Cases Work Distribution Flow")
 
-8. Select a the search box to add a rule. A flyout control appears. Type a rule name in the search box of the **Dynamic content** tab. For example, **Priority**. The rule appears in the results. Now, select the rule, and it is added. 
+5. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
 
-9. Select a condition from the list. For example, **is equal to**.
+    > [!div class=mx-imgBorder] 
+    > ![Select the Edit button](../media/case-work-distribution-flow4.png "Edit the Cases Work Distribution Flow")
 
-10. Type the rule value in the box. For example, **1**.
+6. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section and select **Condition 4**.
 
-11. Select the **Set Variable 4** option under the **If yes** section.
+    > [!div class=mx-imgBorder] 
+    > ![Select work stream](../media/case-work-distribution-flow5.png "Select work stream")
 
-12. Select a the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box of the **Dynamic content** tab. For example, **High Priority Cases**. The rule appears in the results. Now, select the rule, and it is added. 
+7. Select a the search box to add a rule. A flyout control appears. Type a rule name in the search box of the **Dynamic content** tab. For example, **Priority**. The rule appears in the results. Now, select the rule, and it is added. 
 
-13. Select the **Set Variable 5** option under the **If no** section.
+    > [!div class=mx-imgBorder] 
+    > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
 
-14. Select a the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box of the **Dynamic content** tab. For example, **High Priority Cases**. The rule appears in the results. Now, select the rule, and it is added.
+8. Select a condition from the list. For example, **is equal to**.
+
+9. Type the rule value in the box. For example, **1**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
+
+10. Select the **Set Variable 4** option under the **If yes** section.
+
+11. Select a the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box of the **Dynamic content** tab. For example, **High Priority Cases**. The rule appears in the results. Now, select the rule, and it is added. 
+
+    > [!div class=mx-imgBorder] 
+    > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
+
+12. Select the **Set Variable 5** option under the **If no** section.
+
+13. Select a the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box of the **Dynamic content** tab. For example, **High Priority Cases**. The rule appears in the results. Now, select the rule, and it is added.
+
+    > [!div class=mx-imgBorder] 
+    > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
 
 14. Select **Save** to save **Cases Work Distribution Flow**.
 
-### Update 
+    > [!div class=mx-imgBorder] 
+    > ![Work stream selection](../media/case-work-distribution-flow11.png "Work stream selection")
 
 ### See also 	
 

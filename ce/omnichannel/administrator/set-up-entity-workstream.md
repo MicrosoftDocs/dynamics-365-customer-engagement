@@ -25,6 +25,9 @@ This topic describes how to create a work stream that is used to route case enti
 
 3. Select **+ New** in the **Case Workstreams** view.
 
+    > [!div class=mx-imgBorder] 
+    > ![Create new Cases work stream](../media/case-ws1.png "Create new work stream")
+
 4. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
@@ -36,5 +39,8 @@ This topic describes how to create a work stream that is used to route case enti
     | Work Distribution | Assign Work Item After Decline or Timeout | 2 minutes | Set the time after which the case is assigned to the agent again once the agent has declined the work item or the request has timed out.  |
     | Work Distribution | Work distribution mode | Push | Select **Push** when you to automatically route the cases to the agents. |
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. |
+
+    > [!div class=mx-imgBorder] 
+    > ![Specify values for the fields](../media/case-ws2.png "New case work stream")
 
 4. Select **Save** to save the work stream.
