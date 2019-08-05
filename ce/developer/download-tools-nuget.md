@@ -21,8 +21,6 @@ search.app:
 ---
 # Download tools from NuGet 
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can download tools used in development from NuGet using the  powershell script found below. These tools include:
 
 |Tool|NuGet Package|

@@ -22,8 +22,6 @@ search.app:
 ---
 # Supported extensions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can customize [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement by using tools that are available in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or that are described in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)]. These customizations are supported and can be upgraded.  
   
  Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For more information, see [Unsupported Customizations](supported-extensions.md#Unsupported).  

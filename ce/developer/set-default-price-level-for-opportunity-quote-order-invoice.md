@@ -22,8 +22,6 @@ search.app:
 ---
 # Set default price level for opportunity, quote, order, and invoice
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can automatically set a default price level (price list) for an opportunity, quote, order, or invoice based on the sales territory of the user who creates or updates the opportunity, quote, order, or invoice record.  
   
 <a name="Enable"></a>   

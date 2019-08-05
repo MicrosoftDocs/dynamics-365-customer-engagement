@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_paymentmethod Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Specify payment method.
 
 **Added by**: Field Service Solution

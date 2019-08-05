@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_agreement Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Provides ability to store details about service agreements you have with your customers
 
 **Added by**: Field Service Solution

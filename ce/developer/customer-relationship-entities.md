@@ -27,8 +27,6 @@ search.app:
 ---
 # Customer relationship entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The *customer relationship entities* are not supported in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] or future versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. To create relationships between the entities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], use [Connection Entities](connection-entities.md).  
   
 ### See also  

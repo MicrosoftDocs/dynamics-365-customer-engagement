@@ -30,8 +30,6 @@ search.app:
 ---
 # Activity feeds entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The *activity feeds* help promote internal collaboration through quick and short updates in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. The activity feeds do not replace emails or in-person communications. Instead, they augment these traditional methods with non-intrusive and non-urgent ways of communication.  
   
  The activity feeds enable a salesperson to stay on top of situations that involve people, accounts, leads, contacts, or opportunities. They provide easy and convenient ways of monitoring important information that can be critical for closing a deal.  

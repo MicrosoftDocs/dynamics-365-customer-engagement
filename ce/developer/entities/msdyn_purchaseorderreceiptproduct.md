@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_purchaseorderreceiptproduct Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Specify product for purchase order receipt.
 
 **Added by**: Field Service Solution

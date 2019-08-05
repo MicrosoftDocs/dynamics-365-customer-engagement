@@ -31,8 +31,6 @@ search.app:
 
 # Sample: Import data using complex data map
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for Dynamics 365 for Customer Engagement. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).
   
 > [!NOTE]

@@ -23,9 +23,7 @@ search.app:
   - D365CE
 ---
 # Example: Make a report context-sensitive
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 The following steps describe how to set up a context-sensitive report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
  For example, if a report displays all activities for a particular account and you want to show this report on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps **Account** form, you must include **Activities** and **Accounts** in the **Related Record Types** categorization and specify **Forms for related record types** in the **Display** in field of the Report: New form.  

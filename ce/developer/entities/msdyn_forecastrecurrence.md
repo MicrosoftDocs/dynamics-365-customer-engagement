@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_forecastrecurrence Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores recalculation information for each recurrence of the forecast hierarchy. For internal use.
 
 **Added by**: Forecasting Solution

@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_bookingchange Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 An internal entity used to track changes that affect the schedule board.
 
 **Added by**: Universal Resource Scheduling Solution

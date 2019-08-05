@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_organizationalunit Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Division of the company or organization that has a specific cost price list associated to it.
 
 **Added by**: Universal Resource Scheduling Solution

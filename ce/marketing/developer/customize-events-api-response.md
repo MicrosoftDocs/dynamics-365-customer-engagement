@@ -23,8 +23,6 @@ search.app:
 ---
 # Customize the response from Events API
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The Events API allows you to expose custom fields of event management entities. That means you can access all those fields that have been added to an entity by the customer.
 
 By default, when adding a new field to an entity (for example: `msevtmgt_pass`), it is not exposed by the corresponding API endpoint (for example: `api/v2.0/events/{readableEventId}/passes`). 

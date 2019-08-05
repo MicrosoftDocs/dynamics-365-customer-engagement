@@ -24,8 +24,6 @@ search.app:
 ---
 # View data with visualizations (charts)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Visualizations let you see your business data graphically. A visualization is attached to an entity in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. You can attach multiple visualizations to an entity, however, only one visualization can be displayed at a time along-side a grid. You can view multiple visualizations at the same time by using a dashboard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Analyze Data with Dashboards](analyze-data-with-dashboards.md)  
   
  You can use a chart or a web resource as a visualization in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. For charts, you can use the chart designer in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. However, to use a web resource in a visualization, you must either use the SDK or import a custom visualization XML into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample: Create, Retrieve, Update, and Delete a Chart](sample-create-retrieve-update-delete-chart.md)  

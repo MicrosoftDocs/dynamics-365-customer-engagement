@@ -25,8 +25,6 @@ search.app:
 ---
 # Open forms, views, dialogs, and reports with a URL
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps forms, views, dialogs, and reports in other applications. In this manner, you can easily extend other applications, reports, or websites so that users can view information and perform actions without switching applications.  
 
 > [!NOTE]

@@ -21,8 +21,6 @@ search.app:
 ---
 # Appointment entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 An *appointment* is a commitment that represents a time interval with start and end times and duration. The schema name for this entity is `Appointment`.
 A *service appointment* represents an appointment for service. The schema name for this entity is `ServiceAppointment`. A service appointment can be 
 customized independently from other activities to accommodate the customer's business requirements for service delivery. Service appointments can block 

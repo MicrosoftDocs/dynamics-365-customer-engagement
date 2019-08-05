@@ -16,8 +16,6 @@ search.app:
 ---
 # PublisherAddress Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Address and shipping information. Used to store additional addresses for a publisher.
 
 

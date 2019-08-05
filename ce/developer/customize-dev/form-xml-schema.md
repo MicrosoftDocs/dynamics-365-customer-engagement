@@ -22,8 +22,6 @@ search.app:
 ---
 # Form XML schema
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. For more information, see [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
   
 > [!NOTE]

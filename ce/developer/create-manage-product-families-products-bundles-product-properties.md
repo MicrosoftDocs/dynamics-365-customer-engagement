@@ -21,8 +21,6 @@ search.app:
 ---
 # Create and manage product families, products, bundles, and product properties
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Define your product catalog by organizing your products in a hierarchical structure by creating products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family so that all the child products and bundles under a product family automatically inherit the properties.  
   
  By default, when you create a product family, product, or bundle record, they are in the **Draft** state. After you have created a product, defined related products, and configured attributes for the parent product family record, you must publish the product family, product, or bundle record for them to become available in the system to your sales agents for selling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  

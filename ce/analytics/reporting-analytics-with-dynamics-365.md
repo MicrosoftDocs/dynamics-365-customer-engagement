@@ -24,9 +24,7 @@ search.app:
   - D365CE
 ---
 # Reporting and Analytics Guide for Dynamics 365 for Customer Engagement apps
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes reports, dashboards, and support for [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] that provides useful business information and visualizations to the user.  
   
  ## Paginated reports  

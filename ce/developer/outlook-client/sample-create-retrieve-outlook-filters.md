@@ -21,8 +21,6 @@ search.app:
 ---
 # Sample: Create and retrieve Outlook filters
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. To download the sample, refer [Sample: Create and retrieve Outlook filters](https://msdn.microsoft.com/en-us/library/gg309283.aspx).
 
 ## Prerequisites

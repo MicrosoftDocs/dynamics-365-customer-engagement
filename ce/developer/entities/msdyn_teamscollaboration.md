@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_TeamsCollaboration Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Entity which stores collaboration data of Dynamics 365 with Microsoft Teams
 
 **Added by**: This solution contains Office Productivity implementation Solution

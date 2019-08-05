@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_transactioncategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Business transaction categories to classify costs and revenue.
 
 **Added by**: Project Service Automation Solution

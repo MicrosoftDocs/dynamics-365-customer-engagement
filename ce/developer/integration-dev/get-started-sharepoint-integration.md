@@ -22,8 +22,6 @@ search.app:
 ---
 # Get started with SharePoint integration
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] integration enables document management capabilities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. There are two aspects to [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] integration:  
   
 - **Setting up SharePoint integration**. A system administrator sets up a [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] environment. The [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps administrator (a user who has the SharePoint Site Collection Administrator role) selects the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] entities for which to enable the document management feature, and specifies the target [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)]. As part of specifying the target server, the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps administrator specifies the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] site collection or the [!INCLUDE[pn_SharePoint_Server_short](../../includes/pn-sharepoint-server-short.md)] site URL by using the                      `SharePointSite` entity.  

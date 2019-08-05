@@ -31,8 +31,6 @@ search.app:
 ---
 # Business management entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The entities described in this section help you effectively manage the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application. This includes creating the relationships between entity records, setting up queues, and defining the fiscal periods for the organization.  
   
 ## In This Section  

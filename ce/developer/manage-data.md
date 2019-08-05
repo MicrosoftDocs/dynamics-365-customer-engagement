@@ -34,8 +34,6 @@ search.app:
 ---
 # Manage your data in Customer Engagement
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 *Data management* features let you efficiently manage and audit your data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You’ll be able to import new data and audit data changes, detect duplicates and delete data in bulk.  
   
  Based on the provided functionality, you can develop custom data management tools.  
