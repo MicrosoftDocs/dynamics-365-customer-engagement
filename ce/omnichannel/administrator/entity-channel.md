@@ -103,9 +103,9 @@ After creating the work stream for the cases, you must create the routing rules.
     | General | Name | Push cases | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
-9. Select **+ Add v** in the **Rule Criteria**, and then select **+ Add row**.
+9. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
 
-    a. Select a rule from the list in the for the first box. For example, **Priority**.
+    a. Select a rule from the list for the first box. For example, **Priority**.
 
     b. Select a condition from the list. For example, **Equals**.
 
@@ -113,9 +113,9 @@ After creating the work stream for the cases, you must create the routing rules.
 
 10. Select **Queue** for the **Route to** field. 
 
-11. Select a Omnichannel queue for the **Add to Queue** field.
+11. Select an Omnichannel queue for the **Add to Queue** field.
 
-    The steps 9 to 11 indicate if the **Priority** of a case is **High**, then then route the case to the selected omnichannel queue.
+    The steps 9 to 11 indicate if the **Priority** of a case is **High**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
     > ![New Rule Item values](../media/case-ws-rr-rule-item1.png "New Rule Item values")
@@ -127,17 +127,17 @@ After creating the work stream for the cases, you must create the routing rules.
 
 ## Step 3: Update cases work distribution flow
 
-After creating the routing rules for the cases work streams, you must update **Cases Work Distribution Flow** that is provided out-of-the-box to automatically distribute the cases to the agents.
+After creating the routing rules for the cases workstream, you must update **Cases Work Distribution Flow**. The flow is provided out-of-the-box to, automatically distribute the cases to the agents.
 
-The out-of-the-box Case distribution flow contains the following components.
+The out-of-the-box Cases Work Distribution Flow contains the following components.
 
-| Component | Modification |
+| Component | Modification recommendation |
 |-----------------------------------|-----------------------------------|
 | When the record is created |  |
 | Initialization | Do not modify |
 | Workstream Initialization | Do not modify |
 | Current record | Do not modify |
-| Work Stream Selection - Set LiveWorkStreamId to route this record to |  |
+| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams |
 | Invoke Omnichannel | Do not modify |
 
 ### Update work distribution flow
@@ -164,33 +164,33 @@ The out-of-the-box Case distribution flow contains the following components.
     > [!div class=mx-imgBorder] 
     > ![Select the Edit button](../media/case-work-distribution-flow4.png "Edit the Cases Work Distribution Flow")
 
-6. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section and select **Condition 4**.
+6. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
 
     > [!div class=mx-imgBorder] 
     > ![Select work stream](../media/case-work-distribution-flow5.png "Select work stream")
 
-7. Select a the search box to add a rule. A flyout control appears. Type a rule name in the search box of the **Dynamic content** tab. For example, **Priority**. The rule appears in the results. Now, select the rule, and it is added. 
+7. Select the search box to add a rule. A flyout control appears. Type a rule name in the search box. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
     > [!div class=mx-imgBorder] 
     > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
 
 8. Select a condition from the list. For example, **is equal to**.
 
-9. Type the rule value in the box. For example, **1**.
+9. Type the rule value in the field. For example, **1**.
 
     > [!div class=mx-imgBorder] 
     > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
 
-10. Select the **Set Variable 4** option under the **If yes** section.
+10. Select the **Set variable 4** option under the **If yes** section.
 
-11. Select a the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box of the **Dynamic content** tab. For example, **High Priority Cases**. The rule appears in the results. Now, select the rule, and it is added. 
+11. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **High Priority Cases** is one of the case work stream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-12. Select the **Set Variable 5** option under the **If no** section.
+12. Select the **Set variable 5** option under the **If no** section.
 
-13. Select a the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box of the **Dynamic content** tab. For example, **High Priority Cases**. The rule appears in the results. Now, select the rule, and it is added.
+13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the work stream you created in the search box. For example, **Low Priority Cases** is one of the case work stream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
@@ -203,3 +203,5 @@ The out-of-the-box Case distribution flow contains the following components.
 ### See also 	
 
 [Understand and create work streams](work-streams-introduction.md)
+
+[Cases entity work streams](set-upentity-workstream.md)

@@ -44,3 +44,7 @@ This topic describes how to create a work stream that is used to route case enti
     > ![Specify values for the fields](../media/case-ws2.png "New case work stream")
 
 4. Select **Save** to save the work stream.
+
+## See also
+
+[Automate case routing](entity-channel.md)
