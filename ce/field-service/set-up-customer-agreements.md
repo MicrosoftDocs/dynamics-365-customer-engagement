@@ -300,8 +300,9 @@ In Field Service Settings there are important defaults that can be set for agree
 
 **Generate Agreement Work Order X Days in Advance** - this value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
 
+**Auto Generate Work Order for Agreement Booking** - this value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
 
-record generation time is time of user 
+**Record Generation Time** - this value exists on the agreement and dictates when in the day records for the agreement such as booking dates and work orders should be generated. This is helpful because some organizations do not want agreements generating many work orders in the middle of a work day while dispatchers are scheduling and managing other jobs.
 
 
 Agreement with multiple incident types
