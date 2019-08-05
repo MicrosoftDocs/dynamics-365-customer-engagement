@@ -325,9 +325,12 @@ entitilements/SLAs?
 - dont bill for work orders from the agreement by setting up entitlement at the incident type level because organizations commonly create incident types specifically for agreements. can be done with price list.
 
 
-location/account
+
 
 ## Additional Notes
+
+
+location/account
 
 agreements work with the sales opp quote order process. 
 - service-maintenance based lead
