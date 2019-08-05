@@ -117,39 +117,52 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 > [!Note]
 > Bookings made by agreements will not consider existing bookings, meaning it will double book on top of exisitng schedules.
   
-**Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant.  As an example, if you plan to perform monthly maintenance on the 15th of each monthly, and set pre and post booking flexibility to 7 days; then the work orders can be scheduled between the 8th and the 22nd of each month.
+**Pre Booking Flexibility** and **Post Booking Flexibility** fields specify how many days before and after the anticipated schedule date the work order is allowed to be scheduled. These will populate the **Date Window Start** and **Date Window End** fields on the generated work orders to aid the schedule assistant. As an example, if you plan to perform monthly maintenance on the 15th of each monthly, and set pre and post booking flexibility to 7 days; then the work orders can be scheduled between the 8th and the 22nd of each month.
   
    
-- **Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work Order should be scheduled between 8 a.m. and 12 p.m.)  
-  
-1.  To set up a recurring booking for this agreement, on the command bar at the top, click **Booking Recurrence**, specify the recurrence, and then click **Save**.  
-  
-2.  When you are done, click **Save**. This will automatically generate the agreement booking dates within 24 hours.  
-  
-3.  To add incidents to the agreement booking setup, click **+Add Agreement Booking incident record**. Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.  
-  
-4.  To add agreement booking dates, click **+Add Agreement Booking Date record**  
-  
-    -   Use the tooltips as a guide to specify the booking date details and then click **Save & Close**.  
-
+**Time Window Start** and **Time Window End** can be specified to create a time window for generated work orders, and will be taken into account by the schedule assistant. (Example: Work Order should be scheduled between 8 a.m. and 12 p.m.).  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-booking-setup.png)
 
-
+Next you need to define a pattern for work orders to be created by selecting **Booking Recurrence** on the command bar at the top.  
+  
+Use the pop up window to define a recurrence. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-booking-recurrence.png)
 
+Typical examples are:
+
+- Weekly
+- Monthly
+- Every 3 months
+- Yearly
+- The first Monday of each month
+- Every other Friday
+
+You an also define custom dates work orders should be performed if a pattern does not reflect your business needs. An example is an agreement to perform service on various holidays throughout the year.
+
+
+**Save**
+
 
 ### Step 3: Add agreement work details
 
+After setting up the **Agreement** to define the high level details, and the **Agreement Booking Setup** to define a recurrence, the next step is to define the work that should be performed.
 
+THis is achieved by adding incident types, products, services, and service tasks to the agreement.
+
+To add incidents to the agreement booking setup, click **+Add Agreement Booking incident record**. Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident.png)
 
+**Save & Close**
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident-items.png)
+
 
 
 ### Step 4: Activate agreement and view work orders
