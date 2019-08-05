@@ -214,7 +214,7 @@ A lookup to the agreement will also be noted in the Settings section.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-work-order-settings.png)
 
-When attenpting to book the work order with the schedule assistant
+After selecting the work order **Book** button and triggering the schedule assistant, the **Search start** and **Search end** time parameters will reflect the booking date and pre and post booking flexibility fields noted earlier on the agreement booking setup.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-schedule-assistant-filters.png)
