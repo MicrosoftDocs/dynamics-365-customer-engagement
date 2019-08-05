@@ -219,7 +219,7 @@ After selecting the work order **Book** button and triggering the schedule assis
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-schedule-assistant-filters.png)
 
-invoices are created at close posting of work orders which is true whether work orders are part of an agreement or not.
+After an agreement work order is performed by a field technician and closed by a manager, an invoice for completed work will be created as part of the normal work order invoicing process. This is true whether a work order is part of an agreement or not. See the topic on [work order life cycle and statuses](/work-order-status-booking-status.md) for more details.
 
 ## Scenario 2: auto generate invoices
 
