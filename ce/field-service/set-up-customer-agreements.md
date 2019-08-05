@@ -223,7 +223,10 @@ After an agreement work order is performed by a field technician and closed by a
 
 ## Scenario 2: auto generate invoices
 
-Agreement invoices are used to automatically generate invoices for predefined products and services. The invoices are generated regardless of the work orders performed. As an example, let's configure the scenario where a customer pays a field service organization a quarterly amount for a service plan, similar to how you may pay a monthly cell phone bill regardless of the number of phone calls or texts you send. 
+Agreement invoices are used to automatically generate invoices for products and services. The invoices will be generated at a defined recurrence and contain the same products at the same price each time. The invoices are generated and billed regardless of whether any work orders were performed or not. It is a similar model to how you may pay a monthly cell phone bill regardless of the number of phone calls or texts you send.
+
+
+Let's configure the scenario where a customer pays a field service organization a quarterly amount for a service plan.
 
 
 ### Step 1: Create an agreement or select an existing one
@@ -241,6 +244,12 @@ From the agreement, go to **Invoice Setup > Add New Agreement Invoice Setup**
 
 ### Step 2: Set up invoice recurrence and products
 
+In the invoice products section, add the products you would like to bill the customer for on a regular basis.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/agreement-invoice-add-products.png)
+
+> [!Note]
+> Invoice products can only be products where Field Service Product Type = Inventory or Non-inventory. Service type products cannot be added.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-invoice-setup-header.png)
@@ -252,8 +261,7 @@ From the agreement, go to **Invoice Setup > Add New Agreement Invoice Setup**
 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/agreement-invoice-add-products.png)
+
 
 
 [only inventory or non inventory can be added]
