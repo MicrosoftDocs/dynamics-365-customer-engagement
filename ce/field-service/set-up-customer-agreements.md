@@ -151,14 +151,17 @@ You an also define custom dates work orders should be performed if a pattern doe
 
 After setting up the **Agreement** to define the high level details, and the **Agreement Booking Setup** to define a recurrence, the next step is to define the work that should be performed.
 
-THis is achieved by adding incident types, products, services, and service tasks to the agreement.
+This is achieved by adding incident types, products, services, and service tasks to the agreement.
 
-To add incidents to the agreement booking setup, click **+Add Agreement Booking incident record**. Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.  
+From the agreement booking setup, click **+Add Agreement Booking incident record**. Use the tooltips as a guide to specify the incident details, and then click **Save & Close**.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident.png)
 
-**Save & Close**
+The incidents added to agreements will become work order incidents when the work order is generated. By specifying a customer asset on the agreement incident, you can define 
 
+
+As you add incidents to the agreement the related products, services, and service tasks are added as well. Characteristics are not visualized but are added in the background. See note about the "Copy Incident Items to Agreement" in Configuration considerations at the end of this article.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-incident-items.png)
