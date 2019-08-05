@@ -177,24 +177,22 @@ Using the example of two incidents for monthly maintenance, an organization can:
 
 ### Step 4: Activate agreement and view work orders
 
-
-
 Finally, after the high level details, recurrence, and work are defined, the last step is to **activate** the agreement to begin generating related records such as maintenance dates and work orders. This is typically done after manager review and customer acceptance. To add more details to the Agreement status, consider using the Agreement Sub-Status values. Custom agreement sub-statuses can be created.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active.png)
 
-From the agreement, set the **System Status** field to **Active**.
+From the agreement, set the **System Status** field to **Active**. Doing so will trigger the creation of booking dates that represent the dates service should be performed.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active-booking-dates.png)
 
-Doing so will create the
+As time approaches the booking dates, work orders will be generated based on the "Generate Work Orders Days in Advance" field. The booking date will then have a status of Processed along with a lookup to the generated work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active-booking-dates-annotation.png)
 
-
+You also have the ability to manually generate work orders for each booking date. This is applicable if you set "Auto Generate Work Orders" to "No" or for unique business cases where you must generate a work order earlier than defined.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-active-booking-dates-details.png)
