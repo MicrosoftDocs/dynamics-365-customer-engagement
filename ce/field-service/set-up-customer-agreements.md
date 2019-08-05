@@ -305,18 +305,20 @@ In Field Service Settings there are important defaults that can be set for agree
 **Record Generation Time** - this value exists on the agreement and dictates when in the day records for the agreement such as booking dates and work orders should be generated. This is helpful because some organizations do not want agreements generating many work orders in the middle of a work day while dispatchers are scheduling and managing other jobs.
 
 
-Agreement with multiple incident types
-- how are you tracking assets - if one asset for a work order you can ensure all time spent on that work order was for that asset
-- multiple people 
+### Multiple incidents vs multiple recurrences
+As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences each with one or more incidents. Here are a few things to consider:
+
+- **Who will perform the work order(s)?** - a single recurrence will create a single work order whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person then using a single recurrence may be better. One workaround is to use incident types with requirement group templates that help schedule single work orders to multiple resources/
+
+- **Travel** - if multiple recurrences create multiple work orders, then this may create more trips and more travel.
+
+- **How are you tracking assets?** - some organizations prefer each work order to relate to a single customer asset. This way they know the time spent on a work order correlates to time spent servicing an asset and this helps with reporting. If this is the case you may choose to have multiple recurrences that create multiple work orders, each with a single incident related to a single asset.
 
 
-Agreement with multiple recurrences
-- if youre doing something monthly, quartlery, and yearly, multiple recurrences
-
-Schedule agreement work orders with RSO
+### Schedule agreement work orders automatically with Resource Scheduling Optimization (RSO)
 - make sure the requirements of generated work orders are set to optimize. this can be achieved with a workflow, or by default for all work flows. 
 
-using invoices and work orders on same agreement?
+### Adding agreements using invoices and work orders on same agreement?
 - could be the same
 - pay cell phone whether make calls or not
 
