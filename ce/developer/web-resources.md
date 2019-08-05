@@ -25,8 +25,6 @@ search.app:
 
 # Web resources for Customer Engagement
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Web resources are *virtual files* that are stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and that you can retrieve by using a unique URL address.  
 
 <a name="BKMK_CapabilitiesOfWebResources"></a>   

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/05/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 55DFF759-DD1C-4B71-A232-2015C085E748
@@ -35,7 +35,7 @@ Quickly configure and add a chat widget to your portal to chat with your website
 
 ## Step 2: Configure a chat widget
 
-1. Go to **Administration** &gt; **Chat**.
+1. Go to **Channels** &gt; **Chat**.
 2. Select **New** to create a chat widget. The **New Chat Widget** page opens.
 3. On the **Basic details** tab, provide the following information:
    1. In the **General information** section, enter a name for the chat widget.

@@ -28,8 +28,6 @@ search.app:
 
 # Sample: Bulk delete exported records
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with deleting data in bulk](https://code.msdn.microsoft.com/Samples-of-delete-data-in-722dd420).
 
 ## Prerequisites

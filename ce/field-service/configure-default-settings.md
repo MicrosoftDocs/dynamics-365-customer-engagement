@@ -28,8 +28,6 @@ search.app:
 ---
 # Set defaults for work orders, bookings, the schedule board, and agreements (Field Service)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Field Service Settings page allows system administrators to set default settings for work orders, bookings, the schedule board, agreements, and more.
 
  1. In the Unified Interface framework app, navigate to **Field Service** > **Field Service Settings**. Or, in earlier web browser versions, navigate to **Field Service** > **Administration** > **Field Service Settings**.

@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_inventoryadjustmentproduct Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Records product affected by an inventory adjustment or inventory transfer
 
 **Added by**: Field Service Solution

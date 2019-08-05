@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_geofence Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 A radial boundary around a physical location that, when active, can be entered or exited by geotracked records, in turn generating events.
 
 **Added by**: Geofence Management Solution

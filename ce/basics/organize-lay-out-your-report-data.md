@@ -22,8 +22,6 @@ search.app:
 ---
 # Organize and lay out your report data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you create a report, you have to decide which columns to include, the order in which they are displayed, and whether to group data into subcategories. By grouping and summarizing the data, you make it easier to see the patterns.  
   
  For example, your report could use one level of grouping to group opportunities by salesperson, or add a second level of grouping to show each quarter's opportunities, or add a third level to show the percentage won and lost in each quarter.  

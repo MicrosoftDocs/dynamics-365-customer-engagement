@@ -30,8 +30,6 @@ search.app:
 ---
 # Prepare source files for import
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Before you can import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you must create the source data files.  
   
 The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  

@@ -24,8 +24,6 @@ topic-status: Tech Reviewing
 
 # Nurture sales from lead to order (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The sales process in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] can help you close more sales and achieve higher customer satisfaction. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the sale. You also end up with a more complete history, which you can refer to later on if you plan to work with your customer again in the future, or if your customer needs support.  
 
  Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated, or they might come from other sources, such as website opt-in pages, email queries, or business cards you gather at trade shows.  

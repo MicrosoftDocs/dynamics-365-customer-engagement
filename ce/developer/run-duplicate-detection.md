@@ -22,8 +22,6 @@ search.app:
 ---
 # Run duplicate detection
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 There are several ways to perform duplicate detection after you enable it and publish the duplicate detection rules.  
 
 <a name="BKMK_RetDupwebapi"></a>

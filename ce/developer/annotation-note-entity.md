@@ -22,8 +22,6 @@ search.app:
 ---
 # Annotation (note) entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The *annotations (notes)* provide easy ways to append additional information to any record in the 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database. An annotation (note) is a text entry that can be associated with any entity in 
 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. However, you can associate annotations with only those custom entities that are created with 

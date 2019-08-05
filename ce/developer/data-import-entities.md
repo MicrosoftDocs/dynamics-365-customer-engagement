@@ -29,8 +29,6 @@ search.app:
 ---
 # Data import entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data import entities are used to create data maps, configure and run data imports, and log failure information.  
 
  The following table lists the entities that are used to configure, run, and log failures for import operations.  

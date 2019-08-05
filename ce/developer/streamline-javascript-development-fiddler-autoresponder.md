@@ -21,8 +21,6 @@ search.app:
 ---
 # Streamline JavaScript web resource development using Fiddler AutoResponder
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 While developing and debugging JavaScript web resources, you can use AutoResponder in [Telerik Fiddler](https://www.telerik.com/fiddler) to replace the content of a web resource with content from a local file rather than uploading it in your Dynamics 365 for Customer Engagement instance and publishing each time. Use the following steps below to setup AutoResponder in Fiddler.
 
 ## Install and configure Fiddler

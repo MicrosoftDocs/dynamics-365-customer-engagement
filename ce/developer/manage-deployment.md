@@ -22,8 +22,6 @@ search.app:
 ---
 # Manage your deployment of Customer Engagement
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Write application code to administer your deployment and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## In This Section  

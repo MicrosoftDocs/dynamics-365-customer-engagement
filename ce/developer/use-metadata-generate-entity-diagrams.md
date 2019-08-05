@@ -22,8 +22,6 @@ search.app:
 ---
 # Use metadata to generate entity diagrams
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Visual representation of metadata can be very useful, especially when you are trying to describe the relationship between entities in the system. You can use the Metadata Diagram sample code provided for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to generate the entity relationship diagrams. You can create a simple diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities.  
   
 <a name="relationships"></a>   

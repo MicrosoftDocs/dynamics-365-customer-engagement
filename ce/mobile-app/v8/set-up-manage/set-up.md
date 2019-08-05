@@ -24,8 +24,6 @@ search.app:
 ---
 # Set up Dynamics 365 for phones and Dynamics 365 for tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
-
 Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  

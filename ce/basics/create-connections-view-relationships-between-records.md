@@ -21,8 +21,6 @@ caps.latest.revision: 29
 
 # Create connections to define and view relationships between records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can create and view the relationships between records for many entities using **Connect**. Connections enable you to easily associate users, contacts, quotes, sales orders, and many other entity records with each other. When you open a record and select **Connections**, you can view all of the connections between it and other records.  
   
  When you create a connection, you assign it a role. There are many different roles you can use to identify your connections, such as Account Manager or Colleague. Connection roles define how records are related to you, to your organization, or to one another, such as manager to employee. There are three types of connection roles: business, family, and social. Your system administrator can add new connection roles.  

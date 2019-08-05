@@ -24,8 +24,6 @@ search.app:
 ---
 # About this content
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
-
 The topics in this folder apply to Dynamics 365 for Customer Engagement apps, version 8.x. Other topics apply to Dynamics 365 for Customer Engagement apps, version 9.x or both 9.x and 8.x. Review the **Applies to** at the top of each topic.
 
 > [!TIP]

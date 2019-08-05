@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample code for charts (visualizations)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This section contains code examples that demonstrate how to use visualization entities.  
   
 ## In This Section  

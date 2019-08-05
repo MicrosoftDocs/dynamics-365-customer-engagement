@@ -19,8 +19,8 @@ search.app:
 ---
 # API Limits
 
-- [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-- [!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
+- 
+- 
 
 We limit the number of API requests made by each user, per organization instance, within a five minute sliding window. Additionally, we limit the number of concurrent requests that may come in at one time.  When one of these limits is exceeded, an exception will be thrown by the platform.  
 

@@ -24,12 +24,13 @@ search.app:
 ---
 # Install and set up the Dynamics 365 app for Teams 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 <a name="bkmk_enable"></a> 
 ## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
 
 By default, Microsoft Teams integration is disabled. To turn this feature on, follow the steps below. 
+
+   > [!NOTE]
+   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-troubleshoot#troubleshoot-configuration-issues-with-teams-integration).
 
 1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.

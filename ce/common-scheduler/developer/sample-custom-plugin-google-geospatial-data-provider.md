@@ -32,8 +32,6 @@ search.app:
 ---
 # Sample: Custom plug-in to use Google Maps API as geospatial data provider
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
 Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365 for Customer Engagement)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)

@@ -25,8 +25,6 @@ search.app:
 
 # Debug an on-premise registered plug-In
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps.
 
 > [!NOTE]

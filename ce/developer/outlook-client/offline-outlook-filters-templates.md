@@ -22,8 +22,6 @@ search.app:
 ---
 # Offline and Outlook filters and templates
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Data filters for [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] determine what data should be synchronized between the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps supports the ability to change the default filter using the SDK and push these changes to any or all users.  
 
  As part of the new support for filter customization, you can write code that allows administrators to create and publish filter templates. This allows a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps administrator to create common or desirable filters that can be published to users for synchronizing with the [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] Store and offline database. This also provides a way to customize the default filter template that will be applied for users who are added to the system after the templates are originally published. The administrator also has the ability to update or delete user filters after they are published.  

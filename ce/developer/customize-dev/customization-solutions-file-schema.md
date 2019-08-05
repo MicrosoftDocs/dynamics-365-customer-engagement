@@ -24,8 +24,6 @@ search.app:
 ---
 # Customization solutions file schema
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The following is the schema definition for an import/export customization file from [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. Note that this file includes the following schemas:  
   
 -   [ISV Configuration File Schema](isv-configuration-file-schema.md)  

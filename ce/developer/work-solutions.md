@@ -21,8 +21,6 @@ search.app:
 ---
 # Work with solutions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic presents specific programming tasks included in [Sample: Work With Solutions](sample-work-solutions.md) and [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md).  
   
 <a name="BKMK_CreatePublisher"></a>

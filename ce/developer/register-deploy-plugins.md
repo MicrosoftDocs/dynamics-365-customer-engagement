@@ -25,8 +25,6 @@ search.app:
 
 # Register a plug-in to be deployed on-premise
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
 
 General information about plug-in and custom workflow assembly registration can be found in the Common Data Service topics [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in) and [Register your assembly](/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly). The information that follows below is specific to on-premises plug-in development.

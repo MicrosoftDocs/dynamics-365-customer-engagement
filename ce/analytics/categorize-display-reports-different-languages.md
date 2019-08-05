@@ -23,9 +23,7 @@ search.app:
   - D365CE
 ---
 # Categorize and display reports in different languages
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 You can enable additional languages in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps by enabling Language Packs. This lets you display text in the user interface, Help, and reports in different languages. For more information about how to enable Language Packs, see [Enable Languages](https://technet.microsoft.com/library/dn832148.aspx).  
   
  To categorize the reports by language, use the `Report.LanguageCode` attribute. You can set the attribute to a specific locale ID (for example, 1033 for US English) to make the report visible to the users of that language. For example, the English out-of-the-box Account Summary report appears in the Reports grid in the English user interface, but not in the Spanish or German user interfaces in the same organization.  

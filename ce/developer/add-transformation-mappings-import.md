@@ -32,8 +32,6 @@ search.app:
 ---
 # Add transformation mappings for import
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use transformation mapping to modify data before importing it. For example, split a full name that is contained in the source file into a first name and a last name to match the target attributes for an entity.  
 
  To implement transformation mapping, use the transformation mapping (`TransformationMapping`) entity and transformation parameter mapping (`TransformationParameterMapping`) entity.  

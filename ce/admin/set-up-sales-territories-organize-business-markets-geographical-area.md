@@ -21,12 +21,18 @@ caps.latest.revision: 36
 
 # Set up sales territories to organize business markets by geographical area
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Improve sales potential and revenues by creating territories for customer and market segments in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Then assign appropriate sales people to handle the sales and revenue opportunities for those territories.  
   
- Sales territories improve the sales potential because the members of a territory are focused on the services or sales within that territory. You can associate the financials directly with a territory and its members, which simplify business analysis. Also, based on the sales territory type and size, you can define sales methodologies and the training required for those locations.  
+Sales territories improve the sales potential because the members of a territory are focused on the services or sales within that territory. You can associate the financials directly with a territory and its members, which simplify business analysis. Also, based on the sales territory type and size, you can define sales methodologies and the training required for those locations.  
 
+Organizations can create a model and visualize their sales territories in a hierarchical format using out-of-the-box territory hierarchical relationship.
+
+> [!IMPORTANT]
+> - Territory hierarchical relationship (or territory hierarchy) is a preview feature. To learn more about preview features, see [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md).
+> - For a new organization that provisions Dynamics 365 for Sales, the territory hierarchical relationship will be available and enabled by default.
+> - For existing customers upgrading to the latest release, if the organization doesn’t already have a hierarchical relationship created for the Territory entity, the hierarchical relationship will be available and enabled. If the organization has a hierarchical relationship created for territory, the new out-of-the-box territory hierarchical relationship will be available but not enabled.
 
 ## Create a sales territory (Sales Hub app)
 
@@ -55,11 +61,17 @@ Improve sales potential and revenues by creating territories for customer and ma
  
 7.	On the **Members** tab, select **Add members**.
 
-8.	In the **Lookup Records** pane, select the search icon  , select a user record, and then select **Add**.
+8.	In the **Lookup Records** pane, select the search icon, select a user record, and then select **Add**.
 
       ![Lookup Records pane](../sales-enterprise/media/lookup-records.png "Lookup Records pane")
+
+9. To add sub territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**. 
  
-9.	Select **Save**. 
+    ![Add sub-territory](media/sales-add-sub-territory.png "Add sub-territory")
+
+    Enter the necessary information and select **Save**. This territory will be added as a sub territory in the Sub-territories grid.
+
+10.	Select **Save**. 
 
 
 ## Create a sales territory (Sales app)

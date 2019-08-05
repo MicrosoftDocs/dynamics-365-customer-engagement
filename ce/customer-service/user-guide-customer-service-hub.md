@@ -1,32 +1,26 @@
 ---
-title: User Guide (Dynamics 365 for Customer Service) | Microsoft Docs
-description: Guide to know and understand the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; User guide
+title: "User Guide (Dynamics 365 for Customer Service) | Microsoft Docs"
+description: "Guide to learn about the Customer Service Hub."
+keywords: "Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; User guide"
+ms.date: 07/31/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-customerservice"
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
-ms.custom: dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Introduction to Customer Service Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
 
-The Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement is optimized for the customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
+The Customer Service Hub is a focused, interactive interface, designed to simplify your day-to-day case and knowledge management activities. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
 
 Customer Service Hub is based on the Unified Interface framework. Some of the key highlights are:
 
@@ -42,7 +36,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 
 > [!NOTE]
-> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app that covers case management using a desktop browser, see [User Guide (Customer Service)](user-guide-customer-service.md). For information on Dynamics 365 for Customer Engagement basics, [see the Basics Guide](../basics/basics-guide.md).
+> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). For information on Dynamics 365 for Customer Engagement basics, [see the Basics Guide](../basics/basics-guide.md).
 
 To learn how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 

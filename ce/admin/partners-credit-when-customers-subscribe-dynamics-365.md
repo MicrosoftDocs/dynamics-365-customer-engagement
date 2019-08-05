@@ -23,8 +23,6 @@ search.app:
 ---
 # For partners: Get the credit when your customers subscribe
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 As a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps partner, you can help your customer sign up for a [!INCLUDE[pn_Online_Subscription](../includes/pn-online-subscription.md)]. You can customize and set up their organization for them, and reduce their effort to get started. After signing up, you can designate your company as the customer’s partner of record. As the partner of record, you can help to ensure that your customer has a great trial experience and start them down the path toward success with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
   
  This document describes in detail the tasks you must complete to sign up for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps on behalf of your customer. It also describes the tasks a customer must do to remove your administrative privileges from the customer's company to ensure that they won’t be charged for your access after the trial is complete.  

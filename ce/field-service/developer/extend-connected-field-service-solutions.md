@@ -27,8 +27,6 @@ search.app:
 
 # Extend Connected Field Service solutions
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] supports the customization of each standard component or service and the easy addition of custom Azure-based components and services. This flexible architecture is required to support the wide range of current and future IoT devices and the envisioned supporting services for these devices.  
   
 ## Extend Azure Services

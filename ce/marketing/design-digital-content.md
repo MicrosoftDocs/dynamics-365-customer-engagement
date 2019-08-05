@@ -27,8 +27,6 @@ search.app:
 
 # Design your digital content
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
 
 - Marketing email messages and templates  
