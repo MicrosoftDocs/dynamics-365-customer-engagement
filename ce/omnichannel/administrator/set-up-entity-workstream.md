@@ -13,7 +13,7 @@ ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F
 ms.custom: 	
 ---	
 
-# Create cases entity work streams
+# Cases entity work streams
 
 ## Create case entity work stream
 
