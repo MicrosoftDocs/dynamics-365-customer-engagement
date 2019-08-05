@@ -291,9 +291,15 @@ Within Field Service Settings you can define how far in advance the system shoul
 
 ## Configuration considerations
 
+In Field Service Settings there are important defaults that can be set for agreements that help administrators control how the organization creates agreements.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-field-service-settings.png)
+
+**Generate Booking Dates X Months in Advance** - Agreement booking dates can help organizations plan for maintenance. However if an agreement spans a long time period, then you may not want to generate all booking dates at one time but rather X months in advance. The default is 12 months.
+
+**Generate Agreement Work Order X Days in Advance** - this value exists on the agreement booking setup and can vary for each booking recurrence, but a default can be set here.
+
 
 record generation time is time of user 
 
