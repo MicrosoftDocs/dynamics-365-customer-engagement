@@ -21,7 +21,9 @@ search.app:
   - D365CS
 ---
 
-# Migrate entity records
+# Migrate entity records using migration tool
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)
 
 Follow these steps to migrate entity records from legacy scheduling experience to the new scheduling experience.
 
