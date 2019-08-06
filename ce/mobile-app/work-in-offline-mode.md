@@ -72,18 +72,18 @@ When updates are downloaded, you can check to see if mobile offline is available
 
 
 
-**Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
+- **Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
    
  
-**Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+- **Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
-**Sync time** indicates the last time your data was synced with the server.
+- **Sync time** indicates the last time your data was synced with the server.
  
-   > [!div class="mx-imgBorder"] 
-   > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
+    > [!div class="mx-imgBorder"] 
+    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
  
 ### Check offline status from the main menu
 
@@ -112,8 +112,8 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
 
 - From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
 
-    > [!div class="mx-imgBorder"] 
-    > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
+     > [!div class="mx-imgBorder"] 
+     > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
 
 Reconfiguring deletes all data and metadata from the cache, however do not rely on this as a security measure.
 
