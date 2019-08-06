@@ -40,7 +40,7 @@ When your admin has enabled mobile offline, the next time you access the mobile 
     > [!div class="mx-imgBorder"] 
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
 
-If you choose **Skip for now**, you will not be able to use the app in offline mode unless you manually download the updates. 
+If you choose **Skip for now**, you will not be able to use the app in offline mode until you manually download the updates. 
 
 ### Manually download updates
 
