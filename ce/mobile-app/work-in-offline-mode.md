@@ -35,7 +35,7 @@ Work with your data in offline mode when you do not have internet access. The Dy
 
 When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-- When you see the the dialog box that asks you to update to work offline, choose **Update**. 
+- When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
