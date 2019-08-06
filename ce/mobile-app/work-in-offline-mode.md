@@ -87,7 +87,7 @@ When updates are downloaded, you can check to see if mobile offline is available
  
 ### Check offline status from the main menu
 
-You can also see which entities are available in offline mode from the main menu
+You can also see which entities are available in offline mode from the main menu.
 
 - From the nav bar, select ![Menu button](media/MenuButton.png "Menu button").
 
