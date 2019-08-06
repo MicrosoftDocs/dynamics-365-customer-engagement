@@ -21,8 +21,6 @@ search.app:
 ---
 # Create packages for the Dynamics 365 for Customer Engagement Package deployer
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps instance. A “package” can consist of any or all of the following:  
 
 - One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps solution files.  

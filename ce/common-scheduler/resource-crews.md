@@ -27,8 +27,6 @@ search.app:
 
 # Resource crew scheduling
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[topic-urs-resource-crews.md](../includes/topic-urs-resource-crews.md)]
 
 

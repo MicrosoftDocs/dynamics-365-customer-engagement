@@ -19,8 +19,6 @@ search.app:
 ---
 # About the Entity Reference
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.
 
 > [!NOTE]

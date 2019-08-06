@@ -27,8 +27,6 @@ search.app:
 
 # Analyze results to gain insights from your marketing activities
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
 - Contacts
@@ -102,6 +100,9 @@ To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a
 Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Overview** tab, which also tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
 For leads associated with an account rather than a single contact, the insights combine interactions made by all contacts that belong to that account.
+
+> [!NOTE]
+> Because interaction records relate only to contact records, not lead records, most insights are only available for leads that are associated with a contact record (or with an account record, which itself relates back to contact records). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use leads to register and track expressions of interest](manage-customer-information.md#leads-in-marketing)
 
 ## Account insights
 

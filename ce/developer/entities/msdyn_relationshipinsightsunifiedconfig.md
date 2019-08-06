@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_relationshipinsightsunifiedconfig Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 
 
 **Added by**: SI Common Solution

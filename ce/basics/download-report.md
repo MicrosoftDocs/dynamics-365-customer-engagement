@@ -22,8 +22,6 @@ search.app:
 ---
 # Download a report
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To edit a default report, you can download the report from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to a computer that is set up with the report development environment, and then make the necessary changes.  
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  

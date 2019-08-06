@@ -22,8 +22,6 @@ search.app:
 ---
 # Command bar or ribbon presentation
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement can be presented in several different ways depending on the client and differences in how some entities are treated. You need to take these factors into consideration as you change ribbon commands or define new ones.  
   
 <a name="BKMK_DifferentPresentations"></a>   

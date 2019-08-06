@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
@@ -124,7 +124,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## About group teams
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
 ### Using Azure Active Directory groups to manage a user’s app and data access 

@@ -22,8 +22,6 @@ search.app:
 ---
 # Active Directory and claims-based authentication
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Claims-based authentication provides an industry standard security protocol to authenticate a user on a host computer. Claims-based authentication is a set of WS-* standards describing the use of a Security Assertion Markup Language (SAML) token in either passive mode (when WS-Federation is used with the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web application) or active mode (where WS-Trust in used with [!INCLUDE[pn_WCF_long](../includes/pn-wcf-long.md)] clients). This authentication works together with WCF to provide secure user authentication and a communication channel with a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server. All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]apps edition support claims-based authentication.
 
  Claims-based authentication requires the availability of a security token service (STS) running on a server. An STS server can be based on [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] Federation Services (AD FS) V2, or any platform that provides the official STS protocol. More information: [TechNet: Configure IFD for Dynamics 365 for Customer Engagement (on-premises)](https://technet.microsoft.com/library/dn609803.aspx).   

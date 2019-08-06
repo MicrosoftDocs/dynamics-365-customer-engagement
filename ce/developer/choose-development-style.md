@@ -22,8 +22,6 @@ search.app:
 ---
 # Choose your development style for Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The SDK offers a variety of methods and technologies to use when you write code to access the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web services or to extend the application. This topic provides guidance on the development style to choose depending on your technology area..  
 
 <a name="NetOrNot"></a>   

@@ -16,8 +16,6 @@ search.app:
 ---
 # Competitor Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Business competing for the sale represented by a lead or opportunity.
 
 **Added by**: Sales Solution

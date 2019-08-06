@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_playbookactivityattribute Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores attribute names and values of the playbook activity.
 
 **Added by**: Playbook Solution

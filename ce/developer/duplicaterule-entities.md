@@ -21,8 +21,6 @@ search.app:
 ---
 # Duplicate Rule entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 For information about how to configure duplicate rules in the application, see [Administrators Guide: Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 
 Duplicate detection rules are defined using the following entities:

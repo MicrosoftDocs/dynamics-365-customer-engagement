@@ -29,8 +29,6 @@ search.app:
 ---
 # Knowledge management entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] introduced a new knowledge management system that lets you create rich knowledge articles with support for embedding external multimedia contents, such as images and videos, as links. You can use the SDK to programmatically create and manage knowledge articles, create major and minor versions of the articles, translate the articles into multiple languages, and schedule the publishing and expiration of the articles. You can also increment knowledge article views, associate knowledge article records with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity records, and perform a full-text search on knowledge articles from your application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with knowledge articles in Dynamics 365 for Customer Engagement apps](work-knowledge-articles.md)  
      
 You can set up knowledge management for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the web client only; it can’t be done through the SDK. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in Dynamics 365 for Customer Engagement apps](../customer-service/set-up-knowledge-management-embedded-knowledge-search.md)

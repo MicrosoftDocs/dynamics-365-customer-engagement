@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_quotelineanalyticsbreakdown Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Reporting entity that is used to show quoted sales and estimated cost amounts by various dimensions.
 
 **Added by**: Project Service Automation Solution

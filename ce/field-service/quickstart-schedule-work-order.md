@@ -29,8 +29,6 @@ search.app:
 
 # Quickstart: Schedule a work order and view it on the mobile application
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 This quickstart shows how a dispatcher creates and schedules a work order that a field technician then views on the mobile app.
 
 Steps:

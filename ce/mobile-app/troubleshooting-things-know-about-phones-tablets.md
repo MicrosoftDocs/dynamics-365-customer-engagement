@@ -23,8 +23,6 @@ search.app:
   - D365Sales
 ---
 # Potential issues and resolutions
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
   
   
 ## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.

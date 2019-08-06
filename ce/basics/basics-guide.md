@@ -21,8 +21,6 @@ search.app:
 ---
 # Basics Guide for Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] basics guide contains the essentials you need to know to
 navigate the system, enter data, use dashboards, charts and reports effectively and more.
 

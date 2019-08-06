@@ -23,7 +23,7 @@ search.app:
 ---
 # Recover database space by deleting audit logs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 When you enable auditing, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps stores the change history for transactions in the form of audit logs in the database. You can delete the old or unwanted logs to clean up the database space.  
   

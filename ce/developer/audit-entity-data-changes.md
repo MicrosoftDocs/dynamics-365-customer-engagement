@@ -24,8 +24,6 @@ search.app:
 ---
 # Audit entity data changes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Organizations need to track changes made to business data for maintaining security, examining the history of a particular data record, 
 documenting modifications for future analysis and record keeping, and being in compliance with regulations. 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support auditing of entity and attribute data changes on a per organization basis.  

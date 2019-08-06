@@ -24,8 +24,6 @@ search.app:
 
 # Force an activity into a time slot in the service schedule (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 You can create a service activity by finding the next available times of resources for a service or simply without checking for conflicts. If needed, you can force a service activity into a time slot to squeeze another service activity into the leftover time from a previous service activity. If you save a service activity without finding available times in the schedule, then [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] displays the service activity in the schedule without checking for conflicts.  
   
  One reason to force a service activity into a time slot is to squeeze another service activity into the leftover time from a previous service activity.  

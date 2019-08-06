@@ -15,8 +15,6 @@ search.app:
 ---
 # Work with accounts and contacts in Customer Engagement apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Account and contact records store much of the information that you and your team collect from your customers.
 You store data about companies you do business with in accounts. Similar to Microsoft Office Outlook or other email programs, you store data about the people you know and work with in contacts.
 

@@ -22,10 +22,7 @@ search.app:
 ---
 # Find your way around [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 With Dynamics 365 for Customer Engagement apps, start by opening the app for your role: Sales, Customer Service, Field Service or Project Service Automation.
-
   
 > [!NOTE]
 >  If you need to setup the product catalog or other management task, or if you’re an administrator, open  **Dynamics 365 – custom** to access functions in the Settings area.  

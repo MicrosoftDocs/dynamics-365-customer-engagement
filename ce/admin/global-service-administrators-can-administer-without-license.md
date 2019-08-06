@@ -23,8 +23,6 @@ search.app:
 ---
 # Office 365 Global admins and Dynamics 365 Service admins can administer without a license
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 By default, all Office 365 Global administrators and Dynamics 365 Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps license are granted the following two levels of permission in Customer Engagement apps.  
   
 -   System administrator security role  

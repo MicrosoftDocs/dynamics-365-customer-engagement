@@ -32,8 +32,6 @@ search.app:
 ---
 # Schedule and appointment entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides capabilities to address appointment-based service scheduling. You can define services, resources and work schedules, and service locations. A scheduling engine manages booked appointments and service availability, and can be tuned to optimize scheduling to reduce costs and required resources.  
   
  The entity model for the scheduling engine includes a core set of entities: `Service`, `Resource`, `Calendar` and `Site`. Other entities describe resource requirements, constraints, calendar rules, and a schedule.  

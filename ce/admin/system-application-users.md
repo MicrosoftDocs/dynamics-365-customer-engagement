@@ -23,8 +23,6 @@ search.app:
 ---
 # System and application users
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 There is a list of special system and application users that is created when the system is provisioned. Special system users are created for integration and support scenarios. Application users are created during system provisioning for setup and configuration management. Application users can also be used for performing back-end services.
 
 For more information, see the content located in the [Administer Power Platform documentation](/power-platform/admin/system-application-users).

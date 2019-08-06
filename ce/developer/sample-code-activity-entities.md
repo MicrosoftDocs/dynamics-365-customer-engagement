@@ -25,8 +25,6 @@ search.app:
 ---
 # Sample code for activity entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This section contains the code examples that demonstrate how to use the activity entities.  
   
 ## In This Section  

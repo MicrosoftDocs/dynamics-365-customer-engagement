@@ -33,8 +33,6 @@ search.app:
 ---
 # Opportunity entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The *opportunity* entity represents a potential sale to new or established customers. It helps you to forecast future business demands and sales revenues. You can create a new opportunity in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to monitor an inquiry from your existing customer, or convert a qualified lead into an opportunity. Salespeople often use opportunities to keep track of the sales engagements that they are currently working on.  
   
  You can track the estimated revenue, estimated close date, and rating of the opportunity as well as what stage the opportunity is in. You can track the potential customer’s name and salesperson’s name. You can monitor activities related to the potential sale, such as telephone calls, email messages, and tasks.  

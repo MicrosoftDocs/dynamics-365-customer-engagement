@@ -25,8 +25,6 @@ search.app:
 
 # Sample: Install or remove sample data
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with installing or removing sample data](https://code.msdn.microsoft.com/Sample-Install-or-remove-df7cf89f).  
 
 ## Prerequisites

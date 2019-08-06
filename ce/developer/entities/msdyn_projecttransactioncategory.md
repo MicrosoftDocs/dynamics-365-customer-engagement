@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_projecttransactioncategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 (Deprecated in v3.0)
 
 **Added by**: Project Service Automation Solution

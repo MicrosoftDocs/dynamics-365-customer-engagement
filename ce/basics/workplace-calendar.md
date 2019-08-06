@@ -22,8 +22,6 @@ search.app:
 ---
 # Use the workplace calendar
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the calendar to view appointments and service activities you need to participate in.  
   
 1. [!INCLUDE[proc_marketing_calendar](../includes/proc-marketing-calendar.md)]  

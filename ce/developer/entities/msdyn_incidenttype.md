@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_incidenttype Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Incident types define the various types of incidents (issues) that a customer could report, on which work orders are based.
 
 **Added by**: Field Service Solution

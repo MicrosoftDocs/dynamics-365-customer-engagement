@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_playbookcategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 List of categories for which a playbook can be created.
 
 **Added by**: Playbook Solution

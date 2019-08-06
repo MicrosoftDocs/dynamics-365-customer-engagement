@@ -22,8 +22,6 @@ search.app:
 ---
 # Multi-Select Picklist attributes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!NOTE]
 > Multi-select picklist attributes were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
 >

@@ -21,8 +21,6 @@ search.app:
 ---
 # Use Multi-Tenant Server-to-server authentication
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This is the most common scenario and the one which is used for apps distributed using [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)], but you can also use multi-tenant without listing your application with [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)].  
   
  Each [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement organization is associated with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant. Your web application or service is registered with its own Azure AD tenant.  

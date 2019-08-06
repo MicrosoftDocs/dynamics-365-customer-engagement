@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_iotdeviceproperty Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Link entity between IoT Device Category and IoT Property Definition. This is used to model properties and tags for devices.
 
 **Added by**: IoT Connector for Microsoft Dynamics 365 Solution

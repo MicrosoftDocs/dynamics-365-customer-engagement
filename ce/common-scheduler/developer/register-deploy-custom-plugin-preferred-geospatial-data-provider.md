@@ -32,8 +32,6 @@ search.app:
 ---
 # Register and deploy custom plug-in to use your preferred geospatial data provider
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Before a plug-in can be used, it must be registered and deployed on the server.
 
 Building your plug-in project will result in a plug-in assembly (.dll). This topic provides information on how you can register and deploy the plug-in assembly for the two geospatial actions to use your preferred geospatial data provider. For information about writing a plugin, see [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)

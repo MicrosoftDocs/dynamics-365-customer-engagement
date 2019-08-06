@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_fieldservicepricelistitem Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Pricing options in addition to or above the Price List Items
 
 **Added by**: Field Service Solution

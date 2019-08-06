@@ -32,8 +32,6 @@ search.app:
 ---
 # Time zone entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The *time zone* entities can be used when you write code that works in multiple time zones. The following three read-only entities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] contain time zone information:  
   
 - The *time zone definition entity* stores basic information about each supported time zone, including the time zone code and the standard time zone name.  

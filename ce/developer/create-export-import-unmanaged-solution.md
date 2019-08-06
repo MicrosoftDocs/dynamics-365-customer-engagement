@@ -39,8 +39,6 @@ search.app:
 ---
 # Create, export, or import an unmanaged solution
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 In addition to being a prerequisite to creating a managed solution, an unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md).  

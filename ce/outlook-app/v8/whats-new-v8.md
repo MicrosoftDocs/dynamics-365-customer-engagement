@@ -26,8 +26,6 @@ search.app:
 ---
 # What's new with Dynamics 365 App for Outlook version 8.2
 
-[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
-
 ### July 12, 2018 
 1. Addressed bug fixes. 
 

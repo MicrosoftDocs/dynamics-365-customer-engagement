@@ -28,8 +28,6 @@ search.app:
 
 # Define fiscal year settings
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 A fiscal period defines the time reflected in financial reports. It is used for reporting financial data in each period.
 
 1. Make sure you have the System Administrator security role or equivalent permissions in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].

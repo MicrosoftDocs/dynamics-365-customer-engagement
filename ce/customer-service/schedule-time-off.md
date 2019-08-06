@@ -24,8 +24,6 @@ search.app:
 
 # Schedule time off 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can schedule a period of time in the middle of a schedule when a resource is not available to be scheduled for a service activity. For a user, this could be a sick day or vacation. For a facility or equipment, this could be an equipment failure.
 
 > [!IMPORTANT]

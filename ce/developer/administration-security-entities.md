@@ -22,8 +22,6 @@ search.app:
 ---
 # Administration and security entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The entities described in this section are used to set up the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] system. This includes setting up the businesses, users, and teams that define your organization.  
   
 ## In This Section  
