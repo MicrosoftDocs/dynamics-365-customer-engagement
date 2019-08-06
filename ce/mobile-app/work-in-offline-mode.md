@@ -45,7 +45,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 ### Manually download updates
 
-1. To manually download updates, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
+1. From the nav bar select, ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
 
     > [!div class="mx-imgBorder"] 
     > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
@@ -64,7 +64,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 When updates are downloaded, you can check to see if mobile offline is available.
 
-- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select **Offline Status**.
+- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
   
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
@@ -89,7 +89,7 @@ When updates are downloaded, you can check to see if mobile offline is available
 
 You can also see which entities are available in offline mode from the main menu
 
-- Select ![Menu button](media/MenuButton.png "Menu button").
+- From the nav bar, select ![Menu button](media/MenuButton.png "Menu button").
 
   -  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
   -  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
@@ -110,7 +110,7 @@ If your admin has set the conflict resolution to **Yes**, then the data value on
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-- Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
+- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
 
     > [!div class="mx-imgBorder"] 
     > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
