@@ -68,12 +68,14 @@ When updates are downloaded, you can check to see if mobile offline is available
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
-<\br></br>
+
+
 
 **Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
+   
  
 **Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
@@ -82,11 +84,15 @@ When updates are downloaded, you can check to see if mobile offline is available
    > [!div class="mx-imgBorder"] 
    > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
  
-You can also track the offline status of entities from the main menu ![Menu button](media/MenuButton.png "Menu button").
+### Check offline status from the main menu
 
--  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
--  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
--  If no Wi-Fi icon is visible, it means your admin has not enabled the entity to use in offline mode.
+You can also see which entities are available in offline mode from the main menu
+
+- Select ![Menu button](media/MenuButton.png "Menu button").
+
+  -  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
+  -  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
+  -  If no Wi-Fi icon is visible, it means your admin has not enabled the entity to use in offline mode.
 
      > [!div class="mx-imgBorder"] 
      > ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
@@ -94,9 +100,9 @@ You can also track the offline status of entities from the main menu ![Menu butt
 
 ## Sync conflict resolution
 
-Based on the settings done by the admin, conflict errors will be resolved. If your admin has set the conflict resolution to **No**, client values win and there will be no sync errors. 
+Conflict errors can resolved based on the settings set by the admin. If your admin has set the conflict resolution to **No**, then the data value on your client device wins and there will be no sync errors. 
 
-If your admin has set the conflict resolution to **Yes**, server values win. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
+If your admin has set the conflict resolution to **Yes**, then the data value on the server wins. In this case, while syncing changes to the server, you might see some errors that are automatically resolved. Client changes are overwritten by server values.
 
 
 ## Clear cache from the device
@@ -110,12 +116,12 @@ If you used the mobile app on a phone or tablet temporarily and want to remove a
 
 Reconfiguring deletes all data and metadata from the cache, however do not rely on this as a security measure.
 
+Make sure you use the **Reconfigure** option before you sign out. If you sign in to another organization but you wanted to delete data for the previous organization that you were logged into, then you will need to sign back into that organization and use the **Reconfigure** option to delete all data and metadata from the cache. 
 
-If you sign out of one organization and sign in to another, and then use the Reconfigure option on the organization you signed in to, your metadata will remain for the organization you signed out of. To remove your metadata from the organization you signed out of, you’ll need to sign in to it and use the Reconfigure option there, as well. 
 
 ## Capabilities available in offline mode
 
-Dynamics 365 for Customer Engagement for phones and tablets provides the capabilities listed below in offline mode for the end users.
+Dynamics 365 for phones and tablets provides the capabilities listed below in offline mode for the end users.
 
 These entities and corresponding commands are available in offline mode.
 
@@ -157,9 +163,7 @@ These entities and corresponding commands are available in offline mode.
 **Security modeling**: Mobile offline honors the Dynamics 365 for Customer Engagement security model. It also supports the hierarchical security model.
 
 
-<!--For offline "use"?-->
-
-Field level security and attribute sharing are not supported for offline use.
+Field level security and attribute sharing are not supported for offline mode.
 
 If a user was working on a record and lost network connection, any updates made to the record are saved in offline mode and will be synchronized to the Customer Engagement app once the user is back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
