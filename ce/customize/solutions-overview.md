@@ -31,16 +31,9 @@ manager: "kvivek"
   
 [!INCLUDE [cds-platform-note-for-on-premises](../includes/cds-platform-note-for-on-premises.md)]
 
-If you’re an ISV creating an app that you will distribute, you’ll need to use solutions. For more information about using solutions, see [Package and distribute extensions using solutions](https://msdn.microsoft.com/library/gg334530.aspx).  
+If you’re an ISV creating an app that you will distribute, you’ll need to use solutions. For more information about using solutions, see [Package and distribute extensions using solutions](../developer/package-distribute-extensions-use-solutions.md).  
   
- If you are just interested in customizing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], here is what you need to know about solutions:  
-  
-- Creating solutions is optional. You can customize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system directly without ever creating a solution.  
-  
-- When you customize the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system directly, you work with a special solution called the **Default Solution**. This solution contains all the components in your system.  
-  
-- You can export your Default Solution to create a backup of the customizations you have defined in your organization. This is good to have in a worst case scenario.  
-  
+
 <a name="BKMK_SolutionComponents"></a>   
 ### Solution components  
  A solution component represents something that you can potentially customize. Anything that can be included in a solution is a solution component. The following is a list of solution components that you can view in a solution:  
