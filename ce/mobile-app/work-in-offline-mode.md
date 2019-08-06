@@ -50,7 +50,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
     > [!div class="mx-imgBorder"] 
     > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
 
-2. On the offline status page, choose **Download Customizations** to download the updates.
+2. Select **Download Customizations** to download the updates.
 
     > [!div class="mx-imgBorder"] 
     > ![Download Customization](media/DownloadCustomization.png "Download Customization")
