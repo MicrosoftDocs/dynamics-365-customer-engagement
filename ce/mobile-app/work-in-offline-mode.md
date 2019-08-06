@@ -63,24 +63,24 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 When updates are downloaded, you can check to see if mobile offline is available.
 
-From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select **Offline Status**.
+- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then select **Offline Status**.
   
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
-- *Offline Status* tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
+**Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
    > [!NOTE] 
    > The status here can be **Not Available** due to an error or if you missed downloading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
  
-- *Entity Status* provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
+**Entity Status** provides the offline status of each entity individually. For the available entities, you can also track the last time the entity synced. Data is synced periodically in the background to ensure that you have access to the latest data whenever you go offline.
    
-- *Sync time* indicates the last time your data was synced with the server.
+**Sync time** indicates the last time your data was synced with the server.
  
     > [!div class="mx-imgBorder"] 
     > ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
  
-You can also track the offline status of entities from the **Menu** ![Menu button](media/MenuButton.png "Menu button") button.
+You can also track the offline status of entities from the main menu ![Menu button](media/MenuButton.png "Menu button").
 
 -  A green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
 -  A red Wi-Fi icon indicates that this entity is enabled for offline use but is not available to work in offline mode due to an error or missing updates.
