@@ -106,8 +106,6 @@ Follow the steps to view the migration information.
     | Migrated | Select this value when you want information about the entity records that are migrated in the migration process. |
     | Not Started | Select this value when you want information about the entity records that are not yet started for migration. |
 
-    ![](media/.png "")
-
 6. Select **Results** from the **Advanced Find** menu. The list appears.
 
 7. Select Edit Columns from the **Advanced Find** menu. The **Edit Columns** dialog opens.
