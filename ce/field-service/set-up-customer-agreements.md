@@ -79,7 +79,7 @@ Fill in your information. Use the handy tooltips as a guide.
 
 **Start & End dates** - define the duration of the agreement.
   
-**price list** - controls the price list populated on work orders and invoices generated from this agreement and effectively work order product, work order service, and invoice product and invoice service prices. It is recommended to add the relevant products and services to the price list with the agreed upon prices to the price list entered here. Because agreements typically involve negotiation, it is common to create a specific price list solely for this agreement. The price list on resulting work orders and invoices can be manually updated as needed.
+**Price list** - The price list on the agreement specifies the price of all products and services related to an agreement and controls the price list populated on work orders and invoices generated from this agreement. It is important to add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list. The price list on resulting work orders and invoices can be manually updated as needed.
 
 
 > [!div class="mx-imgBorder"]
@@ -106,7 +106,7 @@ Fill in your information to create the agreement schedule. Use the handy tooltip
 
 **Auto Generate Work Order** - set to **Yes** to have this agreement automatically generate work orders. The system will generate work orders on a rolling basis. Generated work orders will appear in the active work order view with a status of open-unscheduled. If set to **No**, you have to manually generate the work order for each schedule date.   
 
-**Generate Work Orders Day in Advance** - dictates how many days before the expected service date the work order will be generated. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare.
+**Generate Work Orders Day in Advance** - dictates how many days before the expected service date the work order will be generated. If you choose a large number of days in advance, you may have a lot of work orders just sitting there, but if you choose too few days in advance, you may not have time to prepare. If no value is entered, the work orders will be generated on the expected day of service (called a booking date) at the record generation time entered on the agreement. 
  
 **Work Order Type**, **Priority**, **Work Order Summary**, and **Work Location** entered here are passed down to resulting work orders.
 
@@ -146,6 +146,8 @@ You an also define custom dates work orders should be performed if a pattern doe
 **End Date Behavoir** - entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** implies the work orders should be generated until the agreement end date.
 
 **Save**
+
+**Pro Tip:** A single agreement can have numerous agreement schedules (agreement booking setups). As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
 
 ### Step 3: Add agreement work details
 
@@ -199,7 +201,7 @@ You also have the ability to manually generate work orders for each booking date
 
 If you decided to have the agreement Auto Generate Bookings, the work orders will be scheduled to the preferred resource when the work orders are generated.
 
-### Step 5: Perform agreement work order
+### Step 5: Perform agreement work orders
 
 As work orders are generated, they will appear among other work orders in the Active Work Orders view. 
 
@@ -208,6 +210,8 @@ The generated work orders will have all the details specified on the agreement s
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-work-order-summary.png)
+
+Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions. 
 
 A lookup to the agreement will also be noted in the Settings section.
 
@@ -280,6 +284,8 @@ Once the agreement is active, agreement invoice dates will generate not immediat
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/agreement-invoice-dates-generated.png)
 
+It is not possible to manually generate agreement invoices like you can with agreement work orders.
+
 Within Field Service Settings you can define how far in advance the system should generate agreement invoices dates and agreement invoices.
 
 > [!NOTE]
@@ -331,50 +337,33 @@ Even if you have an agreement generating invoices, agreement work orders will st
 
 ## Additional Notes
 
+- You can edit active agreements, the edits will update the agreement after a short time.
+- Editing the booking recurrence of an active agreement will update booking dates asynchronously.  
+- If Auto Generate Work Order is set to No but Auto Generate Booking is set to Yes, then the booking wil automatically be created once the work order is manually generated from the booking date. 
+- An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
+- In scenarios where you want to utilize agreements solely for invoice generation and not for work order generation, consider using the quote entity part of the field service solution that has similar capabilities. 
+- Agreements work seamlessly with Dynamics 365 for Sales lead-opportunity-quote-order process. This is achieved by:  
+  - Categorizing a lead as a service-maintenance lead
+  - adding opportunity lines with service based lines
+  - creating quote lines as service based lines and adding a quote booking setup  
 
-location/account an agreement can only be for a single location - yes
+- The **Copy Incident Items to Agreement** field during the incident type setup is important for 2 reasons:
 
-agreements work with the sales opp quote order process. 
-- service-maintenance based lead
-- opportunity > opportunity lines with service based lines > monthly maintenance and start and end date 
-- (can go straight to quote) quote > quote lines (service based lines) > quote booking setup > won > order > active agreement
+  1. The incident you would like to add to an agreement may be slightly different than the incident you would add to a single work order that's not part of an agreement. For example, normally the incident would require 1 hour of a service, but for the agreement, you negotiated with the customer 2 hours of a service. Rather than having to create a second incident type just for this agreement, you can set **Copy Incident Items to Agreement** to **No**, add the incident to the agreement, then manually add the specific service tasks, product, services, and so on. This way you can use the same incident type, which helps for reporting later on. Set this option to **Yes** and the incident items will be added to the agreement and you can accept these items or make slight variations from there. 
 
-if no number is entered, when will invoices be generated? day of at record generation
+If set to **Yes**, agreement items will be created.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an agreement booking setup record, on the Services tab, with a listed service](./media/work-order-incident-types-copy-incident-agreement-YES.PNG)
 
-if no number is entered, when will work orders be generated? day of at record generation
-
-
-if generate WO is no and generate booking is yes, booking will happen when WO is generated.
-
-copy incident items to agreement -   There is a field on the incident type record called **Copy incident item to agreement** and if marked **Yes**, then when you link the incident to the agreement booking setup then all service task, products, and services that are associated with the incident will be copied to agreement booking setup. If you need to make changes to service tasks, products, or services you can do so from the service task, product, and services section within the agreement booking setup record. This information is automatically copied over to any work order that is created for the agreement booking setup. If copy incident item to agreement is marked, **No** then the information is not copied over from the agreement booking setup but rather when work orders are created the service tasks, products, and services will inherited directly from the incident type service task, products, and services.  
-
- when are items copied to agreements? on add or on activate? looks like on add. what about when no? asynchronous 
-
-changing booking recurrence will update booking dates  
-
-what can you do after activating an agreement?
-
-quote invoice as a substitute for agreement invoices
-
-you cannot manually generate agreement invoices like you can with agreement work orders
-
-
-can pick an incidet type with requirement groups for an agreemnt
-
- 
-
-**Tips**:  
-  
--   A single agreement can have numerous agreement schedules. As an example, you may create an agreement schedule called "Weekly Visits" that creates work orders every week with specified incidents, products, services, and service tasks. Additionally, within the same agreement, you may have another agreement scheduled titled "Monthly Visits" that creates work orders every month with different incidents, products, services, and service tasks.  
-  
--   The price list on the agreement specifies the price of all products and services related to an agreement. It is important to add all products and services that will be used during the agreement to the agreement price list. Agreements usually contain a negotiated price for goods and services that are usually reflected in an entirely new price list.  
-  
--   Though the agreement provides a framework to generate work orders, details can still be edited at the work-order level. As an example, though a work order may be generated from an agreement, more products and services can be added to the work order "ad hoc", and other details, such as price list and work order type, can be changed, assuming sufficient permissions.  
-
+  If set to **No**, they will not.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/agreement-active-booking-dates-details-work-order.png)
-  
+> ![Screenshot of Screenshot of an agreement booking setup record, on the Services tab, with no listed services](./media/work-order-incident-types-copy-incident-agreement-NO.PNG)
+
+  2. Incidents can be added to agreements for recurring work. This means agreements will generate work orders with predefined work order incidents attached. However, as mentioned earlier in this topic, incidents can be edited as processes and procedures change. But agreements can span multiple months and even years, so should the agreement use the original incident type at the time of agreement creation, or use the latest changes to the incident type? This could result in different work being performed than originally intended at the end of the agreement. Set to **Yes** if the incident should remain the same throughout the agreement life span by copying the incident details to the agreement at the time of agreement activation. Set to **No** if the work orders generated from the agreement should grab the latest incident type details when the work orders are generated from the agreement, which is generally at an ongoing basis depending on the **Generate Work Orders X Days In Advance** field on **Agreement Booking Setup**. 
+  3. Items are copied to the agreement when they are added to the agreement even if the agreement has an estimate status.
+
+
 ### See also   
 
 [Add account details to work orders](work-order-customer-account.md)
