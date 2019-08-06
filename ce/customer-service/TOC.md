@@ -70,6 +70,9 @@
 ### Work with settings
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
+### Migrate
+#### [Introduction](introduction-migration-entity-records.md)
+#### [Migrate entity records](migrate-entity-records.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 ### Developer Guide
 #### [Migrate Service Activity entity](migrate-service-activity-entity.md)
