@@ -68,7 +68,7 @@ When updates are downloaded, you can check to see if mobile offline is available
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
 
-
+<\br></br>
 
 **Offline Status** tracks the offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
 
