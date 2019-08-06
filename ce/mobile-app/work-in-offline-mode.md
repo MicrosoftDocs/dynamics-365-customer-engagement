@@ -33,7 +33,8 @@ Work with your data in offline mode when you do not have internet access. The Dy
 
 ## Download updates to work in offline mode
 
-When your admin has enabled mobile offline, the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
+When your admin has [enabled mobile offline](setup-mobile-offline-for-admin.md
+), the next time you access the mobile app, you will be prompted to download offline updates. Once you download the updates, you can start using the mobile app in offline mode.
 
 - When you see the the dialog box that asks you to download updates to work offline, choose **Update**. 
 
@@ -44,7 +45,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 ### Manually download updates
 
-1. To manually download the updates, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
+1. To manually download updates, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
 
     > [!div class="mx-imgBorder"] 
     > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
