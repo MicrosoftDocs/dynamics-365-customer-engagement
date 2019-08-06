@@ -20,11 +20,11 @@ search.app:
   - D365CS
 ---
 
-# Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement apps version 9.0
+# Upgrade to Customer Service Hub
 
 The Interactive Service hub was introduced with [!INCLUDE[](../includes/pn-crm-8-1-0-online.md)] and Dynamics CRM 2016 as a reimagined customer service app. Interactive Service hub offered a web-based client designed to simplify daily tasks for customer service representatives and managers. It had new components and page-types, like interactive dashboards, interactive forms, and reference panel control. 
 
-The Interactive Service hub's intuitive interface combined vital information in one place and allowed customer service Rrepresentatives to prioritize work and be more productive, but there were certain limits to extending it. The new Customer Service Hub offers greater flexibility and improved controls and extensibility.
+The Interactive Service hub's intuitive interface combined vital information in one place and allowed customer service representatives to prioritize work and be more productive, but there were certain limits to extending it. The new Customer Service Hub offers greater flexibility and improved controls and extensibility.
 
 ## Introduction to the Customer Service Hub app
 
@@ -47,6 +47,9 @@ Before you upgrade, it is important to note that once you upgrade to Customer Se
 - Read about the [customer-driven update](https://blogs.msdn.microsoft.com/crm/2018/01/12/scheduling-your-dynamics-365-organization-for-microsoft-dynamics-365-online-version-9-0-update/) process and schedule a suitable time for the upgrade.
 
 The next sections describe notable upgrade-specific changes, general customization, and user experience changes in Dynamics 365 for Customer Engagement apps version 9.0.
+
+> [!Note]
+> If you use Customer Service Hub app 9.0.1902.4064 or a lower version and want to upgrade to the latest version, then you must go to Microsoft admin center and install the **Customer Service Hub** solution. Selecting install will only update the Customer Service Hub app to the latest version as an older version is already present in your environment.
 
 ## Convert Interactive experience forms to Main forms
 Like Dynamics 365 for Customer Engagement web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to [!include[](../includes/pn-crm-9-0-0-online.md)], and will import any solution into [!include[](../includes/pn-crm-9-0-0-online.md)] and later. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
