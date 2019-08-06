@@ -1,17 +1,17 @@
 ---
 title: "Migrate entity records (Dynamics 365 for Customer Service) | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 for Customer Service"
-author: anjgupta
+author: kabala123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+ms.author: kabala
 manager: shujoshi
 ms.date: 08/07/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
-ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
+ms.assetid: FB1D8DDE-AADD-4249-A011-1BA02CEE7B0D
 search.audienceType: 
   - admin
   - customizer
@@ -27,20 +27,19 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
 1. Sign in to Dynamics 365 for Customer Engagement apps with Administrator or System Customizer role privileges.
 
-
 2. Select the **Customer Service Hub** app.
 
 3. Select **Scheduling** from **Change area**.
 
 4. Select **Data Migration** under the Tools section.
 
-    ![](media/.png "")
+    ![Data Migration](media/data-migration.png "Data Migration")
 
 5. Select a date for the **Start Date** and **End Date** fields. The data migration tool migrates all configuration and service activities data that falls in the specified date range.
 
 6. View the number of records for each entity available for the migration and select **Start Migration**.
 
-    ![](media/.png "")
+    ![Migrate data](media/migrate-data.png "Migrate data")
 
     > [!Note]
     > - The migration tool doesn’t consider the records whose status is marked as Ignore. To learn more, see [Understand migration status](#understand-migration-status).
@@ -51,7 +50,7 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
     As you begin migration, you can view the number of entity records migrated in the grid. Select the **Refresh** button to refresh the grid and view the updated status of the migration. If the migration is successful, you see a message stating, **Migration is Successful**.
 
-    ![](media/.png "")
+    ![Migration is successful](media/migration-successful.png "Migration is successful")
 
     > [!Note]
     > - After you’ve migrated an entity record, if you update the record in the legacy service scheduling, the difference of update can’t be migrated using the tool. You must manually update the changes in the new service scheduling experience.
@@ -60,14 +59,14 @@ Follow these steps to migrate entity records from legacy scheduling experience t
 
     The page shows the number of records that are migrated and failed.
 
+    ![Migration in progress](media/migration-inprogress.png "Migration in progress")
+
     If the migration of certain entity records fails, then the Migration status is displayed with a message stating the migration for one or more records or entities has failed.
 
     Select **Retry Migration** to try again the migration for the failed entity records.
 
-    ![](media/.png "")
-
     > [!Note]
-    > In case of retry scenario, the migration tool shows the number of records that need to be migrated in that retry scenario of migration. <br><br> ![](media/.png "")
+    > In case of retry scenario, the migration tool shows the number of records that need to be migrated in that retry scenario of migration. <br><br> ![Migration retry scenario](media/migration-partial-success.png "Migration retry scenario")
 
 ## Understand migration status
 

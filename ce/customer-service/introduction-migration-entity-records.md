@@ -1,17 +1,17 @@
 ---
 title: "Introduction to migration of entity records (Dynamics 365 for Customer Service) | MicrosoftDocs"
 description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 for Customer Service"
-author: anjgupta
+author: kabala123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-ms.author: anjgup
+ms.author: kabala
 manager: shujoshi
 ms.date: 08/07/2019
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: dyn365-customerservice
-ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
+ms.assetid: 2DCAB60C-A152-49CB-B1E2-0E6CE41821DD
 search.audienceType: 
   - admin
   - customizer
@@ -67,7 +67,7 @@ Once you receive the email, you need to install the solution from the Microsoft 
 
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
 
-    ![](media/.png "")
+    ![Microsoft Admin Center](media/microsoft-365-admin-center-dynamics-csh.png "Microsoft Admin Center")
 
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down.
 
