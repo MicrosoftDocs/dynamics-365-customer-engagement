@@ -50,6 +50,8 @@ Organizations can create a model and visualize their sales territories in a hier
 
       > [!Important]
       > You can’t allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
+        
+      d.  **Parent**. Select the Lookup icon to select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories California and Washington, and you can add United States of America as a parent so that a parent-child relationship is created between the sales territories and parent territory. 
       
       c.	**Description**. Enter any details that you’d like to include for this territory, for example, “Sales territory created for education and training.”
 
