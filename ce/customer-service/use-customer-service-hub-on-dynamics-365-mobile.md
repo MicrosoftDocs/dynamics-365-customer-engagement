@@ -26,7 +26,7 @@ Access your Customer Service Hub data while you’re on the go using Dynamics 36
 
 The Customer Service Hub app works the same whether you’re using it on your mobile device or using it on a web browser on your computer.
 
-Before you can start using the app, you need to install the Dynamics 365 for Customer Engagement mobile app on your device. 
+Before you can start using the app, you need to install the Dynamics 365 for Customer Engagement mobile app on your device.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).
 
