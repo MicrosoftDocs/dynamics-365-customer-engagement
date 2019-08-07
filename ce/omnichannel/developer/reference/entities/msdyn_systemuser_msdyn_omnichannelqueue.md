@@ -13,7 +13,7 @@ manager: "shujoshi"
 ---
 # msdyn_systemuser_msdyn_omnichannelqueue Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 
 
@@ -24,7 +24,7 @@ manager: "shujoshi"
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_systemuser_msdyn_omnichannelqueueset<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_systemuser_msdyn_omnichannelqueueset<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
 ## Entity Properties
 
@@ -113,7 +113,5 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_systemuser_msdyn_omnichannelqueue?text=msdyn_systemuser_msdyn_omnichannelqueue EntityType" />
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
