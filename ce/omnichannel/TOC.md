@@ -173,7 +173,7 @@
 ### [Send authentication token](developer/how-to/send-auth-token-starting-chat.md)
 ### [Initiate a chat](developer/how-to/initiate-chat-wait-time.md)
 ### [Enable a bot to escalate and end conversation](developer/bot-escalate-end-conversation.md)
-### [Auto-close a conversation](developer/auto-close-conversation.md)
+### [Automatic closure of a conversation](developer/auto-close-conversation.md)
 ### Entity reference
 #### [msdyn_analytics](developer/reference/entities/msdyn_analytics.md)
 #### [msdyn_authenticationsettings](developer/reference/entities/msdyn_authenticationsettings.md)
