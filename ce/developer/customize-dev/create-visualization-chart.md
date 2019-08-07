@@ -22,8 +22,6 @@ search.app:
 ---
 # Create a visualization (chart)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 To create a visualization programmatically, you must create a record for the [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md) or [UserQueryVisualization Entity](../entities/userqueryvisualization.md) entity to create an organization-owned or user-owned chart respectively. This topic shows how to create a chart visualization and a web resource visualization.  
   
 <a name="Before"></a>   

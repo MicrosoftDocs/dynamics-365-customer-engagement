@@ -16,8 +16,6 @@ search.app:
 ---
 # EntitlementTemplate Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Contains predefined customer support terms that can be used to created entitlements for customers.
 
 **Added by**: Service Solution

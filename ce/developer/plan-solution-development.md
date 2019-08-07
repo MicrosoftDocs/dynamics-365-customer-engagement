@@ -26,8 +26,6 @@ search.app:
 ---
 # Plan for solution development
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Solutions introduce factors to take into consideration during your planning. The topics in this section introduce strategies to use while planning your solution development efforts.  
   
 ## See also

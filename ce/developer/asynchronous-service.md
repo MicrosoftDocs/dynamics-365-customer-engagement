@@ -22,8 +22,6 @@ search.app:
 ---
 # Asynchronous service in Dynamics 365 for Customer Engagement
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The asynchronous service executes long-running operations independent of the main 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps core operation. 
 This results in improved overall system performance and improved scalability. The asynchronous service features a managed queue for the execution of 

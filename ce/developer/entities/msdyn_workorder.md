@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_workorder Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Work orders store all information about the job performed for an account. Stores incident details, resource, expenses, tasks, communications, billing and more
 
 **Added by**: Field Service Solution

@@ -23,8 +23,6 @@ search.app:
 
 # Create solutions that support multiple languages
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
   
 |Tactic|Solution component type|  

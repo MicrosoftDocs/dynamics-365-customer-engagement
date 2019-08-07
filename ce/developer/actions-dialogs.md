@@ -24,8 +24,6 @@ search.app:
 ---
 # Actions on dialogs
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes the actions you can perform on dialogs.
 
 > [!IMPORTANT]

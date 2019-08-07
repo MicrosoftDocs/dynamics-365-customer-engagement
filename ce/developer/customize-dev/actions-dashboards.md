@@ -22,8 +22,6 @@ search.app:
 ---
 # Actions on dashboards
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 You can perform actions such as create, retrieve, update, or delete, on organization-owned and user-owned dashboards.  
   
 ## Actions on an Organization-Owned Dashboard  

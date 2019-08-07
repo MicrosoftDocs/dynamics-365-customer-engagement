@@ -22,8 +22,6 @@ search.app:
 
 # Resources for iOS mobile application development
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the following resources for developing mobile apps for iOS platform that leverage the extensibility features of Microsoft Dynamics 365 for Customer Engagement apps:
 
 ## iOS Mobile SDK Library

@@ -23,8 +23,6 @@ search.app:
 ---
 # Entity attribute metadata messages
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 An entity attribute is a container for a piece of data in an entity. In this developer guide, the term “attribute” and “property” (class property) are often used interchangeably with the term “entity attribute.” The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application uses the term “field” when it refers to entity attributes.  
 
 > [!NOTE]

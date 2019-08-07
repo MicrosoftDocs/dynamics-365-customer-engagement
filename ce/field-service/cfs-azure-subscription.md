@@ -31,7 +31,7 @@ search.app:
 
 When deploying and administering Connected Field Service (CFS) with IoTHub, there are a few considerations and prerequisites for your Azure subscription. 
 
-## Prerequesites 
+## Prerequisites 
 
 1.  CFS with IoTHub can only be deployed and administered to one Azure tenant, which should be the home (first) Azure tenant tied to your credentials.
 

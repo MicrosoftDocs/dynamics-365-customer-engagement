@@ -17,7 +17,7 @@ caps.latest.revision: 37
 ---
 # Install Dynamics 365 Report Authoring Extension
 
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)] <br/> [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
  Dynamics 365 Report Authoring Extension is required to create and customize fetch-based reports by using [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] - Business Intelligence, an authoring environment for [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. More information: [Microsoft Dynamics 365 reporting requirements](../on-premises/microsoft-dynamics-365-reporting-requirements.md)  
   

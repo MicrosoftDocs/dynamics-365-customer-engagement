@@ -25,8 +25,6 @@ search.app:
 ---
 # Service entities in Dynamics 365 for Customer Engagement
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The entities described in this section are targeted at the customer service department of an organization.  
   
 > [!NOTE]

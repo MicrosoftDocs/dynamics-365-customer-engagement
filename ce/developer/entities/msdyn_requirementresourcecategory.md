@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_requirementresourcecategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Requirement Resource Category
 
 **Added by**: Universal Resource Scheduling Solution

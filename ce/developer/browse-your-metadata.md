@@ -25,8 +25,6 @@ search.app:
 
 # Browse the metadata for your organization
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can use the Entity Metadata Browser to view entities and their properties in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The Entity Metadata Browser is a managed solution you can download using the links below.
 
 

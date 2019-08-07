@@ -21,8 +21,6 @@ search.app:
 ---
 # Web API Helper code: Authentication class
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the `Authentication` class to assist in establishing a validated connection to a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web service. This class supports two authentication protocols: [Windows Authentication](https://docs.microsoft.com/en-us/windows-server/security/windows-authentication/windows-authentication-overview) for Dynamics 365 for Customer Engagement apps on-premises or [OAuth 2.0](http://oauth.net/2/) for Dynamics 365 for Customer Engagement apps (online) or internet-facing deployments (IFDs). This class relies upon the Microsoft Azure Active Directory Authentication Library ([ADAL](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet)) to handle the OAuth protocol.  
   
  The `Authentication` class is located in the file Authentication.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/). It is designed to work in conjunction with the `Configuration` helper class  hierarchy to enable you to establish a secure connection to your Dynamics 365 for Customer Engagement service through an object of type System.Net.Http.[HttpMessageHandler](https://msdn.microsoft.com/library/hh138091\(v=vs.110\).aspx). For more information, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  

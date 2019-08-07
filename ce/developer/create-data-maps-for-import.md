@@ -21,8 +21,6 @@ search.app:
 ---
 # Create data maps for import
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 To import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must provide the appropriate data maps.  
   
  You can download examples of data maps from [Microsoft Downloads: DataImportMaps.zip](http://download.microsoft.com/download/D/5/F/D5F73E15-439B-4EBC-BFFB-C6837B146C76/DataImportMaps.zip).

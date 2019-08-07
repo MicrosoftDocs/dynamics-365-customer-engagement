@@ -24,8 +24,6 @@ search.app:
 ---
 # CSS web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use cascading style sheet (CSS) web resources to create style sheets for use in webpage web resources.  
   
 ## Capabilities of CSS web resources  

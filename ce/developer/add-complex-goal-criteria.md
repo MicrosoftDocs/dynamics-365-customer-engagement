@@ -30,8 +30,6 @@ search.app:
 ---
 # Add complex goal criteria
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 If you want to add complex rollup criteria for a goal, you can use a rollup query (`GoalRollupQuery`) entity. For example, you can specify revenue for a particular product line or revenue generated in a specific territory.  
   
  A rollup query can be used by different goals. However, a rollup query associated with a particular goal, applies only to that goal. A rollup query specified for a parent goal does not propagate to the child goal. A child goal can use the same query or a different query. A rollup query should use the same entity types that are specified in the rollup field records associated with the goal. If the goal tracks the sales order revenues, but the associated query uses the opportunity entity, an exception is thrown when you create or update the goal record.  

@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 05/22/2019
+ms.date: 08/02/2019
 ms.service:
   - "crm-online"
 ms.topic: article
@@ -29,7 +29,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit 
 
 Here are the list of features available with this release:
 
-- **Customization of Opportunity Close form**: When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize the Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. 
+- **Customization of Opportunity Close form**: When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize the Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. More information: [Customize Opportunity Close form](customize-opportunity-close-experience.md)
 
 - **Enhancements to the adding or editing of Opportunity/Quote/Order/Invoice products experience**: The following enhancements are made to the experience of adding product line items to opportunity, quote, or invoice records:
     - Salespeople can add an existing product to an Opportunity, Quote, Order, and Invoice, with or without a price list.
@@ -37,13 +37,18 @@ Here are the list of features available with this release:
     - Salespeople can quickly view and edit properties for a product, even while editing Opportunity or Quote line items.
     - Administrators can use additional customization options on the price list item entity.
 
-- **Territory hierarchy**: A hierarchical relationship is available out-of-the-box on the Territory record type (entity). This will allow organizations to model and visualize their sales territories in a hierarchical format.
+More information: [Make selection of price list optional](make-price-list-optional.md)
+
+- **Business card scanner**: The integrated business card scanner will help sales people to scan business cards via mobile or web. The scanner will analyze the card for relevant information and automatically update respective fields in Dynamics 365 for Sales. The feature also supports configuration, allowing users to select alternative fields to populate. More information: [Scan business cards](scan-business-cards.md)
+
+- **Territory hierarchy**: A hierarchical relationship is available out-of-the-box on the Territory record type (entity). This will allow organizations to model and visualize their sales territories in a hierarchical format. More information: [Set up sales territories to organize business markets by geographical area](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 
 - **Enhancements to lead management experience**: The following enhancements are made to the experience of managing leads in Dynamics 365 for Sales:
     - Contact and company-related fields are automatically filled in when a sales rep selects an existing contact or account while creating a new lead.
     - When a lead is qualified to an opportunity, notes and attachments captured by a sales rep are displayed in the opportunity record.
     - Sales reps get an option to create an opportnity, account, or contact when they qualify leads based on the organization-level settings configured by the admin for the lead creation experience.  
 
+More information: [Define lead qualification experience](define-lead-qualification-experience.md)
 
 ## Dynamics 365 for Sales, May 2019 release
 
