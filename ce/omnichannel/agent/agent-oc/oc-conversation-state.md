@@ -57,9 +57,6 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Chat and SMS |
 | Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
 | Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation and you are no longer getting reply, you can close the session without ending the conversation. This will keep conversation in waiting state. |   Chat and SMS |
-<!--| Active        | In-progress      | When you close the session with conversation in active state.  | SMS  | 
-| Active        | Closed           | When you complete working on the conversation and end the conversation and close the session.| Chat |
--->
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](../../media/oc-conversation-active.png "Active state")
 
@@ -88,16 +85,6 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period. | Chat and SMS |
 
 ![Transition from waiting to closed, active, or open state](../../media/oc-conversation-waiting.png "Waiting state")
-
-<!-- ## In-progress
-
-The session that you close while conversation is still in active state are classified under **In-progress** state.
-
-| From state | To state | Scenario  | Type (SMS, Chat, Entity Routing, Conversation Channels) |
-|---------------|------------------|---------------------------------------------------------|------------|
-| In-progress   | Closed           | When you don't perform any action, then then conversation auto-closes after the inactivity timeout. | SMS |
-
-![Transition from in-progress to closed state](../../media/oc-conversation-in-progress.png "In-progress state") -->
 
 ## Closed
 
