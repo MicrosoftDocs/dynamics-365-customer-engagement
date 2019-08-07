@@ -895,7 +895,5 @@ See msdyn_omnichannelqueue Entity [msdyn_omnichannelqueue_ocruleitem](msdyn_omni
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
-[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_ocruleitem?text=msdyn_ocruleitem EntityType" />
+[Introduction to Omnichannel for Customer Service](../../../introduction-omnichannel.md)<br />
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
