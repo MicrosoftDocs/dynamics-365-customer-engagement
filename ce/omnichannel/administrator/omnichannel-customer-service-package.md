@@ -48,7 +48,7 @@ Use this sample package if you want to start using a new Unified Service Desk en
 
 ## Unified Service Desk - Omnichannel for Customer Service - Upgrade
 
-Use this package if you are deployed any of the following packages, and want to upgrade to the latest version:
+Use this package if you'veUpd deployed any of the following packages, and want to upgrade to the latest version:
 
 - **Unified Service Desk - Omnichannel for Customer Service - Add-on**
 - **Unified Service Desk - Omnichannel for Customer Service** with customizations
