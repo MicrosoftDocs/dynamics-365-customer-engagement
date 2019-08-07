@@ -1,0 +1,119 @@
+---
+title: "msdyn_systemuser_msdyn_omnichannelqueue Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_systemuser_msdyn_omnichannelqueue entity."
+ms.date: 08/07/2019
+ms.service: "crm-online"
+ms.topic: "reference"
+applies_to: 
+  - "Dynamics 365 (online)"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
+author: "susikka"
+ms.author: "susikka"
+manager: "shujoshi"
+---
+# msdyn_systemuser_msdyn_omnichannelqueue Entity Reference
+
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+
+
+**Added by**: Omnichannel – Base Solution
+
+
+## Messages
+
+|Message|Web API Operation|SDK Assembly|
+|-|-|-|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_systemuser_msdyn_omnichannelqueueset<br />See [Query Data](../webapi/query-data-web-api.md)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+
+## Entity Properties
+
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName||
+|DisplayCollectionName||
+|DisplayName||
+|EntitySetName|msdyn_systemuser_msdyn_omnichannelqueueset|
+|IsBPFEntity|False|
+|LogicalCollectionName||
+|LogicalName|msdyn_systemuser_msdyn_omnichannelqueue|
+|OwnershipType|None|
+|PrimaryIdAttribute|msdyn_systemuser_msdyn_omnichannelqueueid|
+|PrimaryNameAttribute||
+|SchemaName|msdyn_systemuser_msdyn_omnichannelqueue|
+
+<a name="read-only-attributes"></a>
+
+## Read-only attributes
+
+These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+
+- [msdyn_omnichannelqueueid](#BKMK_msdyn_omnichannelqueueid)
+- [msdyn_systemuser_msdyn_omnichannelqueueId](#BKMK_msdyn_systemuser_msdyn_omnichannelqueueId)
+- [systemuserid](#BKMK_systemuserid)
+- [VersionNumber](#BKMK_VersionNumber)
+
+
+### <a name="BKMK_msdyn_omnichannelqueueid"></a> msdyn_omnichannelqueueid
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_omnichannelqueueid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_systemuser_msdyn_omnichannelqueueId"></a> msdyn_systemuser_msdyn_omnichannelqueueId
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_systemuser_msdyn_omnichannelqueueid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_systemuserid"></a> systemuserid
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|systemuserid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_VersionNumber"></a> VersionNumber
+
+**Added by**: Active Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
+
+
+
+### See also
+
+[About the Entity Reference](../about-entity-reference.md)<br />
+[Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
+<xref href="Microsoft.Dynamics.CRM.msdyn_systemuser_msdyn_omnichannelqueue?text=msdyn_systemuser_msdyn_omnichannelqueue EntityType" />
