@@ -1,6 +1,6 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 for Customer Engagement forms | Microsoft Docs
-description: Know how to add the Knowledge Base Search control to Dynamics 365 for Customer Engagement forms in Microsoft Dynamics 365 for Customer Engagement
+description: Know how to add the Knowledge Base Search control to Dynamics 365 for Customer Engagement forms in Microsoft Dynamics 365 for Customer Engagement.
 keywords: Knowledge base search control; Customer service; Customer Service Hub; Dynamics 365 for Customer Engagement; Add the Knowledge Base Search control to Main forms;
 author: anjgupta
 ms.author: anjgup
@@ -32,7 +32,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
   
 - Define filters that users can use on search results.  
   
-- Choose from a set of predefined contextual actions the users can take on an article  
+- Choose from a set of predefined contextual actions the users can take on an article.  
   
 - Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and custom entities. The control is enabled in the case entity out of the box, and is added to the following forms:
    - Case main form -  In the **Activity wall** section 
