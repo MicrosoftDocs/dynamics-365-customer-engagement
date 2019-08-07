@@ -2,9 +2,9 @@
 title: Upgrade from Interactive Service Hub to the Customer Service Hub app | Microsoft Docs
 description: Understand the upgrade path from Interactive Service Hub to the Customer Service Hub application
 keywords: Customer Service Hub; Interactive service hub; Upgrade from Interactive Service hub to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement apps version 9.0
-author: anjgupta
+author: kabala123
 applies_to: Dynamics 365 for Customer Engagement
-ms.author: anjgup
+ms.author: kabala
 manager: shujoshi
 ms.date: 07/12/2018
 ms.topic: article
