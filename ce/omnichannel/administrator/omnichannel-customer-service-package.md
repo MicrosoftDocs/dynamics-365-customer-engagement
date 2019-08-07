@@ -68,7 +68,7 @@ Use this sample package if you want to start using a new Unified Service Desk en
 
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer).
 
-<!-- ## Upgrade Omnichannel for Customer Service package
+## Upgrade Omnichannel for Customer Service package
 
 1. Run the **PackageDeployer.exe** file.
 
@@ -84,7 +84,7 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 7. A confirmation message is displayed on successful deployment of the package. Select **Next**.
 
-8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool. -->
+8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool.
 
 ## Delete Unified Service Desk - Omnichannel for Customer Service package
 
