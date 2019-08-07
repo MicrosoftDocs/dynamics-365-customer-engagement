@@ -49,7 +49,9 @@ Before you upgrade, it is important to note that once you upgrade to Customer Se
 The next sections describe notable upgrade-specific changes, general customization, and user experience changes in Dynamics 365 for Customer Engagement apps version 9.0.
 
 > [!Note]
-> If you use Customer Service Hub app 9.0.1902.4064 or a lower version and want to upgrade to the latest version, then you must go to Microsoft admin center and install the **Customer Service Hub** solution. Selecting install will only update the Customer Service Hub app to the latest version as an older version is already present in your environment.
+> - If you use Customer Service Hub app 9.0.1902.4064 or a lower version and want to upgrade to the latest version, then you must go to Microsoft admin center and install the **Customer Service Hub** solution.
+>
+> - When you select the **Install** button, the Customer Service Hub app upgrades to the latest version, and it doesn't install as an older version is already present in your environment.
 
 ## Convert Interactive experience forms to Main forms
 Like Dynamics 365 for Customer Engagement web client, the Customer Service Hub app on Unified Interface uses Main forms. Any existing Interactive experience forms—both out-of-the-box and custom, will be modified and converted to Main forms when you upgrade to [!include[](../includes/pn-crm-9-0-0-online.md)], and will import any solution into [!include[](../includes/pn-crm-9-0-0-online.md)] and later. This change doesn't affect functionality, the form XML will largely remain the same except for a few changes in properties, shown below.
