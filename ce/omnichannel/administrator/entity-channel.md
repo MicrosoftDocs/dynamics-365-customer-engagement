@@ -133,12 +133,12 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 
 | Component | Modification recommendation |
 |-----------------------------------|-----------------------------------|
-| When the record is created |  |
-| Initialization | Do not modify |
-| Workstream Initialization | Do not modify |
-| Current record | Do not modify |
-| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams |
-| Invoke Omnichannel | Do not modify |
+| When the record is created | No need to modify. However, you can extend it for custom scenarios. |
+| Initialization | Do not modify. |
+| Workstream Initialization | Do not modify. |
+| Current record | Do not modify. |
+| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams. |
+| Invoke Omnichannel | Do not modify. |
 
 ### Update work distribution flow
 
@@ -164,44 +164,48 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
     > [!div class=mx-imgBorder] 
     > ![Select the Edit button](../media/case-work-distribution-flow4.png "Edit the Cases Work Distribution Flow")
 
-6. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
+6. Select the flow component that shows the warning icon, and select **+ Add new connection** to resolve the warning. The flow component uses the current user credentials and resolves the warning.
+
+    ![Resolve flow warning](../media/flow-error1.png "Resolve flow warning")
+
+7. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
 
     > [!div class=mx-imgBorder] 
     > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
 
-7. Select the search box to add a rule. A flyout control appears. Type a rule name in the search box. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
+8. Select the search box to add a rule. A flyout control appears. Type a rule name in the search box. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
     > [!div class=mx-imgBorder] 
     > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
 
-8. Select a condition from the list. For example, **is equal to**.
+9. Select a condition from the list. For example, **is equal to**.
 
-9. Type the rule value in the field. For example, **1**.
+10. Type the rule value in the field. For example, **1**.
 
     > [!div class=mx-imgBorder] 
     > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
 
-10. Select the **Set variable 4** option under the **If yes** section.
+11. Select the **Set variable 4** option under the **If yes** section.
 
-11. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
+12. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
-    > If you update the name of the workstream, then you must perform the step 11. Otherwise the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream, then you must perform step 12. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-12. Select the **Set variable 5** option under the **If no** section.
+13. Select the **Set variable 5** option under the **If no** section.
 
-13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+14. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > If you update the name of the workstream, then you must perform the step 13. Otherwise the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream, then you must perform step 14. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
 
-14. Select **Save** to save **Cases Work Distribution Flow**.
+15. Select **Save** to save **Cases Work Distribution Flow**.
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
