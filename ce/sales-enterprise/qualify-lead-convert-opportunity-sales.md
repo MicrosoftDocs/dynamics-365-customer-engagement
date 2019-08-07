@@ -32,7 +32,8 @@ Your system administrator defines what happens to a lead when it is qualified:
 
 
 > [!IMPORTANT]
-> The capability to choose which records to create when a lead is qualified is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+> - The capability to choose which records to create when a lead is qualified is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
   
 
 ## Qualify a lead (Sales Hub)

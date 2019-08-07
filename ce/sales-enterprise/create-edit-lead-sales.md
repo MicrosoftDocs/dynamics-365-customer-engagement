@@ -46,8 +46,8 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
     -	When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
 
         > [!IMPORTANT]
-        >
-        > The feature of automatically populating relevant fields when an existing contact or account is selected is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+        > - The feature of automatically populating relevant fields when an existing contact or account is selected is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md). 
+        > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 
    > [!NOTE]

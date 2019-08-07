@@ -50,6 +50,10 @@ More information: [Make selection of price list optional](make-price-list-option
 
 More information: [Define lead qualification experience](define-lead-qualification-experience.md)
 
+> [!IMPORTANT]
+> - The features listed in this section are preview features. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+
 ## Dynamics 365 for Sales, May 2019 release
 
 With Dynamics 365 for Sales version 9.0.1905.2010 or later, users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
@@ -60,7 +64,7 @@ With Dynamics 365 for Sales version 9.0.1905.2010 or later, users will be able t
 Sales managers and sales people can use forecasting to project how much a sales team can sell or to estimate the revenue of the organization. Sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
 
     > [!IMPORTANT]
-    > This feature is currently in preview. To know more about the feature's availability in your country region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
+    > This feature is currently in preview. 
 
 - With Dynamics 365 for Sales (build 9.0.1903.4006), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported. Also, sales managers can associate necessary documents with playbook activities to provide additional contextual information to sales representatives working on a playbook.
 
