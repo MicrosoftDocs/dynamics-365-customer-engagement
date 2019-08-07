@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/06/2019
+ms.date: 08/07/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
