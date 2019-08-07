@@ -72,7 +72,7 @@
 #### [Schedule business closure](set-when-business-closed-csh.md)
 ### Migration tool
 #### [Introduction](introduction-migration-entity-records.md)
-#### [Migrate data using migration tool](migrate-entity-records.md)
+#### [Migrate entity records data using migration tool](migrate-entity-records.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 ### Developer Guide
 #### [Migrate Service Activity entity](migrate-service-activity-entity.md)
