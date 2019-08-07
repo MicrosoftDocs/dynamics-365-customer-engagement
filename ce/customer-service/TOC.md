@@ -10,7 +10,7 @@
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
-#### [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
+#### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
 
 ### Customer Service app
@@ -70,6 +70,9 @@
 ### Work with settings
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
+### Migration tool
+#### [Introduction](introduction-migration-entity-records.md)
+#### [Migrate entity records data using migration tool](migrate-entity-records.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 ### Developer Guide
 #### [Migrate Service Activity entity](migrate-service-activity-entity.md)
