@@ -22,7 +22,14 @@ ms.tgt_pltfrm:
 
 # Allow adding products without associated price list
 
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 When adding products to opportunities, quotes, orders, or invoices, at times, salespeople need to specify the product prices ad hoc. You can allow salespeople to add products without associating a price list first.
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 ## Make price list optional (Sales Hub)
 

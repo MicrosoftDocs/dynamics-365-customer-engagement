@@ -48,7 +48,8 @@ The process for adding a product to a quote record is the same as adding a produ
 
 
             > [!IMPORTANT]
-            > The capability to make the selection of a price list optional is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+            > - The capability to make the selection of a price list optional is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+            > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
         - To create a product, select **Write-In**, and then enter the name of the product.
 
