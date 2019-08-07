@@ -84,7 +84,7 @@ For more information on which entities support the collaborate option, see [Reco
        > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
        
  > [!NOTE]
- >  You will only see the next step only if are pinning a record and you are the owner of the Teams channel. If you are pinning a view  of Dynamics 365 for Customer Engagement apps records then you will not see the next step.
+ >  You will only see the next step only if you pin a record and you are the owner of the Teams channel. If you pin a view  of Dynamics 365 for Customer Engagement apps records, then you will not see the next step.
  
  5. If you are the owner of the Teams channel then you can add teammates to the channel. From the list, select the recommended members who either own the record or the record has been shared with them. You can also use the search option to find other teammates related to the record. When you are done, select **Finish**.
  
