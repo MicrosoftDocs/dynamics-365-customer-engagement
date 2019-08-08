@@ -118,9 +118,9 @@ For phones, portrait mode is set as the default screen orientation. For tablets,
 ### The navigation bar
 
 Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
-
-   > ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
-   > ![Nav Bar](media/NavBar_2.png "Nav Bar")
+ 
+  > [!div class="mx-imgBorder"] 
+  > ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
 ### Favorites and recently used records
 
