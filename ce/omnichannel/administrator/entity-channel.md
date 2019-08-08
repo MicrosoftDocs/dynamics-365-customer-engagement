@@ -71,7 +71,10 @@ The **Cases** entity record appears under the **Channels** in the Omnichannel fo
 
 ## Step 1: Create queues
 
-You must create queues or enable existing queues to, automatically route the cases to the queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+You must create a queue or enable existing queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+
+- If you deploy Omnichannel for Customer Service freshly, then you must create new queues.
+- If you are already using Omnichannel for Customer Service, then upgrade to the latest version, and create new a queue or enable existing a queue for automatic work distribution.
 
 ## Step 2: Create workstream for case routing
 
