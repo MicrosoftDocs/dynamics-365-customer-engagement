@@ -27,8 +27,10 @@ ms.tgt_pltfrm:
 To organize your company's product catalog better, you may want to change the parent of an existing product record so the child products inherit the appropriate product properties. You can change the parent of an existing product, bundle, or family to a new parent or delete an existing parent.
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+
 
 To change the parent of a product, bundle, or family, open the respective record, and in the **Parent** field, select the new parent record. To delete the parent, just remove the parent record from the **Parent** field.
 
