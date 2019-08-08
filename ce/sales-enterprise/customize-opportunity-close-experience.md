@@ -2,7 +2,7 @@
 title: "Preview: Customize the opportunity Close form (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields,"
-ms.date: 08/01/2019
+ms.date: 08/08/2019
 ms.service:
   - "dynamics-365-sales"
 ms.custom:
@@ -47,6 +47,13 @@ System administrators or customizers can use the **Opportunity Close** quick cre
 -   Customization of Opportunity Close Information form to view details of the closed opportunity
 
 -   Customization of views
+
+Any custom attribute added to the Opportunity Close form should be added to the Opportunity close entity. If the attribute added to the Opportunity Close form belongs to a different entity, it must be maintained in both the entities with a mapping of the attributes between the entities. After an Opportunity Close record is created, mapped attributes must be updated in the other entity records. Example: If Opportunity Close form needs to capture ‘Purchase process’, which belongs to the Opportunity entity, the attribute ‘Purchase process’ must be maintained in both Opportunity Close and Opportunity entities with a custom logic to keep the data synchronized between both the entities.  
+
+
+> [!NOTE]
+> You may see data consistency issues if the attribute value in Opportunity Close isn't synchronized with the main entity when an Opportunity is closed or if the attribute is updated in the main entity after the Opportunity was closed.
+
 
 ## Create custom fields for the Opportunity Close entity
 
