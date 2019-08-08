@@ -47,7 +47,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 ### Sign in with your email address
 
-1. To sign in using your work email address, enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
+1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
 ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
 
@@ -70,7 +70,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 
     ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
-2. Enter the URL for your Dynamics 365 Customer Engagement app, and select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter the URL for your Dynamics 365 Customer Engagement app, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
@@ -83,20 +83,20 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 ![Sign out](media/previewsignout.png "Sign out")
       
 
-## Sign in and sign out (Android users)
+### Sign in and sign out (Android users)
 
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
-1. Open the mobile app, enter your Dynamics 365 for Customer Engagement apps web address, and tap ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
+1. Open the mobile app, enter your Dynamics 365 for Customer Engagement apps web address, and then select ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
 
     ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
 
-2. Enter your user name and password, and tap **Sign in**.
+2. Enter your user name and password, and select **Sign in**.
 
 3. From the list of apps that you have access to, select the app that you want to use.
 
-### Sign out
+#### Sign out
 
 - From nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **User Information** > **Sign out**.
 
@@ -105,26 +105,15 @@ password. If you need help with your sign-in information, contact your Dynamics 
 
 ## Basic navigation
 
-1. When you sign in, you’ll see the MyApps page with all your apps listed. 
-2. Select the App that you want to work with.
-
-![Choose an app](media/ChooseAnApp.png "Choose an app")
-
-**Screen orientation**
-
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for phones and Dynamics 365 for tablets apps cannot be changed. 
 
-**The navigation bar**
+### The navigation bar
 
 Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
-**Get help while using the app**
-
-If you ever need help while you’re in the mobile app, on the nav bar tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis"), and then tap **Help**.
-
-**Favorites and recently used records**
+### Favorites and recently used records
 
 The Favorites and Recently Used sections provide quick access to your records, views, and dashboards. 
 
@@ -136,7 +125,7 @@ The Favorites and Recently Used sections provide quick access to your records, v
 
   ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
 
-**Switch apps**
+### Switch apps
 
 Go back to the MyApps pages and switch to a different app.
 
