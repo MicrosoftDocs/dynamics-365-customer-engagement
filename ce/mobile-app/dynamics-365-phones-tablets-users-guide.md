@@ -49,7 +49,8 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
-![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
+   > [!div class="mx-imgBorder"] 
+   >   ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
 
 2. From the list of apps that you have access to, select the app that you want to use.
 
@@ -59,7 +60,8 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 
 - From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
 
-![Sign out](media/signout1.png "Sign out")
+   > [!div class="mx-imgBorder"] 
+   > ![Sign out](media/signout1.png "Sign out")
 
 
 ### Sign in with your web address
@@ -68,19 +70,22 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 
 1. On the sign-in screen, select **Sign in with a web address instead**.
 
-    ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
+   > [!div class="mx-imgBorder"] 
+   > ![Enter user name and password address](media/userandpassword.png "Enter your user name and password"). 
 
 2. Enter the URL for your Dynamics 365 Customer Engagement app, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
 3. Enter your user name and password.
 4. From the list of apps that you have access to, select the app that you want to use.
 
-    ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
+   > [!div class="mx-imgBorder"] 
+   > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
 
 #### Sign out
 
 - From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
-![Sign out](media/previewsignout.png "Sign out")
+  > [!div class="mx-imgBorder"] 
+  > ![Sign out](media/previewsignout.png "Sign out")
       
 
 ### Sign in and sign out (Android users)
@@ -90,7 +95,8 @@ password. If you need help with your sign-in information, contact your Dynamics 
 
 1. Open the mobile app, enter your Dynamics 365 for Customer Engagement apps web address, and then select ![Dynamics 365 for phones and tablets continue sign](../mobile-app/media/mobile-signin-arrow.png "Dynamics 365 for phones and tablets continue sign").
 
-    ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
+   > [!div class="mx-imgBorder"] 
+   > ![Dynamics 365 for phones and tablets signing in screen](media/SignIn_1.png "Dynamics 365 for phones and tablets signing in screen") 
 
 2. Enter your user name and password, and select **Sign in**.
 
