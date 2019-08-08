@@ -64,14 +64,20 @@ The **Cases** entity record appears under the **Channels** in the Omnichannel fo
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| Step 1: Create works stream for case routing | You must create new workstreams to route the cases. To learn learn more, see [Create a case workstream](set-up-entity-workstream.md). |
-| Step 2: Create routing rules | You must create routing rules, to automatically distribute the cases to the agents. |
-| Step 3: Update Cases Work Distribution Flow | You must update the Cases Work Distribution Flow with the conditions, to automatically distribute the cases to the agents. The case distribution flow is the out-of-the-box Microsoft flow. |
-## Step 1: Create workstream for case routing
+| Step 1: Create queues | You must create new queues or enable the existing queues to route cases to the queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue). |
+| Step 2: Create works stream for case routing | You must create new workstreams to route the cases. To learn learn more, see [Create a case workstream](set-up-entity-workstream.md). |
+| Step 3: Create routing rules | You must create routing rules, to automatically distribute the cases to the agents. |
+| Step 4: Update Cases Work Distribution Flow | You must update the Cases Work Distribution Flow with the conditions, to automatically distribute the cases to the agents. The case distribution flow is the out-of-the-box Microsoft flow. |
+
+## Step 1: Create queues
+
+You must create queues or enable existing queues to, automatically route the cases to the queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+
+## Step 2: Create workstream for case routing
 
 You must create workstreams, to automatically route the cases to the agents. To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
 
-## Step 2: Create routing rules
+## Step 3: Create routing rules
 
 After creating the workstream for the cases, you must create the routing rules. 
 
@@ -130,7 +136,7 @@ After creating the workstream for the cases, you must create the routing rules.
 
 12. Select **Save** to save the rule item.
 
-## Step 3: Update cases work distribution flow
+## Step 4: Update cases work distribution flow
 
 After creating the routing rules for the cases workstream, you must update **Cases Work Distribution Flow**. The flow is provided out-of-the-box to, automatically distribute the cases to the agents.
 
@@ -220,3 +226,5 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 [Understand and create workstreams](work-streams-introduction.md)
 
 [Cases entity workstreams](set-up-entity-workstream.md)
+
+[Work with queues](queues-omnichannel.md)
