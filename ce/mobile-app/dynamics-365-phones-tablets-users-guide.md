@@ -128,9 +128,9 @@ The **Favorites** and **Recently Used** provides quick access to your records, v
 
 - To get to **Favorites** and **Recently Used**, select the menu button ![Menu button](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
 
-- To pin an item as a favorite, from the list of **Recently Used** items, selct the pin. This will move the item to **Favorites**.
+- To pin a record to favorites, from the list of **Recently Used** items, select the pin button. This will move the item to **Favorites**.
 
-- To unpin an item from **Favorites**, select the pin again.
+- To unpin an item, from the list of **Favorites**, select the pin button again.
 
    > [!div class="mx-imgBorder"] 
    > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
