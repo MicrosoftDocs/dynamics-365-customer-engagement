@@ -50,11 +50,12 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
    > [!div class="mx-imgBorder"] 
-   >   ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
+   > ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
 
 2. From the list of apps that you have access to, select the app that you want to use.
 
-    ![Select an app to use](media/openanapp.png "Select an app to use"). 
+   > [!div class="mx-imgBorder"] 
+   > ![Select an app to use](media/openanapp.png "Select an app to use"). 
         
 #### Sign out
 
