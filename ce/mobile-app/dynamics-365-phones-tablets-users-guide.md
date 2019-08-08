@@ -107,7 +107,8 @@ password. If you need help with your sign-in information, contact your Dynamics 
 
 - From nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **User Information** > **Sign out**.
 
-![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
+  > [!div class="mx-imgBorder"] 
+  > ![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
 
 
 ## Basic navigation
@@ -116,21 +117,23 @@ For phones, portrait mode is set as the default screen orientation. For tablets,
 
 ### The navigation bar
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
-![Nav Bar](media/NavBar_2.png "Nav Bar")
+   > ![Enter email address](media/previewsignin.png "Enter email address to sign-in in").
+   > ![Nav Bar](media/NavBar_2.png "Nav Bar")
 
 ### Favorites and recently used records
 
-The Favorites and Recently Used sections provide quick access to your records, views, and dashboards. 
+The **Favorites** and **Recently Used** provides quick access to your records, views, or dashboards that you have recently used or pinned to favorites.
 
-- To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.
+- To get to **Favorites** and **Recently Used**, select the menu button ![Menu button](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
 
-- To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to **Favorites**.
+- To pin an item as a favorite, from the list of **Recently Used** items, selct the pin. This will move the item to **Favorites**.
 
-- To unpin an item from **Favorites**, tap the pin again.
+- To unpin an item from **Favorites**, select the pin again.
 
-  ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
+   > [!div class="mx-imgBorder"] 
+   > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
 
 ### Switch apps
 
