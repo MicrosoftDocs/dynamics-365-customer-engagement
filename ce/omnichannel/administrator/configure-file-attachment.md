@@ -33,16 +33,36 @@ If an agent transfers the chat to another agent, the agent who receives the chat
     - **Enable file attachments for agents**: Allows your customer service agents to send a file to a customer during a conversation. By default, it is set to Yes.
 
     > [!div class=mx-imgBorder]
-    > ![File attachments](../media/file-attachment.png "File attachments")
+    > ![File attachments configuration](../media/file-attachment.png "File attachments configuration")
 
 ## Customer experience of attaching a file
 
-When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the Attach icon to send the file(s).
+When the file attachment capability is enabled for customers, the attachment icon is displayed in the chat widget. A customer can then use the **Attach** icon to send the file(s).
 
-`image`
+> [!div class=mx-imgBorder]
+> ![File attachment icon](../media/file-attach-icon.png "File attachment icon")
 
 If a customer tries to attach an unsupported file type , a file with the size more than the allowed limit , or a file with malicious content, the file is not uploaded and a corresponding error message is displayed. 
 
-`image`
+> [!div class=mx-imgBorder]
+> ![File attachment error](../media/file-attach-error.png "File attachment error")
 
+The file size limit for attachment and unsupported file types are defined in the Web Client. To configure the file size limit and unsupported file types:
 
+1. Open the Web Client and go to **Settings** > **Administration** > **System Settings**.
+
+2. In the **System Settings** window, go to the **Email** tab.
+
+3. In the **Maximum file size (in kilobytes)** field, enter the value in kilobytes.
+
+    > [!div class=mx-imgBorder]
+    > ![Set file size limit for attachment](../media/file-size-limit.png "Set file size limit for attachment")
+
+4. To specify unsupported file types, go to the **General** tab.
+
+5. In the **Set blocked file extensions for attachments field**, add or edit the file types.
+
+    > [!div class=mx-imgBorder]
+    > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
+
+6. Select **OK**.
