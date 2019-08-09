@@ -155,19 +155,20 @@ Dashboards give you an overview of valuable information. Select on the Home butt
 
 Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can select an area of a chart to get more info.
 
--   Select once on a chart section to see a tooltip that provides quick info about that area of the chart.
+- Select once on a chart section to see a tooltip that provides quick info about that area of the chart.
 
--   Select again on the same section to see a grid view with more details about the data in the chart.
-
+- Select again on the same section to see a grid view with more details about the data in the chart.
   
-    ![Record view of chart](../mobile-app/media/Recordview.png "Record view of chart") 
-       
+   > [!div class="mx-imgBorder"] 
+   > ![Record view of chart](../mobile-app/media/Recordview.png "Record view of chart") 
+      
  
-Changing the chart view shows you a different breakdown of your data, such as opportunities opened within a specific time period. You can change a chart view by selecting the View selector on the Grid page.
+- To change the chart view to show a different breakdown of your data, select the down arrow next to the name of the chart, and then select the chart that you want to view.
 
-![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
 
-For example, tap "All Opportunities", then select a different view, both chart and grid will get refreshed.
+  > [!div class="mx-imgBorder"] 
+  > ![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
+
 
 
                                                                                               
