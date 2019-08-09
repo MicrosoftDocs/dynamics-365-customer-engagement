@@ -111,11 +111,9 @@ password. If you need help with your sign-in information, contact your Dynamics 
   > ![Dynamics 365 for phones and tablets sign out screen](media/SignOut.png "Dynamics 365 for phones and tablets sign out screen")
 
 
-## Basic navigation
+## Navigation
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for Dynamics 365 for phones and Dynamics 365 for tablets apps cannot be changed. 
-
-### The navigation bar
 
 Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
  
