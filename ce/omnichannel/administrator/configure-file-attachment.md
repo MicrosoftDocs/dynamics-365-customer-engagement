@@ -42,11 +42,6 @@ When the file attachment capability is enabled for customers, the attachment ico
 > [!div class=mx-imgBorder]
 > ![File attachment icon](../media/file-attach-icon.png "File attachment icon")
 
-
-
-<!--what do you mean by "malicious content" - malicious code? hateful messages? -->
-
-
 If a customer tries to attach an unsupported file type, a file larger than the allowed size limit, or a file with malicious content, the file is not uploaded and a corresponding error message is displayed. 
 
 > [!div class=mx-imgBorder]
