@@ -115,7 +115,7 @@ password. If you need help with your sign-in information, contact your Dynamics 
 
 For phones, portrait mode is set as the default screen orientation. For tablets, landscape mode is set as the default. Screen orientation for phone and tablet apps cannot be changed. 
 
-Use the navigation bar to get to your work area, create a new record, search, or do other tasks. 
+Use the navigation bar to get to your work area, create a new record, search, swithc app, and more. 
 
   > [!div class="mx-imgBorder"] 
   > ![Nav Bar](media/NavBar_2.png "Nav Bar")
@@ -124,20 +124,14 @@ Use the navigation bar to get to your work area, create a new record, search, or
 
 The **Favorites** and **Recently Used** provides quick access to your records, views, or dashboards that you have recently used or pinned to favorites.
 
-- To get to **Favorites** and **Recently Used**, select the menu button ![Menu button](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
+- To get to **Favorites** and **Recently Used**, select the site map button ![Menu button](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
 
 - To pin a record to favorites, from the list of **Recently Used** items, select the pin button. This will move the item to **Favorites**.
 
-- To unpin an item, from the list of **Favorites**, select the pin button again.
+- To unpin an item, from the list of **Favorites**, select the pin button.
 
    > [!div class="mx-imgBorder"] 
    > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
-
-### Switch apps
-
-Go back to the MyApps pages and switch to a different app.
-
-![Dynamics 365 for Customer Engagement apps phones and tablets switch apps](media/SwitchApps.png "Dynamics 365 for Customer Engagement apps phones and tablets switch apps")
 
 ## Dashboards
 
