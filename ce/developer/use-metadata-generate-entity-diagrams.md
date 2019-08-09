@@ -2,7 +2,7 @@
 title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about Metadata Diagram entity to create a simple diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 08/09/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,9 +12,9 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1ac9b7eb-437e-4b69-b494-14262f745557
 caps.latest.revision: 27
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: Nkrb
+ms.author: nabuthuk
+manager: kvivek
 search.audienceType: 
   - developer
 search.app: 
@@ -105,7 +105,7 @@ Visual representation of metadata can be very useful, especially when you are tr
 ## Generate entity diagrams with the metadata diagram tool  
  To use the sample code that will programmatically generate [!INCLUDE[pn_microsoft_office_visio](../includes/pn-microsoft-office-visio.md)] metadata diagrams, build and execute the using the solutions from SDK sample.
  
- Download the sample: [Generate entity diagrams with the metadata diagram tool](https://code.msdn.microsoft.com/Sample-of-generating-a0ba0e47)
+ Download the sample: [Generate entity diagrams with the metadata diagram tool](https://github.com/microsoft/PowerApps-Samples/tree/master/cds)
  
  After you download the sample, you can find the solution file in the following folder path: `Generate entity diagrams with the metadata diagram tool\C#\Diagram`.
  
@@ -132,4 +132,4 @@ MetadataDiagramConsole.exe new_bankaccount new_safedepositbox
  [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
  [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
  [Key to Entity Diagrams](key-entity-diagrams.md)   
- [CRM 2015 Entity Relationship Diagrams](http://download.microsoft.com/download/9/8/0/9805B4B0-5506-4CCE-915B-E2F1E65701D3/CRM2015EntityDiagrams.zip)
+ [Dynamics 365 for Customer Engagement apps Entity Relationship Diagrams](http://download.microsoft.com/download/9/8/0/9805B4B0-5506-4CCE-915B-E2F1E65701D3/CRM2015EntityDiagrams.zip)
