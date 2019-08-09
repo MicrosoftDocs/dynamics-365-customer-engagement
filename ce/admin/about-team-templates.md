@@ -43,7 +43,7 @@ Only entities that are enabled for system-managed access teams can be specified 
   
 If you change access rights in the team template, the changes are only applied to new system-managed access teams. The existing teams aren’t affected.  
   
-For information about how to create a team template, enable an entity for system-managed access teams and how to customize the entity form to add the team template, see [Create a team template and add to an entity form](create-team-template-add-entity-form.md)..
+For information about how to create a team template, enable an entity for system-managed access teams and how to customize the entity form to add the team template, see [Create a team template and add to an entity form](create-team-template-add-entity-form.md).
   
 ### See also  
  [Create a team template and add to an entity form](create-team-template-add-entity-form.md)   
