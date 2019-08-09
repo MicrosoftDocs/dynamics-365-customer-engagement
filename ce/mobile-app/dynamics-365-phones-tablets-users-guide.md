@@ -142,7 +142,7 @@ Dashboards give you an overview of valuable information. Select on the Home butt
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 for Customer Engagement apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 for Customer Engagement apps phones and tables dashboards")
   
-- To view chart in full screen select the Full screen button ![Full screen button](media/expndbutton.png "Full screen button").
+- To view chart in full screen select the Full screen button ![Full screen button](media/expandviewbutton.png "Full screen button").
 
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
