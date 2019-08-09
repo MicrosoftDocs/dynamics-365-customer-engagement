@@ -137,10 +137,10 @@ The **Favorites** and **Recently Used** provides quick access to your records, v
 
 Dashboards give you an overview of valuable information. Select on the Home button ![Home button](media/homeicon.png "Home button") to get to dashboards.
 
+To see a different dashboard, select the down arrow next to the name of the dashboard, and then select another dashbaord. 
 
-From the Home screen, tap dashboards menu and then select the dashboard you want to use.
-
-![Dynamics 365 for Customer Engagement apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 for Customer Engagement apps phones and tables dashboards")
+  > [!div class="mx-imgBorder"] 
+  > ![Dynamics 365 for Customer Engagement apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 for Customer Engagement apps phones and tables dashboards")
 
 Here are some of the ways you can work with
 dashboards.
