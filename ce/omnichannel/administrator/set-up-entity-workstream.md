@@ -24,36 +24,38 @@ ms.custom:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
-## Create case entity work stream
+## Create case entity workstream
 
-This topic describes how to create a work stream that is used to route case entity record.
+This topic describes how to create a workstream that is used to route case entity record.
 
 1. Sign in to Omnichannel for Administrator app.
 
-2. Select **Cases** entity record under **Channels** in the sitemap. A blank **Case Workstreams** view is displayed.
+2. Select **Entity Records** entity record under **Channels** in the sitemap. A blank **Entity Record Workstreams** view is displayed.
 
-3. Select **+ New** in the **Case Workstreams** view.
+3. Select **+ New** in the **Entity Record Workstreams** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Create new Cases work stream](../media/case-ws1.png "Create new work stream")
+    > ![Create new Cases workstream](../media/case-ws1.png "Create new workstream")
 
 4. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | High Priority Cases | Provide a name to the work stream. <br> **Note:** <br> If you update the name of the work stream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.  |
-    | Work Distribution | Channel | CDS Entity | Select the CDS Entity channel from the list. Cases from this channel are automatically distributed to the agents. |
-    | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the work stream in the text box. |
-    | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity.  |
+    | Work Distribution | Name | High Priority Cases | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
+    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. Cases from this channel are automatically distributed to the agents. |
+    | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
+    | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Assign Work Item After Decline or Timeout | 2 minutes | Set the time after which the case is assigned to the agent again once the agent has declined the work item or the request has timed out.  |
-    | Work Distribution | Work distribution mode | Push | Select **Push** when you to automatically route the cases to the agents. |
-    | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. |
+    | Work Distribution | Work distribution mode | Push | Select **Push** when you to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
+    | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
     > [!div class=mx-imgBorder] 
-    > ![Specify values for the fields](../media/case-ws2.png "New case work stream")
+    > ![Specify values for the fields](../media/case-ws2.png "New case workstream")
 
-4. Select **Save** to save the work stream.
+4. Select **Save** to save the workstream.
 
 ## See also
 
 [Automate case routing](entity-channel.md)
+
+[Understand and create workstreams](work-streams-introduction.md)

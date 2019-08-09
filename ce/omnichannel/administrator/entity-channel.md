@@ -36,6 +36,13 @@ That is, the cases are routed to the queues based on the routing rules, and then
 
 This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
+## Prerequisites to automate case routing
+
+To automatically route the cases, ensure the following:
+
+- You are on the latest version of Omnichannel for Customer Service.
+- You've installed the **Routing Rules - Preview** solution. To learn more, see [Link to the topic on how to install routing rules - preview solution]().
+
 ## Cases channel
 
 Omnichannel leverages the CDS queue entity to automatically route cases. In omnichannel, first, the application routes the cases to the queues. From the queues the work distribution engine automatically distributes the cases to the agents.
@@ -45,30 +52,20 @@ Omnichannel leverages the CDS queue entity to automatically route cases. In omni
 >
 > - Only case entity record is supported in this release.
 
-### Prerequisites to automate case routing
-
-To automatically route the cases, ensure the following:
-
-- You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solution. To learn more, see [Link to the topic on how to install routing rules - preview solution]().
-
 ### Automatic case distribution work flow
 
 The **Cases** entity record appears under the **Channels** in the Omnichannel for Administrator app. When you select the **Cases** entity record, a blank **Case Workstreams** view appears. You must create workstreams to route the cases.
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| Step 1: Create queues | You must create new queues or enable the existing queues to route cases to the queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue). |
-| Step 2: Create works stream for case routing | You must create new workstreams to route the cases. To learn learn more, see [Create a case workstream](set-up-entity-workstream.md). |
-| Step 3: Create routing rules | You must create routing rules, to automatically distribute the cases to the agents. |
-| Step 4: Update Cases Work Distribution Flow | You must update the Cases Work Distribution Flow with the conditions, to automatically distribute the cases to the agents. The case distribution flow is the out-of-the-box Microsoft flow. |
+| [Step 1: Create queues](#step-1-create-queues) | You must create new queues or enable the existing queues to route cases to the queues. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue). |
+| [Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing) | You must create new workstreams to route the cases. To learn learn more, see [Create a case workstream](set-up-entity-workstream.md). |
+| [Step 3: Create routing rules](#step-3-create-routing-rules) | You must create routing rules, to automatically distribute the cases to the agents. |
+| [Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow) | You must update the Cases Work Distribution Flow with the conditions, to automatically distribute the cases to the agents. The case distribution flow is the out-of-the-box Microsoft flow. |
 
 ## Step 1: Create queues
 
 You must create a queue or enable existing queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
-
-- If you deploy Omnichannel for Customer Service freshly, then you must create new queues.
-- If you are already using Omnichannel for Customer Service, then upgrade to the latest version, and create new a queue or enable existing a queue for automatic work distribution.
 
 > [!Note]
 > If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents.<br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png  "Automatic record movement to the agent's default queue")
@@ -211,7 +208,9 @@ The out-of-the-box Cases Work Distribution Flow contains the following component
 14. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > If you update the name of the workstream, then you must perform step 14. Otherwise, the cases won't be automatically distributed to the agents.
+    > - If you update the name of the workstream, then you must perform step 14. Otherwise, the cases won't be automatically distributed to the agents.
+    >
+    > - Adding multiple workstreams is the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
