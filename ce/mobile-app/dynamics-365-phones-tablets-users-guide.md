@@ -135,40 +135,33 @@ The **Favorites** and **Recently Used** provides quick access to your records, v
 
 ## Dashboards and charts
 
-Dashboards give you an overview of valuable information. Select on the Home button ![Home button](media/homeicon.png "Home button") to get to dashboards.
+Dashboards give you an overview of valuable information. Select on the Home button ![Home button](media/homeicon.png "Home button") to view dashboards.
 
-- To see a different dashboard, select the down arrow next to the name of the dashboard, and then select another dashbaord. 
+- To view a different dashboard, select the down arrow next to the name of the dashboard, and then select the dashbaord that you want to view. 
 
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 for Customer Engagement apps phones and tablets dashboards](media/DashboardsOnHomePage_4.png "Dynamics 365 for Customer Engagement apps phones and tables dashboards")
   
-- To view chart in full screen select the Full screen button ![Full screen button](media/expandviewbutton.png "Full screen button").
+- To view a chart in the dashboard in full screen mode, select the Expand button ![Full screen button](media/expandviewbutton.png "Full screen button").
 
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
+   
+ -  To view records in chart or refresh the chart view, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
+
+   > [!div class="mx-imgBorder"] 
+   > ![Refresh or view charts(media/charts_01.png "Refresh or view a chart")
 
 
-## Track your progress with charts
-Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can tap an area of a chart to get more info.
+Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can select an area of a chart to get more info.
 
--   Tap once on a chart section to see a tooltip that provides quick info about that area of the chart.
+-   Select once on a chart section to see a tooltip that provides quick info about that area of the chart.
 
--   Tap again on the same section to see a grid view with more details about the data in the chart.
+-   Select again on the same section to see a grid view with more details about the data in the chart.
 
--   To expand a chart, from the charts Home page grid, tap the **Expand Chart** ![Expand Chart button](../mobile-app/media/expandviewbutton.png "Expand Chart button") button.
-
--   To view records in chart or refresh the chart, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**.
-            
-     ![Dynamics 365 for phones and tablets expand and table view of a chart](media/TrackProgressWithCharts_18.png "Dynamics 365 for phones and tablets expand and table view of a chart")  
   
     ![Record view of chart](../mobile-app/media/Recordview.png "Record view of chart") 
        
-
-Two dimensions charts like Line, Bar, Column, and Area support zooming. Single dimension charts like, Funnel, Doughnut, Pie, and Tag chart don’t support zooming.
-
-![Dynamics 365 for phones how to zoom](media/ZoomOnMobilePhone_19.png "Dynamics 365 for phones and tablets how to zoom")
-
-**Change the chart view**
  
 Changing the chart view shows you a different breakdown of your data, such as opportunities opened within a specific time period. You can change a chart view by selecting the View selector on the Grid page.
 
