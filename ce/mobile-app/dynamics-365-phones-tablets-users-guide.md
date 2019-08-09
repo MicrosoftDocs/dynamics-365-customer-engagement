@@ -170,20 +170,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
   > ![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
 
 
-
-                                                                                              
-**Change views for a list on the dashboard**
-
-Tap the name of the list and select the list that you want to see.
-
-![Dynamics 365 for phones and tablets change view for a list on dashboard](media/ChangeViewsOf_ListOnDashboard_15.png "Dynamics 365 for phones and tablets change view for a list on dashboard")
-
-To create new dashboards in Dynamics 365 for Customer Engagement apps and enable them for use in Dynamics 365 for Customer Engagement apps
-for phones and tablets, see [Create or customize dashboards](../customize/create-edit-dashboards.md).
-
-**Open a list of records in a dashboard view**
-
-- From a list of records (for example, **Accounts**), tap **Open Dashboards**.
+- To open a list of records in a dashboard view or chart view  (for example, **Accounts**), tap **Open Dashboards**.
 
 ![Dynamics 365 for phones and tablets open records in Dashboard view](media/OpenDashboardView.png "Dynamics 365 for phones and tablets open records in Dashboard view")
 
