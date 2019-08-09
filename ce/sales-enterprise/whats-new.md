@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 08/02/2019
+ms.date: 08/09/2019
 ms.service:
   - "crm-online"
 ms.topic: article
@@ -32,12 +32,10 @@ Here are the list of features available with this release:
 - **Customization of Opportunity Close form**: When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize the Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. More information: [Customize Opportunity Close form](customize-opportunity-close-experience.md)
 
 - **Enhancements to the adding or editing of Opportunity/Quote/Order/Invoice products experience**: The following enhancements are made to the experience of adding product line items to opportunity, quote, or invoice records:
-    - Salespeople can add an existing product to an Opportunity, Quote, Order, and Invoice, with or without a price list.
-    - Administrators can choose whether to enforce the selection of a price list.
-    - Salespeople can quickly view and edit properties for a product, even while editing Opportunity or Quote line items.
+    - Salespeople can add an existing product to an Opportunity, Quote, Order, and Invoice, with or without a price list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
+    - Administrators can choose whether to enforce the selection of a price list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Make selection of price list optional](make-price-list-optional.md)
+    - Salespeople can quickly view and edit properties for a product, even while editing Opportunity or Quote line items. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
     - Administrators can use additional customization options on the price list item entity.
-
-More information: [Make selection of price list optional](make-price-list-optional.md)
 
 - **Business card scanner**: The integrated business card scanner will help sales people to scan business cards via mobile or web. The scanner will analyze the card for relevant information and automatically update respective fields in Dynamics 365 for Sales. The feature also supports configuration, allowing users to select alternative fields to populate. More information: [Scan business cards](scan-business-cards.md)
 
