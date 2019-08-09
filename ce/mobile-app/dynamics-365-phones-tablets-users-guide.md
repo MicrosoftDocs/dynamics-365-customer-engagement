@@ -177,11 +177,17 @@ The **Quick create Munu** makes it fast and easy to enter almost any type of inf
 
 2.  Select **Quick Create Menu** and then choose a record type.
 
+  > [!div class="mx-imgBorder"] 
+  > ![Quick create menu](/media/quickcreate.png "Quick create menu")
+
 3.  Enter the required information and then select **Save and Close**.
 
 ### Take action on record
 
-Take action on a record without opening the record. From a list of records, select the record that you want to update, then on the command bar select an action such as **Assign**, **Deactivate** or **Delete**. You can take a similar action when you select multiple records.
+- Take action on a record without opening the record. From a list of records, select the record that you want to update, then on the command bar select an action such as **Assign**, **Deactivate** or **Delete**. You can take a similar action when you select multiple records.
+
+  > [!div class="mx-imgBorder"] 
+  > ![Action menu](/media/actionmenu.png "Take action on a record").
 
 ### Update an image for a record
 
@@ -190,20 +196,12 @@ Take action on a record without opening the record. From a list of records, sele
   > [!div class="mx-imgBorder"] 
   >![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
 
-**Business process flow**
+## Business process flow
 
-The business process bar on forms gives a clear step-by-step guide for building customer relationships. You can see at a glance exactly 
-where you are with a customer and what you need to do next.
-
-For exmaple, as you work on a new customer record, the business process flow helps you see each step that you need to take to create the new record and fill out the required information according to your organizations business process. 
+Business process flows help you enter data consistently and follow the same steps every time you work with a record. As you work on a new record, the business process flow helps you see each step that you need to take to create the new record and fill out the required information according to your organizations business process.
 
 ![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
 
-The process bar can be docked to the right side of the screen for easy reference as you work with a customer record.
-
-![Dynamics 365 for phones and tablets docked business process flow](media/DockedProcessFlow.png "Dynamics 365 for phones and tablets docked business process flow")
-
-For more information on how to work with business process flows, see [Business process flows overview](https://docs.microsoft.com/en-us/flow/business-process-flows-overview).
 
 **Task Flows**
 
