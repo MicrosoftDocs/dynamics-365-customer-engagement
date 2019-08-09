@@ -150,7 +150,7 @@ Dashboards give you an overview of valuable information. Select on the Home butt
  -  To view records in chart or refresh the chart view, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
 
    > [!div class="mx-imgBorder"] 
-   > ![Refresh or view charts(media/charts_01.png "Refresh or view a chart")
+   > ![Refresh or view charts](media/charts_01.png "Refresh or view a chart")
 
 
 Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can select an area of a chart to get more info.
@@ -169,46 +169,26 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
   > [!div class="mx-imgBorder"] 
   > ![Dynamics 365 for phones and tablets change a chart view](media/ChageChartView_20.png "Dynamics 365 for phones and tablets change a chart view")
 
-
-- To open a list of records in a dashboard view or chart view  (for example, **Accounts**), tap **Open Dashboards**.
-
-![Dynamics 365 for phones and tablets open records in Dashboard view](media/OpenDashboardView.png "Dynamics 365 for phones and tablets open records in Dashboard view")
-
-![Dynamics 365 for phones and tablets records in Dashboard view](media/RecordsInDashboardView.png "Dynamics 365 for phones and tablets open in Dashboard view")
-
 ## Work with records
 
-As a sales or service professional you’ll be working the following types of
-records and more:
-
-- **Accounts**   Account records contain information about the companies you do business with.
-
-- **Contacts**   Contact records contain information about the people you know and work with. Usually, multiple contacts are associated with one account. Contacts could include people responsible for making purchasing decisions, people in charge of paying invoices, support technicians, or anyone you work with at the company.
+The **Quick create Munu** makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it’s available whenever you need to enter new information into the system. You can also save a record and create a new one directly from the Quick create form.
     
-1.  To add a record, on the nav bar tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
+1.  To create a new record, on the nav bar select, the More button  ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
-2.  Tap **Quick Create Menu** and choose a record type.
+2.  Select **Quick Create Menu** and then choose a record type.
 
-3.  Select a record type to create.
+3.  Enter the required information and then select **Save and Close**.
 
-4.  Enter the required information and then tap **Save**.
-
-**Quickly open a record**
-
-When you have a record open and you need to view another record in the same list, tap ![Dynamics 365 for phones and tablets choose record icon](media/ChooseRecordIcon_01.png "Dynamics 365 for phones and tablets choose record icon") to choose
-another record.
-
-![Dynamics 365 for phones and tablets open a record](media/OpenRecord_5.png "Dynamics 365 for phones and tablets open a record")
-
-**Take action on record**
+### Take action on record
 
 Take action on a record without opening the record. From a list of records, select the record that you want to update, then on the command bar select an action such as **Assign**, **Deactivate** or **Delete**. You can take a similar action when you select multiple records.
 
-**Update an image for a record**
+### Update an image for a record
 
-To add an image to a record, open the record and tap the image for the record. Next, select the image that you want to use.
+- To add a new image to a record, open the record and selct the current image for the record. Choose **Use Camera** to take a new pictuere or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
 
-![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
+  > [!div class="mx-imgBorder"] 
+  >![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
 
 **Business process flow**
 
