@@ -1,7 +1,7 @@
 ---
 title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
-ms.custom: 
+author: nkrb
 ms.date: 03/27/2019
 ms.reviewer: 
 ms.service: crm-online
