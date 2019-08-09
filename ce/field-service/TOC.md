@@ -145,6 +145,7 @@
 ### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 ### [Installation and setup](installation-setup-iothub.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
+### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
