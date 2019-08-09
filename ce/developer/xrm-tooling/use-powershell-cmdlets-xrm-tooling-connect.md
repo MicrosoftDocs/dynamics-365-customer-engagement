@@ -42,14 +42,14 @@ Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershe
   
 Open PowerShell or PowerShell ISE in admin mode, and run the following command:
 
-    ```powershell
-    Install-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
-    ```  
+   ```powershell
+      Install-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
+   ```  
 If you installed the module in the past, you can update it with the following command:
 
-    ```powershell
-    Update-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
-    ```  
+   ```powershell
+      Update-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
+   ```  
 You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlet. To list the cmdlets that you registered, run the following command in the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] window:  
   
    ```powershell
