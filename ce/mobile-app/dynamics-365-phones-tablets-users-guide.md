@@ -45,7 +45,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
 > - If you are a [Dynamics 365 US Government](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/government/microsoft-dynamics-365-government) (GCC and GCC High) user, you are required to sign in using the web address option.
 
 
-### Sign in with your email address
+### Sign in with your email address (iOS users)
 
 1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
 
@@ -57,7 +57,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/openanapp.png "Select an app to use"). 
         
-#### Sign out
+#### Sign out (iOS users)
 
 - From the upper-right corner, select ![Sign out](media/gearsignout.png "Sign out") > **Sign out**.
 
@@ -65,7 +65,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address or 
    > ![Sign out](media/signout1.png "Sign out")
 
 
-### Sign in with your web address
+### Sign in with your web address (iOS users)
 
 You can also sign in using your Dynamics 365 Customer Engagement app web address and user name and password. 
 
@@ -81,7 +81,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/navwebsignin.png "Select an app to use"). 
 
-#### Sign out
+#### Sign out (iOS users)
 
 - From the navigation bar, select ![Sign out button](media/settingsmorebutton.png "Sign out button") > **User Information** > **Sign out**.
 
@@ -89,7 +89,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
   > ![Sign out](media/previewsignout.png "Sign out")
       
 
-### Sign in and sign out (Android users)
+## Sign in and sign out (Android users)
 
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
 password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
@@ -126,19 +126,17 @@ The **Favorites** and **Recently Used** provides quick access to your records, v
 
 - To get to **Favorites** and **Recently Used**, select the site map button ![Menu button](media/MenuButton.png "Menu button") > ![Fav Button](media/FavButton.png "Fav Button").
 
-- To pin a record to favorites, from the list of **Recently Used** items, select the pin button. This will move the item to **Favorites**.
+- To pin a record to favorites, from the list of **Recently Used** records, select the pin button next to the record that you want to add to favorites. This will move the record from  **Recently Used** to **Favorites**.
 
-- To unpin an item, from the list of **Favorites**, select the pin button.
+- To unpin an item from favorites, from the list of **Favorites**, select the pin button next to the record that you want to unpin.
 
    > [!div class="mx-imgBorder"] 
    > ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
 
-## Dashboards
+## Dashboards and charts
 
-Dashboards give you an overview of valuable information. Tap on the Home icon
-any time to get your dashboards. 
+Dashboards give you an overview of valuable information. Select on the Home button ![Home button](media/homeicon.png "Home button") to get to dashboards.
 
-If you want to use a different dashboard, it’s easy to switch back and forth.
 
 From the Home screen, tap dashboards menu and then select the dashboard you want to use.
 
@@ -462,21 +460,7 @@ If multiple entries are made in the same field by offline users (for example, tw
   
 If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes. -->
  
-## Reconfigure the app
 
-If you used the mobile app on a phone or tablet temporarily and want to remove all you cache data before giving to device to someone else, you need reconfigure the app.
-
-Reconfiguring deletes all data and metadata from the cache, though you shouldn't rely on this as a security measure.
-
-If you sign out of one organization and sign in to another, and then use the **Reconfigure** option on the organization you signed in to, your metadata will still remain for the organization you signed out of. To remove your metadata from the organization you signed out of, you’ll need to sign in to it and use the **Reconfigure** option there, as well.
-
-Here's how to do it:
-
-1.  Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
-
-2.  Tap **User Information**.
-
-3.  Tap **Reconfigure**. 
 
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
