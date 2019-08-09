@@ -43,18 +43,18 @@ Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershe
 Open PowerShell or PowerShell ISE in admin mode, and run the following command:
 
    ```powershell
-       Install-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
+  Install-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
    ```  
 If you installed the module in the past, you can update it with the following command:
 
    ```powershell
-        Update-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
+  Update-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
    ```
     
 You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlet. To list the cmdlets that you registered, run the following command in the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] window:  
   
    ```powershell
-      Get-Help “Crm”  
+  Get-Help “Crm”  
    ```  
 
 <a name="RetrieveOrgs"></a>   
@@ -66,7 +66,7 @@ You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-p
 1. Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
   
      ```powershell
-       $Cred = Get-Credential  
+    $Cred = Get-Credential  
      ```  
 
 2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:
