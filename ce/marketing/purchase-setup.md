@@ -95,6 +95,8 @@ There are many ways to add one or more Marketing apps to your Microsoft 365 tena
 
 You can have any number of Marketing apps available on your tenant. Initially, each of these apps will be unconfigured and unassigned to any [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. Later, you'll run the Marketing setup wizard to assign the app to an instance and configure it.
 
+<a name="run-wizard"></a>
+
 ## Run the Marketing setup wizard
 
 After purchasing your license for Dynamics 365 for Marketing, you'll have an unconfigured Dynamics 365 for Marketing app available on your tenant, but you still need to set it up for use. The Marketing setup wizard will help you review all the relevant privacy policies and set up and integrate its various elements.
