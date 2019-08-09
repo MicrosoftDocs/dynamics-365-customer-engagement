@@ -147,6 +147,10 @@ The dataset for the Live Monitoring report is real time; if a report is refreshe
 
 The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
+### Why am I not able to see more than 100 agents while using filters in Omnichannel Ongoing Conversations dashboard?
+
+By default, the application displays only 100 agents at any given time while filtering the conversation on **Omnichannel Ongoing Conversations** dashboard. The list of 100 agents is displayed based on the alphabetical order. For example, you have 200 agents in your organization, and 100 agent names start with the alphabets A to D. The application displays only the agents whose name starts with the alphabets A to D and rest of the names are ignored (alphabets E to Z).  
+
 ### What controls are in place to limit the exposure of agent performance KPIs within my organization?
 These controls are in place for exposing the data in reports:
 - Access to the Power BI reports is controlled by Power BI access roles, and sharing within the Omnichannel app. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md)
