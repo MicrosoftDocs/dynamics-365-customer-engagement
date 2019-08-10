@@ -54,10 +54,10 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 | From state | To state | Scenario  | Type (Chat, SMS, and Entity Record) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Chat, SMS, and Entity Record |
-| Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat, SMS, and Entity Record |
-| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation and you are no longer getting reply, you can close the session without ending the conversation. This will keep conversation in waiting state. |   Chat, SMS, and Entity Record |
-| Active | Closed | When you complete working on the conversation and end the conversation and close the session. | Entity Record |
+| Active        | Wrap-up          | When you select the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget.| Chat and SMS |
+| Active        | Open             | When you disconnect the conversation and doesn't reconnect with in a specified timeout period. <br><br> When you release the conversation to the queue. <br><br> When you transfer the conversation to another queue. <br><br> | Chat and SMS |
+| Active        | Waiting          | When you close the session (not ending the conversation by selecting the **End** button) while the conversation is active.<br><br> When the customer is disconnected from the conversation and you are no longer getting reply, you can close the session without ending the conversation. This will keep conversation in waiting state. |   Chat and SMS |
+| Active | Closed | When you resolve the case (or get an entity record to non-active state) and close the session. | Entity Record |
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state](../../media/oc-conversation-active.png "Active state")
 
@@ -69,7 +69,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** state un
 
 | From state | To state | Scenario  | Type (Chat, SMS, and Entity Record) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Chat, SMS, and Entity Record |
+| Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Chat and SMS |
 
 ![Transition from wrap-up to closed state](../../media/oc-conversation-wrap-up.png "Wrap-up state")
 
@@ -81,9 +81,9 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 | From state | To state | Scenario  | Type (Chat, SMS, and Entity Record) |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Waiting       | Closed           | When there is no activity on this conversation from either customer or agent, with in inactivity timeout period. <br><br> When the customer selects the **End** button to end the conversation and close the session.| Chat, SMS, and Entity Record |
-| Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Chat, SMS, and Entity Record |
-| Waiting       | Open             | When the customer revives the conversation within a specified timeout period. | Chat, SMS, and Entity Record |
+| Waiting       | Closed           | When there is no activity on this conversation from either customer or agent, with in inactivity timeout period. <br><br> When the customer selects the **End** button to end the conversation and close the session.| Chat and SMS |
+| Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Chat and SMS |
+| Waiting       | Open             | When the customer revives the conversation within a specified timeout period. | Chat and SMS |
 
 ![Transition from waiting to closed, active, or open state](../../media/oc-conversation-waiting.png "Waiting state")
 
