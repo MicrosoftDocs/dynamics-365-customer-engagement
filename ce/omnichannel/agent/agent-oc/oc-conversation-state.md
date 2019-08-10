@@ -138,3 +138,7 @@ Programmatically, you can change the default time and set it as per your organiz
 
 > [!div class="nextstepaction"]
 > [View communication panel](oc-conversation-control.md)
+
+## See also
+
+[Automatic closure of a conversation](../../developer/auto-close-conversation.md)
