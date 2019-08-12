@@ -41,7 +41,7 @@ This topic describes how to create a workstream that is used to route case entit
 
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
-    | Work Distribution | Name | High Priority Cases | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
+    | Work Distribution | Name | Cases Workstream | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
     | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. Cases from this channel are automatically distributed to the agents. |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
@@ -50,7 +50,7 @@ This topic describes how to create a workstream that is used to route case entit
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
     > [!div class=mx-imgBorder] 
-    > ![Specify values for the fields](../media/case-ws2.png "New case workstream")
+    > ![Specify values for the fields](../media/case-ws3.png "New case workstream")
 
 4. Select **Save** to save the workstream.
 

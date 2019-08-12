@@ -1,6 +1,6 @@
 ---	
-title: Automate case routing using entity records channel | MicrosoftDocs	
-description: Learn how you can route cases automatically using entity records channel in the Omnichannel for Administrator app."		
+title: "Automate case routing using entity records channel | MicrosoftDocs"	
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."		
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -8,10 +8,11 @@ applies_to:
 ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
-ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
+ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
----	
-# Entity records routing
+---
+
+# Walkthrough: Automate entity record routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -23,45 +24,8 @@ ms.custom:
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 ## Overview
- 
-In Omnichannel, entity records channel helps you to automatically route cases to the agents based on the agents' capacity and availability.
 
-> [!Note]
-> Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
-
-### Automatic distribution of cases
-
-Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to static queues, and then these cases are either manually by supervisors or manually picked by agents.
-
-With unified routing, cases can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS.
-
-That is, the cases are routed to the queues based on the routing rules, and then the work distribution engine distributes the cases automatically to the agents based on the availability and capacity.
-
-This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
-
-## Prerequisites
-
-To configure entity records channel for case routing and automatic distribution, ensure:
-
-- You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution]().
-
-## Entity records channel
-
-Omnichannel leverages the CDS queue entity to automatically route entity records. In omnichannel, first, the application routes the entity records to the queues. From the queues the work distribution engine automatically distributes the entity records to the agents.
-
-### Automatic case distribution work flow
-
-**Entity Records** appears under the **Channels** in the Omnichannel for Administrator app. When you select the **Entity Records**, a blank **Entity Record Workstreams** view appears. You must create workstreams to route the case records.
-
-To setup the **Entity Record** channel and route the cases, follow the steps:
-
-| Step | Description |
-|---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues](#step-1-create-queues) | You must create a new Omnichannel queue or use an existing Omnichannel queue to route cases to the queues. |
-| [Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing) | You must create new workstreams to route the cases. |
-| [Step 3: Create routing rules](#step-3-create-routing-rules) | You must create routing rules, to automatically distribute the cases to the agents. |
-| [Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow) | You must update the Cases Work Distribution Flow with the workstream ID, to automatically distribute the cases to the agents. The Omnichannel application creates **Cases Work Distribution Flow** when you enable an entity records channel. |
+This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record work streams, routing rules, and update work distribution flow to, automatically distribute entity records to the agents based on the capacity and availability.
 
 ## Step 1: Create queues
 
@@ -220,10 +184,5 @@ After creating the routing rules for the cases workstream, you must update **Cas
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
 
-### See also 	
 
-[Understand and create workstreams](work-streams-introduction.md)
 
-[Cases entity workstreams](set-up-entity-workstream.md)
-
-[Work with queues](queues-omnichannel.md)
