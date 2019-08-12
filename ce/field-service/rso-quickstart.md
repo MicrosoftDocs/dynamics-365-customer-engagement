@@ -116,9 +116,19 @@ To fulfill our scenario, we want to create a view of Bookable Resources that are
 
 Then for each resource, set the **Optimize Schedule** field to **Yes**.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-resource-list.png)
+
+Similar to requirements, this can be done individually or via a bulk update.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-resource-field.png)
+
+
+
+
+
 
 ## Create Scope
 
