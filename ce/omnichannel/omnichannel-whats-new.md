@@ -39,7 +39,7 @@ This section contains information about new features and enhancements in Omnicha
 
     More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
 
-- **Conversation state for entity routing:** The various conversation states for an entity record like case is updated.
+- **Conversation state for entity routing:** The various conversation states for an entity record like case is introduced.
 
     More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md)
 
