@@ -27,7 +27,7 @@ This section contains information about new features and enhancements in Omnicha
 
     This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
-    More information: [Entity records routing](administrator/entity-channel.md) and [Cases entity work streams](set-up-entity-workstream.md)
+    More information: [Entity records routing](administrator/entity-channel.md) and [Cases entity work streams](administrator/set-up-entity-workstream.md)
 
 - **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
 
