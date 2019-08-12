@@ -26,6 +26,9 @@ ms.custom:
  
 In Omnichannel, entity records channel helps you to automatically route cases to the agents based on the agents' capacity and availability.
 
+> [!Note]
+> Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
+
 ### Automatic distribution of cases
 
 Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to static queues, and then these cases are either manually by supervisors or manually picked by agents.
@@ -46,9 +49,6 @@ To configure entity records channel for case routing and automatic distribution,
 ## Entity records channel
 
 Omnichannel leverages the CDS queue entity to automatically route entity records. In omnichannel, first, the application routes the entity records to the queues. From the queues the work distribution engine automatically distributes the entity records to the agents.
-
-> [!Note]
-> Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
 
 ### Automatic case distribution work flow
 
