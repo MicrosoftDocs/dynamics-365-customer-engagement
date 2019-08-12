@@ -6,6 +6,7 @@ ms.date: 04/03/2019
 ms.service: "D365CE"
 ms.topic: "article"
 ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
+author: Nkrb
 manager: "kvivek" # MSFT alias of manager or PM counterpart
 search.audienceType: 
   - developer
