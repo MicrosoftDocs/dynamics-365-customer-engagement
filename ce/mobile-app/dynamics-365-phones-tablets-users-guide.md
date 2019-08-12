@@ -178,12 +178,12 @@ The **Quick create Menu** makes it fast and easy to enter almost any type of inf
 2.  Select **Quick Create Menu** and then choose a record type.
 
     > [!div class="mx-imgBorder"] 
-    > ![Quick create menu](/media/quickcreate.png "Quick create menu")
+    > ![Quick create menu](media/quickcreate.png "Quick create menu")
 
 3. From the list select the type of activity or record you want to create. 
 
     > [!div class="mx-imgBorder"] 
-    > ![Quick create menu](/media/quickcreate3.png "Quick create menu")
+    > ![Quick create menu](media/quickcreate3.png "Quick create menu")
     
 4. Enter the required information for the record and then select **Save and Close**.
 
@@ -193,7 +193,7 @@ Take action on a record without opening the record.
 
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"). Select the record type that you want to update, such as, **Accounts**.
 
-2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-3pp/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update.
+2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update.
 
 3. Then  select an action such as **Assign**, **Deactivate** or **Delete**. 
 
