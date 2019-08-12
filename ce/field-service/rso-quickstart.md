@@ -36,14 +36,31 @@ In this quickstart, let's configure RSO to schedule and optimize a group of work
 
 The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**
 
+Resource Schedule Optimization works with Resource Scheduling to schedule field service work orders. It is helpful to understand how resource scheduling enables field service scheduling. For more details view the topic on [Universal Resource Scheduling for Field Service](/universal-resource-scheduling-for-field-service.md).
+
 This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Schedule Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md)
 
 
 > [!Note]
 >
 
+
+
+## Turn on RSO
+
+After deploying RSO into your environment, the first step is to enable the solution. 
+
+Go to **Resource Scheduling > Settings > Administration > Scheduling Parameters > Resource Scheduling Optimization tab**
+
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+> ![Screenshot of ](./media/rso-quickstart-enable.png)
+
+Set **Enable Resource Scheduling Optimization** to **Yes**.
+
+Select a **Default Goal**. Among other uses, a default goal tells RSO what to prioritize by default such as maximizing working hours and is important for [Single Resource Optimization](/single-resource-optimization.md). A default goal is shipped with RSO, select it here if it is not already. If no default goal is present, select **+New** and create one, below are recommended settings.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
 
 ## Set work orders to optimize
 
