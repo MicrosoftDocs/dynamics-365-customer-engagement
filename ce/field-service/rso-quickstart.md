@@ -112,7 +112,13 @@ To fulfill our scenario, we want to create a view of Bookable Resources that are
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/rso-quickstart-resource-view.png)wou
+> ![Screenshot of ](./media/rso-quickstart-resource-view.png)
+
+Then for each resource, set the **Optimize Schedule** field to **Yes**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-resource-field.png)
 
 ## Create Scope
 
