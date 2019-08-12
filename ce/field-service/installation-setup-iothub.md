@@ -362,7 +362,7 @@ This guide provides all the steps required for getting up and running with Conne
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
- - [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process and query IoT devices measurements from IoT Hub.
+ - [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
   
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
