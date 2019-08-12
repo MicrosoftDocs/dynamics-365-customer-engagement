@@ -24,8 +24,6 @@ search.app:
 ---
 # Script(JScript) web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that can be accessed from anywhere.  
   
 <a name="BKMK_capabilities"></a>   

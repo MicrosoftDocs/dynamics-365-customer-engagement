@@ -17,8 +17,6 @@ search.app:
 
 # Create a virtual entity data provider
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 There are two general categories of data provider you can create using the virtual entity data SDK assemblies: generic or targeted.
 
 |Category |Description|

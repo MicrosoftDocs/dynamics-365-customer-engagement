@@ -22,8 +22,6 @@ search.app:
 ---
 # Process architecture
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The process management system in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps includes the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], plug-ins, forms, and other components.  
   
 <a name="Diagram"></a>

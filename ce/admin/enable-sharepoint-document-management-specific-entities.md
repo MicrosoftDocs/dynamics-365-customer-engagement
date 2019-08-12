@@ -1,7 +1,7 @@
 ---
 title: "Enable SharePoint document management for specific entities for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -51,17 +51,10 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamic
    - Check **Based on entity** to have  document libraries and folders that are based on the Dynamics 365 for Customer Engagement apps Account entity automatically  created on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. Users will not be prompted to create them.  
   
       If you don't want folders automatically created, clear the **Based on entity** check box.  
-  
-      When you first visit the documents grid, if you want users to confirm folder creation corresponding to the entity record on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], clear the **Automatically create folder** check box.  
-  
+   
      > [!IMPORTANT]
      >  If you have [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], make sure the site is under the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instances.  
-     > 
-     >  The **Folders will be automatically created on the SharePoint site** option was first introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)].  
-     >
-     > With the exception of the opportunity and contract entities, a hierarchical folder structure will not be automatically created in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for entities that have more than one many-to-one (N:1) relationship with the parent entity. 
-
-  
+      
    - Click **Finish**.  
   
       For more information on server-based integration, see [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md).  

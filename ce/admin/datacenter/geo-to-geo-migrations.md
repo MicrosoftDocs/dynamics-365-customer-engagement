@@ -1,7 +1,7 @@
 ---
-title: "Geo to geo migrations for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Geo to geo migrations for Dynamics 365 for Customer Engagement (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/10/2019
+ms.date: 08/05/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,11 +30,11 @@ We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest]
 > [!IMPORTANT]
 > Support for geo migration is limited and generally not available.
 >
->  For versions prior to [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], you can move individual [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances from one geographical region to another. When you do so, your tenant becomes a multiregional tenant. Regional features are enabled in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)].  
+>  For versions prior to Customer Engagement version 9.0, you can move individual [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances from one geographical region to another. When you do so, your tenant becomes a multiregional tenant. Regional features are enabled in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)].  
 > 
 >  To request a regional migration, please contact your account manager or  see [Technical Support](../../admin/contact-technical-support.md).  
 > 
->  [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] does not currently support regional migration. Check back later for availability. 
+>  Customer Engagement version 9.0 does not currently support regional migration. Check back later for availability. 
 
 ## Impact of migrating  
  Moving an instance to a different region changes your tenant to be multiregional - enabling regional features in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)].  
@@ -88,11 +88,11 @@ We continue to open new datacenter regions for [!INCLUDE[pn_crm_online_shortest]
 
 |                         |                                                         Before the move                                                          |                                                                                                                                                                                                                                                  During the move                                                                                                                                                                                                                                                  |                                                                                                                                                   After the move                                                                                                                                                   |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **What Microsoft does** | **Notification**<br /><br /> Your support representative or Account Manager will work with you to request a move and scheduling. | **Cut-over**<br /><br /> Cut-over times for each service depend on the number of users and the amount of data. This step can take 1 to 6 hours for smaller organizations, but may take up to 48 hours for large organizations. The cut-over is done during the evening or over a weekend.<br /><br /> There is a step that will require your involvement, which is to re-enter the encryption key in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. This can happen at a time that suits you but the migration process will be on hold until you complete this action. | **Notification and support**<br /><br /> You will be alerted by email or telephone when your instance is migrated to the new datacenter.<br /><br /> After your geo has migrated you can perform the post requisite steps - primarily changing your new URLs with any associated Dynamics 365 for Customer Engagement apps plugins or services. |
+| **What Microsoft does** | **Notification**<br /><br /> Your support representative or Account Manager will work with you to request a move and scheduling. | **Cut-over**<br /><br /> Cut-over times for each service depend on the number of users and the amount of data. This step can take 1 to 6 hours for smaller organizations, but may take up to 48 hours for large organizations. The cut-over is done during the evening or over a weekend.<br /><br /> There is a step that will require your involvement, which is to re-enter the encryption key in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. This can happen at a time that suits you but the migration process will be on hold until you complete this action. | **Notification and support**<br /><br /> You will be alerted by email or telephone when your instance is migrated to the new datacenter.<br /><br /> After your geo has migrated you can perform the post requisite steps - primarily changing your new URLs with any associated Dynamics 365 for Customer Engagement plugins or services. |
 
  We will adhere to the terms of the [Microsoft Online Services Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=523897) for all moves.  
 
 ### See also  
- [Dynamics 365 for Customer Engagement apps (online) terminology](../../admin/online-terminology.md)   
+ [Dynamics 365 for Customer Engagement (online) terminology](../../admin/online-terminology.md)   
  [Add and edit multiregional instances](../../admin/add-edit-multiregional-instances.md)   
- [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../../admin/manage-online-instances.md)
+ [Manage Microsoft Dynamics 365 for Customer Engagement (online) instances](../../admin/manage-online-instances.md)

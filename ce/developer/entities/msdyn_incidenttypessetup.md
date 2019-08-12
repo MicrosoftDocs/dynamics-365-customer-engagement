@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_incidenttypessetup Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Service entity necessary for the setup of the recurrent suggested duration calculations for all the incident types.
 
 **Added by**: Field Service Solution

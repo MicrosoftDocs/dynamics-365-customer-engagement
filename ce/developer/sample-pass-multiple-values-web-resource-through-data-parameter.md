@@ -24,8 +24,6 @@ search.app:
 ---
 # Sample: Pass multiple values to a  web resource through the data parameter
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 An (HTML) web resource page can only accept a single custom parameter called `data`. To pass more than one value in the data parameter, you need to encode the parameters and decode the parameters in your page.  
   
  The page here represents a technique to pass the additional values within a single parameter and then process them within your web resource. 

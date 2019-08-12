@@ -44,7 +44,7 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
 4. When you close the opportunity as **Won**, in the **Close Opportunity** dialog box, do the following, and select **OK**:
 
-    - In **Actual Revenue**, Verify the amount and change, if required.
+    - In **Actual Revenue**, Verify the amount, and make changes, if necessary.
     
     - In **Description**, enter details about what contributed to winning this opportunity. 
 
@@ -52,17 +52,22 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
     When you close the opportunity as **Lost**, in the **Close Opportunity** dialog box, do the following, and select **OK**:
   
-    -  In **Competitor**, select a competitor you lost this opportunity to
+    -  In **Competitor**, select a competitor you lost this opportunity to.
     
     -  In **Description**, add more details around why the opportunity was lost.
 
         ![Close Opportunity dialog box when the opportunity is lost](media/close-as-lost.png "Close Opportunity dialog box when the opportunity is lost")
 
-For information on how to resolve the common errors that you may see while you close an opportunity, see the [troubleshooting guide](troubleshooting.md).
+    > [!IMPORTANT]
+    > - If your system administrator has enabled custom fields on the Opportunity Close form, you may be required to fill in data in other fields as defined by your organization. The capability to enable custom fields on the Opportunity Close form is in preview.  [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md). 
+    > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+
+
+For information on how to resolve the common errors that you may see while closing an opportunity, see the [troubleshooting guide](troubleshooting.md).
 
 ## Reopen a closed opportunity
 
-If you've closed an opportunity as lost, but would like to start discussions about a potential sales, you may want to reopen a closed opportunity.
+If you've closed an opportunity as lost, but would like to start discussions about a potential sale, you may want to reopen a closed opportunity.
 
 1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
    
@@ -72,7 +77,7 @@ If you've closed an opportunity as lost, but would like to start discussions abo
 
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
-    ![Closed Opportunities view in the View selector](media/select-closed-opportunities-view.png "Closed Opportunities view in the View selector")
+    ![Closed Opportunities view in the view selector](media/select-closed-opportunities-view.png "Closed Opportunities view in the view selector")
 
 3. Select the opportunity that you want to repoen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
   

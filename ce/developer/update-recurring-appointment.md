@@ -26,8 +26,6 @@ search.app:
 ---
 # Update a recurring appointment
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can either update the whole series or update an instance of a recurring appointment.  
   
 ## Update a recurring appointment series  

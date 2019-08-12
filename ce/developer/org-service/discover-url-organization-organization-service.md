@@ -23,8 +23,6 @@ search.app:
 
 # Discover the URL for your organization using the Discovery Service 
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the discovery service to determine the organizations that a user is a member of, and the endpoint address URL to access the organization service for each of those organizations. This discovery service is necessary because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps is a multi-tenant environment—a single [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server can host multiple business organizations. By using the discovery service, your application can determine the endpoint address URL to access the target organization’s business data.  
   
  For [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps installations, server and organization allocation may change as part of datacenter management and load balancing. Therefore, the discovery service provides a way to discover which [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server is serving your organization at a given time.  

@@ -46,8 +46,6 @@ search.app:
 
 # Customize labels to support multiple languages
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can support multiple languages by using labels.  
 
 <a name="BKMK_UsingLabels"></a>   

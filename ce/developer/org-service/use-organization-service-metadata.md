@@ -22,8 +22,6 @@ search.app:
 ---
 # Use the Organization service with Dynamics 365 for Customer Engagement metadata
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. Virtually all tasks to manage metadata can be performed by using the customization tools in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps. This section describes how to programmatically access and modify the metadata model.  
   
 > [!IMPORTANT]

@@ -25,8 +25,6 @@ search.app:
 
 # Sample: Detect multiple duplicate records
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for Dynamics 365 for Customer Engagement. Download the sample: [With with duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites

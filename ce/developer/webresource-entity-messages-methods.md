@@ -22,8 +22,6 @@ search.app:
 ---
 # WebResource entity messages and methods
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 A *web resource* stores the data equivalent to files used in web development. Web resources are client-side components that provide custom user interface elements. These resources are stored in the [WebResource Entity](entities/webresource.md).  
   
  The following table describes the messages for this entity, which you use with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  

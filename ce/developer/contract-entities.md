@@ -33,8 +33,6 @@ search.app:
 ---
 # Contract entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], a *contract* is an agreement to provide support during specified coverage dates or for a specified number of cases or length of time. When customers contact customer service, the level of support they receive is determined by their contract. 
 
 > [!NOTE]

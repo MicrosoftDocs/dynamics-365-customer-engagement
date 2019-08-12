@@ -22,8 +22,6 @@ search.app:
 ---
 # Best practices for developing with Dynamics 365 for Customer Engagement
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps.  
 
 > [!IMPORTANT]

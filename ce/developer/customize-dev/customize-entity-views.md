@@ -22,8 +22,6 @@ search.app:
 ---
 # Customize entity views
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Entity views are special saved queries that retrieve data by using a specific filter. They also contain information about how the data in the view should be displayed in the application. Entity views are `SavedQuery` records that you can create programmatically. You can also define them as XML, and import them into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement with an unmanaged solution.  
   
  An Entity view is different from a `UserQuery`. A user query, called a Saved view in the application, is owned by an individual user, can be assigned and shared with other users, and can be viewed by other users depending on the query's access privileges. This is appropriate for frequently used queries that span entity types and queries that perform aggregation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md)  

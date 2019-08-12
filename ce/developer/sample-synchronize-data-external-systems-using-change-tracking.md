@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample: Synchronize data with external systems using change tracking
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the `RetrieveEntityChangesRequest` message. For more information about the feature that this sample demonstrates, see [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md).  
 
  This sample requires [!INCLUDE[pn_crm_8_1_0_both](../includes/pn-crm-8-1-0-both.md)] or later . This sample is available to download from [Synchronize data with external systems using change tracking](http://go.microsoft.com/fwlink/p/?LinkId=533957).  

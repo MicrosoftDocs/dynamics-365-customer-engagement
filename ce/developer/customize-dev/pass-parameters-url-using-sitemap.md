@@ -22,8 +22,6 @@ search.app:
 ---
 # Pass parameters to a URL using the SiteMap
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 To give the target application information about the organization and the language context of the user and organization, 
 pass parameters to the target URL for a `<SubArea>` element in the site map. 
 All the parameters are passed if the `<SubArea>` element is configured by setting the `PassParams` attribute to `true`.  

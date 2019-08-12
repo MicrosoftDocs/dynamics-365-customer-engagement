@@ -22,8 +22,6 @@ search.app:
 ---
 # Webpage (HTML) web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use webpage (HTML) web resources to create user interface elements for client extensions.
 
 <a name="BKMK_Capabilities"></a>

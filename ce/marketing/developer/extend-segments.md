@@ -273,3 +273,19 @@ POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ExcludeMembersFromSegment
    msdyncrm_segmentmemberids: "[\"B5672BDB-8899-43CB-9FA1-0AE4DC61DAD3\", \"694E1C8E-F704-4B23-9B07-E65DB1620E47\", \"A4A31E3D-DFCA-4765-8018-3BA7D5E376C7\"]" 
 }
 ```
+**Retrieve segment members**
+
+```HTTP
+GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format="xml-platform" mapping="logical" returntotalrecordcount="true" page="1" count="5" no-lock="false">
+    <entity name="contact">
+        <attribute name="fullname"/>
+        <attribute name="contactid"/>
+        <order attribute="fullname" descending="false"/>
+        <link-entity name="msdyncrm_segment" from="msdyncrm_segmentid" to="msdyncrm_segmentmemberid" alias="bb">
+            <filter type="and">
+                <condition attribute="msdyncrm_segmentid" operator="eq" uitype="msdyncrm_segment" value="bfc9d5d6-d6aa-e911-a859-000d3a3159df"/>
+            </filter>
+        </link-entity>
+    </entity>
+</fetch>
+```

@@ -22,8 +22,6 @@ search.app:
 ---
 # Connect to Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provide a developer with many opportunities to add value to an organization using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Most of these opportunities will require understanding of a few essential concepts. The topics in this section will explain what options are available to you. Choose the approach that will work best for your solution.  
   
 ## In This Section  

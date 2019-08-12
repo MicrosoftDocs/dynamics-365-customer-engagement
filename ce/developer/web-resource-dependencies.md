@@ -22,8 +22,6 @@ search.app:
 ---
 # Web resource dependencies
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!NOTE]
 > Web resource dependencies were added with the [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
 

@@ -16,8 +16,6 @@ search.app:
 ---
 # QuoteDetail Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Product line item in a quote. The details include such information as product ID, description, quantity, and cost.
 
 **Added by**: Sales Solution

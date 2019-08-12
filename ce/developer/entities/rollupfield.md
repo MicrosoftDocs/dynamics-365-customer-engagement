@@ -16,8 +16,6 @@ search.app:
 ---
 # RollupField Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Field to be rolled up to calculate the actual and in-progress values against the goal.
 
 

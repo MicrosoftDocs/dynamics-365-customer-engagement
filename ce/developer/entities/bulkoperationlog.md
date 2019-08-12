@@ -16,8 +16,6 @@ search.app:
 ---
 # BulkOperationLog Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Log used to track bulk operation execution, successes, and failures.
 
 **Added by**: Marketing Solution

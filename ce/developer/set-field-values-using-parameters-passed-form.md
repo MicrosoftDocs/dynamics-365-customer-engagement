@@ -22,8 +22,6 @@ search.app:
 ---
 # Set field values using parameters passed to a form
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The content in this topic can be used for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. You can set default values for new records created by users by specifying attribute values in the URL that is used to open the form. By default, these values are set in the form, but can be changed by users before they save the record.  
   
 <a name="BKMK_PassingParameters"></a>   

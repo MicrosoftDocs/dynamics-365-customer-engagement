@@ -22,8 +22,6 @@ search.app:
 ---
 # Incident (case) hierarchies
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Incident entities can be related hierarchically. An administrator can use the **Parent and Child case settings** to configure specific behaviors for these relationships.  
   
  Within the application, people can create a new child incident or associate an existing incident to a parent incident. This association uses the `incident_parent_incident` relationship. When you create a new incident to be associated using this relationship, use the <xref:Microsoft.Crm.Sdk.Messages.InitializeFromRequest> message to initialize the new incident with the default values defined in the attribute mapping for this relationship.  

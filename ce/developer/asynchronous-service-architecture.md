@@ -24,8 +24,6 @@ search.app:
 ---
 # Asynchronous service architecture
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is that the asynchronous service can be hosted on servers other than the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server, resulting in improved performance. 
   
  Register plug-ins for asynchronous events when they have to perform lots of processing or for functions that are not time critical. Registering a plug-in that performs lots of processing for a synchronous event can adversely affect the performance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  

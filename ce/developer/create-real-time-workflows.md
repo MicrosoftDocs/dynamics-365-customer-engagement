@@ -21,8 +21,6 @@ search.app:
 ---
 # Create real-time workflows
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Similar to asynchronous workflows, real-time workflows can be used to model and automate real world business processes. They can optionally require user input, can start automatically based on specified event conditions, or can be started manually by a user. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] programming experience. You can create asynchronous or real-time workflows in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application or in code.  
   
  Some key points about a real-time workflow include the following items:  
