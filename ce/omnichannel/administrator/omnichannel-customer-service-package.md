@@ -53,7 +53,7 @@ Use this package if you'veUpd deployed any of the following packages, and want t
 - **Unified Service Desk - Omnichannel for Customer Service - Add-on**
 - **Unified Service Desk - Omnichannel for Customer Service** with customizations
 
-The **Upgrade** package updates the Customization files and creates the newly introduced out-of-the-box hosted controls ,events, and UII actions. 
+The **Upgrade** package updates the Customization files and creates the newly introduced out-of-the-box hosted controls, events, and UII actions. 
 
 > [!Note]
 > - If you are using the **Unified Service Desk - Omnichannel for Customer Service** package with no customizations, then we recommend you not to upgrade. Instead of deploying the upgrade package, deploy the **Unified Service Desk - Omnichannel for Customer Service**.
