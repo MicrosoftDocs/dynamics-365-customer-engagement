@@ -27,7 +27,14 @@ search.app:
 ---
 
 # QuickStart for Resource Schedule Optimization (RSO)
+
+Resource Schedule Optimization (RSO) automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+
+In this quickstart, let's configure RSO to schedule and optimize a group of work orders to a predefined list of resources. We will do this by setting up a scope, goal, and schedule that will run once a day to schedule work orders in the Washington state service territory to resources in that territory up to 48 hours in advance. 
+
 ## Prerequisites
+
+The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**
 
 Deploy RSO
 
@@ -46,6 +53,10 @@ Deploy RSO
 ## Create Goal
 
 ## Create Schedule
+
+## Run RSO
+
+## Analyze results
 
 ## Configuration considerations
 ## Additional Notes
