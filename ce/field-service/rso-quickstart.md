@@ -36,7 +36,8 @@ In this quickstart, let's configure RSO to schedule and optimize a group of work
 
 The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**
 
-Deploy RSO
+This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Schedule Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md)
+
 
 > [!Note]
 >
