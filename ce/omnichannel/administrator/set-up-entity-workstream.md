@@ -59,3 +59,5 @@ This topic describes how to create a workstream that is used to route case entit
 [Automate case routing](entity-channel.md)
 
 [Understand and create workstreams](work-streams-introduction.md)
+
+[Walkthrough: Automate entity record routing](automate-entity-record-routing.md)

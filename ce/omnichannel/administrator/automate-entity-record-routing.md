@@ -43,7 +43,9 @@ You must create a queue or enable existing queue to, automatically route the cas
 
 ## Step 2: Create workstream for case routing
 
-You must create workstreams, to automatically route the cases to the agents. To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
+You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
+
+To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
@@ -116,7 +118,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |
-| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams. |
+| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams Id. <br> **Note:** <li> Workstream Id is mandatory. </li> <li>Condition is optional.</li> |
 | Invoke Omnichannel | Do not modify. |
 
 ### Update work distribution flow
@@ -191,5 +193,12 @@ After creating the routing rules for the cases workstream, you must update **Cas
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
 
+## See also
 
+[Entity records routing](entity-channel.md)
 
+[Understand and create workstreams](work-streams-introduction.md)
+
+[Cases entity workstreams](set-up-entity-workstream.md)
+
+[Work with queues](queues-omnichannel.md)

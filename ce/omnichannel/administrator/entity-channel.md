@@ -206,3 +206,5 @@ After creating the routing rules for the cases workstream, you must update **Cas
 [Cases entity workstreams](set-up-entity-workstream.md)
 
 [Work with queues](queues-omnichannel.md)
+
+[Walkthrough: Automate entity record routing](automate-entity-record-routing.md)
