@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 69C527F6-E863-4D5E-9476-1936B6B79E35
@@ -31,6 +31,8 @@ Download the **OmnichannelUnifiedServiceDeskPackage.zip** and save it on your co
 
 - OmnichannelDemoPackage
 
+- OmnichannelUpgradePackage
+
 - Assembly files
 
 > [!Important]
@@ -43,6 +45,20 @@ Use this sample package if you have an existing deployment of Unified Service De
 ## Unified Service Desk – Omnichannel for Customer Service
 
 Use this sample package if you want to start using a new Unified Service Desk environment with Omnichannel. This package installs Unified Service Desk solutions and Omnichannel-supported solutions (Web resources) that are required to work with Unified Service Desk in the specified Customer Engagement organization. This package provides basic configuration data.
+
+## Unified Service Desk - Omnichannel for Customer Service - Upgrade
+
+Use this package if you'veUpd deployed any of the following packages, and want to upgrade to the latest version:
+
+- **Unified Service Desk - Omnichannel for Customer Service - Add-on**
+- **Unified Service Desk - Omnichannel for Customer Service** with customizations
+
+The **Upgrade** package updates the Customization files and creates the newly introduced out-of-the-box hosted controls ,events, and UII actions. 
+
+> [!Note]
+> - If you are using the **Unified Service Desk - Omnichannel for Customer Service** package with no customizations, then we recommend you not to upgrade. Instead of deploying the upgrade package, deploy the **Unified Service Desk - Omnichannel for Customer Service**.
+>
+> - The **Upgrade** package doesn't provide any additional configuration data such as Windows Navigation Rules, Action Calls, Entity Searches, and so on.
 
 ## Deploy package on Dynamics 365 for Customer Engagement instance
 
@@ -68,7 +84,7 @@ Use this sample package if you want to start using a new Unified Service Desk en
 
 To learn more, see [Deploy a sample Unified Service Desk package using Package Deployer](/dynamics365/customer-engagement/unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer?view=dynamics-usd-4#deploy-a-sample-unified-service-desk-package-using-package-deployer).
 
-<!-- ## Upgrade Omnichannel for Customer Service package
+## Upgrade Omnichannel for Customer Service package
 
 1. Run the **PackageDeployer.exe** file.
 
@@ -84,33 +100,33 @@ To learn more, see [Deploy a sample Unified Service Desk package using Package D
 
 7. A confirmation message is displayed on successful deployment of the package. Select **Next**.
 
-8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool. -->
+8. The **Upgrade Complete** screen displays the name and information about the package that you upgraded. Review the information, and choose **Finish** to exit the Package Deployer tool.
 
 ## Delete Unified Service Desk - Omnichannel for Customer Service package
 
 When you deploy an Omnichannel for Customer Service package in a Customer Engagement organization, the following managed solutions are created:
 
-  - OCUSDSolution
+  - OmnichannelUnifiedServiceDeskSolution
   - USDUnifiedInterfaceCustomization
   - DynamicsUnifiedServiceDesk
   - UiiForMicrosoftDynamicsCRM2011
  
     > [!Note]
-    > If you have deployed the Omnichannel New Environment package, then **OCUSDSolution** might not be present in the list of solutions.
+    > If you have deployed the Omnichannel New Environment package, then **OmnichannelUnifiedServiceDeskSolution** might not be present in the list of solutions.
  
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
 2. On the nav bar, choose **Settings** > **Solutions**.  
 
 4. On the Solutions page, select one of the solutions by selecting the check box, and then choose **Delete**. You are prompted to confirm uninstalling a managed solution. Choose **OK** to proceed. <br>
-   - OCSDSolution
+   - OmnichannelUnifiedServiceDeskSolution
    - USDUnifiedInterfaceCustomization
    - DynamicsUnifiedServiceDesk
    - UiiForMicrosoftDynamicsCRM2011
 
       > [!NOTE]
       > You must the delete the solutions in the following order:
-      > 1. OCUSDSolution
+      > 1. OmnichannelUnifiedServiceDeskSolution
       > 2. USDUnifiedInterfaceCustomization
       > 3. DynamicsUnifiedServiceDesk
       > 4. UiiForMicrosoftDynamicsCRM2011

@@ -34,6 +34,7 @@
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
 ##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
+#### [Entity records routing](administrator/entity-channel.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
@@ -41,6 +42,7 @@
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
+#### [Create cases entity work streams](administrator/set-up-entity-workstream.md)
 #### [Automatically identify customers using pre-chat responses](administrator/record-identification-rule.md)
 #### [Create and manage routing rules](administrator/routing-rules.md)
 
