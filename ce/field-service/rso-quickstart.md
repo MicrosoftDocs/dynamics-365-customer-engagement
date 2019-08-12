@@ -77,13 +77,42 @@ Each requirement can be set as eligible for optimization and this allows you to 
 
 Go to **Resource Scheduling > Resource Requirements** and then select the view you just created and highlight and edit those records.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-requirement-view-select.png)
 
+Then set the **Scheduling Method** to **Optimize**. This means that if RSO runs and targets this requirement, i can be scheduled automatically.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-requirement-view-bulk-edit.png)
+
+This can also be done individually for each requirement record as well.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-requirement-view-single-edit.png)
+
+You can also have the system automatically set work order requirements to be optimized by default when a work order requirement is created in **Booking Setup Metadata**. 
+
+Go to **Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities**
+
+Then double click on Work Order and set **Default Scheduling Method** to **Optimize**.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-bsm.png)
 
 
 ## Set resources as eligible for optimization 
+
+So at this point you have a set of work orders in the Washington territory that need to scheduled in an optimal way. But who could or should they be scheduled to?
+
+Let's define the resources that are eligible for optimization.
+
+To fulfill our scenario, we want to create a view of Bookable Resources that are part of the Washington (WA) state service territory. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-resource-view.png)wou
 
 ## Create Scope
 
