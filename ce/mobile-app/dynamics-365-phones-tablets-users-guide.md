@@ -155,7 +155,7 @@ Dashboards give you an overview of valuable information. Select on the Home butt
 
 Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can select an area of a chart to get more info.
 
-- Select once on a chart section to see a tooltip that provides quick info about that area of the chart.
+- On the chart, select once to see a tooltip that provides quick info about that area of the chart.
 
 - Select again on the same section to see a grid view with more details about the data in the chart.
   
@@ -188,6 +188,44 @@ The **Quick create Munu** makes it fast and easy to enter almost any type of inf
 
   > [!div class="mx-imgBorder"] 
   > ![Action menu](/media/actionmenu.png "Take action on a record").
+
+
+## Update your activities in the Timeline
+
+The timeline view helps you collaborate with your team by tracking communication history on a single page in an easy-to-read 360 view.  
+You can see everything from posts and voice attachments, to email and notes and more.
+
+**Add an activity**
+
+- Open a record and in the **Timeline** area, tap **+**, and select the type of activity that you want to add.
+
+![Dynamics 365 for phones and tablets add an activity](media/AddActivity.png "Dynamics 365 for phones and tablets add an activity")
+
+- Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type.
+
+- Tap ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
+
+**Take notes**
+
+The mobile app also lets you take notes and attach photos to a note, or take a new photo with your device's camera. So, if for example, you're out at a site and need to document a customer's issue with a product, you can capture and add it to a note right away, rather than taking the photo, then adding it from your camera roll later.
+
+To add a note, open a record and in the notes area enter your note.
+
+![Dynamics 365 for phones and tablets add picture to notes](media/AddPictureToNotes_16.png "Dynamics 365 for phones add picture to note")
+
+### Scan barcodes  
+Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
+
+## Send an email or make a call
+Call or send email to your customers easily from the mobile apps. Tap any phone number in a record to start a call, or tap the email button to send an email.
+
+![Dynamics 365 for phones and tablets send an email or make a call](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
+
+In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, tapping the phone button starts a Skype call. In [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)], it starts a phone call.
+
+When you’re finished with your call, the app prompts you to enter details about
+the call.
+
 
 ### Update an image for a record
 
@@ -304,121 +342,6 @@ When you start your day by signing in to Dynamics 365 for Customer Engagement ap
 2.  Tap **Relationship Assistant**.
 
     ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
-
-## Update your activities in the Timeline
-
-The timeline view helps you collaborate with your team by tracking communication history on a single page in an easy-to-read 360 view.  
-You can see everything from posts and voice attachments, to email and notes and more.
-
-**Add an activity**
-
-- Open a record and in the **Timeline** area, tap **+**, and select the type of activity that you want to add.
-
-![Dynamics 365 for phones and tablets add an activity](media/AddActivity.png "Dynamics 365 for phones and tablets add an activity")
-
-- Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type.
-
-- Tap ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
-
-**Take notes**
-
-The mobile app also lets you take notes and attach photos to a note, or take a new photo with your device's camera. So, if for example, you're out at a site and need to document a customer's issue with a product, you can capture and add it to a note right away, rather than taking the photo, then adding it from your camera roll later.
-
-To add a note, open a record and in the notes area enter your note.
-
-![Dynamics 365 for phones and tablets add picture to notes](media/AddPictureToNotes_16.png "Dynamics 365 for phones add picture to note")
-
-### Scan barcodes  
-Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
-
-## Send an email or make a call
-Call or send email to your customers easily from the mobile apps. Tap any phone number in a record to start a call, or tap the email button to send an email.
-
-![Dynamics 365 for phones and tablets send an email or make a call](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
-
-In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, tapping the phone button starts a Skype call. In [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)], it starts a phone call.
-
-When you’re finished with your call, the app prompts you to enter details about
-the call.
-
-<!-- old work offline content - added a new seperate for work offline.
-## Work offline 
-Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
-
-> [!NOTE]
-> - Mobile offline is only available for iOS and Android.
-
-When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
-
-1. When you see the **Offline Updates Available** dialog box, choose **Update**. 
-
-   ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
-  
-2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is available.
-
-    ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
-
-
-**See if offline mode is available**
-
-When the updates have download, you can check to see if mobile offline is available.
-
-1. From the nav bar, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap, **Offline Status**.
-  
-   ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
-
-2. **Offline Status**, tracks offline status of the whole app, and also the status of each entity individually. When the status shows as  **Available**, it indicates offline is available and data has synced successfully.
-
-   > [!NOTE] 
-   > The status here can be **Not Available** due to an error or if you missed downlading offline updates. If the status is **Not Available** due to missing the latest offline updates, then try downloading the updates again.
- 
-   - **Entity Status**, provides the offline status of each entity individually. For the available entities you can also track the last time the entity synced.
- 
-     ![Mobile offline status](media/OfflineStatus.png "Mobile offline status")
- 
-   You can also track offline status of entities from the **Menu** ![Menu button](media/MenuButton.png "Menu button") button.
-
--  Green Wi-Fi icon next to the entity name indicates that it is available in offline mode.
--  Red Wi-Fi icon indicates that this entity is enabled for offline but is not available to work in offline mode due to an error or missing updates.
--  No Wi-Fi icon indicates that your admin has not enabled the entity to use in offline mode.
-
-   ![Available entities for mobile offline](media/available_entites.png "Available entities for mobile offline")
-  
-**Background sync**
-
-Background sync is enabled even when the app is minimized so long as a network connection is detected. But when the app is in the background, metadata changes will not be accepted automatically. 
-
-Other things to keep in mind about background sync: 
-  
-- Sync will run until you sign in to the mobile app.    
-  
-- While the app is running in the background, sync is automatically disabled when a network is disabled.  
-  
-- When you bring the app to the  foreground, regular sync is detected and enabled.  
-  
-- Background sync is disabled when the device is locked and enabled when the device is unlocked.  
-  
-- While the app is running in the background,  metadata changes will not be accepted automatically. The mobile app will stop the background sync.  
-  
-- When you bring the app to the  foreground, you are prompted to accept the metadata changes.  
-  
-- While the app is running in the foreground, after metadata is updated, the app will switch to regular sync.  
-  
-  Background sync will be disabled if:  
-  
-- Your user token expires in the background.  
-  
-- The application closes for some reason.  
-  
-- Your device locks.  
-  
-  Background sync is available on all supported devices. See [support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
- 
-**Sync conflict resolution** 
-
-If multiple entries are made in the same field by offline users (for example, two or more “close by” dates), the conflict is clearly marked and you can choose the correct entry.  
-  
-If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes. -->
  
 
 
