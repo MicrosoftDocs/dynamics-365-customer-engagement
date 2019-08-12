@@ -86,21 +86,21 @@ An expression that can be called on the result of [TRAVERSE](#traverse) or insid
 
 ## MIN
 
-n expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `MIN(propertyName)`
 
 ## MAX
 
-n expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `MAX(propertyName)`
 
 ## SUM
 
-Expression that can be called on the result of `TRAVERSE` call or inside `HAVING` function, for a purpose of grouping conditional expression. 
+An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression.  
 
 **Syntax**
 `SUM(propertyName)` 
@@ -148,7 +148,7 @@ An expression used to add a given number of years/months/days/ to a given date.
 **Syntax**
 `DATEADD(datePart, number, date)` 
 
-##ISNULL
+## ISNULL
 
 An expression to determine if the property is NULL. 
 
@@ -188,7 +188,7 @@ Grammar definition describes how you can use the query language.
 
 ## Rules
 
-|Function| Value|
+|Function| Value| 
 |-------|-------|
 |simpleProfileSegmentDefinition| profileFunction or profileFunction.traverseQueryList |
 |profileFunction| PROFILE(identifier)| 
@@ -261,7 +261,7 @@ Grammar definition describes how you can use the query language.
  
  **FILTER(condition)**
  
-[PROFILE](#profile) and SEGMENT have no limitation for FILTER(condition). The filter has the only limitation in INTERACTION segment. No support of Date, DATEDIFF, DATEADD, DATETIMEUTCNOW, CONTAINS, STARTSWITH, ENDSWITH.
+[PROFILE](#profile) and [SEGMENT](#segment) have no limitation for FILTER(condition). The filter has the only limitation in [INTERACTION](#interaction) segment. No support of Date, DATEDIFF, DATEADD, DATETIMEUTCNOW, CONTAINS, STARTSWITH, ENDSWITH.
 
 ## Examples
 
@@ -322,10 +322,10 @@ Grammar definition describes how you can use the query language.
      SegmentOnProfilesFromColorRun =PROFILE(Event).FILTER(Name == 'ColorRun').TRAVERSE(SignedToEvent) 
      SegmentOnProfilesWithMembership =PROFILE(Membership).TRAVERSE(InSubscription, FILTER(Status == 'Active'))` 
 
-      **Result**
+    **Result**
 
-       `SEGMENT(SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge)INTERSECT 
-        SEGMENT(SegmentOnProfilesFromColorRun)EXCEPT SEGMENT(SegmentOnProfilesWithMembership)`
+     `SEGMENT(SegmentOnProfilesFromAlwaysActiveAndFitnessChallenge)INTERSECT 
+      SEGMENT(SegmentOnProfilesFromColorRun)EXCEPT SEGMENT(SegmentOnProfilesWithMembership)`
 
 9. Segment all the contacts that have unsubscribed in the last 1 month.  
 
