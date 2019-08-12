@@ -189,7 +189,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 8. Select the **Set variable** option.
 
-9. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Cases Workstream** is one of the workstream that you created earlier. The value appears in the list, and when you select the value, it is added to the field. 
+9. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Case Workstream** is one of the workstream that you created earlier. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
     > If you update the name of the workstream, then you must perform step 12. Otherwise, the cases won't be automatically distributed to the agents.
