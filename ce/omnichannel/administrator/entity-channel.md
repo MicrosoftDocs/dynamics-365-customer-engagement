@@ -83,14 +83,14 @@ After creating the workstream for the cases, you must create the routing rules.
 
 1. Sign in to the Omnichannel for Administrator app.
 
-2. Select **Cases** under **Channels** in the sitemap.
+2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select the workstream you created for routing the cases from the **Case Workstreams** view.
+3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
 
     > [!div class=mx-imgBorder] 
     > ![Select a case workstream](../media/case-entity-channel.png  "Case workstream")
 
-4. Select the **Routing rule items** tab in the workstream.
+4. Select the **Routing Rules** tab in the workstream.
 
     > [!div class=mx-imgBorder] 
     > ![Select the routing rule items tab](../media/case-routing-rule.png "Routing rule items")
