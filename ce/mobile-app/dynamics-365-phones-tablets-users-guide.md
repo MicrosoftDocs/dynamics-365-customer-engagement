@@ -171,29 +171,39 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 ## Work with records
 
-The **Quick create Munu** makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it’s available whenever you need to enter new information into the system. You can also save a record and create a new one directly from the Quick create form.
+The **Quick create Menu** makes it fast and easy to enter almost any type of information into the system. 
     
-1.  To create a new record, on the nav bar select, the More button  ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
+1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
 2.  Select **Quick Create Menu** and then choose a record type.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Quick create menu](/media/quickcreate.png "Quick create menu")
+    > [!div class="mx-imgBorder"] 
+    > ![Quick create menu](/media/quickcreate.png "Quick create menu")
 
-3.  Enter the required information and then select **Save and Close**.
+3. From the list select the type of activity or record you want to create. 
+
+    > [!div class="mx-imgBorder"] 
+    > ![Quick create menu](/media/quickcreate3.png "Quick create menu")
+    
+4. Enter the required information for the record and then select **Save and Close**.
 
 ### Take action on record
 
-- Take action on a record without opening the record. From a list of records, select the record that you want to update, then on the command bar select an action such as **Assign**, **Deactivate** or **Delete**. You can take a similar action when you select multiple records.
+Take action on a record without opening the record. 
+
+1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"). Select the record type that you want to update, such as, **Accounts**.
+
+2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-3pp/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update.
+
+3. Then  select an action such as **Assign**, **Deactivate** or **Delete**. 
 
   > [!div class="mx-imgBorder"] 
   > ![Action menu](/media/actionmenu.png "Take action on a record").
 
 
-## Update your activities in the Timeline
+## Add activities in the Timeline wall 
 
-The timeline view helps you collaborate with your team by tracking communication history on a single page in an easy-to-read 360 view.  
-You can see everything from posts and voice attachments, to email and notes and more.
+Add activities in the Timeline wall to keep track of all your communications with a customer or contact. You add notes, posts,task, send email, add phone call details, or set up appointments. The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
 
 **Add an activity**
 
