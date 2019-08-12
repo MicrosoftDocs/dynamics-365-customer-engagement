@@ -21,9 +21,7 @@ ms.custom:
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
 
-- **Unified routing for entity records:** Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to static queues, and then these cases are either manually by supervisors or manually picked by agents.
-
-    With unified routing, entity records can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
+- **Unified routing for entity records:** With unified routing, entity records can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
 
     This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
@@ -38,10 +36,6 @@ This section contains information about new features and enhancements in Omnicha
     - Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
 
     More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
-
-- **Conversation state for entity routing:** The various conversation states for an entity record like case is introduced.
-
-    More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md)
 
 ### Administrator experience
 

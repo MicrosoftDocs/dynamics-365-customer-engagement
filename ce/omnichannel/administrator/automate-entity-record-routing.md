@@ -1,6 +1,6 @@
 ---	
-title: Automate case routing using entity records channel | MicrosoftDocs	
-description: Learn how you can route cases automatically using entity records channel in the Omnichannel for Administrator app."		
+title: "Automate case routing using entity records channel | MicrosoftDocs"	
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."		
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -8,10 +8,11 @@ applies_to:
 ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
-ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
+ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
----	
-# Entity records routing
+---
+
+# Walkthrough: Automate entity record routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -23,56 +24,28 @@ ms.custom:
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
 ## Overview
- 
-In Omnichannel, entity records channel helps you to automatically route cases to the agents based on the agents' capacity and availability.
 
-> [!Note]
-> Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
+This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record work streams, routing rules, and update work distribution flow to, automatically distribute entity records to the agents based on the capacity and availability.
 
-### Automatic distribution of cases
+### In this section
 
-Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to static queues, and then these cases are either manually by supervisors or manually picked by agents.
+[Step 1: Create queues](#step-1-create-queues)
 
-With unified routing, cases can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS.
+[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)4
 
-That is, the cases are routed to the queues based on the routing rules, and then the work distribution engine distributes the cases automatically to the agents based on the availability and capacity.
+[Step 3: Create routing rules](#step-3-create-routing-rules)
 
-This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
-
-## Prerequisites
-
-To configure entity records channel for case routing and automatic distribution, ensure:
-
-- You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution]().
-
-## Entity records channel
-
-Omnichannel leverages the CDS queue entity to automatically route entity records. In omnichannel, first, the application routes the entity records to the queues. From the queues the work distribution engine automatically distributes the entity records to the agents.
-
-### Automatic case distribution work flow
-
-**Entity Records** appears under the **Channels** in the Omnichannel for Administrator app. When you select the **Entity Records**, a blank **Entity Record Workstreams** view appears. You must create workstreams to route the case records.
-
-To setup the **Entity Record** channel and route the cases, follow the steps:
-
-| Step | Description |
-|---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues](#step-1-create-queues) | You must create a new Omnichannel queue or use an existing Omnichannel queue to route cases to the queues. |
-| [Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing) | You must create new workstreams to route the cases. |
-| [Step 3: Create routing rules](#step-3-create-routing-rules) | You must create routing rules, to automatically distribute the cases to the agents. |
-| [Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow) | You must update the Cases Work Distribution Flow with the workstream ID, to automatically distribute the cases to the agents. The Omnichannel application creates **Cases Work Distribution Flow** when you enable an entity records channel. |
+[Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow)
 
 ## Step 1: Create queues
 
 You must create a queue or enable existing queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
-> [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox, to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png  "Automatic record movement to the agent's default queue")
-
 ## Step 2: Create workstream for case routing
 
-You must create workstreams, to automatically route the cases to the agents. To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
+You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
+
+To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
@@ -88,12 +61,12 @@ After creating the workstream for the cases, you must create the routing rules.
 3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel1.png  "Case workstream")
+    > ![Select a case workstream](../media/case-entity-channel.png  "Case workstream")
 
 4. Select the **Routing Rules** tab in the workstream.
 
     > [!div class=mx-imgBorder] 
-    > ![Select the routing rule items tab](../media/case-routing-rule1.png "Routing rule items")
+    > ![Select the routing rule items tab](../media/case-routing-rule.png "Routing rule items")
 
 5. Select **+ New** in the **All Routing Rule Sets** page.
 
@@ -150,8 +123,6 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 ### Update work distribution flow
 
-#### Navigate to the flow
-
 1. Sign in to Microsoft Flow.
 
 2. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
@@ -174,37 +145,60 @@ After creating the routing rules for the cases workstream, you must update **Cas
     > [!div class=mx-imgBorder] 
     > ![Select the Edit button](../media/case-work-distribution-flow4.png "Edit the Cases Work Distribution Flow")
 
-#### Authenticate
-
 6. Select the flow component that shows the warning icon, and select **+ Add new connection** to resolve the warning. The flow component uses the current user credentials and resolves the warning.
 
     ![Resolve flow warning](../media/flow-error1.png "Resolve flow warning")
 
-#### Update the workstream Id
-
-7. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition**.
+7. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
 
     > [!div class=mx-imgBorder] 
     > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
 
-8. Select the **Set variable** option.
+8. Select the search box to add a rule. A flyout control appears. Type a rule name in the search box. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
-9. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Case Workstream** is one of the workstream that you created earlier. The value appears in the list, and when you select the value, it is added to the field. 
+    > [!div class=mx-imgBorder] 
+    > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
+
+9. Select a condition from the list. For example, **is equal to**.
+
+10. Type the rule value in the field. For example, **1**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
+
+11. Select the **Set variable 4** option under the **If yes** section.
+
+12. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
     > If you update the name of the workstream, then you must perform step 12. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
-    > ![Set the If yes variable value](../media/case-work-distribution-flow-case-workstream.png "Set variable value")
+    > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-10. Select **Save** to save **Cases Work Distribution Flow**.
+13. Select the **Set variable 5** option under the **If no** section.
 
-### See also 	
+14. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+
+    > [!Note]
+    > - If you update the name of the workstream, then you must perform step 14. Otherwise, the cases won't be automatically distributed to the agents.
+    >
+    > - Adding multiple workstreams is the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
+
+    > [!div class=mx-imgBorder] 
+    > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
+
+15. Select **Save** to save **Cases Work Distribution Flow**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
+
+## See also
+
+[Entity records routing](entity-channel.md)
 
 [Understand and create workstreams](work-streams-introduction.md)
 
 [Cases entity workstreams](set-up-entity-workstream.md)
 
 [Work with queues](queues-omnichannel.md)
-
-[Walkthrough: Automate entity record routing](automate-entity-record-routing.md)
