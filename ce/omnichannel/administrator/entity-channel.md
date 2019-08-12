@@ -88,12 +88,12 @@ After creating the workstream for the cases, you must create the routing rules.
 3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel.png  "Case workstream")
+    > ![Select a case workstream](../media/case-entity-channel1.png  "Case workstream")
 
 4. Select the **Routing Rules** tab in the workstream.
 
     > [!div class=mx-imgBorder] 
-    > ![Select the routing rule items tab](../media/case-routing-rule.png "Routing rule items")
+    > ![Select the routing rule items tab](../media/case-routing-rule1.png "Routing rule items")
 
 5. Select **+ New** in the **All Routing Rule Sets** page.
 
@@ -195,12 +195,9 @@ After creating the routing rules for the cases workstream, you must update **Cas
     > If you update the name of the workstream, then you must perform step 12. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
-    > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
+    > ![Set the If yes variable value](../media/case-work-distribution-flow-case-workstream.png "Set variable value")
 
 10. Select **Save** to save **Cases Work Distribution Flow**.
-
-    > [!div class=mx-imgBorder] 
-    > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
 
 ### See also 	
 

@@ -27,12 +27,19 @@ ms.custom:
 
 This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record work streams, routing rules, and update work distribution flow to, automatically distribute entity records to the agents based on the capacity and availability.
 
+### In this section
+
+[Step 1: Create queues](#step-1-create-queues)
+
+[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)4
+
+[Step 3: Create routing rules](#step-3-create-routing-rules)
+
+[Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow)
+
 ## Step 1: Create queues
 
 You must create a queue or enable existing queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
-
-> [!Note]
-> If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox, to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png  "Automatic record movement to the agent's default queue")
 
 ## Step 2: Create workstream for case routing
 
