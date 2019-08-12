@@ -40,6 +40,8 @@ Resource Schedule Optimization works with Resource Scheduling to schedule field 
 
 This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Schedule Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md)
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of RSO app](media/.png)
 
 ## Turn on RSO
 
@@ -56,6 +58,12 @@ Select a **Default Goal**. Among other uses, a default goal tells RSO what to pr
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of default goal deployed with Resource Scheduling Optimization](media/rso-default-goal-2.png)
+
+## Verify Booking Statuses
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](media/rso-quickstart-booking-statuses.png)
 
 ## Set work orders to optimize
 
@@ -114,7 +122,9 @@ To fulfill our scenario, we want to create a view of Bookable Resources that are
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-resource-view.png)
 
-Then for each resource, set the **Optimize Schedule** field to **Yes**.
+After the view is created to partition the bookable resources that will later be fed into RSO, the next step is to ensure they are marked as eligible for optimization.
+
+For each resource in your view, set the **Optimize Schedule** field to **Yes**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-resource-list.png)
@@ -126,11 +136,19 @@ Similar to requirements, this can be done individually or via a bulk update.
 > ![Screenshot of ](./media/rso-quickstart-resource-field.png)
 
 
-
-
-
-
 ## Create Scope
+
+Now that we have enabled RSO, and have:
+
+1. a list of the requirements (work orders) we want to optimize and 
+2. a list of the resources that the requirements should be scheduled to, 
+
+the next step is to set up an RSO run and input both of these lists.
+
+Go to the **Resource Scheduling Optimization app** which is a separate app from Field Service and Resource Scheduling apps. 
+
+Then choose **Optimization Scopes** in the left pane then **+New**.
+
 
 ## Create Goal
 
