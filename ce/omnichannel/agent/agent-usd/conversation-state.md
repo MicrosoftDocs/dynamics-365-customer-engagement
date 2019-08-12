@@ -135,8 +135,10 @@ To learn more, see [Create a work stream](../../administrator/work-streams-intro
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Automatic closure of a conversation](../../developer/auto-close-conversation.md).
 
 > [!div class="nextstepaction"]
-> [Next topic: View alert and toast notifications](notifications.md)
+> [Next topic: View alert and toast notifications](notifications.md) 
 
 ## See also
 
 [View communication panel](left-control-panel.md)
+
+[Automatic closure of a conversation](../../developer/auto-close-conversation.md)
