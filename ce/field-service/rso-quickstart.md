@@ -41,8 +41,6 @@ Resource Schedule Optimization works with Resource Scheduling to schedule field 
 This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Schedule Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md)
 
 
-
-
 ## Turn on RSO
 
 After deploying RSO into your environment, the first step is to enable the solution. 
@@ -65,13 +63,25 @@ Next, create a system view that filters resource requirements to the ones you wa
 
 Create a new view in **Settings > Customizations**
 
-For our quickstart scenario, create a new for resource requirements that relate to work orders in the Washington (WA) service territory.
+For our quickstart scenario, create a new view for the Resource Requirement entity for requirements related to work orders in the Washington (WA) service territory.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-requirement-view.png)
 
 > [!Note]
 > When using Resource Scheduling you schedule resource requirement records related to work orders, cases, custom entities, etc rather than scheduling those entities.
+
+Next, ensure the requirements in that view are eligible for optimization.
+
+Each requirement can be set as eligible for optimization and this allows you to add workflows and business processes to which requirements should be automatically scheduled with RSO and others that should be scheduled manually.
+
+Go to **Resource Scheduling > Resource Requirements** and then select the view you just created and highlight and edit those records.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-requirement-view-select.png)
+
+
 
 ## Set resources as eligible for optimization 
 
