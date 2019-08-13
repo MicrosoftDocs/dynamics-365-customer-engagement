@@ -28,4 +28,4 @@ search.app:
 
 # Booking alerts in Dynamics 365 for Field Service
 
-[!INCLUDE[topic-urs-booking-alert.md](../includes/topic-urs-booking-alert.md)]
+[!INCLUDE[topic-urs-booking-alert.md](../shared/urs/booking-alert.md)]

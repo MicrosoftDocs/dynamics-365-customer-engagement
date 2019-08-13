@@ -10,6 +10,7 @@ ms.topic: article
 ms.prod: 
 ms.service: business-applications
 ms.technology: Dynamics 365 for Project Service 3.x
+author: rumant
 ms.author: rumant
 audience: Admin
 search.audienceType: 
