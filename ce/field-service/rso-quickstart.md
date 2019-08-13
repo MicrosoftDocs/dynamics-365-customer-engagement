@@ -150,9 +150,20 @@ Go to the **Resource Scheduling Optimization app** which is a separate app from 
 Then choose **Optimization Scopes** in the left pane then **+New**.
 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-scope.png)
+
 ## Create Goal
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-goal.png)
+
 ## Create Schedule
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-schedule.png)
 
 ## Run RSO
 
