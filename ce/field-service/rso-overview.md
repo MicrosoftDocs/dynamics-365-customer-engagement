@@ -2,7 +2,7 @@
 title: Resource Scheduling Optimization (RSO)
 author: shellyhaverkamp
 manager: shellyha
-ms.date: 06/08/2018
+ms.date: 08/07/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice

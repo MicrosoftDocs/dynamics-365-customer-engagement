@@ -2,7 +2,7 @@
 title: "Try Chat for Dynamics 365 | MicrosoftDocs"
 description: "Learn how you can try out Chat For Dynamics 365 to connect and engage with your customers in real time."
 keywords: "try, Chat, Chat for Dynamics 365, Trials, sign in, sign-in, login"
-ms.date: 08/05/2019
+ms.date: 08/08/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
@@ -70,7 +70,7 @@ Once Chat is enabled in your organization, you can sign in to Dynamics 365 organ
 With this option, you can get a free 30-day trial of Chat through [https://trials.dynamics.com](https://trials.dynamics.com). You must have an existing organizational account and must be a global administrator to enable the trial. 
 
 > [!NOTE]
-> This option is currently available only in Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
+> This option is currently available only in North America, Europe, Canada, and United Kingdom. Your tenant must be located in one of these regions. 
 
 ### Step 1: Get a Dynamics 365 trial instance
 

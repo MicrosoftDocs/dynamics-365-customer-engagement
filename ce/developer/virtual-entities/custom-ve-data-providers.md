@@ -98,9 +98,6 @@ If for any reason your code cannot achieve the expected result, you must throw t
 |TimeoutException|The external operation did not complete within the allowed time; for example, the result of a HTTP status 408 from the external data service.|
 | | |
 
-To assist you in plug-in development, the Dynamics 365 for Customer Engagement apps Data SDK contains the _Plugin Profiler and Debugger_; for more information see [TBD]<!-- TODO: Obtain information on this tool, create subtopic. -->.
-
-
 ### Plug-in registration
 
 Unlike an ordinary plugin, you will only use the _Plugin Registration Tool_ (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [Microsoft.Dynamics.CRM.EntityDataProvider](../entities/entitydataprovider.md) and [Microsoft.Dynamics.CRM.EntityDataSource](../entities/entitydatasource.md) entities. 

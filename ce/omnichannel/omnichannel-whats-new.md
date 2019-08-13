@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B8D892A6-C186-406F-AA68-A10903943EF1
@@ -17,7 +17,31 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+##  What's new in August 2019 General Availability
+
+This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
+
+- **Unified routing for entity records:** With unified routing, entity records can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
+
+    This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
+
+    More information: [Entity records routing](administrator/entity-channel.md) and [Cases entity work streams](administrator/set-up-entity-workstream.md)
+
+- **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
+
+    Advantages of automatically closing a conversation:
+
+    - Conversations don’t stay in a state for long duration.
+    - Capacity of the agent is unblocked.
+    - Conversations achieve a closure and agents can focus on important conversations thus enhancing productivity.
+
+    More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
+
+### Administrator experience
+
 ##  What's new in July 2019 General Availability
+
+This section contains information about new features and enhancements in Omnichannel for Customer Service July 2019 update.
 
 ### Agent experience
 
@@ -44,7 +68,7 @@ ms.custom:
 
 ##  What's new in April 2019 update
 
-This topic contains information about updates in Omnichannel for Customer Service available in this version.
+This section contains information about new features and enhancements in Omnichannel for Customer Service April 2019 update.
 
 ### Administrator experience
 
