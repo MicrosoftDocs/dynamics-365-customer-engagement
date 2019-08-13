@@ -171,7 +171,7 @@ Charts give you a quick view of how you’re tracking to your goals. They’re i
 
 ## Work with records
 
-The **Quick create Menu** makes it fast and easy to enter almost any type of information into the system. 
+The **Quick create Menu** makes it fast and easy to add data into the system. 
     
 1.  To create a new record, on the navigation bar select, the More button ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
 
@@ -193,9 +193,10 @@ Take action on a record without opening the record.
 
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**.
 
-2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update.
+  > [!div class="mx-imgBorder"] 
+  > ![Choose record](media/actionmenu1.png "Choose record").
 
-3. Select an action such as **Assign**, **Deactivate** or **Delete**. 
+2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
 
   > [!div class="mx-imgBorder"] 
   > ![Action menu](media/actionmenu.png "Take action on a record").
