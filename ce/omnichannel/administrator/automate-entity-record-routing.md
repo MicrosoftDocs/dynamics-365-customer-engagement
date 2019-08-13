@@ -1,5 +1,5 @@
 ---	
-title: "Automate case routing using entity records channel | MicrosoftDocs"	
+title: "Create multiple workstreams for entity records routing | MicrosoftDocs"	
 description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."	
 author: kabala123	
 ms.author: kabala	
@@ -12,7 +12,7 @@ ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
 ---
 
-# Walkthrough: Automate entity record routing
+# Walkthrough: Create multiple workstreams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -25,13 +25,18 @@ ms.custom:
 
 ## Overview
 
-This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record workstreams, routing rules, and update work distribution flow to, automatically distribute entity records to the agent's based on the capacity and availability.
+You can setup multiple workstreams for same entity records if you want to distribute the entity records to different workstreams based on certain conditions. 
+
+For example, you want high priority cases to be pushed to agents and demand more capacity than low priority cases, which can be picked by agents. You can achieve it by configuring multiple workstreams.
+
+This walkthrough demonstrates how to set up two workstreams, one each for high priority cases and low priority cases and route the cases automatically.
+
 
 ### In this section
 
 [Step 1: Create queues](#step-1-create-queues)
 
-[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)4
+[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)
 
 [Step 3: Create routing rules](#step-3-create-routing-rules)
 
@@ -81,25 +86,25 @@ After creating the workstream for the cases, you must create the routing rules.
 
     | Tab | Field | value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
-    | General | Name | Push cases | Specify a name to the rule item. |
+    | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
 9. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
 
-    a. Select a rule from the list for the first box. For example, **Priority**.
+    a. Select a rule from the list for the first box. For example, **Subject**.
 
-    b. Select a condition from the list. For example, **Equals**.
+    b. Select a condition from the list. For example, **Contains**.
 
-    c. Select a value for the rule from the list. For example, **High**.
+    c. Select a value for the rule from the list. For example, **Credit card**.
 
 10. Select **Queue** for the **Route to** field. 
 
 11. Select an omnichannel queue for the **Add to Queue** field.
 
-    The steps 9 to 11 indicate if the **Priority** of a case is **High**, then route the case to the selected omnichannel queue.
+    The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
-    > ![New Rule Item values](../media/case-ws-rr-rule-item1.png "New Rule Item values")
+    > ![New Rule Item values](../media/case-ws-rr-rule-item2.png "New Rule Item values")
 
     > [!Note]
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
@@ -199,6 +204,6 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Cases entity workstreams](set-up-entity-workstream.md)
+[Entity record workstreams](set-up-entity-workstream.md)
 
 [Work with queues](queues-omnichannel.md)

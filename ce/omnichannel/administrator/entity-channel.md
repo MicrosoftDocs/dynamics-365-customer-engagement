@@ -31,7 +31,7 @@ In Omnichannel for Administrator, **Cases entity record** channel helps you to a
 
 ### Automatic distribution of cases
 
-Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to static queues, and then these cases are either manually by supervisors or manually picked by agents.
+Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to the manual queues, and then these cases are either manually by supervisors or manually picked by agents.
 
 With unified routing for entity records, cases can be routed to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS.
 
@@ -106,25 +106,25 @@ After creating the workstream for the cases, you must create the routing rules.
 
     | Tab | Field | value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
-    | General | Name | Push cases | Specify a name to the rule item. |
+    | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
 9. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
 
-    a. Select a rule from the list for the first box. For example, **Priority**.
+    a. Select a rule from the list for the first box. For example, **Subject**.
 
-    b. Select a condition from the list. For example, **Equals**.
+    b. Select a condition from the list. For example, **Contains**.
 
-    c. Select a value for the rule from the list. For example, **High**.
+    c. Select a value for the rule from the list. For example, **Credit card**.
 
 10. Select **Queue** for the **Route to** field. 
 
 11. Select an omnichannel queue for the **Add to Queue** field.
 
-    The steps 9 to 11 indicate if the **Priority** of a case is **High**, then route the case to the selected omnichannel queue.
+    The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
-    > ![New Rule Item values](../media/case-ws-rr-rule-item1.png "New Rule Item values")
+    > ![New Rule Item values](../media/case-ws-rr-rule-item2.png "New Rule Item values")
 
     > [!Note]
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
@@ -143,7 +143,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |
-| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams Id. <br> **Note:** <li> Workstream Id is mandatory. </li> <li>Condition is optional.</li> |
+| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the workstreams Id. <br> **Note:** <li> Workstream Id is mandatory. </li> <li>Condition is optional.</li> |
 | Invoke Omnichannel | Do not modify. |
 
 ### Update work distribution flow
@@ -201,8 +201,8 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Cases entity workstreams](set-up-entity-workstream.md)
+[Entity record workstreams](set-up-entity-workstream.md)
 
 [Work with queues](queues-omnichannel.md)
 
-[Walkthrough: Automate entity record routing](automate-entity-record-routing.md)
+[Walkthrough: Create multiple workstreams for entity records routing](automate-entity-record-routing.md)

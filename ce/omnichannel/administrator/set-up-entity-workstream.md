@@ -13,7 +13,7 @@ ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F
 ms.custom: 	
 ---	
 
-# Cases entity work streams
+# Entity record workstreams
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -24,9 +24,12 @@ ms.custom:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
-## Create case entity workstream
+## Create entity record workstream
 
 This topic describes how to create a workstream that is used to route the case entity record.
+
+> [!NOTE]
+> In the August 2019 update release, by default, entity records workstream routes and distributes only the **Case** entity record. Support for other entity records will be available in the future release, and you can select the entity record you want to route.
 
 1. Sign in to the Omnichannel for Administrator app.
 
@@ -42,7 +45,7 @@ This topic describes how to create a workstream that is used to route the case e
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
     | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
-    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. |
+    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. <br> **Note:** <ul> <li> In the August 2019 update release, by default, entity records workstream routes and distributes only the **Case** entity record. Support for other entity records will be available in the future release, and you can select the entity record you want to route. </li> </ul>|
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Assign Work Item After Decline or Timeout | 2 minutes | Set the time after which the case is assigned to the agent again once the agent has declined the work item or the request has timed out. <ul><li> The value provided is an example. </li></ul> |
@@ -60,4 +63,4 @@ This topic describes how to create a workstream that is used to route the case e
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Walkthrough: Automate entity record routing](automate-entity-record-routing.md)
+[Walkthrough: Create multiple workstreams for entity records routing](automate-entity-record-routing.md)
