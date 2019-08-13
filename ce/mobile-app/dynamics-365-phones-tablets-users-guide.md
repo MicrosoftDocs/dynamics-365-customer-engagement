@@ -202,19 +202,31 @@ Take action on a record without opening the record.
   > ![Action menu](media/actionmenu.png "Take action on a record").
 
 
-## Add activities in the Timeline wall (HERE)
+## Add activities in the Timeline 
 
-Add activities in the Timeline wall to keep track of all your communications with a customer or contact. You add notes, posts,task, send email, add phone call details, or set up appointments. The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.
+Activities are details that you add to record which include things like notes, posts, task, send email, add phone call details, or set up appointments. These activities are added in the Timeline wall of a record and it keeps track of all your communications for the record in the Timeline section. The system automatically timestamps every activity and shows who created it. 
 
-**Add an activity**
+**View an activity**
 
-- Open a record and in the **Timeline** area, tap **+**, and select the type of activity that you want to add.
+1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**. Then choose a record to open it.
 
-![Dynamics 365 for phones and tablets add an activity](media/AddActivity.png "Dynamics 365 for phones and tablets add an activity")
+  > [!div class="mx-imgBorder"] 
+  > ![Choose record](media/actionmenu1.png "Choose record").
 
-- Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type.
+2. On the open record, next to **Summary** selct ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
 
-- Tap ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
+  > [!div class="mx-imgBorder"] 
+  > ![Choose the timeline](media/timeline3.png "Choose the timeline").
+
+3. In the **Timeline** area, select the Add button ![Add button](media/addbutton.png) >, and select the type of activity that you want to add.
+
+![Add an activity](media/timeline1.png "Add an activity")
+
+### Sort and filter the Timeline view
+
+- Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline data.
+
+- Select ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
 **Take notes**
 
