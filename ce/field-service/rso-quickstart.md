@@ -61,9 +61,12 @@ Select a **Default Goal**. Among other uses, a default goal tells RSO what to pr
 
 ## Verify Booking Statuses
 
+Installing Field Service will import booking statuses, and installing RSO will add Scheduling methods of Ignore, Do Not Move, or Optimize to those booking statuses. Ensure the highlighted booking statuses below match your system.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/rso-quickstart-booking-statuses.png)
+
+If they do not match, make sure RSO is finished installing. If it is finished, try Resetting RSO by going to Resource Scheduling Optimization > Optimization Schedules > and clicking Reset in the top ribbon.
 
 ## Set work orders to optimize
 
@@ -241,11 +244,14 @@ A new schedule board tab named after your scope is created and yellow bars indic
 
 A simple example of RSO optimizing travel time is when there is no travel time between two bookings. This means there were two work orders at the same location with the same service account and RSO scheduled them back-to-back.
 
-If you navigate back to the completed scheduling optimization request, you will see a list of bookings created, deleted, and overlooked, and a graph of the travel time and working time of the bookings.
+Back on the completed scheduling optimization request, you will see a list of bookings created, deleted, and overlooked, and a graph of the travel time and working time of the bookings.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-graph.png)
 
-## Configuration considerations
-## Additional Notes
+
+### See also
+
+[RSO FAQs](/rso-faq.md)
+[RSO COnfigurations](/rso-configuration.md)
