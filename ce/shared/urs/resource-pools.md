@@ -32,10 +32,10 @@ To accommodate this scenario, we will create a pool to represent the pediatricia
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot navigating to resources](../field-service/media/resource-create-new-navigation.png)
+> ![Screenshot navigating to resources](../../field-service/media/resource-create-new-navigation.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Active Bookable Resources grid](../field-service/media/qs-1-img28.png)
+> ![Screenshot showing where to find the Active Bookable Resources grid](../../field-service/media/qs-1-img28.png)
 
    2. Set **Resource Type** to **Pool**. A new field will appear called “Pool Type.”
    3. Set **Pool Type** to **Account, Contact, User** because this pool will consist of people resources (pediatricians, in our example).

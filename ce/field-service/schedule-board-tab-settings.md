@@ -28,4 +28,4 @@ search.app:
 
 # Schedule board tab settings
 
-[!INCLUDE[topic-urs-schedule-board-tab-settings.md](../includes/topic-urs-schedule-board-tab-settings.md)]
+[!INCLUDE[topic-urs-schedule-board-tab-settings.md](../shared/urs/schedule-board-tab-settings.md)]
