@@ -48,7 +48,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 
 ## Active
 
-The conversations that you pick or assigned to you are classified under **Active** state. In the **Active** state, your capacity is consumed.
+The conversations that you pick or is assigned to you are classified under **Active** state. In the **Active** state, your capacity is consumed.
 
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, or **Wrap-up** state under the following scenarios.
 
@@ -105,7 +105,7 @@ Advantages of automatically closing a conversation:
 
 ### Understand working of auto-close of conversations
 
-Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default time, then the conversation is automatically moved to the **Closed** state.
+The Omnichannel for Customer Service application checks the conversations every 24 hours to identify the conversations that remains in the same state more than the default time, then the conversation is automatically moved to the **Closed** state.
 
 ### Default time for automatic closure of conversation
 
@@ -118,7 +118,7 @@ The conversations coming from different channel has varied scenarios and hence t
  | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation in the **Wrap-up** state for more than 15 minutes is automatically moved to the **Closed** state. |
  |  |  |  |  |
  | CDS Entity (Case) | Open | None | For an entity channel, a conversation in the **Open** won’t be automatically closed. |
- | CDS Entity (Case) | Active | None | For an entity channel, a conversation in the **Active** won’t be automatically closed. |
+ | CDS Entity (Case) | Active | None | For an entity channel, a conversation in the **Active** state won’t be automatically closed. |
  |  |  |  |  |
  | SMS | Open | 30 days | For a SMS channel, a conversation in the **Open** state for more than 30 days is automatically moved to the **Closed** state. |
  | SMS | Active | 30 days | For a SMS channel, a conversation in the **Active** state for more than 30 days is automatically moved to the **Closed** state. |
