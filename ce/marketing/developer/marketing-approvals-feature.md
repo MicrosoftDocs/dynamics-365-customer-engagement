@@ -34,7 +34,7 @@ search.app:
 Dynamics 365 for Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers. One way to take advantage of this new extendability is to create an approvals feature, possibly including integration with Microsoft Flow.
 
 
-<!-- from editor: Is there a reason for saying "approver user"? Can't it just be "approver"? -->
+<!-- from editor: Is there a reason for saying "approver user"? Can it just be "approver"? -->
 
 
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is specifically identified as an approver in the system.
