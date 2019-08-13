@@ -232,28 +232,21 @@ Activities are details that you add to record which include things like notes, p
 
 ### Sort and filter the Timeline view
 
-- Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then tap **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline data.
+- Select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and select **Open Filter Pane** to filter the records in the timeline by record type or to refresh the Timeline.
 
 - Select ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
 
-### Scan barcodes  
-Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
-
 ## Send an email or make a call
-Call or send email to your customers easily from the mobile apps. Tap any phone number in a record to start a call, or tap the email button to send an email.
+
+Call or send email to your customers easily from the mobile app. Open a customer record and select phone number in record to start a call, or select the email button to send an email.
 
 ![Dynamics 365 for phones and tablets send an email or make a call](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
 
-In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, tapping the phone button starts a Skype call. In [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)], it starts a phone call.
 
-When you’re finished with your call, the app prompts you to enter details about
-the call.
+## Update an image for a record
 
-
-### Update an image for a record
-
-- To add a new image to a record, open the record and selct the current image for the record. Choose **Use Camera** to take a new pictuere or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
+To add a new image, open the record and selct the current image for the record. Choose **Use Camera** to take a new pictuere or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
 
   > [!div class="mx-imgBorder"] 
   >![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
@@ -262,65 +255,63 @@ the call.
 
 Business process flows help you enter data consistently and follow the same steps every time you work with a record. As you work on a new record, the business process flow helps you see each step that you need to take to create the new record and fill out the required information according to your organizations business process.
 
-![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
+  > [!div class="mx-imgBorder"] 
+  >![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
 
 
-**Task Flows**
+## Task Flows
 
-Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then tap Start Task Flow ![Dynamics 365 for phones and tablets task flows button](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button") button on the nav bar. This will lead you through the entire task from start to finish so, you don't forget an important step.
+Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then select on the nav bar, selct the Task Flow button ![Dynamics 365 for phones and tablets task flows button](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button"). This will lead you through the entire task from start to finish so, you don't forget an important step.
 
-![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
-
-On a phones, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis"), on the nav bar and then tap **Start Task Flow**.
+  > [!div class="mx-imgBorder"] 
+  >![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
 
 > [!NOTE]
 >  Tasked based flows need to be turned on by your admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a mobile task flow](../customize/create-mobile-task-flow.md)
 
 
+# Search for records
 
-## Search for records
+You can search for records across multiple entities by using Relevance search or Categorized search. Relevance search delivers fast and comprehensive results across multiple entities, in a single list, sorted by relevance. Categorized search returns search results grouped by entity types, such as accounts, contacts or leads.
 
-You can search for records across multiple entities by using Relevance Search or Categorized Search. Relevance Search delivers fast and 
-comprehensive results across multiple entities, in a single list, sorted by relevance. Categorized Search returns search results grouped 
-by entity types, such as accounts, contacts or leads.
+Normally, Categorized search is the default search option. However, if Relevance search is enabled by your organization, it becomes the default search experience.   
+  
+### Normal quick find (Categorized search) 
+  
+- **Begins with**: Results include records that begin with a specific word. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box; if you type **ski**, the record won’t show up.  
+  
+- **Wildcard**: For example, *ski or *ski\*  
+  
+### Relevance search
+  
+- **Search within**: Results include records that contain a field with all of the words in the search term.  The individual words can appear anywhere in the string and in any order.  For example, if you search for “Alpine Ski House,” you could find results for “I left the house today to go skiing in the Alpine Meadows,” since all of the search words appear somewhere in the string.  
 
-When Relevance Search is enabled for your organization, it becomes the default search experience.
+## Switch between Relevance and Categorized search
 
-**Switch between Relevance and Categorized search**
+If your organization has turned on both search options (Relevance and Categorized search), then you can switch between the two.
 
-1. On the nav bar tap the Search button. 
+1. To switch between search types, on the nav bar, select the Search button ![Search button](media/searchbutton.png).
 
-   ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
+2. At the top select the drop-down to switch between **Relevance Search** or **Categorized Search**.
 
-2. From the menu, select a search type. 
+    > [!div class="mx-imgBorder"] 
+    >![Switch beteen search type](media/switchsearch.png "Switch beteen search type")
 
-   ![Switch between Relevance and Categorized search](media/SwitchBetweenCategorizedOrRelevanceSearch.png "Switch between Relevance and Categorized search")
+## Start a search  
+  
+1.  on the nav bar, select the Search button.
+  
+2.  Type your search words in the search box and then select **Search**.  
+  
+## Filter search results  
+  
+-   To filter results by one record type, on the search screen, choose a record type from the **Filter with:** drop-down box.  
+  
+-   To search against all record types, choose **None** in the **Filter with:** drop-down box.  
 
-**Use Relevance Search**
 
-1. On the nav bar tap Search button.
-
-   ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
-
-2. Type in the search box, and then tap Search.
-
-   ![Dynamics 365 for phones and tablets Relevance Search](media/RelevanceSearch.png "Dynamics 365 for phones and tablets Relevance Search")
-
-Use syntax in your search term to get the results you want. For example, type “car silver 2-door” to include matches for any word in the search term in the search results. Type “car+silver+2-door” to find only matches that include all three words. Type “car|silver|2-door” to get results that contain “car” or “silver” or “2-door”, or all three words.
-
-**Use Categorized Search**
-
-1. On the nav bar tap Search button.
-
-   ![Dynamics 365 for phones and tablets search on nav bar](media/SearchOnNavBar_6.png "Dynamics 365 for phones and tablets search on nav bar")
-
-2. Type in the search box, and then tap Search.
-
-![Dynamics 365 for phones and tablets search box](media/SeachBox_7.png "Dynamics 365 for phones and tablets search box")
-
-Search results include only records that begin with the letters you type. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box. If you type **ski**, the record won’t show up. 
-
-![Dynamics 365 for phones and tablets enter search text](media/EnterSearchText_8.png "Dynamics 365 for phones and tablets enter search text")
+### Scan barcodes  
+Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
 
 **Filter search results**
 
