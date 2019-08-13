@@ -28,7 +28,7 @@ search.app:
 
 # QuickStart for Resource Scheduling Optimization (RSO)
 
-Resource Schedule Optimization (RSO) automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
+Resource Scheduling Optimization (RSO) automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
 In this quickstart, let's configure RSO to schedule and optimize a group of work orders to a predefined list of resources (field technicians). We will do this by setting up a scope, goal, and schedule that will run once a day to schedule work orders in the Washington state service territory to resources in that territory up to 48 hours in advance to minimize travel time. 
 
@@ -36,9 +36,9 @@ In this quickstart, let's configure RSO to schedule and optimize a group of work
 
 The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**
 
-Resource Schedule Optimization works with Resource Scheduling to schedule field service work orders. It is helpful to understand how resource scheduling enables field service scheduling. For more details view the topic on [Universal Resource Scheduling for Field Service](/universal-resource-scheduling-for-field-service.md).
+Resource Scheduling Optimization works with Resource Scheduling to schedule field service work orders. It is helpful to understand how resource scheduling enables field service scheduling. For more details view the topic on [Universal Resource Scheduling for Field Service](/universal-resource-scheduling-for-field-service.md).
 
-This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Schedule Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md)
+This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Scheduling Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of RSO app](media/rso-quickstart-app.png)
@@ -79,19 +79,14 @@ For our quickstart scenario, create a new view for the Resource Requirement enti
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-requirement-view.png)
 
-> [!Note]
-> When using Resource Scheduling you schedule resource requirement records related to work orders, cases, custom entities, etc rather than scheduling those entities.
-
 Next, ensure the requirements in that view are eligible for optimization.
-
-Each requirement can be set as eligible for optimization and this allows you to add workflows and business processes to which requirements should be automatically scheduled with RSO and others that should be scheduled manually.
 
 Go to **Resource Scheduling > Resource Requirements** and then select the view you just created and highlight and edit those records.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-requirement-view-select.png)
 
-Then set the **Scheduling Method** to **Optimize**. This means that if RSO runs and targets this requirement, i can be scheduled automatically.
+Then set the **Scheduling Method** to **Optimize**. This means that if RSO runs and targets this requirement, it can be scheduled automatically. An added benefit of this field is it allows you to add workflows and business processes to which requirements can be automatically scheduled.
 
 
 > [!div class="mx-imgBorder"]
@@ -132,7 +127,7 @@ For each resource in your view, set the **Optimize Schedule** field to **Yes**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-resource-list.png)
 
-Similar to requirements, this can be done individually or via a bulk update.
+Similar to requirements, this can be done individually or via a bulk edit.
 
 
 > [!div class="mx-imgBorder"]
@@ -162,13 +157,13 @@ In the **Resources and Unscheduled Requirements for this Optimization** section,
 In the **Bookings for the Optimization** section, select the **Active Bookable Resource Bookings** view or a similar view for bookings.
 
 > [!Note]
-> By entering a view for unscheduled requirements **and** bookings we are configuring RSO to optimize both unscheduled jobs and existing jobs. If you only select a booking view, then RSO will only optimize existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, this means RSO will not move existing bookings and simply attempt to schedule the unscheduled jobs to available time slots.
+> By entering a view for unscheduled requirements **and** bookings we are configuring RSO to optimize both unscheduled jobs and scheduled jobs. If you only select a booking view, then RSO will only optimize existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, this means RSO will not move existing bookings and simply attempt to schedule the unscheduled jobs to available time slots.
 
 For Optimization Range Settings, enter the following values.
 
-**Range Reference** - Job Current Time - means the 2 days we would like RSO to schedule will begin when RSO is run
+**Range Reference** - Job Current Time 
 
-**Range Offset** - 5 minutes - means the first booking RSO can schedule will be 5 minutes after the time RSO is run. Some organizations would like RSO to schedule tomorrow jobs, in which case the **Range Offset** should be set to 1 day
+**Range Offset** - 5 minutes - means the first booking RSO can schedule will be 5 minutes after the time RSO is run. Some organizations would like RSO to schedule jobs starting tomorrow, in which case the **Range Offset** should be set to 1 day.
 
 **Range Duration** - 2 days - means RSO will schedule requirements to fill up a maximum of 2 days. 
 
@@ -176,7 +171,7 @@ For Optimization Range Settings, enter the following values.
 
 ## Create Goal
 
-THe next steps is to create goals or objectives for your RSO run.
+The next step is to create goals or objectives for your RSO run.
 
 Choose **Optimization Goals** in the left pane then **+New**.
 
@@ -187,13 +182,15 @@ Enter a **Name** that describes the goal.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-goal.png)
 
-For constraints, select the following
+For constraints, select the following:
 
 - Schedule Within Working Hours
 - Meets Required Characteristics (if your requirements and resources both have characteristics)
 - Matches Territory (if your requirements and resources both belong to the same service territory, in our example, Washington state (WA))
 
-For objectives, select the following order
+**Pro Tip:** It is best to start with fewer constraints and add more as you successfully run RSO. This was it is easier to troubleshoot if RSO produces unexpected results or none at all.
+
+For objectives, select the following order:
 
 1. Maximize Total Working Hours
 2. Minimize Total Travel Time
@@ -212,7 +209,7 @@ Go to **Optimization Schedules** in the left pane then **+New**.
 
 Enter a **Name** that will define your schedule such as "Overnight Schedule".
 
-Select a lookup to the Scope and Goal you just created.
+Select a lookup to the **Scope** and **Goal** you just created.
 
 Set **Timer** to 1 day (the system will change it to 23 hours and 59 minutes)
 
@@ -244,12 +241,13 @@ A new schedule board tab named after your scope is created and yellow bars indic
 
 A simple example of RSO optimizing travel time is when there is no travel time between two bookings. This means there were two work orders at the same location with the same service account and RSO scheduled them back-to-back.
 
-Back on the completed scheduling optimization request, you will see a list of bookings created, deleted, and overlooked, and a graph of the travel time and working time of the bookings.
+Back on the completed scheduling optimization request in the Bookings tab, you will see a list of bookings created or deleted, and a graph of the total travel time and working time of the optimized bookings.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-graph.png)
 
+Congratulations! You have successfully run RSO!
 
 ### See also
 
