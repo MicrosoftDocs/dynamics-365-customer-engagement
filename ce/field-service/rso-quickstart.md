@@ -199,15 +199,53 @@ For objectives, select the following order
 > [!Note]
 > Minimize Total Travel Time **cannot** be the first objective
 
+**Save**.
+
 ## Create Schedule
 
+The last configuration step is to combine your scope and goal into a schedule. 
+
+Go to **Optimization Schedules** in the left pane then **+New**.
+
+Enter a **Name** that will define your schedule such as "Overnight Schedule".
+
+Select a lookup to the Scope and Goal you just created.
+
+Set **Timer** to 1 day (the system will change it to 23 hours and 59 minutes)
+
+Enter **valid from** and **valid to** dates. During these dates, RSO will run once a day. If you plan to run RSO manually, simply enter dates in the past. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-schedule.png)
 
+**Save and Publish**.
+
 ## Run RSO
 
+Finally, after the schedule is **published**, test RSO by clicking **Run Now** in the ribbon.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-request.png)
+
+Every time RSO is run, either successfully or not, an optimization request record is created.
+
 ## Analyze results
+
+Once the Optimization Request status is Completed, navigate to the schedule board to see the optimized board.
+
+A new schedule board tab named after your scope is created and yellow bars indicate the beginning and ending time ranges of the optimization, in our case 2 days from the time RSO is run.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-optimized-board.png)
+
+A simple example of RSO optimizing travel time is when there is no travel time between two bookings. This means there were two work orders at the same location with the same service account and RSO scheduled them back-to-back.
+
+If you navigate back to the completed scheduling optimization request, you will see a list of bookings created, deleted, and overlooked, and a graph of the travel time and working time of the bookings.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-graph.png)
 
 ## Configuration considerations
 ## Additional Notes
