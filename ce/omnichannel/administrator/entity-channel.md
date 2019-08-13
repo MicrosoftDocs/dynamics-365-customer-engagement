@@ -1,5 +1,5 @@
 ---	
-title: Automate case routing using entity records channel | MicrosoftDocs	
+title: Entity records routing using entity records channel | MicrosoftDocs	
 description: Learn how you can route cases automatically using entity records channel in the Omnichannel for Administrator app.		
 author: kabala123	
 ms.author: kabala	
@@ -205,4 +205,4 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 [Work with queues](queues-omnichannel.md)
 
-[Walkthrough: Create multiple workstreams for entity records routing](automate-entity-record-routing.md)
+[Walkthrough: Create multiple workstreams for entity records routing](multiple-ws-entity-record-routing.md)
