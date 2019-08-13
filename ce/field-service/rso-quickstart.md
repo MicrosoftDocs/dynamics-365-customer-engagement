@@ -41,7 +41,7 @@ Resource Schedule Optimization works with Resource Scheduling to schedule field 
 This quickstart also assumes you already have RSO deployed into your Dynamics 365 for Field Service environment. This is achieved by first purchasing a field service license and then purchasing a Resource Schedule Optimization (RSO) license in the Purchase Services section of Office 365. For more details view the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](/rso-deployment.md)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of RSO app](media/.png)
+> ![Screenshot of RSO app](media/rso-quickstart-app.png)
 
 ## Turn on RSO
 
