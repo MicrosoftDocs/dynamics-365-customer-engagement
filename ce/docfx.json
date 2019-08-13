@@ -10,6 +10,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]        
@@ -22,6 +23,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**",
@@ -46,6 +48,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -62,6 +65,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
