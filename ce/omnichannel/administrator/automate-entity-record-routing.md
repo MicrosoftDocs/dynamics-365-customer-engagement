@@ -1,6 +1,6 @@
 ---	
 title: "Automate case routing using entity records channel | MicrosoftDocs"	
-description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."		
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."	
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -25,7 +25,7 @@ ms.custom:
 
 ## Overview
 
-This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record work streams, routing rules, and update work distribution flow to, automatically distribute entity records to the agents based on the capacity and availability.
+This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record workstreams, routing rules, and update work distribution flow to, automatically distribute entity records to the agent's based on the capacity and availability.
 
 ### In this section
 
@@ -45,7 +45,7 @@ You must create a queue or enable existing queue to, automatically route the cas
 
 You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
-To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
+To learn more, see [Create cases entity workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
@@ -61,7 +61,7 @@ After creating the workstream for the cases, you must create the routing rules.
 3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel.png  "Case workstream")
+    > ![Select a case workstream](../media/case-entity-channel.png "Case workstream")
 
 4. Select the **Routing Rules** tab in the workstream.
 
@@ -77,7 +77,7 @@ After creating the workstream for the cases, you must create the routing rules.
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
 
-8. Specify the following in the **New Rule Item** page.
+8. Specify the following on the **New Rule Item** page.
 
     | Tab | Field | value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
@@ -94,7 +94,7 @@ After creating the workstream for the cases, you must create the routing rules.
 
 10. Select **Queue** for the **Route to** field. 
 
-11. Select an Omnichannel queue for the **Add to Queue** field.
+11. Select an omnichannel queue for the **Add to Queue** field.
 
     The steps 9 to 11 indicate if the **Priority** of a case is **High**, then route the case to the selected omnichannel queue.
 
@@ -102,7 +102,7 @@ After creating the workstream for the cases, you must create the routing rules.
     > ![New Rule Item values](../media/case-ws-rr-rule-item1.png "New Rule Item values")
 
     > [!Note]
-    > You must select an Omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
+    > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
 
 12. Select **Save** to save the rule item.
 
@@ -114,7 +114,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 | Component | Modification recommendation |
 |-----------------------------------|-----------------------------------|
-| When the record is created | No need to modify. However, you can extend it for custom scenarios. |
+| When the record is created | No need to modify; however, you can extend it for custom scenarios. |
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |

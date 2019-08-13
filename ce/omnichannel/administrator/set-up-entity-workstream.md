@@ -1,7 +1,7 @@
 ---	
 title: "Set up entity work stream | MicrosoftDocs "	
 description: "Learn how to set up entity work stream in the Omnichannel for Customer Service"	
-keywords: Create entity channel; Omni-channel Engagement Hub	
+keywords: Create entity channel; Omnichannel for Customer Service; Omnichannel for Administrator
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -26,9 +26,9 @@ ms.custom:
 
 ## Create case entity workstream
 
-This topic describes how to create a workstream that is used to route case entity record.
+This topic describes how to create a workstream that is used to route the case entity record.
 
-1. Sign in to Omnichannel for Administrator app.
+1. Sign in to the Omnichannel for Administrator app.
 
 2. Select **Entity Records** entity record under **Channels** in the sitemap. A blank **Entity Record Workstreams** view is displayed.
 
