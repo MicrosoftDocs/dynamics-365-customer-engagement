@@ -226,8 +226,9 @@ Activities are details that you add to record which include things like notes, p
 
 > [!NOTE]
 > You can also add notes, attach photos, video, and attachments. 
- > [!div class="mx-imgBorder"] 
- >![Add notes](media/timeline2.png "Add notes")
+ 
+   > [!div class="mx-imgBorder"] 
+   >![Add notes](media/timeline2.png "Add notes")
 
 ### Sort and filter the Timeline view
 
