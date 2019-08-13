@@ -33,10 +33,6 @@ search.app:
 
 Dynamics 365 for Marketing now provides an infrastructure with expanded extendability features that offer new possibilities for developers. One way to take advantage of this new extendability is to create an approvals feature, possibly including integration with Microsoft Flow.
 
-
-<!-- from editor: Is there a reason for saying "approver user"? Can it just be "approver"? -->
-
-
 This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is specifically identified as an approver in the system.
 
 > [!IMPORTANT]
@@ -54,11 +50,7 @@ The customizations outlined in this topic will help you design and implement an 
 
 1. Standard users (non-approvers who we will call Marketers) no longer see a **Go live** button on entity forms where approvals are enabled. Instead, this is replaced by a **Request approval** button on the command bar. These entities use a custom collection of Status reason values, which are used to track the approval status of each record. Records requiring approval begin with a Status reason of **Approval required**.
 
-
-<!-- Change "standard user" below to "marketer"? The paragraph above says that's what we'll call them. -->
-
-
-1. When a standard user has finished creating a new record (such as an email design), they select **Send for approval**, which triggers the following changes:
+1. When the marketer has finished creating a new record (such as an email design), they select **Send for approval**, which triggers the following changes:
    - The Status reason for this record changes to **Approval requested**.
    - The record is locked to further changes.
    - An email message gets automatically sent to the approver configured in the system, telling them their approval is required. The message includes buttons to approve or reject. It has a link to view the relevant record in the Dynamics 365 for Marketing app (where the approve and reject buttons are present).
@@ -71,10 +63,6 @@ The customizations outlined in this topic will help you design and implement an 
 ## Extensibility functions to support approvals
 
 The following functions are added inside the Marketing solution (from the August release) and can be used to override or use the default logic for entities with a complex lifecycle (marketing email, customer journey, content settings, marketing page, marketing form, and segment).
-
-
-
-<!-- Tightened up the table by removing "This function" from the start of each description. -->
 
 |Function name|Description|
 |----|-------|
@@ -89,36 +77,29 @@ The only limitations that remain to customize the Marketing solution are:
 1. New states between transient state (Going live and Stopping) and fix stage are ignored.
 2. If you want to go directly into **Live** state, without passing through **Going live** state, make sure the entity values are not changed.
 3. Do not remove any of the existing states.
-4. When an entity enters into an inactive state, it cannot be activated.
-
-<!-- Should the above say it cannot be "reactivated"? -->
-
+4. When an entity enters into an inactive state, it cannot be reactivated.
 
 ## Implementation
 
 ### Step 1: Create a new solution
 
-
-<!-- If the following needs to be done in order, then it should be a numbered list. -->
-
-
-- Create a new [solution](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-solution) and name it **Sample Approval**.
-- Add customer journey entity to the solution.
-- Navigate to **Solutions** > **Sample Approval** > **Entities** > **Customer Journey** > **Fields**.
-- Select the **Statuscode** attribute and add the following new states:
+1. Create a new [solution](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-solution) and name it **Sample Approval**.
+2. Add customer journey entity to the solution.
+3. Navigate to **Solutions** > **Sample Approval** > **Entities** > **Customer Journey** > **Fields**.
+4. Select the **Statuscode** attribute and add the following new states:
    - Approved
    - Approval requested
 
       > [!NOTE]
       > Copy the values of the new states created for further use. You need these values while creating custom ribbon buttons.
 
-  - Select **Edit Status Reason Transitions**, select the **ellipsis** (...) next to the options available, add the status reasons as shown below, and then select **OK**.
+ 5. Select **Edit Status Reason Transitions**, select the **ellipsis** (...) next to the options available, add the status reasons as shown below, and then select **OK**.
 
     ![Status Reason Transitions](../media/marketing-status-reason-transition.png "Status Reason Transitions")
 
-- Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
-- Inside the solution, create a new entity that can be named, for example, approvals. We use this entity to decide whether the user logged in the system is an approver or a marketer. 
-- Create two new users: approver and marketer. The approver has write access to the above created entity, while the marketer has no system administrator or system customizer privileges. 
+6. Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
+7. Inside the solution, create a new entity that can be named, for example, approvals. We use this entity to decide whether the user logged in the system is an approver or a marketer. 
+8. Create two new users: approver and marketer. The approver has write access to the above created entity, while the marketer has no system administrator or system customizer privileges. 
 
 
 ### Step 2: Create ribbon buttons
