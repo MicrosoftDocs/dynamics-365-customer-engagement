@@ -20,6 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
+
 # Calculated and rollup attributes
 
 *Calculated* and *rollup* attributes free the user from having to manually perform calculations and focus on their work. System administrators can now easily define a field to contain the value of many common calculations without having to work with a developer. Developers can also leverage the platform capabilities to perform these calculations rather than within their own code.  
@@ -67,6 +68,7 @@ search.app:
 |  `SourceTypeMask`   | The bitmask value of this read-only property describes the types of sources used in the formula of the calculated attribute or if the formula of a calculated or rollup attribute is not valid.<br /><br /> -   0: **Undefined**. The default value for simple and rollup attributes.<br />-   1: **Simple**. The calculated attribute refers to an attribute in the same record.<br />-   2: **Related**. The calculated attribute refers to an attribute in a related record.<br />-   4: `Logical`. The calculated attribute refers to an attribute in the same record which is actually stored in a different database table. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Logical attributes](introduction-to-entity-attributes.md#BKMK_LogicalAttributes)<br />-   8: `Calculated`. The calculated attribute refers to another calculated attribute.<br />-   16: `Rollup`. The calculated attribute refers a rollup attribute.<br />-   32: `Invalid`. The calculated or rollup field is invalid.<br />     Typically this would be where a field refers to an attribute that no longer exists. **Note:**  One or more of these conditions may be true for any calculated or rollup field. Because this is a bitmask value, you may find it useful to use the [SourceTypeMasks enumeration](calculated-rollup-attributes.md#BKMK_SourceTypeMasks) when performing bitwise operations. |
   
 <a name="BKMK_Calculated"></a>   
+
 ## Calculated attributes  
  Calculated attributes are calculated in real-time when they are retrieved. Calculated attributes can be composed using different data types. For example, an Integer calculated attribute may reference values from Decimal or Currency attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx).  
   
@@ -86,8 +88,9 @@ search.app:
  `MaxValue` and `MinValue` metadata properties can’t be set on calculated attributes  
   
 <a name="BKMK_Rollup"></a>   
+
 ## Rollup attributes  
- Because rollup attributes persist in the database, they can be used for filtering or sorting just like regular attributes. Any kind of process or plug-in will use the most recently calculated value of the attribute. Rollup attribute values are calculated asynchronously by scheduled system jobs. Administrators set when a job is run or pause the job. By default, each attribute is updated hourly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](https://technet.microsoft.com/library/dn832103.aspx).  
+ Because rollup attributes persist in the database, they can be used for filtering or sorting just like regular attributes. Any kind of process or plug-in will use the most recently calculated value of the attribute. Rollup attribute values are calculated asynchronously by scheduled system jobs. Administrators set when a job is run or pause the job. By default, each attribute is updated hourly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/define-rollup-fields).  
   
  When a rollup attribute is created or updated a **Mass Calculated Rollup Fields** job is scheduled to run in 12 hours. The 12-hour delay is intended to perform this resource intensive operation during a time that will affect users the least. After the job completes, the next time it is scheduled to run will be 10 years in the future. If there is a problem with the calculation, this will be reported with the system job. Locate the system job in **Settings** > **System Jobs** to find any errors with rollup fields.  
   
@@ -186,4 +189,4 @@ search.app:
  [Video: Rollup and Calculated Fields in Microsoft Dynamics CRM 2015](http://youtu.be/RoahCH1p3T8)   
  [Introduction to entity attributes](introduction-to-entity-attributes.md)   
  [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
- [Define rollup fields](https://technet.microsoft.com/library/dn832103.aspx)
+ [Define rollup fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/define-rollup-fields)
