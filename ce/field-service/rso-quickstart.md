@@ -1,5 +1,5 @@
 ---
-title: "QuickStart for Resource Schedule Optimization (RSO) | MicrosoftDocs"
+title: "QuickStart for Resource Scheduling Optimization (RSO) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 09/30/2019
@@ -26,7 +26,7 @@ search.app:
   - D365FS
 ---
 
-# QuickStart for Resource Schedule Optimization (RSO)
+# QuickStart for Resource Scheduling Optimization (RSO)
 
 Resource Schedule Optimization (RSO) automatically schedules work orders, cases, opportunities, and even custom entities to the resources that are most available and best qualified. Many field service organizations that perform work orders on site at their customers' locations benefit from automatic scheduling because it optimizes the routes and travel times of field technicians as they travel from work order to work order.
 
