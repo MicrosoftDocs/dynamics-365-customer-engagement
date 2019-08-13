@@ -21,7 +21,7 @@ ms.custom:
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
 
-- **Unified routing for entity records:** With unified routing, entity records can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
+- **Unified routing for entity records:** With unified routing, entity records can be routed to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
 
     This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
