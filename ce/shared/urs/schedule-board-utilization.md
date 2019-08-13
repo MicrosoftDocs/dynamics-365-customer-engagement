@@ -21,7 +21,7 @@ For each resource, utilization percentage is derived from **Total Booked Hours**
 - **Total Working Hours** is the sum of the resource's working hours
 
 > [!Note]
-> Working hours are defined on each **Bookable Resource** record. Go to **Resource Scheduling** > **Resources**. See the topic on [setting up bookable resources](../field-service/set-up-bookable-resources.md) for more details.
+> Working hours are defined on each **Bookable Resource** record. Go to **Resource Scheduling** > **Resources**. See the topic on [setting up bookable resources](../../field-service/set-up-bookable-resources.md) for more details.
 
 These values will change based on how many hours, days, and weeks you are viewing, and these are edited by selecting a view, a date range, and how many days to display.
 

@@ -15,7 +15,7 @@ In this topic, we will explore how travel time and distance are calculated and v
    
 2. Set auto geocode addresses to **Yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
-3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
+3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
 4. Understand that only requirements for which **Work Location** is set to **Onsite** and for which latitude and longitude values are specified are eligible for travel time calculations. 
 
@@ -186,7 +186,7 @@ If a field technician begins travel to their next work order and sees that the t
 
 ## Configuration considerations
 
-- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account-related details to work orders](../field-service/work-order-customer-account.md) for more details.
+- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account-related details to work orders](../../field-service/work-order-customer-account.md) for more details.
 - A field technician's current location as derived from their mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing) for more details.
 - Field Service uses the Bing Maps API for travel time and distance calculations, but other APIs such as Google Maps can be used as well.
 - By default, work order requirements have a work location of **Onsite**, but default work location can be edited for each schedulable entity by going to **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >**, and then selecting **Enabled Entity**.  

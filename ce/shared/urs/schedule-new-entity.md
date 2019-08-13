@@ -1,4 +1,4 @@
-Dynamics 365 for Field Service uses [Universal Resource Scheduling](../field-service/universal-resource-scheduling-for-field-service.md) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Considering your business processes, other entities may also be enabled for scheduling, including custom entities. 
+Dynamics 365 for Field Service uses [Universal Resource Scheduling](../../field-service/universal-resource-scheduling-for-field-service.md) to schedule work orders to the most appropriate resources by enabling the work order entity for scheduling by default. Considering your business processes, other entities may also be enabled for scheduling, including custom entities. 
 
 Enabling an entity for scheduling allows dispatchers to schedule that entity through the schedule board, the schedule assistant, and even resource scheduling optimization (RSO). 
 
@@ -40,7 +40,7 @@ You will see a section called **Setup Wizard - Enable Scheduling** that lets you
  
 Next, select **Publish Customization**.  
 
-To edit settings for how leads are booked, double-click **Leads** once it appears in the **Enabled Entities** section. For example, default booking statuses and whether the entity is enabled for [quick scheduling](../field-service/quick-scheduling.md) can be edited. 
+To edit settings for how leads are booked, double-click **Leads** once it appears in the **Enabled Entities** section. For example, default booking statuses and whether the entity is enabled for [quick scheduling](../../field-service/quick-scheduling.md) can be edited. 
 
 
 > [!div class="mx-imgBorder"]

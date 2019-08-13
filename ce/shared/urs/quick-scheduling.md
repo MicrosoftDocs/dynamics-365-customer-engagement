@@ -119,7 +119,7 @@ In the following screenshot example, we need two resources, each with different 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a requirement group entity with two requirements listed](../../field-service/media/scheduling-quick-book-rg.png)
 
-For further details, see the [topic on requirement groups](../field-service/multi-resource-scheduling-requirement-groups.md).
+For further details, see the [topic on requirement groups](../../field-service/multi-resource-scheduling-requirement-groups.md).
 
 Select a row, and open the form to edit more fields.
 
@@ -139,7 +139,7 @@ Again, you can select a time slot and then **Book** to assign the requirement gr
 
 The results are displayed in order of average travel time and distance. Because each resource might be traveling from a different location, travel time and distance are calculated as averages. 
 
-Lastly, as discussed in the [requirement groups topic](../field-service/multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets, and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of the required skills.
+Lastly, as discussed in the [requirement groups topic](../../field-service/multi-resource-scheduling-requirement-groups.md), requirement groups can include different option sets, and quick book will respect these. In the following example, we want to schedule a single resource with both required skills *or* two resources, each with one of the required skills.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the requirement group settings, showing different resource options](../../field-service/media/scheduling-quick-book-rg-option.png)
@@ -167,7 +167,7 @@ The purpose of quick scheduling is to simplify the scheduling process. Fulfillme
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the quick book panel with 1-hour intervals](../../field-service/media/scheduling-quick-book-fulfillment-preference-results.png)
 
-See our [topic on fulfillment preferences](../field-service/set-up-time-groups.md) for more information. 
+See our [topic on fulfillment preferences](../../field-service/set-up-time-groups.md) for more information. 
 
 
 ## Additional notes
