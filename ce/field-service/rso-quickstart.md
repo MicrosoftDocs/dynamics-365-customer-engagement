@@ -66,7 +66,7 @@ Installing Field Service will import booking statuses, and installing RSO will a
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](media/rso-quickstart-booking-statuses.png)
 
-If they do not match, make sure RSO is finished installing. If it is finished, try Resetting RSO by going to Resource Scheduling Optimization > Optimization Schedules > and clicking Reset in the top ribbon.
+If they do not match, make sure RSO is finished installing. If it is finished, try Resetting RSO by going to **Resource Scheduling Optimization > Optimization Schedules** > and clicking **Reset** in the top ribbon.
 
 ## Set work orders to optimize
 
