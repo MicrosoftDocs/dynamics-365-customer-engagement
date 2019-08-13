@@ -29,8 +29,6 @@ search.app:
 ---
 # Ribbons available in Dynamics 365 for Customer Engagement
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement.  
 
 <a name="ribbon_defs"></a>   

@@ -27,8 +27,6 @@ search.app:
 ---
 # Recurring appointment entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Recurring appointments occur more than once, and follow an occurrence pattern. For example, you can set up an appointment to discuss a project status that occurs every week on Friday. Recurring appointments provide the ability to add recurrence information (occurrence pattern) to a new or an existing appointment in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 ## In This Section  

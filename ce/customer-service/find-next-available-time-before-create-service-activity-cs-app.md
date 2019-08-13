@@ -24,8 +24,6 @@ search.app:
 
 # Find the next available time before creating a service activity (Customer Service app)
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
 Avoid conflicts while scheduling services by finding the time the resources are available beforehand.  
   
 1. Make sure you have the Scheduler role or equivalent permissions.  

@@ -34,8 +34,6 @@ search.app:
 ---
 # Configure activity feeds
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The following sections contain information about how to configure your system for activity feeds.  
   
 <a name="ConfigurationEntities"></a>   

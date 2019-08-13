@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_resourcerequirementdetail Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Entity used to track the detailed information about resource requirements.
 
 **Added by**: Universal Resource Scheduling Solution

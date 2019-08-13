@@ -30,8 +30,6 @@ search.app:
 ---
 # Uninstall or delete a solution
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You delete managed and unmanaged solutions in the same way, but the resulting actions are very different. Deleting a managed solution will uninstall the managed solution.  
   
 <a name="BKMK_DeleteSolution"></a>   

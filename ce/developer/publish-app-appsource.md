@@ -21,8 +21,6 @@ search.app:
 ---
 # Publish your app on AppSource
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps subscribers can find it, try it, and buy it.
 
 [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)] 

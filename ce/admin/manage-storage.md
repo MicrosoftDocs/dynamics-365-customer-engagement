@@ -24,8 +24,6 @@ search.app:
 ---
 # Manage storage 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!NOTE]
 > Capacity reports are now available. See [Common Data Service storage capacity](https://docs.microsoft.com/power-platform/admin/capacity-storage). The content below applies to customers with capacity reports not yet available.
 

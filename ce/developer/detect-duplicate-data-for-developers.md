@@ -21,8 +21,6 @@ search.app:
 ---
 # Detect duplicate data for developers
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 > [!NOTE]
 > For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 for Customer Engagement apps user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
 

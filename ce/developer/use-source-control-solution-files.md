@@ -22,8 +22,6 @@ search.app:
 ---
 # Use source control with solution files
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The SolutionPackager tool can be used with any source control system. After a solution .zip file has been extracted to a folder, simply add and submit the files to your source control system. These files can then be synchronized on another computer where they can be packed into a new identical solution .zip file.  
   
  An important aspect when using extracted component files in source control is that adding all the files into source control may cause unnecessary duplication. See the [Solution Component File Reference](solution-component-file-reference-solutionpackager.md) to see which files are generated for each component type and which files are recommended for use in source control.  

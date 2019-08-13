@@ -26,8 +26,6 @@ search.app:
 ---
 # Sample: Book an appointment
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Schedule and Appointment](https://code.msdn.microsoft.com/Schedule-and-Appointment-93ed80c0). 
 
 ## Prerequisites

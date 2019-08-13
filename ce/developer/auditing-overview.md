@@ -22,8 +22,6 @@ search.app:
 ---
 # Auditing overview
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Organizations often need to be in compliance with various regulations to ensure availability of customer interaction history, audit logs, access reports, and security incident tracking reports. Organizations may want to track changes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data for security and analytical purpose.  
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps support an auditing capability where entity and attribute data changes within an organization can be recorded over time for use in analysis and reporting purposes. Auditing is supported on all custom and most customizable entities and attributes. Auditing is not supported on metadata changes, retrieve operations, export operations, or during authentication. For information on how to configure auditing, see [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md).  

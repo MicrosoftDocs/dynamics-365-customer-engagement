@@ -23,13 +23,10 @@ search.app:
 ---
 # Security enhancements: User session and access management 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can use security enhancements to better secure the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps. 
 
 ## User session timeout management
 
-**Applies to Dynamics 365 for Customer Engagement apps version 9.1.0.3647 or higher.**
 
 The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Dynamics 365 for Customer Engagement apps and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
 

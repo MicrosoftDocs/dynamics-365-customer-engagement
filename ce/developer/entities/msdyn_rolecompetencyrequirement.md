@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_rolecompetencyrequirement Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Entity used  to associate skills in a role.
 
 **Added by**: Project Service Automation Solution

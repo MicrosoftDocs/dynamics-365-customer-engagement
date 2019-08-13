@@ -22,8 +22,6 @@ search.app:
 ---
 # Run a simple program using Customer Engagement web services
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic shows you how to compile and run a  program that creates an account record, retrieves the record, updates the record, and then prompts to see if you would like the record deleted.  
 
 ## Prerequisites

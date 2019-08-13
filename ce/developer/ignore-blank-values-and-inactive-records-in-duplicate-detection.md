@@ -21,8 +21,6 @@ search.app:
 ---
 # Ignore blank values and inactive records in duplicate detection
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can improve data results by creating duplicate detection rules that ignore blank values and inactive records. This will help to refine your results and reduce the amount of erroneous data.  
   
 ## Rules for Ignoring Blank Values and Inactive Records  

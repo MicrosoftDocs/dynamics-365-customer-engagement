@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_processnotes Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores messages or notes relevant to an operation or process executed by an entity.
 
 **Added by**: Project Service Automation Solution

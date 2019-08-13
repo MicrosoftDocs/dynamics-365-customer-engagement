@@ -21,8 +21,6 @@ search.app:
 ---
 # Stay up-to-date with customer news with the activity feed
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Monitor real-time updates in the activity feed to stay current with fast-moving sales, customer projects, and marketing campaigns at your organization.  
   
  You’ll find the activity feed on your dashboard under the heading **What’s new**.  

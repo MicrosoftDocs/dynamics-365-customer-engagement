@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_systemuserschedulersetting Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores user-specific settings for the schedule board.
 
 **Added by**: Universal Resource Scheduling Solution

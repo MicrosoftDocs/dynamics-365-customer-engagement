@@ -21,8 +21,6 @@ search.app:
 ---
 # Programming reference for Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This section contains reference documentation of the public assemblies, web services, client API, schemas, and error codes for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 ## In This Section  

@@ -26,8 +26,6 @@ search.app:
 
 # Define custom claim mapping for SharePoint server-based integration
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps  uses claims to authenticate and authorize [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] users to access the documents stored in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. For more information about claims-based authentication, see [Claims-based identity in SharePoint 2013](https://msdn.microsoft.com/library/office/ee535242.aspx).  
 
  By default, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps uses the following claims  to integrate with [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]:  

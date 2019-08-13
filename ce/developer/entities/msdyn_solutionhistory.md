@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_solutionhistory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 
 
 **Added by**: Microsoft Dynamics 365 Solution History APIs Solution

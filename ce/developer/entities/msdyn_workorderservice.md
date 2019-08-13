@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_workorderservice Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Record all services proposed and performed for work order
 
 **Added by**: Field Service Solution

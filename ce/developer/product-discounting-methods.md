@@ -22,8 +22,6 @@ search.app:
 ---
 # Product discounting methods
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Discounts can be applied either at the line item level or at per unit level. Use the `Organization.DiscountCalculationMethod` attribute to specify the discount method. Set the value of the attribute to:  
   
 - **0** for discounting at line item level  

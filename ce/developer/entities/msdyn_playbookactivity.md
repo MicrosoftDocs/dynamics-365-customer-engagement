@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_playbookactivity Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Stores the details of the activities to be created when a playbook is launched.
 
 **Added by**: Playbook Solution

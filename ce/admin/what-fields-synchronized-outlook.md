@@ -27,7 +27,7 @@ search.app:
 
 # What fields can be synchronized with Outlook?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators can set whether a sync occurs and the sync direction for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] fields.  
   

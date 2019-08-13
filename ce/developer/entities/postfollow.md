@@ -16,8 +16,6 @@ search.app:
 ---
 # PostFollow Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Represents a user following the activity feed of an object.
 
 

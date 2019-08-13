@@ -24,8 +24,6 @@ search.app:
 ---
 # Developer Guide for Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  apps Developer Guide. This documentation is for version 9.x.
 
 For documentation of earlier versions (8.x and earlier), visit <https://docs.microsoft.com/previous-versions/dynamics/>.

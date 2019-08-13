@@ -22,8 +22,6 @@ search.app:
 ---
 # Analyze your Dynamics 365 for Customer Engagement apps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
  No need to leave [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to analyze your data. Now you can do a quick *ad-hoc* analysis using [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  For example, if you’re a sales manager, you might want to analyze the opportunities your team owns and review key performance indicators (KPIs) to see how you can assist your team members. If you’re a sales rep, you can open your opportunities in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and conduct what-if analysis for different incentive scenarios. Or, you may want to quickly open the data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] so that you can copy it somewhere else such as an email.  

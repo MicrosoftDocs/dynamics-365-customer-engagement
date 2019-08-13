@@ -21,8 +21,6 @@ search.app:
 ---
 # Goal management entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The *goal management* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps lets you set sales, marketing, and other business goals for your organization and measure the results against the targets. The goal management will help you motivate your work force, identify successful programs, do better planning, and grow your business.  
   
  Goal management offers the following capabilities:  

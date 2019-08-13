@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_entitlementapplication Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Entitlement Application that will drive automatic application when the work was performed for Service Account, Customer Asset, Asset Category, Incident Type and Entitlement.
 
 **Added by**: Field Service Solution

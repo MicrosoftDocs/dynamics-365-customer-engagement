@@ -17,8 +17,6 @@ search.app:
 
 # API considerations of virtual entities
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 There are two broad categories of changes to the metadata system that are associated with the introduction of virtual entities in [!INCLUDE[pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]:
 
 * Addition of a new assembly, namespaces, classes and other types to support development of custom virtual entity data providers

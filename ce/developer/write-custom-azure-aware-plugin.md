@@ -22,8 +22,6 @@ search.app:
 ---
 # Write a custom Azure-aware plug-in
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
 <a name="bkmk_design"></a>

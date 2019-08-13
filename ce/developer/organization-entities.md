@@ -30,8 +30,6 @@ search.app:
 
 # Organization entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 An *organization* entity is internal to the customer relationship management process. The organization is the top level of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] business hierarchy. The organization can be a specific business, a holding company, a corporation, and so on. An organization is divided into business units. Schema customization is done at this level.  
 
  A *deployment* is a single installation of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. 

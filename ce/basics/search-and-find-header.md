@@ -21,8 +21,6 @@ search.app:
 ---
 # Search and Find in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## Compare [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] searches  
 
 There are four ways to find data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:

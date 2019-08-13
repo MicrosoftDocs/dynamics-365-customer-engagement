@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample: Retrieve valid status transitions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample of [work with attribute metadata](https://code.msdn.microsoft.com/Samples-of-attributes-1c0f93e7). 
 
 ## Prerequisites

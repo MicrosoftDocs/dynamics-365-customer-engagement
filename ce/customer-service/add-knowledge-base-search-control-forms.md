@@ -1,6 +1,6 @@
 ---
 title: Add the Knowledge Base Search control to Dynamics 365 for Customer Engagement forms | Microsoft Docs
-description: Know how to add the Knowledge Base Search control to Dynamics 365 for Customer Engagement forms in Microsoft Dynamics 365 for Customer Engagement
+description: Know how to add the Knowledge Base Search control to Dynamics 365 for Customer Engagement forms in Microsoft Dynamics 365 for Customer Engagement.
 keywords: Knowledge base search control; Customer service; Customer Service Hub; Dynamics 365 for Customer Engagement; Add the Knowledge Base Search control to Main forms;
 author: anjgupta
 ms.author: anjgup
@@ -24,8 +24,6 @@ search.app:
 
 # Add the Knowledge Base Search control to forms
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.  
   
  You can configure the Knowledge Base Search control to:  
@@ -34,7 +32,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
   
 - Define filters that users can use on search results.  
   
-- Choose from a set of predefined contextual actions the users can take on an article  
+- Choose from a set of predefined contextual actions the users can take on an article.  
   
 - Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and custom entities. The control is enabled in the case entity out of the box, and is added to the following forms:
    - Case main form -  In the **Activity wall** section 
@@ -98,6 +96,28 @@ Microsoft Dynamics 365 for Customer Engagement supports the native Dynamics 365 
 |**Formatting**     |      Layout   |    Choose the type of layout to determine the number of columns the control should occupy.     |
 |    |    Row Layout  |  Select the maximum number of rows per page.|
 
+
+## Configure automatic filtering
+
+Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
+
+For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
+
+This feature can be extended to automatically filter knowledge articles on any lookup field that is present on both Case and Knowledge Article entity. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
+
+Open the **Knowledge Base Search** control and edit its properties to configure automatic filtering. In the **Set Properties** dialog box, on the **Display** tab, specify the following fields in the **Configure Automatic Filtering** section.
+
+1. Select **Enable Automatic Filtering** check box to enable automatic filtering.
+2. Select **Users can turn off automatic filtering** check box if you want to provide your agents the option to turn off automatic filtering and search the entire knowledge base. This enables **Auto filter results** option for agents on knowledge search control.
+3. Select **Add Filter** to define filtering of knowledge articles on case subject or any other lookup field.
+4. Select **Set** to save the properties.
+
+    > [!NOTE]
+    > Ensure that Relevance search is enabled for automatic filtering to work. The Knowledge Article attribute must be added to the Knowledge Article Quick Find View. Ensure Source Entity Attribute is present on the form.
+
+   ![Configure auto filtering](media/ka-config-auto-filtering.png "Configure auto filtering")
+
+To learn more about how to use the automatic filtering option, see [View filtered articles in the Related section](search-knowledge-articles-csh.md#view-auto-filtered-results)
 
 ### See also  
 

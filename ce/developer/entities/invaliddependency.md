@@ -16,8 +16,6 @@ search.app:
 ---
 # InvalidDependency Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 An invalid dependency in the CRM system.
 
 

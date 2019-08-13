@@ -38,8 +38,6 @@ search.app:
 
 # Customize entity and attribute mappings
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can map attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Use the customization tools in the application to map attributes. See [Create and edit entity relationships : Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields).
 
 <!-- See [Entity and attribute mappings](../customize/default-entity-attribute-mappings.md) for a table that shows the default system entity and field mappings. --> 

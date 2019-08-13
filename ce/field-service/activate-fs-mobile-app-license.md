@@ -25,8 +25,6 @@ search.app:
 
 # Activate Field Service mobile configurator
    
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The mobile configurator allows your organization to use, administer, and customize the Field Service Mobile app for your field workers.
 
 ## Fill out an activation form

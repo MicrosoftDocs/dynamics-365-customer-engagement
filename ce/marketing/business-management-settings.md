@@ -28,8 +28,6 @@ search.app:
 
 # Business management settings
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
 
 <a name="import"></a>

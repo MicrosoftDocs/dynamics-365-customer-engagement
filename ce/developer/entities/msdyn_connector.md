@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_Connector Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Connector Entity to support Solutioning Integration
 
 **Added by**: Power Connector Solution Solution

@@ -24,8 +24,6 @@ search.app:
 ---
 # Use localized labels with ribbons
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Although Ribbon elements that display text allow for direct entry of text, it is a best practice to use localized labels to define text displayed in the ribbon. This enables multi-language capabilities and better management of shared text.  
   
 ## Using localized labels  

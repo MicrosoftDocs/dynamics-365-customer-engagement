@@ -16,8 +16,6 @@ search.app:
 ---
 # Authenticate to use the Online Management API
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Online Management API supports OAuth 2.0 protocol for authentication. Use [Azure Active Directory (AAD)](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-whatis) to authenticate by obtaining a valid OAuth 2.0 access token, and pass it using the **Authorization** header in your requests to the Online Management API.
 
 The recommended authentication API to use with the Online Management API is [Azure Active Directory Authentication Library (ADAL)](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries), which is available for a wide variety of platforms and programming languages. 

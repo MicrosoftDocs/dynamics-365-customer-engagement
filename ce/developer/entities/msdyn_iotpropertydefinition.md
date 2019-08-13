@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_iotpropertydefinition Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Defines a device property or a parameter that can be used for one or more command definitions.
 
 **Added by**: IoT Connector for Microsoft Dynamics 365 Solution

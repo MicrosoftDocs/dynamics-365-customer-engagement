@@ -1,7 +1,7 @@
 ---
 title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/10/2019
+ms.date: 08/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -38,7 +38,7 @@ System customizers have access to the Sitemap Designer (within the App Designer)
 
 ![Dynamics 365 App for Outlook Customizations page](media/PowerApps_DefaultSolution_1.png "Dynamics 365 App for Outlook Customizations page")
 
-4. On the **Assign Sercity Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
+4. On the **Assign Security Roles: App for Outlook Dashboard** box select **Display to everyone** and **Enable for Fallback**.
 
 ![Dynamics 365 App for Outlook Assign Sercity Roles](media/AppForOutlookDashboard_2.png "Dynamics 365 App for Outlook Assign Sercity Roles")
 

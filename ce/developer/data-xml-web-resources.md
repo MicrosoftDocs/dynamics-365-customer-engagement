@@ -23,8 +23,6 @@ search.app:
 ---
 # Data (XML) Web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use Data (XML) Web resources to save and access data.  
   
 ## Capabilities of XML Web resources  

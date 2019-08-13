@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_upgradestep Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 One step during an upgrade, such as a single method or stored procedure.
 
 **Added by**: Solution Upgrade Infrastructure Solution

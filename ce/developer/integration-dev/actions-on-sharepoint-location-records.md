@@ -29,8 +29,6 @@ You can perform the actions described in this topic on Microsoft SharePoint loca
 
 ## Create, retrieve, update, and delete location records
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] messages on the [SharePointSite](../entities/sharepointsite.md) and [SharePointDocumentLocation](../entities/sharepointdocumentlocation.md) entities, you can create, retrieve, update, and delete records. To perform these operations on the `SharePointSite` entity, you must have the System Administrator role in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. For a list of supported messages, see [SharePointSite Entity](../entities/sharepointsite.md) and [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md).  
 
 > [!NOTE]

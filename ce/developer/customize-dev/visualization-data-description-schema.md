@@ -22,8 +22,6 @@ search.app:
 ---
 # Visualization data description schema
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. For more information, see [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md). [!INCLUDE[schema_download](../../includes/schema-download.md)] and see the file `VisualizationDataDescription.xsd` in the folder.  
   
 ## Schema  

@@ -37,8 +37,6 @@ search.app:
 
 # Use field security to control access to field values
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, you use field-level security to restrict access to high business impact fields to specific users and teams. For example, you use this to enable only certain users to read or update the credit score for a customer. For this release, field-level security can be applied to both custom fields and many out-of-box (OOB) fields.  
   
  The following steps describe how to restrict access to a field:  

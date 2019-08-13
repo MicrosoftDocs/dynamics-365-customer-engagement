@@ -21,8 +21,6 @@ search.app:
 ---
 # Import contacts
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] so you have all your business contact information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
 > [!TIP]

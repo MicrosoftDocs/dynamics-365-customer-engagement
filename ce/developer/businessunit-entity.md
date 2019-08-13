@@ -26,8 +26,6 @@ search.app:
 ---
 # BusinessUnit entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 An organization in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], such as a holding company or a corporation, is made up of business units. A *business unit* is a unit of the top-level organization. Business units can be parents of other business units (child business units). The first business unit created for an organization is called the root business unit. Business units can be deleted, however, the root business unit can’t be deleted.  
   
  A *parent business unit* is any business unit with one or more business units that report to it in the hierarchy.  

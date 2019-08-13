@@ -23,8 +23,6 @@ search.app:
 ---
 # Step 4: Test your custom channel tile
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
-
 To make the custom channel tile available in the customer journey designer:
 
 1. Create a solution. More information: [Create a solution](../../customize/create-solution.md)

@@ -27,7 +27,7 @@ search.app:
 ---
 # About collaborating with team templates
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional, however, teams give you an easy way to share information and collaborate with users across business units. A team is a group of users. As a group, you will be able to track information about the records and perform assigned tasks in much more efficient and coordinated way. While a team belongs to only one business unit, it can include users from other business units. A user can be associated with more than one team.
   
@@ -43,7 +43,7 @@ Only entities that are enabled for system-managed access teams can be specified 
   
 If you change access rights in the team template, the changes are only applied to new system-managed access teams. The existing teams aren’t affected.  
   
-For information about how to create a team template, enable an entity for system-managed access teams and how to customize the entity form to add the team template, see [Create a team template and add to an entity form](create-team-template-add-entity-form.md).  
+For information about how to create a team template, enable an entity for system-managed access teams and how to customize the entity form to add the team template, see [Create a team template and add to an entity form](create-team-template-add-entity-form.md).
   
 ### See also  
  [Create a team template and add to an entity form](create-team-template-add-entity-form.md)   

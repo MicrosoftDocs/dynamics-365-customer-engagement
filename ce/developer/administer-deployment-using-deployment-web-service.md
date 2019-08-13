@@ -21,8 +21,6 @@ search.app:
 ---
 # Administer the deployment using the deployment web service
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
 For information regarding the use of the deployment web service, see the version of this topic for the previous release which supports on-premises deployments: [Administer the deployment using the deployment web service](https://msdn.microsoft.com/library/gg327886.aspx).

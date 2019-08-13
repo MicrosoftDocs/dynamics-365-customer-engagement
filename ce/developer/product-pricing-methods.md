@@ -31,8 +31,6 @@ search.app:
 ---
 # Product pricing methods
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses the `ProductPriceLevel.PricingMethodCode` attribute to determine prices. The value of this attribute affects:  
   
 - How the price for the product is determined for each unit of measure that is defined for that product.  

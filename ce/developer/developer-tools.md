@@ -21,8 +21,6 @@ search.app:
 ---
 # Developer tools
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This section provides a single location for you to learn about the developer tools and community developed developer tools that you can use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
 
 ## Community tools

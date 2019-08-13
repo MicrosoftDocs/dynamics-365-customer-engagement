@@ -22,8 +22,6 @@ search.app:
 ---
 # Introduction to solutions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 *Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps. Customizers and developers distribute solutions so that organizations can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to install and uninstall the business functionality defined by the solution.  
   
 <a name="BKMK_ExtensibilityChoices"></a>   
@@ -47,7 +45,7 @@ search.app:
  Generally, solutions can be imported into organizations less than two versions higher than the version the solution was exported from. Service pack releases will provide the option to either export a solution with compatibility for that service pack, or just with capabilities included in the base version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Maintain managed solutions: Version compatibility](maintain-managed-solutions.md#BKMK_VersionCompatibilty).  
   
 > [!NOTE]
-> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Introduction to solutions > Version compatiblity](https://msdn.microsoft.com/library/gg334576.aspx#BKMK_VersionCompat)
+> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Introduction to solutions > Version compatibility](https://msdn.microsoft.com/library/gg334576.aspx#BKMK_VersionCompat)
   
 <a name="BKMK_SolutionComponents"></a>
 

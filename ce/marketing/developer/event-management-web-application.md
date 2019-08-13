@@ -46,7 +46,8 @@ To get started with customizing the demo event website, you need to follow these
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
 3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
-    ```CLI
+    
+   ```CLI
     node -v
     ```
         
@@ -76,7 +77,7 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
-|Sample Event Website| 1.16.0 (July release)| <br/>- Add information to the session list view, if the session is full. <br/>- Add validation to custom registration fields. <br/>- Improve translations. <br/>- Fixing missing font-awesome icons after deploying to Portals. <br/>- Minor improvements and bug fixes.| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190701-EventWebsite.zip)
+|Sample Event Website| 1.16.0 (July release)| - Add information to the session list view, if the session is full. <br/>- Add validation to custom registration fields. <br/>- Improve translations. <br/>- Fixing missing font-awesome icons after deploying to Portals. <br/>- Minor improvements and bug fixes.| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190701-EventWebsite.zip)
 | Sample Event Website | 1.15.0 (June release) | Upgrade to Angular 7, improve UI & UX of checkout page, update and improve translations, improve DeployToD365Instance.ps1 script, improve custom registration field validation, other bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190601-EventWebsite.zip) |
 | Sample Event Website | 1.13.0 (April release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
 | Sample Event Website | 1.12.2 (March release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
@@ -107,7 +108,7 @@ Some of the parameters that you need to understand before you start configuring 
 
 To expose the new field to be visible in the API, follow the steps below:
 
-1. Open your Dynamics 365 instance.
+1. Open your Dynamics 365 for Marketing instance.
 1. Open **Advanced Find**
 1. Select the **Website Entity Configurations** entity from the dropdown and click on **Results**
 1. Click on **New Website Entity Configuration** to create a new record.

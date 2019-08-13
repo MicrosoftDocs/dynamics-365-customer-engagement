@@ -1,32 +1,23 @@
 ---
-title: Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement
-ms.date: 06/01/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+title: "Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs"
+description: "Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement"
+keywords: "Customer Service;  Microsoft Dynamics 365 for Customer Engagement"
+ms.date: 07/31/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-customerservice"
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to:
+  - "Dynamics 365 for Customer Engagement (online)"
+  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Overview of the Customer Service Hub and Customer Service app
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Welcome to Dynamics 365 for Customer Service.
 
@@ -48,11 +39,9 @@ Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
 There are two flavors of [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]:
 
 
-- The **Customer Service Hub** app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management.  [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
+- The **Customer Service Hub** app is a case and knowledge management app that’s built on the Unified Interface framework. The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Customer Service Hub app is optimized to use on mobile devices as well as desktops. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
 
-    The Customer Service Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Customer Service Hub on a desktop browser for tasks other than managing knowledge articles is not recommended. 
-
-- The **Customer Service** app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
+- The **Customer Service** app is designed for the legacy web client. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
 > [!NOTE]
 > For mobile devices, you'll also need to [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
