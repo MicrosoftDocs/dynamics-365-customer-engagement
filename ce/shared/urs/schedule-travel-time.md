@@ -15,14 +15,14 @@ In this topic, we will explore how travel time and distance are calculated and v
    
 2. Set auto geocode addresses to **Yes**. For more information, see [our topic on setting this up](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings). This allows you to automatically geocode accounts and work orders when addresses are entered. Geocoding an account or work order record populates latitude and longitude values, which are required for travel time and distance calculations.
 
-3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
+3. After connecting your environment to Bing Maps, make sure your resources have defined starting and ending locations. Resources must have geocoded start and end locations in order to calculate travel times and distances. See the topics on [setting up bookable resources](../../field-service/set-up-bookable-resources.md) and [using resource types to locate resources](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/set-up-bookable-resources#configuration-considerations).
 
 4. Understand that only requirements for which **Work Location** is set to **Onsite** and for which latitude and longitude values are specified are eligible for travel time calculations. 
 
    In the following screenshot, a work order has **Work Location** set to **Onsite**; this is passed to the related work order requirement. When that work order requirement is scheduled to a resource, the system will look at the work location field, the location of the requirement, and the location of the resource in order to calculate travel time.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of work order settings tab showing work location of on site](../field-service/media/scheduling-work-order-location-onsite.png)
+    > ![Screenshot of work order settings tab showing work location of on site](../../field-service/media/scheduling-work-order-location-onsite.png)
 
 
 ## Visualize travel time on the schedule board
@@ -31,24 +31,24 @@ After a requirement is scheduled to a resource, the booking appears on the sched
 
 In the following screenshot, the travel time to the customer's location is 23 minutes, and the estimated duration of the work order is 2 hours, giving the booking a total duration of 2 hours and 23 minutes.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel time visualization in front of booking](../field-service/media/scheduling-booking-travel-time.png)
+> ![Screenshot of travel time visualization in front of booking](../../field-service/media/scheduling-booking-travel-time.png)
 
 
 If you don't want travel time displayed as separate from the working duration, clear **Show Travel Duration** in the schedule board configuration. This makes it so the travel time and working duration appear as a single solid block, as seen in the following screenshot. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule board setting to show or hide travel duration](../field-service/media/scheduling-board-show-travel-duration.png)
+> ![Screenshot of schedule board setting to show or hide travel duration](../../field-service/media/scheduling-board-show-travel-duration.png)
 
 As field technicians complete work, they can update the booking status to **Traveling**. The system tracks the duration of time the booking status is set to traveling and updates the **Actual Travel Duration** accordingly, though this will not be displayed on the schedule board.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of changing booking status to traveling](../field-service/media/scheduling-board-travel-status.png)
+> ![Screenshot of changing booking status to traveling](../../field-service/media/scheduling-board-travel-status.png)
 
 When field technicians arrive onsite, they can update the booking status to **In progress**, indicating work has begun. The system tracks the duration of time the booking status is set to **In progress** and updates the **Total Duration In Progress** booking field. Finally, when the booking is complete (in other words, the booking status is set to **Completed**), the booking **End Time** is updated, and the booking length is updated visually on the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of changing booking status to completed](../field-service/media/scheduling-board-completed-status.png)
+> ![Screenshot of changing booking status to completed](../../field-service/media/scheduling-board-completed-status.png)
 
 ## Add travel time with manual scheduling
 
@@ -58,7 +58,7 @@ For example, a work order requirement that is manually scheduled to a resource a
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of manually scheduled work order with no travel calculation](../field-service/media/scheduling-board-manual.png)
+> ![Screenshot of manually scheduled work order with no travel calculation](../../field-service/media/scheduling-board-manual.png)
 
 Organizations that operate in small contained geographic areas can add a generic 30 minutes to the work order durations either manually or by inflating the incident durations to roughly estimate travel but still utilize manual scheduling.
 
@@ -68,26 +68,26 @@ Organizations that operate in small contained geographic areas can add a generic
 In addition to completing the tasks mentioned earlier in this topic, you need to go to **Resource Scheduling > Settings > Administration > Scheduling Parameters** and set **Auto Update Booking Travel** to **Enabled**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of auto update booking travel](../field-service/media/scheduling-manual-travel-update-enable.png)
+> ![Screenshot of auto update booking travel](../../field-service/media/scheduling-manual-travel-update-enable.png)
 
 This will add a travel time to the booking visualization on the schedule board, displayed by a line preceding the booking, and populate the **Miles Traveled** booking field (though this is not visualized on the schedule board). 
 
 In the following screenshot, an unscheduled work order requirement was dragged from the lower requirement pane to a resource at 10:00 AM. Similarly to before, this implies that the field technician should arrive onsite at 10:00 AM; the only difference is that the travel time to get there from a home, office, or previous job location is displayed **before** that time.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel time auto updated](../field-service/media/scheduling-manual-travel-update.png)
+> ![Screenshot of travel time auto updated](../../field-service/media/scheduling-manual-travel-update.png)
 
 
 The auto-update booking travel feature will update travel time calculations as new bookings are made beyond the initial schedule. In the following screenshot, you see two onsite work order requirements scheduled back-to-back on the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of two onsite requirements](../field-service/media/scheduling-schedule-board-2-onsite-bookings.png)
+> ![Screenshot of two onsite requirements](../../field-service/media/scheduling-schedule-board-2-onsite-bookings.png)
 
 
 If a third onsite requirement is scheduled in between the original two, the travel time calculations are updated accordingly, based on the new route order. The order of the bookings is decided by the estimated arrival time, not the travel start time.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling an onsite booking between two onsite requirements](../field-service/media/scheduling-schedule-board-2-onsite-bookings-add-3rd.png)
+> ![Screenshot of scheduling an onsite booking between two onsite requirements](../../field-service/media/scheduling-schedule-board-2-onsite-bookings-add-3rd.png)
 
 > [!NOTE]
 > When updates (like in the preceding screenshot) take place, the booking start and end times are not cascaded for the rest of the day, as is evident by the overlap. Only the travel times and distances are updated. To ensure that the remaining bookings cascade, correct overlapping times, and fit inside working hours after changes, organizations should consider using Resource Schedule Optimization (RSO).
@@ -106,10 +106,10 @@ When triggered from the schedule board, the schedule assistant shows resources w
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant travel time options](../field-service/media/scheduling-schedule-assistant-schedule-board.png)
+> ![Screenshot of schedule assistant travel time options](../../field-service/media/scheduling-schedule-assistant-schedule-board.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduled work order via schedule assistant with travel time](../field-service/media/scheduling-schedule-assistant-schedule-board-booked.png)
+> ![Screenshot of scheduled work order via schedule assistant with travel time](../../field-service/media/scheduling-schedule-assistant-schedule-board-booked.png)
 
 This is predicated on the following:
 
@@ -122,7 +122,7 @@ This is also true when the schedule assistant is not triggered from the schedule
 In the following screenshot, travel time and distance calculations appear in the columns.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel time calculations in grid view of schedule assistant](../field-service/media/scheduling-schedule-assistant-travel-times.png)
+> ![Screenshot of travel time calculations in grid view of schedule assistant](../../field-service/media/scheduling-schedule-assistant-travel-times.png)
 
 > [!NOTE]
 > If the work order requirement has a work location of **Location Agnostic** or if the schedule assistant work-location filter is changed to **Location Agnostic**, then resources without locations will also be displayed, along with resources that do have locations, except that the booking will not calculate travel time.
@@ -131,21 +131,21 @@ In the following screenshot, the work location is location agnostic, and no trav
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of booking a location-agnostic requirement with no travel time](../field-service/media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
+> ![Screenshot of booking a location-agnostic requirement with no travel time](../../field-service/media/scheduling-schedule-assistant-schedule-board-location-agnostic.png)
 
 Additionally, the Auto Update Booking Travel feature (Field Service version 8.6 and later) updates subsequent bookings when using the schedule assistant.
 
 In the following screenshot, you'll see a resource's schedule with time available at the beginning of the day, perhaps due to a cancellation.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of bookings on schedule board](../field-service/media/scheduling-travel-time.png)
+> ![Screenshot of bookings on schedule board](../../field-service/media/scheduling-travel-time.png)
 
 When the schedule assistant is triggered, it finds the available time slot.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling work order before other bookings with schedule assistant](../field-service/media/scheduling-travel-time-schedule-assistant.png)
+> ![Screenshot of scheduling work order before other bookings with schedule assistant](../../field-service/media/scheduling-travel-time-schedule-assistant.png)
 
 After it's booked, the travel time of the subsequent booking is updated as the location has changed.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel time of subsequent booking being updated](../field-service/media/scheduling-travel-time-schedule-assistant-update-subsequent.png)
+> ![Screenshot of travel time of subsequent booking being updated](../../field-service/media/scheduling-travel-time-schedule-assistant-update-subsequent.png)
 
 ## Add travel time with Resource Scheduling Optimization
 
@@ -154,18 +154,18 @@ While the schedule assistant can help dispatchers make better scheduling decisio
 When the optimization runs and automatically schedules work orders or other requirements, the travel times display on the schedule board the same as with other booking methods. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of optimized schedule board with resource schedule optimization](../field-service/media/rso-optimized-schedule-board.png)
+> ![Screenshot of optimized schedule board with resource schedule optimization](../../field-service/media/rso-optimized-schedule-board.png)
 
 However, to better understand how RSO minimizes overall travel time, each RSO run (called a "request") displays a graph comparing total working minutes scheduled to total travel minutes for those optimized bookings. This can be compared to the same graph for requirements scheduled manually or with the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel time graph](../field-service/media/rso-travel-time-graph.png)
+> ![Screenshot of travel time graph](../../field-service/media/rso-travel-time-graph.png)
 
 > [!NOTE]
 > If the RSO is set to schedule within working hours, it will calculate time to leave at the end of the day for resources to travel to their ending location, generally a home or office.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of space for travel time home](../field-service/media/rso-optimized-schedule-board-time-at-end-of-day.png)
+> ![Screenshot of space for travel time home](../../field-service/media/rso-optimized-schedule-board-time-at-end-of-day.png)
 
 ## Consider traffic when scheduling
 
@@ -173,7 +173,7 @@ To help with scheduling decisions, current traffic patterns and accidents can be
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of show traffic button on schedule board map](../field-service/media/scheduling-schedule-board-traffic.png)
+> ![Screenshot of show traffic button on schedule board map](../../field-service/media/scheduling-schedule-board-traffic.png)
 
 > [!NOTE]
 > Travel time calculations do not reflect traffic patterns or historical travel times based on the time of day or year.
@@ -186,7 +186,7 @@ If a field technician begins travel to their next work order and sees that the t
 
 ## Configuration considerations
 
-- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account-related details to work orders](../field-service/work-order-customer-account.md) for more details.
+- By adding a travel charge to the service account of the work order, you can charge the customer a fee for travel time and distance as work orders are completed. See the topic on [adding account-related details to work orders](../../field-service/work-order-customer-account.md) for more details.
 - A field technician's current location as derived from their mobile device running the Field Service Mobile app can be used for travel time and distance calculations with the scheduling assistant. This is called **Real Time Mode**. See the topic on [enabling and testing location auditing](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/geofencing#step-5-test-location-auditing) for more details.
 - Field Service uses the Bing Maps API for travel time and distance calculations, but other APIs such as Google Maps can be used as well.
 - By default, work order requirements have a work location of **Onsite**, but default work location can be edited for each schedulable entity by going to **Resource Scheduling > Settings > Enable Resource Scheduling for Entities >**, and then selecting **Enabled Entity**.  

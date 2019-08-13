@@ -31,4 +31,4 @@ search.app:
 
 # Fulfillment preferences
 
-[!INCLUDE[topic-urs-fulfillment-pref.md](../includes/topic-urs-fulfillment-pref.md)]
+[!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/fulfillment-pref.md)]
