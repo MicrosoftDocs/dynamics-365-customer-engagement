@@ -161,6 +161,14 @@ In the **Bookings for the Optimization** section, select the **Active Bookable R
 > [!Note]
 > By entering a view for unscheduled requirements **and** bookings we are configuring RSO to optimize both unscheduled jobs and existing jobs. If you only select a booking view, then RSO will only optimize existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, this means RSO will not move existing bookings and simply attempt to schedule the unscheduled jobs to available time slots.
 
+For Optimization Range Settings, enter the following values.
+
+**Range Reference** - Job Current Time - means the 2 days we would like RSO to schedule will begin when RSO is run
+
+**Range Offset** - 5 minutes - means the first booking RSO can schedule will be 5 minutes after the time RSO is run. Some organizations would like RSO to schedule tomorrow jobs, in which case the **Range Offset** should be set to 1 day
+
+**Range Duration** - 2 days - means RSO will schedule requirements to fill up a maximum of 2 days. 
+
 ## Create Goal
 
 
