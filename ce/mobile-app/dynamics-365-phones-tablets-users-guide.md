@@ -147,7 +147,7 @@ Dashboards give you an overview of valuable information. Select on the Home butt
    > [!div class="mx-imgBorder"] 
    > ![Chart in full screen view](media/expandchart.png "Chart in full screen view")
    
- -  To view records in chart or refresh the chart view, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
+- To view records in chart or refresh the chart view, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") and then choose an  action: **Refresh** or **View Records**. 
 
    > [!div class="mx-imgBorder"] 
    > ![Refresh or view charts](media/charts_01.png "Refresh or view a chart")
@@ -193,13 +193,13 @@ Take action on a record without opening the record.
 
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Choose record](media/actionmenu1.png "Choose record").
+    > [!div class="mx-imgBorder"] 
+    > ![Choose record](media/actionmenu1.png "Choose record").
 
 2. From the list of records, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the record you want to update and then select an action such as **Assign**, **Deactivate** or **Delete**. 
 
-  > [!div class="mx-imgBorder"] 
-  > ![Action menu](media/actionmenu.png "Take action on a record").
+    > [!div class="mx-imgBorder"] 
+    > ![Action menu](media/actionmenu.png "Take action on a record").
 
 
 ## Add activities in the Timeline 
@@ -210,18 +210,18 @@ Activities are details that you add to record which include things like notes, p
 
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**. Then choose a record to open it.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Choose record](media/actionmenu1.png "Choose record").
+    > [!div class="mx-imgBorder"] 
+    > ![Choose record](media/actionmenu1.png "Choose record").
 
 2. On the open record, next to **Summary** selct ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png) > **Timeline**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Choose the timeline](media/timeline3.png "Choose the timeline").
+    > [!div class="mx-imgBorder"] 
+    > ![Choose the timeline](media/timeline3.png "Choose the timeline").
 
 3. In the **Timeline** area, select the Add button ![Add button](media/addbutton.png) >, and then select the type of activity that you want to add.
 
-  > [!div class="mx-imgBorder"] 
-  >![Add an activity](media/timeline1.png "Add an activity")
+    > [!div class="mx-imgBorder"] 
+    >![Add an activity](media/timeline1.png "Add an activity")
 
 
 > [!NOTE]
@@ -241,22 +241,23 @@ Activities are details that you add to record which include things like notes, p
 
 Call or send email to your customers easily from the mobile app. Open a customer record and select phone number in record to start a call, or select the email button to send an email.
 
-![Dynamics 365 for phones and tablets send an email or make a call](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
+   > [!div class="mx-imgBorder"] 
+   > ![Dynamics 365 for phones and tablets send an email or make a call](media/SendEmailOrMakeCall_23.png "Dynamics 365 for phones and tablets send an email or make a call")
 
 
 ## Update an image for a record
 
 To add a new image, open the record and selct the current image for the record. Choose **Use Camera** to take a new pictuere or **Upload Image** to choose an existing image on your device. Then follow the prompts on your device to add the new image.
 
-  > [!div class="mx-imgBorder"] 
-  >![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
+   > [!div class="mx-imgBorder"] 
+   > ![Dynamics 365 for phones and tablets update image on a record](media/UpdateImageForRecord_12.png "Dynamics 365 for phones and tablets update image on a record")
 
 ## Business process flow
 
 Business process flows help you enter data consistently and follow the same steps every time you work with a record. As you work on a new record, the business process flow helps you see each step that you need to take to create the new record and fill out the required information according to your organizations business process.
 
   > [!div class="mx-imgBorder"] 
-  >![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
+  > ![Dynamics 365 for phones and tablets business process flow](media/BusinessProcessFlow.png "Dynamics 365 for phones and tablets business process flow")
 
 
 ## Task Flows
@@ -264,13 +265,13 @@ Business process flows help you enter data consistently and follow the same step
 Use Task Flows to complete common set of tasks. For example, if you need to perform a series of follow-up steps on a regular basis then select on the nav bar, selct the Task Flow button ![Dynamics 365 for phones and tablets task flows button](media/taskflowbutton.png "Dynamics 365 for phones and tablets task flows button"). This will lead you through the entire task from start to finish so, you don't forget an important step.
 
   > [!div class="mx-imgBorder"] 
-  >![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
+  > ![Dynamics 365 for phones and tablets task flows](media/TaskBasedFlow.png "Dynamics 365 for phones and tablets task flows")
 
 > [!NOTE]
 >  Tasked based flows need to be turned on by your admin. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a mobile task flow](../customize/create-mobile-task-flow.md)
 
 
-# Search for records
+## Search for records
 
 You can search for records across multiple entities by using Relevance search or Categorized search. Relevance search delivers fast and comprehensive results across multiple entities, in a single list, sorted by relevance. Categorized search returns search results grouped by entity types, such as accounts, contacts or leads.
 
@@ -286,7 +287,7 @@ Normally, Categorized search is the default search option. However, if Relevance
   
 - **Search within**: Results include records that contain a field with all of the words in the search term.  The individual words can appear anywhere in the string and in any order.  For example, if you search for “Alpine Ski House,” you could find results for “I left the house today to go skiing in the Alpine Meadows,” since all of the search words appear somewhere in the string.  
 
-## Switch between Relevance and Categorized search
+### Switch between Relevance and Categorized search
 
 If your organization has turned on both search options (Relevance and Categorized search), then you can switch between the two.
 
@@ -295,9 +296,9 @@ If your organization has turned on both search options (Relevance and Categorize
 2. At the top select the drop-down to switch between **Relevance Search** or **Categorized Search**.
 
     > [!div class="mx-imgBorder"] 
-    >![Switch beteen search type](media/switchsearch.png "Switch beteen search type")
+    > ![Switch beteen search type](media/switchsearch.png "Switch beteen search type")
 
-## Start a search  
+### Start a search  
   
 1.  On the nav bar, select the Search button ![Search button](media/searchbutton.png).
   
@@ -322,7 +323,7 @@ The assistant draws your attention to your most important items and tasks, drawn
 - To access the assistant, on the nav bar, slect the More button  ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Relationship Assistant**.
 
     > [!div class="mx-imgBorder"] 
-    >![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
+    > ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
  
 
 
