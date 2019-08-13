@@ -169,11 +169,35 @@ For Optimization Range Settings, enter the following values.
 
 **Range Duration** - 2 days - means RSO will schedule requirements to fill up a maximum of 2 days. 
 
+**Save**.
+
 ## Create Goal
 
+THe next steps is to create goals or objectives for your RSO run.
+
+Choose **Optimization Goals** in the left pane then **+New**.
+
+Enter a **Name** that describes the goal.
+
+**Engine Effort Level** - Very Light - meaning RSO will run very quickly but may not find the most optimal solution. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-goal.png)
+
+For constraints, select the following
+
+- Schedule Within Working Hours
+- Meets Required Characteristics (if your requirements and resources both have characteristics)
+- Matches Territory (if your requirements and resources both belong to the same service territory, in our example, Washington state (WA))
+
+For objectives, select the following order
+
+1. Maximize Total Working Hours
+2. Minimize Total Travel Time
+3. Best Matching Skill Level
+
+> [!Note]
+> Minimize Total Travel Time **cannot** be the first objective
 
 ## Create Schedule
 
