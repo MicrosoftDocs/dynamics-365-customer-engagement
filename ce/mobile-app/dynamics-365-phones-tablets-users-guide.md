@@ -206,7 +206,7 @@ Take action on a record without opening the record.
 
 Activities are details that you add to record which include things like notes, posts, task, send email, add phone call details, or set up appointments. These activities are added in the Timeline wall of a record and it keeps track of all your communications for the record in the Timeline section. The system automatically timestamps every activity and shows who created it. 
 
-**View an activity**
+**Add an activity**
 
 1. Select the site map button ![Menu button](media/MenuButton.png "Menu button"), then select the record type that you want to update, such as, **Accounts**. Then choose a record to open it.
 
@@ -218,9 +218,16 @@ Activities are details that you add to record which include things like notes, p
   > [!div class="mx-imgBorder"] 
   > ![Choose the timeline](media/timeline3.png "Choose the timeline").
 
-3. In the **Timeline** area, select the Add button ![Add button](media/addbutton.png) >, and select the type of activity that you want to add.
+3. In the **Timeline** area, select the Add button ![Add button](media/addbutton.png) >, and then select the type of activity that you want to add.
 
-![Add an activity](media/timeline1.png "Add an activity")
+  > [!div class="mx-imgBorder"] 
+  >![Add an activity](media/timeline1.png "Add an activity")
+
+
+> [!NOTE]
+> You can also add notes, attach photos, video, and attachments. 
+ > [!div class="mx-imgBorder"] 
+ >![Add notes](media/timeline2.png "Add notes")
 
 ### Sort and filter the Timeline view
 
@@ -228,13 +235,6 @@ Activities are details that you add to record which include things like notes, p
 
 - Select ![Sort timeline view](../mobile-app/media/sortbutton.png "Sort timeline view") to change the sort order for the records from ascending to descending and vice versa.
 
-**Take notes**
-
-The mobile app also lets you take notes and attach photos to a note, or take a new photo with your device's camera. So, if for example, you're out at a site and need to document a customer's issue with a product, you can capture and add it to a note right away, rather than taking the photo, then adding it from your camera roll later.
-
-To add a note, open a record and in the notes area enter your note.
-
-![Dynamics 365 for phones and tablets add picture to notes](media/AddPictureToNotes_16.png "Dynamics 365 for phones add picture to note")
 
 ### Scan barcodes  
 Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
