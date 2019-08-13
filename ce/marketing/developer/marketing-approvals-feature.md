@@ -55,7 +55,7 @@ The customizations outlined in this topic will help you design and implement an 
 1. Standard users (non-approvers who we will call Marketers) no longer see a **Go live** button on entity forms where approvals are enabled. Instead, this is replaced by a **Request approval** button on the command bar. These entities use a custom collection of Status reason values, which are used to track the approval status of each record. Records requiring approval begin with a Status reason of **Approval required**.
 
 
-<!-- Change "standard user" below to "Marketer"? The paragraph above says that's what we'll call them. -->
+<!-- Change "standard user" below to "marketer"? The paragraph above says that's what we'll call them. -->
 
 
 1. When a standard user has finished creating a new record (such as an email design), they select **Send for approval**, which triggers the following changes:
