@@ -145,13 +145,21 @@ Now that we have enabled RSO, and have:
 
 the next step is to set up an RSO run and input both of these lists.
 
-Go to the **Resource Scheduling Optimization app** which is a separate app from Field Service and Resource Scheduling apps. 
+Go to the **Resource Scheduling Optimization app** which is a separate app from the Field Service and Resource Scheduling apps. 
 
 Then choose **Optimization Scopes** in the left pane then **+New**.
 
+Enter a **Name** that describes the requirements and resources you are optimizing.
+
+In the **Resources and Unscheduled Requirements for this Optimization** section, select the **Resource View** and the **Requirement View** you created in the previous steps.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-scope.png)
+
+In the **Bookings for the Optimization** section, select the **Active Bookable Resource Bookings** view or a similar view for bookings.
+
+> [!Note]
+> By entering a view for unscheduled requirements **and** bookings we are configuring RSO to optimize both unscheduled jobs and existing jobs. If you only select a booking view, then RSO will only optimize existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, this means RSO will not move existing bookings and simply attempt to schedule the unscheduled jobs to available time slots.
 
 ## Create Goal
 
