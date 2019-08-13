@@ -23,7 +23,7 @@
 
 # Quickstarts
 ## [Schedule a work order](quickstart-schedule-work-order.md)
-## [Optimize a list of work orders with RSO](rso-quickstart.md)
+## [Auto schedule a list of work orders with RSO](rso-quickstart.md)
 
 
 # Work orders
