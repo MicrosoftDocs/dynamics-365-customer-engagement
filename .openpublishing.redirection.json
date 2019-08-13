@@ -1,5 +1,15 @@
 {
-  "redirections": [
+  "redirections": [    {
+      "source_path": "ce/customize/import-update-export-solutions.md",
+      "redirect_url": "export-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/field-resource-hub-users-guide.md",
+      "redirect_url": "field-service-mobile-app-user-guide",
+      "redirect_document_id": "false"
+    },
+
     {
       "source_path": "ce/developer/workflow/create-custom-workflow-activity.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/common-data-service/workflow/workflow-extensions#visual-studio-requirements",
