@@ -42,11 +42,11 @@ This topic describes how to create a workstream that is used to route the case e
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
     | Work Distribution | Name | Case Workstream | Provide a name to the workstream. <br> **Note:** <ul><li> If you update the name of the workstream, you must update **Cases Work Distribution flow** by navigating to Microsoft Flow.</li> <li> The value provided is an example. </li></ul>  |
-    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. Cases from this channel are automatically distributed to the agents. |
+    | Work Distribution | Channel | Entity Records | Select the **Entity Records** channel from the list. |
     | Work Distribution | Capacity | 50 |Specify the units of capacity that are required to process a conversation for the workstream in the text box. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
     | Work Distribution | Auto-close after inactivity | 5 minutes | Set time after which a conversation is moved from the **Waiting** state to the **Closed** state because of inactivity. <br> **Note:** <ul><li> The value provided is an example. </li></ul> |
-    | Work Distribution | Assign Work Item After Decline or Timeout | 2 minutes | Set the time after which the case is assigned to the agent again once the agent has declined the work item or the request has timed out.  |
-    | Work Distribution | Work distribution mode | Push | Select **Push** when you to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
+    | Work Distribution | Assign Work Item After Decline or Timeout | 2 minutes | Set the time after which the case is assigned to the agent again once the agent has declined the work item or the request has timed out. <ul><li> The value provided is an example. </li></ul> |
+    | Work Distribution | Work distribution mode | Push | Select **Push** when you want to automatically route the cases to the agents. <br><br> Select **Pick** when you want the agents to explicitly pick a conversation from the **Open work items** in agent dashboard. |
     | Work Distribution | Allowed presences | Allowed, Busy | Set the allowed presence status <br><br> Select the option and type a presence status in the search box. Select a status from the list. <br> **Note:** <ul><li> The value provided is an example. </li></ul>|
 
     > [!div class=mx-imgBorder] 

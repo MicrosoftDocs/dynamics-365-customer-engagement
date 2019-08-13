@@ -24,7 +24,7 @@ ms.custom:
 
 ## Overview
  
-In Omnichannel for Administrator, **Cases entity record** channel helps you to automatically route cases to agents based on the agent's skill, capacity, and availability.
+In Omnichannel for Administrator, **Cases entity record** channel helps you to automatically route cases and other entity records to agents based on the agent's skill, capacity, and availability.
 
 > [!Note]
 > Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
@@ -33,7 +33,7 @@ In Omnichannel for Administrator, **Cases entity record** channel helps you to a
 
 Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to static queues, and then these cases are either manually by supervisors or manually picked by agents.
 
-With unified routing, cases can be routed to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS.
+With unified routing for entity records, cases can be routed to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS.
 
 That is, the cases are routed to the queues based on the routing rules, and then the work distribution engine distributes the cases automatically to the agents based on the availability and capacity.
 
@@ -48,9 +48,7 @@ To configure entity records channel for case routing and automatic distribution,
 
 ## Entity records channel
 
-Omnichannel for Administrator leverages the CDS queue entity to automatically route entity records. In omnichannel, first, the application routes the entity records to the queues. From the queues the work distribution engine automatically distributes the entity records to the agents.
-
-### Automatic case distribution work flow
+In omnichannel, first, the application routes the entity records to the queues. From the queues the work distribution engine automatically distributes the entity records to the agents.
 
 **Entity Records** appears under the **Channels** in the Omnichannel for Administrator app. When you select the **Entity Records**, a blank **Entity Record Workstreams** view appears. You must create workstreams to route the case records.
 
@@ -65,7 +63,7 @@ To setup the **Entity Record** channel and route the cases, follow the steps:
 
 ## Step 1: Create queues
 
-You must create a queue or enable existing queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+You must create a queue or use an existing omnichannel queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
 > [!Note]
 > If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox, to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")

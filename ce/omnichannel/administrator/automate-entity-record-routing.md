@@ -118,7 +118,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |
-| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams Id. <br> **Note:** <li> Workstream Id is mandatory. </li> <li>Condition is optional.</li> |
+| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
 
 ### Update work distribution flow
