@@ -299,50 +299,17 @@ If your organization has turned on both search options (Relevance and Categorize
 
 ## Start a search  
   
-1.  on the nav bar, select the Search button.
+1.  On the nav bar, select the Search button ![Search button](media/searchbutton.png).
   
-2.  Type your search words in the search box and then select **Search**.  
-  
-## Filter search results  
-  
--   To filter results by one record type, on the search screen, choose a record type from the **Filter with:** drop-down box.  
-  
--   To search against all record types, choose **None** in the **Filter with:** drop-down box.  
+2.  Type your search words in the search box and then select Search button.  
 
 
-### Scan barcodes  
-Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
+### Search using the barcode scanner
 
-**Filter search results**
+Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. This makes it easy to capture info about inventory and other issues when you're out in the field. 
 
-To filter results by record type, choose a record type from the **Filter
-with:** drop-down box.
+- To use the barcode scanner, when you are in search mode, select the Barcode Scanner button ![Bar code scanner button](media/barcodescannerbutton.png) and then follow the prompts on your device.
 
-![Dynamics 365 for phones and tablets filter search results](media/FilterSearchResults_9.png "Dynamics 365 for phones and tablets filter search results")
-
-## Sort items in a grid view
-
-To help you find a record quickly, you can sort items in a grid view. For example, when you’re looking at a list of your active accounts, tap the arrow to sort the records in ascending or descending order.
-
-- To sort in ascending order by a column, tap that column’s heading.
-
-- To sort in descending order, tap the column’s heading again.
-
-  ![Dynamics 365 for phones and tablets sort items in grid view](media/Sort_Items_In_Grid_10.png "Dynamics 365 for phones and tablets sort items in grid view")
-  
-You can do the same from a list view in [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)]. 
-
-- Tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis"), tap **Sort** and then choose how you want to sort the data.
-  
-  ![Sort on phones](media/sortonphones.png "Sort on phones")
-
-## Export records to Excel
-
-In the list of records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile apps, you can export records to Microsoft Excel, just like you can in the web app. From a grid view in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for tablets or a list of records in [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") on the command bar and then tap **Export to Excel**.
-
-![Dynamics 365 for phones and tablets export to Excel](media/ExportToExcel_11.png "Dynamics 365 for phones and tablets export to Excel")
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export data to excel](../basics/export-data-excel.md) 
 
 ## Relationship Assistant
 
@@ -350,13 +317,12 @@ The relationship assistant is designed to deliver the most important and relevan
 
 The assistant reminds you of upcoming activities; it evaluates your communications and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more.
 
-When you start your day by signing in to Dynamics 365 for Customer Engagement apps, the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.
+The assistant draws your attention to your most important items and tasks, drawn from all areas of the app.
 
-1.  To access the assistant, on the nav bar, tap ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis").
+- To access the assistant, on the nav bar, slect the More button  ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Relationship Assistant**.
 
-2.  Tap **Relationship Assistant**.
-
-    ![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
+    > [!div class="mx-imgBorder"] 
+    >![Dynamics 365 for phones and tablets Relationship Assistant](media/RelationshipAssistant.png "Dynamics 365 for phones and tablets Relationship Assistant")
  
 
 
