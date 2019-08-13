@@ -126,7 +126,7 @@ To set up an approval workflow in Microsoft Flow:
     <!-- Again, should it be "Choose an action"? And do they need to select "Actions"? -->
 
 
-    ![If no update a record](../media/if-no-cds-update-record.png "If no update arecord")
+    ![If no, update a record](../media/if-no-cds-update-record.png "If no, update a record")
 
 1. Enter the values as shown below.
 
