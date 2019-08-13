@@ -36,7 +36,7 @@
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)
-##### [Walkthrough: Automate entity record routing](administrator/multiple-ws-entity-record-routing.md)
+##### [Walkthrough: Create multiple workstreams for entity records routing](administrator/multiple-ws-entity-record-routing.md)
 
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
