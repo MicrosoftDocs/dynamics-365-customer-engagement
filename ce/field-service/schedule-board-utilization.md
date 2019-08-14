@@ -28,7 +28,7 @@ search.app:
 
 # Resource utilization on the schedule board in Dynamics 365 for Field Service
 
-[!INCLUDE[topic-urs-schedule-board-utilization.md](../includes/topic-urs-schedule-board-utilization.md)]
+[!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
 
 
 

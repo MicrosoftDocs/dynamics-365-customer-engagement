@@ -29,4 +29,4 @@ search.app:
 
 # Multiresource scheduling with requirement groups
 
-[!INCLUDE[topic-urs-fulfillment-pref.md](../includes/topic-urs-multi-resource-scheduling.md)]
+[!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/multi-resource-scheduling.md)]

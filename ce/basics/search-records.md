@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
 caps.latest.revision: 21
+author: mduelae
 ms.author: t-mijosh
 manager: ryjones
 search.audienceType: 
