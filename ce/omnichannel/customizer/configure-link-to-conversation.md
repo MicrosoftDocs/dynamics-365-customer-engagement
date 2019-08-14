@@ -23,7 +23,14 @@ Consider the following scenario:
 
 - Agent accepts the conversation request
 - Agent creates an account record
-- link the record to the conversation
+- Link the record to the conversation
+
+For this scenario, you must create the following:
+
+1. **Create a hosted control:** Communication Panel is the hosted control.
+1. **Create a action call:** Link to conversation is the action call.
+2. **Create a toolbar and toolbar button:** Link records is the toolbar.
+3. **Attach the action call and toolbar:** Link to conversation is the toolbar button.
 
 ## Prerequisites
 
