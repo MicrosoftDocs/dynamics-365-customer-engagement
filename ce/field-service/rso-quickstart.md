@@ -211,7 +211,7 @@ Enter a **Name** that will define your schedule such as "Overnight Schedule".
 
 Select a lookup to the **Scope** and **Goal** you just created.
 
-Set **Timer** to 1 hour. This represents how often RSO will check if it should run.
+Set **Timer** to 1 hour. This represents how often RSO will check if it should run based on the time this schedule is published.
 
 Enter **valid from** and **valid to** dates. 
 
@@ -220,12 +220,14 @@ If you plan to run RSO manually, simply enter dates in the past.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-schedule.png)
 
-If you want to run this RSO schedule every night, enter the date range wou want it to run every night for, **and** a time of night and time zone it should run in the **Filter** section. 
+If you want RSO to run every night, enter the date range wou want it to run every night for, **and** a time of night and time zone it should run in the **Filter** section. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-time-filter.png)
 
-Every hour (based on the timer value set previously), RSO will check to see if it should run based on the filter values.
+Every hour (based on the timer value set previously), RSO will check to see if it should run based on the filter values. In hour example, every hour RSO will check to see if it should run, but only in the 12th hour of the AM will it actually run.
+
+It is important to consider both timer and filter values when configuring RSO schedules.
 
 **Save and Publish**.
 
