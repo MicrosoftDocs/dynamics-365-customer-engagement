@@ -44,7 +44,7 @@ This allows organizations to tightly define the work profile that their agents a
 To configure entity records channel for case routing and automatic distribution, ensure:
 
 - You are on the latest version of Omnichannel for Customer Service.
-- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution]().
+- You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#install-routing-rules-preview-solution).
 
 ## Entity records channel
 
