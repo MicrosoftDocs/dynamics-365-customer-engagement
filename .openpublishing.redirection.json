@@ -1,5 +1,6 @@
 {
-  "redirections": [    {
+  "redirections": [
+    {
       "source_path": "ce/customize/import-update-export-solutions.md",
       "redirect_url": "export-solution",
       "redirect_document_id": "false"
@@ -4971,6 +4972,36 @@
     {
       "source_path": "ce/marketing/developer/event-management-web-application.1.md",
       "redirect_url": "event-management-web-application",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/unified-routing-work-distribution.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/unified-routing-work-distribution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/set-up-chat-widget.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/set-up-chat-widget",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/presence-custom-presence.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/presence-custom-presence",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/record-identification-rule.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/record-identification-rule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/routing-rules.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/routing-rules",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/omni-channel-engagement-hub/administrator/users-user-profiles.md",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/users-user-profiles",
       "redirect_document_id": false
     }
   ]
