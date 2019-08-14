@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_opportunitylinetransaction Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Sales estimate detail of an opportunity line (Deprecated in v3.0)
 
 **Added by**: Project Service Automation Solution

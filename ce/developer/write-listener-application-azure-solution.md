@@ -22,8 +22,6 @@ search.app:
 ---
 # Write a listener application for a Azure solution
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution  listener application that can read and process [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement messages that are posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. As a prerequisite, you should familiarize yourself with how to write a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] listener before trying to learn the specifics of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] listener. For more information, see the [Azure Service Bus documentation](https://azure.microsoft.com/en-us/documentation/services/service-bus/).  
   
 <a name="bkmk_writequeued"></a>

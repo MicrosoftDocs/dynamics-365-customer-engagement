@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_geofenceevent Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Created when a geotracked record enters or exits a geofence.
 
 **Added by**: Geofence Management Solution

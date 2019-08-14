@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement apps Version 8.x
 ms.assetid: 19eb9378-3eb0-4964-98d8-5c674a0c746b
 caps.latest.revision: 7
+author: mduelae
 ms.author: mkaur
 manager: kvivek
 search.audienceType: 
@@ -23,8 +24,6 @@ search.app:
   - D365Sales
 ---
 # Enable mobile offline synchronization
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Enable mobile offline synchronization so users can stay productive wherever they are.
   

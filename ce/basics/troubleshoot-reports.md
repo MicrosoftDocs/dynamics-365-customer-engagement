@@ -22,8 +22,6 @@ search.app:
 ---
 # Troubleshoot problems with data not displaying in a report
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 There are several possible reasons why data that you expect to be in a report does not appear:  
   
 - **Insufficient security permissions**. If you don't have permission in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to view a record, it will not appear in the report.  

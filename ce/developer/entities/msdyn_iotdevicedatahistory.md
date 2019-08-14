@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_iotdevicedatahistory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The name of the entity that holds the device data every time a device data pull occurs between Dynamics 365 and IoT hub
 
 **Added by**: IoT Connector for Microsoft Dynamics 365 Solution

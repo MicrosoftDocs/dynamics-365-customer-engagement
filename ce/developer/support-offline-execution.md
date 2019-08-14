@@ -21,8 +21,6 @@ search.app:
 ---
 # Support offline execution with Dynamics 365 for Microsoft Office
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
  Offline mode is only supported on [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. You can register plug-ins to execute when the Outlook client is in online mode, offline mode, or both.  Your plug-in code can check whether it is executing in offline mode by checking the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsExecutingOffline> property.  
   
  When you design a plug-in that will be registered for both online and offline execution, remember that the plug-in can execute twice. The first time is while [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] is offline. The plug-in executes again when [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] goes online and synchronization between [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server occurs. You can check the <xref:Microsoft.Xrm.Sdk.IExecutionContext.IsOfflinePlayback> property to determine if the plug-in is executing because of this synchronization.

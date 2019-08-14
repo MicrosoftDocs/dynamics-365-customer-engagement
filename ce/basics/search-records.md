@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
 caps.latest.revision: 21
+author: mduelae
 ms.author: t-mijosh
 manager: ryjones
 search.audienceType: 
@@ -20,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Search for records
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search across multiple record types all at the same time.  The results of the search are shown in groups, sorted by entity type.  
   

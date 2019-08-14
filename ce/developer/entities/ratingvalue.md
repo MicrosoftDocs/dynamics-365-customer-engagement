@@ -16,8 +16,6 @@ search.app:
 ---
 # RatingValue Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 A unique value associated with a rating model that allows providing a user friendly rating value.
 
 **Added by**: Scheduling Solution

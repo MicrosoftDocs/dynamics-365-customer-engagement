@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Using teams in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
@@ -60,7 +60,7 @@ Anyone who has Create, Read, Update (Write), Delete (CRUD) privileges on the Tea
 > [!div class="mx-imgBorder"] 
 > ![](media/create-teams-security-roles.png "Privileges for creating teams")
 
-### Add a Team administrators
+### Add a Team administrator
 When you create a team, you need to add a Team administrator with a security role that has Read privilege to the Team entity. Go to **Settings** > **Security** > **Teams** and select a team to enter the Team administrator.
 
 > [!div class="mx-imgBorder"] 
@@ -124,7 +124,6 @@ For more information, see [Assign a record to a user or team](../basics/assign-r
 
 ## About group teams
 
-Applies to Dynamics 365 for Customer Engagement apps version 9.x (online only)<br />
 Applies to Common Data Service
 
 ### Using Azure Active Directory groups to manage a user’s app and data access 

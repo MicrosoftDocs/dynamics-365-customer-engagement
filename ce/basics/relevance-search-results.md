@@ -25,8 +25,6 @@ search.app:
 
 # Use Relevance Search for faster, comprehensive search results
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search for records across multiple entities by using Relevance Search or Categorized Search. Relevance Search returns search results, sorted by relevance, in a single list. Categorized Search returns search results grouped by entity types, such as accounts, contacts, or leads. To find records of one type only, you can use the **Quick Find View** in the entity's grid.  
   
 <a name="BKMK_RelevanceSearch"></a>   

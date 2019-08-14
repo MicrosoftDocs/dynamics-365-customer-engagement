@@ -28,8 +28,6 @@ search.app:
 
 # Schedule with travel time and distance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[topic-urs-schedule-travel-time.md](../includes/topic-urs-schedule-travel-time.md)]
+[!INCLUDE[topic-urs-schedule-travel-time.md](../shared/urs/schedule-travel-time.md)]
 
 

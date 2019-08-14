@@ -16,8 +16,6 @@ search.app:
 ---
 # ExpiredProcess Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Expired Process Business Process Flow
 
 

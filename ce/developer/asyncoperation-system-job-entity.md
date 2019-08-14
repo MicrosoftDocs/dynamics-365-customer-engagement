@@ -21,8 +21,6 @@ search.app:
 ---
 # AsyncOperation (system job) entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 A *system job*, also known as an asynchronous operation, is used to define and track the execution of an asynchronous operation, for example an 
 asynchronous registered plug-in, workflow, or other background system operation. When dealing with asynchronous plug-ins and workflows, you typically 
 don’t create an `asyncoperation` entity record directly. Instead, an `asyncoperation` record is automatically created in the database whenever an 

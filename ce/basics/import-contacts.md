@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 476018f9-e481-46ba-a9d1-c87cb4dd810a
 caps.latest.revision: 60
+author: mduelae
 ms.author: anbichse
 manager: brycho
 search.audienceType: 
@@ -20,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Import contacts
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] so you have all your business contact information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 

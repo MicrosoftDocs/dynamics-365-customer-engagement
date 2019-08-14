@@ -27,8 +27,6 @@ search.app:
 ---
 # Delete or end a recurring appointment series or instance
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can delete a recurring appointment series, delete an instance in the series, or end a recurring appointment series after a specified date and time.  
   
 <a name="bkmk_deleteinstance"></a>   

@@ -22,9 +22,7 @@ search.app:
   - D365CE
 ---
 # Work with Dynamics 365 for Customer Engagement apps reports
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 This section describes the different features that are available to determine how reports display in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
   
 ## In this section  

@@ -25,8 +25,6 @@ search.app:
 
 # Perform initial configurations 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
 
 Estimated Duration: 10 minutes

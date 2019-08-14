@@ -22,8 +22,6 @@ search.app:
 ---
 # Submit feedback or ratings for information stored in your system
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To improve customer satisfaction, tracking customer feedback for the products and services that your organization offers is very important. You can now add feedback or ratings to records for any entity that is enabled for feedback.  
   
  For example, if the  Case entity is enabled for feedback, you can capture feedback on the support experience the customer received for the case. When several customers are rating a record, the ratings can be consolidated for each record through a custom rollup field. In a sales scenario, you can enable the Product entity for feedback to capture users' feedback on the products you sell.  

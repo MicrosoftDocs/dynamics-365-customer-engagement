@@ -22,8 +22,6 @@ search.app:
 ---
 # Image attributes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Entity records that include image data provide a unique experience within the application. As a developer you need to understand how you work with image data.  
   
  Only certain system entities and custom entities support images. For information about which system entities support images, see [Entity images](introduction-entities.md#BKMK_EntityImages).  

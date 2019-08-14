@@ -23,8 +23,6 @@ search.app:
 
 # Overview of Dynamics 365 for Field Service 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Dynamics 365 for Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set mobile workers up for success when they're onsite with customers fixing issues. 
 
 The Field Service application enables you to:

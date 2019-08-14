@@ -17,8 +17,6 @@ search.app:
 ---
 # Client scripting in Customer Engagement using JavaScript
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Client-side scripting using JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365 for Customer Engagement apps. Forms in Customer Engagement apps help display data to the user. A form in a Customer Engagement app can contain items such as fields, a quick form, or a grid.
 
 You can also use business rules, which provides a way for someone, who does not know JavaScript and is not a developer, to apply business process logic in a form. More information: [Create business rules and recommendations to apply logic in a form](../../customize/create-business-rules-recommendations-apply-logic-form.md)

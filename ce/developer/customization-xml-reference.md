@@ -22,8 +22,6 @@ search.app:
 ---
 # Customization XML reference
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The customizations.xml file is one of the files included in an exported unmanaged solution. The file contains all or selected portions of the customizations and configurations for your system. 
   
  The solutions file is exported as a compressed .zip file. The contents of the unmanaged solutions file must be extracted before the customizations file can be edited. All the files of the unmanaged solution must be added to a compressed .zip file before it can be re-imported.  

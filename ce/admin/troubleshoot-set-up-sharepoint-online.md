@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot SharePoint integration with Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/11/2019
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Troubleshoot SharePoint integration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 This topic explains how to fix common issues that may occur with SharePoint document management.
 
@@ -164,6 +164,19 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, [!INCLUDE[p
 4. To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
   
 5. Click **Save & Close**.  
- 
-## See also
+
+
+## Users receive "You don't have permissions to view files in this location" message
+This error message can occur when the SharePoint site that is configured with document management has been renamed, but the SharePoint sites URL record has not been updated to reflect the change. 
+
+1. Go to **Settings** > **Document Management** > **SharePoint Sites**.
+2. Open the **SharePoint Site** record that has been renamed and enter the **Absolute URL** with new URL.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
+
+3. Select **Save & Close**.
+
+
+### See also
 [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md) 

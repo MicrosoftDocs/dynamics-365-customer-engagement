@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement apps Version 8.x
 ms.assetid: 249b15b0-e4fc-43e9-b28a-f933022b7168
 caps.latest.revision: 7
+author: mduelae
 ms.author: mkaur
 manager: kvivek
 search.audienceType: 
@@ -23,8 +24,6 @@ search.app:
   - D365Sales
 ---
 # Publish a mobile offline profile
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 To make the mobile offline profile available to users so they can get the mobile offline experience you've defined for them, you need to publish it.  
   

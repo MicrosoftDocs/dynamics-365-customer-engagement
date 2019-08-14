@@ -16,8 +16,6 @@ search.app:
 ---
 # RatingModel Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Represents a model to evaluate skills or other related entities.
 
 **Added by**: Scheduling Solution

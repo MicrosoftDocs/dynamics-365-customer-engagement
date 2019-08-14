@@ -23,7 +23,7 @@ search.app:
 ---
 # Edit existing SharePoint site records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps records in [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] folders and manage the folders and documents from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Integrating [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps makes it easy to access and share documents associated with your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps records.  
   

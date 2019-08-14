@@ -20,8 +20,6 @@ search.app:
 ---
 # Create and manage custom business apps in Customer Engagement using code
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Business apps in Dynamics 365 for Customer Engagement are modular, purpose built apps that provide role-based functionality relevant for a particular area of work. These apps make it easier for users to quickly find things they need to do every day by providing a simple and intuitive interface. For example, the **Sales** business app provides a simpler, smaller sitemap with only the appropriate set of forms, views, dashboards, and process flows that are relevant for sales people.
 
 System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. 

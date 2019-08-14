@@ -18,7 +18,7 @@ manager: kvivek
 
 # Host your custom event website on Azure
 
-This topic will walk you through how to host your custom event website on Azure. You can either build your frontend or customize the provided demo website build using the [Angular](https://angular.io/) framework. More information [Build and host custom event website](event-management-web-application.md).
+This topic walks you through the process of hosting your custom event website on **Azure**. More information [Build and host custom event website](event-management-web-application.md).
 
 ## Prerequisites
 
@@ -45,15 +45,15 @@ To create an Azure storage account, follow the steps below:
 5. Set the values as shown in the screenshot and click on **Review + create**
 
    > [!NOTE]
-   > You can modify all the settings that suits to your needs.
+   > You can modify all the settings that suit your needs.
 
 6. Review your configuration and click on **Save**
 
-### Enabling static website hosting
+### Enable static website hosting
 
 1. Select the newly created **Storage account** and click on **Static website**
 
-2. Enable the **Static website** by flipping the switch and name the **Index document name** and **Error document path** as **Index.html**
+2. Enable the **Static website** by flipping the switch and name the **Index document name** and **Error document path** as `index.html` (must be lowercase)
 
     ![Static website](../media/enabling-static-website.png "Static website")
 3. Click on **Save**. A new field **Primary endpoint** is shown. Copy the URL from the **Primary endpoint** field. This is the URL from which you reach your custom event website.
@@ -68,7 +68,7 @@ To use event management public API, you need a web application token. The web ap
 
 1. Open the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) with your favorite IDE (we recommend Visual Studio Code).  
 2. Navigate to `src/environments/` directory. 
-3. Create an empty `environment.ts` file.
+3. Create an empty `environment.ts` file (if it doesn't exist).
 4. Open the file `environment.selfhosted.ts`. This file contains all the configuration settings for your event website. 
 5. Enter the **Endpoint** field value from the web application record that you have created in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the `apiEndpoint` value. It should look like this `https://yourorg.crm.dynamics.com/EvtMgmt/api/v2.0/`
 6. Make sure to set the `useAadB2C` value to false.
@@ -77,7 +77,7 @@ To use event management public API, you need a web application token. The web ap
     ```CLI 
      ng build --prod --output-hashing none --configuration self-hosted 
     ``` 
-9. This will build the website. You can find the generated files in `dist\ClientApp` folder. 
+9. This builds the website. You can find the generated files in `dist\ClientApp` folder. 
 
 ## Step 4: Upload your custom event website
 

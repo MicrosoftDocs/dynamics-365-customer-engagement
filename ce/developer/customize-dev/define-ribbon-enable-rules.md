@@ -24,8 +24,6 @@ search.app:
 ---
 # Define ribbon enable rules
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 When configuring Ribbon elements you can define specific rules to control when the ribbon elements are enabled. The `<EnableRule>` element is used as follows:  
 
 -   Use the `/RuleDefinitions/EnableRules/EnableRule` element to define rules controlling when the ribbon element should be enabled.  

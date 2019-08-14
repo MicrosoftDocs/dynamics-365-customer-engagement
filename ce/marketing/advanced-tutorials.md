@@ -27,8 +27,6 @@ search.app:
 
 # Tutorials for specific scenarios
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The tutorials in this section are more general then those in the [Core marketing tutorials](basic-tutorials.md) section. The features covered here are all important parts of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but they are more specialized so some may only be needed occasionally, and you don't need to do the tutorials in order.
 
 When you have completed the exercises here, you'll be able to:

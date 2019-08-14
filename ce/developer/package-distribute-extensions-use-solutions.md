@@ -30,8 +30,6 @@ search.app:
 ---
 # Package and distribute extensions using solutions
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, solutions give you a framework for packaging, installing, and uninstalling components that provide specific business functionality. Solutions are used by ISVs and other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps solution providers to distribute extensions they create, but you’ll also use them to transfer customizations between different organizations you may use in your development process, such as separate development, test, and production organizations.  
   
 ## See also

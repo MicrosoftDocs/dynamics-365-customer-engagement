@@ -26,8 +26,6 @@ search.app:
 
 # Open the event management work area
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The event management features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are collected into their own work area to make it easy to find all the relevant entities and settings while you are focusing on events.
 
 To find the event management work area:

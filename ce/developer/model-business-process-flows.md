@@ -28,8 +28,6 @@ search.app:
 ---
 # Work with business process flows using code
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 A *business process flow* lets you create more efficient and streamlined sales, service, and other business processes. It creates a visualization of your business process by placing special controls at the top of the entity forms. Users are guided through various stages of sales, marketing, or service processes towards completion. Each process supports multiple stages and steps. You can add or remove steps, change the order of stages, or add new entities to the business process flow.  
   
 Different business process flow instances can run concurrently against the same entity record. Users can switch between concurrent business process instances, and resume their work at a current stage in the process. 

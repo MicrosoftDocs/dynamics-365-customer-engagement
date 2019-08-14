@@ -34,8 +34,6 @@ search.app:
 ---
 # Queue entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 *Queues* are instrumental in organizing, prioritizing, and monitoring the progress of your work while you are using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. As a central location for work management, queues assist you in processing cases, responding to service calls, or sending out product information to prospective customers. Programmatically, a queue is a collection of queue items. A queue item serves as a container for an entity record, such as a task, an email, or a case that needs processing.  
   
 > [!NOTE]

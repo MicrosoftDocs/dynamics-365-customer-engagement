@@ -26,8 +26,6 @@ search.app:
 ---
 # Configure data import
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The configuration information that is required for importing data is contained in the data import (`Import`) entity and the import source file (`ImportFile`) entity.  
   
  To configure data import, do the following:  

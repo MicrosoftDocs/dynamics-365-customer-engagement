@@ -32,8 +32,6 @@ search.app:
 ---
 # Run data import
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Data import runs directly on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. To run data import, set up asynchronous jobs to run in the background that do the following, in this order:  
   
 - Parse source data that is contained in the import file.  

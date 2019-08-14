@@ -13,6 +13,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 caps.latest.revision: 22
+author: mduelae
 ms.author: shujoshi
 search.audienceType: 
   - enduser
@@ -20,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Basics Guide for Dynamics 365 for Customer Engagement apps
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] basics guide contains the essentials you need to know to
 navigate the system, enter data, use dashboards, charts and reports effectively and more.

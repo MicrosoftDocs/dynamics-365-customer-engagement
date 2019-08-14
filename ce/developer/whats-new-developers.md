@@ -22,8 +22,6 @@ search.app:
 ---
 # What&#39;s new for developers
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Information about the new features and capabilities for [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] Customer Engagement is available here: [What's new for developers in Dynamics 365 for Customer Engagement apps](https://go.microsoft.com/fwlink/?linkid=853945)
 
 ### See also

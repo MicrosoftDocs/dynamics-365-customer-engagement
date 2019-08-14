@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 71b20ebb-7ecd-44e9-8de2-1db070cf30cf
 caps.latest.revision: 30
+author: mduelae
 ms.author: anbichse
 manager: brycho
 search.audienceType: 
@@ -20,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Deactivate or activate an account or contact
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   

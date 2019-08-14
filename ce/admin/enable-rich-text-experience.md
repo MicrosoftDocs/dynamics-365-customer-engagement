@@ -19,8 +19,6 @@ manager: kvivek
 ---
 # Rich text experience for appointment activities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you enable the rich text experience, server-side synchronization and appointment activities support rich text. With the rich text editor, appointment descriptions can contain rich text. 
 
 ![Rich text appointment editor](media/appointment-rich-text.png)

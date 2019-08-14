@@ -22,8 +22,6 @@ search.app:
 ---
 # Dashboard entities
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The dashboard entities enable you to simultaneously present data from up to six charts, grids, or IFRAMES. The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Key to Entity Diagrams](../key-entity-diagrams.md)  
   
  ![Dashboard entity model](../media/dashboard-entity-model.gif "Dashboard entity model")  

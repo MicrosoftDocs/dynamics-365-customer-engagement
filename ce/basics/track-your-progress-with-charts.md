@@ -22,8 +22,6 @@ search.app:
 ---
 # Track your progress with charts
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Charts on the Unified Interface framework, give you a quick view of how you’re tracking to your goals. They’re interactive, so you can tap an area of a chart to get more info.
 
 -   Select once on a chart section to see a tooltip that provides quick info about that area of the chart.

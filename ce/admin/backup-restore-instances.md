@@ -1,5 +1,5 @@
 ---
-title: "Backup and restore instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Backup and restore instances of Customer Engagement (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
 ms.date: 06/04/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 82d04aae-5557-44da-9658-d1cf1b1c4825
 caps.latest.revision: 4
@@ -23,8 +23,6 @@ search.app:
   - Powerplatform
 ---
 # Backup and restore instances
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement instances.   
 

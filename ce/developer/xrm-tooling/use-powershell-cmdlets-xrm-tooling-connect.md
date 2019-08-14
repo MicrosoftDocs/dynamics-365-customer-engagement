@@ -1,7 +1,7 @@
 ---
 title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
-ms.custom: 
+author: Nkrb
 ms.date: 03/27/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,8 +21,6 @@ search.app:
 ---
 # Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps (on-premises )and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
 
 > [!NOTE]
@@ -38,62 +36,25 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
   
 <a name="register"></a>
 
-## Register the cmdlets  
+## Acquire the Microsoft.Xrm.Tooling.CrmConnector.PowerShell cmdlet  
 
- Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them. The XRM tooling PowerShell cmdlets are available as a NuGet package [here](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell). To download and register the cmdlets
+Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlet, you have to install them. The XRM tooling PowerShell cmdlets are available on the PowerShell Gallery [here](https://www.powershellgallery.com/packages/Microsoft.Xrm.Tooling.CrmConnector.PowerShell). To download and install the cmdlet
   
-1. Open notepad, and copy the following script:
+Open PowerShell or PowerShell ISE in admin mode, and run the following command:
 
-    ```powershell
-    @PowerShell.exe -ExecutionPolicy RemoteSigned -Command "Invoke-Expression -Command ((Get-Content -Path '%~f0' | Select-Object -Skip 2) -join [environment]::NewLine)"
-    @exit /b %Errorlevel%
-    $currentFolder = Get-Location
-    cd $currentFolder
-    $sourceNugetExe = "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
-    $targetNugetExe = ".\nuget.exe"
-    Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
-    Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
-    Set-Alias nuget $targetNugetExe -Scope Global -Verbose
-
-    ##
-    ##Specify the NuGet package source
-    ##
-    $nugetPackageSource = "https://api.nuget.org/v3/index.json"
-
-    ##
-    ##Download XRM Tooling PowerShell cmdlets
-    ##
-    ./nuget install -source $nugetPackageSource Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell -O .\Tools
-    md .\Tools\XRMToolingPowerShell
-    $cmdletFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell.'}
-    move .\Tools\$cmdletFolder\tools\*.* .\Tools\XRMToolingPowerShell
-    Remove-Item .\Tools\$cmdletFolder -Force -Recurse
-
-    ##
-    ##Remove NuGet.exe
-    ##
-    Remove-Item nuget.exe
-  
-2. Save the notepad file as batch file on your computer **GetTools.bat**.
-3. Navigate to the folder where you saved the file, for example `C:\SDK`, and double-click the **GetTools.bat** file to run the script. This will create a `Tools\XRMToolingPowerShell` folder in the same location as your **GetTools.bat** file. The `Tools\XRMToolingPowerShell` folder contains the `RegisterXRMTooling.ps1` script to register the cmdlets, and other associated files.
-4. Start [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] on your computer with elevated privileges (run as administrator).  
-  
-5. At the prompt, change your directory to the folder that contains the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] script for registering the cmdlets. For example:  
-  
-   ```powershell  
-   cd c:\SDK\Tools\XRMToolingPowerShell  
+   ```powershell
+  Install-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
    ```  
-  
-6. Run the `RegisterXRMTooling.ps1` script to register the XRM tooling [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets. Type the following command, and press ENTER:  
-  
+If you installed the module in the past, you can update it with the following command:
+
    ```powershell
-   .\RegisterXRMTooling.ps1  
+  Update-Module -Name Microsoft.Xrm.Tooling.CrmConnector.PowerShell
    ```
-  
-   You’re now ready to use these [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlets. To list the cmdlets that you registered, run the following command in the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] window:  
+    
+You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlet. To list the cmdlets that you registered, run the following command in the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] window:  
   
    ```powershell
-      Get-Help “Crm”  
+  Get-Help “Crm”  
    ```  
 
 <a name="RetrieveOrgs"></a>   
@@ -105,7 +66,7 @@ XRM tooling provides you with the following Windows PowerShell cmdlets that you 
 1. Provide your credentials to connect to your [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] instance. Running the following command will prompt you to type your user name and password to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and it will be stored in the `$Cred` variable.  
   
      ```powershell
-       $Cred = Get-Credential  
+    $Cred = Get-Credential  
      ```  
 
 2. Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:

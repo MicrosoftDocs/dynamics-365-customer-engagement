@@ -23,8 +23,6 @@ search.app:
 ---
 # Microsoft Dynamics 365 for Customer Engagement apps (online) requirements
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
 
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps gives you the following options to access [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data:  

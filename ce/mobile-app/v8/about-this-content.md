@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement apps Version 8.x
 ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
+author: mduelae
 ms.author: mkaur
 manager: kvivek
 search.audienceType: 
@@ -23,8 +24,6 @@ search.app:
   - D365Sales
 ---
 # About this content
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 The topics in this folder apply to Dynamics 365 for Customer Engagement apps, version 8.x. Other topics apply to Dynamics 365 for Customer Engagement apps, version 9.x or both 9.x and 8.x. Review the **Applies to** at the top of each topic.
 

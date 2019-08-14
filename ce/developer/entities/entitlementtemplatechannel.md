@@ -16,8 +16,6 @@ search.app:
 ---
 # EntitlementTemplateChannel Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Contains predefined support terms for a channel to create entitlements for customers.
 
 **Added by**: Service Solution

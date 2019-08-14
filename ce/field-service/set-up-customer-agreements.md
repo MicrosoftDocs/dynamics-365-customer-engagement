@@ -70,7 +70,7 @@ We will use agreements along with customer assets, incident types, and price lis
 ### Step 1: Create an agreement
 
 From the main menu, click **Field Services** > **Agreements** > **+New**.  
-  
+
 Fill in your information. Use the handy tooltips as a guide.  
     
 **Service Account & Billing Account** - same as the work order fields, the service account defines where the agreement work orders will take place and the billing account defines who the invoice should be sent to.   

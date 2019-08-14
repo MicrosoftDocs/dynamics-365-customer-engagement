@@ -18,7 +18,7 @@ manager: kvivek
 
 # Overview
 
-The Dynamics 365 Event Management feature helps you to organize, manage and process the events. When you install the event management solution, you get an Event Portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
+The Dynamics 365 Event Management feature helps you to organize, manage, and process the events. When you install the event management solution, you get an event portal which gives the users a web application where they can get to know more about the event details. More information: [Event Portal](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/set-up-event-portal).
 
 The event portal consists of two parts:
 
@@ -34,10 +34,10 @@ You can host a custom event website in two ways:
 
 ## Prerequisites
 
-You either can build your frontend or customize the provided demo event website.
+You can build your frontend or customize the provided demo event website.
 
 > [!NOTE]
-> The provided demo event website is built on the [Angular framework](https://angular.io/guide/quickstart). However, since the backend is not dependent on the frontend, you can use a framework of your choice.
+> The provided demo event website is an [Angular framework](https://angular.io/guide/quickstart) based website. However, since the backend is not dependent on the frontend, you can use any framework of your choice.
 
 To get started with customizing the demo event website, you need to follow these steps:
 
@@ -46,7 +46,8 @@ To get started with customizing the demo event website, you need to follow these
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
 3. Open Command Prompt or Powershell and run the command to check whether the installation is successful or not.
-    ```CLI
+    
+   ```CLI
     node -v
     ```
         
@@ -65,7 +66,7 @@ To get started with customizing the demo event website, you need to follow these
     ```
     
    > [!NOTE]
-   > You need to execute the command in the same directory where the `package.json` file is located.
+   > You need to run the command in the same directory where the `package.json` file is located.
 
 6. See [public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
 7. Dynamics 365 for Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup)
@@ -76,13 +77,14 @@ Select the version you would like to download from the table below.
 
 | Name | Release | Changes | Uploaded |
 |--|--|--|--|
-| Sample Event Website | 1.15.0 (June Release) | Upgrade to Angular 7, improve UI & UX of checkout page, update and improve translations, improve DeployToD365Instance.ps1 script, improve custom registration field validation, other bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190601-EventWebsite.zip) |
-| Sample Event Website | 1.13.0 (April Release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
-| Sample Event Website | 1.12.2 (March Release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
+|Sample Event Website| 1.15.0 (July release)| - Add information to the session list view, if the session is full. <br/>- Add validation to custom registration fields. <br/>- Improve translations. <br/>- Fixing missing font-awesome icons after deploying to Portals. <br/>- Minor improvements and bug fixes.| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190701-EventWebsite.zip)
+| Sample Event Website | 1.14.0 (June release) | Upgrade to Angular 7, improve UI & UX of checkout page, update and improve translations, improve DeployToD365Instance.ps1 script, improve custom registration field validation, other bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190601-EventWebsite.zip) |
+| Sample Event Website | 1.13.0 (April release) | Waitlist functionality on session level, UI polishing, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190401-EventWebsite.zip) |
+| Sample Event Website | 1.12.2 (March release) | UI & UX improvements, bug fixes | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190302-EventWebsite.zip) |
 
 ## Environment Configuration parameters
 
- The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). All the configuration set up for your custom event portal is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md). 
+ The **src\environments** folder contains sample configuration files for different environments (self-hosted, portal hosted, development). The configuration set up for the custom event website is made by creating an `environment.ts` file inside the `\src\environments` folder. You can find instructions on how to change the configuration in the related topics [Environment configuration for self-hosted](self-hosted.md) and [Environment configuration for Portal hosted](portal-hosted.md). 
 
 Some of the parameters that you need to understand before you start configuring your custom event website:
 
@@ -93,22 +95,22 @@ Some of the parameters that you need to understand before you start configuring 
 |**apiEndpoint** | The URL that points to the event management API endpoint (which is used to retrieve information of events and to make registrations).|
 |**localizationEndpoint** | Points to the URL where the localization files are stored (by default they are stored in the root directory).|
 |**imagesEndpoint** | Specifies the base URL from where images are served. This configuration enables you to serve images from a different location which might be required if you want to use a content delivery network or image processing service.|
-|**useRestStack** | This setting specifies which API is used. If set to true then the new event management public API is used. If set to false then the deprecated event management Portal API is used. This API can only be used if you host custom event website on Portals. To use the new event management public API, you need to register your web application in the Dynamics 365 instance.|
-|**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynmics 365 insance. This token is not required if you're using the deprecated event management Portal API.
-|**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported (i.e., user can register or sign in). If set to false then the application will not display a way to sign in or register.|
-|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled then you need to configure the `aadB2CConfig` variable.|
+|**useRestStack** | This setting specifies which API is used. If set to true, then the new event management public API is used. If set to false, then the deprecated event management Portal API is used. This API can only be used if you host the custom event website on Portals. To use the new event management public API, you need to register the web application.|
+|**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynamics 365 for Marketing instance. This token is not required if you're using the deprecated event management Portal API.
+|**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported or not (i.e., user can register or sign in). If set to false, then the application doesn't display a way to sign in or register.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Dynamics 365 Portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 
 ## Backend customization
 
-Most of the customization possibilities for the event management application are on the frontend, but there is also a use case where the system customizer wants to add a new field to the existing Event Management entity and wants to see that field in the event website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. 
+ System customizer wants to add a new field to the existing event management entity and wants to see that field in the event website. For example if the **custom_new_field** field is added to the **evtmgmt_pass** entity. The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. 
 
-The passes for the event can be retrieved using the API endpoint `api/v2.0/events/{readableEventId}/passes`, but the result doesn't contain the newly added field. To expose the new field to be visible in the API, follow the steps below:
+To expose the new field to be visible in the API, follow the steps below:
 
-1. Open your Dynamics 365 instance.
+1. Open your Dynamics 365 for Marketing instance.
 1. Open **Advanced Find**
-1. Select the **Website Entity Configurations** entity from the dropdown and Click on **Results**
+1. Select the **Website Entity Configurations** entity from the dropdown and click on **Results**
 1. Click on **New Website Entity Configuration** to create a new record.
 1. Enter the name of your choice in the **Name** field.
 1. Select the entity that you want an extra field to be visible in the **Selected Entity** field.

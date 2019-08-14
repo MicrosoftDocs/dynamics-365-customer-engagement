@@ -28,8 +28,6 @@ search.app:
 
 # Visual Studio and the .NET Framework
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The .NET SDK assemblies for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] are built on .NET Framework version 4.6.2. 
 
 You can use [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] to build your managed code applications using .NET Framework version 4.6.2 or later. 

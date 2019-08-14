@@ -21,8 +21,6 @@ search.app:
 ---
 # Types of calendars
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The calendar entity was modified to support additional types of calendars in [!INCLUDE[pn_v6_online_ur1_shortest](../includes/pn-v6-online-ur1-shortest.md)] and [!INCLUDE[pn_crm_2015_service_pack_1_op_short](../includes/pn-crm-2015-service-pack-1-op-short.md)].  
   
 ## Calendar type  

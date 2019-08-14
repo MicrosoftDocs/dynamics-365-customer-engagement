@@ -22,8 +22,6 @@ search.app:
 ---
 # Analyze data with dashboards
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 The dashboard entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement enable you to present data 
 from various charts, grids, IFRAMES, or web resources simultaneously. Dashboards allow you to compare and analyze various pieces of 
 customer information, and give you data snapshots.  

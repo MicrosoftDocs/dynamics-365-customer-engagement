@@ -2,8 +2,8 @@
 title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about using access teams and owner teams to colloborate and share information."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 08/06/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,8 +26,6 @@ search.app:
   - D365CE
 ---
 # Use access teams and owner teams to collaborate and share information
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 With *owner* teams or *access* teams, you can easily share business objects and collaborate with the users across business units in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. A team belongs to one business unit, but it can include users from other business units. A user can be associated with more than one team.  
   
@@ -106,7 +104,16 @@ With *owner* teams or *access* teams, you can easily share business objects and 
  Because of the parental relation between the team template and system-managed access teams, when you delete a template, all teams associated with the template are deleted according to the cascading rules.  
   
  If you change access rights for the team template, the changes are only applied to the new auto-created access teams. The existing teams aren’t affected.  
-  
+ 
+<a name="BKMK_AddInfo"></a>   
+
+## Additional information about access teams
+Given two records that each have an associated (but different) access team, what happens when the two records are merged (see <xref:Microsoft.Crm.Sdk.Messages.MergeRequest>)? The result of the merge is that access team members of the merged from record have access to the merged to record.
+
+What does the effective access look like for the merged record? Do the two access teams still function independently on the one merged record? Well, there is only one access team left after the merge, but team members of the merged from record are granted access.
+
+Do access teams affect search by showing or hiding the record results? There is only one access team left after a merge and search honors the team members’ access to the merged record.
+
 <a name="BKMK_ShortSummary"></a>   
 ## Quick reference to teams  
  Use the following information as a quick reference to the available teams.  

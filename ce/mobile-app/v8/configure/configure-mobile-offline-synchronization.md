@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement apps Version 8.x
 ms.assetid: 720cf240-721d-48a0-bfc8-43afb1e1ba7c
 caps.latest.revision: 7
+author: mduelae
 ms.author: mkaur
 manager: kvivek
 search.audienceType: 
@@ -23,8 +24,6 @@ search.app:
   - D365Sales
 ---
 # Configure mobile offline synchronization 
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can provide an enhanced offline experience for mobile users if your organization is using [!INCLUDE[pn-crm-8-1-0-online](../../../includes/pn-crm-8-1-0-online.md)]and meets one or both of the following licensing requirements:  
   

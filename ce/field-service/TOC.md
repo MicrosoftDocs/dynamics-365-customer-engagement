@@ -32,7 +32,7 @@
 ## [Price list](create-price-list.md)
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
-## [Incident types](configure-incident-types.md)
+## [Work order templates (incident types)](configure-incident-types.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -66,8 +66,10 @@
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Utilization](schedule-board-utilization.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
 ### [Edit booking template](booking-template.md)
+### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 
 
@@ -143,6 +145,7 @@
 ### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 ### [Installation and setup](installation-setup-iothub.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
+### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)

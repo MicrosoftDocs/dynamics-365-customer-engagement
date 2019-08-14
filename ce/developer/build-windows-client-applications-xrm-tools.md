@@ -13,6 +13,7 @@ applies_to:
 ms.assetid: e2f22576-1705-4854-a804-a1ca232c0cfc
 caps.latest.revision: 33
 ms.author: nabuthuk
+author: Nkrb
 manager: kvivek
 search.audienceType: 
   - developer
@@ -20,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Build Windows client applications using the XRM tools
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 XRM tooling is a set of APIs built on top of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.   
 

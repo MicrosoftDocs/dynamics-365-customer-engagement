@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0fff48c9-f565-4a7a-a632-95142177902d
 caps.latest.revision: 35
+author: mduelae
 ms.author: anbichse
 manager: brycho
 search.audienceType: 
@@ -20,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Assign a record to a user or team
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you would like another person in your organization to handle an account or contact for you, you can assign the record to that person.  
   

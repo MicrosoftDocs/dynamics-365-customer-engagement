@@ -22,8 +22,6 @@ search.app:
 ---
 # Use the Dynamics 365 for Customer Engagement Organization service
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations.
 
 > [!NOTE]

@@ -13,11 +13,10 @@ applies_to:
   - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 29da7794-d303-470e-ab62-3744a4d2877f
 caps.latest.revision: 9
+author: shellyhaverkamp
 ms.author: shellyha
 ---
 # Live Assist for Dynamics 365 for Customer Engagement powered by Café X
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 <a name="heroArea"></a> [![LiveAssist video graphic](../admin/media/liveassist-video-graphic.png "LiveAssist video graphic")](https://support.liveassistfor365.com/hc/en-us/articles/213670809-Caf%C3%A9X-Live-Assist-for-Microsoft-Dynamics-365)  
   
  [!INCLUDE[live_assist_for_Dynamic_365_powered_by_cafe_x](../includes/pn-live-assist-for-dynamics-365-powered-by-cafex.md)] is a fully integrated omnichannel solution. With [!INCLUDE[live_assist_for_Dynamic_365_powered_by_cafe_x](../includes/pn-live-assist-for-dynamics-365-powered-by-cafex.md)], create more personalized, intelligent experiences within websites and apps using chat and co-browse. Features include:  

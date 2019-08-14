@@ -21,8 +21,6 @@ search.app:
 ---
 # Web API Helper code: Configuration classes
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the configuration class hierarchy to specify the required connection data for accessing [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web services from your application. You can supply this connection data either by setting values directly in your code, possibly from user input, using the `Configuration` base class. More typically, you supply this information in settings stored in your application configuration file, using the derived class, `FileConfiguration`.  
 
  The source code for the configuration class hierarchy is located in the file Configuration.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/). The configuration class hierarchy is designed to work in conjunction with the `Authentication`class to enable you to establish a secure connection to your Dynamics 365 for Customer Engagement service. For more information, see             [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  

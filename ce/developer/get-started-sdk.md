@@ -25,8 +25,6 @@ search.app:
 ---
 # Get started with the SDK for Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] provide many options to achieve the results you need. But how can you jump in and get started? This topic contains information about some specific key tasks and how you can accomplish them. You’ll get guidance at a high level with directions to where you can find the details you need.
 
 <a name="bkmk_environment"></a>

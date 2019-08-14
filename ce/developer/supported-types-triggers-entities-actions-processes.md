@@ -22,8 +22,6 @@ search.app:
 ---
 # Supported types, triggers, entities, and actions for processes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic provides information about the supported types and entities for processes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, supported triggers for workflows, entities that are supported for the <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity> activity, and supported actions for workflows.  
 
 <a name="bkmk_triggersWorkflows"></a>   

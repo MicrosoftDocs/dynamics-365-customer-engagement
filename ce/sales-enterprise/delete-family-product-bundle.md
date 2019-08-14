@@ -24,8 +24,6 @@ topic-status: Drafting
 
 # Delete a family, product, or bundle (Sales and Sales Hub)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted.  
   
 > [!IMPORTANT]

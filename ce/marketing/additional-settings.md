@@ -28,8 +28,6 @@ search.app:
 
 # Manage sample data in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Sample data gives you something to experiment with as you learn, and helps you see how data is organized in the system. If sample data isn't installed on your trial or sandbox instance, you might want to add it for training purposes. 
 
 To manage your sample data, go to **Settings** > **Advanced settings** > **Other settings** > **Sample data management**. From here, you can see if you have sample data installed and choose whether to add or remove it.

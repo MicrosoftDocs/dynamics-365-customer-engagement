@@ -28,8 +28,6 @@ search.app:
 
 # Accessibility and keyboard shortcuts for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## General accessibility for Customer Engagement applications
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications. For details, see the following help topics:

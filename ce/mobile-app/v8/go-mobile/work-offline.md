@@ -12,6 +12,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement apps Version 8.x
 ms.assetid: cabed885-f3ab-459c-b33f-da31d2f14194
 caps.latest.revision: 7
+author: mduelae
 ms.author: mkaur
 manager: kvivek
 search.audienceType: 
@@ -23,8 +24,6 @@ search.app:
   - D365Sales
 ---
 # Work offline with Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phones and tablets users aren't always going to be connected to a network. Admins can enable and configure mobile offline so even when no network is available users can still be productive with up-to-date information at hand. 
 
