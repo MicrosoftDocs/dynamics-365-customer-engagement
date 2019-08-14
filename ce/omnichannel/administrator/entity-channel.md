@@ -77,7 +77,7 @@ You must create workstreams to automatically route the cases to the agents. To l
 After creating the workstream for the cases, you must create the routing rules. 
 
 > [!Note]
-> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Link to the topic will be added here]().
+> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#install-routing-rules---preview-solution).
 
 1. Sign in to the Omnichannel for Administrator app.
 
