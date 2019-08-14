@@ -151,7 +151,7 @@ When you receive notification, the wait time in the notification doesn't show th
 ## Queue support for notifications
 The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.
 
-## Updates made to Cases Work Distribution Flow aren't saved successfully
+## Cases Work Distribution Flow is not saved successfully
 The updates you do to the out-of-the-box **Cases Work Distribution Flow** for unified routing of case entity records might fail due to authentication issues.
 
 ### Workaround
@@ -163,10 +163,10 @@ More information: [Update cases work distribution flow](administrator/entity-cha
 
 Entity records routing doesn't route and distribute case records to the agents. 
 
-The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization.
+The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization page.
 
 ### Workaround
-You must clear the checkbox, to automatically distribute the case records.
+You must clear the checkbox to automatically distribute the case records.
 
 > [!div class=mx-imgBorder]
 > ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
