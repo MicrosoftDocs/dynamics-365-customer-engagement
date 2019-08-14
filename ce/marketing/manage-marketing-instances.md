@@ -44,9 +44,13 @@ Dynamics 365 for Marketing is composed of several components that you must be aw
 
 Marketing services run in parallel with your Dynamics 365 for Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when copying or restoring and organization database, you must consider the impact on these connected services.
 
+<a name="copy-to-sandbox"></a>
+
 ## Copy a Marketing instance to another instance
 
 Because Marketing is more complex than most Dynamics 365 for Customer Engagement apps, and interacts with several special services and other components, you must be extra careful when creating copies to and/or from instances that have Marketing installed on them.
+
+<a name="copy-warning"></a>
 
 > [!WARNING]
 > You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 for Customer Insights instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
@@ -109,7 +113,7 @@ Pay special attention when choosing whether to create a full or minimal copy, an
 
 After creating your copy, you must do the following:
 
-- Make sure the target instance isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances#administration-mode.md).
+- Make sure the target instance isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
 - Run the Marketing setup wizard on the target instance. This is needed because the target instance must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Voice of the Customer and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
 
 > [!NOTE]
