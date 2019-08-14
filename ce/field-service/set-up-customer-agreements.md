@@ -2,7 +2,7 @@
 title: "Set up customer agreements (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/23/2019
+ms.date: 08/15/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -13,10 +13,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 5a02d87a-56f4-47e8-ab2d-5d816e60dc8a
 caps.latest.revision: 21
-ms.author: FieldServiceDave
+ms.author: daclar
 manager: shellyha
 search.audienceType: 
   - admin
