@@ -66,6 +66,7 @@ After the chat widget is configured, it has the following capabilities:
 
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure agent display name](agent-display-name.md)<br>
 [Configure file attachment capability](configure-file-attachment.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

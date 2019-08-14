@@ -63,6 +63,7 @@ More information: [Automatically identify customers using pre-chat responses](re
 ### See also
 
 [Add a chat widget](add-chat-widget.md) <br>
+[Configure agent display name](agent-display-name.md)<br>
 [Configure file attachment capability](configure-file-attachment.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

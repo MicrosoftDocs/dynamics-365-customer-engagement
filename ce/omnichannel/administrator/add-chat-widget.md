@@ -58,6 +58,7 @@ ms.custom:
 ### See also
 
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure agent display name](agent-display-name.md)<br>
 [Configure file attachment capability](configure-file-attachment.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>

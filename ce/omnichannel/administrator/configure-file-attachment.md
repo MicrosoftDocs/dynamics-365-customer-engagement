@@ -71,6 +71,7 @@ The file size limit for attachments and unsupported file types are defined in th
 
 [Add a chat widget](add-chat-widget.md) <br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure agent display name](agent-display-name.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br>
