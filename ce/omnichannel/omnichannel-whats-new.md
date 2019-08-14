@@ -39,6 +39,12 @@ This section contains information about new features and enhancements in Omnicha
 
 ### Administrator experience
 
+### Developer experience
+
+- **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
+
+    More information: [Automatic closure of a conversation](developer/auto-close-conversation.md)
+
 ##  What's new in July 2019 General Availability
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service July 2019 update.
