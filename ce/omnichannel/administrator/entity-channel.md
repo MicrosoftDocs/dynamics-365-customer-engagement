@@ -24,7 +24,7 @@ ms.custom:
 
 ## Overview
  
-In Omnichannel for Administrator, **Cases entity record** channel helps you to automatically route cases and other entity records to agents based on the agent's skill, capacity, and availability.
+In Omnichannel for Administrator, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
 
 > [!Note]
 > Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
