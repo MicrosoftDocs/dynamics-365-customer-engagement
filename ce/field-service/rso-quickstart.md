@@ -213,10 +213,17 @@ Select a lookup to the **Scope** and **Goal** you just created.
 
 Set **Timer** to 1 day (the system will change it to 23 hours and 59 minutes)
 
-Enter **valid from** and **valid to** dates. During these dates, RSO will run once a day. If you plan to run RSO manually, simply enter dates in the past. 
+Enter **valid from** and **valid to** dates. 
+
+If you plan to run RSO manually, simply enter dates in the past. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-schedule.png)
+
+If you want to run this RSO schedule every night, enter the date range wou want it to run every night for, **and** a time of night and time zone it should run in the **filter** section 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/rso-quickstart-time-filter.png)
 
 **Save and Publish**.
 
