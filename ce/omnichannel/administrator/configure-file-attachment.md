@@ -66,3 +66,12 @@ The file size limit for attachments and unsupported file types are defined in th
     > ![Specify unsupported file types](../media/unsupported-file-types.png "Specify unsupported file types")
 
 6. Select **OK**.
+
+### See also
+
+[Add a chat widget](add-chat-widget.md) <br>
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br>
+[Embed chat widget in Dynamics 365 Portal](embed-chat-widget-portal.md)
