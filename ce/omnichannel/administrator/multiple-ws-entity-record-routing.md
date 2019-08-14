@@ -57,7 +57,11 @@ To learn more, see [Create cases entity workstream](set-up-entity-workstream.md)
 After creating the workstream for the cases, you must create the routing rules. 
 
 > [!Note]
-> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Link to the topic will be added here]().
+> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Link to the topic will be added here]().
+>
+> - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
+>
+> - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.
 
 1. Sign in to the Omnichannel for Administrator app.
 
