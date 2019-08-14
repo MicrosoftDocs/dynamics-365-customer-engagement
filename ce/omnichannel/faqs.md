@@ -32,16 +32,16 @@ You can find information about supported platforms and other prerequisites in [P
 Submit your ideas and feedback on our [Ideas forum](https://experience.dynamics.com/ideas/categories/list/?category=31047c64-7e28-e911-a95a-000d3a4f3883&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad).
 
 ### Is there a forum for me to engage with and discuss issues with the broader community?
-Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/763) is place where you can engage with the community at large.
+Yes, our [Community Forum](https://community.dynamics.com/365/customerservice/f/763) is the place where you can engage with the community at large.
 
 ### How do I get help with the issues I face?
 Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to get help with your issues.
 
-### What additional channels are supported with Omnichannel in this release?
+### What additional channels are supported with Omnichannel for Customer Service in this release?
 This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
-### Are Chat and the associated Omnichannel capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
-No, Chat and related Omnichannel capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
+### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
+No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
 ### How do I get started?
 If you would like to try out Chat for Dynamics 365 for free, sign up for a trial using these [Instructions](https://go.microsoft.com/fwlink/p/?linkid=2097211). Find [Get started](introduction-omnichannel.md) and [Prerequisites](system-requirements-omnichannel.md#prerequisites) for setting up Omnichannel in your organization.
@@ -49,20 +49,19 @@ If you would like to try out Chat for Dynamics 365 for free, sign up for a trial
 ## Agent experiences
 
 ### Can I use Chat for Dynamics 365 in the Customer Service Hub app module or any custom app module? 
-No. You can only use Chat in the **Omnichannel for Customer Service** app.  The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](agent/agent-oc/oc-sign-in-omnichannel.md).
+No. You can only use Chat in the **Omnichannel for Customer Service** app. The app module is available to users who have been provisioned as **Omnichannel agent**. To learn more, see [Sign in to Omnichannel for Customer Service](agent/agent-oc/oc-sign-in-omnichannel.md).
 
 ### Can I work on cases along with chats? 
 Yes. You can work on cases alongside customer conversations in different sessions. You can open case sessions from the dashboards and grids using gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
 
 ### Can I work on third-party communication widgets built using Dynamics 365 Channel Integration Framework in the Omnichannel for Customer Service app module? 
-
 Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS (in preview) channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels will come with [Dynamics 365 Channel Integration Framework v2](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/channel-integration-framework-v2).
 
 ### Can I open Omnichannel for Customer Service in multiple browser tabs and windows? 
 It is not recommended to open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions are not synced across browser tabs. 
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes ?
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you have entered some data on the Dynamics 365 forms where autosave has been enabled, they will be saved into Dynamics 365. 
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost; however, if you have entered some data on the Dynamics 365 forms where autosave has been enabled, they will be saved into Dynamics 365. 
 
 Ongoing chat conversations appear on your Omnichannel Agent Dashboard. You can pick the chat from that dashboard and resume the conversation. The chat conversation is preserved, and you will be able to see the previous messages. If you were working on case sessions, you can reopen them using the gestures. For more information on starting a session, see [Manage sessions in Omnichannel for Customer Service](agent/agent-oc/oc-manage-sessions.md#start-a-session).
 
@@ -78,7 +77,7 @@ New conversation (chat) requests will be assigned to an agent when:
 - There is a new incoming chat request.
 - The incoming chat request is assigned to a queue that matches the agent’s assigned queues. You can see the queue and work stream for an incoming chat in the Omnichannel Conversation Dashboard.
 - The agent present is set to an **Allowed Presence** for the workstream.
-- The agent has capacity to receive the incoming chat from the workstream. Remaining capacity can be checked by tallying up the items assigned on the agent’s dashboard – including Active and Wrap-up – against the agent’s configured maximum capacity.
+- The agent has capacity to receive the incoming chat from the workstream. Remaining capacity can be checked by tallying up the items assigned on the agent’s dashboard – including **Active** and **Wrap-up** – against the agent’s configured maximum capacity.
 
 If more than one agent meets the above conditions, they will be assigned chats in this order:
 -	The agent with the most remaining capacity will receive the chat first.
@@ -103,9 +102,9 @@ If you are using multiple fields for automated record identification, they must 
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
-When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like Tier 1 Dashboard, Tier 2 Dashboard, Knowledge Manager, and My Knowledge Dashboard. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
+When you use the Omnichannel for Customer Service app on Unified Service Desk or on the web, the **Active Omnichannel Agent Dashboard** view doesn't show certain dashboards like **Tier 1 Dashboard**, **Tier 2 Dashboard**, **Knowledge Manager**, and **My Knowledge Dashboard**. To learn more, see [Dashboards don't appear in Omnichannel for Customer Service active dashboards view](troubleshoot-omnichannel-customer-service.md#dashboards-do-not-appear-in-omnichannel-for-customer-service-active-dashboards-view).
 
-### How long do configuration changes to Omnichannel settings take to update?
+### How long do configuration changes to Omnichannel for Customer Service settings take to update?
 Changes made by administrators within the Omnichannel Administration application can take up to 15 minutes to reflect.
 
 ### How can I bring custom entities, forms, and dashboards into the Omnichannel for Customer Service app? 
@@ -148,8 +147,7 @@ The dataset for the Live Monitoring report is real time; if a report is refreshe
 The dataset refresh interval for Intraday and Chat Insights reports depends on your settings in Power BI. To learn more, see [Configure Intraday Insights dashboard](administrator/configure-intraday-dashboard-supervisor.md) and Chat Insights set-up. 
 
 ### Why am I not able to see more than 100 agents while using filters in Omnichannel Ongoing Conversations dashboard?
-
-By default, the application displays only 100 agents at any given time while filtering the conversation on **Omnichannel Ongoing Conversations** dashboard. The list of 100 agents is displayed based on the alphabetical order. For example, you have 200 agents in your organization, and 100 agent names start with the alphabets A to D. The application displays only the agents whose name starts with the alphabets A to D and rest of the names are ignored (alphabets E to Z).  
+By default, the application only displays 100 agents at any given time while filtering the conversation on the **Omnichannel Ongoing Conversations** dashboard. The list of 100 agents is displayed alphabetically. For example, you have 200 agents in your organization, and 100 agents have names that start with the letters A through D, the application only displays these agents. The rest of the agents with names that start with letters E through Z are not listed.
 
 ### What controls are in place to limit the exposure of agent performance KPIs within my organization?
 These controls are in place for exposing the data in reports:
