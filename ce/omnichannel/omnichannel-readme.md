@@ -151,18 +151,24 @@ When you receive notification, the wait time in the notification doesn't show th
 ## Queue support for notifications
 The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.
 
-## Updates made to Cases Work Distribution Flow are not saved successfully
-Any updates made to the out of the box Cases Work Distribution Flow set up for unified routing of case entity reocrds might fail due to authentication issues
+## Updates made to Cases Work Distribution Flow aren't saved successfully
+The updates you do to the out-of-the-box **Cases Work Distribution Flow** for unified routing of case entity records might fail due to authentication issues.
+
 ### Workaround
-Authorize CDS native connector in the flow before saving
+Authorize Common Data Service native connector in the flow before you save it.
 
-## Entity records routing is configured and enabled, but cases are sometimes not routed and distributed to agents
-Entity records routing does not route and distribute case records if this flag "Automatically move records to the owner's default queue when a record is created or assigned" flag is checked in Case entity customaztion page. 
+More information: [Update cases work distribution flow](administrator/entity-channel.md#step-4-update-cases-work-distribution-flow)
+
+## Entity records aren't distributed to agents
+
+Entity records routing doesn't route and distribute case records to the agents. 
+
+The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization.
+
 ### Workaround
-Uncheck this flag "Automatically move records to the owner's default queue when a record is created or assigned" in Case entity customization page
+You must clear the checkbox, to automatically distribute the case records.
 
+> [!div class=mx-imgBorder]
+> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-
-
-
-
+More information: [Create queues](administrator/entity-channel.md#step-1-create-queues)
