@@ -173,29 +173,36 @@ After creating the routing rules for the cases workstream, you must update **Cas
     > [!div class=mx-imgBorder] 
     > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
 
-12. Select the **Set variable 4** option under the **If yes** section.
+12. Select **Add an action** button under the **If yes** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
-13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
+    > [!div class=mx-imgBorder] 
+    > ![Add Set Variable Action](../media/flow-select-variable.png "Add Set Variable Action")
+
+13. Select the **LiveWorkStreamId** from the Name drop-down list.
+
+14. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
-    > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 13. Otherwise, the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 14. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-14. Select the **Set variable 5** option under the **If no** section.
+15. Select **Add an action** button under the **If yes** section. The **Choose an action** component appears. Now, type **Set Variable** in the **Search connectors and actions** box and the action appears in the list. Select it and the **Set Variable** action appears.
 
-15. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+16. Select the **LiveWorkStreamId** from the Name drop-down list.
+
+17. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > - If you update the name of the workstream in Omnichannel Administration app, then you must perform step 15. Otherwise, the cases won't be automatically distributed to the agents.
+    > - If you update the name of the workstream in Omnichannel Administration app, then you must perform step 17. Otherwise, the cases won't be automatically distributed to the agents.
     >
     > - Adding multiple workstreams in the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
 
-16. Select **Save** to save **Cases Work Distribution Flow**.
+18. Select **Save** to save **Cases Work Distribution Flow**.
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
