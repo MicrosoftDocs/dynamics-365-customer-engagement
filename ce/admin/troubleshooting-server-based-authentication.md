@@ -98,7 +98,7 @@ search.app:
    $Certificates = Get-CrmCertificate;   
    $alternativecertificate = "";   
    foreach($cert in $Certificates)   
-   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}      
+   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}   }   
   
    Remove-CrmCertificate -Certificate $alternativecertificate  
    ```  

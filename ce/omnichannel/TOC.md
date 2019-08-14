@@ -32,7 +32,8 @@
 ##### [Add a chat widget](administrator/add-chat-widget.md)
 ##### [Configure agent display name](administrator/agent-display-name.md)
 ##### [Configure a pre-chat survey](administrator/configure-pre-chat-survey.md)
-##### [Embed chat widget in Dynamics 365 for Customer Engagement Portal](administrator/embed-chat-widget-portal.md)
+##### [Configure file attachment capability](administrator/configure-file-attachment.md)
+##### [Embed chat widget in Dynamics 365 Portal](administrator/embed-chat-widget-portal.md)
 #### [Configure an SMS channel](administrator/configure-sms-channel.md)
 #### Entity records
 ##### [Entity records routing](administrator/entity-channel.md)

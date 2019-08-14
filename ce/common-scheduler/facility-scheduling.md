@@ -28,4 +28,4 @@ search.app:
 
 # Facility scheduling with Universal Resource Scheduling
 
-[!INCLUDE[topic-urs-facility-scheduling.md](../includes/topic-urs-facility-scheduling.md)]
+[!INCLUDE[topic-urs-facility-scheduling.md](../shared/urs/facility-scheduling.md)]
