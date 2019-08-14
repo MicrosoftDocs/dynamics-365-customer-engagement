@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/11/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: DEDC2F99-3AB4-414D-B3DB-B27F871E804A
@@ -58,7 +58,9 @@ ms.custom:
 ### See also
 
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure agent display name](agent-display-name.md)<br>
+[Configure file attachment capability](configure-file-attachment.md)<br>
 [Create quick replies](create-quick-replies.md) <br>
 [Create and manage operating hours](create-operating-hours.md) <br>
 [Create chat authentication settings](create-chat-auth-settings.md) <br> 
-[Embed chat widget in Dynamics 365 for Customer Engagement Portal](embed-chat-widget-portal.md)
+[Embed chat widget in Dynamics 365 Portal](embed-chat-widget-portal.md)
