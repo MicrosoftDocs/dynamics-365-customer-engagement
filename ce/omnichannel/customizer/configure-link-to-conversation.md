@@ -46,7 +46,7 @@ For this scenario, you must create the following:
   
   - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
-- You must have configured communication panel. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure communication panel for agents](customizer/configure-communication-panel.md).
+- You must have configured communication panel. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure communication panel for agents](configure-communication-panel.md).
 
 ## Link to conversation
 
