@@ -172,6 +172,8 @@
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
 
+#### [Configure link to conversation button](customizer/configure-link-to-conversation.md)
+
 ## Developer guide
 ### [Overview](developer/omnichannel-developer.md)
 ### [Manage custom context](developer/how-to/send-context-starting-chat.md)
