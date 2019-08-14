@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-##  What's new in August 2019 General Availability
+##  What's new in August 2019 update
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
 
@@ -38,6 +38,12 @@ This section contains information about new features and enhancements in Omnicha
     More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
 
 ### Administrator experience
+
+### Developer experience
+
+- **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
+
+    More information: [Automatic closure of a conversation](developer/auto-close-conversation.md)
 
 ##  What's new in July 2019 General Availability
 
