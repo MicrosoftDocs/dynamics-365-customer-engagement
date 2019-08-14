@@ -127,7 +127,7 @@ Default work streams shipped out of the box for all channels do not have allowab
 ## Refresh queue configuration to reflect the addition of new user
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
-## Support for thrid-party channel providers with Omnichannel for Customer Service
+## Support for third-party channel providers with Omnichannel for Customer Service
 
 If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, this will result in the upgrade of the Channel Integration Framework solution.
 
@@ -144,9 +144,6 @@ When an agent initiates a transfer, the initiating agent becomes a consulting ag
 
 ## Support for Notes when customer is not linked to a conversation
 You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a workaround, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
-
-## Wait time count down in notification
-When you receive notification, the wait time in the notification doesn't show the time lapse. However, the notification will timeout after the default wait time period. The default wait time is 120 seconds.
 
 ## Queue support for notifications
 The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.
