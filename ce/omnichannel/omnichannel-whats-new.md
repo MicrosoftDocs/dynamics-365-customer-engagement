@@ -41,7 +41,7 @@ This section contains information about new features and enhancements in Omnicha
 
 ### Developer experience
 
-- **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
+- **Automatic closure of a conversation:** Omnichannel for Customer Service has a default time set for the conversations to close automatically. You can use the Web API to update the default time after which a conversation automatically closes.
 
     More information: [Automatic closure of a conversation](developer/auto-close-conversation.md)
 
