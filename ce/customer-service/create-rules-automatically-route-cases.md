@@ -29,6 +29,30 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 > [!NOTE]
 > With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. 
 
+## Install Routing Rules - preview solution
+
+1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
+
+2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
+
+   > [!div class=mx-imgBorder]
+   > ![Go to Dynamics 365 in the Microsoft 365 admin center](media/microsoft-365-admin-center-dynamics-csh.png)
+
+3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
+
+4. select the edit icon next to solutions. Manage your solutions page appears.
+
+   > [!div class=mx-imgBorder]
+   > ![Edit the solutions](media/dynamics-365-admin-instance-edit-csh.png)
+
+5. In the **Manage your solutions** page, select **Routing Rules - preview**. The status column shows **Not installed**.
+
+6. Select the install icon next on the **Routing Rules - preview** card. The **Terms of service** page appears.
+
+7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
+
+    The solution is installed in your organization.
+
 ## Create a routing rule set  
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  

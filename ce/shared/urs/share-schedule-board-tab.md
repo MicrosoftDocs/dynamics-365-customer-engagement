@@ -20,7 +20,7 @@ In this topic, we'll explore creating a new schedule board tab and sharing it wi
 First, go to **Field Service > Schedule Board** and select the **+** in the top right to create a new tab.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of creating a new schedule board tab](../field-service/media/schedule-board-create-tab.png)
+> ![Screenshot of creating a new schedule board tab](../../field-service/media/schedule-board-create-tab.png)
 
 
 The schedule board tab settings form will appear where you can choose various configurations for the tab. 
@@ -31,33 +31,33 @@ Select **Specific People**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of assigning a shared with option](../field-service/media/schedule-board-shared-with.png)
+> ![Screenshot of assigning a shared with option](../../field-service/media/schedule-board-shared-with.png)
 
 To assign or share the schedule board tab to specific people, you'll need to go to the record. All schedule board tabs are saved as records in the **Schedule Board Settings** entity.
 
 Go to **Advanced Find** and look for **Schedule Board Settings**, then select Results.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of finding schedule board settings in advanced find](../field-service/media/schedule-board-settings-advanced-find.png)
+> ![Screenshot of finding schedule board settings in advanced find](../../field-service/media/schedule-board-settings-advanced-find.png)
 
 
 This shows all schedule board tab records and you should see the one you just created. In our example, it's "Schedule Board #3".
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of advanced find results showing all schedule board tabs](../field-service/media/schedule-board-settings-advanced-find-results.png)
+> ![Screenshot of advanced find results showing all schedule board tabs](../../field-service/media/schedule-board-settings-advanced-find-results.png)
 
 
 Double-click the record to go to the form, and select **Share** on the top ribbon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the share button for a specific schedule board setting](../field-service/media/schedule-board-share.png)
+> ![Screenshot of the share button for a specific schedule board setting](../../field-service/media/schedule-board-share.png)
 
 
 Finally, use the pop up screen to add users and teams to share the schedule board with. Any user or team added here can see the schedule board tab, given they also have access to the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of choosing users and teams to share the schedule board with](../field-service/media/schedule-board-share-permissions.png)
+> ![Screenshot of choosing users and teams to share the schedule board with](../../field-service/media/schedule-board-share-permissions.png)
 
 ## Additional notes
 

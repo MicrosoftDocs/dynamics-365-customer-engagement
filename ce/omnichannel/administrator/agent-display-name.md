@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: B6B22831-57A3-4877-B379-0A43F1599A11
@@ -41,3 +41,12 @@ To protect an agent's privacy, you can configure your chat widget to display eit
     - **Nick name**: Nickname of the agent. If a nickname is not available in the user entity record, the full name is displayed to the customers.
 
 7.	Select **Save**.
+
+### See also
+
+[Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
+[Configure file attachment capability](configure-file-attachment.md)<br>
+[Create quick replies](create-quick-replies.md) <br>
+[Create and manage operating hours](create-operating-hours.md) <br>
+[Create chat authentication settings](create-chat-auth-settings.md) <br> 
+[Embed chat widget in Dynamics 365 Portal](embed-chat-widget-portal.md)

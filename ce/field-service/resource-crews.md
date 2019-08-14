@@ -27,4 +27,4 @@ search.app:
 
 # Resource crew scheduling
 
-[!INCLUDE[topic-urs-resource-crews.md](../includes/topic-urs-resource-crews.md)]
+[!INCLUDE[topic-urs-resource-crews.md](../shared/urs/resource-crews.md)]

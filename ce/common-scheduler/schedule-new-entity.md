@@ -28,4 +28,4 @@ search.app:
 
 # Enable an entity for scheduling in Universal Resource Scheduling
 
-[!INCLUDE[topic-urs-schedule-new-entity.md](../includes/topic-urs-schedule-new-entity.md)]
+[!INCLUDE[topic-urs-schedule-new-entity.md](../shared/urs/schedule-new-entity.md)]
