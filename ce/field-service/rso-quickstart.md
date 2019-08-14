@@ -225,7 +225,7 @@ If you want RSO to run every night, enter the date range wou want it to run ever
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/rso-quickstart-time-filter.png)
 
-Every hour (based on the timer value set previously), RSO will check to see if it should run based on the filter values. In hour example, every hour RSO will check to see if it should run, but only in the 12th hour of the AM will it actually run.
+Every hour (based on the timer value set previously), RSO will check the filter values to see if it should run. In this example, every hour RSO will check to see if it should run, but only in the 12th hour of the AM will it actually run.
 
 It is important to consider both timer and filter values when configuring RSO schedules.
 
