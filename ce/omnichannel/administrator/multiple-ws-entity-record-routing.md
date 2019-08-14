@@ -1,6 +1,6 @@
 ---	
-title: "Automate case routing using entity records channel | MicrosoftDocs"	
-description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."		
+title: "Create multiple workstreams for entity records routing | MicrosoftDocs"	
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."	
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -12,7 +12,7 @@ ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
 ---
 
-# Walkthrough: Automate entity record routing
+# Walkthrough: Create multiple workstreams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -25,13 +25,18 @@ ms.custom:
 
 ## Overview
 
-This walkthrough demonstrates how you can create Omnichannel queues, multiple entity record work streams, routing rules, and update work distribution flow to, automatically distribute entity records to the agents based on the capacity and availability.
+You can setup multiple workstreams for same entity records if you want to distribute the entity records to different workstreams based on certain conditions. 
+
+For example, you want high priority cases to be pushed to agents and demand more capacity than low priority cases, which can be picked by agents. You can achieve it by configuring multiple workstreams.
+
+This walkthrough demonstrates how to set up two workstreams, one each for high priority cases and low priority cases and route the cases automatically.
+
 
 ### In this section
 
 [Step 1: Create queues](#step-1-create-queues)
 
-[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)4
+[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)
 
 [Step 3: Create routing rules](#step-3-create-routing-rules)
 
@@ -45,7 +50,7 @@ You must create a queue or enable existing queue to, automatically route the cas
 
 You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
-To learn more, see [Create a case entity workstream](set-up-entity-workstream.md).
+To learn more, see [Create cases entity workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
@@ -61,7 +66,7 @@ After creating the workstream for the cases, you must create the routing rules.
 3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel.png  "Case workstream")
+    > ![Select a case workstream](../media/case-entity-channel.png "Case workstream")
 
 4. Select the **Routing Rules** tab in the workstream.
 
@@ -77,32 +82,32 @@ After creating the workstream for the cases, you must create the routing rules.
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
 
-8. Specify the following in the **New Rule Item** page.
+8. Specify the following on the **New Rule Item** page.
 
     | Tab | Field | value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
-    | General | Name | Push cases | Specify a name to the rule item. |
+    | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
 9. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
 
-    a. Select a rule from the list for the first box. For example, **Priority**.
+    a. Select a rule from the list for the first box. For example, **Subject**.
 
-    b. Select a condition from the list. For example, **Equals**.
+    b. Select a condition from the list. For example, **Contains**.
 
-    c. Select a value for the rule from the list. For example, **High**.
+    c. Select a value for the rule from the list. For example, **Credit card**.
 
 10. Select **Queue** for the **Route to** field. 
 
-11. Select an Omnichannel queue for the **Add to Queue** field.
+11. Select an omnichannel queue for the **Add to Queue** field.
 
-    The steps 9 to 11 indicate if the **Priority** of a case is **High**, then route the case to the selected omnichannel queue.
+    The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
-    > ![New Rule Item values](../media/case-ws-rr-rule-item1.png "New Rule Item values")
+    > ![New Rule Item values](../media/case-ws-rr-rule-item2.png "New Rule Item values")
 
     > [!Note]
-    > You must select an Omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
+    > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
 
 12. Select **Save** to save the rule item.
 
@@ -114,11 +119,11 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 | Component | Modification recommendation |
 |-----------------------------------|-----------------------------------|
-| When the record is created | No need to modify. However, you can extend it for custom scenarios. |
+| When the record is created | No need to modify; however, you can extend it for custom scenarios. |
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |
-| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams Id. <br> **Note:** <li> Workstream Id is mandatory. </li> <li>Condition is optional.</li> |
+| Work Stream Selection - Set LiveWorkStreamId to route this record to | Update the condition and workstreams Id. |
 | Invoke Omnichannel | Do not modify. |
 
 ### Update work distribution flow
@@ -199,6 +204,6 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 [Understand and create workstreams](work-streams-introduction.md)
 
-[Cases entity workstreams](set-up-entity-workstream.md)
+[Entity record workstreams](set-up-entity-workstream.md)
 
 [Work with queues](queues-omnichannel.md)
