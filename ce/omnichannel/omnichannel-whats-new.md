@@ -37,9 +37,9 @@ This section contains information about new features and enhancements in Omnicha
 
     More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
 
-- **Configure file attachment capability**: You can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. More information: [Configure file attachment capability](administrator/configure-file-attachment.md)
-
 ### Administrator experience
+
+- **Configure file attachment capability**: You can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. More information: [Configure file attachment capability](administrator/configure-file-attachment.md)
 
 ##  What's new in July 2019 General Availability
 
