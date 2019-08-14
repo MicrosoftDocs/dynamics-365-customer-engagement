@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-##  What's new in August 2019 General Availability
+##  What's new in August 2019 update
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
 
