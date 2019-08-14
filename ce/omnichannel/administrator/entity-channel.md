@@ -139,7 +139,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 | Component | Modification recommendation |
 |-----------------------------------|-----------------------------------|
-| When the record is created | No need to modify; however, you can extend it for custom scenarios. |
+| When the record is created | Do not modify. |
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |
@@ -152,42 +152,44 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 1. Sign in to Microsoft Flow.
 
-2. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
+2. Select the environment for which you want to update the Flow.
+
+3. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
     > [!div class=mx-imgBorder] 
     > ![Select default solution](../media/case-work-distribution-flow1.png "Select default solution")
 
-3. Select the **All** button in the menu and select **Flow** to filter the flows.
+4. Select the **All** button in the menu and select **Flow** to filter the flows.
 
     > [!div class=mx-imgBorder] 
     > ![Select the All button and filter flow](../media/case-work-distribution-flow2.png "Filter flow")
 
-4. Select **Case Work Distribution Flow** from the list.
+5. Select **Case Work Distribution Flow** from the list.
 
     > [!div class=mx-imgBorder] 
     > ![Select Cases Work Distribution Flow](../media/case-work-distribution-flow3.png "Select Cases Work Distribution Flow")
 
-5. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
+6. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
 
     > [!div class=mx-imgBorder] 
     > ![Select the Edit button](../media/case-work-distribution-flow4.png "Edit the Cases Work Distribution Flow")
 
 #### Authenticate
 
-6. Select the flow component that shows the warning icon, and select **+ Add new connection** to resolve the warning. The flow component uses the current user credentials and resolves the warning.
+7. Select the flow component that shows the warning icon, and select **+ Add new connection** to resolve the warning. The flow component uses the current user credentials and resolves the warning.
 
     ![Resolve flow warning](../media/flow-error1.png "Resolve flow warning")
 
 #### Update the workstream Id
 
-7. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition**.
+8. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition**.
 
     > [!div class=mx-imgBorder] 
     > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
 
-8. Select the **Set variable** option.
+9. Select the **Set variable** option.
 
-9. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Case Workstream** is one of the workstream that you created earlier. The value appears in the list, and when you select the value, it is added to the field. 
+10. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Case Workstream** is one of the workstream that you created earlier. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
     > If you update the name of the workstream, then you must perform step 12. Otherwise, the cases won't be automatically distributed to the agents.

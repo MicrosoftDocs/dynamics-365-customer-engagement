@@ -119,7 +119,7 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 | Component | Modification recommendation |
 |-----------------------------------|-----------------------------------|
-| When the record is created | No need to modify; however, you can extend it for custom scenarios. |
+| When the record is created | Do not modify. |
 | Initialization | Do not modify. |
 | Workstream Initialization | Do not modify. |
 | Current record | Do not modify. |
@@ -130,70 +130,72 @@ After creating the routing rules for the cases workstream, you must update **Cas
 
 1. Sign in to Microsoft Flow.
 
-2. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
+2. Select the environment for which you want to update the Flow.
+
+3. Select **Solutions** in the sitemap, and then select **Default Solution** from the list.
 
     > [!div class=mx-imgBorder] 
     > ![Select default solution](../media/case-work-distribution-flow1.png "Select default solution")
 
-3. Select the **All** button in the menu and select **Flow** to filter the flows.
+4. Select the **All** button in the menu and select **Flow** to filter the flows.
 
     > [!div class=mx-imgBorder] 
     > ![Select the All button and filter flow](../media/case-work-distribution-flow2.png "Filter flow")
 
-4. Select **Case Work Distribution Flow** from the list.
+5. Select **Case Work Distribution Flow** from the list.
 
     > [!div class=mx-imgBorder] 
     > ![Select Cases Work Distribution Flow](../media/case-work-distribution-flow3.png "Select Cases Work Distribution Flow")
 
-5. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
+6. Select the **Edit** button from the command bar at the top. The flow appears in a new tab.
 
     > [!div class=mx-imgBorder] 
     > ![Select the Edit button](../media/case-work-distribution-flow4.png "Edit the Cases Work Distribution Flow")
 
-6. Select the flow component that shows the warning icon, and select **+ Add new connection** to resolve the warning. The flow component uses the current user credentials and resolves the warning.
+7. Select the flow component that shows the warning icon, and select **+ Add new connection** to resolve the warning. The flow component uses the current user credentials and resolves the warning.
 
     ![Resolve flow warning](../media/flow-error1.png "Resolve flow warning")
 
-7. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
+8. Select the **Work Stream Selection - Set LiveWorkStreamId to route this record to** section, and then select **Condition 4**.
 
     > [!div class=mx-imgBorder] 
     > ![Select workstream](../media/case-work-distribution-flow5.png "Select workstream")
 
-8. Select the search box to add a rule. A flyout control appears. Type a rule name in the search box. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
+9. Select the **Choose a value** box to add a rule. A flyout control appears. Type in the search box to look up the attributes of the Case record that is being routed. For example, **Priority**. The rule appears in the list, and when you select the rule, it is added to the field. 
 
     > [!div class=mx-imgBorder] 
     > ![Add rule](../media/case-work-distribution-flow7.png "Add rule")
 
-9. Select a condition from the list. For example, **is equal to**.
+10. Select a condition from the list. For example, **is equal to**.
 
-10. Type the rule value in the field. For example, **1**.
+11. Type the rule value in the field. For example, **1**.
 
     > [!div class=mx-imgBorder] 
     > ![Set condition and value](../media/case-work-distribution-flow8.png "Set condition and value")
 
-11. Select the **Set variable 4** option under the **If yes** section.
+12. Select the **Set variable 4** option under the **If yes** section.
 
-12. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
+13. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **High Priority Cases** is one of the case workstream that you created to route high priority cases. The value appears in the list, and when you select the value, it is added to the field. 
 
     > [!Note]
-    > If you update the name of the workstream, then you must perform step 12. Otherwise, the cases won't be automatically distributed to the agents.
+    > If you update the name of the workstream in Omnichannel Administration app, then you must perform step 13. Otherwise, the cases won't be automatically distributed to the agents.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If yes variable value](../media/case-work-distribution-flow9.png "Set variable value")
 
-13. Select the **Set variable 5** option under the **If no** section.
+14. Select the **Set variable 5** option under the **If no** section.
 
-14. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
+15. Select the **Value** field search box to add a variable. A flyout control appears. Type the name of the workstream you created in the search box. For example, **Low Priority Cases** is one of the case workstream that you created to route low priority cases. The value appears in the list, and when you select the value, it is added to the field.
 
     > [!Note]
-    > - If you update the name of the workstream, then you must perform step 14. Otherwise, the cases won't be automatically distributed to the agents.
+    > - If you update the name of the workstream in Omnichannel Administration app, then you must perform step 15. Otherwise, the cases won't be automatically distributed to the agents.
     >
-    > - Adding multiple workstreams is the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
+    > - Adding multiple workstreams in the conditions are optional. If your business process requires multiple workstream conditions, you can create it.
 
     > [!div class=mx-imgBorder] 
     > ![Set the If no variable value](../media/case-work-distribution-flow10.png "Set variable value")
 
-15. Select **Save** to save **Cases Work Distribution Flow**.
+16. Select **Save** to save **Cases Work Distribution Flow**.
 
     > [!div class=mx-imgBorder] 
     > ![Workstream selection](../media/case-work-distribution-flow11.png "Workstream selection")
