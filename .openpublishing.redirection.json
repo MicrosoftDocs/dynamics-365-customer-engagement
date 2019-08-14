@@ -2735,33 +2735,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/omni-channel-engagement-hub/administrator/presence-custom-presence.md",
-      "redirect_url": "#VALUE!",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ce/omni-channel-engagement-hub/administrator/queues-omni-channel.md",
       "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/queues-omnichannel",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/omni-channel-engagement-hub/administrator/record-identification-rule.md",
-      "redirect_url": "#VALUE!",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/omni-channel-engagement-hub/administrator/routing-rules.md",
-      "redirect_url": "#VALUE!",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/omni-channel-engagement-hub/administrator/set-up-chat-widget.md",
-      "redirect_url": "#VALUE!",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/omni-channel-engagement-hub/administrator/unified-routing-work-distribution.md",
-      "redirect_url": "#VALUE!",
       "redirect_document_id": false
     },
     {
@@ -2770,13 +2745,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "ce/omni-channel-engagement-hub/administrator/users-user-profiles.md",
-      "redirect_url": "#VALUE!",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "ce/omni-channel-engagement-hub/administrator/work-streams-introduction.md",
-      "redirect_url": "#VALUE!",
+      "redirect_url": "/dynamics365/customer-engagement/omnichannel/administrator/work-streams-introduction",
       "redirect_document_id": false
     },
     {
