@@ -55,12 +55,12 @@ Consider the following scenario:
 
 5. In the new page, specify the following details:
 
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Link Account To Conversation  |
-  | General | Hosted Control | Communication Panel |
-  | General | Action     | OmnichannelLinkRecordToConversation | 
-  | General | Data | EntityRecordId=\[\[account.Id\]\] <br> EntityPrimaryAttributeValue=\[\[account.name\]\] <br> LiveWorkItemId=\[\[$Context.LiveWorkItemId\]\] <br> EntityLogicalName=account|
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name       | Link Account To Conversation  |
+   | General | Hosted Control | Communication Panel |
+   | General | Action     | OmnichannelLinkRecordToConversation | 
+   | General | Data | EntityRecordId=\[\[account.Id\]\] <br> EntityPrimaryAttributeValue=\[\[account.name\]\] <br> LiveWorkItemId=\[\[$Context.LiveWorkItemId\]\] <br> EntityLogicalName=account|
 
 6. Save the action call.
 
@@ -74,10 +74,10 @@ Consider the following scenario:
 
 4. Select **Toolbar** and select **+ New**.
 
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Link Records  |
-  | General | Order | 1 |
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name       | Link Records  |
+   | General | Order | 1 |
 
 5. Select **Save** to save the toolbar. After you save the toolbar, the **Buttons** section appears.
 
@@ -85,12 +85,12 @@ Consider the following scenario:
 
 7. Specify the following in the **New Toolbar Button** page.
 
-  | Tab | Field | Value |
-  |------------------|------------------|------------------|
-  | General | Name       | Link Account To Conversation  |
-  | General | Button Text | Link to conversation |
-  | General | Tooltip | Link the account to the conversation. |
-  | General | Order | 1 |
+   | Tab | Field | Value |
+   |------------------|------------------|------------------|
+   | General | Name       | Link Account To Conversation  |
+   | General | Button Text | Link to conversation |
+   | General | Tooltip | Link the account to the conversation. |
+   | General | Order | 1 |
 
 8. Select **Save** to save the toolbar button. After you save, the **Actions** section appears.
 
