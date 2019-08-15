@@ -97,7 +97,10 @@ The _target instance_ is the instance you are copying _onto_. As with the source
 
 To prepare your target instance to be copied onto, do the following _before_ starting the copy:
 
-1. If your target instance already has Dynamics 365 for Marketing installed on it, then you must use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance. For instructions, see [Uninstall Marketing](uninstall-marketing.md). This both prepares the target instance to receive the copy and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+1. If your target instance already has Dynamics 365 for Marketing installed on it, then do the following:
+
+    - Use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the copy and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+    - If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance). This will return the target instance to its factory settings, which may prevent problems later on, and may also release additional app licenses.
 
@@ -123,6 +126,9 @@ After creating your copy, you must do the following:
 
 As with copy operations, backup and restore operations typically require a few extra steps when Marketing is installed.
 
+> [!IMPORTANT]
+> Backups **do not** include interaction data, so when you restore them, all organizational data, solutions, apps, and customizations will be present, but no Marketing interaction data or insights will be available on the restored system.
+
 ### Automatic system backups
 
 Microsoft automatically takes daily backup copies of all Dynamics 365 for Customer Engagement instances, including those that have the Marketing app installed. Like other types of copies, automatic system backups include the full organizational database, but not a copy of the interaction database. System backups are usually kept for just a few days and then deleted again.
@@ -143,16 +149,16 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 > [!NOTE]
 > If you make an on-demand backup with one or more records still in a live state on the source instance, then those records will become unusable on the target instance.
 
-> [!IMPORTANT]
-> On-demand backups **do not** include interaction data, so when you restore them, no interaction data or insights will be available on the restored system.
-
 ### Restore a backup onto another instance
 
 You can easily restore any on-demand or automatic system backup to any available sandbox instance (other than the instance you took the backup from). But as with copy operations, you need to prepare the target instance first.
 
 To restore a backup onto a sandbox instance:
 
-1. If your target instance already has Dynamics 365 for Marketing installed on it, then use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance. Just run the uninstaller—you don't have to remove all of the solutions afterwards. For instructions, see [Uninstall Marketing](uninstall-marketing.md). This both prepares the target instance to receive the copy and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+1. If your target instance already has Dynamics 365 for Marketing installed on it, then do the following:
+
+    - Use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+    - If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
 1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance).
 
@@ -207,12 +213,16 @@ To copy a production instance to a support instance:
 
 1. Your production instance is now copied to the support instance.
 
-## Reset or delete a Marketing instance
+## Delete or reset a Marketing instance
 
-For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to reset or delete an instance. However, if you have Marketing installed, then use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance. Just run the uninstaller—you don't have to remove all of the solutions afterwards. For instructions, see [Uninstall Marketing](uninstall-marketing.md).
+For standard Customer Engagement instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you must also do the following:
+
+1. Use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. Delete or reset the instance as usual. More information: [Delete an instance](../admin/delete-instance.md)
 
 > [!IMPORTANT]
-> You must always uninstall Marketing before deleting or resetting an instance because this makes sure your Marketing license is fully released so you can use it again.
+> You must always uninstall Marketing and reset the Dynamics 365 Portal before deleting or resetting an instance because this makes sure your Marketing and portal licenses are fully released so you can use them again.
 
 ## Do not change the URL for an instance with Marketing installed
 
