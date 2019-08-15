@@ -204,7 +204,7 @@ Take action on a record without opening the record.
 
 ## Add activities in the Timeline 
 
-Activities are details that you add to record which include things like notes, posts, task, send email, add phone call details, or set up appointments. These activities are added in the Timeline wall of a record and it keeps track of all your communications for the record in the Timeline section. The system automatically timestamps every activity and shows who created it. 
+Activities are details that you add to a record which include things like notes, posts, task, send email, add phone call details, or set up appointments. These activities are added in the Timeline wall of a record and it keeps track of all your communications for the record in the Timeline section. The system automatically timestamps every activity and shows who created it. 
 
 **Add an activity**
 
