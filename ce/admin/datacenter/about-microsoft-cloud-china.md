@@ -46,8 +46,10 @@ There are a few technical limitations during the provisioning of services that n
 |**Purchased Office 365 via OSSA or CSP and purchased Dynamics 365.**    |Dynamics 365 needs to be provisioned on a separate tenant.          |
 
 OSPA = Online Services Premium Agreement
+OSSA = Online Service Subscription Agreement
+CSP = Cloud Solution Provider
 
-For information on provisioning environments, see [Create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/en-us/power-platform/admin/create-environment).
+For information on provisioning environments, see [Create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/create-environment).
 
 ## Features not available
 
