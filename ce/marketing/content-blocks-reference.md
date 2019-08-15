@@ -1,7 +1,6 @@
 ---
 title: "Design elements reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each design element that is available for the design tool in Dynamics 365 for Marketing"
-keywords: designer; design element; element; reference; email; form;  page
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
