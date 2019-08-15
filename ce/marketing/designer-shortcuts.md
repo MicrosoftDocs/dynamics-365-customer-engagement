@@ -165,12 +165,12 @@ Most of the standard navigation and selection keyboard commands also work when y
 
 The journey and scoring-model designers include a side panel that provides up to three tabs: a **Toolbox** of tiles that you can add to your design, **Properties** for configuring a tile selected on the canvas, and **Grades** for setting grade thresholds (lead-scoring only). When one of these tabs is open, you can navigate to and among its settings using the tab and arrow keys on your keyboard.
 
-To navigate the site panel:
+To navigate the side panel:
 
 1. Press tab until you've selected the side panel, where one tab is currently active.
 1. Use the arrow keys to switch the active side-panel tab. The tab is activated as soon as you select it.
 1. Press tab to move between the active (editable) settings available in the current side-panel tab, or eventually to navigate away from the side-panel tab.
-1. If you're using a screen reader and would like to read values for read-only (inactive) settings, then use arrow keys to navigate between inactive settings.
+1. If you're using a screen reader and would like to read values for read-only (inactive) settings, then use arrow keys to navigate between the display values.
 
 ### Place a new tile
 

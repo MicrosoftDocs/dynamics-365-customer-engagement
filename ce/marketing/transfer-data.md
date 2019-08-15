@@ -48,9 +48,7 @@ The following notes apply when you use export/import to move data from one Dynam
 - If you import (or reimport) a record that already exists on the destination instance, that record will end with a status of "draft" on the destination instance. Matching records won't be duplicated.
 - Interaction data can't be exported or transferred to a new instance. It will never be included in the export file.
 - If you export from a language not present on the destination instance, that language will simply be added to the destination instance.
-- Both the source and destination instances must be running the same version of Dynamics 365 for Marketing and use identical database schema.
-
-<!-- Mention things like: supported/unsupported entities, support for languages, requirement for matching versions, something about customizations, more? -->
+- Both the source and destination instances must be running the same version of Dynamics 365 for Marketing and use an identical database schema (at least for the data you are transferring).
 
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
@@ -75,7 +73,7 @@ To find your Dynamics 365 for Marketing version number:
 
 ## Generate a database schema for your source instance
 
-The Configuration Migration tool requires a database schema each time it exports or imports data. The tool itself can generate the required schema for you. The generated schema will include full database details of your source instance, including all customizations. The database on your destination instance must use an identical schema.
+The Configuration Migration tool requires a database schema each time it exports or imports data. The tool itself can generate the required schema for you. The generated schema will specify the database structure of your source instance, including all customizations. The database on your destination instance must use an identical schema for all transferred data.
 
 To generate the required schema:
 
@@ -83,10 +81,7 @@ To generate the required schema:
 
 1. In the utility, select **Create schema** and then sign into your source instance.
 
-1. Follow the instructions provided in [Create a schema to export configuration data](../admin/create-schema-export-configuration-data.md) to generate the schema.
-
-    > [!IMPORTANT]
-    > Be sure to export *all fields* from *all entities* from *all solutions* to generate a complete schema, not a partial one.
+1. Follow the instructions provided in [Create a schema to export configuration data](../admin/create-schema-export-configuration-data.md) to generate the schema. Be sure to include all of the solutions, entities, and fields for which you want to transfer data, and also make sure all dependencies are included.
 
 ## Export data from your source instance
 
@@ -138,7 +133,7 @@ To import data to your destination instance:
     ![Choose a file to import](media/dmt-import3.png "Choose a file to import")
 
     > [!IMPORTANT]
-    > As mentioned previously, your source and destination instances must use exactly the same schema, so they must be running identical versions of Dynamics 365 for Marketing, and all schema customizations must be identical on both instances. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
+    > As mentioned previously, your source and destination instances must use exactly the same schema for the data being transferred, so they must be running identical versions of Dynamics 365 for Marketing, and all relevant schema customizations must be identical on both instances. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
 
 1. Select **Import data** to continue. The tool tracks the progress of your import.  
     ![Import complete](media/dmt-import4.png "Import complete")
