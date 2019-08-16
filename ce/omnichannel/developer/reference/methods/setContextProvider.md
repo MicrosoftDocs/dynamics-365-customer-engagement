@@ -6,7 +6,7 @@ author: susikka
 ms.author: susikka
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/16/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 1C92A31B-70DF-4CE7-9C7A-BE398F34C6F6
@@ -59,6 +59,11 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 In the sample code given above, the `value` attribute contains the value of the context variables.
 
 The `isDisplayable` attribute, if set to `true` will display the passed items within a third tab on the Conversation Summary Control for a given Conversation. This is an optional parameter and its default value is `false`.
+
+> [!NOTE]
+> When a new context variable is being passed, the context key values can only be of String type.
+
+![Display context keys](../../../media/context-variable-display.png "Display context keys")
 
 ## Error codes
 
