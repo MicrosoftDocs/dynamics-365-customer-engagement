@@ -288,6 +288,10 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md) and [Go live with publishable entities and track their status](go-live.md)
 
+## Gain insights from your email results
+
+Once you start delivering an email message using a customer journey, Dynamics 365 for Marketing will begin to collect information about how recipients interact with that message.  The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
+
 ### See also
 
 [Create a marketing email](create-marketing-email.md)  

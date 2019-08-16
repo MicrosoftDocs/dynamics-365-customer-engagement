@@ -27,7 +27,7 @@ search.app:
 
 # Manage information about your current and prospective customers
 
-Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Read this topic to learn how these basic entities are used an affected by the Marketing app.
 
 ## Use contacts to manage customer people
 
@@ -79,3 +79,7 @@ Dynamics 365 for Marketing collects detailed interaction records for each contac
 To view, create, or edit a lead, go to **Marketing** &gt; **Customers** &gt; **Leads**. This brings to you a standard list view, which you can use to search, sort, filter, create, and delete your leads. Open any lead to view its details. Select **New** in the command bar to create a new lead.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The lead lifecycle](lead-lifecycle.md)
+
+## Gain insights into how contacts, accounts, and leads are interacting with your marketing initiatives
+
+Once you have Dynamics 365 for Marketing installed, you Dynamics 365 for Customer Engagement instance will be begin to collect information about how each of these entities interacts with your marketing activities. The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
