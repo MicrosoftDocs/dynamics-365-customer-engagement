@@ -1,7 +1,7 @@
 ---
 title: "msdyn_liveconversation Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_liveconversation entity."
-ms.date: 08/07/2019
+ms.date: 08/16/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -1086,17 +1086,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_msdyn_liveworkstream_msdyn_liveconversation](#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation)
-- [msdyn_msdyn_omnichannelqueue_msdyn_liveconversation](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation)
-
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation"></a> msdyn_msdyn_liveworkstream_msdyn_liveconversation
 
 See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_liveconversation](msdyn_liveworkstream.md#BKMK_msdyn_msdyn_liveworkstream_msdyn_liveconversation) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation"></a> msdyn_msdyn_omnichannelqueue_msdyn_liveconversation
-
-See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_liveconversation](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation) One-To-Many relationship.
 
 ### See also
 

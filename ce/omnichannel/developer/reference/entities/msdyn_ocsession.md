@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ocsession Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocsession entity."
-ms.date: 08/07/2019
+ms.date: 08/16/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -1962,19 +1962,12 @@ Same as msdyn_sessionparticipant entity [msdyn_ocsession_sessionparticipant_nest
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid)
-- [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid)
-
 
 ### <a name="BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid"></a> msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid
 
 **Added by**: Active Solution Solution
 
 See msdyn_ocliveworkitem Entity [msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid](msdyn_ocliveworkitem.md#BKMK_msdyn_msdyn_ocliveworkitem_msdyn_ocsession_liveworkstreamid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid
-
-See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocsession_queueid) One-To-Many relationship.
 
 ### See also
 

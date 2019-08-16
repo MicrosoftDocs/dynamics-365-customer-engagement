@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ocruleitem Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocruleitem entity."
-ms.date: 08/07/2019
+ms.date: 08/16/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -881,17 +881,10 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_liveworkstream_ocruleitem](#BKMK_msdyn_liveworkstream_ocruleitem)
-- [msdyn_omnichannelqueue_ocruleitem](#BKMK_msdyn_omnichannelqueue_ocruleitem)
-
 
 ### <a name="BKMK_msdyn_liveworkstream_ocruleitem"></a> msdyn_liveworkstream_ocruleitem
 
 See msdyn_liveworkstream Entity [msdyn_liveworkstream_ocruleitem](msdyn_liveworkstream.md#BKMK_msdyn_liveworkstream_ocruleitem) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_omnichannelqueue_ocruleitem"></a> msdyn_omnichannelqueue_ocruleitem
-
-See msdyn_omnichannelqueue Entity [msdyn_omnichannelqueue_ocruleitem](msdyn_omnichannelqueue.md#BKMK_msdyn_omnichannelqueue_ocruleitem) One-To-Many relationship.
 
 ### See also
 
