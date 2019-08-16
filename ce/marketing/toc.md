@@ -72,6 +72,7 @@
 ##### [Generate activities from a customer journey](generate-activities-from-customer-journey.md)
 ##### [Manage images](manage-images.md)
 ##### [Track online behavior](track-online-behavior.md)
+##### [Import and email all contacts from a spreadsheet](email-excel.md)
 
 ### Work with content designers
 #### [Design your digital content](design-digital-content.md)
