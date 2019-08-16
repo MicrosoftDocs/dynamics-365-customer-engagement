@@ -2,7 +2,7 @@
 title: "Run Dynamics 365 for Marketing with a Dynamics 365 portal and/or CMS system (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how you can run interactive marketing features for Dynamics 365 for Marketing by using an integrated Dynamics 365 portal or by using your own website or CMS system."
 keywords: 
-ms.date: 06/13/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
