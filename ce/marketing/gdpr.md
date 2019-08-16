@@ -223,21 +223,19 @@ For more information about how to work with the security groups and other securi
 
 From time to time, you may be asked to demonstrate that your organization complies with the GDPR regulations. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides several tools to help you do this.
 
-### Record and view a history of consent-level changes made by users
+### Record and view justifications for consent-level changes made by users
 
-Dynamics 365 for Marketing users can change the consent level for any contact by editing the contact record directly. You might typically do this following a telephone conversation during which the contact provided or withdrew consent. 
+Usually you should allow contacts to set their own consent level using a marketing page or subscription center. However, Dynamics 365 for Marketing users can also  change the consent level for any contact by editing the contact record directly. You might typically do this following a telephone conversation during which the contact provided or withdrew consent. When you do manually change the consent level for any contact, it's good practice to add a comment about what you've done and why.
 
-To view the current list of changes, or to record such a change and add a comment:
+To add a comment about why you changed the consent level of a contact, or to review the existing comments:
 
 1. Open the target contact record.
 
-1. Select the **Related** tab to open a drop-down list of related record types.
-
-1. Select **GDPR consent change records** from the drop-down list. A list of user-made GDPR consent change records opens as a new tab for the contact record.
+1. Select the **Related** tab to open a drop-down list of related record types and then select **GDPR consent change records** from the drop-down list. A list of user-made GDPR consent change records opens as a new tab for the contact record.
 
     ![Inspect and record consent-level changes for a contact](media/gdpr-inspect-consent-changes.png "Inspect and record consent-level changes for a contact")
 
-1. If you'd like to add a new note here, then select the **Add new GDPR consent record** button to open a form where you can add a comment to document the reason for the change.
+1. If you'd like to add a new note here, then select the **Add new GDPR consent record** button to open a form where you can enter a comment to document the reason for the change.
 
 1. If you'd like to export this list, select the **Export** button on the command bar.
 
@@ -258,9 +256,9 @@ Once you've enabled auditing for contacts, you'll be able to view a record of ch
 
 1. Open the target contact record.
 
-1. Select the **Related** tab to open a drop-down list of related record types.
+1. Select the **Related** tab to open a drop-down list of related record types and then select **Audit history** from the drop-down list. A list of change made to the current contact record opens as a new tab. 
 
-1. Select **Audit history** from the drop-down list. A list of change made to the current contact record opens as a new tab. To view consent changes only, set **Filter on** to **Consent given**.
+1. To view consent changes only, set **Filter on** to **Consent given**.
 
     ![Filter audit history by consent given](media/gdpr-audit-history.png "Filter audit history by consent given")
 
