@@ -223,20 +223,23 @@ For more information about how to work with the security groups and other securi
 
 From time to time, you may be asked to demonstrate that your organization complies with the GDPR regulations. [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides several tools to help you do this.
 
-### View a history of consent-level changes for each contact
+### Record and view a history of consent-level changes made by users
 
-Each time a contact uses a subscription center to change their consent level, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] logs the event. You can view the history of consent-level changes by doing the following:
+Dynamics 365 for Marketing users can change the consent level for any contact by editing the contact record directly. You might typically do this following a telephone conversation during which the contact provided or withdrew consent. 
+
+To view the current list of changes, or to record such a change and add a comment:
 
 1. Open the target contact record.
+
 1. Select the **Related** tab to open a drop-down list of related record types.
-1. Select **GDPR consent change records** from the drop-down list. A list of GDPR consent change records opens as a new tab for the contact record.
 
-The list only shows changes made by the contact using the subscription center. If a user from your organization changes the level directly using the contact record (such as to respond to a request given over the phone), that event is not recorded in the log. To record such a change, the user must also open the **GDPR consent change records** tab and select the **Add new GDPR consent record** button. A form opens that the user can use to enter details about the consent-level change.
+1. Select **GDPR consent change records** from the drop-down list. A list of user-made GDPR consent change records opens as a new tab for the contact record.
 
-![Inspect and record consent-level changes for a contact](media/gdpr-inspect-consent-changes.png "Inspect and record consent-level changes for a contact")
+    ![Inspect and record consent-level changes for a contact](media/gdpr-inspect-consent-changes.png "Inspect and record consent-level changes for a contact")
 
- 
-You can export this list from here, if needed, by selecting the **Export** button in the list command bar.
+1. If you'd like to add a new note here, then select the **Add new GDPR consent record** button to open a form where you can add a comment to document the reason for the change.
+
+1. If you'd like to export this list, select the **Export** button on the command bar.
 
 ### Enable auditing to log all record changes
 
@@ -248,6 +251,19 @@ To access the auditing features:
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
 This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](../admin/audit-data-user-activity.md).
+
+### View the audit history to find consent-level changes for a contact
+
+Once you've enabled auditing for contacts, you'll be able to view a record of changes for any contact by doing the following:
+
+1. Open the target contact record.
+
+1. Select the **Related** tab to open a drop-down list of related record types.
+
+1. Select **Audit history** from the drop-down list. A list of change made to the current contact record opens as a new tab. To view consent changes only, set **Filter on** to **Consent given**.
+
+    ![Filter audit history by consent given](media/gdpr-audit-history.png "Filter audit history by consent given")
+
 
 ### See also
 
