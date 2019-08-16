@@ -60,7 +60,8 @@ Below is an overview of the general process for creating and sending a marketing
 
 3. Choose a template, which establishes the basic format of your message.
 
-4. Design your message by using the drag-and-drop designer or HTML editor.
+4. Design your message by using the drag-and-drop designer or HTML editor. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
+
 
 5. Add a compelling **Subject** for your message.
 
@@ -86,7 +87,7 @@ You can also create your own custom templates, which can help both you and other
 
 ## Design your content
 
-After choosing a template, you'll be in the email content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Work with it as follows:
+After choosing a template, you'll be in the email content designer, which resembles the other [digital content designers](design-digital-content.md) provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Work with it as follows:
 
 - Use the **Design** &gt; **Designer** tab graphical tool to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging design elements from the **Design** &gt; **Designer** &gt; **Toolbox** tab to the canvas. Choose a design elements that already exists in your design, and then open the **Design** &gt; **Designer** &gt; **Properties** tab to configure it and style it. To style the overall message with basic fonts, colors, and background, open the **Style** tab.
 

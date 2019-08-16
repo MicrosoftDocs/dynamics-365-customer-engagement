@@ -73,7 +73,7 @@ Choose **Designer** in the designer toolbar to open the graphical designer. It l
 
 The graphical designer provides an editable preview (canvas), where you can select, edit, or remove content; and a set of tabs for adding design elements and working with the design:
 
-- **Toolbox**: To add a new design element to your design, drag an element from here to an appropriate place in the canvas. Each design element represents a specific type of content, such as a text element, image, or input form. The settings and features of each design element vary by type.
+- **Toolbox**: To add a new design element to your design, drag an element from here to an appropriate place in the canvas; or select an element here (without dragging) to highlight each position on the canvas where  you could place that element, and then select the highlighted position where you'd like to place it. Each design element represents a specific type of content, such as a text element, image, or input form. The settings and features of each design element vary by type.
 - **Properties**: Most design elements need to be configured to work. For example, an image needs to point to an image file, a form needs to point to a marketing-form record, and a button needs some text and a destination. When you add a new design element, that element is automatically selected and its **Properties** tab opens so you can set it up. To configure (or reconfigure) any design element already in your design, select it first, and then open the **Properties** tab.
 - **Style**: Use these settings to apply color, spacing, and other graphical options for the overall design.
 
