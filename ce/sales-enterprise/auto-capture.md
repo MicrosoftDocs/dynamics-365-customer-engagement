@@ -1,14 +1,11 @@
 ---
 title: "Auto capture for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag
@@ -17,7 +14,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 13
-topic-status: Drafting
 ---
 
 # Auto capture of related emails

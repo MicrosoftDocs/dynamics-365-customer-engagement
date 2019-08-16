@@ -10,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: 70afbe24-617d-428f-8067-da3a6f3fbd5c
 caps.latest.revision: 7
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer

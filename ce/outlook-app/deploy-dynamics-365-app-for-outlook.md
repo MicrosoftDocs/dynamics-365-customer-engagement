@@ -1,22 +1,18 @@
 ---
-title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/19/2019
+ms.date: 07/25/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
 author: mduelae
 ms.author: mkaur
 manager: kvivek
-tags: 
-  - MigrationHO
 search.audienceType: 
   - admin
   - customizer

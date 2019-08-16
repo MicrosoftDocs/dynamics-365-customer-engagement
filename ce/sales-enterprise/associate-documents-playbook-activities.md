@@ -3,14 +3,10 @@ title: "Associate documents with playbook activities (Dynamics 365 for Sales) | 
 description: "Associate documents with playbook activities to help your team access accurate and current sales materials or training content to close a deal."
 keywords: ""
 ms.date: 02/20/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 293f83ce-5ea3-4a3a-ab8a-52cae27b7859
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Tech Reviewing
 ---
 
 # Associate documents with playbook activities

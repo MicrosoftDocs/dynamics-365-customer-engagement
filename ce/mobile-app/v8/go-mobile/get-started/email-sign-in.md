@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: 6828238b-1644-4710-a192-0014acb03196
-caps.latest.revision: 01
+caps.latest.revision: 1
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin

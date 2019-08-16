@@ -1,20 +1,19 @@
 ---
 title: "Configure and enable embedded intelligence features for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-ms.custom: 
+keywords: 
 ms.date: 10/31/2018
-ms.reviewer: 
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.custom: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: f2ba3ad4-96a0-47a9-a54a-71265f4d8053
-caps.latest.revision: 28
 author: udag
 ms.author: udag
 manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 28
 ---
 # Configure and enable embedded intelligence
 
