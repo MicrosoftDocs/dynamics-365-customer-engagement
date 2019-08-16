@@ -3,14 +3,10 @@ title: "Project accurate revenue with sales forecasting (Dynamics 365 for Sales)
 description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 for Sales."
 keywords: ""
 ms.date: 04/15/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 3f06063b-900d-40dd-a20b-d48e216a9444
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Tech Reviewing
 ---
 
 # Project accurate revenue with sales forecasting

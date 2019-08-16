@@ -1,7 +1,7 @@
 ---
 title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 10
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin

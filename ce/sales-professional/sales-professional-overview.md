@@ -3,18 +3,17 @@ title: "Overview of Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: d55f5a5a-2a2f-4740-b1a4-babeff282fc9
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Overview of Dynamics 365 for Sales Professional
