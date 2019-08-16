@@ -3,14 +3,10 @@ title: "Enable generation of PDF from quotes (Dynamics 365 for Sales) | Microsof
 description: "Enable your users to create and share a professional-looking quote PDF with the customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
 ms.date: 05/22/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 09e5b4a3-00c1-4577-8e6f-093df2ccdb34
 author: shubhadaj
 ms.author: shujoshi

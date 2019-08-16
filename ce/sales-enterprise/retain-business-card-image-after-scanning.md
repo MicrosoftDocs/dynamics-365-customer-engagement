@@ -3,11 +3,10 @@ title: "Enable or disable saving of business card image (Dynamics 365 for Sales)
 description: "Configure whether to retain the business card image in Dynamics 365 for Sales after it is scanned."
 keywords: "business card, scan, scanner, lead, contact, populate, data"
 ms.date: 08/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
+applies_to: 
 ms.assetid: 43a92dbe-c627-4404-b647-a33c51a8bcdc
 author: shubhadaj
 ms.author: shujoshi

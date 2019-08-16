@@ -3,14 +3,10 @@ title: "Delete a family, product, or bundle (Dynamics 365 for Sales) | Microsoft
 description: "If you're no longer selling a product, delete it from Dynamics 365 for Sales."
 keywords: Delete product
 ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 0d5a361a-11e3-4c2f-9a49-2716870acc14
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 10
-topic-status: Drafting
 ---
 
 # Delete a family, product, or bundle (Sales and Sales Hub)

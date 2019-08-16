@@ -3,18 +3,17 @@ title: "Create a unit group and add units in Dynamics 365 for Sales Professional
 description: "Use units in Dynamics 365 for Sales Professional to define the quantities or measurements in which your products are available."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: f313e339-c14a-4b87-8898-db42ce8b82e3
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Create a unit group and add units

@@ -1,14 +1,11 @@
 ---
 title: "Action cards reference for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 7808da18-7d62-4a04-911d-f429ad87248e
 author: udaykirang
 ms.author: udag
@@ -17,7 +14,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 22
-topic-status: Drafting
 ---
 
 # Action cards reference

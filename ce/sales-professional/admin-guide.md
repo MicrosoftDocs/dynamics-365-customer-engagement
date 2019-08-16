@@ -3,12 +3,9 @@ title: "Administrator & Sales Manager guide (Dynamics 365 for Sales Professional
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 for Sales."
 keywords: "Sales Professional, Sales, Index, sales manager, admin, administrator"
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 6c5a3ad7-487b-4231-b47e-74b884e6bf46
 author: shubhadaj
 ms.author: shujoshi
@@ -16,7 +13,7 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Drafting
+ms.custom: 
 ---
 
 # Administrator and Sales Manager guide (Sales Professional)
