@@ -1,7 +1,6 @@
 ---
 title: "Email A/B testing (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to test slightly different email designs on small portions of your audience and then deliver the winner to the rest of the audience in Dynamics 365 for Marketing"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -29,9 +28,12 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-Use email A/B testing to test two slightly different email designs on a small part of  your target segment to find out which design is more successful, and then automatically send the winning design to the rest of the segment. You start by creating an initial design (the "A" version), and then use that as the basis to create a "B" version of the design in which you have modified a small part of it (such as the subject). Finally, choose your conditions for success (such as most opened or most clicked) and run the test as part of a customer journey.
+Use email A/B testing to find out which of two similar designs is likely to be most successful and then send the winning design automatically. You start by creating an initial design (the "A" version), and then use that as the basis to create a "B" version of the design in which you have modified a small part of it (such as the subject). Finally, choose your conditions for success (such as most opened or most clicked) and run the test as part of a customer journey.
 
-In the early access version of this feature, you'll be able to A/B test the message subject and/or sender name. In the final release, we expect also to enable testing on email content.
+The journey runs the entire test automatically. It starts by sending version A to a small part of your segment (for example 10% of contacts) while also sending version B to another part of the segment (typically also 10%). It waits for a period of time you choose (for example, 24 hours) and then analyzes the interaction results and chooses a winner based on your selected criteria (such as most opened). The journey then sends the winning design to the rest of the segment (the remaining 80%) automatically.
+
+> [!NOTE]
+> In the early access version of this feature, you'll be able to A/B test the message subject and/or sender name. In the final release, we expect also to enable testing on email content.
 
 ## Create a marketing email for A/B testing
 
@@ -50,12 +52,15 @@ To set up A and B designs for a message:
    - **Subject**: Adds a subject test. This type of test lets you choose a different subject for the B version of your design.
    - **From name**: Adds a from-name test. This type of test lets you choose a different from-name for the B version of the design. Recipients will see this as the name of the sender of the message. This won't change actual the from-address, which will remain the same for both versions.
 
-    In each case, you can choose to use [assist-edit](dynamic-email-content.md#use-assist-edit-to-place-dynamic-field-values)( **</>** ) to define the subject or from-name using a dynamic expression for the A and/or B versions (as usual).
+    In each case, you can choose to use [assist-edit](dynamic-email-content.md#use-assist-edit-to-place-dynamic-field-values) (**</>**) to define the subject or from-name using a dynamic expression for the A and/or B versions (as usual).
 
     ![Add a new test](media/email-abtest-add-test.png "Add a new test")
 
     > [!NOTE]
-    > You can run each test just once, on a single email tile in a single journey. As soon as you start a journey with an email A/B test running, you won't be able to select that test for any other email tile. If you'd like to run several tests on a single design, then add more tests to **A/B test** panel.
+    > You can add as many tests as you like by repeating this step. Remember that the A version is the same for all tests, but the B version is specific for each test, so you can have many different B versions.
+
+    > [!NOTE]
+    > You can run each test just once, on a single email tile in a single journey. As soon as you start a journey with an email A/B test running, you won't be able to select that test for any other email tile. If you'd like to run several tests on a single design, then add more tests to **A/B test** panel. 
 
 1. A new test of  your selected type is now added to the **A/B test** panel. Note the following:
    - Each test has a name (which defaults to "New test") and a type (which is shown below the name and indented).
@@ -67,7 +72,10 @@ To set up A and B designs for a message:
     ![Version buttons, tests, and indicators](media/email-abtest-version-indictators.png "Version buttons, tests, and indicators")
 
 1. Select a test from the **A/B test** panel and then select the **Version B** button. Now change the design of the item you are testing (subject or from-address), which is now highlighted with a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B")
-. You can toggle back and forth using the **Version A** and **Version B** buttons to compare the versions for the selected test and continue to edit each version while it's being displayed. (You can also edit all other settings and design elements (where neither an A or B icon is shown), but this will affect all versions of the design, regardless of which version button is selected.)
+. You can toggle back and forth using the **Version A** and **Version B** buttons to compare the versions for the selected test and continue to edit each version while it's being displayed. 
+
+    > [!NOTE]
+    > Even after you have enabled A/B testing you can still edit parts of your message that aren't part of any tests. When you to this,  your edits will affect all versions (the A version and all B versions), regardless of which test and version button are currently selected. But if you edit a setting that shows an **A** icon ![Icon for version A](media/email-abtest-a-icon.png "Icon for version A"), then you are only editing the A version; and if you edit a setting that shows a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B"), you are only editing the B version of the selected test..
 
 1. Continue working in this way until you have set up all of the tests you want to run on the current email design.
 1. When you're done setting up your designs and tests, select **Go live** to make your message available for use with a customer journey.
