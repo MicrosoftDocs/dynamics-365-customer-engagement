@@ -27,7 +27,7 @@ search.app:
 ---
 
 
-# Dynamics 365 Guides integration
+# Dynamics 365 Guides integration with Field Service
 
 Intergration with Dynamics 365 Guides lets Field Service customer attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated **Field Service** tab in the Dynamics 365 Guides HoloLens app to launch the assigned guide and get their work done. 
 
