@@ -36,16 +36,16 @@ Dynamic content gets resolved just before a message is sent to a specific indivi
 
 Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is delivered with a single default set of content settings, which is preconfigured to use the default subscription center (also included out of the box). You can customize this set as needed, and you can also create additional sets. You'll set up each customer journey to use a specific content-settings set, which means that all messages sent by that journey will use the same set. However, each journey can use a different set, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is delivered with a single default content-settings record, which is preconfigured to use the default subscription center (also included out of the box). You can customize this record as needed, and you can also create additional records. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same record. However, each journey can use a different record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different content-settings record. If you have more than one content-settings record, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
 
-The values for content settings are first evaluated at send time, which means that you can edit a content-settings set at any time, and all pending and future email messages will automatically use the latest values.
+The values for content settings are first evaluated at send time, which means that you can edit a content-settings record at any time, and all pending and future email messages will automatically use the latest values.
 
 Each content-settings record that you use must be available to the external marketing services, which manage email assembly and delivery. Therefore, you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
 
 > [!NOTE]
 > If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. However, in the current release, all custom fields for the content-settings entity must be of type text (string). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Marketing](customize.md)
 
-To view, edit, or create a content-settings set:
+To view, edit, or create a content-settings record:
 
 1. Go to **Marketing** > **Templates**  >  **Content Settings**.
 
@@ -57,15 +57,15 @@ To view, edit, or create a content-settings set:
 
 1. Make the following settings, as needed:
 
-    - **Name**: Enter a name for the customer-settings set. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
-    - **Owner**: Shows the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user who created the set.
-    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
+    - **Name**: Enter a name for the customer-settings record. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
+    - **Owner**: Shows the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user who created the record.
+    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings record. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Address line 2**: Enter supplemental postal address information (if needed). Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
-    - **Default**: Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
+    - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
-    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings set. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist-edit):<br>
+    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist-edit):<br>
     `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`
-    - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist-edit):<br>
+    - **Forward to a friend**: Specify an existing marketing page that is record up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist-edit):<br>
     `{{msdyncrm_marketingpage(36458a9e-72af-e911-a859-000d3a3159df).msdyncrm_full_page_url}}`
 
 1. Select **Save** in the bottom-right corner of the window to save your settings.
