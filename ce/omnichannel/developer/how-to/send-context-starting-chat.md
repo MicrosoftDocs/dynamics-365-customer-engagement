@@ -54,7 +54,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](../reference/methods/setContextProvider.md) method and set its value to `true`. More information: [Display custom context](display-custom-context).
+To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](../reference/methods/setContextProvider.md) method and set its value to `true`. More information: [Display custom context](display-custom-context.md).
 
 > [!div class="nextstepaction"]
 > [Next topic: Send authentication token](send-auth-token-starting-chat.md)
