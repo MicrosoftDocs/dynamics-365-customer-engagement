@@ -3,14 +3,10 @@ title: "Use properties to describe a product (Dynamics 365 for Sales) | Microsof
 description: "Simplify product management and classification by adding product properties in Dynamics 365 for Sales."
 keywords: "Properties, product properties, classification"
 ms.date: 08/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 3fd1c7a7-2f4d-48d5-9ae8-dbb5689c6d67
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 24
-topic-status: Drafting
 ---
 
 # Use properties to describe a product (Sales and Sales Hub)

@@ -3,18 +3,17 @@ title: "Import data into Dynamics 365 for Sales Professional | MicrosoftDocs"
 description: "Get your data in bulk into Dynamics 365 for Sales Professional by importing it."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 7914b026-8e46-4dda-9134-f86bd8ae5db8
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Import data into Dynamics 365 for Sales Professional

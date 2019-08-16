@@ -3,14 +3,10 @@ title: "Troubleshooting guide for administrators for Dynamics 365 for Sales | Mi
 description: "Follow the instructions in this topic to troubleshoot the issues your users may face while working on Dynamics 365 for Sales."
 keywords: Dynamics 365 for Sales, troubleshoot, FAQ, issue, resolution
 ms.date: 07/18/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 1ae01111-9a6d-467b-86d2-e9bc89e62369
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Drafting
 ---
 
 # Dynamics 365 for Sales troubleshooting guide for administrators
