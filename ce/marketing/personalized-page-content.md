@@ -45,7 +45,7 @@ Go to **Marketing** > **Marketing content** > **Personalized pages** to identify
 You can use fields of the following types on personalized pages:
 
 - Single line of text
-- Option set
+- Option set (see note)
 - Two options
 - Whole Number
 - Floating point number
@@ -53,7 +53,10 @@ You can use fields of the following types on personalized pages:
 - Currency
 - Multiple lines of text
 - Date and time
-- Multi-select option set
+- Multi-select option set (see note)
+
+> [!NOTE]
+> Options set values are returned as index values (integers), not display values.
 
 ## Authenticate your external domains
 
