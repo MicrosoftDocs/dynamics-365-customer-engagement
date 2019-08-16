@@ -14,6 +14,7 @@ ms.assetid: b61a615e-ec79-4843-ba15-cabff51794c3
 caps.latest.revision: 34
 author: jimholtz
 ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
