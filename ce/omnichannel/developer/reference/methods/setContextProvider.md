@@ -61,7 +61,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 > [!NOTE]
 > When a new context variable is being passed, the context key values can only be of String type.
 
-![Display context keys](../media/context-variable-display.png "Display context keys")
+![Display context keys](../../../media/context-variable-display.png "Display context keys")
 
 ## Error codes
 
