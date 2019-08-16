@@ -59,12 +59,14 @@ To view, edit, or create a content-settings set:
 
     - **Name**: Enter a name for the customer-settings set. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
     - **Owner**: Shows the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user who created the set.
-    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set.
-    - **Address line 2**: Enter supplemental postal address information (if needed).
+    - **Address main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
+    - **Address line 2**: Enter supplemental postal address information (if needed). Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
     - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
-    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
-    - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
+    - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings set. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist-edit):<br>
+    `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`
+    - **Forward to a friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages. Select the  **&lt;/&gt;**  button to use [assist-edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist-edit):<br>
+    `{{msdyncrm_marketingpage(36458a9e-72af-e911-a859-000d3a3159df).msdyncrm_full_page_url}}`
 
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
@@ -150,12 +152,14 @@ Assist-edit creates an expression that uses a format such as the following:
 
 Note that the notation used for relationship names in the resulting expressions don't match the way they are represented in the assist-edit dialog. Here are some examples of resulting expressions:
 
--  `{{contact.firstname}}`  
+- `{{contact.firstname}}`  
 Places the recipient's first name.
+- `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`  
+Places the value of the `msdyncrm_full_page_url` field from the marketing page record specified by the GUID in parenthesis. You might typically use an expression of this form in a [content settings](#content-settings) record to specify a subscription center or forward-to-a-friend page.
 - `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}`  
-Places the URL for the subscription center page identified in the content settings configured for the customer journey that sends the message.
+Places the URL for the subscription center page identified in the [content settings](#content-settings) configured for the customer journey that sends the message.
 - `{{msdyncrm_contentsettings.msdyncrm_forwardtoafriend}}`  
-Places the URL to the forwarding page identified in the content settings configured for the customer journey that sends the message.
+Places the URL to the forwarding page identified in the [content settings](#content-settings) configured for the customer journey that sends the message.
 - `{{Message.ViewAsWebpageURL}}`  
 Places the URL for opening the current message in a web browser.
 - `{{msevtmgt_event(8a519395-856c-4e22-b560-650ce6d6a79d).msevtmgt_webinarurl}}`  
