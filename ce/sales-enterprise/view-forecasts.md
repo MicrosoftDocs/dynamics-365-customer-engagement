@@ -3,14 +3,10 @@ title: "View forecasts (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "See forecasts in Dynamics 365 for Sales to know the health of your pipeline or to track how your sales team is performing against their quota or target. Define the data and period to use for the purpose of forecasting in Dynamics 365 for Sales."
 keywords: ""
 ms.date: 04/23/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 956295f7-b4d4-49b9-954b-677c5fbf703d
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Tech Reviewing
 ---
 
 # View forecasts

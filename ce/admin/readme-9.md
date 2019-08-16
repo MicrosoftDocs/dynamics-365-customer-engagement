@@ -7,8 +7,6 @@ ms.service:
   - crm-online
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement apps version 9.x
-  - Dynamics 365 for Customer Engagement apps version 9.x (on-premises)
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: ReneeW-CPub
 ms.author: renwe

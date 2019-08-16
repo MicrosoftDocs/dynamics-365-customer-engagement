@@ -1,16 +1,11 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
 keywords: ""
 ms.date: 01/30/2019
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 509b776a-6932-4c87-881a-353782c95beb
 author: shubhadaj
 ms.author: shujoshi

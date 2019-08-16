@@ -1,14 +1,11 @@
 ---
 title: "Embedded intelligence overview for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 09/30/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 author: udaykirang
 ms.author: udag
@@ -17,7 +14,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
