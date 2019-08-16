@@ -243,6 +243,10 @@ When you've finished designing your customer journey, do the following to verify
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
+## Gain insights by monitoring journey progress and results
+
+As soon as your journey starts running, it will be begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 for Marketing provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
+
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  

@@ -1,7 +1,6 @@
 ---
 title: "Use layout elements to lay out your email design (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how to use layout elements to create single and multi-column layouts for marketing email messages in Dynamics 365 for Marketing"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
