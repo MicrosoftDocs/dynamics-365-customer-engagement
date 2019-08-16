@@ -53,7 +53,7 @@ Because Marketing is more complex than most Dynamics 365 for Customer Engagement
 <a name="copy-warning"></a>
 
 > [!WARNING]
-> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 for Customer Insights instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
+> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 for Customer Engagement instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
 
 > [!WARNING]
 > This procedure will completely delete and/or overwrite the target instance.
