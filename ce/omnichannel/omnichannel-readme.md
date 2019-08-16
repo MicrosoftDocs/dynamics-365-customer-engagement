@@ -77,52 +77,6 @@ Now, sign in to Omnichannel for Customer Service app and verify if the messages 
 
 If your organization is using earlier releases of chat for Dynamics 365, and after you upgrade to the latest version, the Customer summary page shows the default icon instead of the conversation icon instead of the conversation icon.
 
-## CDS entity routing is not available in Omnichannel for Customer Service
-
-The CDS entity routing is disabled in the latest version of Omnichannel for Customer Service. You can't route CDS entities using omnichannel routing and work-distribution.
-
-Hence, after your upgrade:
-
-- You can't create any new CDS entity work stream. 
-- You might see existing CDS entity work stream configuration records, but these configurations are disabled and don't have any run-time impact.
-
-## Omnichannel queue records are not available after upgrade
-
-After you upgrade to the latest version of Omnichannel for Customer Service, your existing queue records will not be available. This is due to removal of omnichannel queue entity. The Common Data Service (CDS) queue entity will be used for omnichannel routing and work distribution.
-
-After you upgrade, you will experience the following:
-
-- All your existing omnichannel queue configurations will be removed. 
-- All your existing active conversations will be closed and moved to CDS Transactional database.
-
-### Workaround
-
-You must manually configure the queues again.
-
-To configure the queues, perform the following steps.
-
-> [!Note]
-> - If you haven't upgraded your organization to the latest version, take a note of your existing omnichannel queue record configurations before the upgrade.  
->
-> - If you've already upgraded your organization to the latest version, then you can still access previous omnichannel queue records from a URL by replacing `etn=queue` with `etn=msdyn_omnichannelqueue` from queue grid page. <br>
-    For example, the URL is `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylistetn=queue`, now replace `etn=queue` with `etn=msdyn_omnichannelqueue` in the URL. <br><br>
-    `https://<ORG_URL>/main.aspx?appid=<APP_ID>&pagetype=entitylist&etn=msdyn_omnichannelqueue`.
-
-Step 1. Create a queue. Select **Queues** and select **New** to create a new queue. Specify a value for the fields, and then select **Save**. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue).
-
-Step 2. Add users to queues. Select **Add Existing User** to add agents to the queue in the **Users (Agents)** section of the queue form. To learn more, see [Create a new queue](administrator/queues-omnichannel.md#create-a-new-queue).
-
-Step 3: Update the routing rules. After you upgrade, the old queue records will be removed from the **Queue** field in routing rules.  Update the **Queue** field with the newly created CDS queue records. To learn more, see: [Create a routing rule](administrator/routing-rules.md#create-a-routing-rule)
-
-   > [!Note]
-   > - Repeat steps 1 to 3 for all your existing queue configurations.
-   >
-   > - Default queue is created automatically, and you need not reconfigure it manually.
-   >
-   > - After you save the configurations, it may take up to 15 mins to reflect.
-
-Step 4: Ask supervisors to update the dashboard filters. After the upgrade, the existing queue filters on the dashboards will be removed. A a supervisors, you should reconfigure and validate your dashboard filters.
-
 ## Send Link button in the KB Search Page is not localized 
 
 If you are using Omnichannel for Customer Service app, then the **Send Link** button in the **KB Search Page** control appears in english for other locales and is not localized.
@@ -173,7 +127,7 @@ Default work streams shipped out of the box for all channels do not have allowab
 ## Refresh queue configuration to reflect the addition of new user
 When you add a user to a queue, the sub grid doesn’t reflect the new member automatically. You are required to refresh the sub grid by selecting the **Refresh** button to see the new user in the list of queue members.
 
-## Support for thrid-party channel providers with Omnichannel for Customer Service
+## Support for third-party channel providers with Omnichannel for Customer Service
 
 If your organization has deployed a third-party channel provider using the Dynamics 365 Channel Integration Framework, and then you want to use Omnichannel for Customer Service in the same organization, this will result in the upgrade of the Channel Integration Framework solution.
 
@@ -191,8 +145,27 @@ When an agent initiates a transfer, the initiating agent becomes a consulting ag
 ## Support for Notes when customer is not linked to a conversation
 You as an agent, cannot launch and capture notes for a session where customer is not linked to the conversation. As a workaround, link the conversation to a customer (contact) and then try launching the notes control for capturing the notes.
 
-## Wait time count down in notification
-When you receive notification, the wait time in the notification doesn't show the time lapse. However, the notification will timeout after the default wait time period. The default wait time is 120 seconds.
-
 ## Queue support for notifications
 The agents are shown one notification at a time. If a new notification arrives before the agents either accepts or rejects the conversation (work item), the incoming conversation will not be assigned to the agent.
+
+## Cases Work Distribution Flow is not saved successfully
+The updates you do to the out-of-the-box **Cases Work Distribution Flow** for unified routing of case entity records might fail due to authentication issues.
+
+### Workaround
+Authorize Common Data Service native connector in the flow before you save it.
+
+More information: [Update cases work distribution flow](administrator/entity-channel.md#step-4-update-cases-work-distribution-flow)
+
+## Entity records aren't distributed to agents
+
+Entity records routing doesn't route and distribute case records to the agents. 
+
+The case entity record won't be automatically distributed to the agents when the option - **Automatically move records to the owner's default queue when a record is created or assigned** is enabled in the case entity customization page.
+
+### Workaround
+You must clear the checkbox to automatically distribute the case records.
+
+> [!div class=mx-imgBorder]
+> ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+
+More information: [Create queues](administrator/entity-channel.md#step-1-create-queues)
