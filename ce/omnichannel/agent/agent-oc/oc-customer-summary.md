@@ -58,6 +58,8 @@ If the customer signs in to the portal to initiate a chat with the support, then
 
 ![Authenticated chat shows as Yes in the Visitor details tab of Conversation summary](../../media/conversation-summary-authenticated-chat.PNG "Authenticated chat shows as Yes in the Visitor details tab of Conversation summary") ![Unauthenticated chat shows as No in the Visitor details tab of Conversation summary](../../media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shows as Yes in the Visitor details tab of Conversation summary")
 
+If your administrator or developer configures the **Additional details** tab and if there are any additional context variables, it is displayed in the **Additional details** tab. To learn more, see - [setContextProvider](../../developer/reference/methods/setContextProvider.md).
+
 To learn more, see [Create chat authentication settings](../../administrator/create-chat-auth-settings.md)
 
 ## Case
@@ -95,3 +97,4 @@ The **Linked records** field drop-down shows the record that is linked to conver
 - [View communication panel](oc-conversation-control.md)
 - [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
+- [setContextProvider](../../developer/reference/methods/setContextProvider.md)
