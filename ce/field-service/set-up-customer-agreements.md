@@ -67,7 +67,7 @@ Doing so will dictate the **Agreement Number** when a new agreement is created.
 > ![Screenshot of a new agreement, with attention on the agreement number](./media/agreement-custom-prefix.png)
 
 
-## Scenario 1: Auto-generate work orders for asset maintenance
+## Scenario 1: Auto generate work orders for asset maintenance
 
 An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next 2 years. They want to use Dynamics 365 for Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed upon price.   
 
