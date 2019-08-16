@@ -1,7 +1,7 @@
 ---
 title: "msdyn_surveyquestion Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_surveyquestion entity."
-ms.date: 08/07/2019
+ms.date: 08/16/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -719,25 +719,9 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn__surveyquestion_msdyn_localizedsurveyques](#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques)
 - [msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem](#BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem)
 - [msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion](#BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion)
 - [msdyn_surveyquestion_msdyn_chatansweroption](#BKMK_msdyn_surveyquestion_msdyn_chatansweroption)
-
-
-### <a name="BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques"></a> msdyn__surveyquestion_msdyn_localizedsurveyques
-
-Same as msdyn_localizedsurveyquestion entity [msdyn__surveyquestion_msdyn_localizedsurveyques](msdyn_localizedsurveyquestion.md#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msdyn_localizedsurveyquestion|
-|ReferencingAttribute|msdyn_surveyquestionid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msdyn__surveyquestion_msdyn_localizedsurveyques|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem"></a> msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem

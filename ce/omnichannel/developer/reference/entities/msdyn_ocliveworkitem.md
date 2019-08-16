@@ -1,7 +1,7 @@
 ---
 title: "msdyn_ocliveworkitem Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_ocliveworkitem entity."
-ms.date: 08/07/2019
+ms.date: 08/16/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -2299,7 +2299,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 - [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid](#BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid)
 - [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid)
-- [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid)
 
 
 ### <a name="BKMK_msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid"></a> msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem_liveworkstreamid
@@ -2311,10 +2310,6 @@ See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocliveworkitem
 **Added by**: Active Solution Solution
 
 See msdyn_ocsession Entity [msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid](msdyn_ocsession.md#BKMK_msdyn_msdyn_ocsession_msdyn_ocliveworkitem_lastsessionid) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid"></a> msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid
-
-See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_ocliveworkitem_queueid) One-To-Many relationship.
 
 ### See also
 
