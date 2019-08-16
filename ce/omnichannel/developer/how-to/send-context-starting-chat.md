@@ -20,13 +20,21 @@ When a customer initiates a chat from the portal, you can pass custom context to
 
 > [!IMPORTANT]
 > The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
+> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables exist with a matching logical name, items are creating assuming the type as String.
 > The custom context provider would be invoked by live chat widget when starting a new chat.
 
 Follow these steps to send custom context when starting a chat:
 
 1. Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 2. Once the **lcw:ready** event is raised, register a custom context provider with live chat using the [setContextProvider](../reference/methods/setContextProvider.md) method.
+
+> [!NOTE]
+> To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](../reference/methods/setContextProvider.md) method and set its value to `true`.
+> If the value of `isDisplayable` attribute is set to `true`, the context variables will appear as shown below.
+> ![Display context keys](../../media/context-variable-display.png "Display context keys")
+>
+> For more information, see [Conversation summary](../../agent/agent-oc/oc-customer-summary.md#conversation-summary).
+
 3. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
 
 ## Sample code
