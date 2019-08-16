@@ -135,6 +135,10 @@ When you're choosing which form the element will show, you can only choose forms
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
 
+## View submissions and gain insights from form interactions
+
+Once your form is part of a live marketing page, it will start to collect information about how people are using it, including records of form submissions and other details. The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
+
 ### See also
 
 [Design your digital content](design-digital-content.md)  

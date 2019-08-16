@@ -2,7 +2,7 @@
 title: "Run Dynamics 365 for Marketing with a Dynamics 365 portal and/or CMS system (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how you can run interactive marketing features for Dynamics 365 for Marketing by using an integrated Dynamics 365 portal or by using your own website or CMS system."
 keywords: 
-ms.date: 06/13/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -28,6 +28,10 @@ search.app:
 # Integrate Marketing with a CMS system or Dynamics 365 portal
 
 Read this topic to learn how you can run interactive marketing features for Dynamics 365 for Marketing by using an integrated Dynamics 365 portal or by using your own website or CMS system.
+
+> [!NOTE]
+> Dynamics 365 Portals aren't available in all countries/regions. If this applies to you, then the **Use Dynamics 365 portals** option won't be available when you run the Marketing setup wizard. Instead, use your CMS system to host interactive marketing features as described in this topic. If portals later become available in your country/region, you'll be able switch to them at that time, also as described in this topic.
+
 
 ## How portal integration affects Marketing features
 

@@ -63,7 +63,7 @@ To create a lead scoring model:
     ![Set an expression for the condition](media/scoring-condition-expression.png "Set an expression for the condition")
 
     > [!TIP]
-    > You can add more expressions here by choosing **+ New Expression**.
+    > You can add more expressions here by choosing **+ New Expression**. When multiple expressions are present, they are always combined using an AND operator, so they must *all* evaluate to true for the condition to be true.
 
 7. Drag an **Action** tile from the **Toolbox** tab to the space immediately to the right of the **Condition** tile you just set up.  
     ![Add an action tile](media/scoring-add-action.png "Add an action tile")
