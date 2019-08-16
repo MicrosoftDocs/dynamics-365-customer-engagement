@@ -2,7 +2,7 @@
 title: "Move data between instances (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to move data between instances using the Configuration Migration tool in Dynamics 365 for Marketing"
 keywords: 
-ms.date: 06/07/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
