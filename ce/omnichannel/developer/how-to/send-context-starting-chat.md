@@ -33,7 +33,7 @@ Follow these steps to send custom context when starting a chat:
 > If the value of `isDisplayable` attribute is set to `true`, the context variables will appear as shown below.
 > ![Display context keys](../../media/context-variable-display.png "Display context keys")
 >
-> For more information, see [Conversation summary](../../agent/agent-oc/oc-customer-summary.md#conversation-summary).
+> For more information, see [setContextProvider method](../reference/methods/setContextProvider.md) and [Conversation summary](../../agent/agent-oc/oc-customer-summary.md#conversation-summary).
 
 3. Use [startChat](../reference/methods/startChat.md) SDK to initiate a chat.
 
