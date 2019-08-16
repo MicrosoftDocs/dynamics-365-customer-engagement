@@ -56,21 +56,21 @@ To setup the **Entity Record** channel and route the cases, follow the steps:
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues](#step-1-create-queues) | You must create a new Omnichannel queue or use an existing Omnichannel queue to route cases to the queues. |
+| [Step 1: Create queues](#step-1-create-queues) | You must create a new omnichannel queue or use an existing omnichannel queue to route cases to the queues. |
 | [Step 2: Create workstream for case routing](#step-2-create-workstream-for-case-routing) | You must create new workstreams to route the cases. |
 | [Step 3: Create routing rules](#step-3-create-routing-rules) | You must create routing rules, to automatically distribute the cases to the agents. |
 | [Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow) | You must update the Cases Work Distribution Flow with the workstream ID, to automatically distribute the cases to the agents. The Omnichannel application creates **Cases Work Distribution Flow** when you enable an entity records channel. |
 
 ## Step 1: Create queues
 
-You must create a new Omnichannel queue or use an existing omnichannel queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+You must create a new omnichannel queue or use an existing omnichannel queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
 > [!Note]
 > If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox, to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
 ## Step 2: Create workstream for case routing
 
-You must create workstreams to automatically route the cases to the agents. To learn more, see [Cases entity workstream](set-up-entity-workstream.md).
+You must create workstreams to automatically route the cases to the agents. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
