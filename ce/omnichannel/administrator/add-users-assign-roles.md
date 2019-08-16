@@ -2,11 +2,11 @@
 title: Enable users for Omnichannel and assign roles | MicrosoftDocs
 description: Know how to enable users for Omnichannel and assign roles in the Omnichannel for Customer Service
 keywords: users and user profiles; Omnichannel for Customer Service; user roles
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: be3d6733-4d16-48d0-b231-6a6a2dd5d939
@@ -18,6 +18,9 @@ ms.custom:
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 All Dynamics 365 users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** role are enabled for Omnichannel and become Omnichannel users. Additionally, agents and supervisors must be assigned the **Customer service app access** role along with the **Omnichannel agent** and **Omnichannel supervisor** role.
+
+> [!NOTE]
+> To configure Omnichannel, you must assign the **Omnichannel administrator** role mandatorily along with system administrator role.
 
 > [!IMPORTANT]
 > To enable users for Omnichannel, your org should have successfully on-boarded to the Omnichannel public preview. Refer [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to provision Omnichannel in your Dynamics 365 org.

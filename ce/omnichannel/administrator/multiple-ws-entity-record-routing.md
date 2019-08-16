@@ -36,7 +36,7 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 [Step 1: Create queues](#step-1-create-queues)
 
-[Step 2: Create works stream for case routing](#step-2-create-workstream-for-case-routing)
+[Step 2: Create workstream for case routing](#step-2-create-workstream-for-case-routing)
 
 [Step 3: Create routing rules](#step-3-create-routing-rules)
 
@@ -44,20 +44,20 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 ## Step 1: Create queues
 
-You must create a queue or enable existing queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+You must create a new omnichannel queue or use an existing omnichannel queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
 ## Step 2: Create workstream for case routing
 
 You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
-To learn more, see [Create cases entity workstream](set-up-entity-workstream.md).
+To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
 After creating the workstream for the cases, you must create the routing rules. 
 
 > [!Note]
-> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Link to the topic will be added here]().
+> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#install-routing-rules---preview-solution).
 >
 > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
 >

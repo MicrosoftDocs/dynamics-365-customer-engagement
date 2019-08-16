@@ -31,7 +31,9 @@ ms.custom:
         2. In the **Work Distribution** section, browse and select the work stream you created for the chat widget. By default, **Live chat workstream** is selected. More information on work stream: [Understand and create work streams](work-streams-introduction.md)
         
         > [!NOTE]
-        > If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
+        > - If you save the chat widget, you can't edit the **Work stream** field. If you want to edit the field, you must delete the chat widget and create a new one. 
+        >
+        > - If no domains are specified, the chat widget can be embedded on any website without restrictions. If you specify a domain, the chat widget can be hosted only on the specified domain.
         
         3. Copy the value in the **Code snippet** section and embed it in the HTML source of your website.
         
