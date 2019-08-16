@@ -71,11 +71,11 @@ The topic describes how to create window navigation rule for communication panel
 
 5. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab.
 
-6. In the **Window Navigation Rules** section, select the more commands (...) and select **Add Window Navigation Rules**, type the name of the **Window Navigation Rules** in the search box, and then press **Enter** or select the search icon.
+6. In the **Window Navigation Rules** section, select the more commands (...) and select **Add Existing Window Navigation Rules**. The **Lookup Records** pane appears.
 
-7. Select the session lines from the search results and select **Add**.
+7. Type the name of the **Window Navigation Rules** in the search box. Select **Session Lines** from the search results, and select **Add**.
 
-8. When you've finished, select **Save**.
+8. Select **Save** to save the changes.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations](communication-panel-step6-add-hosted-control-action-calls-events-configurations.md) 

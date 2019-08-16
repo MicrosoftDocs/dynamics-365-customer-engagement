@@ -17,11 +17,11 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-##  What's new in August 2019 General Availability
+##  What's new in August 2019 update
 
 This section contains information about new features and enhancements in Omnichannel for Customer Service August 2019 update.
 
-- **Unified routing for entity records:** With unified routing, entity records can be routed to omnichannel enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
+- **Unified routing for entity records:** With unified routing, entity records can be routed to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS based on the agents' capacity and availability.
 
     This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
@@ -38,6 +38,10 @@ This section contains information about new features and enhancements in Omnicha
     More information: [Automatic closure of conversation (Agents using Omnichannel for Customer Service app)](agent/agent-oc/oc-conversation-state.md#automatic-closure-of-a-conversation) and [Automatic closure of conversation (Agents using Omnichannel for Customer Service on Unified Service Desk)](agent/agent-usd/conversation-state.md#automatic-closure-of-a-conversation)
 
 ### Administrator experience
+
+- **Configure file attachment capability**: You can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. 
+
+    More information: [Configure file attachment capability](administrator/configure-file-attachment.md)
 
 ### Developer experience
 

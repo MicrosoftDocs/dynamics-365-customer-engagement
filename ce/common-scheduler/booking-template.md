@@ -28,4 +28,4 @@ search.app:
 
 # Edit schedule board booking template
 
-[!INCLUDE[topic-urs-booking-template.md](../includes/topic-urs-booking-template.md)]
+[!INCLUDE[topic-urs-booking-template.md](../shared/urs/booking-template.md)]
