@@ -18,10 +18,7 @@ manager: shujoshi
 
 When a customer initiates a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used for displaying in UI and for creating routing rules, which eventually determine which queue to route the chat to.
 
-> [!IMPORTANT]
-> The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service.
-> The custom context provider would be invoked by live chat widget when starting a new chat.
+The custom context is a collection of key/value pairs. Only primitive values are allowed for any key. The keys of custom context must correspond to context variables that are created for the associated work stream in Omnichannel for Customer Service. If no context variables have been created under live work stream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by live chat widget when starting a new chat.
 
 Follow these steps to send custom context when starting a chat:
 
@@ -56,6 +53,9 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 	console.log(errorEvent);
 });
 ```
+
+To display the context variables in the Conversation Summary Control for a conversation, make sure that you include `isDisplayable` attribute in the body of [setContextProvider](../reference/methods/setContextProvider.md) method and set its value to `true`. More information: [Display custom context](display-custom-context.md).
+
 > [!div class="nextstepaction"]
 > [Next topic: Send authentication token](send-auth-token-starting-chat.md)
 
