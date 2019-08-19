@@ -29,6 +29,8 @@ search.app:
 
 Three of the most important and common types of database records are contacts, accounts, and leads. These fundamental business entities are shared by most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps, including [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]. Read this topic to learn how these basic entities are used an affected by the Marketing app.
 
+<a name="contacts"></a>
+
 ## Use contacts to manage customer people
 
 Contacts represent individual people. They are the primary customer entity in Dynamics 365 for Marketing. When you run a customer journey, your target segment will include only contact records. And when you create a lead, you will also relate that lead to a contact record. Other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps might treat these entities somewhat differently, instead focusing more on accounts or using leads that aren't related to any contact.
