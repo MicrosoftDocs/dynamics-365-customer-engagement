@@ -36,7 +36,7 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 [Step 1: Create queues](#step-1-create-queues)
 
-[Step 2: Create workstream for case routing](#step-2-create-workstream-for-case-routing)
+[Step 2: Create workstream](#step-2-create-workstream)
 
 [Step 3: Create routing rules](#step-3-create-routing-rules)
 
@@ -46,7 +46,7 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 You must create a new omnichannel queue or use an existing omnichannel queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
-## Step 2: Create workstream for case routing
+## Step 2: Create workstream
 
 You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
