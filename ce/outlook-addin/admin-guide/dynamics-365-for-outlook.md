@@ -27,14 +27,14 @@ search.app:
 <a name="BKMK_Outlooksync"></a> 
 
 > [!IMPORTANT]
-> You must have the latest version of Dynamics 365 for Outlook (version 8.2.3) to connect to Dynamics 365 for Customer Engagement apps version 9.0. Version 8.2.3 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Outlook and Dynamics 365 for Customer Engagement apps version 9.0. For more information, see [Update for Dynamics 365 for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
+> You must have the latest version of Dynamics 365 for Outlook (version 8.2.3) to connect to Dynamics 365 for Customer Engagement apps version. Version 8.2.3 provides support for [Transport Layer Security (TLS) 1.2](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/) required for connecting Dynamics 365 for Outlook and Dynamics 365 for Customer Engagement apps. For more information, see [Update for Dynamics 365 for Outlook](https://support.microsoft.com/help/3205084/december-2016-update-for-dynamics-365-online-and-on-premises).
 >
 > As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have decided not to deprecate Dynamics 365 for Outlook (Outlook add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
 >
 >When using Dynamics 365 online for Outlook version 9.0 in offline mode, attachments to synchronized records will not be available in offline mode. If there is an attachment to a record, the attachment will only be available when you are back online. If you added an attachment to a record in offline mode, the attachment will be synchronized to the server when you are back online. To use attachments in offline mode, consider saving the attachment your device.
 >
 >
-> The offline capability in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] version 9.0 is not available in Dynamics 365 for Customer Engagement (on-premises), version 9.0.**
+> The offline capability in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] version 9.0 is not available in Dynamics 365 for Customer Engagement (on-premises), version 9.0.
 >
 > Customizations that have dependency on the SQL database engine and the local offline instance of Dynamics 365 for Outlook are unsupported.
 
@@ -45,6 +45,7 @@ search.app:
  When you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], there are a few synchronization concepts that are helpful to understand. Notice that, to have any of this [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] functionality, each [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user must run the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] add-in and the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user mailbox record must be configured appropriately.  
   
  When you select [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] as the messaging data synchronization method in the user mailbox record, email, contacts, appointments, and tasks created in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] are synchronized with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)].  
+ 
   
 ## Dynamics 365 for Outlook synchronization concepts  
  Note the following concepts when you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] as the synchronizing agent:  

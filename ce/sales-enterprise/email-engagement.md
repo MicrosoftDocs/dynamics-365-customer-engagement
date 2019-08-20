@@ -1,14 +1,11 @@
 ---
 title: "Email engagement for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag
@@ -17,7 +14,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 25
-topic-status: Drafting
 ---
 
 # Use email engagement to view message interactions

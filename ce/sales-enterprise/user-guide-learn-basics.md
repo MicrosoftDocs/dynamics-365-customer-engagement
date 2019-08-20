@@ -3,19 +3,17 @@ title: "Learn the basics of Dynamics 36 for Sales | Microsoft Docs"
 description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
 ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 928b39d6-4b1a-4b7b-b056-f4b7868c3a57
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
 ms.reviewer: 
-topic-status: Drafting
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
 
 # Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]

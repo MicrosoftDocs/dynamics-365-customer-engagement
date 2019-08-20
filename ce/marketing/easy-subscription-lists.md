@@ -1,7 +1,6 @@
 ---
 title: "Create subscription lists (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how to create a subscription list in Dynamics 365 for Marketing"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
