@@ -29,7 +29,7 @@ search.app:
 # Frequently asked questions for Field Service - General
 
 > [!Note]
-> If you're looking for help with errors, unexpected behavior, crashes, and bugs, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). If you have general questions about Field Service, send us an email.
+> If you're looking for help with **errors**, **unexpected behavior**, **crashes**, and **bugs**, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). 
 
 ## Can I customize out-of-the-box web resources, option sets, or security roles? 
 
