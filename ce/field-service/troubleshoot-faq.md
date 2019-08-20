@@ -39,7 +39,7 @@ No, this is not supported. Organizations that customize these components may not
 
 This is a known issue that was fixed in Field Service version **8.6.0.274+** that lets you apply the Dynamics 365 auto numbering system to the work order entity. To do this you must: 
 
-1.  Opt-in to the **Auto Numbering** function in Field Service Settings.
+1.  Opt-in to the **Auto Numbering** function in **Field Service Settings**.
 2.  Manage it in **Dynamics Settings** > **Administration** > **Auto-Numbering**.   
 
 ## Why can't cascade crew changes be disabled for a booking scheduled to a crew or group 
