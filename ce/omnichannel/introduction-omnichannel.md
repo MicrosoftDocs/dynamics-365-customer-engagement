@@ -18,7 +18,7 @@ ms.custom:
 
  
 
-The Omnichannel for Customer Service for Dynamics 365 is a robust application that extends the power of Dynamics 365 for Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
+Omnichannel for Customer Service is a robust application that extends the power of Dynamics 365 for Customer Service to enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
 
 Omnichannel for Customer Service also provides a modern, customizable, high-productivity app that allows agents to engage with customers across different channels. The application offers contextual customer identification, real-time notification, integrated communication, and agent productivity tools like KB integration, search, and case creation to ensure agents are effective.
 
@@ -32,11 +32,11 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. Chat channel is generally available now. For more information on enabling Chat in your organization, see [Try chat for Dynamics 365](try-chat-for-dynamics365.md).
+Chat is an engagement channel that enables your agents to connect with customers in real-time. The Chat channel is generally available now. For more information about enabling Chat in your organization, see [Try chat for Dynamics 365](try-chat-for-dynamics365.md).
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. SMS channel is currently available in preview. For more information on enabling SMS in your organization, see [Configure an SMS channel](administrator/configure-sms-channel.md).
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. The SMS channel is currently available in preview. For more information about enabling SMS in your organization, see [Configure an SMS channel](administrator/configure-sms-channel.md).
 
 ## See also
 
