@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
   - powerapps
 author: Mattp123
 ms.assetid: 3d77d149-819b-45e6-8e70-1fbe54d5c153

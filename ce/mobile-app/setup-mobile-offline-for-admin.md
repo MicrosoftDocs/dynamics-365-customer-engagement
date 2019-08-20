@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/19/2019
+ms.date: 08/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -60,8 +60,6 @@ The following entities are available for you to enable in offline mode:
 - Connection Role
   
 - Contact  
-
-- Currency
 
 - Custom Entity
   

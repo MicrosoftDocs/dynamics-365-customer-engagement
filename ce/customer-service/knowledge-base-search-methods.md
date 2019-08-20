@@ -5,7 +5,6 @@ keywords: Search the knowledge base; Dynamics 365 for Customer Engagement; Full-
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
   - Dynamics 365 for Customer Engagement Version 8.2
 ms.author: anjgup
 manager: shujoshi
