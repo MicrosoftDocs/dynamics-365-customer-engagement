@@ -32,7 +32,7 @@ search.app:
 
 | Solution                             | Latest version | Download links                                                                                                                     |
 |--------------------------------------|----------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Field Service                        |  8.8.0.88           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
+| Field Service                        |  8.8.2.160           | [https://trials.dynamics.com](https://trials.dynamics.com).   See additional notes at the end of this document.                  |
 | Field Service Mobile                 | 11.2.206          | [Windows](https://aka.ms/fsmobile-windows),   [iOS](https://aka.ms/fsmobile-ios), and   [Android](https://aka.ms/fsmobile-android) |
 | Mobile Configuration Tool (Woodford) | 11.3+          | [Direct download link (English only)](https://aka.ms/fsmobile-configurator)                                                       |
 | Mobile Project Template              | 1.0.1322       | [Direct download link (English only)](https://aka.ms/fsmobile-project)                                                                 |
@@ -41,7 +41,7 @@ search.app:
 
 | Version Number  |  Release date  |  Notes | More details |
 |---|---|---|---|
-| 8.8  |  June 2019 |   | [Release notes for 8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/) |
+| 8.8  |  June 2019 |   | [Release notes for 8.8.0.88](https://cloudblogs.microsoft.com/dynamics365/it/2019/06/10/release-notes-for-field-service-version-8-8-0-88/), [8.8.2.160](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/11/enhancements-and-bug-fixes-for-field-service-version-8-8-2-160/) |
 | 8.7  |  May 2019 |   | [Release notes for 8.7.0.105](https://cloudblogs.microsoft.com/dynamics365/it/2019/05/06/release-notes-for-field-service-version-8-7-0-105/) |
 | 8.6  |  April 2019 |   | [Release notes for 8.6.0.274](https://cloudblogs.microsoft.com/dynamics365/it/2019/04/06/release-notes-for-field-service-version-8-6-0-274/) |
 | 8.5  |  March 2019 |   | [Release notes for 8.5.0.345](https://cloudblogs.microsoft.com/dynamics365/it/2019/03/07/release-notes-for-field-service-version-8-5-0-345/) |
