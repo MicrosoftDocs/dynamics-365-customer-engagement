@@ -2,7 +2,7 @@
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Use the marketing settings to configure landing pages, email marketing, and marketing-insights sync in Dynamics 365 for Marketing"
 keywords: administration; landing page; marketing insights sync
-ms.date: 06/07/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -96,6 +96,7 @@ As you are setting up an authenticated domain, you can track the progress of bot
 | Keys not found on DNS | Dynamics 365 for Marketing successfully checked for the keys in the DNS system, but they weren't there. This may be because your key registrations are still being implemented by the DNS (allow up to 24 hours). It could also mean that you haven't registered the keys or that something went wrong while you were entering them. You can check again by selecting   **Confirm DNS registration** on the command bar. If problems persist after 24 hours, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) and/or your DNS provider for assistance. |
 | Internal error (record not found) | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
 | Internal error (query failed) | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
+| Internal error | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
 
 ### Prevent sending emails from unauthorized domains
 

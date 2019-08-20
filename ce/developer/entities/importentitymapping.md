@@ -16,8 +16,6 @@ search.app:
 ---
 # ImportEntityMapping Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Mapping for entities in a data map.
 
 

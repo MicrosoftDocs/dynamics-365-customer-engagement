@@ -31,8 +31,6 @@ search.app:
 
 # Modify the icons for an entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you create a new entity, default icons are provided. You can change the icons of custom entities by creating image Web resources and updating `EntityMetadata` (<xref href="Microsoft.Dynamics.CRM.EntityMetadata?text=EntityMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata> class) properties. Use the specifications in this topic when creating or ordering icons. You will need the icon files before you begin.  
 
 > [!NOTE]

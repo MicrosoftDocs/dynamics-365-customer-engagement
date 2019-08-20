@@ -70,9 +70,9 @@ Here are the required view columns:
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The Customer Service Hub comes with an enhanced Knowledge search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
+The Customer Service Hub comes with an enhanced Knowledge Base Search that shows you the articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control will be faster and more responsive with improvements to article viewability and usability.
 
-When you select the Knowledge Base Search option in the RELATED section, knowledge base search control loads, and you can view the following:
+When you select the Knowledge Base Search option in the RELATED section, the Knowledge Base Search control loads, and you can view the following:
 
   ![Knowledge-article-search](media/case-form-kb-search.png "Knowledge article search")
 
@@ -183,7 +183,7 @@ However, if the Auto filter results check box is not selected, you can see more 
 
 ![Deselect Auto filter results](media/ka-deselect-auto-filter-results.png "Deselect Auto filter results")
     
-<!--## Submit ratings and feedback for knowledge articles
+## Submit ratings and feedback for knowledge articles
 
 As a customer service agent, you can easily provide feedback on knowledge articles with the help of knowledge article rating in the Customer Service Hub. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
 
@@ -205,7 +205,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide comments](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
-To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control) -->
+To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control).
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for Customer Engagement - operated by 21Vianet in China | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/19/2019
+ms.date: 08/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,6 +14,7 @@ ms.assetid: f54d7392-fae3-4a72-8f2a-ad3b932834dc
 caps.latest.revision: 8
 author: jimholtz
 ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -25,6 +26,30 @@ search.app:
 Microsoft Dynamics 365 online services operated by 21Vianet is designed to comply with regulatory requirements in China. The services are a physically separated instance of cloud services operated and transacted currently by a local operator, Shanghai Blue Cloud Technology Co., Ltd (“21Vianet”). This is a wholly owned subsidiary of Beijing 21Vianet Broadband Data Center Co., Ltd. located in mainland China.
 
 Microsoft strives to maintain functional parity between our commercially available service and Dynamics 365 Customer Engagement -  operated by 21Vianet in China. However, there are notable exceptions to this affected by dependent service or partner-solution availability, market priorities, or compliance regulations.
+
+## Provisioning
+
+Customers in China have two options from which to select how they want to access Dynamics 365 for Customer Engagement.
+
+- Services operated by 21Vianet in China - 21Vianet operates and offers Dynamics 365 for Customer Engagement services in China. This option provides a consistent Dynamics 365 Customer Engagement experience that is the same as global offerings. This option also meets the demands of customers who prefer to use online services provided by a local company that stores their data within China. These services are subject to Chinese laws.
+
+- Services operated by Microsoft – This option is for Dynamics 365 for Customer Engagement customers that prefer to use services managed and delivered by Microsoft. For all new customers and existing customers, if the customer purchases Microsoft Azure, Dynamics 365, and Office using an Enterprise Agreement, Office 365 and/or Dynamics 365 can co-exist on the tenant. 
+
+There are a few technical limitations during the provisioning of services that need to be taken in to account to avoid potential issues. 
+
+|Scenario  |Recommendation  |
+|---------|---------|
+|**Purchased Azure, Office 365, and Dynamics 365 via OSPA.**    |Recommended sequence for provisioning: Office 365 or Dynamics 365 must be provisioned first, followed by Azure.|
+|**Purchased Azure via OSPA first and then purchased Office 365 via OSPA. Now purchased Dynamics 365 via OSPA.**   | Customer already has two tenants, one for Azure and another for Office 365. Dynamics 365 can be added to the tenant containing Office 365 OSPA.        |
+|**Purchase Office 365 via OSPA and then purchased Azure via OSPA. Now purchased Dynamics 365 via OSPA.**     | Customer started with Office 365 and then added Azure. Dynamics 365 can be provisioned on the same tenant.        |
+|**Purchased Office 365 via OSPA and plans to add Dynamics 365.**   |If Office 365 is already provisioned, customer will be able to provision Dynamics 365 on the same tenant.         |
+|**Purchased Office 365 via OSSA or CSP and purchased Dynamics 365.**    |Dynamics 365 needs to be provisioned on a separate tenant.          |
+
+OSPA = Online Services Premium Agreement<br />
+OSSA = Online Service Subscription Agreement<br />
+CSP = Cloud Solution Provider
+
+For information on provisioning environments, see [Create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/create-environment).
 
 ## Features not available
 

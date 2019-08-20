@@ -28,8 +28,6 @@ search.app:
 ---
 # Custom activities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create custom activities to support the communication needs of a business such as instant messaging (IM) and Short Message Service (SMS). To create a custom activity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], create a custom entity, and specify it as an activity entity using the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsActivity> property.  
   
  However, unlike other custom entities, you can’t specify a primary attribute for a custom activity because, by default, each custom activity must have a primary attribute named ”Subject”.  

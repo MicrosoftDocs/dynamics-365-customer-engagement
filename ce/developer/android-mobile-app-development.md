@@ -22,8 +22,6 @@ search.app:
 
 # Resources for Android mobile application development
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 ## Android Mobile SDK Library
 
 Microsoft Dynamics CRM Mobile SDK library for Android (Java) app development

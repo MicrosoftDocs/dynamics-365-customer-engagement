@@ -6,9 +6,7 @@ ms.date: 05/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: b9930c9c-8eff-49ea-b0ea-8a385c3af246
 author: udaykirang
 ms.author: udag
@@ -17,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer

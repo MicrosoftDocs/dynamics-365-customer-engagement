@@ -23,8 +23,6 @@ search.app:
 ---
 # Register your web application to use Events API
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
-
 To use the Events API, you need to provide a web application token in each request. The web application token is used to control API requests that are associated with your organization. Follow the steps given below to register your web application:
 
 1. Open your Dynamics 365 instance and navigate to **Event Management**.

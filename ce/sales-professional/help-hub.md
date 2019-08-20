@@ -3,19 +3,17 @@ title: "Documentation resources for Dynamics 365 for Sales Professional| Microso
 description: "A starting point for browsing help content for Dynamics 365 for Sales Professional."
 keywords: "sales;help"
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: a37688b5-914c-49b7-8360-0c4676465079
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
-topic-status: Drafting
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Sales Professional Help & Training

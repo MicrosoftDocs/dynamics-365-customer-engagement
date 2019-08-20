@@ -1,7 +1,7 @@
 ---
 title: "Create a mobile task flow  | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/30/2019
+ms.date: 08/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -25,8 +25,11 @@ search.app:
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Design a flow in [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] based on common tasks your users perform. For example, if they need to regularly perform a series of follow-up steps after client meetings, create a task flow. When users tap the new task in their mobile app, it will lead them through from start to finish so they don't forget an important step.  
-  
- Task flows can use multi-entity forms and logic, and can have form logic that runs across the task flow pages.  
+
+Task flows can use multi-entity forms and logic, and can have form logic that runs across the task flow pages.  
+
+> [!IMPORTANT]
+> Task flows are deprecated and will be replaced by the [immersive experience for business process flows](/power-platform-release-plan/2019wave2/microsoft-flow/business-process-immersive-experiences) that is planned for release. More information: [Task flows are deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)
   
 ## Create a task flow
   

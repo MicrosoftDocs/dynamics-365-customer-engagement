@@ -16,8 +16,6 @@ search.app:
 ---
 # SLA Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Contains information about the tracked service-level KPIs for cases that belong to different customers.
 
 

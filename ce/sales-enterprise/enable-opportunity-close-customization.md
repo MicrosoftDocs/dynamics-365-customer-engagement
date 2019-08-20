@@ -1,16 +1,12 @@
 ---
-title: "Preview: Enable customization of the Opportunity Close form (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Preview  Enable customization of the Opportunity Close form (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Enable the system customizers to customize the opportunity close experience in Dynaimcs 365 for Sales to enable sales reps to capture important details about why an opportunity was closed."
 keywords: "Opportunity, Close, Closing, Customization, dialog box, quick create, custom fields, enable"
 ms.date: 08/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 6cb7044b-0eef-48d1-b4a4-aa605cb9d738
 author: shubhadaj
 ms.author: shujoshi
@@ -27,8 +23,9 @@ ms.tgt_pltfrm:
 To allow users in your organization to capture more relevant details about an opportunity closing, a system administrator can enable the customization of the Opportunity Close form.
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 To enable customization:
 

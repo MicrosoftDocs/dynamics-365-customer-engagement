@@ -3,14 +3,10 @@ title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365 for Customer Engagement."
 keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365 for Customer Engagement, sales person, sales manager"
 ms.date: 04/12/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 0abe6dc4-c8bc-4d09-a29f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
-topic-status: Drafting
 ---
 
 # Overview of Sales and Sales Hub

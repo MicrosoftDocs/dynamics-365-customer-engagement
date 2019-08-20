@@ -16,8 +16,6 @@ search.app:
 ---
 # BulkOperation Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 
 **Added by**: Marketing Solution

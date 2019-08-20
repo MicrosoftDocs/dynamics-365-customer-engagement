@@ -22,8 +22,6 @@ search.app:
 ---
 # Use the SolutionPackager tool to compress and extract a solution file
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
   
 <a name="bkm_where"></a>   

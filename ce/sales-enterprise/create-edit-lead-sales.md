@@ -3,14 +3,10 @@ title: "Create or edit a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 keywords: "lead, qualify, sales process, activities"
 ms.date: 08/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 8c65b7d5-b1bc-4dd7-bf10-c8bdc6334491
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 69
-topic-status: Tech Reviewing
 ---
 
 # Create or edit a lead (Sales and Sales Hub)
@@ -46,8 +41,8 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
     -	When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
 
         > [!IMPORTANT]
-        >
-        > The feature of automatically populating relevant fields when an existing contact or account is selected is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+        > - The feature of automatically populating relevant fields when an existing contact or account is selected is a preview feature. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md). 
+        > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 
    > [!NOTE]

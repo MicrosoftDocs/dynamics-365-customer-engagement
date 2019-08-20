@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting server-based authentication for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -39,7 +39,7 @@ search.app:
 ### Failed Authentication  
  This failure can occur when one or more of the server-based authentication configuration steps were not completed or did not complete successfully. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md)  
   
- This failure can also occur if an incorrect URL is entered in the Enable Server-Based SharePoint Integration wizard or if there is a problem with the digital certificate used for server authentication.  
+ This failure can also occur if an incorrect URL is entered in the Enable Server-Based SharePoint Integration wizard or if there is a problem with the digital certificate used for server authentication. Similarly, this failure can occur as a result of a SharePoint site rename when the URL is not updated in the corresponding SharePoint Site record. More information: [Users receive "You don't have permissions to view files in this location" message](troubleshoot-set-up-sharepoint-online.md#users-receive-you-dont-have-permissions-to-view-files-in-this-location-message)
   
 <a name="BKMK_fail_Author"></a>   
 ### Failed authorization or 401 unauthorized error
@@ -98,7 +98,7 @@ search.app:
    $Certificates = Get-CrmCertificate;   
    $alternativecertificate = "";   
    foreach($cert in $Certificates)   
-   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}      
+   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}   }   
   
    Remove-CrmCertificate -Certificate $alternativecertificate  
    ```  

@@ -33,8 +33,6 @@ search.app:
 ---
 # Field security entities
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You use field security entities to apply field-level security, which restricts field access to specified users and teams. The scope of field-level security is global, which means that it applies to all records within the organization, regardless of the business unit hierarchical level to which the record or the user belongs. Field security works in all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] clients, including the Web client, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], and [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)]. It applies to all components, such as the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], reports, search, offline, filtered views, auditing, and duplicate detection. For this release, field security can be applied to both custom fields and many out-of-box (OOB) fields.  
   
  For more information about how secured fields change the behavior of methods, see [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 for Customer Engagement apps](security-dev/use-field-security-control-access-field-values.md).  

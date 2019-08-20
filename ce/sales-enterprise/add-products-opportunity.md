@@ -3,14 +3,10 @@ title: "Add products an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Develop your opportunity by defining the products your customers are interested in purchasing."
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 08/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 36b834d9-7b37-49f7-a110-efcaee8dea04
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 58
-topic-status: Drafting
 ---
 
 # Add products to an opportunity (Sales Hub)
@@ -34,7 +29,7 @@ A way that might help you increase your sales is to add all products that your c
 3. Select a **Price List**. The price list determines the cost of the product. 
   
     > [!NOTE]
-    > By default, selecting a price list is required to be able to add products to an opportunity; however, your administrator can change your organization settings to make the Price List field optional.The capability to make the Price List field optional is in preview.
+    > By default, selecting a price list is required to be able to add products to an opportunity; however, your administrator can change your organization settings to make the Price List field optional.The capability to make the Price List field optional is in preview. To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 4. If you want the estimated revenue of the opportunity to be calculated based on the total amount of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 

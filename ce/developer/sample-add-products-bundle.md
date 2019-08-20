@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample: Add products to a bundle
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Product Catalog samples](https://code.msdn.microsoft.com/Product-Catalog-Samples-5766194b).  
 
 ## Prerequisites

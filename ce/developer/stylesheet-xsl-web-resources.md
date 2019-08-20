@@ -24,8 +24,6 @@ search.app:
 ---
 # Stylesheet (XSL) web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use Stylesheet (XSL) Web resources to transform XML data.  
   
 ## Capabilities of XSL Web resources  

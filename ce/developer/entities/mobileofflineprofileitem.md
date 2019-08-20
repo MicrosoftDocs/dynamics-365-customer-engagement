@@ -16,8 +16,6 @@ search.app:
 ---
 # MobileOfflineProfileItem Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Information on entity availability to mobile devices in offline mode for a mobile offline profile item.
 
 

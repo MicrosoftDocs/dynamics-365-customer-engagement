@@ -29,8 +29,6 @@ search.app:
 ---
 # Describe a relationship between entities with connection roles
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can describe the relationship between records through the roles that you assign to them.  
   
  There are several ways you can use the connection roles in a connection:  

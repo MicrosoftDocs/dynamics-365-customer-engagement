@@ -22,8 +22,6 @@ search.app:
 
 # Use the Organization Service to read and write data or metadata
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps, the primary web service that accesses data and metadata for your organization is <xref:Microsoft.Xrm.Sdk.IOrganizationService>. This web service contains the methods that you use to write code that uses all the data and metadata in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.  
   
  To use the `IOrganizationService` web service, add a reference to the Microsoft.Xrm.Sdk.dll assembly to your [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] project. To access the non-core xRM messages, add a reference to the Microsoft.Crm.Sdk.Proxy.dll assembly to your project also. Alternatively, add the service reference to your project. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Developer resources page](../developer-resources-page.md)

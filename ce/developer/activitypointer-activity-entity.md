@@ -28,8 +28,6 @@ search.app:
 ---
 # ActivityPointer (activity) entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The activity pointer (activity) entity represents any activity or task that is performed, or to be performed by a user. An activity is any action for which an entry can be made on a calendar.  
   
  Whenever you create an activity record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], a corresponding activity pointer record is created. This indicates that the activity record and the corresponding activity pointer record have the same value for the `ActivityId` attribute. For example, if you create an `Email` record, the attribute values of `Email.ActivityId` and the corresponding `ActivityPointer.ActivityId` will be the same.  

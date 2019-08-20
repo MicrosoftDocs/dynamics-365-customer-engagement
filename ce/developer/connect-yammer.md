@@ -22,8 +22,6 @@ search.app:
 ---
 # Connect to Yammer
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps to connect directly to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for social networking in your company. 
 
 ### Prerequisites 

@@ -25,8 +25,6 @@ search.app:
 ---
 # Sample: Enable field security for an entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample code is for Dynamics 365 for Customer Engagement. Download the complete sample here [Work with Field security entities](https://code.msdn.microsoft.com/Work-with-Field-Security-a18489bf).  
 
 ## Prerequisites

@@ -24,8 +24,6 @@ search.app:
 ---
 # Duplicate detection messages
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use the messages listed in the following table to detect duplicates in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
 
 

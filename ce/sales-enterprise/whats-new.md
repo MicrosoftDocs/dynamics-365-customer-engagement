@@ -2,13 +2,11 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 08/02/2019
-ms.service:
-  - "crm-online"
+ms.date: 08/09/2019
+ms.service: crm-online
+ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
 author: shubhadaj
 ms.author: shujoshi
@@ -16,8 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 
-topic-status: Drafting
 ---
 
 # What's new in Dynamics 365 for Sales
@@ -32,12 +28,10 @@ Here are the list of features available with this release:
 - **Customization of Opportunity Close form**: When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize the Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. More information: [Customize Opportunity Close form](customize-opportunity-close-experience.md)
 
 - **Enhancements to the adding or editing of Opportunity/Quote/Order/Invoice products experience**: The following enhancements are made to the experience of adding product line items to opportunity, quote, or invoice records:
-    - Salespeople can add an existing product to an Opportunity, Quote, Order, and Invoice, with or without a price list.
-    - Administrators can choose whether to enforce the selection of a price list.
-    - Salespeople can quickly view and edit properties for a product, even while editing Opportunity or Quote line items.
+    - Salespeople can add an existing product to an Opportunity, Quote, Order, and Invoice, with or without a price list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
+    - Administrators can choose whether to enforce the selection of a price list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Make selection of price list optional](make-price-list-optional.md)
+    - Salespeople can quickly view and edit properties for a product, even while editing Opportunity or Quote line items. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to an opportunity](add-products-opportunity.md), [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
     - Administrators can use additional customization options on the price list item entity.
-
-More information: [Make selection of price list optional](make-price-list-optional.md)
 
 - **Business card scanner**: The integrated business card scanner will help sales people to scan business cards via mobile or web. The scanner will analyze the card for relevant information and automatically update respective fields in Dynamics 365 for Sales. The feature also supports configuration, allowing users to select alternative fields to populate. More information: [Scan business cards](scan-business-cards.md)
 
@@ -50,6 +44,10 @@ More information: [Make selection of price list optional](make-price-list-option
 
 More information: [Define lead qualification experience](define-lead-qualification-experience.md)
 
+> [!IMPORTANT]
+> - The features listed in this section are preview features. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+
 ## Dynamics 365 for Sales, May 2019 release
 
 With Dynamics 365 for Sales version 9.0.1905.2010 or later, users will be able to create a PDF and email it from a quote record. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Generate a PDF document from a quote record](create-quote-pdf.md), [Enable PDF generation from quotes](enable-pdf-generation-quote.md) 
@@ -60,7 +58,7 @@ With Dynamics 365 for Sales version 9.0.1905.2010 or later, users will be able t
 Sales managers and sales people can use forecasting to project how much a sales team can sell or to estimate the revenue of the organization. Sales people can use forecasting to prevent deals from slipping away by spotting pipeline risks and tracking how they are performing against their targets.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Project accurate revenue with forecasting](project-accurate-revenue-sales-forecasting.md)
 
     > [!IMPORTANT]
-    > This feature is currently in preview. To know more about the feature's availability in your country region, see [When will the April 2019 features be enabled for customers who did not opt in to the preview?](/power-platform/admin/preview-april-2019-updates#when-will-the-april-2019-features-be-enabled-for-customers-who-did-not-opt-in-to-the-preview)
+    > This feature is currently in preview. 
 
 - With Dynamics 365 for Sales (build 9.0.1903.4006), playbooks can be created for Account and Contact record types in the Sales Hub app (Unified Interface), in addition to the existing record types that are currently supported. Also, sales managers can associate necessary documents with playbook activities to provide additional contextual information to sales representatives working on a playbook.
 

@@ -24,8 +24,6 @@ search.app:
 ---
 # Sample code for Dynamics 365 for Customer Engagement apps processes
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This section contains code examples that show how to use the workflow (process) entity.  
   
 ## In This Section  

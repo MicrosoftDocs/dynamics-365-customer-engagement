@@ -16,8 +16,6 @@ search.app:
 ---
 # BookableResourceBooking Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Represents the line details of a resource booking.
 
 **Added by**: Scheduling Solution
