@@ -1,5 +1,6 @@
 # [Dynamics 365 for Sales Help and Training](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
+## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## Administrator & Sales Manager Guide
 ### [Resources for administrators and sales managers](../sales-enterprise/admin-guide.md)
