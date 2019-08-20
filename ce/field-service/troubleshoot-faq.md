@@ -1,8 +1,8 @@
 ---
-title: "Troubleshoot and FAQs | MicrosoftDocs"
+title: "Frequently asked questions for Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/08/2019
+ms.date: 08/21/2019
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -26,23 +26,31 @@ search.app:
   - D365FS
 ---
 
-# Troubleshoot and FAQs for Field Service
+# Frequently asked questions for Field Service - General
 
-## Can I customize out of the box web resources, option sets, or security roles? 
+> [!Note]
+> If you're looking for help with errors, unexpected behavior, crashes, and bugs, create a [Dynamics 365 support ticket](https://dynamics.microsoft.com/contact-us/). If you have general questions about Field Service, send us an email.
 
-This is not supported. Organizations that customize these components may not immediately cause the environment to break, but eventually, as Microsoft ships changes to the components you customized via new versions, the changes will not be applied to the top layer of that component. The organizations' specific customized layer will override all future changes. This will almost certainly eventually cause the instances which have customized these components to experience unpredictable errors and behavior.
+## Can I customize out-of-the-box web resources, option sets, or security roles? 
+
+No, this is not supported. Organizations that customize these components may not immediately cause the environment to break, but eventually, as Microsoft releases changes to the customized components, the changes will not be applied to the top layer of that component. The specific customized layer will override all future changes. This will almost certainly eventually cause the instances that have customized these components to experience unpredictable errors and behavior.
 
 ## Why are there work orders with duplicate work order numbers?
 
-This is a known issue that was fixed in Field Service version **8.6.0.274+** that lets you apply the Dynamics 365 auto numbering system to the work order entity. To do this you must 1) Opt-in to Auto Numbering function in Field Service Settings and 2) manage it in **Dynamics Settings > Administration > Auto-Numbering**.   
+This is a known issue that was fixed in Field Service version **8.6.0.274+** that lets you apply the Dynamics 365 auto numbering system to the work order entity. To do this you must: 
 
-## Cascade crew changes can't be disabled for a booking scheduled to a crew or group 
+1.  Opt-in to the **Auto Numbering** function in Field Service Settings.
+2.  Manage it in **Dynamics Settings** > **Administration** > **Auto-Numbering**.   
 
-This happens when a booking is assigned from a resource (not crew or group) to a crew or group and the value of "msdyn_CascadeCrewChanges" in the booking is set to false. In order to overcome this first open the booking and set the value of "msdyn_CascadeCrewChanges" to Yes and then re-perform the booking assignment to a crew. This will fix the error the user is getting when assigning the booking to a crew.
+## Why can't cascade crew changes be disabled for a booking scheduled to a crew or group 
 
-### See also
+This happens when a booking is assigned from a resource (not crew or group) to a crew or group and the value of **msdyn_CascadeCrewChanges** in the booking is set to false. To overcome this, open the booking and set the value of **msdyn_CascadeCrewChanges** to **Yes**. Then, re-perform the booking assignment to a crew. This will fix the error the user sees when assigning the booking to a crew.
 
-[Resource Scheduling Optimization FAQs](rso-faq.md)
+## See also
+
+- [Resource Scheduling Optimization FAQs](rso-faq.md)
+- [Field Service Mobile FAQs](activate-fs-mobile-app-license.md)
+- [Get help for Field Service Mobile](mobile-get-help.md)
 
 
 
