@@ -5,7 +5,6 @@ keywords: Service leve agreements; Dynamics 365 for Customer Engagement; Custome
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
