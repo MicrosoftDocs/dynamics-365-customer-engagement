@@ -10,7 +10,6 @@ ms.assetid: 7aebc737-667f-44d1-bb05-e4573be1e0b2
 caps.latest.revision: 7
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: Mattp123
 ms.author: matp
 search.audienceType: 

@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: edc9a748-f08f-484c-ae86-0c20d20c1f6c
 author: kamaybac
 ms.author: kamaybac
