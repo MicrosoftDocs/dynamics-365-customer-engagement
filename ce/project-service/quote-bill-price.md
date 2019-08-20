@@ -3,6 +3,7 @@ title: Quoting, pricing, and billing home page
 description: This topic provides information about quoting, pricing, and billing in Dynamics 365 for Project Service Automation (PSA).
 ms.prod: 
 ms.technology: 
+author: rumant
 ms.author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice

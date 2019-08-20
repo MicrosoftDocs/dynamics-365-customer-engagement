@@ -3,14 +3,10 @@ title: "Define related products to increase sales (Dynamics 365 for Sales) | Mic
 description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 for Sales."
 keywords: Related product
 ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 18
-topic-status: Drafting
 ---
 
 # Define related products to increase sales (Sales)

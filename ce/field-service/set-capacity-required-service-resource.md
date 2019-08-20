@@ -5,7 +5,6 @@ keywords: Set the required capacity; Dynamics 365 for Customer Engagement; Custo
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017

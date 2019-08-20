@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: mduelae
@@ -22,10 +21,12 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Collaborate with Teams 
+# Basic Collaboration Experience with Team
 
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 for Customer Engagement apps record connections made in teams and channels in Microsoft Teams.
+
+For more information on which entities support the collaborate option, see [Record types supporting collaborate](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-work-records-and-view#record-types-supporting-collaborate)
 
 ## Connect a Dynamics 365 for Customer Engagement apps record or view to a team channel
 
@@ -43,11 +44,16 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
 3. Select **Entity Selection** or **View Selection**.
 
-    3.1 **Entity Selection**: Search for an entity to connect. You can pick a recently viewed record or use search to find records. You     can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
+- **Entity Selection**
+    1. Search for an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type.
 
    > [!div class="mx-imgBorder"] 
    > ![Search for entity](media/teams-add-channel-pin-record2.png "Search for entity")
 
+    2. If you are the owner of the team, you will see an option to add other members to the taeam who either own the reocrd or it has been shared with them. When you are done select **Save**. 
+     > [!NOTE] 
+     > The Enhanced Collaboration Experience needs to be enabled to add members to the team. For more information, see [Install and set up the Dynamics 365 app for Teams ](teams-install-app.md).
+     
     Once you complete the above steps, you'll see a notification of a successful connection and the Dynamics 365 for Customer Engagement   apps record appears in the menu bar. You can interact with the record as if you were using the Dynamics 365 for Customer Engagement     apps. Those with Write permissions can edit the record. Changes will be synchronized with the Dynamics 365 for Customer Engagement  apps.
 
     > [!div class="mx-imgBorder"] 
@@ -69,7 +75,8 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
     > [!div class="mx-imgBorder"] 
     > ![Files tab in Teams app](media/teams-files-tab.png "Files tab in Teams app")
 
-   3.2 **View Selection**: Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. Once you've picked a view, select **Save**.
+- **View Selection**
+    1. Select an entity to see the list of available views in Dynamics 365 Customer Engagement app. Once you've picked a view, select **Save**.
   
    > [!div class="mx-imgBorder"] 
    > ![Select a view](media/teams-select-view.png "Select an view")
@@ -98,21 +105,6 @@ From a team channel, you can connect a Dynamics 365 for Customer Engagement apps
 
    You can return to these settings any time by selecting the **Settings** tab.
 
-
-
-## Open a record or view in Dynamics 365 for Customer Engagement apps
-
-It's easy to use Teams to open a record or view in Dynamics 365 for Customer Engagement apps. From the Dynamics 365 tab pinned in a Teams channel, select the **Go to website** button to open the record or view in Dynamics 365 for Customer Engagement apps.
-
-> [!div class="mx-imgBorder"] 
-> ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
-
-## Have a conversation
-You can chat with your team members side-by-side with the Dynamics 365 tab. From the Dynamics 365 tab pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
-
-> [!div class="mx-imgBorder"] 
-> ![Start a conversation](media/teams-start-conversation.png "Start a conversation")
-
 ## Teams integration in Dynamics 365 for Customer Engagement apps
 
 In Dynamics 365 for Customer Engagement apps, you can see the connected Microsoft Teams channel and files from the Microsoft Teams channel.
@@ -127,70 +119,12 @@ In addition, document management actions in Dynamics 365 for Customer Engagement
 > [!div class="mx-imgBorder"] 
 > ![Dynamics 365 for Customer Engagement apps document management in Teams](media/teams-documents-d365.png "Dynamics 365 for Customer Engagement apps document management in Teams")
 
-## If you see this message: Shared files exist in multiple locations. Select "Document Location" to see files in other locations.
-
-> [!div class="mx-imgBorder"] 
-> ![Shared files in multiple locations](media/teams-error-multiple-locations.png "Shared files in multiple locations")
-
-When there is more than one Microsoft Teams channel connected to a Dynamics 365 for Customer Engagement apps record, each of the channels appears as a separate document location in Dynamics. You can switch to a different location by selecting **Document Location** to specify the location of the file.
-
-> [!div class="mx-imgBorder"] 
-> ![Change document location](media/teams-change-document-location.png "Change document location")
-
-
-To view a consolidated file list across all document locations including all connected team channel file libraries, from **Document Location** select **All Locations**.
-
-> [!div class="mx-imgBorder"] 
-> ![Document location](media/doclocation.png "Document location")
-
-
-> [!div class="mx-imgBorder"] 
-> ![Document location](media/doclocation1.png "Document location")
-
-## Record types supporting Collaborate    
-
-Currently, the following record types only support Microsoft Teams collaborate capabilities in Dynamisc 365 Customer Engagement app. The **Collaborate** button and file share feature will only work with the record types listed below in Dynamisc 365 Customer Engagement app.
-
-> [!NOTE]
-   >  The list below shows the logical name of an entity (not the display name).
- 
-- Account
--	Agreement
--	Annotation
-- Appointment
--	Businessunit
--	Campaign
--	Case
--	Category
--	Competitor
--	Contact
--	Email
--	Expense
--	Fulfillment Preference
-- Inventory Adjustment
--	Inventory Transfer
--	Invoice
--	Kbarticle
--	Knowledge Article
--	Lead
--	Opportunity
--	Opportunityproduct
--	Order
--	Product
--	Project
--	Purchase Order
--	Purchase Order Receipt
--	Quote
--	Resource Request
--	RMA
--	RMA Receipt
--	RTV
--	Sales Literature
--	Task
--	Team
--	Work Order
 
 
 ### See also  
  [Install the app and set up the Teams tab](teams-install-app.md#install-the-app-and-set-up-the-teams-tab)
+ 
+[Enhanced Collaboration with Teams](teams-collaboration-enhanced-experience.md)
+
+[Use Teams to open a record or view](teams-work-records-and-view.md)
 

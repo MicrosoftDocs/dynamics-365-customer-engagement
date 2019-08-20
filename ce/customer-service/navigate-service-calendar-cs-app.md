@@ -10,7 +10,6 @@ ms.author: anjgup
 manager: shujoshi
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: anjgupta
 ms.assetid: 9b3b8279-47b2-47c6-b390-4af0289ceca1
 search.audienceType: 

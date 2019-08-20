@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
 caps.latest.revision: 14
@@ -71,6 +70,8 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 
 ## Privacy details for Connected Field Service
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
+
+- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    

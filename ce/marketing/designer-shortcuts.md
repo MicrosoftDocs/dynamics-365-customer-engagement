@@ -2,7 +2,7 @@
 title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
 keywords: accessibility; keyboard shortcuts
-ms.date: 02/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-a11y
@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
 author: kamaybac
 ms.author: kamaybac
@@ -82,6 +81,7 @@ search.app:
 - **Alt+Shift+D**: Delete the selected element.
 - **Alt+4**: Open the **Toolbox** panel.
 - **Alt+5**: Open the **Properties** panel.
+- **Alt+6**: Open the **Styles** panel.
 - **Alt+X**: Go back to the active element (for example, from the **Properties** panel).
 
 ### Working with text element content
@@ -160,13 +160,16 @@ Most of the standard navigation and selection keyboard commands also work when y
 
 <a name="canvas-tabs"></a>
 
-### Move between canvas tabs
+### Navigate to and within the side panel
 
-The canvas includes a side panel with tabs that provide a **Toolbox** of available tile types, **Properties** for configuring a selected tile, and **Grades** for setting lead-scoring grades (lead-scoring only). When one of these tabs is open, you can navigate to and among its settings using the tab key on your keyboard. To set the active tab:
+The journey and scoring-model designers include a side panel that provides up to three tabs: a **Toolbox** of tiles that you can add to your design, **Properties** for configuring a tile selected on the canvas, and **Grades** for setting grade thresholds (lead-scoring only). When one of these tabs is open, you can navigate to and among its settings using the tab and arrow keys on your keyboard.
 
-1. Press tab until you've selected the currently active canvas tab (**Toolbox**, **Properties**, or **Grades**).
-1. Use the arrow keys to choose the tab you want to switch to. The canvas tab is activated as soon as you select it.
-1. Press tab to move between settings available in the active canvas tab, or to navigate away from the canvas tab.
+To navigate the side panel:
+
+1. Press tab until you've selected the side panel, where one tab is currently active.
+1. Use the arrow keys to switch the active side-panel tab. The tab is activated as soon as you select it.
+1. Press tab to move between the active (editable) settings available in the current side-panel tab, or eventually to navigate away from the side-panel tab.
+1. If you're using a screen reader and would like to read values for read-only (inactive) settings, then use arrow keys to navigate between the display values.
 
 ### Place a new tile
 

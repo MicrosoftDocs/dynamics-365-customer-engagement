@@ -1,16 +1,11 @@
 ---
 title: "Add a marketing list, sales literature, or product to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 08/31/2017
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 7811de7f-af81-4d3c-a365-700730290471
 author: shubhadaj
 ms.author: shujoshi

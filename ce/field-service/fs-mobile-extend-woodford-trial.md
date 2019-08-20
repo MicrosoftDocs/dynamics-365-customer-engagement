@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: fs-mobile-extend-woodford-trial
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: shellyhaverkamp
 ms.author: FieldServiceDave
 ms.manager: shellyhaverkamp

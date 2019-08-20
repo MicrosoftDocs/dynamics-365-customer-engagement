@@ -29,7 +29,7 @@ search.app:
 
 # Share a schedule board tab
 
-[!INCLUDE[topic-urs-share-schedule-board-tab.md](../includes/topic-urs-share-schedule-board-tab.md)]
+[!INCLUDE[topic-urs-share-schedule-board-tab.md](../shared/urs/share-schedule-board-tab.md)]
 
 
 
