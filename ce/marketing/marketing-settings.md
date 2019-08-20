@@ -49,6 +49,12 @@ When you error check or go live with a marketing email message, the verification
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and prefilling, see [Integrate with landing pages on external websites](embed-forms.md).
 
+### The default authenticated domain
+
+By default, all new Dynamics 365 for Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". This means that you can begin sending authenticated emails right away, but you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
+
+When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form *account-name*@*domain-name*). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will probably lower message deliverability.
+
 ### Which domains to authenticate
 
 Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with prefill enabled.
