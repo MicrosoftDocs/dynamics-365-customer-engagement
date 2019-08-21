@@ -179,9 +179,6 @@ Enter a **Name** that describes the goal.
 
 For **Engine Effort Level**, select **Very Light**, meaning RSO will run very quickly but may not find the most optimal solution. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a scheduling optimization goal](./media/rso-quickstart-goal.png)
-
 For constraints, select the following:
 
 - **Schedule Within Working Hours**
@@ -196,6 +193,9 @@ For objectives, select the following order:
 1. **Maximize Total Working Hours**
 2. **Minimize Total Travel Time**
 3. **Best Matching Skill Level**
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a scheduling optimization goal](./media/rso-quickstart-goal.png)
 
 > [!Note]
 > **Minimize Total Travel Time** **cannot** be the first objective
