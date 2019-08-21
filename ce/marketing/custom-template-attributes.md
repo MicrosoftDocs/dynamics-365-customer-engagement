@@ -196,7 +196,7 @@ To bring HTML created externally into the designer, start by doing the following
 1. Go to the **Design** > **HTML** tab of the designer.
 1. Clear all content from the HTML tab and paste in the HTML you created externally.
 1. Go to the **Design** > **Designer** tab of the designer and inspect your design.
-1. If you are working with a marketing email, be sure to use assist-edit to [place all required content and links](prepare-marketing-emails.md#required-links) (including a subscription-center link and your physical sender address).
+1. If you are working with a marketing email, be sure to use assist-edit to [place all required content and links](email-design.md#required-links) (including a subscription-center link and your physical sender address).
 
 > [!TIP]
 > Because you have just pasted in external HTML, your design probably doesn't include any code that is specific to Dynamics 365 for Marketing, so the **Designer** shows the _full-page editor_, which provides features for basic text formatting, image formatting, and (for emails) assist-edit for adding dynamic content.  For more information about how to work with full-page editor, see [Show the toolbox and enable drag-and-drop editing](#show-toolbox). If the full-page editor provides all of the functionality that you need, then use it to fine-tune your design and then go live with it as usual. If you prefer to use the _drag-and-drop editor_ to fine-tune your design, see the next section for information about how to enable it.
@@ -350,5 +350,6 @@ So, in this example, the `<img>` tag would resolve to something like:
 ### See also
 
 [Work with email, page, and form templates](email-templates.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
+[Create a new email and add content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)

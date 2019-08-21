@@ -142,4 +142,4 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 ### See also
 
 [Create a marketing email and go live](create-marketing-email.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)
+[Email marketing overview](prepare-marketing-emails.md)

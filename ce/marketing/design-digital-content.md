@@ -29,7 +29,7 @@ search.app:
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
 
 - Marketing email messages and templates  
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md)
 - Marketing pages and templates  
     [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 - Marketing forms and templates  
@@ -109,13 +109,13 @@ Though the drag-and-drop editor provides an editable preview, this preview is st
 Use the buttons in the left column of the **Preview** tab to see how your design will look on different screen sizes and orientations, such as desktop, tablet landscape, or mobile portrait. The preview also reflects the responsive design features built into many of the templates. However, the preview doesn't run any custom scripts you might have added (such as for validating form input).
 
 > [!NOTE]
-> Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-by-using-previews-and-test-sends)
+> Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work using previews and test sends](email-preview.md)
 
 ### See also
 
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  

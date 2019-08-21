@@ -85,7 +85,7 @@ search.app:
 <tr><td>
 <h2>Marketing with Dynamics 365</h2>
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
-<li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
+<li><a href="prepare-marketing-emails.md" data-raw-source="[Email marketing overview](prepare-marketing-emails.md)">Email marketing overview</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>

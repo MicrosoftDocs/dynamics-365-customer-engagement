@@ -87,7 +87,7 @@ The following table shows the result of attempting to send a commercial or trans
 
 [Tutorial: Create a marketing email and go live](create-marketing-email.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
-[Create a new message and add content](email-design.md)  
+[Create a new email and add content](email-design.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)

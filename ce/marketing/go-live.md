@@ -208,7 +208,7 @@ The default values for **Publish status** are _Draft_, _Ready to go live_, _In p
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Use content settings](dynamic-email-content.md#content-settings)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  

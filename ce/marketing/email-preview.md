@@ -24,7 +24,7 @@ search.app:
   - D365Mktg
 ---
 
-# Check your work by using previews and test sends
+# Check your work using previews and test sends
 
 Your marketing email messages will probably be seen by many potential customers, so you'll want to make sure they look just right when opened, regardless of which combination of device and email software each recipient is using. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you test and evaluate your design before you use it in an email campaign.
 
@@ -90,7 +90,7 @@ Select the **Save** button the bottom of the flyout panel to send the message to
 
 [Tutorial: Create a marketing email and go live](create-marketing-email.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
-[Create a new message and add content](email-design.md)  
+[Create a new email and add content](email-design.md)  
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Set the sender, receiver, and legal designation for a message](email-properties.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)

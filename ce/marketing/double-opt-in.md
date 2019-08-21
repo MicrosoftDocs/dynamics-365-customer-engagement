@@ -81,7 +81,7 @@ The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynam
 
 ![Subscription list settings available to confirmation-request messages](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
 ## Create an increase consent confirmation-request message
 

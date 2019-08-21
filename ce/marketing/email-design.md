@@ -24,7 +24,7 @@ search.app:
   - D365Mktg
 ---
 
-# Create a new message and add content
+# Create a new email and add content
 
 Read this topic to learn how to create an email message and design its content. See also the [email marketing overview](prepare-marketing-emails.md) for a summary of the full message creation, delivery, and analysis process for email marketing. 
 

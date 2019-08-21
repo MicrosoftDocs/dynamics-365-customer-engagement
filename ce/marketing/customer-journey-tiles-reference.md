@@ -51,7 +51,7 @@ To add a nested tile, expand the email tile if needed by clicking on the expand 
 
 See the following sections for more information about working with the marketing-page, marketing-form, event, and survey tiles.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md)
 
 ### Marketing form
 

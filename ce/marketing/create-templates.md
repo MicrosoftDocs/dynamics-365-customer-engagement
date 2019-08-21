@@ -49,5 +49,5 @@ Here are some notes and best practices for working with templates:
 
 [Work with email, page, and form templates](email-templates.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create a new email and add content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)

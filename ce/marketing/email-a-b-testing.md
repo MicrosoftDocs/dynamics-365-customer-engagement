@@ -41,7 +41,7 @@ To set up an A/B test, start by creating your basic design (this will be the A v
 
 To set up A and B designs for a message:
 
-1. Create your initial design as usual, as described in [Prepare marketing email messages](prepare-marketing-emails.md). Perfect the design as much as possible and be sure to check it for errors to make sure it can go live.
+1. Create your initial design as usual, as described in [Create a new email and add content](email-design.md). Perfect the design as much as possible and be sure to check it for errors to make sure it can go live.
 
 1. When your A design is finished, select the **A/B test** button.
 
@@ -129,7 +129,6 @@ You can check the progress and results of your A/B tests at any time by examinin
 
 [Design your digital content](design-digital-content.md)  
 [Design elements reference](content-blocks-reference.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-
