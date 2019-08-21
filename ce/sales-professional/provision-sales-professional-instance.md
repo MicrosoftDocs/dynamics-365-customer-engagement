@@ -3,18 +3,17 @@ title: "Provision your Dynamics 365 for Sales Professional environment (Dynamics
 description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 05/03/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: e55ec471-527c-4690-adaa-cb7bf2338efc
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Provision your Dynamics 365 for Sales Professional environment

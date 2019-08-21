@@ -1,7 +1,6 @@
 ---
 title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how to integrate Dynamics 365 for Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 25d0d7da-0ac0-46a7-953c-86b07338bcb3
 author: kamaybac
 ms.author: kamaybac

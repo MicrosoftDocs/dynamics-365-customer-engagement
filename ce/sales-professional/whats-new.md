@@ -3,12 +3,9 @@ title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
 ms.date: 05/23/2019
-ms.service:
-  - "crm-online"
+ms.service: crm-online
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 7c4d7ae5-8746-42e0-ba7d-2fb58904c77f
 author: shubhadaj
 ms.author: shujoshi
@@ -16,8 +13,7 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 
-topic-status: Drafting
+ms.custom: 
 ---
 
 # What's new in Dynamics 365 for Sales Professional

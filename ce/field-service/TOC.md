@@ -149,4 +149,6 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
-
+# Integrations
+## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+# [General FAQs](troubleshoot-faq.md)

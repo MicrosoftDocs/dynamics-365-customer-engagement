@@ -5,7 +5,6 @@ keywords: Dynamics 365 for Customer Engagement; Customer Service; Customer Servi
 author: kabala123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: kabala
 manager: shujoshi
 ms.date: 08/01/2019

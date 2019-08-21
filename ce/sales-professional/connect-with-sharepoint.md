@@ -3,18 +3,17 @@ title: "Configure Dynamics 365 for Sales Professional to integrate with SharePoi
 description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 for Sales Professional with SharePoint."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 4b7ba471-25f9-403b-91cc-6e60fff2c668
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Configure Dynamics 365 for Sales Professional to integrate with SharePoint

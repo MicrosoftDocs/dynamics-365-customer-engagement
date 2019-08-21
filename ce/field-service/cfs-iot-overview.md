@@ -10,7 +10,6 @@ ms.technology:
 ms.tgt_pltfrm: 
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: shellyhaverkamp
 ms.author: vihuang
 ms.manager: shellyhaverkamp

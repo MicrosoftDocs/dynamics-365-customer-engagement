@@ -3,14 +3,10 @@ title: "User Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales"
 keywords: "sales, User guide"
 ms.date: 07/18/2018
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 5
-topic-status: Drafting
 ---
 
 # Resources for sales person (Sales and Sales Hub)

@@ -10,7 +10,6 @@ ms.custom:
   - dyn365-Sales
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e25bb9ce-315e-44e2-b4a1-8dcd310ddc1b
 ms.author: jdaly
 author: JimDaly

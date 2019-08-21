@@ -3,18 +3,17 @@ title: "Add or remove sample data in Dynamics 365 for Sales Professional | Micro
 description: "Experiment as you learn with sample data in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 1472e892-d01b-4f9c-b69e-ca14cb8707d9
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Add or remove sample data in Dynamics 365 for Sales Professional

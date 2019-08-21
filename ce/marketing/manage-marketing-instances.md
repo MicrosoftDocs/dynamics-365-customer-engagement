@@ -2,7 +2,7 @@
 title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: administration;admin center;copy;sandbox;instances;backup;recall
-ms.date: 04/01/2019
+ms.date: 08/14/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c692a378-bf2f-42f6-81cd-8273cda9c695
 author: kamaybac
 ms.author: kamaybac
@@ -26,134 +25,210 @@ search.app:
   - D365Mktg
 ---
 
-# Manage your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instances
+# Manage your Dynamics 365 for Marketing instances
 
-General instructions for how to manage [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances are available in [Manage instances](../admin/manage-online-instances.md) and its subtopics, but for instances where you also have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed, some exceptions and added procedures apply. This topic provides details about the exceptions&mdash;for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
+Instance-management operations are a standard feature of the Dynamics 365 for Customer Engagement platform. However, Dynamics 365 for Marketing adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
 
-## Elements in a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance
+> [!IMPORTANT]
+> This topic provides details about the exceptions that apply when working with instances where the Marketing app is installed—for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
 
-Instance management operations are a standard feature of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. However, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] adds significant complexity to the system, so there are several extra considerations to keep in mind when you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed. 
+## Elements in a Marketing instance
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is composed of several components that you should be aware of to understand how the instance-management operations work when [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is installed. For example:
+Dynamics 365 for Marketing is composed of several components that you must be aware of to understand how the instance-management operations work when Marketing is installed. These include the following elements:
 
-- **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance.** This provides the basic platform for the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app and includes both a *platform server* and an *organizational database*. This database is also shared by the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, which reads and stores much of its data here. The standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] backup and restore functionality applies only to these components.
-- **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application.** This is a collection of solutions that are installed on the platform server and add marketing features to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. It's also referred to as the *[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app*.
-- **Marketing services.** This is a collection of services that run in parallel with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance, and  which the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app interacts with. Among other things, live customer journeys and marketing email messages run here.
-- **Marketing insights service** This is a marketing service that provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing insights service is one of the marketing services.
+- **Dynamics 365 for Customer Engagement instance**. This provides the basic platform for the Marketing app and includes both a _platform server_ and an _organizational database_. This database is also shared by the Marketing app, which reads and stores much of its data here.
+- **Dynamics 365 for Marketing application**. This is a collection of solutions that are installed on the platform server and add marketing features to Dynamics 365. It's installed on the platform server to add marketing features to Dynamics 365. It's also referred to as the _Marketing app_.
+- **Marketing services**. This is a collection of services that the Marketing app interacts with . They run in parallel with your Dynamics 365 for Customer Engagement instance. Among other things, live customer journeys and marketing email messages run here.
+- **Marketing insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
 
-Marketing services run in parallel with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when backup and restore operations are used on the organization database, you must consider their impact on these connected services.
-
-## Copy your production instance to a support instance
-
- [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] offers a service for testing pending changes (usually updates) on a copy of your production instance. If you wish to use this service, please contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] to find out if you are eligible. If so, [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] will create a support instance on your tenant and then ask you to copy your production instance onto it.
-
- For this operation, you can just make a simple copy of your production instance as described in [To copy an instance](../admin/copy-instance.md#to-copy-an-instance). There is no need to stop any live entities or make any other type of special preparation (as mentioned in the following section).
-
-<a name="prepare-backup"></a>
-
-## Prepare for copies and manual backups
-
-The basic [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance and its database are automatically backed up every day by Microsoft. However, processes that are running in the parallel marketing services aren't backed up by this operation.
-
-Processes running on the marketing services, such as live customer journeys and email marketing messages, aren't affected by the backup or copy operations, so these will continue to run normally, and the marketing insights service will also continue to collect data from them even while the organization database gets copied or backed up.
-
-When you restore from a backup (or start running a copy), any data that was created or modified since that backup was taken will be reverted (or lost). But the processes running on the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services will still be active, and the data that was generated and saved in the marketing services since the backup will also still be there. This means that if you want to make a copy, or to make manual backup to be restored later or on another instance, you should first stop all your running live entities by moving them to a *stopped* state. This includes:
-
-- Customer journeys
-- Marketing emails
-- Content settings
-- Segments
-- Marketing pages
-
-This helps to ensure that when you finish the copy or restore the data (especially on a different instance), no unwanted processes start without your knowledge.
-
-> [!NOTE]
-> Automatic daily backups don't pause any of your live entities. This helps to ensure that your customer journeys and other live features aren't interrupted by these backups, which are primarily made for purposes of disaster recovery.
-
-## Restoring a backup onto a different instance
-
-When you restore a backup that includes [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] onto a different instance, you must do the following:
-
-- If your target instance (the instance you are restoring *onto*) already has [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed on it, then you must delete [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] from that instance before you restore the backup. You don't need to remove all of the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] solutions, but you do need to run the uninstall wizard on the target instance before your restore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Uninstall Marketing](uninstall-marketing.md).
-- After restoring a backup to a new instance (or copying a production instance to a sandbox instance) you must rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] [setup wizard](purchase-setup.md) on the new instance. This is because the new instance needs to be set up with a new collection of marketing services.
-
-> [!NOTE]
-> Because a new set of marketing services is created for your new instance, all interaction data stored by the previous marketing services isn't available to the new instance.
-
-For details about how to copy a production instance to a sandbox and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on the sandbox, see  [Copy your current production instance to a sandbox](#copy-to-sandbox). The process is similar when you restore a backup to a new instance.
-
-## Reset or delete an instance
-
-For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing from a Dynamics 365 instance](uninstall-marketing.md).
-
-## Change the URL for an instance
-
-For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to change the URL of an instance. However, *you can't currently do this if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed*. 
-
-Do not attempt to change the URL for a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. If you require a different URL, then you must set up a new [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance at the new URL and then reinstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] there.
+Marketing services run in parallel with your Dynamics 365 for Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when copying or restoring and organization database, you must consider the impact on these connected services.
 
 <a name="copy-to-sandbox"></a>
 
-## Copy your current production instance to a sandbox
+## Copy a Marketing instance to another instance
 
-A sandbox instance is where you safely can test new customizations, features, and settings without affecting your production instance. Most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] licenses include both a production and sandbox instance. You'll usually want to start your experiments using a system that is as close as possible to your production instance, so the first step will usually be to copy your existing production instance to the sandbox. 
+Because Marketing is more complex than most Dynamics 365 for Customer Engagement apps, and interacts with several special services and other components, you must be extra careful when creating copies to and/or from instances that have Marketing installed on them.
 
-After the copy, your sandbox instance will be set up as follows:
+<a name="copy-warning"></a>
 
-- All settings and customizations from your production instance will be present in the sandbox.
-- A new portal will be created to host marketing pages and event websites for the sandbox instance.
-- A new set of marketing services (including a new marketing insights service) will be created and linked to your sandbox instance. Interaction data from your production instance won't be available to the sandbox, so most insights data will be initialized. You can freely generate new interaction data using the sandbox without affecting your production instance.
-- If you choose to do a full copy:
-  - The entire core database of your production instance will be copied and linked to the sandbox instance. This means that your previous production data will be available to the sandbox, but your work in the sandbox instance won't affect your production database from now on. 
-  - Any live entities from your production portal (such as marketing pages and the event website) will be republished on the new portal created for the sandbox instance.
-  - Any live entities that run on marketing services (such as marketing email messages and customer journeys) will also be copied and enabled as live entities on the sandbox instance.
-- If you choose to do a minimal copy, all your customizations will still be present on the sandbox instance, but none of your production data (including email messages, portal content, and customer journeys) will be there.
+> [!WARNING]
+> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 for Customer Engagement instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
 
-To copy a production instance to a sandbox:
+> [!WARNING]
+> This procedure will completely delete and/or overwrite the target instance.
 
-<!-- 1. **Important**: before you do anything else, [reset your sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance). -->
+> [!NOTE]
+> If you are copying to a support instance, then see [Copy a production instance to a support instance](#support-copy) for instructions instead of reading this section. For all other types of copies, continue reading here.
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application and its related solutions are all up to date on your production instance, as described in [Keep Marketing up to date](apply-updates.md).
+### Content of the target instance after copying
 
-1. As mentioned in [Prepare for copies and manual backups](#prepare-backup), move all your running live entities to a _stopped_ state if you will make a full copy. You don't have to do this if you're planning to make a minimal copy because live entities aren't copied during a minimal copy.
+After the copy, your target instance will be set up as follows:
 
-1. Return to the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and go to the **Instances** tab. Select your production instance (the instance you are copying from) and then select **Copy** from the side panel.  
-    ![Select the Copy button](media/copy-instance-start.png "Select the Copy button")
+- All apps, settings, and customizations from your source instance will be present on the target instance.
+- A new set of marketing services (including a new marketing insights service and interaction database) will be created and linked to the target instance. Interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance, so most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
+- If you chose to do a *full copy*, the entire organizational database of your source instance will be copied to the target instance. This means that copied data from your source instance will be visible on the target instance, but your work in the target instance won't affect your source database from now on.
+- If you chose to do a *minimal copy*, all your apps and customizations will still be present on the target instance, but the organizational database will be nearly empty, so none of your source data (including email messages, portal content, and customer journeys) will be there.
+- If the Marketing app on your source instance used a Dynamics 365 Portal, then you might choose to also set up a new portal on the target instance to host its marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied instance if you prefer, even if the source instance was using one.
+
+<a name="prepare-source"></a>
+
+### Step 1: Prepare your source instance
+
+The _source instance_ is the Marketing instance you are copying _from_. Before you start copying, you must prepare the source instance as described here.
+
+To prepare your source instance for copying:
+
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the Dynamics 365 for Marketing application and its related solutions are all up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
+1. Do one of the following, depending on whether you are planning to make a full or minimal copy:
+
+    - If you are planning to make a **Full copy** (which will include all of the data from the source instance) then you must move all your running [live records](go-live.md) to a stopped state. This includes all customer journeys, marketing emails, content settings, segments, marketing pages, marketing forms, lead-scoring models, events, event sessions, and event tracks.
+    - If you are planning to make a **Minimal copy** (which will contain all customizations, but a mostly empty database), then you don't need to stop any records.
 
     > [!NOTE]
-    > You must already have a sandbox instance available before you can copy a production instance to it. Make sure you see a sandbox listed on your **Instances** tab. If you don't have one, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance.
+    > If you make a full copy with one or more records still in a live state on the source instance, then those records will become unusable on the target instance.
 
-    > [!WARNING]
-    > This operation will completely delete your current sandbox instance and replace it with a copy of your production instance.
+### Step 2: Prepare your target instance
 
-1. The **Copy instance** page opens.   
-    ![The copy instance page](media/copy-instance-details.png "The copy instance page")
- 
-    Do the following:
-    1. Select your sandbox instance from the **Target instance** drop-down list.
-    1. Set the **Copy type** to **Full copy** or **Minimal copy**. A _full copy_ will contain a copy of all production data, while a _minimal copy_ will include only customizations and a mostly empty database. See the intro to this section for details.
-    1. To start copying, select **Copy**.
+The _target instance_ is the instance you are copying _onto_. As with the source instance, you must prepare the target instance before you copy _if Marketing is installed on the source instance, the target instance, or both_.
 
-1. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] starts copying your instance, which can take some time. You can monitor its progress in the admin center. When the sandbox shows a **State** of **Ready**, select it, and then select **Admin** from the side panel.   
-    ![Select the Admin button](media/copy-instance-open-admin-settings.png "Select the Admin button")
+> [!NOTE]
+> The target instance will almost always be a sandbox instance because copying to a production instance isn't supported (but you can easily [convert a sandbox into a production instance](#switch-sandbox-prod) after copying if you wish). You must already have the target instance available on your tenant, and should be able to see it on the **Instances** tab of the Dynamics 365 admin center. If you don't have one, please  [contact Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support) for assistance.
 
-1. The **Admin settings** page opens. Clear the **Enable administration mode** check box, if needed, and then select **Save**. (For more information about this setting, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).)  
-    ![The Admin settings page](media/copy-instance-admin-mode.png "The Admin settings page")
- 
-1. Select the **Applications** tab in the admin center to see a list of applications you have installed.  
-    ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
- 
-1. Select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel.
+To prepare your target instance to be copied onto, do the following _before_ starting the copy:
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select your sandbox instance from drop-down list and choose a new and unique prefix for your sandbox portal.  
-    ![Choose an organization and name your portal](media/setup-form-1.png "Choose an organization and name your portal")
-    
-   > [!NOTE]
-   > You need to rerun the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on your sandbox because your sandbox needs supporting resources, such as portals and marketing services, which are separate from your production services.
+1. If your target instance already has Dynamics 365 for Marketing installed on it, then do the following:
 
-1. Select **Continue**, and then work through the rest of the setup wizard as usual. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [First-time setup](purchase-setup.md)
+    - Use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the copy and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+    - If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
-1. When the setup wizard tells you the installation is complete, you can start working with your sandbox instance.
+1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance). This will return the target instance to its factory settings, which may prevent problems later on, and may also release additional app licenses.
+
+### Step 3: Copy the instance
+
+Once your source and target instances are prepared, you're ready to make the copy following the usual procedure described in [Copy an instance to a Sandbox instance](../admin/copy-instance.md).
+
+Pay special attention when choosing whether to create a full or minimal copy, and be sure to choose the option that matches the copy type you prepared for in [Step 1: Prepare your source instance](#prepare-source).
+
+![Select the copy type](media/instances-full-minimal-copy.png "Select the copy type")
+
+### Step 4: Prepare the target instance for use
+
+After creating your copy, you must do the following:
+
+- Make sure the target instance isn't in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
+- Run the Marketing setup wizard on the target instance. This is needed because the target instance must be set up with a new collection of marketing services (and, in some cases, supporting apps such as Voice of the Customer and/or Portals). For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
+
+> [!NOTE]
+> Because a new set of marketing services is created on the target instance, all marketing insights and interaction data stored by the previous marketing instance won't be available to the new instance. The lost interaction data includes records of email clicks, website visits, form submissions, and other ways that contacts have interacted with your marketing initiatives.
+
+## Create and restore backups
+
+As with copy operations, backup and restore operations typically require a few extra steps when Marketing is installed.
+
+> [!IMPORTANT]
+> Backups **do not** include interaction data, so when you restore them, all organizational data, solutions, apps, and customizations will be present, but no Marketing interaction data or insights will be available on the restored system.
+
+### Automatic system backups
+
+Microsoft automatically takes daily backup copies of all Dynamics 365 for Customer Engagement instances, including those that have the Marketing app installed. Like other types of copies, automatic system backups include the full organizational database, but not a copy of the interaction database. System backups are usually kept for just a few days and then deleted again.
+
+> [!IMPORTANT]
+> The system creates automatic system backups without stopping any of the live records on the source instance. That means that these backups won't interrupt the normal operation of your instance, but it also means that any records that are live on the source instance will be rendered unusable in a restored backup copy.
+
+For more information about automatic backups in Dynamics 365 for Customer Engagement, see [Daily system backups](../admin/backup-restore-instances.md#daily-system-backups).
+
+### Create an on-demand backup
+
+You can create an on-demand backup at any time, but when Marketing is installed on your source instance, you must take a few extra precautions by using the following procedure:
+
+1. [Open the Dynamics 365 admin center](/dynamics-365-admin-center.md) and make sure that the Dynamics 365 for Marketing application and its related solutions are all completely up to date on your source instance, as described in [Keep Marketing up to date](apply-updates.md).
+2. Move all your running [live records](go-live.md) to a stopped state. This includes all customer journeys, marketing emails, content settings, segments, marketing pages, marketing forms, lead-scoring models, events, event sessions, and event tracks.
+3. Create the on-demand backup as usual, as described in [On-demand backup](../admin/backup-restore-instances.md#on-demand-backup-dynamics-365-for-customer-engagement-apps-managed).
+
+> [!NOTE]
+> If you make an on-demand backup with one or more records still in a live state on the source instance, then those records will become unusable on the target instance.
+
+### Restore a backup onto another instance
+
+You can easily restore any on-demand or automatic system backup to any available sandbox instance (other than the instance you took the backup from). But as with copy operations, you need to prepare the target instance first.
+
+To restore a backup onto a sandbox instance:
+
+1. If your target instance already has Dynamics 365 for Marketing installed on it, then do the following:
+
+    - Use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+    - If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+
+1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance).
+
+1. Restore the backup onto the newly prepared sandbox as usual, as described in [Restore a Dynamics 365 for Customer Engagement apps on-demand backup](../admin/backup-restore-instances.md#restore-a-dynamics-365-for-customer-engagement-apps-on-demand-backup).
+
+1. Prepare the restored instance for use by doing the following:
+
+   - Make sure the restored instance is not in administration mode. For more information about this setting and how to disable it, see [Administration mode](../admin/manage-sandbox-instances.md#administration-mode).
+   - Run the Marketing setup wizard on the target instance. For instructions, see [Run the Marketing setup wizard](purchase-setup.md#run-wizard).
+
+### Restore a backup onto its original instance
+
+When a backup contains Dynamics 365 for Marketing, it isn't possible to restore a backup onto its original instance. If you need to do this, please [contact Microsoft Support](https://docs.microsoft.com/en-us/power-platform/admin/get-help-support) for assistance.
+
+<a name="switch-sandbox-prod"></a>
+
+## Switch an instance between sandbox and production status
+
+Many instance-management tasks only allow you to work on a sandbox instance as the source and/or destination of a copy, backup, or restore operation. However, you can easily switch any instance from sandbox to production, or production to sandbox, at any time. The Marketing app doesn't add any limits on this standard platform operation. More information: [Switch and instance](../admin/switch-instance.md)
+
+<a name="support-copy"></a>
+
+## Copy a production instance to a support instance
+
+Microsoft Support offers a service for testing pending changes (usually updates) on a copy of your production instance. If you wish to use this service, please contact Microsoft Support to find out if you are eligible. If so, Microsoft Support will create a support instance on your tenant and then ask you to copy your production instance onto it. More information: [Manage Support instances](../admin/support-instance.md)
+
+> [!IMPORTANT]
+> When you copy to a support instance, you don't need to stop any live entities, re-run the setup wizard, or make any other types of special preparations that may be mentioned in some of the other sections in this topic.
+
+> [!NOTE]
+> Support instances remain available for 14 days and are then deleted.
+
+To copy a production instance to a support instance:
+
+1. If you don't already have a support instance available, then please contact Microsoft Support to request one. Once your support instance is available on your tenant, you'll be able to see it in the Dynamics 365 admin center.
+
+1. Select the production instance that you want to copy and then select **Copy** in the side panel.
+
+    ![Select the source instance and then choose Copy](media/instances-support-source.png "Select the source instance and then choose Copy")
+
+1. The **Copy instance** page opens. Make the following settings:
+
+   - **Source instance** : This should already show the name of the instance you have chosen to copy.
+   - **Target instance** : Select the name of the support instance that was created for you. The name of your support instance includes your case number.
+   - **Copy type** : Select **Full copy**.
+
+    ![Choose your copy options](media/instances-support-copy.png "Choose your copy options")
+
+1. When you select the target instance, most of the other settings here are set automatically, and a notice is shown to alert you that Microsoft Support will be able to access the support instance. Read the notice and select **OK** if you agree with its terms.
+
+    ![Support access notice](media/instances-support-notice.png "Support access notice")
+
+1. Your production instance is now copied to the support instance.
+
+## Delete or reset a Marketing instance
+
+For standard Customer Engagement instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you must also do the following:
+
+1. Use the Marketing setup wizard to uninstall Dynamics 365 for Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
+1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
+1. Delete or reset the instance as usual. More information: [Delete an instance](../admin/delete-instance.md)
+
+> [!IMPORTANT]
+> You must always uninstall Marketing and reset the Dynamics 365 Portal before deleting or resetting an instance because this makes sure your Marketing and portal licenses are fully released so you can use them again.
+
+## Do not change the URL for an instance with Marketing installed
+
+For standard Dynamics 365 for Customer Engagement instances (without Marketing installed) you can use the Dynamics 365 admin center to change the URL of an instance. However, _you can't currently do this if you have Marketing installed_.
+
+> [!IMPORTANT]
+> Do not attempt to change the URL for a Marketing instance. If you require a different URL, then you must set up a new Dynamics 365 for Customer Engagement instance at the new URL and then reinstall Marketing there.
 
 ### See also
 

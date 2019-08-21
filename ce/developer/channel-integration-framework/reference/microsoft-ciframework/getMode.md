@@ -11,7 +11,6 @@ ms.custom:
 ms.topic: reference
 applies_to:
   - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: D215CEFC-286E-4AEF-9EDA-D6E1D7C7FD41
 author: susikka
 ms.author: susikka

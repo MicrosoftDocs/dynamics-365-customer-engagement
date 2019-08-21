@@ -1,7 +1,7 @@
 ---
 title: "Email and call customers in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: d004982d-3fe4-49a5-9df5-6949118451d4
 caps.latest.revision: 28
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
