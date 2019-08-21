@@ -1,7 +1,6 @@
 ---
 title: "Use the new segmentation designer (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Lear how to use the new segmentation designer to create segments in Dynamics 365 for Marketing"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e183f743-cc12-44f8-b8a0-09d06dcb6de0
 author: kamaybac
 ms.author: kamaybac

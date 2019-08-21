@@ -8,7 +8,6 @@ ms.technology:
   - field-service
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.author: shellyha
 ms.manager: shellyha

@@ -1,14 +1,12 @@
 ---
 title: "Optimize insight cards ranking in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Optimize ranking for cards in assistant"
-keywords: "AI for sales, , "
+keywords: "AI for sales, ,"
 ms.date: 03/21/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+applies_to: Dynamics 365 (online)
 ms.assetid: 73b590f5-883a-46c5-9d2e-a9b9157a9614
 author: udaykirang
 ms.author: udag
@@ -16,8 +14,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
-topic-status: Drafting
+caps.latest.revision: 1
 ---
 
 # Preview: Optimize ranking of insight cards

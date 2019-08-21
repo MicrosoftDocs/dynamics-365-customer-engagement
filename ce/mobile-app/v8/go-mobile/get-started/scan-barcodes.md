@@ -1,7 +1,7 @@
 ---
 title: "Scan barcodes  in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2017-01-09
+ms.date: 01/09/2017
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,11 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps (on-premises)
-author: jimholtz
 ms.assetid: e925eea4-9958-45ba-94c2-d892a77e3f24
 caps.latest.revision: 8
 ms.author: mkaur
-robots: noindex
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -22,6 +21,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Sales
+robots: noindex
 ---
 # Scan barcodes  in Dynamics 365 for phones and tablets
 

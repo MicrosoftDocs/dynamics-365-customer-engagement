@@ -2,14 +2,13 @@
 title: "Uninstall Dynamics 365 for Marketing (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to remove Dynamics 365 for Marketing from a Dynamics 365 instance"
 keywords: uninstall;solutions;administration;instances
-ms.date: 06/11/2019
+ms.date: 08/14/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 76871891-d62c-4496-81f6-60b31bf5e3e6
 author: kamaybac
 ms.author: kamaybac
@@ -98,69 +97,75 @@ To remove the solutions:
 
 1. Find each of the following solutions and remove them, one at a time, in the order listed here. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
 
-    - PackageUpgradeSolution_managed
-    - PersonalizedPagesSolutionManagedPatch
-    - PersonalizedPagesSolutionManaged
-    - SocialPostingManagedPatch
-    - SocialPostingManaged
-    - MarketableContactsManagedPatch
-    - MarketableContactsManaged
-    - VocIntegrationSolutionManagedPatch
-    - VocIntegrationSolutionManaged
-    - EventMgmtVOCLinkSolution_managedPatch
-    - EventMgmtVOCLinkSolution_managed
-    - MktVoCLinkSolutionManagedPatch
-    - MktVoCLinkSolutionManaged
-    - MktPortalsLinkManagedPatch
-    - MktPortalsLinkManaged
-    - EventPortalLinkSolution_managedPatch
-    - EventPortalLinkSolution_managed
-    - GwennolSegmentBoosterSolutionManaged
-    - GwennolFeatureConfigurationSolutionManagedPatch
-    - GwennolFeatureConfigurationSolutionManaged
-    - GwennolSpamScoreSolutionManagedPatch
-    - GwennolSpamScoreSolutionManaged
-    - GwennolOESTPredictionSolutionManagedPatch
-    - GwennolOESTPredictionSolutionManaged
-    - GwennolOptimalEmailSendingTimeSolutionManagedPatch
-    - GwennolOptimalEmailSendingTimeSolutionManaged
-    - SMBMarketingIntegrationSolutionManagedPatch
-    - SMBMarketingIntegrationSolutionManaged
-    - SocialEngagementSolutionManagedPatch
-    - SocialEngagementSolutionManaged
-    - LinkedInMatchedAudiences_managedPatch
-    - LinkedInMatchedAudiences_managed
-    - LinkedInLGLink_managedPatch
-    - LinkedInLGLink_managed
-    - GdprConsentManagementManagedPatch
-    - GdprConsentManagementManaged
-    - QuotaInfoSolutionManagedPatch
-    - QuotaInfoSolutionManaged
-    - MarketingPageTemplatesSolutionManagedPatch
-    - MarketingPageTemplatesSolutionManaged
-    - MktEvtMgmtLinkSolutionManagedPatch
-    - MktEvtMgmtLinkSolutionManaged
-    - LinkedInLeadGen_managedPatch
-    - LinkedInLeadGen_managed
-    - LeadManagementSolutionManagedPatch
-    - LeadManagementSolutionManaged
-    - EmailTemplatesSolutionManagedPatch
-    - EmailTemplatesSolutionManaged
-    - DynamicsMarketingSolutionManagedPatch
-    - DynamicsMarketingSolutionManaged
-    - DynamicsEventManagementSolution_managedPatch
-    - DynamicsEventManagementSolution_managed
-    - ContentBlocksSolutionManagedPatch
-    - ContentBlocksSolutionManaged
-    - DigitalAssetsSolutionManagedPatch
-    - DigitalAssetsSolutionManaged
-    - CalendarSolutionManagedPatch
-    - CalendarSolutionManaged
-    - MktCompleteAnchorSolutionManaged
+    - MicrosoftDynamics_PreImport
+    - MicrosoftDynamics_Calendar
+    - MicrosoftDynamics_Calendar_patch
+    - MicrosoftDynamics_DigitalAssets
+    - MicrosoftDynamics_DigitalAssets_patch
+    - MicrosoftDynamics_ReusableBlocks
+    - MicrosoftDynamics_ReusableBlocks_patch
+    - MicrosoftDynamics_EventManagement
+    - MicrosoftDynamics_EventManagement_patch
+    - MicrosoftDynamics_Marketing
+    - MicrosoftDynamics_Marketing_patch
+    - MicrosoftDynamics_MktEmailTemplates
+    - MicrosoftDynamics_MktEmailTemplates_patch
+    - MicrosoftDynamics_MktLeadManagement
+    - MicrosoftDynamics_MktLeadManagement_patch
+    - LinkedInLeadGenIntegration
+    - LinkedInLeadGenIntegration_patch
+    - MicrosoftDynamics_MktEvtMgmtLink
+    - MicrosoftDynamics_MktEvtMgmtLink_patch
+    - MicrosoftDynamics_MktPageTemplates
+    - MicrosoftDynamics_MktPageTemplates_patch
+    - MicrosoftDynamics_MktQuotaInfo
+    - MicrosoftDynamics_MktQuotaInfo_patch
+    - MicrosoftDynamics_FeatureConfiguration
+    - MicrosoftDynamics_MktConsentManagement
+    - MicrosoftDynamics_MktConsentManagement_patch
+    - MicrosoftDynamics_MktLeadGenLink
+    - MicrosoftDynamics_MktLeadGenLink_patch
+    - MicrosoftDynamics_LinkedInMatchedAudiences
+    - MicrosoftDynamics_LinkedInMatchedAudiences_patch
+    - MicrosoftDynamics_SocialEngagement
+    - MicrosoftDynamics_SocialEngagement_patch
+    - MicrosoftDynamics_MktIntegration
+    - MicrosoftDynamics_MktIntegration_patch
+    - MicrosoftDynamics_GwennolOptimalEmailSendingTime
+    - MicrosoftDynamics_GwennolOptimalEmailSendingTime_patch
+    - MicrosoftDynamics_GwennolOESTPrediction
+    - MicrosoftDynamics_GwennolOESTPrediction_patch
+    - MicrosoftDynamics_GwennolSpamScore
+    - MicrosoftDynamics_GwennolSpamScore_patch
+    - MicrosoftDynamics_GwennolFeatureConfiguration
+    - MicrosoftDynamics_GwennolFeatureConfiguration_patch
+    - MicrosoftDynamics_GwennolSegmentBooster
+    - MicrosoftDynamics_GwennolSegmentBooster_patch
+    - MicrosoftDynamics_ABTesting
+    - MicrosoftDynamics_EvtMgmtPortalsLink
+    - MicrosoftDynamics_EvtMgmtPortalsLink_patch
+    - MicrosoftDynamics_MktPortalsLink
+    - MicrosoftDynamics_MktPortalsLink_patch
+    - MicrosoftDynamics_MktVocLink
+    - MicrosoftDynamics_MktVocLink_patch
+    - MicrosoftDynamics_EvtMgmtVocLink
+    - MicrosoftDynamics_EvtMgmtVocLink_patch
+    - MicrosoftDynamics_MktVocIntegration
+    - MicrosoftDynamics_MktVocIntegration_patch
+    - MicrosoftDynamics_MarketableContactSupport
+    - MicrosoftDynamics_MarketableContactSupport_patch
+    - MicrosoftDynamics_SocialPosting
+    - MicrosoftDynamics_SocialPosting_patch
+    - MicrosoftDynamics_PersonalizedPages
+    - MicrosoftDynamics_PersonalizedPages_patch
+    - MicrosoftDynamics_PackageUpgrade
+    - MicrosoftDynamics_OrgCleanup
+    - MicrosoftDynamics_SubscriptionList
+    - MicrosoftDynamics_MktCompleteAnchorSolution
 
 1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
 
-1. If you're no longer using the [!include[](../includes/cc-linkedin-solution.md)], then also remove the LinkedInLeadGenIntegration solution.
+1. If you're no longer using the [!INCLUDE [cc-linkedin-solution](../includes/cc-linkedin-solution.md)], then also remove the LinkedInLeadGenIntegration solution.
 
 1. If you're no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, you can also delete their related solutions.
 

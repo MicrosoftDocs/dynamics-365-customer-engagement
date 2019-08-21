@@ -6,9 +6,7 @@ ms.date: 11/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 62083240-8c37-4de5-8d83-ade07dd40369
 author: udaykirang
 ms.author: udag
@@ -16,8 +14,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
-topic-status: Drafting
+caps.latest.revision: 1
 ---
 
 # Dynamics 365 Sales Insights

@@ -5,7 +5,6 @@ Keywords: Main forms; Special field properties; Dynamics 365 for Customer Engage
 author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
   - powerapps
 ms.author: matp
 manager: kvivek

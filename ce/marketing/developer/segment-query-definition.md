@@ -18,16 +18,10 @@ search.app:
 
 # Segment Query definition
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Dynamic segments are based on segment query (`msdyncrm_segmentquery`). You can define a segment query by combing groups of logical expressions, each of which results in a set of `contacts`. Each group establishes a path through one or more entities that ends at the `Contact` entity (the order matters).
 
 This topic showcases different elements that define a segment query.
-
-> [!IMPORTANT]
-
-> - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]
 
 ## PROFILE
 

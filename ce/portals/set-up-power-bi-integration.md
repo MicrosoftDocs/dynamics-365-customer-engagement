@@ -6,7 +6,6 @@ ms.service: crm-online
 ms.topic: article
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
-  - "Dynamics 365 for Customer Engagement Version 9.x"
 ms.assetid: DB95F706-48D2-4378-B5E5-435C1425ECD8
 author: sbmjais
 ms.author: shjais

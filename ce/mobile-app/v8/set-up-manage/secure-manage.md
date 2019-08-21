@@ -7,12 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-author: mduelae
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: f42ec901-846a-4503-8e78-c9a57b7e7c0b
 caps.latest.revision: 141
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
