@@ -30,14 +30,17 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
   
 1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the app launcher icon, and then click **Dynamics 365**.  
   
-   ![Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected")  
+   
+   > [!div class="mx-imgBorder"]
+   > ![Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 for Customer Engagement apps iconselected")  
   
 > [!NOTE]
 >  The apps available to you in the app launcher depend on your subscription.  
   
 2. In the home page, select the app for your role.  
-  
-   ![Dynamics 365 for Customer Engagement apps Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 for Customer Engagement apps Home page with 4 apps")  
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 for Customer Engagement apps Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 for Customer Engagement apps Home page with 4 apps")  
   
 > [!TIP]
 >  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL](../admin/sign-in-office-365-apps.md)  
@@ -46,7 +49,8 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
   
 - On the navigation bar, click **Swith to another app** > **My apps** and then select the app you want.  
   
-  ![Dynamics 365 for Customer Engagement app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 for Customer Engagement app switcher")  
+  > [!div class="mx-imgBorder"]
+  > ![Dynamics 365 for Customer Engagement app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 for Customer Engagement app switcher")  
   
 ## Find your way around the app menus
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
@@ -57,7 +61,9 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  
   
 ## Sales app sitemap  
- ![Sales app site map for Dynamics 365 for Customer Engagement apps](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 for Customer Engagement apps")  
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Sales app site map for Dynamics 365 for Customer Engagement apps](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 for Customer Engagement apps")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -102,7 +108,9 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
  **21**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ## Customer service app sitemap  
- ![Customer Service app site map](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Customer Service app site map](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -129,7 +137,9 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ## Dynamics 365 - custom (Settings) sitemap  
- ![Dynamics 365 for Customer Engagement apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement apps Settings sitemap")  
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 for Customer Engagement apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 for Customer Engagement apps Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
   
@@ -181,8 +191,9 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
   
 ## Navigation bar buttons  
  The navigation bar in each app has the same buttons:  
-  
- ![Dynamics 365 for Customer Engagement apps navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 for Customer Engagement apps navigation bar buttons")  
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Dynamics 365 for Customer Engagement apps navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 for Customer Engagement apps navigation bar buttons")  
   
  **1**.  Do a simple search for a record.  
   
