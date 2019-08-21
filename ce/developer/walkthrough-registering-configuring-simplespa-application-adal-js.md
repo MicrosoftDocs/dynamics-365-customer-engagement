@@ -2,7 +2,7 @@
 title: "Walkthrough: Registering and configuring SimpleSPA application with adal.js (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 for Customer Engagement apps using adal.js and Cross-origin Resource Sharing (CORS)"
 ms.custom: 
-ms.date: 02/12/2019
+ms.date: 08/22/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -13,7 +13,7 @@ applies_to:
 ms.assetid: 0346a66d-147b-40e0-a1b6-0c30815043b4
 caps.latest.revision: 14
 author: JimDaly
-ms.author: jdaly
+ms.reviewer: nabuthuk
 search.audienceType: 
   - developer
 search.app: 
@@ -21,17 +21,17 @@ search.app:
 ---
 # Walkthrough: Registering and configuring SimpleSPA application with adal.js
 
-This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
+This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 for Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). More information: [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 for Customer Engagement (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ## Prerequisites  
   
-- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
+- Dynamics 365 for Customer Engagement
   
-- You must have a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] system user account with administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
+- You must have a Dynamics 365 for Customer Engagement system user account with administrator role for the Office 365.  
   
-- An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
+- An Azure subscription for application registration. A trial account will also work.  
   
-- [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)]  
+- Visual Studio 2017 
   
 <a name="bkmk_goal"></a>   
 ## Goal of this walkthrough
@@ -49,12 +49,12 @@ Click the **Get Accounts** button to retrieve 10 account records from your Dynam
 ![The SimpleSPA page](media/simple-spa.png "The SimpleSPA page")  
 
 > [!NOTE]
->  The initial load of data from Dynamics 365 for Customer Engagement may be slow as the operations to support authentication take place, but subsequent operations are much faster.  
+> The initial load of data from Dynamics 365 for Customer Engagement may be slow as the operations to support authentication take place, but subsequent operations are much faster.  
 
 Finally, you can click on **Logout** button to logout.  
 
 > [!NOTE]
->  This SPA application is not intended to represent a pattern for developing robust SPA applications. It is simplified to focus on the process of registering and configuring the application.  
+> This SPA application is not intended to represent a pattern for developing robust SPA applications. It is simplified to focus on the process of registering and configuring the application.  
 
 <a name="bkmk_createwebapp"></a>
 
@@ -296,19 +296,19 @@ Finally, you can click on **Logout** button to logout.
   
 3.  Now select **Enterprise Applications** in the panel that opens up.
 
-![Select Enterprise Applications](media/register-spa-app-registration.PNG)
+     ![Select Enterprise Applications](media/register-spa-app-registration.PNG)
 
 4.  Select **New application**(near the top of the page), and then under **Add your own app** select **Application you're developing**.  
 
-![Select Application you're developing](media/register-spa-app-you-developing.PNG)
+     ![Select Application you're developing](media/register-spa-app-you-developing.PNG)
   
 5.  Now click on **Ok, take me to App Registrations to register my new application**.
 
-![Select Ok, take me to App Registrations](media/register-spa-take-me-app-reg.PNG)
+     ![Select Ok, take me to App Registrations](media/register-spa-take-me-app-reg.PNG)
 
 6.  Now click on **New application registration**(near the top of the page).  
 
-![Select New application registration](media/register-spa-new-reg.PNG)
+    ![Select New application registration](media/register-spa-new-reg.PNG)
   
 7.  Enter the following information :  
   
@@ -318,7 +318,7 @@ Finally, you can click on **Logout** button to logout.
 
   - **Sign-on URL**<br />This is the URL which the user should be redirected to after they sign in. For debugging purposes in Visual Studio it should be  `http://localhost:####/SimpleSPA.html` where #### represents the port number you got from step 4 of the [Create a web application project](#bkmk_createwebapp) procedure.  
 
-![Enter details](media/register-spa-enter-details.PNG)
+     ![Enter details](media/new-app-registration-page.png)
     
 8. Then click on **Create** at the end of the page.
 
@@ -328,37 +328,37 @@ Finally, you can click on **Logout** button to logout.
 
 10. Now click on **Settings** and then select **Required permissions**.
 
-![Select Required permissions](media/register-spa-settings-permissions.PNG)
+     ![Select Required permissions](media/azure-api-permissions-page.png)
 
 11. Click on **Add**, then select **Select an API**. Now select **Dynamics CRM Online** and click **Select** at the end of the page.
 
-![Select Dynamics CRM Online under Select an API](media/register-spa-permission-dyncrm.PNG)
+    ![Select Dynamics CRM Online under Select an API](media/register-spa-permission-dyncrm.PNG)
 
 12. Now in the **Selected permissions** tab, select all **Delegated Permissions** and click on **Select** at the end of the page.
 
-![Select all Delegated permissions](media/register-spa-del-permissions.PNG)
+    ![Select all Delegated permissions](media/app-registration-delegate-permissions-page.png)
 
 13. Then select **Done**. You will see a row for **Dynamics CRM Online** added.
 
-![New row for Dynamics CRM Online gets added](media/register-spa-row-dyncrm.PNG)
+    ![New row for Dynamics CRM Online gets added](media/app-registration-select-api-page.png)
 
 14. Now close the **Settings** tab. In the registered app tab, select **Manifest**.
 
 15. Click on **Edit** and locate the line: `"oauth2AllowImplicitFlow": false,` and change `false` to `true` and then click on **Save** to save the file.
 
-![Set oauth2AllowImplicitFlow to true in Manifest file](media/register-spa-edit-manifest.PNG)
+    ![Set oauth2AllowImplicitFlow to true in Manifest file](media/register-spa-edit-manifest.PNG)
 
 16. For successful execution of your application, you will also need to grant administrator consent to it. To do this, login as a tenant admin in your Azure management portal and select **Azure Active Directory**. Then click on **Enterprise Applications** and from the list of applications that appear, select the application that you just created.
 
-![Grant administrator consent to your application](media/simple-spa-admin-consent.PNG)
+    ![Grant administrator consent to your application](media/simple-spa-admin-consent.PNG)
 
 17. Now select **Permissions** as shown above, and click on **Grant admin consent for**`<your AAD Org name>`.
 
-![Click on Grant admin consent button](media/simple-spa-admin-consent-button.PNG)
+    ![Click on Grant admin consent button](media/simple-spa-admin-consent-button.PNG)
 
 18. Once you click on this button, it will open a login window and ask you whether you wish to grant the requested permissions to your application. Click on **Accept** to proceed.
 
-![Click on Accept to grant the requested permissions](media/simple-spa-admin-consent-click-accept.PNG)
+    ![Click on Accept to grant the requested permissions](media/simple-spa-admin-consent-click-accept.PNG)
 
 19. Once this is done, proceed to debugging the application.
 
