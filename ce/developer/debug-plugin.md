@@ -4,7 +4,7 @@ description: "Learn about debugging a plug-in executing on a D365 (on-premises) 
 keywords: 
 ms.date: 01/28/2019
 ms.service: crm-online
-ms.custom: 
+ms.custom: on-premise
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

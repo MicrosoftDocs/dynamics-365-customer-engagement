@@ -1,7 +1,7 @@
 ---
 title: "Access external web resources (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 description: "Learn how to access a web resource, for example a web service, from a custom plug-in or workflow activity."
-ms.custom: ""
+ms.custom: on-premise
 ms.date: 2/6/2019
 ms.reviewer: "pehecke"
 ms.service: crm-online
