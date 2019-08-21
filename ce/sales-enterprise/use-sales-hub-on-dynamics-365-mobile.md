@@ -1,5 +1,5 @@
 ---
-title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dyanmics 365 for Sales) | Microsoft Docs"
+title: "Use Sales Hub on Dynamics 365 for phones and tablets (Dynamics 365 for Sales) | Microsoft Docs"
 description: "Use Sales Hub on Dynamics 365 phones and tablets"
 keywords: Customer Service Hub on mobile; Customer Service;  Microsoft Dynamics 365 for Customer Engagement;
 ms.date: 04/01/2018
