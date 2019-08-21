@@ -138,7 +138,6 @@ These entities and corresponding commands are available in offline mode.
 |Connection|Read only|
 |Connection Role|Read only|
 |Contact|Create, Read, Update, Delete	|
-|Currency|Create, Read, Update, Delete|
 |Custome Entity|Create, Read, Update, Delete	|
 |Email|Read only	|
 |Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
