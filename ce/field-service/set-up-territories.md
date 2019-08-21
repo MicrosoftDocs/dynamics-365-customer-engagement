@@ -95,23 +95,39 @@ When a Work Order is Booked, the Service Territory will be auto populated in the
 Territories can also be leveraged to create a segmented Schedule Board.  By simply using the Territory filter and saving the filters, organizations can have focused territory boards.  
  
 
-scheduleboard
 
-accountterritory
-
-newresourceterritory
-
-resourceterritory
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduleboard.png)
 
 
-multipleterritoriesonresource
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/accountterritory.png)
 
 
-newterritory
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/newresourceterritory.png)
 
 
-territories
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/resourceterritory.png)
 
-territoryfilters
 
-schedulingparameter
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/multipleterritoriesonresource.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/newterritory.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/territories.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/territoryfilters.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedulingparameter.png)
