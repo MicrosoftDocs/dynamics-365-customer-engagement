@@ -244,7 +244,7 @@ Captcha elements are only available when you are working with a landing-page for
 
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Create a new email and add content](email-design.md)    
+[Create a new email and design its content](email-design.md)    
 [Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)  

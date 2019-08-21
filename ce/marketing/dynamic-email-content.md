@@ -412,7 +412,7 @@ The following example (also shown previously) shows how to use comments to enclo
 ### See also
 
 [Email marketing overview](prepare-marketing-emails.md)  
-[Create a new email and add content](email-design.md)  
+[Create a new email and design its content](email-design.md)  
 [Set the sender, receiver, and legal designation](email-properties.md)  
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)

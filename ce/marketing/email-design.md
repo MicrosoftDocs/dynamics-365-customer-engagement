@@ -24,7 +24,7 @@ search.app:
   - D365Mktg
 ---
 
-# Create a new email and add content
+# Create a new email and design its content
 
 Read this topic to learn how to create an email message and design its content. See also the [email marketing overview](prepare-marketing-emails.md) for a summary of the full message creation, delivery, and analysis process for email marketing. 
 
@@ -70,11 +70,11 @@ After choosing a template, you'll be in the email content designer, which resemb
 > 
 > - Emails larger than 100 KB are often flagged as spam by spam filters
 > - Gmail truncates messages after the first 102 KB of source text and coding.
-> - Emails larger than 128 KB can't be delivered by a customer journey (the journey will [fail its error check](#go-live-journey) if it includes messages larger than this)
+> - Emails larger than 128 KB can't be delivered by a customer journey (the journey will [fail its error check](email-check-golive.md) if it includes messages larger than this)
 > - Large emails take longer to load, which may annoy recipients.
 
 > [!NOTE]
-> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](#preview-message) to see how your designs look in specific Outlook configurations.
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](email-preview.md) to see how your designs look in specific Outlook configurations.
 
 <a name="required-links"></a>
 

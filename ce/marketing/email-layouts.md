@@ -56,7 +56,7 @@ Layout elements create a structure onto which you can drag other types of design
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Create a new email and add content](email-design.md)  
+[Create a new email and design its content](email-design.md)  
 [Design elements reference](content-blocks-reference.md)
 
 

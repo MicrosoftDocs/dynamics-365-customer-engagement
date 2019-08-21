@@ -351,5 +351,5 @@ So, in this example, the `<img>` tag would resolve to something like:
 
 [Work with email, page, and form templates](email-templates.md)  
 [Email marketing overview](prepare-marketing-emails.md)  
-[Create a new email and add content](email-design.md)  
+[Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
