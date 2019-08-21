@@ -108,7 +108,9 @@ With Dynamics 365 for Customer Engagement apps, start by opening the app for you
  **21**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
 ## Customer service app sitemap  
- ![Customer Service app site map](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
+ 
+   > [!div class="mx-imgBorder"]
+   > ![Customer Service app site map](../basics/media/customer-service-app-sitemap.png "Customer Service app site map")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
