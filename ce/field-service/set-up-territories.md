@@ -1,9 +1,9 @@
 ---
-title: "Set up territories (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Territories | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
-ms.reviewer: 
+ms.date: 08/22/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -13,10 +13,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement Version 9.x
-author: krbjoran
+author: FieldServiceDave
 ms.assetid: 5b22bdbc-4c52-4889-bf29-df0023d504f6
 caps.latest.revision: 17
-ms.author: krbjoran
+ms.author: Hollycha
 manager: shellyha
 search.audienceType: 
   - admin
@@ -26,16 +26,30 @@ search.app:
   - D365CE
   - D365FS
 ---
-# Set up territories to divide service areas (Field Service)
+# Territories for accounts, work orders, and scheduling
 
-Territories are used to divide large service areas. If a service territory is assigned to a service account record, and a work order is generated for that service account, then the work order will inherit the service territory from the service account. When you are scheduling a work order using the scheduling assistant, the suggested available resources can be filtered based on the resources that are assigned to the same territory as the work order. Using territories also helps dispatchers manage the schedules more efficiently when managing the schedule board.  
+Territories help you divide your business into geographical regions for management, scheduling, an reporting.
+
+city, state, county, 
+divide your customers
+divide your resources
+
+scheduling, reporting
+
+
+Territories are used to divide large service areas. 
+
+If a service territory is assigned to a service account record, and a work order is generated for that service account, then the work order will inherit the service territory from the service account. 
+
+When you are scheduling a work order using the scheduling assistant, the suggested available resources can be filtered based on the resources that are assigned to the same territory as the work order. 
+
+Using territories also helps dispatchers manage the schedules more efficiently when managing the schedule board.  
 
 Dynamics 365 Territories can be leveraged to segment Customers, Resources and Work Orders.  By using Territories, work can be assigned to the proper Resource by matching the assigned Territory.  
   
 > [!NOTE]
 >  To assign a territory to a resource, you will need to add the resource to a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up bookable resources](../field-service/set-up-bookable-resources.md)  
-  
-<a name="BKMK_CreateATerritory"></a>   
+   
 ## Create a territory  
   
 1.  From the main menu, click **Field Services** > **Administration**, and then choose **Territories**.  
@@ -131,3 +145,8 @@ Territories can also be leveraged to create a segmented Schedule Board.  By simp
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedulingparameter.png)
+
+## Additional notes
+
+- Zip codes
+- other uses for territories, Sometimes, they're an overlap of functional area and geography. 
