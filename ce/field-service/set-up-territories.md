@@ -32,7 +32,7 @@ Territories help you divide your business into geographical regions for work ord
 
 By using territories with work orders and resources, you can ensure dispatchers only schedule work orders to field technicians (resources) with a matching territory. In other words, territories serve as a filter on the schedule board, schedule assistant, and resource scheduling optimization.
 
-Territories are also important for reporting because many organizations want to report on first time fix rate, work order count and type, and work order invoice revenue **by territory**.
+Territories are also important for reporting because many organizations want to measure first time fix rate, work order count by type, and work order invoice revenue **by territory**.
 
 Using territories in the Field Service solution includes:
 
@@ -43,36 +43,32 @@ Using territories in the Field Service solution includes:
 5. Using territories on the schedule board
  
    
-## Create a territory  
+## Create a territory 
+
+Create all of your territories as master data in Field Service Settings. Sometimes this is done via importing an Excel sheet.
   
 1.  From the main menu, click **Field Services** > **Administration**, and then choose **Territories**.  
   
 2.  On the **All Territories** screen, click **+New** in the upper left corner.  
-  
-3.  Fill in your information:  
-  
-    - **Name**: Enter the geographical name for the territory, such as the name of a city, country/region, or a state.  
-  
-    - **Manager**: Enter the name of the user who manages this territory. This person typically assigns leads to salespeople.  
-  
-    - **Important**: You can't allocate the same user to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
-  
-    - **Description**: Enter any details that you'd like to include for this territory; for example, "Sales territory created for education and training".  
-  
-4.  When you're done, on the command bar, click **Save** or **Save & Close**.  
-
-Territories are managed in Field Service Settings
- 
-To add a new Territory, click the New button.  Populate the Territory Name and the Manager.  
-
-Create all of your territories as master data in Field Service Settings. Sometimes this is done via importing an Excel sheet.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/territories.png)
-
+  
+3.  Fill in your information: 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/newterritory.png)
+  
+  - **Name**: Enter the geographical name for the territory, such as the name of a city, country/region, or a state.  
+  
+  - **Manager**: Enter the name of the user who manages this territory. This person typically assigns leads to salespeople.  
+  
+  - **Important**: You can't allocate the same user to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
+  
+  - **Description**: Enter any details that you'd like to include for this territory,   
+  
+1.  When you're done, on the command bar, click **Save** or **Save & Close**.  
+
  
 ## Assign resources to territories  
   
