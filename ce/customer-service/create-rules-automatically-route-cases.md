@@ -30,6 +30,8 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 ## Install Routing Rules - preview solution
 
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 1. Go to [Microsoft 365 Admin center](https://admin.microsoft.com/AdminPortal/Home).
 
 2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
@@ -53,6 +55,8 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
     The solution is installed in your organization.
 
 ## Create a routing rule set (Customer Service Hub)
+
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
