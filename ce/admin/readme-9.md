@@ -436,19 +436,11 @@ localization and format issues.
 Dynamics 365 App for Outlook
 ----------------------------
 
--   Initial loading might take some time.
-
 -   In Internet Explorer 11, Internet Explorer frequently displays a "long
     running script" error message.
 
--   The ability to follow an email while composing isn't available.
-
 -   The app isn't supported while accessing it from Outlook Web Application from
     Safari or Firefox.
-
--   Opening and closing the app a few times repeatedly in Internet Explorer and
-    Microsoft Edge in Outlook Web Access causes the browser to become
-    unresponsive.
 
 -   If there are any custom security roles, [the roles need to be assigned to
     Dynamics 365 App for Outlook App
