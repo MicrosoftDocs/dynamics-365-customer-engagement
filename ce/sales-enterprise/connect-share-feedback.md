@@ -19,7 +19,14 @@ ms.tgt_pltfrm:
 
 # Connect and share feedback for the Sales Hub app
 
-The Connect and share capability in the Sales Hub app lets experts and peers to connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The Connect and share capability in the Sales Hub app lets experts and peers connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 ## Connect through community and forum
 

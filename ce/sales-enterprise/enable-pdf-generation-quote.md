@@ -3,10 +3,13 @@ title: "Enable generation of PDF from quotes (Dynamics 365 for Sales) | Microsof
 description: "Enable your users to create and share a professional-looking quote PDF with the customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF, enable"
 ms.date: 05/22/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
+applies_to:
+  - "Dynamics 365 for Customer Engagement"
 ms.assetid: 09e5b4a3-00c1-4577-8e6f-093df2ccdb34
 author: shubhadaj
 ms.author: shujoshi
@@ -23,7 +26,8 @@ To allow your users to generate PDF documents directly from a quote, you must en
 
 > [!IMPORTANT]
 > - The create quote PDF capability and the option to enable PDF generation is introduced in version 9.0.1905.2010.
-> - In the August 2019 release, the option to generate PDf is enabled by default.
+> - In the August 2019 preview, the option to generate PDf is enabled by default for organizations that have opted for the preview.
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
 1.	At the bottom of the site map, select **Change area** ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and select **App Settings**.
 
