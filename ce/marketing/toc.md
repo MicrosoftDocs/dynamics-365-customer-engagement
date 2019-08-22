@@ -89,7 +89,7 @@
 #### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Preview: Check your spam score](spam-score.md)
 #### [Early access: Design multi-column layouts for email messages](email-layouts.md)
-#### [Early access: Design and run A/B test on your email designs](email-a-b-testing.md)
+#### [Early access: Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)

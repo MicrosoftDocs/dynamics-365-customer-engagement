@@ -24,7 +24,7 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: Design and run A/B test on your email designs
+# Early access: Design and run A/B tests on your email designs
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 

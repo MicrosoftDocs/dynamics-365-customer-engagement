@@ -54,9 +54,11 @@ The following are also confirmed by the check:
 
 ## Go live and set up a customer journey to deliver your message
 
-While you prepare a message, it stays in a draft state, which means that it's inactive and can't be sent. To send it, you must first publish it (which activates its dynamic content and moves it to the bulk messaging server), and then add it to a customer journey (which, at minimum, establishes a target segment and then sends the message to all the contacts in that segment).
+While you prepare a message, it stays in a draft state, which means that it's inactive and can't be sent. To send it, you must first go live with it (which activates its dynamic content and moves it to the bulk messaging server), and then add it to a customer journey.
 
-To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
+To publish a message, open it and select **Go Live** on the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will run a final validation check, as described in the previous section, and&mdash;if it passes&mdash;publish the message. If errors are returned, read the error messages, address the issues, and try again until the message is successfully published.
+
+To address, schedule and deliver the message, set up a customer journey that includes a segment tile to define the target audience and an email tile that references your live email design and delivers it to each contact that enters the tile. You can also include any number of other tiles, including triggers and follow-up actions. To run the customer journey and begin sending messages, choose a start date and end date and go live.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
 
