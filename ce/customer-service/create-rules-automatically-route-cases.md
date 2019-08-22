@@ -28,7 +28,69 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 > [!NOTE]
 > With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. 
 
-## Create a routing rule set  
+## Create a routing rule set (Customer Service Hub)
+
+1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
+
+     When you create and activate a routing rule set, internally a corresponding workflow is also created. Whatever action you do on the routing rule set, like creating or assigning the rule, you must have privileges to perform the same action on workflows. For the rule to work, you must have sufficient privileges to run a workflow. The routine rule set is applied in context of the privileges that the owner of the routing rule set has.  
+
+   **Check your security role**  
+
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+2. Add the following privileges to CSR Manager for Routing Rule Instances:
+
+    > [!div class="mx-imgBorder"]
+    > ![Provide privileges to CSR manager](media/rr-privileges-csrm.png "Provide privileges to CSR manager")
+
+3.	In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Routing Rule Sets**.
+
+4.	To create a new routing rule set, select **New** on the command bar.
+
+5.	Enter **Name** and **Description** of the new routing rule set in the **Routing Rule Set Information** section of the **General** tab.
+
+6.	Select **Save** to save the new routing rule set. The **Rule Items** section is displayed.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create routing rules general information](media/rr-create-rule-set.png "Create routing rules general information")
+
+6.	In the **Rule Items** section, select **Add New Rule Item** to specify conditions that will be evaluated while routing cases to a queue, an agent or a team.
+
+7.	You can add multiple rule items and arrange them in the desired order. The rule items are evaluated in the order of definition.
+
+    Rule items are evaluated from top to bottom. If a rule item is evaluated as **True**, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as False, further rule items are evaluated.
+    
+    a.	In the **General** tab of the **Rule Item** form, enter a **Name** and **Description** for the new rule item.
+
+    b.	Specify the **If Conditions** and **Then Conditions**. **If Conditions** evaluate the case and **Then Conditions** specify the destination of the case once it is evaluated. You can specify the conditions in the following ways:
+    
+       - Add a new condition row using **Add Row**. Select **…** to group multiple rows of conditions into one group.
+        
+       -	Add a group of conditions using **Add Group**. Select **…** to ungroup a group of conditions.
+        
+       -	Add a condition for a specific entity using **Add related entity**.
+    
+      > [!TIP]
+      > To group conditions in a particular criterion, use the **And** or **Or** options.
+
+       -	Select the destination in the **Action** section. You can route the case to an agent, a queue, or a team.
+
+      For example, all cases (Case Title) about printer issues from customers based in Portland, United States, should be routed to an agent named Gilda Moss, who is the subject-matter expert of the team. The rule item for the above condition can be configured as shown next.
+
+      > [!div class="mx-imgBorder"]
+      > ![Create condition](media/rr-create-condition.png "Create condition")
+
+    c.	Select **Save & Close** to save and close the rule item.
+
+8.	In the **Routing Rule Set** record, select **Activate** so that the rule set is applied to the cases matching the conditions in the rule.
+
+    > [!NOTE]
+    > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.  
+    > - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.  
+
+## Create a routing rule set (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -71,7 +133,7 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
       !["Then Conditions" for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png "Then Conditions  for routing rule in Dynamics CRM")  
 
 > [!TIP]
->  To group conditions in the criteria, use the **Group And** or **Group Or** options.  
+> To group conditions in the criteria, use the **Group And** or **Group Or** options.  
 
 
 8. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
@@ -83,12 +145,17 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 > - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.  
 
 ## Apply a routing rule set  
- An active routing rule set automatically applies to all automatically-created cases.  
 
- To manually apply the rule to existing or manually-created cases, in the list of cases, select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.  
+An active routing rule set automatically applies to all automatically created cases. To manually apply the rule to any existing or manually created cases:
+
+1.	In the Customer Service Hub, go to the list of cases in the **My Active Cases** view.
+2.	Select the cases that you want to route using this rule, and on the command bar, select **Apply Routing Rule**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Apply routing rules set](media/rr-activate-rules.png "Apply routing rules set") 
 
 > [!NOTE]
->  If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
+> If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.  
 
 ## Recommendation to upgrade solution
 
