@@ -28,7 +28,9 @@ search.app:
 ---
 # Territories for accounts, work orders, and scheduling
 
-Territories help you divide your business into geographical regions for management, scheduling, an reporting.
+Territories help you divide your business into geographical regions for management, scheduling, and reporting. You can group your customers, work orders, and resources based on city, state, county, zip code, or a custom territory such as "West region."
+
+By using territories with work orders and resources, you can ensure dispatchers only schedule work orders to field technicians (resources) with a matching territory. In other words, territory serves as a filter on the schedule board, schedule assistant, and resource scheduling optimization.
 
 city, state, county, 
 divide your customers
