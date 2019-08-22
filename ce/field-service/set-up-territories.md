@@ -34,6 +34,34 @@ By using territories with work orders and resources, you can ensure dispatchers 
 
 Territories are also important for reporting because many organizations want to report on first time fix rate, work order count and type, and work order invoice revenue **by territory**.
 
+Here is how you can use territories in the Field Service solution:
+
+1. Create all of your territories as master data in Field Service Settings. Sometimes this is done via importing an Excel sheet.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/territories.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/newterritory.png)
+
+2. Associate one more territories to resources to represent the geographic territories they work in.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/resourceterritory.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/newresourceterritory.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/multipleterritoriesonresource.png)
+
+3. Mark each account as part of a service territory. An account can only be part of one service territory.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/accountterritory.png)
+
 
 
 Territories are used to divide large service areas. 
@@ -96,7 +124,17 @@ Resources can be a part of multiple Territories.
  
 Accounts can be assigned a Service Territory on the Field Service tab.  
  
-## Leverage territories for scheduling
+
+## Territories for scheduling
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/territoryfilters.png)
+
+## Territories on the schedule board
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduleboard.png)
+
 
 Leveraging Territories for Scheduling
 By assigning a Territory to a Work Order, either manually or automatically through a workflow or mapping, the Scheduling Engine will use the Territory to find a resource in the matching territory.  This will ensure resources stay within their assigned territories.  To ensure the Territory will be used, enable the filter by default in the Scheduling Parameter. This setting is found in the Universal Resource Scheduling App, Administration.   Verify Auto Filter Service Territory set to Yes.
@@ -106,41 +144,8 @@ When a Work Order is Booked, the Service Territory will be auto populated in the
  
 
 Territories can also be leveraged to create a segmented Schedule Board.  By simply using the Territory filter and saving the filters, organizations can have focused territory boards.  
- 
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduleboard.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/accountterritory.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/newresourceterritory.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/resourceterritory.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/multipleterritoriesonresource.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/newterritory.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/territories.png)
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/territoryfilters.png)
-
+## Configuration considerations
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedulingparameter.png)
