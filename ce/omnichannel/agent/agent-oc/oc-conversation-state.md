@@ -94,8 +94,6 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 The conversations that are completed by ending, and closing the session are classified under **Closed** state. When you close a conversation, you cannot reactivate or reopen the conversation again.
 
-<a name="BKMK_autoclose"></a>
-
 ## Automatic closure of a conversation
 
 Omnichannel for Customer Service has a default time set for the conversations to close automatically. That is, if a conversation in a certain state remains in the same state more than the default time, then the conversation is automatically moved to the closed state.
