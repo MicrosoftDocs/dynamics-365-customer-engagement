@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for Customer Engagement - operated by 21Vianet in China | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -46,7 +46,7 @@ There are a few technical limitations during the provisioning of services that n
 |**Purchased Office 365 via OSSA or CSP and purchased Dynamics 365.**    |Dynamics 365 needs to be provisioned on a separate tenant.          |
 
 OSPA = Online Services Premium Agreement<br />
-OSSA = Online Service Subscription Agreement<br />
+OSSA = Online Services Standard Agreement<br />
 CSP = Cloud Solution Provider
 
 For information on provisioning environments, see [Create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/create-environment).
