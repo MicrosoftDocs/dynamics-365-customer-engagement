@@ -25,10 +25,7 @@ search.app:
 
 Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
-> [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. 
-
-## Install Routing Rules - preview solution
+## Preview: Install Routing Rules - preview solution
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -50,15 +47,22 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 6. Select the install icon next on the **Routing Rules - preview** card. The **Terms of service** page appears.
 
+   > [!div class=mx-imgBorder]
+   > ![Install routing rules preview solution](media/routing-rules-preview-solution.png "Install routing rules preview solution")
+
 7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
 
     The solution is installed in your organization.
 
-## Create a routing rule set (Customer Service Hub)
+## Preview: Create a routing rule set (Customer Service Hub)
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
+### Perquisites
+
+Review the following prerequisites before creating a routing rule set:
+
+- [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
      When you create and activate a routing rule set, internally a corresponding workflow is also created. Whatever action you do on the routing rule set, like creating or assigning the rule, you must have privileges to perform the same action on workflows. For the rule to work, you must have sufficient privileges to run a workflow. The routine rule set is applied in context of the privileges that the owner of the routing rule set has.  
 
@@ -68,25 +72,27 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Add the following privileges to CSR Manager for Routing Rule Instances:
+- Add the following privileges to CSR Manager for Routing Rule Instances:
 
     > [!div class="mx-imgBorder"]
     > ![Provide privileges to CSR manager](media/rr-privileges-csrm.png "Provide privileges to CSR manager")
 
-3.	In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Routing Rule Sets**.
+### Creating routing rule set
 
-4.	To create a new routing rule set, select **New** on the command bar.
+1.	In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Routing Rule Sets**.
 
-5.	Enter **Name** and **Description** of the new routing rule set in the **Routing Rule Set Information** section of the **General** tab.
+2.	To create a new routing rule set, select **New** on the command bar.
 
-6.	Select **Save** to save the new routing rule set. The **Rule Items** section is displayed.
+3.	Enter **Name** and **Description** of the new routing rule set in the **Routing Rule Set Information** section of the **General** tab.
+
+4.	Select **Save** to save the new routing rule set. The **Rule Items** section is displayed.
 
     > [!div class="mx-imgBorder"]
     > ![Create routing rules general information](media/rr-create-rule-set.png "Create routing rules general information")
 
-6.	In the **Rule Items** section, select **Add New Rule Item** to specify conditions that will be evaluated while routing cases to a queue, an agent or a team.
+5.	In the **Rule Items** section, select **Add New Rule Item** to specify conditions that will be evaluated while routing cases to a queue, an agent or a team.
 
-7.	You can add multiple rule items and arrange them in the desired order. The rule items are evaluated in the order of definition.
+6.	You can add multiple rule items and arrange them in the desired order. The rule items are evaluated in the order of definition.
 
     Rule items are evaluated from top to bottom. If a rule item is evaluated as **True**, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as False, further rule items are evaluated.
     
@@ -112,7 +118,7 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
     c.	Select **Save & Close** to save and close the rule item.
 
-8.	In the **Routing Rule Set** record, select **Activate** so that the rule set is applied to the cases matching the conditions in the rule.
+7.	In the **Routing Rule Set** record, select **Activate** so that the rule set is applied to the cases matching the conditions in the rule.
 
     > [!NOTE]
     > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.  
