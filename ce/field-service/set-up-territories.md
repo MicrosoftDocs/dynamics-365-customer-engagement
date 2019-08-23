@@ -34,12 +34,12 @@ By using territories with work orders and resources, you can ensure dispatchers 
 
 Territories are also important for reporting because many organizations want to measure first time fix rate, work order count by type, and work order invoice revenue **by territory**.
 
-Using territories in the Field Service solution includes:
+Configuring territories in the Field Service solution includes:
 
 1. Creating your territories
 2. Associating territories to resources
 3. Adding accounts to territories
-4. Using territories for work order scheduling
+4. Using territories during work order scheduling
 5. Using territories on the schedule board
  
    
@@ -48,11 +48,11 @@ Using territories in the Field Service solution includes:
 Create all of your territories as master data in Field Service Settings. Sometimes this is done via importing an Excel sheet.
   
 1.  From the main menu, click **Field Services** > **Administration**, and then choose **Territories**.  
-  
-2.  On the **All Territories** screen, click **+New** in the upper left corner.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/territories.png)
+
+2.  On the **All Territories** screen, click **+New** in the upper left corner.  
   
 3.  Fill in your information: 
 
@@ -63,39 +63,36 @@ Create all of your territories as master data in Field Service Settings. Sometim
   
   - **Manager**: Enter the name of the user who manages this territory. This person typically assigns leads to salespeople.  
   
-  - **Important**: You can't allocate the same user to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
-  
   - **Description**: Enter any details that you'd like to include for this territory,   
   
-1.  When you're done, on the command bar, click **Save** or **Save & Close**.  
+4.  **Save & Close**.  
 
  
-## Assign resources to territories  
-  
-1.  To assign members to a sales territory, open the territory and then, in the left pane, under **Common**, choose **Members**.  
-  
-2.  At the top of **Users**, click **Add Members**.  
-  
-3.  In the **Look Up Records** dialog box, select a user, and then click **Add**.  
+## Assign resources to territories
 
-To add Resources to the Territory, navigate to a Resource record. Click the Related button to find Resource Territories.  
- 
-
-Click Add New Resource Territory.  Populate the Territory, Resource and Name.  
- 
-Resources can be a part of multiple Territories. 
-
-Associate one more territories to resources to represent the geographic territories they work in.
+Field technicians, equipment, and facilities, represented in the system as Bookable Resources, can belong to one or more territories to define the geographic territories they work in.
+  
+1. Go to Resources in the main menu and select the resource you want to add to a territory.  
+  
+2. From the resource form go to **Related** > **Resource Territories**.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/resourceterritory.png)
 
+3.  Then select **+ Add New Resource Territory**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/newresourceterritory.png)
 
+
+4. Populate the Territory, Resource, and Name (optional).  
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/multipleterritoriesonresource.png)
+
+
+> [!Note]
+> Resources can be a part of multiple territories, but accounts and work orders can only belong to one. 
  
 ## Add accounts to territories
 
@@ -142,3 +139,6 @@ Territories can also be leveraged to create a segmented Schedule Board.  By simp
 - workflows that add and remove resources to territories by day of week
 - territories are not hierarchical 
 - territories for non work order scenarios- traveling sales person
+- You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
+- crews?
+  
