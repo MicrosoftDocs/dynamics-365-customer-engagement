@@ -96,11 +96,17 @@ Field technicians, equipment, and facilities, represented in the system as Booka
  
 ## Add accounts to territories
 
-Mark each account as part of a service territory. An account can only be part of one service territory.
+Next, mark each account as part of a service territory. 
+
+This is done in the **Service Territory** lookup field on the Field Service tab of the Account form, which is exposed when the Field Service app is installed in your Dynamics 365 environment. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/accountterritory.png)
-Accounts can be assigned a Service Territory on the Field Service tab.  
+ 
+
+
+> [!Note]
+> An account can only be part of one service territory.
  
 
 ## Territories for scheduling
