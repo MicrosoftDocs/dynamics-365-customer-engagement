@@ -83,7 +83,7 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
   
 - Service Endpoint  
   
-- Site Map  
+- SiteMap  
 
 - Virtual Entity Data Provider
 
