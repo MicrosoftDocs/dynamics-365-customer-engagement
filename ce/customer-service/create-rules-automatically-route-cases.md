@@ -43,9 +43,9 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
    > [!div class=mx-imgBorder]
    > ![Edit the solutions](media/dynamics-365-admin-instance-edit-csh.png)
 
-5. In the **Manage your solutions** page, select **Routing Rules - preview**. The status column shows **Not installed**.
+5. In the **Manage your solutions** page, select **Routing Rules - Preview**. The status column shows **Not installed**.
 
-6. Select the install icon next on the **Routing Rules - preview** card. The **Terms of service** page appears.
+6. Select the install icon next on the **Routing Rules - Preview** card. The **Terms of service** page appears.
 
    > [!div class=mx-imgBorder]
    > ![Install routing rules preview solution](media/routing-rules-preview-solution.png "Install routing rules preview solution")
