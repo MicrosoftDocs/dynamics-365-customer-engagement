@@ -2,7 +2,7 @@
 title: "Installation & setup for Connected Field Service for IoT Hub (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 08/23/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -361,7 +361,9 @@ This guide provides all the steps required for getting up and running with Conne
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
- - [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+[Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/)
+
+[Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
   
 ### See also  
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)    
