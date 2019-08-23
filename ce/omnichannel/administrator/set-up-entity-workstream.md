@@ -33,14 +33,17 @@ This topic describes how to create a workstream that is used to route the case e
 
 1. Sign in to the Omnichannel for Administrator app.
 
-2. Select **Entity Records** entity record under **Channels** in the sitemap. A blank **Entity Record Workstreams** view is displayed.
+2. Select **Work Streams** under **Work Distribution Management** in the sitemap.
 
-3. Select **+ New** in the **Entity Record Workstreams** view.
+3. Select **Entity Record Workstreams** from the view list.
 
     > [!div class=mx-imgBorder] 
-    > ![Create new Cases workstream](../media/case-ws1.png "Create new workstream")
+    > ![Create new Cases workstream](../media/select-entity-records-view.png "Create new workstream")
 
-4. Specify the following in the **New Work Stream** page.
+4. Select **+ New** in the **Entity Record Workstreams** view.
+
+
+5. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
@@ -54,7 +57,7 @@ This topic describes how to create a workstream that is used to route the case e
     > [!div class=mx-imgBorder] 
     > ![Specify values for the fields](../media/case-ws3.png "New case workstream")
 
-4. Select **Save** to save the workstream.
+6. Select **Save** to save the workstream.
 
 ## See also
 

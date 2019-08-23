@@ -63,10 +63,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 
 ## Wrap-up
 
-This is an intermediate state after you end the conversation, where you can do after active conversation activities like taking notes and update the customer information before moving the conversation to **Closed** state.
-
-> [!NOTE]
-> The wrap-up state consumes your (agent) capacity.
+This is an intermediate state after you end the conversation, where you can do after active conversation activities like taking notes and update the customer information before moving the conversation to **Closed** state. In the **Wrap-up** state, your (agent) capacity is consumed.
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** state under the following scenario. 
 

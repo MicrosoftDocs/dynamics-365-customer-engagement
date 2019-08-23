@@ -81,35 +81,37 @@ After creating the workstream for the cases, you must create the routing rules.
 
 1. Sign in to the Omnichannel for Administrator app.
 
-2. Select **Entity Records** under **Channels** in the sitemap.
+2. Select **Work Streams** under **Work Distribution Management** in the sitemap.
 
-3. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
+3. Select **Entity Record Workstreams** from the view list.
 
     > [!div class=mx-imgBorder] 
-    > ![Select a case workstream](../media/case-entity-channel1.png  "Case workstream")
+    > ![Create new Cases workstream](../media/select-entity-records-view.png "Create new workstream") 
 
-4. Select the **Routing Rules** tab in the workstream.
+4. Select the workstream you created for routing the cases from the **Entity Record Workstreams** view.
+
+5. Select the **Routing Rules** tab in the workstream.
 
     > [!div class=mx-imgBorder] 
     > ![Select the routing rule items tab](../media/case-routing-rule1.png "Routing rule items")
 
-5. Select **+ New** in the **All Routing Rule Sets** page.
+6. Select **+ New** in the **All Routing Rule Sets** page.
 
-6. Specify a name in the **New Routing Rule Set** page, and then select **Save** to save the rule. Once you save the record, you can see the **Rule Items** section in the page.
+7. Specify a name in the **New Routing Rule Set** page, and then select **Save** to save the rule. Once you save the record, you can see the **Rule Items** section in the page.
 
-7. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
+8. Select **+ Add New Rule Item** in the **Rule Items** section. A **New Rule Item** page appears. 
 
     > [!div class=mx-imgBorder] 
     > ![Add New Rule Item](../media/case-ws-rr2.png "Add New Rule Item")
 
-8. Specify the following on the **New Rule Item** page.
+9. Specify the following on the **New Rule Item** page.
 
     | Tab | Field | value | Description |
     |------------------|----------------------------|----------------------------------|--------------------------------------------|
     | General | Name | Product - Credit card | Specify a name to the rule item. |
     | General | Description | This rule item is used to for pushing high priority cases to the agents. | Specify a description for you to identify the purpose of the rule item. |
 
-9. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
+10. Select **+ Add v** in the **Rule Criteria** section, and then select **+ Add row**.
 
     a. Select a rule from the list for the first box. For example, **Subject**.
 
@@ -117,11 +119,11 @@ After creating the workstream for the cases, you must create the routing rules.
 
     c. Select a value for the rule from the list. For example, **Credit card**.
 
-10. Select **Queue** for the **Route to** field. 
+11. Select **Queue** for the **Route to** field. 
 
-11. Select an omnichannel queue for the **Add to Queue** field.
+12. Select an omnichannel queue for the **Add to Queue** field.
 
-    The steps 9 to 11 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
+    The steps 10 to 12 indicate if the **Subject** of a case is **Credit card**, then route the case to the selected omnichannel queue.
 
     > [!div class=mx-imgBorder] 
     > ![New Rule Item values](../media/case-ws-rr-rule-item2.png "New Rule Item values")
@@ -129,7 +131,7 @@ After creating the workstream for the cases, you must create the routing rules.
     > [!Note]
     > You must select an omnichannel queue for automatic work distribution in the **Add to Queue** field to automatically assign entity records to agents.
 
-12. Select **Save** to save the rule item.
+13. Select **Save** to save the rule item.
 
 ## Step 4: Update cases work distribution flow
 
