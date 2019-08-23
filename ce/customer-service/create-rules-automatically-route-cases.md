@@ -25,7 +25,7 @@ search.app:
 
 Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
-## Preview: Install Routing Rules - preview solution
+## Preview: Install Routing Rules - Preview solution
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -63,8 +63,6 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 Review the following prerequisites before creating a routing rule set:
 
 - [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
-
-     When you create and activate a routing rule set, internally a corresponding workflow is also created. Whatever action you do on the routing rule set, like creating or assigning the rule, you must have privileges to perform the same action on workflows. For the rule to work, you must have sufficient privileges to run a workflow. The routine rule set is applied in context of the privileges that the owner of the routing rule set has.  
 
    **Check your security role**  
 
