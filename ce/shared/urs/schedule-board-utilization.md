@@ -3,6 +3,9 @@ Dispatchers and service managers need to understand resource utilization to make
 Utilization is the amount of time a resource is scheduled to work. It is calculated as the percentage of booked time versus working hours. In all schedule board views, utilization is automatically calculated and displayed in each resource's cell.
 
 
+<!-- editor note: Are the names in all the screenshots in this topic from approved fictitious names lists? -->
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view on the schedule board](../../field-service/media/schedule-board-utilization.png)
 
@@ -10,15 +13,15 @@ In this topic, we will look at how resource utilization is calculated and displa
 
 ## Prerequisites
 
-- Utilization is calculated and displayed on the schedule board for all versions of Field Service
+Utilization is calculated and displayed on the schedule board for all versions of Field Service.
 
 ## Hours view
 
-For each resource, utilization percentage is derived from **Total Booked Hours** divided by **Total Working Hours** in the schedule board time frame.
+For each resource, utilization percentage is derived from **Total Booked Hours** divided by **Total Working Hours** in the schedule board timeframe.
 
-- **Total Booked Hours** is the sum of the hours booked to the resource
+- **Total Booked Hours** is the sum of the hours booked to the resource.
 
-- **Total Working Hours** is the sum of the resource's working hours
+- **Total Working Hours** is the sum of the resource's working hours.
 
 > [!Note]
 > Working hours are defined on each **Bookable Resource** record. Go to **Resource Scheduling** > **Resources**. See the topic on [setting up bookable resources](../../field-service/set-up-bookable-resources.md) for more details.
@@ -36,11 +39,11 @@ In the hourly view, the total working hours will be the sum of the hours seen on
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view on the schedule board](../../field-service/media/schedule-board-utilization-hourly-view.png)
  
-In the previous screenshot example, Matthew works a **12-hour shift** from 9AM to 9PM, and this shift repeats for **5 days**. Users will see this as they scroll from left to right across the schedule board.
+In the previous screenshot example, Matthew works a **12-hour shift** from 9 AM to 9 PM, and this shift repeats for **5 days**. Users will see this as they scroll from left to right across the schedule board.
 
 Therefore, Matthew’s total working hours in this hourly view are 12 multiplied by 5, resulting in 60 hours.
 
-If Matthew is booked a single 6-hour work order, then his utilization is 6 divided by 60, resulting in 10 percent, as shown in his resource card.
+If Matthew is booked for a single 6-hour work order, then his utilization is 6 divided by 60, resulting in 10 percent, as shown in his resource card.
  
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board with attention to a single resource's utilization rate showing 10 percent](../../field-service/media/schedule-board-utilization-hourly-view-booked.png)
@@ -67,7 +70,7 @@ Matthew already has a 12-hour booking for one day, so his utilization percentage
 
 ### Proposed and canceled bookings do not contribute to utilization
 
-Though the field service process utilizes many field service booking statuses such as traveling, in progress, on break, and completed, each of those relate to a booking status of either **Committed**, **Proposed**, or **Canceled**. The purpose of a proposed status is to suggest work that needs to be confirmed, while the canceled status is used to notify stakeholders that the booking is no longer scheduled. 
+Though the field service process uses many field service booking statuses such as traveling, in progress, on break, and completed, each of those relate to a booking status of either **Committed**, **Proposed**, or **Canceled**. The purpose of a proposed status is to suggest work that needs to be confirmed, while the canceled status is used to notify stakeholders that the booking is no longer scheduled. 
 
 For example, the **In Progress** status is categorized as **Committed** through the status field on the booking status entity, as seen in the following screenshot.
 
@@ -79,7 +82,7 @@ Bookings that have a **Proposed** or **Canceled** booking status are ignored for
 As seen in the following example, Brady was assigned a **Proposed** booking, but his utilization remained at 0 percent.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing a how a resource's utilization remained at 0 percent](../../field-service/media/schedule-board-utilization-proposed.png)
+> ![Screenshot of the schedule board showing how a resource's utilization remained at 0 percent](../../field-service/media/schedule-board-utilization-proposed.png)
 
 
 ### Sort schedule assistant results by utilization
