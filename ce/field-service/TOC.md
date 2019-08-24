@@ -22,7 +22,9 @@
 
 
 # Quickstarts
-## [Schedule a work order](quickstart-schedule-work-order.md)
+## [Create, schedule, and view a work order](quickstart-schedule-work-order.md)
+## [Auto-schedule a list of work orders with RSO](rso-quickstart.md)
+
 
 # Work orders
 ## [Work order life cycle and statuses](work-order-status-booking-status.md)
@@ -118,6 +120,7 @@
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)
+## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Set up a proof of concept](rso-proof-concept.md)
