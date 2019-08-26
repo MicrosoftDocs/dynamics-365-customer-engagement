@@ -165,13 +165,23 @@ You can define territories based on postal codes (zip codes). When creating a te
 
 ## Additional notes
 
+-
+- Territories are not hierarchical or associative 
+- **Crews:** if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory.
+- You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory. 
 
-- postal codes - works with account and work order
+### Using Territories for non-Field Service scenarios
+
+Beyond work order use cases, territories can be used for other scenarios. A common example is dividing salespersons into sales territories and scheduling time with leads, quotes, or opportunities. For this scenario, you can utilize a lookup to the service territory on the Resource Requirement form. For more details, see the topic on [enabling an entity for scheduling](./schedule-new-entity)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-territory-sales-opportunity.png)
+
 - other uses for territories, Sometimes, they're an overlap of functional area and geography. 
 - workflows that add and remove resources to territories by day of week
-- territories are not hierarchical 
-- territories for non work order scenarios- traveling sales person
-- You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
-- crews?
-  - if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory.
+
+
+ 
+
   
