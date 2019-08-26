@@ -61,6 +61,8 @@ To run the uninstall wizard:
 
 1. Follow the instructions on your screen to confirm and complete the uninstall.
 
+<a name="reset-portal"></a>
+
 ## Reset any Dynamics 365 Portals connected to the uninstalled Marketing app
 
 If the Dynamics 365 for Marketing instance that you are uninstalling was integrated with a Dynamics 365 Portal (for example to run marketing pages and the events website) then you must reset the portal to release its license. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
