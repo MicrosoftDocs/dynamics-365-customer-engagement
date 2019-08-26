@@ -123,20 +123,12 @@ When you assign a service account to a work order as required, the service terri
 
 Otherwise a service territory can be added manually on the work order form.
 
-When you attempt to book a work order via the schedule assistant by selecting **Book** from the work order form or via the schedule board, the Service Territory will auto populate as a Filter. 
+When you attempt to book a work order via the schedule assistant by selecting **Book** from the work order form or via the schedule board, the Service Territory will auto populate as a Filter, and only display related resources. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/territoryfilters.png)
 
 and the resources displayed will be part of that territory. 
-
-If a service territory is assigned to a service account record, and a work order is generated for that service account, then the work order will inherit the service territory from the service account. 
-
-When you are scheduling a work order using the scheduling assistant, the suggested available resources can be filtered based on the resources that are assigned to the same territory as the work order. 
-
-By assigning a Territory to a Work Order, either manually or automatically through a workflow or mapping, the Scheduling Engine will use the Territory to find a resource in the matching territory.  This will ensure resources stay within their assigned territories.  To ensure the Territory will be used, enable the filter by default in the Scheduling Parameter. This setting is found in the Universal Resource Scheduling App, Administration.   Verify Auto Filter Service Territory set to Yes.
- 
- 
 
 
 ## Territories on the schedule board
