@@ -146,15 +146,22 @@ From the schedule board, simply add one or more territories as filters, and the 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-territory-sb-filter-all.png)
 
-If you would like to filter requirements in the lower pane by the Territories, select the gear in the top right to access schedule board configurations and select **Apply Filter Territory**. In the image above, this filters the requirements in the lower panel to those in the "WA territory. Now both the resources and the requirements in the scheduel board tab all belong to the same territory.
+If you would like to filter requirements in the lower pane by the Territories, select the gear in the top right to access schedule board configurations and select **Apply Filter Territory**. In the image above, this filters the requirements in the lower panel to those in the "WA territory. Now both the resources and the requirements in the schedule board tab all belong to the same territory.
 
 ## Configuration considerations
 
-In **Resource Scheduling > Settings > Administration > Scheduling Parameters** there is a setting called **Auto Filter Service Territory** that will filter requirements on the schedule board tab based on the filtered territory by default. This corresponds with the example in the previous step.
-
+In **Resource Scheduling > Settings > Administration > Scheduling Parameters** there is a setting called **Auto Filter Service Territory** that will filter requirements on the schedule board tab based on the filtered territory by default. This corresponds with the example in the previous section.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedulingparameter.png)
+
+### Postal codes
+
+You can define territories based on postal codes (zip codes). When creating a territory, simply add one or more related postal codes. When the postal code is present on the account or work order address, the related territory will auto populate.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-territory-postal-codes.png)
 
 ## Additional notes
 
@@ -166,4 +173,5 @@ In **Resource Scheduling > Settings > Administration > Scheduling Parameters** t
 - territories for non work order scenarios- traveling sales person
 - You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.  
 - crews?
+  - if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory.
   
