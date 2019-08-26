@@ -3,9 +3,6 @@ Dispatchers and service managers need to understand resource utilization to make
 Utilization is the amount of time a resource is scheduled to work. It is calculated as the percentage of booked time versus working hours. In all schedule board views, utilization is automatically calculated and displayed in each resource's cell.
 
 
-<!-- editor note: Are the names in all the screenshots in this topic from approved fictitious names lists? -->
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the hourly view on the schedule board](../../field-service/media/schedule-board-utilization.png)
 
@@ -32,7 +29,6 @@ These values will change based on how many hours, days, and weeks you are viewin
 > ![Screenshot of the schedule board with attention to the hours and days options](../../field-service/media/schedule-board-utilization-edit-time.png)
 
 This is because as you view more days, the bookings and working hours will vary. 
-
 
 In the hourly view, the total working hours will be the sum of the hours seen on the schedule board as you scroll from the far left to the far right. 
 
