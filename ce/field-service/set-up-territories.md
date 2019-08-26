@@ -115,12 +115,15 @@ When scheduling work orders and other entities, you can match the required servi
 
 Lets use work orders as an example.
 
-When you assign a service account to a work order as required, the service territory of the account will auto populate, if the service territory field on the account has a value.
+When you assign a service account to a work order as required, the service territory of the account will auto populate on the work order, assuming the service account belongs to a service territory.
 
 
-Otherwise a service territory can be added manully on the work order form.
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-territory-account-work-order.png)
 
-When a Work Order is Booked, the Service Territory will be auto populated in the Filter. 
+Otherwise a service territory can be added manually on the work order form.
+
+When you attempt to book a work order via the schedule assistant by selecting **Book** from the work order form or via the schedule board, the Service Territory will auto populate as a Filter. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/territoryfilters.png)
