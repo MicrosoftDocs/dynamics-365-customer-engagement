@@ -38,7 +38,7 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
 3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
 
-4. select the edit icon next to solutions. Manage your solutions page appears.
+4. Select the edit icon next to solutions. Manage your solutions page appears.
 
    > [!div class=mx-imgBorder]
    > ![Edit the solutions](media/dynamics-365-admin-instance-edit-csh.png)
@@ -54,15 +54,37 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
     The solution is installed in your organization.
 
+## Preview: Add routing rule sets sitemap for custom apps 
+
+While creating custom apps, you might not have routing rules sets available in your sitemap. You must add the routing rule sets sitemap for your custom app to access. To add routing rule sets to sitemap, follow these steps:
+
+1. Sign in to Dynamics 365 and go to App designer.
+
+2. On your custom app, select more options (**...**) and then select **OPEN IN APP DESIGNER**.
+
+3. Select pencil icon corresponding to **Site Map**. 
+
+4. Select the area in which you want to add the routing rule set entity. Select **+ Add** and then select **Subarea**.
+ 
+5. On the **Properties** tab, under General section, add the subarea properties:
+
+    - **Type** as **Entity**.
+
+    - **Entity** as **Routing Rule Sets**.
+
+6. Save and publish the sitemap. 
+
+    The sitemap is created with Routing Rule Set and go to your custom app to locate Routing Rule Sets in the sitemap.
+
 ## Preview: Create a routing rule set (Customer Service Hub)
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-### Perquisites
+### Prerequisites
 
 Review the following prerequisites before creating a routing rule set:
 
-- [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
+1. Verify that you have the Customer Service Manager, System Administrator, System Customizer security role, or equivalent permissions before creating a routing rule set record.
 
    **Check your security role**  
 
@@ -70,10 +92,11 @@ Review the following prerequisites before creating a routing rule set:
 
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-- Add the following privileges to CSR Manager for Routing Rule Instances:
+2. In addition to the specified security role for creating a routing rule set, verify that you have below permissions for Routing Rule Instance entity before applying routing rules:
 
     > [!div class="mx-imgBorder"]
     > ![Provide privileges to CSR manager](media/rr-privileges-csrm.png "Provide privileges to CSR manager")
+
 
 ### Creating routing rule set
 
