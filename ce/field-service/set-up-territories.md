@@ -130,25 +130,35 @@ When you attempt to book a work order via the schedule assistant by selecting **
 
 and the resources displayed will be part of that territory. 
 
+If needed, you can manually add multiple territories as filters, this will search for resources in either territory.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/work-order-territory-sa-multiple.png)
 
 ## Territories on the schedule board
 
+Territories are also used on the schedule board to more effectively manage resources. It is common to create schedule board tabs specific to a single territory that is managed by a dispatcher.
 
-Using territories also helps dispatchers manage the schedules more efficiently when managing the schedule board. 
+From the schedule board, simply add one or more territories as filters, and the resources displayed will adjust accordingly. Then choose **Options > Save Current Filters as Default** to ensure the filters remain the next time you return to the schedule board tab.
+
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/scheduleboard.png)
+> ![Screenshot of ](./media/work-order-territory-sb-filter-all.png)
 
-Territories can also be leveraged to create a segmented Schedule Board.  By simply using the Territory filter and saving the filters, organizations can have focused territory boards.  
+If you would like to filter requirements in the lower pane by the Territories, select the gear in the top right to access schedule board configurations and select **Apply Filter Territory**. In the image above, this filters the requirements in the lower panel to those in the "WA territory. Now both the resources and the requirements in the scheduel board tab all belong to the same territory.
 
 ## Configuration considerations
+
+In **Resource Scheduling > Settings > Administration > Scheduling Parameters** there is a setting called **Auto Filter Service Territory** that will filter requirements on the schedule board tab based on the filtered territory by default. This corresponds with the example in the previous step.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedulingparameter.png)
 
 ## Additional notes
 
-- can you filter for multiple territories?
+
 - postal codes - works with account and work order
 - other uses for territories, Sometimes, they're an overlap of functional area and geography. 
 - workflows that add and remove resources to territories by day of week
