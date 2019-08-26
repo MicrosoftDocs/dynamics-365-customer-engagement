@@ -283,7 +283,7 @@ Finally, you can click on **Logout** button to logout.
     var pageUrl = "http://localhost:[PORT #]/SimpleSPA.html"; //The URL of this page in your development environment when debugging.  
   
     ```  
-  
+
 ## Register the application  
   
 1. Sign in to the [Azure portal](https://go.microsoft.com/fwlink/?linkid=2083908) using an account with administrator permission. You must use an account in the same Office 365 subscription (tenant) as you intend to register the app with. You can also access the Azure portal through the Microsoft 365 admin center by expanding the **ADMIN** item in the left navigation pane and selecting **Azure AD**.  
@@ -313,9 +313,9 @@ Finally, you can click on **Logout** button to logout.
   
    - **Name**<br />The name of the application.
 
-   - **Web application type**<br />Select **Web app/API**.
+   - **Supported account types**<br />Select **Accounts in any organizational directory**.
 
-   - **Redirect URL**<br />This is the URL which the user should be redirected to after they sign in. For debugging purposes in Visual Studio it should be  `http://localhost:####/SimpleSPA.html` where #### represents the port number you got from step 4 of the [Create a web application project](#bkmk_createwebapp) procedure. Then click on **Register** at the end of the page.
+   - **Redirect URL**<br />This is the URL which the user should be redirected to after they sign in. Select **Web** from the drop down list. For debugging purposes in Visual Studio it should be  `http://localhost:####/SimpleSPA.html` where #### represents the port number you got from step 4 of the [Create a web application project](#bkmk_createwebapp) procedure. Then click on **Register** at the end of the page.
 
    ![Enter details](media/new-app-registration-page.png)
 
@@ -327,14 +327,14 @@ Finally, you can click on **Logout** button to logout.
 
 10. Select **Dynamics CRM** under **Microsoft APIs** tab.
 
-    ![Select Dynamics CRM Online under Select an API](media/register-spa-permission-dyncrm.PNG)
+    ![Select Dynamics CRM Online under Select an API](media/app-registration-select-api-page.png)
 
-11. Now in the **Delegated permissions** tab, select all **Delegated Permissions** and click on **Add permissions** at the end of the page.
+11. Click on **Delegated permissions** tab, select all permissions and click on **Add permissions** at the end of the page.
 
     ![Select all Delegated permissions](media/app-registration-delegate-permissions-page.png)
 
-12. Then select **Done**. You will see a row for **Dynamics CRM Online** added.
-   
+12. Then select **Done**. You will see a row for **Dynamics CRM** added.
+
 13. Now close the **API permissions** tab. In the registered app tab, select **Manifest**.
 
 14. Locate the line: `"oauth2AllowImplicitFlow": false,` and change `false` to `true` and then click on **Save** to save the file.
