@@ -1,5 +1,5 @@
 ---
-title: "Configure incident types (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Configure incident types in Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
 ms.date: 08/02/2019
@@ -211,10 +211,6 @@ In order to appropriately schedule this work order, the related **Resource Requi
 
 The requirement record is used for scheduling, so when you select **Book** from the work order or requirement, the duration and characteristic (with rating value) are used as filters, both of which originated with the incident type.
 
-
-<!--editor question: Please confirm that the names in the following screenshot are from an approved fictitious names list. -->
-
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the schedule board filter view with characteristics populated](./media/work-order-incident-schedule.png)
 
@@ -251,10 +247,6 @@ Back on the work order, the second incident's products, services, and service ta
 The order of the service tasks reflects the order in which incidents are added.
 
 When attempting to book a work order with multiple incidents, the schedule assistant and Resource Scheduling Optimization will look for a single resource with time availability to complete all incidents and has all the matching characteristics. In the case of the schedule assistant, these filters can be edited at the time of scheduling as needed. 
-
-
-<!-- from editor: Please confirm the names in this screenshot are approved fictitious names, as with the previous screenshot. -->
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the scheduling assistant](./media/work-order-incident-type-add-multiple-schedule-assistant.png)
@@ -313,10 +305,6 @@ For more information, see the topic on [requirement groups for work orders](http
 - There is a **Resolution** tab on the **Work Order Incident** to document whether the incident was completed.
 - In the case of adding multiple incident types to a work order, if doing so adds two or more of the same characteristic (skill), the scheduling logic will use the most restrictive of the skills to match resources. For example, if one incident type adds the characteristic "Spanish" with a "Good" rating value, and another incident adds "Spanish" with an "Excellent" rating value, the schedule assistant and resource scheduling optimization will look for resources that are excellent in Spanish, because it has a higher value and is deemed more restrictive. 
 - Crews will display in schedule assistant results for work orders with multiple incidents because the system views crews as a single resource. Currently, resource scheduling optimization does not schedule crews.
-
-
-<!-- Same concern here about fictitious names in screenshot. -->
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the filter view on the schedule board, with characteristic rating and resource types fields highlighted](./media/work-order-incident-type-add-multiple-crew.png)
