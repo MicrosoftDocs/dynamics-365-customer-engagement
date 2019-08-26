@@ -165,23 +165,26 @@ You can define territories based on postal codes (zip codes). When creating a te
 
 ## Additional notes
 
--
-- Territories are not hierarchical or associative 
-- **Crews:** if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory.
-- You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory. 
+### Implementation notes
 
-### Using Territories for non-Field Service scenarios
-
-Beyond work order use cases, territories can be used for other scenarios. A common example is dividing salespersons into sales territories and scheduling time with leads, quotes, or opportunities. For this scenario, you can utilize a lookup to the service territory on the Resource Requirement form. For more details, see the topic on [enabling an entity for scheduling](./schedule-new-entity)
+- **Territories as more than location.** It is common for organizations to use territories to represent more than location by combining it with the purpose of the resource group. As an example, if there are resources who operate in the city of Seattle and some are responsible for maintenance and others inspection; this organization can create two territories, "Seattle - maintenance" and "Seattle - inspection". This is also helpful if different dispatchers are managing each territory + purpose because you can have different schedule board tabs for each.
+- **Using Territories for non-Field Service scenarios.** Beyond work order use cases, territories can be used for other scenarios. A common example is dividing salespersons into sales territories and scheduling time with leads, quotes, or opportunities. For this scenario, you can utilize a lookup to the service territory on the Resource Requirement form. For more details, see the topic on [enabling an entity for scheduling](./schedule-new-entity.md)
+- **Variable territories.** An organization may need resources to belong to different territories during different time periods. One example is during the day a resource may cover a small territory, but at night when demand is low, a resource may be responsible for a larger territory. This is not supported out of the box, however one option is to use a workflow to add and remove a resource from a territory based on the time of day.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/work-order-territory-sales-opportunity.png)
 
-- other uses for territories, Sometimes, they're an overlap of functional area and geography. 
-- workflows that add and remove resources to territories by day of week
+### Other notes
+
+- Territories are not hierarchical or associative 
+- **Crews:** if a schedule board is filtered to show resources for the Washington territory, and the crew header resource is part of that territory, it will be displayed. This is true even if resource children are not part of that territory. For more details, see the topic on [enabling an entity for scheduling](./resource-crews.md)
+- You can't allocate the same user (not resource entity, but user entity) to multiple territories. If you need to assign a user to a large area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory. 
 
 
- 
+### See also
+
+- [Universal Resource Scheduling for Field Service](./universal-resource-scheduling-for-field-service.md)
+- [Set up bookable resources](./set-up-bookable-resources.md)
 
   
