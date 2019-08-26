@@ -168,10 +168,12 @@ You must clear the checkbox to automatically distribute the case records.
 > [!div class=mx-imgBorder]
 > ![Automatic record movement to the agent's default queue](media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
-## Queue is in read-only state (or) Create New button is missing on queue
-+ New button is missing on queue form and grid sometimes, and there is no way to create an Omni-channel queue and the queue entity is in read-only state
+## Create New button is missing in queue configuration page
+
+Queue is in read-only state or **+ New** button is missing on queue form and grid sometimes, and there is no way to create an Omni-channel queue and the queue entity is in read-only state
 
 ### Workaround
-Please reach out to Microsoft support team to have read-only flag removed from queue entity
+
+Please reach out to Microsoft support team to have read-only flag removed from queue entity.
 
 More information: [Create queues](administrator/entity-channel.md#step-1-create-queues)
