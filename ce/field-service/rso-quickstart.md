@@ -36,13 +36,13 @@ In this quickstart, we will configure RSO to schedule and optimize a group of wo
 
 - The images and definitions in this quickstart reflect **Field Service v8.7** and **RSO v3.0**.
 
-- Resource Scheduling Optimization works with Universal Resource Scheduling (URS) to schedule field service work orders. A working knowledge of how URS works will be helpful for this quickstart. For more details, view the topic on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
-
 - This quickstart assumes you already have RSO deployed into your Field Service environment. You can do this by first purchasing a Field Service license and then purchasing a Resource Scheduling Optimization (RSO) license in the "Purchase Services" section of Office 365. For more details, visit the topic on [Deployment of the Resource Scheduling Optimization (RSO) solution](rso-deployment.md).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of RSO app](media/rso-quickstart-app.png)
 
+- Ensure the user who is setting up RSO is assigned the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. See [RSO configuration](./rso-configuration.md) for more details.
+- Resource Scheduling Optimization works with Universal Resource Scheduling (URS) to schedule field service work orders. A working knowledge of how URS works will be helpful for this quickstart. For more details, view the topic on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
 ## Step 1: Turn on RSO
 
 After deploying RSO into your environment, you must enable it. 
