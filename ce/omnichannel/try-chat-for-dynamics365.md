@@ -78,8 +78,8 @@ With this option, you can get a free 30-day trial of Chat through [https://trial
 
 2. Select **Customer Service**. 
 
-  > [!IMPORTANT]
-  > Ensure that you select **Customer Service**. If you select any other option, Chat trial will not get enabled in your tenant.
+    > [!IMPORTANT]
+    > Ensure that you select **Customer Service**. If you select any other option, Chat trial will not get enabled in your tenant.
 
 3. Enter your work email and phone number, and then select **Get started**.
 
