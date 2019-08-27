@@ -65,16 +65,19 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | End date and time | Editable | Editable | Locked |
 | Is recurring | Editable | Locked | Locked |
 | Recurrence count | Editable | Editable | Locked |
-| Recurrence count | Editable | Editable | Locked |
+| Recurrence interval | Editable | Editable (see note) | Locked |
 | Content settings | Editable | Locked | Locked |
 | Suppression segment | Editable | Locked | Locked |
 | Time zone | Editable | Locked | Locked |
 | Template | Editable | Editable | Locked |
 | Pipeline (tile positions) | Editable | Locked | Locked |
-| Tile settings | Editable | Editable | Locked |
+| Tile settings | Editable | Editable (see note) | Locked |
 
 > [!NOTE]
-> If you change the segment source for one or more segment tiles while a journey is in the stopped or live-editable state, then when the journey is restarted, it will immediately stop processing all contacts that are no longer in any of the new target segments. That means that some contacts from a removed segment may have been fully or partially processed while others may not have started, but either way, the journey will stop processing all of the removed contacts wherever they left off. New contacts included in segments added while the journey was stopped or live-editable will join the journey as usual.
+> If you change the recurrence interval after the journey has already started, then the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.
+
+> [!NOTE]
+> If you change the segment source for one or more segment tiles after the journey has started, then the journey will immediately stop processing all contacts that are no longer in any of the new target segments. That means that some contacts from a removed segment may have been fully or partially processed while others may not have started, but either way, the journey will stop processing all of the removed contacts wherever they left off. New contacts added by a new segment will join the journey as usual, and contacts that are still part of the updated segment will continue where they left off.
 
 ## Marketing email go-live operations and status
 
