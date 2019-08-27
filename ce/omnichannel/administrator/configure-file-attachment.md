@@ -17,7 +17,10 @@ ms.custom:
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
 
-If an agent transfers the chat to another agent, the agent who receives the chat can also access the files attached in the conversation. 
+If an agent transfers the chat to another agent, the agent who receives the chat can also access the files attached in the conversation.
+
+> [!NOTE]
+> In Unified Service Desk, if you sign in as an agent and want to attach a file while conversing with a customer, ensure that you select the same file type as the attached file. Otherwise, the customer will not be able to download the attachment.
 
 1.	Sign in to Omnichannel Administration.
 
