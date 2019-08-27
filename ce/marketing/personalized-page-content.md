@@ -56,7 +56,7 @@ You can use fields of the following types on personalized pages:
 - Multi-select option set (see note)
 
 > [!NOTE]
-> Options set values are returned as index values (integers), not display values.
+> Option-set values are returned as index values (integers), not display values.
 
 ## Authenticate your external domains
 
