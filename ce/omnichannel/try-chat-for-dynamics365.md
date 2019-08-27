@@ -2,7 +2,7 @@
 title: "Try Chat for Dynamics 365 | MicrosoftDocs"
 description: "Learn how you can try out Chat For Dynamics 365 to connect and engage with your customers in real time."
 keywords: "try, Chat, Chat for Dynamics 365, Trials, sign in, sign-in, login"
-ms.date: 08/08/2019
+ms.date: 08/27/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
