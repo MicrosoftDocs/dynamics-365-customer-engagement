@@ -26,7 +26,7 @@ search.app:
 
 # Manage segment memberships from a contact record
 
-Instead of working directly with the segment definition, you can add or remove a contact to/from any static segment while viewing their contact record. This enables users such salespeople, who know their contacts well but don't have access to the segment entity, to manage the segments a contact belongs to while working directly with that contact record.
+Instead of working directly with a segment definition, you can add or remove a contact to/from any static segment while viewing their contact record. This enables users such as salespeople, who know their contacts well but don't have access to the segment entity, to manage the segments a contact belongs to while working directly with that contact record.
 
 > [!NOTE]
 > You can only use contact records to add or remove contacts to or from *static segments*, not *dynamic segments*. Both live and draft segments are supported.

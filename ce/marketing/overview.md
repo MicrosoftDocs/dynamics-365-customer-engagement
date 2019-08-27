@@ -107,7 +107,7 @@ When you create a new message, you'll start by choosing a template that establis
 
 After you're done with the message design, click **Check for Errors** to check the message for errors and required content. After the message is validated, you publish the message to activate it on your server so that it can be sent from a customer journey, as described in the next section.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md)
 
 ## Use marketing pages to interact with contacts online
 
