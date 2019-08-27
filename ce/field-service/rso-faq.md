@@ -2,7 +2,7 @@
 title: FAQ and troubleshooting tips
 author: shellyhaverkamp
 manager: shellyha
-ms.date: 06/08/2018
+ms.date: 08/27/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
@@ -238,6 +238,9 @@ A booking from the past might be moved if its booking status indicated that it s
 - Lock the booking to a time or time range in the past.
 - Set a promised date from/to or date from/to while enabling the time window
     constraint.
+
+## What happens if I remove the "Schedule within Working Hours" constraint?
+ When this constraint is removed, RSO will still respect working hours, but not as strictly. It will not leave time at the end of the day to travel to the resource's ending location and bookings will end at or near the end of a resource's working day and may spill over into non-working hours. However bookings will not disregard working hours and will not be scheduled 24/7.
 
 ## Why are some of my past or future bookings that are outside of the optimization start and end range being removed?
 
