@@ -107,14 +107,38 @@ To view device readings, the following data must be in place:
 
 > [!Note]
 > If there are no work orders in the selected time period, work order selection will not be displayed.
-
-
 ## Additional Notes
 - Available only in United States English (en-US)
 - **Known issues:** 
   - In custom time settings, the time zone is always set as UTC even when another time zone is selected. The time period displayed after applying the setting is always local time. 
   - When deploying immediately after creating a new application (client) ID with the IoT Deployment app, you may see an **unable to deploy TSI with credential** error. Try again after one minute.
 - Azure Time Series Insights (Preview) uses a pay-as-you-go (PAYG) pricing model. The pricing and cost estimate calculator is available at https://azure.microsoft.com/pricing/details/time-series-insights. Select the region where you are planning to deploy TSI to understand the storage and query cost. (Note that TSI uses Azure blob to store the data.) 
+
+
+## Error codes
+
+Please use the table below ti troubleshoot error codes related to device readings. 
+
+| Error Code	| Possible Root Cause	| Suggested Corrective Action |
+| --- | --- | --- |
+| 5000101	 |	Local Config Store in not available |	Contact Microsoft Support to investigate |
+| 4001002	 |	Value for the Search Span parameter passed to the custom action msdyn_IoTHubQueryDeviceReadings is Null	 |	Please verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings |
+| 4000103	 |	Value for the From or To date argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid DateTime |		Please verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings | 
+| 4000104	 |	Value for the Interval argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Duration	 |	Please verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For Interval, the format should be in the ISO 8601 Duration Format: https://en.wikipedia.org/wiki/ISO_8601#Durations. Ex: PT1H |
+| 4000201	 |	Value for the IotDeviceId argument passed to the custom action msdyn_IoTHubQueryDeviceReadings is not a valid Guid	 |	Please verify that valid values for all the required arguments are passed to the custom action msdyn_IoTHubQueryDeviceReadings. For IotDeviceId, the value should be the msdyn_iotdeviceid which is a GUID (global unique identifier). |
+| 4010202 |		The user doesn't have permission to query Device Entity (msdyn_iotdevice)	 |	Ensure the user can query Device entity (msdyn_iotdevice) |
+| 5000203 |		Unable to get msdyn_DeviceId for the given msdyn_iotdeviceid in the Device Entity (msdyn_iotdevice) |		Ensure that attribute msdyn_DeviceId is populated for the Device |
+| 5000204	 |	Unable to get Time Series Insights Url for the for the given msdyn_iotdeviceid |		Ensure that CFS Deployment App has deployed Time Series Insights for this CRM Org and the Device is linked to the correct IoT Provider |
+| 5000205 |		Client Id used to get Azure AD token for TSI Authorization is invalid or an empty GUID (global unique identifier) |		Ensure that valid Client Id is provided in the CFS Deployment App when it was executed |
+| 5000206 |		Client Secret used to get Azure AD token for TSI Authorization has expired |		Please update the client secret in Azure AD and re-run CFS Deployment App to update the new Client ID and Client Secret |
+| 5000207 |		Unable to get the access token to query Time Series Insights |		Please retry your request and if the problem persists, try updating new Client Id and Client Secret by re-running the CFS Deployment App |
+| 5000603	 |	Request to Time Series Insights API returned with a failure	 |	Please retry your request and if the problem persists, please contact Microsoft Support to investigate |
+| 5000604	 |	Response from Time Series Insights API is not in an expected format	 |	Please retry your request and if the problem persists, please contact Microsoft Support to investigate |
+
+
+
+
+
 
  
 
