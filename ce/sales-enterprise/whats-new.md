@@ -2,7 +2,7 @@
 title: "What's new in Dynamics 365 for Sales | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Dynamics 365 for Sales."
 keywords: "what's new, Dynamics 365 for Sales"
-ms.date: 08/20/2019
+ms.date: 08/26/2019
 ms.service:
   - "crm-online"
 ms.custom:
@@ -24,6 +24,10 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Visit 
 
 ## Dynamics 365 for Sales, August 2019 release
 
+> [!IMPORTANT]
+> - The features listed in this section are preview features. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+
 Here are the list of features available with this release:
 
 - **Customization of Opportunity Close form**: When closing an opportunity, organizations need to understand why the opportunity was lost or won to build upon past losses and successes or to try new strategies for improving win rates. The capability to customize the Opportunity Close form helps companies to capture close/win details based on their strategic sales initiatives. More information: [Customize Opportunity Close form](customize-opportunity-close-experience.md)
@@ -43,11 +47,10 @@ Here are the list of features available with this release:
     - When a lead is qualified to an opportunity, notes and attachments captured by a sales rep are displayed in the opportunity record.
     - Sales reps get an option to create an opportnity, account, or contact when they qualify leads based on the organization-level settings configured by the admin for the lead creation experience.  
 
-More information: [Define lead qualification experience](define-lead-qualification-experience.md)
+    More information: [Define lead qualification experience](define-lead-qualification-experience.md)
 
-> [!IMPORTANT]
-> - The features listed in this section are preview features. [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
-> - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
+- **Automatically turn on the PDF generation capability for quotes**: : In May 2019, Dynamics 365 for Sales introduced the ability to generate standardized PDF documents related to quote records. The capability is available for all, but disabled by default; and can be turned on by a system administrator if required. In the August 2019 preview, the option to generate PDf is enabled by default for organizations that have opted for the preview.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] (enable-pdf-generation-quote.md)
+
 
 ## Dynamics 365 for Sales, May 2019 release
 
