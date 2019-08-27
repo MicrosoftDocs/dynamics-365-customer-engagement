@@ -194,7 +194,7 @@ If a field technician begins travel to their next work order and sees that the t
 ## Additional notes
 
 - The out-of-the-box functionality supports travel time and distance calculations only for driving, not walking or flying.
-- If Auto Goecode Addresses is turned on, imported records will be geocoded as well as updates to the Adress 1 field.
+- If Auto Goecode Addresses is turned on, imported records will be geocoded as well as updates to the Address 1 field.
 
 ### Auto Update Booking Travel for Field Service version 8.6 and later**
 
