@@ -38,7 +38,7 @@ To promote the survey, you might create a marketing email message that links to 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
 - [Create and run online surveys](surveys.md).
-- [Prepare marketing email messages](prepare-marketing-emails.md).
+- [Email marketing overview](prepare-marketing-emails.md).
 - [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
 ## Hand off to sales

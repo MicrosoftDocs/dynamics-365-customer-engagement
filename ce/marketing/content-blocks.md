@@ -89,7 +89,7 @@ More information: [Go live with publishable entities and track their status](go-
 
 To add a content block to an email, form, or page design:
 
-1. Open or create an [email message](prepare-marketing-emails.md), [marketing page](create-deploy-marketing-pages.md), or [marketing form](create-deploy-marketing-pages.md).
+1. Open or create an [email message](email-design.md), [marketing page](create-deploy-marketing-pages.md), or [marketing form](create-deploy-marketing-pages.md).
 
 2. Drag a content-block element from the **Toolbox** panel to the appropriate location in your design.
 

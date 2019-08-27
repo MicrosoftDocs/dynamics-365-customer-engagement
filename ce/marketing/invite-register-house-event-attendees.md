@@ -32,7 +32,7 @@ After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-
 
 After your event is planned and set up, it's time to start promoting it! [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides several tools to help you do this:
 
-- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event website. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
+- Create a marketing email message that includes an event element in its design. The event element creates a call-to-action button in your message that takes message recipients directly to your event website. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md) and [Event elements](content-blocks-reference.md#event-elements).
 - Set up a customer journey that sends your marketing email message to all the relevant contacts, registers message interactions, and reacts to event registrations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 - Create banners and social media posts to promote your event. Include a link to your event website in each post, and use the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] redirect-URL feature to create short URLs that register clicks with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and instantly forward contacts to your event website. You could create a different redirect URL for each social-media site, banner, or message, which would enable you to collect separate click results for each URL, so you can evaluate the success of each channel or initiative. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up redirect URLs](register-engagement.md#set-up-redirect-urls)
 
@@ -67,7 +67,7 @@ If your organization has set up hotels and room allocations for your event in [!
 
 ### See also
 
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Event elements](content-blocks-reference.md#event-elements)  
 [Create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
