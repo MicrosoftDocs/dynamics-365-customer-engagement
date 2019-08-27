@@ -41,8 +41,9 @@ In this quickstart, we will configure RSO to schedule and optimize a group of wo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of RSO app](media/rso-quickstart-app.png)
 
-- Ensure the user who is setting up RSO is assigned the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. See [RSO configuration](./rso-configuration.md) for more details.
-- Resource Scheduling Optimization works with Universal Resource Scheduling (URS) to schedule field service work orders. A working knowledge of how URS works will be helpful for this quickstart. For more details, view the topic on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
+- Make sure the person who sets up RSO has the **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. See [RSO configuration](./rso-configuration.md) for more details.
+
+- Resource Scheduling Optimization works with Universal Resource Scheduling (URS) to schedule field service work orders. A working knowledge of how URS works will help with this quickstart. For more details, view the topic on [Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md).
 ## Step 1: Turn on RSO
 
 After deploying RSO into your environment, you must enable it. 
