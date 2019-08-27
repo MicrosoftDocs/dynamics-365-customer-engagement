@@ -61,7 +61,7 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | Field | Draft | Live-editable and Stopped | Live and others |
 | --- | --- | --- | --- |
 | Name | Editable | Editable | Locked |
-| Start date and time | Editable | Locked | Locked |
+| Start date and time | Editable | Editable only if the journey hasn't started yet. | Locked |
 | End date and time | Editable | Editable | Locked |
 | Is recurring | Editable | Locked | Locked |
 | Recurrence count | Editable | Editable | Locked |
@@ -72,6 +72,9 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | Template | Editable | Editable | Locked |
 | Pipeline (tile positions) | Editable | Locked | Locked |
 | Tile settings | Editable | Editable | Locked |
+
+> [!NOTE]
+> If you remove one or more target segments while a journey is in the stopped or live-editable state, then when the journey is restarted, it will immediately stop processing all contacts that are no longer in any of the remaining target segments. That means that some contacts from a removed segment may have been fully or partially processed while others may not have started, but either way, the journey will stop processing all of the removed contacts wherever they left off. New contacts included in segments added while the journey was stopped or live-editable will join the journey as usual.
 
 ## Marketing email go-live operations and status
 
