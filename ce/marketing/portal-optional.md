@@ -60,7 +60,7 @@ The following table compares how each of the public-facing interactive features 
 
 Each time you install Dynamics 365 for Marketing, you must choose whether or not to integrate it with a portal. 
 
-To use a portal, you must have a separate Dynamics 365 portals license for each Dynamics 365 for Marketing instance that uses portal features. A free portals license is provided with Dynamics 365 for Marketing, but you can only have [one free portal per tenant](setup-troubleshooting.md#why-portal), so you must purchase additional portals licenses if you want to use a portal with more than one Dynamics 365 instance on your tenant. 
+To use a portal, you must have a separate Dynamics 365 portals license for each Dynamics 365 for Marketing instance that uses portal features, and an unconfigured portal must be available on your tenant when you run the Dynamics 365 for Marketing setup wizard. A free portals license is sometimes included with Dynamics 365 for Marketing (depending on which license you have chosen), but you are still limited to, at most, one free portal per tenant. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal).
 
 If you choose the non-portals option, then you'll be able to complete the Marketing setup even without an unconfigured portal available.
 
