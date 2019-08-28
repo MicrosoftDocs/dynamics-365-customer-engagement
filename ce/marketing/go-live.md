@@ -77,7 +77,7 @@ Some customer journey settings become locked (read-only) based on the journey's 
 > If you change the recurrence interval after the journey has already started, then the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.
 
 > [!NOTE]
-> If you change the segment source for one or more segment tiles after the journey has started, then the journey will immediately stop processing all contacts that are no longer in any of the new target segments. That means that some contacts from a removed segment may have been fully or partially processed while others may not have started, but either way, the journey will stop processing all of the removed contacts wherever they left off. New contacts added by a new segment will join the journey as usual, and contacts that are still part of the updated segment will continue where they left off.
+> If you change the segment source for one or more segment tiles after a journey has started, then the journey won't process any contacts that are no longer part of the segment and that haven't yet left the segment group tile. However, removed contacts that have already started the journey (that *have* left the segment group tile) will continue to be processed to the end. This means that the removed segment might be fully unprocessed, partially processed, or fully processed, depending on how far it had gotten by the time you removed it. New contacts added by a new segment will join the journey as usual, and contacts that were part of both the replaced and new segment will continue where they left off.
 
 ## Marketing email go-live operations and status
 
