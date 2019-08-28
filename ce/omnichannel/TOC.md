@@ -38,8 +38,9 @@
 ### Queues & Users
 #### [Work with queues](administrator/queues-omnichannel.md)
 #### [Manage users](administrator/users-user-profiles.md)
-#### Skill-based work distribution
+#### Skill-based routing
 ##### [Overview](administrator/overview-skill-work-distribution.md)
+##### [Skill based routing and rating model](enable-skill-routing-create-rating-model.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)
