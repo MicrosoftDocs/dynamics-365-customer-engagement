@@ -97,9 +97,9 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
   
 <a name="BKMK_ManagedAndUnmanagedSolutions"></a>   
 ### Managed and unmanaged solutions  
- A **managed** solution can be uninstalled after it is imported. All the components of that solution are removed by uninstalling the solution.  
+ A **managed** solution can be uninstalled after it is imported. All the components of that solution are deleted by uninstalling the solution.  
   
- When you import an **unmanaged** solution, you add all the components of that solution into your default solution. You can’t remove the components by uninstalling the solution.  
+ When you import an **unmanaged** solution, you add all the components of that solution into your default solution. You can’t delete the components by uninstalling the solution.  
   
  When you import an **unmanaged** solution that contains solution components that you have already customized, your customizations will be overwritten by the customizations in the unmanaged solution. You can’t undo this.  
   
