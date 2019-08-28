@@ -45,7 +45,7 @@ For Microsoft 365 users that don't have a Customer Engagement license, you can "
 
 To purchase and assign a free Marketing user license:
 
-1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com) using an admin account that has permissions to purchase services and assign licenses.
 
 1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services** and fnd the **Dynamics 365 for Marketing USL** item, which shows a price of **$0.00 user/month**.
 
