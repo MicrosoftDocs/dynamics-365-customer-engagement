@@ -40,7 +40,8 @@
 #### [Manage users](administrator/users-user-profiles.md)
 #### Skill-based routing
 ##### [Overview](administrator/overview-skill-work-distribution.md)
-##### [Skill based routing and rating model](enable-skill-routing-create-rating-model.md)
+##### [Skill based routing and rating model](administrator/enable-skill-routing-create-rating-model.md)
+##### [Set up skills and assign agents](administrator/setup-skills-assign-agents.md)
 
 ### Work Distribution Management
 #### [Understand and create work streams](administrator/work-streams-introduction.md)

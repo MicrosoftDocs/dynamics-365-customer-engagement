@@ -33,9 +33,61 @@ To enable skill based routing, follow these steps:
 
 5. Select **Save**.
 
-## Rating model
+## Proficiency level (Rating model) of skills
 
+For each skill you add to an agent, you need a way to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 
+You must provide the minimum and maximum rating value. Also, in the **Rating Values** section, you must create rating value text against each score between the minimum and maximum rating value. This text appears while updating an agent's skill and proficiency.
 
 ### Create rating model
+
+1. Sign in to the Omnichannel for Administrator app.
+
+2. Select **Skill Based Routing** under **Settings** in the sitemap.
+
+3. Select **+ New** in the **Routing Model** lookup option. The **New Rating Model** page appears.
+
+4. Specify the following in the **New Rating Model** page.
+
+    | Tab | Field | Description | Example value  |
+    |------------|-----------------|----------------|--------------------------------------------|
+    | General | Name | Specify a name for the rating model. | Language rating model |
+    | General | Min Rating Value | Provide the minimum rating value. | 1 |
+    | General | Max Rating Value | Provide a maximum rating value. | 10 |
+
+5. Select **Save** to save the rating model. After you save, the **Rating Values** section appears.
+
+6. Select **+ Add New Rating Value**. The **Rating Value** page appears.
+
+7. Specify the following in the **Rating Value** page.
+
+    | Tab | Field | Description | value  |
+    |------------|-----------------|----------------|--------------------------------------------|
+    | General | Name | Specify a name for the rating model. | Very Good <br> **Note:** <br>This is an example value.|
+    | General | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+    | General | Is Default | Set this rating value as a default value while defining the proficiency level. | Yes |
+
+8. Select **Save** to save the rating value.
+
+9. Select **+ New** to add other rating values and repeat step 7 and 8.
+
+
+### Recommended proficiency level
+
+It is recommended to use a rating model with minimum value as 1 and maximum value as 10, and define the rating values accordingly.
+
+For example:
+
+| Rating Value Name | Value |
+|-------------------|-------|
+| Advanced level A | 10 |
+| Advanced level B | 9 |
+| Advanced level C | 8 |
+| Intermediate level A | 7 |
+| Intermediate level B | 6 |
+| Intermediate level C | 5 |
+| Beginner lever A | 4 |
+| Beginner lever A | 3 |
+| Beginner lever A | 2 |
+| Don't know | 1 |
 
