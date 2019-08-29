@@ -56,7 +56,7 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 4. Select **+ Add Existing Agent** in the **Agents** section. The **Lookup Records** pane appears.
 
-5. Select the agent from the list.
+5. Select an agent from the list.
 
 6. Select a skill proficient level from the drop-down. The values that appear are based on the rating model and rating values. To learn more, see [Proficiency level (Rating model) of skills](enable-skill-routing-create-rating-model.md#proficiency-level-rating-model-of-skills)
 
@@ -67,5 +67,4 @@ After you save, the **Agents** section appears. In this section, you add the age
 9. Repeat the steps 4 through 8 to add more agents to the skill.
 
 
-
-
+Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
