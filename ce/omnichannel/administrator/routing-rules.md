@@ -51,7 +51,7 @@ To create a routing rule, select a work stream by navigating to **Work Distribut
        > [!div class=mx-imgBorder]
        > ![Configured rule](../media/configured-rule.png)
 
-2. Select **Save** to save the rule.
+2. Select **Save** to save the rule. 
 
 ### See also
 

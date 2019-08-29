@@ -2,7 +2,7 @@
 title: "Display custom context | Microsoft Docs"
 description: "Read how you can send display custom context on the UI"
 keywords: ""
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-customerservice
 ms.custom:
 ms.topic: reference

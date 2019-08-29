@@ -1,7 +1,7 @@
 ---
 title: "msdyn_cannedmessage Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_cannedmessage entity."
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 

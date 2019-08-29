@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: A81052BE-05DB-43FD-A868-605101ECABD9

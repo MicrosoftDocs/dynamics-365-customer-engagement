@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F	
@@ -33,17 +33,14 @@ This topic describes how to create a workstream that is used to route the case e
 
 1. Sign in to the Omnichannel for Administrator app.
 
-2. Select **Work Streams** under **Work Distribution Management** in the sitemap.
+2. Select **Entity Records** under **Channels** in the sitemap.
 
-3. Select **Entity Record Workstreams** from the view list.
+3. Select **+ New** in the **Entity Records Workstreams** page.
 
     > [!div class=mx-imgBorder] 
-    > ![Create new Cases workstream](../media/select-entity-records-view.png "Create new workstream")
+    > ![Create new Cases workstream](../media/case-ws1.png "Create new workstream")
 
-4. Select **+ New** in the **Entity Record Workstreams** view.
-
-
-5. Specify the following in the **New Work Stream** page.
+4. Specify the following in the **New Work Stream** page.
 
     | Tab | Field | Value | Description | 
     |---------------------|-----------------------------|-------------------------------------------|-------------------------------------------------|
@@ -57,7 +54,7 @@ This topic describes how to create a workstream that is used to route the case e
     > [!div class=mx-imgBorder] 
     > ![Specify values for the fields](../media/case-ws3.png "New case workstream")
 
-6. Select **Save** to save the workstream.
+5. Select **Save** to save the workstream.
 
 ## See also
 
