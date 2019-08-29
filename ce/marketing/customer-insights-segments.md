@@ -85,6 +85,9 @@ One way to tell whether a segment in Marketing is being managed by Customer Insi
 
 ![A segment from Customer Insights](media/ci-exported-segment-details.png "A segment from Customer Insights")
 
+> [!NOTE]
+> Although the **Description** field is used to hold this information in the current early-access version, we expect to provide a dedicated field for this in the final release.
+
 ### You must go live with your Customer Insights segments to use them in Marketing
 
 When a new segment arrives in Marketing from Customer Insights, it will be in the draft state. To use it with a customer journey, you must go live, just as with segments created natively in Marketing.

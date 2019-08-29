@@ -217,7 +217,7 @@ Unlike local landing pages, there is no [design element](content-blocks-referenc
 
 To set up a journey that invites contacts to visit an external form and then reacts to form visits and/or submissions:
 
-1. Create and go live with a [marketing email message](prepare-marketing-emails.md) that includes a link to the page where you are hosting the form.
+1. Create and go live with a [marketing email message](email-design.md) that includes a link to the page where you are hosting the form.
 
 1. Create a customer journey as usual.
 
