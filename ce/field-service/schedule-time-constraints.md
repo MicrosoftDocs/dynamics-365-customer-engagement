@@ -30,15 +30,15 @@ search.app:
 
 When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when it is booked.
 
-On the Work Order form you can add date and time values in the  there are fields in the preference section:
+On the Work Order form you can add date and time values in the preference section:
 
 **Time from promised** and **Time to promised** -
 
 **Date window start** and **Date window end** - 
 
-Time window start/end 
+**Time window start** and **Time window end** 
 
-
+These fields are passed along to the related resource requirement 
 
 Booking rules 
 
@@ -53,7 +53,7 @@ Booking rules
 - booking lock options
 - SLAs
 - Fulfillment preferences
-- 
+- From date and to date on booking setup metadata
 ## Additional Notes
 - cannot handle scenario where customer is only available mon, wed, fri 9-12pm. can add this as a note or use a booking rule, but this only applies to Schedule board
 - could have date window start/end mon-fri and use time windows for 9-5. if not scheduled by end of the week use workflow to make it next week.
