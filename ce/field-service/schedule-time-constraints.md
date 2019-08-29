@@ -30,7 +30,7 @@ search.app:
 
 When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when it is booked.
 
-On the Work Order form there are fields in the preference section:
+On the Work Order form you can add date and time values in the  there are fields in the preference section:
 
 **Time from promised** and **Time to promised** -
 
