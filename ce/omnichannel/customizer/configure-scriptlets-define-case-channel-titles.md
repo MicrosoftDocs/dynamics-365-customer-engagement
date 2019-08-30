@@ -1,6 +1,6 @@
 ---
 title: "Configure scripts using scriptlets to define case and channel titles | MicrosoftDocs"
-description: "Learn how to configure sto define case and channel titles when using Omnichannel Engagement Hub in Unified Service Desk."
+description: "Learn how to configure sto define case and channel titles when using Omnichannel for Customer Service in Unified Service Desk."
 keywords: ""
 author: kabala123
 ms.author: kabala
@@ -71,11 +71,11 @@ The topic describes how to configure scripts using scriptlets to define case and
 
 5. Select the **Session Lines, Agent Scripts, and Scriptlets** tab.
 
-6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**, type the name of the **Scriptlets** in the search box, and then press **Enter** or select the search icon.
+6. In the **Scriptlets** section, select the more commands (...), select **Add Existing Session Scriptlets**. The **Lookup Records** pane appears.
 
-7. Select the scriplet from the search results and select **Add**.
+7. Type the name of the **Scriptlets** in the search box. Select the scriplet from the search results and select **Add**.
 
-8. When you've finished, select **Save**.
+8. Select **Save** to save the changes.
 
 ## See also
 

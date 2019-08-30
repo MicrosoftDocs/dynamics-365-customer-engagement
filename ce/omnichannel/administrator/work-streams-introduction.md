@@ -100,3 +100,7 @@ To learn more about how to set up channels and associate work streams, see the f
 ### See also
 
 [Automatically identify customers using pre-chat responses](record-identification-rule.md)
+
+[Cases entity workstreams](set-up-entity-workstream.md)
+
+[Work with queues](queues-omnichannel.md)
