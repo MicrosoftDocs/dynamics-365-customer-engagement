@@ -57,11 +57,11 @@ ms.custom:
 
 12. Select the **Others Entities** tab.
 
-12. In the **Forms** section, select the more commands (...), select **Add Existing Form**, type the name of the **Forms** in the search box, and then press **Enter** or select the search icon.
+12. In the **Forms** section, select the more commands (...), select **Add Existing Form**. The **Lookup Records** pane appears.
 
-13. Select the forms from the search results and select **Add**.
+13. Type the name of the **Forms** in the search box. Select the form from the search results and select **Add**.
 
-14. When you've finished, select **Save**.
+14. Select **Save** to save the changes.
 
 > [!div class="nextstepaction"]
 > [Next topic: Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
