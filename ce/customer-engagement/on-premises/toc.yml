@@ -1,11 +1,15 @@
 - name: "Dynamics 365 Customer Engagement (on-premises) Help"
   expanded: true
   items:
+  - name: Overview
+    href: overview.md
+  - name: Deploy and operate
+    href: deploy/overview.md
   - name: Administrator Guide
     href: admin/admin-guide.md
   - name: Customization Guide
     href: customize/overview.md
   - name: Developer Guide
-    href: developer/developer-guide.md
+    href: developer/overview.md
   - name: Reporting and Analytics Guide
-    href: reporting/reporting-analytics-with-dynamics-365.md
+    href: reporting/overview.md
