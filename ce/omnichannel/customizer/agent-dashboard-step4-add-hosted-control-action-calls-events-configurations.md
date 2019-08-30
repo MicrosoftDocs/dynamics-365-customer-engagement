@@ -52,9 +52,9 @@ This topic describes how to add action calls, events, and hosted control to the 
 
 9. Select the event from the search results and select **Add**.
 
-10. In the **Action Calls** section, select the more commands (...), select **Add Existing Action Calls**, type the name of the **Action Calls** in the search box, and then press **Enter** or select the search icon.
+10. In the **Action Calls** section, select the more commands (...), select **Add Existing Action Calls**. The **Lookup Records** pane appears.
 
-11. Select the action calls from the search results and select **Add**.
+11. Type the name of the **Action Calls** in the search box. Select the action calls from the search results, and select **Add**.
 
 12. When you've finished, select **Save**.
 
