@@ -88,7 +88,7 @@ Give the segment a name, then save and go live.
 
 ## Step 5: Create the email message and a customer journey that delivers it
 
-If  you haven't already done so, then create, save, and go live with your email message as described in [Prepare marketing email messages](prepare-marketing-emails.md).
+If  you haven't already done so, then create, save, and go live with your email message as outlined in the [Email marketing overview](prepare-marketing-emails.md)
 
 Now you're ready to send the email to your contacts. Create a new journey as usual. Be sure it starts with the segment you created to find your imported contacts and also includes the email you created to send to these contacts. More information: [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
@@ -101,7 +101,7 @@ Finish designing your journey as needed. When you're done, set the start date an
 [Create and edit fields](../customize/create-edit-fields.md)  
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Import data](import-data.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
 [Design profile-based dynamic segments](segments-profile.md)  
 [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)

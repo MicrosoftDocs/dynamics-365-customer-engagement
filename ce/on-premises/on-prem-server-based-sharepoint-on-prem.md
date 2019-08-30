@@ -289,7 +289,9 @@ For documentation management with SharePoint troubleshooting and known issues, s
 
 ## About claims-based authentication mapping
 
-By default, server-based authentication between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user. If Microsoft Dynamics 365 Server and SharePoint are located in different Active Directory domains that do not have a trust, you must use a custom claims-based authentication mapping, such as the user’s email address. For information about how to customize user claims mapping, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
+When you use claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same. Servers that are located in different Active Directory forests or domains aren’t supported. 
+
+By default, server-based authentication between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user.  If you want to use a custom claims-based authentication mapping, such as the user’s email address, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
 
 ### Configure user claims mapping using the SharePoint Email Address
 1. Open the form editor to customize the user form. To do this, go to **Settings** > **Security** > **Users**, and then open the user record that you want. 

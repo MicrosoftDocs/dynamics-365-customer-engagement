@@ -1,7 +1,7 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/07/2019
+ms.date: 08/21/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -138,8 +138,7 @@ These entities and corresponding commands are available in offline mode.
 |Connection|Read only|
 |Connection Role|Read only|
 |Contact|Create, Read, Update, Delete	|
-|Currency|Create, Read, Update, Delete|
-|Custome Entity|Create, Read, Update, Delete	|
+|Custom Entity|Create, Read, Update, Delete	|
 |Email|Read only	|
 |Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
 |Opportunity|Create, Read, Update, Delete|

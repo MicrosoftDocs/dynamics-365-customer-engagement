@@ -135,7 +135,7 @@ Microsoft automatically takes daily backup copies of all Dynamics 365 for Custom
 > [!IMPORTANT]
 > The system creates automatic system backups without stopping any of the live records on the source instance. That means that these backups won't interrupt the normal operation of your instance, but it also means that any records that are live on the source instance will be rendered unusable in a restored backup copy.
 
-For more information about automatic backups in Dynamics 365 for Customer Engagement, see [Daily system backups](../admin/backup-restore-instances.md#daily-system-backups).
+For more information about automatic backups in Dynamics 365 for Customer Engagement, see [System backups](../admin/backup-restore-instances.md#system-backups).
 
 ### Create an on-demand backup
 

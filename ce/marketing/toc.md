@@ -81,11 +81,15 @@
 #### [Design elements reference](content-blocks-reference.md)
 
 ### Create marketing emails
-#### [Prepare marketing email messages](prepare-marketing-emails.md)
+#### [Email marketing overview](prepare-marketing-emails.md)
+#### [Create a new email and design its content](email-design.md)
 #### [Add dynamic content to email messages](dynamic-email-content.md)
+#### [Set the sender, receiver, and legal designation](email-properties.md)
+#### [Check your work using previews and test sends](email-preview.md)
+#### [Check for errors, go live, and deliver](email-check-golive.md)
 #### [Preview: Check your spam score](spam-score.md)
 #### [Early access: Design multi-column layouts for email messages](email-layouts.md)
-#### [Early access: Design and run A/B test on your email designs](email-a-b-testing.md)
+#### [Early access: Design and run A/B tests on your email designs](email-a-b-testing.md)
 
 ### Create marketing pages and forms
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
