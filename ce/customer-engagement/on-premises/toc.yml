@@ -1,7 +1,7 @@
 - name: "Dynamics 365 Customer Engagement (on-premises) Help"
   expanded: true
   items:
-  - name: Overview
+  - name: "Dynamics 365 Customer Engagement (on-premises) Help"
     href: overview.md
   - name: Deploy and operate
     href: deploy/overview.md
