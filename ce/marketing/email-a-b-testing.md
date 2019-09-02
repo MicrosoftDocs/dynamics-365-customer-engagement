@@ -28,16 +28,13 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-Use email A/B testing to find out which of two similar designs is likely to be most successful and then send the winning design automatically. You start by creating an initial design (the "A" version), and then use that as the basis to create a "B" version of the design in which you have modified a small part of it (such as the subject). Finally, choose your conditions for success (such as most opened or most clicked) and run the test as part of a customer journey.
+Use email A/B testing to find out which of two similar designs is likely to be most successful and then send the winning design to the remaining audience automatically. You start by creating an initial design (the "A" version), and then use that as the basis to create a "B" version of the design in which you have modified a small part of it (such as the subject or an image). Finally, choose your conditions for success (such as most opened or most clicked) and run the test as part of a customer journey.
 
-The journey runs the entire test automatically. It starts by sending version A to a small part of your segment (for example 10% of contacts) while also sending version B to another part of the segment (typically also 10%). It waits for a period of time you choose (for example, 24 hours) and then analyzes the interaction results and chooses a winner based on your selected criteria (such as most opened). The journey then sends the winning design to the rest of the segment (the remaining 80%) automatically.
-
-> [!NOTE]
-> In the early access version of this feature, you'll be able to A/B test the message subject and/or sender name. In the final release, we expect also to enable testing on email content.
+The journey runs the entire test automatically. It starts by sending version A to a small part of your segment (for example 10% of contacts, selected randomly) while also sending version B to another part of the segment (typically also 10%). It waits for a period of time you choose (for example, 24 hours) and then analyzes the interaction results and chooses a winner based on your selected criteria (such as most opened). The journey then sends the winning design to the rest of the segment (the remaining 80%) automatically.
 
 ## Create a marketing email for A/B testing
 
-To set up an A/B test, start by creating your basic design (this will be the A version) and then create a B version where just a small part of the design has changed. Each B version allows only one type of change (such as subject _or_ from address), but you can define several test for the same design, where the A version is always the same, but with a different B version for each test.
+To set up an A/B test, start by creating your basic design (this will be the A version) and then create one or more B versions where just a small part of the design has changed. Each B version allows only one type of change (such as subject, body content, _or_ from address), but you can define several test for the same design, where the A version is always the same, but with a different B version for each test.
 
 To set up A and B designs for a message:
 
@@ -51,8 +48,7 @@ To set up A and B designs for a message:
 
    - **Subject**: Adds a subject test. This type of test lets you choose a different subject for the B version of your design.
    - **From name**: Adds a from-name test. This type of test lets you choose a different from-name for the B version of the design. Recipients will see this as the name of the sender of the message. This won't change actual the from-address, which will remain the same for both versions.
-
-    In each case, you can choose to use [assist-edit](dynamic-email-content.md#use-assist-edit-to-place-dynamic-field-values) (**</>**) to define the subject or from-name using a dynamic expression for the A and/or B versions (as usual).
+   - **Body**: Adds a body-content test, which lets you select any design element in your design and then change that element's settings, content, or appearance in the B version of the design. You can create A and B versions for any number of design elements in a single body-content test (you're not limited to just one).
 
     ![Add a new test](media/email-abtest-add-test.png "Add a new test")
 
@@ -83,6 +79,11 @@ To set up A and B designs for a message:
 ## Prepare to execute your test from a customer journey
 
 When you're email is ready to test, use a customer journey to send it. You can include A/B-test emails in any type of journey, regardless of complexity, and including journeys that you are using in a production campaign. The strategy is to send each design to a small part of the full segment being targeted by the journey, wait to see how those recipients react to each version of the message, and then send the best performing message to the rest of the segment. You can choose what the winning conditions are (most clicks or most opens), and also how long to run the test for.
+
+> [!IMPORTANT]
+> To produce reliable, statistically significant test result, you should always send each variant (A and B) to a minium of 100 recipients before allowing the system to choose a winner. A typical recommended setup would use a 1,000-member segment, with a test distribution that sends variant A to 10% of the segment, variant B to another 10%, and then sends the winning design to the remaining 80%.
+> 
+> You can run an A/B test with as little as just one or a few recipients for each variant, but this can often result in an uneven or non-random distribution of variants and unreliable final results. We recommend that you only do this while experimenting with the feature.
 
 To add an A/B test to a journey:
 
