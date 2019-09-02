@@ -48,21 +48,24 @@ To purchase and assign a free Marketing user license:
 
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com) using an admin account that has permissions to purchase services and assign licenses.
 
-1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services** and fnd the **Dynamics 365 for Marketing USL** item, which shows a price of **$0.00 user/month**.
+1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**.
+1. On the **Purchase services** page, type "Marketing" into the serch field near the top of the page and then press Enter on your keyboard.
+
+1. Select the **Dynamics 365 for Marketing User License** tile, which shows a price of **Free**.
 
     ![Purchase a free user license for Marketing](media/admin-m365-usl.png "Purchase a free user license for Marketing")
 
-1. Select **Buy now** for the **Dynamics 365 for Marketing USL** and follow the instructions on your screen to complete the transaction.
+1. Follow the instructions on your screen to complete the transaction.
 
-1. Return to the Microsoft 365 admin center and go to **Users** > **Active users**, select a user account to open its settings in a fly-out, and then select **Edit** in the **Product license** row to add and remove licenses for that user.
+1. Return to the Microsoft 365 admin center and go to **Users** > **Active users** and select the user you want to assign a license to. The settings for that user open in a fly-out.
 
     ![Edit settings for a user account](media/admin-m365-edit-user.png "Edit settings for a user account")
 
-1. The **Product licenses** fly-out opens, which lists the status of each available license for your selected user. Set the **Dynamics 365 for Marketing USL slider** to **On**.
+1. Select the **Licenses and Apps** tab in the flyout and then select the **Dynamics 365 for Marketing User License** check box to assign the license to this user.
 
     ![Add a license](media/admin-m365-assign-license.png "Add a license")
 
-1. Select **Save** and then close the fly-out. The user now has a free Marketing license and should be visible in the Customer Engagement user-admin interface in a few minutes.
+1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the Customer Engagement user-admin interface in a few minutes.
 
 1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
 
