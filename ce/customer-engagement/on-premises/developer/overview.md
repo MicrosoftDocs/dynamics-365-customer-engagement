@@ -1,6 +1,6 @@
 ---
-title: "Sample Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Add description."
+title: "Dynamics 365 Customer Engagement (on-premises) Overview | MicrosoftDocs"
+description: "An introduction to development for Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: on-premises
 ms.date: 2/6/2019
 ms.reviewer: "pehecke"
@@ -10,7 +10,7 @@ author: "kvivek"
 ms.author: "KumarVivek"
 manager: "kvivek"
 ---
-# Sample topic
+# Dynamics 365 Customer Engagement (on-premises) Overview
 
 Delete the topic or reuse it.
 
