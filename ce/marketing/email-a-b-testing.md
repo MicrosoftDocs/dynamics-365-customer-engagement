@@ -71,16 +71,16 @@ To set up A and B designs for a message:
 1. Select a test from the **A/B test** panel and then select the **Version B** button. Do one of the following, depending on which type of test you are making:
     - For subject tests, the **Subject** field should now show a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B"). Enter a new subject here.
     - For from-name tests, the **From name** field should now show a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B"). Enter a new name here.
-    - For body tests, the A and B versions are initially identical. To add an element to the test, select it on the canvas to highlight it and then select the **A/B** button ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") in the tab at the top of the highlighted frame. This is a toggle button, so you can select it  again to remove an element from the test&mdash;it shows a white background ![Icon for tested body element](media/email-abtest-body-on.png "Icon for untested body element") for elements being tested, and shows a blue background ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") for elements that are the same for each variant. You can add as many elements as you want to the test, but usually it's best just to test just a few elements (or one element) at a time.
+    - For body tests, the A and B versions are initially identical. To add an element to the test, select it on the canvas to highlight it and then select the **A/B** button ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") in the tab at the top of the highlighted frame. This is a toggle button, so you can select it  again to remove an element from the test&mdash;it shows a white background ![Icon for tested body element](media/email-abtest-body-on.png "Icon for untested body element") for elements being tested, and shows a blue background ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") for elements that are the same for each version. You can add as many elements as you want to the test, but usually it's best just to test just a few elements (or one element) at a time.
 
     ![Version buttons, tests, and indicators for a body test](media/email-abtest-body-test.png "Version buttons, tests, and indicators for a body test")
 
-1. Now change the design of the item(s) you have enabled for testing. For subject and from-name tests, edit the appropriate field text; for body tests, you can edit text content for text elements or **Property** tab settings for other types of design elements. You can toggle back and forth between variants using the **Version A** and **Version B** buttons and continue to edit each version while it's being displayed.
+1. Now change the design of the item(s) you have enabled for testing. For subject and from-name tests, edit the appropriate field text; for body tests, you can edit text content for text elements or **Property** tab settings for other types of design elements. You can toggle back and forth between versions using the **Version A** and **Version B** buttons and continue to edit each version while it's being displayed.
 
     > [!NOTE]
     > Even after you have enabled A/B testing you can still edit parts of your message that aren't part of any tests. When you to this,  your edits will affect all versions (the A version and all B versions), regardless of which test and version button are currently selected. But if you edit a setting that's enabled for testing, then you are only editing the version selected using the **Version A** and **Version B** buttons. Remember that the A version is the same for all tests, but the B version is unique for each test.
     > 
-    > Be careful when adding new design elements to a message that already has a body test set up. After doing this, be sure to check each variant of each test to make sure your new elements is fully defined with the correct content and settings for all of them.
+    > Be careful when adding new design elements to a message that already has a body test set up. After doing this, be sure to check each version of each test to make sure your new elements is fully defined with the correct content and settings for all of them.
 
 1. Continue working in this way until you have set up all of the tests you want to run on the current email design.
 1. When you're done setting up your designs and tests, select **Go live** to make your message available for use with a customer journey.
@@ -90,9 +90,9 @@ To set up A and B designs for a message:
 When you're email is ready to test, use a customer journey to send it. You can include A/B-test emails in any type of journey, regardless of complexity, and including journeys that you are using in a production campaign. The strategy is to send each design to a small part of the full segment being targeted by the journey, wait to see how those recipients react to each version of the message, and then send the best performing message to the rest of the segment. You can choose what the winning conditions are (most clicks or most opens), and also how long to run the test for.
 
 > [!IMPORTANT]
-> To produce reliable, statistically significant test result, you should always send each variant (A and B) to a minium of 100 recipients before allowing the system to choose a winner. A typical recommended setup would use a 1,000-member segment, with a test distribution that sends variant A to 10% of the segment, variant B to another 10%, and then sends the winning design to the remaining 80%.
+> To produce reliable, statistically significant test results, you should always send each version (A and B) to a minium of 100 recipients before allowing the system to choose a winner. A typical recommended setup would use a 1,000-member segment, with a test distribution that sends version A to 10% of the segment, version B to another 10%, and then sends the winning design to the remaining 80%.
 > 
-> You can run an A/B test with as little as just one or a few recipients for each variant, but this can often result in an uneven or non-random distribution of variants and unreliable final results. We recommend that you only do this while experimenting with the feature.
+> You can run an A/B test with as little as just one or a few recipients for each version, but this can often result in an uneven or non-random distribution of versions and unreliable final results. We recommend that you only do this while experimenting with the feature.
 
 To add an A/B test to a journey:
 
@@ -112,8 +112,8 @@ To add an A/B test to a journey:
     > If you select an email message that has A and B designs but don't enable A/B testing for the tile, then version A will be sent to all recipients.
 
 1. Make the following settings to set up the test:
-   - **Choose A/B test**: Your selected email design must have at least one test set up, but it might have more. Select the name of the test that you want to run on this tile. You can run at most one test at a time.
-   - **A/B distribution**: Choose how many contacts (as a percentage of the total number of contacts in the target segment) you'd like to send each version of the design to during the test. The percentage chosen for the left drop-down list will receive design A, and the percentage chosen for the right will receive design B. Contacts to be included in the test are chosen at random, as is the version each will receive.
+   - **Choose A/B test**: Your selected email design must have at least one test set up that hasn't been used, but it might have more. Select the name of the test that you want to run on this tile. You can run at most one test at a time.
+   - **A/B distribution**: Set the slider to choose how many contacts (as a percentage of the total number of contacts in the target segment) you'd like to include in the test. Half of the test audience will receive version A, and the other half will receive version B. All test contacts, and the version each receives, are selected randomly.
    - **Winning metric**: Choose whether to decide the winning design based on the click-through rate (how often a recipient clicked on a link in the message) or on the open rate (how often a recipient opened the message). In each case, the winner is the version that produced the most clicks or opens as a proportion of the total number of times that version was sent.
    - **Test duration**: Use these settings to establish how long the test should run. For best results, we recommend running each test for at least 24 hours, or longer if possible—especially if you are targeting a worldwide audience (to compensate for time zones). At the end of this time, the system will analyze the results and send the winning design to the remaining contacts in the segment. Contacts who received the "losing" design won't be re-sent the winning one.
    - **If the results are inconclusive, send**: Choose what to do if the test doesn't produce a clear winner. In this case, you can choose to send version A, version B, or a random 50/50 split of both versions to all remaining contacts.
@@ -143,7 +143,7 @@ You can check the progress and results of your A/B tests at any time by examinin
 
 1. Select the email tile where you are running an A/B test.
 
-1. Scroll down to the bottom of the **Data** panel for the selected email tile. Here you'll see a display that shows the percentage of contacts that you sent each version to (including the winning version), how much time there is left in the test, and which design was declared the winner (provided the test has finished).
+1. Scroll down to the bottom of the **Data** panel for the selected email tile. Here you'll see a display that shows the name of the test, the percentage of contacts that you sent each version to (including the winning version), how much time there is left in the test, and which design was declared the winner (provided the test has finished).
 
     ![A/B test results](media/email-abtest-journey-results.png "A/B test results")
 
