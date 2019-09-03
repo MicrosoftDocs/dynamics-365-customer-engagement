@@ -19,11 +19,15 @@ ms.custom:
 
 ## Understand skill and context variables
 
-In the portal, when the customer fills the pre-chat survey questions, the system receives these as context variables. The omnichannel system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact closest match criteria. Once the skill attached to the conversation matches with the skill of an agent, then the work distribution engine assigns the conversation to that agent.
+In the portal, when the customer fills the pre-chat survey questions, the system receives these as context variables. The omnichannel system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact or closest match criteria. Once the skill attached to the conversation matches with the skill of an agent, then the work distribution engine assigns the conversation to that agent.
 
 For example:
 
 Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso contact center. The pre-chat survey question prompts Ian Madera to choose a product, and Ian Madera chooses **Xbox**. As Ian Madera's geolocation is Spain, the Omnichannel system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent finds an agent with skill as **Xbox** and **Spanish**.
+
+## Prerequisites
+
+To attach skills, you need a workstream record. Either you can create or use an existing workstream configuration. 
 
 ## Attach skill
 
