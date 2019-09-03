@@ -1,6 +1,6 @@
-- name: Introduction to on-premises development
+- name: Developer Guide for Dynamics 365 Customer Engagement (on-premises)
   href: overview.md
   items:
-  - name: Extend Customer Engagement on the server
+  - name: Extend Customer Engagement (on-premises) on the server
     href: extend/
 
