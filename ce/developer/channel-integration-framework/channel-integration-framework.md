@@ -43,6 +43,7 @@ manager: shujoshi
 
 <li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
 <li><a href="getting-started-simple-widget.md" data-raw-source="[Build a simple communication widget](getting-started-simple-widget.md)">Build a simple communication widget</a></li>
+<li><a href="search-open-records-incoming-conversation.md" data-raw-source="[Search and open records on an incoming conversation](search-open-records-incoming-conversation.md)">Search and open records on an incoming conversation</a></li>
 <li><a href="enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
 <li><a href="add-cif-solution-dependent-solution.md" data-raw-source="[Add CIF solution as a dependent solution](add-cif-solution-dependent-solution.md)">Add CIF solution as a dependent solution</a></li>
 <li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
