@@ -2,7 +2,7 @@
 title: "Search and open records on an incoming conversation | MicrosoftDocs"
 description: "Read how you can use the Channel Integration Framework APIs to search and open records on an incoming conversation."
 keywords: ""
-ms.date: 05/30/2019
+ms.date: 09/03/2019
 ms.service:
   - "dynamics-365-cross-app"
 ms.custom:
