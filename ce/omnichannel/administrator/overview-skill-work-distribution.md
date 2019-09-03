@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Overview of skill based routing
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 In the customer service center, your agents have different skill sets and abilities. The customers who reaches out to the contact center might have different needs. Skills based routing lets your customer service center distribute the work item (conversation) to the best-qualified agent who is best able to solve the issue. Skills-based routing improves the quality of customer service by automatically distributing the work items to the agent who has the skills necessary to do the work.
 
