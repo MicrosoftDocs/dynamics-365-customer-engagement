@@ -34,7 +34,7 @@ The journey runs the entire test automatically. It starts by sending version A t
 
 ## Create a marketing email for A/B testing
 
-To set up an A/B test, start by creating your basic design (this will be the A version) and then create one or more B versions where just a small part of the design has changed. Each B version allows only one type of change (such as subject, body content, _or_ from address), but you can define several test for the same design, where the A version is always the same, but with a different B version for each test.
+To set up an A/B test, start by creating your basic design (this will be the A version) and then create one or more B versions where just a small part of the design has changed. Each B version allows only one type of change (such as subject, body, _or_ from address), but you can define several test for the same design, where the A version is always the same, but with a different B version for each test.
 
 To set up A and B designs for a message:
 
@@ -44,11 +44,11 @@ To set up A and B designs for a message:
 
     ![Open the A/B test panel](media/email-abtest-open-panel.png "Open the A/B test panel")
 
-1. The **A/B test** panel opens. This is where you'll see each test that you add for your current design (but so far, there aren't any). Select the **New** button at the top of this panel to open a drop-down list and then select one of the following:
+1. The **A/B test** panel opens. This is where you'll see each test that exists for your current design (if any). Select the **New** button at the top of this panel to open a drop-down list and then select one of the following:
 
    - **Subject**: Adds a subject test. This type of test lets you choose a different subject for the B version of your design.
    - **From name**: Adds a from-name test. This type of test lets you choose a different from-name for the B version of the design. Recipients will see this as the name of the sender of the message. This won't change actual the from-address, which will remain the same for both versions.
-   - **Body**: Adds a body-content test, which lets you select any design element in your design and then change that element's settings, content, or appearance in the B version of the design. You can create A and B versions for any number of design elements in a single body-content test (you're not limited to just one).
+   - **Body**: Adds a body test, which lets you select any design element in the email body and then change that element's settings, content, or appearance in the B version of the design. The B version can include any number of modified design elements in a single body test.
 
     ![Add a new test](media/email-abtest-add-test.png "Add a new test")
 
@@ -63,15 +63,24 @@ To set up A and B designs for a message:
    - You can change the name of any listed test by opening its ellipsis menu ( **…** ) and selecting **Rename**. This name is displayed in the customer journey email tile when you are choosing which test to run for that journey .
    - Select a test from the **A/B test** panel to work with that test.
    - Use the **Version A** and **Version B** buttons at the top of the **A/B test** panel to switch between the two versions of the selected test.
-   - The parameter being controlled by your selected test shows either an **A** icon ![Icon for version A](media/email-abtest-a-icon.png "Icon for version A") or a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B") to indicate what you are testing and which version is being shown (and editable). The icon changes to match the version button you have selected ( **Version A** or **Version B** ).
+   - For subject and from-name tests, the parameter being controlled by your selected test shows either an **A** icon ![Icon for version A](media/email-abtest-a-icon.png "Icon for version A") or a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B") to indicate what you are testing and which version is being shown (and editable). The icon changes to match the version button you have selected ( **Version A** or **Version B** ).
+   - For body tests, each element being tested shows a colored frame around it (when selected) that matches the color of the version button you have selected (blue for **Version A** or pink for **Version B** ). See the next step for details about how to set this up.
 
-    ![Version buttons, tests, and indicators](media/email-abtest-version-indictators.png "Version buttons, tests, and indicators")
+    ![Version buttons, tests, and indicators for a subject test](media/email-abtest-version-indicators.png "Version buttons, tests, and indicators for a subject test")
 
-1. Select a test from the **A/B test** panel and then select the **Version B** button. Now change the design of the item you are testing (subject or from-address), which is now highlighted with a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B")
-. You can toggle back and forth using the **Version A** and **Version B** buttons to compare the versions for the selected test and continue to edit each version while it's being displayed. 
+1. Select a test from the **A/B test** panel and then select the **Version B** button. Do one of the following, depending on which type of test you are making:
+    - For subject tests, the **Subject** field should now show a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B"). Enter a new subject here.
+    - For from-name tests, the **From name** field should now show a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B"). Enter a new name here.
+    - For body tests, the A and B versions are initially identical. To add an element to the test, select it on the canvas to highlight it and then select the **A/B** button ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") in the tab at the top of the highlighted frame. This is a toggle button, so you can select it  again to remove an element from the test&mdash;it shows a white background ![Icon for tested body element](media/email-abtest-body-on.png "Icon for untested body element") for elements being tested, and shows a blue background ![Icon for untested body element](media/email-abtest-body-off.png "Icon for untested body element") for elements that are the same for each variant. You can add as many elements as you want to the test, but usually it's best just to test just a few elements (or one element) at a time.
+
+    ![Version buttons, tests, and indicators for a body test](media/email-abtest-body-test.png "Version buttons, tests, and indicators for a body test")
+
+1. Now change the design of the item(s) you have enabled for testing. For subject and from-name tests, edit the appropriate field text; for body tests, you can edit text content for text elements or **Property** tab settings for other types of design elements. You can toggle back and forth between variants using the **Version A** and **Version B** buttons and continue to edit each version while it's being displayed.
 
     > [!NOTE]
-    > Even after you have enabled A/B testing you can still edit parts of your message that aren't part of any tests. When you to this,  your edits will affect all versions (the A version and all B versions), regardless of which test and version button are currently selected. But if you edit a setting that shows an **A** icon ![Icon for version A](media/email-abtest-a-icon.png "Icon for version A"), then you are only editing the A version; and if you edit a setting that shows a **B** icon ![Icon for version B](media/email-abtest-b-icon.png "Icon for version B"), you are only editing the B version of the selected test..
+    > Even after you have enabled A/B testing you can still edit parts of your message that aren't part of any tests. When you to this,  your edits will affect all versions (the A version and all B versions), regardless of which test and version button are currently selected. But if you edit a setting that's enabled for testing, then you are only editing the version selected using the **Version A** and **Version B** buttons. Remember that the A version is the same for all tests, but the B version is unique for each test.
+    > 
+    > Be careful when adding new design elements to a message that already has a body test set up. After doing this, be sure to check each variant of each test to make sure your new elements is fully defined with the correct content and settings for all of them.
 
 1. Continue working in this way until you have set up all of the tests you want to run on the current email design.
 1. When you're done setting up your designs and tests, select **Go live** to make your message available for use with a customer journey.
@@ -109,6 +118,22 @@ To add an A/B test to a journey:
    - **Test duration**: Use these settings to establish how long the test should run. For best results, we recommend running each test for at least 24 hours, or longer if possible—especially if you are targeting a worldwide audience (to compensate for time zones). At the end of this time, the system will analyze the results and send the winning design to the remaining contacts in the segment. Contacts who received the "losing" design won't be re-sent the winning one.
    - **If the results are inconclusive, send**: Choose what to do if the test doesn't produce a clear winner. In this case, you can choose to send version A, version B, or a random 50/50 split of both versions to all remaining contacts.
 1. Finish setting up your journey as usual and the go live.
+
+<a name="test-lifecycle"></a>
+
+## Monitor the lifecycle of your A/B tests
+
+Each test defined for a given email message can only be run once. As soon as a test starts to get processed by a customer journey, or has been processed, you won't be able to use it again with any other customer journey. As a result, you might sometimes try to set up an A/B test for an email tile in a customer journey and be surprised when you can't select the test you want to run. In this case, you can just add another test.
+
+To view the run status of each A/B test defined in an email message, open the message and expand the **A/B Test** panel. Each test available for the message is listed under one of three headings:
+
+- **Draft**: These are tests that haven't been run yet, so you can still edit their settings and choose them when configuring an email tile for a customer journey.
+- **In progress**: These are tests that are currently being run. Their  settings are locked and you can't run them in any other customer journey.
+- **Finished**: These are tests that are complete.  Their  settings are locked and you can't run them in any other customer journey. To [view the results](#inspect-results), go to the customer journey where you ran the test.
+
+![A/B test run status display](media/email-abtest-run-status.png "A/B test run status display")
+
+<a name="inspect-results"></a>
 
 ## Inspect your test results
 
