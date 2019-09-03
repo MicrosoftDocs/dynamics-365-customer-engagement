@@ -36,11 +36,11 @@ A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dyna
  The following topics describe how to add custom business logic to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] through the development and registration of plug-ins. For more information about the run-time execution of plug-ins and the plug-in development framework, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
 
 > [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](../../developer/includes/cc-cdsnote-1.md)]
+> [!INCLUDE[cc-cdsnote-1](../../../../developer/includes/cc-cdsnote-1.md)]
 >
 > The plug-in documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 >
-> [!INCLUDE[cc-cdsnote-2-section](../../developer/includes/cc-cdsnote-2-section.md)]
+> [!INCLUDE[cc-cdsnote-2-section](../../../../developer/includes/cc-cdsnote-2-section.md)]
   
 ## In This Section  
 [Plug-in Development](plugin-development.md)
