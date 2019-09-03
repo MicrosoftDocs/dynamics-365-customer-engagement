@@ -2,26 +2,26 @@
   href: extend-customer-engagement.md
   items:
   - name: Extend Customer Engagement on the server
-    href: server/extend-dynamics-365-server.md
+    href: extend-dynamics-365-server.md
     items:
     - name: Write plug-ins to extend business processes
-      href: server/write-plugin-extend-business-processes.md
+      href: write-plugin-extend-business-processes.md
       items:
       - name: On-premises plug-in development
-        href: server/plugin-development.md
+        href: plugin-development.md
         items:
         - name: Impersonation in plug-ins
-          href: server/impersonation-plugins.md
+          href: impersonation-plugins.md
         - name: Register and Deploy Plug-Ins
-          href: server/register-deploy-plugins.md
+          href: register-deploy-plugins.md
         - name: Debug a plug-In
-          href: server/debug-plugin.md
+          href: debug-plugin.md
         - name: Access external web resources
-          href: server/access-web-resources.md
+          href: access-web-resources.md
         - name: Offline plug-in execution
-          href: server/support-offline-execution.md
+          href: support-offline-execution.md
           items:
           - name: Messages and entities for offline plug-ins
-            href: server/supported-messages-entities-plugin.md
+            href: supported-messages-entities-plugin.md
           - name: 'Walkthrough: Configure assembly security for an offline plug-in'
-            href: server/walkthrough-configure-assembly-security-offline-plugin.md
+            href: walkthrough-configure-assembly-security-offline-plugin.md

@@ -31,16 +31,16 @@ Whenever possible, you should first consider applying one of the several declara
 
 When a declarative process doesn’t meet a requirement, as a developer you have several options. This topic will introduce common options to write code.
 
-A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform.
+A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform.
   
- The following topics describe how to add custom business logic to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] through the development and registration of plug-ins. For more information about the run-time execution of plug-ins and the plug-in development framework, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
+ The following topics describe how to add custom business logic to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] through the development and registration of plug-ins. For more information about the run-time execution of plug-ins and the plug-in development framework, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
 
 > [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
+> [!INCLUDE[cc-cdsnote-1](../../developer/includes/cc-cdsnote-1.md)]
 >
 > The plug-in documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 >
-> [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
+> [!INCLUDE[cc-cdsnote-2-section](../../developer/includes/cc-cdsnote-2-section.md)]
   
 ## In This Section  
 [Plug-in Development](plugin-development.md)

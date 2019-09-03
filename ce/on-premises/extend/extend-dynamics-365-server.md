@@ -33,7 +33,7 @@ search.app:
 ---
 # Extend Dynamics 365 for Customer Engagement apps on the server
 
-This section describes capabilities to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform. Whenever possible, extensions that apply business logic should be applied on the server.  
+This section describes capabilities to extend [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform. Whenever possible, extensions that apply business logic should be applied on the server.  
   
 ## In This Section  
  [Write Plug-Ins to Extend Business Processes](write-plugin-extend-business-processes.md)  

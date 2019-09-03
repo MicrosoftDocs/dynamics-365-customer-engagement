@@ -25,7 +25,7 @@ search.app:
 
 # Register a plug-in to be deployed on-premise
 
-Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
+Plug-ins and custom workflow activities are custom code that you develop to extend the existing functionality of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. Before a plug-in or custom workflow activity can be used, it must be registered with the server. A plug-in and custom workflow activity registration tool is available for download.
 
 General information about plug-in and custom workflow assembly registration can be found in the Common Data Service topics [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in) and [Register your assembly](/powerapps/developer/common-data-service/workflow/workflow-extensions#register-your-assembly). The information that follows below is specific to on-premises plug-in development.
 
@@ -38,27 +38,27 @@ General information about plug-in and custom workflow assembly registration can 
 
 ## Plug-in Storage
 
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
-For an on-premises deployment, plug-ins that are not registered in the sandbox can be stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server's database or the *on-disk* file system. We strongly recommend that you store your production-ready plug-ins in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps database, instead of on-disk. Plug-ins stored in the database are automatically distributed across multiple [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps servers in a data center cluster. On-disk storage of plug-ins is useful for debugging plug-ins using [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. However, you can debug a plug-in that is stored in the database. For more information, see [Debug a Plug-in](debug-plugin.md).  
+[!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)] 
+For an on-premises deployment, plug-ins that are not registered in the sandbox can be stored in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server's database or the *on-disk* file system. We strongly recommend that you store your production-ready plug-ins in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps database, instead of on-disk. Plug-ins stored in the database are automatically distributed across multiple [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps servers in a data center cluster. On-disk storage of plug-ins is useful for debugging plug-ins using [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)]. However, you can debug a plug-in that is stored in the database. For more information, see [Debug a Plug-in](debug-plugin.md).  
 
-Plug-ins registered in the sandbox must be stored in the database regardless of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps deployment (on-premises, IFD, or Online).
+Plug-ins registered in the sandbox must be stored in the database regardless of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps deployment (on-premises, IFD, or Online).
 
 <a name="bkmk_deployment"></a>
 
 ## Deployment
 
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
-For on-premises or Internet-facing (IFD) [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps installations, when you deploy plug-ins from another computer to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server disk (on-disk deployment), the plug-in assembly must be manually copied to the server before registration. The assembly must be deployed to the `<installdir>`\Program Files\Microsoft CRM\server\bin\assembly folder on each server where the plug-in is to execute.  
+[!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)] 
+For on-premises or Internet-facing (IFD) [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps installations, when you deploy plug-ins from another computer to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server disk (on-disk deployment), the plug-in assembly must be manually copied to the server before registration. The assembly must be deployed to the `<installdir>`\Program Files\Microsoft CRM\server\bin\assembly folder on each server where the plug-in is to execute.  
 
-Plug-in registration should be done after the assembly has been copied to the …\bin\assembly folder on the server to prevent the situation where a system user causes an event in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to be raised but the registered plug-in assembly does not yet exist on the server. For server database deployment, the plug-in assembly is automatically copied during plug-in registration so that the earlier situation is not an issue.  
+Plug-in registration should be done after the assembly has been copied to the …\bin\assembly folder on the server to prevent the situation where a system user causes an event in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps to be raised but the registered plug-in assembly does not yet exist on the server. For server database deployment, the plug-in assembly is automatically copied during plug-in registration so that the earlier situation is not an issue.  
 
-Depending on your plug-in’s design, your plug-ins may require other referenced assemblies to run. Regardless of whether you deploy your plug-in to the database or disk, if your plug-in requires other assemblies to run, you must put copies of these assemblies in the global assembly cache on each server where the plug-in is to execute. This does not apply to a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps server because you do not have access to the global assembly cache on that server.  
+Depending on your plug-in’s design, your plug-ins may require other referenced assemblies to run. Regardless of whether you deploy your plug-in to the database or disk, if your plug-in requires other assemblies to run, you must put copies of these assemblies in the global assembly cache on each server where the plug-in is to execute. This does not apply to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps server because you do not have access to the global assembly cache on that server.  
 
 **To move a plug-in from a development environment to a staging or production server**
 
 1. On the development computer, build the plug-in code. Do not include debug information. Optimize the plug-in for performance.
-2. Register the plug-in in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server database.
-3. Using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, create a solution or use an existing one, and add the plug-in to that solution.
+2. Register the plug-in in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server database.
+3. Using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application, create a solution or use an existing one, and add the plug-in to that solution.
 4. After you have added any other desired components to the solution, export the solution.
 5. Import the solution on to the staging or production server.
 

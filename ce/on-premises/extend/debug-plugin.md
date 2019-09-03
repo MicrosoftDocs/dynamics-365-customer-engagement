@@ -25,23 +25,23 @@ search.app:
 
 # Debug an on-premise registered plug-In
 
-General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] apps.
+General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] apps.
 
 > [!NOTE]
 > An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
   
-[!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
+[!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
 
 <a name="bkmk_debugaplugin"></a>   
 ## Debug a plug-in  
   
 1. Register and deploy the plug-in assembly.  
   
-    If there is another copy of the assembly at the same location and you cannot overwrite that copy because it is locked by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you must restart the service process that was executing the plug-in. Refer to the table below for the correct service process. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
+    If there is another copy of the assembly at the same location and you cannot overwrite that copy because it is locked by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, you must restart the service process that was executing the plug-in. Refer to the table below for the correct service process. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
 2. Configure the debugger.  
   
-    Attach the debugger to the process on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server that will run your plug-in. Refer to the following table to identify the process.  
+    Attach the debugger to the process on the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server that will run your plug-in. Refer to the following table to identify the process.  
   
    |Plug-in Registration Configuration|Service Process|  
    |-----------------------------------------|---------------------|  
@@ -54,24 +54,24 @@ General information about plug-in debugging can be found in the Common Data Serv
   
 3. Test the plug-in.  
   
-    Run the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application, or other custom application that uses the SDK, and perform whatever action is required to cause the plug-in to execute. For example, if a plug-in is registered for an account creation event, create a new account.  
+    Run the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] application, or other custom application that uses the SDK, and perform whatever action is required to cause the plug-in to execute. For example, if a plug-in is registered for an account creation event, create a new account.  
   
 4. Debug your plug-in code.  
   
-    Make any needed changes to your code so that it performs as you want. If the code is changed, compile the code into an assembly and repeat steps 1 through 4 in this procedure as necessary. However, if you change the plug-in assembly’s major or minor version numbers, you must unregister the earlier version of the assembly and register the new version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
+    Make any needed changes to your code so that it performs as you want. If the code is changed, compile the code into an assembly and repeat steps 1 through 4 in this procedure as necessary. However, if you change the plug-in assembly’s major or minor version numbers, you must unregister the earlier version of the assembly and register the new version. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
 5. Register the plug-in in the database.  
   
-    After the edit/compile/deploy/test/debug cycle for your plug-in has been completed, unregister the (on-disk or GAC) plug-in assembly and then reregister the plug-in in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps database. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
+    After the edit/compile/deploy/test/debug cycle for your plug-in has been completed, unregister the (on-disk or GAC) plug-in assembly and then reregister the plug-in in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps database. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
 > [!TIP]
->  It is possible to debug a database deployed plug-in. The compiled plug-in assembly's symbol file (.pdb) must be copied to the server's \<*crm-root*>\Server\bin\assembly folder and [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] must then be restarted. After debugging has been completed, you must remove the symbol file and reset IIS to prevent the process that was executing the plug-in from consuming additional memory.  
+>  It is possible to debug a database deployed plug-in. The compiled plug-in assembly's symbol file (.pdb) must be copied to the server's \<*crm-root*>\Server\bin\assembly folder and [!INCLUDE[pn_Internet_Information_Services](../../includes/pn-internet-information-services.md)] must then be restarted. After debugging has been completed, you must remove the symbol file and reset IIS to prevent the process that was executing the plug-in from consuming additional memory.  
   
  For more information about debugging a plug-in using the Plug-in Profiler tool, see [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in).  
   
 <a name="bkmk_sandboxplugin"></a>   
 ## Debug a sandboxed plug-in  
- It is important to perform these steps before the first execution of a sandboxed plug-in. If the plug-in has already been executed, either change the code of the assembly, causing the hash of the assembly to change on the server, or restart the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Sandbox Processing Service on the sandbox server.  
+ It is important to perform these steps before the first execution of a sandboxed plug-in. If the plug-in has already been executed, either change the code of the assembly, causing the hash of the assembly to change on the server, or restart the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Sandbox Processing Service on the sandbox server.  
   
  **Configure the on-premise server**  
   
@@ -85,7 +85,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
  Follow these steps to debug a sandboxed plug-in.  
   
-1. Register the plug-in in the sandbox (isolation mode) and deploy it to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server database.  
+1. Register the plug-in in the sandbox (isolation mode) and deploy it to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server database.  
   
 2. Copy the symbol file (.pdb) of the compiled plug-in assembly to the server\bin\assembly folder on the server running the sandbox worker process named Microsoft.Crm.Sandbox.WorkerProcess.exe. This is the server hosting the Sandbox Processing Service role.  
   
