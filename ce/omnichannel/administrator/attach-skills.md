@@ -15,7 +15,7 @@ ms.custom:
 
 # Attach skill to incoming conversation
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Understand skill and context variables
 

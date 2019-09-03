@@ -15,7 +15,7 @@ ms.custom:
 
 # Enable skill based routing and create rating model
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Enable skill based routing
 

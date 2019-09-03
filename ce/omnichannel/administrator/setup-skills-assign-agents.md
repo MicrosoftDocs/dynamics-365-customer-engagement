@@ -15,7 +15,7 @@ ms.custom:
 
 # Set up skills and assign agents
 
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 ## Set up skills
 
