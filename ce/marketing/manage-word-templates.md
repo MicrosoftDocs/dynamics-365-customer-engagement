@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 9db7c881-4ba5-4b8d-a241-1f6ff3f5de73
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Manage [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] templates
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] provides powerful ways to present your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data in a standardized and well-formatted document. With [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] templates, you can easily create and share your template with others, so all the documents that go out to your customers have a consistent look that matches your organization's branding.
 

@@ -1,7 +1,7 @@
 ---
 title: "Client scripting in Customer Engagement using JavaScript | MicrosoftDocs"
-description: "Learn how to use Client API in Customer Engagement to apply custom business process logic for displaying data on a form."
-ms.date: 10/31/2017
+description: "Learn how to use Client API in Dynamics 365 for Customer Engagement apps to apply custom business process logic for displaying data on a form."
+ms.date: 06/27/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -9,7 +9,7 @@ applies_to:
 ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -17,36 +17,28 @@ search.app:
 ---
 # Client scripting in Customer Engagement using JavaScript
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+Client-side scripting using JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365 for Customer Engagement apps. Forms in Customer Engagement apps help display data to the user. A form in a Customer Engagement app can contain items such as fields, a quick form, or a grid.
 
-Client-side scripting using JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Customer Engagement. 
+You can also use business rules, which provides a way for someone, who does not know JavaScript and is not a developer, to apply business process logic in a form. More information: [Create business rules and recommendations to apply logic in a form](../../customize/create-business-rules-recommendations-apply-logic-form.md)
 
-> [!NOTE]
-> You can also use business rules, which provides a way for someone who does not know JavaScript and is not a developer, to apply business process logic in a form. More information: [Create business rules and recommendations to apply logic in a form](../../customize/create-business-rules-recommendations-apply-logic-form.md)  
+Dynamics 365 for Customer Engagement apps provide you a rich set of **client APIs** to interact with form objects and events to control what and when to display on a form.
 
-Forms in Customer Engagement help display data to the user. A form in Customer Engagement can contain items such as fields, a quick form, or a grid. An [event](events-forms-grids.md) occurs in Customer Engagement forms whenever:
-- A form loads
-- Data is changed in a field or an item within the form
-- Data is saved in a form
-
-You can attach your JavaScript code to "react" to these events so that your code gets executed when the event occurs on the form. You attach your JavaScript code (scripts) to these events by using a [Script web resource](../script-jscript-web-resources.md) in Customer Engagement. 
-
-Customer Engagement provides you a rich set of **client APIs** to interact with form objects and events to control what and when to display on a form.
-
-> [!NOTE]
-> Some client APIs are deprecated in the current release of Dynamics 365 for Customer Engagement apps. Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
+> [!IMPORTANT]
+> Dynamics 365 for Customer Engagement apps are [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview) that you create using PowerApps. All the client API documentation for Customer Engagement apps is now available in the model-driven apps section of the PowerApps documentation here: [Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting)
+  
+Some client APIs are deprecated in the current release of Dynamics 365 for Customer Engagement apps. Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
 ## Get Started
 
-[Events in forms and grids](events-forms-grids.md)
+[Events in forms and grids](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids)
 
-[Understand the Client API object model](understand-clientapi-object-model.md)
+[Understand the Client API object model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model)
 
-[Walkthrough: Write your first client script](walkthrough-write-your-first-client-script.md)
+[Walkthrough: Write your first client script](/powerapps/developer/model-driven-apps/clientapi/walkthrough-write-your-first-client-script)
 
 ## Reference
 
-[Client API reference](reference.md)
+[Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference)
 
 
 ## Related topics

@@ -3,14 +3,10 @@ title: "Create a quote PDF document (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Create and share a professional-looking quote PDF document with your customers."
 keywords: "Quote, proposal, create PDF, email PDF, PDF"
 ms.date: 05/22/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.1.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: f37196fb-0b42-4637-9700-acbbac25d9e6
 author: shubhadaj
 ms.author: shujoshi
@@ -19,12 +15,9 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 58
-topic-status: Drafting
 ---
 
 # Generate a PDF document from a quote record
-
-Applies to Dynamics 365 for Customer Engagement apps version 9.1.x
 
 Create and share a professional-looking quote by generating a PDF document from a quote record using a standard template from your organization.
 

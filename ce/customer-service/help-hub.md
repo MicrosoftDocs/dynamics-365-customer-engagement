@@ -4,7 +4,6 @@ description: Your starting point for help of Customer Service Hub for Dynamics 3
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -40,7 +39,7 @@ search.app:
   <ul>
   <li><a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets" data-raw-source="[Dynamics 365 for phones and tablets]https://docs.microsoft.com/en-us/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets">Dynamics 365 for phones and tablets</a></li>
 <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Customer Service Hub app on mobile devices</a></li>
-<li><a href="basics-service-service-scheduling.md#set-up-the-new-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)">New scheduling experience based on URS</a></li>
+<li><a href="basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience" data-raw-source="[New scheduling experience based on URS](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)">New scheduling experience based on URS</a></li>
   </li> 
   </ul>
   </td>

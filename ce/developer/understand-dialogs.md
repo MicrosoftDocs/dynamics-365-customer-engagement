@@ -22,8 +22,6 @@ search.app:
 ---
 # Understand dialogs
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a *child dialog*, and then invoke that dialog from within a parent dialog. 
 
 > [!IMPORTANT]

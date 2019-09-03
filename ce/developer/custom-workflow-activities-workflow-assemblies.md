@@ -2,8 +2,8 @@
 title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about registration and execution of custom workflow activities in addition to the out-of-box activities provided by Windows Workflow Foundation. You can write custom workflow activities in Microsoft Visual C# or Visual Basic .NET code by creating an assembly that contains one or more classes derived from the Windows Workflow FoundationCodeActivity class."
 ms.custom: 
-ms.date: 09/12/2018
-ms.reviewer: 
+ms.date: 06/12/2019
+ms.reviewer: pehecke
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -21,39 +21,29 @@ search.app:
 ---
 # Custom workflow activities (workflow assemblies)
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+You can extend the options available within the workflow designer used in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. These extensions are made available within the designer by creating and registering an assembly that contains a class that extends the  <xref:System.Activities.CodeActivity> class. These extensions are commonly called workflow assemblies or workflow activities. You can use these custom extensions within the designer used for workflows, custom actions, and dialogs.
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support the registration and execution of custom workflow activities in addition to the out-of-box activities provided by [Windows Workflow Foundation](https://msdn.microsoft.com/netframework/aa663328.aspx). [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] includes an [activity library](https://msdn.microsoft.com/library/dd489459.aspx) that provides activities for control flow, sending and receiving messages, doing work in parallel, and more. However, to build applications that satisfy your business needs, you may need activities that perform tasks specific to that application. To make this possible, [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] supports the creation of custom workflow activities.  
+The capability to use these custom extensions with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] (online) is provided by the Common Data Service. For information about creating, deploying, and debugging these extensions see the Common Data Service documentation: [Common Data Service](/powerapps/developer/common-data-service/overview) > [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions).
+
+The following section includes information specifically for on-premises deployments of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
   
- You can write custom workflow activities in [!INCLUDE[pn_MS_Visual_C#](../includes/pn-ms-visual-csharp.md)] or [!INCLUDE[pn_Visual_Basic](../includes/pn-visual-basic.md)] code by creating an assembly that contains one or more classes derived from the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] <xref:System.Activities.CodeActivity> class. This assembly is annotated with .NET attributes to provide the metadata that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps uses at runtime to link your code to the workflow engine.  
+## On-premises options
+
+On-premises developers should be aware of additional capabilities available when debugging or registering custom workflow activities and assemblies.
+
+### Registration of custom workflow activity assemblies
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps (on-premises) support execution of custom workflow activities in partial or full trust. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) only supports sandbox (partial trust) execution of custom workflow activities.
+
+When registering a custom workflow activity assembly, you do not register a step as is done for plug-ins. For more detailed registration information, see [Register a plug-in to be deployed on-premise](register-deploy-plugins.md)
+
+### Debugging custom workflow activities
+To debug a custom workflow activity, copy the .pdb file for the assembly to the `%installdir%\server\bin\assembly` folder. The assembly can be deployed as on-disk or stored in the database. The recommended deployment is in the database, but for debugging you should select on-disk. Next, attach the debugger to the `CrmAsyncService.exe` process. Make sure that you remove the .pdb file when you’ve finished debugging because it uses memory to have it loaded.
+
+For more detailed debugging information, see [Debug a plug-In](debug-plugin.md).
   
- After you have created an assembly that contains one or more custom workflow activities, you register this assembly with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. This process is similar to registering a plug-in. The custom workflow activity can then be incorporated into a workflow or dialog in the `Process` form in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
-  
-> [!NOTE]
-> [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] only supports sandbox (partial trust) execution of custom workflow activities. On-premises [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support execution of custom workflow activities in partial or full trust.  
-  
-## In This Section  
- [Creating a Custom Workflow Activity](workflow/create-custom-workflow-activity.md)  
-  
- [Adding Metadata to the Custom Workflow Activity](workflow/add-metadata-custom-workflow-activity.md)  
-  
- [Using the Web Services within a Custom Workflow Activity](workflow/use-iorganization-web-service-custom-workflow-activity.md)  
-  
- [Registering the Workflow Assembly](workflow/register-use-custom-workflow-activity-assembly.md)  
-  
- [Debugging a Custom Workflow Activity](workflow/debug-custom-workflow-activity.md)  
-  
- [Updating or Upgrading Custom Workflow Activity: Assembly Versioning](workflow/update-custom-workflow-activity-using-assembly-versioning.md)  
-  
- [Process Classes, Attributes, and Dynamics 365 for Customer Engagement apps Type](workflow/process-classes-attributes-and-types.md)  
-  
- [Sample: Create a custom workflow activity](workflow/sample-create-custom-workflow-activity.md)  
-  
- [Sample: Update Next Birthday Using a Custom Workflow Activity](workflow/sample-update-next-birthday-using-custom-workflow-activity.md)  
-  
- [Sample: Calculate a Credit Score with a Custom Workflow Activity](workflow/sample-calculate-credit-score-custom-workflow-activity.md)  
-  
-## Related Sections  
+## Related Sections 
+ [Workflow extensions](/powerapps/developer/common-data-service/workflow/workflow-extensions)  
+ 
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)  
   
  [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)

@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
   - powerapps
 author: Mattp123
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
@@ -86,7 +85,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
    There are a few considerations you should keep in mind when using the online recalculation option (manual refresh on the form):  
   
-  -   You have to have Write privileges on the entity and Write access rights on the source record on which you are requesting the Refresh. For example, if you are calculating the estimated revenue from the open opportunities of an account, you don’t have to have Write privileges on the opportunity entity, only on the account entity.  
+  -   You have to have Write privileges on the entity and Read access rights on the source record on which you are requesting the Refresh. For example, if you are calculating the estimated revenue from the open opportunities of an account, you don’t have to have Write privileges on the opportunity entity, only on the account entity.  
   
   -   This option is only available in the online mode. You can’t use it while working offline.  
   

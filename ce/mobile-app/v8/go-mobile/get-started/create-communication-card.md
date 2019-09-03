@@ -1,7 +1,7 @@
 ---
 title: "Create a communication card in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-10-31
+ms.date: 10/31/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: 632e9436-a0ed-4986-b30a-9f67b7e7072d
 caps.latest.revision: 6
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +23,6 @@ search.app:
   - D365Sales
 ---
 # Create a communication card in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
 <a name="bkmk4"></a>   
 

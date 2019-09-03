@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: fd391660-beac-4f58-9499-90c8e807dc97
 caps.latest.revision: 53
 author: "jimholtz"
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Export to an Excel dynamic worksheet
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Export data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] worksheet so users can have the latest [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] information any time they view the worksheet. Imagine the CEO of your company getting the critical information they need without having to navigate [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] but instead, merely opening the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] link on their desktop. You can export up to 100,000 records at a time.  
   

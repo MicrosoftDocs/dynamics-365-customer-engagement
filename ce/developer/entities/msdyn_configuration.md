@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_Configuration Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This entity is used to store queries and templates.
 
 **Added by**: Universal Resource Scheduling Solution

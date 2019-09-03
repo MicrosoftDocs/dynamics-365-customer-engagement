@@ -10,8 +10,9 @@
 #### [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 #### [Work with interactive dashboards](customer-service-hub-user-guide-dashboard.md)
 #### [Use Customer Service Hub on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)
-#### [Upgrade to the Customer Service Hub](upgrade-ish-csh.md)
+#### [Upgrade to Customer Service Hub](upgrade-ish-csh.md)
 #### [Keyboard navigation support](keyboard-navigation-support-customer-service-hub.md)
+
 ### Customer Service app
 #### [Introduction to Customer Service app](user-guide-customer-service.md)
 #### [Create and manage a case](user-guide-customer-service.md#create-and-manage-a-case)
@@ -23,7 +24,7 @@
 #### [Find knowledge articles from within a record](find-knowledge-articles-within-record-dynamics-365.md)
 
 ## Service Manager Guide
-### [Understand Service Manager](service-manager-guide.md)
+### [Understand Service Management](service-manager-guide.md)
 ### Case Settings
 #### [Create and manage queues](set-up-queues-manage-activities-cases.md)
 #### [Define parent and child case settings](define-settings-parent-child-cases.md)
@@ -38,20 +39,24 @@
 #### [Create and manage holiday schedule](set-up-holiday-schedule.md)
 #### [Create customer service schedule](create-customer-service-schedule-define-work-hours.md)
 #### [Manage service configuration settings](../admin/system-settings-dialog-box-service-tab.md)
+
 ### Templates
 #### [Set up entitlements using entitlement templates](set-up-entitlements-templates.md)
 #### [Create email templates](../admin/create-templates-email.md)
 #### [Create article templates](../admin/create-templates-articles.md)
+#### [Create knowledge article template](create-templates-knowledge-article.md)
+
 ### Knowledge Base Management
 #### [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Create and manage categories](create-manage-categories.md)
+
 ### Similar Record Suggestions
 #### [Use advanced similarity rules to view similar case suggestions](suggest-similar-cases-for-a-case.md)
 
 
 ## Service Scheduling Guide
 ### [Understand Service Scheduling](basics-service-service-scheduling.md)
-### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
+### [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 ### [Manage security roles](manage-security-roles.md)
 ### Schedule entities
 #### [Create bookable resources](resources-service-scheduling.md)  
@@ -65,6 +70,9 @@
 ### Work with settings
 #### [Create and manage organizational units](create-org-units-cs-scheduling.md)
 #### [Schedule business closure](set-when-business-closed-csh.md)
+### Migration tool
+#### [Introduction](introduction-migration-entity-records.md)
+#### [Migrate entity records data using migration tool](migrate-entity-records.md)
 ### [Service Scheduling FAQ](service-scheduling-faq.md)
 ### Developer Guide
 #### [Migrate Service Activity entity](migrate-service-activity-entity.md)
@@ -93,3 +101,7 @@
 ### [Issue converting an email to a case](troubleshoot-case-email-issue.md)
 ### [SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-timer-issue.md)
 ### [Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)
+
+## Developer guide
+### [Create knowledge article using template](create-knowledge-article-using-template.md)
+### [Extend transformer logic on templates](extend-tranformer-logic-template.md)

@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 56f3ec6e-622c-43e2-9d7a-9a3a4d77e701
 caps.latest.revision: 17
 author: JimDaly
@@ -22,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Entity attribute metadata messages
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 An entity attribute is a container for a piece of data in an entity. In this developer guide, the term “attribute” and “property” (class property) are often used interchangeably with the term “entity attribute.” The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application uses the term “field” when it refers to entity attributes.  
 

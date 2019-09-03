@@ -2,7 +2,7 @@
 title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
 description: "Use the marketing settings to configure landing pages, email marketing, and marketing-insights sync in Dynamics 365 for Marketing"
 keywords: administration; landing page; marketing insights sync
-ms.date: 05/03/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Marketing settings
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and marketing services.
 
@@ -51,6 +48,12 @@ When you error check or go live with a marketing email message, the verification
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and prefilling, see [Integrate with landing pages on external websites](embed-forms.md).
 
+### The default authenticated domain
+
+By default, all new Dynamics 365 for Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". This means that you can begin sending authenticated emails right away, but you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
+
+When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form *account-name*@*domain-name*). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will probably lower message deliverability.
+
 ### Which domains to authenticate
 
 Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with prefill enabled.
@@ -60,6 +63,9 @@ Set up as many authenticated domains as you need to cover all the from-addresses
 
 > [!IMPORTANT]
 > To use form prefilling, the page hosting the form must be served over HTTPS (not HTTP).
+
+> [!NOTE]
+> All new instances and trials automatically authenticate their instance domain with DKIM and set that domain as the default sending domain for your instance. Therefore, you'll usually see at least one authenticated domain already set up for all new instances.
 
 ### Authenticate a domain
 
@@ -92,11 +98,21 @@ As you are setting up an authenticated domain, you can track the progress of bot
 | Cancelled | The registration was cancelled. |
 | Not requested | You didn't request this type of authentication. |
 | Confirming DNS registration | Dynamics 365 for Marketing is working to confirm the registration with DNS. |
-| Keys not found on DNS | Dynamics 365 for Marketing successfully checked for the keys in the DNS system, but they weren't there. This may be because your key registrations are still being implemented by the DNS (allow up to 24 hours). It could also mean that you haven't registered the keys or that something went wrong while you were entering them. You can check again by selecting   **Confirm DNS registration** on the command bar. If problems persist after 24 hours, please contact Microsoft Support and/or your DNS provider for assistance. |
-| Internal error (record not found) | An internal error occurred while confirming the DNS registration. Please contact Microsoft Support for assistance. |
-| Internal error (query failed) | An internal error occurred while confirming the DNS registration. Please contact Microsoft Support for assistance. |
+| Keys not found on DNS | Dynamics 365 for Marketing successfully checked for the keys in the DNS system, but they weren't there. This may be because your key registrations are still being implemented by the DNS (allow up to 24 hours). It could also mean that you haven't registered the keys or that something went wrong while you were entering them. You can check again by selecting   **Confirm DNS registration** on the command bar. If problems persist after 24 hours, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) and/or your DNS provider for assistance. |
+| Internal error (record not found) | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
+| Internal error (query failed) | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
+| Internal error | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
 
-## CDS-A connector settings
+### Prevent sending emails from unauthorized domains
+
+To benefit from DKIM, the from-address for each message you send must show a domain that you've authenticated for DKIM. Microsoft is dedicated to helping our customers achieve maximum email deliverability, so we've added a few features to help make sure you don't overlook or inadvertently work around your DKIM setup:
+
+- The error check for email messages will show a warning if you try to go live with an email message that has a from-address not associated with any of your DKIM domains.
+- We recommend that you [set a default sending domain](#default-marketing-settings) that is authenticated for DKIM. When this is set, then the from-address for all of your email messages will automatically be adjusted to show your selected default domain (if it initially uses a non-authenticated domain) each time you create a new email message or change the user shown in the **From** field. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
+ [Default marketing settings](#default-marketing-settings) and  and [Set sender and receiver options](email-properties.md#send-receive-options)
+- All new instances and trials will automatically authenticate the instance domain with DKIM and set that domain as the default sending domain for your instance.
+
+## Marketing analytics configuration
 
 Use these settings to connect your Dynamics 365 for Marketing instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
 
@@ -244,10 +260,11 @@ Make the following settings here:
 Use the **Marketing email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. You can also enable or disable Litmus integration here for all users. The following settings are available:
 
 - **Default content settings**. Choose a default content-settings record to provide dynamic values for test sends and the preview feature of the marketing email designer. Users will be able to override this default by choosing another contact while previewing or test sending a specific message if needed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
+- **Default sending domain**. Choose an authenticated domain to use as the sending domain in the email from-address in cases where the initial from-address uses a domain that is not yet authenticated for DKIM. This will help ensure that users don't accidentally send an email using an unauthenticated domain (which would negatively impact deliverability). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](#authenticate) and [Set sender and receiver options](email-properties.md#send-receive-options)
 - **Default contact**. Choose a default contact record to provide dynamic values for test sends and the preview feature of the marketing email designer. Users will be able to override this default by choosing another contact while previewing or test sending a specific message if needed.
-- **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](prepare-marketing-emails.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
+- **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](email-preview.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](prepare-marketing-emails.md#preview-message)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work using previews and test sends](email-preview.md)
 
 ### The Customer journey tab
 
@@ -300,4 +317,4 @@ Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data p
 ### See also
 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-by-using-previews-and-test-sends)
+[Check your work using previews and test sends](email-preview.md)

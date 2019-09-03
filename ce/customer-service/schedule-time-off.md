@@ -5,7 +5,6 @@ keywords: Schedule time off; Dynamics 365 for Customer Engagement; Customer Serv
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 09/15/2017
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Schedule time off 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can schedule a period of time in the middle of a schedule when a resource is not available to be scheduled for a service activity. For a user, this could be a sick day or vacation. For a facility or equipment, this could be an equipment failure.
 

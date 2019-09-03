@@ -1,7 +1,6 @@
 ---
 title: "Design elements reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each design element that is available for the design tool in Dynamics 365 for Marketing"
-keywords: designer; design element; element; reference; email; form;  page
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +24,6 @@ search.app:
 ---
 
 # Design elements reference
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Read this topic to learn how to use each of the design elements that are available for use with the various content designers. Some elements are available for all designers and some are specific to email, marketing pages, or forms.
 
@@ -247,7 +243,7 @@ Captcha elements are only available when you are working with a landing-page for
 
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create a new email and design its content](email-design.md)    
 [Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Create, view, and manage marketing forms](marketing-forms.md)  

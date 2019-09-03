@@ -5,7 +5,6 @@ keywords: Restrict a resource from performing a service; Dynamics 365 for Custom
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Restrict a resource from performing a service
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can restrict a resource from performing a service and define the service capacity for the resource. You can also restrict when a resource is available to be scheduled for a specific service. The resource is still available for scheduling service activities for other services.
   

@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: dc861210-2993-4722-baf8-492d159701a0
 caps.latest.revision: 17
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Process a return (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 In [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], a return merchandise authorization (RMA) is created in the system when a product is returned. There are three ways of returning a product: return to warehouse, return to vendor (RTV), or change equipment ownership.  
   

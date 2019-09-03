@@ -1,7 +1,7 @@
 ---
 title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement apps to modify or augment the standard behavior of the platform. "
-ms.custom: 
+ms.custom: on-premise
 ms.date: 4/30/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,8 +21,6 @@ search.app:
   - D365CE
 ---
 # On-premise plug-in development
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.
 

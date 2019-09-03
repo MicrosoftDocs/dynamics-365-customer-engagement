@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 45e83f30-ab4c-4ef5-86c4-a0a8f2a21561
 caps.latest.revision: 32
 author: Mattp123
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Create, edit, or save an Advanced Find search
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Find the records you want in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by using the Advanced Find command. You can also use Advanced Find to prepare data for export to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] so that you analyze, summarize, or aggregate data, or create PivotTables to view your data from different perspectives.  
 

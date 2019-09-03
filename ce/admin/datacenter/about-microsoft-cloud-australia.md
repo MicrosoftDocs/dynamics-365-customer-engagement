@@ -14,6 +14,7 @@ ms.assetid: 89fb6e21-19a8-4ee3-b3ef-9ddb9f583831
 caps.latest.revision: 26
 author: jimholtz
 ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -21,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # About the Microsoft Cloud Australia datacenter
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You may request migration to the Australia datacenter upon datacenter availability (Q1 CY2015).  
   

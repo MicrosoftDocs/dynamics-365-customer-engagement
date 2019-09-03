@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b029dc84-c368-4fb2-a689-bdcecb0aea92
 caps.latest.revision: 22
 author: Mattp123
@@ -23,9 +22,7 @@ search.app:
   - D365CE
 ---
 # Create a new report using SQL Server Data Tools
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is a report authoring environment that lets you create or edit [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. The end result is a report definition .rdl file that contains the report definition that you can publish in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to view reports.  
   
  You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](http://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  

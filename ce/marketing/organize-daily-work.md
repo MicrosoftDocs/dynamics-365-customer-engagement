@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b9d69822-83df-4120-91bc-0afa83c84f4f
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Organize your daily work
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can use common features of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to organize your daily work, including using dashboards to get an overview of your most important information, planning and recording activities (such as appointments, tasks, and phone calls), creating new records quickly, and assigning records (including activities) to a user or a team.
 

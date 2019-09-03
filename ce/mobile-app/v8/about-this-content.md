@@ -7,12 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps Version 8.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -23,8 +22,6 @@ search.app:
   - D365Sales
 ---
 # About this content
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 The topics in this folder apply to Dynamics 365 for Customer Engagement apps, version 8.x. Other topics apply to Dynamics 365 for Customer Engagement apps, version 9.x or both 9.x and 8.x. Review the **Applies to** at the top of each topic.
 

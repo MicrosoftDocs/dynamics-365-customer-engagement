@@ -2,14 +2,13 @@
 title: "Set up an event website (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set up a Dynamics 365 for Marketing event website, where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more."
 keywords: event;portals;event website
-ms.date: 03/08/2019
+ms.date: 04/06/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b83e8cb2-38a4-462f-87bc-0fc52357f01e
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Set up the event website
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The event website provides an online resource where people can read about your event and its speakers, create an account, register for the event, purchase passes, view their session schedule, and more. The following image shows a simplified site map of your event website as your attendees will see it.
 
@@ -74,7 +71,9 @@ The following table summarizes how to publish each publishable entity to the web
 |    Speakers    | Speakers are published automatically when you publish a session they are assigned to.<p>Speakers are listed on the front page for each event where they are speaking, on the **Speakers** page, and on session pages for each session they are running. A speaker profile page shows additional details and a schedule of sessions for that speaker.</p> | Name, Photo, Title, About, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], [!INCLUDE[tn-twitter](../includes/tn-twitter.md)], Website |
 | Session Tracks |    Publish each track manually by opening the track record and setting the **Publish status** to **Live**. Unpublished tracks won't be shown on the website.<p>Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>     |  Name, Audience |
 |     Passes     | Passes are published automatically when you publish the event they belong to.<p>All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.</p>| Name, Name of the related track record, Pass price, Sold out status</p>             |
-|    Sponsors    | Sponsors are published automatically when you publish the event they belong to.<p>Sponsors associated with published events are displayed at the bottom of most pages of the website for those events.  |  Event sponsor (the  name of the related account record), Logo (taken from the related account record for each sponsor)</p>                          |
+|    Sponsors    | Sponsors are published automatically when you publish the event they belong to.<p>Sponsors associated with published events are displayed at the bottom of most pages of the website for those events.  |  Event sponsor (the  name of the related account record), Logo (taken direcly from the sponsor record, not the related account)</p>                          |
+
+<a name="website-graphics-options"></a>
 
 ## Configure website graphics and registration options
 
@@ -86,10 +85,10 @@ The website features a banner image for each event, and also shows speaker photo
 
 - You can set the banner image shown for any event by [editing the event record](set-up-event.md), going to the **General** tab and using the **Portal image** setting.
 
-- Speaker images come from each speaker record (not from the associated contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
+- Speaker images come from each speaker record (not from the related contact record). To upload a speaker image, go to **Events** > **Participants** > **Speakers** and open the relevant speaker record. Then select the existing photo (or generic placeholder) in the heading area of the page to open a dialog where you can upload an image. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up an event](set-up-event.md)  
     ![Edit the speaker image](media/speaker-edit-image.png "Edit the speaker image")
 
-- Sponsor images come from each sponsorship record, which you can edit by working in the event record where the sponsorship applies (found on the **Agenda** tab, which links to related sponsorship records), or by finding the appropriate sponsorship record under **Events** > **Sponsorship management** > **Sponsorships**. As with speaker images, you can edit the image by selecting the existing photo (or generic placeholder) in the heading area of the sponsorship record page.
+- Sponsor images come from each sponsorship record (not from the related account record), which you can edit by working in the event record where the sponsorship applies (found on the **Agenda** tab, which links to related sponsorship records), or by finding the appropriate sponsorship record under **Events** > **Sponsorship management** > **Sponsorships**. As with speaker images, you can upload an image (such as a logo) to be displayed on the event website by selecting the existing photo (or the generic placeholder) in the heading area of the sponsorship record page.
 
 <a name="registration"></a>
 
@@ -125,6 +124,15 @@ Here's how to configure each of the options that's described as optional in the 
     - **Allow anonymous registrations**: If you are hosting the event website on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal, set this to **No** to require all visitors to create an event-website account before they can register themselves or others for an event; set to **Yes** to allow visitors to register without creating an event-website account. This setting has no effect if you are hosting your event website externally; see [Build and host a custom event website](developer/event-management-web-application.md) for details about how to enable registration accounts on externally hosted sites.
 1. Go to the **Agenda** tab and set the **Allow registrants to create their own agenda** option to **Yes** if you want to use session-level registration, or to **No** to use pass-level registration (with optional online payment).
 1. Save your settings.
+
+<a name="demo-event-payment"></a>
+
+## Simulate payment for demo purposes
+
+If you'd like to demo the event website checkout process, but haven't yet set up the integration with a third-party payment provider, then you can enable simulated payment as described in [Event administration](events-settings.md#event-admin).
+
+> [!WARNING]
+> You must only enable simulated payment when presenting a demo of the event website. You must always disable it again before going to production because the simulated feature can introduce a security vulnerability if enabled in a production environment.
 
 <a name="generate-leads"></a>
 

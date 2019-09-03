@@ -9,6 +9,7 @@
 ## [AppSource add-ins for Field Service](appsource-addins.md)
 
 # Administration
+## [Work order process architecture](field-service-architecture.md)
 ## [Sample data installation (app version 8.x)](install-sample-data-8-x.md)
 ## [Sample data installation (earlier app versions)](use-demo-data.md)
 ## [Initial configuration](perform-initial-configurations-setup.md)
@@ -21,7 +22,9 @@
 
 
 # Quickstarts
-## [Schedule a work order](quickstart-schedule-work-order.md)
+## [Create, schedule, and view a work order](quickstart-schedule-work-order.md)
+## [Auto-schedule a list of work orders with RSO](rso-quickstart.md)
+
 
 # Work orders
 ## [Work order life cycle and statuses](work-order-status-booking-status.md)
@@ -31,7 +34,7 @@
 ## [Price list](create-price-list.md)
 ## [Create a product or service](create-product-or-service.md)
 ## [Service task types](set-up-service-task-types.md)
-## [Incident types](configure-incident-types.md)
+## [Work order templates (incident types)](configure-incident-types.md)
 
 # Bookable resources
 ## [Set up bookable resources](set-up-bookable-resources.md)
@@ -47,6 +50,7 @@
 ## [The 5 stages of scheduling adoption](5-stages-scheduling-adoption.md)
 
 ## Administration and configuration
+### [Enable an entity for scheduling](schedule-new-entity.md)
 ### [Geocoding for travel time](turn-on-auto-geocoding.md)
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Fulfillment preferences](set-up-time-groups.md)
@@ -54,6 +58,7 @@
 
 ## Scheduling
 ### [Travel time and distance](schedule-with-travel-time.md)
+### [Quick scheduling](quick-scheduling.md)
 ### [Multi-resource scheduling](multi-resource-scheduling-requirement-groups.md)
 ### [Resource crew scheduling](resource-crews.md)
 ### [Resource pools](resource-pools.md)
@@ -63,16 +68,20 @@
 ## Schedule board 
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Sharing schedule board tabs](share-schedule-board-tab.md)
+### [Utilization](schedule-board-utilization.md)
 ### [Schedule board custom resource attribute](extend-schedule-board-custom-resource-attribute.md)
+### [Edit booking template](booking-template.md)
+### [Booking alerts](booking-alert.md)
 ### [Schedule board tab settings](schedule-board-tab-settings.md)
 
 
 # Field Service Mobile
+## [Overview](field-service-mobile-overview.md)
 ## [Setup](field-service-mobile-app-user-guide.md)
 ## [Customizations and configurations](mobile-app-configuration-customization.md)
 ## [Push notifications](mobile-push-notifications.md)
 ## [Geofencing](geofencing.md)
-## [Extend mobile configuration tool trial](activate-fs-mobile-app-license.md)
+## [Activate mobile configurator](activate-fs-mobile-app-license.md)
 ## [Mixed reality integration with Remote Assist and HoloLens](remote-assist-hololens.md)
 ## FAQs + troubleshooting
 ### [How do I extend my mobile configuration tool trial?](activate-fs-mobile-app-license.md)
@@ -111,8 +120,10 @@
 
 # Resource Scheduling Optimization (RSO) add-in
 ## [Overview](rso-overview.md)
+## [Quickstart](rso-quickstart.md)
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
+## [Set up a proof of concept](rso-proof-concept.md)
 ## Running RSO
 ### [Publishing + monitoring](rso-schedule-optimization.md)
 ### [Single resource optimization](single-resource-optimization.md)
@@ -137,7 +148,10 @@
 ### [Prerequisites for Azure subscription](cfs-azure-subscription.md)
 ### [Installation and setup](installation-setup-iothub.md)
 ### [Authorize API app connection](cfs-authorize-api-connection.md)
+### [Visualizing device readings](cfs-visualizations-iot-hub.md)
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 ## [Security roles for Connected Field Service](cfs-security-roles.md)
-
+# Integrations
+## [Dynamics 365 Guides on HoloLens](mixed-reality-guides-integration.md)
+# [General FAQs](troubleshoot-faq.md)

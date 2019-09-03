@@ -6,9 +6,7 @@ ms.date: 04/08/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: CACB6A49-432D-4022-9392-F2939530B665
 author: susikka
 ms.author: susikka
@@ -17,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 22
-topic-status: Drafting
 ---
 # msdyn_forecastrecurrence EntityType
 

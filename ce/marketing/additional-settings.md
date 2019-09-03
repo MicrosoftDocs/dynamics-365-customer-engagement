@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 9aad261a-91bb-42e6-b00b-bf0dcd5a6693
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Manage sample data in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Sample data gives you something to experiment with as you learn, and helps you see how data is organized in the system. If sample data isn't installed on your trial or sandbox instance, you might want to add it for training purposes. 
 

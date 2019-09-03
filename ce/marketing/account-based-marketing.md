@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3b2f6e2a-5e27-4c5b-9ba4-9d2f4598c839
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Account-based marketing
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Account-based marketing is an approach where you organize your marketing initiatives around account records instead of, or in addition to, contacts. That means, for example, that your leads reference accounts, and are scored based on interactions made by any or all of the contacts that belong to those accounts.
 
@@ -201,7 +198,7 @@ When you are viewing insights on the Designer tab for an account-based journey, 
 
 ## Account-based leads and lead scoring
 
-Leads can be associated with accounts or contacts. If a lead is associated with both a contact and a lead, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
+Leads can be associated with accounts or contacts. If a lead is associated with both a contact and an account, then that lead is treated as a contact lead when it comes to lead scoring (the account is ignored). Leads associated with neither a contact nor an account can't be scored by a lead-scoring model in Marketing. The following rules apply for lead-scoring models:
 
 - You can set each lead-scoring model to apply to either contact-based leads or to account-based leads.
 - Interactions made by all contacts related to an account contribute to the score of an account-based lead. So, for example, each contact from an account that opens an email message could increase the score of the lead associated with that account.

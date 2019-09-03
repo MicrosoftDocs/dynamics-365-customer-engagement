@@ -16,8 +16,6 @@ search.app:
 ---
 # BookableResourceBookingHeader Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Shows the reservation table where the summary of resource bookings are persisted.
 
 **Added by**: Scheduling Solution

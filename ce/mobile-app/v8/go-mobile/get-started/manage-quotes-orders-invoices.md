@@ -1,7 +1,7 @@
 ---
 title: "Manage quotes, orders, and invoices in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,10 +12,10 @@ applies_to:
   - Dynamics 365 for Customer Engagement apps (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: fd821fc0-3654-403b-b7c1-591f9c4ada89
 caps.latest.revision: 24
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -25,8 +25,6 @@ search.app:
   - D365Sales
 ---
 # Manage quotes, orders, and invoices in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 As a sales professional, you'll frequently work with the following types of records:  
   

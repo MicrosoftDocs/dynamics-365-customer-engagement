@@ -2,7 +2,7 @@
 title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 keywords: ""
-ms.date: 05/15/2018
+ms.date: 07/12/2018
 ms.service: 
   - usd
 ms.topic: article
@@ -29,6 +29,53 @@ search.app:
 ::: moniker range="dynamics-usd-4.1"
 
 ## Unified Service Desk 4.1 known issues and limitations
+
+### Creating an Instance of COM component with CLSID
+
+You use IE process hosting type and upgrade your Windows 10 to the latest version. When you launch Unified Service Desk client application, you might see the following error: 
+
+**Creating an Instance of COM component with CLSID (0002DF01-0000-0000-C000-000000000046) from the IClassfactory failed due to the following error: 8150002e Exception from the HRESULT: 0x8150002E.**
+
+If Favorites Bar is enabled in Internet Explorer, then you might see the aforementioned error.
+
+#### Workaround
+
+You can work around the issue in two ways:
+
+- Remove the Favorites Bar from the Internet Explorer
+- Add the KillUSDIEProcessesOnExit UII option
+
+##### Remove the Favorites Bar from the Internet Explorer
+
+You must remove the favorites bar from the Internet Explorer, and then end all the IE Process manually before restarting the Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
+
+1. Open the Internet Explorer.
+2. Right-click on the Favorites bar. The context menu appears.
+3. Select **Favorites bar** to disable.
+
+##### Add the KillUSDIEProcessesOnExit UII option
+
+If you don't want to remove the favorites bar for the Internet Explorer, add the **KillUSDIEProcessesOnExit** UII option and set the value to true. Setting the UII option ends all the IE Process running in the background at the time of exiting Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
+3. Choose **Options**.
+4. Select **New** on the **Active UII Options** page.
+5. Choose **Others** for the **Global Option** field.
+6. Type **KillUSDIEProcessesOnExit** for the **Name** field.
+7. Set **True** for the **Value** field.
+8. Select **Save**.
+
+> [!Note]
+> The mitigation works for the issue with HRESULT: 0x8150002E.
+
+### Document Object Model (DOM) access in Chrome Process
+
+With Chrome Process, you can't access the DOM element from the C3 custom code. 
+
+#### Workaround
+
+To work around, you must write JavaScript code to access the DOM and execute the RunScript action on it.
 
 ### Window Navigation Rules for Advanced Find does not work
 

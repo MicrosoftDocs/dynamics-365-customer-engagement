@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f19d8015-50ab-4286-af03-dd24ced39308
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Create a marketing email and go live
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -146,6 +143,6 @@ To create a marketing email and go live:
 [Best practices for email marketing](get-ready-email-marketing.md)  
 [Design your digital content](design-digital-content.md)  
 [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Design elements reference](content-blocks-reference.md)

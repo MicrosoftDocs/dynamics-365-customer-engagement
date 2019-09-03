@@ -1,8 +1,8 @@
 ---
-title: "Work Order and Booking Statuses | MicrosoftDocs"
+title: "Work order and booking statuses | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/14/2019
+ms.date: 08/01/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -39,7 +39,7 @@ Work order system statuses, work order substatuses, and booking statuses all wor
 - Closed - Posted
 - Closed - Canceled
 
-**Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are are created custom for each organization.
+**Work Order Substatuses** are noted on the work order entity and relate to and provide more detail for work order system statuses. Work order substatuses are created custom for each organization.
 
 **Booking Statuses** are noted on the bookable resource booking entity and are updated by field technicians on the Field Service Mobile app to track their progress for a specific work order requirement. Additionally, booking statuses are visualized on the schedule board with a distinct color and icon, and a few booking statuses are part of the product by default, though more custom ones can be added. Out of the box, the booking statuses are:
 
@@ -204,7 +204,15 @@ Here is the customer asset that results from the used work order product. Notice
 
 #### Closed – Posted
 - Invoice is generated for used work order products and services billing account 
-- Actuals records are created for time and materials costs related to work orders and bookings. 
+- **Actuals** records are created for time and materials costs related to work orders and bookings. Sales actuals for billed products and services are created once the generated invoice is confirmed.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of an invoice with attention to the confirm invoice button](./media/work-order-lifecycle-confirm-invoice.png)
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a list of sales actuals](./media/work-order-lifecycle-sales-actuals.png) 
+
+
 - **Closed By** field is updated.
 - **Closed On** field is updated.
 

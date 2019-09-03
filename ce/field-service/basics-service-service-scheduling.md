@@ -5,7 +5,6 @@ keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Ser
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Overview of service and service scheduling (Customer Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Avoid disruptions in service by making sure that your resources are scheduled optimally and efficiently. Learn the basics of getting started with managing services and service scheduling in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 

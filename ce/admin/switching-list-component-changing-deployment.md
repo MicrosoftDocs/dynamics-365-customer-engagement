@@ -1,7 +1,7 @@
 ---
 title: "Switching from the list component or changing the SharePoint deployment for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/19/2019
+ms.date: 06/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Switching from the list component or changing the SharePoint deployment
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 This topic provides an overview about how to switch from the list component to server-based authentication. This topic can also help if you change the [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] deployment type, such as moving from [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  
   
@@ -36,7 +36,7 @@ This topic provides an overview about how to switch from the list component to s
 
 |Environment  |Topic  |
 |---------|---------|
-|Dynamics 365 for Customer Engagement apps (online) and SharePoint Online  |  [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)           |
+|Dynamics 365 for Customer Engagement apps (online) and SharePoint Online  |   [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)        |
 |Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises     |   [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises](../admin/configure-server-based-authentication-sharepoint-on-premises.md)      |
   
    > [!NOTE]
@@ -64,6 +64,27 @@ This topic provides an overview about how to switch from the list component to s
 3. Select the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site you want to remove, and then on the tool bar select **Deactivate**.  
   
 4. Repeat step three for all sites that you want to deactivate.  
+
+### What to do when the Enable Server-Based SharePoint Integration wizard doesn’t appear
+If the **Enable Server-Based SharePoint Integration** icon doesn't appear in the **Document Management** area after you deactivate all SharePoint sites, follow these steps.
+1.	Select Advanced Find and create the following query. 
+    -	**Look for**: **SharePoint Sites** 
+    -	**Use Saved View**: **[new]**
+    -	Select the down arrow next to the **Service Type** clause and then select **Delete** to remove it. 
+
+        ![Delete Service Type clause](media/delete-service-type-clause.png)
+
+2. Add **Status** as a new clause, select **Active** as the value, and then select **OK**: 
+
+    ![Select Active SharePoint Sites](media/select-active.png)
+
+3. The **Status** clause appears like this. 
+
+    ![Status clause](media/status-clause.png)
+
+4. Select **Results**.
+    In the list of active SharePoint sites returned by the query, select all records, and then on the toolbar, select **Deactivate**.
+
 
 ### See also
 [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md) 

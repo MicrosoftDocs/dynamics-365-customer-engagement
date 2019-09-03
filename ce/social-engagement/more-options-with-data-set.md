@@ -2,7 +2,7 @@
 title: "Work with a data set in Social Engagement | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
 keywords: data set, filter, time frame
-ms.date: 09/26/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -11,7 +11,6 @@ ms.assetid: 39b154e6-2a78-44bf-864e-e03da3d184c0
 author: m-hartmann
 ms.author: mhart
 manager: shellyha
-topic-status: Drafting
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Explore more options with your data set
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], [data sets](use-filters.md#data_set) are often key to an accurate and detailed analysis.
   
  In some areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can copy a given data set over to a different area to save time. For example, you can have a stream in **Social Center** that shows an overwhelming amount of posts. You decide to analyze those posts in the **Analytics** area to drill down into the information using the filtering functionality. You find a set of important posts and choose to get informed of any similar new posts. By passing your data set over to the **Alerts** area, you can create an alert with a single click.  

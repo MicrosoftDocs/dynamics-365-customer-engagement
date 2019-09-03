@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 70c55a33-dd08-44bc-bb9c-0f3732aa30a9
 caps.latest.revision: 5
 author: brycho
@@ -20,8 +19,6 @@ search.app:
   - D365CE
 ---
 # Understanding how data is organized
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Whether you’re in sales, service, or marketing, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement helps you organize and get big returns on your customer data. Because sales and service are unified in one system, salespeople have visibility into any active service issues so that they aren’t blindsided as they’re trying to close a deal. Likewise, if a customer calls in for support, a service rep can see that a big sale is pending and handle the caller accordingly.
 

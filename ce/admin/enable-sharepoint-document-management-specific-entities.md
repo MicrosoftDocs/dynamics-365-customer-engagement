@@ -1,7 +1,7 @@
 ---
 title: "Enable SharePoint document management for specific entities for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/23/2018
+ms.date: 08/01/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Enable SharePoint document management for specific entities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps entity records in [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] and quickly access, share, and manage these documents from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps by enabling document management on the specific entities.  
   
@@ -46,27 +46,20 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamic
   
     If a URL is not already specified, enter the URL of the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site where the document locations and folders for storing documents will be created, and then click **Next**.  
   
-5. If you use server-based integration (recommended)  
+5. Consider these server-based integration settings.
   
    - Check **Based on entity** to have  document libraries and folders that are based on the Dynamics 365 for Customer Engagement apps Account entity automatically  created on the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site. Users will not be prompted to create them.  
   
       If you don't want folders automatically created, clear the **Based on entity** check box.  
-  
-      When you first visit the documents grid, if you want users to confirm folder creation corresponding to the entity record on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], clear the **Automatically create folder** check box.  
-  
+   
      > [!IMPORTANT]
      >  If you have [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], make sure the site is under the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instances.  
-     > 
-     >  The **Folders will be automatically created on the SharePoint site** option was first introduced in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)].  
-     >
-     > With the exception of the opportunity and contract entities, a hierarchical folder structure will not be automatically created in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] for entities that have more than one many-to-one (N:1) relationship with the parent entity. 
-
-  
+      
    - Click **Finish**.  
   
       For more information on server-based integration, see [Set up SharePoint integration with Microsoft Dynamics 365 for Customer Engagement](set-up-sharepoint-integration.md).  
   
-   If you don't use server-based integration  
+<!--    If you don't use server-based integration  
   
    - If you want the document libraries and folders to be created, specify a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URL, and make sure the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site  has the [!INCLUDE[pn_crm_list_component_sharepoint_server](../includes/pn-crm-list-component-sharepoint-server.md)] installed. Note, this will also work if you specify a [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] site URL.  
   
@@ -85,7 +78,7 @@ Store the documents related to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamic
   
 7. Click **Next**.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps creates document libraries for the selected entities on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps also creates the corresponding document location records that contain the links to these document libraries. The **Document Management Settings** wizard shows the creation status of the document libraries.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps creates document libraries for the selected entities on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps also creates the corresponding document location records that contain the links to these document libraries. The **Document Management Settings** wizard shows the creation status of the document libraries.  -->
   
 ### See also  
  [Edit existing SharePoint site records](../admin/edit-existing-sharepoint-site-records.md)   

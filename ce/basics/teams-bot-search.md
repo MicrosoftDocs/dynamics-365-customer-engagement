@@ -9,7 +9,6 @@ ms.suite:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: mduelae
@@ -22,8 +21,6 @@ search.app:
   - Powerplatform
 ---
 # Use the bot 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
 The Dynamics 365 app for Teams bot feature allows you search Dynamics 365 for Customer Engagement apps records within Microsoft Teams conversations.

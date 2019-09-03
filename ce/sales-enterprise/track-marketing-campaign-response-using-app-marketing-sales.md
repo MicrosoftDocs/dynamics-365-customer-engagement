@@ -1,16 +1,11 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
 keywords: ""
 ms.date: 01/30/2019
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 1bf875ef-5d83-44f6-8b5c-67f7e3286e7c
 author: shubhadaj
 ms.author: shujoshi
@@ -22,8 +17,6 @@ caps.latest.revision: 46
 ---
 
 # Track a marketing campaign response using in-app marketing (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Record the replies you get from potential customers in response to a specific marketing campaign to make sure your team can act on the responses. Measure the success of specific campaign activities based on their response rates. You can manually create campaign responses or have [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] generate them automatically.  
   

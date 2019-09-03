@@ -1,16 +1,13 @@
 ---
 title: "Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional."
-keywords: Dynamics 365 for Sales, Professional, Enterprise
-ms.date: 06/22/2018
+keywords: "Dynamics 365 for Sales, Professional, Enterprise"
+ms.date: 08/20/2019
 ms.service:
-  - dynamics-365-sales
+  - "dynamics-365-sales"
 ms.custom:
-  - dyn365-sales
+  - "dyn365-sales"
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
 ms.assetid: 2987af09-2270-4dae-8fac-0e048d2cc08e
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +15,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Drafting
 ---
 
 # Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional
@@ -36,7 +32,7 @@ topic-status: Drafting
 
 ## Purchase Dynamics 365 for Sales Professional subscription
 
-1.  Sign in to Office 365 at admin.microsoft.com with the Dynamics 365 for Customer Engagement account that has admin permissions.
+1.  Sign in to Office 365 at admin.microsoft.com with the Dynamics 365 account that has admin permissions.
 
 2.  Select **Billing** > **Subscriptions**.
 
@@ -62,7 +58,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 3.	Select **Replace existing product license assignments**, and then select **Next**. 
 
-4.	Turn on the license for your Dynamics 365 for Customer Engagement plan. 
+4.	Turn on the license for your Dynamics 365 plan. 
 
 5.	Select **Replace**, and then select **Close** twice. 
 
@@ -89,7 +85,7 @@ After you complete these steps, your organization will be effectively moved to [
 
 1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2.	Sign in to Dynamics 365 for Customer Engagement. 
+2.	Sign in to Dynamics 365. 
 
 3.	Select **Settings** > **Solutions**. 
 

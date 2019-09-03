@@ -2,7 +2,7 @@
 title: "Delete Teams data | MicrosoftDocs"
 ms.custom: 
 description: "Delete Teams data."
-ms.date: 04/30/2019
+ms.date: 06/20/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: mduelae
@@ -23,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Delete Teams data 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
 
@@ -41,6 +38,8 @@ The following data is stored with Dynamics 365 for Customer Engagement apps inte
 | App module ID | The ID of app module selected to show in the dashboard | EndUsePseudonymousIdentifiers (EUPI) —<br/>An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer. | <ul><li>User GUIDs, PUIDs, or SIDs</li><li>Session IDs</li><ul>   |
 
 You can [contact support](../admin/contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 for Customer Engagement apps support.
+
+For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 |Command  |Comment  |
 |---------|---------|

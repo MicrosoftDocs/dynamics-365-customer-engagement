@@ -2,12 +2,11 @@
 title: "Implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to implement General Data Protection Regulations in Voice of the Customer for Dynamics 365 for Customer Engagement."
 keywords: implement GDPR in Voice of the Customer,Voice of the Customer GDPR 
-ms.date: 11/30/2018
+ms.date: 07/01/2019
 ms.service: crm-online
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 689D3272-D2E5-4815-B723-6AE65BAA4838
 author: sbmjais
 ms.author: shjais
@@ -17,6 +16,9 @@ topic-status: Drafting
 ---
 
 # Implementing General Data Protection Regulations in Voice of the Customer
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 

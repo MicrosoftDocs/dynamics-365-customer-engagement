@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -28,8 +27,6 @@ search.app:
 ---
 
 # Quickstart: Schedule a work order and view it on the mobile application
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 This quickstart shows how a dispatcher creates and schedules a work order that a field technician then views on the mobile app.
 

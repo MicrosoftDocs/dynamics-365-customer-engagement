@@ -7,12 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-author: mduelae
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 141
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -23,8 +22,6 @@ search.app:
   - D365Sales
 ---
 # Support for Dynamics 365 for phones and Dynamics 365 for tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../../../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
 

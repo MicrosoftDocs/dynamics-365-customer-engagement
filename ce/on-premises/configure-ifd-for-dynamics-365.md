@@ -25,6 +25,8 @@ manager: kvivek
   
  This content provides the steps needed to configure [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] using claims-based authentication.  
   
-  
+### See also
+[Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md) <br />
+[Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)
  
 

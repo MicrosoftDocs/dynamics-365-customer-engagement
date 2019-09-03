@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 378cbacb-bd8f-489a-b0b5-e86512ec9c02
 caps.latest.revision: 29
 author: Mattp123
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Add or edit Power BI visualizations on your dashboard
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards and  tiles that you add  to your personal dashboards.  
   

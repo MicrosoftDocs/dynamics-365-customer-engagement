@@ -28,8 +28,6 @@ search.app:
 
 # Enable and Disable duplicate detection
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic covers information on how to enable and disable duplicate detection in Dynamics 365 for Customer Engagement apps.
 
 <a name="bkmk_enable"></a>

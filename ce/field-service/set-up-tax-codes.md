@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 90d7fdc1-afa0-4ab4-a7c4-87c038709184
 caps.latest.revision: 16
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up tax codes (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Set up tax codes in Dynamics 365 for Field Service and specify how much tax will be applied to your products, agreements, and services.  
   

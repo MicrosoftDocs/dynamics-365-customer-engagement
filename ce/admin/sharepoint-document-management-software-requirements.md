@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Document Management software requirements for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/19/2019
+ms.date: 05/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,27 +23,20 @@ search.app:
 ---
 # SharePoint Document Management software requirements
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you must meet the requirements listed in this topic.  
 
 <a name="docman_online"></a>   
 ## Use document management in Dynamics 365 for Customer Engagement apps (online)  
- If you are using server-based integration with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] or [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1 on-premises (or a later version).  
-
- If you are using the [!INCLUDE[pn_crm_2016_list_component_sharepoint](../includes/pn-crm-2016-list-component-sharepoint.md)], one of the following versions of [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] must be available:  
-
-- [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] or [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1  
-
-- [!INCLUDE[pn_Microsoft_SharePoint_2010](../includes/pn-microsoft-sharepoint-2010.md)] SP1 or SP2  
-
-- [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)]  
+ If you are using server-based integration with [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you can use any of the following SharePoint versions. 
+-  [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] 
+- SharePoint 2016 on-premises
+- [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)] SP1 on-premises (or a later version).  
 
 **A SharePoint site collection**. You also need to have at least one site collection configured and available for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
 
-Either **Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration** (recommended) or **[!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)]** must be enabled.  
-
-The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] solution, is not required if you use server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. Although the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] is the default document management configuration option, we recommend you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Server-based SharePoint integration](../admin/sharepoint-document-management-software-requirements.md#BKMK_enable_servertoserver)  
+**Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration**  must be enabled.  
 
 > [!IMPORTANT]
 >  The document management feature requires that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] subscriptions be under the same tenant.  
@@ -63,8 +56,8 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 
 - To configure and use document management, you do not need to be signed in to both [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
 
-- You no longer need to install or continue to use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution. Note that client-to-server authentication strategies that require [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] server sandboxing may be deprecated soon. This functionality is required by the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)].  
 
+<!-- 
 **[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] authentication method support**  
 
 
@@ -74,9 +67,11 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 |                                          [!INCLUDE[pn_Microsoft_SharePoint_2010](../includes/pn-microsoft-sharepoint-2010.md)] SP1 or SP2                                          |          Yes           |                                                                                    No                                                                                     |
 |                                             [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)]                                              |          Yes           |                                                                                    Yes                                                                                    |
 
- For information about how to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, see [Set up SharePoint integration with Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md).  
+ For information about how to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, see [Set up SharePoint integration with Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md).  -->
 
+<!-- 
  For more information about the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], see [Dynamics CRM List Component for SharePoint](../admin/sharepoint-document-management-software-requirements.md#BKMK_listComp).  
+
 
 <a name="BKMK_listComp"></a>   
 ## Dynamics CRM List Component for SharePoint  
@@ -94,8 +89,7 @@ The list component, which is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sha
 > - There are two versions of the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)]:  
 > 
 >   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2010](../includes/pn-crm-2016-list-component-sharepoint-server-2010.md)]** . This version doesn’t work with [!INCLUDE[pn_sharepoint_2013](../includes/pn-sharepoint-2013.md)].  
->   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2013](../includes/pn-crm-2016-list-component-sharepoint-server-2013.md)]** . This version doesn’t work with [!INCLUDE[pn_ms_SharePoint_2010_short](../includes/pn-ms-sharepoint-2010-short.md)].  
+>   - **[!INCLUDE[pn_crm_2016_list_component_sharepoint_server_2013](../includes/pn-crm-2016-list-component-sharepoint-server-2013.md)]** . This version doesn’t work with [!INCLUDE[pn_ms_SharePoint_2010_short](../includes/pn-ms-sharepoint-2010-short.md)].  -->
 
 ### See also  
- [Download: Microsoft Dynamics CRM 2016 List Component for Microsoft SharePoint Server 2013 or Microsoft SharePoint Server 2010](http://go.microsoft.com/fwlink/p/?LinkID=627384)   
- [Set up and manage tablets and phones](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
+[Set up SharePoint integration](set-up-sharepoint-integration.md)

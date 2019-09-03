@@ -1,6 +1,7 @@
 # [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
 # [What's new](release-history.md)
-# [Getting started with your subscription](getting-started.md)
+# Getting started
+## [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
@@ -16,12 +17,16 @@
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
 ## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
-## [Service health](check-online-service-health.md)
+## Service health
+### [Check service health](check-online-service-health.md)
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
-## [Policies and Communications](policies-communications.md)
-# [Switch from CRM Online to Dynamics 365 for Customer Engagement](switch-dynamics-crm-online-dynamics-365.md)
+## [Policies and communications](policies-communications.md)
+## [Notifications explained](notifications-explained.md)
+
+# Switch from CRM Online to Customer Engagement
+## [Overview](switch-dynamics-crm-online-dynamics-365.md)
 ## [Important information for CRM Online customers](important-information-customers.md)
 ## [Important information for CRM Online volume license customers](important-information-volume-license-customers.md)
 ## [Promo codes: Non-profit Web Direct](promo-codes-non-profit-web-direct.md)
@@ -29,7 +34,9 @@
 ## [Promo codes: Faculty Web Direct](promo-codes-faculty-web-direct.md)
 ## [Promo codes: Government Web Direct](promo-codes-government-web-direct.md)
 ## [Promo codes: Commercial Web Direct](promo-codes-commercial-web-direct.md)
-# [Support and billing](billing-support.md)
+
+# Support and billing
+## [Overview](billing-support.md)
 ## [Contact technical support](/power-platform/admin/get-help-support) 
 ## [Determine your organization ID and name](determine-org-id-name.md)
 ## [Help and additional resources](help-additional-resources.md)
@@ -37,13 +44,17 @@
 ## [Billing FAQ](billing-faqs-dynamics-365-online.md)
 ## [Contact information for billing support](contact-information-microsoft-dynamics-365-online-billing-support.md)
 ## [Troubleshoot problems](troubleshoot-dynamics-365-problems.md)
-# [Requirements/supported configurations](requirements-supported-configurations.md)
+
+# Requirements/supported configurations
 ## [Online requirements](online-requirements.md)  
 ## [Plan for online deployment and administration](plan-for-deployment-and-administration.md)
-## [Supported web browsers and mobile devices](supported-web-browsers-and-mobile-devices.md)
+## Supported web browsers and mobile devices
+### [Overview](supported-web-browsers-and-mobile-devices.md)
 ### [Web application requirements](web-application-requirements.md)
 ### [Support for devices](device-support.md)
-# [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
+
+# Manage subscriptions, licenses, and user accounts
+## [Overview](manage-subscriptions-licenses-user-accounts.md)
 ## [Reset a user's password](reset-users-password.md)
 ## [Manage email notifications](manage-email-notifications.md)
 ## [Purchase and assign licenses](purchase-assign-online-licenses.md)
@@ -59,9 +70,12 @@
 ## [For partners: get credit when customers subscribe](partners-credit-when-customers-subscribe-dynamics-365.md)
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
 
-# [Manage security, users, and teams](manage-security-users-and-teams.md)
-## [Security concepts](security-concepts.md)
-### [Security roles and privileges](security-roles-privileges.md)
+# Manage security, users, and teams
+## [Overview](manage-security-users-and-teams.md)
+## Security concepts
+### [Overview](security-concepts.md)
+### Security roles and privileges
+#### [About security roles and privileges](security-roles-privileges.md)
 #### [Create or edit a security role](create-edit-security-role.md)
 #### [Copy a security role](copy-security-role.md)
 #### [Create an administrative user and prevent privilege elevation](prevent-elevation-security-role-privilege.md)
@@ -73,15 +87,17 @@
 ### [Enable or disable field security](enable-disable-security-field.md)
 ### [Hierarchy security](hierarchy-security.md)
 ## [Create users and assign security roles](create-users-assign-online-security-roles.md)
+## [System and application users](system-application-users.md)
 ## [Manage teams](manage-teams.md)
 ## [Team templates](about-team-templates.md)
 ## [Team templates for access rights](create-team-template-add-entity-form.md)
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
-## [Synchronize user information between Dynamics 365 for Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
+## [Synchronize user information between Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 
-# [Manage instances](manage-online-instances.md)
+# Manage instances
+## [Overview](manage-online-instances.md)
 ## [What's new with instance management](new-instance-management.md)
 ## [Sandbox](manage-sandbox-instances.md)
 ## [Add instance](add-instance-subscription.md)
@@ -99,17 +115,21 @@
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
 ## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
 
-# [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
+# Datacenter regions
+## [Overview](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
-## [China](../admin/datacenter/about-microsoft-cloud-china.md)
+## China
+### [About China datacenter](../admin/datacenter/about-microsoft-cloud-china.md)
 ### [21Vianet support](../admin/datacenter/21vianet-support.md)
+## [France](../admin/datacenter/about-microsoft-cloud-france.md)
 ## [Germany](../admin/datacenter/about-microsoft-cloud-germany.md)
 ## [India](../admin/datacenter/about-microsoft-cloud-india.md)
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
 ## [Geo to geo migrations](../admin/datacenter/geo-to-geo-migrations.md)
-# [Set up an organization](set-up-a-dynamics-365-organization.md)
-## [Regional and other business management settings](regional-other-business-management-settings.md)
+
+# Set up an organization
+## [Overview](set-up-a-dynamics-365-organization.md)
 ### [Numbers, currencies, times, and dates](customize-regional-options-admins.md)
 ### [Transactions with multiple currencies](manage-transactions-with-multiple-currencies.md)
 ### [Enable languages](enable-languages.md)
@@ -128,12 +148,14 @@
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
 ## [Enable rich text for appointment activities](enable-rich-text-experience.md)
 
-# [Performance tuning and optimization](performance-tuning-and-optimization.md)
+# Performance tuning and optimization
+## [Overview](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
 ## [Key preparation and configuration tasks](key-preparation-and-configuration-tasks.md)
 ## [Data query performance](analyze-improve-data-query-performance.md)
 
-# [Manage your data](manage-your-data.md)
+# Manage your data
+## [Overview](manage-your-data.md)
 ## [Add or remove sample data](add-remove-sample-data.md)
 ## [Import data](import-data-all-record-types.md)
 ## [Template for data import](download-template-data-import.md)
@@ -153,17 +175,21 @@
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
-## [Replicate data to Azure SQL Database](replicate-data-microsoft-azure-sql-database.md)
+## Replicate data to Azure SQL Database
+### [About data replication](replicate-data-microsoft-azure-sql-database.md)
 ### [What's new with Data Export Service?](whats-new-with-data-export-service.md)
-## [Move configuration data](manage-configuration-data.md)
+## Move configuration data
+### [About moving configuration data](manage-configuration-data.md)
 ### [Create a schema to export configuration data](create-schema-export-configuration-data.md)
 ### [Configure date settings for demo data](configure-date-settings-for-demo-data.md)
 ### [Modify a configuration data schema](modify-configuration-data-schema.md)
 ### [Import configuration data](import-configuration-data.md)
 
-# [Work with templates](work-with-templates.md)
+# Work with templates
+## [Overview](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
+## [Knowledge article](../customer-service/create-templates-knowledge-article.md)
 ## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
 ## [Entitlements](../customer-service/set-up-entitlements-templates.md)
@@ -171,16 +197,21 @@
 ## [Word](using-word-templates-dynamics-365.md)
 ## [Create signature for email or queue](../basics/create-signature-dynamics-365-email-queue.md)
 
-# [Extend Dynamics 365 for Customer Engagement](extend.md)
-## [Integrate (synchronize) your email system](integrate-synchronize-your-email-system.md)
+# Extend Customer Engagement
+## [Overview](extend.md)
+## Integrate (synchronize) your email system
+### [Overview](integrate-synchronize-your-email-system.md)
 ### [Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)
 ### [Deploy email for Unified Interface](deploy-email-unified-interface.md)
-### [Server-side sync overview](server-side-synchronization.md)
+### Server-side sync overview
+#### [About server-side sync](server-side-synchronization.md)
 #### [Supported email service configurations](supported-email-service-configurations-server-side-synchronization.md)
-### [Set up server-side sync](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
-#### [Connect Dynamics 365 for Customer Engagement to Exchange Online](connect-exchange-online.md)
-#### [Connect Dynamics 365 for Customer Engagement to Exchange Server (on-premises)](connect-exchange-server-on-premises.md)
+### Set up server-side sync
+#### [Overview](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+#### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
+#### [Connect Customer Engagement to Exchange Server (on-premises)](connect-exchange-server-on-premises.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
+#### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)
 #### [Troubleshooting](troubleshooting-monitoring-server-side-synchronization.md)
 #### [When would I want to use this check box?](when-would-want-use-check-box.md)
@@ -203,44 +234,41 @@
 ### [Email message filtering and correlation](email-message-filtering-correlation.md)
 ### [Forward mailbox vs. individual mailboxes](forward-mailbox-vs-individual-mailboxes.md)
 ### [Recover from Exchange Server failure](recover-from-exchange-server-failure.md)
-## [Extend with integration and solutions](extend-with-integration-solutions.md)
-### [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)
+## Extend with integration and solutions
+### Manage your documents using SharePoint 
+#### [Overview](manage-documents-using-sharepoint.md)
 #### [Software requirements](sharepoint-document-management-software-requirements.md)
-#### [Server-based SharePoint integration considerations](important-considerations-server-based-sharepoint-integration.md)
-#### [Set up](set-up-sharepoint-integration.md)
-##### [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-##### [Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md)
-##### [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)
-##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)
-##### [Configure server-based authentication with Dynamics 365 for Customer Engagement and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+#### Set up
+##### [Overview](set-up-sharepoint-integration.md)
+##### [Set up to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+##### [Set up to use SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+##### [Switching from the list component](switching-list-component-changing-deployment.md)
+#### Configure
+##### [Enable document management for entities](enable-sharepoint-document-management-specific-entities.md)
+##### [Edit existing site records](edit-existing-sharepoint-site-records.md)
+##### [Create document location records](create-edit-document-location-records.md)
+##### [Permissions required](permissions-required-document-management-tasks.md)
+#### Troubleshoot
 ##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)
-##### [Configure SharePoint integration using the list component](configure-sharepoint-integration-using-list-component.md)
-#### [Enable SharePoint document management for specific entities](enable-sharepoint-document-management-specific-entities.md)
-#### [Create or add a document location for the first time](create-add-location-first-time.md)
-#### [Edit existing SharePoint site records](edit-existing-sharepoint-site-records.md)
-#### [Create or edit document location records](create-edit-document-location-records.md)
-#### [Permissions required for document management tasks](permissions-required-document-management-tasks.md)
-#### [Validate and fix SharePoint site URLs](validate-fix-sharepoint-site-urls.md)
-<!-- #### [Set up Customer Service](../customer-service/improve-customer-service-better-automation-tracking.md)-->
-
-### [Connect to Microsoft Social Engagement](connect-microsoft-social-engagement.md)
+##### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md)
+### Connect to Microsoft Social Engagement
+#### [Connect, assign licenses, and reset](connect-microsoft-social-engagement.md)
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)
 #### [Control social data](control-social-data.md)
-
 ### [Manage Bing Maps](manage-bing-maps-organization.md)
 ### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)
 ### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)
 ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
-### [Use Power BI with Dynamics 365 for Customer Engagement](use-power-bi.md)
+### [Use Power BI with Customer Engagement](use-power-bi.md)
 ### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)
 ### [Install, update, or remove a preferred solution](install-remove-preferred-solution.md)
-
-### [Add Office 365 Online services](add-office-365-online-services.md)
-#### [Connect Dynamics 365 for Customer Engagement to Exchange Online](connect-exchange-online.md)
-#### [Connect Dynamics 365 for Customer Engagement to SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
+### Add Office 365 Online services
+#### [Overview](add-office-365-online-services.md)
+#### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
+#### [Connect Customer Engagement to SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
 #### [Setup Microsoft Teams integration](integrate-with-microsoft-teams.md)
 #### [Skype for Business and Skype integration](skype-business-integration.md)
-#### [Set up Dynamics 365 for Customer Engagement to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
+#### [Set up Customer Engagement to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
 #### [Deploy Office 365 Groups](deploy-office-365-groups.md)
 #### [Enable viewing profile cards](enable-profile-card.md)
 #### [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)
@@ -249,8 +277,8 @@
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
-
-# [Dynamics 365 US Government](../admin/government/microsoft-dynamics-365-government.md)
+# Dynamics 365 US Government
+## [Overview](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 US Government - Feature availability](../admin/government/government-feature-availability.md)
 
 # System Settings Dialog Box Reference

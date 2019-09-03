@@ -2,7 +2,7 @@
 title: "Analyze social data with widgets in Social Engagement | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
 keywords: widgets, analytics, get started
-ms.date: 03/27/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: da974b6a-b242-40b6-95ad-df81ac78191e
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Analyze social data using widgets
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Use widgets to visualize your organization’s data analytics. The easy-to-understand metrics on these widgets provide quantitative insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  
   
 > [!TIP]

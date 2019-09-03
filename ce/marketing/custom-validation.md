@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d8fb5ab9-654d-4bf0-9bdd-dc10eff5082b
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Add custom validation rules for marketing pages
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
  is its ability to check marketing pages for errors before going live. The validation (**Check for Errors**) feature checks the current record for missing content and technical errors (such as missing required settings, syntax errors, or code that won't compile) and then displays the validation results, including error messages that should help the user solve any issues that were found.

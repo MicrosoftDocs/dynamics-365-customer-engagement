@@ -5,7 +5,6 @@ keywords: Set work hours for a facility and equipment; Dynamics 365 for Customer
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Set work hours to define availability (Customer Service app)
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can set up and define the hours a resource is available. By default, the resources are set up for a 7-days-a-week, 24-hour schedule. 
 

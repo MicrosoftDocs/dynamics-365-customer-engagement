@@ -6,9 +6,7 @@ ms.date: 05/08/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
+applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: b9930c9c-8eff-49ea-b0ea-8a385c3af246
 author: udaykirang
 ms.author: udag
@@ -17,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -28,8 +25,6 @@ search.app:
 ---
 
 # User guide for Embedded intelligence
-
-Applies to Dynamics 365 for Customer Engagement apps version 9.0.2<br>
 
 Using Embedded intelligence, you can continuously analyze the vast collection of customer-interaction data already stored in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help you better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward. 
 

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting server-based authentication for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Troubleshooting server-based authentication
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 <a name="BKMK_tshoot_wizard"></a>   
 ## Troubleshooting the Enable server-based SharePoint Integration wizard  
@@ -39,16 +39,17 @@ search.app:
 ### Failed Authentication  
  This failure can occur when one or more of the server-based authentication configuration steps were not completed or did not complete successfully. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up SharePoint integration with Dynamics 365 for Customer Engagement](../admin/set-up-sharepoint-integration.md)  
   
- This failure can also occur if an incorrect URL is entered in the Enable Server-Based SharePoint Integration wizard or if there is a problem with the digital certificate used for server authentication.  
+ This failure can also occur if an incorrect URL is entered in the Enable Server-Based SharePoint Integration wizard or if there is a problem with the digital certificate used for server authentication. Similarly, this failure can occur as a result of a SharePoint site rename when the URL is not updated in the corresponding SharePoint Site record. More information: [Users receive "You don't have permissions to view files in this location" message](troubleshoot-set-up-sharepoint-online.md#users-receive-you-dont-have-permissions-to-view-files-in-this-location-message)
   
 <a name="BKMK_fail_Author"></a>   
-### Failed Authorization  
- This failure can occur when the claims-based authentication types do not match. For example, in a hybrid deployment such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises, when you use the default claims-based authentication mapping, the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address used by the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps user must match the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] user’s **Work email**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Selecting a claims mapping type](../admin/configure-server-based-authentication-sharepoint-on-premises.md#BKMK_selectclmmap)  
+### Failed authorization or 401 unauthorized error
+ This failure can occur when the claims-based authentication types do not match. For example, in a hybrid deployment such as [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps to [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises, when you use the default claims-based authentication mapping, the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] email address used by the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps user must match the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] user’s **Work email**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About claims-based authentication mapping](../on-premises/on-prem-server-based-sharepoint-on-prem.md#about-claims-based-authentication-mapping) 
   
 <a name="BKMK_SP_nosupp"></a>   
 ### SharePoint Version Not Supported  
  This failure indicates that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] edition, version, required service pack, or required hotfix are missing. 
-  
+ 
+ 
 <a name="BKMK_TS_SP"></a>   
 ## Troubleshooting SharePoint  
  Issues that affect server-based authentication can also be recorded in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] logs and reports. For more information about how to view and troubleshoot [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] monitoring, see the following topics. [View reports and logs in SharePoint 2013](https://technet.microsoft.com/library/ee748651.aspx) and [Configure diagnostic logging in SharePoint 2013](https://technet.microsoft.com/library/ee748656.aspx)  
@@ -67,7 +68,7 @@ search.app:
 - The identities used for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] administrator, or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] administrator don’t use the same [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)], therefore the [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] unique identifiers don’t match.  
   
 ### “Private key not found” error message returned when you run the CertificateReconfiguration.ps1 Windows PowerShell script  
- Applies to: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps with [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] on-premises  
+ *This content also applies to the on-premises version.*
   
  This issue can occur when there are two self-signed certificates located in the local certificate store that have the same subject name.  
   
@@ -97,7 +98,7 @@ search.app:
    $Certificates = Get-CrmCertificate;   
    $alternativecertificate = "";   
    foreach($cert in $Certificates)   
-   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}      
+   {    if($cert.CertificateType -eq "AlternativeS2STokenIssuer") { $alternativecertificate = $cert;}   }   
   
    Remove-CrmCertificate -Certificate $alternativecertificate  
    ```  
@@ -117,4 +118,5 @@ search.app:
  This error can be returned to the user who doesn’t have site permissions or the user has had permissions removed from the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site where [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps document management is enabled. Currently, this is a known issue with [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] where the error message that is displayed to the user doesn’t indicate that the user’s permissions are not sufficient to access the site.  
   
 ### See also  
+[Troubleshoot SharePoint Online integration](troubleshoot-set-up-sharepoint-online.md) <br />
  [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)

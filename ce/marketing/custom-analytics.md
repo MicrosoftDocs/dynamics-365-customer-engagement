@@ -2,14 +2,13 @@
 title: "User Power BI to create custom analytics (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 for Marketing to make them available to Power BI, and how to download and connect a Power BI template to them"
 keywords: tutorial; templates; email; customer journey; marketing page; page
-ms.date: 12/17/2018
+ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4479aca4-9f7f-40fa-9b78-515f98e47d26
 author: kamaybac
 ms.author: kamaybac
@@ -65,18 +64,18 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
 
     Make the following settings:
 
-    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid.
+    - Choose a **Start time** and **Expiry time** to establish the period during which your signature will remain valid. Please note that the signature must remain valid for as long as you intend to run the export&mdash;the export will stop immediately when the signature expires.
     - Enable all four **Permissions** by selecting their check boxes.
 
 1. Select **Create** to create the signature. The dialog refreshes to show a **URL** and **Query string**. Select the **Copy** button to copy the **URL** shown here and paste in a temporary text file so you can use it later in this procedure.
 
     ![Copy the URL](media/custom-analytics-sas-created.png "Copy the URL")
 
-1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **CDS-A connector settings**. The **Marketing Settings** page opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
+1. Sign into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing analytics configuration**. A list of marketing analytics configurations opens. If a record is already listed here, then select it to open it; otherwise, select **New** from the command bar to create a new record.
 
-1. The **CDS-A Connector Configuration** page opens.
+1. The **Marketing analytics configuration** page opens.
 
-    ![CDS-A connector configuration](media/custom-analytics-cds-a-config.png "CDS-A connector configuration")
+    ![Marketing analytics configuration](media/custom-analytics-cds-a-config.png "Marketing analytics configuration")
 
     Make the following settings:
 
@@ -84,7 +83,7 @@ You'll be able to connect directly to your [!INCLUDE[pn-marketing-business-app-m
     - **Export to blob storage URL** : Paste the URL you copied earlier in this procedure.
 
     > [!NOTE]
-    > The URL you pasted here includes a connection string to connect to your blob storage. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. This URL _won't_ be stored in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in [!include[](../includes/pn-azure-shortest.md)].
+    > The URL you pasted here includes a connection string to connect to your blob storage. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in [!include[](../includes/pn-azure-shortest.md)].
 
 1. Save your settings.
 

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d691493b-2e39-4a89-9952-1500a8ddafd2
 caps.latest.revision: 41
 author: Mattp123
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Run a report
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Reports help you manage your progress towards your goals by helping you see how you’re doing. You can also track trends - which can give you an advantage over your competitors.  
   

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 5b798287-5c58-47da-a893-f00394d0ae94
 caps.latest.revision: 46
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Export to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can export [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] PivotTable to see patterns and trends in data. An [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable is a great way to summarize, analyze, explore, and present your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. You can export up to 100,000 records at a time.  
   

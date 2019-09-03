@@ -3,14 +3,14 @@ title: "Sign in to Social Engagement | Microsoft Docs"
 description: "Learn how to sign in to Social Engagement."
 ms.custom: 
   - dyn365-socialengagement
-ms.date: 07/11/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: Social Engagement
 ms.assetid: cf28bc71-9085-4e3f-a00c-a6e4d92179c8
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -21,6 +21,8 @@ search.app:
 ---
 
 # Sign in to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 To sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](manage-licenses.md).  
   

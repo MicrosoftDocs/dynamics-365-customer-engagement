@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_playbooktemplate Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Playbook templates contains the definition of the Playbook that helps to standardize a set of best practices or next best actions.
 
 **Added by**: Playbook Solution

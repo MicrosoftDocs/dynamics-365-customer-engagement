@@ -23,7 +23,7 @@ search.app:
 ---
 # Edit existing SharePoint site records
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps records in [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] folders and manage the folders and documents from within [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Integrating [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document management with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps makes it easy to access and share documents associated with your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps records.  
   
@@ -64,10 +64,10 @@ Store documents related to your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynami
   
      - **Relative URL**. Use this option when you have at least one site record pointing to a site collection in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. In the **Parent Site** box, select an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps site record. If the site record that you selected as a parent site points to a site collection on SharePoint, specify the name of an existing site in the second box. If the site record that you selected as a parent site points to a site on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], specify the name of an existing subordinate site on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
-   - **List component is installed**. Select this check box if the URL that you specified is a site collection on [!INCLUDE[pn_sharepoint_server_2010](../includes/pn-sharepoint-server-2010.md)] or [!INCLUDE[pn_sharepoint_server_2013](../includes/pn-sharepoint-server-2013.md)] and if the site collection has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps List component installed. This check box is available only if you use the **Absolute URL** option.  
+  <!--  - **List component is installed**. Select this check box if the URL that you specified is a site collection on [!INCLUDE[pn_sharepoint_server_2010](../includes/pn-sharepoint-server-2010.md)] or [!INCLUDE[pn_sharepoint_server_2013](../includes/pn-sharepoint-server-2013.md)] and if the site collection has the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps List component installed. This check box is available only if you use the **Absolute URL** option.  
   
      > [!TIP]
-     >  The List component has been deprecated in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. For information on switching from the List component to server-based integration, see [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)  
+     >  The List component has been deprecated in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. For information on switching from the List component to server-based integration, see [Switching from the list component or changing the deployment](switch-dynamics-crm-online-dynamics-365.md)  -->
   
 6. Click **Save**.  
   

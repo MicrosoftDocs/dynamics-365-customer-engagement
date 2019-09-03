@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Set up subscription lists and subscription centers
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
@@ -99,7 +96,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
 
 1. On the command bar, select **Save** to save your new list.
 
-1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **Yes**.
+1. After saving, the **Subscription** field becomes unlocked (provided you've set the **List type** to **Static** and **Targeted at** to **Contact**). Set **Subscription** to **True**.
 
 1. Select **Save** on the command bar to save your new list as a subscription list.
 

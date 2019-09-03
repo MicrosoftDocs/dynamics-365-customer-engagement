@@ -7,12 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-author: mduelae
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 5ae07980-3406-4d72-80e5-0f6e1e455881
 caps.latest.revision: 141
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -23,8 +22,6 @@ search.app:
   - D365Sales
 ---
 # Set up Dynamics 365 for phones and Dynamics 365 for tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   

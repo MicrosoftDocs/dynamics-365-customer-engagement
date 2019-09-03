@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 58255fc0-9e0f-4467-9719-175024e9a424
 caps.latest.revision: 19
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set defaults for work orders, bookings, the schedule board, and agreements (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The Field Service Settings page allows system administrators to set default settings for work orders, bookings, the schedule board, agreements, and more.
 

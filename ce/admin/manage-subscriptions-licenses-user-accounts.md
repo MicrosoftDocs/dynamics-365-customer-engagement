@@ -23,8 +23,6 @@ search.app:
 ---
 # Manage subscriptions, licenses, and user accounts
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
 
 As a [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator, you manage the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [Microsoft 365 admin center](https://portal.microsoftonline.com/).  

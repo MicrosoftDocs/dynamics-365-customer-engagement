@@ -24,8 +24,6 @@ search.app:
 ---
 # Define scaling for ribbon elements
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 For application ribbons and updated entity form ribbons there is no scaling. Scaling only applies to forms for entities that weren’t updated and list ribbons displayed using [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  
   
  The goal of the Ribbon is to maintain visibility of relevant controls even when the horizontal size of the window changes. To achieve this, the UI definition allows you to control how controls in a group change size in response to changes in the size of the window. This is known as *scaling*.  

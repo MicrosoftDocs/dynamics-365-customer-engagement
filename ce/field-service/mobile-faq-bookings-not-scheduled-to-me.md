@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Bookings not scheduled to me are appearing when logged into the mobile app
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you're seeing a list of bookings that aren't scheduled to you, this typically means you're probably logged into the mobile app as a user with Dynamics 365 for Customer Engagement system administrator or Field Service administrator permissions. 
 

@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 
 # Set up and manage an event waitlist
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can assign a maximum capacity to each event or session when needed. When the number of registrations reaches that capacity, the system won't accept any more active registrations, but you can still allow new registrants to add themselves to a waitlist.
 
 Read this topic to learn how to set up a waitlist and how to invite contacts on the list when space becomes available.
@@ -39,7 +36,7 @@ Read this topic to learn how to set up a waitlist and how to invite contacts on 
 
 The waitlist holds a list of contacts who submitted a registration through the event website after an event or session was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
 
-For events or session already at capacity, visitors to the event website can only join the waitlist, but [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users from your organization can still add new registrations by opening the [event record](set-up-event.md) and doing one of the following:
+For events or session already at capacity, visitors to the event website can only join the waitlist, but Dynamics 365 for Marketing users from your organization can still add new registrations by opening the [event record](set-up-event.md) and doing one of the following:
 
 - If you are using event-level registration, go to the **Registration and attendance** tab for the event and add new registrations to the **Event registration** list here.
 - If you are using session-level registration, go to the **Agenda** tab and open the relevant session. Then go to the **Registration and attendance** tab for the session and add new registrations to the **Session registration** list here.
@@ -50,10 +47,10 @@ When new space becomes available, the waitlist reacts as follows:
 
 1. The oldest existing waitlist record is identified by checking the registration date/time.
 
-1. The identified waitlist record changes its **Invited** field from **No** to **Yes** to indicate that space is now available for that contact. In addition, one of the following occurs, depending on whether the contact is using automatic registration:
+1. One of the following occurs, depending on whether the contact is using automatic registration or not:
 
-    - If the waitlist record has **Automatically register** set to **Yes**, then an event registration record is generated for the contact and the associated waitlist record is hidden. You should create a segment that finds these contacts (where (Automatically-register = Yes) and (Invited = Yes)) and then use a customer journey to send them a notification email that they are now registered.
-    - If the waitlist record has **Automatically register** set to **No**, then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event website to accept the slot.
+    - If the identified waitlist record has **Automatically register** set to **Yes**, then an event registration record is generated for the contact and the associated waitlist record is deleted.
+    - If the identified waitlist record has **Automatically register** set to **No**, then the waitlist record has its **Invited** field changed from **No** to **Yes** to indicate that space is now available for that contact. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event website to accept the slot.
 
 ## Enable a waitlist for an event
 
@@ -93,9 +90,9 @@ To see who is currently on the waitlist for any event or session:
     - **Event**: Shows the name of the event.
     - **Created on**: Shows the date the contact submitted their waitlisted registration.
 
-## Send notifications or invites for newly available places
+## Send invites for newly available places
 
-When space becomes available for a waitlisted contact, you need to let them know. You can automate this using the standard segmentation and customer journey features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. The way you set up the segment varies slightly depending on whether you are using automatic registration or invite-based manual registration; and whether you are using session-level or event-level registration.
+When space becomes available for a waitlisted contact using manual registration, you need to let them know so they can sign up. You can automate the messaging using the standard segmentation and customer journey features of Dynamics 365 for Marketing. The way you set up the segment varies slightly depending on whether you are using session-level or event-level registration.
 
 ### Make sure the required entities is being synced
 
@@ -148,38 +145,19 @@ To create a segment that finds contacts who _are not_ using automatic registrati
 
 1. Select **Go Live** from the command bar to activate the segment.
 
-### Create a segment that finds waitlisted contacts who have been registered automatically
+### Create a customer journey to send messages or invitations to waitlisted contacts
 
-To create a segment that finds contacts who _have already_ been registered automatically, but need to be informed about it, create a segment almost like the one described in the previous section, but this time look for waitlist records where **Automatically register** is **true**. The full set of clauses is one of the following:
+To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as the one described in the previous section) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event.
 
-- For event-level waitlists:  
-**Waitlist Item | Automatically register | is | True**  
-**AND Waitlist Item | Invited | is | True**  
-**Waitlist Item | Event (event) | is / is in | _&lt;YourEventName&gt;_**  
-**Waitlist item -> Contact (contact) | All&ast;**  
-**Contact | All&ast;**
-- For session-level waitlists:  
-**Waitlist Item | Automatically register | is | True**  
-**AND Waitlist Item | Invited | is | True**  
-**Waitlist Item | Session (session) | is / is in | _&lt;YourSessionName&gt;_**  
-**Waitlist item -> Contact (contact) | All&ast;**  
-**Contact | All&ast;**
-
-![The final auto-registered segment query](media/event-waitlist-auto-segment.png "The final auto-registered segment query")
-
-### Create a customer journey to send invitations or notifications to waitlisted contacts
-
-To deliver messages to your waitlist members, set up a customer journey that uses an appropriate segment (such as those described in the previous sections) followed by an email tile that sends a message that matches that segment. Set the journey to run for the entire registration period of your event. That way, each time a waitlist record gets moved to invited = true, the related contact will be added to the segment and will get processed by the journey.
-
-Each email message should inform the recipient about what has happened (auto registered, or invited to register), and include an event element to link to the relevant event website. The event link is especially important for invites where auto-register is not enabled, but even auto-registered attendees may still need to purchase a ticket on the event website.
+Each email message should inform the recipient about what has happened (invited to register or some other news item), and include an event element to link to the relevant event website or registration page.
 
 For a journey sending invites to waitlisted contacts who aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 
-The following example shows a journey that has two parallel paths, one for auto-registered contacts and one for invited (manual-register) contacts. Note that both email messages show a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts who register. After a few days, the trigger sends contacts who don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited (this requires that you create a [custom workflow](../customize/workflow-processes.md) to handle this).
+The following example shows a journey that sends email to tell contacts using manual registration that space has become available for them and that they should register to claim it. Note that the message shows a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts who register. After a few days, the trigger sends contacts who don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited (this requires that you create a [custom workflow](../customize/workflow-processes.md) to handle this).
 
 ![A customer journey for processing a waitlist](media/event-waitlist-journey.png "A customer journey for processing a waitlist")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md), [Prepare marketing email messages](prepare-marketing-emails.md), [Customer journey tiles reference](customer-journey-tiles-reference.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md), [Email marketing overview](prepare-marketing-emails.md), [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
 ### See also
 

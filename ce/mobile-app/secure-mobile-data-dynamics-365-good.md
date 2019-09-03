@@ -1,7 +1,7 @@
 ---
-title: "Secure your mobile data with Dynamics 365 for Customer Engagement apps for Good | MicrosoftDocs"
+title: "Secure your mobile data with Microsoft Dynamics 365 for Customer Engagement apps for Good | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -9,11 +9,14 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps Version 9.x
-author: mduelae
+  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
-caps.latest.revision: 26
+caps.latest.revision: 28
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -24,8 +27,6 @@ search.app:
   - D365Sales
 ---
 # Secure your mobile data from loss or theft
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
 ](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).

@@ -2,7 +2,7 @@
 title: "Work with posts in Social Engagement | Microsoft Docs"
 description: "Learn how to interact with posts and how to perform internal actions."
 keywords: publish, sentiment, tag, assign
-ms.date: 10/17/2017
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: bf6392aa-e9e1-44b6-8f80-f17c21caa793
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # Work with posts
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Wherever you work in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], your analysis is usually based on the posts in your data set. It’s important to understand what customers and prospects are talking about, so it’s critical to know about the actual contents of the posts.  
   
 <a name="sentiment"></a>   

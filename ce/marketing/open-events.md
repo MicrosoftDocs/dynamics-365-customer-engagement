@@ -8,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c8ebc0a9-8780-46ae-a1da-0eb868cb1d44
 author: kamaybac
 ms.author: kamaybac
@@ -26,13 +25,11 @@ search.app:
 
 # Open the event management work area
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 The event management features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] are collected into their own work area to make it easy to find all the relevant entities and settings while you are focusing on events.
 
 To find the event management work area:
 
-1. If you haven't already done so, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [event-management privileges](manage-users.md). Then use the app-selector menu to open the **Marketing** app.
+1. If you haven't already done so, sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with [event-management privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 

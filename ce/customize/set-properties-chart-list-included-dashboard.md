@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
   - powerapps
 author: Mattp123
 ms.assetid: 50fb2ab0-5c1a-4a5e-8ebc-5603fecc4da0
@@ -22,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
-To edit a chart or list component from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
+To edit a chart from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   
  You can set the following chart properties from the **Set Properties** dialog box:  
   

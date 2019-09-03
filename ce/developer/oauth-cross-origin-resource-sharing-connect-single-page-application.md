@@ -21,8 +21,6 @@ search.app:
 ---
 # Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to work with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data. To provide this, Cross-Origin Resource Sharing (CORS) is enabled so that your SPAs can bypass browser restrictions that normally prevent requests that cross domain boundaries.  
   
 > [!NOTE]

@@ -1,7 +1,7 @@
 ---
 title: "Set up SharePoint integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 05/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,15 +23,13 @@ search.app:
 ---
 # Set up SharePoint integration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, you can use the document management capabilities of [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] from within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can store and manage documents in the context of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] record on a [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)], and leverage the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] infrastructure to share, manage, and collaborate efficiently. Because the documents are stored on a [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)], non-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps users can directly access the documents on the [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)], provided they have the appropriate permissions.  
   
- For document management functionality, you either enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration (recommended) or install the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] solution, on a site collection in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is recommended instead of the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] for the following reasons.  
+ For document management functionality, you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration (recommended) on a site collection in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] provides the following benefits.  
   
-- Users sign-in once and do not have to sign-in to both [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. With the list component, users must sign in to both.  
-  
-- The list component is a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sandboxed solution. Sandboxed solutions are being deprecated and will no longer be available for both [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] and later versions of [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] on-premises. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sandboxed solutions overview](https://technet.microsoft.com/library/ee721992%28v=office.14%29.aspx)  
+- Users sign-in once and do not have to sign-in to both [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
 - No additional software is required to install on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
@@ -40,7 +38,7 @@ With [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, you can u
 - Users can perform [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] actions from the Dynamics 365 for Customer Engagement apps command bar.  
   
 ### See also 
- [Manage your documents](../admin/manage-documents-using-sharepoint.md)   
- [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)   
- [Validate and fix SharePoint site URLs](../admin/validate-fix-sharepoint-site-urls.md)   
+ [Manage your documents](../admin/manage-documents-using-sharepoint.md)  <br /> 
+ [Permissions required for document management tasks](../admin/permissions-required-document-management-tasks.md)   <br />
+ [Validate and fix SharePoint site URLs](troubleshoot-set-up-sharepoint-online.md#validate-and-fix-sharepoint-site-urls) <br />
  [Enable SharePoint document management for specific entities](enable-sharepoint-document-management-specific-entities.md)

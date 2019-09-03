@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c618e1c0-53a3-4e8a-950b-ae8bcbf28e5f
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Go live with publishable entities and track their status
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Many of the entities that you work with in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] require you to _go live_ with a record before you can it them in your live marketing initiatives. The go-live process takes a record you are working with, checks it for errors, prepares it for use, and marks it as available. In some cases, the go-live process ends by moving the final record to a marketing service, which runs in parallel to your application instance and processes data-intensive features like bulk email sending, collecting and analyzing results, or populating dynamic segments. The go-live process is sometimes also referred to as _publishing_.
 
@@ -63,17 +60,23 @@ Some customer journey settings become locked (read-only) based on the journey's 
 | Field | Draft | Live-editable and Stopped | Live and others |
 | --- | --- | --- | --- |
 | Name | Editable | Editable | Locked |
-| Start date and time | Editable | Locked | Locked |
+| Start date and time | Editable | Editable only if the journey hasn't started yet. | Locked |
 | End date and time | Editable | Editable | Locked |
 | Is recurring | Editable | Locked | Locked |
 | Recurrence count | Editable | Editable | Locked |
-| Recurrence count | Editable | Editable | Locked |
+| Recurrence interval | Editable | Editable (see note) | Locked |
 | Content settings | Editable | Locked | Locked |
 | Suppression segment | Editable | Locked | Locked |
 | Time zone | Editable | Locked | Locked |
 | Template | Editable | Editable | Locked |
 | Pipeline (tile positions) | Editable | Locked | Locked |
-| Tile settings | Editable | Editable | Locked |
+| Tile settings | Editable | Editable (see note) | Locked |
+
+> [!NOTE]
+> If you change the recurrence interval after the journey has already started, then the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.
+
+> [!NOTE]
+> If you change the segment source for one or more segment tiles after a journey has started, then the journey won't process any contacts that are no longer part of the segment and that haven't yet left the segment group tile. However, removed contacts that have already started the journey (that *have* left the segment group tile) will continue to be processed to the end. This means that the removed segment might be fully unprocessed, partially processed, or fully processed, depending on how far it had gotten by the time you removed it. New contacts added by a new segment will join the journey as usual, and contacts that were part of both the replaced and new segment will continue where they left off.
 
 ## Marketing email go-live operations and status
 
@@ -210,7 +213,7 @@ The default values for **Publish status** are _Draft_, _Ready to go live_, _In p
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Use content settings](dynamic-email-content.md#content-settings)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  

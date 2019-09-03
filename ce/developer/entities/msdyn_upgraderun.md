@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_upgraderun Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Contains logging information about a run of a Package Deployer package that upgrades a solution
 
 **Added by**: Solution Upgrade Infrastructure Solution

@@ -1,16 +1,11 @@
 ---
 title: "Get started with in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 08/31/2017
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: aa14c110-056b-4edd-b8df-b1eae71a1ccb
 author: shubhadaj
 ms.author: shujoshi
@@ -22,8 +17,6 @@ caps.latest.revision: 46
 ---
 
 # Get started with in-app marketing (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Promote your business and improve sales with targeted marketing campaigns in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Create activities for each campaign and assign them to different team members. Track customer response and costs for each campaign. Follow this step-by-step guide to get started with your marketing campaigns.  
   

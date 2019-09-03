@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e250fadf-55ca-4116-b911-12e7b3005e08
 author: kamaybac
 ms.author: kamaybac
@@ -27,14 +26,12 @@ search.app:
 
 # Transfer customizations between instances using solution export and import
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is highly customizable. You can use its online tools to modify or create fields, entities, business processes, and more. Usually, you'll do your customization work on a sandbox instance, test them, and then transfer the final customizations to your production instances when they're ready. Best practices recommend that you proceed as follows:
 
 1. [Create a copy](manage-marketing-instances.md#copy-to-sandbox) of your current production instance onto a sandbox instance where you can work without affecting your ongoing operations.
 1. [Create a new managed solution](../customize/create-solution.md) on the sandbox and implement your customizations there. This lets you add customizations without affecting the underlying system, and you can revert your customizations at any time by removing the solution.
 1. Test the customized solution on your sandbox until you've confirmed it's working correctly.
-1. [Export](../customize/import-update-export-solutions.md) the custom solution from your sandbox and then [Import](../customize/import-update-export-solutions.md) it on your production instance.
+1. [Export](../customize/import-update-upgrade-solution.md) the custom solution from your sandbox and then [Import](../customize/import-update-upgrade-solution.md) it on your production instance.
 
 For general information about creating and working with solutions, see the links in the previous procedure and also the [Solutions overview](../customize/solutions-overview.md). For a full example procedure, see the following sections.
 
@@ -151,4 +148,4 @@ To import a solution:
 [Manage instances](../admin/manage-online-instances.md)  
 [Manage your data](../admin/manage-your-data.md)  
 [Move configuration data across instances and organizations](../admin/manage-configuration-data.md)  
-[Import, update, and export solutions](../customize/import-update-export-solutions.md)
+[Import, update, and export solutions](../customize/import-update-upgrade-solution.md)

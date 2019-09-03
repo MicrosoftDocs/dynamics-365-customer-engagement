@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c2bc52f-595c-4728-9ef5-5e3281ca0cc0
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Administration and setup FAQ
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Read this topic to find answers to common questions and solutions to known issues that can sometimes occur during the initial setup and ongoing administration of Dynamics 365 for Marketing.
 
@@ -60,7 +57,7 @@ Dynamics 365 for Marketing is licensed per instance, with each instance priced a
     Marketing contacts are cumulative throughout your license period. Once you've engaged a contact in any marketing activity, that contact counts against your quota from that point forward. You can "true down" the number of marketing contacts you've purchased on contract renewal.
 
 - **How can I learn more about Dynamics 365 for Marketing licensing?**
-  - For an overview, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md) 
+  - For an overview, see [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md) 
   - For complete terms that apply to subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
   - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
@@ -73,8 +70,8 @@ Dynamics 365 for Marketing is licensed per instance, with each instance priced a
 
 If you are entitled to a free Dynamics 365 for Marketing license, do the following to find or obtain it:
 
-1. [Go to the Dynamics 365 admin center](dynamics-365-admin-center.md), open the **Applications** tab, and check whether your free Dynamics 365 for Marketing app is already shown in the list. If so, then set it up as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app) and skip the rest of this procedure.
-1. If your free Dynamics 365 for Marketing app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](https://docs.microsoft.com/power-platform/admin/get-help-support) to have an unconfigured Dynamics 365 for Marketing app added to it. Then set up the app as described in [Set up an unconfigured Marketing app](purchase-marketing.md#set-up-app).
+1. [Go to the Dynamics 365 admin center](dynamics-365-admin-center.md), open the **Applications** tab, and check whether your free Dynamics 365 for Marketing app is already shown in the list. If so, then set it up as described in [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md) and skip the rest of this procedure.
+1. If your free Dynamics 365 for Marketing app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](#contact-support) to have an unconfigured Dynamics 365 for Marketing app added to it. Then set up the app as described in [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md).
 
 <a name="incompatible-platform"></a>
 
@@ -155,7 +152,7 @@ To fix this, do one of the following:
 
 If [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is visible on your instance, but nothing is working, then you might have just a partial installation. This can happen if you use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to set up [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] as a service (on the **Instances** tab) rather than as an app (on the **Applications** tab). As a result, you might have the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] service installed, but not its many supporting components.
 
-To fix this, go back to the [Dynamics 365 admin center](dynamics-365-admin-center.md) and reinstall from the **Applications** tab as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md). The setup wizard should fix your installation.
+To fix this, go back to the [Dynamics 365 admin center](dynamics-365-admin-center.md) and reinstall from the **Applications** tab as described in [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md). The setup wizard should fix your installation.
 
 ![Set up Marketing using the Applications tab, not the Instances tab](media/purchase-app-tab.png "Set up Marketing using the Applications tab, not the Instances tab")
 
@@ -166,7 +163,7 @@ To fix this, go back to the [Dynamics 365 admin center](dynamics-365-admin-cente
 If your setup fails for some reason, you'll be notified by email and/or by a status message in your web browser (if you keep it open during the installation). Often, part of the solution will be to rerun the setup wizard after waiting for an hour or so. To rerun the setup wizard, do one of the following:
 
 - If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
-- If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md).
+- If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Re-run the Marketing setup wizard](re-run-setup.md).
 
 <a name="fix-portal"></a>
 
@@ -343,9 +340,11 @@ Also, some administration and customization features, and some integrated user f
 
 ## How can I contact support if I still need help?
 
+For additional support and help resources you can:
+
+- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support) directly.
+- Get in touch with the community on the [Dynamics 365 for Marketing forum](https://community.dynamics.com/365/marketing/f/768).
+- Find additional [online help resources for Dynamics 365](../admin/help-additional-resources.md).
+
 If you’ve already tried to set up the application several times and are still having trouble, please open a support case through your applicable [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Premier channel or MPN partner channel.
 
-For more information about how to contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] directly, and how to find forums, FAQs, and other resources, see the following:
-
-- [Contact technical support](https://docs.microsoft.com/power-platform/admin/get-help-support)
-- [Help and additional resources](../admin/help-additional-resources.md)

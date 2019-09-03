@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b4a11cd3-87aa-46b3-9073-6d2ae9d28717
 caps.latest.revision: 23
 author: Mattp123
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Organize and lay out your report data
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you create a report, you have to decide which columns to include, the order in which they are displayed, and whether to group data into subcategories. By grouping and summarizing the data, you make it easier to see the patterns.  
   

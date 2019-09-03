@@ -22,8 +22,6 @@ search.app:
 ---
 # Extend Dynamics 365 for Customer Engagement apps
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The extensibility platform is the heart of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. When you use the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps installed on your own server (on-premises), or a hosted deployment of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The security model protects the platform from unauthorized access across the Web.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 

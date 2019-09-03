@@ -2,7 +2,6 @@
 title: "Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
 ms.date: 07/19/2017
-ms.prod: crm-2016
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -10,10 +9,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics 365 for Customer Engagement apps (on-premises)
-author: mduelae
 ms.assetid: faa87829-895e-4799-a587-c52551a78415
 caps.latest.revision: 12
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -22,10 +21,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Sales
+ms.prod: crm-2016
 ---
 # Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Field agents can use the mobile app to review work orders and get all the information they need to complete a job. Create a work order, agreement, customer asset, or submit a time off request the same way you create any record in the mobile app.  For more information on field service, see the [Dynamics 365 for Customer Engagement apps for Field Service - User's Guide](../../../../field-service/user-guide.md).  
   

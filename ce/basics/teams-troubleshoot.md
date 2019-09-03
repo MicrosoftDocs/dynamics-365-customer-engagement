@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: mduelae
@@ -23,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Troubleshoot Teams integration 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The following are error messages with possible resolutions.
 
@@ -127,6 +124,20 @@ You need to be a member of the connected channel team to view files. Contact the
 > ![File sharing not set up](media/teams-error-file-sharing.png "File sharing not set up")
 
 This record has not been connected to a Teams channel. Select the URL to go to the Dynamics 365 Teams app and pin the record to a channel as documented in [Collaborate with Teams](teams-collaboration.md).
+
+## Troubleshoot configuration issues with Teams Integration
+
+Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Teams integration.
+
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites is not met.
+
+- SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
+
+- SharePoint Integration is not configured but there is an active SharePoint Site in your organization. To fix the issue, deactivate the SharePoint site.
+
+- SharePoint Integration is not configured but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
+
+
 
 
 

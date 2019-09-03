@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0a4e298a-868c-4b58-8f47-696090533b3b
 caps.latest.revision: 14
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # OneNote in Dynamics 365 for Customer Engagement apps FAQs
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Why do OneNote files show a folder icon?  
  This is a known issue. Click the file name to open the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] as expected.  

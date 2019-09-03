@@ -10,6 +10,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]        
@@ -22,6 +23,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**",
@@ -46,6 +48,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -62,6 +65,7 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**",
+          "**/shared/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
@@ -144,7 +148,7 @@
         "versium-predict/**.*": "bc/toc.yml",
         "voice-of-customer/**.*": "bc/toc.yml",
         "channel-integration-framework/**.*": "bc/toc.yml",
-        "omni-channel-engagement-hub/**.*": "bc/toc.yml"
+        "omnichannel/**.*": "bc/toc.yml"
       },
       "searchScope": {
         "**.*": [
@@ -246,7 +250,7 @@
           "Dynamics 365",
           "Customer Engagement"
         ],
-        "omni-channel-engagement-hub/**.*": [
+        "omnichannel/**.*": [
           "Dynamics 365",
           "Customer Engagement"
         ]        

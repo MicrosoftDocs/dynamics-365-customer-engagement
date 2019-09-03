@@ -5,7 +5,6 @@ keywords: Create an entitlement; Dynamics 365 for Customer Engagement; Customer 
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Create entitlements to define support terms
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 

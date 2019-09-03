@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: shubhadaj
 ms.assetid: 50af7faf-8578-4244-9710-f05544b97f38
 caps.latest.revision: 41
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Create or edit an appointment
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Block time to meet or talk to your customers by using appointments. You can modify any of the information in an open appointment. If you change the date and times of the appointment, the appointment will be rechecked for schedule conflicts.  
 

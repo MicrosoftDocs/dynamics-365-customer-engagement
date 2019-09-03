@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: activate-fs-mobile-app-license
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.author: FieldServiceDave
 ms.manager: shellyhaverkamp
@@ -24,8 +23,6 @@ search.app:
 ---
 
 # Perform initial configurations 
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 After installing Dynamics 365 for Field Service, there are a few important initial configurations, whether you're using the application for learning, development, testing, demonstrations, or live usage.
 

@@ -14,6 +14,7 @@ ms.assetid: 140fde74-6ccb-4553-8076-4a9bbaa40637
 caps.latest.revision: 26
 author: jimholtz
 ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -21,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # About the Microsoft Cloud Japan datacenter
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You may request migration to the Japan datacenter upon datacenter availability (March 2015).  
   

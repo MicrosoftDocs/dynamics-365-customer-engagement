@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 693371ae-c2a0-496c-900e-c1f96416298b
 author: kamaybac
 ms.author: kamaybac
@@ -63,7 +62,7 @@ search.app:
 <li><a href="design-digital-content.md" data-raw-source="[Design your digital content](design-digital-content.md)">Design your digital content</a></li>
 <li><a href="content-blocks-reference.md" data-raw-source="[Design elements reference](content-blocks-reference.md)">Design elements reference</a></li>
 <li><a href="upload-images-files.md" data-raw-source="[Upload and use images and files](upload-images-files.md)">Upload and use images and files</a></li>
-<li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
+<li><a href="prepare-marketing-emails.md" data-raw-source="[email-preview.md](prepare-marketing-emails.md)">email-preview.md</a></li>
 <li><a href="dynamic-email-content.md" data-raw-source="[Add dynamic content to email messages](dynamic-email-content.md)">Add dynamic content to email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
@@ -82,7 +81,7 @@ search.app:
 <h2>Manage, score, and qualify leads</h2>
 <li><a href="market-to-leads.md" data-raw-source="[Market to leads](market-to-leads.md)">Market to leads</a></li>
 <li><a href="score-manage-leads.md" data-raw-source="[Score and manage leads](score-manage-leads.md)">Score and manage leads</a></li>
-<li><a href="register-engagement.md" data-raw-source="[Register contacts&#39; engagement](register-engagement.md)">Register contacts&#39; engagement</a></li>
+<li><a href="register-engagement.md" data-raw-source="[Register link clicks and website visits](register-engagement.md)">Register contacts&#39; engagement</a></li>
 <li><a href="LinkedIn-Lead-Gen-integration.md" data-raw-source="[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)">Integrate with LinkedIn Lead Gen</a></li>
 
 </td><td>

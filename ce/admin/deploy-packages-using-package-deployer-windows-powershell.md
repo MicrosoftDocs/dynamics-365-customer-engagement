@@ -1,7 +1,7 @@
 ---
 title: "Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 06/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 [!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] enables administrators to deploy packages on a Dynamics 365 for Customer Engagement apps (on-premises) or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance. A “package” can consist of any or all of the following:  
   
@@ -106,7 +106,7 @@ search.app:
  The following example instructs [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] to  bypass some safety checks and sets the language to import as Polish.  
   
 ```  
-packagedeployer.exe RuntimePackageSettings SkipChecks=true | lcid=1045  
+packagedeployer.exe /Settings:"SkipChecks=true|lcid=1045"
 ```  
   
 > [!NOTE]

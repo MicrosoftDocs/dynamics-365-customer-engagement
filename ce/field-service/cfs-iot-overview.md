@@ -10,7 +10,6 @@ ms.technology:
 ms.tgt_pltfrm: 
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: shellyhaverkamp
 ms.author: vihuang
 ms.manager: shellyhaverkamp
@@ -24,8 +23,6 @@ search.app:
 --- 
 
 # Connected Field Service for Azure IoT Central - Overview
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Connected Field Service for Azure IoT Central provides a direct integration of Dynamics 365 for Field Service with Azure IoT Central, a fully managed IoT software-as-a-service (SaaS) solution. 
 

@@ -7,12 +7,11 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-author: mduelae
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 613288f5-1c9a-420e-ba06-8d1b1f6675b0
 caps.latest.revision: 141
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -23,8 +22,6 @@ search.app:
   - D365Sales
 ---
 # Troubleshooting and things to know 
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 The following are known issues with [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)].  
   

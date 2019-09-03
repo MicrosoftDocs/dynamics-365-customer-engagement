@@ -5,7 +5,6 @@ keywords: View, block, or deactivate a social profile; Dynamics 365 for Customer
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # View, block, or deactivate a social profile in social care sample application
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Track the high influencers and the customers for your business, and save them as contacts in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with their social profile information. You may want to get in touch with these resources later for marketing or brand-building purposes.  
   

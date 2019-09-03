@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a12434b2-dfb4-44c8-93fe-640084360d9c
 caps.latest.revision: 14
 author: Mattp123
@@ -23,9 +22,7 @@ search.app:
   - D365CE
 ---
 # Add report navigation
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 Report navigation enables a dynamic and interactive reporting experience. By using various types of actions, reports let the user navigate to detailed reports, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps records, or other websites.  
   
 > [!NOTE]

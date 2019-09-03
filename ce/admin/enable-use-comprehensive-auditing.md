@@ -23,8 +23,6 @@ search.app:
 ---
 # Enable and use Activity Logging 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from Activity Logging can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365 for Customer Engagement.  
 
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
@@ -63,6 +61,7 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 
 |Event  |Description  |
 |---------|---------|
+|User sign-in authentication    |Logging all user sign-in to the environment - when the **Start Read Auditing** option is selected.|
 |Create, read, update, delete (CRUD)     |Logging all CRUD activities essential for understanding the impact of a problem and being compliant with data protection impact assessments (DPIA). |
 |Multiple record view     |Users of Dynamics view information in bulk, like grid views, Advanced Find search, etc. Critical customer content information is part of these views.|
 |Export to Excel     |Exporting data to Excel moves the data outside of the secure environment and is vulnerable to threats.|

@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 9b793b5d-7fc0-4c59-9189-08e41bcef8b7
 caps.latest.revision: 12
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up booking statuses (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Booking statuses allow you to create multiple sub-statuses mapped to each of your booking statuses in order to more precisely define your company's unique business processes.  
   

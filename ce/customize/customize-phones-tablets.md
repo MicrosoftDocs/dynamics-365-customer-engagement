@@ -1,7 +1,7 @@
 ---
 title: "Customize Dynamics 365 for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/30/2019
+ms.date: 06/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -149,26 +149,9 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 
 <a name="BKMK_FormScriptDifferences"></a>   
 ## Form script differences for Dynamics 365 for phones and tablets  
- Scripts written for forms used in the web application should also work with Dynamics 365 for phones and tablets, but there are some differences. As a rule, methods that aren’t valid within for the mobile apps don’t return errors, but they also don’t return any values. Developers can use the following conditional statement to separate code that won’t work correctly in the mobile apps:  
+ Scripts written for forms used in the web application should also work with Dynamics 365 for phones and tablets, but there are some differences. As a rule, methods that aren’t valid within for the mobile apps don’t return errors, but they also don’t return any values. <!-- Developers can use a conditional statement to separate code that won’t work correctly in the mobile apps.  -->
 
-```javascript  
-if (Xrm.Page.context.client.getClient() != "Mobile")  
-{  
-    // Add code that should not run in Dynamics 365 for phones and tablets here  
-
-}  
-```  
-
- You can also use the getFormFactor API to set whether code will work on just phones or just tablets, with a statement like this:  
-
-```javascript  
-if (Xrm.Page.context.client.getClient() == "Mobile" && Xrm.Page.context.client.getFormFactor() == 3)  
-{  
-// Add code that should only run in Dynamics 365 for phones here  
-}  
-```  
-
- The following list shows what to expect with scripts in the mobile apps. For specific details, see the developer documentation in the [MSDN: Client-side programming reference](https://msdn.microsoft.com/library/gg328255.aspx).  
+ The following list shows what to expect with scripts in the mobile apps. For specific details, see the developer documentation in the [Client API Reference for Customer Engagement](/dynamics365/customer-engagement/developer/clientapi/reference).  
 
 - Using [window.alert](https://msdn.microsoft.com/library/ie/ms535933.aspx), [window.confirm](https://msdn.microsoft.com/library/ie/ms536376.aspx), [window.prompt](https://msdn.microsoft.com/library/ms536673.aspx) or any other code that blocks code execution while waiting for a user’s response won’t work as expected or will display an error. You shouldn’t use these methods in scripts for the mobile apps.  
 
@@ -193,7 +176,6 @@ if (Xrm.Page.context.client.getClient() == "Mobile" && Xrm.Page.context.client.g
 
 
 ### See also  
-
  [Video: Visual controls (4:32)](http://go.microsoft.com/fwlink/p/?LinkID=724424) <br/>
  [Create and edit metadata](../customize/create-edit-metadata.md)   
  [Create and design forms](../customize/create-design-forms.md)   

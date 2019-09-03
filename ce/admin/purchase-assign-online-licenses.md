@@ -1,7 +1,7 @@
 ---
 title: "Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/07/2018
+ms.date: 08/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Purchase and assign Dynamics 365 for Customer Engagement apps (online) licenses
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../includes/pn-crm-shortest.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
   
@@ -85,6 +83,10 @@ PowerApps users can be licensed in multiple ways. They can be assigned a license
 
 > [!TIP]
 > You can use security groups to control which licensed users can be a member of a particular instance by assigning a security group to your Dynamics 365 for Customer Engagement apps (online) instances. See [Control user access to instances: security groups and licenses](add-instance-subscription.md#control-user-access-to-instances-security-groups-and-licenses). 
+
+> [!NOTE]
+> For information about licensing changes coming to PowerApps and Microsoft Flow in October 2019, see [PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq).
+
   
 ### See also  
  [Important information for CRM Online customers](../admin/important-information-customers.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Troubleshoot SharePoint Online integration with Customer Engagement | MicrosoftDocs"
+title: "Troubleshoot SharePoint integration with Customer Engagement | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/19/2019
+ms.date: 08/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 28ba29c2-a661-4d6e-b72a-47c69a94de98
 caps.latest.revision: 7
 author: jimholtz
@@ -21,19 +20,17 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Troubleshoot SharePoint Online integration
+# Troubleshoot SharePoint integration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
+*This content also applies to the on-premises version.*
 
-If you experience any of following situations, use the steps below to correct.
+This topic explains how to fix common issues that may occur with SharePoint document management.
 
 ## Missing Documents button - validate and fix 
 
 If **Documents** is missing from entities such as account, use the following to restore.
 
 ![Documents](media/crm-itpro-crmo365tg-seldoc.png "Documents")
-
-Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
 
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement.
     Check your security role:
@@ -56,8 +53,6 @@ If the Documents associated grid is missing, use the following to restore.
 
 ![Documents associated grid](../basics/media/list-of-documents-in-onedrive.png "Documents associated grid")
 
-Start by understanding the requirements listed in [Important considerations for server-based SharePoint integration](important-considerations-server-based-sharepoint-integration.md).
-
 The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement.
@@ -66,12 +61,12 @@ The most common cause for the Documents associated grid not loading is the corru
     2. Don’t have the correct permissions? Contact your system administrator.
 2. Go to **Settings** > **Customizations** > **Solutions**. 
 3. Create a solution (named SharePointDocumentSolution). For more information, see [Create a solution](../customize/create-solution.md).
-4. Add **SharePoint Document** entity (select all fields , forms, views). 
+4. Choose **Entities** > **Add Existing** > **Entity** > find and add **SharePoint Document** entity  (select all fields, forms, views). 
 5. Select **Save** and **Close**.
 6. Publish all customizations.
 7. Select the created (SharePointDocumentSolution) solution.
-8. Export the solution. (SharePointDocumentSolution.zip will be downloaded) 
-9. Extract the zip file (downloaded file from Step 7).
+8. Export the solution and choose the Package type as "Unmanaged". SharePointDocumentSolution.zip will be downloaded. 
+9. Extract the zip file (downloaded file from Step 8).
 10. Browse the folder, locate and open customization.xml.
 11. Search LayoutXml of Document associated grid (search for *Document Associated*).
     
@@ -103,47 +98,84 @@ The most common cause for the Documents associated grid not loading is the corru
     </layoutxml>
     ```  
 
-12. Make the changes as below for the FetchXml section:
+13. Make the changes as below for the FetchXml section:
 
     ```  
-    <fetchxml>
-      <fetch distinct="false" mapping="logical">
-        <entity name="sharepointdocument">
-          <attribute name="documentid" />
-          <attribute name="fullname" />
-          <attribute name="relativelocation" />
-          <attribute name="sharepointcreatedon" />
-          <attribute name="filetype" />
-          <attribute name="modified" />
-          <attribute name="sharepointmodifiedby" />
-          <attribute name="title" />
-          <attribute name="readurl" />
-          <attribute name="editurl" />
-          <attribute name="author" />
-          <attribute name="absoluteurl" />
-          <attribute name="ischeckedout" />
-          <attribute name="locationid" />
-          <attribute name="iconclassname" />
-          <filter type="and">
-            <condition attribute="documentlocationtype" operator="eq" value="1" />
-            <condition attribute="isrecursivefetch" operator="eq" value="0" />
-            <filter type="or">
-              <condition attribute="filetype" operator="eq" value="one" />
-              <condition attribute="filetype" operator="eq" value="onetoc2" />
-            </filter>
-          </filter>
-          <order attribute="sharepointcreatedon" descending="true" />
-        </entity>
-      </fetch>
-    </fetchxml>
+    <fetch distinct="false" mapping="logical">
+      <entity name="sharepointdocument">
+        <attribute name="documentid" />
+        <attribute name="fullname" />
+        <attribute name="relativelocation" />
+        <attribute name="sharepointcreatedon" />
+        <attribute name="ischeckedout" />
+        <attribute name="filetype" />
+        <attribute name="modified" />
+        <attribute name="sharepointmodifiedby" />
+        <attribute name="servicetype" />
+        <attribute name="absoluteurl" />
+        <attribute name="title" />
+        <attribute name="author" />
+        <attribute name="sharepointdocumentid" />
+        <attribute name="readurl" />
+        <attribute name="editurl" />
+        <attribute name="locationid" />
+        <attribute name="iconclassname" />
+        <order attribute="relativelocation" descending="false" />
+        <filter>
+          <condition attribute="isrecursivefetch" operator="eq" value="0" />
+        </filter>
+      </entity>
+    </fetch>
      ```  
 
-13. Save the file.
-14. Zip the folder.
-15. Open Dynamics 365 for Customer Engagement.
-16. Navigate to **Settings** > **Solutions**
-17. Import the solution (zipped file in Step 8).
-18. Publish all customizations.
-19. Verify the Document associated grid is displaying in all the required SharePoint documents.
+14. Save the file.
+15. Zip the folder.
+16. Open Dynamics 365 for Customer Engagement.
+17. Navigate to **Settings** > **Solutions**
+18. Import the solution (zipped file in Step 8).
+19. Publish all customizations.
+20. Verify the Document associated grid is displaying in all the required SharePoint documents.
+
+## Validate and fix SharePoint site URLs
+
+In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and document location records contain links to site collections, site, document libraries, and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. These site and document location records are associated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records so that the documents for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records can be stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+  
+ When the links between [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] break, you must validate and fix the links so that the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records continue to point to the correct document libraries and folders for managing the documents.  
+  
+1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+  
+    Check your security role  
+  
+   - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+  
+   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+  
+2. Find and fix the URLs. To do this, follow these steps.  
+  
+   1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
+  
+   2. Click **[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Sites**.  
+  
+   3. Select the site URLs that you want to validate, and then click or tap **Validate**.  
+  
+3. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
+  
+4. To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
+  
+5. Click **Save & Close**.  
 
 
+## Users receive "You don't have permissions to view files in this location" message
+This error message can occur when the SharePoint site that is configured with document management has been renamed, but the SharePoint sites URL record has not been updated to reflect the change. 
+
+1. Go to **Settings** > **Document Management** > **SharePoint Sites**.
+2. Open the **SharePoint Site** record that has been renamed and enter the **Absolute URL** with new URL.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/fix-renamed-sp-site.png "Enter SharePoint relative URL")
+
+3. Select **Save & Close**.
+
+
+### See also
+[Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md) 

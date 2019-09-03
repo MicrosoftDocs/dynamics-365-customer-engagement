@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: cb1bb002-8300-43bb-ab75-99e7a9c9c35d
 caps.latest.revision: 11
 author: Mattp123
@@ -23,8 +22,6 @@ search.app:
   - D365CE
 ---
 # Dynamics 365 for Customer Engagement apps reporting considerations
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps has a number of capabilities that allow customers to surface business data that helps them drive decisions and interact with their customers more effectively.  Capabilities that are available within [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps include views, charts, dashboards, and [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports. Also included is [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] integration that allows users to easily build self-service reports using the Power BI features [PowerView](http://www.microsoft.com/powerBI/home/visualize.aspx), PowerPivot, and [PowerQuery](http://blogs.msdn.com/b/powerbi/archive/2013/12/19/dynamics-crm-online-in-power-query.aspx). As the volume of data held in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] apps database continues to grow it becomes more important than ever to think about your BI strategy and determine the most effective mechanisms for reporting and visualizing large datasets.  
   

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4d2fe05b-99a4-49b5-a6c9-57d15df30f3b
 caps.latest.revision: 31
 author: shubhadaj
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Send bulk email to customers
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can send the same message to multiple recipients using email templates. This is known as *direct* or *bulk* emailing. You can also use mail merge with [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] and [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates to create the message.  
   

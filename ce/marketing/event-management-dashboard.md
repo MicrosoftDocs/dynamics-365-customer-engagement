@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: db6de446-f7bd-4f26-98a5-2fd495402691
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # The event management dashboard
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The event-management feature provides a preconfigured dashboard that gives a broad overview of your event-planning activities and the overall results for all your events. It also provides a wall feed that tracks all activities that are linked to the primary event-related records. Use the dashboard to get a quick overview of all the events you're planning and to see how successful your previous events have been.
 

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b0c0a758-2f03-4679-b81c-560779a6dc7d
 caps.latest.revision: 5
 author: brycho
@@ -20,8 +19,6 @@ search.app:
   - D365CE
 ---
 # What are business processes?
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is “process-driven.” But what does that mean?  
   

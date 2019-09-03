@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a7136797-5995-425f-a49e-f037e53b7fa7
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # How [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses cookies
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] identifies website visitors by using a technology called *cookies*. A cookie is a small file that's sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way the cookie can provide a unique visitor ID, which enables the server to return information that is unique to you. This is the technology that originally made the online shopping cart possible.
 
@@ -53,4 +50,4 @@ Whenever a contact submits a marketing page, [!INCLUDE[pn-marketing-business-app
 ### See also
 
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
-[Register contacts' engagement](register-engagement.md)
+[Register link clicks and website visits](register-engagement.md)

@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 74e7dc26-094a-45fe-8da8-eae407978bfa
 caps.latest.revision: 18
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Turn on auto geocoding to calculate estimated travel time (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 With Dynamics 365 for Customer Engagement for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], it's important to geocode each service account record with latitude and longitude values so that when you generate work orders for that service location, the work order inherits the coordinates and the system can calculate estimated travel time when attempting to schedule the work order to a resource.  
   

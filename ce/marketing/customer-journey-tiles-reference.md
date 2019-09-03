@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: reference
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 57e1c0f7-a12e-49ff-9110-0dcaae176855
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Customer journey tiles reference
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Read this topic to find out more about how to work with each type of tile available for constructing your customer journeys. For general information about how to create a customer journey and work with its tile, see [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md).
 
@@ -53,7 +50,7 @@ To add a nested tile, expand the email tile if needed by clicking on the expand 
 
 See the following sections for more information about working with the marketing-page, marketing-form, event, and survey tiles.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md)
 
 ### Marketing form
 

@@ -3,14 +3,10 @@ title: "Revise a product (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Keep the product inventory updated by quickly revising the products in Dynamics 365 for Sales."
 keywords: Revise
 ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: d823053e-2f30-461f-8f2e-bc3646d0491c
 author: shubhadaj
 ms.author: shujoshi
@@ -19,12 +15,9 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 21
-topic-status: Drafting
 ---
 
 # Make revisions to a product (Sales and Sales Hub)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Keep the product inventory updated by quickly revising properties for the products as required, and republishing the information so that your sales agents can see the latest changes to the inventory.  
 

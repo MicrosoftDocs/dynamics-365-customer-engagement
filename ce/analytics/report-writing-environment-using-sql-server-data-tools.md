@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c31abe1-7c07-4498-b69a-ddfed2686d08
 caps.latest.revision: 23
 author: Mattp123
@@ -23,9 +22,7 @@ search.app:
   - D365CE
 ---
 # Report writing environment using SQL Server Data Tools
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps reports.  
   
  You must have the required development tools and appropriate privileges in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to write and publish a report. Also, you should be familiar with:  

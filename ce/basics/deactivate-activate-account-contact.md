@@ -1,7 +1,7 @@
 ---
 title: "Deactivate or activate an account or contact (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 06/06/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -9,9 +9,9 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 71b20ebb-7ecd-44e9-8de2-1db070cf30cf
 caps.latest.revision: 30
+author: mduelae
 ms.author: anbichse
 manager: brycho
 search.audienceType: 
@@ -21,11 +21,9 @@ search.app:
 ---
 # Deactivate or activate an account or contact
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   
- A deactivated account or contact becomes inactive, which means that it cannot be edited or used in establishing new relationships with other records. However, all relationships created with the deactivated item are still available.  
+ When a deactivated account or contact becomes inactive, it cannot be edited. However, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.  
   
  Deactivated accounts can subsequently be reactivated should the need arise.  
   

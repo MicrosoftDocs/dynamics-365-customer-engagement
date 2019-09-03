@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_rtvsubstatus Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Specify custom RTV substatuses, which can be used to specify the current RTV status more precisely.
 
 **Added by**: Field Service Solution

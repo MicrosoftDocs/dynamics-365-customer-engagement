@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3f607d03-10cb-42d5-8c0a-a6e08e6b3cb8
 caps.latest.revision: 8
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Collaborate and communicate with Yammer
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives you one place to have conversations, create and edit documents, and share information with your colleagues without sending a single email or attending any meetings.  
   

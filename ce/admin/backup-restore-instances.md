@@ -1,21 +1,21 @@
 ---
-title: "Backup and restore instances of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Backup and restore instances of Customer Engagement (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 03/02/2019
+ms.date: 08/21/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
+  - Dynamics 365 for Customer Engagement (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 82d04aae-5557-44da-9658-d1cf1b1c4825
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -24,25 +24,29 @@ search.app:
 ---
 # Backup and restore instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your Customer Engagement instances.   
 
 > [!NOTE]
-> Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+> - Consider using the less privileged service admin role instead of the global admin role. See [Use the service admin role to manage your tenant](use-service-admin-role-manage-tenant.md).
+> - Obtaining a copy of your database backup isn't available. If you want to move your online data to Dynamics 365 for Customer Engagement apps (on-premises), this requires data migration. For smaller datasets, consider [exporting and importing data using Excel](/dynamics365/customer-engagement/basics/import-export-data). For larger datasets, find a third-party data migration solution on [Microsoft AppSource](https://appsource.microsoft.com/). 
   
 <a name="BKMK_DailySystemBackup"></a>  
  
-## Daily system backups  
- Good news! Some backups take place without you having to do anything.  
+## System backups  
+ Good news! Backups take place without you having to do anything.  
   
  About Customer Engagement apps **system backups**:  
   
 - All your instances are backed up.  
   
-- System backups occur daily.  
+- System backups occur continuously.  Since we use Azure SQL, see [Azure Sql automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
   
-- System backups are retained up to three days. Check your expiration date.  
+- System backups are retained up to 28 days. Check your expiration date.
+
+> [!NOTE]
+> We are working on updating the expiration date interface. Correct dates will show once this work is completed.
+>
+> The retention period specified in Azure SQL documentation may be different from our retention period since we manage the retention period.
 
   ![Expires On column that shows the expiration dates for backups](media/Expires66.png "Expires On column that shows the expiration dates for backups")
 
@@ -192,6 +196,39 @@ Protecting your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] app
    ![Delete backup button](../admin/media/delete-backup-button.png "Delete backup button")  
   
 7. Click **Confirm**.  
- 
+
+## FAQ
+
+### How are system backups taken?
+In the current version of the product, system backups occur continuously; this is different from previous versions where we took backups once a day. Since we use Azure SQL, please see [Azure SQL automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
+
+### How are manual/on-demand backups taken?
+In the current version of the product, system backups occur continuously; this is different from previous versions where we took backups once a day. Since we use Azure SQL, please see [Azure SQL automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
+
+Since Azure SQL takes backups continuously, there is no need to take additional backups or specify Azure SQL to take additional backups or an on-demand full backup. So our on-demand backup is just a label and a time-stamp that we store in our system and use during restore requests. This is different from previous versions where took a full backup during an on-demand backup. 
+
+### Should I open a support ticket for taking a full backup?
+No. In the current version of the product, system backups occur continuously; this is different from previous versions where we took backups once a day. Since we use Azure SQL, please see [Azure Sql automated backups](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) for details.
+
+Since Azure SQL takes continuous backups and no specific way to take additional on-demand backups, we recommend you use our on-demand backup feature to label your backups. 
+
+### How long are my manual/on-demand backups and system backups retained?
+Both manual backups and system backups are retained for 28 days. We currently do not show all the available system backups. We plan to show the full range of available backups in the future.
+
+### Can I extend my backup to be retained beyond the standard number of days?
+Unfortunately, you can't extend your system backups or manual/on-demand backups. If you want to keep the data for longer than the standard retention period, we recommend you copy your instance to an additional instance and do not modify that additional instance. 
+
+### Can I move my data from an online instance to an on-premises version of Customer Engagement?
+Obtaining a copy of your database backup isn't available. If you want to move your online data to Customer Engagement (on-premises), this requires data migration. For smaller datasets, consider exporting and [importing data using Excel](../basics/import-export-data.md). For larger datasets, find a third-party data migration solution on [Microsoft AppSource](https://appsource.microsoft.com/).
+
+### Do we have any database size restriction to take a backup or restoring an organization through user interface (UI) or API?
+We do not have any restriction on database size to take a backup or restore an organization through UI or API. So please use the UI or API to do self-service. Open a support ticket if the operation fails.
+
+### Can I restore to a Production instance?
+In order to prevent accidental overwrites, we don't allow users to restore to a Production instance directly. To restore to a Production instance, first switch it to a Sandbox instance. Please see [Switch an instance](../admin/switch-instance.md).   
+
+### Why is my organization in administration mode after a restore and how do I disable it?
+The newly restored instance is placed in administration mode. To disable administration mode, see [Set administration mode](manage-sandbox-instances.md#set-administration-mode).  
+
 ### See also  
  [Switch an instance](../admin/switch-instance.md)   

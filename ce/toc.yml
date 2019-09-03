@@ -34,8 +34,8 @@
 - name: "Solutions"
   expanded: true
   items:    
-  - name: Omni-channel Engagement Hub
-    href: omni-channel-engagement-hub/omni-channel-engagement-hub-guide.md   
+  - name: Omnichannel for Customer Service
+    href: omnichannel/omnichannel-customer-service-guide.md   
   - name: Voice of the Customer
     href: voice-of-customer/help-hub.md
   - name: Portals

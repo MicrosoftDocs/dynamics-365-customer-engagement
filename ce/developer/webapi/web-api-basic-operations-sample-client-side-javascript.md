@@ -22,8 +22,6 @@ search.app:
 ---
 # Web API Basic Operations Sample (Client-side JavaScript)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
 
 > [!NOTE]

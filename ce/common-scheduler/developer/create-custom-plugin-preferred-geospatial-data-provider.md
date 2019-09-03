@@ -8,7 +8,7 @@ ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -19,9 +19,8 @@ ms.topic: conceptual
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 2be7f42d-745c-4454-b132-f2a3d47194ae
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+author: FieldServiceDave
+ms.author: daclar
 search.audienceType: 
   - admin
   - customizer
@@ -32,8 +31,6 @@ search.app:
   - D365FS
 ---
 # Create custom plug-in to use your preferred geospatial data provider
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic provides information about the two geospatial actions in Universal Resource Scheduling, how to create a custom plug-in for the two geospatial actions, and provides examples from a sample custom plug-in on using Google Maps API for geospatial data.
 

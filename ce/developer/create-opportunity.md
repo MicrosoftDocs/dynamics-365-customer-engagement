@@ -39,8 +39,6 @@ search.app:
 ---
 # Create an opportunity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 You can create an opportunity from a qualified lead or you can create a new opportunity for one of your existing customers. You can track the information about each opportunity, such as state and status of the opportunity, the probability of the sale, and the estimated closing date. An opportunity contains important sales information that can be used later in quotes, sales orders, and invoices. The sales information includes:  
   
 -   Products and services from the product catalog and write-in products that you plan to sell  

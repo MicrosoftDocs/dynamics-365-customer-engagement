@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 75a7739a-53e8-43e7-bd6d-ca7317a69d30
 caps.latest.revision: 16
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Configure and set up customer assets to maintain a list of serviceable items (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Customer asset functionality lets you maintain a list of serviceable items related to a service location.  
   

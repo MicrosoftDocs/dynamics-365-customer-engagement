@@ -8,7 +8,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: jimholtz
 ms.assetid: 3e3aba01-d5d0-469b-8b21-e857ad9e64dd
 caps.latest.revision: 50
@@ -20,8 +19,6 @@ search.app:
   - D365CE
 ---
 # Merge duplicate records for accounts, contacts, or leads
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Duplicate records can creep into your data when you or others enter data manually or import data in bulk. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] helps you address potential duplicates by providing duplicate detection for accounts, contacts, and leads. Your administrator may also set up duplicate detection rules for other situations.  
   

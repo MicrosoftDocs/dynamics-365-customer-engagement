@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0762789a-7cae-49a2-b2aa-8346115c2b9e
 caps.latest.revision: 30
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Analyze your Dynamics 365 for Customer Engagement apps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
  No need to leave [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to analyze your data. Now you can do a quick *ad-hoc* analysis using [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   

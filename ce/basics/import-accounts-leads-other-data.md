@@ -9,9 +9,9 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dee40fe5-1942-4521-986f-714edfd36433
 caps.latest.revision: 37
+author: mduelae
 ms.author: anbichse
 manager: brycho
 search.audienceType: 
@@ -20,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Import accounts, leads, or other data
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Whether your data is stored in spreadsheets, databases, or other systems, you’ll probably want to import the data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] so you can keep track of all your customer information in one place.  
   

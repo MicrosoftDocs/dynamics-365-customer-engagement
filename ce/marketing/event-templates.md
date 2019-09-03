@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d557e6c9-4fc2-4546-b90a-dd9b0945fdbb
 author: kamaybac
 ms.author: kamaybac
@@ -25,8 +24,6 @@ search.app:
 ---
 
 # Create and use event templates
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you often create similar events, then you can save time by setting up one or more event templates. Each template can hold all the same settings as a standard event, including:
 

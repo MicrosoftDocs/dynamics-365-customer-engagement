@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: 7dc8f57e-ce10-40a9-a827-ae0fe13f0b93
 caps.latest.revision: 77
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -28,8 +28,6 @@ search.app:
   - D365Sales
 ---
 # Install Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 <a name="bkmk1"></a>   
 

@@ -9,9 +9,9 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2396d3f3-ca6b-4a44-99dd-bdbaf9b22a58
 caps.latest.revision: 29
+author: mduelae
 ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
@@ -20,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Stay up-to-date with customer news with the activity feed
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Monitor real-time updates in the activity feed to stay current with fast-moving sales, customer projects, and marketing campaigns at your organization.  
   

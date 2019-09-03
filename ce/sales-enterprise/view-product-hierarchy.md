@@ -3,14 +3,10 @@ title: "View product hierarchy (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get a visual snapshot of the products your organization sells by looking at the product hierarchy in Dynamics 365 for Sales."
 keywords: Hierarchy, visual hierarchy
 ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: f2c2fd29-654d-4ccb-81e7-eb49f1ba74fc
 author: shubhadaj
 ms.author: shujoshi
@@ -19,12 +15,9 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 16
-topic-status: Drafting
 ---
 
 # View product hierarchy (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A product hierarchy gives you a visual snapshot of the products your organization sells. It makes it easy to see what products are available to sell and how they are connected. With this information at your fingertips, you can take whatever actions you need to on any product from a single place and improve your chances of a sale.  
   

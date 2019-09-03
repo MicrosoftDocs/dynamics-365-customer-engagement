@@ -1,18 +1,17 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 04/08/2019
+ms.date: 08/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-author: mduelae
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
 caps.latest.revision: 141
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -24,13 +23,10 @@ search.app:
 ---
 # Setup overview for mobile apps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
-  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 for Customer Engagement apps mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
   
 - **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
@@ -99,7 +95,8 @@ This list identifies all services to which Dynamics 365 for Phones and Tablets t
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
-| service.powerapps.com |https |Starting with version 13.19033.0, used for email sign-in and the app list. |
+| management.azure.com |https |Between version 13.19022.10 and 13.19081.22, used to fetch the list of apps to populate the app list. |
+| api.businessappdiscovery.microsoft.com |https |Starting with version 13.19091.0, used to fetch the list of apps to populate the app list. |
 
 <a name="BKMK_UsersToDo"></a>   
 ## What users need to do  

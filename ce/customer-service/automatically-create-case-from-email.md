@@ -5,7 +5,6 @@ keywords: Automatically create a case from an email; Dynamics 365 for Customer E
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Automatically create a case from an email
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The conditions in these rules automatically convert emails to support cases.  
 

@@ -5,7 +5,6 @@ keywords: Find knowledge articles; Dynamics 365 for Customer Engagement; Custome
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Find knowledge articles from within a record
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 For any customer service team, it’s important to give customers the right information at the right time. After your administrator sets up knowledge management for your organization, you can search for articles while working on a customer’s case or other records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], give customers accurate and consistent information, and also redirect frequently-asked questions. With rich knowledge at your fingertips, you’re likely to spend less time finding information, potentially reducing issue handling time and increasing customer satisfaction.  
   

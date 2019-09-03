@@ -5,7 +5,6 @@ keywords: Use sites to manage your service locations; Dynamics 365 for Customer 
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 09/15/2017
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Use sites to manage your service locations (Customer Service app)
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Create sites to define the locations where you provide service to your customers. When you’re scheduling resources, you can define which resources will work on which site.
 

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: shubhadaj
 ms.assetid: b5eb89bc-e828-4b0a-bf80-87f399e4695a
 caps.latest.revision: 9
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Submit feedback or ratings for information stored in your system
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 To improve customer satisfaction, tracking customer feedback for the products and services that your organization offers is very important. You can now add feedback or ratings to records for any entity that is enabled for feedback.  
   

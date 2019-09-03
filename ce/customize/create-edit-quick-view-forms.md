@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: Mattp123
 ms.assetid: 9b101734-cc11-4d05-bd45-eb611eae9931
 caps.latest.revision: 14
@@ -73,7 +72,10 @@ A quick view form can be added to another form as a quick view control. It provi
 3. Choose **OK** to close the **Quick View Control Properties** dialog box.  
   
    You must save and publish the main form before the quick view control changes will be visible.  
-  
+
+> [!NOTE]
+> Quick view forms will not show in your solutions or apps until you add them using the App Designer. Make sure you open your solution or app in App Designer, add your quick view form, select save, and then publish.
+
 ### See also   
  [Create and design forms](../customize/create-design-forms.md)   
  [Create or edit quick create forms](../customize/create-edit-quick-create-forms.md)

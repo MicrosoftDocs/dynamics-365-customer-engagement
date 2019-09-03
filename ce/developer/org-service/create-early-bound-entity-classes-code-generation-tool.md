@@ -4,7 +4,7 @@ description: ""
 keywords: 
 ms.date: 04/24/2019
 ms.service: crm-online
-ms.custom: 
+ms.custom: on-premise
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -23,8 +23,6 @@ search.app:
 ---
 
 # Create early bound entity classes with the code generation tool (CrmSvcUtil.exe)
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 **CrmSvcUtil.exe** is a command-line code generation tool for use with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. This tool generates early-bound [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)] classes that represent the entity data model used by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 

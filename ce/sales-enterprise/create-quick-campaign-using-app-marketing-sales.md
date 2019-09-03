@@ -1,16 +1,11 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 08/31/2017
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: ff906069-cba8-45cd-93e8-2b517c1d89d2
 author: shubhadaj
 ms.author: shujoshi
@@ -22,8 +17,6 @@ caps.latest.revision: 43
 ---
 
 # Create a quick campaign using in-app marketing (Sales)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.  
   

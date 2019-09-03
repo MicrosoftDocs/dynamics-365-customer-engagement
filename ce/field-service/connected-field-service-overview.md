@@ -3,7 +3,6 @@ title: "Build your own Connected Field Service (IoT) solution | MicrosoftDocs"
 ms.description: "Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs."
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: shellyha
 author: shellyhaverkamp
 manager: shellyha
@@ -21,8 +20,6 @@ search.app:
   - D365FS
 ---
 # Quickstart: Build your own Connected Field Service (IoT) solution
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 This article shows you how to get up and running quickly to build your own Connected Field Service solution that integrates IoT data with Dynamics 365 for Field Service.
 

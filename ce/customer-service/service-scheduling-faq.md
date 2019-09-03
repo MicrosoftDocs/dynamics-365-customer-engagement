@@ -5,7 +5,6 @@ keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Ser
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -34,7 +33,7 @@ The new scheduling experience is available to you if you have Dynamics 365 for C
 
 Scheduling in the Customer Service Hub is a customer driven update. You need to avail and enable the new service scheduling package, which will also include Universal Resource Scheduling (URS) functionality. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-scheduling-experience)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up the new scheduling experience](basics-service-service-scheduling.md#set-up-the-new-service-scheduling-experience)
 
 ## What is the migration path to the new service scheduling, now powered by Universal Resource Scheduling (URS)? 
 

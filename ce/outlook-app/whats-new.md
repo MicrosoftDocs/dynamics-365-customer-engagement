@@ -1,6 +1,5 @@
 ---
 title: "What's new with Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Updates to Dynamics 365 App for Outlook."
 ms.custom: 
 ms.date: 01/15/2019
 ms.reviewer: 
@@ -8,9 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: db584cf3-6662-4650-a8e5-8a30a668e9aa
 caps.latest.revision: 99
 author: mduelae
@@ -23,10 +20,9 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Outlook
+description: "Updates to Dynamics 365 App for Outlook."
 ---
 # What's new with Dynamics 365 App for Outlook
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Dec 2018 
 1. Fixed issue with emails losing track status when categories is enabled. 

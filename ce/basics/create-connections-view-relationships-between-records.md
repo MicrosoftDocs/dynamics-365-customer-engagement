@@ -8,7 +8,6 @@ ms.service:
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3cd98c0b-0599-4d96-8e9a-095e2d528a9c
 author: jimholtz
 ms.author: jimholtz
@@ -20,8 +19,6 @@ caps.latest.revision: 29
 ---
 
 # Create connections to define and view relationships between records
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can create and view the relationships between records for many entities using **Connect**. Connections enable you to easily associate users, contacts, quotes, sales orders, and many other entity records with each other. When you open a record and select **Connections**, you can view all of the connections between it and other records.  
   

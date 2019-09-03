@@ -2,14 +2,13 @@
 title: "Personalized marketing page content (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create web pages that provide content personalized for visitors that are known contacts in Dynamics 365 for Marketing"
 keywords: preview
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 71fabecc-0581-46e8-9ee7-24995ce1f981
 author: kamaybac
 ms.author: kamaybac
@@ -45,7 +44,7 @@ Go to **Marketing** > **Marketing content** > **Personalized pages** to identify
 You can use fields of the following types on personalized pages:
 
 - Single line of text
-- Option set
+- Option set (see note)
 - Two options
 - Whole Number
 - Floating point number
@@ -53,7 +52,10 @@ You can use fields of the following types on personalized pages:
 - Currency
 - Multiple lines of text
 - Date and time
-- Multi-select option set
+- Multi-select option set (see note)
+
+> [!NOTE]
+> Option-set values are returned as index values (integers), not display values.
 
 ## Authenticate your external domains
 
@@ -149,7 +151,7 @@ As mentioned in the introduction to this topic, page personalization requires th
 
 1. Set up page personalization and create your personalized page as described earlier in this topic.
 1. Open ([or create](create-deploy-marketing-pages.md)) a marketing page that's live and running on your instance and that includes a [marketing form](marketing-forms.md) with the following:
-    - An [field design element](content-blocks-reference.md#form-content-elements) for each of the values you want to test on your personalized page.
+    - A [field design element](content-blocks-reference.md#form-content-elements) for each of the values you want to test on your personalized page.
     - A [remember-me design element](content-blocks-reference.md#form-content-elements) (which creates a checkbox that enables/disables prefilling and page personalization for the submitting contact)
 1. Fill out all the fields on the registration form and be sure to mark the "remember me" check box. When you submit the form, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will set a cookie in your browser, which enables the system to identify you the next time you open a marketing page.
 1. Allow about 30 seconds for the system to process the submission and create a new contact record.

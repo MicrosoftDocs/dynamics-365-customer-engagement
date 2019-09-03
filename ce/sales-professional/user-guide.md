@@ -1,16 +1,11 @@
 ---
 title: "User Guide (Dynamics 365 for Sales Professional) | MicrosoftDocs"
-description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales Professional. "
+description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales Professional."
 keywords: "sales, User guide"
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 93e9e623-cff9-4678-a414-649fb31b5941
 author: shubhadaj
 ms.author: shujoshi
@@ -18,8 +13,8 @@ manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 caps.latest.revision: 5
-topic-status: Drafting
 ---
 
 # User Guide (Dynamics 365 for Sales Professional)
@@ -35,7 +30,7 @@ Focus on the right leads, contacts, and opportunities as you build out your team
 
 <li><a href="sales-professional-overview.md" data-raw-source="[Overview of Sales Professional](sales-professional-overview.md)">Overview of Sales Professional</a></li>
 <li><a href="learn-basics-sales-professional.md" data-raw-source="[Learn the basics](learn-basics-sales-professional.md)">Learn the basics</a></li>
-<li><a href="manage-accounts-contacts.md" data-raw-source="[Manager your customers](manage-accounts-contacts.md)">Manager your customers</a></li>
+<li><a href="manage-accounts-contacts.md" data-raw-source="[Manage your customers](manage-accounts-contacts.md)">Manage your customers</a></li>
 <li><a href="manage-activities.md" data-raw-source="[Manage tasks, appointments, email, or phone calls](manage-activities.md)">Manage tasks, appointments, email, or phone calls</a></li>
 
 </td><td>

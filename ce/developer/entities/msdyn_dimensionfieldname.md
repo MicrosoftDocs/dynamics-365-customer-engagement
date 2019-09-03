@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_dimensionfieldname Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Provides ability to override the field name for pricing dimension if the entity doesn't follow the same naming convention for the pricing dimension field as the price entity.
 
 **Added by**: Project Service Automation Solution

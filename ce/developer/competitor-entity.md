@@ -35,8 +35,6 @@ search.app:
 ---
 # Competitor entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 A *competitor* is another company that offers competing products and services. Each competitor record in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can contain detailed information about the competitor that includes a company profile, a SWOT analysis (Strengths, Weaknesses, Opportunities, and Threats), and any relevant sales materials and presentations. In addition, competitor articles can contain links to relevant information in the marketing encyclopedia.  
   
  With competitor tracking, you can find competitors and analyze their sales strategies, their products, and what contracts they win. This functionality includes adding and maintaining competitor records, and storing competitor documents. Competitor tracking lets you disperse competition information to everyone who deals with an opportunity so that they can compete in the most effective way possible to close the sale and maintain the relationship. Competitor tracking helps you compare your business unit to the competition, including opportunities lost to and won against competitors.  

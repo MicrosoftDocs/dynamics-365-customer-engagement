@@ -34,8 +34,6 @@ search.app:
 ---
 # Define goal metric and rollup fields
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 To specify the goal metric type, participating entities, and whether you track actuals, custom or in-progress data, use the goal metric entity (`Metric`) and the rollup field (`RollupField`) entity. The goal metric and the rollup fields have a parental relationship in which all operations on the parent record are propagated to the child records. For more information about parental relationship and cascading rules, see [Entity Relationship Behavior](entity-relationship-behavior.md).  
   
 > [!IMPORTANT]

@@ -2,7 +2,7 @@
 title: "Best practices (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic describes best practices for developing with Dynamics 365 for Customer Engagement apps."
 ms.custom: 
-ms.date: 09/16/2018
+ms.date: 07/24/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -21,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Best practices for developing with Dynamics 365 for Customer Engagement
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps.  
 
@@ -178,7 +176,7 @@ In addition, monitor your [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] 
 and refresh it before it expires so that you do not lose the token and have to start over with authentication. 
 To check the token, create a custom class that inherits from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> or 
 <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy> class and that implements the business logic to check the token. 
-Or wrap the proxy classes in a new class. Another technique is to explicitly check the token before each call to the web service. Example code that demonstrates these techniques can be found in the `ManagedTokenDiscoveryServiceProxy`, `ManagedTokenOrganizationServiceProxy`, and `AutoRefreshSecurityToken` classes in the [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md) topic.  
+Or wrap the proxy classes in a new class. Another technique is to explicitly check the token before each call to the web service. Example code that demonstrates these techniques can be found in the `ManagedTokenDiscoveryServiceProxy`, `ManagedTokenOrganizationServiceProxy`, and `AutoRefreshSecurityToken` classes in the [Helper Code: ServerConnection Class](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs) topic.  
 
 <a name="CustomizationBestPractices"></a>
 

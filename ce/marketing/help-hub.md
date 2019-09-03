@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
 author: kamaybac
 ms.author: kamaybac
@@ -33,8 +32,7 @@ search.app:
 <h2>Administer the system</h2>
 <li><a href="readme.md" data-raw-source="[Readme)](readme.md)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
-<li><a href="purchase-marketing.md" data-raw-source="[Purchase a production version of Marketing](purchase-marketing.md)">Purchase a production version of Marketing</a></li>
-<li><a href="purchase-setup.md" data-raw-source="[Run the setup wizard](purchase-setup.md)">Run the setup wizard</a></li>
+<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 for Marketing</a></li>
 <li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the Settings work area](open-advanced-settings.md)">Open the Settings work area</a></li>
@@ -86,7 +84,7 @@ search.app:
 <tr><td>
 <h2>Marketing with Dynamics 365</h2>
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
-<li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
+<li><a href="prepare-marketing-emails.md" data-raw-source="[Email marketing overview](prepare-marketing-emails.md)">Email marketing overview</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>

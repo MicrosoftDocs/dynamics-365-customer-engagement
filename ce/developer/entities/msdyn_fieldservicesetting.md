@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_fieldservicesetting Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Settings controlling functionality related to Field Service
 
 **Added by**: Field Service Solution

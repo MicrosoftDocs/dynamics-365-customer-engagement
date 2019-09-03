@@ -25,8 +25,6 @@ search.app:
 ---
 # Service calendar appearance configuration
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 You can control the appearance and behavior of the service calendar in the following ways:  
   
 - [Set time block appearance](service-calendar-appearance-configuration.md#BKMK_TimeBlock)  

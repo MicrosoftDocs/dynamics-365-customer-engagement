@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: c1cce991-fc21-4c97-afc5-8db822868518
 caps.latest.revision: 14
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up postal codes and relate them to service territories (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Creating postal code records and relating them to service territories lets an account be automatically assigned to a service territory when the account address is entered. When a user tabs out of the postal code field on the account record form, the system automatically populates the service territory field if it finds a match to the postal code.  
   

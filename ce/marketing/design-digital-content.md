@@ -1,7 +1,6 @@
 ---
 title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
-keywords: designer; design element; element; template
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: kamaybac
 ms.author: kamaybac
@@ -27,12 +25,10 @@ search.app:
 
 # Design your digital content
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
 
 - Marketing email messages and templates  
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md)
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md)
 - Marketing pages and templates  
     [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 - Marketing forms and templates  
@@ -76,7 +72,7 @@ Choose **Designer** in the designer toolbar to open the graphical designer. It l
 
 The graphical designer provides an editable preview (canvas), where you can select, edit, or remove content; and a set of tabs for adding design elements and working with the design:
 
-- **Toolbox**: To add a new design element to your design, drag an element from here to an appropriate place in the canvas. Each design element represents a specific type of content, such as a text element, image, or input form. The settings and features of each design element vary by type.
+- **Toolbox**: To add a new design element to your design, drag an element from here to an appropriate place in the canvas; or select an element here (without dragging) to highlight each position on the canvas where  you could place that element, and then select the highlighted position where you'd like to place it. Each design element represents a specific type of content, such as a text element, image, or input form. The settings and features of each design element vary by type.
 - **Properties**: Most design elements need to be configured to work. For example, an image needs to point to an image file, a form needs to point to a marketing-form record, and a button needs some text and a destination. When you add a new design element, that element is automatically selected and its **Properties** tab opens so you can set it up. To configure (or reconfigure) any design element already in your design, select it first, and then open the **Properties** tab.
 - **Style**: Use these settings to apply color, spacing, and other graphical options for the overall design.
 
@@ -112,13 +108,13 @@ Though the drag-and-drop editor provides an editable preview, this preview is st
 Use the buttons in the left column of the **Preview** tab to see how your design will look on different screen sizes and orientations, such as desktop, tablet landscape, or mobile portrait. The preview also reflects the responsive design features built into many of the templates. However, the preview doesn't run any custom scripts you might have added (such as for validating form input).
 
 > [!NOTE]
-> Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](prepare-marketing-emails.md#check-your-work-by-using-previews-and-test-sends)
+> Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work using previews and test sends](email-preview.md)
 
 ### See also
 
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Design elements reference](content-blocks-reference.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  

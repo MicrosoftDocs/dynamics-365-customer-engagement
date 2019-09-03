@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e892a409-1e68-491f-8992-1b281ba4a5a3
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Set up automatic lead generation and scoring
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -65,7 +62,7 @@ To create a lead scoring model:
     ![Set an expression for the condition](media/scoring-condition-expression.png "Set an expression for the condition")
 
     > [!TIP]
-    > You can add more expressions here by choosing **+ New Expression**.
+    > You can add more expressions here by choosing **+ New Expression**. When multiple expressions are present, they are always combined using an AND operator, so they must *all* evaluate to true for the condition to be true.
 
 7. Drag an **Action** tile from the **Toolbox** tab to the space immediately to the right of the **Condition** tile you just set up.  
     ![Add an action tile](media/scoring-add-action.png "Add an action tile")
@@ -118,5 +115,5 @@ To create a lead scoring model:
 ### See also
 
 [Design lead-scoring models](score-manage-leads.md)  
-[Register contacts' engagement](register-engagement.md)  
+[Register link clicks and website visits](register-engagement.md)  
 [Manage customer information](manage-customer-information.md)

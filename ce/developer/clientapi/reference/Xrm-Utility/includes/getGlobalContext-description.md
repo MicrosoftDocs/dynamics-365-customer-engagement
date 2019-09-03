@@ -1,4 +1,0 @@
-Gets the global context. 
-
-
-

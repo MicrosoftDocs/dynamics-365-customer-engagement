@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: mduelae
 ms.assetid: 5768a0f0-21c0-4c7b-9c2a-992c21df406c
 caps.latest.revision: 22
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Drill down in a chart
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can drill down into a segment on a chart to filter chart data for that segment. For example, you can drill down on one segment of a sales pipeline chart. You can also change the chart type as you drill down.  
   

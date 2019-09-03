@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 4dd88e0c-ee95-463a-9d0d-5a1a4f056e4e
 caps.latest.revision: 13
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up bookable resource categories (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Bookable resource categories let you group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.  
   

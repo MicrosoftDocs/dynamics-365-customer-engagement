@@ -2,7 +2,7 @@
 title: "Control access to forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
 description: "Learn how to control acces to main forms"
 ms.custom: 
-ms.date: 03/07/2019
+ms.date: 06/18/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -10,7 +10,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: Mattp123
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33
@@ -70,12 +69,12 @@ search.app:
  If you use role-based forms to provide a customized user experience based on a person’s role in the organization, you can set your least specialized form as the fallback form and configure it to display for everyone. Then, create customized forms for specific security roles and configure those forms to only display for security roles that require them. Do not enable these forms for fallback. Finally, in the **Forms** list use the **Form Order** dialog to specify which forms to display ranking them from most exclusive to least exclusive. Your fallback form will be at the bottom of the list. This strategy will cause people seeing the form that has been customized for their role as the default form, yet they can still use the form selector to select the most common form if they want. Whatever form they select will remain their default form until they select a different form.  
   
 <a name="BKMK_UseFormScripting"></a>   
-## Use form scripting  
 
- Finally, in the web application it is possible, but not recommended, for a developer to use scripts in the form Onload event to use the [Xrm.Page.ui.formSelector.items collection](http://go.microsoft.com/fwlink/p/?LinkID=513300) to query available forms and use the navigate method to direct users to a specific form. Remember that the [navigate method](http://go.microsoft.com/fwlink/p/?LinkID=513301) will cause the form to load again (and the Onload event to occur again). Your logic in the event handler should always check some condition before you use the navigate method to avoid an endless loop or unnecessarily restrict users options to navigate between forms.  
-  
- This approach will not work for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] because multiple forms are not available for selection.  
+## Use form scripting  
+The Client API form context (formContext) provides a reference to the form or to an item on the form, such as, a quick view control or a row in an editable grid, against which the current code is executed. More information: [Client API form context](/dynamics365/customer-engagement/developer/clientapi/clientapi-form-context)
+
+> [!IMPORTANT]
+> With Dynamics 365 for Customer Engagement apps version 9.0, the Xrm.Page object is [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated), and you should use the [getFormContext](/dynamics365/customer-engagement/developer/clientapi/reference/executioncontext/getformcontext) method of the passed in execution context object to return reference to the appropriate form or an item on the form.
 
 ### See also  
-
 [Assign security roles to forms](../admin/assign-security-roles-form.md)

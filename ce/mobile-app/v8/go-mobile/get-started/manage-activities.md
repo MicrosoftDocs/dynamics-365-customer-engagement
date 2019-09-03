@@ -1,7 +1,7 @@
 ---
 title: "Manage activities in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: 6e650ebd-c683-465f-a5c6-2d0fea971a87
 caps.latest.revision: 25
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -28,8 +28,6 @@ search.app:
   - D365Sales
 ---
 # Manage activities in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## My Activities  
  Use activities to keep track of all your customer communications. For example, during the course of a sale, you might send emails, make phone calls, set up appointments, or assign tasks. All of these are considered activities, and the [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets app helps you track them so you don’t miss an important follow-up activity.  

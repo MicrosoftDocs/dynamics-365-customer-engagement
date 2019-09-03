@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: brycho
 ms.assetid: 201e9f66-56e7-4f58-b51e-9c73cf5f50b8
 caps.latest.revision: 19
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Quick create--Enter new records--fast!
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The Quick Create command makes it fast and easy to enter almost any type of information into the system. The command is on the nav bar, so it’s always available whenever you need to enter new info into the system.  
   

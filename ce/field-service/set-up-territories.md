@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 5b22bdbc-4c52-4889-bf29-df0023d504f6
 caps.latest.revision: 17
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up territories to divide service areas (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Territories are used to divide large service areas. If a service territory is assigned to a service account record, and a work order is generated for that service account, then the work order will inherit the service territory from the service account. When you are scheduling a work order using the scheduling assistant, the suggested available resources can be filtered based on the resources that are assigned to the same territory as the work order. Using territories also helps dispatchers manage the schedules more efficiently when managing the schedule board.  
   

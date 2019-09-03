@@ -10,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
   - Dynamics CRM Online
-author: jimholtz
 ms.assetid: 181a4a85-b1dd-4ec9-a21b-b8b5bd9acb29
 caps.latest.revision: 8
 ms.author: mkaur
+author: jimholtz
 search.audienceType: 
   - admin
   - customizer
@@ -23,8 +23,6 @@ search.app:
   - D365Sales
 ---
 # A note for Android users of Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Navigation on [!INCLUDE[tn_android](../../../../includes/tn-android.md)] tablets is a little different than on [!INCLUDE[tn_ipad](../../../../includes/tn-ipad.md)] or [!INCLUDE[pn_ms_Windows_short](../../../../includes/pn-ms-windows-short.md)] tablets.  
   

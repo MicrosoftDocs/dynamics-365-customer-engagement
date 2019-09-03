@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b174b3c8-3b64-4802-b9cf-38e1c3531dc9
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Create content blocks that you can reuse in multiple designs
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Content blocks let you establish a block of common content that you can reuse in multiple emails, forms, and/or pages. Use them to establish common headers, footers, and other blocks of content that you would like to standardize across your communications.
 
@@ -70,7 +67,7 @@ To create and publish a content block:
 
     - **Name**: Assign a name to the content block.
     - **Availability**: Choose the types of designs where you'd like to make this content block available (emails, forms, and/or pages).
-    - **Protected**: Choose whether you and other users will be able to customize the properties of the image element contained in a content block (if present) when it's used in the **Designer** view. All text content contained in the content block will be read-only in the **Designer** view regardless of this setting, and regardless of whether that text content is within a text element or in standard HTML constructs.
+    - **Protected**: Choose whether you and other users will be able to apply in-line edits to the block's content (in the **Designer** view) after the block is placed into a design.
 
 1. When you are done designing your content, select **Go live** from the command bar to make it available to other entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
@@ -92,7 +89,7 @@ More information: [Go live with publishable entities and track their status](go-
 
 To add a content block to an email, form, or page design:
 
-1. Open or create an [email message](prepare-marketing-emails.md), [marketing page](create-deploy-marketing-pages.md), or [marketing form](create-deploy-marketing-pages.md).
+1. Open or create an [email message](email-design.md), [marketing page](create-deploy-marketing-pages.md), or [marketing form](create-deploy-marketing-pages.md).
 
 2. Drag a content-block element from the **Toolbox** panel to the appropriate location in your design.
 

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3a30eb5f-4e3a-4c46-8fa4-150d8b277041
 caps.latest.revision: 34
 author: Mattp123
@@ -22,8 +21,6 @@ search.app:
 ---
 # Share a report with other users or teams
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 When you create a new report, share it with other people on your team or in your organization so that they can also benefit from it. There are several ways that you can share your new report with other people.  
   
 ## Share the report with other users or teams  
@@ -33,7 +30,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report.  
   
-   **If using the Dynamics 365 for Customer Engagement apps:**  
+   <!--**If using the Dynamics 365 for Customer Engagement apps:**-->  
   
    1.  Click **More Commands**![More Commands button in Appointment Activity](../basics/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then click **Share**.  
   
@@ -43,7 +40,7 @@ When you create a new report, share it with other people on your team or in your
   
    4.  In the **Share Report dialog** box, select the type of share access that you want. The available permissions are: Read, Write, Delete, Append, Assign, or Share.  
   
-&lt;!--&gt; <strong>If using Dynamics 365 for Outlook:</strong>  
+<!-- <strong>If using Dynamics 365 for Outlook:</strong>  
   
     1.  In the list of reports, select a report, and in the **Collaborate** group, click **Share**.  
   
@@ -57,7 +54,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, click **Edit**.  
   
-   **If using the Dynamics 365 for Customer Engagement apps:**  
+   <!--**If using the Dynamics 365 for Customer Engagement apps:**-->  
   
    1.  On the command bar, click **Edit**.  
   

@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: cdf6e522-22a4-4687-a6a0-95702c6ff596
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Watch these videos to learn more about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you are new to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], then these videos will help you gain a quick understanding of the system and how to work with some of its most-used features.
 
@@ -49,7 +46,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 - Tutorial: [Create a marketing email and go live](create-marketing-email.md)
 - [Design your digital content](design-digital-content.md)
 - [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)
-- [Prepare marketing email messages](prepare-marketing-emails.md)
+- [Email marketing overview](prepare-marketing-emails.md)
 - [Work with email, page, and form templates](email-templates.md)
 - [Design elements reference](content-blocks-reference.md)
 
@@ -75,7 +72,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 
 - Tutorial: [Set up lead scoring](set-up-lead-scoring.md)
 - [Design lead-scoring models](score-manage-leads.md)  
-- [Register contacts' engagement](register-engagement.md)  
+- [Register link clicks and website visits](register-engagement.md)  
 - [Manage customer information](manage-customer-information.md)
 
 ## Browse all [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] videos on YouTube

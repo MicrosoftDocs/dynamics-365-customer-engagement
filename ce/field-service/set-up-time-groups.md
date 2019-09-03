@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 9bfa089a-57a1-4790-bb13-0239f055803f
 ms.author: krbjoran
@@ -27,9 +26,7 @@ search.app:
 ---
 # Fulfillment preferences
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[topic-urs-fulfillment-pref.md](../includes/topic-urs-fulfillment-pref.md)]
+[!INCLUDE[topic-urs-fulfillment-pref.md](../shared/urs/fulfillment-pref.md)]
 
 ### See also  
   

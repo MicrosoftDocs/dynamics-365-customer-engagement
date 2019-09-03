@@ -1,16 +1,12 @@
 ---
 title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 for Sales."
-keywords: product, opportunity, editable grid, quote, order, invoice
-ms.date: 09/24/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+keywords: "product, opportunity, editable grid, quote, order, invoice"
+ms.date: 06/13/2019
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: e426b768-bd64-4e64-8560-667634006d74
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Drafting
 ---
 
 # Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Sales Hub)
@@ -41,9 +36,9 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 4. In the list of forms, open the form of type Main.
 
-5. If you’re enabling the editable product grid in the Opportunity form, select the **Action Cards** area in the **Product Line items** section, and in the **Edit** group, select **Change Properties**.
+5. If you’re enabling the editable product grid in the Opportunity form, select the **Opportunity Products** area in the **Product Line items** section, and in the **Edit** group, select **Change Properties**.
 
-    ![Action Cards area in the Product Line Items section](media/action-cards-area-product-line-items-section.png "Action Cards area in the Product Line Items section")
+    ![Opportunity Products area in the Product Line Items section](media/opportunity-products-area-product-line-items-section.png "Opportunity Products area in the Product Line Items section")
     
     **– OR –** 
     

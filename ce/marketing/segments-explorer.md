@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 71b263c7-98ac-4640-9fc8-83d177430397
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Use the explore view to visualize entity relations
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The **Explore** view provides a graphical map of the entities that are available for constructing segment queries and shows how they are related. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity (shown in turquoise). Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
 

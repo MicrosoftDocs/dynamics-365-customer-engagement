@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 9cfad031-e7a8-4c00-b59f-1ff359717c6e
 caps.latest.revision: 25
 author: Mattp123
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Add a report from outside Dynamics 365 for Customer Engagement apps
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you’ve created a custom report outside of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can easily add it to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   

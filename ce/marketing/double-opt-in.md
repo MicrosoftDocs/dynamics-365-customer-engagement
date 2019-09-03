@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dacfc72e-978c-41d1-b4c6-8c5b66042770
 author: kamaybac
 ms.author: kamaybac
@@ -19,8 +18,6 @@ topic-status: Drafting
 ---
 
 # Set up double opt-in for new subscriptions and consent changes
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The _double opt-in_ process (also known as _confirmed opt-in_) asks contacts who sign up for a new subscription list, or who choose to increase their level of [data-protection consent](gdpr.md), to confirm their request by clicking on a link sent to their registered email address. This system helps make sure that the request is intentional, and that the supplied email address is legitimate and functional.
 
@@ -83,7 +80,7 @@ The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynam
 
 ![Subscription list settings available to confirmation-request messages](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
 ## Create an increase consent confirmation-request message
 

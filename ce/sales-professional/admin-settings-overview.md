@@ -3,18 +3,17 @@ title: "Admin settings overview (Dynamics 365 for Sales Professional) | Microsof
 description: "Learn about the standard and advanced settings in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 451290a2-89ec-4fdb-b044-3e68a52dfd3a
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Overview of admin settings (Sales Professional)

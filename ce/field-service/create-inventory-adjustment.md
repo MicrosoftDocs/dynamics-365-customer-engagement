@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: f819da43-ccc8-4c76-9467-3c4a4d8f4c18
 caps.latest.revision: 16
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Add or subtract inventory from a warehouse (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can do an inventory adjustment in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] to add or subtract inventory to or from a warehouse.  
   

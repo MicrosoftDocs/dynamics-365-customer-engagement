@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 14811327-a740-4d02-815f-fc908421fbc2
 caps.latest.revision: 12
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Create a warehouse to track inventory (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Track your product inventory using a warehouse record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   

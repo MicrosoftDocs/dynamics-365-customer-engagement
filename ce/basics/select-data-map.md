@@ -8,7 +8,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 31cc6338-3d1a-4b76-b1cb-e835803a3595
 caps.latest.revision: 41
 author: jimholtz
@@ -20,8 +19,6 @@ search.app:
   - D365CE
 ---
 # Select a data map
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 1. Select a data map to tell the Import Data wizard how to organize your imported data into the right columns and fields in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

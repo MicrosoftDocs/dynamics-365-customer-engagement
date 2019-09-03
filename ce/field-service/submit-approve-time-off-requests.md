@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: FieldServiceDave
 ms.assetid: 7fac64e1-2816-415a-b45f-b1a1aa9fc68f
 caps.latest.revision: 18
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Submit and approve time-off requests (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Keep the schedule board in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] up to date by logging time-off requests.  
   

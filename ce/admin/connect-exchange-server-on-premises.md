@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 40615715-8b68-4152-918d-aa7498a28553
 caps.latest.revision: 24
 author: jimholtz
@@ -22,8 +21,6 @@ search.app:
   - Powerplatform
 ---
 # Connect Dynamics 365 for Customer Engagement apps (online) to Exchange Server (on-premises)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 With [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)], you can connect your Customer Engagement apps with [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)] (on-premises).  
 

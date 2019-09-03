@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 48d6f335-4fb7-4a08-be40-0633f32db23b
 caps.latest.revision: 13
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # View product inventory at a warehouse (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 View product inventory in Dyanmics 365 for Field Service to get a snapshot of the inventory you have at a warehouse.  
   

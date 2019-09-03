@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 7505920c-fb5b-4794-acdb-110e307f0ffe
 caps.latest.revision: 41
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Export data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and convert that data into actionable items that help you drive more sales?  Now you can do this when you export your data to [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] or [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to do a quick data analysis. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
   

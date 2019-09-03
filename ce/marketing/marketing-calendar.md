@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 580a2b1c-1ac7-4bce-9ccf-3b95e723a8e6
 author: kamaybac
 ms.author: kamaybac
@@ -25,8 +24,6 @@ search.app:
 ---
 
 # Work with marketing calendars
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The marketing calendar provides a calendar-style view where you can see and create time-based items like journeys, events, sessions, and appointments. It resembles Microsoft Outlook in both appearance and use.
 
@@ -61,7 +58,7 @@ System customizers can add custom calendars to nearly any entity or form, so you
 
 ### View and browse the calendar
 
-The following illustration highlights the major display and navigation features of the marketing calendar. It shows the main calendar available at **Marketing** > **My work** > **Marketing calendar**, which is an entity-level calendar that displays many types of entities. Form-level calendars are nearly the same, and the legend for the figure points out the differences.
+The following illustration highlights the major display and navigation features of the marketing calendar. It shows an entity-level calendar that displays many types of entities. Form-level calendars are nearly the same, and the legend for the figure points out the differences.
 
 ![Features of the marketing calendar](media/calendar-callouts.png "Features of the marketing calendar")
 

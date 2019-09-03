@@ -24,8 +24,6 @@ search.app:
 ---
 # Image web resources
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use image web resources to make images available for use in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
 
 There are 5 types of image web resources: 

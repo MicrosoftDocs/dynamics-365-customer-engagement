@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 87209879-6a63-4a64-bf52-61680fad2e9a
 author: kamaybac
 ms.author: kamaybac
@@ -65,6 +64,9 @@ The primary role of marketing segments is to create collections of related conta
 
 Another way to make use of a static marketing list from [!INCLUDE[pn-microsoftcrm](../includes/pn-crm-shortest.md)] in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is to set up a dynamic segment that queries that list. This technique is limited to static marketing lists—dynamic lists aren't supported. For contact-based static lists, you can set up a segment that queries the list and then traverses to find the list members. For static marketing lists that contain accounts or leads, your segment must select, for example, the parent contact for each lead or the primary contact for each account. For dynamic lists, you must recreate the original logic as a segmentation query because you can't query them directly like you can a static list.
 
+> [!NOTE]
+> Static segments can contain a maximum of 5,000 members. If you need a larger list than this, then create a static marketing list instead, and then query that list from a dynamic segment, as mentioned in the preceding paragraph.
+
 ## Key differences between how lists and segments are evaluated
 
 _Evaluation_ is the process of calculating the members of a segment or list based on its membership criteria. Segments and lists evaluate their memberships quite differently.
@@ -78,4 +80,5 @@ _Evaluation_ is the process of calculating the members of a segment or list base
 ### See also
 
 [Working with segments](segmentation-lists-subscriptions.md)  
-[Set up subscription lists and subscription centers](set-up-subscription-center.md)
+[Set up subscription lists and subscription centers](set-up-subscription-center.md)  
+[Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)

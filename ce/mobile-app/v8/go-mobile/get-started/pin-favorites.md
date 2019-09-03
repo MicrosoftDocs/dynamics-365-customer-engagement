@@ -1,7 +1,7 @@
 ---
 title: "Pin your favorites in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: 39d3726f-5631-45f1-b9b8-6724567da26a
 caps.latest.revision: 26
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -28,8 +28,6 @@ search.app:
   - D365Sales
 ---
 # Pin your favorites in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
  Pinned tiles provide quick access to your records, contacts, views, and dashboards. You can pin as many tiles as you want to the Pinned Tiles section of your Home screen or to the Start screen or menu of [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] and [!INCLUDE[pn_windows_10](../../../../includes/pn-windows-10.md)] devices.  
   

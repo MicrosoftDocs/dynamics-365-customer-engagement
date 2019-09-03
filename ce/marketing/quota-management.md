@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f9b1a7a9-427d-42ed-9e41-b01322953c3c
 author: kamaybac
 ms.author: kamaybac
@@ -28,8 +27,6 @@ search.app:
 
 # Quota limits
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of marketing contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota limits** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
 
 To see how much of each quota you've used, go to **Settings** > **Advanced settings** > **Other settings** > **Quota limits**.
@@ -37,8 +34,8 @@ To see how much of each quota you've used, go to **Settings** > **Advanced setti
 The following quotas are tracked here:
 
 - **Marketing email messages**: Shows the total number of email messages you can still send this month, and the total number you have sent. Your email quota is equal to ten times your marketing contacts quota.
-- **Litmus inbox previews**: Shows the total number of Litmus email previews (inbox previews) users at your organization can still request this month, and the total number that have been used. This quota is included with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license and is shared by all users from your organization. Individual users can get more previews by setting up a private (not shared) account with Litmus, but individual accounts aren't tracked here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
-- **Marketing contacts**: Shows the total number of *marketing contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of this quota. For more information about marketing contacts and how they are counted, see [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md#how-licensed) and the [Administration and setup FAQ](setup-troubleshooting.md#licensing)
+- **Litmus inbox previews**: Shows the total number of Litmus email previews (inbox previews) users at your organization can still request this month, and the total number that have been used. This quota is included with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] license and is shared by all users from your organization. Individual users can get more previews by setting up a private (not shared) account with Litmus, but individual accounts aren't tracked here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](email-preview.md#inbox-preview)
+- **Marketing contacts**: Shows the total number of *marketing contacts* that you can have in your database according to your current [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] subscription. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of this quota. For more information about marketing contacts and how they are counted, see [How Marketing is licensed](purchase-setup.md#how-licensed) and the [Administration and setup FAQ](setup-troubleshooting.md#licensing)
 - **Total contacts in database**: Shows the total number of all contacts that are stored in your database. No quota applies here, so this is just for your reference (for example, so you can easily compare your number of total contacts to your number of marketing contacts)
 
 > [!Note]

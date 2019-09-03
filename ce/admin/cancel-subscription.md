@@ -23,8 +23,6 @@ search.app:
 ---
 # Cancel your subscription
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 We are sorry that you are considering canceling your subscription with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . This topic contains information you’ll need before you cancel your subscription. For additional details, see Section 4 of the [Microsoft Dynamics 365 for Customer Engagement apps Online Service Agreement](http://go.microsoft.com/fwlink/p/?LinkId=269924).  
   
 <a name="BKMK_BeforeYouCall"></a>   

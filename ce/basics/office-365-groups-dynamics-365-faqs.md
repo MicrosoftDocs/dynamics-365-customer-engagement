@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 3f170665-f0eb-4af7-a177-67bce539419f
 caps.latest.revision: 15
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Office 365 Groups in Dynamics 365 for Customer Engagement apps FAQs
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 The following are frequently asked questions and known issues for [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
   

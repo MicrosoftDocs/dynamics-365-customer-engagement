@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: b3d7ca0b-67ef-4e17-81f8-49e8e9ef919e
 caps.latest.revision: 6
 author: Mattp123
@@ -22,9 +21,7 @@ search.app:
   - D365CE
 ---
 # Report considerations and best practices
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 Make sure that your reports execute reliably and efficiently by understanding the best practices and considerations described here.  
   
 ## In this section  

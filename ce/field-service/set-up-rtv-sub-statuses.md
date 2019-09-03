@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: a7ecdd69-392e-4b2a-9c95-a9e4fed0c8fb
 caps.latest.revision: 13
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up RTV sub-statuses to specify return status more precisely (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When a product needs to be retuned to a vendor, a return to vendor (RTV) record is created to track the returned items. RTV sub-status values can be created to specify the return status more precisely, in accordance with your company's business processes.  
   

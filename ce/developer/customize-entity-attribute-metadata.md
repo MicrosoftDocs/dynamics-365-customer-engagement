@@ -22,8 +22,6 @@ search.app:
 ---
 # Customize entity attribute metadata
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Use `AttributeMetadata` (<xref href="Microsoft.Dynamics.CRM.AttributeMetadata?text=AttributeMetadata EntityType" /> or <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> class) to retrieve existing attributes. The <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata> class is returned by the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveAttributeRequest> message. The `AttributeMetadata` inherits from the abstract `MetadataBase` (<xref href="Microsoft.Dynamics.CRM.MetadataBase?text=MetadataBase EntityType" /> for Web API and <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase> in case of Organization Service).  
 
 Use the following Web API query to retrieve entity attributes in the context of an entity by expanding the Attributes collection-valued navigation property. More information: [Querying EntityMetadata attributes](/powerapps/developer/common-data-service/webapi/query-metadata-web-api#querying-entitymetadata-attributes)

@@ -1,7 +1,7 @@
 ---
 title: "Datacenter regions for Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/16/2018
+ms.date: 05/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,6 +14,7 @@ ms.assetid: 6968d4e5-9482-40f3-ab14-6e4bc0dcc787
 caps.latest.revision: 45
 author: jimholtz
 ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -21,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Datacenter regions
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] is being hosted in datacenters in more and more regions. After [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] becomes available in a new region, the following apply:  
   

@@ -1,18 +1,17 @@
 ---
 title: "Troubleshooting and things to know about Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 3/10/2019
+ms.date: 03/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: error-reference
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-author: mduelae
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -23,8 +22,6 @@ search.app:
   - D365Sales
 ---
 # Potential issues and resolutions
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
   
   
 ## Troubleshoot *We can’t find any apps for your role* error message on Dynamics 365 for phones and tablets.
@@ -173,7 +170,7 @@ If you receive this error:
  If you receive this message for a record which has a non-deleted process assigned to it, you should manually synchronize [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] with your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data. Close the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app, reopen, and then choose to download the latest customizations. This procedure forces [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] to check for updated customizations. Recently viewed data while you were connected is cached and synched. Record data like Accounts or Contacts are not synched. You can’t choose which data synchronizes to the device like you can with [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
   
 ## Error message: “This operation failed because you’re offline. Reconnect and try again.”  
- This error may occur for the following scenarios when you are using a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)]8 device and you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization that uses [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] (formerly named Live ID). This issue doesn’t occur for organizations provisioned through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+ This error may occur for the following scenarios when you are using a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device and you have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization that uses [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] (formerly named Live ID). This issue doesn’t occur for organizations provisioned through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
   
  **Cause 1**: You are automatically authenticated as a different [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] that is not a member of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization. This may happen if you sign into your [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device and your domain account is connected to a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. For example: you sign in to your device as *\<userid>*@contoso.com (your domain account) and that account is connected to *\<userid>*@live.com (a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]). If your connected account (for example,  *\<userid>*@live.com) is not a member of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization, you will encounter this error. In this scenario, the error occurs after providing your URL, but you are never prompted for credentials. When you connect your domain account to a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)], that account will be used to automatically sign in to apps and services that use [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] for authentication. If you’re using a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] device, use the steps listed here to check if your domain account is connected to a [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. If you’re using a [!INCLUDE[pn_Windows_RT](../includes/pn-windows-rt.md)] device, see the **Windows RT** section.  
   

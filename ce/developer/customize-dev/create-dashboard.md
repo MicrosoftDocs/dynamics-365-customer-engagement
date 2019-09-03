@@ -22,8 +22,6 @@ search.app:
 ---
 # Create a dashboard
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] or by customizing the entity form in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement by editing the customizations.xml file.  
   
 > [!NOTE]

@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: social profile, tokens, shared profile
-ms.date: 12/05/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: b84d4554-04b9-49fb-9f63-3ea913ef64fb
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -23,6 +23,8 @@ search.app:
 ---
 
 # Manage social profiles
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 *Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   

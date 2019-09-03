@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a05ddbad-a57a-403a-aee9-2e91e2f5161f
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Create and deploy marketing pages
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and applied immediately to your customer database.
 
@@ -51,6 +48,8 @@ The overall process of creating a new marketing page and making it available on 
 4. When you are satisfied with the design, check it for required content and technical errors by selecting **Check for Errors** in the command bar. If a problem is found, read the description, address the issue, and try again until the page passes the error check.
 
 5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it by using the portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
 The remainder of this topic provides more information about these steps, including how to work with forms and form fields, how to integrate marketing pages into emails and customer journeys, and how to read and interpret results.
 
@@ -104,6 +103,9 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
 
+> [!IMPORTANT]
+> The HTML code for marketing pages published to the portal must be less than 64 KB in size (not including placed images or imported scripts). You'll get an error if you try to publish designs that are larger than this.
+
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
 ### Establish marketing page templates
@@ -139,9 +141,7 @@ To view form submissions and analytics about page usage and performance:
 
 1. Go to **Marketing** > **Internet Marketing** > **Marketing Pages** and use the search, sort, and filtering controls to find the page you want to inspect.
 
-1. Use the drop-down list above the marketing-page name to switch to the **Insights** entity form.
-
-    ![The form selector menu](media/form-selector-insights.png "Choose Insights from the form selector")
+1. Go to the **Insights** tab.
 
 1. Explore the various tabs and displays here to view submissions and gain insights.
 

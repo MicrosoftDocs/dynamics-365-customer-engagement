@@ -1,7 +1,7 @@
 ---
 title: "Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: 
-ms.date: 2016-11-01
+ms.date: 11/01/2016
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: e9db0517-cd29-4764-8c0a-6aef5a23f8ee
 caps.latest.revision: 40
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -28,8 +28,6 @@ search.app:
   - D365Sales
 ---
 # Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Types of records  
  As a sales professional, you’ll be working a lot with the following types of records:  

@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-developer
   - dyn365-fieldservice
 ms.date: 01/05/2018
-ms.reviewer: 
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.technology: 
@@ -16,9 +16,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
 caps.latest.revision: 8
-author: JimDaly
-ms.author: jdaly
-manager: jdaly
+author: FieldServiceDave
+ms.author: daclar
 search.audienceType: 
   - developer
 search.app: 
@@ -26,8 +25,6 @@ search.app:
   - D365FS
 ---
 # Develop customized IoT solutions in Connected Field Service
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] integrates Internet of Things (IoT) devices with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] to enable their registration, monitoring and management into established business processes. This guide explains the component architecture, supplied interfaces and customization points, and explains the approach to develop customized IoT solutions.  
   

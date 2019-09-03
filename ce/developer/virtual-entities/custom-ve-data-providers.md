@@ -17,8 +17,6 @@ search.app:
 
 # Custom virtual entity data providers
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps Data SDK, .NET Developers have the option of creating custom virtual entity data providers to help integrate external data source types that are not supported by an existing data provider. Each data provider is composed of a reusable set of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps plug-ins that implement the supported CRUD operations. (The initial release is limited to the **Retrieve** and **RetrieveMultiple** read operations.)  This section provides fundamental information about data providers and approaches to developing custom providers, including example code.
 
 > [!NOTE]
@@ -99,9 +97,6 @@ If for any reason your code cannot achieve the expected result, you must throw t
 |ObjectNotFoundException|The specified record in the external data source does not exist.|
 |TimeoutException|The external operation did not complete within the allowed time; for example, the result of a HTTP status 408 from the external data service.|
 | | |
-
-To assist you in plug-in development, the Dynamics 365 for Customer Engagement apps Data SDK contains the _Plugin Profiler and Debugger_; for more information see [TBD]<!-- TODO: Obtain information on this tool, create subtopic. -->.
-
 
 ### Plug-in registration
 

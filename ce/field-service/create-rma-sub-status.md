@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: c41cd2be-31d9-4cfd-91ff-8167fdf5f476
 caps.latest.revision: 14
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Create an RMA sub-status for when a product needs to be returned (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When a product needs to be returned, a return merchandise authorization (RMA) is created in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]. Set up an RMA sub-status to specify the return status more precisely, in accordance with your business processes.  
   

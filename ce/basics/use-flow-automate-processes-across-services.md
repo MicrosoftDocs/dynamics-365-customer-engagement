@@ -10,7 +10,6 @@ ms.assetid: 7aebc737-667f-44d1-bb05-e4573be1e0b2
 caps.latest.revision: 7
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: Mattp123
 ms.author: matp
 search.audienceType: 
@@ -19,8 +18,6 @@ search.app:
   - D365CE
 ---
 # Use Microsoft Flow to automate processes across services
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Microsoft Flow lets you create automated processes between your favorite apps and services. From within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can run a Flow on one or more records. Also, you can open Microsoft Flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to view, edit, or create new flows.  
   

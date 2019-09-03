@@ -5,7 +5,6 @@ keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; C
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Manage security roles in service scheduling
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Security roles help to identify the privileges a user can exercise in the system. Security roles also define which entities a user can view or configure. For example, a user may have permission to see accounts but cannot see specific fields of an account.
 

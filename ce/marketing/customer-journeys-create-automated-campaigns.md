@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Use customer journeys to create automated campaigns
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -244,6 +241,10 @@ When you've finished designing your customer journey, do the following to verify
 3. Now you're ready to publish, so select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the marketing services, which also host your published marketing email messages and marketing pages.
 
 [!INCLUDE [cc-marketing-email-size](../includes/cc-marketing-email-size.md)]
+
+## Gain insights by monitoring journey progress and results
+
+As soon as your journey starts running, it will be begin to generate and collect information about where your contacts are in their journey and how they've interacted with its various elements such as emails, pages, and events. Dynamics 365 for Marketing provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### See also
 

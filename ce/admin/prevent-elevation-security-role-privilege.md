@@ -1,20 +1,19 @@
 ---
 title: "Create an administrative user and prevent elevation of security role privilege (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 ms.custom: 
-ms.date: 05/09/2018
+ms.date: 08/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement  (online)
-  - Dynamics 365 for Customer Engagement  Version 9.x
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 85bb4fd5-da15-4fd6-b297-2b772fb3a5c3
 caps.latest.revision: 5
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -23,7 +22,7 @@ search.app:
 ---
 # Create an administrative user and prevent elevation of security role privilege
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]<br/>[!INCLUDE [pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
+*This content also applies to the on-premises version.*
 
 The [copy security role method](copy-security-role.md) is a quick and easy way to create a new security role based on an existing set of privileges. However, security role privileges can change with product updates which could render the new security role out-of-date and might not function as expected. This is especially true in the case where you want to allow [a certain group of administrative users](create-users-assign-online-security-roles.md#create-an-administrative-user-account) to assign security roles to your users.  We recommend you not copy the System Administrator security role and assign it to users, since this would allow the users to elevate the assigned user to System Administrators.  In addition, newer privileges from product updates will not be automatically added to the copied System Administrator security role resulting in the role having insufficient privileges to continue to assign security roles.
 

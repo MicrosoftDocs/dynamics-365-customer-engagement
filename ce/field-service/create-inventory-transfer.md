@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: dbf20833-9c77-464e-be79-e80150e2121e
 caps.latest.revision: 14
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Change the warehouse location of inventory (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 An inventory transfer is when you change the warehouse location of product inventory.  
   

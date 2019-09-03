@@ -8,7 +8,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: jimholtz
 ms.assetid: 69ee9e50-13cc-428a-9b7c-e0f1c9dae159
 caps.latest.revision: 25
@@ -20,8 +19,6 @@ search.app:
   - D365CE
 ---
 # Review settings and import data
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Set whether the Import Data wizard checks for and handles duplicate data on import, decide who can edit or share the imported data, and save the settings you used for this import so you can use them again later.  
   

@@ -23,7 +23,7 @@ search.app:
 ---
 # Install the Social Selling Assistant
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 Set up the Social Selling Assistant  and onboard your users in just a few minutes. First, a [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] admin needs to install the Social Selling Assistant in Dynamics 365 for Customer Engagement apps and connect it with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Then, a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] admin refines the configuration in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to enable the best possible experience when users are working with the Social Selling Assistant.  
   
@@ -86,6 +86,5 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
  For instructions how to set up the connection, see: [Connect to Social Engagement](../admin/connect-microsoft-social-engagement.md), [Integrate Social Engagement with Dynamics 365 for Customer Engagement](https://go.microsoft.com/fwlink/?linkid=521682)  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement apps with integration and solutions](../admin/extend-with-integration-solutions.md)   
  [Connect to Microsoft Social Engagement](../admin/connect-microsoft-social-engagement.md)   
  [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md)

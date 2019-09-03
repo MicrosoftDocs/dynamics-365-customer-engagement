@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d5d2f123-2682-4d41-b6d8-14063fc19a1c
 caps.latest.revision: 27
 author: Mattp123
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Download a report
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 To edit a default report, you can download the report from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to a computer that is set up with the report development environment, and then make the necessary changes.  
   

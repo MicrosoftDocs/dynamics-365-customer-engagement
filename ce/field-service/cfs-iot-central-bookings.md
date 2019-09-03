@@ -10,8 +10,8 @@ ms.tgt_pltfrm:
 ms.topic: activate-fs-mobile-app-license
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: vihuang
+author: FieldServiceDave
 ms.reviewer: krbjoran
 search.audienceType: 
   - admin
@@ -23,8 +23,6 @@ search.app:
 --- 
 
 # 4 - Send booking updates to Azure IoT Central
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Now that you've configured Connected Field Service to send service updates back to IoT Central, let's make it so booking details are sent back too.
 

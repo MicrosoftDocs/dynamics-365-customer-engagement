@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_upgradeversion Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Information about upgrading from one release to the next release
 
 **Added by**: Solution Upgrade Infrastructure Solution

@@ -8,7 +8,6 @@ ms.technology:
   - field-service
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.author: shellyha
 ms.manager: shellyha
@@ -23,8 +22,6 @@ search.app:
 
 # Sample data installation for the Field Service application
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of Dynamics 365 for Field Service and Dynamics 365 for Customer Engagement for Project Service.
 
 The sample data is installable in three separate packages, so you can install data only for Field Service, or only for Project Service, or you can install sample data for both applications at once.
@@ -36,6 +33,8 @@ The sample data packages are:
 - [**V902PSMasterData** - Project Service version 3.x only](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
 
 - [**V902FPSMasterData** - Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
+
+- [**FPSAllDemoData** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage) (includes sample work orders)
 
 These sample data packages are available in English only.
 

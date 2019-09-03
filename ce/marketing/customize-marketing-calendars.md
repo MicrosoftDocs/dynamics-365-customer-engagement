@@ -2,14 +2,13 @@
 title: "Add and customize marketing calendars for any form or entity (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to add a marketing calendar to an entity or form and then customize its features in Dynamics 365 for Marketing"
 keywords: marketing execution;email;landing page;marketing page;customer journey
-ms.date: 12/06/2018
+ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c6759aea-6c77-4607-8fdd-ea1f0768892f
 author: kamaybac
 ms.author: kamaybac
@@ -25,8 +24,6 @@ search.app:
 ---
 
 # Create and customize marketing calendars
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The [marketing calendar](marketing-calendar.md) is supplied as a standard control that you can add to any entity or form. The following subsections explain how to customize the settings of any calendar, and how to add a calendar display to an entity or form.
 
@@ -155,6 +152,7 @@ After you have added a marketing calendar to an entity or form, you must configu
     - **End Date**: Select the field from the target entity where the end date is defined for each record.
     - **Name/Title**: Select the field that defines the record name for the target entity. This value will be shown on the calendar to identify the record.
     - **Description**: Select the field that describes the record name for the target entity. This value is shown for calendar items when in day or week view.
+    - **Color**: Select the field that holds a custom background-color value for the target entity (optional). If you don't assign a field here (or if the assigned field has no value for a given record), then the [default color](#entity-color) for the entity will be used. Some additional customizations are also required to enable this feature for any entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up record-level custom colors](#record-color)
     - **Parent entity**: Select a parent entity (optional). In the future, this will be used to group child items under parent items when they are displayed in the calendar, but in the current version this setting has no effect. This will eventually be useful, for example, for sessions, which have events as a parent entity.
     - **Entity 1 quick view form ID**: When users select an item in the calendar, it displays a quick-view form with information about the selected record that includes a button for opening the full record for editing. You can choose any form for this purpose—you might create a custom one, but many people simply use the existing quick-create form. If you don't provide a value here, then users who select this type of calendar item will go straight to the edit form. To set this, choose the **Configure property** button for this setting, then choose the **Bind to a static value** radio button and paste the ID in the field provided here. For details about how to find the ID for a quick-view form, see [Find the form ID for a quick-view form](#find-form-id).
 
@@ -210,9 +208,11 @@ When specifying the form, you must use the ID of the form you want to use. Here 
 
 1. Paste this value into the **Entity *&lt;n&gt;* quick-view form ID** setting described in [Configure the entities available to a calendar](#config-calendar).
 
-## Set the color used for each type of entity shown in the calendar
+<a name="entity-color"></a>
 
-Each item displayed on the calendar uses a color to indicate which type of item it is. By default, events are green, sessions are blue, and appointments are red. Entities with no color configured show as gray. To customize the color for any entity:
+## Set the default color used for each type of entity shown in the calendar
+
+Each item displayed on the calendar uses a background color to indicate which type of item it is. By default, events are green, sessions are blue, and appointments are red. Entities with no color configured show as gray. To customize the color for any entity:
 
 1. [Open a PowerApps customization window.](#open-cust-window) In the left panel, expand **Components** > **Entities** to see a list of all entities. Then select the entity you want to assign a color to.
 
@@ -221,3 +221,28 @@ Each item displayed on the calendar uses a color to indicate which type of item 
 1. Use the **Color** setting on the **General** tab to set a color for the entity.
 
 1. Save and publish your settings.
+
+<a name="record-color"></a>
+
+## Set up record-level custom colors
+
+In addition to the default entity color, you can also customize a calendar to enable users to select a custom color for each record as they add it. If no custom color is selected for a new record then the [default color](#entity-color) for the entity will be used.
+
+![A calendar with several custom-colored events](media/calendar-custom-colors.png "A calendar with several custom-colored events")
+
+To set up record-level custom colors:
+
+1. [Add a custom field](../customize/create-edit-fields.md) to the entity where you want to enable for record-level custom colors. This is the target entity (such as Event) to be displayed by the calender you are customizing. This field will hold the custom color value assigned to each record, so give it name such as "Calendar color". The field must be of type **Single line of text**.
+
+1. [Customize the quick-create form of the target entity](../customize/create-design-forms.md) to include the new color field. This will enable users to choose a color while they create a record from the calendar. Be sure to use the same quick-create form that you have [configured for use with your calendar](#config-calendar). You might also consider adding the color field to other forms where users may want to view or edit it (possibly including the main form).
+
+1. [Configure your calendar](#config-calendar) to identify the color field for the target entity.
+
+1. Publish your customizations.
+
+Users can choose any of the available HTML standards when entering color values, including:
+
+- Color name (such as `red`)
+- Hex value (must start with #) (such as `#FF0000`)
+- Short hex value (for colors that support it) (such as `#F00`)
+- RGB value (such as `rgb(255,0,0)`)

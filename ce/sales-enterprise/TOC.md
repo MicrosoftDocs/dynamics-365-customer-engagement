@@ -1,5 +1,6 @@
 # [Dynamics 365 for Sales Help and Training](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
+## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## [What's new](../sales-enterprise/whats-new.md)
 ## Administrator & Sales Manager Guide
 ### [Resources for administrators and sales managers](../sales-enterprise/admin-guide.md)
@@ -7,12 +8,19 @@
 #### [Set up sales territories](../admin/set-up-sales-territories-organize-business-markets-geographical-area.md)
 #### [Define Sales settings](../admin/system-settings-dialog-box-sales-tab.md)
 #### [Enable PDF generation from quotes](enable-pdf-generation-quote.md)
+#### [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
+#### [Customize the Opportunity Close form](customize-opportunity-close-experience.md)
+#### [Define lead qualification experience](define-lead-qualification-experience.md)
+#### [Make price list optional](make-price-list-optional.md)
+#### [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md)
+#### [Customize the business card scanner control](customize-business-card-scan-control.md)
 
 ### Product management
 #### [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 #### [Create a product](../sales-enterprise/create-product-sales.md)
 #### [Create a product family](../sales-enterprise/create-product-family.md) 
 #### [Create product bundles](../sales-enterprise/create-product-bundles-sell-multiple-items-together.md)
+#### [Change parent of a product](change-product-parent.md)
 #### [Publish a product or bundle](../sales-enterprise/publish-product-bundle-make-available-selling.md)
 #### [Create price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)
 #### [Create unit group](../sales-enterprise/create-unit-group-add-units-that-group.md)
@@ -26,7 +34,7 @@
 #### [Delete family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [See relationships in a hierarchical view](../basics/hierarchical-relationship.md)
 #### [Add editable products grid on forms](../sales-enterprise/editable-product-grid-forms.md) 
-### Goal management
+### Forecast and Goal management
 #### [Goal settings](../admin/system-settings-dialog-box-goals-tab.md)
 #### [Create a goal](../sales-enterprise/create-edit-goal-sales.md)
 #### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
@@ -45,6 +53,9 @@
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)
+### Manage customers
+#### [Manage accounts and contacts](../basics/accounts-contacts.md)
+#### [Scan business cards](scan-business-cards.md)
 ### Lead and opportunity management
 #### [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
 #### [Manage your leads](../sales-enterprise/create-edit-lead-sales.md)
@@ -126,4 +137,4 @@
 
 ### [Privacy notice](../sales-enterprise/privacy-notice-ee.md)
 
-# [Dynamics 365 AI for Sales](../sales-enterprise/dynamics365-ai-sales.md)
+# [Dynamics 365 Sales Insights](../sales-enterprise/dynamics365-ai-sales.md)

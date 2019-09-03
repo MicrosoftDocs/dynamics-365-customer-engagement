@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a8fe7492-44d8-4715-9815-19e1e01aafb5
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Create a landing page with a form
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A *landing page* is a webpage that functions as a customer touchpoint for one of your marketing initiatives. For example, you might send out an email message that invites recipients to sign up for a free white paper download. To get the download, message recipients must select a link that opens a webpage with a form where they enter information (which is saved directly in your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database), and then they receive an email with the download link. The same landing page can also be made available to unknown visitors of your website, who will add themselves as new contacts in your database when they request the download.
 
@@ -66,7 +63,7 @@ To create a landing page and go live:
 
 6. On the command bar, select **Check for Errors**, and then fix any problems that are reported just as you did with the email message and customer journey.
 
-7. On the command bar, select **Save** to save your form. Forms are always live, so you don't need to select **Go Live**.
+7. On the command bar, select **Save** to save your form and then select **Go Live** to make your form available for use on a marketing page.
 
 8. Now you're ready to use your new form on a landing page. Go to **Marketing** > **Internet Marketing** > **Marketing Pages**, and then select **New** on the command bar. The **New Marketing Page** page opens with the **Select a Template** dialog box shown.  
     ![Select a page template dialog](media/page-template-dialog.png "Select a Template dialog box")

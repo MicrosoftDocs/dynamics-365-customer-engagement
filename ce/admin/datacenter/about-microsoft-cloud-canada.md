@@ -14,6 +14,7 @@ ms.assetid: f54d7392-fae3-4a72-8f2a-ad3b932834dc
 caps.latest.revision: 8
 author: jimholtz
 ms.author: jimholtz
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -21,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # About the Microsoft Cloud Canada datacenter
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 <a name="BKMK_NewCloud"></a>   
 ## New Microsoft Cloud Services in Canada  

@@ -1,35 +1,29 @@
 ---
-title: User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand Customer Service app in Microsoft Dynamics 365 for Customer Engagement
-keywords: Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases
+title: "User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs"
+description: "Resources for the legacy Customer Service app."
+keywords: "Customer Service;  Microsoft Dynamics 365 for Customer Engagement; Create and manage a case in Customer Service; Add an activity to a case in Customer Service; Find what's assigned to you in a queue ; Merge similar cases; Create and manage parent and child cases"
+ms.date: 07/31/2019
+ms.service:
+  - "dynamics-365-customerservice"
+ms.custom:
+  - "dyn365-customerservice"
+ms.topic: get-started-article
+applies_to:
+  - "Dynamics 365 for Customer Engagement (online)"
+ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
 author: anjgupta
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
-ms.date: 09/30/2017
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
-ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
-ms.custom: dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365CS
 ---
 
 # Introduction to Customer Service app
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Service unifies the way people experience your business, making information available across engagements so your agents offer the consistency and personalization your customers expect.  
 
 This User's Guide shows customer service agents how to use the application. 
   
 > [!IMPORTANT]
-> This User Guide covers the Customer Service app that you can use with a desktop browser for case management. If you want to manage knowledge articles or do case management on a mobile device, use the new Customer Service Hub app, which is built on the Unified Interface framework. To learn about the  Customer Service Hub app, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 for Customer Engagement basics, [see the Basics Guide](../basics/basics-guide.md).
+> This User Guide covers instructions for the the Customer Service app (legacy web client). To learn about the  Customer Service Hub app built on the Unified Interface framework, see [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md). For information on Dynamics 365 for Customer Engagement basics, [see the Basics Guide](../basics/basics-guide.md).
  
  
 ## Create and manage a case

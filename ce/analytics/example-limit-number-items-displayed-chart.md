@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 9e629985-b12b-479b-88a3-4eba254caac2
 caps.latest.revision: 10
 author: Mattp123
@@ -23,9 +22,7 @@ search.app:
   - D365CE
 ---
 # Example: Limit the number of items displayed in a chart
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
-
+*This content also applies to the on-premises version.*
 Chart reports are limited to 15 data points. The dataset must limit the result set to the top 15 rows for the charted value. Additionally, a 16th "other" data point value is optional. This value represents an aggregation of all other rows in the domain. The 16th value is always sorted to the bottom of the result set. This adds a level of complexity to reports that contain drill-through functionality that is appropriate for some reports.  
   
 > [!NOTE]

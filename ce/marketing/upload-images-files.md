@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 162d17d7-bdd4-4a44-b84f-8ab94e7267f3
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 
 # Upload and use images and files in online content
 
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which also hosts the images and delivers them when contacts open an email or marketing page.
 
 > [!NOTE]
@@ -40,6 +37,9 @@ Images are an important part of most marketing-page and marketing-email designs.
 > - PNG
 > 
 > You will see an error message if you attempt to upload a file of an unsupported type.
+
+> [!NOTE]
+> The maximum file size for uploaded images is 5 MB.
 
 ## Upload files to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 

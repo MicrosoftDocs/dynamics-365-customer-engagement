@@ -14,10 +14,10 @@ applies_to:
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
-author: mduelae
 ms.assetid: 6828238b-1644-4710-a192-0014acb03196
-caps.latest.revision: 01
+caps.latest.revision: 1
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -29,8 +29,6 @@ search.app:
 ---
 
 # Signing in and signing out (for iOS users)
-
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Sign in to the Dynamics 365 mobile app quickly using your work email address or Customer Engagement app web address. 
 

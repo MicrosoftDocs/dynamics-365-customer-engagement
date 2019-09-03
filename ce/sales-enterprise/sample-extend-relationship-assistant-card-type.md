@@ -1,23 +1,22 @@
 ---
-title: " Download custom card sample for Dynamics 365 for Customer Engagement AI for Sales | MicrosoftDocs"
+title: "Download custom card sample for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to download and what resources are present to create a custom actions or learn about extending the relationship assistant action card."
 keywords: sales insights addon, insights addon, relationship analytics, predictive lead scoring, lead scoring
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22 
+applies_to: Dynamics 365 for Customer Engagement (online)
+ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 ---
 
 # Sample: Extend Relationship assistant card type (custom card)
-
-Applies to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online), version 9.1.0
 
 ## Create custom action card
 The following process explains how to create a custom card:

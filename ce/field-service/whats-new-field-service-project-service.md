@@ -13,8 +13,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-  - Dynamics 365 for Customer Engagement Version 8.x
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
 author: krbjoran
@@ -31,7 +29,7 @@ search.app:
 
 # What's new in Universal Resource Scheduling (URS)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]<br/>Applies to Field Service application (version 7.2.0.43)<br/>Applies to Project Service Automation application (version 2.2.0.74)<br/>Applies to Universal Resource Scheduling solution (version 2.2.0.49)
+Applies to Project Service Automation application (version 2.2.0.74)
 
 The team is excited to announce the newest updates released in December 2017. Ranging from improvements to screen layout, all the way to more powerful search queries for resource scheduling, and more. You asked; we listened.
 

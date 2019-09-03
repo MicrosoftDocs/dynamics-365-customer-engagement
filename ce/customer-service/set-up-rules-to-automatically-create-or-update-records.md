@@ -5,7 +5,6 @@ keywords: Set up rules automatically; Dynamics 365 for Customer Engagement; Cust
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 06/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Set up rules to automatically create or update records
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
 Every organization has multiple applications to capture customer interactions. The ability to channel external data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] records can significantly improve the efficiency of your sales, marketing, and service teams, and increase the quality of your data. You can now direct this data from various applications and external sources into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with the help of *record creation and update rules*.  
@@ -344,6 +341,17 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
 |                                A rule with no rule items                                 |                                              -   The rule is upgraded.<br />-   A new rule item is created with blank conditions. A new Create Record step (with Case selected) is added with out-of-the-box property mapping. The rule items are applied in an order and the newly-created rule item is considered last in the order.                                               |
 |  An active case creation rule for social or email source types, with a queue specified   |                                                                                                                                                                 All such rules will be upgraded in an active state.                                                                                                                                                                  |
 | An active case creation rule for social or email source types, without a queue specified |                                                                                  All such rules will be upgraded and deactivated. This is because even in [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)], a case creation rule without a queue did not apply and create any record.                                                                                   |
+
+## Recommendation to upgrade solution
+
+Perform the following steps before you upgrade a solution:
+
+1.	Deactivate the Record Creation and Update Rules which are brought through the previous version of the solution. The state of Record Creation and Update Rules changes to draft.
+
+2.	Upgrade your solution as required. 
+
+3.	After the successful upgrade of the solution, activate the Record Creation and Update Rules as required.
+
 
 ### See also  
  [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>

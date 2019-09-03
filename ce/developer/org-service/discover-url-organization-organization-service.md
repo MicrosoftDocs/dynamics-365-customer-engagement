@@ -1,7 +1,7 @@
 ---
 title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "For a multi-tenant environment like Dynamics 365 for Customer Engagement, you can use Discovery Service to determine the organizations that a user is member of"
-ms.custom: 
+ms.custom: on-premise
 ms.date: 11/14/2017
 ms.reviewer: "pehecke"
 ms.service: crm-online
@@ -22,8 +22,6 @@ search.app:
 ---
 
 # Discover the URL for your organization using the Discovery Service 
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the discovery service to determine the organizations that a user is a member of, and the endpoint address URL to access the organization service for each of those organizations. This discovery service is necessary because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps is a multi-tenant environment—a single [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps server can host multiple business organizations. By using the discovery service, your application can determine the endpoint address URL to access the target organization’s business data.  
   

@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_expensecategory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Main container that holds expense category information.
 
 **Added by**: Project Service Automation Solution

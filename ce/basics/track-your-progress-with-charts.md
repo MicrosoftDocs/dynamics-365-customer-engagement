@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: mduelae
 ms.assetid: 5828238b-1745-4710-a292-0014acd03198
 caps.latest.revision: 1
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Track your progress with charts
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Charts on the Unified Interface framework, give you a quick view of how you’re tracking to your goals. They’re interactive, so you can tap an area of a chart to get more info.
 

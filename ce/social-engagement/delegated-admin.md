@@ -2,7 +2,7 @@
 title: "Enable delegated administration for Social Engagement | Microsoft Docs"
 description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
 keywords: administrator, delegated admin, partner admin
-ms.date: 01/22/2019
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -22,6 +22,9 @@ search.app:
 ---
 
 # Enable a partner as a delegated admin
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] puts powerful social tools in the hands of your sales, marketing, and service teams—helping them to gain insight into how people feel about your business and to proactively connect on social media with customers, fans, and critics.  
   
 ## For system admins  

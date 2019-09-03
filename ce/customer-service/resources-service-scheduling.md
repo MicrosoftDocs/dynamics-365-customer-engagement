@@ -5,7 +5,6 @@ keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; C
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Create and set up bookable resources
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
 

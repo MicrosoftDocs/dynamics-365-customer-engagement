@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 531e9570-9d0b-4239-acef-a2237440d903
 caps.latest.revision: 14
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up purchase order sub-statuses to track purchase order status more precisely (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Purchase orders can be created to track items that need to be ordered from your suppliers. A purchase order record has system status values of Draft, Submitted, Canceled, Products Received, and Billed. Optionally, you can create one or more sub-status values for each of the system status values to help track the purchase order status more precisely, according to your business practices.  
   

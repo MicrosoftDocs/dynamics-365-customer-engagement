@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1f9aff52-59b9-4be0-a5fe-c797d3f98155
 caps.latest.revision: 11
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Create a signature for your email or for a queue
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement to save time and be consistent in your responses. The owner of an email signature can be a user or a team.  
   

@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 for Customer Engagement apps and assign security roles | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/13/2019
+ms.date: 08/07/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Create users in Dynamics 365 for Customer Engagement apps and assign security roles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to Customer Engagement apps. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps . [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 for Customer Engagement apps (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
@@ -112,7 +112,10 @@ The following are Office 365 user contact fields.
   
 > [!IMPORTANT]
 >  You must assign at least one security role to every Customer Engagement apps user. The service does not allow access to users who do not have at least one security role. Even if a user is a member of a team with its own security privileges, the user won’t be able to see some data and may experience other problems when trying to use the system.  
-  
+
+> [!NOTE]
+> By default, a security role can only be assigned to users with an Enabled status. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+
  In Customer Engagement apps:  
   
 1.  Select **Settings** > **Security** > **Users**.  
@@ -143,9 +146,12 @@ The following are Office 365 user contact fields.
  To disable a user, remove a license from the user or remove the user from the security group that is associated with an instance of Customer Engagement apps. Removing a user from the security group doesn’t remove the user’s license. If you want to make the license available to another user, you have to remove the license from the disabled user.  
   
 > [!NOTE]
->  Removing all security roles from the user prevents the user from signing into and accessing Customer Engagement apps. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in Customer Engagement apps. Removing security roles from a user isn’t a recommended method of removing access to Customer Engagement apps.  
+> Removing all security roles from the user prevents the user from signing into and accessing Customer Engagement apps. However, it doesn’t remove the license from the user and the user remains in the list of the enabled users in Customer Engagement apps. Removing security roles from a user isn’t a recommended method of removing access to Customer Engagement apps.  
 >
 > When using a security group to manage enabling or disabling users or provisioning access to a Dynamics 365 org, nested security groups within a selected security group are not supported and ignored.
+>
+> You can [assign records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/assign-record-user-team) to a disabled user and also [share reports](https://docs.microsoft.com/dynamics365/customer-engagement/basics/share-report-users-teams) and accounts with them. This can be useful when migrating on-premises versions to online. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
+
   
  You must be a member of an appropriate administrator role to do these tasks. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assigning Admin Roles](http://go.microsoft.com/fwlink/p/?LinkId=255444)  
   
@@ -192,9 +198,8 @@ The following are Office 365 user contact fields.
 > [!NOTE]
 > You can also delete users in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)]. When you remove a user from your subscription, the license assigned to that user automatically becomes available to be assigned to a different user. If you want the user to still have access to other applications you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete them as a user. Instead, simply remove the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps license you've assigned to them.  
 > 
-> [!NOTE]
 > When you sign out of the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], you aren’t signing out of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You have to do that separately.  
-> 
+
 > [!TIP]
 > To force an immediate synchronization between the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] and Customer Engagement apps, do the following:  
 > 
@@ -226,28 +231,39 @@ You need to have the System Administrator security role or equivalent permission
   
     Be sure to assign a Customer Engagement apps license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** access mode.
   
-2. Go to Customer Engagement apps.  
+2. In the Optional settings form, expand on the Roles.
+
+3. Uncheck the User (no administrator access) box.
+
+4. Scroll down the form and click on Show all link.
+
+5. Check the Dynamics 365 service administrator box.
+   **Note:** if you have selected Global Administrator box, you don't need select this option.
   
-3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
+   Wait for user to sync to the environments.
+
+6. Go to Customer Engagement apps.  
   
-4. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+7. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
-5. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Administrative**.  
+8. Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+  
+9. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section. In the **Access Mode** list, select **Administrative**.  
 
     You then need to remove the Customer Engagement apps license from the account.  
   
-6. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+10. Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-7. Click **Users** > **Active Users**.  
+11. Click **Users** > **Active Users**.  
   
-8. Choose the Administrative user account and under **Product licenses**, click **Edit**.  
+12. Choose the Administrative user account and click the **Licenses and Apps** tab.  
   
-9. Turn off the Customer Engagement apps license,  and then click **Save** > **Close** multiple times.
+13. Uncheck the Customer Engagement apps license box(es),  and then click **Save changes**.
 
 <a name="BKMK_noninteractiveuser"></a>   
 
 ## Create a non-interactive user account  
- The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to five non-interactive user accounts.  
+ The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 for Customer Engagement apps between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 for Customer Engagement apps to ERP connector, authenticate and access Dynamics 365 for Customer Engagement apps (online), without requiring a Dynamics 365 for Customer Engagement apps (online) license. For each instance of Dynamics 365 for Customer Engagement apps (online), you can create up to seven non-interactive user accounts.  
   
  You need to have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement apps to create a non-interactive user. First, you’ll create a user account in Office 365 and then in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, select the non-interactive access mode for the account.  
   
@@ -269,9 +285,9 @@ You need to have the System Administrator security role or equivalent permission
   
 7. Click **Users** > **Active Users**.  
   
-8. Choose the non-interactive user account and under **Product licenses**, click **Edit**.  
+8. Choose the non-interactive user account and under **Licenses and Apps** tab.  
   
-9. Turn off the Customer Engagement apps license,  and then click **Save** > **Close** multiple times.  
+9. Uncheck the Customer Engagement apps license box(es),  and then click **Save changes**.  
   
 10. Go back to Customer Engagement apps and confirm that the non-interactive user account **Access Mode** is still set for **Non-interactive**.  
   
@@ -280,7 +296,7 @@ You need to have the System Administrator security role or equivalent permission
 ## Create an application user  
  Introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can use server-to-server (S2S) authentication to securely and seamlessly communicate with [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] with your web applications and services. S2S authentication is the common way that apps registered on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] use to access the [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] data of their subscribers. All operations performed by your application or service using S2S will be performed as the application user you provide rather than as the user who is accessing your application.  
 
-All application users are created with a non-interactive user account, however they are not counted towards the five non-interactive user accounts limit. In addition, there is no limit on how many application users you can create in an instance.
+All application users are created with a non-interactive user account, however they are not counted towards the seven non-interactive user accounts limit. In addition, there is no limit on how many application users you can create in an instance.
   
 ![Application user](../admin/media/application-user.png "Application user")  
 
@@ -288,6 +304,10 @@ All application users are created with a non-interactive user account, however t
 A stub user is a user record that has been created as a placeholder. For example, records have been imported that refer to this user but the user does not exist in Dynamics 365 for Customer Engagement apps (online). This user cannot log in, cannot be enabled, and cannot be synchronized to Office 365. This type of user can only be created through data import. 
 
 A default security role is automatically assigned to these imported users. The **Salesperson** security role is assigned in a Dynamics 365 for Customer Engagement instance and the **Common Data Service User** security role is assigned in a PowerApps environment.
+
+> [!NOTE]
+> By default, a security role can only be assigned to users with an Enabled status. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm). 
+
 
 ## Manage users in Microsoft Dynamics 365 (on-premises)
 
@@ -383,6 +403,9 @@ After you create users, you must assign security roles for them to use Microsoft
 5.  In the **Confirm User Activation** message, select **Activate**.
 
 ## Disable a user
+
+> [!NOTE]
+> You can [assign records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/assign-record-user-team) to a disabled user and also [share reports](https://docs.microsoft.com/dynamics365/customer-engagement/basics/share-report-users-teams) and accounts with them. This can be useful when migrating on-premises versions to online. If you need to assign a security role to users who have a Disabled status, you can do so by enabling the allowRoleAssignmentOnDisabledUsers [OrgDBOrgSettings](https://support.microsoft.com/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm).
 
 1.  Go to **Settings** > **Security**.
 

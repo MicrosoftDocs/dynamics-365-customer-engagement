@@ -2,7 +2,7 @@
 title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
 ms.custom: 
-ms.date: 01/10/2018
+ms.date: 06/24/2019
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,6 @@ search.app:
   - D365CE
 ---
 # Use JavaScript with Customer Engagement apps
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] provide many opportunities to use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. All [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is added by creating [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resources. This topic has information for developers who use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and includes links to relevant topics in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] and other sources.  
   
@@ -56,6 +54,10 @@ search.app:
  We recommend that you use jQuery together with HTML web resources to provide user interfaces because it is an excellent cross-browser library.  
   
  With HTML web resources, you control the libraries that are present and there is no restriction against manipulating the DOM. Feel free to use jQuery within your HTML Web resources.  
+ 
+ > [!NOTE]
+ > If the script reference to [ClientGlobalContext.js.aspx](/dynamics365/customer-engagement/developer/clientapi/reference/getglobalcontext-clientglobalcontext.js.aspx
+) is placed after your own jQuery reference, the ClientGlobalContext.js.aspx scripts will overwrite your previously loaded version of jQuery. To avoid this, place the ClientGlobalContext.js.aspx script reference prior to any other script references in your web resource.
   
  
   
@@ -65,7 +67,7 @@ search.app:
 
  Because you don’t know what browser will be in use, you should make sure that any scripts that you use will work with all supported browsers. Most of the significant differences between [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and other browser have to do with HTML and XML DOM manipulation. Because HTML DOM manipulation is not supported, if script logic is only performing supported actions and using the [Client API](clientapi/understand-clientapi-object-model.md), the changes required to support other browsers could be small.  
   
- A cross-browser library like jQuery is a good solution for developing web resources but should not be necessary for form scripts or ribbon commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid using jQuery for form scripts](clientapi/client-scripting-best-practices.md#avoid-using-jquery-for-form-scripts)   
+ A cross-browser library like jQuery is a good solution for developing web resources but should not be necessary for form scripts or ribbon commands. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Avoid using jQuery for form scripts](/powerapps/developer/model-driven-apps/clientapi/client-scripting-best-practices#avoid-using-jquery-for-form-scripts)   
  
   
 <a name="BKMK_JavaScriptBestPractices"></a>  

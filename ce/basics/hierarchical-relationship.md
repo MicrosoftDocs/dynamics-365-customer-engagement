@@ -8,7 +8,6 @@ ms.service:
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 972864a7-dc1d-d91c-4003-6056bf312840
 author: shubhadaj
 ms.author: shujoshi
@@ -20,8 +19,6 @@ caps.latest.revision: 9
 ---
 
 # See relationships in a hierarchical view
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 You can see how info is related or grouped by viewing accounts, products, or users in hierarchical charts. You can click a tile in the chart to get the full details and then navigate to the info you’re interested in.  
    

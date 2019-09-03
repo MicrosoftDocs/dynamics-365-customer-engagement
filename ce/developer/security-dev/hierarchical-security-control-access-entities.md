@@ -22,8 +22,6 @@ search.app:
 ---
 # How hierarchical security can be used to control access to entities
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Hierarchy security offers a more granular access to records for an organization and helps to bring the maintenance costs down. For example, in complex scenarios, you can start with creating several business units and then add the hierarchy security. This will achieve a more granular access to data with far less maintenance costs that a large number of business units may require. The hierarchy security model is an extension to the earlier security models that use business units, security roles, sharing, and teams. It can be used in conjunction with all other existing security models.  
   
  Previously, implementing this kind of security often required developers to mimic this behavior using custom plug-ins. Now, with the hierarchy security model, that type of security is built into the  product. This removes the need to create and update custom plug-ins.  

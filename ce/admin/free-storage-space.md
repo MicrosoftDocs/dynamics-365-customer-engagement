@@ -1,7 +1,7 @@
 ---
 title: "Free storage space in Dynamics 365 for Customer Engagement apps |  MicrosoftDocs"
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 06/26/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Free storage space
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+*This content also applies to the on-premises version.*
 
 These are ways to reduce the amount of storage space used by removing or deleting different types of information from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Use one or more of these methods to control your total data storage usage with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
   
@@ -168,10 +168,12 @@ These are ways to reduce the amount of storage space used by removing or deletin
 12. Choose **Next**, review the bulk deletion job, and then choose **Submit** to create the recurring job.  
   
 <a name="BKMK_Method5"></a>   
+
 ## Method 5: Remove notes with attachments using Advanced Find  
   
 > [!WARNING]
->  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+> - If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+> - If you are using Customer Engagement portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](../portals/portal-faq.md#large-number-of-web-file-records) for data size maintenance information.
   
 1. Choose **Advanced Find**.  
   
@@ -188,10 +190,12 @@ These are ways to reduce the amount of storage space used by removing or deletin
 6. Select individual or a multiple attachments, and then choose **Delete** (X).  
   
 <a name="BKMK_Method6"></a>   
+
 ## Method 6: Remove notes with attachments using a bulk deletion job  
   
 > [!WARNING]
->  If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+> - If you delete this data, notes and their associated attachments will no longer be available in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+> - If you are using Customer Engagement portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](../portals/portal-faq.md#large-number-of-web-file-records) for data size maintenance information.
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   

@@ -1,15 +1,13 @@
 ---
 title: "Customizing App for Outlook  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/15/2019
+ms.date: 06/19/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
 author: mduelae
@@ -31,8 +29,13 @@ Customize the Dynamics 365 App for Outlook to best suit your organization needs.
  - [Customize which entities appear in Quick create ](add-a-custom-entity-to-quick-create.md)
  - [Customize the Regarding lookup to add or remove entities](enable-a-custom-entity-to-appear-in-the-regarding-lookup.md)
  - [Expand the fields search on in Regarding lookup](search-on-custom-field-regarding-lookup.md)
+ - [Ensure emails and appointments are tracked with a Regarding record in Dynamics 365 App for Outlook](email-and-appointments-tracked-in-outlookapp.md)
  - [Filter entities and views that appear in Dynamics 365 App for Outlook](filter-entities-and-views.md)
  - [Limitations when customizing the app ](limitations-when-customizing-app-for-outlook.md)
+ 
+ 
+> [!IMPORTANT]
+> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later and [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro). 
  
  ## FAQs
  

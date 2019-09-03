@@ -22,8 +22,6 @@ search.app:
 ---
 # Sample charts
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic contains sample charts along with the respective data description and presentation XML strings. You can specify the:  
   
 -   *Data description XML string* for a chart using the `SavedQueryVisualization.DataDescription` or `UserQueryVisualization.DataDescription` attribute for the organization-owned or user-owned chart respectively.  

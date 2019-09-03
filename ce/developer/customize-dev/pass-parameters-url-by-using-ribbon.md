@@ -24,8 +24,6 @@ search.app:
 ---
 # Pass parameters to a URL by using the ribbon
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Ribbon actions are defined in the `<Actions>` element of a `<CommandDefinition>` element. There are several ways to pass contextual [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement information as query string parameters to a URL by using the ribbon.  
   
 -   Use a `<Url>` element. Within the `Url` element, use the **PassParams** attribute.  

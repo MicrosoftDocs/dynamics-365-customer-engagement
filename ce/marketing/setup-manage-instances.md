@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4f2823b8-c8ff-49ed-91bc-451fc4c902e5
 author: kamaybac
 ms.author: kamaybac
@@ -26,7 +25,5 @@ search.app:
 ---
 
 # Set up and manage Marketing instances
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Topics in this section describe how to set up marketing for the first time, and how to update, backup, recall, copy, and uninstall marketing instances.

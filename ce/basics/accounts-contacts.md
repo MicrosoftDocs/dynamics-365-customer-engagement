@@ -5,8 +5,8 @@ ms.service: crm-online
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
+author: mduelae
 ms.author: shujoshi
 search.audienceType: 
   - enduser
@@ -14,8 +14,6 @@ search.app:
   - D365CE
 ---
 # Work with accounts and contacts in Customer Engagement apps
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Account and contact records store much of the information that you and your team collect from your customers.
 You store data about companies you do business with in accounts. Similar to Microsoft Office Outlook or other email programs, you store data about the people you know and work with in contacts.

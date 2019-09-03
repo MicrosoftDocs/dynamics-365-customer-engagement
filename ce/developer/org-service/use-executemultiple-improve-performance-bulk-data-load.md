@@ -1,7 +1,7 @@
 ---
 title: "Use ExecuteMultiple to improve performance for bulk data load (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "ExecuteMultipleRequest message supports higher throughput bulk message passing scenarios in Dynamics 365 for Customer Engagement (online) Customer Engagement, particularly in the case of Dynamics 365 for Customer Engagement (online) where Internet latency can be the largest limiting factor"
-ms.custom: 
+ms.custom: on-premise
 ms.date: 09/18/2018
 ms.reviewer: "pehecke"
 ms.service: crm-online
@@ -20,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Use ExecuteMultiple to improve performance for bulk data load
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 You can use the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> message to support higher throughput bulk message passing scenarios in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] , particularly in the case of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] apps where Internet latency can be the largest limiting factor. <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> accepts an input collection of message <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest.Requests>, executes each of the message requests in the order they appear in the input collection, and optionally returns a collection of <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleResponse.Responses> containing each message’s response or the error that occurred. Each message request in the input collection is processed in a separate database transaction. <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> is executed by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  
   

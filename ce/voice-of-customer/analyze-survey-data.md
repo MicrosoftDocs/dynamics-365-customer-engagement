@@ -2,12 +2,11 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: analyze survey responses; survey dashboard
-ms.date: 01/23/2019
+ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8abc2d0c-8472-46ff-83bc-febec0ce802d
 author: sbmjais
 ms.author: shjais
@@ -19,6 +18,9 @@ ms.custom:
 ---
 
 # Analyze survey data
+
+> [!IMPORTANT]
+> Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
 Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and you can analyze them by using features such as:
 

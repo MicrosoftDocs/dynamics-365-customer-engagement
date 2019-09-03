@@ -16,8 +16,6 @@ search.app:
 ---
 # Territory Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Territory represents sales regions.
 
 **Added by**: Application Common Solution

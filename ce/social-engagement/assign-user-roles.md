@@ -3,14 +3,14 @@ title: "Permissions and user roles in Social Engagement | Microsoft Docs"
 description: "Learn how to work with user roles and their permissions."
 ms.custom: 
   - dyn365-socialengagement
-ms.date: 06/13/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: Social Engagement
 ms.assetid: 05b070fd-7b33-440d-bf6d-e527639ede8c
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -19,7 +19,11 @@ search.app:
   - D365CE
   - D365SE
 ---
+
 # Assign permissions and user roles
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 > [!NOTE]

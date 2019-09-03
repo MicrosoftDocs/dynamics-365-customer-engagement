@@ -1,7 +1,7 @@
 ---
 title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "The topic contains information about the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
-ms.custom: 
+ms.custom: on-premise
 ms.date: 2/5/2019
 ms.reviewer: 
 ms.service: crm-online
@@ -21,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Supported messages and entities for plug-ins
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 This topic identifies the message and entity combinations that support offline execution of plug-ins for [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. For information on server registered plug-ins that do not require offline execution, see [Available events](/powerapps/developer/common-data-service/event-framework#available-events).
   

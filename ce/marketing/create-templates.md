@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d349381b-9165-4013-b3da-9b1323fdaede
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Create templates for emails, pages, forms, and journeys
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 As you've seen, each time you create a new email message, customer journey, marketing page, or marketing form, you start by choosing a template. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes sample templates to get you started, but you'll probably want to build your own to match your own organization's requirements and graphical identity.
 
@@ -51,5 +48,5 @@ Here are some notes and best practices for working with templates:
 
 [Work with email, page, and form templates](email-templates.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)

@@ -3,14 +3,10 @@ title: "Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sal
 description: "Follow the steps in this topic to upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise."
 keywords: Dynamics 365 for Sales, Professional, Enterprise, Upgrade
 ms.date: 06/22/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: b56f50ee-c4aa-447b-9912-a7031a0075ff
 author: shubhadaj
 ms.author: shujoshi
@@ -18,7 +14,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Drafting
 ---
 
 # Move from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise

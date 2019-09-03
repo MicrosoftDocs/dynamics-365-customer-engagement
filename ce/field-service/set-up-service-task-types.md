@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 73ac0ad2-b22d-41fa-8871-2feb5beb4953
 caps.latest.revision: 13
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Set up service task types (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Service task types in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] are used to define the "types" of service tasks that you will include in your incident types and work orders, and are performed by the field agent at the service location. Service tasks can be assigned a duration that rolls up to the work order duration.  
   

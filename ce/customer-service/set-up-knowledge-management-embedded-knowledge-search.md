@@ -5,7 +5,6 @@ keywords: Set up knowledge management; Dynamics 365 for Customer Engagement; Cus
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Use embedded knowledge search to set up knowledge management
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 A comprehensive knowledge base is a key to increased customer satisfaction and improved productivity of users. Give users quick access to the knowledge base by setting up knowledge management in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
@@ -95,7 +92,18 @@ After knowledge management is set up, users will be able to:
 7. Select **Next**.  
   
 8. If you’ve specified the details correctly, the page shows the connection details for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select **Finish** to complete the setup.  
+
+
+## Enable feedback control
+
+This option allows users to provide feedback on knowledge articles opened from knowledge search control. 
+
+1. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Embedded Knowledge Search**. 
+
+2. In the Knowledge Article Feedback section, set **Enable users to provide feedback on knowledge articles from search control** to **Yes**.
+
+To learn on how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
   
 ### See also  
+
  [Add the Knowledge Base Search control to a Dynamics 365 for Customer Engagement form](../customer-service/add-knowledge-base-search-control-forms.md)   
- 

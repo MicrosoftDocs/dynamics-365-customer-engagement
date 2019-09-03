@@ -5,7 +5,6 @@ keywords: Schedule a service activity; Dynamics 365 for Customer Engagement; Cus
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shujoshi
 ms.date: 11/20/2018
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Schedule a service activity
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 
 Use service activity to schedule service appointments by finding the next time resources are available for a service. With the help of service activity, you can coordinate and schedule resources for a service required by your customers.

@@ -2,7 +2,7 @@
 title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: administration; webinar; webinar provider
-ms.date: 03/15/2019
+ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 04813c0e-cbfd-45da-a316-76d23aae759e
 author: kamaybac
 ms.author: kamaybac
@@ -27,8 +26,6 @@ search.app:
 ---
 
 # Event management settings
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The **Event management** settings let you set up the connections to your webinar provider accounts and set up a few defaults for event administration. 
 
@@ -105,10 +102,16 @@ To set your event-administration options:
     - **Send mail to event attendee**: Set to **Yes** if you'd like the system to send an automatic email to each new contact that is registered for an event. This includes both self-registering contacts (if allowed) and contacts registered by another purchaser.
     - **Event template for event attendee**: Choose the (hard-coded) email template to send to each registrant when **Send mail to event attendee** is enabled.
     - **Match contact based on**: Choose the strategy to use when matching a new event registration to an existing contact record. If a contact record is found that has matching values for *all* of the fields you choose here, then the registration will be linked to that contact record. If no match is found, then a new contact will be created and linked to the new registration record. You can choose to match by email alone; first name and last name; or email, first name, and last name.
+    - **Enable demo payment confirmation**: This feature lets you simulate payment on the event website for demo purposes. Set this to **Yes** to enable demo payment. Set it to **No** to disable demo payment. To [enable online payment on a production site](event-payment-gateway.md), you must partner with a third-party payment provider and customize your event site to work with their system. Never enable demo payment on a production system because it can introduce a security vulnerability.
+
+    > [!WARNING]
+    > You must only set **Enable demo payment confirmation** to **Yes** when presenting a demo of the event website. You must always set this to **No** before going to production because the simulated-payment feature can introduce a security vulnerability if enabled in a production environment.
+
     > [!NOTE]
-    > In order to make the name-based contact matching strategy work with AAD, it is mandatory to provide first name and last name on sign-up. More information [Configuration for Azure Active Directory](developer/self-hosted.md#configuration-for-azure-active-directory). 
-    > In order to make the name-based contact matching strategy work with **Portal Authentication** it is mandatory to provide first and last name after registering.
-    
+    > To make the name-based contact matching strategy work with AAD, you must provide first name and last name on sign-up. More information [Configuration for Azure Active Directory](developer/self-hosted.md#configuration-for-azure-active-directory).
+    > 
+    > To make the name-based contact matching strategy work with **Portal Authentication** it is mandatory to provide first and last name after registering.
+
     > [!NOTE]
     > The email templates provided for sending confirmations to the event purchaser and/or attendee are hard coded, so you can't customize or translate their content. If you require custom messaging, then set up a [customer journey](customer-journeys-create-automated-campaigns.md) with event, trigger, and email tiles.
 

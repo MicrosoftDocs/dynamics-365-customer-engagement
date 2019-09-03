@@ -9,9 +9,9 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d0634607-b17f-4f33-aa15-e26ebed441f7
 caps.latest.revision: 2
+author: mduelae
 ms.author: t-mijosh
 manager: ryjones
 search.audienceType: 
@@ -20,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Search and Find in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Compare [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] searches  
 

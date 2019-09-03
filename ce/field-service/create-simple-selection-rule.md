@@ -5,7 +5,6 @@ keywords: Create a selection rule; Dynamics 365 for Customer Engagement; Custome
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
@@ -23,8 +22,6 @@ search.app:
 ---
 
 # Create a selection rule to determine how resources are selected for service activities (Customer Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Before you can add a resource to a service, you must define a selection rule to determine how resources are selected for service activities. 
 

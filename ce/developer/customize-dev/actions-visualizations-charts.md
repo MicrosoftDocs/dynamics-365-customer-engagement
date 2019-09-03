@@ -24,8 +24,6 @@ search.app:
 ---
 # Actions on visualizations (charts)
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], you can perform the following actions on the visualization entities.  
   
 ## Actions on organization-owned visualizations  

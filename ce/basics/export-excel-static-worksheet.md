@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: a3c0bc58-7b21-496b-b63d-852d7301020c
 caps.latest.revision: 43
 author: jimholtz
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Export to an Excel static worksheet
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information to an individual who doesn’t have access to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], or you have data that doesn’t change often, consider exporting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
   

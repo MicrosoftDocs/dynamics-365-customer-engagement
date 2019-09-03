@@ -16,8 +16,6 @@ search.app:
 ---
 # msdyn_rtv Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 Records RTVs for products to be retuned to vendors
 
 **Added by**: Field Service Solution

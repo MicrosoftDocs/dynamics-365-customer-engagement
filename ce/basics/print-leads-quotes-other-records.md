@@ -9,9 +9,9 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d807028a-0847-4bd0-94bb-61cd2fe4017d
 caps.latest.revision: 9
+author: mduelae
 ms.author: anbichse
 manager: brycho
 search.audienceType: 
@@ -20,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Print leads, quotes, and other records
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you need a paper copy of a record such as a contact, lead, quote, or invoice, you can print records individually or in a list.   
 

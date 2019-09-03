@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: mduelae
 ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Create or edit a chart
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Present large quantities of data in your organization in a more insightful and graphical way by creating useful charts in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8ec72014-9f0c-4964-ac67-24419b054e91
 caps.latest.revision: 13
 author: Mattp123
@@ -23,8 +22,6 @@ search.app:
   - D365CE
 ---
 # RDL sandboxing for Dynamics 365 for Customer Engagement apps
-
-[!INCLUDE [cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 In [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, the reports run in the sandbox mode. This is done by enabling Report Definition Language (RDL) Sandboxing in [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. The RDL Sandboxing lets you detect and restrict the usage of specific types of resources. As a result, certain features in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps may not be available. For more information, see [MSDN: Enabling and Disabling RDL Sandboxing](https://msdn.microsoft.com/library/ee210591.aspx).  
   

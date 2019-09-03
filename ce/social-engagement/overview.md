@@ -2,7 +2,7 @@
 title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
 description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: social engagement, overview, quick start, scenarios
-ms.date: 12/14/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 0d4e7b30-90fe-46f1-bc0e-f486489141d2
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,8 @@ search.app:
 ---
 
 # Connect with customers. Empower your organization. Create real results.
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
 

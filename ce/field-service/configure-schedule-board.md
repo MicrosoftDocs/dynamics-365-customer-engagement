@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: a9a65fd8-1d2f-475e-83d2-2c052b9f2573
 caps.latest.revision: 32
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Configure the schedule board for resource availability (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make.  Before you use the schedule board, it is important to set up the views and filters to your preference.  
   

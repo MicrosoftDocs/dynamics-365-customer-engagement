@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2a762cef-1caa-45e2-9b7f-8721cbac10aa
 author: kamaybac
 ms.author: kamaybac
@@ -26,8 +25,6 @@ search.app:
 ---
 
 # Manage images for landing pages and email messages
-
-[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message, and you can use similar techniques to add images to your marketing page designs. Another way to make images (and other files) available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is to upload them directly to the file library, which is shared by all users. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 

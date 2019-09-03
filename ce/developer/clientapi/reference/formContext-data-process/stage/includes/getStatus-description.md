@@ -1,1 +1,0 @@
-Returns the status of the stage.

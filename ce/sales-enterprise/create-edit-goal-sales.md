@@ -3,14 +3,10 @@ title: "Create or edit a goal (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
 keywords: Goal, target
 ms.date: 04/01/2018
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 161f9a27-3709-42c7-bca0-8538250e5de0
 author: shubhadaj
 ms.author: shujoshi
@@ -18,12 +14,9 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-topic-status: Drafting
 ---
 
 # Create or edit a goal (Sales and Sales Hub)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use goals to keep track of your progress on achieving target revenue.  
   

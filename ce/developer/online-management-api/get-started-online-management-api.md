@@ -15,8 +15,6 @@ search.app:
 ---
 # Get started with Online Management API 
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
-
 This topic provides basic information to help you get started with the Online Admin API for Customer Engagement.
 
 ## Office 365 Admin roles
@@ -53,7 +51,7 @@ The following table lists the service URL of Online Management API for worldwide
 |India (IND) | https://admin.services.crm8.dynamics.com |
 |Canada | https://admin.services.crm3.dynamics.com |
 |United Kingdom (UK) | https://admin.services.crm11.dynamics.com |
-
+|France | https://admin.services.crm12.dynamics.com |
 
 ## Standard headers
 

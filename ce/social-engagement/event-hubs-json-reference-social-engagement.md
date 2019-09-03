@@ -2,7 +2,7 @@
 title: "JSON objects reference from Social Engagement | Microsoft Docs"
 description: "Review the full list of properties and object in the Social Engagement payload for Event Hubs."
 keywords: JSON, payload, metadata, event hubs, reference
-ms.date: 08/22/2018
+ms.date: 06/11/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: 
@@ -10,8 +10,7 @@ applies_to:
 ms.assetid: 29a876d1-1915-3517-7ff0-cc357a156dec
 author: m-hartmann
 ms.author: mhart
-manager: sakudes
-topic-status: Drafting
+manager: shellyha
 ms.custom: 
   - dyn365-socialengagement
 search.audienceType: 
@@ -24,6 +23,9 @@ search.app:
 ---
 
 # JSON reference for events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+[!INCLUDE [mse-service-discontinuation](../includes/mse-service-discontinuation.md)]
+
 This topic applies to version 2.1 of the JSON payload for social posts streamed to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 
 Latest version of the payload: Version 2.1  

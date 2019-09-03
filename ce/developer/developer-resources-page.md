@@ -22,8 +22,6 @@ search.app:
 ---
 # Developer resources page 
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web application provides important resources. Included on this page are the web service endpoint URLs, a certificate for accessing [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)], and other organization information that you'll need during development. To access the page in the web application, click **Settings** > **Customizations**, and then click **Developer Resources**.  
   
  For the Organization service and Organization data service sections in this topic, the example URLs include an `OrganizationName`. This refers to the organization that you specify in the URL when you access the web application. For example, for Contoso.crm.dynamics.com, the `OrganizationName` is Contoso.  `ServerName` refers to the name of the server, including the port number, for example, myserver or myserver:5555.  
@@ -97,7 +95,7 @@ For more information, see [Discover the URL for your organization using the Orga
 |Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/Organization.svc`|
 |Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/Organization.svc`|
 |India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc`|
-
+|France|`https://OrganizationName.api.crm12.dynamics.com/XrmServices/2011/Organization.svc`|
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps
 
@@ -129,7 +127,7 @@ For more information, see [Discover the URL for your organization using the Orga
 |Oceania|`https://OrganizationName.api.crm6.dynamics.com/XrmServices/2011/OrganizationData.svc`|
 |Japan|`https://OrganizationName.api.crm7.dynamics.com/XrmServices/2011/OrganizationData.svc`|
 |India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc`|
-
+|France|`https://OrganizationName.api.crm12.dynamics.com/XrmServices/2011/OrganizationData.svc`|
   
 ### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps  
  Use the following URL to access the organization data service (ODataREST endpoint):  

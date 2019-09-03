@@ -1,7 +1,7 @@
 ---
-title: "Set up Dynamics 365 for Customer Engagement to use SharePoint Online | MicrosoftDocs"
+title: "Set up Dynamics 365 for Customer Engagement apps to use SharePoint Online | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/06/2019
+ms.date: 06/10/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -14,7 +14,7 @@ ms.assetid: c0219d78-f2e2-4fdd-9d54-2d7e1468fc0c
 caps.latest.revision: 11
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - admin
 search.app: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Set up Dynamics 365 for Customer Engagement to use SharePoint Online
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-sharepoint-online.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, you can:  
   
@@ -35,8 +33,6 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
   
 > [!IMPORTANT]
 >  This topic is for organizations who wish to deploy for the first time or upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. After you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, you can’t revert to the previous client-based authentication method.  
-> 
->  For some organizations, using the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution might be a better choice. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure SharePoint integration using the list component](configure-sharepoint-integration-using-list-component.md).  
 > 
 > [!TIP]
 > ![Video symbol](../admin/media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Connect Dynamics 365 for Customer Engagement apps to SharePoint Online](https://go.microsoft.com/fwlink/p/?linkid=837790)  
@@ -54,7 +50,7 @@ When you use [!INCLUDE[pn_microsoft_sharepoint_online](../includes/pn-microsoft-
   
 2. Open the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click **SharePoint**.  
   
-3. 3.  On the left-side menu, click **Team Site**.  
+3. On the left-side menu, click **Team Site**.  
   
 4. On the Home page, click **SHARE** (upper-right corner).  
   
@@ -71,14 +67,12 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 <a name="BKMK_ConfigureDocManage"></a>  
  
 ## Configure Dynamics 365 for Customer Engagement apps (online) for SharePoint document management  
- For Customer Engagement apps organizations, [!INCLUDE[pn_v6_online_ur1](../includes/pn-v6-online-ur1.md)] introduced a new server-based (using server-to-server authentication) [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration that removes the need to install or continue to use the [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] solution.  
-  
  If you are a new organization and have not yet deployed document management, see [Configure a new organization](../admin/set-up-dynamics-365-online-to-use-sharepoint-online.md#BKMK_ConfigNewOrg).  
   
- If your organization is already using document management with [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], you can switch to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)  
+ If your organization is already using document management with [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)], you must switch to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Switching from the list component or changing the deployment](switching-list-component-changing-deployment.md)  
   
 > [!IMPORTANT]
->  The [!INCLUDE[pn_list_component_short](../includes/pn-list-component-short.md)] builds the SharePoint library using the internal name of the document-enabled entity in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration uses the entity display name. When you upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, be sure to check that the display names in your document library on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] match the entity display names in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] ["Validation Error" when you try to configure server-based SharePoint integration for Microsoft Dynamics CRM Online and SharePoint Online](http://go.microsoft.com/fwlink/p/?LinkID=402112).  
+>  Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration uses the entity display name to build the SharePoint library. When you upgrade to server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, be sure to check that the display names in your document library on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] match the entity display names in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] ["Validation Error" when you try to configure server-based SharePoint integration for Microsoft Dynamics CRM Online and SharePoint Online](http://go.microsoft.com/fwlink/p/?LinkID=402112).  
   
  ![SharePoint library name and entity display name](../admin/media/crm-itpro-crmo365tg-sharepointname.png "SharePoint library name and entity display name")  
   
@@ -94,25 +88,28 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 > [!NOTE]
 >  If you don’t see the alert and have not previously enabled server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, clear your browser cache or open [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps using [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] with InPrivate browsing to have the alert display again. Once you configure server-based integration, the alert will no longer appear.  
   
-1. In the Enable Server-based SharePoint Integration alert click **Next**.  
+1. Go to **Settings** > **Document Management**, and then select **Enable server-based SharePoint** integration.
+
+2. In the Enable Server-based SharePoint Integration alert click **Next**.  
   
-2. Choose **Online** for where your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sites are located, and then choose **Next**.  
+3. Choose **Online** for where your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] sites are located, and then choose **Next**.  
   
    ![Select Online as the SharePoint sites location](../admin/media/crmandsharepointonlineenablestep2.png "Select Online as the SharePoint sites location")  
   
-3. If your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps is not connected to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site, enter the URL (for example <https://contoso.sharepoint.com>) of your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site that you will use for auto folder creation, and then choose **Next**.  
+4. If your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps is not connected to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site, enter the URL (for example <https://contoso.sharepoint.com>) of your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site that you will use for auto folder creation, and then choose **Next**.  
   
    > [!TIP]
    >  To see your [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site collections, in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], click **Admin centers** > **SharePoint**, and then click **site collections**.  
   
    ![Enter the URL of the SharePoint site](../admin/media/crmandsharepointonlineenablestep3.png "Enter the URL of the SharePoint site")  
   
-4. The URL will be checked for being a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site and for existing in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization. After enabling server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration you can’t go back to the previous client-side integration. Choose **Enable**.  
-  
-After you enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] the options to Install List Components and to enable server-based integration will no longer appear as an option in Document Management.  
-  
+5. The URL will be checked for being a valid [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] online site and for existing in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant as your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization. After enabling server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration you can’t go back to the previous client-side integration. Choose **Enable**.  
+
+### Next steps  
 Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you will need to enable the entities you want available for document management integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable document management on entities](enable-sharepoint-document-management-specific-entities.md)    
-  
+
+Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you can also enable integration with OneNote and OneDrive. More information: [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md) and [Enable OneDrive for Business (online)](enable-onedrive-for-business.md)
+
 <a name="BKMK_UsingDocManage"></a>   
 
 ## Using Document Management  
@@ -175,7 +172,14 @@ As a workaround, you can set the unmanaged devices policy to “Allow full acces
 
 5. Select **Ok**.
 
+<a name="BKMK_info_trans_CRMtoSP"></a>   
+
+## Information transmitted between Dynamics 365 for Customer Engagement apps (online) and SharePoint when you use server-based SharePoint integration  
+ When you use the document management feature in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps by using server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, the following information is transmitted between [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]:  
+  
+- Entity name for the entity that is used to create folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], such as Account, Article, or Lead. To configure the entities that are integrated, go to **Settings** > **Document Management** > **Document Management Settings**.
+
 ### See also  
  [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)   
- [SharePoint Online for IT pros](https://technet.microsoft.com/sharepoint/gg144571)   
+
 

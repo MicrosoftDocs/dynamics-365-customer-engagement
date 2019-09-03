@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Configure assembly security for an offline plug-in  (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "The topic provides a walkthrough on configuring assembly security for an offline plug-in."
-ms.custom: 
+ms.custom: on-premise
 ms.date: 10/31/2017
 ms.reviewer: 
 ms.service: crm-online
@@ -21,8 +21,6 @@ search.app:
   - D365CE
 ---
 # Walkthrough: Configure assembly security for an offline plug-in
-
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement platform applies an additional security restriction to registered offline plug-in assemblies. When [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] is installed, an AllowList key is added to the system registry on the client computer. For each assembly containing an offline plug-in that you register, you must add a registry sub-key under the AllowList key with the key name derived from the assembly's public key token. Failure to add this key results in the offline plug-in not being executed by the platform even though the plug-in is registered. This walkthrough describes how to add this sub-key for a plug-in assembly.  
   

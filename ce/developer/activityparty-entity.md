@@ -29,8 +29,6 @@ search.app:
 ---
 # ActivityParty entity
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 An activity party represents a person or group associated with an activity. An activity can have multiple activity parties.  
   
 <a name="ActivityPartyTypes"></a>   

@@ -12,7 +12,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: krbjoran
 ms.assetid: 3655ec2b-d23e-4d56-a4e4-81f83f0c6c89
 caps.latest.revision: 12
@@ -27,8 +26,6 @@ search.app:
   - D365FS
 ---
 # Prioritize your work orders (Field Service)
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Priority records let you prioritize your work orders. You can also assign each priority value a custom color, which will display in the outline of the resource booking time slot on the schedule board. This allows dispatchers to visually distinguish a job's priority while managing the schedule.  
   

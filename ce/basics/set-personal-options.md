@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: mduelae
 ms.assetid: 10711d14-0a84-4b76-b9e9-572ab3113c50
 caps.latest.revision: 67
@@ -21,8 +20,6 @@ search.app:
   - D365CE
 ---
 # Set personal options
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Personalize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement workspace to suit your requirements or preferences. For example, you can choose the page that you want to see as soon as you sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You can also personalize many other options such as language, currency, and time zone.  
   

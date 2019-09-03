@@ -21,8 +21,6 @@ search.app:
 ---
 # Customize entity metadata
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
-
 Entities are defined by metadata. By defining or changing the entity metadata, you can control the capabilities of an entity. To view the metadata for your organization, use the metadata browser. [Download the metadata browser](http://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip).
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Browse the Metadata for Your Organization](browse-your-metadata.md)  
