@@ -2,7 +2,7 @@
 title: "Enable LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Enable the LinkedIn Sales Navigator for Dynamics 365 capabilities"
 keywords: "installation, setup, sales navigator"
-ms.date: 08/06/2019
+ms.date: 09/03/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -64,6 +64,14 @@ Disabling the integration will stop showing the Sales Navigator controls.
 2. Select **LinkedIn Sales Navigator**.
 3. Remove the check mark from the **Enable Sales Navigator Integration** checkbox.
 4. Select **Ok** to disable the integration.
+
+## Automatically sync profile images for matched leads
+
+For leads that are matched to a LinkedIn member profile, the system can automatically snyc profile pictures from LinkedIn. However, the profile pictures are only stored for 24 hours and need sync daily.
+
+To enable the profile image sync, you need to enable **Sales Navigator CRM sync** in the LinkedIn Sales Navigator settings. For more information how to enable CRM sync, see [Integration between Sales Navigator and your CRM](https://www.linkedin.com/help/sales-navigator/answer/82207/integration-between-sales-navigator-and-your-crm-overview).
+
+Please note that only profile pictures for matched leads can sync from LinkedIn.
 
 ## Existing orgs that got updated with April 19 features
 
