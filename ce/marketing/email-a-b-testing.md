@@ -80,7 +80,7 @@ To set up A and B designs for a message:
     > [!NOTE]
     > Even after you have enabled A/B testing you can still edit parts of your message that aren't part of any tests. When you to this,  your edits will affect all versions (the A version and all B versions), regardless of which test and version button are currently selected. But if you edit a setting that's enabled for testing, then you are only editing the version selected using the **Version A** and **Version B** buttons. Remember that the A version is the same for all tests, but the B version is unique for each test.
     > 
-    > Be careful when adding new design elements to a message that already has a body test set up. After doing this, be sure to check each version of each test to make sure your new elements is fully defined with the correct content and settings for all of them.
+    > Be careful when adding new design elements to a message that already has a body test set up. After doing this, always make sure your new elements are fully defined with the correct content and settings for each of version of each test.
 
 1. Continue working in this way until you have set up all of the tests you want to run on the current email design.
 1. When you're done setting up your designs and tests, select **Go live** to make your message available for use with a customer journey.
