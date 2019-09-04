@@ -19,6 +19,7 @@ searchScope:
   - D365-Entity-*
   - D365-UI-*
   - Customer Engagement
+ms.search.scope: D365-App-msdynce_saleshub, D365-Entity-*, D365-UI-*, Customer Engagement
 ---
 
 # Dynamics 365 for Sales Help & Training
