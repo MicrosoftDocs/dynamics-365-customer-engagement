@@ -38,19 +38,30 @@ Skill based routing allows you to easily match conversation to the agent most pr
 
 ## Understand skill based routing
 
-### 
 
-### Rating model
+
 
 ## Prerequisites
 
 - You must use the latest Omnichannel for Customer Service (October 2019 update).
-- If your environment has scheduling solutions, then the it must have a version not lower than <version> and not higher than <version>.
+- If your environment has scheduling solutions, then the it must have a version not lower than \<version\> and not higher than \<version\>.
 
-## In this section
+## Skill based routing overview steps
 
-- Enable skill based routing and define rating model
-- Configure skills
-- Assign agent to skills and add proficiency
-- Configure work stream
-- Create rules to attach skills to conversation
+- [Step 1: Enable skill based routing](enable-skill-routing-create-rating-model.md#enable-skill-based-routing)
+- [Step 2: Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model)
+- [Step 3: Create skill type](setup-skills-assign-agents.md#create-skill-type)
+- [Step 4: Create skills](setup-skills-assign-agents.md#create-skills)
+- [Step 5: Assign agent to skills](setup-skills-assign-agents.md#assign-agents-to-skill)
+- [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-skill)
+
+
+## See also
+
+[Enable skill based routing and create rating model](enable-skill-routing-create-rating-model.md)
+
+[Set up skills and assign agents](setup-skills-assign-agents.md)
+
+[Attach skills to conversation](attach-skills.md)
+
+

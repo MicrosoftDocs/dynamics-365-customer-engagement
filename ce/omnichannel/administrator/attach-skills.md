@@ -13,7 +13,7 @@ ms.assetid: 44298261-18A8-438C-923A-4BB4D18406F9
 ms.custom: 
 ---
 
-# Attach skill to incoming conversation
+# Attach skills to conversation
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
@@ -29,7 +29,7 @@ Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.conto
 
 To attach skills, you need a workstream record. Either you can create or use an existing workstream configuration. 
 
-## Attach skill
+## Create rules to attach skill
 
 1. Sign in to the **Omnichannel for Administrator** app.
 
