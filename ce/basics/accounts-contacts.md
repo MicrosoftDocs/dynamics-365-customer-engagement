@@ -12,6 +12,11 @@ search.audienceType:
   - enduser
 search.app: 
   - D365CE
+searchScope:
+  - D365-App-*
+  - D365-Entity-account
+  - D365-UI-*
+  - Customer Engagement
 ---
 # Work with accounts and contacts in Customer Engagement apps
 
