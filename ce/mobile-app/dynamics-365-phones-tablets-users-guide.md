@@ -101,7 +101,7 @@ Sign in to the Dynamics 365 mobile app for Android using your work email address
   - [Install Dynamics 365 for Tablets (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-tablets-preview/distribution_groups/public%20preview).
   
 > [!NOTE]
-> - Preview version of the app will replace the non-preview version. 
+> - If you have an existing app on your device, it will automatically be replaced by the preview version of the app. 
 > - If you were already signed-in to the non-preview version of the app, you will need to sign-out of the app and sign back in to use the new email sign-in experience.
 
 2. Select the **DOWNLOAD** button.
