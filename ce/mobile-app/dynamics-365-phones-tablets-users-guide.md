@@ -88,6 +88,57 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
   > ![Sign out](media/previewsignout.png "Sign out")
       
 
+## Sign in using your eamil address (Preview feature for Android users)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Sign in to the Dynamics 365 mobile app quickly using your work email address. For you can sign in using your email address, you will need to install the preview version of the app from App Center.
+
+### Install the preview app
+
+1. Install the app:
+  - [Install Dynamics 365 for Phones (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-phones-preview/distribution_groups/public%20preview).
+  - [Install Dynamics 365 for Tablets (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-tablets-preview/distribution_groups/public%20preview).
+  
+> [!NOTE]
+> - Preview version of the app will replace the non-Preview version. 
+> - If you were previously signed-in to the non-Preview app on your device, you will remain signed-in when opening the Preview app and will need to sign-out to try the new sign-in experience.
+
+2. Select the **DOWNLOAD** button.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Select the download button"](media/emailandrod_1.png "Select the download button") 
+   
+3. Select **Open** to load the application APK file for installation.
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Select the open button"](media/emailandrod_2.png "Select the Open button") 
+
+4. Select **Install** to install the app.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Select the install button"](media/emailandrod_3.png "Select the install button") 
+
+5. Once the app has finished installed, select **Open**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Select the open button"](media/emailandrod_4.png "Select the open button")   
+   
+### Sign in using your email adress
+
+1. Enter your email address, and then select ![Sign in](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in").
+
+   > [!div class="mx-imgBorder"] 
+   > ![Sign in using email address"](media/emailbasedsignin_android.png "Sign in using email addres")  
+
+
+2. From the list of apps that you have access to, select the app that you want to use.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Select an app to use](media/openanapp.png "Select an app to use"). 
+   
+
+
 ## Sign in and sign out (Android users)
 
 To sign in, you’ll need your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, user name, and
