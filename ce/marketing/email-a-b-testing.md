@@ -90,9 +90,9 @@ To set up A and B designs for a message:
 When you're email is ready to test, use a customer journey to send it. You can include A/B-test emails in any type of journey, regardless of complexity, and including journeys that you are using in a production campaign. The strategy is to send each design to a small part of the full segment being targeted by the journey, wait to see how those recipients react to each version of the message, and then send the best performing message to the rest of the segment. You can choose what the winning conditions are (most clicks or most opens), and also how long to run the test for.
 
 > [!IMPORTANT]
-> To produce reliable, statistically significant test results, you should always send each version (A and B) to a minium of 100 recipients before allowing the system to choose a winner. A typical recommended setup would use a 1,000-member segment, with a test distribution that sends version A to 10% of the segment, version B to another 10%, and then sends the winning design to the remaining 80%.
+> To produce reliable test results, you should always send each version (A and B) to a minimum of 100 recipients before allowing the system to choose a winner. A typical recommended setup would use a 1,000-member segment (or larger), with a test distribution that sends version A to 10% of the segment, version B to another 10%, and then sends the winning design to the remaining 80%.
 > 
-> You can run an A/B test with as little as just one or a few recipients for each version, but this can often result in an uneven or non-random distribution of versions and unreliable final results. We recommend that you only do this while experimenting with the feature.
+> It's possible to run an A/B test with as little as just one or a few recipients for each version, but this can often result in an uneven or non-random distribution of versions and unreliable final results. We recommend that you only do this while experimenting with the feature.
 
 To add an A/B test to a journey:
 
