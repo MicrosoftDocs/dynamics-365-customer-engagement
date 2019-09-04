@@ -19,11 +19,28 @@ ms.custom:
 
 ## Set up skills
 
-As an administrator, to create skills, you need at least one type in the system. For example, To add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
+As an administrator, to create skills, you need at least one skill type in the system. For example, To add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
 ### Create Skill type
 
-PM need to share information for this section.
+1. Sign in to Common Data Service platform as an administrator.
+
+2. Select **Settings** > **Customizations** >  **Customize the System**.
+
+3. Select **Option Sets** from the left pane.
+
+4. Double-click the **Bookable Resource Characteristic Type** from the list. A new window opens.
+
+5. Select the **Add** icon under the Options container.
+
+6. Type a name for the Label field. For example, **Language**.
+
+7. Select **Save** to save the skill type.
+
+8. Select **Publish** to publish the customization changes.
+
+    > [!div class=mx-imgBorder] 
+    > ![Create skill type](../media/create-skill-type.png "Create skill type")
 
 ### Create skills
 
