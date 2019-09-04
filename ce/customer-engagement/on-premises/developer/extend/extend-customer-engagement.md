@@ -22,7 +22,7 @@ search.app:
 ---
 # Extend Dynamics 365 Customer Engagement (on-premises)
 
-The extensibility platform is the heart of Dynamics 365 Customer Engagement (on-premises). When you use the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The Dynamics 365 Customer Engagement (on-premises) platform supports installation of the software system on your own server.  
+The extensibility platform is the heart of Dynamics 365 Customer Engagement (on-premises). When you use the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The Dynamics 365 Customer Engagement (on-premises) platform supports installation on your own server.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)] 
 
@@ -32,7 +32,7 @@ When you develop an application that uses the Dynamics 365 Customer Engagement (
   
  The xRM platform also controls access to data through security, controls access to the database, and raises events for workflow processes and custom business logic implementations (plug-ins). The platform layer provides for both incoming and outgoing email processing through [!INCLUDE[pn_Exchange_Server_full](../../includes/pn-exchange-server-full.md)].
   
- ![Dynamics 365 Customer Engagement (on-premises) SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
+ ![Dynamics 365 Customer Engagement (on-premises) SDK architecture](../media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
   
 ## In This Section  
  [Dynamics 365 Customer Engagement application platform - A platform for building extended Dynamics 365 Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  

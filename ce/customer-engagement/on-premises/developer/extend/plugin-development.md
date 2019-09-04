@@ -25,11 +25,11 @@ search.app:
 A plug-in is custom business logic (code) that you can integrate with  to modify or augment the standard behavior of the platform. Another way to think about plug-ins is that they are handlers for events fired by Dynamics 365 Customer Engagement (on-premises). You can subscribe, or register, a plug-in to a known set of events to have your code run when the event occurs.
 
 > [!NOTE]
-> [!INCLUDE[cc-cdsnote-1](../../../../developer/includes/cc-cdsnote-1.md)]
+> [!INCLUDE[cc-cdsnote-1](../includes/cc-cdsnote-1.md)]
 >
 > The plug-in documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 >
-> [!INCLUDE[cc-cdsnote-2-section](../../../../developer/includes/cc-cdsnote-2-section.md)]
+> [!INCLUDE[cc-cdsnote-2-section](../includes/cc-cdsnote-2-section.md)]
   
  For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
   
