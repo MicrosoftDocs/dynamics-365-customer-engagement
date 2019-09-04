@@ -2,7 +2,7 @@
 title: "Basic Operations on segments using API| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
 description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
 ms.custom: ""
-ms.date: 08/12/2019
+ms.date: 08/27/2019
 ms.reviewer: ""
 ms.service: D365CE
 ms.topic: "article"
@@ -76,13 +76,13 @@ PATCH {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 With the retrieve request, you retrieve all the static segments that are in the Live state.  
 
 ```HTTP
-GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350001
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$filter=statuscode eq 192350001
 ```
 
 You can also retrieve segments with specific properties.
 
 ```HTTP
-GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
+GET {{OrgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdyncrm_segmentname,msdyncrm_segmentquery,msdyncrm_description
 ```
 
 **Delete request**
@@ -90,7 +90,7 @@ GET {{orgUrl}}/api/data/v9.0/msdyncrm_segments?$select=msdyncrm_segmentid,msdync
 With the delete request, you delete the created static segment. 
 
 ```HTTP
-DELETE {{orgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
+DELETE {{OrgUrl}}/api/data/v9.0/msdyncrm_segments({{SegmentId}})
 ```
 
 ## CRUD operations on dynamic segments
@@ -102,7 +102,7 @@ This section shows how to perform basic CRUD (create, update, retrieve, and dele
 This request creates a dynamic segment and sets `statuscode` to Going live.
 
 ```HTTP
-POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
     "msdyncrm_segmentquery": "PROFILE(contact)",
@@ -113,7 +113,7 @@ POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
 The following request creates a dynamic segment with a conditional segment query to retrieve only contacts that have the `address1_city` field set to `NewYork` or `NewJersey`.
 
 ```HTTP
-POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "MySegment2",
     "msdyncrm_segmentquery": "PROFILE(contact).FILTER((address1_city == 'NewYork' || address1_city == 'NewJersey'))",
@@ -158,7 +158,7 @@ This section shows how to perform basic CRUD (create, update, retrieve, and dele
 This request creates a compound segment and sets `statuscode` to Going live.
 
 ```HTTP
-POST {{orgUrl}}/api/data/v9.0/msdyncrm_segments
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_segments
 {
     "msdyncrm_segmentname": "my_compound_segment1",
     "msdyncrm_segmenttype": 192350002,
@@ -280,3 +280,54 @@ GET {{OrgUrl}}/api/data/v9.0/contacts?fetchXml=fetch version="1.0" output-format
     </entity>
 </fetch>
 ```
+
+## Validating segments
+
+Prior to creating or modifying a segment, you can verify the new definition using a dedicated validation endpoint.
+The endpoint always returns an HTTP status OK message and an object with a property `ValidationResult` holding an array of errors.
+
+In the case of a valid definition, the result array is empty. Otherwise, it contains records for the identified issues.
+Segment definition is validated on the creation of the record, and the status code set to **Going Live**.
+
+Validation is intentionally skipped when a segment is created in **Draft** state. Also failed validation results in HTTP 400 with an error message in the response body.
+
+**Validating a valid segment definition**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
+{
+       "msdyncrm_segmentname":"NewSegment",
+       "msdyncrm_segmentquery":"PROFILE(contact)",
+       "msdyncrm_segmenttype":192350000,
+       "statuscode":192350000
+}
+```
+**Response**
+```HTTP
+{
+…
+    "ValidationResult": "[]"
+}
+```
+
+**Validating a invalid segment definition**
+
+```HTTP
+POST {{OrgUrl}}/api/data/v9.0/msdyncrm_ValidateSegment
+{
+       "msdyncrm_segmentname":"NewSegment",
+       "msdyncrm_segmentquery":"PROFILE(UnknownEntity)",
+       "msdyncrm_segmenttype":192350000,
+       "statuscode":192350006
+}
+```
+
+**Response**
+
+```HTTP
+{
+…
+    "ValidationResult": "[{\"ErrorCode\":\"SegmentDciValidator_SegmentInvalid\",\"FieldName\":\"msdyncrm_segmentquery\"}]"
+}
+```
+
