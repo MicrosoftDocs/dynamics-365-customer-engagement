@@ -2,10 +2,10 @@
 # [Getting started](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
-# Supported web browsers and mobile devices
-## [Overview](supported-web-browsers-and-mobile-devices.md)
-## [Web application requirements](web-application-requirements.md)
-## [Support for devices](device-support.md)
+## Supported web browsers and mobile devices
+### [Overview](supported-web-browsers-and-mobile-devices.md)
+### [Web application requirements](web-application-requirements.md)
+### [Support for devices](device-support.md)
 ## [About Unified Interface](about-unified-interface.md)
 ## [Enable Unified Interface Only](enable-unified-interface-only.md) 
 ## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
