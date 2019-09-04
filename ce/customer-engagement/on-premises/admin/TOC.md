@@ -1,7 +1,11 @@
 # [Administer Dynamics 365 Customer Engagement (on-premises)](overview.md)
-## [Getting started](getting-started.md)
+# [Getting started](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
+# Supported web browsers and mobile devices
+## [Overview](supported-web-browsers-and-mobile-devices.md)
+## [Web application requirements](web-application-requirements.md)
+## [Support for devices](device-support.md)
 ## [About Unified Interface](about-unified-interface.md)
 ## [Enable Unified Interface Only](enable-unified-interface-only.md) 
 ## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
@@ -28,12 +32,6 @@
 ## [Determine your organization ID and name](determine-org-id-name.md)
 ## [Help and additional resources](help-additional-resources.md)
 ## [Troubleshoot problems](troubleshoot-dynamics-365-problems.md)
-
-# Requirements/supported configurations
-## Supported web browsers and mobile devices
-### [Overview](supported-web-browsers-and-mobile-devices.md)
-### [Web application requirements](web-application-requirements.md)
-### [Support for devices](device-support.md)
 
 # Manage security, users, and teams
 ## [Overview](manage-security-users-and-teams.md)
@@ -94,8 +92,6 @@
 ## [Template for data import](download-template-data-import.md)
 ## [Detect duplicate data](detect-duplicate-data.md)
 ## [Duplicate detection rules](set-up-duplicate-detection-rules-keep-data-clean.md)
-## [Turn duplicate detection rules on or off](turn-duplicate-detection-rules-off-whole-organization.md)
-## [Bulk duplicate detection](run-bulk-system-jobs-detect-duplicate-records.md)
 ## [Bulk deletions](delete-bulk-records.md)
 ## [View and take action on bulk deletion jobs](view-take-action-bulk-deletion-jobs.md)
 ## [Monitor and manage system jobs](monitor-manage-system-jobs.md)
@@ -106,8 +102,8 @@
 ## [Free storage space](free-storage-space.md) 
 ## [Recover database space by deleting audit logs](recover-database-space-deleting-audit-logs.md)
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
-## Move configuration data(manage-configuration-data.md)
-## Work with templates(work-with-templates.md)
+## [Move configuration data](manage-configuration-data.md)
+## [Work with templates](work-with-templates.md)
 
 # Extend Customer Engagement
 ## [Overview](extend.md)
