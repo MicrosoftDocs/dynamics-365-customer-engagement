@@ -58,7 +58,7 @@ Depending on your plug-in’s design, your plug-ins may require other referenced
 
 1. On the development computer, build the plug-in code. Do not include debug information. Optimize the plug-in for performance.
 2. Register the plug-in in the Dynamics 365 Customer Engagement (on-premises) server database.
-3. Using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application, create a solution or use an existing one, and add the plug-in to that solution.
+3. Using the Dynamics 365 Customer Engagement (on-premise) web application, create a solution or use an existing one, and add the plug-in to that solution.
 4. After you have added any other desired components to the solution, export the solution.
 5. Import the solution on to the staging or production server.
 

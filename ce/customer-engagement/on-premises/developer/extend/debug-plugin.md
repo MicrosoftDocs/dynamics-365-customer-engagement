@@ -25,7 +25,7 @@ search.app:
 
 # Debug an on-premise registered plug-In
 
-General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)].
+General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on Dynamics 365 Customer Engagement (on-premise).
 
 > [!NOTE]
 > An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
@@ -54,7 +54,7 @@ General information about plug-in debugging can be found in the Common Data Serv
   
 3. Test the plug-in.  
   
-    Run the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] application, or other custom application that uses the SDK, and perform whatever action is required to cause the plug-in to execute. For example, if a plug-in is registered for an account creation event, create a new account.  
+    Run the Dynamics 365 Customer Engagement (on-premise) application, or other custom application that uses the SDK, and perform whatever action is required to cause the plug-in to execute. For example, if a plug-in is registered for an account creation event, create a new account.  
   
 4. Debug your plug-in code.  
   
@@ -85,7 +85,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
  Follow these steps to debug a sandboxed plug-in.  
   
-1. Register the plug-in in the sandbox (isolation mode) and deploy it to the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server database.  
+1. Register the plug-in in the sandbox (isolation mode) and deploy it to the Dynamics 365 Customer Engagement (on-premise) server database.  
   
 2. Copy the symbol file (.pdb) of the compiled plug-in assembly to the server\bin\assembly folder on the server running the sandbox worker process named Microsoft.Crm.Sandbox.WorkerProcess.exe. This is the server hosting the Sandbox Processing Service role.  
   
