@@ -22,7 +22,7 @@ search.app:
 ---
 # Build Windows client applications using the XRM tools
 
-XRM tooling is a set of APIs built on top of the Dynamics 365 for Customer Engagement(on-premises) SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] client applications for Dynamics 365 for Customer Engagement(on-premises).   
+XRM tooling is a set of APIs built on top of the Dynamics 365 for Customer Engagement(on-premises) SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building Windows client applications for Dynamics 365 for Customer Engagement(on-premises).   
 
 > [!NOTE]
 > Dynamics 365 for Customer Engagement (on-premises) are built on the Common Data Service platform, which is also the underlying data platform for PowerApps. If you are a Dynamics 365 for Customer Engagement (on-premises) user, you continue to use the Customer Engagement platform that has similar functionality as Common Data Service.
@@ -37,9 +37,9 @@ XRM tooling provides the following capabilities:
   
 - Provides [PowerShell](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md) support for authentication and connection to Dynamics 365 for Customer Engagement(on-premises).  
   
-- Provides thread safety for actions performed in Dynamics 365 for Customer Engagement(on-premises) in a multi threaded environment. More information: [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
+- Provides thread safety for actions performed in Dynamics 365 for Customer Engagement(on-premises) in a multi threaded environment. More information: [Multi threading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
   
-- Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications) for Dynamics 365 for Customer Engagement(on-premises) for consistent sign-in experience to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps from your Windows client applications.  
+- Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications) for Dynamics 365 for Customer Engagement(on-premises) for consistent sign-in experience to [!INCLUDE[pn_crm_shortest]Dynamics 365 for Customer Engagement from your Windows client applications.  
   
 - Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to Dynamics 365 for Customer Engagement(on-premises) after initial sign in.  
   
