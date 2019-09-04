@@ -14,6 +14,11 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-*
+  - D365-UI-*
+  - Customer Engagement
 ms.search.scope: D365-App-msdynce_saleshub, D365-Entity-*, D365-UI-*, Customer Engagement
 ---
 
