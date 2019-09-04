@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/20/2019
+ms.date: 09/4/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -92,7 +92,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Sign in to the Dynamics 365 mobile app quickly using your work email address. For you can sign in using your email address, you will need to install the preview version of the app from App Center.
+Sign in to the Dynamics 365 mobile app for Android quickly using your work email address. For you can sign in using your email address, you will need to install the preview version of the app from App Center.
 
 ### Install the preview app
 
@@ -101,8 +101,8 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address. Fo
   - [Install Dynamics 365 for Tablets (Preview) app](https://install.appcenter.ms/orgs/dynamics365-mobile/apps/dynamics-365-for-tablets-preview/distribution_groups/public%20preview).
   
 > [!NOTE]
-> - Preview version of the app will replace the non-Preview version. 
-> - If you were previously signed-in to the non-Preview app on your device, you will remain signed-in when opening the Preview app and will need to sign-out to try the new sign-in experience.
+> - Preview version of the app will replace the non-preview version. 
+> - If you were already signed-in to the non-preview version of the app, you will need to sign-out of the app and sign back in to use the new email sign-in experience.
 
 2. Select the **DOWNLOAD** button.
 
@@ -119,7 +119,7 @@ Sign in to the Dynamics 365 mobile app quickly using your work email address. Fo
    > [!div class="mx-imgBorder"] 
    > ![Select the install button"](media/emailandrod_3.png "Select the install button") 
 
-5. Once the app has finished installed, select **Open**.
+5. Once the app has installed, select **Open**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select the open button"](media/emailandrod_4.png "Select the open button")   
