@@ -92,7 +92,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Sign in to the Dynamics 365 mobile app for Android quickly using your work email address. For you can sign in using your email address, you will need to install the preview version of the app from App Center.
+Sign in to the Dynamics 365 mobile app for Android using your work email address. To sign in using your email address, you will need to install the preview version of the app from App Center.
 
 ### Install the preview app
 
@@ -137,7 +137,6 @@ Sign in to the Dynamics 365 mobile app for Android quickly using your work email
    > [!div class="mx-imgBorder"] 
    > ![Select an app to use](media/openanapp.png "Select an app to use"). 
    
-
 
 ## Sign in and sign out (Android users)
 
