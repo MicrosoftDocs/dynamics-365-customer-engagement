@@ -18,6 +18,11 @@ search.audienceType:
   - enduser
 search.app: 
   - D365CE
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-account
+  - D365-UI-*
+  - Customer Engagement
 ---
 # Import accounts, leads, or other data
 
