@@ -36,7 +36,7 @@ Web services provide APIs that you’ll use when you write programs for [!INCLUD
   
  Eventually the Web API will replace the Organization service and Organization Data service but both of these existing web services will be available to enable a gradual transition to a single Web API. The Web API should be your first choice for new development that will support [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and future versions of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Use the Web API for any projects that access [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data with code that doesn’t run on the server, including requests from web resources and form scripts that run in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application clients. At this time you can’t easily use the Web API for code that runs on the server, such as in plug-ins or workflow assemblies. You should continue to use the Organization service for these purposes.
   
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
   
 <a name="bkmk_organizationservice"></a>
 
@@ -52,7 +52,7 @@ If you’re a .NET developer with no requirements to support other platforms, yo
   
 Business logic that runs in plug-ins or workflow assemblies on the server expect to use the Organization service. Input and output parameters use specific classes defined with the assemblies that support the Organization service.  
   
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Organization service](use-microsoft-dynamics-365-organization-service.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Organization service](use-microsoft-dynamics-365-organization-service.md)  
   
 <a name="bkmk_organizationdataservice"></a>
  
@@ -66,7 +66,7 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
 ## Discovery web services  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is a multi-tenant application. This means that a single deployment can host multiple instances of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], each with its own data, each available via a different URL. Additionally, especially when [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] servers are hosted in a data center, the specific server can change as resources are moved or load balanced. Discovery web services provide a way for a client to detect which servers and organizations are available for a user to connect to based on their user account. You can choose to use either the Web API Discovery service or the IDiscoveryService web service. The Web API Discovery service provides the same benefits as the Web API, it is easier to consume for a wider range of programming languages, platforms, and devices.  
   
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md) or [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md) or [Discover the URL for Your Organization With IDiscoveryService Web Service](org-service/discover-url-organization-organization-service.md)  
   
 <a name="bkmk_deployment"></a>   
 ## Deployment web service  
