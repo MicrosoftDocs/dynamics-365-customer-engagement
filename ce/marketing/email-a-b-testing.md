@@ -104,7 +104,7 @@ To add an A/B test to a journey:
 
     ![Email tile with A and B icons](media/email-abtest-journey-tiles.png "Email tile with A and B icons")
 
-1. Scroll down in the **Properties** panel until you see the **A/B testing** slider and then select it to turn on the test. This opens the A/B test settings.
+1. Scroll down in the **Properties** panel until you see the **A/B testing** switch and then select it to turn on the test. This opens the A/B test settings.
 
     ![A/B test settings](media/email-abtest-journey-tile-properties.png "A/B test settings")
 
@@ -113,7 +113,7 @@ To add an A/B test to a journey:
 
 1. Make the following settings to set up the test:
    - **Choose A/B test**: Your selected email design must have at least one test set up that hasn't been used, but it might have more. Select the name of the test that you want to run on this tile. You can run at most one test at a time.
-   - **A/B distribution**: Set the slider to choose how many contacts (as a percentage of the total number of contacts in the target segment) you'd like to include in the test. Half of the test audience will receive version A, and the other half will receive version B. All test contacts, and the version each receives, are selected randomly.
+   - **A/B distribution**: Set the slider to choose how many contacts (as a percentage of the total number of contacts in the target segment) you'd like to include in the test. Half of the test audience will receive version A, and the other half will receive version B. All test contacts, and the versions each receives, are selected randomly.
    - **Winning metric**: Choose whether to decide the winning design based on the click-through rate (how often a recipient clicked on a link in the message) or on the open rate (how often a recipient opened the message). In each case, the winner is the version that produced the most clicks or opens as a proportion of the total number of times that version was sent.
    - **Test duration**: Use these settings to establish how long the test should run. For best results, we recommend running each test for at least 24 hours, or longer if possible—especially if you are targeting a worldwide audience (to compensate for time zones). At the end of this time, the system will analyze the results and send the winning design to the remaining contacts in the segment. Contacts who received the "losing" design won't be re-sent the winning one.
    - **If the results are inconclusive, send**: Choose what to do if the test doesn't produce a clear winner. In this case, you can choose to send version A, version B, or a random 50/50 split of both versions to all remaining contacts.
