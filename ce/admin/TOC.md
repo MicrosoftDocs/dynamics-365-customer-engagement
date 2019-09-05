@@ -1,8 +1,11 @@
 # [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
+<!-- 
 # [What's new](release-history.md)
 # Getting started
-## [Getting started with your subscription](getting-started.md)
+## [Getting started with your subscription](getting-started.md) 
+-->
 ## [Terminology](online-terminology.md)
+<!-- 
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
 ## [Enable Unified Interface Only](enable-unified-interface-only.md) 
@@ -10,15 +13,19 @@
 ## [Enable hybrid experience](enable-hybrid-experience.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
-## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
+## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md) 
+-->
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
 ## [Sign in to apps](sign-in-office-365-apps.md) 
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
+<!-- 
 ## [What is Office 365?](what-office-365-how-does-relate.md)
-## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
+## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md) 
+-->
 ## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
 ## Service health
 ### [Check service health](check-online-service-health.md)
+<!-- 
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
@@ -52,7 +59,7 @@
 ### [Overview](supported-web-browsers-and-mobile-devices.md)
 ### [Web application requirements](web-application-requirements.md)
 ### [Support for devices](device-support.md)
-
+-->
 # Manage subscriptions, licenses, and user accounts
 ## [Overview](manage-subscriptions-licenses-user-accounts.md)
 ## [Reset a user's password](reset-users-password.md)
@@ -69,7 +76,7 @@
 ## [Add Partner of Record](add-partner-record-subscription.md)
 ## [For partners: get credit when customers subscribe](partners-credit-when-customers-subscribe-dynamics-365.md)
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
-
+<!-- 
 # Manage security, users, and teams
 ## [Overview](manage-security-users-and-teams.md)
 ## Security concepts
@@ -94,7 +101,8 @@
 ## [Add teams or users to field security profile](add-teams-users-field-security-profile.md)
 ## [Synchronize user information between Customer Engagement and Active Directory](synchronize-user-information-active-directory.md)
 ## [Add or remove sales territory members](add-remove-territory-members.md)
-## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
+## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md) 
+-->
 
 # Manage instances
 ## [Overview](manage-online-instances.md)
@@ -128,6 +136,7 @@
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
 ## [Geo to geo migrations](../admin/datacenter/geo-to-geo-migrations.md)
 
+<!-- 
 # Set up an organization
 ## [Overview](set-up-a-dynamics-365-organization.md)
 ### [Numbers, currencies, times, and dates](customize-regional-options-admins.md)
@@ -298,3 +307,4 @@
 ## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md)
 ## [Previews tab](system-settings-dialog-box-previews-tab.md)
 ## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)
+-->
