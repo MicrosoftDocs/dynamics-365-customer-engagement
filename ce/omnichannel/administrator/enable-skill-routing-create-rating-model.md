@@ -33,7 +33,7 @@ To enable skill based routing, follow these steps:
 
 5. Select **Save**.
 
-## Proficiency level (Rating model) of skills
+## Rating value of skills
 
 For each skill you add to an agent, you need a way to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 

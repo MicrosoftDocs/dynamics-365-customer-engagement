@@ -56,12 +56,13 @@ After you create skill type, you can create skills.
 
     | Field | Description  | Example Value |
     |-----------|---------------------|------------------------------|
+    | Name | Specify the name of the skill. | Spanish <br> **Note:** <br> The name must be unique. |    
     | Type | Select a skill type from the drop-down list. | Language |
-    | Name | Type the skill. | Spanish |
+    | Description | Provide a description about the skill. | This record is used to define skill level of spanish language. |
 
 5. Select **Save**. 
 
-After you save, the **Agents** section appears. In this section, you add the agents and proficiency level. To learn more, see [Assign agents to the skill](#assign-agents-to-skill)
+After you save, the **Agents** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill)
 
 ### Assign agents to skill
 
@@ -71,17 +72,17 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 3. Select a skill from the list for which you want to assign the agents.
 
-4. Select **+ Add Existing Agent** in the **Agents** section. The **Lookup Records** pane appears.
+4. Select **+ Add New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
-5. Select an agent from the list.
+5. Select an agent name for the **User (Agent)** field.
 
-6. Select a skill proficient level from the drop-down. The values that appear are based on the rating model and rating values. To learn more, see [Proficiency level (Rating model) of skills](enable-skill-routing-create-rating-model.md#proficiency-level-rating-model-of-skills)
+6. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](enable-skill-routing-create-rating-model.md#rating-value-of-skills).
 
-7. Select **Add** to add the agents.
+7. Select **Save and Close**.
 
-8. Select **Save** to save the changes.
+8. Repeat the steps 4 through 7 to add more agents to the skill.
 
-9. Repeat the steps 4 through 8 to add more agents to the skill.
+9. Select **Save** to save the skill.
 
 
 Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
