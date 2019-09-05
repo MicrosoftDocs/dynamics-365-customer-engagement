@@ -65,7 +65,7 @@ General information about plug-in debugging can be found in the Common Data Serv
     After the edit/compile/deploy/test/debug cycle for your plug-in has been completed, unregister the (on-disk or GAC) plug-in assembly and then reregister the plug-in in the Dynamics 365 Customer Engagement (on-premises) database. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Register and Deploy Plug-ins](register-deploy-plugins.md)  
   
 > [!TIP]
->  It is possible to debug a database deployed plug-in. The compiled plug-in assembly's symbol file (.pdb) must be copied to the server's \<*crm-root*>\Server\bin\assembly folder and [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] must then be restarted. After debugging has been completed, you must remove the symbol file and reset IIS to prevent the process that was executing the plug-in from consuming additional memory.  
+>  It is possible to debug a database deployed plug-in. The compiled plug-in assembly's symbol file (.pdb) must be copied to the server's \<*crm-root*>\Server\bin\assembly folder and [!INCLUDE[pn_Internet_Information_Services](../../includes/pn-internet-information-services.md)] must then be restarted. After debugging has been completed, you must remove the symbol file and reset IIS to prevent the process that was executing the plug-in from consuming additional memory.  
   
  For more information about debugging a plug-in using the Plug-in Profiler tool, see [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in).  
   
