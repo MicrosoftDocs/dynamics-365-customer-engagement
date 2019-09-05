@@ -19,9 +19,7 @@
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md) 
 -->
-## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
-## Service health
-### [Check service health](check-online-service-health.md)
+
 <!-- 
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
@@ -62,6 +60,9 @@
 ## [Overview](manage-subscriptions-licenses-user-accounts.md)
 ## [Reset a user's password](reset-users-password.md)
 -->
+## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
+## Service health
+### [Check service health](check-online-service-health.md)
 ## [Manage email notifications](manage-email-notifications.md)
 <!-- 
 ## [Purchase and assign licenses](purchase-assign-online-licenses.md)
