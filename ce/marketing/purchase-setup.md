@@ -125,14 +125,14 @@ To set up a new Marketing instance:
 
 1. From the top drop-down list, select the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization where you want to add Dynamics 365 for Marketing. (A [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *organization* is another name for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *instance*.)
 
-1. Select one of the following **Web hosting** options ():
+1. Select one of the following **Web hosting** options:
     - **Use own webserver**: Select this option if you will run your landing pages and event website on an external webserver or CMS system. This option doesn't require a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license and won't install the portal.
     - **Use Dynamics 365 portals**: Select this option if you will run your landing pages and event website on a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal running on your tenant and linked to  your Dynamics 365 for Marketing instance. This requires a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license, but in some cases a portals license may be included with your Marketing license. 
 
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
+
     > [!NOTE]
     > Dynamics 365 Portals aren't available in all countries/regions. If this applies to you, then the **Use Dynamics 365 portals** option won't be available and you'll see a notice here instead. For more information about how to run Marketing without a portal, and how to switch to a portal if they later become available in your country/region, see [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md).
-
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
 
 1. If you selected to **Use Dynamics 365 portals**, then enter a prefix for your portal URL in the field provided (under **Where do you want to host your webpage?**). You can also see what the full URL will be here. All your portals are hosted on your tenant, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use. If you want to reuse a name that's reported as already in use, then you can reclaim it by resetting the relevant portal and then removing the binding to the existing name as described in [Reset any Dynamics 365 Portals connected to the uninstalled Marketing app](uninstall-marketing.md#reset-portal).
 
