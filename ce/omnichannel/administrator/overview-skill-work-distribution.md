@@ -38,15 +38,15 @@ Skill based routing allows you to easily match conversation to the agent most pr
 
 ## Understand skill based routing
 
+   > [!div class=mx-imgBorder] 
+   > ![Skill based routing](../media/skill-based-routing1.png "Skill based routing")
+
 When a customer initiates a conversation the following happens:
 
  - Based on the context variables, the system attaches the skills to the conversation. 
  - Based on the routing rules, the system routes the conversation to the appropriate queue.
  - Now, the work distribution engines starts matching the skills against the attached skill.
  - After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
-
-   > [!div class=mx-imgBorder] 
-   > ![Skill based routing](../media/skill-based-routing1.png "Skill based routing")
 
 ## Prerequisites
 
