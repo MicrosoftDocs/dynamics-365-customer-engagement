@@ -39,7 +39,7 @@ If you have enabled Internet-facing deployment on the Microsoft Dynamics 365 Ser
 2. In the left panel, expand the domain name > expand and navigate to **Sites** > **Microsoft Dynamics CRM**.
 3. Expand **XRMServices** and then select **2011**.
     1. Double click on **Authentication** in the features view.
-    2. Right-click on the Windows Authentication row and then select **Enable** if it is disabled.
+    2. Right-click on the **Windows Authentication** row and then select **Enable** if it is disabled.
     3. Right-click again on the **Windows Authentication** and then select **Providers**.
     4. For each of the listed providers, select the provider and then choose **Remove**.
     5. Close **Providers** window.
