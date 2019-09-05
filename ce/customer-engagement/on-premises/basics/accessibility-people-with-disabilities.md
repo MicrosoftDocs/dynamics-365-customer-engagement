@@ -1,7 +1,7 @@
 ---
 title: Accessibility for people with disabilities (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs
 description: Accessibility keyboard shortcuts for people with disabilities
-keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagagement
+keywords: Accessibility; keyboard shortcuts; Accessibility in customer engagement
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics 365 Customer Engagement (on-premises)Version 8.x
