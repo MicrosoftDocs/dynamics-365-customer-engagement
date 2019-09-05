@@ -1,6 +1,29 @@
-- name: Developer Guide for Dynamics 365 Customer Engagement (on-premises)
+- name: Developer Guide for Dynamics 365 Customer Engagement
   href: overview.md
+- name: Extend Customer Engagement
+  href: extend/extend-customer-engagement.md
   items:
-  - name: Extend Customer Engagement
-    href: extend/
-
+  - name: Extend Customer Engagement on the server
+    href: extend/extend-dynamics-365-server.md
+    items:
+    - name: Write plug-ins to extend business processes
+      href: extend/write-plugin-extend-business-processes.md
+      items:
+      - name: On-premises plug-in development
+        href: extend/plugin-development.md
+        items:
+        - name: Impersonation in plug-ins
+          href: extend/impersonation-plugins.md
+        - name: Register and Deploy Plug-Ins
+          href: extend/register-deploy-plugins.md
+        - name: Debug a plug-In
+          href: extend/debug-plugin.md
+        - name: Access external web resources
+          href: extend/access-web-resources.md
+        - name: Offline plug-in execution
+          href: extend/support-offline-execution.md
+          items:
+          - name: Messages and entities for offline plug-ins
+            href: extend/supported-messages-entities-plugin.md
+          - name: 'Walkthrough: Configure assembly security for an offline plug-in'
+            href: extend/walkthrough-configure-assembly-security-offline-plugin.md
