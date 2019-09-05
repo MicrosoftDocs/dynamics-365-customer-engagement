@@ -5,7 +5,7 @@ keywords: Accessibility; keyboard shortcuts; Accessibility in customer engagemen
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics 365 Customer Engagement (on-premises)Version 8.x
-ms.date: 09/05/2019
+ms.date: 09/25/2019
 ms.service: dynamics-365-crossapp
 ms.topic: article
 author: ReneeW-CPub
