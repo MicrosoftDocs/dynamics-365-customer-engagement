@@ -75,6 +75,21 @@ To attach skills, you need a workstream record. Either you can create or use an 
     > [!div class=mx-imgBorder] 
     > ![Add skill rule to workstream](../media/attach-skill2.png "Add skill rule to workstream")
 
+
+## Enable the queues for skill based routing
+
+After you set up skill attachment rules for a workstream, you must enable skill based routing for the queues that are related to the a particular workstream. If you don't enable the queues for skill based routing, the system wouldn't route the conversation based on the skills of the agents in that particular queue.
+
+To enable the queue for skill based routing, follow these steps.
+
+1. Sign in to the **Omnichannel for Administrator** app.
+
+2. Select **Skills** in under **Users & Queues** in the sitemap. 
+
+3. Set **Yes** for the **Enable Skill Based Routing** field.
+
+4. Select **Save** to save the changes.
+
 ## See also
 
 [Overview of skill based routing](overview-skill-work-distribution.md)
