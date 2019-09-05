@@ -21,13 +21,13 @@ search.app:
 ---
 # Offline use of the Dynamics 365 for Customer Engagement services
 
-[!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)] enables you to continue your work when you are disconnected from the server.  
+[!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] enables you to continue your work when you are disconnected from the server.  
   
- In addition, the event and plug-in infrastructure lets you leverage development investments across solutions by using the same APIs and programming model. The <xref:Microsoft.Xrm.Sdk.IOrganizationService> methods and the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps OData service methods function both online and offline. When using a method such as `Create` or `Update` offline, the data is written locally and then when the user connects to the server, the actions are played back to the server.  
+ In addition, the event and plug-in infrastructure lets you leverage development investments across solutions by using the same APIs and programming model. The <xref:Microsoft.Xrm.Sdk.IOrganizationService> methods and the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps OData service methods function both online and offline. When using a method such as `Create` or `Update` offline, the data is written locally and then when the user connects to the server, the actions are played back to the server.  
   
  For more information about whether a message is supported offline, see <xref:Microsoft.Crm.Sdk.Messages>. You can also determine whether a <xref:Microsoft.Xrm.Sdk.IOrganizationService> message works offline by checking the `SdkMessage.Availability` attribute for the desired message. If the message works for multiple entity types, you must also check the `SdkMessageFilter.Availability` attribute to see whether the message is available offline for the entity you want to work with. For example, the `Create` message is available offline, but not for the queue, user, or site entities.  
   
- Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699694.aspx).  
+ Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699694.aspx).  
   
 ### See also  
  [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)   

@@ -22,7 +22,7 @@ search.app:
 ---
 # Supported messages and entities for plug-ins
 
-This topic identifies the message and entity combinations that support offline execution of plug-ins for [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)]. For information on server registered plug-ins that do not require offline execution, see [Available events](/powerapps/developer/common-data-service/event-framework#available-events).
+This topic identifies the message and entity combinations that support offline execution of plug-ins for [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. For information on server registered plug-ins that do not require offline execution, see [Available events](/powerapps/developer/common-data-service/event-framework#available-events).
   
  The **Message Availability** column of the table shown below indicates whether a message is available online, offline, or both. The **Entity Deployment** column indicates if the entity can be deployed on the server, on the client, or both. A value of **null** in the **Primary Entity** column means that there is no primary entity associated with the message. The same applies to the **Secondary Entity** column.  
   
@@ -31,7 +31,7 @@ This topic identifies the message and entity combinations that support offline e
  Custom entities support the same base messages as system entities, depending on whether the entity is organization-owned or user-owned. For more information, see [Actions on Entity Records](introduction-entities.md#ActionsOnEntityRecords).  
   
 > [!NOTE]
->  The term *offline* applies to the [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)]. The term *client* can apply to either [!INCLUDE[pn_crm_outlook_online](../../includes/pn-crm-outlook-online.md)] or [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)].  
+>  The term *offline* applies to the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. The term *client* can apply to either [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)] or [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)].  
 > 
 >  Whether a message is available online or offline can be determined programmatically or through a query by inspecting the `SdkMessage.Availability` attribute. [!INCLUDE[metadata_browser](../../includes/metadata-browser.md)]  
   
