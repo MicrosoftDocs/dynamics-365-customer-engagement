@@ -4,9 +4,7 @@
 # [What's new](release-history.md)
 # Getting started
 ## [Getting started with your subscription](getting-started.md) 
--->
 ## [Terminology](online-terminology.md)
-<!-- 
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
 ## [About Unified Interface](about-unified-interface.md)
 ## [Enable Unified Interface Only](enable-unified-interface-only.md) 
@@ -15,11 +13,9 @@
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md) 
--->
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
 ## [Sign in to apps](sign-in-office-365-apps.md) 
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
-<!-- 
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md) 
 -->
@@ -62,9 +58,12 @@
 ### [Support for devices](device-support.md)
 -->
 # Manage subscriptions, licenses, and user accounts
+<!-- 
 ## [Overview](manage-subscriptions-licenses-user-accounts.md)
 ## [Reset a user's password](reset-users-password.md)
+-->
 ## [Manage email notifications](manage-email-notifications.md)
+<!-- 
 ## [Purchase and assign licenses](purchase-assign-online-licenses.md)
 ## [Manage Microsoft licenses](manage-licenses.md)
 ## [Manage user account synchronization](manage-user-account-synchronization.md)
@@ -77,7 +76,6 @@
 ## [Add Partner of Record](add-partner-record-subscription.md)
 ## [For partners: get credit when customers subscribe](partners-credit-when-customers-subscribe-dynamics-365.md)
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
-<!-- 
 # Manage security, users, and teams
 ## [Overview](manage-security-users-and-teams.md)
 ## Security concepts
@@ -106,7 +104,9 @@
 -->
 
 # Manage instances
+<!-- 
 ## [Overview](manage-online-instances.md)
+-->
 ## [What's new with instance management](new-instance-management.md)
 ## [Sandbox](manage-sandbox-instances.md)
 ## [Add instance](add-instance-subscription.md)
@@ -120,10 +120,11 @@
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+<!-- 
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
 ## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
-
+-->
 # Datacenter regions
 ## [Overview](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
