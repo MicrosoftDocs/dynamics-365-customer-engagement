@@ -23,7 +23,7 @@ In the portal, when the customer fills the pre-chat survey questions, the system
 
 For example:
 
-Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso contact center. The pre-chat survey question prompts Ian Madera to choose a product, and Ian Madera chooses **Xbox**. As Ian Madera's geolocation is Spain, the Omnichannel system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent finds an agent with skill as **Xbox** and **Spanish**.
+Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso contact center. The pre-chat survey question prompts Ian Madera to choose a device, and Ian Madera chooses **Xbox**. As Ian Madera's geolocation is Spain, the Omnichannel system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent finds an agent with skill as **Xbox** and **Spanish**.
 
 ## Prerequisites
 
@@ -37,23 +37,48 @@ To attach skills, you need a workstream record. Either you can create or use an 
 
 3. Select a work stream from the list.
 
-4. Select the **Skill Attach** tab.
+4. Select the **Skill Attachment Rules** tab.
 
-5. Select **+ Add** to new a skill rule.
+5. Select a skill matching option for the **Matching Logic** field. You can select one of the following:
 
-6. Specify the following in the **New Skill Rule** page.
+    - Exact Skill Matching
+    - Closest Skill Matching
+
+6. Select **+ Add** to new a skill rule. The **SKILL ATTACHMENT RULE** page opens.
+
+7. Specify the following in the **New Skill Attachment Rule** page.
 
     | Field | Description | Value |
     |--------|----------|-------------------|
-    | Name | Provide a name to the skill rule. | Xbox product and Spanish language |
-    | Description | Provide a description about the skill rule. | This is a skill matching rule for Xbox product and Spanish language. |
+    | Name | Provide a name to the skill rule. | Xbox product and Spain location |
+    | Description | Provide a description about the skill rule. | This is a skill matching rule for the Xbox product and Spanish location. |
 
-7. Set up the condition. <br> For example, **Hardware** equals **Xbox** and **Geolocation** equals **Spain**.
+8. Set up the condition. Select an **Entity**, **Attribute**, and **Operator**. <br> For example, 
 
-8. Select **+ Add Existing Skill**. The **Lookup Records** pane appears.
+    | Entity | Attribute | Operator | Value |
+    |-----------|-----------------|---------------------|---------------------|
+    | Live Chat Context (Conversation) | Country/Region | Contains | Spain |
 
-9. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Add**.
+9. Select **Save** to save the record. After you save, the **Skill** section appears.
 
-    If the responses of the pre-chat survey matches with condition, then the Omnichannel system attaches the skill.
+9. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
 
-10. Select **Save**.
+10. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close**.
+
+    > [!div class=mx-imgBorder] 
+    > ![Attach skill to a conversation](../media/attach-skill1.png "Attach skill")
+
+    If the condition matches, then the Omnichannel system attaches the skill.
+
+11. Select **Save**. After you save, the rule appears in the **Attach Rules** section of the workstream.
+
+    > [!div class=mx-imgBorder] 
+    > ![Add skill rule to workstream](../media/attach-skill2.png "Add skill rule to workstream")
+
+## See also
+
+[Overview of skill based routing](overview-skill-work-distribution.md)
+
+[Enable skill based routing and create rating model](enable-skill-routing-create-rating-model.md)
+
+[Set up skills and assign agents](setup-skills-assign-agents.md)

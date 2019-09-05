@@ -63,5 +63,3 @@ Skill based routing allows you to easily match conversation to the agent most pr
 [Set up skills and assign agents](setup-skills-assign-agents.md)
 
 [Attach skills to conversation](attach-skills.md)
-
-

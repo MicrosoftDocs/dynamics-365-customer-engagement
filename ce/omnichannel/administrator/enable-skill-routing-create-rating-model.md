@@ -91,3 +91,10 @@ For example:
 | Beginner lever A | 2 |
 | Don't know | 1 |
 
+## See also
+
+[Overview of skill based routing](overview-skill-work-distribution.md)
+
+[Set up skills and assign agents](setup-skills-assign-agents.md)
+
+[Attach skills to conversation](attach-skills.md)

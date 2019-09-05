@@ -80,9 +80,20 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 7. Select **Save and Close**.
 
+    > [!div class=mx-imgBorder] 
+    > ![Assign agents to skill](../media/assign-user-skill.png "Assign agents to skill")
+
 8. Repeat the steps 4 through 7 to add more agents to the skill.
 
 9. Select **Save** to save the skill.
 
 
 Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
+
+## See also
+
+[Overview of skill based routing](overview-skill-work-distribution.md)
+
+[Enable skill based routing and create rating model](enable-skill-routing-create-rating-model.md)
+
+[Attach skills to conversation](attach-skills.md)
