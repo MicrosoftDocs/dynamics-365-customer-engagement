@@ -2,11 +2,11 @@
 title: Create and manage users and user profiles | MicrosoftDocs
 description: Know how to create and manage users and user profiles in the Omnichannel for Customer Service
 keywords: users and user profiles; Omnichannel for Customer Service
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/15/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 3a61efc9-84b5-4499-8cce-578aae138d1e
@@ -28,19 +28,30 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel users in 
 
 ## Manage a user in Omnichannel
 
-1. In the Omnichannel site map, go to **Queues & Users \> Users**.
+1. Sign in to the **Omnichannel for Administrator** app.
+
+2. Select **Users** under **Queues & Users**.
 
     The **Omnichannel Users** view is shown. 
 
-2. Select a user and in the **Omnichannel** tab, provide the following information:
+3. Select a user from the list.
 
-    - In the **Agent Details** section: </br>
+4. Select the **Omnichannel** tab.
 
-        - **Capacity** - Allocate capacity to agent.</br>
+5. Specify the following in the user page.
 
-        - **Default Presence** - Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel app.
-     
-3. Select **Save** to the save the user record.
+    | Section | Field | Description | Example value |
+    |---------------|---------------------|---------------------|-------------------------------------------------|
+    | User Details | Capacity | Allocate capacity to agent. | 100 |
+    | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel app. | 
+
+6. Select **+ Add Existing Skill** under the **Skills** section. **Quick create: Skills** pane appears.
+
+7. Select a skill and proficiency of the from the list.
+
+8. Select **Save and Close**.
+
+9. Select **Save** to the save the user record.
 
 > [!div class=mx-imgBorder]
 > ![Default presnce](../media/oc-user-omni-tab.png)
