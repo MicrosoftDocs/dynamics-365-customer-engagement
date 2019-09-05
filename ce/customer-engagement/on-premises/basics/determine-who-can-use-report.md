@@ -1,5 +1,5 @@
 ---
-title: "Determine who can use a report (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Determine who can use a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/11/2019
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 1dea8024-64b7-4a4e-a20d-4af5cf7338ad
 caps.latest.revision: 35
 author: Mattp123

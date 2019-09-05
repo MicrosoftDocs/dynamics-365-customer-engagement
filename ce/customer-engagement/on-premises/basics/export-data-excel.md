@@ -1,5 +1,5 @@
 ---
-title: "Export data to Excel (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Export data to Excel (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/29/2018
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 7505920c-fb5b-4794-acdb-110e307f0ffe
 caps.latest.revision: 41
 author: jimholtz
@@ -43,7 +43,7 @@ Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-
   
 |                                                                                                               Task                                                                                                                |                                              Learn more                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-|   Do an *ad-hoc* or *what if* analysis without modifying [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. Or, quick bulk edit to multiple [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.   | [Analyze your Dynamics 365 for Customer Engagement apps data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md) |
+|   Do an *ad-hoc* or *what if* analysis without modifying [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. Or, quick bulk edit to multiple [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.   | [Analyze your Dynamics 365 Customer Engagement (on-premises) apps data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md) |
 |                                                                   Get a snapshot of the data at the current data and time or you want to share it with others.                                                                    |           [Export to an Excel static worksheet](../basics/export-excel-static-worksheet.md)           |
 | Get the most update-to-date information and be able to refresh it in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and match what you see in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] at any time. |          [Export to an Excel dynamic worksheet](../basics/export-excel-dynamic-worksheet.md)          |
 |                                                                      View [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in a pivot table.                                                                      |                 [Export to an Excel PivotTable](../basics/export-excel-pivottable.md)                 |

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 1
 author: mduelae
@@ -26,15 +26,15 @@ search.app:
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Easily pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel using the **Collaborate** option in the Dynamics 365 app. The step-by-step process will help you connect the selected record or view to a Teams channel.
+Easily pin a Dynamics 365 Customer Engagement (on-premises) apps record or view to a Teams channel using the **Collaborate** option in the Dynamics 365 app. The step-by-step process will help you connect the selected record or view to a Teams channel.
 
-The [basic collaboration experience](teams-collaboration.md) only lets you pin records to a Teams channel from within Teams. The enhanced collaboration experience lets you pin a record or a view of records to a Teams channel while you are working in Dynamics 365 for Customer Engagement apps.
+The [basic collaboration experience](teams-collaboration.md) only lets you pin records to a Teams channel from within Teams. The enhanced collaboration experience lets you pin a record or a view of records to a Teams channel while you are working in Dynamics 365 Customer Engagement (on-premises) apps.
 
 For more information on which entities support the collaborate option, see [Record types supporting collaborate](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-work-records-and-view#record-types-supporting-collaborate)
 
-## Pin a Dynamics 365 for Customer Engagement apps record or view to a Teams channel
+## Pin a Dynamics 365 Customer Engagement (on-premises) apps record or view to a Teams channel
 
-1. In Dynamics 365 for Customer Engagement app, open a record or view.
+1. In Dynamics 365 Customer Engagement (on-premises) app, open a record or view.
 2. When the record or view is open, on the command bar, select **Collaborate**.
 
    > [!div class="mx-imgBorder"]
@@ -83,7 +83,7 @@ For more information on which entities support the collaborate option, see [Reco
        > ![Enter name](media/teams-add-channel-6.png "Enter a team name")
        
  > [!NOTE]
- >  You will only see the next step only if you pin a record and you are the owner of the Teams channel. If you pin a view  of Dynamics 365 for Customer Engagement apps records, then you will not see the next step.
+ >  You will only see the next step only if you pin a record and you are the owner of the Teams channel. If you pin a view  of Dynamics 365 Customer Engagement (on-premises) apps records, then you will not see the next step.
  
  5. If you are the owner of the Teams channel then you can add teammates to the channel. From the list, select the recommended members who either own the record or the record has been shared with them. You can also use the search option to find other teammates related to the record. When you are done, select **Finish**.
  

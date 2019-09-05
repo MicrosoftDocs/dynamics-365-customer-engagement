@@ -1,5 +1,5 @@
 ---
-title: "Create connections to define relationships between records (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create connections to define relationships between records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 09/15/2017
@@ -7,7 +7,7 @@ ms.service:
   - crm-online
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 3cd98c0b-0599-4d96-8e9a-095e2d528a9c
 author: jimholtz
 ms.author: jimholtz

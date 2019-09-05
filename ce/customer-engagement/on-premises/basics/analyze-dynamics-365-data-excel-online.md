@@ -1,5 +1,5 @@
 ---
-title: "Analyze your Dynamics 365 for Customer Engagement appsdata in Excel Online | MicrosoftDocs"
+title: "Analyze your Dynamics 365 Customer Engagement (on-premises) appsdata in Excel Online | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 0762789a-7cae-49a2-b2aa-8346115c2b9e
 caps.latest.revision: 30
 author: jimholtz
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Analyze your Dynamics 365 for Customer Engagement apps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
+# Analyze your Dynamics 365 Customer Engagement (on-premises) apps data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
 
  No need to leave [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to analyze your data. Now you can do a quick *ad-hoc* analysis using [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
@@ -43,7 +43,7 @@ search.app:
   
 To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Export to Excel** > **Open in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]**.  
   
- ![Export Dynamics 365 for Customer Engagement appsdata to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 for Customer Engagement appsdata to Excel Online")  
+ ![Export Dynamics 365 Customer Engagement (on-premises) appsdata to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 Customer Engagement (on-premises) appsdata to Excel Online")  
   
 > [!NOTE]
 >  By default, you can’t open your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] in the **Advanced Find** view. However, you can save your advanced find as a personal view and then go to your personal view to do an ad-hoc analysis in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  
@@ -79,7 +79,7 @@ To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-cr
   
  To see video captions, click the **Closed Caption (CC)** button ![YouTube Closed Caption button](../basics/media/youtube-closed-caption-button.png "YouTube Closed Caption button") in the lower-right corner of the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] window.  
   
- [![Banner for Dynamics 365 for Customer Engagement appsYouTube channel](../basics/media/see-more-videos-on-youtube.png "Banner for Dynamics 365 for Customer Engagement appsYouTube channel")](http://go.microsoft.com/fwlink/p/?LinkID=325001)  
+ [![Banner for Dynamics 365 Customer Engagement (on-premises) appsYouTube channel](../basics/media/see-more-videos-on-youtube.png "Banner for Dynamics 365 Customer Engagement (on-premises) appsYouTube channel")](http://go.microsoft.com/fwlink/p/?LinkID=325001)  
 <!-- The fwlink above is correct - updated to point to the how-to playlists
 -->
 

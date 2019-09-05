@@ -1,5 +1,5 @@
 ---
-title: "Send bulk email to customers (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Send bulk email to customers (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 4d2fe05b-99a4-49b5-a6c9-57d15df30f3b
 caps.latest.revision: 31
 author: shubhadaj

@@ -1,5 +1,5 @@
 ---
-title: "Use the workplace calendar (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Use the workplace calendar (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 20ba9141-2816-4311-ade2-97dafd86e2bf
 caps.latest.revision: 28
 author: shubhadaj

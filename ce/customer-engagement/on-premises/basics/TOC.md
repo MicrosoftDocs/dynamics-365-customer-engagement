@@ -1,5 +1,5 @@
 # [Basics Guide](../basics/basics-guide.md)
-## [Business apps in Dynamics 365 for Customer Engagement](../basics/business-apps-dynamics-365.md)
+## [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md)
 ## [Find your business apps](../basics/where-find-business-apps.md)
 ## [How data is organized](../basics/how-data-organized.md)
 ## [What are business processes](../basics/what-are-business-processes.md)

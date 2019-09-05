@@ -1,5 +1,5 @@
 ---
-title: "Deactivate or activate an account or contact (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Deactivate or activate an account or contact (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/06/2019
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 71b20ebb-7ecd-44e9-8de2-1db070cf30cf
 caps.latest.revision: 30
 author: mduelae

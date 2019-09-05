@@ -1,9 +1,9 @@
 ---
 title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft Docs
-description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365 for Customer Engagement
+description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365 Customer Engagement (on-premises)
 keywords: 
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 author: ReneeW-CPub
 ms.author: renwe
 manager: annbe
@@ -18,9 +18,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use keyboard shortcuts in Dynamics 365 for Customer Engagement apps
+# Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises) apps
 
-Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 for Customer Engagement apps. 
+Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement (on-premises) apps. 
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 

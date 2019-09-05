@@ -1,5 +1,5 @@
 ---
-title: "Create, edit, or save an Advanced Find search (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create, edit, or save an Advanced Find search (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 07/27/2018
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 45e83f30-ab4c-4ef5-86c4-a0a8f2a21561
 caps.latest.revision: 32
 author: Mattp123
@@ -37,7 +37,7 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
   
         At the bottom of the **Select** list, the **Related** section shows related record types. For example, most record types have a related Notes record type. To select fields from a related record type, select field, and a new **Select** link appears.  
          
-        If you’re using Dynamics 365 for Customer Engagement apps, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
+        If you’re using Dynamics 365 Customer Engagement (on-premises) apps, can use advanced find to build a “Does not contain data” query. For example, you can query for all cases that do not contain a task. To do this launch advanced find and in the query, choose look for **Cases** and **Tasks (Regarding)** and chooses **Does not contain data**. 
          
         ![Advanced find does not contain query](media/advancedfind.png "Advanced find does not contain query")
   

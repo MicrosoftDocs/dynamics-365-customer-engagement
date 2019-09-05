@@ -1,5 +1,5 @@
 ---
-title: "Print leads, quotes, and other records (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Print leads, quotes, and other records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: d807028a-0847-4bd0-94bb-61cd2fe4017d
 caps.latest.revision: 9
 author: mduelae
@@ -27,7 +27,7 @@ When you need a paper copy of a record such as a contact, lead, quote, or invoic
   
 1. Go to the record you want to print. For example, to print a lead, go to **Sales > Leads** and select a record.  
   
-2. Choose the **Options**  button ![Options button for Dynamics 365 for Customer Engagement apps](../basics/media/options-button.png "Options button for Dynamics 365 for Customer Engagement apps") at the top right corner of the screen.  
+2. Choose the **Options**  button ![Options button for Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises) apps") at the top right corner of the screen.  
   
     (In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], choose **File > Print**.)  
   
@@ -41,7 +41,7 @@ When you need a paper copy of a record such as a contact, lead, quote, or invoic
   
 1. Go to the list you want to print. For example, to print a list of invoices, go to **Sales > Invoices**.  
   
-2. Choose the **Options**  button ![Options button for Dynamics 365 for Customer Engagement apps](../basics/media/options-button.png "Options button for Dynamics 365 for Customer Engagement apps") at the top right corner of the screen.  
+2. Choose the **Options**  button ![Options button for Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/options-button.png "Options button for Dynamics 365 Customer Engagement (on-premises) apps") at the top right corner of the screen.  
   
     (In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], choose **File > Print**.)  
   

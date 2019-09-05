@@ -1,5 +1,5 @@
 ---
-title: "Drill down in a chart (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Drill down in a chart (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 author: mduelae
 ms.assetid: 5768a0f0-21c0-4c7b-9c2a-992c21df406c
 caps.latest.revision: 22
@@ -27,7 +27,7 @@ You can drill down into a segment on a chart to filter chart data for that segme
   
 2. [!INCLUDE[proc_follow_step_for_app_youre_using](../includes/proc-follow-step-for-app-youre-using.md)]  
   
-      #### If using the Dynamics 365 for Customer Engagement apps 
+      #### If using the Dynamics 365 Customer Engagement (on-premises) apps 
   
     1.  Click the **Charts** area.  
   

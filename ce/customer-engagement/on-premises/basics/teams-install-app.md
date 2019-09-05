@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: mduelae
@@ -24,24 +24,24 @@ search.app:
 # Install and set up the Dynamics 365 app for Teams 
 
 <a name="bkmk_enable"></a> 
-## For Dynamics 365 for Customer Engagement admins: enable Microsoft Teams integration feature 
+## For Dynamics 365 Customer Engagement (on-premises) admins: enable Microsoft Teams integration feature 
 
 By default, the basic and enhanced Microsoft Teams integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!NOTE]
    > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-troubleshoot#troubleshoot-configuration-issues-with-teams-integration).
 
-1. Sign in as a System administrator to Dynamics 365 for Customer Engagement apps.
+1. Sign in as a System administrator to Dynamics 365 Customer Engagement (on-premises) apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
-3. For the [basic collaboration experience](teams-collaboration.md), enable **Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 for Customer Engagement apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
-4. For the [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), enable **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in  Dynamics 365 for Customer Engagement apps and you can set up a connection all within Dynamics 365 app.
+3. For the [basic collaboration experience](teams-collaboration.md), enable **Basic Microsoft Teams Integration**. When Basic Microsoft Teams Integration is enabled, the **Collaborate** button appears on records in Dynamics 365 Customer Engagement (on-premises) apps so you can see the connected team channel. In addition, in the **Documents** tab of Dynamics 365 record page, the connected Teams Channel file library will appear. This lets you set-up a connection in the Teams app.
+4. For the [enhanced collaboration experience](teams-collaboration-enhanced-experience.md), enable **Enable Enhanced Microsoft Teams Integration**. To turn this option on, you need need Office 365 tenant admin permissions. When Enhanced Microsoft Teams Integration is enabled, the **Collaborate** button appears on records and views in  Dynamics 365 Customer Engagement (on-premises) apps and you can set up a connection all within Dynamics 365 app.
 
    > [!div class="mx-imgBorder"] 
    > ![Settings page](media/teams-system-settings.png "Settings page")
 
 
    > [!IMPORTANT]
-   > - If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 for Customer Engagement apps.
+   > - If not enabled, users can still connect Dynamics 365 Customer Engagement (on-premises) apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 Customer Engagement (on-premises) apps.
    > - > When the feature is enabled, the collaboration feature is [enabled only for a selected set of system entities](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-work-records-and-view#record-types-supporting-collaborate). If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md).  
 
 ## Install the app and set up the Teams tab
@@ -58,7 +58,7 @@ By default, the basic and enhanced Microsoft Teams integration is disabled. To t
 
 3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
 
-   You can use Dynamics 365 for Customer Engagement apps for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
+   You can use Dynamics 365 Customer Engagement (on-premises) apps for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing for your personal use and install the app for your Teams later.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable personal and team features](media/teams-store-install-both75.png "Enable personal and team features")
@@ -80,7 +80,7 @@ By default, the basic and enhanced Microsoft Teams integration is disabled. To t
    > ![Select environment and app module](media/teams-fre-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 for Customer Engagement version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only Dynamics 365 Customer Engagement (on-premises) version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
@@ -100,17 +100,17 @@ By default, the basic and enhanced Microsoft Teams integration is disabled. To t
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users in Teams before you add the view to the Teams channel. Otherwise, other team members will not hae access to the view content.
 
 
-8. After completing the above steps, you will see a new tab for Dynamics 365 for Customer Engagement apps for the selected Teams channel. 
+8. After completing the above steps, you will see a new tab for Dynamics 365 Customer Engagement (on-premises) apps for the selected Teams channel. 
  
  
-See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the tab feature to collaborate with Dynamics 365 for Customer Engagement apps.
+See [Collaborate with Teams](teams-collaboration.md) for information on how you can use the tab feature to collaborate with Dynamics 365 Customer Engagement (on-premises) apps.
 
 ## Set up the Dynamics 365 bot
 
 
-Set up the bot feature to interact with Dynamics 365 for Customer Engagement apps.
+Set up the bot feature to interact with Dynamics 365 Customer Engagement (on-premises) apps.
 
-1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 for Customer Engagement apps**.
+1. Find and open the Dynamics 365 bot. Open **Chat** on the left side of the Teams app, and then select **Dynamics 365 Customer Engagement (on-premises) apps**.
 
 2. The **Conversation** tab opens with the welcome message sent by the bot that provides an overview of the bot’s abilities. Select **Sign in**.
 
@@ -125,7 +125,7 @@ Set up the bot feature to interact with Dynamics 365 for Customer Engagement app
    > ![Select an environment](media/teams-bot-select-org.png "Select an environment")
 
    > [!NOTE]
-   > Only Dynamics 365 for Customer Engagement version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed.
+   > Only Dynamics 365 Customer Engagement (on-premises) version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed.
 
 4. Enter credentials and sign in.
 
@@ -134,23 +134,23 @@ Set up the bot feature to interact with Dynamics 365 for Customer Engagement app
    > [!div class="mx-imgBorder"] 
    > ![Bot is set up](media/teams-bot-confirmation.png "Bot is set up")
 
-See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 for Customer Engagement apps.
+See [Use the bot](teams-bot-search.md) for information on how you can use the bot feature to interact with Dynamics 365 Customer Engagement (on-premises) apps.
 
 ## Set up the personal dashboard
-Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 for Customer Engagement apps without involving other team members.
+Set up the personal dashboard (My Dashboard) to interact with Dynamics 365 Customer Engagement (on-premises) apps without involving other team members.
 
 1. Open the Dynamics 365 app.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open the Dynamics 365 for Customer Engagement appsapp](media/teams-pick-app.png "Open the Dynamics 365 for Customer Engagement appsapp")
+   > ![Open the Dynamics 365 Customer Engagement (on-premises) appsapp](media/teams-pick-app.png "Open the Dynamics 365 Customer Engagement (on-premises) appsapp")
 
-2. Select a version 9.x environment and a Unified Interface app to connect with Dynamics 365 for Customer Engagement apps, and then choose **Save Changes**.
+2. Select a version 9.x environment and a Unified Interface app to connect with Dynamics 365 Customer Engagement (on-premises) apps, and then choose **Save Changes**.
 
    > [!div class="mx-imgBorder"] 
    > ![Select environment and app module](media/teams-mydashboard-org-app.png "Select environment and app module")
 
    > [!NOTE]
-   > - Only Dynamics 365 for Customer Engagement version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
+   > - Only Dynamics 365 Customer Engagement (on-premises) version 9.x or later environments appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environments are listed. 
 

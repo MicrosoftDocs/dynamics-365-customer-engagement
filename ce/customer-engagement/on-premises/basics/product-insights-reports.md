@@ -1,5 +1,5 @@
 ---
-title: "Product insights reports (Dynamics 365 for Customer Engagement)  | MicrosoftDocs"
+title: "Product insights reports (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: f6f2787c-c021-406a-9d43-aa62c49f5c86
 caps.latest.revision: 22
 author: Mattp123

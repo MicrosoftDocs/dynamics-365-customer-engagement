@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a report using the Report Wizard (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create or edit a report using the Report Wizard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/26/2019
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 3b79a467-ae11-4c84-891e-9d1c790194b6
 caps.latest.revision: 38
 author: Mattp123

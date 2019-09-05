@@ -1,5 +1,5 @@
 ---
-title: "Select a data map (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Select a data map (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -7,7 +7,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 31cc6338-3d1a-4b76-b1cb-e835803a3595
 caps.latest.revision: 41
 author: jimholtz

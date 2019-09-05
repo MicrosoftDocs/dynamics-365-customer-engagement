@@ -1,5 +1,5 @@
 ---
-title: "Where to find your business apps (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Where to find your business apps (Dynamics 365 Customer Engagement (on-premises) apps) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises) (on-premises)
 author: shubhadaj
 ms.assetid: 03968b0d-5505-45d0-90ff-4bacefbf3559
 caps.latest.revision: 15
@@ -23,14 +23,14 @@ search.app:
 
 Business apps are available to users based on their security roles. If your system administrator has created any new apps,  they will be visible to you if your security role has been given access to those apps. For information on business apps in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], see [Dynamics 365 for phones and tablets - User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md). 
   
-## Open business apps from the Dynamics 365 for Customer Engagement appshome page  
+## Open business apps from the Dynamics 365 Customer Engagement (on-premises) appshome page  
  This option is available only to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps customers.  
   
 1. Sign in to the [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] admin center at: https://admin.microsoft.com.  
   
-2. Click the App Launcher button ![App launcher](../basics/media/app-chooser.png "App launcher") in the upper-left corner, and then click Dynamics 365 for Customer Engagement.  
+2. Click the App Launcher button ![App launcher](../basics/media/app-chooser.png "App launcher") in the upper-left corner, and then click Dynamics 365 Customer Engagement (on-premises).  
   
-    The Dynamics 365 for Customer Engagement apps home page opens, which is where you'll find all your Dynamics 365 for Customer Engagement apps. You'll see all published business apps based on your organization's licensing options, and your security role.  
+    The Dynamics 365 Customer Engagement (on-premises) apps home page opens, which is where you'll find all your Dynamics 365 Customer Engagement (on-premises) apps. You'll see all published business apps based on your organization's licensing options, and your security role.  
   
 3. Click the app that you want to use.  
   
@@ -69,7 +69,7 @@ When you use an app, you'll see only those entities in the site map  and other p
 
 Depending on the installation options your admin chooses when setting up [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, you may see any of the following apps in the app switcher:
 
-![Dynamics 365 for Customer Engagement app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 for Customer Engagement app switcher")  
+![Dynamics 365 Customer Engagement (on-premises) app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 Customer Engagement (on-premises) app switcher")  
 
 The following table describes what each app is used for, whether it's designed for web or mobile, and where to go for more information.
 
@@ -86,5 +86,5 @@ The following table describes what each app is used for, whether it's designed f
 
   
 ### See also  
- [Dynamics 365 for Customer Engagement business apps](../basics/business-apps-dynamics-365.md)   
- [Find your way around Dynamics 365 for Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)
+ [Dynamics 365 Customer Engagement (on-premises) business apps](../basics/business-apps-dynamics-365.md)   
+ [Find your way around Dynamics 365 Customer Engagement (on-premises) apps](../basics/navigation-customer-engagement-enterprise.md)

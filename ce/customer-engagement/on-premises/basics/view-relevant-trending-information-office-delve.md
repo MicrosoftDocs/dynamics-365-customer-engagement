@@ -1,5 +1,5 @@
 ---
-title: "View relevant and trending information on a dashboard with Office Delve (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "View relevant and trending information on a dashboard with Office Delve (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: e2d95967-f70b-4a68-97d9-a9c889d8fa4f
 caps.latest.revision: 13
 author: jimholtz
@@ -21,7 +21,7 @@ search.app:
 ---
 # View relevant and trending information on a dashboard with Office Delve
 
-Office Graph integration for Dynamics 365 for Customer Engagement apps will be removed on August 31, 2017, at the same time that [Office ends GQL query support](https://msdn.microsoft.com/office/office365/howto/query-office-graph-using-gql-with-search-rest-api). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
+Office Graph integration for Dynamics 365 Customer Engagement (on-premises) apps will be removed on August 31, 2017, at the same time that [Office ends GQL query support](https://msdn.microsoft.com/office/office365/howto/query-office-graph-using-gql-with-search-rest-api). Customers can continue to use Office Graph integration through August 31, 2017. After August 31 that date, the Office Graph trending documents component will cease to function and you’ll see the following error message:
 
 **We can't get to the trending documents. Try again later.**
 
@@ -35,12 +35,12 @@ For more information, see the blog: [Office Graph integration removal](https://b
 <!--
 [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is a new way to find and discover relevant and trending documents across your organization. [!INCLUDE[pn_delve](../includes/pn-delve.md)] searches across your company and uses Azure Machine Learning to provide a view of the documents you are most interested in based on who created, viewed, edited, or shared the documents. [!INCLUDE[pn_delve](../includes/pn-delve.md)] is a new dashboard component that can be added to any user or system dashboard so you can view trending information from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
- ![Office Delve dashboard in Dynamics 365 for Customer Engagement apps](../basics/media/crm-ua-delve-dashboard.png "Office Delve dashboard in Dynamics 365 for Customer Engagement apps")  
+ ![Office Delve dashboard in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/crm-ua-delve-dashboard.png "Office Delve dashboard in Dynamics 365 Customer Engagement (on-premises) apps")  
   
  View trending information important to you.  
   
 > [!TIP]
-> [![Video symbol](../basics/media/video-button.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Find information fast with Dynamics 365 for Customer Engagement apps(2:39)](https://go.microsoft.com/fwlink/p/?linkid=837816).  
+> [![Video symbol](../basics/media/video-button.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Find information fast with Dynamics 365 Customer Engagement (on-premises) apps(2:39)](https://go.microsoft.com/fwlink/p/?linkid=837816).  
   
  To use [!INCLUDE[pn_delve](../includes/pn-delve.md)], the system administrator must first enable it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable Office Delve](../admin/enable-office-delve.md).  
   

@@ -1,5 +1,5 @@
 ---
-title: "Invoice, quote and order reports (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Invoice, quote and order reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: baa85ee8-f27a-4a1c-b3c2-3234aa828bb9
 caps.latest.revision: 9
 author: Mattp123

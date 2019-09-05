@@ -1,5 +1,5 @@
 ---
-title: "Export to an Excel PivotTable (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Export to an Excel PivotTable (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 5b798287-5c58-47da-a893-f00394d0ae94
 caps.latest.revision: 46
 author: jimholtz
@@ -87,7 +87,7 @@ You can export [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data 
   
 - The data and time values that you see in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] show up as “Date” only when you export the file to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but the cell actually shows both the date and time.  
   
-- If you’re going to make changes and import the data file back in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], remember that secured, calculated, and composite fields (such as Full Name) are read-only and can’t be imported in to Dynamics 365 for Customer Engagement apps. You’ll be able to edit these fields in Excel but when you import the data back in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] these fields won’t be updated. If you want to update these fields such as a contact’s name, it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for changes.  
+- If you’re going to make changes and import the data file back in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], remember that secured, calculated, and composite fields (such as Full Name) are read-only and can’t be imported in to Dynamics 365 Customer Engagement (on-premises) apps. You’ll be able to edit these fields in Excel but when you import the data back in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] these fields won’t be updated. If you want to update these fields such as a contact’s name, it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for changes.  
   
 - Some system views, such as Accounts: No Campaign Activities in Last 3 Months, can be exported only to a static [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] worksheet.  
   

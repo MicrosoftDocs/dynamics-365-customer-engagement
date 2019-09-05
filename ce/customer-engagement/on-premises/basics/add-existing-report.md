@@ -1,5 +1,5 @@
 ---
-title: "Add a report from outside Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Add a report from outside Dynamics 365 Customer Engagement (on-premises) apps| MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: 9cfad031-e7a8-4c00-b59f-1ff359717c6e
 caps.latest.revision: 25
 author: Mattp123
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Add a report from outside Dynamics 365 for Customer Engagement apps
+# Add a report from outside Dynamics 365 Customer Engagement (on-premises) apps
 
 If you’ve created a custom report outside of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can easily add it to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   

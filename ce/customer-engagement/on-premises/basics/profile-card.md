@@ -1,5 +1,5 @@
 ---
-title: "View the profile card for a contact or user (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "View the profile card for a contact or user (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/02/2019
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: dd02756b-f2ec-40d8-8b46-3d164b7a9fc7
 caps.latest.revision: 01
 author: mkaur
@@ -21,7 +21,7 @@ search.app:
 ---
 # View the profile card for a contact or user
 
-Use the profile card to get quick information about a contact or user. When you select a contact or user field in Dynamics 365 for Customer Engagement apps, you can find information related to them on their profile card. For more information about profile cards, see [Profile cards in Office 365](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501).
+Use the profile card to get quick information about a contact or user. When you select a contact or user field in Dynamics 365 Customer Engagement (on-premises) apps, you can find information related to them on their profile card. For more information about profile cards, see [Profile cards in Office 365](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501).
 
 > [!NOTE]
 >  - The profile card experience is available in the Unified Interface of Dynamics 365 Customer Engagemnt apps.

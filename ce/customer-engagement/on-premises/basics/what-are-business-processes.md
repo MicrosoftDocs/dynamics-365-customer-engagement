@@ -1,5 +1,5 @@
 ---
-title: "What are business processes? (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "What are business processes? (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
 ms.assetid: b0c0a758-2f03-4679-b81c-560779a6dc7d
 caps.latest.revision: 5
 author: brycho
@@ -42,5 +42,5 @@ search.app:
   
 ### See also  
  [Understanding how data is organized in Customer Engagement](../basics/how-data-organized.md)   
- [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md)   
+ [Business apps in Dynamics 365 Customer Engagement (on-premises) apps](../basics/business-apps-dynamics-365.md)   
  [Find your business apps](../basics/where-find-business-apps.md)   
