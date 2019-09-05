@@ -87,7 +87,7 @@ To generate the required schema:
 > Here are a few links and notes that may help you generate the schema you need:
 > 
 > - A metadata browser is available, which you can to explore and understand your database structure. For details about how to install and use it, see the [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md).
-> - When you're [creating your schema](../admin/create-schema-export-configuration-data.md) with the Configuration Migration tool, you can check for relationships used by any selected entity by selecting the **Show the relationships for teh selected entity** check box. This can help keep you from leaving out any dependencies.
+> - While you're [creating your schema](../admin/create-schema-export-configuration-data.md) with the Configuration Migration tool, you can check for relationships used by any selected entity by selecting the **Show the relationships for the selected entity** check box. This can help keep you from leaving out any dependencies.
 > - When you're done [creating your schema](../admin/create-schema-export-configuration-data.md) with the Configuration Migration tool, select **Tools** > **Validate Schema** from the menu bar. This will check for dependencies for all your selected entities, and can also help point out other common issues.
 
 ## Export data from your source instance
