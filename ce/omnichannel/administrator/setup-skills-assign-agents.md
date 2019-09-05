@@ -87,7 +87,6 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 9. Select **Save** to save the skill.
 
-
 Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
 
 ## See also
@@ -97,3 +96,5 @@ Alternatively, you can also add a skill to the user (agent). To learn more, see 
 [Enable skill based routing and create rating model](enable-skill-routing-create-rating-model.md)
 
 [Attach skills to conversation](attach-skills.md)
+
+[Manage users](users-user-profiles.md)

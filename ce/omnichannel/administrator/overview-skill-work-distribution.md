@@ -40,7 +40,6 @@ Skill based routing allows you to easily match conversation to the agent most pr
 
 
 
-
 ## Prerequisites
 
 - You must use the latest Omnichannel for Customer Service (October 2019 update).
@@ -54,6 +53,7 @@ Skill based routing allows you to easily match conversation to the agent most pr
 - [Step 4: Create skills](setup-skills-assign-agents.md#create-skills)
 - [Step 5: Assign agent to skills](setup-skills-assign-agents.md#assign-agents-to-skill)
 - [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-skill)
+- [Step 7: Enable skill based routing in queues](enable-skill-queues.md)
 
 
 ## See also
