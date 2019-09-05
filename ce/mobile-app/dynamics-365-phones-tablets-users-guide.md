@@ -88,7 +88,7 @@ You can also sign in using your Dynamics 365 Customer Engagement app web address
   > ![Sign out](media/previewsignout.png "Sign out")
       
 
-## Sign in using your eamil address (Preview feature for Android users)
+## Sign in using your email address (Preview feature for Android users)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
