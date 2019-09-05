@@ -1,5 +1,5 @@
-# [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
 <!-- 
+# [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
 # [What's new](release-history.md)
 # Getting started
 ## [Getting started with your subscription](getting-started.md) 
