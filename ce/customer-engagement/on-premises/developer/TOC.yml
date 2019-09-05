@@ -1,6 +1,50 @@
 - name: Developer Guide for Dynamics 365 Customer Engagement (on-premises)
   href: overview.md
+- name: Extend Customer Engagement
+  href: extend/extend-customer-engagement.md
   items:
-  - name: Extend Customer Engagement
-    href: extend/
-
+  - name: Extend Customer Engagement on the server
+    href: extend/extend-dynamics-365-server.md
+    items:
+    - name: Write plug-ins to extend business processes
+      href: extend/write-plugin-extend-business-processes.md
+      items:
+      - name: On-premises plug-in development
+        href: extend/plugin-development.md
+        items:
+        - name: Impersonation in plug-ins
+          href: extend/impersonation-plugins.md
+        - name: Register and Deploy Plug-Ins
+          href: extend/register-deploy-plugins.md
+        - name: Debug a plug-In
+          href: extend/debug-plugin.md
+        - name: Access external web resources
+          href: extend/access-web-resources.md
+        - name: Offline plug-in execution
+          href: extend/support-offline-execution.md
+          items:
+          - name: Messages and entities for offline plug-ins
+            href: extend/supported-messages-entities-plugin.md
+          - name: 'Walkthrough: Configure assembly security for an offline plug-in'
+            href: extend/walkthrough-configure-assembly-security-offline-plugin.md
+- name: Use Dynamics 365 Web services
+  href: use-microsoft-dynamics-365-web-services.md
+  items:
+  - name: Use the Organization service
+    href: use-microsoft-dynamics-365-organization-service.md
+    items:
+    - name: Getting started with on-premise managed code application development
+      href: get-started-managed-code-application-development.md
+    - name: Discover the URL for your organization
+      href: discover-url-organization-organization-service.md
+    - name: Use the Organization Service to read and write data or metadata
+      href: use-organization-service-read-write-data-metadata.md
+      items:
+      - name: Use ExecuteMultiple to improve performance for bulk data load
+        href: use-executemultiple-improve-performance-bulk-data-load.md
+    - name: Create early bound entity classes
+      href: create-early-bound-entity-classes-code-generation-tool.md
+    - name: Offline use of services
+      href: offline-use-services.md
+  - name: Use the Discovery services
+    href: use-discovery-service.md
