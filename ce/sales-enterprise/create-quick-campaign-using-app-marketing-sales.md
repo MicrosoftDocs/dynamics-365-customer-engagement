@@ -1,16 +1,11 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-description: ""
 keywords: 
 ms.date: 08/31/2017
-ms.service:
-  - dynamics-365-sales
-ms.custom:
-  - dyn365-sales
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement
-  - Dynamics 365 for Customer Engagement apps version 9.x
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: ff906069-cba8-45cd-93e8-2b517c1d89d2
 author: shubhadaj
 ms.author: shujoshi

@@ -1,7 +1,6 @@
 ---
 title: "Work with email, page, and form templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 05/07/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
 author: kamaybac
 ms.author: kamaybac
@@ -97,7 +95,7 @@ The following known issues apply to the out-of-the-box email templates and custo
   - Borders around buttons are not supported.
   - Rounded corners might not be rendered correctly.
   - Background images aren't supported when they have text or button overlays.
-  - Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements. These effects can't be simulated by the designer or preview displays. If necessary, you can use [test sends](prepare-marketing-emails.md#preview-message) to see how your designs look in specific Outlook configurations.
+  - Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements. These effects can't be simulated by the designer or preview displays. If necessary, you can use [test sends](email-preview.md) to see how your designs look in specific Outlook configurations.
 - **T-Online email clients** will render two buttons, regular **Button** and **VML** markup.
 - The **Android 4.4 email client** shows only about 60&nbsp;percent of the template width. We haven't been able to verify whether horizontal scrolling is possible. As far as we know, this only affects the native Android client, not the native clients included with phones from most manufacturers, such as Samsung.
 - **SFR.fr email clients** display a background color for some links.
@@ -111,11 +109,11 @@ The following known issues apply to the out-of-the-box email templates and custo
 - **Unable to scroll**: The returned preview is a static screenshot, which might include scrollbars for messages that are higher than the screen. You can't actually scroll the image using these.
 - **The message is too high**: Sometimes Litmus renders extra content at the end of the email message.
 - **Only half of the message is visible in the preview**: This can happen if Litmus takes a screenshot before the message is fully loaded. Try to reload the preview. If problems persist, then the message may include dynamic content that isn't resolved.
-- **Outlook previews don't reflect custom plugins**: Outlook supports local customizations and plugins that can, in some cases, affect the way messages are rendered. Litmus provides screenshots based on a standard Outlook installation&mdash;without considering the affect of custom plugins and other local customizations. If necessary, you can use [test sends](prepare-marketing-emails.md#preview-message) to see how your designs look in specific Outlook configurations.
+- **Outlook previews don't reflect custom plugins**: Outlook supports local customizations and plugins that can, in some cases, affect the way messages are rendered. Litmus provides screenshots based on a standard Outlook installation&mdash;without considering the affect of custom plugins and other local customizations. If necessary, you can use [test sends](email-preview.md) to see how your designs look in specific Outlook configurations.
 
 ### See also
 
-[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Email marketing overview](prepare-marketing-emails.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)  
 [Design your digital content](design-digital-content.md)  
 [Accessibility and keyboard shortcuts](designer-shortcuts.md)  

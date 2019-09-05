@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2e49e083-7b6d-48d7-86f4-0430de12e009
 author: kamaybac
 ms.author: kamaybac
@@ -63,7 +62,7 @@ To work with your existing videos, go to **Marketing** > **Marketing content** >
 
 To add a video from your video library to the design of a marketing email or marketing page:
 
-1. Open or create an [email message](prepare-marketing-emails.md) or [marketing page](create-deploy-marketing-pages.md).
+1. Open or create an [email message](email-design.md) or [marketing page](create-deploy-marketing-pages.md).
 2. Drag a video element from the **Toolbox** panel to the appropriate location in your design.
 3. Select the new video element, open the **Properties** panel and use the **Source** lookup field to find and select the video from your library that you want to include here.
 4. Continue working with your design and eventually go live when you are ready to start using it.

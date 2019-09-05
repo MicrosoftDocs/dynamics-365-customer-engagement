@@ -332,6 +332,7 @@ Reviewing specific routes with the client is another good way to drill into the 
 For more information about RSO, how it works, and how to use it, check out our following documentation:
 
 - [Resource Scheduling Optimization overview](rso-overview.md)
-- [Configuring Resource Scheduling Optimization](rso-configuration.md)
+- [Configuring RSO](rso-configuration.md)
 - [Scheduling optimization in RSO](rso-schedule-optimization.md)
 - [RSO frequently asked questions](rso-faq.md)
+- [RSO quickstart](rso-quickstart.md)

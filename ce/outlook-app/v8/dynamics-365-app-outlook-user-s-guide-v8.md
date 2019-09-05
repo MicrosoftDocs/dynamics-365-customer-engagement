@@ -7,16 +7,12 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 39
 author: mduelae
 ms.author: mkaur
 manager: kvivek
-tags: 
-  - MigrationHO
 search.audienceType: 
   - admin
   - customizer
@@ -24,6 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365Outlook
+tags: MigrationHO
 ---
 # Dynamics 365 App for Outlook User's Guide, version 8.2 
 

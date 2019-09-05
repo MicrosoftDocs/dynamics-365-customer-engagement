@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 author: kamaybac
 ms.author: kamaybac
@@ -39,7 +38,7 @@ To promote the survey, you might create a marketing email message that links to 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
 
 - [Create and run online surveys](surveys.md).
-- [Prepare marketing email messages](prepare-marketing-emails.md).
+- [Email marketing overview](prepare-marketing-emails.md).
 - [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)
 
 ## Hand off to sales

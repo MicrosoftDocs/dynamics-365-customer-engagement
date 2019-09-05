@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8443c485-10a1-4d3e-a23d-047b75b707db
 author: kamaybac
 ms.author: kamaybac
@@ -46,23 +45,26 @@ For Microsoft 365 users that don't have a Customer Engagement license, you can "
 
 To purchase and assign a free Marketing user license:
 
-1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com).
+1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com) using an admin account that has permissions to purchase services and assign licenses.
 
-1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services** and fnd the **Dynamics 365 for Marketing USL** item, which shows a price of **$0.00 user/month**.
+1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**.
+1. On the **Purchase services** page, type "Marketing" into the serch field near the top of the page and then press Enter on your keyboard.
+
+1. Select the **Dynamics 365 for Marketing User License** tile, which shows a price of **Free**.
 
     ![Purchase a free user license for Marketing](media/admin-m365-usl.png "Purchase a free user license for Marketing")
 
-1. Select **Buy now** for the **Dynamics 365 for Marketing USL** and follow the instructions on your screen to complete the transaction.
+1. Follow the instructions on your screen to complete the transaction.
 
-1. Return to the Microsoft 365 admin center and go to **Users** > **Active users**, select a user account to open its settings in a fly-out, and then select **Edit** in the **Product license** row to add and remove licenses for that user.
+1. Return to the Microsoft 365 admin center and go to **Users** > **Active users** and select the user you want to assign a license to. The settings for that user open in a fly-out.
 
     ![Edit settings for a user account](media/admin-m365-edit-user.png "Edit settings for a user account")
 
-1. The **Product licenses** fly-out opens, which lists the status of each available license for your selected user. Set the **Dynamics 365 for Marketing USL slider** to **On**.
+1. Select the **Licenses and Apps** tab in the flyout and then select the **Dynamics 365 for Marketing User License** check box to assign the license to this user.
 
     ![Add a license](media/admin-m365-assign-license.png "Add a license")
 
-1. Select **Save** and then close the fly-out. The user now has a free Marketing license and should be visible in the Customer Engagement user-admin interface in a few minutes.
+1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the Customer Engagement user-admin interface in a few minutes.
 
 1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
 
@@ -138,8 +140,8 @@ The tables in this section summarize the purpose of each role added by Dynamics 
 
 | Security&nbsp;role | Who&nbsp;needs&nbsp;it | Access&nbsp;granted |
 |---------------|--------------|----------------|
-| Marketing Professional - Business | Most standard marketers who require access to Dynamics 365 for Marketing core features, but don't need to configure the system | Nearly all entities in the **Marketing** work area, including segments, customer journeys, emails, marketing pages, marketing lists, and related features and templates (but not including LinkedIn or lead-scoring features). This role grants only limited access to the **Settings** work area. Also grants access to fundamental entities like contacts, leads, accounts, activities (tasks, phone calls, appointments), and marketing lists. Because this role is intended for individual contributors, most create and delete permissions are limited to records the user owns, but they can view and edit records owned by other users in their business unit. This role is provided access to insights forms through from-based security.|
-| Marketing Manager - Business | Marketing managers (who also administer the system) | All the same entities as the **Marketing Professional – Business** role, but more often grants enhanced permissions to work with records owned by other users in the same business unit as the manager. This role also provides access to all views and settings of the **Settings** work area. This role is provided access to insights forms through from-based security. |
+| Marketing Professional - Business | Most standard marketers who require access to Dynamics 365 for Marketing core features, but don't need to configure the system | Nearly all entities in the **Marketing** work area, including segments, customer journeys, emails, marketing pages, marketing lists, and related features and templates (but not including LinkedIn or lead-scoring features). This role grants only limited access to the **Settings** work area. It also grants access to fundamental entities like contacts, leads, accounts, activities (tasks, phone calls, appointments), and marketing lists. Because this role is intended for individual contributors, most create and delete permissions are limited to records the user owns, but they can view and edit records owned by other users in their business unit. This role is provided access to insights forms through form-level security.|
+| Marketing Manager - Business | Marketing managers (who also administer the system) | All the same entities as the **Marketing Professional – Business** role, but more often grants enhanced permissions to work with records owned by other users in the same business unit as the manager. This role also provides access to all views and settings of the **Settings** work area. This role is provided access to insights forms through from-level security. |
 | Marketing, Business App Access | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 | Marketing Services User | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 | Lead Score Modeler | Marketing strategists responsible for building lead-scoring models (must be combined with a core marketing role) | Can view and edit lead scoring models, view lead scores, and customize the lead-to-opportunity marketing business process for leads. All these features are in the **Lead management** section of the **Marketing** work area.  |

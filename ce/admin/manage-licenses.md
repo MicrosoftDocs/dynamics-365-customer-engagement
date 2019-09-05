@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps (online) licenses | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/07/2018
+ms.date: 08/29/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -67,6 +67,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-
 >  Save your Customer Engagement apps data to a location where you can retrieve it later, if needed.  
   
 ### See also  
- [Important information for CRM Online customers](../admin/important-information-customers.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Create users and assign Microsoft Dynamics 365 for Customer Engagement apps (online) security roles](../admin/create-users-assign-online-security-roles.md)
+[Important information for CRM Online customers](../admin/important-information-customers.md)<br /> 
+[Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)<br />
+[Create users and assign Microsoft Dynamics 365 for Customer Engagement apps (online) security roles](../admin/create-users-assign-online-security-roles.md)<br />
+[PowerApps and Microsoft Flow licensing FAQs for October 2019](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)

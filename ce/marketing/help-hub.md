@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 0736ed6b-7931-1899-28a2-9f84a03fc568
 author: kamaybac
 ms.author: kamaybac
@@ -85,7 +84,7 @@ search.app:
 <tr><td>
 <h2>Marketing with Dynamics 365</h2>
 <li><a href="design-digital-content.md" data-raw-source="[Design digital content](design-digital-content.md)">Design digital content</a></li>
-<li><a href="prepare-marketing-emails.md" data-raw-source="[Prepare marketing email messages](prepare-marketing-emails.md)">Prepare marketing email messages</a></li>
+<li><a href="prepare-marketing-emails.md" data-raw-source="[Email marketing overview](prepare-marketing-emails.md)">Email marketing overview</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li>
 <li><a href="customer-journeys-create-automated-campaigns.md" data-raw-source="[Create automated campaigns](customer-journeys-create-automated-campaigns.md)">Create automated campaigns</a></li>

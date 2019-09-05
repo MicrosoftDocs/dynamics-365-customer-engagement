@@ -1,7 +1,6 @@
 ---
 title: "Recover from failed form submissions (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how to view and recover from failed form submissions in Dynamics 365 for Marketing"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: ca23244e-25d5-4ddf-afe2-20d63ff318a2
 author: kamaybac
 ms.author: kamaybac

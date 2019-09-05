@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4aa6d5c3-1b29-46b1-bbf3-9bf260853b20
 author: kamaybac
 ms.author: kamaybac
@@ -99,7 +98,7 @@ When space becomes available for a waitlisted contact using manual registration,
 
 The segmentation engine used by Marketing relies on database information being synced from your main customer database to an external service that is optimized to work with big data, analytics, and segmentation. To maximize the performance of your system, you should only sync those specific entities that you want to use in your segmentation. If you are using waitlists, then you must sync the waitlist entity to enable you to find and communicate with waitlisted contacts. If you are using session-level waitlisting, then you should also sync the session entity.
 
-Talk to your system administrator to make sure the waitlisted entity is being synced. If you are the admin, then go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync** and make sure the **Waitlist Item (msevtmgt\_waitlistitem)** entity is selected; for session-level waitlisting, also select the **Session (msevtmgt\_session)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync)
+Talk to your system administrator to make sure the waitlisted entity is being synced. If you are the admin, then go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing data configuration** and make sure the **Waitlist Item (msevtmgt\_waitlistitem)** entity is selected; for session-level waitlisting, also select the **Session (msevtmgt\_session)** entity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync)
 
 ### Create a segment that finds waitlisted contacts to invite
 
@@ -158,7 +157,7 @@ The following example shows a journey that sends email to tell contacts using ma
 
 ![A customer journey for processing a waitlist](media/event-waitlist-journey.png "A customer journey for processing a waitlist")
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md), [Prepare marketing email messages](prepare-marketing-emails.md), [Customer journey tiles reference](customer-journey-tiles-reference.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md), [Email marketing overview](prepare-marketing-emails.md), [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
 ### See also
 

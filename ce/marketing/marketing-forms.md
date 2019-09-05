@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d27cf07f-3cef-4fdb-8d12-ffea28ed6f50
 author: kamaybac
 ms.author: kamaybac
@@ -134,6 +133,10 @@ Use a form element to add a form to a landing page. After adding the element, yo
 When you're choosing which form the element will show, you can only choose forms whose type matches the type of marketing page you are working on (landing page, subscription center, or forward to a friend).
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [The form element for marketing pages](content-blocks-reference.md#the-form-element-for-marketing-pages)
+
+## View submissions and gain insights from form interactions
+
+Once your form is part of a live marketing page, it will start to collect information about how people are using it, including records of form submissions and other details. The system provides a wealth of information, including analyitics, KPIs, graphs, and more, to help you gain insights from your marketing results. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Analyze results to gain insights from your marketing activities](insights.md)
 
 ### See also
 

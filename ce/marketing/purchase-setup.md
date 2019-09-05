@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
 keywords: setup; licensing; FRE; Azure; privacy; marketing services; marketing insights service
-ms.date: 06/17/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f722b098-be63-412a-aadc-7b34d11fa668
 author: kamaybac
 ms.author: kamaybac
@@ -95,6 +94,8 @@ There are many ways to add one or more Marketing apps to your Microsoft 365 tena
 
 You can have any number of Marketing apps available on your tenant. Initially, each of these apps will be unconfigured and unassigned to any [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. Later, you'll run the Marketing setup wizard to assign the app to an instance and configure it.
 
+<a name="run-wizard"></a>
+
 ## Run the Marketing setup wizard
 
 After purchasing your license for Dynamics 365 for Marketing, you'll have an unconfigured Dynamics 365 for Marketing app available on your tenant, but you still need to set it up for use. The Marketing setup wizard will help you review all the relevant privacy policies and set up and integrate its various elements.
@@ -124,13 +125,16 @@ To set up a new Marketing instance:
 
 1. From the top drop-down list, select the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] organization where you want to add Dynamics 365 for Marketing. (A [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *organization* is another name for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] *instance*.)
 
-1. Select one of the following **Web hosting** options ():
+1. Select one of the following **Web hosting** options:
     - **Use own webserver**: Select this option if you will run your landing pages and event website on an external webserver or CMS system. This option doesn't require a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license and won't install the portal.
     - **Use Dynamics 365 portals**: Select this option if you will run your landing pages and event website on a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portal running on your tenant and linked to  your Dynamics 365 for Marketing instance. This requires a dedicated [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals license, but in some cases a portals license may be included with your Marketing license. 
 
     [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
 
-1. If you selected to **Use Dynamics 365 portals**, then enter a prefix for your portal URL in the field provided. You can also see what the full URL will be here. All your portals are hosted on your tenant, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use.
+    > [!NOTE]
+    > Dynamics 365 Portals aren't available in all countries/regions. If this applies to you, then the **Use Dynamics 365 portals** option won't be available and you'll see a notice here instead. For more information about how to run Marketing without a portal, and how to switch to a portal if they later become available in your country/region, see [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md).
+
+1. If you selected to **Use Dynamics 365 portals**, then enter a prefix for your portal URL in the field provided (under **Where do you want to host your webpage?**). You can also see what the full URL will be here. All your portals are hosted on your tenant, which uses a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)]-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they will recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use. If you want to reuse a name that's reported as already in use, then you can reclaim it by resetting the relevant portal and then removing the binding to the existing name as described in [Reset any Dynamics 365 Portals connected to the uninstalled Marketing app](uninstall-marketing.md#reset-portal).
 
 1. Select  **Continue**  to continue. Dynamics 365 for Marketing includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup wizard lists each of these and provides links for more information. It also asks you to enter your organization's postal address.
 
@@ -139,9 +143,9 @@ To set up a new Marketing instance:
 
 1. Carefully read the consent text shown for each check box, and follow the links to make sure you understand all the relevant issues. If you agree with the terms, then mark each check box as you go to indicate your consent. Some of these are optional, so you can still use the product without them, though the related features will be disabled. Other features are required, so you won't be able to use Dynamics 365 for Marketing without agreeing to them.
 
-2. Type the full physical street address for your organization in the field provided. All marketing email messages sent by Dynamics 365 for Marketing must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
+1. Type the full physical street address for your organization in the field provided. All marketing email messages sent by Dynamics 365 for Marketing must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
 
-3. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about three hours to set up a paid instance.
+1. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about three hours to set up a paid instance.
 
 ## Privacy notice
 

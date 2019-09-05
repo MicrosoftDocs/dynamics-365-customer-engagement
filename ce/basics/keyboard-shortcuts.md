@@ -4,7 +4,6 @@ description: Use the keyboard shortcuts to perform common tasks in Microsoft Dyn
 keywords: 
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 author: ReneeW-CPub
 ms.author: renwe
 manager: annbe

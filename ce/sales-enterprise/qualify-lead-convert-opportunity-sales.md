@@ -3,14 +3,10 @@ title: "Qualify a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
 ms.date: 08/01/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
@@ -19,7 +15,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 29
-topic-status: Tech Reviewing
 ---
 
 # Qualify a lead (Sales and Sales Hub)

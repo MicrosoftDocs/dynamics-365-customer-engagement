@@ -1,7 +1,6 @@
 ---
 title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how to integrate Dynamics 365 for Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems"
-keywords: designer; email; preview; template; Litmus; marketing page; marketing form
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -9,7 +8,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 25d0d7da-0ac0-46a7-953c-86b07338bcb3
 author: kamaybac
 ms.author: kamaybac
@@ -86,6 +84,9 @@ When you export a segment to Dynamics 365 for Marketing, the resulting segment w
 One way to tell whether a segment in Marketing is being managed by Customer Insights is to open the segment and go to its **General** tab. The **Description** field here shows the URL of the Customer Insights instance where the segment came from and also the date and time the segment was last refreshed by being exported or re-exported.
 
 ![A segment from Customer Insights](media/ci-exported-segment-details.png "A segment from Customer Insights")
+
+> [!NOTE]
+> Although the **Description** field is used to hold this information in the current early-access version, we expect to provide a dedicated field for this in the final release.
 
 ### You must go live with your Customer Insights segments to use them in Marketing
 

@@ -3,18 +3,17 @@ title: "Add or manage teams in Dynamics 365 for Sales Professional | MicrosoftDo
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 for Sales Professional."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 429afe92-a0b6-425b-a62f-0e0f07117f4b
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Add or manage teams in Dynamics 365 for Sales Professional

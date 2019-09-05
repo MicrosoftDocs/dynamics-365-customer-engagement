@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d6e63962-e06a-4bc2-90d2-e7bca4e12d61
 author: kamaybac
 ms.author: kamaybac
@@ -83,7 +82,7 @@ One of the most common online scams, also known as *phishing*, occurs when a fra
 - A public/private key signature that proves the message was sent from a server owned by a known organization.
 - A central register of authenticated signatures, which enables the DNS (Domain Name System) to confirm that each signature is legitimate and that the sending domain and claimed from-address both belong to the same organization.
 
-When you send email from Dynamics 365 for Marketing, your messages come from a domain owned by Microsoft (such as `contosomarketing.onmicrsoft.com`), but the from-address will probably belong to one of your own marketing, sales, or account managers using a more well-known domain that belongs to your organization (such as `you@contoso.com`). This discrepancy can be a red flag when an inbound email server does a DKIM check on incoming messages, which is why a full implementation of DKIM is so important for ensuring high deliverability, especially when you are using a third-party sending service like Dynamics 365 for Marketing.
+When you send email from Dynamics 365 for Marketing, your messages come from a domain owned by Microsoft (such as `contosomarketing.onmicrosoft.com`), but the from-address will probably belong to one of your own marketing, sales, or account managers using a more well-known domain that belongs to your organization (such as `you@contoso.com`). This discrepancy can be a red flag when an inbound email server does a DKIM check on incoming messages, which is why a full implementation of DKIM is so important for ensuring high deliverability, especially when you are using a third-party sending service like Dynamics 365 for Marketing.
 
 Dynamics 365 for Marketing helps you to generate, register, and confirm DKIM keys for each of your sending domains. See [Authenticate your domains](marketing-settings.md#authenticate) for instructions.
 
@@ -142,4 +141,4 @@ Though there can be a few advantages to arranging for a dedicated sender IP, the
 ### See also
 
 [Create a marketing email and go live](create-marketing-email.md)  
-[Prepare marketing email messages](prepare-marketing-emails.md)
+[Email marketing overview](prepare-marketing-emails.md)

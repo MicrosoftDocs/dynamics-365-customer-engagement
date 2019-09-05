@@ -3,18 +3,17 @@ title: "Add or manage users in Dynamics 365 for Sales Professional | MicrosoftDo
 description: "Create a user account for every person in the organization, and assign roles so they can access the Dynamics 365 for Sales Professional app."
 keywords: ""
 ms.date: 04/05/2019
-ms.service:
-  - "dynamics-365-sales"
-ms.custom:
-  - "dyn365-sales"
+ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - "Dynamics 365 for Customer Engagement"
-  - "Dynamics 365 for Customer Engagement apps version 9.x"
+applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 9c3688a9-2319-42e2-838d-cfd4de3d290c
 author: shubhadaj
 ms.author: shujoshi
 manager: annbe
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.custom: dyn365-sales
 ---
 
 # Add or manage users in Dynamics 365 for Sales Professional

@@ -9,7 +9,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 8c8063dc-3d69-46f3-9e11-722098542777
 author: kamaybac
 ms.author: kamaybac
@@ -134,6 +133,9 @@ Form capture makes it possible for forms created on an external website to submi
 
 To enable form capture, you must generate a form-capture JavaScript in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and add that script to your external form page. Then you'll be able to load that page into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to map its fields to marketing fields. At run time, the form-capture JavaScript captures each form submission and submits the values to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for processing and storage.
 
+> [!NOTE]
+> The form capture feature currently ignores hidden input fields (`<input type="hidden">`) in the target form. One way to work around this is to change the hidden field to use a type other than hidden, and then add a style attribute to hide it, such as:<br>`<input type="text" style="visibility:hidden" name="field name" id="fieldID" />`
+
 ### Capture a new external form
 
 To set up a form capture:
@@ -174,7 +176,7 @@ To set up a form capture:
 1. The  **Designer** > **Select form** tab opens. If the page at your URL includes more than one form, then each available form is listed here. You must create a marketing-form record for each form, so if you do have more than one form then you must pick just one of them to link to the current marketing-form record. A **Fields preview** for the selected form is provided, which may help you identify the form you want. Choose a form (if needed) and then select **Next** to continue.    
     ![Choose a form from the target page](media/form-capture-select-form.png "Choose a form from the target page")
 
-1. The  **Designer** > **Map fields** tab opens. Each field from the external form is listed here using its external label. Fields without labels are hidden fields in the external form. Map each **Source field** shown here to a marketing-form field in the **Dynamics 365 field** column.    
+1. The  **Designer** > **Map fields** tab opens. Each field from the external form is listed here using its external label. Map each **Source field** shown here to a marketing-form field in the **Dynamics 365 field** column.    
     ![Map form fields](media/form-capture-map-fields.png "Map form fields")
 
     > [!NOTE]
@@ -218,7 +220,7 @@ Unlike local landing pages, there is no [design element](content-blocks-referenc
 
 To set up a journey that invites contacts to visit an external form and then reacts to form visits and/or submissions:
 
-1. Create and go live with a [marketing email message](prepare-marketing-emails.md) that includes a link to the page where you are hosting the form.
+1. Create and go live with a [marketing email message](email-design.md) that includes a link to the page where you are hosting the form.
 
 1. Create a customer journey as usual.
 

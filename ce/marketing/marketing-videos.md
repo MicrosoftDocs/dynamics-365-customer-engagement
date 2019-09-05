@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: cdf6e522-22a4-4687-a6a0-95702c6ff596
 author: kamaybac
 ms.author: kamaybac
@@ -47,7 +46,7 @@ For an even more detailed video overview of the features and benefits of [!INCLU
 - Tutorial: [Create a marketing email and go live](create-marketing-email.md)
 - [Design your digital content](design-digital-content.md)
 - [Keyboard shortcuts and accessibility features for content designers](designer-shortcuts.md)
-- [Prepare marketing email messages](prepare-marketing-emails.md)
+- [Email marketing overview](prepare-marketing-emails.md)
 - [Work with email, page, and form templates](email-templates.md)
 - [Design elements reference](content-blocks-reference.md)
 

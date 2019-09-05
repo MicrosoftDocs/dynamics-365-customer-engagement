@@ -9,7 +9,6 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: dee40fe5-1942-4521-986f-714edfd36433
 caps.latest.revision: 37
 author: mduelae
@@ -19,6 +18,11 @@ search.audienceType:
   - enduser
 search.app: 
   - D365CE
+searchScope:
+  - D365-App-msdynce_saleshub
+  - D365-Entity-account
+  - D365-UI-*
+  - Customer Engagement
 ---
 # Import accounts, leads, or other data
 

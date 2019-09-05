@@ -1,22 +1,18 @@
 ---
-title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/19/2019
+ms.date: 07/25/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
 author: mduelae
 ms.author: mkaur
 manager: kvivek
-tags: 
-  - MigrationHO
 search.audienceType: 
   - admin
   - customizer
@@ -35,6 +31,8 @@ search.app:
 > - Multi-factor authentication with [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] and Server Side Synchronization is supported only in an online-only configuration. It is not a supported scenario when either one or both of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and Exchange are on-premises.
 >
 > - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported on [Office 365 shared mailbox](https://support.office.com/en-us/article/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)
+>
+> - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported in configurations that have Dynamics 365 and Office 365 in different tenants.
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
 

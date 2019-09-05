@@ -1,19 +1,17 @@
 ---
 title: "Work offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/07/2019
+ms.date: 08/21/2019
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement apps Version 9.x
+applies_to: Dynamics 365 for Customer Engagement apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-author: mduelae
 ms.author: mkaur
+author: mduelae
 manager: kvivek
 search.audienceType: 
   - admin
@@ -140,8 +138,7 @@ These entities and corresponding commands are available in offline mode.
 |Connection|Read only|
 |Connection Role|Read only|
 |Contact|Create, Read, Update, Delete	|
-|Currency|Create, Read, Update, Delete|
-|Custome Entity|Create, Read, Update, Delete	|
+|Custom Entity|Create, Read, Update, Delete	|
 |Email|Read only	|
 |Lead|Create, Read, Update, Delete, Qualify/Disqualify	|
 |Opportunity|Create, Read, Update, Delete|

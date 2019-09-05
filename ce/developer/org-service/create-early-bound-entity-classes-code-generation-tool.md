@@ -4,7 +4,7 @@ description: ""
 keywords: 
 ms.date: 04/24/2019
 ms.service: crm-online
-ms.custom: 
+ms.custom: on-premise
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

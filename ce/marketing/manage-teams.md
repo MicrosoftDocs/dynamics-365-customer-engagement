@@ -2,7 +2,7 @@
 title: "Administer teams of users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Organize users into teams and apply roles to teams in Dynamics 365 for Marketing"
 keywords: administration; organization settings; user; team; role; permission; fiscal year
-ms.date: 06/21/2019
+ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -10,7 +10,6 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: edc9a748-f08f-484c-ae86-0c20d20c1f6c
 author: kamaybac
 ms.author: kamaybac
@@ -39,7 +38,7 @@ To create a new team:
 1. The **Add new team** page opens. Enter the following details.
     - **Team name**: Give the team a name
     - **Business unit**: Select the business unit that members of this team belong to.
-    - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members.
+    - **Administrator**: Select the person who will perform administrative tasks for the team, such as adding or removing members. The team admin has access to team-owned records, just like team members do, but the admin isn't shown elsewhere as a member of the team unless you also add them as a member.
     - **Team type**: Select the type of team you are creating. For details about the various types, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md).
     - **Azure AD object ID for a group**: If you are using an AAD-related **Team type**, then specify the relevant Azure AD object ID here.
     - **Description**: Describe the team.
