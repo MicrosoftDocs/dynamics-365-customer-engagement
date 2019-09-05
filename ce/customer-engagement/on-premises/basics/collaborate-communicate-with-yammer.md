@@ -1,5 +1,5 @@
 ---
-title: "Collaborate and communicate with Yammer (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Collaborate and communicate with Yammer (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 

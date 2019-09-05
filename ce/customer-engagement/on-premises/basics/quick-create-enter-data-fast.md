@@ -1,5 +1,5 @@
 ---
-title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Quick create--Enter new contacts (or other data)--fast! (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 

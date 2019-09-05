@@ -1,5 +1,5 @@
 ---
-title: "Work with accounts and contacts (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Work with accounts and contacts (Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 ms.date: 08/11/2018
 ms.service: crm-online
 ms.topic: get-started-article

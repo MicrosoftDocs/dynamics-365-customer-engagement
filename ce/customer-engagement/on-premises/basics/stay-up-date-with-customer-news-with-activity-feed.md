@@ -1,5 +1,5 @@
 ---
-title: "Stay up-to-date with customer news with the activity feed (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Stay up-to-date with customer news with the activity feed (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 08/29/2018
 ms.reviewer: 

@@ -1,5 +1,5 @@
 ---
-title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/30/2017
 ms.reviewer: 

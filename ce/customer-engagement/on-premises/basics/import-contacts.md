@@ -1,5 +1,5 @@
 ---
-title: "Import contacts (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Import contacts (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/30/2017
 ms.reviewer: 

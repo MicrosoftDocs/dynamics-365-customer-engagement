@@ -1,5 +1,5 @@
 ---
-title: "Get back to (or pin) the records, views, or dashboards you used most recently (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Get back to (or pin) the records, views, or dashboards you used most recently (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 

@@ -1,5 +1,5 @@
 ---
-title: "Organize and lay out your report data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Organize and lay out your report data (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 

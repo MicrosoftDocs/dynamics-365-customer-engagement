@@ -1,5 +1,5 @@
 ---
-title: "Work with activities and the activities feed (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Work with activities and the activities feed (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 

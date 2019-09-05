@@ -1,5 +1,5 @@
 ---
-title: "Create a signature for your email or for a queue (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create a signature for your email or for a queue (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 

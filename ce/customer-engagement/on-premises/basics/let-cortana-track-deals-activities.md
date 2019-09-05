@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Let Cortana help you track your Dynamics 365 Customer Engagement (on-premises)deals and activities (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Preview feature: Let Cortana help you track your Dynamics 365 Customer Engagement (on-premises)deals and activities (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 09/15/2017

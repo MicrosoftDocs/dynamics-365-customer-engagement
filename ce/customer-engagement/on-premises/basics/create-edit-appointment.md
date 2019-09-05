@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an appointment (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create or edit an appointment (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 11/17/2017
 ms.reviewer: 

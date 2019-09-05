@@ -1,5 +1,5 @@
 ---
-title: "See relationships in a hierarchical view (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "See relationships in a hierarchical view (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "See how records are related by looking at their hierarchichal relationship in Dynamics 365 Customer Engagement (on-premises)."
 keywords: hierarchy, relationship
 ms.date: 09/17/2018

@@ -1,5 +1,5 @@
 ---
-title: "Add or edit Power BI visualizations on your dashboard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Add or edit Power BI visualizations on your dashboard (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 

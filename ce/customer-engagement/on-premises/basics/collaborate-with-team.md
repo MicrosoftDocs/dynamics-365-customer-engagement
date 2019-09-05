@@ -1,5 +1,5 @@
 ---
-title: "Collaborate with your team (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Collaborate with your team (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/20/2019
 ms.reviewer: 

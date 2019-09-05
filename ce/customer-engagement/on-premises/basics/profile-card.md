@@ -1,5 +1,5 @@
 ---
-title: "View the profile card for a contact or user (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "View the profile card for a contact or user (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 04/02/2019
 ms.reviewer: 

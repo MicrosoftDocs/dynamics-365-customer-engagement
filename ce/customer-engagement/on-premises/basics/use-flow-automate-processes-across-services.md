@@ -1,5 +1,5 @@
 ---
-title: "Use Microsoft Flow to automate processes across services (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Use Microsoft Flow to automate processes across services (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/31/2019
 ms.reviewer: 

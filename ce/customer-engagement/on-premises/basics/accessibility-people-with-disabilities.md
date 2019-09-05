@@ -1,5 +1,5 @@
 ---
-title: Accessibility for people with disabilities (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs
+title: Accessibility for people with disabilities (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
 description: Accessibility keyboard shortcuts for people with disabilities
 keywords: Accessibility; keyboard shortcuts; Accessibility in customer engagement
 applies_to: 

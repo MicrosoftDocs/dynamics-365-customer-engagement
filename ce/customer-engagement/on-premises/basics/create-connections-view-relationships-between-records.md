@@ -1,5 +1,5 @@
 ---
-title: "Create connections to define relationships between records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create connections to define relationships between records (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 09/15/2017
