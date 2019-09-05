@@ -1,4 +1,4 @@
-- name: Developer Guide for Dynamics 365 Customer Engagement
+- name: Developer Guide for Dynamics 365 Customer Engagement (on-premises)
   href: overview.md
 - name: Extend Customer Engagement
   href: extend/extend-customer-engagement.md
@@ -30,7 +30,7 @@
 - name: Use Dynamics 365 Web services
   href: use-microsoft-dynamics-365-web-services.md
   items:
-  - name: Learn about the Organization Service
+  - name: Use the Organization service
     href: use-microsoft-dynamics-365-organization-service.md
     items:
      - name: Getting started with on-premise managed code application development
@@ -46,3 +46,5 @@
     href: create-early-bound-entity-classes-code-generation-tool.md
   - name: Offline use of services
     href: offline-use-services.md
+- name: Use the Discovery services
+  href: use-discovery-service.md
