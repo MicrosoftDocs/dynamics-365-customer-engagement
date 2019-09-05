@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 Customer Engagement (on-premises) apps"
+  - "Dynamics 365 Customer Engagement (on-premises)"
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 17
 author: "mduelae"
@@ -31,21 +31,21 @@ You can use the Dynamics 365 app for Teams for your own use. If you want to work
 1. From the Teams app > **More added apps** > **Dynamics 365** app.
 
    > [!div class="mx-imgBorder"] 
-   > ![Open the Dynamics 365 Customer Engagement (on-premises) app](media/teams-pick-app.png "Open the Dynamics 365 Customer Engagement (on-premises) appsapp")
+   > ![Open the Dynamics 365 Customer Engagement (on-premises) app](media/teams-pick-app.png "Open the Dynamics 365 Customer Engagement (on-premises)app")
 
 2. Select the **My Dashboard** tab.
 
  > [!div class="mx-imgBorder"] 
- > ![Open the Dynamics 365 Customer Engagement (on-premises) app Dashboard](media/teams-mydashboard.png "Open the Dynamics 365 Customer Engagement (on-premises) apps dashboard")
+ > ![Open the Dynamics 365 Customer Engagement (on-premises) app Dashboard](media/teams-mydashboard.png "Open the Dynamics 365 Customer Engagement (on-premises) dashboard")
 
 teams-mydashboard.png
 
 ## My Dashboard tab
 
-Select the **My Dashboard** tab to view your Dynamics 365 Customer Engagement (on-premises) apps dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
+Select the **My Dashboard** tab to view your Dynamics 365 Customer Engagement (on-premises) dashboard in Microsoft Teams. The dashboard displayed is based on who is signed in and their user role.
 
 > [!div class="mx-imgBorder"]
-![Dynamics 365 Customer Engagement (on-premises) apps dashboard](media/teams-bot-dashboard.png "Dynamics 365 Customer Engagement (on-premises) apps dashboard")
+![Dynamics 365 Customer Engagement (on-premises) dashboard](media/teams-bot-dashboard.png "Dynamics 365 Customer Engagement (on-premises) dashboard")
 
 ## Settings tab
 

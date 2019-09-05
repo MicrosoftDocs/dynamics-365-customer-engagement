@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b0c0a758-2f03-4679-b81c-560779a6dc7d
 caps.latest.revision: 5
 author: brycho
@@ -42,5 +42,5 @@ search.app:
   
 ### See also  
  [Understanding how data is organized in Customer Engagement](../basics/how-data-organized.md)   
- [Business apps in Dynamics 365 Customer Engagement (on-premises) apps](../basics/business-apps-dynamics-365.md)   
+ [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md)   
  [Find your business apps](../basics/where-find-business-apps.md)   

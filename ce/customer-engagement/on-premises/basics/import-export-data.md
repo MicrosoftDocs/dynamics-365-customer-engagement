@@ -33,7 +33,7 @@ After the import, you may need to check for duplicates. Read how to do this: [Me
 
 If you want to do additional calculations or run your own reports, you can export your data to [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)]. Create a static [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] spreadsheet if you want to capture all of the data at a single point in time. Or, you can create a dynamic PivotTable or worksheet, and then select the columns or fields you want to include. These articles will lead you through the process:
   
-- [Analyze your Dynamics 365 Customer Engagement (on-premises) apps data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)  
+- [Analyze your Dynamics 365 Customer Engagement (on-premises) data in Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)  
   
 - [Export data to Excel](../basics/export-data-excel.md)  
   

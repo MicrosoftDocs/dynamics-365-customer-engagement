@@ -1,5 +1,5 @@
 ---
-title: "Basics Guide (Dynamics 365 Customer Engagement (on-premises) apps)| MicrosoftDocs"
+title: "Basics Guide (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 keywords: sales; service; marketing
 ms.custom: 
 ms.date: 09/15/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 15c8b19a-5e1b-4f7c-8d00-0711be8691cf
 caps.latest.revision: 22
 author: mduelae
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Basics Guide for Dynamics 365 Customer Engagement (on-premises) apps
+# Basics Guide for Dynamics 365 Customer Engagement (on-premises)
 
 The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] basics guide contains the essentials you need to know to
 navigate the system, enter data, use dashboards, charts and reports effectively and more.
@@ -57,7 +57,7 @@ features, data, or even fields on screens, depending on your role.
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
 
 ## What to read next
- - [Business apps in Dynamics 365 Customer Engagement (on-premises) apps](../basics/business-apps-dynamics-365.md)
+ - [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md)
 
  - [Find your business apps](../basics/where-find-business-apps.md)
 
@@ -68,7 +68,7 @@ If it turns out that you can’t see or access something described in this guide
  - [Submit feedback or ratings](submit-feedback-ratings.md)
  
 ## See also  
- [Find your way around Dynamics 365 Customer Engagement (on-premises) apps](../basics/navigation-customer-engagement-enterprise.md)    
+ [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)    
  [Manage accounts and contacts](../basics/accounts-contacts.md)     
  [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)     
  [Reports](../basics/run-report.md)     

@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 541595fb-8b5c-4f76-bdd1-80dd2ca3d8d2
 caps.latest.revision: 16
 author: Mattp123
@@ -45,7 +45,7 @@ This will improve your product and drive support calls down.
  The report provides a list of cases that you can group by  
  owner, customer, status reason, product, priority, subject, origin, case type, satisfaction, service level, or severity.  
   
- ![Case Summary Table reportin Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/case-summary-table-report.png "Case Summary Table reportin Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Case Summary Table reportin Dynamics 365 Customer Engagement (on-premises)](../basics/media/case-summary-table-report.png "Case Summary Table reportin Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="BKMK_NeglectedCases"></a>
 # Neglected Cases report
@@ -53,7 +53,7 @@ Improve your service team’s KPIs and get your cases closed. Quickly identify a
   
  When you run the report, choose the number of days that cases haven’t been updated. The report shows a list of open cases that have no changes to activities, including scheduled activities and notes.  
   
- ![Neglected Cases report in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/negected-cases-report.png "Neglected Cases report in Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Neglected Cases report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/negected-cases-report.png "Neglected Cases report in Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="BKMK_ServiceActivity"></a>
 # Service Activity Volume report
@@ -67,7 +67,7 @@ The information in the report helps you identify which issues your customers are
   
  You can change the **Group by** filter to see knowledge base articles grouped by subject of the article or case, or by the product associated with the case.  
   
- ![Report of  top knowledge base articles in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/top-kb-articles.png "Report of  top knowledge base articles in Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Report of  top knowledge base articles in Dynamics 365 Customer Engagement (on-premises)](../basics/media/top-kb-articles.png "Report of  top knowledge base articles in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="BKMK_Activities"></a>  
 # Activities report
@@ -75,7 +75,7 @@ To provide better service to your customers, get a quick view of all the activit
   
  When you run the report, choose **Show All** to get a detail view of all the activity. Activities can be grouped by owner or activity type, or by the record the activity is associated to.  
   
- ![Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/activities-report.png "Exmple of an Activities Report in Dynamics 365 Customer Engagement (on-premises)")  
  
 ### See also  
  [Run a report](../basics/run-report.md)   

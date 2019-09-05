@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1de4065e-f361-4d11-a8bb-bb7c0d0c686b
 author: shubhadaj
 ms.author: t-mijosh
@@ -31,7 +31,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
 ## What is Relevance Search?  
  Relevance Search delivers fast and comprehensive results across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) to boost [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] search performance.  
   
- Relevance Search is available in addition to other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] searches you are already familiar with. You can continue using single-entity Quick Find on the entity grid or Multi-Entity Quick Find (called Categorized Search, if you have Relevance Search enabled) by using **Search Dynamics 365 Customer Engagement (on-premises) apps data** on the navigation bar. For more comprehensive and faster results, we recommend using Relevance Search.  
+ Relevance Search is available in addition to other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] searches you are already familiar with. You can continue using single-entity Quick Find on the entity grid or Multi-Entity Quick Find (called Categorized Search, if you have Relevance Search enabled) by using **Search Dynamics 365 Customer Engagement (on-premises) data** on the navigation bar. For more comprehensive and faster results, we recommend using Relevance Search.  
 
  Relevance Search brings the following enhancements and benefits:  
   
@@ -55,9 +55,9 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search f
   
 <a name="BKMK_Use_RelevanceSearch"></a>   
 ## Use Relevance Search  
- When Relevance Search is enabled for your organization, it becomes the default search experience. When you enter a search term in **Search Dynamics 365 Customer Engagement (on-premises) apps data** on the navigation bar, and then select the Enter key or select the search button, the **Relevance Search** search results page appears. Search results are shown in a single list ordered by relevance. To learn how to change your default search experience, see [Select a default search experience](#BKMK_DefaultOption).  
+ When Relevance Search is enabled for your organization, it becomes the default search experience. When you enter a search term in **Search Dynamics 365 Customer Engagement (on-premises) data** on the navigation bar, and then select the Enter key or select the search button, the **Relevance Search** search results page appears. Search results are shown in a single list ordered by relevance. To learn how to change your default search experience, see [Select a default search experience](#BKMK_DefaultOption).  
   
- Start a new search by entering a search term in the **Relevance Search** search box or in the **Search Dynamics 365 Customer Engagement (on-premises) appsdata** search box on the nav bar, as shown here.  
+ Start a new search by entering a search term in the **Relevance Search** search box or in the **Search Dynamics 365 Customer Engagement (on-premises)data** search box on the nav bar, as shown here.  
   
  ![Relevance Search](../basics/media/relevance-search.png "Relevance Search")  
   
@@ -183,6 +183,6 @@ To select the default search experience, do the following:
   
 ### See also  
  [Configure Relevance Search to improve search results and performance (Administrator Guide)](../admin/configure-relevance-search-organization.md)   
- [Search and Find in Dynamics 365 Customer Engagement (on-premises) apps](../basics/search-and-find-header.md)
+ [Search and Find in Dynamics 365 Customer Engagement (on-premises)](../basics/search-and-find-header.md)
  [Search for records](../basics/search-records.md)
  [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)

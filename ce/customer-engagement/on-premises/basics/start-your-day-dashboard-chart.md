@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 959a2825-6da6-4e64-9c5b-7fda8c0869a8
 caps.latest.revision: 5
 author: Mattp123
@@ -27,14 +27,14 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
   
 - To see a different dashboard layout, click the down arrow next to the name of the dashboard, and then select the layout you want.  
   
-  ![Shows the Overview dashboard in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/crm-ua-basicsguide-sales.png "Shows the Overview dashboard in Dynamics 365 Customer Engagement (on-premises) apps")  
+  ![Shows the Overview dashboard in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-sales.png "Shows the Overview dashboard in Dynamics 365 Customer Engagement (on-premises)")  
   
 ## Choose a default dashboard  
  When your system is set up, the system administrator picks a default dashboard layout that everyone sees when they first sign in. If you want to see a different dashboard, you can override the system-wide default.  
   
 - Display the dashboard you want, and then click **Set as Default** at the top of the screen.  
   
-  ![Shows how to set as default in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/crm-ua-basicsguide-sales-dashboard-default.png "Shows how to set as default in Dynamics 365 Customer Engagement (on-premises) apps")  
+  ![Shows how to set as default in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-sales-dashboard-default.png "Shows how to set as default in Dynamics 365 Customer Engagement (on-premises)")  
   
 ## Drill in to chart data  
  You can view the list of the records used to calculate the metrics shown in a chart.  
@@ -50,7 +50,7 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
   
 - From the drop-down, select a different field to use for the calculations.  
   
-  ![Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/crm-ua-basicsguide-sales-dashboard-pick-chart.png "Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises) apps")  
+  ![Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-sales-dashboard-pick-chart.png "Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises)")  
 
 ## Create a personal dashboard
 1. From the **Sales**, **Service**, or **Marketing** area, select **Dashboards**. 

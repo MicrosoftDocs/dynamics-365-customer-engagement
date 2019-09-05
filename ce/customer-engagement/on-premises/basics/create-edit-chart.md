@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 author: mduelae
 ms.assetid: c4d027ca-ba55-4e61-8167-165181dae634
 caps.latest.revision: 31
@@ -32,7 +32,7 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-    #### If using the Dynamics 365 Customer Engagement (on-premises) apps   
+    #### If using the Dynamics 365 Customer Engagement (on-premises)   
 
    1.  On the right side, choose the **Charts** pane.  
   
@@ -97,7 +97,7 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-   **If using the Dynamics 365 Customer Engagement (on-premises) apps:**  
+   **If using the Dynamics 365 Customer Engagement (on-premises):**  
   
 3. On the right side, choose the **Charts** pane.  
 

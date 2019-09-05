@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2396d3f3-ca6b-4a44-99dd-bdbaf9b22a58
 caps.latest.revision: 29
 author: mduelae
@@ -109,6 +109,6 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
 -->
 More information:
 
-- [Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises) apps](keyboard-shortcuts.md)   
+- [Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)](keyboard-shortcuts.md)   
 - [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
 

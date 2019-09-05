@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0fff48c9-f565-4a7a-a632-95142177902d
 caps.latest.revision: 35
 author: mduelae
@@ -31,7 +31,7 @@ If you would like another person in your organization to handle an account or co
   
     In the command bar, click the **More Commands** button![More commands button](../basics/media/morecommands.gif "More commands button"), and then click **Assign**.  
   
-3. If using the Dynamics 365 Customer Engagement (on-premises) apps:    In the command bar, click More Commands (![More commands button](../basics/media/morecommands.gif "More commands button")), and then click **Assign**.  
+3. If using the Dynamics 365 Customer Engagement (on-premises):    In the command bar, click More Commands (![More commands button](../basics/media/morecommands.gif "More commands button")), and then click **Assign**.  
    <!-- 
     If using Dynamics 365 app for Outlook: In the **Collaborate** group, click **Assign**.  
    -->

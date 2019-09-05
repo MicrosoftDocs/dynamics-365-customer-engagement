@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3a30eb5f-4e3a-4c46-8fa4-150d8b277041
 caps.latest.revision: 34
 author: Mattp123
@@ -30,7 +30,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report.  
   
-   <!--**If using the Dynamics 365 Customer Engagement (on-premises) apps:**-->  
+   <!--**If using the Dynamics 365 Customer Engagement (on-premises):**-->  
   
    1.  Click **More Commands**![More Commands button in Appointment Activity](../basics/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then click **Share**.  
   
@@ -54,7 +54,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report, and on the command bar, click **Edit**.  
   
-   <!--**If using the Dynamics 365 Customer Engagement (on-premises) apps:**-->  
+   <!--**If using the Dynamics 365 Customer Engagement (on-premises):**-->  
   
    1.  On the command bar, click **Edit**.  
   

@@ -1,9 +1,9 @@
 ---
-title: Find your way around Dynamics 365 Customer Engagement (on-premises) apps| Microsoft Docs
+title: Find your way around Dynamics 365 Customer Engagement (on-premises)| Microsoft Docs
 description: Know the sitemap of Microsoft Dynamics 365 Customer Engagement (on-premises)
-keywords: Microsoft Dynamics 365 Customer Engagement (on-premises) apps; Customer Service; Sitemap;
+keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Service; Sitemap;
 author: anjgupta
-applies_to: Dynamics 365 Customer Engagement (on-premises) apps
+applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: anjgup
 manager: sakudes
 ms.date: 08/02/2017
@@ -14,11 +14,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Find your way around Dynamics 365 Customer Engagement (on-premises) apps or Dynamics CRM (earlier versions)
+# Find your way around Dynamics 365 Customer Engagement (on-premises) or Dynamics CRM (earlier versions)
 
 Click the tab for  the product or service you use.  
   
-### Dynamics 365 Customer Engagement (on-premises) apps 
+### Dynamics 365 Customer Engagement (on-premises) 
  With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], start by opening the app for your role: Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Operations, or Financials.  
   
 > [!NOTE]
@@ -28,14 +28,14 @@ Click the tab for  the product or service you use.
   
 1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** icon.  
   
-   ![Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) apps iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) apps iconselected")  
+   ![Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) iconselected")  
   
    > [!NOTE]
    >  The apps available to you in the app launcher depend on your subscription.  
   
 2. In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
   
-   ![Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Customer Engagement (on-premises) apps Home page with 4 apps")  
+   ![Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps")  
 
 > [!TIP]
 >  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL.](https://go.microsoft.com/fwlink/p/?linkid=402537) 
@@ -47,7 +47,7 @@ Click the tab for  the product or service you use.
   
   ![Dynamics 365 Customer Engagement (on-premises) app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 Customer Engagement (on-premises) app switcher")  
   
-#### Find your way around the Sales, Customer Service, or Dynamics 365 Customer Engagement (on-premises) apps- Custom app  
+#### Find your way around the Sales, Customer Service, or Dynamics 365 Customer Engagement (on-premises)- Custom app  
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
  The following illustrations describe the sitemaps for the  Sales, Customer Service, and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – Custom apps.  
@@ -56,7 +56,7 @@ Click the tab for  the product or service you use.
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  
   
 ##### Sales app sitemap  
- ![Sales app site map for Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Sales app site map for Dynamics 365 Customer Engagement (on-premises)](../basics/media/sales-app-site-map-for-dynamics-365.png "Sales app site map for Dynamics 365 Customer Engagement (on-premises)")  
   
  **1**. **Dashboards** collect all your most important data in one place. You can select from several dashboards for your role.  
   
@@ -94,7 +94,7 @@ Click the tab for  the product or service you use.
   
  **18**. Use **Rollup Queries** to gather data about a given goal, including all its related goals, in one view.  
   
- **19**. Dynamics 365 Customer Engagement (on-premises) apps comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
+ **19**. Dynamics 365 Customer Engagement (on-premises) comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
   
  **20**. **Alerts** shows system-wide alerts to let you know about issues such as problems with your mailbox.  
   
@@ -123,12 +123,12 @@ Click the tab for  the product or service you use.
   
  **10**. Tracks the specifics of **Services** provided by your business.  
   
- **11**. Dynamics 365 Customer Engagement (on-premises) apps comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
+ **11**. Dynamics 365 Customer Engagement (on-premises) comes with many built-in **Reports**. You can access and run them from here, or you can create your own reports.  
   
  **12**. The **Calendar** shows all your scheduled appointments. You can use rules when scheduling appointments.  
   
-##### Dynamics 365 Customer Engagement (on-premises) apps- Custom (Settings) sitemap  
- ![Dynamics 365 Customer Engagement (on-premises) apps Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Customer Engagement (on-premises) apps Settings sitemap")  
+##### Dynamics 365 Customer Engagement (on-premises)- Custom (Settings) sitemap  
+ ![Dynamics 365 Customer Engagement (on-premises) Settings sitemap](../basics/media/dynamics-365-settings-sitemap.png "Dynamics 365 Customer Engagement (on-premises) Settings sitemap")  
   
  **1**. Use **Business Management** to set a variety of business settings. For example, set fiscal year settings, or when your business is closed.  
   
@@ -142,7 +142,7 @@ Click the tab for  the product or service you use.
   
  **6**. See **Sync Errors** associated with mobile offline.  
   
- **7**. Use **Customizations** to make Dynamics 365 Customer Engagement (on-premises) apps work the way your business does: add or remove fields, create or customize forms, reports, views, dashboards, charts, and more.  
+ **7**. Use **Customizations** to make Dynamics 365 Customer Engagement (on-premises) work the way your business does: add or remove fields, create or customize forms, reports, views, dashboards, charts, and more.  
   
  **8**. It’s a best practice to keep your customizations separate from the default solution. Create and manage your **Solutions** here.  
   
@@ -156,19 +156,19 @@ Click the tab for  the product or service you use.
   
  **13**. Use **Data Management** to turn sample data on or off, import data, set up duplicate detection rules, and more.  
   
- **14**. Several Dynamics 365 Customer Engagement (on-premises) apps features use **System Jobs** to perform tasks automatically, including workflows, import, and duplicate detection. Monitor your system jobs here.  
+ **14**. Several Dynamics 365 Customer Engagement (on-premises) features use **System Jobs** to perform tasks automatically, including workflows, import, and duplicate detection. Monitor your system jobs here.  
   
- **15**. Use **Document Management** to set up SharePoint integration. With SharePoint, your team can work together on the same documents. SharePoint integration is also required if you want to use other collaboration features like OneNote, OneDrive for Business, or Office 365 Groups with Dynamics 365 Customer Engagement (on-premises) apps.  
+ **15**. Use **Document Management** to set up SharePoint integration. With SharePoint, your team can work together on the same documents. SharePoint integration is also required if you want to use other collaboration features like OneNote, OneDrive for Business, or Office 365 Groups with Dynamics 365 Customer Engagement (on-premises).  
   
  **16**. Enable **Auditing** to track changes made to your business data.  
   
- **17**. Use **Email Configuration** to integrate Outlook or web mail systems with Dynamics 365 Customer Engagement (on-premises) apps. You can also manage and monitor mailboxes from here.  
+ **17**. Use **Email Configuration** to integrate Outlook or web mail systems with Dynamics 365 Customer Engagement (on-premises). You can also manage and monitor mailboxes from here.  
   
  **18**. Users can stay up-to-date on what’s happening in your organization by using **Activity Feeds**. This is where you can administer them. But consider Yammer integration as an alternative to Activity Feeds.  
   
  **19**. Use **Activity Feeds Rules** to specify when posts will automatically be created for followed records.  
   
- **20**. Set up **Dynamics 365 for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 for Outlook, users can view Dynamics 365 Customer Engagement (on-premises) apps data from Outlook, and can track Outlook email and appointment records with a single click.  
+ **20**. Set up **Dynamics 365 for Outlook**, which is an Office add-on for Microsoft Outlook. With Dynamics 365 for Outlook, users can view Dynamics 365 Customer Engagement (on-premises) data from Outlook, and can track Outlook email and appointment records with a single click.  
   
  **21**. Set up **Relationship Insights** to continuously analyze a vast collection of data to help users better understand business relationships, evaluate their activities in relation to previous successes, and choose the best path forward.  
   
@@ -181,7 +181,7 @@ Click the tab for  the product or service you use.
 ##### Navigation bar buttons  
  The navigation bar in each app has the same buttons:  
   
- ![Dynamics 365 Customer Engagement (on-premises) apps navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 Customer Engagement (on-premises) apps navigation bar buttons")  
+ ![Dynamics 365 Customer Engagement (on-premises) navigation bar buttons](../basics/media/dynamics-365-navigation-bar-buttons.png "Dynamics 365 Customer Engagement (on-premises) navigation bar buttons")  
   
  **1**.  Do a simple search for a record.  
   
@@ -196,17 +196,17 @@ Click the tab for  the product or service you use.
  **6**.  Get in-context help (guided tasks, videos, eBooks, and topics).  
   
 ##### Where to go for more info on each app  
- [Dynamics 365 Customer Engagement (on-premises) apps for Sales User Guide](../sales-enterprise/user-guide.md)
+ [Dynamics 365 Customer Engagement (on-premises) for Sales User Guide](../sales-enterprise/user-guide.md)
   
- [Dynamics 365 Customer Engagement (on-premises) apps for Customer Service User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
+ [Dynamics 365 Customer Engagement (on-premises) for Customer Service User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
  
- [Dynamics 365 Customer Engagement (on-premises) apps for Customer Service User Guide (legacy web app)](../customer-service/user-guide-customer-service.md)  
+ [Dynamics 365 Customer Engagement (on-premises) for Customer Service User Guide (legacy web app)](../customer-service/user-guide-customer-service.md)  
   
- [Dynamics 365 Customer Engagement (on-premises) apps for Field Service User Guide](../field-service/user-guide.md)  
+ [Dynamics 365 Customer Engagement (on-premises) for Field Service User Guide](../field-service/user-guide.md)  
   
- [Dynamics 365 Customer Engagement (on-premises) apps for Project Service Automation User Guide](../field-service/user-guide.md)  
+ [Dynamics 365 Customer Engagement (on-premises) for Project Service Automation User Guide](../field-service/user-guide.md)  
   
- [Administrator's Guide to Dynamics 365 Customer Engagement (on-premises) apps](../admin/admin-guide.md)  
+ [Administrator's Guide to Dynamics 365 Customer Engagement (on-premises)](../admin/admin-guide.md)  
   
 ### CRM 2016  
   
@@ -220,12 +220,12 @@ Click the tab for  the product or service you use.
 #### Quick access items  
  These items are always on the nav bar: Recently used, quick create, record search, advanced find, and personal options.  
   
- ![Nav bar items in Microsoft Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/itemsalwaysonthenavbarinmicrosoftdyna.png "Nav bar items in Microsoft Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Nav bar items in Microsoft Dynamics 365 Customer Engagement (on-premises)](../basics/media/itemsalwaysonthenavbarinmicrosoftdyna.png "Nav bar items in Microsoft Dynamics 365 Customer Engagement (on-premises)")  
   
 #### Form navigation  
  If you’re working in a complex form with lots of fields, the form navigation drop-down menu makes it easy to get to just the data you need.  
   
- ![Form navigation drop-down in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/formnavigationdrop-downincrm.png "Form navigation drop-down in Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Form navigation drop-down in Dynamics 365 Customer Engagement (on-premises)](../basics/media/formnavigationdrop-downincrm.png "Form navigation drop-down in Dynamics 365 Customer Engagement (on-premises)")  
   
  The preceding illustration shows how to navigate in CRM 2016: choose the Main menu, choose a work area, and then choose an item.  
   
@@ -234,6 +234,6 @@ Click the tab for  the product or service you use.
   
  If your screen looks like this, you’re on an earlier version of CRM.  
   
- ![Navigation for Dynamics 365 Customer Engagement (on-premises) apps (older version)](../basics/media/microsoftdynamicscrm-olderversion.png "Navigation for Dynamics 365 Customer Engagement (on-premises) apps (older version)")  
+ ![Navigation for Dynamics 365 Customer Engagement (on-premises) (older version)](../basics/media/microsoftdynamicscrm-olderversion.png "Navigation for Dynamics 365 Customer Engagement (on-premises) (older version)")  
   
  The preceding illustration shows how to navigate in older versions of CRM: choose Microsoft Dynamics CRM, choose a work area, and then choose an item.

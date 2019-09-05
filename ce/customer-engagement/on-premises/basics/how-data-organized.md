@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 70c55a33-dd08-44bc-bb9c-0f3732aa30a9
 caps.latest.revision: 5
 author: brycho
@@ -61,5 +61,5 @@ One of the beauties of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md
 different names for the types of records, because your organization calls that type of data something different. For example, your system administrator may have changed “account” to “company,” or “contact” to “individual.”
 
 ### See also  
- [Find your way around Dynamics 365 Customer Engagement (on-premises) apps](../basics/navigation-customer-engagement-enterprise.md)   
+ [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)   
  [What are business processes?](../basics/what-are-business-processes.md)

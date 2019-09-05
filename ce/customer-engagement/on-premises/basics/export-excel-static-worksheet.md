@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a3c0bc58-7b21-496b-b63d-852d7301020c
 caps.latest.revision: 43
 author: jimholtz
@@ -23,10 +23,10 @@ search.app:
 
 When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information to an individual who doesn’t have access to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], or you have data that doesn’t change often, consider exporting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
   
- <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 Customer Engagement (on-premises) apps lists up to 50 records per page. Choose the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  
+ <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 Customer Engagement (on-premises) lists up to 50 records per page. Choose the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  
   
 ## Export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] static worksheet  
- You may have the option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] static worksheet in all record types however, in some cases the format may be legacy, or the data may not be filtered by what you see in Dynamics 365 Customer Engagement (on-premises) apps view.  
+ You may have the option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] static worksheet in all record types however, in some cases the format may be legacy, or the data may not be filtered by what you see in Dynamics 365 Customer Engagement (on-premises) view.  
   
 1. Open a list of records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application or in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Choose **Export to Excel**, and then choose **Static worksheet (Page only)**.  
   
@@ -61,7 +61,7 @@ When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
 - The data and time values that you see in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] show up as Date only when you export the file to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] but the cell actually shows both the date and time.  
   
-- If you’re going to make changes and import the data file back in to Dynamics 365 Customer Engagement (on-premises) apps, remember that secured, calculated, and composite fields (e.g. Full Name) are read-only and can’t be imported in to Dynamics 365 Customer Engagement (on-premises) apps. You’ll be able to edit these fields in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but when you import the data back in to Dynamics 365 Customer Engagement (on-premises) apps these fields will not be updated. If you want to update these fields such as a contact’s name then it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 Customer Engagement (on-premises) apps for changes.  
+- If you’re going to make changes and import the data file back in to Dynamics 365 Customer Engagement (on-premises), remember that secured, calculated, and composite fields (e.g. Full Name) are read-only and can’t be imported in to Dynamics 365 Customer Engagement (on-premises). You’ll be able to edit these fields in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but when you import the data back in to Dynamics 365 Customer Engagement (on-premises) these fields will not be updated. If you want to update these fields such as a contact’s name then it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 Customer Engagement (on-premises) for changes.  
   
 ## Community tools 
 

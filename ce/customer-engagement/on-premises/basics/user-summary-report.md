@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 75a24695-dc76-4e49-b8a8-9f4e2ee0fe19
 caps.latest.revision: 14
 author: Mattp123
@@ -32,7 +32,7 @@ search.app:
 Keep user information up to date by running a User Summary report.   
 Get a list of all your users, including their contact information and security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
- ![Default User Summary report in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 Customer Engagement (on-premises) apps")  
+ ![Default User Summary report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 Customer Engagement (on-premises)")  
   
 ### See also  
  [Run a report](../basics/run-report.md)   

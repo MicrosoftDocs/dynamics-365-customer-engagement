@@ -1,13 +1,13 @@
 ---
-title: "Use OneNote in Dynamics 365 Customer Engagement (on-premises) apps (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Use OneNote integration to store and share notes related to Dynamics 365 Customer Engagement (on-premises) appsrecords."
+title: "Use OneNote in Dynamics 365 Customer Engagement (on-premises) (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Use OneNote integration to store and share notes related to Dynamics 365 Customer Engagement (on-premises)records."
 keywords: OneNote, Notes, notebook
 ms.date: 03/08/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e47db291-7f10-43c2-b29c-c348618e537b
 author: jimholtz
 ms.author: jimholtz
@@ -23,13 +23,13 @@ search.app:
   - D365CE
 ---
 
-# Use OneNote in Dynamics 365 Customer Engagement (on-premises) apps
+# Use OneNote in Dynamics 365 Customer Engagement (on-premises)
 
 If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can access a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook directly from the activities area in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. This doesn't replace the current Notes feature, but gives you another way to access notes stored in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. When you add a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section to a notebook, it's shown individually within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and in order of last modified time.  
   
  [Watch a short video (2:01) about OneNote integration](https://go.microsoft.com/fwlink/p/?linkid=837793)  
   
- More information about setting up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration if you're a system administrator: [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises) apps](../admin/set-up-onenote-integration-in-dynamics-365.md)  
+ More information about setting up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration if you're a system administrator: [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md)  
   
 <a name="BKMK_UseOneNote"></a>   
 > [!NOTE]
@@ -52,7 +52,7 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
   
    ![Notebooks in Document Associated Grid](media/document-associated-grid.png "Notebooks in Document Associated Grid")
 
-[//]: # (The graphic for step 3 is the same as for step 1. In the Note in step 3, I used the pn-crm-shortest.md token for "Dynamics 365 Customer Engagement (on-premises) apps, " to match the token you used above. Also in the Note, please note that I changed ". onetoc2" to ".onetoc2". I assume it and .one are both file name extensions?)
+[//]: # (The graphic for step 3 is the same as for step 1. In the Note in step 3, I used the pn-crm-shortest.md token for "Dynamics 365 Customer Engagement (on-premises), " to match the token you used above. Also in the Note, please note that I changed ". onetoc2" to ".onetoc2". I assume it and .one are both file name extensions?)
 ### Get started with OneNote (web app)  
 
 1. In the activities area of a record, select **OneNote**.  
@@ -74,6 +74,6 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
 > - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 ### See also  
- [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises) apps](../admin/set-up-onenote-integration-in-dynamics-365.md)   
- [OneNote in Dynamics 365 Customer Engagement (on-premises) apps FAQs](../basics/onenote-dynamics-365-faqs.md)   
+ [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md)   
+ [OneNote in Dynamics 365 Customer Engagement (on-premises) FAQs](../basics/onenote-dynamics-365-faqs.md)   
  [Work with activities](../basics/work-with-activities.md)

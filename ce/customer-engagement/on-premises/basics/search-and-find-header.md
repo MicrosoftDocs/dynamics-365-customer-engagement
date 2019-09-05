@@ -1,5 +1,5 @@
 ---
-title: "Search and Find in Dynamics 365 Customer Engagement (on-premises) apps| MicrosoftDocs"
+title: "Search and Find in Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 ms.custom: 
 ms.date: 08/24/2018
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d0634607-b17f-4f33-aa15-e26ebed441f7
 caps.latest.revision: 2
 author: mduelae

@@ -1,5 +1,5 @@
 ---
-title: "OneNote in Dynamics 365 Customer Engagement (on-premises) appsFAQs (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "OneNote in Dynamics 365 Customer Engagement (on-premises)FAQs (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0a4e298a-868c-4b58-8f47-696090533b3b
 caps.latest.revision: 14
 author: jimholtz
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# OneNote in Dynamics 365 Customer Engagement (on-premises) apps FAQs
+# OneNote in Dynamics 365 Customer Engagement (on-premises) FAQs
 
 ## Why do OneNote files show a folder icon?  
  This is a known issue. Click the file name to open the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] as expected.  
@@ -30,7 +30,7 @@ search.app:
 ## Error message: We can’t find the notebook
 I get this error message:
  
-    We can’t find the notebook. The [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook might have been removed or moved to another location. Check the notebook location or contact your administrator to update the location record stored in Dynamics 365 Customer Engagement (on-premises) apps. (Error: 0x80060729)  
+    We can’t find the notebook. The [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook might have been removed or moved to another location. Check the notebook location or contact your administrator to update the location record stored in Dynamics 365 Customer Engagement (on-premises). (Error: 0x80060729)  
   
 1. To fix the issue, go to **Settings** > **Document Management** > **Document Location Records**.  
   
@@ -38,14 +38,14 @@ I get this error message:
   
 3. Open that document location record, and then change the corresponding URL to match your notebook location.  
   
-## Can I edit a OneNote file from with Dynamics 365 Customer Engagement (on-premises) apps?  
+## Can I edit a OneNote file from with Dynamics 365 Customer Engagement (on-premises)?  
  No. This can be done only from the OneNote app that opens when you click the OneNote link.  
   
-## I can’t access my Dynamics 365 Customer Engagement (on-premises) apps OneNote notebook.  
- Don’t delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)].onetoc2 or .one file types in the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section in Dynamics 365 Customer Engagement (on-premises) apps. If you do, you won’t be able to access your Dynamics 365 Customer Engagement (on-premises) apps OneNote notebook.  
+## I can’t access my Dynamics 365 Customer Engagement (on-premises) OneNote notebook.  
+ Don’t delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)].onetoc2 or .one file types in the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section in Dynamics 365 Customer Engagement (on-premises). If you do, you won’t be able to access your Dynamics 365 Customer Engagement (on-premises) OneNote notebook.  
   
-## Are section groups supported in Dynamics 365 Customer Engagement (on-premises) apps?  
- Sections groups that keep related sections together in OneNote aren’t supported in Dynamics 365 Customer Engagement (on-premises) apps.  
+## Are section groups supported in Dynamics 365 Customer Engagement (on-premises)?  
+ Sections groups that keep related sections together in OneNote aren’t supported in Dynamics 365 Customer Engagement (on-premises).  
   
 ## Can I rename a section in OneNote Online?  
  No. You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] Online, you won’t see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
@@ -76,7 +76,7 @@ On subsequent clicks in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], this 
 
 Consider this scenario:
 
-User A opens a OneNote note in Dynamics 365 Customer Engagement (on-premises) apps and adds content (For example: **Sales** > **Accounts** > <account> > **Summary** > Timeline section > **+** > OneNote). User A, or a second user, User B, changes the name of the OneNote file in a document grid (For example: **Sales** > **Accounts** > <account> > **Related** > **Documents**). User A opens the note using Timeline (For example: **Sales** > **Accounts** > <account> > **Summary** > Timeline section > **+** > **OneNote**). User A should see the renamed note with the existing content. Instead, a new note is opened.
+User A opens a OneNote note in Dynamics 365 Customer Engagement (on-premises) and adds content (For example: **Sales** > **Accounts** > <account> > **Summary** > Timeline section > **+** > OneNote). User A, or a second user, User B, changes the name of the OneNote file in a document grid (For example: **Sales** > **Accounts** > <account> > **Related** > **Documents**). User A opens the note using Timeline (For example: **Sales** > **Accounts** > <account> > **Summary** > Timeline section > **+** > **OneNote**). User A should see the renamed note with the existing content. Instead, a new note is opened.
 
 ### See also  
- [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises) apps](../admin/set-up-onenote-integration-in-dynamics-365.md)
+ [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md)

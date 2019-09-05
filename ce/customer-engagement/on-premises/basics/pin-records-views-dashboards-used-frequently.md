@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 author: mduelae
 ms.assetid: 12a83cb3-cce2-42cf-aaff-8eb3fc7d9bcb
 caps.latest.revision: 7
@@ -29,7 +29,7 @@ You probably work with the same records all the time. For example, you may acces
   
 ### Get back to recently used items  
   
-1. On the global nav bar, click the **Recently Viewed Items** button ![Recently Viewed Items button in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/recently-viewed-items-icon.PNG "Recently Viewed Items button in Dynamics 365 Customer Engagement (on-premises) apps").  
+1. On the global nav bar, click the **Recently Viewed Items** button ![Recently Viewed Items button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/recently-viewed-items-icon.PNG "Recently Viewed Items button in Dynamics 365 Customer Engagement (on-premises)").  
   
 2. Do one of the following:  
   
@@ -37,7 +37,7 @@ You probably work with the same records all the time. For example, you may acces
   
    - Under **Recent Views**, choose the view you want to go back to. To pin the view to the top of the **Recent Views** list, point at the view, and then click the **Pin** button ![Pin button](../basics/media/pin-icon.gif "Pin button").  
      <!-- TODO: This image is missing>  
-     ![Recently Viewed Items in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/search-records.png "Recently Viewed Items in Dynamics 365 Customer Engagement (on-premises) apps")  
+     ![Recently Viewed Items in Dynamics 365 Customer Engagement (on-premises)](../basics/media/search-records.png "Recently Viewed Items in Dynamics 365 Customer Engagement (on-premises)")  
      -->  
      > [!NOTE]
      >  Pinned items are sorted by when you pin them. Unpinned items are sorted by when you access them.  

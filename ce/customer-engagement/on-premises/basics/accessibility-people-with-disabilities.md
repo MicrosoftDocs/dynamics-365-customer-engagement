@@ -3,8 +3,8 @@ title: Accessibility for people with disabilities (Dynamics 365 Customer Engagem
 description: Accessibility keyboard shortcuts for people with disabilities
 keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagagement
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
-  - Dynamics 365 Customer Engagement (on-premises) appsVersion 8.x
+  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)Version 8.x
 ms.date: 09/05/2019
 ms.service: dynamics-365-crossapp
 ms.topic: article
@@ -23,10 +23,10 @@ search.app:
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx).  
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)
-[!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises) apps](../basics/keyboard-shortcuts.md)
+[!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 Customer Engagement (on-premises)](../basics/keyboard-shortcuts.md)
   
 ## Use a screen reader in Unified Interface apps
-Screen readers make Dynamics 365 Customer Engagement (on-premises) apps accessible to people who have low or no vision. Unified Interface apps in Dynamics 365 Customer Engagement (on-premises) apps enable a more consistent screen reader experience. More information: [Use a screen reader with Unified Interface apps](../basics/screen-reader.md)
+Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to people who have low or no vision. Unified Interface apps in Dynamics 365 Customer Engagement (on-premises) enable a more consistent screen reader experience. More information: [Use a screen reader with Unified Interface apps](../basics/screen-reader.md)
 
 ## Accessibility info for browsers  
 For accessibility information about your browser, visit the following websites:  

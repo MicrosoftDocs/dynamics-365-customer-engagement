@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d691493b-2e39-4a89-9952-1500a8ddafd2
 caps.latest.revision: 41
 author: Mattp123
@@ -36,7 +36,7 @@ For more information on organizing and creating reports, see: [Customize and org
    > [!NOTE]
    >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
   
-   ![Default reports in Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises) apps")  
+   ![Default reports in Dynamics 365 Customer Engagement (on-premises)](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]

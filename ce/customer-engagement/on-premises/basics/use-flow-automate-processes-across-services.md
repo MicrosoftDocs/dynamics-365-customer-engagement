@@ -9,7 +9,7 @@ ms.topic: article
 ms.assetid: 7aebc737-667f-44d1-bb05-e4573be1e0b2
 caps.latest.revision: 7
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
 author: Mattp123
 ms.author: matp
 search.audienceType: 
@@ -39,7 +39,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
   
    -   Select **Login to flow** to connect with Microsoft Flow and display available flows for you to run. This only appears if you aren’t currently signed in to Microsoft Flow.  
   
-   -   Select a flow to run. See [Run an embedded flow from Dynamics 365 Customer Engagement (on-premises) apps](#Flow_run).  
+   -   Select a flow to run. See [Run an embedded flow from Dynamics 365 Customer Engagement (on-premises)](#Flow_run).  
   
 <a name="Flow_run"></a>   
 ## Run an embedded flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
@@ -54,7 +54,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
    > [!TIP]
    >  If you don’t see any flows under Run, click **Login to flow**.  
   
-   ![Run a flow from Dynamics 365 Customer Engagement (on-premises) apps](../basics/media/embedflow-run.png "Run a flow from Dynamics 365 Customer Engagement (on-premises) apps")  
+   ![Run a flow from Dynamics 365 Customer Engagement (on-premises)](../basics/media/embedflow-run.png "Run a flow from Dynamics 365 Customer Engagement (on-premises)")  
   
 3. If required, input additional information. Then, follow the instructions on your screen to run the flow.  
 
@@ -62,7 +62,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
 ### Flow commands do not respond from your mobile device
 When you tap a Flow command, such as **Login to Flows**, **Create a Flow**, or **See your Flows**, from your mobile device, the command does not respond.
 
-This occurs when your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 Customer Engagement (on-premises) appsfor phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
+This occurs when your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 Customer Engagement (on-premises)for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
   
 ### See Also  
