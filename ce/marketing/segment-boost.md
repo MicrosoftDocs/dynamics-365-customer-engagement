@@ -1,6 +1,6 @@
 ---
-title: "Use segment boost to expand your target audience (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How use segment boost to let the AI expand your target audience to include  additional promising contacts in Dynamics 365 for Marketing"
+title: "Use segment boost to expand your target audience (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How use segment boost to let the AI expand your target audience to include  additional promising contacts in Dynamics 365 Marketing"
 keywords:
 ms.date: 06/12/2019
 ms.service: dynamics-365-marketing
@@ -10,6 +10,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: c9090a20-ebe1-42db-a11d-97fbac534627
 author: kamaybac
 ms.author: kamaybac
@@ -34,7 +35,7 @@ search.app:
 Segment boost uses AI to analyze your contact database to identify the best contacts to add to a running customer journey.
 
 > [!NOTE]
-> Before you can use segment boost, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable segment boost for your site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable and configure artificial intelligence features](admin-machine-learning.md)
+> Before you can use segment boost, your admin must enable and configure it. If you don't see the features described in this topic, then please ask your admin to enable segment boost for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
 
 To enable segment boost for an existing customer journey:
 

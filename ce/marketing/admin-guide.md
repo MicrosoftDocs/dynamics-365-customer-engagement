@@ -1,6 +1,6 @@
 ---
-title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
+title: "Administrator Guide (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Index page showing administration, system, user and app configuration for Dynamics 365 Marketing."
 keywords: administration; admin; user administration; system configuration
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
 author: kamaybac
 ms.author: kamaybac
@@ -33,7 +34,7 @@ search.app:
 <h2>Set up and get started</h2>
 <li><a href="https://go.microsoft.com/fwlink/p/?linkid=864736" data-raw-source="[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)">Readme</a></li>
 <li><a href="trial-signup.md" data-raw-source="[Sign up for a free trial](trial-signup.md)">Sign up for a free trial</a></li>
-<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 for Marketing</a></li>
+<li><a href="purchase-setup.md" data-raw-source="[Purchase and set up Dynamics 365 Marketing](purchase-setup.md)">Purchase and set up Dynamics 365 Marketing</a></li>
 <li><a href="manage-marketing-instances.md" data-raw-source="[Manage Marketing instances](manage-marketing-instances.md)">Manage Marketing instances</a></li>
 <li><a href="apply-updates.md" data-raw-source="[Keep Marketing up to date](apply-updates.md)">Keep Marketing up to date</a></li>
 <li><a href="open-advanced-settings.md" data-raw-source="[Open the administration settings](open-advanced-settings.md)">Open the administration settings</a></li>

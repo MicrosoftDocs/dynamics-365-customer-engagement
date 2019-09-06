@@ -1,6 +1,6 @@
 ---
-title: "Generate activities from a customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 for Marketing"
+title: "Generate activities from a customer journey (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 Marketing"
 keywords: tutorial; customer journey; activities
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e44cf736-a3d5-4f33-b561-1b47c6b093ed
 author: kamaybac
 ms.author: kamaybac
@@ -60,7 +61,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 9. Expand the **Segment Group** tile to expose its nested **Segment** tile. Then select the nested tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
     ![Assign a segment to the segment tile](media/journey-assign-segment.png "Assign a segment to the segment tile")
 
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+    More information: [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
 10. Select the **Activity** tile, and then open the **Properties** tab.  
      ![Set up the activity tile](media/journey-activity-properties.png "Set up the activity tile")  

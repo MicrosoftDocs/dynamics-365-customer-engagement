@@ -84,7 +84,7 @@ To make your customizations visible in the event website, update the web files i
 
 To deploy the customized Angular application, run the **PowerShell** script `DeployToDynamics365Instance.ps1` located under the **Scripts** directory. The script builds the application, prepares the output files suitable for hosting under the Dynamics 365 Portal instance. It takes the localization files from the `Localization` folder and prepares them for hosting.
 
-After all the files are built, it asks you to log into your Dynamics 365 for Marketing instance that you want to use to host your application. After you log in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
+After all the files are built, it asks you to log into your Dynamics 365 Marketing instance that you want to use to host your application. After you log in, it pushes the files to the instance. If you don't see your changes, clear the browser cache and restart your **Portals**.
 
 > [!NOTE]
 > If you can't run the Powershell script because of your execution policy, then you need to [disable or bypass the execution policy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6).
@@ -92,9 +92,9 @@ After all the files are built, it asks you to log into your Dynamics 365 for Mar
 
 ### Manual Deployment
 
-To manually replace the files in Dynamics 365 for Marketing, follow the steps below (you need to repeat step 3 - 5 for each file that has changed in your `dist` folder):
+To manually replace the files in Dynamics 365 Marketing, follow the steps below (you need to repeat step 3 - 5 for each file that has changed in your `dist` folder):
 
-1. Open your Dynamics 365 for Marketing instance.
+1. Open your Dynamics 365 Marketing instance.
 1. Navigate to **Dynamics 365 for Portals** and click on **Web Files**.
 1. Open the web file that you want to update (e.g., **styles.css**).
 1. Click on the **Notes** tab and delete the existing attachment.

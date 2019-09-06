@@ -1,6 +1,6 @@
 ---
-title: "Plan, publicize, and collect registrations for events (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 for Marketing"
+title: "Plan, publicize, and collect registrations for events (Dynamics 365 Marketing) | Microsoft Docs "
+description: "An overview of event-management features (including planning, logistics, sponsors, speakers, promotion, and registration) in  Dynamics 365 Marketing"
 keywords: events; event management
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 30bb10ad-0dc4-4fce-ae5a-8c1917c7da0c
 author: kamaybac
 ms.author: kamaybac
@@ -25,7 +26,7 @@ search.app:
 
 # Event planning and management
 
-Live events and webinars are often a vital sales and marketing channel, but they can be very complex to arrange, execute, and follow up on. The [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event management feature helps you every step of the way, from initial planning and budgeting through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
+Live events and webinars are often a vital sales and marketing channel, but they can be very complex to arrange, execute, and follow up on. The Dynamics 365 event management feature helps you every step of the way, from initial planning and budgeting through promotion and publication, attendee registration, webinar broadcasting, final analytics, lead generation, and evaluation of ROI.
 
 Key event-management features include:
 
@@ -42,9 +43,9 @@ Key event-management features include:
 - A fully functioning event website you can publish that includes:
   - Self-service attendee registration.
   - Important details about all published events, including event name, venue, passes, session schedule, and speakers.
-  - All information drawn directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] event-planning records, with updates automatically reflected on the event website.
+  - All information drawn directly from your Dynamics 365 event-planning records, with updates automatically reflected on the event website.
 
-To create, view, and edit your events and all event-related records, go to the **Events** work area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where you can create a new event and&mdash;working from this single event record&mdash;add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event record provides a customizable business process workflow that helps guide you through each step of the process.
+To create, view, and edit your events and all event-related records, go to the **Events** work area of Dynamics 365, where you can create a new event and&mdash;working from this single event record&mdash;add most of the other types of records and information that you need to plan, publish, promote, and analyze it. Like many types of records in Dynamics 365, the event record provides a customizable business process workflow that helps guide you through each step of the process.
 
 Use other parts of the **Events** work area to work with specific record types that relate to event planning, such as logistics, sessions, attendees, sponsors, and more. Depending on what you are doing at the time, you might access these types of records when working in the parent event record, or you could go to the area dedicated to a specific record type to work with that type of record only, or work across events.
 

@@ -1,6 +1,6 @@
 ---
-title: "Create and design a marketing email message (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Learn how to create and design a marketing email message in Dynamics 365 for Marketing"
+title: "Create and design a marketing email message (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to create and design a marketing email message in Dynamics 365 Marketing"
 ms.date: 08/21/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -38,7 +38,7 @@ To create a new email marketing message, go to **Marketing** > **Marketing Execu
 
 ## Establish your basic layout by choosing the right template
 
-The first thing you are asked when you create a new message is to selected a template. Dynamics 365 for Marketing includes a wide variety of templates, each of which includes both structural and style elements; there's also a blank template, which lets you start from scratch wiht an empty message. On selecting a template, you'll be in the email designer, where you can finish creating your email content.
+The first thing you are asked when you create a new message is to selected a template. Dynamics 365 Marketing includes a wide variety of templates, each of which includes both structural and style elements; there's also a blank template, which lets you start from scratch wiht an empty message. On selecting a template, you'll be in the email designer, where you can finish creating your email content.
 
 ![Dialog for choosing an email template](media/email-template-dialog.png "Dialog box for choosing an email template")
 
@@ -46,7 +46,7 @@ When you create a new message from a template, the template content is copied in
 
 You can also create your own custom templates, which can help both you and others in your organization to create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template by selecting **Save as template** on the command bar, or work directly in the templates area (**Marketing** > **Marketing Templates** > **Email templates**) to view or edit existing templates and create new ones. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with email, page, and form templates](email-templates.md)
+More information: [Work with email, page, and form templates](email-templates.md)
 
 ## Design your content
 
@@ -56,14 +56,14 @@ After choosing a template, you'll be in the email content designer, which resemb
 
 - When you select a design element on the canvas, you'll usually see a formatting toolbar just above the element. The controls offered by the toolbar vary depending on which type of element you've selected. Most toolbars provide buttons to move, copy, or delete the selected element, in addition to specialized buttons that vary by element type.
 
-- When a text element is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)]. It also includes an **Assist Edit** button **&lt;/&gt;**, which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
+- When a text element is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in Microsoft Word. It also includes an **Assist Edit** button **&lt;/&gt;**, which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. More information: [Use assist-edit to place dynamic field values](dynamic-email-content.md#assist-edit)
 
 - Use the **Designer** &gt; **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic). The HTML editor has two subtabs: **HTML Source** (for editing the design, including logical expressions and dynamic content) and **HTML Output** (which resolves all dynamic content to provide static HTML that you can use in other applications).
 
 ![Add a text element to a new email](media/email-add-text-block.png "Add a text element to a new email")
 
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
+More information: [Design your digital content](design-digital-content.md)
 
 > [!IMPORTANT]
 > When you're designing email content, you should always try to minimize the size of your messages as much as you can. When it comes to the text and code content (not including referenced image content), we recommend that you always keep your files under 100 KB for the following reasons:
@@ -74,7 +74,7 @@ After choosing a template, you'll be in the email content designer, which resemb
 > - Large emails take longer to load, which may annoy recipients.
 
 > [!NOTE]
-> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 for Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](email-preview.md) to see how your designs look in specific Outlook configurations.
+> Microsoft Outlook supports local customizations and plugins that can affect the way messages are rendered. In some cases, recipients using customized Outlook installations may see odd layouts or repeated page elements when viewing pages designed in Dynamics 365 Marketing. These effects can't be simulated by the designer. If necessary, you can use [test sends](email-preview.md) to see how your designs look in specific Outlook configurations.
 
 <a name="required-links"></a>
 

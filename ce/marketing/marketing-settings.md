@@ -1,6 +1,6 @@
 ---
-title: "Configure core marketing functionality in Dynamics 365 for Marketing | Microsoft Docs"
-description: "Use the marketing settings to configure landing pages, email marketing, and marketing-insights sync in Dynamics 365 for Marketing"
+title: "Configure core marketing functionality in Dynamics 365 Marketing | Microsoft Docs"
+description: "Use the marketing settings to configure landing pages, email marketing, and marketing-insights sync in Dynamics 365 Marketing"
 keywords: administration; landing page; marketing insights sync
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
@@ -10,6 +10,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: kamaybac
 ms.author: kamaybac
@@ -61,7 +62,7 @@ For more information about these features, see [The lead lifecycle](lead-lifecyc
 
 Domain authentication is important for two reasons:
 
-- For *marketing email messages*, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved Dynamics 365 for Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
+- For *marketing email messages*, it enables recipient email servers to confirm that the from-address shown on each of your messages actually belongs to your organization, and that your organization has approved Dynamics 365 Marketing to send messages on its behalf. Messages that fail this test are increasingly likely to get filtered away as spam, which can dramatically impact your deliverability.
 - For *externally hosted forms*, it confirms that you own the domain and therefore establishes an enhanced trust relationship with your domain, which enables embedded marketing forms to be prefilled with data for known contacts.
 
 The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called _DomainKeys Identified Mail_ (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
@@ -72,7 +73,7 @@ To learn more about email marketing and deliverability see [Best practices for e
 
 ### The default authenticated domain
 
-By default, all new Dynamics 365 for Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". This means that you can begin sending authenticated emails right away, but you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
+By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in "-dyn365mktg.com". This means that you can begin sending authenticated emails right away, but you should still authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization.
 
 When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form *account-name*@*domain-name*). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, "MyName@contoso-dyn365mktg.com"), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will probably lower message deliverability.
 
@@ -91,7 +92,7 @@ Set up as many authenticated domains as you need to cover all the from-addresses
 
 ### Authenticate a domain
 
-To set up Dynamics 365 for Marketing and the DNS to authenticate marketing email messages and embedded forms for a given domain:
+To set up Dynamics 365 Marketing and the DNS to authenticate marketing email messages and embedded forms for a given domain:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Authenticated domains**. A list of existing authenticated domains opens.
 1. Select **New** on the command bar to add a new domain.
@@ -101,26 +102,26 @@ To set up Dynamics 365 for Marketing and the DNS to authenticate marketing email
     - **Authenticate email**: Select this check box if you want to authenticate email for this domain using DKIM.
     - **Enable prefilled forms**: Select this check box if you want to authenticate marketing forms [embedded](embed-forms.md) on this domain for the purpose of supporting prefill for known contacts. This check box also enables [page personalization](personalized-page-content.md) on this domain.
 
-1. Select **Save** from the command bar. Dynamics 365 for Marketing saves the new record and generates a set of authentication keys for your specified domain. The page reloads to show the new keys. The following are provided:
+1. Select **Save** from the command bar. Dynamics 365 Marketing saves the new record and generates a set of authentication keys for your specified domain. The page reloads to show the new keys. The following are provided:
 
     - **Ownership authentication key**: Proves that your organization owns the domain.
-    - **Email authentication keys for DKIM**: Prove that Dynamics 365 for Marketing is authorized to send messages that show your organization's domain name in the from-address.
+    - **Email authentication keys for DKIM**: Prove that Dynamics 365 Marketing is authorized to send messages that show your organization's domain name in the from-address.
 
     ![Generated keys](media/dkim-keys.png "Generated keys")
 
 1. Contact your DNS provider and tell them you'd like to create some DNS records for domain authentication and DKIM. They will typically provide you with an online form where you can create DNS records by submitting the **Host** and **Value** values for each authentication key generated by Dynamics 365, or they may instead ask you to send them these values in an email. The procedure varies by DNS provider, so be sure to follow their instructions.
-1. When you are done setting up the DNS records with your provider, return to your authenticated-domain record in Dynamics 365 for Marketing and select **Confirm DNS registration** on the command bar. Dynamics 365 checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
+1. When you are done setting up the DNS records with your provider, return to your authenticated-domain record in Dynamics 365 Marketing and select **Confirm DNS registration** on the command bar. Dynamics 365 checks to make sure the values are correctly set up and active in the DNS system. If you get a success message, then everything is working and you're done. DNS registration may require up to 24 hours to take effect, so try again later if your registration isn't confirmed right away.
 
 As you are setting up an authenticated domain, you can track the progress of both its **Ownership status** and **Email status** , each of which is reported as one of the following:
 
 | **Status** | **Description** |
 | --- | --- |
 | Waiting to confirm | The system has generated the keys you requested and is waiting for you to register them with your DNS provider and then return here to confirm them (by selecting **Confirm DNS registration** on the command bar). |
-| Confirmed | The authentication keys have been registered with DNS and confirmed in Dynamics 365 for Marketing. This domain is ready to use. |
+| Confirmed | The authentication keys have been registered with DNS and confirmed in Dynamics 365 Marketing. This domain is ready to use. |
 | Cancelled | The registration was cancelled. |
 | Not requested | You didn't request this type of authentication. |
-| Confirming DNS registration | Dynamics 365 for Marketing is working to confirm the registration with DNS. |
-| Keys not found on DNS | Dynamics 365 for Marketing successfully checked for the keys in the DNS system, but they weren't there. This may be because your key registrations are still being implemented by the DNS (allow up to 24 hours). It could also mean that you haven't registered the keys or that something went wrong while you were entering them. You can check again by selecting   **Confirm DNS registration** on the command bar. If problems persist after 24 hours, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) and/or your DNS provider for assistance. |
+| Confirming DNS registration | Dynamics 365 Marketing is working to confirm the registration with DNS. |
+| Keys not found on DNS | Dynamics 365 Marketing successfully checked for the keys in the DNS system, but they weren't there. This may be because your key registrations are still being implemented by the DNS (allow up to 24 hours). It could also mean that you haven't registered the keys or that something went wrong while you were entering them. You can check again by selecting   **Confirm DNS registration** on the command bar. If problems persist after 24 hours, please [contact Microsoft Support](setup-troubleshooting.md#contact-support) and/or your DNS provider for assistance. |
 | Internal error (record not found) | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
 | Internal error (query failed) | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
 | Internal error | An internal error occurred while confirming the DNS registration. Please [contact Microsoft Support](setup-troubleshooting.md#contact-support) for assistance. |
@@ -130,13 +131,13 @@ As you are setting up an authenticated domain, you can track the progress of bot
 To benefit from DKIM, the from-address for each message you send must show a domain that you've authenticated for DKIM. Microsoft is dedicated to helping our customers achieve maximum email deliverability, so we've added a few features to help make sure you don't overlook or inadvertently work around your DKIM setup:
 
 - The error check for email messages will show a warning if you try to go live with an email message that has a from-address not associated with any of your DKIM domains.
-- We recommend that you [set a default sending domain](#default-marketing-settings) that is authenticated for DKIM. When this is set, then the from-address for all of your email messages will automatically be adjusted to show your selected default domain (if it initially uses a non-authenticated domain) each time you create a new email message or change the user shown in the **From** field. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]
+- We recommend that you [set a default sending domain](#default-marketing-settings) that is authenticated for DKIM. When this is set, then the from-address for all of your email messages will automatically be adjusted to show your selected default domain (if it initially uses a non-authenticated domain) each time you create a new email message or change the user shown in the **From** field. More information:
  [Default marketing settings](#default-marketing-settings) and  and [Set sender and receiver options](email-properties.md#send-receive-options)
 - All new instances and trials will automatically authenticate the instance domain with DKIM and set that domain as the default sending domain for your instance.
 
 ## Marketing analytics configuration
 
-Use these settings to connect your Dynamics 365 for Marketing instance to [!include[](../includes/pn-azure-blob-storage.md)]. This will enable you to share interaction data with external systems such as [!include[](../includes/pn-power-bi.md)]. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
+Use these settings to connect your Dynamics 365 Marketing instance to Azure Blob Storage. This will enable you to share interaction data with external systems such as Power BI. For more information about how to use these settings, see [Create custom analytics with Power BI](custom-analytics.md).
 
 <a name="config-mkt-pages"></a>
 
@@ -165,7 +166,7 @@ We recommend that you include a privacy banner on all your landing pages. This w
 
 ### Configure how incoming form data is matched to existing records
 
-Most of your landing pages will include an input form that visitors can use to sign up for an offer, event, or mailing list by entering their name, email address, and other information. When a visitor submits a form, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] accepts the submitted values and checks to see whether it should update an existing record or create a new one.
+Most of your landing pages will include an input form that visitors can use to sign up for an offer, event, or mailing list by entering their name, email address, and other information. When a visitor submits a form, Dynamics 365 accepts the submitted values and checks to see whether it should update an existing record or create a new one.
 
 The **Contact creation context capture** and **Lead creation context capture** sections show where various types of information about the marketing context are stored when a submission results in a new contact or lead record. Here, you can see which fields in the contact or lead entity store each type of context information.
 
@@ -179,9 +180,9 @@ For more information about how to create and edit matching strategies, see [Set 
 
 ### Set portal defaults
 
-Settings on the **Portal defaults** tab control how your marketing pages are hosted in Dynamics 365 for Marketing. The following settings are available:
+Settings on the **Portal defaults** tab control how your marketing pages are hosted in Dynamics 365 Marketing. The following settings are available:
 
-- **Website**. Identifies the portal website where all new marketing pages will be published while the current configuration record is active. This defaults to the event website that was provisioned for you when you signed up for Dynamics 365 for Marketing, but you can choose another if you have one. If you change this, pages that you've already published will remain on their current portal, but new pages will go to the new portal.
+- **Website**. Identifies the portal website where all new marketing pages will be published while the current configuration record is active. This defaults to the event website that was provisioned for you when you signed up for Dynamics 365 Marketing, but you can choose another if you have one. If you change this, pages that you've already published will remain on their current portal, but new pages will go to the new portal.
 - **Page language**. Sets the default language to use in the portal.
 - **Container page**. Sets the container page used for marketing pages.
 
@@ -191,7 +192,7 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 The marketing insights service provides analytical tools for working with customer records. It helps you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The marketing insights service also makes dynamic field values available for use in marketing email messages as they are processed and sent.
 
-The analytical and data-crunching capabilities of the marketing insights service is very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between Dynamics 365 for Marketing and this service. The marketing insights service also collects and manages all interaction data. For optimal performance and functionality, choose only the entities you need&mdash;no more and no less.
+The analytical and data-crunching capabilities of the marketing insights service is very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between Dynamics 365 Marketing and this service. The marketing insights service also collects and manages all interaction data. For optimal performance and functionality, choose only the entities you need&mdash;no more and no less.
 
 > [!IMPORTANT]
 > The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
@@ -205,14 +206,14 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > [!NOTE]
 > You can only sync entities that are configured with **Change tracking** enabled. Entities without change tacking won't be listed on the **Marketing data configuration** page. If you are a system customizer or admin, then you can find this setting by doing the following:
 > 
-> 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+> 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 for Customer Engagement advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 > 1. Navigate to **Settings** > **Customization** > **Customization**.
 > 1. Select **Customize the system** (or select **Solutions** and open a solution if your entity is part of a solution).
 > 1. Find and select the entity you want to sync.
 > 1. On the **General** tab for the entity, select the **Change tracking** check box.
 > 1. Save and publish the change.
 > 
-> [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customizing Dynamics 365 for Marketing](customize.md)
+> More information: [Customizing Dynamics 365 Marketing](customize.md)
 
 To sync a new entity with the marketing insights service:
 
@@ -237,15 +238,15 @@ To sync a new entity with the marketing insights service:
 
 Matching strategies define how form submissions are matched to existing contacts or leads when deciding whether to update an existing record or to create a new one.
 
-For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
+For example, a simple contact-matching strategy might be based on email address alone. When a submission is received, Dynamics 365 will check whether any existing contact has the submitted email address. If a match is found, the submission is used to update that contact; if no match is found, a new contact is created with the received values.
 
 For leads, if an existing lead record is found to match an incoming form submission, then the new submission will become part of that lead's history and could affect the lead's score.
 
 You'll probably have just a few matching strategies of each type&nbsp;many organizations use just one of each. Therefore, you can define each strategy just once and then it'll be available for selection each time you create a new form, and when you define the default strategies for all new forms. There are three places where you can view and create matching strategies:
 
 - Go to **Settings** > **Advanced settings** > **Marketing settings** > **Matching strategy** to view, create and edit all strategies that are available on your instance.
-- You can select a default strategy of each type (lead and contact). These will be selected by default each time a user creates a new marketing form, but users can then customize the setting as needed for each individual form. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure landing pages](#config-mkt-pages)
-- When you are creating or editing a marketing form, you'll  be able to select from among the available strategies, or create new ones. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
+- You can select a default strategy of each type (lead and contact). These will be selected by default each time a user creates a new marketing form, but users can then customize the setting as needed for each individual form. More information: [Configure landing pages](#config-mkt-pages)
+- When you are creating or editing a marketing form, you'll  be able to select from among the available strategies, or create new ones. More information: [Create, view, and manage marketing forms](marketing-forms.md)
 
 In each case, the settings are the same.
 
@@ -280,12 +281,12 @@ Make the following settings here:
 
 Use the **Marketing email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. You can also enable or disable Litmus integration here for all users. The following settings are available:
 
-- **Default content settings**. Choose a default content-settings record to provide dynamic values for test sends and the preview feature of the marketing email designer. Users will be able to override this default by choosing another contact while previewing or test sending a specific message if needed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
-- **Default sending domain**. Choose an authenticated domain to use as the sending domain in the email from-address in cases where the initial from-address uses a domain that is not yet authenticated for DKIM. This will help ensure that users don't accidentally send an email using an unauthenticated domain (which would negatively impact deliverability). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Authenticate your domains](#authenticate) and [Set sender and receiver options](email-properties.md#send-receive-options)
+- **Default content settings**. Choose a default content-settings record to provide dynamic values for test sends and the preview feature of the marketing email designer. Users will be able to override this default by choosing another contact while previewing or test sending a specific message if needed. More information: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
+- **Default sending domain**. Choose an authenticated domain to use as the sending domain in the email from-address in cases where the initial from-address uses a domain that is not yet authenticated for DKIM. This will help ensure that users don't accidentally send an email using an unauthenticated domain (which would negatively impact deliverability). More information: [Authenticate your domains](#authenticate) and [Set sender and receiver options](email-properties.md#send-receive-options)
 - **Default contact**. Choose a default contact record to provide dynamic values for test sends and the preview feature of the marketing email designer. Users will be able to override this default by choosing another contact while previewing or test sending a specific message if needed.
-- **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](email-preview.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
+- **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](email-preview.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a Microsoft partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work using previews and test sends](email-preview.md)
+More information: [Check your work using previews and test sends](email-preview.md)
 
 ### The Customer journey tab
 
@@ -297,7 +298,7 @@ Use the **Double opt-in** tab to enable set up the double opt-in feature. For co
 
 ### The Bypass email deduplication tab
 
-Normally, Dynamics 365 for Marketing deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
+Normally, Dynamics 365 Marketing deduplicates outgoing marketing email messages to ensure that each message is sent just once to each unique email address. That means that if more than one contact record in the target segment has the same email address, only one of those contacts will receive the message. Duplicate email addresses probably indicate that the same person is represented by two different records in your database (for example, because they registered at different times using two different first-name variants, such as "Bob" and "Robert"), so this is the desired behavior.
 
 However, some organizations need to send separate copies of the same email messages to multiple contacts that happen to be using the same email address; in this case, personalized content, such as account details, would probably be different for each recipient. If your organization requires this, then set **Bypass email deduplication** to **Yes**. Set it to **No** to revert to the standard deduplication behavior.
 
@@ -305,7 +306,7 @@ However, some organizations need to send separate copies of the same email messa
 
 ## Configure your social media accounts
 
-Social posting enables Dynamics 365 for Marketing users to author, schedule, and publish posts to a variety of social media channels and accounts. You must configure and authenticate each channel and account that you'd like to make available for use with this feature. In the current version, you can configure accounts for Twitter, LinkedIn, and Facebook.
+Social posting enables Dynamics 365 Marketing users to author, schedule, and publish posts to a variety of social media channels and accounts. You must configure and authenticate each channel and account that you'd like to make available for use with this feature. In the current version, you can configure accounts for Twitter, LinkedIn, and Facebook.
 
 To add and authenticate a social media account:
 
@@ -316,7 +317,7 @@ To add and authenticate a social media account:
     - **Social channel**: Choose the social-media site you want to connect to (such as LinkedIn or Facebook).
 1. After you've selected a channel, links for the **Privacy policy** and **Terms of service** of your selected channel are provided. It's important that you read and understand these terms before you begin using this feature.
 1. Provided you agree with the privacy policy and terms of service, select **Create** to continue.
-1. Follow the instructions on your screen to sign in to your social media account and allow Dynamics 365 for Marketing to post through this account.
+1. Follow the instructions on your screen to sign in to your social media account and allow Dynamics 365 Marketing to post through this account.
     > [!IMPORTANT]
     > If you are setting up a Facebook account that has more than one Facebook page associated with it, then pay extra attention to the settings offered while you are setting up the connection. One of the setup pages will ask you which of your Facebook pages you want to use&mdash;be sure to choose **All pages** first (to make all pages available) and then choose the specific page later on. Otherwise, Facebook will choose an arbitrary page from among those you have set up on the site. If you miss the **All pages** setting, then you must reauthorize the connection (as described in the following procedure) and try again.
 
@@ -327,13 +328,13 @@ If your sign-in times out, or if the password changes on one of your accounts, y
 1. Select **Reauthorize** on the command bar.
 1. Follow the instructions on your screen to update your sign-in details.
 
-You can delete a social configuration at any time to prevent Dynamics 365 for Marketing from posting through that account from now on. Use the **Delete** button on the command bar to delete the currently shown or selected configuration.
+You can delete a social configuration at any time to prevent Dynamics 365 Marketing from posting through that account from now on. Use the **Delete** button on the command bar to delete the currently shown or selected configuration.
 
 For details about how to post messages to your configured accounts, see [Schedule and post messages on social media](social-posting.md)
 
 ## Data protection tools
 
-Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of Dynamics 365 for Marketing. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
+Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of Dynamics 365 Marketing. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
 
 ### See also
 

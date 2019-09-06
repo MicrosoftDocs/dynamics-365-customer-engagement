@@ -1,6 +1,6 @@
 ---
-title: "Design dynamic profile segments in the standard view (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to use the standard view to construct segments in Dynamics 365 for Marketing"
+title: "Design dynamic profile segments in the standard view (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to use the standard view to construct segments in Dynamics 365 Marketing"
 keywords: segment; compound segment
 ms.date: 05/07/2019
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 6620a363-8996-4d94-bbbe-fb5bffaf1ceb
 author: kamaybac
 ms.author: kamaybac
@@ -28,13 +29,13 @@ search.app:
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
-- **Profile segments** query the _profile_ records stored in the marketing insights database. Profiles records are synced between your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database and the marketing insights database and include the entities you normally work with in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#dci-sync).
+- **Profile segments** query the _profile_ records stored in the marketing insights database. Profiles records are synced between your Dynamics 365 for Customer Engagement database and the marketing insights database and include the entities you normally work with in the Dynamics 365 for Customer Engagement UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#dci-sync).
 
-- **Interaction segments** query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] UI, but they _aren't_ synced to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- **Interaction segments** query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 for Customer Engagement database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
 This topic describes how to work with profile segments. For more about interaction segments, see [Design interaction-based dynamic segments](segments-interaction.md).
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Working with segments](segmentation-lists-subscriptions.md)
+More information: [Working with segments](segmentation-lists-subscriptions.md)
 
 ## Set up a new dynamic segment
 
@@ -135,7 +136,7 @@ For example:
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
 
-1. If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+1. If your Marketing instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
     ![Close the default query group](media/segment-opportunity-close-group.png "Close the default query group")

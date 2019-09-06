@@ -1,5 +1,5 @@
 ---
-title: "Remove custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Remove custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Provides information on how to uninstall/remove custom channel from your Dynamics 365 for Customer Engagement instance."
 ms.custom: 
   - dyn365-developer

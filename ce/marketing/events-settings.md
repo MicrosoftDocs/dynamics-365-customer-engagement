@@ -1,6 +1,6 @@
 ---
-title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
+title: "Set up event administration options and webinar provider accounts (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 Marketing"
 keywords: administration; webinar; webinar provider
 ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
@@ -10,6 +10,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 04813c0e-cbfd-45da-a316-76d23aae759e
 author: kamaybac
 ms.author: kamaybac
@@ -35,12 +36,12 @@ See the remaining sections of this topic for information about how to work with 
 
 ## Webinar providers
 
-A *webinar provider* is a third-party company that hosts webinars. The provider accepts registrations, provides URLs where the presenter and participants can join each webinar, and also provides a server to run the webinar itself. Providers typically also deliver attendance statistics and other webinar features. [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] does not provide this service, so to run a webinar, you must sign up with a third-party provider and then configure [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with the details needed to connect to that provider.
+A *webinar provider* is a third-party company that hosts webinars. The provider accepts registrations, provides URLs where the presenter and participants can join each webinar, and also provides a server to run the webinar itself. Providers typically also deliver attendance statistics and other webinar features. Microsoft does not provide this service, so to run a webinar, you must sign up with a third-party provider and then configure Dynamics 365 Marketing with the details needed to connect to that provider.
 
 Each webinar provider that you use must have a record listed on the **Webinar providers** page. For each account that you have with your webinar provider, you must also set up a **Webinar configuration** record as described in the next section.
 
 > [!NOTE]
-> [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] has partnered with a webinar provider called [On24](https://www.on24.com/), so [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is prepared to work with On24 right out of the box, though you'll still need to set up an account with them before you can run a webinar. This is the only provider currently supported for use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+> Microsoft has partnered with a webinar provider called [On24](https://www.on24.com/), so Dynamics 365 is prepared to work with On24 right out of the box, though you'll still need to set up an account with them before you can run a webinar. This is the only provider currently supported for use with Dynamics 365 Marketing.
 
 To set up a webinar provider:
 
@@ -48,15 +49,15 @@ To set up a webinar provider:
 1. To edit an existing provider, select it from the list; to create a new one, select **New**. (You can also delete or deactivate a listed provider by selecting it in the list and then selecting the appropriate button on the command bar.)
 1. Make the following settings:
     - **Name**: Enter the name of the provider.
-    - **Base service URL**: Enter your webinar provider's base service URL. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses this URL to communicate with your webinar provider's system. Please contact your webinar provider if you don't know what it is.
+    - **Base service URL**: Enter your webinar provider's base service URL. Dynamics 365 Marketing uses this URL to communicate with your webinar provider's system. Please contact your webinar provider if you don't know what it is.
     - **Max duration in minutes**: Shows the maximum number of minutes that your provider allows for a single session. Any webinars that are longer than this must be broken down into multiple sessions.
-    - **Terms of service**: Enter the URL for a web page that lists your webinar provider's terms of service. Select the globe button to open this URL in a new browser tab. Please contact your webinar provider if you don't know the URL. This link is provided to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users when they are in the process of enabling webinar functionality, which requires them to agree to these terms.
-    - **Privacy policy**: Enter the URL for a web page that shows your webinar provider's privacy policy. Select the globe button to open this URL in a new browser tab. Please contact your webinar provider if you don't know the URL. This link is provided to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] users when they are in the process of enabling webinar functionality, which requires them to agree to this policy.
+    - **Terms of service**: Enter the URL for a web page that lists your webinar provider's terms of service. Select the globe button to open this URL in a new browser tab. Please contact your webinar provider if you don't know the URL. This link is provided to Dynamics 365 Marketing users when they are in the process of enabling webinar functionality, which requires them to agree to these terms.
+    - **Privacy policy**: Enter the URL for a web page that shows your webinar provider's privacy policy. Select the globe button to open this URL in a new browser tab. Please contact your webinar provider if you don't know the URL. This link is provided to Dynamics 365 Marketing users when they are in the process of enabling webinar functionality, which requires them to agree to this policy.
 1. Save your work.
 
 ## Webinar configurations
 
-After you have set up an account with your webinar provider, and set up the provider itself as described in the previous section, you must enter your account details to enable [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to authenticate and interact with it. Even if you use just one webinar provider, you might have several accounts with that provider, and can configure each of them as needed.
+After you have set up an account with your webinar provider, and set up the provider itself as described in the previous section, you must enter your account details to enable Dynamics 365 Marketing to authenticate and interact with it. Even if you use just one webinar provider, you might have several accounts with that provider, and can configure each of them as needed.
 
 > [!NOTE]
 > Each time you set up an event or session as a webinar (or hybrid), you must choose a webinar configuration. This is how you can control which account you'll be using for that event or session.
@@ -71,7 +72,7 @@ To configure a webinar account:
 1. The following read-only information is also provided here, some of which may be useful for troubleshooting:
     - **Terms of service**: Displays the URL where your provider lists their terms of service. This value comes from the selected **Webinar provider** record. Select the globe button to open this URL in a new browser tab.
     - **Privacy policy**: Displays the URL where your provider details their privacy policy. This value comes from the selected **Webinar provider** record. Select the globe button to open this URL in a new browser tab.
-    - **Last metrics update**: Shows the last date and time that your provider returned usage statistics (such as attendance records) to [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
+    - **Last metrics update**: Shows the last date and time that your provider returned usage statistics (such as attendance records) to Dynamics 365 Marketing.
     - **Provider service status**: Shows the current status of the provider service and your connection to it.
     - **Message**: Displays a custom message sent by the provider (typically related to the displayed status).
 1. Open the **Credentials** tab.

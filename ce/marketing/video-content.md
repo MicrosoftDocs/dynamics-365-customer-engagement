@@ -1,6 +1,6 @@
 ---
-title: "Include videos in your marketing content (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to set up a video library and add those videos to marketing emails and pages in Dynamics 365 for Marketing"
+title: "Include videos in your marketing content (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to set up a video library and add those videos to marketing emails and pages in Dynamics 365 Marketing"
 keywords: videos, content, designer, design element
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 2e49e083-7b6d-48d7-86f4-0430de12e009
 author: kamaybac
 ms.author: kamaybac
@@ -30,7 +31,7 @@ search.app:
 > This is a preview feature. [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to store information about each of the videos that you use in your marketing initiatives and then include those videos in your emails and pages by adding a video design element that references a video from your video library.
+Use Dynamics 365 Marketing to store information about each of the videos that you use in your marketing initiatives and then include those videos in your emails and pages by adding a video design element that references a video from your video library.
 
 For each video you add to your library, you'll specify a name, video URL, embed code, and thumbnail URL. The library won't contain the video itself, just these references to it, so you'll need to host your video somewhere else, such as on one of the major video platforms like YouTube or Vimeo.
 
@@ -38,7 +39,7 @@ When you add a video to one of your designs, the designer will automatically use
 
 ## Add a video to your library
 
-To add a video to your library in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:
+To add a video to your library in Dynamics 365 Marketing:
 
 1. Go to **Marketing** > **Marketing content** > **Videos** to open a page that shows a list of all videos already in your library.
 

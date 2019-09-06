@@ -18,13 +18,13 @@ manager: dariosap
 
 # Manually overwriting sample website 
 
-The standard process of updating an event management website is to download a newer version and run the provided script to push the changes to the [Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup) instance described in [Dynamics 365 Portal hosted](portal-hosted.md#deployment). 
+The standard process of updating an event management website is to download a newer version and run the provided script to push the changes to the [Dynamics 365 Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup) instance described in [Dynamics 365 Portal hosted](portal-hosted.md#deployment). 
 
 There are situations where it is not possible to push the new website definition because of the changes to the underlying portal web pages. Portal web pages, web templates, and web files are used to host the event website when you host the website through [Dynamics 365 Portal hosted](portal-hosted.md). You need to update these entities manually if you make any changes to these entities. There is no automatic mechanism to update from version to version as it breaks the customer customizations. 
 
-The web pages, web templates, and web files are packaged into solution files to import them into Dynamics 365 for Marketing instance using [The Configuration Migration tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/import-configuration-data). 
+The web pages, web templates, and web files are packaged into solution files to import them into Dynamics 365 Marketing instance using [The Configuration Migration tool](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/import-configuration-data). 
 
-As these entities differ from version to version, there is a separate zip file for every event management release. Download zip file version that corresponds to your current event management solution version installed in your Dynamics 365 for Marketing instance. To do that, open your instance and navigate to the **settings** > **solutions** section. Note which **MicrosoftDynamics_EventManagement** solution version you have. 
+As these entities differ from version to version, there is a separate zip file for every event management release. Download zip file version that corresponds to your current event management solution version installed in your Dynamics 365 Marketing instance. To do that, open your instance and navigate to the **settings** > **solutions** section. Note which **MicrosoftDynamics_EventManagement** solution version you have. 
 
 If the event management solution version is `1.12.1006`, then search for **MicrosoftDynamics_EventManagement_patch** solution file. Copy the version and use it to download the corresponding archive. 
 
@@ -34,7 +34,7 @@ Manually overwriting the event management website overwrites the possible custom
 
 | Release Version |Download link|
 |--|--|
-| 1.12.2630 (August 2019 Release)| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Aug19-1.12.2630.zip)
+|1.16.0 (July 2019 Release)| [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/190701-EventWebsite.zip)
 | 1.12.2327 (April 2019 Release) | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Apr19-1.12.2327.zip) |
 | 1.12.1006 (March 2019 Release) | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Mar19-1.12.1006.zip) |
 | 1.11.1005 (February 2019 Release) | [Download](http://download.microsoft.com/download/1/5/0/150757D0-2600-493B-8C9A-3213AD873A73/PortalData-Feb19-1.11.1005.zip) |

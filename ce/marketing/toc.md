@@ -1,4 +1,4 @@
-# [Dynamics 365 for Marketing](help-hub.md)
+# [Dynamics 365 Marketing](help-hub.md)
 
 ## [Overview](overview.md)
 ## [Marketing videos](marketing-videos.md)
@@ -7,7 +7,7 @@
 
 ### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
-#### [Purchase and set up Dynamics 365 for Marketing](purchase-setup.md)
+#### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
 #### [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
@@ -209,5 +209,5 @@
 ### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
 ### [Extend Marketing forms using client side scripting](developer/marketing-form-client-side-extensibility.md)
 ### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
-#### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
-#### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)
+#### [Dynamics 365 Marketing solutions](developer/marketing-solutions.md)
+#### [Dynamics 365 Marketing entity reference](developer/marketing-entity-reference.md)

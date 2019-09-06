@@ -1,6 +1,6 @@
 ---
-title: "Add custom validation rules to Dynamics 365 for Marketing | Microsoft Docs "
-description: "How to add more rules for validating records before going live in Dynamics 365 for Marketing"
+title: "Add custom validation rules to Dynamics 365 Marketing | Microsoft Docs "
+description: "How to add more rules for validating records before going live in Dynamics 365 Marketing"
 keywords: customize;workflow;business process;validation
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
@@ -10,6 +10,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: d8fb5ab9-654d-4bf0-9bdd-dc10eff5082b
 author: kamaybac
 ms.author: kamaybac
@@ -27,7 +28,7 @@ search.app:
 
 # Add custom validation rules for marketing pages
 
-A standard feature of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+A standard feature of Dynamics 365 Marketing
  is its ability to check marketing pages for errors before going live. The validation (**Check for Errors**) feature checks the current record for missing content and technical errors (such as missing required settings, syntax errors, or code that won't compile) and then displays the validation results, including error messages that should help the user solve any issues that were found.
 
 The validation feature works by implementing a *validation pipeline* with a series of rules that the content must pass. For each violation, an error or warning is added to the response and the content won't be allowed to go live. Customizers can extend the pipeline by adding custom validation stages that implement the required custom checks. You might use this capability, for example, to scrub for forbidden terms or to ensure that a required disclaimer is always present. Custom validation rules require custom coding to create the actual validation logic. Your code must parse the incoming text and generate messages as needed.

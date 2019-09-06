@@ -1,6 +1,6 @@
 ---
-title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Learn how to integrate Dynamics 365 for Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems"
+title: "Use segments from Dynamics 365 Customer Insights (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to integrate Dynamics 365 Marketing with Dynamics 365 Customer Insights so you can share data and segments between the two systems"
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -8,6 +8,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 25d0d7da-0ac0-46a7-953c-86b07338bcb3
 author: kamaybac
 ms.author: kamaybac
@@ -23,15 +24,15 @@ search.app:
   - D365Mktg
 ---
 
-# Early access: Use segments from Dynamics 365 Customer Insights with Dynamics 365 for Marketing
+# Early access: Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
 The new Customer Insights app for Dynamics 365 applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 for Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
 
-- Load data from Dynamics 365 for Marketing into Customer Insights and combine it with customer data from other sources.
+- Load data from Dynamics 365 Marketing into Customer Insights and combine it with customer data from other sources.
 - Apply data cleansing, enrichment, fuzzy matching, and more.
-- Use segments created by Customer Insights to target customer journeys in Dynamics 365 for Marketing.
+- Use segments created by Customer Insights to target customer journeys in Dynamics 365 Marketing.
 
 For complete details, see the [Customer Insights documentation](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview).
 
@@ -40,9 +41,9 @@ For complete details, see the [Customer Insights documentation](https://docs.mic
 To use the features described in this topic, you must do the following:
 
 - **Set up a trial or production instance of Dynamics 365 Customer Insights**
-Dynamics 365 Customer Insights is a separate product from Dynamics 365 for Marketing. You must already have a Customer Insights instance available before you can integrate it with Dynamics 365 for Marketing. You can use either a trial or a production license of Customer Insights while to try out the integration, but must eventually purchase a full license if you decide to continue using it.
+Dynamics 365 Customer Insights is a separate product from Dynamics 365 Marketing. You must already have a Customer Insights instance available before you can integrate it with Dynamics 365 Marketing. You can use either a trial or a production license of Customer Insights while to try out the integration, but must eventually purchase a full license if you decide to continue using it.
 - **Enable early access**
-This feature is currently in early access, which means that you must opt-in to the early access program to enable the feature. For details about how to enable early access features for Dynamics 365 for Marketing, see [Enable the 2019 release wave 2 updates for Dynamics 365 for Marketing](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing).
+This feature is currently in early access, which means that you must opt-in to the early access program to enable the feature. For details about how to enable early access features for Dynamics 365 Marketing, see [Enable the 2019 release wave 2 updates for Dynamics 365 Marketing](https://docs.microsoft.com/power-platform/admin/preview-october-2019-updates#enable-the-2019-release-wave-2-updates-for-dynamics-365-for-marketing).
 
 ## Overview: Working with Customer Insights segments in Marketing
 
@@ -77,7 +78,7 @@ Segments exported from Customer Insights to Marketing look like static segments.
 
 ### Customer Insights segments won't create new contacts in Marketing
 
-When you export a segment to Dynamics 365 for Marketing, the resulting segment will only contain contacts already in Marketing that match incoming contact IDs from the Customer Insights segment. Contacts in Customer Insights that have IDs that aren't present in Marketing (possibly because they came from another data source) will be ignored, so new contacts won't be created in Marketing.
+When you export a segment to Dynamics 365 Marketing, the resulting segment will only contain contacts already in Marketing that match incoming contact IDs from the Customer Insights segment. Contacts in Customer Insights that have IDs that aren't present in Marketing (possibly because they came from another data source) will be ignored, so new contacts won't be created in Marketing.
 
 ### Customer Insights segments show details in the Description field in Marketing
 
@@ -112,17 +113,17 @@ Once the data source is set up, it will continue to work and refresh automatical
 
 ## Set your Marketing app as an export destination in Customer Insights
 
-To make the segments you create in Customer Insights available in Dynamics 365 for Marketing, you must set up your Marketing instance as an export destination in Customer Insights. You only have to do this once.
+To make the segments you create in Customer Insights available in Dynamics 365 Marketing, you must set up your Marketing instance as an export destination in Customer Insights. You only have to do this once.
 
-To configure your Dynamics 365 for Marketing instance as an export destination in a Customer Insights:
+To configure your Dynamics 365 Marketing instance as an export destination in a Customer Insights:
 
 1. Sign into Customer Insights.
 1. Go to **Admin** > **Export destinations**.
 1. Select **Add destination** on the command bar.
 1. The **Edit destination** dialog opens. Make the following settings:
-   - **Type**: Select **Dynamics 365 for Marketing (Segments)**.
-   - **Server address**: Enter the full domain name for your Dynamics 365 for Marketing instance.
-   - **Server admin account**: Select **Sign in** to open a pop-up window where you can sign into your Dynamics 365 for Marketing instance. Sign in using an account with admin privileges on the Marketing instance.
+   - **Type**: Select **Dynamics 365 Marketing (Segments)**.
+   - **Server address**: Enter the full domain name for your Dynamics 365 Marketing instance.
+   - **Server admin account**: Select **Sign in** to open a pop-up window where you can sign into your Dynamics 365 Marketing instance. Sign in using an account with admin privileges on the Marketing instance.
    - **Indicate which Customer Insights field matches the Dynamics 365 Contact ID**: Select the field in Customer Insights that stores contact IDs of contacts in Marketing. Unless you've customized this, you should usually select **CustomerId**.
    - **Display name**: Enter a name for this destination as you'd like it to appear in the destinations list in Customer Insights.
 
@@ -161,7 +162,7 @@ You can edit the list of Customer Insights segments being exported to any destin
 
 1. Select **Save** to save your changes.
 
-**NOTE**: If you remove a segment from the export list, then that segment will no longer be refreshed by Customer Insights, but the last exported versions will still remain available in Dynamics 365 for Marketing.
+**NOTE**: If you remove a segment from the export list, then that segment will no longer be refreshed by Customer Insights, but the last exported versions will still remain available in Dynamics 365 Marketing.
 
 ## Manually refresh integrated segments
 
@@ -171,7 +172,7 @@ Although your segments will automatically refresh a few times a day based on you
 
 1. Go to **Admin** > **Export** destinations.
 
-1. Find the export destination that you set up to export segments to your Dynamics 365 for Marketing instance.
+1. Find the export destination that you set up to export segments to your Dynamics 365 Marketing instance.
 
 1. Select the **Actions** button (which looks like three vertical dots) to open the action menu and then select **Export**.
 

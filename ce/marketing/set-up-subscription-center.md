@@ -1,6 +1,6 @@
 ---
-title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
+title: "Set up a subscription center (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to create subscription lists and add them to a subscription center in Dynamics 365 Marketing"
 keywords: tutorial; subscription center; static list; subscription list; marketing page; page
 ms.date: 05/24/2019
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac
@@ -28,16 +29,16 @@ search.app:
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
-All marketing email messages that you create by using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
+All marketing email messages that you create by using Dynamics 365 Marketing must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
 
 - **Legal requirements**: Many countries/regions have laws that require all marketing email messages to include an unsubscribe link.
 - **Deliverability**: Spam filters and internet reputation monitors can identify marketing email messages, and might remove those that don't include an unsubscribe link.
 
-All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
+All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
 
-Each subscription list exists as a static marketing list in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
+Each subscription list exists as a static marketing list in Dynamics 365 for Customer Engagement, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
-The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register.
+The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that Dynamics 365 Marketing always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register.
 
 ## How and where to publish your subscription centers
 
@@ -47,8 +48,8 @@ A good subscription center is vital for any organization doing email marketing. 
 
 ### The default subscription center
 
-A default subscription center is provided with every [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. This default page runs natively on the service fabric for your instance and doesn't require a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
-portal or external website. This is to ensure that all organizations running [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can provide this essential feature, even if they don't have a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+A default subscription center is provided with every Dynamics 365 Marketing instance. This default page runs natively on the service fabric for your instance and doesn't require a Dynamics 365
+portal or external website. This is to ensure that all organizations running Dynamics 365 Marketing can provide this essential feature, even if they don't have a Dynamics 365
 portal or external website.
 
 To find, customize, and view the default subscription center:
@@ -56,8 +57,8 @@ To find, customize, and view the default subscription center:
 1. Go to **Marketing** > **Internet marketing** > **Marketing pages** to open a list of available marketing pages.
 1. Find the page called **Default Marketing Page** in the list. This is the default subscription center.
 1. Select the **Default Marketing Page** to open it.
-1. Go to the **Summary** tab and look at the **Full page URL**. Note that this URL uses the same domain as your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] instance. Select the globe button here to open the page in a new browser tab.
-1. The page is already live by default. If you'd like to customize it, select **Edit** in the command bar and then work with it just as you would with any other marketing page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] 
+1. Go to the **Summary** tab and look at the **Full page URL**. Note that this URL uses the same domain as your Dynamics 365 Marketing instance. Select the globe button here to open the page in a new browser tab.
+1. The page is already live by default. If you'd like to customize it, select **Edit** in the command bar and then work with it just as you would with any other marketing page. More information: 
 1. Select **Save** when you are done customizing. The page automatically publishes your changes and returns to the live state.
 
 > [!IMPORTANT]
@@ -73,14 +74,14 @@ As with all marketing pages, the subscription form on the default marketing page
 
 ### Custom or additional subscription centers
 
-You can publish subscription centers as a native marketing page running on a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
+You can publish subscription centers as a native marketing page running on a Dynamics 365
  portal, or set up a marketing form that's embedded on an external site. You can use either of these types of pages as your primary subscription center if you prefer not to use the default one.
 
 <a name="create-subscription-list"></a>
 
 ## Create a subscription list
 
-Subscription lists are based on the standard (static) marketing lists feature of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. To create one:
+Subscription lists are based on the standard (static) marketing lists feature of Dynamics 365 for Customer Engagement. To create one:
 
 1. Go to **Marketing** > **Customers** > **Marketing lists**.
 
@@ -166,7 +167,7 @@ Content settings hold common values that you can place into an email message as 
 To work with content settings records, go to **Marketing** &gt; **Templates** &gt; **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
 
 > [!TIP]
-> Like email messages and customer journeys, content settings must be published to the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] email marketing service (by selecting **Go Live**). If you need to edit a live content-settings record, choose **Edit** on the toolbar after opening the record, make your changes, and then select **Save**; on save, it automatically publishes your changes and returns to the live state.
+> Like email messages and customer journeys, content settings must be published to the Dynamics 365 Marketing email marketing service (by selecting **Go Live**). If you need to edit a live content-settings record, choose **Edit** on the toolbar after opening the record, make your changes, and then select **Save**; on save, it automatically publishes your changes and returns to the live state.
 
 Each field shown here (besides the **Name** and **Default** setting) can be referenced dynamically in your email messages. The two fields, **Address Main** and **Subscription Center** must be referenced in all marketing emails, so they are likewise required here.
 
@@ -235,7 +236,7 @@ To add a subscription center link to a marketing email:
 
 1. Select **OK** to create the link.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
+More information: [Create a marketing email and go live](create-marketing-email.md)
 
 <a name="test-sub-center"></a>
 
@@ -254,4 +255,4 @@ If you open a subscription center by opening its URL directly (or by using  a li
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Working with segments](segmentation-lists-subscriptions.md)  
-[How Dynamics 365 for Marketing uses cookies](cookies.md)
+[How Dynamics 365 Marketing uses cookies](cookies.md)

@@ -6,7 +6,6 @@ ms.date: 04/01/2019
 ms.service: "D365CE"
 ms.topic: "article"
 ms.author: "nabuthuk" 
-author: Nkrb
 manager: "kvivek" 
 search.audienceType: 
   - developer

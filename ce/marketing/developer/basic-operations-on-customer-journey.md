@@ -1,6 +1,6 @@
 ---
 title: "Basic operations on the Customer Journey using the API| Microsoft Docs" 
-description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 for Marketing app.
+description: The Customer Journey API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app.
 ms.custom:
 ms.date: 04/03/2019
 ms.reviewer: ""
@@ -25,7 +25,7 @@ The API leverages the standard Dynamics 365 API for manipulating entities or mes
 When you create a customer journey, the properties will be stored in the `msdyncrm_customerjourney` entity. You can browse the entity metadata information using `@odata.context`in the `GET` response.
 
 > [!NOTE]
-> Before you perform operations, you should install the [Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup). 
+> Before you perform operations, you should install the [Dynamics 365 Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup). 
 
 This topic demonstrates how to perform operations on the `msdyncrm_customerjourney` entity. The `msdyncrm_name` field is the only required field to create a simple customer journey. The fields that are used in this topic to create a customer journey are shown in the following table.
 

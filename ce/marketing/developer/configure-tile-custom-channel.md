@@ -1,6 +1,6 @@
 ---
-title: "Step 3: Configure the tile for custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 for Marketing."
+title: "Step 3: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
 ms.custom: 
 ms.date: 04/01/2018
 ms.service: crm-online

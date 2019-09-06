@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
+title: "Dynamics 365 Marketing Readme (Known Issues) | MicrosoftDocs"
 ms.date: 06/07/2019
 ms.service: dynamics-365-marketing
 ms.topic: article
@@ -19,13 +19,13 @@ search.app:
   - D365Mktg
 ---
 
-# Dynamics 365 for Marketing readme
+# Dynamics 365 Marketing readme
 
-This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 for Marketing.
+This document provides important, late-breaking information about known issues and workarounds for Dynamics 365 Marketing.
 
 ## Trials
 
-- Trials are subject to the [Dynamics 365 for Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
+- Trials are subject to the [Dynamics 365 Marketing trial limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 - You can't use the sign-up process to add more users to a Marketing trial that is running on a trial tenant without a mailbox set up for the organization admin. Instead, each new user must be added in a specific way. For more information, see [Add more users to a Marketing trial running on a trial tenant](trial-signup.md#add-users).
 - You can't sign up using an \@microsoft.com email address. If you are a Microsoft employee and would like to sign up for a trial, start by setting up an Office 365 E3 trial, which will provide you both with a trial tenant (where you can install the Marketing trial) and a new email address that you can use to sign up for the Marketing trial. More information: [Sign up for a free trial](trial-signup.md).
 
@@ -33,9 +33,9 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Some types of system customizations can interfere with the Dynamics 365 for Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Default marketing settings](marketing-settings.md#default-marketing-settings) <!--1248465-->
+- Some types of system customizations can interfere with the Dynamics 365 Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Default marketing settings](marketing-settings.md#default-marketing-settings) <!--1248465-->
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
-- A known issue currently prevents you from running the setup wizard unless you have a Dynamics 365 for Customer Engagement license assigned to you on your tenant. However, although most of our customers do have this license, it's not actually required by the terms of the Dynamics 365 for Marketing license agreement. As a temporary workaround, you can install a trial Customer Engagement plan (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. More information: [Try Dynamics 365 for Customer Engagement apps (online)](../admin/try-dynamics-365-online.md). <!--- 1183223 -->
+- A known issue currently prevents you from running the setup wizard unless you have a Dynamics 365 for Customer Engagement license assigned to you on your tenant. However, although most of our customers do have this license, it's not actually required by the terms of the Dynamics 365 Marketing license agreement. As a temporary workaround, you can install a trial Customer Engagement plan (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. More information: [Try Dynamics 365 for Customer Engagement apps (online)](../admin/try-dynamics-365-online.md). <!--- 1183223 -->
 
 ### Fixed issues
 
@@ -148,7 +148,7 @@ This document provides important, late-breaking information about known issues a
 ### Fixed issues
 
 - Events now have sample data.<br><del>*Sample data is no longer available for events. We expect to provide it again in a future update.*</del>
-- The event website installed on your Dynamics 365 portal is no longer overwritten after each app update, so any customizations you make to that site will be preserved when you update the app.<br><del>The event portal included with Dynamics 365 for Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 for Marketing.</del>
+- The event website installed on your Dynamics 365 portal is no longer overwritten after each app update, so any customizations you make to that site will be preserved when you update the app.<br><del>The event portal included with Dynamics 365 Marketing is intended for demo and testing purposes only. Any customizations that you make to the sample event portal will likely get overwritten the next time you update Dynamics 365 Marketing.</del>
 - Creating a recurring event does not select Monday by default.<br><del>When you create a recurring event with a weekly cadence, the check box for **Monday** is automatically selected both when you first create the event series, and each time you open the event series for editing. Any time you create or edit a weekly series, be sure to clear the **Monday** check box if you don't mean to include it.</del>
 
 ## Videos
@@ -172,7 +172,7 @@ This document provides important, late-breaking information about known issues a
 
 ## Websites
 
-- The *websites* feature records all visits to any web page that has a Dynamics 365 for Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
+- The *websites* feature records all visits to any web page that has a Dynamics 365 Marketing tracking script on it. Each log entry includes a timestamp and, if possible, links to a known contact. If the visitor isn’t a known contact, then that visit is logged as anonymous. The website tracking script sets a cookie, so the system can group visits into sessions, even for anonymous visits. When a contact submits a landing-page form, the system sets the same cookie (if not present already) and can thereafter match the cookie ID to a contact ID because the landing-page submission will either create or match a contact. Once a visitor is known, all future website visits will be logged with that user's ID. However, previous visits will remain anonymous (the system doesn't back-fill the contact ID to the existing visitor log).
 
 ## General
 
@@ -180,5 +180,5 @@ This document provides important, late-breaking information about known issues a
 - If you have different Dynamics 365 sessions open in other browser windows or tabs, and then open the Marketing app in the same browser, it will authenticate using the same user that you have open in the other sessions. We recommend that you restart the browser each time you need to sign in using a different Dynamics 365 user account.
 - Avoid deleting fields and creating them again with the same name but a different field type. This causes issues when syncing those fields with the customer-insights database. Instead, create fields with new names (they can still have the same display name as before if needed). <!--- 1424524 -->
 - Avoid deactivating publishable (go-live) records. Instead, change the publishing state (Status reason), and use the **Stop** buttons to manage records that are no longer required. More information: [Go live with publishable entities and track their status](go-live.md)
-- Dynamics 365 for Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md)
+- Dynamics 365 Marketing is currently supported only on the following browsers: Microsoft Edge, Google Chrome, and Apple Safari on Mac. More information: [Browser and system requirements](browser-requirements.md)
 - Right-to-left (RTL) language support currently has the following limitations: the segmentation designer is usable, but shows its user-interface elements in the wrong order; and the supplied content samples (marketing-page templates, email templates, form templates, and event website) aren't provided in RTL layouts.

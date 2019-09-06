@@ -53,7 +53,7 @@ To create an Azure storage account, follow the steps below:
 
 1. Select the newly created **Storage account** and click on **Static website**
 
-2. Enable the **Static website** by flipping the switch and name the **Index document name** and **Error document path** as `index.html` (must be lowercase)
+2. Enable the **Static website** by flipping the switch and name the **Index document name** and **Error document path** as **Index.html**
 
     ![Static website](../media/enabling-static-website.png "Static website")
 3. Click on **Save**. A new field **Primary endpoint** is shown. Copy the URL from the **Primary endpoint** field. This is the URL from which you reach your custom event website.
@@ -68,7 +68,7 @@ To use event management public API, you need a web application token. The web ap
 
 1. Open the [source code](https://go.microsoft.com/fwlink/?linkid=2042224) with your favorite IDE (we recommend Visual Studio Code).  
 2. Navigate to `src/environments/` directory. 
-3. Create an empty `environment.ts` file (if it doesn't exist).
+3. Create an empty `environment.ts` file.
 4. Open the file `environment.selfhosted.ts`. This file contains all the configuration settings for your event website. 
 5. Enter the **Endpoint** field value from the web application record that you have created in the `apiEndpoint` field. Append `EvtMgmt/api/v2.0/` to the `apiEndpoint` value. It should look like this `https://yourorg.crm.dynamics.com/EvtMgmt/api/v2.0/`
 6. Make sure to set the `useAadB2C` value to false.
@@ -89,7 +89,7 @@ To use event management public API, you need a web application token. The web ap
    ![Web blob container](../media/web-blob-container.png "Web blob container")
    
 5. Upload all the files that you have generated before located in `dist/ClientApp` folder into the `$web` blob container. 
-6. To see the custom event website in run time, copy the **Origin** field value from the web application record in Dynamics 365 for Marketing and open it in the browser.
+6. To see the custom event website in run time, copy the **Origin** field value from the web application record in Dynamics 365 Marketing and open it in the browser.
 
 ### See also
 

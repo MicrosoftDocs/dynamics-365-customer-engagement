@@ -1,6 +1,6 @@
 ---
-title: "Use the designer tool (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 for Marketing"
+title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing"
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -8,6 +8,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 28762c17-02f7-4883-a9d8-e606858de7bd
 author: kamaybac
 ms.author: kamaybac
@@ -25,14 +26,14 @@ search.app:
 
 # Design your digital content
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
+Dynamics 365 provides an advanced digital-content designer for creating, styling, and previewing the various types of digital content that you can produce and manage with the system, including:
 
 - Marketing email messages and templates  
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email marketing overview](prepare-marketing-emails.md)
+    More information: [Email marketing overview](prepare-marketing-emails.md)
 - Marketing pages and templates  
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+    More information: [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 - Marketing forms and templates  
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create, view, and manage marketing forms](marketing-forms.md)
+    More information: [Create, view, and manage marketing forms](marketing-forms.md)
 
 The designer features a drag-and-drop interface for building and working with the design, plus an optional HTML editor for working directly with code and a preview tool that can show how your design will look on various form factors and orientations.
 
@@ -76,7 +77,7 @@ The graphical designer provides an editable preview (canvas), where you can sele
 - **Properties**: Most design elements need to be configured to work. For example, an image needs to point to an image file, a form needs to point to a marketing-form record, and a button needs some text and a destination. When you add a new design element, that element is automatically selected and its **Properties** tab opens so you can set it up. To configure (or reconfigure) any design element already in your design, select it first, and then open the **Properties** tab.
 - **Style**: Use these settings to apply color, spacing, and other graphical options for the overall design.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design elements reference](content-blocks-reference.md)
+More information: [Design elements reference](content-blocks-reference.md)
 
 ### Work directly in HTML
 
@@ -95,7 +96,7 @@ If you prefer to work directly with HTML code, open the designer's **HTML** tab.
     - Set field values based on values passed in the calling URL
     - Set field values based on values passed in the calling URL.
 
-Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop elements. Without this markup, you won't be able to edit your design elements any more and might even break them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md)
+Be careful when working here, though, because the graphical editor expects specific types of markup to implement its drag-and-drop elements. Without this markup, you won't be able to edit your design elements any more and might even break them. More information: [Use custom attributes to enable designer features in emails, pages, and forms](custom-template-attributes.md)
 
 The HTML editor provides a few handy code-editing features such as syntax coloring and line numbers. You can also apply formatting to add line breaks and indents to make the code more readable; to do this, right-click anywhere in the editor and select **Format document** from the context menu.
 
@@ -108,7 +109,7 @@ Though the drag-and-drop editor provides an editable preview, this preview is st
 Use the buttons in the left column of the **Preview** tab to see how your design will look on different screen sizes and orientations, such as desktop, tablet landscape, or mobile portrait. The preview also reflects the responsive design features built into many of the templates. However, the preview doesn't run any custom scripts you might have added (such as for validating form input).
 
 > [!NOTE]
-> Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work using previews and test sends](email-preview.md)
+> Marketing email messages can be trickier to design than webpages because they typically contain dynamic content, and email clients vary much more widely in the way they render HTML. Therefore, Dynamics 365 provides a few extra features for previewing your emails that aren't available for marketing pages or forms. These include sample contact records, a choice of content settings, and an advanced inbox preview. More information: [Check your work using previews and test sends](email-preview.md)
 
 ### See also
 

@@ -1,5 +1,5 @@
 ---
-title: "Generate segments based on customer journey results (Dynamics 365 for Marketing) | Microsoft Docs"
+title: "Generate segments based on customer journey results (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Explains how to automatically generate an interaction segment that finds all contacts who did a particular thing during a specific customer journey"
 keywords:
 ms.date: 06/07/2019
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 901bf6af-5884-46ae-9852-1acb2bb19cd9
 author: kamaybac
 ms.author: kamaybac

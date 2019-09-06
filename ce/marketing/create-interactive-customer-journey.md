@@ -1,6 +1,6 @@
 ---
-title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
+title: "Create an interactive customer journey (Dynamics 365 Marketing) | Microsoft Docs"
+description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 Marketing"
 keywords: tutorial; customer journey; trigger; landing page; signup; page
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
@@ -9,6 +9,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 4c42b94d-7bd1-41fa-80de-819f00bede33
 author: kamaybac
 ms.author: kamaybac
@@ -108,7 +109,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
       > 
       > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 
-15. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
+15. Save your customer journey. Then, as you've done before, go to the **General** tab to give the journey a name and schedule. Finally, **Check for Errors** and **Go Live**. More information: [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
 ### See also
 

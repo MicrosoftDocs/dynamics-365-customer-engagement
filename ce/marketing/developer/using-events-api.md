@@ -1,5 +1,5 @@
 ---
-title: "Using the Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Using the Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Read about the Events API that lets you access data of events, sessions, session tracks, and passes"
 ms.custom: 
   - dyn365-developer

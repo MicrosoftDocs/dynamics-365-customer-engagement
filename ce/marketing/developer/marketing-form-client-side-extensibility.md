@@ -1,6 +1,6 @@
 ---
-title: "Extend Marketing forms using code(Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Extend Marketing forms with Javascript to apply custom business logic in Dynamics 365 for Marketing."
+title: "Extend Marketing forms using code(Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+description: "Extend Marketing forms with Javascript to apply custom business logic in Dynamics 365 Marketing."
 ms.custom: 
   - dyn365-developer
   - dyn365-marketing
@@ -25,7 +25,7 @@ search.app:
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form element to position the form, and choose local settings for it, which applies to that page only. More information [Marketing forms](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-forms)
 
-Marketing forms can be extended using JavaScript to perform custom business actions in [Dynamics 365 for Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/overview) app. Following are the methods that are available to extend marketing forms.
+Marketing forms can be extended using JavaScript to perform custom business actions in [Dynamics 365 Marketing](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/overview) app. Following are the methods that are available to extend marketing forms.
 
 ## Form load
 

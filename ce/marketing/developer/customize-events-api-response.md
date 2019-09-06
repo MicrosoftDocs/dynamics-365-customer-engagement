@@ -1,5 +1,5 @@
 ---
-title: "Customize the response from Events API (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Customize the response from Events API (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: ""
 ms.custom: 
   - dyn365-developer

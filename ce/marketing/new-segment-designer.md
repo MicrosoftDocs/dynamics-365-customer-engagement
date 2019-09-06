@@ -1,6 +1,6 @@
 ---
-title: "Use the new segmentation designer (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Lear how to use the new segmentation designer to create segments in Dynamics 365 for Marketing"
+title: "Use the new segmentation designer (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Lear how to use the new segmentation designer to create segments in Dynamics 365 Marketing"
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -8,6 +8,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: e183f743-cc12-44f8-b8a0-09d06dcb6de0
 author: kamaybac
 ms.author: kamaybac
@@ -27,9 +28,9 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-The segmentation designer is a key tool for establishing target markets in Dynamics 365 for Marketing. It enables you to query across multiple related entities, including contacts, leads, accounts, events, marketing lists, and more. It also enables you to query the interaction database to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
+The segmentation designer is a key tool for establishing target markets in Dynamics 365 Marketing. It enables you to query across multiple related entities, including contacts, leads, accounts, events, marketing lists, and more. It also enables you to query the interaction database to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
 
-Many Dynamics 365 for Marketing customers have asked us to provide a more streamlined and easier to use tool for designing segments in Dynamics 365 for Marketing, so we've been working to redesign the interface to more closely resemble other querying tools found in Dynamics 365 for Customer Engagement (such as the advanced-find feature). The segment designer still provides more power than you'll find in any other search tool for Dynamics 365, and remains the only tool that lets you query the interaction database of Marketing results and insights.
+Many Dynamics 365 Marketing customers have asked us to provide a more streamlined and easier to use tool for designing segments in Dynamics 365 Marketing, so we've been working to redesign the interface to more closely resemble other querying tools found in Dynamics 365 for Customer Engagement (such as the advanced-find feature). The segment designer still provides more power than you'll find in any other search tool for Dynamics 365, and remains the only tool that lets you query the interaction database of Marketing results and insights.
 
 As previously, segments are mostly used to establish target audiences for your customer journeys. (You can also use subscription lists to target a journey, but you can't use other types of static or dynamic marketing lists to do so.)
 
@@ -131,7 +132,7 @@ To find, view, and edit the query, scroll to the bottom of the page and open the
 
 ## Design a behavioral segment
 
-_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 for Marketing UI, but they aren't synced to the Dynamics 365 for Customer Engagement database.
+_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 Marketing UI, but they aren't synced to the Dynamics 365 for Customer Engagement database.
 
 The result of a behavioral segment query is always a set of contacts who performed the relevant type of interaction according to the conditions established by the query.
 

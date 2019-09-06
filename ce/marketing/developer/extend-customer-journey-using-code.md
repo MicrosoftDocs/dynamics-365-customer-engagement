@@ -6,7 +6,6 @@ ms.date: 04/03/2019
 ms.service: "D365CE"
 ms.topic: "article"
 ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-author: Nkrb
 manager: "kvivek" # MSFT alias of manager or PM counterpart
 search.audienceType: 
   - developer
@@ -34,7 +33,7 @@ When you extract the .zip file, you find three projects in it:
    - Validating and publishing the existing customer journey record.
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 for Marketing app. More information: [Install Dynamics 365 for Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
+> You need to have access to Microsoft Dynamics 365 Marketing app. More information: [Install Dynamics 365 Marketing app](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## How to run the sample
 

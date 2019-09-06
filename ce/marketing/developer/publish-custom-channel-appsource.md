@@ -1,5 +1,5 @@
 ---
-title: "Publish custom channel on AppSource (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Publish custom channel on AppSource (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Publish your custom channel on Microsoft AppSource from where users can download and install it in their Dynamics 365 for Customer Engagement instance."
 ms.custom: 
 ms.date: 04/01/2018

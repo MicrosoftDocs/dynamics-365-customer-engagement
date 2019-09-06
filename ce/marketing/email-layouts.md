@@ -1,6 +1,6 @@
 ---
-title: "Use section elements to lay out your email design (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "Learn how to use section elements to create single and multi-column layouts for marketing email messages in Dynamics 365 for Marketing"
+title: "Use section elements to lay out your email design (Dynamics 365 Marketing) | Microsoft Docs "
+description: "Learn how to use section elements to create single and multi-column layouts for marketing email messages in Dynamics 365 Marketing"
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -8,6 +8,7 @@ ms.custom:
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: f167b4f8-cb53-44a0-9404-c01473fa762e
 author: kamaybac
 ms.author: kamaybac

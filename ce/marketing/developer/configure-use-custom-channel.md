@@ -1,5 +1,5 @@
 ---
-title: "Configure and use custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Configure and use custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
 description: "Provides information on how to install custom channel from AppSource to your Dynamics 365 for Customer Engagement instance."
 ms.custom: 
   - dyn365-developer
@@ -25,7 +25,7 @@ search.app:
 
 This step is typically performed by administrators of your Dynamics 365 for Customer Engagement instance.
 
-To configure a custom channel in your instance of Dynamics 365 for Marketing, administrators can:
+To configure a custom channel in your instance of Dynamics 365 Marketing, administrators can:
 1. Search for the required custom channel on [Microsoft AppSource](https://appsource.microsoft.com).
 2. For a custom channel, select **Get it now** or **Free trial** depending on the pricing of the custom channel.
 3. If you are signed into AppSource using your work or school account that you have registered with Microsoft while signing up for Dynamics 365 for Customer Engagement, you will be prompted to accept the license agreement for the custom channel. Otherwise, you will be prompted to sign in using your work or school account. After signing in, you will be prompted to accept the license agreement for the custom channel. Click **Continue** to accept and proceed.
