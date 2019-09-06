@@ -26,7 +26,7 @@ The Dynamics 365 Customer Engagement (on-premise) platform applies an additional
   
 ### Get the public key token  
   
-1.  Load the assembly containing the offline plug-in into the Plug-in Registration tool. For more information about how to use the tool, see [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
+1.  Load the assembly containing the offline plug-in into the Plug-in Registration tool. For more information about how to use the tool, see the Common Data Service topic [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in).  
   
 2.  Select the plug-in assembly in the tree view of the tool.  
   
