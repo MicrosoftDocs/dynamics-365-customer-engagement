@@ -18,9 +18,7 @@
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
 ## [What is Office 365?](what-office-365-how-does-relate.md)
 ## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md) 
--->
 
-<!-- 
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
 ### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
 ## [Manage updates](manage-updates.md) 
@@ -55,8 +53,7 @@
 ### [Web application requirements](web-application-requirements.md)
 ### [Support for devices](device-support.md)
 -->
-# Manage subscriptions, licenses, and user accounts
-## [Overview](manage-subscriptions-licenses-user-accounts.md)
+## [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
 <!-- 
 ## [Reset a user's password](reset-users-password.md)
 ## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
