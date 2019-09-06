@@ -1,6 +1,6 @@
 ---
-title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
+title: Create rules to automatically route cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
 keywords: Create rules; Route cases; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 

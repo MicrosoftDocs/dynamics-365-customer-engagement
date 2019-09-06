@@ -1,6 +1,6 @@
 ---
-title: Manage security roles in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to manage security roles in service scheduling in Dynamics 365 for Customer Service
+title: Manage security roles in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to manage security roles in service scheduling in Dynamics 365 Customer Service
 keywords: Resources; Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 

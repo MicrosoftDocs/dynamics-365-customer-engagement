@@ -1,5 +1,5 @@
 ---
-title: "Customer Service Overview (Dynamics 365 for Customer Service) | MicrosoftDocs"
+title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Customer Service in Microsoft Dynamics 365 for Customer Engagement"
 keywords: "Customer Service;  Microsoft Dynamics 365 for Customer Engagement"
 ms.date: 07/31/2019
@@ -18,7 +18,7 @@ manager: shujoshi
 
 # Overview of the Customer Service Hub and Customer Service app
 
-Welcome to Dynamics 365 for Customer Service.
+Welcome to Dynamics 365 Customer Service.
 
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
 
@@ -74,14 +74,14 @@ For more details about the app's accessibility and GDPR compliance, see [Accessi
 
 ## What's more in the Customer Service Hub
 
- - [What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)
+ - [What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)
  - [Service Management Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
  - [Service Scheduling Guide](basics-service-service-scheduling.md)
 
 
 ### See also  
 
-[Dynamics 365 for Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
+[Dynamics 365 Customer Service](https://www.microsoft.com/en-in/dynamics365/customer-service)
 
 
 

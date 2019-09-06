@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot an issue faced when converting an email to a case | Microsoft Docs
-description: See how you can fix an issue converting an email to a case in Dynamics 365 for Customer Service
+description: See how you can fix an issue converting an email to a case in Dynamics 365 Customer Service
 keywords: Convert email to case; Customer Service; manage cases
 author: anjgupta
 applies_to: Dynamics 365 for Customer Engagement (online)

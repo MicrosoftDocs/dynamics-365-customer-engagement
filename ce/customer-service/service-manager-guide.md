@@ -1,5 +1,5 @@
 ---
-title: Service Manager Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Service Manager Guide (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Service Management Guide for Customer Service for Dynamics 365 for Customer Engagement
 keywords: Service Management Guide; Dynamics 365 for Customer Engagement; Customer Service Hub; set up customer service admin tasks; access service management; 
 author: anjgupta

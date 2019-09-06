@@ -1,6 +1,6 @@
 ---
-title: Overview of Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know the basics of service and service scheduling in Dynamics 365 for Customer Service
+title: Overview of Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know the basics of service and service scheduling in Dynamics 365 Customer Service
 keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS)
 author: anjgupta
 applies_to: 

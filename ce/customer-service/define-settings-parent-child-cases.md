@@ -1,6 +1,6 @@
 ---
-title: Define settings for parent and child cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Learn to define settings for parent and child cases in Dynamics 365 for Customer Service
+title: Define settings for parent and child cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service
 keywords: Parent child cases; Dynamics 365 for Customer Engagement; Customer Service; Set parent and child case attributes ;
 author: anjgupta
 applies_to: 

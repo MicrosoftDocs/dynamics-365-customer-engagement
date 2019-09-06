@@ -29,7 +29,7 @@ search.app:
 <tr>
 <td><h2>Get started</h2>
   <ul>
-<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 for Customer Service</a></li>
+<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 Customer Service</a></li>
   <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
 <li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
   </ul>

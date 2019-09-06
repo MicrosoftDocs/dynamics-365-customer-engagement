@@ -1,6 +1,6 @@
 ---
-title: Create organizational units in Service Scheduling (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create organizational units in service scheduling in Dynamics 365 for Customer Service
+title: Create organizational units in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to create organizational units in service scheduling in Dynamics 365 Customer Service
 keywords: Service scheduling; Dynamics 365 for Customer Engagement; Customer Service; Universal Resource Scheduling (URS); Organizational units
 author: anjgupta
 applies_to: 
