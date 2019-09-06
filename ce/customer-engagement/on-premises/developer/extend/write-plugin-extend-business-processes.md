@@ -2,9 +2,9 @@
 title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "A plug-in is custom business logic that you can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform."
 ms.custom: on-premise
-ms.date: 03/27/2019
+ms.date: 09/05/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -43,7 +43,7 @@ A plug-in is custom business logic that you can integrate with Dynamics 365 Cust
 > [!INCLUDE[cc-cdsnote-2-section](../includes/cc-cdsnote-2-section.md)]
   
 ## In This Section  
-[Plug-in Development](plugin-development.md)
+[On-premises plug-in development](plugin-development.md)
   
 ## Related Sections  
  [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br />     

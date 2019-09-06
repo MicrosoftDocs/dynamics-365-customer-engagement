@@ -2,9 +2,9 @@
 title: "Plug-in development (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform. "
 ms.custom: on-premise
-ms.date: 4/30/2019
+ms.date: 09/05/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -27,11 +27,11 @@ A plug-in is custom business logic (code) that you can integrate with  to modify
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](../includes/cc-cdsnote-1.md)]
 >
-> The plug-in documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
+> The plug-in documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) users is now available in the Common Data Service documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 >
 > [!INCLUDE[cc-cdsnote-2-section](../includes/cc-cdsnote-2-section.md)]
   
- For more information about plug-in run-time execution, see [Event Framework](/powerapps/developer/common-data-service/event-framework).  
+ For more information about plug-in run-time execution, see the Common Data Service topic [Event Framework](/powerapps/developer/common-data-service/event-framework).  
   
 ## Best practices for on-premise plug-in development
 
