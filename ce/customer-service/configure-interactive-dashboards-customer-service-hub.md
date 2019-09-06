@@ -1,7 +1,6 @@
 ---
-title: Configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Know how to configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement
-keywords: Configure interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Customer Service Hub; Configure entities, fields, and security roles for the interactive dashboards; Configure dashboard colors
+title: Configure interactive dashboards in the Customer Service Hub | Microsoft Docs
+description: Know how to configure interactive dashboards in Dynamics 365 Customer Service.
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi
@@ -77,7 +76,7 @@ The interactive dashboards come in two flavors:
 To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
 
 > [!NOTE]
-> All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 for Customer Engagement web application.
+> All customization tasks for the Customer Service Hub must be done in the Common Data Service platform.
   
 ### Configure filter fields  
  For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
