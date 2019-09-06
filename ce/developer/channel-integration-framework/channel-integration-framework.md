@@ -2,7 +2,7 @@
 title: "Dynamics 365 Channel Integration Framework (CIF) Guide | Microsoft Docs"
 description: "Channel Integration Framework (CIF) for Microsoft Dynamics 365 is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface Apps using a browser-based JavaScript API library."
 keywords: ""
-ms.date: 12/10/2018
+ms.date: 05/30/2019
 ms.service:
   - dynamics-365-cross-app
 ms.custom:
@@ -39,17 +39,19 @@ manager: shujoshi
 <tr>
 <td>
 
-<h2> How-to </h2>
+<h2> How to </h2>
 
-<li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[How to configure a channel provider ifor your organization](configure-channel-provide-channel-integration-framework.md)">How to configure a channel provider for your organization</a></li>
-<li><a href="enable-outbound-communication-clicktoact.md" data-raw-source="[How to enable outbound communication (ClickTOAct)](enable-outbound-communication-clicktoact.md)">How to enable outbound communication (ClickTOAct)</a></li>
+<li><a href="configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
+<li><a href="getting-started-simple-widget.md" data-raw-source="[Build a simple communication widget](getting-started-simple-widget.md)">Build a simple communication widget</a></li>
+<li><a href="search-open-records-incoming-conversations.md" data-raw-source="[Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)">Search and open records on an incoming conversation</a></li>
+<li><a href="enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
 <li><a href="add-cif-solution-dependent-solution.md" data-raw-source="[Add CIF solution as a dependent solution](add-cif-solution-dependent-solution.md)">Add CIF solution as a dependent solution</a></li>
 <li><a href="authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
 <li><a href="pass-url-widget-library.md" data-raw-source="[Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)">Pass Dynamics 365 URL to widget library</a></li>
 </td>
 <td>
 
-<h2> JavaScript reference </h2>
+<h2> JavaScript API Reference </h2>
 
 <li><a href="reference/microsoft-ciframework.md" data-raw-source="[Microsoft.CIFramework
  methods](reference/microsoft-ciframework.md)">Microsoft.CIFramework</a></li>
@@ -61,7 +63,7 @@ manager: shujoshi
 <tr>
 <td>
 
-<h2> FAQ </h2>
+<h2> FAQs </h2>
 
 <li><a href="faq-channel-integration-framework.md" data-raw-source="[Frequently Asked Questions](faq-channel-integration-framework.md)">Frequently Asked Questions</a></li>
 
