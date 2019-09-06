@@ -1,0 +1,68 @@
+# Upgrade Consideration For the WBS
+
+The purpose of this document is to define the healthy state of a project in Project Service Automation (2.X) that is required for a successful upgrade to 3.X.   The document will also outline some of the common blocking conditions that will cause the upgrades to fail.  Projects tasks and their function in a project schedule are defined [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/project-creating).
+
+## Key Entities
+For a an accurate resource loaded WBS, the following entities are required:
+- [Project](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_project)
+-  [Project Team](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_projectteam)
+-   [Project Task](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_projecttask)
+
+- [Resource Assignments](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_resourceassignment)
+-   [Project Task Dependency](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_projecttaskdependency)
+-   [Bookable Resources](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/bookableresource)
+
+The following are the steps for defining a resource loaded WBS.
+
+-   Create a new [Project](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_project)
+-   [Create more than one task](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_projecttask)
+-   Define task dependencies
+-   Assign [Project Team](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_projectteam) members to the project
+-   [Assign](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/entities/msdyn_resourceassignment) project team members to tasks
+
+## Project Team
+
+### Relationships
+
+To ensure a successful upgrade the following relationships must be correctly maintained:
+-   All project team members must be associated with a bookable resource
+-   All project team members must be associated with the same project 
+#### Valid conditions
+
+## Project Task
+
+### Relationships
+
+To ensure a successful upgrade the following relationships must be correctly maintained:
+-   Any related tasks must be associated with the same project.
+- Every Line Task must have a parent
+- Every task should have a parent project
+#### Valid conditions
+- All Task durations must be >= 1hr and less than 1800000 minutes (1,250 days).*
+- All Tasks must have a start date no earlier than 2000/01/01.*
+- All Tasks must have a start date no later than 17 years from the present day.*
+- All Tasks must have a Start date earlier or equal to their Finish date.
+- All Transaction Types on classifications (Expense, Material, Tax, Time) must have values for Default Unit and Unit Group.
+- Date formats with letters should be avoided.
+
+*These limits are due to the fact that CRM supports only 7320 recurrence expansions. The need to stay below this limit.
+
+## Resource Assignment
+
+### Relationships
+
+To ensure a successful upgrade the following relationships must be correctly maintained:
+
+- All resource assignments in a WBS must be related to the same project.
+- All resource assignments in a WBS must be associated to project team members in the same project.
+
+
+## Project Task Dependency
+
+### Relationships
+
+To ensure a successful upgrade the following relationships must be correctly maintained:
+
+- All Project Task Dependencies must all be related to the same project.
+- A task cannot have the same dependency referenced more than once.
+
