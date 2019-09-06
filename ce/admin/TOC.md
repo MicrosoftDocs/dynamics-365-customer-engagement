@@ -1,5 +1,5 @@
 
-# [Administer Dynamics 365 for Customer Engagement](admin-guide.md)
+# [Administer Dynamics 365 (online)](admin-guide.md)
 <!-- 
 # [What's new](release-history.md)
 # Getting started
@@ -56,15 +56,13 @@
 ### [Support for devices](device-support.md)
 -->
 # Manage subscriptions, licenses, and user accounts
-<!-- 
 ## [Overview](manage-subscriptions-licenses-user-accounts.md)
+<!-- 
 ## [Reset a user's password](reset-users-password.md)
--->
 ## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
 ## Service health
 ### [Check service health](check-online-service-health.md)
 ## [Manage email notifications](manage-email-notifications.md)
-<!-- 
 ## [Purchase and assign licenses](purchase-assign-online-licenses.md)
 ## [Manage Microsoft licenses](manage-licenses.md)
 ## [Manage user account synchronization](manage-user-account-synchronization.md)
@@ -125,7 +123,6 @@
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
 ## [Troubleshooting: Use the Solution Health Hub](solution-health-hub.md)
--->
 # Datacenter regions
 ## [Overview](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
@@ -139,7 +136,6 @@
 ## [Japan](../admin/datacenter/about-microsoft-cloud-japan.md)
 ## [Geo to geo migrations](../admin/datacenter/geo-to-geo-migrations.md)
 
-<!-- 
 # Set up an organization
 ## [Overview](set-up-a-dynamics-365-organization.md)
 ### [Numbers, currencies, times, and dates](customize-regional-options-admins.md)
