@@ -1,7 +1,6 @@
 ---
 title: Create and manage subject tree (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage subject tree in Dynamics 365 Customer Service 
-keywords: Create subject in a subject tree; Manage subject in a subject tree; Remove a subject; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -23,10 +22,10 @@ search.app:
 
 # Create and manage subjects in a subject tree
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
+Dynamics 365 Customer Service includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, subjects in service management is available in the Customer Service Hub. You are recommended to create and manage subjects using the new experience.
+> With the Dynamics 365 Customer Service app version 9.1 release, subjects in service management is available in the Customer Service Hub. You are recommended to create and manage subjects using the new experience.
   
 ## Create or edit a subject  
 
