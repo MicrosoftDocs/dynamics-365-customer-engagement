@@ -1,7 +1,6 @@
 ---
 title: Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service
-keywords: Create an entitlement; Dynamics 365 for Customer Engagement; Customer Service Hub; Activate or deactivate an entitlement; Set as default entitlement; Associate entitlements to cases;  Cancel an entitlement; Renew an entitlement
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -23,10 +22,10 @@ search.app:
 
 # Create entitlements to define support terms
 
-Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
+Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
+> With the Dynamics 365 Customer Service app version 9.1 release, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
   
 ## Create an entitlement
   
@@ -175,6 +174,3 @@ As you save the entitlement, additional sections are added for a new entitlement
 ### See also  
 
  [Set up entitlements quickly with templates](set-up-entitlements-templates.md) <br>
-
-
-
