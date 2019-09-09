@@ -23,7 +23,7 @@ search.app:
   
 ---
 
-# Upgrade considerations for he Work breakdown schedule (WBS)
+# Upgrade considerations for the Work breakdown schedule (WBS)
 The topic defines the healthy state of a project in Project Service Automation (PSA) 2.X that is required for a successful upgrade to PSA 3.X. This topic also provides information about the common blocking conditions that will cause upgrade to fail. For mor infomration about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
 ## Key entities
