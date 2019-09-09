@@ -39,17 +39,15 @@ search.app:
 <h2>General extensibility concepts</h2>
 <li><a href="../../developer/introduction-entities.md" data-raw-source="[Introduction to entities](../../developer/introduction-entities.md)">Introduction to entities</a></li>
 <li><a href="../../developer/write-plugin-extend-business-processes.md" data-raw-source="[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)">Write plug-ins to extend business processes</a></li>
-<li><a href="../../developer/automate-business-processes-customer-engagement.md" data-raw-source="[Automate your business processes in Customer Engagement](../../developer/automate-business-processes-customer-engagement.md)">Automate your business processes in Customer Engagement</a></li>
+<li><a href="../../developer/automate-business-processes-customer-engagement.md" data-raw-source="[Automate your business processes in Dynamics 365](../../developer/automate-business-processes-customer-engagement.md)">Automate your business processes in Dynamics 365</a></li>
 <li><a href="../../customize/workflow-processes.md" data-raw-source="[Workflows overview](../../customize/workflow-processes.md)">Workflows overview</a></li>
-<li><a href="../../developer/web-resources.md" data-raw-source="[Web resources for Customer Engagement](../../developer/web-resources.md)">Web resources for Customer Engagement</a></li>
+<li><a href="../../developer/web-resources.md" data-raw-source="[Web resources for Dynamics 365](../../developer/web-resources.md)">Web resources for Dynamics 365</a></li>
 
 </td></tr>
 </table>
 
 ## Related resources
 
-[Administrator Guide (Marketing)](../admin-guide.md)
-   
+[Administrator Guide (Marketing)](../admin-guide.md)  
 [User Guide (Marketing)](../../marketing/user-guide.md)  
-
-[Developer Guide for Dynamics 365 for Customer Engagement](../../developer/developer-guide.md) 
+[Developer Guide for Dynamics 365](../../developer/developer-guide.md) 

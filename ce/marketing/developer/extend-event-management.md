@@ -21,9 +21,9 @@ manager: kvivek
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[On24](https://www.on24.com/) is the only webinar provider currently supported out-of-the-box for use with Dynamics 365 for Customer Engagement to plan and manage events. More information: [Event settings](../events-settings.md)
+[On24](https://www.on24.com/) is the only webinar provider currently supported out-of-the-box for use with Dynamics 365 Marketing to plan and manage events. More information: [Event settings](../events-settings.md)
 
-Other webinar providers can implement the new Webinar Extension API to become a supported webinar provider for Dynamics 365 for Customer Engagement, just like On24. Once a webinar provider implements the API on their webinar service, the webinar provider can be configured in Dynamics 365 for Customer Engagement to use their webinar service for event management.
+Other webinar providers can implement the new Webinar Extension API to become a supported webinar provider for Dynamics 365 Marketing, just like On24. Once a webinar provider implements the API on their webinar service, the webinar provider can be configured in Dynamics 365 Marketing to use their webinar service for event management.
 
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../../includes/cc-preview-features-definition.md)]
@@ -32,11 +32,11 @@ Other webinar providers can implement the new Webinar Extension API to become a 
 
 ## Prerequisites
 
-The webinar provider must create a service that implements the Webinar Extension API so that it can be used as webinar provider in Dynamics 365 for Customer Engagement. More information: [Webinar Extension API Reference](#webinar-extension-api-reference)
+The webinar provider must create a service that implements the Webinar Extension API so that it can be used as webinar provider in Dynamics 365 Marketing. More information: [Webinar Extension API Reference](#webinar-extension-api-reference)
 
 ## Add a webinar provider
 
-When adding a new webinar provider in Dynamics 365 for Customer Engagement, you will need to have **Client ID** and **Client secret** values. This information is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 for Customer Engagement uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
+When adding a new webinar provider in Dynamics 365 Marketing, you will need to have **Client ID** and **Client secret** values. This information is provided when you sign up for a webinar provider. The authorization of the webinar service to Dynamics 365 Marketing uses OAuth 2.0 standard protocol. More information: [OAuth, Client ID and Client secret](https://www.oauth.com/oauth2-servers/client-registration/client-id-secret/).
 
 To add a new webinar provider:
 

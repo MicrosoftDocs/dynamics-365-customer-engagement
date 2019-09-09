@@ -23,7 +23,7 @@ search.app:
 ---
 # Overview of custom channel
 
-A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer. All these components are bundled into a solution that can be imported into a Customer Engagement instance to enable custom channel.
+A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer. All these components are bundled into a solution that can be imported into a Dynamics 365 instance to enable custom channel.
 
 The following illustration provides a high-level overview of the operation flow for a custom channel:  
 
@@ -36,10 +36,7 @@ The following illustration provides a high-level overview of the operation flow 
   
 ### See also 
 
-[Workflows overview](../../customize/workflow-processes.md)
-
-[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)
-
-[Web resources for Customer Engagement](../../developer/web-resources.md) 
-
+[Workflows overview](../../customize/workflow-processes.md)  
+[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)  
+[Web resources for Dynamics 365](../../developer/web-resources.md)  
 [Dynamics 365 for Customer Insights](../../customer-insights/getstart.md)   

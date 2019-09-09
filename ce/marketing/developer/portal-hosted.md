@@ -95,7 +95,7 @@ After all the files are built, it asks you to log into your Dynamics 365 Marketi
 To manually replace the files in Dynamics 365 Marketing, follow the steps below (you need to repeat step 3 - 5 for each file that has changed in your `dist` folder):
 
 1. Open your Dynamics 365 Marketing instance.
-1. Navigate to **Dynamics 365 for Portals** and click on **Web Files**.
+1. Go to **Dynamics 365&mdash;custom** > **Portals** > **Web Files**.
 1. Open the web file that you want to update (e.g., **styles.css**).
 1. Click on the **Notes** tab and delete the existing attachment.
 1. Upload the corresponding file (e.g. **styles.css**) file located in the **dist/ClientApp** folder as an attachment.
@@ -110,7 +110,7 @@ You can find a mapping between generated Angular files and Portal web files in t
 
 If you want to serve the custom event website from a **custom domain**, you need to configure CORS to allow that custom domain, to do that:
 
-1. Go to **Dynamics 365** > **Dynamics 365 for Portals** > **Site Settings** and click on **New** to create a  Site Settings record.
+1. Go to **Dynamics 365&mdash;custom** > **Portals** > **Site Settings** and click on **New** to create a  Site Settings record.
 1. Insert `HTTP/Access-Control-Allow-Origin` in the name field.
 1. Select your website.
 1. Add the custom origin that should be allowed. For example, if the custom event website is hosted on `https://contoso.com/` custom domain than the value field must be set to `https://contoso.com/`.

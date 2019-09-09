@@ -29,7 +29,7 @@ search.app:
 
 A *landing page* is a webpage that functions as a customer touchpoint for one of your marketing initiatives. For example, you might send out an email message that invites recipients to sign up for a free white paper download. To get the download, message recipients must select a link that opens a webpage with a form where they enter information (which is saved directly in your Dynamics 365 database), and then they receive an email with the download link. The same landing page can also be made available to unknown visitors of your website, who will add themselves as new contacts in your database when they request the download.
 
-In Dynamics 365 for Marketing, a landing page is a type of *marketing page*. Other types of marketing pages include *subscription centers* and *forward-to-a-friend forms*, both of which support email marketing and are more specialized in purpose.
+In Dynamics 365 Marketing, a landing page is a type of *marketing page*. Other types of marketing pages include *subscription centers* and *forward-to-a-friend forms*, both of which support email marketing and are more specialized in purpose.
 
 > [!NOTE]
 > This tutorial describes how to create and publish a landing page when you are using a Dynamics 365 Portal to host your landing pages. However, Dynamics 365 Portals are an optional add-on for Dynamics 365 Marketing, so if you don't have a portal, then you must publish your landing pages and other interactive features for Dynamics 365 Marketing on your own webserver or CMS system. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)

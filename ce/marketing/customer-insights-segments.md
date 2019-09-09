@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-The new Customer Insights app for Dynamics 365 applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 for Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
+The new Customer Insights app for Dynamics 365 applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
 
 - Load data from Dynamics 365 Marketing into Customer Insights and combine it with customer data from other sources.
 - Apply data cleansing, enrichment, fuzzy matching, and more.

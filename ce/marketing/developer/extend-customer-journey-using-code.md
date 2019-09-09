@@ -39,7 +39,7 @@ When you extract the .zip file, you find three projects in it:
 
 1. Download and extract the sample. 
 2. Open `Microsoft.Dynamics.Marketing.Samples.sln` in Visual Studio.
-3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to sign in to a specific Microsoft Dynamics 365 for Customer Engagement apps environment.
+3. Implement the `GetConnectionString` method in `Program.cs`. Look in the source code for instructions. This is required to sign in to a specific Dynamics 365 environment.
 4. Select the sample that you want to run by using command-line parameters; for example, `customerjourneycreate` creates a sample customer journey with a segment and email. 
 If you don’t specify a parameter, the usage screen is printed. 
 5. Press **F5** to run the sample. 

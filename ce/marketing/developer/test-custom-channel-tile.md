@@ -41,7 +41,7 @@ To make the custom channel tile available in the customer journey designer:
 
 ### See also
 
-[Web resources for Customer Engagement](../../developer/web-resources.md)
+[Web resources for Dynamics 365](../../developer/web-resources.md)
 
 
 
