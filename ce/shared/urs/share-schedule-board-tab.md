@@ -17,6 +17,8 @@ In this topic, we'll explore creating a new schedule board tab and sharing it wi
 
 ## Instructions
 
+Let's walk through creating a public and private schedule board tab but focus on sharing one with specific people.
+
 First, go to **Field Service > Schedule Board** and select the **+** in the top right to create a new tab.
 
 > [!div class="mx-imgBorder"]
@@ -32,6 +34,8 @@ Select **Specific People**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of assigning a shared with option](../../field-service/media/schedule-board-shared-with.png)
+
+Selecting **Everyone** will expose the schedule board tab to all users who can access the schedule board. Selecting **Just Me** will expose the schedule board to only the user who creates it.
 
 To assign or share the schedule board tab to specific people, you'll need to go to the record. All schedule board tabs are saved as records in the **Schedule Board Settings** entity.
 
