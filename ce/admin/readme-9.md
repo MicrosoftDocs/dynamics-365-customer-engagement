@@ -185,6 +185,8 @@ in the browser or on mobile devices for each scenario. 
 
 -   Links in the body of an email aren't selectable.
 
+-   <xref href="Microsoft.Dynamics.CRM.sla?text=SLA entity" /> does not support `DELETE` HTTP method. 
+
 ### Customer Service Hub app on Dynamics 365 for tablets and Dynamics 365 for phones 
 
 -   Forms
