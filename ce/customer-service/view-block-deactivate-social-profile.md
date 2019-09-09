@@ -1,6 +1,6 @@
 ---
-title: View, block, or deactivate a social profile in social care sample application (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to view, block, or deactivate a social profile in social care sample application in Dynamics 365 for Customer Service
+title: View, block, or deactivate a social profile in social care sample application (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to view, block, or deactivate a social profile in social care sample application in Dynamics 365 Customer Service
 keywords: View, block, or deactivate a social profile; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
 applies_to: 

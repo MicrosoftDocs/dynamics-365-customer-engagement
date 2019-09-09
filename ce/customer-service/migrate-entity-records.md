@@ -1,6 +1,6 @@
 ---
-title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 for Customer Service) | MicrosoftDocs"
-description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 for Customer Service"
+title: "Migrate data from legacy Service Scheduling using migration tool (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Learn how to migrate entity records from the legacy Service Scheduling to the Unified Interface Service Scheduling in Dynamics 365 Customer Service"
 author: kabala123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -26,7 +26,7 @@ search.app:
 
 Follow these steps to migrate entity records from legacy scheduling experience to the new scheduling experience.
 
-1. Sign in to Dynamics 365 for Customer Engagement apps with Administrator or System Customizer role privileges.
+1. Sign in to Dynamics 365 Customer Service with Administrator or System Customizer role privileges.
 
 2. Select the **Customer Service Hub** app.
 

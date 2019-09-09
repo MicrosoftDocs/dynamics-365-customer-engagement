@@ -1,7 +1,6 @@
 ---
-title: Knowledge base search mechanisms in Dynamics 365 for Customer Engagement| MicrosoftDocs
-description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 for Customer Engagement
-keywords: Search the knowledge base; Dynamics 365 for Customer Engagement; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Knowledge base search mechanisms and methods
+title: Knowledge base search mechanisms in Dynamics 365 Customer Service| MicrosoftDocs
+description: Know how the Knowledge base search mechanisms and methods works in Microsoft Dynamics 365 Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -44,7 +43,7 @@ See the following section to learn the types of search mechanisms available:
 
    See [Configure Relevance search](../admin/configure-relevance-search-organization.md) to learn how to configure Relevance search to improve search results and performance.
 
-   To better understand the various searches used in Dynamics 365 for Customer Engagement and how they can be compared, see [Compare Dynamics 365 for Customer Engagement searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-for-customer-engagement-apps-searches).
+   To better understand the various searches used in Dynamics 365 Customer Service and how they can be compared, see [Compare Dynamics 365 apps searches](../admin/configure-relevance-search-organization.md#compare-dynamics-365-for-customer-engagement-apps-searches).
 
 ## Search the knowledge base
 
@@ -77,9 +76,9 @@ With each of the previous search areas, the search results might vary based on t
 
 |Version  |  |Search areas| Search mechanism  |
 |---------|---------|---------|---------|
-| December 2016 Update for Dynamics 365 for Customer Engagement (online) </br> & </br> December 2016 Service Pack for Dynamics 365 for Customer Engagement (on-premises)  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
+| December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Dynamics 365 for Customer Engagement (on-premises) platform  |      |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
 |   |     |      - Global search  |   Categorized search     |
-|Dynamics 365 for Customer Engagement apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
+|Dynamics 365 Customer Service apps version 9.0   |     |  - KB search control      |   Relevance search/ Full-text search (based on what you configure)     |
 |  |      |   - Quick find in Grids     |   Full-text search |
 |  |      |   - Global search     |   Relevance search or Categorized search (based on what you configure)    |
 

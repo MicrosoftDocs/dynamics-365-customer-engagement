@@ -1,6 +1,6 @@
 ---
-title: Set up knowledge management using embedded knowledge search (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 for Customer Service
+title: Set up knowledge management using embedded knowledge search (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 Customer Service
 keywords: Set up knowledge management; Dynamics 365 for Customer Engagement; Customer Service; using Embedded knowledge search; service manager
 author: anjgupta
 applies_to: 

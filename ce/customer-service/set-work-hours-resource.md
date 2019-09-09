@@ -1,6 +1,6 @@
 ---
-title: Set work hours to define availability (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to set work hours to define availability in Dynamics 365 for Customer Service
+title: Set work hours to define availability (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to set work hours to define availability in Dynamics 365 Customer Service
 keywords: Set work hours for a facility and equipment; Dynamics 365 for Customer Engagement; Customer Service; Service Scheduling
 author: anjgupta
 applies_to: 

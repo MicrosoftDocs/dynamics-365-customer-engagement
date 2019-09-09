@@ -1,5 +1,5 @@
 ---
-title: "Create templates for knowledge article for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create templates for knowledge article for Dynamics 365 Customer Service | MicrosoftDocs"
 ms.custom: 
 ms.date: 07/31/2019
 ms.reviewer: 
