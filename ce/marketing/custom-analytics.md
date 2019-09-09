@@ -27,7 +27,7 @@ search.app:
 
 # Preview: Create custom analytics with Power BI
 
-Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 for Customer Engagement data sources and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
+Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
@@ -37,7 +37,7 @@ Dynamics 365 Marketing provides a wide selection of built-in analytics throughou
 
 To create custom analytics, you can connect two different data sources, each of which provides a different type of data:
 
-- **Profile data** includes the entities and records that you see, edit, and create when working directly in Dynamics 365 for Customer Engagement. These include common entities like contacts, accounts, leads, events, customer journeys, and more. You'll use the Power BI data connector called "Common Data Services for Apps" for this type of data.
+- **Profile data** includes the entities and records that you see, edit, and create when working directly in Dynamics 365. These include common entities like contacts, accounts, leads, events, customer journeys, and more. You'll use the Power BI data connector called "Common Data Services for Apps" for this type of data.
 - **Interaction data** includes information about how your contacts interacted with your marketing initiatives, including email opens, email clicks, event registrations, page submissions, and more. You can see this type of information when you look at the insights built into Dynamics 365 Marketing, but you can't create these records nor view them directly. In the current release, you'll use the Power BI "Azure Blob Storage" connector for this type of data. In future releases you'll also be able use the dataflow connector.
 
 You'll be able to connect directly to your Dynamics 365 Marketing  database from Power BI to fetch your profile data, but to access interaction data you'll need to set up Azure Blob Storage, configure Dynamics 365 Marketing  to save interaction data there, and then connect Power BI to your blob storage.
@@ -84,7 +84,7 @@ You'll be able to connect directly to your Dynamics 365 Marketing  database from
     - **Export to blob storage URL** : Paste the URL you copied earlier in this procedure.
 
     > [!NOTE]
-    > The URL you pasted here includes a connection string to connect to your blob storage. Dynamics 365 for Customer Engagement will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the Dynamics 365 for Customer Engagement database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in Azure.
+    > The URL you pasted here includes a connection string to connect to your blob storage. Dynamics 365 Marketing will use this to set up a connection to the blob storage but will then discard it to prevent other people from being able to find it. For this same reason, the connection string will be hidden on the form after submit. This  URL _won't_ be stored in the Dynamics 365 database. That means that if you later copy your instance to a sandbox or restore from a backup, then you'll need to re-enter this URL to reestablish the connection to your blob storage in Azure.
 
 1. Save your settings.
 
@@ -105,7 +105,7 @@ Once your Azure Blob Storage is set up and connected to Dynamics 365 Marketing, 
 
     ![The Power BI email marketing analyzer](media/custom-analytics-pbi-connect.png "The Power BI email marketing analyzer")
 
-    - To connect to the Dynamics 365 for Customer Engagement database, use the same user credentials that you use to sign into Marketing.
+    - To connect to the Dynamics 365 database, use the same user credentials that you use to sign into Marketing.
     - You can find connection details for your Azure Blob Storage by using the Storage Explorer app.
     - Specify how many days of interaction data that you want to load (counting back from today).
 

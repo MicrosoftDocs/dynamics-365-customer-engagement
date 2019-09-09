@@ -31,7 +31,7 @@ search.app:
 
 Dynamics 365 Marketing can calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event.
 
-Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365 for Customer Engagement, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
+Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting tele prospectors or salespeople to pick it up.
 
 > [!IMPORTANT]
 > Automatic lead scoring only works for leads that are associated with a contact or account. Scoring fails for leads that don't have a contact or account associated with them. Also, segments in Dynamics 365 Marketing can only include contacts, not leads or accounts, which means that you can only address marketing emails to contacts.

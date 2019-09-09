@@ -43,7 +43,7 @@ The values for content settings are first evaluated at send time, which means th
 Each content-settings record that you use must be available to the external marketing services, which manage email assembly and delivery. Therefore, you must publish your content-settings records by choosing **Go Live** whenever you create a new one.
 
 > [!NOTE]
-> If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in Dynamics 365 for Customer Engagement. However, in the current release, all custom fields for the content-settings entity must be of type text (string). More information: [Customizing Marketing](customize.md)
+> If you have other types of values that you often use in email messages, and/or that you want to manage at the customer-journey level, then you can add them as custom fields to the content-settings entity just as you can for other types of entities in Dynamics 365. However, in the current release, all custom fields for the content-settings entity must be of type text (string). More information: [Customizing Marketing](customize.md)
 
 To view, edit, or create a content-settings record:
 
@@ -79,7 +79,7 @@ To view, edit, or create a content-settings record:
 The **Assist edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text element in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
 > [!NOTE]
-> The assist-edit dialog only shows entities and relations that are synced with the marketing insights service. If you need to show information or use relations for one or more entities that aren't listed, then ask your admin to add the relevant entities to the marketing insights service. If you are an admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+> The assist-edit dialog only shows entities and relations that are synced with the marketing-insights service. If you need to show information or use relations for one or more entities that aren't listed, then ask your admin to add the relevant entities to the marketing-insights service. If you are an admin, then see [Choose entities to sync with the marketing-insights service](marketing-settings.md#dci-sync) for instructions.
 
 ### Use assist edit to place a dynamic expression
 
@@ -189,7 +189,7 @@ On the **Summary** tab of the **Marketing Email** form, you can make various non
 
 One typical way to take advantage of this feature is to set the **From name** and **From address** to the owner of the contact record. Then, by assigning the owner of each contact record to the salesperson managing that contact, recipients will receive marketing emails that show a from address of somebody they may know, which can greatly increase open rates. Here's how:
 
-1. If your Marketing instance isn't already set up to sync the **User (systemuser)** entity with the marketing insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync) for instructions.
+1. If your Marketing instance isn't already set up to sync the **User (systemuser)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](marketing-settings.md#dci-sync) for instructions.
 1. Open your email message and go to the **Summary** tab.
 1. Delete the contents of the **From name** field and then select the **Assist-edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") next to this field.
 1. On the first page of the assist-edit dialog, select **Contextual** and set it to **Contact**. Then select **Next**.
@@ -372,7 +372,7 @@ For example, your database could include a list of products that a contact has o
 </ul>
 ``` 
 
-In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the marketing insights service (as usual).
+In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the marketing-insights service (as usual).
 
 > [!IMPORTANT]
 > Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
@@ -389,7 +389,7 @@ You must be careful when entering advanced dynamic code in the designer because 
 - When you enter code into a text element, all of your dynamic-content code must either be contained within a set of start and end tags (such as `<p>` and `</p>`) or within an HTML comment (for code that is entirely separate from displayed text). Do not place code outside of comments or valid HTML tag pairs (or custom-code elements), as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs). You must work on the **HTML** tab inspect and correct the HTML within your text elements.
 - Do not place carriage returns between code elements that are part of the same expression (such as in a for-each loop) unless you enclose each line within its own set of HTML tags (as illustrated in the for-each loop example given after this list).
 - The [assist-edit](#assist-edit) feature is often helpful for constructing expressions that fetch values from your database because it helps you find database table, field, and relation names. This tool is available when working within a text element on the **Designer** tab, and when entering values is certain fields that support it (like the email subject). Assist-edit isn't available when working on the **HTML** tab or within a custom code element, so you can instead start by using assist-edit in any text element, and then cut/paste the resulting expression into your custom-code element or HTML.
-- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing insights service. This relationship name is not necessarily the same as the one used to customize Dynamics 365 for Customer Engagement. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
+- The relationship name that you use when creating loops or placing lookup values must match the one used in the marketing-insights service. This relationship name is not necessarily the same as the one used to customize Dynamics 365. To find the correct relationship name, use the [assist-edit](#assist-edit) feature.
 - Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
 
 For example, you could set up the salutation line of an email message by entering the following onto the **HTML** tab of the designer (either inside or outside of a text element):

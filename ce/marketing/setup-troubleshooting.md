@@ -65,9 +65,9 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
 
 <a name="claim-free-license"></a>
 
-## My Dynamics 365 for Customer Engagement license agreement entitles me to a free Dynamics 365 Marketing license. How can I get the free app added to my tenant?
+## My Dynamics 365 license agreement entitles me to a free Dynamics 365 Marketing license. How can I get the free app added to my tenant?
 
- If you only recently purchased enough Dynamics 365 for Customer Engagement seats to qualify for a free Marketing license, then the app should already be available on your tenant. But if you've had a qualifying Dynamics 365 for Customer Engagement license for some time, you may need to submit a support request to get the free Marketing app added to it.
+ If you only recently purchased enough Dynamics 365 seats to qualify for a free Marketing license, then the app should already be available on your tenant. But if you've had a qualifying Dynamics 365 license for some time, you may need to submit a support request to get the free Marketing app added to it.
 
 If you are entitled to a free Dynamics 365 Marketing license, do the following to find or obtain it:
 
@@ -109,7 +109,7 @@ One of the requirements for running the [setup wizard](purchase-setup.md) for Dy
 
 Dynamics 365 Marketing provides the option of integrating with a dedicated Dynamics 365 Portals solution for hosting marketing pages and the event website. Depending on the Dynamics 365 Marketing licensing plan you have chosen, your license may include a free portal (provided no other free portals are already in use on your tenant), or you may need to purchase a new portal license before you can install the Marketing app with the portals option enabled. You can also choose to install Dynamics 365 Marketing without a portal, in which case you must use your own website or CMS system to host landing pages and the events website.
 
-You can have at most one free portal on your tenant, so even if your Dynamics 365 Marketing license includes a free portal, you may still need to purchase an additional one if want to use a portal with Dynamics 365 Marketing and you already have a free portal configured on your tenant (probably because it was included with another Dynamics 365 for Customer Engagement app that you are already using).
+You can have at most one free portal on your tenant, so even if your Dynamics 365 Marketing license includes a free portal, you may still need to purchase an additional one if want to use a portal with Dynamics 365 Marketing and you already have a free portal configured on your tenant (probably because it was included with another Dynamics 365 app that you are already using).
 
 For complete details about Dynamics 365 Marketing licensing options, please download the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
@@ -182,7 +182,7 @@ The subsections below explain how to set up the required portal user and then ru
 
 #### Step 1: Create an account on your portal
 
-Start by adding yourself as a portal user, just as your contacts would do when registering themselves and others for an event (this is not the same as your Dynamics 365 for Customer Engagement user account). To do this:
+Start by adding yourself as a portal user, just as your contacts would do when registering themselves and others for an event (this is not the same as your Dynamics 365 user account). To do this:
 
 1. Open your event website, for example by opening any event record and selecting the globe button next to the **Event URL** field.
 
@@ -196,9 +196,9 @@ Start by adding yourself as a portal user, just as your contacts would do when r
 
 #### Step 2: Grant your new account permission to clear the portals cache
 
-Once you have your account and password set up, you must go into Dynamics 365 for Customer Engagement and configure that account as an event-portal administrator. To do this:
+Once you have your account and password set up, you must configure that account as an event-portal administrator. To do this:
 
-1. Sign into Dynamics 365 for Customer Engagement and use the app selector to go to the Dynamics 365&mdash;custom app.
+1. Sign into Dynamics 365 and use the app selector to go to the Dynamics 365&mdash;custom app.
 
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
@@ -319,7 +319,7 @@ If you don't see the **Survey** tile in the **Toolbox** of your [customer journe
 
 1. Follow the instructions on your screen and wait for the solution to finish installing.
 
-1. Open Dynamics 365 Marketing, go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing data configuration**, and enable syncing of the **Survey (msdyn_survey)** entity. More information: [Choose entities to sync with the marketing insights service](marketing-settings.md#dci-sync)
+1. Open Dynamics 365 Marketing, go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing data configuration**, and enable syncing of the **Survey (msdyn_survey)** entity. More information: [Choose entities to sync with the marketing-insights service](marketing-settings.md#dci-sync)
 
 1. Confirm that the **Survey** tile is now visible in the customer journey toolbox, and that your surveys are working correctly.
 

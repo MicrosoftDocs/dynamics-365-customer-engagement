@@ -28,21 +28,21 @@ search.app:
 
 # Manage user accounts, licenses, and roles
 
-Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing and Customer Engagement.
+Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
 ## Create user accounts and assign licenses
 
-Like most Customer Engagement apps, Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center, so to get started, each user that requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+Like most Dynamics 365 apps for the Common Data Service platform, Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center, so to get started, each user that requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
 
-Unlike most Customer Engagement apps, Dynamics 365 Marketing is licensed per instance (also based on certain quotas, such as the number of marketing contacts and monthly email messages) but it isn't licensed per seat, which means that you can add as many users to each Marketing instance as you like for no extra charge because Marketing user licenses are free.
+Unlike most Dynamics 365 apps, Dynamics 365 Marketing is licensed per instance (also based on certain quotas, such as the number of marketing contacts and monthly email messages) but it isn't licensed per seat, which means that you can add as many users to each Marketing instance as you like for no extra charge because Marketing user licenses are free.
 
-### Grant access to users that already have a Customer Engagement license
+### Grant access to users that already have a Dynamics 365 license
 
-Any user that already has a license for any Customer Engagement app also will be able to access Dynamics 365 Marketing without requiring any additional licenses. All you need to do is [assign them the security roles and privileges](#assign-role) required to access the Marketing features they need.  
+Any user that already has a license for any Dynamics 365 app for the Common Data Service platform also will be able to access Dynamics 365 Marketing without requiring any additional licenses. All you need to do is [assign them the security roles and privileges](#assign-role) required to access the Marketing features they need.  
 
-### Grant access to users without a Customer Engagement license
+### Grant access to users without a Dynamics 365 license
 
-For Microsoft 365 users that don't have a Customer Engagement license, you can "purchase" and assign a free Marketing user license. Free Marketing user licenses don't grant access to any other Customer Engagement apps, but you can have as many of them as you need to grant access to Marketing.
+For Microsoft 365 users that don't have a Dynamics 365 license, you can "purchase" and assign a free Marketing user license. Free Marketing user licenses don't grant access to any other Dynamics 365 apps, but you can have as many of them as you need to grant access to Marketing.
 
 To purchase and assign a free Marketing user license:
 
@@ -65,7 +65,7 @@ To purchase and assign a free Marketing user license:
 
     ![Add a license](media/admin-m365-assign-license.png "Add a license")
 
-1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the Customer Engagement user-admin interface in a few minutes.
+1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the Dynamics 365 user-admin interface in a few minutes.
 
 1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
 
@@ -89,7 +89,7 @@ To apply security roles to users, and to customize each role, do the following:
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. The Dynamics 365 for Customer Engagement advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. The Dynamics 365 advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
 1. Work with the **Users** settings here to assign security roles to users. For details, see [Manage security, users, and team](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
@@ -97,7 +97,7 @@ To apply security roles to users, and to customize each role, do the following:
 
 ## Inspect and customize security roles
 
-All Dynamics 365 for Customer Engagement applications come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user that should be assigned the role.
+All Dynamics 365 apps for the Common Data Service platform come with a collection of preconfigured security roles to help get you started. Each of these roles provides various levels of access to a collection of entities that are typically used together by specific user roles. Each of these roles is given a name that indicates the type of user that should be assigned the role.
 
 > [!IMPORTANT]
 > Each time you update Dynamics 365 Marketing, all of the standard, out-of-box roles are likewise updated to the latest versions to ensure that each role will receive permissions to access relevant new features added by the update. This means that you probably shouldn't customize the out-of-box roles because your customizations are likely to get overwritten after each update. If you need custom security roles, you should usually start by creating a copy of an existing role that is close to what you want, and then customize the copy. If you use custom security roles, then you will probably need to update your custom roles after each update to grant access to new entities.
@@ -106,7 +106,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-1. The Dynamics 365 for Customer Engagement advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. The Dynamics 365 advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
 1. Select the **Security roles** icon.
 
@@ -116,11 +116,11 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 Here are a few notes for working with the **Security role** settings:
 
-- Most of the entities added by Dynamics 365 Marketing are on the **Custom entities** tab. The other tabs manage features that belong to other Dynamics 365 for Customer Engagement apps and basic platform features.
-- There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with the Dynamics 365 for Customer Engagement platform (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
+- Most of the entities added by Dynamics 365 Marketing are on the **Custom entities** tab. The other tabs manage features that belong to other Dynamics 365 apps and basic platform features.
+- There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with the Common Data Service platform (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to relevant platform features required by users marketing roles.
 
-Security roles are a concept shared by all Dynamics 365 for Customer Engagement apps. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
+Security roles are a concept shared by all Dynamics 365 apps for the Common Data Service platform. For more information about how to work with them, see [Manage security, users, and teams](../admin/manage-security-users-and-teams.md) and [Create or edit a security role](../admin/create-edit-security-role.md).
 
 ## Form and field level security
 
@@ -131,7 +131,7 @@ In addition to the entity-level security set directly on each security role, you
 
 You don't see form or field settings when you edit the security role, so you must manage these separately.
 
-Form and field level security are concepts shared by all Dynamics 365 for Customer Engagement apps. For more information about how to work with them, see Field level security and  Assign security roles to a form.
+Form and field level security are concepts shared by all Dynamics 365 apps for the Common Data Service platform. For more information about how to work with them, see Field level security and  Assign security roles to a form.
 
 ## Security roles added by Dynamics 365 Marketing
 
@@ -161,7 +161,7 @@ The tables in this section summarize the purpose of each role added by Dynamics 
 | Security&nbsp;role | Who&nbsp;needs&nbsp;it | Access&nbsp;granted |
 |---------------|--------------|----------------|
 | LinkedIn Lead Gen Forms Administrator | Administrators who are managing your organization's integration with LinkedIn | Users with this role can configure lead matching strategies, LinkedIn field mappings, and solution settings for the Dynamics 365 Connector for LinkedIn Lead Gen Forms. |
-| LinkedIn Lead Gen Forms Salesperson | Users who need to sync their profiles and view leads generated from LinkedIn, but who don't need to configure the connection | These users can authorize LinkedIn user profiles to sync data to Dynamics 365 for Customer Engagement, and view details about the synced submissions. |
+| LinkedIn Lead Gen Forms Salesperson | Users who need to sync their profiles and view leads generated from LinkedIn, but who don't need to configure the connection | These users can authorize LinkedIn user profiles to sync data to Dynamics 365, and view details about the synced submissions. |
 | LinkedIn LeadGen S2SInbound | For internal use only, do not delete or modify | This is an internal security role used by the solution to perform internal tasks, such as syncing data. Do not delete or modify this role. |
 
 ### Surveys security roles

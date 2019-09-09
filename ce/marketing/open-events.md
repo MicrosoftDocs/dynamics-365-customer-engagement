@@ -30,7 +30,7 @@ The event management features of Dynamics 365 Marketing are collected into their
 
 To find the event management work area:
 
-1. If you haven't already done so, sign in to Dynamics 365 for Customer Engagement as a user with [event-management privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
+1. If you haven't already done so, sign in to Dynamics 365 as a user with [event-management privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
     ![The app-selector menu](media/nav-apps-ill.png "The app-selector menu")
 

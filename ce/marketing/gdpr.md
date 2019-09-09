@@ -47,7 +47,7 @@ Most Dynamics 365 installations are customized to meet the specific needs of eac
 
 Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer.
 
-- For more information on how Dynamics 365 for Customer Engagement helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
+- For more information on how Dynamics 365 helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 - For details about how to use the Dynamics 365 API to implement custom GDPR-related functionality for your Dynamics 365 Marketing system, see the [Developer Guide (Marketing)](developer/marketing-developer-guide.md).
 - If you're looking for a partner to help you come into compliance, try searching in our [Microsoft Solution Providers database](https://www.microsoft.com/solution-providers/search).
 
@@ -245,7 +245,7 @@ Dynamics 365 can keep a record of all database changes, who made them, and when.
 
 To access the auditing features:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 for Customer Engagement advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
 This feature is part of the standard functionality of Dynamics 365. For information about how auditing works, how to set it up, and how to review the log, see [Audit data and user activity for security and compliance](../admin/audit-data-user-activity.md).

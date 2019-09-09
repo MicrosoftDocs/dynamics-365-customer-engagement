@@ -27,13 +27,13 @@ search.app:
 
 # Create an inbound customer journey
 
-*Inbound customer journeys* seek to attract new, unknown contacts, so they typically start with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media. (In comparison, an *outbound* customer journey is one that starts with a segment made up of contacts that are already included in your Dynamics 365 for Customer Engagement database, so an outbound journey usually starts by sending out marketing emails to the members of a segment.)
+*Inbound customer journeys* seek to attract new, unknown contacts, so they typically start with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media. (In comparison, an *outbound* customer journey is one that starts with a segment made up of contacts that are already included in your Dynamics 365 database, so an outbound journey usually starts by sending out marketing emails to the members of a segment.)
 
 Though messaging and promotion strategies are typically quite different for an inbound campaign compared to an outbound one, you design inbound customer journeys in Dynamics 365 Marketing by using the same basic tools as you would to create an outbound customer journey. The most important difference is that you typically start an inbound customer journey with a landing page or marketing form instead of a segment, though you could also set up a segment that finds contacts who submitted a specific form. In this configuration, all contacts (both new and existing) who submit the form immediately start down that journey.
 
 ## Use a marketing page to launch an inbound campaign
 
-If you are using a native Dynamics 365 Marketing marketing page (hosted by a Dynamics 365 portal) as the starting point of your inbound campaign, then start your journey with a marketing page tile, and configure the tile to link it to the page.
+If you are using a native Dynamics 365 Marketing marketing page (hosted by a Dynamics 365 Portal) as the starting point of your inbound campaign, then start your journey with a marketing page tile, and configure the tile to link it to the page.
 
 ![An example of a simple inbound journey](media/journey-inbound-example.png "An example of a simple inbound journey")
 

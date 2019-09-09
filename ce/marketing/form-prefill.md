@@ -54,12 +54,12 @@ The following rules apply for prefilling landing-page forms:
 The following rules apply for prefilling subscription-center forms:
 
 - Subscription forms always allow prefilling, and all fields in the form will allow prefilling regardless of their **Prefill** setting.
-- All marketing email messages must include a link to a subscription center. The link always includes an ID that Dynamics 365 for Customer Engagement uses to identify both the recipient and the message. When a contact selects this link, Dynamics 365 for Customer Engagement uses the submitted ID to find the contact record and return a form prefilled with contact values and the current state of each included subscription list. Dynamics 365 for Customer Engagement also sets a cookie just like the one it sets for landing pages.
+- All marketing email messages must include a link to a subscription center. The link always includes an ID that Dynamics 365 Marketing uses to identify both the recipient and the message. When a contact selects this link, Dynamics 365 Marketing uses the submitted ID to find the contact record and return a form prefilled with contact values and the current state of each included subscription list. Dynamics 365 Marketing also sets a cookie just like the one it sets for landing pages.
 - If a contact opens a subscription center page directly, rather than selecting a link from an email, then the ID won't be present in the URL. Instead, Dynamics 365 Marketing requests the cookie as backup to identify the contact. If the cookie isn't found, then the subscription center won't work because it won't know who it's talking to.
 
 ### Forward-to-a-friend forms
 
-Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to Dynamics 365 for Customer Engagement users.
+Prefilling isn't supported for forward-to-a-friend forms because these forms don't display information from the database. The email addresses that contacts enter here aren't checked against addresses already in the database, and the values entered aren't connected to the submitting contact in any way. These addresses are only stored temporarily&mdash;they aren't used to create new contact records, nor are they visible to Dynamics 365 users.
 
 ## Create a landing-page form with prefill enabled
 
@@ -94,4 +94,4 @@ More information: [Set up subscription lists and subscription centers](set-up-su
 
 ## Enable prefill for an embedded form
 
-If you have embedded a marketing form on an external website (such as your own organization's website), rather than publishing it on a marketing page published on a Dynamics 365 portal, you must authenticate the domain where you have embedded the form and also configure the form to enable prefill. For instructions, see [Integrate with forms published on an external website](embed-forms.md).
+If you have embedded a marketing form on an external website (such as your own organization's website), rather than publishing it on a marketing page published on a Dynamics 365 Portal, you must authenticate the domain where you have embedded the form and also configure the form to enable prefill. For instructions, see [Integrate with forms published on an external website](embed-forms.md).

@@ -8,7 +8,7 @@
 ### Set up and manage Marketing instances
 #### [Sign up for a free trial](trial-signup.md)
 #### [Purchase and set up Dynamics 365 Marketing](purchase-setup.md)
-#### [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
+#### [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Re-run the Marketing setup wizard](re-run-setup.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)

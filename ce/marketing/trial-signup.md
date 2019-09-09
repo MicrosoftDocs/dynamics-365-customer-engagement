@@ -31,7 +31,7 @@ search.app:
 You can sign up for, install, and use a trial version of Dynamics 365 Marketing for free.
 
 > [!IMPORTANT]
-> - You will receive a trial Dynamics 365 for Customer Engagement instance together with your Marketing trial. You must run the Marketing trial on a trial instance, and can't install it on a production instance.
+> - You will receive a trial Dynamics 365 instance together with your Marketing trial. You must run the Marketing trial on a trial instance, and can't install it on a production instance.
 > - You can install, at most, one Dynamics 365 Marketing trial per Microsoft 365 tenant.
 > - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
@@ -53,7 +53,7 @@ You can sign up for, install, and use a trial version of Dynamics 365 Marketing 
 In most ways, Marketing trials are fully functional, but time-limited, production instances. However, there are a few key differences:
 
 - Each Marketing trial comes pre-installed on a dedicate trial instance included with the trial. You can't install a Marketing trial on an existing instance.
-- Marketing trials can't be integrated with a Dynamics 365 Portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Dynamics 365 Portal or external CMS system. More information: [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
+- Marketing trials can't be integrated with a Dynamics 365 Portal. Instead, they provide a special mechanism that lets you try out landing pages, forms, the event website, and other interactive features without requiring a Dynamics 365 Portal or external CMS system. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 - You can't uninstall/re-install trials using the standard tools provided by the Dynamics 365 admin center. Trials are special and are handled differently than production instances.
 - You don't need to run the [setup wizard](purchase-setup.md) when setting up a trial.
 
@@ -128,14 +128,14 @@ If you set up your Marketing trial on a production tenant, then users that alrea
 If you set up a trial tenant and installed the Marketing trial there, then you should now have the following:
 
 - A trial tenant.
-- A trial Dynamics 365 for Customer Engagement instance installed on the trial tenant.
+- A trial Dynamics 365 instance installed on the trial tenant.
 - A trial Office 365 Enterprise E3 license installed on the trial tenant.
-- A trial Dynamics 365 Marketing app installed on the trial Dynamics 365 for Customer Engagement org.
+- A trial Dynamics 365 Marketing app installed on the trial Dynamics 365 instance.
 
 The user account that you used to set it up is now:
 
 - The global administrator for the trial tenant.
-- A system administrator for the Dynamics 365 for Customer Engagement instance.
+- A system administrator for the Dynamics 365 instance.
 
 To add a new Marketing user to this type of setup, use the following steps.
 
@@ -146,21 +146,22 @@ Start by adding a new user account to the trial tenant as follows:
 1. Open a web browser and go to [admin.microsoft.com](https://admin.microsoft.com). Sign in to your trial tenant as the global administrator that you set up while signing up for the trial.
 2. Once you are signed in, go to [admin.microsoft.com/adminportal/home#/users](https://admin.microsoft.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
 3. Select **Add a user** to open the **New user** flyout panel.
-4. Enter the new user's name and other details in the flyout panel. 
-   - Make sure the **Domain** is the same as the trial tenant.   
+4. Enter the new user's name and other details in the flyout panel.
+   - Make sure the **Domain** is the same as the trial tenant.
    - Create a non-random password and make a note of the password.
-   - Under **Product licenses**, enable licenses for both **Office 365 Enterprise E3** and **Dynamics 365 Customer Engagement Plan Enterprise Edition**.
+   - Under **Product licenses**, enable licenses for both Office 365 and Dynamics 365.
 5. Select **Add** to create the new user, and then select **Send email and close** to close the flyout panel.
 
 #### Step 2: Assign a Microsoft Office license to the new user (optional)
 
 The new user account is now available on your tenant, where it is also assigned trial licenses to Office 365 Enterprise E3 and Dynamics 365. The user also has an email address at your trial Office 365 domain. You should consider setting up mail forwarding to make sure the new user will receive signup messages. To set up forwarding:
+
 1. On the **Active users** page, select the name of the new user account. A flyout panel opens showing details about the selected user.
-2. Expand the **Mail Settings** heading on the flyout panel. (If you see a message that the mailbox is still being set up, then wait for the setup to complete.)
-3. Select the **Edit** link for **Email forwarding**.
-4. Turn forwarding on and specify the target email address. Then select **Save**.
-5. Close the flyout panel.
-6. Sign out of Office 365 and quit your browser.
+1. Expand the **Mail Settings** heading on the flyout panel. (If you see a message that the mailbox is still being set up, then wait for the setup to complete.)
+1. Select the **Edit** link for **Email forwarding**.
+1. Turn forwarding on and specify the target email address. Then select **Save**.
+1. Close the flyout panel.
+1. Sign out of Office 365 and quit your browser.
 
 #### Step 3: Sign the new user up for the Marketing trial
 

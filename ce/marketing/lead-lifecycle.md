@@ -39,7 +39,7 @@ Dynamics 365 Marketing provides automated lead scoring, but this feature also re
 
 So, the starting point for engaging potential customers in Dynamics 365 Marketing is to establish your collection of contact records through the following mechanisms:
 
-- Create contacts manually in the Dynamics 365 for Customer Engagement UI.
+- Create contacts manually in the Dynamics 365 UI.
 - Import contacts from a file.
 - Customer opt-in from a landing page (typically created together with a linked lead).
 - Customer opt-in from an event registration (typically created together with a linked lead).
@@ -49,7 +49,7 @@ So, the starting point for engaging potential customers in Dynamics 365 Marketin
 
 As contacts interact with your marketing initiatives, you'll generate leads to represent expressions of interest made by those contacts. You might generate a lead manually (such as after a meeting or phone conversation), or you might allow the system to generate them automatically (such as in response to an event registration). Leads are usually generated in one of the following ways:
 
-- Use the Dynamics 365 for Customer Engagement UI to create a lead record and then manually link it to a new or existing contact record.
+- Use the Dynamics 365 UI to create a lead record and then manually link it to a new or existing contact record.
 - Import leads from a file and then manually map each lead to a contact or account.
 - Customer opt-in from a landing page (matched to an existing contact or creates a new, linked contact).
 - Customer opt-in from an event registration (matched to an existing contact or creates a new, linked contact).
@@ -79,13 +79,13 @@ After a single interaction, a new lead is usually still considered *unqualified*
 
 The [automated scoring system](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/score-manage-leads) enables Marketing to calculate a score for each lead based on demographic details, firmographic details, and actions taken by the associated contact (or for account-based leads, contacts belonging to the associated account). Scorable interactions include, for example: opening an email, submitting a landing page, visiting your website, or attending an event. You can design your segments and customer journeys to react to promising patterns in contacts' behavior, so you can engage them further with targeted messaging and enticing offers that nurture their interest.
 
-Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365 for Customer Engagement, including advancing the lead through its business process and alerting teleprospectors or salespeople to pick it up.
+Each scoring model includes a sales-ready threshold. When a lead's score passes this threshold, it gets marked as sales ready, which can trigger other events within Dynamics 365, including advancing the lead through its business process and alerting teleprospectors or salespeople to pick it up.
 
 <a name="lead-business-process"></a>
 
 ## The lead business process
 
-Like many entities in Dynamics 365 for Customer Engagement, lead records support _business processes_. A sample lead process for marketing is provided out of the box, but most organizations will customize this or create a custom one that matches their own internal processes. The supplies process creates a timeline that tracks the progress of the lead from generation to sales acceptance. Each stage of the business process timeline provides a drop-down menu of fields that support that stage of the process and a button for marking that stage complete and activating the next stage of the process.
+Like many entities in Dynamics 365, lead records support _business processes_. A sample lead process for marketing is provided out of the box, but most organizations will customize this or create a custom one that matches their own internal processes. The supplies process creates a timeline that tracks the progress of the lead from generation to sales acceptance. Each stage of the business process timeline provides a drop-down menu of fields that support that stage of the process and a button for marking that stage complete and activating the next stage of the process.
 
 The following image shows the out-of-box business process, which creates the horizontal bar in the page header. The Inquiry stage is currently active, and the menu for this stage is shown open. Select any stage of the process to open its menu, where you can enter values, switch to that stage, or advance to the next stage as needed.
 
@@ -101,7 +101,7 @@ The standard process guides users through the following stages:
 4. **Teleprospecting qualification**: When a phone operator gets in contact with the lead, they fill out the fields here to hold important information gathered during the conversation. If the phone operator concludes that the lead is promising, then they select the **Sales ready** check box, which advances the lead to the next stage.
 5. **Sales acceptance**: When a lead gets marked as sales ready, it comes to the attention of a salesperson, for example by showing up on their dashboard or through a generated task. If the lead meets their minimum criteria for qualification, the manager assigns it to a salesperson and selects the **Sales accepted** check box here. The salesperson can then start working on the lead, possibly going on to convert it to an opportunity and eventually closing the sale.
 
-Business processes are highly customizable and can be used to drive further automation. They are a standard feature of many Dynamics 365 for Customer Engagement apps. You'll typically also customize your system to support other aspects of this process, such as by setting up dashboards and custom views for teleprospectors and salespeople to discover their newly qualified leads, and by setting up workflows that automate other aspects of your internal sales processes. More information: [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)
+Business processes are highly customizable and can be used to drive further automation. They are a standard feature of many Dynamics 365 apps. You'll typically also customize your system to support other aspects of this process, such as by setting up dashboards and custom views for teleprospectors and salespeople to discover their newly qualified leads, and by setting up workflows that automate other aspects of your internal sales processes. More information: [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)
 
 > [!NOTE]
 > If you are integrating Dynamics 365 Marketing with [!INCLUDEDynamics 365 Sales, then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. More information: [Create or edit views](../customize/create-edit-views.md) and [Create or edit dashboards](../customize/create-edit-dashboards.md)

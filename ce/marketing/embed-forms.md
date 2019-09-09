@@ -34,7 +34,7 @@ There are two basic methods for integrating an external form page with Dynamics 
 - *Embed* a Dynamics 365 Marketing form on an external page
 - Use *form capture* to integrate Dynamics 365 Marketing with a form created externally
 
-The third way of publishing a marketing page is to place a [native marketing form](marketing-forms.md) on a [native marketing page](create-deploy-marketing-pages.md) created and published by Dynamics 365 Marketing on a Dynamics 365 portal.
+The third way of publishing a marketing page is to place a [native marketing form](marketing-forms.md) on a [native marketing page](create-deploy-marketing-pages.md) created and published by Dynamics 365 Marketing on a Dynamics 365 Portal.
 
 The following table summarizes the capabilities available with each of these approaches.
 
@@ -48,7 +48,7 @@ The following table summarizes the capabilities available with each of these app
 | Link to forms from email messages | Yes | Yes | Yes |
 | Launch inbound campaigns | Yes | Yes | Yes |
 | Use form visits or submissions as criteria for journey triggers | Yes | Yes | Yes |
-| Requires Dynamics 365 portal | No | No | Yes |
+| Requires Dynamics 365 Portal | No | No | Yes |
 | Requires external website | Yes | Yes | No |
 | Generate leads and/or contacts | Yes | Yes | Yes |
 | Match and update leads and/or contacts | Yes | Yes | Yes |
@@ -106,7 +106,7 @@ To design a form in Dynamics 365 Marketing that you can embed on an external web
 
 Form prefilling enables your forms to include prefilled values for known contacts. Prefilling makes your forms easier for contacts to use and can therefore help to increase your submission rates. The feature uses cookies to identify contacts that have previously submitted a form or opened a subscription center using a personalized link sent in email.
 
-Because form prefilling requires the form to fetch contact values from your Dynamics 365 for Customer Engagement database, a few extra security measures are in place to help protect contacts' privacy. This means that contacts need to opt-in for form prefilling and that you must authenticate each external domain where you'll embed the form. The solution only allows prefilled values to be shown to contacts whose contact record has the _allow-prefill_ flag set. Contacts can set or clear their allow-prefill flag themselves using a landing any page form, provided the form includes the setting. Dynamics 365 Marketing users can also edit a contact record directly to edit this setting for that contact.
+Because form prefilling requires the form to fetch contact values from your Dynamics 365 database, a few extra security measures are in place to help protect contacts' privacy. This means that contacts need to opt-in for form prefilling and that you must authenticate each external domain where you'll embed the form. The solution only allows prefilled values to be shown to contacts whose contact record has the _allow-prefill_ flag set. Contacts can set or clear their allow-prefill flag themselves using a landing any page form, provided the form includes the setting. Dynamics 365 Marketing users can also edit a contact record directly to edit this setting for that contact.
 
 To create a form with prefilling that you can embed on an external website:
 
@@ -253,6 +253,6 @@ To set up a journey that invites contacts to visit an external form and then rea
 
 ### Use external forms with inbound campaigns
 
-You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, just as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing forms.
+You can create an inbound campaign by placing a **Marketing form** tile at the start of a journey, and then configure the tile to reference the marketing-form record that created the embedded or captured form you are using on your external site. This will cause each contact that submits the form to be added to the journey, just as though they had joined a segment targeted by the journey. You could already [do something similar for marketing pages hosted on a Dynamics 365 Portal](create-inbound-customer-journey.md), but now you can also do it with an externally hosted marketing forms.
 
 ![Inbound campaign from a hosted form](media/journey-host-form-trigger5.png "Inbound campaign from a hosted form")

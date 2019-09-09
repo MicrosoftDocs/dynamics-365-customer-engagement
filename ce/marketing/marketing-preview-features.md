@@ -41,7 +41,7 @@ Most preview features aren't installed or enabled by default. A system administr
 > If you already enabled the preview features that were available for the February 2019 update and would now like to try the new preview features released in March 2019, then all you need to do is [update your instance](apply-updates.md). You don't need to opt-in again as described in this section.
 
 > [!NOTE]
-> If you already have a Dynamics 365 for Customer Engagement environment (including a trial), but don't yet have Dynamics 365 Marketing installed on it, and you'd like to install Marketing with the preview features already enabled, then you can do both at once by first enabling the preview on your instance (as described here) and then installing  Marketing.
+> If you already have a Dynamics 365 environment (including a trial), but don't yet have Dynamics 365 Marketing installed on it, and you'd like to install Marketing with the preview features already enabled, then you can do both at once by first enabling the preview on your instance (as described here) and then installing  Marketing.
 
 To enable the preview features:
 

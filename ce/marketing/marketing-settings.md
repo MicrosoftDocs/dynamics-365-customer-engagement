@@ -188,16 +188,16 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 <a name="dci-sync"></a>
 
-## Choose entities to sync with the marketing insights service
+## Choose entities to sync with the marketing-insights service
 
-The marketing insights service provides analytical tools for working with customer records. It helps you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The marketing insights service also makes dynamic field values available for use in marketing email messages as they are processed and sent.
+The marketing-insights service provides analytical tools for working with customer records. It helps you to better understand your customers and set up subscription lists and target segments for use in email-marketing campaigns. The marketing-insights service also makes dynamic field values available for use in marketing email messages as they are processed and sent.
 
-The analytical and data-crunching capabilities of the marketing insights service is very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between Dynamics 365 Marketing and this service. The marketing insights service also collects and manages all interaction data. For optimal performance and functionality, choose only the entities you need&mdash;no more and no less.
+The analytical and data-crunching capabilities of the marketing-insights service is very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between Dynamics 365 Marketing and this service. The marketing-insights service also collects and manages all interaction data. For optimal performance and functionality, choose only the entities you need&mdash;no more and no less.
 
 > [!IMPORTANT]
 > The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
 
-The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the marketing insights service:
+The most-used entities (including contacts, accounts, and events) are synced by default, but you can sync any set of entities that you want, including custom entities. The following features require all the relevant data to be present in the marketing-insights service:
 
 - **Segmentation**: All entities that you need to query in your segmentation criteria must be present.
 - **Dynamic email content**: All entities with field values that you want to show as dynamic data in an email message must be present.
@@ -206,7 +206,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > [!NOTE]
 > You can only sync entities that are configured with **Change tracking** enabled. Entities without change tacking won't be listed on the **Marketing data configuration** page. If you are a system customizer or admin, then you can find this setting by doing the following:
 > 
-> 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 for Customer Engagement advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+> 1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 > 1. Navigate to **Settings** > **Customization** > **Customization**.
 > 1. Select **Customize the system** (or select **Solutions** and open a solution if your entity is part of a solution).
 > 1. Find and select the entity you want to sync.
@@ -215,7 +215,7 @@ The most-used entities (including contacts, accounts, and events) are synced by 
 > 
 > More information: [Customizing Dynamics 365 Marketing](customize.md)
 
-To sync a new entity with the marketing insights service:
+To sync a new entity with the marketing-insights service:
 
 1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Marketing data configuration**.
 

@@ -61,7 +61,7 @@ To create a marketing email and go live:
     Enter the following:
    - **Name**: This is an internal name for your message. Enter any name that you will easily recognize later.
    - **Subject**: This is the subject that email recipients will see when they receive the message.
-   - **From**: Select here to choose the Dynamics 365 for Customer Engagement user who email recipients will see as the sender of the message.
+   - **From**: Select here to choose the Dynamics 365 user who email recipients will see as the sender of the message.
 
 4. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. A **Toolbox** on the right side of the page provides design elements that you'll use to construct your message.  
     ![Add a text element to a new email](media/email-add-text-block.png "Add a text element to a new email")

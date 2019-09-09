@@ -28,9 +28,9 @@ search.app:
 
 [!INCLUDE [cc-marketing-early-access-2019w2](../includes/cc-marketing-early-access-2019w2.md)]
 
-The segmentation designer is a key tool for establishing target markets in Dynamics 365 Marketing. It enables you to query across multiple related entities, including contacts, leads, accounts, events, marketing lists, and more. It also enables you to query the interaction database to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
+The segmentation designer is a key tool for establishing target markets in Dynamics 365 Marketing. It enables you to query across multiple related entities, including contacts, leads, accounts, events, marketing lists, and more. It also enables you to query the marketing-insights service to find contacts that have shown engagement with your marketing initiatives, or contacts that you may be failing to reach (due to issues such as email bounces).
 
-Many Dynamics 365 Marketing customers have asked us to provide a more streamlined and easier to use tool for designing segments in Dynamics 365 Marketing, so we've been working to redesign the interface to more closely resemble other querying tools found in Dynamics 365 for Customer Engagement (such as the advanced-find feature). The segment designer still provides more power than you'll find in any other search tool for Dynamics 365, and remains the only tool that lets you query the interaction database of Marketing results and insights.
+Many Dynamics 365 Marketing customers have asked us to provide a more streamlined and easier to use tool for designing segments in Dynamics 365 Marketing, so we've been working to redesign the interface to more closely resemble other querying tools found in Dynamics 365 (such as the advanced-find feature). The segment designer still provides more power than you'll find in any other search tool for Dynamics 365, and remains the only tool that lets you query interaction records from the marketing-insights service.
 
 As previously, segments are mostly used to establish target audiences for your customer journeys. (You can also use subscription lists to target a journey, but you can't use other types of static or dynamic marketing lists to do so.)
 
@@ -50,7 +50,7 @@ Read this section to get a basic overview of how to create a segment and start i
 
     - **Demographic**: Creates a dynamic profile segment prepared to query contact records directly, but you can still add relations as needed to create a query of arbitrary complexity. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
     - **Firmographic**: Creates a dynamic profile segment prepared with a relation to the accounts entity already in place. Other than this, this is the same as selecting **Demographic**. For details about how to work with this kind of segment, see [Design a demographic or firmographic segment](#segment-profile)
-    - **Behavioral**: Creates a behavioral segment, which queries the interaction database to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design a behavioral segment](#segment-interaction)
+    - **Behavioral**: Creates a behavioral segment, which queries interaction records from the marketing-insights service to find contacts that have interacted in specific ways with your marketing initiatives, such as by opening an email, clicking a link, or visiting a web page. For details about how to work with this kind of segment, see [Design a behavioral segment](#segment-interaction)
     - **Static**: Creates a segment where you manually select each member rather than creating a logical query. For details about how to work with this kind of segment, see [Design a static segment](#segment-static)
     - **Combined audiences**: Creates a compound segment, which combines any number of existing segments union, exclude, and/or intersect operators. For details about how to work with this kind of segment, see [Design a compound segment (combined audiences)](#segment-compound)
 
@@ -72,7 +72,7 @@ See the remaining sections of this topic for more information about each type of
 
 ## Design a demographic or firmographic segment
 
-_Demographic and firmographic segments_ are dynamic segments that query _profile records_ stored in the marketing insights database. Profile records include the entities you normally work with in the Dynamics 365 for Customer Engagement UI, such as contacts, accounts, leads, and any other entities. They are synced between your Dynamics 365 for Customer Engagement database (where you can work with them in the UI) and the marketing insights database (where you can query them from a segment).
+_Demographic and firmographic segments_ are dynamic segments that query _profile records_ stored in the marketing insights database. Profile records include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities. They are synced between your Dynamics 365 organizational database (where you can work with them in the UI and other Dynamics 365 apps) and the marketing insights database (where you can query them from a segment).
 
 This type of segment is called _dynamic_ because its membership is defined as a query, which provides a logical description of the contacts the segment should contain, but doesn't list any contacts by name. Member ship in dynamic segments can change from moment to moment in response to new contacts being added or updated in the database.
 
@@ -132,7 +132,7 @@ To find, view, and edit the query, scroll to the bottom of the page and open the
 
 ## Design a behavioral segment
 
-_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 Marketing UI, but they aren't synced to the Dynamics 365 for Customer Engagement database.
+_Behavioral segments_ query the _interaction_ records stored in the marketing insights database. Each of these records is generated automatically in response to something a contact did (such as open an email or visit a web page), and is related to the specific contact record associated with that action (if known). Interaction records are used to generate various insights displays in the Dynamics 365 Marketing UI, but they aren't synced to the Dynamics 365 organizational database.
 
 The result of a behavioral segment query is always a set of contacts who performed the relevant type of interaction according to the conditions established by the query.
 

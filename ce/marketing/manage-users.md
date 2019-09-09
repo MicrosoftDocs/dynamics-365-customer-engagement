@@ -32,10 +32,9 @@ The Dynamics 365 Marketing application provides an overview of users licensed to
 
 To view a list of existing users, go to **Settings** > **Advanced settings** > **Organization** > **User management**. The list provides standard tools to search, sort, and page through the list as needed. Select and open any user in the list to view and edit basic information about that user.
 
-To create new users, grant licenses, and manage permissions for users, you must work in the Microsoft 365 admin center and/or the advanced settings for Customer Engagement. For details about these operations, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
+To create new users, grant licenses, and manage permissions for users, you must work in the Microsoft 365 admin center and/or the advanced settings for Dynamics 365. For details about these operations, see [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)
 
 ### See also
 
 [Manage user accounts, licenses, and roles](admin-users-licenses-roles.md)  
 [Manage teams](manage-teams.md)  
-

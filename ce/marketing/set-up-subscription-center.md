@@ -36,7 +36,7 @@ All marketing email messages that you create by using Dynamics 365 Marketing mus
 
 All subscription centers include a **do not email** check box. When a contact chooses this option, the **do not bulk email** flag gets set on his or her contact record and Dynamics 365 Marketing will never send any marketing email messages to that contact. Optionally, your subscription center can present several additional subscription options, such as a list of available newsletters. By presenting several different mailing lists on your subscription center, you gain an opportunity to learn more about your contacts' specific interests while also giving contacts more options beyond the legally required "do not bulk email" option.
 
-Each subscription list exists as a static marketing list in Dynamics 365 for Customer Engagement, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
+Each subscription list exists as a static marketing list in Dynamics 365, while **do not bulk email** is an explicit attribute of the contact entity. That means that **do not bulk email** overrules subscription list memberships, but it also means that list memberships will be reactivated if a contact later clears **do not bulk email**.
 
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that Dynamics 365 Marketing always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register.
 
@@ -81,7 +81,7 @@ You can publish subscription centers as a native marketing page running on a Dyn
 
 ## Create a subscription list
 
-Subscription lists are based on the standard (static) marketing lists feature of Dynamics 365 for Customer Engagement. To create one:
+Subscription lists are based on the standard (static) marketing lists feature of Dynamics 365. To create one:
 
 1. Go to **Marketing** > **Customers** > **Marketing lists**.
 

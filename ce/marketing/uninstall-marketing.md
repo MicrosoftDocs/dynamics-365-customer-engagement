@@ -45,7 +45,7 @@ The uninstall process has up to three steps:
 The Marketing uninstall wizard manages most of the uninstall process. It:
 
 - Removes all Marketing, event management, and Dynamics 365 Connector for LinkedIn Lead Gen Forms services from your Dynamics 365 application server.
-- Removes your marketing insights service and its data.
+- Removes your marketing-insights service and its data.
 - Turns off user syncing from Office 365 for Marketing-only users.
 - Frees your Dynamics 365 Marketing entitlement (license) for use with another Dynamics 365 instance if needed.
 
@@ -67,7 +67,7 @@ To run the uninstall wizard:
 
 If the Dynamics 365 Marketing instance that you are uninstalling was integrated with a Dynamics 365 Portal (for example to run marketing pages and the events website) then you must reset the portal to release its license. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
 
-Portals are optional, so you might not have one connected to your Marketing instance. For more information about how Dynamics 365 Marketing uses portals, see [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md).
+Portals are optional, so you might not have one connected to your Marketing instance. For more information about how Dynamics 365 Marketing uses portals, see [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md).
 
 To reset a portal being used by Marketing:
 
@@ -104,7 +104,7 @@ Customer journeys can introduce data dependencies if they include launch-workflo
 
 To remove the solutions:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 for Customer Engagement advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 
 1. Navigate to **Settings** > **Customization** > **Solutions** to manage your installed solutions.
 

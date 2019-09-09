@@ -28,7 +28,7 @@ search.app:
 
 # Manage your Dynamics 365 Marketing instances
 
-Instance-management operations are a standard feature of the Dynamics 365 for Customer Engagement platform. However, Dynamics 365 Marketing adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
+Instance-management operations are a standard feature of Dynamics 365 apps for the Common Data Service platform. However, Dynamics 365 Marketing adds significant complexity to the system, so there are several extra considerations to keep in mind when you have Marketing installed.
 
 > [!IMPORTANT]
 > This topic provides details about the exceptions that apply when working with instances where the Marketing app is installed—for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
@@ -37,10 +37,10 @@ Instance-management operations are a standard feature of the Dynamics 365 for Cu
 
 Dynamics 365 Marketing is composed of several components that you must be aware of to understand how the instance-management operations work when Marketing is installed. These include the following elements:
 
-- **Dynamics 365 for Customer Engagement instance**. This provides the basic platform for the Marketing app and includes both a _platform server_ and an _organizational database_. This database is also shared by the Marketing app, which reads and stores much of its data here.
+- **Dynamics 365 instance**. This provides the basic platform for the Marketing app and includes both a _platform server_ and an _organizational database_. This database is also shared by the Marketing app, which reads and stores much of its data here.
 - **Dynamics 365 Marketing application**. This is a collection of solutions that are installed on the platform server and add marketing features to Dynamics 365. It's installed on the platform server to add marketing features to Dynamics 365. It's also referred to as the _Marketing app_.
-- **Marketing services**. This is a collection of services that the Marketing app interacts with . They run in parallel with your Dynamics 365 for Customer Engagement instance. Among other things, live customer journeys and marketing email messages run here.
-- **Marketing insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
+- **Marketing services**. This is a collection of services that the Marketing app interacts with . They run in parallel with your Dynamics 365 instance. Among other things, live customer journeys and marketing email messages run on marketing services.
+- **marketing-insights service**. This provides big-data services such as resolving segment queries, storing interaction data, and providing analytics based on this data. The marketing-insights service is just one of the marketing services already mentioned, but it's worth calling out separately because it comes up often.
 
 Marketing services run in parallel with your Dynamics 365 Marketing instance, and thus follow their own lifecycle. These services aren't directly accessible to users, so when copying or restoring and organization database, you must consider the impact on these connected services.
 
@@ -48,12 +48,12 @@ Marketing services run in parallel with your Dynamics 365 Marketing instance, an
 
 ## Copy a Marketing instance to another instance
 
-Because Marketing is more complex than most Dynamics 365 for Customer Engagement apps, and interacts with several special services and other components, you must be extra careful when creating copies to and/or from instances that have Marketing installed on them.
+Because Marketing is more complex than most Dynamics 365 apps, and interacts with several special services and other components, you must be extra careful when creating copies to and/or from instances that have Marketing installed on them.
 
 <a name="copy-warning"></a>
 
 > [!WARNING]
-> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 for Customer Engagement instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
+> You must not do a simple copy of a Marketing instance like you can with most other Dynamics 365 instances that don't have Marketing installed. If you do a simple copy without following the steps here, the resulting copy won't work and will render the target instance unrecoverable.
 
 > [!WARNING]
 > This procedure will completely delete and/or overwrite the target instance.
@@ -66,7 +66,7 @@ Because Marketing is more complex than most Dynamics 365 for Customer Engagement
 After the copy, your target instance will be set up as follows:
 
 - All apps, settings, and customizations from your source instance will be present on the target instance.
-- A new set of marketing services (including a new marketing insights service and interaction database) will be created and linked to the target instance. Interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance, so most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
+- A new set of marketing services (including a new marketing-insights service) will be created and linked to the target instance. Interaction data from your source instance (such as email clicks or website visits) won't be available to the target instance, so most insights data will be initialized. You can freely generate new interaction data on the target instance without affecting your source instance.
 - If you chose to do a *full copy*, the entire organizational database of your source instance will be copied to the target instance. This means that copied data from your source instance will be visible on the target instance, but your work in the target instance won't affect your source database from now on.
 - If you chose to do a *minimal copy*, all your apps and customizations will still be present on the target instance, but the organizational database will be nearly empty, so none of your source data (including email messages, portal content, and customer journeys) will be there.
 - If the Marketing app on your source instance used a Dynamics 365 Portal, then you might choose to also set up a new portal on the target instance to host its marketing pages and event websites (requires an unconfigured Dynamics 365 Portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied instance if you prefer, even if the source instance was using one.
@@ -131,12 +131,12 @@ As with copy operations, backup and restore operations typically require a few e
 
 ### Automatic system backups
 
-Microsoft automatically takes daily backup copies of all Dynamics 365 for Customer Engagement instances, including those that have the Marketing app installed. Like other types of copies, automatic system backups include the full organizational database, but not a copy of the interaction database. System backups are usually kept for just a few days and then deleted again.
+Microsoft automatically takes daily backup copies of all Dynamics 365 instances, including those that have the Marketing app installed. Like other types of copies, automatic system backups include the full organizational database, but not a copy of the marketing-insights service database. System backups are usually kept for just a few days and then deleted again.
 
 > [!IMPORTANT]
 > The system creates automatic system backups without stopping any of the live records on the source instance. That means that these backups won't interrupt the normal operation of your instance, but it also means that any records that are live on the source instance will be rendered unusable in a restored backup copy.
 
-For more information about automatic backups in Dynamics 365 for Customer Engagement, see [Daily system backups](../admin/backup-restore-instances.md#daily-system-backups).
+For more information about automatic backups in Dynamics 365, see [Daily system backups](../admin/backup-restore-instances.md#daily-system-backups).
 
 ### Create an on-demand backup
 
@@ -162,7 +162,7 @@ To restore a backup onto a sandbox instance:
 
 1. We highly recommend that you reset your target instance as described in [Reset a Sandbox instance](../admin/manage-sandbox-instances.md#reset-a-sandbox-instance).
 
-1. Restore the backup onto the newly prepared sandbox as usual, as described in [Restore a Dynamics 365 for Customer Engagement apps on-demand backup](../admin/backup-restore-instances.md#restore-a-dynamics-365-for-customer-engagement-apps-on-demand-backup).
+1. Restore the backup onto the newly prepared sandbox as usual, as described in [Restore a Dynamics 365 on-demand backup](../admin/backup-restore-instances.md#restore-a-dynamics-365-for-customer-engagement-apps-on-demand-backup).
 
 1. Prepare the restored instance for use by doing the following:
 
@@ -215,7 +215,7 @@ To copy a production instance to a support instance:
 
 ## Delete or reset a Marketing instance
 
-For standard Customer Engagement instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you must also do the following:
+For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to delete or reset an instance. However, if you do have Marketing installed, then you must also do the following:
 
 1. Use the Marketing setup wizard to uninstall Dynamics 365 Marketing from that instance as described in [Uninstall Marketing](uninstall-marketing.md). (Just run the uninstaller—you don't have to remove all of the solutions afterwards.) This both prepares the target instance to receive the restored backup and also makes sure that your Marketing license is fully released so you can use it elsewhere.
 1. If the Marketing instance was [integrated with a Dynamics 365 Portal](portal-optional.md), then reset the portal as described in [Reset a portal](../portals/reset-portal.md). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "configured" in the Dynamics 365 admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored instance.
@@ -226,10 +226,10 @@ For standard Customer Engagement instances (without Marketing installed) you can
 
 ## Do not change the URL for an instance with Marketing installed
 
-For standard Dynamics 365 for Customer Engagement instances (without Marketing installed) you can use the Dynamics 365 admin center to change the URL of an instance. However, _you can't currently do this if you have Marketing installed_.
+For standard Dynamics 365 instances (without Marketing installed) you can use the Dynamics 365 admin center to change the URL of an instance. However, _you can't currently do this if you have Marketing installed_.
 
 > [!IMPORTANT]
-> Do not attempt to change the URL for a Marketing instance. If you require a different URL, then you must set up a new Dynamics 365 for Customer Engagement instance at the new URL and then reinstall Marketing there.
+> Do not attempt to change the URL for a Marketing instance. If you require a different URL, then you must set up a new Dynamics 365 instance at the new URL and then reinstall Marketing there.
 
 ### See also
 

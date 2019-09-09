@@ -27,14 +27,14 @@ search.app:
 
 # Transfer data and configurations between instances using the Configuration Migration tool
 
-You can replicate Dynamics 365 Marketing configurations and data across instances using the standard tools provided for Dynamics 365 for Customer Engagement. Common scenarios where this comes in handy include:
+You can replicate Dynamics 365 Marketing configurations and data across instances using the standard tools provided for Dynamics 365. Common scenarios where this comes in handy include:
 
 - Move validated journeys, emails, and other content from a sandbox to a production environment
 - Set up a demo with sample data on a trial or sandbox
 
 The process works as follows:
 
-1. Download the Configuration Migration tool for Dynamics 365 for Customer Engagement (if you don't already have it).
+1. Download the Configuration Migration tool for Dynamics 365 (if you don't already have it).
 1. Make sure your source and destination instances are running the same version of Marketing.
 1. Use the Configuration Migration tool to generate a database schema based on your source instance.
 1. Export data from the source instance using the Configuration Migration tool together with the schema.

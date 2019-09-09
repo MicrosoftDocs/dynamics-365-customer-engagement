@@ -27,9 +27,12 @@ search.app:
 
 # Create a landing page with a form
 
-A *landing page* is a webpage that functions as a customer touchpoint for one of your marketing initiatives. For example, you might send out an email message that invites recipients to sign up for a free white paper download. To get the download, message recipients must select a link that opens a webpage with a form where they enter information (which is saved directly in your Dynamics 365 for Customer Engagement database), and then they receive an email with the download link. The same landing page can also be made available to unknown visitors of your website, who will add themselves as new contacts in your database when they request the download.
+A *landing page* is a webpage that functions as a customer touchpoint for one of your marketing initiatives. For example, you might send out an email message that invites recipients to sign up for a free white paper download. To get the download, message recipients must select a link that opens a webpage with a form where they enter information (which is saved directly in your Dynamics 365 database), and then they receive an email with the download link. The same landing page can also be made available to unknown visitors of your website, who will add themselves as new contacts in your database when they request the download.
 
-In Dynamics 365 for Customer Engagement, a landing page is a type of *marketing page*. Other types of marketing pages include *subscription centers* and *forward-to-a-friend forms*, both of which support email marketing and are more specialized in purpose. All marketing pages run on your Dynamics 365 for Customer Engagement server and are based on the portals feature.
+In Dynamics 365 for Marketing, a landing page is a type of *marketing page*. Other types of marketing pages include *subscription centers* and *forward-to-a-friend forms*, both of which support email marketing and are more specialized in purpose.
+
+> [!NOTE]
+> This tutorial describes how to create and publish a landing page when you are using a Dynamics 365 Portal to host your landing pages. However, Dynamics 365 Portals are an optional add-on for Dynamics 365 Marketing, so if you don't have a portal, then you must publish your landing pages and other interactive features for Dynamics 365 Marketing on your own webserver or CMS system. More information: [Create interactive features with or without portals](portals.md) and [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)
 
 To create a landing page and go live:
 
@@ -81,7 +84,7 @@ To create a landing page and go live:
     Enter the following:
    - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
    - **Type**: Make sure this is set to **Landing page**.
-   - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Dynamics 365 for Customer Engagement portal server, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
+   - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Dynamics 365 Portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 
      You are now in the page designer, which resembles the form and email designers. Your page already includes lots of content that came from the template you chose, including placeholder images, sample text, and more. Most of these are placed by using standard **Toolbox** items like **Text** elements and **Image** elements, though some layout features are hard-coded in HTML as part of the template. As with email messages, you can add new design elements, edit text directly on the canvas, and configure design elements by selecting them and using the **Properties** tab. You can also set global page styles by using the **Styles** tab. In a real project, you would spend time now working with all these settings to create and style your content.
 

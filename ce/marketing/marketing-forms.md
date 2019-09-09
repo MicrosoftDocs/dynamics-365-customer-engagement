@@ -105,7 +105,7 @@ In addition to the basic form design, each marketing-form record also includes a
 - **Generate leads without matching**: This setting controls whether or not the form will attempt to match an existing lead (using the specified **Lead matching strategy**), or if instead it will always create a new lead for each submission. Set to **No** to apply the matching strategy, or to **Yes** to create a new lead every time.
 - **Purpose** and **Visual style**: These fields provide more information about the form. For form templates, these values affect how the form can be found on the **Purpose** and **Visual style** tabs of the template gallery. These settings don't affect the actual layout or functionality of the form in any way.
 - **Prefill fields**: Set to **Yes** to enable prefilling for the form; set to **No** to disable it. You can only change this option for landing-page forms&mdash; subscription-center forms always use prefilling, while forward-to-a-friend forms never use it. More information: [Enable prefilling for forms](form-prefill.md)
-- **Timeline**: Shows a history of notes and other activities related to the current form. Most types of entities in Dynamics 365 for Customer Engagement include this type of display.
+- **Timeline**: Shows a history of notes and other activities related to the current form. Most types of entities in Dynamics 365 include this type of display.
 - **Related marketing pages**: Here you can see a list of marketing pages where this form is used. Select any listed page to open it.
 - **Related fields**: Here you can see a list of fields used in this form. Select any listed field to open its definition.
 

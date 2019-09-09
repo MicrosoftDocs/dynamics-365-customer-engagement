@@ -58,8 +58,8 @@ To re-run the Marketing setup wizard:
 
     The following links can be available in the **Other actions** panel:
 
-    - **Configure your portal**: This link is only shown if you have a Dynamics 365 portal integrated with your selected Marketing instance. Select this link to go to the portal configuration where you can, among other things, restart the portal or remove it from your Marketing instance. More information: [Administer your portal](../portals/manage-portal.md)
+    - **Configure your portal**: This link is only shown if you have a Dynamics 365 Portal integrated with your selected Marketing instance. Select this link to go to the portal configuration where you can, among other things, restart the portal or remove it from your Marketing instance. More information: [Administer your portal](../portals/manage-portal.md)
     - **Take me to the app**: Brings you to Dynamics 365 Marketing.
     - **Uninstall Marketing from this org**: Removes Marketing from the selected instance. More information: [Uninstall Marketing](uninstall-marketing.md)
 
-    If your selected Marketing instance isn't currently integrated with a Dynamics 365 portal, then you can set this up by selecting **Use Dynamics 365 Portals** in the main area of the window. More information: [Integrate Marketing with a CMS system or Dynamics 365 portal](portal-optional.md)
+    If your selected Marketing instance isn't currently integrated with a Dynamics 365 Portal, then you can set this up by selecting **Use Dynamics 365 Portals** in the main area of the window. More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md)

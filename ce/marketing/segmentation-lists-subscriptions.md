@@ -1,7 +1,6 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 Marketing"
-keywords: segment; marketing list; subscription; Customer Insights
 ms.date: 04/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -48,15 +47,15 @@ Segments can be dynamic, static, or compound.
 
 Segments can also be based either on profiles or interactions.
 
-- *Profile segments* query the _profile_ records stored in the customer-interaction database. Profiles records are synced between your Dynamics 365 for Customer Engagement database and the customer-interaction database and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
-- *Interaction segments* query the _interaction_ records stored in the customer-interaction database. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 for Customer Engagement database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
+- *Profile segments* query the _profile_ records stored in the marketing-insights service. Profiles records are synced between your Dynamics 365 organizational database and the marketing-insights service, and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
+- *Interaction segments* query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
-### Segments are synced with the marketing insights service
+### Segments are synced with the marketing-insights service
 
-Dynamics 365 Marketing works together with the marketing insights service, which operates using its own customer-interaction database to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets the marketing insights service apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of Dynamics 365 records.
+Dynamics 365 Marketing works together with the marketing-insights service, which operates using its own marketing-insights database to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets the marketing-insights service apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of Dynamics 365 records.
 
 > [!IMPORTANT]
-> The marketing insights service processes changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  [suppression segments](customer-journeys-create-automated-campaigns.md#suppression-segment).
+> The marketing-insights service processes changes to segment membership asynchronously, which means you can't predict the order in which changes are processed. In some cases, such as when processing very large databases, it can take up to six hours for a given segment to get updated. You therefore can't rely on any one segment being processed before or after a specific other segment, so be careful when orchestrating related campaigns and/or using  [suppression segments](customer-journeys-create-automated-campaigns.md#suppression-segment).
 
 ### Segments must be live before you can use them
 

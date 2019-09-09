@@ -29,21 +29,19 @@ search.app:
 # Customizing Dynamics 365 Marketing
 
 ## Basic customizations
-Dynamics 365 Marketing is built on the standard Dynamics 365 for Customer Engagement infrastructure, which provides rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from Microsoft AppSource, such as a third-party SMS solution for Marketing. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
+Dynamics 365 Marketing is built on the Common Data Service platform, which provides rich possibilities for customization without coding. Customizers can add new fields to existing entities, add or hide fields in list or form views, design custom business processes and workflows, and much more—all while working in their web browser. Other types of customization include installing custom solutions from Microsoft AppSource, such as a third-party SMS solution for Marketing. The system also provides APIs that enable developers to write code that implements even more advanced custom functionality and third-party integration.
 
 > [!WARNING]
 > Do not include sensitive information in your customized schema and display names. Schema and display names for fields, entities, relations, attributes, and other elements are displayed in various interfaces throughout the Marketing application. They may also be referenced by other object definitions and get shared through various other channels. They may also appear in telemetry.
 
-The techniques for customizing the Marketing application are like those for customizing other Dynamics 365 for Customer Engagement applications—especially [!INCLUDEDynamics 365 Sales. You can make many of the most common types of customizations while working directly in the **Settings** work area of Dynamics 365 Marketing, but even more types of customization settings are available in the Dynamics 365 for Customer Engagement advanced-settings area.
+The techniques for customizing the Marketing application are the same as those for customizing other Dynamics 365 apps for the Common Data Service platform. You'll make these customizations using Dynamics 365 advanced-settings area. The Dynamics 365 advanced-settings area provides settings that are common for all Dynamics 365 apps on your tenant, including user, security, and customization settings.
 
-The Dynamics 365 for Customer Engagement advanced-settings area provides settings that are common for all Dynamics 365 for Customer Engagement apps on your tenant, including user, security, and customization settings.
+To access the customization settings in the Dynamics 365 advanced-settings area:
 
-To go to the customization settings in the Dynamics 365 for Customer Engagement advanced-settings area:
-
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 for Customer Engagement advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The Dynamics 365 advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. Navigate to **Settings** > **Customizations** > **Customizations**.
 
-For complete details about how to customize Dynamics 365 for Customer Engagement, see the [Customization Guide for Dynamics 365 Customer Engagement](../customize/overview.md). That guide describes the interface as you see it in the Dynamics 365 for Customer Engagement advanced-settings area, but the customization features that are also provided in the **Settings** work area of Dynamics 365 Marketing implement similar concepts, operate on the same database, and work similarly. 
+For complete details about how to customize Dynamics 365 apps for the Common Data Service platform, see the [Customization Guide for Dynamics 365](../customize/overview.md).
 
 For details about customizations that apply only to the Marketing app (but not other Dynamics 365 apps), see the following topic:
 
@@ -58,4 +56,4 @@ More information: [Design custom business apps by using the app designer](../cus
 
 ## Advanced customization through coding
 
-Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 for Customer Engagement, see the [Developer Guide for Dynamics 365 Customer Engagement](../developer/developer-guide.md).
+Advanced customization and integration with external systems is possible through code-based interactions with the system's various APIs. For details about writing code and developing for Dynamics 365 apps on the Common Data Service platform, see the [Developer Guide for Dynamics 365](../developer/developer-guide.md).

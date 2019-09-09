@@ -72,7 +72,7 @@ More information: [Create marketing forms](marketing-forms.md) and [Integrate wi
 
 ### Marketing page
 
-The marketing-page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 portal. There two ways to use them:
+The marketing-page tile represents a native marketing page designed in Dynamics 365 Marketing and running on a Dynamics 365 Portal. There two ways to use them:
 
 - **Nest under an email tile to enable triggering**: Marketing-page tiles can be nested under email tiles, where they represent a marketing-page link that is included in the email message's content. The most important reason to add a nested marketing-page tile is to enable trigger tiles placed later in the pipeline to "know" about the marketing page link and to react to contact interactions with it. Triggers can react either as soon as a contact clicks on the link in an email, or only after a contact submits the form after clicking it in the email.
 - **Place at the start of a journey to create an inbound campaign**: When placed at the start of a journey (in addition to, or instead of a segment tile), all new or existing contacts who submit the page will be sent on that journey. More information: [Create an inbound customer journey](create-inbound-customer-journey.md)
