@@ -28,7 +28,10 @@ search.app:
 
 # Schedule within time constraints
 
-When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when it is booked.
+When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
+
+This includes scheduling the requirement:
+- between two defined dates. Example: between 9/10/2019 and 9/15/2019
 
 On the Work Order form you can add date and time values in the preference section:
 
@@ -40,7 +43,9 @@ On the Work Order form you can add date and time values in the preference sectio
 
 These fields are passed along to the related resource requirement 
 
-Booking rules 
+Booking rules
+
+time zone
 
 ## Prerequisites
 > [!Note]
