@@ -1,6 +1,6 @@
 ---
-title: Upgrade considerations for the work breakdown schedule 
-description: This topic provides information about upgrading the work breakdown schedule from Project Service Automation 2.x to 3.x.
+title: Upgrade considerations for the work breakdown structure 
+description: This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
@@ -23,11 +23,11 @@ search.app:
   
 ---
 
-# Upgrade considerations for the work breakdown schedule
-This topic provides information about upgrading the work breakdown schedule from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
+# Upgrade considerations for the work breakdown structure
+This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
 ## Key entities
-For an accurate work breakdown schedule that is already loaded with resources, the following entities are required:
+For an accurate work breakdown structure that is already loaded with resources, the following entities are required:
 
 - [Project](../developer/entities/msdyn_project.md)
 - [Project Team](../developer/entities/msdyn_projectteam.md)
@@ -36,7 +36,7 @@ For an accurate work breakdown schedule that is already loaded with resources, t
 - [Project Task Dependency](../developer/entities/msdyn_projecttaskdependency.md)
 - [Bookable Resources](../developer/entities/bookableresource.md)
 
-To define a resource loaded work breakdown schedule, you must complete the following steps:
+To define a resource loaded work breakdown structure, you must complete the following steps:
 
 1. Create a new project. For more information about how to create a new project, see [msdyn_project](../developer/entities/msdyn_project.md).
 2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](.../developer/entities/msdyn_projecttask.md).
@@ -72,8 +72,8 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 ## Resource assignment relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:
 
-- All resource assignments in a work breakdown schedule must be related to the same project.
-- All resource assignments in a work breakdown schedule must be associated to project team members in the same project.
+- All resource assignments in a work breakdown structure must be related to the same project.
+- All resource assignments in a work breakdown structure must be associated to project team members in the same project.
 
 ## Project task dependency relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:
