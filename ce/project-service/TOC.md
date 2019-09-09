@@ -98,6 +98,7 @@
 ### [How do I assign a resource to a task (app version 2.x)?](FAQ-assign-resources-to-tasks-in-web-app.md)
 ### [How do I "soft book" resources (app version 2.x)?](FAQ-soft-book-in-web-app.md)
 ### [How do I customize the Project Stages business process flow?](FAQ-customize-bpf.md)
+### [Upgrade considerations for the work breakdown structure](upgrade-considerations-tasks.md)
 ## [White papers](white-papers.md)
 ## [Administrator guide](admin-guide.md)
 ### [Install and customize](install-customize.md)
