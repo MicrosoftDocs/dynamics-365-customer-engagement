@@ -1,6 +1,6 @@
 ---
-title: Upgrade considerations for the Work breakdown schedule (WBS)
-description: This topic provides information about upgrading the Work Breakdown Schedule from Project Service Automation 2.x to 3.x.
+title: Upgrade considerations for the work breakdown schedule 
+description: This topic provides information about upgrading the work breakdown schedule from Project Service Automation 2.x to 3.x.
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom:
@@ -23,11 +23,11 @@ search.app:
   
 ---
 
-# Upgrade considerations for the Work breakdown schedule (WBS)
-The topic defines the healthy state of a project in Project Service Automation (PSA) 2.X that is required for a successful upgrade to PSA 3.X. This topic also provides information about the common blocking conditions that will cause upgrade to fail. For mor infomration about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
+# Upgrade considerations for the work breakdown schedule
+This topic provides information about upgrading the work breakdown schedule from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
 ## Key entities
-For an accurate WBS that is already loaded with resources, the following entities are required:
+For an accurate work breakdown schedule that is already loaded with resources, the following entities are required:
 
 - [Project](../developer/entities/msdyn_project.md)
 - [Project Team](../developer/entities/msdyn_projectteam.md)
@@ -36,13 +36,13 @@ For an accurate WBS that is already loaded with resources, the following entitie
 - [Project Task Dependency](../developer/entities/msdyn_projecttaskdependency.md)
 - [Bookable Resources](../developer/entities/bookableresource.md)
 
-Complete the following steps to define a resource loaded WBS.
+To define a resource loaded work breakdown schedule, you must complete the following steps:
 
-1. Create a new project. For more information about how to create a new project, see [msdyn_project](../developer/entities/msdyn_project.md)
-2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](.../developer/entities/msdyn_projecttask.md)
+1. Create a new project. For more information about how to create a new project, see [msdyn_project](../developer/entities/msdyn_project.md).
+2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](.../developer/entities/msdyn_projecttask.md).
 3. Define the task dependencies.
 4. Assign project team members to the project. For more information, see [msdyn_projectteam](../developer/entities/msdyn_projectteam.md).
-5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](../developer/entities/msdyn_resourceassignment.md) project team members to tasks
+5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](../developer/entities/msdyn_resourceassignment.md).
 
 ## Project team relationships
 
@@ -67,16 +67,16 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 - Date formats with letters should be avoided.
 
 >[!NOTE]
-> List items with an * have limits that are due to the fact that CRM supports only 7320 recurrence expansions. You must stay below this limit.
+> Items noted with an asterisk (*) have limits that are due to the fact that customer relationship management (CRM) supports only 7,320 recurrence expansions. You must stay below this limit.
 
 ## Resource assignment relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:
 
-- All resource assignments in a WBS must be related to the same project.
-- All resource assignments in a WBS must be associated to project team members in the same project.
+- All resource assignments in a work breakdown schedule must be related to the same project.
+- All resource assignments in a work breakdown schedule must be associated to project team members in the same project.
 
 ## Project task dependency relationships
 To ensure a successful upgrade, the following relationships must be correctly maintained:
 
-- All Project task dependencies must be related to the same project.
+- All project task dependencies must be related to the same project.
 - A task can't have the same dependency referenced more than once.
