@@ -59,7 +59,7 @@ Dynamics 365 Marketing is a marketing-automation application that helps turn pro
   Easy-to-create surveys make it simple to gather actionable feedback from customers. Understand individual customer needs and expectations so you can grow relationships and revenue.
 
 - **Configure and expand the application**  
-  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—[!INCLUDE[sdk-dynamics-marketplace](../includes/sdk-dynamics-marketplace.md)]. And it's easy to connect with Dynamics 365 partners to get expert help. The Marketing app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
+  Customize the application to fit your specific business needs. Make basic customizations by using tools built right into the app. Expand its capabilities and add new features by installing third-party packages from our thriving marketplace—Microsoft AppSource. And it's easy to connect with Dynamics 365 partners to get expert help. The Marketing app is built on the same platform and database as the sales app, so both teams share the same records, and customizers can leverage their existing knowledge when adding custom features.
 
 ## Included with Dynamics 365 Marketing
 

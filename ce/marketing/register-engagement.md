@@ -83,7 +83,7 @@ Each time you publish a marketing page, Dynamics 365 sets up a new website (incl
 
 *Redirect URLs* are links that redirect through your Dynamics 365 server on their way to some other piece of content that the person who clicked the link is actually looking for.
 
-Dynamics 365 logs each click on a redirect URL as it passes the user on to the actual target. By using different redirect URLs in your banner ads, tweets, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts, and elsewhere, you'll be able to see how many people clicked on each of those links, where they were (physically) when they did so, and more. This can help you evaluate which of your communication channels are having the greatest impact, and which you should improve or abandon.
+Dynamics 365 logs each click on a redirect URL as it passes the user on to the actual target. By using different redirect URLs in your banner ads, tweets, Facebook posts, and elsewhere, you'll be able to see how many people clicked on each of those links, where they were (physically) when they did so, and more. This can help you evaluate which of your communication channels are having the greatest impact, and which you should improve or abandon.
 
 ### Find or create a redirect URL
 

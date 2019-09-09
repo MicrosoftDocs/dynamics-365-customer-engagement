@@ -49,7 +49,7 @@ To set up page analytics for a new website:
 2. On the command bar, select **New**. The **New Website** page opens.  
     ![The General Info tab for a new website](media/website-general-info.png "The General Info tab for a new website")
 
-    Enter a **Name** to identify the website (or partial website) that you want to track. A **URL** and **[!INCLUDE[description](../includes/description.md)]** might help other users but won't affect the script or its functionality.
+    Enter a **Name** to identify the website (or partial website) that you want to track. A **URL** and **Description** might help other users but won't affect the script or its functionality.
 
     > [!TIP]
     > The **Timeout** setting enables closely grouped visits from a single browser to be recorded as a single session. A new session will start after this period of inactivity from a given browser. The default, 20 minutes, is usually a good value.

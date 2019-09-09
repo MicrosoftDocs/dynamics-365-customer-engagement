@@ -74,7 +74,7 @@ Here's an example for how to add a custom validation step to a pipeline:
 
 To test your validation pipeline, do the following:
 
-1. Open a [!include[](../includes/tn-google-chrome.md)] console, and then execute the following code (where *&lt;YourDomain&gt;* is the domain where your system is running):  
+1. Open a Google Chrome console, and then execute the following code (where *&lt;YourDomain&gt;* is the domain where your system is running):  
 
     `$.ajax({type:"POST", url:"http://<YourDomain>/StarterPortal/api/data/v8.2/new_ValidationPipeline", data: JSON.stringify({ValidationContext: "val-ctx"}), contentType:"application/json", dataType:"json"})`
 
