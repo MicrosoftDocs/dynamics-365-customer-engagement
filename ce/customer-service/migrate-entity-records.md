@@ -26,7 +26,7 @@ search.app:
 
 Follow these steps to migrate entity records from legacy scheduling experience to the new scheduling experience.
 
-1. Sign in to Dynamics 365 for Customer Engagement apps with Administrator or System Customizer role privileges.
+1. Sign in to Dynamics 365 Customer Service with Administrator or System Customizer role privileges.
 
 2. Select the **Customer Service Hub** app.
 
