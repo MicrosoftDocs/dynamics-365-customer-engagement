@@ -39,7 +39,7 @@ For an accurate work breakdown structure that is already loaded with resources, 
 To define a resource loaded work breakdown structure, you must complete the following steps:
 
 1. Create a new project. For more information about how to create a new project, see [msdyn_project](../developer/entities/msdyn_project.md).
-2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](.../developer/entities/msdyn_projecttask.md).
+2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](../developer/entities/msdyn_projecttask.md).
 3. Define the task dependencies.
 4. Assign project team members to the project. For more information, see [msdyn_projectteam](../developer/entities/msdyn_projectteam.md).
 5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](../developer/entities/msdyn_resourceassignment.md).
