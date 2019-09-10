@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: 9cfad031-e7a8-4c00-b59f-1ff359717c6e
 caps.latest.revision: 25
 author: Mattp123
-ms.author: matp
-manager: brycho
+ms.author: mduelae
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -29,15 +29,15 @@ If you’ve created a custom report outside of Dynamics 365 Customer Engagement 
   
    **Add a file created in another application**  
   
-   1. In the **Source** section, in the **Report Type** box, select **Existing File**.  
+   1. In the **Report Type** box, select **Existing File**.  
   
-   2. In the **File Location** box, enter the path and file name of the file to add, or choose **Browse** to locate the file.  
+   2. Select **Choose File** and the browse to locate the file.  
   
       -OR  
   
    **Add a link to a webpage**  
   
-   1.  In the **Source** section, in the **Report Type** box, select **Link to Webpage**.  
+   1.  In the **Report Type** box, select **Link to Webpage**.  
   
    2.  In the **Webpage URL** box, enter the URL of the webpage.  
   
