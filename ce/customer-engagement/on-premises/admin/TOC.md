@@ -43,7 +43,7 @@
 #### [Copy a security role](copy-security-role.md)
 #### [Create an administrative user and prevent privilege elevation](prevent-elevation-security-role-privilege.md)
 #### [Assign security roles to a form](assign-security-roles-form.md)
-#### [View user profile](../basics/view-your-user-profile.md)
+<!--#### [View user profile](../basics/view-your-user-profile.md)-->
 ### [User session and access management](user-session-management.md)
 ### [Field-level security](field-level-security.md)
 ### [Set permissions for a field](set-up-security-permissions-field.md)
