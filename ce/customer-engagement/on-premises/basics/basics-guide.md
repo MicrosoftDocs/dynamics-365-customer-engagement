@@ -56,22 +56,7 @@ features, data, or even fields on screens, depending on your role.
 
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
 
-## What to read next
- - [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md)
-
- - [Find your business apps](../basics/where-find-business-apps.md)
-
- - [How data is organized](../basics/how-data-organized.md)
-
- - [Find your administrator or support person](../basics/find-administrator-support.md)
-
- - [Submit feedback or ratings](submit-feedback-ratings.md)
  
 ## See also  
  [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)    
- [Manage accounts and contacts](../basics/accounts-contacts.md)     
- [Dashboards and charts](../basics/start-your-day-dashboard-chart.md)     
- [Reports](../basics/run-report.md)     
- [Activities and the activities feed](../basics/work-with-activities.md)    
- [Collaboration](../basics/collaborate-with-team.md)   
- [Import and export data](../basics/import-export-data.md)   
+
