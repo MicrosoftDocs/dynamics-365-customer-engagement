@@ -1,5 +1,5 @@
 ---
-title: "Developer Guide overview | MicrosoftDocs"
+title: "Developer Guide | MicrosoftDocs"
 description: "An overview of development for Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: on-premises
 ms.date: 09/03/2019
@@ -10,7 +10,7 @@ author: "kvivek"
 ms.author: "KumarVivek"
 manager: "kvivek"
 ---
-# Developer Guide overview
+# Developer Guide
 
 Content coming soon.
 
