@@ -27,7 +27,7 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
 <a name="BKMK_Createconnection"></a>   
 ## Create a connection  
   
-1.  Open a record, and then on the command bar, click **Connect** > **To Another**.  
+1.  Open a record, and then on the command bar, select **Connect** > **To Another**.  
   
      The record you start with is known as the source record.  
   
@@ -37,14 +37,14 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
   
 3.  If needed, you can select a different owner for the connection. Select **Details**, and then fill in the fields.  
   
-4.  Click **Save**, **Save and Close**, or **Save & New** to save the newly created connection and open the form to create another connection.  
+4.  Select **Save**, **Save and Close**, or **Save & New** to save the newly created connection and open the form to create another connection.  
   
 <a name="BKMK_Viewconnections"></a>   
 ## View connections for a record  
   
 1. Open the record that you want to view connections for.  
   
-2. To view all the connections, select the related records drop-down menu next to the record name, and then click **Connections**.  
+2. To view all the connections, select the related records drop-down menu next to the record name, and then select **Connections**.  
   
    ![Select related records dropdown to view Connection](../admin/media/select-related-records-view-connection.PNG "Select related records dropdown to view Connection")  
   
@@ -54,9 +54,8 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
   
 1.  Open the record that you want to deactivate or delete the connection from.  
   
-2.  Select the related records drop-down menu next to the record name, and then click **Connections**.  
+2.  Select the related records drop-down menu next to the record name, and then select **Connections**.  
   
-3.  Select the connection you want to deactivate or delete, and then click **Deactivate** or **Delete**.  
+3.  Select the connection you want to deactivate or delete, and then select **Deactivate** or **Delete**.  
   
-### See also  
- [Hierarchical relationships](../basics/hierarchical-relationship.md)
+
