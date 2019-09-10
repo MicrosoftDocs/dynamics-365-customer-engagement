@@ -1,5 +1,5 @@
 ---
-title: "Omni channel engagement hub for agent using Unified Service Desk | MicrosoftDocs"
+title: "Omnichannel for agent using Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent using Unified Service Desk."
 keywords: ""
 author: kabala123
@@ -30,7 +30,7 @@ Use the resources in the following sections to learn how to use Omnichannel for 
 - [View alert and toast notifications](notifications.md)
 - [View customer summary and know everything about customers](customer-summary.md)
 - [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View conversation and session forms in Dynamics 365 for Customer Engagement apps](view-omnichannel-conversation-session.md)
+- [View conversation and session forms in the model-driven apps](view-omnichannel-conversation-session.md)
 
 
 ## How-tos
