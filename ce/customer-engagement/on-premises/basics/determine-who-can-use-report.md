@@ -33,19 +33,16 @@ By default, a report is a personal report and can be used only by the author unl
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3. Click **Customize the System**.  
+3. Select **Customize the System**.  
   
-4. Click **Components** > **reports**, and then click or tap the report that you want to share.  
+4. Select **Components** > **reports**, and then select the report that you want to share.  
   
-5. Click **Actions**.  
+5. Select **Actions**.  
   
    -   To change the owner, select **Assign**, and then select the user or team.  
   
-   -   To share the report, select **Sharing**, add the user or team you want to share the report with, and then give them specific permissions. Click or tap **Share**.  
+   -   To share the report, select **Sharing**, add the user or team you want to share the report with, and then give them specific permissions. Select **Share**.  
   
-6. Click **Save** or **Save and Close**.  
+6. Select **Save** or **Save and Close**.  
   
-### See also  
- [Get a list of available reports](../basics/get-list-available-reports.md)   
- [Run a report](../basics/run-report.md)   
- [Get started writing reports](../analytics/get-started-writing-reports.md)
+
