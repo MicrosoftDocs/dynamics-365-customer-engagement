@@ -81,6 +81,7 @@ scheduling-time-constraint-work-order-promised
 
 scheduling-time-constraint-schedule-assistant-promised
 
+scheduling-time-constraint-schedule-board-promised
 
 it is continuous time range, limited by resources working hours, not the customers hours of operation
 
@@ -89,11 +90,16 @@ it is continuous time range, limited by resources working hours, not the custome
 
 ## Scenario 3: Automated scheduling with time parameters (RSO)
 
-Scenario 3: An inspection work order should be automatically scheduled in the afternoon within the promised time window.
+Scenario 3: An inspection work order should be automatically scheduled in the afternoon within date range.
+
+scheduling-time-constraint-work-order-rso-window
+
+scheduling-time-constraint-work-order-rso-goal
+
+scheduling-time-constraint-work-order-rso-schedule-board
 
 - RSO has more powerful time constraints
 
-## Resource Scheduling Optimization time constraints
 
 ## Configuration considerations
 - Booking rules
