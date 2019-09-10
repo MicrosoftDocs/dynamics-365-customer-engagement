@@ -75,7 +75,8 @@ Scenario 1: An installation work order must be scheduled and is expected to be c
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-search.png)
 
 
-must be completed during time range
+> [!Note]
+> must be completed during time range
 if current time is later than start time, start time will become current time. because you cant schedule in the past via schedule assistant
 
 
@@ -98,39 +99,46 @@ Scenario 2: A diagnosis and repair work order must be scheduled before the end o
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-board-promised.png)
 
-
-it is continuous time range, limited by resources working hours, not the customers hours of operation
+> [!Note]
+> it is continuous time range, limited by resources working hours, not the customers hours of operation
 
 - [SLAs](./sla-work-orders.md)
-- 
 
 ## Scenario 3: Automated scheduling with time parameters (RSO)
 
 Scenario 3: An inspection work order should be automatically scheduled in the afternoon within date range.
 
+RSO has more powerful time constraints
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-window.png)
-
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-goal.png)
 
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-schedule-board.png)
-- RSO has more powerful time constraints
-
 
 ## Configuration considerations
-- Booking rules
+
+### Modify calendar
 - modify calendar for time zone
-- booking lock options
+
+### Booking rules
+
+### Booking lock options
+
+### Fulfillment preferences
+
 - [Fulfillment preferences](/set-up-time-groups.md)
+
+### Booking Setup Metadata
+
 - From date and to date on booking setup metadata
 
 ## Additional Notes
-- cannot handle scenario where customer is only available mon, wed, fri 9-12pm. can add this as a note or use a booking rule, but this only applies to Schedule board
+
+- **Current limitation: variable calendars** Out of the box the solution cannot consider variable calendars where certain days and times are restricted or required for scheduling. As an example, imagine a customer who requires on site service would like the work order to be scheduled on Mondays, Wednesdays, or Fridays between 12pm and 5pm each day.    can add this as a note or use a booking rule, but this only applies to Schedule board
 - could have date window start/end mon-fri and use time windows for 9-5. if not scheduled by end of the week use workflow to make it next week.
