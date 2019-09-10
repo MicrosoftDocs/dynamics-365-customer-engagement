@@ -20,7 +20,7 @@ search.app:
 ---
 # Business apps in Dynamics 365 Customer Engagement (on-premises)
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are role-based business apps so organizations can start with what they need to run their business, and then grow at their own pace.  
+Dynamics 365 Customer Engagement (on-premises) apps are role-based business apps so organizations can start with what they need to run their business, and then grow at their own pace.  
   
  These apps are simple and intuitive, and make it easier for users to quickly find the things they need to do every day.  
   
@@ -61,11 +61,11 @@ search.app:
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md) 
   
 ## Find your business apps  
- Apps are available to you based on your security role. You can see all the apps that are available to you on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] home page or the My Apps page.  
+ Apps are available to you based on your security role. You can see all the apps that are available to you on the Dynamics 365 Customer Engagement (on-premises) home page or the My Apps page.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Where to find your business apps](../basics/where-find-business-apps.md)  
   
-## Upgrading from prior versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
+## Upgrading from prior versions of Dynamics 365 Customer Engagement (on-premises)  
  For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
    
 ### See also  

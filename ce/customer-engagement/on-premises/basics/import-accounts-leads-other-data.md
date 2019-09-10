@@ -26,7 +26,7 @@ searchScope:
 ---
 # Import accounts, leads, or other data
 
-Whether your data is stored in spreadsheets, databases, or other systems, you’ll probably want to import the data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] so you can keep track of all your customer information in one place.  
+Whether your data is stored in spreadsheets, databases, or other systems, you’ll probably want to import the data into Dynamics 365 Customer Engagement (on-premises) so you can keep track of all your customer information in one place.  
   
  You can import any type of information, such as accounts, leads, or opportunities – even activities or cases. (The different types of information are called “record types.”) Contacts typically come from an email program. You can read about this here: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Import contacts](../basics/import-contacts.md)  
   
@@ -55,9 +55,9 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   > 
   >  You can add multiple import files to a single .zip file, and then import the .zip file to bring in all the files at once. For example, if several salespeople enter leads from a tradeshow into different spreadsheets, you can gather them into one .zip file for import.  
   > 
-  >  For best results, it’s a good idea to make sure you (or your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] admin, if that’s someone else) have some rules in place to reduce any duplicates when you import the data (called “duplicate detection rules”). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md) 
+  >  For best results, it’s a good idea to make sure you (or your Dynamics 365 Customer Engagement (on-premises) admin, if that’s someone else) have some rules in place to reduce any duplicates when you import the data (called “duplicate detection rules”). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md) 
   > 
-  >  Your import will fail if you’re using a template that you exported from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and then added a new column and are now importing the data back into [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+  >  Your import will fail if you’re using a template that you exported from Dynamics 365 Customer Engagement (on-premises) and then added a new column and are now importing the data back into [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
       
 ## Step 2: Run the Import Data wizard  
  You’ll use the **Import Data** wizard to import the file.  
@@ -96,7 +96,7 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
  
 6. Select how the wizard determines which fields to use for the data. More information: [Select a data map](select-data-map.md). 
   
-   - Select **Default (Automatic Mapping)** if you want the wizard to determine the corresponding fields in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] automatically. If the wizard can’t find a field, you’ll have the opportunity to “map” it yourself.   
+   - Select **Default (Automatic Mapping)** if you want the wizard to determine the corresponding fields in Dynamics 365 Customer Engagement (on-premises) automatically. If the wizard can’t find a field, you’ll have the opportunity to “map” it yourself.   
      -- OR --  
   
    - Select **For Generic Contact and Account Data** if your import file contains contacts and accounts (and contacts are the main type of data).   
@@ -106,13 +106,13 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   
 7. Choose **Next**.  
   
-8. If prompted, in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] **Record Types** drop-down list, select the type of records you are importing, for example **Account** or **Lead**. Then, choose **Next**.  
+8. If prompted, in the Dynamics 365 Customer Engagement (on-premises) **Record Types** drop-down list, select the type of records you are importing, for example **Account** or **Lead**. Then, choose **Next**.  
   
-9. Confirm that the Import Data wizard has mapped all the pieces of info (called “fields”) in the import file to the correct fields in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You may need to scroll down to see all the fields in the import file. For any record type with an alert icon, map the field from your import file to a corresponding field in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
+9. Confirm that the Import Data wizard has mapped all the pieces of info (called “fields”) in the import file to the correct fields in Dynamics 365 Customer Engagement (on-premises). You may need to scroll down to see all the fields in the import file. For any record type with an alert icon, map the field from your import file to a corresponding field in Dynamics 365 Customer Engagement (on-premises).
       
-   For example, an import file containing contacts may have a field for First Name, Last Name, and Job Title. Make sure those fields are mapped correctly to the corresponding fields in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+   For example, an import file containing contacts may have a field for First Name, Last Name, and Job Title. Make sure those fields are mapped correctly to the corresponding fields in Dynamics 365 Customer Engagement (on-premises).  
       
-   For any field in the import file that is marked **Not Mapped**, go to the **Dynamics 365 Customer Engagement (on-premises) Field Types** drop-down list and select the field name to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You may need to scroll down to see all available fields.  
+   For any field in the import file that is marked **Not Mapped**, go to the **Dynamics 365 Customer Engagement (on-premises) Field Types** drop-down list and select the field name to use in Dynamics 365 Customer Engagement (on-premises). You may need to scroll down to see all available fields.  
     
 10. After reviewing the field mapping, choose **Next**.  
   

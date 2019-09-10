@@ -21,16 +21,16 @@ search.app:
 ---
 # Basics Guide for Dynamics 365 Customer Engagement (on-premises)
 
-The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] basics guide contains the essentials you need to know to
+The Dynamics 365 Customer Engagement (on-premises) basics guide contains the essentials you need to know to
 navigate the system, enter data, use dashboards, charts and reports effectively and more.
 
 ## Build customer relationships
-One of the biggest payoffs of using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps is having an organized, easy-to-access place to store data about all your customers and prospects. Some of the data will be entered by you and your team as you work with your customers. Some of the data can be pulled in from other sources like from your accounting system, or even from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].
+One of the biggest payoffs of using Dynamics 365 Customer Engagement (on-premises) apps is having an organized, easy-to-access place to store data about all your customers and prospects. Some of the data will be entered by you and your team as you work with your customers. Some of the data can be pulled in from other sources like from your accounting system, or even from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].
 
 Once the data is in the system, the real fun begins. You can use the insights you glean from the data to manage your day, to stay on top of what’s happening on your team, and to make informed decisions about how to nurture your customers and build lifelong relationships with them.
 
 ## Be productive wherever
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps are not just for using in a web browser on your computer — you
+Dynamics 365 Customer Engagement (on-premises) apps are not just for using in a web browser on your computer — you
 can also use them on your phone, on your [!INCLUDE[tn_android](../includes/tn-android.md)] tablet, or on your [!INCLUDE[tn_apple_ipad](../includes/tn-apple-ipad.md)]. This guide covers using the system in your web browser, to keep it as short
 as possible and because the mobile apps work almost the same as on the web.
 
@@ -43,7 +43,7 @@ You can read the guide straight through in order, or only read the topics you’
 organization, you can walk through the topics in the training sessions you do with employees. You can even save this entire guide as a PDF to take with you!
 
 ## What if your screens look different from what you see here?
-If your organization works closely with a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps partner, chances are good that your system screens look different from what you see in this guide. And even if your organization doesn’t work with a partner, someone at your organization
+If your organization works closely with a Dynamics 365 Customer Engagement (on-premises) apps partner, chances are good that your system screens look different from what you see in this guide. And even if your organization doesn’t work with a partner, someone at your organization
 may have added in extra features or may customized the system to match your industry and the way you do things.
 
 Not to worry.
@@ -51,7 +51,7 @@ Not to worry.
 The topics in this guide are designed so that the steps are the same for everyone. You’ll be able to use this guide to learn the basics of Customer Engagement apps, no matter what you call the fields on the screens, or whether they’re arranged differently from the examples shown here.
 
 ## Security settings—What if you can’t access a feature?
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps come with security settings that control your access to certain
+Dynamics 365 Customer Engagement (on-premises) apps come with security settings that control your access to certain
 features, data, or even fields on screens, depending on your role.
 
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.

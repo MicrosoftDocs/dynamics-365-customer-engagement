@@ -80,7 +80,7 @@ search.app:
 - In the **Notebook** section, choose the group's notebook. When [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] opens, add your notes.  
   
 ## Share documents  
- When you create or upload a file in the group’s [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] page, it’s automatically shared with all members of the group. When you add members to the group, they automatically get shared access to the files. By default, only group members have view and edit access to the files. When you create a group in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], it’s set to private, so only the group members can see information about the group including files, conversations, or even the group itself.  
+ When you create or upload a file in the group’s [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] page, it’s automatically shared with all members of the group. When you add members to the group, they automatically get shared access to the files. By default, only group members have view and edit access to the files. When you create a group in Dynamics 365 Customer Engagement (on-premises), it’s set to private, so only the group members can see information about the group including files, conversations, or even the group itself.  
   
 - To see the latest list of documents, refresh the list using by choosing the refresh icon.  
   

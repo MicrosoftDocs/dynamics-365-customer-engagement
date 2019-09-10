@@ -21,7 +21,7 @@ search.app:
 ---
 # Export data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]
 
-Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and convert that data into actionable items that help you drive more sales?  Now you can do this when you export your data to [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] or [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to do a quick data analysis. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
+Do you need to analyze your data from Dynamics 365 Customer Engagement (on-premises) and convert that data into actionable items that help you drive more sales?  Now you can do this when you export your data to [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] or [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to do a quick data analysis. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
   
  You can choose to export static worksheets or dynamic worksheets, which you can import back into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you need more advanced functions, you can export a dynamic PivotTable, which makes it very easy to organize and summarize data.  
   
@@ -70,7 +70,7 @@ Do you need to analyze your data from [!INCLUDE[pn_dynamics_crm](../includes/pn-
   
 ## Community tools 
 
-**Export to Excel** is a tool provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**Export to Excel** is a tool provided by the XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises) Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Search and Find in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
+# Search and Find in Dynamics 365 Customer Engagement (on-premises)
 
-## Compare [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] searches  
+## Compare Dynamics 365 Customer Engagement (on-premises) searches  
 
-There are four ways to find data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:
+There are four ways to find data in Dynamics 365 Customer Engagement (on-premises):
 
 -   Relevance Search  
   

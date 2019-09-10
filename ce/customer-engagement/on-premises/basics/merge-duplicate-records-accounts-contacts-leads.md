@@ -20,7 +20,7 @@ search.app:
 ---
 # Merge duplicate records for accounts, contacts, or leads
 
-Duplicate records can creep into your data when you or others enter data manually or import data in bulk. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] helps you address potential duplicates by providing duplicate detection for accounts, contacts, and leads. Your administrator may also set up duplicate detection rules for other situations.  
+Duplicate records can creep into your data when you or others enter data manually or import data in bulk. Dynamics 365 Customer Engagement (on-premises) helps you address potential duplicates by providing duplicate detection for accounts, contacts, and leads. Your administrator may also set up duplicate detection rules for other situations.  
   
  For example, let's say you enter a contact record, Jim Glynn,  along with a mobile phone number.  The duplicate detection rule discovers that you already have a similar record, and displays this dialog box.  
   
@@ -32,7 +32,7 @@ Duplicate records can creep into your data when you or others enter data manuall
   
  ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
  
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes duplicate detection rules for accounts, contacts, and leads. These rules are automatically turned on, so you don’t have to do anything to set up duplicate detection for these record types.  
+Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rules for accounts, contacts, and leads. These rules are automatically turned on, so you don’t have to do anything to set up duplicate detection for these record types.  
   
 > [!NOTE]
 >  If available on your system, you may also be able to check for duplicates of other record types, in addition to contacts, accounts, and leads. Check with your system administrator. [Find your Dynamics 365 Customer Engagement (on-premises) administrator or support person](../basics/find-administrator-support.md)  

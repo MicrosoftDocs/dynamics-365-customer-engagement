@@ -25,11 +25,11 @@ search.app:
 
 # Use Relevance Search for faster, comprehensive search results
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search for records across multiple entities by using Relevance Search or Categorized Search. Relevance Search returns search results, sorted by relevance, in a single list. Categorized Search returns search results grouped by entity types, such as accounts, contacts, or leads. To find records of one type only, you can use the **Quick Find View** in the entity's grid.  
+In Dynamics 365 Customer Engagement (on-premises), you can search for records across multiple entities by using Relevance Search or Categorized Search. Relevance Search returns search results, sorted by relevance, in a single list. Categorized Search returns search results grouped by entity types, such as accounts, contacts, or leads. To find records of one type only, you can use the **Quick Find View** in the entity's grid.  
   
 <a name="BKMK_RelevanceSearch"></a>   
 ## What is Relevance Search?  
- Relevance Search delivers fast and comprehensive results across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) to boost [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] search performance.  
+ Relevance Search delivers fast and comprehensive results across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to Dynamics 365 Customer Engagement (on-premises) (powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) to boost [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] search performance.  
   
  Relevance Search is available in addition to other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] searches you are already familiar with. You can continue using single-entity Quick Find on the entity grid or Multi-Entity Quick Find (called Categorized Search, if you have Relevance Search enabled) by using **Search Dynamics 365 Customer Engagement (on-premises) data** on the navigation bar. For more comprehensive and faster results, we recommend using Relevance Search.  
 

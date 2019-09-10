@@ -21,7 +21,7 @@ search.app:
 ---
 # Reports for marketing insights
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your marketing efforts: 
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your marketing efforts: 
 
 |Description|More information|  
 |-----------------|----------------------|  

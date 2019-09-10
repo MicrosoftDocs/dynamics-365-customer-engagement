@@ -44,7 +44,7 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
 3. Type your comment. You can use up to 250 characters.  
   
 ## Follow or unfollow a contact, account, lead, or other customer info  
- In addition to seeing any automatic posts in the activity feed, you can follow customers and other types of records – to see real-time updates to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] customer information you care most about.  
+ In addition to seeing any automatic posts in the activity feed, you can follow customers and other types of records – to see real-time updates to the Dynamics 365 Customer Engagement (on-premises) customer information you care most about.  
   
 1.  Open the contact, account, lead, or other type of record you want to follow.  
   

@@ -44,7 +44,7 @@ Business apps are available to users based on their security roles. If your syst
 ## Open business apps from the My Apps page  
  This option is available to both online and on-premises customers.  
   
-1. Sign in to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+1. Sign in to Dynamics 365 Customer Engagement (on-premises) apps.  
   
 2. Go to **Settings** > **My Apps**.  
   

@@ -21,7 +21,7 @@ search.app:
 ---
 # Create or edit a chart
 
-Present large quantities of data in your organization in a more insightful and graphical way by creating useful charts in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+Present large quantities of data in your organization in a more insightful and graphical way by creating useful charts in Dynamics 365 Customer Engagement (on-premises).  
   
 > [!NOTE]
 > [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] includes system charts (built-in charts that come with [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)]) and user charts (created by users). <!--In earlier versions of the product admins and customizers could delete or deactivate system charts. Starting with [!INCLUDE[pn_crm_2015_shortest](../includes/pn-crm-2015-shortest.md)] SP1, system charts can't be deleted or deactivated, however.-->  

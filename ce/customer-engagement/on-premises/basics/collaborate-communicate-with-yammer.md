@@ -23,14 +23,14 @@ search.app:
 
 [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] gives you one place to have conversations, create and edit documents, and share information with your colleagues without sending a single email or attending any meetings.  
   
- If your organization is set up to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you’ll see posts on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] dashboard when colleagues update customer info and you can comment on their posts—asking questions, offering congratulations, and so on.  
+ If your organization is set up to work with [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], you’ll see posts on your Dynamics 365 Customer Engagement (on-premises) dashboard when colleagues update customer info and you can comment on their posts—asking questions, offering congratulations, and so on.  
 
 To set up Yammer to work with Dynamics 365 Customer Engagement (on-premises), see [Connect Dynamics 365 Customer Engagement (on-premises) to Yammer](../admin/connect-yammer.md).
   
 > [!IMPORTANT]
->  Before you can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
+>  Before you can use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] within Dynamics 365 Customer Engagement (on-premises), your organization needs to buy [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses.  
   
- When you use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], here’s what you’ll be able to do:  
+ When you use [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] within Dynamics 365 Customer Engagement (on-premises), here’s what you’ll be able to do:  
   
 - **The [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] newsfeed displays on your dashboard.** As you and your colleagues work with customers, you’ll stay up to date with the latest news about what’s happening, and you’ll be able to join in the conversation. Discuss project deadlines, share the latest files, gather feedback – and more.  
   

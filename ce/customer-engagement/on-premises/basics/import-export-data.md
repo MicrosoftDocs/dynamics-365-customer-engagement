@@ -18,7 +18,7 @@ search.app:
 ---
 # Import and export data
 
-To keep track of all your customer data in one place, you may want to import contacts, leads, or other record types into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] from other sources, such as from an email program, a spreadsheet, or your phone.
+To keep track of all your customer data in one place, you may want to import contacts, leads, or other record types into Dynamics 365 Customer Engagement (on-premises) from other sources, such as from an email program, a spreadsheet, or your phone.
 
 > [!NOTE]
 > Depending on how much data you want to import and other factors, importing data may take some planning. You may want to check with your system administrator for guidance.

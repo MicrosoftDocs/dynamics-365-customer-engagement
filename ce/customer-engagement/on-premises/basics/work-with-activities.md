@@ -20,14 +20,14 @@ search.app:
 ---
 # Work with activities
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you use **activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale or resolve a service case. These actions are all considered types of activities.  
+In Dynamics 365 Customer Engagement (on-premises), you use **activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, and assign yourself tasks as you work a sale or resolve a service case. These actions are all considered types of activities.  
   
  The system automatically timestamps every activity and shows who created it. You and other people on your team can scroll through the activities to see the history as you work with a customer.  
   
- To get the most out of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], it’s important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer’s history is complete. Add activities to your reports to track your ongoing progress.  
+ To get the most out of Dynamics 365 Customer Engagement (on-premises), it’s important for everyone in the organization to track all their customer interactions by adding an activity for every email, phone call, task, or appointment. That way, a customer’s history is complete. Add activities to your reports to track your ongoing progress.  
    
 ## Keep track of notes, tasks, calls, or email with activities
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you use **Activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, assign yourself tasks as you resolve a service case, and stay up-to-date with customer news. These actions are all considered types of activities.  
+In Dynamics 365 Customer Engagement (on-premises), you use **Activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, assign yourself tasks as you resolve a service case, and stay up-to-date with customer news. These actions are all considered types of activities.  
   
  ![Keep track of activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/keep-track-activities.png "Keep track of activities in Dynamics 365 Customer Engagement (on-premises)")  
   
@@ -42,7 +42,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you use **Activi
   
 ## Find your activities  
   
-You can find your activities under **My Work**. Once there, click the **Activities** icon ([!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]) or the **Activities** tile (Microsoft Dynamics CRM).  
+You can find your activities under **My Work**. Once there, click the **Activities** icon (Dynamics 365 Customer Engagement (on-premises)) or the **Activities** tile (Microsoft Dynamics CRM).  
   
 <a name="ChangeView"></a>   
 

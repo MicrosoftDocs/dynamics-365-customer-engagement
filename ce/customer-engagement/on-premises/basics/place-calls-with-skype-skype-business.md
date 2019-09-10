@@ -21,12 +21,12 @@ search.app:
 ---
 # Place calls with Skype or Skype for Business
 
-If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can click a phone number to call your contacts from within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. This capability is called “click to call.”  
+If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can click a phone number to call your contacts from within Dynamics 365 Customer Engagement (on-premises). This capability is called “click to call.”  
   
 > [!NOTE]
 > [!INCLUDE[cc_lync_rebranded_skype_for_business](../includes/cc-lync-rebranded-skype-for-business.md)]  
   
- To place calls from within [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on your computer, you either need to [install Skype](http://go.microsoft.com/fwlink/p/?LinkID=246141); or you need to check with your system administrator for steps to install [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
+ To place calls from within Dynamics 365 Customer Engagement (on-premises) on your computer, you either need to [install Skype](http://go.microsoft.com/fwlink/p/?LinkID=246141); or you need to check with your system administrator for steps to install [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)].  
   
  To place calls from within [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], you’ll need to download the [!INCLUDE[pn_skype](../includes/pn-skype.md)] app. If you don’t already have the app when you tap a phone number, you’ll have the opportunity to download the app before the call is placed.  
   

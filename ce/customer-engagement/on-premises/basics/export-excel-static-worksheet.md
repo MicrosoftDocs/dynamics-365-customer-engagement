@@ -21,7 +21,7 @@ search.app:
 ---
 # Export to an Excel static worksheet
 
-When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information to an individual who doesn’t have access to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], or you have data that doesn’t change often, consider exporting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
+When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information to an individual who doesn’t have access to Dynamics 365 Customer Engagement (on-premises), or you have data that doesn’t change often, consider exporting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
   
  <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 Customer Engagement (on-premises) lists up to 50 records per page. Choose the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  
   
@@ -51,21 +51,21 @@ When you want to present [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
 ## Tips  
   
-- You can email a static exported worksheet to anyone, or store it in a shared file. Anyone who opens the file will see all the data in the file, whether or not they are a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user or have privileges to view the data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+- You can email a static exported worksheet to anyone, or store it in a shared file. Anyone who opens the file will see all the data in the file, whether or not they are a Dynamics 365 Customer Engagement (on-premises) user or have privileges to view the data in Dynamics 365 Customer Engagement (on-premises).  
   
 - You can’t change the columns for a system view, such as **All Active Accounts**. You must either customize the view, which requires the System Administrator or System Customizer security role, or use Advanced Find to create your own view based on the current view.  
   
 <!---   If you’re not on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] and you’re using the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)][!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] web app, you must save the file, open the file using the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] desktop application, and then resave the file to the . xlsx format. You can then reopen the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] document in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Online.  
 -->  
-- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], money values are exported to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] as numbers. After you have completed the export, to format the data as currency, see the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Help topic titled “Display numbers as currency.”  
+- In Dynamics 365 Customer Engagement (on-premises), money values are exported to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] as numbers. After you have completed the export, to format the data as currency, see the [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] Help topic titled “Display numbers as currency.”  
   
-- The data and time values that you see in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] show up as Date only when you export the file to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] but the cell actually shows both the date and time.  
+- The data and time values that you see in Dynamics 365 Customer Engagement (on-premises) show up as Date only when you export the file to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] but the cell actually shows both the date and time.  
   
 - If you’re going to make changes and import the data file back in to Dynamics 365 Customer Engagement (on-premises), remember that secured, calculated, and composite fields (e.g. Full Name) are read-only and can’t be imported in to Dynamics 365 Customer Engagement (on-premises). You’ll be able to edit these fields in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] but when you import the data back in to Dynamics 365 Customer Engagement (on-premises) these fields will not be updated. If you want to update these fields such as a contact’s name then it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 Customer Engagement (on-premises) for changes.  
   
 ## Community tools 
 
-**Export to Excel** is a tool provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**Export to Excel** is a tool provided by the XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises) Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

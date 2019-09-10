@@ -21,7 +21,7 @@ search.app:
 ---
 # Import contacts
 
-Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] so you have all your business contact information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into Dynamics 365 Customer Engagement (on-premises) so you have all your business contact information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
 
 > [!TIP]
 >  You can also use the new [!INCLUDE[pn_data_loader_service](../includes/pn-data-loader-service.md)] (preview feature) to import bulk data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Import bulk data with the Data Loader](../admin/import-bulk-data-data-loader.md)  
@@ -107,9 +107,9 @@ To find an app, search your phone’s online store.
   
 6. Select **Default (Automatic Mapping)** for the System Data Map. Click **Next**.  
   
-7. In the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]**Record Types** drop-down list, select **Contacts**. Click **Next**.  
+7. In the Dynamics 365 Customer Engagement (on-premises)**Record Types** drop-down list, select **Contacts**. Click **Next**.  
   
-8. For any record type with an alert icon, map the column from your contacts file to the corresponding field in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Click **OK**, and then click **Next**.  
+8. For any record type with an alert icon, map the column from your contacts file to the corresponding field in Dynamics 365 Customer Engagement (on-premises). Click **OK**, and then click **Next**.  
   
 9. Review the summary, and then click **Next**.  
   

@@ -21,7 +21,7 @@ search.app:
 ---
 # Analyze your Dynamics 365 Customer Engagement (on-premises) data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]
 
- No need to leave [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to analyze your data. Now you can do a quick *ad-hoc* analysis using [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+ No need to leave Dynamics 365 Customer Engagement (on-premises) to analyze your data. Now you can do a quick *ad-hoc* analysis using [!INCLUDE[pn_microsoft_excel_online](../includes/pn-microsoft-excel-online.md)] in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  For example, if you’re a sales manager, you might want to analyze the opportunities your team owns and review key performance indicators (KPIs) to see how you can assist your team members. If you’re a sales rep, you can open your opportunities in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and conduct what-if analysis for different incentive scenarios. Or, you may want to quickly open the data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] so that you can copy it somewhere else such as an email.  
   
@@ -85,7 +85,7 @@ To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-cr
 
 ## Community tools 
 
-**Export to Excel** is a tool provided by the XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+**Export to Excel** is a tool provided by the XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises) Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 

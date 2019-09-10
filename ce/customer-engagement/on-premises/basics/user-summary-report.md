@@ -21,7 +21,7 @@ search.app:
 ---
 # Reports for customer service insights
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide administrative reports: 
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide administrative reports: 
 
 |Description|More information|  
 |-----------------|----------------------|  
@@ -30,7 +30,7 @@ search.app:
 <a name="BKMK_UserSummary"></a>  
 ## User Summary report
 Keep user information up to date by running a User Summary report.   
-Get a list of all your users, including their contact information and security role in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+Get a list of all your users, including their contact information and security role in Dynamics 365 Customer Engagement (on-premises).  
   
  ![Default User Summary report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/user-summary-report.png "Default User Summary report in Dynamics 365 Customer Engagement (on-premises)")  
   

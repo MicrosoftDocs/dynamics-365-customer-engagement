@@ -21,7 +21,7 @@ search.app:
 ---
 # Search for records
 
-To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can search across multiple record types all at the same time.  The results of the search are shown in groups, sorted by entity type.  
+To find your records quickly in Dynamics 365 Customer Engagement (on-premises), you can search across multiple record types all at the same time.  The results of the search are shown in groups, sorted by entity type.  
   
  There are two ways to search.  
   

@@ -32,14 +32,14 @@ Create rich, interactive reports and real-time visualizations in Dynamics 365 Cu
   
 <a name="embedPBDashboard"></a>
 ## Create a personal Power BI dashboard
-  Follow these steps to add a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. If you are connecting to the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service, you need an account and to have selected your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance as a data source. For more information about registering and connecting data sources, see [Microsoft Power BI](https://powerbi.microsoft.com/).  
+  Follow these steps to add a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard to Dynamics 365 Customer Engagement (on-premises). If you are connecting to the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] service, you need an account and to have selected your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance as a data source. For more information about registering and connecting data sources, see [Microsoft Power BI](https://powerbi.microsoft.com/).  
 
 1. Go to **Dashboards** in **Sales**, **Service**, or **Marketing**.  
   
 2. Select **New** and then select **Power BI Dashboard**.  
    You may be prompted to sign in to Power BI.
 
-3. In the Add Power BI Dashboard dialog select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that you want to embed in your dashboard in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Select **Enable for mobile** if you want to make the dashboard available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].
+3. In the Add Power BI Dashboard dialog select the workspace and then select the [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard that you want to embed in your dashboard in Dynamics 365 Customer Engagement (on-premises). Select **Enable for mobile** if you want to make the dashboard available for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)].
 
     ![Add a Power BI tile to your personal dashboard](../basics/media/workspace-add-power-bi-dashboard.PNG "Add a Power BI tile to your personal dashboard") 
 

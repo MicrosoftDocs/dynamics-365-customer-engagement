@@ -37,7 +37,7 @@ To group items so that they are organized together in the report by date or othe
 
    - **Record type**. You can select records from the primary record type you selected, and from any related record types. If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
 
-   - **Column**. The name of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] field that contains the data to define the grouping.  
+   - **Column**. The name of the Dynamics 365 Customer Engagement (on-premises) field that contains the data to define the grouping.  
 
    - **Time interval**.  For datetime fields, group the data by Month, Day, Week, or Year.  
 
@@ -77,7 +77,7 @@ You can display columns that show data from a record, or columns that show summa
 
    - **Record type**.  You can select records from the primary record type you selected, and from any related record types.  If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
 
-   - **Column**. The name of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] field that contains the data to display or summarize.  
+   - **Column**. The name of the Dynamics 365 Customer Engagement (on-premises) field that contains the data to display or summarize.  
 
    - **Data type**. The data type of the column, one of: primarykey,  nvarchar,  picklist,  bit,  decimal, int,  float,  money,  ntext, datetime,  owner, lookup.  
 

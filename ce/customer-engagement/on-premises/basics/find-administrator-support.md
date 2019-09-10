@@ -21,7 +21,7 @@ search.app:
 ---
 # Find your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or support person 
 
-You may occasionally run across issues that require consultation with your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator. If you don’t know who your administrator is, you can use Advanced Find to find your administrator.  
+You may occasionally run across issues that require consultation with your Dynamics 365 Customer Engagement (on-premises) administrator. If you don’t know who your administrator is, you can use Advanced Find to find your administrator.  
   
 1. Sign in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
   

@@ -21,7 +21,7 @@ search.app:
 ---
 # Add a report from outside Dynamics 365 Customer Engagement (on-premises)
 
-If you’ve created a custom report outside of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can easily add it to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+If you’ve created a custom report outside of Dynamics 365 Customer Engagement (on-premises), you can easily add it to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
