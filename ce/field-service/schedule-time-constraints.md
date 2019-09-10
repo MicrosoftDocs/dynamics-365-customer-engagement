@@ -49,8 +49,6 @@ Scenario 1: An installation work order must be scheduled and is expected to be c
 
 Scenario 2: A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
 
-- [SLAs](./sla-work-orders.md)
-
 Scenario 3: An inspection work order should be automatically scheduled for completion in the afternoon one of the days within the next two weeks.
 
 ## Prerequisites
@@ -60,11 +58,21 @@ Scenario 3: An inspection work order should be automatically scheduled for compl
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Scenario 1:
+## Scenario 1: Date windows
 
-## Scenario 2:
+Scenario 1: An installation work order must be scheduled and is expected to be completed this week.
 
-## Scenario 3:
+## Scenario 2: Promised date and time windows
+
+Scenario 2: A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
+
+- [SLAs](./sla-work-orders.md)
+
+## Scenario 3: Automated scheduling with time parameters (RSO)
+
+Scenario 3: An inspection work order should be automatically scheduled for completion in the afternoon one of the days within the next two weeks.
+
+- RSO has more powerful time constraints
 
 ## Resource Scheduling Optimization time constraints
 
@@ -72,10 +80,9 @@ Scenario 3: An inspection work order should be automatically scheduled for compl
 - Booking rules
 - modify calendar for time zone
 - booking lock options
-- SLAs
-- Fulfillment preferences
+- [Fulfillment preferences](/set-up-time-groups.md)
 - From date and to date on booking setup metadata
-- RSO has more powerful time constraints
+
 ## Additional Notes
 - cannot handle scenario where customer is only available mon, wed, fri 9-12pm. can add this as a note or use a booking rule, but this only applies to Schedule board
 - could have date window start/end mon-fri and use time windows for 9-5. if not scheduled by end of the week use workflow to make it next week.
