@@ -1,7 +1,7 @@
 ﻿---
 title: Configure server-based authentication with Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
-ms.date: 05/29/2019
+ms.date: 09/10/2019
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -289,7 +289,7 @@ For documentation management with SharePoint troubleshooting and known issues, s
 
 ## About claims-based authentication mapping
 
-When you use claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same. Servers that are located in different Active Directory forests or domains aren’t supported. 
+When you use claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same. Servers that are located in different Active Directory forests or domains aren’t supported. Similarly, users who are located in external domains to either Dynamics 365 Server or SharePoint Server won’t have access to documents. 
 
 By default, server-based authentication between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user.  If you want to use a custom claims-based authentication mapping, such as the user’s email address, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
 
