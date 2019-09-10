@@ -2,8 +2,8 @@
 title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about debugging a plug-in executing on a D365 (on-premises) server."
 keywords: 
-ms.date: 01/28/2019
-ms.service: crm-online
+ms.date: 09/05/2019
+ms.service: 
 ms.custom: on-premise
 ms.topic: article
 applies_to: 
@@ -91,7 +91,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
   
 3. Follow the instructions in steps 2 through 4 presented at the beginning of this topic.  
   
-   For more information about debugging a plug-in using the Plug-in Profiler tool, see [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in).  
+   For more information about debugging a plug-in using the Plug-in Profiler tool, see the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in).  
   
 ### See also  
  [Plug-in Development](plugin-development.md)   
