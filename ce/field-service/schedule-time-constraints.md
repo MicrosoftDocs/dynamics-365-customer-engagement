@@ -45,15 +45,14 @@ These fields are passed along to the related resource requirement
 
 Let's configure three scenarios to understand how dispatchers can schedule work orders within time constraints. 
 
-Scenario 1: An installation work order must be scheduled and is expected to be completed this week.
+**Scenario 1:** An installation work order must be scheduled and is expected to be completed this week.
 
-Scenario 2: A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
+**Scenario 2:** A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
 
-Scenario 3: An inspection work order should be automatically scheduled for completion in the afternoon one of the days within the next two weeks.
+**Scenario 3:** An inspection work order should be automatically scheduled for completion in the afternoon one of the days within the next two weeks.
 
 ## Prerequisites
-> [!Note]
->
+
 
 
 
@@ -69,7 +68,8 @@ Scenario 1: An installation work order must be scheduled and is expected to be c
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-requirement-start-end.png)
 
-
+> [!Note]
+> Updating Date Window Start and Date Window End values on the work order will update the related requirement and vice versa. This is true for the other fields in the Preferences section as well such as Time Promised and TIme Window.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-search.png)
@@ -78,7 +78,7 @@ Scenario 1: An installation work order must be scheduled and is expected to be c
 must be completed during time range
 if current time is later than start time, start time will become current time. because you cant schedule in the past via schedule assistant
 
-updating values on work order will update requirement and vice versa
+
 
 ## Scenario 2: Promised date and time windows
 
