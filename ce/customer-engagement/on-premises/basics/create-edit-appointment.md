@@ -31,22 +31,22 @@ To remove an appointment or service activity from the calendar, delete the recor
   
    To create an appointment or recurring appointment in the **Activities** area, on the nav bar, go to **Sales** > **Activities**.   
   
-2. On the command bar, click **Appointment**.  
+2. On the command bar, select **Appointment**.  
   
 3. Type or change information in the text boxes. You can point to a field to get a tip on what data to enter.  
   
-4. If this is a recurring appointment, click **Recurrence**, and then select the time, pattern, and date range you want.  
+4. If this is a recurring appointment, select **Recurrence**, and then select the time, pattern, and date range you want.  
   
-5. Click **Save**. If any participants have a schedule conflict, a warning appears. You can click **Ignore and Save** to save the appointment anyway.  
+5. Select **Save**. If any participants have a schedule conflict, a warning appears. You can select **Ignore and Save** to save the appointment anyway.  
  
-If you want to add an attachment, make sure you save the appointment first. Then, in the **Attachments** section, click the **Add attachment record** button ![Add Appointment button](../basics/media/plus-sign-icon.png "Add Appointment button") (you may have to scroll to the right to see the button) and browse for the file. The attachment size limitation is the same as the email attachment size limitation, which can be changed by your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)
+If you want to add an attachment, make sure you save the appointment first. Then, in the **Attachments** section, select the **Add attachment record** button ![Add Appointment button](../basics/media/plus-sign-icon.png "Add Appointment button") (you may have to scroll to the right to see the button) and browse for the file. The attachment size limitation is the same as the email attachment size limitation, which can be changed by your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)
 
 > [!IMPORTANT]
 >  If you plan to include appointments in solutions, we strongly recommend that you don’t include only appointments and only recurring appointments in separate solutions. If you install and uninstall separate solutions with different appointment types, you’ll encounter a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] error and you’ll have to recreate the appointments. 
 
 ## Create draft appointments synchronizing with Exchange
 
-Create an appointment in Dynamics 365 Customer Engagement (on-premises) and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange.Note, you will need to be on version 9.x (build 9.0.2.2081).
+Create an appointment in Dynamics 365 Customer Engagement (on-premises) and **Save as Draft** without synchronizing with Exchange. The appointment form will have a **Save as Draft** option and a **Send** option, so that you can save, add details and update an appointment activity without synchronizing to Exchange. Note, you will need to be on version 9.x (build 9.0.2.2081).
 
 To enable this capabilities, an admin will need enable the *OrgDBOrgSetting* in Dynamics 365. 
 
@@ -55,9 +55,3 @@ To enable this capabilities, an admin will need enable the *OrgDBOrgSetting* in 
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit *OrgDBOrgSetting AllowSaveAsDraftAppointment*.
 
-### See also  
- [Navigate the service calendar (Customer Service app)](../customer-service/navigate-service-calendar-cs-app.md) </br>
- [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)   
-<!-- 
-[Track Outlook appointments in Dynamics 365 for Outlook](../outlook-add-in/track-outlook-appointments-dynamics-365-outlook.md)
--->
