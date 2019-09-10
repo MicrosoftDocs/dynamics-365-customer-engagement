@@ -21,7 +21,7 @@ search.app:
 ---
 # Reports for account insights
 
-Dynamics 365  Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing.
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing.
 
 
 ## Account Distribution report
