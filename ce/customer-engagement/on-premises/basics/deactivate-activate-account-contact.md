@@ -34,19 +34,15 @@ In Customer Engagement (on-premises), you deactivate an account or contact rathe
   
 ## Deactivate an account or contact  
   
-1.  Go to **Accounts** or **Contacts**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
+1.  Go to Sales > **Accounts** or **Contacts**. 
   
-2.  Select the active account or contact that you want to deactivate, click or tap **Deactivate**, and then confirm the deactivation.  
+2.  Select the active account or contact that you want to deactivate, select **Deactivate**, and then confirm the deactivation.  
   
 ## Activate an account or contact  
   
-1.  Go to **Accounts** or **Contacts**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
+1.  Go to Sales > **Accounts** or **Contacts**.
   
 2.  To view a deactivated account or contact, in the **System Views** list, select **Inactive Accounts** or **Inactive Contacts**.  
   
-3.  Select the inactive accounts or contacts you want to activate, click or tap **Activate**, and then confirm the activation.  
+3.  Select the inactive accounts or contacts you want to activate, select **Activate**, and then confirm the activation.  
   
-### See also  
- [Import contacts](../basics/import-contacts.md)   
- [Work with accounts and contacts](../basics/accounts-contacts.md)
- [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
