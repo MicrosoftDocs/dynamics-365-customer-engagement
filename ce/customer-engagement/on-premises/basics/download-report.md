@@ -23,14 +23,11 @@ search.app:
 
 To edit a default report, you can download the report from Dynamics 365 Customer Engagement (on-premises) to a computer that is set up with the report development environment, and then make the necessary changes.  
   
-1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
-  
-2. On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Download Report**.  
-  
-    The RDL file for the report contains tags that specify whether the report is a Fetch-based report or an SQL-based report.  
-  
-3. Select **Save**, and specify the location in which to save the file. If you’re creating a new report rather than modifying a report, rename the file.  
-  
-4. In the **Download Complete** dialog box, select **Close**.  
+1. Go to Reports.
+2. In the list of reports, select the report you want to download.  
+3. On the command bar, select select **Edit**.  
+4. On the **Actions** menu, select **Download Report**.  
+The RDL file contains the fetchXML that the report is based on.
+5. Open the report once the download is complete.
   
 
