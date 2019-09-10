@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-The horizontal bar below the Dynamics 365 navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a **Anchor** tab. In the image shown, **Omnichannel Agent Dashboard** is the anchor tab.
+The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called a **Anchor** tab. In the image shown, **Omnichannel Agent Dashboard** is the anchor tab.
 
 The Application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-box and custom entities. Also, you can access any third-party Line-of-Business applications that is extended within Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
@@ -56,7 +56,7 @@ You can switch between applications by selecting the application tab title.
 
 ### Title of the application tab
 
-The title of the application tab will the name of the Customer Engagement entity. For example, dashboard names, Case, Contact, Account names and so on. Third-party applications, the name appears as configured by your administrator.
+The title of the application tab will the name of the entity. For example, dashboard names, Case, Contact, Account names and so on. Third-party applications, the name appears as configured by your administrator.
 
 > [!div class=mx-imgBorder]
 > ![App tab title](../../media/oceh/oceh-app-tab-title.png "App tab title")
