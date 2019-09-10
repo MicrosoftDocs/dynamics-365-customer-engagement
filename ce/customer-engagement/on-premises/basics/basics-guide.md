@@ -51,7 +51,7 @@ Not to worry.
 The topics in this guide are designed so that the steps are the same for everyone. You’ll be able to use this guide to learn the basics of Customer Engagement (on-premises), no matter what you call the fields on the screens, or whether they’re arranged differently from the examples shown here.
 
 ## Security settings—What if you can’t access a feature?
-Dynamics 365 Customer Engagement (on-premises) come with security settings that control your access to certain
+Dynamics 365 Customer Engagement (on-premises) comes with security settings that control your access to certain
 features, data, or even fields on screens, depending on your role.
 
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
