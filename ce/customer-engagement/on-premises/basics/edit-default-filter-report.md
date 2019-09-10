@@ -25,9 +25,7 @@ When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-
   
 1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
   
-2. Select a report, and on the command bar, select **More Commands**![More Commands button in Appointment Activity](../basics/media/morecommands.gif "More Commands button in Appointment Activity"), and then select **Edit Default Filter**.  
-  
-    To see all reports, including sub-reports that aren’t visible in the default view, select the **All reports, Including Sub-reports** view.  
+2. Select a report, and on the command bar, select **Edit Default Filter**.   
   
 3. Modify the filter criteria.  
   
@@ -72,7 +70,3 @@ When a report is a [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-
     
 4.  To save the filter click **Save Default Filter**.  
   
-### See also  
- [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)   
- [Get started writing reports](../analytics/get-started-writing-reports.md)
