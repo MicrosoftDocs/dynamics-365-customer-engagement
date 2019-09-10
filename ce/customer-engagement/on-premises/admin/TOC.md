@@ -108,7 +108,7 @@
 ## [Overview](extend.md)
 ## Integrate (synchronize) your email system
 ### [Overview](integrate-synchronize-your-email-system.md)
-### [Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)
+### [Deploy Dynamics 365 App for Outlook](../../../outlook-app/deploy-dynamics-365-app-for-outlook.md)
 ### [Deploy email for Unified Interface](deploy-email-unified-interface.md)
 ### Server-side sync overview
 #### [About server-side sync](server-side-synchronization.md)
