@@ -20,7 +20,7 @@ search.app:
 ---
 # Collaborate with your team
 
-[!INCLUDE[pn_crm_online](../includes/pn-crm-online.md)] offers a number of tools for collaboration. Through integration with other Microsoft collaboration tools, users of Dynamics 365 Customer Engagement (on-premises) can work closely with team members, even if they are not also users of the Dynamics 365 Customer Engagement (on-premises).
+Dynamics 365 Customer Engagement (on-premises)offers a number of tools for collaboration. Through integration with other Microsoft collaboration tools, users of Dynamics 365 Customer Engagement (on-premises) can work closely with team members, even if they are not also users of the Dynamics 365 Customer Engagement (on-premises).
 
 - **[!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]** - Out-of-the-box integration with [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for agenda, conversation, OneNote, documents, and member management. See [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md).
 
