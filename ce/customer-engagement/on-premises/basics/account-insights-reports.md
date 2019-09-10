@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: dd02756b-f2ec-40d8-8b46-3d164b7a9fc7
 caps.latest.revision: 26
 author: Mattp123
-ms.author: matp
-manager: brycho
+ms.author: mduelae
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -21,16 +21,9 @@ search.app:
 ---
 # Reports for account insights
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your accounts: 
+Dynamics 365  Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing.
 
-|Description|More information|  
-|-----------------|----------------------|  
-|Top revenue-generating accounts|[Account Distribution report](#BKMK_AccountDistribution)|  
-|Overview of an account|[Account Overview report](#BKMK_AccountOverview)|  
-|Chronological account summary|[Account Summary report](#BKMK_AccountSummary)|  
-|Accounts that haven’t been contacted|[Neglected Accounts report](#BKMK_NeglectedAccounts)|  
 
-<a name="BKMK_AccountDistribution"></a>   
 ## Account Distribution report
 See which account generates the most revenue for your business. Then use the information to identify patterns – so that you leverage the information and apply it to accounts that are not so doing well.  
   
@@ -38,7 +31,7 @@ See which account generates the most revenue for your business. Then use the inf
   
  ![Account Distribution report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/account-distribution-report.png "Account Distribution report in Dynamics 365 Customer Engagement (on-premises)")  
 
-<a name="BKMK_AccountOverview"></a>   
+
 ## Account Overview report
 Get a one-page overview of everything that’s happening with an account. The report shows a profile of the account, contact information, and a summary of opportunities and case activities.  
   
@@ -48,14 +41,7 @@ Get a one-page overview of everything that’s happening with an account. The re
   
   ![Account Distribution report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/account-overview-report.png "Account Distribution report in Dynamics 365 Customer Engagement (on-premises)")  
  
-<a name="BKMK_AccountSummary"></a>   
-## Account Summary report
-Use this report to see what has happened with an account. This report also shows what is scheduled to happen in the future. The report displays a chronological summary for an account, including sales and service activities, notes, and records.  
-  
-> [!TIP]
->  To view the Account Summary report for an account, open the account record. On the **Account** tab, in the **Data** group, click or tap **Run Report**, and then click or tap **Account Summary**.  
- 
-<a name="BKMK_NeglectedAccounts"></a>   
+
 ## Neglected Accounts report
 Use this report to find accounts that haven’t been contacted recently so that you can follow up on those accounts.  
   
