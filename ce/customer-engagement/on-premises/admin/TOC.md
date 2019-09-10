@@ -1,5 +1,5 @@
 # [Administer Dynamics 365 Customer Engagement (on-premises)](overview.md)
-# [Getting started]
+# Getting started
 <!--## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)-->
 ## [Overview](getting-started.md)
