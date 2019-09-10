@@ -24,7 +24,7 @@ search.app:
 All reports that are created using the Report Wizard are Fetch-based reports. Note that all reports generated with the Report Wizard print in landscape mode.
   
   
-1. [!INCLUDE[proc_reports](../includes/proc-reports.md)]  
+1. Go to **Reports**.
   
 2. To add a new report, select **New**.  
   
@@ -115,5 +115,4 @@ To edit an existing Report Wizard report, first select the report. Then, in the 
    
 If you need to change data on the **General** or **Administration** tabs for a new report, wait until the report is saved before making the changes. Any changes on these tabs made before a report is saved will be ignored.  
   
-### See also  
- [Get started writing reports](../analytics/get-started-writing-reports.md)
+
