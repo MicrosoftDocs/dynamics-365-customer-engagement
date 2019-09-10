@@ -55,18 +55,25 @@ Scenario 3: An inspection work order should be automatically scheduled for compl
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 ## Scenario 1: Date windows
 
 Scenario 1: An installation work order must be scheduled and is expected to be completed this week.
 
-scheduling-time-constraint-work-order-date-window
 
-scheduling-time-constraint-requirement-start-end
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-work-order-date-window.png)
 
-scheduling-time-constraint-schedule-assistant-search
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-requirement-start-end.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-search.png)
+
 
 must be completed during time range
 if current time is later than start time, start time will become current time. because you cant schedule in the past via schedule assistant
@@ -77,11 +84,20 @@ updating values on work order will update requirement and vice versa
 
 Scenario 2: A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
 
-scheduling-time-constraint-work-order-promised
 
-scheduling-time-constraint-schedule-assistant-promised
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-work-order-promised.png)
 
-scheduling-time-constraint-schedule-board-promised
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-promised.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-schedule-board-promised.png)
+
 
 it is continuous time range, limited by resources working hours, not the customers hours of operation
 
@@ -92,12 +108,19 @@ it is continuous time range, limited by resources working hours, not the custome
 
 Scenario 3: An inspection work order should be automatically scheduled in the afternoon within date range.
 
-scheduling-time-constraint-work-order-rso-window
 
-scheduling-time-constraint-work-order-rso-goal
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-window.png)
 
-scheduling-time-constraint-work-order-rso-schedule-board
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-goal.png)
+
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-schedule-board.png)
 - RSO has more powerful time constraints
 
 
