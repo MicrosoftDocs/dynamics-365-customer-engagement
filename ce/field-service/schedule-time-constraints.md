@@ -62,15 +62,34 @@ Scenario 3: An inspection work order should be automatically scheduled for compl
 
 Scenario 1: An installation work order must be scheduled and is expected to be completed this week.
 
+scheduling-time-constraint-work-order-date-window
+
+scheduling-time-constraint-requirement-start-end
+
+scheduling-time-constraint-schedule-assistant-search
+
+must be completed during time range
+if current time is later than start time, start time will become current time. because you cant schedule in the past via schedule assistant
+
+updating values on work order will update requirement and vice versa
+
 ## Scenario 2: Promised date and time windows
 
 Scenario 2: A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
 
+scheduling-time-constraint-work-order-promised
+
+scheduling-time-constraint-schedule-assistant-promised
+
+
+it is continuous time range, limited by resources working hours, not the customers hours of operation
+
 - [SLAs](./sla-work-orders.md)
+- 
 
 ## Scenario 3: Automated scheduling with time parameters (RSO)
 
-Scenario 3: An inspection work order should be automatically scheduled for completion in the afternoon one of the days within the next two weeks.
+Scenario 3: An inspection work order should be automatically scheduled in the afternoon within the promised time window.
 
 - RSO has more powerful time constraints
 
