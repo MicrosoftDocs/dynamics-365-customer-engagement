@@ -1,31 +1,31 @@
 # [Administer Dynamics 365 Customer Engagement (on-premises)](overview.md)
-# [Getting started](getting-started.md)
-## [Terminology](online-terminology.md)
-## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)
-## Supported web browsers and mobile devices
-### [Overview](supported-web-browsers-and-mobile-devices.md)
-### [Web application requirements](web-application-requirements.md)
-### [Support for devices](device-support.md)
+# [Getting started]
+<!--## [Terminology](online-terminology.md)
+## [Try Dynamics 365 for Customer Engagement apps](try-dynamics-365-online.md)-->
+## [Overview](getting-started.md)
+## [Supported web browsers and mobile devices](supported-web-browsers-and-mobile-devices.md)
+## [Web application requirements](web-application-requirements.md)
+## [Support for devices](device-support.md)
 ## [About Unified Interface](about-unified-interface.md)
-## [Enable Unified Interface Only](enable-unified-interface-only.md) 
+<!--## [Enable Unified Interface Only](enable-unified-interface-only.md) 
 ## [Update apps to Unified Interface](update-apps-to-unified-interface.md)
-## [Enable hybrid experience](enable-hybrid-experience.md)
+## [Enable hybrid experience](enable-hybrid-experience.md)-->
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
-## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
-## [Move between apps](quickly-navigate-office-365-app-launcher.md)
-## [Sign in to apps](sign-in-office-365-apps.md) 
-## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
-## [What is Office 365?](what-office-365-how-does-relate.md)
-## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)
-## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)
-## Service health
+<!--## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)-->
+<!--## [Move between apps](quickly-navigate-office-365-app-launcher.md)-->
+<!--## [Sign in to apps](sign-in-office-365-apps.md)--> 
+<!--## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)-->
+<!--## [What is Office 365?](what-office-365-how-does-relate.md)-->
+<!--## [Office 365 user ID](whats-an-office-365-user-id-why-need-one.md)-->
+<!--## [Manage subscription with Office 365 admin center](use-office-365-admin-center-manage-subscription.md)-->
+<!--## Service health
 ### [Check service health](check-online-service-health.md)
 ### [Using Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md)
-### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)
-## [Manage updates](manage-updates.md) 
-## [Policies and communications](policies-communications.md)
-## [Notifications explained](notifications-explained.md)
+### [Using Organization Insights dashboard (preview feature)](use-organization-insights-dashboard-view-instance-metrics.md)-->
+<!--## [Manage updates](manage-updates.md)-->
+<!--## [Policies and communications](policies-communications.md)
+## [Notifications explained](notifications-explained.md)-->
 
 # Support and pricing
 ## [Overview](billing-support.md)
@@ -91,7 +91,6 @@
 ## [Import data](import-data-all-record-types.md)
 ## [Template for data import](download-template-data-import.md)
 ## [Detect duplicate data](detect-duplicate-data.md)
-## [Duplicate detection rules](set-up-duplicate-detection-rules-keep-data-clean.md)
 ## [Bulk deletions](delete-bulk-records.md)
 ## [View and take action on bulk deletion jobs](view-take-action-bulk-deletion-jobs.md)
 ## [Monitor and manage system jobs](monitor-manage-system-jobs.md)
@@ -164,24 +163,24 @@
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)
 #### [Control social data](control-social-data.md)
 ### [Manage Bing Maps](manage-bing-maps-organization.md)
-### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)
-### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)
+<!--### [Enable Flow integration](enable-embedded-flow-in-your-organization.md)-->
+<!--### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)-->
 ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
 ### [Use Power BI with Customer Engagement](use-power-bi.md)
-### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)
-### [Install, update, or remove a preferred solution](install-remove-preferred-solution.md)
+<!--### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)-->
+<!--### [Install, update, or remove a preferred solution](install-remove-preferred-solution.md)-->
+
 ### Add Office 365 Online services
 #### [Overview](add-office-365-online-services.md)
 #### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
 #### [Connect Customer Engagement to SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-#### [Setup Microsoft Teams integration](integrate-with-microsoft-teams.md)
+<!--#### [Setup Microsoft Teams integration](integrate-with-microsoft-teams.md)-->
 #### [Skype for Business and Skype integration](skype-business-integration.md)
 #### [Set up Customer Engagement to use Skype or Skype for Business](set-up-skype-or-skype-for-business.md)
-#### [Deploy Office 365 Groups](deploy-office-365-groups.md)
-#### [Enable viewing profile cards](enable-profile-card.md)
-#### [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)
-#### [Enable OneDrive for Business (online)](enable-onedrive-for-business.md)
-#### [Enable OneDrive for Business (on-premises)](connect-onedrive-business.md)
+<!--#### [Deploy Office 365 Groups](deploy-office-365-groups.md)-->
+<!--#### [Enable viewing profile cards](enable-profile-card.md)-->
+<!--#### [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md)-->
+#### [Enable OneDrive for Business](connect-onedrive-business.md)
 #### [Enable Office Delve](enable-office-delve.md)
 #### [Connect to Yammer](connect-yammer.md)
 
