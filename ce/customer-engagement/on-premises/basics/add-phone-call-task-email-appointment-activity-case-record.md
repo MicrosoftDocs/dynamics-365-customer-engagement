@@ -66,7 +66,7 @@ All activities that you add from within a record appear in the **Activities** ar
   
 1. Open the record you want to add the activity to.  
   
-2. In the middle of the page, select **Activities** > **More Commands** ![More Commands button in Appointment Activity(media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
+2. In the middle of the page, select **Activities** > **More Commands** > **Email**.  
   
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
