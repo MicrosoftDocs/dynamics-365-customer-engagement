@@ -65,7 +65,7 @@
 ### [Transactions with multiple currencies](manage-transactions-with-multiple-currencies.md)
 ### [Enable languages](enable-languages.md)
 ### [Fiscal year](work-fiscal-year-settings.md)
-### [Privacy preferences](set-privacy-preferences-organization.md)
+<!--### [Privacy preferences](set-privacy-preferences-organization.md)-->
 ### [Sales territories](set-up-sales-territories-organize-business-markets-geographical-area.md)
 ### [Auto-numbering prefixes](change-auto-number-prefix-contract-case-article-quote-order-invoice-campaign-category-knowledge-articles.md)
 ### [Define subjects for cases, products, and articles](define-subjects-categorize-cases-products-articles.md)
