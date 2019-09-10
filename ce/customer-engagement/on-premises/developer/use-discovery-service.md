@@ -1,15 +1,15 @@
 ---
-title: "Use the Dynamics 365 for Customer Engagement Discovery services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "In a multi-tenant environment like Dynamics 365 for Customer Engagement, the Discovery web service helps determine which organizations a user is a member of."
+title: "Use the Dynamics 365 Customer Engagement (on-premises) Discovery services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "In a multi-tenant environment like Dynamics 365 Customer Engagement (on-premises), the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 09/05/2019
 ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0b95ebbd-49f5-4e09-8f18-7708dbef65d0
 caps.latest.revision: 9
 author: JimDaly
@@ -20,11 +20,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use the Dynamics 365 for Customer Engagement Discovery services
+# Use the Dynamics 365 for Customer Engagement (on-premises) Discovery services
 
-The Discovery web services are used to determine the organizations that a user is a member of, and the endpoint address URL to access the Organization service or Web API for each of those organizations. This Discovery service is necessary because [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is a multi-tenant environment. A single [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server can host multiple business organizations. By using the Discovery web service, your application can determine the endpoint address URL to access the target organization’s business data.  
+The Discovery web services are used to determine the organizations that a user is a member of, and the endpoint address URL to access the Organization service or Web API for each of those organizations. This Discovery service is necessary because Dynamics 365 Customer Engagement (on-premises) is a multi-tenant environment. A single Customer Engagement (on-premises) server can host multiple business organizations. By using the Discovery web service, your application can determine the endpoint address URL to access the target organization’s business data.  
   
-A Discovery service is accessed through either the Web API or the Organization Service.  
+A Discovery service is accessed through either the Web API or the Organization service.  
 
 - For the Web API see: [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md) 
 - For the Organization Service see: [Discover the URL for your organization using the Organization Service API](org-service/discover-url-organization-organization-service.md) 

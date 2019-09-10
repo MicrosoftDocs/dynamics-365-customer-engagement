@@ -2,9 +2,9 @@
 title: "Support offline execution with Dynamics 365 for Microsoft Office (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Add support to your plug-in for execution by the Dynamics 365 for Microsoft Office Outlook with Offline Access while the client is offline."
 ms.custom: on-premise
-ms.date: 1/22/2019
+ms.date: 09/05/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,7 +29,7 @@ search.app:
 
 For plug-ins executing offline, any entities created by the plug-in are owned by the logged on user. Impersonation in plug-ins is not supported while in offline mode.
 
-For additional information on impersonation, see [Impersonation in plug-ins](impersonation-plugins.md) and [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user).
+For additional information on impersonation, see [Impersonation in plug-ins](impersonation-plugins.md) and the Common Data Service topic [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user).
 
 ## Register an offline plug-in
 
