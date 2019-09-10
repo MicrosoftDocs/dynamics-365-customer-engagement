@@ -1,6 +1,6 @@
 ---
-title: "View omnichannel conversation and session activity types in the Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in Dynamics 365 for Customer Engagement apps."
+title: "View omnichannel conversation and session activity types in the Model-driven apps | MicrosoftDocs"
+description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in the Model-driven apps."
 keywords: ""
 author: kabala123
 ms.author: kabala
