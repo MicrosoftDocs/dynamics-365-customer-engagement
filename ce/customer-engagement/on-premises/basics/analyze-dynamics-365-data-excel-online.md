@@ -77,23 +77,9 @@ To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-cr
 
 [What-if analysis using Excel](https://www.youtube.com/embed/NZNvWz9xuZ0)
   
- To see video captions, click the **Closed Caption (CC)** button ![YouTube Closed Caption button](../basics/media/youtube-closed-caption-button.png "YouTube Closed Caption button") in the lower-right corner of the [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] window.  
-  
- [![Banner for Dynamics 365 Customer Engagement (on-premises)YouTube channel](../basics/media/see-more-videos-on-youtube.png "Banner for Dynamics 365 Customer Engagement (on-premises)YouTube channel")](http://go.microsoft.com/fwlink/p/?LinkID=325001)  
-<!-- The fwlink above is correct - updated to point to the how-to playlists
--->
 
-## Community tools 
-
-**Export to Excel** is a tool provided by the XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises) Customer Engagement. See the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
-
-> [!NOTE]
-> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
-> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
      
 ### See also  
  [Export data to Excel](../basics/export-data-excel.md)   
- [Export to Excel PivotTable](../basics/export-excel-pivottable.md)   
- [Export to Excel static worksheet](../basics/export-excel-dynamic-worksheet.md)   
- [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md) 
+
  
