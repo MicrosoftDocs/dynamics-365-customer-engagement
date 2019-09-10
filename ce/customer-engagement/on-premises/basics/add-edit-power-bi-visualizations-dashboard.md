@@ -1,5 +1,5 @@
 ---
-title: "Add or edit Power BI visualizations on your dashboard (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Add or edit Power BI visualizations on your dashboard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -21,13 +21,13 @@ search.app:
 ---
 # Add or edit Power BI visualizations on your dashboard
 
-Create rich, interactive reports and real-time visualizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] with [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards and  tiles that you add  to your personal dashboards.  
+Create rich, interactive reports and real-time visualizations in Dynamics 365 Customer Engagement (on-premises) with [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboards and  tiles that you add  to your personal dashboards.  
   
 > [!NOTE]
-> To add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] personal dashboards, you must:  
+> To add [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to Dynamics 365 Customer Engagement (on-premises) personal dashboards, you must:  
 > 
 > - Enable [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations for your organization in **Settings** > **Administration** > **System Settings** > **Reporting** tab > **Allow Power BI visualization embedding**.  
-> - Have a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] account and have access to at least one [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [introduction to reporting &amp; analytics with Dynamics 365 Customer Engagement (on-premises)](../analytics/reporting-analytics-with-dynamics-365.md)  
+> - Have a [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] account and have access to at least one [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] dashboard. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to reporting and analytics](../analytics/reporting-analytics-with-dynamics-365.md)  
 > - Avoid adding [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations to system dashboards. Its not supported. T
   
 <a name="embedPBDashboard"></a>
