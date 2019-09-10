@@ -1,5 +1,5 @@
 ---
-title: "Basics Guide (Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
+title: "Basics Guide (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 keywords: sales; service; marketing
 ms.custom: 
 ms.date: 09/15/2017
@@ -21,8 +21,7 @@ search.app:
 ---
 # Basics Guide for Dynamics 365 Customer Engagement (on-premises)
 
-The Dynamics 365 Customer Engagement (on-premises) basics guide contains the essentials you need to know to
-navigate the system, enter data, use dashboards, charts and reports effectively and more.
+The Dynamics 365 Customer Engagement (on-premises) basics guide contains the essentials you need to know to navigate the system, enter data, use dashboards, charts and reports effectively and more.
 
 ## Build customer relationships
 One of the biggest payoffs of using Dynamics 365 Customer Engagement (on-premises) is having an organized, easy-to-access place to store data about all your customers and prospects. Some of the data will be entered by you and your team as you work with your customers. Some of the data can be pulled in from other sources like from your accounting system, or even from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].
@@ -57,6 +56,10 @@ features, data, or even fields on screens, depending on your role.
 If it turns out that you can’t see or access something described in this guide, or if some data is marked “read only,” check with the person who manages your system day-to-day. You may need to get additional security permissions.
 
  
-## See also  
- [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)    
+### See also  
+[Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)<br/>
+[Administrator Guide](../admin/overview.md)<br />
+[Customization Guide](../customize/overview.md)<br />
+[Reporting and Analytics Guide](../analytics/overview.md) <br />
+[Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)   
 

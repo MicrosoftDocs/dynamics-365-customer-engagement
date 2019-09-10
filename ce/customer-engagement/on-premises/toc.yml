@@ -10,5 +10,7 @@
     href: customize/overview.md
   - name: Developer Guide
     href: developer/overview.md
+  - name: Basics Guide
+    href: basics/basics-guide.md
   - name: Reporting and Analytics Guide
     href: analytics/overview.md
