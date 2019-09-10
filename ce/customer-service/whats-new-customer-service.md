@@ -1,10 +1,7 @@
 ---
 title: What's new in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service
-keywords: Dynamics 365 for Customer Engagement; Customer Service; Customer Service Hub; Customer Service app
 author: kabala123
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: kabala
 manager: shujoshi
 ms.date: 08/01/2019
@@ -40,9 +37,9 @@ The Customer Service Hub comes with an enhanced Knowledge search that shows you 
 
 To learn more, see [Knowledge Base Search control](search-knowledge-articles-csh.md#knowledge-base-search-control).
 
-## Dynamics 365 for Customer Engagement apps version 9.1
+## Dynamics 365 Customer Serivce app version 9.1
 
-Customer Engagement apps version 9.1 introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
+Customer Service app version 9.1 introduces some new features for enhanced customer satisfaction by facilitating improved operational efficiency and organizational productivity. 
 
 New features introduced in this release are:
 
@@ -77,12 +74,12 @@ To learn more about Relevance search, see [Use Relevance Search for faster, comp
 
 ### Enhanced customer service admin settings using Service Management
 
-With the Customer Engagement apps version 9.1 release, Service Management moves under the Customer Service Hub, enabling customer service managers to access and manage the configurations from inside the application. Built on the Unified Interface framework, the new Service Management helps to easily configure admin settings, enabling increased productivity.
+With the Dynamics 365 Customer Service app version 9.1 release, Service Management moves under the Customer Service Hub, enabling customer service managers to access and manage the configurations from inside the application. Built on the Unified Interface framework, the new Service Management helps to easily configure admin settings, enabling increased productivity.
 
 See the [Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md) to learn more about Customer Service admin settings.
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application.
+> With the Dynamics 365 Customer Service app version 9.1 release, you can access and manage all admin settings from the Customer Service Hub sitemap except for **Routing Rule sets**, **Automatic Record Creation,** and **Service Level Agreements**. </br> To access and manage these three admin settings, go to **Settings** > **Service Management** in the web application.
 
 ### See also
 

@@ -1,15 +1,12 @@
 ---
 title: "User Guide (Dynamics 365 Customer Service) | Microsoft Docs"
 description: "Guide to learn about the Customer Service Hub."
-keywords: "Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement; User guide"
 ms.date: 07/31/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
   - "dyn365-customerservice"
 ms.topic: get-started-article
-applies_to:
-  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
 author: anjgupta
 ms.author: anjgup
@@ -36,7 +33,7 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 
 > [!NOTE]
-> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). For information on Dynamics 365 for Customer Engagement basics, [see the Basics Guide](../basics/basics-guide.md).
+> This user guide covers the Customer Service Hub app which is built on the Unified Interface framework. To learn about the legacy Customer Service app, see [User Guide (Customer Service)](user-guide-customer-service.md). To learn more, see [see the Basics Guide](../basics/basics-guide.md).
 
 To learn how to install and use the Customer Service Hub app on a mobile device, see [Install and use the Customer Service Hub app on your mobile device](use-customer-service-hub-on-dynamics-365-mobile.md).
 
@@ -65,12 +62,12 @@ Customer Service Hub advocates inclusive design and accessible content. The app 
 
 Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
 
-- [Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)
-- [Microsoft Dynamics 365 for Customer Engagement and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
+- [Accessibility features](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+- [Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
 - [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
 
 ### See also
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)
 
-[Upgrade to the Customer Service Hub in Microsoft Dynamics 365 for Customer Engagement](upgrade-ish-csh.md)
+[Upgrade to the Customer Service Hub](upgrade-ish-csh.md)

@@ -1,5 +1,5 @@
 ---
-title: "Known issues and limitations   | MicrosoftDocs"
+title: "Known issues and limitations | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Omnichannel for Customer Service."
 keywords: ""
 author: kabala123
@@ -33,7 +33,7 @@ As an administrator, you must activate the **SDK Message Processing Steps** asso
 
 To workaround the issue, follow these steps:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Customizations**.
 
@@ -56,17 +56,16 @@ When you open the quick replies menu in the communication panel (Chat and SMS), 
 
 To workaround the issue, follow these steps:
 
-1. Sign in to Omnichannel for Customer Engagement apps.
-2. Select the **Omnichannel Administration** app.
-3. Select **Quick Replies** in the site map.
-4. Select the messages that are repeated several times from the **Active Quick Replies** view.
-5. Select **Delete**. A confirmation dialog appears asking you to confirm.
-6. Select **Delete** to delete the records.
+1. Sign in to Omnichannel Administration app.
+2. Select **Quick Replies** in the site map.
+3. Select the messages that are repeated several times from the **Active Quick Replies** view.
+4. Select **Delete**. A confirmation dialog appears asking you to confirm.
+5. Select **Delete** to delete the records.
 
     > [!div class=mx-imgBorder]
     > ![Delete repeated messages](media/oceh/delete-quick-replies.png "Delete repeated messages")
 
-7. Select **Save** to save the changes.
+6. Select **Save** to save the changes.
 
 > [!Note]
 > The changes you make might take up to 15 mins to reflect in the system. 

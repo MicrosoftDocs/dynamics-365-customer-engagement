@@ -22,7 +22,7 @@ manager: shujoshi
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-You can sign up for Omnichannel for Customer Service features that are in preview from the Dynamics Insider Portal. You can use the preview features only if you've an active subscription of the Dynamics 365 for Customer Service Chat add-on. To learn more, see [Try Chat for Dynamics 365](try-chat-for-dynamics365.md).
+You can sign up for Omnichannel for Customer Service features that are in preview from the Dynamics Insider Portal. You can use the preview features only if you've an active subscription of the Dynamics 365 Customer Service Chat add-on. To learn more, see [Try Chat for Dynamics 365 Customer Service](try-chat-for-dynamics365.md).
 
 > [!IMPORTANT]
 > - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​

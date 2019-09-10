@@ -1,15 +1,12 @@
 ---
 title: "Frequently asked questions (FAQs) about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) for Omnichannel for Customer Service."
-keywords: ""
 ms.date: 07/01/2019
 ms.service:
   - "dynamics-365-customerservice"
 ms.custom:
   - ""
 ms.topic: article
-applies_to:
-  - ""
 ms.assetid: BC3D3C77-982D-4F8F-B9DB-86854A1634F8
 author: kabala123
 ms.author: kabala
@@ -40,7 +37,7 @@ Contact [Dynamics support](https://dynamics.microsoft.com/en-us/contact-us/) to 
 ### What additional channels are supported with Omnichannel for Customer Service in this release?
 This release provides support for Chat for Dynamics 365 and SMS (preview). For upcoming channels and capabilities, see the [2019 release wave 2 plan](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-customer-service/planned-features).
 
-### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 for Customer Service or Dynamics 365 for Customer Engagement license?
+### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 No, Chat and related Omnichannel for Customer Service capabilities require a separate add-in. For additional details on pricing, see [Customer Service overview](https://dynamics.microsoft.com/en-us/customer-service/overview/).
 
 ### How do I get started?
@@ -93,7 +90,7 @@ The timer in the communication panel represents how long the current session tab
 For information about managing work items from your dashboard, see [View agent dashboard and agent work items](agent/agent-oc/oc-agent-dashboard.md).
 
 ### Where are conversations stored and how can I access them?
-Conversations and sessions are stored as activity types within Dynamics 365 for Customer Engagement apps. For more information, see [View conversation and session activity types in the Customer Engagement apps](agent/agent-oc/oc-view-activity-types.md).
+Conversations and sessions are stored as activity types within the Model-driven apps. For more information, see [View conversation and session activity types in the Model-driven apps](agent/agent-oc/oc-view-activity-types.md).
 
 ## Administration
 
