@@ -122,8 +122,5 @@ All activities that you add from within a record appear in the **Activities** ar
   
 4. Use the **Regarding** field on the activity form to associate it with a customer or support case.  
   
-### See Also  
- [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md)   
- [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)</br>
- [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service-hub.md)
+
  
