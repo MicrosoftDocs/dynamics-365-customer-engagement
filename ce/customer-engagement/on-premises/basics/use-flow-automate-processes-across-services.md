@@ -19,13 +19,13 @@ search.app:
 ---
 # Use Microsoft Flow to automate processes across services
 
-Microsoft Flow lets you create automated processes between your favorite apps and services. From within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can run a Flow on one or more records. Also, you can open Microsoft Flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to view, edit, or create new flows.  
+Microsoft Flow lets you create automated processes between your favorite apps and services. From within Customer Engagement (on-premises), you can run a Flow on one or more records. Also, you can open Microsoft Flow from Customer Engagement (on-premises) to view, edit, or create new flows.  
   
 > [!NOTE]
->  To manage and run Microsoft Flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], Microsoft Flow must be enabled in System Settings for you organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable embedded Flow in your organization](../admin/enable-embedded-flow-in-your-organization.md)  
+>  To manage and run Microsoft Flow from Customer Engagement (on-premises), Microsoft Flow must be enabled in System Settings for you organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable embedded Flow in your organization](../admin/enable-embedded-flow-in-your-organization.md)  
   
 ## Manage your flows  
- Connect with Microsoft Flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to manage your flows.  
+ Connect with Microsoft Flow from Customer Engagement (on-premises) to manage your flows.  
   
 1. On the Actions toolbar, select **Flows**.  
   
@@ -42,14 +42,14 @@ Microsoft Flow lets you create automated processes between your favorite apps an
    -   Select a flow to run. See [Run an embedded flow from Dynamics 365 Customer Engagement (on-premises)](#Flow_run).  
   
 <a name="Flow_run"></a>   
-## Run an embedded flow from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
+## Run an embedded flow from Customer Engagement (on-premises)  
  You can run a flow from views, forms, and Advanced Find.  
   
 1. Select the records that you want to run the flow on. Notice that you won’t see any flows run until you select one or more records or have a record open.  
   
 2. On the Actions toolbar, select **Flows**, and then under **Run** select the flow that you want to run.  
   
-    Flows that include actions for entities associated with your current location in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app appear under Run on the Flow menu. Only flows with the **When a record is selected** trigger for an account record will appear in the **Active Accounts** view.  
+    Flows that include actions for entities associated with your current location in the Customer Engagement (on-premises) app appear under Run on the Flow menu. Only flows with the **When a record is selected** trigger for an account record will appear in the **Active Accounts** view.  
   
    > [!TIP]
    >  If you don’t see any flows under Run, click **Login to flow**.  
@@ -62,7 +62,7 @@ Microsoft Flow lets you create automated processes between your favorite apps an
 ### Flow commands do not respond from your mobile device
 When you tap a Flow command, such as **Login to Flows**, **Create a Flow**, or **See your Flows**, from your mobile device, the command does not respond.
 
-This occurs when your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 Customer Engagement (on-premises)for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
+This occurs when your Customer Engagement (on-premises) instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 Customer Engagement (on-premises)for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
   
 ### See Also  

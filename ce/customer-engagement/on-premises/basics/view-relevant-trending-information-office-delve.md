@@ -33,7 +33,7 @@ To disable Office Graph:
 For more information, see the blog: [Office Graph integration removal](https://blogs.msdn.microsoft.com/crm/2017/07/31/office-graph-integration-removal/).
 
 <!--
-[!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is a new way to find and discover relevant and trending documents across your organization. [!INCLUDE[pn_delve](../includes/pn-delve.md)] searches across your company and uses Azure Machine Learning to provide a view of the documents you are most interested in based on who created, viewed, edited, or shared the documents. [!INCLUDE[pn_delve](../includes/pn-delve.md)] is a new dashboard component that can be added to any user or system dashboard so you can view trending information from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+[!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] in Customer Engagement (on-premises) is a new way to find and discover relevant and trending documents across your organization. [!INCLUDE[pn_delve](../includes/pn-delve.md)] searches across your company and uses Azure Machine Learning to provide a view of the documents you are most interested in based on who created, viewed, edited, or shared the documents. [!INCLUDE[pn_delve](../includes/pn-delve.md)] is a new dashboard component that can be added to any user or system dashboard so you can view trending information from within Customer Engagement (on-premises).  
   
  ![Office Delve dashboard in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-delve-dashboard.png "Office Delve dashboard in Dynamics 365 Customer Engagement (on-premises)")  
   

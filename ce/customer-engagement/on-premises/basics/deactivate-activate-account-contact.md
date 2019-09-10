@@ -26,7 +26,7 @@ searchScope:
 ---
 # Deactivate or activate an account or contact
 
-In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
+In Customer Engagement (on-premises), you deactivate an account or contact rather than deleting it. This ensures the integrity of the audit trail associated with that record.  
   
  When a deactivated account or contact becomes inactive, it cannot be edited. However, it can still be used to establish new relationships with other records. All relationships created with the deactivated item are still available.  
   

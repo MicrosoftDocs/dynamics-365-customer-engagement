@@ -29,9 +29,9 @@ In Dynamics 365 Customer Engagement (on-premises), you can search for records ac
   
 <a name="BKMK_RelevanceSearch"></a>   
 ## What is Relevance Search?  
- Relevance Search delivers fast and comprehensive results across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to Dynamics 365 Customer Engagement (on-premises) (powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) to boost [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] search performance.  
+ Relevance Search delivers fast and comprehensive results across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to Dynamics 365 Customer Engagement (on-premises) (powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) to boost Customer Engagement (on-premises) search performance.  
   
- Relevance Search is available in addition to other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] searches you are already familiar with. You can continue using single-entity Quick Find on the entity grid or Multi-Entity Quick Find (called Categorized Search, if you have Relevance Search enabled) by using **Search Dynamics 365 Customer Engagement (on-premises) data** on the navigation bar. For more comprehensive and faster results, we recommend using Relevance Search.  
+ Relevance Search is available in addition to other Customer Engagement (on-premises) searches you are already familiar with. You can continue using single-entity Quick Find on the entity grid or Multi-Entity Quick Find (called Categorized Search, if you have Relevance Search enabled) by using **Search Dynamics 365 Customer Engagement (on-premises) data** on the navigation bar. For more comprehensive and faster results, we recommend using Relevance Search.  
 
  Relevance Search brings the following enhancements and benefits:  
   
@@ -45,7 +45,7 @@ In Dynamics 365 Customer Engagement (on-premises), you can search for records ac
   
 > [!NOTE]
 > - Relevance Search isn't available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.  
-> - Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. Smaller changes in indexed data can take up to 15 minutes to show up in your system.
+> - Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results in the Customer Engagement (on-premises) web application. Smaller changes in indexed data can take up to 15 minutes to show up in your system.
 > - Enabling Relevance Search allows all users in the organization to use it.  
 > - Relevance search is text-based, and can search only on fields of type Single Line of Text, Multiple Lines of Text, Option Sets, or Lookups. It doesn't support searching in fields of Numeric or Date data type. 
   
@@ -69,12 +69,12 @@ In Dynamics 365 Customer Engagement (on-premises), you can search for records ac
   
  In [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], the following enhancements have been made to the Relevance Search experience:  
   
-- You'll find search results for text in a document that is stored in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], including text in notes, email attachments, or appointments. The following file formats are supported for search: PDF, Microsoft Office documents, HTML, XML, ZIP, EML, plain text, and JSON.  
+- You'll find search results for text in a document that is stored in Customer Engagement (on-premises), including text in notes, email attachments, or appointments. The following file formats are supported for search: PDF, Microsoft Office documents, HTML, XML, ZIP, EML, plain text, and JSON.  
   
 - You can search for records that are shared with you and records that you own.  
   
   > [!NOTE]
-  >  Hierarchical security models aren't supported.  Even if you see a row in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] because you have access to it through hierarchical security, you won't see the result in Relevance Search.  
+  >  Hierarchical security models aren't supported.  Even if you see a row in Customer Engagement (on-premises) because you have access to it through hierarchical security, you won't see the result in Relevance Search.  
   
 - You can also search for option sets  and lookups. For example, let's say you want to find a retail store account that has **Pharmaceuticals** in the name. When you search for **Pharmaceutical Retail**, you'll find the result because there's a match to the Industry field, which is a searchable option set.  
   

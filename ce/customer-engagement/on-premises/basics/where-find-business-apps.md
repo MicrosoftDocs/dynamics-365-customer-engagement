@@ -48,7 +48,7 @@ Business apps are available to users based on their security roles. If your syst
   
 2. Go to **Settings** > **My Apps**.  
   
-    The page shows all published [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps based on your organization's licensing options, and your security role.  
+    The page shows all published Customer Engagement (on-premises) apps based on your organization's licensing options, and your security role.  
   
     You can also directly open the My Apps page by entering the following URL in your browser:  http://\<server name>/\<orgName>/apps.  
   
@@ -67,7 +67,7 @@ When you use an app, you'll see only those entities in the site map  and other p
 
 ## Apps you might see in the app switcher
 
-Depending on the installation options your admin chooses when setting up [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, you may see any of the following apps in the app switcher:
+Depending on the installation options your admin chooses when setting up Customer Engagement (on-premises) apps, you may see any of the following apps in the app switcher:
 
 ![Dynamics 365 Customer Engagement (on-premises) app switcher](../basics/media/app-switcher-apps.png "Dynamics 365 Customer Engagement (on-premises) app switcher")  
 

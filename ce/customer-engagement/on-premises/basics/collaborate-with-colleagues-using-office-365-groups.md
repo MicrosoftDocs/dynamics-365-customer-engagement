@@ -44,7 +44,7 @@ search.app:
   
 - You need to have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription which includes [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] and [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  
   
-- Before you can start using [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], the groups solution needs to be deployed and turned on for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities. For more information, see [Deploy Office 365 Groups](../admin/deploy-office-365-groups.md).  
+- Before you can start using [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], the groups solution needs to be deployed and turned on for your Customer Engagement (on-premises) entities. For more information, see [Deploy Office 365 Groups](../admin/deploy-office-365-groups.md).  
   
 ## Create  or join a group  
   
@@ -59,7 +59,7 @@ search.app:
 > [!NOTE]
 > - You can only connect to groups returned in search for which you are a member. Hover over the search results to see your status.  
 >   - When you add team members to a project, they will be automatically added to the associated group.  
->   - You can associate existing groups to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records. You don't need to create a new group to create an association.  
+>   - You can associate existing groups to Customer Engagement (on-premises) records. You don't need to create a new group to create an association.  
 >   - When you delete a group, you'll receive a notification on the Welcome to Office 365 Groups for Dynamics 365 Customer Engagement (on-premises) page so you can take the  appropriate action.  
   
 ## Join a meeting  

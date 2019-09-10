@@ -25,7 +25,7 @@ search.app:
 
 # Use OneNote in Dynamics 365 Customer Engagement (on-premises)
 
-If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can access a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook directly from the activities area in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. This doesn't replace the current Notes feature, but gives you another way to access notes stored in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. When you add a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section to a notebook, it's shown individually within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and in order of last modified time.  
+If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can access a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook directly from the activities area in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. This doesn't replace the current Notes feature, but gives you another way to access notes stored in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. When you add a [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] section to a notebook, it's shown individually within Customer Engagement (on-premises) and in order of last modified time.  
   
  [Watch a short video (2:01) about OneNote integration](https://go.microsoft.com/fwlink/p/?linkid=837793)  
   
@@ -68,10 +68,10 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
    ![Notebooks in associated SharePoint folder](../basics/media/use-onenote.PNG "Notebooks in their associated SharePoint folder")  
   
 > [!NOTE]
-> - You can't edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link. In the web app, [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] is opened in the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] in a separate tab.  
-> - Don't delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] .onetoc2 or .one file types in the **OneNote** section in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you do, you won't be able to access your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
-> - Section groups that keep related sections together in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] aren't supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
-> - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+> - You can't edit the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] file from within Customer Engagement (on-premises). This can be done only from the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app that opens when you choose the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] link. In the web app, [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] is opened in the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] app of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] in a separate tab.  
+> - Don't delete any [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] .onetoc2 or .one file types in the **OneNote** section in Customer Engagement (on-premises). If you do, you won't be able to access your Customer Engagement (on-premises) [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
+> - Section groups that keep related sections together in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] aren't supported in Customer Engagement (on-premises).  
+> - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in Customer Engagement (on-premises).  
   
 ### See also  
  [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md)   

@@ -24,7 +24,7 @@ Dynamics 365 Customer Engagement (on-premises) apps are role-based business apps
   
  These apps are simple and intuitive, and make it easier for users to quickly find the things they need to do every day.  
   
- In previous versions, when you signed in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you saw a single application with sales, service, and marketing areas, and a site map (menu system) with multiple entities that you may not need for the work you do. With business apps, you'll see smaller role-based, and purpose-built site maps.  
+ In previous versions, when you signed in to Customer Engagement (on-premises), you saw a single application with sales, service, and marketing areas, and a site map (menu system) with multiple entities that you may not need for the work you do. With business apps, you'll see smaller role-based, and purpose-built site maps.  
   
  System administrators and customizers can manage access to the apps by using security roles. You'll only see the apps that you've been given access to. When you open an app, you'll see data that is relevant to perform your tasks, which simplifies your working experience.  
   
@@ -54,7 +54,7 @@ Dynamics 365 Customer Engagement (on-premises) apps are role-based business apps
   - **Dynamics 365 Customer Engagement (on-premises) – custom**. This app provides access to the full suite of capabilities, namely administration, settings and the legacy sales, service and marketing functionality. 
   
 ## Availability of business apps  
- Business apps are available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and with the latest release are also available in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
+ Business apps are available in the Customer Engagement (on-premises) web application and with the latest release are also available in [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].  
   
  Your system administrator or a user with the required privileges can create new business apps for you.
  
@@ -66,7 +66,7 @@ Dynamics 365 Customer Engagement (on-premises) apps are role-based business apps
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Where to find your business apps](../basics/where-find-business-apps.md)  
   
 ## Upgrading from prior versions of Dynamics 365 Customer Engagement (on-premises)  
- For users upgrading from earlier versions of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
+ For users upgrading from earlier versions of Customer Engagement (on-premises), there will be no disruption in the functionality. They'll be able to access the full suite of capabilities including sales, service, and marketing, by using the Dynamics 365 - custom app that is created during the upgrade. After the upgrade, you'll also see all the default business apps that are available to you based on your security role and your organization's licensing options.  
    
 ### See also  
  [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)

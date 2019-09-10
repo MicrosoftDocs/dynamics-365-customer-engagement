@@ -25,7 +25,7 @@ search.app:
   
  For example, if you’re a sales manager, you might want to analyze the opportunities your team owns and review key performance indicators (KPIs) to see how you can assist your team members. If you’re a sales rep, you can open your opportunities in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and conduct what-if analysis for different incentive scenarios. Or, you may want to quickly open the data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] so that you can copy it somewhere else such as an email.  
   
- When you make changes to your data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)], you can save the updated information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Remember to keep the existing format of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] cells to prevent problems during import. Adding additional information to the spreadsheet, such as graphs, charts, or colors, will not be saved.  
+ When you make changes to your data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)], you can save the updated information in Customer Engagement (on-premises). Remember to keep the existing format of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] cells to prevent problems during import. Adding additional information to the spreadsheet, such as graphs, charts, or colors, will not be saved.  
   
 ## Prerequisites  
   
@@ -33,36 +33,36 @@ search.app:
   
 - You need a [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] account.  
   
-- You need export to [!INCLUDE[pn_excel_short](../includes/pn-excel-short.md)] privileges in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- You need export to [!INCLUDE[pn_excel_short](../includes/pn-excel-short.md)] privileges in Customer Engagement (on-premises).  
   
-## Open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]  
- The option to open data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] isn’t available in all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record types. If you don’t see the option, it’s not available for that record.  
+## Open Customer Engagement (on-premises) data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]  
+ The option to open data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] isn’t available in all Customer Engagement (on-premises) record types. If you don’t see the option, it’s not available for that record.  
   
 > [!NOTE]
->  Updated data in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] won’t immediately be reflected in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] if the same view was opened in the last two minutes in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]. After that timeframe, any updated data should show in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  
+>  Updated data in Customer Engagement (on-premises) won’t immediately be reflected in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] if the same view was opened in the last two minutes in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]. After that timeframe, any updated data should show in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  
   
 To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Export to Excel** > **Open in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]**.  
   
  ![Export Dynamics 365 Customer Engagement (on-premises)data to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 Customer Engagement (on-premises)data to Excel Online")  
   
 > [!NOTE]
->  By default, you can’t open your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] in the **Advanced Find** view. However, you can save your advanced find as a personal view and then go to your personal view to do an ad-hoc analysis in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  
+>  By default, you can’t open your Customer Engagement (on-premises) data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] in the **Advanced Find** view. However, you can save your advanced find as a personal view and then go to your personal view to do an ad-hoc analysis in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  
   
-## Save your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]  
+## Save your data and import it back to Customer Engagement (on-premises)  
   
-1. On the top right, click **Save Changes to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**.  
+1. On the top right, click **Save Changes to Customer Engagement (on-premises)**.  
   
    > [!NOTE]
-   > - The data for *ad-hoc* analysis with [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] is stored temporarily. Any additions, such as charts, calculations, and columns won’t be saved from the ad-hoc analysis that you do in Excel Online back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you need to make lots of changes to your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it’s recommended that you export the worksheet in [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)].  
+   > - The data for *ad-hoc* analysis with [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] is stored temporarily. Any additions, such as charts, calculations, and columns won’t be saved from the ad-hoc analysis that you do in Excel Online back to Customer Engagement (on-premises). If you need to make lots of changes to your data and import it back to Customer Engagement (on-premises), it’s recommended that you export the worksheet in [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)].  
    > 
-   > - The file import might fail if you made a lot of changes or changed the format of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. If you need to make lots of changes to your data and import it back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], it’s recommended that you export the worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
+   > - The file import might fail if you made a lot of changes or changed the format of the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file. If you need to make lots of changes to your data and import it back to Customer Engagement (on-premises), it’s recommended that you export the worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)].  
    > 
    > - By design, you can’t do a **File** > **Save As** in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]. If you do, you’ll get a **Can’t Save Workbook** error message.  
   
 2. On the **Data Submitted for Import** dialog box, click **Close**.  
   
 ## Check the status of the data import  
- After you save your changes from [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], verify that the data has been imported back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+ After you save your changes from [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] to Customer Engagement (on-premises), verify that the data has been imported back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
 1. In the **Data Submitted for Import** dialog box, click **Imports**.  
   

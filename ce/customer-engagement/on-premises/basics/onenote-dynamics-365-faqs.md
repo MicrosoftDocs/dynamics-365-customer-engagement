@@ -48,7 +48,7 @@ I get this error message:
  Sections groups that keep related sections together in OneNote aren’t supported in Dynamics 365 Customer Engagement (on-premises).  
   
 ## Can I rename a section in OneNote Online?  
- No. You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] Online, you won’t see the updated section name in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+ No. You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] Online, you won’t see the updated section name in Customer Engagement (on-premises).  
   
 ## Why do I see records that should be in the OneNote tab?  
  This happens if you deleted all of the sections in the notebook. It’s recommended that you have at least one section in your [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook. To fix the issue do this:  

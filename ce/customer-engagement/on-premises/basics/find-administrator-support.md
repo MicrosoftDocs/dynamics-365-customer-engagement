@@ -19,11 +19,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Find your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or support person 
+# Find your Customer Engagement (on-premises) administrator or support person 
 
 You may occasionally run across issues that require consultation with your Dynamics 365 Customer Engagement (on-premises) administrator. If you don’t know who your administrator is, you can use Advanced Find to find your administrator.  
   
-1. Sign in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization.  
+1. Sign in to your Customer Engagement (on-premises) organization.  
   
 2. Open the Sales, Customer Service, Field Service, or Project Service Automation app, and then on the nav bar, choose the **Advanced Find** button ![Screen shot of Advanced Find button](../basics/media/advanced-find-button.PNG "Screen shot of Advanced Find button").  
   

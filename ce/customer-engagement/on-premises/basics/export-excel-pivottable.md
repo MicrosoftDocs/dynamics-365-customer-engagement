@@ -21,7 +21,7 @@ search.app:
 ---
 # Export to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable
 
-You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] PivotTable to see patterns and trends in data. An [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable is a great way to summarize, analyze, explore, and present your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data. You can export up to 100,000 records at a time.  
+You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] PivotTable to see patterns and trends in data. An [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable is a great way to summarize, analyze, explore, and present your Customer Engagement (on-premises) data. You can export up to 100,000 records at a time.  
   
 ## Prerequisites  
   
@@ -42,9 +42,9 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 - [!INCLUDE[pn_Windows_Firewall](../includes/pn-windows-firewall.md)] allows remote [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] connections. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to: Configure a Windows Firewall for Database Engine Access](https://msdn.microsoft.com/library/ms175043.aspx).  
   
 ## Export to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable  
- The option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable isn’t available in all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record types. If you don’t see the option, it’s not available for that record.  
+ The option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] PivotTable isn’t available in all Customer Engagement (on-premises) record types. If you don’t see the option, it’s not available for that record.  
   
-1. Open a list of records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application or in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. In the web app, click the arrow to the right of **Export to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]**. In [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], click **Data** > **Export to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]**.  
+1. Open a list of records in the Customer Engagement (on-premises) web application or in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. In the web app, click the arrow to the right of **Export to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]**. In [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], click **Data** > **Export to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]**.  
   
 2. Click **Dynamic PivotTable**.  
   

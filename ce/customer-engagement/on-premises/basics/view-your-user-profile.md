@@ -25,7 +25,7 @@ Your user profile displays useful information about you to your entire organizat
   
 1. Go to **Options**.  
   
-   In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], in the upper-right corner of the screen, choose the **Settings** button ![user-profile-settings-button](media/user-profile-settings-button.gif) > **Options**.  
+   In Customer Engagement (on-premises), in the upper-right corner of the screen, choose the **Settings** button ![user-profile-settings-button](media/user-profile-settings-button.gif) > **Options**.  
  
 <!-- In Dynamics 365 for Outlook: Choose **File** > **Dynamics 365 Customer Engagement (on-premises)** > **Options**.  -->   
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  

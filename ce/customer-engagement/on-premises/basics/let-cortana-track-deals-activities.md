@@ -28,7 +28,7 @@ search.app:
 > [!IMPORTANT]
 > We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 Customer Engagement (on-premises) offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 Customer Engagement (on-premises) and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration.
 
-We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help you keep track of important [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
+We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help you keep track of important Customer Engagement (on-premises) activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
   
  Cortana integration is available as a preview feature to organizations that use [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
   
@@ -40,7 +40,7 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
  <!-- Eventually, Cortana integration will be fully included in the product. --> 
   
 ## Enable Cortana integration with Dynamics 365 Customer Engagement (on-premises) on your device  
- If your admin has enabled [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system, [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] will prompt you to connect with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Just follow the prompts to connect.  
+ If your admin has enabled [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with your Customer Engagement (on-premises) system, [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] will prompt you to connect with Customer Engagement (on-premises). Just follow the prompts to connect.  
   
  **Dynamics 365 Customer Engagement (on-premises)** now appears in Cortana’s notebook, and [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] will prompt you with relevant information about your sales activities, accounts, opportunities, and meetings.  
   

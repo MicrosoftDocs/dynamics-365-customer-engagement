@@ -19,21 +19,21 @@ search.app:
 Click the tab for  the product or service you use.  
   
 ### Dynamics 365 Customer Engagement (on-premises) 
- With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], start by opening the app for your role: Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Operations, or Financials.  
+ With Customer Engagement (on-premises), start by opening the app for your role: Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Operations, or Financials.  
   
 > [!NOTE]
->  If you’re an administrator, open [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – Custom to access system-wide administrator or customizer settings.  
+>  If you’re an administrator, open Customer Engagement (on-premises) – Custom to access system-wide administrator or customizer settings.  
   
 ##### Open an app  
   
-1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** icon.  
+1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **Customer Engagement (on-premises)** icon.  
   
    ![Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) iconselected")  
   
    > [!NOTE]
    >  The apps available to you in the app launcher depend on your subscription.  
   
-2. In the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Home page, select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] app for your role.  
+2. In the Customer Engagement (on-premises) Home page, select the Customer Engagement (on-premises) app for your role.  
   
    ![Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps")  
 
@@ -43,14 +43,14 @@ Click the tab for  the product or service you use.
   
 ##### Switch to a different app  
   
-- On the navigation bar, go to **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]>My apps**, and then select the app you want.  
+- On the navigation bar, go to **Customer Engagement (on-premises)>My apps**, and then select the app you want.  
   
   ![Dynamics 365 Customer Engagement (on-premises) app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 Customer Engagement (on-premises) app switcher")  
   
 #### Find your way around the Sales, Customer Service, or Dynamics 365 Customer Engagement (on-premises)- Custom app  
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
- The following illustrations describe the sitemaps for the  Sales, Customer Service, and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] – Custom apps.  
+ The following illustrations describe the sitemaps for the  Sales, Customer Service, and Customer Engagement (on-premises) – Custom apps.  
   
 > [!NOTE]
 >  Your Sales or Customer Service app sitemap may be different if your app has been customized.  

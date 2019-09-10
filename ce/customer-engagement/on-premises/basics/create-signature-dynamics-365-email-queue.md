@@ -21,7 +21,7 @@ search.app:
 ---
 # Create a signature for your email or for a queue
 
-Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement to save time and be consistent in your responses. The owner of an email signature can be a user or a team.  
+Use an email signature in Customer Engagement (on-premises) Customer Engagement to save time and be consistent in your responses. The owner of an email signature can be a user or a team.  
   
 ## Create an email signature  
  To edit a signature if you are not a system administrator:  
@@ -53,7 +53,7 @@ Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest
 8. Click **Save and Close**.  
   
 ## Using email signatures  
- If you have a default signature, when you create a new email in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (for example, **Sales** > **Activities** > **Email**), an email signature is automatically added to the email based on the user you enter in the **From** field. An email signature must be defined for the user.  
+ If you have a default signature, when you create a new email in Customer Engagement (on-premises) (for example, **Sales** > **Activities** > **Email**), an email signature is automatically added to the email based on the user you enter in the **From** field. An email signature must be defined for the user.  
   
  To change or add a signature, click **Insert Signature** on the menu bar on an email form.  
   

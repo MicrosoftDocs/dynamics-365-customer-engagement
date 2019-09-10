@@ -31,7 +31,7 @@ Every day, you’ll work with different customer records and record types as you
 ## What’s a record?  
  In Dynamics 365 Customer Engagement (on-premises), a **record** is a complete unit of information. Think of it like a single row in a table, with multiple columns, also known as fields, to store the pieces of info that make up the entire row.  
   
- For example, for an account you could have a column for **Company name**, **Address**, and **Contact name** for the person you call when you want to check in on the account. Each time you add a new account to the system, you’re creating a new record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database.  
+ For example, for an account you could have a column for **Company name**, **Address**, and **Contact name** for the person you call when you want to check in on the account. Each time you add a new account to the system, you’re creating a new record in the Customer Engagement (on-premises) database.  
   
 ## What’s a record type?  
  Each record you add to the system belongs to a certain **record type**, such as account, contact, lead, opportunity, or case. Dynamics 365 Customer Engagement (on-premises) has quite a few other types of records besides these, but these are the ones you’ll probably work with most often for Sales and Customer Service.  

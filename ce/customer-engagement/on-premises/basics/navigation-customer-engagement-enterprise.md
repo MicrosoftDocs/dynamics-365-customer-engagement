@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Find your way around [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement apps
+# Find your way around Customer Engagement (on-premises) Customer Engagement apps
 
 With Dynamics 365 Customer Engagement (on-premises), start by opening the app for your role: Sales, Customer Service, Field Service or Project Service Automation.
   

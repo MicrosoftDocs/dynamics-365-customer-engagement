@@ -32,7 +32,7 @@ Export data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] w
 ## Export data to an Excel dynamic worksheet  
  You can’t export data to a dynamic worksheet in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] for all Dynamics 365 Customer Engagement (on-premises) record types. If you don’t see the option, it’s not available for that record.  
   
-1. Open a list of records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application or in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. In the web app, click the arrow to the right of **Export to Excel**. In [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], click **Data** > **Export to Excel**.  
+1. Open a list of records in the Customer Engagement (on-premises) web application or in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. In the web app, click the arrow to the right of **Export to Excel**. In [!INCLUDE[pn_dyn_365_app_outlook](../includes/pn-dyn-365-app-outlook.md)], click **Data** > **Export to Excel**.  
   
 2. Click **Dynamic Worksheet**.  
   
