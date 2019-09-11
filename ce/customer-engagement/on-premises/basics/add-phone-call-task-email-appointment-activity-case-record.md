@@ -1,5 +1,5 @@
 ---
-title: "Add a phone call, task, email, or appointment activity to a case or record (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Add a phone call, task, email, or appointment activity to a record (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
 ms.date: 08/29/2018
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Add a phone call, task, email, or appointment activity to a case or record 
+# Add a phone call, task, email, or appointment activity to a record 
 
 The activity and notes area helps you keep track of all the interactions with your customers. Record all important conversations with the customer or the communication with your team members regarding a record in Dynamics 365 Customer Engagement (on-premises). Add a phone call, task, notes, email, or appointments right within the case, account, contact, lead, or opportunity records without navigating to a different area and opening another form.  
   
