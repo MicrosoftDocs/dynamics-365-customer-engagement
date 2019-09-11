@@ -77,8 +77,4 @@ Export data to a standard [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.m
 ## Privacy notice  
 [!INCLUDE[cc_privacy_export_to_excel](../includes/cc-privacy-export-to-excel.md)]
 
-### See also  
- [Analyze your data with Excel templates](../admin/analyze-your-data-with-excel-templates.md)   
- [Analyze with Excel Online](../basics/analyze-dynamics-365-data-excel-online.md)   
- [Export to Excel PivotTable](../basics/export-excel-pivottable.md)   
- [Export to Excel static worksheet](../basics/export-excel-dynamic-worksheet.md)   
+
