@@ -31,11 +31,16 @@ search.app:
 When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
 
 This includes scheduling the requirement:
-- between two defined dates. Example: 9/10/2019 - 9/15/2019
-- between two defined times. Example: 9AM - 5PM
-- between two defined dates and times. Example: 9/10/2019 9AM - 9/11/2019 5PM
+- between two defined dates: 9/10/2019 - 9/15/2019
+- between two defined times: 9AM - 5PM
+- between two defined dates and times: 9/10/2019 9AM - 9/11/2019 5PM
 
 On the Work Order form you can add date and time values in the preference section:
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-work-order-fields.png)
+
 
 **Time from promised** and **Time to promised** -
 
