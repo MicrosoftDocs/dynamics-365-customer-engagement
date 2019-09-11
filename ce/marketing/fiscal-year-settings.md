@@ -25,7 +25,7 @@ search.app:
   - D365Mktg
 ---
 
-# Define fiscal year settings
+# Define fiscal year setting
 
 A fiscal period defines the time reflected in financial reports. It is used for reporting financial data in each period.
 
