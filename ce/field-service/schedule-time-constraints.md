@@ -172,7 +172,7 @@ Scheduling lock options prevent RSO from rescheduling a booking to a different t
 
 ### Fulfillment preferences
 
-- [Fulfillment preferences](/set-up-time-groups.md)
+Fulfillment preferences let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows. They can help dispatchers schedule work orders in times that are convenient for the customer. FOr more details see the topic on [Fulfillment preferences](/set-up-time-groups.md). 
 
 ### Booking Setup Metadata
 
