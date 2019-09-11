@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d691493b-2e39-4a89-9952-1500a8ddafd2
 caps.latest.revision: 41
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: mkaur
+ms.author: mduelae
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -25,7 +25,6 @@ Reports help you manage your progress towards your goals by helping you see how 
   
 For example it’s important for a sales team to know which product or service is selling and which is not doing so well. For a customer service team, it’s important to track the average time it takes to resolve an issue.  
 
-For more information on organizing and creating reports, see: [Customize and organize reports](../customize/customize-organize-reports.md) and [Introduction to reporting & analytics](../analytics/reporting-analytics-with-dynamics-365.md)
   
 ## To run a report  
   
