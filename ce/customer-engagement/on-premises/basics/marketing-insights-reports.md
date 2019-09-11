@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2a5e811a-7fbf-4aca-ba29-64b7270923e9
 caps.latest.revision: 12
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -50,5 +50,4 @@ Find out what’s working and what you need to change in your campaigns. Use the
 
 ### See also  
  [Run a report](../basics/run-report.md)   
- [Troubleshoot problems with data not displaying in a report](../basics/troubleshoot-reports.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)
+
