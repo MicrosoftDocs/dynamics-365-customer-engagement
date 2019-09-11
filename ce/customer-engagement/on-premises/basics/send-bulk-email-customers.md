@@ -25,18 +25,14 @@ You can send the same message to multiple recipients using email templates. This
   
 1.  Go to your work area. [(How do I get there?)](../basics/navigation-customer-engagement-enterprise.md)  
   
-2.  Choose the record type you want. For example, choose **Contacts**.  
+2.  Select the record type you want. For example, click **Contacts**.  
   
 3.  In the list of records, select the contacts you want to send email to.  
   
-4.  In the web app: Click the **More Commands** button ![Ellipsis button](../basics/media/ellipsis-button.gif "Ellipsis button"), and then click **Send Direct Email**.  
+4.  In the web app: Select the **More Commands** button ![Ellipsis button](../basics/media/ellipsis-button.gif "Ellipsis button"), and then select **Send Direct Email**.  
   
-<!-- > In Dynamics 365 for Outlook: In the **Collaborate** group, click **Send Direct Email**![send&#95;direct&#95;email](../basics/media/send-direct-email.gif "send_direct_email"). Or, just click **Send Direct Email** to send email to everyone on the list.  
--->   
+
 5.  In the **Send Direct Email** dialog box, select the template you want to use.  
   
 6.  Click **Send**.  
   
-### See also  
- [Create templates for email](../admin/create-templates-email.md)   
- [Work with mail merge templates](../admin/work-mail-merge-templates.md)
