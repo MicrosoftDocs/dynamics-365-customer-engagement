@@ -30,25 +30,29 @@ search.app:
 
 When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
 
-This includes scheduling the requirement:
-- between two defined dates: 9/10/2019 - 9/15/2019
-- between two defined times: 9AM - 5PM
-- between two defined dates and times: 9/10/2019 9AM - 9/11/2019 5PM
-
-On the Work Order form you can add date and time values in the preference section:
+This is done by entering date and time values on the Work Order form in the preference section:
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-fields.png)
 
+### Schedule between two dates
+- Example: 9/10/2019 - 9/15/2019
+- Enter **Date window start** and **Date window end**
+- Valid for Schedule Assistant and Resource Scheduling Optimization
 
-**Time from promised** and **Time to promised** -
+### Schedule between two times of day
+- Example: 9AM - 5PM
+- Enter **Time from promised** and **Time to promised**
+- Valid for Resource Scheduling Optimization
 
-**Date window start** and **Date window end** - 
+### Schedule between two dates and times
+- Example: 9/10/2019 9AM - 9/11/2019 5PM
+- Enter **Time window start** and **Time window end**
+- - Valid for Schedule Board, Schedule Assistant and Resource Scheduling Optimization
 
-**Time window start** and **Time window end** 
 
-These fields are passed along to the related resource requirement 
+These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
 
 Let's configure three scenarios to understand how dispatchers can schedule work orders within time constraints. 
 
