@@ -89,8 +89,6 @@ Present large quantities of data in your organization in a more insightful and g
   
 2. Open the chart designer:  
   
-   **If using the Dynamics 365 Customer Engagement (on-premises):**  
-  
 3. On the right side, select the **Charts** pane.  
 
 4. In the chart area, select the chart list, select the chart you want to edit, and then select the **Edit Chart** button.  
