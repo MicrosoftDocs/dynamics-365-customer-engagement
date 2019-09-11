@@ -137,7 +137,7 @@ Next, set a **Time Window Start** and **Time Window End** that represents a time
 > [!Note]
 > For this scenario, it is recommended to use Date Window along with Time Window rather than Time promised as Time Promised will take priority over the other parameters during optimization.
 
-When setting up RSO, ensure **Scheduling Windows** is a constraint in the goal you are running RSO with. For more details see the topic on [RSO COnfiguration](./rso-configuration.md). If you're new to RSO, see the [RSO Quickstart Guide](./rso-quickstart.md).
+When setting up RSO, ensure **Scheduling Windows** is a constraint in the Optimization Goal you are running RSO with. For more details see the topic on [RSO COnfiguration](./rso-configuration.md). If you're new to RSO, see the [RSO Quickstart Guide](./rso-quickstart.md).
 
 
 > [!div class="mx-imgBorder"]
@@ -151,9 +151,16 @@ After running RSO, you'll see the results on the schedule board. In our example,
 ## Configuration considerations
 
 ### Modify calendar
-- modify calendar for time zone
+You can define a time zone on the requirement to help dispatchers view schedule assistant results in the time zone of the customer, and it allows for dispatchers to work in different time zones than the resources. From the requirement, select **Modify Calendar** in the ribbon, then choose a Time Zone from the dropdown, then Save & Close.
+
+When you Book the requirement, the start times of the schedule results will reflect the chosen time zone. 
 
 ### Booking rules
+
+Field Service can perform custom booking rule validations, called Booking Rules, when creating a booking via the Schedule Board or Schedule Assistant. Booking rules are custom JavaScript functions that will be executed prior to the Bookable Resource Booking record being created.  The JavaScript function can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
+
+In the context of scheduling within time parameters, you can create a Booking Rule that performs custom validation on the date and time fields or even custom date and time fields you create. A simple example is to check that a booking starts on a Monday, Wednesday, or Friday, and if not, display an error message to the dispatcher on the schedule board.
+
 
 ### Booking lock options
 
