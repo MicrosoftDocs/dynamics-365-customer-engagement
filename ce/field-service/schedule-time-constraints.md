@@ -78,22 +78,21 @@ From the work order, enter **Date window start** and **Date window end** fields 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-date-window.png)
 
-Doing so will automatically populate the **From Date** and **To Date** on the related work order Resource Requirement. 
-
-
+Doing so will automatically populate the **From Date** and **To Date** on the related work order Resource Requirement and vice versa. This is true for the other fields in the Preferences section as well such as Time Promised and TIme Window. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-requirement-start-end.png)
 
-> [!Note]
-> Updating Date Window Start and Date Window End values on the work order will update the related requirement and vice versa. This is true for the other fields in the Preferences section as well such as Time Promised and TIme Window.
+When attempting to schedule this work order via the schedule assistant, from both the Book button on the form or from the Find Availability search on the schedule board, these date values will populate the **Search Start** and **Search End** filters. Resources who are available for the entire duration of the work order within the date range will display as options.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-search.png)
 
 
 > [!Note]
-> must be completed during time range
+> Using Date Window Start and End implies the work order must be completed during the date range based on the total duration of the requirement. As an example, if a work order is expected to take 25 hours, but the date range is 1 day (24 hours) then no resources will return as result because no one can complete the 25 hour work order in 1 day, even if he or she worked 24 hours each day.
+
+
 if current time is later than start time, start time will become current time. because you cant schedule in the past via schedule assistant
 
 
