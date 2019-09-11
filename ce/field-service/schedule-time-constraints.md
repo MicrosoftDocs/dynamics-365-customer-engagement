@@ -90,11 +90,7 @@ When attempting to schedule this work order via the schedule assistant, from bot
 
 
 > [!Note]
-> Using Date Window Start and End implies the work order must be completed during the date range based on the total duration of the requirement. As an example, if a work order is expected to take 25 hours, but the date range is 1 day (24 hours) then no resources will return as result because no one can complete the 25 hour work order in 1 day, even if he or she worked 24 hours each day.
-
-
-if current time is later than start time, start time will become current time. because you cant schedule in the past via schedule assistant
-
+> If the current time (time of scheduling) is later than the Search Start, Search Start will become the current time because you cannot schedule a work order in the past.
 
 
 ## Scenario 2: promised date and time windows
@@ -102,15 +98,18 @@ if current time is later than start time, start time will become current time. b
 Scenario 2: A diagnosis and repair work order must be scheduled before the end of the day tomorrow.
 
 
+To schedule based on a date **and** time, simply enter a **Time from promised** and **Time to promised** on the work order.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-promised.png)
 
+These values will be passed to the related requirement and appear as new filters when the schedule assistant is triggered.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-promised.png)
 
-
+**Time from promised** and **Time to promised** imply that the estimated arrival time of the work order must fall within the time range, but not necessarily completed before the end of **Time to promised**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-board-promised.png)
@@ -155,6 +154,9 @@ RSO has more powerful time constraints
 - From date and to date on booking setup metadata
 
 ## Additional Notes
+
+> [!Note]
+> Using Date Window Start and End implies the work order must be completed during the date range based on the total duration of the requirement. As an example, if a work order is expected to take 25 hours, but the date range is 1 day (24 hours) then no resources will return as results because no one can complete the 25 hour work order in 1 day, even if he or she works 24 hours each day as working hours.
 
 - **Current limitation: variable calendars** Out of the box the solution cannot consider variable calendars where certain days and times are restricted or required for scheduling. As an example, imagine a customer who requires on site service would like the work order to be scheduled on Mondays, Wednesdays, or Fridays between 12pm and 5pm each day. This cannot be achieved with the out of the box date and time preference fields or calendar. Possible remedies are to use notes to inform the dispatcher of the customer's time preferences, or to use Booking Rules to create custom logic with JavaScript, however as mentioned earlier Booking Rules only apply to manual scheduling on the Schedule Board.
 
