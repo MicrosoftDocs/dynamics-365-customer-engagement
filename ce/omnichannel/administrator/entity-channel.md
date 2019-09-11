@@ -5,7 +5,7 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 08/29/2019
+ms.date: 09/12/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 5e6285ee-4b79-473d-b920-d1fab636c82e	
@@ -31,11 +31,13 @@ In Omnichannel for Administrator, **Entity Records** channel helps you to automa
 
 ### Automatic distribution of cases
 
-Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to the manual queues, and then these cases are either manually by supervisors or manually picked by agents.
+Today, case routing in Dynamics 365 Customer Service enables organizations to route cases to the manual queues, and then these cases are either manually assigned by supervisors or manually picked by agents.
 
-With unified routing for entity records, cases can be routed to omnichannel-enabled queues along with work items that originate from other channels such as Chat and SMS.
+With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their availability and capacity.
 
-That is, the cases are routed to the queues based on the routing rules, and then the work distribution engine distributes the cases automatically to the agents based on the availability and capacity.
+## Unified Routing and Queues
+
+Cases and other entity records can be routed to omnichannel queues along with work items that originate from other channels such as Chat and SMS. 
 
 This allows organizations to tightly define the work profile that their agents are supposed to handle, and organizations can automate the work flow assignment across channels and assign the work items based on agents capacity and availability.
 
@@ -46,35 +48,31 @@ To configure entity records channel for case routing and automatic distribution,
 - You are on the latest version of Omnichannel for Customer Service.
 - You've installed the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
 
-## Entity records channel
+## Configure entity records channel
 
-In omnichannel, first, the application routes the entity records to the queues. From the queues the work distribution engine automatically distributes the entity records to the agents.
-
-**Entity Records** appears under the **Channels** in the Omnichannel for Administrator app. When you select the **Entity Records**, a blank **Entity Record Workstreams** view appears. You must create workstreams to route the case records.
-
-To setup the **Entity Record** channel and route the cases, follow the steps:
+To setup the **Entity Record** channel for cases, follow the steps:
 
 | Step | Description |
 |---------------|----------------------------|--------------------------------------------------------------------------------------------|
-| [Step 1: Create queues](#step-1-create-queues) | You must create a new omnichannel queue or use an existing omnichannel queue to route cases to the queues. |
-| [Step 2: Create workstream](#step-2-create-workstream) | You must create new workstreams to route the cases. |
-| [Step 3: Create routing rules](#step-3-create-routing-rules) | You must create routing rules, to automatically distribute the cases to the agents. |
-| [Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow) | You must update the Cases Work Distribution Flow with the workstream ID, to automatically distribute the cases to the agents. The Omnichannel application creates **Cases Work Distribution Flow** when you enable an entity records channel. |
+| [Step 1: Create queues](#step-1-create-queues) | Create a new omnichannel queue or continue using an existing omnichannel queue. |
+| [Step 2: Create workstream](#step-2-create-workstream) | Create a entity records workstream to enable entity record channel for cases, and define how these records will be distributed. |
+| [Step 3: Create routing rules](#step-3-create-routing-rules) | Create routing rules to route cases to the appropriate queues. |
+| [Step 4: Update Cases Work Distribution Flow](#step-4-update-cases-work-distribution-flow) | Update Cases Work Distribution Flow with workstream ID. |
 
 ## Step 1: Create queues
 
-You must create a new omnichannel queue or use an existing omnichannel queue to automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+Create a new omnichannel queue or use an existing omnichannel queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
 > [!Note]
 > If you enable the option - **Automatically move records to the owner's default queue when a record is created or assigned**, in the case entity customization, then the case entity record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the case records. <br><br> ![Automatic record movement to the agent's default queue](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
 
 ## Step 2: Create workstream
 
-You must create workstreams to automatically route the cases to the agents. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
+Create entity records workstream to enable entity record channel for cases, and define how these records will be distributed. To learn more, see [Entity record workstream](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
-After creating the workstream for the cases, you must create the routing rules. 
+After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues.
 
 > [!Note]
 > To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
