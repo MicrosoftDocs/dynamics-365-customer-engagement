@@ -23,7 +23,7 @@ search.app:
 
 You can send the same message to multiple recipients using email templates. This is known as *direct* or *bulk* emailing. You can also use mail merge with [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] and [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] templates to create the message.  
   
-1.  Go to your work area. [(How do I get there?)](../basics/navigation-customer-engagement-enterprise.md)  
+1.  Go to **Sales**, **Service**, or **Marketing**.
   
 2.  Select the record type you want. For example, click **Contacts**.  
   
