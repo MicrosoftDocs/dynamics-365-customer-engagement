@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a3c0bc58-7b21-496b-b63d-852d7301020c
 caps.latest.revision: 43
-author: jimholtz
-ms.author: jimholtz
-manager: brycho
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -23,16 +23,18 @@ search.app:
 
 When you want to present Customer Engagement (on-premises) information to an individual who doesn’t have access to Dynamics 365 Customer Engagement (on-premises), or you have data that doesn’t change often, consider exporting your Customer Engagement (on-premises) data to a [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] static worksheet.  
   
- <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 Customer Engagement (on-premises) lists up to 50 records per page. Choose the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  
+ <!--If you’re on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)], y--> You can export up to 100,000 records at a time. And by default, Dynamics 365 Customer Engagement (on-premises) lists up to 50 records per page. select the <strong>Page</strong> arrows at the bottom of the list to view any additional pages.  
   
 ## Export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] static worksheet  
  You may have the option to export data to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] static worksheet in all record types however, in some cases the format may be legacy, or the data may not be filtered by what you see in Dynamics 365 Customer Engagement (on-premises) view.  
   
-1. Open a list of records in the Customer Engagement (on-premises) web application or in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. Choose **Export to Excel**, and then choose **Static worksheet (Page only)**.  
+1. Open a list of records.
+
+2. On the commmand bar select, **Export to Excel** > **Static worksheet (Page only)**.  
+
+  By default, an exported worksheet includes the fields that are displayed in the list, using the same field order, sorting, and field widths. To make changes to the columns in an Advanced Find View, select **Edit Columns**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
   
-2. By default, an exported worksheet includes the fields that are displayed in the list, using the same field order, sorting, and field widths. To make changes to the columns in an Advanced Find View, choose **Edit Columns**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
-  
-3. Choose **Save** and then save the . xlsm file. Make note of the location where you saved the file.  
+3. Select **Save** and then save the . xlsm file. Make note of the location where you saved the file.  
   
    > [!NOTE]
    >  If you’re going to edit the data file later, it’s recommended that you save the file before you open it. Otherwise, you may get this error message: **Excel cannot open or save any more documents because there is not enough available memory or disk space**.  
@@ -41,7 +43,7 @@ When you want to present Customer Engagement (on-premises) information to an ind
    > 
    > 1. Open [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] and go to **File** > **Options** > **Trust Center** **Settings Center Settings…** > **Protected View**.  
    >    2.  In **Protected View**, uncheck all three items.  
-   >    3.  Then choose **OK** > **OK**.  
+   >    3.  Then select **OK** > **OK**.  
    > 
    >    We still strongly recommend that you save and then open the data file, rather than disabling protected view, which may put your computer at risk.  
   
