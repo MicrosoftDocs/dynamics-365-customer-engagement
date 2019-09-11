@@ -137,14 +137,15 @@ Next, set a **Time Window Start** and **Time Window End** that represents a time
 > [!Note]
 > For this scenario, it is recommended to use Date Window along with Time Window rather than Time promised as Time Promised will take priority over the other parameters during optimization.
 
-When setting up RSO, ensure **Scheduling Windows** is a constraint in the goal you are running RSO with. For more details see the topic on [RSO COnfiguration](./rso-configuration.md). If you're new to RSO, see the [RSO Quickstart](./rso-quickstart.md).
+When setting up RSO, ensure **Scheduling Windows** is a constraint in the goal you are running RSO with. For more details see the topic on [RSO COnfiguration](./rso-configuration.md). If you're new to RSO, see the [RSO Quickstart Guide](./rso-quickstart.md).
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-goal.png)
 
+After running RSO, you'll see the results on the schedule board. In our example, the work order could have been scheduled either 9/12 or 9/13 based on the date window of the work order, and whichever day it is scheduled, it should be scheduled in the afternoon between 12PM and 5PM. 
 
-> [!div class="mx-imgBorder"]
+ [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-schedule-board.png)
 
 ## Configuration considerations
