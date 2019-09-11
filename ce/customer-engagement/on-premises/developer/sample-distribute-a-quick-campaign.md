@@ -25,10 +25,11 @@ search.app:
 ---
 # Sample: Distribute a quick campaign
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Work with Marketing entities](https://code.msdn.microsoft.com/Marketing-Samples-c5429380).  
+This sample code is for Dynamics 365 for Customer Engagement (on-premises). Download the complete sample from [Sample: Work with Marketing entities](https://code.msdn.microsoft.com/Marketing-Samples-c5429380).  
 
 ## Prerequisites
-[!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
+
+Internet connection is required to download the sample project and to restore the NuGet packages used in the sample project.
   
 ## Requirements  
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
