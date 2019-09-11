@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises) (online)
 ms.assetid: 46306470-dca2-4d4e-8a98-d7a6eb47ecfe
 author: JimDaly
 ms.author: jdaly

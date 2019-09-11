@@ -1,6 +1,6 @@
 ---
 title: "Sample: Quick start for Dynamics 365 Customer Engagement (on-premises)(Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "Dynamics 365 for Customer Engagement Custommer Engagement web services by using the ServerConnection helper class and perform basic create, update, retrieve, and delete operations on an entity. "
+description: "Dynamics 365 Customer Engagement (on-premises) Custommer Engagement web services by using the ServerConnection helper class and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises) (online)
 ms.assetid: 0f1b28e3-0db0-4150-9c3b-d65daf0fabc5
 caps.latest.revision: 19
 author: JimDaly
@@ -20,16 +20,16 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample: Quick start for Dynamics 365 for Customer Engagement
+# Sample: Quick start for Dynamics 365 Customer Engagement (on-premises)
 
-The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to the Dynamics 365 for Customer Engagement web services by using the `ServerConnection` helper class and perform basic create, update, retrieve, and delete operations on an entity.
+The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to the Dynamics 365 Customer Engagement (on-premises) web services by using the `ServerConnection` helper class and perform basic create, update, retrieve, and delete operations on an entity.
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
 
 ## Requirements
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Quick start for Microsoft Dynamics 365 for Customer Engagement](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the complete sample from [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa).
 
 ## Demonstrates
 
@@ -40,6 +40,6 @@ This sample authenticates the user with the [!INCLUDE[pn_dynamics_crm](../includ
 
 ### See also
 
-[Tutorials for Learning About Dynamics 365 for Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
+[Tutorials for Learning About Dynamics 365 Customer Engagement (on-premises) Development apps](tutorials-resources-sdk.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
 [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />

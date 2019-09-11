@@ -1,6 +1,6 @@
 ---
 title: "Developer tools (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn about the developer tools provided for use with Dynamics 365 for Customer Engagement."
+description: "Learn about the developer tools provided for use with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises) (online)
 ms.assetid: 87099d51-4abe-406c-8f2d-e2375292bb64
 author: JimDaly
 ms.author: jdaly
@@ -39,7 +39,7 @@ This section provides a single location for you to learn about the developer too
 
 - [Metadata Browser](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser) - The tool helps you browse metadata from your Dynamics 365 organization.
 
-- [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility) - The tool helps you to bulk manage personal settings of your Dynamics 365 for Customer Engagement users.
+- [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility) - The tool helps you to bulk manage personal settings of your Dynamics 365 Customer Engagement (on-premises) users.
 
 - [Plugin Trace Viewer](https://www.xrmtoolbox.com/plugins/Cinteros.XrmToolBox.PluginTraceViewer) - The tool helps you to investigate the plug-in trace log with easy filtering capabilities.
 
