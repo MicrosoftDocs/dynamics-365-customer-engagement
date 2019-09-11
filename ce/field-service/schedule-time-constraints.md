@@ -123,12 +123,21 @@ Lastly, setting up [SLAs for Work Orders](./sla-work-orders.md) will populate th
 
 ## Scenario 3: automated scheduling with time parameters (RSO)
 
-Scenario 3: An inspection work order should be automatically scheduled in the afternoon within date range.
+Scenario 3: An inspection work order should be automatically scheduled in the afternoon within a date range.
 
-RSO has more powerful time constraints
+To automatically schedule work orders and other entities you must utilize the Resource Scheduling Optimization app (RSO). Unlike the Schedule Assistant and the Schedule Board, RSO will consider all three time parameters when automatically booking work orders to resources.
+
+First, on the work order, set a date range in the **Date Window Start** and **Date Window End**. 
+
+Next, set a **Time Window Start** and **Time Window End** that represents a time of day the work order should be automatically scheduled.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-window.png)
+
+> [!Note]
+> For this scenario, it is recommended to use Date Window along with Time Window rather than Time promised as Time Promised will take priority over the other parameters during optimization.
+
+When setting up RSO, ensure **Scheduling Windows** is a constraint in the goal you are running RSO with. For more details see the topic on [RSO COnfiguration](./rso-configuration.md). If you're new to RSO, see the [RSO Quickstart](./rso-quickstart.md).
 
 
 > [!div class="mx-imgBorder"]
