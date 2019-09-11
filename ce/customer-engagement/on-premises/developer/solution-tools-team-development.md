@@ -1,5 +1,5 @@
 ---
-title: "Solution tools for team development (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Solution tools for team development (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This topic gives details about tools that can be used for team development of Dynamics 365 for Customer Engagement solutions and for source code control"
 ms.custom: 
 ms.date: 03/29/2019

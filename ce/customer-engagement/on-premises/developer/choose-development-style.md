@@ -1,5 +1,5 @@
 ---
-title: "Choose your development style for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Choose your development style for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about the various options available to developers to make use of Dynamics 365 for Customer Engagement web services (SDK) or to extend the application."
 ms.custom: 
 ms.date: 03/29/2019
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Choose your development style for Dynamics 365 for Customer Engagement apps
+# Choose your development style for Dynamics 365 Customer Engagement (on-premises)
 
 The SDK offers a variety of methods and technologies to use when you write code to access the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web services or to extend the application. This topic provides guidance on the development style to choose depending on your technology area..  
 
@@ -40,7 +40,7 @@ The SDK offers a variety of methods and technologies to use when you write code 
 
   The following flow diagram illustrates which development style to choose when developing for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:  
 
-  ![Development style flow for Dynamics 365 for Customer Engagement apps](media/whentousewebapi.jpg "Development style flow for Dynamics 365 for Customer Engagement apps")  
+  ![Development style flow for Dynamics 365 Customer Engagement (on-premises)](media/whentousewebapi.jpg "Development style flow for Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="SDKAssemblies"></a>   
 
@@ -51,7 +51,7 @@ The SDK assemblies provides you with classes that you can use to connect to [!IN
 > [!IMPORTANT]
 >  You should use the latest version of the SDK assemblies to create your plug-ins, custom workflow activities, or XAML workflows. Starting with version 9.0, you should use .NET Framework version 4.6.2.
 > 
->  However, if you are using .NET Framework 4 and using the  [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class of SDK extensions ([deprecated](https://msdn.microsoft.com/library/dn281891.aspx#SDKExtensions)) to connect to [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) and [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (version 8.1.0) or later, you will need to use version 6.1.2 of the assemblies. Otherwise, you won't be able to connect. For more information about backward compatibility, see [Blog: Dynamics 365 for Customer Engagement apps SDK Backwards Compatibility](https://go.microsoft.com/fwlink/?linkid=842744)  
+>  However, if you are using .NET Framework 4 and using the  [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class of SDK extensions ([deprecated](https://msdn.microsoft.com/library/dn281891.aspx#SDKExtensions)) to connect to [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) and [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (version 8.1.0) or later, you will need to use version 6.1.2 of the assemblies. Otherwise, you won't be able to connect. For more information about backward compatibility, see [Blog: Dynamics 365 Customer Engagement (on-premises) SDK Backwards Compatibility](https://go.microsoft.com/fwlink/?linkid=842744)  
 
  When using the SDK assemblies to write code, you work with the Organization web service (SOAP endpoint) to connect to an instance of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, and perform the supported web service operations. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Organization Service](use-microsoft-dynamics-365-organization-service.md)  
 
@@ -83,7 +83,7 @@ The SDK assemblies provides you with classes that you can use to connect to [!IN
 
  The XRM tooling assemblies are available as NuGet packages; the packages are found under the [crmsdk](https://www.nuget.org/profiles/crmsdk) profile. Select any package in the list with "Xrm Tooling"  as the name  to navigate to the package details page. 
 
- With the connection string support available in XRM tooling and the [deprecation](https://msdn.microsoft.com/library/dn281891.aspx#SDKExtensions) of SDK extensions for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you must  use the XRM tooling assemblies instead of the [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class to connect to Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](xrm-tooling/use-connection-strings-xrm-tooling-connect.md) and [Sample: Simplified connection quick start using Dynamics 365 for Customer Engagement apps](xrm-tooling/sample-simplified-connection-quick-start.md)  
+ With the connection string support available in XRM tooling and the [deprecation](https://msdn.microsoft.com/library/dn281891.aspx#SDKExtensions) of SDK extensions for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you must  use the XRM tooling assemblies instead of the [CrmConnection](https://msdn.microsoft.com/library/microsoft.xrm.client.crmconnection\(v=crm.6\).aspx) class to connect to Dynamics 365 Customer Engagement (on-premises). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md) and [Sample: Simplified connection quick start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)  
 
 <a name="Connect"></a>   
 ## Choose how to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
@@ -93,13 +93,13 @@ The SDK assemblies provides you with classes that you can use to connect to [!IN
 | Development Style | Description |
 |----------|---------------|
 |  .NET: SDK assemblies | The SDK assemblies use [Windows Communication Foundation](https://msdn.microsoft.com/library/dd456779.aspx) (WCF) technology to establish a communication channel with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services. SDK simplifies use of the WCF technology by providing helper proxy classes that make it easy to write applications that connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services.<br /><br /> More information: [Use the sample and helper code](org-service/use-sample-helper-code.md), [Helper code: ServerConnection class](org-service/helper-code-serverconnection-class.md) |
-| .NET: XRM tooling assemblies   | Use the connection string, <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, or XRM tooling PowerShell cmdlets to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.<br /><br /> More information: [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](xrm-tooling/use-connection-strings-xrm-tooling-connect.md), [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md), [Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement apps](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md)                                 |
+| .NET: XRM tooling assemblies   | Use the connection string, <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class, or XRM tooling PowerShell cmdlets to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.<br /><br /> More information: [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md), [Use CrmServiceClient constructors to connect to Dynamics 365 for Customer Engagement](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect.md), [Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md)                                 |
 | [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Web API | More information: [Authenticate to Dynamics 365 for Customer Engagement with the Web API](webapi/authenticate-web-api.md) |
 
- For detailed information about authenticating users to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, see [Authenticate users in Dynamics 365 for Customer Engagement apps](authenticate-users.md)  
+ For detailed information about authenticating users to connect to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, see [Authenticate users in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)  
 
 ### See also  
- [Authenticate users in Dynamics 365 for Customer Engagement apps](authenticate-users.md)   
- [Tutorials for Learning About Development for Dynamics 365 for Customer Engagement apps](tutorials-resources-sdk.md)   
+ [Authenticate users in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
+ [Tutorials for Learning About Development for Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)   
  [Write Code for Dynamics 365 for Customer Engagement 2011 and Dynamics 365 for Customer Engagement (Web Services, JavaScript)](extend-dynamics-365-server.md)   
- [Introduction to Programming Models for Dynamics 365 for Customer Engagement apps](programming-models.md)   
+ [Introduction to Programming Models for Dynamics 365 Customer Engagement (on-premises)](programming-models.md)   

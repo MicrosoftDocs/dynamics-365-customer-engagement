@@ -1,6 +1,6 @@
 ---
-title: "Browse the metadata for your organization (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 for Customer Engagement apps. The Entity Metadata Browser is a managed solution you can download and install on your organization."
+title: "Browse the metadata for your organization (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "You can use the Entity Metadata Browser to view entities and their properties in Dynamics 365 Customer Engagement (on-premises). The Entity Metadata Browser is a managed solution you can download and install on your organization."
 keywords: 
 ms.date: 03/29/2019
 ms.service: crm-online
@@ -97,8 +97,8 @@ You can perform the following actions:
 
 ### See also
 
- [Developer Tools for Dynamics 365 for Customer Engagement apps](developer-tools.md)<br />
+ [Developer Tools for Dynamics 365 Customer Engagement (on-premises)](developer-tools.md)<br />
  [Customize Entity Metadata](customize-entity-metadata.md)<br />
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)<br />
+ [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)<br />
  [Create Early Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](org-service/create-early-bound-entity-classes-code-generation-tool.md)<br />
  [Solution Tools for Team Development](solution-tools-team-development.md)

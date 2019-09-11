@@ -1,5 +1,5 @@
 ---
-title: "Developer resources page (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Developer resources page (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Read how you can find your organization unique name, Discovery service endpoint address, Organization service endpoint address and issuer name to access Azure Service Bus using the Developer Resources page"
 ms.custom: 
 ms.date: 03/29/2019
@@ -48,7 +48,7 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
  Provides a download link to the public certificate that is required to configure [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps integration. For an on-premises or Internet-facing deployment, this information is only visible after [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been configured for [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration.  
   
- For more information, see [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md).  
+ For more information, see [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md).  
  
   
 <a name="discovery"></a>   

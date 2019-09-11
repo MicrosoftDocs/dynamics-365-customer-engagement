@@ -1,5 +1,5 @@
 ---
-title: "Run a simple program using web services (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Run a simple program using web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn to run a simple program using Dynamics 365 for Customer Engagement web services."
 ms.custom: 
 ms.date: 03/29/2019
@@ -26,7 +26,7 @@ This topic shows you how to compile and run a  program that creates an account r
 
 ## Prerequisites
 
-- Download the [Sample: Quick start for Microsoft Dynamics 365 for Customer Engagement apps](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa)
+- Download the [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa)
 - You must be able to sign in to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.  
 - [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] 
 - [!INCLUDE [pn-net-framework462-long](../includes/pn-net-framework462-long.md)]
@@ -71,9 +71,9 @@ After running the QuickStart program or most other SDK console-based samples, th
  A second sample project, named **QuickStart with Simplified Connection**, is included in the [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] solution. This second sample shows a simplified method to connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Organization service but is otherwise similar to the first QuickStart sample. This sample does not use any helper code to establish a web service connection.  
 
 ### See also  
- [Tutorials for Learning Dynamics 365 for Customer Engagement apps](tutorials-resources-sdk.md)   
+ [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)   
  [Sample: Quick Start for Dynamics 365 for Customer Engagement](sample-quick-start.md)   
- [Sample: Simplified Connection Quick Start using Dynamics 365 for Customer Engagement apps](xrm-tooling/sample-simplified-connection-quick-start.md)   
- [Write Code for Dynamics 365 for Customer Engagement apps](extend-dynamics-365-server.md)   
- [Sample Code Directory for Dynamics 365 for Customer Engagement apps](sample-code-directory.md)   
+ [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)   
+ [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
+ [Sample Code Directory for Dynamics 365 Customer Engagement (on-premises)](sample-code-directory.md)   
  [Build a .NET Business Application in 60 Minutes with xRM and SharePoint](http://www.microsoftpdc.com/2009/PR33)
