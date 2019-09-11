@@ -1,5 +1,5 @@
 ---
-title: "Place calls with Skype or Skype for Business (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Place calls with Skype or Skype for Business (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -21,7 +21,7 @@ search.app:
 ---
 # Place calls with Skype or Skype for Business
 
-If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can click a phone number to call your contacts from within Dynamics 365 Customer Engagement (on-premises). This capability is called “click to call.”  
+If your organization is set up to use [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_skype_for_business](../includes/pn-skype-for-business.md)], you can select a phone number to call your contacts from within Dynamics 365 Customer Engagement (on-premises). This capability is called “click to call.”  
   
 > [!NOTE]
 > [!INCLUDE[cc_lync_rebranded_skype_for_business](../includes/cc-lync-rebranded-skype-for-business.md)]  
