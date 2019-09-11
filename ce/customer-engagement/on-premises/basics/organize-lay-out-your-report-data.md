@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b4a11cd3-87aa-46b3-9073-6d2ae9d28717
 caps.latest.revision: 23
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: mkaur
+ms.author: mduelae
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -31,7 +31,7 @@ When you create a report, you have to decide which columns to include, the order
 
 To group items so that they are organized together in the report by date or other common properties.  
 
-1. For each grouping level you need, click or tap **Click here to add a grouping**.  
+1. For each grouping level you need, select **Click here to add a grouping**.  
 
 2. Define the grouping:  
 
@@ -49,31 +49,31 @@ To group items so that they are organized together in the report by date or othe
 
 3. To reorder the grouping levels, use the up and down arrows in the **Common Tasks** section.  
 
-4. Click or tap **OK**.  
+4. Select **OK**.  
 
 ### To define the sort order within each group
 
-1. Click or tap **Configure Sorting**
+1. Select **Configure Sorting**
 
 2. Select a column and sort order
 
-3. Click or tap **OK**.  
+3. Select **OK**.  
 
 ### To limit reports to groups with the highest or lowest values
 
-1. Click or tap **Set Top or Bottom Number**:  
+1. Select **Set Top or Bottom Number**:  
 
 2. Select **Top** or **Bottom**.  
 
 3.  Select the number of groups to display.  
 
-4.  Click or tap **OK**.  
+4.  Select **OK**.  
 
 ##  Define which columns to display in the report
 
 You can display columns that show data from a record, or columns that show summary information.  
 
-1. For each column you want to include, click or tap **Click here to add a column**:  
+1. For each column you want to include, select **Click here to add a column**:  
 
    - **Record type**.  You can select records from the primary record type you selected, and from any related record types.  If you selected a secondary record type, you can also select records from the secondary record type and its related records types.  
 
@@ -95,10 +95,8 @@ You can display columns that show data from a record, or columns that show summa
 
 2. Use the left and right arrows to reorganize the columns.  
 
-3. Click or tap **OK**.  
+3. Select **OK**.  
 
-4. Click or tap **Next**.  
+4. Select **Next**.  
   
-### See also  
- [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)
- [Get started writing reports](../analytics/get-started-writing-reports.md)
+
