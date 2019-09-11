@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 541595fb-8b5c-4f76-bdd1-80dd2ca3d8d2
 caps.latest.revision: 16
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -21,16 +21,7 @@ search.app:
 ---
 # Reports for customer service insights
 
-Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your customer service efforts: 
-
-|Description|More information|  
-|-----------------|----------------------|  
-|Types of opened and resolved cases|[Case Summary Table report](../basics/service-insights-reports.md#BKMK_CaseSummary)|  
-|Cases with no recent activity|[Neglected Cases report](../basics/service-insights-reports.md#BKMK_NeglectedCases)|  
-|Amount and length of service activities|[Service Activity Volume report](../basics/service-insights-reports.md#BKMK_ServiceActivity)|  
-|Activity patterns|[Activities report](#BKMK_Activities)|  
-|Most searched knowledge base articles|[Top knowledge base articles report](../basics/service-insights-reports.md#BKMK_TopKB)|  
-
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. The customer service insight reports help you see how our service team is doing.
 
 <a name="BKMK_CaseSummary"></a>  
 ## Case Summary Table report
