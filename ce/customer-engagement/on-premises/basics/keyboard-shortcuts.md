@@ -7,7 +7,7 @@ applies_to:
 author: ReneeW-CPub
 ms.author: renwe
 manager: annbe
-ms.date: 05/30/2018
+ms.date: 09/15/2019
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
