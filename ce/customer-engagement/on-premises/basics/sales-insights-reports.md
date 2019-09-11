@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d8029ee8-6c19-4ce8-96eb-3a74b48c4d37
 caps.latest.revision: 11
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: mkaur
+ms.author: mduelae
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -21,17 +21,7 @@ search.app:
 ---
 # Reports for sales insights
 
-Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your sales efforts: 
-
-|Description|More information|  
-|-----------------|----------------------|  
-|Sales team performance against competitors|[Competitor Win Loss report](#BKMK_CompetitorWinLoss)|  
-|Activity patterns|[Activities report](#BKMK_Activities)|  
-|Sales progress against goals|[Progress Against Goals report](#BKMK_ProgressGoals)|  
-|Sales performance of reps|[Sales History report](#BKMK_SalesHistory)|  
-|Potential sales opportunities|[Sales Pipeline report](#BKMK_SalesPipeline)|  
-|Compare effectiveness of lead sources for generating opportunities|[Lead Source Effectiveness report](#BKMK_LeadSource)|  
-|Leads that haven’t been contacted|[Neglected Leads report](#BKMK_NeglectedLeads)|  
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. 
 
 <a name="BKMK_CompetitorWinLoss"></a>   
 ## Competitor Win Loss report
@@ -95,5 +85,3 @@ Click **Show All** to drill down into the report.
  
 ### See also  
  [Run a report](../basics/run-report.md)   
- [Troubleshoot problems with data not displaying in a report](../basics/troubleshoot-reports.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)
