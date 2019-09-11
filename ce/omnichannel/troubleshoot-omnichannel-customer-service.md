@@ -30,6 +30,7 @@ If your organization has an expired Office 365 or Teams license, then the Omnich
 To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**.
 
 [Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
+
 [Step 2: Use PowerShell to remove Microsoft Teams Service Principal](step-2-use-powershell-to-remove-microsoft-teams-service-principal)
 
 #### Step 1: Identify Teams Service Principal in Azure Active Directory
