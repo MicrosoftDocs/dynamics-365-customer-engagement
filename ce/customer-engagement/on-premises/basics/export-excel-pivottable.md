@@ -42,9 +42,9 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
   
 1. Open a list of records. 
   
-2. On the command bar, select ** **Dynamic PivotTable**.  
+2. On the command bar, select **Export to Excel** > **Dynamic PivotTable**.  
   
-3. In the **Select PivotTable Columns** list, select or clear the check boxes for the fields as needed, and then select **Export**.  
+3. In the **Select PivotTable Columns** list, clear the check boxes for the fields as needed, and then select **Export**.  
   
     By default, the **PivotTable Field List** includes only fields that are displayed in the **Select PivotTable Columns** list.  
   
@@ -86,8 +86,6 @@ You can export Dynamics 365 Customer Engagement (on-premises) data to a [!INCLUD
 - If you’re going to make changes and import the data file back in to Dynamics 365 Customer Engagement (on-premises), remember that secured, calculated, and composite fields (such as Full Name) are read-only and can’t be imported in to Dynamics 365 Customer Engagement (on-premises). You’ll be able to edit these fields in Excel but when you import the data back in to Dynamics 365 Customer Engagement (on-premises) these fields won’t be updated. If you want to update these fields such as a contact’s name, it’s recommend that you use that view to export your data, update them in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)], and import them back to Dynamics 365 Customer Engagement (on-premises) for changes.  
   
 - Some system views, such as Accounts: No Campaign Activities in Last 3 Months, can be exported only to a static [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] worksheet.  
-  
-- For anyone who is not on [!INCLUDE[pn_crm_online_2015_update_1_shortest](../includes/pn-crm-online-2015-update-1-shortest.md)] or [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] and you are using the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)][!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] web app, you must save the file, open the file using the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] desktop application, and then resave the file to the . xlsx format. You can then reopen the [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] document in [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] Online.  
   
 - Your operating system region settings (in Windows, **Control Panel** > **Region**) and Dynamics 365 Customer Engagement (on-premises) region settings (**Settings** (![Settings button on the nav bar](../basics/media/settings-gear-icon.png "Settings button on the nav bar")) > **Options** > **Languages**) should be the same. If not, refreshing dynamic data with **Refresh from CRM** might cause data changes.  
   
