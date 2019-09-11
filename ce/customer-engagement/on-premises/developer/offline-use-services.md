@@ -27,10 +27,10 @@ search.app:
   
  For more information about whether a message is supported offline, see <xref:Microsoft.Crm.Sdk.Messages>. You can also determine whether a <xref:Microsoft.Xrm.Sdk.IOrganizationService> message works offline by checking the `SdkMessage.Availability` attribute for the desired message. If the message works for multiple entity types, you must also check the `SdkMessageFilter.Availability` attribute to see whether the message is available offline for the entity you want to work with. For example, the `Create` message is available offline, but not for the queue, user, or site entities.  
   
- Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699694.aspx).  
+ Tracing can be enabled on the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] for debugging. For more information about the event viewer and platform tracing, see [Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699694.aspx).  
   
 ### See also  
- [Extend Dynamics 365 for Customer Engagement apps on the server](../extend-dynamics-365-server.md)   
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the server](../extend-dynamics-365-server.md)   
  [Troubleshooting and error handling](troubleshooting-error-handling.md)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  [Organization Service Methods](organization-service-methods.md)   

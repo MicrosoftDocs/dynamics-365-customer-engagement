@@ -1,8 +1,8 @@
 ---
-title: "Sample Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x | MicrosoftDocs"
 description: "Add description."
 ms.custom: on-premises
-ms.date: 2/6/2019
+ms.date: 10/1/2019
 ms.reviewer: "pehecke"
 ms.service: crm
 ms.topic: "article"
@@ -10,9 +10,20 @@ author: "kvivek"
 ms.author: "KumarVivek"
 manager: "kvivek"
 ---
-# Sample topic
+# Administrator Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
-Delete the topic or reuse it.
+Implementers and administrators for Dynamics 365 Customer Engagement (on-premises) will find the resources and topics provided in this guide to help you manage and configure Customer Engagement (on-premises) applications and services.
 
-## See also
+> [!NOTE]
+> This content is for Dynamics 365 Customer Engagement (on-premises), version 9.x. 
+> - For documentation for earlier versions, see [Administering Dynamics 365](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531101(v=crm.8))
+> - If you are an online customer, see [Administer Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
+
+### See also
+
+[Deployment and operation Guide](../deploy/overview.md)<br/>
+[Customization Guide](../customize/overview.md)<br />
+[Developer Guide](../developer/overview.md)<br />
+[Reporting and Analytics Guide](../analytics/overview.md) <br />
+[Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)
 
