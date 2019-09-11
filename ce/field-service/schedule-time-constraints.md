@@ -30,7 +30,7 @@ search.app:
 
 When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
 
-This is done by entering date and time values on the Work Order form in the preference section:
+This is done by entering date and time values on the Work Order form in the preference section, or similar fields on the requirement form if you're scheduling entities other than work orders.
 
 
 > [!div class="mx-imgBorder"]
@@ -39,20 +39,20 @@ This is done by entering date and time values on the Work Order form in the pref
 ### Schedule between two dates
 - Example: 9/10/2019 - 9/15/2019
 - Enter **Date window start** and **Date window end**
-- Valid for Schedule Assistant and Resource Scheduling Optimization
+- Considered by Schedule Assistant and Resource Scheduling Optimization
 
 ### Schedule between two times of day
 - Example: 9AM - 5PM
-- Enter **Time from promised** and **Time to promised**
-- Valid for Resource Scheduling Optimization
+- Enter **Time window start** and **Time window end**
+- Considered by Resource Scheduling Optimization
 
 ### Schedule between two dates and times
 - Example: 9/10/2019 9AM - 9/11/2019 5PM
-- Enter **Time window start** and **Time window end**
-- - Valid for Schedule Board, Schedule Assistant and Resource Scheduling Optimization
+- Enter **Time from promised** and **Time to promised**
+- Considered by Schedule Board, Schedule Assistant and Resource Scheduling Optimization
 
 
-These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
+## Instructions 
 
 Let's configure three scenarios to understand how dispatchers can schedule work orders within time constraints. 
 
@@ -64,7 +64,9 @@ Let's configure three scenarios to understand how dispatchers can schedule work 
 
 ## Prerequisites
 
+- Date and time parameters apply to all versions of Field Service
 
+- Understand that the date and time parameters are not considered by all three scheduling methods: manual scheduling via the schedule board, semi-automated scheduling via the Schedule Assistant, and automated scheduling via Resource Scheduling Optimization. 
 
 
 ## Scenario 1: date windows
@@ -74,6 +76,8 @@ Scenario 1: An installation work order must be scheduled and is expected to be c
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-date-window.png)
+
+These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
 
 
 > [!div class="mx-imgBorder"]
