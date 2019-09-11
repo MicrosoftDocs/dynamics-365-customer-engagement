@@ -30,7 +30,7 @@ When you create a new report, share it with other people on your team or in your
   
 2. In the list of reports, select the report and on the command bar, select **Edit**.  
 
-3. On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Sharing**
+3. On the **Actions**![action](../basics/media/action-button.gif "action") menu, select **Sharing**.
   
 4.  In the **Share Report** dialog box, select **Add User/Team**.  
   
