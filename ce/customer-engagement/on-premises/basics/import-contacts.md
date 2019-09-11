@@ -22,9 +22,6 @@ search.app:
 # Import contacts
 
 Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into Dynamics 365 Customer Engagement (on-premises) so you have all your business contact information in Customer Engagement (on-premises).  
-
-> [!TIP]
->  You can also use the new [!INCLUDE[pn_data_loader_service](../includes/pn-data-loader-service.md)] (preview feature) to import bulk data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Import bulk data with the Data Loader](../admin/import-bulk-data-data-loader.md)  
   
 ## Step 1: Get your import file ready  
 First, you export your contacts into a file. These file formats are supported:  
