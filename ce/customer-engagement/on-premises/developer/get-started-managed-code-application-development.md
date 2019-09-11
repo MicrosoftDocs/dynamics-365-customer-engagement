@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises) (on-premises)
 ms.assetid: fe35e880-9612-4d48-8fbe-2c2237baea32
 caps.latest.revision: 13
 author: JimDaly
@@ -32,6 +32,6 @@ This guide shows you how to write application code that connects to the Dynamics
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
   
 ### See also  
- [Programming models for Dynamics 365 for Customer Engagement apps](../programming-models.md)  
+ [Programming models for Dynamics 365 Customer Engagement (on-premises)](../programming-models.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)  
  [PowerApps-Samples](https://github.com/Microsoft/PowerApps-Samples)
