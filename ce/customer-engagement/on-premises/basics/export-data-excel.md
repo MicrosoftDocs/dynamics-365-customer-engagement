@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Export data to [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)]
+# Export data to Excel
 
 Do you need to analyze your data from Dynamics 365 Customer Engagement (on-premises) and convert that data into actionable items that help you drive more sales? You can choose to export static worksheets or dynamic worksheets, which you can import back into Customer Engagement (on-premises). If you need more advanced functions, you can export a dynamic PivotTable, which makes it very easy to organize and summarize data. Also, analyzing large datasets is not a problem because you can export up to 100,000 rows of data.  
   
