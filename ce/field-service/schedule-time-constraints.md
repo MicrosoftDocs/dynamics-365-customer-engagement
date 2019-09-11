@@ -66,18 +66,20 @@ Let's configure three scenarios to understand how dispatchers can schedule work 
 
 - Date and time parameters apply to all versions of Field Service
 
-- Understand that the date and time parameters are not considered by all three scheduling methods: manual scheduling via the schedule board, semi-automated scheduling via the Schedule Assistant, and automated scheduling via Resource Scheduling Optimization. 
+- Understand that Resource Scheduling Optimization considers all date and time parameters but the Schedule Board and Schedule Assistant do not. See above to understand which scheduling methods consider which date and time parameters.
 
 
 ## Scenario 1: date windows
 
 Scenario 1: An installation work order must be scheduled and is expected to be completed this week.
 
+From the work order, enter **Date window start** and **Date window end** fields to represent the week the work order should be scheduled and completed within.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-date-window.png)
 
-These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
+Doing so will automatically populate the **From Date** and **To Date** on the related work order Resource Requirement. 
+
 
 
 > [!div class="mx-imgBorder"]
@@ -156,4 +158,7 @@ RSO has more powerful time constraints
 ## Additional Notes
 
 - **Current limitation: variable calendars** Out of the box the solution cannot consider variable calendars where certain days and times are restricted or required for scheduling. As an example, imagine a customer who requires on site service would like the work order to be scheduled on Mondays, Wednesdays, or Fridays between 12pm and 5pm each day. This cannot be achieved with the out of the box date and time preference fields or calendar. Possible remedies are to use notes to inform the dispatcher of the customer's time preferences, or to use Booking Rules to create custom logic with JavaScript, however as mentioned earlier Booking Rules only apply to manual scheduling on the Schedule Board.
+
+- Scheduling entities other than work orders? These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
+
 - could have date window start/end mon-fri and use time windows for 9-5. if not scheduled by end of the week use workflow to make it next week.
