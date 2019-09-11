@@ -1,7 +1,7 @@
 ---
-title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Import accounts, leads, or other data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 09/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: dee40fe5-1942-4521-986f-714edfd36433
 caps.latest.revision: 37
 author: mduelae
-ms.author: anbichse
-manager: brycho
+ms.author: mkaur
+manager: kvivke
 search.audienceType: 
   - enduser
 search.app: 
@@ -62,9 +62,9 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
 ## Step 2: Run the Import Data wizard  
  You’ll use the **Import Data** wizard to import the file.  
   
-1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
+1. Go to **Settings** > **Data Management** > **Imports**.
   
-2. Choose **Imports** > **Import Data**.  
+2. ON the command bar select **Import Data** 
   
 3. Browse to the folder where you saved the file that contains the import file. Select the file, and then choose **Open**. Then, choose **Next**.  
   
@@ -140,8 +140,4 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
 
 15. If needed, learn about removing duplicates: [Merge duplicate records for accounts, contacts, or leads](merge-duplicate-records-accounts-contacts-leads.md)
   
-### See also  
- [Select a data map](select-data-map.md)   
- [Review settings and import data](review-settings-import-data.md)  
- [Import contacts](../basics/import-contacts.md)  
- [Import data (for developers)](../developer/import-data.md)
+
