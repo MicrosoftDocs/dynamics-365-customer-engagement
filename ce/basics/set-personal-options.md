@@ -1,7 +1,7 @@
 ---
 title: "Set personal options (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/10/2019
+ms.date: 09/11/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -107,7 +107,7 @@ If you’re an administrator, you can also set system settings that affect all u
 |**Select if other users can send emails for you**     |  |   
 | Allow other [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users to send email on your behalf. **Note:**  This option is not available in [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. |   Select this option to allow other users of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to send email on your behalf. **Caution:**  If you select this option, other users can send email on your behalf with or without your consent. Your email name will appear as the sender.       |    
 |   **Select the email messages to track in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]**  |   |  
-|     Track   | Select the email messages that you want to  automatically track in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].<br /><br /> **Options:**<br /><br /> -   All Email messages<br />-   Email messages in response to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] email<br />-   Email messages from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Leads, Contacts and Accounts<br />-   Email messages from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that are email enabled <br />-   No email messages: auto tracked email items from Inbox/Sent items folder will not be synced from Microsoft Exchange. Folder-based tracking and manual tracking will continue to work. Outgoing email will not be impacted.|   
+|     Track   | Select the email messages that you want to  automatically track in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].<br /><br /> **Options:**<br /><br /> -   All Email messages<br />-   Email messages in response to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] email<br />-   Email messages from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Leads, Contacts and Accounts<br />-   Email messages from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records that are email enabled <br />-   No email messages: auto tracked email items from Inbox/Sent items folder will not be synced. Folder-based tracking and manual tracking will continue to work. Outgoing email will not be impacted.|   
 |  Configure Folder Tracking Rules  |    Set up folders to automatically track incoming email. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](../admin/track-outlook-email-by-moving-it-tracked-exchange-folder.md)     |  
 |     **Automatically create records in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]**   |    |  
 |  Create   |    Select this option to allow [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to create leads or contacts automatically from the information in tracked email messages.    |   
