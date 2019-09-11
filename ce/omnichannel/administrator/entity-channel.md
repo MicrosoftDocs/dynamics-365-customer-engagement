@@ -35,7 +35,7 @@ Today, case routing in Dynamics 365 Customer Service enables organizations to ro
 
 With unified routing for entity records, organizations can route cases and other entity records to omnichannel queues. The cases and other entity records routed to omnichannel queues are automatically distributed and assigned to best available agents based on their availability and capacity.
 
-## Unified Routing and Queues
+### Unified Routing and Queues
 
 Cases and other entity records can be routed to omnichannel queues along with work items that originate from other channels such as Chat and SMS. 
 
