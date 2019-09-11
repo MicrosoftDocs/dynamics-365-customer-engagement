@@ -25,19 +25,17 @@ You can drill down into a segment on a chart to filter chart data for that segme
   
 1. Open the list of records you want to chart, and then select the chart bar to the right of or above the list of records.  
   
-2. [!INCLUDE[proc_follow_step_for_app_youre_using](../includes/proc-follow-step-for-app-youre-using.md)]  
-  
-3.  Select the **Charts** area.  
+2.  Select the **Charts** area.  
     
-4.  In the chart area, select the arrow next to the chart name, and then select the name of a chart.  
+3.  In the chart area, select the arrow next to the chart name, and then select the name of a chart.  
   
-5.  Select the category area of the chart you want to drill down into.  
+4.  Select the category area of the chart you want to drill down into.  
   
-6.  In the shortcut menu, select **Select Field**, and then select the field to group by.  
+5.  In the shortcut menu, select **Select Field**, and then select the field to group by.  
   
-7.  Select the button for a chart type.  
+6.  Select the button for a chart type.  
   
-8.  Select **OK**.  
+7.  Select **OK**.  
   
     > [!NOTE]
     >  To go back to the previous chart, select **Back**.  
