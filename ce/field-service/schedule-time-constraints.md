@@ -145,7 +145,7 @@ When setting up RSO, ensure **Scheduling Windows** is a constraint in the Optimi
 
 After running RSO, you'll see the results on the schedule board. In our example, the work order could have been scheduled either 9/12 or 9/13 based on the date window of the work order, and whichever day it is scheduled, it should be scheduled in the afternoon between 12PM and 5PM. 
 
- [!div class="mx-imgBorder"]
+> [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-work-order-rso-schedule-board.png)
 
 ## Configuration considerations
@@ -162,7 +162,13 @@ Field Service can perform custom booking rule validations, called Booking Rules,
 In the context of scheduling within time parameters, you can create a Booking Rule that performs custom validation on the date and time fields or even custom date and time fields you create. A simple example is to check that a booking starts on a Monday, Wednesday, or Friday, and if not, display an error message to the dispatcher on the schedule board.
 
 
-### Booking lock options
+### Scheduling lock options
+
+Scheduling lock options prevent RSO from rescheduling a booking to a different time or resource. From the Booking, simply set a value in the Scheduling lock options field.
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-lock-options.png)
 
 ### Fulfillment preferences
 
