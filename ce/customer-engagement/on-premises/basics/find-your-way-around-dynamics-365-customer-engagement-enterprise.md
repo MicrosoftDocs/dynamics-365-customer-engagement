@@ -5,7 +5,7 @@ keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Ser
 author: mduelae
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: mkaur
-manager: kvivke
+manager: kvivek
 ms.date: 09/15/2018
 ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
@@ -165,18 +165,6 @@ search.app:
   
  **6**.  Get in-context help (guided tasks, videos, eBooks, and topics).  
   
-##### Where to go for more info on each app  
- [Dynamics 365 Customer Engagement (on-premises) for Sales User Guide](../sales-enterprise/user-guide.md)
-  
- [Dynamics 365 Customer Engagement (on-premises) for Customer Service User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
- 
- [Dynamics 365 Customer Engagement (on-premises) for Customer Service User Guide (legacy web app)](../customer-service/user-guide-customer-service.md)  
-  
- [Dynamics 365 Customer Engagement (on-premises) for Field Service User Guide](../field-service/user-guide.md)  
-  
- [Dynamics 365 Customer Engagement (on-premises) for Project Service Automation User Guide](../field-service/user-guide.md)  
-  
- [Administrator's Guide to Dynamics 365 Customer Engagement (on-premises)](../admin/admin-guide.md)  
   
 ### CRM 2016  
   
