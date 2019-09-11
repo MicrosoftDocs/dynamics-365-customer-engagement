@@ -109,15 +109,17 @@ These values will be passed to the related requirement and appear as new filters
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-assistant-promised.png)
 
-**Time from promised** and **Time to promised** imply that the estimated arrival time of the work order must fall within the time range, but not necessarily completed before the end of **Time to promised**.
+**Time from promised** and **Time to promised** implies that the estimated arrival time must fall within the time range, the resource has availability for the duration of the work order based on his or her working hours, but not necessarily completed before the end of **Time to promised**. This differs from date window start and end.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-time-constraint-schedule-board-promised.png)
 
-> [!Note]
-> it is continuous time range, limited by resources working hours, not the customers hours of operation
+Furthermore, when manually dragging and dropping a requirement on the schedule board, a pop up will warn the dispatcher if the estimated arrival time falls within the promised time window or not.
 
-- [SLAs](./sla-work-orders.md)
+> [!Note]
+> Time from Promised and Time to Promised is a **continuous time range** that does not consider the service organization's or the customers' working hours. As an example, if the time from and to promised is set to 9/10/2019 9AM - 9/15/2019 5PM, then any time during this range is eligible as long as resources' are working.
+
+Lastly, setting up [SLAs for Work Orders](./sla-work-orders.md) will populate the time from and time to promised fields in order to help dispatchers schedule to meet Service Level Agreements.
 
 ## Scenario 3: automated scheduling with time parameters (RSO)
 
