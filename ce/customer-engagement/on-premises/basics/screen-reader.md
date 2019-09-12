@@ -6,7 +6,7 @@ author: ReneeW-CPub
 applies_to: Dynamics 365 Customer Engagement (on-premises)
 ms.author: renwe
 manager: renwe
-ms.date: 05/30/2018
+ms.date: 09/15/2019
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
@@ -90,9 +90,5 @@ When a dialog box opens, Navigator announces the title. For dialog boxes with in
 You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box, and you can press the **Esc** key to close it.
 
 
-## See also
 
-[Move around Customer Engagement apps using keyboard shortcuts](../basics/keyboard-shortcuts.md)<br/>
-[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)<br/>
-[Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
 
