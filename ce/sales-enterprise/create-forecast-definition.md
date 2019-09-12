@@ -1,12 +1,13 @@
 ---
-title: "Create a forecast definition (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 for Sales."
+title: "Create a forecast definition (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Define the data and period to use for the purpose of forecasting in Dynamics 365 Sales."
 keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 1517b3d4-639b-4fec-bbbc-8474320d1867
 author: shubhadaj
 ms.author: shujoshi
@@ -23,11 +24,11 @@ ms.tgt_pltfrm:
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 
 Capture information about parameters such as the period for which the forecast should be generated or the data to use for forecasting.
 
-Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 for Customer Engagement for sales forecast: 
+Sales forecasting has security roles that are defined specifically to create and publish forecast definitions. The following security roles are defined in Dynamics 365 Sales for sales forecast: 
 
 | Security role        |	Description                                 |
 |----------------------|----------------------------------------------|  

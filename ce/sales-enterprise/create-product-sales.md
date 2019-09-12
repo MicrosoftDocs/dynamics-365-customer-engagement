@@ -1,12 +1,13 @@
 ---
-title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
+title: "Create a product (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use products in Dynamics 365 Sales to define the products or services that your organization offers."
 keywords: "product, service, create, sales, catalog"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
 author: shubhadaj
 ms.author: shujoshi
@@ -44,7 +45,7 @@ Products are the backbone of your business. They can be physical products or ser
    -	**Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
 
       > [!NOTE]
-      > - The capability to choose a new parent (reparenting) is a Preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+      > - The capability to choose a new parent (reparenting) is a Preview feature and is introduced in the August 2019 release of Dynamics 365 Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
       > - To learn about enabling preview features in the 2019 release wave 2, see [How do I enable the 2019 release wave 2 updates](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled)
 
    - **Valid From**/**Valid To**: Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
@@ -107,7 +108,7 @@ Products are the backbone of your business. They can be physical products or ser
    - **Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
 
       > [!NOTE]
-      > The capability to choose a new parent (reparenting) and family hierarchy is a preview feature and is introduced in the August 2019 release of Dynamics 365 for Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
+      > The capability to choose a new parent (reparenting) and family hierarchy is a preview feature and is introduced in the August 2019 release of Dynamics 365 Sales. [What are Preview features, and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)
   
    - **Unit Group**: Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds" and defined its primary unit as "packet."  
   
