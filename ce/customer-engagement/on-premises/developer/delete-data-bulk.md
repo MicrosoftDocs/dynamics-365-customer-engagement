@@ -32,7 +32,7 @@ search.app:
 ---
 # Delete data in bulk
 
-The *bulk deletion* feature helps you to maintain data quality and manage the consumption of system storage in Dynamics 365 for Customer Engagement (on-premises) by deleting data that you no longer need.  
+The *bulk deletion* feature helps you to maintain data quality and manage the consumption of system storage in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] by deleting data that you no longer need.  
   
  For example, you can delete the following data in bulk:  
   
@@ -58,13 +58,12 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 - Retrieve the information about the failures that occurred during a bulk deletion.  
   
-## Run bulk delete
-
-To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. More information: [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete)  
+## In This Section  
+ [Running Bulk Delete](run-bulk-delete.md)  
   
- <!--[BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)  
+ [BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)  
   
- [BulkDeleteFailure Entity](entities/bulkdeletefailure.md)-->
+ [BulkDeleteFailure Entity](entities/bulkdeletefailure.md)  
   
 ## Related Sections  
 

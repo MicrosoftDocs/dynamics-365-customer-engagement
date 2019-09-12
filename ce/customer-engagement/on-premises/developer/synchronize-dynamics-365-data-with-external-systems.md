@@ -48,26 +48,13 @@ Sometimes you’ll need to synchronize and integrate [!INCLUDE[pn_dynamics_crm](
 |------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Update using UpdateRequest](media/after-carina-dynamics-crm-2015.png "Update using UpdateRequest") | Just one call to verify that there is an account with the unique ID ABC123, set the primary contact to contact@company.com, set the region to NW, set the owner to user@mycompany.com and the status to active. |
 
-## Define alternate keys for an entity
-
-For more information: [Define alternate keys for an entity](/powerapps/developer/common-data-service/define-alternate-keys-entity)
-
-## Use alternate keys
-
-For more information: [Using alternate keys](/powerapps/developer/common-data-service/use-alternate-key-create-record)
-
-## Synchronize data with external systems using change tracking
-
-For more information: [Use change tracking to synchronize data with external systems](/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems)
-
-## Using upsert
-
-For nmore information: [Use upsert to update records](/powerapps/developer/common-data-service/use-upsert-insert-update-record)
-
-## Samples
-
-[Sample: Insert or update a record using Upsert](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/InsertRecordUsingUpsert)<br />
-[Sample: Synchronize data with external systems using change tracking](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Changetracking)<br /> 
+## In This Section  
+ [Define alternate keys for an entity](define-alternate-keys-entity.md)<br />
+ [Using alternate keys](use-alternate-key-create-record.md)<br />
+ [Use change tracking to synchronize data with external systems](use-change-tracking-synchronize-data-external-systems.md)<br />
+ [Update Dynamics 365 for Customer Engagement apps with external data using Upsert](use-upsert-insert-update-record.md)<br />
+ [Sample: Insert or update a record using Upsert](sample-insert-update-record-upsert.md)<br />
+ [Sample: Synchronize data with external systems using change tracking](sample-synchronize-data-external-systems-using-change-tracking.md)<br /> 
 
 ## Related Sections  
  [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md)<br /> 

@@ -26,21 +26,20 @@ search.app:
 
 Organizations need to track changes made to business data for maintaining security, examining the history of a particular data record, 
 documenting modifications for future analysis and record keeping, and being in compliance with regulations. 
-Dynamics 365 for Customer Engagement (on-premises) support auditing of entity and attribute data changes on a per organization basis.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support auditing of entity and attribute data changes on a per organization basis.  
   
 ## In This Section  
- [Auditing Feature Overview](/powerapps/developer/common-data-service/auditing-overview)  
+ [Auditing Feature Overview](auditing-overview.md)  
   
- [Configure Entities and Attributes for Auditing](/powerapps/developer/common-data-service/configure-entities-attributes-auditing)  
+ [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)  
   
- [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes)  
+ [Retrieve and Delete the History of Audited Data Changes](retrieve-and-delete-the-history-of-audited-data-changes.md)  
   
- [Audit User Logons](/powerapps/developer/common-data-service/audit-user-access)  
+ [Audit User Logons](audit-user-access.md)  
   
- [Sample: Audit Entity Data Changes](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditEntityData)  
+ [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)  
   
- [Sample: Audit User Access](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess)  
+ [Sample: Audit User Access](sample-audit-user-access.md)  
   
 ## Related Sections  
-
-[Data Management in Dynamics 365 for Customer Engagement (on-premises)](manage-data.md)
+ [Data Management in Dynamics 365 for Customer Engagement apps](manage-data.md)

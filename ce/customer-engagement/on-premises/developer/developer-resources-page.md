@@ -1,5 +1,5 @@
 ---
-title: "Developer resources page (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Developer resources page (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
 description: "Read how you can find your organization unique name, Discovery service endpoint address, Organization service endpoint address and issuer name to access Azure Service Bus using the Developer Resources page"
 ms.custom: 
 ms.date: 03/29/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) (online)
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 826ddda1-2038-40ba-a5a9-8b443a7a6b02
 caps.latest.revision: 61
 author: JimDaly
@@ -48,7 +48,7 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
  Provides a download link to the public certificate that is required to configure [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps integration. For an on-premises or Internet-facing deployment, this information is only visible after [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been configured for [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration.  
   
- For more information, see [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md).  
+ For more information, see [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md).  
  
   
 <a name="discovery"></a>   
@@ -110,7 +110,7 @@ For more information, see [Discover the URL for your organization using the Orga
  This Open Data (OData v2) Web service provides access to the business data of your organization by exposing a RESTAPI. This link opens the Conceptual Schema Definition Language (CSDL) document that describes how to access your data by using this API.  
   
 > [!WARNING]
->  The Organization Data service has been deprecated and replaced by the Web API. For more information about the Web API see [Use the Dynamics 365 Customer Engagement (on-premises) Web API](use-microsoft-dynamics-365-web-api.md).  
+>  The Organization Data service has been deprecated and replaced by the Web API. For more information about the Web API see [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
   
 ### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps  
 
@@ -144,5 +144,5 @@ For more information, see [Discover the URL for your organization using the Orga
   
 ### See also
 
- [Write Code for Dynamics 365 Customer Engagement (on-premises) Web Services](extend-dynamics-365-server.md)   
+ [Write Code for Dynamics 365 for Customer Engagement Web Services](extend-dynamics-365-server.md)   
  [Use the IOrganizationService web service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md)   
