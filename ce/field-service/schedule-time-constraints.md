@@ -172,11 +172,19 @@ Scheduling lock options prevent RSO from rescheduling a booking to a different t
 
 ### Fulfillment preferences
 
-Fulfillment preferences let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows. They can help dispatchers schedule work orders in times that are convenient for the customer. FOr more details see the topic on [Fulfillment preferences](/set-up-time-groups.md). 
+Fulfillment preferences let you choose how schedule assistant results are displayed, like with neat hourly appointments or morning and afternoon time windows. They can help dispatchers schedule work orders during times that are convenient for the customer. FOr more details see the topic on [Fulfillment preferences](/set-up-time-groups.md). 
 
 ### Booking Setup Metadata
 
-- From date and to date on booking setup metadata
+You can define which fields on the entity enabled for scheduling should serve as the Start and End Dates for the related requirement. This is done in booking setup metadata. Go to **Resource Scheduling > Settings > Administration > Enable Resource Scheduling for Entities** then double click an enabled entity. 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-time-constraint-bsm.png)
+
+In the attribute mapping section, you can choose any date and time fields on the entity.
+
+As an example, imagine you enable Leads for scheduling. You can choose two date and time fields on the Lead entity (either existing or custom fields) that will automatically be the From and To Dates when you attempt to schedule the Lead.
 
 ## Additional Notes
 
@@ -185,6 +193,6 @@ Fulfillment preferences let you choose how schedule assistant results are displa
 
 - **Current limitation: variable calendars** Out of the box the solution cannot consider variable calendars where certain days and times are restricted or required for scheduling. As an example, imagine a customer who requires on site service would like the work order to be scheduled on Mondays, Wednesdays, or Fridays between 12pm and 5pm each day. This cannot be achieved with the out of the box date and time preference fields or calendar. Possible remedies are to use notes to inform the dispatcher of the customer's time preferences, or to use Booking Rules to create custom logic with JavaScript, however as mentioned earlier Booking Rules only apply to manual scheduling on the Schedule Board.
 
-- Scheduling entities other than work orders? These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
+- **Scheduling entities other than work orders?** These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
 
 - could have date window start/end mon-fri and use time windows for 9-5. if not scheduled by end of the week use workflow to make it next week.
