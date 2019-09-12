@@ -30,30 +30,48 @@ Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.conto
 
 ## Match skills
 
-There are two skill matching types:
+When the skill attachment logic attaches a skill with a certain proficiency level, the work distribution system considers the attached proficiency level as the minimum criteria, and assign  the conversation to an agent only if this criteria is met.
+
+If the minimum proficiency criteria is not met, then the system searches for the next best proficiency level based on the skill matching criteria.
+
+The two skill matching types are as follows:
 
 - Exact skill matching
 - Closest skill matching
  
 ### Exact skill matching
 
-When the skill attachment logic attaches a skill with a certain proficiency level, the work distribution system considers the attached proficiency level as the minimum criteria, and assign  the conversation to an agent only if this criteria is met.
+In the exact skill matching, if the minimum proficiency criteria is not met, then the system always searches for a proficiency level greater than the minimum criteria.
 
-If the minimum proficiency criteria is not met, then the system searches for the next higher value of the minimum criteria. The order of matching the criteria is always minimum criteria and then progressively search the next higher value.
-
-when proficiency level  criteria is not met, then the work distribution system doesn't assign the conversation to any agent and the conversation remains in the queue.
+When the proficiency level criteria is not met, then the work distribution system doesn't assign the conversation to any agent and the conversation remains in the queue.
 
 For example,
 
-The skill attachment logic attaches the skill as **Xbox** product and **Spanish** language with proficiency level as **4** and **5** respectively.
-| Skill & proficiency  | Description | |
-|------------|-------------|-----------------|
-| Xbox => 4 <br> Spanish => 5 | First, searches for an agent with Xbox = 4 and Spanish = 5 as these are the minimum criteria. <br><br> When the condition is not met, searches for an agent with Xbox proficiency greater than 4 and Spanish proficiency greater than 5. |
+Understand how the exact skill matching works for single or multiple skill scenario.
 
+| Skill scenario | Skill & proficiency criteria  | Description |
+|--------|---------------------|-----------------|
+| Single | Xbox = 4 |<ul><li> First, the system searches for an agent with **Xbox** = **4** as this is the minimum criteria. </li> <li> When the criteria is not met, the system searches for an agent with **Xbox** proficiency greater than **4**. </li> </ul>|
+| Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5** as these are the minimum criteria. </li> <li> When the criteria is not met, the system searches for an agent with **Xbox** proficiency greater than **4** and **Spanish** proficiency greater than **5**.</li> </ul> |
+
+In single or multiple skill scenarios, if the criteria is not, then the conversation (work item) remains in the queue.
 
 ### Closest skill matching
 
+In the closest skill matching, if the minimum proficiency criteria is not met, then the system always searches for a proficiency level greater than the minimum criteria.
 
+In the greater than the minimum criteria, if the proficiency level is not met, then the system searches for a proficiency level lower than the minimum criteria.
+
+When skill proficiency level criteria is not met, then the work distribution system assigns the conversation based on the capacity and availability of the agent.
+
+For example,
+
+Understand how the exact skill matching works for single or multiple skill scenario.
+
+| Skill scenario | Skill & proficiency  | Description |
+|--------|---------------------|-----------------|
+| Single | Xbox = 4 | <ul><li>First, the system searches for an agent with Xbox = 4 as this is the minimum criteria. </li> <li> When the criteria is not met, the system searches for an agent with **Xbox** proficiency greater than **4**. If found, the system assigns the conversation to the agent.</li> <li> When the greater than criteria is not met, the system searches for an agent with **Xbox** proficiency lesser than **4**. If found, the system assigns the conversation to the agent.</li></ul>|
+| Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5** as these are the minimum criteria. </li> <li> When the criteria is not met, the system searches for an agent with **Xbox** proficiency greater than **4** and **Spanish** proficiency greater than **5**. </li> <li> When the greater than criteria is not met, the system searches for an agent with **Xbox** proficiency lesser than **4** and **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> </ul>|
 
 ## Prerequisites
 
