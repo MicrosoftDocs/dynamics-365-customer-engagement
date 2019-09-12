@@ -1,7 +1,6 @@
 ---
-title: Learn the basics of the Customer Service Hub in Dynamics 365 for Customer Engagement | Microsoft Docs
-description: Learn the basics of the Customer Service Hub for Customer Service in Microsoft Dynamics 365 for Customer Engagement
-keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Customer Service Hub Application requirements; Understand the sitemap navigation; Quickly create new records; Business processes; Related section; Queues
+title: Learn the basics of the Customer Service Hub app | Microsoft Docs
+description: Learn the basics of the Customer Service Hub for Customer Service
 author: anjgupta
 applies_to: Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
@@ -46,12 +45,12 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 **Desktop browser**
   
-- In the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.   
+- In the Common Data Service platform, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.   
 
    ![open-csh](media/open-csh.png "Open the Customer Service Hub")
  
   
-- In the Dynamics 365 for Customer Engagement sitemap, navigate to the app switcher and then select **Customer Service Hub**.
+- In the Dynamics 365 Customer Service sitemap, navigate to the app switcher and then select **Customer Service Hub**.
 
   ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
   
@@ -59,9 +58,9 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
 
 To access the Customer Service Hub app on a mobile device:
 
-- Install the Dynamics 365 for Customer Engagement mobile app. 
+- Install the Dynamics 365 Customer Service mobile app. 
   
-  To install the Dynamics 365 for Customer Engagement mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
+  To install the Dynamics 365 Customer Service mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 - From the MyApps page, select **Customer Service Hub**.
 
    ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
@@ -82,7 +81,7 @@ To access the Customer Service Hub app on a mobile device:
 The Customer Service Hub comes with an enhanced sitemap to enable easy navigation of the interface. To learn more, see [Understand the sitemap navigation](#understand-the-sitemap-navigation).
   
 > [!NOTE]
-> The navigation bar for the Customer Service Hub is different from the navigation bar in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
+> The navigation bar for the Customer Service Hub is different from the navigation bar in the Common Data Service platform. </br> Any record types that are enabled for mobile are also available for use in the Customer Service Hub. However, these records are read-only.  
 
 
 ## Understand the sitemap navigation
@@ -195,7 +194,7 @@ For example, here’s a view of how the tabs appear on the case form:
   
 ![contact-card](media/contact-card.png "Contact card")
 
- You can add a picture to the account or contact record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
+ You can add a picture to the account or contact record in the Common Data Service platform, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
 
@@ -340,7 +339,7 @@ Activities are the tasks that you or your team perform while interacting with cu
 
 For example, you can make a record to track a phone call with a customer, or list an appointment scheduled with a customer to discuss a certain issue. You can create activities for yourself, or assign them to other service reps.
 
-In Dynamics 365 for Customer Engagement, the following activities are supported:
+In Dynamics 365 Customer Service, the following activities are supported:
 - Email
 - Task
 - Appointment
@@ -371,7 +370,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 ## Work with Queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](set-up-queues-manage-activities-cases.md).
 
 **Open Queues view**
 

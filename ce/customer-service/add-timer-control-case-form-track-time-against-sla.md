@@ -1,7 +1,6 @@
 ---
 title: Timer control in the Case form to track time against an SLA | Microsoft Docs
-description: Know how to add timer control in the case form to track time against an SLA in Microsoft Dynamics 365 for Customer Engagement
-keywords: Timer control; Customer Service Hub; Microsoft Dynamics 365 for Customer Engagement; Customer Service; Add a timer control to case form
+description: Know how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: shujoshi

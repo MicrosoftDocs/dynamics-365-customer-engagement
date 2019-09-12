@@ -1,7 +1,6 @@
 ---
-title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
-keywords: Create rules; Route cases; Dynamics 365 for Customer Engagement; Customer Service
+title: Create rules to automatically route cases (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -23,7 +22,7 @@ search.app:
 
 # Automatically route cases using routing rule sets
 
-Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
+Use routing rules in Dynamics 365 Customer Service to automatically route cases to the right people at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues. 
 
 ## Preview: Install Routing Rules - Preview solution
 
