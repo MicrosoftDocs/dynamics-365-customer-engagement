@@ -54,7 +54,7 @@ Follow the steps in the order provided to set up Dynamics 365 for Customer Engag
 
 Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint Online for server-based authentication, the following prerequisites must be met:
 
-  - The Dynamics 365 for Customer Engagement apps (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Dynamics 365 for Customer Engagement (on-premises)](configure-ifd-for-dynamics-365.md) 
+  - The Dynamics 365 for Customer Engagement apps (on-premises) deployment must already be configured and available through the Internet. More information: [Configure IFD for Dynamics 365 for Customer Engagement (on-premises)](../deploy/configure-ifd-for-dynamics-365.md)  
 
   - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Dynamics 365 (on-premises) and SharePoint Online. More information: [Microsoft Dynamics CRM Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9&ali=1)
   - An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint Online. If you are evaluating server-based authentication, you can use a self-signed certificate.
