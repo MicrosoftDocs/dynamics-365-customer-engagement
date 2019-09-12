@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 886fee0f-d97b-4baf-9019-63ee11cdf329
 caps.latest.revision: 27
-author: Mattp123
-ms.author: matp
-manager: brycho
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -35,7 +35,6 @@ There are several possible reasons why data that you expect to be in a report do
   
 - **Your Microsoft Internet Explorer privacy settings may block required cookies.** For chart reports, if instead of seeing the chart, you see a red letter X, your privacy settings may be blocking a cookie that is required for the chart control. To fix this problem, in your browser, enable cookies for the server that is running Reporting Services.  
   
-<!--- **If you are offline, your local data groups may not include all the data.** If you are using the report from [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] while you are offline, you must have a local data group that includes all the data that will be in the report. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Example of going offline with Dynamics 365 for Outlook](../outlook-add-in/example-going-offline-dynamics-365-outlook.md)-->
 
-### See Also
-[Run a report](../basics/run-report.md)
+
+
