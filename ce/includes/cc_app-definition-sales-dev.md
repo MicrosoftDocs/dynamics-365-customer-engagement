@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> As Dynamics 365 Sales is a model-drive app built on the Common Data Service platform, it supports the standard extensibility model for model-driven apps and Common Data Service to  perform operations programmatically. For more information, see [Model-driven apps Developer Guide](https://docs.microsoft.com/powerapps/developer/model-driven-apps/overview) and [Common Data Service Developer Guide](https://docs.microsoft.com/powerapps/developer/common-data-service/overview)
