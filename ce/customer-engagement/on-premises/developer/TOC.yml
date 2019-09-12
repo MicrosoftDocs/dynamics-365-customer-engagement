@@ -1,5 +1,5 @@
 - name: Developer Guide
-  href: developer-guide.md
+  href: overview.md
 - name: Connect to Customer Engagement
   href: connect-customer-engagement.md
   items:
