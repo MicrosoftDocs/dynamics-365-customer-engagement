@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Office 365 Groups in Dynamics 365 Customer Engagement (on-premises)) FAQs
+# Office 365 Groups in Dynamics 365 Customer Engagement (on-premises) FAQs
 
 The following are frequently asked questions and known issues for [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
   
