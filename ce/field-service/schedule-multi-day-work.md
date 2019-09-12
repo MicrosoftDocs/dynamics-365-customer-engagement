@@ -27,6 +27,16 @@ search.app:
 ---
 
 # Schedule work over multiple days 
+
+Allocation methods
+
+Scenario 1: Schedule a multi-day work order
+
+Scenario 2: Schedule a multi-day requirement
+
+Scenario 3: Schedule a multi-day requirement to multiple resources
+
+
 ## Prerequisites
 > [!Note]
 >
@@ -34,17 +44,26 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/.png)
 
-## Schedule 40 hour requirement over 5 days
+
+## Scenario 1: Schedule a multi-day work order
+
+end: can simply drag and drop too but this creates a continuous booking
+
+## Scenario 2: Schedule a multi-day requirement
 
 requirement
 allocation method
 requirement details
 specify pattern
 
-## schedule multiple resources over multiple days 
+## Scenario 3: Schedule a multi-day requirement to multiple resources
 
 ## Configuration considerations
 
 - full capacity uses calendar
 - when scheduling 4 hours each day, they need 4 total hours, not 4 continuous hours
+- manual create details when allocation method is none
 ## Additional Notes
+- work order auto creates requirements
+- cannot schedule requirement groups for multiple days, menaing you cannot break it up
+- travel time?
