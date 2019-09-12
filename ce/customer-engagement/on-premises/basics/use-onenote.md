@@ -1,5 +1,5 @@
 ---
-title: "Use OneNote in Dynamics 365 Customer Engagement (on-premises) (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Use OneNote in Dynamics 365 Customer Engagement (on-premises) (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Use OneNote integration to store and share notes related to Dynamics 365 Customer Engagement (on-premises)records."
 keywords: OneNote, Notes, notebook
 ms.date: 03/08/2017

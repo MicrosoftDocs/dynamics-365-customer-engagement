@@ -1,5 +1,5 @@
 ---
-title: "Search for records (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Search for records (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 08/29/2018
 ms.reviewer: 

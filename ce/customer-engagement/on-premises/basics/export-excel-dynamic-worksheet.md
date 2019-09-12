@@ -1,5 +1,5 @@
 ---
-title: "Export to an Excel dynamic worksheet (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Export to an Excel dynamic worksheet (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/27/2018
 ms.reviewer: 
