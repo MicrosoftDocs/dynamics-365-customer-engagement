@@ -1,6 +1,6 @@
 ---
-title: "Customer entities (account, contact) (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "The account and contact entities in Dynamics 365 for Customer Engagement apps are essential for identifying and managing customers, selling products and services, and providing superior service to the customers. A customer address entity is used to store address and shipping information for a customer."
+title: "Customer entities (account, contact) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "The account and contact entities in Dynamics 365 Customer Engagement (on-premises) are essential for identifying and managing customers, selling products and services, and providing superior service to the customers. A customer address entity is used to store address and shipping information for a customer."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -34,7 +34,7 @@ The *account* and *contact* entities in [!INCLUDE[pn_microsoftcrm](../includes/p
   
 - Accounts can have multiple child accounts and child contacts.  
   
-  Account management is one of the important concepts of business-to-business customer relationship management (Dynamics 365 for Customer Engagement apps) because an organization wants to see all the activities they have with another company All these activities come together at the account level.  
+  Account management is one of the important concepts of business-to-business customer relationship management (Dynamics 365 Customer Engagement (on-premises)) because an organization wants to see all the activities they have with another company All these activities come together at the account level.  
   
   In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, a contact represents a person, usually an individual, with whom a business unit has a relationship, such as a customer, a supplier, or a colleague. The contact entity is one of the entities that most other entities are linked to. A contact can be a stand-alone entity. Included in this entity are professional, personal, and family information, and multiple addresses.  
   
@@ -60,6 +60,6 @@ The *account* and *contact* entities in [!INCLUDE[pn_microsoftcrm](../includes/p
  [CustomerAddress Entity](entities/customeraddress.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Business Management Entities](business-management-entities.md)

@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[FieldSecurity#RetrieveSecuredFieldsForAUser1](../snippets/csharp/CRMV8/fieldsecurity/cs/retrievesecuredfieldsforauser1.cs#retrievesecuredfieldsforauser1)]  
   
 ### See also  
- [How Field Security Can Be Used to Control Access to Field Values In Dynamics 365 for Customer Engagement apps](security-dev/use-field-security-control-access-field-values.md)   
+ [How Field Security Can Be Used to Control Access to Field Values In Dynamics 365 Customer Engagement (on-premises)](security-dev/use-field-security-control-access-field-values.md)   
  [Field Security Entities](field-security-entities.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>

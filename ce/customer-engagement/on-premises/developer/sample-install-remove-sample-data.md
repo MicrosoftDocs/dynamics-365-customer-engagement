@@ -1,5 +1,5 @@
 ---
-title: "Sample: Install or remove sample data (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Install or remove sample data (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample code to install standard sample data for Customer Engagement (online)."
 keywords: 
 ms.date: 10/31/2017
@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[Other#ImportOrRemoveSampleData](../snippets/csharp/CRMV8/other/cs/importorremovesampledata.cs#importorremovesampledata)]  
   
 ### See also  
- [Sample Data for Dynamics 365 for Customer Engagement apps](sample-data.md)   
+ [Sample Data for Dynamics 365 Customer Engagement (on-premises)](sample-data.md)   
  <xref:Microsoft.Crm.Sdk.Messages.InstallSampleDataRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.UninstallSampleDataRequest>

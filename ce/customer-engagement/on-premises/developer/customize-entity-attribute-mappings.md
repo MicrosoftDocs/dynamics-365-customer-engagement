@@ -1,5 +1,5 @@
 ---
-title: "Customize entity and attribute mappings (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize entity and attribute mappings (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about mapping attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Use the customization tools in the application to map attributes."
 ms.custom: 
 ms.date: 10/31/2017
@@ -121,5 +121,5 @@ For more information see [Create a new entity from another entity](/powerapps/de
 
 ### See also
 
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Create and edit entity relationships: Mapping Entity Fields](../customize/map-entity-fields.md#BKMK_mappingEntityFields)

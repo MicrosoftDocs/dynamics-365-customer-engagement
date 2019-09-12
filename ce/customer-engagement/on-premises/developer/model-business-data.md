@@ -1,5 +1,5 @@
 ---
-title: "Model your business data in Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Model your business data in Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about customizing data model that uses entities to define the data tracked in the system."
 ms.custom: 
 ms.date: 12/15/2017
@@ -24,7 +24,7 @@ search.app:
 ---
 # Model your business data
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides a robust and customizable data model that uses entities to define the data tracked in the system. This section describes the out-of-the-box entities that correspond to the areas shown in the web application. These entities are defined by metadata. For more information about how to customize entities, see [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps](metadata-data-models.md).  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides a robust and customizable data model that uses entities to define the data tracked in the system. This section describes the out-of-the-box entities that correspond to the areas shown in the web application. These entities are defined by metadata. For more information about how to customize entities, see [The Metadata and Data Models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md).  
   
 ### See also
 

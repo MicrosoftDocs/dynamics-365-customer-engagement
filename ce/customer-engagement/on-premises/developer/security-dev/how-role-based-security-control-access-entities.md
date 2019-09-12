@@ -108,7 +108,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps the funda
 |        Vice President of Sales        |                                A user who manages the sales organization at the business unit level.                                 |
 
 ### See also  
- [The Security Model of Microsoft Dynamics 365 for Customer Engagement apps](../security-dev/security-model.md)   
+ [The Security Model of Microsoft Dynamics 365 Customer Engagement (on-premises)](../security-dev/security-model.md)   
  [Privilege and Role Entities](../privilege-role-entities.md)     
  [Use record-based security to control access to records](../security-dev/use-record-based-security-control-access-records.md)   
- [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 for Customer Engagement apps](../security-dev/use-field-security-control-access-field-values.md)
+ [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 Customer Engagement (on-premises)](../security-dev/use-field-security-control-access-field-values.md)

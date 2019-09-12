@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create, retrieve, update, and delete a dialog (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Create, retrieve, update, and delete a dialog (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to create, retrieve, update, and delete a dialog process using the methods IOrganizationService.Entity, IOrganizationService.ColumnSet, and IOrganizationService. Guid."
 ms.custom: 
 ms.date: 10/31/2017
@@ -43,7 +43,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[Dialogs#CRUDDialog](../snippets/csharp/CRMV8/dialogs/cs/cruddialog.cs#cruddialog)]  
   
 ### See also  
- [Use Dialogs in Dynamics 365 for Customer Engagement apps](use-dialogs-guided-processes.md)   
+ [Use Dialogs in Dynamics 365 Customer Engagement (on-premises)](use-dialogs-guided-processes.md)   
  [Sample: Create a Workflow in Code](sample-create-workflow-code.md)   
  [Sample Code for Processes](sample-code-processes.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   

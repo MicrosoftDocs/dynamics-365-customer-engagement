@@ -1,5 +1,5 @@
 ---
-title: "Entity relationship eligibility (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Entity relationship eligibility (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The article lists the messages that you can use to determine whether entities can participate in entity relationships"
 ms.custom: 
 ms.date: 10/31/2017
@@ -39,7 +39,7 @@ Before you create an entity relationship you should confirm whether the entity i
   
 ### See also  
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   

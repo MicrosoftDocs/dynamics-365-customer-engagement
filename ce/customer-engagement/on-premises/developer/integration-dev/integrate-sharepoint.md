@@ -31,7 +31,7 @@ search.app:
   
 ## In This Section  
 
-[Understanding Microsoft Dynamics 365 for Customer Engagement apps and SharePoint Integration](get-started-sharepoint-integration.md)  
+[Understanding Microsoft Dynamics 365 Customer Engagement (on-premises) and SharePoint Integration](get-started-sharepoint-integration.md)  
 [Enable SharePoint Integration](enable-document-management-entities.md)  
 [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)  
 [Define custom claim mapping for SharePoint server-based integration](define-custom-claim-mapping-sharepoint-server-based-integration.md)  
@@ -47,5 +47,5 @@ search.app:
   
 ## Related Sections  
 
-[Extend Microsoft Dynamics 365 for Customer Engagement apps](../extend-dynamics-365-server.md)   
-[Integrate Microsoft Dynamics 365 for Customer Engagement apps with OneNote](integrate-onenote.md)
+[Extend Microsoft Dynamics 365 Customer Engagement (on-premises)](../extend-dynamics-365-server.md)   
+[Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with OneNote](integrate-onenote.md)

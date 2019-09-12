@@ -1,5 +1,5 @@
 ---
-title: "Manage duplicate detection for create and update operations (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Manage duplicate detection for create and update operations (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Read how to detect duplicates during create and update operations using the Dynamics 365 for Customer Engagement Web API and Organization service."
 ms.custom: 
 ms.date: 11/15/2017
@@ -34,7 +34,7 @@ Dynamics 365 for Customer Engagement Web API allows you to detect duplicate reco
 Use Preference header `MSCRM.SuppressDuplicateDetection` and set its value to `false` to detect creation of a duplicate record during Create and Update operations.
 
 > [!NOTE]
->  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 for Customer Engagement apps includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
+>  Make sure there are appropriate duplicate detection rules in place. Dynamics 365 Customer Engagement (on-premises) includes default duplicate detection rules for accounts, contacts, and leads, but not for other types of records. If you want the system to detect duplicates for other record types, you’ll need to create a new rule. For information on how to create a duplicate detection rule, see [Duplicate detection rules](../admin/set-up-duplicate-detection-rules-keep-data-clean.md).
 
 For more information and examples on how to prohibit creation of duplicate records during create and update operations, see [Manage duplicate detection for create and update operations using Web API](webapi/manage-duplicate-detection-create-update.md).
 

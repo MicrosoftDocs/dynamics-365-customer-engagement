@@ -1,5 +1,5 @@
 ---
-title: "Supported entities for asynchronous operations (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Supported entities for asynchronous operations (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The entities and messages that are supported in asynchronous operations are the same as the message and entity combinations that support plug-ins. For more information, seeSupported Messages and Entities for Plug-ins. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -28,7 +28,7 @@ The entities and messages that are supported in asynchronous operations are the 
   
 ### See also  
  [Asynchronous Operation States](asynchronous-operation-states.md)   
- [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](detect-duplicate-data-for-developers.md)   
- [Delete Data in Bulk in Dynamics 365 for Customer Engagement apps](delete-data-bulk.md)   
+ [Detect Duplicate Data in Dynamics 365 Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)   
+ [Delete Data in Bulk in Dynamics 365 Customer Engagement (on-premises)](delete-data-bulk.md)   
  [Recurring Appointment Partial Expansion Model](recurring-appointment-partial-expansion-model.md)   
- [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)
+ [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)

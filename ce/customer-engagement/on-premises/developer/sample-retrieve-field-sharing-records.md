@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve field sharing records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Retrieve field sharing records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to retrieve the PrincipalObjectAttributeAccess (field sharing) records for an entity. "
 ms.custom: 
 ms.date: 12/15/2017
@@ -41,6 +41,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[FieldSecurity#RetrieveUserSharedAttributePermissions1](../snippets/csharp/CRMV8/fieldsecurity/cs/retrieveusersharedattributepermissions1.cs#retrieveusersharedattributepermissions1)]  
   
 ### See also  
- [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 for Customer Engagement apps](security-dev/use-field-security-control-access-field-values.md)   
+ [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 Customer Engagement (on-premises)](security-dev/use-field-security-control-access-field-values.md)   
  [Field Security Entities](field-security-entities.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>

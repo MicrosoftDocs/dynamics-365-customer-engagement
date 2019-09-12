@@ -1,5 +1,5 @@
 ---
-title: "Lead entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Lead entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about lead entity that represents an individual who is interested in receiving specific information about products or services offered by the company."
 ms.custom: 
 ms.date: 10/31/2017

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Query the working hours of multiple users (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Query the working hours of multiple users (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample demonstrates how to retrieve the working hours of multiple users by using the QueryMultipleSchedulesRequest message."
 ms.custom: 
 ms.date: 10/31/2017
@@ -41,7 +41,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[ScheduleAndAppointment#QueryWorkingHoursOfMultipleUsers](../snippets/csharp/CRMV8/scheduleandappointment/cs/queryworkinghoursofmultipleusers.cs#queryworkinghoursofmultipleusers)]  
   
 ### See also  
- [Schedules in Dynamics 365 for Customer Engagement apps](schedule-collections.md)   
+ [Schedules in Dynamics 365 Customer Engagement (on-premises)](schedule-collections.md)   
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)   
  [Sample: Book an Appointment](sample-book-appointment.md)   
  [Resource Entities](resource-entities.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Detect multiple duplicate records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Detect multiple duplicate records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample demonstrates how to detect and log multiple duplicate records for a specified entity type."
 keywords: 
 ms.date: 10/31/2017
@@ -40,7 +40,7 @@ This sample code is for Dynamics 365 for Customer Engagement. Download the sampl
  [!code-csharp[DuplicateDetection#BulkDetectDuplicates](../snippets/csharp/CRMV8/duplicatedetection/cs/bulkdetectduplicates.cs#bulkdetectduplicates)]  
   
 ### See also  
- [Detect Duplicate Data in Dynamics 365 for Customer Engagement apps](detect-duplicate-data-for-developers.md)   
+ [Detect Duplicate Data in Dynamics 365 Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)   
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
  [Run Duplicate Detection](run-duplicate-detection.md)   
  <xref:Microsoft.Crm.Sdk.Messages.BulkDetectDuplicatesRequest>  

@@ -1,6 +1,6 @@
 ---
-title: "Use change tracking to synchronize data with external systems (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "The change tracking feature in Dynamics 365 for Customer Engagement apps provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized"
+title: "Use change tracking to synchronize data with external systems (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "The change tracking feature in Dynamics 365 Customer Engagement (on-premises) provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -140,4 +140,4 @@ System query options `$filter`, `$orderby` and `$top` are not supported when usi
 ### See also  
  [Define alternate keys for an entity](define-alternate-keys-entity.md)   
  [Using alternate keys](use-alternate-key-create-record.md)   
- [Update Dynamics 365 for Customer Engagement apps with external data using Upsert](use-upsert-insert-update-record.md)
+ [Update Dynamics 365 Customer Engagement (on-premises) with external data using Upsert](use-upsert-insert-update-record.md)

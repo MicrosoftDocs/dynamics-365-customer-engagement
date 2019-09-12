@@ -1,5 +1,5 @@
 ---
-title: "Sample: Persistent queue listener (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Persistent queue listener (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to write a Azure Service Bus listener application for a persistent queue endpoint contract. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -37,4 +37,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [Write a Listener for a Microsoft Azure Solution](write-listener-application-azure-solution.md)   
- [Sample Code for Dynamics 365 for Customer Engagement apps and Microsoft Azure Integration](sample-code-azure-integration.md)
+ [Sample Code for Dynamics 365 Customer Engagement (on-premises) and Microsoft Azure Integration](sample-code-azure-integration.md)

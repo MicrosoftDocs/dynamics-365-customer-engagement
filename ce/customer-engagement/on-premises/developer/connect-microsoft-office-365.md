@@ -1,6 +1,6 @@
 ---
-title: "Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "The Microsoft Office 365 portal provides a single sign-on experience for Office 365 customers where they can sign in once and access any Office 365 application, including Dynamics 365 for Customer Engagement apps"
+title: "Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+description: "The Microsoft Office 365 portal provides a single sign-on experience for Office 365 customers where they can sign in once and access any Office 365 application, including Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -23,7 +23,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps
+# Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps is part of the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] collaboration and productivity tools. The [Microsoft Office 365 portal](http://www.microsoft.com/office365) provides a single sign-on experience for [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] customers where they can sign in once and access any [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] application, including [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. In addition, system user accounts in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps can be provisioned in the [Microsoft Online Services](http://portal.microsoftonline.com/) admin portal.  
   
@@ -41,4 +41,4 @@ search.app:
   
  [Connect to the Dynamics 365 for Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)  
   
- [Access the Web Services (Authentication) in Dynamics 365 for Customer Engagement apps](authenticate-users.md)
+ [Access the Web Services (Authentication) in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)

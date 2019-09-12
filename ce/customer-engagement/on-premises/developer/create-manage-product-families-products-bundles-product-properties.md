@@ -1,5 +1,5 @@
 ---
-title: "Create and manage product families, products, bundles, and product properties (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Create and manage product families, products, bundles, and product properties (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family."
 ms.custom: 
 ms.date: 10/31/2017

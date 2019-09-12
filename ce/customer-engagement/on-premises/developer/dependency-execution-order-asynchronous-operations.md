@@ -1,5 +1,5 @@
 ---
-title: "Dependency and execution order in asynchronous operations (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Dependency and execution order in asynchronous operations (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "An asynchronous operation can be made dependent with another asynchronous operation. A dependent asynchronous operation does not execute until the operation that it is dependent with has finished executing."
 ms.custom: 
 ms.date: 10/31/2017
@@ -33,5 +33,5 @@ An asynchronous operation can be made dependent with another asynchronous operat
  The dependency token must be set when the asynchronous operation is created. Because [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps create asynchronous operations for bulk operations such as bulk email, bulk delete, and import, you cannot make use of the dependency token for these operations. In addition, the dependency token cannot be used to order execution of asynchronous registered plug-ins because the asynchronous operation that executes plug-ins is created by the Queue Manager. For more information, refer to [Asynchronous Service Architecture](asynchronous-service-architecture.md).  
   
 ### See also  
- [Asynchronous Service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md)   
- [Asynchronous Service in Dynamics 365 for Customer Engagement apps](recurrence-pattern-asynchronous-job-execution.md)
+ [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)   
+ [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](recurrence-pattern-asynchronous-job-execution.md)

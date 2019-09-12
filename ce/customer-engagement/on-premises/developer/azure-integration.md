@@ -1,6 +1,6 @@
 ---
-title: "Azure integration with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "Learn about connecting Dynamics 365 for Customer Engagement apps with the Azure platform by coupling the Dynamics 365 for Customer Engagement apps event execution pipeline to the Azure Service Bus."
+title: "Azure integration with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Learn about connecting Dynamics 365 Customer Engagement (on-premises) with the Azure platform by coupling the Dynamics 365 Customer Engagement (on-premises) event execution pipeline to the Azure Service Bus."
 ms.custom: 
 ms.date: 09/19/2018
 ms.reviewer: 
@@ -35,7 +35,7 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  The key elements that implement the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] are described below. A diagram in the next section shows these elements in operation.  
   
  **Data Context**  
- The *data context* contains the business data that is being processed as part of the current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps operation. This processing was initiated when a request to perform a certain operation was made by a user, workflow, or application,  to the Dynamics 365 for Customer Engagement apps platform. The data context is passed to any plug-ins or custom workflow activities that are registered with the event pipeline to execute on the specific request and entity combination that is currently being processed. The data context is of type <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> when it is being passed along the event execution pipeline and <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext> when it is posted to the service bus.  
+ The *data context* contains the business data that is being processed as part of the current [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps operation. This processing was initiated when a request to perform a certain operation was made by a user, workflow, or application,  to the Dynamics 365 Customer Engagement (on-premises) platform. The data context is passed to any plug-ins or custom workflow activities that are registered with the event pipeline to execute on the specific request and entity combination that is currently being processed. The data context is of type <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> when it is being passed along the event execution pipeline and <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext> when it is posted to the service bus.  
   
  The data context contained within the message that is posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] can be formatted in XML or JSON in addition to the default .NET binary format. This allows for cross-platform interoperability where Azure hosted non-.NET clients can read [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data from the service bus. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]. 
 
@@ -55,7 +55,7 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the technologies described above see: [Understand the execution context](/powerapps/developer/common-data-service/understand-the-data-context), [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline), and [Write a listener application for a Microsoft Azure solution](write-listener-application-azure-solution.md).  
   
  **Plug-ins**  
- Plug-ins are one of two methods used to initiate posting the message containing the data context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)], the other method being a custom workflow activity. There are two kinds of plug-ins supported by the Dynamics 365 for Customer Engagement apps-Azure connection feature: out-of-box (OOB), and custom. In either case, it is recommended that you register the plug-in to run asynchronously for best system performance.  
+ Plug-ins are one of two methods used to initiate posting the message containing the data context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)], the other method being a custom workflow activity. There are two kinds of plug-ins supported by the Dynamics 365 Customer Engagement (on-premises)-Azure connection feature: out-of-box (OOB), and custom. In either case, it is recommended that you register the plug-in to run asynchronously for best system performance.  
   
  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware OOB plug-in is provided with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and can be registered using the Plug-in Registration Tool in the  SDK download. This plug-in executes in full trust with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps platform. You must register a plug-in 'step' in the event execution pipeline  that identifies the message and entity combination that triggers  the plug-in to execute and perform the posting notification. When executed, the plug-in  notifies the asynchronous service, through a service endpoint notification service (<xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService>), to post the current request data context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
@@ -67,10 +67,10 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  **Asynchronous Service**  
  Once notified by the service endpoint notification service, the asynchronous service handles posting the  data context of the request message currently being processed by the event execution pipeline to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. Each post is performed by a system job of the asynchronous service. A user can view the status of each system job by using the **System Jobs** view of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application.  
   
- [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the asynchronous service see [Asynchronous service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md).  
+ [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the asynchronous service see [Asynchronous service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md).  
   
  **Microsoft Azure Service Bus**  
- The service bus relays the request messagedata context between[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution listener applications. The service bus also provides data security so that only authorized applications can access the posted Dynamics 365 for Customer Engagement apps data.  Authorization of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to post the data context to the service bus and for listener applications to read it is managed by  [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Shared Access Signatures (SAS).  
+ The service bus relays the request messagedata context between[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution listener applications. The service bus also provides data security so that only authorized applications can access the posted Dynamics 365 Customer Engagement (on-premises) data.  Authorization of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to post the data context to the service bus and for listener applications to read it is managed by  [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Shared Access Signatures (SAS).  
   
   
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] the service bus see [Service Bus](https://azure.microsoft.com/en-us/services/service-bus/). [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] service bus authorization see [Service Bus authentication and authorization](https://azure.microsoft.com/en-us/documentation/articles/service-bus-authentication-and-authorization/).  
@@ -78,7 +78,7 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  **Microsoft Azure Solution**  
  For the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-[!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] connection to work there must be at least one solution in an [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution account, where the solution contains one or more service endpoints. For a relay endpoint contract, a listener application that is “[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-aware” must be actively listening on the endpoint for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] request on the service bus. For a queue endpoint contract, a listener doesn’t have to be actively listening. A listener is made “[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]-aware” by linking it to the <xref:Microsoft.Xrm.Sdk> assembly so that type <xref:Microsoft.Xrm.Sdk.RemoteExecutionContext> is defined. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Write a Listener for a Microsoft Azure Solution](write-listener-application-azure-solution.md)  
   
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps support sending event data to an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] solution. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]. [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] event hubs see [Work with Dynamics 365 for Customer Engagement apps event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md).  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps support sending event data to an [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] solution. [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]. [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] event hubs see [Work with Dynamics 365 Customer Engagement (on-premises) event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md).  
   
 <a name="bkmk_describing"></a>  
  
@@ -88,7 +88,7 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
   
  The following diagram shows the physical elements that make up the scenario.  
   
- ![Dynamics 365 for Customer Engagement apps to Service Bus scenario](media/crm-v5s-az.png "Dynamics 365 for Customer Engagement apps to Service Bus scenario")  
+ ![Dynamics 365 Customer Engagement (on-premises) to Service Bus scenario](media/crm-v5s-az.png "Dynamics 365 Customer Engagement (on-premises) to Service Bus scenario")  
   
  The sequence of events as identified in this diagram are as follows:  
   
@@ -137,8 +137,8 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
  If an error occurred after a post was attempted to the service bus, check the status of the related system job in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application for more information on the error. If the service bus is down or a listener/endpoint isn’t available, the current message being processed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps will not be posted to the bus. The asynchronous service will continue to try to post the message in an exponential pattern where it will try to post frequently at first and then at longer and longer intervals. For an internal [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps error, message posts are not attempted. For an external service bus or network error, the related system job will be in a “Wait” state.  
   
 ### See also  
- [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
- [Configure Azure integration with Dynamics 365 for Customer Engagement apps](configure-azure-integration.md)   
- [Plug-ins for Extending Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)   
+ [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
+ [Configure Azure integration with Dynamics 365 Customer Engagement (on-premises)](configure-azure-integration.md)   
+ [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Understanding the Asynchronous Service](asynchronous-service.md)   
  [System Job (asyncoperation) Entities](asyncoperation-system-job-entity.md)

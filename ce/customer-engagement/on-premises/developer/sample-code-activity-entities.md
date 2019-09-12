@@ -1,5 +1,5 @@
 ---
-title: "Sample code for activity entities (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Sample code for activity entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This section contains the code examples that demonstrate how to use the activity entities"
 ms.custom: 
 ms.date: 10/31/2017
@@ -36,7 +36,7 @@ This section contains the code examples that demonstrate how to use the activity
   
  [Sample: Convert a Fax to a Task](sample-convert-fax-task.md)  
   
- [Sample: Promote an Email Message to Dynamics 365 for Customer Engagement apps](sample-promote-email-message.md)  
+ [Sample: Promote an Email Message to Dynamics 365 Customer Engagement (on-premises)](sample-promote-email-message.md)  
   
  [Sample: Send an Email Using a Template](sample-send-email-template.md)  
   

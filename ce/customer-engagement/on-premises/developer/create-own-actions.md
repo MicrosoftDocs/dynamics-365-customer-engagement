@@ -1,6 +1,6 @@
 ---
-title: "Create your own actions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Actions are custom messages that help in extending functionality of Dynamics 365 for Customer Engagement apps. Learn more about how to create your own actions"
+title: "Create your own actions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Actions are custom messages that help in extending functionality of Dynamics 365 Customer Engagement (on-premises). Learn more about how to create your own actions"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 

@@ -64,7 +64,7 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
  Absolute URLs are typically provided for the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site records because these are the container or parent objects under which you want to create other locations for storing and managing your documents.  
   
 > [!NOTE]
->  The `SharePointDocumentLocation.LocationType` attribute determines whether a `SharePointDocumentLocation` record points to a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] folder (0) or to a [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] file (1). When you create a `SharePointDocumentLocation` instance (record), the value of the `SharePointDocumentLocation.LocationType` attribute is set to 0 by default to indicate that it points to a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] folder. For more information about the OneNote support, see [Integrate Microsoft Dynamics 365 for Customer Engagement apps with OneNote](integrate-onenote.md).  
+>  The `SharePointDocumentLocation.LocationType` attribute determines whether a `SharePointDocumentLocation` record points to a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] folder (0) or to a [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] file (1). When you create a `SharePointDocumentLocation` instance (record), the value of the `SharePointDocumentLocation.LocationType` attribute is set to 0 by default to indicate that it points to a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] folder. For more information about the OneNote support, see [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with OneNote](integrate-onenote.md).  
   
 ### Relative URL of the SharePoint location records  
  This is the relative location of a location record with respect to its parent location record on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] server. When you specify a relative URL for a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] location record, you must also specify the parent object under which it should be created. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps internally uses the URL of the parent object to determine the absolute URL for the child object. For example, to create a record for a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] document location under the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site created in the previous example, you must specify the following:  
@@ -84,7 +84,7 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
  You can set a [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site location record as default so that all the document locations created using [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps will be automatically created under this site. To create a site location record as default, use the `SharePointSite.IsDefault` property, and set it to `true`. You can set a site location record as default while creating or updating a site location record.  
   
 > [!NOTE]
-> Automatic creation of document location records is possible only if the target site is a [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)] or [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] server and [!INCLUDE[pn_crm_list_component_sharepoint_server](../../includes/pn-crm-list-component-sharepoint-server.md)] is installed on the target [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] Site Collection. For more information about the [!INCLUDE[pn_list_component_short](../../includes/pn-list-component-short.md)], see [Microsoft Dynamics 365 for Customer Engagement apps list component for Microsoft SharePoint Server](get-started-sharepoint-integration.md#CRMListComponent).  
+> Automatic creation of document location records is possible only if the target site is a [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)] or [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] server and [!INCLUDE[pn_crm_list_component_sharepoint_server](../../includes/pn-crm-list-component-sharepoint-server.md)] is installed on the target [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] Site Collection. For more information about the [!INCLUDE[pn_list_component_short](../../includes/pn-list-component-short.md)], see [Microsoft Dynamics 365 Customer Engagement (on-premises) list component for Microsoft SharePoint Server](get-started-sharepoint-integration.md#CRMListComponent).  
   
 <a name="AssociateRecord"></a>
 
@@ -99,7 +99,7 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
   
  The <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest> message will work properly only if both are true:  
   
-- The [!INCLUDE[pn_crm_list_component_sharepoint_server](../../includes/pn-crm-list-component-sharepoint-server.md)] is installed on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection on the target [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)] or [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] server. For more information, see [Microsoft Dynamics 365 for Customer Engagement apps list component for Microsoft SharePoint Server](get-started-sharepoint-integration.md#CRMListComponent).  
+- The [!INCLUDE[pn_crm_list_component_sharepoint_server](../../includes/pn-crm-list-component-sharepoint-server.md)] is installed on the [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection on the target [!INCLUDE[pn_ms_SharePoint_2010_short](../../includes/pn-ms-sharepoint-2010-short.md)] or [!INCLUDE[pn_sharepoint_2013](../../includes/pn-sharepoint-2013.md)] server. For more information, see [Microsoft Dynamics 365 Customer Engagement (on-premises) list component for Microsoft SharePoint Server](get-started-sharepoint-integration.md#CRMListComponent).  
   
 - The location record for the parent [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] site collection exists in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and the `SharePointSite.IsGridPresent` property was set to `true` while creating the parent location record.  
   
@@ -114,10 +114,10 @@ _spDocLocId = _serviceProxy.Create(spDocLoc);
 ### See Also  
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlRequest>  
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveAbsoluteAndSiteCollectionUrlResponse> 
- [Integrate Dynamics 365 for Customer Engagement apps with SharePoint](integrate-sharepoint.md)   
+ [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md)   
  [Introduction to SharePoint Integration](get-started-sharepoint-integration.md)   
  [Enable Document Management for Entities](enable-document-management-entities.md)    
  [Sample: Enable Document Management for Entities](sample-enable-document-management-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   
  [Sample: Retrieve Absolute URL and Site Collection URL of a Location Record](sample-retrieve-absolute-url-and-site-collection-url-of-a-location-record.md)   
- [Integrate Microsoft Dynamics 365 for Customer Engagement apps with OneNote](integrate-onenote.md)
+ [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with OneNote](integrate-onenote.md)

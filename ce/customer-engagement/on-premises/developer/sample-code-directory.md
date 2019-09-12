@@ -1,5 +1,5 @@
 ---
-title: "Sample code directory (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample code directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Listings of sample code topics included in the Customer Engagement SDK."
 keywords: 
 ms.date: 11/16/2017
@@ -25,7 +25,7 @@ search.app:
   - D365CE
 ---
 
-# Sample code directory for Dynamics 365 for Customer Engagement apps
+# Sample code directory for Dynamics 365 Customer Engagement (on-premises)
 
 The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
   
@@ -37,7 +37,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Convert a Fax to a Task](sample-convert-fax-task.md)<br />
 [Sample: Create an Email Using a Template](sample-create-email-template.md)<br />
 [Sample: Create, Retrieve, Update, and Delete (CRUD) an E-Mail Attachment](sample-create-retrieve-update-delete-email-attachment.md)<br />
-[Sample: Promote an E-mail Message to Dynamics 365 for Customer Engagement apps](sample-promote-email-message.md)<br />
+[Sample: Promote an E-mail Message to Dynamics 365 Customer Engagement (on-premises)](sample-promote-email-message.md)<br />
 [Sample: Retrieve E-mail Attachments for an E-mail Template](sample-retrieve-email-attachments-email-template.md)<br />
 [Sample: Send an E-mail](sample-send-email.md)<br />
 [Sample: Send an E-mail Using a Template](sample-send-email-template.md)<br />
@@ -75,8 +75,8 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 
 [Sample: Authenticate Users with Dynamics 365 for Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
-[Sample: Quick Start for Dynamics 365 for Customer Engagement apps](sample-quick-start.md)<br />
-[Sample: Simplified Connection Quick Start using Dynamics 365 for Customer Engagement apps](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
+[Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
+[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
 [Sample: Quick start for XRM Tooling API](xrm-tooling/sample-quick-start-xrm-tooling-api.md)<br />
   
   
@@ -248,8 +248,8 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 <a name="BKMK_Mobile"></a>   
 ## Mobile  
 
-[Sample: Android Activity Tracker for Dynamics 365 for Customer Engagement apps](sample-android-activity-tracker-web-api.md)<br />
-[Sample: iOS Activity Tracker for Dynamics 365 for Customer Engagement apps](sample-ios-activity-tracker-web-api.md)<br />
+[Sample: Android Activity Tracker for Dynamics 365 Customer Engagement (on-premises)](sample-android-activity-tracker-web-api.md)<br />
+[Sample: iOS Activity Tracker for Dynamics 365 Customer Engagement (on-premises)](sample-ios-activity-tracker-web-api.md)<br />
   
 <a name="BKMK_Organization"></a>   
 ## Organization web service  
@@ -261,8 +261,8 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />
 [Helper Code: SystemUserProvider class](org-service/helper-code-systemuserprovider-class.md)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
-[Sample: Quick Start for Dynamics 365 for Customer Engagement apps](sample-quick-start.md)<br />
-[Sample: Simplified Connection Quick Start using Dynamics 365 for Customer Engagement apps](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
+[Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
+[Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
 [Sample: Use the Organization Service Context](org-service/sample-use-organization-service-context.md)<br />
   
 <a name="BKMK_Plugins"></a>   
@@ -391,4 +391,4 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Web Resource Utility](sample-web-resource-utility.md)<br />
   
 ### See also  
- [Tutorials for Learning Dynamics 365 for Customer Engagement apps](tutorials-resources-sdk.md)
+ [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)

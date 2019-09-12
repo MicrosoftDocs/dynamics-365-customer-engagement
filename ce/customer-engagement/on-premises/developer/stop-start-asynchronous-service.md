@@ -1,5 +1,5 @@
 ---
-title: "Stop and start the asynchronous service (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Stop and start the asynchronous service (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about stopping and starting the asynchronous service by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted."
 ms.custom: 
 ms.date: 04/10/2019
@@ -37,4 +37,4 @@ For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps on-premises
    You must have System Administrator privileges to stop or start the service.  
   
 ### See also  
- [Asynchronous Service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md)
+ [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)

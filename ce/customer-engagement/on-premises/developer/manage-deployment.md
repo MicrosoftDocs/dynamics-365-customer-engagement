@@ -1,5 +1,5 @@
 ---
-title: "Manage your deployment (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Manage your deployment (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Write application code to handle disaster recovery, administer your deployment, and import sample data."
 ms.custom: 
 ms.date: 03/07/2019
@@ -26,7 +26,7 @@ Write application code to administer your deployment and import sample data into
   
 ## In This Section  
 [Administer the deployment using the deployment web service](administer-deployment-using-deployment-web-service.md)  
-[Sample Data for Dynamics 365 for Customer Engagement apps](sample-data.md)  
+[Sample Data for Dynamics 365 Customer Engagement (on-premises)](sample-data.md)  
   
 ## Related Sections  
  [Add and Remove Sample Data](../admin/add-remove-sample-data.md)

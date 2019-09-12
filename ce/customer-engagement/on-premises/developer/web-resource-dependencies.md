@@ -1,5 +1,5 @@
 ---
-title: "Web resource dependencies (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Web resource dependencies (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about defining dependencies between web resources in Dynamics 365 for Customer Engagement. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -55,7 +55,7 @@ Before this feature you would need to manually add the attribute to the form and
 
 
 ## See also
-[Web resources for Dynamics 365 for Customer Engagement apps](web-resources.md)<br />
+[Web resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
 [Create accessible web resources](create-accessible-web-resources.md)<br />
 [Create web resources and IFrame content for use with the Dynamics 365 for Customer Engagement for mobile clients](create-web-resources-iframe-mobile.md)<br />
 [Webpage (HTML) web resources](webpage-html-web-resources.md)<br />

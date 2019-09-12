@@ -1,5 +1,5 @@
 ---
-title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Supported messages and entities for plug-ins (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic contains information about the message and entity combinations that support execution of plug-ins for Dynamics 365 for Customer Engagement (online) Customer Engagement."
 ms.custom: on-premise
 ms.date: 2/5/2019

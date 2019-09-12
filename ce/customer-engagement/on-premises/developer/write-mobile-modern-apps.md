@@ -1,6 +1,6 @@
 ---
-title: "Write mobile and modern apps (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "Dynamics 365 for Customer Engagement apps provide separate clients for phones and tablets which adapt to system customizations and configurations"
+title: "Write mobile and modern apps (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Dynamics 365 Customer Engagement (on-premises) provide separate clients for phones and tablets which adapt to system customizations and configurations"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -31,10 +31,10 @@ Here are four scenarios where you can create mobile apps that leverage the Micro
 
 |Opportunity|Description|
 |-----|-----|
-|Task specific apps|Create rich mobile apps that merge Dynamics 365 for Customer Engagement apps data with data from multiple systems, such as ERP, Billing or Help Desk for a very concise mobile experience.|
-|Aggregate multiple systems|Create mobile apps with a streamlined user experience which target activities people frequently perform using Dynamics 365 for Customer Engagement apps.|
-|Self-service enablement|Create mobile apps that can be used by your customers and that can feed data back directly to Dynamics 365 for Customer Engagement apps to enable scenarios such as event registration or loyalty program apps.|
-|Device specific experiences|Create rich mobile apps for Dynamics 365 for Customer Engagement apps that leverage the capabilities of modern mobile devices, such as GPS, camera, biometric security, and mobile payments.|
+|Task specific apps|Create rich mobile apps that merge Dynamics 365 Customer Engagement (on-premises) data with data from multiple systems, such as ERP, Billing or Help Desk for a very concise mobile experience.|
+|Aggregate multiple systems|Create mobile apps with a streamlined user experience which target activities people frequently perform using Dynamics 365 Customer Engagement (on-premises).|
+|Self-service enablement|Create mobile apps that can be used by your customers and that can feed data back directly to Dynamics 365 Customer Engagement (on-premises) to enable scenarios such as event registration or loyalty program apps.|
+|Device specific experiences|Create rich mobile apps for Dynamics 365 Customer Engagement (on-premises) that leverage the capabilities of modern mobile devices, such as GPS, camera, biometric security, and mobile payments.|
    
 ## Getting started 
   
@@ -53,6 +53,6 @@ Resources for getting started with mobile app development:
  
 ## Related Sections
   
-[Developer Guide for Dynamics 365 for Customer Engagement apps](developer-guide.md)<br /> 
+[Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br /> 
 [Mobile Development Helper Code for Dynamics CRM](http://code.msdn.microsoft.com/Mobile-Development-Helper-3213e2e6)<br /> 
 [odata.org](http://www.odata.org)<br /> 

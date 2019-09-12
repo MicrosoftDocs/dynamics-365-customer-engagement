@@ -1,5 +1,5 @@
 ---
-title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Write plug-ins to extend business processes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "A plug-in is custom business logic that you can integrate with Dynamics 365 for Customer Engagement (online) Customer Engagement to modify or augment the standard behavior of the platform. Plug-ins are event handlers since they are registered to execute in response to a particular event being fired by the platform."
 ms.custom: on-premise
 ms.date: 03/27/2019
@@ -38,7 +38,7 @@ A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dyna
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
 >
-> The plug-in documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
+> The plug-in documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 >
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
   
@@ -46,6 +46,6 @@ A plug-in is custom business logic that you can integrate with [!INCLUDE[pn_dyna
 [Plug-in Development](plugin-development.md)
   
 ## Related Sections  
- [Developer Guide for Dynamics 365 for Customer Engagement apps](developer-guide.md)<br />     
- [Write Workflows to Automate Business Processes in Dynamics 365 for Customer Engagement apps](automate-business-processes-customer-engagement.md)<br />     
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)<br /> 
+ [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br />     
+ [Write Workflows to Automate Business Processes in Dynamics 365 Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)<br />     
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)<br /> 

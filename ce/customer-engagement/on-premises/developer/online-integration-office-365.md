@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement (online) Integration with Office 365 (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "Learn how Dynamics 365 for Customer Engagement apps customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 for Customer Engagement apps with Office 365"
+title: "Dynamics 365 for Customer Engagement (online) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Learn how Dynamics 365 Customer Engagement (on-premises) customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 Customer Engagement (on-premises) with Office 365"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -27,7 +27,7 @@ This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_onl
  This topic provides information about where users’ identities are created and managed, and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
 ## Identity management with Microsoft Online Services  
- When accessing the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services, your applications should know the identity provider associated with the logged on user’s [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps account. Configuration of the user’s authentication credentials for accessing the web services through SDK calls is slightly different for each provider. The details on how to configure user credentials for each identity provider and access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services is discussed in the topic [Access the Dynamics 365 for Customer Engagement apps Services](authenticate-office-365-users-customer-engagement-web-services.md).  
+ When accessing the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services, your applications should know the identity provider associated with the logged on user’s [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps account. Configuration of the user’s authentication credentials for accessing the web services through SDK calls is slightly different for each provider. The details on how to configure user credentials for each identity provider and access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services is discussed in the topic [Access the Dynamics 365 Customer Engagement (on-premises) Services](authenticate-office-365-users-customer-engagement-web-services.md).  
   
  There are two identity providers supported by [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)]: User ID, and [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] (through cloud federation). The following discussion provides an overview of these identity services and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   

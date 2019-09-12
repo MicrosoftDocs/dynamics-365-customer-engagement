@@ -27,11 +27,11 @@ This guide shows you how to write application code that connects to the [!INCLUD
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](../includes/cc-cdsnote-1.md)]
 >
-> The Organization service programming documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+> The Organization service programming documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
 >
 > [!INCLUDE[cc-cdsnote-2-section](../includes/cc-cdsnote-2-section.md)]
   
 ### See also  
- [Programming models for Dynamics 365 for Customer Engagement apps](../programming-models.md)  
+ [Programming models for Dynamics 365 Customer Engagement (on-premises)](../programming-models.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)  
  [PowerApps-Samples](https://github.com/Microsoft/PowerApps-Samples)

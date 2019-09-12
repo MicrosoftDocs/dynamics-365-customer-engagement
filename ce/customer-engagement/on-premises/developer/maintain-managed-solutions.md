@@ -1,5 +1,5 @@
 ---
-title: "Maintain managed solutions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Maintain managed solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: "pehecke"
@@ -25,7 +25,7 @@ Before you release your managed solution you should consider how you will mainta
 
 <a name="BKMK_VersionCompatibilty"></a>   
 ## Version compatibility  
- Any solution exported from a newer version of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps cannot be imported into an older version of Dynamics 365 for Customer Engagement apps. This includes major and minor versions. Solutions exported from an earlier version of Dynamics 365 for Customer Engagement apps can be imported into later versions as shown in the following chart.  
+ Any solution exported from a newer version of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps cannot be imported into an older version of Dynamics 365 Customer Engagement (on-premises). This includes major and minor versions. Solutions exported from an earlier version of Dynamics 365 Customer Engagement (on-premises) can be imported into later versions as shown in the following chart.  
   
 ![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png)
 

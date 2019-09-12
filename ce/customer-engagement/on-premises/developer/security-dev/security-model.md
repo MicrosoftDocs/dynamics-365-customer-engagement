@@ -57,13 +57,13 @@ search.app:
 ## In This Section  
  [How Role-Based Security Can Be Used to Control Access to Entities In Microsoft Dynamics 365 for Customer Engagemen apps](how-role-based-security-control-access-entities.md)  
   
- [How Instance-Based Security Can Be Used to Control Access to Records In Microsoft Dynamics 365 for Customer Engagement apps](use-record-based-security-control-access-records.md)  
+ [How Instance-Based Security Can Be Used to Control Access to Records In Microsoft Dynamics 365 Customer Engagement (on-premises)](use-record-based-security-control-access-records.md)  
   
- [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 for Customer Engagement apps](use-field-security-control-access-field-values.md)  
+ [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 Customer Engagement (on-premises)](use-field-security-control-access-field-values.md)  
   
- [How hierarchical security can be used to control access to entities in Microsoft Dynamics 365 for Customer Engagement apps](hierarchical-security-control-access-entities.md)  
+ [How hierarchical security can be used to control access to entities in Microsoft Dynamics 365 Customer Engagement (on-premises)](hierarchical-security-control-access-entities.md)  
   
 ## Related Sections  
- [Security concepts for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699698\(v=crm.8\).aspx)  
+ [Security concepts for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699698\(v=crm.8\).aspx)  
   
    

@@ -1,5 +1,5 @@
 ---
-title: "Modify the messages for an entity (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Modify the messages for an entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about editing the entity messages by exporting, editing, and importing translations."
 ms.custom: 
 ms.date: 10/31/2017

@@ -1,5 +1,5 @@
 ---
-title: "Support offline execution with Dynamics 365 for Microsoft Office (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Support offline execution with Dynamics 365 for Microsoft Office (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Add support to your plug-in for execution by the Dynamics 365 for Microsoft Office Outlook with Offline Access while the client is offline."
 ms.custom: on-premise
 ms.date: 1/22/2019

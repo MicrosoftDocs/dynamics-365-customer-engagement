@@ -1,6 +1,6 @@
 ---
-title: "Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "Learn how to use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 for Customer Engagement apps"
+title: "Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Learn how to use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps
+# Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 Customer Engagement (on-premises)
 
 You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to work with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data. To provide this, Cross-Origin Resource Sharing (CORS) is enabled so that your SPAs can bypass browser restrictions that normally prevent requests that cross domain boundaries.  
   
@@ -67,6 +67,6 @@ You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../
    The set of steps required are described in [Walkthrough: Registering and configuring SimpleSPA application with adal.js](walkthrough-registering-configuring-simplespa-application-adal-js.md).  
   
 ### See also  
- [Authenticate users in Dynamics 365 for Customer Engagement apps](authenticate-users.md)   
+ [Authenticate users in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
  [Use OAuth to connect to Dynamics 365 for Customer Engagement web Services](connect-customer-engagement-web-services-using-oauth.md)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)

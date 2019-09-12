@@ -1,5 +1,5 @@
 ---
-title: "Sample: One-way listener (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: One-way listener (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to write a Azure Service Bus listener for a one-way endpoint contract. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -40,7 +40,7 @@ Download the sample: [Work with Microsoft Dynamics 365 for Customer Engagement a
  [!code-csharp[WindowsAzure#OneWayListener](../snippets/csharp/CRMV8/windowsazure/cs/onewaylistener.cs#onewaylistener)]  
   
 ### See also  
- [Sample Code for Dynamics 365 for Customer Engagement apps and Microsoft Azure Integration](sample-code-azure-integration.md)   
+ [Sample Code for Dynamics 365 Customer Engagement (on-premises) and Microsoft Azure Integration](sample-code-azure-integration.md)   
  [Sample: Two-way Listener](sample-two-way-listener.md)   
  [Write a One-way, Two-way, or REST Listener](write-listener-application-azure-solution.md#bkmk_writeoneway)   
  <xref:Microsoft.Xrm.Sdk.IServiceEndpointPlugin>

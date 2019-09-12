@@ -1,5 +1,5 @@
 ---
-title: "Use managed properties (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Use managed properties (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Managed properties help you define which of the managed solution components can be customized"
 ms.custom: 
 ms.date: 10/31/2017

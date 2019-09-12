@@ -1,5 +1,5 @@
 ---
-title: "Use Dynamics 365 for Customer Engagement web services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Use Dynamics 365 for Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This topic introduces available web service APIs that you will use when you write programs for Dynamics 365 for Customer Engagement (online) Customer Engagement and provides basic information to understand and compare them"
 ms.custom: 
 ms.date: 11/28/2017
@@ -46,7 +46,7 @@ The Organization service has been available since [!INCLUDE[pn_CRM_2011](../incl
 
 The .NET assemblies for the Organization service currently use a 2011 SOAP endpoint which has been deprecated. The SDK assemblies will eventually be migrated to internally use the Web API instead of the 2011 SOAP endpoint. When this happens, any code written using the SDK assemblies will continue to be supported as it will automatically transfer from the 2011 SOAP endpoint to use the Web API. This update will be fully transparent to you; additional details will be published in future SDK releases. 
 
-See [Choose your development style for Dynamics 365 for Customer Engagement apps](choose-development-style.md) for guidance about whether to use the Organization service or Web API.
+See [Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md) for guidance about whether to use the Organization service or Web API.
 
 If you’re a .NET developer with no requirements to support other platforms, you don’t have to move to the Web API right away. You’ll need to use the Organization service to support any functionality you want to deploy to organizations using versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] released before [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
   
@@ -74,8 +74,8 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
   
   
 ### See also  
- [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)   
- [Authenticate users to Dynamics 365 for Customer Engagement apps](authenticate-users.md)   
+ [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)   
+ [Authenticate users to Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
  [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
  [Write mobile and modern apps](write-mobile-modern-apps.md)

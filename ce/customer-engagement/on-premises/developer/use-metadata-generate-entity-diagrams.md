@@ -1,5 +1,5 @@
 ---
-title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about Metadata Diagram entity to create a simple diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities."
 ms.custom: 
 ms.date: 08/09/2019
@@ -129,7 +129,7 @@ MetadataDiagramConsole.exe new_bankaccount new_safedepositbox
 >  To avoid overwriting a generated diagram file, you have to rename the first file before you run the second command.  
   
 ### See also  
- [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
+ [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
+ [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Key to Entity Diagrams](key-entity-diagrams.md)   
- [Dynamics 365 for Customer Engagement apps Entity Relationship Diagrams](http://download.microsoft.com/download/9/8/0/9805B4B0-5506-4CCE-915B-E2F1E65701D3/CRM2015EntityDiagrams.zip)
+ [Dynamics 365 Customer Engagement (on-premises) Entity Relationship Diagrams](http://download.microsoft.com/download/9/8/0/9805B4B0-5506-4CCE-915B-E2F1E65701D3/CRM2015EntityDiagrams.zip)

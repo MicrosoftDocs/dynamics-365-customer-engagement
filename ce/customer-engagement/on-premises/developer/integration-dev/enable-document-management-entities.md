@@ -44,6 +44,6 @@ Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_c
 >  You must have the System Administrator or System Customizer role to enable or disable document management for an entity.  
   
 ### See also  
- [SharePoint Extensions for Dynamics 365 for Customer Engagement apps](integrate-sharepoint.md)   
+ [SharePoint Extensions for Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Sample: Enable SharePoint Integration](sample-enable-document-management-entities.md)

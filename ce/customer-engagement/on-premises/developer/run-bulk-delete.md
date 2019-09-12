@@ -1,5 +1,5 @@
 ---
-title: "Run bulk delete (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Run bulk delete (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Delete data in bulk by submitting an asynchronous bulk delete job via the BulkDeleteRequest message."
 ms.custom: 
 ms.date: 10/31/2017
@@ -61,8 +61,8 @@ To delete data in bulk, you have to submit a bulk delete job by using the <xref:
   
 ### See also
 
- [Delete Data in Bulk in Dynamics 365 for Customer Engagement apps](delete-data-bulk.md)   
- [Data Management in Dynamics 365 for Customer Engagement apps (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)    
+ [Delete Data in Bulk in Dynamics 365 Customer Engagement (on-premises)](delete-data-bulk.md)   
+ [Data Management in Dynamics 365 Customer Engagement (on-premises) (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)    
  [Entity Relationship Behavior](entity-relationship-behavior.md)   
  [Recurrence Pattern in Asynchronous Job Execution](recurrence-pattern-asynchronous-job-execution.md)   
  [Sample: Bulk Delete Exported Records](sample-bulk-delete-exported-records.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Use the Dynamics 365 for Customer Engagement Discovery services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Use the Dynamics 365 for Customer Engagement Discovery services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "In a multi-tenant environment like Dynamics 365 for Customer Engagement, the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: 
 ms.date: 10/31/2017

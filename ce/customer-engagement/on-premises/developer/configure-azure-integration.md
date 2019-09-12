@@ -1,6 +1,6 @@
 ---
-title: "Configure Azure integration with Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "The topic describes configuring Azure integration with Dynamics 365 for Customer Engagement apps."
+title: "Configure Azure integration with Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "The topic describes configuring Azure integration with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 05/16/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Configure Azure integration with Dynamics 365 for Customer Engagement apps
+# Configure Azure integration with Dynamics 365 Customer Engagement (on-premises)
 
 You can post the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, perform the tasks detailed in this topic.  
 
@@ -34,7 +34,7 @@ You can post the message request data for the current core operation to cloud ho
 
 When you use SAS for authorization, you need to configure the rules and issuers of your [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution to allow a listener application to read the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps message posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. In addition, you must configure the service bus rules to accept the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps issuer claim. The recommended method to configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] is to use the Plug-in Registration Tool.  
   
-For instructions on configuring authorization see [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement apps](walkthrough-configure-azure-sas-integration.md).  
+For instructions on configuring authorization see [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 Customer Engagement (on-premises)](walkthrough-configure-azure-sas-integration.md).  
 
 ## Test Configuration
 
@@ -76,7 +76,7 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
   
 ### See also
 
-[Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
+[Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)<br />
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />

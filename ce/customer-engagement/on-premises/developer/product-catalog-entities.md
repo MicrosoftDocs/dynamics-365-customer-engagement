@@ -1,5 +1,5 @@
 ---
-title: "Product catalog entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Product catalog entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Enables the creation of rich product classification systems that support the definition of: hierarchical structures, product bundles, or related products, multiple pricing or discounting models, automatic price lists, and localized names and descriptions."
 ms.custom: 
 ms.date: 10/31/2017
@@ -112,7 +112,7 @@ A product catalog is a collection of products with their pricing information. Th
   
 ## Related Sections  
 
- [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Opportunity Entities](opportunity-entities.md)  
   

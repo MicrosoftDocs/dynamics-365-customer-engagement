@@ -1,6 +1,6 @@
 ---
-title: "Create web resources and IFrame content for use with the Dynamics 365 for Customer Engagement apps for mobile clients (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn about creating web resources and IFrames to use with the Dynamics 365 for Customer Engagement apps for mobile clients: iOS, Android, and Windows 10."
+title: "Create web resources and IFrame content for use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn about creating web resources and IFrames to use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients: iOS, Android, and Windows 10."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Create web resources and IFrame content for use with the Dynamics 365 for Customer Engagement apps for mobile clients
+# Create web resources and IFrame content for use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients
 
 > [!NOTE]
 > - The capability to display web resources and Iframes in phone clients was introduced in [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)].
@@ -45,7 +45,7 @@ Additionally, for these types of web resources, you can select the **Available O
   
 <a name="BKMK_ConfigureControl"></a>
 
-## Configure a form or dashboard IFrame or web resource control to display in Dynamics 365 for Customer Engagement apps for mobile clients  
+## Configure a form or dashboard IFrame or web resource control to display in Dynamics 365 Customer Engagement (on-premises) for mobile clients  
 
 When you add an IFrame or a web resource to a form or dashboard, you must select the **Enable for mobile** check box in the **Add Web Resource** dialog box. 
  This sets the `<ShowOnMobileClient>` parameter value for the control.  
@@ -65,9 +65,9 @@ When you add an IFrame or a web resource to a form or dashboard, you must select
   
 ### See also
 
-[Web resources for Dynamics 365 for Customer Engagement apps](web-resources.md)<br />
+[Web resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
 [Create accessible web resources](create-accessible-web-resources.md)<br />
-[Create web resources and IFrame content for use with the Dynamics 365 for Customer Engagement apps for mobile clients](create-web-resources-iframe-mobile.md)<br />
+[Create web resources and IFrame content for use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients](create-web-resources-iframe-mobile.md)<br />
 [Web resource dependencies](web-resource-dependencies.md)<br />
 [Webpage (HTML) web resources](webpage-html-web-resources.md)<br />
 [Silverlight (XAP) web resources](silverlight-xap-web-resources.md)<br />

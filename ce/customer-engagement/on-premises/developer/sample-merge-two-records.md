@@ -1,5 +1,5 @@
 ---
-title: "Sample: Merge two records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Merge two records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to merge two records. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#Merge](../snippets/csharp/CRMV8/businessmanagement/cs/merge.cs#merge)]  
   
 ### See also  
- [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.MergeRequest>   
  [Sample: Validate Record State and Set the State of the Record](sample-validate-record-state-set-state-record.md)

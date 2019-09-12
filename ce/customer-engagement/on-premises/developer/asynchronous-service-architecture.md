@@ -1,6 +1,6 @@
 ---
-title: "Asynchronous service architecture (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "The system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of Dynamics 365 for Customer Engagement apps is that the asynchronous service can be hosted on servers other than the Dynamics 365 for Customer Engagement server, resulting in improved performance."
+title: "Asynchronous service architecture (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "The system architecture can be divided into three major components: the core system, which features the event execution pipeline, the database component, which hosts the asynchronous queue, and the asynchronous service. One benefit of the scalable architecture of Dynamics 365 Customer Engagement (on-premises) is that the asynchronous service can be hosted on servers other than the Dynamics 365 for Customer Engagement server, resulting in improved performance."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -36,6 +36,6 @@ The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system arch
 ### See also  
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Walkthrough: Stop and Start the Asynchronous Service](stop-start-asynchronous-service.md)   
- [Asynchronous Service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md)   
+ [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)   
  [AsyncOperation (system job) entity](asyncoperation-system-job-entity.md)  
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)

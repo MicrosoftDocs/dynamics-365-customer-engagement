@@ -87,7 +87,7 @@ GET https://dev.{servername}/api/discovery/v9.0/Instances(UniqueName='myorg')
 
 ### CORS support
 
-The Discovery service Web API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps](../oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
+The Discovery service Web API supports the CORS standard for cross-origin access as does the Web API.  For more information about CORS support see [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 Customer Engagement (on-premises)](../oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ### Examples  
   

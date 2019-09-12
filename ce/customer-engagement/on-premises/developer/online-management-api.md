@@ -1,5 +1,5 @@
 ---
-title: "Online Management API for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Online Management API for Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.topic: conceptual
@@ -13,7 +13,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Online Management API for Dynamics 365 for Customer Engagement apps
+# Online Management API for Dynamics 365 Customer Engagement (on-premises)
 
 Online Management API is a REST API that lets you create and manage Customer Engagement instances in your Office 365 tenant. 
 

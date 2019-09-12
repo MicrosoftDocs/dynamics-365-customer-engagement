@@ -1,5 +1,5 @@
 ---
-title: "Asynchronous service in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Asynchronous service in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about the asynchronous service that executes long-running operations independent of the main Dynamics 365 for Customer Engagement (online) Customer Engagement core operation. The asynchronous service features a managed queue for the execution of asynchronous registered plug-ins, workflows, and operations such as bulk mail, bulk import, and campaign activity propagation."
 ms.custom: 
 ms.date: 10/31/2017
@@ -49,6 +49,6 @@ server other that the server running [!INCLUDE[pn_dynamics_crm](../includes/pn-d
 
  [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)
   
- [Processes in Dynamics 365 for Customer Engagement apps (formerly Workflows)](automate-business-processes-customer-engagement.md)  
+ [Processes in Dynamics 365 Customer Engagement (on-premises) (formerly Workflows)](automate-business-processes-customer-engagement.md)  
   
- [Data Management in Dynamics 365 for Customer Engagement apps](manage-data.md)
+ [Data Management in Dynamics 365 Customer Engagement (on-premises)](manage-data.md)

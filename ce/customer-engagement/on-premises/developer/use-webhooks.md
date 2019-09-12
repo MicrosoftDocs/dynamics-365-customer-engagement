@@ -1,5 +1,5 @@
 ---
-title: "Use webhooks to create external handlers for server events(Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use webhooks to create external handlers for server events(Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "You can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events."
 ms.custom: 
 ms.date: 12/18/2017
@@ -541,8 +541,8 @@ Because a webhook is a kind of service endpoint you can also invoke it without r
 [Extend Customer Engagement on the server](extend-dynamics-365-server.md)<br />
 [Write plug-ins to extend business processes](write-plugin-extend-business-processes.md)<br />
 [Automate your business processes in Customer Engagement apps](automate-business-processes-customer-engagement.md)<br />
-[Asynchronous service in Dynamics 365 for Customer Engagement apps](asynchronous-service.md)<br />
-[Azure extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)<br />
+[Asynchronous service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)<br />
+[Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)<br />
 [Sample: Azure aware custom plug-in](sample-azure-aware-custom-plugin.md)<br />
 [Sample: Azure aware custom workflow activity](sample-azure-aware-custom-workflow-activity.md)<br />
 [Azure Functions](https://azure.microsoft.com/services/functions/)<br />

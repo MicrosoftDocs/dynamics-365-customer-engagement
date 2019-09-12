@@ -1,5 +1,5 @@
 ---
-title: "Audit user access (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Audit user access (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Support for the ability to audit user access, including user identification, access time, and client type."
 ms.custom: audit
 ms.date: 03/29/2019
@@ -45,7 +45,7 @@ search.app:
   `UserAccessviaWeb` indicates access from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps web application or [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)]. `UserAccessviaWebServices` indicates a web service request from the SDK. The `AuditAction` enumeration is available to your code when you include `SampleCode\CS\HelperCode\OptionSets.cs` or `SampleCode\VB\HelperCode\OptionSets.vb` in your application’s project.  
   
 ### See also  
- [Audit Entity Data Changes in Dynamics 365 for Customer Engagement apps](audit-entity-data-changes.md)   
+ [Audit Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)   
  [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)     
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)   
  [Sample: Audit User Access](sample-audit-user-access.md)

@@ -1,6 +1,6 @@
 ---
-title: "Introduction to solutions (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "Developers and authors create, package and maintain units that extend Dynamics 365 for Customer Engagement apps"
+title: "Introduction to solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Developers and authors create, package and maintain units that extend Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: "pehecke"
@@ -234,7 +234,7 @@ search.app:
  There are a number of different tactics you should apply based on the type of solution components included in your solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create Solutions that Support Multiple Languages](create-solutions-support-multiple-languages.md)  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)   
  [Microsoft Dynamics 365 for Customer Engagement patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   

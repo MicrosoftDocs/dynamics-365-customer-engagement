@@ -1,5 +1,5 @@
 ---
-title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
 author: Nkrb
 ms.date: 03/27/2019
@@ -24,7 +24,7 @@ search.app:
 XRM tooling provides you with the following Windows PowerShell cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps (on-premises )and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
 
 > [!NOTE]
-> The PowerShell cmdlets documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
+> The PowerShell cmdlets documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use PowerShell cmdlets in XRM tooling to connect to Common Data Service](/powerapps/developer/common-data-service/xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect)
   
 <a name="Prereq"></a> 
 
@@ -89,7 +89,7 @@ You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-p
    $CRMOrgs  
    ```  
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 for Customer Engagement apps organization information](../media/xrmtooling-powershell-1.png)  
+   > ![Dynamics 365 Customer Engagement (on-premises) organization information](../media/xrmtooling-powershell-1.png)  
   
    > [!TIP]
    > You can use the variable that was used to store the retrieved [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
@@ -105,7 +105,7 @@ You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-p
 > [!IMPORTANT]
 > Before using the `Get-CrmConnection` cmdlet, ensure that you use the following command to enforce usage of TLS 1.2 by PowerShell to connect to your Customer Engagement instance:<br/>
 > `[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12`<br/>
-> More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 for Customer Engagement apps connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)   
+> More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 Customer Engagement (on-premises) connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)   
   
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps by using the common login control  
   
@@ -119,7 +119,7 @@ You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-p
   
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps by specifying credentials inline  
   
-1. To connect to Dynamics 365 for Customer Engagement apps, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
+1. To connect to Dynamics 365 Customer Engagement (on-premises), use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
   
    - If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
   
@@ -147,6 +147,6 @@ You’re now ready to use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-p
   
 ### See also
 
-[Use XRM Tooling API to connect to Dynamics 365 for Customer Engagement apps](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
+[Use XRM Tooling API to connect to Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/common-data-service/xrm-tooling/use-crmserviceclient-constructors-connect)<br />
 [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools)<br /> 
 [Blog: PowerShell module for performing data operations and manipulating user and system settings in Customer Engagement](http://blogs.msdn.com/b/crm/archive/2015/09/25/powershell-module-for-performing-data-operations-and-manipulating-user-and-system-settings-in-crm.aspx)

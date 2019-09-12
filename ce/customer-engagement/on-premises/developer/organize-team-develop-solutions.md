@@ -1,5 +1,5 @@
 ---
-title: "Organize your team to develop solutions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Organize your team to develop solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This document lists down some strategies to use when multiple developers are working on the same solution"
 ms.custom: 
 ms.date: 10/31/2017
@@ -53,9 +53,9 @@ When multiple developers have to work on the same solution, you may want to crea
   
 <a name="BKMK_DeployingSolutionsFromDevThroughToProduction"></a>   
 ## Deploy solutions from development through test and production environments  
- In development organizations, solutions are deployed into various test and staging environments for analysis before they are deployed into a production environment. The white paper [Deploying Microsoft Dynamics CRM 2011 and CRM Online Solutions from Development through Test and Production Environments](http://go.microsoft.com/fwlink/p/?LinkId=232288) explores how to deploy real-world Dynamics 365 for Customer Engagement apps solutions across test and production environments in reliable and repeatable ways by using automation. The paper also highlights specific constraints that exist when you deploy and test solutions in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
+ In development organizations, solutions are deployed into various test and staging environments for analysis before they are deployed into a production environment. The white paper [Deploying Microsoft Dynamics CRM 2011 and CRM Online Solutions from Development through Test and Production Environments](http://go.microsoft.com/fwlink/p/?LinkId=232288) explores how to deploy real-world Dynamics 365 Customer Engagement (on-premises) solutions across test and production environments in reliable and repeatable ways by using automation. The paper also highlights specific constraints that exist when you deploy and test solutions in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   
 ### See also  
  [Planning for Solution Development](plan-solution-development.md)   
  [Modularize your Solutions](organize-solutions.md)   
- [White Paper: Deploying Dynamics 365 for Customer Engagement apps Solutions from Development through Test and Production Environments](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27824)
+ [White Paper: Deploying Dynamics 365 Customer Engagement (on-premises) Solutions from Development through Test and Production Environments](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=27824)

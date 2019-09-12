@@ -1,5 +1,5 @@
 ---
-title: "Goal management entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Goal management entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -55,5 +55,5 @@ The *goal management* in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.
  [Metric Entity](entities/metric.md)<br />
  [RollupField Entity](entities/rollupfield.md)<br />
  [GoalRollupQuery Entity](entities/goalrollupquery.md)<br />
- [Model your business data with Dynamics 365 for Customer Engagement apps](model-business-data.md)<br />
+ [Model your business data with Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)<br />
  [Product Catalog Entities](product-catalog-entities.md)<br />

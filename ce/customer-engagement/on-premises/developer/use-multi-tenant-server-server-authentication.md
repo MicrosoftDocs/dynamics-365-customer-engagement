@@ -1,5 +1,5 @@
 ---
-title: "Use Multi-Tenant Server-to-server authentication (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Use Multi-Tenant Server-to-server authentication (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how to use multi-tenant Server-to-server authentication using an Azure AD tenant"
 ms.custom: 
 ms.date: 03/29/2019
@@ -203,4 +203,4 @@ The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.m
 ### See also  
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
- [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)
+ [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)

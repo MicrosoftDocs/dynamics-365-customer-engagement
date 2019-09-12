@@ -1,5 +1,5 @@
 ---
-title: "Hierarchical security (position) entity (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Hierarchical security (position) entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about hierarchy security that enables you to model the manager/direct report structure that is often used in businesses. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -27,4 +27,4 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] app
 ### See also  
  [Administration and security entities](administration-security-entities.md)   
  [Position Entity](entities/position.md)   
- [How hierarchical security can be used to control access to entities in Dynamics 365 for Customer Engagement apps](security-dev/hierarchical-security-control-access-entities.md)
+ [How hierarchical security can be used to control access to entities in Dynamics 365 Customer Engagement (on-premises)](security-dev/hierarchical-security-control-access-entities.md)

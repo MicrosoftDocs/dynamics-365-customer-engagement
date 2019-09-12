@@ -46,9 +46,9 @@ Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn
  <xref:Microsoft.Xrm.Sdk.Metadata>  
   
 ## Related Sections  
- [Extend Dynamics 365 for Customer Engagement apps](../extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 Customer Engagement (on-premises)](../extend-dynamics-365-server.md)  
   
- [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps](../metadata-data-models.md)  
+ [The Metadata and Data Models in Dynamics 365 Customer Engagement (on-premises)](../metadata-data-models.md)  
   
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)  
   

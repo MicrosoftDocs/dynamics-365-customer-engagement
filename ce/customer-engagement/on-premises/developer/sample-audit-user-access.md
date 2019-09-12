@@ -1,5 +1,5 @@
 ---
-title: "Sample: Audit user access (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Audit user access (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample demonstrating the auditing of user access to records."
 keywords: 
 ms.date: 03/29/2019
@@ -45,5 +45,5 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[auditing#useraccessauditing](../snippets/csharp/CRMV8/auditing/cs/useraccessauditing.cs#useraccessauditing)]  
   
 ### See also  
- [Audit Entity Data Changes in Dynamics 365 for Customer Engagement apps](audit-entity-data-changes.md)   
+ [Audit Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)   
  [Audit Entity](entities/audit.md)<!-- Bug 696490 -->

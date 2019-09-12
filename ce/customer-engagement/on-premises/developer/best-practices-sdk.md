@@ -1,6 +1,6 @@
 ---
-title: "Best practices (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "This topic describes best practices for developing with Dynamics 365 for Customer Engagement apps."
+title: "Best practices (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "This topic describes best practices for developing with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 07/24/2019
 ms.reviewer: kvivek
@@ -25,7 +25,7 @@ search.app:
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps.  
 
 > [!IMPORTANT]
->  Review [Supported extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md) to learn about supported and unsupported techniques for customization.  
+>  Review [Supported extensions for Dynamics 365 Customer Engagement (on-premises)](supported-extensions.md) to learn about supported and unsupported techniques for customization.  
 
 <a name="Performance"></a>   
 
@@ -183,9 +183,9 @@ Or wrap the proxy classes in a new class. Another technique is to explicitly che
 ## Customization best practices
  The following best practices can help you customize and extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
 
-### Best practices for Dynamics 365 for Customer Engagement apps
+### Best practices for Dynamics 365 Customer Engagement (on-premises)
 
-The [Microsoft Dynamics 365 for Customer Engagement apps patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946) white paper download provides guidance specifically about building solutions using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+The [Microsoft Dynamics 365 Customer Engagement (on-premises) patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946) white paper download provides guidance specifically about building solutions using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
 ### Using custom entities and attributes
 
@@ -267,7 +267,7 @@ Best practices for securing your implementation of [!INCLUDE[pn_dynamics_crm](..
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 for Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
 -->
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 for Customer Engagement apps](../admin/security-concepts.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 Customer Engagement (on-premises)](../admin/security-concepts.md)  
 
 ### Roles, privileges, and access rights
 
@@ -359,6 +359,6 @@ Create a new website for your code when any of the following applies:
 
 ### See also  
  [Write Code for Dynamics 365 for Customer Engagement (Web Services)](extend-dynamics-365-server.md)   
- [Write Code for Dynamics 365 for Customer Engagement apps Forms](clientapi/client-scripting.md)   
- [Plug-ins for Extending Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)   
+ [Write Code for Dynamics 365 Customer Engagement (on-premises) Forms](clientapi/client-scripting.md)   
+ [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md)

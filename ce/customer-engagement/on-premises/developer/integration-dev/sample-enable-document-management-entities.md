@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[SharePointIntegration#EnableDocumentManagement](../../snippets/csharp/CRMV8/sharepointintegration/cs/enabledocumentmanagement.cs#enabledocumentmanagement)]  
   
 ### See also  
- [Integrate SharePoint with Microsoft Dynamics 365 for Customer Engagement apps](integrate-sharepoint.md)   
+ [Integrate SharePoint with Microsoft Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   
  [Enable SharePoint Integration](enable-document-management-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   
  [Sample: CrmServiceHelper Class](../org-service/helper-code-serverconnection-class.md)   

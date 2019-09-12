@@ -44,7 +44,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] app
 -   The customer service entity `IncidentResolution` activity captures information about the resolution of a case. For more information, see [Incident (Case) Entities](incident-case-entities.md).  
   
 ## In This Section  
- [Custom Activities in Dynamics 365 for Customer Engagement apps](custom-activities.md)  
+ [Custom Activities in Dynamics 365 Customer Engagement (on-premises)](custom-activities.md)  
   
  [Activity Pointer (Activity) Entity](activitypointer-activity-entity.md)  
   
@@ -57,7 +57,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] app
  [Sample Code for Activity Entities](sample-code-activity-entities.md)  
   
 ## Related Sections  
- [Model Your Business Data with Dynamics 365 for Customer Engagement apps](model-business-data.md)  
+ [Model Your Business Data with Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Server-side Synchronization Entities](server-side-synchronization-entities.md)  
   

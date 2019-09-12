@@ -1,5 +1,5 @@
 ---
-title: "Developer tools (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Developer tools (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about the developer tools provided for use with Dynamics 365 for Customer Engagement."
 ms.custom: 
 ms.date: 03/29/2019
@@ -59,7 +59,7 @@ This section provides a single location for you to learn about the developer too
 
 ### See also
 
-[Choose your development style for Dynamics 365 for Customer Engagement apps](choose-development-style.md)
+[Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)
   
-[Developer Guide for Dynamics 365 for Customer Engagement apps](developer-guide.md)
+[Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)
  

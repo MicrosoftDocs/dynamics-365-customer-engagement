@@ -45,5 +45,5 @@ More information can be found in the Common Data Service topic [Impersonate anot
 ### See also  
  [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](../authenticate-users.md)   
  [Implement Single Sign-on from an ASPX Webpage or IFRAME](../implement-single-sign-aspx-webpage-iframe.md)     
- [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement apps](../security-dev/how-role-based-security-control-access-entities.md)   
+ [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](../security-dev/how-role-based-security-control-access-entities.md)   
  [Sample: Impersonation using the ActOnBehalfOf privilege](sample-impersonate-actonbehalfof-privilege.md)

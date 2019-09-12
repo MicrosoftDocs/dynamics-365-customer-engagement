@@ -1,5 +1,5 @@
 ---
-title: "Sample: Validate record state and set the state of the record (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Validate record state and set the state of the record (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to validate a change of state of an entity and set a state of an entity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -41,7 +41,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#ValidateAndSetState](../snippets/csharp/CRMV8/businessmanagement/cs/validateandsetstate.cs#validateandsetstate)]  
   
 ### See also  
- [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>   
  [Sample: Rollup records related to a specific record](sample-rollup-records-related-specific-record.md)

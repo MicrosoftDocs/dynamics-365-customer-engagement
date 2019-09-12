@@ -1,5 +1,5 @@
 ---
-title: "Sample: Detect solution dependencies (Dynamics 365 for Customer Engagement apps SDK)| MicrosoftDocs"
+title: "Sample: Detect solution dependencies (Dynamics 365 Customer Engagement (on-premises) SDK)| MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 10/31/2017
@@ -43,7 +43,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[solutions#GetSolutionDependencies](../snippets/csharp/CRMV8/solutions/cs/getsolutiondependencies.cs#getsolutiondependencies)]  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   

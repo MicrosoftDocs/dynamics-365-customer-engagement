@@ -147,7 +147,7 @@ _serviceProxy.EnableProxyTypes()
  A [SecurityToken](https://msdn.microsoft.com/library/system.identitymodel.tokens.securitytoken.aspx) has a life span identified by its `ValidFrom` and `ValidTo` properties. Your application design should consider the possibility that the token could expire, resulting in an [ExpiredSecurityTokenException](https://msdn.microsoft.com/library/system.servicemodel.security.expiredsecuritytokenexception\(VS.85\).aspx) being thrown by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services when the next message request from your application is processed.  
 
 ### See also  
- [Walkthrough: Register a Dynamics 365 for Customer Engagement apps with Active Directory](walkthrough-register-app-active-directory.md)   
- [Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps](connect-microsoft-office-365.md)   
+ [Walkthrough: Register a Dynamics 365 Customer Engagement (on-premises) with Active Directory](walkthrough-register-app-active-directory.md)   
+ [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)](connect-microsoft-office-365.md)   
  [Implement Single Sign-on from an ASPX Webpage or IFRAME](implement-single-sign-aspx-webpage-iframe.md)   
  [Sample: Authenticate Users with Dynamics 365 for Customer Engagement Web Services](sample-authenticate-users-web-services.md)

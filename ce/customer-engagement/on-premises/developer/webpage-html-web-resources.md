@@ -1,5 +1,5 @@
 ---
-title: "Webpage (HTML) web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Webpage (HTML) web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using webpage (HTML) web resources to create user interface elements for client extensions."
 ms.custom: 
 ms.date: 10/31/2017
@@ -144,7 +144,7 @@ Because an HTML web resource is just streamed to the user's browser, it can incl
 
 ### See also
 
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Create Accessible Web Resources](create-accessible-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   

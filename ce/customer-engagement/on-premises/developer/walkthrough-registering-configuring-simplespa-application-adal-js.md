@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Registering and configuring SimpleSPA application with adal.js (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 for Customer Engagement apps using adal.js and Cross-origin Resource Sharing (CORS)"
+title: "Walkthrough: Registering and configuring SimpleSPA application with adal.js (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 Customer Engagement (on-premises) using adal.js and Cross-origin Resource Sharing (CORS)"
 ms.custom: 
 ms.date: 08/22/2019
 ms.reviewer: 
@@ -370,7 +370,7 @@ Finally, you can click on **Logout** button to logout.
 If you don’t get the results you expect, double-check the values you set while registering the application and configuring the `SimpleSPA.html` code.  
   
 ## See also  
- [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)<br />
+ [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
  [Tutorial: Register an app with Azure Active Directory](walkthrough-register-app-active-directory.md) <br />
  [Build web applications using Server to Server(S2S) authentication](build-web-applications-server-server-s2s-authentication.md)<br />
- [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 for Customer Engagement apps](oauth-cross-origin-resource-sharing-connect-single-page-application.md)
+ [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 Customer Engagement (on-premises)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)

@@ -1,5 +1,5 @@
 ---
-title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 10/31/2017
@@ -332,7 +332,7 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
 ```  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solution](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   

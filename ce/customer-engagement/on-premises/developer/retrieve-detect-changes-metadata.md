@@ -1,5 +1,5 @@
 ---
-title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The classes in the Query namespace and the RetrieveMetadataChangesRequest and RetrieveMetadataChangesResponse classes let you build efficient metadata queries and capture changes to metadata as they occur over time."
 ms.custom: 
 ms.date: 10/31/2017
@@ -36,7 +36,7 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
 - UI for client applications  
   
-- Integration tools that have to map Dynamics 365 for Customer Engagement apps data to external systems  
+- Integration tools that have to map Dynamics 365 Customer Engagement (on-premises) data to external systems  
   
 - Development tools  
   

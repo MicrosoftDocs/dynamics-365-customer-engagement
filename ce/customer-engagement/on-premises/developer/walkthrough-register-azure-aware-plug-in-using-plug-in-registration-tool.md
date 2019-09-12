@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The walkthrough demonstrates how to register a service endpoint step using the Plug-in Registration Tool. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -101,5 +101,5 @@ This walkthrough demonstrates how to register a service endpoint step using the 
    You can now unregister the endpoint, if so desired, by selecting it in the tool’s tree view and click **Unregister**.  
 
 ### See also  
- [Azure Extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)   
- [Introduction to Microsoft Azure Integration with Dynamics 365 for Customer Engagement apps](azure-integration.md)
+ [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
+ [Introduction to Microsoft Azure Integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)

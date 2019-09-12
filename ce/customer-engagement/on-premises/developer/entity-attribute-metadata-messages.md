@@ -1,5 +1,5 @@
 ---
-title: "Entity attribute metadata messages (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Entity attribute metadata messages (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "An entity attribute is a container for a piece of data in an entity. In the developer guide (SDK) documentation the term “attribute” and “property” (class property) are often used interchangeably with the term “entity attribute.”"
 ms.custom: 
 ms.date: 05/20/2019

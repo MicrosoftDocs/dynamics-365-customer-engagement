@@ -1,5 +1,5 @@
 ---
-title: "Service entities in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Service entities in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about service entites that are targeted at the customer service department of an organization."
 ms.custom: 
 ms.date: 10/31/2017
@@ -55,7 +55,7 @@ The entities described in this section are targeted at the customer service depa
  [SlaKpiInstance Entity](entities/slakpiinstance.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Activity Entities](activity-entities.md)  
   

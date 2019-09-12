@@ -1,5 +1,5 @@
 ---
-title: "Supported types, triggers, entities, and actions for processes (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Supported types, triggers, entities, and actions for processes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic provides information about the supported types and entities for processes in Dynamics 365 for Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
 ms.custom: 
 ms.date: 01/25/2019
@@ -228,6 +228,6 @@ This topic provides information about the supported types and entities for proce
 
 ### See also  
  [Create your own actions](create-own-actions.md)   
- [Processes in Dynamics 365 for Customer Engagement apps(formerly Workflows)](automate-business-processes-customer-engagement.md)   
+ [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)   
  [Custom workflow activities (workflow assemblies)](custom-workflow-activities-workflow-assemblies.md)   
  <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity>

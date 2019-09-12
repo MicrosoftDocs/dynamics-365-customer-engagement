@@ -1,5 +1,5 @@
 ---
-title: "Tutorials and resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Tutorials and resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 for Customer Engagement (online)."
 ms.custom: 
 ms.date: 03/29/2019
@@ -27,7 +27,7 @@ search.app:
 
 This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. For the fastest way to get some code running, see [Quick Start: A Simple Program](simple-program-web-services.md).
 
-Questions? Get help in the [Dynamics 365 for Customer Engagement apps Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment).
+Questions? Get help in the [Dynamics 365 Customer Engagement (on-premises) Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment).
 
 Need Support? [Search the knowledge base or contact technical support](http://go.microsoft.com/fwlink/p/?LinkID=394391).
 <!-- TODO: Verify that this is still the correct link for support -->
@@ -47,7 +47,7 @@ The following table lists the walkthroughs that are available in this SDK docume
 |                            Plugins                            |              [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in)               |
 |                            Plugins                            | [Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md) |
 | [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |              [Walkthrough: Update a service endpoint from ACS to SAS authorization](walkthrough-update-service-endpoint-acs-sas-authorization.md)               |
-| [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |                [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement apps](walkthrough-configure-azure-sas-integration.md)                 |
+| [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] |                [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 Customer Engagement (on-premises)](walkthrough-configure-azure-sas-integration.md)                 |
 |                          Client API                           |                             [Walkthrough: Write your first client script](clientapi/walkthrough-write-your-first-client-script.md)                              |
 
 <a name="bkmk_video"></a>

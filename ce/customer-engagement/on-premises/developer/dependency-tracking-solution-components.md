@@ -1,5 +1,5 @@
 ---
-title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Dependency tracking for solution components (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Solution component dependencies help make sure you have a reliable experience working with solutions. They can be viewed in the application by clicking Show Dependencies"
 ms.custom: 
 ms.date: 10/31/2017
@@ -183,7 +183,7 @@ Solutions are made of solution components. You’ll use the **Solutions** area i
 >  Web resources may depend on other web resources based on relative links. For example, an HTML web resource may use a CSS or script web resource. A [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource displayed outside of an entity form or chart must have an HTML web resource to host it. These dependencies aren’t tracked as solution dependencies.  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement apps Solution](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solution](package-distribute-extensions-use-solutions.md)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   

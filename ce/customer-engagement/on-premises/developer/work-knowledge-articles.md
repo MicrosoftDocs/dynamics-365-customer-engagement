@@ -1,5 +1,5 @@
 ---
-title: "Work with knowledge articles in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Work with knowledge articles in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The section provides information about working with the new native Dynamics 365 for Customer Engagement knowledge management capabilities."
 ms.custom: 
 ms.date: 10/31/2017
@@ -33,7 +33,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Work with knowledge articles in Dynamics 365 for Customer Engagement apps
+# Work with knowledge articles in Dynamics 365 Customer Engagement (on-premises)
 
 The new knowledge articles in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to create rich knowledge articles along with versioning and translation support. When you create and publish a knowledge article, it become available to users in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance so that they can use information in the articles to effectively service the customers. Use the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 for Customer Engagement.  
   
@@ -148,7 +148,7 @@ _serviceProxy.Execute(updateKnowledgeArticle);
 ```  
   
 <a name="Associate"></a>   
-## Associate a knowledge article record with a Dynamics 365 for Customer Engagement apps entity instance  
+## Associate a knowledge article record with a Dynamics 365 Customer Engagement (on-premises) entity instance  
  When you enable embedded knowledge search for an entity in Dynamics 365 for Customer Engagement using the web client, a many-to-many relationship, `msdyn_`***<Entity_Name>***`_knowledgearticle`, is automatically created. You can use this relationship to programmatically associate or link a `KnowledgeArticle` instance with a Dynamics 365 for Customer Engagement entity instance. When you associate a `KnowledgeArticle` instance with an entity instance, a record for the relationship is created in an intersect entity called `msdyn_`***<Entity_Name>***`_knowledgearticle`. For example, when you associate a `KnowledgeArticle` instance with an `Account` instance for the first time, an intersect entity called `msdyn_account_knowledgearticle` is created, and a record with the association mapping is created in this intersect entity. By default, the `Incident` (Case) entity is enabled for the embedded knowledge search, and when you link a `KnowledgeArticle` record to an `Incident` record, an association record is created in the `KnowledgeArticleIncident` intersect entity.  
   
  The following sample code demonstrates how to associate a `KnowledgeArticle` instance with an `Account` instance:  
@@ -183,7 +183,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
  Use the <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message to search knowledge article from your applications to find the information you are looking for. The <xref:Microsoft.Crm.Sdk.Messages.FullTextSearchKnowledgeArticleRequest> message lets you use inflectional stem matching (allows for a different tense or inflection to be substituted for the search text) and specify query criteria (using FetchXML or QueryExpression to specify filtering, ordering, sorting, and paging) to find knowledge articles with specified text. You can also choose to remove multiple versions of the same articles in the search results and filter on the knowledge article state while searching for a text.  
   
 <a name="EarlierKBArticle"></a>   
-## Work with earlier Dynamics 365 for Customer Engagement apps knowledge base articles  
+## Work with earlier Dynamics 365 Customer Engagement (on-premises) knowledge base articles  
   
 > [!NOTE]
 >  This section provides you with information about working with the earlier knowledge base article entity model for knowledge management in Dynamics 365 for Customer Engagement. While the entities mentioned in this section are still available in the current version, you should use the knowledge management entities mentioned earlier to take advantage of the enhanced knowledge management experience.  

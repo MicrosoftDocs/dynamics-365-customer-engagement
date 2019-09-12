@@ -1,5 +1,5 @@
 ---
-title: "Prepare source files for import (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Prepare source files for import (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Data import supports source files formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files."
 ms.custom: 
 ms.date: 10/31/2017
@@ -46,6 +46,6 @@ You can download an example of a data map with multiple entity types from [Micro
  The first row in the source file should contain column headings. If you do not include headings, use the `ImportFile.IsFirstRowHeader` attribute to specify that the first row represents actual data. In this case, default column headings are created with the names Col1, Col2, and so on.  
   
 ### See also  
- [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)   
+ [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Create Data Maps](create-data-maps-for-import.md)   
  [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)

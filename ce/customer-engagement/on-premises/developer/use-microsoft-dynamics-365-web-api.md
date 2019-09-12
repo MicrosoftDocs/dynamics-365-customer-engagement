@@ -1,5 +1,5 @@
 ---
-title: "Use the Dynamics 365 for Customer Engagement Web API (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Use the Dynamics 365 for Customer Engagement Web API (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "The Dynamics 365 for Customer Engagement Web API implements OData v4 and provides a development experience that can be used across a wide variety of programming languages, platforms, and devices"
 ms.custom: 
 ms.date: 04/24/2019
@@ -29,7 +29,7 @@ The Customer Engagement Web API provides a development experience that can be us
 >
 > [!INCLUDE[](includes/cc-cdsnote-2-section.md)]
 >
-> The Web API documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
+> The Web API documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
   
  Because the Web API is built on open standards, we don’t provide assemblies for a specific developer experience. You can compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want. You can find a list of libraries that support OData version 4.0 at [http://www.odata.org/libraries/](http://www.odata.org/libraries/).  
   

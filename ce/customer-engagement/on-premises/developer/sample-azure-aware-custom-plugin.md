@@ -1,5 +1,5 @@
 ---
-title: "Sample: Azure aware custom plug-in (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Azure aware custom plug-in (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The plug-in demonstrates how to obtain the execution context and the tracing service from the service provider parameter of the Execute method. The plug-in then posts the context to the Azure Service Bus endpoint and writes information to the trace log to facilitate debugging."
 ms.custom: 
 ms.date: 10/31/2017
@@ -26,7 +26,7 @@ search.app:
 
 This is a sample custom plug-in that can post the pipeline execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
- This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with Microsoft Dynamics 365 for Customer Engagement apps and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a) 
+ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement (on-premises) and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a) 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -41,7 +41,7 @@ This is a sample custom plug-in that can post the pipeline execution context to 
  [!code-csharp[WindowsAzure#SandboxPlugin](../snippets/csharp/CRMV8/windowsazure/cs/sandboxplugin.cs#sandboxplugin)]  
   
 ### See also  
- [Sample Code for Dynamics 365 for Customer Engagement apps and Microsoft Azure Integration](sample-code-azure-integration.md)   
+ [Sample Code for Dynamics 365 Customer Engagement (on-premises) and Microsoft Azure Integration](sample-code-azure-integration.md)   
  [Sample: Azure Aware Custom Workflow Activity](sample-azure-aware-custom-workflow-activity.md)   
  <xref:Microsoft.Xrm.Sdk.IPlugin>   
  <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext>   

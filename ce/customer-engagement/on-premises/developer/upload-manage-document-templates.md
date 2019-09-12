@@ -1,5 +1,5 @@
 ---
-title: "Upload and manage document templates in Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Upload and manage document templates in Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
 description: "Learn about manging document templates and exporting data as excel or word files using upload and manage document templates."
 ms.custom: 
 ms.date: 10/31/2017
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Upload and manage document templates in Dynamics 365 for Customer Engagement apps
+# Upload and manage document templates in Dynamics 365 Customer Engagement (on-premises)
 
 Use document templates in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] to export your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data as [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] files, which can be used as templates to generate [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] documents with standardized and up-to-date [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data for analysis and reporting purposes. Using document templates ensures consistent and standard data representation for your company and customers. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with templates](http://go.microsoft.com/fwlink/p/?LinkID=624118)  
   

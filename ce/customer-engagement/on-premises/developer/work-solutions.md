@@ -1,5 +1,5 @@
 ---
-title: "Work with solutions (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Work with solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: "pehecke"

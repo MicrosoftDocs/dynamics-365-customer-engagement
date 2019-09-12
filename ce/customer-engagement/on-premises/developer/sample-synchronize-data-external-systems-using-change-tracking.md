@@ -1,5 +1,5 @@
 ---
-title: "Sample: Synchronize data with external systems using change tracking (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Sample: Synchronize data with external systems using change tracking (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the RetrieveEntityChangesRequest message"
 ms.custom: 
 ms.date: 10/31/2017

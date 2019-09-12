@@ -1,5 +1,5 @@
 ---
-title: "Sample: Rollup records related to a specific record (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Rollup records related to a specific record (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to roll up opportunities by the parent account. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -40,6 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BusinessManagement#RollupByObject](../snippets/csharp/CRMV8/businessmanagement/cs/rollupbyobject.cs#rollupbyobject)]  
   
 ### See also  
- [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.RollupRequest>   
  [Sample: Set and retrieve entity images](sample-set-retrieve-entity-images.md)

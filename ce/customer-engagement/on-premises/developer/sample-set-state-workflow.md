@@ -1,5 +1,5 @@
 ---
-title: "Sample: Set the state of a workflow (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Set the state of a workflow (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to change the state of a workflow, through activating and deactivating it, by using the SetStateRequest message. In addition, the sample shows how to create a custom XAML workflow. A snippet showing just the key sections of the sample is shown first, followed by the Complete Sample Code. "
 keywords: 
 ms.date: 10/31/2017
@@ -55,6 +55,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [Sample code for workflows](sample-code-processes.md)   
- [Processes in Dynamics 365 for Customer Engagement apps(formerly Workflows)](automate-business-processes-customer-engagement.md)      
+ [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)      
  <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>

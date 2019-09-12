@@ -1,5 +1,5 @@
 ---
-title: "Customize entity relationship metadata (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Customize entity relationship metadata (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic explains about working with entity relationships programmatically. Also, types of entity relationships and configuring associated menus."
 ms.custom: 
 ms.date: 10/31/2017
@@ -130,7 +130,7 @@ Entity relationships define the ways that entity records can be associated with 
   
 ### See also  
  [Create and update entity relationships using Web API](webapi/create-update-entity-relationships-using-web-api.md)  
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement apps](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 Customer Engagement (on-premises)](org-service/use-organization-service-metadata.md)   
  [Entity Relationship Messages](entity-relationship-metadata-messages.md)   
  [Entity Relationship Eligibility](entity-relationship-eligibility.md)   
  [Entity Relationship Behavior](entity-relationship-behavior.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Work with Dynamics 365 for Customer Engagement event data in your Azure Event Hub solution (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Work with Dynamics 365 for Customer Engagement event data in your Azure Event Hub solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic describes working with event data in your Azure Event Hub solution."
 ms.custom: 
 ms.date: 10/31/2017
@@ -32,7 +32,7 @@ search.app:
  [!INCLUDE[sdk_for_more_info_about](../includes/sdk-for-more-info-about.md)] creating event hubs see the [Event Hubs documentation](https://azure.microsoft.com/en-us/documentation/services/event-hubs/).  
   
 ## 2. Register an endpoint  
- Registering a service endpoint for an event hub is similar to registering for any other supported contract type such as queues or topics. You use the Plug-in Registration Tool, provided in the SDK download, to register the service endpoint.  When filling out the registration form specify a contract type of **Event Hub**. For the message body format, you can choose **XML** or **JSON**. In addition, only SAS authorization is permitted and you must provide the connection string obtained when you created the event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 for Customer Engagement apps](walkthrough-configure-azure-sas-integration.md).  
+ Registering a service endpoint for an event hub is similar to registering for any other supported contract type such as queues or topics. You use the Plug-in Registration Tool, provided in the SDK download, to register the service endpoint.  When filling out the registration form specify a contract type of **Event Hub**. For the message body format, you can choose **XML** or **JSON**. In addition, only SAS authorization is permitted and you must provide the connection string obtained when you created the event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 Customer Engagement (on-premises)](walkthrough-configure-azure-sas-integration.md).  
   
 ## 3. Register code  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] needs to know the exact operation (entity/message combination) that, when processed, would cause the Azure-aware plug-in to execute. Since you are creating an event hub, this operation would be related to the processing of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event data in particular. You must register a step for the Azure-aware plug-in in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event execution pipeline.  For more information see  [Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md).  
@@ -49,5 +49,5 @@ search.app:
  You can check the related system job in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and look for a status of **Succeeded**. If you find a status of **Failed**, use the status information to identify the possible cause of the failure. You can then recheck the configurations of both systems or debug application code to locate and fix the problem, depending on the nature of the failure.  
   
 ### See also  
- [Azure integration with Dynamics 365 for Customer Engagement apps](azure-integration.md)   
- [Azure extensions for Dynamics 365 for Customer Engagement apps](azure-extensions.md)
+ [Azure integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)   
+ [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)

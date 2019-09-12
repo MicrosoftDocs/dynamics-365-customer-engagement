@@ -24,7 +24,7 @@ There are two broad categories of changes to the metadata system that are associ
 
 ## New Dynamics 365 for Customer Engagement Data SDK assembly
 
-The Dynamics 365 for Customer Engagement apps Data SDK assembly, `Microsoft.Xrm.Sdk.Data.dll`, contains types to aid in the creation of custom virtual entity data providers. It is comprised of the following namespaces:
+The Dynamics 365 Customer Engagement (on-premises) Data SDK assembly, `Microsoft.Xrm.Sdk.Data.dll`, contains types to aid in the creation of custom virtual entity data providers. It is comprised of the following namespaces:
 
 |Namespace|Description|
 |---------|---------|
@@ -40,7 +40,7 @@ The Dynamics 365 for Customer Engagement apps Data SDK assembly, `Microsoft.Xrm.
  
 <!-- TODO: Need to put in links to reference sections for these namespaces after TOC is completed. -->
 
-This assembly is distributed with the Dynamics 365 for Customer Engagement apps Data SDK, which is also available as a NuGet package.
+This assembly is distributed with the Dynamics 365 Customer Engagement (on-premises) Data SDK, which is also available as a NuGet package.
 <!-- TODO: Will the SDK be downloadable separately? When the final package is ready, put in proper name and link. -->
 
 ## Changes to the core platform

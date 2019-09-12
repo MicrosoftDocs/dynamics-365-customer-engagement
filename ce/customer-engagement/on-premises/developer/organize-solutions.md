@@ -1,5 +1,5 @@
 ---
-title: "Organize your solutions (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Organize your solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This document lists down some strategies to organize your solutions"
 ms.custom: 
 ms.date: 10/31/2017

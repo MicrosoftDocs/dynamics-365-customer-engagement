@@ -1,5 +1,5 @@
 ---
-title: "Key to entity diagrams (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Key to entity diagrams (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about key to entity diagrams to simplify the diagrams and color coding concepts. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -32,5 +32,5 @@ The following is the key to the entity model diagrams shown in the [!INCLUDE [pn
  All entity diagrams in the SDK were generated using the metadata diagram sample code that reads the metadata and uses [!INCLUDE[pn_microsoft_office_visio](../includes/pn-microsoft-office-visio.md)] to draw an entity relationship diagram. Download the complete sample of [Generate entity diagrams with the metadata diagram tool](https://code.msdn.microsoft.com/Sample-of-generating-a0ba0e47). The folder contains a readme file with instructions for its use.  
   
 ### See also  
- [Introduction to Entities in Dynamics 365 for Customer Engagement apps](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Sample: Assign a Record to a Team](sample-assign-record-team.md)

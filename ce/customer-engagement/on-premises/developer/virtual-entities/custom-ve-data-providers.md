@@ -28,7 +28,7 @@ Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Cust
 Custom data providers require substantial development resources to create and maintain. You must have fundamental knowledge of the following areas:
 
 * The external data source schema and associated data access techniques.  This domain knowledge is specific to the external data source type.
-* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365 for Customer Engagement apps](../metadata-data-models.md).
+* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365 Customer Engagement (on-premises)](../metadata-data-models.md).
 * [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps event system; for more information see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
 * [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps plug-in architecture and development; for more information see [Plug-in development](../plugin-development.md).
 
@@ -77,9 +77,9 @@ Because virtual entities in this release are read-only, you will write the data 
 For both events, you must :
 1. Convert the respective information in the execution context into a query that will work for your external data source.
 2. Retrieve the data from the external system.
-3. For **Retrieve**, convert the data into an [Entity](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entity.aspx); otherwise, for **RetrieveMultiple**, convert it to an [EntityCollection](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entitycollection.aspx). This result is returned through the Dynamics 365 for Customer Engagement apps platform to the user executing the query. 
+3. For **Retrieve**, convert the data into an [Entity](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entity.aspx); otherwise, for **RetrieveMultiple**, convert it to an [EntityCollection](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entitycollection.aspx). This result is returned through the Dynamics 365 Customer Engagement (on-premises) platform to the user executing the query. 
 
-The classes in the Microsoft.Xrm.Sdk.Data namespace provide a framework to assist in mapping the Dynamics 365 for Customer Engagement apps query information from the execution context into a query in the format appropriate for your external data source. This framework will help you convert the data returned in to the appropriate **Entity** or **EntityCollection** types expected by the Dynamics 365 for Customer Engagement apps platform. 
+The classes in the Microsoft.Xrm.Sdk.Data namespace provide a framework to assist in mapping the Dynamics 365 Customer Engagement (on-premises) query information from the execution context into a query in the format appropriate for your external data source. This framework will help you convert the data returned in to the appropriate **Entity** or **EntityCollection** types expected by the Dynamics 365 Customer Engagement (on-premises) platform. 
 
 #### Data provider exceptions
 

@@ -1,5 +1,5 @@
 ---
-title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about registration and execution of custom workflow activities in addition to the out-of-box activities provided by Windows Workflow Foundation. You can write custom workflow activities in Microsoft Visual C# or Visual Basic .NET code by creating an assembly that contains one or more classes derived from the Windows Workflow FoundationCodeActivity class."
 ms.custom: 
 ms.date: 06/12/2019
@@ -46,5 +46,5 @@ For more detailed debugging information, see [Debug a plug-In](debug-plugin.md).
  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)  
   
- [Write Plug-Ins for Dynamics 365 for Customer Engagement apps](write-plugin-extend-business-processes.md)
+ [Write Plug-Ins for Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)
  

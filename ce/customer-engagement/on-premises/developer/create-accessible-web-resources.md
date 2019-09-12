@@ -1,5 +1,5 @@
 ---
-title: "Create accessible web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Create accessible web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic introduces general guidance and links to more resources that will help you design web resource user interface elements that are accessible to people with disabilities."
 ms.custom: 
 ms.date: 10/31/2017
@@ -91,4 +91,4 @@ When you include web resources that provide user interface elements in your solu
 ### See also  
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)

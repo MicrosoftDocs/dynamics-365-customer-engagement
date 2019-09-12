@@ -1,5 +1,5 @@
 ---
-title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 for Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017

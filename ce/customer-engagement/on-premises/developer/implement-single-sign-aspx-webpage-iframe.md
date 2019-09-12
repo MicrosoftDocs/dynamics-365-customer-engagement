@@ -1,6 +1,6 @@
 ---
-title: "Implement single sign-on from an ASPX webpage or IFRAME (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "This topic describes how to develop a custom webpage that can make SDK calls to Dynamics 365 for Customer Engagement apps on behalf of the Dynamics 365 for Customer Engagement apps user who is signed in"
+title: "Implement single sign-on from an ASPX webpage or IFRAME (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "This topic describes how to develop a custom webpage that can make SDK calls to Dynamics 365 Customer Engagement (on-premises) on behalf of the Dynamics 365 Customer Engagement (on-premises) user who is signed in"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -33,7 +33,7 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
  This scenario is for a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps Internet-facing deployment (IFD) where a separate website hosts a custom ASPX webpage that is optionally displayed in an inline frame of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application. This scenario uses federated claims. Therefore, you’ll have to set up a security token service (STS) server for identity management. You’ll also need a certificate to be used when making [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and the website relying parties, which established cross-domain trust between these parties.  
   
 ### Background information  
- For more information about how to configure claims and a relying party, see the following topics in [Deploying and administering Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699811.aspx):  
+ For more information about how to configure claims and a relying party, see the following topics in [Deploying and administering Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699811.aspx):  
   
 - [Post-Installation and Configuration Guidelines](https://technet.microsoft.com/library/hh699726.aspx) - Configure a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Internet-facing deployment (IFD)  
   
@@ -52,7 +52,7 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
   
  For more information about identity management, see [http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse](http://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse)  
   
- For more information about implementing this scenario including problems you may run into and the workarounds, see these blogs: [Dynamics 365 for Customer Engagement apps & Azure: Improving the SSO experience](http://blogs.msdn.com/b/devkeydet/archive/2013/01/14/crm-online-amp-windows-azure-improving-the-sso-experience.aspx), and [Dynamics 365 for Customer Engagement apps & Azure Series](http://blogs.msdn.com/b/devkeydet/archive/2013/01/27/crm-online-amp-windows-azure-series.aspx).  
+ For more information about implementing this scenario including problems you may run into and the workarounds, see these blogs: [Dynamics 365 Customer Engagement (on-premises) & Azure: Improving the SSO experience](http://blogs.msdn.com/b/devkeydet/archive/2013/01/14/crm-online-amp-windows-azure-improving-the-sso-experience.aspx), and [Dynamics 365 Customer Engagement (on-premises) & Azure Series](http://blogs.msdn.com/b/devkeydet/archive/2013/01/27/crm-online-amp-windows-azure-series.aspx).  
   
 <a name="BKMK_EnableIFrameCommunicationAccrossDomains"></a>   
 ## Enable inline frame communication across domains  
@@ -63,7 +63,7 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
 -   [Cross-Document Messaging and RPC](https://msdn.microsoft.com/magazine/ff800814.aspx)  
   
 ### See also  
- [Access the Web Services (Authentication) in Dynamics 365 for Customer Engagement apps](authenticate-users.md)   
+ [Access the Web Services (Authentication) in Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
  [Sample: Impersonate Using the ActOnBehalfOf Privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)   
  [Impersonate Another User](org-service/impersonate-another-user.md)   
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)

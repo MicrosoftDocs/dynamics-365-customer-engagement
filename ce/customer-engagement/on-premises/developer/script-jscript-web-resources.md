@@ -1,5 +1,5 @@
 ---
-title: "Script(JScript) web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Script(JScript) web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using JavaScript web resources to create a library of JavaScript functions that can be accessed from anywhere. "
 ms.custom: 
 ms.date: 03/02/2018
@@ -54,7 +54,7 @@ Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript
 ### See also  
  [Use JavaScript with Customer Engagement apps](use-javascript.md)   
  [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)   
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   

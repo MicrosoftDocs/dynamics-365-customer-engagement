@@ -1,5 +1,5 @@
 ---
-title: "Sample: Bulk delete exported records (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Bulk delete exported records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample demonstrates how to perform a bulk deletion of records that were previously exported by using the Export-to-Excel option."
 keywords: 
 ms.date: 10/31/2017
@@ -43,7 +43,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [!code-csharp[BulkDelete#BulkDeleteBackup](../snippets/csharp/CRMV8/bulkdelete/cs/bulkdeletebackup.cs#bulkdeletebackup)]  
   
 ### See also  
- [Delete Data in Bulk in Dynamics 365 for Customer Engagement apps](delete-data-bulk.md)   
+ [Delete Data in Bulk in Dynamics 365 Customer Engagement (on-premises)](delete-data-bulk.md)   
  [Run Bulk Delete](run-bulk-delete.md)   
  <xref:Microsoft.Crm.Sdk.Messages.BulkDeleteRequest>   
  [Recurrence Pattern in Asynchronous Job Execution](recurrence-pattern-asynchronous-job-execution.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Create and manage custom business apps using code for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create and manage custom business apps using code for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 for Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
 ms.date: 03/04/2019
@@ -25,9 +25,9 @@ Business apps in Dynamics 365 for Customer Engagement are modular, purpose built
 System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. 
 
 > [!NOTE]
-> Custom business apps in Dynamics 365 for Customer Engagement are the same as model-driven apps in PowerApps; both are built on the same underlying platform. More information: [Business apps in Dynamics 365 for Customer Engagement apps](../basics/business-apps-dynamics-365.md) and [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+> Custom business apps in Dynamics 365 for Customer Engagement are the same as model-driven apps in PowerApps; both are built on the same underlying platform. More information: [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md) and [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
-In addition to creating custom business apps using the app designer, you can programmatically create and manage custom business apps in Dynamics 365 for Customer Engagement apps. 
+In addition to creating custom business apps using the app designer, you can programmatically create and manage custom business apps in Dynamics 365 Customer Engagement (on-premises). 
 
 > [!IMPORTANT]
 > However, you don't have to write code to build custom business apps if you don't need to! The app designer provides a much simpler and intuitive experience for building custom business apps without having to write code by providing a tile-based information structure and simplified interface. Check it out here: [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
@@ -210,7 +210,7 @@ Accept: application/json
 
 ## Manage access to business app using security roles
 
-To provide users access to your apps so that they can access it from their **Settings** > **My Apps** area or the Dynamics 365 for Customer Engagement apps home page, you can associate security roles to your business apps. Users assigned to the associated security roles and can see and use your business apps in Customer Engagement. 
+To provide users access to your apps so that they can access it from their **Settings** > **My Apps** area or the Dynamics 365 Customer Engagement (on-premises) home page, you can associate security roles to your business apps. Users assigned to the associated security roles and can see and use your business apps in Customer Engagement. 
 
 Use the **appmoduleroles_association** navigation property of the [AppModule Entity](entities/appmodule.md) entity to associate a business app with a security role. The following request shows how to associate a business app with a security role:
 

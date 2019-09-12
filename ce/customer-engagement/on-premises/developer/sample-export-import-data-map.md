@@ -1,5 +1,5 @@
 ---
-title: "Sample: Export and import a data map (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Export and import a data map (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample demonstrates how to create an import map, export it as XML-formatted data, import modified mappings, and create a new import map based on the imported mappings."
 keywords: 
 ms.date: 10/31/2017
@@ -43,7 +43,7 @@ This sample code is for Dynamics 365 for Customer Engagement. Download the sampl
  [!code-csharp[DataImport#UsingExportAndImportMappings](../snippets/csharp/CRMV8/dataimport/cs/usingexportandimportmappings.cs#usingexportandimportmappings)]  
   
 ### See also  
- [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)   
+ [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExportMappingsImportMapRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ImportMappingsImportMapRequest>   
  [Sample: Import Data Using Complex Data Map](sample-import-data-complex-data-map.md)

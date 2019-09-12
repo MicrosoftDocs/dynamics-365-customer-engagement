@@ -1,5 +1,5 @@
 ---
-title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
 ms.custom: 
 ms.date: 06/24/2019
@@ -24,7 +24,7 @@ search.app:
   
 <a name="BKMK_AreasToUseJavaScript"></a>   
 
-## Areas where you can use JavaScript in Dynamics 365 for Customer Engagement apps
+## Areas where you can use JavaScript in Dynamics 365 Customer Engagement (on-premises)
  
  You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to perform actions in form scripts, command bar (ribbon) commands, and web resources.  
   
@@ -144,8 +144,8 @@ search.app:
  [Write Client Application Extensions](extend-client.md)<br />
  [Work with Customer Engagement data using web resources](work-data-using-web-resources.md)<br />
  [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)<br />
- [Customize the Ribbon for Dynamics 365 for Customer Engagement apps](customize-dev/customize-commands-ribbon.md)<br />
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)<br />
+ [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)<br />
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
  [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />
  [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)<br />
  [Blog: Debugging JavaScript code in CRM using browser developer tools](http://go.microsoft.com/fwlink/p/?LinkId=715699)<br />

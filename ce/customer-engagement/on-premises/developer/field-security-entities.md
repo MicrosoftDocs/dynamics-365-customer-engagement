@@ -1,5 +1,5 @@
 ---
-title: "Field security entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Field security entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using field security entities to apply field-level security, which restricts field access to specified users and teams."
 ms.custom: 
 ms.date: 10/31/2017
@@ -35,7 +35,7 @@ search.app:
 
 You use field security entities to apply field-level security, which restricts field access to specified users and teams. The scope of field-level security is global, which means that it applies to all records within the organization, regardless of the business unit hierarchical level to which the record or the user belongs. Field security works in all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] clients, including the Web client, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], and [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)]. It applies to all components, such as the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], reports, search, offline, filtered views, auditing, and duplicate detection. For this release, field security can be applied to both custom fields and many out-of-box (OOB) fields.  
   
- For more information about how secured fields change the behavior of methods, see [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 for Customer Engagement apps](security-dev/use-field-security-control-access-field-values.md).  
+ For more information about how secured fields change the behavior of methods, see [How Field Security Can Be Used to Control Access to Field Values in Dynamics 365 Customer Engagement (on-premises)](security-dev/use-field-security-control-access-field-values.md).  
   
 > [!IMPORTANT]
 >  Field-level security profiles prevent unintended users from getting access to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data based on the profile definitions. If the [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] ACLs are misconfigured, or if there is a SQL injection issue, adversaries can get direct access to data in [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] thereby bypassing field level security restrictions. For more information, see [Overview of Web Application Security Threats](https://msdn.microsoft.com/library/f13d73y6.aspx).  
@@ -101,7 +101,7 @@ You use field security entities to apply field-level security, which restricts f
 |Use the <xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest> message to remove record access for a user or team.|Use the <xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> message or the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*> method to remove secured field access for a user or team.|  
   
 ### See also  
- [The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/security-model.md)   
+ [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)   
  [Administration and security entities](administration-security-entities.md)   
  [FieldSecurityProfile Entity](entities/fieldsecurityprofile.md)   
  [FieldPermission Entity](entities/fieldpermission.md)   

@@ -44,7 +44,7 @@ and fetch records accordingly.
  You can parameterize a query variable by using the **Modify Query Variables** tab on the **Define Query** page, 
 and then use the dynamic values section on the query form to associate the prompt and response variables with the query variables.  
 
- The query variable defined using the **Query Dynamics 365 for Customer Engagement apps Data** step is available for all the prompts and responses from the point where they 
+ The query variable defined using the **Query Dynamics 365 Customer Engagement (on-premises) Data** step is available for all the prompts and responses from the point where they 
 have been defined in the dialog definition.  
 
 ### Assign Value

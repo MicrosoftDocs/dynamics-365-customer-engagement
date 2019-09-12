@@ -1,6 +1,6 @@
 ---
-title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 for Customer Engagement apps forms, views, dialogs, and reports in other applications"
+title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 Customer Engagement (on-premises) forms, views, dialogs, and reports in other applications"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -224,11 +224,11 @@ function getReportURL(action,fileName,id) {
 ```  
 
 ### See also  
- [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)   
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)   
  [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md)   
  [Configure a form to accept custom querystring parameters](configure-form-accept-custom-querystring-parameters.md)   
  [Change Application Navigation using the SiteMap](customize-dev/change-application-navigation-using-sitemap.md)   
- [Customize the Ribbon for Dynamics 365 for Customer Engagement apps](customize-dev/customize-commands-ribbon.md) 
+ [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md) 
  [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md) 
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Start Dialog by using a URL](../developer/actions-dialogs.md#StartDialog)

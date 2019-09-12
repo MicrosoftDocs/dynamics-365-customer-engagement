@@ -1,6 +1,6 @@
 ---
-title: "Use Upsert to insert or update a record (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "UpsertRequest(Update or Insert) message helps you simplify various data integration scenarios where you do not know if a record already exists in Dynamics 365 for Customer Engagement apps. In such cases you won’t know if you should call an UpdateRequest or a CreateRequest operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. UpsertRequest message helps you solve that issue"
+title: "Use Upsert to insert or update a record (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "UpsertRequest(Update or Insert) message helps you simplify various data integration scenarios where you do not know if a record already exists in Dynamics 365 Customer Engagement (on-premises). In such cases you won’t know if you should call an UpdateRequest or a CreateRequest operation. This results in your querying for the record first to determine if it exists before performing the appropriate operation. UpsertRequest message helps you solve that issue"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 

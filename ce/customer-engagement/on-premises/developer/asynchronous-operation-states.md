@@ -1,5 +1,5 @@
 ---
-title: "Asynchronous operation states (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Asynchronous operation states (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about the asynchronous operation states, which can be waiting to run, it can be running, or it can be completed."
 ms.custom: 
 ms.date: 10/31/2017

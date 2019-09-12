@@ -1,6 +1,6 @@
 ---
-title: "Authenticate users in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "Learn about the various security models for authentication that Dynamics 365 for Customer Engagement apps support"
+title: "Authenticate users in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Learn about the various security models for authentication that Dynamics 365 Customer Engagement (on-premises) support"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Authenticate users in Dynamics 365 for Customer Engagement apps
+# Authenticate users in Dynamics 365 Customer Engagement (on-premises)
 
 [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps support three security models for authentication: claims-based authentication, [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication, and OAuth 2.0. The type of authentication used depends on the type of deployment your application is accessing (Online, on-premises, or internet facing deployment) and if your application is using the Web API or the Organization Service.  
   
@@ -31,12 +31,12 @@ search.app:
 ## In This Section  
  [Use OAuth to connect to Dynamics 365 for Customer Engagement web Services](connect-customer-engagement-web-services-using-oauth.md)  
   
- [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 for Customer Engagement apps](oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
+ [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 Customer Engagement (on-premises)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)  
   
 ## Related Sections  
- [Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)  
+ [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)  
   
  [OAuth 2.0](http://oauth.net/2/)  
   

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Pass multiple values to a  web resource through the data parameter (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Sample: Pass multiple values to a  web resource through the data parameter (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample represents a technique to pass the additional values within a single parameter and then process them within your web resource."
 ms.custom: 
 ms.date: 10/31/2017
@@ -204,7 +204,7 @@ An (HTML) web resource page can only accept a single custom parameter called `da
  The `ParseDataValue` function uses similar logic found in `getDataParam` to locate the custom parameter delimiters to create an array of name value pairs. Then it generates a table and appends it to the otherwise empty document.body.  
   
 ### See also  
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Sample: Import Files as Web Resources](sample-import-files-web-resources.md)   
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)

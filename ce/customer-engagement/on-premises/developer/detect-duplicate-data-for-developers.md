@@ -1,5 +1,5 @@
 ---
-title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom: 
 ms.date: 07/02/2018
@@ -22,7 +22,7 @@ search.app:
 # Detect duplicate data for developers
 
 > [!NOTE]
-> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 for Customer Engagement apps user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
+> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 Customer Engagement (on-premises) user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
 
 Duplicate detection lets organizations set duplicate detection policies and create duplicate detection rules for business and custom entities. These rules can be applied across different record types in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. For example, an organization may define that a lead is a duplicate of a contact, if they have the same name and phone number. Based on the duplicate detection rules set by the administrator, the system alerts the user about potential duplicates when the user tries to create new records or update existing records. To maintain data quality, you can schedule a duplicate detection job to check for duplicates for all records that match a certain criteria. You can clean the data by deleting, deactivating, or merging the duplicates reported by a duplicate detection job.  
   
@@ -50,7 +50,7 @@ Duplicate detection lets organizations set duplicate detection policies and crea
  [DuplicateRecord Entity](entities/duplicaterecord.md)<br />
   
 ## Related Sections  
- [Data Management in Dynamics 365 for Customer Engagement apps (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
+ [Data Management in Dynamics 365 Customer Engagement (on-premises) (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
  [Delete data in bulk](delete-data-bulk.md)
 
 ## See Also

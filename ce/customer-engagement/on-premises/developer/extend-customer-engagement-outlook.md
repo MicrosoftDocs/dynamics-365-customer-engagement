@@ -1,6 +1,6 @@
 ---
-title: "Extend Dynamics 365 for Outlook (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Dynamics 365 for Outlook lets users interact with data while they’re offline and not connected to a server. Dynamics 365 for Customer Engagement apps includes features that let you extend your solutions to offline scenarios by calling the web services offline from your custom code. In addition, the Sdk assembly provides programmatic support for basic Outlook actions such as synchronization, going offline or online, and Dynamics 365 for Outlook state verification. Offline programming uses the ASP.NET Development Server."
+title: "Extend Dynamics 365 for Outlook (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Dynamics 365 for Outlook lets users interact with data while they’re offline and not connected to a server. Dynamics 365 Customer Engagement (on-premises) includes features that let you extend your solutions to offline scenarios by calling the web services offline from your custom code. In addition, the Sdk assembly provides programmatic support for basic Outlook actions such as synchronization, going offline or online, and Dynamics 365 for Outlook state verification. Offline programming uses the ASP.NET Development Server."
 ms.custom: 
 ms.date: 01/29/2017
 ms.reviewer: 
@@ -37,15 +37,15 @@ search.app:
  [Sample: Use Outlook Methods](outlook-client/sample-outlook-methods.md)<br />
   
 ## Related Sections  
- [Extend Dynamics 365 for Customer Engagement apps](extend-dynamics-365-server.md)<br />
- [Supported Extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md)<br />
- [The Metadata and Data Models in Dynamics 365 for Customer Engagement apps](metadata-data-models.md)<br />
- [Extend Dynamics 365 for Customer Engagement apps on the server](extend-dynamics-365-server.md)<br />
- [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)<br />
- [Customize Dynamics 365 for Customer Engagement apps](customize-dev/customize-applications.md)<br />
+ [Extend Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)<br />
+ [Supported Extensions for Dynamics 365 Customer Engagement (on-premises)](supported-extensions.md)<br />
+ [The Metadata and Data Models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md)<br />
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)<br />
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)<br />
+ [Customize Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-applications.md)<br />
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)<br />
- [Integrate Dynamics 365 for Customer Engagement apps with SharePoint](integration-dev/integrate-sharepoint.md)<br />
- [Integrate Dynamics 365 for Customer Engagement apps with OneNote](integration-dev/integrate-onenote.md)<br />
+ [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integration-dev/integrate-sharepoint.md)<br />
+ [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)<br />
  <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" /><br />
  [SavedQuery Entity](entities/savedquery.md)<br />
   

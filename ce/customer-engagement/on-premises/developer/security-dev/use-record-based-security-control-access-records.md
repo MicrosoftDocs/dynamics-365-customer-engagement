@@ -110,9 +110,9 @@ Record-based security in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyn
  Another type of dependency exists when objects are subordinate to another object. For example, the opportunity object cannot exist on its own. Each opportunity is always attached to an account or contact. To create an opportunity, you must have the access right **appendto** on accounts and the access right **append** on opportunities.  
   
 ### See also  
- [The Security Model of Microsoft Dynamics 365 for Customer Engagement apps](Security-model.md)   
- [How role-based security can be used to control access to entities in Microsoft Dynamics 365 for Customer Engagement apps](how-role-based-security-control-access-entities.md)  [How field security can be used to control access to field values in Microsoft Dynamics 365 for Customer Engagement apps](use-field-security-control-access-field-values.md)   
- [Introduction to Entities in Microsoft Dynamics 365 for Customer Engagement apps](../introduction-entities.md)   
+ [The Security Model of Microsoft Dynamics 365 Customer Engagement (on-premises)](Security-model.md)   
+ [How role-based security can be used to control access to entities in Microsoft Dynamics 365 Customer Engagement (on-premises)](how-role-based-security-control-access-entities.md)  [How field security can be used to control access to field values in Microsoft Dynamics 365 Customer Engagement (on-premises)](use-field-security-control-access-field-values.md)   
+ [Introduction to Entities in Microsoft Dynamics 365 Customer Engagement (on-premises)](../introduction-entities.md)   
  [Entity Relationship Behavior](../entity-relationship-behavior.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AccessRights>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>

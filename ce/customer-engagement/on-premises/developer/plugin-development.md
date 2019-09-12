@@ -1,6 +1,6 @@
 ---
-title: "Plug-in development (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 for Customer Engagement apps to modify or augment the standard behavior of the platform. "
+title: "Plug-in development (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn more about how to develop plug-ins that can integrate with Dynamics 365 Customer Engagement (on-premises) to modify or augment the standard behavior of the platform. "
 ms.custom: on-premise
 ms.date: 4/30/2019
 ms.reviewer: 
@@ -27,7 +27,7 @@ A plug-in is custom business logic (code) that you can integrate with [!INCLUDE[
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
 >
-> The plug-in documentation that is applicable to Dynamics 365 for Customer Engagement apps (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
+> The plug-in documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use plug-ins to extend business processes](/powerapps/developer/common-data-service/plug-ins)
 >
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
   

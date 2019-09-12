@@ -1,6 +1,6 @@
 ---
-title: "Extend Dynamics 365 for Customer Engagement apps (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Understand the different ways you can write code to change how a Dynamics 365 for Customer Engagement apps system works, build your own application using it, or integrate the system with other products."
+title: "Extend Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Understand the different ways you can write code to change how a Dynamics 365 Customer Engagement (on-premises) system works, build your own application using it, or integrate the system with other products."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Extend Dynamics 365 for Customer Engagement apps
+# Extend Dynamics 365 Customer Engagement (on-premises)
 
 The extensibility platform is the heart of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. When you use the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)], you are building on top of this system. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps platform supports several types of deployments with the power of choice: [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps installed on your own server (on-premises), or a hosted deployment of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The security model protects the platform from unauthorized access across the Web.  
   
@@ -32,13 +32,13 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
   
  The xRM platform also controls access to data through security, controls access to the database, and raises events for workflow processes and custom business logic implementations (plug-ins). The platform layer provides for both incoming and outgoing email processing through [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)].
   
- ![Dynamics 365 for Customer Engagement apps SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 for Customer Engagement apps SDK architecture")  
+ ![Dynamics 365 Customer Engagement (on-premises) SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
   
 ## In This Section  
  [Dynamics 365 for Customer Engagement application platform - A platform for building extended Dynamics 365 for Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides a powerful platform for building line-of-business applications. These applications are often referred to as Extended CRM (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. This topic introduces  resources to learn more about this capability.  
   
- [Supported Extensions for Dynamics 365 for Customer Engagement apps](supported-extensions.md)  
+ [Supported Extensions for Dynamics 365 Customer Engagement (on-premises)](supported-extensions.md)  
  When you create extensions it is important that you choose to implement them in a supported way. This protects your investment by helping to insure that you can upgrade to new releases of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps and use the latest capabilities as they are released. This topic describes which extensions are supported and which are not.  
   
  [The Metadata and Data Models in Dynamics 365 for Customer Engagement](metadata-data-models.md)  
@@ -51,7 +51,7 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
   
  Topics in this section describe how to deploy custom business logic using plug-ins, processes, the asynchronous service, Azure extensions and more.  
   
- [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)  
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)  
  This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps within the clients provided for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]: web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] . You apply these extensions by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions which can be applied for all clients rather than each one separately.  
   
  Client extensions can provide a very rich and responsive experience for users because the code runs on their device. However, critical business logic should not be applied only by client-side scripts. Unlike extensions that are applied on the server, client extensions cannot apply business logic for data entering the system by other means, such as integrations with other systems, custom clients, or data import.  
@@ -69,20 +69,20 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps include features that allow administrators to customize and manage filters for their users. Filter templates provide the starting point for entity synchronization on [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Filters determine which entity collections are synchronized to [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] and to [!INCLUDE[pn_MS_SQL_Express](../includes/pn-ms-sql-express.md)] for offline-enabled [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solutions.  
   
- [Integrate Dynamics 365 for Customer Engagement apps with SharePoint](integration-dev/integrate-sharepoint.md)  
+ [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integration-dev/integrate-sharepoint.md)  
  [!INCLUDE[pn_ms_sharepoint_server](../includes/pn-ms-sharepoint-server.md)] is a collaboration and content management application that simplifies how people store, find, and share information. It helps people to collaborate effectively by having secure access to documents and information that they require to make business decisions.  
   
  The [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] apps integration feature enables you to store and manage documents on [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] apps in the context of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps record, and use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] apps document management abilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, such as checking the document in and out, viewing version history, and changing document properties.  
   
- [Integrate Dynamics 365 for Customer Engagement apps with OneNote](integration-dev/integrate-onenote.md)  
- Set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] Integration in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps so that a dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for the selected entity records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. This feature provides you the ability to easily take notes in the context of a Dynamics 365 for Customer Engagement apps record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web client or from the record form in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] mobile apps.  
+ [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)  
+ Set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] Integration in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps so that a dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for the selected entity records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. This feature provides you the ability to easily take notes in the context of a Dynamics 365 Customer Engagement (on-premises) record in various formats such as pictures, drawings, formatted text (bullet points and tables), and voice recordings in a OneNote notebook. You can access the OneNote notebook directly on the activity wall in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web client or from the record form in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] mobile apps.  
   
 ## Related Sections  
 [Release history](release-history.md)<br />
-[What's new for developers: Dynamics 365 for Customer Engagement apps](whats-new-developers.md)<br />
+[What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)<br />
 [Start here](get-started-sdk.md)<br />
-[Connect to Dynamics 365 for Customer Engagement apps](connect-customer-engagement.md)<br />
-[The Security Model of Dynamics 365 for Customer Engagement apps](security-dev/security-model.md)<br />
+[Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
+[The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)<br />
 [Model your business data](model-business-data.md)<br />
 [Manage Your Data](manage-data.md)<br />
 [Manage your deployment](manage-deployment.md)<br />

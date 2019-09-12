@@ -1,5 +1,5 @@
 ---
-title: "Create packages for the Dynamics 365 for Customer Engagement Package deployer (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Create packages for the Dynamics 365 for Customer Engagement Package deployer (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: "pehecke"
@@ -46,7 +46,7 @@ search.app:
 
 - [!INCLUDE[tn_nuget_package_manager](../includes/tn-nuget-package-manager.md)] for [Visual Studio 2012](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c), [Visual Studio 2013](http://visualstudiogallery.msdn.microsoft.com/4ec1526c-4a8c-4a84-b702-b21a8f5293ca), or [Visual Studio 2015](https://visualstudiogallery.msdn.microsoft.com/5d345edc-2e2d-4a9c-b73b-d53956dc458d)  
 
-- Microsoft Dynamics 365 for Customer Engagement apps SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 for Customer Engagement apps SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
+- Microsoft Dynamics 365 Customer Engagement (on-premises) SDK Templates for [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] that contains the package template. You can get it by downloading the [Microsoft Dynamics 365 Customer Engagement (on-premises) SDK Templates](http://go.microsoft.com/fwlink/p/?LinkId=400925) and double-click the `CRMSDKTemplates.vsix` file to install the template in [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)].  
 
 
 
@@ -71,7 +71,7 @@ search.app:
 
 2. In the **New Project** dialog box:  
 
-   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates**.  
+   1. From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 Customer Engagement (on-premises) SDK Templates**.  
 
    2. Ensure that **.NET Framework 4.6.2** is selected.  
 
@@ -140,9 +140,9 @@ search.app:
 
    - `solutionpackagefilename`: Specify the .zip file name of your solution. Required.  
 
-   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists in the target Dynamics 365 for Customer Engagement apps instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained on the target Dynamics 365 for Customer Engagement apps instance.  
+   - `overwriteunmanagedcustomizations`: Specify whether to overwrite any unmanaged customizations when importing a solution that already exists in the target Dynamics 365 Customer Engagement (on-premises) instance. This is optional, and if you do not specify this attribute, by default the unmanaged customizations in the existing solution are maintained on the target Dynamics 365 Customer Engagement (on-premises) instance.  
 
-   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins in the target Dynamics 365 for Customer Engagement apps instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 for Customer Engagement apps instance.  
+   - `publishworkflowsandactivateplugins`: Specify whether to publish workflows and activate plug-ins in the target Dynamics 365 Customer Engagement (on-premises) instance after the solution is imported. This is optional, and if you do not specify not specify this attribute, by default the workflows are published and plug-ins are activated after the solution is imported on the target Dynamics 365 Customer Engagement (on-premises) instance.  
 
      You can add multiple solution file names in a package by adding as many `<configsolutionfile>` nodes. For example, if you want three solution files to be imported, add them like this:  
 
@@ -214,7 +214,7 @@ search.app:
    | `waitforimporttocomplete`  |                                                 If `true`, the system waits for the import to complete before proceeding. If `false`, it queues the jobs and moves on.                                                  |
 
     `<zipimportdetails>` node  
-    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365 for Customer Engagement apps.  
+    This node contains an array of `<zipimportdetail>` nodes that describe the files included in a zip file that is used to import to Dynamics 365 Customer Engagement (on-premises).  
 
     `<zipimportdetail>` node  
     Use this node under the `<zipimportdetails>` node to provide information about an individual file in a .zip file that is specified in the                         `<configimportfile>` node.  
@@ -478,7 +478,7 @@ search.app:
    |                                              <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.IsWorkflowActive(System.Guid)>                                              |   Function    |                                                                                                                                                                                   Used to determine if a specified workflow is active.                                                                                                                                                                                    |
    |                                                       <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.PackageLog>                                                        | Class Pointer |                                                                                                                            This is a pointer to the initialized logging interface for the package. This interface is used by a package to log messages and exceptions to the package log file.                                                                                                                            |
    |                                                  <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.RootControlDispatcher>                                                  |   Property    |                                                         This is a dispatcher interface used to allow your control to render its own UI during package deployment. Use this interface to wrap any UI elements or commands.                         It is important to check this variable for null values before using it as it may or may not be set to a value.                                                          |
-   |                                                         <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.CrmSvc>                                                          |   Property    |                                                                                        This is a pointer to <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class that allows for a package to address Dynamics 365 for Customer Engagement apps from within the package. Use this to execute SDK methods and other actions in the overridden methods.                                                                                         |
+   |                                                         <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.ImportExtension.CrmSvc>                                                          |   Property    |                                                                                        This is a pointer to <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class that allows for a package to address Dynamics 365 Customer Engagement (on-premises) from within the package. Use this to execute SDK methods and other actions in the overridden methods.                                                                                         |
    |                                                   <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.DataImportBypass>                                                   |   Property    |                    Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] apps skip all data import operations such as importing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps sample data,                         flat file data, and data exported from the Configuration Migration tool. Specify true or false. Default is `false`.                    |
    |                                            <xref:Microsoft.Xrm.Tooling.PackageDeployment.CrmPackageExtentionBase.IImportExtensions2.OverrideDataImportSafetyChecks>                                            |   Property    |      Use this to specify whether [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] will bypass some of its safety checks, which helps in improving the import performance. Specify `true` or `false`. Default is `false`.<br /><br /> You should set this to `true` only if the target [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance does not contain any data.      |
 

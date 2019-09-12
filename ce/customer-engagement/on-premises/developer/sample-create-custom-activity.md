@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create a custom activity (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Sample: Create a custom activity (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "The following code example demonstrates how to create a custom activity using the CreateEntityRequest and CreateAttributeRequest messages"
 ms.custom: 
 ms.date: 10/31/2017
@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 ### See also  
  [Sample Code for Activity Entities](sample-code-activity-entities.md)   
- [Custom Activities in Dynamics 365 for Customer Engagement apps](custom-activities.md)   
+ [Custom Activities in Dynamics 365 Customer Engagement (on-premises)](custom-activities.md)   
  [Sample: CrmServiceHelper Class](org-service/helper-code-serverconnection-class.md)   
  [Sample: Create, Retrieve, Update, and Delete an Email Attachment](sample-create-retrieve-update-delete-email-attachment.md)   
  <xref:Microsoft.Xrm.Sdk.Messages.CreateEntityRequest>   

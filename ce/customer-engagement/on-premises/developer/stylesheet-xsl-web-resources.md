@@ -1,5 +1,5 @@
 ---
-title: "Stylesheet (XSL) web resources (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Stylesheet (XSL) web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using Stylesheet (XSL) Web resources to transform XML data."
 ms.custom: 
 ms.date: 10/31/2017
@@ -169,7 +169,7 @@ td
 ```  
   
 ### See also  
- [Web Resources for Dynamics 365 for Customer Engagement apps](web-resources.md)   
+ [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   
  [Using Script (JScript) Web Resources](script-jscript-web-resources.md)   

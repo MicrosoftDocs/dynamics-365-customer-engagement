@@ -1,6 +1,6 @@
 ---
-title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
-description: "This topic applies to customers who access Dynamics 365 for Customer Engagement apps Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 for Customer Engagement apps web service authentication with managed domain and federated identity providers works"
+title: "Authenticate Office 365 users with Customer Engagement web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "This topic applies to customers who access Dynamics 365 Customer Engagement (on-premises) Customer Engagement through the Microsoft Online Services environment. It discusses how Dynamics 365 Customer Engagement (on-premises) web service authentication with managed domain and federated identity providers works"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -67,7 +67,7 @@ AuthenticationCredentials.SupportingCredentials.ClientCredentials = <device cred
 
  If your code checks the identity provider type to determine how to authenticate, then additional code is required. See the `GetCredentials` method in the next section for sample code that supports transitioned [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)] users.  
   
- For more information about this transition, see [Dynamics 365 for Customer Engagement apps Integration with Office 365](online-integration-office-365.md).  
+ For more information about this transition, see [Dynamics 365 Customer Engagement (on-premises) Integration with Office 365](online-integration-office-365.md).  
   
 <a name="bkmk_deep"></a> 
   
@@ -106,8 +106,8 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
   
 ### See also 
  
- [Connect with Microsoft Office 365 and Dynamics 365 for Customer Engagement apps](connect-microsoft-office-365.md)
+ [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)](connect-microsoft-office-365.md)
  [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md)   
  [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
- [Use connection strings in XRM tooling to connect to Dynamics 365 for Customer Engagement apps](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)
+ [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)

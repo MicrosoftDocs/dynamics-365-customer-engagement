@@ -1,5 +1,5 @@
 ---
-title: "Sample: Convert a fax to a task (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Sample: Convert a fax to a task (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample shows how to create a task for a fax by using the IOrganizationService.Entity) method"
 ms.custom: 
 ms.date: 10/31/2017
@@ -41,4 +41,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Fax Entity](entities/fax.md)   
  [Sample: CrmServiceHelper Class](org-service/helper-code-serverconnection-class.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- [Sample: Promote an Email Message to Dynamics 365 for Customer Engagement apps](sample-promote-email-message.md)
+ [Sample: Promote an Email Message to Dynamics 365 Customer Engagement (on-premises)](sample-promote-email-message.md)

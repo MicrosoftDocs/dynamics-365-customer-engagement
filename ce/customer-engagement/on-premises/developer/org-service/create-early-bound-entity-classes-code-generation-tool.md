@@ -111,7 +111,7 @@ The following sample shows how to configure the output file and the domain name 
 
 ### See Also
 
- [Developer Tools for Dynamics 365 for Customer Engagement apps](../developer-tools.md)<br />
+ [Developer Tools for Dynamics 365 Customer Engagement (on-premises)](../developer-tools.md)<br />
  [Browse the Metadata for Your Organization](../browse-your-metadata.md)<br />
  [Create an Extensions for the Code Generation Tool](extend-code-generation-tool.md)<br />
  [Use the Early Bound Entity Classes for Create, Update and Delete](use-entity-class-create-update-delete.md)<br />

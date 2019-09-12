@@ -1,5 +1,5 @@
 ---
-title: "Configure data import (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Configure data import (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Configuration information that is required for importing data is contained in the data import entity and the import source file entity. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -52,6 +52,6 @@ The configuration information that is required for importing data is contained i
 >  We do not recommend updating records by using data import programmatically. To update, use the data export and import capabilities of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Web application. Use **Export to Excel** to export records to an XML Spreadsheet 2003 (.xml) file. This is the only valid source file type for the Update mode. Re-importing data from the XML Spreadsheet 2003 (.xml) source file ensures that the data integrity in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps is maintained. To import updated data, use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Import Data Wizard. For more information about the Import Data Wizard, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Help.  
   
 ### See also  
- [Import Data in Dynamics 365 for Customer Engagement apps](import-data.md)   
+ [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Blog Post: How to Import attachments programmatically](http://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)   
  [Run Data Import](run-data-import.md)

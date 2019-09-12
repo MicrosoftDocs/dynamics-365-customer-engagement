@@ -1,6 +1,6 @@
 ---
-title: "Open forms, views, and dashboards in Dynamics 365 for Customer Engagement apps mobile client with a URL (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Use the new application handler for Dynamics 365 for Customer Engagement apps mobile clients to directly link to Dynamics 365 for Customer Engagement forms, views, and dashboards from external applications so that when you click on the link in an external application, the target element opens in Dynamics 365 for phones or Dynamics 365 for tablets."
+title: "Open forms, views, and dashboards in Dynamics 365 Customer Engagement (on-premises) mobile client with a URL (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+description: "Use the new application handler for Dynamics 365 Customer Engagement (on-premises) mobile clients to directly link to Dynamics 365 for Customer Engagement forms, views, and dashboards from external applications so that when you click on the link in an external application, the target element opens in Dynamics 365 for phones or Dynamics 365 for tablets."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -24,7 +24,7 @@ search.app:
 
 Use the new application handler for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps mobile clients to directly link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps forms, views, and dashboards from external applications so that when you click on the link in an external application, the target element opens in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] apps or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] apps. You can also open an empty form for creating an entity record.  
   
- If you are already signed in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], the target record is displayed in the mobile client when you click the link in external application. Otherwise, you’re prompted to sign in to your Dynamics 365 for Customer Engagement apps instance in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps mobile client, and upon doing so, the target element is displayed. You must have [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] installed on your mobile device to use this feature.  
+ If you are already signed in to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], the target record is displayed in the mobile client when you click the link in external application. Otherwise, you’re prompted to sign in to your Dynamics 365 Customer Engagement (on-premises) instance in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps mobile client, and upon doing so, the target element is displayed. You must have [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] installed on your mobile device to use this feature.  
   
 <a name="Parameters"></a>
 
@@ -62,4 +62,4 @@ ms-dynamicsxrm://?pagetype=<VALUE>&etn=<VALUE>&id=<VALUE>
 
  [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)  
     
- [Extend Dynamics 365 for Customer Engagement apps on the client](extend-client.md)
+ [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)

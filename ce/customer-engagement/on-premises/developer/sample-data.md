@@ -1,5 +1,5 @@
 ---
-title: "Sample data for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Sample data for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about installing and uninstalling sample data programmatically for an organization using InstallSampleDataRequest and UninstallSampleDataRequest."
 ms.custom: 
 ms.date: 10/31/2017
@@ -20,11 +20,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample data for Dynamics 365 for Customer Engagement apps
+# Sample data for Dynamics 365 Customer Engagement (on-premises)
 
 You can install and uninstall sample data programmatically for an organization using these messages: <xref:Microsoft.Crm.Sdk.Messages.InstallSampleDataRequest> and <xref:Microsoft.Crm.Sdk.Messages.UninstallSampleDataRequest>. For more information, see [Sample: Install or Remove Sample Data](sample-install-remove-sample-data.md).  
   
 ### See also  
  [Sample: Install or Remove Sample Data](sample-install-remove-sample-data.md)   
- [Write Code for Dynamics 365 for Customer Engagement apps](extend-dynamics-365-server.md)   
+ [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
  [Use IOrganizationService for Your Organization](org-service/use-organization-service-read-write-data-metadata.md)

@@ -65,7 +65,7 @@ To connect with an online environment, see the information provided in this Powe
 
   ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
 
-5. Replace the instance URL placeholder value with your Dynamics 365 for Customer Engagement apps instance URL, and select **Add** to save the environment.
+5. Replace the instance URL placeholder value with your Dynamics 365 Customer Engagement (on-premises) instance URL, and select **Add** to save the environment.
 6. Close the **Manage environments** dialog box.
 
 ### Set credentials
@@ -84,7 +84,7 @@ Your authentication might look like this if you are logging in as an administrat
 
 ## Test your connection
 
-Create a new Web API request to test the connection with your Dynamics 365 for Customer Engagement apps instance. Use the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI function" />:
+Create a new Web API request to test the connection with your Dynamics 365 Customer Engagement (on-premises) instance. Use the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI function" />:
 1. Select `GET` as the HTTP method and add `{{webapiurl}}WhoAmI` in the editing space.
   ![WhoAmI function request](../media/postman-whoami-request.png "WhoAmI function request")
 2. Select **Send** to send this request.

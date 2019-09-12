@@ -87,6 +87,6 @@ A *sales literature* item is the basic unit of the marketing encyclopedia in [!I
  [SalesLiteratureItem Entity](entities/salesliteratureitem.md)  
   
 ## Related Sections  
- [Model Your Business Data With Dynamics 365 for Customer Engagement apps](model-business-data.md)  
+ [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Schedule and Appointment Entities](schedule-appointment-entities.md)

@@ -1,5 +1,5 @@
 ---
-title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using access teams and owner teams to colloborate and share information."
 ms.custom: 
 ms.date: 08/06/2019
@@ -140,5 +140,5 @@ Do access teams affect search by showing or hiding the record results? There is 
  [TeamTemplate Entity](entities/teamtemplate.md)   
  [Administer the deployment using Windows PowerShell](https://technet.microsoft.com/library/dn531202.aspx)   
  [Use record-based security to control access to records](security-dev/use-record-based-security-control-access-records.md)   
- [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 for Customer Engagement apps](security-dev/how-role-based-security-control-access-entities.md)   
+ [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](security-dev/how-role-based-security-control-access-entities.md)   
  [Cascading Behavior](entity-relationship-behavior.md#BKMK_CascadingBehavior)
