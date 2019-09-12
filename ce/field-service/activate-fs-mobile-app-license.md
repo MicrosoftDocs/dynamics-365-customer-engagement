@@ -55,6 +55,11 @@ For Field Service Mobile (2016) and Field Service Mobile (2017), you need to [fi
 
 Each Dynamics 365 for Field Service license you purchase from Microsoft allows you to activate mobile access for one user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could activate mobile access for 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at each organization for a total of 200).
 
+## Field Service on the Dynamics 365 mobile app 
+
+To use Dynamics 365 Field Service on a mobile device, please use the Field Service Mobile app, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dyanmics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our topic on [Field Service Mobile](field-service-mobile-overview.md). 
+
+
 
 
 
