@@ -1,7 +1,7 @@
 ---
-title: "Import contacts (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Import contacts (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 09/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -12,8 +12,8 @@ applies_to:
 ms.assetid: 476018f9-e481-46ba-a9d1-c87cb4dd810a
 caps.latest.revision: 60
 author: mduelae
-ms.author: anbichse
-manager: brycho
+ms.author: mkaur
+manager: kvivke
 search.audienceType: 
   - enduser
 search.app: 
@@ -22,9 +22,6 @@ search.app:
 # Import contacts
 
 Whether your contacts are stored in an email program, a spreadsheet, or on your phone, here’s how to import them into Dynamics 365 Customer Engagement (on-premises) so you have all your business contact information in Customer Engagement (on-premises).  
-
-> [!TIP]
->  You can also use the new [!INCLUDE[pn_data_loader_service](../includes/pn-data-loader-service.md)] (preview feature) to import bulk data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Import bulk data with the Data Loader](../admin/import-bulk-data-data-loader.md)  
   
 ## Step 1: Get your import file ready  
 First, you export your contacts into a file. These file formats are supported:  
@@ -89,33 +86,31 @@ To find an app, search your phone’s online store.
 ## Step 2: Import the file  
  You’ll use the **Import Data** wizard to import your contacts.  
   
-1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
+1. Go to **Settings** > **Data Management** > **Imports**.
   
-2. Click **Imports**.  
-  
-3. Click **Import Data**.  
-  
-4. Browse to the folder where you saved the file that contains the export of your contacts. Select the file, and then click **Open**. Click **Next**.  
+2. On the command bar select **Import Data** > **Import Data**.
+    
+3. . Browse to the folder where you saved the file that contains the export of your contacts. Select the file, and then select **Open**. select **Next**.  
   
    > [!TIP]
    >  You can import only one file at a time. To bring in more files, run the wizard again later, or add all your contacts files to a single .zip file.  
   
-5. Review the file name, and if the file is in .csv or .txt format, verify that the field and data delimiters are correct. Click **Next**.  
+4. Review the file name, and if the file is in .csv or .txt format, verify that the field and data delimiters are correct. Select **Next**.  
   
    > [!NOTE]
    >  In most cases, you can accept the default delimiters.  
   
-6. Select **Default (Automatic Mapping)** for the System Data Map. Click **Next**.  
+5. Select **Default (Automatic Mapping)** for the System Data Map. Select **Next**.  
   
-7. In the Dynamics 365 Customer Engagement (on-premises)**Record Types** drop-down list, select **Contacts**. Click **Next**.  
+6. In the Dynamics 365 Customer Engagement (on-premises)**Record Types** drop-down list, select **Contacts**. Select **Next**.  
   
-8. For any record type with an alert icon, map the column from your contacts file to the corresponding field in Dynamics 365 Customer Engagement (on-premises). Click **OK**, and then click **Next**.  
+7. For any record type with an alert icon, map the column from your contacts file to the corresponding field in Dynamics 365 Customer Engagement (on-premises). Select **OK**, and then select **Next**.  
   
-9. Review the summary, and then click **Next**.  
+8. Review the summary, and then select **Next**.  
   
-10. Click **Submit**.  
+9. Select **Submit**.  
   
-11. To verify that the wizard was successful, click **Imports**, then review the report. Otherwise, click **Finish**.  
+10. To verify that the wizard was successful, select **Imports**, then review the report. Otherwise, select **Finish**.  
   
 ## Step 3: Check that the contacts imported successfully  
  After the wizard finishes, check your list of contacts to make sure they imported correctly.  
@@ -128,6 +123,4 @@ To find an app, search your phone’s online store.
   
 ### See also  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)    
- [Select a data map](select-data-map.md)    
- [Review settings and import data](review-settings-import-data.md)   
- [Import data (for developers)](../developer/import-data.md)
+

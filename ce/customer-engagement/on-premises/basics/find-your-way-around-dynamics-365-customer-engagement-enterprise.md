@@ -2,11 +2,11 @@
 title: Find your way around Dynamics 365 Customer Engagement (on-premises)| Microsoft Docs
 description: Know the sitemap of Microsoft Dynamics 365 Customer Engagement (on-premises)
 keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Service; Sitemap;
-author: anjgupta
+author: mduelae
 applies_to: Dynamics 365 Customer Engagement (on-premises)
-ms.author: anjgup
-manager: sakudes
-ms.date: 08/02/2017
+ms.author: mkaur
+manager: kvivek
+ms.date: 09/15/2018
 ms.topic: article
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
 search.audienceType: 
@@ -16,38 +16,8 @@ search.app:
 ---
 # Find your way around Dynamics 365 Customer Engagement (on-premises) or Dynamics CRM (earlier versions)
 
-Click the tab for  the product or service you use.  
-  
-### Dynamics 365 Customer Engagement (on-premises) 
- With Customer Engagement (on-premises), start by opening the app for your role: Sales, Customer Service, [!INCLUDE[pn_field_service](../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], Operations, or Financials.  
-  
-> [!NOTE]
->  If you’re an administrator, open Customer Engagement (on-premises) – Custom to access system-wide administrator or customizer settings.  
-  
-##### Open an app  
-  
-1. Sign in to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], click the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] app launcher, and then click the **Customer Engagement (on-premises)** icon.  
-  
-   ![Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) iconselected](../basics/media/office-365-app-launcher-with-dynamics-365-iconselected.png "Office 365 app launcher with Dynamics 365 Customer Engagement (on-premises) iconselected")  
-  
-   > [!NOTE]
-   >  The apps available to you in the app launcher depend on your subscription.  
-  
-2. In the Customer Engagement (on-premises) Home page, select the Customer Engagement (on-premises) app for your role.  
-  
-   ![Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps](../basics/media/dynamics-365-home-page-with-4-apps.png "Dynamics 365 Customer Engagement (on-premises) Home page with 4 apps")  
+ 
 
-> [!TIP]
->  To go directly to the Home page, go to [https://home.dynamics.com](https://home.dynamics.com). You can also sign in to an app directly using a URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sign in with a URL.](https://go.microsoft.com/fwlink/p/?linkid=402537) 
-
-  
-##### Switch to a different app  
-  
-- On the navigation bar, go to **Customer Engagement (on-premises)>My apps**, and then select the app you want.  
-  
-  ![Dynamics 365 Customer Engagement (on-premises) app switcher](../basics/media/dynamics-365-app-switcher.png "Dynamics 365 Customer Engagement (on-premises) app switcher")  
-  
-#### Find your way around the Sales, Customer Service, or Dynamics 365 Customer Engagement (on-premises)- Custom app  
  When you open an app, you’ll see tiles and icons (called a *sitemap*) for that app. Use the icons to access different types of information relevant to that role.  
   
  The following illustrations describe the sitemaps for the  Sales, Customer Service, and Customer Engagement (on-premises) – Custom apps.  
@@ -195,18 +165,6 @@ Click the tab for  the product or service you use.
   
  **6**.  Get in-context help (guided tasks, videos, eBooks, and topics).  
   
-##### Where to go for more info on each app  
- [Dynamics 365 Customer Engagement (on-premises) for Sales User Guide](../sales-enterprise/user-guide.md)
-  
- [Dynamics 365 Customer Engagement (on-premises) for Customer Service User Guide (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
- 
- [Dynamics 365 Customer Engagement (on-premises) for Customer Service User Guide (legacy web app)](../customer-service/user-guide-customer-service.md)  
-  
- [Dynamics 365 Customer Engagement (on-premises) for Field Service User Guide](../field-service/user-guide.md)  
-  
- [Dynamics 365 Customer Engagement (on-premises) for Project Service Automation User Guide](../field-service/user-guide.md)  
-  
- [Administrator's Guide to Dynamics 365 Customer Engagement (on-premises)](../admin/admin-guide.md)  
   
 ### CRM 2016  
   

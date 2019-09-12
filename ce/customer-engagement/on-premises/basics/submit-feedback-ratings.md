@@ -1,5 +1,5 @@
 ---
-title: "Submit feedback or ratings for information stored in your system (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Submit feedback or ratings for information stored in your system (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -12,8 +12,8 @@ applies_to:
 author: shubhadaj
 ms.assetid: b5eb89bc-e828-4b0a-bf80-87f399e4695a
 caps.latest.revision: 9
-ms.author: shujoshi
-manager: sakudes
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -25,8 +25,8 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
  For example, if the  Case entity is enabled for feedback, you can capture feedback on the support experience the customer received for the case. When several customers are rating a record, the ratings can be consolidated for each record through a custom rollup field. In a sales scenario, you can enable the Product entity for feedback to capture users' feedback on the products you sell.  
   
- A system administrator or customizer can enable an entity for feedback. If you want to capture feedback for any specific entity, talk to your system administrator or customizer. [Find the administrator or support person for Dynamics 365 Customer Engagement (on-premises).](../basics/find-administrator-support.md) 
-  
+ A system administrator or customizer can enable an entity for feedback. If you want to capture feedback for any specific entity, talk to your system administrator or customizer. 
+ 
 ## Add feedback  
  You can add feedback to any record by using the associated list of records. Or, you can ask your system administrator or customizer to add a sub grid to the entity form.  
   
@@ -36,11 +36,11 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
 2. Open the case record you want to add the feedback to.  
   
-3. On the nav bar, click the arrow next to the record name, and then click **Feedback**.  
+3. On the nav bar, select the arrow next to the record name, and then select **Feedback**.  
   
    ![Go to the list of associated records](../basics/media/v8-1-associatedlist.png "Go to the list of associated records")  
   
-4. On the Action toolbar, click **Add New Feedback**.  
+4. On the Action toolbar, select **Add New Feedback**.  
   
  
 5. Fill in the information:  
@@ -63,7 +63,6 @@ To improve customer satisfaction, tracking customer feedback for the products an
   
    - **Normalized Rating**. Normalizes the rating down to a 0 - 1 scale. The normalized rating is calculated based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
   
-6. After you're done, click **Save & Close**.  
+6. After you're done, select **Save & Close**.  
   
-### See also  
- [Enable an entity for feedback](../customize/enable-entity-feedback.md)
+
