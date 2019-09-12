@@ -34,4 +34,4 @@ Dynamics 365 Customer Engagement (on-premises) is “process-driven.” But what
  The system comes with business processes for common sales, service, and marketing tasks. However, most organizations customize these processes to match the way they do things. Or, you may have added processes to the system that have been customized for your industry or business goals. In other words, what you see here may not match exactly with the process bars you see on your system. But regardless, the process bars work the same for everyone. You enter data in the fields, and then move the customer to the next stage.
 
 
-[Watch a video (4:49) about Business Process flows](https://go.microsoft.com/fwlink/p/?linkid=842226). For more information, see the 
+To learn more about business processes, [watch this video (4:49) about Business Process flows](https://go.microsoft.com/fwlink/p/?linkid=842226).  
