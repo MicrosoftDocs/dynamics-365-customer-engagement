@@ -19,7 +19,7 @@ ms.custom:
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 
-## Omnichannel provisioning fails
+## Omnichannel provisioning fails due to expired Teams Service Principal
 
 ### Issue:
 
