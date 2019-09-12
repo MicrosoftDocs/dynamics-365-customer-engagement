@@ -1,5 +1,5 @@
 ---
-title: "Deactivate or activate an account or contact (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Deactivate or activate an account or contact (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/06/2019
 ms.reviewer: 

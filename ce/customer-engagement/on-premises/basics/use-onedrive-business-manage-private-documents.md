@@ -1,8 +1,8 @@
 ---
-title: "Use OneDrive for Business to manage your private documents (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Use OneDrive for Business to manage your private documents (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Store your private or important documents on OneDrive for Business."
 keywords: documents, store, OneDrive, Business
-ms.date: 03/08/2017
+ms.date: 9/15/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -29,14 +29,12 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
  You might use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] to start and work on a document privately, such as for a draft sales pitch. When the draft is far enough along, move it to an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] group for team collaboration. You have lots of storage space (1 TB or more) with [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], and documents stored there are automatically synced to your desktop and mobile devices. For example, if you put a presentation in Customer Engagement (on-premises) that's stored on [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] linked with an opportunity, that presentation is synced to all devices running [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
 
-> [!TIP]
-> [![Video symbol](../basics/media/video-button.png "Video symbol")](http://go.microsoft.com/fwlink/p/?LinkId=404225) Check out the following video: [Find information fast with Dynamics 365 Customer Engagement (on-premises) (2:39)](https://go.microsoft.com/fwlink/p/?linkid=837816)  
 
  Before you can use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], it must be enabled by your system administrator. [!include[](../includes/proc-more-information.md)]  
 
--   [Find your Dynamics 365 Customer Engagement (on-premises) administrator or support person](../basics/find-administrator-support.md)  
+-   [Find your Dynamics 365 Customer Engagement administrator or support person](../basics/find-administrator-support.md)  
 
--   [Enable OneDrive for Business](../admin/enable-onedrive-for-business.md)  
+-   [Enable OneDrive for Business](../admin/connect-onedrive-business.md)  
 
 > [!IMPORTANT]
 > [!INCLUDE[cc_feature_requires_office_365](../includes/cc-feature-requires-office-365.md)]  
@@ -123,6 +121,4 @@ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], 
 
 - There may be a delay between when the documents are shared in [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] and when they're available to other users.  
 
-### See also  
- [What is OneDrive for Business?](https://support.office.com/en-US/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)   
- [Enable OneDrive for Business](../admin/enable-onedrive-for-business.md)
+

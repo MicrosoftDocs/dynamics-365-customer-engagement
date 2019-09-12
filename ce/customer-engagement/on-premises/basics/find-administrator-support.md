@@ -1,5 +1,5 @@
 ---
-title: "Find your administrator or support person (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Find your administrator or support person (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ffa6c917-3ad1-48ee-9d8f-428fa3f97215
 caps.latest.revision: 12
-author: jimholtz
-ms.author: jimholtz
-manager: brycho
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -25,9 +25,7 @@ You may occasionally run across issues that require consultation with your Dynam
   
 1. Sign in to your Customer Engagement (on-premises) organization.  
   
-2. Open the Sales, Customer Service, Field Service, or Project Service Automation app, and then on the nav bar, choose the **Advanced Find** button ![Screen shot of Advanced Find button](../basics/media/advanced-find-button.PNG "Screen shot of Advanced Find button").  
-  
-   ![Advanced Find on Command bar in Dynamics 365 Customer Engagement (on-premises)](../basics/media/find-administrator-advanced-find.png "Advanced Find on Command bar in Dynamics 365 Customer Engagement (on-premises)")  
+2. On the command bar select the **Advanced Find** button.
   
 3. On the Advanced Find page, in the **Look for** list, select **Users**.  
   
@@ -43,5 +41,4 @@ You may occasionally run across issues that require consultation with your Dynam
   
    You should see a list of one or more system administrators.  
   
-### See also  
- [Get Help from the Dynamics 365 Customer Engagement (on-premises) Community](http://go.microsoft.com/fwlink/p/?LinkID=856838)
+
