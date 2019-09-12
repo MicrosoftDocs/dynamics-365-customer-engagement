@@ -28,6 +28,33 @@ Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.conto
 > [!Note]
 > The system attaches the skills to a conversation based on the skill attachment rules.
 
+## Match skills
+
+There are two skill matching types:
+
+- Exact skill matching
+- Closest skill matching
+ 
+### Exact skill matching
+
+When the skill attachment logic attaches a skill with a certain proficiency level, the work distribution system considers the attached proficiency level as the minimum criteria, and assign  the conversation to an agent only if this criteria is met.
+
+If the minimum proficiency criteria is not met, then the system searches for the next higher value of the minimum criteria. The order of matching the criteria is always minimum criteria and then progressively search the next higher value.
+
+when proficiency level  criteria is not met, then the work distribution system doesn't assign the conversation to any agent and the conversation remains in the queue.
+
+For example,
+
+The skill attachment logic attaches the skill as **Xbox** product and **Spanish** language with proficiency level as **4** and **5** respectively.
+| Skill & proficiency  | Description | |
+|------------|-------------|-----------------|
+| Xbox => 4 <br> Spanish => 5 | First, searches for an agent with Xbox = 4 and Spanish = 5 as these are the minimum criteria. <br><br> When the condition is not met, searches for an agent with Xbox proficiency greater than 4 and Spanish proficiency greater than 5. |
+
+
+### Closest skill matching
+
+
+
 ## Prerequisites
 
 To attach skills, you need a workstream record. Either you can create or use an existing workstream configuration. 
