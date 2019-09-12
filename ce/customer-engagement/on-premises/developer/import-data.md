@@ -29,13 +29,13 @@ search.app:
 ---
 # Import data
 
-If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you can use the *data import* feature. Data import lets you upload data from various customer relationship management systems and data sources into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. You can import data into standard and customized attributes of most business and custom entities. You can also include related data, such as notes and attachments.  
+If you want to import data into Dynamics 365 for Customer Engagement (on-premises), you can use the *data import* feature. Data import lets you upload data from various customer relationship management systems and data sources into Dynamics 365 for Customer Engagement (on-premises). You can import data into standard and customized attributes of most business and custom entities. You can also include related data, such as notes and attachments.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps include a web application tool called Import Data Wizard. You use this tool to import data records from one or more comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files.  
+Dynamics 365 for Customer Engagement (on-premises) include a web application tool called Import Data Wizard. You use this tool to import data records from one or more comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files.  
   
- For more information about the Import Data Wizard, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Help.  
+ For more information about the Import Data Wizard, see Dynamics 365 for Customer Engagement (on-premises) Help.  
   
- The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web services provide the following additional capabilities that aren’t available in the Import Data Wizard:  
+ The Dynamics 365 for Customer Engagement (on-premises) web services provide the following additional capabilities that aren’t available in the Import Data Wizard:  
   
 - Create data maps that include complex transformation mapping, such as concatenation, split, and replace.  
   
@@ -49,7 +49,7 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
   
 - Add `LookupMap`XML tags in the data map to indicate that the data lookup will be initiated and performed on a source file that is used in the import.  
   
-- Add custom `OwnerMetadata`XML tags in the data map to match the user records in the source file with the records of the user (system user) in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+- Add custom `OwnerMetadata`XML tags in the data map to match the user records in the source file with the records of the user (system user) in Dynamics 365 for Customer Engagement (on-premises).  
   
 - Use optional validation checks.  
   
@@ -70,7 +70,7 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
   
 - Transform the parsed data.  
   
-- Upload the transformed data into the target [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps server.  
+- Upload the transformed data into the target Dynamics 365 for Customer Engagement (on-premises) server.  
   
   You can import data from one source file or several source files. A source file can contain data for one entity type or multiple entity types.  
   
@@ -81,22 +81,34 @@ If you want to import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-micros
 >
 > We recommend limiting your import to 20K rows or fewer.
 
-## In This Section  
- [Prepare Source Files](prepare-source-files-import.md)  
+## Prepare for source files
+ 
+ For more information: [Prepare Source Files](/powerapps/developer/common-data-service/prepare-source-files-import)  
   
- [Create Data Maps](create-data-maps-for-import.md)  
+## Create data maps
+
+For more information: [Create Data Maps]/powerapps/developer/common-data-service/(create-data-maps-for-import)  
   
- [Add Transformation Mapping](add-transformation-mappings-import.md)  
+## Add transformation data
+
+For more information: [Add Transformation Mapping](/powerapps/developer/common-data-service/add-transformation-mappings-import)  
   
- [Configure Data Import](configure-data-import.md)  
+## Data import
+
+For more information: [Configure Data Import](/powerapps/developer/common-data-service/configure-data-import)  
   
- [Run Data Import](run-data-import.md)  
+## Run data import
+
+For more information: [Run Data Import]/powerapps/developer/common-data-service/(run-data-import)  
   
- [Data Import Entities](data-import-entities.md)  
+## Data import entites
+
+For more information: [Data Import Entities](/powerapps/developer/common-data-service/data-import-entities)  
   
- [Sample: Export and Import a Data Map](sample-export-import-data-map.md)  
+   
   
- [Sample: Import Data Using Complex Data Map](sample-import-data-complex-data-map.md)  
-  
-## Related Sections  
- [Data Management in Dynamics 365 Customer Engagement (on-premises)](manage-data.md)
+## Related Sections 
+
+[Data Management in Dynamics 365 for Customer Engagement (on-premises)](manage-data.md)
+[Sample: Export and Import a Data Map](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ExportImportDataMap)  
+[Sample: Import Data Using Complex Data Map](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ImportComplexDataMap)

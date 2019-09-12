@@ -82,7 +82,7 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
  When this data is present and the Entity `EnforceStateTransitions` property is `true`, any incident instance can only be changed to one of the allowed `statuscode` values. You can use<xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> to set the `statuscode`<xref:Microsoft.Xrm.Sdk.OptionSetValue> to any of the allowed values that don’t represent a change in state. To change the state, use <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> setting the allowed <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest.State> and <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest.Status> property values or the <xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest> setting <xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest.Status> property to one of the values allowed for the current `statuscode` value. Attempting to set an invalid value throws an error.  
   
 ### See also  
- [Sample: Retrieve Valid Status Transitions](sample-retrieve-valid-status-transitions.md)   
+ [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions)   
  [Record state and status](introduction-entities.md#bkmk_RecordStateandStatus)   
  [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md)   
- [Define status reason transitions](http://go.microsoft.com/fwlink/p/?LinkId=393657)
+ <!--[Define status reason transitions](http://go.microsoft.com/fwlink/p/?LinkId=393657)-->

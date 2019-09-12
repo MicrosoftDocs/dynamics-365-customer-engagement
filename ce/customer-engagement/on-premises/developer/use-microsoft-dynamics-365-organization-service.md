@@ -1,38 +1,38 @@
 ---
-title: "Use the Dynamics 365 for Customer Engagement Organization service (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Use the Organization service (Developer Guide for Dynamics 365 Customer Engagement (on-premises) ) | MicrosoftDocs"
 description: "Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations"
 ms.custom: on-premise
-ms.date: 11/28/2017
+ms.date: 09/05/2019
 ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ec4fd484-50e0-44a1-b336-7ff21a7b4054
 caps.latest.revision: 6
 author: JimDaly
 ms.author: jdaly
-manager: amyla
+manager: KumarVivek
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Use the Dynamics 365 for Customer Engagement Organization service
+# Use the Organization service
 
 Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations.
 
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
 >
-> The Organization service programming documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
+> The Organization service programming documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the Common Data Service documentation at: [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)
 >
 > [!INCLUDE[cc-cdsnote-2-section](./includes/cc-cdsnote-2-section.md)]
   
 ### See also
 
-[Choose your development style for Dynamics 365 Customer Engagement (on-premises)](choose-development-style.md)
+[Choose your development style](choose-development-style.md)
 
 [Developer tools](developer-tools.md)
