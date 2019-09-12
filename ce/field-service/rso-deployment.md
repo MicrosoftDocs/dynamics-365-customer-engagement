@@ -1,13 +1,15 @@
 ---
 title: Deployment
-author: shellyhaverkamp
-manager: shellyha
-ms.date: 06/08/2018
+ms.date: 09/10/2019
 ms.topic: article
 ms.custom: 
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellyha
+author: krbjoran
+ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
+caps.latest.revision: 42
+ms.author: FieldServiceDave
+manager: shellyha
 search.audienceType: 
   - admin
   - customizer
@@ -25,7 +27,7 @@ To deploy Resource Scheduling Optimization, you must first do the following:
 - Purchase Plan 1 for Dynamics 365 for Customer Engagement and RSO licenses. RSO does not work on earlier versions of Dynamics 365 for Customer Engagement Online.
 
   > [!NOTE]
-  > At the time of publication, a paid Plan 1 subscription is required for purchasing and enabling RSO. 
+  > A paid Plan 1 or Dynamics 365 Field Service subscription is required for purchasing and enabling RSO. 
 
 - Install Dynamics 365 for Field Service.
 
