@@ -995,9 +995,7 @@
   - name: Outlook Client 9.0
     href: https://docs.microsoft.com/dotnet/api/?view=dynamics-outlookclient-ce-9
   - name: Deployment Service 9.0
-    href: https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9
-  - name: Online Management API Reference
-    href: https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com
+    href: https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9  
   - name: Client API Reference
     href: clientapi/reference.md
   - name: Schemas used in Dynamics 365
