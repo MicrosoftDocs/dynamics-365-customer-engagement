@@ -1,5 +1,47 @@
-- name: Developer Guide
-  href: overview.md
+- name: Developer Guide for Dynamics 365 Customer Engagement
+  href: overview.md  
+- name: Get started
+  href: get-started-sdk.md
+  items:
+  - name: 'Download SDK'
+    href: download-dynamics-365-sdk-v9.md
+  - name: Programming models
+    href: programming-models.md
+  - name: Choose your development style
+    href: choose-development-style.md
+  - name: Tutorials and resources
+    href: tutorials-resources-sdk.md
+    items:
+    - name: Developer resources page
+      href: developer-resources-page.md
+    - name: Run a simple program using web services
+      href: simple-program-web-services.md
+    - name: 'Sample: Quick start'
+      href: sample-quick-start.md
+    - name: 'Sample: Simplified connection quick start'
+      href: xrm-tooling/sample-simplified-connection-quick-start.md
+    - name: 'Sample: Quick start for XRM Tooling API'
+      href: xrm-tooling/sample-quick-start-xrm-tooling-api.md
+  - name: Best practices
+    href: best-practices-sdk.md
+  - name: Developer tools
+    href: developer-tools.md
+    items:
+    - name: Download tools from NuGet
+      href: download-tools-nuget.md
+    - name: Visual Studio and the .NET Framework
+      href: visual-studio-dot-net-framework.md
+    - name: Browse the metadata for your organization
+      href: browse-your-metadata.md
+    - name: Solution tools for team development
+      href: solution-tools-team-development.md
+      items:
+      - name: SolutionPackager tool
+        href: compress-extract-solution-file-solutionpackager.md
+      - name: Source control with solution files
+        href: use-source-control-solution-files.md
+      - name: Solution component file reference (SolutionPackager)
+        href: solution-component-file-reference-solutionpackager.md
 - name: Connect to Customer Engagement
   href: connect-customer-engagement.md
   items:
@@ -975,6 +1017,8 @@
       href: sample-install-remove-sample-data.md
 - name: Sample code directory
   href: sample-code-directory.md
+- name: Online Management API
+  href: online-management-api/
 - name: Programming reference
   href: programming-reference.md
   items:
@@ -995,11 +1039,16 @@
   - name: Outlook Client 9.0
     href: https://docs.microsoft.com/dotnet/api/?view=dynamics-outlookclient-ce-9
   - name: Deployment Service 9.0
-    href: https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9  
+    href: https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9
+  - name: Online Management API Reference
+    href: https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com
   - name: Client API Reference
     href: clientapi/reference.md
   - name: Schemas used in Dynamics 365
     href: schemas-used-dynamics-365.md
   - name: Customization XML reference
     href: customization-xml-reference.md
-
+- name: Developer Guide for Connected Field Service
+  href: ../field-service/developer/connected-field-service-developer-guide.md
+- name: Channel Integration Framework Guide for Dynamics 365
+  href: channel-integration-framework/channel-integration-framework.md
