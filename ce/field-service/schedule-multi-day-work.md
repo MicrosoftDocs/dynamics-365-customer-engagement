@@ -28,7 +28,15 @@ search.app:
 
 # Schedule work over multiple days 
 
+Work orders for on site service and requirements for other business needs can be scheduled across multiple days and weeks. A common example is scheduling a 40 hour requirement across an entire work week where the field technician is expected to perform more detailed work at the same location each day. 
+
+Dispatchers can schedule multi-day work in between existing bookings, double booking existing schedules, or as a continuous block of time. 
+
+When scheduling multi-day work orders or requirements, dispatchers can choose an allocation method, also referred to as booking method, that dictates how the duration is split up throughout the days and weeks.
+
 Allocation methods
+
+
 
 Scenario 1: Schedule a multi-day work order
 
@@ -38,6 +46,8 @@ Scenario 3: Schedule a multi-day requirement to multiple resources
 
 
 ## Prerequisites
+If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, you should consider using Dynamics 365 Project Service which has [Gantt chart functionality](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/schedule-project-work-breakdown-structure). 
+
 > [!Note]
 >
 
@@ -46,6 +56,8 @@ Scenario 3: Schedule a multi-day requirement to multiple resources
 
 
 ## Scenario 1: Schedule a multi-day work order
+
+remaining duration
 
 end: can simply drag and drop too but this creates a continuous booking
 
@@ -63,6 +75,7 @@ specify pattern
 - full capacity uses calendar
 - when scheduling 4 hours each day, they need 4 total hours, not 4 continuous hours
 - manual create details when allocation method is none
+
 ## Additional Notes
 - work order auto creates requirements
 - cannot schedule requirement groups for multiple days, menaing you cannot break it up
