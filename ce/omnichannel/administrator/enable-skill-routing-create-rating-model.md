@@ -80,16 +80,16 @@ For example:
 
 | Rating Value Name | Value |
 |-------------------|-------|
-| Advanced level A | 10 |
-| Advanced level B | 9 |
-| Advanced level C | 8 |
-| Intermediate level A | 7 |
-| Intermediate level B | 6 |
-| Intermediate level C | 5 |
-| Beginner lever A | 4 |
-| Beginner lever A | 3 |
-| Beginner lever A | 2 |
-| Don't know | 1 |
+| ★★★★★★★★★★| 10 star|
+| ★★★★★★★★★ | 9 star|
+| ★★★★★★★★ | 8 star|
+| ★★★★★★★ | 7 star |
+| ★★★★★★ | 6 star|
+| ★★★★★ | 5 star|
+| ★★★★ | 4 star|
+| ★★★ | 3 star|
+| ★★ | 2 star|
+| ★ | 1 star|
 
 ## See also
 
