@@ -41,16 +41,16 @@ With Customer Engagement (on-prem), you can use the right storage option for the
   
  ![Change your OneDrive folder](../basics/media/onedrive-first-time.png "Change your OneDrive folder")  
   
- Click **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents or click **Continue** to accept the default folder location: \CRM  
+ Select **Change folder location** to pick a new location to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents or select **Continue** to accept the default folder location: \CRM  
   
 ## View existing OneDrive documents  
  Open a view with a document grid.  
   
  For example,  
   
-1. Click **Sales** > **Opportunities**  
+1. Select **Sales** > **Opportunities**  
   
-2. Choose an opportunity from the drop-down menu, and then click **Documents**.  
+2. Choose an opportunity from the drop-down menu, and then select **Documents**.  
   
    ![Choose Opportunities &#62; Documents](../basics/media/choose-opportunity-documents.png "Choose Opportunities > Documents")  
   
@@ -60,7 +60,7 @@ With Customer Engagement (on-prem), you can use the right storage option for the
   
    Documents stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] and [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] are viewed in one list.  
   
-   Click **Document Location** to filter the document list.  
+   Select **Document Location** to filter the document list.  
   
    ![Choose a document location](../basics/media/onedrive-choose-document-location.PNG "Choose a document location")  
   
@@ -78,18 +78,18 @@ With Customer Engagement (on-prem), you can use the right storage option for the
   
 1. Open a view with a document grid.  
   
-2. Click New ![New button](../basics/media/new-icon.png "New button") and then choose a document type such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].  
+2. Select New ![New button](../basics/media/new-icon.png "New button") and then choose a document type such as [!INCLUDE[pn_MS_Powerpoint](../includes/pn-ms-powerpoint.md)] or [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)].  
   
-3. Enter a document name, choose a location, and then click **Save**.  
+3. Enter a document name, choose a location, and then select **Save**.  
   
    The document is created and opened in the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Online application.  
   
 ## Change your OneDrive folder settings  
  You can change the location of your [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] documents and rename the folder used for [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)].  
   
-1. Click **Settings** > **Document Management** > **OneDrive for Business Folder Settings**  
+1. Select **Settings** > **Document Management** > **OneDrive for Business Folder Settings**  
   
-2. Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then click **OK**.  
+2. Enter a new location for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to store [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] files, and then select **OK**.  
   
 > [!NOTE]
 >  The [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] folder is renamed and all the existing files will now be associated with the new folder.  
