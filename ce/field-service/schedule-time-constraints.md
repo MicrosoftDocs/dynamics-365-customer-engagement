@@ -159,7 +159,7 @@ When you Book the requirement, the start times of the schedule results will refl
 
 Field Service can perform custom booking rule validations, called Booking Rules, when creating a booking via the Schedule Board or Schedule Assistant. Booking rules are custom JavaScript functions that will be executed prior to the Bookable Resource Booking record being created.  The JavaScript function can accept a parameter that will contain information for the Bookable Resource Booking record being created and must return a JavaScript object with the required properties.
 
-In the context of scheduling within time parameters, you can create a Booking Rule that performs custom validation on the date and time fields or even custom date and time fields you create. A simple example is to check that a booking starts on a Monday, Wednesday, or Friday, and if not, display an error message to the dispatcher on the schedule board.
+In the context of scheduling within time parameters, you can create a Booking Rule that performs custom validation on the date and time fields or even custom date and time fields you create. A simple example is to check that a booking starts on a Monday, Wednesday, or Friday, and if not, display an error message to the dispatcher on the schedule board. For more details see the topic on [Booking Rules](./set-up-booking-rules.md)
 
 
 ### Scheduling lock options
@@ -184,15 +184,13 @@ You can define which fields on the entity enabled for scheduling should serve as
 
 In the attribute mapping section, you can choose any date and time fields on the entity.
 
-As an example, imagine you enable Leads for scheduling. You can choose two date and time fields on the Lead entity (either existing or custom fields) that will automatically be the From and To Dates when you attempt to schedule the Lead.
+As an example, imagine you enable Leads for scheduling. You can choose two date fields on the Lead entity (either existing or custom fields) that will automatically be the From and To Dates when you attempt to schedule the Lead.
 
 ## Additional Notes
 
 > [!Note]
 > Using Date Window Start and End implies the work order must be completed during the date range based on the total duration of the requirement. As an example, if a work order is expected to take 25 hours, but the date range is 1 day (24 hours) then no resources will return as results because no one can complete the 25 hour work order in 1 day, even if he or she works 24 hours each day as working hours.
 
-- **Current limitation: variable calendars** Out of the box the solution cannot consider variable calendars where certain days and times are restricted or required for scheduling. As an example, imagine a customer who requires on site service would like the work order to be scheduled on Mondays, Wednesdays, or Fridays between 12pm and 5pm each day. This cannot be achieved with the out of the box date and time preference fields or calendar. Possible remedies are to use notes to inform the dispatcher of the customer's time preferences, or to use Booking Rules to create custom logic with JavaScript, however as mentioned earlier Booking Rules only apply to manual scheduling on the Schedule Board.
+- **Current limitation: variable calendars** Out of the box the solution cannot consider variable calendars where certain days and times are restricted or required for scheduling. As an example, imagine a customer who requires on site service would like the work order to be scheduled on Mondays, Wednesdays, or Fridays between 12pm and 5pm each day. This cannot be achieved with the out of the box date and time preference fields or calendar. Possible remedies are to use notes to inform the dispatcher of the customer's time preferences, or to use Booking Rules to create custom logic with JavaScript.
 
-- **Scheduling entities other than work orders?** These fields exist on the requirement form too, so you can utilize them when scheduling entities other than work orders such as cases, quotes, and custom entities. 
-
-- could have date window start/end mon-fri and use time windows for 9-5. if not scheduled by end of the week use workflow to make it next week.
+- **Scheduling entities other than work orders?** The time parameter fields on the work order, Date Window Start and End, Time from and to promised, and Time Window Start and End, all exist on the resource requirement entity. This means you can utilize these fields when scheduling entities other than work orders such as cases, quotes, and custom entities. 
