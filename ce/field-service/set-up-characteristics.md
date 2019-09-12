@@ -2,7 +2,7 @@
 title: "Set up characteristics (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/30/2017
+ms.date: 09/10/2019
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -34,11 +34,11 @@ Characteristics are skills that resources possess. For example, they can be used
 <a name="BKMK_AddCharacteristics"></a>   
 ## Add characteristics  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Characteristics**.  
+1.  From the main menu, open **Resource Scheduling** and then choose **Settings**.  
   
-2.  On the **Active Characteristics** screen, click **+New** in the upper left corner.  
+2.  Under the **Resource** section, choose **Skills.**  
   
-3.  Use the tooltips to help fill in your information and then click **Save**.  
+3.  Select **New** to add characteristics.
   
 <a name="BKMK_AssignCharacteristicsToResources"></a>   
 ## Assign characteristics to resources  
