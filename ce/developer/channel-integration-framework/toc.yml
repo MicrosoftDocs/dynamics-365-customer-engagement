@@ -21,8 +21,6 @@
     items:
     - name: "Configure channel provider for your Dynamics 365 organization"
       href: configure-channel-provider-channel-integration-framework.md
-    - name: "Build a simple communication widget"
-      href: getting-started-simple-widget.md
     - name: "Enable outbound communication (ClickToAct)"
       href: enable-outbound-communication-clicktoact.md
     - name: "Add CIF solution as a dependent solution"
@@ -31,6 +29,12 @@
       href: authenticate-channel-users.md
     - name: "Pass Dynamics 365 URL to widget library"
       href: pass-url-widget-library.md
+    - name: "Build a communication widget"
+      items:
+      - name: "Get started with building a simple widget"
+        href: getting-started-simple-widget.md
+      - name: "Search and open records on an incoming conversation"
+        href: search-open-records-incoming-conversations.md
   - name: JavaScript API Reference
     items:
     - name: "Microsoft.CIFramework"
@@ -87,5 +91,5 @@
       items:
       - name: "msdyn_ciprovider"
         href: reference/entities-attributes/msdyn-ciprovider.md        
-  - name: "FAQ"
+  - name: "FAQs"
     href: faq-channel-integration-framework.md    

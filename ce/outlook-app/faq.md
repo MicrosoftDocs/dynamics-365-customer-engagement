@@ -1,7 +1,7 @@
 ---
 title: "Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/15/2019
+ms.date: 05/5/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -30,6 +30,25 @@ Yes, here is the list known issues:
 - Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Please try using [Outlook folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md) or [category-based tracking](../admin/use-outlook-category-track-appointments-emails.md) for delegated users to track Outlook items on the owner's behalf.  
 
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 for Customer Engagement apps Readme](../admin/readme-9.md). 
+
+## I am having authentication issues with Dynamics 365 App for Outlook while using Dynamics 365 on-premises and Active Directory Federation Services. What can I do to resolve it?
+
+If you have enabled Internet-facing deployment on the Microsoft Dynamics 365 Server and Configure the AD FS and still have issues with authentication then do the following:
+
+1. On the server open the Internet Information Services (IIS) Manager program.
+2. In the left panel, expand the domain name > expand and navigate to **Sites** > **Microsoft Dynamics CRM**.
+3. Expand **XRMServices** and then select **2011**.
+    1. Double click on **Authentication** in the features view.
+    2. Right-click on the **Windows Authentication** row and then select **Enable** if it is disabled.
+    3. Right-click again on the **Windows Authentication** and then select **Providers**.
+    4. For each of the listed providers, select the provider and then choose **Remove**.
+    5. Close **Providers** window.
+    6. Right-click again on the **Windows Authentication** and then select **Disable**.
+
+All of the  above steps need to be comepleted for all imcluded folders and files for **XRMServices** > **2011**, and for the NGA and AppWebServices folders.
+
+> [!div class="mx-imgBorder"] 
+> ![IIS Manager](media/iis.png "IIS Manager")
 
 ## What does this notification mean, Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 data?
 

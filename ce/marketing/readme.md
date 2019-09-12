@@ -48,6 +48,7 @@ This document provides important, late-breaking information about known issues a
 - Deactivated contacts won't receive any emails from journeys they may be participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 852372 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - The date scheduler tile in customer journeys doesn't display dates according to the Japanese imperial calendar (including in Japanese localizations). <!--- 1460626 -->
+- When reusing the same marketing list across multiple customer journeys, stopping one of the journeys might cause other journeys to stop as well. <!--- 1494411 -->
 
 ### Fixed issues
 
@@ -75,6 +76,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
+- When you have an A/B test up, you can only switch between the A and B variants while the test is still in draft mode. Once a test has started running, or finished running, you can only view or preview the A variant.
 - The default content-settings record must be live before you can send any marketing emails or view heatmaps on **Insights** pages. Usually, the default content-settings record goes live automatically when your setup is complete, but sometimes this isn't the case. To solve this, set up and publish your default content-settings record manually as described in [Use content settings to set up repositories of standard and required values](dynamic-email-content.md#content-settings).
 - Selecting **Stop** on a live email will prevent it from being used in future journeys, but it will continue to function in existing live journeys, which will continue to deliver it.
 - If you reuse the same email multiple times (within the same journey or in different journeys) you will see incorrect performance results on its **Insights** pages.

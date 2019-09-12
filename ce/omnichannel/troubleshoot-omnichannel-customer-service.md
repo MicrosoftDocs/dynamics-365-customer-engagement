@@ -6,7 +6,7 @@ author: kabala123
 ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 09/11/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: 2507DF5E-99CF-4AF9-BAEF-5B9C7B43ECF7
@@ -18,6 +18,53 @@ ms.custom:
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
+
+## Omnichannel provisioning fails due to expired Teams Service Principal
+
+### Issue:
+
+If your tenant has an expired Office 365 license, then the Omnichannel for Customer Service provisioning fails in your organization.
+
+### Resolution:
+
+To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
+
+[Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
+
+[Step 2: Use PowerShell to remove Microsoft Teams Service Principal](#step-2-use-powershell-to-remove-microsoft-teams-service-principal)
+
+#### Step 1: Identify Teams Service Principal in Azure Active Directory
+
+1.	Sign in to the [Azure portal](https://portal.azure.com/).
+2.	Select **Active Directory** in the left pane.
+3.	Select **Enterprise Applications**.
+4.	Type **Microsoft Teams** in the search box.
+5.	Copy the **Object ID** and **Application ID** against **Microsoft Teams** and save it for future use. Ensure that the Application Id is  `cc15fd57-2c6c-4117-a88c-83b1d56b4bbe` as this Id is same for every tenant.
+
+   > [!div class=mx-imgBorder]
+   > ![Microsoft Teams object and app Id](media/teams-object-appid.png "Microsoft Teams object and app Id")
+
+#### Step 2: Use PowerShell to remove Microsoft Teams Service Principal
+1.	Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
+![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
+
+2.	Select **Yes** on the **User Control** dialog to allow the application to make changes.
+3.	Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
+![Execute command](media/powershell2.png "Execute command")
+
+4.	PowerShell prompts whether to trust the repository. Type **Y** for yes and press **Enter**.  <br>
+![Execute command](media/powershell3.png "Execute command")
+
+5.	Type the `Connect-AzureAD` command in the PowerShell window, and press **Enter**.
+This establishes a connection with the tenant's Azure Active Directory, so you can manage it using Powershell.
+6.	Sign in to your organization as a tenant admin.
+7.	Type the `Remove-AzureADServicePrincipal -ObjectID <ObjectID>` command in the PowerShell window. Replace **<ObjectID>** with the object ID you had stored earlier. This command deletes the expired Teams service principal from Azure Active Directory.
+
+   > [!Note]
+   > Right click in the PowerShell window to paste the Object ID.
+
+The Microsoft Teams Service Principal has been removed from your organization. You can try to provision Omnichannel for Customer Service again.
+
 
 ## Chat widget icon does not load on the portal
 
