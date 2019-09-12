@@ -27,7 +27,7 @@ If your tenant has an expired Office 365 license, then the Omnichannel for Custo
 
 ### Resolution:
 
-To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**.
+To avoid the provisioning failure, you must remove the **Teams Service Principal** in **Azure Active Directory**. Follow the steps to remove **Teams Service Principal**.
 
 [Step 1: Identify Teams Service Principal in Azure Active Directory](#step-1-identify-teams-service-principal-in-azure-active-directory)
 
@@ -48,7 +48,7 @@ To avoid the provisioning failure, you must remove the **Teams Service Principal
 1.	Select **Start**, type **PowerShell**, and right-click **Windows PowerShell** and select **Run as administrator**.  <br>
 ![Run PowerShell as an administrator](media/powershell.png "Run PowerShell as an administrator")
 
-2.	Select **Yes** on the User Control dialog to allow the application to make changes.
+2.	Select **Yes** on the **User Control** dialog to allow the application to make changes.
 3.	Type the `Install-Module AzureAD` command in the Powershell window, and press **Enter**. This command installs the PowerShell commands for interacting with Azure Active Directory. <br>
 ![Execute command](media/powershell2.png "Execute command")
 
