@@ -11,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b0c0a758-2f03-4679-b81c-560779a6dc7d
 caps.latest.revision: 5
-author: brycho
-ms.author: brycho
+author: mduelae
+ms.author: mkaur
 search.audienceType: 
   - enduser
 search.app: 
@@ -33,14 +33,5 @@ Dynamics 365 Customer Engagement (on-premises) is “process-driven.” But what
 ## What if your business processes look different from these examples?  
  The system comes with business processes for common sales, service, and marketing tasks. However, most organizations customize these processes to match the way they do things. Or, you may have added processes to the system that have been customized for your industry or business goals. In other words, what you see here may not match exactly with the process bars you see on your system. But regardless, the process bars work the same for everyone. You enter data in the fields, and then move the customer to the next stage.
 
-## How do I customize the business processes for my business?
-[Watch a video (4:49) about Business Process flows](https://go.microsoft.com/fwlink/p/?linkid=842226). For more information, see the following topics in the customization guide:
-- [Business process flows overview](../customize/business-process-flows-overview.md)
-- [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)
-- [Create a business process flow](../customize/create-business-process-flow.md)   
-- [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) 
-  
-### See also  
- [Understanding how data is organized in Customer Engagement](../basics/how-data-organized.md)   
- [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md)   
- [Find your business apps](../basics/where-find-business-apps.md)   
+
+[Watch a video (4:49) about Business Process flows](https://go.microsoft.com/fwlink/p/?linkid=842226). For more information, see the 
