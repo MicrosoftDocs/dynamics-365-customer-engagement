@@ -48,7 +48,7 @@ The following are also confirmed by the check:
 - All dynamic expressions and HTML code must compile and generate valid values.
 - All referenced images must exist in Dynamics 365.
 - The To field must be an expression (not static) that results in a valid email address; this is normally handled automatically by the customer journey that sends the mail, but some advanced scenarios allow for customization here.
-- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). More information: [Authenticate your domains](marketing-settings.md#authenticate)
+- The from-address should use a domain that is authenticated and registered using DKIM as belonging to your organization. You can go live with a from-address that uses an unauthenticated domain, but you'll get a warning because this isn't recommended. You can't go live with a domain that is authenticated as belonging to another organization (this generates an error). More information: [Authenticate your domains](mkt-settings-authenticate-domains.md)
 
 <a name="go-live-journey"></a>
 

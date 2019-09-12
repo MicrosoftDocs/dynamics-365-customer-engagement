@@ -85,10 +85,10 @@ One of the most common online scams, also known as *phishing*, occurs when a fra
 
 When you send email from Dynamics 365 Marketing, your messages come from a domain owned by Microsoft (such as `contosomarketing.onmicrosoft.com`), but the from-address will probably belong to one of your own marketing, sales, or account managers using a more well-known domain that belongs to your organization (such as `you@contoso.com`). This discrepancy can be a red flag when an inbound email server does a DKIM check on incoming messages, which is why a full implementation of DKIM is so important for ensuring high deliverability, especially when you are using a third-party sending service like Dynamics 365 Marketing.
 
-Dynamics 365 Marketing helps you to generate, register, and confirm DKIM keys for each of your sending domains. See [Authenticate your domains](marketing-settings.md#authenticate) for instructions.
+Dynamics 365 Marketing helps you to generate, register, and confirm DKIM keys for each of your sending domains. See [Authenticate your domains](mkt-settings-authenticate-domains.md) for instructions.
 
 > [!IMPORTANT]
-> If your organization uses _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's extra important that you set up DKIM for your sending domains as described in [Authenticate your domains](marketing-settings.md#authenticate). This will help to prevent false positives during DMARC checks made by receiving systems.
+> If your organization uses _Domain-based Message Authentication, Reporting and Conformance_ ([DMARC](https://dmarc.org/wiki/FAQ)) to protect against phishing attacks involving your domain, then it's extra important that you set up DKIM for your sending domains as described in [Authenticate your domains](mkt-settings-authenticate-domains.md). This will help to prevent false positives during DMARC checks made by receiving systems.
 
 ## Test your deliverability
 

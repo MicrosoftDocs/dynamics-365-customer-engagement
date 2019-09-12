@@ -29,7 +29,7 @@ search.app:
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
-- **Profile segments** query the _profile_ records stored in the marketing-insights service. Profile records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#dci-sync).
+- **Profile segments** query the _profile_ records stored in the marketing-insights service. Profile records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
 
 - **Interaction segments** query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insights displays in the Dynamics 365 Marketing UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
@@ -65,7 +65,7 @@ Legend:
 1. **Value**: This is the value the clause will test for using the specified operator. With standard fields, this is free text, so you can type anything you like. Press return to add the value you've typed. After adding a value you can add more values by typing them and pressing return again. If you enter more than one value here, then the clause will find records that match any of these values (as if they were separate clauses combined with an OR operator). To remove a value from here, select its close icon, which looks like an X.
 
 > [!NOTE]
-> You can only select entities that are available to the marketing-insights service. If you need an entity that isn't listed, please ask your administrator to enable it. For instructions, see [Choose entities to sync with the marketing-insights service](marketing-settings.md#dci-sync).
+> You can only select entities that are available to the marketing-insights service. If you need an entity that isn't listed, please ask your administrator to enable it. For instructions, see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md).
 
 ### Build a clause that finds option-set values
 
@@ -89,7 +89,7 @@ When you're selecting the field name for a clause, lookup fields are shown under
 
 In the previous screenshot, you can see that the **Contact** entity has a field called **Company Name**, which comes from a related **Account** record.
 
-Provided the related entity is available to the marketing-insights service, you'll be able to select from among available values when you assign a value for your clause. In the previous example, you'd be able to choose from a list of available company names. If the related entity is not available to the marketing-insights service, then you'll have to look up and enter the [record ID](dynamic-email-content.md#record-ids) instead. Your administrator can add whatever entities you need to the marketing-insights service as required; for instructions, see [Choose entities to sync with the marketing-insights service](marketing-settings.md#dci-sync)
+Provided the related entity is available to the marketing-insights service, you'll be able to select from among available values when you assign a value for your clause. In the previous example, you'd be able to choose from a list of available company names. If the related entity is not available to the marketing-insights service, then you'll have to look up and enter the [record ID](dynamic-email-content.md#record-ids) instead. Your administrator can add whatever entities you need to the marketing-insights service as required; for instructions, see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md)
 
 Lookup fields also provide a special operator called **has**. Use this operator to test for the value of any field from the related entity, rather than just the value displayed by the local entity. For example, if you are querying the **Company Name (Account)** field of the **Contact** entity, you can use the **is/is in** operator to test for values of the **Name** field of the related account entity. But if you use the **has** operator, you can test for any field value from the related account record (such as **Address 1: City**). In the following illustration, this clause will find contacts who work for companies with street addresses in New York or Chicago.
 
@@ -136,7 +136,7 @@ For example:
 
 Here's an example of how to define a segment that starts by finding a collection of opportunities and, as usual, ends by finding the contacts that belong to that segment. In this example, we'll find contacts associated with opportunities with an estimated revenue over $10,000 and then build a relation to the contacts entity.
 
-1. If your Marketing instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](marketing-settings.md#dci-sync) for instructions.
+1. If your Marketing instance isn't already set up to sync the **Opportunity (opportunity)** entity with the marketing-insights service, talk to your admin about setting this up. If you are the admin, then see [Choose entities to sync with the marketing-insights service](mkt-settings-sync.md) for instructions.
 
 1. Go to **Marketing** > **Customers** > **Segments** and select **+ New** from the command bar. A new segment record opens with the **Definition** > **Designer** tab showing.  
     ![Close the default query group](media/segment-opportunity-close-group.png "Close the default query group")

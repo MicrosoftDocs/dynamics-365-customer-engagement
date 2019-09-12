@@ -60,7 +60,7 @@ You can use fields of the following types on personalized pages:
 
 ## Authenticate your external domains
 
-Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your Dynamics 365 Marketing instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with Dynamics 365 Marketing. For instructions, see [Authenticate your domains](marketing-settings.md#authenticate).
+Domain authentication helps ensure that your organization's websites (external domains) really do belong to your organization, and that your Dynamics 365 Marketing instance is authorized to interact with those domains and send marketing emails associated with them. It requires your system administrator to prove ownership of each domain by submitting signed certificates through the DNS system. Before you start developing a personalized page for your website, be sure to ask your system administrator whether your domain is authenticated for use with Dynamics 365 Marketing. For instructions, see [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
 For native marketing pages, which are designed in Dynamics 365 Marketing and run on your Dynamics 365 Portal, authentication is automatic, so you don't need to set up an authenticated domain for these.
 

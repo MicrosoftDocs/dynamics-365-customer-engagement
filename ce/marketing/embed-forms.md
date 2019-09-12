@@ -110,7 +110,7 @@ Because form prefilling requires the form to fetch contact values from your Dyna
 
 To create a form with prefilling that you can embed on an external website:
 
-1. Set up domain authentication for the external domain (website) where you will host your form and be sure to mark the **Enable prefilled forms** check box. You don't need to also enable email authentication on that domain, but you can. For instructions, see [Authenticate your domains](marketing-settings.md#authenticate-your-domains).
+1. Set up domain authentication for the external domain (website) where you will host your form and be sure to mark the **Enable prefilled forms** check box. You don't need to also enable email authentication on that domain, but you can. For instructions, see [Authenticate your domains](mkt-settings-authenticate-domains.md).
 
     ![Enable prefilling on an authenticated domain](media/authenticated-domains-prefill.png "Enable prefilling on an authenticated domain")
 

@@ -33,7 +33,7 @@ This document provides important, late-breaking information about known issues a
 
 ### Known issues
 
-- Some types of system customizations can interfere with the Dynamics 365 Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Default marketing settings](marketing-settings.md#default-marketing-settings) <!--1248465-->
+- Some types of system customizations can interfere with the Dynamics 365 Marketing setup, resulting in no default contact being created or assigned for your instance. In this case, you must assign one manually. More information: [Configure default marketing settings](mkt-settings-default-marketing.md) <!--1248465-->
 - The setup process can take up to two hours. The process might restart automatically during this time, which can result in multiple success (or failure) notifications being sent to you by email.
 - A known issue currently prevents you from running the setup wizard unless you have a Dynamics 365 license assigned to you on your tenant. However, although most of our customers do have this license, it's not actually required by the terms of the Dynamics 365 Marketing license agreement. As a temporary workaround, you can set up a trial Dynamics 365 instance (which will work for 30 days) and then install Marketing. You'll still need to convert your trial into a production instance before the 30 days are up, but this way you can start working in Marketing right away. More information: [Try Dynamics 365](../admin/try-dynamics-365-online.md). <!--- 1183223 -->
 
@@ -103,7 +103,7 @@ This document provides important, late-breaking information about known issues a
 ### Fixed issues
 
 - Form embedding code can now be copied from Firefox browser.<br><del>If you are using the Firefox web browser, then you can’t copy the code generated for embedding a marketing page on an external site. To work around this, use a different browser to accomplish this task. More information: [Embed a marketing form on your own website](embed-forms.md) </del><!--1392229-->
-- Editing matching strategies which are being used in Live forms is now prohibited.<br><del>Your marketing forms must include mandatory input fields for each of the fields required by your lead- and contact-matching strategies. If any of the fields required by a matching strategy isn’t present in a form submission, then no lead and/or contact record will be created or updated. More information: [Configure landing pages](marketing-settings.md#config-mkt-pages) and [Design elements for forms](content-blocks-reference.md#form-content-elements)</del> <!--1330191-->
+- Editing matching strategies which are being used in Live forms is now prohibited.<br><del>Your marketing forms must include mandatory input fields for each of the fields required by your lead- and contact-matching strategies. If any of the fields required by a matching strategy isn’t present in a form submission, then no lead and/or contact record will be created or updated. More information: [Configure landing pages](mkt-settings-landing-pages.md) and [Design elements for forms](content-blocks-reference.md#form-content-elements)</del> <!--1330191-->
 - Marketing pages from sample data go live for all organizations.<br><del>Marketing pages from the sample data might not go live for some organizations (especially on Italian or Japanese localizations). But you can still create new pages and go live with them. </del> <!-- 1156824 -->
 
 ## Reusable content blocks

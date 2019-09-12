@@ -71,7 +71,7 @@ The inbox preview is provided by a Microsoft partner called Litmus Software, Inc
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
 > [!NOTE]
-> Litmus must be enabled for your instance before you can use it. More information: [Default marketing settings](marketing-settings.md#marketing-configuration)
+> Litmus must be enabled for your instance before you can use it. More information: [Configure default marketing settings](mkt-settings-default-marketing.md)
 
 ## Send a test message
 

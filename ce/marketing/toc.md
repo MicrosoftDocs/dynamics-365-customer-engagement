@@ -28,7 +28,19 @@
 ##### [Manage Excel templates](manage-excel-templates.md)
 ##### [Manage Word templates](manage-word-templates.md)
 #### [Business Management settings](business-management-settings.md)
-#### [Marketing settings](marketing-settings.md)
+
+#### Marketing settings
+##### [Marketing settings overview](marketing-settings.md)
+##### [Configure lead scoring options](mkt-settings-lead-score-options.md)
+##### [Authenticate your domains](mkt-settings-authenticate-domains.md)
+##### [Marketing analytics configuration](mkt-settings-analytics.md)
+##### [Configure landing pages](mkt-settings-landing-pages.md)
+##### [Sync with the marketing-insights service](mkt-settings-sync.md)
+##### [Set matching strategies](mkt-settings-matching.md)
+##### [Default marketing settings](mkt-settings-default-marketing.md)
+##### [Configure your social media accounts](mkt-settings-social-media.md)
+##### [Data protection tools](mkt-settings-data-protection.md)
+
 #### [Event management settings](events-settings.md)
 #### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 #### [Manage sample data](additional-settings.md)

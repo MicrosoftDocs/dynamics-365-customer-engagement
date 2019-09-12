@@ -30,7 +30,7 @@ search.app:
 Dynamics 365 Marketing can schedule and post messages directly to your organization's accounts on social media sites. Use the **Social posts** settings to author and schedule your posts.
 
 > [!NOTE]
-> Before you can start publishing messages, your administrator must configure and authenticate each social-media account that you will publish to.  More information: [Configure your social media accounts](marketing-settings.md#config-social)
+> Before you can start publishing messages, your administrator must configure and authenticate each social-media account that you will publish to.  More information: [Configure your social media accounts](mkt-settings-social-media.md)
 
 ## Schedule and post a message
 
@@ -47,8 +47,8 @@ To schedule and publish a message to one of your social-media channels:
 
 1. A new social post record is created. Make the following settings:
     - **Name**: Enter an internal name for the post. This name will be shown on the calendar, but won't appear in the post itself.
-    - **Select a channel**: Choose the social channel on which to post your message (such as Facebook, LinkedIn, or Twitter). This drop-down list only shows those channels that your administrator has set up in Dynamics 365 Marketing. If you don't see the channel you are looking for, please contact your admin. More information: [Configure your social media accounts](marketing-settings.md#config-social)
-    - **Posting from**: Select the specific account through which to post your message. This drop-down list shows each account that your admin has set up and authenticated in Dynamics 365 Marketing for the selected channel. If you don't see the account you are looking for, please contact your admin. More information: [Configure your social media accounts](marketing-settings.md#config-social)
+    - **Select a channel**: Choose the social channel on which to post your message (such as Facebook, LinkedIn, or Twitter). This drop-down list only shows those channels that your administrator has set up in Dynamics 365 Marketing. If you don't see the channel you are looking for, please contact your admin. More information: [Configure your social media accounts](mkt-settings-social-media.md)
+    - **Posting from**: Select the specific account through which to post your message. This drop-down list shows each account that your admin has set up and authenticated in Dynamics 365 Marketing for the selected channel. If you don't see the account you are looking for, please contact your admin. More information: [Configure your social media accounts](mkt-settings-social-media.md)
     - **Post visibility**: This setting only appears when you are posting to LinkedIn. Use this setting to control who can see this post. Choose **Public** to allow all LinkedIn users to see the post. Choose **Connections** to limit post visibility to users that have connected with the LinkedIn account you are posting through.
     - **Add post**: Enter the text content of your post here.
     - **Media**: If you'd like to include an image with yoru post, select the **Select file** button ![Select file button](media/select-file-button.png "Select file button") here to open the file gallery dialog and use it to select or upload an image to include with your post. To remove an image already selected here, select its thumbnail image and then select the **Remove file** button ![Remove file button](media/remove-file-button.png "Remove file button") in the corner of the thumbnail.

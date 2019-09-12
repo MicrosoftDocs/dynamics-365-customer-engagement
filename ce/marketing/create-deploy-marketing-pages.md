@@ -150,7 +150,7 @@ More information: [Analyze results to gain insights from your marketing activiti
 
 ## Configure marketing page defaults and matching strategies
 
-Administrators can choose settings that control several aspects of the way all marketing pages function on your instance and the way they match incoming page submissions to existing contacts and leads. More information: [Configure marketing pages](marketing-settings.md#config-mkt-pages)
+Administrators can choose settings that control several aspects of the way all marketing pages function on your instance and the way they match incoming page submissions to existing contacts and leads. More information: [Configure landing pages](mkt-settings-landing-pages.md)
 
 ## Privacy notice
 

@@ -29,7 +29,7 @@ search.app:
 
 The segmentation tool always works in one of two modes, which enable it to create either of the following two types of segments:
 
-- **Profile segments** query the _profile_ records stored in the marketing-insights service. Profile records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](marketing-settings.md#matching-strategy).
+- **Profile segments** query the _profile_ records stored in the marketing-insights service. Profile records are synced between your Dynamics 365 organizational database and the marketing-insights service and include the entities you normally work with in the Dynamics 365 UI, such as contacts, accounts, leads, and any other entities that you [choose to sync](mkt-settings-sync.md).
 
 - **Interaction segments** query the _interaction_ records stored in the marketing-insights service. Each of these records is generated automatically and related to a specific contact record. Interaction records are accessed to generate various insight displays in the Dynamics 365 UI, but they _aren't_ synced to the Dynamics 365 organizational database. They are generated in response to contact interactions, such as opening an email, clicking an email link, submitting a form, or registering for an event.
 
