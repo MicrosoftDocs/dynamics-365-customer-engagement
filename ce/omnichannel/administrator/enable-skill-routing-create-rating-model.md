@@ -1,5 +1,5 @@
 ---
-title: "Enable skill based routing and create rating model | MicrosoftDocs"
+title: "Enable skill-based routing and create rating model | MicrosoftDocs"
 description: "Learn about how to enable skill-based routing and create rating model in Omnichannel for Customer Service app." 
 keywords: ""
 author: kabala123
@@ -13,15 +13,15 @@ ms.assetid: 4571EB48-E64E-4472-8F9F-BC55B748F972
 ms.custom: 
 ---
 
-# Enable skill based routing and create rating model
+# Enable skill-based routing and create rating model
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Enable skill based routing
+## Enable skill-based routing
 
-To use skill based routing, as an administrator, you must enable skill based routing in the Omnichannel for administrator app.
+To use skill-based routing, as an administrator, you must enable skill-based routing in the Omnichannel for administrator app.
 
-To enable skill based routing, follow these steps:
+To enable skill-based routing, follow these steps:
 
 1. Sign in to the Omnichannel for Administrator app.
 
@@ -93,7 +93,7 @@ For example:
 
 ## See also
 
-[Overview of skill based routing](overview-skill-work-distribution.md)
+[Overview of skill-based routing](overview-skill-work-distribution.md)
 
 [Set up skills and assign agents](setup-skills-assign-agents.md)
 

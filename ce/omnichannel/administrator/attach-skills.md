@@ -17,13 +17,16 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Understand skill and context variables
+## Understand skill
 
 In the portal, when the customer fills the pre-chat survey questions, the system receives these as context variables. The omnichannel system attaches these variables to the incoming conversation as a skill, and then the work distribution engine matches the skills of the agents based on the exact or closest match criteria. Once the skill attached to the conversation matches with the skill of an agent, then the work distribution engine assigns the conversation to that agent.
 
 For example:
 
-Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso contact center. The pre-chat survey question prompts Ian Madera to choose a device, and Ian Madera chooses **Xbox**. As Ian Madera's geolocation is Spain, the Omnichannel system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent finds an agent with skill as **Xbox** and **Spanish**.
+Ian Madera, a customer from Spain, uses **Xbox** product and goes to **www.contoso.com** portal to initiate a chat with the Contoso contact center. The pre-chat survey question prompts Ian Madera to choose a device, and Ian Madera chooses **Xbox**. As Ian Madera's geolocation is Spain, the Omnichannel system attaches the **Xbox** product and **Spanish** language as the skill to the conversation. After the skill attachment, the work distribution engine assigns the conversation to an agent with skill as **Xbox** and **Spanish**.
+
+> [!Note]
+> The system attaches the skills to a conversation based on the skill attachment rules.
 
 ## Prerequisites
 
@@ -76,11 +79,11 @@ To attach skills, you need a workstream record. Either you can create or use an 
     > ![Add skill rule to workstream](../media/attach-skill2.png "Add skill rule to workstream")
 
 
-## Enable the queues for skill based routing
+## Enable the queues for skill-based routing
 
-After you set up skill attachment rules for a workstream, you must enable skill based routing for the queues that are related to the a particular workstream. If you don't enable the queues for skill based routing, the system wouldn't route the conversation based on the skills of the agents in that particular queue.
+After you set up skill attachment rules for a workstream, you must enable skill-based routing for the queues that are related to the a particular workstream. If you don't enable the queues for skill-based routing, the system wouldn't route the conversation based on the skills of the agents in that particular queue.
 
-To enable the queue for skill based routing, follow these steps.
+To enable the queue for skill-based routing, follow these steps.
 
 1. Sign in to the **Omnichannel for Administrator** app.
 
@@ -92,8 +95,8 @@ To enable the queue for skill based routing, follow these steps.
 
 ## See also
 
-[Overview of skill based routing](overview-skill-work-distribution.md)
+[Overview of skill-based routing](overview-skill-work-distribution.md)
 
-[Enable skill based routing and create rating model](enable-skill-routing-create-rating-model.md)
+[Enable skill-based routing and create rating model](enable-skill-routing-create-rating-model.md)
 
 [Set up skills and assign agents](setup-skills-assign-agents.md)
