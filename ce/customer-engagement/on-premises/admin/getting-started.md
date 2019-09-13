@@ -1,7 +1,7 @@
 ---
-title: "Getting started with Customer Engagement | MicrosoftDocs"
+title: "Getting started with Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,8 +23,4 @@ search.app:
 ---
 # Getting started
 
-*This content also applies to the on-premises version.*
-
-[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
-
-As a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator, you’ll find the information that you need here to get your organization started with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+As a Dynamics 365 Customer Engagement (on-premises) administrator, you’ll find the information that you need here to get your organization started with Customer Engagement (on-premises).  

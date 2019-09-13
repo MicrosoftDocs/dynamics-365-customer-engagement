@@ -1,7 +1,7 @@
 ---
-title: "Onboarding Cheat Sheet for Dynamics 365 for Customer Engagement apps Admins | MicrosoftDocs"
+title: "Onboarding Cheat Sheet for admins | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,15 +22,13 @@ search.app:
 ---
 # Onboarding cheat sheet for admins
 
-*This content also applies to the on-premises version.*
-
-Here are the seven steps to getting your organization on board with Dynamics 365 for Customer Engagement, and links to guides  to help you complete each step. And if you haven't already seen it, check out the video for an overview of these seven steps to onboarding success.  
+Here are the seven steps to getting your organization on board with Dynamics 365 Customer Engagement (on-premises), and links to guides  to help you complete each step. And if you haven't already seen it, check out the video for an overview of these seven steps to onboarding success.  
   
 <a name="heroArea"></a> [![Thumbnail for admin onboarding video](../admin/media/thumbnail-admin-onboarding-video.png "Thumbnail for admin onboarding video")](https://go.microsoft.com/fwlink/?linkid=835697)  
   
 ## Step one: Add your people 
   
--   [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
+-   [Create users and assign security roles](create-users-assign-online-security-roles.md)
   
 ## Step two: Set up email  
   
@@ -38,7 +36,7 @@ Here are the seven steps to getting your organization on board with Dynamics 365
   
 ## Step three: Get mobile apps 
   
--   [Dynamics 365 for Customer Engagement apps for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
+-   [Dynamics 365 for phones and tablets User's Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)  
   
 ## Step four: Customize your system  
   
