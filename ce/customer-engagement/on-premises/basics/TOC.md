@@ -1,5 +1,4 @@
 # [Basics Guide](../basics/basics-guide.md)
-## [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md)
 ## [Find your business apps](../basics/where-find-business-apps.md)
 ## [How data is organized](../basics/how-data-organized.md)
 ## [What are business processes](../basics/what-are-business-processes.md)
@@ -76,7 +75,7 @@
 #### [Use the personal dashboard](teams-personal-use.md)
 ### [Troubleshoot](teams-troubleshoot.md)
 ### [Delete personal data](teams-delete-data.md)
-## [Yammer](../basics/collaborate-communicate-with-yammer.md)
+
 <!-- ## [Collaborate with GigJam](../basics/collaborate-real-time-with-gigjam.md) -->
 ## [Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md)
 ## [Office 365 Groups FAQ](../basics/office-365-groups-dynamics-365-faqs.md)
