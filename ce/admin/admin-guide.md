@@ -24,6 +24,4 @@ search.app:
 # Administer Dynamics 365 (online)
 
 > [!NOTE]
-> This content is for Dynamics 365 (online) version 9.0, or later. For documentation for earlier versions, see [Administering Dynamics 365](https://technet.microsoft.com/library/dn531101.aspx).
-
-Implementers and administrators for Dynamics 365 (online) will find the resources and topics provided in this guide to help you manage and configure Dynamics 365 applications and services.
+> The content in this guide is for existing subscribers still using the Dynamics 365 Admin center. We are transitioning instance management (now called environments) to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). See [Administer PowerApps](https://docs.microsoft.com/en-us/power-platform/admin/admin-guide).
