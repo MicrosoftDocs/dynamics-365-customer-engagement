@@ -91,8 +91,4 @@ search.app:
   
  To set it up, see [Deploy Office 365 Groups](../admin/deploy-office-365-groups.md).  
   
-### See also  
- [Office 365 Groups in Dynamics 365 for Customer Engagement apps FAQs](../basics/office-365-groups-dynamics-365-faqs.md)   
- [Blog: Dynamics CRM Online connector for Office 365 Groups](http://blogs.msdn.microsoft.com/crm/2016/04/01/dynamics-crm-online-connector-for-office-365-groups/)   
- [Find more help about Office 365 Groups](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)   
- [Deploy Office 365 Groups](../admin/deploy-office-365-groups.md)
+
