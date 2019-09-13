@@ -120,7 +120,7 @@ _serviceProxy.EnableProxyTypes()
 
 - [FaultException](https://msdn.microsoft.com/library/system.servicemodel.faultexception.aspx) \<<xref:Microsoft.Xrm.Sdk.DiscoveryServiceFault>>  
 
-  For more information, see the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)][WCF documentation](https://msdn.microsoft.com/library/ms789039.aspx) about how to handle WCF faults and exceptions. See [Use the IOrganizationService Sample and Helper Code](org-service/use-sample-helper-code.md) for additional sample code.  
+  For more information, see the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] [WCF documentation](https://msdn.microsoft.com/library/ms789039.aspx) about how to handle WCF faults and exceptions.  
 
 <a name="bkmk_saml"></a>   
 ## Additional information about the security (SAML) token  
