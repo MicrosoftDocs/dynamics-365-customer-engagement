@@ -1,6 +1,6 @@
 ---	
 title: "Create multiple workstreams for entity records routing | MicrosoftDocs"	
-description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel for Administrator app."	
+description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."	
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -63,7 +63,7 @@ After enabling entity record channel for cases by creating workstream, create ro
 >
 > - You can’t edit an active routing rule set. Therefore, if you’re importing a solution that includes an active routing rule set into an organization where the rule already exists with the same ID, the solution import will fail.
 
-1. Sign in to the Omnichannel for Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 

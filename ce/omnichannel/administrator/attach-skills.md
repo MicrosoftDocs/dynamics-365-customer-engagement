@@ -86,7 +86,7 @@ To attach skills, you need a workstream record. Either you can create or use an 
 
 ## Create rules to attach skill
 
-1. Sign in to the **Omnichannel for Administrator** app.
+1. Sign in to the **Omnichannel Administration** app.
 
 2. Select **Work Streams** under **Work Distribution Management**.
 
@@ -137,7 +137,7 @@ After you set up skill attachment rules for a workstream, you must enable skill-
 
 To enable the queue for skill-based routing, follow these steps.
 
-1. Sign in to the Omnichannel Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Skills** under **Users & Queues** in the sitemap.
 

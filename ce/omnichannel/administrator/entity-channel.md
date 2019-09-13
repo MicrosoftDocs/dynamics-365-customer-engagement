@@ -1,6 +1,6 @@
 ---	
 title: Entity records routing using entity records channel | MicrosoftDocs	
-description: Learn how you can route cases automatically using entity records channel in the Omnichannel for Administrator app.		
+description: Learn how you can route cases automatically using entity records channel in the Omnichannel Administration app.		
 author: kabala123	
 ms.author: kabala	
 manager: shujoshi	
@@ -24,7 +24,7 @@ ms.custom:
 
 ## Overview
  
-In Omnichannel for Administrator, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
+In Omnichannel Administration, **Entity Records** channel helps you to automatically route cases and other entity records to agents based on the agent's capacity and availability.
 
 > [!Note]
 > Only case entity record is supported in this release. Other entity records routing will be supported in future releases.
@@ -77,7 +77,7 @@ After enabling entity record channel for cases by creating workstream, create ro
 > [!Note]
 > To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
 
-1. Sign in to the Omnichannel for Administrator app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Entity Records** under **Channels** in the sitemap.
 

@@ -28,7 +28,7 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel users in 
 
 ## Manage a user in Omnichannel
 
-1. Sign in to the **Omnichannel for Administrator** app.
+1. Sign in to the **Omnichannel Administration** app.
 
 2. Select **Users** under **Queues & Users**.
 

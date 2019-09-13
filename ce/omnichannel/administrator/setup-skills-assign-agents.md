@@ -53,7 +53,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 After you create skill type, you can create skills.
 
-1. Sign in to the **Omnichannel for Administrator** app.
+1. Sign in to the Omnichannel Administration app.
 
 2. Select **Skills** in under **Users & Queues** in the sitemap.
 
@@ -69,11 +69,11 @@ After you create skill type, you can create skills.
 
 5. Select **Save**. 
 
-After you save, the **Agents** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill)
+After you save, the **Agents** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
 
 ### Assign agents to skill
 
-1. Sign in to the **Omnichannel for Administrator** app.
+1. Sign in to the **Omnichannel Administration** app.
 
 2. Select **Skills** in under **Users & Queues** in the sitemap.
 
@@ -85,7 +85,7 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 6. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](enable-skill-routing-create-rating-model.md#rating-value-of-skills).
 
-7. Select **Save and Close**.
+7. Select **Save and Close** to save and add the user (agent) to the grid.
 
     > [!div class=mx-imgBorder] 
     > ![Assign agents to skill](../media/assign-user-skill.png "Assign agents to skill")
