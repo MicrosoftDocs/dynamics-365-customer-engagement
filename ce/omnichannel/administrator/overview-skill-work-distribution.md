@@ -52,7 +52,7 @@ When a customer initiates a conversation the following happens:
 - You must use the latest Omnichannel for Customer Service (October 2019 update).
 - If your environment has scheduling solutions, then the it must have a version not lower than \<version\> and not higher than \<version\>.
 
-## skill-based routing overview steps
+## Skill-based routing overview steps
 
    > [!div class=mx-imgBorder] 
    > ![skill-based routing set up](../media/skill-based-routing2.png "skill-based routing set up")
