@@ -203,7 +203,7 @@ To set up a form capture:
 When a form-capture form is live, all it's settings are read only. If you update your external form or need to edit your form-capture form for any reason, do the following:
 
 1. Open the relevant marketing form record.
-1. Select **Edit** on the command bar to put the record into live-edit mode. (The form remains active in this mode.)
+1. Select **Edit** on the command bar to put the record into the live-edit state. (The form remains active in this state.)
 1. You can now make changes on the **Summary** tab as needed, but the field mappings on the **Design** tab remain locked. If you need to edit the field mappings, select **Sync form** on the command bar to load the latest version of your external form and unlock these settings.
 1. Select **Save** on the command bar when you're done editing the record. Your changes are saved and the form goes live again automatically. (Select **Cancel edit** to discard your unsaved changes and go back to the live state.)
 

@@ -43,7 +43,7 @@ To enable segment boost for an existing customer journey:
 
 1. When you're done designing the journey, select **Go Live** from the command bar if the journey isn't live already. (You can only enable segment boost for journeys that are already live.)
 
-1. Select **Edit** on the command bar to put your journey in live-edit mode.
+1. Select **Edit** on the command bar to put your journey in the live-edit state.
 
 1. On the **Designer** tab, select the **Segment group** tile that starts the journey, go to the **Properties** panel, and select the **Boost audience** button.
 
