@@ -1017,8 +1017,6 @@
       href: sample-install-remove-sample-data.md
 - name: Sample code directory
   href: sample-code-directory.md
-- name: Online Management API
-  href: online-management-api/
 - name: Programming reference
   href: programming-reference.md
   items:
@@ -1040,15 +1038,9 @@
     href: https://docs.microsoft.com/dotnet/api/?view=dynamics-outlookclient-ce-9
   - name: Deployment Service 9.0
     href: https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9
-  - name: Online Management API Reference
-    href: https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com
   - name: Client API Reference
-    href: clientapi/reference.md
+    href: https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference
   - name: Schemas used in Dynamics 365
     href: schemas-used-dynamics-365.md
   - name: Customization XML reference
     href: customization-xml-reference.md
-- name: Developer Guide for Connected Field Service
-  href: ../field-service/developer/connected-field-service-developer-guide.md
-- name: Channel Integration Framework Guide for Dynamics 365
-  href: channel-integration-framework/channel-integration-framework.md
