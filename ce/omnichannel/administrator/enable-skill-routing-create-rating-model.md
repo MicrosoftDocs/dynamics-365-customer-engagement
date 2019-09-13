@@ -36,7 +36,17 @@ To enable skill-based routing, follow these steps:
 
 3. Select **Yes** for the **Enable Skill Based Routing** field.
 
-4. Select a rating model from the list for the **Rating Model** field. <br> By default, **Default Rating Model** appears if your environment has Universal Resource Scheduling. <br> If there is no rating mode, create a new rating model. To learn more, see [Create new rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+4. Select a rating model from the list for the **Rating Model** field. <br> By default, **Default Rating Model** appears if your environment has Universal Resource Scheduling. <br> If there is no rating mode, create a new rating model. To learn more, see [Create rating model](enable-skill-routing-create-rating-model.md#create-rating-model).
+
+    After you select a rating model, the Rating Model Details section displays the **Name**, **Min Rating Value**, **Max Rating Value** and the **Rating Values (Rating Model)** grid.
+
+    You can add a new rating value in the grid itself. To add, follow these steps:
+
+        1. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
+
+        2. Specify a name and value.
+
+        3. Select **Save and Close** to save and add the rating value.
 
 5. Select **Save**.
 
@@ -52,7 +62,10 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 
-3. Select **+ New** in the **Routing Model** lookup option. The **New Rating Model** page appears.
+3. Select **+ New** in the **Rating Model** lookup option to add a new rating model. The **New Rating Model** page appears. By default, **Default Rating Model** option is displayed out-of-the-box.
+ 
+    > [!div class=mx-imgBorder] 
+    > ![Create new rating model](../media/rating-model1.png "Create new rating model")
 
 4. Specify the following in the **New Rating Model** page.
 
@@ -64,20 +77,20 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 5. Select **Save** to save the rating model. After you save, the **Rating Values** section appears.
 
-6. Select **+ Add New Rating Value**. The **Rating Value** page appears.
+6. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
 7. Specify the following in the **Rating Value** page.
 
-    | Tab | Field | Description | value  |
-    |------------|-----------------|----------------|--------------------------------------------|
-    | General | Name | Specify a name for the rating model. | Very Good <br> **Note:** <br>This is an example value.|
-    | General | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
-    | General | Is Default | Set this rating value as a default value while defining the proficiency level. | Yes |
+    | Field | Description | value  |
+    |-----------------|----------------|--------------------------------------------|
+    | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
+    | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
 
-8. Select **Save** to save the rating value.
+8. Select **Save and Close** to save and add the rating value to the grid.
 
 9. Select **+ New** to add other rating values and repeat step 7 and 8.
 
+10. Select **Save** to save the rating model changes.
 
 ### Recommended proficiency level
 

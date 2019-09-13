@@ -79,7 +79,7 @@ After you save, the **Agents** section appears. In this section, you add the age
 
 3. Select a skill from the list for which you want to assign the agents.
 
-4. Select **+ Add New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
+4. Select **+ Add** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
 5. Select an agent name for the **User (Agent)** field.
 

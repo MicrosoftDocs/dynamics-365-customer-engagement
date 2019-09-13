@@ -53,7 +53,7 @@ Skill-based routing allows you to easily match the conversation to the agent mos
 
 When a customer initiates a conversation, the following happens:
 
- - Based on the conditions, the system attaches the skills to the conversation. 
+ - Based on the skill attachment rules, the system attaches the skills to the conversation. 
  - Based on the routing rules, the system routes the conversation to the appropriate queue.
  - Now, the work distribution system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
 
