@@ -96,8 +96,10 @@ To attach skills, you need a workstream record. Either you can create or use an 
 
 5. Select a skill matching option for the **Matching Logic** field. You can select one of the following:
 
-    - Exact Skill Matching
-    - Closest Skill Matching
+    - [Exact Skill Matching](attach-skills.md#exact-skill-matching)
+    - [Closest Skill Matching](attach-skills.md#closest-skill-atching)
+
+    To learn more, see [Match skills](attach-skills.md#match-skills).
 
 6. Select **+ Add** to new a skill rule. The **SKILL ATTACHMENT RULE** page opens.
 
@@ -116,14 +118,14 @@ To attach skills, you need a workstream record. Either you can create or use an 
 
 9. Select **Save** to save the record. After you save, the **Skill** section appears.
 
-9. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
+10. Select **+ Add Existing Skill**. The **Quick Create: Attach Skill** pane appears.
 
-10. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close**.
+11. Select a skill from the lookup menu, and select a proficiency level from the list, and then select **Save and Close** to save and add the skill to the grid.
 
     > [!div class=mx-imgBorder] 
     > ![Attach skill to a conversation](../media/attach-skill1.png "Attach skill")
 
-    If the condition matches, then the Omnichannel system attaches the skill.
+    If the condition (criteria) matches, then the Omnichannel system attaches the skill.
 
 11. Select **Save**. After you save, the rule appears in the **Attach Rules** section of the workstream.
 
