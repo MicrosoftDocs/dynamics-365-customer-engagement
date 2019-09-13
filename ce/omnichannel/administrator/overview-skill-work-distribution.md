@@ -16,11 +16,18 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-In the customer service center, your agents have different skill sets and abilities. The customers who reaches out to the contact center might have different needs. Skills based routing lets your customer service center distribute the work item (conversation) to the best-qualified agent who is best able to solve the issue. Skills-based routing improves the quality of customer service by automatically distributing the work items to the agent who has the skills necessary to do the work.
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - A preview is a feature that is not complete, as it may employ reduced privacy, security, and/or compliance commitments, but is made available before it is officially released for general availability so customers can get early access and provide feedback. Previews are provided “as-is,” “with all faults,” “as available,” and without warranty.​
+> - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
+> - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
+
+In the customer service center, your agents have different skillsets and abilities. The customers who reach out to the contact center might have different needs. Skills based routing lets your customer service center distribute the work item (conversation) to the best-qualified agent who is best able to solve the issue. Skills-based routing improves the quality of customer service by automatically distributing the work items to the agent who has the skills necessary to do the work.
 
 For example, for an incoming conversation related to **Xbox** from Spain, the skill required is knowledge of the **Xbox** product and **Spanish** language. Now, with skill-based routing, the system identifies the agents with specific skill and the distributes the conversation to the agent.
 
-skill-based routing allows you to easily match conversation to the agent most proficient in dealing with them in your group, while simultaneously maintaining the load that the agent has to work with. You can associate distinct skills to each agent on your team and create rules to make sure that conversations matching those skills are always assigned to them.
+Skill-based routing allows you to easily match the conversation to the agent most proficient in dealing with them while maintaining the workload of the agent. You can associate distinct skills to each agent on your team and create rules to make sure that conversations matching those skills are always assigned to them.
 
 ## Value proposition of skill-based routing
 
@@ -41,16 +48,16 @@ skill-based routing allows you to easily match conversation to the agent most pr
    > [!div class=mx-imgBorder] 
    > ![skill-based routing](../media/skill-based-routing1.png "skill-based routing")
 
-When a customer initiates a conversation the following happens:
+When a customer initiates a conversation, the following happens:
 
  - Based on the conditions, the system attaches the skills to the conversation. 
  - Based on the routing rules, the system routes the conversation to the appropriate queue.
- - Now, the work distribution engines starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
+ - Now, the work distribution system starts matching the agents' skills with those skills attached to the conversation. After finding a match as per the match criteria (exact or closest), the work distribution engine assigns the conversation to the agent.
 
 ## Prerequisites
 
 - You must use the latest Omnichannel for Customer Service (October 2019 update).
-- If your environment has scheduling solutions, then the it must have a version not lower than \<version\> and not higher than \<version\>.
+- If your environment has scheduling solutions, then it must have a version not lower than \<version\> and not higher than \<version\>.
 
 ## Skill-based routing overview steps
 
@@ -63,7 +70,7 @@ When a customer initiates a conversation the following happens:
 - [Step 4: Create skills](setup-skills-assign-agents.md#create-skills)
 - [Step 5: Assign agent to skills](setup-skills-assign-agents.md#assign-agents-to-skill)
 - [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-skill)
-- [Step 7: Enable skill-based routing in queues](attach-skills.md#enable-the-queues-for-skill-based-routing)
+- [Step 7: Enable skill-based routing in queues](attach-skills.md#enable-queues-for-skill-based-routing)
 
 
 ## See also
