@@ -45,7 +45,7 @@ Navigate to **Queues & Users > Users** to view the list of Omnichannel users in 
     | User Details | Capacity | Allocate capacity to agent. | 100 |
     | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel app. | 
 
-6. Select **+ Add Existing Skill** under the **Skills** section. **Quick create: Skills** pane appears.
+6. Select **+ Add Bookable Resource Characteristic** under the **Skills** section. **New Bookable Resource Characteristic** page appears.
 
 7. Select a skill and proficiency of the from the list.
 
