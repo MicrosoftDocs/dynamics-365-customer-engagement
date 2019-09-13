@@ -29,7 +29,7 @@ search.app:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
 
-Dynamics 365 Marketing is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDEDynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
+Dynamics 365 Marketing is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDE Dynamics 365 Sales, and has built-in business intelligence. Use Dynamics 365 Marketing to:
 
 - **Create graphical email messages and online content to support marketing initiatives**  
   Customizable templates for emails and landing pages help amplify your digital voice. Intuitive drag-and-drop design tools simplify content creation—from personalizing the message to setting up lead scoring.
