@@ -26,11 +26,11 @@ ms.custom:
 
 ## Enable skill-based routing
 
-To use skill-based routing, as an administrator, you must enable skill-based routing in the Omnichannel for administrator app.
+To use skill-based routing, as an administrator, you must enable skill-based routing in the Omnichannel Administrator app.
 
 To enable skill-based routing, follow these steps:
 
-1. Sign in to the Omnichannel for Administrator app.
+1. Sign in to the Omnichannel Administrator app.
 
 2. Select **Skill Based Routing** under **Settings** in the sitemap.
 

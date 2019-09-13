@@ -23,6 +23,9 @@ ms.custom:
 > - This preview features does not come with technical support and Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions.  If Microsoft does elect to provide any type of support, such support is provided "as is," "with all faults," and without warranty, and may be discontinued at any time.​
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk.  All previews are subject to separate [Terms and Conditions](../../legal/dynamics-insider-agreement.md).
 
+> [!Note]
+> The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel are shared between other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel.
+
 In the customer service center, your agents have different skillsets and abilities. The customers who reach out to the contact center might have different needs. Skills based routing lets your customer service center distribute the work item (conversation) to the best-qualified agent who is best able to solve the issue. Skills-based routing improves the quality of customer service by automatically distributing the work items to the agent who has the skills necessary to do the work.
 
 For example, for an incoming conversation related to **Xbox** from Spain, the skill required is knowledge of the **Xbox** product and **Spanish** language. Now, with skill-based routing, the system identifies the agents with specific skill and the distributes the conversation to the agent.
