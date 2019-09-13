@@ -2,14 +2,14 @@
 title: "Manage SharePoint documents in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Store your documents on SharePoint, and manage them from within your app."
 keywords: document, SharePoint, share, manage
-ms.date: 10/24/2017
+ms.date: 9/15/2019
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 for Customer Engagement apps
 ms.assetid: 247ced8f-f79f-4447-8690-3c22c1489544
-author: jimholtz
-ms.author: jimholtz
+author: mduelae
+ms.author: mkaur
 manager: kvivek
 topic-status: Editing
 search.audienceType: 
@@ -18,10 +18,9 @@ search.app:
   - D365CE
 ---
 
-# Manage your SharePoint documents and document locations from Dynamics 365 Customer Engagement (on-premises)
+# Manage your SharePoint documents and document locations from Dynamics 365 Customer Engagement (on-premises).
 
-[//]: # (Editor's note, just in case my deleting the comma below seems arbitrary: The comma in the Description metadata field above separates two complete sentences, so it's a perfect place for the comma. In the sentence below, the introductory clause "With Dynamics 365 Customer Engagement (on-premises)" turns the rest of the sentence into a clause itself, so no comma is needed to divide the two ideas.)
-With [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)], you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] and manage them from within your app.
+With Dynamics 365 Customer Engagement (on-premises), you can store your documents on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] and manage them from within your app.
 
 The documents that you create in [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] are stored on [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)], and are automatically synced to your desktop and mobile devices.
 
@@ -179,5 +178,4 @@ When you select one or more documents in the Documents list, you can take the fo
 
 -   Edit properties
 
-### See also
-[Configure Dynamics 365 Customer Engagement (on-premises)for Sales to integrate with SharePoint](../admin/set-up-sharepoint-integration.md)  
+

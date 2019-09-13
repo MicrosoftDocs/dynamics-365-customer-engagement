@@ -1,5 +1,5 @@
 ---
-title: "Understanding how data is organized (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Understanding how data is organized (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -11,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 70c55a33-dd08-44bc-bb9c-0f3732aa30a9
 caps.latest.revision: 5
-author: brycho
-ms.author: brycho
+author: mduelae
+ms.author: mkaur
 search.audienceType: 
   - enduser
 search.app: 
@@ -62,4 +62,4 @@ different names for the types of records, because your organization calls that t
 
 ### See also  
  [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)   
- [What are business processes?](../basics/what-are-business-processes.md)
+

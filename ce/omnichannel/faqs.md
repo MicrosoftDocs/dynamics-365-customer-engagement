@@ -81,7 +81,7 @@ New conversation (chat) requests will be assigned to an agent when:
 
 If more than one agent meets the above conditions, they will be assigned chats in this order:
 -	The agent with the most remaining capacity will receive the chat first.
--	If multiple agents have the same remaining capacity, the agent with the most recent capacity change, such as a newly assigned chat or a newly closed chat, will receive the chat.
+-	If multiple agents have the same remaining capacity, the agent who has not been assigned work item for a longer duration will receive the new conversation request.
 
 ### Who can see internal messages?
 Agents and supervisors can see internal messages. The customer can’t see internal messages.

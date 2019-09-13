@@ -1,7 +1,7 @@
 ---
-title: "Use the workplace calendar (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Use the workplace calendar (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 09/15/2018
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -11,9 +11,9 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 20ba9141-2816-4311-ade2-97dafd86e2bf
 caps.latest.revision: 28
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
+author: mduelae
+ms.author: mkaur
+manager: kvivek
 search.audienceType: 
   - enduser
 search.app: 
@@ -46,9 +46,4 @@ Use the calendar to view appointments and service activities you need to partici
 > [!NOTE]
 >  The calendar shows canceled and completed appointments and service activities. To remove an appointment or service activity from the calendar, delete the record.  
   
- You can create an appointment or service activity from a normal calendar as well as a service calendar. More information: [Create or edit an appointment](../basics/create-edit-appointment.md),  
-  
-### See also  
-[Force an activity into a time slot in the service schedule (Customer Service app)](../customer-service/create-service-activity-without-checking-conflicts-cs-app.md) </br>
 
-[Schedule a service activity (Customer Service app)](../customer-service/schedule-service-activity-cs-app.md)

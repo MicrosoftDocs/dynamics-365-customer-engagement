@@ -1,5 +1,5 @@
 ---
-title: "Export data to Excel (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Export data to Excel (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/29/2018
 ms.reviewer: 

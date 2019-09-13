@@ -1,5 +1,5 @@
 ---
-title: "Determine who can use a report (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Determine who can use a report (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 06/11/2019
 ms.reviewer: 

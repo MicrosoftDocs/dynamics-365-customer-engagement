@@ -1,16 +1,16 @@
 ---
-title: "Use OneNote in Dynamics 365 Customer Engagement (on-premises) (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Use OneNote in Dynamics 365 Customer Engagement (on-premises) (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Use OneNote integration to store and share notes related to Dynamics 365 Customer Engagement (on-premises)records."
 keywords: OneNote, Notes, notebook
-ms.date: 03/08/2017
+ms.date: 9/15/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e47db291-7f10-43c2-b29c-c348618e537b
-author: jimholtz
-ms.author: jimholtz
+author: mduelae
+ms.author: mkaur
 manager: kvivek
 ms.reviewer: 
 ms.suite: 
@@ -74,6 +74,5 @@ If your administrator has set up [!INCLUDE[pn_onenote](../includes/pn-onenote.md
 > - You can only rename a section in the desktop version of [!INCLUDE[pn_onenote](../includes/pn-onenote.md)]. If you rename a section in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] online, you won't see the updated section name in Customer Engagement (on-premises).  
   
 ### See also  
- [Set up OneNote integration in Dynamics 365 Customer Engagement (on-premises)](../admin/set-up-onenote-integration-in-dynamics-365.md)   
- [OneNote in Dynamics 365 Customer Engagement (on-premises) FAQs](../basics/onenote-dynamics-365-faqs.md)   
- [Work with activities](../basics/work-with-activities.md)
+ [Set up OneNote integration](../admin/set-up-onenote-integration-in-dynamics-365.md)   
+

@@ -1,5 +1,5 @@
 ---
-title: "Review settings and import data (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Review settings and import data (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
@@ -8,10 +8,10 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: jimholtz
+author: mkaur
 ms.assetid: 69ee9e50-13cc-428a-9b7c-e0f1c9dae159
 caps.latest.revision: 25
-ms.author: jimholtz
+ms.author: mduelae
 manager: kvivek
 search.audienceType: 
   - enduser
@@ -56,4 +56,4 @@ Set whether the Import Data wizard checks for and handles duplicate data on impo
   
 ### See also  
  [Import contacts](../basics/import-contacts.md)   
- [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
+

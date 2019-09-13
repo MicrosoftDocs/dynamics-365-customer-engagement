@@ -1,5 +1,5 @@
 ---
-title: "Use Microsoft Flow to automate processes across services (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Use Microsoft Flow to automate processes across services (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/31/2019
 ms.reviewer: 
@@ -10,8 +10,8 @@ ms.assetid: 7aebc737-667f-44d1-bb05-e4573be1e0b2
 caps.latest.revision: 7
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: Mattp123
-ms.author: matp
+author: mduelae
+ms.author: mkaur
 search.audienceType: 
   - enduser
 search.app: 
@@ -65,7 +65,4 @@ When you tap a Flow command, such as **Login to Flows**, **Create a Flow**, or *
 This occurs when your Customer Engagement (on-premises) instance has the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], and your device has an earlier version of [!INCLUDE [pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] or [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)]. To work around this issue, remove the current app, and install the latest app. [Install Dynamics 365 Customer Engagement (on-premises)for phones and tablets](https://docs.microsoft.com/dynamics365/customer-engagement/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
   
-### See Also  
- [Enable embedded Flow in your organization](../admin/enable-embedded-flow-in-your-organization.md)   
- <!--[It’s all part of the (business) process](It%E2%80%99s%20all%20part%20of%20the%20\(business\)%20process.md)   
- [Navigate with tiles](Navigate%20with%20tiles.md)-->
+

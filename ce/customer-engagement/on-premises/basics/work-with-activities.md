@@ -1,7 +1,7 @@
 ---
-title: "Work with activities and the activities feed (Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Work with activities and the activities feed (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 09/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -11,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 672cc271-0891-42b4-a686-a11cf4b11708
 caps.latest.revision: 5
-author: brycho
-ms.author: brycho
+author: mduelae
+ms.author: mkaur
 search.audienceType: 
   - enduser
 search.app: 
@@ -42,14 +42,14 @@ In Dynamics 365 Customer Engagement (on-premises), you use **Activities** to kee
   
 ## Find your activities  
   
-You can find your activities under **My Work**. Once there, click the **Activities** icon (Dynamics 365 Customer Engagement (on-premises)) or the **Activities** tile (Microsoft Dynamics CRM).  
+You can find your activities under **My Work**. Once there, select the **Activities** icon (Dynamics 365 Customer Engagement (on-premises)) or the **Activities** tile (Microsoft Dynamics CRM).  
   
 <a name="ChangeView"></a>   
 
 ## Change your activities view  
  You can view all of the activities assigned to you, or you can view only certain types of activities (for example only tasks, or only phone calls).  
   
-- Click the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
+- Select the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
   
   ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
   
@@ -58,9 +58,9 @@ You can find your activities under **My Work**. Once there, click the **Activiti
 ## Filter the list of activities  
  You can filter the list of activities to see only the ones you’re interested in. For example, filter the list to see closed activities, or to see activities assigned to other people on your team.  
   
-1. Click the down arrow next to **My Activities** and then point to **All Activities** to include all the activity types, or point to the activity type you want (for example, **Email** or **Phone Call**).  
+1. Select the down arrow next to **My Activities** and then point to **All Activities** to include all the activity types, or point to the activity type you want (for example, **Email** or **Phone Call**).  
   
-2. Click the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
+2. Select the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
    ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
   
@@ -75,7 +75,7 @@ To add an activity for a customer:
   
 1. Open the record.  You can use Quick Search on the navigation bar to find a record quickly.  
   
-2. Click **Activities** to add a task or phone call to the record. Click **More (…)** to add an email or appointment. Or, click **Notes**, and then start typing.  
+2. Select **Activities** to add a task or phone call to the record. Select **More (…)** to add an email or appointment. Or, Select **Notes**, and then start typing.  
   
    ![Add an activity](../basics/media/add-an-activity.png "Add an activity")  
   
@@ -87,9 +87,9 @@ To add an activity for a customer:
   
 To add an activity for yourself:
 
-1.  On the nav bar, click **Create**, and then click the icon or tile for the activity.  
+1.  On the nav bar, select **Create**, and then select the icon or tile for the activity.  
   
-2.  Fill in the fields, and then click **Save**.  
+2.  Fill in the fields, and then select **Save**.  
   
 <a name="AttachDocument"></a>
    
@@ -100,9 +100,9 @@ To attach a document:
   
 1. Open the note or task.  
   
-2. Click **Attach**. (For tasks, look in the **Notes** section. You might have to scroll down to see the **Attach** button.)  
+2. Select **Attach**. (For tasks, look in the **Notes** section. You might have to scroll down to see the **Attach** button.)  
   
-3. Browse to and then click the file that you want to attach, and then click **Done**.  
+3. Browse to and then select the file that you want to attach, and then select **Done**.  
   
    ![Attach a document to an activity](../basics/media/attach-a-document-to-an-activity.png "Attach a document to an activity")  
   
@@ -113,16 +113,16 @@ To attach a document:
   
 1. Open the activity.  
   
-2. On the command bar, click **Mark Complete**.  
+2. On the command bar, select **Mark Complete**.  
   
    ![Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="MarkSeveral"></a>   
 ## Mark several activities complete at the same time  
   
-1.  On the list of activities, click to the left of each activity to select it.  
+1.  On the list of activities, select to the left of each activity to select it.  
   
-2.  On the command bar, click **More commands (…)**, and then select **Mark Complete**.  
+2.  On the command bar, select **More commands (…)**, and then select **Mark Complete**.  
   
 <a name="BestPractices"></a>
    
@@ -145,8 +145,5 @@ To attach a document:
   
      That way, your task will “roll up” under the account automatically, and you and other people on your team will see the task when they’re looking at the contact, and when they’re looking at the account for Imported Sports. (And they’ll know you’ve got it handled.)  
   
-### See also  
- [Collaborate and communicate with Yammer](../basics/collaborate-communicate-with-yammer.md) 
- [Start your day with a dashboard](../basics/start-your-day-dashboard-chart.md)   
- [Overview of Dynamics 365 Customer Engagement (on-premises) for Sales](../sales-enterprise/overview.md)   
+
  
