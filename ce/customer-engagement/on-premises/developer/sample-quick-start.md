@@ -42,4 +42,4 @@ This sample authenticates the user with the [!INCLUDE[pn_dynamics_crm](../includ
 
 [Tutorials for Learning About Dynamics 365 for Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
-[Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />
+[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)<br />
