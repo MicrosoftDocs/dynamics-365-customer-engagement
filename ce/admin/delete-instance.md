@@ -1,7 +1,7 @@
 ---
-title: "Delete an instance of Dynamics 365 for Customer Engagement apps (online) | MicrosoftDocs"
+title: "Delete an instance  | MicrosoftDocs"
 ms.custom: 
-ms.date: 12/05/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Delete an instance
 
-You can delete [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a Production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
+You can delete Dynamics 365 apps Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a Production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
   
 <a name="BKMK_Delete"></a>   
 ## Delete an instance  
@@ -46,6 +46,4 @@ You can delete [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps Sand
   
 Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one Production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one Production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 for Customer Engagement apps updates** page.  
   
-### See also  
- [Manage Microsoft Dynamics 365 for Customer Engagement apps (online) instances](../admin/manage-online-instances.md)   
- [Switch an instance](../admin/switch-instance.md)
+
