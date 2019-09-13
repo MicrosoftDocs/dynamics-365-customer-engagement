@@ -23,7 +23,7 @@ search.app:
 
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done.  
   
- You can use groups to collaborate with people across your company, even if they don’t have access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. For example, you can create a group for your sales team and invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities.  
+ You can use groups to collaborate with people across your company, even if they don’t have access to Customer Engagement (on-premises). For example, you can create a group for your sales team and invite other [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] users to join the group, and then share documents, conversations, meeting notes, and [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] information related to specific accounts or opportunities.  
   
  The groups solution works with any entities, even custom ones.  
   
@@ -87,7 +87,7 @@ search.app:
 - To upload or manage all of your documents in [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)], select **Open [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)]**.  
   
 ## Use the Office 365 Connectors for Groups  
- Use the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Connectors for Groups to connect new or existing [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] so the group is notified when new activities are posted.  
+ Use the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Connectors for Groups to connect new or existing [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] with Customer Engagement (on-premises) so the group is notified when new activities are posted.  
   
  To set it up, see [Deploy Office 365 Groups](../admin/deploy-office-365-groups.md).  
   
