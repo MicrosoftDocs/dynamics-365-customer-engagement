@@ -1,5 +1,5 @@
 ---
-title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom: 
 ms.date: 07/02/2018

@@ -1,5 +1,5 @@
 ---
-title: "Introduction to entity attributes (Developer Guide for Dynamics 365 for Customer Engagement apps)| MicrosoftDocs"
+title: "Introduction to entity attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about entity attributes that include a set of attributes that represent the data, valid operations on attributes, categorization data attributes, and types of attributes."
 ms.custom: 
 ms.date: 10/31/2017
