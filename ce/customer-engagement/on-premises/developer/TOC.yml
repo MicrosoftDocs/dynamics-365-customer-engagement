@@ -1,4 +1,4 @@
-- name: Developer Guide for Dynamics 365 Customer Engagement
+- name: Developer Guide for Dynamics 365 Customer Engagement (on-premises)
   href: overview.md  
 - name: Get started
   href: get-started-sdk.md
