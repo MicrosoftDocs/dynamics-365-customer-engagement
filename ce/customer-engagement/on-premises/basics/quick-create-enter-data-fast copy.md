@@ -38,10 +38,5 @@ The Quick Create command makes it fast and easy to enter almost any type of info
   
 2.  Fill in the fields, and then select **Save**.  
   
-3.  If you would like to continue adding information, select **View Record**. To create another one, select **Create Another**.  
-  
-> [!NOTE]
-> ![Required Field button](../basics/media/required-field-button.png "Required Field button") next to the field on the screen means it is a **Required** field.  
->   
-> ![Recommended Field button](../basics/media/recommended-field-button.png "Recommended Field button") next to the field on the screen means it is a **Recommended** field.  
+
   
