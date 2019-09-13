@@ -30,19 +30,23 @@ search.app:
 
 Work orders for on site service and requirements for other business needs can be scheduled across multiple days and weeks. A common example is scheduling a 40 hour requirement across an entire work week where the field technician is expected to perform more detailed work at the same location each day. 
 
-Dispatchers can schedule multi-day work in between existing bookings, double booking existing schedules, or as a continuous block of time. 
+Dispatchers can schedule multi-day work in between existing bookings, by double booking existing schedules, or as a continuous block of time. 
 
-When scheduling multi-day work orders or requirements, dispatchers can choose an allocation method, also referred to as booking method, that dictates how the duration is split up throughout the days and weeks.
+When scheduling multi-day work orders or requirements, dispatchers can choose an allocation method that dictates how the duration is split up throughout the days and weeks.
 
-Allocation methods
+### Allocation methods 
+- Full capacity
+- Percentage capacity
+- Distribute evenly
+- Front load
 
+Let's explore multi-day scheduling and allocation methods by configuring three scenarios:
 
+**Scenario 1:** Schedule a 30-hour installation work order manually from the schedule board.
 
-Scenario 1: Schedule a multi-day work order
+**Scenario 2:** Schedule a 30 hour requirement with the schedule assistant.
 
-Scenario 2: Schedule a multi-day requirement
-
-Scenario 3: Schedule a multi-day requirement to multiple resources
+**Scenario 3:** Schedule and divide a 30 hour requirement among two resources with the schedule assistant.
 
 
 ## Prerequisites
@@ -51,11 +55,30 @@ If the work you wish to schedule spans multiple weeks or has dependencies on pre
 > [!Note]
 >
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+
 
 
 ## Scenario 1: Schedule a multi-day work order
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-work-order-30.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
 
 remaining duration
 
@@ -66,9 +89,30 @@ end: can simply drag and drop too but this creates a continuous booking
 requirement
 allocation method
 requirement details
-specify pattern
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30-no-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30-requirement-details.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30-modify-calendar.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
 
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
+
+specify pattern
 
 ## Configuration considerations
 
