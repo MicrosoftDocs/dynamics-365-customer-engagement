@@ -13,7 +13,7 @@ ms.assetid: E8E820AC-64BD-4E76-809D-4A012DDDADA7
 ms.custom: 
 ---
 
-# Set up skills and assign agents
+# Preview: Set up skills and assign agents
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

@@ -13,7 +13,7 @@ ms.assetid: 44298261-18A8-438C-923A-4BB4D18406F9
 ms.custom: 
 ---
 
-# Attach skills to conversation
+# Preview: Attach skills to conversation
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

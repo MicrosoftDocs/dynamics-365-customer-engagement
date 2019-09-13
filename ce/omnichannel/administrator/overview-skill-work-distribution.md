@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 81343ED1-4115-4D6A-874D-2282F0BFA3A9
 ms.custom: 
 ---
-# Overview of skill-based routing
+# Preview: Overview of skill-based routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

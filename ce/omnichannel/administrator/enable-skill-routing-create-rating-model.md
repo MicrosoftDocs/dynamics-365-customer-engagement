@@ -13,7 +13,7 @@ ms.assetid: 4571EB48-E64E-4472-8F9F-BC55B748F972
 ms.custom: 
 ---
 
-# Enable skill-based routing and create rating model
+# Preview: Enable skill-based routing and create rating model
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
