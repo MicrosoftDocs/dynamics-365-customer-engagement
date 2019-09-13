@@ -61,7 +61,7 @@ After you have set up an account with your webinar provider (probably On24), you
 > [!NOTE]
 > Each time you [set up an event or session as a webinar](set-up-webinar.md) (or hybrid), you must choose a webinar configuration. This is how you can control which account you'll be using for that event or session.
 
-To configure a webinar account:
+To connect to a webinar account or update your account credentials:
 
 1. Go to **Settings** > **Advanced settings** > **Event management** > **Webinar configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones.
 
