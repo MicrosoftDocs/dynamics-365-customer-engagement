@@ -48,7 +48,7 @@ Unlike most other Dynamics 365 apps for the Common Data Service platform, Market
 
 You can choose to run your marketing pages, landing pages, and events website either on an external web server (such as your own CMS system) or on a Dynamics 365 Portal running on the same tenant as your Dynamics 365 Marketing instance. If you want to run these features on a Dynamics 365 Portal, then you must have a free portals license available on your tenant before you run the Dynamics 365 Marketing setup wizard, but if you will use an external website, then no portals license is needed. (Depending on the Dynamics 365 Marketing licensing plan you have chosen, your license may include a free portal provided no other free portals are already in use on your tenant.) More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md) and [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal)
 
-For more information about licensing, see the [Administration and setup FAQ](setup-troubleshooting.md). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
+For more information about licensing, see the [Administration and setup FAQ](setup-troubleshooting.md#licensing). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
 ## Prerequisites and requirements
 
