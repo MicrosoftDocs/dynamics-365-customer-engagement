@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises) (online)
+  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 3a50694d-df1e-4da6-92f9-7a84364386d9
 caps.latest.revision: 16
 author: JimDaly
@@ -49,7 +49,7 @@ The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.m
 
 ## Create custom tables and fields
 
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you create *entities* that include the database tables. You create *attributes* in those entities that correspond to fields in the application. These entities and attributes are core parts of the platform metadata. You don’t need to write code to do this. You can find instructions about how to create entities and attributes at [Create and edit metadata](../customize/create-edit-metadata.md). If you need to create entities and attributes programmatically, you can find information in [The Metadata and Data Models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md). Another place to look is [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md).
+ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you create *entities* that include the database tables. You create *attributes* in those entities that correspond to fields in the application. These entities and attributes are core parts of the platform metadata. You don’t need to write code to do this. You can find instructions about how to create entities and attributes at [Create and edit metadata](../customize/create-edit-metadata.md). If you need to create entities and attributes programmatically, you can find information in [The Metadata and Data Models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md). Another place to look is [Introduction to Entities in Dynamics 365 for Customer Engagement](introduction-entities.md).
 
 <a name="bkmk_automation"></a>
 

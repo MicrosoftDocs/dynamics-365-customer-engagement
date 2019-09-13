@@ -1,5 +1,5 @@
 ---
-title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Use metadata to generate entity diagrams (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about Metadata Diagram entity to create a simple diagram that shows a relationship for just one entity, or a complex diagram that includes dozens of related entities, including custom and system entities."
 ms.custom: 
 ms.date: 08/09/2019

@@ -1,5 +1,50 @@
-- name: Developer Guide
-  href: developer-guide.md
+- name: Developer Guide for Dynamics 365 Customer Engagement (on-premises)
+  href: overview.md
+  items:
+  - name: What's new
+    href: whats-new-developers.md
+- name: Get started
+  href: get-started-sdk.md
+  items:
+  - name: 'Download SDK'
+    href: download-dynamics-365-sdk-v9.md
+  - name: Programming models
+    href: programming-models.md
+  - name: Choose your development style
+    href: choose-development-style.md
+  - name: Tutorials and resources
+    href: tutorials-resources-sdk.md
+    items:
+    - name: Developer resources page
+      href: developer-resources-page.md
+    - name: Run a simple program using web services
+      href: simple-program-web-services.md
+    - name: 'Sample: Quick start'
+      href: sample-quick-start.md
+    - name: 'Sample: Simplified connection quick start'
+      href: xrm-tooling/sample-simplified-connection-quick-start.md
+    - name: 'Sample: Quick start for XRM Tooling API'
+      href: xrm-tooling/sample-quick-start-xrm-tooling-api.md
+  - name: Best practices
+    href: best-practices-sdk.md
+  - name: Developer tools
+    href: developer-tools.md
+    items:
+    - name: Download tools from NuGet
+      href: download-tools-nuget.md
+    - name: Visual Studio and the .NET Framework
+      href: visual-studio-dot-net-framework.md
+    - name: Browse the metadata for your organization
+      href: browse-your-metadata.md
+    - name: Solution tools for team development
+      href: solution-tools-team-development.md
+      items:
+      - name: SolutionPackager tool
+        href: compress-extract-solution-file-solutionpackager.md
+      - name: Source control with solution files
+        href: use-source-control-solution-files.md
+      - name: Solution component file reference (SolutionPackager)
+        href: solution-component-file-reference-solutionpackager.md
 - name: Connect to Customer Engagement
   href: connect-customer-engagement.md
   items:

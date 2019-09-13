@@ -1,20 +1,32 @@
 ---
-title: "Developer Guide | MicrosoftDocs"
-description: "An overview of development for Dynamics 365 Customer Engagement (on-premises)"
-ms.custom: on-premises
-ms.date: 09/03/2019
-ms.reviewer: "pehecke"
-ms.service: 
-ms.topic: "article"
-author: "kvivek"
-ms.author: "KumarVivek"
-manager: "kvivek"
+title: "Developer Guide for Dynamics 365 Customer Engagement (on-premises)| MicrosoftDocs"
+description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
+ms.custom: 
+ms.date: 02/04/2019
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+applies_to: 
+  - Dynamics 365 for Customer Engagement (online)
+ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
+tags: 
+  - aug2017
+  - MigrationHO
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
 ---
-# Developer Guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
+# Developer Guide for Dynamics 365 Customer Engagement (on-premises)
 
-Welcome to the Dynamics 365 Customer Engagement (on-premises) Developer Guide. This documentation is for version 9.x.
+Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  apps Developer Guide. This documentation is for version 9.x.
 
-For documentation of earlier versions (8.x and earlier), visit https://docs.microsoft.com/previous-versions/dynamics/.
+For documentation of earlier versions (8.x and earlier), visit <https://docs.microsoft.com/previous-versions/dynamics/>.
 
 <table>
 <tr>
@@ -121,8 +133,10 @@ For documentation of earlier versions (8.x and earlier), visit https://docs.micr
 
 ### See also
 
-[Administrator Guide](../admin/overview.md)
+[Administrator Guide](../admin/admin-guide.md)
 
 [Customization Guide](../customize/overview.md)
+
+[Unified Service Desk Guide](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk)
 
 
