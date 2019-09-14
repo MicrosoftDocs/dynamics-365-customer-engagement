@@ -37,7 +37,7 @@ although the same classes and code shown here also work with all supported ident
 For more information about using these proxy classes see [Authentication by using the client proxy classes](active-directory-claims-based-authentication.md#bkmk_clientproxy). 
   
  Another authentication approach is to use the helper source code provided in the SDK. The `ServerConnection` helper class, shown in the 
-[Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md) topic, provides `GetOrganizationProxy` and `GetProxy` methods for authentication. 
+[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671) topic, provides `GetOrganizationProxy` and `GetProxy` methods for authentication. 
 If you look at the source code for `ServerConnection`, you will see that `GetOrganizationProxy` actually calls `GetProxy`.  
   
 ```csharp  
@@ -108,6 +108,6 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
  
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises)](connect-microsoft-office-365.md)
  [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md)   
- [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)   
+ [Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)
