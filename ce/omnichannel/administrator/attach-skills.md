@@ -97,7 +97,7 @@ To attach skills, you need a workstream record. Either you can create or use an 
 5. Select a skill matching option for the **Matching Logic** field. You can select one of the following:
 
     - [Exact Skill Matching](attach-skills.md#exact-skill-matching)
-    - [Closest Skill Matching](attach-skills.md#closest-skill-atching)
+    - [Closest Skill Matching](attach-skills.md#closest-skill-matching)
 
     To learn more, see [Match skills](attach-skills.md#match-skills).
 
