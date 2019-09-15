@@ -24,7 +24,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
-monikerRange : '>= dynamics-usd-3'
+monikerRange : '<= dynamics-usd-4'
 ---
 
 # Generate performance data logs (Performance data collection)

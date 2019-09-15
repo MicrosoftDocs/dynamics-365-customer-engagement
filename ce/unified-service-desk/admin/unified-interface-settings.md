@@ -2,7 +2,7 @@
 title: "Unified Interface Settings (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: 
-ms.date: 04/10/2019
+ms.date: 06/01/2019
 ms.service: 
   - usd
 ms.topic: article
@@ -36,13 +36,13 @@ Unified Interface Settings is a new configuration element introduced under **Adv
 
 ![Unified Interface Settings](../media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings")
 
-In addition, you can now configure the settings like a theme, Unified Interface App, and assign users (agents) to the Unified Interface Settings record. After creating a Unified Interface Settings record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
+In addition, you can now configure the settings like theme, Unified Interface app, and assign users (agents) to the Unified Interface Settings record. After creating a Unified Interface Settings record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
 
 > [!NOTE]
-> The Unified Interface Settings configuration option is supported only on Dynamics 365 for Customer Engagement apps (Unified Interface apps) and not supported on Dynamics 365 for Customer Engagement apps Web Client.
+> The Unified Interface Settings configuration option is supported only on Unified Interface apps and not supported on Web Client.
 
 
-## How to create Unified Interface Settings record
+## Create Unified Interface Settings record
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps
 
@@ -102,11 +102,11 @@ The configuration is added successfully and appears in the **Configuration** tab
 4. In the **Unified Interface Settings** field, type the name of the existing Unified Interface record you want to assign, and choose the search icon.<br> Select the record when it appears..<br>
 ![Add unified interface setting record to the configuration](../media/usd-crm-add-unified-interface-record-configuration.PNG "Add unified interface setting record to the configuration")<br>
     >[!Note]
-    > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Setting record](#how-to-create-unified-interface-settings-record).
+    > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Setting record](#create-unified-interface-settings-record).
 
 5. Select **Save & Close**.
 
-## Login experience to Unified Service Desk 
+## Login experience to Unified Service Desk
 
 Here are the scenarios you need to consider for signing in to Unified Service Desk.
 
