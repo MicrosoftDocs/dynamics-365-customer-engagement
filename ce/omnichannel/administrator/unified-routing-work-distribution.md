@@ -30,6 +30,9 @@ Unified routing and work distribution is a two-step process:
 1. Routing dispatches conversations into the right Omnichannel queues.
 2. Work distribution allocates the conversations in a queue to agents in real time, based on capacity and presence.
 
+> [!div class=mx-imgBorder]
+> ![Routing and work distribution scenario](../media/unified-routing-work-distribution.png)
+
 ## Overview of routing system
 
 A customer initiates a conversation from the portal, and the conversation reaches the Omnichannel system. Now, based on the routing rules condition defined in the routing system, it starts routing the conversation to the appropriate queues. 
@@ -44,9 +47,6 @@ The work distribution system distributes/assigns the conversation (work item) to
 
 - Work item available trigger
 - Agent available trigger
-
-> [!div class=mx-imgBorder]
-> ![Routing and work distribution scenario](../media/unified-routing-work-distribution.png)
 
 ### Work item available trigger
 
