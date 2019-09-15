@@ -1,10 +1,7 @@
 ---
-title: Set up entitlements quickly with templates (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to set up entitlements quickly with templates in Dynamics 365 for Customer Service
-keywords: Set up entitlements with templates; Dynamics 365 for Customer Engagement; Customer Service; Create an entitlement template; Add entitlement channels  ; Associate a product with the entitlement template
+title: Set up entitlements quickly with templates (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to set up entitlements quickly with templates in Dynamics 365 Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shujoshi
 ms.date: 10/01/2018
@@ -23,10 +20,10 @@ search.app:
 
 # Use entitlement templates to set up entitlements quickly
 
-Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
+Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in Dynamics 365 Customer Service. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
+> With the Dynamics 365 Customer Service app version 9.1 release, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
 
 ## Create an entitlement template  
   

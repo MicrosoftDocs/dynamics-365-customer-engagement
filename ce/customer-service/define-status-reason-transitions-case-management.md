@@ -1,7 +1,6 @@
 ---
-title: Define status reason transitions for case management (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to define status reason transitions for case management in Dynamics 365 for Customer Service
-keywords: Status reason transitions for case management; Dynamics 365 for Customer Engagement; Customer Service;
+title: Define status reason transitions for case management (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to define status reason transitions for case management in Dynamics 365 Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -23,10 +22,7 @@ search.app:
 
 # Define status reason transitions for case management
 
-If you’re in charge of incident management for an organization, it’s important to provide a simple model for customer service representatives responsible for entering and updating case status. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], there are two fields in the Case entity (record type) that work together to provide information about case status: the **Status** field and the **Status Reason** field. The **Status** field for the **Case** entity has three possible values: **Active**, **Resolved**, or **Canceled**. The **Status Reason** field stores a reason for a specific status value. For example, for a case with an **Active** status, a status reason could be **In Progress**, **On Hold**, **Waiting for Details**, or **Researching**.  
-
-> [!IMPORTANT]
-> This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. 
+If you’re in charge of incident management for an organization, it’s important to provide a simple model for customer service representatives responsible for entering and updating case status. In Dynamics 365 Customer Service, there are two fields in the Case entity (record type) that work together to provide information about case status: the **Status** field and the **Status Reason** field. The **Status** field for the **Case** entity has three possible values: **Active**, **Resolved**, or **Canceled**. The **Status Reason** field stores a reason for a specific status value. For example, for a case with an **Active** status, a status reason could be **In Progress**, **On Hold**, **Waiting for Details**, or **Researching**.  
 
  Big organizations often have a large number of combinations for the **Status** and **Status Reason** fields. This can make it difficult for customer service reps to choose the correct next status reason. You can define status reason transitions to add another level of filtering for what the status reason value can be changed to for each status reason. Limiting these values to just allowed status reasons can help customer service representatives make the right choices.  
   

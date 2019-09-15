@@ -21,7 +21,7 @@ You customize the quick view form in the section by navigating to the respective
 > [!NOTE]
 > This procedure shows how to modify the **Customer Profile** section in the Customer summary form of the **Conversation** entity. However, the process is similar for other forms in the sections.
 
-1.  Sign in to Microsoft Dynamics 365.
+1.  Sign in to the Common Data Service platform.
 
 2.  Go to **Settings** > **Customization** > **Customize the system**.
 

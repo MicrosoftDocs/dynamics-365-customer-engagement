@@ -1,7 +1,6 @@
 ---
-title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to define service level agreements in Dynamics 365 for Customer Service
-keywords: Service leve agreements; Dynamics 365 for Customer Engagement; Customer Service; Create a standard SLA ; Create an enhanced SLA ; How is the SLA applied  ; Apply SLA on demand
+title: Define service level agreements (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Know how to define service level agreements in Dynamics 365 Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -23,17 +22,17 @@ search.app:
 
 # Define Service Level Agreements (SLAs)
 
-Define the level of service or support that your organization agrees to offer to a customer by using service level agreements (SLAs) in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Include detailed items to define metrics or key performance indicators (KPIs) to attain the service level. KPIs help you get timely warnings on your team’s issues while providing support.  
+Define the level of service or support that your organization agrees to offer to a customer by using service level agreements (SLAs) in Dynamics 365 Customer Service. Include detailed items to define metrics or key performance indicators (KPIs) to attain the service level. KPIs help you get timely warnings on your team’s issues while providing support.  
 
- You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied.       You can associate only SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)  
+ You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can associate only SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)  
 
  Alternatively, you can set up a default SLA for the organization.  
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
+> With the Dynamics 365 Customer Service app version 9.1 release, you can access and manage all service management tasks from the Customer Service Hub sitemap except **Routing Rule Sets**, **Automatic Record Creation**, and **Service Level Agreements**. To access and manage these three admin settings, use **Service Management** under **Settings** in the web application. </br>
 
 ## Standard vs. Enhanced SLAs: What’s the difference?  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of SLAs: Standard and Enhanced.         Standard SLAs can only be created for the Case entity.         We recommend that you use enhanced SLAs, which have some additional capabilities that standard SLAs don’t have. With an enhanced SLA, you can:  
+ Dynamics 365 Customer Service lets you create two types of SLAs: Standard and Enhanced.         Standard SLAs can only be created for the Case entity.         We recommend that you use enhanced SLAs, which have some additional capabilities that standard SLAs don’t have. With an enhanced SLA, you can:  
 
 -   Create SLAs for entities other than Case.  
 
@@ -44,7 +43,7 @@ Define the level of service or support that your organization agrees to offer to
 -   Track SLA statuses and times right on the case form by default. These details are tracked through the SLA KPI Instance record type.  
 
 ## Entities (record types) that support SLA  
- In previous releases, you could create SLAs only for case records. With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op_subsequent](../includes/pn-crm-8-1-0-op-subsequent.md)], you can now create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
+ In previous releases, you could create SLAs only for case records. With Dynamics 365 Customer Service, you can now create enhanced SLAs for entities that are enabled for SLA. A system administrator or customizer can enable SLAs for the following entities:  
 
 - Account  
 
@@ -119,7 +118,7 @@ Define the level of service or support that your organization agrees to offer to
     SLA KPIs are performance indicators that you’d like to track, for example First Response or Resolve By. SLA items refer to SLA KPIs based on specific conditions. You can add multiple SLA items and arrange them in the order that works for you. For any given KPI, only the first SLA item that matches the conditions in the **Applicable When** section is applied.  
 
    > [!NOTE]
-   >  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining the failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customize/workflow-processes.md)  
+   >  In Dynamics 365 Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining the failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customize/workflow-processes.md)  
 
 9. Fill in the information in the New SLA Item form:  
 
@@ -136,7 +135,7 @@ Define the level of service or support that your organization agrees to offer to
 
       For example, the conditions could be as shown here.  
 
-      ![When a KPI will be applied in Dynamics 365 for Customer Engagement](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 for Customer Engagement")  
+      ![When a KPI will be applied in Dynamics 365 Customer Service](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 Customer Service")  
 
      > [!NOTE]
      >  If there are multiple clauses, and you don’t use AND or OR grouping, by default the clauses will use the AND grouping.  
@@ -227,7 +226,7 @@ Define the level of service or support that your organization agrees to offer to
 
       For example, the conditions could be as follows.  
 
-     ![When a KPI will be applied in Dynamics 365 for Customer Engagement](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 for Customer Engagement")  
+     ![When a KPI will be applied in Dynamics 365 Customer Service](../customer-service/media/crm-ua-sla-details-applicable-when.png "When a KPI will be applied in Dynamics 365 Customer Service")  
 
    - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the conditions could be as follows.  
 
@@ -236,7 +235,7 @@ Define the level of service or support that your organization agrees to offer to
      > [!NOTE]
      >  Before you specify the SLA failure and warning details, save the SLA item record.  
 
-   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**. Then, in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**. This option is available only if you’re creating enhanced SLAs.  
+   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**. Then, in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**. This option is available only if you’re creating enhanced SLAs.  
 
    - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response is not done within 1 hour of case creation. 1 hour is calculated based on the value in date/time field that you select in the **Applicable From** field of the SLA record.  
 
@@ -268,7 +267,7 @@ Define the level of service or support that your organization agrees to offer to
 |Default|Status = Qualified or Disqualified|15 days|Send an escalation email to the sales manager|12 days|Send a warning email to the salesperson|  
 
 > [!IMPORTANT]
-> - We do not recommend creating or updating SLAs by using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application for this purpose.  
+> - We do not recommend creating or updating SLAs by using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Use the Dynamics 365 Customer Service app for this purpose.  
 > - Make sure that you don't have too many SLA Items in an SLA, because that can directly impact the create and update operations on the record on which the SLA is applied or re-evaluated. We recommend  you not have more than 15 SLA items in an SLA record for performance reasons. 
 > - The SLA business logic relies on SLA KPI Instance record values, so it is not recommended to create plugins or processes to directly update the SLA KPI Instance record values to avoid any conflict. 
 

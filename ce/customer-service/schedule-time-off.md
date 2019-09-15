@@ -1,7 +1,6 @@
 ---
-title: Schedule time off (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand how to schedule time off in Dynamics 365 for Customer Service
-keywords: Schedule time off; Dynamics 365 for Customer Engagement; Customer Service
+title: Schedule time off (Dynamics 365 Customer Service) | MicrosoftDocs
+description: Understand how to schedule time off in Dynamics 365 Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -58,7 +57,7 @@ More information on scheduling a resource for business closure or holiday: *Set 
   
     - **Duration**. If you don’t want to calculate the end date, select the number of days the resource is unavailable.  
   
-    - **Time Zone**. If the resource is in a different time zone, select the time zone. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] automatically adjusts the times on the calendars.  
+    - **Time Zone**. If the resource is in a different time zone, select the time zone. The application automatically adjusts the times on the calendars.  
   
 8.  Click **OK**.  
   

@@ -1,7 +1,6 @@
 ---
-title: Extend transformer logic on templates (Dynamics 365 for Customer Service) | MicrosoftDocs
+title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: ""
-keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365 for Customer Engagement;
 author: susikka
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

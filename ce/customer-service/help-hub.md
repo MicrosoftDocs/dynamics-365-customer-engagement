@@ -1,6 +1,6 @@
 ---
-title: Quick help for Customer Service Hub for Dynamics 365 for Customer Engagement | MicrosoftDocs
-description: Your starting point for help of Customer Service Hub for Dynamics 365 for Customer Engagement
+title: Quick help for Customer Service Hub for Dynamics 365 Customer Service | MicrosoftDocs
+description: Your starting point for help of Customer Service Hub for Dynamics 365 Customer Service
 author: anjgupta
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -29,7 +29,7 @@ search.app:
 <tr>
 <td><h2>Get started</h2>
   <ul>
-<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 for Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 for Customer Service</a></li>
+<li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service](whats-new-customer-service.md)">What's new in Dynamics 365 Customer Service</a></li>
   <li><a href="overview.md" data-raw-source="[Explore Customer Service Hub and Customer Service](overview.md)">Explore Customer Service Hub and Customer Service</a></li>
 <li> <a href="upgrade-ish-csh.md" data-raw-source="[[Upgrade to the Customer Service Hub app](upgrade-ish-csh.md)]">Upgrade to the Customer Service Hub app</a>
   </ul>
@@ -62,7 +62,7 @@ search.app:
    <li><a href="user-guide-customer-service.md" data-raw-source="[Customer Service](user-guide-customer-service.md)">Customer Service app</a></li>
  <li><a href="service-manager-guide.md" data-raw-source="[[Service Manager Guide](service-manager-guide.md)]">Service Manager Guide</a></li>
 <li><a href="basics-service-service-scheduling.md" data-raw-source="[[Service Scheduling Guide](basics-service-service-scheduling.md)]">Service Scheduling Guide</a></li>
-  <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 for Customer Engagement for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 for Customer Engagement for mobile devices</a></li>
+  <li><a href="use-customer-service-hub-on-dynamics-365-mobile.md" data-raw-source="[Dynamics 365 Customer Service for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)">Dynamics 365 Customer Service for mobile devices</a></li>
   </ul><br/>  </td>
 </tr>
 
@@ -81,7 +81,7 @@ search.app:
 <ul>
  <li> <a href="user-guide-customer-service-hub.md#accessibility-and-gdpr" data-raw-source="[Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr)">Accessibility and GDPR in the Customer Service Hub</a> </li> 
  <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility" data-raw-source="[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)">Accessibility features for Customer Engagement</a></li>
- <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 for Customer Engagement and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 for Customer Engagement and GDPR</a></li>
+ <li><a href="https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index" data-raw-source="[Microsoft Dynamics 365 Customer Service and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)">Microsoft Dynamics 365 Customer Service and GDPR</a></li>
 </ul>
 </td>
 </tr>
@@ -125,7 +125,7 @@ search.app:
 <td><h2>Blogs</h2>
 <ul>
 <li><a href="https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/" data-raw-source="[Improve Knowledge Article search results with Dynamics 365 Relevance Search](https://blogs.msdn.microsoft.com/crm/2018/12/21/improve-knowledge-article-search-results-with-dynamics-365-relevance-search/)">Improve Knowledge Article search results with Dynamics 365 Relevance Search</a></li>
-<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 for Customer Engagement Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 for Customer Engagement Service Scheduling</a></li>
+<li><a href="https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/" data-raw-source="[Get started with Dynamics 365 Customer Service Service Scheduling](https://blogs.msdn.microsoft.com/crm/2018/11/22/get-started-with-dynamics-365-service-scheduling/)">Get started with Dynamics 365 Customer Service Service Scheduling</a></li>
 </ul>
 </td>
 
