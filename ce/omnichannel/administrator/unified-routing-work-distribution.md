@@ -52,15 +52,15 @@ The work distribution system distributes/assigns the conversation (work item) to
 
 When a conversation is present in a queue, the work distribution system takes a course of action based on the following scenarios:
 
-    | Priority | Scenario | Work distribution system action |
-    |---------------|-----------------|---------------------------------------|
-    | 1 | No conversation in waiting in the queue | Assigns the conversation to an agent based on the capacity and presence status. |
-    | 2 | No agent is available | Moves the conversation to the waiting state. |
-    | 3 | One or more agent is available | Assigns the conversation agent with the highest available capacity. |
-    | 4 | One or more agent is available with same capacity | Assigns the conversation to an agent has a lesser number of active sessions for the current workstream. |
-    | 5 | One or more agent is available with same capacity and number of active sessions | Assigns the conversation to an agent who is waiting for a longer duration for a conversation. |
-    | 6 | One or more agent is available | Assigns the conversation to an agent who disconnected this conversation. |
-    | 7 | One or more agent is available | Assigns the conversation to an agent who rejected, transferred, or timed out the conversation. |
+  | Priority | Scenario | Work distribution system action |
+  |---------------|-----------------|---------------------------------------|
+  | 1 | No conversation in waiting in the queue | Assigns the conversation to an agent based on the capacity and presence status. |
+  | 2 | No agent is available | Moves the conversation to the waiting state. |
+  | 3 | One or more agent is available | Assigns the conversation agent with the highest available capacity. |
+  | 4 | One or more agent is available with same capacity | Assigns the conversation to an agent has a lesser number of active sessions for the current workstream. |
+  | 5 | One or more agent is available with same capacity and number of active sessions | Assigns the conversation to an agent who is waiting for a longer duration for a conversation. |
+  | 6 | One or more agent is available | Assigns the conversation to an agent who disconnected this conversation. |
+  | 7 | One or more agent is available | Assigns the conversation to an agent who rejected, transferred, or timed out the conversation. |
 
 Also, if the Presence status rejects the conversation assignment while blocking the capacity, the work distribution system tries to assign the conversation to another agent.
 
