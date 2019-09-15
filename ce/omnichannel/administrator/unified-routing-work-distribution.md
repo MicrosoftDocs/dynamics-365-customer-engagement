@@ -2,11 +2,11 @@
 title: Understand unified routing and work distribution | MicrosoftDocs
 description: Understand about unified routing and work distribution in Omnichannel for Customer Service
 keywords: Omnichannel for Customer Service; Unified routing and work distribution
-author: anjgupta
-ms.author: anjgup
+author: kabala123
+ms.author: kabala
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 09/22/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
 ms.assetid: dcb07f11-106d-4368-87e9-015da0999f06
