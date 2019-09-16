@@ -116,6 +116,11 @@
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+# Manage documents
+## [Document management with SharePoint](doc-management-sharepoint.md)
+## 
+## 
+## 
 <!-- 
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
