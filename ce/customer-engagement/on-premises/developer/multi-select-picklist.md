@@ -23,7 +23,7 @@ search.app:
 # Multi-Select Picklist attributes
 
 > [!NOTE]
-> Multi-select picklist attributes were added with the Dynamics 365 for Customer Engagement (on-premises) version 9.0.
+> Multi-select picklist attributes were added with the Dynamics 365 Customer Engagement (on-premises) version 9.0.
 >
 > Clients that do not use the current .NET assemblies need to include <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion> with a value of `9.0.0.0` or higher in order to work with <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> attributes. More information: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion>.
 

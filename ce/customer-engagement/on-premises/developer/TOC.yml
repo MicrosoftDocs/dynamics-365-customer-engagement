@@ -93,7 +93,14 @@
   - name: API Limits
     href: api-limits.md
 - name: Build Windows client applications using the XRM tools
-  href: xrm-tooling/
+  href: build-windows-client-applications-xrm-tools.md
+  items:
+  - name: Use connection strings in XRM tooling to connect
+    href: xrm-tooling/use-connection-strings-xrm-tooling-connect.md
+  - name: Use PowerShell cmdlets for XRM tooling to connect
+    href: xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md
+  - name: Reference
+    href: https://docs.microsoft.com/dotnet/api/?view=dynamics-xrmtooling-ce-9
 - name: Write mobile and modern apps
   href: write-mobile-modern-apps.md
   items:
@@ -929,7 +936,7 @@
       href: sample-upload-retrieve-download-attachment.md
   - name: UserQuery (saved view) entity
     href: userquery-saved-view-entity.md
-- name: Manage your data in Dynamics 365 for Customer Engagement (on-premises)
+- name: Manage your data in Dynamics 365 Customer Engagement (on-premises)
   href: manage-data.md
   items:
   - name: Audit entity data changes

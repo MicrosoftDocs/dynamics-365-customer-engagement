@@ -1,5 +1,5 @@
 ---
-title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 for Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Build Windows client applications using the XRM tools (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "XRM tooling is a set of APIs that provides support for building Windows client applications for Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
 ms.date: 03/27/2019
@@ -22,7 +22,7 @@ search.app:
 ---
 # Build Windows client applications using the XRM tools
 
-XRM tooling is a set of APIs built on top of the Dynamics 365 for Customer Engagement (on-premises) SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building Windows client applications for Dynamics 365 for Customer Engagement (on-premises).   
+XRM tooling is a set of APIs built on top of the Dynamics 365 Customer Engagement (on-premises) SDK assembly APIs (Organization service and IDiscoveryService) that provide support for building Windows client applications for Dynamics 365 Customer Engagement (on-premises).   
 
 > [!NOTE]
 > [!INCLUDE[cc-cdsnote-1](./includes/cc-cdsnote-1.md)]
@@ -33,18 +33,18 @@ XRM tooling is a set of APIs built on top of the Dynamics 365 for Customer Engag
 
 XRM tooling provides the following capabilities:  
   
-- Supports all the authentication modes to sign in to Dynamics 365 for Customer Engagement (on-premises), including OAuth.  
+- Supports all the authentication modes to sign in to Dynamics 365 Customer Engagement (on-premises), including OAuth.  
   
-- Provides [PowerShell](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md) support for authentication and connection to Dynamics 365 for Customer Engagement (on-premises).  
+- Provides [PowerShell](xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md) support for authentication and connection to Dynamics 365 Customer Engagement (on-premises).  
   
-- Provides thread safety for actions performed in Dynamics 365 for Customer Engagement (on-premises) in a multithreaded environment. More information: [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
+- Provides thread safety for actions performed in Dynamics 365 Customer Engagement (on-premises) in a multithreaded environment. More information: [Multithreading in Components](https://msdn.microsoft.com/library/vstudio/3es4b6yy.aspx), [Thread-Safe Components](https://msdn.microsoft.com/library/vstudio/a8544e2s.aspx)  
   
-- Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications) for Dynamics 365 for Customer Engagement (on-premises) for consistent sign-in experience to from your Windows client applications.  
+- Provides a common [Windows Presentation Foundation login control](/powerapps/developer/common-data-service/xrm-tooling/use-xrm-tooling-common-login-control-client-applications) for Dynamics 365 Customer Engagement (on-premises) for consistent sign-in experience to from your Windows client applications.  
   
-- Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to Dynamics 365 for Customer Engagement (on-premises) after initial sign in.  
+- Supports secure storage of the sign-in credentials and reuse of the stored credentials to automatically sign in to Dynamics 365 Customer Engagement (on-premises) after initial sign in.  
   
 - Provides built-in diagnostic [tracing](/powerapps/developer/common-data-service/xrm-tooling/configure-tracing-xrm-tooling
-) and performance reporting of the actions performed in Dynamics 365 for Customer Engagement (on-premises), which you can configure based on your organization’s requirements.  
+) and performance reporting of the actions performed in Dynamics 365 Customer Engagement (on-premises), which you can configure based on your organization’s requirements.  
 
 
 ### See also 

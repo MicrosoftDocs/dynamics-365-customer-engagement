@@ -21,12 +21,12 @@ search.app:
 ---
 # Detect duplicate data for developers
 
-Duplicate detection lets organizations set duplicate detection policies and create duplicate detection rules for business and custom entities. These rules can be applied across different record types in Dynamics 365 for Customer Engagement (on-premises). For example, an organization may define that a lead is a duplicate of a contact, if they have the same name and phone number. Based on the duplicate detection rules set by the administrator, the system alerts the user about potential duplicates when the user tries to create new records or update existing records. To maintain data quality, you can schedule a duplicate detection job to check for duplicates for all records that match a certain criteria. You can clean the data by deleting, deactivating, or merging the duplicates reported by a duplicate detection job.  
+Duplicate detection lets organizations set duplicate detection policies and create duplicate detection rules for business and custom entities. These rules can be applied across different record types in Dynamics 365 Customer Engagement (on-premises). For example, an organization may define that a lead is a duplicate of a contact, if they have the same name and phone number. Based on the duplicate detection rules set by the administrator, the system alerts the user about potential duplicates when the user tries to create new records or update existing records. To maintain data quality, you can schedule a duplicate detection job to check for duplicates for all records that match a certain criteria. You can clean the data by deleting, deactivating, or merging the duplicates reported by a duplicate detection job.  
   
  To detect duplicates in the system, create a *duplicate detection rule* for a specific entity type. A duplicate detection rule is represented by the duplicate rule [DuplicateRule entity](entities/duplicaterule.md). You can create multiple detection rules for the same entity type. However, you can publish a maximum of five duplicate detection rules per entity type at one time.  
 
 > [!NOTE]
-> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 for Customer Engagement (on-premises) user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
+> For information on how to create rules and run system jobs for detecting duplicate data using the Dynamics 365 Customer Engagement (on-premises) user interface(UI), see [Detect duplicate data so you can fix or remove it](../admin/detect-duplicate-data.md).
 
  A rule can have one or more *duplicate detection rule conditions* that are represented by the duplicate rule condition [DuplicateRuleCondition entity](entities/duplicaterulecondition.md). The conditions are combined by the system as in logical `AND` operation. A duplicate detection rule specifies a base entity type and a matching entity type. A duplicate rule condition specifies the name of a base attribute and the name of a matching attribute. For example, specify an account as a base entity and a contact as a matching entity to compare last names and addresses. The matching criteria consist of operators such as exactly match, first n-number of characters, or last n-number of characters.  
 
@@ -40,25 +40,25 @@ Duplicate detection lets organizations set duplicate detection policies and crea
   
 ## Enable and Disable Duplicate Detection
 
-For more information about how to enable and disable duplicate detection, see [Enable or disable duplicate detection](/powerapps/developer/common-data-service/enable-disable-duplicate-detection).
+This topic covers information on how to enable and disable duplicate detection in Dynamics 365 Customer Engagement (on-premises). More information: [Enable or disable duplicate detection](/powerapps/developer/common-data-service/enable-disable-duplicate-detection).
 
 ## Run duplicate detection
 
-For more information on how to run duplicate detection, see [Run Duplicate Detection](/powerapps/developer/common-data-service/run-duplicate-detection)
+There are several ways to perform duplicate detection after you enable it and publish the duplicate detection rules. More information: [Run Duplicate Detection](/powerapps/developer/common-data-service/run-duplicate-detection)
 
 ## Manage duplicate detection during Create and Update operations
 
-For more information on how to manage duplicate detection during Create and Update operations, see [Manage duplicate detection during Create and Update operations](duplicate-detection-create-update)
+Dynamics 365 Customer Engagement (on-premises) Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. More information:  [Manage duplicate detection during Create and Update operations](duplicate-detection-create-update)
 
 ## Duplicate detection messages
 
-For more information on different duplicate detection messages, see [Duplicate Detection Messages](/powerapps/developer/common-data-service/duplicate-detection-messages)
+Use the messages listed in the topic to detect duplicates in Dynamics 365 for Customer Engagement. More information: [Duplicate Detection Messages](/powerapps/developer/common-data-service/duplicate-detection-messages)
 
-## Duplicate detection entites
+## Duplicate detection entities
 
 For more information: [Duplicate Rule entities](/powerapps/developer/common-data-service/duplicaterule-entities)
 
-## DuplicateRule entity
+<!--## DuplicateRule entity
 
 For more information: [DuplicateRule Entity](/powerapps/developer/common-data-service/entities/duplicaterule)
 
@@ -68,15 +68,15 @@ For more information: [DuplicateRuleCondition Entity](/powerapps/developer/commo
 
 ## DuplicateRecord entity
 
-For more information: [DuplicateRecord Entity](/powerapps/developer/common-data-service/entities/duplicaterecord)
+For more information: [DuplicateRecord Entity](/powerapps/developer/common-data-service/entities/duplicaterecord)-->
   
 ## Related Sections  
- [Data Management in Dynamics 365 for Customer Engagement (on-premises) (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
+ [Data Management in Dynamics 365 Customer Engagement (on-premises) (Auditing, Duplicate Detection, Bulk Delete, Data Import)](manage-data.md)  
  [Delete data in bulk](delete-data-bulk.md)
 
-<!--## See Also
+## See Also
 
-[Sample: Enable Duplicate Detection and Retrieve Duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)<br />
+[Sample: Enable Duplicate Detection and Retrieve Duplicates](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/EnableDuplicateDetection)<br />
 [Sample: Invoke Duplicate Detection For Creating and Updating Records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)<br />
-[Sample: Detect Multiple Duplicate Records](org-service/sample-detect-multiple-duplicate-records.md)<br />-->
+[Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/DetectMultipleDuplicateRecords)<br />
  
