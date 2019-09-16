@@ -35,8 +35,8 @@ Depending on your environment, there are several Dynamics 365 for Customer Engag
 
 |Configuration  |More information  |
 |---------|---------|
-|Dynamics 365 for Customer Enagement apps (online) with SharePoint Online     |  [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)    |
-|Dynamics 365 for Customer Enagement apps (online) with SharePoint on-premises     | [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)        |
+|Dynamics 365 for Customer Engagement apps (online) with SharePoint Online     |  [Set up Dynamics 365 for Customer Engagement to use SharePoint Online](/power-platform/admin/admin-guide/set-up-dynamics-365-online-to-use-sharepoint-online)    |
+|Dynamics 365 for Customer Enagement apps (online) with SharePoint on-premises     | [Configure server-based authentication with a Dynamics 365 for Customer Enagement apps (online) and SharePoint on-premises](/power-platform/admin/admin-guide/configure-server-based-authentication-sharepoint-on-premises)        |
 |Dynamics 365 for Customer Engagement on-premises with with SharePoint Online     |  [Configure server-based authentication with Microsoft Dynamics 365 (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)       |
 |Dynamics 365 for Customer Engagement on-premises with with SharePoint on-premises     | [Configure server-based authentication with Microsoft Dynamics 365 (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)        |
 
