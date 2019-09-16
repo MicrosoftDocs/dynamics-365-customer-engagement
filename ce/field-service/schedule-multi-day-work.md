@@ -53,10 +53,6 @@ Let's explore multi-day scheduling and allocation methods by configuring three s
 If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, you should consider using Dynamics 365 Project Service which has [Gantt chart functionality](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/schedule-project-work-breakdown-structure). 
 
 
-
-
-
-
 ## Scenario 1: Schedule a multi-day work order
 
 
@@ -83,10 +79,13 @@ remaining duration
 
 end: can simply drag and drop too but this creates a continuous booking
 
-can drag onto days/weeks view?
+can drag onto days/weeks view
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-drag-schedule-board.png)
 
 ## Scenario 2: Schedule a multi-day requirement
-
 
 
 > [!Note]
@@ -116,21 +115,40 @@ can drag onto days/weeks view?
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
 
 
-
-
 > [!Note]
 > to create a multiday work order, create a new requirement related to the work order
+
+
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
 
-specify pattern
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-2-person-requirement.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-2-resource-specify-pattern2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-final.png)
 
 ## Configuration considerations
 
 - full capacity uses calendar
 - when scheduling 4 hours each day, they need 4 total hours, not 4 continuous hours
 - manual create details when allocation method is none
+- cannot schedule greater than calendar
 
 ## Additional Notes
 - work order auto creates requirements
-- cannot schedule requirement groups for multiple days, menaing you cannot break it up
+- cannot schedule requirement groups for multiple days, meaning you cannot break it up
 - travel time?
