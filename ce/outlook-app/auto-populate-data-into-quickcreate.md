@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Customize App for Outlook to auto populate data from Outlook item into Quick Create form for Case entity 
+# Customize App for Outlook to auto populate data from an Outlook item into a Quick Create form for Case entity 
 
 Use the quick create form in App for Outlook to auto populate information from Outlook items into the quick create form for the Case entity. 
 
