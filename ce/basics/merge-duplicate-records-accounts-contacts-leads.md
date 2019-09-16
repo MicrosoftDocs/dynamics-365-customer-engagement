@@ -1,7 +1,7 @@
 ---
 title: "Merge duplicate records for accounts, contacts, or leads (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 09/16/2019
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,9 +26,9 @@ Duplicate records can creep into your data when you or others enter data manuall
   
  ![Duplicate contact record detectied in Dynamics 365 for Customer Engagement apps](../basics/media/duplicates-detected.png "Duplicate contact record detected in Dynamics 365 for Customer Engagement apps")  
   
- You're not sure if this is a new record (one that happens to have the  same name as an existing contact) or a duplicate, so you click **Save**.  
+ You're not sure if this is a new record (one that happens to have the  same name as an existing contact) or a duplicate, so you click **Ignore and Save**.  
   
- Next, you go to the **My Active Contacts** list and see that now you have two records with the same name. After reviewing the records,  you  determine that they're duplicates that need to be merged.  
+ Next, you go to the **Active Contacts** list and see that now you have two records with the same name. After reviewing the records,  you  determine that they're duplicates that need to be merged.  
   
  ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 for Customer Engagement apps](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 for Customer Engagement apps")  
  
