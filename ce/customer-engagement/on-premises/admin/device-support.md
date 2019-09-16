@@ -1,7 +1,7 @@
 ---
 title: "Support for devices | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/19/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,4 +23,4 @@ search.app:
 ---
 # Support for devices
 
-For information about Dynamics 365 for Customer Engagement apps support for mobile devices, see [What's supported](../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.
+For information about Customer Engagement (on-premises) apps support for mobile devices, see [What's supported](../mobile-app/support-phones-tablets.md) in the Phones and Tablets Administrator Guide.

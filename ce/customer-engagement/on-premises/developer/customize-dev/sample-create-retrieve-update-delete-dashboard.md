@@ -52,4 +52,4 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Sample: Assign a User-Owned Dashboard to Another User](sample-assign-user-owned-dashboard-another-user.md)   
  [Actions on Dashboard](actions-dashboards.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
- [Sample: CrmServiceHelper Class](../org-service/helper-code-serverconnection-class.md)
+ [Sample: CrmServiceHelper Class](../https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)
