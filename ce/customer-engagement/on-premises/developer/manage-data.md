@@ -34,33 +34,33 @@ search.app:
 ---
 # Manage your data in Customer Engagement
 
-*Data management* features let you efficiently manage and audit your data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You’ll be able to import new data and audit data changes, detect duplicates and delete data in bulk.  
+*Data management* features let you efficiently manage and audit your data in Dynamics 365 Customer Engagement (on-premises). You’ll be able to import new data and audit data changes, detect duplicates and delete data in bulk.  
   
  Based on the provided functionality, you can develop custom data management tools.  
   
 ## In This Section  
- [Audit Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)  
+ [Audit Entity Data Changes in Dynamics 365 for Customer Engagement (on-premises)](audit-entity-data-changes.md)  
   
- [Detect Duplicate Data in Dynamics 365 Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)  
+ [Detect Duplicate Data in Dynamics 365 for Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)  
   
- [Delete Data in Bulk in Dynamics 365 Customer Engagement (on-premises)](delete-data-bulk.md)  
+ [Delete Data in Bulk in Dynamics 365 for Customer Engagement (on-premises)](delete-data-bulk.md)  
   
- [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)  
+ [Import Data in Dynamics 365 for Customer Engagement (on-premises)](import-data.md)  
   
- [Data Export service in Dynamics 365 Customer Engagement (on-premises)](data-export-service.md)  
+ [Data Export service in Dynamics 365 for Customer Engagement (on-premises)](/powerapps/developer/common-data-service/data-export-service.md)  
   
 ## Related Sections  
  [Release history](release-history.md)  
   
- [What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)  
+ [What's new for developers: Dynamics 365 for Customer Engagement (on-premises)](whats-new-developers.md)  
   
  [Start here](get-started-sdk.md)  
   
- [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)  
+ [Connect to Dynamics 365 for Customer Engagement (on-premises)](connect-customer-engagement.md)  
   
- [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)  
+ [The Security Model of Dynamics 365 for Customer Engagement (on-premises)](security-dev/security-model.md)  
   
- [Extend Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 for Customer Engagement (on-premises)](extend-dynamics-365-server.md)  
   
  [Model your business data](model-business-data.md)  
   

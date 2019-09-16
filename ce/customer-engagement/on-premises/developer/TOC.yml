@@ -929,7 +929,7 @@
       href: sample-upload-retrieve-download-attachment.md
   - name: UserQuery (saved view) entity
     href: userquery-saved-view-entity.md
-- name: Manage your data in Customer Engagement
+- name: Manage your data in Dynamics 365 for Customer Engagement (on-premises)
   href: manage-data.md
   items:
   - name: Audit entity data changes

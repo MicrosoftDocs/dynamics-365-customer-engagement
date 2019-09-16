@@ -99,7 +99,7 @@ For more information: [Configure Data Import](/powerapps/developer/common-data-s
   
 ## Run data import
 
-For more information: [Run Data Import]/powerapps/developer/common-data-service/(run-data-import)  
+For more information: [Run Data Import](/powerapps/developer/common-data-service/(run-data-import)  
   
 ## Data import entites
 
