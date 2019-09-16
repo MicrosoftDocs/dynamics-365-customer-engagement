@@ -80,6 +80,9 @@ Understand how the exact skill matching works for single or multiple skill scena
 | Single | Xbox = 4 | <ul><li>First, the system searches for an agent with Xbox = 4 as this is the minimum criteria. </li> <li> When the criteria are not met, the system searches for an agent with **Xbox** proficiency greater than **4**. If found, the system assigns the conversation to the agent.</li> <li> When the greater than criteria is not met, the system searches for an agent with **Xbox** proficiency lesser than **4**. If found, the system assigns the conversation to the agent.</li></ul>|
 | Multiple |Xbox = 4 <br> Spanish = 5 |<ul><li> First, the system searches for an agent with **Xbox** = **4** and **Spanish** = **5** as these are the minimum criteria. </li> <li> When the criteria are not met, the system searches for an agent with **Xbox** proficiency greater than **4**, and **Spanish** proficiency greater than **5**. </li> <li> When the greater than criteria is not met, the system searches for an agent with **Xbox** proficiency lesser than **4**, and **Spanish** proficiency lesser than **5**. If found, the system assigns the conversation to the agent.</li> </ul>|
 
+> [!Note]
+> The Omnichannel system provides a score for the agents against each skill based on the above-mentioned scenarios. The system calculates the average score of the agent considering the skills and then based on the score, assigns the conversation to the agents.
+
 ## Prerequisites
 
 To attach skills, you need a workstream record. Either you can create or use an existing workstream configuration.
