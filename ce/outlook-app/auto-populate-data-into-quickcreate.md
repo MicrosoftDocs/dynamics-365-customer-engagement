@@ -45,5 +45,5 @@ To turn this feature on, do the following:
 2.	Expand **Entities** and then slect the **Case** entity.
 3.	Expand the entity and select **Forms**, then select **Form Order and Quick Create Form Set**.
 4.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
-5.	On the solution page select **Publish All Customizations** and then close the page.
+5.	On the solution page, select **Publish All Customizations** and then close the page.
 
