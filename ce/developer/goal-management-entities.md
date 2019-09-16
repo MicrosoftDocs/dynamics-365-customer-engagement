@@ -1,5 +1,5 @@
 ---
-title: "Goal management entities (Developer Guide for Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Goal management entities | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
