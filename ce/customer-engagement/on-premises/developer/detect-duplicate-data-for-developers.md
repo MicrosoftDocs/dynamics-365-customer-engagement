@@ -48,11 +48,11 @@ There are several ways to perform duplicate detection after you enable it and pu
 
 ## Manage duplicate detection during Create and Update operations
 
-Dynamics 365 Customer Engagement (on-premises) Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. More information:  [Manage duplicate detection during Create and Update operations](duplicate-detection-create-update)
+Dynamics 365 Customer Engagement (on-premises) Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. More information:  [Manage duplicate detection during Create and Update operations](/powerapps/developer/common-data-service/duplicate-detection-create-update)
 
 ## Duplicate detection messages
 
-Use the messages listed in the topic to detect duplicates in Dynamics 365 for Customer Engagement. More information: [Duplicate Detection Messages](/powerapps/developer/common-data-service/duplicate-detection-messages)
+Use the messages listed in the topic to detect duplicates in Dynamics 365 Customer Engagement (on-premises). More information: [Duplicate Detection Messages](/powerapps/developer/common-data-service/duplicate-detection-messages)
 
 ## Duplicate detection entities
 
