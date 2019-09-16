@@ -40,7 +40,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[VisualizationsAndDashboards#AssignVisualizationToUser](../../snippets/csharp/CRMV8/visualizationsanddashboards/cs/assignvisualizationtouser.cs#assignvisualizationtouser)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](../org-service/helper-code-serverconnection-class.md)   
+ [Sample: CrmServiceHelper Class](../https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
  [Working with Visualizations](view-data-with-visualizations-charts.md)   
  [Sample Code for Visualization](sample-code-charts-visualizations.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AssignRequest>
