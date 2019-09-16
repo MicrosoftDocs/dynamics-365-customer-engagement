@@ -154,7 +154,7 @@
 ##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
 ##### [Set up Dynamics 365 (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md) -->
 ##### [Set up Dynamics 365 (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
-##### [Set up Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
+##### [Set up Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
 ##### [Switching from the list component](switching-list-component-changing-deployment.md)
 <!-- #### Configure
 ##### [Enable document management for entities](enable-sharepoint-document-management-specific-entities.md)
