@@ -42,11 +42,11 @@ To enable skill-based routing, follow these steps:
 
     You can add a new rating value in the grid itself. To add, follow these steps:
 
-        1. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
+    1. Select **+ New Rating Value**. The **Quick Create: Rating Value** pane appears.
 
-        2. Specify a name and value.
+    2. Specify a name and value.
 
-        3. Select **Save and Close** to save and add the rating value.
+    3. Select **Save and Close** to save and add the rating value.
 
 5. Select **Save**.
 
