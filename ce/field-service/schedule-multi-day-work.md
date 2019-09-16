@@ -151,4 +151,4 @@ can drag onto days/weeks view
 ## Additional Notes
 - work order auto creates requirements
 - cannot schedule requirement groups for multiple days, meaning you cannot break it up
-- travel time?
+- travel time? does not include travel time, books as location agnostic
