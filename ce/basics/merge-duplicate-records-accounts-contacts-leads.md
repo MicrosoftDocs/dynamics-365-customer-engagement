@@ -24,7 +24,7 @@ Duplicate records can creep into your data when you or others enter data manuall
   
  For example, let's say you enter a contact record, Jim Glynn,  along with a mobile phone number.  The duplicate detection rule discovers that you already have a similar record, and displays this dialog box.  
   
- ![Duplicate contact record detectied in Dynamics 365 for Customer Engagement apps](../basics/media/duplicates-detected.png "Duplicate contact record detectied in Dynamics 365 for Customer Engagement apps")  
+ ![Duplicate contact record detectied in Dynamics 365 for Customer Engagement apps](../basics/media/duplicates-detected.png "Duplicate contact record detected in Dynamics 365 for Customer Engagement apps")  
   
  You're not sure if this is a new record (one that happens to have the  same name as an existing contact) or a duplicate, so you click **Save**.  
   
