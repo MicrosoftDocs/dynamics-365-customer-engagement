@@ -52,8 +52,7 @@ Let's explore multi-day scheduling and allocation methods by configuring three s
 ## Prerequisites
 If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, you should consider using Dynamics 365 Project Service which has [Gantt chart functionality](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/schedule-project-work-breakdown-structure). 
 
-> [!Note]
->
+
 
 
 
@@ -84,11 +83,17 @@ remaining duration
 
 end: can simply drag and drop too but this creates a continuous booking
 
+can drag onto days/weeks view?
+
 ## Scenario 2: Schedule a multi-day requirement
 
-requirement
-allocation method
-requirement details
+
+
+> [!Note]
+> need to set an allocation method before saving
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-allocation-method.png)
 
 
 > [!div class="mx-imgBorder"]
@@ -110,6 +115,11 @@ requirement details
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
 
+
+
+
+> [!Note]
+> to create a multiday work order, create a new requirement related to the work order
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
 
 specify pattern
