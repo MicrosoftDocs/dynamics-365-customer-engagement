@@ -66,7 +66,7 @@ After running the QuickStart program or most other SDK console-based samples, th
 
  If you would like to add or modify the functionality of this QuickStart program, you can modify the code in the CRUDOperations.cs file.  
 
- For more information about the helper code files that the QuickStart and many other SDK samples use, or to learn about how to set up a new project with the required assembly references, refer to [Use the Organization Service sample and helper code](org-service/use-sample-helper-code.md). For more information about the source code that handles saving and re-using the server configuration information, see [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md).  
+ For more information about the helper code files that the QuickStart and many other SDK samples use, refer to the helper source code that handles saving and re-using the server configuration information located under the "SDK Helper Code" folder of the QuickStart sample.  
 
  A second sample project, named **QuickStart with Simplified Connection**, is included in the [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] solution. This second sample shows a simplified method to connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Organization service but is otherwise similar to the first QuickStart sample. This sample does not use any helper code to establish a web service connection.  
 

@@ -1,7 +1,7 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement apps (online) Support instances | MicrosoftDocs"
+title: "Manage Support instances | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage Support instances
 
-A Support instance is any non-Production instance of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. Dynamics 365 for Customer Engagement apps System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
+A Support instance is any non-Production instance of Dynamics 365 apps used by Microsoft Support to reproduce and resolve customer issues. When there is an issue affecting the operation of your online service, Microsoft can create a Support instance in your tenant to troubleshoot and repair the issue.  It is isolated from your Production instance so it does not impact your business operations. System admins have full control of managing and providing organization data by [copying it](copy-instance.md) to a Support instance. 
 
 **What is a Support instance?**
 
