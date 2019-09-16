@@ -1,7 +1,7 @@
 ---
-title: "Troubleshoot Dynamics 365 for Customer Engagement apps problems | MicrosoftDocs"
+title: "Troubleshoot problems | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,13 +23,11 @@ search.app:
 ---
 # Troubleshoot problems
 
-*This content also applies to the on-premises version.*
-
-We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Use the following list of troubleshooting topics to quickly find information to solve your issue.  
+We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-premises). Use the following list of troubleshooting topics to quickly find information to solve your issue.  
   
 ## Outlook and email integration  
   
--   [Frequently asked questions about synchronizing records between Dynamics 365 for Customer Engagement apps and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+-   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) apps and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
   
 -   [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md)  
   
@@ -43,35 +41,12 @@ We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/
   
 ## Mobile  
   
--   [Troubleshooting and things to know about Dynamics 365 for Customer Engagement apps for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md)  
-  
-## Dynamics 365 for Customer Engagement apps (online)  
-  
--   [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)  
-  
--   [How do I check my online service health?](check-online-service-health.md)  
-  
--   [Help and additional resources for Dynamics 365 for Customer Engagement apps (online)](help-additional-resources.md)  
-  
--   [Troubleshooting: Unblock URLs required for Dynamics 365 for Customer Engagement apps (online)](troubleshooting-unblock-urls-required.md)  
-
-<!--
-## Dynamics 365 for Customer Engagement apps (on-premises)  
-  
--   [Troubleshooting installation and upgrade](https://technet.microsoft.com/library/hh699696.aspx)  
-  
--   [Monitor and troubleshoot Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/hh699694.aspx)  
-  
--   [Troubleshoot organization import and upgrade issues](https://technet.microsoft.com/library/dn920279.aspx)  
--->
+-   [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md)  
 
 ## Billing and licensing  
   
 -   [Billing support](billing-support.md)  
-  
--   [Billing FAQs for Dynamics 365 for Customer Engagement apps (online)](billing-faqs-dynamics-365-online.md)  
-  
--   [Volume licensing FAQ for Dynamics 365 for Customer Engagement apps (online) Customer Engagement](volume-licensing-faq-dynamics-365-online-customer-engagement.md)  
+
   
 ## Security  
   

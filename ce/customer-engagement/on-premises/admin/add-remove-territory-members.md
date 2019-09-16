@@ -1,7 +1,7 @@
 ---
-title: "Add or remove territory members for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Add or remove territory members  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Add or remove territory members
 
-*This content also applies to the on-premises version.*
-
-To accommodate changes in sales territories or the representatives that are assigned to each territory, you can add or remove territory members in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+To accommodate changes in sales territories or the representatives that are assigned to each territory, you can add or remove territory members in Dynamics 365 Customer Engagement (on-premises).  
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
