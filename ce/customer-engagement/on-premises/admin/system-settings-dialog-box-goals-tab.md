@@ -1,8 +1,8 @@
 ---
-title: "System Settings dialog box - Goals tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "System Settings dialog box - Goals tab  | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 10/09/2018
+ms.date: 10/01/2019
 ms.service:
   - crm-online
 ms.topic: article
@@ -18,12 +18,9 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
 ---
-
 # System Settings dialog box - Goals tab
 
-*This content also applies to the on-premises version.*
-
-Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can always perform a manual rollup for any goal at any time.  
+Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in Dynamics 365 Customer Engagement (on-premises). You can always perform a manual rollup for any goal at any time.  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -43,7 +40,7 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 |                            Settings                            |                                                                                  Description                                                                                   |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Set the roll-up expiration time and the roll-up frequency.** |                                                                                                                                                                                |
-|     Days after the goal end date when the rollup will stop     | Default: 30 days. Set the number of days after the ending date of a goal for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to stop including a goal in a rollup. |
+|     Days after the goal end date when the rollup will stop     | Default: 30 days. Set the number of days after the ending date of a goal for Customer Engagement (on-premises) to stop including a goal in a rollup. |
 |                  Roll-up recurrence frequency                  |                                                      Default: 24 hours. Set the number of hours between each goal rollup.                                                      |
   
 ### See also  

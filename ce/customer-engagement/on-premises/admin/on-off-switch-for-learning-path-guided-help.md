@@ -1,7 +1,7 @@
 ---
-title: "On-off switch for Learning Path (guided help) for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "On-off switch for Learning Path (guided help)  | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/28/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 

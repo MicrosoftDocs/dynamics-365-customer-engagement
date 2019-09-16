@@ -1,7 +1,7 @@
 ---
-title: "System Settings dialog box - Outlook tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "System Settings dialog box - Outlook tab  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # System Settings dialog box - Outlook tab
 
-*This content also applies to the on-premises version.*
-
-Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] interacts with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] interacts with Dynamics 365 Customer Engagement (on-premises).  
 
 ## Open the System Settings dialog box (if it’s not already open)  
 
@@ -46,16 +44,16 @@ Use the settings on this page to configure how [!INCLUDE[pn_MS_Outlook_Short](..
 |                  **Set email promotion options for [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]**                   |                                                                                                                                                                                                                 |
 |                                                      Perform checks as new email is received                                                       |                                                                   Default: Yes. If Yes, email is checked for tracking as soon as it arrives.                                                                    |
 |                                                            Promote incoming email every                                                            |                                                               Default: 10 minutes. Looks for and links incoming email on the specified interval.                                                                |
-|                                                       Send pending Dynamics 365 for Customer Engagement apps email every                                                        |                                         Default: 10 minutes. Sends pending [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps email on the specified interval.                                         |
+|                                                       Send pending Dynamics 365 for Customer Engagement apps email every                                                        |                                         Default: 10 minutes. Sends pending Customer Engagement (on-premises) email on the specified interval.                                         |
 |         **Set whether users can schedule synchronization in [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]**          |                                                                                                                                                                                                                 |
-|                                                         Users can schedule synchronization                                                         | Default: Yes. If Yes, users can set whether or not [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] synchronizes with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. |
-|                                                       Minimum Time between synchronizations                                                        |   Default: 15 minutes. Synchronizes [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps on the specified interval.    |
+|                                                         Users can schedule synchronization                                                         | Default: Yes. If Yes, users can set whether or not [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] synchronizes with Customer Engagement (on-premises). |
+|                                                       Minimum Time between synchronizations                                                        |   Default: 15 minutes. Synchronizes [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and Customer Engagement (on-premises) on the specified interval.    |
 | **Set whether users can update their local data in the background in [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)]** |                                                                                                                                                                                                                 |
 |                                              Users can schedule background local data synchronization                                              |                                                        Default: Yes. If Yes, users can update the data that is stored on their computer to use offline.                                                         |
-|                                            Minimum time between background local data synchronizations                                             |                                   Default: 15 minutes. Local data is synchronized with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps on the specified interval.                                   |
+|                                            Minimum time between background local data synchronizations                                             |                                   Default: 15 minutes. Local data is synchronized with Customer Engagement (on-premises) on the specified interval.                                   |
 |                                   **Set schedule for address book synchronization in Dynamics 365 for Outlook**                                    |                                                                                                                                                                                                                 |
 |                                             Users can schedule background address book synchronization                                             |                                                    Default: Yes. If Yes, users can update the address book that is stored on their computer to use offline.                                                     |
-|                                                 Minimum time between address book synchronizations                                                 |                               Default: 1 hour. The local address book is synchronized with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps on the specified interval.                               |
+|                                                 Minimum time between address book synchronizations                                                 |                               Default: 1 hour. The local address book is synchronized with Customer Engagement (on-premises) on the specified interval.                               |
 |                                              **Set whether users see Microsoft Dynamics 365 for Customer Engagement apps message**                                              |                                                                                                                                                                                                                 |
-|         Users see “Get [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]” option displayed in the message bar          |                                 Default: Yes. If Yes, the **Get Dynamics 365 for Outlook** button is displayed in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.                                  |
+|         Users see “Get [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]” option displayed in the message bar          |                                 Default: Yes. If Yes, the **Get Dynamics 365 for Outlook** button is displayed in Customer Engagement (on-premises).                                  |
 
