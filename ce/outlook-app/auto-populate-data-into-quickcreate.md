@@ -23,17 +23,28 @@ search.app:
 ---
 # Customize App for Outlook to auto populate data from Outlook item into Quick Create form for Case entity 
 
-Follow these steps to enable a custom entity to appear in Quick create. Note, this example shows addition of custom entity but it can be used to add any entity.
+Use the quick create form in App for Outlook to auto populate information from Outlook items into the quick create form for the Case entity. 
 
-In order to auto populate information from an Outlook item into quick create form for the Case entity, use a new quick create form in App for Outlook.
-Using the quick create form, details from the Outlook item are automatically populated making you more productive with App for Outlook.
+These fields that will be populated automatically:
 
-The fields that will be populated automatically are below.
+|                                                                                                |                                                                                              |                                                                                      |
+|------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+|                                          **Outlook item field**                                           |  | **Quick Create Case form field** |
+|                             Currently selected contact's account (if known)                                |                                             Mapped to ->                                              |                                         Customer                                          |
+|                            Email/appointment subject                            |                                              Mapped to ->                                              |                                         Case Title                                          |
+|                              Track and set regarding for contacts                              |                                             Yes                                              |                                         Yes                                          |
+|                               Track and set regarding for tasks                                |                                              No                                              |                                         Yes                                          |
+|                                    One click set regarding                                     |                                             Yes                                              |                                          No                                        |
+|                                   Shows recipients' summary                                    |                                             Yes                                              |                                          No                                          |
+|                  Shows the regarding record summary in the email/appointment                   |                                             Yes                                              |                                          No  
 
-To get this experience, follow the steps below. 
-1.	In Customer Engagement, go to Settings > Customizations > Customize the System.
-2.	Expand Entities and choose the Case entity.
-3.	Expand the entity and select Forms, then select Form Order and Quick Create Form Set.
-4.	Ensure that App for Outlook Case Quick Create form is at the top of the list, for it to be used for quick create scenario.
-5.	On the solution page, Publish All Customizations.
-6.	Close the solutions page.
+
+
+To turn this feature on, do the following: 
+
+1.	In Dynamics 365, go to **Settings** > **Customizations** > **Customize the System**.
+2.	Expand **Entities** and then slect the **Case** entity.
+3.	Expand the entity and select **Forms**, then select **Form Order and Quick Create Form Set**.
+4.	Ensure that **App for Outlook Case Quick Create form** is at the top of the list, for it to be used for quick create scenario.
+5.	On the solution page select **Publish All Customizations** and then close the page.
+
