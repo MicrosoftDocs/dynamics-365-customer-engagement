@@ -29,6 +29,7 @@ documenting modifications for future analysis and record keeping, and being in c
 Dynamics 365 for Customer Engagement (on-premises) support auditing of entity and attribute data changes on a per organization basis.  
   
 ## In This Section  
+
  [Auditing Feature Overview](/powerapps/developer/common-data-service/auditing-overview)  
   
  [Configure Entities and Attributes for Auditing](/powerapps/developer/common-data-service/configure-entities-attributes-auditing)  
