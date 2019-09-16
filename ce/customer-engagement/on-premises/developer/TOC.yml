@@ -934,75 +934,16 @@
   items:
   - name: Audit entity data changes
     href: audit-entity-data-changes.md
-    items:
-    - name: Auditing overview
-      href: auditing-overview.md
-    - name: Configure entities and attributes for auditing
-      href: configure-entities-attributes-auditing.md
-    - name: Retrieve and delete audit history
-      href: retrieve-and-delete-the-history-of-audited-data-changes.md
-    - name: Audit user access
-      href: audit-user-access.md
-    - name: 'Sample: Audit entity data changes'
-      href: sample-audit-entity-data-changes.md
-    - name: 'Sample: Audit user access'
-      href: sample-audit-user-access.md
   - name: Detect duplicate data
     href: detect-duplicate-data-for-developers.md
-    items:
-    - name: Enable and disable duplicate detection
-      href: enable-disable-duplicate-detection.md
-    - name: Run duplicate detection
-      href: run-duplicate-detection.md
-    - name: Manage duplicate detection during Create and Update operations
-      href: duplicate-detection-create-update.md
-    - name: Duplicate detection messages
-      href: duplicate-detection-messages.md
-    - name: Duplicate Rule entities
-      href: duplicaterule-entities.md
   - name: Delete data in bulk
     href: delete-data-bulk.md
-    items:
-    - name: Run bulk delete
-      href: run-bulk-delete.md
-    - name: 'Sample: Bulk delete exported records'
-      href: sample-bulk-delete-exported-records.md
-    - name: 'Sample: Bulk delete records that match common criteria'
-      href: sample-bulk-delete-records-match-common-criteria.md
   - name: Import data
     href: import-data.md
-    items:
-    - name: Prepare source files for import
-      href: prepare-source-files-import.md
-    - name: Create data maps for import
-      href: create-data-maps-for-import.md
-    - name: Add transformation mappings for import
-      href: add-transformation-mappings-import.md
-    - name: Configure data import
-      href: configure-data-import.md
-    - name: Run data import
-      href: run-data-import.md
-    - name: Data import entities
-      href: data-import-entities.md
-    - name: 'Sample: Export and import a data map'
-      href: sample-export-import-data-map.md
-    - name: 'Sample: Import data using complex data map'
-      href: sample-import-data-complex-data-map.md
   - name: Data Export Service
     href: data-export-service.md
   - name: Synchronize Dynamics 365 data with external systems
     href: synchronize-dynamics-365-data-with-external-systems.md
-    items:
-    - name: Use an alternate key to create a record
-      href: use-alternate-key-create-record.md
-    - name: Use change tracking to synchronize data with external systems
-      href: use-change-tracking-synchronize-data-external-systems.md
-    - name: Use Upsert to insert or update a record
-      href: use-upsert-insert-update-record.md
-    - name: 'Sample: Insert or update a record using Upsert'
-      href: sample-insert-update-record-upsert.md
-    - name: 'Sample: Synchronize data with external systems using change tracking'
-      href: sample-synchronize-data-external-systems-using-change-tracking.md
   - name: Virtual Entities
     href: virtual-entities/
 - name: Manage your deployment of Customer Engagement
