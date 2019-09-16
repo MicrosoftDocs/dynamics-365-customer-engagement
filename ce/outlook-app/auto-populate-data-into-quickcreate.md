@@ -32,11 +32,10 @@ These fields that will be populated automatically:
 |                                          **Outlook item field**                                           |  | **Quick Create Case form field** |
 |                             Currently selected contact's account (if known)                                |                                             Mapped to ->                                              |                                         Customer                                          |
 |                            Email/appointment subject                            |                                              Mapped to ->                                              |                                         Case Title                                          |
-|                              Track and set regarding for contacts                              |                                             Yes                                              |                                         Yes                                          |
-|                               Track and set regarding for tasks                                |                                              No                                              |                                         Yes                                          |
-|                                    One click set regarding                                     |                                             Yes                                              |                                          No                                        |
-|                                   Shows recipients' summary                                    |                                             Yes                                              |                                          No                                          |
-|                  Shows the regarding record summary in the email/appointment                   |                                             Yes                                              |                                          No  
+|                              Currently selected contact (if known)                              |                                             Mapped to ->                                              |                                         Contact                                          |
+|                              Email                                |                                               Mapped to ->                                               |                                         Origin                                          |
+|                                   Email/appointment body                                     |                                              Mapped to ->                                              |                                          Description                                        |
+
 
 
 
