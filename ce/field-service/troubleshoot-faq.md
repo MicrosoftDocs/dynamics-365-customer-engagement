@@ -2,8 +2,8 @@
 title: "Frequently asked questions for Dynamics 365 for Field Service | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/28/2019
-ms.reviewer: ""
+ms.date: 09/16/2019
+ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
