@@ -61,5 +61,5 @@ One of the beauties of Dynamics 365 Customer Engagement (on-premises) is that it
 different names for the types of records, because your organization calls that type of data something different. For example, your system administrator may have changed “account” to “company,” or “contact” to “individual.”
 
 ### See also  
- [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)   
+ [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)   
 
