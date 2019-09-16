@@ -56,11 +56,9 @@ When a conversation is present in a queue, the work distribution system takes a 
   |---------------|-----------------|---------------------------------------|
   | 1 | No conversation in waiting in the queue | Assigns the conversation to an agent based on the capacity and presence status. |
   | 2 | No agent is available | Moves the conversation to the waiting state. |
-  | 3 | One or more agent is available | Assigns the conversation agent with the highest available capacity. |
-  | 4 | One or more agent is available with same capacity | Assigns the conversation to an agent has a lesser number of active sessions for the current workstream. |
+  | 3 | One or more agent is available | <ul><li> Assigns the conversation to an agent with the highest available capacity.</li> <li> Assigns the conversation to an agent who rejected, transferred, or timed out the conversation. </li> <li> Assigns the conversation to an agent who got disconnected from conversation. </li></ul> |
+  | 4 | One or more agent is available with same capacity | Assigns the conversation to an agent who has a lesser number of active sessions for the current workstream. |
   | 5 | One or more agent is available with same capacity and number of active sessions | Assigns the conversation to an agent who is waiting for a longer duration for a conversation. |
-  | 6 | One or more agent is available | Assigns the conversation to an agent who disconnected this conversation. |
-  | 7 | One or more agent is available | Assigns the conversation to an agent who rejected, transferred, or timed out the conversation. |
 
 Also, if the Presence status rejects the conversation assignment while blocking the capacity, the work distribution system tries to assign the conversation to another agent.
 
@@ -72,7 +70,7 @@ The Presence status entity in Omnichannel sends the agent available trigger when
  - When an agent presence status changes from one state to another such as **Away** to **Available**, **Away** to **Busy**, and  **Away** to **DND**.
  - When an agent capacity changes due to the closure of a conversation or assignment of a conversation.
 
-After the Presence status sends the agent available trigger to the work distribution system, it searches for the best available agent to assign the conversation.
+After the Presence status sends the agent available trigger to the work distribution system, it searches the conversations in the **Waiting** state in the high priority queues. After searching, the work distribution system assigns the conversation to the agent who are mapped to this high priority queues.
 
 To assign a conversation, the work distribution system retrieves conversations with a query from the queues to which user (agent) is added. Theses conversations are retrieved based on the defined work stream capacity and queue priority. 
 
