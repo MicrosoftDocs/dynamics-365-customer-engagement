@@ -64,7 +64,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
  For a non-[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] native client application such as a console application, use any valid URI value. In this case, the URI doesn’t need to actually exist but it must be unique in the tenant.  
   
 <a name="bkmk_ifd"></a>   
-## App registration for Dynamics 365 for Customer Engagement on-premises (IFD)  
+## App registration for Dynamics 365 Customer Engagement (on-premises) (IFD)  
  **Scenario**: A customer or other person registers a custom application to access organization data on a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server provided by an ISV or Partner.  
   
 #### The ISV or Partner performs the following tasks:  

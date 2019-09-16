@@ -1,17 +1,16 @@
 ---
-title: "Use the Feedback entity to manage feedback and ratings for Dynamics 365 for Customer Engagement records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn about the feedback eneity to obtain feedback and ratings for the records."
+title: "Use the Feedback entity to manage feedback and ratings for records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn about the feedback entity to obtain feedback and ratings for the records."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
 ms.assetid: c0d69f7b-5016-44e7-8b73-1f8c2de5b526
-caps.latest.revision: 13
 author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
@@ -19,11 +18,11 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use the Feedback entity to manage feedback and ratings for Dynamics 365 for Customer Engagement records
+# Use the Feedback entity to manage feedback and ratings for Customer Engagement (on-premises) records
 
-Improve your products and services by enabling users to provide feedback and ratings for entity records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. For example, you can enable feedbacks and ratings for the `Product` entity to know user's feedback on the products you sell, or on the `Incident` (case) entity to understand and improve the quality of your customer support team.  
+Improve your products and services by enabling users to provide feedback and ratings for entity records in Dynamics 365 Customer Engagement (on-premises). For example, you can enable feedbacks and ratings for the `Product` entity to know user's feedback on the products you sell, or on the `Incident` (case) entity to understand and improve the quality of your customer support team.  
   
- You can enable feedback and rating for both system and custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. By default, the `KnowledgeArticle` entity is enabled for feedback and ratings. Use the new `Feedback` entity to programmatically create and manage feedback for entity records.  
+ You can enable feedback and rating for both system and custom entities in Customer Engagement (on-premises). By default, the `KnowledgeArticle` entity is enabled for feedback and ratings. Use the new `Feedback` entity to programmatically create and manage feedback for entity records.  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]  
@@ -37,7 +36,7 @@ Improve your products and services by enabling users to provide feedback and rat
   Once you have enabled an entity for feedback and rating, you can't disable it. After you enable an entity for feedback, a regarding relationship is created between the entity and the `Feedback` entity.  
   
 > [!NOTE]
->  You can also use the customization tools in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to enable feedback and rating for system and custom entities. More information: [Enable an entity for feedback](http://go.microsoft.com/fwlink/p/?LinkId=785436)  
+>  You can also use the customization tools in Customer Engagement (on-premises) to enable feedback and rating for system and custom entities. More information: [Enable an entity for feedback](http://go.microsoft.com/fwlink/p/?LinkId=785436)  
   
  The `Feedback` entity stores the following information :  
   
@@ -56,7 +55,7 @@ Improve your products and services by enabling users to provide feedback and rat
   
 - Feedback status such as Open or Closed  
   
-- Feedback source to display the source from where the feedback was submitted. If the feedback was created from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the value is set to **Internal**. Developers can add a value of their choice depending on the application used to provide feedback.  
+- Feedback source to display the source from where the feedback was submitted. If the feedback was created from within Customer Engagement (on-premises), the value is set to **Internal**. Developers can add a value of their choice depending on the application used to provide feedback.  
   
 - User who created or last modified the feedback record  
   
@@ -66,5 +65,5 @@ Improve your products and services by enabling users to provide feedback and rat
  [Feedback Entity](entities/feedback.md)  
   
 ### See also  
- [Work with knowledge articles in Dynamics 365 Customer Engagement (on-premises)](work-knowledge-articles.md)   
- [Service entities in Customer Engagement apps](service-entities.md)
+ [Work with knowledge articles in Customer Engagement (on-premises)](work-knowledge-articles.md)
+ [Service entities in Customer Engagement (on-premises)](service-entities.md)

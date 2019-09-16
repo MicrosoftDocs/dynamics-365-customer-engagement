@@ -1,15 +1,15 @@
 ---
-title: "Contract entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Contract entities (Developer Guide for Dynamics 365 for Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about contract entity that is used to track customer service agreements. You can create contracts for existing customers that specify the type of service and terms that apply to each customer."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service: 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
 helpviewer_keywords: 
   - contract status options, contract entities
   - status options, contract entities
@@ -22,10 +22,9 @@ helpviewer_keywords:
   - contract entities, introduction
   - tracking customer services agreements, contract entities
 ms.assetid: 631e9570-86e5-490e-98dd-ee27925ea8e8
-caps.latest.revision: 30
-author: JimDaly
-ms.author: jdaly
-manager: amyla
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -33,10 +32,10 @@ search.app:
 ---
 # Contract entities
 
-In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], a *contract* is an agreement to provide support during specified coverage dates or for a specified number of cases or length of time. When customers contact customer service, the level of support they receive is determined by their contract. 
+In the Dynamics 365 for Customer Engagement (on-premises) platform, a *contract* is an agreement to provide support during specified coverage dates or for a specified number of cases or length of time. When customers contact customer service, the level of support they receive is determined by their contract. 
 
 > [!NOTE]
-> The Contract, Contract Line, and Contract Template entities are deprecated and will be removed in a future major release of Dynamics 365. This functionality has been replaced by [entitlements](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/create-entitlement-define-support-terms-customer) in Dynamics 365 for Customer Service.
+> The Contract, Contract Line, and Contract Template entities are deprecated and will be removed in a future major release of Dynamics 365. This functionality has been replaced by [entitlements](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/create-entitlement-define-support-terms-customer) in the Dynamics 365 for Customer Engagement (on-premises) platform.
   
  The contract entity is used to track customer service agreements. You can create contracts for existing customers that specify the type of service and terms that apply to each customer. New contracts are created based on the contract template. You can create contracts only for existing accounts and contacts.  
   
