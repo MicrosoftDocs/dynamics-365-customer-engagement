@@ -1,8 +1,8 @@
 ---
-title: "Web application requirements for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Web application requirements  | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 09/07/2018
+ms.date: 10/01/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -27,13 +27,11 @@ search.app:
 
 # Web application requirements
 
-*This content also applies to the on-premises version.*
-
-<a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the Dynamics 365 for Customer Engagement apps (on-premises) and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps web and mobile device client applications.  
+<a name="CRMappandMobileReqs"></a> This section lists the hardware and software requirements for the Dynamics 365 Customer Engagement (on-premises) apps and  Dynamics 365 web and mobile device client applications.  
 
 <a name="webapp_hw_req"></a>   
-## Dynamics 365 for Customer Engagement apps web application hardware requirements  
- The following table lists the minimum and recommended hardware requirements for the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web application.  
+## Customer Engagement (on-premises) web application hardware requirements  
+ The following table lists the minimum and recommended hardware requirements for the Customer Engagement (on-premises) web application.  
 
 |Component|Minimum|Recommended|  
 |---------------|-------------|-----------------|  
@@ -41,11 +39,11 @@ search.app:
 |Memory|2-GB RAM|4-GB RAM or more|  
 |Display|Super VGA with a resolution of 1024 x 768|Super VGA with a resolution of 1024 x 768|  
 
- Running [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps on a computer that has less than the recommended requirements may result in inadequate performance. Additionally, satisfactory performance may be experienced running systems that use a different hardware configuration than those published here—for example, a system with a modern quad-core processor, lower clock speed, and more RAM.  
+ Running Customer Engagement (on-premises) apps on a computer that has less than the recommended requirements may result in inadequate performance. Additionally, satisfactory performance may be experienced running systems that use a different hardware configuration than those published here—for example, a system with a modern quad-core processor, lower clock speed, and more RAM.  
 
  **Network requirements**  
 
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is designed to work best over networks that have the following elements:  
+ Customer Engagement (on-premises) is designed to work best over networks that have the following elements:  
 
 -   Bandwidth greater than 50 KBps (400 kbps)  
 
@@ -53,18 +51,18 @@ search.app:
 
 Notice that these values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 for Customer Engagement apps clients](verify-network-capacity-throughput-clients.md)  
 
-### Network requirements when you use Dynamics 365 for Customer Engagement apps interactive service hub experience  
- The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps interactive service hub experience is designed to work best over networks that have the following elements:  
+### Network requirements when you use Customer Engagement (on-premises) interactive service hub experience  
+ The Customer Engagement (on-premises)interactive service hub experience is designed to work best over networks that have the following elements:  
 
 -   Bandwidth greater than 1Megabit per second (125 KBps/Kilobyte per second)  
 
 -   Latency under 150 ms  
 
-Notice that the suggested network requirements include the metadata download needed for first run or newly published customizations. The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps interactive service hub typically requires more bandwidth when metadata has to be downloaded. These values are recommendations and don’t guarantee satisfactory performance. The values are based on systems using uncustomized, out-of-the box forms. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs.  
+Notice that the suggested network requirements include the metadata download needed for first run or newly published customizations. The Customer Engagement (on-premises) interactive service hub typically requires more bandwidth when metadata has to be downloaded. These values are recommendations and don’t guarantee satisfactory performance. The values are based on systems using uncustomized, out-of-the box forms. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs.  
 
 <a name="SupportedOS"></a>   
 ## Supported versions of Internet Explorer and Microsoft Edge  
- The following table describes the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] and [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] versions supported for use with the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web application.  
+ The following table describes the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] and [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] versions supported for use with the Customer Engagement (on-premises) web application.  
 
 
 | [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] version | [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)] | [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)]<sup>3</sup> | [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] |
@@ -79,7 +77,7 @@ Notice that the suggested network requirements include the metadata download nee
 <sup>3</sup> Check requirements for individual apps, such as [Customer Service Hub application requirements](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/customer-service-hub-user-guide-basics). <br/>
 
 > [!IMPORTANT]
->  Although you may be able to use [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)], [!INCLUDE[pn_IE_9](../includes/pn-ie-9.md)], or an [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] combination that is not supported in the previous table, those web browsers are not recommended and are not supported with this version of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+>  Although you may be able to use [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)], [!INCLUDE[pn_IE_9](../includes/pn-ie-9.md)], or an [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] combination that is not supported in the previous table, those web browsers are not recommended and are not supported with this version of Customer Engagement (on-premises).  
 > 
 >  Using plug-ins or other third-party extensions in your browser can increase load times on pages with lists of data.  
 
@@ -103,7 +101,7 @@ To find the latest release for these web browsers, visit the software manufactur
 
 <a name="SupportedMSOffice"></a>   
 ## Supported versions of Office  
- To use [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps with [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] integration features, such as Export to Excel and Mail Merge, you must have one of the following [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] versions on the computer that is running the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web application:  
+ To use Customer Engagement (on-premises) apps with [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] integration features, such as Export to Excel and Mail Merge, you must have one of the following [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] versions on the computer that is running the Customer Engagement (on-premises) web application:  
 
 - [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)]  
 
@@ -119,15 +117,5 @@ To find the latest release for these web browsers, visit the software manufactur
 ## Printing reports  
  The Reporting Services[!INCLUDE[pn_ms_ActiveX_long](../includes/pn-ms-activex-long.md)] control is required to print reports. If you try to print a report and the control isn’t installed, you’ll be prompted to install it. The installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
 
-<a name="BKMK_TLS"></a> 
-## Transport Layer Security (TLS) requirement
-With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], web browsers and other client applications that only use Transport Layer Security (TLS) versions earlier than TLS 1.2 will be unable to connect to their [!INCLUDE [pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)] instances and the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]. 
-
-For more information, see these blog posts: 
-- [Updates coming to Dynamics 365 for Customer Engagement apps connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
-- [TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
-
 ### See also  
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   
- <!-- [64-bit supported configurations for Microsoft Dynamics 365 for Customer Engagement](../admin/64-bit-supported-configurations-for-microsoft-dynamics-365.md) 
- [Microsoft Dynamics 365 for Customer Engagement apps system requirements and required technologies](Microsoft%20Dynamics%20365%20system%20requirements%20and%20required%20technologies.md) -->  

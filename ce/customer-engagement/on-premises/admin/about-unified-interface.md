@@ -24,6 +24,9 @@ search.app:
 ---
 # About Unified Interface 
 
+Redirect this to: https://docs.microsoft.com/powerapps/user/unified-interface.
+
+<!-- 
 With the release of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we've introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
 
 The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. Some examples: 
@@ -152,3 +155,4 @@ The following are entities that are currently read-only in Unified Interface:
 
 ### See also
 [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+-->

@@ -1,6 +1,6 @@
 ---
-title: "Sample: Quick start for Dynamics 365 Customer Engagement (on-premises)(Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "Dynamics 365 for Customer Engagement Custommer Engagement web services by using the ServerConnection helper class and perform basic create, update, retrieve, and delete operations on an entity. "
+title: "Sample: Quick start for Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Dynamics 365 Customer Engagement (on-premises) web services by using the ServerConnection helper class and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -24,6 +24,11 @@ search.app:
 
 The QuickStart sample is a [!INCLUDE[pn_Microsoft_.Net_Framework](../includes/pn-microsoft-net-framework.md)] managed code sample that shows how to connect to the Dynamics 365 for Customer Engagement web services by using the `ServerConnection` helper class and perform basic create, update, retrieve, and delete operations on an entity.
 
+> [!CAUTION]
+> The helper classes are deprecated and no longer maintained. The recommendation is to use the new [CrmServiceClient](https://docs.microsoft.com/dotnet/api/microsoft.xrm.tooling.connector.crmserviceclient?view=dynamics-xrmtooling-ce-9) class for connecting to the web service endpoints. For more information see [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md).
+
+If you would like to review a shorter version of the ServerConnection class without all the console I/O, see [Authentication deep dive](authenticate-office-365-users-customer-engagement-web-services#authentication-deep-dive).
+
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
 
@@ -42,4 +47,4 @@ This sample authenticates the user with the [!INCLUDE[pn_dynamics_crm](../includ
 
 [Tutorials for Learning About Dynamics 365 for Customer Engagement Development apps](tutorials-resources-sdk.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)<br />
-[Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />
+[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)<br />
