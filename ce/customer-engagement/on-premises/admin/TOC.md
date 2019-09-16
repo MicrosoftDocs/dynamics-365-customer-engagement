@@ -124,8 +124,6 @@
 #### [Supported email service configurations](supported-email-service-configurations-server-side-synchronization.md)
 ### Set up server-side sync
 #### [Overview](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
-#### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
-#### [Connect Customer Engagement to Exchange Server (on-premises)](connect-exchange-server-on-premises.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
 #### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)

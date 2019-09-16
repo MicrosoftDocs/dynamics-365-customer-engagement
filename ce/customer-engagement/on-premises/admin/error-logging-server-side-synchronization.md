@@ -1,7 +1,7 @@
 ---
-title: "Error logging for server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Error logging for server-side synchronization  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,8 +23,6 @@ search.app:
 ---
 # Error logging for server-side synchronization 
 
-*This content also applies to the on-premises version.*
-
 In this topic, you will learn about the error logging tasks performed by server-side synchronization. server-side synchronization generates alerts if an error occurs while processing email. An error is classified based on the nature of the error and on the object the error was encountered for.  
 
  The following table shows classification of errors based on the nature of the errors.  
@@ -32,7 +30,7 @@ In this topic, you will learn about the error logging tasks performed by server-
 
 |                                                                                                                                                                                                                                                                      Transient Errors                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                 Permanent Errors                                                                                                                                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| -   Errors are temporary in nature and may get fixed automatically after certain attempts. If the error persists after reaching the configured retry count, a new error (without changing the error code) is logged as a permanent error.<br />-   These errors do not require a direct corrective action by a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps user, but an administrator should look for any reliability or throttling issues.<br />-   All errors appear in the Warning section of the administrator’s and user’s alert wall. | -   These are permanent in nature and mostly occur when the transient errors remain unresolved even after certain attempts. Permanent errors can also be triggered directly without any transient errors (for example: password expired).<br />-   Email processing for the affected mailboxes is stopped as a result of these errors. These require a corrective action by the mailbox owner or a [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrator.<br />-   All permanent errors appear in Error section of the administrator’s and user’s alert wall. |
+| -   Errors are temporary in nature and may get fixed automatically after certain attempts. If the error persists after reaching the configured retry count, a new error (without changing the error code) is logged as a permanent error.<br />-   These errors do not require a direct corrective action by a Dynamics 365 Customer Engagement (on-premises) user, but an administrator should look for any reliability or throttling issues.<br />-   All errors appear in the Warning section of the administrator’s and user’s alert wall. | -   These are permanent in nature and mostly occur when the transient errors remain unresolved even after certain attempts. Permanent errors can also be triggered directly without any transient errors (for example: password expired).<br />-   Email processing for the affected mailboxes is stopped as a result of these errors. These require a corrective action by the mailbox owner or a Customer Engagement (on-premises) administrator.<br />-   All permanent errors appear in Error section of the administrator’s and user’s alert wall. |
 
  The errors are also classified based on the object on which the error is encountered:  
 
