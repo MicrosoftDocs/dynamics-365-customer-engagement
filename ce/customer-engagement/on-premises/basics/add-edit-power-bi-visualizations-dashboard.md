@@ -1,7 +1,7 @@
 ---
 title: "Add or edit Power BI visualizations on your dashboard (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 09/15/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -83,7 +83,4 @@ Create rich, interactive reports and real-time visualizations in Dynamics 365 Cu
 ## Privacy notice  
 [!INCLUDE[cc_privacy_powerbi_tiles_dashboards](../includes/cc-privacy-powerbi-tiles-dashboards.md)]
   
-### See also  
- [Use Power BI with Dynamics 365 Customer Engagement (on-premises)](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Create or edit a chart](../basics/create-edit-chart.md)   
- [Set properties for a chart or list included in a dashboard](../customize/set-properties-chart-list-included-dashboard.md)
+

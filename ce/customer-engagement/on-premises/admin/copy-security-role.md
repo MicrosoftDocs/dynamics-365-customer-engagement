@@ -1,7 +1,7 @@
 ---
-title: "Copy a security role for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Copy a security role  | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Save time creating a security role by copying one
-
-*This content also applies to the on-premises version.*
 
 If you want to create a security role that is similar to another security role, you can copy an existing security role and save it with a new name. You can then modify the privileges and access levels to accommodate the new security role.  
   

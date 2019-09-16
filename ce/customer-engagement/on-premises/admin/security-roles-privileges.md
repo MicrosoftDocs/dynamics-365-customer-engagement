@@ -1,7 +1,7 @@
 ---
 title: "Security roles and privileges | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/07/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,8 +23,6 @@ search.app:
   - Powerplatform
 ---
 # Security roles and privileges
-
-*This content also applies to the on-premises version.*
 
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
 
@@ -58,7 +56,7 @@ The colored circles on the security role settings page define the access level f
 <a name="BKMK_privileges"></a>   
 
 ### Record-level privileges  
- [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] use eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
+ [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and Customer Engagement (on-premises) use eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
   
 |Privilege|Description|  
 |---------------|-----------------|  

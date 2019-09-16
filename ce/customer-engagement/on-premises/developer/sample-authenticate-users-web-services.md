@@ -43,6 +43,6 @@ This sample shows how to authenticate a user with any [!INCLUDE[pn_dynamics_crm]
   
 ### See also  
  [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](authenticate-users.md)   
- [Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)   
+ [Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
  [Authenticate Office 365 Users with Dynamics 365 Customer Engagement (on-premises) (online) Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement (on-premises) (online)](connect-microsoft-office-365.md)

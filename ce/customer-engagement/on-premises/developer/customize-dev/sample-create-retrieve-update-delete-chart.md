@@ -48,7 +48,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[VisualizationsAndDashboards#CRUDVisualization](../../snippets/csharp/CRMV8/visualizationsanddashboards/cs/crudvisualization.cs#crudvisualization)]  
   
 ### See also  
- [Sample: CrmServiceHelper Class](../org-service/helper-code-serverconnection-class.md)   
+ [Sample: CrmServiceHelper Class](../https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)   
  [Actions on Chart](actions-visualizations-charts.md)   
  [Create a Chart](create-visualization-chart.md)   
  [Sample Code for Visualization](sample-code-charts-visualizations.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Manage Dynamics 365 for Customer Engagement apps (online) subscriptions, licenses, and user accounts | MicrosoftDocs"
+title: "Manage subscriptions, licenses, and user accounts | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,4 +23,4 @@ search.app:
 ---
 # Manage subscriptions, licenses, and user accounts
 
-Content has moved to new location. Jim will add to this content.
+This content has moved to [Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide).
