@@ -90,8 +90,6 @@
     href: org-service/
   - name: Use Discovery services
     href: use-discovery-service.md
-  - name: API Limits
-    href: api-limits.md
 - name: Build Windows client applications using the XRM tools
   href: build-windows-client-applications-xrm-tools.md
   items:
@@ -101,19 +99,6 @@
     href: xrm-tooling/use-powershell-cmdlets-xrm-tooling-connect.md
   - name: Reference
     href: https://docs.microsoft.com/dotnet/api/?view=dynamics-xrmtooling-ce-9
-- name: Write mobile and modern apps
-  href: write-mobile-modern-apps.md
-  items:
-  - name: Resources for iOS mobile app development
-    href: ios-mobile-app-development.md
-    items:
-    - name: 'Sample: iOS Activity Tracker for Dynamics 365'
-      href: sample-ios-activity-tracker-web-api.md
-  - name: Resources for Android mobile app development
-    href: android-mobile-app-development.md
-    items:
-    - name: 'Sample: Android Activity Tracker for Dynamics 365'
-      href: sample-android-activity-tracker-web-api.md
 - name: Security model of Customer Engagement
   href: security-dev/security-model.md
   items:

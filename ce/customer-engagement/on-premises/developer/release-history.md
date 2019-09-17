@@ -47,7 +47,7 @@ This topic will record significant incremental changes to the SDK content for th
 [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
 [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
 [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)
-[Write mobile and modern apps](write-mobile-modern-apps.md)<br />
+[Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)<br />
 [Security model of Customer Engagement apps](security-dev/security-model.md)<br />
 [Extend Dynamics 365 Customer Engagement (on-premises)](extend-customer-engagement.md)<br />
 [Model your business data in Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)<br />
