@@ -30,7 +30,8 @@ Duplicate records can creep into your data when you or others enter data manuall
   
  Next, you go to the **My Active Contacts** list and see that now you have two records with the same name. After reviewing the records,  you  determine that they're duplicates that need to be merged.  
   
- ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)](../basics/media/duplicates-list.png "Duplicate contacts listed in the My Active Contacts list in Dynamics 365 Customer Engagement (on-premises)")  
  
 Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rules for accounts, contacts, and leads. These rules are automatically turned on, so you don’t have to do anything to set up duplicate detection for these record types.  
   
@@ -41,7 +42,8 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
   
 1. Select the duplicate records, and then click **Merge**.  
   
-   ![Merge records button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Merge records button in Dynamics 365 Customer Engagement (on-premises)](../basics/media/merge-contact-sbutton.png "Merge records button in Dynamics 365 Customer Engagement (on-premises)")  
   
 2. In the **Merge Records** dialog box, select the master record (the one you want to keep), and then select any fields in the new record that you want to merge into the master record. Data in these fields may override the existing data in the master record. Click **OK**.  
   
@@ -56,14 +58,6 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
 > 
 >   Duplicates aren't detected when you merge records, convert a lead, save an activity as completed, or change the status of a record, such as activating or reactivating a record.  
   
-## For system administrators  
- If you are a system administrator responsible for setting up and managing duplicate detection, see the following topics:  
-  
--   [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)  
-  
--   [Turn duplicate detection rules on or off for the whole organization](../admin/turn-duplicate-detection-rules-off-whole-organization.md)  
-  
--   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
   
 ### See also  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   

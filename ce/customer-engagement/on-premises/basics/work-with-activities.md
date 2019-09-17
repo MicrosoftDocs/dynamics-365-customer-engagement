@@ -29,7 +29,7 @@ In Dynamics 365 Customer Engagement (on-premises), you use **activities** to kee
 ## Keep track of notes, tasks, calls, or email with activities
 In Dynamics 365 Customer Engagement (on-premises), you use **Activities** to keep track of all your customer communications. For example, you can take notes, send email, make phone calls, set up appointments, assign yourself tasks as you resolve a service case, and stay up-to-date with customer news. These actions are all considered types of activities.  
   
- ![Keep track of activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/keep-track-activities.png "Keep track of activities in Dynamics 365 Customer Engagement (on-premises)")  
+   ![Keep track of activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/keep-track-activities.png "Keep track of activities in Dynamics 365 Customer Engagement (on-premises)")  
   
 -   To add phone call details, tasks, notes, and more see: [Add a phone call, task, email, or appointment activity to a case or record](../basics/add-phone-call-task-email-appointment-activity-case-record.md).  
   
@@ -51,7 +51,8 @@ You can find your activities under **My Work**. Once there, select the **Activit
   
 - Select the down arrow next to **My Activities**, and then select **All Activities**, or select the activity type you want (for example, **Email**).  
   
-  ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-actvities-view.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="Filter"></a>  
  
@@ -62,7 +63,8 @@ You can find your activities under **My Work**. Once there, select the **Activit
   
 2. Select the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
-   ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="New"></a>   
 
@@ -115,7 +117,8 @@ To attach a document:
   
 2. On the command bar, select **Mark Complete**.  
   
-   ![Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="MarkSeveral"></a>   
 ## Mark several activities complete at the same time  
@@ -139,7 +142,8 @@ To attach a document:
   
      Use the **Create** command on the nav bar. Find these activities in the list by sorting on the **Regarding** column, which is blank to let you know that the activity isn’t associated with a customer record.  
   
-  ![Find activities not associated with a customer](../basics/media/find-activities-not-associated-with-a-customer.png "Find activities not associated with a customer")  
+   > [!div class="mx-imgBorder"] 
+   > ![Find activities not associated with a customer](../basics/media/find-activities-not-associated-with-a-customer.png "Find activities not associated with a customer")  
   
 - **Keep in mind that activities “roll up” under their associated records.** Let’s say you want to remind yourself to follow up with Chris Preston, a contact who’s associated with the account, Imported Sports. You’ll need to add the task activity to the contact record for Chris (not for the account, Imported Sports).  
   
