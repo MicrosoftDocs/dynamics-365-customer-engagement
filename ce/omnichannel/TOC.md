@@ -181,7 +181,7 @@
 ##### [Step 4: Attach search-related action calls to events](customizer/search-step4-attach-action-calls-events.md)
 ##### [Step 5: Configure window navigation rule for search](customizer/search-step5-configure-window-navigation-rule.md)
 ##### [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
-##### [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/search-step-add-hosted-control-action-calls-events-configurations.md)
+##### [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/search-step7-add-hosted-control-action-calls-events-configurations.md)
 
 #### [Configure session name information](customizer/configure-session-name-information.md)
 
