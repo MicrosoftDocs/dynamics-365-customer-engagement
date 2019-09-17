@@ -245,12 +245,6 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Distribute Campaign Activities to Dynamic and Static Lists](sample-distribute-campaign-activities-dynamic-static-lists.md)<br />
 [Sample: Distribute Campaign Activities to Qualified Marketing List](sample-distribute-campaign-activities-qualified-marketing-list.md)<br />
   
-<a name="BKMK_Mobile"></a>   
-## Mobile  
-
-[Sample: Android Activity Tracker for Dynamics 365 Customer Engagement (on-premises)](sample-android-activity-tracker-web-api.md)<br />
-[Sample: iOS Activity Tracker for Dynamics 365 Customer Engagement (on-premises)](sample-ios-activity-tracker-web-api.md)<br />
-  
 <a name="BKMK_Organization"></a>   
 ## Organization web service  
 
@@ -258,7 +252,7 @@ The following sample code is included for [!INCLUDE[pn_dynamics_crm_online](../i
 [Sample: Authenticate Users with Dynamics 365 for Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](org-service/sample-execute-multiple-requests.md)<br />
 [Sample: Execute multiple requests in transaction](org-service/sample-execute-multiple-requests-transaction.md)<br />
-[Helper Code: ServerConnection Class](org-service/helper-code-serverconnection-class.md)<br />
+[Helper Code: ServerConnection Class](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa/sourcecode?fileId=182557&pathId=222952671)<br />
 [Helper Code: SystemUserProvider class](org-service/helper-code-systemuserprovider-class.md)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](org-service/sample-impersonate-actonbehalfof-privilege.md)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />

@@ -1,7 +1,7 @@
 ---
-title: "Support and billing for Customer Engagement | MicrosoftDocs"
+title: "Support and billing | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/15/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,9 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Dynamics 365 for Customer Engagement support overview
-
-*This content also applies to the on-premises version.*
+# Support overview
 
 ## About Dynamics 365 Support
 

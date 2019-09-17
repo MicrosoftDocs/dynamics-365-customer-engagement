@@ -1,7 +1,7 @@
 ---
-title: "Enable languages for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Enable languages  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,8 +23,6 @@ search.app:
 ---
 # Regional and language options for your organization 
 
-*This content also applies to the on-premises version.*
-
 Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
 
 > [!IMPORTANT]
@@ -36,22 +34,22 @@ Enable languages in your organization to display the user interface and Help in 
 
 |                    Task                     |                                                                                                                                                                                       Description                                                                                                                                                                                       |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          **Set the base language**          |                                                                                          The base language determines default settings for regional and language options in [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. After the base language is set, you can’t change it.                                                                                           |
+|          **Set the base language**          |                                                                                          The base language determines default settings for regional and language options in Customer Engagement (on-premises). After the base language is set, you can’t change it.                                                                                           |
 |       **Enable or disable languages**       |                                                                                                                                                         You can enable or disable available languages in the **Settings** area.                                                                                                                                                         |
-|        **Add and remove currencies**        | Similar to setting the base language, you select your organization's base currency during the purchasing process for a subscription to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. After the base currency is set, you can’t change it.<br /><br /> However, if your organization uses more than one currency to track financial transactions, you can add currencies. |
+|        **Add and remove currencies**        | Similar to setting the base language, you select your organization's base currency during the purchasing process for a subscription to Customer Engagement (on-premises). After the base currency is set, you can’t change it.<br /><br /> However, if your organization uses more than one currency to track financial transactions, you can add currencies. |
 | **Deactivate or activate currency records** |                                                                                       You can’t delete currency records that are being used by other records, such as opportunities or invoices. However, you can deactivate currency records so they won’t be available for future transactions.                                                                                       |
 
 <a name="BKMK_Step2Provision"></a>   
 
 ## Enable the language  
 
- Before users can start using a Language Pack to display a language, the Language Pack must be enabled in your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization.  
+ Before users can start using a Language Pack to display a language, the Language Pack must be enabled in your Customer Engagement (on-premises) organization.  
 
-1. Start the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web application. You’ll need a System Administrator security role or equivalent privileges for the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization that you want to provision a Language Pack for.  
+1. Start the Customer Engagement (on-premises) web application. You’ll need a System Administrator security role or equivalent privileges for the Customer Engagement (on-premises) organization that you want to provision a Language Pack for.  
 
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
 
-3. Click **Languages** to open the **Language Settings** dialog box. Here you’ll see each Language Pack installed in your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps deployment, with a check box to the left of each listed Language Pack  
+3. Click **Languages** to open the **Language Settings** dialog box. Here you’ll see each Language Pack installed in your Customer Engagement (on-premises) deployment, with a check box to the left of each listed Language Pack  
 
 4. For each Language Pack that you want to provision (enable), select the check box next to it. For each Language Pack that you want to unprovision (disable), clear the check box.  
 
@@ -60,29 +58,29 @@ Enable languages in your organization to display the user interface and Help in 
 6. Click **OK** on any confirmation dialog boxes that open.  
 
    > [!NOTE]
-   >  It may take several minutes for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to provision or unprovision the languages.  
+   >  It may take several minutes for Customer Engagement (on-premises) to provision or unprovision the languages.  
 
 7. To close the **Language Settings** dialog box, click **Close**.  
 
-   Repeat the previous steps for each organization in your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps deployment.  
+   Repeat the previous steps for each organization in your Customer Engagement (on-premises) deployment.  
 
 <a name="BKMK_Step3Select"></a>   
 ## Select the language to display the user interface and Help  
- Each user selects the language to display in both the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web client and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] applications.  
+ Each user selects the language to display in both the Customer Engagement (on-premises) web client and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] applications.  
 
 > [!IMPORTANT]
 >  For [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], you must download and install the Language Packs before you can select them. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install and enable a Language Pack](Install%20and%20enable%20a%20Language%20Pack.md)  -->
 
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and open the **Set Personal Options** page, as follows:  
+1. Sign in to Customer Engagement (on-premises) and open the **Set Personal Options** page, as follows:  
 
-   - If you’re using the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps web client, click the **Settings** button ![Settings button](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
+   - If you’re using the Customer Engagement (on-premises) web client, click the **Settings** button ![Settings button](../admin/media/settings-button.png "Settings button"), and then click **Options**.  
 
    - If you are using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], on the top menu bar, choose **Dynamics 365**, and then click **Options**.  
 
 2. Choose the **Languages** tab.  
 
-3. In the **User Interface Language** list, select the language in which you want to display [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+3. In the **User Interface Language** list, select the language in which you want to display Customer Engagement (on-premises).  
 
 4. In the **Help Language** list, select the language in which you want to display [!INCLUDE[pn_Microsoft_Dynamics_CRM_Help](../includes/pn-microsoft-dynamics-crm-help.md)].  
 

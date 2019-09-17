@@ -1,7 +1,7 @@
 ---
-title: "Security concepts for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Security concepts  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Security concepts
 
-*This content also applies to the on-premises version.*
-
-You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to protect the data integrity and privacy in a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
+You use the security model in Dynamics 365 Customer Engagement (on-premises) to protect the data integrity and privacy in a Customer Engagement (on-premises) organization. The security model also promotes efficient data access and collaboration. The goals of the model are as follows:  
   
 -   Provide a multi-tiered licensing model for users.  
   
@@ -37,7 +35,7 @@ You use the security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics
   
 -   Prevent access to objects a user does not own or share.  
   
-You combine business units, role-based security, record-based security, and field-based security to define the overall access to information that users have in your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization.  
+You combine business units, role-based security, record-based security, and field-based security to define the overall access to information that users have in your Customer Engagement (on-premises) organization.  
   
 <a name="Bizunits"></a>   
 ## Business units  
@@ -45,13 +43,13 @@ You combine business units, role-based security, record-based security, and fiel
   
 <a name="Roles"></a>   
 ## Role-based security  
- You can use role-based security to group sets of privileges together into *roles* that describe the tasks that can be performed by a user or team. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps includes a set of predefined security roles, each of which is a set of privileges aggregated to make security management easier. The bulk of the privileges define the ability to create, read, write, delete and share records of a specific entity type. Each privilege also defines how broadly the privilege applies: at the user level, business unit level, the entire business unit hierarchy or across the entire organization.  
+ You can use role-based security to group sets of privileges together into *roles* that describe the tasks that can be performed by a user or team. Customer Engagement (on-premises) includes a set of predefined security roles, each of which is a set of privileges aggregated to make security management easier. The bulk of the privileges define the ability to create, read, write, delete and share records of a specific entity type. Each privilege also defines how broadly the privilege applies: at the user level, business unit level, the entire business unit hierarchy or across the entire organization.  
   
  For example, if you sign in as a user that is assigned the Salesperson role, you have the privileges to read, write and share accounts for the entire organization, but you can only delete account records that you own. Also, you have no privileges to perform system administration tasks such as install product updates, or to add users to the system.  
   
  A user that has been assigned the Vice President of Sales role can perform a wider set of tasks (and has a greater number of privileges) associated with viewing and modifying data and resources than can a user who has been assigned to the Salesperson role. A user assigned the Vice President of Sales role can, for instance, read and assign any account to anyone in the system, while a user assigned the Salesperson role cannot.  
   
- There are two roles that have very broad privileges: System Administrator and Customizer. To minimize misconfiguration, the use of these two roles should be limited to a few people in your organization responsible for administering and customizing [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. Organizations can also customize existing roles and create its own roles to meet their needs. More information: [Security roles](../admin/security-roles-privileges.md)  
+ There are two roles that have very broad privileges: System Administrator and Customizer. To minimize misconfiguration, the use of these two roles should be limited to a few people in your organization responsible for administering and customizing Customer Engagement (on-premises). Organizations can also customize existing roles and create its own roles to meet their needs. More information: [Security roles](../admin/security-roles-privileges.md)  
   
 <a name="User"></a>   
 ## User-based access and licensing  
@@ -61,7 +59,7 @@ You combine business units, role-based security, record-based security, and fiel
   
 - Read-Write access. By default, users have Read-Write access that allows them access to data for which they have appropriate permission set by security roles.  
   
-- Administrative access. Allows access to areas that the user has appropriate permission set by security roles but doesn’t allow the user to view or access business data typically found in the Sales, Service, and Marketing areas, such as accounts, contacts, leads, opportunities, campaigns, and cases. For example, Administrative access can be used to create [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] administrators who can have access to perform a complete variety of administrative tasks, such as create business units, create users, set duplicate detection, but cannot view or access any business data. Notice that users who are assigned this access mode do not consume a CAL.  
+- Administrative access. Allows access to areas that the user has appropriate permission set by security roles but doesn’t allow the user to view or access business data typically found in the Sales, Service, and Marketing areas, such as accounts, contacts, leads, opportunities, campaigns, and cases. For example, Administrative access can be used to create Customer Engagement (on-premises) administrators who can have access to perform a complete variety of administrative tasks, such as create business units, create users, set duplicate detection, but cannot view or access any business data. Notice that users who are assigned this access mode do not consume a CAL.  
   
 - Read access. Allows access to areas for which the user has appropriate access set by security role but the user with Read access can only view data and can’t create or change existing data. For example, a user with the system administrator security role who has read access can view business units, users, and teams but can’t create or modify those records.  
   
@@ -87,8 +85,8 @@ You combine business units, role-based security, record-based security, and fiel
  You can use field-level security to restrict access to specific high business impact fields in an entity only to specified users or teams. Like record-based security, this applies after privileges have taken affect. For example, a user may have privileges to read an account, but can be restricted from seeing specific fields in all accounts. More information: [Field level security](../admin/field-level-security.md)  
   
 <a name="WP"></a>   
-## Security Modeling with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps  
- For detailed information about and best practices for designing  the  security model in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, read the [Scalable Security Modeling with Microsoft Dynamics CRM](http://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
+## Security Modeling with Customer Engagement (on-premises) 
+ For detailed information about and best practices for designing  the  security model in Customer Engagement (on-premises), read the [Scalable Security Modeling with Microsoft Dynamics CRM](http://download.microsoft.com/download/D/6/6/D66E61BA-3D18-49E8-B042-8434E64FAFCA/Scalable%20Security%20Modeling%20with%20Microsoft%20Dynamics%20CRM%202015.pdf) white paper available from the [!INCLUDE[pn_Microsoft_Download_Center](../includes/pn-microsoft-download-center.md)].  
   
 ### See also  
  [Field level security](../admin/field-level-security.md)   
@@ -100,4 +98,4 @@ You combine business units, role-based security, record-based security, and fiel
  [Manage teams](../admin/manage-teams.md)   
  [Add teams or users to a field security profile](../admin/add-teams-users-field-security-profile.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
- <!-- [Microsoft Dynamics 365 for Customer Engagement apps administration best practices](Administration%20best%20practices%20for%20on-premises%20deployments%20of%20Microsoft%20Dynamics%20365.md)   -->
+

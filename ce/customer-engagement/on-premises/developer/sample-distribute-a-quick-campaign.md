@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Distribute a quick campaign
 
-This sample code is for Dynamics 365 for Customer Engagement (on-premises). Download the complete sample from [Sample: Work with Marketing entities](https://code.msdn.microsoft.com/Marketing-Samples-c5429380).  
+This sample code is for Dynamics 365 Customer Engagement (on-premises). Download the complete sample from [Sample: Work with Marketing entities](https://code.msdn.microsoft.com/Marketing-Samples-c5429380).  
 
 ## Prerequisites
 

@@ -23,7 +23,7 @@ search.app:
 
 Find the records you want in Dynamics 365 Customer Engagement (on-premises) by using the Advanced Find command. You can also use Advanced Find to prepare data for export to [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] so that you analyze, summarize, or aggregate data, or create PivotTables to view your data from different perspectives.  
 
-With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], you can use the advanced find option to build a “Not In” query records using **Does not contain data** option.
+With the Customer Engagement (on-premises), you can use the advanced find option to build a “Not In” query records using **Does not contain data** option.
   
 1. [!INCLUDE[proc_advanced_find](../includes/proc-advanced-find.md)]  
   
@@ -61,6 +61,5 @@ With the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], yo
   
 5. Select **Results**.  
   
-### See also  
- [Search for records](../basics/search-records.md)
+
 

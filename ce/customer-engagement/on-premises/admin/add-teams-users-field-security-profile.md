@@ -1,7 +1,7 @@
 ---
-title: "Add teams or users to a field security profile for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Add teams or users to a field security profile  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Add teams or users to a field security profile to control access
 
-*This content also applies to the on-premises version.*
-
-Role-based security controls access to a specific entity type, record-based security controls access to individual records, and field-level security controls access to specific fields. You can use a field security profile to manage the permission of users and teams to read, create, or write in secured fields. For example, the System Administrator field security profile gives full access to all secured fields in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+Role-based security controls access to a specific entity type, record-based security controls access to individual records, and field-level security controls access to specific fields. You can use a field security profile to manage the permission of users and teams to read, create, or write in secured fields. For example, the System Administrator field security profile gives full access to all secured fields in Dynamics 365 Customer Engagement (on-premises).  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -45,6 +43,6 @@ Role-based security controls access to a specific entity type, record-based secu
   
 ### See also  
  [Control data access](../admin/security-roles-privileges.md)   
- [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
+ [Security concepts](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
- [Synchronize user information between Microsoft Dynamics 365 for Customer Engagement apps and Active Directory](../admin/synchronize-user-information-active-directory.md)
+ [Synchronize user information between Dynamics 365 Customer Engagement (on-premises) and Active Directory](../admin/synchronize-user-information-active-directory.md)

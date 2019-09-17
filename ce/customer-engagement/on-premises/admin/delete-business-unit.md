@@ -1,7 +1,7 @@
 ---
-title: "Delete a Dynamics 365 for Customer Engagement apps business unit | MicrosoftDocs"
+title: "Delete a business unit | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/20/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Delete a business unit
 
-*This content also applies to the on-premises version.*
-
-You can delete a business unit to completely remove it from [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+You can delete a business unit to completely remove it from Dynamics 365 Customer Engagement (on-premises).  
   
 > [!IMPORTANT]
 >  Before deleting a business unit, be sure to consider the following:  
