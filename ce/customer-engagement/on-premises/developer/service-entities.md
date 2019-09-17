@@ -1,29 +1,28 @@
 ---
-title: "Service entities in Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Service entities in Dynamics 365 Customer Engagement (on-premises)(Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about service entites that are targeted at the customer service department of an organization."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - service entities (contract; incident; knowledge base), introduction
   - customer service department, entities for
 ms.assetid: 4a81b285-0ebc-446e-920e-ac7d82d4b027
-caps.latest.revision: 25
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
 ---
-# Service entities in Dynamics 365 for Customer Engagement
+# Service entities for Customer Service
 
 The entities described in this section are targeted at the customer service department of an organization.  
   
@@ -39,7 +38,7 @@ The entities described in this section are targeted at the customer service depa
 > 
 >   While these entities appear to support common messages and methods, they also have a dependency on the web application so that certain messages will not work as expected when called directly from the web services. You should not use these entities in your code.  
 > 
->   However, with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message on the `ConvertRule`, `RoutingRule`, and `SLA` entities to programmatically activate or deactivate these entity records. For information about changing the state of an entity record using the `Update` message, see [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md)  
+>   However, with the Dynamics 365 Customer Engagement (on-premises) platform, you can use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message on the `ConvertRule`, `RoutingRule`, and `SLA` entities to programmatically activate or deactivate these entity records. For information about changing the state of an entity record using the `Update` message, see [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md)  
   
 ## In This Section  
  [Contract Entities](contract-entities.md)  

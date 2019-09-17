@@ -22,7 +22,7 @@ search.app:
 ---
 # Active Directory and claims-based authentication
 
-Claims-based authentication provides an industry standard security protocol to authenticate a user on a host computer. Claims-based authentication is a set of WS-* standards describing the use of a Security Assertion Markup Language (SAML) token in either passive mode (when WS-Federation is used with the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web application) or active mode (where WS-Trust in used with [!INCLUDE[pn_WCF_long](../includes/pn-wcf-long.md)] clients). This authentication works together with WCF to provide secure user authentication and a communication channel with a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server. All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]apps edition support claims-based authentication.
+Claims-based authentication provides an industry standard security protocol to authenticate a user on a host computer. Claims-based authentication is a set of WS-* standards describing the use of a Security Assertion Markup Language (SAML) token in either passive mode (when WS-Federation is used with the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] web application) or active mode (where WS-Trust in used with [!INCLUDE[pn_WCF_long](../includes/pn-wcf-long.md)] clients). This authentication works together with WCF to provide secure user authentication and a communication channel with a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]apps edition support claims-based authentication.
 
  Claims-based authentication requires the availability of a security token service (STS) running on a server. An STS server can be based on [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] Federation Services (AD FS) V2, or any platform that provides the official STS protocol. More information: [TechNet: Configure IFD for Dynamics 365 for Customer Engagement (on-premises)](https://technet.microsoft.com/library/dn609803.aspx).   
 
@@ -30,21 +30,21 @@ Claims-based authentication provides an industry standard security protocol to a
 
 ## Supported authentication scenarios 
 
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps support the following authentication scenarios for each deployment type.  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] support the following authentication scenarios for each deployment type.  
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
 |                                                 Deployment                                                 |                                                  Authentication model                                                   |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-|                          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps                           | Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] (through federation) authentication |
+|                          [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]                           | Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] (through federation) authentication |
 |           [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)]          |           Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication            |
-| [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps Internet-facing deployment (IFD) |           Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication            |
+| [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Internet-facing deployment (IFD) |           Claims-based or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication            |
 
 ### How claims-based authentication works  
- A request to authenticate a user is sent from [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps or a custom application to the STS server. The STS server determines whether the user should be authenticated, and if so, issues a signed and encrypted SAML token that contains user authentication information. The token has a finite life span and may have to be periodically refreshed depending on how long your application is using the token. This is discussed in more detail later in this topic.  
+ A request to authenticate a user is sent from [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] or a custom application to the STS server. The STS server determines whether the user should be authenticated, and if so, issues a signed and encrypted SAML token that contains user authentication information. The token has a finite life span and may have to be periodically refreshed depending on how long your application is using the token. This is discussed in more detail later in this topic.  
 
 ### How Active Directory authentication works  
- A request to authenticate a user is sent from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps or a custom application to [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. The WCF stack manages the authentication process for Organization Service calls from an application, whereas [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] manages authentication for a web application.  
+ A request to authenticate a user is sent from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or a custom application to [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]. The WCF stack manages the authentication process for Organization Service calls from an application, whereas [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] manages authentication for a web application.  
 
 <a name="bkmk_unsupported"></a>   
 
@@ -74,7 +74,7 @@ Claims-based authentication provides an industry standard security protocol to a
 
 <a name="bkmk_clientproxy"></a>   
 ## Authentication by using the client proxy classes  
- One way to authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services is by using the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> and <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy> classes in the applications that you write. The four-parameter constructor of these classes supports [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps deployment. These proxy classes automatically handle claims or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication and also manage resource limits on the WCF channel endpoint.  
+ One way to authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services is by using the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> and <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy> classes in the applications that you write. The four-parameter constructor of these classes supports [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] deployment. These proxy classes automatically handle claims or [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication and also manage resource limits on the WCF channel endpoint.  
 
  The following code shows how to instantiate the organization service proxy:  
 
@@ -106,7 +106,7 @@ _serviceProxy.EnableProxyTypes()
 > 
 >  When making SDK calls to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services, the ownership of the operation and entity data changes performed by the SDK call can be changed by this WCF feature independent of your code.  
 > 
-> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps handle supplied credentials in web service calls as follows:  
+> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] handle supplied credentials in web service calls as follows:  
 > 
 > - If credentials are not supplied in the web service call, the WCF stack determines which credentials to use. In that case, the `SupportInteractive` property value is automatically set to `false`.  
 >   -   If credentials are explicitly supplied by your code, the current `SupportInteractive` value is passed to the WCF channel factory. `SupportInteractive` is set to `true` by default unless you explicitly change it.  
@@ -129,14 +129,14 @@ _serviceProxy.EnableProxyTypes()
  The SAML token used during user authentication is described below.  
 
 ### Contents of the SAML token  
- The XML-based SAML 2.0 token contains an identity that defines one or more claims about a user. This token is passed between an identity provider (STS) server and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps for claims-based authentication. The claims in the identity have been defined as follows.  
+ The XML-based SAML 2.0 token contains an identity that defines one or more claims about a user. This token is passed between an identity provider (STS) server and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for claims-based authentication. The claims in the identity have been defined as follows.  
 
 
 |             Claim              |                                                                                                                                                                                                                     Use                                                                                                                                                                                                                      |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Universal Principal Name (UPN) |                                                                                                                                                       Contains the user’s ID in domain\alias format on the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.                                                                                                                                                        |
 |              Name              | If the authenticated user is also a Deployment Administrator in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], this claim contains the deployment administrator’s ID in domain\alias format on the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. [!INCLUDE[pn_Windows_Identity_Foundation](../includes/pn-windows-identity-foundation.md)] maps the `Name` claim to the `Identity.name` property. |
-|        Any other claims        |                                                                                                                                                                                   Not used by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.                                                                                                                                                                                   |
+|        Any other claims        |                                                                                                                                                                                   Not used by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].                                                                                                                                                                                   |
 
 ### Supported security token types  
  [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support two types of SAML tokens:  

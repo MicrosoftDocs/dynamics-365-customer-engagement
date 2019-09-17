@@ -1,7 +1,7 @@
 ---
 title: "Determine your environment's organization ID and name | MicrosoftDocs"
 ms.custom: 
-ms.date: 03/18/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Determine your environment's organization ID and name
-
-*This content also applies to the on-premises version.*
 
 Follow these steps to determine your organization name and ID.
 

@@ -1,7 +1,7 @@
 ---
 title: "Key preparation and configuration tasks | MicrosoftDocs"
 ms.custom: 
-ms.date: 11/11/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,18 +23,16 @@ search.app:
 ---
 # Key preparation and configuration tasks
 
-*This content also applies to the on-premises version.*
-
-This topic, which is intended for administrators and business users of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, even before your business begins to use it.  
+This topic, which is intended for administrators and business users of Dynamics 365 Customer Engagement (on-premises), describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with Customer Engagement (on-premises), even before your business begins to use it.  
   
 <a name="bkmk_commonconfig"></a>   
 
 ## Common configuration settings for Internet Explorer  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is a web-based application and uses web browsers, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], as the user interface to view, add, or edit information that you’ve stored in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps database. Make the following common [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] configuration settings to optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps experience.  
+ Customer Engagement (on-premises) is a web-based application and uses web browsers, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], as the user interface to view, add, or edit information that you’ve stored in the Customer Engagement (on-premises) database. Make the following common [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] configuration settings to optimize your Customer Engagement (on-premises) experience.  
   
  **Increase disk space for temporary Internet files**  
   
- To make sure that Internet files for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps are not being deleted, increase the disk space for temporary Internet files.  
+ To make sure that Internet files for Customer Engagement (on-premises) are not being deleted, increase the disk space for temporary Internet files.  
   
 1. Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
   
@@ -46,19 +44,19 @@ This topic, which is intended for administrators and business users of [!INCLUDE
   
 **Retain browsing history**  
   
-To optimize your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps experience, we recommend that you do not select the option to delete the browsing history when you exit from your browser. If you select this option, it deletes everything marked in your **Browsing history** settings, such as temporary Internet files, cookies, and history (by default, the check boxes for these options are selected). Deleting your temporary Internet files causes [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to cache the files again, and deleting cookies signs you out of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
+To optimize your Customer Engagement (on-premises) experience, we recommend that you do not select the option to delete the browsing history when you exit from your browser. If you select this option, it deletes everything marked in your **Browsing history** settings, such as temporary Internet files, cookies, and history (by default, the check boxes for these options are selected). Deleting your temporary Internet files causes [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to cache the files again, and deleting cookies signs you out of Customer Engagement (on-premises).  
   
 1. Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
   
 2. Click or tap the **General** tab, and in the **Browsing history** section, make sure that the **Delete browsing history on exit** check box is cleared.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
+   Customer Engagement (on-premises) occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the Customer Engagement (on-premises) websites.  
   
-   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps websites.  
+   Customer Engagement (on-premises) occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the Customer Engagement (on-premises) websites.  
   
    **If you experience slower performance in Internet Explorer**  
   
-If your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps performance is slower in Internet Explorer than in other browsers, set **JavaScript Timer Frequency** to **Maximum Performance**.  
+If your Customer Engagement (on-premises) performance is slower in Internet Explorer than in other browsers, set **JavaScript Timer Frequency** to **Maximum Performance**.  
   
 1. Go to **Control Panel** > **System and Security** > **Power Options**.  
   
@@ -140,39 +138,26 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
 <a name="bkmk_antivirusormalware"></a>   
 
 ## Antivirus or malware application settings  
- Depending on your antivirus or malware application settings, virus scanning can block certain files, making them inaccessible to other applications and causing an adverse effect on [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps performance.  
+ Depending on your antivirus or malware application settings, virus scanning can block certain files, making them inaccessible to other applications and causing an adverse effect on Customer Engagement (on-premises) performance.  
   
  Each environment requires a thoughtful decision on what to include and exclude, and there is always a possibility that excluding files from scans could lead to unwanted consequences. Use the following list alongside your well-planned internal IT management policies:  
   
-- Check for any interference from desktop security software. Some antivirus programs include a feature known as ScriptScan that can affect the performance of [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. Most programs have functionality to disable scanning on certain websites. Make sure that the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps URL is added to this list. For McAfee specifically, see the following KB articles for this setting:  
+- Check for any interference from desktop security software. Some antivirus programs include a feature known as ScriptScan that can affect the performance of Customer Engagement (on-premises). Most programs have functionality to disable scanning on certain websites. Make sure that the Customer Engagement (on-premises) URL is added to this list. For McAfee specifically, see the following KB articles for this setting:  
   
   -   [McAfee Knowledge Base Article: KB65382](https://kc.mcafee.com/corporate/index?page=content&id=KB65382)  
   
   -   [Microsoft Support Knowledge Base Article: KB924341](http://go.microsoft.com/fwlink/p/?LinkId=232344)  
   
-- If you use other antivirus software, make sure that the URL of the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps website is included in the trusted zone for the virus scanning, and disable on-access scanning for the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps website.  For more information, see the specific antivirus application documentation.  
-  
-<a name="bkmk_importantemail"></a>   
-
-## Important email messages from Microsoft Dynamics 365 for Customer Engagement apps 
- Microsoft occasionally sends out email messages to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps users or administrators. These messages provide information about how to use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and also contain important billing or upgrade details.  
-  
- Make sure that the following email addresses are added to the allowed list for your email application:  
-  
-- <strong>crmonl@microsoft.com</strong>. This email alias sends information about updates to the service.  
-  
-- <strong>billing@microsoft.com</strong>. This email alias sends information about [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps billing.  
-  
-- <strong>msonlineservicesteam@microsoftonline.com</strong>. This email alias sends informational email messages when you sign up for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps.  
+- If you use other antivirus software, make sure that the URL of the Customer Engagement (on-premises) website is included in the trusted zone for the virus scanning, and disable on-access scanning for the Customer Engagement (on-premises) website.  For more information, see the specific antivirus application documentation.  
   
 <a name="bkmk_availableresources"></a>   
 
-## Available resources for Microsoft Dynamics 365 for Customer Engagement apps users  
- We want you and your organization to take full advantage of the extensive content and materials available that can help your business be more successful while you are using [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. For a list of available resources, including training materials and information about how to support your online organization, see the [Help and additional resources](help-additional-resources.md).  
+## Available resources   
+ We want you and your organization to take full advantage of the extensive content and materials available that can help your business be more successful while you are using Customer Engagement (on-premises). For a list of available resources, including training materials and information about how to support your online organization, see the [Help and additional resources](help-additional-resources.md).  
   
 <a name="bkmk_techsupp"></a>   
 
-## Technical support for Microsoft Dynamics 365 for Customer Engagement apps 
+## Technical support  
  If you cannot find the answers you need in the resources discussed earlier, you can submit a technical support request to [!INCLUDE[pn_ms_Customer_Support_Services](../includes/pn-ms-customer-support-services.md)]. Technical support incidents provide reactive support that focuses on a specific problem, error message, or functionality that is not working as intended. For assistance information, see [Support](http://go.microsoft.com/fwlink/p/?LinkID=394391).  
   
 ### Maximize your technical support experience  
@@ -186,7 +171,7 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
    Provide detailed information, including the exact error message that you are seeing. Include a screen capture if you can.  
   
-- What were you doing in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps when the error occurred?  
+- What were you doing in Customer Engagement (on-premises) when the error occurred?  
   
    Provide the exact steps that you are performing to reproduce the error. This lets the Support team better analyze why you may be experiencing it.  
   
@@ -194,16 +179,16 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
    Provide the version of the operating system, browser, and if applicable, the version of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] on the computers where the issue is occurring.  
   
-- Does the issue affect all users or a certain type of [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps security role or only certain users?  
+- Does the issue affect all users or a certain type of Customer Engagement (on-premises) security role or only certain users?  
   
   When possible, provide log files (if you know how to find them). This applies to applications such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. The following table lists the location of the log or trace files for these applications.  
   
 |                                                                                     |                                                                      |
 |-------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 |                                 **Logs or Traces**                                  |                        **Log File Location**                         |
-|    [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
-| [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
-|   [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
+|    Customer Engagement (on-premises) for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
+| Customer Engagement (on-premises) for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
+|   Customer Engagement (on-premises) E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
   
 ### See also  
- [Set up a Dynamics 365 for Customer Engagement apps organization](../admin/set-up-a-dynamics-365-organization.md)
+ [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)

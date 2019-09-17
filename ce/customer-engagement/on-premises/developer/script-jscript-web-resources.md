@@ -52,8 +52,8 @@ Use Script(JScript) web resources to create a library of [!INCLUDE[pn_JavaScript
  To reference a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] from a different publisher, the path must include the customization prefix for that publisher. For example, for the `new_/content/contentpage.htm` page to reference the `MyIsv_/scripts/customscripts.js` page, the `src` attribute value should be `../../MyIsv_/scripts/customscripts.js`.  
   
 ### See also  
- [Use JavaScript with Customer Engagement apps](use-javascript.md)   
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)   
+ [Use JavaScript with Customer Engagement (on-premises)](use-javascript.md)   
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)   
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)   
  [Using Web Page (HTML) Web Resources](webpage-html-web-resources.md)   
  [Using Style Sheet (CSS) Web Resources](css-web-resources.md)   

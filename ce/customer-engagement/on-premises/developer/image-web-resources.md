@@ -24,7 +24,7 @@ search.app:
 ---
 # Image web resources
 
-Use image web resources to make images available for use in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+Use image web resources to make images available for use in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
 
 There are 5 types of image web resources: 
 * PNG Format

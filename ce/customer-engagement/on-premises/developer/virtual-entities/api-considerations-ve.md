@@ -45,7 +45,7 @@ This assembly is distributed with the Dynamics 365 Customer Engagement (on-premi
 
 ## Changes to the core platform
 
-The following changes to the standard [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] apps reference types were introduced to support virtual entities.
+The following changes to the standard [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] reference types were introduced to support virtual entities.
 
 ### New Web API types
 

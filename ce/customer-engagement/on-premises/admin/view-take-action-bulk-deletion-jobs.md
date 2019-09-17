@@ -1,7 +1,7 @@
 ---
-title: "View and take action on Dynamics 365 for Customer Engagement apps bulk deletion jobs | MicrosoftDocs"
+title: "View and take action on bulk deletion jobs | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # View and take action on bulk deletion jobs
-
-*This content also applies to the on-premises version.*
 
 You can view the status of, pause, postpone, and resume a system job that you created using **Bulk Record Deletion**.  
   

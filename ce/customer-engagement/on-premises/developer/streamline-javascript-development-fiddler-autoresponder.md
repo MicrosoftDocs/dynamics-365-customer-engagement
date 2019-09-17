@@ -80,6 +80,6 @@ By following the above steps, Fiddler is configured to listen to the requests an
 
 ## See Also
 
-[Web resources for Customer Engagement apps](web-resources.md)<br />
-[Use JavaScript with Customer Engagement apps](use-javascript.md)<br />
-[Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)
+[Web resources for Customer Engagement (on-premises)](web-resources.md)<br />
+[Use JavaScript with Customer Engagement (on-premises)](use-javascript.md)<br />
+[Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)

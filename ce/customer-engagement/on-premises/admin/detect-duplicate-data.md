@@ -1,7 +1,7 @@
 ---
-title: "Detect duplicate data for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Detect duplicate data  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -18,10 +18,9 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Detect duplicate data in Customer Engagement (on-premises)
+# Detect duplicate data 
 
-
-To determine whether a record is a potential duplicate, Dynamics 365 Customer Engagement (on-premises) uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, it's matchcode can be checked automatically against the matchcodes of existing records. By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps has simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
+To determine whether a record is a potential duplicate, Dynamics 365 Customer Engagement (on-premises) uses duplicate detection rules. When publishing a duplicate detection rule, a matchcode is created for each existing record. A matchcode is also created when a record is created or updated. When a record is in the process of being created or updated, it's matchcode can be checked automatically against the matchcodes of existing records. By default, Customer Engagement (on-premises) has simple duplicate detection rules for accounts, contacts, and leads. For example, you detect duplicates by matching the record fields, such as email address, first name, and last name.  
   
 Duplicate detection works by comparing generated match codes of existing records with each new record being created. These match codes are created as each new record is created. Therefore, there is potential for one or more duplicate records to be created if they are processed at the exact same moment. In addition to detecting duplicates as they are created, you should schedule duplicate detection jobs to check for other potential duplicate records.  
   

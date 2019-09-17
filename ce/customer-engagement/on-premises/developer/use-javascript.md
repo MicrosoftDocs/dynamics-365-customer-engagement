@@ -18,7 +18,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use JavaScript with Customer Engagement apps
+# Use JavaScript with Customer Engagement (on-premises)
 
 [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] provide many opportunities to use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. All [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is added by creating [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resources. This topic has information for developers who use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and includes links to relevant topics in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] and other sources.  
   
@@ -143,7 +143,7 @@ search.app:
 
  [Write Client Application Extensions](extend-client.md)<br />
  [Work with Customer Engagement data using web resources](work-data-using-web-resources.md)<br />
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)<br />
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)<br />
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)<br />
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
  [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />
