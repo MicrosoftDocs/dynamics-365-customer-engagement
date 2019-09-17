@@ -27,7 +27,7 @@ search.app:
 
 [!INCLUDE [cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
- When you customize a model-driven app, you may work with the default solution. To open the default solution, open solution explorer.  
+ When you customize a custom business app, you may work with the default solution. To open the default solution, open solution explorer.  
   
 > [!TIP]
 >  After you have the default solution open, use `Ctrl+D` to create a favorite or bookmark in your browser. This will help you open it faster even if you don’t already have the web application open.  

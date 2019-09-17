@@ -1,5 +1,5 @@
 ---
-title: "Create or edit a model-driven app using the app designer in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit a custom business app using the app designer in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
 keywords: 
 ms.date: 06/20/2019

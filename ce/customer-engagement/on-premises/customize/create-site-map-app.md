@@ -67,7 +67,7 @@ Verify the following prerequisites before you start creating the site map:
   
 ## Edit the default site map 
 
- Your environment comes with a default site map. This site map is supported for both model-driven apps and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+ Your environment comes with a default site map. This site map is supported for both custom business apps and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
 1. In the [!include[](../includes/pn-custom-app-module.md)] app, go to **Settings** > **Customizations**.  
   
