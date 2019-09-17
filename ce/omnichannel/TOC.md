@@ -173,7 +173,7 @@
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
-#### [Configure search]
+#### Configure search
 ##### [Overview](customizer/configure-search.md)
 ##### [Step 1: Create search hosted control](customizer/search-step1-create-hosted-control.md)
 ##### [Step 2: Create search-related action calls](customizer/search-step2-create-action-calls.md)
