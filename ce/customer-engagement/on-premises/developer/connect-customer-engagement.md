@@ -34,7 +34,7 @@ search.app:
  [Get Started](get-started-sdk.md)<br />
  [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)<br />
- [Write mobile and modern apps](write-mobile-modern-apps.md)<br />
+ [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)<br />
  [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)<br />
  [Extend Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)<br />
  [Model Your Business Data](model-business-data.md)<br />
