@@ -68,9 +68,25 @@ This is done by
 
 After the work order is saved, a resource requirement is automatically created and you can access it by going to **Related > Requirement** from the work order section menu. 
 
+If you have not done so, enter a multi-day duration in the **Duration** field, as well as **From Date** and **To Date** that describes the date range the multi-day work should be spread across. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30.png)
 
+**Pro Tip:** The requirement From Date and To Date will populate with the **Date Window Start** and **Date Window End** work order field values.
+
+
+Next go to the schedule board and select the requirement in the lower pane.
+
+Then select a Resource on the board you would like to schedule the multi-day work order requirement to.
+
+A "Create Resource Booking" pane wll display on the right where you can confirm or edit:
+
+Start Date and End Date: populated from Requirement From Date and To Date fields.
+
+Booking Status: Work order requirements are typically given a Booking Status of "Scheduled" by default but you can choose from your organization's statuses here.
+
+Booking Method: Select the Allocation Method to define the pattern of how the requirement should be spread  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board.png)
