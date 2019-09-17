@@ -221,6 +221,7 @@
 #### [msdyn_surveyquestion](developer/reference/entities/msdyn_surveyquestion.md)
 #### [msdyn_systemuser_msdyn_omnichannelqueue](developer/reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md)
 #### [msdyn_transcript](developer/reference/entities/msdyn_transcript.md)
+#### [msdyn_visitorjourney](developer/reference/entities/msdyn_visitorjourney.md)
 ### Live chat JavaScript API Reference
 #### [Overview](developer/omnichannel-reference.md)
 #### [Methods]()
