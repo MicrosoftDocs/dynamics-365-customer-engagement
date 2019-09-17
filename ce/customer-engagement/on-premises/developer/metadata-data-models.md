@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 89780be5-e5f7-4fa8-9565-3442eda5708d
 author: JimDaly
 ms.author: jdaly
@@ -55,7 +55,7 @@ search.app:
  [Use the Organization service with Dynamics 365 Customer Engagement (on-premises) metadata](org-service/use-organization-service-metadata.md)   
  [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)   
  [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)   
- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)   
+ [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)   
  [Extend Dynamics 365 for Outlook](extend-customer-engagement-outlook.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md)   

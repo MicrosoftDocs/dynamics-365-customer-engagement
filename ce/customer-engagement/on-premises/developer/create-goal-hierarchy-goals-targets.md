@@ -1,5 +1,5 @@
 ---
-title: "Create goal hierarchy, goals, and targets (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Create goal hierarchy, goals, and targets (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - goal management entities, goal hierarchy terms defined
   - goal management entities, setting target time periods for goals

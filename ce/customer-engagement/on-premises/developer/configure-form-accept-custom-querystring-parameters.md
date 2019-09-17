@@ -1,5 +1,5 @@
 ---
-title: "Configure a form to accept custom querystring parameters (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Configure a form to accept custom querystring parameters (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about configuring a form to acept custom querystring parameters. Use these parameters to set default values when you create a new record in the application."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6c05ff14-2d5a-4e90-a3c4-dc7ca1ec4698
 caps.latest.revision: 19
 author: JimDaly

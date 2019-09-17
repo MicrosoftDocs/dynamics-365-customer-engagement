@@ -1,5 +1,5 @@
 ---
-title: "KnowledgeArticleViews Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "KnowledgeArticleViews Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the KnowledgeArticleViews entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

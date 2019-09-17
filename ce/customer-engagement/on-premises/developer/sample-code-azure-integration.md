@@ -1,6 +1,6 @@
 ---
 title: "Sample code for Dynamics 365 Customer Engagement (on-premises) and Microsoft Azure integration (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "The section contains sample code for integrating Dynamics 365 for Customer Engagement (online) Customer Engagement and Azure through the Azure Service Bus."
+description: "The section contains sample code for integrating Dynamics 365 Customer Engagement (on-premises) Customer Engagement and Azure through the Azure Service Bus."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: f55a4da7-987b-4120-beeb-60dba0f3be7e
 caps.latest.revision: 30
 author: JimDaly
@@ -20,9 +20,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Sample code for Dynamics 365 for Customer Engagement and Azure integration
+# Sample code for Dynamics 365 Customer Engagement and Azure integration
 
-This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] through the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To build the listener samples, you need to install the v1.7 or 1.8 [Microsoft Azure SDK](http://azure.microsoft.com/downloads/archive-net-downloads/) that includes the Microsoft.ServiceBus.dll assembly referenced by the samples.  
+This section contains sample code for integrating [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] through the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To build the listener samples, you need to install the v1.7 or 1.8 [Microsoft Azure SDK](http://azure.microsoft.com/downloads/archive-net-downloads/) that includes the Microsoft.ServiceBus.dll assembly referenced by the samples.  
   
 ## In This Section  
  [Sample: Azure Aware Custom Plug-in](sample-azure-aware-custom-plugin.md)  

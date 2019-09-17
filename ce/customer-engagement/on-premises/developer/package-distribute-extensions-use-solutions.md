@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - solutions in Microsoft Dynamics 365 Customer Engagement (on-premises), packaging and distributing extensions
   - framework for packaging and installing components that have specific business functionality, solutions in Microsoft Dynamics 365 Customer Engagement (on-premises)

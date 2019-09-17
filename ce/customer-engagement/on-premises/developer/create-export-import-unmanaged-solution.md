@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - unmanaged solutions, creating; exporting; or importing
   - troubleshooting, importing solutions from earlier versions
@@ -53,7 +53,7 @@ In addition to being a prerequisite to creating a managed solution, an unmanaged
 |      Field Label       |                                                                                                                                                              Description                                                                                                                                                               |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    **Display Name**    |                                                                                                                                                       The name for the solution.                                                                                                                                                       |
-|        **Name**        |                                     [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement generates a unique name is based on the **Display Name**. You can edit the unique name. The unique name must only contain alphanumeric characters or the underscore character.                                     |
+|        **Name**        |                                     [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] generates a unique name is based on the **Display Name**. You can edit the unique name. The unique name must only contain alphanumeric characters or the underscore character.                                     |
 |     **Publisher**      |                                                                                                                                Use the **Publisher** lookup to associate the solution with a publisher.                                                                                                                                |
 |      **Version**       |                                                                                                                     Specify a version with the following format: major.minor.build.revision, for example: 1.0.0.0.                                                                                                                     |
 | **Configuration Page** | If you include an HTML Web resource in your solution, you can use this lookup to add it as your designated configuration page.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Solution Configuration Page](create-export-import-unmanaged-solution.md#BKMK_UseSolutionConfigurationPage) |

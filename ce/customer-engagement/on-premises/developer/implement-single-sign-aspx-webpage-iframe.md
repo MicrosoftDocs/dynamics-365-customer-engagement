@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - single sign-on from an ASPX webpage or IFRAME, implementing
   - ASPX webpage with (optionally) IFRAME display, implementing single sign-on from an ASPX webpage or IFRAME

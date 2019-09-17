@@ -1,5 +1,5 @@
 ---
-title: "Ribbon core schema (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Ribbon core schema (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema definition for the ribbon core portion of an import/export customization file. It is included from the Customization Solutions File Schema. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b556e9a4-a161-4eac-9759-f9aaf2f02fb2
 caps.latest.revision: 16
 author: JimDaly
@@ -26,7 +26,7 @@ The following is the schema definition for the ribbon core portion of an import/
 
 Download the [Schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
 
-For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 for Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
+For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Customer Engagement Solutions](../package-distribute-extensions-use-solutions.md).
   
 ## Ribbon Core Schema  
   

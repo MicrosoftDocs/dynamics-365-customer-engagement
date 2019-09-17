@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0bdfc509-dcea-4ed2-bbac-b4836b777cbe
 caps.latest.revision: 38
 author: JimDaly
@@ -47,7 +47,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
   
 - **Single Line**: Lets you input a single line of *text*, *integer*, or *float* value. A text box is displayed for the prompt, where you can type the response.  
   
-- **Radio Button**: Lets you select from a predefined set of responses, or select from the data queried from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement using the `Query CRM Data` step. For example, you could choose from the following modes of communication for the new offers: email, fax, phone, or letter. Further, you can specify the data type for the responses: *text*, *integer*, or *float*. The response options are displayed as radio buttons.  
+- **Radio Button**: Lets you select from a predefined set of responses, or select from the data queried from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using the `Query CRM Data` step. For example, you could choose from the following modes of communication for the new offers: email, fax, phone, or letter. Further, you can specify the data type for the responses: *text*, *integer*, or *float*. The response options are displayed as radio buttons.  
   
 - **Picklist**: Lets you select from a predefined set of responses, or select from the data queried from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using the `Query CRM Data` step. However, in this case, the response options are displayed in a drop-down list.  
   

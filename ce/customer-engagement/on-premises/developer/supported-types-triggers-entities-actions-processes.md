@@ -1,6 +1,6 @@
 ---
 title: "Supported types, triggers, entities, and actions for processes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "The topic provides information about the supported types and entities for processes in Dynamics 365 for Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
+description: "The topic provides information about the supported types and entities for processes in Dynamics 365 Customer Engagement, supported triggers for workflows, entities that are supported for the CreateEntity activity, and supported actions for workflows. "
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b2c14b32-e7da-4f9b-b7b1-659596c456ca
 caps.latest.revision: 33
 author: KumarVivek
@@ -22,7 +22,7 @@ search.app:
 ---
 # Supported types, triggers, entities, and actions for processes
 
-This topic provides information about the supported types and entities for processes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, supported triggers for workflows, entities that are supported for the <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity> activity, and supported actions for workflows.  
+This topic provides information about the supported types and entities for processes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], supported triggers for workflows, entities that are supported for the <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity> activity, and supported actions for workflows.  
 
 <a name="bkmk_triggersWorkflows"></a>   
 ## Supported triggers for workflows  
@@ -222,7 +222,7 @@ This topic provides information about the supported types and entities for proce
 |             ResolveQuote             |                                                                          <xref:Microsoft.Crm.Sdk.Messages.CloseQuoteRequest>                                                                           |
 |             ReviseQuote              |                                                                          <xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>                                                                          |
 |              SetProcess              |                                                                          <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>                                                                           |
-|           SetWordTemplate            | Custom action to create a word template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using Word templates in Dynamics 365 for Customer Engagement](../admin/using-word-templates-dynamics-365.md) |
+|           SetWordTemplate            | Custom action to create a word template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using Word templates in Dynamics 365 Customer Engagement](../admin/using-word-templates-dynamics-365.md) |
 |         UnlockInvoicePricing         |                                                                     <xref:Microsoft.Crm.Sdk.Messages.UnlockInvoicePricingRequest>                                                                      |
 |       UnlockSalesOrderPricing        |                                                                    <xref:Microsoft.Crm.Sdk.Messages.UnlockSalesOrderPricingRequest>                                                                    |
 

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Use Dynamics 365 for Outlook methods (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Use Dynamics 365 for Outlook methods (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b739acc8-d4b9-423e-983f-3e70e01ec37b
 caps.latest.revision: 21
 author: JimDaly

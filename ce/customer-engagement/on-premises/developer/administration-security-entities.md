@@ -1,6 +1,6 @@
 ---
-title: "Administration and security entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "The entities described in this section are used to set up the Dynamics 365 for Customer Engagement system. This includes setting up the businesses, users, and teams that define your organization."
+title: "Administration and security entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "The entities described in this section are used to set up the Dynamics 365 Customer Engagement system. This includes setting up the businesses, users, and teams that define your organization."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a252f8ac-94a3-4814-8722-e7d40b8f79b4
 caps.latest.revision: 17
 author: JimDaly

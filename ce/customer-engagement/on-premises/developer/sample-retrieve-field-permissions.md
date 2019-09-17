@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve field permissions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Retrieve field permissions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to retrieve secured fields for a user according to the steps outlined in Field security entities."
 ms.custom: 
 ms.date: 12/15/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - field security entities sample, enabling
   - enabling field security, sample

@@ -1,5 +1,5 @@
 ---
-title: "Define ribbon commands (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define ribbon commands (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "A Ribbon command creates a reusable definition that can be referenced by ribbon control elements."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, commands
 ms.assetid: 7c6c4d14-428d-4b96-9fe3-5260c3a6ae36
@@ -38,7 +38,7 @@ A *Ribbon* command creates a reusable definition that can be referenced by ribbo
 - **Actions**: Specifies what code executes when a ribbon control is used.  
   
 > [!IMPORTANT]
->  All command definitions are downloaded to a user's computer so that they can be evaluated at run time. This means that a user without the privileges to see a particular control in the ribbon can use the browser **View Source** command, review the code, and determine that a control exists that isn’t displayed to them in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement.  
+>  All command definitions are downloaded to a user's computer so that they can be evaluated at run time. This means that a user without the privileges to see a particular control in the ribbon can use the browser **View Source** command, review the code, and determine that a control exists that isn’t displayed to them in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
 ### See also  
  [Customize commands and the ribbon](customize-commands-ribbon.md)   

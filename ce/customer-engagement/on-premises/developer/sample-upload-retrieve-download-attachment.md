@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - uploading; retrieving; and downloading attachments sample, sample for the annotation (note) entity
   - sample for uploading; retrieving; and downloading attachments, annotation (note) entity sample

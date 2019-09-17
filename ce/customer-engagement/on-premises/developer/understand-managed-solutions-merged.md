@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 79c15784-56d2-46b0-bc78-b60c3d01cbb6
 caps.latest.revision: 27
 author: JimDaly
@@ -24,7 +24,7 @@ search.app:
 
 When you prepare your managed solution to be installed, remember that an organization may have multiple solutions installed or that other solutions may be installed in the future. Construct a solution that follows best practices so that your solution will not interfere with other solutions.  
   
- The processes that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement uses to merge customizations emphasize maintaining the functionality of the solution. While every effort is made to preserve the presentation, some incompatibilities between customizations may require that the computed resolution will change some presentation details in favor of maintaining the customization functionality.  
+ The processes that [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses to merge customizations emphasize maintaining the functionality of the solution. While every effort is made to preserve the presentation, some incompatibilities between customizations may require that the computed resolution will change some presentation details in favor of maintaining the customization functionality.  
   
 <a name="BKMK_MergingFormCustomizations"></a>   
 ## Merge form customizations  
@@ -59,6 +59,6 @@ When you prepare your managed solution to be installed, remember that an organiz
 ### See also  
  [Plan for Solution Development](plan-solution-development.md)   
  [Use Managed Properties](use-managed-properties.md)   
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Customize Entity Forms in Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-entity-forms.md)   
  [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)

@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 66255050-1a19-4bd2-a839-3cc45e7947d8
 author: JimDaly
 ms.author: jdaly
@@ -28,7 +28,7 @@ search.app:
 
 # Sample: Export and import a data map
 
-This sample code is for Dynamics 365 for Customer Engagement. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).  
+This sample code is for Dynamics 365 Customer Engagement. Download the sample: [Work with importing data](https://code.msdn.microsoft.com/Samples-of-data-import-bd371c8c).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

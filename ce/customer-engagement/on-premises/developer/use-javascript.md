@@ -1,6 +1,6 @@
 ---
-title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
+title: "Use JavaScript with Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "This topic helps you explore various opportunities that Dynamics 365 Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
 ms.custom: 
 ms.date: 06/24/2019
 ms.service: crm-online
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b7840a25-f25e-409b-8b6a-0ef04c7ed9c4
 author: JimDaly
 ms.author: jdaly
@@ -44,7 +44,7 @@ search.app:
 
 ### Web resources  
 
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides an organization-owned entity that stores a binary representation of a file that can be accessed by using a URL. This file is called a web resource. There are several types of web resources. A web resource that represents a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library is called a [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resource. You can use a webpage (HTML) web resource to provide a user interface with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries included just as you would for files on a web server. Because these files are part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], users who access them are already authenticated. Therefore, you can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services without having to write code to authenticate the user. For more information, see [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md) and [Work with Dynamics 365 for Customer Engagement data using web resources](work-data-using-web-resources.md).  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides an organization-owned entity that stores a binary representation of a file that can be accessed by using a URL. This file is called a web resource. There are several types of web resources. A web resource that represents a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library is called a [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resource. You can use a webpage (HTML) web resource to provide a user interface with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries included just as you would for files on a web server. Because these files are part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], users who access them are already authenticated. Therefore, you can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services without having to write code to authenticate the user. For more information, see [Web Resources for Dynamics 365 Customer Engagement](web-resources.md) and [Work with Dynamics 365 Customer Engagement data using web resources](work-data-using-web-resources.md).  
   
 <a name="BKMK_UsingjQuery"></a>   
 

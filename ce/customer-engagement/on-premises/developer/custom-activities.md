@@ -1,6 +1,6 @@
 ---
-title: "Custom activities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Custom activities support the communication needs of a business such as instant messaging (IM) and Short Message Service (SMS) in Dynamics 365 for Customer Engagement"
+title: "Custom activities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Custom activities support the communication needs of a business such as instant messaging (IM) and Short Message Service (SMS) in Dynamics 365 Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - creating custom entities for activities, property values to set
   - privileges and access rights for custom activities, activity entities

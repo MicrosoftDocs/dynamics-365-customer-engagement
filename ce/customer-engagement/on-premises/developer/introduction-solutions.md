@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e41e1785-7dcd-46b9-a2eb-e4e848c3154c
 caps.latest.revision: 59
 author: JimDaly
@@ -235,7 +235,7 @@ search.app:
   
 ### See also  
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement (on-premises) Solutions](package-distribute-extensions-use-solutions.md)   
- [Microsoft Dynamics 365 for Customer Engagement patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)   
+ [Microsoft Dynamics 365 Customer Engagement patterns & principles for solution builders](http://go.microsoft.com/fwlink/p/?LinkID=533946)   
  [Plan For Solution Development](plan-solution-development.md)   
  [Dependency Tracking for Solution Components](dependency-tracking-solution-components.md)   
  [Create, Export, or Import an Unmanaged Solution](create-export-import-unmanaged-solution.md)   

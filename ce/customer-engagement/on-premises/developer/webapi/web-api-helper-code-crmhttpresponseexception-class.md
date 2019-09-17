@@ -1,6 +1,6 @@
 ---
-title: "Web API Helper code: CrmHttpResponseException class (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "CrmHttpResponseException class is used to represent HTTP status errors generated during Dynamics 365 for Customer Engagement Web API calls"
+title: "Web API Helper code: CrmHttpResponseException class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "CrmHttpResponseException class is used to represent HTTP status errors generated during Dynamics 365 Customer Engagement Web API calls"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: susikka
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8deb0bc5-6f4a-4ca7-a3a2-75c06dc7f967
 caps.latest.revision: 11
 author: JimDaly
@@ -23,7 +23,7 @@ search.app:
 
 Use the `CrmHttpResponseException` class to represent [HTTP status errors](https://msdn.microsoft.com/library/gg334391.aspx) generated during [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API calls.  This class is derived from the standard .NET System.[Exception](https://msdn.microsoft.com/library/system.exception.aspx) class to easily integrate with your existing exception-handling mechanisms. For more general information, see [Handling and Throwing Exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/index).  
 
- The `CrmHttpResponseException` class is located in the file Exceptions.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/).  It is used extensively in the other helper library classes and C# Web API samples. For more information, see [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
+ The `CrmHttpResponseException` class is located in the file Exceptions.cs in the [CRM SDK Web API Helper Library](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode/).  It is used extensively in the other helper library classes and C# Web API samples. For more information, see [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md).  
 
  This class utilizes JSON string-handling functionality from the open source [Json.NET](http://www.newtonsoft.com/json) library.  
 
@@ -34,7 +34,7 @@ Use the `CrmHttpResponseException` class to represent [HTTP status errors](https
 
 |                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![Dynamics 365 for Customer Engagement Web API Helper Library&#45;CrmHttpResponseException Class Diagram](../media/web-api-helper-library-crm-exception-class-diagram.png "Dynamics 365 for Customer Engagement Web API Helper Library-CrmHttpResponseException Class Diagram") | **CrmHttpResponseException  class**<br /><br /> *Properties:*<br /><br /> `StackTrace` – the string representation of the immediate frames on the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server’s call stack when the exception was thrown, if available.<br /><br /> *Methods*:<br /><br /> The constructors initialize an instance of this class, and require a [HttpContent](https://msdn.microsoft.com/library/hh193687\(v=vs.110\).aspx) parameter and an optional inner exception parameter.<br /><br /> `ExtractMessageFromContent` – this static method extracts the error message from the specified HTTP content parameter. |
+| ![Dynamics 365 Customer Engagement Web API Helper Library&#45;CrmHttpResponseException Class Diagram](../media/web-api-helper-library-crm-exception-class-diagram.png "Dynamics 365 Customer Engagement Web API Helper Library-CrmHttpResponseException Class Diagram") | **CrmHttpResponseException  class**<br /><br /> *Properties:*<br /><br /> `StackTrace` – the string representation of the immediate frames on the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] server’s call stack when the exception was thrown, if available.<br /><br /> *Methods*:<br /><br /> The constructors initialize an instance of this class, and require a [HttpContent](https://msdn.microsoft.com/library/hh193687\(v=vs.110\).aspx) parameter and an optional inner exception parameter.<br /><br /> `ExtractMessageFromContent` – this static method extracts the error message from the specified HTTP content parameter. |
 
 ## Usage  
 
@@ -158,6 +158,6 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
 
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   
  [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md)   
- [Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
+ [Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)](use-microsoft-dynamics-365-web-api-helper-library-csharp.md)   
  [Helper code: Authentication class](web-api-helper-code-authentication-class.md)   
  [Helper code: Configuration class](web-api-helper-code-configuration-classes.md)

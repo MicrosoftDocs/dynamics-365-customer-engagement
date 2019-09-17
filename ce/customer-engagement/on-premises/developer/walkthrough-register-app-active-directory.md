@@ -26,7 +26,7 @@ search.app:
 ---
 # Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory
 
-This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
+This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 

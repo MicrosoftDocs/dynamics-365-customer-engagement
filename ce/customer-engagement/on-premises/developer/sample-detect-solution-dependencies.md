@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d347f96b-a137-42e1-a9bf-fac6d6133330
 author: JimDaly
 ms.author: jdaly
