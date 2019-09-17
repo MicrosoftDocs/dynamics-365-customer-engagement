@@ -55,7 +55,7 @@ Let's explore multi-day scheduling and allocation methods by configuring three s
 If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, you should consider using Dynamics 365 Project Service which has [Gantt chart functionality](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/schedule-project-work-breakdown-structure). 
 
 
-## Scenario 1: Schedule a multi-day work order
+## Scenario 1: Schedule a multi-day work order manually on the schedule board
 
 First create a work order with a duration longer than one day. 
 
@@ -83,15 +83,15 @@ Next go to the Hours view of the schedule board and select the requirement in th
 Then select a Resource on the board you would like to schedule the multi-day work order requirement to. DO NOT drag and drop.
 
 > [!Note]
-> Dragging and dropping a multi-dat requirement onto the Hours view will create a long continuous booking through non-working hours.
+> Dragging and dropping a multi-day requirement onto the Hours view will create a long continuous booking through non-working hours.
 
 A "Create Resource Booking" pane wll display on the right where you can confirm or edit:
 
-**Start Date and End Date:** populated from Requirement From Date and To Date fields.
+> **Start Date and End Date:** populated from Requirement From Date and To Date fields.
 
-**Booking Status:** Work order requirements are typically given a Booking Status of "Scheduled" by default but you can choose from your organization's statuses here.
+> **Booking Status:** Work order requirements are typically given a Booking Status of "Scheduled" by default but you can choose from your organization's statuses here.
 
-**Booking Method:** Select the Allocation Method to define the pattern of how the requirement should be spread across the Start and End Dates. 
+> **Booking Method:** Select the Allocation Method to define the pattern of how the requirement should be spread across the Start and End Dates. 
 
 
 > [!div class="mx-imgBorder"]
@@ -102,36 +102,54 @@ After selecting Book, the system will create multiple bookings across multiple d
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked.png)
 
-On the Days view of the schedule board, you can see the booking pattern more easily. In our example we chose a Booking Method (allocation method) of Front Load Hours, the bookings filled the Resource's time with the left over duration on the last day. 
+On the Days view of the schedule board, you can see the booking pattern more easily. In our example we chose a Booking Method (allocation method) of Front Load Hours so the bookings filled the Resource's available time with the left over duration on the last day. 
 
-**Pro Tip:** Using Front Load Hours as the booking method (allocation method), creates multiple bookings **around** the resource's existing schedule if instances where other bookings exist for the scheduled resource.
+**Pro Tip:** Using Front Load Hours as the booking method (allocation method), creates multiple bookings **around** the resource's existing schedule in instances where other bookings exist for the scheduled resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
 
-remaining duration
 
-end: can simply drag and drop too but this creates a continuous booking
-
-can drag onto days/weeks view
+Unlike dragging and dropping a multi-day requirement on the Hours view, doing so on the Days view will trigger the "Create Resource Booking" side panel to schedule multi-day bookings like above.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-drag-schedule-board.png)
 
-## Scenario 2: Schedule a multi-day requirement
+## Scenario 2: Schedule a multi-day requirement with the schedule assistant
 
+Go to **Resource Scheduling > Resource Requirements > +New**
+
+Enter a **Name**
+
+**From Date** and **To Date**: represents the date range the multi-day requirement should be spread across.
+
+**Allocation Method**: Select one of the following:
+
+- Full capacity
+- Percentage capacity
+- Distribute evenly
+- Front load
+
+For more details see the topic on [Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods).
 
 > [!Note]
-> need to set an allocation method before saving
+> You need to set an allocation method before saving
+
+**Duration:** Enter a multi-day duration i.e. 30 hours
+
+**Save**
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-allocation-method.png)
+
+Next, enter other requirement details such as skills, roles, resource preferences, service territory, etc that define the eligible resources.
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-no-work-order.png)
 
+Requirement details are automatically created based on the duration and the allocation method to split up the requirement into time segments. In our example in the image below, a 30 hour requirement split up between 5 days  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-requirement-details.png)
@@ -184,6 +202,7 @@ can drag onto days/weeks view
 - front load vs full capacity
 
 ## Additional Notes
+- remaining duration
 - work order auto creates requirements
 - cannot schedule requirement groups for multiple days, meaning you cannot break it up
 - travel time? does not include travel time, books as location agnostic
