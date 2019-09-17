@@ -46,7 +46,7 @@ In Dynamics 365 Customer Engagement (on-premises), you can create and view the r
   
 2. To view all the connections, select the related records drop-down menu next to the record name, and then select **Connections**.  
   
-   ![Select related records dropdown to view Connection](../admin/media/select-related-records-view-connection.PNG "Select related records dropdown to view Connection")  
+   ![Select related records dropdown to view Connection](../basics/media//select-related-records-view-connection.PNG "Select related records dropdown to view Connection")  
   
 <a name="BKMK_Deactivateordelete"></a>   
 ## Deactivate or delete a connection  
