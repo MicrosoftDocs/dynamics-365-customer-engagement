@@ -1,5 +1,5 @@
 ---
-title: "Incident (case) entities (Developer Guide for Dynamics 365 for Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Incident (case) entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about incident (case) entities that performs the incident management by creating an incident and specifying an active SLA record. An incident can be in one of three states: Active, Resolved, or Canceled."
 ms.custom: 
 ms.date: 10/01/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (online)
 helpviewer_keywords: 
   - incident (case) entities, tracking actions and communications
   - routing and queuing, definition

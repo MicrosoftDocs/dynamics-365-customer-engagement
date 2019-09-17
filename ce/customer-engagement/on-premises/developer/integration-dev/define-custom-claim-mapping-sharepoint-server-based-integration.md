@@ -1,5 +1,5 @@
 ---
-title: "Define custom claim mapping for SharePoint server-based integration (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Define custom claim mapping for SharePoint server-based integration (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -8,8 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: f926277d-6820-4ea3-9512-3643da16b94b
