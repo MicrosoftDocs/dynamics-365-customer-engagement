@@ -1,7 +1,7 @@
 ---
-title: "Extend Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Extend Customer Engagement (on-premises) | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,12 +21,10 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Extend Dynamics 365 for Customer Engagement
+# Extend Customer Engagement (on-premises)
 
-*This content also applies to the on-premises version.*
+Dynamics 365 Customer Engagement (on-premises) is a very powerful business tool right out of the box. It becomes even more so when you extend it by: 
 
-Dynamics 365 for Customer Engagement apps is a very powerful business tool right out of the box. It becomes even more so when you extend it by: 
-
-1. Integrating Dynamics 365 for Customer Engagement apps with your email system such as Exchange Online or Gmail.
+1. Integrating Customer Engagement (on-premises) with your email system such as Exchange Online or Gmail.
 2. Adding solutions by Microsoft like Office 365 Groups or solutions from other companies.
 3. Integrating with Office 365 features such as SharePoint, Skype, OneDrive, or OneNote.

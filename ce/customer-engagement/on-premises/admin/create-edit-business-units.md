@@ -1,7 +1,7 @@
 ---
-title: "Create or edit business units for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit business units  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/02/2018
+ms.date: 10/02/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,23 +23,21 @@ search.app:
 ---
 # Create or edit business units to improve security and control
 
-*This content also applies to the on-premises version.*
-
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, a business unit is a logical grouping of related business activities.  
+In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical grouping of related business activities.  
   
- If your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps organization is structured around departments or divisions that have separate products, customers, and marketing lists, you might want to create business units. Business units are mapped to an organization’s departments or divisions. Users can securely access data in their own business unit, but they can’t access data in other business units.  
+ If your Customer Engagement (on-premises) organization is structured around departments or divisions that have separate products, customers, and marketing lists, you might want to create business units. Business units are mapped to an organization’s departments or divisions. Users can securely access data in their own business unit, but they can’t access data in other business units.  
   
- Business units, security roles, and users are linked together in a way that conforms to the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts for Microsoft Dynamics 365 for Customer Engagement](../admin/security-concepts.md)  
+ Business units, security roles, and users are linked together in a way that conforms to the Customer Engagement (on-premises) role-based security model. Use business units together with security roles to control data access so people see just the information they need to do their jobs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security concepts](../admin/security-concepts.md)  
   
  Keep the following in mind when creating business units:  
   
-- The organization (also known as the root business unit) is the top level of a [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps business unit hierarchy. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically creates the organization when you install or provision [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. You can’t change or delete the organization name.  
+- The organization (also known as the root business unit) is the top level of a Customer Engagement (on-premises) business unit hierarchy. Customer Engagement (on-premises) automatically creates the organization when you install or provision Customer Engagement (on-premises). You can’t change or delete the organization name.  
   
 - Each business unit can have just one parent business unit.  
   
 - Each business unit can have multiple child business units.  
   
-- [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps security roles and users are associated with a business unit. You must assign every user to one (and only one) business unit.  
+- Customer Engagement (on-premises) security roles and users are associated with a business unit. You must assign every user to one (and only one) business unit.  
   
 - You can assign a team to just one business unit, but a team can consist of users from one or many business units. Consider using a team if you have a situation where users from different business units need to work together on a shared set of records.  
   
@@ -53,7 +51,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, a business 
   
 3. On the Actions bar, select **New**.  
   
-4. In the **Business Unit** dialog box, type a name for the new business unit. [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps automatically fills in the **Parent Business** field with the name of the root business unit.  
+4. In the **Business Unit** dialog box, type a name for the new business unit. Customer Engagement (on-premises) automatically fills in the **Parent Business** field with the name of the root business unit.  
   
    ![Business Unit dialog box in Dynamics 365 for Customer Engagement](../admin/media/business-unit-dialog-box.png "Business Unit dialog box in Dynamics 365 for Customer Engagement")  
   
@@ -124,6 +122,6 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, a business 
 5. In the **Change Business Unit** dialog box, use the **Lookup** button ![Lookup button](../admin/media/lookup-4.gif "Lookup button") to select a new business unit, and then select **OK**.  
   
 ### See also  
- [Set up a Dynamics 365 for Customer Engagement apps organization](../admin/set-up-a-dynamics-365-organization.md)   
+ [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)   
  [Delete a business unit](../admin/delete-business-unit.md)   
  [Assign a business unit a different parent business](../admin/assign-business-unit-different-parent.md)

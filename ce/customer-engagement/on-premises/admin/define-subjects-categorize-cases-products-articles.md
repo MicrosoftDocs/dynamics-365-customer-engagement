@@ -1,6 +1,6 @@
 ---
-title: Define subjects to categorize cases, products, and articles for Dynamics 365 for Customer Engagement apps | MicrosoftDocs
-ms.date: 10/01/2018
+title: Define subjects to categorize cases, products, and articles  | MicrosoftDocs
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -11,7 +11,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 author: anjgup
 ms.assetid: 1f07c7ea-9d85-49e6-a41d-7d49841340dd
-ms.author: anjgupta
+ms.author: shujoshi
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -22,12 +22,10 @@ ms.custom:
 ---
 # Define subjects to categorize cases, products, and articles
 
-*This content also applies to the on-premises version.*
-
-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, products, and sales literature. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer. You can also provide the appropriate sales literature. You’ll also be able to better understand gaps in your sales literature, evaluate service quality by subject area, and improve reporting on the performance of your products.  
+Dynamics 365 Customer Engagement (on-premises) includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, products, and sales literature. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer. You can also provide the appropriate sales literature. You’ll also be able to better understand gaps in your sales literature, evaluate service quality by subject area, and improve reporting on the performance of your products.  
 
 > [!NOTE]
-> With the Customer Engagement apps version 9.1 release, subjects in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you manage subjects using the new experience.
+> With the Customer Engagement (on-premises) 9.1 release, subjects in service management are available in the Customer Service Hub based on the Unified Interface experience. We recommend that you manage subjects using the new experience.
   
 ## Create or edit a subject  (Customer Service Hub) 
 

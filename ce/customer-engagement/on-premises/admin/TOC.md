@@ -78,7 +78,11 @@
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
 ## [Enable rich text for appointment activities](enable-rich-text-experience.md)
-
+## Manage documents
+### [Document management with SharePoint](doc-management-sharepoint.md)
+### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
+### [Configure server-based authentication with Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises](../customer-engagement/on-premises/admin/on-prem-server-based-sharepoint-on-prem.md)
+### [Switching from the list component or changing the SharePoint deployment](switching-list-component-changing-deployment.md)
 # Performance tuning and optimization
 ## [Overview](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
@@ -103,6 +107,15 @@
 ## [Enable change tracking to control data synchronization](enable-change-tracking-control-data-synchronization.md)
 ## [Move configuration data](manage-configuration-data.md)
 ## [Work with templates](work-with-templates.md)
+### [Create templates for articles](../../../admin/create-templates-articles.md)
+### [Create templates for email](../../../admin/create-templates-email.md)
+### [Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md)
+### [Work with mail merge templates](../../../admin/work-mail-merge-templates.md)
+### [Create or edit a campaign template using in-app marketing (Sales)](../../../admin/create-edit-campaign-template-using-app-marketing-sales.md)
+### [Use entitlement templates to set up entitlements quickly](../../../customer-service/set-up-entitlements-templates.md)
+### [Analyze and share your data with Excel templates](../../../admin/analyze-your-data-with-excel-templates.md)
+### [Use Word templates to create standardized documents](../../../admin/using-word-templates-dynamics-365.md)
+### [Create a signature for your email or for a queue](../basics/create-signature-dynamics-365-email-queue.md)
 
 # Extend Customer Engagement (on-premises)
 ## [Overview](extend.md)
@@ -115,8 +128,6 @@
 #### [Supported email service configurations](supported-email-service-configurations-server-side-synchronization.md)
 ### Set up server-side sync
 #### [Overview](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
-#### [Connect Customer Engagement to Exchange Online](connect-exchange-online.md)
-#### [Connect Customer Engagement to Exchange Server (on-premises)](connect-exchange-server-on-premises.md)
 #### [Connect to POP3 or SMTP servers](connect-to-pop3-or-smtp-servers.md) 
 #### [Connect to IMAP or SMTP servers](connect-to-imap-servers.md)
 #### [Migrate settings from the Email Router to server-side synchronization](migrate-settings-email-router-server-side-synchronization.md)
@@ -144,22 +155,22 @@
 ## Extend with integration and solutions
 ### Manage your documents using SharePoint 
 #### [Overview](manage-documents-using-sharepoint.md)
-#### [Software requirements](sharepoint-document-management-software-requirements.md)
+<!-- #### [Software requirements](sharepoint-document-management-software-requirements.md) -->
 #### Set up
-##### [Overview](set-up-sharepoint-integration.md)
+<!-- ##### [Overview](set-up-sharepoint-integration.md)
 ##### [Set up Dynamics 365 (online) and SharePoint Online](set-up-dynamics-365-online-to-use-sharepoint-online.md)
-##### [Set up Dynamics 365 (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md)
+##### [Set up Dynamics 365 (online) and SharePoint on-premises](configure-server-based-authentication-sharepoint-on-premises.md) -->
 ##### [Set up Dynamics 365 (on-premises) and SharePoint Online](on-prem-server-based-sharepoint-online.md)
-##### [Set up Dynamics 365 (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
+##### [Set up Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises](on-prem-server-based-sharepoint-on-prem.md)
 ##### [Switching from the list component](switching-list-component-changing-deployment.md)
-#### Configure
+<!-- #### Configure
 ##### [Enable document management for entities](enable-sharepoint-document-management-specific-entities.md)
 ##### [Edit existing site records](edit-existing-sharepoint-site-records.md)
 ##### [Create document location records](create-edit-document-location-records.md)
 ##### [Permissions required](permissions-required-document-management-tasks.md)
 #### Troubleshoot
 ##### [Troubleshooting server-based authentication](troubleshooting-server-based-authentication.md)
-##### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md)
+##### [Troubleshoot SharePoint integration](troubleshoot-set-up-sharepoint-online.md) -->
 ### Connect to Microsoft Social Engagement
 #### [Connect, assign licenses, and reset](connect-microsoft-social-engagement.md)
 #### [Install the Social Selling Assistant](install-social-selling-assistant.md)

@@ -26,21 +26,32 @@ search.app:
 
 Organizations need to track changes made to business data for maintaining security, examining the history of a particular data record, 
 documenting modifications for future analysis and record keeping, and being in compliance with regulations. 
-Dynamics 365 for Customer Engagement (on-premises) support auditing of entity and attribute data changes on a per organization basis.  
+Dynamics 365 Customer Engagement (on-premises) support auditing of entity and attribute data changes on a per organization basis.  
   
-## In This Section  
- [Auditing Feature Overview](/powerapps/developer/common-data-service/auditing-overview)  
+## Overview
+
+Organizations often need to be in compliance with various regulations to ensure availability of customer interaction history, audit logs, access reports, and security incident tracking reports. Organizations may want to track changes in Dynamics 365 Customer Engagement (on-premises) data for security and analytical purpose. More information: [Auditing Feature Overview](/powerapps/developer/common-data-service/auditing-overview)  
+
+## Configure entities and attributes for auditing
+
+There are three levels where auditing can be configured: organization, entity, and attribute. The organization level is the highest level, followed by the entity level, and finally the attribute level. For attribute auditing to take place, auditing must be enabled at the attribute, entity, and organization levels. For entity auditing to take place, auditing must be enabled at the entity and organization levels. More information: [Configure Entities and Attributes for Auditing](/powerapps/developer/common-data-service/configure-entities-attributes-auditing)  
   
- [Configure Entities and Attributes for Auditing](/powerapps/developer/common-data-service/configure-entities-attributes-auditing)  
+## Retrieve and delete history of audited data changes
+
+After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. Follow the sample code link at the end of this topic for more information. More information: [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes)  
   
- [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes)  
+## Audit user logons
+
+Dynamics 365 Customer Engagement (on-premises) support the ability to audit user access. The information that is recorded includes when the user started accessing Dynamics 365 Customer Engagement (on-premises) and if access originated from the Dynamics 365 Customer Engagement (on-premises) web application, Dynamics 365 for Outlook, or SDK calls to the web services.More information: [Audit User Logons](/powerapps/developer/common-data-service/audit-user-access)  
   
- [Audit User Logons](/powerapps/developer/common-data-service/audit-user-access)  
+## Sample: Audit entity data changes
+
+This sample demonstrates how to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records. More information: [Sample: Audit Entity Data Changes](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditEntityData)  
   
- [Sample: Audit Entity Data Changes](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditEntityData)  
-  
- [Sample: Audit User Access](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess)  
+## Sample: Audit user access
+
+This sample demonstrates how to audit user access to Dynamics 365 Customer Engagement (on-premises). More information: [Sample: Audit User Access](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AuditUserAccess)  
   
 ## Related Sections  
 
-[Data Management in Dynamics 365 for Customer Engagement (on-premises)](manage-data.md)
+[Data Management in Dynamics 365 Customer Engagement (on-premises)](manage-data.md)

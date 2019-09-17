@@ -1,7 +1,7 @@
 ---
-title: "System Settings dialog box - Reporting tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "System Settings dialog box - Reporting tab  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # System Settings dialog box - Reporting tab
 
-*This content also applies to the on-premises version.*
-
-Use the settings on this page to configure reporting settings for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+Use the settings on this page to configure reporting settings for Dynamics 365 Customer Engagement (on-premises).  
 
 ## Open the Reporting System Settings dialog box (if it’s not already open)  
 
@@ -49,5 +47,4 @@ Use the settings on this page to configure reporting settings for [!INCLUDE[pn_m
 |      Allow Power BI visualization embedding      | Lets users embed [!INCLUDE[pn_power_bi_for_office_365_long](../includes/pn-power-bi-for-office-365-long.md)] visualizations on their personal dashboards.  A [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualization is a snapshot of the user's data, such as a chart, map, or aggregate number. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit Power BI visualizations on your dashboard](../basics/add-edit-power-bi-visualizations-dashboard.md). <br /><br />Default value: No. Users cannot embed [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] visualizations on their personal dashboards. |
 
 ### See also  
- [Use Power BI with Microsoft Dynamics 365 for Customer Engagement](../basics/find-administrator-support.md)   
  [System Settings dialog box - General tab](../admin/system-settings-dialog-box-general-tab.md)

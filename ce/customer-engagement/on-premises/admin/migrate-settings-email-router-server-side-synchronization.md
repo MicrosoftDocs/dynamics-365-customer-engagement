@@ -1,7 +1,7 @@
 ---
-title: "Migrate settings from the Email Router to server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Migrate settings from the Email Router to server-side synchronization  | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/09/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,12 +23,10 @@ search.app:
 ---
 # Migrate settings from the Email Router to server-side synchronization 
 
-*This content also applies to the on-premises version.*
-
 > [!NOTE]
 > The Microsoft Dynamics CRM Email Router has been deprecated. We strongly recommend that you migrate all email routing functionality to use the server-side synchronization feature. 
 
-Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
+Server-side synchronization is a method in Dynamics 365 Customer Engagement (on-premises) that you can use to set up email and synchronize your appointments, contacts, and tasks. With server-side synchronization, you can centrally manage mailboxes and profiles, and also track errors about email processing. If your organization is currently using the Email Router, but wants to start using server-side synchronization instead, you can easily migrate the configuration settings from the Email Router to server-side synchronization to set up email.  
   
 > [!NOTE]
 >  An organization can only use either the Email Router or server-side synchronization to process email. You can define what to use in the **Email** tab of System Settings in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. If you select server-side synchronization, the Email Router stops functioning for the organization.  
@@ -71,4 +69,4 @@ Server-side synchronization is a method in [!INCLUDE[pn_microsoftcrm](../include
 4.  Start with the queues mailboxes, and then migrate the users’ mailboxes.  
   
 ### See also  
- [Monitor email processing errors in Microsoft Dynamics 365 for Customer Engagement](../admin/monitor-email-processing-errors.md)
+ [Monitor email processing errors](../admin/monitor-email-processing-errors.md)

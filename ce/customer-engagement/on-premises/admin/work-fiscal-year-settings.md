@@ -1,7 +1,7 @@
 ---
-title: "Work with fiscal year settings for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Work with fiscal year settings  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,14 +23,12 @@ search.app:
 ---
 # Work with fiscal year settings
 
-*This content also applies to the on-premises version.*
-
 You can set the fiscal year period, and how it’s displayed, for your organization.  
   
 > [!IMPORTANT]
->  After you set the fiscal year options, you can’t change them. Fiscal year options affect the way in which your organization's data is stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+>  After you set the fiscal year options, you can’t change them. Fiscal year options affect the way in which your organization's data is stored in Dynamics 365 Customer Engagement (on-premises).  
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1. Make sure you have the System Administrator security role or equivalent permissions.
   
     Check your security role  
   

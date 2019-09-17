@@ -1,7 +1,7 @@
 ---
-title: "Create a team template and add to an entity form (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create a team template and add to an entity form  | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/24/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -27,14 +27,12 @@ search.app:
 ---
 # Create a team template to control access rights for automatically created teams
 
-*This content also applies to the on-premises version.*
-
 A team template can be used for the entities that are enabled for automatically created access teams. In the team template, you have to specify the entity type and the access rights on the entity record. For example, you can create a team template for an account entity and specify the Read, Write, and Share access rights on the account record that the team members are granted when the team is automatically created. After you create a team template, you have to customize the entity main form to include the new team template. After you publish customizations, the access team template is added in all record forms for the specified entity in a form of a list. For example, you created a team template called “Sales team” for the account entity. On all account record forms you’ll see the list called “Sales team”. You can add or remove team members using this list.  
     
 <a name="bkmk_1"></a>   
 ## Enable an entity for access teams  
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1. Make sure you have the System Administrator security role or equivalent permissions.
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -59,7 +57,7 @@ A team template can be used for the entities that are enabled for automatically 
  
 ## Add a team template to the entity form   
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1. Make sure you have the System Administrator security role or equivalent permissions.
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   

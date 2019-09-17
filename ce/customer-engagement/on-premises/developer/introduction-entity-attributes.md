@@ -166,12 +166,12 @@ Entities include a set of attributes that represent the data that can be include
 
 <a name="BKMK_LogicalAttributes"></a>   
 ## Logical attributes  
- Logical attributes contain values which are stored in different database tables than other attributes in the entity. In most cases this internal implementation is not relevant to working with Dynamics 365 for Customer Engagement (on-premises). When you use logical attributes as sources for a calculated field the values in the calculated field cannot be sorted. Use the  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsLogical> property to detect if an attribute is a logical attribute.  
+ Logical attributes contain values which are stored in different database tables than other attributes in the entity. In most cases this internal implementation is not relevant to working with Dynamics 365 Customer Engagement (on-premises). When you use logical attributes as sources for a calculated field the values in the calculated field cannot be sorted. Use the  <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsLogical> property to detect if an attribute is a logical attribute.  
 
  The most common logical attributes are those which store address information in several special entities: CompetitorAddress, CustomerAddress, InternalAddress, LeadAddress, and PublisherAddress. There are 8 system entities that include a complete set of attributes for two addresses using logical attributes. Each of these attributes begin with “Address*”, such as Address1_City or Address2_Latitude.  
 
 ### See also  
- [Introduction to Entities in Dynamics 365 for Customer Engagement (on-premises)](introduction-entities.md)   
+ [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)   
  [Image Attributes](image-attributes.md)   
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)   
  [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions)   
