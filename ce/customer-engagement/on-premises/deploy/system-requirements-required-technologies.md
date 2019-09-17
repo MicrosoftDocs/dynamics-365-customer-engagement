@@ -62,5 +62,5 @@ This [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] version req
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md) </br>
  [Supported web browsers and mobile devices](../admin/supported-web-browsers-and-mobile-devices.md)   </br>
  [Planning Your Deployment of Microsoft Dynamics 365 for Customer Engagement](planning-your-deployment-of-microsoft-dynamics-365.md) </br>
- [Dynamics 365 for Outlook Administrator Guide](../outlook-addin/admin-guide/dynamics-365-for-outlook.md) 
+ [Dynamics 365 for Outlook Administrator Guide](../../../outlook-addin/admin-guide/dynamics-365-for-outlook.md) 
 

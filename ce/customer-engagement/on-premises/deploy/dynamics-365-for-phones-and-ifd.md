@@ -24,6 +24,6 @@ By default, Windows Integrated Authentication (WIA) is enabled in [!INCLUDE[pn_a
  WIA is not supported for [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-microsoft-dynamics-crm-mobile.md)] running on [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] 8.1. If you have deployed [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] with [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], you will need to run a [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] script on your [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server to fall back to forms-based authentication for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] on [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] 8.1. For the script and more information on this issue, see [Configuring intranet forms-based authentication for devices that do not support WIA](https://technet.microsoft.com/library/dn727110.aspx).  
   
 ## See Also  
- [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
+ [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)   
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 
