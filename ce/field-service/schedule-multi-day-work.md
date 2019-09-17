@@ -78,23 +78,28 @@ If you have not done so, enter a multi-day duration in the **Duration** field, a
 
 Next go to the schedule board and select the requirement in the lower pane.
 
-Then select a Resource on the board you would like to schedule the multi-day work order requirement to.
+Then select a Resource on the board you would like to schedule the multi-day work order requirement to. DO NOT drag and drop.
 
 A "Create Resource Booking" pane wll display on the right where you can confirm or edit:
 
-Start Date and End Date: populated from Requirement From Date and To Date fields.
+**Start Date and End Date:** populated from Requirement From Date and To Date fields.
 
-Booking Status: Work order requirements are typically given a Booking Status of "Scheduled" by default but you can choose from your organization's statuses here.
+**Booking Status:** Work order requirements are typically given a Booking Status of "Scheduled" by default but you can choose from your organization's statuses here.
 
-Booking Method: Select the Allocation Method to define the pattern of how the requirement should be spread  
+**Booking Method:** Select the Allocation Method to define the pattern of how the requirement should be spread across the Start and End Dates. 
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board.png)
 
+After selecting Book, the system will create multiple bookings across multiple days.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked.png)
 
+On the Days view of the schedule board, you can see the booking pattern more easily. In our example we chose a Booking Method of Front Load Hours so the bookings filled the Resource's time with the left over duration on the last day.
+
+The system will create multiple bookings around the resources existing schedule in instances where the resource has existing bookings. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
@@ -171,6 +176,7 @@ can drag onto days/weeks view
 - when scheduling 4 hours each day, they need 4 total hours, not 4 continuous hours
 - manual create details when allocation method is none
 - cannot schedule greater than calendar
+- front load vs full capacity
 
 ## Additional Notes
 - work order auto creates requirements
