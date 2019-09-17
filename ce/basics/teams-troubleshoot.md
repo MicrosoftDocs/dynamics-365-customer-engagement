@@ -30,7 +30,7 @@ The following are error messages with possible resolutions.
 
 ### Error: The admin has not consented to use user sync feature, you can add them manually.
 
-When you turn on enhanced Microsoft Teams Integration, there is two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Teams and shares the tab with another user.
+When you turn on enhanced Microsoft Teams Integration, there is two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Teams and share the tab with another user.
 
 To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
@@ -38,7 +38,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 2. Select **Azure Active Directory** > **Enterprise**.
 3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
 4. Delete the app.
-5. Wait for about five minutes and then then [enable the Enhanced Microsoft teams integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox. 
+5. Wait for about five minutes and then [enable the Enhanced Microsoft teams integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox. 
 
 
 
