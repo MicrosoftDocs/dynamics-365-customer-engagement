@@ -73,7 +73,6 @@ When a customer initiates a conversation, the following happens:
 - [Step 4: Create skills](setup-skills-assign-agents.md#create-skills)
 - [Step 5: Assign agent to skills](setup-skills-assign-agents.md#assign-agents-to-skill)
 - [Step 6: Create rules to attach skill](attach-skills.md#create-rules-to-attach-skill)
-- [Step 7: Enable skill-based routing in queues](attach-skills.md#enable-queues-for-skill-based-routing)
 
 
 ## See also
