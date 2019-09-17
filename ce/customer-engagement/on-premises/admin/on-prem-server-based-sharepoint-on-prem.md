@@ -1,7 +1,7 @@
 ﻿---
-title: Configure server-based authentication with Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises
+title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
-ms.date: 09/10/2019
+ms.date: 10/01/2019
 ms.prod: "crm-2016"
 ms.reviewer: ""
 ms.suite: ""
@@ -14,37 +14,35 @@ author: Mattp123
 manager: kvivek
 ---
 
-# Configure server-based authentication with Dynamics 365 for Customer Engagement apps(on-premises) and SharePoint on-premises
+# Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
 
-[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
+This topic describes how to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint On-Premises.
 
-This topic describes how to configure server-based integration between Dynamics 365 for Customer Engagement apps (on-premises) and Microsoft SharePoint On-Premises.
+## Set up server-based integration with Customer Engagement (on-premises) and SharePoint
 
-## Set up server-based integration with Dynamics 365 for Customer Engagement apps and SharePoint
-
-Follow the steps, in the order provided, to set up Dynamics 365 for Customer Engagement apps (on-premises) with Microsoft SharePoint Server On-Premises.
+Follow the steps, in the order provided, to set up Customer Engagement (on-premises) with Microsoft SharePoint Server On-Premises.
 
 > [!IMPORTANT]
 > <UL>
 > <LI>
 > <P>If a task isn’t completed, for example, if a PowerShell command returns an error message, the issue must be resolved before you continue to the next command, task, or step.</P>
 > <LI>
-> <P>Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Dynamics 365 for Customer Engagement apps organization for server-based SharePoint integration.</P>
+> <P>Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Customer Engagement (on-premises) organization for server-based SharePoint integration.</P>
 > <P></P></LI></UL>
 
 
 
 ## Verify prerequisites
 
-Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint On-Premises for server-based integration, the following permissions and prerequisites are required.
+Before you configure Customer Engagement (on-premises) and SharePoint On-Premises for server-based integration, the following permissions and prerequisites are required.
 
 ## Permissions required
 
-**Dynamics 365 for Customer Engagement apps**
+**Customer Engagement (on-premises)**
 
-  - System Administrator security role - this is required to run the Enable Server-Based SharePoint Integration wizard in Dynamics 365 for Customer Engagement apps.
+  - System Administrator security role - this is required to run the Enable Server-Based SharePoint Integration wizard in Customer Engagement (on-premises).
 
-  - If you are using a self-signed certificate for evaluation purposes, you must have local Administrators group membership on the computer where Microsoft Dynamics 365 Server is running.
+  - If you are using a self-signed certificate for evaluation purposes, you must have local Administrators group membership on the computer where Microsoft Customer Engagement (on-premises) Server is running.
 
 **SharePoint On-Premises**
 
@@ -72,7 +70,7 @@ Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and
     
       - SharePoint must be configured for a single farm deployment only.
     
-      - To use the default claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same, or the domain where the SharePoint server is located must trust the domain where the Dynamics 365 Server is located. More information: [About claims-based authentication mapping](#about-claims-based-authentication-mapping)
+      - To use the default claims-based authentication mapping, the Active Directory domain where the SharePoint server and Customer Engagement (on-premises) Server are located must be the same, or the domain where the SharePoint server is located must trust the domain where the Customer Engagement (on-premises) Server is located. More information: [About claims-based authentication mapping](#about-claims-based-authentication-mapping)
     
       - The SharePoint website must be configured to use TLS/SSL (HTTPS) and the certificate must be issued by a public root Certificate Authority. More information: [SharePoint: About Secure Channel SSL certificates](/SharePoint/hybrid/plan-connectivity-from-office-365-to-sharepoint-server#aboutsecurechannel)
     
@@ -82,29 +80,29 @@ Before you configure Dynamics 365 for Customer Engagement apps (on-premises) and
     
       - For document sharing, the SharePoint search service must be enabled. More information: [Create and configure a Search service application in SharePoint Server](/SharePoint/search/create-and-configure-a-search-service-application)
     
-      - For document management functionality when using Microsoft Dynamics 365 for Customer Engagement apps mobile apps, the on-premises SharePoint server must be available through the Internet.
+      - For document management functionality when using Microsoft Customer Engagement (on-premises) mobile apps, the on-premises SharePoint server must be available through the Internet.
     
-      - To allow users the ability to create SharePoint document libraries from Dynamics 365 for Customer Engagement apps, the following permissions and configurations are required:
+      - To allow users the ability to create SharePoint document libraries from Customer Engagement (on-premises), the following permissions and configurations are required:
         
-          - The Dynamics 365 for Customer Engagement apps user Active Directory account must be a member of the Site Members group on the SharePoint site collection where the documents are stored.
+          - The Customer Engagement (on-premises) user Active Directory account must be a member of the Site Members group on the SharePoint site collection where the documents are stored.
         
-          - By default, the claims-based authentication mapping will use the Dynamics 365 for Customer Engagement apps user’s SharePoint email address and the user’s SharePoint On-Premises work email address for mapping. When this mapping is used, the user’s email addresses must match between the two systems. More information: [Configure user claims mapping using the SharePoint Email Address](#configure-user-claims-mapping-using-the-sharepoint-email-address)
+          - By default, the claims-based authentication mapping will use the Customer Engagement (on-premises) user’s SharePoint email address and the user’s SharePoint On-Premises work email address for mapping. When this mapping is used, the user’s email addresses must match between the two systems. More information: [Configure user claims mapping using the SharePoint Email Address](#configure-user-claims-mapping-using-the-sharepoint-email-address)
 
 ## Other prerequisites and limitations
 
-  - X509 digital certificate to be used for server-based authentication between Dynamics 365 Server and the SharePoint server. The certificate keys must have a minimum of 2048-bit encryption. In most cases this certificate must be issued by a trusted certificate authority, but for evaluation purposes you can use a self-signed certificate.
+  - X509 digital certificate to be used for server-based authentication between Customer Engagement (on-premises) Server and the SharePoint server. The certificate keys must have a minimum of 2048-bit encryption. In most cases this certificate must be issued by a trusted certificate authority, but for evaluation purposes you can use a self-signed certificate.
 
-  - The identity for the CRMAppPool application pool must have read access to the x509 certificate that will be used for server-based authentication with Dynamics 365 Server and the SharePoint server. You can use the Certificates MMC snap-in to grant this access.
+  - The identity for the CRMAppPool application pool must have read access to the x509 certificate that will be used for server-based authentication with Customer Engagement (on-premises) Server and the SharePoint server. You can use the Certificates MMC snap-in to grant this access.
 
-  - If you use Microsoft SharePoint 2013, for each SharePoint farm, only one Dynamics 365 for Customer Engagement apps organization can be configured for server-based integration. However, you can connect more than one MDynamics 365 for Customer Engagement apps organization to a SharePoint 2016 server farm.
+  - If you use Microsoft SharePoint 2013, for each SharePoint farm, only one Customer Engagement (on-premises) organization can be configured for server-based integration. However, you can connect more than one Customer Engagement (on-premises) organization to a SharePoint 2016 server farm.
 
-## Prepare Dynamics 365 Server for server-based integration
+## Prepare Customer Engagement (on-premises) Server for server-based integration
 
-The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs a certificate to the local certificate store, grants the specified Microsoft Dynamics 365 Asynchronous Processing Service identity access to the certificate, and updates Dynamics 365 Server to use the certificate.
+The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs a certificate to the local certificate store, grants the specified Microsoft Dynamics 365 Asynchronous Processing Service identity access to the certificate, and updates Customer Engagement (on-premises) Server to use the certificate.
 
-#### Add the server-to-server certificate to the local certificate store and Dynamics 365 for Customer Engagement apps configuration database
+#### Add the server-to-server certificate to the local certificate store and Customer Engagement (on-premises) configuration database
 
-1.  Open a PowerShell command session on all servers where the Dynamics 365 Server Full Server role is installed. 
+1.  Open a PowerShell command session on all servers where the Customer Engagement (on-premises) Server Full Server role is installed. 
  
 > [!IMPORTANT]
 > You must run the command described here on all servers where the Web Application Server role is running.
@@ -117,13 +115,13 @@ The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs 
     
       - **password** *personal\_certfile\_password*. Required parameter that specifies the private certificate password.
     
-      - **certificateType S2STokenIssuer**. Required parameter that specifies the type of certificate. For Dynamics 365 for Customer Engagement apps and SharePoint server-based integration, only **S2STokenIssuer** is supported.
+      - **certificateType S2STokenIssuer**. Required parameter that specifies the type of certificate. For Customer Engagement (on-premises) and SharePoint server-based integration, only **S2STokenIssuer** is supported.
     
       - **serviceAccount** ‘*DomainName\\UserName*’ or ‘Network Service’.
             
             serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
         
-      - **updateCrm**. Adds the certificate information to the Microsoft Dynamics 365 configuration database.
+      - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
         
 
         > [!IMPORTANT]
@@ -161,7 +159,7 @@ The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs 
 
 On the SharePoint on-premises server, in the SharePoint Management Shell, run these PowerShell commands in the order given.
 
-#### Prepare the SharePoint server for Dynamics 365 Server authentication
+#### Prepare the SharePoint server for Customer Engagement (on-premises) Server authentication
 
 1.  If you are using a PowerShell management shell that is not the SharePoint Management Shell, you must register the SharePoint module using the following command.
     
@@ -176,28 +174,28 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
     $c.Update()
     ```
 
-2.  Create the trusted security token service object, where *OrganizationName* is the unique name of the Dynamics 365 for Customer Engagement apps organization and *CrmServer* is the name of the IIS web server where the Dynamics 365 web application server role is installed, and -Name “crm” is used to name the security token server (STS).
+2.  Create the trusted security token service object, where *OrganizationName* is the unique name of the Customer Engagement (on-premises) organization and *CrmServer* is the name of the IIS web server where the Customer Engagement (on-premises) web application server role is installed, and -Name “crm” is used to name the security token server (STS).
     
 
     > [!IMPORTANT]
     > <UL>
     > <LI>
-    > <P>Connecting more than one Dynamics 365 for Customer Engagement apps organization to a single Microsoft SharePoint 2013 server farm is not supported. However, you can connect more than one Dynamics 365 for Customer Engagement apps organization to a SharePoint 2016 server farm.</P>
+    > <P>Connecting more than one Customer Engagement (on-premises) organization to a single Microsoft SharePoint 2013 server farm is not supported. However, you can connect more than one Customer Engagement (on-premises) organization to a SharePoint 2016 server farm.</P>
     > <LI>
-    > <P>When you run the New-SPTrustedSecurityTokenIssuer PowerShell command you must specify HTTPS&nbsp;for&nbsp;the Microsoft Dynamics 365 for Customer Engagement apps metadata endpoint when the Microsoft Dynamics 365 application web site has only HTTPS or both HTTPS and HTTP bindings, like the following example.</P></LI></UL>
+    > <P>When you run the New-SPTrustedSecurityTokenIssuer PowerShell command you must specify HTTPS&nbsp;for&nbsp;the Customer Engagement (on-premises) metadata endpoint when the Customer Engagement (on-premises) web site has only HTTPS or both HTTPS and HTTP bindings, like the following example.</P></LI></UL>
 
     
     ``` powershell
     New-SPTrustedSecurityTokenIssuer –Name "crm" –IsTrustBroker:$false –MetadataEndpoint https://CrmServer/XrmServices/2015/metadataendpoint.svc/json?orgName=OrganizationName
     ```
 
-3.  Register Dynamics 365 for Customer Engagement apps with the SharePoint site collection.
+3.  Register Customer Engagement (on-premises) with the SharePoint site collection.
     
     To run the following commands, you must specify two parameters:
     
       - The SharePoint On-Premises site collection URL. In the example here, *https://sharepoint.contoso.com/sites/crm/* is used for the site collection URL.
     
-      - The *CrmRealmId* is the ID of the Dynamics 365 for Customer Engagement apps organization you want to use for document management with SharePoint. More information: [Get the Dynamics 365 Realm ID](#get-the-dynamics-365-realm-id)
+      - The *CrmRealmId* is the ID of the Customer Engagement (on-premises) organization you want to use for document management with SharePoint. More information: [Get the Dynamics 365 Realm ID](#get-the-dynamics-365-realm-id)
     
 
     > [!IMPORTANT]
@@ -216,18 +214,18 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
         Register-SPAppPrincipal -site $site.RootWeb -NameIdentifier $Identifier -DisplayName "crm"
     ```
 
-4.  Grant the Dynamics 365 for Customer Engagement application access to the SharePoint site.
+4.  Grant the Customer Engagement (on-premises) application access to the SharePoint site.
     
 
     > [!NOTE]
-    > <P>In the example below, the Dynamics 365 for Customer Engagement application is granted permission to the specified SharePoint site collection by using the –Scope sitecollection parameter. The Scope parameter accepts the following options. Use the scope that is most appropriate for your SharePoint configuration:</P>
+    > <P>In the example below, the Customer Engagement (on-premises) application is granted permission to the specified SharePoint site collection by using the –Scope sitecollection parameter. The Scope parameter accepts the following options. Use the scope that is most appropriate for your SharePoint configuration:</P>
     > <UL>
     > <LI>
-    > <P><EM>site</EM>. Grants the Dynamics 365 for Customer Engagement application permission to the specified SharePoint website only. It doesn’t grant permission to any subsites under the named site.</P>
+    > <P><EM>site</EM>. Grants the Customer Engagement (on-premises) application permission to the specified SharePoint website only. It doesn’t grant permission to any subsites under the named site.</P>
     > <LI>
-    > <P><EM>sitecollection</EM>. Grants the Dynamics 365 for Customer Engagement application permission to all websites and subsites within the specified SharePoint site collection.</P>
+    > <P><EM>sitecollection</EM>. Grants the Customer Engagement (on-premises) application permission to all websites and subsites within the specified SharePoint site collection.</P>
     > <LI>
-    > <P><EM>sitesubscription</EM>. Grants the Dynamics 365 for Customer Engagement application permission to all websites in the SharePoint farm, including all site collections, websites, and subsites.</P></LI></UL>
+    > <P><EM>sitesubscription</EM>. Grants the Customer Engagement (on-premises) application permission to all websites in the SharePoint farm, including all site collections, websites, and subsites.</P></LI></UL>
 
     
         $app = Get-SPAppPrincipal -NameIdentifier $Identifier -Site $site.Rootweb
@@ -237,7 +235,7 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
 
 ## Run the Enable Server-Based SharePoint Integration wizard
 
-1.  In the Microsoft Dynamics 365 for Customer Engagement app, go to **Settings** \> **Document Management**.
+1.  In the Customer Engagement (on-premises), go to **Settings** \> **Document Management**.
 
 2.  In the Document Management area, select **Enable Server-Based SharePoint Integration**.
 
@@ -261,7 +259,7 @@ By default, Account, Article, Lead, Product, Quote, and Sales Literature entitie
 
 ## Add OneDrive for Business integration
 
-After you complete Dynamics 365 for Customer Engagement apps and SharePoint On-Premises server-based integration configuration, you can also integrate OneDrive for Business. With Dynamics 365 for Customer Engagement apps OneDrive for Business integration, Dynamics 365 for Customer Engagement apps users can create and manage private documents using OneDrive for Business. Those documents can be accessed within Dynamics 365 for Customer Engagement apps once the system administrator has enabled OneDrive for Business.
+After you complete Customer Engagement (on-premises) and SharePoint On-Premises server-based integration configuration, you can also integrate OneDrive for Business. With Customer Engagement (on-premises) OneDrive for Business integration, Customer Engagement (on-premises) users can create and manage private documents using OneDrive for Business. Those documents can be accessed within Customer Engagement (on-premises) once the system administrator has enabled OneDrive for Business.
 
 ## Enable OneDrive for Business
 
@@ -279,7 +277,7 @@ On the Windows Server where SharePoint Server On-Premises is running, open the S
     
     $wellKnownApp.Update()
 
-## Troubleshooting Dynamics 365 Server (on-premises) to SharePoint Server On-Premises server-based integration
+## Troubleshooting Customer Engagement (on-premises) to SharePoint Server On-Premises server-based integration
 
 For information about how to troubleshoot the Enable Server-Based SharePoint Integration wizard and view SharePoint monitoring logs, see [Troubleshooting server-based authentication](../admin/troubleshooting-server-based-authentication.md).
 
@@ -289,9 +287,9 @@ For documentation management with SharePoint troubleshooting and known issues, s
 
 ## About claims-based authentication mapping
 
-When you use claims-based authentication mapping, the Active Directory domain where the SharePoint server and Dynamics 365 Server are located must be the same. Servers that are located in different Active Directory forests or domains aren’t supported. Similarly, users who are located in external domains to either Dynamics 365 Server or SharePoint Server won’t have access to documents. 
+When you use claims-based authentication mapping, the Active Directory domain where the SharePoint server and Customer Engagement (on-premises) Server are located must be the same. Servers that are located in different Active Directory forests or domains aren’t supported. Similarly, users who are located in external domains to either Customer Engagement (on-premises) Server or SharePoint Server won’t have access to documents. 
 
-By default, server-based authentication between Dynamics 365 for Customer Engagement apps (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user.  If you want to use a custom claims-based authentication mapping, such as the user’s email address, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
+By default, server-based authentication between Customer Engagement (on-premises) and SharePoint on-premises uses the user’s security identifier (SID) to authenticate each user.  If you want to use a custom claims-based authentication mapping, such as the user’s email address, see [Define custom claim mapping for SharePoint server-based integration](../developer/integration-dev/define-custom-claim-mapping-sharepoint-server-based-integration.md) 
 
 ### Configure user claims mapping using the SharePoint Email Address
 1. Open the form editor to customize the user form. To do this, go to **Settings** > **Security** > **Users**, and then open the user record that you want. 
@@ -344,7 +342,7 @@ Run the following PowerShell command in the SharePoint Management Shell, where *
 
 Alternatively, you can find the SharePoint realm ID in the site app permissions setting of the SharePoint site collection.
 
-1.  Sign in to the SharePoint site collection that you will use for document management with Dynamics 365 for Customer Engagement apps.
+1.  Sign in to the SharePoint site collection that you will use for document management with Customer Engagement (on-premises).
 
 2.  Go to **Site settings** \> **Site app permissions**.
 
