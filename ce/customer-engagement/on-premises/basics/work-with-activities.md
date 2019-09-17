@@ -117,7 +117,8 @@ To attach a document:
   
 2. On the command bar, select **Mark Complete**.  
   
-   ![Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-closed.png "Shows closed proposal in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="MarkSeveral"></a>   
 ## Mark several activities complete at the same time  
