@@ -32,15 +32,19 @@ ce\includes\cc-use-with-omnichannel.md
 
 The steps for configuring search in Unified Service Desk are as follows:
 
-1.  Create a search hosted control.
+1. Create a search hosted control.
 
-2.  Create search-related action calls.
+2. Create search-related action calls.
 
 3. Attach sub action calls to action calls.
 
-4.  Attach the action calls to events.
+4. Attach the action calls to events.
 
-5.  Add the hosted control, actions calls, and events to the agent and supervisor configurations.
+5. Configure window navigation rule for search
+
+6. Create toolbar buttons for search
+
+7. Add the hosted control, actions calls, and events to the agent and supervisor configurations.
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 1: Create search hosted control](search-step1-create-hosted-control.md)
