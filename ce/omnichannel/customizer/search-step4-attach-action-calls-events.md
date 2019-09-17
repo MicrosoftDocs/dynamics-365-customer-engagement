@@ -60,9 +60,9 @@ This topic describes how to attach the search-related action calls to out-of-the
 
 ## See also
 
-- [Overview](customizer/configure-search.md)
+- [Overview](configure-search.md)
 - [Step 1: Create search hosted control](search-step1-create-hosted-control.md)
 - [Step 2: Create search-related action calls](search-step2-create-action-calls.md)
 - [Step 3: Attach sub action calls to action calls](search-step3-attach-sub-action-calls.md)
-- [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
+- [Step 6: Create toolbar buttons for search](search-step6-create-toolbar-button.md)
 - [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](search-step7-add-hosted-control-action-calls-events-configurations.md)

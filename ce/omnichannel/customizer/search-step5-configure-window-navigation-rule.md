@@ -20,7 +20,7 @@ The topic describes how to create window navigation rule for search.
 
 ## Prerequisites
 
-- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create search hosted control](search-step1-create-hosted-control.md), [Step 2: Create search-related action calls](search-step2-create-action-calls.md), [Step 3: Attach sub action calls to action calls](search-step3-create-entity-searches.md), and [Step 4: Attach search-related action calls to events](search-step4-attach-action-calls-events.md). The configurations that you completed are required for this topic.
+- You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md), [Step 1: Create search hosted control](search-step1-create-hosted-control.md), [Step 2: Create search-related action calls](search-step2-create-action-calls.md), [Step 3: Attach sub action calls to action calls](search-step3-attach-sub-action-calls.md), and [Step 4: Attach search-related action calls to events](search-step4-attach-action-calls-events.md). The configurations that you completed are required for this topic.
 
 - You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
@@ -64,7 +64,7 @@ The topic describes how to create window navigation rule for search.
 
 ## See also
 
-- [Overview](customizer/configure-search.md)
+- [Overview](configure-search.md)
 - [Step 1: Create search hosted control](search-step1-create-hosted-control.md)
 - [Step 2: Create search-related action calls](search-step2-create-action-calls.md)
 - [Step 3: Attach sub action calls to action calls](search-step3-attach-sub-action-calls.md)

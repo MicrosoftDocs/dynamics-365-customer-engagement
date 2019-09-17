@@ -123,7 +123,7 @@ This topic describes how to create search-related action calls in Unified Servic
 
 ## See also
 
-- [Overview](customizer/configure-search.md)
+- [Overview](configure-search.md)
 - [Step 1: Create search hosted control](search-step1-create-hosted-control.md)
 - [Step 4: Attach search-related action calls to events](search-step4-attach-action-calls-events.md)
 - [Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md)
