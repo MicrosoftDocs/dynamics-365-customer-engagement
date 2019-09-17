@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Work with Customer Engagement apps data using web resources
+# Work with Customer Engagement (on-premises) data using web resources
 
 You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources to access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] data from within the application. There are three web services you can use in the application to access data by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. The Organization data service is deprecated with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. It is recommended to use Web API instead of Organization service when creating applications that connect to the [!INCLUDE[cc_dyn365_ce_web_services](../includes/cc-dyn365-ce-web-services.md)] and invoke methods to perform common business data operations like create, delete, update, and find.    
 
@@ -42,7 +42,7 @@ You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource
 
  [Use JavaScript with Dynamics 365 Customer Engagement (on-premises)](use-javascript.md)  
 
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
 
  [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)  
 
@@ -50,6 +50,6 @@ You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource
 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)  
 
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
 
  [Client API Reference](clientapi/reference.md)

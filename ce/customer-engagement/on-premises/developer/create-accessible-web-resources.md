@@ -52,7 +52,7 @@ When you include web resources that provide user interface elements in your solu
   
 <a name="BKMK_SilverlightWebResources"></a>   
 ## Accessible Silverlight web resources  
- [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources are hosted in a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps form or an HTML web resource and the UI is rendered by the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] browser plug-in. [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] is a subset of the Windows Presentation Framework (WPF) and therefore programmatic access and AT are exposed by using UIA that resembles WPF windows applications. For more information, see [Silverlight Accessibility for Developers](https://msdn.microsoft.com/windows/gg591270).  
+ [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resources are hosted in a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] form or an HTML web resource and the UI is rendered by the [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] browser plug-in. [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] is a subset of the Windows Presentation Framework (WPF) and therefore programmatic access and AT are exposed by using UIA that resembles WPF windows applications. For more information, see [Silverlight Accessibility for Developers](https://msdn.microsoft.com/windows/gg591270).  
   
 <a name="BKMK_AccessiblityTestingTools"></a>   
 ## Accessibility testing tools  

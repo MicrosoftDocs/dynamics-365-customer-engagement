@@ -32,7 +32,7 @@ The following section includes information specifically for on-premises deployme
 On-premises developers should be aware of additional capabilities available when debugging or registering custom workflow activities and assemblies.
 
 ### Registration of custom workflow activity assemblies
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps (on-premises) support execution of custom workflow activities in partial or full trust. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) only supports sandbox (partial trust) execution of custom workflow activities.
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (on-premises) support execution of custom workflow activities in partial or full trust. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (online) only supports sandbox (partial trust) execution of custom workflow activities.
 
 When registering a custom workflow activity assembly, you do not register a step as is done for plug-ins. For more detailed registration information, see [Register a plug-in to be deployed on-premise](register-deploy-plugins.md)
 

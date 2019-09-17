@@ -17,7 +17,7 @@ search.app:
 
 # Custom virtual entity data providers
 
-Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps Data SDK, .NET Developers have the option of creating custom virtual entity data providers to help integrate external data source types that are not supported by an existing data provider. Each data provider is composed of a reusable set of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps plug-ins that implement the supported CRUD operations. (The initial release is limited to the **Retrieve** and **RetrieveMultiple** read operations.)  This section provides fundamental information about data providers and approaches to developing custom providers, including example code.
+Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) Data SDK, .NET Developers have the option of creating custom virtual entity data providers to help integrate external data source types that are not supported by an existing data provider. Each data provider is composed of a reusable set of [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) plug-ins that implement the supported CRUD operations. (The initial release is limited to the **Retrieve** and **RetrieveMultiple** read operations.)  This section provides fundamental information about data providers and approaches to developing custom providers, including example code.
 
 > [!NOTE]
 > As an alternative to creating a custom data source provider, you should consider adapting your data source to an existing data provider. For example, if you create an OData v4 interface to your external data source, then you can directly access it with the supplied standard OData v4 Data Provider. The mechanism of adding this REST interface varies with the underlying data service technology, for example see [WCF Data Services 4.5](https://docs.microsoft.com/dotnet/framework/data/wcf/). OData has broad industry support, with a wide range of dedicated tools and compatible technologies.
@@ -28,11 +28,11 @@ Using the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Cust
 Custom data providers require substantial development resources to create and maintain. You must have fundamental knowledge of the following areas:
 
 * The external data source schema and associated data access techniques.  This domain knowledge is specific to the external data source type.
-* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365 Customer Engagement (on-premises)](../metadata-data-models.md).
-* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps event system; for more information see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
-* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps plug-in architecture and development; for more information see [Plug-in development](../plugin-development.md).
+* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) metadata schema; for more information see [The metadata and data models in Microsoft Dynamics 365 Customer Engagement (on-premises)](../metadata-data-models.md).
+* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) event system; for more information see [Event Framework](/powerapps/developer/common-data-service/event-framework). 
+* [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) plug-in architecture and development; for more information see [Plug-in development](../plugin-development.md).
 
-You will also need to manually download the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps Data SDK, or include the corresponding NuGet package in your projects. This SDK is compatible with Visual Studio 2015 or 2017.  <!-- TODO: When the final package is ready, put in proper name and link. -->
+You will also need to manually download the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) Data SDK, or include the corresponding NuGet package in your projects. This SDK is compatible with Visual Studio 2015 or 2017.  <!-- TODO: When the final package is ready, put in proper name and link. -->
 
 <!-- ## Data Provider Architecture -->
 <!-- TODO: it would be nice to have a more detailed architecture diagram of a data provider and add discussion. -->
@@ -55,10 +55,10 @@ The standard Odata v4 Data Provider and the Cosmos DB Data Provider are examples
 
 ## Steps to use a custom data provider
 
-There are several steps that are required to create a virtual entity data provider solution that can be imported into your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps:
+There are several steps that are required to create a virtual entity data provider solution that can be imported into your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises):
 
 1. Develop the custom data provider plug-in DLL (or set of DLLs).
-2. Register the custom data provider with your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps service using the Plug-in Registration Tool (PRT).
+2. Register the custom data provider with your [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) service using the Plug-in Registration Tool (PRT).
 3. Create a data provider solution.
 4. Customize the data source entity to reflect your data type or specific instance.
 5. Export the custom data provider solution.

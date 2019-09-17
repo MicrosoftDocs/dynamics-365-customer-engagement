@@ -26,7 +26,7 @@ search.app:
 ---
 # Define custom actions to modify the ribbon
 
-The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps metadata. This default data can’t be changed, but you can include definitions of specific actions that will override the default ribbon.  
+The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] metadata. This default data can’t be changed, but you can include definitions of specific actions that will override the default ribbon.  
   
 ## Types of custom actions  
  There are two types of custom actions for ribbons:  

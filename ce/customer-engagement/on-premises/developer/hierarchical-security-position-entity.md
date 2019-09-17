@@ -22,7 +22,7 @@ search.app:
 ---
 # Hierarchical security (position) entity
 
-In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, hierarchy security enables you to model the manager/direct report structure that is often used in businesses. The *Position* entity provides the capability to model this type of relationship. A system user in a higher level position can access the business data being accessed by another user in a lower level position.  
+In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], hierarchy security enables you to model the manager/direct report structure that is often used in businesses. The *Position* entity provides the capability to model this type of relationship. A system user in a higher level position can access the business data being accessed by another user in a lower level position.  
   
 ### See also  
  [Administration and security entities](administration-security-entities.md)   

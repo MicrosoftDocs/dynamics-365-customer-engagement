@@ -21,11 +21,11 @@ search.app:
 ---
 # Developer tools
 
-This section provides a single location for you to learn about the developer tools and community developed developer tools that you can use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.
+This section provides a single location for you to learn about the developer tools and community developed developer tools that you can use with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
 
 ## Community tools
 
-[XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps:
+[XrmToolBox](https://www.xrmtoolbox.com) developed the following community tools for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:
 
 - [WebResources Manager](https://www.xrmtoolbox.com/plugins/MsCrmTools.WebResourcesManager) - The tool helps you to create, update, delete, and preview web resources.
 
@@ -54,7 +54,7 @@ This section provides a single location for you to learn about the developer too
 - [Auto Number Manager](http://anm.xrmtoolbox.com) - Provides a UI to set, update and remove auto number format on new or existing attributes. More information: [Create auto-number attributes](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/create-auto-number-attributes)
 
 > [!NOTE]
-> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] apps and does not extend support to the community tools. 
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
 
 ### See also
