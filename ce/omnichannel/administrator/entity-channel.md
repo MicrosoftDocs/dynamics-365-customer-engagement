@@ -75,7 +75,7 @@ Create entity records workstream to enable entity record channel for cases, and 
 After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues.
 
 > [!Note]
-> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
+> To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution).
 
 1. Sign in to the Omnichannel for Administrator app.
 
