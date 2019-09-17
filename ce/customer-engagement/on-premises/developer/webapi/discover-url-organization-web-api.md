@@ -22,7 +22,7 @@ search.app:
 ---
 # Discover the URL for your organization using the Web API
 
-The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
+The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
 
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]

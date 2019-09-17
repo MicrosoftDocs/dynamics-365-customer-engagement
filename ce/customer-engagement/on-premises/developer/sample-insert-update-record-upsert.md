@@ -28,7 +28,7 @@ This sample code shows how to insert or update records by using the `Upsert` mes
 
 ## Prerequisites  
 
-1. Have access to a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps or [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] organization.  
+1. Have access to a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] or [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] organization.  
 
 2. Download the UpsertSample Visual Studio project.  
 

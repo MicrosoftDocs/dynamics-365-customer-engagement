@@ -30,7 +30,7 @@ Use cascading style sheet (CSS) web resources to create style sheets for use in 
  With CSS web resources, you can manage the appearance of webpage web resources by linking them to a shared library of CSS styles.  
   
 ### Limitations of CSS web resources  
- Like all web resources, CSS web resources are only available in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps security context. Only licensed [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps users who have the necessary privileges can access them.  
+ Like all web resources, CSS web resources are only available in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security context. Only licensed [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users who have the necessary privileges can access them.  
   
 ## Referencing a style sheet web resource from a webpage web resource  
  All web resources can use relative URLs to reference each other. In the following example, for the webpage web resource `sample_/content/contentpage.htm` to reference the style sheet web resource `sample_/styles/styles.css`, add the following example to the head element of sample_/content/contentpage.htm:  

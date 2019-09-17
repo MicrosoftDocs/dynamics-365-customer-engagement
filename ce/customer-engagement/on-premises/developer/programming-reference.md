@@ -33,7 +33,7 @@ This section contains reference documentation of the public assemblies, web serv
  [Dynamics 365 for Customer Engagement Package deployer 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployer-ce-9)<br />
  [Dynamics 365 Customer Engagement (on-premises) Outlook Client 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-outlookclient-ce-9)<br />
  [Dynamics 365 Customer Engagement (on-premises) Deployment Service 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9)<br />
- [Online Management API for Customer Engagement apps Reference](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com)<br />
+ [Online Management API for Customer Engagement (on-premises) Reference](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com)<br />
  [Client API Reference](clientapi/reference.md)<br />
  [Customization XML reference](customization-xml-reference.md)<br />
  [Schemas used in Dynamics 365 Customer Engagement (on-premises)](schemas-used-dynamics-365.md)<br />
@@ -41,5 +41,5 @@ This section contains reference documentation of the public assemblies, web serv
 ## Related Sections  
  [Release history](release-history.md)<br />
  [What's new for developers: Dynamics 365 Customer Engagement (on-premises)](whats-new-developers.md)<br />
- [Get started with developement for Dynamcis 365 Customer Engagement apps](get-started-sdk.md)<br />
+ [Get started with developement for Dynamcis 365 Customer Engagement (on-premises)](get-started-sdk.md)<br />
   [Sample code directory](sample-code-directory.md)<br />

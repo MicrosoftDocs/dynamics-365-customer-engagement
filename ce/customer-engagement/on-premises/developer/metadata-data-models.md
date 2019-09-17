@@ -21,9 +21,9 @@ search.app:
 ---
 # Metadata and data models
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server or client applications.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] uses a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server or client applications.  
 
- All the information necessary for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server to operate is stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps metadata. This includes information about entities, attributes, relationships, and option sets.  
+ All the information necessary for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server to operate is stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] metadata. This includes information about entities, attributes, relationships, and option sets.  
 
  The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web services contain the messages that you use to read or write the definitions for all the entities each organization. It can also be used to build a client-side metadata cache, which is useful for applications that access the metadata frequently. For example, you may want to create a custom search solution that supports all entities, even those created after the solution has been installed.  
 

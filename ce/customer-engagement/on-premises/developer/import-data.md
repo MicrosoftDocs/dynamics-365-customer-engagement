@@ -83,7 +83,7 @@ Dynamics 365 Customer Engagement (on-premises) include a web application tool ca
 
 ## Prepare for source files
  
-Before you can import data into Dynamics 365 Customer Engagement apps, you must create the source data files. The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into Dynamics 365 Customer Engagement (on-premises). More information: [Prepare Source Files](/powerapps/developer/common-data-service/prepare-source-files-import)  
+Before you can import data into Dynamics 365 Customer Engagement (on-premises), you must create the source data files. The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into Dynamics 365 Customer Engagement (on-premises). More information: [Prepare Source Files](/powerapps/developer/common-data-service/prepare-source-files-import)  
   
 ## Create data maps
 

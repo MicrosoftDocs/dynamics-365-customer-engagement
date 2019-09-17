@@ -23,7 +23,7 @@ search.app:
 # Get started with the Dynamics 365 for Customer Engagement Web API
 
 > [!NOTE]
-> The topics listed in the Dynamics 365 for Customer Engagement developer documentation TOC are applicable only for the on-premises users of Customer Engagement apps.
+> The topics listed in the Dynamics 365 for Customer Engagement developer documentation TOC are applicable only for the on-premises users of Customer Engagement (on-premises).
 >
 > The Web API documentation that is applicable to Dynamics 365 Customer Engagement (on-premises) (online) users is now available in the PowerApps documentation at: [Use the Common Data Service Web API](/powerapps/developer/common-data-service/webapi/overview).
 
