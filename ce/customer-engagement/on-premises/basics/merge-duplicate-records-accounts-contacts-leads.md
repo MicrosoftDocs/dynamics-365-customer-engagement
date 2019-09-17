@@ -56,14 +56,6 @@ Dynamics 365 Customer Engagement (on-premises) includes duplicate detection rule
 > 
 >   Duplicates aren't detected when you merge records, convert a lead, save an activity as completed, or change the status of a record, such as activating or reactivating a record.  
   
-## For system administrators  
- If you are a system administrator responsible for setting up and managing duplicate detection, see the following topics:  
-  
--   [Set up duplicate detection rules to keep your data clean](../admin/set-up-duplicate-detection-rules-keep-data-clean.md)  
-  
--   [Turn duplicate detection rules on or off for the whole organization](../admin/turn-duplicate-detection-rules-off-whole-organization.md)  
-  
--   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
   
 ### See also  
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
