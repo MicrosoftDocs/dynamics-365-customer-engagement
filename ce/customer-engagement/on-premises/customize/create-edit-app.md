@@ -76,7 +76,7 @@ As well as mobile devices.
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
   
-   - **Enable Mobile Offline**: Mobile offline allows users to run you app in offline mode to interact with there data while they're not connected to the internet. To use this feature, a Dynamics 365 administrator will need to set up mobile offline for the organization. More information: [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../mobile-app/setup-mobile-offline-for-admin.md)
+   - **Enable Mobile Offline**: Mobile offline allows users to run you app in offline mode to interact with there data while they're not connected to the internet. To use this feature, a Dynamics 365 administrator will need to set up mobile offline for the organization. More information:  [Set up mobile offline synchronization to allow users to work in offline mode on their mobile device](../../../mobile-app/setup-mobile-offline-for-admin.md)
 
 2. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
   
