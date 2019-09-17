@@ -2,7 +2,7 @@
 title: "Troubleshoot Teams integration| MicrosoftDocs"
 ms.custom: 
 description: "Troubleshoot issues with Teams integration."
-ms.date: 4/30/2019
+ms.date: 9/17/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -26,6 +26,20 @@ search.app:
 The following are error messages with possible resolutions.
 
 ## Error messages in the Teams app
+
+
+### Error: The admin has not consented to use user sync feature, you can add them manually.
+
+When you turn on enhanced Microsoft Teams Integration, there is two dialog boxes that you need to accept. On the second dialog box, when you don't check the **Consent on behalf of organization** check box, then users will get this error when they try to pin an entity record or view to Teams and share the tab with another user.
+
+To fix the issue, disable the Enhanced Microsoft Teams integration feature.
+
+1. Go to, [https://portal.azure.com](https://portal.azure.com).
+2. Select **Azure Active Directory** > **Enterprise**.
+3. In the list of apps go to, **Dynamics 365 Microsoft Teams collaboration integration**.
+4. Delete the app.
+5. Wait for about five minutes and then [enable the Enhanced Microsoft teams integration](teams-install-app.md) feature again. This time make sure that you to check the **Consent on behalf of organization** checkbox. 
+
 
 
 ### Error: I can't find the Dynamics 365 app in the Teams app store.
