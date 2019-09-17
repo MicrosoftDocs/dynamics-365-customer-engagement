@@ -23,7 +23,7 @@ search.app:
 # Multi-Select Picklist attributes
 
 > [!NOTE]
-> Multi-select picklist attributes were added with the Dynamics 365 for Customer Engagement (on-premises) version 9.0.
+> Multi-select picklist attributes were added with the Dynamics 365 Customer Engagement (on-premises) version 9.0.
 >
 > Clients that do not use the current .NET assemblies need to include <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion> with a value of `9.0.0.0` or higher in order to work with <xref:Microsoft.Xrm.Sdk.Metadata.MultiSelectPicklistAttributeMetadata> attributes. More information: <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.SdkClientVersion>.
 
@@ -295,7 +295,7 @@ foreach (Contact contact in nonHikers.Entities)
 
 ## Create a multi-select picklist with code
 
-The easiest way to create a multi-select picklist is to use the attribute editor in the customization tools. More information [Create and edit fields](../customize/create-edit-fields.md)
+The easiest way to create a multi-select picklist is to use the attribute editor in the customization tools. More information [Create and edit fields](../../../customize/create-edit-fields.md)
 
 But if you need to automate creation of this kind of attribute you can use C# code like the following with the organization service which creates a multi-select picklist to allow choices of outdoor activities to the `contact` entity. More information [Create attributes](/powerapps/developer/common-data-service/org-service/metadata-attributemetadata#create-attributes)
 

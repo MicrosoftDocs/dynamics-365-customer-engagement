@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 07/12/2019
+ms.date: 09/12/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: 
@@ -34,7 +34,9 @@ Before we begin, here are the top places for information about Field Service:
 
 - [Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service): Here you will find guided videos and courses.
 
-- [Field Service YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
+- [YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X): This includes concept videos for Field Service.
+
+- [Video tutorials](https://aka.ms/fs-videos): Step by step video tutorials for work orders, scheduling, and more.
 
 - [Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service): This is the portal where you can contribute product feedback and ideas.
 

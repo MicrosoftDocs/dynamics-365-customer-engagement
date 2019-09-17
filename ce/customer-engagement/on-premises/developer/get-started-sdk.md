@@ -83,7 +83,7 @@ The [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.m
 
 ## Create a mobile application that uses data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps
 
- [Write mobile and modern apps](write-mobile-modern-apps.md) contains information to get you started and links to additional content for mobile app development on the [Mobile SDK](https://msdn.microsoft.com/dynamics/crm/mobilesdk).
+ [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview) contains information to get you started with mobile app development on the PowerApps platform.
 
 <a name="bkmk_windowsClient"></a>
 
