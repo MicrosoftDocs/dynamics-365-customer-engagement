@@ -14,23 +14,23 @@ ms.custom:
 
 # Step 3: Attach sub action calls to action calls
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
 This topic describes how to attach a action call as sub-action call to another action call in Unified Service Desk for a Dynamics 365 Customer Service instance.
 
 ## Prerequisites
 
-- You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
+- You must have required Dynamics 365 Customer Service permissions to configure [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] and access the required Dynamics 365 Customer Service entities. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Access management in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/admin/security-unified-service-desk)
 
 - You must have completed [Create agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md) and [Step 2: Create search-related actions calls](search-step2-create-hosted-control.md). The configurations that you completed are required for this topic.
  
-- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
+- You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]:  
   
   - [Unified Service Desk Hosted Controls](/dynamics365/customer-engagement/unified-service-desk/unified-service-desk-hosted-controls)  
   
-  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
+  - These three types of hosted controls: Connection Manager, Global Manager, and Panel Layout. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Hosted control types, action, and event reference in Unified Service Desk](/dynamics365/customer-engagement/unified-service-desk/hosted-control-types-action-event-reference) 
   
-  - Filter access using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
+  - Filter access using [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](/dynamics365/customer-engagement/unified-service-desk/admin/manage-access-using-unified-service-desk-configuration)
 
 ## Attach sub action calls
 
@@ -73,5 +73,5 @@ This topic describes how to attach a action call as sub-action call to another a
 - [Step 1: Create search hosted control](search-step1-create-hosted-control.md)
 - [Step 2: Create search-related action calls](search-step2-create-action-calls.md)
 - [Step 5: Configure window navigation rule for search](search-step5-configure-window-navigation-rule.md)
-- [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
+- [Step 6: Create toolbar buttons for search](search-step6-create-toolbar-button.md)
 - [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](search-step7-add-hosted-control-action-calls-events-configurations.md)
