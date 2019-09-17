@@ -33,7 +33,7 @@ ms.author: matp
   
 -   Make sure the URL specified is correct. To verify, enter the URL into a web browser.  
   
--   The specified computer has [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] installed and the version is supported. See [Microsoft Dynamics 365 for Customer Engagement reporting requirements](../on-premises/microsoft-dynamics-365-reporting-requirements.md). 
+-   The specified computer has [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] installed and the version is supported. See [Microsoft Dynamics 365 for Customer Engagement reporting requirements](../deploy/microsoft-dynamics-365-reporting-requirements.md). 
   
 -   Verify that you have at least local administrator group membership on the [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] server.
 
