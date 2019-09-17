@@ -1,7 +1,7 @@
 ---
-title: "Data encryption for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Data encryption  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,13 +23,11 @@ search.app:
 ---
 # Enhance security by encrypting your data
 
-*This content also applies to the on-premises version.*
-
-[!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
+Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
   
- For [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps,  all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
+ For Customer Engagement (on-premises),  all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps users who have the system administrator security role can change the encryption key at any time. 
+ Customer Engagement (on-premises) users who have the system administrator security role can change the encryption key at any time. 
 
 <a name="BKMK_changeEncKey"></a>   
 ## Change an organization encryption key  
@@ -48,7 +46,7 @@ search.app:
 ## Copy your organization data encryption key  
  We strongly recommend that you make a copy of your data encryption key.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps as a user with the system administrator security role.  
+1. Sign in to Customer Engagement (on-premises) as a user with the system administrator security role.  
   
 2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
@@ -59,7 +57,7 @@ search.app:
 5. Paste the encryption key in to a text editor, such as Notepad.  
   
    > [!WARNING]
-   >  By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps generates a passphrase that is a random collection of Unicode characters. Therefore, you must save the system-generated passphrase by using an application and file that supports Unicode characters. Some text editors, such as Notepad use ANSI coding by default. Before you save the passphrase using Notepad, select **Save As**, and then in the **Encoding** list, select **Unicode**.  
+   >  By default, Customer Engagement (on-premises) generates a passphrase that is a random collection of Unicode characters. Therefore, you must save the system-generated passphrase by using an application and file that supports Unicode characters. Some text editors, such as Notepad use ANSI coding by default. Before you save the passphrase using Notepad, select **Save As**, and then in the **Encoding** list, select **Unicode**.  
   
 6. As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard drive.  
   

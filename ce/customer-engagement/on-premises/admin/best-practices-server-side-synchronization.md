@@ -1,7 +1,7 @@
 ---
-title: "Best practices for server-side synchronization for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Best practices for server-side synchronization  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,25 +23,12 @@ search.app:
 ---
 # Best practices for server-side synchronization 
 
-*This content also applies to the on-premises version.*
-
 Consider the following when planning and deploying server-side synchronization.  
   
 ## Best practices for configuring server-side synchronization  
   
-<a name="BKMK_CRMEXOnline"></a>   
-### If you use Dynamics 365 for Customer Engagement apps (online) and Exchange Online  
- By default, the [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] email server profile is created for Customer Engagement apps organizations and should be your first choice. If you want to use your own profile, you use Customer Engagement apps, and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], and both services are on the same tenant, use the following settings in your email server profile (**Settings** > **Email Configuration** > **Email Server Profiles**).  
-  
-|Settings|Recommendation|  
-|--------------|--------------------|  
-|Auto Discover Server Location|Yes|  
-|**Incoming Connection**||  
-|Authenticate Using|Server to Server Authentication|  
-|Use Impersonation|No|  
-|Use same settings for Outgoing|Yes|  
-  
 <a name="BKMK_OneAccount"></a>   
+
 ### If you want to use one set of credentials to process emails with Outlook or Exchange  
  Using one account to process email to all mailboxes is easier to maintain but requires using an account that has access to all mailboxes in [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]. The account must have impersonation rights on [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)]. If that single account is compromised, all mailboxes using that account are compromised. Use the following settings in your email server profile (**Settings** > **Email Configuration** > **Email Server Profiles** to use a single account for email processing.  
   

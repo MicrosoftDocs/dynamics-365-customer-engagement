@@ -30,7 +30,7 @@ Entity relationships define the ways that entity records can be associated with 
   
 <a name="BKMK_TypesOfEntityRelationships"></a>   
 ## Types of entity relationships  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps provides two types of entity relationships. Both of these inherit from the <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase> class:  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides two types of entity relationships. Both of these inherit from the <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase> class:  
   
 - **[One-to-many relationships](customize-entity-relationship-metadata.md#BKMK_OneToManyRelationships)**  
   
@@ -71,7 +71,7 @@ Entity relationships define the ways that entity records can be associated with 
 <a name="BKMK_HierarchicalRelationships"></a>   
 ### Hierarchical one-to-many entity relationships  
 
- With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps, you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The `OneToManyRelationship.IsHierarchical` property (<xref href="Microsoft.Dynamics.CRM.OneToManyRelationship?text=OneToManyRelationship" />.IsHierarchical or <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical>) flags this relationship as the one-to-many relationship to use for the entity.  
+ With [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], you can specify one self-referencing one-to-many entity relationship as the designated hierarchical relationship for an entity. The `OneToManyRelationship.IsHierarchical` property (<xref href="Microsoft.Dynamics.CRM.OneToManyRelationship?text=OneToManyRelationship" />.IsHierarchical or <xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OneToManyRelationshipMetadata.IsHierarchical>) flags this relationship as the one-to-many relationship to use for the entity.  
   
  All one-to-many entity relationships represent a type of hierarchy, but relationships explicitly flagged using the `IsHierarchical` property are the only entity relationships that support the hierarchy visualizations in the application as well as new query operators to retrieve hierarchically related records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Query hierarchical data](org-service/query-hierarchical-data.md)  
   

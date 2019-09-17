@@ -1,7 +1,7 @@
 ---
-title: "Set up a Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
+title: "Set up an organization | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Set up an organization
 
-*This content also applies to the on-premises version.*
-
-This section describes how to set up your [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps organization. You will learn about managing business units and sites, adding resources and selecting language options.  
+This section describes how to set up your Dynamics 365 Customer Engagement (on-premises) organization. You will learn about managing business units and sites, adding resources and selecting language options.  
 
 ### See also
 [Terminology used in the product and documentation](online-terminology.md)

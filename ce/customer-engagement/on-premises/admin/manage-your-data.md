@@ -1,7 +1,7 @@
 ---
-title: "Manage your Dynamics 365 for Customer Engagement apps data | MicrosoftDocs"
+title: "Manage your data | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,5 @@ search.app:
 ---
 # Manage your data
 
-*This content also applies to the on-premises version.*
-
-Managing data in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps includes importing data into [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps, cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption.  
+Managing data in Dynamics 365 Customer Engagement (on-premises) includes importing data into Customer Engagement (on-premises), cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption.  
   

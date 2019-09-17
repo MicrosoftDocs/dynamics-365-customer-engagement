@@ -46,7 +46,7 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
 ## Microsoft Azure Service Bus issuer certificate  
 
- Provides a download link to the public certificate that is required to configure [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps integration. For an on-premises or Internet-facing deployment, this information is only visible after [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been configured for [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration.  
+ Provides a download link to the public certificate that is required to configure [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] integration. For an on-premises or Internet-facing deployment, this information is only visible after [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been configured for [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration.  
   
  For more information, see [Azure Extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md).  
  
@@ -55,10 +55,10 @@ The Developer Resources page in the [!INCLUDE[pn_dynamics_crm_online](../include
 
 ## Discovery service  
 
- The Discovery Service web service provides information about the organizations available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server. This information includes the web address (URL) for each organization.
+ The Discovery Service web service provides information about the organizations available on the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. This information includes the web address (URL) for each organization.
 
   
-### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps
+### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]
 
 You should generally use the Web API global discovery service because this will ignore regional groupings and allow you to retrieve available organizations world-wide. See [Discover the URL for your organization using the Web API](webapi/discover-url-organization-web-api.md)
 
@@ -67,7 +67,7 @@ You should generally use the Web API global discovery service because this will 
   
 [!INCLUDE [regional-discovery-services](../includes/regional-discovery-services.md)]
   
-### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps
+### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
  Use the following URL to access the discovery service:  
   
  http://`ServerName`/XRMServices/2011/Discovery.svc  
@@ -80,7 +80,7 @@ For more information, see [Discover the URL for your organization using the Orga
 
  The organization service provides access to the business data and metadata of your organization by using the SOAP protocol. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md).  
   
-### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps 
+### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] 
 
  Use the following URLs to access the organization service (SOAP endpoint):  
 
@@ -97,7 +97,7 @@ For more information, see [Discover the URL for your organization using the Orga
 |India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/Organization.svc`|
 |France|`https://OrganizationName.api.crm12.dynamics.com/XrmServices/2011/Organization.svc`|
   
-### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps
+### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
 
  Use the following URL to access the organization service (SOAP endpoint):  
   
@@ -112,7 +112,7 @@ For more information, see [Discover the URL for your organization using the Orga
 > [!WARNING]
 >  The Organization Data service has been deprecated and replaced by the Web API. For more information about the Web API see [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
   
-### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps  
+### For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]  
 
  Use the following URLs to access the organization data service (ODataREST endpoint):  
 
@@ -129,7 +129,7 @@ For more information, see [Discover the URL for your organization using the Orga
 |India|`https://OrganizationName.api.crm8.dynamics.com/XrmServices/2011/OrganizationData.svc`|
 |France|`https://OrganizationName.api.crm12.dynamics.com/XrmServices/2011/OrganizationData.svc`|
   
-### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps  
+### For on-premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
  Use the following URL to access the organization data service (ODataREST endpoint):  
   
  `http[s]://ServerName/OrganizationName/XRMServices/2011/OrganizationData.svc`  

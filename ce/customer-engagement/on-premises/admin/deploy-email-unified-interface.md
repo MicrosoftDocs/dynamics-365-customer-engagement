@@ -1,7 +1,7 @@
 ---
-title: "Enable accessible email for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Enable accessible email  | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/30/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,7 +23,7 @@ search.app:
 ---
 # Enable accessible email flow
 
-To improve accessibility when reading and editing email in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
+To improve accessibility when reading and editing email in Dynamics 365 Customer Engagement (on-premises), we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
 
 ## For admins: Install the app
 
@@ -31,7 +31,7 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 **Install the app**
 
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator or delegated admin security roles.  
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with Customer Engagement (on-premises) system administrator or delegated admin security roles.  
   
 2. Select **Admin centers** > **Dynamics 365**.  
 
@@ -66,7 +66,7 @@ Once the app is installed, notify users that they need to reload the web applica
 Users with the **Email app access role**, go to **Sales**, **Service**, or **Marketing**. Select **Email Messages** to open emails.
 
 > [!NOTE]
-> - If you don't see **Sales**, **Service**, or **Marketing**, your [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps has been customized. Talk to your administrator or customizer.
+> - If you don't see **Sales**, **Service**, or **Marketing**, your Customer Engagement (on-premises) has been customized. Talk to your administrator or customizer.
 > - **Email Messages** will not appear if **Activities** has been customized to not be included in the sitemap.
 
 ![Select Email Messages](media/select-email-messages75.png "Select Email Messages")
@@ -78,4 +78,4 @@ Here, you can read and manage your emails in the Email in Unified Interface app.
 ### See also
 
 [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)<br/>
-[Find your way around [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)
+[Find your way around Customer Engagement (on-premises)](../basics/navigation-customer-engagement-enterprise.md)

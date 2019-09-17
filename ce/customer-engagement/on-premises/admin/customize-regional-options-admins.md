@@ -1,7 +1,7 @@
 ---
-title: "Customize regional options for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Customize regional options  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,11 +23,9 @@ search.app:
 ---
 # Customize regional options 
 
-*This content also applies to the on-premises version.*
-
 You can customize how numbers, currencies, times, and dates appear to everyone in your organization.  
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1. Make sure you have the System Administrator security role or equivalent permissions.
   
     Check your security role  
   

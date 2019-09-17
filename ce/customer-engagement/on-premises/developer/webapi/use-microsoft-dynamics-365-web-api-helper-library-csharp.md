@@ -21,7 +21,7 @@ search.app:
 ---
 # Use the Dynamics 365 for Customer Engagement Web API Helper Library (C#)
 
-Most of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API C#  code samples described in this SDK use the  *Dynamics 365 for Customer Engagement Web API Helper Library* to assist in performing common tasks, such as application configuration, authentication against a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps service, and HTTP response error handling. You might also find this helper code useful in your [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)]-based projects.  
+Most of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API C#  code samples described in this SDK use the  *Dynamics 365 for Customer Engagement Web API Helper Library* to assist in performing common tasks, such as application configuration, authentication against a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] service, and HTTP response error handling. You might also find this helper code useful in your [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)]-based projects.  
   
 ## Obtain and use the helper library  
  The Dynamics 365 for Customer Engagement Web API Helper Library is distributed as the NuGet package [Microsoft.CrmSdk.WebApi.Samples.HelperCode](https://www.nuget.org/packages/Microsoft.CrmSdk.WebApi.Samples.HelperCode). If you are unfamiliar with downloading and installing NuGet packages in Visual Studio projects, see the section [Create Visual Studio project](/powerapps/developer/common-data-service/webapi/quick-start-console-app-csharp#create-visual-studio-project).  

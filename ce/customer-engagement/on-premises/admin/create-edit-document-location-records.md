@@ -1,7 +1,7 @@
 ---
-title: "Create or edit document location records for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit document location records  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,11 +23,9 @@ search.app:
 ---
 # Create or edit document location records
 
-*This content also applies to the on-premises version.*
-
-[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
+[!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in Dynamics 365 Customer Engagement (on-premises) that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
   
- To store documents for [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps records, the document libraries or folders must be in place. If [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps is unable to create the document libraries and folders automatically, you can manually create these in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. After you create the document libraries and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you must create document location records in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps to point to these [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document libraries and folders.  
+ To store documents for Dynamics 365 Customer Engagement (on-premises) records, the document libraries or folders must be in place. If Customer Engagement (on-premises) is unable to create the document libraries and folders automatically, you can manually create these in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. After you create the document libraries and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)], you must create document location records in Customer Engagement (on-premises) to point to these [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document libraries and folders.  
   
 1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
   
@@ -51,7 +49,7 @@ search.app:
   
      - Select **Relative URL**. In **Relative URL**, to create a relative document location to the existing site or document location record, select the existing [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site or document location record. In the second box, enter the name of the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder.  
   
-   - **Regarding**. Choose the **Lookup** button ![Lookup button](../admin/media/lookup-button-4.gif "Lookup button"). In the **Look Up Record** dialog box, in the **Look for** list, select the type of records you want to find. search and select the record for which you want to create the location record in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, and choose **OK**.  
+   - **Regarding**. Choose the **Lookup** button ![Lookup button](../admin/media/lookup-button-4.gif "Lookup button"). In the **Look Up Record** dialog box, in the **Look for** list, select the type of records you want to find. search and select the record for which you want to create the location record in Customer Engagement (on-premises), and choose **OK**.  
   
 5. Choose **Save and Close**.  
   

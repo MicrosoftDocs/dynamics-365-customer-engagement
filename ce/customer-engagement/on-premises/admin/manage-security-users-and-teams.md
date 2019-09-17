@@ -1,7 +1,7 @@
 ---
 title: "Manage security, users, and teams | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,11 +23,7 @@ search.app:
 ---
 # Manage security, users, and teams
 
-*This content also applies to the on-premises version.*
-
-[!INCLUDE[cc-customer-engagement-apps-note](../includes/cc-customer-engagement-apps-note.md)] 
-
-The following section contains information about users, teams, and security in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+The following section contains information about users, teams, and security in Dynamics 365 Customer Engagement (on-premises).  
   
 ### See also  
 [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility/)

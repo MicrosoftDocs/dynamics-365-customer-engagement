@@ -1,7 +1,7 @@
 ---
-title: "Audit data and user activity for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Audit data and user activity  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,14 +23,12 @@ search.app:
 ---
 # Audit data and user activity for security and compliance
 
-*This content also applies to the on-premises version.*
-
-The [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
+The Dynamics 365 Customer Engagement (on-premises) auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
 <!-- 
 > [!NOTE]
 > This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using Activity Logging. See [Enable and use Activity Logging](enable-use-comprehensive-auditing.md).
 -->
- The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] administrator answer questions such as:  
+ The audit logs help the Customer Engagement (on-premises) administrator answer questions such as:  
   
 -   Which user was accessing the system and when?  
   
@@ -63,7 +61,7 @@ The following operations can be audited:
 System administrators and customizers can start or stop auditing for an organization.  
   
 > [!IMPORTANT]
->  For Dynamics 365 for Customer Engagement apps (on-premises), you may notice that auditing can significantly increase the size of the organization database over time. You can delete audit logs by going to **Settings** > **Auditing** > **Audit Log Management**. Additionally, you may want to stop auditing for maintenance purposes. Stopping auditing stops tracking for the organization during the period until auditing is started again. When you start auditing again, the same auditing selection is maintained that was previously used.  
+>  For Customer Engagement (on-premises), you may notice that auditing can significantly increase the size of the organization database over time. You can delete audit logs by going to **Settings** > **Auditing** > **Audit Log Management**. Additionally, you may want to stop auditing for maintenance purposes. Stopping auditing stops tracking for the organization during the period until auditing is started again. When you start auditing again, the same auditing selection is maintained that was previously used.  
   
 <a name="BKMK_startAudit"></a>   
 ## Start or stop auditing for an organization  
@@ -77,11 +75,11 @@ System administrators and customizers can start or stop auditing for an organiza
   
 4. Select the entities you want to track. To start or stop auditing on specific entities, select or clear the following check boxes:  
   
-   - **Audit user access**. Tracks when a user accesses [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps including the user name and time.  
+   - **Audit user access**. Tracks when a user accesses Customer Engagement (on-premises)including the user name and time.  
   
    - **Common Entities**. Tracks common entities like Account, Contact, Goal, Product, and User.  
   
-   - **Sales Entities**. Tracks sales-related entities lilke Competitor, Opportunity, Invoice, Order, and Quote.  
+   - **Sales Entities**. Tracks sales-related entities like Competitor, Opportunity, Invoice, Order, and Quote.  
   
    - **Marketing Entities**. Tracks Campaign entity activity.  
   

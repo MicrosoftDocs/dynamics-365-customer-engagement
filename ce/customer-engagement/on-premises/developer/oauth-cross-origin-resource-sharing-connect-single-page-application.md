@@ -21,18 +21,18 @@ search.app:
 ---
 # Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 Customer Engagement (on-premises)
 
-You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to work with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data. To provide this, Cross-Origin Resource Sharing (CORS) is enabled so that your SPAs can bypass browser restrictions that normally prevent requests that cross domain boundaries.  
+You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to work with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. To provide this, Cross-Origin Resource Sharing (CORS) is enabled so that your SPAs can bypass browser restrictions that normally prevent requests that cross domain boundaries.  
   
 > [!NOTE]
 >  CORS support is only provided when using the Web API. You cannot use the organization service or the deprecated organization data service.  
   
 <a name="bkmk_Spas_and_same_origin_policy"></a>   
 ## SPAs and Same-Origin policy  
- SPAs depend on extensive use of client-side [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to create a single dynamic page which doesn't need to load new pages. Instead they use XMLHTTPRequests to retrieve data and other resources from the server. SPAs work well when the data and resources exist in the same domain as the application. But to protect access to data and resources on other domains, all modern browsers enforce a Same-Origin policy to prevent sites from using data and resources from sites on a different domain. CORS provides a way to gain access to resources on another domain. Creating a SPA to access [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data without CORS is not a viable option.  
+ SPAs depend on extensive use of client-side [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] to create a single dynamic page which doesn't need to load new pages. Instead they use XMLHTTPRequests to retrieve data and other resources from the server. SPAs work well when the data and resources exist in the same domain as the application. But to protect access to data and resources on other domains, all modern browsers enforce a Same-Origin policy to prevent sites from using data and resources from sites on a different domain. CORS provides a way to gain access to resources on another domain. Creating a SPA to access [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data without CORS is not a viable option.  
   
 <a name="bkmk_use_cors"></a>   
-## Use CORS with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps
- The [Cross-Origin Resource Sharing specification](http://www.w3.org/TR/cors/) provides a detailed description of how to implement and use CORS. It explains all about the various headers and preflight requests that you need to apply to make CORS work. The good news is that you don't need to become an expert in CORS to use it with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. The server-side part has been done for you and all you need is to know how to consume it.  You don't need to understand all the inner workings of CORS to use it with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Instead you can use the [Azure Active Directory Authentication Library for JavaScript](https://github.com/AzureAD/azure-activedirectory-library-for-js) (adal.js) and it will take care of much of the CORS complexity for you. Since [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and Internet-facing deployment (IFD) users are authenticated using Azure Active Directory, ADAL.js is the supported way to authenticate SPA users.  
+## Use CORS with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]
+ The [Cross-Origin Resource Sharing specification](http://www.w3.org/TR/cors/) provides a detailed description of how to implement and use CORS. It explains all about the various headers and preflight requests that you need to apply to make CORS work. The good news is that you don't need to become an expert in CORS to use it with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The server-side part has been done for you and all you need is to know how to consume it.  You don't need to understand all the inner workings of CORS to use it with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Instead you can use the [Azure Active Directory Authentication Library for JavaScript](https://github.com/AzureAD/azure-activedirectory-library-for-js) (adal.js) and it will take care of much of the CORS complexity for you. Since [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and Internet-facing deployment (IFD) users are authenticated using Azure Active Directory, ADAL.js is the supported way to authenticate SPA users.  
   
 <a name="bkmk_how_adaljs_works"></a>   
 ## How adal.js works  
@@ -56,7 +56,7 @@ You can create a Single Page Apps (SPAs) which uses [!INCLUDE[pn_JavaScript](../
   
     You will need to include the following:  
   
-   - The URL to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization  
+   - The URL to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization  
   
    - The name of the Active Directory tenant your organization uses to authenticate  
   

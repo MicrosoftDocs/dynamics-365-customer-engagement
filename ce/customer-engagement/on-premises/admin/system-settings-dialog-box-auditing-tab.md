@@ -1,7 +1,7 @@
 ---
-title: "System Settings dialog box - Auditing tab for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "System Settings dialog box - Auditing tab  | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,8 +23,6 @@ search.app:
 ---
 # System Settings dialog box - Auditing tab
 
-*This content also applies to the on-premises version.*
-
 Enable auditing to track changes to your organization’s data and maintain a log of changes.  
   
 ## Open the System Settings dialog box (if it’s not already open)  
@@ -45,7 +43,7 @@ Enable auditing to track changes to your organization’s data and maintain a lo
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Audit Settings** |                                                                                                                                                                                                                                                                                                                                                |
 |   Start Auditing   |                                                                                                                                                            Start or stop auditing.                                                                                                                                                             |
-| Audit user access  | If enabled, [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps tracks when the user started accessing [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps and whether or not the user accessed the application by using the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. |
+| Audit user access  | If enabled, Customer Engagement (on-premises) tracks when the user started accessing Customer Engagement (on-premises) and whether or not the user accessed the application by using the web application or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. |
   
 Specify to audit specific areas of the product, as described in the following table.  
   

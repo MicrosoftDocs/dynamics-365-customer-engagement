@@ -22,17 +22,17 @@ search.app:
 ---
 # How role-based security can be used to control access to entities
 
-In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps the fundamental concept in role-based security is that a role contains privileges that define a set of actions that can be performed within the organization. For example, the salesperson role is assigned a set of privileges that are relevant to the performance of the tasks defined for that role. All users must be assigned to one or more predefined or custom roles. In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, roles can also be assigned to teams. When a user or team is assigned to one of these roles, the person or team members are assigned the set of privileges associated with that role. A user must be assigned to at least one role.  
+In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] the fundamental concept in role-based security is that a role contains privileges that define a set of actions that can be performed within the organization. For example, the salesperson role is assigned a set of privileges that are relevant to the performance of the tasks defined for that role. All users must be assigned to one or more predefined or custom roles. In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], roles can also be assigned to teams. When a user or team is assigned to one of these roles, the person or team members are assigned the set of privileges associated with that role. A user must be assigned to at least one role.  
 
  A privilege authorizes the user to perform a specific action on a specific entity type. Privileges apply to an entire class of objects, rather than individual instances of objects. For example, if a user does not have the privilege to read accounts, any attempt by that user to read an account will fail. A privilege contains an access level that determines the levels within the organization to which a privilege applies. Each privilege can have up to four access levels: Basic, Local, Deep, and Global.  
 
 <a name="bkmk_roles"></a>   
 ## Roles  
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps includes fourteen predefined roles that reflect common user roles with access levels defined to match the security best-practice goal of providing access to the minimum amount of business data required for the job. With these roles you can quickly deploy a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system without having to define your own roles. However, you can create custom roles using the predefined roles as a template, or you can define a new set of roles. For a list, see [List of Predefined Security Roles](how-role-based-security-control-access-entities.md#bkmk_list).  
+ [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] includes fourteen predefined roles that reflect common user roles with access levels defined to match the security best-practice goal of providing access to the minimum amount of business data required for the job. With these roles you can quickly deploy a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system without having to define your own roles. However, you can create custom roles using the predefined roles as a template, or you can define a new set of roles. For a list, see [List of Predefined Security Roles](how-role-based-security-control-access-entities.md#bkmk_list).  
 
  Each role is associated with a set of privileges that determines the user or team’s access to information within the company.  
 
- You can create roles within [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps and modify or remove these custom roles to fit your business needs. The roles you create for your business unit are inherited by all the business units in the hierarchy.  
+ You can create roles within [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] and modify or remove these custom roles to fit your business needs. The roles you create for your business unit are inherited by all the business units in the hierarchy.  
 
  You can assign one or more roles to a user or to a team. For example, a user can have the Sales Manager role in addition to being a Customer Service Representative, in which case that user has all the privileges of both roles.  
 
@@ -40,9 +40,9 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps the funda
 
 <a name="bkmk_privileges"></a>   
 ## Privileges  
- In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, there are over 580 privileges that are predefined system-wide during setup. A privilege is a permission to perform an action in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. Some privileges apply in general and some to a specific entity type.  
+ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], there are over 580 privileges that are predefined system-wide during setup. A privilege is a permission to perform an action in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. Some privileges apply in general and some to a specific entity type.  
 
- [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps uses privileges as the core of the underlying security check. Privileges are "built in" to the product and are used throughout the application and platform layers. You cannot add or remove privileges, or change how privileges are used to grant access to certain functionality, but you can construct new roles from the existing privilege set.  
+ [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] uses privileges as the core of the underlying security check. Privileges are "built in" to the product and are used throughout the application and platform layers. You cannot add or remove privileges, or change how privileges are used to grant access to certain functionality, but you can construct new roles from the existing privilege set.  
 
  Each role defines a set of privileges that determines the user or team's access to information within the company. The platform checks for the privilege and rejects the operation if the user does not   have the necessary privilege. A privilege is combined with a depth or access level.  
 
@@ -56,7 +56,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps the funda
 ## Access levels  
  The access level or privilege depth for a privilege determines, for a given entity type, at which levels within the organization hierarchy a user can act on that type of entity.  
 
- The following table lists the levels of access in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps, starting with the most access. The icon is shown in the security role editor in the Web application.  
+ The following table lists the levels of access in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], starting with the most access. The icon is shown in the security role editor in the Web application.  
 
 |||  
 |-|-|  
@@ -103,7 +103,7 @@ In [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps the funda
 |               Scheduler               |                                 A user who manages services, required resources, and working hours.                                  |
 |             Support User              |                                              A user who is a customer support engineer.                                              |
 |         System Administrator          |                                     A user who defines and implements the process at any level.                                      |
-|           System Customizer           | A user who customizes [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps entities, attributes, relationships, and forms. |
+|           System Customizer           | A user who customizes [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] entities, attributes, relationships, and forms. |
 |      Vice President of Marketing      |                                 A user who manages marketing activities at the business unit level.                                  |
 |        Vice President of Sales        |                                A user who manages the sales organization at the business unit level.                                 |
 

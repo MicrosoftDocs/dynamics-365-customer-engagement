@@ -1,7 +1,7 @@
 ---
 title: "Performance tuning and optimization | MicrosoftDocs"
 ms.custom: 
-ms.date: 02/01/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Performance tuning and optimization
 
-*This content also applies to the on-premises version.*
-
-Use this information to help you plan and optimize application performance with [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.  
+Use this information to help you plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises).  
 
 We recommend that you not run operations that require intensive database transactions concurrently. Similarly, don’t run operations that require intensive database transactions during normal business hours when users are most likely to access the system. 
 

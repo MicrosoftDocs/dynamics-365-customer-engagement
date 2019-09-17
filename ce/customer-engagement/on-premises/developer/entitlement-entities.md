@@ -1,20 +1,19 @@
 ---
-title: "Entitlement entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Entitlement entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about entitlement entities that allow you to set a default entitlement for a customer and control entitlement terms for incidents."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 30023495-fc7e-4b42-aa61-29d43647606a
-caps.latest.revision: 20
 author: KumarVivek
 ms.author: kvivek
-manager: amyla
+manager: annbe
 search.audienceType: 
   - developer
 search.app: 
@@ -28,7 +27,7 @@ Entitlements specify the support term based on number of hours or number of case
   
  Use entitlement templates and entitlement template channels to create entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term. You can also relate entitlement channels and products to entitlement templates. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
   
- If you’re using [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] or [!INCLUDE[pn_crm_2016_onprem](../includes/pn-crm-2016-onprem.md)] or later, you can also:  
+ If you’re using Dynamics 365 Customer Engagement (on-premises), you can also:  
   
 - **Set a default entitlement for a customer**: When you create or update an incident (case) for the customer, the default entitlement is automatically applied to the incident. For incident updates, the default entitlement is automatically applied only if you are updating the customer, contact, or product information for an incident record. This is especially useful when you have a single entitlement per customer in your organization, and want the default entitlement to be automatically applied to the incidents that are created or updated for each customer instead of the customer service representatives having to manually select the entitlement, and apply it to the incident.  
   

@@ -28,7 +28,7 @@ search.app:
 ---
 # Extend Dynamics 365 for Customer Engagement on the client
 
-This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps in the clients provided for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps -- the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] -- by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions that can be applied for all clients rather than each one separately.  
+This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] in the clients provided for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] -- the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] -- by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions that can be applied for all clients rather than each one separately.  
   
  Client extensions can provide a very rich and responsive experience for users because the code runs on their device. However, critical business logic should not be applied only by client-side scripts. Unlike extensions that are applied on the server, client extensions can’t apply business logic for data entering the system by other means, such as integrations with other systems, custom clients, or data import.  
   
@@ -41,11 +41,11 @@ This section contains information about changes developers and customizers can m
   
  [Open forms, views, and dashboards in Dynamics 365 for Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
   
- [Web Resources for Customer Engagement apps](web-resources.md)  
+ [Web Resources for Customer Engagement (on-premises)](web-resources.md)  
   
 ## Related Sections  
 
-[Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)
+[Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
 
 [Customize commands and the ribbon](customize-dev/customize-commands-ribbon.md)
   

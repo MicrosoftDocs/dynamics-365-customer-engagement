@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting: User needs read-write access to the Dynamics 365 for Customer Engagement apps organization | MicrosoftDocs"
+title: "Troubleshooting: User needs read-write access  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Troubleshooting: User needs read-write access
 
-*This content also applies to the on-premises version.*
-
-You don’t have sufficient permissions to access [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps. A [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps system administrator will need to do the following in the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps:  
+You don’t have sufficient permissions to access Dynamics 365 Customer Engagement (on-premises). A system administrator will need to do the following in the Customer Engagement (on-premises) apps:  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   

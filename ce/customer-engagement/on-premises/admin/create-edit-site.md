@@ -1,7 +1,7 @@
 ---
-title: "Create or edit a site for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Create or edit a site  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
   - Powerplatform
 ---
 # Create or edit a site to specify location
-
-*This content also applies to the on-premises version.*
 
 You can create a new site to add an office location or other facility where service operations take place. You can also edit the details, such as the street address or phone number, for an existing site.  
   

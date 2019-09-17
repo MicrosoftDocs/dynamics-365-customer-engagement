@@ -1,7 +1,7 @@
 ---
-title: "Field level security for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Field level security | MicrosoftDocs"
 ms.custom: 
-ms.date: 05/24/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -31,7 +31,7 @@ Record-level permissions are granted at the entity level, but you may have certa
   
 - Data access requests from within a client application, such as web browser, mobile client, or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)].  
   
-- Web service calls using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] (for use in plug-ins, custom workflow activities, and custom code)  
+- Web service calls using the Dynamics 365 Web Services (for use in plug-ins, custom workflow activities, and custom code)  
   
 - Reporting (using Filtered Views)  
   
@@ -60,7 +60,7 @@ A security profile determines the following:
 A combination of these three permissions can be configured to determine the user privileges for a specific data field.  
   
 > [!IMPORTANT]
->  Unless one or more security profiles are assigned to a security enabled field, only Dynamics 365 for Customer Engagement apps users with the system administrator security role will have access to the field.  
+>  Unless one or more security profiles are assigned to a security enabled field, only Customer Engagement (on-premises) users with the system administrator security role will have access to the field.  
   
 <a name="BKMK_FLSexample"></a>   
 ## Example for restricting the mobile phone field for the Contact entity  
@@ -70,7 +70,7 @@ A combination of these three permissions can be configured to determine the user
 |------------------|------------|  
 |Vice presidents|Full. Can create, update, and view mobile phone numbers for contacts.|  
 |Sales Managers|Read-only. Can only view mobile phone numbers for contacts.|  
-|Salespersons and all other Dynamics 365 for Customer Engagement apps users|None. Cannot create, update or view mobile phone numbers for contacts.|  
+|Salespersons and all other Customer Engagement (on-premises) users|None. Cannot create, update or view mobile phone numbers for contacts.|  
   
  To restrict this field, you would perform the following tasks.  
   
@@ -115,7 +115,7 @@ Configure the security profiles.
   
 3. Click **Save and Close**.  
   
-Any Dynamics 365 for Customer Engagement apps users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365 for Customer Engagement](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365 for Customer Engagement") ********, indicating that the field is secured.  
+Any Customer Engagement (on-premises) users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365 for Customer Engagement](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365 for Customer Engagement") ********, indicating that the field is secured.  
   
 <a name="BKMK_FLS_fields"></a>   
 ## Which fields can be secured?  

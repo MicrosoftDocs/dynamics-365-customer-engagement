@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 for Customer Engagement server, authenticate using OAuth, and access the web services"
+title: "Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Customer Engagement server, authenticate using OAuth, and access the web services"
 ms.custom: 
 ms.date: 03/29/2019
 ms.prod: crm-2016
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - mobile, modern
   - register, registration
@@ -24,7 +24,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory
+# Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory
 
 This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
   
@@ -64,7 +64,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
  For a non-[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] native client application such as a console application, use any valid URI value. In this case, the URI doesn’t need to actually exist but it must be unique in the tenant.  
   
 <a name="bkmk_ifd"></a>   
-## App registration for Dynamics 365 for Customer Engagement on-premises (IFD)  
+## App registration for Dynamics 365 Customer Engagement (on-premises) (IFD)  
  **Scenario**: A customer or other person registers a custom application to access organization data on a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server provided by an ISV or Partner.  
   
 #### The ISV or Partner performs the following tasks:  
@@ -118,4 +118,4 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 ### See also  
  [Adding, Updating, and Removing an Application](https://msdn.microsoft.com/library/dn132599.aspx)   
- [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](authenticate-users.md)
+ [Authenticate Users with Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)
