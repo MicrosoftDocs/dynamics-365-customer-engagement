@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: cac47832-86f4-41b4-b5c6-e470cdcaa79c
 caps.latest.revision: 37
 author: JimDaly
@@ -63,4 +63,4 @@ To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](.
  [Activity Feeds Entities](activity-feeds-entities.md)   
  [Post Entity](entities/post.md)   
  [Collaborate and communicate with Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526704)   
- [Connect Microsoft Dynamics 365 for Customer Engagement to Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526705)
+ [Connect Microsoft Dynamics 365 Customer Engagement to Yammer](http://go.microsoft.com/fwlink/p/?LinkId=526705)

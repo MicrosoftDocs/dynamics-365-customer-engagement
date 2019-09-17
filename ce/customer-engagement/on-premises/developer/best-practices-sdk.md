@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 42dcebf5-a624-45b9-b719-20e5882d5ca2
 caps.latest.revision: 89
 author: JimDaly
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Best practices for developing with Dynamics 365 for Customer Engagement
+# Best practices for developing with Dynamics 365 Customer Engagement
 
 This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
 
@@ -265,7 +265,7 @@ Best practices for securing your implementation of [!INCLUDE[pn_dynamics_crm](..
 - Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 for Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
 -->
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 Customer Engagement (on-premises)](../admin/security-concepts.md)  
 
@@ -336,7 +336,7 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 
 One of the key tenets of ISV extensibility is that you should not assume that your ISV solution is the only one installed. The following is a list of best practices to follow.  
 
-### Best practices for using the Dynamics 365 for Customer Engagement web services
+### Best practices for using the Dynamics 365 Customer Engagement web services
 
 You should put the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web service URLs into a configuration file, for example, into an app.config file, so that your code is isolated from changes to the URL. For example, there are different URLs for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data centers throughout the world.  
 
@@ -358,7 +358,7 @@ Create a new website for your code when any of the following applies:
 - Your application always uses [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] or integrated Windows authentication (not IFD) and cross-domain scripting is not an issue. For example, your application interacts with a back end by using web services and interacts with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] form. A page hosted in an IFRAME that is enclosed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application that does not interact with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] form falls into this category.  
 
 ### See also  
- [Write Code for Dynamics 365 for Customer Engagement (Web Services)](extend-dynamics-365-server.md)   
+ [Write Code for Dynamics 365 Customer Engagement (Web Services)](extend-dynamics-365-server.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises) Forms](clientapi/client-scripting.md)   
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md)

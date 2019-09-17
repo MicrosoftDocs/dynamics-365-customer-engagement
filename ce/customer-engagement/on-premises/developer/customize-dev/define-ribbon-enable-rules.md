@@ -1,5 +1,5 @@
 ---
-title: "Define ribbon enable rules (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define ribbon enable rules (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining specific rules to control when the ribbon elements are enabled during configuration of ribbon elements. "
 ms.custom: 
 ms.date: 02/08/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, enable controls
 ms.assetid: f17819f8-e963-43e1-8895-36bf0cc32b0f
@@ -141,7 +141,7 @@ function EnableRule()
  Uses the `<OrRule>` element. The `OrRule` lets you override the default AND comparison for multiple enable rule types. Use the `OrRule` element to define several possible valid combinations to check.
 
 ### Outlook Item Tracking Rule
- Uses the `<OutlookItemTrackingRule>` element. Use the `TrackedInCrm` attribute for this element to determine whether the record is being tracked in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement.  
+ Uses the `<OutlookItemTrackingRule>` element. Use the `TrackedInCrm` attribute for this element to determine whether the record is being tracked in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
 
 ### Outlook Version Rule
  Uses the `<OutlookVersionRule>` element. Use this to enable a ribbon element for a specific version of [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as follows:  

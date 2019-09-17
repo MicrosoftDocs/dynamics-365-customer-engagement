@@ -1,6 +1,6 @@
 ---
 title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 for Customer Engagement"
+description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: "pehecke"
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - uninstalling or deleting solutions, deleting unmanaged solutions
   - uninstalling or deleting solutions, results of deleting managed vs. unmanaged solutions
@@ -64,7 +64,7 @@ You delete managed and unmanaged solutions in the same way, but the resulting ac
 ```  
   
 ### See also  
- [Package and Distribute Extensions with Dynamics 365 for Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
+ [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)   
  [Delete a Solution](work-solutions.md#BKMK_DeleteSolution)   
  [Introduction to Solutions](introduction-solutions.md)   
  [Planning for Solution Development](plan-solution-development.md)   

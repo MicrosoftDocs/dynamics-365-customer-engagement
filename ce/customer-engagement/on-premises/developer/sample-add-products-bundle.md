@@ -1,5 +1,5 @@
 ---
-title: "Sample: Add products to a bundle (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Add products to a bundle (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to add products to a product bundle."
 ms.custom: 
 ms.date: 06/11/2018
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 caps.latest.revision: 9
 author: KumarVivek

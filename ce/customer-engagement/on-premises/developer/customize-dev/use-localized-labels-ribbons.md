@@ -1,5 +1,5 @@
 ---
-title: "Use localized labels with ribbons (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Use localized labels with ribbons (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about using localized labels with ribbons."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, labels
 ms.assetid: 8f5c65a8-3134-46a9-aee5-8d876e045f1e

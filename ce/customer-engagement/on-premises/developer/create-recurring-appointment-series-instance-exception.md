@@ -1,5 +1,5 @@
 ---
-title: "Create a recurring appointment series, instance, or exception (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create a recurring appointment series, instance, or exception (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "programmatically create a recurring appointment master (series),  individual recurring appointment instances, exceptions to those instances, or convert an appointment to a recurring appointment."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - schedule and appointment entities, converting appointments to recurring appointments
   - identifying recurring appointment instances

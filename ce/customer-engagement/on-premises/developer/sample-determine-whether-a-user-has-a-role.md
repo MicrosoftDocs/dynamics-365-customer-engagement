@@ -1,5 +1,5 @@
 ---
-title: "Sample: Determine whether a user has a role (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Determine whether a user has a role (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8976b75c-197d-4d80-b9fe-d4d7a4dfc0f5
 caps.latest.revision: 18
 author: JimDaly

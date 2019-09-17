@@ -1,5 +1,5 @@
 ---
-title: "Incident Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Incident Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
 ms.date: 05/15/2019
 ms.service: "crm-online"

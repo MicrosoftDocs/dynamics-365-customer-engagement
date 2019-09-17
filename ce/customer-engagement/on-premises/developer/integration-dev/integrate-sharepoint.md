@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 for Customer Engagement with SharePoint (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Integrate Dynamics 365 Customer Engagement with SharePoint (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fc7f8994-a531-48d1-8495-3f8663f6c3e3
 caps.latest.revision: 52
 author: KumarVivek
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Integrate Dynamics 365 for Customer Engagement with SharePoint
+# Integrate Dynamics 365 Customer Engagement with SharePoint
 
 [!INCLUDE[pn_ms_sharepoint_server](../../includes/pn-ms-sharepoint-server.md)] is a collaboration and content management application that simplifies how people store, find, and share information. It helps people to collaborate effectively by having secure access to documents and information that they require to make business decisions.  
   

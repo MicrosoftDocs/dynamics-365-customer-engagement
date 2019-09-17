@@ -1,5 +1,5 @@
 ---
-title: "msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

@@ -1,5 +1,5 @@
 ---
-title: "Modify the icons for an entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Modify the icons for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about modifying the icons for an entity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - modifying icons for entities, types of
   - modifying icons for entities, properties for
@@ -46,7 +46,7 @@ When you create a new entity, default icons are provided. You can change the ico
 |------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------------------------------------------------------------|
 |            **Icon in Web application**<br /><br /> Displays when records for this entity are displayed in a grid.            | -   16x16px<br />-   Less than 10k | <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IconSmallName>  |
 |                                                  **Icon for Entity Forms**                                                   | -   32x32px<br />-   Less than 10k | <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IconMediumName> |
-| This size icon is not used in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. | -   66x48px<br />-   Less than 10k | <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IconLargeName>  |
+| This size icon is not used in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. | -   66x48px<br />-   Less than 10k | <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IconLargeName>  |
 
  PNG Web resources are recommended because they support transparency and good compression with a better color fidelity than GIF. GIF, JPG, and ICO formats are supported for backwards compatibility when organizations are upgraded from [!INCLUDE[pn_Microsoft_Dynamics_CRM_4.0](../includes/pn-microsoft-dynamics-crm-4-0.md)].  
 

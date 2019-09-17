@@ -1,5 +1,5 @@
 ---
-title: "RecurrenceRule Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "RecurrenceRule Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the RecurrenceRule entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

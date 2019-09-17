@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 for Customer Engagement with SharePoint (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Integrate Dynamics 365 Customer Engagement with SharePoint (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The SharePoint integration feature enables you to store and manage documents on SharePoint in the context of a Dynamics 365 Customer Engagement (on-premises) record, and use the SharePoint document management abilities in Dynamics 365 Customer Engagement (on-premises), such as checking the document in and out, viewing version history, and changing document properties."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fc7f8994-a531-48d1-8495-3f8663f6c3e3
 caps.latest.revision: 52
 author: KumarVivek
@@ -57,11 +57,11 @@ search.app:
   
  [The Metadata and Data Models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md)  
   
- [Extend Dynamics 365 for Customer Engagement on the server apps](extend-dynamics-365-server.md)  
+ [Extend Dynamics 365 Customer Engagement on the server apps](extend-dynamics-365-server.md)  
   
- [Extend Dynamics 365 for Customer Engagement on the client apps](extend-client.md)  
+ [Extend Dynamics 365 Customer Engagement on the client apps](extend-client.md)  
   
- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)  
+ [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)  
   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   

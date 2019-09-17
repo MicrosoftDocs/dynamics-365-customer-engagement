@@ -1,5 +1,5 @@
 ---
-title: "Subject entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Subject entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "learn about subject categorizing entity records, such as articles and sales literature. Using subjects you can create a hierarchy of topics to organize and maintain information."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - creating a hierarchy of records, subject entity
   - organizing information, subject entity

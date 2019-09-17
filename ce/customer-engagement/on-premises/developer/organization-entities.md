@@ -1,6 +1,6 @@
 ---
-title: "Organization entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "An organization entity is internal to the customer relationship management process. The organization is the top level of the Dynamics 365 for Customer Engagement business hierarchy. The organization can be a specific business, a holding company, a corporation, and so on."
+title: "Organization entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "An organization entity is internal to the customer relationship management process. The organization is the top level of the Dynamics 365 Customer Engagement business hierarchy. The organization can be a specific business, a holding company, a corporation, and so on."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - organization, top level of business hierarchy
   - organization records

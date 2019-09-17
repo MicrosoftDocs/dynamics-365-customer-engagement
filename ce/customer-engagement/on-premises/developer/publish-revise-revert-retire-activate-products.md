@@ -1,5 +1,5 @@
 ---
-title: "Publish, revise, revert, retire, and activate products--product lifecycle (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Publish, revise, revert, retire, and activate products--product lifecycle (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Programmatically control the product lifecycle through the draft, active, under revision, and retired states."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ada37ff8-0f03-47b4-bfd7-25a4b0aacb5b
 caps.latest.revision: 27
 author: KumarVivek

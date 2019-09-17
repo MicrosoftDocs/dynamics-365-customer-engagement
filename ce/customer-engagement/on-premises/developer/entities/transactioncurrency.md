@@ -1,5 +1,5 @@
 ---
-title: "TransactionCurrency Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "TransactionCurrency Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the TransactionCurrency entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

@@ -1,5 +1,5 @@
 ---
-title: "Sales literature entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sales literature entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Create and manage sales literature items to associate attachments and articles to enrich an organization’s sales information."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sales literature entities, sales literature items and attachments
   - file attachments, see 'sales literature entities'

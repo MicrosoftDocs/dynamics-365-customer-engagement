@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - configuring activity feeds, auto post rules; plug-ins; workflows; and wall controls
   - plug-ins and workflows, configuring activity feeds

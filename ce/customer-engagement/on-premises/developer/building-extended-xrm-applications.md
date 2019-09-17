@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement application platform for building extended xRM applications (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Dynamics 365 for Customer Engagement offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as Extended Dynamics 365 for Customer Engagement applications (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. "
+title: "Dynamics 365 Customer Engagement application platform for building extended xRM applications (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Dynamics 365 Customer Engagement offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as Extended Dynamics 365 Customer Engagement applications (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. "
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 00564289-496e-4fd1-85c6-5e2d354a2f4d
 caps.latest.revision: 18
 author: JimDaly
@@ -147,9 +147,9 @@ search.app:
   Extensible platform  
   -   [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)  
   
-- [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)  
+- [Extend Dynamics 365 Customer Engagement on the client](extend-client.md)  
   
-- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)  
+- [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)  
   
 - [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
@@ -158,7 +158,7 @@ search.app:
  [The metadata and data models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md)   
  [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)   
  [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)   
- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)   
+ [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)    
  [Extend Dynamics 365 Customer Engagement (on-premises) for Outlook](extend-customer-engagement-outlook.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integration-dev/integrate-sharepoint.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Associate a Security Role to a User (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Associate a Security Role to a User (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to associate a role with a user by using the IOrganizationService.EntityReferenceCollection) method."
 keywords: 
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c962101c-65f0-4e49-8c23-99c2a9e7dcbf
 author: JimDaly
 ms.author: jdaly

@@ -1,6 +1,6 @@
 ---
-title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 for Customer Engagement and retrieve organizations that the current user has access to"
+title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 Customer Engagement and retrieve organizations that the current user has access to"
 author: Nkrb
 ms.date: 03/27/2019
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 81816457-c963-46ca-b350-615fa75f56a7
 caps.latest.revision: 27
 ms.author: nabuthuk
@@ -144,7 +144,7 @@ You’re now ready to use the PowerShell cmdlet. To list the cmdlets that you re
    ```  
   
    > [!div class="mx-imgBorder"]
-   > ![Dynamics 365 for Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 for Customer Engagement connection information and status")  
+   > ![Dynamics 365 Customer Engagement connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 Customer Engagement connection information and status")  
   
 ### See also
 
