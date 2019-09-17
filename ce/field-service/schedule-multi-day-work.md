@@ -55,10 +55,18 @@ If the work you wish to schedule spans multiple weeks or has dependencies on pre
 
 ## Scenario 1: Schedule a multi-day work order
 
+First create a work order with a duration longer than one day. 
+
+This is done by 
+
+1) adding a primary incident type with a long duration (in the image below 1.25 days = 30 hours)
+2) adding multiple incident types where the sum of each incident duration adds up to more than 1 day, or
+3) not adding any incident types but entering a duration on the related resource requirement after the work order is created and saved.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30.png)
 
+After the work order is saved, a resource requirement is automatically created and you can access it by going to **Related > Requirement** from the work order section menu. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30.png)
