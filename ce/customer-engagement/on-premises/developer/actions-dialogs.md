@@ -33,11 +33,11 @@ This topic describes the actions you can perform on dialogs.
 
 ## Dialog-related activities
 
- These activities are available as steps in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Process Designer.  
+ These activities are available as steps in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Process Designer.  
 
-### Query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Data
+### Query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Data
 
- Enables you to define query variables that can be used to query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data. 
+ Enables you to define query variables that can be used to query [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. 
 These query variables can either have pre-defined values or can be parameterized so that they accept values at the runtime, 
 and fetch records accordingly.  
 
@@ -73,7 +73,7 @@ end at that point based on the response from the user.
 
 ## Custom workflow activities
 
- You can create custom workflow activities to extend the dialogs in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. For detailed 
+ You can create custom workflow activities to extend the dialogs in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For detailed 
 information about custom workflow activities, see [Custom Workflow Activities](custom-workflow-activities-workflow-assemblies.md).  
 
 <a name="StartDialog"></a>   

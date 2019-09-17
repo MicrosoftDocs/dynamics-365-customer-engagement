@@ -36,7 +36,7 @@ Use transformation mapping to modify data before importing it. For example, spli
 
  To implement transformation mapping, use the transformation mapping (`TransformationMapping`) entity and transformation parameter mapping (`TransformationParameterMapping`) entity.  
 
- The transformed data must be compatible with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps entity attribute types.  
+ The transformed data must be compatible with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entity attribute types.  
 
  The transformation type is described by the `TransformationMapping.TransformationTypeName` property. The valid values for this property are listed in the following table:  
 
@@ -148,7 +148,7 @@ Use transformation mapping to modify data before importing it. For example, spli
 |Value|Replacement value (same as assigned value).|  
 
 > [!NOTE]
->  Date transformations can only be used for correctly formatted dates. For information about how to format dates, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Help.  
+>  Date transformations can only be used for correctly formatted dates. For information about how to format dates, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Help.  
 
 <a name="BKMK_AddToDate"></a>   
 ## Add to date  

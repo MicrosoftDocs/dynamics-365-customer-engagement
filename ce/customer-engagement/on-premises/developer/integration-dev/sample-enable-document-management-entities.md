@@ -25,7 +25,7 @@ search.app:
 
 # Sample: Enable document management for entities
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [With SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [With SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
@@ -34,7 +34,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
 [!INCLUDE[sdk_SeeConnectionHelper](../../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
- The following sample shows how to enable document management for entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. In this sample code, document management is enabled for the `Contact` entity using the <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> message. By default, the setting for the `Contact` entity isn’t enabled in a new installation of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.  
+ The following sample shows how to enable document management for entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. In this sample code, document management is enabled for the `Contact` entity using the <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> message. By default, the setting for the `Contact` entity isn’t enabled in a new installation of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
 ## Example  
  [!code-csharp[SharePointIntegration#EnableDocumentManagement](../../snippets/csharp/CRMV8/sharepointintegration/cs/enabledocumentmanagement.cs#enabledocumentmanagement)]  

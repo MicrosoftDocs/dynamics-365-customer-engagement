@@ -69,7 +69,7 @@ You can customize [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-
   
 - **Web resources and IFRAMEs**: You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources within HTML web resources. IFRAMES configured to allow cross-site scripting, or scripts within HTML web resources included in a form may interact with the documented `Xrm.Page` or `Xrm.Utility` methods within the form via the parent reference.  
   
-  All interaction with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application pages must only be performed through the methods with the methods documented in the [Client API Reference](clientapi/reference.md). Directly accessing the Document Object Model (DOM) of any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application pages is not supported. The use of jQuery in form scripts and commands is not recommended. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
+  All interaction with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application pages must only be performed through the methods with the methods documented in the [Client API Reference](clientapi/reference.md). Directly accessing the Document Object Model (DOM) of any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application pages is not supported. The use of jQuery in form scripts and commands is not recommended. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
   
   You can open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] forms, views, dialogs, and reports using the methods documented in [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md).  
   
@@ -107,7 +107,7 @@ The following supported tasks require this procedure:
 
  The ability to create custom workflow activities (assemblies) to be called from workflow rules is fully supported and upgradeable. This feature is available for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-premises, IFD, and Online. However, custom workflow activities can only be registered and executed in the sandbox (isolation) of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automate your business processes in Customer Engagement](automate-business-processes-customer-engagement.md)  
   
- The ability to edit XAML workflows is fully supported and upgradeable. However, this feature is available for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-premises and IFD only. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automate your business processes in Customer Engagement apps](automate-business-processes-customer-engagement.md)  
+ The ability to edit XAML workflows is fully supported and upgradeable. However, this feature is available for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-premises and IFD only. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Automate your business processes in Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)  
   
 <a name="SupportNET"></a>   
 
@@ -188,4 +188,4 @@ The following supported tasks require this procedure:
 ### See also  
  [Choose your development style for managed code](choose-development-style.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)(Web Services)](extend-dynamics-365-server.md)   
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)

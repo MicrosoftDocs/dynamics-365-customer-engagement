@@ -25,9 +25,9 @@ Data Export is an add-on service made available as a [!INCLUDE[pn_CRM_Online](..
  The Data Export service provides an interface for managing configuration and ongoing administration of this service from within [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)].  For more information, see [Data Export](https://technet.microsoft.com/library/a70feedc-12b9-4a2d-baf0-f489cdcc177d). This topic explains the corresponding programmatic interface and issues for this service.  
   
 ## Prerequisites for using the Data Export Service  
- Because this service requires access to an external Microsoft Azure SQL Database from [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps,   a number of prerequisites must be satisfied before you can successfully access this service. The following perquisites are more fully explained from an administrator's perspective in the section [Prerequisites for using Data Export Service](https://technet.microsoft.com/library/mt744592.aspx).  
+ Because this service requires access to an external Microsoft Azure SQL Database from [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)],   a number of prerequisites must be satisfied before you can successfully access this service. The following perquisites are more fully explained from an administrator's perspective in the section [Prerequisites for using Data Export Service](https://technet.microsoft.com/library/mt744592.aspx).  
   
- Your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] apps service must be configured so that:  
+ Your [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-subsequent.md)] service must be configured so that:  
   
 - You must have [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] or a later instance with the original or full data copy. For more information, see [Copy an instance](https://technet.microsoft.com/en-us/library/dn659832.aspx).  
   
@@ -67,7 +67,7 @@ GRANT ALTER, REFERENCES, INSERT, DELETE, UPDATE, SELECT, EXECUTE ON SCHEMA::dbo 
  It is also advised that you add the domain https://discovery.crmreplication.azure.net/ to the trusted sites list in your browser and to enable pop-ups for this site.  
   
 ## Programming for the Data Export Service  
- The Data Export Service exposes a REST-based API that is divided into two groups: a set of `Metadata` operations for exploring [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] apps organizational structure, relationships, and connection information; and a set of `Profiles` operations    for configuring and managing each data replication.  This API is fully defined and documented at the following [Swagger](http://swagger.io/) URLs:  
+ The Data Export Service exposes a REST-based API that is divided into two groups: a set of `Metadata` operations for exploring [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organizational structure, relationships, and connection information; and a set of `Profiles` operations    for configuring and managing each data replication.  This API is fully defined and documented at the following [Swagger](http://swagger.io/) URLs:  
   
 |Swagger endpoint|Description|  
 |----------------------|-----------------|  

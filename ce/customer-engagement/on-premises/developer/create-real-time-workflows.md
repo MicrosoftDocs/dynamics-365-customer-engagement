@@ -21,7 +21,7 @@ search.app:
 ---
 # Create real-time workflows
 
-Similar to asynchronous workflows, real-time workflows can be used to model and automate real world business processes. They can optionally require user input, can start automatically based on specified event conditions, or can be started manually by a user. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] programming experience. You can create asynchronous or real-time workflows in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web application or in code.  
+Similar to asynchronous workflows, real-time workflows can be used to model and automate real world business processes. They can optionally require user input, can start automatically based on specified event conditions, or can be started manually by a user. Real-time workflows are for business users, for example business analysts, to implement similar functionality to synchronous plug-ins without requiring [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] programming experience. You can create asynchronous or real-time workflows in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or in code.  
   
  Some key points about a real-time workflow include the following items:  
   
@@ -49,7 +49,7 @@ Similar to asynchronous workflows, real-time workflows can be used to model and 
 ## Create a real-time workflow in code  
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]  
  
- While [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps does support real-time workflows, they must be created interactively in the web application. XAML based workflows, discussed in this section, are only supported by an on-premises or IFD server.  
+ While [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] does support real-time workflows, they must be created interactively in the web application. XAML based workflows, discussed in this section, are only supported by an on-premises or IFD server.  
   
  You can create a real-time workflow in code by creating a `Workflow` entity record. Review the `Workflow` entity’s attribute metadata by using the Metadata Browser tool. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
