@@ -20,7 +20,7 @@ search.app:
 ---
 # Apply SLAs to entities
 
-Service level agreements (SLAs) in Dynamics 365 Customer Service help you define the level of service or support that your organization agrees to offer a customer by including items to define metrics or key performance indicators (KPIs) to attain the service level. You can apply SLAs to custom entities and the following system entities:  
+Service level agreements (SLAs) in Dynamics 365 Customer Engagement (on-premises) help you define the level of service or support that your organization agrees to offer a customer by including items to define metrics or key performance indicators (KPIs) to attain the service level. You can apply SLAs to custom entities and the following system entities:  
   
 -   All activity entities (such as Email, Task, and Appointment) except recurring appointments (RecurringAppointmentMaster)  
   
