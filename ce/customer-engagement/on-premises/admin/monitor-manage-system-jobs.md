@@ -1,7 +1,7 @@
 ---
-title: "Monitor and manage system jobs for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Monitor and manage system jobs  | MicrosoftDocs"
 ms.custom: 
-ms.date: 07/06/2018
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,9 +23,7 @@ search.app:
 ---
 # Monitor and manage system jobs
 
-*This content also applies to the on-premises version.*
-
-Several [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps features use system jobs to perform tasks automatically, including workflows, import, and duplicate detection, running independently or in the background.  
+Several Dynamics 365 Customer Engagement (on-premises) features use system jobs to perform tasks automatically, including workflows, import, and duplicate detection, running independently or in the background.  
   
  You can monitor them to ensure that they run smoothly or have completed successfully. Go to **Settings** > **System Jobs** to see a grid view of system jobs.
   
@@ -50,7 +48,7 @@ Several [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps feature
   
   > [!TIP]
   > 1. If a system job fails, you can view the details about what steps failed and what the problems may have been.  First, open the system job record.  To display details about system job failures, move your pointer over the warning symbols.  
-  >    2.  To view system job failures in a format that you can print or copy and paste, click the **Print** button.  
+  > 2.  To view system job failures in a format that you can print or copy and paste, click the **Print** button.  
   
 > [!NOTE]
 >  You cannot make changes to the status of a system job that has been completed or canceled.

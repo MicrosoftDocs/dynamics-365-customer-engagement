@@ -1,7 +1,7 @@
 ---
-title: "Work with templates for Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Work with templates  | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -21,54 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# Work with templates in Customer Engagement (on-premises)
+# Work with templates 
 
 You can use templates in Dynamics 365 Customer Engagement (on-premises) in a variety of ways to speed your work and improve consistency.
 
-## Article template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Email template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Knowledge article template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Mail merge template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Campaign template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Entitlement template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Excel template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>
-
-## Word template
-
-<Brief description goes here>
-
-For more information: <Link to the topic>

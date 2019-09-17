@@ -1,7 +1,7 @@
 ---
-title: "Add or remove sample data for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Add or remove sample data | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,16 +23,14 @@ search.app:
 ---
 # Add or remove sample data
 
-*This content also applies to the on-premises version.*
-
-Sample data gives you something to experiment with as you learn [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.  
+Sample data gives you something to experiment with as you learn Dynamics 365 Customer Engagement (on-premises), and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.  
   
  Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.  
   
 > [!IMPORTANT]
 >  Use sample data to learn and play around with system features. However, to avoid unwanted results, don’t associate it with any data you actually need.  
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1. Make sure you have the System Administrator security role or equivalent permissions.
   
     Check your security role  
   

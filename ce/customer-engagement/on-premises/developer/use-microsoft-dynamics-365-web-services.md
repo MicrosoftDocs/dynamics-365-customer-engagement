@@ -78,4 +78,4 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
  [Authenticate users to Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
  [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
- [Write mobile and modern apps](write-mobile-modern-apps.md)
+ [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)
