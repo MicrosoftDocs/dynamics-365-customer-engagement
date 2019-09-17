@@ -25,7 +25,7 @@ If you would like another person in your organization to handle an account or co
   
  You can also assign a record to a team, or to yourself.  
   
-1. Go to Sales > **Accounts** or **Contacts**.
+1. Go to **Sales** > **Accounts** or **Contacts**.
   
 2. In the list of records, select the record that you want.  
   
