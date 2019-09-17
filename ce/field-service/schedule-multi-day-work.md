@@ -40,6 +40,8 @@ When scheduling multi-day work orders or requirements, dispatchers can choose an
 - Distribute evenly
 - Front load
 
+For more details see the topic on [Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods).
+
 Let's explore multi-day scheduling and allocation methods by configuring three scenarios:
 
 **Scenario 1:** Schedule a 30-hour installation work order manually from the schedule board.
@@ -99,7 +101,7 @@ After selecting Book, the system will create multiple bookings across multiple d
 
 On the Days view of the schedule board, you can see the booking pattern more easily. In our example we chose a Booking Method of Front Load Hours so the bookings filled the Resource's time with the left over duration on the last day.
 
-The system will create multiple bookings around the resources existing schedule in instances where the resource has existing bookings. 
+Also, because we chose Front Load Hours as the booking method (allocation method), the system created multiple bookings **around** the resource's existing schedule. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
@@ -182,3 +184,6 @@ can drag onto days/weeks view
 - work order auto creates requirements
 - cannot schedule requirement groups for multiple days, meaning you cannot break it up
 - travel time? does not include travel time, books as location agnostic
+
+### See also
+[Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods)
