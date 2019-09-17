@@ -78,9 +78,12 @@ If you have not done so, enter a multi-day duration in the **Duration** field, a
 **Pro Tip:** The requirement From Date and To Date will populate with the **Date Window Start** and **Date Window End** work order field values.
 
 
-Next go to the schedule board and select the requirement in the lower pane.
+Next go to the Hours view of the schedule board and select the requirement in the lower pane.
 
 Then select a Resource on the board you would like to schedule the multi-day work order requirement to. DO NOT drag and drop.
+
+> [!Note]
+> Dragging and dropping a multi-dat requirement onto the Hours view will create a long continuous booking through non-working hours.
 
 A "Create Resource Booking" pane wll display on the right where you can confirm or edit:
 
@@ -99,9 +102,9 @@ After selecting Book, the system will create multiple bookings across multiple d
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked.png)
 
-On the Days view of the schedule board, you can see the booking pattern more easily. In our example we chose a Booking Method of Front Load Hours so the bookings filled the Resource's time with the left over duration on the last day.
+On the Days view of the schedule board, you can see the booking pattern more easily. In our example we chose a Booking Method (allocation method) of Front Load Hours, the bookings filled the Resource's time with the left over duration on the last day. 
 
-Also, because we chose Front Load Hours as the booking method (allocation method), the system created multiple bookings **around** the resource's existing schedule. 
+**Pro Tip:** Using Front Load Hours as the booking method (allocation method), creates multiple bookings **around** the resource's existing schedule if instances where other bookings exist for the scheduled resource.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-work-order-30-schedule-board-booked-wrapped.png)
