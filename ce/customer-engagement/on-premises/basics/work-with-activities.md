@@ -63,7 +63,8 @@ You can find your activities under **My Work**. Once there, select the **Activit
   
 2. Select the right arrow on the drop-down list, and then select the view you want. The views that are available depend on the type of activity.  
   
-   ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Shows all activities in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-activities-view-select.png "Shows all activities in Dynamics 365 Customer Engagement (on-premises)")  
   
 <a name="New"></a>   
 
@@ -140,7 +141,8 @@ To attach a document:
   
      Use the **Create** command on the nav bar. Find these activities in the list by sorting on the **Regarding** column, which is blank to let you know that the activity isn’t associated with a customer record.  
   
-  ![Find activities not associated with a customer](../basics/media/find-activities-not-associated-with-a-customer.png "Find activities not associated with a customer")  
+   > [!div class="mx-imgBorder"] 
+   > ![Find activities not associated with a customer](../basics/media/find-activities-not-associated-with-a-customer.png "Find activities not associated with a customer")  
   
 - **Keep in mind that activities “roll up” under their associated records.** Let’s say you want to remind yourself to follow up with Chris Preston, a contact who’s associated with the account, Imported Sports. You’ll need to add the task activity to the contact record for Chris (not for the account, Imported Sports).  
   
