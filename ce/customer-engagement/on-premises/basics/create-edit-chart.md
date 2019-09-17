@@ -95,8 +95,6 @@ Present large quantities of data in your organization in a more insightful and g
   
 5. Modify the properties of the chart. For details, see Step 3 in the **Create a chart** section.  
   
-### See also  
- 
- [Track your progress with charts](../basics/track-your-progress-with-charts.md)
+
  
  
