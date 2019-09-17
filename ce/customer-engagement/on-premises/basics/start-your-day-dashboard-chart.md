@@ -52,7 +52,8 @@ Each time you sign in to the system you’ll see a dashboard, which gives you ea
   
 - From the drop-down, select a different field to use for the calculations.  
   
-  ![Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-sales-dashboard-pick-chart.png "Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises)](../basics/media/crm-ua-basicsguide-sales-dashboard-pick-chart.png "Shows choosing a chart view in Dynamics 365 Customer Engagement (on-premises)")  
 
 ## Create a personal dashboard
 1. From the **Sales**, **Service**, or **Marketing** area, select **Dashboards**. 
