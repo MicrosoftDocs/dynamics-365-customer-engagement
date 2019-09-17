@@ -40,7 +40,3 @@ For example it’s important for a sales team to know which product or service i
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
-### See also  
- [Get a list of available reports](../basics/get-list-available-reports.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)   
- [Get started writing reports](../analytics/get-started-writing-reports.md)
