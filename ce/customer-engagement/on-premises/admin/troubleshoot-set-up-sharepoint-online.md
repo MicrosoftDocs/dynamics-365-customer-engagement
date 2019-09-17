@@ -1,7 +1,7 @@
 ---
-title: "Troubleshoot SharePoint integration with Customer Engagement | MicrosoftDocs"
+title: "Troubleshoot SharePoint integration  | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -22,8 +22,6 @@ search.app:
 ---
 # Troubleshoot SharePoint integration
 
-*This content also applies to the on-premises version.*
-
 This topic explains how to fix common issues that may occur with SharePoint document management.
 
 ## Missing Documents button - validate and fix 
@@ -32,7 +30,7 @@ If **Documents** is missing from entities such as account, use the following to 
 
 ![Documents](media/crm-itpro-crmo365tg-seldoc.png "Documents")
 
-1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement.
+1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 Customer Engagement (on-premises).
     Check your security role:
     1. Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
     2. Don’t have the correct permissions? Contact your system administrator.
@@ -55,10 +53,10 @@ If the Documents associated grid is missing, use the following to restore.
 
 The most common cause for the Documents associated grid not loading is the corrupted FetchXML and LayoutXML. These sections could be corrupted due to many reasons. The most common of them is through customizing the entity/grid view, adding/removing columns, and other similar customizations.
 
-1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 for Customer Engagement.
-    Check your security role:
-    1. Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
-    2. Don’t have the correct permissions? Contact your system administrator.
+1. Make sure you have the System Administrator security role or equivalent permissions.
+   Check your security role:
+    a. Follow the steps in [View your user profile](../basics/view-your-user-profile.md).
+    b. Don’t have the correct permissions? Contact your system administrator.
 2. Go to **Settings** > **Customizations** > **Solutions**. 
 3. Create a solution (named SharePointDocumentSolution). For more information, see [Create a solution](../customize/create-solution.md).
 4. Choose **Entities** > **Add Existing** > **Entity** > find and add **SharePoint Document** entity  (select all fields, forms, views). 
@@ -138,9 +136,9 @@ The most common cause for the Documents associated grid not loading is the corru
 
 ## Validate and fix SharePoint site URLs
 
-In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and document location records contain links to site collections, site, document libraries, and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. These site and document location records are associated with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records so that the documents for [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records can be stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
+In Customer Engagement (on-premises), [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site and document location records contain links to site collections, site, document libraries, and folders in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. These site and document location records are associated with Customer Engagement (on-premises) records so that the documents for Customer Engagement (on-premises) records can be stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)].  
   
- When the links between [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] break, you must validate and fix the links so that the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps records continue to point to the correct document libraries and folders for managing the documents.  
+ When the links between Customer Engagement (on-premises) and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] break, you must validate and fix the links so that the Customer Engagement (on-premises) records continue to point to the correct document libraries and folders for managing the documents.  
   
 1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
   
@@ -158,7 +156,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps, [!INCLUDE[p
   
    3. Select the site URLs that you want to validate, and then click or tap **Validate**.  
   
-3. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
+3. Customer Engagement (on-premises) validates all the selected site URLs and their immediate subordinate site and document library URLs. It then displays the results in **Validating Sites**.  
   
 4. To fix a URL, open the site record, and enter the correct URL. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit site records](edit-existing-sharepoint-site-records.md).  
   
