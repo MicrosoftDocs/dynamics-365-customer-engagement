@@ -1,5 +1,5 @@
 ---
-title: "Define custom claim mapping for SharePoint server-based integration (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Define custom claim mapping for SharePoint server-based integration (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -8,8 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: f926277d-6820-4ea3-9512-3643da16b94b
@@ -35,8 +34,8 @@ For server-based integration with [!INCLUDE[pn_SharePoint_short](../../includes/
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |      [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]      |                                                   `NameId (PUID)`<br /><br /> Both Dynamics 365 Customer Engagement (on-premises) and SharePoint share [!INCLUDE[pn_microsoft_azure_active_directory](../../includes/pn-microsoft-azure-active-directory.md)] for user identity.                                                   |
 | [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] on-premises | `SMTP (email)`<br /><br /> No shared active directory infrastructure for user identity; claims sent as SMTP address. The claims is picked from WindowsLiveID field in Dynamics 365 Customer Engagement (on-premises) and mapped to work email address from [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. |
-|                                Dynamics 365 for Customer Engagement on-premises and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]                                |                            `SMTP (email)`<br /><br /> No shared active directory infrastructure for user identity; claims sent as SMTP address. The claims is picked from PrimaryEmailAddess field in Dynamics 365 Customer Engagement (on-premises) and mapped to work email address from SharePoint.                             |
-|                           Dynamics 365 for Customer Engagement on-premises and [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] on-premises                           |                                                                           `Security Identifier (SID)`<br /><br /> Both Dynamics 365 Customer Engagement (on-premises)  and SharePoint share Microsoft Windows Server Active Directory for user identity.                                                                            |
+|                                Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_sharepoint_online](../../includes/pn-sharepoint-online.md)]                                |                            `SMTP (email)`<br /><br /> No shared active directory infrastructure for user identity; claims sent as SMTP address. The claims is picked from PrimaryEmailAddess field in Dynamics 365 Customer Engagement (on-premises) and mapped to work email address from SharePoint.                             |
+|                           Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)] on-premises                           |                                                                           `Security Identifier (SID)`<br /><br /> Both Dynamics 365 Customer Engagement (on-premises)  and SharePoint share Microsoft Windows Server Active Directory for user identity.                                                                            |
 
  You can use the `UserMapping` entity to specify custom claim mappings in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to use a value other than the default value used by [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to authenticate and authorize [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] users in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. For example, you can use the “last name” and “first name” of the user instead of “email” to authenticate [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] users in [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)]. Custom claim mappings override the default claim mappings used by [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You can define multiple custom claim mappings in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. By default, only users having the System Administrator role have access to the `UserMapping` entity.  
 
