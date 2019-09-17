@@ -173,6 +173,16 @@
 ###### [Step 4: Attach Omnichannel Toast Notification-related action calls to events](customizer/toastnotification-step4-add-action-calls-events.md)
 ###### [Step 5: Add the hosted control, events, forms and action calls to configurations](customizer/toastnotification-step5-add-hosted-controls-events-action-callsagent-supervisor-configurations.md)
 
+#### [Configure search]
+##### [Overview](customizer/configure-search.md)
+##### [Step 1: Create search hosted control](customizer/search-step1-create-hosted-control.md)
+##### [Step 2: Create search-related action calls](customizer/search-step2-create-action-calls.md)
+##### [Step 3: Attach sub action calls to action calls](customizer/search-step3-attach-sub-action-calls.md)
+##### [Step 4: Attach search-related action calls to events](customizer/search-step4-attach-action-calls-events.md)
+##### [Step 5: Configure window navigation rule for search](customizer/search-step5-configure-window-navigation-rule.md)
+##### [Step 6: Create toolbar buttons for search](customizer/search-step6-create-toolbar-button.md)
+##### [Step 7: Add hosted control, action calls, window navigation rule, and events to configurations](customizer/search-step-add-hosted-control-action-calls-events-configurations.md)
+
 #### [Configure session name information](customizer/configure-session-name-information.md)
 
 #### [Configure Scriptlets to define case and channel titles](customizer/configure-Scriptlets-define-case-channel-titles.md)
