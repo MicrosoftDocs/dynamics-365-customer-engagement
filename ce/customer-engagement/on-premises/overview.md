@@ -14,7 +14,7 @@ manager: "kvivek"
 
 Welcome to the Dynamics 365 Customer Engagement (on-premises) Help!
 
-As of October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: \<link to blog announcement>
+Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: \<link to blog announcement>
 
 With this change for *online* customers, we are no longer using the term "Dynamics 365 for Customer Engagement apps" to refer to the collection of following apps and its related services:
 - Dynamics 365 Sales
