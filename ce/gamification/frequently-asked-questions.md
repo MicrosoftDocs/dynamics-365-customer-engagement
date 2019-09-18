@@ -1,6 +1,6 @@
 ---
-title: "Frequently asked questions about Dynamics 365 for Customer Engagement - Gamification | Microsoft Docs"
-description: "Learn more about the most asked questions on various topics and features in Dynamics 365 for Customer Engagement – Gamification."
+title: "Frequently asked questions about Dynamics 365 - Gamification | Microsoft Docs"
+description: "Learn more about the most asked questions on various topics and features in Dynamics 365 – Gamification."
 ms.custom: 
   - dyn365-gamification
 ms.date: 05/31/2017
@@ -9,7 +9,6 @@ ms.service: dynamics-365-sales
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 338b81d8-3dc8-4d0a-bfd0-4ac7a3fb71aa
 caps.latest.revision: 10
 author: m-hartmann
