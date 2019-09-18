@@ -1,5 +1,5 @@
 ---
-title: "Custom actions for manual forecasting (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
+title: "Custom actions for manual forecasting (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Reference documentation for the custom actions of manual forecasting"
 keywords: 
 ms.date: 04/08/2019

@@ -1,5 +1,5 @@
 ---
-title: "Entity reference for playbooks (Developer Guide for Dynamics 365 for Sales)| MicrosoftDocs"
+title: "Entity reference for playbooks (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
 description: "Reference documentation for the playbooks entities"
 keywords: 
 ms.date: 04/08/2019

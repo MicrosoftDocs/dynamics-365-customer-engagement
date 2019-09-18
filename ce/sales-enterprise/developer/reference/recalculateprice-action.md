@@ -1,5 +1,5 @@
 ---
-title: "RecalculatePrice Action (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "RecalculatePrice Action (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs"
 keywords: recalculateprice
 ms.date: 04/25/2019
 ms.service: dynamics-365-sales
