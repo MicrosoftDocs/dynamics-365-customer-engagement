@@ -1,12 +1,10 @@
 ---
-title: "Configure Gamification KPIs in Dynamics 365 for Customer Engagement (online) | Microsoft Docs"
-description: "Learn how to set up and edit KPIs in Dynamics 365 for Customer Engagement (online) to use them in Dynamics 365 for Customer Engagement – Gamification games. "
+title: "Configure Gamification KPIs in Dynamics 365 apps | Microsoft Docs"
+description: "Learn how to set up and edit KPIs in Dynamics 365 apps to use them in Gamification games. "
 keywords: Gamification, KPI, saved view, configuration
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: b0c9af15-5cdf-4f8b-838c-49bf5dd50b6b
 author: m-hartmann
 ms.author: mhart
