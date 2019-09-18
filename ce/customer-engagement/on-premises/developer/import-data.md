@@ -2,14 +2,14 @@
 title: "Import data (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Overview of the data import feature, which enables data upload from various customer relationship management systems and other data sources."
 ms.custom: 
-ms.date: 05/09/2019
-ms.reviewer: 
+ms.date: 10/01/2019
+ms.reviewer: nabuthuk
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 for Customer Engagement (on-premises)
 helpviewer_keywords: 
   - Import Data wizard, capabilities of the
   - importing data in Microsoft Dynamics CRM, data import defined
