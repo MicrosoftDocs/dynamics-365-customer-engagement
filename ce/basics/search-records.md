@@ -50,7 +50,7 @@ To find your records quickly in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynami
   
 [!TIP] If the primary field of an entity is included in the quick find view, it is shown as the first field in search results.
 
-![Primary field](/media/primary-field.png)
+![Primary field](media/primary-field.png)
 
 ## Filter search results  
   
