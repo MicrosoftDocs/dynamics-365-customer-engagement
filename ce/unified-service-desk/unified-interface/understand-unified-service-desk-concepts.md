@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 2866c682-9f3f-422f-b2e0-adc61244727a
 author: kabala123
 ms.author: kabala
@@ -54,23 +48,19 @@ A system administrator must configure the option on **Active UII Options** page 
 
 To change the **TotalRecordCountLimit** timeout value:
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to Unified Service Desk Administrator app.
 
-2. Select the down arrow next to Dynamics 365.
+2. Select **Options** under **Advance Settings** in the site map.  
 
-3. Select **Unified Service Desk Administrator**.
+3. Select **New** on the **Active UII Options** page.
 
-4. Select **Options** under **Advance Settings** in the site map.  
+4. Choose **Others** for the **Global Option** field.
 
-5. Select **New** on the **Active UII Options** page.
+5. Enter **TotalRecordCountLimit** for the **Name** field.
 
-6. Choose **Others** for the **Global Option** field.
+6. Enter **5000** for the **Value** field.
 
-7. Enter **TotalRecordCountLimit** for the **Name** field.
-
-8. Enter **5000** for the **Value** field.
-
-9. Select **Save**.
+7. Select **Save**.
 
 ![Configure TotalRecordCountLimit](../../unified-service-desk/unified-interface/media/total-record-count-limit.PNG "Configure TotalRecordCountLimit")
 
