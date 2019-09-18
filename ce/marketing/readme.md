@@ -48,6 +48,7 @@ This document provides important, late-breaking information about known issues a
 - Deactivated contacts won't receive any emails from journeys they may be participating in, but they might continue to be included in other actions, such as tasks and workflows. <!--- 852372 -->  
 - Insights for journeys, emails, and marketing pages may take up to six hours to display.
 - The date scheduler tile in customer journeys doesn't display dates according to the Japanese imperial calendar (including in Japanese localizations). <!--- 1460626 -->
+- When reusing the same marketing list across multiple customer journeys, stopping one of the journeys might cause other journeys to stop as well. <!--- 1494411 -->
 
 ### Fixed issues
 

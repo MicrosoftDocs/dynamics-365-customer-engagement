@@ -5,7 +5,7 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 08/29/2019
+ms.date: 09/12/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
@@ -44,20 +44,20 @@ This walkthrough demonstrates how to set up two workstreams, one each for high p
 
 ## Step 1: Create queues
 
-You must create a new omnichannel queue or use an existing omnichannel queue to, automatically route the cases to the queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
+Create a new omnichannel queue or use an existing omnichannel queue. To learn more, see [Create a queue](queues-omnichannel.md#create-a-new-queue).
 
 ## Step 2: Create workstream
 
-You must create workstreams, to automatically route the cases to the agents. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
+Create entity records workstream to enable entity record channel for cases, and define how these records will be distributed. You can create multiple workstreams, too. In this walkthrough, let us create two workstreams - **High Priority Cases** and **Low Priority Cases**.
 
 To learn more, see [Entity record workstreams](set-up-entity-workstream.md).
 
 ## Step 3: Create routing rules
 
-After creating the workstream for the cases, you must create the routing rules. 
+After enabling entity record channel for cases by creating workstream, create routing rules to route cases to appropriate queues. 
 
 > [!Note]
-> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/create-rules-automatically-route-cases.md#preview-install-routing-rules---preview-solution).
+> - To create routing rules for cases, you must install the **Routing Rules - Preview** solution. To learn more, see [Install Routing Rules - preview solution](../../customer-service/install-routing-rules-preview-solution.md).
 >
 > - Only one routing rule set can be active at any point of time. If you try to activate another rule when one rule is already active, it will deactivate the currently active rule. You can activate or deactivate only the rules that you own.
 >

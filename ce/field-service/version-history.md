@@ -2,7 +2,7 @@
 title: "Field Service Version History | MicrosoftDocs"
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 08/26/2019
+ms.date: 09/17/2019
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.suite: ""
@@ -84,15 +84,16 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 
 ## Trials and upgrades
 
- - New Dynamics 365 trials created through [https://trials.dynamics.com](https://trials.dynamics.com) will install the latest generally available Field Service solution. 
- - You can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 
+ - All new Dynamics 365 Field Service environemnts will install the latest generally available Field Service solution. 
+ - For existing environments, when a new upgrade is avaialble, you can upgrade your solution in **Admin Center** > **Dynamics 365**, as seen in the following screenshot. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 
- - If a new version of Field Service is available, you can  [opt-in to upgrade Project and Field Service - Unified Interface](https://experience.dynamics.com/insider/campaign/?id=75505220-c2e6-e811-a96d-000d3a1bef07) and an upgrade will become available in the admin center.
+- If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
 
 - Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions.
 
 ### See also
 
 - [New and upcoming features](new-upcoming.md)
+- [Self-enabling install of the Unified Interface versions of Field and Project Service](https://cloudblogs.microsoft.com/dynamics365/it/2019/08/01/how-to-enable-unified-interface-apps-of-field-service-and-project-service-automation/)
