@@ -149,6 +149,8 @@ Next, enter other requirement details such as skills, roles, resource preference
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-no-work-order.png)
 
+From the newly created requirement go to **Related > Requirement Details**
+
 Requirement details are automatically created based on the duration and the allocation method to split up the requirement into time segments. In our example in the image below, a 30 hour requirement split up between 5 days, is 6 hours or 360 minutes each day.  
 
 > [!div class="mx-imgBorder"]
@@ -178,22 +180,31 @@ Once booked, you'll see the resource's availability decrease and the fulfilled d
 
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
 
+As in the last scenario, manually create a multi-day requirement. The requirement can exist on its own or be related to a work order.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement.png)
 
+From the newly created requirement go to **Related > Requirement Details** then choose **Specify Pattern** from the top ribbon. 
+
+THis allows you to edit and override the pattern created by the allocation method.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-2-resource-specify-pattern2.png)
+
+Choose **Book**.
+
+Select a Resource and specific days of just that resource, then choose Book (not Book & Exit because that will close the schedule assistant.)
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-1.png)
 
-
+Then choose another resource and specific for only that resource. Then choose Book.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-2.png)
 
+Bookings will be created for each resource on the days selected. Availability for each scheduled resource will be updated as well.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-final.png)
