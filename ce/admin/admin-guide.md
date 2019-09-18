@@ -23,5 +23,9 @@ search.app:
 ---
 # Administer Dynamics 365 (online)
 
+The content in this guide is for users still using the Dynamics 365 Admin center. 
+
+We are transitioning instance (now called environments) management to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). More information: [Administer PowerApps](https://docs.microsoft.com/power-platform/admin/admin-guide).
+
 > [!NOTE]
-> The content in this guide is for existing subscribers still using the Dynamics 365 Admin center. We are transitioning instance management (now called environments) to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). See [Administer PowerApps](https://docs.microsoft.com/en-us/power-platform/admin/admin-guide).
+> Effective October 2019, the Dynamics 365 for Customer Engagement SKU/license plan is no longer available for "online" customers. More information: [Dynamics 365 Customer Engagement (on-premises) Help](../customer-engagement/on-premises/overview.md) 

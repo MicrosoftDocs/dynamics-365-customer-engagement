@@ -99,23 +99,23 @@
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md) 
 -->
 
-# Manage instances
+## Manage instances
 <!-- 
 ## [Overview](manage-online-instances.md)
 -->
-## [What's new with instance management](new-instance-management.md)
-## [Sandbox](manage-sandbox-instances.md)
-## [Add instance](add-instance-subscription.md)
-## [Switch instance](switch-instance.md)
-## [Copy instance](copy-instance.md)
-## [Delete instance](delete-instance.md)
-## [Backup and restore instances](backup-restore-instances.md)
-## [Support instances](support-instance.md) 
-## [Move instance](move-instance-tenant.md)
-## [Common Data Service instances](common-data-service-instances.md)
-## [Edit properties of an instance](edit-properties-instance.md)
-## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
-## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
+### [Manage instances](new-instance-management.md)
+### [Sandbox](manage-sandbox-instances.md)
+### [Add instance](add-instance-subscription.md)
+### [Switch instance](switch-instance.md)
+### [Copy instance](copy-instance.md)
+### [Delete instance](delete-instance.md)
+### [Backup and restore instances](backup-restore-instances.md)
+### [Support instances](support-instance.md) 
+### [Move instance](move-instance-tenant.md)
+### [Common Data Service instances](common-data-service-instances.md)
+### [Edit properties of an instance](edit-properties-instance.md)
+### [Multiple online instances or tenants](multiple-online-instances-tenants.md)
+### [Add and edit multiregional instances](add-edit-multiregional-instances.md)
 <!-- 
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
