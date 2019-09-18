@@ -2,7 +2,7 @@
 title: "Administer a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
-ms.date: 04/08/2019
+ms.date: 10/01/2019
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-portal
@@ -39,13 +39,16 @@ If you are not a global administrator and you try to manage a portal that has al
 
 ### To add yourself as an owner of the Azure AD application
 
-1. Go to the Portal Management page. The following error message is displayed: "You don’t have permission to perform this action. Contact your global administrator to get owner permission for Application ID: [app id] in your Azure Active Directory."
+1. Go to the PowerApps Portals admin center and open the **Portal Details** tab.
 
-2. Copy the app ID from the error message.
+2. Copy the value from the **Application ID** field.
+
+    > [!div class=mx-imgBorder]
+    > ![Portal Details tab](media/portal-details-admin.png "Portal Details tab")
 
 3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-manage-o365-subscription)
 
-4. In Azure AD, search for the app registration by using the app ID you copied from the error message. You might need to switch from **My apps** to **All apps**.
+4. In Azure AD, search for the app registration by using the application ID you copied. You might need to switch from **My apps** to **All apps**.
 
 5. Add users or groups as owners of this app registration. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-managing-access-to-apps)
 
@@ -91,7 +94,7 @@ A custom domain can help your customers find your support resources more easily 
 8. Select **Finish** to close the wizard.
 
     > [!Note]
-    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-dynamics-365-for-customer-engagement-portal-to-a-custom-domain).
+    > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps in the wizard as mentioned [here](#link-your-dynamics-365-portals-to-a-custom-domain).
     
 ## Import metadata translation
 When you provision a portal, the portal-related solutions are installed on the organization. During the installation of solutions, the solution metadata translations (for example, field name, form name, and view name) are installed only for the languages currently activated in the organization. If you activate a new language in the future, the metadata will not be installed automatically for the newly activated language. To get the metadata translation for the newly activated language, you must import the metadata translation from the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page.
