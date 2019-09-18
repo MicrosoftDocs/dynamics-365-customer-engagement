@@ -7,7 +7,7 @@ ms.service: usd
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

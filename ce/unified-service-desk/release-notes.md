@@ -8,7 +8,7 @@ ms.service:
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -362,7 +362,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ### Best Practices Analyzer
 
-- **Warning for HelpImproveUSD parameter in Dynamics 365 Customer Engagement (on-premises) apps**
+- **Warning for HelpImproveUSD parameter in Dynamics 365 Customer Engagement (on-premises)**
 
   Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)] apps, you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 
