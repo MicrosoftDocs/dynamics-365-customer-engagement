@@ -33,7 +33,7 @@ Fundamentally, the GDPR is about protecting and enabling the privacy rights of i
 
 ## Shared responsibility model
 Your compliance with the GDPR is an ongoing process and involves your role as a **controller** and, in some cases, Microsoft as a **processor**. 
-Depending on which [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps your organization uses, you may find that you are both controller and processor or that you have a shared responsibility with Microsoft.
+Depending on which the Common Data Service platform your organization uses, you may find that you are both controller and processor or that you have a shared responsibility with Microsoft.
 
 [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application runs on-premises, so you hold both the controller and processor roles:
 

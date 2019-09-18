@@ -51,7 +51,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 To enable Internet Explorer pooling:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -85,7 +85,7 @@ By default, Chrome Process pooling is enabled. To disable the pooling, a System 
 
 To disable Chrome Process pooling:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -111,7 +111,7 @@ If you want to skip the inline navigation for certain entities such as incident,
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -150,7 +150,7 @@ Window navigation rule for different entity navigation, you can change the windo
 
 If you face challenges to change the window navigation rule, you can block the second inline navigation by adding the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **True**.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 

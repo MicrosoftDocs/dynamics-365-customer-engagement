@@ -33,7 +33,7 @@ This walkthrough demonstrates how to configure and setup Best Practices Analyzer
 
 In this step, you will create a Best Practices Analyzer and toolbar container hosted control.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -83,7 +83,7 @@ In this step, you will create a Best Practices Analyzer and toolbar container ho
 
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -220,7 +220,7 @@ In this step, you'll add actions calls the to **Best Practices Analyzer** toolba
 
  To add a control to the configuration:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 

@@ -24,7 +24,7 @@ ms.tgt_pltfrm:
 ---
 
 # Requirements
-This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications on a [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps instance.  
+This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications on a the Common Data Service platform instance.  
 
 <a name="hardware"></a>   
 ## Hardware requirements for the Unified Service Desk client  
@@ -63,7 +63,7 @@ This topic provides information about the system requirements for installing the
 
 <a name="SampleApps"></a>   
 ## Software requirements for deploying Unified Service Desk sample applications  
- To deploy a [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample application, an instance of [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps (online or on-premises), [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)] is required.  
+ To deploy a [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample application, an instance of the Common Data Service platform (online or on-premises), [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)] is required.  
 
 ::: moniker range=">=dynamics-usd-4.1"
 
@@ -89,7 +89,7 @@ This topic provides information about the system requirements for installing the
 
 - For running the tool, use one of these [!INCLUDE[pn_Windows_Server](../../../includes/pn-windows-server.md)] versions: [!INCLUDE[pn_windows_server_2012_r2](../../../includes/pn-windows-server-2012-r2.md)], [!INCLUDE[pn_windowsserver2012](../../../includes/pn-windowsserver2012.md)], [!INCLUDE[pn_Windows_Server_2008_R2](../../../includes/pn-windows-server-2008-r2.md)].
 
-- An instance of [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps (online or on-premises), [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)].  
+- An instance of the Common Data Service platform (online or on-premises), [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)].  
 
 - Additionally, [!INCLUDE[pn_PowerShell](../../../includes/pn-powershell.md)] 3.0 or later is required if you’ll be using [!INCLUDE[pn_PowerShell_short](../../../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_package_deployer_short](../../../includes/pn-package-deployer-short.md)] to deploy sample applications. To check your [!INCLUDE[pn_PowerShell_short](../../../includes/pn-powershell-short.md)] version, open a [!INCLUDE[pn_PowerShell_short](../../../includes/pn-powershell-short.md)] window, and then run the following command: `$Host`  
  

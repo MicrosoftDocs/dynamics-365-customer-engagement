@@ -38,7 +38,7 @@ In addition, you can now configure the settings like theme, Unified Interface ap
 
 ## Create Unified Interface Settings record
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 

@@ -63,7 +63,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 <a name="Disable_ImproveUSD"></a>   
 ## Disable sending improvement program information to [!INCLUDE[cc_Microsoft](../../../includes/cc-microsoft.md)] anonymously
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps with Unified Service Desk system administrator credentials.
+1. Sign in to the Common Data Service platform with Unified Service Desk system administrator credentials.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -82,7 +82,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 <a name="Enable_ImproveUSD"></a>   
 ## Enable sending improvement program information to Microsoft anonymously  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps with Unified Service Desk system administrator credentials.
+1. Sign in to the Common Data Service platform with Unified Service Desk system administrator credentials.
 
 2. Select the down arrow next to Dynamics 365.
 

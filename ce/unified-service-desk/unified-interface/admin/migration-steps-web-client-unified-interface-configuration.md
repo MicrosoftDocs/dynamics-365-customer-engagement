@@ -85,7 +85,7 @@ The **USDWebResources** folder contains the migrated **RunXrmCommand** actions t
 
 To import the **USDWebResources** zip folder, follow these steps:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **Solutions**.
 
@@ -126,7 +126,7 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 
 ## Test the deployment of the configurations on the target Unified Interface App.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 

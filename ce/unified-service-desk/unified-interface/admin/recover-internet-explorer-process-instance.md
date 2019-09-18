@@ -33,7 +33,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 ### Disable IEWebPageRecovery option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -109,7 +109,7 @@ If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeout** 
 
 To change the **IEWebPageInactivityTimeout** timeout value:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -151,7 +151,7 @@ After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_s
 
 To change the keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 

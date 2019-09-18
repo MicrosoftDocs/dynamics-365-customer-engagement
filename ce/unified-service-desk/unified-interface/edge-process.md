@@ -256,7 +256,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ### Add the UII option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 

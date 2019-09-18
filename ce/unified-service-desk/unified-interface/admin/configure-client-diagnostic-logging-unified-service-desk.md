@@ -31,7 +31,7 @@ search.app:
 # Client diagnostic logging overview
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
-- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] area of [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.  
+- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] area of the Common Data Service platform.  
 
 - By manually making changes to the UnifiedServiceDesk.exe.config file. This file must then be distributed to every desktop where you want [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client diagnostic logging.  
 

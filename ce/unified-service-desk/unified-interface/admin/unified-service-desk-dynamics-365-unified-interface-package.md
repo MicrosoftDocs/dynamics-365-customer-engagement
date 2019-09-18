@@ -28,12 +28,12 @@ search.app:
 ---
 
 # Unified Interface sample application package
-[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps. With [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
+[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
  This package is best used in the following situations:  
   
-- To demonstrate the rich set of customer service capabilities in [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps and simplify the customization of your agent desktop application.  
+- To demonstrate the rich set of customer service capabilities in the Common Data Service platform and simplify the customization of your agent desktop application.  
   
-  With the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] Dynamics 365 Customer Engagement apps Web Client sample application package, the following components are installed:  
+  With the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] Web Client sample application package, the following components are installed:  
   
 - Unified Service Desk Administrator App (Public preview feature)
 ::: moniker-end
@@ -44,11 +44,11 @@ search.app:
 
 ::: moniker range="dynamics-usd-4"
 
-- Customizations for [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps Unified Interface package
+- Customizations for the Common Data Service platform Unified Interface package
 
 ::: moniker-end 
 
-- Data required for [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps and customizations
+- Data required for the Common Data Service platform and customizations
   
 - The following sample hosted controls  
   

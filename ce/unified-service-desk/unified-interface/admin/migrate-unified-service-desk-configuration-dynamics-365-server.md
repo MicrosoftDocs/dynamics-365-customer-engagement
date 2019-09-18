@@ -47,7 +47,7 @@ After you have completed the development or configuration of your agent applicat
 > [!IMPORTANT]
 >  The [!INCLUDE[pn_configuration_migration_tool](../../../includes/pn-configuration-migration-tool.md)] provides logging support to record detailed information about:  
 > 
-> - Errors that can occur while signing in to the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps instance using the tool.  
+> - Errors that can occur while signing in to the the Common Data Service platform instance using the tool.  
 > - Activities performed by the tool during the schema definition and export and import of the configuration data.  
 > - Data that was imported using the tool.  
 > 
