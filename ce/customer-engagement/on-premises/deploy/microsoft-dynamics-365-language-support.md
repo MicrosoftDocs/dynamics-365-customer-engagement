@@ -59,5 +59,5 @@ This section describes the supported configurations for different language versi
   
 ## See also     
  [Microsoft Dynamics 365 for Customer Engagement system requirements and required technologies](system-requirements-required-technologies.md)   </br>
- [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+ [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
 

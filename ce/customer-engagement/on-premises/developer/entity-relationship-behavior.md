@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - entity relationship behaviors, automating business processes
   - entity relationship behaviors, preserving data integrity
@@ -49,7 +49,7 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 <a name="BKMK_DataIntegrity"></a>   
 ## Preserve data integrity  
- Each entity can have rules that define a valid record. For example, a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps opportunity record must include a reference to a potential customer. Users can’t create a new opportunity record without either adding an existing customer or creating a new customer record.  
+ Each entity can have rules that define a valid record. For example, a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] opportunity record must include a reference to a potential customer. Users can’t create a new opportunity record without either adding an existing customer or creating a new customer record.  
   
  But what if the account or contact that represents the customer is deleted? In a case like this, possible alternatives are to either:  
   
@@ -57,9 +57,9 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 - Cascade the delete action when a corresponding customer record is deleted so that any related opportunity records are automatically deleted.  
   
-  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps for the one-to-many relationships that relate opportunities with customers, such as `Opportunity.opportunity_customer_accounts` and `Contact.opportunity_customer_contacts`, the behavior is to cascade the delete action.  
+  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for the one-to-many relationships that relate opportunities with customers, such as `Opportunity.opportunity_customer_accounts` and `Contact.opportunity_customer_contacts`, the behavior is to cascade the delete action.  
   
-  When you model your data to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps you will have similar decisions for how you want to preserve data integrity.  
+  When you model your data to use in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you will have similar decisions for how you want to preserve data integrity.  
   
 <a name="BKMK_BusinessProcesses"></a>   
 ## Automate business processes  
@@ -73,15 +73,15 @@ When a one-to-many entity relationship exists there are cascading behaviors that
   
 - **Only assign the opportunities owned by the previous account owner to the new salesperson**. This allows the new salesperson to replace the previous owner.  
   
-  These options are common ones you can configure using entity relationship behavior in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. If you require different behaviors consider purchasing a solution containing the behavior you need or developing a plugin to provide additional options.  
+  These options are common ones you can configure using entity relationship behavior in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. If you require different behaviors consider purchasing a solution containing the behavior you need or developing a plugin to provide additional options.  
   
 <a name="BKMK_CascadingBehavior"></a>   
 ## Cascading behavior  
- These configuration options are called cascading behaviors because they cascade down the hierarchy of related entities. For example, if deleting an account causes related opportunities to be deleted, what about the activities associated with the opportunities? In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps the behavior defined in each of the entity relationships for activity type entities is that they are deleted as well.  
+ These configuration options are called cascading behaviors because they cascade down the hierarchy of related entities. For example, if deleting an account causes related opportunities to be deleted, what about the activities associated with the opportunities? In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] the behavior defined in each of the entity relationships for activity type entities is that they are deleted as well.  
   
  However, not all entities are treated this way. For example, orders and invoices contain important business data that shouldn’t be inadvertently deleted. They have entity relationship behavior configured to restrict deleting customer or opportunity records that they are associated with. Before you can delete the customer or opportunity that has a related order or invoice record, you must delete the order or invoice first.  
   
- As you model your business data by creating custom entities or when using existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps system entities, consider the behavior you require and the implications for the entire hierarchy of related entities.  
+ As you model your business data by creating custom entities or when using existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system entities, consider the behavior you require and the implications for the entire hierarchy of related entities.  
   
 <a name="BKMK_ParentalEntityRelationships"></a>   
 ## Parental entity relationships  

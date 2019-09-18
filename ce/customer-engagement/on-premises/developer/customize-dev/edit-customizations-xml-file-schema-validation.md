@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - schemas
 ms.assetid: d521a59d-a542-4dce-ab1a-43582756436c
@@ -49,7 +49,7 @@ The customizations.xml file is included within the compressed .zip file exported
   
 - VisualizationDataDescription.xsd  
   
-  These files are also installed on the on-premises [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement server at: `[Install Drive]\Program Files\Microsoft Dynamics CRM\Server\ApplicationFiles`  
+  These files are also installed on the on-premises [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] server at: `[Install Drive]\Program Files\Microsoft Dynamics CRM\Server\ApplicationFiles`  
   
 [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)] CustomizationsSolution.xsd is the schema for the exported solution. It contains references to the other XSD files. All the files should be located in the same folder.  
   
@@ -78,7 +78,7 @@ The customizations.xml file is included within the compressed .zip file exported
   
 ### See also
 
- [When to Edit the Customizations File for Dynamics 365 for Customer Engagement](when-edit-customization-file.md)   
+ [When to Edit the Customizations File for Dynamics 365 Customer Engagement](when-edit-customization-file.md)   
  [Ribbon core schema](ribbon-core-schema.md)
  [Ribbon types schema](ribbon-types-schema.md)
  [Ribbon WSS schema](ribbon-wss-schema.md)

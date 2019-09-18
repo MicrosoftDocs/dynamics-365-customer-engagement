@@ -1,5 +1,5 @@
 ---
-title: "Define scaling for ribbon elements (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define scaling for ribbon elements (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining scaling for ribbon elements."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, control resize appearance
 ms.assetid: 8d204398-631a-4541-bcd4-eb0ec1468ffc
@@ -61,7 +61,7 @@ For application ribbons and updated entity form ribbons there is no scaling. Sca
  Associate your new group to that template. For each control in the group, use a `TemplateAlias` value from one of 
  the `<Section>` 
  or `<OverflowSection>` elements found in one of the `Layout` elements used by that `GroupTemplate`. 
- Each `<OverflowSection>` includes an `isv``TemplateAlias` that is not used by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. This `TemplateAlias` is provided to allow ISVs to add controls to that group.  
+ Each `<OverflowSection>` includes an `isv``TemplateAlias` that is not used by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. This `TemplateAlias` is provided to allow ISVs to add controls to that group.  
   
 ### Control how scaling is applied  
  Each `Scale` element in the `Scaling` element for a particular tab represents one scale step. Each `Scale` is applied sequentially by the order in which the `Scale` element appears. When reducing the horizontal space available for the ribbon, each scale element is applied in order from top down. When increasing the horizontal space available, from the smallest space the bottom scale element is in effect. Each of the available `Scale` elements are applied in order from the bottom to the top until all the `MaxSize` elements are in effect.  

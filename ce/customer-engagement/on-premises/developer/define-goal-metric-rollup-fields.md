@@ -1,5 +1,5 @@
 ---
-title: "Define goal metric and rollup fields (Developer Guide for Dynamics 365)| MicrosoftDocs"
+title: "Define goal metric and rollup fields (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "To specify the goal metric type, participating entities, and whether you track actuals, custom or in-progress data, use the goal metric entity (Metric) and the rollup field (RollupField) entity"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - goal metric entity
   - goal management entities, creating goal metrics

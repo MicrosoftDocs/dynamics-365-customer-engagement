@@ -1,5 +1,5 @@
 ---
-title: "Activity feeds entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Activity feeds entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The activity feeds help promote internal collaboration through quick and short updates in Dynamics 365 Customer Engagement (on-premises). The activity feeds do not replace emails or in-person communications."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - integrating activity feeds with other applications
   - activity feeds, collaborating internally
@@ -30,7 +30,7 @@ search.app:
 ---
 # Activity feeds entities
 
-The *activity feeds* help promote internal collaboration through quick and short updates in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. The activity feeds do not replace emails or in-person communications. Instead, they augment these traditional methods with non-intrusive and non-urgent ways of communication.  
+The *activity feeds* help promote internal collaboration through quick and short updates in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The activity feeds do not replace emails or in-person communications. Instead, they augment these traditional methods with non-intrusive and non-urgent ways of communication.  
   
  The activity feeds enable a salesperson to stay on top of situations that involve people, accounts, leads, contacts, or opportunities. They provide easy and convenient ways of monitoring important information that can be critical for closing a deal.  
   
@@ -48,7 +48,7 @@ The *activity feeds* help promote internal collaboration through quick and short
   
   As a developer you can consume and create activity feeds data programmatically. You can integrate activity feeds with other applications, and extend activity feeds to meet the needs of the organization. The following are examples of custom applications that you can build around activity feeds:  
   
-- Build full-featured activity feeds clients to complement [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps out-of-the-box client experiences that include Web, Outlook, and Mobile clients. For example, you can develop a desktop client.  
+- Build full-featured activity feeds clients to complement [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] out-of-the-box client experiences that include Web, Outlook, and Mobile clients. For example, you can develop a desktop client.  
   
 - Build surfaces to expose activity feeds data inside other applications, such as [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] or enterprise resource planning (ERP).  
   
@@ -57,7 +57,7 @@ The *activity feeds* help promote internal collaboration through quick and short
 - Perform specific actions when posts are created or deleted. For example, use a workflow to send an email when a post is created.  
   
 > [!NOTE]
->  In addition to activity feeds, from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps you can directly connect to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for collaborating in your organization. For more information, see [Connect to Yammer](connect-yammer.md).  
+>  In addition to activity feeds, from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] you can directly connect to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for collaborating in your organization. For more information, see [Connect to Yammer](connect-yammer.md).  
   
 ## In This Section  
  [Introduction to Activity Feeds](introduction-activity-feeds.md)  

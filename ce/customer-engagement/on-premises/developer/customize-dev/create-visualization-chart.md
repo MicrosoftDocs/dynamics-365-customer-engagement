@@ -1,5 +1,5 @@
 ---
-title: "Create a visualization (chart) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create a visualization (chart) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic shows how to create a chart visualization and a web resource visualization. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a93ac45e-aa61-4a0b-be4c-f63ccc4a2c91
 caps.latest.revision: 42
 author: JimDaly
@@ -70,7 +70,7 @@ _orgOwnedVisualizationId = _serviceProxy.Create(newWebResourceVisualization);
   
 ```  
   
- If you want to create a web resource visualization by using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement web application, you must create an XML file in the following format, and then use **Import Chart** in the ribbon to import the visualization.  
+ If you want to create a web resource visualization by using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] web application, you must create an XML file in the following format, and then use **Import Chart** in the ribbon to import the visualization.  
   
 ```xml  
 <visualization>  

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Rollup goal data for a custom period against the target revenue (Developer Guide for Dynamics 365) | MicrosoftDocs"
+title: "Sample: Rollup goal data for a custom period against the target revenue (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample shows how to roll up goal data for a custom period against the target revenue"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - goal management entities samples, rolling up goal data in a custom period against revenue targets
   - sample for rolling up goal data in a custom period against revenue targets
@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Rollup goal data for a custom period against the target revenue
 
-This sample code is for Dynamics 365(on-premises). [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34).
+This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

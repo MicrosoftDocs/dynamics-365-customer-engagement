@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: bdd3b0f8-bdd7-4604-941e-7308f4c2d83c
 caps.latest.revision: 49
 author: JimDaly
@@ -22,12 +22,12 @@ search.app:
 ---
 # Authenticate Office 365 users with Customer Engagement web services
 
-This topic applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps through the 
+This topic applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] through the 
 [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. There are multiple 
-[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps identity providers that must be accounted for when you develop an application that connects to the Organization or 
+[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] identity providers that must be accounted for when you develop an application that connects to the Organization or 
 Discovery web services. These providers can be identified as managed domain, federated, and [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)]. 
-This topic focuses on [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps web service authentication with managed domain and federated identity providers, 
-although the same classes and code shown here also work with all supported identity providers and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps deployment types.  
+This topic focuses on [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web service authentication with managed domain and federated identity providers, 
+although the same classes and code shown here also work with all supported identity providers and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment types.  
   
 <a name="bkmk_simplified"></a>
    
@@ -73,12 +73,12 @@ AuthenticationCredentials.SupportingCredentials.ClientCredentials = <device cred
   
 ## Authentication deep dive  
 
- The previous discussion introduced two simple approaches that can be used to authenticate a user with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps web services. The following information shows how to authenticate a user by using the <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>
+ The previous discussion introduced two simple approaches that can be used to authenticate a user with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services. The following information shows how to authenticate a user by using the <xref:Microsoft.Xrm.Sdk.Client.IServiceManagement`1>
  class and includes the source code to the `GetProxy` method. 
 To see the complete sample that contains the following examples, see [Sample: Authenticate Office 365 Users](sample-authenticate-users-web-services.md). You will notice that authentication at this level takes a lot more code.  
   
  The following sample code demonstrates the classes and methods that you can use in your application to authenticate an 
-[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS user using the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps web services.  
+[!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/MOS user using the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services.  
   
  [!code-csharp[AuthenticateWithNoHelp#AuthenticateWithNoHelp3](../snippets/csharp/CRMV8/authenticatewithnohelp/cs/authenticatewithnohelp3.cs#authenticatewithnohelp3)]  
 

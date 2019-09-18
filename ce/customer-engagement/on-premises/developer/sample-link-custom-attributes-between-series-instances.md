@@ -1,5 +1,5 @@
 ---
-title: "Sample: Link custom attributes between series and instances (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Link custom attributes between series and instances (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Sample demonstrates how to link a custom attribute that is created for a recurring appointment series (RecurringAppointmentMaster) with a custom attribute that is created for the Appointment instances. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - linking custom attributes between series and instances sample, schedule and appointment entities samples
   - sample for linking custom attributes between series and instances

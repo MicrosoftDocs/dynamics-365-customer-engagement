@@ -1,6 +1,6 @@
 ---
-title: "Command bar or ribbon presentation (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Data defining commands in Dynamics 365 for Customer Engagement (online) Customer Engagement can be presented in several different ways depending on the client and differences in how some entities are treated. You need to take these factors into consideration as you change ribbon commands or define new ones."
+title: "Command bar or ribbon presentation (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Data defining commands in Dynamics 365 Customer Engagement (on-premises) Customer Engagement can be presented in several different ways depending on the client and differences in how some entities are treated. You need to take these factors into consideration as you change ribbon commands or define new ones."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0eda8edd-3fc1-4b88-9413-b3cd89a30028
 caps.latest.revision: 21
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Command bar or ribbon presentation
 
-Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement can be presented in several different ways depending on the client and differences in how some entities are treated. You need to take these factors into consideration as you change ribbon commands or define new ones.  
+Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] can be presented in several different ways depending on the client and differences in how some entities are treated. You need to take these factors into consideration as you change ribbon commands or define new ones.  
   
 <a name="BKMK_DifferentPresentations"></a>   
 ## Different presentations of commands  
@@ -31,7 +31,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
 ### Updated user experience  
  This is the presentation of the command bar throughout the application and for forms for entities that have the updated user experience.  
   
- ![Account command bar in Dynamics 365 for Customer Engagement](../media/customization-account-grid-command-bar.PNG "Account command bar in Dynamics 365 for Customer Engagement")  
+ ![Account command bar in Dynamics 365 Customer Engagement](../media/customization-account-grid-command-bar.PNG "Account command bar in Dynamics 365 Customer Engagement")  
   
  In this experience, only the first seven commands are displayed and any remaining commands are available in a flyout menu.  
   
@@ -39,7 +39,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  Subgrids have a limited number of controls. Only controls to allow adding records, deleting records, or opening a view of the grid are available. But these commands are still defined by ribbon data and can be customized.  
   
- ![Contact sub&#45;grid in Dynamics 365 for Customer Engagement](../media/customization-contract-subgrid.PNG "Contact sub-grid in Dynamics 365 for Customer Engagement")  
+ ![Contact sub&#45;grid in Dynamics 365 Customer Engagement](../media/customization-contract-subgrid.PNG "Contact sub-grid in Dynamics 365 Customer Engagement")  
   
  To perform more actions on the list of records displayed in a subgrid, select the option to open a view of the grid.  
   
@@ -48,7 +48,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
 ### Classic user experience  
  This is the presentation using the ribbon. It is used for lists within the Outlook client and for the forms of entities that do not use the updated user experience.  
   
- ![Article ribbon in Dynamics 365 for Customer Engagement](../media/customization-article-ribbon.PNG "Article ribbon in Dynamics 365 for Customer Engagement")  
+ ![Article ribbon in Dynamics 365 Customer Engagement](../media/customization-article-ribbon.PNG "Article ribbon in Dynamics 365 Customer Engagement")  
   
  In this experience tabs are available and groups can define scaling so that all available commands in a tab are shown as the width of the screen changes.  
   
@@ -56,7 +56,7 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
  Subgrid commands are shown in a List Tools contextual tab at the top of the page when the subgrid is selected.  
   
- ![Article Comments sub&#45;grid ribbon in Dynamics 365 for Customer Engagement](../media/customization-article-comments-subgrid-ribbon.PNG "Article Comments sub-grid ribbon in Dynamics 365 for Customer Engagement")  
+ ![Article Comments sub&#45;grid ribbon in Dynamics 365 Customer Engagement](../media/customization-article-comments-subgrid-ribbon.PNG "Article Comments sub-grid ribbon in Dynamics 365 Customer Engagement")  
   
 <a name="BKMK_CRMForTablets"></a>   
 ### [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for tablets  
@@ -101,6 +101,6 @@ Data defining commands in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dy
   
 ### See also  
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
- [Ribbons Available in Microsoft Dynamics 365 for Customer Engagement](ribbons-available-microsoft-dynamics-365.md)   
+ [Ribbons Available in Microsoft Dynamics 365 Customer Engagement](ribbons-available-microsoft-dynamics-365.md)   
  [Export Ribbon Definitions](export-ribbon-definitions.md)   
- [Developers guide to customization for Microsoft Dynamics 365 for Customer Engagement](customize-applications.md)
+ [Developers guide to customization for Microsoft Dynamics 365 Customer Engagement](customize-applications.md)

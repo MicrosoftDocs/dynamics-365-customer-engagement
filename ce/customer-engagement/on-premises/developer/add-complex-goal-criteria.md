@@ -1,5 +1,5 @@
 ---
-title: "Add complex goal criteria (Developer Guide for Dynamics 365)| MicrosoftDocs"
+title: "Add complex goal criteria (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "A rollup query (GoalRollupQuery) entity can be used to add complex rollup criteria for a goal"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - adding complex goal criteria
   - goal management entities, preventing double counting and other rollup query errors

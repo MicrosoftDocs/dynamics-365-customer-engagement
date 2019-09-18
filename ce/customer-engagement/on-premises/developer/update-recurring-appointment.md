@@ -1,5 +1,5 @@
 ---
-title: "Update a recurring appointment (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Update a recurring appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Update a recurring appointment series by using the IOrganizationService.Entity method or the UpdateRequest message on the RecurringAppointmentMaster entity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - updating recurring appointments and recurring appointment series
   - updating basic information in a recurring appointment series

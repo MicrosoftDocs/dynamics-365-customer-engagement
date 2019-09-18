@@ -69,7 +69,4 @@ If you’ve created a custom report outside of Dynamics 365 Customer Engagement 
   
    To share the new report, see the instructions in [Share a report with other users or teams](../basics/share-report-users-teams.md).  
   
-### See also  
- [Create, edit, or copy a report using the Report Wizard](../basics/create-edit-copy-report-wizard.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)   
- [Get started writing reports](../analytics/get-started-writing-reports.md)
+

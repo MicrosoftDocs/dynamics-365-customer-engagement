@@ -1,5 +1,5 @@
 ---
-title: "Appointment entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Overview of the appointment entity, which represents a commitment over a time interval with start and end times and a duration."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0e1254fa-d7a1-42a5-840c-cd26162c1f48
 author: JimDaly
 ms.author: jdaly
@@ -37,7 +37,7 @@ appointment instance, for other appointments at the same interval.
 ## In This Section  
  [Schedule and appointment entities](schedule-appointment-entities.md)  
   
- [Schedules in Dynamics 365 for Customer Engagement](schedule-collections.md)  
+ [Schedules in Dynamics 365 Customer Engagement](schedule-collections.md)  
   
  [Appointment Entity](entities/appointment.md)  
   

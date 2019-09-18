@@ -1,6 +1,6 @@
 ---
-title: "Sample: Collaborate with activity feeds (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: The sample shows how to create posts with comments and mentions and how to follow Dynamics 365 for Customer Engagement records. It also demonstrates how to retrieve information for the personal and record walls.
+title: "Sample: Collaborate with activity feeds (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: The sample shows how to create posts with comments and mentions and how to follow Dynamics 365 Customer Engagement records. It also demonstrates how to retrieve information for the personal and record walls.
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - collaborating with activity feeds sample, requirements
   - personal wall sample, retrieving information from

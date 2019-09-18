@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8a927ac0-29c3-4222-8137-36549a0dc660
 caps.latest.revision: 21
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Use change tracking to synchronize data with external systems
 
-The change tracking feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized. Previously, without this new feature, it was difficult to build a reliable and efficient mechanism to determine what records had changed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This topic discusses how to retrieve changes for an entity.  
+The change tracking feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides a way to keep the data synchronized in a performant way by detecting what data has changed since the data was initially extracted or last synchronized. Previously, without this new feature, it was difficult to build a reliable and efficient mechanism to determine what records had changed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This topic discusses how to retrieve changes for an entity.  
   
 <a name="BKMK_enable"></a>   
 ## Enable change tracking for an entity  

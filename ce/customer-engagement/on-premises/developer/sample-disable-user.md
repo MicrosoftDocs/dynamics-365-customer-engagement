@@ -1,5 +1,5 @@
 ---
-title: "Sample: Disable a user (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Disable a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to create a user in an Active Directory environment using the SetStateRequest message."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 082fc88f-a951-41c2-85ae-4b5e69e9917c
 caps.latest.revision: 15
 author: KumarVivek

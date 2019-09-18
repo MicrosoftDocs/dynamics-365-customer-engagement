@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement application platform for building extended xRM applications (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Dynamics 365 for Customer Engagement offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as Extended Dynamics 365 for Customer Engagement applications (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. "
+title: "Dynamics 365 Customer Engagement application platform for building extended xRM applications (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Dynamics 365 Customer Engagement offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as Extended Dynamics 365 Customer Engagement applications (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. "
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 00564289-496e-4fd1-85c6-5e2d354a2f4d
 caps.latest.revision: 18
 author: JimDaly
@@ -21,7 +21,7 @@ search.app:
 ---
 # Application platform for building extended xRM applications
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as *Extended Dynamics 365 Customer Engagement (on-premises)* applications (*xRM*) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. These applications span across various industries including [Retail](https://www.microsoft.com/en-us/dynamics/retail.aspx), [Service industries](https://www.microsoft.com/en-us/dynamics/service-industries.aspx), [Manufacturing](https://www.microsoft.com/en-us/dynamics/manufacturing.aspx), [Distribution](https://www.microsoft.com/en-us/dynamics/distribution), [Financial services](https://www.microsoft.com/en-us/dynamics/crm-financial-services.aspx), and [Public sector](https://www.microsoft.com/en-us/dynamics/public-sector.aspx).  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] offers customers, partners, independent software vendors (ISVs), and systems integrators (SIs), a powerful platform for building line-of-business applications. These applications are often referred to as *Extended Dynamics 365 Customer Engagement (on-premises)* applications (*xRM*) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. These applications span across various industries including [Retail](https://www.microsoft.com/en-us/dynamics/retail.aspx), [Service industries](https://www.microsoft.com/en-us/dynamics/service-industries.aspx), [Manufacturing](https://www.microsoft.com/en-us/dynamics/manufacturing.aspx), [Distribution](https://www.microsoft.com/en-us/dynamics/distribution), [Financial services](https://www.microsoft.com/en-us/dynamics/crm-financial-services.aspx), and [Public sector](https://www.microsoft.com/en-us/dynamics/public-sector.aspx).  
   
  Dynamics 365 Customer Engagement (on-premises) includes additional capabilities for Operations and Financials. For developer documentation using these capabilities, see:  
   
@@ -41,12 +41,12 @@ search.app:
  The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application supports many international languages and currencies. Your application inherits all these capabilities.  
   
 ### You get an extensible data and security model  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps enable you to extend the out-of-the-box data model to meet the data storage and tracking needs of your business application. You can disable elements of this data model if they don’t apply to your business application. The data model is protected by an extensible security model to apply role, record and field level, as well as hierarchical security. All other aspects of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps platform and user experience are driven by the data and security model you define. In this way, users only see and have access to the data and actions you choose.  
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] enable you to extend the out-of-the-box data model to meet the data storage and tracking needs of your business application. You can disable elements of this data model if they don’t apply to your business application. The data model is protected by an extensible security model to apply role, record and field level, as well as hierarchical security. All other aspects of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] platform and user experience are driven by the data and security model you define. In this way, users only see and have access to the data and actions you choose.  
   
- Organizations can also add their own data elements and security to work seamlessly on top of the data model used by your application. Or other ISVs or SIs can build solutions on top of yours, just as yours is built on top of the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps data and security model.  
+ Organizations can also add their own data elements and security to work seamlessly on top of the data model used by your application. Or other ISVs or SIs can build solutions on top of yours, just as yours is built on top of the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and security model.  
   
 ### You get extensible business logic  
- Defining and enforcing consistent business processes is one of the main reasons people use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. You can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to define and enforce consistent business processes and rules for your application.
+ Defining and enforcing consistent business processes is one of the main reasons people use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to define and enforce consistent business processes and rules for your application.
   
  Organizations that use your application can modify or extend your default application business logic without writing code.  
   
@@ -70,7 +70,7 @@ search.app:
 - Get relevant content with [!INCLUDE[pn_office_delve](../includes/pn-office-delve.md)] based on what they're working on and who they're working with.  
   
 ### You get cross-platform mobile applications  
- The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps mobile apps download metadata about your data model, security configuration, business processes and rules, transforming the out-of-the-box experience into a customized mobile app for your application.  
+ The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mobile apps download metadata about your data model, security configuration, business processes and rules, transforming the out-of-the-box experience into a customized mobile app for your application.  
   
 ### You get business intelligence  
  People using your application will be able to gain insight into your business and proactively anticipate business needs.  
@@ -78,7 +78,7 @@ search.app:
  They will be able to use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)], interactive dashboards and reports, advanced visualizations, and natural language Q&A. People will have visibility into business performance with at-a-glance dashboards and contextual charts inside your business application.  
   
 ### You can build on top of the platform  
- The web services built into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] allow developers familiar with standards based web technologies to extend and integrate their business applications built on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps using HTML, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], and CSS, and the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)]. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps expose the same end user and administrative capabilities you've seen in the UI through a RESTful web service API built on open standards including OAuth 2.0 and OData v4. Because [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] embraces web standards, external systems can integrate with your business application built on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using their platform and languages of choice.  
+ The web services built into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] allow developers familiar with standards based web technologies to extend and integrate their business applications built on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using HTML, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], and CSS, and the [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)]. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] expose the same end user and administrative capabilities you've seen in the UI through a RESTful web service API built on open standards including OAuth 2.0 and OData v4. Because [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] embraces web standards, external systems can integrate with your business application built on [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using their platform and languages of choice.  
   
 ## Learn more about building extended [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (xRM) solutions  
  View these videos to learn more:  
@@ -147,9 +147,9 @@ search.app:
   Extensible platform  
   -   [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)  
   
-- [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)  
+- [Extend Dynamics 365 Customer Engagement on the client](extend-client.md)  
   
-- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)  
+- [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)  
   
 - [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)  
   
@@ -158,7 +158,7 @@ search.app:
  [The metadata and data models in Dynamics 365 Customer Engagement (on-premises)](metadata-data-models.md)   
  [Extend Dynamics 365 Customer Engagement (on-premises) on the server](extend-dynamics-365-server.md)   
  [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)   
- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)   
+ [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)   
  [Package and distribute extensions using solutions](package-distribute-extensions-use-solutions.md)    
  [Extend Dynamics 365 Customer Engagement (on-premises) for Outlook](extend-customer-engagement-outlook.md)   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with SharePoint](integration-dev/integrate-sharepoint.md)   

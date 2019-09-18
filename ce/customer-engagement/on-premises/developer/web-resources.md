@@ -1,13 +1,13 @@
 ---
-title: "Web resources for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Web resources are virtual files that are stored in the Dynamics 365 for Customer Engagement database and that you can retrieve by using a unique URL address."
+title: "Web resources for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Web resources are virtual files that are stored in the Dynamics 365 Customer Engagement database and that you can retrieve by using a unique URL address."
 keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
 author: JimDaly
 ms.author: jdaly
@@ -146,14 +146,14 @@ http://myServer/MyOrganization/WebResources/new_/test/test.htm
 
 ## Community tools
 
-**WebResources Manager** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+**WebResources Manager** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
 
 ### See also  
- [Write Client Application Extensions for Dynamics 365 for Customer Engagement](extend-client.md)<br />
+ [Write Client Application Extensions for Dynamics 365 Customer Engagement](extend-client.md)<br />
  [Create Accessible Web Resources](create-accessible-web-resources.md)<br />
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)<br />
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)<br />

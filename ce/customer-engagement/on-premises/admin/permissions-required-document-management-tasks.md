@@ -1,7 +1,7 @@
 ---
-title: "Permissions required for document management tasks for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Permissions required for document management tasks | MicrosoftDocs"
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 10/01/2019
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -23,8 +23,6 @@ search.app:
 ---
 # Permissions required for document management tasks
 
-*This content also applies to the on-premises version.*
-
 The following table shows the default security roles or other permissions that are needed to perform each document management with [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] task.  
   
 > [!IMPORTANT]
@@ -35,7 +33,7 @@ The following table shows the default security roles or other permissions that a
 |                        Enable or disable document management                        |         Security roles:  System Administrator or System Customizer<br /><br /> Privileges:  Read, Write on all record types that are customizable.<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site permissions: Create, Read, Write, Append, Append To          |
 |                             Create or edit site records                             |                                               Security roles:  System Administrator or System Customizer<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site permissions: Site Create, Read, Write, Append, Append To                                               |
 |                      Create or edit document location records                       | Security roles:  Salesperson<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site permissions: Read, Append To<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Document Location permissions: Create, Read, Write, Append, Append To |
-|              Run the Enable Server-based SharePoint Integration Wizard              |          Security roles:  System Administrator<br /><br /> Privileges: All other security roles will require the Run SharePoint Integration Wizard permission to run the Enable Server-based SharePoint Integration Wizard in [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] apps.           |
+|              Run the Enable Server-based SharePoint Integration Wizard              |          Security roles:  System Administrator<br /><br /> Privileges: All other security roles will require the Run SharePoint Integration Wizard permission to run the Enable Server-based SharePoint Integration Wizard in Customer Engagement (on-premises).           |
 |                            Make a site your default site                            |                                                               Security roles: System Administrator or System Customizer<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site permissions: Read, Write                                                                |
 |                                   Validate sites                                    |                                                               Security roles:  System Administrator or System Customizer<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site permissions: Read, Write                                                               |
 |                    Add or edit a document location from a record                    |     Security roles: Any<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site permissions: Read, Append To<br /><br /> [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] Document Location permissions: Create, Read, Write, Append, Append To      |
@@ -44,5 +42,5 @@ The following table shows the default security roles or other permissions that a
   
 ### See also  
  [Manage Your Documents](../admin/manage-documents-using-sharepoint.md) <br /> 
-[Validate and fix SharePoint site URLs](troubleshoot-set-up-sharepoint-online.md#validate-and-fix-sharepoint-site-urls)
+ [Validate and fix SharePoint site URLs](troubleshoot-set-up-sharepoint-online.md#validate-and-fix-sharepoint-site-urls)
 

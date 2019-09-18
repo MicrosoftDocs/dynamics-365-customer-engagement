@@ -1,5 +1,5 @@
 ---
-title: "Use the Organization service with metadata (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Use the Organization service with metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about how to programmactically access and modify the metadata model using the organization service with metadata."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b7d37dd8-4a1d-4a7f-ac77-436f00c003f1
 caps.latest.revision: 23
 author: JimDaly
@@ -20,9 +20,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use the Organization service with Dynamics 365 for Customer Engagement metadata
+# Use the Organization service with Dynamics 365 Customer Engagement metadata
 
-Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps. Virtually all tasks to manage metadata can be performed by using the customization tools in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps. This section describes how to programmatically access and modify the metadata model.  
+Metadata refers to the structure of entities used to manage data in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. Virtually all tasks to manage metadata can be performed by using the customization tools in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. This section describes how to programmatically access and modify the metadata model.  
   
 > [!IMPORTANT]
 >  Adding, removing or changing entities, alternate keys, attributes, or relationships can interfere with normal system operation. If you’re applying changes to a production system we recommend that you schedule these operations when it’s least disruptive to users.  

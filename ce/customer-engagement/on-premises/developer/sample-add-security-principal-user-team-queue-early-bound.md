@@ -1,5 +1,5 @@
 ---
-title: "Sample: Add a security principal (user or team) to a queue (early bound) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Add a security principal (user or team) to a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 decription: The sample code demonstrates how to give a user or team access to a queue. The AddPrincipalToQueueRequest adds the specified principal to the list of queue members.
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for sharing queues (early bound)
   - giving teams limited access to queues (early bound), sample

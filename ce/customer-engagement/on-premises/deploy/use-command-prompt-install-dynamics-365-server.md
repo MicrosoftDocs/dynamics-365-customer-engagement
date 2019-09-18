@@ -73,7 +73,7 @@ You can install Dynamics 365 Server and Dynamics 365 Reporting Extensions from t
   
   
 ## See Also  
- [Install Microsoft Dynamics 365 for Outlook using a command prompt](../outlook-addin/admin-guide/install-using-command-prompt.md)   <br/> 
+ [Install Microsoft Dynamics 365 for Outlook using a command prompt](../../../outlook-addin/admin-guide/install-using-command-prompt.md)   <br/> 
  [Installing on-premises Dynamics 365](installing-on-premises-dynamics-365.md)  <br/>
  [Post-installation and configuration guidelines for Microsoft Dynamics 365](post-installation-configuration-guidelines-dynamics-365.md)
 

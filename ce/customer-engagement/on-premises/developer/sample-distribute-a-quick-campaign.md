@@ -1,5 +1,5 @@
 ---
-title: "Sample: Distribute a quick campaign (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Distribute a quick campaign (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates how to create and distribute a quick campaign."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - distributing a quick campaign, marketing entities sample
   - sample for distributing a quick campaign

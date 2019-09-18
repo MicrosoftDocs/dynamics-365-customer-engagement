@@ -49,13 +49,13 @@ After Setup completes the upgrade, perform the following tasks.
   
 #### Upgrade clients  
   
-1.  Run [!INCLUDE [pn-dynamics-365-for-outlook-v-90](../includes/pn-dynamics-365-for-outlook-v-90.md)] Setup on every [!INCLUDE [pn-crm-for-outlook-short](../includes/pn-crm-for-outlook-short.md)] (8.2) user's computer. To distribute the upgrade, use [!INCLUDE[pn_ms_System_Center_long](../includes/pn-ms-system-center-long.md)] or Microsoft Group Policy to push the upgrade to users. For more information about Group Policy distribution, see [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](../outlook-addin/admin-guide/deploy-using-group-policy.md).  
+1.  Run [!INCLUDE [pn-dynamics-365-for-outlook-v-90](../includes/pn-dynamics-365-for-outlook-v-90.md)] Setup on every [!INCLUDE [pn-crm-for-outlook-short](../includes/pn-crm-for-outlook-short.md)] (8.2) user's computer. To distribute the upgrade, use [!INCLUDE[pn_ms_System_Center_long](../includes/pn-ms-system-center-long.md)] or Microsoft Group Policy to push the upgrade to users. For more information about Group Policy distribution, see [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](../../../outlook-addin/admin-guide/deploy-using-group-policy.md).  
   
 2.  After the upgrade is complete, verify that [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] has the latest updates.  
   
 3.  Test the functionality from [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] and from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Upgrade Microsoft Dynamics 365 for Outlook](../outlook-addin/admin-guide/upgrade.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Upgrade Microsoft Dynamics 365 for Outlook](../../../outlook-addin/admin-guide/upgrade.md)  
   
 ## See Also  
  [Upgrade Dynamics 365 Server](upgrade-from-microsoft-dynamics-365-server.md)  

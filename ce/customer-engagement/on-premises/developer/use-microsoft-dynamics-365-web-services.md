@@ -36,7 +36,7 @@ Web services provide APIs that you’ll use when you write programs for Dynamics
   
  Eventually the Web API will replace the Organization service and Organization Data service but both of these existing web services will be available to enable a gradual transition to a single Web API. The Web API should be your first choice for new development that will support [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and future versions of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Use the Web API for any projects that access [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data with code that doesn’t run on the server, including requests from web resources and form scripts that run in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application clients. At this time you can’t easily use the Web API for code that runs on the server, such as in plug-ins or workflow assemblies. You should continue to use the Organization service for these purposes.
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
   
 <a name="bkmk_organizationservice"></a>
 
@@ -76,6 +76,6 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
 ### See also  
  [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)   
  [Authenticate users to Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
- [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
+ [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
  [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)

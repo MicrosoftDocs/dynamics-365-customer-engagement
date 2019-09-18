@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d347f96b-a137-42e1-a9bf-fac6d6133330
 author: JimDaly
 ms.author: jdaly
@@ -28,7 +28,7 @@ search.app:
 
 # Sample: Detect solution dependencies
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement apps. Download the sample: [Work with solutions](https://code.msdn.microsoft.com/Sample-Work-with-solutions-a496ee8f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement (on-premises). Download the sample: [Work with solutions](https://code.msdn.microsoft.com/Sample-Work-with-solutions-a496ee8f).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

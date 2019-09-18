@@ -1,6 +1,6 @@
 ---
-title: "Sample: Generic virtual entity data provider plug-in (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Sample demonstrates how to implement a generic custom Dynamics 365 for Customer Engagement virtual entity plug-in."
+title: "Sample: Generic virtual entity data provider plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Sample demonstrates how to implement a generic custom Dynamics 365 Customer Engagement virtual entity plug-in."
 ms.custom: 
 ms.date: 05/01/2018
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d329dade-16c5-46e9-8dec-4b8efb996d24
 author: JimDaly
 ms.author: jdaly
@@ -22,10 +22,10 @@ search.app:
 
 # Sample: Generic virtual entity data provider plug-in
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. 
 
 ## Demonstrates  
-This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement apps virtual entity data provider plug-in, **DropboxRetrieveMultiplePlugin**, for the [Dropbox](https://www.dropbox.com/) file-sharing service. It uses the "bare metal" approach, translating the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> through the creation of the custom visitor class, **DropBoxExpressionVisitor**. It returns a collection of the files that satisfy the search criteria as an <xref:Microsoft.Xrm.Sdk.EntityCollection>. 
+This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) virtual entity data provider plug-in, **DropboxRetrieveMultiplePlugin**, for the [Dropbox](https://www.dropbox.com/) file-sharing service. It uses the "bare metal" approach, translating the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> through the creation of the custom visitor class, **DropBoxExpressionVisitor**. It returns a collection of the files that satisfy the search criteria as an <xref:Microsoft.Xrm.Sdk.EntityCollection>. 
 
 ## Getting started
 In order to build this sample, you must first install the [Dropbox.Api](https://www.nuget.org/packages/Dropbox.Api/) and [Microsoft.CrmSdk.Data](https://www.nuget.org/packages/Microsoft.CrmSdk.Data/) NuGet packages in your solution.  You'll also need a DropBox account and pass a real access token when creating an instance of the **DropboxClient**.

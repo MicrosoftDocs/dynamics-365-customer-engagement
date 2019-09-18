@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: E197DEB3-7461-48D4-80D4-C0BFC8AC80A1
 author: susikka
 ms.author: susikka
@@ -21,7 +21,7 @@ search.app:
 ---
 # Streamline JavaScript web resource development using Fiddler AutoResponder
 
-While developing and debugging JavaScript web resources, you can use AutoResponder in [Telerik Fiddler](https://www.telerik.com/fiddler) to replace the content of a web resource with content from a local file rather than uploading it in your Dynamics 365 for Customer Engagement instance and publishing each time. Use the following steps below to setup AutoResponder in Fiddler.
+While developing and debugging JavaScript web resources, you can use AutoResponder in [Telerik Fiddler](https://www.telerik.com/fiddler) to replace the content of a web resource with content from a local file rather than uploading it in your Dynamics 365 Customer Engagement instance and publishing each time. Use the following steps below to setup AutoResponder in Fiddler.
 
 ## Install and configure Fiddler
 
@@ -80,6 +80,6 @@ By following the above steps, Fiddler is configured to listen to the requests an
 
 ## See Also
 
-[Web resources for Customer Engagement apps](web-resources.md)<br />
-[Use JavaScript with Customer Engagement apps](use-javascript.md)<br />
-[Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)
+[Web resources for Customer Engagement (on-premises)](web-resources.md)<br />
+[Use JavaScript with Customer Engagement (on-premises)](use-javascript.md)<br />
+[Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)
