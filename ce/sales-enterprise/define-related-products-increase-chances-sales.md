@@ -1,12 +1,13 @@
 ---
-title: "Define related products to increase sales (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 for Sales."
-keywords: Related product
-ms.date: 04/01/2018
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+title: "Define related products to increase sales (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 Sales."
+keywords: "Related, product"
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
 author: shubhadaj
 ms.author: shujoshi
@@ -79,7 +80,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
    When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
   
-   ![Product suggestions an opportunity in Dynamics 365 for Sales](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 for Sales")  
+   ![Product suggestions an opportunity in Dynamics 365 Sales](../sales-enterprise/media/v7-product-suggestions.png "Product suggestions an opportunity in Dynamics 365 Sales")  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](../sales-enterprise/publish-product-bundle-make-available-selling.md)  

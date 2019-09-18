@@ -1,4 +1,4 @@
-# [Dynamics 365 for Sales Help and Training](help-hub.md)
+# [Dynamics 365 Sales Help and Training](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [Connect and share feedback](../sales-enterprise/connect-share-feedback.md)
 ## [What's new](../sales-enterprise/whats-new.md)
@@ -46,10 +46,10 @@
 #### [Associate documents with playbook activities](associate-documents-playbook-activities.md)
 
 ### General Data Protection Regulation (GDPR)
-#### [Dynamics 365 for Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
+#### [Dynamics 365 Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ### Upgrade or downgrade
-#### [Upgrade from Dynamics 365 for Sales Professional](upgrade-sales-professional-sales-enterprise.md)
-#### [Move from Dynamics 365 for Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
+#### [Upgrade from Dynamics 365 Sales Professional](upgrade-sales-professional-sales-enterprise.md)
+#### [Move from Dynamics 365 Sales Enterprise to Professional](move-sales-enterprise-sales-professional.md)
 ## User Guide
 ### [Help resources for sales people](../sales-enterprise/user-guide.md)
 ### [Learn the basics](user-guide-learn-basics.md)

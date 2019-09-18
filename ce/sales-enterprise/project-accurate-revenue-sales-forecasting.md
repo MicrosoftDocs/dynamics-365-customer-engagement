@@ -1,12 +1,13 @@
 ---
-title: "Project accurate revenue with sales forecasting (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 for Sales."
+title: "Project accurate revenue with sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Accurately project sales for your team and estimate the revenue by using sales forecasting in Dynamics 365 Sales."
 keywords: ""
-ms.date: 04/15/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 3f06063b-900d-40dd-a20b-d48e216a9444
 author: shubhadaj
 ms.author: shujoshi
@@ -23,7 +24,7 @@ ms.tgt_pltfrm:
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 for Customer Engagement apps Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
 > - To learn how to enable a preview feature, see [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md#how-do-i-enable-a-preview-feature)
 
 

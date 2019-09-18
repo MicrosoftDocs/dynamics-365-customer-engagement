@@ -1,11 +1,13 @@
 ---
-title: "Use the lookup field on forms in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 for Sales Professional."
+title: "Use the lookup field on forms in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Choose records from a related entity (recordset) quickly by using lookups in Dynamics 365 Sales Professional."
 keywords: ""
-ms.date: 06/18/2019
-ms.service: dynamics-365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 157b98bd-adb4-4e77-b8fb-3fc862b11ef6
 author: shubhadaj
 ms.author: shujoshi
@@ -13,7 +15,6 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
 # Use the lookup field on forms
@@ -83,4 +84,4 @@ When lookup has more records in a field than can fit in the available display ar
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)

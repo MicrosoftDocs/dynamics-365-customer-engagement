@@ -1,11 +1,13 @@
 ---
-title: "Gain insights with dashboards in Dynamics 365 for Sales Professional | MicrosoftDocs"
-description: "Get insights into how your sales team is doing by using dashboards in Dynamics 365 for Sales Professional."
+title: "Gain insights with dashboards in Dynamics 365 Sales Professional | MicrosoftDocs"
+description: "Get insights into how your sales team is doing by using dashboards in Dynamics 365 Sales Professional."
 keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 21d9e514-6e31-432b-b7c9-ec6290b59fa2
 author: shubhadaj
 ms.author: shujoshi
@@ -13,12 +15,11 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Gain insights with dashboards in Dynamics 365 for Sales Professional
+# Gain insights with dashboards in Dynamics 365 Sales Professional
 
-Dashboards in Dynamics 365 for Sales Professional provide an overview of
+Dashboards in Dynamics 365 Sales Professional provide an overview of
 business data—actionable information that’s viewable across the organization. Use dashboards to see important data at a glance.
 
 Dashboards use views, lists, and charts to bring data that is meaningful to you to one place.
@@ -27,7 +28,7 @@ Dashboards use views, lists, and charts to bring data that is meaningful to you 
 
 To go to dashboards, in the site map, select **Dashboards**.
 
-## Dashboards in Dynamics 365 for Sales Professional
+## Dashboards in Dynamics 365 Sales Professional
 
 Sales Professional comes with the following prebuilt dashboards that you can use to quickly get insights on your sales data and team performance.
 
@@ -54,7 +55,7 @@ You can use the view selector to select a dashboard of your choice. Select the d
 
 ## Set a dashboard as the default
 
-To see a specific dashboard every time you sign in to Dynamics 365 for Sales Professional, set it as the default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
+To see a specific dashboard every time you sign in to Dynamics 365 Sales Professional, set it as the default. To do this, open the dashboard, and on the command bar, select **Set as Default**.
 
 ## Entity dashboards
 
@@ -70,5 +71,5 @@ You can use the global or visual filters to see only the data that is important 
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md) 
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md) 
 [Learn the basics](learn-basics-sales-professional.md)
