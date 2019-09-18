@@ -1,7 +1,6 @@
 ---
-title: "Edit insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Edit insight cards using Microsoft Flow in Dynamics 365 Sales | MicrosoftDocs"
 description: "Edit  insight cards in assistant"
-keywords: "AI for sales, assistant, custom cards, insight cards"
 ms.date: 03/22/2019
 ms.service: crm-online
 ms.custom: 

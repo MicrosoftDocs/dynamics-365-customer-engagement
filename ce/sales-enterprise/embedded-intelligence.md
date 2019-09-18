@@ -1,11 +1,10 @@
 ---
-title: "Embedded Intelligence for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Embedded Intelligence for Dynamics 365 Sales | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: e5374d5a-bf3e-4cd2-a062-ecd607a9771e
 author: udaykirang
 ms.author: udag
@@ -18,7 +17,7 @@ caps.latest.revision: 9
 
 # Analyze customer-interaction data with Embedded intelligence 
 
-Embedded intelligence is a suite of features which continuously analyze the vast collection of customer-interaction data already stored in your [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help you better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward.  
+Embedded intelligence is a suite of features which continuously analyze the vast collection of customer-interaction data already stored in your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help you better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward.  
   
 Embedded intelligence includes the following features, which all work together to amplify their individual strengths:  
   
@@ -35,7 +34,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
   
  ![Relationship assistant](media/relationship-assistant.png "Relationship assistant")  
   
- The assistant combines and analyzes all of the information at its disposal, and then generates a collection of *action cards*, which are displayed as your entry point to [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] on mobile devices, and as a carousel or column display on your web-based dashboards. When working with individual records you’ll see the action cards that apply directly to that record (all record types are supported, including custom entities). Many different types of cards are available, each of which provides tailored information, helpful links, and action controls for working with that information.  
+ The assistant combines and analyzes all of the information at its disposal, and then generates a collection of *action cards*, which are displayed as your entry point to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] on mobile devices, and as a carousel or column display on your web-based dashboards. When working with individual records you’ll see the action cards that apply directly to that record (all record types are supported, including custom entities). Many different types of cards are available, each of which provides tailored information, helpful links, and action controls for working with that information.  
   
  ![Relationship insights action cards](media/relationship-insights-action-cards.png "Relationship insights action cards")  
   
@@ -60,7 +59,7 @@ The relationship assistant is constantly at work, keeping an eye on your activit
   
  ![Relationship intelligence action card reminder](media/relationship-intelligence-action-card-reminder.png "Relationship intelligence action card reminder")  
   
- You can view the status and history of your followed messages anywhere they are shown in [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)]. The current status and most-recent interaction are shown right in the **Activities** list for any record where the email is relevant, and you can expand the listing to see the full interaction history.  
+ You can view the status and history of your followed messages anywhere they are shown in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. The current status and most-recent interaction are shown right in the **Activities** list for any record where the email is relevant, and you can expand the listing to see the full interaction history.  
   
  To protect the privacy preferences of your customers, you can choose to not allow followed messages for individual contacts by setting a flag on their contact or lead record.  
   
@@ -69,11 +68,11 @@ The relationship assistant is constantly at work, keeping an eye on your activit
 <a name="AutoCapture"></a>   
 
 ## Find and track relevant messages from your Exchange server with auto capture  
- [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] can now analyze your email messages directly in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find all messages that might be relevant to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. The system looks for messages to or from relevant email addresses, and presents you with the relevant messages right in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. With just one click, you can track any of the suggested messages in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)], which makes them available to your sales team and also for use by other Embedded intelligence features.  
+ [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] can now analyze your email messages directly in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find all messages that might be relevant to your work in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. The system looks for messages to or from relevant email addresses, and presents you with the relevant messages right in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)]. With just one click, you can track any of the suggested messages in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)], which makes them available to your sales team and also for use by other Embedded intelligence features.  
   
  ![Relationship insights auto capture](media/relationship-insights-auto-capture.png "Relationship insights auto capture")  
   
- You can still track messages in  [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] in all the ways that you could before, including by using the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] or tracked folders. All tracked messages in  [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] are available to Embedded intelligence features.  
+ You can still track messages in  [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] in all the ways that you could before, including by using the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] or tracked folders. All tracked messages in  [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] are available to Embedded intelligence features.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture of related emails](auto-capture.md)  
  
