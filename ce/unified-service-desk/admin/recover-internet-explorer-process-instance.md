@@ -32,7 +32,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 ### Disable IEWebPageRecovery option
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -106,7 +106,7 @@ If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeout** 
 
 To change the **IEWebPageInactivityTimeout** timeout value:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -146,7 +146,7 @@ After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_s
 
 To change the keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 

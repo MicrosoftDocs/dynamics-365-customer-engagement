@@ -29,7 +29,7 @@ search.app:
 ---
 
 # Updating the solution
-Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  
+Read this topic only if you have an existing installation of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] from the previous release of the Common Data Service platform, and want to update to the [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] release.  
   
  If you’re installing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for the first time, you can skip this topic.  
   
@@ -38,7 +38,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
  If you’re unsure whether you need to update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] installation, check the following versions to be sure.  
   
 ### Check the Unified Service Desk solution version  
- In your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, navigate to **[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps** > **Settings** > **Solutions**. If the version numbers of the solutions match those in the table, you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and don’t need to update.  
+ In your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, navigate to **the Common Data Service platform** > **Settings** > **Solutions**. If the version numbers of the solutions match those in the table, you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and don’t need to update.  
   
 |Solution name|Version|  
 |-------------------|-------------|  
@@ -65,7 +65,7 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
   
      For example, if you currently have Base package installed, you must navigate to the USDPackageDeployer\BasePackage folder to find the solution files for updating. Similarly, navigate to the USDPackageDeployer\CRM2013SP1Package folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] package, to the USDPackageDeployer\CRM2013SP1withProductUpdatesPackage folder if you have the [!INCLUDE[pn_crm_2013_sp_shortest](../../includes/pn-crm-2013-sp-shortest.md)] with Product Updates package, and USDPackageDeployer\ParatureKnowledgeManagementPackage folder if you have the Knowledge Management package.  
   
-5. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+5. Sign in to the Common Data Service platform.  
   
 6. Go to **Settings** > **Solutions**.   
   

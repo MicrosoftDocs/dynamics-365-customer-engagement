@@ -1,5 +1,5 @@
 ---
-title: "Configure client caching in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Configure client caching in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set client caching."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 4aab0a03-2d52-4ced-b6cf-9694d1edbdb7
 author: kabala123
 ms.author: kabala
@@ -32,11 +26,11 @@ monikerRange: ">=dynamics-usd-4.1"
 Client caching enables you to reduce the amount of bandwidth required at the startup of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client on the call center agent’s computers, and over the life cycle of the client application. Client caching provides a means to cache the majority of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data locally on the call center agent’s computer, thereby reducing the need for common data to be retrieved from the server. This capability provides a noticeable increase in the startup performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
 > [!IMPORTANT]
->  This feature has privacy impact because enabling client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] leads to some of your data being stored locally on the user’s computer, which is outside the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps services boundary.  
+>  This feature has privacy impact because enabling client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] leads to some of your data being stored locally on the user’s computer, which is outside the model-driven apps services boundary.  
   
 <a name="WhenToUse"></a>   
 ## When should you use client caching?  
- Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
+ Client caching can provide a significant improvement in startup times, a reduction in overall bandwidth, and a significant reduction in queries to the the Common Data Service platform server for common [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data.
   
  Client caching is best employed in performance testing, training, and production environments. It isn’t recommended for development environments because changes are only replicated when the control cache key is updated.  
   
@@ -57,7 +51,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 <a name="EnableCaching"></a>   
 ## Enable client caching  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -87,7 +81,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 ## Disable client caching for a specific user  
  At times it may be necessary to exclude some users from client caching such as limited testing of new configurations in production, production, or troubleshooting where a cache problem is suspected, or the need to do rapid updates to a configuration where you want to revert your changes back to the currently cached objects.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -114,7 +108,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 <a name="UsingCRMServer"></a>   
 ### Using the Dynamics 365 Customer Engagement server  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -141,7 +135,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
 ### Using the Unified Service Desk client  
  You can invoke a reset from the client application using a hidden UII action called **ResetLocalCache** on the **Global Manager** hosted control type. You’ll need to create the UII action on the Global Manager hosted control type before you can use it.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   

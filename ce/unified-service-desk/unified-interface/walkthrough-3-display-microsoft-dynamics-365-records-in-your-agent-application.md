@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application
-This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps records in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
+This walkthrough demonstrates how to display the Common Data Service platform records in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
 
 ## Prerequisites  
 
@@ -64,7 +64,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
 ## Step 1: Create CRM Page type of hosted controls to display account and contact records  
  In this step, you’ll create two hosted controls of **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps Page** type to display the account and contact records respectively.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -110,7 +110,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
 ## Step 2: Create a toolbar container type of hosted control  
  Toolbar Container type of hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -134,7 +134,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
 ## Step 3: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -308,7 +308,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
 
  To add a control to the configuration:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 

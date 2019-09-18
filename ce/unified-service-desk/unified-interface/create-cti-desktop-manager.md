@@ -50,7 +50,7 @@ The CTI Desktop Manager component is the interface between the computer telephon
   
 <a name="CustLookup"></a>   
 ## Raise a search request when a call arrives  
- When a new call arrives, you can invoke a search request to look up the automatic number identification (ANI) number in a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps repository, get extra information, such as first name, last name, and so on, and create a session. [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] provides the [CtiLookupRequest](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) class that describes a customer lookup request that the CTI system sends to a customer search provider. This class describes common data elements that the CTI system will provide. It also gives you the ability to add custom data to the request.  
+ When a new call arrives, you can invoke a search request to look up the automatic number identification (ANI) number in a the Common Data Service platform repository, get extra information, such as first name, last name, and so on, and create a session. [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] provides the [CtiLookupRequest](https://docs.microsoft.com/dotnet/api/microsoft.uii.desktop.cti.core.ctilookuprequest) class that describes a customer lookup request that the CTI system sends to a customer search provider. This class describes common data elements that the CTI system will provide. It also gives you the ability to add custom data to the request.  
   
  The customer lookup or search is implemented depending on whether you are searching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] or UII:  
   
@@ -123,7 +123,7 @@ public override void OnCallStateChanged(CtiCoreEventArgs e)
 ## Configure CTI Desktop Manager hosted control in Unified Service Desk  
  After you have created the CTI Desktop Manager along with your CTI connector, you must configure these as hosted controls in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a hosted control of type **CTI Desktop Manager**  that can be used to configure your CTI Desktop Manager in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The CTI Connector should be configured as a [!INCLUDE[pn_uii_acronym](../../includes/pn-uii-acronym.md)] hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure a hosted control for CTI Connector in Unified Service Desk](../../unified-service-desk/create-cti-connector.md#Configure)  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement apps** > **Settings** > **Unified Service Desk**.  
   

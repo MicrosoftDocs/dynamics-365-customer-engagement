@@ -29,7 +29,7 @@ monikerRange: ">=dynamics-usd-4.1"
 ---
 # Understand Unified Service Desk concepts
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable and extensible framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps instance and external applications. You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps and external applications into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agent immediate access to business critical information so they can effectively engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [What makes up Unified Service Desk](admin/overview-unified-service-desk.md#USD) and [Call center challenges and how Unified Service Desk can help](admin/call-center-challenges-how-unified-service-desk-can-help.md) in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administration Guide.  
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable and extensible framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in the Common Data Service platform instance and external applications. You can aggregate customer information from different areas in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps and external applications into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agent immediate access to business critical information so they can effectively engage with customers and address queries and issues. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [What makes up Unified Service Desk](admin/overview-unified-service-desk.md#USD) and [Call center challenges and how Unified Service Desk can help](admin/call-center-challenges-how-unified-service-desk-can-help.md) in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administration Guide.  
   
  To develop an agent application using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you can directly configure the  [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities in your Customer Engagement instance, which does not require you to write code. To integrate with external applications, you can write code to extend [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
@@ -54,7 +54,7 @@ A system administrator must configure the option on **Active UII Options** page 
 
 To change the **TotalRecordCountLimit** timeout value:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the down arrow next to Dynamics 365.
 

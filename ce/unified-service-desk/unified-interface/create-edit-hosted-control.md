@@ -28,9 +28,9 @@ search.app:
   - D365USD
 ---
 # Create or edit a hosted control
-You create or edit an existing hosted control using [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. The controls in the new hosted control page differ based on the type of hosted control you create.  
+You create or edit an existing hosted control using the Common Data Service platform. The controls in the new hosted control page differ based on the type of hosted control you create.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   

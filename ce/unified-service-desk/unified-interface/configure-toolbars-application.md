@@ -34,7 +34,7 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/
 ## Create a toolbar  
  Before creating a toolbar, ensure that there is a toolbar container hosted control already configured. For more information, see [Toolbar Container (Hosted Control)](../../unified-service-desk/toolbar-container-hosted-control.md).  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -86,7 +86,7 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/
 
 ## Add/remove button from existing toolbar  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   

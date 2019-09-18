@@ -31,7 +31,7 @@ The topic demonstrates how to create Channel Integration Framework type of hoste
 
 ## Create hosted control
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. On the nav bar, choose the down arrow (v) next to **Dynamics 365**.
 

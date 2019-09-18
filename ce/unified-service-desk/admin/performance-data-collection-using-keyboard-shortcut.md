@@ -130,7 +130,7 @@ To change the default keyboard shortcut, a System Administrator needs to configu
 
 To configure a new performance data collection keyboard shortcut:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
  

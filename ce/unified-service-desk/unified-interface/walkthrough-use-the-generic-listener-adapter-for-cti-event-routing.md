@@ -31,7 +31,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
  In this walkthrough, you’ll:  
   
-- Search for a contact record in the sample [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps data based on an email address specified in the sample CTI Call Tester application.  
+- Search for a contact record in the sample the Common Data Service platform data based on an email address specified in the sample CTI Call Tester application.  
   
 - Create a window navigation rule to display the matching record in a session in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   
@@ -49,7 +49,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 <a name="step1"></a>   
 ## Step 1: Configure a CTI Desktop Manager hosted control in Unified Service Desk  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
   
@@ -93,7 +93,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
 ## Step 3: Define a window navigation rule to route the CtiLookUpRequest  
  Create a window navigation rule to create a session if a match is found, and then display the matching contact record in a session in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. Navigate to the advanced find for contacts, and create a query where you search for active contacts where the email, email address 2, or email address 3 field equals a certain value, for example, someone_c@example.com.  
   

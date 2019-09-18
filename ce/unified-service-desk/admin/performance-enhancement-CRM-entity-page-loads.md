@@ -60,7 +60,7 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 To enable Internet Explorer pooling:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -94,7 +94,7 @@ By default, Chrome Process pooling is enabled. To disable the pooling, a System 
 
 To disable Chrome Process pooling:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -118,7 +118,7 @@ If you want to skip the inline navigation for certain entities such as incident,
 
 To skip inline navigation for certain entities, a system Administrator must configure the option on the **Active UII Options** page and the entity names as the comma separated values (CSV).
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -151,7 +151,7 @@ See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspo
 
 Use the **HideCommandBar** UII option if you want to hide the command bar for all the entities in the Chrome Process pooled instances.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -184,7 +184,7 @@ See [Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspo
 
 Use the **ShowNavBar** UII option if you want to show the nav bar for all the entities in the Chrome Process pooled instances.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 
@@ -223,7 +223,7 @@ By default, second inline navigation is blocked when using Chrome Process. That 
 
 After the adding UII option, and if you set the value as **True**, then the option is enabled and blocks the second inline navigation.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
 

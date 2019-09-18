@@ -85,7 +85,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 4. Open the **USDPackageDeployer** > **NewEnvironment** folder and locate the **USDUnifiedInterfaceCustomization_1_0_managed** solution.
 
-5. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+5. Sign in to the Common Data Service platform.
 
 6. Go to **Settings** > **Solutions**.
 
@@ -109,7 +109,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 If you deploy the sample package or import the solution, in either way you can find the Administrator app by following these steps:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Select the drop-down arrow next the **Dynamics 365 Customer Engagement** and select **Unified Service Desk Administrator** app.
 

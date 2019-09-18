@@ -27,7 +27,7 @@ search.app:
   - D365USD
 ---
 # Session management in Unified Service Desk
-Whenever you search for customer information in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], the system fetches the information from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, and stores it in a session. The information about the session and the fetched customer record is stored in the session context. You can view information about the session and the session context in the **$Session** and **$Context** parameters in the **Debugger** hosted control.  
+Whenever you search for customer information in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], the system fetches the information from the Common Data Service platform, and stores it in a session. The information about the session and the fetched customer record is stored in the session context. You can view information about the session and the session context in the **$Session** and **$Context** parameters in the **Debugger** hosted control.  
   
  Each session in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is displayed in a tab in the main screen, and you can identify a session using the *session name* displayed on the tab. An area of the screen just below the tab displays information related to the customer. This section is called the *session overview* area, and can contain XAML markup that displays UI elements such as text boxes, buttons, or links. Both of these areas can display any information from either the session context or data from displayed windows, CTI search results, or entity searches that have executed.  
   
@@ -35,7 +35,7 @@ Whenever you search for customer information in [!INCLUDE[pn_unified_service_des
 ## Session and context information  
  Let us see how the session and context data is stored in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] when you search for customer information.  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform.  
   
 2. Click **Search** in the toolbar, and then click an account name to search for it.  
   

@@ -28,7 +28,7 @@ search.app:
 ---
 
 # Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) record in a session in your agent application
-This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
+This walkthrough demonstrates how to display the Common Data Service platform records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   
@@ -65,7 +65,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
 ## Step 1: Create a session-scoped hosted control to display account record in a session  
  In this step, you’ll create a session-scoped hosted control to display an account record in a session.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -138,7 +138,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
 ## Step 4: Create a window navigation rule to display the account record in a session  
  In this step, you’ll create a window navigation rule that displays the record in a session when the user clicks on any of the accounts in the search results window.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -182,7 +182,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
   
  To add a control to the configuration:  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   

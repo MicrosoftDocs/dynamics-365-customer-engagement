@@ -37,7 +37,7 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
 <a name="StartActionCall"></a>   
 ## Start from the action call  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 

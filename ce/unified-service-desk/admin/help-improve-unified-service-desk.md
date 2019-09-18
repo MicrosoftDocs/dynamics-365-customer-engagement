@@ -62,7 +62,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 <a name="Disable_ImproveUSD"></a>   
 ## Disable sending improvement program information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] anonymously
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
+1. Sign in to the Common Data Service platform as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
   
 2. Go to **Settings** > **Unified Service Desk.**
   
@@ -79,7 +79,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 <a name="Enable_ImproveUSD"></a>   
 ## Enable sending improvement program information to Microsoft anonymously  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
+1. Sign in to the Common Data Service platform as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
   
 2. Go to **Settings** > **Unified Service Desk**.
   

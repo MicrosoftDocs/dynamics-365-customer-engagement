@@ -1,5 +1,5 @@
 ---
-title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Administer and manage Unified Service Desk | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: c9f6c25c-4e52-4958-a166-9c0943767768
 author: kabala123
 ms.author: kabala

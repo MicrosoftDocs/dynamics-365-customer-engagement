@@ -27,7 +27,7 @@ search.app:
   - D365USD
 ---
 # Walkthrough 1: Build a simple agent application
-This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that can connect to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.  
+This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that can connect to the Common Data Service platform. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.  
   
 ## Prerequisites  
   
@@ -59,7 +59,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 1: Create the basic hosted controls  
  Create the following three types of hosted control so that the application can connect to an instance of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps: Connection Manager, Global Manager, and Panel Type.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   
@@ -116,7 +116,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 2: Add the hosted controls to a configuration  
  A configuration in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you filter access to components that are displayed in the agent application to a user. In this step, create a configuration, and then add the hosted controls created earlier to the configuration.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   

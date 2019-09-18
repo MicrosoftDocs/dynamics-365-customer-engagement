@@ -45,9 +45,9 @@ search.app:
   
 2. Save the file with the language identifier in the file name. For example, if you have Spanish resources, you can save the file with the name “TranslationResource.es.xml.”  
   
-3. Upload the file as a web resource to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. Name the web resource so that you can identify the language of the string resources in it.  
+3. Upload the file as a web resource to the Common Data Service platform. Name the web resource so that you can identify the language of the string resources in it.  
   
-   1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+   1. Sign in to the Common Data Service platform.  
   
    2. Go to **Settings** > **Customizations** ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636))  
   

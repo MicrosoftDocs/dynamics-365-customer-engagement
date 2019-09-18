@@ -57,7 +57,7 @@ search.app:
 <a name="Create"></a>   
 ## Create a Unified Service Desk configuration  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, select **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
   
@@ -92,7 +92,7 @@ search.app:
   
 ### Set a configuration as the default  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, select **Main** > **Settings** > **Unified Service Desk**.  
   
@@ -106,7 +106,7 @@ search.app:
 ## Associate auditing and diagnostics with a configuration  
  When you associate an Audit & Diagnostics record with a configuration, only the auditing and diagnostics events specified in the Audit & Diagnostics record are logged, and only for users who are assigned to the configuration. The following procedure describes how to associate an existing Audit & Diagnostics record with a configuration. For information about how to create an Audit & Diagnostics record, see [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md).  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, select **Main** > **Settings** > **Unified Service Desk**.  
   
@@ -122,7 +122,7 @@ search.app:
 ## Assign users to a Unified Service Desk configuration  
  After you create a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration, you can assign users to it. The users assigned to a configuration can only access components in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application that are added to the configuration.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, select **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
   
@@ -162,7 +162,7 @@ search.app:
   
 ### Clone a configuration  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, select **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
   

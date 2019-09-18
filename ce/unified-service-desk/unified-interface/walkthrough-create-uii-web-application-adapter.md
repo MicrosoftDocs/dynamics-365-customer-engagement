@@ -27,7 +27,7 @@ search.app:
   - D365USD
 ---
 # Walkthrough: Create a UII Web Application Adapter
-You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps provides a [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
+You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. the Common Data Service platform provides a [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
 
  In this walkthrough, you’ll build an external web application called `QsWebApplication` and host it in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. You’ll then create and configure a web application adapter called `MyWebApplicationAdapter` for the external web application to interact with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The web application has four labels, one each for the customer’s first name, last name, address, and ID and four corresponding text boxes to display the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] values.  
 
@@ -60,7 +60,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureExApp"></a>   
 ## Step 2: Configure the web application in Dynamics 365 Customer Engagement apps
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -193,7 +193,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureWebAdapter"></a>   
 ## Step 5: Configure the web application adapter in Dynamics 365 Customer Engagement apps  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
 
@@ -223,7 +223,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Copy the assembly that contains your web application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the Unified Service Desk application directory. In this case, you’ll copy the MyWebApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
 
-2. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your the Common Data Service platform server.  
 
 3. On successful sign in, you will see the sample external web application button on your desktop.  
 

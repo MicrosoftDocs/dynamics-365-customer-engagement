@@ -26,7 +26,7 @@ search.app:
   - D365USD
 ---
 # Hosted control types, actions, and events in Unified Service Desk
-There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps, you create a hosted control of the **Connection Manager** type. To display data from a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps page, you create a hosted control of the **CRM Page** type.  
+There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to the Common Data Service platform, you create a hosted control of the **Connection Manager** type. To display data from a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps page, you create a hosted control of the **CRM Page** type.  
   
 > [!NOTE]
 >  The **Ribbon Hosted Control** type is for internal use only. You must not use this hosted control type in your agent applications.  

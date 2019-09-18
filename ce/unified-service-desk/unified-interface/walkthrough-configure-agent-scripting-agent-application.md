@@ -77,7 +77,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 ## Step 1: Create an Agent Scripting type of hosted control  
  An instance of the **Agent Scripting** type of hosted control must be available in your agent application to display agent scripts.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -141,7 +141,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 ## Step 3: Create an agent script task  
  Create an agent script task to display when an account record is displayed in a session.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -332,7 +332,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 ## Step 7: Create an action call to display the agent script  
  In this step, create an action call to display the agent script.  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -357,7 +357,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 ## Step 8: Display the agent script when the account record is displayed in a session  
  In this step, add the action call created in the previous step to the **BrowserDocumentComplete** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -400,7 +400,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-
 
  To add a control to the configuration:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 

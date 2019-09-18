@@ -28,7 +28,7 @@ search.app:
   - D365USD
 ---
 # Integrate with Citrix applications in Unified Service Desk
-Integrate your [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client while working on the customer data in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
+Integrate your [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] applications with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by hosting them in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. This enables customer service agents to interact with the [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] applications from within the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client while working on the customer data in the Common Data Service platform. You can configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. More information: [Software requirements for Citrix XenApp application virtualization](admin/unified-service-desk-system-requirements.md#software-requirements-for-citrix-xenapp-application-virtualization)  
   
  The [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] application hosted  in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client uses the Independent Computing Architecture (ICA) protocol to remotely communicate with the application on a [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] server. A Citrix .ica file contains information to connect to the remote server  such as the server address, session properties, and authentication information.  
   
@@ -61,7 +61,7 @@ Integrate your [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] applications w
 <a name="ConfRemoteHosted"></a>   
 ### Configure a Remote Hosted Application  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
   

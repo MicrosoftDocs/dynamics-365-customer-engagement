@@ -33,7 +33,7 @@ A [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-i
   
 ## Create a hosted application  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the navigation bar, click or tap **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
   
