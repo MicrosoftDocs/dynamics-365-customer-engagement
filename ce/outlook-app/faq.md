@@ -31,7 +31,7 @@ Yes, here is the list known issues:
 
 For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 apps Readme](../admin/readme-9.md). 
 
-## I am having authentication issues with Dynamics 365 App for Outlook while using Dynamics 365 on-premises and Active Directory Federation Services. What can I do to resolve it?
+## I am having authentication issues with Dynamics 365 App for Outlook while using Dynamics 365 Customer Engagement (on-premises) and Active Directory Federation Services. What can I do to resolve it?
 
 If you have enabled Internet-facing deployment on the Microsoft Dynamics 365 Server and Configure the AD FS and still have issues with authentication then do the following:
 
