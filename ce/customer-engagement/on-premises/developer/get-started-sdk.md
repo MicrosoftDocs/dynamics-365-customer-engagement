@@ -72,14 +72,8 @@ The Dynamics 365 Customer Engagement (on-premises) Web Services provide many opt
 
  Form scripts provide a way to automate business processes, ensure data entered is valid, or just improve people’s experience when working in forms. Form scripts are written in [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and are added to Dynamics 365 Customer Engagement (on-premises) as *web resources*. You can learn more about how to create web resources in the application at [Create and edit web resources](../customize/create-edit-web-resources.md). For more detailed information, see [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md).
 
-<!-- ../customize/use-the-form-editor.md#BKMK_EventHandlers not available using https://technet.microsoft.com/library/dn531185.aspx#BKMK_EventHandlers until-->
  Form scripts respond to events in the form. You can configure event handlers for many form events in the application using the form editor. To learn how to do that see [Use the form editor : Configure event handlers](https://technet.microsoft.com/library/dn531185.aspx#BKMK_EventHandlers). Detailed information for form script developers is in [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md). For information about the events and the object model used when writing forms, see the [Client API Reference](clientapi/reference.md).
 
-<a name="bkmk_mobileApps"></a>
-
-## Create a mobile application that uses data in Dynamics 365 Customer Engagement (on-premises)
-
- [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview) contains information to get you started with mobile app development on the PowerApps platform.
 
 <a name="bkmk_windowsClient"></a>
 
@@ -104,4 +98,3 @@ The Dynamics 365 Customer Engagement (on-premises) Web Services provide many opt
 [Manage your deployment of Customer Engagement (on-premises)](manage-deployment.md)<br />
 [Sample code directory for the Customer Engagement (on-premises) SDK](sample-code-directory.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](programming-reference.md)<br />
-[Connected Field Service Developer Guide](connected-field-service-developer-guide.md)<br />
