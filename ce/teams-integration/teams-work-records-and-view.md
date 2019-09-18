@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
+  - Dynamics 365 apps
 ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
 caps.latest.revision: 1
 author: mduelae
@@ -25,12 +25,12 @@ search.app:
 
 Once Team integration is set up, you can start working with Dynamics 365 customer information and share files directly from Microsoft Teams.
 
-## Open a record or view in Dynamics 365 for Customer Engagement apps
+## Open a record or view in Dynamics 365 apps
 
-It's easy to use Teams to open a record or view in Dynamics 365 for Customer Engagement apps. From the Dynamics 365 tab pinned in a Teams channel, select the **Go to website** button to open the record or view in Dynamics 365 for Customer Engagement apps.
+It's easy to use Teams to open a record or view in Dynamics 365 apps. From the Dynamics 365 tab pinned in a Teams channel, select the **Go to website** button to open the record or view in Dynamics 365 apps.
 
 > [!div class="mx-imgBorder"] 
-> ![Open a record in Dynamics 365 for Customer Engagement apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 for Customer Engagement apps")
+> ![Open a record in Dynamics 365 apps](media/teams-open-record-d365.png "Open a record in Dynamics 365 apps")
 
 ## Have a conversation
 You can chat with your team members side-by-side with the Dynamics 365 tab. From the Dynamics 365 tab pinned in a Teams channel, select the **Show tab converation** button to open the conversation tab.
@@ -44,7 +44,7 @@ You can chat with your team members side-by-side with the Dynamics 365 tab. From
 > [!div class="mx-imgBorder"] 
 > ![Shared files in multiple locations](media/teams-error-multiple-locations.png "Shared files in multiple locations")
 
-When there is more than one Microsoft Teams channel connected to a Dynamics 365 for Customer Engagement apps record, each of the channels appears as a separate document location in Dynamics. You can switch to a different location by selecting **Document Location** to specify the location of the file.
+When there is more than one Microsoft Teams channel connected to a Dynamics 365 apps record, each of the channels appears as a separate document location in Dynamics. You can switch to a different location by selecting **Document Location** to specify the location of the file.
 
 > [!div class="mx-imgBorder"] 
 > ![Change document location](media/teams-change-document-location.png "Change document location")
@@ -102,7 +102,7 @@ Currently, the following record types only support Microsoft Teams collaborate c
 -	Team
 -	Work Order
 
-If not enabled, users can still connect Dynamics 365 for Customer Engagement apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 for Customer Engagement apps.
+If not enabled, users can still connect Dynamics 365 apps records to Microsoft Teams but the connected Microsoft Teams channel and the file library do not appear in Dynamics 365 apps.
 
 When the feature is enabled, the collaboration feature is enabled only for a selected set of system entities. If you want to enable Microsoft Teams integration for additional entities or custom entities, you can only do it programmatically using the **msdyn_SetTeamsDocumentStatus** Web API action. More information: [Enable or disable Microsoft Teams Integration using code](../developer/integration-dev/teams-integration-using-code.md)
 
