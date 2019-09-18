@@ -74,7 +74,7 @@ namespace Microsoft.Crm.Sdk.Samples.HelperCode
 {  
     /// <summary>  
     /// Manages user authentication with the Dynamics CRM Web API (OData v4) services. This class uses Microsoft Azure  
-    /// Active Directory Authentication Library (ADAL) to handle the OAuth 2.0 protocol.   
+    /// Active Directory Authentication Library (ADAL v2) to handle the OAuth 2.0 protocol.   
     /// </summary>  
     public class Authentication  
     {  
