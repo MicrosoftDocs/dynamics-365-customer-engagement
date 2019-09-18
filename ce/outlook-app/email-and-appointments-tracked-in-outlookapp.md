@@ -24,10 +24,10 @@ search.app:
 # Ensure emails and appointments are tracked with a Regarding record in Dynamics 365 App for Outlook
 
 
-Dynamics 365 App for Outlook allows people to track emails and appointments from Outlook to Dynamics 365 Customer Engagement apps. There are two options to track: 
+Dynamics 365 App for Outlook allows people to track emails and appointments from Outlook to Dynamics 365 apps. There are two options to track: 
 
--	Track the email/appointment to Dynamics 365 without **Regarding**.
--	Track the email/appointment to Dynamics 365 with **Regarding**, so the communication is associated to a specific record.
+-	Track the email/appointment to Dynamics 365 apps without **Regarding**.
+-	Track the email/appointment to Dynamics 365 apps with **Regarding**, so the communication is associated to a specific record.
 
 
 With the OrgDBOrgSetting [OverrideTrackInCrmBehaviour](https://support.microsoft.com/en-us/help/2691237/orgdborgsettings-tool-for-microsoft-dynamics-crm), ensure that everyone in your organization who has App for Outlook always tracks the email/appointment with a Regarding record.
