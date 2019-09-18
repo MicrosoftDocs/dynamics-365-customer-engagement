@@ -149,26 +149,31 @@ Next, enter other requirement details such as skills, roles, resource preference
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-no-work-order.png)
 
-Requirement details are automatically created based on the duration and the allocation method to split up the requirement into time segments. In our example in the image below, a 30 hour requirement split up between 5 days  
+Requirement details are automatically created based on the duration and the allocation method to split up the requirement into time segments. In our example in the image below, a 30 hour requirement split up between 5 days, is 6 hours or 360 minutes each day.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-requirement-details.png)
 
+The requirement details are based on the requirement's calendar, which you can edit by selecting **Modify Calendar** in the top ribbon of the requirement.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-modify-calendar.png)
 
+Then select **Book** to trigger the schedule assistant for this multi-day requirement.
+
+Resources with availability and that meet the other attributes will show as results. Simply select a resource, the dates, and then book.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant.png)
 
+Once booked, you'll see the resource's availability decrease and the fulfilled duration increase. In our example, 30 hours of duration were fulfilled, 6 of 6 hours booked each day; and the resources 8 hours of availability was reduced to 2 hours each day.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
 
 
 > [!Note]
-> to create a multiday work order, create a new requirement related to the work order
+> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant you'll need to manually add a related requirement to a work order and delete or disregard the automatically created one. This is because you need to set an allocation method before saving and the requirements work orders automatically create do not allow you to do this.
 
 
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
