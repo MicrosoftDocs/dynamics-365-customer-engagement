@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk  - New Environment package | MicrosoftDocs"
+title: "Unified Service Desk - New Environment package | MicrosoftDocs"
 description: "Overview of the New Environment sample application."
 keywords: 
 ms.date: 08/17/2018
@@ -8,13 +8,6 @@ ms.service:
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-  - Dynamics CRM Online
 ms.assetid: 79001344-0a15-4459-8381-14a8fb9ca380
 author: kabala123
 ms.author: kabala
@@ -34,7 +27,7 @@ search.app:
   
  This package is best used in the following situations:  
   
-- the Common Data Service platform organizations that do not already have a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution installed and need a basic starter solution, which  enables [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] customizers and developers  to add their own customizations and data.  
+- The Common Data Service platform organizations that do not already have a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution installed and need a basic starter solution, which  enables [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] customizers and developers  to add their own customizations and data.  
   
   With the Unified Service Desk New Environment sample application package, the following components are installed:  
   
@@ -42,7 +35,7 @@ search.app:
   
 - Unified Service Desk Solution
 
-::: moniker range="dynamics-usd-4"
+::: moniker range=>"dynamics-usd-4"
 
 - Customizations for the Common Data Service platform Unified Interface package
 

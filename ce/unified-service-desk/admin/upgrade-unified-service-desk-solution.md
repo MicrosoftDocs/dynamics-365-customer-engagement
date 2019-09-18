@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 46250912-52bc-45dc-914b-a77b32fc27c4
 author: kabala123
 ms.author: kabala
@@ -37,7 +31,7 @@ You can upgrade an existing Unified Service Desk sample application package to t
   
 3. In the Package Deployer window, click **Continue**.  
   
-4. On the Connect to Microsoft Dynamics 365 Customer Engagement apps page, connect to the organization that you want to upgrade the current [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution.  
+4. Connect to the organization that you want to upgrade the current [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution.  
   
 5. Under Select the import package to use, click **Unified Service Desk – Upgrade**, and then click **Next**.  
   

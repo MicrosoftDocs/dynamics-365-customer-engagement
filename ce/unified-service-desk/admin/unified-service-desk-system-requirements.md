@@ -8,12 +8,6 @@ ms.service:
 ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: get-started-article
-applies_to:
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 8a0e7dc4-5d32-412a-ae72-b6ce010c1c85
 author: kabala123
 ms.author: kabala
@@ -100,5 +94,5 @@ After you enable the Web Client experience, go to the Window Navigation Rules an
 
 ## See also  
  [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)   
- [Deploy Unified Service Desk packages to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+ [Deploy Unified Service Desk packages to a Common Data Service platform using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)

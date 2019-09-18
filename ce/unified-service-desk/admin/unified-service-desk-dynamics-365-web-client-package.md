@@ -9,13 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-  - Dynamics CRM Online
 ms.assetid: 1a69d545-24d2-4009-814d-0f9837732bea
 author: kabala123
 ms.author: kabala
@@ -33,7 +26,7 @@ search.app:
   
 - To demonstrate the rich set of customer service capabilities in the Common Data Service platform and simplify the customization of your agent desktop application.  
   
-  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 Customer Engagement apps Web Client sample application package, the following components are installed:  
+  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample application package, the following components are installed:  
   
 - User Interface Integration Solution  
   
@@ -51,11 +44,11 @@ search.app:
 >  The sample applications aren't supported for production use.  
   
   
- Here’s what you’ll see when you install the Dynamics 365 Customer Engagement apps Web Client package:  
+ Here’s what you’ll see when you install the Web Client package:  
   
 1. Left Nav: Opens the left navigation area that you can open or collapse.  
   
-2. Dashboards: Opens the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customer service dashboard.  
+2. Dashboards: Opens the customer service dashboard.  
   
 3. My Work: Shows a list of all active cases assigned to a service rep.  
   
