@@ -50,23 +50,23 @@ All of the  above steps need to be comepleted for all imcluded folders and files
 > [!div class="mx-imgBorder"] 
 > ![IIS Manager](media/iis.png "IIS Manager")
 
-## What does this notification mean, Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 data?
+## What does this notification mean, Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 apps data?
 
-When you use Dynamics 365 App for Outlook, you might see this notification, **Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 data**.
+When you use Dynamics 365 App for Outlook, you might see this notification, **Track and Set Regarding are currently disabled. To use these features, please contact your admin. You can still view and interact with your Dynamics 365 apps data**.
 
 > [!div class="mx-imgBorder"] 
 > ![Outlook app notification](media/serversidesync.png "Outlook app notification")
 
-Dynamics 365 App for Outlook leverages server-side synchronization to keep your Exchange items in sync with Dynamics 365. For example, if you track a meeting in Outlook, then the App for Outlook relies on server-side synchronization to create the activity in Dynamics 365 and keep the two items in sync.
+Dynamics 365 App for Outlook leverages server-side synchronization to keep your Exchange items in sync with Dynamics 365 apps. For example, if you track a meeting in Outlook, then the App for Outlook relies on server-side synchronization to create the activity in Dynamics 365 apps and keep the two items in sync.
 
 If server-side synchronization is inactive on your mailbox, then you will not have the ability to track and set regarding on emails and appointments.
 
-With the recent update, instead of blocking you from using App for Outlook, you now can view your Dynamics 365 information such as, accounts, contacts, and activities. You can continue to create, update and manage your information since it not related to synchronization.
+With the recent update, instead of blocking you from using App for Outlook, you now can view your Dynamics 365 apps information such as, accounts, contacts, and activities. You can continue to create, update and manage your information since it not related to synchronization.
 
 To fix issues with server-side synchronization, contact your administrator, who can view the status of the service and take necessary steps to address the issue.
 
 ## Dynamics 365 App for Outlook does not display the recipient picker and instead displays a different dashboard. How do I switch it back?
-Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365. For more information, see [Limitations when customizing Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/limitations-when-customizing-app-for-outlook#customizing-app-for-outlook-sitemap).
+Dynamics 365 Dynamics 365 App for Outlook landing page is a dashboard that is configured in the App Module named “App for Outlook”. An administrator or a system customizer will need to ensure that the default dashboard is correctly set in Dynamics 365 apps. For more information, see [Limitations when customizing Dynamics 365 App for Outlook](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/limitations-when-customizing-app-for-outlook#customizing-app-for-outlook-sitemap).
 
 ## When I open Dynamics 365 App for Outlook, I see a blue screen with errors related to Server-Side Synchronization. How do I recover from this?
 Currently, Dynamics 365 App for Outlook requires Server-Side Synchronization to be successfully set up on the Exchange mailbox. Depending on the scenario, you may see one of the following messages displayed.
@@ -79,7 +79,7 @@ This means that there is an issue with the Server-Side Synchronization settings 
 
 ## When I track or set the Regarding record on an email or an appointment in Outlook, it goes into a “Pending” state. Why?
 Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 via Server-Side Synchronization, which is an asynchronous service that runs in the background approximately every 15 minutes.
-The scenarios where an Outlook item is immediately tracked to Dynamics 365 is documented in the [Synchronization and tracking
+The scenarios where an Outlook item is immediately tracked to Dynamics 365 apps is documented in the [Synchronization and tracking
 ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide#synchronization-and-tracking) section of the user guide.
 
 ## As an administrator, when I go to the Dynamics 365 App for Outlook section in **Settings**, a user does not appear in the **All Eligible Users** list. 
@@ -91,17 +91,17 @@ For more information, see [Blank page appears within Dynamics App for Outlook](h
 > [!Note]
 > If the link above does not work in Internet Explorer (IE), please try using another browser.
 
-## Some of my appointments in Outlook and Dynamics 365 are cancelled or deleted unexpectedly. Why is this happening?
+## Some of my appointments in Outlook and Dynamics 365 apps are cancelled or deleted unexpectedly. Why is this happening?
 For more information, see [An appointment is cancelled or deleted unexpectedly when using Server-Side Synchronization](https://go.microsoft.com/fwlink/p/?linkid=2007027).
 
 ## I am unable to track contacts.
-For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
+For more information, see [Issue when trying to access Dynamics 365 apps within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586).
 
 ## I need help troubleshooting the App.
 For more information, see [Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=2007025).
 
-## The warning and error messages in Dynamics 365 are not in the language selected in Dynamics 365. Why?
-When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 language setting in order to be consistent with the host application experience.
+## The warning and error messages in Dynamics 365 apps are not in the language selected in Dynamics 365 apps. Why?
+When we display diagnostic information and some labels in contact tracking module in Dynamics 365 App for Outlook, we use the Office (Outlook) display language setting and not Dynamics 365 apps language setting in order to be consistent with the host application experience.
 
 ## We have defined a web resource on a form in Unified Interface. The web resource is not displayed in the form when opened in Dynamics 365 App for Outlook. Why?
 In general, web resources on Forms will not be rendered in App for Outlook as they require cookie authentication, which is currently only supported in browsers. An example of this type of JavaScript customization is XMLHttpRequest based ODATA API calls, which are not supported.
