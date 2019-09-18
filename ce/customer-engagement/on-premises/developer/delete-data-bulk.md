@@ -1,9 +1,9 @@
 ---
-title: "Delete data in bulk (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Delete data in bulk (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Helps maintain data quality and manage the consumption of system storage by deleting data that is no longer needed."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
+ms.date: 10/01/2019
+ms.reviewer: nabuthuk
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -60,7 +60,7 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 ## Run bulk delete
 
-To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. More information: [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete)  
+To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. To learn more, see [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete) in the Common Data Service documentation.
   
  <!--[BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)  
   
