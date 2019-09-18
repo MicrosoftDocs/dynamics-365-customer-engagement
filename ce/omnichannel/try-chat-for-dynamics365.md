@@ -43,7 +43,7 @@ With this option, you can sign-up for a free 30-day trial of Chat from the Micro
 
 3. You'll see **Dynamics 365 for Customer Service Chat Trial** under **Add-on**. 
     
-    ![Dynamics 365 Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 Customer Service Chat Trial option")
+    ![Dynamics 365 for Customer Service Chat Trial option](media/chat-add-on.png "Dynamics 365 for Customer Service Chat Trial option")
     
     > [!IMPORTANT]
     > You must already have a paid license of either Customer Service Enterprise or Customer Engagement Plan in your tenant that was purchased directly through the Microsoft 365 admin center (that is, Web Direct channel), otherwise the **Dynamics 365 for Customer Service Chat Trial** option won't be visible.
