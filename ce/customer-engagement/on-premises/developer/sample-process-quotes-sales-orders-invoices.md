@@ -1,5 +1,5 @@
 ---
-title: "Sample: Process quotes, sales orders and invoices (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Process quotes, sales orders and invoices (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to convert an opportunity that is won to a quote, then convert a quote to a sales order, and then convert a sales order to an invoice."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sales entities sample, converting opportunities to sales orders
   - quote; order; and invoice entities sample, locking and unlocking sales orders and invoice prices

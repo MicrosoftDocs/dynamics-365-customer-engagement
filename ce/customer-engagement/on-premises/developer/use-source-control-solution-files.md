@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e2ca3f4c-201e-4d7e-be0d-85eef2ce3e73
 caps.latest.revision: 15
 author: JimDaly
@@ -41,7 +41,7 @@ The SolutionPackager tool can be used with any source control system. After a so
   
 1. Developer A and B are both working on the same solution.  
   
-2. On independent computers, they both get the latest sources of the solution from source control, pack, and import an unmanaged solution .zip file into independent [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organizations.  
+2. On independent computers, they both get the latest sources of the solution from source control, pack, and import an unmanaged solution .zip file into independent [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organizations.  
   
 3. Developer A customizes the “Active Contacts” system view and the main form for the Contact entity.  
   

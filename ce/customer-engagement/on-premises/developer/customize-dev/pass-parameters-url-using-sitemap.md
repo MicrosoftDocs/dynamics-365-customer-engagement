@@ -1,5 +1,5 @@
 ---
-title: "Pass parameters to a URL using the SiteMap  (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Pass parameters to a URL using the SiteMap  (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about passing parameters to a URL using the SiteMap"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 979da39a-2d15-4564-84d8-86dd0bcf3c38
 caps.latest.revision: 23
 author: JimDaly

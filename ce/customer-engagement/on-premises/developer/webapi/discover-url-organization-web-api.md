@@ -1,5 +1,5 @@
 ---
-title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
 ms.date: 04/24/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2db13b4e-0e7c-4f25-b7be-70a612fb96e2
 caps.latest.revision: 18
 author: susikka
@@ -22,12 +22,12 @@ search.app:
 ---
 # Discover the URL for your organization using the Web API
 
-The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
+The Discovery service for the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API enables your applications to determine at run-time the organizations, also known as *instances*, that the logged-on user belongs to.  You can retrieve detailed information about those instances like the instance service URL, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] release version, the instance ID and more. You can use standard `$filter` and `$select` parameters to a Web API service request to customize the  returned list of instance data. The Discovery service is supported by all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] deployment types: Online, on-premises, and IFD.  
 
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 >
-> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Discover the URL for your organization using Web API](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api).
+> The documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the PowerApps documentation at: [Discover the URL for your organization using Web API](/powerapps/developer/common-data-service/webapi/discover-url-organization-web-api).
 
 Client applications may need access to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where the instance URL may change over time.  For example, when a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance is moved from one on-premises datacenter to another. The Discovery service allows clients instance to persist the instance ID or instance unique name and then use the Discovery service to look-up the current instance access URL.  
 <!--  

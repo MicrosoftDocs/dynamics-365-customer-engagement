@@ -1,6 +1,6 @@
 ---
 title: "Workflow and process entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "The Dynamics 365 for Customer Engagement workflow object model is a set of classes that uses the Windows Workflow Foundation object model and exposes Dynamics 365 for Customer Engagement workflow activities. These classes are found in the Microsoft.Xrm.Sdk.Workflow assembly."
+description: "The Dynamics 365 Customer Engagement workflow object model is a set of classes that uses the Windows Workflow Foundation object model and exposes Dynamics 365 Customer Engagement workflow activities. These classes are found in the Microsoft.Xrm.Sdk.Workflow assembly."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1b40f46a-31f1-4c2a-8e50-f3641b8d8973
 caps.latest.revision: 20
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Workflow and process entities
 
-The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps workflow object model is a set of classes that uses the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] object model and exposes [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps workflow activities. These classes are found in the `Microsoft.Xrm.Sdk.Workflow` assembly. For more information, see <xref:Microsoft.Xrm.Sdk.Workflow>.
+The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] workflow object model is a set of classes that uses the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] object model and exposes [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] workflow activities. These classes are found in the `Microsoft.Xrm.Sdk.Workflow` assembly. For more information, see <xref:Microsoft.Xrm.Sdk.Workflow>.
 
  Workflow activities are the elemental units of a workflow (process). They are added to a workflow (process) to form a hierarchical tree structure. When all activities in a given path are finished running, the workflow (process) instance is completed.
 

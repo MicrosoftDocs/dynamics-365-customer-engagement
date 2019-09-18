@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - retrieving and deleting changed-data history (audit history), new partitions created quarterly
   - partitions created quarterly for auditing, used by Microsoft Dynamics 365 and SQL Server with auditing

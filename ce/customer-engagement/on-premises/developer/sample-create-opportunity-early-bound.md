@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create an opportunity (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create an opportunity (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create an opportunity that contains a product from the product catalog."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - creating opportunities from products in the catalog, Sample
   - sample for creating opportunities from products in the catalog

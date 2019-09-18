@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 42dcebf5-a624-45b9-b719-20e5882d5ca2
 caps.latest.revision: 89
 author: JimDaly
@@ -20,9 +20,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Best practices for developing with Dynamics 365 for Customer Engagement
+# Best practices for developing with Dynamics 365 Customer Engagement
 
-This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps.  
+This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
 
 > [!IMPORTANT]
 >  Review [Supported extensions for Dynamics 365 Customer Engagement (on-premises)](supported-extensions.md) to learn about supported and unsupported techniques for customization.  
@@ -40,7 +40,7 @@ This topic describes best practices for customizing [!INCLUDE[pn_dynamics_crm_on
 ### Allow the system to create GUIDs 
 
  Allow the system to automatically assign the **GUID** (Id) for you instead of manually creating it yourself. This suggestion allows 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps to take advantage of sequential GUIDs, which provide better SQL performance. 
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take advantage of sequential GUIDs, which provide better SQL performance. 
 The following sample code shows how to call the <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*> method to obtain a system-assigned `GUID`.  
 
 ```csharp
@@ -116,10 +116,10 @@ Although a proxy server can act as a cache server and can help load a webpage fa
 Frequently, people avoid manual proxy configuration and use automatic proxy configuration. 
 This shortcut helps in load balancing the proxy servers, but depending on the complexity of the configuration script, a significant delay can be experienced when you use automatic proxy configuration.  
 
-When the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server is installed, you can bypass the proxy server to achieve better throughput. 
+When the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server is installed, you can bypass the proxy server to achieve better throughput. 
 
 The server offers a local web address that requires no proxy to be reached. You can select **Bypass proxy server for local addresses** and provide the fully qualified domain name of the 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server in the exceptions list. This gives better throughput when records are created by using the SDK assemblies.  
 
 <a name="caching"></a>
 
@@ -181,7 +181,7 @@ Or wrap the proxy classes in a new class. Another technique is to explicitly che
 <a name="CustomizationBestPractices"></a>
 
 ## Customization best practices
- The following best practices can help you customize and extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+ The following best practices can help you customize and extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
 ### Best practices for Dynamics 365 Customer Engagement (on-premises)
 
@@ -202,12 +202,12 @@ Customize a system entity, such as the opportunity entity, instead of replacing 
 
 ### When to use plug-ins vs. workflow?
 
-As a developer who is interested in extending or customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can choose from several methods to perform your tasks. 
+As a developer who is interested in extending or customizing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can choose from several methods to perform your tasks. 
 In addition to adding client-side JavaScript code to a form or adding custom ASP.NET pages, you can write a plug-in or create a custom workflow by using the web interface that calls a 
 custom workflow activity. How do you decide when to use a plug-in and when to use a workflow? The technology that you use depends on the task that you have to perform and who will author the customization.  
 
 For example, you must use a synchronous plug-in real-time workflow if you want to execute custom code immediately before or after the core platform operation executes and before the result of the operation is returned from the platform. You cannot use an asynchronous workflow or asynchronous plug-in in this situation because they are queued to execute after the core operation finishes 
-executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, workflows, custom workflow activities, and plug-ins are supported, but custom XAML workflows are not.
+executing. Therefore, you cannot predict when they will run. If you want to add custom functionality to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], workflows, custom workflow activities, and plug-ins are supported, but custom XAML workflows are not.
 
 Evaluate these technologies and select the one that best suits your business objectives after you consider the deployment, performance, and maintenance concerns of your plug-in or workflow solution.  
 
@@ -219,7 +219,7 @@ The following table summarizes the characteristics of plug-ins and workflows.
 |Execution before or after the core platform operation (Create, Update, Delete, and so on)|Executes immediately before or after the core operation (synchronous).<br /><br /> Can also be queued to execute after the core operation (asynchronous).|Asynchronous workflows are queued to execute after the core operation.<br /><br /> Real-time workflows have similar characteristics to plug-ins.|
 |Performance impact on the server| Synchronous plug-ins can increase the platform response time because they are part of the main platform processing.<br /><br /> Asynchronous plug-ins have less impact on server response time because the code is run in a different process. |Asynchronous workflows have less impact on server response time because the code is run in a different process.<br /><br /> Real-time workflows have similar performance characteristics to sandboxed plug-ins.  |
 | Security restrictions|To register a plug-in with the platform requires a System Administrator or System Customizer security role and membership in the Deployment Administrator group.|Users can interactively create workflows in the web application.<br /><br /> However, to register a custom workflow activity, the deploying user must have the same security roles as those required for registering plug-ins.|
-|[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps version (SKU) support | Supported in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps when registered in the sandbox. May be supported in partner-hosted installations at the discretion of the partner.|Workflows are supported by all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps deployment. Custom workflow activities are  supported in the sandbox of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps, and in or outside the sandbox for on-premises/IFD deployments. |
+|[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] version (SKU) support | Supported in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] when registered in the sandbox. May be supported in partner-hosted installations at the discretion of the partner.|Workflows are supported by all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployment. Custom workflow activities are  supported in the sandbox of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and in or outside the sandbox for on-premises/IFD deployments. |
 |Length of processing time |A plug-in registered for synchronous or asynchronous execution is restricted to complete its execution in a two-minute time limit. |  Works well for either short or long processes. However, each activity in a workflow cannot take longer than two minutes to complete.  |
 | Works when the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] client is offline |Both online and offline are supported. |Workflows do not execute when offline. |
 |Process and data persistence|  Plug-ins execute until they are completed. Plug-ins must be written to be stateless where no in-memory data is persisted.| Asynchronous workflows can be paused, postponed, canceled, and resumed through SDK calls or by the user through the web application. The state of the workflow is automatically saved before it is paused or postponed.<br /><br /> Real-time workflows cannot have any wait states. They must execute to completion just like plug-ins. |
@@ -232,7 +232,7 @@ There is no significant performance impact on the server between an asynchronous
 
 From a performance perspective, is it better to create a single long workflow or is it better to have multiple child workflows and call them in one parent workflow? 
 The child workflow approach achieves lower throughput, but it is more manageable if you frequently change your workflow definition. 
-Compilation overhead is not a major concern because the workflow is compiled only during publishing. However, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps incurs overhead when it starts each workflow instance. The overhead occurs when all entities that are used in the workflow are retrieved and the child workflow is started in a two-step 
+Compilation overhead is not a major concern because the workflow is compiled only during publishing. However, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] incurs overhead when it starts each workflow instance. The overhead occurs when all entities that are used in the workflow are retrieved and the child workflow is started in a two-step 
 process that includes a 'Workflow Expansion Task' and the actual workflow instance. Therefore, for maximum throughput, use a single long workflow.  
 
 ### How should you mark your custom workflow activity as completed?
@@ -258,20 +258,20 @@ you must create different security roles for each business unit and grant privil
 Follow these guidelines to help protect your business data.
 
 ### General
-Best practices for securing your implementation of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps include the following:
+Best practices for securing your implementation of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] include the following:
 
-- Establish an approved security data plan for your organization's [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps implementation.  
+- Establish an approved security data plan for your organization's [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] implementation.  
 - Assign the least privileges required when you set up your application pool.  
 - Require that all users use strong passwords for their accounts.
 
 <!-- This is an on-prem topic, not yet migrated. Put in a different link for a placeholder
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 for Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Considerations for Dynamics 365 Customer Engagement](https://technet.microsoft.com/en-us/library/hh699825.aspx)  
 -->
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security Concepts for Dynamics 365 Customer Engagement (on-premises)](../admin/security-concepts.md)  
 
 ### Roles, privileges, and access rights
 
-Best practices for use of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps security model include the following:
+Best practices for use of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] security model include the following:
 
 - Strictly limit the number of people assigned the System Administrator role. Never remove this role.  
 - Create roles according to the security best practice of least privilege, providing access to the minimum amount of business data required for the task. Assign users the appropriate role for their job.
@@ -289,14 +289,14 @@ signing or impersonation only for the duration of the task.
 
 ### Server-side development
 
-Best practices for developing server-side code for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps include the following:
+Best practices for developing server-side code for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] include the following:
 
-- Do not modify the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps database by any means other than using the SDK because this bypasses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps security model.
+- Do not modify the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database by any means other than using the SDK because this bypasses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] security model.
 - Plug-ins are running in an administrator's context – you should know that this code may access information that the logged-on user does not have access to.
 - For workflow assemblies, and plug-ins, avoid writing code that takes a long time to execute. It is important that plug-in code that is registered to execute synchronously returns as quickly as possible.
-- If you are replicating [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps data in your own data store, you are responsible for the security of the data. If you use a plug-in to transmit the data, make sure that you register the plug-in to execute after the core platform operation. Security privilege checks for the logged-on user occur during the core platform operation.
-- Data that comes out of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps might not be safe for rendering. Data may have been injected with HTML tags that are not secure.
-- Adhere to the requirement of not accessing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps databases directly through [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Enterprise Manager. Bypassing the SDK can open you up to SQL injection threats.
+- If you are replicating [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data in your own data store, you are responsible for the security of the data. If you use a plug-in to transmit the data, make sure that you register the plug-in to execute after the core platform operation. Security privilege checks for the logged-on user occur during the core platform operation.
+- Data that comes out of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] might not be safe for rendering. Data may have been injected with HTML tags that are not secure.
+- Adhere to the requirement of not accessing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] databases directly through [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Enterprise Manager. Bypassing the SDK can open you up to SQL injection threats.
 - For Internet facing deployments, remember that your solution is only as secure as the weakest link. After your application is exposed to the Internet, it is open to security threats.  
 - Use only languages that produce managed code for the best security from buffer overruns, exceptions, and so on.
 
@@ -308,10 +308,10 @@ For more information about security, see the following topics:
 
 ### Client-side development
 
-Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps web application and [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] include the following:
+Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application and [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] include the following:
 
-- Use web resources instead of pages that require server-side processing whenever possible. If your requirements can only be achieved by using server-side processing, adhere to the requirement that your custom webpages are installed in a separate website from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. Set the trust level for your site appropriately, depending on your confidence level in the security of your code. This reduces the threat from cross-site scripting and other threats.  
-- For improved security, make sure that your separate website runs on a different account from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps. This account should have the minimum access possible and one that does not have direct access to the Microsoft databases. You can use a complex password that doesn’t expire because no person signs in to this account – only in to your application.
+- Use web resources instead of pages that require server-side processing whenever possible. If your requirements can only be achieved by using server-side processing, adhere to the requirement that your custom webpages are installed in a separate website from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Set the trust level for your site appropriately, depending on your confidence level in the security of your code. This reduces the threat from cross-site scripting and other threats.  
+- For improved security, make sure that your separate website runs on a different account from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. This account should have the minimum access possible and one that does not have direct access to the Microsoft databases. You can use a complex password that doesn’t expire because no person signs in to this account – only in to your application.
 - Avoid use of [!INCLUDE[pn_ms_ActiveX_short](../includes/pn-ms-activex-short.md)] controls because they have known security problems.
 - Be aware of the limitations of client scripting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Best practices: Client scripting in Customer Engagement](clientapi/client-scripting-best-practices.md)
 - Use plug-ins to apply business logic regardless of how the data changes are made.
@@ -321,7 +321,7 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 
 - Don’t use anonymous access.  
 - Use integrated Windows authentication, NTLM, or Basic authentication over Transport Layer Security (TLS) or Secure Sockets Layer (SSL).  
-- Use [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] to avoid sending unencrypted data over the network if your website is on a different computer than [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+- Use [!INCLUDE[pn_ssl_short](../includes/pn-ssl-short.md)] to avoid sending unencrypted data over the network if your website is on a different computer than [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
 
   For more information, see the following:  
 
@@ -336,9 +336,9 @@ Best practices for developing customizations for the [!INCLUDE[pn_crm_shortest](
 
 One of the key tenets of ISV extensibility is that you should not assume that your ISV solution is the only one installed. The following is a list of best practices to follow.  
 
-### Best practices for using the Dynamics 365 for Customer Engagement web services
+### Best practices for using the Dynamics 365 Customer Engagement web services
 
-You should put the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web service URLs into a configuration file, for example, into an app.config file, so that your code is isolated from changes to the URL. For example, there are different URLs for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps data centers throughout the world.  
+You should put the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web service URLs into a configuration file, for example, into an app.config file, so that your code is isolated from changes to the URL. For example, there are different URLs for the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] data centers throughout the world.  
 
 
 ### Where should you put your custom web applications or webpages?
@@ -354,11 +354,11 @@ Register the plug-in on the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleReq
 Create a new website for your code when any of the following applies:
 
 - Your application must be bound to a domain, protocol, or port that is different from the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application; or must run in a different application pool.  
-- Your application can exist and be accessed on its own. For example, a portal that interacts with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps as the server (by using web services) should be hosted as a new website.
-- Your application always uses [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] or integrated Windows authentication (not IFD) and cross-domain scripting is not an issue. For example, your application interacts with a back end by using web services and interacts with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps form. A page hosted in an IFRAME that is enclosed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application that does not interact with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps form falls into this category.  
+- Your application can exist and be accessed on its own. For example, a portal that interacts with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] as the server (by using web services) should be hosted as a new website.
+- Your application always uses [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] or integrated Windows authentication (not IFD) and cross-domain scripting is not an issue. For example, your application interacts with a back end by using web services and interacts with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] form. A page hosted in an IFRAME that is enclosed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application that does not interact with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] form falls into this category.  
 
 ### See also  
- [Write Code for Dynamics 365 for Customer Engagement (Web Services)](extend-dynamics-365-server.md)   
+ [Write Code for Dynamics 365 Customer Engagement (Web Services)](extend-dynamics-365-server.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises) Forms](clientapi/client-scripting.md)   
  [Plug-ins for Extending Dynamics 365 Customer Engagement (on-premises)](write-plugin-extend-business-processes.md)   
  [Custom Workflow Activities (Workflow Assemblies)](custom-workflow-activities-workflow-assemblies.md)

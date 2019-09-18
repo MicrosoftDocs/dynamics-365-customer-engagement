@@ -1,6 +1,6 @@
 ---
-title: "Use editable grids in Customer Engagement (Dynamics 365 for Customer Engagement Developer Guide) | MicrosoftDocs"
-description: "Editable grid is a new custom control in Dynamics 365 for Customer Engagement that provides rich inline editing capabilities on web and mobile clients (Dynamics 365 for phones and Dynamics 365 for tablets) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views."
+title: "Use editable grids in Customer Engagement (Dynamics 365 Customer Engagement Developer Guide) | MicrosoftDocs"
+description: "Editable grid is a new custom control in Dynamics 365 Customer Engagement that provides rich inline editing capabilities on web and mobile clients (Dynamics 365 for phones and Dynamics 365 for tablets) including the ability to group, sort, and filter data within the same grid so that you do not have to switch records or views."
 ms.custom: 
 ms.date: 10/18/2018
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 Customer Engagement
 ms.assetid: ffc75be6-cf2b-4707-9cdc-871e17544056
 caps.latest.revision: 16
 author: KumarVivek
@@ -52,7 +52,7 @@ For more information about using editable grids using the UI, see [Make grids (l
   
   On the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] mobile client, an entity will support editable grid if the entity can be displayed in the mobile client's site map.  
   
-  For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 for Customer Engagement using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
+  For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 Customer Engagement using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
   
   Editable grids do not support roll up associated views (**Rollup type** = `Related`).  
   

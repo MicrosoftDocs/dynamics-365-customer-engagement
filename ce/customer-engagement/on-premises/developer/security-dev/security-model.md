@@ -1,5 +1,5 @@
 ---
-title: "Security model (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Security model (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - record-based security, definition
   - security model of Microsoft Dynamics CRM, types of security
@@ -34,7 +34,7 @@ search.app:
 ---
 # Security model of Customer Engagement
 
-[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration. The goals of the model are as follows:  
+[!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] provides a security model that protects data integrity and privacy, and supports efficient data access and collaboration. The goals of the model are as follows:  
   
 - Provide users with the access only to the appropriate levels of information that is required to do their jobs.  
   
@@ -44,13 +44,13 @@ search.app:
   
 - Prevent a user's access to records the user does not own or share.  
   
-  **Role-based security** in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps focuses on grouping a set of privileges together that describe the responsibilities (or tasks that can be performed) for a user. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps includes a set of predefined security roles. Each aggregates a set of user rights to make user security management easier. Also, each application deployment can define its own roles to meet the needs of different users.  
+  **Role-based security** in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] focuses on grouping a set of privileges together that describe the responsibilities (or tasks that can be performed) for a user. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] includes a set of predefined security roles. Each aggregates a set of user rights to make user security management easier. Also, each application deployment can define its own roles to meet the needs of different users.  
   
   **Record-based security** in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] focuses on access rights to specific records.  
   
-  **Field-level security** in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps restricts access to specific high business impact fields in an entity only to specified users or teams.  
+  **Field-level security** in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] restricts access to specific high business impact fields in an entity only to specified users or teams.  
   
-  Combine role-based security, record-level security, and field-level security to define the overall security rights that users have within your custom [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps.  
+  Combine role-based security, record-level security, and field-level security to define the overall security rights that users have within your custom [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
   More overview information about security can be found on the [Microsoft Trust Center](https://www.microsoft.com/en-us/TrustCenter/CloudServices/Dynamics365), and in this white paper: [Microsoft Dynamics CRM Online security and compliance planning guide](http://download.microsoft.com/download/B/4/A/B4A6FDE3-A5ED-43A8-99CB-E218E51AE106/Microsoft%20Dynamics%20CRM%20Online%20security%20and%20compliance%20planning%20guide.pdf).  
   

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - creating graphs and charts to visually represent connections
   - connection entities, using to create connections
@@ -32,11 +32,11 @@ search.app:
 ---
 # Connection entities
 
-The *connections* provide a flexible way to connect and describe the relationships between any two entity records [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. It helps you to promote teamwork, collaboration, and effective management of business and sales processes. Connections enable you to easily associate users, contacts, quotes, sales orders, and many other entity records with each other. The records in the association can be assigned particular roles that help define the purpose of the relationship.  
+The *connections* provide a flexible way to connect and describe the relationships between any two entity records [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. It helps you to promote teamwork, collaboration, and effective management of business and sales processes. Connections enable you to easily associate users, contacts, quotes, sales orders, and many other entity records with each other. The records in the association can be assigned particular roles that help define the purpose of the relationship.  
   
  Connections provide the following capabilities:  
   
-- An easy and flexible way to make a connection between two records of most [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps entity types. All customizable business and custom entities can be enabled for connections.  
+- An easy and flexible way to make a connection between two records of most [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entity types. All customizable business and custom entities can be enabled for connections.  
   
 - An option to add useful information, such as a description of the connection and the duration.  
   

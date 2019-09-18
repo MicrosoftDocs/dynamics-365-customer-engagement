@@ -1,5 +1,5 @@
 ---
-title: "Define custom actions to modify the ribbon (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define custom actions to modify the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining custom actions to modify the ribbon."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, hide ribbon elements
   - ribbon, change ribbon elements
@@ -26,7 +26,7 @@ search.app:
 ---
 # Define custom actions to modify the ribbon
 
-The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] apps metadata. This default data can’t be changed, but you can include definitions of specific actions that will override the default ribbon.  
+The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] metadata. This default data can’t be changed, but you can include definitions of specific actions that will override the default ribbon.  
   
 ## Types of custom actions  
  There are two types of custom actions for ribbons:  
@@ -62,5 +62,5 @@ The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dyn
   
 ### See also  
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
- [Pass Microsoft Dynamics 365 for Customer Engagement data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)   
+ [Pass Microsoft Dynamics 365 Customer Engagement data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)   
  [Define Scaling for Ribbon Elements](define-scaling-ribbon-elements.md)

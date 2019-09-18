@@ -1,5 +1,5 @@
 ---
-title: "Sample: Delete a queue (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Delete a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 decription: The sample code demonstrates how to delete a queue.
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for deleting queues (early bound)
   - deleting queues (early bound), sample

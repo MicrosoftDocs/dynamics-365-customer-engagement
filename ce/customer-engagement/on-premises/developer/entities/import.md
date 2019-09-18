@@ -1,5 +1,5 @@
 ---
-title: "Import Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Import Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Import entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

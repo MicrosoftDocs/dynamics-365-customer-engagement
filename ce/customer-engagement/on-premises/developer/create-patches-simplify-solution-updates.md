@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 12672159-03b1-4f18-8d8c-cf4aaf366deb
 caps.latest.revision: 14
 author: shmcarth
@@ -24,12 +24,12 @@ search.app:
 
 If you add an entity to a solution and export the solution, the entity and all of its related assets are exported in that solution. These assets include attributes, forms, views, relationships, and visualizations, and any other assets that are packaged with the entity. Exporting all objects means that you can unintentionally modify objects on the target deployment, or carry over unintended dependencies.  
   
- To address this, you can create and publish solution patches that contain subcomponents of entities rather than publishing the entire entity and all of its assets.  The original solution and one or more related patches can be rolled up (merged) at a later time into an updated version of the solution, which then can replace the original solution in the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization.  
+ To address this, you can create and publish solution patches that contain subcomponents of entities rather than publishing the entire entity and all of its assets.  The original solution and one or more related patches can be rolled up (merged) at a later time into an updated version of the solution, which then can replace the original solution in the target [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization.  
   
 ## Patches  
  You can apply patches to either managed or unmanaged solutions and include only changes to entities and related entity assets. Patches do not contain any non-customized system components or relationships that it dependents upon because these components already exist in the deployed-to organization. At some point in your development cycle, you can roll up all the patches into a new solution version to replace the original solution that the patches were created from.  
   
- Patches are stored in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps database as `Solution` entity records. A non-null `ParentSolutionId` attribute indicates that the solution is a patch. Patches can be created and managed through the Organization Service or Web APIs, which are useful for developing automation such as a product install script. However, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application provides various web forms that enable you to interactively create and manage patches.  
+ Patches are stored in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database as `Solution` entity records. A non-null `ParentSolutionId` attribute indicates that the solution is a patch. Patches can be created and managed through the Organization Service or Web APIs, which are useful for developing automation such as a product install script. However, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application provides various web forms that enable you to interactively create and manage patches.  
   
 - Patches can only be created from a parent solution using <xref:Microsoft.Crm.Sdk.Messages.CloneAsPatchRequest> or <xref href="Microsoft.Dynamics.CRM.CloneAsPatch?text=CloneAsPatch Action" />.  
   
@@ -53,7 +53,7 @@ If you add an entity to a solution and export the solution, the entity and all o
   
 - Don’t use unmanaged patches for production purposes.  
   
-- Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps organization of version 8.0 or later.  
+- Patches are only supported in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization of version 8.0 or later.  
 
 - When a patch is installed, it is installed just above the base solution it is patching and below any solutions on top. This means any solutions on top will override the settings in the patch for the same component type.
   

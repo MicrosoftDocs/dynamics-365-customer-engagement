@@ -1,5 +1,5 @@
 ---
-title: "Sample: Assign a user-owned dashboard to another user (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Assign a user-owned dashboard to another user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to assign a user-owned dashboard to another user by using the AssignRequest message. Because you can’t delete a user-owned dashboard that is assigned to another user, this sample shows how to use impersonation to delete the user-owned dashboard. "
 keywords: 
 ms.date: 10/31/2017
@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3c88b87d-e178-41ac-bd44-f7aa790677b9
 author: JimDaly
 ms.author: jdaly
@@ -25,7 +25,7 @@ search.app:
 
 # Sample: Assign a user-owned dashboard to another user
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the sample: [Work with visualizations and dashboards](https://code.msdn.microsoft.com/Samples-of-visualizations-027f7480).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with visualizations and dashboards](https://code.msdn.microsoft.com/Samples-of-visualizations-027f7480).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

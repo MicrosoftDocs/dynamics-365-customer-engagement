@@ -1,5 +1,5 @@
 ---
-title: "Duplicate detection messages (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Duplicate detection messages (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Use the BulkDetectDuplicatesRequest or RetrieveDuplicatesRequest messages to detect duplicates."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - duplicate detection messages
 ms.assetid: f041dfd5-cfc4-44e2-b274-1107bdf75293

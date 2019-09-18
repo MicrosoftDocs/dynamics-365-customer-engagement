@@ -1,6 +1,6 @@
 ---
-title: "Write a listener application for a Microsoft Azure solution (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "The topic describes how to write an Azure solution listener application that can read and process Dynamics 365 for Customer Engagement (online) Customer Engagement messages that are posted to the Azure Service Bus."
+title: "Write a listener application for a Microsoft Azure solution (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "The topic describes how to write an Azure solution listener application that can read and process Dynamics 365 Customer Engagement (on-premises) Customer Engagement messages that are posted to the Azure Service Bus."
 ms.custom: 
 ms.date: 12/17/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: bf0b34fa-b49b-41f6-a2ca-9029a1ba64a1
 caps.latest.revision: 60
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Write a listener application for a Azure solution
 
-This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution  listener application that can read and process [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement messages that are posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. As a prerequisite, you should familiarize yourself with how to write a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] listener before trying to learn the specifics of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] listener. For more information, see the [Azure Service Bus documentation](https://azure.microsoft.com/en-us/documentation/services/service-bus/).  
+This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution  listener application that can read and process [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] messages that are posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. As a prerequisite, you should familiarize yourself with how to write a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] listener before trying to learn the specifics of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] listener. For more information, see the [Azure Service Bus documentation](https://azure.microsoft.com/en-us/documentation/services/service-bus/).  
   
 <a name="bkmk_writequeued"></a>
 
@@ -143,5 +143,5 @@ else if (receivedMessage.ContentType = "application/xml")
  [Sample: One-way Listener](sample-one-way-listener.md)   
  [Sample: Two-way Listener](sample-two-way-listener.md)   
  [Sample: REST Listener](sample-rest-listener.md)   
- [Send Dynamics 365 for Customer Engagement Data over the Azure Service Bus](work-data-azure-solution.md)   
- [Work with Dynamics 365 for Customer Engagement event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)
+ [Send Dynamics 365 Customer Engagement Data over the Azure Service Bus](work-data-azure-solution.md)   
+ [Work with Dynamics 365 Customer Engagement event data in your Azure Event Hub solution](work-event-data-azure-event-hub-solution.md)

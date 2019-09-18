@@ -1,5 +1,5 @@
 ---
-title: "msdyn_forecastdefinition Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_forecastdefinition Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_forecastdefinition entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"
@@ -318,7 +318,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|DateOnly|
-|Description|Shows the date from which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 Customer Engagement apps options.|
+|Description|Shows the date from which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 Customer Engagement (on-premises) options.|
 |DisplayName|Valid from|
 |Format|DateOnly|
 |IsValidForForm|True|
@@ -333,7 +333,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|DateOnly|
-|Description|Shows the date till which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 Customer Engagement apps options.|
+|Description|Shows the date till which the forecast is applicable. The date and time are displayed in the time zone selected in Dynamics 365 Customer Engagement (on-premises) options.|
 |DisplayName|Valid to|
 |Format|DateOnly|
 |IsValidForForm|True|

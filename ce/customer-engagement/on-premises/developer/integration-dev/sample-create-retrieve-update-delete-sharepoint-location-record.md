@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: bc1c1d14-4be9-48fb-a7dd-bccbacd722f8
 author: KumarVivek
 ms.author: kvivek
@@ -25,7 +25,7 @@ search.app:
 
 # Sample: Create, retrieve, update, and delete a SharePoint location record
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] apps. Download the sample: [Work with SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with SharePoint Integration](https://code.msdn.microsoft.com/Samples-of-Sharepoint-b4fb016f).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

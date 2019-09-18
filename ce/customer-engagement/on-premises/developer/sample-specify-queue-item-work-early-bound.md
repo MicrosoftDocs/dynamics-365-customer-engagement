@@ -1,5 +1,5 @@
 ---
-title: "Sample: Specify a queue item to work on (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Specify a queue item to work on (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 decription: The sample code demonstrates how to use PickFromQueueRequest to specify a user who will work on a queue item.
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for specifying queue items for users to work on (early bound)
   - specifying queue items for users to work on (early bound), sample

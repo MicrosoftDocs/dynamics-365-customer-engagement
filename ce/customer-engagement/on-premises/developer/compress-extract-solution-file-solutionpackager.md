@@ -1,5 +1,5 @@
 ---
-title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Use the SolutionPackager tool to compress and extract a solution file (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "SolutionPackager is a tool that can reversibly decompose a Dynamics 365 Customer Engagement (on-premises) compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system"
 ms.custom: 
 ms.date: 03/29/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: dd682a4b-d04b-40c2-b680-9dec34b986f0
 caps.latest.revision: 33
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Use the SolutionPackager tool to compress and extract a solution file
 
-SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
+SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] compressed solution file into multiple XML files and other files so that these files can be easily managed by a source control system. The following sections show you how to run the tool and how to use the tool with managed and unmanaged solutions.  
   
 <a name="bkm_where"></a>   
 ## Where to find the SolutionPackager tool  
@@ -180,7 +180,7 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
   
 <a name="managed"></a>   
 ## Managed and unmanaged solutions  
- A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps compressed solution (.zip) file can be exported in one of two types as shown here.  
+ A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] compressed solution (.zip) file can be exported in one of two types as shown here.  
   
  Managed solution  
  A completed solution ready to be imported into an organization. Once imported, components can’t be added or removed, although they can optionally allow further customization. This is recommended when development of the solution is complete.  
@@ -188,7 +188,7 @@ SolutionPackager is a tool that can reversibly decompose a [!INCLUDE[pn_dynamics
  Unmanaged solution  
  An open solution with no restrictions on what can be added, removed, or modified. This is recommended during development of a solution.  
   
- The format of a compressed solution file will be different based on its type, either managed or unmanaged. The SolutionPackager can process compressed solution files of either type. However, the tool can’t convert one type to another. The only way to convert solution files to a different type, for example from unmanaged to managed, is by importing the unmanaged solution .zip file into a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps server and then exporting the solution as a managed solution.  
+ The format of a compressed solution file will be different based on its type, either managed or unmanaged. The SolutionPackager can process compressed solution files of either type. However, the tool can’t convert one type to another. The only way to convert solution files to a different type, for example from unmanaged to managed, is by importing the unmanaged solution .zip file into a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and then exporting the solution as a managed solution.  
   
  The SolutionPackager can process unmanaged and managed solution .zip files as a combined set via the /PackageType:Both parameter. To perform this operation, it is necessary to export your solution twice as each type, naming the .zip files as follows.  
   

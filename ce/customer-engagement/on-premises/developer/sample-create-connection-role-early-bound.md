@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create a connection role (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create a connection role (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates how to create a connection role that are used for accouunts and contacts."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for creating connection roles, accounts and contacts
   - creating connection roles, sample

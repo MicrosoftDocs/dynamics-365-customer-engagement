@@ -1,6 +1,6 @@
 ---
 title: "Work with Dynamics 365 Customer Engagement (on-premises) data using web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "This doc explains how you can use JavaScript web resources to access Dynamics 365 for Customer Engagement (online) data from within the application."
+description: "This doc explains how you can use JavaScript web resources to access Dynamics 365 Customer Engagement (on-premises) data from within the application."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: f1a0de36-a963-43c9-a878-c85c793cd089
 caps.latest.revision: 28
 author: JimDaly
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Work with Customer Engagement apps data using web resources
+# Work with Customer Engagement (on-premises) data using web resources
 
 You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resources to access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] data from within the application. There are three web services you can use in the application to access data by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. The Organization data service is deprecated with [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. It is recommended to use Web API instead of Organization service when creating applications that connect to the [!INCLUDE[cc_dyn365_ce_web_services](../includes/cc-dyn365-ce-web-services.md)] and invoke methods to perform common business data operations like create, delete, update, and find.    
 
@@ -38,18 +38,18 @@ You can use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource
 ## Related Sections  
  [Get started with the Web API (client-side JavaScript)](webapi/get-started-web-api-client-side-javascript.md)  
 
- [Extend Dynamics 365 for Customer Engagement on the client](extend-client.md)  
+ [Extend Dynamics 365 Customer Engagement on the client](extend-client.md)  
 
  [Use JavaScript with Dynamics 365 Customer Engagement (on-premises)](use-javascript.md)  
 
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
 
  [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)  
 
- [Open forms, views, and dashboards in Dynamics 365 for Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
+ [Open forms, views, and dashboards in Dynamics 365 Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)  
 
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)  
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)  
 
  [Client API Reference](clientapi/reference.md)

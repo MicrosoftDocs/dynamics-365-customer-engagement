@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6bebfba9-833f-4e46-88e4-d1b5fa6b5962
 caps.latest.revision: 25
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Create, retrieve, update, and delete a dialog
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement apps. See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/en-us/library/gg334435.aspx)
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] for Customer Engagement (on-premises). See the complete sample here [Sample: Create, retrieve, update, and delete a dialog](https://msdn.microsoft.com/en-us/library/gg334435.aspx)
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

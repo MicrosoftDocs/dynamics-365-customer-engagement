@@ -1,5 +1,5 @@
 ---
-title: "Create an opportunity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create an opportunity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - tax; freight; and totals, opportunity entities
   - closing opportunities, opportunity entities

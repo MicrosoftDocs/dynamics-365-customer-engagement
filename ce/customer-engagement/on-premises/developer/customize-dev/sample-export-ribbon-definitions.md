@@ -1,5 +1,5 @@
 ---
-title: "Sample: Export ribbon definitions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Export ribbon definitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to export Ribbon definitions. It uses the RetrieveApplicationRibbonRequest and RetrieveEntityRibbonRequest messages. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a657c8bb-dbeb-461f-8271-d07a97c3ea0e
 caps.latest.revision: 16
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Sample: Export ribbon definitions
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the Export ribbon definitions sample](https://code.msdn.microsoft.com/Export-ribbon-definitions-df97a4cb).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. [Download the Export ribbon definitions sample](https://code.msdn.microsoft.com/Export-ribbon-definitions-df97a4cb).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
