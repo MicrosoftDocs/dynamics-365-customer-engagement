@@ -63,17 +63,6 @@ Dynamics 365 Marketing is licensed per instance, with each instance priced accor
   - For trial and previews, see [Dynamics 365 Marketing limits for trials and previews](trial-preview-limits.md).
   - Check the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
-<a name="claim-free-license"></a>
-
-## My Dynamics 365 license agreement entitles me to a free Dynamics 365 Marketing license. How can I get the free app added to my tenant?
-
- If you only recently purchased enough Dynamics 365 seats to qualify for a free Marketing license, then the app should already be available on your tenant. But if you've had a qualifying Dynamics 365 license for some time, you may need to submit a support request to get the free Marketing app added to it.
-
-If you are entitled to a free Dynamics 365 Marketing license, do the following to find or obtain it:
-
-1. [Go to the Dynamics 365 admin center](dynamics-365-admin-center.md), open the **Applications** tab, and check whether your free Dynamics 365 Marketing app is already shown in the list. If so, then set it up as described in [Purchase and set up Dynamics 365 Marketing](purchase-setup.md) and skip the rest of this procedure.
-1. If your free Dynamics 365 Marketing app  is not shown in the **Applications** list for your tenant, then please [raise a ticket with Microsoft Support](#contact-support) to have an unconfigured Dynamics 365 Marketing app added to it. Then set up the app as described in [Purchase and set up Dynamics 365 Marketing](purchase-setup.md).
-
 <a name="incompatible-platform"></a>
 
 ## Why is my instance (organization) incompatible with Marketing?

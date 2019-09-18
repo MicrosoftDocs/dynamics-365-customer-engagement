@@ -37,18 +37,18 @@ Read this topic to learn how to set up a new Dynamics 365 Marketing instance aft
 
 ## How Marketing is licensed
 
-Dynamics 365 Marketing is licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your Dynamics 365 Marketing license. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+Production versions of Dynamics 365 Marketing are licensed per instance, with each instance priced according to the number of *marketing contacts* stored in your database. Marketing contacts only include those that you engage with marketing activities such as emails, landing pages, forms, LinkedIn integration, events, and surveys. Contacts that you never engage in marketing activities won't be counted as part of your Dynamics 365 Marketing license. Each license also includes quotas that limit the total number of free Litmus inbox previews you can view and marketing email messages you can send each month. See your license agreement for complete details about the quota limits that apply to you. You can view your quota limits and consumption on the [Quota limits](quota-management.md) page. While you're planning your marketing activities, please be sure to purchase enough marketing contacts to remain within your quota.
+
+You can also purchase sandbox-only licenses for Dynamics 365 Marketing. This license entitles you to set up a test instance for trying out new features or customizations. Sandboxes are fully functional, but have much stricter quotas and can't be used to run production campaigns. They are significantly less expensive than production licenses, but are also much more limited.
 
 > [!NOTE]
 > When you sign up for Dynamics 365 Marketing, you'll choose a licensing option that defines your contract period and various quotas for that period. Each of the contacts that you engage through marketing activities during the contract period count against your total contact quota, even if you delete, or otherwise stop marketing to, an existing marketing contact during the contract period. You can only reduce your purchased contact quota on contract renewal date.
 
 Unlike most other Dynamics 365 apps for the Common Data Service platform, Marketing isn't priced per user, so users already licensed to access any Dynamics 365 app on an instance where Marketing is installed will also be able to access Marketing without requiring you to purchase any additional licenses. You can even request any number of free ("zero dollar") Marketing licenses to assign to users that don't have a Dynamics 365 license, but these aren't valid for apps other than Marketing.
 
-In some cases, you may be entitled to a free Marketing license for one or more of your Dynamics 365 instances. This may be triggered by purchasing a Dynamics 365 app bundle and/or by purchasing a certain minimal number of seat licenses for your other Dynamics 365 apps. Free licenses such as these usually also include a limited quota of free marketing contacts, which you can increase by purchasing additional capacity.
-
 You can choose to run your marketing pages, landing pages, and events website either on an external web server (such as your own CMS system) or on a Dynamics 365 Portal running on the same tenant as your Dynamics 365 Marketing instance. If you want to run these features on a Dynamics 365 Portal, then you must have a free portals license available on your tenant before you run the Dynamics 365 Marketing setup wizard, but if you will use an external website, then no portals license is needed. (Depending on the Dynamics 365 Marketing licensing plan you have chosen, your license may include a free portal provided no other free portals are already in use on your tenant.) More information: [Integrate Marketing with a CMS system or Dynamics 365 Portal](portal-optional.md) and [When do I need a portal license, and how can I get one?](setup-troubleshooting.md#why-portal)
 
-For more information about licensing, see the [Administration and setup FAQ](setup-troubleshooting.md). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
+For more information about licensing, see the [Administration and setup FAQ](setup-troubleshooting.md#licensing). For complete licensing details, including specific quotas and other conditions, see the  [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=866544).
 
 ## Prerequisites and requirements
 
@@ -88,10 +88,7 @@ For more information about licensing, see the [Administration and setup FAQ](set
 
 ## Add a Marketing app to your Microsoft 365 tenant
 
-There are many ways to add one or more Marketing apps to your Microsoft 365 tenant. For example, you can purchase it from the [Dynamics 365 Marketing overview page](https://dynamics.microsoft.com/en-us/marketing/overview/), or by going to **Billing** > **Purchase services** in your Microsoft 365 admin center, or by contacting your Microsoft sales representative or channel partner. As mentioned previously, you might even qualify to have a free Marketing app added to your tenant.
-
-- On purchasing a license, an unconfigured Dynamics 365 Marketing app will be automatically added to your tenant.
-- If you are entitled to a free license, then see [My Dynamics 365 license agreement entitles me to a free Dynamics 365 Marketing license. How can I get the free app added to my tenant?](setup-troubleshooting.md#claim-free-license) for details about how to find or obtain it.
+There are many ways to add one or more Marketing apps to your Microsoft 365 tenant. For example, you can purchase it from the [Dynamics 365 Marketing overview page](https://dynamics.microsoft.com/en-us/marketing/overview/), or by going to **Billing** > **Purchase services** in your Microsoft 365 admin center, or by contacting your Microsoft sales representative or channel partner. On purchasing a license, an unconfigured Dynamics 365 Marketing app will be automatically added to your tenant.
 
 You can have any number of Marketing apps available on your tenant. Initially, each of these apps will be unconfigured and unassigned to any Dynamics 365 instance. Later, you'll run the Marketing setup wizard to assign the app to an instance and configure it.
 
