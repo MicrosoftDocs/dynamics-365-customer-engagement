@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 44ab54f6-f55a-4cf8-98f4-cbd4358286c7
 caps.latest.revision: 36
 author: JimDaly
@@ -30,7 +30,7 @@ Entity relationships define the ways that entity records can be associated with 
   
 <a name="BKMK_TypesOfEntityRelationships"></a>   
 ## Types of entity relationships  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides two types of entity relationships. Both of these inherit from the <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase> class:  
+ Dynamics 365 Customer Engagement (on-premises) provides two types of entity relationships. Both of these inherit from the <xref:Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase> class:  
   
 - **[One-to-many relationships](customize-entity-relationship-metadata.md#BKMK_OneToManyRelationships)**  
   

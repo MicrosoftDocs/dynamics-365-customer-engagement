@@ -1,5 +1,5 @@
 ---
-title: "Web API Samples (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Web API Samples (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The Dynamics 365 Customer Engagement (on-premises) SDK provides a matrix of samples demonstrating how to use the Web API in a number of different ways. Find here the C# and JavaScript implementations of Basic Operations, Query Data, Conditional Operations and Functions and Actions sample"
 ms.custom: 
 ms.date: 04/22/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: cdcb02f5-3baa-4fb7-8fb3-6fe53c2d4271
 caps.latest.revision: 11
 author: susikka

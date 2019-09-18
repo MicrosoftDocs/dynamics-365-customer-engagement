@@ -1,5 +1,5 @@
 ---
-title: "EntityDataSource Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "EntityDataSource Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the EntityDataSource entity."
 ms.date: 03/29/2019
 ms.service: "crm-online"

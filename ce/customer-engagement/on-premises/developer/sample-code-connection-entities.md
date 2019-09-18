@@ -1,5 +1,5 @@
 ---
-title: "Sample code for connection entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample code for connection entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 decription: Sample code for connection entities contain the code examples that show how to use the connection entities
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - samples for connection entities, introduction to
   - introduction to connection entities, samples

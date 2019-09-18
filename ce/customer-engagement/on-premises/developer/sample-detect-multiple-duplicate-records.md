@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5c83c1c2-25ef-480b-9195-6eabe9f6c4c7
 author: JimDaly
 ms.author: jdaly
@@ -25,7 +25,7 @@ search.app:
 
 # Sample: Detect multiple duplicate records
 
-This sample code is for Dynamics 365 for Customer Engagement. Download the sample: [With with duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
+This sample code is for Dynamics 365 Customer Engagement. Download the sample: [With with duplicate detections](https://code.msdn.microsoft.com/Work-with-duplicate-9c7d6f59).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

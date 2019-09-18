@@ -1,5 +1,5 @@
 ---
-title: "Sample: Create a queue (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Create a queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 decription: The sample code demonstrates how to create a simple queue and set the required attributes.
 ms.custom: 
 ms.date: 12/18/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for creating queues (early bound) and setting required attributes
   - creating simple queues (early bound) and setting required attributes, sample

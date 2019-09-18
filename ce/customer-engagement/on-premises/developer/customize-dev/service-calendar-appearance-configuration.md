@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - service calendar, appearance
   - isv.config
@@ -141,7 +141,7 @@ div.ganttBlockserviceappointmentStatus8
 ### See also  
  [Customize Entity Views](customize-entity-views.md)   
  [ISV Configuration File Schema](isv-configuration-file-schema.md)   
- [Customize Microsoft Dynamics 365 for Customer Engagement](customize-applications.md)   
+ [Customize Microsoft Dynamics 365 Customer Engagement](customize-applications.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Support for Editing the Customization File](when-edit-customization-file.md)   
  [Publish Customizations](publish-customizations.md)   

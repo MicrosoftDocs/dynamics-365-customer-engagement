@@ -1,6 +1,6 @@
 ---
-title: "Install or uninstall a model-driven app | MicrosoftDocs"
-description: "Learn how to install or uninstall a model-driven app"
+title: "Install or uninstall a custom business app | MicrosoftDocs"
+description: "Learn how to install or uninstall a custom business app"
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 

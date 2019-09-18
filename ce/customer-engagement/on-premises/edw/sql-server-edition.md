@@ -21,7 +21,7 @@ ms.author: matp
   
  Setup found an edition of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] that is not supported by this version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
 
-  For information about the supported [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] versions and editions, see [SQL Server editions](../on-premises/software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions).
+  For information about the supported [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] versions and editions, see [SQL Server editions](../deploy/software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions).
 
 ## Solution
 

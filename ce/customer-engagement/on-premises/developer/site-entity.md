@@ -1,5 +1,5 @@
 ---
-title: "Site entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Site entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 decription: The site entity serves the purpose of sites providing for the grouping of resources, such as users and facility/equipment, services, and appointments, according to a location with an associated time zone and locale.
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sites
   - site entity, scheduling appointments

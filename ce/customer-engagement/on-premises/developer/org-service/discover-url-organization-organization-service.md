@@ -1,6 +1,6 @@
 ---
-title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "For a multi-tenant environment like Dynamics 365 for Customer Engagement, you can use Discovery Service to determine the organizations that a user is member of"
+title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "For a multi-tenant environment like Dynamics 365 Customer Engagement, you can use Discovery Service to determine the organizations that a user is member of"
 ms.custom: on-premise
 ms.date: 11/14/2017
 ms.reviewer: "pehecke"
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 29b0777c-f28d-4301-ae5c-a25064bfbcc9
 caps.latest.revision: 46
 author: JimDaly
@@ -47,5 +47,5 @@ Alternatively, you can add the service references for the URLs described previou
  [Use the Discovery Service with the SDK Assemblies](/powerapps/developer/common-data-service/org-service/discovery-service)  
  [Write Applications and Server Extensions](../extend-dynamics-365-server.md)<br />
  [Download endpoints using Developer resources page](../developer-resources-page.md)<br />
- [Access the Web Services in Dynamics 365 for Customer Engagement](../authenticate-users.md)<br />
+ [Access the Web Services in Dynamics 365 Customer Engagement](../authenticate-users.md)<br />
  [Quick Start: A Simple Program](../simple-program-web-services.md)<br />

@@ -1,5 +1,5 @@
 ---
-title: "Impersonate another user (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Impersonate another user (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to impersonate another user using Web API. You can do that by adding a request header named MSCRMCallerID with a GUID value equal to the impersonated user’s systemuserid before sending the request to the web service"
 ms.custom: 
 ms.date: 04/29/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fc54b5d4-00d7-4833-be95-3c66a920a84d
 caps.latest.revision: 28
 author: JimDaly
@@ -43,7 +43,7 @@ More information can be found in the Common Data Service topic [Impersonate anot
 | On-premises<br /> or<br />IFD/Claims |                                                                                                        Create a new [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] user with a security role which includes the `prvActOnBehalfOfAnotherUser` privilege. Within this security role, also include privileges for the tasks this user account will perform on behalf of other users.                                                                                                         |
 
 ### See also  
- [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](../authenticate-users.md)   
+ [Authenticate Users with Dynamics 365 Customer Engagement Web Services](../authenticate-users.md)   
  [Implement Single Sign-on from an ASPX Webpage or IFRAME](../implement-single-sign-aspx-webpage-iframe.md)     
  [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](../security-dev/how-role-based-security-control-access-entities.md)   
  [Sample: Impersonation using the ActOnBehalfOf privilege](sample-impersonate-actonbehalfof-privilege.md)

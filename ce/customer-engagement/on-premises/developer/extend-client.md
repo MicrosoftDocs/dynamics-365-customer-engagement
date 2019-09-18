@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - extending Microsoft Dynamics CRM and Dynamics CRM Online, building solutions and modeling your business data
   - building solutions by extending Microsoft Dynamics CRM and Dynamics CRM Online
@@ -26,7 +26,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Extend Dynamics 365 for Customer Engagement on the client
+# Extend Dynamics 365 Customer Engagement on the client
 
 This section contains information about changes developers and customizers can make to extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] in the clients provided for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] -- the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] -- by using [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and web resources. These clients are designed to allow you to add extensions that can be applied for all clients rather than each one separately.  
   
@@ -39,7 +39,7 @@ This section contains information about changes developers and customizers can m
  
  [Open Forms, Views, and Dialogs with a URL](open-forms-views-dialogs-reports-url.md)  
   
- [Open forms, views, and dashboards in Dynamics 365 for Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
+ [Open forms, views, and dashboards in Dynamics 365 Customer Engagement mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)  
   
  [Web Resources for Customer Engagement (on-premises)](web-resources.md)  
   

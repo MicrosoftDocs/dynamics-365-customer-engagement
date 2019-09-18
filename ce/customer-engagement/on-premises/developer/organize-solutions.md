@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - solutions, multiple solutions with some shared components
   - solution libraries
@@ -30,7 +30,7 @@ search.app:
 
 Before you create solutions, take some time to plan ahead. For example, think about how many solutions you want to release and whether the solutions will share components.  
   
- Also, determine how many [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organizations you’ll need to develop your line of solutions. You can use a single organization for most strategies described in this topic. However, if you decide to have only one organization and later realize that you need more, it can be challenging to change the solutions if people have already installed them. Using multiple organizations, although introducing more complexity, can provide better flexibility.  
+ Also, determine how many Dynamics 365 Customer Engagement (on-premises) organizations you’ll need to develop your line of solutions. You can use a single organization for most strategies described in this topic. However, if you decide to have only one organization and later realize that you need more, it can be challenging to change the solutions if people have already installed them. Using multiple organizations, although introducing more complexity, can provide better flexibility.  
   
 <a name="BKMK_OptionsToModularize"></a>   
 ## Strategies to organize your solutions  
@@ -48,7 +48,7 @@ Before you create solutions, take some time to plan ahead. For example, think ab
   
 <a name="BKMK_NoCustomSolution"></a>   
 ### No custom solutions  
- You don’t have to create solutions. You can customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] directly by using the default solution.  
+ You don’t have to create solutions. You can customize Dynamics 365 Customer Engagement (on-premises) directly by using the default solution.  
   
  You can still export your default solution as an unmanaged solution to transport it between organizations.  
   
@@ -78,7 +78,7 @@ Before you create solutions, take some time to plan ahead. For example, think ab
 ### Solution libraries  
  For an ISV with multiple solutions or a large enterprise deployment, many solution components will probably have to be shared. The best ways for solutions to share components is through solution libraries. Create a solution library by creating an unmanaged solution in a separate organization and then packaging those components into a managed solution. Install the managed solution into another organization and let developers reference these shared components.  
   
- The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Solutions Framework lets you build layers of solutions that depend on each other. Typically, you create a solution library representing a ”base” solution. Other solutions can be built on top of this base solution. This allows for cleaner separation of components. Development teams that are working on solution libraries and those working on the dependent solutions can develop at different paces. The dependent solutions must be created after the solution libraries are installed.  
+ The Dynamics 365 Customer Engagement (on-premises) Solutions Framework lets you build layers of solutions that depend on each other. Typically, you create a solution library representing a ”base” solution. Other solutions can be built on top of this base solution. This allows for cleaner separation of components. Development teams that are working on solution libraries and those working on the dependent solutions can develop at different paces. The dependent solutions must be created after the solution libraries are installed.  
   
  This requires that you create a prerequisite solution that customers must install before they can install a dependent solution. Developers working on the solution libraries can continue to work on them and update them as long as they don’t break any dependent solutions that require them.  
   

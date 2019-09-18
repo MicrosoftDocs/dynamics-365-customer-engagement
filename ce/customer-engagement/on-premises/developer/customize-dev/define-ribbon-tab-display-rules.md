@@ -1,5 +1,5 @@
 ---
-title: "Define ribbon tab display rules (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define ribbon tab display rules (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining ribbon tab displays rules."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, display tabs
 ms.assetid: 08c73aba-26ed-4cf9-aacc-c225140025bc

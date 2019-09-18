@@ -19,7 +19,7 @@ There is currently no Help topic associated with this environment diagnostics ch
   
 -   If the check returns an error, see the following resources to help you troubleshoot the problem:  
   
-    -   [Deploy and operate Dynamics 365 for Customer Engagement (on-premises)](../on-premises/deploy-and-operate-dynamics-365-on-premises.md)
+    -   [Deploy and operate Dynamics 365 for Customer Engagement (on-premises)](../deploy/deploy-and-operate-dynamics-365-on-premises.md)
   
     -   [Dynamics 365 for Customer Engagement Community](https://community.dynamics.com/)  
   

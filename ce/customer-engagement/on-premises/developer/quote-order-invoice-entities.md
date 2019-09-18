@@ -1,5 +1,5 @@
 ---
-title: "Quote, order, and invoice entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Quote, order, and invoice entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about quote, sales order (order), and invoice building."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sales order (order), definition
   - quote; order; and invoice entities, introduction

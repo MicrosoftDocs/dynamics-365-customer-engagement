@@ -1,5 +1,5 @@
 ---
-title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about transaction curreny, which is a multicurrency feature enabling users to perform financial transactions in multiple currencies. Multiple records in different transaction currencies can be aggregated, compared, or analyzed with regard to a single currency using the base currency."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - transaction currency (currency) entity, associating currency to specific records
   - transaction currency properties, actions you can perform

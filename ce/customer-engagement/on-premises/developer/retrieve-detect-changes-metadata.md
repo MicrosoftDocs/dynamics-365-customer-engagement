@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 11c1d485-e5e9-40ac-8ac1-76504ba8bef5
 caps.latest.revision: 29
 author: JimDaly
@@ -32,7 +32,7 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
 ## Strategies for using metadata  
 
- Metadata lets you create applications that adapt as the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement data model changes. Metadata is important for the following types of application:  
+ Metadata lets you create applications that adapt as the Dynamics 365 Customer Engagement (on-premises) data model changes. Metadata is important for the following types of application:  
   
 - UI for client applications  
   
@@ -44,13 +44,13 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
 ### Lightweight query
   
- An example of a lightweight query is when you have a custom web resource UI that provides a select control to display the current options in a Dynamics 365 for Customer Engagement Option Set (Picklist) attribute. You do not want to hard-code these options because you would have to update that code if the available options are ever changed. Instead you can construct a query to just retrieve those options values and labels from the metadata.  
+ An example of a lightweight query is when you have a custom web resource UI that provides a select control to display the current options in a Dynamics 365 Customer Engagement Option Set (Picklist) attribute. You do not want to hard-code these options because you would have to update that code if the available options are ever changed. Instead you can construct a query to just retrieve those options values and labels from the metadata.  
   
- You do not have to cache this data because you can use the <xref:Microsoft.Xrm.Sdk.Metadata.Query> classes to retrieve this data directly from the Dynamics 365 for Customer Engagement application cache.  
+ You do not have to cache this data because you can use the <xref:Microsoft.Xrm.Sdk.Metadata.Query> classes to retrieve this data directly from the Dynamics 365 Customer Engagement application cache.  
   
 ### Persistent metadata cache
   
- When you have an application that must be able to work while disconnected from the Dynamics 365 for Customer Engagement server, or that is sensitive to limited network bandwidth between the client and the server, such as a mobile application, you will want to implement a persistent metadata cache.  
+ When you have an application that must be able to work while disconnected from the Dynamics 365 Customer Engagement server, or that is sensitive to limited network bandwidth between the client and the server, such as a mobile application, you will want to implement a persistent metadata cache.  
   
  With a persistent metadata cache your application will have to query all the necessary metadata the first time it connects. Then you will save that data in the application. The next time the application connects to the server you can retrieve just the difference since your last query, which should be much less data to transmit, and then merge the changes into your metadata cache when your application is loading.  
   
@@ -280,13 +280,13 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
    
 ### Performance when retrieving deleted metadata 
  
- When a metadata item is deleted it is saved in the database and not in the Dynamics 365 for Customer Engagement metadata cache. Although the deleted metadata is limited to just the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> and the type of metadata item, accessing the database is an operation that will require more server resources than just querying for changes.  
+ When a metadata item is deleted it is saved in the database and not in the Dynamics 365 Customer Engagement metadata cache. Although the deleted metadata is limited to just the <xref:Microsoft.Xrm.Sdk.Metadata.MetadataBase.MetadataId> and the type of metadata item, accessing the database is an operation that will require more server resources than just querying for changes.  
   
 ### See also  
  [Write Applications and Server Extensions](extend-dynamics-365-server.md)   
- [Offline Use of the Dynamics 365 for Customer Engagement Services](org-service/offline-use-services.md)   
+ [Offline Use of the Dynamics 365 Customer Engagement Services](org-service/offline-use-services.md)   
  [Sample: Query Metadata and Detect Changes](org-service/sample-query-metadata-detect-changes.md)   
- [Extend the Metadata Model for Dynamics 365 for Customer Engagement](org-service/use-organization-service-metadata.md)   
+ [Extend the Metadata Model for Dynamics 365 Customer Engagement](org-service/use-organization-service-metadata.md)   
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
