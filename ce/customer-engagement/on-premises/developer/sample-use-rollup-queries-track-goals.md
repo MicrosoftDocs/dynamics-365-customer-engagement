@@ -1,5 +1,5 @@
 ---
-title: "Sample: Use rollup queries to track goals (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Use rollup queries to track goals (Developer Guide for Dynamics 365)| MicrosoftDocs"
 description: "This sample demonstrates how to use rollup queries to track goals"
 ms.custom: 
 ms.date: 10/31/2017
@@ -25,7 +25,7 @@ search.app:
 ---
 # Sample: Use rollup queries to track goals
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34).
+This sample code is for Dynamics 365(on-premises). [Download the Goals samples](https://code.msdn.microsoft.com/Goals-Samples-539b2a34).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
