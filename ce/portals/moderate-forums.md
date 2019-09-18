@@ -26,7 +26,7 @@ The moderators are users of the forum who are granted access to the forum's thre
 
 ## Assign moderators to forums in Dynamics 365 for Customer Engagement
 
-To specify moderators for a forum within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the contact record of the portal user must be assigned to a web role that is associated with a Forum Access Permission record that has the Right set to Grant Change. For more information, see [Create web roles for portals](create-web-roles.md).  
+To specify moderators for a forum within Dynamics 365 for Customer Engagement, the contact record of the portal user must be assigned to a web role that is associated with a Forum Access Permission record that has the Right set to Grant Change. For more information, see [Create web roles for portals](create-web-roles.md).  
 
 ## Forum moderation within the portal
 

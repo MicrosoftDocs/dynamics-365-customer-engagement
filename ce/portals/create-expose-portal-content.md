@@ -24,11 +24,11 @@ search.app:
 
 # Create and expose portal content easily
 
-The true potential of a portal connected with [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is achieved when you can take data from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and make it available on your portal to the right audience, based on user access. To create a webpage by using entity forms and entity lists is a complex task. A new administrative wizard helps simplify this process. You can use this wizard to create and expose portal content easily by filling in the minimum required fields.
+The true potential of a portal connected with Dynamics 365 for Customer Engagement is achieved when you can take data from Dynamics 365 for Customer Engagement and make it available on your portal to the right audience, based on user access. To create a webpage by using entity forms and entity lists is a complex task. A new administrative wizard helps simplify this process. You can use this wizard to create and expose portal content easily by filling in the minimum required fields.
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Administration** > **Portal Management**. The Portal Management page is displayed.
 

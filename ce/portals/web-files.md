@@ -25,13 +25,13 @@ search.app:
 
 A web file represents downloadable file in a portals website, used to store images, documents, and any other file type.
 
-To store the actual contents of a given file, portals uses the attachment feature of the notes associated with a web file record. The file attachment of the newest note associated with the web file is used as the file content. As such, the size of web file content that can be supported by portals is determined by the note attachment size supported by your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] installation.
+To store the actual contents of a given file, portals uses the attachment feature of the notes associated with a web file record. The file attachment of the newest note associated with the web file is used as the file content. As such, the size of web file content that can be supported by portals is determined by the note attachment size supported by your Dynamics 365 for Customer Engagement installation.
 
 ## Manage web files in Dynamics 365 for Customer Engagement
 
-Web files can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Web files can be created, edited, and deleted within Dynamics 365 for Customer Engagement.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Web Files**.
 
@@ -81,7 +81,7 @@ For portal users with content management permissions, files can be managed using
 9. Select **Save**.
 
 > [!NOTE]
-> When a web file is deleted through the portal front-side editing interface, its record is not deleted permanently from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Instead, it is moved to the Inactive state. It will cease to be visible on the portal, but can be viewed or reactivated by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] user.
+> When a web file is deleted through the portal front-side editing interface, its record is not deleted permanently from Dynamics 365 for Customer Engagement. Instead, it is moved to the Inactive state. It will cease to be visible on the portal, but can be viewed or reactivated by a Dynamics 365 for Customer Engagement user.
 
 ### Web file attributes
 

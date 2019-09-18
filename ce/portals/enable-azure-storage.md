@@ -28,7 +28,7 @@ search.app:
 
 You must create a storage account with **Resource manager** as the deployment model. [!include[More information](../includes/proc-more-information.md)] [Create an Azure storage account](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
 
-After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
+After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. From Dynamics 365 for Customer Engagement, go to **Settings** > **Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
 
 > [!NOTE]
 > The maximum file upload size is 125 MB.
@@ -53,7 +53,7 @@ To locate the value for FileStorage/CloudStorageAccount, you must get a connecti
 
 If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)] Blob container in your storage account, you must add one by using your [!include[Azure portal](../includes/pn-azure-portal.md)].
 
-From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
+From Dynamics 365 for Customer Engagement, go to **Settings** > **Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
 
 ![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for your cloud storage container")
 
@@ -79,7 +79,7 @@ Add the following site settings from **Portals** > **Site Settings**. [!include[
 |WebFiles/StorageLocation|AzureBlobStorage|
 |||
 
-You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
+You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your portal capabilities for Dynamics 365 for Customer Engagement application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
 
 ### See also
 

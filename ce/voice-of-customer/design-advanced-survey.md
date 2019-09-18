@@ -32,7 +32,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -238,10 +238,10 @@ To add an answer tag:
 
 ## Add the unsubscribe option to a survey
 
-You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the respondent's contact preferences can be updated to prevent further surveys being sent.
+You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in Dynamics 365 for Customer Engagement, the respondent's contact preferences can be updated to prevent further surveys being sent.
 
 > [!NOTE]
-> Unsubscribe actions work only for customer records stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and not for anonymous surveys.
+> Unsubscribe actions work only for customer records stored in Dynamics 365 for Customer Engagement and not for anonymous surveys.
 
 
 1.  [Create a survey that contains the questions to capture reasons for unsubscribing.](design-basic-survey.md#create-or-edit-a-survey)  
@@ -262,7 +262,7 @@ You can configure your survey to create a lead automatically from a survey respo
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -335,7 +335,7 @@ You can configure your survey to automatically send an email response to the cus
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 

@@ -27,9 +27,9 @@ A forum is an online discussion that allows users to hold conversations in the f
 
 ## Manage forums in Dynamics 365 for Customer Engagement
 
-Forums can be created, edited and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Forums can be created, edited and deleted within Dynamics 365 for Customer Engagement.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Community** > **Forums**.
 

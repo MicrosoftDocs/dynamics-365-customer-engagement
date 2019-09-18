@@ -23,15 +23,15 @@ search.app:
 
 ## Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal
 
-After your portal is created and provisioned, you can change the details of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and portal.
+After your portal is created and provisioned, you can change the details of your Dynamics 365 for Customer Engagement instance and portal.
 
 1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and then select the **Applications** tab.
 
 2. Select the name of the portal you want to edit, and then select **Manage**.
 
-3. Select the **Manage Dynamics 365 Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance that is currently linked to your portal.
+3. Select the **Manage Dynamics 365 Instance** tab. [!INCLUDE[proc-on-this-page](../includes/proc-on-this-page.md)], you can review the Dynamics 365 for Customer Engagement instance that is currently linked to your portal.
 
-4. Select **Update Dynamics 365 Instance**. In the dialog box, use the provided fields to change your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, portal development status, portal language, or your portal administrator. You can also keep the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance, but change the portal audience or type of portal.
+4. Select **Update Dynamics 365 Instance**. In the dialog box, use the provided fields to change your Dynamics 365 for Customer Engagement instance, portal development status, portal language, or your portal administrator. You can also keep the same Dynamics 365 for Customer Engagement instance, but change the portal audience or type of portal.
 
     > [!NOTE]
     > You can also select a Dynamics 365 instance that uses Common Data Service to provision a Common Data Service starter portal. More information: [Common Data Service starter portal](cds-portal.md)

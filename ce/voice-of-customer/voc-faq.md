@@ -26,27 +26,27 @@ We have compiled a list of frequently asked questions and provided brief answers
 
 ## How to install Voice of the Customer solution earlier than 9.0?
 
-Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is a preferred solution that you install from [!INCLUDE[pn-ms-office](../includes/pn-ms-office.md)] 365. More information about how to install preferred solutions: [Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909)  
+Voice of the Customer for Dynamics 365 for Customer Engagement is a preferred solution that you install from [!INCLUDE[pn-ms-office](../includes/pn-ms-office.md)] 365. More information about how to install preferred solutions: [Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909)  
 
 > [!NOTE] 
 > If you're using Voice of the Customer version 9.0.781.3 or earlier, maximum number of survey responses you can pull per day is **2,400**.
 
 ### Enable and configure Voice of the Customer
 
-After you've installed the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] preferred solution, you need to enable and configure it in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+After you've installed the Voice of the Customer for Dynamics 365 for Customer Engagement preferred solution, you need to enable and configure it in Dynamics 365 for Customer Engagement.
 
 1. Go to **Settings** &gt; **Customizations**.
 
 2. Select **Solutions**.
 
-3. In the list of available solutions, select **Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+3. In the list of available solutions, select **Voice of the Customer for Dynamics 365 for Customer Engagement**.
  
 4. In the **Voice of the Customer for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Configuration** screen, select **I agree to the terms and conditions** and select **Enable Voice of the Customer for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]**.
 
-When the configuration is complete, you can start using the Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] solution.
+When the configuration is complete, you can start using the Voice of the Customer for Dynamics 365 for Customer Engagement solution.
 
 > [!IMPORTANT]
-> The Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] compliance boundary.
+> The Voice of the Customer for Dynamics 365 for Customer Engagement preferred solution connects to an external service that isn't completely within the Dynamics 365 for Customer Engagement compliance boundary.
 
 ## What happens if I open a survey by using developer tools in a web browser?
 

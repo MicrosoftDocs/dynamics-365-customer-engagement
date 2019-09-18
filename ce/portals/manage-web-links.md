@@ -27,9 +27,9 @@ A web link can link to any URL or it can link to another webpage within the same
 
 ## Manage web links in Dynamics 365 for Customer Engagement
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the portal customizations have been imported into the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, web links can be managed from a web link set.
+For Dynamics 365 for Customer Engagement users, once the portal customizations have been imported into the Dynamics 365 for Customer Engagement organization, web links can be managed from a web link set.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Web Link Sets**.
 
@@ -104,7 +104,7 @@ The table below explains many of the standard Web Link Set properties used by po
 
 ## Web link attributes and relationships
 
-The table below explains many of the standard Web Link properties used by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals. It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
+The table below explains many of the standard Web Link properties used by Dynamics 365 for Customer Engagement portals. It is important to note that the way in which many of the content/display-oriented properties are rendered is controlled by the page template used.
 
 
 |           Name           |                                                                                                               Description                                                                                                               |

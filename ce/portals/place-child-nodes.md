@@ -25,11 +25,11 @@ search.app:
 # Place child nodes by using shortcuts for portals
 Use shortcuts to place child nodes throughout your portal's sitemap that simply point to other nodes that exist in your sitemap, or to URLs external to your portal. In other words, webpages, web files, events, and forums can all be considered "solid" nodes of your portal's sitemap: they are added to your sitemap and when you navigate to them, you see the actual content of those nodes directly. Shortcuts, on the other hand, can be considered “intangible” nodes: they are also added to the sitemap (unlike web links, which are not), but when you navigate to them, you see the content for the target "solid" node that the shortcut points to, and that content is rendered by the page template for that node.
 
-## Manage shortcuts in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage shortcuts in Dynamics 365 for Customer Engagement
 
-Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Creating, editing, and deleting shortcuts can be done within Dynamics 365 for Customer Engagement.
 
-1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**. 
+1. Sign in to **Dynamics 365 for Customer Engagement**. 
 2. Go to **Portals** &gt; **Shortcuts**. 
 3. To create a shortcut: Select **New**. 
 4. To edit an existing Shortcut: Double-click to select the existing **Shortcut** listed in the grid. 
@@ -55,7 +55,7 @@ Creating, editing, and deleting shortcuts can be done within [!INCLUDE[pn-dynami
 ||
 
 > [!Note]
-> A shortcut needs only to have **one** of the 'Target' fields (External URL, Web Page, Survey, Web File, Event, Forum) assigned a value, and a shortcut will only have one target. For example, a shortcut does not point at both a Web Page and a survey, or an External URL and a Web File. If more than one target attribute exists for a shortcut, the shortcut will just take the first one, ignoring all others. The order of priority for which target will be chosen is reflected on the main [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] shortcut form. So, it will first check if there exists an External URL for the shortcut, and if there is, then the shortcut's target will be the External URL and all other target attributes will be ignored. If there is no External URL, then the shortcut will check the Web Page, then the Survey, Web file, Event, and finally Forum. 
+> A shortcut needs only to have **one** of the 'Target' fields (External URL, Web Page, Survey, Web File, Event, Forum) assigned a value, and a shortcut will only have one target. For example, a shortcut does not point at both a Web Page and a survey, or an External URL and a Web File. If more than one target attribute exists for a shortcut, the shortcut will just take the first one, ignoring all others. The order of priority for which target will be chosen is reflected on the main Dynamics 365 for Customer Engagement shortcut form. So, it will first check if there exists an External URL for the shortcut, and if there is, then the shortcut's target will be the External URL and all other target attributes will be ignored. If there is no External URL, then the shortcut will check the Web Page, then the Survey, Web file, Event, and finally Forum. 
 
 ## Secure shortcuts
 

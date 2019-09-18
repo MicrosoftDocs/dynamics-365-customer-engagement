@@ -57,7 +57,7 @@ You can use partner accounts to keep track of your various partners. We recommen
 
 ## Associate partner contacts with an account
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contacts become partner contacts when they are associated with a partner account. To associate a contact with a partner account when creating or editing a contact, enter the name of a partner account in the Account Name field.
+Dynamics 365 for Customer Engagement contacts become partner contacts when they are associated with a partner account. To associate a contact with a partner account when creating or editing a contact, enter the name of a partner account in the Account Name field.
 
 ## Assign a permission set to a web role for portals
 Website Access Permissions is a permission set, associated with a web role, that permits front-side editing of the various content managed elements within the portal other than just webpages. The permission settings determine which components can be managed in the portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create web roles for portals](create-web-roles.md)  

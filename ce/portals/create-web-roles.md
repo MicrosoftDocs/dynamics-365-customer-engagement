@@ -27,7 +27,7 @@ After a contact has been configured to use the portal, it must be given one or m
 
 To create a web role:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Web Roles**.
 
@@ -39,7 +39,7 @@ To create a web role:
 
 ## Attributes and relationships
 
-The table below explains the Web Role attributes used by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals.
+The table below explains the Web Role attributes used by Dynamics 365 for Customer Engagement portals.
 
 | Name                     | Description                                                                                                                                                                                                                                     |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

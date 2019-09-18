@@ -20,7 +20,7 @@ topic-status: Drafting
 > [!IMPORTANT]
 > Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
-The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, customers can control the use of their personal data in Dynamics 365 for Customer Engagement.
 
 > [!NOTE]
 > - The Voice of the Customer solution will be GDPR compliant if:
@@ -29,7 +29,7 @@ The General Data Protection Regulation (GDPR) is a legal act of the European Uni
 > - Installing GDPR compliant Voice of Customer solution does not guarantee GDPR compliance. Dynamics 365 for Customer Engagement should also be GDPR compliant.
 > - Customers can enable auditing on Voice of the Customer entities to allow administrators to periodically review audit logs for Voice of the Customer records. For information on enabling auditing on entities, see [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/configure-entities-attributes-auditing).
 
-As an administrator, your customers can contact you with the following requests regarding their data stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]:
+As an administrator, your customers can contact you with the following requests regarding their data stored in Dynamics 365 for Customer Engagement:
 
 - View
 - Export

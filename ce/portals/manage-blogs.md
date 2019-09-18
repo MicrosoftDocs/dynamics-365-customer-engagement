@@ -27,11 +27,11 @@ Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-micros
 
 ## Manage blogs in Dynamics 365 for Customer Engagement
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Blog records under the Portals tab after your portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+Dynamics 365 for Customer Engagement users can manage Blog records under the Portals tab after your portal customizations have been imported into your Dynamics 365 for Customer Engagement organization.
 
 ## Manage blogs on a portal
 
-Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal editing interface, it must be created and initially configured in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Portal users who have blog author permissions can edit or delete blogs by using the portal inline editing interface. If your portal contact has been assigned the necessary permissions, the inline editing interface will appear automatically when you sign in to the portal. Note that although a blog can be edited or deleted through the portal editing interface, it must be created and initially configured in Dynamics 365 for Customer Engagement.
 
 To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
 
@@ -75,7 +75,7 @@ It is important to note that the way in which many of the content/display-orient
 
 ## Manage blog posts in Dynamics 365 for Customer Engagement
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
+For Dynamics 365 for Customer Engagement users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
 
 ## Manage blogs posts on a portal
 

@@ -34,7 +34,7 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Settings** > **Voice of the Customer Configurations**.
 
@@ -63,7 +63,7 @@ To validate the Voice of the Customer solution:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Settings** > **Voice of the Customer Configurations**.
 
@@ -93,7 +93,7 @@ To validate the Voice of the Customer solution:
 
 As a survey administrator, you can validate whether a survey has created any issues.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to Dynamics 365 for Customer Engagement or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** > **Surveys**.
 

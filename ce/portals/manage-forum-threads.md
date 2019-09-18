@@ -27,14 +27,14 @@ A forum thread (sometimes called a topic) is a collection of posts, usually disp
 
 ## Manage forum threads in Dynamics 365 for Customer Engagement
 
-You can create, edit, and delete forum threads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+You can create, edit, and delete forum threads in Dynamics 365 for Customer Engagement.
 
 > [!Note]
-> Although you can create forum threads in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], we recommend you do this in the portal, where the process is less involved and ensures the thread is correctly associated with the original forum post.
+> Although you can create forum threads in Dynamics 365 for Customer Engagement, we recommend you do this in the portal, where the process is less involved and ensures the thread is correctly associated with the original forum post.
 
 ### Create or edit forum threads
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Community** > **Forum Threads**.
 
@@ -89,7 +89,7 @@ The table below explains many of the Forum Thread attributes used by portals. It
 
 ### Create, edit, and delete forum thread types
 
-1. Sign in to **[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]**.
+1. Sign in to **Dynamics 365 for Customer Engagement**.
 2. Navigate to **Community**. 
 3. Select **Forum Thread Types**.
 4. To create a new thread type, select **New**.

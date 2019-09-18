@@ -30,7 +30,7 @@ search.app:
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-You can configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] apps (Sales, Service, or Marketing) preinstalled.
+You can configure your portal to connect to the Common Data Service environment and allow your users to interact with it. This feature brings in the ability to connect a portal to a Common Data Service environment that does not have any Dynamics 365 for Customer Engagement apps (Sales, Service, or Marketing) preinstalled.
 
 The Common Data Service starter portal comes with the sample data for you to quickly get started. It also has the following built-in page templates:
 
@@ -73,7 +73,7 @@ The following table summarizes the features associated with the Common Data Serv
 |||
 
 > [!NOTE]
-> The Common Data Service starter portal cannot be used on a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
+> The Common Data Service starter portal cannot be used on a Dynamics 365 for Customer Engagement organization.
 
 ## Provision a Common Data Service starter portal
 

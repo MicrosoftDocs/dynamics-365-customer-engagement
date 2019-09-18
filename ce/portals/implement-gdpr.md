@@ -26,7 +26,7 @@ search.app:
 
 # Implementing General Data Protection Regulations in your Dynamics 365 for Customer Engagement portals
 
-The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in Dynamics 365 for Customer Engagement.
 
 As an administrator, you can configure your portal to meet GDPR standards. For example, minors must have parental consent to use the portal. You can also establish terms and conditions for people who use your portal. Users must agree to the terms and conditions to use the portal.
 
@@ -34,7 +34,7 @@ GDPR allows you to obtain consent from portal users about the use of their perso
 
 ## Audit logging
 
-The **Last Successful Sign-in** field in the portal contact record shows when a portal user has last logged in. This date is picked up by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] audit of the contact record and makes that information available in the standard audit stream. This allows the administrator to see inactive community members and delete their records.
+The **Last Successful Sign-in** field in the portal contact record shows when a portal user has last logged in. This date is picked up by a Dynamics 365 for Customer Engagement audit of the contact record and makes that information available in the standard audit stream. This allows the administrator to see inactive community members and delete their records.
 
 > [!NOTE]
 > The login tracking feature has been deprecated. It is recommended to use an analytics technology like Azure Application Insights to capture this kind of information. To see the list of deprecated features, click [here](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/).

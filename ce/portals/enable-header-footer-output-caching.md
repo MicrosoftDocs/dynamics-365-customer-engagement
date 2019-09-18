@@ -39,7 +39,7 @@ For a user who upgraded to a newer version of Portals, output caching is disable
 
 **Step 1: Update the Header web template**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 2. Go to **Portals** > **Web Templates**.
 3. Open the Header web template.
 4. In the **Source** field, do the following:
@@ -135,7 +135,7 @@ For a user who upgraded to a newer version of Portals, output caching is disable
 
 **Step 2: Update the Footer web template**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 2. Go to **Portals** > **Web Templates**.
 3. Open the Footer web template.
 4. In the **Source** field, find the following code and update it:
@@ -156,7 +156,7 @@ For a user who upgraded to a newer version of Portals, output caching is disable
 
 **Step 3: Update the Languages Dropdown web template**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 2. Go to **Portals** > **Web Templates**.
 3. Open the Languages Dropdown web template.
 4. In the **Source** field, find the following code and update it:

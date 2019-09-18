@@ -27,7 +27,7 @@ This section helps you understand how to create a new category for knowledge art
 
 ## Create a new category for knowledge articles
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Settings** > **Service Management**. 
 
@@ -70,7 +70,7 @@ This section helps you understand how to create a new category for knowledge art
 
 ## Delete a knowledge category
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Settings** > **Service Management**. 
 

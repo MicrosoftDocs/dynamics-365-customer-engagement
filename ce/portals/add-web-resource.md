@@ -24,7 +24,7 @@ search.app:
 
 # Add the Azure Storage web resource to a form
 
-Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] can be managed by using notes in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Attachments uploaded to [!include[Azure](../includes/pn-azure-shortest.md)] Storage instead of directly to Dynamics 365 for Customer Engagement can be managed by using notes in Dynamics 365 for Customer Engagement.
 
 To enable attachments from a particular form to be uploaded into [!include[Azure](../includes/pn-azure-shortest.md)] Storage, you must add a web resource to that form and you must [configure Azure Storage for your organization](enable-azure-storage.md).
 
@@ -35,7 +35,7 @@ When a file (for example, attachments.zip) is uploaded to [!include[Azure](../in
 
 ![Attachment on a form](media/notes-attachment-lead-form.png "Placeholder for the attachment on a form")
 
-Note that the attachment file is now named attachment.zip.txt. By default, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has no conception of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
+Note that the attachment file is now named attachment.zip.txt. By default, Dynamics 365 for Customer Engagement has no conception of an [!include[Azure](../includes/pn-azure-shortest.md)] file, so this placeholder .txt file is stored in Dynamics 365 for Customer Engagement instead. The [!include[Azure](../includes/pn-azure-shortest.md)] Storage context for the placeholder file shows details about the file.
 ```
 {
  Name: attachment.zip,
@@ -69,7 +69,7 @@ The new control will now be rendered on the page, giving you the ability to mana
 
 ![Azure file attachment on a form](media/azure-file-attachment-lead-form.png "Azure file attachment on a form")
 
-The paper-clip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You can continue to store attachments in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]; those files will be denoted with the paper-clip icon.
+The paper-clip icon has been replaced with a cloud icon to denote that this file is stored in [!include[Azure](../includes/pn-azure-shortest.md)] Storage. You can continue to store attachments in Dynamics 365 for Customer Engagement; those files will be denoted with the paper-clip icon.
 
 > [!Note]
 > You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](../includes/pn-azure-shortest.md)] Storage account as follows, otherwise you will see the regular attachment icon rather than the cloud icon.
@@ -81,7 +81,7 @@ The paper-clip icon has been replaced with a cloud icon to denote that this file
 > 
 > [!include[More information](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services).
 
-If the attached file is an image, the control will display the image as a thumbnail whether it is stored in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [!include[Azure](../includes/pn-azure-shortest.md)] Storage.
+If the attached file is an image, the control will display the image as a thumbnail whether it is stored in Dynamics 365 for Customer Engagement or [!include[Azure](../includes/pn-azure-shortest.md)] Storage.
 
 > [!Note]
 > The thumbnail feature is limited to images under 1 MB in size.

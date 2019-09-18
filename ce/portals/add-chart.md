@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 
-# Add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a webpage in portal
+# Add a Dynamics 365 for Customer Engagement chart to a webpage in portal
 
 You add a chart to a webpage by using a Liquid tag named [Chart](dynamics-entity-tags.md#chart). You can add the chart Liquid tag in the **Copy** field on a webpage or in the **Source** field on a [Web template](store-content-web-templates.md).
  
@@ -82,11 +82,11 @@ If permission is not granted, the user will see an access denied message.
 
 ## Unsupported charts and chart types
 
-The following [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart types are currently not supported in portals:
+The following Dynamics 365 for Customer Engagement chart types are currently not supported in portals:
 - Doughnut
 - Tag
 
-The following table lists the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] charts that are currently not supported in portals.
+The following table lists the Dynamics 365 for Customer Engagement charts that are currently not supported in portals.
 
 | Chart Name                              | Chart ID                             | Entity Type      |
 |-----------------------------------------|--------------------------------------|------------------|

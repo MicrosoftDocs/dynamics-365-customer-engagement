@@ -30,7 +30,7 @@ Content snippets are small chunks of editable content that can be placed by a de
 
 ## Edit snippets
 
-Snippets can be edited either through the front-side or through the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] interface. The main power of the snippet is the fact that you can abstract a bit of content (other than the main copy of the page) and edit it separately, allowing essentially any static content on your site to be fully content-managed and front-side editable but still backed by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Snippets can be edited either through the front-side or through the Dynamics 365 for Customer Engagement interface. The main power of the snippet is the fact that you can abstract a bit of content (other than the main copy of the page) and edit it separately, allowing essentially any static content on your site to be fully content-managed and front-side editable but still backed by Dynamics 365 for Customer Engagement.
 
 ## Edit by using the front-side editing engine
 

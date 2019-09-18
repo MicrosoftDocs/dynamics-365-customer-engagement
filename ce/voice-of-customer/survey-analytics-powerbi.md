@@ -20,7 +20,7 @@ ms.reviewer:
 > [!IMPORTANT]
 > Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
-Using the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app or service content pack for Power BI, you can connect to your Voice of the Customer for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
+Using the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app or service content pack for Power BI, you can connect to your Voice of the Customer for Dynamics 365 for Customer Engagement instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
 
 ## Install and configure Voice of the Customer Analytics for Dynamics 365
 
@@ -47,9 +47,9 @@ To install as an app:
 
 4. In AppSource, select the **Apps** tab.
 
-5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
+5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app, and then select **Get it now**. A wizard opens to connect to the Dynamics 365 for Customer Engagement instance.
 
-6. Enter the URL associated to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] account and select **Next**.
+6. Enter the URL associated to your Dynamics 365 for Customer Engagement account and select **Next**.
 
 7. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
 
@@ -69,9 +69,9 @@ To install as a service content pack:
 
 5. In AppSource, select the **Apps** tab.
 
-6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] instance.
+6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] app, and then select **Get it now**. A wizard opens to connect to the Dynamics 365 for Customer Engagement instance.
 
-7. Enter the URL associated to your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] account and select **Next**.
+7. Enter the URL associated to your Dynamics 365 for Customer Engagement account and select **Next**.
 
 8. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
 
@@ -166,7 +166,7 @@ The data is displayed in the following tiles:
 
 ### Surveys
 
-The Survey page in the report displays insights of the surveys created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. The data on the page is displayed in tiles. You can filter the data by using the following filters:
+The Survey page in the report displays insights of the surveys created in Dynamics 365 for Customer Engagement. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
 - **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.

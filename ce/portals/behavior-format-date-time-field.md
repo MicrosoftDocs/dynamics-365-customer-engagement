@@ -24,7 +24,7 @@ search.app:
 
 # Behavior and format of the date and time field
 
-In Microsoft [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign, or show the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose one of the following field behaviors for portal forms and grids: 
+In Microsoft Dynamics 365 for Customer Engagement, the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign, or show the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose one of the following field behaviors for portal forms and grids: 
 - **User Local**: The field values are displayed in the user’s local time and formatted as per their current portal language/locale. The values are stored in UTC time zone format in Dynamics 365 for Customer Engagement. When a user in Dynamics 365 for Customer Engagement (or another portal user) in a different time zone views that value, they see it converted to their own time zone.
 - **Date Only**: The field values only contain the date and are displayed with no time zone conversion. The time portion of the value is always 12:00 AM. The value entered by one user is seen the same by other users in different time zones (for example, birth dates).
   

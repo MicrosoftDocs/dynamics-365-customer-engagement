@@ -31,9 +31,9 @@ By default, two publishing states are available: Draft and Published. Draft spec
 
 ## Manage publishing states in Dynamics 365 for Customer Engagement
 
-Publishing states can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+Publishing states can be created, edited, and deleted within Dynamics 365 for Customer Engagement.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Websites**.
 
@@ -78,7 +78,7 @@ To be precise, publishing state transition rules govern the transitions between 
 
 If the logged-in user who is attempting the change is in any of the roles you assign to the rule, the transition will be successful. If a user does not have permissions to make a change from one rule to another, then the front-side editing will not allow them to make that change. Alternatively, you can create the rule; then as you create web roles add the rule to the web roles. One rule can be associated with any number of web roles and vice versa.
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Publishing State Transition Rules**.
 

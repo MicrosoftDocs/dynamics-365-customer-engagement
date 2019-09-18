@@ -23,7 +23,7 @@ search.app:
 ---
 # Configure a Dynamics 365 for Customer Engagement portal
 
-Learn how to configure portals and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals offer powerful customization options to:
+Learn how to configure portals and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Dynamics 365 for Customer Engagement portals offer powerful customization options to:
 
 - [Configure site settings for portals to modify the behavior or visual style of a portal](configure-site-settings.md)  
 - [Add dynamic content to pages and create a wide variety of custom templates](custom-templates-dynamic-content.md)  

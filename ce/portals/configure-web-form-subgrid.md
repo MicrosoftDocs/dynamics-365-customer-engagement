@@ -25,7 +25,7 @@ search.app:
 
 Web form subgrids are configured in an identical fashion to entity form subgrids: first, create a metadata record for the Web form step that has a subgrid, and then add configuration metadata.
 
-Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form that you are managing by using the out-of-the-box [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer, and you’re done. The grid will use the view that is specified in the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form designer, show only related records if that option was chosen in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
+Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the Dynamics 365 for Customer Engagement form that you are managing by using the out-of-the-box Dynamics 365 for Customer Engagement form designer, and you’re done. The grid will use the view that is specified in the Dynamics 365 for Customer Engagement form designer, show only related records if that option was chosen in Dynamics 365 for Customer Engagement, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
 
 ## Add subgrid metadata to your form
 
@@ -38,7 +38,7 @@ To edit an existing record, select the record in the grid. Selecting **Subgrid**
 
 |     Name     |                                                       Description                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------|
-| Subgrid Name | The unique name of the subgrid on the entity's related [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] form. |
+| Subgrid Name | The unique name of the subgrid on the entity's related Dynamics 365 for Customer Engagement form. |
 |              |                                                                                                                          |
 
 Selecting the subgrid in the form editor will display a properties window. This contains a **Name** field that should be used to assign to the **Subgrid Name** field on the Entity Form Metadata record.

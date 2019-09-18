@@ -35,7 +35,7 @@ Website Access Permissions is a permission set, associated with a [web role](cre
 
 To create a website access permission and add it to a web role:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Website Access Permissions**.
 

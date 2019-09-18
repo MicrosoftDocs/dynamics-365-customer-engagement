@@ -24,13 +24,13 @@ search.app:
 
 # Create and manage website bindings
 
-In a portal, the default method of selecting a website from within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is finding a website by matching the name of the website defined in the web.config file of that particular portal. Website bindings provide alternative methods of selecting a website from [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] when loading a portal by using the host name and or path of the request to select the appropriate website in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. This eliminates the need to modify separate web.config files for each version of a specific website. This streamlines the deployment of portals across various development, staging, and production environments. Furthermore, this allows a common portal codebase to operate multiple websites.
+In a portal, the default method of selecting a website from within Dynamics 365 for Customer Engagement is finding a website by matching the name of the website defined in the web.config file of that particular portal. Website bindings provide alternative methods of selecting a website from Dynamics 365 for Customer Engagement when loading a portal by using the host name and or path of the request to select the appropriate website in Dynamics 365 for Customer Engagement. This eliminates the need to modify separate web.config files for each version of a specific website. This streamlines the deployment of portals across various development, staging, and production environments. Furthermore, this allows a common portal codebase to operate multiple websites.
 
 ## Manage website bindings
 
-Website bindings can be created, edited, and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
+Website bindings can be created, edited, and deleted within Dynamics 365 for Customer Engagement. 
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 for Customer Engagement.
 
 2. Go to **Portals** > **Website Bindings**.
 
@@ -48,7 +48,7 @@ These are the attributes common to all bindings.
 
 |Name|Description|
 |-----|----------|
-|Name| A title to identify the website binding when viewing the records in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].|
+|Name| A title to identify the website binding when viewing the records in Dynamics 365 for Customer Engagement.|
 |Website|The [website](websites.md) that should be selected by the portal.|
 |Release Date|A date that determines when the website is allowed to be selected.|
 |Expiration Date|A date that determines when the website will stop being selected.|
