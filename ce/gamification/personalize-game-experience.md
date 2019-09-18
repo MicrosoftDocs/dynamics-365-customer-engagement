@@ -1,10 +1,9 @@
 ---
-title: "Personalize the game experience in Dynamics 365 for Customer Engagement – Gamification | Microsoft Docs"
-description: "Learn how to manage the settings that apply to all users of Dynamics 365 for Customer Engagement – Gamification."
+title: "Personalize the game experience in Dynamics 365 – Gamification | Microsoft Docs"
+description: "Learn how to manage the settings that apply to all users of Dynamics 365 – Gamification."
 ms.date: 09/28/2018
 ms.service: dynamics-365-sales
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 6603e30d-19bc-4bcf-a48a-c8fb9cb84a54
 author: m-hartmann
 ms.author: mhart
@@ -26,7 +25,7 @@ As a commissioner, you can upload custom logos, provide a pointer for players to
 
 ## Generate a security key
 
-The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] with a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization. If you disconnect the web portal from Dynamics 365 for Customer Engagement (online) and want to connect it again, click **Generate Security Key** to get a new key.
+The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] with a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization. If you disconnect the web portal from Dynamics 365 and want to connect it again, click **Generate Security Key** to get a new key.
 If you are already connected to a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization, you can remove it after all active games are completed. 
 
 > [!WARNING]
