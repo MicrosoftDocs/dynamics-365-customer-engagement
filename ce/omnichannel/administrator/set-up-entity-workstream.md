@@ -13,7 +13,7 @@ ms.assetid: 62703F93-3484-4D3E-B682-A9601619567F
 ms.custom: 	
 ---	
 
-# Entity record workstreams
+# Preview - Entity record workstreams
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
