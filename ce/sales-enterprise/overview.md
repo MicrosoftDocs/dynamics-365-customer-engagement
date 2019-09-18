@@ -37,7 +37,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
     > [!IMPORTANT]
     > With the April 2019 release, any new subscription to Dynamics 365 Sales will not have the Sales app (web client). The existing organizations where the Sales app was available will show a notification prompting users to update their legacy web client apps to Unified Interface. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Update your apps to Unified Interface](../admin/update-apps-to-unified-interface.md), [Enable Unified Interface Only mode](../admin/enable-unified-interface-only.md)
 
-- The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. 
+- The Sales Professional app is similar to the Sales Hub app, but the entities included in the Sales Professional app are a subset of the entities included in the Sales Enterprise. More information: [Overview of Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md)
 
   > [!NOTE]
   > 
@@ -46,11 +46,6 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 The following image shows the menu of the Sales Hub app, which is the Unified Interface app for Dynamics 365 Sales.
 
 ![Menu of the Sales Hub app](../sales-enterprise/media/menu-sales-hub-app.png "Menu of the Sales Hub app")
-
-
-The following image shows the menu for the Sales app or the Sales module in the Dynamics 365 - custom app.
-
-![Menu of the Sales app](../sales-enterprise/media/sales_overview_intro.png "Menu of the Sales app")
 
 ## What Dynamics 365 Sales offers
 
@@ -62,7 +57,7 @@ The following image shows the menu for the Sales app or the Sales module in the 
 
 - Manage customers and deals wherever you are, on any device (phone, tablet, PC, or Mac).
 
-- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with [!include[](../includes/pn-office-365.md)] apps, which makes it easier to get going more quickly:
+- Get productive faster by using familiar tools. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] is tightly integrated with [!include[Office 365](../includes/pn-office-365.md)] apps, which makes it easier to get going more quickly:
 
   - Use [!INCLUDE[pn-sharepoint-short](../includes/pn-sharepoint-short.md)] to store and view documents like presentations or notes in the context of a record, such as an opportunity, so anyone working on the opportunity can view them. 
   
