@@ -1,16 +1,11 @@
 ---
-title: "Read Best Practices Analyzer Report (Dynamics 365 Customer Engagement apps) | MicrosoftDocs"
+title: "Read Best Practices Analyzer Report | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
 ms.custom: 
 ms.date: 05/15/2018
 ms.service: usd
 ms.topic: article
 applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 4BACD2D6-A17D-468D-A2CB-F4BEEF06AE5E
 author: kabala123
 ms.author: kabala

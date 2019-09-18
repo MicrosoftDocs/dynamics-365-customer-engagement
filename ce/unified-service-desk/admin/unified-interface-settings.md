@@ -1,17 +1,11 @@
 ---
-title: "Unified Interface Settings (Dynamics 365 Customer Engagement apps) | MicrosoftDocs"
+title: "Unified Interface Settings | MicrosoftDocs"
 description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
 keywords: 
 ms.date: 06/01/2019
 ms.service: 
   - usd
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 88B92EC9-81ED-4EB0-8269-2DC0624B6DBA
 author: kabala123
 ms.author: kabala
@@ -138,9 +132,9 @@ Add users (agents) to a **Configuration**, and no Unified Interface Settings rec
 
  [Walkthrough 2: Display an external webpage in your agent application](../../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)  
 
- [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)  
+ [Walkthrough 3: Display records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)  
 
- [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 4: Display a record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
 
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)  
 

@@ -1,17 +1,11 @@
 ---
-title: "Unified Service Desk configurations (Dynamics 365 Customer Engagement apps) | MicrosoftDocs"
+title: "Unified Service Desk configurations | MicrosoftDocs"
 description: "Learn about the Unified Service Desk configurations that you make in Dynamics 365 Customer Engagement on which the Best practices Analyer performs analysis and displays a report."
 keywords: 
 ms.date: 04/24/2018
 ms.service:
   - usd
 ms.topic: article
-applies_to:
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: D390F342-BDD0-4921-959D-66D2CF822A59
 author: kabala123
 ms.author: kabala
@@ -20,7 +14,7 @@ manager: shujoshi
 
 # [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in Dynamics 365 Customer Engagement apps.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in the Common Data Service platform.
 
 ## Internal WPF Hosting Type
  
@@ -41,7 +35,6 @@ For all the hosted controls of component type **CRM Page** or **Standard Web App
 ## Actions Calls in PageLoadComplete Event
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks and displays a warning message when you associate any action calls with the **PageLoadComplete** event.
-<!--Editing: Above, I changed "PageLoadDocument" to "PageLoadComplete"; please correct if this is wrong. -->
 
 Action calls that are associated with the **PageLoadComplete** event occur several times per page load when an iFrame or frame is used on the CRM entity forms.
 

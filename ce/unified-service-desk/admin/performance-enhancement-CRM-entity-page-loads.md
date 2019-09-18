@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: FA8D5702-C698-42B0-89BF-CD444BF3FB73
 author: kabala123
 ms.author: kabala
@@ -29,13 +23,13 @@ search.app:
 
 ::: moniker range="<=dynamics-usd-4"
 
-You can experience enhanced performance of Dynamics 365 Customer Engagement apps entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
 
 ::: moniker-end
 
 ::: moniker range=">=dynamics-usd-4.1"
 
-You can experience enhanced performance of Dynamics 365 Customer Engagement apps entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
+You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
 
 The pooling feature is available for the following processes:
 
