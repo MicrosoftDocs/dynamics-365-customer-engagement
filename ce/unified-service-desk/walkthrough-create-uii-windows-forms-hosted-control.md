@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: a9fd1d9e-b04e-4ea0-b9c2-fda7bac4b7f9
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -216,7 +209,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 ## Test the hosted control  
  Before you test the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Windows Forms hosted control, ensure that your sample web application is running so that it renders within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-1. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server.  
+1. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your the Common Data Service platform server.  
   
 2. On successful sign in, you’ll see three hosted controls: **Sample UII Windows Forms Hosted Control**, **Sample External Web Application**, and **Sample External Application**.  
   

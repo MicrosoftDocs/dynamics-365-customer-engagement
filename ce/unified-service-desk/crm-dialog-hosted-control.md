@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: b500941a-1b20-4c0e-b51e-511aeb07e52d
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -73,7 +66,7 @@ Use the **CRM Dialog** hosted control type to work with Dynamics 365 Customer En
 |panel|Target panel for the hosted control.|  
 
 ### New_CRM_Page  
- Creates a page for creating a new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
+ Creates a page for creating a new record of the entity specified, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the page to create the entity record is displayed.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -117,7 +110,7 @@ Use the **CRM Dialog** hosted control type to work with Dynamics 365 Customer En
 
 | Parameter |                                                                                      Description                                                                                       |
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Name    |                        The name of the dialog as seen in the **Settings** > **Process** section of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps.                        |
+|   Name    |                        The name of the dialog as seen in the **Settings** > **Process** section of the Common Data Service platform.                        |
 | DialogId  |                 You can also specify the dialog by its ID. If you specify the **DialogId** parameter, it will be used by the action instead of the **Name** parameter.                 |
 |  Entity   |    This is the type of entity that the dialog is to be run against. This is required if you use the **DialogId** parameter. It is not required, if the **Name** parameter is used.     |
 |    Id     | This is the ID of the entity to which the Dialog session applies. If this parameter is not specified, the dialog is run against the first entry of the appropriate type in the system. |

@@ -30,7 +30,7 @@ search.app:
 ---
 
 # Configure Unified Service Desk to use Dynamics 365 Customer Engagement apps
-The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
+The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in the Common Data Service platform from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"
  Create an instance of the **KM Control** type of hosted control to begin with your configuration. After you have created an instance of the hosted control, you can configure things mentioned later in this topic.  
@@ -42,7 +42,7 @@ The **KM Control** and **Unified Interface KM Control** type of hosted controls 
   
 <a name="Search"></a>   
 ## Configure knowledge base search options  
- Use the `Search` action on the hosted control to define how you want the search results to be performed and displayed. For example, you can specify the number of results to be returned, the knowledge base article type to be displayed in the search result, or the sorting option for the search results. You can also use the replacement parameters to specify the query string for the search. For example, here is the data parameter for the `Search` action to configure an action call to automatically search knowledge bases based on the case (incident) title, display five results, and return only published knowledge bases from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps or [!INCLUDE[pn_parature](../includes/pn-parature.md)] when your agent performs a search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
+ Use the `Search` action on the hosted control to define how you want the search results to be performed and displayed. For example, you can specify the number of results to be returned, the knowledge base article type to be displayed in the search result, or the sorting option for the search results. You can also use the replacement parameters to specify the query string for the search. For example, here is the data parameter for the `Search` action to configure an action call to automatically search knowledge bases based on the case (incident) title, display five results, and return only published knowledge bases from the Common Data Service platform when your agent performs a search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:
   
 ```  
 query=[[incident.title]+]  
@@ -77,7 +77,7 @@ articlepublicurl=[[KB Search.publicUrl]]
 ```  
   
 > [!NOTE]
->  If you are using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge base, the `articleprivateurl` parameter isn’t applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]` will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use both [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps and Parature knowledge. Also, the replacement parameter for `articlepubliceurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps).  
+>  If you are using the knowledge base, the `articleprivateurl` parameter isn’t applicable, and therefore the respective replacement parameter (in this case, `[[KB Search.serviceDeskUri]]` will always be null. So, you should use `articleprivateurl=[[KB Search.serviceDeskUri]+]` instead of `articleprivateurl=[[KB Search.serviceDeskUri]]` to ensure that a null or non-existent key is replaced with a blank string, or use conditions if you plan to use the Common Data Service platform . Also, the replacement parameter for `articlepubliceurl` (in this case `[[KB Search.publicUrl]]`) will contain data only if the knowledge article is already published to an external portal (**Use an external portal** option is selected in the **Knowledge Base management Settings** dialog box in the Common Data Service platform).  
   
  The following syntax shows the data parameter you can use with the `Disassociate` action on the `KM Control` (say `KB Search`) to disassociate an article from an incident record.  
   

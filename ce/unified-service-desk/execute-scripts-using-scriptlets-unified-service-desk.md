@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 43bc1881-1db2-44ea-b52f-ed79717f5120
-caps.latest.revision: 6
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -58,7 +51,7 @@ Connection_Manager.ConfigurationReader.ReadAppSettings(“maxNumberOfSessions”
 > [!NOTE]
 >  Only public functions are accessible via this method.  
   
- Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
+ Consider a situation where you want to display session overview information in your Session Lines component but the information actually resides in an external system that is accessible via web services rather than being available in your Common Data Service platform server. You may create a hosted control that exposes a public function, which calls the external web service. You then configure this hosted control as a global hosted control and place it on the HiddenPanel. This function and web service call is now usable from a scriptlet. You could then create the following scriptlet to call your new function.  
   
 ```  
 My_Global_Application.CallExternalWebService(“[[account.accountnumber]$]”);  
