@@ -7593,6 +7593,126 @@
       "source_path": "ce/customer-engagement/on-premises/developer/clientapi/reference/Xrm-WebApi/online/executeMultiple.md",
       "redirect_url": "https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-WebApi/online/executeMultiple",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/customize/import-update-export-solutions.md",
+      "redirect_url": "export-solution",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/configure-server-based-authentication-sharepoint-online.md",
+      "redirect_url": "set-up-dynamics-365-online-to-use-sharepoint-online",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/validate-fix-sharepoint-site-urls.md",
+      "redirect_url": "troubleshooting-server-based-authentication#validate-and-fix-sharepoint-site-urls​",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/important-considerations-server-based-sharepoint-integration.md",
+      "redirect_url": "manage-documents-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/extend-with-integration-solutions.md",
+      "redirect_url": "extend",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/regional-other-business-management-settings.md",
+      "redirect_url": "customize-regional-options-admins",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/requirements-supported-configurations.md",
+      "redirect_url": "online-requirements",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/configure-sharepoint-integration-using-list-component.md",
+      "redirect_url": "set-up-sharepoint-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/create-add-location-first-time.md",
+      "redirect_url": "create-edit-document-location-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/migrate-online-onpremises.md",
+      "redirect_url": "help-additional-resources",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/enable-document-suggestions.md",
+      "redirect_url": "admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/public-preview-automatically-suggest-knowledge-articles.md",
+      "redirect_url": "admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/public-preview-microsoft-cognitive-services-integration.md",
+      "redirect_url": "admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/contact-technical-support.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/get-help-support",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/create-edit-business-unit-control-access-records.md",
+      "redirect_url": "/dynamics365/customer-engagement/admin/create-edit-business-units",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/admin/admin-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/basics/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/basics/basics-guide",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/customize/add-visual-controls-mobile-app.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/customize/index.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/customize/types-of-views.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/create-edit-views",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/set-privacy-preferences-organization.md",
+      "redirect_url": "https://docs.microsoft.com/power-platform/admin/settings-privacy-security",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/integrate-with-microsoft-teams.md",
+      "redirect_url": "../basics/teams-integration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/admin/embedded-intelligence.md",
+      "redirect_url": "../sales-enterprise/embedded-intelligence",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-engagement/on-premises/customize/types-forms.md",
+      "redirect_url": "/dynamics365/customer-engagement/customize/create-design-forms#type-of-forms",
+      "redirect_document_id": "false"
     }
   ]
 }
