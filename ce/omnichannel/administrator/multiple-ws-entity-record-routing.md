@@ -5,14 +5,14 @@ author: kabala123
 ms.author: kabala	
 manager: shujoshi	
 applies_to: 	
-ms.date: 09/12/2019
+ms.date: 09/18/2019
 ms.service: dynamics-365-customerservice	
 ms.topic: article	
 ms.assetid: 3DBB1579-ECD2-43E6-B994-6D83A7C2C8F1
 ms.custom: 	
 ---
 
-# Walkthrough: Create multiple workstreams for entity records routing
+# Preview: Walkthrough - Create multiple workstreams for entity records routing
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
