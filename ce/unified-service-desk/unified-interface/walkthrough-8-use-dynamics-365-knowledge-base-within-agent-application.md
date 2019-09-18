@@ -47,7 +47,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 ## Prerequisites  
 
-- Deploy the "New Environment" sample application package to your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps when you deploy the sample application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
+- Deploy the "New Environment" sample application package to your Common Data Service platform instance. The walkthrough uses some of the controls and configuration in the "New Environment" sample application package that are created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps when you deploy the sample application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)    
 
 - You must know about the following in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
 
