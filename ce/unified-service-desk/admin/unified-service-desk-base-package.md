@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement apps Base package | MicrosoftDocs"
+title: "Unified Service Desk  Base package | MicrosoftDocs"
 description: "Overview of the base sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -9,15 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
-  - Dynamics CRM Online
 ms.assetid: 5ee40b52-6c52-48ec-b3f1-7c2a839e7285
-caps.latest.revision: 19
 author: kabala123
 ms.author: kabala
 manager: shujoshi

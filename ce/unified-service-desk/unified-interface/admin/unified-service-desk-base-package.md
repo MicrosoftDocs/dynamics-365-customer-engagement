@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement apps Base package | MicrosoftDocs"
+title: "Unified Service Desk  Base package | MicrosoftDocs"
 description: "Overview of the base sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin

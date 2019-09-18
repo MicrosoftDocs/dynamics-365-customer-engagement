@@ -1,5 +1,5 @@
 ---
-title: "Use HAT Software Factory to create a hosted application in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Use HAT Software Factory to create a hosted application in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to HAT Software Factory to create a hosted application in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

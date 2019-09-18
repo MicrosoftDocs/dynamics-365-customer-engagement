@@ -1,5 +1,5 @@
 ---
-title: "Use data driven adapters (DDAs) in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Use data driven adapters (DDAs) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use data-driven adapters (DDAs) in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

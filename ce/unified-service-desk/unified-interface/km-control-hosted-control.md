@@ -1,5 +1,5 @@
 ---
-title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "KM Control (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 Customer Engagement apps in your agent application."
 ms.custom: 
   - dyn365-USD

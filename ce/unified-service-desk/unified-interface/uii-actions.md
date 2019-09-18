@@ -1,5 +1,5 @@
 ---
-title: "UII actions in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "UII actions in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UII actions in Unified Service Desk that define a specific operation that can be performed when called."
 ms.custom: 
   - dyn365-USD

@@ -1,5 +1,5 @@
 ---
-title: "Help improve Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Help improve Unified Service Desk  | MicrosoftDocs"
 description: "Learn how you can make our app better by sending system and application information to Microsoft."
 ms.custom: 
   - dyn365-USD, dyn365-admin

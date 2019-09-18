@@ -1,6 +1,6 @@
 ---
-title: "Upgrade a Unified Service Desk for Dynamics 365 Customer Engagement apps solution | MicrosoftDocs"
-description: "Learn how to upgrade Unified Service Desk for Dynamics 365 Customer Engagement apps."
+title: "Upgrade a Unified Service Desk  solution | MicrosoftDocs"
+description: "Learn how to upgrade Unified Service Desk ."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018

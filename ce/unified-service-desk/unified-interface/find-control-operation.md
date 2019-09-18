@@ -1,5 +1,5 @@
 ---
-title: "FindControl Operation in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "FindControl Operation in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the two approaches that can be used to identify a user interface (UI) control."
 ms.custom: 
   - dyn365-USD

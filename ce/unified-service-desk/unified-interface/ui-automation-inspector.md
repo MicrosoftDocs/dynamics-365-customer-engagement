@@ -1,5 +1,5 @@
 ---
-title: "UI Automation Inspector in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "UI Automation Inspector in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UII Inspector to support the generation of bindings for the UIADDA."
 ms.custom: 
   - dyn365-USD

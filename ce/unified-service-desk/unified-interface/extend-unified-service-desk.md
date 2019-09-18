@@ -1,5 +1,5 @@
 ---
-title: "Extend Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Extend Unified Service Desk | MicrosoftDocs"
 description: "The section provides information on how you can use the User Interface Integration (UII) components to extend Unified Service Desk to integrate with external applications, web applications, and computer telephony integration (CTI) systems. "
 ms.custom: 
   - dyn365-USD

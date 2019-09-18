@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement apps system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 Customer Engagement apps. "
+title: "Unified Service Desk  system requirements | MicrosoftDocs"
+description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk . "
 keywords: 
 ms.date: 05/14/2019
 ms.service:
@@ -69,7 +69,7 @@ This topic provides information about the system requirements for installing the
 
 > [!IMPORTANT]
 >  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.1 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.1 for Dynamics 365 Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2086721).
+> We recommend that you use Unified Service Desk 4.1 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.1  now](https://go.microsoft.com/fwlink/p/?linkid=2086721).
 
 ::: moniker-end
 
@@ -77,7 +77,7 @@ This topic provides information about the system requirements for installing the
 
 > [!IMPORTANT]
 >  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0 for Dynamics 365 Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
+> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0  now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
 
 ::: moniker-end
 

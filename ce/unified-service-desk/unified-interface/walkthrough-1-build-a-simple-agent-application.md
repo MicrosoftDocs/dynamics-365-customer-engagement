@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough 1: Build a simple agent application in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Walkthrough 1: Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Customer Engagement."
 ms.custom: 
   - dyn365-USD

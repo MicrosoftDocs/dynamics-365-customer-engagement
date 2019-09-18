@@ -1,5 +1,5 @@
 ---
-title: "Download Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Download Unified Service Desk  | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
 keywords: 
 ms.date: 08/17/2018

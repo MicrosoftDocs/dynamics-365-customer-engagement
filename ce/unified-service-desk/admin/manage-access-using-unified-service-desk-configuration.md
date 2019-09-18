@@ -1,6 +1,6 @@
 ---
-title: "Manage access using Unified Service Desk for Dynamics 365 Customer Engagement apps configuration | MicrosoftDocs"
-description: "Learn to control how agents use Unified Service Desk for Dynamics 365 Customer Engagement apps by using configuration."
+title: "Manage access using Unified Service Desk  configuration | MicrosoftDocs"
+description: "Learn to control how agents use Unified Service Desk  by using configuration."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 91772c31-da1f-453b-9934-0179bc50c398
 author: kabala123
 ms.author: kabala

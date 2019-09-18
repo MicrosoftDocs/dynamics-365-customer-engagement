@@ -1,5 +1,5 @@
 ---
-title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Configure auditing and diagnostics in Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
 ms.custom: 
   - dyn365-USD, dyn365-admin

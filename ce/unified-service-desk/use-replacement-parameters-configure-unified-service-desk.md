@@ -1,5 +1,5 @@
 ---
-title: "Use replacement parameters to configure Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Use replacement parameters to configure Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use replacement parameters in Unified Service Desk to customize amd personalize interactions through actions and window navigation rules."
 ms.custom: 
   - dyn365-USD

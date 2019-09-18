@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
 description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

@@ -1,5 +1,5 @@
 ---
-title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Hosted Application Toolkit (HAT) architecture in Unified Service Desk | MicrosoftDocs"
 description: "The topic illustrates the components of Hosted Application Toolkit (HAT) and the application startup process. "
 ms.custom: 
   - dyn365-USD

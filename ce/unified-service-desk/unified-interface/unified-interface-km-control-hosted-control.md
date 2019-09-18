@@ -1,5 +1,5 @@
 ---
-title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement apps Unified Interface App| MicrosoftDocs"
+title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk  Unified Interface App| MicrosoftDocs"
 description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 Customer Engagement apps in your agent application."
 keywords: 
 ms.date: 08/17/2018

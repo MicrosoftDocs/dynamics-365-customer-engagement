@@ -1,5 +1,5 @@
 ---
-title: "Distribute custom hosted controls using Customization Files with Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
 description: "Learn how to deploy customization files."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 22e677e6-5d00-43da-9c24-52eacd0a3c70
-caps.latest.revision: 13
 author: kabala123
 ms.author: kabala
 manager: shujoshi

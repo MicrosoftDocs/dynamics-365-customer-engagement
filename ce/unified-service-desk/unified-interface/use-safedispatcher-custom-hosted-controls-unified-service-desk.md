@@ -1,5 +1,5 @@
 ---
-title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Use SafeDispatcher for custom hosted controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use SafeDispatcher to provide out-of-box logging for unhandled exceptions with detailed information about the source and cause of the exception in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

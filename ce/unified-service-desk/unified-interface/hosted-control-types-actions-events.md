@@ -1,5 +1,5 @@
 ---
-title: "Hosted control types, actions, and events in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Hosted control types, actions, and events in Unified Service Desk | MicrosoftDocs"
 ms.custom: 
   - dyn365-USD
 ms.date: 04/24/2018

@@ -1,5 +1,5 @@
 ---
-title: "Integrate with external applications and web applications in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Integrate with external applications and web applications in Unified Service Desk | MicrosoftDocs"
 description: "Learn about integrating with external application and web application n Unified Service Desk."
 ms.custom: 
   - dyn365-USD

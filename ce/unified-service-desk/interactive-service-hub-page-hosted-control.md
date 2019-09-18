@@ -1,5 +1,5 @@
 ---
-title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains using the Interactive Service Hub Page hosted control type to host interactive service hub forms within Unified Service Desk to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention."
 ms.custom: 
   - dyn365-USD

@@ -30,9 +30,9 @@ Knowledge management plays an important part in the customer service process, an
 
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides two types of the knowledge management hosted control:
 
- - **KM Control** for Dynamics 365 Customer Engagement apps Web Client.
+ - **KM Control**  Web Client.
 ::: moniker range=">=dynamics-usd-4"
- - **Unified Interface KM Control** for Dynamics 365 Customer Engagement apps (Unified Interface apps).
+ - **Unified Interface KM Control**  (Unified Interface apps).
 ::: moniker-end
   
  You can use the knowledge management hosted control to configure a knowledge base article search pane in your agent desktop that lets you search for knowledge, and then take the next set of actions on the search results, such as share the results with customers or associate them with case if the knowledge helped in resolving the case. All this can be done from within your agent desktop without having to switch applications. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with a sample application, **Knowledge Management**, which demonstrates the capabilities of the new feature. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sample Unified Service Desk applications](admin/sample-unified-service-desk-applications.md)

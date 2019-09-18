@@ -1,5 +1,5 @@
 ---
-title: "UIA property list in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "UIA property list in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA property list in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

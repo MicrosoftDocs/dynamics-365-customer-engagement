@@ -1,5 +1,5 @@
 ---
-title: "Connect to a Dynamics 365 Customer Engagement apps instance using the Unified Service Desk for Dynamics 365 Customer Engagement apps client | MicrosoftDocs"
+title: "Connect to a Dynamics 365 Customer Engagement apps instance using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: cc1e6d1d-0ea6-46f7-ae4b-131b7bda2cf7
 author: kabala123
 ms.author: kabala

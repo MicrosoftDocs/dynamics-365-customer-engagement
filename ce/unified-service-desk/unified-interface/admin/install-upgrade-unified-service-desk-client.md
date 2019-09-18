@@ -1,6 +1,6 @@
 ---
-title: "Install the Unified Service Desk for Dynamics 365 Customer Engagement apps client | MicrosoftDocs"
-description: "Learn how  to install the Unified Service Desk for Dynamics 365 Customer Engagement apps client."
+title: "Install the Unified Service Desk  client | MicrosoftDocs"
+description: "Learn how  to install the Unified Service Desk  client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 01/25/2018

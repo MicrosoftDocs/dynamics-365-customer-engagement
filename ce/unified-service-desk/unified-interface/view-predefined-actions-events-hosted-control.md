@@ -1,5 +1,5 @@
 ---
-title: "View predefined actions and events for a hosted control in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "View predefined actions and events for a hosted control in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to view predefined actions and events for hosted controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

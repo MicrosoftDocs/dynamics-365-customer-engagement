@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk for Dynamics 365 Customer Engagement apps system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 Customer Engagement apps. "
+title: "Unified Service Desk  system requirements | MicrosoftDocs"
+description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk . "
 keywords: 
 ms.date: 01/25/2019
 ms.service:

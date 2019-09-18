@@ -1,5 +1,5 @@
 ---
-title: "UIA Extensibility in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "UIA Extensibility in Unified Service Desk | MicrosoftDocs"
 description: "Learn about UIA extensibility in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

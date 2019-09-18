@@ -1,5 +1,5 @@
 ---
-title: "AttributeMatchPath in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "AttributeMatchPath in Unified Service Desk  | MicrosoftDocs"
 description: "The topic explains about the <AttributeMatchPath> element that can be utilized by a web control configuration to find the desired control on the currently loaded HTML document using the controls attributes."
 ms.custom: 
   - dyn365-USD

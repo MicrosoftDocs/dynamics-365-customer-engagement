@@ -1,5 +1,5 @@
 ---
-title: "Standard Web Application (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Standard Web Application (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Standard Web Application type of hosted control in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

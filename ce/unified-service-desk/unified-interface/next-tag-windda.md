@@ -1,5 +1,5 @@
 ---
-title: "Next Tag (WinDDA) in Unified Service Desk for Dynamics 365 Customer Engagement apps Customer Enagagement| MicrosoftDocs"
+title: "Next Tag (WinDDA) in Unified Service Desk  Customer Enagagement| MicrosoftDocs"
 description: "The topic describes the attributes of the Next tag (winDDA)."
 ms.custom: 
   - dyn365-USD

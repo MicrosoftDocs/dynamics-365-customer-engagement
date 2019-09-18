@@ -1,6 +1,6 @@
 ---
-title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement apps for administrators | MicrosoftDocs"
-description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement apps"
+title: "What's new in Unified Service Desk  for administrators | MicrosoftDocs"
+description: "Learn about new Unified Service Desk features "
 keywords: 
 ms.date: 04/10/2019
 ms.service: 

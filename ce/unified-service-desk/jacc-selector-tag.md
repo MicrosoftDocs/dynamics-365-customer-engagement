@@ -1,5 +1,5 @@
 ---
-title: "JAccSelector Tag in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "JAccSelector Tag in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the elements of <JAccSelector>."
 ms.custom: 
   - dyn365-USD

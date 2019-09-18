@@ -1,5 +1,5 @@
 ---
-title: "Get started with configuring your agent application in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Get started with configuring your agent application in Unified Service Desk | MicrosoftDocs"
 description: "The section provides information on how to perform various tasks in Unified Service Desk to configure your agent application. "
 ms.custom: 
   - dyn365-USD

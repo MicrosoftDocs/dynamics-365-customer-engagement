@@ -1,5 +1,5 @@
 ---
-title: "Programming reference in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Programming reference in Unified Service Desk | MicrosoftDocs"
 description: "The reference documentation for the public assemblies that constitute the Unified Service Desk and User Interface Integration (UII) SDK."
 ms.custom: 
   - dyn365-USD

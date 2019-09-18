@@ -1,6 +1,6 @@
 ---
-title: "Migrate your Unified Service Desk for Dynamics 365 Customer Engagement apps configuration to another Dynamics 365 Customer Engagement apps instance | MicrosoftDocs"
-description: "Learn how to move a Unified Service Desk for Dynamics 365 Customer Engagement apps configuration to another instance."
+title: "Migrate your Unified Service Desk  configuration to another Dynamics 365 Customer Engagement apps instance | MicrosoftDocs"
+description: "Learn how to move a Unified Service Desk  configuration to another instance."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -9,14 +9,9 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
+
 ms.assetid: 49ebffe9-a55c-466a-a5ea-779510db2c4f
-caps.latest.revision: 7
+
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -1,5 +1,5 @@
 ---
-title: "WebDDA in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "WebDDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn about using Web data-driven adapter (WebDDA) in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

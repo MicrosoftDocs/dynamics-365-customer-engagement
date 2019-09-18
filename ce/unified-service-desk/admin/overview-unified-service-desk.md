@@ -1,6 +1,6 @@
 ---
-title: "Overview of Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
-description: "Get started with Unified Service Desk for Dynamics 365 Customer Engagement apps"
+title: "Overview of Unified Service Desk  | MicrosoftDocs"
+description: "Get started with Unified Service Desk "
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: hero-article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: bccc29e3-23a7-4d5a-b53f-432510e63c99
-caps.latest.revision: 7
 author: kabala123
 ms.author: kabala
 manager: shujoshi

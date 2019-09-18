@@ -1,5 +1,5 @@
 ---
-title: "Sample bindings in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Sample bindings in Unified Service Desk | MicrosoftDocs"
 description: "The sample explains sample bindings in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

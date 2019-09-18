@@ -1,5 +1,5 @@
 ---
-title: "Types of HAT automation activities in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Types of HAT automation activities in Unified Service Desk | MicrosoftDocs"
 description: "Learn about various automation activities that you can use to automate your hosted applications in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

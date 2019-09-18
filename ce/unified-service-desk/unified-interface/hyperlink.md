@@ -1,5 +1,5 @@
 ---
-title: "HyperLink in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "HyperLink in Unified Service Desk | MicrosoftDocs"
 descrition: The <HyperLink> element does not define an element on the web application's user interface (UI), but it allows navigating to a specified URL. This element does not use the DOM tree to navigate. It only takes the <Url> tag to specify the target URL.
 ms.custom: 
   - dyn365-USD

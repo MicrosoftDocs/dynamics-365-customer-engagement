@@ -1,18 +1,12 @@
 ---
-title: "Cache specific configuration for agents in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
-description: "Learn how Cache specific configuration for agents in the configuration of Unified Service Desk for Dynamics 365 Customer Engagement apps."
+title: "Cache specific configuration for agents in Unified Service Desk  | MicrosoftDocs"
+description: "Learn how Cache specific configuration for agents in the configuration of Unified Service Desk ."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 04/10/2019
 ms.service: dynamics-365-customerservice
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: A988412D-5A59-42BC-B608-0FB4E7CA7E17
 author: kabala123
 ms.author: kabala

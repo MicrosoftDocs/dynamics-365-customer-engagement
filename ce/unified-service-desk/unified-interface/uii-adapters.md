@@ -1,5 +1,5 @@
 ---
-title: "UII adapters in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "UII adapters in Unified Service Desk | MicrosoftDocs"
 description: ""
 ms.custom: 
 ms.date: 08/23/2017

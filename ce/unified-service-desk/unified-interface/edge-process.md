@@ -1,5 +1,5 @@
 ---
-title: "Use Edge Process hosting method for your controls in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Use Edge Process hosting method for your controls in Unified Service Desk  | MicrosoftDocs"
 description: "Learn about the Edge Process hosting methods for your controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

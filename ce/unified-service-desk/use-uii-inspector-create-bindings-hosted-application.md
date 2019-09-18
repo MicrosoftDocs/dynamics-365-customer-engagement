@@ -1,5 +1,5 @@
 ---
-title: "Use UII inspector to create bindings for the hosted application in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Use UII inspector to create bindings for the hosted application in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use UII inspector to create bindings for the hosted application in Unified Service Desk."
 ms.custom: 
   - dyn365-USD

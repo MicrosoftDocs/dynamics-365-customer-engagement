@@ -1,5 +1,5 @@
 ---
-title: "ElementMatchPath in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "ElementMatchPath in Unified Service Desk | MicrosoftDocs"
 description: "<ElementMatchPath> tag uses a sequence of HTML tags delimited by forward slashes. This topic describes how <ElementMatchPath> works. "
 ms.custom: 
   - dyn365-USD

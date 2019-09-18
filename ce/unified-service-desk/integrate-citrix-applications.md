@@ -1,5 +1,5 @@
 ---
-title: "Integrate with Citrix applications in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Integrate with Citrix applications in Unified Service Desk | MicrosoftDocs"
 description: "The topic explains the integration with Citrix application in Unified service Desk."
 ms.custom: 
   - dyn365-USD

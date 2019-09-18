@@ -1,5 +1,5 @@
 ---
-title: "Search Path Node Tag in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+title: "Search Path Node Tag in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Search Path node that describes the search path to identify the control in the Java accessibility tree."
 ms.custom: 
   - dyn365-USD

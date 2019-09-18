@@ -1,5 +1,5 @@
 ---
-title: "Administration Guide for Unified Service Desk 3.0 for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+title: "Administration Guide for Unified Service Desk 3.0  | MicrosoftDocs"
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
