@@ -3,7 +3,7 @@ title: "Synchronize Dynamics 365 Customer Engagement (on-premises) data with ext
 description: "Learn how to synchronize and integrate Dynamics 365 Customer Engagement (on-premises) data with data that is stored in other systems"
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+author: Jimdaly 
 ms.service: crm-onpremises
 ms.suite: 
 ms.tgt_pltfrm: 
