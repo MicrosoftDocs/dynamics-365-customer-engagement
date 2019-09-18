@@ -53,7 +53,7 @@ search.app:
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, select **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
+2. On the nav bar, select **Dynamics 365**, and then select **Settings**.  
   
 3. Select **Settings** > **Unified Service Desk** > **Configuration**.  
   
@@ -118,7 +118,7 @@ search.app:
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, select **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
+2. On the nav bar, select **Dynamics 365**, and then select **Settings**.  
   
 3. Select **Settings** > **Unified Service Desk** > **Configuration**.  
   
@@ -158,7 +158,7 @@ search.app:
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, select **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
+2. On the nav bar, select **Dynamics 365**, and then select **Settings**.  
   
 3. Select **Settings** > **Unified Service Desk** > **Configuration**.  
   

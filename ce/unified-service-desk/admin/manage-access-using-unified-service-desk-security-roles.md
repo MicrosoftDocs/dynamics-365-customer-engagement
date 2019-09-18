@@ -1,6 +1,6 @@
 ---
-title: "Manage access using Unified Service Desk for Dynamics 365 Customer Engagement security roles | MicrosoftDocs"
-description: "Learn to control how agents use Unified Service Desk for Dynamics 365 Customer Engagement by using security roles."
+title: "Manage access using Unified Service Desk security roles | MicrosoftDocs"
+description: "Learn to control how agents use Unified Service Desk by using security roles."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 1d1e06fc-188d-4f3e-91b1-a6c371c28eb4
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi

@@ -38,7 +38,7 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
   
 2. Deploy [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] packages to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy Unified Service Desk packages to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
-3. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, and connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you deployed the packages to verify that everything is working correctly. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Connect to Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+3. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, and connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you deployed the packages to verify that everything is working correctly. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Connect to a instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
    **Set up additional development computers**  
   
@@ -60,5 +60,5 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
   
  [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
- [Connect to Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
+ [Connect to a instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
  

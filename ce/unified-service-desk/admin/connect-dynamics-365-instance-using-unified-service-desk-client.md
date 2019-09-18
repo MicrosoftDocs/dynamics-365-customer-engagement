@@ -1,5 +1,5 @@
 ---
-title: "Connect to a Dynamics 365 Customer Engagement apps instance using the Unified Service Desk  client | MicrosoftDocs"
+title: "Connect to a model-drive app using the Unified Service Desk  client | MicrosoftDocs"
 description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -21,7 +21,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Connect to a Dynamics 365 Customer Engagement apps instance overview
+# Connect to a model-driven app overview
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the the Common Data Service platform instance where you have deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. On signing in through the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and accordingly exposes the controls and functionality in the application.  
 
 <a name="Signin"></a>   
