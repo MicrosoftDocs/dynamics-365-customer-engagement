@@ -1,5 +1,5 @@
 ---
-title: "Gather feedback by using polls on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Gather feedback by using polls on a portal | MicrosoftDocs"
 description: "Instructions to create polls on a portal and gather feedback by using them."
 ms.custom: 
   - dyn365-portal
@@ -24,12 +24,12 @@ search.app:
 # Gather feedback by using polls on a portal
 Polls give your web audiences a quick and easy way to voice their opinion on specific topics, and then immediately and automatically see feedback from their vote.
 
-Use the polls capability of Dynamics 365 for Customer Engagement portals to ask your audience about topics of interest and let them give single answers or multiple-choice responses. Either way, their responses are instantly stored and associated with the applicable Dynamics 365 for Customer Engagement Contact record for immediate review or aggregate reporting. You can use polls as simple market research tools and, if you refresh or rotate the polls dynamically, you'll keep your website looking current and topical.
+Use the polls capability of Dynamics 365 Portals to ask your audience about topics of interest and let them give single answers or multiple-choice responses. Either way, their responses are instantly stored and associated with the applicable Dynamics 365 Contact record for immediate review or aggregate reporting. You can use polls as simple market research tools and, if you refresh or rotate the polls dynamically, you'll keep your website looking current and topical.
 
 Polls can be placed on the portal by using the PollPlacement control. This control works similarly to the AdPlacement control. If there are any polls associated with the Poll Placement entity that is being rendered by the PollPlacement control, those polls will be rendered. If there is more than one poll for a given placement, the placement will randomly present one of the specified polls.
 
 > [!Note]
-> Users can vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in Dynamics 365 for Customer Engagement, and users who sign in to the website will have their submissions linked to the Contact entity that tracks that user in Dynamics 365 for Customer Engagement.
+> Users can vote anonymously. Duplicate votes are not permitted. Basic information about submissions is tracked in Dynamics 365, and users who sign in to the website will have their submissions linked to the Contact entity that tracks that user in Dynamics 365.
 
 ## Add a poll to the page
 
@@ -65,7 +65,7 @@ To create a new poll placement region:
 A poll is a simple yes/no or multiple-choice question that you can display on your portal via poll placements. There are many customizable options for the display of polls available for developers, but for content managers, adding polls to your website is as easy as choosing a question and series of possible answers (poll options). A poll must have related options to function, and must be associated with a poll placement to be rendered on the portal.
 
 A new poll can be created in two ways: 
-- By going to the **Polls** section in the **Portals** area in Dynamics 365 for Customer Engagement 
+- By going to the **Polls** section in the **Portals** area in Dynamics 365 
 - By selecting the **New** button on the **Look Up Records** window while adding a poll to a poll placement.
 
 ## Poll attributes
@@ -91,7 +91,7 @@ Now that the poll has been created, you must associate one or more poll options 
 
 ## Poll options
 
-A poll is a question that is being presented to the user. A poll has two or more possible answers as determined by the content author. These answers are represented in Dynamics 365 for Customer Engagement by Poll Options, which must be associated with the poll in question. A new poll option is created via the **Look Up Records** window when adding poll options to a poll, as described above.
+A poll is a question that is being presented to the user. A poll has two or more possible answers as determined by the content author. These answers are represented in Dynamics 365 by Poll Options, which must be associated with the poll in question. A new poll option is created via the **Look Up Records** window when adding poll options to a poll, as described above.
 
 ## Poll option attributes
 
@@ -113,7 +113,7 @@ Users can vote only one time; after this, if the poll is displayed, they will se
 
 ![Poll votes](media/poll-votes.png "Poll votes")  
 
-The details of the poll voting results are stored in Dynamics 365 for Customer Engagement as Poll Submission records. The Poll Submission entity contains the following information:
+The details of the poll voting results are stored in Dynamics 365 as Poll Submission records. The Poll Submission entity contains the following information:
 
 ![New poll submission](media/new-poll-submission.png "New poll submission")  
 
@@ -127,7 +127,7 @@ The details of the poll voting results are stored in Dynamics 365 for Customer E
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
+[Configure a Dynamics 365 Portals](configure-portal.md)  
 [Add a webpage to render a list of records](add-webpage-render-list-records.md)  
 [Create and run advertisements on a portal](create-run-advertisement.md)  
 [Rate or vote on a webpage or blog post on a portal](rate-webpage-blog-post.md)  

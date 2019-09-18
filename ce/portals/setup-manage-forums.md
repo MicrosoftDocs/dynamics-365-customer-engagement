@@ -1,5 +1,5 @@
 ---
-title: "Set up and moderate forums for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Set up and moderate forums for a portal  | MicrosoftDocs"
 description: "Instructions to create and manage forums on a portal."
 ms.custom: 
   - dyn365-portal
@@ -25,11 +25,11 @@ search.app:
 
 A forum is an online discussion that allows users to hold conversations in the form of posted messages. A discussion forum is hierarchical or tree-like in structure: a forum can contain a number of topics, also known as threads, and can be replied to by many users.
 
-## Manage forums in Dynamics 365 for Customer Engagement
+## Manage forums in Dynamics 365
 
-Forums can be created, edited and deleted within Dynamics 365 for Customer Engagement.
+Forums can be created, edited and deleted within Dynamics 365.
 
-1. Sign in to Dynamics 365 for Customer Engagement.
+1. Sign in to Dynamics 365 Portals.
 
 2. Go to **Community** > **Forums**.
 

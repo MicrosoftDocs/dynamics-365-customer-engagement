@@ -1,5 +1,5 @@
 ---
-title: "Invite contacts to your portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Invite contacts to your portal  | MicrosoftDocs"
 description: "Instructions to create and configure invitations in a portal."
 ms.custom: 
   - dyn365-portal
@@ -23,7 +23,7 @@ search.app:
 ---
 # Invite contacts to your portals
 
-Use the Dynamics 365 for Customer Engagement portals invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 for Customer Engagement system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
+Use the Dynamics 365 Portals invitation feature to invite contacts to your portal through automated email(s) created in your Dynamics 365 system. The people you invite receive an email, fully customizable by you, with a link to your portal and an invitation code. This code can be used to gain special access configured by you. With this feature you have the ability to:
 
 - Send Single or Group Invitations
 -   Specify an expiry date if desired
@@ -43,7 +43,7 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 ## Create and configure invitations in web client
 
-To create an invitation record within Dynamics 365 for Customer Engagement, select the **Create Invitation** button in the command bar. The button is available when a single contact is selected in a Contact view and when viewing a contact record. Selecting the button will open a new invitation form for the contact. Invitations can also be created via the Invitations view by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the invitation to the contact(s). The invitation will not be sent to the contact(s) until the **Send Invitation** workflow is initiated.
+To create an invitation record within Dynamics 365, select the **Create Invitation** button in the command bar. The button is available when a single contact is selected in a Contact view and when viewing a contact record. Selecting the button will open a new invitation form for the contact. Invitations can also be created via the Invitations view by selecting **+New**. After the Invitation record has been created, the **Run Workflow** button will appear enabling you to send the invitation to the contact(s). The invitation will not be sent to the contact(s) until the **Send Invitation** workflow is initiated.
 
 ## Create invitations in Dynamics 365 Portal app
 
@@ -94,7 +94,7 @@ The table below explains the attributes of the **Invitation** page:
 |-------|------------|
 |                 Name                  |                                                                                                      A descriptive name for helping recognize the invitation.                                                                                                      |
 |                 Type                  |                                             **Single** or **Group**. Single will allow only one contact to be invited and only one redemption. Group allows multiple contacts to be invited and multiple redemptions.                                              |
-|             Owner/Sender              | The Dynamics 365 for Customer Engagement user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
+|             Owner/Sender              | The Dynamics 365 user that will be the sender of the email when the invitation is sent. This can be overridden in the **Send Invitation** workflow if the created email already contains someone in the from field. |
 |            Invitation Code            |                                                                 A unique code for the invitation that only the invitee will know. This is automatically generated when creating a new invitation.                                                                  |
 |              Expiry Date              |                                                                                     The date that represents when the invitation will become invalid for redemption. Optional.                                                                                     |
 |                Inviter                |                                                                                               Can be used when a contact is the sender of the invitation. Optional.                                                                                                |

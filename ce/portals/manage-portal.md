@@ -1,5 +1,5 @@
 ---
-title: "Administer a portal for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Administer a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to administer your portal."
 keywords: "portal administration, portal admin center"
 ms.date: 04/08/2019
@@ -30,10 +30,10 @@ After provisioning a portal, you can perform various actions such as setting up 
 
 To manage an existing portal, you must be assigned any one of the following roles:
 - Office 365 Global Administrator 
-- Dynamics 365 for Customer Engagement Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
-- System Administrator of the Dynamics 365 for Customer Engagement organization selected for the portal
+- Dynamics 365 Service Administrator. [!include[](../includes/proc-more-information.md)] [Use the service admin role to manage your tenant](https://technet.microsoft.com/en-us/library/mt793847.aspx)  
+- System Administrator of the Dynamics 365 organization selected for the portal
 
-If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 for Customer Engagement service administrator, or system administrator for this organization in order to manage this portal.
+If you haven't been assigned any of the above-mentioned roles, the following message is displayed: You need to be a global administrator, Dynamics 365 service administrator, or system administrator for this organization in order to manage this portal.
 
 If you are not a global administrator and you try to manage a portal that has already been provisioned, or you resubmit the provisioning if it failed, you must be the owner of the Azure Active Directory (Azure AD) application connected to your portal.
 
@@ -54,9 +54,9 @@ If you are not a global administrator and you try to manage a portal that has al
 
 6. After you've added yourself as an owner, reopen the Portal Admin Center page.
 
-## Link your Dynamics 365 for Customer Engagement portal to a custom domain
+## Link your Dynamics 365 Portals to a custom domain
 
-A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your Dynamics 365 for Customer Engagement portal to a custom domain by using a wizard.
+A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your Dynamics 365 Portals to a custom domain by using a wizard.
 
 1. Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)] page, and then select the **Applications** tab.
 
@@ -84,7 +84,7 @@ A custom domain can help your customers find your support resources more easily 
    
    > [!Note]
    > - You can only have one custom domain name for a portal. 
-   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your Dynamics 365 for Customer Engagement portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: Please add a CNAME record to this domain name. Retry after some time passes.
+   > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your Dynamics 365 Portals. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: Please add a CNAME record to this domain name. Retry after some time passes.
 
 7. Review the information you have entered, and then select **Next** to begin creating the SSL Binding. You should see the message Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal. {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured.
 
@@ -105,5 +105,5 @@ When you provision a portal, the portal-related solutions are installed on the o
 
 > [!Note]
 > - If the latest version of a portal package is available, it isn't updated. The portal solutions are updated in the same version. To upgrade your portal solutions based on the latest available packages, you need to access the Solution Admin center.
-> - If a user has modified any data in Dynamics 365 for Customer Engagement, the existing data will not be overwritten during the update.
+> - If a user has modified any data in Dynamics 365, the existing data will not be overwritten during the update.
 > - If the portal solutions are being installed, the solution update cannot be triggered.

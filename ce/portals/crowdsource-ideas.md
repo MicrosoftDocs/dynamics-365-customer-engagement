@@ -1,5 +1,5 @@
 ---
-title: "Crowdsource ideas on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Crowdsource ideas on a portal | MicrosoftDocs"
 description: "Learn how to manage Forum Ideas, Idea Comments, and Idea Votes on a portal."
 ms.custom: 
   - dyn365-portal
@@ -24,9 +24,9 @@ search.app:
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
-## Manage idea forums in Dynamics 365 for Customer Engagement
+## Manage idea forums in Dynamics 365
 
-Dynamics 365 for Customer Engagement users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Dynamics 365 for Customer Engagement organization.
+Dynamics 365 users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your Dynamics 365 organization.
 
 > [!NOTE]
 > - The way in which many of the content/display-oriented attributes are rendered is controlled by the views created by the portal developer.
@@ -54,9 +54,9 @@ The table below explains the standard attributes and relationships of the Idea F
 | Moderators             | Relationship specifying the web roles that have permission to moderate the idea forum. There is currently no front-side moderation functionality built into the idea portal application.|
 | | |
 
-## Manage ideas in Dynamics 365 for Customer Engagement
+## Manage ideas in Dynamics 365
 
-For Dynamics 365 for Customer Engagement users, provided the portal customizations have been imported into your Dynamics 365 for Customer Engagement organization, Idea records can be managed under the Community tab.
+For Dynamics 365 users, provided the portal customizations have been imported into your Dynamics 365 organization, Idea records can be managed under the Community tab.
 
 > [!NOTE]
 > If you create an idea, the idea will get one vote automatically on your behalf.
@@ -112,7 +112,7 @@ For example, say you want to enable voting for New, Accepted, and Rejected statu
 
 To get the status reason values:
 
-1.	Sign in to Dynamics 365 for Customer Engagement.
+1.	Sign in to Dynamics 365 Portals.
 
 2.	Go to **Settings** > **Customization** > **Customize the System**.
 
@@ -126,14 +126,14 @@ To get the status reason values:
 
 ### Enable autocomplete for ideas
 
-While creating a new idea, there might be a scenario where a similar idea already exists in Dynamics 365 for Customer Engagement. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas in Dynamics 365 for Customer Engagement. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
+While creating a new idea, there might be a scenario where a similar idea already exists in Dynamics 365. As an administrator, you can configure your portal to display a list of similar ideas when a portal user tries to create a new idea. This avoids creation of duplicate ideas in Dynamics 365. To enable a portal to display a list of similar ideas when a new idea is being created, you must create the `Ideas/EnableAutoComplete` site setting and set its value to **True**.
 
 > [!div class=mx-imgBorder]
 > ![Autocomplete ideas](media/idea-autocomplete.png "Autocomplete ideas")
 
-## Manage idea comments in Dynamics 365 for Customer Engagement
+## Manage idea comments in Dynamics 365
 
-For Dynamics 365 for Customer Engagement users, provided the portal customizations have been imported into your Dynamics 365 for Customer Engagement organization, Idea Comment records can be managed under the Community tab.
+For Dynamics 365 users, provided the portal customizations have been imported into your Dynamics 365 organization, Idea Comment records can be managed under the Community tab.
 
 ## Idea comment attributes and relationships
 
@@ -152,9 +152,9 @@ The table below explains the standard attributes and relationships of the Idea C
 |    Posted On     |              The date and time that the comment was created.              |
 |                  |                                                                           |
 
-## Manage idea votes in Dynamics 365 for Customer Engagement
+## Manage idea votes in Dynamics 365
 
-For Dynamics 365 for Customer Engagement users, provided the portal customizations have been imported into your Dynamics 365 for Customer Engagement organization, Idea Vote records can be managed under the Community tab.
+For Dynamics 365 users, provided the portal customizations have been imported into your Dynamics 365 organization, Idea Vote records can be managed under the Community tab.
 
 ## Idea vote attributes and relationships
 

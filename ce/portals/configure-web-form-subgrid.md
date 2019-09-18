@@ -1,5 +1,5 @@
 ---
-title: "Web Form subgrid configuration for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Web Form subgrid configuration for a portal | MicrosoftDocs"
 description: "Instructions to add and configure web form subgrids for a portal."
 ms.custom: 
   - dyn365-portal
@@ -25,11 +25,11 @@ search.app:
 
 Web form subgrids are configured in an identical fashion to entity form subgrids: first, create a metadata record for the Web form step that has a subgrid, and then add configuration metadata.
 
-Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the Dynamics 365 for Customer Engagement form that you are managing by using the out-of-the-box Dynamics 365 for Customer Engagement form designer, and you’re done. The grid will use the view that is specified in the Dynamics 365 for Customer Engagement form designer, show only related records if that option was chosen in Dynamics 365 for Customer Engagement, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
+Adding subgrids to your managed forms on the portal is easy—just add the subgrid to the Dynamics 365 form that you are managing by using the out-of-the-box Dynamics 365 form designer, and you’re done. The grid will use the view that is specified in the Dynamics 365 form designer, show only related records if that option was chosen in Dynamics 365, optionally show a search bar, and even respect [entity permissions for portals](assign-entity-permissions.md). It doesn't get any simpler to display a read-only list of records. To enable actions for the grid— Create, Update, Delete, and so on—you must configure those actions by using metadata configuration.
 
 ## Add subgrid metadata to your form
 
-To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md).
+To add subgrid metadata to an entity form, go to **Entity Form Metadata** by using either the top drop-down list or the subgrid on the main form of the record that you are working with. [!include[](../includes/proc-more-information.md)] [Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md).
 
 To add a new record, select **Add New Entity Form Metadata**.
 
@@ -38,7 +38,7 @@ To edit an existing record, select the record in the grid. Selecting **Subgrid**
 
 |     Name     |                                                       Description                                                        |
 |--------------|--------------------------------------------------------------------------------------------------------------------------|
-| Subgrid Name | The unique name of the subgrid on the entity's related Dynamics 365 for Customer Engagement form. |
+| Subgrid Name | The unique name of the subgrid on the entity's related Dynamics 365 form. |
 |              |                                                                                                                          |
 
 Selecting the subgrid in the form editor will display a properties window. This contains a **Name** field that should be used to assign to the **Subgrid Name** field on the Entity Form Metadata record.
@@ -278,8 +278,8 @@ Enabling a **Disassociate action** allows a user to remove the link between the 
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
 [Web Form properties for portals](web-form-properties.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  

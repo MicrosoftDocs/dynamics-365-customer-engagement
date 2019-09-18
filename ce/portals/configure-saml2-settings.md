@@ -1,5 +1,5 @@
 ---
-title: "Configure SAML 2.0 provider settings for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure SAML 2.0 provider settings for a portal | MicrosoftDocs"
 description: "Instructions to add and configure SAML 2.0 provider settings for a portal."
 ms.custom: 
   - dyn365-portal
@@ -24,7 +24,7 @@ search.app:
 # Configure SAML 2.0 provider settings for portals
 
 > [!Note]
-> This documentation applies to Dynamics 365 for Customer Engagement portals and later versions.
+> This documentation applies to Dynamics 365 Portals and later versions.
 
 To provide external authentication, you can add one or more [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)–compliant identity providers (IdP). This document describes how to set up various identity providers to integrate with a portal that acts as a service provider.  
 
@@ -365,7 +365,7 @@ The process of adding a relying party trust in [!include[](../includes/pn-adfs-s
 
 .SYNOPSIS
 
-Adds a SAML 2.0 relying party trust entry for a Dynamics 365 for Customer Engagement portals website.
+Adds a SAML 2.0 relying party trust entry for a Dynamics 365 Portals website.
 
 .PARAMETER domain
 
@@ -462,7 +462,7 @@ Add-CrmRelyingPartyTrust $domain
 
 ### See also
 
-[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  

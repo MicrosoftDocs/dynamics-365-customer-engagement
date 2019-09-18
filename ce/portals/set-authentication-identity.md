@@ -1,5 +1,5 @@
 ---
-title: "Set authentication identity for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Set authentication identity for a portal  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
 keywords: "portal authentication"
 ms.date: 05/22/2019
@@ -160,7 +160,7 @@ Changing an email address (or setting it for the first time) puts it into an unc
 The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local or external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser. Each user account enables this feature individually and requires a confirmed email.
 
 > [!WARNING]
-> If you create and enable the **Authentication/Registration/MobilePhoneEnabled** site setting to enable the legacy functionality, an error will occur. This site setting is not provided out of the box and not supported by Dynamics 365 for Customer Engagement Portal.
+> If you create and enable the **Authentication/Registration/MobilePhoneEnabled** site setting to enable the legacy functionality, an error will occur. This site setting is not provided out of the box and not supported by Dynamics 365 Portals.
 
 **Related site settings:**
 
@@ -280,7 +280,7 @@ Settings for modifying the default authentication cookie behavior. Defined by th
 
 ### See also
 
-[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
