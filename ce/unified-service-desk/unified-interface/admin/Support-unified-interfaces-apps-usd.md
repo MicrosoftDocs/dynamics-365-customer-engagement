@@ -1,5 +1,5 @@
 ---
-title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365 Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about the Unified Interface apps supportability in Unified Service Desk."
 keywords: 
 ms.date: 05/07/2018
@@ -7,8 +7,8 @@ ms.service:
   - usd
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -24,15 +24,15 @@ manager: shujoshi
 
 ## What is Unified Interface?
 
-With the release of Dynamics 365 for Customer Engagement apps version 9.0, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+With the release of Dynamics 365 Customer Engagement apps version 9.0, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
 The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
 
 ## What is Unified Interface supportability in Unified Service Desk?
 
-[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from Dynamics 365 for Customer Engagement apps, which is built based on the Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from Dynamics 365 Customer Engagement apps, which is built based on the Unified Interface framework.
 
-The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement apps windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 Customer Engagement apps windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
 ## Deploy the Unified Interface sample application
 
@@ -80,8 +80,8 @@ After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.con
  [Unified Service Desk and Unified Interface Configuration Walkthroughs](../../../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
  [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../../../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
  [Walkthrough 2: Display an external webpage in your agent application](../../../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) records in your agent application](../../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
- [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) records in your agent application](../../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps (Unified Interface apps) record in a session in your agent application](../../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../../../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
  [Walkthrough 7: Configure agent scripting in your agent application](../../../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)

@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -51,7 +51,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   
@@ -101,7 +101,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. Click **Download Fetch XML** to save the query as `FetchXML`.  
   
-4. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
+4. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk** > **Window Navigation Rules**.  
   
 5. Click **New**, and on the **New Window Navigation Rule** window, specify the following values.  
   
@@ -164,7 +164,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
     |Field|Value|  
     |-----------|-----------|  
     |Name|CTIOpenContact|  
-    |Hosted Control|Dynamics 365 for Customer Engagement apps Global Manager|  
+    |Hosted Control|Dynamics 365 Customer Engagement apps Global Manager|  
     |Action|Open_CRM_Page|  
     |Data|Id=[[$Context.Id]]<br />LogicalName=[[$Context.LogicalName]]|  
   
@@ -197,7 +197,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. The matching contact record is displayed in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Matching Dynamics 365 for Customer Engagement apps contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 for Customer Engagement apps contact record displayed in a session")  
+   ![Matching Dynamics 365 Customer Engagement apps contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 Customer Engagement apps contact record displayed in a session")  
   
 4. Check the Debugger hosted control to view the events that got raised as a result of the CTI search. Also check out the **Data Parameters** tab to view the context information in the `$Context` variable and CTI information under the `CTI` variable.  
   

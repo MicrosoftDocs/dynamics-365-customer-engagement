@@ -1,5 +1,5 @@
 ---
-title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 Customer Engagement apps | MicrosoftDocs"
 description: "Learn about accessiblity features such as keyboard access and screen reader support."
 ms.custom: 
   - dyn365-a11y
@@ -57,6 +57,6 @@ Microsoft is committed to making its products and services easier for everyone. 
   
 <a name="ScreenReader"></a>   
 ## Screen  reader support  
- All out-of-box [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] hosted controls and custom controls that are included in the Dynamics 365 for Customer Engagement apps Web Client sample application package work with JAWS version 18 to provide speech output.  
+ All out-of-box [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] hosted controls and custom controls that are included in the Dynamics 365 Customer Engagement apps Web Client sample application package work with JAWS version 18 to provide speech output.  
   
  For information about how developers can extend custom hosted controls or hosted controls in the other [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample application packages to support the JAWS screen reader, see [Configure JAWS Screen Reader in Unified Service Desk](../../configure-jaws-screen-reader-support.md).  

@@ -1,5 +1,5 @@
 ---
-title: "Session Timer (Custom Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Session Timer (Custom Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
 description: "Learn about Session Timer type of hosted control in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -43,7 +43,7 @@ In [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)
   
   The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and connect to your Dynamics 365 for Customer Engagement apps instance.  
+1. Start [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client and connect to your Dynamics 365 Customer Engagement apps instance.  
   
 2. Click the **My Work** menu, and then click a case record to open a session.  
   

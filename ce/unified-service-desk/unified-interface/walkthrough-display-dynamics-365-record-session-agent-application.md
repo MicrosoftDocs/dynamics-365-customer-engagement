@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps record in a session in your agent application | MicrosoftDocs"
+title: "Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,12 +27,12 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps record in a session in your agent application
-This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
+# Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application
+This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   
-- You must have completed [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) and [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). The configurations that you completed in these walkthroughs are required in this walkthrough.  
+- You must have completed [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) and [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). The configurations that you completed in these walkthroughs are required in this walkthrough.  
   
 - This walkthrough assumes that you’ll be using the same user credential that you used in walkthrough 1 to sign in to the agent application at the end of the walkthrough to test the application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)  
   
@@ -91,7 +91,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
   
 <a name="Step2"></a>   
 ## Step 2: Configure the event to close the hosted control from where the search originated  
- In this step, you’ll configure the **BrowserDocumentComplete** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user clicked to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
+ In this step, you’ll configure the **BrowserDocumentComplete** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user clicked to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
   
 1. On the nav bar, click the down arrow next to the **Contoso Account Session** hosted control, and click **Events**.  
   
@@ -227,7 +227,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../../in
  
  [Walkthrough 2: Display an external webpage in your agent application](../../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
  
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
  

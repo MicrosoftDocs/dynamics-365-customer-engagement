@@ -1,5 +1,5 @@
 ---
-title: "UI Shell Framework in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "UI Shell Framework in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
 description: "Learn about the UI shell framework that enables developers to build a desktop for hosting integrated applications."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

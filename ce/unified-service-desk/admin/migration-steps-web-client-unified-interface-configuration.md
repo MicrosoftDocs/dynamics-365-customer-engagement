@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -25,13 +25,13 @@ search.app:
   - D365USD
 ---
 
-# How to migrate Unified Service Desk configurations from Dynamics 365 for Customer Engagement apps Web Client to Unified Interface
+# How to migrate Unified Service Desk configurations from Dynamics 365 Customer Engagement apps Web Client to Unified Interface
 
 The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface is a three-step process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
-- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365 for Customer Engagement apps.
+- **Step 2:** Import the **USDWebResources** folder, which is in the **USD_UI_Configurations** folder, using the **Solutions** option in the Dynamics 365 Customer Engagement apps.
 
 - **Step 3:** Import the **Data** zip folder from the **USD_UI_Configurations** folder to the Unified Interface App using the Configuration Migration Tool (DataMigrationUtility.exe).
 
@@ -39,7 +39,7 @@ This diagram illustrates the flow of the migration:
 > [!div class="mx-imgBorder"]
 > ![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
 
-1. **Dynamics 365 for Customer Engagement apps Web Client** </br></br> The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations.
+1. **Dynamics 365 Customer Engagement apps Web Client** </br></br> The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations.
 
 2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains the **Data** and **WebResources** zip folders. If you have **RunXrmCommand** actions in Web Client configurations, the migration assistant migrates the **RunXRMCommand** actions as a web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
 
@@ -47,7 +47,7 @@ This diagram illustrates the flow of the migration:
 
 4. **Configuration Migration Tool** </br></br> The Configuration Migration Tool lets you to import the **Data** zip folder and deploy it to the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Unified Interface App.
 
-5. **Dynamics 365 for Customer Engagement apps (Unified Interface apps)** The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
+5. **Dynamics 365 Customer Engagement apps (Unified Interface apps)** The target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance to which you want to deploy the configurations.
 
 ## Step 1: Use migration assistant to fetch and migrate the Web Client configurations
 
@@ -80,7 +80,7 @@ The migration assistant displays the **Download Completed**.</br>
 
 ## Step 2: Import the USDWebResources folder
 
-The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a solution in the Dynamics 365 for Customer Engagement apps.
+The **USDWebResources** folder contains the migrated **RunXrmCommand** actions that were present in Web Client. To deploy the **USDWebResources** on the target Unified Intrface App, import the web resources as a solution in the Dynamics 365 Customer Engagement apps.
 
 To import the **USDWebResources** zip folder, follow these steps:
 
@@ -99,7 +99,7 @@ You can see the success message after the solution is imported successfully.
 
 You can see the **USDWebResources** in the solutions list.</br>
 
-![USDWebResource imported to Dynamics 365 for Customer Engagement apps](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365 for Customer Engagement apps")
+![USDWebResource imported to Dynamics 365 Customer Engagement apps](../media/usd-configuration-migration-webresources-import.PNG "USDWebResource imported to Dynamics 365 Customer Engagement apps")
 
 For more information, see [Import, update, and export solutions](/dynamics365/customer-engagement/customize/import-update-export-solutions)
 
@@ -150,7 +150,7 @@ You can see configurations are migrated to Unified Interface specific elements.
 
 ## See also
 
-[Migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagement Web Client to Dynamics 365 for Customer Engagement apps (Unified Interface apps)](overview-migration-assistant.md)
+[Migration of Unified Service Desk configurations from Dynamics 365 Customer Engagement Web Client to Dynamics 365 Customer Engagement apps (Unified Interface apps)](overview-migration-assistant.md)
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
 

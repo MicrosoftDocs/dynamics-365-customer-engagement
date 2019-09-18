@@ -1,5 +1,5 @@
 ---
-title: Comply with the General Data Protection Regulation (GDPR) (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs
+title: Comply with the General Data Protection Regulation (GDPR) (Dynamics 365 Customer Engagement apps) | MicrosoftDocs
 description: Learn about General Data Protection Regulation (GDPR) and how Unified Service Desk complies with GDPR.
 ms.custom: 
 ms.date: 04/24/2018
@@ -9,8 +9,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

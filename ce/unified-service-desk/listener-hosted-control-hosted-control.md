@@ -1,5 +1,5 @@
 ---
-title: "Listener Hosted Control (Hosted Control) in Unified Service Desk for Dynamics 365 for Customer Engagement apps Customer Enagagement| MicrosoftDocs"
+title: "Listener Hosted Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement apps Customer Enagagement| MicrosoftDocs"
 description: "Learn about using the Listener Hosted Control type of hosted control, introduced in Unified Service Desk 2.0, to configure a custom listener for your auditing, diagnostic, and trace logs."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

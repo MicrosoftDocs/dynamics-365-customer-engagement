@@ -1,5 +1,5 @@
 ---
-title: "Toolbars in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Toolbars in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
 description: "Learn about configuring toolbars in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -71,4 +71,4 @@ Toolbars in [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified
 
  [Walkthrough 2: Display an external webpage in your agent application](../../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
 
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)
+ [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application](../../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)

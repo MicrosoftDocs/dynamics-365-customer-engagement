@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -65,12 +65,12 @@ search.app:
   
    1. On the nav bar, choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
-   2. Click **Dynamics 365 for Customer Engagement apps Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
+   2. Click **Dynamics 365 Customer Engagement apps Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
   
       > [!NOTE]
-      > **Dynamics 365 for Customer Engagement apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
+      > **Dynamics 365 Customer Engagement apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
   
-   3. On the **Dynamics 365 for Customer Engagement apps Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
+   3. On the **Dynamics 365 Customer Engagement apps Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
   
    ![Add a language module](../../unified-service-desk/media/usd-add-language-module.png "Add a language module")  
   

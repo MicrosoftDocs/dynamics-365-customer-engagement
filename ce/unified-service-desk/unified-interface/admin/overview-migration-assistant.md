@@ -1,6 +1,6 @@
 ---
-title: "Migrate Dynamics 365 for Customer Engagement Web Client configurations to Dynamics 365 for Customer Engagement apps (Unified Interface apps) | MicrosoftDocs"
-description: "Learn how to migrate your Unified Service Desk configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface apps"
+title: "Migrate Dynamics 365 Customer Engagement Web Client configurations to Dynamics 365 Customer Engagement apps (Unified Interface apps) | MicrosoftDocs"
+description: "Learn how to migrate your Unified Service Desk configurations from Dynamics 365 Customer Engagement Web Client to Unified Interface apps"
 keywords: 
 ms.date: 07/30/2018
 ms.service: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -25,7 +25,7 @@ search.app:
   - D365USD
 ---
 
-# Migration of Unified Service Desk configurations from Dynamics 365 for Customer Engagementa Web Client to Dynamics 365 for Customer Engagement Unified Interface apps
+# Migration of Unified Service Desk configurations from Dynamics 365 Customer Engagementa Web Client to Dynamics 365 Customer Engagement Unified Interface apps
 
 ## Overview
   
@@ -54,7 +54,7 @@ The migration assistant helps with the migration of:
 
 [Download the Web Client - Unified Interface Migration Assistant](download-migration-assistant.md)
 
-[Migration steps of the configurations from Dynamics 365 for Customer Engagement Web Client to Unified Interface apps](migration-steps-web-client-unified-interface-configuration.md)
+[Migration steps of the configurations from Dynamics 365 Customer Engagement Web Client to Unified Interface apps](migration-steps-web-client-unified-interface-configuration.md)
 
 [Download the tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
 

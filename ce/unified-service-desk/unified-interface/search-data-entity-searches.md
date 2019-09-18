@@ -1,6 +1,6 @@
 ---
-title: "Search data using entity searches in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
-description: "Entity searches are FetchXML definitions that query the Dynamics 365 for Customer Engagement web services to return data. You can also use replacement parameters within the FetchXML queries in an entity search."
+title: "Search data using entity searches in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
+description: "Entity searches are FetchXML definitions that query the Dynamics 365 Customer Engagement web services to return data. You can also use replacement parameters within the FetchXML queries in an entity search."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -62,7 +62,7 @@ Entity searches are FetchXML definitions that query the [!INCLUDE[pn_microsoftcr
 > [!IMPORTANT]
 >  While defining FetchXML queries in an entity search, you should only return the fields that are required for the purpose. This minimizes the impact on the network by limiting the size of the request and the data being returned, thus optimizing the resource usage.  
   
- Developers can also reuse an existing entity search definition in their code to search for records in Dynamics 365 for Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Reuse Entity Search definition in your custom code](../../unified-service-desk/reuse-entity-search-definition-custom-code.md)  
+ Developers can also reuse an existing entity search definition in their code to search for records in Dynamics 365 Customer Engagement apps. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Reuse Entity Search definition in your custom code](../../unified-service-desk/reuse-entity-search-definition-custom-code.md)  
   
 ### See also  
  [Reuse Entity Search definition in your custom code](../../unified-service-desk/reuse-entity-search-definition-custom-code.md)   

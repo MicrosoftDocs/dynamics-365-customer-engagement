@@ -1,6 +1,6 @@
 ---
-title: "Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn about the knowledge management solution in Microsoft Dynamics 365 for Customer Engagement apps that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
+title: "Configure Unified Service Desk to use Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+description: "Learn about the knowledge management solution in Microsoft Dynamics 365 Customer Engagement apps that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
 keywords: 
 ms.date: 08/17/2018
 ms.service: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -29,7 +29,7 @@ search.app:
   - D365USD
 ---
 
-# Configure Unified Service Desk to use Dynamics 365 for Customer Engagement apps
+# Configure Unified Service Desk to use Dynamics 365 Customer Engagement apps
 The **KM Control** and **Unified Interface KM Control** type of hosted controls expose a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps from within [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  
   
 ::: moniker range="dynamics-usd-3"
@@ -126,10 +126,10 @@ entitytypename=incident
  You can configure other tasks for the knowledge base articles such as copy the link of an article or send an email with pre-populated values as the case title in the email subject and knowledge base article link in the email body. These tasks are available when you deploy the **Knowledge Management** sample application, and you can view the configuration for these tasks in your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps instance under **Settings** > **Unified Service Desk** ([How do I get there?](http://go.microsoft.com/fwlink/p/?LinkId=525636)).  
   
 ### See also  
- [Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement](../../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
+ [Use Dynamics 365 Customer Engagement apps knowledge for effective customer engagement](../../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) 
 
  [KM Control (Hosted Control)](../../unified-service-desk/km-control-hosted-control.md)  
 
  [Unified Interface KM Control (Hosted Control)](../../unified-service-desk/unified-interface-km-control-hosted-control.md) 
 
- [Walkthrough 8: Use Dynamics 365 for Customer Engagement apps knowledge within your agent application](../../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+ [Walkthrough 8: Use Dynamics 365 Customer Engagement apps knowledge within your agent application](../../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)

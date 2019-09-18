@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -61,7 +61,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 2. In the **New Project** dialog box:  
   
-   1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 for Customer Engagement apps SDK Templates** > **Unified Service Desk** > **UII Windows Forms Hosted Control**.  
+   1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 Customer Engagement apps SDK Templates** > **Unified Service Desk** > **UII Windows Forms Hosted Control**.  
   
    2.  Specify the name and location of the project, and click **OK** to create a new project.  
   
@@ -156,7 +156,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, click **Hosted Controls**.  
   
@@ -194,7 +194,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
   

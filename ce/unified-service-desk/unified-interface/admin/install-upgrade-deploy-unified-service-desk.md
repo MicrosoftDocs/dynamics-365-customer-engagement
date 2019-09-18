@@ -1,6 +1,6 @@
 ---
-title: "Install, deploy, and upgrade Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn how to install or upgrade Unified Service Desk for Dynamics 365 for Customer Engagement apps."
+title: "Install, deploy, and upgrade Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+description: "Learn how to install or upgrade Unified Service Desk for Dynamics 365 Customer Engagement apps."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -42,9 +42,9 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
   
 1. Install the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client on the development computer. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Unified Service Desk Client](../../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
   
-2. Deploy [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] packages to the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+2. Deploy [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] packages to the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Deploy Unified Service Desk packages to Dynamics 365 Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
-3. Run the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client, and connect to the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance where you deployed the packages to verify that everything is working correctly. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Connect to Dynamics 365 for Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+3. Run the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client, and connect to the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance where you deployed the packages to verify that everything is working correctly. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Connect to Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
    **Set up additional development computers**  
   
@@ -56,7 +56,7 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
 ## Step 3: Deploy the customized agent application  
  After you have customized your agent application through configuration or custom code, you must install the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application along with any files required for the custom functionality on your agent’s computers. Consider creating a [!INCLUDE[pn_clickonce](../../../includes/pn-clickonce.md)] application or an MSI package installer to bundle all the files together and deploy on the agent computers in your organization. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] see [MSDN: ClickOnce Security and Deployment](http://msdn.microsoft.com/library/t71a733d.aspx) or [MSDN: Windows Installer](http://msdn.microsoft.com/library/cc185688\(v=vs.85\).aspx)  
   
- You might also want to migrate your [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] configuration from a development/test to a production environment. You can use the new [!INCLUDE[pn_configuration_migration_tool](../../../includes/pn-configuration-migration-tool.md)] to migrate your [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] configuration data across [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)  
+ You might also want to migrate your [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] configuration from a development/test to a production environment. You can use the new [!INCLUDE[pn_configuration_migration_tool](../../../includes/pn-configuration-migration-tool.md)] to migrate your [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] configuration data across [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Migrate your Unified Service Desk configuration to another Dynamics 365 Customer Engagement server](../../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)  
     
   
 ## See also  
@@ -64,7 +64,7 @@ Before you can install and deploy [!INCLUDE[pn_unified_service_desk_for_crm](../
   
  [Install Unified Service Desk Client](../../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
   
- [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+ [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
- [Connect to Dynamics 365 for Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
+ [Connect to Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
  

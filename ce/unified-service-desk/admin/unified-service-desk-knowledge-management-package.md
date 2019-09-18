@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps – Knowledge Management package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 Customer Engagement apps – Knowledge Management package | MicrosoftDocs"
 description: "Overview of the Knowledge Management sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -103,7 +103,7 @@ search.app:
   
 3.  In the search results, select the article by choosing the article blurb, and do one of the following:  
   
-    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 for Customer Engagement apps"). You can then paste it in the chat session with customers or in the email body.  
+    -   To copy the URL of the article, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365 Customer Engagement apps](../../unified-service-desk/media/copy-link-button.png "Copy knowledge article link button Dynamics 365 Customer Engagement apps"). You can then paste it in the chat session with customers or in the email body.  
   
         > [!NOTE]
         >  If you don’t see a URL when you try to paste it, it could be because the article is still in the draft state or is expired.  
@@ -112,15 +112,15 @@ search.app:
   
          An email template opens with data populated in it.  
   
-    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365 for Customer Engagement apps").  
+    -   To link the article with the case, click the **Link Article** button ![Link knowledge article to current case button in Dynamics 365 Customer Engagement apps](../../unified-service-desk/media/link-article-current-record.png "Link knowledge article to current case button in Dynamics 365 Customer Engagement apps").  
   
-         Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365 for Customer Engagement apps").  
+         Linking articles to cases helps in determining what articles were effective in resolving cases. You can also dissociate the article from the case by clicking the **Remove Link** button ![Unlink knowledge article from current record button in Dynamics 365 Customer Engagement apps](../../unified-service-desk/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365 Customer Engagement apps").  
   
     -   To open the article in a new tab in the main panel and read its content, click the title of the article.  
   
          All actions like **Copy Link** or **Send Email** are available on this new tab.  
   
-    -   Additionally, to open the article in a new browser window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365 for Customer Engagement apps](../../unified-service-desk/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365 for Customer Engagement apps"). This button is available only in the main panel and is particularly useful when you’re using multiple monitors. You can pop out an article and view it on a second monitor so that you can continue to use the first monitor to work on the case or take notes. While going through the article, you can click a link to go to a different page, and use the **Back** button ![Back button in Unified Service Desk](../../unified-service-desk/media/back-arrow-button.png "Back button in Unified Service Desk") to go back to the original article.  
+    -   Additionally, to open the article in a new browser window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365 Customer Engagement apps](../../unified-service-desk/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365 Customer Engagement apps"). This button is available only in the main panel and is particularly useful when you’re using multiple monitors. You can pop out an article and view it on a second monitor so that you can continue to use the first monitor to work on the case or take notes. While going through the article, you can click a link to go to a different page, and use the **Back** button ![Back button in Unified Service Desk](../../unified-service-desk/media/back-arrow-button.png "Back button in Unified Service Desk") to go back to the original article.  
   
     > [!TIP]
     >  Your system administrator can also set up the search control to search automatically based on certain criteria as soon as you open a session. To know more about this, talk to your system administrator.  

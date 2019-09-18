@@ -1,6 +1,6 @@
 ---
-title: "Sample Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Discover the sample application available with Unified Service Desk for Dynamics 365 for Customer Engagement apps that you can use to quickly get you started."
+title: "Sample Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+description: "Discover the sample application available with Unified Service Desk for Dynamics 365 Customer Engagement apps that you can use to quickly get you started."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -33,9 +33,9 @@ To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../include
 > [!IMPORTANT]
 > The sample applications are not supported for production use.
   
- For information about the sample applications, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ For information about the sample applications, see [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
 ## See also  
- [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+ [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
  

@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -86,11 +86,11 @@ This topic provides information on things to consider while creating a computer 
 
 <a name="CTISearch"></a>   
 ## CTI search  
- [!INCLUDE[pn_cti_acronym](../../includes/pn-cti-acronym.md)] searches are done using FetchXML in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps. You can search using any data passed in any parameter from [!INCLUDE[pn_cti_acronym](../../includes/pn-cti-acronym.md)] against any field in your entity of choice in Dynamics 365 for Customer Engagement apps. Searches are performed one rule at a time until a match is found. Once a match to a window navigation rule in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is found, it will follow the guidance configured in the navigation rule for the next step. Typically, a rule is set up to open a session around the activity, and optionally display the activity in a tab. For more information about how to configure a window navigation rule to perform a [!INCLUDE[pn_cti_acronym](../../includes/pn-cti-acronym.md)]search, see [Walkthrough: Use generic listener adapter for CTI events](../../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
+ [!INCLUDE[pn_cti_acronym](../../includes/pn-cti-acronym.md)] searches are done using FetchXML in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps. You can search using any data passed in any parameter from [!INCLUDE[pn_cti_acronym](../../includes/pn-cti-acronym.md)] against any field in your entity of choice in Dynamics 365 Customer Engagement apps. Searches are performed one rule at a time until a match is found. Once a match to a window navigation rule in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is found, it will follow the guidance configured in the navigation rule for the next step. Typically, a rule is set up to open a session around the activity, and optionally display the activity in a tab. For more information about how to configure a window navigation rule to perform a [!INCLUDE[pn_cti_acronym](../../includes/pn-cti-acronym.md)]search, see [Walkthrough: Use generic listener adapter for CTI events](../../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
 
  Let us configure a sample CTI search rule using the window navigation rule in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. For more information about the window navigation rule, see [Use window navigation rules in Unified Service Desk](../../unified-service-desk/use-window-navigation-rules-unified-service-desk.md).  
 
-1. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement**, and then select **Settings**.  
+1. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and then select **Settings**.  
 
 2. On the nav bar, choose **Settings**, and then select **Window Navigation Rules**.  
 

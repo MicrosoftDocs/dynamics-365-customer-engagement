@@ -1,6 +1,6 @@
 ---
-title: "Install the Unified Service Desk for Dynamics 365 for Customer Engagement apps client | MicrosoftDocs"
-description: "Learn how  to install the Unified Service Desk for Dynamics 365 for Customer Engagement apps client."
+title: "Install the Unified Service Desk for Dynamics 365 Customer Engagement apps client | MicrosoftDocs"
+description: "Learn how  to install the Unified Service Desk for Dynamics 365 Customer Engagement apps client."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 01/25/2018
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -56,9 +56,9 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
   
 2. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client installer starts automatically. If it doesn’t, go to the  folder where the extracted installation files are located and run the SetupUnifiedServiceDesk.exe file to start the installation.  
   
-3. On the **Microsoft Dynamics 365 for Customer Engagement apps Unified Service Desk** screen, keep the default location or enter the complete path where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files will be installed, and then click **Next**.  
+3. On the **Microsoft Dynamics 365 Customer Engagement apps Unified Service Desk** screen, keep the default location or enter the complete path where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files will be installed, and then click **Next**.  
   
-4. On the **Microsoft Dynamics 365 for Customer Engagement apps Unified Service Desk Installation** screen, choose from the following options:  
+4. On the **Microsoft Dynamics 365 Customer Engagement apps Unified Service Desk Installation** screen, choose from the following options:  
   
    - The [!INCLUDE[pn_Microsoft_.Net_Framework](../../includes/pn-microsoft-net-framework.md)] and [!INCLUDE[pn_Windows_Identity_Foundation](../../includes/pn-windows-identity-foundation.md)] prerequisites. You can’t remove these from the installation if these prerequisites are not already installed.  
   
@@ -110,7 +110,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 |------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | install<br /><br /> uninstall<br /><br /> help | Required parameter that performs one of the following functions depending on which parameter you choose:<br /><br /> -   Install. Installs or, if a previous version exists, upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.<br />-   Uninstall. Uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. This is a maintenance mode option that is only available when the application is already installed.<br />-   Help. Shows information about setup, such as supported parameters and usage. |
 |                       /S                       |                                                                                                                                                                                                                                                                                Silent mode. No setup UI is displayed.                                                                                                                                                                                                                                                                                |
-|                  destination                   |                                                                                                                                               The folder where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client files will be installed. By default, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is installed in the c:\program files\Microsoft Dynamics 365 for Customer Engagement USD\ folder.                                                                                                                                                |
+|                  destination                   |                                                                                                                                               The folder where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client files will be installed. By default, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is installed in the c:\program files\Microsoft Dynamics 365 Customer Engagement USD\ folder.                                                                                                                                                |
 |            Shortcut = [y &#124; n]             |                                                                                                                                                           Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, the shortcut is defaulted to y. When you specify Shortcut=n, a shortcut is not created.                                                                                                                                                            |
 |                      help                      |                                                                                                                                                                                                                                                                                  Shows a list of valid parameters.                                                                                                                                                                                                                                                                                   |
 
@@ -133,7 +133,7 @@ SetupUnifiedServiceDesk.exe uninstall
   
 <a name="BKMK_USDNext"></a>   
 ## Next Step  
- Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)]. For more information, see [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ Deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample packages on the [!INCLUDE[pn_microsoftcrm_server](../../includes/pn-microsoftcrm-server.md)]. For more information, see [Deploy Unified Service Desk packages to Dynamics 365 Customer Engagement server using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
   
 <a name="knownissues"></a>   
 ## Known issues  

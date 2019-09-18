@@ -1,5 +1,5 @@
 ---
-title: "Deploy sample Unified Service Desk for Dynamics 365 for Customer Engagement applications using Package Deployer | MicrosoftDocs"
+title: "Deploy sample Unified Service Desk for Dynamics 365 Customer Engagement applications using Package Deployer | MicrosoftDocs"
 description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
 keywords: 
 ms.date: 08/17/2018
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -65,9 +65,9 @@ search.app:
 
 4. In the introduction screen of the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)], choose **Continue**.  
 
-5. In the **Connect to Microsoft Dynamics 365 for Customer Engagement apps** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
+5. In the **Connect to Microsoft Dynamics 365 Customer Engagement apps** screen, provide authentication details to connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
 
-   ![Dynamics 365 for Customer Engagement apps authentication details sign&#45;in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Dynamics 365 for Customer Engagement apps authentication details sign-in")  
+   ![Dynamics 365 Customer Engagement apps authentication details sign&#45;in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Dynamics 365 Customer Engagement apps authentication details sign-in")  
 
 6. If you have multiple organizations and chose to select the organization that you want to connect to in the previous step, the next screen displays the list of organizations. Select a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization to connect to, and proceed.  
 
@@ -101,7 +101,7 @@ search.app:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement apps**, and then choose **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement apps**, and then choose **Settings**.  
 
 3. Choose **Settings** > **Solutions**.  
 
@@ -137,6 +137,6 @@ search.app:
 
 
 ## See also  
- [Deploy packages using Dynamics 365 for Customer Engagement Package deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)   
+ [Deploy packages using Dynamics 365 Customer Engagement Package deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell)   
  [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   
 

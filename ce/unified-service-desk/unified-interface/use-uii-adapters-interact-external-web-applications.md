@@ -1,5 +1,5 @@
 ---
-title: "Use UII adapters to interact with external and web applications in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Use UII adapters to interact with external and web applications in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
 description: "Learn how to use UII adapters to interact with your external and web applications without having access to the application’s source code in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

@@ -1,5 +1,5 @@
 ---
-title: "Administer and manage Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -38,7 +38,7 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
   
  [Distribute custom host controls using Customization Files](../../unified-service-desk/admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 
  [Performance enhancement for CRM entity page loads](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loads.md)
 

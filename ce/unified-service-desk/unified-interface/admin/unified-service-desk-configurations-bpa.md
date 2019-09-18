@@ -1,14 +1,14 @@
 ---
-title: "Unified Service Desk configurations (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
-description: "Learn about the Unified Service Desk configurations that you make in Dynamics 365 for Customer Engagement on which the Best practices Analyer performs analysis and displays a report."
+title: "Unified Service Desk configurations (Dynamics 365 Customer Engagement apps) | MicrosoftDocs"
+description: "Learn about the Unified Service Desk configurations that you make in Dynamics 365 Customer Engagement on which the Best practices Analyer performs analysis and displays a report."
 keywords: 
 ms.date: 04/24/2018
 ms.service:
   - usd
 ms.topic: article
 applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -20,7 +20,7 @@ manager: shujoshi
 
 # [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] Configurations
 
-[!INCLUDE[pn-best-practices-analyzer](../../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] configurations that you make in Dynamics 365 for Customer Engagement apps.
+[!INCLUDE[pn-best-practices-analyzer](../../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] configurations that you make in Dynamics 365 Customer Engagement apps.
 
 ## Internal WPF Hosting Type
  
@@ -61,7 +61,7 @@ Replace the **PageLoadComplete** event with a **BrowserDocumentComplete** event 
 
 |Event|Description|
 |-----------|------------|
-|**DesktopReady**|A **DesktopReady** event occurs on startup after all the desktop initialization are complete and the connections to Dynamics 365 for Customer Engagement are established.
+|**DesktopReady**|A **DesktopReady** event occurs on startup after all the desktop initialization are complete and the connections to Dynamics 365 Customer Engagement are established.
 |**SessionNew**|A **SessionNew** event occurs when a new session is created.|
 |**SessionActivated**|A **SessionActivated** event occurs when a new session is activated.|
 |**SessionDeactivated**|A **SessionDeactivated** event occurs when a new session is deactivated.|
@@ -160,7 +160,7 @@ By using the Help Improve [!INCLUDE[pn_unified_service_desk](../../../includes/p
 
 Set `HelpImproveUSD` to **true**:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Options**
 3. To create a new option, select **New** on the command bar.
 4. On the New Option page, select **HelpImproveUSD** in the **Global Options** list.
@@ -180,7 +180,7 @@ Internet Explorer Pooling enhances performance of CRM entity page loading in [!I
 
 Set the **InternetExplorerPooling** option to **true**:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Options**
 3. On the **Active UII Options** page, select **New**.
 4. In the **Global Option** field, select **Others**.
@@ -200,7 +200,7 @@ By using Activity Tracking Enabled options, you can track all the events for aud
 
 Enable the **Activity Tracking Enabled** option:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
 3. In the **Audit Settings** section, select the **Activity Tracking Enabled** check box.
 4. Select **Save**.
@@ -216,7 +216,7 @@ By using **Diagnostic Tracking Enabled**, you can record operational events and 
 
 Enable the **Diagnostic Tracking Enabled** option:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
 3. In the **Diagnostic Settings** section, select the **Diagnostic Tracking Enabled** check box.
 4. Select **Save**.
@@ -233,7 +233,7 @@ Enable the **Diagnostic Tracking Enabled** option:
 
 Enable the **Enable Exit Monitoring** option:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
 3. In the **Diagnostic Settings** section, select the **Enable Exit Monitoring** check box.
 4. Select **Save**.
@@ -250,7 +250,7 @@ By using Enable Crash Dump Generation, you can collect dump files during a fatal
 
 Enable the **Enable Crash Dump Generation** option:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Audit & Diagnostics Settings**
 3. In the **Diagnostic Settings** section, select the **Enable Crash Dump Generation** check box.
 4. Select **Save**.
@@ -267,7 +267,7 @@ Enable the **Enable Crash Dump Generation** option:
 
 Set the `IEWebPageRecovery` option to **true**.
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Options**
 3. In the list of options, select **IEWebPageRecovery**.
 4. In the **Value** field, select **true**.
@@ -286,7 +286,7 @@ process (usdmp.exe) waits before terminating an unresponsive Internet Explorer p
 
 Set the **ProcessTerminationThreshold** value between the range **0** and **30000**:
 
-1. Sign in to Dynamics 365 for Customer Engagement apps.
+1. Sign in to Dynamics 365 Customer Engagement apps.
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]** > **Options**
 3. In the list of options, select **ProcessTerminationThreshold**.
 4. In the **Value** field, type a value between **0** and **30000**.

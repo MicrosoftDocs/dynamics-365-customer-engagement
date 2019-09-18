@@ -1,5 +1,5 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps Web Client package | MicrosoftDocs"
+title: "Unified Service Desk for Dynamics 365 Customer Engagement apps Web Client package | MicrosoftDocs"
 description: "Overview of the Web Client sample application."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -33,7 +33,7 @@ search.app:
   
 - To demonstrate the rich set of customer service capabilities in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps and simplify the customization of your agent desktop application.  
   
-  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 for Customer Engagement apps Web Client sample application package, the following components are installed:  
+  With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Dynamics 365 Customer Engagement apps Web Client sample application package, the following components are installed:  
   
 - User Interface Integration Solution  
   
@@ -51,7 +51,7 @@ search.app:
 >  The sample applications aren't supported for production use.  
   
   
- Here’s what you’ll see when you install the Dynamics 365 for Customer Engagement apps Web Client package:  
+ Here’s what you’ll see when you install the Dynamics 365 Customer Engagement apps Web Client package:  
   
 1. Left Nav: Opens the left navigation area that you can open or collapse.  
   

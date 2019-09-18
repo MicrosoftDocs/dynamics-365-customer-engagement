@@ -1,5 +1,5 @@
 ---
-title: "Configure client caching in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Configure client caching in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set client caching."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -117,7 +117,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
  At times, it may be necessary to force a cache reset for a specific user to clear and reset the cache store. You can do this in two ways: From the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] server or by using the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application on the user’s computer.  
   
 <a name="UsingCRMServer"></a>   
-### Using the Dynamics 365 for Customer Engagement server  
+### Using the Dynamics 365 Customer Engagement server  
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] apps.
 
@@ -186,11 +186,11 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
     | Action | Specify **ResetLocalCache** |
   
        > [!NOTE]
-       > **Dynamics 365 for Customer Engagement apps Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../../unified-service-desk/global-manager-hosted-control.md)
+       > **Dynamics 365 Customer Engagement apps Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../../unified-service-desk/global-manager-hosted-control.md)
   
 11. Select **Save** and then close the action call.  
   
-    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 for Customer Engagement server](../../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
+    After you have set up the UII action and the action call, you can add a toolbar button, event, or code to directly invoke the action call from the client application. This creates a **RestDesktopCache** setting in the **User Settings** area, which triggers the reset behavior as described earlier in [Using the Dynamics 365 Customer Engagement server](../../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md#UsingCRMServer).  
   
 ## See also  
  [Sample Unified Service Desk applications](../../../unified-service-desk/admin/sample-unified-service-desk-applications.md)

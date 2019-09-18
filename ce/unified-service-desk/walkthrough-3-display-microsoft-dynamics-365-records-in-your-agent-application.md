@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application | MicrosoftDocs"
+title: "Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application | MicrosoftDocs"
 description: "Demonstrates how to display Customer Engagement records in Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365USD
 ---
-# Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application
+# Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application
 This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps records in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
 
 ## Prerequisites  
@@ -52,7 +52,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 
  [Step 3: Add a toolbar and attach it to the toolbar container](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step3)  
 
- [Step 4: Add toolbar buttons and action calls to display Dynamics 365 for Customer Engagement apps records](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step4)  
+ [Step 4: Add toolbar buttons and action calls to display Dynamics 365 Customer Engagement apps records](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step4)  
 
  [Step 5: Add the controls to the configuration](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step5)  
 
@@ -153,7 +153,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 9. Click **Save**.  
 
 <a name="Step4"></a>   
-## Step 4: Add toolbar buttons and action calls to display Dynamics 365 for Customer Engagement apps records  
+## Step 4: Add toolbar buttons and action calls to display Dynamics 365 Customer Engagement apps records  
  In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is clicked, appropriate [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps records are displayed in the hosted controls that were created in step 1. You’ll configure the search button so that clicking the button displays the account and contact submenu items, and clicking a button displays the respective [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps records.  
 
 1. After you save the toolbar in step 3, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
@@ -328,7 +328,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 for Customer Engagement apps instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
 
  Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on clicking the down arrow.  
 
@@ -336,7 +336,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 
  Click **Account** or **Contact** under the **SEARCH** button to display the respective records from your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
 
- ![Dynamics 365 for Customer Engagement apps contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13.png "Dynamics 365 for Customer Engagement apps contact records displayed")  
+ ![Dynamics 365 Customer Engagement apps contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13.png "Dynamics 365 Customer Engagement apps contact records displayed")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  
@@ -345,7 +345,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 ### See also  
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)   
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
- [Walkthrough 4: Display a Microsoft Dynamics 365 for Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   

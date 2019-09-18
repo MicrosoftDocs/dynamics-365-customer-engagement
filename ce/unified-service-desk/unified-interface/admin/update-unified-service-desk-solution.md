@@ -1,6 +1,6 @@
 ---
-title: "Update Unified Service Desk for Dynamics 365 for Customer Engagement apps solution | MicrosoftDocs"
-description: "Learn how to update Unified Service Desk for Dynamics 365 for Customer Engagement apps."
+title: "Update Unified Service Desk for Dynamics 365 Customer Engagement apps solution | MicrosoftDocs"
+description: "Learn how to update Unified Service Desk for Dynamics 365 Customer Engagement apps."
 keywords: 
 ms.date: 08/23/2017
 ms.service: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -89,5 +89,5 @@ Read this topic only if you have an existing installation of [!INCLUDE[pn_unifie
 13. Close the browser instance, and sign in again to [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] to see the new features in [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [What's new in Unified Service Desk for administrators](../../../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md).  
   
 ## See also  
- [Connect to Dynamics 365 for Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
+ [Connect to Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)   
  [Install and Deploy Unified Service Desk](../../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   

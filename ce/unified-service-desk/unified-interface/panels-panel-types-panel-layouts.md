@@ -1,5 +1,5 @@
 ---
-title: "Panels, panel types, and panel layouts in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Panels, panel types, and panel layouts in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
 description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

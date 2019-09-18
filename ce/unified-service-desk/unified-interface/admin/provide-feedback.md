@@ -1,13 +1,13 @@
 ---
-title: "Provide feedback about Unified Service Desk (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Provide feedback about Unified Service Desk (Dynamics 365 Customer Engagement apps) | MicrosoftDocs"
 description: "Learn about providing feedback about Unified Service Desk."
 ms.custom: 
 ms.date: 06/01/2019
 ms.service: usd
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -187,7 +187,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../..
 <a name="Step5"></a> 
 ## Step 5: Test the provide feedback option in the application
 
-Start the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to a [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 for Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).
+Start the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to a [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 Customer Engagement apps instance using the Unified Service Desk client](../../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).
 
 Your agent application will now have a **Smiley** button in the toolbar area.
 

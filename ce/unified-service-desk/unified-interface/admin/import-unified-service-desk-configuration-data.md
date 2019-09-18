@@ -1,6 +1,6 @@
 ---
-title: "Import Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration data | MicrosoftDocs"
-description: "Learn how configuration data can be imported in to a target Dynamics 365 for Customer Engagement apps instance."
+title: "Import Unified Service Desk for Dynamics 365 Customer Engagement apps configuration data | MicrosoftDocs"
+description: "Learn how configuration data can be imported in to a target Dynamics 365 Customer Engagement apps instance."
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.date: 10/29/2018
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -39,7 +39,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unifi
 <a name="ConfigMigration"></a>   
 ## Import configuration data by using the Configuration Migration tool  
   
-1. Make sure that the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+1. Make sure that the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] instance where you are migrating the configuration data has the required [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] package deployed. If it doesn’t, deploy a sample [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] package. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 2. Run the [!INCLUDE[pn_configuration_migration_tool](../../../includes/pn-configuration-migration-tool.md)], and click **Import data** in the main screen. For information about downloading the tool, see step 1 in [Export Unified Service Desk configuration data](../../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md).  
   
@@ -61,7 +61,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unifi
   
 - [Download the Unified Service Desk package](http://go.microsoft.com/fwlink/?LinkID=854761) (self-extracting executable file), and double-click the file to extract the contents. You will use the files under one of the default packages to create a sample application. In this example, you’ll use the files under the Base package (*\<ExtractedFolder>*\USDPackageDeployer\BasePackage).  
   
-- Ensure that you know the prerequisites and how to create a custom package by using the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] SDK template for [!INCLUDE[pn_Visual_Studio](../../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Dynamics 365 for Customer Engagement Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
+- Ensure that you know the prerequisites and how to create a custom package by using the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] SDK template for [!INCLUDE[pn_Visual_Studio](../../../includes/pn-visual-studio.md)]. For detailed information about using template to create a package, see [Create packages for the Dynamics 365 Customer Engagement Package deployer](https://msdn.microsoft.com/library/dn688182.aspx).  
   
 - [Download the CRM SDK package](http://go.microsoft.com/fwlink/?LinkID=627298) (.exe file), and extract it to locate the `PackageDeployer` folder under the *\<ExtractedFolder>*\SDK\Tools\ folder. This folder contains assemblies required for creating a custom project by using [!INCLUDE[pn_Visual_Studio_short](../../../includes/pn-visual-studio-short.md)].  
   
@@ -69,7 +69,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unifi
   
 ### How to create a custom package  
   
-1. Start [!INCLUDE[pn_Visual_Studio_short](../../../includes/pn-visual-studio-short.md)], and create a new project by using the **Dynamics 365 for Customer Engagement apps Package** template.  
+1. Start [!INCLUDE[pn_Visual_Studio_short](../../../includes/pn-visual-studio-short.md)], and create a new project by using the **Dynamics 365 Customer Engagement apps Package** template.  
   
    ![New project for creating a custom package](../../../unified-service-desk/media/crm-sdkv6-packagedeployer-01.png "New project for creating a custom package")  
   
@@ -97,7 +97,7 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unifi
   
 6. Double-click the **ImportConfig.xml** file under **PkgFolder** to edit it. Update the value of the `crmmigdataimportfile` parameter to match the name of the exported file (.zip) that you added in step 5.  
   
-7. Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Dynamics 365 for Customer Engagement Package deployer](https://msdn.microsoft.com/library/dn688182.aspx) in the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] SDK help.  
+7. Double-click the **PackageTemplate.cs** file to update the package name and description. For detailed information about this, see [Create packages for the Dynamics 365 Customer Engagement Package deployer](https://msdn.microsoft.com/library/dn688182.aspx) in the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] SDK help.  
   
 8. Save your project, and then build it (**Build** > **Build Solution**) to create the package. All the contents in the *\<Project>*\Bin\Debug folder are your package. Note that an assembly file (.dll) is created with the same name as your [!INCLUDE[pn_Visual_Studio_short](../../../includes/pn-visual-studio-short.md)] project name; this file contains the custom code that you created in the previous step.  
   
@@ -109,8 +109,8 @@ You can import the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unifi
   
 12. In the package selection screen, select your custom package to deploy, and follow the wizard screens to deploy the package.  
   
-    [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
+    [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
   
 ## See also  
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)   
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 Customer Engagement server](../../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)   
  [Troubleshoot Unified Service Desk](../../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)

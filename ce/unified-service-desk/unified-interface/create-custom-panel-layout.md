@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -206,7 +206,7 @@ Panel layouts in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-se
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 for Customer Engagement**, and select **Settings**.  
+2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

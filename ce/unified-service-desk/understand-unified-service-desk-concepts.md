@@ -1,5 +1,5 @@
 ---
-title: "Understand Unified Service Desk for Dynamics 365 for Customer Engagement apps concepts | MicrosoftDocs"
+title: "Understand Unified Service Desk for Dynamics 365 Customer Engagement apps concepts | MicrosoftDocs"
 description: "Learn about basic concepts related to configuring and extending Unified Service Desk."
 ms.custom: 
   - dyn365-USD
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

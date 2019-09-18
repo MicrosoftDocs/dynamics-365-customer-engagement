@@ -1,6 +1,6 @@
 ---
 title: "CRM Page (Hosted Control) | MicrosoftDocs"
-description: "Learn about the CRM Page hosted control type to load a URL or page from Dynamics 365 for Customer Engagement apps. When a Dynamics 365 for Customer Engagement apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
+description: "Learn about the CRM Page hosted control type to load a URL or page from Dynamics 365 Customer Engagement apps. When a Dynamics 365 Customer Engagement apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -29,13 +29,13 @@ search.app:
 # CRM Page (Hosted Control)
 Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.  
 
- This hosted control type exposes a number of predefined UII actions and events that are unique to handling of Dynamics 365 for Customer Engagement apps windows including list manipulation actions, and a find action for displaying a quick search or advanced search page  
+ This hosted control type exposes a number of predefined UII actions and events that are unique to handling of Dynamics 365 Customer Engagement apps windows including list manipulation actions, and a find action for displaying a quick search or advanced search page  
 
 <a name="Create"></a>   
 ## Create a CRM Page hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Dynamics 365 for Customer Engagement apps page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "Dynamics 365 for Customer Engagement apps page hosted control")  
+ ![Dynamics 365 Customer Engagement apps page hosted control](../unified-service-desk/media/crm-itpro-usd-crmpagehostedcontrol.PNG "Dynamics 365 Customer Engagement apps page hosted control")  
 
  In the **New Hosted Control** screen:  
 
@@ -162,7 +162,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 |ShowPropButton|“0” or “1” to show properties button|  
 |Browse|“0” or “1” whether to use browsing mode. The following is with this set to “1”.|  
 |Currentid|The Guid for the current value|  
-|objecttypes|List of object types to display. These are the etc types from Dynamics 365 for Customer Engagement apps. Example: “1,2” to display accounts and contacts.|  
+|objecttypes|List of object types to display. These are the etc types from Dynamics 365 Customer Engagement apps. Example: “1,2” to display accounts and contacts.|  
 
 <a name="MoveToPanel"></a>   
 ### MoveToPanel  
@@ -173,7 +173,7 @@ Use the **CRM Page** hosted control type to load a URL or page from [!INCLUDE[pn
 ||The data parameter should specify the target panel name to move the hosted control to. For example: `FloatingPanel`.|  
 
 ### Navigate  
- This action is used to navigate to a Dynamics 365 for Customer Engagement apps url.  
+ This action is used to navigate to a Dynamics 365 Customer Engagement apps url.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                        |
@@ -320,6 +320,6 @@ and the **DataReady** event is fired for inline navigations as well.
  [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)   
  [UII actions](../unified-service-desk/uii-actions.md)   
  [Events](../unified-service-desk/events.md)   
- [Walkthrough 3: Display Microsoft Dynamics 365 for Customer Engagement apps records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 Customer Engagement apps records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics 365 for Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk for Microsoft Dynamics 365 Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkID=394402)

@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -51,17 +51,17 @@ The Administrator app, which is built based on the Unified Interface framework, 
 
 The matrix explains the support of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app with versions of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
 
-### Fresh installation of Dynamics 365 for Customer Engagement apps and Unified Service Desk
+### Fresh installation of Dynamics 365 Customer Engagement apps and Unified Service Desk
 
-| Dynamics 365 for Customer Engagement apps Version | Unified Service Desk Version | Unified Service Desk Administrator App  |
+| Dynamics 365 Customer Engagement apps Version | Unified Service Desk Version | Unified Service Desk Administrator App  |
 |:--------------------:|:----------------------------:|:---------------------------------------:|
 | V 9.x                | 4.X                          | Yes                                     |
 
-### Upgrade installation of Dynamics 365 for Customer Engagement apps and Unified Service Desk
+### Upgrade installation of Dynamics 365 Customer Engagement apps and Unified Service Desk
 
-When you are upgrading Dynamics 365 for Customer Engagement apps version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
+When you are upgrading Dynamics 365 Customer Engagement apps version and Unified Service Desk you need to import the solution to use Unified Service Desk Administrator app. The matrix explains the import scenario. 
 
-| Dynamics 365 for Customer Engagement apps version | Unified Service Desk version |Import solution to get Unified Service Desk Administrator App  | 
+| Dynamics 365 Customer Engagement apps version | Unified Service Desk version |Import solution to get Unified Service Desk Administrator App  | 
 |:--------------------:|:----------------------------:|:---------------------------------------:|
 | **V 8.x** to **V 9.x**       | 4.X                       | Yes                                     | 
 | **V 7.x** to **V 9.x**       | 4.X                          | Yes                                     | 
@@ -79,7 +79,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 1. Download [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and Package Deployer and save them on your computer. See [Download Unified Service Desk](../download-unified-service-desk.md).
 
-2. Run the downloaded file to extract the Dynamics 365 for Customer Engagement Package deployer into a folder.
+2. Run the downloaded file to extract the Dynamics 365 Customer Engagement Package deployer into a folder.
 
 3. After the files are extracted, if the Package Deployer tool starts automatically, close it.
 
@@ -111,7 +111,7 @@ If you deploy the sample package or import the solution, in either way you can f
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] apps.
 
-2. Select the drop-down arrow next the **Dynamics 365 for Customer Engagement** and select **Unified Service Desk Administrator** app.
+2. Select the drop-down arrow next the **Dynamics 365 Customer Engagement** and select **Unified Service Desk Administrator** app.
 
 > [!NOTE]
 > Alternatively, there are two other ways to go to the app. 

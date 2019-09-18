@@ -1,5 +1,5 @@
 ---
-title: "Export Unified Service Desk for Dynamics 365 for Customer Engagement apps configuration data | MicrosoftDocs"
+title: "Export Unified Service Desk for Dynamics 365 Customer Engagement apps configuration data | MicrosoftDocs"
 description: "Learn how to prepare a file for use with another instance using the Configuration Migration Tool and configuration data schema file."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -54,4 +54,4 @@ You can export your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified
  [Import Unified Service Desk configuration data](../../unified-service-desk/admin/import-unified-service-desk-configuration-data.md)  
   
 ## See also  
- [Migrate your Unified Service Desk configuration to another Dynamics 365 for Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 Customer Engagement server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)

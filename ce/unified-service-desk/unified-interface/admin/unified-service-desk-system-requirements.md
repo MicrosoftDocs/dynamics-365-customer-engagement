@@ -1,6 +1,6 @@
 ---
-title: "Unified Service Desk for Dynamics 365 for Customer Engagement apps system requirements | MicrosoftDocs"
-description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 for Customer Engagement apps. "
+title: "Unified Service Desk for Dynamics 365 Customer Engagement apps system requirements | MicrosoftDocs"
+description: "Describes the supported dependent and optional components you need to install and use Unified Service Desk for Dynamics 365 Customer Engagement apps. "
 keywords: 
 ms.date: 05/14/2019
 ms.service:
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -69,7 +69,7 @@ This topic provides information about the system requirements for installing the
 
 > [!IMPORTANT]
 >  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.1 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.1 for Dynamics 365 for Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2086721).
+> We recommend that you use Unified Service Desk 4.1 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.1 for Dynamics 365 Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2086721).
 
 ::: moniker-end
 
@@ -77,11 +77,11 @@ This topic provides information about the system requirements for installing the
 
 > [!IMPORTANT]
 >  Although you can deploy and use [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications with [!INCLUDE[pn_crm_2015](../../../includes/pn-crm-2015.md)] or [!INCLUDE[pn_crm_2013_sp](../../../includes/pn-crm-2013-sp.md)], we recommend that you upgrade to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] so you can use the new features available.  
-> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0 for Dynamics 365 for Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
+> We recommend that you use Unified Service Desk 4.0 with [!INCLUDE [pn-crm-9-0-0-online](../../../includes/pn-crm-9-0-0-online.md)]. [Get Unified Service Desk 4.0 for Dynamics 365 Customer Engagement apps now](https://go.microsoft.com/fwlink/p/?linkid=2007340).
 
 ::: moniker-end
 
- For information about the sample applications available for this release, see [Deploy sample Unified Service Desk applications to Dynamics 365 for Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
+ For information about the sample applications available for this release, see [Deploy sample Unified Service Desk applications to Dynamics 365 Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).  
 
 <a name="packdeploy"></a>   
 ## Software requirements for the Package Deployer tool  
@@ -108,5 +108,5 @@ After you enable the Web Client experience, go to the Window Navigation Rules an
 
 ## See also  
  [Install Unified Service Desk Client](../../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)   
- [Deploy Unified Service Desk packages to Dynamics 365 for Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
+ [Deploy Unified Service Desk packages to Dynamics 365 Customer Engagement server using Package Deployer](../../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)   
  [Install and Deploy Unified Service Desk](../../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)   

@@ -7,8 +7,8 @@ ms.service:
   - usd
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -95,7 +95,7 @@ While you use **Chrome Process** to host applications in Unified Service Desk, i
 
 ### Support for CloseAndPrompt action in Chrome Process
 
-The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Chrome Process does not support the **CloseAndPrompt** action for Dynamics 365 Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 ### Support for Microphone and webcam with Channel Integration Framework
 
@@ -105,7 +105,7 @@ When you integrate a channel with Unified Service Desk using the Channel Integra
 
 #### Support for CloseAndPrompt action in Edge Process
 
-The Edge Process does not support the **CloseAndPrompt** action for Dynamics 365 for Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
+The Edge Process does not support the **CloseAndPrompt** action for Dynamics 365 Customer Engagement web client. When you make changes in a webpage or a form on a web client, the process does not perform a dirty data check by prompting a dialog. Instead, when you close the webpage or the form, Unified Service Desk closes the webpage or the form.
 
 #### Support for alert dialog with WebView control
 
@@ -195,7 +195,7 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 
 ### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
-If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 for Customer Engagement apps Web Client to Dynamics 365 for Customer Engagement apps Unified Interface, the KM Control is changed to Unified Interface KM Control.
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Customer Engagement apps Web Client to Dynamics 365 Customer Engagement apps Unified Interface, the KM Control is changed to Unified Interface KM Control.
 
 With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can see server error.
 
@@ -261,7 +261,7 @@ Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.
 
 ### Unified Interface form does not close the tab and navigates to Dashboard
 
-Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 for Customer Engagement apps Unified Interface. 
+Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 Customer Engagement apps Unified Interface. 
 
 ![Disable autosave in Unified Interface forms](media/crm-unified-interface-disable-autosave.png "Disable autosave in Unified Interface forms")
 
@@ -289,11 +289,11 @@ You cannot view and attach an action call to another call (sub-action call) in U
 
 #### Workaround
 
-You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 for Customer Engagement apps Web Client. 
+You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 Customer Engagement apps Web Client. 
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 for Customer Engagement apps and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 Customer Engagement apps and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ### Quick create in Unified Service Administrator app
 
@@ -303,9 +303,9 @@ Selecting the **New** button (quick create)  in the **Navigation** toolbar of th
 
 ### Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
 
-By default, when you a open Dynamics 365 for Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
+By default, when you a open Dynamics 365 Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
 
-However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 for Customer Engagement apps to hide the command bar and display the navigation bar, the Dynamics 365 for Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
+However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 Customer Engagement apps to hide the command bar and display the navigation bar, the Dynamics 365 Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
 
 To execute the configuration, disable the Internet Explorer pooling.
 
@@ -362,7 +362,7 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ### Best Practices Analyzer
 
-- **Warning for HelpImproveUSD parameter in Dynamics 365 for Customer Engagement (on-premises) apps**
+- **Warning for HelpImproveUSD parameter in Dynamics 365 Customer Engagement (on-premises) apps**
 
   Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)] apps, you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 

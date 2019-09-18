@@ -1,5 +1,5 @@
 ---
-title: "How Unified Service Desk for Dynamics 365 for Customer Engagement apps handles application and system errors | MicrosoftDocs"
+title: "How Unified Service Desk for Dynamics 365 Customer Engagement apps handles application and system errors | MicrosoftDocs"
 description: "Understand how application and system faults are managed in Unifed Service Desk."
 ms.custom: 
   - dyn365-USD, dyn365-admin

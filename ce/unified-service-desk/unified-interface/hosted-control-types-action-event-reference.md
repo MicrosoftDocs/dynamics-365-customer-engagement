@@ -1,5 +1,5 @@
 ---
-title: "Hosted control types, action, and event reference in Unified Service Desk for Dynamics 365 for Customer Engagement apps| MicrosoftDocs"
+title: "Hosted control types, action, and event reference in Unified Service Desk for Dynamics 365 Customer Engagement apps| MicrosoftDocs"
 description: "The section provides information about the various types of hosted controls in Unified Service Desk, and the predefined User Interface Integration (UII) actions and events available for each hosted control type."
 keywords: 
 ms.date: 08/17/2018
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016

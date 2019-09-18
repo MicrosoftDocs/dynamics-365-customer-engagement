@@ -1,6 +1,6 @@
 ---
-title: "Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement apps in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Learn how to use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement in Unified Service Desk."
+title: "Use Dynamics 365 Customer Engagement apps knowledge for effective customer engagement apps in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
+description: "Learn how to use Dynamics 365 Customer Engagement apps knowledge for effective customer engagement in Unified Service Desk."
 keywords: 
 ms.date: 08/17/2018
 ms.service: 
@@ -9,8 +9,8 @@ ms.custom:
   - dyn365-USD
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -29,16 +29,16 @@ search.app:
   - D365USD
 ---
 
-# Use Dynamics 365 for Customer Engagement apps knowledge for effective customer engagement in Unified Service Desk
-Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can set up knowledge management to use [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in Dynamics 365 for Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
+# Use Dynamics 365 Customer Engagement apps knowledge for effective customer engagement in Unified Service Desk
+Knowledge management plays an important part in the customer service process, and access to accurate and up-to-date information can help your customer service agents reduce the average handle time to provide quick and accurate answers to your customers. The new knowledge management solution in [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos. It also provides translation and versioning capabilities to support the knowledge lifecycle. If you’re using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can set up knowledge management to use [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps knowledge. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in Dynamics 365 Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=691083)  
   
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to use the rich knowledge base in Dynamics 365 for Customer Engagement from within the agent desktop so that your customer service agents can quickly search for relevant knowledge while working on a case, and provide accurate answers to the customers, without having to switch applications.  
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] enables you to use the rich knowledge base in Dynamics 365 Customer Engagement from within the agent desktop so that your customer service agents can quickly search for relevant knowledge while working on a case, and provide accurate answers to the customers, without having to switch applications.  
 
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides two types of the knowledge management hosted control:
 
- - **KM Control** for Dynamics 365 for Customer Engagement apps Web Client.
+ - **KM Control** for Dynamics 365 Customer Engagement apps Web Client.
 ::: moniker range=">=dynamics-usd-4"
- - **Unified Interface KM Control** for Dynamics 365 for Customer Engagement apps (Unified Interface apps).
+ - **Unified Interface KM Control** for Dynamics 365 Customer Engagement apps (Unified Interface apps).
 ::: moniker-end
   
  You can use the knowledge management hosted control to configure a knowledge base article search pane in your agent desktop that lets you search for knowledge in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, and then take the next set of actions on the search results, such as share the results with customers or associate them with case if the knowledge helped in resolving the case. All this can be done from within your agent desktop without having to switch applications. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides you with a sample application, **Knowledge Management**, which demonstrates the capabilities of the new feature. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sample Unified Service Desk applications](admin/sample-unified-service-desk-applications.md)
@@ -79,7 +79,7 @@ Knowledge management plays an important part in the customer service process, an
   
   ![Knowledge base article can be popped out or in](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
   
-  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use Dynamics 365 for Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
+  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use Dynamics 365 Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   
 ### See also  
  [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
@@ -87,8 +87,8 @@ Knowledge management plays an important part in the customer service process, an
 
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
 
- [Walkthrough 8: Use Dynamics 365 for Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+ [Walkthrough 8: Use Dynamics 365 Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
 
- [Set up knowledge management in Dynamics 365 for Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=691083)
+ [Set up knowledge management in Dynamics 365 Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=691083)
 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)

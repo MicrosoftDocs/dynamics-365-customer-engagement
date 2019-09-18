@@ -1,5 +1,5 @@
 ---
-title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Configure client diagnostic logging in Unified Service Desk for Dynamics 365 Customer Engagement apps | MicrosoftDocs"
 description: "Learn how to set client diagnostic logging."
 ms.custom: 
   - dyn365-USD, dyn365-admin
@@ -10,8 +10,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -49,7 +49,7 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../..
 
  You can enable logging with the **UnifiedServiceDesk.exe.config** file, which is available in the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client installation directory on your computer. To configure the type of logging and location of the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] log file:  
 
-1. Open the **UnifiedServiceDesk.exe.config** file for editing. If you installed the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client at the default location, this file will typically be available at C:\Program Files\Microsoft Dynamics 365 for Customer Engagement USD\USD.  
+1. Open the **UnifiedServiceDesk.exe.config** file for editing. If you installed the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client at the default location, this file will typically be available at C:\Program Files\Microsoft Dynamics 365 Customer Engagement USD\USD.  
 
 2. Go to the `<switches>` section in the file:  
 

@@ -1,5 +1,5 @@
 ---
-title: Unified Service Desk data compliance under GDPR (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs
+title: Unified Service Desk data compliance under GDPR (Dynamics 365 Customer Engagement apps) | MicrosoftDocs
 description: Learn about data in Unified Service Desk that comes under General Data Protection Regulation (GDPR)
 ms.custom: 
 ms.date: 04/24/2018
@@ -9,8 +9,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -79,7 +79,7 @@ The default folder path is: </br>
 
 ## Telemetry data
 
-[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application collects telemetry data ([!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] application-specific information) that is maintained in Microsoft Dynamics 365 for Customer Engagement apps. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is Microsoft, which processes the data on behalf of the controller.
+[!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application collects telemetry data ([!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] application-specific information) that is maintained in Microsoft Dynamics 365 Customer Engagement apps. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is Microsoft, which processes the data on behalf of the controller.
 
 The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] collects are:
 
@@ -90,7 +90,7 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../../inclu
 - Freeze or performance data
 - Session start and end data
 
-[!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Microsoft Dynamics 365 for Customer Engagement apps and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
+[!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Microsoft Dynamics 365 Customer Engagement apps and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
 
 ## See also
 

@@ -1,6 +1,6 @@
 ---
 title: "Create a Channel Integration Framework (CIF) hosted control | MicrosoftDocs"
-description: "Learn how to create a Channel Integration Framework hosted control in Dynamics 365 for Customer Engagement server for Unified Service Desk."
+description: "Learn how to create a Channel Integration Framework hosted control in Dynamics 365 Customer Engagement server for Unified Service Desk."
 ms.date: 04/10/2019
 ms.service: 
   - dynamics-365-customerservice
@@ -8,8 +8,8 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps
-  - Dynamics 365 for Customer Engagement (on-premises) apps
+  - Dynamics 365 Customer Engagement apps
+  - Dynamics 365 Customer Engagement (on-premises) apps
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
