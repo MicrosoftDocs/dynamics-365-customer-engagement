@@ -1,11 +1,15 @@
 ---
 title: "Embedded intelligence overview for Dynamics 365 for Customer Engagement | MicrosoftDocs"
-keywords: 
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.service: crm-online
-ms.custom: 
+ms.service:
+  - "crm-online"
+ms.custom:
+  - ""
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
+applies_to:
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 author: udaykirang
 ms.author: udag
@@ -14,13 +18,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 14
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365Sales
 ---
 
 # Embedded intelligence overview
@@ -42,7 +39,7 @@ A preview feature is a feature that is not complete, but is made available befor
 When fully included in the product, Relationship Insights will help salespeople work more effectively while nurturing and enhancing their business relationships.  
   
 > [!IMPORTANT]
->  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446). 
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
   
 <a name="GettingStarted"></a>   
 
