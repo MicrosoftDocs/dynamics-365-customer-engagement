@@ -28,19 +28,8 @@ Dynamics 365 Customer Engagement (on-premises) support three security models for
   
  The SDK assemblies simplify use of [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] technology and claims-based authentication by providing helper proxy classes that make it easy to write applications that connect to and authenticate with the Dynamics 365 Customer Engagement (on-premises) web services. By using these helper classes in your application, you can access any Dynamics 365 Customer Engagement (on-premises) deployment using the same code and you don’t have to become an expert in claims-based security or [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] programming.  
   
-## In This Section  
- [Use OAuth to connect to Dynamics 365 Customer Engagement web Services](connect-customer-engagement-web-services-using-oauth.md)  
-  
- [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application  to Dynamics 365 Customer Engagement (on-premises)](oauth-cross-origin-resource-sharing-connect-single-page-application.md)  
-  
- [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)  
-  
 ## Related Sections  
- [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)  
-  
- [OAuth 2.0](http://oauth.net/2/)  
-  
- [Authorization Code Grant Flow](https://msdn.microsoft.com/en-us/library/azure/dn645542.aspx)  
+ [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)  
   
  [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md)  
   
