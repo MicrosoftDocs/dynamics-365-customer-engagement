@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.custom: audit
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
 author: JimDaly
 ms.author: jdaly

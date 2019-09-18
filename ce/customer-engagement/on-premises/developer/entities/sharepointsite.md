@@ -1,5 +1,5 @@
 ---
-title: "SharePointSite Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "SharePointSite Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SharePointSite entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

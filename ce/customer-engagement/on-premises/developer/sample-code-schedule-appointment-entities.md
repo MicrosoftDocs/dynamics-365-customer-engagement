@@ -1,5 +1,5 @@
 ---
-title: "Sample code for schedule and appointment Entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample code for schedule and appointment Entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Section contains the code examples that show how to use the schedule and appointment entities."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - samples for schedule and appointment entities
   - schedule and appointment entities, samples

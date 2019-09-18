@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 35d8e05c-245a-4eff-bc5f-3a4ee8ffcb46
 caps.latest.revision: 30
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Write a custom Azure-aware plug-in
 
-Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
+Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
 <a name="bkmk_design"></a>
 

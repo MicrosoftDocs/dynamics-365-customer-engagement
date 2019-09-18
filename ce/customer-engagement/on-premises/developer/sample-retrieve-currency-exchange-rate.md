@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve currency exchange rate (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Retrieve currency exchange rate (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to create a new currency, and how to retrieve and display the currency exchange rate relative to the organization’s base currency."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d071fe46-4d71-4fd1-95b8-069bd4a96f8d
 caps.latest.revision: 13
 author: JimDaly

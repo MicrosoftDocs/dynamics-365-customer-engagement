@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0346a66d-147b-40e0-a1b6-0c30815043b4
 caps.latest.revision: 14
 author: JimDaly
@@ -21,13 +21,13 @@ search.app:
 ---
 # Walkthrough: Registering and configuring SimpleSPA application with adal.js
 
-This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 for Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). More information: [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 for Customer Engagement (online)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
+This walkthrough describes the process of registering and configuring the simplest Single Page Application (SPA) to access data in Dynamics 365 Customer Engagement using adal.js and Cross-origin Resource Sharing (CORS). More information: [Use OAuth with Cross-Origin Resource Sharing to connect a Single Page Application to Dynamics 365 Customer Engagement (on-premises)](oauth-cross-origin-resource-sharing-connect-single-page-application.md).  
   
 ## Prerequisites  
   
-- Dynamics 365 for Customer Engagement 
+- Dynamics 365 Customer Engagement 
   
-- You must have a Dynamics 365 for Customer Engagement system user account with administrator role for the Office 365.  
+- You must have a Dynamics 365 Customer Engagement system user account with administrator role for the Office 365.  
   
 - An Azure subscription for application registration. A trial account will also work.  
   
@@ -36,7 +36,7 @@ This walkthrough describes the process of registering and configuring the simple
 <a name="bkmk_goal"></a>   
 ## Goal of this walkthrough
 
-When you complete this walkthrough you will be able to run a simple SPA application in Visual Studio that will provide the ability for a user to authenticate and retrieve data from Dynamics 365 for Customer Engagement. This application consists of a sample HTML page.  
+When you complete this walkthrough you will be able to run a simple SPA application in Visual Studio that will provide the ability for a user to authenticate and retrieve data from Dynamics 365 Customer Engagement. This application consists of a sample HTML page.  
 
 When you debug the application initially there will only be a **Login** button.  
 
@@ -44,12 +44,12 @@ Click **Login** and you will be re-directed to a sign-in page to enter your cred
 
 After you enter your credentials you will be directed back to the HTML page where you will find the **Login** button is hidden and a **Logout** button and a **Get Accounts** button are visible. You will also see a greeting using information from your user account.  
 
-Click the **Get Accounts** button to retrieve 10 account records from your Dynamics 365 for Customer Engagement organization. The **Get Accounts** button is disabled as shown in the following screenshot:  
+Click the **Get Accounts** button to retrieve 10 account records from your Dynamics 365 Customer Engagement organization. The **Get Accounts** button is disabled as shown in the following screenshot:  
   
 ![The SimpleSPA page](media/simple-spa.png "The SimpleSPA page")  
 
 > [!NOTE]
-> The initial load of data from Dynamics 365 for Customer Engagement may be slow as the operations to support authentication take place, but subsequent operations are much faster.  
+> The initial load of data from Dynamics 365 Customer Engagement may be slow as the operations to support authentication take place, but subsequent operations are much faster.  
 
 Finally, you can click on **Logout** button to logout.  
 
@@ -77,7 +77,7 @@ Finally, you can click on **Logout** button to logout.
       "use strict";  
   
       //Set these variables to match your environment  
-      var organizationURI = "https://[organization name].crm.dynamics.com"; //The URL of your Dynamics 365 for Customer Engagement organization  
+      var organizationURI = "https://[organization name].crm.dynamics.com"; //The URL of your Dynamics 365 Customer Engagement organization  
       var tenant = "[xxx.onmicrosoft.com]"; //The name of the Azure AD organization you use  
       var clientId = "[client id]"; //The ClientId you got when you registered the application  
       var pageUrl = "http://localhost:[PORT #]/SimpleSPA.html"; //The URL of this page in your development environment when debugging.  
@@ -277,7 +277,7 @@ Finally, you can click on **Logout** button to logout.
   
     ```javascript  
     //Set these variables to match your environment  
-    var organizationURI = "https://[organization name].crm.dynamics.com"; //The URL to connect to Dynamics 365 for Customer Engagement  
+    var organizationURI = "https://[organization name].crm.dynamics.com"; //The URL to connect to Dynamics 365 Customer Engagement  
     var tenant = "[xxx.onmicrosoft.com]"; //The name of the Azure AD organization you use  
     var clientId = "[client id]"; //The ClientId you got when you registered the application  
     var pageUrl = "http://localhost:[PORT #]/SimpleSPA.html"; //The URL of this page in your development environment when debugging.  
@@ -289,7 +289,7 @@ Finally, you can click on **Logout** button to logout.
 1. Sign in to the [Azure portal](https://go.microsoft.com/fwlink/?linkid=2083908) using an account with administrator permission. You must use an account in the same Office 365 subscription (tenant) as you intend to register the app with. You can also access the Azure portal through the Microsoft 365 admin center by expanding the **ADMIN** item in the left navigation pane and selecting **Azure AD**.  
   
     > [!NOTE]
-    > If you don’t have an Azure tenant (account) or you do have one but your Office 365 subscription with Dynamics 365 for Customer Engagement is not available in your Azure subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program) to associate the two accounts.<br/><br/> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. More information: [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/).  
+    > If you don’t have an Azure tenant (account) or you do have one but your Office 365 subscription with Dynamics 365 Customer Engagement is not available in your Azure subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://docs.microsoft.com/en-us/office/developer-program/office-365-developer-program) to associate the two accounts.<br/><br/> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. More information: [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/).  
   
 2. Click on **Azure Active Directory** in the left column of the page. You may need to scroll the left column to see the **Azure Active Directory** icon and label.  
   

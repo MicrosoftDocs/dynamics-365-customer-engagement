@@ -1,5 +1,5 @@
 ---
-title: "Product discounting methods (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Product discounting methods (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The Organization.DiscountCalculationMethod attribute specifies the discount method: either line item or unit level."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 06c76a25-3bba-4d03-a37b-0f213a7576ca
 caps.latest.revision: 11
 author: KumarVivek

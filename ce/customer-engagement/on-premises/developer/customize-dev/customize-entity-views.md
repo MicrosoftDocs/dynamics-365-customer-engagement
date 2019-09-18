@@ -1,5 +1,5 @@
 ---
-title: "Customize entity views (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Customize entity views (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about customizing the entity views."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a6b5d363-4186-4bc8-a7eb-62f308fa9ef9
 caps.latest.revision: 40
 author: KumarVivek
@@ -22,7 +22,7 @@ search.app:
 ---
 # Customize entity views
 
-Entity views are special saved queries that retrieve data by using a specific filter. They also contain information about how the data in the view should be displayed in the application. Entity views are `SavedQuery` records that you can create programmatically. You can also define them as XML, and import them into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement with an unmanaged solution.  
+Entity views are special saved queries that retrieve data by using a specific filter. They also contain information about how the data in the view should be displayed in the application. Entity views are `SavedQuery` records that you can create programmatically. You can also define them as XML, and import them into [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] with an unmanaged solution.  
   
  An Entity view is different from a `UserQuery`. A user query, called a Saved view in the application, is owned by an individual user, can be assigned and shared with other users, and can be viewed by other users depending on the query's access privileges. This is appropriate for frequently used queries that span entity types and queries that perform aggregation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md)  
   
@@ -132,7 +132,7 @@ System.String layoutXml =
 </grid>";  
 ```  
   
- The [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function for displaying custom icons and tooltip text expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text for the icon in multiple languages. For more information about the languages supported by CRM, see [Enable additional languages](../../customize/enable-additional-languages.md) and [Install or upgrade Language Packs for Microsoft Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs Assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).  
+ The [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function for displaying custom icons and tooltip text expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text for the icon in multiple languages. For more information about the languages supported by CRM, see [Enable additional languages](../../customize/enable-additional-languages.md) and [Install or upgrade Language Packs for Microsoft Dynamics 365 Customer Engagement](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs Assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).  
   
  Assuming you will most likely be adding custom icons for an option set type of attribute as it has a limited set of predefined options, make sure you use the integer value of the options instead of label to avoid breaking the code due to changes in the localized label string. Also, in your JavaScript function, specify just the name of an image web resource that you want to use as an icon for a value in the attribute. The image should be of 16x16 pixels size; larger images will be automatically scaled down to 16x16 pixels size.  
   
@@ -199,7 +199,7 @@ function displayIconTooltip(rowData, userLCID) {
 ### See also  
  [Sample: Work with Views](sample-work-views.md)   
  [Building Queries with FetchXML](../org-service/build-queries-fetchxml.md)   
- [Extend the Metadata Model for Microsoft Dynamics 365 for Customer Engagement](../org-service/use-organization-service-metadata.md)   
- [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md)   
- [Customize Global Option Sets in Microsoft Dynamics 365 for Customer Engagement](../org-service/customize-global-option-sets.md)   
- [Customize Dynamics 365 for Customer Engagement](customize-applications.md)
+ [Extend the Metadata Model for Microsoft Dynamics 365 Customer Engagement](../org-service/use-organization-service-metadata.md)   
+ [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)   
+ [Customize Global Option Sets in Microsoft Dynamics 365 Customer Engagement](../org-service/customize-global-option-sets.md)   
+ [Customize Dynamics 365 Customer Engagement](customize-applications.md)

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 156dadf2-e2bf-496c-8d72-a94e71469fb1
 caps.latest.revision: 17
 author: JimDaly
@@ -35,18 +35,18 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
  ![Dynamics 365 Customer Engagement (on-premises) SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
   
 ## In This Section  
- [Dynamics 365 for Customer Engagement application platform - A platform for building extended Dynamics 365 for Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  
+ [Dynamics 365 Customer Engagement application platform - A platform for building extended Dynamics 365 Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides a powerful platform for building line-of-business applications. These applications are often referred to as Extended CRM (xRM) applications because they leverage the relationship tracking capabilities beyond the typical customer relationship management (CRM) scenarios. This topic introduces  resources to learn more about this capability.  
   
  [Supported Extensions for Dynamics 365 Customer Engagement (on-premises)](supported-extensions.md)  
  When you create extensions it is important that you choose to implement them in a supported way. This protects your investment by helping to insure that you can upgrade to new releases of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and use the latest capabilities as they are released. This topic describes which extensions are supported and which are not.  
   
- [The Metadata and Data Models in Dynamics 365 for Customer Engagement](metadata-data-models.md)  
+ [The Metadata and Data Models in Dynamics 365 Customer Engagement](metadata-data-models.md)  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] use a metadata driven architecture to provide the flexibility to create custom entities and additional system entity attributes. This structure also makes upgrades and the transportation of customizations easier. The data structure can change without requiring any change to code in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server or client applications.  
   
  Topics in this section describe how you can easily view the metadata, create and edit metadata with code, and query metadata to create dynamic applications which react to changes or metadata differences found in separate organizations.  
   
- [Extend Dynamics 365 for Customer Engagement on the server](extend-customer-engagement.md)  
+ [Extend Dynamics 365 Customer Engagement on the server](extend-customer-engagement.md)  
  This section describes capabilities to extend [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform. Whenever possible, extensions which apply business logic should be applied on the server.  
   
  Topics in this section describe how to deploy custom business logic using plug-ins, processes, the asynchronous service, Azure extensions and more.  
@@ -56,7 +56,7 @@ When you develop an application that uses the [!INCLUDE[pn_dynamics_crm](../incl
   
  Client extensions can provide a very rich and responsive experience for users because the code runs on their device. However, critical business logic should not be applied only by client-side scripts. Unlike extensions that are applied on the server, client extensions cannot apply business logic for data entering the system by other means, such as integrations with other systems, custom clients, or data import.  
   
- [Customize Dynamics 365 for Customer Engagement applications](customize-dev/customize-applications.md)  
+ [Customize Dynamics 365 Customer Engagement applications](customize-dev/customize-applications.md)  
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] client applications include the web application, [!INCLUDE[pn_Microsoft_Dynamics_CRM_Mobile](../includes/pn-dyn-365-phones.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. Each of these clients reference a common set of data that controls visual elements of the clients. This *application metadata* is usually edited using customization tools in the application or third-party tools. Other clients can also reference this application metadata if they want to leverage configuration options defined for specific organizations.  
   
  For an in-depth guide to customization by using the tools available in the web application see the [Customization Guide](../customize/overview.md). The topics in this section describe the structure of the data edited by those tools or third-party tools.  

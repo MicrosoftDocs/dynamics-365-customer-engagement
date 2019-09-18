@@ -1,6 +1,6 @@
 ---
-title: "Web API Conditional Operations Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "This sample demonstrates how to perform conditional operations using Dynamics 365 for Customer Engagement Web API and client-side JavaScript"
+title: "Web API Conditional Operations Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "This sample demonstrates how to perform conditional operations using Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: susikka
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 author: JimDaly
 ms.assetid: 7f097d9f-8fe7-428a-9ef7-ca79ec501d81
 caps.latest.revision: 23
@@ -22,7 +22,7 @@ search.app:
 ---
 # Web API Conditional Operations Sample (Client-side JavaScript)
 
-This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement  Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
+This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]  Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)].  
   
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md) and uses the common client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] constructs described in [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)  
@@ -429,7 +429,7 @@ Sdk.startSample = function () {
 ```  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)   

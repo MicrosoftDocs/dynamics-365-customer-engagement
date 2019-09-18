@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement Process categories (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Dynamics 365 Customer Engagement Process categories (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Processes enable you to model real-life business processes, for example best practices or standard practices, in Dynamics 365 Customer Engagement (on-premises). When modeling your business practices, you can choose from four categories of processes: Workflow, Action, Business Process Flow, and Dialog."
 ms.custom: 
 ms.date: 12/16/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8c19b218-311b-42bc-be37-c91e07c01661
 author: JimDaly
 ms.author: jdaly

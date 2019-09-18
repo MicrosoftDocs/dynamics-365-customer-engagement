@@ -1,5 +1,5 @@
 ---
-title: "Define custom state model transitions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define custom state model transitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 descriptions: Learn about defining custom state model transistions for the Incident (Case) entity or custom entities.
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5c2a584a-b52a-4bf9-8952-b48418422d10
 caps.latest.revision: 15
 author: JimDaly

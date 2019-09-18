@@ -1,5 +1,5 @@
 ---
-title: "Export ribbon definitions (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Export ribbon definitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about exporting the ribbon definitions."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, ribbon data
 ms.assetid: f3992ccf-72c5-4347-a7db-a6796f8a4df0
@@ -32,7 +32,7 @@ To effectively define changes to the default RibbonXml, you must be able to refe
   
 <a name="BKMK_AccessDefaultRibbonData"></a>   
 ## Access the default ribbon data  
- The default ribbon definitions for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement can be downloaded from [Microsoft Downloads: ExportedRibbonXml.zip](http://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). 
+ The default ribbon definitions for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] can be downloaded from [Microsoft Downloads: ExportedRibbonXml.zip](http://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). 
   
  The applicationRibbon.xml file contains the definition of the core application ribbons.  
   
@@ -74,6 +74,6 @@ To effectively define changes to the default RibbonXml, you must be able to refe
  [!code-csharp[ExportRibbonXml#ExportRibbonXml5](../../snippets/csharp/CRMV8/exportribbonxml/cs/exportribbonxml5.cs#exportribbonxml5)]  
   
 ### See also  
- [Customize the Ribbon for Microsoft Dynamics 365 for Customer Engagement](customize-commands-ribbon.md)   
+ [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Command bar or ribbon presentation](command-bar-ribbon-presentation.md)   
  [Export, Prepare to Edit, and Import the Ribbon](export-prepare-edit-import-ribbon.md)

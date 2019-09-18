@@ -1,5 +1,5 @@
 ---
-title: "Data import entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Data import entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Lists the data import entities used to create data maps, configure and run data imports, and log failure information."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - data import entities, for configuring and running data imports
   - data import entities, for creating data maps
@@ -53,7 +53,7 @@ The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data import enti
 | transformationparametermapping (transformation parameter mapping) |                                                                                           Parameter mapping that is used in complex transformation mapping.                                                                                            |
 
 ### See also  
- [Import Data in Dynamics 365 for Customer Engagement](import-data.md)   
+ [Import Data in Dynamics 365 Customer Engagement](import-data.md)   
  [Import Entity](entities/import.md)   
  [ImportFile Entity](entities/importfile.md)   
  [ImportLog Entity](entities/importlog.md)   

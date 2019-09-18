@@ -1,6 +1,6 @@
 ---
 title: "Supported extensions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "You can customize  Dynamics 365 Customer Engagement (on-premises) by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 Customer Engagement (on-premises) SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 for Customer Engagement."
+description: "You can customize  Dynamics 365 Customer Engagement (on-premises) by using tools that are available in the Customer Engagement web application or that are described in the Dynamics 365 Customer Engagement (on-premises) SDK. These customizations are supported and can be upgraded. Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 9386a572-0f6c-4edb-91f1-021ee63e6a58
 caps.latest.revision: 64
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Supported extensions
 
-You can customize [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement by using tools that are available in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or that are described in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)]. These customizations are supported and can be upgraded.  
+You can customize [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] by using tools that are available in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application or that are described in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)]. These customizations are supported and can be upgraded.  
   
  Customizations made using methods other than those described here are unsupported and could cause problems during updates and upgrades to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For more information, see [Unsupported Customizations](supported-extensions.md#Unsupported).  
   
@@ -141,7 +141,7 @@ The following supported tasks require this procedure:
   
 - Use of client certificates is not supported. If you configure the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] website to require IIS client certificates, you will get authentication failures for any applications that were built using the SDK.  
   
-- Modifications to the physical schema of the database, other than adding or updating indexes. This includes any actions performed against the database without using the System Customization capabilities in the web application or using the metadata APIs that are described in this SDK documentation. Modifying tables, stored procedures, or views in the database is not supported. Adding tables, stored procedures, or views to the database is also not supported because of referential integrity or upgrade issues. For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] on-premises deployments, adding indexes is supported per the guidelines in the [Deploying and administering Microsoft Dynamics 365 for Customer Engagement (on-premises)](http://go.microsoft.com/fwlink/p/?LinkID=510793) documentation. This applies to all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] databases and the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] local database.  
+- Modifications to the physical schema of the database, other than adding or updating indexes. This includes any actions performed against the database without using the System Customization capabilities in the web application or using the metadata APIs that are described in this SDK documentation. Modifying tables, stored procedures, or views in the database is not supported. Adding tables, stored procedures, or views to the database is also not supported because of referential integrity or upgrade issues. For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] on-premises deployments, adding indexes is supported per the guidelines in the [Deploying and administering Microsoft Dynamics 365 Customer Engagement (on-premises)](http://go.microsoft.com/fwlink/p/?LinkID=510793) documentation. This applies to all [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] databases and the [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] local database.  
   
   > [!IMPORTANT]
   > When you change the database without using the support methods for system customization, you run the risk of problems occurring during updates and upgrades.  
@@ -183,7 +183,7 @@ The following supported tasks require this procedure:
   
 - Displaying an entity form within an IFrame embedded in another entity form is not supported.
 
-- Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 for Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
+- Plugin and Workflow Assemblies must contain all the necessary logic within the respective dll.  Plugins may reference some core .Net assemblies. However, we do not support dependencies on .Net assemblies that interact with low-level Windows APIs, such as the graphics design interface. Previously, Dynamics 365 Customer Engagement allowed for assemblies to refer to these interfaces, but to adhere to our security standards, changes to this behavior are required.
   
 ### See also  
  [Choose your development style for managed code](choose-development-style.md)   

@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement Process architecture (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Dynamics 365 Customer Engagement Process architecture (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic illustrates the high-level system architecture for Dynamics 365 Customer Engagement (on-premises), and highlights parts of the system that are specific to processes."
 ms.custom: 
 ms.date: 12/16/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8150b437-8c14-4668-910d-2910ba16b503
 caps.latest.revision: 28
 author: JimDaly

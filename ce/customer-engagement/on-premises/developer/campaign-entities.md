@@ -1,5 +1,5 @@
 ---
-title: "Campaign entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Campaign entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - campaign entities, introduction
   - comparing campaigns and quick campaigns

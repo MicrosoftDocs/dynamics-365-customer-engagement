@@ -1,5 +1,5 @@
 ---
-title: "Actions on SharePoint location records (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Actions on SharePoint location records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 06/14/2018
 ms.reviewer: 
@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
   - Dynamics CRM 2016
   - Dynamics CRM Online
 ms.assetid: e4dd45e3-a9d4-4df2-9c2a-df64758620ce

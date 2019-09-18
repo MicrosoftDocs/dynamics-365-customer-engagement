@@ -1,6 +1,6 @@
 ---
 title: "Manage duplicate detection for create and update operations (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Read how to detect duplicates during create and update operations using the Dynamics 365 for Customer Engagement Web API and Organization service."
+description: "Read how to detect duplicates during create and update operations using the Dynamics 365 Customer Engagement Web API and Organization service."
 ms.custom: 
 ms.date: 11/15/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - duplicate detection, Web API, Organization Service
 ms.assetid: 5B84D5F0-CFB6-4212-ACCB-03AE81271F1E
@@ -25,7 +25,7 @@ search.app:
 
 # Manage duplicate detection for create and update operations
 
-Dynamics 365 for Customer Engagement Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
+Dynamics 365 Customer Engagement Web API allows you to detect duplicate records of an existing record in order to maintain integrity of data. 
 
 <a name="BKMK_webapi"></a>
 

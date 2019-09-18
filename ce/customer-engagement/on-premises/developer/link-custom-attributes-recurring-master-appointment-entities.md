@@ -1,5 +1,5 @@
 ---
-title: "Link custom attributes of the recurring appointment master and appointment entities (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Link custom attributes of the recurring appointment master and appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Link the custom attributes of the RecurringAppointmentMaster entity with custom attributes of the Appointment entity to automatically copy data."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - "custom attributes, 1:1 mapping between"
   - schedule and appointment entities, linking custom attributes of a recurring appointment master (series)

@@ -54,6 +54,5 @@ When you need a paper copy of a record such as a contact, lead, quote, or invoic
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
-### See also  
- [Navigation and Basics](../basics/navigation-customer-engagement-enterprise.md)  
+
  

@@ -1,5 +1,5 @@
 ---
-title: "Sample: Retrieve email attachments for an email template (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Retrieve email attachments for an email template (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve email attachments associated with an email template by using the IOrganizationService.QueryBase) method"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for retrieving email attachments associated with email templates, activity entities
   - activity entities samples, retrieving email attachments associated with email templates

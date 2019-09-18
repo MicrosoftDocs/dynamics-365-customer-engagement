@@ -1,6 +1,6 @@
 ---
 title: "Use Single-Tenant Server-to-server authentication | MicrosoftDocs"
-description: "An enterprise can create a web application or service to connect to all the Dynamics 365 for Customer Engagement (online) organizations for the single tenant"
+description: "An enterprise can create a web application or service to connect to all the Dynamics 365 Customer Engagement (on-premises) organizations for the single tenant"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e238f839-3592-44c4-9f82-dc287551c581
 caps.latest.revision: 7
 author: JimDaly
@@ -38,4 +38,4 @@ The single-tenant server-to-server scenario typically applies for enterprise org
 ### See also  
  [Use Multi-Tenant Server-to-server authentication](use-multi-tenant-server-server-authentication.md)   
  [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)   
- [Connect to Dynamics 365 for Customer Engagement](connect-customer-engagement.md)
+ [Connect to Dynamics 365 Customer Engagement](connect-customer-engagement.md)

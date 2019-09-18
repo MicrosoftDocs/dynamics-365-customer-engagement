@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a77637f4-420a-4686-9084-d0288d9154af
 caps.latest.revision: 12
 author: paulliew
@@ -23,7 +23,7 @@ search.app:
 
 This is the most common scenario and the one which is used for apps distributed using [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)], but you can also use multi-tenant without listing your application with [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)].  
   
- Each [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] Customer Engagement organization is associated with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant. Your web application or service is registered with its own Azure AD tenant.  
+ Each [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] organization is associated with an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] (Azure AD) tenant. Your web application or service is registered with its own Azure AD tenant.  
   
  In this scenario any [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] tenant can potentially use your multi-tenant application after they grant consent for the application to access data.  
   
@@ -94,7 +94,7 @@ This is the most common scenario and the one which is used for apps distributed 
  When you register your app you must generate a key, also known as a `ClientSecret`. These keys can be configured for a 1 or 2-year duration. As the host of the application you must treat this value like a password and it is your responsibility to manage renewal of the keys before they expire. You may want to use Key Vault. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [https://azure.microsoft.com/en-us/services/key-vault/](https://azure.microsoft.com/en-us/services/key-vault/)  
   
 > [!NOTE]
-> When registering this application you do not need to grant your application rights to access Dynamics 365 for Customer Engagement (online) data as you usually do when creating a client application. This application is bound to a application user in the system.
+> When registering this application you do not need to grant your application rights to access Dynamics 365 Customer Engagement (on-premises) data as you usually do when creating a client application. This application is bound to a application user in the system.
   
 <a name="bkmk_CreateAppUser"></a>
    
@@ -114,7 +114,7 @@ This is the most common scenario and the one which is used for apps distributed 
 > [!NOTE]
 >  When you are initially developing your application with your own [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] tenant and the Azure AD tenant associated with it, you can simply create the application user because the registered application is already part of your Azure AD tenant.  
 > 
->  However, in order to create the application user in a different organization for testing, or whenever a subscriber will use your application, they must first grant consent for your application, so the steps in the process are different. See [Test your application using a separate Dynamics 365 for Customer Engagement tenant](#bkmk_TestUsingSeparateTenant) for more information.  
+>  However, in order to create the application user in a different organization for testing, or whenever a subscriber will use your application, they must first grant consent for your application, so the steps in the process are different. See [Test your application using a separate Dynamics 365 Customer Engagement tenant](#bkmk_TestUsingSeparateTenant) for more information.  
   
 <a name="bkmk_CreateSecurityRole"></a>  
  
@@ -153,7 +153,7 @@ This is the most common scenario and the one which is used for apps distributed 
   
     When you create this user the values for these fields will be retrieved from Azure AD based on the **Application ID** value when you save the user.  
   
-5. Associate the application user with the custom security role you created in [Create a security role for the application user](#bkmk_CreateSecurityRole). More information: [Create users in Dynamics 365 for Customer Engagement (online) and assign security roles](../admin/create-users-assign-online-security-roles.md)  
+5. Associate the application user with the custom security role you created in [Create a security role for the application user](#bkmk_CreateSecurityRole). More information: [Create users in Dynamics 365 Customer Engagement (on-premises) and assign security roles](../admin/create-users-assign-online-security-roles.md)  
   
 <a name="bkmk_TestUsingYourTenant"></a>  
  
@@ -167,11 +167,11 @@ This is the most common scenario and the one which is used for apps distributed 
 
  Before you test your application with a separate [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] tenant, an administrator for the Azure AD tenant must grant consent for the application. The administrator grants consent by navigating to the application using a browser. The first time they access the application, they will see a dialog like this:  
   
- ![Grant consent to access Dynamics 365 for Customer Engagement data](media/grant-consent-to-access-crm-data.PNG "Grant consent to access Dynamics 365 for Customer Engagement data")  
+ ![Grant consent to access Dynamics 365 Customer Engagement data](media/grant-consent-to-access-crm-data.PNG "Grant consent to access Dynamics 365 Customer Engagement data")  
   
  When they grant consent, your registered application will be added to the  Azure AD Enterprise applications list and it is available to the users of the Azure AD tenant.  
   
- Only after an administrator has granted consent, you must then create the application user in the subscriber’s [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] tenant. You can manually create the application user using the steps described in [Manually create a Dynamics 365 for Customer Engagement application user](#bkmk_ManuallyCreateUser).  
+ Only after an administrator has granted consent, you must then create the application user in the subscriber’s [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] tenant. You can manually create the application user using the steps described in [Manually create a Dynamics 365 Customer Engagement application user](#bkmk_ManuallyCreateUser).  
   
  For initial tests you may want to manually perform these steps. When you are ready to make your application or service available to subscribers you will want to have a more efficient procedure. This is covered in the next section.  
   
@@ -198,7 +198,7 @@ However, the application user cannot be included with a solution so you will nee
 
 There are several ways that you can achieve this, including writing your own program using the [!INCLUDE[cc-dyn365-ce-web-services](../includes/cc-dyn365-ce-web-services.md)] and having the subscriber run the program.  
 
-The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 for Customer Engagement Package Deployer](create-packages-package-deployer.md)  
+The [!INCLUDE[pn_package_deployer_short](../includes/pn-package-deployer-short.md)] is an application which can be used to prepare a package to automate transferring solutions and data to a different [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create packages for the Dynamics 365 Customer Engagement Package Deployer](create-packages-package-deployer.md)  
   
 ### See also  
  [Use Single-Tenant Server-to-server authentication](use-single-tenant-server-server-authentication.md)   

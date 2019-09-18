@@ -1,6 +1,6 @@
 ---
 title: "Tutorials and resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 for Customer Engagement (online)."
+description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 1ac6ca26-0326-4b56-8708-70f6dff845c9
 caps.latest.revision: 69
 author: JimDaly
@@ -25,7 +25,7 @@ search.app:
 ---
 # Tutorials and resources for learning about Customer Engagement (on-premises) development
 
-This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement. For the fastest way to get some code running, see [Quick Start: A Simple Program](simple-program-web-services.md).
+This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. For the fastest way to get some code running, see [Quick Start: A Simple Program](simple-program-web-services.md).
 
 Questions? Get help in the [Dynamics 365 Customer Engagement (on-premises) Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment).
 
@@ -41,8 +41,8 @@ The following table lists the walkthroughs that are available in this SDK docume
 
 |                           Category                            |                                                                              Link                                                                               |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                          Quick Start                          |                                     [Run a Simple Program Using Dynamics 365 for Customer Engagement Web Services](simple-program-web-services.md)                                      |
-|                        App Development                        |                         [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Active Directory](walkthrough-register-app-active-directory.md)                          |
+|                          Quick Start                          |                                     [Run a Simple Program Using Dynamics 365 Customer Engagement Web Services](simple-program-web-services.md)                                      |
+|                        App Development                        |                         [Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory](walkthrough-register-app-active-directory.md)                          |
 |                            Plugins                            |                  [Walkthrough: Configure Assembly Security for an Offline Plug-in](walkthrough-configure-assembly-security-offline-plugin.md)                   |
 |                            Plugins                            |              [Register a plug-in](/powerapps/developer/common-data-service/register-plug-in)               |
 |                            Plugins                            | [Walkthrough: Register an Azure-aware Plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md) |
@@ -70,8 +70,8 @@ There are hundreds of samples found throughout this SDK documentation. For a cat
 
 Looking for more developer resources? Here are some other sources of information:
 
-- [Dynamics 365 for Customer Engagement Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment)
-- [Dynamics 365 for Customer Engagement Team Blog](http://blogs.msdn.com/b/crm/)
+- [Dynamics 365 Customer Engagement Development Forum](https://social.microsoft.com/Forums/en-US/home?forum=crmdevelopment)
+- [Dynamics 365 Customer Engagement Team Blog](http://blogs.msdn.com/b/crm/)
 - [Community provided sample code on MSDN Code Gallery](http://code.msdn.microsoft.com/site/search?query=crm%2Bonline&f%5B0%5D.Value=crm%2Bonline&f%5B0%5D.Type=SearchText&ac=4)
 - [Community provided open source projects on CodePlex](http://www.codeplex.com/site/search?query=dynamics%20crm&sortBy=Relevance&licenses=|&ac=4)
 - [Community provided open source projects on GitHub](https://github.com/search?q=dynamics+365&s=stars)
@@ -79,16 +79,16 @@ Looking for more developer resources? Here are some other sources of information
 
 Looking for more than just developer information? Here are other sites and pointers to social media you can use:
 
-- [Dynamics 365 for Customer Engagement Documentation](https://docs.microsoft.com/en-us/dynamics365/)
-- [Dynamics 365 for Customer Engagement pre-sales information](http://www.microsoft.com/dynamics/default.aspx)
-- [Dynamics 365 for Customer Engagement: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
+- [Dynamics 365 Customer Engagement Documentation](https://docs.microsoft.com/en-us/dynamics365/)
+- [Dynamics 365 Customer Engagement pre-sales information](http://www.microsoft.com/dynamics/default.aspx)
+- [Dynamics 365 Customer Engagement: Deployment Forum](http://social.microsoft.com/Forums/crmdeployment/home/)
 - [Certification Training](https://www.microsoft.com/learning/en-us/dynamics-certification.aspx)
-- [Contact Dynamics 365 for Customer Engagement Customer Support](http://go.microsoft.com/fwlink/p/?LinkID=394391)
-- [Dynamics 365 for Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
-- [Dynamics 365 for Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)
-- [Dynamics 365 for Customer Engagement on Twitter](https://twitter.com/MSFTDynamics365)
+- [Contact Dynamics 365 Customer Engagement Customer Support](http://go.microsoft.com/fwlink/p/?LinkID=394391)
+- [Dynamics 365 Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
+- [Dynamics 365 Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)
+- [Dynamics 365 Customer Engagement on Twitter](https://twitter.com/MSFTDynamics365)
 
 ### See also
 
-[Developer Guide for Dynamics 365 for Customer Engagement](developer-guide.md)
+[Developer Guide for Dynamics 365 Customer Engagement](developer-guide.md)
 

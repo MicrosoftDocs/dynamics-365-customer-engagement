@@ -1,6 +1,6 @@
 ---
-title: "Connect to Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "Learn about various opportunities available to developers to add value to an organization using Dynamics 365 for Customer Engagement"
+title: "Connect to Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Learn about various opportunities available to developers to add value to an organization using Dynamics 365 Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e920dec6-129e-40e6-89f9-ed1eba80601a
 caps.latest.revision: 14
 author: JimDaly
@@ -32,7 +32,7 @@ search.app:
 ### See also  
  [Developer Guide for Dynamics 365 Customer Engagement (on-premises)](developer-guide.md)<br />
  [Get Started](get-started-sdk.md)<br />
- [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
+ [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)<br />
  [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)<br />
  [The Security Model of Dynamics 365 Customer Engagement (on-premises)](security-dev/security-model.md)<br />

@@ -1,6 +1,6 @@
 ---
-title: "Work with business process flows using code (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Learn how to programmatically work with business process flows in Dynamics 365 for Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
+title: "Work with business process flows using code (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
 ms.custom: 
 ms.date: 07/09/2018
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - flow
   - process flow
@@ -35,7 +35,7 @@ Different business process flow instances can run concurrently against the same 
 This topic provides information about how you can programmatically work with business process flows.
 
 > [!NOTE]
-> You don't have to write code to work with business process flows. For information about using the Dynamics 365 for Customer Engagement client (UI) to create and manage business process flows, see [Business Process Flows overview](../customize/business-process-flows-overview.md)  
+> You don't have to write code to work with business process flows. For information about using the Dynamics 365 Customer Engagement client (UI) to create and manage business process flows, see [Business Process Flows overview](../customize/business-process-flows-overview.md)  
 
 <a name="PrereqsBPF"></a>   
 ## Prerequisites for business process flow 

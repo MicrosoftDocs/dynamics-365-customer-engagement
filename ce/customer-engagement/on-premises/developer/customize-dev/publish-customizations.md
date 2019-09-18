@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - publish customizations
 ms.assetid: 649ec32a-1ae1-4966-96fa-3543f4a05509
@@ -51,7 +51,7 @@ Publishing customizations makes the Web application aware of changes to the data
   
 <a name="BKMK_RetrieveUnpublishedMetadata"></a>   
 ## Retrieving unpublished metadata  
- If you want to create an application to edit customizable items in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you must retrieve any unpublished definitions of those items. If a developer defines some changes but does not publish them, your application must be able to retrieve them to display them in the user interface.  
+ If you want to create an application to edit customizable items in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], you must retrieve any unpublished definitions of those items. If a developer defines some changes but does not publish them, your application must be able to retrieve them to display them in the user interface.  
   
  Use the following two methods to retrieve unpublished metadata:  
   
@@ -78,14 +78,14 @@ Publishing customizations makes the Web application aware of changes to the data
 - <xref:Microsoft.Crm.Sdk.Messages.RetrieveUnpublishedMultipleRequest>  
   
 ### See also  
- [Customize Dynamics 365 for Customer Engagement](customize-applications.md)   
- [Extend the Metadata Model for Microsoft Dynamics 365 for Customer Engagement](../org-service/use-organization-service-metadata.md)   
+ [Customize Dynamics 365 Customer Engagement](customize-applications.md)   
+ [Extend the Metadata Model for Microsoft Dynamics 365 Customer Engagement](../org-service/use-organization-service-metadata.md)   
  [Publish request schema](publish-request-schema.md)   
- [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md)   
- [Customize Entity Views in Microsoft Dynamics 365 for Customer Engagement](customize-entity-views.md)   
- [Customize Global Option Sets in Microsoft Dynamics 365 for Customer Engagement](../org-service/customize-global-option-sets.md)   
+ [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)   
+ [Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)   
+ [Customize Global Option Sets in Microsoft Dynamics 365 Customer Engagement](../org-service/customize-global-option-sets.md)   
  [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)   
- [Customize the Ribbon for Microsoft Dynamics 365 for Customer Engagement](customize-commands-ribbon.md)   
+ [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Open Forms, Views, and Dialogs with a URL](../open-forms-views-dialogs-reports-url.md)   
  [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md)   
- [Web Resources for Microsoft Dynamics 365 for Customer Engagement](../web-resources.md)   
+ [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md)   

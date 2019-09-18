@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - entities
   - entity model diagrams
@@ -25,9 +25,9 @@ search.app:
 ---
 # Key to entity diagrams
 
-The following is the key to the entity model diagrams shown in the Dynamics 365 for Customer Engagement (on-premises) Web Services for Dynamics 365 for Customer Engagement (on-premises). The relationships to the organization, business unit, and system user (user) entities have been filtered out to simplify the diagrams. The color coding shows if the entity is owned by one of these entities.  
+The following is the key to the entity model diagrams shown in the Dynamics 365 Customer Engagement (on-premises) Web Services for Dynamics 365 Customer Engagement (on-premises). The relationships to the organization, business unit, and system user (user) entities have been filtered out to simplify the diagrams. The color coding shows if the entity is owned by one of these entities.  
   
- ![Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 for Customer Engagement entity relationship diagrams")  
+ ![Diagram key for Dynamics 365 Customer Engagement entity relationship diagrams](media/key-entity-diagrams.png "Diagram key for Dynamics 365 Customer Engagement entity relationship diagrams")  
   
  All entity diagrams in the SDK were generated using the metadata diagram sample code that reads the metadata and uses Office Visio to draw an entity relationship diagram. Download the complete sample of [Generate entity diagrams with the metadata diagram tool](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/GenerateEntityDiagram). The folder contains a readme file with instructions for its use.  
   

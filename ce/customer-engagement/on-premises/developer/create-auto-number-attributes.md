@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.topic: article
 applies_to: 
   - CRM 2017
-  - Dynamics 365 for Customer Engagement
+  - Dynamics 365 Customer Engagement
 ms.assetid: e97477d2-5509-9f5e-76e0-e0039b2e72c8
 author: nhelgren
 ms.author: kabala

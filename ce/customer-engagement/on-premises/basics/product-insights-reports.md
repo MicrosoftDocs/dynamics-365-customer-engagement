@@ -21,20 +21,15 @@ search.app:
 ---
 # Reports for product insights
 
-Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your product catalog: 
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. The product insights reports provides insights into your product catalog. 
 
-|Description|More information|  
-|-----------------|----------------------|  
-|Products used by an account|[Products by Account report](../basics/product-insights-reports.md#BKMK_ProductsByAccount)|  
-|Products used by a contact|[Products by Contact report](../basics/product-insights-reports.md#BKMK_ProductsByContact)|  
 
-<a name="BKMK_ProductsByAccount"></a>   
 ## Products by Account report
 Use this report to see which products are used by an account. For each account, the report lists the products associated with the account.  
   
  By default, this report displays only line items for orders that don't have a status of **Canceled**, and line items for opportunities that have a status of **Won**.  
 
-<a name="BKMK_ProductsByContact"></a>   
+
 ## Products by Contact report
 Use this report to see which products are used by a contact. For each contact, the report lists the associated products.  
   
@@ -42,5 +37,3 @@ Use this report to see which products are used by a contact. For each contact, t
 
 ### See also  
  [Run a report](../basics/run-report.md)   
- [Troubleshoot problems with data not displaying in a report](../basics/troubleshoot-reports.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)

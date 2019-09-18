@@ -1,5 +1,5 @@
 ---
-title: "Schedule collections (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Schedule collections (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Schedule is a logical collection of appointments that contains the availability and assignments of a given resource."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - schedule and appointment entities, querying a schedule
   - schedule and appointment entities, scheduling engine publishes changes

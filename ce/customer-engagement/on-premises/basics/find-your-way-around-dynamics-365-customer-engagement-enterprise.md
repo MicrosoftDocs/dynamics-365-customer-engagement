@@ -14,7 +14,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Find your way around Dynamics 365 Customer Engagement (on-premises) or Dynamics CRM (earlier versions)
+# Find your way around Dynamics 365 Customer Engagement (on-premises)
 
  
 
@@ -166,32 +166,3 @@ search.app:
  **6**.  Get in-context help (guided tasks, videos, eBooks, and topics).  
   
   
-### CRM 2016  
-  
-#### Main navigation  
- Want to take a [quick video tour](http://go.microsoft.com/fwlink/p/?LinkId=528558) of the navigation?  
-  
- If your screen looks like this, you’re using CRM 2016.  
-  
- [![Take a video tour of the navigation](../basics/media/microsoftdynamicscrm-latestversion.png "Take a video tour of the navigation")](http://go.microsoft.com/fwlink/p/?LinkId=528558)  
-  
-#### Quick access items  
- These items are always on the nav bar: Recently used, quick create, record search, advanced find, and personal options.  
-  
- ![Nav bar items in Microsoft Dynamics 365 Customer Engagement (on-premises)](../basics/media/itemsalwaysonthenavbarinmicrosoftdyna.png "Nav bar items in Microsoft Dynamics 365 Customer Engagement (on-premises)")  
-  
-#### Form navigation  
- If you’re working in a complex form with lots of fields, the form navigation drop-down menu makes it easy to get to just the data you need.  
-  
- ![Form navigation drop-down in Dynamics 365 Customer Engagement (on-premises)](../basics/media/formnavigationdrop-downincrm.png "Form navigation drop-down in Dynamics 365 Customer Engagement (on-premises)")  
-  
- The preceding illustration shows how to navigate in CRM 2016: choose the Main menu, choose a work area, and then choose an item.  
-  
-### Older versions of Dynamics CRM  
- Want to take a [quick video tour](http://go.microsoft.com/fwlink/p/?LinkID=317092) of the navigation?  
-  
- If your screen looks like this, you’re on an earlier version of CRM.  
-  
- ![Navigation for Dynamics 365 Customer Engagement (on-premises) (older version)](../basics/media/microsoftdynamicscrm-olderversion.png "Navigation for Dynamics 365 Customer Engagement (on-premises) (older version)")  
-  
- The preceding illustration shows how to navigate in older versions of CRM: choose Microsoft Dynamics CRM, choose a work area, and then choose an item.

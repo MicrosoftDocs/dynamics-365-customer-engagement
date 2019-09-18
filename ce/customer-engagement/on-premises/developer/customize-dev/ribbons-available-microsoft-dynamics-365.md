@@ -1,6 +1,6 @@
 ---
-title: "Ribbons available in Microsoft Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "The topic describes where ribbons are defined and modified in Dynamics 365 for Customer Engagement (online) Customer Engagement."
+title: "Ribbons available in Microsoft Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "The topic describes where ribbons are defined and modified in Dynamics 365 Customer Engagement (on-premises) Customer Engagement."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, sub-grid
   - ribbon, jewel
@@ -27,9 +27,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Ribbons available in Dynamics 365 for Customer Engagement
+# Ribbons available in Dynamics 365 Customer Engagement
 
-This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement.  
+This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
 
 <a name="ribbon_defs"></a>   
 ## Ribbon definitions  
@@ -40,7 +40,7 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
 
  Because of this requirement to reference the definitions of existing ribbon elements, it is very important to understand the current ribbon definitions in your organization. There are two messages you can use to export XML files representing the current state of your ribbons. These definitions include any customizations that have already been applied to your system so that you can customize any custom ribbons that were previously applied. For more information, see [Export Ribbon Definitions](export-ribbon-definitions.md).  
 
- To help you get started, you can download the default ribbon definitions for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement from [Microsoft Downloads: ExportedRibbonXml.zip](http://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). The ExportedRibbonXml.zip file includes the output files you would have for an organization with a ribbon that has not been customized. You don’t need to run the sample application to export this data. If you have a customized ribbon, you should run the sample application to refresh the files in this folder with any customizations previously applied for your organization.  
+ To help you get started, you can download the default ribbon definitions for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] from [Microsoft Downloads: ExportedRibbonXml.zip](http://download.microsoft.com/download/C/2/A/C2A79C47-DD2D-4938-A595-092CAFF32D6B/ExportedRibbonXml.zip). The ExportedRibbonXml.zip file includes the output files you would have for an organization with a ribbon that has not been customized. You don’t need to run the sample application to export this data. If you have a customized ribbon, you should run the sample application to refresh the files in this folder with any customizations previously applied for your organization.  
 
  Within the exported ribbon XML files, the applicationRibbon.xml file includes all the ribbons that are not defined for a specific entity. These correspond to the **Application Ribbons** solution component. For each entity, you will find an *entity name*ribbon.xml file. This corresponds to the `RibbonDiffXml` that is included in each entity. If you want to edit the ribbon for a specific entity, you should locate the ribbon XML file for that entity.  
 
@@ -109,7 +109,7 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
      Activities are the exception to this pattern. The add command will always prompt for the type of activity first.
 
      > [!NOTE]
-     >  Offline mode in Dynamics 365 for Customer Engagement does not support many-to-many relationship on custom entities. Due to this, the **Add New** button on a sub grid in Dynamics 365 for Customer Engagement offline mode will not be displayed.
+     >  Offline mode in Dynamics 365 Customer Engagement does not support many-to-many relationship on custom entities. Due to this, the **Add New** button on a sub grid in Dynamics 365 Customer Engagement offline mode will not be displayed.
 
 - **Show List** The command with the ![Open view button](../media/customization-open-view.PNG "Open view button") icon will open the full list where all available commands can be used.  
 
@@ -178,5 +178,5 @@ This topic describes where ribbons are defined and modified in [!INCLUDE[pn_dyna
  It is not possible to use a `<PageRule>` to enable or display custom ribbon components on custom pages.  
 
 ### See also  
- [Customize the Ribbon for Microsoft Dynamics 365 for Customer Engagement](customize-commands-ribbon.md)   
+ [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Command bar or ribbon presentation](command-bar-ribbon-presentation.md)

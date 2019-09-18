@@ -1,6 +1,6 @@
 ---
 title: "Create and manage custom business apps using code for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 for Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
+description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
 ms.date: 03/04/2019
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d1980bd7-ea0d-4a66-84c4-de602bdd867d
 author: KumarVivek
 ms.author: kvivek
@@ -20,12 +20,12 @@ search.app:
 ---
 # Create and manage custom business apps in Customer Engagement using code
 
-Business apps in Dynamics 365 for Customer Engagement are modular, purpose built apps that provide role-based functionality relevant for a particular area of work. These apps make it easier for users to quickly find things they need to do every day by providing a simple and intuitive interface. For example, the **Sales** business app provides a simpler, smaller sitemap with only the appropriate set of forms, views, dashboards, and process flows that are relevant for sales people.
+Business apps in Dynamics 365 Customer Engagement are modular, purpose built apps that provide role-based functionality relevant for a particular area of work. These apps make it easier for users to quickly find things they need to do every day by providing a simple and intuitive interface. For example, the **Sales** business app provides a simpler, smaller sitemap with only the appropriate set of forms, views, dashboards, and process flows that are relevant for sales people.
 
 System administrators and customizers can provide users access to these business apps using security roles; users can access only those apps that they have permission to. 
 
 > [!NOTE]
-> Custom business apps in Dynamics 365 for Customer Engagement are the same as model-driven apps in PowerApps; both are built on the same underlying platform. More information: [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md) and [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
+> Custom business apps in Dynamics 365 Customer Engagement are the same as model-driven apps in PowerApps; both are built on the same underlying platform. More information: [Business apps in Dynamics 365 Customer Engagement (on-premises)](../basics/business-apps-dynamics-365.md) and [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 In addition to creating custom business apps using the app designer, you can programmatically create and manage custom business apps in Dynamics 365 Customer Engagement (on-premises). 
 

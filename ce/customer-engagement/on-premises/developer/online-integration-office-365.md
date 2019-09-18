@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (online) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Dynamics 365 Customer Engagement (on-premises) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how Dynamics 365 Customer Engagement (on-premises) customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 Customer Engagement (on-premises) with Office 365"
 ms.custom: 
 ms.date: 03/29/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 24a41d45-e8dc-47f0-8faf-65cb01ab7f3c
 caps.latest.revision: 48
 author: JimDaly
@@ -20,7 +20,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 for Customer Engagement (online) Integration with Office 365
+# Dynamics 365 Customer Engagement (on-premises) Integration with Office 365
 
 This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] through the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. Through integration of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] customers that are subscribed to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] have single sign-on access, through identity federation, to any [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] supported application, such as [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]. Similarly, when provisioned, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] customers have access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. In addition, by federating [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain accounts in [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] cloud services, businesses can manage a single set of user identities in both their [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
@@ -46,7 +46,7 @@ This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_onl
   
 ### See also  
  [Connect with Microsoft Office 365](connect-microsoft-office-365.md)   
- [Access the Dynamics 365 for Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
+ [Access the Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials>   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Active Directory Federation Services](https://msdn.microsoft.com/library/bb897402.aspx)   

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - running bulk delete, submitting a bulk delete job by using the BulkDeleteRequest message
   - running bulk delete, using query expressions to describe the records to delete
