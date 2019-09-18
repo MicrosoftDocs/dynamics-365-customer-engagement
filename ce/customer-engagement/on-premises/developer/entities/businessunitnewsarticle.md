@@ -1,5 +1,5 @@
 ---
-title: "BusinessUnitNewsArticle Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "BusinessUnitNewsArticle Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BusinessUnitNewsArticle entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

@@ -1,13 +1,13 @@
 ---
-title: "Web resources for Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Web resources are virtual files that are stored in the Dynamics 365 for Customer Engagement database and that you can retrieve by using a unique URL address."
+title: "Web resources for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Web resources are virtual files that are stored in the Dynamics 365 Customer Engagement database and that you can retrieve by using a unique URL address."
 keywords: 
 ms.date: 10/31/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8c947e83-6765-41d9-b4b7-c078a68257eb
 author: JimDaly
 ms.author: jdaly
@@ -25,15 +25,15 @@ search.app:
 
 # Web resources for Customer Engagement
 
-Web resources are *virtual files* that are stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and that you can retrieve by using a unique URL address.  
+Web resources are *virtual files* that are stored in the Dynamics 365 Customer Engagement (on-premises) database and that you can retrieve by using a unique URL address.  
 
 <a name="BKMK_CapabilitiesOfWebResources"></a>   
 ## Capabilities of web resources  
- Web resources represent files that can be used to extend the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application such as html files, [!INCLUDE[pn_JScript](../includes/pn-jscript.md)], and CSS, and several image formats. You can use web resources in form customizations, the `SiteMap`, or the application ribbon because they can be referenced by using URL syntax.  
+ Web resources represent files that can be used to extend the Dynamics 365 Customer Engagement (on-premises) web application such as html files, [!INCLUDE[pn_JScript](../includes/pn-jscript.md)], and CSS, and several image formats. You can use web resources in form customizations, the `SiteMap`, or the application ribbon because they can be referenced by using URL syntax.  
 
- The URL syntax for web resources allows for relative path references. With your development tools, you can create a group of interdependent files on a development server by using file types compatible with web resources. Then, if you use a consistent naming convention and relative path references, the website will function after you upload all the files into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+ The URL syntax for web resources allows for relative path references. With your development tools, you can create a group of interdependent files on a development server by using file types compatible with web resources. Then, if you use a consistent naming convention and relative path references, the website will function after you upload all the files into Dynamics 365 Customer Engagement (on-premises).  
 
- Because web resources are stored in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and are solution components, they can be easily exported and installed to on-premises deployments of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Web resources are also available to users of [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] when offline because they are synchronized with the user's data.  
+ Because web resources are stored in Dynamics 365 Customer Engagement (on-premises) and are solution components, they can be easily exported and installed to on-premises deployments of Dynamics 365 Customer Engagement (on-premises) or to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Web resources are also available to users of [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] when offline because they are synchronized with the user's data.  
 
  You can use the form editor to add and configure form-enabled web resources into your entity forms.  
 
@@ -41,9 +41,9 @@ Web resources are *virtual files* that are stored in the [!INCLUDE[pn_dynamics_c
 
 <a name="BKMK_LimitationsOfWebResources"></a>   
 ### Limitations of web resources  
- There is no type of web resource that supports the capabilities of an ASP.NET(.aspx) page to execute code on the server. Web resources are limited to static files or files that are processed in the browser. A web resource can contain code that is processed in the browser to execute web service calls to interact with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data. For more information, see [Work with Customer Engagement data using web resources](work-data-using-web-resources.md). 
+ There is no type of web resource that supports the capabilities of an ASP.NET(.aspx) page to execute code on the server. Web resources are limited to static files or files that are processed in the browser. A web resource can contain code that is processed in the browser to execute web service calls to interact with Dynamics 365 Customer Engagement (on-premises) data. For more information, see [Work with Customer Engagement data using web resources](work-data-using-web-resources.md). 
 
- Web resources are only available by using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application security context. Only licensed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who have the necessary privileges can access them.  
+ Web resources are only available by using the Dynamics 365 Customer Engagement (on-premises) web application security context. Only licensed Dynamics 365 Customer Engagement (on-premises) users who have the necessary privileges can access them.  
 
 #### Size limitations  
 [!INCLUDE[sdk_MaxUploadFileSize](../includes/sdk-maxuploadfilesize.md)]
@@ -85,7 +85,7 @@ $webresource:<name of Web Resource>
 ```  
 
 > [!NOTE]
->  When using the `$webresource` directive, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will create or update solution dependencies.  
+>  When using the `$webresource` directive, Dynamics 365 Customer Engagement (on-premises) will create or update solution dependencies.  
 
 ### Xrm.Navigation.openWebResource  
  The Xrm.Navigation.[openWebResource](clientapi/reference/Xrm-Navigation/openWebResource.md) function will open an HTML web resource in a new window with parameters to pass the name of the web resource, any query string data to be passed in the data parameter, and information about height and width of the window.  
@@ -136,24 +136,24 @@ https://MyOrganization.crm.dynamics.com/WebResources/new_/test/test.htm
 > [!NOTE]
 >  Including the ‘/’ character and a file name extension in the name of the web resource is an optional best practice.  
 
- The following sample shows a URL for on–premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], where `myServer` is the server name:  
+ The following sample shows a URL for on–premises Dynamics 365 Customer Engagement (on-premises), where `myServer` is the server name:  
 
 ```  
 http://myServer/MyOrganization/WebResources/new_/test/test.htm  
 ```  
 
- When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.
+ When you write code to reference a web resource that will need to work for either [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or on–premises Dynamics 365 Customer Engagement (on-premises), you should use the [getClientUrl](clientapi/reference/Xrm-Utility/getGlobalContext/getClientUrl.md) function.
 
 ## Community tools
 
-**WebResources Manager** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](developer-tools.md) topic for community developed tools.
+**WebResources Manager** is a tool that XrmToolbox community developed for Dynamics 365 Customer Engagement (on-premises). Please see the [Developer tools](developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
 > If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
 
 ### See also  
- [Write Client Application Extensions for Dynamics 365 for Customer Engagement](extend-client.md)<br />
+ [Write Client Application Extensions for Dynamics 365 Customer Engagement](extend-client.md)<br />
  [Create Accessible Web Resources](create-accessible-web-resources.md)<br />
  [Web Page (HTML) Web Resources](webpage-html-web-resources.md)<br />
  [Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)<br />

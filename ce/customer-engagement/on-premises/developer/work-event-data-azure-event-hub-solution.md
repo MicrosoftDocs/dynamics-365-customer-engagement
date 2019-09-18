@@ -1,5 +1,5 @@
 ---
-title: "Work with Dynamics 365 for Customer Engagement event data in your Azure Event Hub solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Work with Dynamics 365 Customer Engagement event data in your Azure Event Hub solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic describes working with event data in your Azure Event Hub solution."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 53e5add8-25e0-458f-b82f-aac60c43fcab
 caps.latest.revision: 12
 author: JimDaly
@@ -35,7 +35,7 @@ search.app:
  Registering a service endpoint for an event hub is similar to registering for any other supported contract type such as queues or topics. You use the Plug-in Registration Tool, provided in the SDK download, to register the service endpoint.  When filling out the registration form specify a contract type of **Event Hub**. For the message body format, you can choose **XML** or **JSON**. In addition, only SAS authorization is permitted and you must provide the connection string obtained when you created the event hub. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365 Customer Engagement (on-premises)](walkthrough-configure-azure-sas-integration.md).  
   
 ## 3. Register code  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] needs to know the exact operation (entity/message combination) that, when processed, would cause the Azure-aware plug-in to execute. Since you are creating an event hub, this operation would be related to the processing of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event data in particular. You must register a step for the Azure-aware plug-in in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event execution pipeline.  For more information see  [Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md).  
+ Dynamics 365 Customer Engagement (on-premises) needs to know the exact operation (entity/message combination) that, when processed, would cause the Azure-aware plug-in to execute. Since you are creating an event hub, this operation would be related to the processing of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event data in particular. You must register a step for the Azure-aware plug-in in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] event execution pipeline.  For more information see  [Walkthrough: Register an Azure-aware plug-in using the Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md).  
   
  If you are using an Azure-aware custom workflow activity instead of a plug-in, you would register the activity's assembly using the Plug-in Registration Tool and incorporate that activity into a workflow. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Sample: Azure aware custom workflow activity](sample-azure-aware-custom-workflow-activity.md).  
   

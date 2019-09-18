@@ -1,5 +1,5 @@
 ---
-title: "Sample: Query connection roles by entity type code (early bound) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample: Query connection roles by entity type code (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to use a query to find a connection role for an account entity by specifying an entity type code."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for querying to find connection roles, for account entities by specifying an entity type
   - querying to find connection roles for account entities by specifying an entity type, sample

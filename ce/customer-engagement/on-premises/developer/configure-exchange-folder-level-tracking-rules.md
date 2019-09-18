@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4cd28905-1af7-42aa-a9d8-27c271dfcb8c
 caps.latest.revision: 17
 author: KumarVivek
@@ -22,7 +22,7 @@ search.app:
 ---
 # Configure Exchange folder-level tracking rules
 
-Configure folder-level tracking rules to map a [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] inbox folder to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] record so that all the emails in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder get automatically tracked against the mapped record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Folder-level tracking of emails will work only if:  
+Configure folder-level tracking rules to map a [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] inbox folder to a Dynamics 365 Customer Engagement (on-premises) record so that all the emails in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder get automatically tracked against the mapped record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Folder-level tracking of emails will work only if:  
 
 - The folder-level tracking feature is enabled for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You can enable folder-level tracking by using the web client or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement Web API Versions (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Read how versioning of Dynamics 365 for Customer Engagement Web API works. Dynamics 365 for Customer Engagement Web API versions support version specific differences in the same environment which is different from the behavior in the v8.x releases in which new capabilities were additive"
+title: "Dynamics 365 Customer Engagement Web API Versions (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Read how versioning of Dynamics 365 Customer Engagement Web API works. Dynamics 365 Customer Engagement Web API versions support version specific differences in the same environment which is different from the behavior in the v8.x releases in which new capabilities were additive"
 ms.custom: 
 ms.date: 04/15/2019
 ms.reviewer: susikka
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d9bb79a5-2bfa-4ffe-8cb4-60f192359489
 caps.latest.revision: 34
 author: JimDaly
@@ -19,7 +19,7 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 for Customer Engagement Web API Versions
+# Dynamics 365 Customer Engagement Web API Versions
 
 Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)] (v9.0) release, the [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)] for Customer Engagement (on-premises) Web API supports version specific differences in the same environment.  
   
@@ -46,6 +46,6 @@ Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-on
 |<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|  
   
 ### See also  
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](authenticate-web-api.md)   
  

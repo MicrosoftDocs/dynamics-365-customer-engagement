@@ -27,7 +27,7 @@ search.app:
  
  If your organization has people who use a language other than the base language you chose when you deployed [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can add more languages.  
   
- Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../on-premises/install-or-upgrade-language-packs.md) 
+ Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../deploy/install-or-upgrade-language-packs.md) 
   
 > [!NOTE]
 >  Enabling a language can take several minutes. During this time, people might not be able to use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  

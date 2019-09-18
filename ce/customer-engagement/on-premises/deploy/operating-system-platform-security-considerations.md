@@ -82,6 +82,6 @@ In the broadest sense, security involves planning and considering tradeoffs betw
   
 ## See Also  
  [Planning Your Deployment of Microsoft Dynamics 365](planning-your-deployment-of-microsoft-dynamics-365.md)   </br>
- [Setup overview for mobile apps](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  </br>
+ [Setup overview for mobile apps](../../../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)  </br>
 
 

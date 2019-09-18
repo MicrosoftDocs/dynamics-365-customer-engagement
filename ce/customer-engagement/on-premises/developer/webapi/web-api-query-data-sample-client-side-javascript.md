@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6df7cccb-071d-4853-8acb-01bceef973ca
 caps.latest.revision: 22
 author: JimDaly
@@ -21,7 +21,7 @@ search.app:
 ---
 # Web API Query Data Sample (Client-side JavaScript)
 
-This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]  
+This sample demonstrates how to perform basic query requests using the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web API using client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)]  
   
 > [!NOTE]
 >  This sample implements the operations detailed in the [Web API Query Data Sample](web-api-query-data-sample.md) and uses the common  client-side [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] constructs described in [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)  
@@ -756,7 +756,7 @@ distinct=\"false\" page=\"3\" count=\"4\"> \
   
 ### See also
 
- [Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
+ [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Query Data using the Web API](query-data-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Query Data Sample](web-api-query-data-sample.md)   

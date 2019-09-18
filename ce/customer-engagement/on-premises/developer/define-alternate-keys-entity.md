@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fb4a93d6-590b-4913-96f7-25d351dc52ab
 caps.latest.revision: 23
 author: mayadumesh
@@ -22,7 +22,7 @@ search.app:
 ---
 # Define alternate keys for an entity
 
-All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] records have unique identifiers defined as GUIDs. These are the primary key for each entity. When you need to integrate with an external data store, you might be able to add a column to the external database tables to contain a reference to the unique identifier in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This allows you to have a local reference to link to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. However, sometimes you can’t modify the external database. With alternate keys you can now define an attribute in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity to correspond to a unique identifier (or unique combination of columns) used by the external data store. This alternate key can be used to uniquely identify a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in place of the primary key. You must be able to define which attributes represent a unique identity for your records. Once you identify the attributes that are unique to the entity, you can declare them as alternate keys through the customization user interface (UI) or in the code. This topic provides information about defining alternate keys in the data model.  
+All Dynamics 365 Customer Engagement (on-premises) records have unique identifiers defined as GUIDs. These are the primary key for each entity. When you need to integrate with an external data store, you might be able to add a column to the external database tables to contain a reference to the unique identifier in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This allows you to have a local reference to link to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. However, sometimes you can’t modify the external database. With alternate keys you can now define an attribute in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity to correspond to a unique identifier (or unique combination of columns) used by the external data store. This alternate key can be used to uniquely identify a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in place of the primary key. You must be able to define which attributes represent a unique identity for your records. Once you identify the attributes that are unique to the entity, you can declare them as alternate keys through the customization user interface (UI) or in the code. This topic provides information about defining alternate keys in the data model.  
 
 <a name="BKMK_Declare"></a>
 

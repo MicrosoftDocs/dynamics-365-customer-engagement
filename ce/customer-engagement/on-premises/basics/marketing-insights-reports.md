@@ -21,21 +21,14 @@ search.app:
 ---
 # Reports for marketing insights
 
-Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. For more information about customized reports, see [Customize and organize reports](../customize/customize-organize-reports.md). The following will provide insights into your marketing efforts: 
-
-|Description|More information|  
-|-----------------|----------------------|  
-|Summary of activities in a campaign|[Campaign Activity Status report](#BKMK_CampaignActivityStatus)|  
-|Compare campaigns|[Campaign Comparison report](#BKMK_CampaignComparison)|  
-|Progress and status of campaigns|[Campaign Performance report](#BKMK_CampaignPerformance)|  
-
-<a name="BKMK_CampaignActivityStatus"></a>   
+Dynamics 365 Customer Engagement (on-premises) includes many system reports that you can use to gain insights into how your business is doing. You can use these reports as is or customize them for your needs. The marketing insights reporst provides insights into your marketing efforts.
+ 
 ## Campaign Activity Status report
 Track the details of your campaign. Get a summary of each campaign activity, including planned and actual time limits, parent campaign details, and definition status.  
   
  When you run the report, it only displays campaigns with activities or notes that were created within the dates that you specified in the report.  
 
-<a name="BKMK_CampaignComparison"></a>   
+
 ## Campaign Comparison report
 Find out which of your marketing campaign was more successful.   
 Use this report to compare the cost effectiveness and number of responses of two different campaigns.  
@@ -44,7 +37,7 @@ Use this report to compare the cost effectiveness and number of responses of two
   
  ![A campaign comparison report in Dynamics 365 Customer Engagement (on-premises)](../basics/media/campaign-comparison-report.png "A campaign comparison report in Dynamics 365 Customer Engagement (on-premises)")  
 
-<a name="BKMK_CampaignPerformance"></a>   
+
 ## Campaign Performance report
 Find out what’s working and what you need to change in your campaigns. Use the campaign performance report to track the progress and status of your campaigns. The report provides a detailed view of all the dates, targets, definitions, responses, and financial returns from each campaign that has been modified – so you can quickly see the progress of your campaigns.  
 

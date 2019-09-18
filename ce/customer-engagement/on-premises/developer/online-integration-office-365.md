@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Customer Engagement (online) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Dynamics 365 Customer Engagement (on-premises) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how Dynamics 365 Customer Engagement (on-premises) customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 Customer Engagement (on-premises) with Office 365"
 ms.custom: 
 ms.date: 03/29/2019
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 24a41d45-e8dc-47f0-8faf-65cb01ab7f3c
 caps.latest.revision: 48
 author: JimDaly
@@ -20,14 +20,14 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Dynamics 365 for Customer Engagement (online) Integration with Office 365
+# Dynamics 365 Customer Engagement (on-premises) Integration with Office 365
 
 This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] through the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. Through integration of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)], [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] customers that are subscribed to [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] have single sign-on access, through identity federation, to any [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] supported application, such as [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]. Similarly, when provisioned, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] customers have access to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. In addition, by federating [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain accounts in [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] cloud services, businesses can manage a single set of user identities in both their [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] domain and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  This topic provides information about where users’ identities are created and managed, and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
 ## Identity management with Microsoft Online Services  
- When accessing the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services, your applications should know the identity provider associated with the logged on user’s [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] account. Configuration of the user’s authentication credentials for accessing the web services through SDK calls is slightly different for each provider. The details on how to configure user credentials for each identity provider and access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services is discussed in the topic [Access the Dynamics 365 Customer Engagement (on-premises) Services](authenticate-office-365-users-customer-engagement-web-services.md).  
+ When accessing the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services, your applications should know the identity provider associated with the logged on user’s Dynamics 365 Customer Engagement (on-premises) account. Configuration of the user’s authentication credentials for accessing the web services through SDK calls is slightly different for each provider. The details on how to configure user credentials for each identity provider and access the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] web services is discussed in the topic [Access the Dynamics 365 Customer Engagement (on-premises) Services](authenticate-office-365-users-customer-engagement-web-services.md).  
   
  There are two identity providers supported by [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and provisioned through [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)]: User ID, and [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] (through cloud federation). The following discussion provides an overview of these identity services and how they relate to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
@@ -37,7 +37,7 @@ This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_onl
  For the sake of this discussion, User ID users are referred to in this documentation as “managed” or “non-federated” users.  
   
 ### Active Directory  
- Federation allows customers to use [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]-based domain user accounts to access [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] such as [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. After federation is configured by an administrator, [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]-based system user accounts can be locally managed, made available to [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], and kept in sync with changes made to the on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] identities. The benefit of federation is a single sign-on experience across [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] (on-premises) and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] systems. This type of identity management is useful for large corporations that have hundreds or thousands of established users.  
+ Federation allows customers to use [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]-based domain user accounts to access [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] such as [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] or [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. After federation is configured by an administrator, [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)]-based system user accounts can be locally managed, made available to [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)], and kept in sync with changes made to the on-premises [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] identities. The benefit of federation is a single sign-on experience across Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] systems. This type of identity management is useful for large corporations that have hundreds or thousands of established users.  
   
  For more information about how to configure identity federation, see [Single sign-on: Roadmap](http://onlinehelp.microsoft.com/office365-enterprises/hh125004.aspx).  
   
@@ -46,7 +46,7 @@ This documentation applies to customers who access [!INCLUDE[pn_dynamics_crm_onl
   
 ### See also  
  [Connect with Microsoft Office 365](connect-microsoft-office-365.md)   
- [Access the Dynamics 365 for Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
+ [Access the Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  <xref:Microsoft.Xrm.Sdk.Client.AuthenticationCredentials>   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Active Directory Federation Services](https://msdn.microsoft.com/library/bb897402.aspx)   

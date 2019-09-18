@@ -1,5 +1,5 @@
 ---
-title: "Sample: Override goal total count and close the goal (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Sample: Override goal total count and close the goal (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates how to override the goal total count and close the goal"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - Sample for overriding total counts and closing goals
   - goal management entities samples, overriding total counts and closing goals

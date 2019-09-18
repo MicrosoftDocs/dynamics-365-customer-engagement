@@ -1,6 +1,6 @@
 ---
-title: "Set up a Postman environment (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 for Customer Engagement online and on-premises environments."
+title: "Set up a Postman environment (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 Customer Engagement online and on-premises environments."
 ms.custom: 
 ms.date: 04/15/2019
 ms.reviewer: susikka
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
 author: susikka
@@ -30,7 +30,7 @@ You can use a Postman environment to save a set of variables that you use to con
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 >
-> The documentation that is applicable to Dynamics 365 for Customer Engagement app (online) users is now available in the PowerApps documentation at: [Set up a Postman environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment).
+> The documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the PowerApps documentation at: [Set up a Postman environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment).
 
 ## Prerequisites
 
@@ -92,5 +92,5 @@ Create a new Web API request to test the connection with your Dynamics 365 Custo
 
 ## See also
 
-[Use the Dynamics 365 for Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
-[Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md)
+[Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
+[Walkthrough: Register a Dynamics 365 Customer Engagement app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md)

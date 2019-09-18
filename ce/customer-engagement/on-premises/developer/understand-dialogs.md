@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0bdfc509-dcea-4ed2-bbac-b4836b777cbe
 caps.latest.revision: 38
 author: JimDaly
@@ -47,9 +47,9 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
   
 - **Single Line**: Lets you input a single line of *text*, *integer*, or *float* value. A text box is displayed for the prompt, where you can type the response.  
   
-- **Radio Button**: Lets you select from a predefined set of responses, or select from the data queried from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement using the `Query CRM Data` step. For example, you could choose from the following modes of communication for the new offers: email, fax, phone, or letter. Further, you can specify the data type for the responses: *text*, *integer*, or *float*. The response options are displayed as radio buttons.  
+- **Radio Button**: Lets you select from a predefined set of responses, or select from the data queried from Dynamics 365 Customer Engagement (on-premises) using the `Query CRM Data` step. For example, you could choose from the following modes of communication for the new offers: email, fax, phone, or letter. Further, you can specify the data type for the responses: *text*, *integer*, or *float*. The response options are displayed as radio buttons.  
   
-- **Picklist**: Lets you select from a predefined set of responses, or select from the data queried from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] using the `Query CRM Data` step. However, in this case, the response options are displayed in a drop-down list.  
+- **Picklist**: Lets you select from a predefined set of responses, or select from the data queried from Dynamics 365 Customer Engagement (on-premises) using the `Query CRM Data` step. However, in this case, the response options are displayed in a drop-down list.  
   
 - **Multi-Line Text**: Lets you input multiple lines of *text* only. A multi-line text box is displayed for the prompt, where you can type the response.  
   
@@ -61,7 +61,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
   
   The user response for each `Prompt and Response` step is stored as the step variable, and can be used later in the dialog flow.  
   
-  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<http://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+  You can add a static hyperlink or dynamic hyperlink to the prompt text. While specifying a text as static hyperlink, you must specify the full URL including the communication protocol (such as http, https, and ftp). For example, if you want to create a hyperlink text called *Bing*, you must specify the URL as “<http://www.bing.com”>, and not just “www.bing.com”. Dynamic hyperlinks can be inserted into any text field. The hyperlink refers to an entity record in Dynamics 365 Customer Engagement (on-premises).  
   
   By default, each response is logged, and is available in the respective process session record. However, you can turn off response logging for a prompt and response step that contains sensitive customer information, such as credit card details, to prevent possible misuse of the data.  
   
@@ -100,7 +100,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ## Dialog limitations  
  A link child dialog can’t be an intermediate step. You might try to split a complex dialog into child dialogs and invoke all of those child dialogs from a parent dialog. However, that is not supported in this release.  
   
- There’s a limit to the number of nested steps you can use in a dialog. The limit depends on the browser you’re using and isn’t a limit in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The nested steps are rendered in the browser as nested tables. Some browsers support more levels of nested tables than others. If the workflow designer becomes grayed out where you can’t add additional nested steps to your dialog, try the following workarounds:  
+ There’s a limit to the number of nested steps you can use in a dialog. The limit depends on the browser you’re using and isn’t a limit in Dynamics 365 Customer Engagement (on-premises). The nested steps are rendered in the browser as nested tables. Some browsers support more levels of nested tables than others. If the workflow designer becomes grayed out where you can’t add additional nested steps to your dialog, try the following workarounds:  
   
 -   Redesign the dialog to use fewer nested steps.  
   

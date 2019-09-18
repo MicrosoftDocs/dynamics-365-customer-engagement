@@ -546,6 +546,6 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 ## See Also  
  [Operating Microsoft Dynamics 365](operating-microsoft-dynamics-365.md) </br>
- [Known issues for Dynamics 365 for tablets and phones](../mobile-app/troubleshooting-things-know-about-phones-tablets.md) </br>  
+ [Known issues for Dynamics 365 for tablets and phones](../../../mobile-app/troubleshooting-things-know-about-phones-tablets.md) </br>  
  [Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
 

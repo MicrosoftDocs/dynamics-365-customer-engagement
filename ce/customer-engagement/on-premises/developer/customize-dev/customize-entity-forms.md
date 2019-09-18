@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: dfffa0b9-2884-48e6-9181-c3300e358c04
 caps.latest.revision: 56
 author: JimDaly
@@ -55,7 +55,7 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
 |     `Description`     |                `<Descriptions>`                 | `Description` is a string and `<Descriptions>` contains any localized labels for the description of the form.<br /><br /> The localized labels can be retrieved using the <xref:Microsoft.Crm.Sdk.Messages.RetrieveLocLabelsRequest>. |
 | `FormActivationState` |             `<FormActivationState>`             |                                  Specifies the state of the form.<br /><br /> Only forms of type “main” can be deactivated.<br /><br /> Valid Values:<br /><br /> -   0: Inactive<br />-   1: Active                                  |
 |       `FormId`        |                   `<formid>`                    |                                                                                                     Unique identifier of the form                                                                                                     |
-|  `FormPresentation`   |              `<FormPresentation>`               |                                     Specifies whether this form is in the updated UI layout in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement.                                      |
+|  `FormPresentation`   |              `<FormPresentation>`               |                                     Specifies whether this form is in the updated UI layout in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].                                      |
 |       `FormXml`       |                    `<form>`                     |                                                                                                XML representation of the form layout.                                                                                                 |
 |  `IntroducedVersion`  |              `<IntroducedVersion>`              |                                                                                          Version of the solution that the form was added in.                                                                                          |
 |     `IsAIRMerged`     |                       N/A                       |                                           Specifies whether this form is merged with the updated UI layout in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].                                           |
@@ -74,7 +74,7 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
  Editing the form definitions from an exported managed solution and then re-importing the solution is a supported method to edit entity forms. When manually editing forms we strongly recommend you use an XML editor that allows for schema validation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Edit the Customizations XML File with Schema Validation](edit-customizations-xml-file-schema-validation.md)  
 
 ### See also  
- [Customize Microsoft Dynamics 365 for Customer Engagement](customize-applications.md)   
+ [Customize Microsoft Dynamics 365 Customer Engagement](customize-applications.md)   
  [Create and design forms](../../customize/create-design-forms.md)   
  [SystemForm Entity](../entities/systemform.md)   
  [Create or edit how business rules are initiated](create-edit-how-business-rules-initiated.md)   

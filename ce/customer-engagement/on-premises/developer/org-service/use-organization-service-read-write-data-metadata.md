@@ -1,6 +1,6 @@
 ---
-title: "Use the Organization Service to read and write data or metadata (Developer Guide for Dynamics 365 for Customer Engagement)| MicrosoftDocs"
-description: "IOrganizationService is the primary web service that accesses data and metadata for your organization. This web service contains the methods that you use to write code that uses all the data and metadata in Dynamics 365 for Customer Engagement"
+title: "Use the Organization Service to read and write data or metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "IOrganizationService is the primary web service that accesses data and metadata for your organization. This web service contains the methods that you use to write code that uses all the data and metadata in Dynamics 365 Customer Engagement"
 ms.custom: on-premise
 ms.date: 04/01/2019
 ms.reviewer: "pehecke"
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8c212d9c-cfd6-4dcb-9d11-04b7cb472dbc
 author: JimDaly
 ms.author: jdaly
@@ -32,5 +32,5 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)],
 ## Related Sections  
 
  [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
- [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises) (on-premises)](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
+ [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)

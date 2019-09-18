@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 7d378504-b4b2-4a09-838c-69ee094072ef
 caps.latest.revision: 15
 author: KumarVivek
@@ -70,12 +70,12 @@ This sample demonstrates how to programmatically work with business process flow
 
 4. Press F5 or select **Debug** > **Start Debugging**.  
 
-5. If you have not previously run one of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement managed code samples before, you’ll need to enter information to run the code, otherwise enter the number for one of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] servers you have previously set up.  
+5. If you have not previously run one of the Dynamics 365 Customer Engagement (on-premises) managed code samples before, you’ll need to enter information to run the code, otherwise enter the number for one of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] servers you have previously set up.  
 
 
    |                                 Prompt                                  |                                                                                             Description                                                                                             |
    |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |      Enter a Dynamics 365 for Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 for Customer Engagement server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
+   |      Enter a Dynamics 365 Customer Engagement server name and port [crm.dynamics.com]       | Type the name of your Dynamics 365 Customer Engagement server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: <br />crm5.dynamics.com |
    | Is this organization provisioned in Microsoft online services (y/n) [n] |                                                 Type **y** if this is a Microsoft online services provisioned organization. Otherwise, type **n**.                                                  |
    |                          Enter domain\username                          |                                                                                    Type your Microsoft account.                                                                                     |
    |                             Enter password                              |                      Type your password. The characters will show as “\*” in the window. Your password is securely saved in the Microsoft Credential Manager for later reuse.                       |

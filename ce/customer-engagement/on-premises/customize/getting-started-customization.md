@@ -1,6 +1,6 @@
 ---
-title: "Get started with model-driven app making in PowerApps | MicrosoftDocs"
-description: "Learn how you can get started building and customizing model-driven apps"
+title: "Get started with custom business app making in PowerApps | MicrosoftDocs"
+description: "Learn how you can get started building and customizing custom business apps"
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 

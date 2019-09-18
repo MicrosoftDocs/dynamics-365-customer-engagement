@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0264083d-08e0-4bcc-9f94-0c0a6498199d
 caps.latest.revision: 15
 author: JimDaly
@@ -24,7 +24,7 @@ search.app:
 
 The entities and messages that are supported in asynchronous operations are the same as the message and entity combinations that support plug-ins. For more information, see [Supported Messages and Entities for Plug-ins](supported-messages-entities-plugin.md).  
   
- Asynchronous operations are spawned to handle many types of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operations, for example import/export, bulk operations, duplicate detection, recurring appointments, recurring (internal) system jobs, and more.  
+ Asynchronous operations are spawned to handle many types of Dynamics 365 Customer Engagement (on-premises) operations, for example import/export, bulk operations, duplicate detection, recurring appointments, recurring (internal) system jobs, and more.  
   
 ### See also  
  [Asynchronous Operation States](asynchronous-operation-states.md)   

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 56f3ec6e-622c-43e2-9d7a-9a3a4d77e701
 caps.latest.revision: 17
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Entity attribute metadata messages
 
-An entity attribute is a container for a piece of data in an entity. In this developer guide, the term “attribute” and “property” (class property) are often used interchangeably with the term “entity attribute.” The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application uses the term “field” when it refers to entity attributes.  
+An entity attribute is a container for a piece of data in an entity. In this developer guide, the term “attribute” and “property” (class property) are often used interchangeably with the term “entity attribute.” The Dynamics 365 Customer Engagement (on-premises) application uses the term “field” when it refers to entity attributes.  
 
 > [!NOTE]
 > It is possible to create and update entity attributes using the Web API. See [Create attributes using Web API](/powerapps/developer/common-data-service/webapi/create-update-entity-definitions-using-web-api#create-attributes) for more details.

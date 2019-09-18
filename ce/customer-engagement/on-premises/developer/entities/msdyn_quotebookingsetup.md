@@ -1,5 +1,5 @@
 ---
-title: "msdyn_quotebookingsetup Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_quotebookingsetup Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_quotebookingsetup entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

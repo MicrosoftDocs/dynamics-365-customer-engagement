@@ -20,5 +20,5 @@ ms.author: matp
   
  ## Solution
   
- Install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)]. For information about how to install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], see [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](../on-premises/install-microsoft-dynamics-365-reporting-extensions.md).
+ Install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)]. For information about how to install [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)], see [Install Microsoft Dynamics 365 for Customer Engagement Reporting Extensions](../deploy/install-microsoft-dynamics-365-reporting-extensions.md).
 

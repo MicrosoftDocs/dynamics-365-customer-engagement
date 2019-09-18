@@ -32,11 +32,11 @@ Web services provide APIs that you’ll use when you write programs for Dynamics
 
  Compared to the Organization service, the Web API provides better compatibility across a wide variety of programming languages, platforms, and devices. The Web API implements the OData (Open Data Protocol) v4. OData is an OASIS standard for building and consuming RESTful APIs over rich data sources. You can learn more at the [OData protocol](http://www.odata.org/) and the [OASIS standard](https://www.oasis-open.org/standards#odatav4.0) websites.  
   
- Because the Web API is built on open standards, you aren’t required to use client libraries specific to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can choose to compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want to use. View a [list of available libraries](http://www.odata.org/libraries/).  
+ Because the Web API is built on open standards, you aren’t required to use client libraries specific to Dynamics 365 Customer Engagement (on-premises). You can choose to compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want to use. View a [list of available libraries](http://www.odata.org/libraries/).  
   
- Eventually the Web API will replace the Organization service and Organization Data service but both of these existing web services will be available to enable a gradual transition to a single Web API. The Web API should be your first choice for new development that will support [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and future versions of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Use the Web API for any projects that access [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data with code that doesn’t run on the server, including requests from web resources and form scripts that run in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application clients. At this time you can’t easily use the Web API for code that runs on the server, such as in plug-ins or workflow assemblies. You should continue to use the Organization service for these purposes.
+ Eventually the Web API will replace the Organization service and Organization Data service but both of these existing web services will be available to enable a gradual transition to a single Web API. The Web API should be your first choice for new development that will support [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] and future versions of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. Use the Web API for any projects that access Dynamics 365 Customer Engagement (on-premises) data with code that doesn’t run on the server, including requests from web resources and form scripts that run in Dynamics 365 Customer Engagement (on-premises) application clients. At this time you can’t easily use the Web API for code that runs on the server, such as in plug-ins or workflow assemblies. You should continue to use the Organization service for these purposes.
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 for Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the Dynamics 365 Customer Engagement Web API](use-microsoft-dynamics-365-web-api.md).  
   
 <a name="bkmk_organizationservice"></a>
 
@@ -76,6 +76,6 @@ Business logic that runs in plug-ins or workflow assemblies on the server expect
 ### See also  
  [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)   
  [Authenticate users to Dynamics 365 Customer Engagement (on-premises)](authenticate-users.md)   
- [Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
+ [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)   
  [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)   
  [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)

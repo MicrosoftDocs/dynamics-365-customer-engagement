@@ -5,7 +5,7 @@
 ## [Find your administrator or support person](../basics/find-administrator-support.md)
 ## [Submit feedback or ratings](submit-feedback-ratings.md)
 
-# [Navigation and Basics](../basics/navigation-customer-engagement-enterprise.md)
+# [Navigation and Basics](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)
 ## [Quick create](../basics/quick-create-enter-data-fast.md)
 ### [Basic search](../basics/search-records.md)
 ### [Save searches using Advanced Find](../basics/save-advanced-find-search.md)

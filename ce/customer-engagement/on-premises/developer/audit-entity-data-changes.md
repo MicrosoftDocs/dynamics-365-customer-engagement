@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - auditing entity data changes in Microsoft Dynamics CRM, introduction
 ms.assetid: 1e1b011b-282a-4a5f-a4b2-91c0c0989a55

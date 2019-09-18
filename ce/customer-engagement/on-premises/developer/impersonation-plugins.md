@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 857bedcc-c2f6-4747-8f89-93388c9ea19f
 caps.latest.revision: 30
 author: phecke
@@ -22,7 +22,7 @@ search.app:
 ---
 # Impersonation for on-premise deployed plug-ins
 
-Impersonation is used to execute business logic (custom code) on behalf of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system user to provide a desired feature or service for that user. Any business logic executed within a plug-in, including Web service method calls and data access, is governed by the security privileges of the impersonated user.
+Impersonation is used to execute business logic (custom code) on behalf of a Dynamics 365 Customer Engagement (on-premises) system user to provide a desired feature or service for that user. Any business logic executed within a plug-in, including Web service method calls and data access, is governed by the security privileges of the impersonated user.
 
 General information about using impersonation with plug-ins can be found in the Common Data Service topic [Impersonate a user](/powerapps/developer/common-data-service/impersonate-a-user). The information that follows below is specific to on-premises plug-in development.
   

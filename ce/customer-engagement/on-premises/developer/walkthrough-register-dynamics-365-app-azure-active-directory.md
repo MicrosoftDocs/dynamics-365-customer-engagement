@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 for Customer Engagement Online instance, authenticate using OAuth, and access the web services"
+title: "Walkthrough: Register a Dynamics 365 Customer Engagement app with Azure Active Directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Customer Engagement Online instance, authenticate using OAuth, and access the web services"
 ms.custom: 
 ms.date: 07/25/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8fb9f7e2-8002-427e-bc66-a7c0d6e32ac8
 caps.latest.revision: 10
 author: KumarVivek    
@@ -20,12 +20,12 @@ search.app:
   - D365CE
 ---
 
-# Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory
+# Walkthrough: Register a Dynamics 365 Customer Engagement app with Azure Active Directory
 
-This walkthrough describes how to register an application with Azure Active Directory, which enables a user with Dynamics 365 for Customer Engagement user account to connect to their Dynamics 365 for Customer Engagement Online instance from external client applications using OAuth authentication.
+This walkthrough describes how to register an application with Azure Active Directory, which enables a user with Dynamics 365 Customer Engagement user account to connect to their Dynamics 365 Customer Engagement Online instance from external client applications using OAuth authentication.
 
 > [!IMPORTANT]
-> Dynamics 365 for Customer Engagement also provides you with Server-to-Server (S2S) authentication option to connect to Dynamics 365 for Customer Engagement Online instance from external applications and services using the special *application user* account. S2S authentication is the common way that apps registered on Microsoft AppSource use to access the Dynamics 365 for Customer Engagement data of their subscribers. More information: [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md).
+> Dynamics 365 Customer Engagement also provides you with Server-to-Server (S2S) authentication option to connect to Dynamics 365 Customer Engagement Online instance from external applications and services using the special *application user* account. S2S authentication is the common way that apps registered on Microsoft AppSource use to access the Dynamics 365 Customer Engagement data of their subscribers. More information: [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md).
 
 App registration in Azure Active Directory is typically done by ISVs who want to develop external client applications to read and write data in Customer Engagement. Registering an app in Azure Active Directory provides you with **Application ID** and **Redirect URI** values that ISVs can use in their client application's authentication code. When end users use the ISV's application for the *first time* to connect to their Customer Engagement instance by providing their Customer Engagement credentials, a consent form is presented to the end user. After consenting to use their Customer Engagement account with the ISV's application, end users can connect to Customer Engagement instance from external application. The consent form is not displayed again to other users after the first user who has already consented to use the ISV's app. Apps registered in Azure Active Directory are multi-tenant, which implies that other Customer Engagement users from other tenant can connect to their instance using the ISV's app. 
 
@@ -42,7 +42,7 @@ App registration can also be done by an application developer or individual user
   
 - **For a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] deployment**:-->  
   
-- The user who is registering the application must have a Dynamics 365 for Customer Engagement user account with System Administrator security role and the global administrator role for the Office 365 subscription.  
+- The user who is registering the application must have a Dynamics 365 Customer Engagement user account with System Administrator security role and the global administrator role for the Office 365 subscription.  
   
 - An Azure subscription for application registration. A trial account will also work.  
   
@@ -55,7 +55,7 @@ App registration can also be done by an application developer or individual user
 1. Sign in to the [Azure portal](https://go.microsoft.com/fwlink/?linkid=2083908) using an account with administrator permission. You must use an account in the same Office 365 subscription (tenant) as you intend to register the app with. You can also access the Azure portal through the Office 365 [Admin center](https://admin.microsoft.com/adminportal) by expanding the **Admin centers** item in the left navigation pane, and selecting **Azure Active Directory**.  
   
    > [!NOTE]
-   > If you don’t have an Azure tenant (account) or you do have one but your Office365 subscription with Dynamics 365 for Customer Engagement is not available in your Azure subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment) to associate the two accounts.<br><br> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/)  
+   > If you don’t have an Azure tenant (account) or you do have one but your Office365 subscription with Dynamics 365 Customer Engagement is not available in your Azure subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment) to associate the two accounts.<br><br> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/)  
   
 2. In the Azure portal, select **Azure Active Directory** in the left pane and select **App registrations** and click on **New registration**.
     
@@ -99,4 +99,4 @@ This completes the registration of your application in Azure Active Directory.
 ### See also  
  [Application registration in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)    
  [About the Microsoft 365 admin center](https://docs.microsoft.com/en-us/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide)  
- [Authenticate Users with Dynamics 365 for Customer Engagement Web Services](authenticate-users.md)
+ [Authenticate Users with Dynamics 365 Customer Engagement Web Services](authenticate-users.md)

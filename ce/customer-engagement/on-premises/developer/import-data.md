@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (on-premises)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - Import Data wizard, capabilities of the
   - importing data in Microsoft Dynamics CRM, data import defined

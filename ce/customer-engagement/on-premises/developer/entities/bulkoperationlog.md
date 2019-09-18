@@ -1,5 +1,5 @@
 ---
-title: "BulkOperationLog Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "BulkOperationLog Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BulkOperationLog entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

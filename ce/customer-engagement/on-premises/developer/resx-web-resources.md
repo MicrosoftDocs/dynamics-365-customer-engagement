@@ -1,6 +1,6 @@
 ---
 title: "String (RESX) web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn about using string web resources to make localized strings available for use in Dynamics 365 for Customer Engagement. "
+description: "Learn about using string web resources to make localized strings available for use in Dynamics 365 Customer Engagement. "
 ms.custom: 
 ms.date: 12/28/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2abb6e22-c64c-4f87-8b55-9f4405103cec
 caps.latest.revision: 19
 author: JimDaly

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c3e00bf9-d973-4cf6-9527-1c12cef8a949
 caps.latest.revision: 36
 author: JimDaly
@@ -22,9 +22,9 @@ search.app:
 ---
 # Auditing overview
 
-Organizations often need to be in compliance with various regulations to ensure availability of customer interaction history, audit logs, access reports, and security incident tracking reports. Organizations may want to track changes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data for security and analytical purpose.  
+Organizations often need to be in compliance with various regulations to ensure availability of customer interaction history, audit logs, access reports, and security incident tracking reports. Organizations may want to track changes in Dynamics 365 Customer Engagement (on-premises) data for security and analytical purpose.  
   
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] support an auditing capability where entity and attribute data changes within an organization can be recorded over time for use in analysis and reporting purposes. Auditing is supported on all custom and most customizable entities and attributes. Auditing is not supported on metadata changes, retrieve operations, export operations, or during authentication. For information on how to configure auditing, see [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md).  
+ Dynamics 365 Customer Engagement (on-premises) support an auditing capability where entity and attribute data changes within an organization can be recorded over time for use in analysis and reporting purposes. Auditing is supported on all custom and most customizable entities and attributes. Auditing is not supported on metadata changes, retrieve operations, export operations, or during authentication. For information on how to configure auditing, see [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md).  
   
 ## Supported for auditing  
  The following lists auditing capabilities for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]:  
@@ -56,7 +56,7 @@ Organizations often need to be in compliance with various regulations to ensure 
   
 - You can enable or disable auditing at the organization, entity, and attribute levels. If auditing is not enabled at the organization level, auditing of entities and attributes, even if it is enabled, does not occur. By default, auditing is enabled on all auditable entity attributes, but is disabled at the entity and organization level.  
   
-- For [!INCLUDE[pn-crmop-edition](../includes/pn-crm-onprem.md)] servers that use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Enterprise editions, auditing data is recorded over time (quarterly) in *partitions*. A partition is called an *audit log* in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application. Partitions are not supported, and therefore, not used, on a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] server that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], Standard edition.  
+- For [!INCLUDE[pn-crmop-edition](../includes/pn-crm-onprem.md)] servers that use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Enterprise editions, auditing data is recorded over time (quarterly) in *partitions*. A partition is called an *audit log* in the Dynamics 365 Customer Engagement (on-premises) web application. Partitions are not supported, and therefore, not used, on a [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] server that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)], Standard edition.  
   
 - The ability to retrieve and display the audit history is restricted to users who have certain security privileges: View Audit History, and View Audit Summary. There are also privileges specific to partitions: View Audit Partitions, and Delete Audit Partitions. See the specific message request documentation for information about the required privileges for each message.  
   
@@ -77,7 +77,7 @@ Organizations often need to be in compliance with various regulations to ensure 
   
 - Deletion of audit logs.  
   
-- When (date/time) a user accesses [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data, for how long, and from what client.  
+- When (date/time) a user accesses Dynamics 365 Customer Engagement (on-premises) data, for how long, and from what client.  
   
   Enabling or disabling of field level security by setting the <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata.IsSecured> attribute cannot be audited.  
   

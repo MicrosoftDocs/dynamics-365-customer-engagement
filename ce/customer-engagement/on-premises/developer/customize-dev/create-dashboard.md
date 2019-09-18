@@ -1,6 +1,6 @@
 ---
-title: "Create a dashboard (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Organization-owned dashboards can be created by using the Dynamics 365 for Customer Engagement web services (SDK) or by customizing the entity form in Dynamics 365 for Customer Engagement by editing the customizations.xml file."
+title: "Create a dashboard (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Organization-owned dashboards can be created by using the Dynamics 365 Customer Engagement web services (SDK) or by customizing the entity form in Dynamics 365 Customer Engagement by editing the customizations.xml file."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 155a627a-fae8-4154-89a7-28b7fc912db0
 caps.latest.revision: 28
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Create a dashboard
 
-Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] or by customizing the entity form in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement by editing the customizations.xml file.  
+Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)] or by customizing the entity form in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] by editing the customizations.xml file.  
   
 > [!NOTE]
 >  Some dashboards that are created by using the SDK or by customizing the entity form are not supported by the Dashboard Designer in the Web application. For more information, see [Limitations: Creating dashboards by using the SDK or through form customization](#Limitations) later in this topic.  
@@ -105,9 +105,9 @@ Organization-owned dashboards can be created by using the [!INCLUDE[cc-dyn365-ce
  **Resolution**: Make sure that you specify a value for the `<Url>` parameter while creating an IFRAME in the FormXML.  
   
 ### See also  
- [Dashboards for Microsoft Dynamics 365 for Customer Engagement](analyze-data-with-dashboards.md)   
+ [Dashboards for Microsoft Dynamics 365 Customer Engagement](analyze-data-with-dashboards.md)   
  [Using FormXML for Dashboards](understand-dashboards-dashboard-components-formxml.md)   
  [Actions on Dashboards](actions-dashboards.md)   
  [Sample dashboards](sample-dashboards.md)   
  [Sample: Create, Retrieve, Update and Delete (CRUD) a Dashboard](sample-create-retrieve-update-delete-dashboard.md)   
- [Customize Entity Forms in Microsoft Dynamics 365 for Customer Engagement](customize-entity-forms.md)
+ [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)

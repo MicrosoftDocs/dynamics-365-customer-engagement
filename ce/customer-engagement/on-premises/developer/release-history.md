@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 122ac8e4-ea24-4184-ac33-b1e3bcf073a0
 author: JimDaly
 ms.author: jdaly
@@ -45,7 +45,7 @@ This topic will record significant incremental changes to the SDK content for th
 [What's new for developers](whats-new-developers.md)<br />
 [Get started with the SDK for Dynamics 365 Customer Engagement (on-premises)](get-started-sdk.md)<br />
 [Connect to Dynamics 365 Customer Engagement (on-premises)](connect-customer-engagement.md)<br />
-[Use Dynamics 365 for Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
+[Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md)<br />
 [Build Windows client applications using the XRM tools](build-windows-client-applications-xrm-tools.md)
 [Model-driven apps Developer Guide](/powerapps/developer/model-driven-apps/overview)<br />
 [Security model of Customer Engagement (on-premises)](security-dev/security-model.md)<br />
