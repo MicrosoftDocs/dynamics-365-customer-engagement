@@ -89,7 +89,7 @@ To learn more about mobile projects, see our topic on [installing the Field Serv
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the admin center upgrade path for Field Service](./media/admin-upgrade-to-latest-admin-center.png)
 
-- If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com)
+- If you would like to set up a trial of the latest Field Service version, create a trial through [https://trials.dynamics.com](https://trials.dynamics.com).
 
 - Installing Field Service Mobile from the Windows Store can allow for automatic upgrades of new versions.
 
