@@ -1,6 +1,6 @@
 ---
-title: "Use JavaScript with Dynamics 365 for Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "This topic helps you explore various opportunities that Dynamics 365 for Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
+title: "Use JavaScript with Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "This topic helps you explore various opportunities that Dynamics 365 Customer Engagement provides to use JavaScript. You can use JavaScript to perform actions in form scripts, command bar (ribbon) commands, and web resources."
 ms.custom: 
 ms.date: 06/24/2019
 ms.service: crm-online
@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: b7840a25-f25e-409b-8b6a-0ef04c7ed9c4
 author: JimDaly
 ms.author: jdaly
@@ -18,9 +18,9 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Use JavaScript with Customer Engagement apps
+# Use JavaScript with Customer Engagement (on-premises)
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] provide many opportunities to use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. All [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] used in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is added by creating [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resources. This topic has information for developers who use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and includes links to relevant topics in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] and other sources.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] provide many opportunities to use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]. All [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] used in Dynamics 365 Customer Engagement (on-premises) is added by creating [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resources. This topic has information for developers who use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] and includes links to relevant topics in the [!INCLUDE [pn-sdk](../includes/pn-sdk.md)] and other sources.  
   
 <a name="BKMK_AreasToUseJavaScript"></a>   
 
@@ -32,19 +32,19 @@ search.app:
 
 ### Form scripts  
 
- The most common use of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is to add functions as event handlers for entity form events. For more information, see [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md).  
+ The most common use of [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] in Dynamics 365 Customer Engagement (on-premises) is to add functions as event handlers for entity form events. For more information, see [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md).  
   
 <a name="bkmk_commandBar"></a>   
 
 ### Command bar (ribbon) commands  
 
- When you customize the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] command bar, you can configure commands for controls that you add. These commands contain rules that control whether the control is enabled and what action is performed when the control is used. For more information, see [Customize commands and the ribbon](../developer/customize-dev/customize-commands-ribbon.md).  
+ When you customize the Dynamics 365 Customer Engagement (on-premises) command bar, you can configure commands for controls that you add. These commands contain rules that control whether the control is enabled and what action is performed when the control is used. For more information, see [Customize commands and the ribbon](../developer/customize-dev/customize-commands-ribbon.md).  
   
 <a name="bkmk_webResources"></a>   
 
 ### Web resources  
 
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides an organization-owned entity that stores a binary representation of a file that can be accessed by using a URL. This file is called a web resource. There are several types of web resources. A web resource that represents a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library is called a [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resource. You can use a webpage (HTML) web resource to provide a user interface with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries included just as you would for files on a web server. Because these files are part of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], users who access them are already authenticated. Therefore, you can use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services without having to write code to authenticate the user. For more information, see [Web Resources for Dynamics 365 for Customer Engagement](web-resources.md) and [Work with Dynamics 365 for Customer Engagement data using web resources](work-data-using-web-resources.md).  
+ Dynamics 365 Customer Engagement (on-premises) provides an organization-owned entity that stores a binary representation of a file that can be accessed by using a URL. This file is called a web resource. There are several types of web resources. A web resource that represents a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library is called a [!INCLUDE[pn_JScript](../includes/pn-jscript.md)] web resource. You can use a webpage (HTML) web resource to provide a user interface with [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries included just as you would for files on a web server. Because these files are part of Dynamics 365 Customer Engagement (on-premises), users who access them are already authenticated. Therefore, you can use Dynamics 365 Customer Engagement (on-premises) web services without having to write code to authenticate the user. For more information, see [Web Resources for Dynamics 365 Customer Engagement](web-resources.md) and [Work with Dynamics 365 Customer Engagement data using web resources](work-data-using-web-resources.md).  
   
 <a name="BKMK_UsingjQuery"></a>   
 
@@ -74,19 +74,19 @@ search.app:
  
 ## JavaScript programming best practices  
 
- The following sections describe best practices when you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+ The following sections describe best practices when you use [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] with Dynamics 365 Customer Engagement (on-premises).  
   
 <a name="bkmk_avoidUnsupportedMethods"></a> 
   
 ### Avoid using unsupported methods  
 
- On the Internet, you can find many examples or suggestions that describe using unsupported methods. These may include leveraging undocumented internal function for page controls. These methods may work but because they are not supported you can’t expect that they will continue to work in future versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+ On the Internet, you can find many examples or suggestions that describe using unsupported methods. These may include leveraging undocumented internal function for page controls. These methods may work but because they are not supported you can’t expect that they will continue to work in future versions of Dynamics 365 Customer Engagement (on-premises).  
  
   
 <a name="bkmk_useJavaScriptFramework"></a>
 
 ### Use a cross-browser JavaScript library for HTML web resource user interfaces  
- A cross-browser [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library, such as [jQuery](http://jquery.com/), provides many advantages when developing HTML web resources that must support multiple browsers. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide a unified development experience for all browsers supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. These capabilities are appropriate when you are using HTML web resources to provide user interfaces. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide consistent ways to interact with the Document Object Model (DOM).  
+ A cross-browser [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library, such as [jQuery](http://jquery.com/), provides many advantages when developing HTML web resources that must support multiple browsers. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide a unified development experience for all browsers supported by Dynamics 365 Customer Engagement (on-premises). These capabilities are appropriate when you are using HTML web resources to provide user interfaces. [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries like jQuery provide consistent ways to interact with the Document Object Model (DOM).  
   
 <a name="bkmk_nojQuery"></a>
  
@@ -98,7 +98,7 @@ search.app:
 
 ### Recognize limitations for content delivery network (CDN) libraries
 
- Content delivery network (CDN) [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries provide many advantages for public websites. Because these libraries are hosted on the Internet, you do not need to create web resources that contain the content of the libraries. For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you should consider the following issues before you use a CDN [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library.  
+ Content delivery network (CDN) [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries provide many advantages for public websites. Because these libraries are hosted on the Internet, you do not need to create web resources that contain the content of the libraries. For Dynamics 365 Customer Engagement (on-premises) you should consider the following issues before you use a CDN [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library.  
   
 - Users of the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)] client have the capability to work with no Internet connection while working offline. If you are depending on an Internet connection for your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries, your code will fail.  
   
@@ -118,13 +118,13 @@ search.app:
  
 ### Do not access the DOM
 
- [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers are used to interacting with Document Object Model (DOM) elements in code. You might use the `window.getElementById` method or the jQuery library. You are free to use these techniques in your HTML web resources, but they are not supported to access elements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] application pages or entity forms. Instead, access to entity form elements are exposed through the [Client API object model](clientapi/understand-clientapi-object-model.md). The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] development team reserves the right to change how pages are composed, including the `ID` values for elements, so using the [Client API object model](clientapi/understand-clientapi-object-model.md) protects your code from changes in how pages are implemented.  
+ [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] developers are used to interacting with Document Object Model (DOM) elements in code. You might use the `window.getElementById` method or the jQuery library. You are free to use these techniques in your HTML web resources, but they are not supported to access elements in Dynamics 365 Customer Engagement (on-premises) application pages or entity forms. Instead, access to entity form elements are exposed through the [Client API object model](clientapi/understand-clientapi-object-model.md). The Dynamics 365 Customer Engagement (on-premises) development team reserves the right to change how pages are composed, including the `ID` values for elements, so using the [Client API object model](clientapi/understand-clientapi-object-model.md) protects your code from changes in how pages are implemented.  
   
 <a name="bkmk_DefineUniqueNames"></a>
   
 ### Define unique names for your JavaScript functions
 
- When you are the only developer for an HTML page you can easily manage the names of the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions you use. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], other solutions may add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions to the page where your function is used.  
+ When you are the only developer for an HTML page you can easily manage the names of the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions you use. In Dynamics 365 Customer Engagement (on-premises), other solutions may add [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions to the page where your function is used.  
   
  If two [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions on a page have the same name, the first function defined is overwritten by the second. For this reason, make sure that you define unique names for your [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions. For more information, see [Client scripting in Customer Engagement using JavaScript](clientapi/client-scripting.md).  
   
@@ -132,7 +132,7 @@ search.app:
 
 ### Use asynchronous data access methods
 
- When you access data by using the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services, always use an [XMLHttpRequest](https://msdn.microsoft.com/library/ms535874\(VS.85\).aspx) that is configured to execute asynchronously. The reason is that the browser operates on a single thread. If that thread is being used to execute a long-running process synchronously the browser will stop responding.  
+ When you access data by using the Dynamics 365 Customer Engagement (on-premises) web services, always use an [XMLHttpRequest](https://msdn.microsoft.com/library/ms535874\(VS.85\).aspx) that is configured to execute asynchronously. The reason is that the browser operates on a single thread. If that thread is being used to execute a long-running process synchronously the browser will stop responding.  
   
 > [!NOTE]
 >  Synchronous XMLHttpRequests are deprecated on the main thread of the browser because of the detrimental effects to the end user’s experience. Some browsers now provide a warning when this is detected. If browsers implement the specification at some time in the future an InvalidAccessError exception will be thrown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [http://www.w3.org/TR/XMLHttpRequest/#synchronous-flag](http://www.w3.org/TR/XMLHttpRequest/) and [https://xhr.spec.whatwg.org/#the-open()-method](https://xhr.spec.whatwg.org/)  
@@ -143,7 +143,7 @@ search.app:
 
  [Write Client Application Extensions](extend-client.md)<br />
  [Work with Customer Engagement data using web resources](work-data-using-web-resources.md)<br />
- [Client scripting in Customer Engagement apps using JavaScript](clientapi/client-scripting.md)<br />
+ [Client scripting in Customer Engagement (on-premises) using JavaScript](clientapi/client-scripting.md)<br />
  [Customize the Ribbon for Dynamics 365 Customer Engagement (on-premises)](customize-dev/customize-commands-ribbon.md)<br />
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
  [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)<br />

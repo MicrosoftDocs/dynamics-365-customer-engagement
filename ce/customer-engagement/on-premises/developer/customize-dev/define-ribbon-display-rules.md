@@ -1,5 +1,5 @@
 ---
-title: "Define ribbon display rules (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Define ribbon display rules (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about defining specific rules to control when the ribbon elements will display during the configuration of ribbon elements. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon, display controls
 ms.assetid: b247c51a-753b-48e5-9772-83346416886c
@@ -183,7 +183,7 @@ When configuring ribbon elements, you can define specific rules to control when 
 - NoRelationship  
 
   `<SkuRule>`  
-  Use this kind of rule to display a ribbon element for a specific SKU version of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, as follows:  
+  Use this kind of rule to display a ribbon element for a specific SKU version of [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)], as follows:  
 
 - OnPremise  
 

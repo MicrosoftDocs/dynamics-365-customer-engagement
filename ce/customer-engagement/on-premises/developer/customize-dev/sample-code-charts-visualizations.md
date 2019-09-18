@@ -1,5 +1,5 @@
 ---
-title: "Sample code for charts (visualizations) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Sample code for charts (visualizations) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The section contains code examples that demonstrate how to use visualization entities. "
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: samples
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d6afbf8d-8d7c-423b-8a80-8cbeef4f79d2
 caps.latest.revision: 15
 author: JimDaly

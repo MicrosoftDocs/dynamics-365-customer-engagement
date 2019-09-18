@@ -7,7 +7,7 @@ ms.service:
   - crm-online
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
 ms.author: jdaly
@@ -23,7 +23,7 @@ search.app:
 
 # Create solutions that support multiple languages
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps support multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] support multiple languages. If you want your solution to be installed for organizations that include different base languages or that have multiple languages provisioned, take this into account when planning your solution. The following table lists tactics to use along with solution components to include in a solution that supports multiple languages.  
   
 |Tactic|Solution component type|  
 |------------|-----------------------------|  
@@ -82,7 +82,7 @@ search.app:
   
 4. In the spreadsheet, provide the corresponding translations.  
   
-5. Import translations back into the same [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps organization using the “Import Translations” functionality and publish your changes.  
+5. Import translations back into the same Dynamics 365 Customer Engagement (on-premises) organization using the “Import Translations” functionality and publish your changes.  
   
 6. The next time the solution is exported it carries all the translations that you provided.  
   
@@ -121,9 +121,9 @@ search.app:
  After you import the completed translations, customized text appears for users who work in the languages that you had the text translated into.  
   
 > [!NOTE]
-> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps cannot import translated text that is over 500 characters long. If any of the items in your translation file are longer than 500 characters, the import process fails. If the import process fails, review the line in the file that caused the failure, reduce the number of characters, and try to import again.  
+> Dynamics 365 Customer Engagement (on-premises) cannot import translated text that is over 500 characters long. If any of the items in your translation file are longer than 500 characters, the import process fails. If the import process fails, review the line in the file that caused the failure, reduce the number of characters, and try to import again.  
   
- Because customization is supported only in the base language, you may be working in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps user interface. To perform additional customization work, you must change back to the base language.  
+ Because customization is supported only in the base language, you may be working in Dynamics 365 Customer Engagement (on-premises) with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the Dynamics 365 Customer Engagement (on-premises) user interface. To perform additional customization work, you must change back to the base language.  
   
 <a name="BKMK_LocalizationInBaseLanguageStrings"></a>   
 ## Localization in base language strings  
@@ -179,7 +179,7 @@ search.app:
   
 6. While using the organization base language you can navigate to the **Solutions** area in **Settings** and add the localized dialog as part of a solution.  
   
-   The dialog created in the other language will only be displayed to users who view [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps using that language.  
+   The dialog created in the other language will only be displayed to users who view Dynamics 365 Customer Engagement (on-premises) using that language.  
   
 <a name="BKMK_UseXMLWebResourcesAsLanguageResources"></a>   
 ## Use XML web resources as language resources  

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - preparing source files for importing, providing maps for multiple-entity data
   - importing source files, preparing source files for importing
@@ -30,9 +30,9 @@ search.app:
 ---
 # Prepare source files for import
 
-Before you can import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps, you must create the source data files.  
+Before you can import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must create the source data files.  
   
-The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
 A source file may contain data for one entity type or multiple entity types, such as accounts and contacts. For the source files that contain multiple entity data, you must provide a map that includes the `<EntitiesPerFile>` tag. Set the value of this tag to “Multiple” to indicate that there is more than one entity type in the source file. Add the `Dedupe = “Eliminate”` attribute to the `<EntityMap>` tag. This assures that if the file contains duplicate rows for the entity type, a single row is used to minimize lookup related errors.  
   

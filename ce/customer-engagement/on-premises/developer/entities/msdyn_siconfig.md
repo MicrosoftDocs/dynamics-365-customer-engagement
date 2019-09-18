@@ -1,5 +1,5 @@
 ---
-title: "msdyn_siconfig Entity Reference (Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msdyn_siconfig Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_siconfig entity."
 ms.date: 04/02/2019
 ms.service: "crm-online"

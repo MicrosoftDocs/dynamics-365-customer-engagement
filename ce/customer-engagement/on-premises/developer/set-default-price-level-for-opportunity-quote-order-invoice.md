@@ -1,5 +1,5 @@
 ---
-title: "Set default price level for opportunity, quote, order, and invoice (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Set default price level for opportunity, quote, order, and invoice (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Automatically set a default price level (price list) for an opportunity, quote, order, or invoice based on the sales territory of the user who creates or updates that entity."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ba21b67a-bc6c-4082-8f67-ab0b20c8ffbc
 caps.latest.revision: 14
 author: KumarVivek

@@ -22,9 +22,9 @@ ms.author: matp
   
  Install the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] feature or upgrade your computer to a supported operating system. For more information, see the following topics:  
  
- [Software requirements for Microsoft Dynamics 365 for Customer Engagement Server](../on-premises/software-requirements-for-microsoft-dynamics-365-server.md) </br>
- [Microsoft Dynamics 365 for Customer Engagement reporting requirements](../on-premises/microsoft-dynamics-365-reporting-requirements.md) </br>
+ [Software requirements for Microsoft Dynamics 365 for Customer Engagement Server](../deploy/software-requirements-for-microsoft-dynamics-365-server.md) </br>
+ [Microsoft Dynamics 365 for Customer Engagement reporting requirements](../deploy/microsoft-dynamics-365-reporting-requirements.md) </br>
   [Web application requirements](../admin/web-application-requirements.md) </br>
-  [Microsoft Dynamics 365 for Outlook software requirements](../outlook-addin/admin-guide/software-requirements.md)
+  [Microsoft Dynamics 365 for Outlook software requirements](../../../outlook-addin/admin-guide/software-requirements.md)
  
 

@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - configuring activity feeds, auto post rules; plug-ins; workflows; and wall controls
   - plug-ins and workflows, configuring activity feeds
@@ -51,7 +51,7 @@ The following sections contain information about how to configure your system fo
   
  For activity feeds, you can enable customizable business entities and custom entities that are user-owned, team-owned or organization-owned.  
   
- For a list of entities that you can enable for activity feeds, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] click **Post Configurations**. The **Post Configurations** area contains a list of entities that are configurable for activity feeds. You don’t need system administrator privileges to access the grid for viewing, but you do need administrator permissions to make modifications to items in the list, such as activating or deactivating post configurations for an entity or refreshing the list. Once you make changes, users will have to open a new tab or window to see these changes reflected.
+ For a list of entities that you can enable for activity feeds, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] click **Post Configurations**. The **Post Configurations** area contains a list of entities that are configurable for activity feeds. You don’t need system administrator privileges to access the grid for viewing, but you do need administrator permissions to make modifications to items in the list, such as activating or deactivating post configurations for an entity or refreshing the list. Once you make changes, users will have to open a new tab or window to see these changes reflected.
   
 > [!NOTE]
 >  After you create a custom entity, you must press the **Refresh** button in the command bar of the **Post Configurations** area to include the new entity so that it can be configured.  
@@ -60,7 +60,7 @@ The following sections contain information about how to configure your system fo
 ## Auto post rules  
  You can programmatically enable or disable the post rules for an entity. These rules create localized, parameterized auto posts when events occur. For example, a post is created when an opportunity is added to an account, or a task is added to an opportunity.  
   
- For a list of the auto post rules available out-of-the-box, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] Click **Post Rule Configurations**. For more information about how to activate and use auto post rules, see [Sample: Collaborate with Activity Feeds](sample-collaborate-with-activity-feeds.md).  
+ For a list of the auto post rules available out-of-the-box, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] Click **Post Rule Configurations**. For more information about how to activate and use auto post rules, see [Sample: Collaborate with Activity Feeds](sample-collaborate-with-activity-feeds.md).  
   
 > [!TIP]
 >  To make data import run faster, deactivate auto post rules for entities that are being imported.  

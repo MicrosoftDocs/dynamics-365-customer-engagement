@@ -1,6 +1,6 @@
 ---
-title: "Actions on visualizations (charts) (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "Using the Dynamics 365 for Customer Engagement web services (SDK), you can perform the following actions on the visualization entities."
+title: "Actions on visualizations (charts) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Using the Dynamics 365 Customer Engagement web services (SDK), you can perform the following actions on the visualization entities."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - charts, charts, actions
 ms.assetid: c0b866d1-d7a6-4ee4-bc36-69bf3a5398dd
@@ -39,7 +39,7 @@ Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-s
   > [!NOTE]
   >  You cannot change or update a visualization to attach it with a different entity after you have created the visualization. It implies that the `SavedQueryVisualization.PrimaryEntityTypeCode` attribute is not valid for the update action on the organization-owned visualization.  
   
-- Specify an organization-owned visualization as the default visualization for the associated entity by setting the `SavedQueryVisualization.IsDefault` attribute to `true`. When you set an organization-owned visualization as the default visualization for an entity, the visualization is displayed by default when you select to view the visualizations for this entity in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement.  
+- Specify an organization-owned visualization as the default visualization for the associated entity by setting the `SavedQueryVisualization.IsDefault` attribute to `true`. When you set an organization-owned visualization as the default visualization for an entity, the visualization is displayed by default when you select to view the visualizations for this entity in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)].  
   
   > [!NOTE]
   >  Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], if you set an organization-owned visualization as default for an entity that already has another visualization set as default, both the visualizations are marked as default visualizations for the entity.  To set a visualization as a default visualization for an entity, make sure that no other visualization is set as the default visualization for the entity.  

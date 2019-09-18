@@ -1,5 +1,5 @@
 ---
-title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about passing parameters to a URL by using the ribbon"
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - ribbon
 ms.assetid: 27ae5df1-fbd3-404b-bf52-40bbd2773cf6
@@ -24,7 +24,7 @@ search.app:
 ---
 # Pass parameters to a URL by using the ribbon
 
-Ribbon actions are defined in the `<Actions>` element of a `<CommandDefinition>` element. There are several ways to pass contextual [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement information as query string parameters to a URL by using the ribbon.  
+Ribbon actions are defined in the `<Actions>` element of a `<CommandDefinition>` element. There are several ways to pass contextual [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] information as query string parameters to a URL by using the ribbon.  
   
 -   Use a `<Url>` element. Within the `Url` element, use the **PassParams** attribute.  
   

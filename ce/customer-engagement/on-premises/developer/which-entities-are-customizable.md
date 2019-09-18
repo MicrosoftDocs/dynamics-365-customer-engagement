@@ -1,5 +1,5 @@
 ---
-title: "Which entities are customizable? (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Which entities are customizable? (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the entities properties that are customizable."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - which entities are customizable?
   - entity metadata properties that control customization
@@ -30,7 +30,7 @@ search.app:
 ---
 # Which entities are customizable?
 
-[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement has 271 entities; of these, 98 entities are customizable. Any custom entities that you add are also customizable. Creators of managed solutions can use managed properties to select whether to enable customization of entities in their solutions. The specific customizations that are allowed for customizable entities are defined by other properties.  
+[!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] has 271 entities; of these, 98 entities are customizable. Any custom entities that you add are also customizable. Creators of managed solutions can use managed properties to select whether to enable customization of entities in their solutions. The specific customizations that are allowed for customizable entities are defined by other properties.  
   
 <a name="properties"></a>   
 ## EntityMetadata properties that control customization  

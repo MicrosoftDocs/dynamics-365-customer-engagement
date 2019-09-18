@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - lead entity, managing leads
   - lead entity, associated information
@@ -30,7 +30,7 @@ search.app:
 ---
 # Lead entity
 
-A *lead* entity represents an individual that is identified as someone who is interested in receiving specific information about the products or services offered by the company. The information is provided to a lead by a salesperson through email or other communication activities available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps. A lead is used to track contacts or accounts that are potential customers, but who have not yet been qualified.  
+A *lead* entity represents an individual that is identified as someone who is interested in receiving specific information about the products or services offered by the company. The information is provided to a lead by a salesperson through email or other communication activities available in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. A lead is used to track contacts or accounts that are potential customers, but who have not yet been qualified.  
   
  Lead management is largely the same as opportunity management. However, a lead is kept separate from customer and opportunity data until the lead is qualified. The possible states for a lead are Open, Qualified, and Disqualified. A qualified lead may be converted to an account, contact or opportunity. To convert, use the <xref:Microsoft.Crm.Sdk.Messages.QualifyLeadRequest> message.  
   
@@ -48,7 +48,7 @@ A *lead* entity represents an individual that is identified as someone who is in
   
   A link is maintained between the lead and any accounts and contacts. You can create this link by using the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method with the <xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or the <xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> messages. This makes it possible to generate reports that indicate the value of different lead sources.  
   
-  When you enter a lead into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use the process (workflow) engine to automatically route it to a specific user or team based on rules that are defined by the business unit or channel partner. Upon qualification, the lead is either converted to an opportunity or is inactivated, but retained to allow for accurate business reporting, for example, analysis of the effectiveness of different lead sources. For more information, see[Processes in Dynamics 365 for Customer Engagement 5](automate-business-processes-customer-engagement.md).  
+  When you enter a lead into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can use the process (workflow) engine to automatically route it to a specific user or team based on rules that are defined by the business unit or channel partner. Upon qualification, the lead is either converted to an opportunity or is inactivated, but retained to allow for accurate business reporting, for example, analysis of the effectiveness of different lead sources. For more information, see[Processes in Dynamics 365 Customer Engagement 5](automate-business-processes-customer-engagement.md).  
   
 ### See Also  
  [Lead Entity](entities/lead.md)   

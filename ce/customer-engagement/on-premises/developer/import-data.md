@@ -2,14 +2,14 @@
 title: "Import data (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Overview of the data import feature, which enables data upload from various customer relationship management systems and other data sources."
 ms.custom: 
-ms.date: 05/09/2019
-ms.reviewer: 
+ms.date: 10/01/2019
+ms.reviewer: nabuthuk
 ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - Import Data wizard, capabilities of the
   - importing data in Microsoft Dynamics CRM, data import defined
@@ -83,19 +83,19 @@ Dynamics 365 Customer Engagement (on-premises) include a web application tool ca
 
 ## Prepare for source files
  
-Before you can import data into Dynamics 365 Customer Engagement apps, you must create the source data files. The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into Dynamics 365 Customer Engagement (on-premises). More information: [Prepare Source Files](/powerapps/developer/common-data-service/prepare-source-files-import)  
+Before you can import data into Dynamics 365 Customer Engagement (on-premises), you must create the source data files. The data source files that you use in an import must be formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files. The use of source files enables the transfer of data from database systems that use different formats into Dynamics 365 Customer Engagement (on-premises). To learn more, see [Prepare Source Files](/powerapps/developer/common-data-service/prepare-source-files-import) in the Common Data Service documentation. 
   
 ## Create data maps
 
-To import data into Dynamics 365 Customer Engagement (on-premises), you must provide the appropriate data maps. More information: [Create Data Maps](/powerapps/developer/common-data-service/create-data-maps-for-import)  
+To import data into Dynamics 365 Customer Engagement (on-premises), you must provide the appropriate data maps. To learn more, see [Create Data Maps](/powerapps/developer/common-data-service/create-data-maps-for-import) in the Common Data Service documentation.  
   
 ## Add transformation data
 
-Use transformation mapping to modify data before importing it. For example, split a full name that is contained in the source file into a first name and a last name to match the target attributes for an entity. More information: [Add Transformation Mapping](/powerapps/developer/common-data-service/add-transformation-mappings-import)  
+Use transformation mapping to modify data before importing it. For example, split a full name that is contained in the source file into a first name and a last name to match the target attributes for an entity. To learn more, see [Add Transformation Mapping](/powerapps/developer/common-data-service/add-transformation-mappings-import) in the Common Data Service documentation.
   
 ## Data import
 
-The configuration information that is required for importing data is contained in the data import (`Import`) entity and the import source file (`ImportFile`) entity. More information: [Configure Data Import](/powerapps/developer/common-data-service/configure-data-import)  
+The configuration information that is required for importing data is contained in the data import (`Import`) entity and the import source file (`ImportFile`) entity. To learn more, see [Configure Data Import](/powerapps/developer/common-data-service/configure-data-import) in the Common Data Service documentation. 
   
 ## Run data import
 
@@ -104,11 +104,11 @@ Data import runs directly on the Dynamics 365 Customer Engagement (on-premises) 
 - Parse source data that is contained in the import file.
 - Transform parsed data by using the data map.
 - Upload transformed data into Dynamics 365 Customer Engagement (on-premises).
-- All Dynamics 365 Customer Engagement (on-premises) users who have appropriate permissions can run data import. More information: [Run Data Import](/powerapps/developer/common-data-service/run-data-import)  
+- All Dynamics 365 Customer Engagement (on-premises) users who have appropriate permissions can run data import. To learn more, see [Run Data Import](/powerapps/developer/common-data-service/run-data-import) in the Common Data Service documentation.
   
 ## Data import entities
 
-The Dynamics 365 Customer Engagement (on-premises) data import entities are used to create data maps, configure and run data imports, and log failure information. More information: [Data Import Entities](/powerapps/developer/common-data-service/data-import-entities)  
+The Dynamics 365 Customer Engagement (on-premises) data import entities are used to create data maps, configure and run data imports, and log failure information. To learn more, see [Data Import Entities](/powerapps/developer/common-data-service/data-import-entities) in the Common Data Service documentation.  
   
 ## Related Sections 
 

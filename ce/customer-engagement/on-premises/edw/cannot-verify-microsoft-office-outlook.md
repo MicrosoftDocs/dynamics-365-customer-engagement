@@ -22,5 +22,5 @@ ms.author: matp
   
  [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] requires that Outlook be installed and started before you install [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Starting Outlook for the first time configures a default user profile.  
   
- For more information, see [Microsoft Dynamics 365 for Outlook software requirements](../outlook-addin/admin-guide/software-requirements.md).
+ For more information, see [Microsoft Dynamics 365 for Outlook software requirements](../../../outlook-addin/admin-guide/software-requirements.md).
 

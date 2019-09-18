@@ -1,5 +1,5 @@
 ---
-title: "Add transformation mappings for import (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Add transformation mappings for import (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Transformation mapping enables optional modification of source data before importation."
 ms.custom: 
 ms.date: 10/31/2017
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - using transformation mapping to modify data before importing
   - transformation mappings, definition
@@ -36,7 +36,7 @@ Use transformation mapping to modify data before importing it. For example, spli
 
  To implement transformation mapping, use the transformation mapping (`TransformationMapping`) entity and transformation parameter mapping (`TransformationParameterMapping`) entity.  
 
- The transformed data must be compatible with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps entity attribute types.  
+ The transformed data must be compatible with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] entity attribute types.  
 
  The transformation type is described by the `TransformationMapping.TransformationTypeName` property. The valid values for this property are listed in the following table:  
 
@@ -148,7 +148,7 @@ Use transformation mapping to modify data before importing it. For example, spli
 |Value|Replacement value (same as assigned value).|  
 
 > [!NOTE]
->  Date transformations can only be used for correctly formatted dates. For information about how to format dates, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps Help.  
+>  Date transformations can only be used for correctly formatted dates. For information about how to format dates, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Help.  
 
 <a name="BKMK_AddToDate"></a>   
 ## Add to date  

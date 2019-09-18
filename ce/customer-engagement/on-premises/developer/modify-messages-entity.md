@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - entities, updating entity display strings
   - modifying messages for entities, updating entity display strings
@@ -34,7 +34,7 @@ search.app:
 ---
 # Modify the messages for an entity
 
-When you customize system entity or system attribute display names, some messages displayed by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps will reference the default display names. Edit the default messages to match your customized display names.  
+When you customize system entity or system attribute display names, some messages displayed by Dynamics 365 Customer Engagement (on-premises) will reference the default display names. Edit the default messages to match your customized display names.  
   
 ## Edit messages by exporting, editing, and importing translations
 

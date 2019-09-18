@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e2ca3f4c-201e-4d7e-be0d-85eef2ce3e73
 caps.latest.revision: 15
 author: JimDaly
@@ -41,7 +41,7 @@ The SolutionPackager tool can be used with any source control system. After a so
   
 1. Developer A and B are both working on the same solution.  
   
-2. On independent computers, they both get the latest sources of the solution from source control, pack, and import an unmanaged solution .zip file into independent [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organizations.  
+2. On independent computers, they both get the latest sources of the solution from source control, pack, and import an unmanaged solution .zip file into independent Dynamics 365 Customer Engagement (on-premises) organizations.  
   
 3. Developer A customizes the “Active Contacts” system view and the main form for the Contact entity.  
   
@@ -93,7 +93,7 @@ The SolutionPackager tool can be used with any source control system. After a so
   
         3.  If the prior change can be deemed unnecessary, developer B allows her copy of the file to overwrite the version in source control and submits.  
   
-    Whether working on a shared organization or independent organizations, team development of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] solutions requires those actively working on a common solution to be aware of the work of others. The SolutionPackager tool does not fully remove this need but it does enable easy merging of non-conflicting changes at the source control level, and it proactively highlights the concise components where conflicts have arisen.  
+    Whether working on a shared organization or independent organizations, team development of Dynamics 365 Customer Engagement (on-premises) solutions requires those actively working on a common solution to be aware of the work of others. The SolutionPackager tool does not fully remove this need but it does enable easy merging of non-conflicting changes at the source control level, and it proactively highlights the concise components where conflicts have arisen.  
   
     The next sections are the generic processes to effectively use the SolutionPackager tool in source control when developing with teams. These work equally with independent organizations or shared development organizations, though with shared organizations the export and extract will naturally include all changes present within the solution, not just those made by the developer performing the export. Similarly, when importing a solution .zip file the natural behavior to overwrite all components will occur.  
   
@@ -101,7 +101,7 @@ The SolutionPackager tool can be used with any source control system. After a so
 ## Create a solution  
  The following procedure identifies the typical steps used when first creating a solution.  
   
-1. In a clean organization, create a solution on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server, and then add or create components as necessary.  
+1. In a clean organization, create a solution on Dynamics 365 Customer Engagement (on-premises) server, and then add or create components as necessary.  
   
 2. When you are ready to check in, do the following.  
   

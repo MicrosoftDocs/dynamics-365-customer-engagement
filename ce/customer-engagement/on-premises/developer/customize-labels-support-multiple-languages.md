@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - customizing labels to support multiple languages, messages to use with labels (list of)
   - translating customized entity and attribute text, customizing labels to support multiple languages
@@ -46,7 +46,7 @@ search.app:
 
 # Customize labels to support multiple languages
 
-When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps, you can support multiple languages by using labels.  
+When you create customizations in Dynamics 365 Customer Engagement (on-premises), you can support multiple languages by using labels.  
 
 <a name="BKMK_UsingLabels"></a>   
 ## Using labels  
@@ -56,7 +56,7 @@ When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dyna
 |<xref:Microsoft.Xrm.Sdk.Label> class|<xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" />|
 |<xref:Microsoft.Xrm.Sdk.LocalizedLabel> class|<xref href="Microsoft.Dynamics.CRM.LocalizedLabel?text=LocalizedLabel ComplexType" />|
 
- Labels are localized strings displayed to users in the client applications. They are implemented by using `Label` (<xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" /> or <xref:Microsoft.Xrm.Sdk.Label> class), which supports language packs. Strings that are displayed to users, such as entity display names or options in an option set, can be stored in multiple languages. Users can select which language they want displayed in forms and views in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+ Labels are localized strings displayed to users in the client applications. They are implemented by using `Label` (<xref href="Microsoft.Dynamics.CRM.Label?text=Label ComplexType" /> or <xref:Microsoft.Xrm.Sdk.Label> class), which supports language packs. Strings that are displayed to users, such as entity display names or options in an option set, can be stored in multiple languages. Users can select which language they want displayed in forms and views in Dynamics 365 Customer Engagement (on-premises).  
 
  The following table lists all of the metadata that uses the `Label`.  
 
@@ -108,13 +108,13 @@ When you create customizations in [!INCLUDE[pn_dynamics_crm](../includes/pn-dyna
  After you import the completed translations, customized text appears for users who work in the languages that you had the text translated into.  
 
 > [!NOTE]
-> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps cannot import translated text that is over 500 characters long. If any of the items in your translation file are longer than 500 characters, the import process will fail. If the import process fails, review the line in the file that caused the failure, reduce the number of characters, and try to import again.  
+> Dynamics 365 Customer Engagement (on-premises) cannot import translated text that is over 500 characters long. If any of the items in your translation file are longer than 500 characters, the import process will fail. If the import process fails, review the line in the file that caused the failure, reduce the number of characters, and try to import again.  
 
- Because customization is supported only in the base language, you may be working in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps user interface. To perform additional customization work, you must change back to the base language.  
+ Because customization is supported only in the base language, you may be working in Dynamics 365 Customer Engagement (on-premises) with the base language set as your language preference. To verify that the translated text appears, you must change your language preference for the Dynamics 365 Customer Engagement (on-premises) user interface. To perform additional customization work, you must change back to the base language.  
 
 <a name="BKMK_ManagingLanguages"></a>   
 ## Manage languages for your organization  
- [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] apps enable you to install multiple language packs on a server and allows the user to select a language pack. For more information about how to install language packs, see [Enable Languages](../admin/enable-languages.md). This section contains information about messages used to manage languages installed for your organization.  
+ [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] enable you to install multiple language packs on a server and allows the user to select a language pack. For more information about how to install language packs, see [Enable Languages](../admin/enable-languages.md). This section contains information about messages used to manage languages installed for your organization.  
 
  The following table lists the messages that you use to work with language packs. Use these messages with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method.  
 

@@ -35,12 +35,9 @@ For example it’s important for a sales team to know which product or service i
    > [!NOTE]
    >  In **Report Viewer** dialog box, you can leave the search criteria as is, or change it as needed.  
   
-   ![Default reports in Dynamics 365 Customer Engagement (on-premises)](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
+   > [!div class="mx-imgBorder"] 
+   > ![Default reports in Dynamics 365 Customer Engagement (on-premises)](../basics/media/default-reports.png "Default reports in Dynamics 365 Customer Engagement (on-premises)")  
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_crm_print](../includes/cc-privacy-crm-print.md)]
   
-### See also  
- [Get a list of available reports](../basics/get-list-available-reports.md)   
- [Customize and organize reports](../customize/customize-organize-reports.md)   
- [Get started writing reports](../analytics/get-started-writing-reports.md)

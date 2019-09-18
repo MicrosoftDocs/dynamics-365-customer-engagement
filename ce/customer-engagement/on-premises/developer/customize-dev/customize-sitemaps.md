@@ -1,6 +1,6 @@
 ---
-title: "Customize SiteMaps (Developer Guide for Dynamics 365 for Customer Engagement) | MicrosoftDocs"
-description: "The SiteMap provides the structure for navigation in Dynamics 365 for Customer Engagement. The SiteMap entity stores information about the site map, and the SiteMap.SiteMapXml attribute stores the XML that defines the site map."
+title: "Customize SiteMaps (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "The SiteMap provides the structure for navigation in Dynamics 365 Customer Engagement. The SiteMap entity stores information about the site map, and the SiteMap.SiteMapXml attribute stores the XML that defines the site map."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: 
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 54f00cc7-0653-423d-abe0-5344ad3711c3
 caps.latest.revision: 14
 author: KumarVivek
@@ -21,7 +21,7 @@ search.app:
 ---
 # Customize SiteMaps
 
-The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. The `SiteMap` entity stores information about the site map, and the `SiteMap.SiteMapXml` attribute stores the XML that defines the site map. The site map XML is exposed as the `SiteMap` node in the              customizations.xml file of an exported unmanaged solution.  
+The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. The `SiteMap` entity stores information about the site map, and the `SiteMap.SiteMapXml` attribute stores the XML that defines the site map. The site map XML is exposed as the `SiteMap` node in the              customizations.xml file of an exported unmanaged solution.  
   
  The structure of navigation defined in the site map XML is  evaluated together with your security privileges to display navigation options in the application. If your security privileges do not provide read access to an entity specified in the site map XML, the navigation option will not be displayed to you.  
   
@@ -45,5 +45,5 @@ The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](
  [SiteMap schema](sitemap-schema.md)  
   
 ### See also  
- [Customize Microsoft Dynamics 365 for Customer Engagement applications](customize-applications.md)   
- <!--[Define access permission for modular business apps in Dynamics 365 for Customer Engagement](../create-manage-business-apps.md) -->
+ [Customize Microsoft Dynamics 365 Customer Engagement applications](customize-applications.md)   
+ <!--[Define access permission for modular business apps in Dynamics 365 Customer Engagement](../create-manage-business-apps.md) -->

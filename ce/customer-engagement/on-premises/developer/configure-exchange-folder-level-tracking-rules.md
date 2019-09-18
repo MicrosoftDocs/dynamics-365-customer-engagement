@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4cd28905-1af7-42aa-a9d8-27c271dfcb8c
 caps.latest.revision: 17
 author: KumarVivek
@@ -22,7 +22,7 @@ search.app:
 ---
 # Configure Exchange folder-level tracking rules
 
-Configure folder-level tracking rules to map a [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] inbox folder to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps record so that all the emails in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder get automatically tracked against the mapped record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps. Folder-level tracking of emails will work only if:  
+Configure folder-level tracking rules to map a [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] inbox folder to a Dynamics 365 Customer Engagement (on-premises) record so that all the emails in the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder get automatically tracked against the mapped record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Folder-level tracking of emails will work only if:  
 
 - The folder-level tracking feature is enabled for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You can enable folder-level tracking by using the web client or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure folder-level tracking](../admin/configure-outlook-exchange-folder-level-tracking.md)  
 
@@ -37,7 +37,7 @@ Configure folder-level tracking rules to map a [!INCLUDE[pn_Microsoft_Exchange](
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  [ExchangeFolderId](entities/mailboxtrackingfolder.md#BKMK_ExchangeFolderId)  | Specify the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder ID that you want to map. You can use the [!INCLUDE[pn_Exchange_Web_Services_EWS](../includes/pn-exchange-web-services-ews.md)] to retrieve the ID of a folder under your Inbox folder. For more information, see [MSDN: How to: Work with folders by using EWS in Exchange](https://msdn.microsoft.com/library/office/dn535504.aspx). This is a required attribute. |
 |         [MailboxId](entities/mailboxtrackingfolder.md#BKMK_MailboxId)         |                                                                                                                                         Specify the mailbox ID in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that you want to create the rule for. This is a required attribute.                                                                                                                                          |
-| [RegardingObjectId](entities/mailboxtrackingfolder.md#BKMK_RegardingObjectId) |                                                                                                       Set the regarding object in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps that you want the specified [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder to be mapped to. This is an optional attribute.                                                                                                       |
+| [RegardingObjectId](entities/mailboxtrackingfolder.md#BKMK_RegardingObjectId) |                                                                                                       Set the regarding object in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that you want the specified [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder to be mapped to. This is an optional attribute.                                                                                                       |
 
  The following sample code shows how you can create a folder-level tracking rule.  
 
@@ -59,9 +59,9 @@ _folderTrackingId = _serviceProxy.Create(newTrackingFolder);
 Console.WriteLine("Created folder-level tracking rule for '{0}'.\n", _mailboxName);  
 ```  
 
- You can create a maximum of 25 folder-level tracking rules per mailbox. The folder ID of the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder can’t be validated at the time of creating the mapping using SDK. However, as soon as you create a mapping rule, and if the folder ID is invalid, it will show up in the UI in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps to indicate that the mapping is invalid.  
+ You can create a maximum of 25 folder-level tracking rules per mailbox. The folder ID of the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder can’t be validated at the time of creating the mapping using SDK. However, as soon as you create a mapping rule, and if the folder ID is invalid, it will show up in the UI in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to indicate that the mapping is invalid.  
 
- Any manual changes done to the regarding object in the tracked activity records, created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps as a result of the folder-level tracking rule, will be overridden the next time server-side synchronization occurs. For example, if you have set up a mapping between the `Adventure Works` folder and the `Adventure Works` account, all the emails in the `Adventure Works`[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder will be tracked as activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with the regarding set to the `Adventure Works` account record. If you change the regarding of some activities to any other record, it will automatically be overridden the next time server-side synchronization occurs.  
+ Any manual changes done to the regarding object in the tracked activity records, created in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as a result of the folder-level tracking rule, will be overridden the next time server-side synchronization occurs. For example, if you have set up a mapping between the `Adventure Works` folder and the `Adventure Works` account, all the emails in the `Adventure Works`[!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder will be tracked as activities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with the regarding set to the `Adventure Works` account record. If you change the regarding of some activities to any other record, it will automatically be overridden the next time server-side synchronization occurs.  
 
 <a name="Retrieve"></a>   
 ## Retrieve folder-level tracking rules for a mailbox  

@@ -1,6 +1,6 @@
 ---
 title: "Run a simple program using web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn to run a simple program using Dynamics 365 for Customer Engagement web services."
+description: "Learn to run a simple program using Dynamics 365 Customer Engagement web services."
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: f5a975da-2fe5-4fc3-88d3-59c39d6b4477
 caps.latest.revision: 47
 author: JimDaly
@@ -27,7 +27,7 @@ This topic shows you how to compile and run a  program that creates an account r
 ## Prerequisites
 
 - Download the [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa)
-- You must be able to sign in to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement.  
+- You must be able to sign in to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
 - [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] 
 - [!INCLUDE [pn-net-framework462-long](../includes/pn-net-framework462-long.md)]
 
@@ -43,7 +43,7 @@ This topic shows you how to compile and run a  program that creates an account r
 
    |                                                        Prompt                                                         |                                                                                                                                                                                                                                                                                             Description                                                                                                                                                                                                                                                                                              |
    |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                                  Enter a CRM server name and port [crm.dynamics.com]                                  |                                                                  Type the name of your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: myservername<br /><br /> Example: myprefix.myservername:5500<br /><br /> Example: crm5.dynamics.com<br /><br /> Do not include the name of your organization or Internet protocol (http or https). You will be prompted for that later.                                                                  |
+   |                                  Enter a CRM server name and port [crm.dynamics.com]                                  |                                                                  Type the name of your Dynamics 365 Customer Engagement (on-premises) server. The default is [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] (crm.dynamics.com) in North America.<br /><br /> Example: myservername<br /><br /> Example: myprefix.myservername:5500<br /><br /> Example: crm5.dynamics.com<br /><br /> Do not include the name of your organization or Internet protocol (http or https). You will be prompted for that later.                                                                  |
    |                         Is this server configured for Secure Sockets Layer (https) (y/n) [n]                          |                                                                                                                                                                           Type **y** if the URL you use to access [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] begins with https://, otherwise type **n**. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users do not see this prompt.                                                                                                                                                                            |
    | Is this organization provisioned in [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] (y/n) [n] |                                                                                                                                                                           Type **y** if this is a [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provisioned organization. Otherwise, type **n**.<br /><br /> Only [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] users see this prompt.                                                                                                                                                                           |
    |                                                 Enter domain\username                                                 | For [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], type your network domain and user name separated by a backslash (\\). For [!INCLUDE [pn-crm-op-edition](../includes/pn-crm-onprem.md)], enter your [!INCLUDE[pn_Windows_Live_ID](../includes/pn-windows-live-id.md)].<br /><br /> On-premises/IFD Example: mydomain\tadams<br /><br /> Online Example: terryadams@somedomain.onmicrosoft.com<br /><br /> If you just press \<Enter> for the user name, the program will look for and use saved credentials. If there are no saved credentials, the program will fail. |
@@ -68,11 +68,11 @@ After running the QuickStart program or most other SDK console-based samples, th
 
  For more information about the helper code files that the QuickStart and many other SDK samples use, refer to the helper source code that handles saving and re-using the server configuration information located under the "SDK Helper Code" folder of the QuickStart sample.  
 
- A second sample project, named **QuickStart with Simplified Connection**, is included in the [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] solution. This second sample shows a simplified method to connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Organization service but is otherwise similar to the first QuickStart sample. This sample does not use any helper code to establish a web service connection.  
+ A second sample project, named **QuickStart with Simplified Connection**, is included in the [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] solution. This second sample shows a simplified method to connect to the Dynamics 365 Customer Engagement (on-premises) Organization service but is otherwise similar to the first QuickStart sample. This sample does not use any helper code to establish a web service connection.  
 
 ### See also  
  [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)   
- [Sample: Quick Start for Dynamics 365 for Customer Engagement](sample-quick-start.md)   
+ [Sample: Quick Start for Dynamics 365 Customer Engagement](sample-quick-start.md)   
  [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
  [Sample Code Directory for Dynamics 365 Customer Engagement (on-premises)](sample-code-directory.md)   

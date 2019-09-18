@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8089efdb-c358-4049-94ab-4496a98a768a
 caps.latest.revision: 11
 author: JimDaly
@@ -22,7 +22,7 @@ search.app:
 ---
 # Manage your deployment of Customer Engagement
 
-Write application code to administer your deployment and import sample data into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps.  
+Write application code to administer your deployment and import sample data into Dynamics 365 Customer Engagement (on-premises).  
   
 ## In This Section  
 [Administer the deployment using the deployment web service](administer-deployment-using-deployment-web-service.md)  

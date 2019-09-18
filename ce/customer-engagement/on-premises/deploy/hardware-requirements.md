@@ -44,8 +44,8 @@ Depending on how you plan to deploy the system, as a single-server solution, a m
 -   [Microsoft SQL Server hardware requirements](sql-server-hardware-requirements-dynamics-365-server.md)  
   
 ## See also  
- [Dynamics 365 for Outlook hardware requirements](../outlook-addin/admin-guide/hardware-requirements.md)   </br>
- [Phone and tablet support](../mobile-app/support-phones-tablets.md)   </br>
- [User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md) </br>
+ [Dynamics 365 for Outlook hardware requirements](../../../outlook-addin/admin-guide/hardware-requirements.md)   </br>
+ [Phone and tablet support](../../../mobile-app/support-phones-tablets.md)   </br>
+ [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md) </br>
  [Software requirements for Microsoft Dynamics 365 Server](software-requirements-for-microsoft-dynamics-365-server.md)
 

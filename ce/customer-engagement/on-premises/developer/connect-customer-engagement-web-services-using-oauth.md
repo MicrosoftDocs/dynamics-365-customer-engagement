@@ -1,6 +1,6 @@
 ---
-title: "Connect to Dynamics 365 for Customer Engagement web services using OAuth (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-description: "Learn how to connect to Dynamics 365 for Customer Engagement web services using OAuth and how the ADAL API manages OAuth 2.0 authentication with the Dynamics 365 for Customer Engagement web service identity provider"
+title: "Connect to Dynamics 365 Customer Engagement web services using OAuth (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+description: "Learn how to connect to Dynamics 365 Customer Engagement web services using OAuth and how the ADAL API manages OAuth 2.0 authentication with the Dynamics 365 Customer Engagement web service identity provider"
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
@@ -9,7 +9,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
 applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
+  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 05696c45-2a01-4787-aad5-87e2afef2b7f
 caps.latest.revision: 20
 author: JimDaly
@@ -20,16 +20,16 @@ search.audienceType:
 search.app: 
   - D365CE
 ---
-# Connect to Dynamics 365 for Customer Engagement web services using OAuth
+# Connect to Dynamics 365 Customer Engagement web services using OAuth
 
-OAuth is the authentication method supported by the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] apps Web API, and is one of two authentication methods for the Organization Service – the other being [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication. One benefit of using OAuth is that your application can support multi-factor authentication. You can use OAuth authentication when your application connects to either the Organization service or the Discovery service.  
+OAuth is the authentication method supported by the Dynamics 365 Customer Engagement (on-premises) Web API, and is one of two authentication methods for the Organization Service – the other being [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication. One benefit of using OAuth is that your application can support multi-factor authentication. You can use OAuth authentication when your application connects to either the Organization service or the Discovery service.  
   
  Method calls to the web services must be authorized with the identity provider for that service endpoint. Authorization is approved when a valid              OAuth 2.0 (user) access token, issued by [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)], is provided in the headers of the message requests.  
   
  The recommended authentication API for use with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API is [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/), which is available for a wide variety of platforms and programming languages. The ADAL API manages OAuth 2.0 authentication with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web service identity provider. For more details on the actual OAuth protocol used, see [Use OAuth to Authenticate with the CRM Service](http://blogs.msdn.com/b/crm/archive/2013/12/12/use-oauth-to-authenticate-with-the-crm-service.aspx).  
  
 > [!NOTE]
-> All Dynamics 365 for Customer Engagement tools, assemblies, and utilities currently require the authentication patterns supported by ADAL 2.x. When writing custom code, you must use ADAL 2.x for authentication only if your code uses the XRM Tooling APIs found in the Microsoft.Xrm.Tooling.* namespaces. Use of ADAL 3.x or newer for authentication with Dynamics 365 for Customer Engagement is possible when the XRM Tooling APIs are not used.
+> All Dynamics 365 Customer Engagement tools, assemblies, and utilities currently require the authentication patterns supported by ADAL 2.x. When writing custom code, you must use ADAL 2.x for authentication only if your code uses the XRM Tooling APIs found in the Microsoft.Xrm.Tooling.* namespaces. Use of ADAL 3.x or newer for authentication with Dynamics 365 Customer Engagement is possible when the XRM Tooling APIs are not used.
 > 
 > For an example of using ADAL 3.x to authenticate, see the GitHub [sample](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/webapi/C%23/ADALV3WhoAmI). For more information about the benefits of using XRM Tooling APIs in your code see [Build Windows client applications using the XRM tools](/powerapps/developer/common-data-service/xrm-tooling/build-windows-client-applications-xrm-tools).
 
@@ -54,7 +54,7 @@ AuthenticationContext authContext =
 AuthenticationResult result = authContext.AcquireToken(resource, clientId, new Uri(redirectUrl));  
 ```  
   
- The authentication context is returned using a well-known authority provider. When you don’t know the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant associated with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps instance you’re calling, you can use a constant string of `https://login.microsoftonline.com`, which is the authority URL for a multiple tenant scenario. An alternate method to dynamically discover the authority at run time is described later in this topic.  
+ The authentication context is returned using a well-known authority provider. When you don’t know the [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] tenant associated with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you’re calling, you can use a constant string of `https://login.microsoftonline.com`, which is the authority URL for a multiple tenant scenario. An alternate method to dynamically discover the authority at run time is described later in this topic.  
   
  The next line of code gets the authentication result that contains the access token you’re looking for. You can send message requests to the web service with this token.  
   
@@ -112,6 +112,6 @@ httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("
 ```  
   
 ### See also  
- [Walkthrough: Register a Dynamics 365 for Customer Engagement app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md)   
+ [Walkthrough: Register a Dynamics 365 Customer Engagement app with Azure Active Directory](walkthrough-register-dynamics-365-app-azure-active-directory.md)   
  [Multi-Factor Authentication documentation](https://azure.microsoft.com/en-us/documentation/services/multi-factor-authentication/)   
  [OAuth 2.0](http://oauth.net/2/)
