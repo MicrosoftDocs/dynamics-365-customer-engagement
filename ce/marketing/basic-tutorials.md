@@ -7,9 +7,6 @@ ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
 ms.assetid: 88affbfc-4a7f-44b9-abd5-0ea6c5a2b857
 author: kamaybac
 ms.author: kamaybac
@@ -35,7 +32,7 @@ The tutorials in this section provide exercises that illustrate the core functio
 
 - [Create a simple customer journey](create-simple-customer-journey.md) that sends a marketing email to all members of a segment and records interactions such as message opens and link clicks.
 
-- [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in your Dynamics 365 database.
+- [Create a landing page](create-landing-page.md) with a form that collects information from new and existing contacts and stores it directly in your organizational database.
 
 - [Create an automated customer journey](create-simple-customer-journey.md) that combines email messaging, landing pages, and multiple paths managed by interactive triggers.
 

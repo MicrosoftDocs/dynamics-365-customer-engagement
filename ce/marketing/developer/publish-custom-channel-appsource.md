@@ -7,8 +7,6 @@ ms.service: crm-online
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
 author: KumarVivek
 ms.author: kvivek

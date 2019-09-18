@@ -6,8 +6,6 @@ ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 23082938-2567-47c4-b2fe-130444aa6479
 author: kamaybac
 ms.author: kamaybac

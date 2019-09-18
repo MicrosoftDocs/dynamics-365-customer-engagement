@@ -9,8 +9,6 @@ ms.service: dynamics-365-marketing
 ms.technology: 
   - marketing
 ms.topic: conceptual
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: A0B01ED6-04C0-4A7C-BD14-05E78A119580
 author: susikka
 ms.author: susikka
