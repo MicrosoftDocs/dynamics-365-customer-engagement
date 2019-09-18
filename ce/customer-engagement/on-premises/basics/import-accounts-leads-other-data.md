@@ -56,7 +56,7 @@ Whether your data is stored in spreadsheets, databases, or other systems, you’
   >  You can add multiple import files to a single .zip file, and then import the .zip file to bring in all the files at once. For example, if several salespeople enter leads from a tradeshow into different spreadsheets, you can gather them into one .zip file for import.  
   > 
   > 
-  >  Your import will fail if you’re using a template that you exported from Dynamics 365 Customer Engagement (on-premises) and then added a new column and are now importing the data back into [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+  >  Your import will fail if you’re using a template that you exported from Dynamics 365 Customer Engagement (on-premises) and then added a new column and are now importing the data back into Customer Engagement (on-premises).  
       
 ## Step 2: Run the Import Data wizard  
  You’ll use the **Import Data** wizard to import the file.  
