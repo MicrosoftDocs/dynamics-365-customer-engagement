@@ -22,7 +22,7 @@ search.app:
 ---
 # Supported types, triggers, entities, and actions for processes
 
-This topic provides information about the supported types and entities for processes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], supported triggers for workflows, entities that are supported for the <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity> activity, and supported actions for workflows.  
+This topic provides information about the supported types and entities for processes in Dynamics 365 Customer Engagement (on-premises), supported triggers for workflows, entities that are supported for the <xref:Microsoft.Xrm.Sdk.Workflow.Activities.CreateEntity> activity, and supported actions for workflows.  
 
 <a name="bkmk_triggersWorkflows"></a>   
 ## Supported triggers for workflows  
@@ -113,7 +113,7 @@ This topic provides information about the supported types and entities for proce
 
 -   [System.ServiceModel.Activities.Presentation.Factories](https://msdn.microsoft.com/library/system.servicemodel.activities.presentation.factories.aspx)  
 
-### [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]  
+### Dynamics 365 Customer Engagement (on-premises)  
 
 |Namespace|Type name|  
 |---------------|---------------|  

@@ -30,7 +30,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 ## Demonstrates  
  This sample shows how to write a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] listener application for a persistent queue endpoint contract.  
   
- The listener waits for a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] message to be posted to the service bus and to be available in the endpoint queue. When a message is available in the queue, the listener reads the message, prints the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] execution context contained in the message to the console, and deletes the message from the queue.  
+ The listener waits for a Dynamics 365 Customer Engagement (on-premises) message to be posted to the service bus and to be available in the endpoint queue. When a message is available in the queue, the listener reads the message, prints the Dynamics 365 Customer Engagement (on-premises) execution context contained in the message to the console, and deletes the message from the queue.  
   
 ## Example  
  [!code-csharp[WindowsAzure#PersistentQueueListener](../snippets/csharp/CRMV8/windowsazure/cs/persistentqueuelistener.cs#persistentqueuelistener)]  

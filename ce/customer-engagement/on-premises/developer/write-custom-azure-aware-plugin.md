@@ -22,14 +22,14 @@ search.app:
 ---
 # Write a custom Azure-aware plug-in
 
-Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
+Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other Dynamics 365 Customer Engagement (on-premises) plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
 <a name="bkmk_design"></a>
 
 ## Plug-in design considerations  
 For a plug-in that executes synchronously, the recommended design is for the plug-in to send a message to [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for the purpose of retrieving information from a listener application or other external service. Use of a two-way or REST contract on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] endpoint allows a data string to be returned to the plug-in.  
   
-It is not recommended that a synchronous plug-in use the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] to update data with an external service. Problems can arise if the external service becomes unavailable or if there is a lot of data to update. Synchronous plug-ins should execute fast and not hold up all logged in users of an organization while a lengthy operation is performed. In addition, if a rollback of the current core operation that invoked the plug-in occurs, any data changes made by the plug-in are undone. This could leave [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and an external service in an unsynchronized state.  
+It is not recommended that a synchronous plug-in use the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] to update data with an external service. Problems can arise if the external service becomes unavailable or if there is a lot of data to update. Synchronous plug-ins should execute fast and not hold up all logged in users of an organization while a lengthy operation is performed. In addition, if a rollback of the current core operation that invoked the plug-in occurs, any data changes made by the plug-in are undone. This could leave Dynamics 365 Customer Engagement (on-premises) and an external service in an unsynchronized state.  
   
 Note that it is possible for synchronous registered plug-ins to post the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
@@ -54,7 +54,7 @@ In your plug-in code, you can update the writeable data in the context before in
 
 There are a few restrictions when you register a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware custom plug-in. The plug-in must be registered to execute in the sandbox. Because of this, the plug-in is limited to calling <xref:Microsoft.Xrm.Sdk.IOrganizationService> methods, [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution methods, or accessing a network using a web client. No other external access, such as access to a local file system, is allowed.  
   
-For a plug-in registered to execute in asynchronous mode, this also means that the order of plug-in execution compared to other asynchronous plug-ins is not guaranteed. In addition, asynchronous plug-ins always execute after the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] core operation.  
+For a plug-in registered to execute in asynchronous mode, this also means that the order of plug-in execution compared to other asynchronous plug-ins is not guaranteed. In addition, asynchronous plug-ins always execute after the Dynamics 365 Customer Engagement (on-premises) core operation.  
   
 <a name="bkmk_failure"></a>
  

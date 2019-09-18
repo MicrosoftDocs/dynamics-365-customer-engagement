@@ -24,7 +24,7 @@ search.app:
 ---
 # Sample: Azure aware custom workflow activity
 
-This sample obtains the data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] for Customer Engagement (on-premises) operation and posts it to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
+This sample obtains the data context from the current Dynamics 365 Customer Engagement (on-premises) for Customer Engagement (on-premises) operation and posts it to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
  This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and Azure Integration](https://code.msdn.microsoft.com/Sample-Dynamics-365-and-6a95df2a)  
 
@@ -32,7 +32,7 @@ This sample obtains the data context from the current [!INCLUDE[pn_dynamics_crm]
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
   
 ## Requirements  
- You must configure [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to connect with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] before registering and executing this sample custom workflow activity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Microsoft Azure Integration with Dynamics 365 Customer Engagement](configure-azure-integration.md).  
+ You must configure Dynamics 365 Customer Engagement (on-premises) to connect with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] before registering and executing this sample custom workflow activity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Microsoft Azure Integration with Dynamics 365 Customer Engagement](configure-azure-integration.md).  
   
  Notice the “Input id” required argument in the code. When you add this activity to a workflow, you must provide the GUID of a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] service endpoint.
   
@@ -41,7 +41,7 @@ This sample obtains the data context from the current [!INCLUDE[pn_dynamics_crm]
 [!INCLUDE[sdk_SeeConnectionHelper](../includes/sdk-seeconnectionhelper.md)]
   
 ## Demonstrates  
- This sample shows how to write a custom workflow activity that can post the data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.  
+ This sample shows how to write a custom workflow activity that can post the data context from the current Dynamics 365 Customer Engagement (on-premises) operation to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. The posting of the data context is done through the <xref:Microsoft.Xrm.Sdk.IServiceEndpointNotificationService.Execute(Microsoft.Xrm.Sdk.EntityReference,Microsoft.Xrm.Sdk.IExecutionContext)> method.  
   
 ## Example  
  [!code-csharp[WindowsAzure#AzureAwareWorkflowActivity](../snippets/csharp/CRMV8/windowsazure/cs/azureawareworkflowactivity.cs#azureawareworkflowactivity)]  

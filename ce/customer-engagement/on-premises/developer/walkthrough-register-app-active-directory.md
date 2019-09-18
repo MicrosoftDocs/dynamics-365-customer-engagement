@@ -26,7 +26,7 @@ search.app:
 ---
 # Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory
 
-This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
+This walkthrough describes how to register a desktop client or mobile application so that it can connect to and authenticate with the Dynamics 365 Customer Engagement (on-premises) server and access the Web services. Once registered, an application can access the Web services using HTTP requests through the server’s SOAP or Web API endpoints.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 
@@ -35,7 +35,7 @@ This walkthrough describes how to register a desktop client or mobile applicatio
   
 - A [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)] with [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
   
-- You must have administrator access to the server hosting the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment services role and the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server.  
+- You must have administrator access to the server hosting the Dynamics 365 Customer Engagement (on-premises) deployment services role and the [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] server.  
   
 - The on-premises server must be configured to use claims authentication.  
   
@@ -77,7 +77,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 1.  Configures the external application by entering the client ID and server address URL in the app as instructed.  
   
-### [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server setup  
+### Dynamics 365 Customer Engagement (on-premises) server setup  
  To configure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server to enable federated claims, follow these steps.  
   
 ##### Configure claims settings  

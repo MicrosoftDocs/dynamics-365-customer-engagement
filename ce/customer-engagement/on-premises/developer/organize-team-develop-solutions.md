@@ -49,7 +49,7 @@ When multiple developers have to work on the same solution, you may want to crea
   
 <a name="BKMK_OneOrgPerDev"></a>   
 ### One organization per developer  
- Each developer can work on their own organization. To check their changes into [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], they must export their solution as an unmanaged solution. The solution from each developer’s organization is then imported into a master solution. Use the master solution to export the managed solution.  
+ Each developer can work on their own organization. To check their changes into Dynamics 365 Customer Engagement (on-premises), they must export their solution as an unmanaged solution. The solution from each developer’s organization is then imported into a master solution. Use the master solution to export the managed solution.  
   
 <a name="BKMK_DeployingSolutionsFromDevThroughToProduction"></a>   
 ## Deploy solutions from development through test and production environments  

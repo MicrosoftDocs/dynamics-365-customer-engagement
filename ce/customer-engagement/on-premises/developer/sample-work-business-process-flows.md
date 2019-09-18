@@ -70,7 +70,7 @@ This sample demonstrates how to programmatically work with business process flow
 
 4. Press F5 or select **Debug** > **Start Debugging**.  
 
-5. If you have not previously run one of the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] managed code samples before, you’ll need to enter information to run the code, otherwise enter the number for one of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] servers you have previously set up.  
+5. If you have not previously run one of the Dynamics 365 Customer Engagement (on-premises) managed code samples before, you’ll need to enter information to run the code, otherwise enter the number for one of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] servers you have previously set up.  
 
 
    |                                 Prompt                                  |                                                                                             Description                                                                                             |
