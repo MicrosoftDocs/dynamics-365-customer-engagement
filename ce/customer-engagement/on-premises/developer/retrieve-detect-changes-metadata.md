@@ -32,7 +32,7 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
 ## Strategies for using metadata  
 
- Metadata lets you create applications that adapt as the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data model changes. Metadata is important for the following types of application:  
+ Metadata lets you create applications that adapt as the Dynamics 365 Customer Engagement (on-premises) data model changes. Metadata is important for the following types of application:  
   
 - UI for client applications  
   

@@ -28,7 +28,7 @@ search.app:
 
 # Sample: Authenticate users with Dynamics 365 Customer Engagement web services
 
-This sample shows how to authenticate a user with any [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+This sample shows how to authenticate a user with any Dynamics 365 Customer Engagement (on-premises) deployment and obtain a reference to the web services. This sample includes support for [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users provisioned in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
  Download the sample: [Authenticate users with Microsoft Dynamics 365 Customer Engagement web services](https://code.msdn.microsoft.com/Authenticate-users-with-707e0375).
 

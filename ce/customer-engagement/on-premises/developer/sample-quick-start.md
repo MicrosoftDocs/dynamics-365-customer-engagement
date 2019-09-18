@@ -38,7 +38,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 
 ## Demonstrates
 
-This sample authenticates the user with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services by using the `ServerConnection` helper class and methods. After obtaining a reference to the Organization web service, the sample performs basic create, update, retrieve, and delete operations on an account entity. The sample also handles common exceptions that can be thrown.
+This sample authenticates the user with the Dynamics 365 Customer Engagement (on-premises) web services by using the `ServerConnection` helper class and methods. After obtaining a reference to the Organization web service, the sample performs basic create, update, retrieve, and delete operations on an account entity. The sample also handles common exceptions that can be thrown.
 
 ## Example
 [!code-csharp[QuickStartCS#CRUDOperations](../snippets/csharp/CRMV8/quickstartcs/cs/crudoperations.cs#crudoperations)]

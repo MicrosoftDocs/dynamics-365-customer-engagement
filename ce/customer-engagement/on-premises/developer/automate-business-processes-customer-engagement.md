@@ -31,11 +31,11 @@ appropriate decisions during the running of the process.
 <!-- TODO: Do you really mean online here?-->  
  In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], a process enables you to create and manage your automated and 
 interactive business processes. While the name has been changed from workflow to *process*, the entity that’s used to implement a process is still called 
-*workflow*. A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] process provides many out-of-the-box components that business users and administrators 
-can use to model their business processes. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] also offers developers a mechanism to extend and customize 
+*workflow*. A Dynamics 365 Customer Engagement (on-premises) process provides many out-of-the-box components that business users and administrators 
+can use to model their business processes. Dynamics 365 Customer Engagement (on-premises) also offers developers a mechanism to extend and customize 
 the standard behavior of processes to achieve the functionality that their business applications require by allowing them to develop custom components.  
   
- A [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] process is based on the 
+ A Dynamics 365 Customer Engagement (on-premises) process is based on the 
 [Windows Workflow Foundation](https://msdn.microsoft.com/netframework/aa663328.aspx) programming model. 
 [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] provides a runtime engine, a framework, a base library of activities, 
 and default implementations of the runtime services. The [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] runtime engine 

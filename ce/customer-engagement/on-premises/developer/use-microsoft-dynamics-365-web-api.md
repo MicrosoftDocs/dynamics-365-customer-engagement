@@ -29,7 +29,7 @@ The Customer Engagement Web API provides a development experience that can be us
   
  Because the Web API is built on open standards, we don’t provide assemblies for a specific developer experience. You can compose HTTP requests for specific operations or use third-party libraries to generate classes for whatever language or platform you want. You can find a list of libraries that support OData version 4.0 at [http://www.odata.org/libraries/](http://www.odata.org/libraries/).  
   
- To compare the Web API with other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services, see [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md). 
+ To compare the Web API with other Dynamics 365 Customer Engagement (on-premises) web services, see [Use Dynamics 365 Customer Engagement web services](use-microsoft-dynamics-365-web-services.md). 
 
   
 ### Related topics  

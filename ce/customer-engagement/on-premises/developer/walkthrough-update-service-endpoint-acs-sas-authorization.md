@@ -22,7 +22,7 @@ search.app:
 ---
 # Walkthrough: Update a service endpoint from ACS to SAS authorization
 
-Shared Access Signature (SAS) is the recommended authorization method for the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration as its use results in improved authorization performance compared to Access Control Service (ACS), and SAS is supported on all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments without any special server configuration. You can update existing service endpoint entity records in a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization from ACS to SAS authorization by using the Plug-in Registration Tool and following these steps.  
+Shared Access Signature (SAS) is the recommended authorization method for the Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] integration as its use results in improved authorization performance compared to Access Control Service (ACS), and SAS is supported on all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployments without any special server configuration. You can update existing service endpoint entity records in a Dynamics 365 Customer Engagement (on-premises) organization from ACS to SAS authorization by using the Plug-in Registration Tool and following these steps.  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)] The Plug-in Registration Tool from the v8.1 or later [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK includes SAS support.  

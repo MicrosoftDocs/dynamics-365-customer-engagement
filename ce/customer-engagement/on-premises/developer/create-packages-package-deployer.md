@@ -21,7 +21,7 @@ search.app:
 ---
 # Create packages for the Dynamics 365 Customer Engagement Package deployer
 
-[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. A “package” can consist of any or all of the following:  
+[!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)] lets administrators       deploy packages on Dynamics 365 Customer Engagement (on-premises) and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] instance. A “package” can consist of any or all of the following:  
 
 - One or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution files.  
 
@@ -33,7 +33,7 @@ search.app:
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)] 
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provide you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
+Dynamics 365 Customer Engagement (on-premises) provide you with a [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] template for creating these packages that can be used with the Package Deployer tool to deploy them to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
 
 <a name="Prereq"></a>   
 ## Prerequisites  
