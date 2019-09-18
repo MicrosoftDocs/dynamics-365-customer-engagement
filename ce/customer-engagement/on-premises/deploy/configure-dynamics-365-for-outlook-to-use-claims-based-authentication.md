@@ -48,7 +48,7 @@ In an environment that supports claims-based authentication, a client (such as [
   
     5.  Close the Registry Editor.  
   
-    6.  Configure [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for Outlook](../outlook-addin/user-guide/set-up.md) 
+    6.  Configure [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up Dynamics 365 for Outlook](../../../outlook-addin/user-guide/set-up.md) 
   
  You should now be able to connect [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] to [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] by using claims-based authentication.  
   
@@ -62,6 +62,6 @@ CLASS MACHINECATEGORY "Microsoft CRM"    KEYNAME "Software\Policies\Microsoft\MS
  For more information, see [Administrative Template File Format](http://go.microsoft.com/fwlink/p/?LinkID=182923).  
   
 ## See Also  
- [Install Dynamics 365 for Outlook](../outlook-addin/admin-guide/install.md)   </br>
+ [Install Dynamics 365 for Outlook](../../../outlook-addin/admin-guide/install.md)   </br>
  [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)
 

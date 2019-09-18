@@ -37,7 +37,7 @@ ms.author: matp
   
  Select one of the following solutions:  
   
--   Verify that you have a supported version of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] installed. More information: [SQL Server editions](../on-premises/software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions)     
+-   Verify that you have a supported version of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] installed. More information: [SQL Server editions](../deploy/software-requirements-for-microsoft-dynamics-365-server.md#sql-server-editions)     
   
 -   If you are running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] Developer Edition, you must enable the Named Pipes protocol. You can enable Named Pipes in SQL Server Configuration Manager. For more information about how to do this, see the SQL Server Configuration Manager Help.  
   

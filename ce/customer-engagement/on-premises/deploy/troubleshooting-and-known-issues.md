@@ -26,7 +26,7 @@ Learn about creating trace files to troubleshoot error messages or other issues 
 <!-- -   Using the [!INCLUDE[scom_Sys_Cent_Mon_Pack_short](../includes/scom-sys-cent-mon-pack-short.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to administer the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] application in [!INCLUDE[scom_MS_Sys_Cent_Op_Mgr](../includes/scom-ms-sys-cent-op-mgr.md)].  -->
   
 ## See Also  
- [Known issues for Dynamics 365 for tablets and phones](../mobile-app/troubleshooting-things-know-about-phones-tablets.md)   </br>
+ [Known issues for Dynamics 365 for tablets and phones](../../../mobile-app/troubleshooting-things-know-about-phones-tablets.md)   </br>
  [Operating Dynamics 365 for Customer Engagement](operating-microsoft-dynamics-365.md)   </br>
  [Dynamics 365 for Customer Engagement PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
 
