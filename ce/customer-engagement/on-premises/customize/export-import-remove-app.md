@@ -1,6 +1,6 @@
 ---
-title: "Export, import, or remove a model-driven app | MicrosoftDocs"
-description: "Learn you can export, import, or remove a model-driven app"
+title: "Export, import, or remove a custom business app | MicrosoftDocs"
+description: "Learn you can export, import, or remove a custom business app"
 keywords: 
 ms.date: 02/20/2019
 ms.service: crm-online

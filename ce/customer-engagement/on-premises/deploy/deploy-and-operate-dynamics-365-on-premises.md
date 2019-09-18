@@ -22,7 +22,7 @@ manager: kvivek
   
  **Upgrade information:** If you’re an existing customer interested in upgrading your deployment, start with the [Plan your upgrade to Dynamics 365 Server](plan-your-upgrade-to-microsoft-dynamics-365-server.md) topic.  
   
- **Administration and customization information:**  If you're an administrator or customizer, see the [Administrator Guide for Dynamics 365 for Customer Engagement](../admin/admin-guide.md).  
+ **Administration and customization information:**  If you're an administrator or customizer, see the [Administrator Guide for Dynamics 365 for Customer Engagement](../admin/overview.md).  
   
  **Reporting and analytics information:** If you're a report writer or other analytics professional, see the [Reporting and Analytics Guide for Dynamics 365 for Customer Engagement](../analytics/reporting-analytics-with-dynamics-365.md).  
 
