@@ -34,15 +34,15 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
    ![Unified Service Desk client login screen](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client login screen")  
 
-   - For [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] select **Office 365**.  
+   - For the Common Data Service platform select **Office 365**.  
 
-   - For on-premises deployments, select **On-premises** and choose from the following **Authentication Sources**.  
+   - For Customer Engagement (on-premises) deployments, select **On-premises** and choose from the following **Authentication Sources**.  
 
-     - **Active Directory**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] internally through your network and do not connect to the Common Data Service platform through the Internet.  
+     - **Active Directory**. Choose this authentication source if you are connecting to Customer Engagement (on-premises) internally through your network and do not connect to the Common Data Service platform through the Internet.  
 
-     - **Internet-facing Deployment (IFD)**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] through the Internet.  
+     - **Internet-facing Deployment (IFD)**. Choose this authentication source if you are connecting to Customer Engagement (on-premises) through the Internet.  
 
-     - **OAuth**. Choose this authentication source if you are connecting to [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] by using a security token service (STS) that is not [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] but supports the OAuth open framework.  
+     - **OAuth**. Choose this authentication source if you are connecting to Customer Engagement (on-premises) by using a security token service (STS) that is not [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] but supports the OAuth open framework.  
 
    - If you have multiple organizations, and want to select the organization where [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is deployed, select the **Display list of available organizations** check box, and then select **Login**.  
 
@@ -85,17 +85,15 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 
 ### Change SingleSignOnThreshold value
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Unified Service Desk Administrator app.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+2. Select **Options**.  
 
-3. Choose **Options**.  
+3. Select **+ New** in the **Active UII Options** page.
 
-4. On the **Active UII Options** page, select **+ New**.
+4.  Type **SingleSignOnThreshold** for the **Name** field, and type time in milliseconds for the **Value** field.
 
-5. On the new page, enter **SingleSignOnThreshold** for the **Global Option** field and enter time in milliseconds for the **Value** field.
-
-7. Select **Save**.
+5. Select **Save**.
 
 After you set up the above mentioned UII options, the SSO feature is enabled. While signing in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, you've to enter the credentials only once.
 
@@ -106,17 +104,15 @@ Again, when you want to enable the SSO feature, set the value as **Chrome**.
 
 To enable/disable the SSO feature, follow the steps:
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Unified Service Desk Administrator app.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+2. Select **Options**.  
 
-3. Choose **Options**.  
+3. Select **+ New** in the **Active UII Options** page.
 
-4. On the **Active UII Options** page, select **+ New**.
+4. Type **SingleSignOnEnabledBrowsers** for the **Name** field, and type **Chrome** for the **Value** field.
 
-5. On the new page, enter **SingleSignOnEnabledBrowsers** for the **Global Option** field and enter **Chrome** for the **Value** field.
-
-7. Select **Save**.
+5. Select **Save**.
 
 ::: moniker-end
 
@@ -179,7 +175,7 @@ To enable/disable the SSO feature, follow the steps:
 
 - The sign-in dialog box shows the values specified in the UnifiedServiceDesk.exe.config file, and also creates the Default_USD.config file in the `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk` directory to store the connection information (except user name and password; this is stored in [!INCLUDE[pn_Windows_Credential_Manager](../../includes/pn-windows-credential-manager.md)]). Thereafter, the client application uses the Default_USD.config file to display the sign-in information or to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
-- For a Customer Engagement (on-premises) installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you have configured to automatically sign in the user without displaying the sign-in dialog box (`<add key="UseDefaultCreds" value="True" />`), the sign-in dialog box is not displayed, but the Default_USD.config file is created in the `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk` directory to store the connection information (except user name and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+- For a Customer Engagement (on-premises) installation with [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] authentication, if you have configured to automatically sign in the user without displaying the sign-in dialog box (`<add key="UseDefaultCreds" value="True" />`), the sign-in dialog box is not displayed, but the Default_USD.config file is created in the `c:\Users\<USER_NAME>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk` directory to store the connection information (except user name and password). Thereafter, the client application uses the Default_USD.config file to automatically sign in to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
   If you need to modify the default sign-in information, you must repeat steps 1-6.  
 

@@ -5,7 +5,6 @@ ms.custom:
   - dyn365-USD, dyn365-admin
 ms.date: 04/10/2019
 ms.service: dynamics-365-customerservice
-ms.tgt_pltfrm: 
 ms.topic: article
 ms.assetid: A988412D-5A59-42BC-B608-0FB4E7CA7E17
 author: kabala123
@@ -53,33 +52,37 @@ Your organization uses **X**, **Y**, and **Z** configurations for chat, message,
 > [!div class=mx-imgBorder]
 > ![In the new option page, add EnableConfigurationCaching for name and enter value as true](../media/configuration-cache-version.GIF "EnableConfigurationCaching UII option with value as true")
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Options**.  
+3. Select **Unified Service Desk Administrator**.
 
-4. On the **Active UII Options** page, select **New**.
+4. Select **Options** under **Advance Settings** in the site map.
 
-5. On the **New Option** page, select **Others** for **Global Option**, enter **EnableConfigurationCaching** in the Name box, and enter **true** in the value box.
+5. Select **New** on the **Active UII Options** page.
 
-6. Select **Save**.
+6. Select **Others** for **Global Option**, enter **EnableConfigurationCaching** in the Name box, and enter **true** in the value box.
+
+7. Select **Save**.
 
 Unified Service Desk activates the client caching for configurations.
 
 ## Specify value for the Configuration Cache Version option
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+2. Select the down arrow next to Dynamics 365.
 
-3. Choose **Configuration**. 
+3. Select **Unified Service Desk Administrator**.
 
-4. Select an existing configuration from the list or create a new configuration.
+4. Select **Configuration** under **Advance Settings** in the site map.
 
-5. On the **Configuration** page, in the text box of the **Configuration Cache Version** field, enter an alphanumeric value as the cache key. For example, the alphanumeric value can be updated as **XY12**.
+5. Select an existing configuration from the list or create a new configuration.
 
-6. Select **Save**.
+6. Enter an alphanumeric value as the cache key in the text box of the **Configuration Cache Version** field on the **Configuration** page. For example, the alphanumeric value can be updated as **XY12**.
+
+7. Select **Save**.
 
 ## Client caching store location
 When enabled, client caching stores its files in a compressed and encrypted format in the user’s roaming directory: `%appData%\Microsoft\Microsoft Dynamics 365 Unified Service Desk`

@@ -91,13 +91,11 @@ To change the value, configure the **SingleSignOnThreshold** UII option and ente
 
 ### Change SingleSignOnThreshold value
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Unified Service Desk Administrator app.
 
-2. [!INCLUDE[proc_settings_usd](../../../includes/proc-settings-usd.md)]  
+2. Select **Options**.  
 
-3. Choose **Options**.  
-
-4. On the **Active UII Options** page, select **+ New**.
+3. On the **Active UII Options** page, select **+ New**.
 
 5. On the new page, enter **SingleSignOnThreshold** for the **Global Option** field and enter time in milliseconds for the **Value** field.
 
@@ -112,17 +110,15 @@ Again, when you want to enable the SSO feature, set the value as **Chrome**.
 
 To enable/disable the SSO feature, follow the steps:
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Unified Service Desk Administrator app.
 
-2. [!INCLUDE[proc_settings_usd](../../../includes/proc-settings-usd.md)]  
+2. Select **Options**.  
 
-3. Choose **Options**.  
+3. On the **Active UII Options** page, select **+ New**.
 
-4. On the **Active UII Options** page, select **+ New**.
+4. On the new page, enter **SingleSignOnEnabledBrowsers** for the **Global Option** field and enter **Chrome** for the **Value** field.
 
-5. On the new page, enter **SingleSignOnEnabledBrowsers** for the **Global Option** field and enter **Chrome** for the **Value** field.
-
-7. Select **Save**.
+5. Select **Save**.
 
 ::: moniker-end
 

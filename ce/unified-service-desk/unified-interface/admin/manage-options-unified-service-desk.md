@@ -8,12 +8,6 @@ ms.service:
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: be4effc4-a2a8-414b-87a1-a8b303160bac
 author: kabala123
 ms.author: kabala
@@ -36,17 +30,13 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../../includes/
 ## Manage a [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] option  
  To manage the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] options:  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Unified Service Desk Administrator app. 
 
-2. Select the down arrow next to Dynamics 365.
+2. Select **Options** under **Advance Settings** in the sitemap.
 
-3. Select **Unified Service Desk Administrator**. 
+3. Select **New** in the **Active UII Options** page.
 
-4. Select **Options** under **Advance Settings** in the sitemap.
-
-5. Select **New** in the **Active UII Options** page.
-
-6. Type the option name and corresponding value on the **New Option** page. Some options are available in the **Global Options** list and some options aren't displayed. To add an option that is not listed, choose **Others** for the **Global Option** field, and enter the option. List of options that aren't displayed are described in this table.
+4. Type the option name and corresponding value on the **New Option** page. Some options are available in the **Global Options** list and some options aren't displayed. To add an option that is not listed, choose **Others** for the **Global Option** field, and enter the option. List of options that aren't displayed are described in this table.
 
    |           Option Name            |  Value and Description  |
    |----------------------------------|-------------------------|

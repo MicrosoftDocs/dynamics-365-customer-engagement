@@ -21,7 +21,7 @@ search.app:
 
 # How to migrate Unified Service Desk configurations from Web Client to Unified Interface
 
-The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from Web Client to  Unified Interface is a three-step process.
+The migration of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configurations from Web Client to  Unified Interface is a three-step process.
 
 - **Step 1:** Fetch and migrate the configuration elements to a **USD_UI_Configurations** folder using the Web Client - Unified Interface Migration Assistant.
 
@@ -33,7 +33,7 @@ This diagram illustrates the flow of the migration:
 > [!div class="mx-imgBorder"]
 > ![Migration Steps](../media/migration-steps-web-client-unified-interface-migration-assistant.PNG "Migration Steps") 
 
-1. **Web Client** </br></br> The Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations.
+1. **Web Client** </br></br> The Web Client is the instance from where you want to migrate your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configurations. 
 
 2. **Web Client - Unified Interface Migration Assistant** </br></br> The tool to fetch and migrate the Web Client configurations to **USD_UI_Configurations** folder, which contains the **Data** and **WebResources** zip folders. If you have **RunXrmCommand** actions in Web Client configurations, the migration assistant migrates the **RunXRMCommand** actions as a web resource and you can find them in the **USDWebResources** folder under the **USD_UI_Configurations** folder.
 
@@ -121,9 +121,11 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 
 1. Sign in to the Common Data Service platform.
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. Select the down arrow next to Dynamics 365.
 
-3. Select configurations that you migrated from the Web Client.</br>
+3. Select **Unified Service Desk Administrator**.
+
+4. Select configurations that you migrated from the Web Client.</br>
 For example, the selected configuration elements are as follows:
 
   |Configuration Name|Description|
@@ -131,16 +133,16 @@ For example, the selected configuration elements are as follows:
   |KB Article| CRM Page|
   |KB Search| KM Control|
 
-  </br>![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
+  ![Select configurations](../media/usd-migration-assistant-selected-configurations.PNG "Selected configurations")</br>
  You must select **Hosted Controls** to verify.</br></br>
-You can see configurations are migrated to Unified Interface specific elements.
+ You can see configurations are migrated to Unified Interface specific elements.
 
   |Configuration Name|Description|
   |-------|-------|
   |KB Article| Unified Interface Page|
   |KB Search| Unified Interface KM Control|
   
-  </br>![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
+  ![Verifying the configuration migration](../media/usd-configuration-migration-verification.PNG "Verifying the configuration migration")
 
 ## See also
 

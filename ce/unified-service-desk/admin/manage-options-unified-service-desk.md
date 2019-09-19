@@ -27,15 +27,13 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 ## Manage a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] option  
  To manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] options:  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Unified Service Desk Administrator app. 
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
+2. Select **Options** under **Advance Settings** in the sitemap.
 
-3. Choose **Options**.  
+3. Select **New** in the **Active UII Options** page.
 
-4. On the **Active UII Options** page, select **New**.
-
-5. On the **New Option** page, type the option name and corresponding value. Some options are available in the **Global Options** list. Additional global options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that aren't displayed in the list and must be entered by the administrator are described in this table.  
+4. Type the option name and corresponding value on the **New Option** page. Some options are available in the **Global Options** list and some options aren't displayed. To add an option that is not listed, choose **Others** for the **Global Option** field, and enter the option. List of options that aren't displayed are described in this table.  
 
 ::: moniker range="=dynamics-usd-3"
 
@@ -154,7 +152,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 
 ::: moniker-end
 
-6. Select **Save**.
+5. Select **Save**.
 
 > [!NOTE]
 >  Apart from these, the **Options** setting is also used to configure auditing and client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md) and [Configure client caching in Unified Service Desk](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
