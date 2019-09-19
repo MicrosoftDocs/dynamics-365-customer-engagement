@@ -1,11 +1,13 @@
 ---
-title: "Learn the basics of Dynamics 365 for Sales Professional | MicrosoftDocs"
+title: "Learn the basics of Dynamics 365 Sales Professional | MicrosoftDocs"
 description: "Get started with the Sales Professional app quickly by learning about the user interface and its components."
 keywords: ""
-ms.date: 04/05/2019
-ms.service: dynamics-365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 95278663-cbc1-4c6b-b694-ac345bd7283b
 author: shubhadaj
 ms.author: shujoshi
@@ -13,10 +15,9 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.custom: dyn365-sales
 ---
 
-# Learn the basics of Dynamics 365 for Sales Professional
+# Learn the basics of Dynamics 365 Sales Professional
 
 Start here to onboard quickly and learn about the Sales app and its user interface.
 
@@ -31,7 +32,7 @@ Start here to onboard quickly and learn about the Sales app and its user interfa
 
 2.  On the Dynamics 365 home page, select **Sales Professional**.
 
-    ![Tile for Dynamics 365 for Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 for Sales Professional")
+    ![Tile for Dynamics 365 Sales Professional](media/sales-professional-app-tile.png "Tile for Dynamics 365 Sales Professional")
 
 ## Find your way around the app
 
@@ -72,7 +73,7 @@ With Quick Create, you need to complete only a few fields. Later, when you have 
 2.  Fill in the fields, and then select **Save**.
 
 
-## Business processes in Dynamics 365 for Sales Professional
+## Business processes in Dynamics 365 Sales Professional
 
 Business processes help everyone follow best practices, even when handling situations that don’t occur very often. You complete a step by entering data or
 marking the step completed in the process bar at the top of the screen. When all the steps are done, you can move on to the next stage.
@@ -88,5 +89,5 @@ The following ready-to-use business processes are available that you can use as 
 
 ### See also
 
-[Overview of Dynamics 365 for Sales Professional](sales-professional-overview.md)
+[Overview of Dynamics 365 Sales Professional](sales-professional-overview.md)
 

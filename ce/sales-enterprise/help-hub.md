@@ -1,12 +1,13 @@
 ---
-title: "Documentation resources for Dynamics 365 for Sales | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 for Sales."
+title: "Documentation resources for Dynamics 365 Sales | Microsoft Docs"
+description: "A starting point for browsing help content for Dynamics 365 Sales."
 keywords: "sales;help"
-ms.date: 04/08/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: cb9ac6db-6e97-4d65-9622-cf7061db988d
 author: shubhadaj
 ms.author: shujoshi
@@ -14,15 +15,9 @@ manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-searchScope:
-  - D365-App-msdynce_saleshub
-  - D365-Entity-*
-  - D365-UI-*
-  - Customer Engagement
-ms.search.scope: D365-App-msdynce_saleshub, D365-Entity-*, D365-UI-*, Customer Engagement
 ---
 
-# Dynamics 365 for Sales Help & Training
+# Dynamics 365 Sales Help & Training
 
 <table>
 
@@ -30,7 +25,7 @@ ms.search.scope: D365-App-msdynce_saleshub, D365-Entity-*, D365-UI-*, Customer E
 
 <h2>Get started</h2>
 
-<li><a href="overview.md" data-raw-source="[Dynamics 365 for Sales Overview](overview.md)">Dynamics 365 for Sales Overview</a></li>
+<li><a href="overview.md" data-raw-source="[Dynamics 365 Sales Overview](overview.md)">Dynamics 365 Sales Overview</a></li>
 <li><a href="user-guide-learn-basics.md" data-raw-source="[Learn the basics](user-guide-learn-basics.md)">Learn the basics</a></li>
 <li><a href="use-sales-hub-on-dynamics-365-mobile.md" data-raw-source="[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)">Use Sales Hub on Dynamics 365 for phones and tablets</a></li>
 <li><a href="../sales-enterprise/embedded-intelligence.md" data-raw-source="[Embedded intelligence Overview](../sales-enterprise/embedded-intelligence.md)">Embedded intelligence Overview</a></li>
@@ -69,7 +64,7 @@ ms.search.scope: D365-App-msdynce_saleshub, D365-Entity-*, D365-UI-*, Customer E
 
 <tr><td>
 <h2>Microsoft Learn resources</h2>
-<li><a href="https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 for Sales](https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 for Sales</a></li>
+<li><a href="https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/" data-raw-source="[Working with Dynamics 365 Sales](https://docs.microsoft.com/en-us/learn/paths/working-with-dynamics-365-sales/)">Working with Dynamics 365 Sales</a></li>
 
 
 </td><td>
@@ -108,7 +103,7 @@ ms.search.scope: D365-App-msdynce_saleshub, D365-Entity-*, D365-UI-*, Customer E
 <tr><td>
 
 <h2>GDPR</h2>
-<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 for Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 for Sales &amp; GDPR</a></li>
+<li><a href="../sales-enterprise/dynamics-365-sales-gdpr.md" data-raw-source="[Dynamics 365 Sales &amp; GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)">Dynamics 365 Sales &amp; GDPR</a></li>
 
 
 </td>
