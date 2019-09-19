@@ -33,7 +33,7 @@ Use the settings on this page to configure system-level settings for the sales a
 
    OR
 
-   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Product Catalog Settings**.
+   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../../../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../../../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Product Catalog Settings**.
 
   
   |                                            Settings                                             |                                                                                                                                                                                             Description                                                                                                                                                                                              |

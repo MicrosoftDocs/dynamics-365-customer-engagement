@@ -29,7 +29,7 @@ Dynamics 365 Customer Engagement (on-premises) uses online synchronization filte
   
 ## Create or modify online synchronization filters  
   
-1. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../../../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**.  ![priv-user.gif](../../../../../outlook-app/media/priv-user.gif)
+1. In the web app, in the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../../../outlook-app/media/priv-user.gif "User profile Settings button") > **Options**. 
   
 2. In the **Set Personal Options** dialog box, click the **Synchronization** tab.  
   
