@@ -1,5 +1,5 @@
 ---
-title: "Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange | MicrosoftDocs"
+title: "Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Choose the records to synchronize between Dynamics 365 for Customer Engagement apps and Outlook or Exchange
+# Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange
 [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] uses online synchronization filters to determine which records to synchronize between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] (using [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)]), or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] (using [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]). You can modify the existing online synchronization filters or create new filters to synchronize certain types of records. You can also delete, deactivate, or activate filters. You use the same set of filters (accessed through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]) whether you’re synchronizing through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)].  
   
  Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], whether the user is on the recipient list or not. This is true for all email processing methods: [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], or [!INCLUDE[pn_emailrouter](../../includes/pn-emailrouter.md)].  
@@ -41,7 +41,7 @@ search.app:
   
    - In the web app: In the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../media/priv-user.gif "User profile Settings button") > **Options**.  
   
-   - In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]: Click **File** > **Dynamics 365 for Customer Engagement apps** > **Options**.  
+   - In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]: Click **File** > **Dynamics 365 apps** > **Options**.  
   
 2. In the **Set Personal Options** dialog box, click the **Synchronize** tab.  
   
@@ -63,7 +63,7 @@ search.app:
 ## Create or modify filter criteria  
  You use a criteria row to create or modify criteria in an offline synchronization filter. Each criteria row contains three values: the field to use in the filter (for example, **City**), an operator (for example, **Equals** or **Contains**), and the value to filter on (for example, **WA**).  
   
- ![Sync or offline filters criteria grid in Dynamics 365 for Customer Engagement apps](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365 for Customer Engagement apps")  
+ ![Sync or offline filters criteria grid in Dynamics 365 apps](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365 apps")  
   
 ### Add a criteria row  
   

@@ -1,5 +1,5 @@
 ---
-title: "Do your Dynamics 365 for Customer Engagement apps work in Outlook using Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2013
   - Dynamics CRM 2015
   - Dynamics CRM 2016
@@ -27,7 +27,7 @@ search.app:
   - D365CE
   - D365Outlook
 ---
-# Do your Dynamics 365 for Customer Engagement apps work in Outlook using Dynamics 365 for Outlook
+# Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook
 If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] client provided by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
 
 <a name="whatoutlookoffers"></a>   
@@ -53,7 +53,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
 
  **Navigation pane**  
 
- You’ll see a folder for your organization in the navigation pane on the left side of the screen. Under your organization name, you’ll see a list of Dynamics 365 for Customer Engagement apps folders. Use these folders to navigate to your area and open different record types.  
+ You’ll see a folder for your organization in the navigation pane on the left side of the screen. Under your organization name, you’ll see a list of Dynamics 365 apps folders. Use these folders to navigate to your area and open different record types.  
 
  ![Dynamics 365 for Outlook navigation pane](../media/crm-outlook-navigation-pane.png "Dynamics 365 for Outlook navigation pane")  
 
@@ -63,7 +63,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
 
  You access commands in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] through the ribbon. The ribbon displays different buttons and features depending on context. For example, if you view a list of opportunities, the ribbon displays buttons that apply to opportunities. For appointments, contacts, and tasks, you’ll see a special **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** section on the ribbon.  
 
- ![Dynamics 365 for Customer Engagement apps highlighted on ribbon in Dynamics 365 for Outlook](../media/crm-outlook-ribbon.png "Dynamics 365 for Customer Engagement apps highlighted on ribbon in Dynamics 365 for Outlook")  
+ ![Dynamics 365 apps highlighted on ribbon in Dynamics 365 for Outlook](../media/crm-outlook-ribbon.png "Dynamics 365 apps highlighted on ribbon in Dynamics 365 for Outlook")  
 
  **Lists, views, and the reading pane**  
 
@@ -94,4 +94,4 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
  [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)   
  [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   

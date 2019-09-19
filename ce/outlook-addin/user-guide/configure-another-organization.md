@@ -8,8 +8,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
-  - Dynamics 365 for Customer Engagement apps (on-premises)
+  - Dynamics 365 apps 
+  - Dynamics 365 apps (on-premises)
   - Dynamics CRM 2015
   - Dynamics CRM 2016
   - Dynamics CRM Online
@@ -37,11 +37,11 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
   
    - In earlier versions of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], choose **Start**, point to **All Programs**, choose **[!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)]** or **[!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)]**> **[!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)]**.  
   
-3. In the **Microsoft Dynamics CRM 2015 for Outlook Configuration Wizard** or **Microsoft Dynamics 365 for Customer Engagement apps 2016 for Outlook Configuration Wizard** dialog box, choose the **Add** button to add a new organization.  
+3. In the **Microsoft Dynamics CRM 2015 for Outlook Configuration Wizard** or **Microsoft Dynamics 365 apps 2016 for Outlook Configuration Wizard** dialog box, choose the **Add** button to add a new organization.  
   
     You’ll see the following (or similar) dialog box:  
   
-    ![Outlook Configuration Wizard dialog box in Dynamics 365 for Customer Engagement apps](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365 for Customer Engagement apps")  
+    ![Outlook Configuration Wizard dialog box in Dynamics 365 apps](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365 apps")  
   
 4. Do one of the following:  
   
@@ -67,6 +67,6 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
 10. In the wizard, choose **Close**.  
   
 ### See also  
- [Do your Dynamics 365 for Customer Engagement apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 for Customer Engagement apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 for Customer Engagement apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)
+ [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+ [Set personal options that affect tracking and synchronization between Dynamics 365 apps and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

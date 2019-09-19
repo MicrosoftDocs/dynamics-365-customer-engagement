@@ -60,6 +60,5 @@ If it turns out that you can’t see or access something described in this guide
 [Find your way around Dynamics 365 Customer Engagement (on-premises)](../basics/find-your-way-around-dynamics-365-customer-engagement-enterprise.md)<br/>
 [Administrator Guide](../admin/overview.md)<br />
 [Customization Guide](../customize/overview.md)<br />
-[Reporting and Analytics Guide](../analytics/overview.md) <br />
 [Dynamics 365 Customer Engagement (on-premises) Help](../overview.md)   
 
