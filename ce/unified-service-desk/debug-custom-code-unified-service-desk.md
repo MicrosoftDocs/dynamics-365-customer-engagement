@@ -23,7 +23,7 @@ search.app:
 # Debug your custom code for Unified Service Desk
 Using custom code for extending [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] involves compiling your custom code into an assembly (DLL file), and then distributing the assembly to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory on each client computer.  
   
- Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] requires access to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps instance with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] solutions deployed.  
+ Debugging your custom code for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] requires access to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and the Common Data Service platform instance with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] solutions deployed.  
   
  To effectively debug your custom code, set your Visual Studio project properties to:  
   

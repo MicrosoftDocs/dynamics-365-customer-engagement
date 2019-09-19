@@ -21,7 +21,7 @@ search.app:
   - D365USD
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
-In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), you learned how to display your customer record stored in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, the experience would be better if you can identify each session with a unique name along with some key overview information about the record in a session.  
+In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), you learned how to display your customer record stored in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, the experience would be better if you can identify each session with a unique name along with some key overview information about the record in a session.  
   
  This walkthrough demonstrates how to dynamically display session name and session overview information to enhance the customer-interaction experience for your agents. This walkthrough is built on top of the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).  
   
@@ -56,7 +56,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Cu
 ## Step 1: Create a Session Lines type of hosted control to display session overview information  
  To display session overview information in your agent application, create an instance of a **Session Lines** type of hosted control in your agent application.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -80,7 +80,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Cu
 ## Step 2: Define session name information  
  To dynamically display the session tab name, you’ll configure a session lines rule using the replacement parameters.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -106,7 +106,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Cu
 ## Step 3: Define session overview information  
  Define the session overview information to display in the **Session Lines** type of hosted control that you configured in step 1.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -171,7 +171,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Cu
   
  To add a control to the configuration:  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   

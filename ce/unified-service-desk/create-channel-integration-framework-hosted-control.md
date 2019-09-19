@@ -7,12 +7,6 @@ ms.service:
 ms.custom: 
   - dyn365-USD, dyn365-admin
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 496078B6-BD3F-49A8-BF26-30607250BFDB
 author: kabala123
 ms.author: kabala
@@ -31,7 +25,7 @@ The topic demonstrates how to create Channel Integration Framework type of hoste
 
 ## Create hosted control
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. On the nav bar, choose the down arrow (v) next to **Dynamics 365**.
 

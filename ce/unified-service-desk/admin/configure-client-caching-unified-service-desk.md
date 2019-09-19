@@ -102,7 +102,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
  At times, it may be necessary to force a cache reset for a specific user to clear and reset the cache store. You can do this in two ways: From the Common Data Service platform server or by using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application on the user’s computer.  
   
 <a name="UsingCRMServer"></a>   
-### Using the Dynamics 365 Customer Engagement server  
+### Using the Common Data Service platform server  
   
 1. Sign in to the Unified Service Desk Administrator app.  
   
@@ -172,7 +172,7 @@ Client caching enables you to reduce the amount of bandwidth required at the sta
     | Action | Specify **ResetLocalCache** |
   
        > [!NOTE]
-       > **Dynamics 365 Customer Engagement apps Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)
+       > **CRM Global Manager** is the name of the hosted control in the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] applications. If you have named your Global Manager hosted control something else, select it instead. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)
   
 12. Select **Save** and then close the action call.  
   

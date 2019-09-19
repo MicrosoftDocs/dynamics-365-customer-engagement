@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 574034ed-82c1-4db4-ac64-786591397e74
-caps.latest.revision: 5
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -33,7 +26,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
 <a name="SessionName"></a>   
 ## Configure the session tab name format  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -65,7 +58,7 @@ The session information is displayed under tabs in [!INCLUDE[pn_unified_service_
 <a name="SessionOverview"></a>   
 ## Define session overview information  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   

@@ -1,22 +1,15 @@
 ---
 title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
-description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Microsoft Dynamics 365 Customer Engagement apps Web Client package  are JAWS compliant."
+description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Web Client package  are JAWS compliant."
 ms.custom: 
   - dyn365-a11y
   - dyn365-USD
-keywords: Dynamics 365 Customer Engagement apps Unified Service Desk; Unified Service Desk; JAWS Screen Reader; Windows Screen Reader
 ms.date: 08/23/2017
 ms.reviewer: 
 ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: D9FE67A6-2E02-48DF-B9C2-4250433D72BE
 author: kabala123
 ms.author: kabala
@@ -32,7 +25,7 @@ search.app:
 
 [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] (Job Access With Speech) is a computer screen reader program for Microsoft Windows that allows blind and visually impaired users to read the screen either with a text-to-speech output or by a refreshable Braille display.
 
-[!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] supports [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] version 18 for Windows screen reader for speech output in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client. All the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] controls and custom controls that are part of the Microsoft Dynamics 365 Customer Engagement apps Web Client package  are JAWS compliant. For the custom controls that you develop as part of the solution package, you need to define the necessary properties to make the controls JAWS compliant.
+[!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] supports [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] version 18 for Windows screen reader for speech output in the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] client. All the [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)] controls and custom controls that are part of the Web Client package  are JAWS compliant. For the custom controls that you develop as part of the solution package, you need to define the necessary properties to make the controls JAWS compliant.
 
 ## JAWS support for focusable controls (Interactive controls)
 You can configure [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader support for controls that are focusable (Interactive controls), such as buttons, list box, menu, radio button, and check box.

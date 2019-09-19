@@ -122,7 +122,7 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 ### Define the custom hosted control and action on the Dynamics 365 Customer Engagement server  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement**, and select **Settings**.  
   

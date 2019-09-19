@@ -147,7 +147,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 ## Step 2: Define the hosted control in Unified Service Desk  
  To host the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Windows Forms hosted control in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you’ll have to define and configure it.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
   
@@ -185,7 +185,7 @@ This walkthrough demonstrates how you can build a [Windows Forms](https://msdn.m
 > [!IMPORTANT]
 >  If you have already added the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions as part of step 3 in [Walkthrough: Create a UII WPF Hosted Control](../unified-service-desk/walkthrough-create-uii-wpf-hosted-control.md), you don’t have to perform this step again. You can proceed to the next section for testing your hosted control.  
   
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
   
 2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement** > **Settings** > **Unified Service Desk**.  
   

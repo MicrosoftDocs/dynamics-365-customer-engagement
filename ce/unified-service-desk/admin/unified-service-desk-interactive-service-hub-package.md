@@ -50,7 +50,7 @@ search.app:
   
  Here’s what you’ll see when you install the interactive service hub package:  
   
-- **Dashboard** tab: Opens the Dynamics 365 Customer Engagement apps customer service dashboard.  
+- **Dashboard** tab: Opens the customer service dashboard.  
   
 - **My Work** tab: Shows a list of all active cases assigned to a service rep.  
   

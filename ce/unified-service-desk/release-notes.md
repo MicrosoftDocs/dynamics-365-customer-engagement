@@ -57,7 +57,7 @@ You must remove the favorites bar from the Internet Explorer, and then end all t
 
 If you don't want to remove the favorites bar for the Internet Explorer, add the **KillUSDIEProcessesOnExit** UII option and set the value to true. Setting the UII option ends all the IE Process running in the background at the time of exiting Unified Service Desk client application. When the launch Unified Service Desk client application, you might not see the error.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Choose **Options**.
 4. Select **New** on the **Active UII Options** page.
@@ -236,7 +236,7 @@ Now, if you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-s
 
 Remove the **Custom Styles** XAML from the **About Tool Bar** and **Main** toolbar so that toolbar picks the **Air** theme colors.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 
 2. Go to **Settings** > **My Apps** > **Unified Service Desk Administrator** app.<br>
 
@@ -452,7 +452,7 @@ Configure **Show Outside** action call to show the webpage in an **IE process** 
 
 In this step, you will create an action call to show the webpage.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Clikc **Action Calls**.
 4. Click **+ New**.
@@ -472,7 +472,7 @@ In this step, you will create an action call to show the webpage.
 
 In this step you will create a navigation rule and set the order before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.
+1. Sign in to the Common Data Service platform.
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 3. Click **Window Navigation Rules**.
 4. Click **+ New**.

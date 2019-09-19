@@ -74,7 +74,7 @@ http://localhost:5000/?ani=1234&dnis=4355&type=phonecall&customerid=49383433
 
  You can use the **Options** setting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to define a different port for the generic listener, if required. To do so:  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 

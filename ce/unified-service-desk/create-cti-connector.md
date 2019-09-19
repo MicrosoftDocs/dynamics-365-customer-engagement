@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: dc647143-8e14-4bb3-ad6a-844f6fc63b33
 author: kabala123
 ms.author: kabala
@@ -75,9 +69,9 @@ The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] component in y
 > [!NOTE]
 >  The [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] project also lets you define your [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)] component. You have to create two separate hosted controls, one each for the [!INCLUDE[pn_cti_connector](../includes/pn-cti-connector.md)] and [!INCLUDE[pn_cti_desktop_manager](../includes/pn-cti-desktop-manager.md)], in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] after you have added the code for the latter in the [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)  
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps.  
+1. Sign in to the Common Data Service platform.  
 
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement apps** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
 
 3. On the **Unified Service Desk** page, choose **Hosted Controls**.  
 

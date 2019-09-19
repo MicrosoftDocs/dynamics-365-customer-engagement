@@ -59,7 +59,7 @@ search.app:
 
 4. In the introduction screen of the [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)], choose **Continue**.  
 
-5. In the **Connect to Microsoft Dynamics 365 Customer Engagement apps** screen, provide authentication details to connect to the Common Data Service platform instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
+5. In the connect screen, provide authentication details to connect to the Common Data Service platform instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
 
    ![Authentication details sign in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Authentication details sign in")  
 

@@ -59,12 +59,12 @@ search.app:
   
    1. On the nav bar, choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   
-   2. Click **Dynamics 365 Customer Engagement apps Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
+   2. Click **CRM Global Manager** under the **Name** column, or select the record, and click **Edit** on the command bar.  
   
       > [!NOTE]
-      > **Dynamics 365 Customer Engagement apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
+      > **CRM apps Global Manager** is the name of the default **Global Manager** hosted control type in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. If you have a Global Manager hosted control with different name, select it instead.  
   
-   3. On the **Dynamics 365 Customer Engagement apps Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
+   3. On the **CRM Global Manager** page, under the **Language Services** area, click **+** to add a language module record.  
   
    ![Add a language module](../unified-service-desk/media/usd-add-language-module.png "Add a language module")  
   
