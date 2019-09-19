@@ -52,4 +52,4 @@ Sample data gives you something to experiment with as you learn Dynamics 365 Cus
   
 ### See also  
  [Work with accounts and contacts](../basics/accounts-contacts.md)
- [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)
+
