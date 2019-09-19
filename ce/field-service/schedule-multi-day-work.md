@@ -153,7 +153,7 @@ Next, enter other requirement details such as skills, roles, resource preference
 
 From the newly created requirement go to **Related > Requirement Details**
 
-Requirement details are automatically created based on the duration and the allocation method to split up the requirement into time segments. In our example in the image below, a 30 hour requirement split up between 5 days, is 6 hours or 360 minutes each day.  
+Requirement details are automatically created to split up the requirement into time segments and are based on the duration and the allocation method. In our example in the image below, a 30 hour requirement split up between 5 days, is 6 hours or 360 minutes each day.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-requirement-details.png)
@@ -165,19 +165,19 @@ The requirement details are based on the requirement's calendar, which you can e
 
 Then select **Book** to trigger the schedule assistant for this multi-day requirement.
 
-Resources with availability and that meet the other attributes will show as results. Simply select a resource, the dates, and then book.
+Resources with availability and that meet the other attributes will show as results. Simply select a resource, the dates, and then **Book**. This will create multiple bookings across the date range according to the pattern of the allocation method.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant.png)
 
-Once booked, you'll see the resource's availability decrease and the fulfilled duration increase. In our example, 30 hours of duration were fulfilled, 6 of 6 hours booked each day; and the resources 8 hours of availability was reduced to 2 hours each day.
+Once booked, you'll see the resource's availability decrease and the fulfilled duration increase. In our example, 30 hours of duration were fulfilled, 6 of 6 hours booked each day; and the resource's 8 hours of availability was reduced to 2 hours each day.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-30-schedule-assistant-booked.png)
 
 
 > [!Note]
-> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant you'll need to manually add a related requirement to a work order and delete or disregard the automatically created one. This is because you need to set an allocation method before saving and the requirements work orders automatically create do not allow you to do this.
+> This scenario scheduled a requirement without a related work order. To schedule a multi-day work order with the schedule assistant you'll need to manually add a related requirement to a work order and delete or disregard the automatically created one. This is because you need to set an allocation method before saving and the requirements that are automatically created by work orders have an allocation method of **None** by default. 
 
 
 ## Scenario 3: Schedule a multi-day requirement to multiple resources
@@ -189,7 +189,7 @@ As in the last scenario, manually create a multi-day requirement. The requiremen
 
 From the newly created requirement go to **Related > Requirement Details** then choose **Specify Pattern** from the top ribbon. 
 
-THis allows you to edit and override the pattern created by the allocation method.
+This allows you to edit and override the requirement details pattern created by the allocation method.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-day-requirement-2-resource-specify-pattern2.png)
@@ -202,22 +202,27 @@ Select a Resource and specific days of just that resource, then choose Book (not
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-1.png)
 
-Then choose another resource and specific days for only that resource. Then choose **Book**.
+Then choose another resource and specific days for only that resource. Then choose **Book** again.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-2.png)
 
-Bookings are created for each resource on the days selected. Availability for each scheduled resource are updated as well.
+Bookings are created for each resource on the days selected. Availability for each scheduled resource is updated as well.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/scheduling-multi-2-person-requirement-book-final.png)
 
 ## Configuration considerations
 
-- full capacity uses calendar
-- when scheduling 4 hours each day, they need 4 total hours, not 4 continuous hours
-- manual create details when allocation method is none
-- cannot schedule greater than calendar
-- front load vs full capacity
+- Each requirement has its own calendar that you can view and edit from the Modify Calendar button in the top ribbon of a requirement. The calendar is important because it allows you to edit the time zone of the requirement and how schedule assistant results should be displayed. In the case of multi-day scheduling with allocation methods, the calendar will dictate the hours and pattern of the resulting bookings. As an example, if the calendar is 9AM - 5PM, Monday - Friday, if you select **Full Capacity** as the allocation method, it will assume Full Capacity means the total time of the calendar.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/scheduling-multi-day-requirement-30-modify-calendar.png)
+
+- Availability does not need to be continuous. As an example, if a dispatcher needs to schedule a resource for 4 hours one of the days, that resource will show as available as long as there is 4 total hours of availability, not necessarily a single block of 4 available hours. 
+- You can manually create requirement details as needed to schedule multi-day work according to a custom pattern. 
+- You cannot schedule greater than the calendar. As an example, if the calendar is 9AM - 5PM, Monday - Friday, which equates to 40 hours per week, you cannot schedule more than 40 hours
+- Front load vs full capacity allocation methods. Front load will schedule around existing bookings, and full capacity will schedule in addition to existing bookings, overbooking as needed.
 
 ## Additional Notes
 - remaining duration
