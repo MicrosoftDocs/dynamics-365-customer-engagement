@@ -34,12 +34,6 @@ The uninstall process has up to three steps:
 1. Reset all Dynamics 365 Portals that were connected to the Marketing (if any).
 1. Clean up the Marketing solutions in Dynamics 365.
 
-> [!IMPORTANT]
-> Before uninstalling Dynamics 365 for Marketing from an instance, you should be sure that you won't want to reinstall it on that instance again because problems can occur on reinstall. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
-> 
-> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (sandbox instances only).
-> - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
-
 ## Uninstall the Marketing services
 The Marketing uninstall wizard manages most of the uninstall process. It:
 
@@ -109,71 +103,73 @@ To remove the solutions:
 
 1. Find each of the following solutions and remove them, one at a time, in the order listed here. (Some of the items listed may not be present on your instance, so just skip these.) To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
 
-    - MicrosoftDynamics_PreImport
-    - MicrosoftDynamics_Calendar
-    - MicrosoftDynamics_Calendar_patch
-    - MicrosoftDynamics_DigitalAssets
-    - MicrosoftDynamics_DigitalAssets_patch
-    - MicrosoftDynamics_ReusableBlocks
-    - MicrosoftDynamics_ReusableBlocks_patch
-    - MicrosoftDynamics_EventManagement
-    - MicrosoftDynamics_EventManagement_patch
-    - MicrosoftDynamics_Marketing
-    - MicrosoftDynamics_Marketing_patch
-    - MicrosoftDynamics_MktEmailTemplates
-    - MicrosoftDynamics_MktEmailTemplates_patch
-    - MicrosoftDynamics_MktLeadManagement
-    - MicrosoftDynamics_MktLeadManagement_patch
-    - LinkedInLeadGenIntegration
-    - LinkedInLeadGenIntegration_patch
-    - MicrosoftDynamics_MktEvtMgmtLink
-    - MicrosoftDynamics_MktEvtMgmtLink_patch
-    - MicrosoftDynamics_MktPageTemplates
-    - MicrosoftDynamics_MktPageTemplates_patch
-    - MicrosoftDynamics_MktQuotaInfo
-    - MicrosoftDynamics_MktQuotaInfo_patch
-    - MicrosoftDynamics_FeatureConfiguration
-    - MicrosoftDynamics_MktConsentManagement
-    - MicrosoftDynamics_MktConsentManagement_patch
-    - MicrosoftDynamics_MktLeadGenLink
-    - MicrosoftDynamics_MktLeadGenLink_patch
-    - MicrosoftDynamics_LinkedInMatchedAudiences
-    - MicrosoftDynamics_LinkedInMatchedAudiences_patch
-    - MicrosoftDynamics_SocialEngagement
-    - MicrosoftDynamics_SocialEngagement_patch
-    - MicrosoftDynamics_MktIntegration
-    - MicrosoftDynamics_MktIntegration_patch
-    - MicrosoftDynamics_GwennolOptimalEmailSendingTime
-    - MicrosoftDynamics_GwennolOptimalEmailSendingTime_patch
-    - MicrosoftDynamics_GwennolOESTPrediction
-    - MicrosoftDynamics_GwennolOESTPrediction_patch
-    - MicrosoftDynamics_GwennolSpamScore
-    - MicrosoftDynamics_GwennolSpamScore_patch
-    - MicrosoftDynamics_GwennolFeatureConfiguration
-    - MicrosoftDynamics_GwennolFeatureConfiguration_patch
-    - MicrosoftDynamics_GwennolSegmentBooster
-    - MicrosoftDynamics_GwennolSegmentBooster_patch
-    - MicrosoftDynamics_ABTesting
-    - MicrosoftDynamics_EvtMgmtPortalsLink
-    - MicrosoftDynamics_EvtMgmtPortalsLink_patch
-    - MicrosoftDynamics_MktPortalsLink
-    - MicrosoftDynamics_MktPortalsLink_patch
-    - MicrosoftDynamics_MktVocLink
-    - MicrosoftDynamics_MktVocLink_patch
-    - MicrosoftDynamics_EvtMgmtVocLink
-    - MicrosoftDynamics_EvtMgmtVocLink_patch
-    - MicrosoftDynamics_MktVocIntegration
-    - MicrosoftDynamics_MktVocIntegration_patch
-    - MicrosoftDynamics_MarketableContactSupport
-    - MicrosoftDynamics_MarketableContactSupport_patch
-    - MicrosoftDynamics_SocialPosting
-    - MicrosoftDynamics_SocialPosting_patch
-    - MicrosoftDynamics_PersonalizedPages
-    - MicrosoftDynamics_PersonalizedPages_patch
-    - MicrosoftDynamics_PackageUpgrade
-    - MicrosoftDynamics_OrgCleanup
-    - MicrosoftDynamics_SubscriptionList
     - MicrosoftDynamics_MktCompleteAnchorSolution
+    - MicrosoftDynamics_OrgCleanup_patch
+    - MicrosoftDynamics_OrgCleanup
+    - MicrosoftDynamics_PackageUpgrade
+    - MicrosoftDynamics_PersonalizedPages_patch
+    - MicrosoftDynamics_PersonalizedPages
+    - MicrosoftDynamics_SocialPosting_patch
+    - MicrosoftDynamics_SocialPosting
+    - MicrosoftDynamics_MarketableContactSupport_patch
+    - MicrosoftDynamics_MarketableContactSupport
+    - MicrosoftDynamics_MktVocIntegration_patch
+    - MicrosoftDynamics_MktVocIntegration
+    - MicrosoftDynamics_EvtMgmtVocLink_patch
+    - MicrosoftDynamics_EvtMgmtVocLink
+    - MicrosoftDynamics_MktVocLink_patch
+    - MicrosoftDynamics_MktVocLink
+    - MicrosoftDynamics_MktPortalsLink_patch
+    - MicrosoftDynamics_MktPortalsLink
+    - MicrosoftDynamics_EvtMgmtPortalsLink_patch
+    - MicrosoftDynamics_EvtMgmtPortalsLink
+    - MicrosoftDynamics_ABTesting_patch
+    - MicrosoftDynamics_ABTesting
+    - MicrosoftDynamics_GwennolSegmentBooster_patch
+    - MicrosoftDynamics_GwennolSegmentBooster
+    - MicrosoftDynamics_GwennolFeatureConfiguration_patch
+    - MicrosoftDynamics_GwennolFeatureConfiguration
+    - MicrosoftDynamics_GwennolSpamScore_patch
+    - MicrosoftDynamics_GwennolSpamScore
+    - MicrosoftDynamics_GwennolOESTPrediction_patch
+    - MicrosoftDynamics_GwennolOESTPrediction
+    - MicrosoftDynamics_GwennolOptimalEmailSendingTime_patch
+    - MicrosoftDynamics_GwennolOptimalEmailSendingTime
+    - MicrosoftDynamics_MktIntegration_patch
+    - MicrosoftDynamics_MktIntegration
+    - MicrosoftDynamics_SocialEngagement_patch
+    - MicrosoftDynamics_SocialEngagement
+    - MicrosoftDynamics_LinkedInMatchedAudiences_patch
+    - MicrosoftDynamics_LinkedInMatchedAudiences
+    - MicrosoftDynamics_MktLeadGenLink_patch
+    - MicrosoftDynamics_MktLeadGenLink
+    - MicrosoftDynamics_MktConsentManagement_patch
+    - MicrosoftDynamics_MktConsentManagement
+    - MicrosoftDynamics_FeatureConfiguration_patch
+    - MicrosoftDynamics_FeatureConfiguration
+    - MicrosoftDynamics_MktQuotaInfo_patch
+    - MicrosoftDynamics_MktQuotaInfo
+    - MicrosoftDynamics_MktPageTemplates_patch
+    - MicrosoftDynamics_MktPageTemplates
+    - MicrosoftDynamics_MktEvtMgmtLink_patch
+    - MicrosoftDynamics_MktEvtMgmtLink
+    - LinkedInLeadGenIntegration_patch
+    - LinkedInLeadGenIntegration
+    - MicrosoftDynamics_MktLeadManagement_patch
+    - MicrosoftDynamics_MktLeadManagement
+    - MicrosoftDynamics_MktEmailTemplates_patch
+    - MicrosoftDynamics_MktEmailTemplates
+    - MicrosoftDynamics_Marketing_patch
+    - MicrosoftDynamics_Marketing
+    - MicrosoftDynamics_EventManagement_patch
+    - MicrosoftDynamics_EventManagement
+    - MicrosoftDynamics_ReusableBlocks_patch
+    - MicrosoftDynamics_ReusableBlocks
+    - MicrosoftDynamics_DigitalAssets_patch
+    - MicrosoftDynamics_DigitalAssets
+    - MicrosoftDynamics_Calendar_patch
+    - MicrosoftDynamics_Calendar
+    - MicrosoftDynamics_PreImport
 
 1. If you see any other "anchor" solutions that start with "MicrosoftDynamics_", then you can delete these too. They are probably left over from an earlier version that you upgraded.
 
