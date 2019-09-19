@@ -7,7 +7,7 @@ ms.service: crm-online
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement apps
+applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
 ms.author: mkaur
@@ -44,7 +44,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 ### Manually download updates
 
-1. From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
+1. From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
 
     > [!div class="mx-imgBorder"] 
     > ![Manually download updates](media/downloadupdates_1.png "Manually download updates")
@@ -63,7 +63,7 @@ If you choose **Skip for now**, you will not be able to use the app in offline m
 
 When updates are downloaded, you can check to see if mobile offline is available.
 
-- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis") > **Offline Status**.
+- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis") > **Offline Status**.
   
    > [!div class="mx-imgBorder"] 
    > ![Mobile Offline Status](../mobile-app/media/OfflineStatusSettings.png "Mobile Offline Status")   
@@ -109,7 +109,7 @@ If your admin has set the conflict resolution to **Yes**, then the data value on
 
 If you used the mobile app on a phone or tablet temporarily and want to remove all your cached data before giving the device to someone else, you need to reconfigure the app.
 
-- From the nav bar, select ![Dynamics 365 for Customer Engagement apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 for Customer Engagement apps ellipsis")  > **User Information** > **Reconfigure**. 
+- From the nav bar, select ![Dynamics 365 apps ellipsis](../mobile-app/media/mobile-ellipsis.png "Dynamics 365 apps ellipsis")  > **User Information** > **Reconfigure**. 
 
      > [!div class="mx-imgBorder"] 
      > ![Reconfigure](media/reconfigure.png "Reconfigure mobile app")
