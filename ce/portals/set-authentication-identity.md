@@ -26,7 +26,7 @@ search.app:
 
 # Set authentication identity for a portal
 
-Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
+Dynamics 365 Portals provides authentication functionality built on the [ASP.NET Identity](http://www.asp.net/identity) API. ASP.NET Identity is in turn built on the [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) framework, which is also an important component of the authentication system. The services provided include:
 
 - Local (username/password) user sign-in
 - External (social provider) user sign-in through third-party identity providers
@@ -40,9 +40,9 @@ Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.m
 
 ## Requirements
 
-Portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] requires:
+Dynamics 365 Portals requires:
 
-- [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Portal Base
+- Dynamics 365 Portal Base
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity
 - [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Identity Workflows solution packages
 

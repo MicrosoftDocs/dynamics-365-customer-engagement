@@ -47,11 +47,11 @@ Users can indicate that they do not wish to receive notification when new posts 
 
 ![Unsubscribe from alerts](media/unsubscribe-alerts.png "Unsubscribe from alerts")  
 
-## Manage forum alerts in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
+## Manage forum alerts in Dynamics 365
 
 Although the portal is the primary source for creating or removing alerts. Forum alerts can be created, edited or deleted within Dynamics 365.
 
-1. Sign in to **Dynamics 365**.
+1. Sign in to **Dynamics 365 Portals**.
 2. Navigate to **Community**.
 3. Select **Forum Threads**.
 4. Select an existing **Forum Thread** listed in the grid. 

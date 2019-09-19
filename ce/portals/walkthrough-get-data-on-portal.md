@@ -23,7 +23,7 @@ search.app:
 ---
 # Get Dynamics 365 data on the portal
 
-One of the most distinguishing features surrounding the portal capabilities introduced in Dynamics 365 Online 2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash;Dynamics 365 data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
+One of the most distinguishing features surrounding the Dynamics 365 Portals 2016 Update 1 is the ability to render&mdash;and allow the manipulation of&mdash;Dynamics 365 data on an internally facing or externally facing portal website. In this section, we will profile the entities that provide the foundation of this functionality and discuss the steps necessary to achieve it.
 
 ## Entity forms
 An entity form record allows an administrator to render a Dynamics 365 form on a portal to edit, display, or capture a customizable set of data from its users. This is a relatively easy and straightforward process, and it eliminates the need for any code customizations that would have otherwise been required to achieve such a result before deploying a portal.

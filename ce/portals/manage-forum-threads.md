@@ -89,7 +89,7 @@ The table below explains many of the Forum Thread attributes used by portals. It
 
 ### Create, edit, and delete forum thread types
 
-1. Sign in to **Dynamics 365**.
+1. Sign in to **Dynamics 365 Portals**.
 2. Navigate to **Community**. 
 3. Select **Forum Thread Types**.
 4. To create a new thread type, select **New**.

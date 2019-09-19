@@ -33,7 +33,7 @@ You can manage the following types of site settings:
 
 ## Manage portal site settings
 
-1. Sign in to **Dynamics 365**.
+1. Sign in to **Dynamics 365 Portals**.
 2. Go to **Portals** &gt; **Site Settings**.
 3. To create a new setting, select **New**.
 4. To edit an existing setting, select the **Site Setting** listed in the grid.
@@ -84,7 +84,7 @@ For site settings related to various portal features, see:
 
 ## Manage global portal settings
 
-1. Sign in to **Dynamics 365**.
+1. Sign in to **Dynamics 365 Portals**.
 2. Go to **Settings** &gt; **Settings**.
 3. To create a new setting, select **New**.
 4. To edit an existing setting, select the **Site Setting** listed in the grid.

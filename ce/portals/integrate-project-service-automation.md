@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 for Project Service Automation with a portal | MicrosoftDocs"
+title: "Integrate Dynamics 365 Project Service Automation with a portal | MicrosoftDocs"
 description: "Instructions to integrate Project Service Automation with a portal."
 ms.custom: 
   - dyn365-portal

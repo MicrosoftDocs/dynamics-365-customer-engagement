@@ -23,7 +23,7 @@ search.app:
 ---
 # Manage blogs
 
-Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
+Learn how to manage blog comments and blog posts both within Dynamics 365 and in your portal.
 
 ## Manage blogs in Dynamics 365
 

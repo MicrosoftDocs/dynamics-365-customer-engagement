@@ -1,4 +1,4 @@
-# [Deliver web engagement experience with portal capabilities for Dynamics 365](administer-manage-portal-dynamics-365.md)
+# [Deliver web engagement experience with Dynamics 365 Portals](administer-manage-portal-dynamics-365.md)
 # [What's new](monthly-updates-portals.md)
 # [Provision a portal](provision-portal.md)
 

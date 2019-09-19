@@ -22,7 +22,7 @@ search.app:
   - D365Portals
 ---
 # Create a theme for your portal
-When you build portals by using portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you'll be using the [[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] front-end framework](http://getbootstrap.com/). By taking advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ecosystem, you can quickly and easily brand these portals for your organization.  
+When you build portals by using Dynamics 365 Portals, you'll be using the [[!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] front-end framework](http://getbootstrap.com/). By taking advantage of the [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)] ecosystem, you can quickly and easily brand these portals for your organization.  
 
 ## Implement portal templates by using [!INCLUDE[tn-bootstrap](../includes/tn-bootstrap.md)]
 

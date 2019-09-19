@@ -29,7 +29,7 @@ Use shortcuts to place child nodes throughout your portal's sitemap that simply 
 
 Creating, editing, and deleting shortcuts can be done within Dynamics 365.
 
-1. Sign in to **Dynamics 365**. 
+1. Sign in to **Dynamics 365 Portals**. 
 2. Go to **Portals** &gt; **Shortcuts**. 
 3. To create a shortcut: Select **New**. 
 4. To edit an existing Shortcut: Double-click to select the existing **Shortcut** listed in the grid. 
