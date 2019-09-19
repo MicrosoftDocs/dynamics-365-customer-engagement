@@ -85,7 +85,7 @@ Then select a Resource on the board you would like to schedule the multi-day wor
 > [!Note]
 > Dragging and dropping a multi-day requirement onto the Hours view will create a long continuous booking through non-working hours.
 
-A "Create Resource Booking" pane wll display on the right where you can confirm or edit:
+A "Create Resource Booking" pane will display on the right where you can confirm or edit:
 
 > **Start Date and End Date:** populated from Requirement From Date and To Date fields.
 
@@ -117,6 +117,8 @@ Unlike dragging and dropping a multi-day requirement on the Hours view, doing so
 > ![Screenshot of ](./media/scheduling-multi-drag-schedule-board.png)
 
 ## Scenario 2: Schedule a multi-day requirement with the schedule assistant
+
+Unlike the previous scenario, rather than starting by creating a work order, we will start by creating a resource requirement.
 
 Go to **Resource Scheduling > Resource Requirements > +New**
 
