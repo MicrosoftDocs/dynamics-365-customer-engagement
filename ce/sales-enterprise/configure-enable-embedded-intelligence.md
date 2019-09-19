@@ -126,7 +126,7 @@ Verify the following prerequisites before enabling Email engagement for your org
 
 Verify the following prerequisites before enabling Auto capture for your organization: 
 - You must use [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
-- Users must use the web client for [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md) (other front ends aren't supported)].  
+- Users must use the web client for [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] (other front ends aren't supported)].  
 - For each user that requires access to this feature, you must approve their email address to allow queries against [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] (requires tenant-level admin privileges). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email) 
 - To track incoming email messages, you must set up server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
 
