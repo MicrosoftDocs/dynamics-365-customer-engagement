@@ -278,7 +278,7 @@ To use the `EdgeSingleProcess`, you must add the UII option and set the value to
 
 ## Sign out from sessions when using the Edge Process
 
-To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL of Dynamics 365 Customer Engagement apps is `url=/main.aspx?signout=1`.
+To sign out from sessions when using the Edge process, you must configure the sign-out URL using the **Navigate** action on the hosted control. For example, the sign-out URL the model-driven app is `url=/main.aspx?signout=1`.
 
 ## Limitations
 

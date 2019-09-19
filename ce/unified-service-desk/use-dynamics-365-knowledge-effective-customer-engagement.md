@@ -73,7 +73,7 @@ Knowledge management plays an important part in the customer service process, an
   
   ![Knowledge base article can be popped out or in](../unified-service-desk/media/usd-kb-article-popped-out.png "Knowledge base article can be popped out or in")  
   
-  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use Dynamics 365 Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
+  For information about how you can configure knowledge management integration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], see [Configure knowledge management in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md) and [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md).  
   
 ### See also  
  [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
@@ -81,8 +81,8 @@ Knowledge management plays an important part in the customer service process, an
 
  [Unified Interface KM Control (Hosted Control)](../unified-service-desk/unified-interface-km-control-hosted-control.md)
 
- [Walkthrough 8: Use Dynamics 365 Customer Engagement apps knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
+ [Walkthrough 8: Use knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)
 
- [Set up knowledge management in Dynamics 365 Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkId=691083)
+ [Set up knowledge management](http://go.microsoft.com/fwlink/p/?LinkId=691083)
 
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)

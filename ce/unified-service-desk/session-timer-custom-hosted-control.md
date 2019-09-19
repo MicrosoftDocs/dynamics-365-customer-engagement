@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 044cd615-691e-454d-9877-31095940b226
 author: kabala123
 ms.author: kabala
@@ -43,7 +37,7 @@ In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], 
   
   The values are returned and displayed under the `$Return` replacement parameter. To test the values returned by these two actions:  
   
-1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Dynamics 365 Customer Engagement apps instance.  
+1. Start [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client and connect to your Common Data Service platform instance.  
   
 2. Click the **My Work** menu, and then click a case record to open a session.  
   

@@ -68,7 +68,7 @@ Window navigation rules define the interaction between various controls in [!INC
 
 6. Click **Save** to create or modify the window navigation rule.
 
-To see how window navigation rules are used for configuring and agent application, see [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md), and [Walkthrough: Use a generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
+To see how window navigation rules are used for configuring and agent application, see [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md), and [Walkthrough: Use a generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md).  
 
 <a name="SampleRules"></a>   
 ## View sample window navigation rules  
@@ -85,7 +85,7 @@ To see how window navigation rules are used for configuring and agent applicatio
     This displays the window navigation rule definition.  
 
 ### See also  
- [Walkthrough 4: Display a Microsoft Dynamics 365 Customer Engagement apps record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Walkthrough: Use a generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)   
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)

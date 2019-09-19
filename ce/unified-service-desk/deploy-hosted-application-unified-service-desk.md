@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: bd6242eb-5b59-4ceb-bc09-0f7b1e892cdc
 author: kabala123
 ms.author: kabala
@@ -38,7 +32,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
 2. In the **Publish to Dynamics 365 Customer Engagement** dialog box, enter the Dynamics 365 Customer Engagement server name and your credentials.  
   
-   ![Publish to Dynamics 365 Customer Engagement apps dialog box](../unified-service-desk/media/usd-deploy.png "Publish to Dynamics 365 Customer Engagement apps dialog box")  
+   ![Publish to dialog box](../unified-service-desk/media/usd-deploy.png "Publish to dialog box")  
   
 3. If there is more than one organization, check the **Display list of available organizations** check box and click **Login**.  
   
@@ -49,7 +43,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement apps**, and then select **Settings**.  
+2. On the nav bar, choose **Dynamics 365**, and then select **Settings**.  
   
 3. Choose **Settings** > **Unified Service Desk** > **Hosted Controls**.  
   

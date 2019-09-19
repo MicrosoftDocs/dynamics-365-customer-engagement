@@ -1,6 +1,6 @@
 ---
 title: "CRM Dialog (Hosted Control) | MicrosoftDocs"
-description: "Learn about using the CRM Dialog hosted control type to work with Dynamics 365 Customer Engagement apps dialog. You can call the StartDialog action on your CRM Dialog hosted control to start a Dynamics 365 Customer Engagement apps dialog within Unified Service Desk."
+description: "Learn about using the CRM Dialog hosted control type to work with dialog. You can call the StartDialog action on your CRM Dialog hosted control to start a dialog within Unified Service Desk."
 ms.custom: 
   - dyn365-USD
 ms.date: 08/23/2017
@@ -21,13 +21,13 @@ search.app:
   - D365USD
 ---
 # CRM Dialog (Hosted Control)
-Use the **CRM Dialog** hosted control type to work with Dynamics 365 Customer Engagement apps dialog. You can call the **StartDialog** action on your CRM Dialog hosted control to start a Dynamics 365 Customer Engagement apps dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+Use the **CRM Dialog** hosted control type to work with dialog. You can call the **StartDialog** action on your CRM Dialog hosted control to start a dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 <a name="Create"></a>   
 ## Create a CRM Dialog hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Dynamics 365 Customer Engagement dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "Dynamics 365 Customer Engagement apps dialog hosted control")  
+ ![Dynamics 365 Customer Engagement dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
 
  In the **New Hosted Control** screen:  
 
@@ -141,4 +141,4 @@ Use the **CRM Dialog** hosted control type to work with Dynamics 365 Customer En
  [Events](../unified-service-desk/events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk for Microsoft Dynamics 365 Customer Engagement apps](http://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk](http://go.microsoft.com/fwlink/p/?LinkID=394402)

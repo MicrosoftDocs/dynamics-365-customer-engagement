@@ -6,12 +6,6 @@ ms.date: 07/12/2018
 ms.service: 
   - usd
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: B0070DA6-803C-4F92-92E7-9524EDD7C1A2
 author: kabala123
 ms.author: kabala
@@ -150,7 +144,7 @@ A workaround is to open the Microsoft Edge browser separately, navigate to the w
 
 #### KB article support with Edge Process
 
-In Dynamics 365 Customer Engagement apps web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
+In web client, when you host the KB article in Unified Service Desk client application using Edge Process, the KB articles does not render. 
 
 A workaround is to change the **Unified Service Desk Component Type** of the **KB Article** hosted control from **CRM Page** to **Unified Interface Page**.
 
@@ -195,7 +189,7 @@ As a work around for the issue, in the hosted control configuration of the URL, 
 
 ### Select articles from the Unified Interface KB Control in the Unified Service Desk displays error
 
-If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Dynamics 365 Customer Engagement apps Web Client to Dynamics 365 Customer Engagement apps Unified Interface, the KM Control is changed to Unified Interface KM Control.
+If you are using **Web client - Unified Interface Migration Assistant** to migrate your Unified Service Desk Configurations from Web Client to Unified Interface, the KM Control is changed to Unified Interface KM Control.
 
 With the Unified Interface KM Control hosted control, if you login to Unified Service Desk and open any KB article, you can see server error.
 
@@ -261,7 +255,7 @@ Login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.
 
 ### Unified Interface form does not close the tab and navigates to Dashboard
 
-Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Dynamics 365 Customer Engagement apps Unified Interface. 
+Go to **Settings** > **Administration** > **System Settings** and set the **Enable auto save on all forms** to **No** in Unified Interface.
 
 ![Disable autosave in Unified Interface forms](media/crm-unified-interface-disable-autosave.png "Disable autosave in Unified Interface forms")
 
@@ -289,11 +283,11 @@ You cannot view and attach an action call to another call (sub-action call) in U
 
 #### Workaround
 
-You can add an action call to another call using the Unified Service Desk configurations in Dynamics 365 Customer Engagement apps Web Client. 
+You can add an action call to another call using the Unified Service Desk configurations in Web Client. 
 
 ### Support for Relevance Search (search technique) in Unified Interface KM Control
 
-The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique in Dynamics 365 Customer Engagement apps and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
+The Unified Interface KM Control supports [Full-Text search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search?view=sql-server-2017) technique and does not support the **Relevance Search**. For more information about the availability of the Relevance Search, see [Relevance search for knowledge management](https://docs.microsoft.com/en-us/business-applications-release-notes/October18/service/customer-service-core-release-notes/relevance-search-for-knowledge-management).
 
 ### Quick create in Unified Service Administrator app
 
@@ -303,9 +297,9 @@ Selecting the **New** button (quick create)  in the **Navigation** toolbar of th
 
 ### Navigation and command bar configuration does not execute when Internet Explorer pooling is enabled
 
-By default, when you a open Dynamics 365 Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
+By default, when you a open model-driven apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, the navigation bar is hidden and command bar is displayed. 
 
-However, when you enable Internet Explorer pooling and change the configurations in Dynamics 365 Customer Engagement apps to hide the command bar and display the navigation bar, the Dynamics 365 Customer Engagement apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
+However, when you enable Internet Explorer pooling and change the configurations to hide the command bar and display the navigation bar, the model-driven apps page in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application does hide the command bar and display the navigation bar.
 
 To execute the configuration, disable the Internet Explorer pooling.
 

@@ -23,18 +23,18 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 8: Use Customer Engagement knowledge base within your agent application
+# Walkthrough 8: Use knowledge base within your agent application
 This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your Common Data Service platform.  
 
  In this walkthrough, you’ll:  
 
-- Display knowledge base articles from Dynamics 365 Customer Engagement apps to appear in a search panel in context with your currently open case record in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Users can filter and sort the results based on various criteria. Moreover, the search panel automatically appears when you open a case session, and automatically hides when you close the session.  
+- Display knowledge base articles from in a search panel in context with your currently open case record in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. Users can filter and sort the results based on various criteria. Moreover, the search panel automatically appears when you open a case session, and automatically hides when you close the session.  
 
 - Display the article in a tab when you choose the article title in the search panel.  
 
 - Configure contextual actions for the article in the tab where it is displayed, such as copy an article link or associate an article with the current case.  
 
-  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
+  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)  
 
 > [!IMPORTANT]
 >  This walkthrough doesn’t require you to complete other walkthroughs before you can use this one.  
@@ -47,7 +47,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
   - The `KM Control` and `Panel Layout` types of hosted controls:. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
 
-  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dynamics 365 Customer Engagement apps knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
+  - Concepts about using the `KM Control` type of hosted control to configure knowledge management. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
 
   - How to configure action calls. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action calls](../unified-service-desk/action-calls.md)  
 
@@ -263,7 +263,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 > [!NOTE]
->  At this point, the knowledge base search control is configured to display knowledge bases from \Dynamics 365 Customer Engagement apps in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the Common Data Service platform instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
+>  At this point, the knowledge base search control is configured to display knowledge bases in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application and connecting to the Common Data Service platform instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
 > 
 >  Perform the rest of the steps to display a knowledge base article from the search results in a tab, and configure contextual actions for a selected knowledge base article in the search panel such as copying an article link and associating the article to the current case.  
 
@@ -495,12 +495,12 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 
 <a name="Conclusion"></a>   
 ## Conclusion  
- In this walkthrough, you learned how to use the KM Control hosted control to use Dynamics 365 Customer Engagement apps knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
+ In this walkthrough, you learned how to use the KM Control hosted control to use knowledge from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 ### See also  
- [Use Dynamics 365 Customer Engagement apps knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
+ [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md)   
 
- [Configure Dynamics 365 Customer Engagement apps knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
+ [Configure knowledge in Unified Service Desk](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
 
  [KM Control (Hosted Control)](../unified-service-desk/km-control-hosted-control.md)   
 

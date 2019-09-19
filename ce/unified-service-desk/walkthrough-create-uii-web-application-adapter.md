@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 0b4f5456-deef-41e9-ac58-13a2a0ce5de2
 author: kabala123
 ms.author: kabala
@@ -58,7 +52,7 @@ You can create a web application adapter if you want to enhance and modify web a
    ![Web app in Visual Studio](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")  
 
 <a name="ConfigureExApp"></a>   
-## Step 2: Configure the web application in Dynamics 365 Customer Engagement apps
+## Step 2: Configure a web application
 
 1. Sign in to the Common Data Service platform.  
 
@@ -83,7 +77,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |  **Application Hosting**   |                                             Use SetParent                                             |
    |          **URL**           | Specify the location where your web application is hosted. In this case, it is http://localhost:2627/ |
 
-   ![Screenshot of Web App Config in Dynamics 365 Customer Engagement apps](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config in Dynamics 365 Customer Engagement apps")  
+   ![Screenshot of Web App Config](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config")  
 
 6. Choose **Save**.  
 
@@ -110,7 +104,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 2. In the **New Project** dialog box:  
 
-   1. From the list of installed templates on the left, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select **Dynamics 365 Customer Engagement apps SDK Templates** > **Unified Service Desk** > **UII Web Application Adapter**.  
+   1. From the list of installed templates on the left, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select **CRM SDK Templates** > **Unified Service Desk** > **UII Web Application Adapter**.  
 
    2. Specify the name and location of the project, and click **OK** to create a new project.  
 
@@ -191,7 +185,7 @@ You can create a web application adapter if you want to enhance and modify web a
    5. Save your project, and build it (**Build** > **Build Solution**). After the project builds successfully, an assembly (MyWebApplicationAdapter.dll) is generated in the \bin\debug folder of your project folder. You’ll need this assembly later for testing and using your web application adapter.  
 
 <a name="ConfigureWebAdapter"></a>   
-## Step 5: Configure the web application adapter in Dynamics 365 Customer Engagement apps  
+## Step 5: Configure a web application adapter  
 
 1. Sign in to the Common Data Service platform.  
 
@@ -201,7 +195,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 4. From the list of hosted controls, select **QsWebApplication** hosted control.  
 
-   ![Hosted controls list in Dynamics 365 Customer Engagement apps](../unified-service-desk/media/usd-web-app-hosted-controls-list.PNG "Hosted controls list in Dynamics 365 Customer Engagement apps")  
+   ![Hosted controls list](../unified-service-desk/media/usd-web-app-hosted-controls-list.PNG "Hosted controls list")  
 
 5. In the **Adapter Configuration** section, specify the following values.  
 
@@ -211,7 +205,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |**URI**|MyWebApplicationAdapter|  
    |Type|MyWebApplicationAdapter.WebAppAdapter|  
 
-   ![Web adapter configuration in Dynamics 365 Customer Engagement apps](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration in Dynamics 365 Customer Engagement apps")  
+   ![Web adapter configuration](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration")  
 
    > [!NOTE]
    > **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is MyWebApplicationAdapter and name of the class is WebAdapter, which is the default class name when you create a web application adapter.  

@@ -8,12 +8,6 @@ ms.service:
 ms.custom: 
   - dyn365-USD
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
 author: kabala123
 ms.author: kabala

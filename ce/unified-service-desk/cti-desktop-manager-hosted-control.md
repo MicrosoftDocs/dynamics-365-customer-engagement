@@ -156,7 +156,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
 ### Save  
- This action saves the current Dynamics 365 Customer Engagement apps page.  
+ This action saves the current page.  
 
 <a name="SaveAll"></a>   
 ### SaveAll  

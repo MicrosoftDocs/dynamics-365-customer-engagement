@@ -9,12 +9,6 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 78a6d0fc-f4cd-4052-b2da-e73c2c897d08
 author: kabala123
 ms.author: kabala
@@ -33,7 +27,7 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
   
 2. In the import dialog box, enter the Common Data platform server name and your credentials.  
   
-   ![Screenshot of import from Dynamics 365 Customer Engagement apps dialog box](../unified-service-desk/media/usd-import.PNG "Screenshot of import from Dynamics 365 Customer Engagement apps dialog box")  
+   ![Screenshot of import from dialog box](../unified-service-desk/media/usd-import.PNG "Screenshot of import from dialog box")  
   
 3. If there’s more than one organization, select the **Display list of available organizations** check box and click **Login**.  
   

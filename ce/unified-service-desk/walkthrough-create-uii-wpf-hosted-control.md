@@ -54,7 +54,7 @@ This walkthrough demonstrates how you can build a [Windows Presentation Foundati
   
 2. In the **New Project** dialog box:  
   
-   1.  From the list of installed templates, expand **Visual C#**, and select **Dynamics 365 Customer Engagement apps SDK Templates** > **Unified Service Desk** > **UII WPF Hosted Control**.  
+   1.  From the list of installed templates, expand **Visual C#**, and select **CRM SDK Templates** > **Unified Service Desk** > **UII WPF Hosted Control**.  
   
    2.  Specify the name and location of the project, and choose **OK** to create a new project.  
   

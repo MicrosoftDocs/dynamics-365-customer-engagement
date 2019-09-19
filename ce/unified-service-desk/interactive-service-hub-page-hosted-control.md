@@ -59,7 +59,7 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  These are the predefined actions for this hosted control type.  
 
 > [!NOTE]
->  The **Interactive Service Hub Page** type of hosted control supports all the UII actions supported by the **Dynamics 365 Customer Engagement apps page** type of hosted control. However, some UII actions are not available when you first create and save an instance of the **Interactive Service Hub Page** type hosted control. Any subsequent update to the hosted control instance adds the missing UII actions.  
+>  The **Interactive Service Hub Page** type of hosted control supports all the UII actions supported by the **CRM page** type of hosted control. However, some UII actions are not available when you first create and save an instance of the **Interactive Service Hub Page** type hosted control. Any subsequent update to the hosted control instance adds the missing UII actions.  
 
 ### AssociatedView  
  This action loads a specific associated view of the interactive service hub.  These views are typically accessed by clicking down arrow next to an entity record name in the nav bar, and selecting the associated entities.  
@@ -255,4 +255,4 @@ title=Sample Case
 
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Dynamics 365 Customer Engagement apps page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)
+ [CRM page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)

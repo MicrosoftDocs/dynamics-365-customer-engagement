@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: 174894bd-eb2e-4b67-95bd-74e6b3540f47
-caps.latest.revision: 18
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -54,7 +47,7 @@ Integrate your [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] applications with
 ## Configure client-side component for Citrix integration  
  The client-side configuration for [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] integration involves two things:  
   
-- Configure a UII hosted application (`Remote Hosted Application`) instance in your Dynamics 365 Customer Engagement apps instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
+- Configure a UII hosted application (`Remote Hosted Application`) instance in your Common Data Service platform instance that can be used directly without any custom code, or can be extended as required. Actions fired on the UII hosted application instances are transmitted to the server-side component using a .ica file, where it is dispatched to the application adapters configured, if any. For more information about UII hosted applications, see [UII hosted applications](../unified-service-desk/uii-hosted-applications.md)  
   
 - Copy the [!INCLUDE[pn_citrix](../includes/pn-citrix.md)] application executable and other required assemblies in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, apply client-side registry patch, and add [!INCLUDE[pn_citrix](../includes/pn-citrix.md)]-specific settings in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client app config file. This step needs to be performed on each computer where the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application is installed.  
   

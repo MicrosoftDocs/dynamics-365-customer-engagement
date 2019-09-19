@@ -191,7 +191,7 @@ This walkthrough demonstrates how you can use the CTI Desktop Manager and generi
   
 3. The matching contact record is displayed in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
-   ![Matching Dynamics 365 Customer Engagement apps contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching Dynamics 365 Customer Engagement apps contact record displayed in a session")  
+   ![Matching contact record displayed in a session](../unified-service-desk/media/usd-testctiadapter02.png "Matching contact record displayed in a session")  
   
 4. Check the Debugger hosted control to view the events that got raised as a result of the CTI search. Also check out the **Data Parameters** tab to view the context information in the `$Context` variable and CTI information under the `CTI` variable.  
   

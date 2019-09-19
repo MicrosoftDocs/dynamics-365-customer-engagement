@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: f280285b-2284-40a8-a01d-ea24a65926c9
-caps.latest.revision: 9
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -37,13 +30,13 @@ You can create an application adapter if you want to integrate an external appli
   
  [Step 1: Build a sample external application](../unified-service-desk/walkthrough-create-uii-application-adapter.md#CreateExternalApp)  
   
- [Step 2: Configure the external application in Microsoft Dynamics 365 Customer Engagement apps.](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureExApp)  
+ [Step 2: Configure a external application](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureExApp)  
   
  [Step 3: Test the external application](../unified-service-desk/walkthrough-create-uii-application-adapter.md#TestExApp)  
   
  [Step 4: Create the application adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md#CreateAppAdapter)  
   
- [Step 5: Configure the application adapter in Microsoft Dynamics 365 Customer Engagement apps](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureAppAdapter)  
+ [Step 5: Configure the application adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md#ConfigureAppAdapter)  
   
  [Step 6: Test the application adapter](../unified-service-desk/walkthrough-create-uii-application-adapter.md#TestAppAdapter)  
   
@@ -74,7 +67,8 @@ You can create an application adapter if you want to integrate an external appli
    ![Sample external app](../unified-service-desk/media/usd-sample-external-app.PNG "Sample external app")  
   
 <a name="ConfigureExApp"></a>   
-## Step 2: Configure the external application in Microsoft Dynamics 365 Customer Engagement apps.  
+## Step 2: Configure the external application 
+ 
  In this step, you will create a hosted control of **External Hosted Application** type to display the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] forms application.  
   
 1. Sign in to **Microsoft Dynamics 365 Customer Engagement**.  
@@ -127,7 +121,7 @@ You can create an application adapter if you want to integrate an external appli
   
 2. In the **New Project** dialog box:  
   
-   1. From the list of installed templates, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select Dynamics 365 Customer Engagement apps SDK Templates > **Unified Service Desk** > [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Application Adapter  
+   1. From the list of installed templates, expand [!INCLUDE[pn_Visual_C#](../includes/pn-visual-csharp.md)], and select CRM SDK Templates > **Unified Service Desk** > [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Application Adapter  
   
    2. Specify the name and location of the project, and click **OK** to create a new project.  
   
@@ -230,7 +224,7 @@ You can create an application adapter if you want to integrate an external appli
    |URI|`ExternalApplicationAdapter`|  
    |Type|`ExternalApplicationAdapter.AppAdapter`|  
   
-   ![External adapter configuration in Dynamics 365 Customer Engagement apps](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration in Dynamics 365 Customer Engagement")  
+   ![External adapter configuration](../unified-service-desk/media/usd-external-adapter-config.PNG "External adapter configuration in Dynamics 365 Customer Engagement")  
   
    > [!NOTE]
    >  URI is the name of your assembly and the Type is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is `ExternalApplicationAdapter` and name of the class is `AppAdapter`, which is the default class name when you create an application adapter.  

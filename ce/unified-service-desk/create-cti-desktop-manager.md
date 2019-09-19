@@ -9,14 +9,7 @@ ms.service: dynamics-365-customerservice
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement apps
-  - Dynamics 365 Customer Engagement (on-premises)
-  - Dynamics CRM 2013
-  - Dynamics CRM 2015
-  - Dynamics CRM 2016
 ms.assetid: eda74fb2-c74a-413d-b1b8-921328dd365e
-caps.latest.revision: 8
 author: kabala123
 ms.author: kabala
 manager: shujoshi
@@ -125,7 +118,7 @@ public override void OnCallStateChanged(CtiCoreEventArgs e)
   
 1. Sign in to the Common Data Service platform.  
   
-2. On the nav bar, choose **Microsoft Dynamics 365 Customer Engagement apps** > **Settings** > **Unified Service Desk**.  
+2. On the nav bar, choose **Dynamics 365** > **Settings** > **Unified Service Desk**.  
   
 3. On the **Unified Service Desk** page, click **Hosted Controls**.  
   
