@@ -1,6 +1,6 @@
 ---
-title: "Add a chart to a webpage in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Instructions to add a Dynamics 365 for Customer Engagement chart to a webpage in the portal."
+title: "Add a chart to a webpage in a portal | MicrosoftDocs"
+description: "Instructions to add a Dynamics 365 chart to a webpage in the portal."
 ms.custom: 
   - dyn365-portal
 ms.date: 12/03/2018
@@ -22,13 +22,13 @@ search.app:
   - D365Portals
 ---
 
-# Add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a webpage in portal
+# Add a Dynamics 365 chart to a webpage in portal
 
 You add a chart to a webpage by using a Liquid tag named [Chart](dynamics-entity-tags.md#chart). You can add the chart Liquid tag in the **Copy** field on a webpage or in the **Source** field on a [Web template](store-content-web-templates.md).
  
 For example, {% chart id:EE3C733D-5693-DE11-97D4-00155DA3B01E %}
 
-![Dynamics 365 for Customer Engagement chart example](media/dynamics365-chart-example.png "Dynamics 365 for Customer Engagement chart example")
+![Dynamics 365 chart example](media/dynamics365-chart-example.png "Dynamics 365 chart example")
 
 You can also specify the ID of a view (saved query) to filter the query. For example:
 
@@ -43,12 +43,12 @@ You can also specify the ID of a view (saved query) to filter the query. For exa
 3.	Choose the chart you want.
 4.	Select **More Commands**, and then select **Export Chart**.
 
-    ![Export a Dynamics 365 for Customer Engagement chart](media/export-dynamics365-chart.png "Export a Dynamics 365 for Customer Engagement chart")
+    ![Export a Dynamics 365 chart](media/export-dynamics365-chart.png "Export a Dynamics 365 chart")
 
 5. Open the XML file of the exported chart in a text editor.
 6. Copy the value of the \<visualizationid\> tag.
 
-    ![Get chartid for a Dynamics 365 for Customer Engagement chart](media/dynamics365-chart-chartid.png "Get the chart ID for a Dynamics 365 for Customer Engagement chart")
+    ![Get chartid for a Dynamics 365 chart](media/dynamics365-chart-chartid.png "Get the chart ID for a Dynamics 365 chart")
 
 7. Paste the visualizationid value into your Liquid chart tag declaration for the chart ID parameter, for example:
 
@@ -82,11 +82,11 @@ If permission is not granted, the user will see an access denied message.
 
 ## Unsupported charts and chart types
 
-The following [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart types are currently not supported in portals:
+The following Dynamics 365 chart types are currently not supported in portals:
 - Doughnut
 - Tag
 
-The following table lists the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] charts that are currently not supported in portals.
+The following table lists the Dynamics 365 charts that are currently not supported in portals.
 
 | Chart Name                              | Chart ID                             | Entity Type      |
 |-----------------------------------------|--------------------------------------|------------------|

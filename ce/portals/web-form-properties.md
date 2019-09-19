@@ -1,5 +1,5 @@
 ---
-title: "Configure web form properties for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure web form properties for a portal | MicrosoftDocs"
 description: "Instructions to configure web form properties for a portal."
 ms.custom: 
   - dyn365-portal
@@ -50,7 +50,7 @@ The following attributes and relationships determine the functionality of the We
 | Multiple Records Per User Permitted |                                                                                                  Selecting **Yes** indicates that a user is permitted to create more than one submission. This assists the form in determining what to do when a user revisits a form. Default: **Yes**.                                                                                                   |
 |       Edit Expired State Code       |                                                                                                                    The target entity's state code integer value that, when combined with the status reason, indicates when an existing record can no longer be edited.                                                                                                                     |
 |     Edit Expired Status Reason      |                                                                       The target entity's status code integer value that, when combined with the state code, indicates that when an existing record has these values the record is not to be edited anymore&mdash;for example, when a record is updated as complete.                                                                       |
-|        Edit Expired Message         | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. Default message; You have already completed a submission. Thank you! |
+|        Edit Expired Message         | The message displayed when the existing record's state code and status reason match the values specified. For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language. Default message; You have already completed a submission. Thank you! |
 |                                     |                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ## Progress indicator settings
@@ -86,7 +86,7 @@ Example of the various progress indicator types:
 |                 Name                  |                                                                                                                                Description                                                                                                                                |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Display Save Changes Warning On Close |                         Select to display a warning message if the user has made changes to field(s) and they try to reload the page, close the browser, select the browser's back button, or select the previous button in a multiple step form.                         |
-|     Save Changes Warning Message      | For each language pack installed and enabled for the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
+|     Save Changes Warning Message      | For each language pack installed and enabled for the Dynamics 365 organization, a field will be available to enter the message in the associated language. If no message is specified, the browser's default will be used. |
 |                                       |                                                                                                                                                                                                                                                                           |
 
 Example:
@@ -109,8 +109,8 @@ The form's map control requires additional configuration to tell it what the IDs
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Web Forms metadata for portals](configure-web-form-metadata.md)  
 [Web Form subgrid configuration for portals](configure-web-form-subgrid.md)  

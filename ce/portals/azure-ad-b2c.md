@@ -1,5 +1,5 @@
 ---
-title: "Azure AD B2C provider settings for portals in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: 
   - dyn365-portal
@@ -24,7 +24,7 @@ search.app:
 
 # Azure AD B2C provider settings for portals
 
-[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Office 365 and [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] services for employee or internal authentication. [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory B2C is an extension to that authentication model that enables external customer sign-ins through local credentials and federation with various common social identity providers.
+[!include[Azure](../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Office 365 and Dynamics 365 services for employee or internal authentication. [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory B2C is an extension to that authentication model that enables external customer sign-ins through local credentials and federation with various common social identity providers.
 
 A portal owner can configure the portal to accept [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C as an identity provider. [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports Open ID Connect for federation.
 
@@ -63,7 +63,7 @@ In the process of configuring [!include[Azure](../includes/pn-azure-shortest.md)
 After creating and configuring the B2C tenant in [!include[Azure](../includes/pn-azure-shortest.md)], you must configure your portal to federate with [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C by using the Open ID Connect protocol. You must create a unique name for your federation to [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C&mdash;for example, B2C&mdash;and store it as the value of the *Federation-Name* variable in the above table.
 
 ### Configure your portal
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to Dynamics 365 Portals.
 2. Go to **Portals** > **Websites**.
 3. Select the website record for which [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C needs to be enabled.
 4. Go to **Site Settings**.
@@ -135,7 +135,7 @@ If registration is disabled for a user after the user has redeemed an invitation
 [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C supports user interface customization. You can customize the user experience for sign-up and sign-in scenarios.
 
 ### Step 1: Create a web template
-Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create a web template by using the following values:
+Sign in to Dynamics 365 Portals and create a web template by using the following values:
 
 **Name**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
 
@@ -446,7 +446,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
 ```
 ### Step 2: Create a page template
 
-Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following page template:
+Sign in to Dynamics 365 Portals and create the following page template:
 - **Name**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
 - **Type**: Web Template
 - **Web Template**: [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page
@@ -454,7 +454,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
 
 ### Step 3: Create a webpage
 
-Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following webpage:
+Sign in to Dynamics 365 Portals and create the following webpage:
 - **Name**: Sign-in
 - **Parent** Page: Home
 - **Partial Url**: azure-ad-b2c-sign-in
@@ -463,7 +463,7 @@ Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and creat
 
 ### Step 4: Create site settings
 
-Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and create the following site settings.
+Site settings are required to configure cross-origin resource sharing (CORS) to allow [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C to request the custom page and inject the sign-in or sign-up user interface. Sign in to Dynamics 365 Portals and create the following site settings.
 
 | Name                              | Value                             |
 |-----------------------------------|-----------------------------------|
@@ -482,7 +482,7 @@ For a complete list of other CORS settings, see [CORS protocol support](cors-pro
 5. Select **Edit**.
 6. Select **Edit policy** > **Page UI customization** > **Unified sign-up or sign-in page**
 7. Set **Use custom page** to **Yes**.
-8. Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
+8. Set **Custom page URI** to the URL of the [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C Custom Page webpage created in Dynamics 365 in step 3 of this procedure. For example, `https://mydomain.com/azure-ad-b2c-sign-in`.
 9. Select **OK**.
 
 ## Claims mapping
@@ -495,7 +495,7 @@ When users sign in, either for the first time or subsequently, the federated ide
 
 ### Claims to support sign-up scenarios
 
-When a new customer who does not exist in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] is provisioned, the inbound claims can be used to seed the new contact record that the portal will create. Common claims can include first and last name, email address, and phone number, but they are configurable. The following site setting is required:
+When a new customer who does not exist in Dynamics 365 is provisioned, the inbound claims can be used to seed the new contact record that the portal will create. Common claims can include first and last name, email address, and phone number, but they are configurable. The following site setting is required:
 
 **Name**: Authentication/OpenIdConnect/[Federation-Name]/RegistrationClaimsMapping
 
@@ -510,7 +510,7 @@ For example:  firstname=<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/g
 
 ### Claims to support sign-in scenarios
 
-The data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and in the identity provider are not directly linked, so the data might get out of sync. The portal should have a list of claims that you want to accept from any sign-in event to update in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. These claims can be a subset of, or equal to, the claims coming in from a sign-in scenario. This must be configured separately from sign-in claims mapping, because you might not want to overwrite some key portal attributes. The following site setting is required:
+The data in Dynamics 365 and in the identity provider are not directly linked, so the data might get out of sync. The portal should have a list of claims that you want to accept from any sign-in event to update in Dynamics 365. These claims can be a subset of, or equal to, the claims coming in from a sign-in scenario. This must be configured separately from sign-in claims mapping, because you might not want to overwrite some key portal attributes. The following site setting is required:
 
 **Name**: Authentication/OpenIdConnect/[Federation-Name]/LoginClaimsMapping
 

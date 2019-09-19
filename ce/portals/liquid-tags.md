@@ -1,5 +1,5 @@
 ---
-title: "Use Liquid tags for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Use Liquid tags for a portal | MicrosoftDocs"
 description: "Learn about the available liquid tags in a portal."
 ms.custom: 
   - dyn365-portal

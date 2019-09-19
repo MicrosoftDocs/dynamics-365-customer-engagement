@@ -1,5 +1,5 @@
 ---
-title: "Configure WS-Federation provider settings for a portal in Dynamics 365 for Customer Engagement  | MicrosoftDocs"
+title: "Configure WS-Federation provider settings for a portal  | MicrosoftDocs"
 description: "Instructions to add and configure WS-Federation provider settings for a portal."
 ms.custom: 
   - dyn365-portal
@@ -142,7 +142,7 @@ The previous section describing AD FS can also be applied to [!INCLUDE[pn-azure-
 
 ### See also
 
-[Configure Dynamics 365 for Customer Engagement portal authentication](configure-portal-authentication.md)  
+[Configure Dynamics 365 Portals authentication](configure-portal-authentication.md)  
 [Set authentication identity for a portal](set-authentication-identity.md)  
 [OAuth2 provider settings for portals](configure-oauth2-settings.md)  
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
