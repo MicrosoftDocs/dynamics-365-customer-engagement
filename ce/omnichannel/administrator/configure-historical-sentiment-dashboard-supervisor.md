@@ -1,6 +1,6 @@
 ---
 title: "Configure to view Intraday insights dashboard | MicrosoftDocs"
-description: "Instructions to configure intraday insights dashboard for Unified Service Desk and Omnichannel for Customer Service."
+description: "Instructions to configure intraday insights dashboard for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
 keywords: ""
 author: udaykirang
 ms.author: udag
@@ -41,8 +41,8 @@ As an administrator, you must configure the Omnichannel Insights to display Omni
 Review the following prerequisites before configuring the dashboard:
 -  You have administrative privileges for Dynamics 365 and Power BI.
 -  You have a Power BI Pro license for all supervisors.
--  You must enable to embed Power BI reports in Dynamics 365 for Customer Service.
-    1.	Sign in to **Dynamics 365 for Customer Service** and go to **Settings** > **Administration** > **System Settings**.
+-  You must enable to embed Power BI reports in Dynamics 365 Customer Service.
+    1.	Sign in to **Dynamics 365 Customer Service** and go to **Settings** > **Administration** > **System Settings**.
     2.	Go to **Reporting** tab and configure **Allow Power BI visualization embedding** as **Yes**.
     
       > [!div class=mx-imgBorder]
@@ -82,7 +82,7 @@ Review the following prerequisites before configuring the dashboard:
 
 3.	(Optional) To find the Microsoft Dynamics 365 OData URL, follow these steps:
 
-    a.	Sign in to Dynamics 365 for Customer Service.
+    a.	Sign in to Dynamics 365 Customer Service.
     
     b.	Go to **Settings** > **Customizations** and then select **Developer Resources**. 
     
@@ -153,9 +153,9 @@ The app is now available to install for all individuals in your organization.
 
 ## Step 6: Add Power BI Dashboard to Omnichannel for Customer Service
 
-Each supervisor must configure their Dynamics 365 for Customer Service environment to integrate the Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashboards.
+Each supervisor must configure their Dynamics 365 Customer Service environment to integrate the Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashboards.
 
-1.  Sign in to Dynamics 365 for Customer Service and go to **Omnichannel Administration** app.
+1.  Sign in to Dynamics 365 Customer Service and go to **Omnichannel Administration** app.
  
 2.  Go to **Supervisor Experience** > **Dashboard**. 
 
@@ -181,7 +181,7 @@ The Omnichannel Chat Insights and Omnichannel Sentiment Analysis Insights dashbo
 
 You must add users in the supervisor configuration to access any supervisor dashboard in **Unified Service Desk**. To add users in supervisor configuration, follow these steps:
 
-1.  Sign in to Dynamics 365 for Customer Service.
+1.  Sign in to Dynamics 365 Customer Service.
 
 2.  Go to **Settings** > **Unified Service Desk** and then select **Configuration**.
 

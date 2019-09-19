@@ -1,7 +1,6 @@
 ---
-title: "Manage custom insight cards in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Manage custom insight cards in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft and optimize ranking for cards in assistant"
-keywords: "AI for sales, ,"
 ms.date: 03/21/2019
 ms.service: crm-online
 ms.custom: 

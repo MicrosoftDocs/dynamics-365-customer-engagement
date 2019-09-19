@@ -1,5 +1,5 @@
 ---
-title: "Embedded intelligence Privacy Notices in Dynamics 365 for Customer Engagement AI for Sales  | Microsoft Docs"
+title: "Embedded intelligence Privacy Notices in Dynamics 365 Sales Insights  | Microsoft Docs"
 description: "Privacy notices for Embedded intelligence."
 keywords: privacy notice, privacy statement addition
 ms.date: 10/31/2018

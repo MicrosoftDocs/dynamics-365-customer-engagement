@@ -1,11 +1,10 @@
 ---
-title: "Relationship assistant for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Relationship assistant for Dynamics 365 Sales | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
 author: udaykirang
 ms.author: udag
@@ -26,7 +25,7 @@ The administrator must enable auto capture before you can try it out. For comple
 
  The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
 
- When you start your day by signing in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
+ When you start your day by signing in to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   
  ![Relationship assistant carousel on a dashboard](media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
   
@@ -45,7 +44,7 @@ As you drill down into specific records, such as an opportunity or contact, the 
   
 Action cards are made up of the following elements, as labeled in the figure:  
   
-1. **Main content area**: Shows the title of the record the card refers to, its summary, the card type, and other basic information. Click anywhere in this area (except for on the two buttons) to open the related item, which might be a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record or an email message .  
+1. **Main content area**: Shows the title of the record the card refers to, its summary, the card type, and other basic information. Click anywhere in this area (except for on the two buttons) to open the related item, which might be a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] record or an email message .  
   
 2. **Actions area**: Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)  
   
@@ -61,7 +60,7 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 1. Open the relationship assistant settings by doing *one* of the following:  
   
-   - Go to any page in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
+   - Go to any page in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
   
    - Select the **Settings** button ![Settings button on the nav bar](media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal relationship assistant settings** link.  
   

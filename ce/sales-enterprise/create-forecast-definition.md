@@ -9,9 +9,9 @@ ms.custom:
   - "dyn365-sales"
 ms.topic: article
 ms.assetid: 1517b3d4-639b-4fec-bbbc-8474320d1867
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: udaykirang
+ms.author: udag
+manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -46,7 +46,7 @@ Before creating a forecast definition, review the following requisites:
  
 ## Create forecast definition
 
-1.	Sign in to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
+1.	Sign in to Dynamics 365 Sales.
 
 2.  Select the site map icon ![Icon to open site map](media/site-map-new.png "Icon to open site map"), and in the lower left of the site map, select the **Change area** icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select the **App Settings** area.	
 
@@ -106,5 +106,7 @@ Generating a forecast is a background process. After all the forecasts are gener
 > If the publishing fails, the forecast definition’s status and status reason is set to Published and Failed respectively. To learn more, see [Why am I unable to publish forecast definition? ](../sales-enterprise/troubleshooting.md#why-am-i-unable-to-publish-forecast-definition).
 
 ## See also
+
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+
 [View forecasts](view-forecasts.md)

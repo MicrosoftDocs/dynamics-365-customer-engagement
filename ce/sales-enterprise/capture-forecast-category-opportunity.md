@@ -54,6 +54,9 @@ The forecast category is used to determine the different confidence levels of an
 
 
 ## See also
+
 [Create or edit an opportunity](create-edit-opportunity-sales.md)  
+
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
+
 [View forecasts](view-forecasts.md)
