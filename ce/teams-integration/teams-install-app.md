@@ -29,7 +29,7 @@ search.app:
 By default, the basic and enhanced Microsoft Teams integration is disabled. To turn these features on, follow the steps below. To learn more about what the difference, see [Difference between the Basic and Enhanced Collaboration Experience with Teams](teams-basic-vs-enhanced-collaboration.md).
 
    > [!NOTE]
-   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-troubleshoot#troubleshoot-configuration-issues-with-teams-integration).
+   > - If you run into any issues during configuration, see [Troubleshoot configuration issues with Teams Integration](teams-troubleshoot.md#troubleshoot-configuration-issues-with-teams-integration).
 
 1. Sign in as a System administrator to Dynamics 365 apps.
 2. Go to **Settings** > **Administration** > **System Settings** > **General** tab.
