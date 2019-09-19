@@ -6,7 +6,6 @@ ms.date: 04/08/2019
 ms.service: dynamics-365-sales
 ms.custom: dyn365-sales
 ms.topic: get-started-article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 author: susikka
 ms.author: susikka

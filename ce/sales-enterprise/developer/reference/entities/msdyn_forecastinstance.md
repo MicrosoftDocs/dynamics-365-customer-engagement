@@ -6,7 +6,6 @@ ms.date: 04/08/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: 15494171-81DE-4945-96A4-58A65DA49B85
 author: susikka
 ms.author: susikka

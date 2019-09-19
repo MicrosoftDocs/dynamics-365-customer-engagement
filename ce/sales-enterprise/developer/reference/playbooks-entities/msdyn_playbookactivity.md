@@ -6,7 +6,6 @@ ms.date: 04/08/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: AAF5B63C-876E-4A56-93F4-D4E027997C05
 author: susikka
 ms.author: susikka
