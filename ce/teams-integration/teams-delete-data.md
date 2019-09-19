@@ -37,7 +37,7 @@ The following data is stored with Dynamics 365 apps integration with Microsoft T
 |    Environment URL    |   The URL of the Dynamics 365 app    |   OrganizationIdentifiableInformation (OII) —<br/>Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain customer content.  | <ul><li>Tenant ID (non-GUID)</li><li>Domain name in email address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
 | App module ID | The ID of app module selected to show in the dashboard | EndUsePseudonymousIdentifiers (EUPI) —<br/>An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer. | <ul><li>User GUIDs, PUIDs, or SIDs</li><li>Session IDs</li><ul>   |
 
-You can [contact support](../admin/contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 apps support.
+You can contact support to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 apps support.
 
 For more information on how to install Windows PowerShell, see [Azure ActiveDirectory](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
