@@ -5,8 +5,8 @@ keywords: "migrate identity provider, azure AD B2C"
 ms.date: 12/03/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
+ 
+  
 ms.assetid: 61DDD947-32BC-4DA3-BDC1-6D1417412A6B
 author: sbmjais
 ms.author: shjais

@@ -1,5 +1,5 @@
 ---
-title: "Configure a redirect step type for a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Configure a redirect step type for a portal | MicrosoftDocs"
 description: "Instructions to add and configure a redirect step for a portal."
 ms.custom: 
   - dyn365-portal
@@ -38,8 +38,8 @@ The Redirect Step Type allow for a redirect of the User's browser session to ano
 
 ### See also
 
-[Configure a Dynamics 365 for Customer Engagement portal](configure-portal.md)  
-[Define entity forms and custom logic within the Dynamics 365 for Customer Engagement portal](entity-forms-custom-logic.md)  
+[Configure a Dynamics 365 Portals](configure-portal.md)  
+[Define entity forms and custom logic within the Dynamics 365 Portals](entity-forms-custom-logic.md)  
 [Web Form steps for portals](web-form-steps.md)  
 [Load Form/Load Tab step type](load-form-step.md)  
 [Conditional step type](add-conditional-step.md)  

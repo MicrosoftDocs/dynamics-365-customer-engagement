@@ -1,5 +1,5 @@
 ---
-title: "Create forum posts on a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create forum posts on a portal | MicrosoftDocs"
 description: "Instructions to create forum posts on a portal."
 ms.custom: 
   - dyn365-portal

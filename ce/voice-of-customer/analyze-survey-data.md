@@ -5,8 +5,6 @@ keywords: analyze survey responses; survey dashboard
 ms.date: 07/01/2019
 ms.service: dynamics-365-customerservice
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8abc2d0c-8472-46ff-83bc-febec0ce802d
 author: sbmjais
 ms.author: shjais
@@ -22,13 +20,13 @@ ms.custom:
 > [!IMPORTANT]
 > Voice of the Customer (VoC) is being deprecated and replaced with Microsoft Forms Pro. [Learn more](https://go.microsoft.com/fwlink/p/?linkid=2097704)
 
-Voice of the Customer stores all survey responses in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], and you can analyze them by using features such as:
+Voice of the Customer stores all survey responses in Dynamics 365, and you can analyze them by using features such as:
 
 - Survey response entity
 
 - Advance find queries
 
-- [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] reports
+- Dynamics 365 reports
 
 - Feedback entity
 
@@ -42,7 +40,7 @@ A survey response record is created after a respondent submits a survey. Based o
 
 To view all survey responses:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+1. Sign in to the Voice of the Customer legacy web client or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** &gt; **Survey Responses**.
 
@@ -52,7 +50,7 @@ To view survey response for a survey:
 
 **Web client**
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -133,7 +131,7 @@ You can run the following reports for a survey:
 
 To run and export a report:
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -165,7 +163,7 @@ The survey dashboard allows you to view the summary of survey invitations and re
 
 ![Survey dashboard with invites and responses charts](media/survey-dashboard-invites.png "Survey dashboard with invitations and responses charts")  
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+1. Sign in to the Voice of the Customer legacy web client.
 
 2. Go to **Voice of the Customer** &gt; **Surveys**.
 
