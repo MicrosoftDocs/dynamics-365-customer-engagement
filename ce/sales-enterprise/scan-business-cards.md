@@ -1,12 +1,15 @@
 ---
-title: "Scan business cards (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Use the business card scanner in Dynamics 365 for Sales to quickly scan business cards of the prospective customers you've met with."
+title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
 keywords: "business card, scan, scanner, lead, contact, populate, data"
-ms.date: 08/01/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: 
+applies_to:
+  - ""
 ms.assetid: b1798d84-617a-4284-8cc8-bf146d8a5578
 author: shubhadaj
 ms.author: shujoshi
@@ -20,7 +23,7 @@ ms.tgt_pltfrm:
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The integrated business card scanner in Dynamics 365 for Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 for Sales, so sales people don’t spend time on entering the data manually and can focus on more important tasks.
+The integrated business card scanner in Dynamics 365 Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 Sales, so sales people don’t spend time on entering the data manually and can focus on more important tasks.
 
 > [!IMPORTANT]
 > - [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -34,7 +37,7 @@ To scan a business card,
 
     ![Option to scan business card in the Contact Quick Create form](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
 
-2.  If you’re using the Dynamics 365 for Sales app on a desktop, browse to the folder where the business card picture is stored, select the business card picture, and then select **Insert**.
+2.  If you’re using the Dynamics 365 Sales app on a desktop, browse to the folder where the business card picture is stored, select the business card picture, and then select **Insert**.
 
     -OR-
 

@@ -1,11 +1,13 @@
 ---
-title: "Track a marketing campaign response using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Track a marketing campaign response using in-app marketing (Dynamics 365 Sales) | MicrosoftDocs"
+description: ""
 keywords: ""
-ms.date: 01/30/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 1bf875ef-5d83-44f6-8b5c-67f7e3286e7c
 author: shubhadaj
 ms.author: shujoshi

@@ -1,12 +1,13 @@
 ---
-title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Create or edit an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 04/10/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 692b7303-d9e1-4323-9e81-ab0dee4cfd2d
 author: shubhadaj
 ms.author: shujoshi
@@ -154,7 +155,7 @@ Need a faster way to enter opportunities? Try one of these:
 [Add products to an opportunity](add-products-opportunity.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  
 [Close an opportunity](close-opportunity-won-lost-sales.md)  
-[Dynamics 365 for Sales troubleshooting guide for sales people](troubleshooting.md)  
-[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide for sales people](troubleshooting.md)  
+[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   

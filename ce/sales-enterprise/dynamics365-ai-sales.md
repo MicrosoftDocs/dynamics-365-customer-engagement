@@ -1,12 +1,10 @@
 ---
-title: "Dynamics 365 Sales Insights features for Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Dynamics 365 Sales Insights features for Dynamics 365 Sales | MicrosoftDocs"
 description: "Overview of the Sales Insights features that are offered with Sales"
-keywords: AI, Sales AI, Dynamics 365 Sales Insights, AI for Sales, Sales Insights
 ms.date: 11/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 62083240-8c37-4de5-8d83-ade07dd40369
 author: udaykirang
 ms.author: udag

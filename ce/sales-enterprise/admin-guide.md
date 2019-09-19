@@ -1,12 +1,13 @@
 ---
-title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "A starting point for browsing admin and sales manager content for Dynamics 365 for Sales."
-keywords: Sales Hub, Sales, Index, sales manager, admin, administrator
-ms.date: 07/18/2018
-ms.service: dynamics-365-sales
-ms.custom: 
+title: "Administrator & Sales Manager Guide (Dynamics 365 Sales) | MicrosoftDocs"
+description: "A starting point for browsing admin and sales manager content for Dynamics 365 Sales."
+keywords: "Sales Hub, Sales, Index, sales manager, admin, administrator"
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - ""
 ms.topic: get-started-article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: d43cde80-1e19-4001-ad4b-e45f5a3205be
 author: shubhadaj
 ms.author: shujoshi
@@ -57,8 +58,8 @@ ms.tgt_pltfrm:
 
 <h2>Upgrade/downgrade</h2>
 <ul>
-<li><a href="upgrade-sales-professional-sales-enterprise.md" data-raw-source="[Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise](upgrade-sales-professional-sales-enterprise.md)">Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise</a> </li>
-<li><a href="move-sales-enterprise-sales-professional.md" data-raw-source="[Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional](move-sales-enterprise-sales-professional.md)">Move from Dynamics 365 for Sales Enterprise edition to Dynamics 365 for Sales Professional</a> </li>
+<li><a href="upgrade-sales-professional-sales-enterprise.md" data-raw-source="[Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise](upgrade-sales-professional-sales-enterprise.md)">Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise</a> </li>
+<li><a href="move-sales-enterprise-sales-professional.md" data-raw-source="[Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional](move-sales-enterprise-sales-professional.md)">Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional</a> </li>
 </ul>
 
 </td></tr>
@@ -67,7 +68,7 @@ ms.tgt_pltfrm:
 
 <h2>GDPR Requirements</h2>
 <ul>
-<li><a href="dynamics-365-sales-GDPR.md" data-raw-source="[Dynamics 365 for Sales and GDPR](dynamics-365-sales-GDPR.md)">Dynamics 365 for Sales and GDPR</a></li>
+<li><a href="dynamics-365-sales-GDPR.md" data-raw-source="[Dynamics 365 Sales and GDPR](dynamics-365-sales-GDPR.md)">Dynamics 365 Sales and GDPR</a></li>
 </ul>
 
 

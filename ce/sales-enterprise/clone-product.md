@@ -1,12 +1,13 @@
 ---
-title: "Clone a product (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Quickly create a copy of an existing product in Dynamics 365 for Sales including all its details by cloning it."
+title: "Clone a product (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Quickly create a copy of an existing product in Dynamics 365 Sales including all its details by cloning it."
 keywords: "Clone, copy"
-ms.date: 04/12/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 0abe6dc4-c8bc-4d09-aa4f-e41218e08927
 author: shubhadaj
 ms.author: shujoshi

@@ -1,12 +1,13 @@
 ---
-title: "Recalculate an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Recalculate the opportunity in Dynamics 365 for Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
+title: "Recalculate an opportunity (Dynamics 365 Sales) | MicrosoftDocs"
+description: "Recalculate the opportunity in Dynamics 365 Sales to change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 04/10/2019
-ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 36b834d9-7b37-49f7-a110-efcaee8dea04
 author: shubhadaj
 ms.author: shujoshi
@@ -36,6 +37,6 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
 [Print leads, quotes, and other records](../basics/print-leads-quotes-other-records.md)  
-[Dynamics 365 for Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
+[Dynamics 365 Sales troubleshooting guide for administrators](troubleshooting-admin.md)  
 
 

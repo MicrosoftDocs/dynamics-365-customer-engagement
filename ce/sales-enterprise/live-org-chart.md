@@ -1,12 +1,13 @@
 ---
-title: "Maintain an external org chart (Dynamics 365 for Sales) | Microsoft Docs"
-description: "Manage live org charts by organizing contacts in Dynamics 365 for Sales."
-keywords: org chart, account form, contact hierarchy
-ms.date: 01/25/2018
-ms.service: dynamics-365-sales
-ms.custom: 
+title: "Maintain an external org chart (Dynamics 365 Sales) | Microsoft Docs"
+description: "Manage live org charts by organizing contacts in Dynamics 365 Sales."
+keywords: "org chart, account form, contact hierarchy"
+ms.date: 10/01/2019
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - ""
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement
 ms.assetid: 247486b3-428f-457a-a6f5-5708bc4bc3bd
 author: m-hartmann
 ms.author: mhart
@@ -82,7 +83,7 @@ When a contact is removed, the direct reports (if available) of that contact wil
 ![Control to remove a contact from an org chart](media/org-chart-remove-contact.png)
 
 ### See also
-[Work with accounts and contacts in Customer Engagement apps](../basics/accounts-contacts.md)    
+[Work with accounts and contacts in model-driven apps](../basics/accounts-contacts.md)    
 [User Guide (Sales and Sales Hub)](user-guide.md)    
 [Administrator and Sales Manager Guide](admin-guide.md)    
 [How to enable hierarchy for contacts](https://blogs.technet.microsoft.com/lystavlen/2014/10/02/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015/)

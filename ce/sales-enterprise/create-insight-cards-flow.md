@@ -1,12 +1,10 @@
 ---
-title: "Create insight cards using Microsoft Flow in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Create insight cards using Microsoft Flow in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft Flow in assistant"
-keywords: "AI for sales, assistant, custom cards, insight cards"
 ms.date: 03/22/2019
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 (online)
 ms.assetid: e59e67ad-3646-4929-a6f8-c97ab2c5f6e2
 author: udaykirang
 ms.author: udag

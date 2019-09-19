@@ -6,7 +6,6 @@ ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
 author: udaykirang
 ms.author: udag
@@ -203,11 +202,11 @@ The build is successful, and you can see that under the `<folder>\ExtPkgDeployer
 
 2. In the introduction screen of the Package Deployer tool, choose **Continue**.
 
-3. In the Connect to Microsoft Dynamics 365 for Customer Engagement screen, provide authentication details to connect to the Dynamics 365 for Customer Engagement instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
+3. In the Connect to Microsoft Dynamics 365 screen, provide authentication details to connect to the Dynamics 365 instance where you want to deploy the package. If you have multiple organizations and want to select the organization where you want to deploy the Unified Service Desk package, select the Display list of available organizations check box. Choose **Login**.
 
-4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365 for Customer Engagement instance. Review the information and choose **Next**. 
+4. The next screen displays detailed information about the selected package and the things that will be installed on your Dynamics 365  instance. Review the information and choose **Next**. 
  
-5. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 for Customer Engagement organization where it will be deployed to. Review the information and choose **Next**.
+5. The **Ready to Install** screen displays the package selected for deployment and name of the Dynamics 365 Sales organization where it will be deployed to. Review the information and choose **Next**.
  
 6. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.
 
@@ -314,7 +313,7 @@ You can verify the custom cards are created in your organization as end user and
 
 **As end user**
 
-1. Log in to **Dynamics 365 for Customer Engagement**.
+1. Log in to **Dynamics 365**.
 2. Under **Relationship assistant** section, you can see your created action card.
     
     > [!div class="mx-imgBorder"]
@@ -322,7 +321,7 @@ You can verify the custom cards are created in your organization as end user and
 
 **As administrator**
 
-1. Log in to **Dynamics 365 for Customer Engagement**.
+1. Log in to **Dynamics 365**.
 2. Go to **Settings** > **Setup AI**.
 3. Select **Configuration** on Relationship assistant section or select **Relationship assistant** tab.
 4. On the **Configuration** tab, you see an option to enable created custom actions cards in your organization.
