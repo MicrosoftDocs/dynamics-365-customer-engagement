@@ -32,12 +32,6 @@ The uninstall process has up to three steps:
 1. Reset all Dynamics 365 Portals that were connected to the Marketing (if any).
 1. Clean up the Marketing solutions in Dynamics 365.
 
-> [!IMPORTANT]
-> Before uninstalling Dynamics 365 Marketing from an instance, you should be sure that you won't want to reinstall it on that instance again because problems can occur on reinstall. Before you can reinstall Marketing onto an instance where it was previously uninstalled, you must do one of the following:
-> 
-> - [Reset the instance](../admin/manage-sandbox-instances.md#BKMK_Reset) before starting to reinstall Marketing (sandbox instances only).
-> - If a reset isn't possible, then please [contact Microsoft Support](setup-troubleshooting.md#contact-support) before attempting to reinstall Marketing.
-
 ## Uninstall the Marketing services
 The Marketing uninstall wizard manages most of the uninstall process. It:
 
