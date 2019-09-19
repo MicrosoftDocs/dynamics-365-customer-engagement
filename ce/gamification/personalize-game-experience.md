@@ -25,8 +25,8 @@ As a commissioner, you can upload custom logos, provide a pointer for players to
 
 ## Generate a security key
 
-The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] with a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization. If you disconnect the web portal from Dynamics 365 and want to connect it again, click **Generate Security Key** to get a new key.
-If you are already connected to a [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization, you can remove it after all active games are completed. 
+The security key is required to connect the web portal of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] with a Dynamics 365 organization. If you disconnect the web portal from Dynamics 365 and want to connect it again, click **Generate Security Key** to get a new key.
+If you are already connected to an organization, you can remove it after all active games are completed. 
 
 > [!WARNING]
 > When you remove an organization, all related data such as games, points, KPIs, and user accounts will be permanently deleted.

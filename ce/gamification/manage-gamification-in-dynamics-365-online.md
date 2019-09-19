@@ -56,15 +56,15 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
 2. Sign in to your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system admin account, if you aren't already signed in.  
   
 3. Click **Get** to start installing the solution.  
-   If you have more than one [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] organization, select the organization you want to install this solution to.
+   If you have more than one Dynamics 365 organization, select the organization you want to install this solution to.
   
-4. Review and accept the disclaimer and the terms to add [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+4. Review and accept the disclaimer and the terms of service.  
   
-   It might take a few minutes for the solution to be installed in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+   It might take a few minutes for the solution to be installed.  
   
-## Game Manager security role in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] 
+## Game Manager security role
 
- When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]. System admins can assign this security role to [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] users who the admins want to enable to create KPIs for [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
+ When you install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], a security role called **Game Manager** is created in Dynamics 365. System admins can assign this security role to users who the admins want to enable to create KPIs.  
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Available security roles in Gamification](understand-security-roles.md)  
  More information about security roles and privileges: [TechNet: Security roles and privileges](https://technet.microsoft.com/library/dn531090.aspx)  

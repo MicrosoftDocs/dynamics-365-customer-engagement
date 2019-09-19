@@ -76,7 +76,7 @@ Gamification refers to the use of game mechanics and experience design to engage
 
  We're sure you'll want to get started immediately using [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]. Follow these steps to start your first game:  
   
-1. Install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
+1. Install [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].  
   
     [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Install and configure the Gamification solution](manage-gamification-in-dynamics-365-online.md)  
   

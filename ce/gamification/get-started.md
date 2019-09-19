@@ -42,7 +42,7 @@ Here are some basic guidelines for game models, key performance indicators (KPIs
   
 ## KPIs  
 
-[!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] can use any KPI that is tracked as data in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)] for point scoring in a game. For example:  
+[!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] can use any KPI that is tracked as data in Dynamics 365 apps for point scoring in a game. For example:  
 
   
 -   Number of calls made  
@@ -63,9 +63,9 @@ If you use **Actuals** and award one point per call, players will earn points ba
 Think about what KPIs you want to include, how you want to weigh them, and what thresholds you want to associate with each to keep your game balanced. Consider the following when selecting your KPIs:  
 
   
-- Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)].  
+- Make sure that the KPIs you choose can be reported on. For example, if you want to use "revenue booked from new customers" as a KPI, you need to have a way to identify a closed opportunity as a new or existing customer.  
 
-For more information about defining KPIs in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)], see [Configure KPIs for Gamification](configure-kpis.md).  
+For more information about defining KPIs, see [Configure KPIs for Gamification](configure-kpis.md).  
   
 - Select KPIs that normalize the game to ensure equal opportunities for all players. For example, if you have sales reps with significantly higher quotas than other reps, think twice before using a "revenue booked" KPI; those with higher quotas will probably be closing significantly more business. Instead, consider using "percentage of delivered quota" as a KPI. You can also use player positions and handicaps to normalize the game. [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Player positions](#player-positions)  
   
