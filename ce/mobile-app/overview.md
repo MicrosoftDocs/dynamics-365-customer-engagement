@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for phones and tablets (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Dynamics 365 for phones and tablets (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 ms.date: 08/14/2019
 ms.reviewer: 

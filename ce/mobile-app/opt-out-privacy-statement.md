@@ -1,5 +1,5 @@
 ---
-title: "How to opt out of data collection for on-premises users (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "How to opt out of data collection for on-premises users (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 ms.date: 01/23/2019
 ms.reviewer: 

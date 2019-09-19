@@ -1,5 +1,5 @@
 ---
-title: "Work offline on your mobile device (Dynamics 365 for Customer Engagement apps) | MicrosoftDocs"
+title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 ms.date: 08/21/2019
 ms.reviewer: kvivek
