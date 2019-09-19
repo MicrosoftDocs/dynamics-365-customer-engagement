@@ -1,6 +1,6 @@
 ---
-title: Overview of Field Service for Dynamics 365
-description: An English-language guide to managing resources with Field Sercice for Dynamics 365.
+title: Overview of Field Service for Dynamics 365 for Customer Engagement
+description: A guide to managing resources with Field Service Dynamics 365 for Customer Engagement.
 author: shellyhaverkamp
 ms.service: dynamics-365-customerservice
 ms.custom: 
