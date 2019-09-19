@@ -25,7 +25,7 @@ Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]!
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] enables sales people to build strong relationships with their customers, take actions based on insights, and close sales faster. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to keep track of your accounts and contacts, nurture your sales from lead to order, and create sales collateral. It also lets you create marketing lists and campaigns, and even follow service cases associated with specific accounts or opportunities.
 
     > [!IMPORTANT]
-    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: What are model-driven apps?
+    > Dynamics 365 Sales is a model-driven app that is built on the Common Data Service platform. You can create and manage model-driven apps by using PowerApps. More information: [What are model-driven apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 ## Available anywhere, on any device
 
