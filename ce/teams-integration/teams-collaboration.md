@@ -26,7 +26,7 @@ search.app:
 
 Once installed, the Dynamics 365 app for Teams enables collaborating with others through Dynamics 365 apps record connections made in teams and channels in Microsoft Teams.
 
-For more information on which entities support the collaborate option, see [Record types supporting collaborate](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/teams-work-records-and-view#record-types-supporting-collaborate)
+For more information on which entities support the collaborate option, see [Record types supporting collaborate](teams-work-records-and-view.md#Record-types-supporting-Collaborate)
 
 ## Connect a Dynamics 365 apps record or view to a team channel
 
