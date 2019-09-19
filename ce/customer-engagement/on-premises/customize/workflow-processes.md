@@ -46,7 +46,7 @@ Workflows automate business processes without a user interface. People usually u
   
  Depending on how the app is built, users can create or modify their workflows in the app. 
  
-Developers can create workflows using information in the [Dynamics 365 for Customer Engagement apps Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.  
+Developers can create workflows using information in the [Dynamics 365 for Customer Engagement apps Developer Guide](../developer/overview.md) and solutions you purchase may include workflows that you may modify.  
   
 <a name="BKMK_WorkflowProperties"></a>   
 ## Workflow properties  
