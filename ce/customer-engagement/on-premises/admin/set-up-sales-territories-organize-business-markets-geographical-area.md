@@ -28,7 +28,7 @@ Sales territories improve the sales potential because the members of a territory
 Organizations can create a model and visualize their sales territories in a hierarchical format using out-of-the-box territory hierarchical relationship.
 
 > [!IMPORTANT]
-> - Territory hierarchical relationship (or territory hierarchy) is a preview feature. To learn more about preview features, see [What are Preview features and how do I enable them?](../../../admin/what-are-preview-features-how-do-i-enable-them.md)
+> - Territory hierarchical relationship (or territory hierarchy) is a preview feature. 
 > - For a new organization that provisions Dynamics 365 for Sales, the territory hierarchical relationship will be available and enabled by default.
 > - For existing customers upgrading to the latest release, if the organization doesn’t already have a hierarchical relationship created for the Territory entity, the hierarchical relationship will be available and enabled. If the organization has a hierarchical relationship created for territory, the new out-of-the-box territory hierarchical relationship will be available but not enabled.
 
@@ -110,8 +110,8 @@ Organizations can create a model and visualize their sales territories in a hier
 9. In the **Look Up Records** dialog box, select a user, and then choose **Add**.  
   
 > [!TIP]
->  To make your salesperson’s job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
+>  To make your salesperson’s job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../../../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
 ### See also  
- [Administrator and sales manager guide](../sales-enterprise/admin-guide.md)   
- [Nurture sales from lead to order (Sales)](../sales-enterprise/nurture-sales-from-lead-order-sales.md)
+ [Administrator and sales manager guide](../../../sales-enterprise/admin-guide.md)   
+ [Nurture sales from lead to order (Sales)](../../../sales-enterprise/nurture-sales-from-lead-order-sales.md)

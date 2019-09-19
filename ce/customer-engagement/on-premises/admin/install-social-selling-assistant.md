@@ -87,4 +87,4 @@ Set up the Social Selling Assistant  and onboard your users in just a few minute
   
 ### See also  
  [Connect to Microsoft Social Engagement](../admin/connect-microsoft-social-engagement.md)   
- [Install or remove a preferred solution](../admin/install-remove-preferred-solution.md)
+

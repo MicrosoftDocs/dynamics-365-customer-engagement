@@ -26,4 +26,4 @@ search.app:
 This section describes how to set up your Dynamics 365 Customer Engagement (on-premises) organization. You will learn about managing business units and sites, adding resources and selecting language options.  
 
 ### See also
-[Terminology used in the product and documentation](online-terminology.md)
+

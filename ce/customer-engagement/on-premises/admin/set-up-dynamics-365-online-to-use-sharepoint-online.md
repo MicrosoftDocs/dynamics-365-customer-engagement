@@ -108,7 +108,7 @@ For more information about [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepo
 ### Next steps  
 Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you will need to enable the entities you want available for document management integration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable document management on entities](enable-sharepoint-document-management-specific-entities.md)    
 
-Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you can also enable integration with OneNote and OneDrive. More information: [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md) and [Enable OneDrive for Business (online)](enable-onedrive-for-business.md)
+Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is enabled you can also enable integration with OneNote and OneDrive. More information: [Set up OneNote integration](set-up-onenote-integration-in-dynamics-365.md). 
 
 <a name="BKMK_UsingDocManage"></a>   
 

@@ -171,7 +171,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 > [!WARNING]
 > - If you delete this data, notes and their associated attachments will no longer be available in Customer Engagement (on-premises).  
-> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](../portals/portal-faq.md#large-number-of-web-file-records) for data size maintenance information.
+> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](../../../portals/portal-faq.md#large-number-of-web-file-records) for data size maintenance information.
   
 1. Choose **Advanced Find**.  
   
@@ -193,7 +193,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 > [!WARNING]
 > - If you delete this data, notes and their associated attachments will no longer be available in Customer Engagement (on-premises).  
-> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](../portals/portal-faq.md#large-number-of-web-file-records) for data size maintenance information.
+> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](../../../portals/portal-faq.md#large-number-of-web-file-records) for data size maintenance information.
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
@@ -345,4 +345,4 @@ These are ways to reduce the amount of storage space used by removing or deletin
 ### See also  
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)   
- [Manage Microsoft Dynamics 365 for Customer Engagement apps online) instances](manage-online-instances.md)
+

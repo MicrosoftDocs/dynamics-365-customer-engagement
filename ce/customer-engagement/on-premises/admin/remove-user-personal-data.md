@@ -50,7 +50,7 @@ To remove personal data:
 
 1. Click **Settings** > **Security** > **Users**.
 2. Select **Disabled Users** view.
-3. Create an [Excel template](analyze-your-data-with-excel-templates.md#create-a-new-excel-template) with all the user personal data columns that you want to update.  
+3. Create an Excel template with all the user personal data columns that you want to update.  
 4. Click on **Download File**.
 5. Open the downloaded Excel file, make your updates, and then save the file.
 6. Return to the **Disabled Users** view window and click **Import Data**.
@@ -66,4 +66,4 @@ You can also update the data for a disabled user using the Web API or Organizati
 - [Use the Entity class for create, update and delete](../developer/org-service/use-entity-class-create-update-delete.md)
 
 ### See also
-[Analyze and share your data with Excel templates](analyze-your-data-with-excel-templates.md)<br/>
+
