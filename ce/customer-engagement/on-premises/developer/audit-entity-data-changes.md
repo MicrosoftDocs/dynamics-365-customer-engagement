@@ -38,7 +38,7 @@ There are three levels where auditing can be configured: organization, entity, a
   
 ## Retrieve and delete history of audited data changes
 
-After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. Follow the sample code link at the end of this topic for more information. To learn more, see [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes) in the Common Data Service documentation.
+After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. To learn more, see [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes) in the Common Data Service documentation.
   
 ## Audit user logons
 
