@@ -36,7 +36,7 @@ Organizations can create a model and visualize their sales territories in a hier
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
-2.	Select the Site map icon ![Site map icon](../../../../../../../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipses to see more options](../../../../../../../sales-enterprise/media/ellipsis-more-options.png "Ellipses to see more options"), and then select **Sales Territories**.
+2.	Select the Site map icon ![Site map icon](../../../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipses to see more options](../../../sales-enterprise/media/ellipsis-more-options.png "Ellipses to see more options"), and then select **Sales Territories**.
  
 3.	To create a new sales territory, on the command bar, select **New**.
 
@@ -57,13 +57,13 @@ Organizations can create a model and visualize their sales territories in a hier
 
 6.	Select the **Related** tab, and then select **Members**.
 
-      ![Members option on Related tab of territory form](../../../../../../../sales-enterprise/media/members-option-related-tab-territory-form.png "Members option on Related tab of territory form")
+      ![Members option on Related tab of territory form](../../../sales-enterprise/media/members-option-related-tab-territory-form.png "Members option on Related tab of territory form")
  
 7.	On the **Members** tab, select **Add members**.
 
 8.	In the **Lookup Records** pane, select the search icon, select a user record, and then select **Add**.
 
-      ![Lookup Records pane](../../../../../../../sales-enterprise/media/lookup-records.png "Lookup Records pane")
+      ![Lookup Records pane](../../../sales-enterprise/media/lookup-records.png "Lookup Records pane")
 
 9. To add sub territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**. 
  
