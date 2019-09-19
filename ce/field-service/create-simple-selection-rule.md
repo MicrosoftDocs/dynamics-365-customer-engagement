@@ -1,10 +1,7 @@
 ---
 title: Create a simple selection rule (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: See how to create a simple selection rule in Dynamics 365 for Customer Service
-keywords: Create a selection rule; Dynamics 365 for Customer Engagement; Customer Service
 author: anjgupta
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017

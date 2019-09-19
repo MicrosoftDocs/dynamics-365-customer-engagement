@@ -8,8 +8,6 @@ ms.suite:
 ms.technology: 
   - field-service
 ms.tgt_pltfrm: 
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: shellyhaverkamp
 ms.author: vihuang
 ms.manager: shellyhaverkamp

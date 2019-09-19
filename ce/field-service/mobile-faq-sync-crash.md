@@ -10,8 +10,6 @@ ms.technology:
   - field-service
 ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 for Customer Engagement (online)
 author: krbjoran
 ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
 caps.latest.revision: 42
@@ -46,7 +44,7 @@ In the Field Service Mobile app, double check that the URL, username, and passwo
 
 ## 2. There is no mobile project in Woodford, or the mobile project is unpublished
 
-To fix this, login to Dynamics 365 for Customer Engagement as an administrator in a non-private Internet Explorer, and navigate to **Settings > Woodford > MobileCRM Woodford** to verify a mobile project exists. A blue circle with an upward-pointing arrow indicates it is published, as seen in the below screenshot. The value for "Is published" will also be set to "True."
+To fix this, login to Dynamics 365 as an administrator in a non-private Internet Explorer, and navigate to **Settings > Woodford > MobileCRM Woodford** to verify a mobile project exists. A blue circle with an upward-pointing arrow indicates it is published, as seen in the below screenshot. The value for "Is published" will also be set to "True."
 
 ![Screenshot of the Woodford option in the D365 menu](media/Mobile-FAQs-image3.png)
 
@@ -54,7 +52,7 @@ To fix this, login to Dynamics 365 for Customer Engagement as an administrator i
 
 **If no mobile project exists**, you'll need to download and save the template file:
 
-- If you are on December 2016 Update for Dynamics 365 for Customer Engagement (online), use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310)  
+- If you are on December 2016 Update for Dynamics 365 (online), use this [mobile project template](https://go.microsoft.com/fwlink/p/?linkid=836310)  
 
 - If you are on Dynamics CRM Online 2016 Update 1, use this [mobile project template](http://go.microsoft.com/fwlink/p/?LinkId=808250)  
 
@@ -82,9 +80,9 @@ To fix this, first check the version of your mobile app. Open the mobile app, sc
 
 ![Screenshot of the mobile about menu screen](media/Mobile-FAQs-image1.png)
 
-Next, you'll need to check your Woodford version number. Open Dynamics 365 for Customer Engagement in a non-private Internet Explorer window and navigate to **Settings > Woodford > MobileCRM Woodford**.
+Next, you'll need to check your Woodford version number. Open Dynamics 365 in a non-private Internet Explorer window and navigate to **Settings > Woodford > MobileCRM Woodford**.
 
-![Screenshot of the Dynamics 365 for Customer Engagement settings menu with Woodford highlighted](media/Mobile-FAQs-image3.png)
+![Screenshot of the Dynamics 365 settings menu with Woodford highlighted](media/Mobile-FAQs-image3.png)
 
 Find the related mobile project and ensure it's not published to a higher version. In the screenshot below, the mobile project is published to 9.1 which does not exceed the version of our Field Service Mobile (2017) app.
 
@@ -96,7 +94,7 @@ When an administrator of the mobile application sets up Woodford, they must assi
 
 In a non-private Internet Explorer browser, navigate to **Settings > Woodford > MobileCRM Woodford**.
 
-![Screenshot of the Dynamics 365 for Customer Engagement settings menu with Woodford highlighted](media/Mobile-FAQs-image3.png)  
+![Screenshot of the Dynamics 365 settings menu with Woodford highlighted](media/Mobile-FAQs-image3.png)  
 
 Select and highlight the mobile project your mobile users should have access to and select **Show Users** in the header menu.
 
