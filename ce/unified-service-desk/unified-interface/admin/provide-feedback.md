@@ -171,13 +171,13 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../..
 
 8. Type **Show FeedBack Window** in the search bar. The action call listed earlier is displayed in the search results. Now, select the action from the list, and then select **Add**. After you add, select **Save** to save the configuration.
 
-9. Next you must add the the hosted control. Select the **Hosted Controls, Events and Action Calls** tab.
+9. Next you must add the hosted control. Select the **Hosted Controls, Events and Action Calls** tab.
 
 10. Select the ellipsis (More Commands option) in the **Hosted Controls** section and then select **Add Existing Hosted Control**. The **Lookup Records** pane appears.
 
 11. Type **About Toolbar Container** in the search bar. The hosted control listed earlier is displayed in the search results. Now, select the hosted control from the list, and then select **Add**. After you add, select **Save** to save the configuration.
 
-12. Next you must add the the toolbar. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab.
+12. Next you must add the toolbar. Select the **Toolbars, Window Navigation Rules and Entity Searches** tab.
 
 13. Select the ellipsis (More Commands option) in the **Toolbars** section and then select **Add Existing Toolbar**. The **Lookup Records** pane appears.
 

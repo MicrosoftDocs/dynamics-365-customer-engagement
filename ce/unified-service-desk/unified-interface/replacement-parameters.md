@@ -147,7 +147,7 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="Settings"></a>   
 ### $Settings  
- This section provides user settings that only apply to the current user. These settings are automatically loaded at startup, and may be read using an action call at runtime. These often include settings for the theme selection of the user but may provide access to any user specific settings that the configurator wants to make available.  
+ This section provides user settings that only apply to the current user. These settings are automatically loaded at startup, and may be read using an action call at runtime. These often include settings for theme selection of the user but may provide access to any user specific settings that the configurator wants to make available.  
   
  These user settings are defined in the **User Settings** area (**Settings** > **User Settings**) in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] apps while configuring [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   

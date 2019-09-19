@@ -144,7 +144,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 3. Click **Main Layout** in the list of hosted controls.  
 
    > [!NOTE]
-   >  The **Main Layout** hosted control is available when you deploy the Base sample application in your the Common Data Service platform instance.  
+   >  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance.  
 
 4. Click the down arrow next to **Main layout**, and then click **UII Actions**.  
 
@@ -170,7 +170,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Field      |                                                                                              Value                                                                                               |
     |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |      Name      |                                                                                Sample: Expand Right Panel Action                                                                                 |
-    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your the Common Data Service platform instance. |
+    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance. |
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=true                                                            |
 
@@ -186,7 +186,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
     |     Field      |                                                                                              Value                                                                                               |
     |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     |      Name      |                                                                               Sample: Collapse Right Panel Action                                                                                |
-    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your the Common Data Service platform instance. |
+    | Hosted Control | Main Layout **Note:**  The **Main Layout** hosted control is available when you deploy the Base sample application in your Common Data Service platform instance. |
     |     Action     |                                                                                        SetVisualProperty                                                                                         |
     |      Data      |                                                           elementname=RightPanelExpander<br />propertyname=IsExpanded<br />value=false                                                           |
 
@@ -475,7 +475,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 ## Step 7: Test the application  
  To test the application:  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities as described earlier.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application, click **My Work** in the toolbar to display a list of cases assigned to you.  
 

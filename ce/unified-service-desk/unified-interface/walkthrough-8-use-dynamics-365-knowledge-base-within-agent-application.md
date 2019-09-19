@@ -228,7 +228,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
  Create an action call to automatically populate the case title in the knowledge base search control to search based on the case title name. After creating the action, you’ll add it to the `BrowserDocumentComplete` event of the **Incident** hosted control to fire this action after the case records have loaded in the agent desktop.  
 
 > [!NOTE]
->  The **Incident** hosted control is created when you deploy the Base sample application in your the Common Data Service platform instance.  
+>  The **Incident** hosted control is created when you deploy the Base sample application in your Common Data Service platform instance.  
 
 1. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]  
 
@@ -269,7 +269,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
 11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save**![Auto save button](../../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
 
 > [!NOTE]
->  At this point, the knowledge base search control is configured to display knowledge bases from \Dynamics 365 Customer Engagement apps in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and connecting to the the Common Data Service platform instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]  
+>  At this point, the knowledge base search control is configured to display knowledge bases from \Dynamics 365 Customer Engagement apps in context with the currently opened case record. Also, the knowledge base search panel is configured to automatically display when a session is created, and automatically hide when you close the session. You can test this by running the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and connecting to the Common Data Service platform instance where you performed steps 1 through 4 of this walkthrough. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]  
 > 
 >  Perform the rest of the steps to display a knowledge base article from the search results in a tab, and configure contextual actions for a selected knowledge base article in the search panel such as copying an article link and associating the article to the current case.  
 

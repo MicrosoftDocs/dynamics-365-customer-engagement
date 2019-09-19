@@ -429,7 +429,7 @@ Param=value
 |Parameter|Description|  
 |---------------|-----------------|  
 |clear|`True` if you want to completely clear the current theme before applying the specified theme. If this parameter is false, or not specified, the new theme information will be merged with the current theme.|  
-||The remainder parameter (what is left after the other parameters are removed), should contain the name of the theme to use. This should be a XAML file (renamed to XML and uploaded as a web resource) web resource name, a URL from an anonymous access server, or the raw XAML representing the theme.|  
+||The remainder parameter (what is left after the other parameters are removed), should contain the name of theme to use. This should be a XAML file (renamed to XML and uploaded as a web resource) web resource name, a URL from an anonymous access server, or the raw XAML representing theme.|  
 
 <a name="SetAppBar"></a>   
 ### SetAppBar  

@@ -63,7 +63,7 @@ search.app:
 
    ![Authentication details sign in](../../unified-service-desk/media/usd-package-deployer-1.PNG "Authentication details sign in")  
 
-6. If you have multiple organizations and chose to select the organization that you want to connect to in the previous step, the next screen displays the list of organizations. Select a the Common Data Service platform organization to connect to, and proceed.  
+6. If you have multiple organizations and chose to select the organization that you want to connect to in the previous step, the next screen displays the list of organizations. Select the Common Data Service platform organization to connect to, and proceed.  
 
 7. On successful authentication, the next screen displays the packages available for deployment. Read the description to determine the package that you want to deploy, select the package, and then choose **Next**.  
 

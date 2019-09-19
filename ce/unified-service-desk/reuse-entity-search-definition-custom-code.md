@@ -21,7 +21,7 @@ search.app:
   - D365USD
 ---
 # Reuse Entity Search definition in your custom code
-Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query the the Common Data Service platform web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
+Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is exposed as a service for developers so that they can programmatically use an existing entity search definition in their custom code to search [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] apps data. Entity searches in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] use FetchXML to query the Common Data Service platform web services to return data. For information about defining entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
   
  When you set up an entity search, you can choose whether to return an entire search result set or page the FetchXML results for large datasets by using a paging cookie for faster performance. For more information about using paging cookie with FetchXML, see [Page large result sets with FetchXML](https://msdn.microsoft.com/library/gg309717.aspx).  
   
@@ -31,7 +31,7 @@ Entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-servi
   
 <a name="Request"></a>   
 ## Create an EntitySearchRequest object  
- The [EntitySearchRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) message is overloaded, and you must use any of the following three constructors to create a request object depending how you want the records to be returned. Creating a request object without using one of these three constructors is not supported. Before using an entity search name in the request object, ensure that the entity search is already defined in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on your the Common Data Service platform instance.  
+ The [EntitySearchRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.unifiedservicedesk.dynamics.entitysearch.entitysearchrequest) message is overloaded, and you must use any of the following three constructors to create a request object depending how you want the records to be returned. Creating a request object without using one of these three constructors is not supported. Before using an entity search name in the request object, ensure that the entity search is already defined in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on your Common Data Service platform instance.  
   
 -   Create a request object using just the entity search name. Use this constructor to return all the records as a result of the entity search.  
   

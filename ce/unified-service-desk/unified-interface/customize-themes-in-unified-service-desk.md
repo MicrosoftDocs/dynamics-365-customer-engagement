@@ -84,7 +84,7 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 |Blue|/UnifiedServiceDesk;component/Styles/BlueStyle.xaml|  
 |Style|/UnifiedServiceDesk;component/Styles/Style.xaml|  
   
- In the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, agents can set the theme by clicking the down arrow next to the settings icon at the top-right corner, and then selecting a predefined theme from the **Set Theme** submenu.  
+ In the sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, agents can set theme by clicking the down arrow next to the settings icon at the top-right corner, and then selecting a predefined theme from the **Set Theme** submenu.  
   
  Clicking a theme in the **Set Theme** submenu makes an action call to the **SetTheme** action with the appropriate syntax in the **Data** field as mentioned earlier. For example, this is the action call definition for the Air style:  
   

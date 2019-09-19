@@ -140,14 +140,14 @@ If ([[$Debug]]!= true) CRMGlobalManager.GetApp(“Account”);
   
 <a name="Settings"></a>   
 ### $Settings  
- This section provides user settings that only apply to the current user. These settings are automatically loaded at startup, and may be read using an action call at runtime. These often include settings for the theme selection of the user but may provide access to any user specific settings that the configurator wants to make available.  
+ This section provides user settings that only apply to the current user. These settings are automatically loaded at startup, and may be read using an action call at runtime. These often include settings for theme selection of the user but may provide access to any user specific settings that the configurator wants to make available.  
   
  These user settings are defined in the **User Settings** area (**Settings** > **User Settings**) in the Common Data Service platform while configuring [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
  These settings can be used like any other replacement parameter in the system. The Global Manager hosted control provides an action, [SaveSetting](../unified-service-desk/global-manager-hosted-control.md#SaveSetting), which will write user settings to the server, assuming the user has write access. This can be used to store user specific preferences such as theme selection and layouts.  
   
 > [!NOTE]
->  The user settings can be saved to the the Common Data Service platform server if the user has write access.  
+>  The user settings can be saved to the Common Data Service platform server if the user has write access.  
   
 <a name="Subject"></a>   
 ### $Subject  

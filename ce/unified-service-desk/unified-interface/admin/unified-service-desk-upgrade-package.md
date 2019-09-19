@@ -36,7 +36,7 @@ search.app:
   
 - Upgrade the existing [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] solutions in the specified the Common Data Service platform organization to the latest version without affecting the existing configuration data.  
   
-- Configure a new [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] environment without any sample configuration in a the Common Data Service platform organization where no [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] solution is currently deployed.  
+- Configure a new [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] environment without any sample configuration in the Common Data Service platform organization where no [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] solution is currently deployed.  
   
   With the Unified Service Desk Upgrade sample application package, the following components are installed:  
   

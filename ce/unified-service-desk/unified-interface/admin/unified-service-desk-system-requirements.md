@@ -24,7 +24,7 @@ ms.tgt_pltfrm:
 ---
 
 # Requirements
-This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications on a the Common Data Service platform instance.  
+This topic provides information about the system requirements for installing the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] client application and deploying the [!INCLUDE[pn_unified_service_desk](../../../includes/pn-unified-service-desk.md)] sample applications on the Common Data Service platform instance.  
 
 <a name="hardware"></a>   
 ## Hardware requirements for the Unified Service Desk client  

@@ -213,7 +213,7 @@ Param=value
 
 <a name="DoSearch"></a>   
 ### DoSearch  
- Calls the the Common Data Service platform web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
+ Calls the Common Data Service platform web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -422,7 +422,7 @@ Param=value
 |Parameter|Description|  
 |---------------|-----------------|  
 |clear|`True` if you want to completely clear the current theme before applying the specified theme. If this parameter is false, or not specified, the new theme information will be merged with the current theme.|  
-||The remainder parameter (what is left after the other parameters are removed), should contain the name of the theme to use. This should be a XAML file (renamed to XML and uploaded as a web resource) web resource name, a URL from an anonymous access server, or the raw XAML representing the theme.|  
+||The remainder parameter (what is left after the other parameters are removed), should contain the name of theme to use. This should be a XAML file (renamed to XML and uploaded as a web resource) web resource name, a URL from an anonymous access server, or the raw XAML representing theme.|  
 
 <a name="SetAppBar"></a>   
 ### SetAppBar  
@@ -469,7 +469,7 @@ Param=value
 
 <a name="ShowAbout"></a>   
 ### ShowAbout  
- Displays the about dialog box for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that contains information such as the name of the current user, the the Common Data Service platform server and organization that the user is connected to, version number of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and the support site URL.  
+ Displays the about dialog box for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that contains information such as the name of the current user, the Common Data Service platform server and organization that the user is connected to, version number of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and the support site URL.  
 
 <a name="ShowTab"></a>   
 ### ShowTab  

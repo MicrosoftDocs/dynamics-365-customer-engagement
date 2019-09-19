@@ -254,7 +254,7 @@ Use the **CRM Page** hosted control type to load a URL or page from model-driven
  This action collapses or expands the ribbon. If you hide the ribbon in the **Navigate** action, it will not be displayed and this action does not work. This action will work only when the ribbon was initially loaded.  
 
 ### ToggleNavigation  
- This action collapses or expands the navigation pane on the left panel of the the model-driven apps window. The navigation must contain a navigation panel for this action to work.  
+ This action collapses or expands the navigation pane on the left panel of the model-driven apps window. The navigation must contain a navigation panel for this action to work.  
 
 <a name="events"></a>   
 ## Predefined events  
@@ -304,7 +304,7 @@ and the **DataReady** event is fired for inline navigations as well.
 |url|The URL displayed when refresh was requested.|  
 
 ### Saved  
- Occurs after a record in the the model-driven apps page is saved.  
+ Occurs after a record in the model-driven apps page is saved.  
 
 |Parameter|Description|  
 |---------------|-----------------|  

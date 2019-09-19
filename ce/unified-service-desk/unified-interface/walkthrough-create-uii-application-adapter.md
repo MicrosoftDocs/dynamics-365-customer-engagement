@@ -109,7 +109,7 @@ You can create an application adapter if you want to integrate an external appli
   
 1. Copy the application from your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application directory. In this case, we will copy the Microsoft.Uii.QuickStarts.QsExternalApp.exe file to the C:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your the Common Data Service platform server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
   
 3. On successful sign in, you’ll see the **Sample External Application** button on your desktop.  
   
@@ -242,7 +242,7 @@ You can create an application adapter if you want to integrate an external appli
   
 1. Copy the assembly that contains your application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application directory. In this case, we will copy the ExternalApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
   
-2. Run [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your the Common Data Service platform server.  
+2. Run [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
   
 3. On successful sign in, you’ll see the sample external application on your desktop.  
   

@@ -223,7 +223,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Copy the assembly that contains your web application adapter definition from your [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] project output folder (\<ProjectFolder>\bin\debug) to the Unified Service Desk application directory. In this case, you’ll copy the MyWebApplicationAdapter.dll file to the c:\Program Files\Microsoft Dynamics CRM USD\USD directory.  
 
-2. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your the Common Data Service platform server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
 
 3. On successful sign in, you will see the sample external web application button on your desktop.  
 

@@ -31,7 +31,7 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
   
 1. In **Solution Explorer**, right-click the solution and select **Import**.  
   
-2. In the **Import From Dynamics 365 Customer Engagement** dialog box, enter the the Common Data Service platform server name and your credentials.  
+2. In the **Import From Dynamics 365 Customer Engagement** dialog box, enter the Common Data Service platform server name and your credentials.  
   
    ![Screenshot of import from Dynamics 365 Customer Engagement apps dialog box](../../unified-service-desk/media/usd-import.PNG "Screenshot of import from Dynamics 365 Customer Engagement apps dialog box")  
   

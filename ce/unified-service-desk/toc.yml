@@ -64,7 +64,7 @@
         href: action-calls.md
       - name: Replacement parameters
         href: replacement-parameters.md
-    - name: User Interface Integration (UII) framework  
+    - name: User Interface Integration (UII) framework
       items:
       - name: Unified Service Desk and the UII framework
         href: unified-service-desk-uii-framework.md
