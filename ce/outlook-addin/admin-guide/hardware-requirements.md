@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 apps 
 ms.assetid: 3dbb25e8-befe-4466-9614-5d0b84e83ea7
 caps.latest.revision: 31
 author: mduelae
@@ -45,7 +45,7 @@ The following table lists the minimum recommended hardware requirements when you
   
 - Latency under 150 ms  
   
-  These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc-more-information](../../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 for Customer Engagement apps clients](https://technet.microsoft.com/library/mt269872.aspx)  
+  These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc-more-information](../../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 apps clients](https://technet.microsoft.com/library/mt269872.aspx)  
   
 > [!NOTE]
 >  Successful network installation of [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)] requires a reliable and high-throughput network. Otherwise, installation might fail. The recommended minimum available bandwidth of the network connection is 300 Kbps.  

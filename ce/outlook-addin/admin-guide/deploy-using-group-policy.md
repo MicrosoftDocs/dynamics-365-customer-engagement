@@ -8,7 +8,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
-  - Dynamics 365 for Customer Engagement apps 
+  - Dynamics 365 apps 
 ms.assetid: 9e0b3f19-c041-4cab-a620-339f0d1d8674
 caps.latest.revision: 35
 author: mduelae
@@ -64,7 +64,7 @@ Group Policy provides an infrastructure for centralized configuration management
   
    2. In Group Policy Management, expand **Forest**, **Domains** right-click the domain, and then click **Create a GPO in this domain, and Link it here**.  
   
-   3. In the **New GPO** dialog, type a name for the GPO, such as *Microsoft Dynamics 365 for Customer Engagement apps Users*, and then click **OK**.  
+   3. In the **New GPO** dialog, type a name for the GPO, such as *Microsoft Dynamics 365 apps Users*, and then click **OK**.  
   
        Creating a GPO at the domain level configures the GPO with domain-wide scope.  
   
@@ -82,11 +82,11 @@ Group Policy provides an infrastructure for centralized configuration management
       >  The [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] administrative installation folders must be on a network share that can be read-accessed by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users in the domain.  
       > 
       > [!TIP]
-      >  By default, the package name is *Microsoft Dynamics 365 for Customer Engagement apps \<version> for Outlook* for both 32-bit and 64-bit packages. Consider renaming the package to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> 64-(bit) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> (32-bit). This name appears in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] in the list of programs to install from the network.  
+      >  By default, the package name is *Microsoft Dynamics 365 apps \<version> for Outlook* for both 32-bit and 64-bit packages. Consider renaming the package to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> 64-(bit) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] \<version> (32-bit). This name appears in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] in the list of programs to install from the network.  
   
    8. In the Deploy Software dialog, select **Publish** to publish the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] application, and then click **OK**.  
   
-   9. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is available in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for all authenticated users the next time that they log on to the domain. To limit the scope to a specific organizational unit (OU), group, or individual user, in Group Policy Management, expand **Group Policy Objects**, and click the GPO named *Microsoft Dynamics 365 for Customer Engagement apps Users*, and then add or remove the security objects that you want, such as a group, in the **Security Filtering** area of the publication on the **Scope** tab.  
+   9. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is available in [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)] for all authenticated users the next time that they log on to the domain. To limit the scope to a specific organizational unit (OU), group, or individual user, in Group Policy Management, expand **Group Policy Objects**, and click the GPO named *Microsoft Dynamics 365 apps Users*, and then add or remove the security objects that you want, such as a group, in the **Security Filtering** area of the publication on the **Scope** tab.  
   
 <a name="BKMK_PublishAssign"></a>   
 ## Publish versus Assign  
@@ -97,4 +97,4 @@ Group Policy provides an infrastructure for centralized configuration management
   
 ### See Also  
  [Install Microsoft Dynamics CRM 2015 for Outlook with roaming user profiles using Windows Server Remote Desktop Services](install-desktop-virtualization.md)   
- [Install or upgrade Language Packs for Microsoft Dynamics 365 for Customer Engagement apps](https://technet.microsoft.com/library/hh699674.aspx)
+ [Install or upgrade Language Packs for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699674.aspx)
