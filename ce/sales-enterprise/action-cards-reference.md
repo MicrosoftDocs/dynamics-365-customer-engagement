@@ -35,7 +35,7 @@ Cards are categorized into the following:
 
 ## Base cards  
 
-Base cards relate to the core features of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] such as contacts and opportunities. These are the only action cards that are available for Dynamics 365 for Customer Engagement (on-premises). The following are basic features of the cards:  
+Base cards relate to the core features of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] such as contacts and opportunities. These are the only action cards that are available for Dynamics 365 Customer Engagement (on-premises). The following are basic features of the cards:  
 
 - Always available regardless of which email server you are using.  
 - Available for both online and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)].  

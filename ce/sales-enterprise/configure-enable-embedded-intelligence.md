@@ -1,11 +1,10 @@
 ---
-title: "Configure and enable embedded intelligence features for Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Configure and enable embedded intelligence features for Dynamics 365 Sales | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to: Dynamics 365 for Customer Engagement (online)
 ms.assetid: f2ba3ad4-96a0-47a9-a54a-71265f4d8053
 author: udag
 ms.author: udag
@@ -30,7 +29,7 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 |[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]| <ul><li>Only Relationship assistant is available, and only its <em>base cards</em> are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul> |
 
 > [!IMPORTANT]
-> The features Relationship assistant, Email engagement, and Auto capture are available for Dynamics 365 for Customer Engagement for Enterprise license only.
+> The features Relationship assistant, Email engagement, and Auto capture are available for Dynamics 365 Sales for Enterprise license only.
 
 
 ## How to enable Embedded intelligence 
@@ -108,7 +107,7 @@ Verify the following prerequisites before enabling Email engagement for your org
 2.  Select **Grant Permissions**. <br>
     ![Email engagement grant permissions](media/email-engagement-grant-permissions.png "Email engagement grant permissions") <br>
     > [!NOTE]
-    > If the Dynamics 365 for Customer Engagement AI for Sales is installed, this step will be skipped. You don't have to grant permissions to Email engagement.<br>
+    > If the Dynamics 365 Sales Insights is installed, this step will be skipped. You don't have to grant permissions to Email engagement.<br>
 
     Email engagement is enabled and ready to use in your organization. <br>
 
