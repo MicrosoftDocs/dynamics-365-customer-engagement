@@ -232,3 +232,4 @@ Bookings are created for each resource on the days selected. Availability for ea
 ### See also
 
 - [Allocation methods](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/project-service/faq-allocation-methods)
+- [Multi-resource scheduling](./multi-resource-scheduling-requirement-groups.md)
