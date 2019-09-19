@@ -1,6 +1,6 @@
 ---
-title: "Dynamics 365 for Customer Engagement Portal FAQ | MicrosoftDocs"
-description: "Frequently asked questions in Dynamics 365 for Customer Engagement Portal."
+title: "Dynamics 365 Portals FAQ | MicrosoftDocs"
+description: "Frequently asked questions in Dynamics 365 Portals."
 ms.custom: 
   - dyn365-portal
 ms.date: 02/08/2019
@@ -24,7 +24,7 @@ search.app:
 
 # Common portal issues and best practices
 
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portal is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
+Dynamics 365 Portals is an extensible framework which allows customers to build highly customized and tailored experiences. While customizing, extending, or configuring your portal, you can run into a variety of issues.
 
 In this article you will learn about the common queries and issues we have identified, their impact, and understand the guidance to resolve them. Some of these checks and best practices are also covered under portal checker as well.
 
@@ -36,15 +36,15 @@ This will help you to resolve common issues and create a usable portal for your 
 
 You can get a portal subscription by either of the following ways:
 
-- One portal add-on is provided along with the purchase of a certain type and quantity of Dynamics 365 for Customer Engagement user license. Details are available in the Dynamics 365 for Customer Engagement pricing and licensing guide. It is important to note that you get only one portal add-on with user licenses even if you have bought multiple type or quantity of valid licenses.
+- One portal add-on is provided along with the purchase of a certain type and quantity of Dynamics 365 user license. Details are available in the Dynamics 365 pricing and licensing guide. It is important to note that you get only one portal add-on with user licenses even if you have bought multiple type or quantity of valid licenses.
 
-- Additional portal subscriptions can be purchased by purchasing a Portal Add-on subscription. This subscription is an add-on subscription to Dynamics 365 for Customer Engagement and is available to be purchased if you have the appropriate Dynamics 365 for Customer Engagement licenses.
+- Additional portal subscriptions can be purchased by purchasing a Portal Add-on subscription. This subscription is an add-on subscription to Dynamics 365 and is available to be purchased if you have the appropriate Dynamics 365 licenses.
 
 ### How do I change the audience and type of a portal after it is provisioned?
 
 After you have provisioned a portal, the option to change the portal audience is disabled.
 
-However, you can change the audience and type of portal after it is provisioned by following the steps in [Change the Dynamics 365 for Customer Engagement instance, audience, or type of portal](change-dynamics-instance.md).
+However, you can change the audience and type of portal after it is provisioned by following the steps in [Change the Dynamics 365 instance, audience, or type of portal](change-dynamics-instance.md).
 
 ### How do I change the base URL of a portal after it is provisioned?
 
@@ -52,23 +52,23 @@ You can change the base URL of a portal after it is provisioned by following the
 
 ### How do I delete a portal completely after it is provisioned?
 
-A Dynamics 365 for Customer Engagement Portal consists of the following components:
+A Dynamics 365 Portals consists of the following components:
 
 - **Portal website host**: Portal website host is the Portal code that forms the actual website.
 
-- **Portal solutions**: Solutions that are installed in the Dynamics 365 for Customer Engagement organization and contain the metadata entities for any Dynamics 365 for Customer Engagement Portal.
+- **Portal solutions**: Solutions that are installed in the Dynamics 365 organization and contain the metadata entities for any Dynamics 365 Portals.
 
-To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Dynamics 365 for Customer Engagement organization.
+To delete a portal completely requires deleting the Portal website host as well as uninstalling Portal solutions from your Dynamics 365 organization.
 
-To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Dynamics 365 for Customer Engagement organization.
+To reset the portal host, follow the steps in [Reset a portal](reset-portal.md). It is important to note that resetting a portal host doesn't affect the configuration done in your Dynamics 365 organization.
 
-To delete portal solutions, you will have to delete solutions from the Dynamics 365 for Customer Engagement solution explorer UI. The order in which Portal solutions should be uninstalled is provided in [Uninstalling Portal Solutions](https://community.dynamics.com/365/b/dynamics365portalssupport/archive/2017/02/27/portal-troubleshooting-part-three-uninstalling-portal-solutions).
+To delete portal solutions, you will have to delete solutions from the Dynamics 365 solution explorer UI. The order in which Portal solutions should be uninstalled is provided in [Uninstalling Portal Solutions](https://community.dynamics.com/365/b/dynamics365portalssupport/archive/2017/02/27/portal-troubleshooting-part-three-uninstalling-portal-solutions).
 
-## Dynamics 365 for Customer Engagement organization lifecycle
+## Dynamics 365 organization lifecycle
 
-### We recently moved our Dynamics 365 for Customer Engagement organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
+### We recently moved our Dynamics 365 organization from one geolocation or tenant to another. How do we handle portals connected to our organization?
 
-When you move your Dynamics 365 for Customer Engagement organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
+When you move your Dynamics 365 organization from one geolocation or tenant to another, associated portals to that organization will not move automatically. Also, since your organization has moved, any portal associated with that organization will not work and will throw an error on startup.
 
 To associate your portal again to relevant organizations:
 
@@ -76,13 +76,13 @@ To associate your portal again to relevant organizations:
 
 2. Once your existing portal is reset, go to the new tenant (or to the new geolocation of the existing tenant) and provision a portal available there.
 
-### After restoring a Dynamics 365 for Customer Engagement organization from an old backup, the portal connected to the organization is not working. How do we fix it?
+### After restoring a Dynamics 365 organization from an old backup, the portal connected to the organization is not working. How do we fix it?
 
-When a Dynamics 365 for Customer Engagement organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
+When a Dynamics 365 organization is restored from a backup, various changes are done in your organization that can break your portal's connection with the organization. To fix this issue:
 
 - If the organization ID is the same after the restore operation and portal solutions are also available:
 
-  1. Go to the Dynamics 365 for Customer Engagement admin center and select the **Applications** tab.
+  1. Go to the Dynamics 365 admin center and select the **Applications** tab.
   2. Select the name of the portal and then select **Manage**.
   3. In Portal Admin Center, go to the **Portal Details** tab.
   4. In the **Portal State** drop-down list, choose **Off**.
@@ -95,13 +95,13 @@ When a Dynamics 365 for Customer Engagement organization is restored from a back
 
   - In this case, it is better to reset the portal by following the steps in [Reset a portal](reset-portal.md) and then reprovision it.
 
-### We recently changed the URL of our Dynamics 365 for Customer Engagement organization and our portal stopped working. How do we fix it?
+### We recently changed the URL of our Dynamics 365 organization and our portal stopped working. How do we fix it?
 
-When you change the URL of your Dynamics 365 for Customer Engagement organization, your portal will stop working because it cannot identify the Dynamics 365 for Customer Engagement URL anymore. To fix this issue:
+When you change the URL of your Dynamics 365 organization, your portal will stop working because it cannot identify the Dynamics 365 URL anymore. To fix this issue:
 
-1. Go to the Dynamics 365 for Customer Engagement admin center and select the **Applications** tab.
+1. Go to the Dynamics 365 admin center and select the **Applications** tab.
 2. Select the name of the portal and then select **Manage**.
-3. Go to **Portal Actions** > **Update Dynamics 365 for Customer Engagement URL**.
+3. Go to **Portal Actions** > **Update Dynamics 365 URL**.
 4. Follow the instructions in the wizard.
 
 Your portal will be restarted and start working again.
@@ -124,7 +124,7 @@ When you enable diagnostic logging, you can search for particular errors that us
 
 ### How do I use a custom login provider on my portal?
 
-Dynamics 365 for Customer Engagement Portal supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 for Customer Engagement portal authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
+Dynamics 365 Portals supports any custom login provider that provides support for standard authentication protocols. We support OpenIdConnect, SAML2, and WS-Federation protocols for any custom IDP. OAuth 2 is supported only for a fixed set of known IDPs. For more information on how to set up an IDP configuration, see [Configure Dynamics 365 Portals authentication](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/configure-portal-authentication).
 
 ### How do I get new portal releases in my sandbox portal first before it gets applied to production?
 
@@ -132,19 +132,19 @@ Any portal release is done in two phases: early upgrade and general availability
 
 ### How do I use a custom domain name for my portal?
 
-You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 for Customer Engagement portal to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
+You can enable your portal to use a custom domain name in place of the standard `microsoftcrmportals.com` domain name. More information: [Link your Dynamics 365 Portals to a custom domain](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/manage-portal#link-your-dynamics-365-portal-to-a-custom-domain)
 
 ## Portal checker
 
 ### Portal does not load and displays a generic error page (Server Error in "/" application) 
 
-This issue can be caused by a variety of reasons like when a portal is not able to connect to the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization doesn't exist or its URL has changed, when request to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization is timed out, and so on. When you run the portal checker tool, it will try to determine the exact reason and will point you to the correct mitigation. 
+This issue can be caused by a variety of reasons like when a portal is not able to connect to the underlying Dynamics 365 organization, Dynamics 365 organization doesn't exist or its URL has changed, when request to Dynamics 365 organization is timed out, and so on. When you run the portal checker tool, it will try to determine the exact reason and will point you to the correct mitigation. 
 
 Below is a list of most common causes and their correspondng mitigation steps:
 
-#### URL of the connected Dynamics 365 for Customer Engagement organization has changed 
+#### URL of the connected Dynamics 365 organization has changed 
 
-This happens when the URL of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization is changed by a user after portal is provisioned against the organization. To fix this issue, update the Dynamics 365 URL:
+This happens when the URL of Dynamics 365 organization is changed by a user after portal is provisioned against the organization. To fix this issue, update the Dynamics 365 URL:
 
 1. Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 2. Select the name of the portal that you want to reset, and then select **Manage**.
@@ -152,11 +152,11 @@ This happens when the URL of [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-
 
 #### Dynamics 365 organization connected to your portal is in administration mode
 
-This issue occurs when the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization is put in administration mode either when changing organization from production to sandbox mode or manually by an organization administrator.
+This issue occurs when the Dynamics 365 organization is put in administration mode either when changing organization from production to sandbox mode or manually by an organization administrator.
 
 If this is the cause, you can disable administration mode by performing actions listed [here](../admin/manage-sandbox-instances.md#administration-mode). Once administration mode is disabled, portal will work fine.
 
-#### Authentication connection between Dynamics 365 for Customer Engagement organization and portal is broken
+#### Authentication connection between Dynamics 365 organization and portal is broken
 
 This issue occurs when the authentication connection between Dynamic 365 organization and portal is broken because either Dynamics 365 organization was restored from a backup or was deleted and recreated from a backup. To fix this issue:
 
@@ -183,7 +183,7 @@ If restarting the portal doesn't work and this issue is occurring for a long per
 
 This issue occurs when the website binding records for portal are deleted from the underlying Dynamics 365 organization and portal is not able to create binding automatically. To fix this issue:
 
-1. Sign in to Dynamics 365 for Customer Engagement.
+1. Sign in to Dynamics 365 Portals.
 2. Go to **Portals** > **Website Bindings**.
 3. Delete all the website binding records which are pointing to your portal. The **Sitename** field helps you to identify website binding records of your portal.
 4. After you delete all website binding records, restart the portal.
@@ -239,11 +239,11 @@ Portal checker (self-service diagnostic) tool will also point out these issues b
 
 #### Web page tracking enabled
 
-Enabling a portal web page for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Portal capabilities for Dynamics 365: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal web page for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will list all the web pages (both root and content page) which are enabled for page tracking. These pages should be disabled by following these steps:
 
-1. Sign in to Dynamics 365 for Customer Engagement.
+1. Sign in to Dynamics 365 Portals.
 2. Go to Advanced find.
 3. Search for all the web pages where **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 4. Bulk edit all the pages and set this field to **No**.
@@ -252,11 +252,11 @@ Alternatively, you can also go to each page listed in portal checker result and 
 
 #### Web file tracking enabled
 
-Enabling a portal web file for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Portal capabilities for Dynamics 365: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal web file for page tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will list all the web files which are enabled for page tracking. These files should be disabled by following these steps:
 
-1. Sign in to Dynamics 365 for Customer Engagement.
+1. Sign in to Dynamics 365 Portals.
 2. Go to Advanced find.
 3. Search for all the web files where **Enable Tracking (Deprecated)** field is enabled (value is set to Yes).
 4. Bulk edit all the records and set this field to **No**.
@@ -265,11 +265,11 @@ Alternatively, you can also go to each file listed in portal checker result and 
 
 #### Login tracking enabled
 
-Enabling a portal login tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Portal capabilities for Dynamics 365: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
+Enabling a portal login tracking can lead to performance issues in your portal. This functionality is deprecated since January 2018 release of Dynamics 365 Portal. More information: [Dynamics 365 Portals: Deprecated Features](https://blogs.msdn.microsoft.com/crm/2018/03/20/portal-capabilities-for-dynamics-365-deprecated-features/)
 
 The portal checker tool will check if login tracking is enabled for your portal and will show a failed check if it is enabled. Login tracking should be disabled by following these steps:
 
-1.	Sign in to Dynamics 365 for Customer Engagement.
+1.	Sign in to Dynamics 365 Portals.
 2.	Go to **Portals** > **Site Settings**.
 3.	Search for site setting named `Authentication/LoginTrackingEnabled`.
 4.	Change the value of this site setting to **False** or delete the site setting.
@@ -281,7 +281,7 @@ Disabling header output cache on your portal can lead to performance issues in y
 
 The portal checker tool will check if header output cache is disabled on your portal and will show a failed check if it is disabled. To enable it:
 
-1.	Sign in to Dynamics 365 for Customer Engagement.
+1.	Sign in to Dynamics 365 Portals.
 2.	Go to **Portals** > **Site Settings**.
 3.	Search for site setting named `Header/OutputCache/Enabled`.
 4.	If the site setting is available, change the value of Site setting to **True**. If the site setting is not available, create a new site setting with this name and set its value to **True**.
@@ -293,7 +293,7 @@ Disabling footer output cache on your portal can lead to performance issues in y
 
 The portal checker tool will check if footer output cache is disabled on your portal and will show a failed check if it is disabled. To enable it:
 
-1.	Sign in to Dynamics 365 for Customer Engagement.
+1.	Sign in to Dynamics 365 Portals.
 2.	Go to **Portals** > **Site Settings**.
 3.	Search for site setting named `Footer/OutputCache/Enabled`.
 4.	If the site setting is available, change the value of Site setting to **True**. If the site setting is not available, create a new site setting with this name and set its value to **True**.

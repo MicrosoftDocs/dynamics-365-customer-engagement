@@ -1,5 +1,5 @@
 ---
-title: "Render a website header and primary navigation bar in a portal in Dynamics 365 for Customer Engagement | MicrosoftDocs"
+title: "Render a website header and primary navigation bar in a portal | MicrosoftDocs"
 description: "Instructions and sample code to render a website header and primary navigation bar on a portal."
 ms.custom: 
   - dyn365-portal
