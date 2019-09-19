@@ -1,3 +1,21 @@
+---
+title: "Segment Query definition (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+description: "Learn more about the segment query definition"
+ms.custom: 
+ms.date: 09/05/2018
+ms.reviewer: 
+ms.service: crm-online
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
+author: nkrb
+ms.author: nabuthuk
+manager: kvivek
+search.audienceType: 
+  - developer
+search.app: 
+  - D365CE
+---
 # Segment Query definition
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
