@@ -120,7 +120,7 @@ Now set the required Permissions:
 
 ```csharp  
   
-//Reference Azure AD authentication Library (ADAL)    
+//Reference Azure AD authentication Library (ADAL v2)    
 using Microsoft.IdentityModel.Clients.ActiveDirectory; 
 using System.Net.Http.Headers;
    . . . 
