@@ -23,8 +23,6 @@ Auto capture enables [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
   
 Auto capture is part of the *Embedded intelligence* suite of features. 
   
-[Watch a short video (1:43) about Dynamics 365 for Customer Engagement Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
-
 The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
   
 ## View auto-captured messages and convert them into tracked messages  
@@ -75,7 +73,7 @@ The administrator must enable auto capture before you can try it out. For comple
   
     ![Auto capture personal options](media/auto-capture-personal-options.png "Auto capture personal options")  
   
-3.  Set the **Show email not tracked in Dynamics 365 for Customer Engagement in the Activities list** option to **Yes** or **No**, as needed.  
+3.  Set the **Show email not tracked in Dynamics 365 in the Activities list** option to **Yes** or **No**, as needed.  
   
 4.  Select **OK**.  
 
