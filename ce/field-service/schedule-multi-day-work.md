@@ -226,8 +226,8 @@ Bookings are created for each resource on the days selected. Availability for ea
 
 ## Additional Notes
 - Requirement groups cannot be scheduled for multiple days. 
-- remaining duration
 - An on site multi-day work order or requirement will filter available resources by their location, but travel time will not be calculated and added to the resulting bookings.
+- As you book requirements, multi-day or otherwise, the system tracks fulfilled duration and remaining duration. These field values compare total booked time with the duration of the requirement. 
 
 ### See also
 
